@@ -1,0 +1,15 @@
+{
+  "questionId": "4afe5f0f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Each term has a factor of $x^3$ because the smallest exponent of $x$ among the three terms is $3$.\n$$6x^5-4x^4+11x^3$$"
+    },
+    {
+      "title": "Factor it out",
+      "content": "Divide each term by $x^3$ to get the expression inside the parentheses.\n$$6x^5-4x^4+11x^3=x^3(6x^2-4x+11)$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ab24d111",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the inserted phrase",
+      "content": "The phrase <em>a record label that was a pioneer of early hip hop music</em> explains Sugar Hill Records. Because it interrupts the main sentence, it needs a closing comma before the main clause resumes with <em>Chambers joined</em>."
+    },
+    {
+      "title": "Keep the main clause intact",
+      "content": "Choice B uses a semicolon, but the words before it are not an independent clause. Choice C adds <em>which</em>, creating an awkward relative clause. Choice D leaves the inserted phrase unclosed. The comma after <em>music</em> correctly marks the boundary. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1bf0592b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a related fact",
+      "content": "The first sentence says <em>Najas marina</em> can thrive in nickel-polluted soil. The second sentence adds more information about the same plant by explaining that it absorbs and stores nickel."
+    },
+    {
+      "title": "Reject contrast and result links",
+      "content": "A makes the second sentence sound like a result of the first, while B and D signal contrast. The second sentence instead adds an intensifying related point about how the plant handles nickel. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute first-year earnings for each account",
-      "content": "Account A earns 6% annual interest on 500 dollars:<br/>$$0.06 \\times 500 = 30$$<br/>Account B earns a flat 25 dollars per year. So in year 1, Account A earns 30 dollars and Account B earns 25 dollars."
+      "title": "Compare first-year earnings",
+      "content": "Account A earns $6\\%$ of $500$ dollars in the first year:<br/>$$0.06\\cdot500=30$$<br/>Account B earns a fixed $25$ dollars per year."
     },
     {
-      "title": "Track earnings in later years",
-      "content": "Account A compounds annually, so its balance grows each year and so do its earnings:<br/>Year 2 balance = 530 dollars, earnings = $$0.06 \\times 530 = 31.80$$<br/>Year 3 balance = 561.80 dollars, earnings = $$0.06 \\times 561.80 \\approx 33.71$$<br/>Account B keeps earning a fixed 25 dollars every year. Since A starts above 25 dollars and only grows, A is always greater than B."
+      "title": "Use compounding growth",
+      "content": "Because Account A compounds annually, its balance grows each year, so $6\\%$ of that growing balance is more than the first year's $30$ dollars. Account B stays fixed at $25$ dollars per year."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Account A always earns more money per year than Account B.</strong> A starts at \\$30 and grows; B stays at \\$25. True.</li><li><strong>Choice B &mdash; Account A always earns less money per year than Account B.</strong> False &mdash; even in year 1, A earns \\$30 vs. B&#39;s \\$25.</li><li><strong>Choice C &mdash; Account A earns more money per year than Account B at first but eventually earns less money per year.</strong> A&#39;s earnings only grow, so it never drops below \\$25. False.</li><li><strong>Choice D &mdash; Account A earns less money per year than Account B at first but eventually earns more money per year.</strong> A is already higher in year 1. False.</li></ul>That is the correct answer.",
+      "title": "Calculator shortcut",
+      "content": "Account A starts above Account B and continues increasing, so Account A always earns more money per year. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[30,31.8,33.708]",

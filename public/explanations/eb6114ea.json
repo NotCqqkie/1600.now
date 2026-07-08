@@ -1,0 +1,15 @@
+{
+  "questionId": "eb6114ea",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the target expression",
+      "content": "The expression being asked about is a multiple of the expression in the equation.<br/>$$56+7x=7(8+x)$$"
+    },
+    {
+      "title": "Substitute the known value",
+      "content": "The given equation says<br/>$$8+x=5$$<br/>So<br/>$$56+7x=7(8+x)=7(5)=35$$<br/>The answer is <strong>35</strong>."
+    }
+  ]
+}

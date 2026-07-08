@@ -1,0 +1,15 @@
+{
+  "questionId": "f82dff6d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the title to the name",
+      "content": "The blank completes \"of keen interest to linguist Marian Klamer of Leiden University.\" The professional title and proper name form one identifying noun phrase, so no punctuation is needed between them."
+    },
+    {
+      "title": "Reject unnecessary punctuation",
+      "content": "Choice A has an opening comma without a matching closing comma. Choice B treats the name as nonessential even though it identifies the specific linguist. Choice D uses a colon where the sentence needs a simple title-name phrase. The unpunctuated form is standard. The answer is <strong>C</strong>."
+    }
+  ]
+}

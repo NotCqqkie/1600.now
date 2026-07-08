@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the conditional probability",
-      "content": "The problem specifies we're selecting from days where there was no rain. We need to find: P(weekend | no rain) = (weekend days with no rain) / (all days with no rain)."
+      "title": "Use the no-rain column",
+      "content": "The day is selected from the days with no rain, so the denominator is the total number of no-rain days: $64$. The favorable outcomes are weekend days with no rain: $16$."
     },
     {
-      "title": "Extract values from the no-rain column",
-      "content": "From the table's <em>No rain</em> column: there were 16 weekend days with no rain, and a total of 64 days with no rain."
-    },
-    {
-      "title": "Calculate the probability",
-      "content": "$$\\frac{16}{64} = \\frac{1}{4}$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Find the conditional probability",
+      "content": "The probability is\n$$\\frac{16}{64}=\\frac{1}{4}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

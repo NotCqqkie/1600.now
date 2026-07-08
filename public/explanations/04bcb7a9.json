@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the fossil's age in the passage",
-      "content": "The passage explicitly states that Wang and colleagues discovered a <strong>164-million-year-old plant fossil</strong> in China. This is the direct answer to the question. The Jurassic period's time range (145–201 million years ago) is mentioned as geological context, not as the age of this fossil."
+      "title": "Locate the fossil age",
+      "content": "The first sentence directly states that Wang and colleagues discovered a 164-million-year-old plant fossil in China. The Jurassic period range is only background context for the discovery's significance."
     },
     {
-      "title": "Match the stated age to the correct choice",
-      "content": "The correct answer must state <strong>164 million years old,</strong> exactly as the passage describes the discovered fossil. The other choices either use numbers from the Jurassic period's range or misstate the information. That matches <strong>Choice C &mdash; 164 million years old</strong>."
+      "title": "Separate context from answer",
+      "content": "A is not stated as the fossil's age. B and D come from the Jurassic period range, not from the age of the specific fossil. The requested age is given directly in the opening sentence. The answer is <strong>C</strong>."
     }
   ]
 }

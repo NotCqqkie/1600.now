@@ -1,0 +1,23 @@
+{
+  "questionId": "f2f5cfc8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two points",
+      "content": "The given values give the points $(0,0)$ and $(11,5)$. A linear function is determined by its slope and intercept."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Compute the slope between the two points.<br/>$$m=\\frac{5-0}{11-0}=\\frac{5}{11}$$<br/>Because the line passes through $(0,0)$, the intercept is $0$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Plot the two points and choose the line through them. The equation is<br/>$$h(x)=\\frac{5}{11}x$$<br/>The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,11]",
+        "y_1=[0,5]"
+      ]
+    }
+  ]
+}

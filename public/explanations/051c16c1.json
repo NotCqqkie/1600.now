@@ -1,0 +1,15 @@
+{
+  "questionId": "051c16c1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations so the $y$-terms cancel:<br/>$$(3y)+(-3y)=(7x+14)+(8x-26)$$"
+    },
+    {
+      "title": "Find the target value",
+      "content": "Simplify the result:<br/>$$0=15x-12$$<br/>$$15x=12$$<br/>The question asks for $60x$, which is $4$ times $15x$. Multiply both sides by $4$:<br/>$$60x=48$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

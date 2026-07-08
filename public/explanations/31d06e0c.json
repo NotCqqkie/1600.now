@@ -1,0 +1,22 @@
+{
+  "questionId": "31d06e0c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use zero product property",
+      "content": "The product equals $0$, so at least one factor must equal $0$:\n$$\n3x+8=0\n$$\n$$\n4x-3=0\n$$",
+      "desmosExpressions": [
+        "(3x + 8)(4x - 3) = 0"
+      ]
+    },
+    {
+      "title": "Solve the factors",
+      "content": "Solve the two linear equations separately:\n$$\n3x+8=0,\\quad x=-\\frac{8}{3}\n$$\n$$\n4x-3=0,\\quad x=\\frac{3}{4}\n$$"
+    },
+    {
+      "title": "Match a listed solution",
+      "content": "Compare the choices with the two values found from the factors. The listed matching value is $-\\frac{8}{3}$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d6aab383",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the equation",
+      "content": "Move the right side to the left and factor out $x-a$.<br/>$$(x-a)-(x-a)(x-18)=0$$<br/>$$(x-a)(1-(x-18))=0$$<br/>$$(x-a)(19-x)=0$$"
+    },
+    {
+      "title": "List the possible solutions",
+      "content": "The factored equation is true when either factor is $0$.<br/>$$x-a=0\\quad\\text{or}\\quad 19-x=0$$<br/>So the solutions are $x=a$ and $x=19$."
+    },
+    {
+      "title": "Choose the valid statements",
+      "content": "Statement I and statement III are solutions. Statement II would use $x=18$, which does not make either factor $0$ because $a>19$. The answer is <strong>B</strong>."
+    }
+  ]
+}

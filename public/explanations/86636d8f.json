@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the unit formula",
-      "content": "To find the quantity of pears from total cost and price per pound, we divide total cost by price per unit.",
+      "title": "Use the unit relationship",
+      "content": "The number of pounds is the total cost divided by the cost per pound.",
       "formula": "$$\\text{Quantity} = \\frac{\\text{Total Cost}}{\\text{Price per Unit}}$$"
     },
     {
-      "title": "Calculate pounds purchased",
-      "content": "Substituting 32 for total cost and 4 for price per pound: <br/>$$\\frac{32}{4} = 8$$The shopper purchased <strong>8 pounds</strong> of pears."
+      "title": "Divide the total cost",
+      "content": "Substitute the total cost and the price per pound:\n$$\\frac{32}{4}=8$$\nThe answer is <strong>8</strong>."
     }
   ]
 }

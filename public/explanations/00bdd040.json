@@ -1,0 +1,15 @@
+{
+  "questionId": "00bdd040",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the correction",
+      "content": "The sentence first says Chaucer did not write in Modern English, then gives the true alternative: he wrote in Middle English. The transition must signal correction or substitution."
+    },
+    {
+      "title": "Rule out unrelated links",
+      "content": "B signals sequence, but the sentence is not listing events in order. C signals cause and effect, but the second clause is not a result of the first. D signals similarity, while the clauses correct one idea with another. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2eae5efd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find Text Two's criticism",
+      "content": "Text 1 presents the traditional view that birdsong is a male trait used to attract mates and claim territory. Text 2 says that view is a historical mischaracterization. Mendez and colleagues argue that the error came largely from research bias: studies were often done near universities in the temperate northern hemisphere, where female birdsong is less common than in the tropics."
+    },
+    {
+      "title": "Reject wrong responses",
+      "content": "Choice A concerns what drove the evolution of singing in male birds, but Text 2 does not replace mate attraction and territorial defense with other male-song causes. Choice B compares the purposes of male birdsong in temperate and tropical regions, which Text 2 never does. Choice D blames a tendency to study male birds, but Text 2 blames the places researchers tended to study."
+    },
+    {
+      "title": "Tie bias to study sites",
+      "content": "Mendez and colleagues would respond that the old male-trait view was shaped by geographic sampling: researchers selected temperate study sites near universities, where female birdsong is relatively uncommon. That explains why researchers overlooked female birdsong across species. The answer is <strong>C</strong>."
+    }
+  ]
+}

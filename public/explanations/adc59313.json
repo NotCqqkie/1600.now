@@ -1,0 +1,15 @@
+{
+  "questionId": "adc59313",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product property",
+      "content": "The constant factor $-5$ cannot make the product zero. One of the variable factors must equal zero.\n$$v-8=0\\quad \\text{or}\\quad v-3=0\\quad \\text{or}\\quad v+6=0$$"
+    },
+    {
+      "title": "Find the listed solution",
+      "content": "The possible solutions are $v=8$, $v=3$, and $v=-6$. Of these, only $8$ appears in the choices. The answer is <strong>C</strong>."
+    }
+  ]
+}

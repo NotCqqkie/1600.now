@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use complementary trig values",
-      "content": "For acute angles, the sine of one angle equals the cosine of its complement. Therefore, if $\\cos(Q)=\\sin(R)$, then angles $Q$ and $R$ are complementary."
+      "title": "Use complementary angles",
+      "content": "For acute angles, the sine of one angle equals the cosine of its complement. Since $\\cos(Q)=\\sin(R)$, angles $Q$ and $R$ are complementary."
     },
     {
-      "title": "Recognize complementary angles from cos(Q) = sin(R)",
-      "content": "The equation $\\cos(Q) = \\sin(R)$ indicates that Q and R are complementary angles. Using the identity $\\sin(\\theta) = \\cos(90^{\\circ} - \\theta)$:<br/>$$Q + R = 90^{\\circ}$$"
+      "title": "Set up the angle sum",
+      "content": "Complementary angles have a sum of $90^\\circ$. Use the given angle measures.<br/>$$(x+54)+(4x+6)=90$$"
     },
     {
-      "title": "Substitute and solve for x",
-      "content": "Use the angle measures $Q = x + 54$ and $R = 4x + 6$ in the complementary angle equation:<br/>$$(x + 54) + (4x + 6) = 90$$<br/>Simplify:<br/>$$5x + 60 = 90$$<br/>$$5x = 30$$<br/>$$x = 6$$<br/>That matches <strong>Choice A &mdash; $6$</strong>."
+      "title": "Solve for the value",
+      "content": "Combine like terms and solve.<br/>$$5x+60=90$$<br/>$$5x=30$$<br/>$$x=6$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Model the rental cost",
-      "content": "Renting for $x$ days costs:<ul><li>&#36;300 for the first day</li><li>&#36;150 for each additional day</li></ul>There are $x-1$ additional days, so $$y=300+150(x-1)$$"
+      "title": "Count the additional days",
+      "content": "The first day costs $300$ dollars. If the rental lasts $x$ days, the number of additional days is $x-1$, and each additional day costs $150$ dollars."
     },
     {
-      "title": "Expand to match the answer choice format",
-      "content": "$$y=300+150x-150=150x+150$$ Check $x=1$: $150(1)+150=300$, which is the one-day cost."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The equation $y=150x+150$ matches <strong>D</strong>."
+      "title": "Build the cost expression",
+      "content": "The total cost is\n+$$y=300+150(x-1)$$\n+$$y=300+150x-150$$\n+$$y=150x+150$$\n+The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "42689fc7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate complete clauses",
+      "content": "The first complete clause says the observatory sites number nearly five dozen. The next clause says the radars track ionospheric irregularities. Those two ideas need a real sentence boundary, not just a comma."
+    },
+    {
+      "title": "Choose the clean boundary",
+      "content": "Choices B and D leave a comma splice before <em>the radars track</em>. Choice C turns the location phrase into a relative clause and disrupts the main clause. The remaining option ends the first sentence and starts a grammatical participial opener. The answer is <strong>A</strong>."
+    }
+  ]
+}

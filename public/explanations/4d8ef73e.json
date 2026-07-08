@@ -1,0 +1,15 @@
+{
+  "questionId": "4d8ef73e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the numerator to zero",
+      "content": "The fractions have the same numerator, $x-14$, but different denominators. They can be equal only if the shared numerator is $0$.<br/>$$x-14=0$$"
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Solve for $x$, then compute the expression the question asks for.<br/>$$x=14$$<br/>$$x+14=28$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

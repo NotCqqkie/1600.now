@@ -1,0 +1,15 @@
+{
+  "questionId": "95e0b48b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the functions",
+      "content": "Substitute $x=4$ into each function:\n$$\nf(4)=4+3=7\n$$\n$$\ng(4)=3(4)=12\n$$"
+    },
+    {
+      "title": "Compute the expression",
+      "content": "Now use those two function values in the requested expression:\n$$\n5(7)-12=35-12=23\n$$\nThe result matches choice D. The answer is <strong>D</strong>."
+    }
+  ]
+}

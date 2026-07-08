@@ -1,0 +1,15 @@
+{
+  "questionId": "9f1e7107",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast the dyeing methods",
+      "content": "The goal is to emphasize a difference between the traditional method and Desai's method. The key contrast is that manufacturers traditionally use hazardous chemicals to dissolve indigo, while Desai uses nanocellulose, a natural plant-based substance, to prepare a dye that can be spread onto denim."
+    },
+    {
+      "title": "Reject noncomparisons",
+      "content": "A emphasizes a similarity, B discusses only nanocellulose, and C discusses only the traditional process. The best sentence directly compares what Desai's approach uses with what manufacturers traditionally used, making the safer-material difference explicit. The answer is <strong>D</strong>."
+    }
+  ]
+}

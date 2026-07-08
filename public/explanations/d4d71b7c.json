@@ -1,0 +1,15 @@
+{
+  "questionId": "d4d71b7c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the real subject",
+      "content": "The subject is \"collection,\" which is singular. The phrase \"of oil paintings\" and the nonessential clause listing paintings add detail but do not change the number of the subject."
+    },
+    {
+      "title": "Match singular agreement",
+      "content": "A, B, and D use plural verb forms that would agree with \"paintings\" but not with the actual subject, \"collection.\" The singular verb \"remains\" correctly agrees with that subject. The answer is <strong>C</strong>."
+    }
+  ]
+}

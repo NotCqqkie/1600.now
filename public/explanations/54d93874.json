@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate Andrew's mean",
-      "content": "Andrew's six rock masses have sum $16.8$ kilograms, so Andrew's mean is $$\\frac{16.8}{6}=2.8$$ kilograms."
+      "title": "Find Andrew's mean",
+      "content": "Andrew's six masses have total $16.8$ kilograms, so Andrew's mean is\n$$\n\\frac{16.8}{6}=2.8\n$$"
     },
     {
-      "title": "Set up Maria's mean equation",
-      "content": "Maria's mean must be $0.1$ greater than Andrew's, so Maria's mean is $2.9$. Since Maria has six rocks total, her required total is $6(2.9)=17.4$ kilograms."
+      "title": "Find Maria's required total",
+      "content": "Maria's mean is $0.1$ kilogram greater, so her mean must be $2.9$ kilograms. Since Maria has $6$ rocks, her required total is\n$$\n6(2.9)=17.4\n$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Maria's known five masses total $14.8$ kilograms. Subtract that from the required total: $$17.4-14.8=2.6$$ The missing rock mass is <strong>2.6</strong> kilograms."
+      "title": "Subtract the known masses",
+      "content": "Maria's five known masses total $14.8$ kilograms. Subtract this from her required total:\n$$\n17.4-14.8\n$$\nThe answer is <strong>2.6</strong>."
     }
   ]
 }

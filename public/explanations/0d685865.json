@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 8",
-      "content": "The expression is $x+22$. Since the problem gives $x=8$, replace $x$ with $8$:<br/>$$x+22=8+22$$"
+      "title": "Substitute the given value",
+      "content": "Replace $x$ with $8$ in the expression $x+22$:<br/>$$x+22=8+22$$"
     },
     {
-      "title": "Compute",
-      "content": "$$8+22=30$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $22$</strong> is just $22$ without adding $x$. <strong>Choice D &mdash; $38$</strong> adds $30$ to $x$. The correct substitution gives $30$."
-    },
-    {
-      "title": "Answer",
-      "content": "$30$ matches <strong>Choice C &mdash; $30$</strong>, so <strong>C</strong>."
+      "title": "Add the numbers",
+      "content": "Compute the sum:<br/>$$8+22=30$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

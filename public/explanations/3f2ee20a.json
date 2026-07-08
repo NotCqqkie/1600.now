@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand standard deviation and identify the key difference",
-      "content": "Both groups surveyed 2,500 men and reported the same mean height, 186 cm. That means the center of the two distributions is the same. The useful shortcut is to ignore the matching mean and compare only the standard deviations, because standard deviation measures spread around the mean."
+      "title": "Compare the spread values",
+      "content": "Standard deviation measures spread. The two groups have the same mean, so the key difference is the standard deviation."
     },
     {
-      "title": "Compare the standard deviations",
-      "content": "Group A has standard deviation $12.5$, and Group B has standard deviation $19.1$. Since $19.1\\gt 12.5$, Group B has the larger spread. The table does not give the tallest participant or either median, so the other choices cannot be known from the information given."
+      "title": "Identify the larger spread",
+      "content": "Group A has standard deviation $12.5$, and Group B has standard deviation $19.1$.\n$$\n19.1>12.5\n$$\nSo Group B has the larger spread."
     },
     {
-      "title": "Confirm the choice",
-      "content": "The correct answer says the heights in Group B had a larger spread than the heights in Group A. That is exactly what the larger standard deviation shows, so <strong>C</strong> is correct."
+      "title": "Select the matching statement",
+      "content": "The statement saying Group B's heights had a larger spread is the one supported by the table. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c6938f5b",
+  "correctAnswer": "196",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero from the table",
+      "content": "The table gives the point $(6,0)$ on the quadratic. Substitute $x=6$ and $y=0$ into the equation.<br/>$$0=36(6)^2-6b-120$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Simplify the equation.<br/>$$0=1{,}296-6b-120$$<br/>$$0=1{,}176-6b$$<br/>$$6b=1{,}176$$<br/>$$b=196$$<br/>The answer is <strong>196</strong>."
+    }
+  ]
+}

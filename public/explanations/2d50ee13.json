@@ -1,0 +1,15 @@
+{
+  "questionId": "2d50ee13",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the skateboard trick",
+      "content": "The first sentence names a trick called a 900. The next sentence explains what that trick is: launching off a ramp, rotating 900 degrees, and landing back on the ramp."
+    },
+    {
+      "title": "Choose a clarifying transition",
+      "content": "A and B signal contrast, but the second sentence is not opposing the first. C signals earlier timing, but the sentence defines the trick rather than describes a previous event. The answer is <strong>D</strong>."
+    }
+  ]
+}

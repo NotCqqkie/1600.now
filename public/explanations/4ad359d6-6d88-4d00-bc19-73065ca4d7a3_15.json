@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "Researchers want to evaluate different conservation strategies for langurs, but they cannot accurately count the langurs — meaning they cannot determine whether the population is increasing, decreasing, or stable. The inference must follow directly from this limitation."
+      "title": "Use the measurement problem",
+      "content": "The study aims to evaluate conservation strategies for white-headed langurs. But the passage says accurately counting these primates is challenging, making it hard to know whether the population is rising, falling, or stable."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — risk making inaccurate conclusions about the effectiveness of different conservation strategies.</strong>: If population change can't be reliably measured, there's no reliable way to tell whether a strategy is working — this follows directly from the counting problem. &#10003;</li><li><strong>Choice B — cause other conservationists to adopt a new methodology for counting populations.</strong>: Recommending alternative methods goes beyond what the passage supports; the passage describes the problem, not a solution. &#10007;</li><li><strong>Choice C — benefit from including species beyond the white-headed langur.</strong>: Introduces a generalization the passage never makes. &#10007;</li><li><strong>Choice D — fail to consider less-well-known conservation approaches for the white-headed langur.</strong>: The passage doesn't suggest the team is ignoring any approaches — only that their counting method is unreliable. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Infer the research risk",
+      "content": "Choice B invents a new counting method. Choice C adds other species without support. Choice D says the team ignores approaches, which the passage never suggests. If population change cannot be measured reliably, strategy effectiveness may be judged inaccurately. The answer is <strong>A</strong>."
     }
   ]
 }

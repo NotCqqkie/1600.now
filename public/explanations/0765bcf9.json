@@ -1,0 +1,15 @@
+{
+  "questionId": "0765bcf9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two lengths",
+      "content": "The notes give two specific trail lengths: the George S. Mickelson Trail is 109 miles long, and the Cannon Valley Trail is 19.7 miles long. A comparison must include both values and their relationship."
+    },
+    {
+      "title": "Reject weak comparisons",
+      "content": "A mentions only the Mickelson Trail's length and focuses on origin. B falsely says the trails are nearly identical in length. C is too vague and gives no numbers. The clear comparison states both lengths and says the Mickelson Trail is much longer. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "79b961b3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the method comparison",
+      "content": "The researcher argues that GPS records higher travel distances than RTD because GPS tracks all movement while RTD doubles only the distance between two habitats. The example must show a GPS value exceeding the corresponding RTD value."
+    },
+    {
+      "title": "Use the caribou comparison",
+      "content": "A contradicts the claim by making a GPS value lower, C compares to an unrelated lower threshold, and D makes an unsupported claim about Tibetan antelope exceeding the caribou GPS value. The table supports RTD being lower than the caribou's 4,868-kilometer GPS distance. The answer is <strong>B</strong>."
+    }
+  ]
+}

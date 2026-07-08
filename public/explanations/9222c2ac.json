@@ -1,0 +1,15 @@
+{
+  "questionId": "9222c2ac",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply a finite verb",
+      "content": "The sentence has the subject \"Sarah McAnulty\" but still needs a finite main verb to form a complete independent clause."
+    },
+    {
+      "title": "Reject verbals",
+      "content": "A is a participle, and C and D are infinitive phrases; none can be the main verb by itself. \"Was working\" is a finite past-tense verb that completes the sentence with the singular subject. The answer is <strong>B</strong>."
+    }
+  ]
+}

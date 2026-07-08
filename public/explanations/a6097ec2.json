@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
-      "title": "Use SOH for sine",
-      "content": "Sine is opposite over hypotenuse. From angle $x^\\circ$, the opposite side is $63$ and the hypotenuse is $73$."
+      "title": "Use sine",
+      "content": "In a right triangle, sine is the opposite side divided by the hypotenuse. The side opposite angle $x$ is $63$, and the hypotenuse is $73$."
     },
     {
       "title": "Write the ratio",
-      "content": "$$\\sin x^\\circ=\\frac{\\text{opposite}}{\\text{hypotenuse}}=\\frac{63}{73}.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The ratio $\\frac{63}{73}$ uses the side opposite angle $x^\\circ$ over the hypotenuse. The distractors use the other leg, give a value far too small for this triangle, or give a value greater than $1$, which sine cannot be for an acute angle."
+      "content": "Substitute the opposite side and hypotenuse into the sine ratio.<br/>$$\\sin x^\\circ=\\frac{63}{73}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

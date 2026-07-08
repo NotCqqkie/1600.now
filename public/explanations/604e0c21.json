@@ -1,0 +1,19 @@
+{
+  "questionId": "604e0c21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "After the semicolon, the second independent clause has the subject <em>this function</em>. The blank must provide a finite verb that agrees with that singular subject and completes the clause."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is a present participle, Choice B is a participial phrase, and Choice D is an infinitive. None can serve as the main verb of an independent clause."
+    },
+    {
+      "title": "Use singular present tense",
+      "content": "Choice C gives the finite third-person singular verb <em>stems</em>, which agrees with <em>this function</em> and completes the independent clause after the semicolon. The answer is <strong>C</strong>."
+    }
+  ]
+}

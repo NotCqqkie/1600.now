@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, $5$."
-    },
-    {
       "title": "Isolate the absolute value",
-      "content": "Subtract 58 from both sides of the equation:<br/>$$|q| + 58 = 63$$<br/>$$|q| = 63 - 58 = 5$$"
+      "content": "Subtract $58$ from both sides.<br/>$$|q|+58=63$$<br/>$$|q|=5$$"
     },
     {
-      "title": "Solve for q",
-      "content": "The absolute value equation $|q| = 5$ has two solutions: $q = 5$ and $q = -5$. Looking at the answer choices, only 5 appears as an option. <strong>B</strong> is correct."
+      "title": "Match a listed solution",
+      "content": "The equation $|q|=5$ has solutions $q=5$ and $q=-5$. Of the listed choices, only $5$ appears. The answer is <strong>B</strong>."
     }
   ]
 }

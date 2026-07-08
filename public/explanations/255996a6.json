@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify backsolve trigger",
-      "content": "The answer choices are simple integers, so we can use the backsolving shortcut. Start with the middle alphabetical choice, which is B."
+      "title": "Substitute the total pay",
+      "content": "Use $T=1{,}694$ in the pay equation:\n$$\n1{,}694=990+22h\n$$"
     },
     {
-      "title": "Test <strong>Choice B &mdash; 32</strong>",
-      "content": "Backsolving — testing <strong>Choice B &mdash; 32</strong> (32):<br/>$$T = 990 + 22 \\times 32 = 990 + 704 = 1694$$<br/>This equals the given total pay of &#36;1694, so <strong>Choice B &mdash; 32</strong> satisfies the equation.<br/>That matches <strong>Choice B &mdash; 32</strong>."
+      "title": "Solve for hours",
+      "content": "Subtract the sign-on bonus, then divide by the hourly pay:\n$$\n1{,}694-990=22h\n$$\n$$\n704=22h\n$$\n$$\n32=h\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

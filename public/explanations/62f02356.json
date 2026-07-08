@@ -1,0 +1,15 @@
+{
+  "questionId": "62f02356",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two sides",
+      "content": "For any real value of $x$, a square cannot be negative:\n$$\n(x+64)^2\\ge 0\n$$\nBut the equation requires\n$$\n(x+64)^2=-144\n$$"
+    },
+    {
+      "title": "Count real solutions",
+      "content": "No real value of $x$ can make a square equal a negative number, so the equation has zero distinct real solutions. The answer is <strong>D</strong>."
+    }
+  ]
+}

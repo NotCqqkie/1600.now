@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 440 into the equation",
-      "content": "We have $d = 18 - \\frac{x}{40}$. When $x = 440$:<br/>$$d = 18 - \\frac{440}{40}$$"
+      "title": "Substitute the miles driven",
+      "content": "Use $x=440$ in the equation for the remaining diesel.<br/>$$d=18-\\frac{440}{40}$$"
     },
     {
-      "title": "Simplify the fraction and subtract",
-      "content": "Divide: $\\frac{440}{40} = 11$.<br/>Then: $$d = 18 - 11 = 7$$ The expression measures the remaining value after subtracting $x/40$, so <strong>B</strong> is correct."
+      "title": "Evaluate the expression",
+      "content": "Divide first, then subtract.<br/>$$d=18-11$$<br/>$$d=7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

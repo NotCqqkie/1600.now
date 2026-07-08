@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage states that disruptions to an enjoyable experience <strong>increase enjoyment</strong> and that researchers anticipate the opposite effect for an unpleasant experience.<br/><br/>The decisive clue is the phrase <strong>‘opposite effect’</strong>, which signals the relationship between the two scenarios."
+      "title": "Apply the opposite effect",
+      "content": "Disruptions to an enjoyable experience increase reported enjoyment. The researchers suspect the opposite for an unpleasant experience, so interruptions during construction noise should make listeners judge that unpleasant experience more negatively than an uninterrupted version."
     },
     {
-      "title": "Match the meaning",
-      "content": "The correct answer correctly reflects the inverse of the original pattern—where disruptions enhanced enjoyment, they now worsen a negative experience—by describing a negative rating for interrupted listeners compared to uninterrupted ones.<br/><br/>The other three options either reverse the wrong comparison, describe a time perception unrelated to emotional response, or address an unmentioned sensory change.<br/><br/>That is the correct answer."
+      "title": "Rule out unrelated predictions",
+      "content": "Choice A focuses on irritation with the breaks themselves, not the rating of the overall listening experience. Choice C concerns perceived duration, and choice D concerns perceived volume. The remaining choice compares interrupted listeners with uninterrupted listeners and predicts a more negative rating. The answer is <strong>B</strong>."
     }
   ]
 }

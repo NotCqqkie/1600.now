@@ -1,0 +1,19 @@
+{
+  "questionId": "f8faac47",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "The expression $6x^3+42x^2$ has two terms. Both terms contain a factor of $6$, and both terms contain at least $x^2$, so the greatest common factor is $6x^2$."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Divide each term by the common factor to find what remains inside the parentheses. The first term leaves $x$, and the second term leaves $7$ because $42\\div6=7$."
+    },
+    {
+      "title": "Write the equivalent expression",
+      "content": "Putting those remaining factors inside one set of parentheses gives $$6x^3+42x^2=6x^2(x+7)$$ This distributes back to the original expression, so it is the equivalent form. The answer is <strong>C</strong>."
+    }
+  ]
+}

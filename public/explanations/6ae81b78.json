@@ -1,0 +1,15 @@
+{
+  "questionId": "6ae81b78",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the examples",
+      "content": "The text says some studies emphasize neighborhood type and others emphasize individual physical fitness. Those references are examples of factors that researchers have identified as relevant to walking decisions, but the text immediately broadens the point to complex contexts with multiple conditions and needs."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "A says people rarely consider these factors, which the text does not claim. C wrongly makes the factors unique to Lisbon. D says Mendes thinks they are overemphasized, but the text instead says they are only part of a larger set of influences. The answer is <strong>B</strong>."
+    }
+  ]
+}

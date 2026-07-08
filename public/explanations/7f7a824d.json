@@ -1,0 +1,19 @@
+{
+  "questionId": "7f7a824d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the study methods",
+      "content": "The example is about why the difference between the maximum cougar densities reported by Sweanor and Choate might be artificially large. If one method systematically produces a lower density estimate, then a gap between studies using different methods could be exaggerated."
+    },
+    {
+      "title": "Keep the cause relevant",
+      "content": "Choice A is about where radio-collar tracking is practical, not whether it changes density estimates. Choice C would make the helicopter estimate too low instead. Choice D discusses how common a method is in Utah, not whether the reported density difference is inflated."
+    },
+    {
+      "title": "Pick the undercounting method",
+      "content": "The remaining choice explains the artificially large difference by saying radio-collar tracking may underestimate cougar density. The answer is <strong>B</strong>."
+    }
+  ]
+}

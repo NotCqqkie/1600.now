@@ -1,0 +1,15 @@
+{
+  "questionId": "050dba55",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use an opening modifier",
+      "content": "The words before the comma introduce a modifier of 'it' in the main clause. That opening phrase needs a participle, not a separate finite verb."
+    },
+    {
+      "title": "Avoid a second main verb",
+      "content": "A, B, and D all contain finite verb phrases, which would not fit the opening modifier 'Originally ______ in classical Japanese.' The past participle creates the correct phrase modifying the poem. The answer is <strong>C</strong>."
+    }
+  ]
+}

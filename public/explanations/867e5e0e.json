@@ -1,0 +1,20 @@
+{
+  "questionId": "867e5e0e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
+      "title": "Apply the arc length formula",
+      "content": "The arc length formula relates the arc length, central angle, and circumference:<br/>$$\\text{Arc length} = \\frac{\\text{central angle}}{360^{\\circ}} \\times C$$<br/>Substituting the given values (arc length = 5 inches, central angle = 30°):<br/>$$5 = \\frac{30^{\\circ}}{360^{\\circ}} \\times C$$",
+      "formula": "$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$"
+    },
+    {
+      "title": "Simplify and solve for circumference",
+      "content": "Simplify the fraction: $\\frac{30}{360} = \\frac{1}{12}$<br/>$$5 = \\frac{1}{12} \\times C$$<br/>Multiply both sides by 12:<br/>$$C = 5 \\times 12 = 60$$<br/>That confirms <strong>D</strong> is correct."
+    }
+  ]
+}

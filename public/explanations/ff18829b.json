@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the services shown on the graph",
-      "content": "The graph displays project leaders' ratings for three specific services: provision of medicinal plants (2), improvement of neighborhood attachment (3), and improvement of local microclimate (3).<br/><br/>Since the question asks for a choice that most effectively <strong>uses data from the graph</strong>, the correct answer must compare two of these <strong>displayed</strong> services."
+      "title": "Compare displayed services",
+      "content": "The graph shows project leaders' ratings for the services in the answer choices. Medicinal plants is rated lower than improving the local microclimate, so the sentence should compare those two services in that direction."
     },
     {
-      "title": "Match the accurate comparison",
-      "content": "Two other options reference services not shown on the graph, so they cannot effectively use the displayed data.<br/><br/>The correct answer uses shown services but reverses the relationship—it claims local microclimate (3) is rated lower than medicinal plants (2), contradicting the graph.<br/><br/>The remaining alternative uses the graph's data: project leaders rated medicinal plants (2) lower than local microclimate (3).<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject unsupported or reversed data",
+      "content": "B includes offering educational opportunities, which is not one of the displayed services. C reverses the relationship by saying local microclimate was rated lower than medicinal plants. D includes tourist attractions, which is not shown. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "b25a70e7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the concession",
+      "content": "The underlined phrase concedes that income affected fuel choice. But the sentence immediately argues that other factors also influenced decisions, showing that the energy ladder model makes income too central."
+    },
+    {
+      "title": "Identify the function",
+      "content": "<ul><li><strong>Choice A</strong>: Treats the phrase as anticipating an objection, but it qualifies the model's claim.</li><li><strong>Choice B</strong>: Says the assumption lacks support, but the text grants income mattered.</li><li><strong>Choice C</strong>: Captures that income played a role, though its importance is overstated.</li><li><strong>Choice D</strong>: Misstates the function as conceding a finding seems unsupportive.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

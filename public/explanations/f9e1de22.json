@@ -1,0 +1,19 @@
+{
+  "questionId": "f9e1de22",
+  "correctAnswer": "2.8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write vertex form",
+      "content": "The maximum height is $282.24$ feet at $4.2$ seconds, so the vertex form is\n$$h(t)=a(t-4.2)^2+282.24$$"
+    },
+    {
+      "title": "Use the initial height",
+      "content": "The initial height is $0.00$ feet, so $h(0)=0$.\n$$0=a(0-4.2)^2+282.24$$\n$$0=17.64a+282.24$$\n$$a=-16$$"
+    },
+    {
+      "title": "Solve for the time",
+      "content": "Set the height equal to $250.88$.\n$$250.88=-16(x-4.2)^2+282.24$$\n$$(x-4.2)^2=1.96$$\n$$x-4.2=\\pm 1.4$$\n$$x=2.8\\quad \\text{or}\\quad x=5.6$$\nA possible value is requested. The answer is <strong>2.8</strong>."
+    }
+  ]
+}

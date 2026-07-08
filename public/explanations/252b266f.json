@@ -1,0 +1,15 @@
+{
+  "questionId": "252b266f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the highest season",
+      "content": "The student is checking the graph for the season when hazelnuts reached their highest price. The relevant comparison is among the hazelnut values for all four seasons."
+    },
+    {
+      "title": "Use the tallest value",
+      "content": "A, C, and D name seasons where the hazelnut price is lower. The graph shows the tallest hazelnut value in the 2016/17 season. The answer is <strong>B</strong>."
+    }
+  ]
+}

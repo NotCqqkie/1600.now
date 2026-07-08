@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize equal angles create similar triangles",
-      "content": "The figure marks $\\angle XWQ = a^{\\circ}$ and $\\angle ZYQ = a^{\\circ}$ (equal angles at opposite vertices).<br/><br/>Since $WZ$ and $XY$ intersect at $Q$, the angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles and therefore equal.<br/><br/>By AA (Angle-Angle) similarity, triangle $WXQ \\sim$ triangle $YZQ$, with correspondence $W \\leftrightarrow Y$, $X \\leftrightarrow Z$."
+      "title": "Identify similar triangles",
+      "content": "The marked angles at $W$ and $Y$ are equal, and the angles at $Q$ are vertical angles. Therefore, triangles $WXQ$ and $YZQ$ are similar by angle-angle similarity."
     },
     {
-      "title": "Set up proportion of corresponding sides",
-      "content": "For similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>Substitute the known values:"
+      "title": "Set up corresponding sides",
+      "content": "Match corresponding sides from the similar triangles.<br/>$$\\frac{WQ}{YQ}=\\frac{WX}{YZ}$$<br/>Substitute the given lengths.<br/>$$\\frac{70}{21}=\\frac{60}{YZ}$$"
     },
     {
-      "title": "Solve for YZ",
-      "content": "$$\\frac{70}{21} = \\frac{60}{YZ}$$<br/>Cross-multiply:<br/>$$70 \\cdot YZ = 60 \\cdot 21$$<br/>$$70 \\cdot YZ = 1260$$<br/>$$YZ = \\frac{1260}{70} = 18$$<br/>That matches <strong>Choice A &mdash; $18$</strong>."
+      "title": "Solve for the length",
+      "content": "Cross-multiply and solve.<br/>$$70(YZ)=60(21)$$<br/>$$YZ=\\frac{1{,}260}{70}=18$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

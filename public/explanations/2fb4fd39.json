@@ -1,0 +1,15 @@
+{
+  "questionId": "2fb4fd39",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining total",
+      "content": "The total resistance is $132$ ohms, and $3$ of the resistors have a total resistance of $84$ ohms. The other $5$ resistors have total resistance\n$$\n132-84=48\n$$\nohms."
+    },
+    {
+      "title": "Bound one resistor",
+      "content": "All $5$ remaining resistances are positive and have sum $48$. Therefore, one of them, $c$, must be greater than $0$ and less than $48$:\n$$\n0<c<48\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

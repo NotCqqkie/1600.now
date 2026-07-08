@@ -1,0 +1,24 @@
+{
+  "questionId": "63f4dc5d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Model the graphed line",
+      "content": "The graph shown is $y=f(x)-11$. Two clear points on that line are $(-1,2)$ and $(0,-2)$. Their slope is\n$$\\frac{-2-2}{0-(-1)}=-4$$\nSince the line crosses the $y$-axis at $-2$, the graphed line is $y=-4x-2$.",
+      "desmosExpressions": [
+        "x_1=[-1,0]",
+        "y_1=[2,-2]",
+        "y=-4x-2"
+      ]
+    },
+    {
+      "title": "Recover the original function",
+      "content": "The graphed line represents $f(x)-11$, so set the expression equal to the line and solve for $f(x)$:\n$$f(x)-11=-4x-2$$\n$$f(x)=-4x+9$$\nThe answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=-4x-2",
+        "y=-4x+9"
+      ]
+    }
+  ]
+}

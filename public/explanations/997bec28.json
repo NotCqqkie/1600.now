@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the perimeter equation",
-      "content": "Let the unknown third side be $x$. The perimeter is the sum of all three sides: $$27 + 27 + x = 94$$."
+      "title": "Set up the perimeter",
+      "content": "Let the unknown third side be $x$. The perimeter is the sum of the three side lengths.\n$$27+27+x=94$$"
     },
     {
       "title": "Solve for the third side",
-      "content": "Combine like terms on the left: $$54 + x = 94.$$<br/>Subtract 54 from both sides: $$x = 94 - 54 = 40.$$<br/>The answer is <strong>40</strong>."
+      "content": "Combine the congruent sides and subtract.\n$$54+x=94$$\n$$x=94-54=40$$\nThe answer is <strong>40</strong>."
     }
   ]
 }

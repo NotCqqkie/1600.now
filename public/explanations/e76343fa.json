@@ -1,0 +1,15 @@
+{
+  "questionId": "e76343fa",
+  "correctAnswer": "-307",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the original function",
+      "content": "To find $g(0)$ after a vertical translation, start by finding $f(0)$.<br/>$$f(0)=(0-9)(0-7)(0-5)$$<br/>$$f(0)=(-9)(-7)(-5)$$<br/>$$f(0)=-315$$"
+    },
+    {
+      "title": "Apply the translation",
+      "content": "Translating the graph up $8$ units adds $8$ to each output value.<br/>$$g(0)=f(0)+8$$<br/>$$g(0)=-315+8$$<br/>$$g(0)=-307$$<br/>The answer is <strong>-307</strong>."
+    }
+  ]
+}

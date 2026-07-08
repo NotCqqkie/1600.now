@@ -1,0 +1,15 @@
+{
+  "questionId": "bd5b6bf2",
+  "correctAnswer": "74088",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius",
+      "content": "The slant segment $AB$, the cone height, and the radius form a right triangle. Use the Pythagorean theorem:<br/>$$r^2=84^2-42^2=7056-1764=5292$$"
+    },
+    {
+      "title": "Use the cone volume formula",
+      "content": "The cone volume is<br/>$$V=\\frac{1}{3}\\pi r^2h$$<br/>Substitute $r^2=5292$ and $h=42$:<br/>$$V=\\frac{1}{3}\\pi(5292)(42)=74088\\pi$$<br/>Since $V=k\\pi$, $k=74088$. The answer is <strong>74088</strong>."
+    }
+  ]
+}

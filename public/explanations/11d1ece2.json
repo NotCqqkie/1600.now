@@ -1,0 +1,24 @@
+{
+  "questionId": "11d1ece2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the table values",
+      "content": "Each choice has the form $h(x)=2^x+c$. From the table, when $x=0$, $h(x)=17$. Substitute that row.\n$$17=2^0+c$$",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[17,18,20]",
+        "y=2^x+16"
+      ]
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Since $2^0=1$, the constant is $16$.\n$$17=1+c$$\n$$c=16$$"
+    },
+    {
+      "title": "Match the function",
+      "content": "The matching function is $h(x)=2^x+16$. The answer is <strong>A</strong>."
+    }
+  ]
+}

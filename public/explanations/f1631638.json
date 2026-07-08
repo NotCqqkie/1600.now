@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question asks",
-      "content": "The student wants to <strong>emphasize a difference between the two portraits</strong>. Scan the choices for whichever one highlights how the portraits differ from each other.<ul><li><strong>\"The portraits, or artistic representations, of Carlos Mendoza and Arturo Reyes were both completed by Salazar in the early 2000s.\"</strong>: &ldquo;Both completed&hellip; in the early 2000s&rdquo; stresses a <em>similarity</em>, not a difference. &#10007;</li><li><strong>\"Salazar has completed portraits of numerous Mexican Americans, including sculptor Carlos Mendoza and writer Arturo Reyes.\"</strong>: This makes a general claim about Salazar&rsquo;s body of work; it doesn&rsquo;t contrast the two portraits at all. &#10007;</li><li><strong>\"While both are by Salazar, the 2003 portrait of Carlos Mendoza is a painting, and the 2016 portrait of Arturo Reyes is a drawing.\"</strong>: &ldquo;While both are by Salazar&rdquo; concedes the similarity, then the sentence pivots to the key difference: one is a <em>painting</em>, the other a <em>drawing</em>. &#10003;</li><li><strong>\"Carlos Mendoza was a Mexican American sculptor, and Arturo Reyes was a Mexican American writer.\"</strong>: This contrasts the <em>people</em> depicted, not the portraits themselves, so it misses the target. &#10007;</li></ul>"
+      "title": "Contrast portrait media",
+      "content": "The goal asks for a difference between the two portraits. The notes distinguish them by medium and year: Carlos Mendoza's 2003 portrait is a painting, while Arturo Reyes's 2016 portrait is a drawing. The contrast should be about the portraits themselves, and those media are explicitly different."
     },
     {
-      "title": "Confirm the match",
-      "content": "<strong>“While both are by Salazar, the 2003 portrait of Carlos Mendoza is a painting, and the 2016 portrait of Arturo Reyes is a drawing.”</strong> directly contrasts the two portraits by their medium &mdash; painting versus drawing &mdash; which is exactly the difference the notes support.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Reject similarities or people-only facts",
+      "content": "A falsely groups both portraits in the early 2000s, B summarizes Salazar's work, and D contrasts the subjects' occupations rather than the portraits or media. The medium contrast is needed. The answer is <strong>C</strong>."
     }
   ]
 }

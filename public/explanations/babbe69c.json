@@ -1,0 +1,15 @@
+{
+  "questionId": "babbe69c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify both bounds",
+      "content": "The speed varied between $135$ miles per hour and $160$ miles per hour. That means $s$ can be equal to the lower speed, equal to the upper speed, or any speed between them. So $s$ is at least $135$ and at most $160$."
+    },
+    {
+      "title": "Write the compound inequality",
+      "content": "A compound inequality can place the variable between the lower and upper bounds. Put $135$ on the left because it is the least possible speed, and put $160$ on the right because it is the greatest possible speed:\n$$135\\leq s\\leq160$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

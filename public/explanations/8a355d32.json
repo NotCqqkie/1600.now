@@ -1,0 +1,23 @@
+{
+  "questionId": "8a355d32",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Both equations equal $y$, so set the right sides equal.<br/>$$3x=x^2-28$$<br/>$$x^2-3x-28=0$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Factor the equation.<br/>$$x^2-3x-28=(x-7)(x+4)$$<br/>So the possible $x$-values are $7$ and $-4$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection with positive $x$. The positive intersection gives the needed value. The answer is <strong>7</strong>.",
+      "desmosExpressions": [
+        "y = 3x",
+        "y = x^2 - 28"
+      ]
+    }
+  ]
+}

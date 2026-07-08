@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the textual claim",
-      "content": "The text reports La Paz had higher park use ($67.5\\%$) than Fortaleza ($35.7\\%$), <em>despite</em> La Paz residents being <em>less</em> likely to live within a $10$-minute walk of a park. The text concludes: \"greater proximity alone can't explain the difference in park use.\""
+      "title": "Use the final conclusion",
+      "content": "La Paz respondents reported higher park use than Fortaleza respondents, even though La Paz residents were less likely to live within a 10-minute walk of a park. The text directly concludes that greater proximity alone cannot explain the difference."
     },
     {
-      "title": "Match the choice",
-      "content": "It is caused by something other than the parks' proximity to city residents. matches the conclusion exactly: the difference in park use must be caused by something other than proximity.<ul><li>A makes a claim about researcher expectations (not in text)</li><li>B about source dates (not in text)</li><li>C about survey accuracy (not in text)</li></ul><br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject unsupported claims",
+      "content": "A introduces researcher expectations, B introduces source dates, and C questions the survey's accuracy. None of those points appears in the text. The supported point is that proximity is not the cause by itself. The answer is <strong>D</strong>."
     }
   ]
 }

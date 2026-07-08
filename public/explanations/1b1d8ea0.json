@@ -1,0 +1,15 @@
+{
+  "questionId": "1b1d8ea0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the reason for maintenance",
+      "content": "The first sentence establishes the cause: Cairo residents rely on the Cairo Metro for millions of trips each year. The second sentence describes the response: transit officials work to maintain the system's stations so those many journeys go smoothly."
+    },
+    {
+      "title": "Reject the wrong relationships",
+      "content": "Choice B signals a contrast, but there is no conflict between heavy reliance on the Metro and officials maintaining it. Choice C would introduce an example, not a consequence. Choice D would signal an alternative option, which does not fit the maintenance response. The answer is <strong>A</strong>."
+    }
+  ]
+}

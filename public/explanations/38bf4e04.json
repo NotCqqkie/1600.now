@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variable and express each type",
-      "content": "Let $n$ be the number of 8-inch brackets made. Then the number of 10-inch brackets is $4n$ (since it is 4 times $n$). The number of 3-inch brackets is given as $18$."
+      "title": "Express each bracket count",
+      "content": "Let $n$ be the number of $8$-inch brackets. Then the number of $10$-inch brackets is $4n$, and the number of $3$-inch brackets is $18$."
     },
     {
-      "title": "Set up total and simplify",
-      "content": "The total number of brackets is the sum: $4n + n + 18$. This equals the daily total of $90$, so $$4n + n + 18 = 90.$$ Combine like terms: $4n + n = 5n$, giving $$5n + 18 = 90.$$ <strong>D</strong> is correct."
+      "title": "Use the total count",
+      "content": "The total number of brackets is $90$, so\n$$\n4n+n+18=90\n$$\nCombine like terms:\n$$\n5n+18=90\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

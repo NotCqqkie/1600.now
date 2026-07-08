@@ -1,0 +1,19 @@
+{
+  "questionId": "5b73068d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the first Round Table source",
+      "content": "The passage gives a timeline for Arthurian sources. Geoffrey of Monmouth's <em>History of the Kings of Britain</em> was written in the 1130s, and Wace later adapted some of that material into <em>Roman de Brut</em> in 1155. The key contrast is that <em>Roman de Brut</em> mentions the Round Table, while nothing written before 1155 does."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "<strong>A</strong>, \"Geoffrey of Monmouth's accounts of Arthurian legends in his <em>History</em> are more similar overall in content to the accounts in <em>Tom a Lincoln</em> than they are to the accounts in <em>Roman de Brut</em>,\" makes an overall comparison the passage never provides. <strong>B</strong>, \"Geoffrey of Monmouth was unaware of stories of the Round Table when composing his <em>History</em>, though historians know that works containing such stories were available to him,\" adds a claim about what was available to Geoffrey that is not stated."
+    },
+    {
+      "title": "Choose the lineage inference",
+      "content": "<strong>D</strong>, \"<em>Roman de Brut</em> is more historically accurate than <em>History</em>, because <em>Tom a Lincoln</em> had not been written when Geoffrey of Monmouth was writing his <em>History</em>,\" introduces historical accuracy, which the passage never evaluates. <strong>C</strong>, \"any Arthurian legend that mentions the Round Table likely has a lineage that connects it to <em>Roman de Brut</em>,\" follows from the fact that <em>Roman de Brut</em> is the first written source named in the passage to include the Round Table. The answer is <strong>C</strong>."
+    }
+  ]
+}

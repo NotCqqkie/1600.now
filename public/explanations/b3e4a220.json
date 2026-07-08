@@ -1,0 +1,15 @@
+{
+  "questionId": "b3e4a220",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the underlined finding",
+      "content": "The underlined portion says the mushrooms reduced the temperature of the surrounding air. The previous sentence focuses on fungal thermoregulation itself, but the next sentence makes this broader finding important: those air-temperature reductions inspired a prototype cooling device."
+    },
+    {
+      "title": "Reject weaker functions",
+      "content": "Choice A wrongly calls the finding tangential. Choice B focuses only on the earlier hypothermic-state claim, not the air-cooling application. Choice C reverses the timeline by saying the observation motivated the study. The underlined finding connects the biological result to the practical device and explains why the prototype followed from the research. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "07371d16",
+  "correctAnswer": "38",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the equal parts",
+      "content": "Let $x$ be the length of one of the two equal parts. The three parts add to the total length:<br/>$$51+2x=127$$"
+    },
+    {
+      "title": "Solve for one part",
+      "content": "Subtract the known part, then divide by $2$:<br/>$$2x=127-51$$<br/>$$2x=76$$<br/>The answer is <strong>38</strong>."
+    }
+  ]
+}

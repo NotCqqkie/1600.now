@@ -1,0 +1,15 @@
+{
+  "questionId": "376908f1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "From the graph, line $k$ passes through $(0,-5)$ and $(10,3)$. Its slope is\n$$\n\\frac{3-(-5)}{10-0}=\\frac{8}{10}=\\frac{4}{5}\n$$\nA line perpendicular to it has slope $-\\frac{5}{4}$."
+    },
+    {
+      "title": "Use the given point",
+      "content": "Line $n$ passes through $(4,7)$, so use point-slope form.\n$$\ny-7=-\\frac{5}{4}(x-4)\n$$\n$$\ny=-\\frac{5}{4}x+12\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

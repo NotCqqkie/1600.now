@@ -1,0 +1,21 @@
+{
+  "questionId": "0d9671d5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find each allowed range",
+      "content": "For each listed $x$-value, a solution must satisfy both inequalities.\n$$\n-3x-12<y<-5x-19\n$$\nAt $x=-5$:\n$$\n3<y<6\n$$\nAt $x=-6$:\n$$\n6<y<11\n$$\nAt $x=-8$:\n$$\n12<y<21\n$$"
+    },
+    {
+      "title": "Compare the table values",
+      "content": "The table with $y$-values $4$, $10$, and $19$ fits all three ranges.\n$$\n3<4<6\n$$\n$$\n6<10<11\n$$\n$$\n12<19<21\n$$\nThe answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "X=[-5,-6,-8]",
+        "Y=[4,10,19]",
+        "Y<-5X-19",
+        "Y>-3X-12"
+      ]
+    }
+  ]
+}

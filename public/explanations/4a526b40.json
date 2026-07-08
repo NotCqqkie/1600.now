@@ -1,0 +1,19 @@
+{
+  "questionId": "4a526b40",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the value of the variable",
+      "content": "Divide both sides of $5x=55$ by $5$ to isolate the variable:<br/>$$x=11$$"
+    },
+    {
+      "title": "Evaluate the requested expression",
+      "content": "Substitute $x=11$ into the expression the question asks for:<br/>$$6x+4=6(11)+4=66+4=70$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The computed value of $6x+4$ is $70$, which appears in the choices. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "f00f1e47",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the system",
+      "content": "Multiply the second equation by $4$, then add it to the first equation.\n$$4(4x-y)=4(19)$$\n$$16x-4y=76$$\n$$(x+4y)+(16x-4y)=-8+76$$\n$$17x=68$$\n$$x=4$$"
+    },
+    {
+      "title": "Find the y value",
+      "content": "Substitute $x=4$ into the second equation.\n$$4(4)-y=19$$\n$$16-y=19$$\n$$y=-3$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Now substitute $x=4$ and $y=-3$ into $3x-5y$.\n$$3(4)-5(-3)=12+15=27$$\nThe answer is <strong>27</strong>."
+    }
+  ]
+}

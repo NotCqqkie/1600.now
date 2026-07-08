@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the task's scope",
-      "content": "The task asks for a “historical overview of the Shackleton expedition” — that means covering the expedition's main events from start to finish, not the books, documentaries, or wreck discovery created years later."
+      "title": "Focus on the expedition",
+      "content": "A historical overview of the Shackleton expedition should cover the expedition's events from 1914 to 1916: departure, the loss of <em>Endurance</em>, and rescue."
     },
     {
-      "title": "Apply the scope to the choices",
-      "content": "<strong>Leaving in 1914 for Antarctica, Shackleton and his crew underwent many harrowing sea-ice adventures, including losing their ship in 1915, before being rescued in 1916.</strong> presents the expedition's core events in chronological order — departure in 1914, ship loss amid harrowing sea-ice troubles in 1915, and crew rescue in 1916 — directly providing the <em>historical overview</em> requested.<br/><br/>The other choices either focus on secondary sources and post-expedition events or misstate the events.<br/><br/>This matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject later-history choices",
+      "content": "The chronological sentence about leaving, losing the ship, and being rescued provides the requested overview. B misstates who was rescued, while C and D focus on later books, films, or discoveries. The answer is <strong>A</strong>."
     }
   ]
 }

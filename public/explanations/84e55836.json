@@ -1,0 +1,15 @@
+{
+  "questionId": "84e55836",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause and result",
+      "content": "Modern planes are described as having sleeker, more streamlined bodies than the Wright Flyer. The next sentence says they are more aerodynamic, which follows as a result of that design difference."
+    },
+    {
+      "title": "Choose a result transition",
+      "content": "A signals contradiction, C signals something true despite another fact, and D signals the final item in a sequence. The needed transition marks the aerodynamic improvement as the effect of sleeker bodies. The answer is <strong>B</strong>."
+    }
+  ]
+}

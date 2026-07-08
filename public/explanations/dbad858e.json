@@ -1,0 +1,15 @@
+{
+  "questionId": "dbad858e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the uncovering clue",
+      "content": "The machine learning tools studied elephant sounds and uncovered a communication system. The blank needs a word for finding or identifying patterns already present in the sounds."
+    },
+    {
+      "title": "Reject unrelated actions",
+      "content": "A would mean the tools made the patterns. B would mean they fixed errors. D would mean they dispersed the patterns. The remaining word means identified something not immediately obvious. The answer is <strong>C</strong>."
+    }
+  ]
+}

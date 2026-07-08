@@ -1,0 +1,19 @@
+{
+  "questionId": "753d28ec",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given line",
+      "content": "Put the equation in slope-intercept form.\n$$\n3x=24y-12\n$$\n$$\n24y=3x+12\n$$\n$$\ny=\\frac{1}{8}x+\\frac{1}{2}\n$$"
+    },
+    {
+      "title": "Use parallel distinct lines",
+      "content": "A system has no solution when the two lines are parallel and distinct. The second line must have slope $\\frac{1}{8}$ but a different $y$-intercept."
+    },
+    {
+      "title": "Check the matching choice",
+      "content": "Rewrite the matching equation.\n$$\n\\frac{1}{2}x=4y\n$$\n$$\ny=\\frac{1}{8}x\n$$\nIt has the same slope and a different intercept. The answer is <strong>B</strong>."
+    }
+  ]
+}

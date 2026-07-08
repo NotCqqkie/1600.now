@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical signal in the passage",
-      "content": "Wace &quot;introduced&quot; the Round Table when adapting Geoffrey's <em>History</em>. &quot;Introduced&quot; means he added it &mdash; it was not in Geoffrey's original 1130s work. Since the Round Table originated with Wace in 1155, it could not have appeared in any source written before that date."
+      "title": "Use the Round Table timeline",
+      "content": "The passage says Wace added the Round Table when adapting Geoffrey of Monmouth's <em>History</em> into <em>Roman de Brut</em> in 1155. If Wace introduced that feature then, the passage supports an inference that earlier Arthurian sources did not already include it."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;<em>Roman de Brut</em> is more historically accurate than <em>History,</em> because <em>Culhwch and Olwen</em> had not been written when Geoffrey of Monmouth was writing his work.&rsquo;</strong>: The passage is about what Wace added, not about historical accuracy or the timeline of <em>Culhwch and Olwen</em>. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Geoffrey of Monmouth was unaware of stories of the Round Table when composing his <em>History</em>, though historians know that works containing such stories were available to him.&rsquo;</strong>: The passage says Wace introduced the Round Table &mdash; meaning it didn&apos;t exist yet in Geoffrey&apos;s time. There is no basis to claim Geoffrey had access to Round Table stories. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Geoffrey of Monmouth's accounts of Arthurian legends in his <em>History</em> are more similar overall in content to the accounts in <em>Culhwch and Olwen</em> than they are to the accounts in <em>Roman de Brut.</em>&rsquo;</strong>: No content comparison between the works is supported by the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;the Arthurian legends that the author of <em>Vita Sancti Cadoci</em> drew on would not have featured the Round Table.&rsquo;</strong>: <em>Vita Sancti Cadoci</em> was composed in the 11th century &mdash; before Wace introduced the Round Table in 1155. It could not have included something that didn&apos;t exist yet. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported extensions",
+      "content": "Choice A makes an unsupported claim about historical accuracy and relies on <em>Culhwch and Olwen</em> in a way the passage does not support. Choice B says historians know Round Table stories were available to Geoffrey, but the passage suggests the opposite by saying Wace introduced the Round Table later. Choice C compares the overall content of several works, which the passage never does. Choice D connects the 11th-century <em>Vita Sancti Cadoci</em> to the timeline: it predates Wace's 1155 addition, so its source legends would not have featured the Round Table. The answer is <strong>D</strong>."
     }
   ]
 }

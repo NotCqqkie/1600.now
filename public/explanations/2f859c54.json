@@ -1,0 +1,15 @@
+{
+  "questionId": "2f859c54",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two positions",
+      "content": "Text 1 doubts that genre categories are useful because they are ambiguous, subjective, and simplistic. Text 2 presents research that could improve automated genre classification."
+    },
+    {
+      "title": "Predict Text 1's response",
+      "content": "Choice A discusses listener enjoyment, which Text 1 does not address; Choice C accepts genre recognition as the issue; Choice D supports progress in classification. Choice B reflects Text 1's skepticism about genre as a framework. The answer is <strong>B</strong>."
+    }
+  ]
+}

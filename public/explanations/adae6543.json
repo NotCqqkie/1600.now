@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use similar triangles",
-      "content": "Because $LM$ is parallel to $PQ$, the angles formed with transversal $LQ$ match, and the vertical angles at $R$ match. That makes triangles $LRM$ and $QRP$ similar, so corresponding side lengths are proportional."
+      "title": "Use the similar triangles",
+      "content": "Since line $LM$ is parallel to line $PQ$, triangles $LRM$ and $QRP$ are similar. Corresponding sides are proportional."
     },
     {
-      "title": "Use the scale shortcut: similar triangles give equal ratios",
-      "content": "Since $LM \\parallel PQ$, triangles $LRM$ and $QRP$ are similar (vertical angle at $R$ + alternate interior angles from parallel lines). Corresponding sides are proportional:<br/>$$\\frac{LR}{RQ} = \\frac{MR}{RP} \\implies \\frac{7}{RQ} = \\frac{6}{11}$$"
+      "title": "Find the missing segment",
+      "content": "Use corresponding sides $LR$ with $RQ$ and $MR$ with $RP$:<br/>$$\\frac{7}{RQ}=\\frac{6}{11}$$<br/>$$RQ=\\frac{7\\cdot11}{6}=\\frac{77}{6}$$"
     },
     {
-      "title": "Solve for RQ, then find LQ",
-      "content": "Cross-multiply: $RQ = \\frac{7 \\times 11}{6} = \\frac{77}{6}$.<br/>$$LQ = LR + RQ = 7 + \\frac{77}{6} = \\frac{42}{6} + \\frac{77}{6} = \\frac{119}{6}$$<br/>That is the correct answer."
+      "title": "Add the collinear segments",
+      "content": "The full length $LQ$ is $LR+RQ$:<br/>$$LQ=7+\\frac{77}{6}=\\frac{42}{6}+\\frac{77}{6}=\\frac{119}{6}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the diameters and arcs",
-      "content": "The two diameters split the circle into opposite arc pairs. Mark the semicircles from each diameter, then use the fact that vertical central angles intercept congruent arcs."
+      "title": "Use the semicircles",
+      "content": "The circumference is $144\\pi$, so each semicircle has arc length $72\\pi$. Since $PR$ and $QS$ are diameters,\n\n$$PQ+QR=72\\pi$$\n\nand\n\n$$QR+RS=72\\pi$$\n\nThis means $PQ=RS$."
     },
     {
-      "title": "Establish arc relationships from the diameters",
-      "content": "Since $PR$ is a diameter, the arc from $P$ to $R$ (passing through $Q$) spans a semicircle:<br/>$$PQ + QR = 72\\pi$$ (half of the $144\\pi$ circumference). Similarly, since $QS$ is a diameter:<br/>$$QR + RS = 72\\pi$$<br/>Subtracting the first equation from the second: $RS = PQ$. Let $PQ = x$. Then $QR = 72\\pi - x$ and $RS = x$."
+      "title": "Use the arc relationship",
+      "content": "Let the length of arc $PQ$ be $x$. Then arc $PS$ has length $72\\pi-x$. The problem says arc $PS$ is twice arc $PQ$.\n\n$$72\\pi-x=2x$$\n\n$$72\\pi=3x$$\n\n$$24\\pi=x$$"
     },
     {
-      "title": "Apply the constraint arc PS = 2 × arc PQ",
-      "content": "From the arc pattern: $PQ = x$, $QR = 72\\pi - x$, $RS = x$, $SP = 72\\pi - x$. The shorter arc $PS = 72\\pi - x$. Given $PS = 2 \\cdot PQ$:<br/>$$72\\pi - x = 2x$$<br/>$$72\\pi = 3x$$<br/>$$x = 24\\pi$$"
-    },
-    {
-      "title": "Calculate arc QR and identify the answer",
-      "content": "$QR = 72\\pi - x = 72\\pi - 24\\pi = 48\\pi$.<br/>That matches <strong>Choice B &mdash; $48\\pi$</strong>."
+      "title": "Find the requested arc",
+      "content": "Use $PQ+QR=72\\pi$ to find arc $QR$.\n\n$$QR=72\\pi-24\\pi$$\n\n$$QR=48\\pi$$\n\nThe answer is <strong>B</strong>."
     }
   ]
 }

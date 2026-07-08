@@ -1,0 +1,15 @@
+{
+  "questionId": "0f6a8355",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare treatment and control",
+      "content": "Caterpillars in the treatment group stayed defensive much longer when exposed to electric field shifts like those made by predatory wasps. In the control group, caterpillars resumed neutral behavior almost immediately."
+    },
+    {
+      "title": "Infer what they detected",
+      "content": "<ul><li><strong>Choice A</strong>: Explains why electric field shifts caused extended defensive behavior.</li><li><strong>Choice B</strong>: Introduces different shift sizes, which the passage does not discuss.</li><li><strong>Choice C</strong>: Claims one species is more sensitive than the others, which the data do not show.</li><li><strong>Choice D</strong>: Adds an unsupported ability to cause electric field shifts.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6ff6f413",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when $x=0$.\n$$y=600(4)^{2(0)}$$\n$$y=600(4)^0$$\n$$y=600$$\nSo the intercept has $x$-coordinate $0$ and $y$-value $600$."
+    },
+    {
+      "title": "Interpret the starting time",
+      "content": "The variable $x$ counts six-month periods starting from the end of March $1993$. When $x=0$, no six-month periods have passed, so the graph describes the estimated subscribers at the end of March $1993$. The answer is <strong>B</strong>."
+    }
+  ]
+}

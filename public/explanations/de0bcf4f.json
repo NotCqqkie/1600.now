@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship between the two sentences",
-      "content": "The first sentence states Vega's goal: he wanted randomness in his art. The second sentence describes how he acted on that goal by using techniques like decalcomania that produce random results. The transition must show the second sentence follows logically from the first — it is a direct result, not a contrast, a conclusion, or something that happens despite the goal."
+      "title": "Connect goal to method",
+      "content": "The first sentence says Vega wanted to include chance and randomness in his artistic process. The next sentence describes his use of techniques that produce random, unpredictable results."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Work through all four choices:<ul><li><strong>\"With this in mind,\"</strong>: \"With this in mind\" means \"keeping this goal in view\" — it signals that the technique described is a deliberate response to the stated desire for randomness. &#10003;</li><li><strong>\"On the contrary,\"</strong>: \"On the contrary\" signals opposition or contradiction, but using randomness-producing techniques does not contradict wanting randomness — it fulfills it. &#10007;</li><li><strong>\"In conclusion,\"</strong>: \"In conclusion\" signals a summary or final point, but a single example technique is not a conclusion drawn from the prior statement. &#10007;</li><li><strong>\"Regardless,\"</strong>: \"Regardless\" signals the action happens despite something, implying the techniques were used despite the desire for randomness — the opposite of the actual logic. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose the purpose transition",
+      "content": "The transition should show that the technique follows from the goal. On the contrary signals opposition, In conclusion signals a summary, and Regardless signals action despite the goal. The answer is <strong>A</strong>."
     }
   ]
 }

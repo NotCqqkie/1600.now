@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage focuses on what the Aspera mission will achieve: using a new telescope to observe warm-hot CGM gas that “haven't previously been observable”, which is crucial to understanding galaxy evolution."
+      "title": "Center the Aspera mission",
+      "content": "The text focuses on NASA's Aspera mission and what it will reveal: previously unobservable warm-hot CGM gas that may fuel star formation, hold much of a galaxy's mass, and help explain how galaxies change and interact."
     },
     {
-      "title": "Match the answer to the signal",
-      "content": "<strong>Choice D &mdash; The Aspera mission is expected to produce the first direct observations of CGM gas in the \"warm-hot\" phase, which likely has an important role in the evolution of galaxies.</strong> states that Aspera will produce “the first direct observations” of warm-hot CGM gas, which “likely has an important role in the evolution of galaxies.” This directly reflects the passage's focus on a mission delivering a new observation of previously-invisible material critical to galaxy evolution.<br/><br/>The other choices either focus on a person, describe only the current limitation, or generalize about incomplete understanding without the Aspera mission.<br/><br/>That matches <strong>Choice D &mdash; The Aspera mission is expected to produce the first direct observations of CGM gas in the \"warm-hot\" phase, which likely has an important role in the evolution of galaxies.</strong>."
+      "title": "Separate partial summaries",
+      "content": "Choice A overemphasizes Vargas and omits the warm-hot gas. Choice B describes only the current observation limit and adds an unsupported claim about studied galaxies. Choice C is too general and leaves out Aspera. The main idea must include Aspera's expected direct observations and the gas's role in galaxy evolution. The answer is <strong>D</strong>."
     }
   ]
 }

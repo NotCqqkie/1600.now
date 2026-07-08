@@ -1,0 +1,19 @@
+{
+  "questionId": "c0ee09ae",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Turn profits into points",
+      "content": "The function is linear and includes the points $(6{,}330)$ and $(12{,}780)$."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Use the two points:$$m=\\frac{780-330}{12-6}=\\frac{450}{6}=75$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Substitute $(6{,}330)$ into $y=75x+b$:$$330=75(6)+b$$$$b=-120$$So $f(x)=75x-120$. The answer is <strong>D</strong>."
+    }
+  ]
+}

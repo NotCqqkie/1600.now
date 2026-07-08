@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what evidence would support the team's claim",
-      "content": "The team claims migrating whales don't live only on stored energy.<br/>To directly support this, we need evidence that whales obtain energy during the migration itself.<br/>The crucial signal: observations showing whales feeding while migrating."
+      "title": "Define supporting evidence",
+      "content": "The team claims migrating whales may not live only on stored energy. Evidence that whales feed while migrating would show that they can gain energy during the trip."
     },
     {
-      "title": "Match to evidence of feeding during migration",
-      "content": "The correct answer provides observations of whales feeding as they migrate to breeding grounds; this proves whales gain energy en route, directly supporting the team's claim.<br/><br/>The other choices address different topics (marine life coexistence, observation frequency, timing patterns) that don't establish feeding during migration.<br/><br/>This is the correct answer."
+      "title": "Reject indirect findings",
+      "content": "Choice A mentions other animals feeding nearby. Choice C compares counts of observations in different directions. Choice D discusses timing of migration. The remaining finding directly observes the whales feeding on the way to breeding grounds. The answer is <strong>B</strong>."
     }
   ]
 }

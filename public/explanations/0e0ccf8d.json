@@ -1,0 +1,15 @@
+{
+  "questionId": "0e0ccf8d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect action to result",
+      "content": "The first sentence says Mercer explores Alvarez's sculpture. The second says he participates in ekphrasis, a poetic tradition involving visual art. The transition must show that the act of exploring the sculpture is how Mercer joins that tradition."
+    },
+    {
+      "title": "Test the transition choices",
+      "content": "<ul><li><strong>Choice A</strong>: Adds another point, but the second sentence explains the significance of the first.</li><li><strong>Choice B</strong>: Means by doing the action just described, which links Mercer's exploration to ekphrasis.</li><li><strong>Choice C</strong>: Signals concession, but the sentences are not opposed.</li><li><strong>Choice D</strong>: Signals direct contrast, which the passage does not create.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

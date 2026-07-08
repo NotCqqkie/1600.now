@@ -1,0 +1,15 @@
+{
+  "questionId": "93d17142",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the performance evidence",
+      "content": "The colon introduces evidence about the computer program's performance compared with the road-map method. The program identified sidewalks more accurately and could even distinguish between concrete and brick."
+    },
+    {
+      "title": "Pick the comparison word",
+      "content": "A is too vague because the issue is not simply change. B does not describe performance, and C contradicts the evidence that the program did better. The blank needs a word meaning better than another method. The answer is <strong>D</strong>."
+    }
+  ]
+}

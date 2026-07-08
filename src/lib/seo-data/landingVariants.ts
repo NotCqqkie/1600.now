@@ -11,32 +11,32 @@ interface LandingVariant {
   faqs: { q: string; a: string }[];
 }
 
-const SHARED_FEATURES = (keyword: string) => [
+const SHARED_FEATURES: LandingVariant["features"] = [
   {
-    title: `Free ${keyword} question bank`,
-    body: `Filter thousands of ${keyword.toLowerCase()} questions by subject, skill, and difficulty, with explanations on every item.`,
+    title: "Free SAT question bank",
+    body: "Filter thousands of SAT questions by subject, skill, and difficulty, with explanations on every item.",
     href: "/bank",
   },
   {
-    title: `Full-length ${keyword} practice modules`,
-    body: `Take realistic, adaptive-style ${keyword.toLowerCase()} modules with the same timing and structure as the real Bluebook exam.`,
+    title: "Full-length practice modules",
+    body: "Take realistic, adaptive-style modules with the same timing and structure as the real Bluebook exam.",
     href: "/modules",
   },
   {
-    title: `${keyword} score calculator`,
-    body: `Convert raw scores into 1600-scale projections so every practice session ends with a clear number.`,
+    title: "SAT score calculator",
+    body: "Convert raw scores into 1600-scale projections so every practice session ends with a clear number.",
     href: "/score-calculator",
   },
   {
-    title: `${keyword} vocabulary and skill guides`,
-    body: `Work through 260+ high-frequency SAT words and targeted guides for every tested math and reading skill.`,
+    title: "Vocabulary and skill guides",
+    body: "Work through 260+ high-frequency SAT words and targeted guides for every tested math and reading skill.",
     href: "/vocab",
   },
 ];
 
 const makeVariant = (partial: Omit<LandingVariant, "features"> & { features?: LandingVariant["features"] }): LandingVariant => ({
   ...partial,
-  features: partial.features ?? SHARED_FEATURES(partial.keyword),
+  features: partial.features ?? SHARED_FEATURES,
 });
 
 const landingVariants: LandingVariant[] = [

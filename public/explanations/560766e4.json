@@ -1,0 +1,31 @@
+{
+  "questionId": "560766e4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate at one",
+      "content": "The value $k$ means $f(1)$. In Desmos, make one table row with $x_1=[1]$, then evaluate each answer choice at that same input. Since the choices are equivalent forms, they should all output the same value; the goal is to find which one displays that value as the coefficient or base.",
+      "desmosExpressions": [
+        "x_1=[1]",
+        "a_1=50(1.4)^{x_1+1}",
+        "b_1=70(1.4)^{x_1}",
+        "c_1=98(1.4)^{x_1-1}",
+        "d_1=137.2(1.4)^{x_1-2}"
+      ]
+    },
+    {
+      "title": "Find the zero exponent",
+      "content": "The coefficient shows $f(1)$ directly when the exponential factor becomes $1$. In the form\n$$\n98(1.4)^{x-1}\n$$\nsubstituting $x=1$ makes the exponent $0$, so the coefficient is the value of $k$.",
+      "desmosExpressions": [
+        "y=98(1.4)^{x-1}",
+        "(1,98)",
+        "x=1"
+      ]
+    },
+    {
+      "title": "Choose the displayed value",
+      "content": "The form with exponent $x-1$ displays $f(1)$ as the coefficient. The answer is <strong>C</strong>."
+    }
+  ]
+}

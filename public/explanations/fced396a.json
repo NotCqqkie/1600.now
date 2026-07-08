@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what is being compared",
-      "content": "The opener \"Compared with that of a highly concentrated market\" uses \"that\" as a stand-in for \"HHI score.\" So one side of the comparison is the HHI score of a highly concentrated market. The blank must begin with the matching item: the HHI score of a less concentrated market."
+      "title": "Match the comparison",
+      "content": "“Compared with that of a highly concentrated market” uses “that” to mean the HHI score. The subject after the comma must therefore be another HHI score, not the market itself."
     },
     {
-      "title": "Require parallel structure",
-      "content": "A comparison phrase like \"Compared with X, Y...\" needs Y to be the same kind of thing as X. Here X = an HHI score, so Y must also be an HHI score. The subject right after the comma must be the HHI score, not the market itself."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>\"a market that is less concentrated will have a much lower HHI score.\"</strong>: subject is \"a market,\" not \"an HHI score\" &mdash; breaks parallelism (compares a score to a market). &#10007;</li><li><strong>\"the HHI score of a less concentrated market will be much lower.\"</strong>: subject is \"the HHI score,\" mirroring the score on the other side of the comparison. &#10003;</li><li><strong>\"when a market is less concentrated, its HHI score will be much lower.\"</strong>: turns the second side into a conditional clause whose subject is \"a market,\" not a score &mdash; breaks parallelism. &#10007;</li><li><strong>\"a less concentrated market will have an HHI score that is much lower.\"</strong>: subject is \"a less concentrated market,\" not a score &mdash; breaks parallelism. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Keep the subjects parallel",
+      "content": "Choice A and Choice D compare a score with a market, creating a dangling comparison. Choice C turns the second side into a conditional clause and still fails to put the score in parallel position. The version beginning with “the HHI score of a less concentrated market” makes the comparison grammatical. The answer is <strong>B</strong>."
     }
   ]
 }

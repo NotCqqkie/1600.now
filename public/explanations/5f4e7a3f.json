@@ -1,0 +1,19 @@
+{
+  "questionId": "5f4e7a3f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sample size effect",
+      "content": "For a random sample, a larger sample size usually gives a smaller margin of error because the sample estimate is based on more data."
+    },
+    {
+      "title": "Compare the two samples",
+      "content": "The second sample has $288$ members instead of $144$ members:\n$$\n288=2(144)\n$$\nDoubling the sample size makes the margin of error lower. It does not guarantee that the estimated percentage itself will be higher or lower."
+    },
+    {
+      "title": "Choose the likely effect",
+      "content": "The most likely effect is that the margin of error will be lower. The answer is <strong>A</strong>."
+    }
+  ]
+}

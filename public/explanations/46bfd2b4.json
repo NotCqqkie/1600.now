@@ -1,0 +1,15 @@
+{
+  "questionId": "46bfd2b4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the cost parts",
+      "content": "The total cost includes the first-hour charge, extra-hour charges, and safety gear. Since $x$ is total hours, the number of additional hours is $x-1$."
+    },
+    {
+      "title": "Build the expression",
+      "content": "The first hour costs $180$, the additional hours cost $65(x-1)$, and safety gear costs $w$. So:<br/>$$y=180+65(x-1)+w$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

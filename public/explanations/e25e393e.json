@@ -1,0 +1,15 @@
+{
+  "questionId": "e25e393e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the input",
+      "content": "In the function, $x$ is the number of years after the initial investment. Therefore, $f(2)$ refers to the value of the CD after $2$ years."
+    },
+    {
+      "title": "Interpret the output",
+      "content": "The output $f(2)$ is approximately $9{,}474.08$, the CD's total value in dollars at that time, not the interest rate, not days, and not the amount above the initial value.<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

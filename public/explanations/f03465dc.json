@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Check if the equations are equivalent",
-      "content": "The second equation is $15x + 21y = 33$. Divide by 3: $$\\frac{15x + 21y}{3} = \\frac{33}{3}$$ This simplifies to $5x + 7y = 11$, which is exactly the first equation. Both equations represent the <strong>same line</strong>&mdash;there are infinitely many solutions."
+      "title": "Compare the equations",
+      "content": "The second equation is $3$ times the first equation.<br/>$$3(5x+7y)=3(11)$$<br/>$$15x+21y=33$$<br/>So both equations describe the same line."
     },
     {
-      "title": "Solve for the parametric form of points on the line",
-      "content": "Define $L(x,y)=5x+7y$. A correct parametrization must make $L(x,y)=11$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. $\\left(r,-\\frac{5r}{7}+\\frac{11}{7}\\right)$ returns $[11,11]$, so it works for the whole line."
+      "title": "Write the point form",
+      "content": "Use the first equation and let $x=r$.<br/>$$5r+7y=11$$<br/>$$7y=11-5r$$<br/>$$y=-\\frac{5r}{7}+\\frac{11}{7}$$"
     },
     {
-      "title": "Confirm the candidate",
-      "content": "For $x=r$ and $y=-\\frac{5r}{7}+\\frac{11}{7}$. Substitution gives $5r+7\\left(-\\frac{5r}{7}+\\frac{11}{7}\\right)=5r-5r+11=11$, true for every $r$. $\\left(r,-\\frac{5r}{7}+\\frac{11}{7}\\right)$ is correct."
+      "title": "Choose the matching point",
+      "content": "For each real number $r$, the point on both graphs is<br/>$$(r,-\\frac{5r}{7}+\\frac{11}{7})$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

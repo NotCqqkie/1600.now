@@ -1,0 +1,16 @@
+{
+  "questionId": "e17e60b0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Understand the problem: temperature increase conversion",
+      "content": "The function F(x) converts Kelvin to Fahrenheit. The question asks about the Fahrenheit increase corresponding to a 14.60-Kelvin increase.<br/><br/>Since temperature <em>increases</em> are being compared, constant terms in the conversion formula (+32, -273.15) cancel out.<br/><br/>Only the scaling factor $\\frac{9}{5}$ (equivalent to $1.8$) between Kelvin/Celsius and Fahrenheit matters. <br/><br/>Compute: $14.60 \\times \\frac{9}{5}$"
+    },
+    {
+      "title": "Direct multiplication for temperature difference",
+      "content": "Multiply the Kelvin increase by the Fahrenheit scale factor: <br/>$$14.60 \\times \\frac{9}{5} = 14.60 \\times 1.8 = 26.28$$<br/>This matches the linear relationship between temperature differences, bypassing full function evaluation. That confirms <strong>A</strong> is correct.",
+      "formula": "$\\Delta F = \\frac{9}{5} \\Delta K$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "821817ce",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare both authors",
+      "content": "Text 1 says Chen took a crucial step that Haddad did not: separating plant root systems while allowing mycorrhizal strands through. Text 2 argues that even Chen's barriers still leave other pathways possible."
+    },
+    {
+      "title": "Find the shared answer",
+      "content": "Choice A would divide the authors because Text 1 is more favorable to Chen's barriers than Text 2. Choice B asks whether Haddad excluded other pathways; both texts imply no. Choice C is not addressed. Choice D is only raised by Text 2. The answer is <strong>B</strong>."
+    }
+  ]
+}

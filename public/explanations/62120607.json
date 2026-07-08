@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Analyze the sentence structure around the blank",
-      "content": "Before the blank is an independent clause: <em>&quot;the portraits reveal themselves to be [quilts]&quot;</em>. After the blank is a noun phrase with a participial modifier: <em>&quot;the stitching barely visible among the thousands of pieces of printed, microcut fabric.&quot;</em> This phrase has no main verb, so it is <strong>not</strong> an independent clause &mdash; it adds descriptive detail about how the quilts appear."
+      "title": "Parse the second part",
+      "content": "After the blank, \"the stitching barely visible among the thousands of pieces\" is a descriptive noun phrase, not a complete sentence. It adds detail about how the quilts look up close."
     },
     {
-      "title": "Apply the punctuation rule to eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;quilts, and the&rsquo;</strong>: a comma plus &quot;and&quot; joins two independent clauses; the second element here is a noun phrase, not an independent clause, so this is incorrect. &#10007;</li><li><strong>Choice B &mdash; &lsquo;quilts, the&rsquo;</strong>: a comma alone correctly separates an independent clause from a following descriptive noun phrase that elaborates on it. &#10003;</li><li><strong>Choice C &mdash; &lsquo;quilts; the&rsquo;</strong>: a semicolon must join two independent clauses; using it before a noun phrase is incorrect. &#10007;</li><li><strong>Choice D &mdash; &lsquo;quilts. The&rsquo;</strong>: a period creates a sentence fragment beginning with &quot;The stitching,&quot; since that noun phrase has no main verb. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose comma description",
+      "content": "A uses comma plus \"and\" as if another independent clause follows. C uses a semicolon before a phrase. D creates a fragment. The remaining punctuation attaches the descriptive phrase correctly. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the capital-constraint mechanism",
-      "content": "The student's assertion depends on a specific economic logic: limited capital forced reliance on processing with assembly (firms receive free raw materials and charge only for labor), while processing with inputs requires capital (firms must buy raw materials).<br/><br/>If capital constraints “resolved during the 2000s,” we'd expect a dramatic shift toward capital-intensive imports precisely during that decade."
+      "title": "Tie processing types to capital needs",
+      "content": "The assertion says firms initially had limited capital and that this barrier improved in the 2000s. Processing imports with assembly does not require paying for materials, while processing with inputs does. A sharp rise in inputs best supports greater capital availability."
     },
     {
-      "title": "Match the supporting pattern to the data",
-      "content": "Processing imports with inputs rose from roughly 650 million dollars (2000) to 2,300 million dollars (2006)—a 1,650-million-dollar increase.<br/><br/>Processing with assembly rose from roughly 250 to 750 million dollars—a 500-million-dollar increase.<br/><br/>The sharp divergence in growth rates shows that from 2000 to 2006, firms dramatically scaled the capital-intensive strategy, directly confirming that their capital situation improved during that window.<br/><br/>Two other options focus on 2006 alone or rank categories without timing; the cross-year alternative compares 2006 assembly to 2000 inputs, missing the within-decade contrast.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Use the data trend from 2000 to 2006",
+      "content": "The graph pattern says processing imports with inputs increased far faster than processing with assembly over 2000 to 2006. That specific rise tracks exactly the claim about firms becoming less constrained by limited capital."
+    },
+    {
+      "title": "Reject comparisons that do not show growth in inputs",
+      "content": "Choice A makes a 2006 ranking claim and conflicts with ordinary imports being higher that year. Choice C uses a static comparison and misses the needed change over time. Choice D compares categories across different years without supporting capital growth. Choice B directly captures a stronger rise in the capital-intensive category. The answer is <strong>B</strong>."
     }
   ]
 }

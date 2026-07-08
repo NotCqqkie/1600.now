@@ -1,0 +1,15 @@
+{
+  "questionId": "581cb29e",
+  "correctAnswer": "0.4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table total",
+      "content": "Read the green total from the table. It lists $40$ green tiles and $100$ total tiles, so use favorable outcomes over total outcomes."
+    },
+    {
+      "title": "Calculate the probability",
+      "content": "Use favorable outcomes over total outcomes.<br/>$$\\frac{40}{100}=\\frac{2}{5}=0.4$$<br/>The answer is <strong>0.4</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1139372a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed data trend",
+      "content": "The student's claim requires evidence that traffic congestion existed in a very large city and in smaller areas, and that congestion worsened over time. A single data point is not enough."
+    },
+    {
+      "title": "Find support across locations",
+      "content": "Choice A gives only one Miami value. Choice B only says at least one area was below 20 hours at some point. Choice C reverses the Miami and Allentown-Bethlehem comparison. The remaining choice shows Miami had more delay than Boise and that delay rose in both areas, supporting the claim. The answer is <strong>D</strong>."
+    }
+  ]
+}

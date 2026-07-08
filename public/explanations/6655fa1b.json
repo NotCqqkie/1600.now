@@ -1,0 +1,15 @@
+{
+  "questionId": "6655fa1b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate first and later days",
+      "content": "The first day costs $72$ dollars. Each additional day costs $36$ dollars, so for $d$ total days, there are $d-1$ additional days."
+    },
+    {
+      "title": "Simplify the cost function",
+      "content": "Write and simplify the total cost:<br/>$$C(d)=72+36(d-1)=72+36d-36=36d+36$$The answer is <strong>A</strong>."
+    }
+  ]
+}

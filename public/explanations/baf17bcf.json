@@ -1,0 +1,15 @@
+{
+  "questionId": "baf17bcf",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "Distribute on each side of the equation.\n$$9(x+20)+6x=9x+180+6x=15x+180$$\n$$15(x+12)=15x+180$$"
+    },
+    {
+      "title": "Recognize the identity",
+      "content": "The equation simplifies to\n$$15x+180=15x+180$$\nThis is true for every real value of $x$, so there are infinitely many solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

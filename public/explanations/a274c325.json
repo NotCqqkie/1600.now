@@ -1,0 +1,15 @@
+{
+  "questionId": "a274c325",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the built-in definition",
+      "content": "The phrase after the blank explains the meaning: the mihrab is a feature that almost all mosques include. The missing word must mean widespread or found in nearly every case."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "B means detailed or complex, C means deceptive, and D means treated as perfect. None of those meanings matches \"almost all mosques include.\" The needed word means nearly everywhere or almost always present. The answer is <strong>A</strong>."
+    }
+  ]
+}

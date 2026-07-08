@@ -1,0 +1,19 @@
+{
+  "questionId": "d8e75da0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the term",
+      "content": "The variable $h$ is the number of hours worked at the regular job. In the term $22h$, the coefficient $22$ is multiplied by the regular-job hours."
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "Since $22h$ represents dollars earned at the regular job, $22$ is the amount earned for each hour at that job."
+    },
+    {
+      "title": "Match the context",
+      "content": "Choice A describes the hourly pay for the regular job. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ec9abd33",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target speech detection",
+      "content": "The team's conclusion concerns anatomical features affecting dogs' ability to distinguish speech from nonspeech. Support should compare dogs with different anatomy on responses to real language recordings versus the scrambled recording."
+    },
+    {
+      "title": "Reject wrong comparisons",
+      "content": "B compares familiar language with unfamiliar language, not speech with nonspeech. C compares different conditions across different head-shape groups, so it does not isolate the relevant distinction. D compares only long-headed dogs by familiar language. The supporting finding must link head shape to speech-versus-scrambled responses and show a different brain-activity gap for shorter-headed and longer-headed dogs. The answer is <strong>A</strong>."
+    }
+  ]
+}

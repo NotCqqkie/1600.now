@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Decode the researchers' claim",
-      "content": "The researchers concluded that &ldquo;correlations with velocity are stronger than those with density.&rdquo; A stronger correlation means a value further from 0 (regardless of sign). So the correct answer must show that for every rating &mdash; Before, After, and Overall &mdash; the absolute value of the velocity correlation exceeds the absolute value of the density correlation."
+      "title": "Use distance from zero",
+      "content": "The researchers claim that correlations with velocity are stronger than correlations with density. The text defines strength by distance from zero, so the sign of a correlation is not enough. The support must show velocity values farther from zero than matching density values."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; The correlation between congestion ratings before the obstacle and density is further from 0 than the correlation between overall congestion rating and velocity is.</strong>: This compares density (Before) to velocity (Overall) &mdash; a cross-category comparison that does not test the researchers&rsquo; claim. &#10007;</li><li><strong>Choice B &mdash; The correlation between congestion ratings before the obstacle and velocity is further from 0 than the correlation between congestion overall and velocity is.</strong>: This compares velocity (Before) to velocity (Overall) &mdash; two velocity values, not velocity vs. density. &#10007;</li><li><strong>Choice C &mdash; For each of the three ratings, the correlation with velocity is negative while the correlation with density is positive.</strong>: Describes the sign pattern, not relative strength &mdash; a negative value close to 0 is weaker than a positive value far from 0. &#10007;</li><li><strong>Choice D &mdash; For each of the three ratings, correlations with velocity are further from 0 than the corresponding correlations with density are.</strong>: Checks all three pairs &mdash; Before (|&minus;0.9357| &gt; |0.8592|), After (|&minus;0.9518| &gt; |0.7308|), Overall (|&minus;0.8587| &gt; |0.7447|) &mdash; confirming velocity is stronger in every case. &#10003;</li></ul>That is the correct answer."
+      "title": "Compare matching pairs",
+      "content": "Choice A compares different ratings and different variables, so it does not test the researchers' claim. Choice B compares two velocity correlations and leaves density out. Choice C only describes positive and negative signs, but sign does not determine strength. The needed evidence must compare velocity against density for each rating: before the obstacle, after the obstacle, and overall. The answer is <strong>D</strong>."
     }
   ]
 }

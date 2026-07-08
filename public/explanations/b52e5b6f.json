@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the mixture equation",
-      "content": "The mixture contains only vitamin C and magnesium. Since these are the only two components, their masses must sum to the total mass:<br/>$$\\text{vitamin C mass} + \\text{magnesium mass} = \\text{total mass}$$"
+      "title": "Identify the two parts",
+      "content": "The mixture consists only of vitamin C and magnesium. That means the two masses must add to the total mass of $180$ grams."
     },
     {
-      "title": "Solve for magnesium mass",
-      "content": "Substitute the known values into the equation:<br/>$$60 + \\text{magnesium mass} = 180$$<br/>Subtract 60 from both sides:<br/>$$\\text{magnesium mass} = 180 - 60 = 120$$<br/>That is the correct answer."
+      "title": "Subtract vitamin C mass",
+      "content": "The magnesium mass is the total mass minus the vitamin C mass: $$180-60=120$$ The answer is <strong>C</strong>."
     }
   ]
 }

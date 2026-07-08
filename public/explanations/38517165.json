@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the diameter formula",
+      "content": "Circumference can be written directly in terms of diameter:\n$$\nC=\\pi d\n$$\nThe problem gives $C=28\\pi$, so use that form."
     },
     {
-      "title": "Use the diameter form",
-      "content": "The fastest formula here is circumference equals pi times diameter: $$C=\\pi d.$$ The problem gives $C=28\\pi$, so $$28\\pi=\\pi d.$$"
-    },
-    {
-      "title": "Cancel $\\pi$",
-      "content": "Divide both sides by $\\pi$ to get $$d=28.$$ The diameter is <strong>28</strong> centimeters. You do not need to find the radius first unless you choose to use $C=2\\pi r$."
+      "title": "Solve for the diameter",
+      "content": "Set the expressions equal and divide by $\\pi$:\n$$\n28\\pi=\\pi d\n$$\nSo\n$$\nd=28\n$$\nThe answer is <strong>28</strong>."
     }
   ]
 }

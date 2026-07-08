@@ -1,0 +1,15 @@
+{
+  "questionId": "e69b73a3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the table count",
+      "content": "The sentence needs Hopi's speaker count. The passage says Hopi has fewer speakers than Cherokee but still numbers in the thousands, so the value must be the Hopi count from the table."
+    },
+    {
+      "title": "Reject other language counts",
+      "content": "<strong>Choice A</strong> and <strong>Choice D</strong> give counts for other languages in the table. <strong>Choice B</strong> repeats Cherokee's 11,470 speakers, but the blank asks for Hopi. The answer is <strong>C</strong>."
+    }
+  ]
+}

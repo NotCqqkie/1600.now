@@ -1,0 +1,15 @@
+{
+  "questionId": "bc9e8c14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Include definition and example",
+      "content": "The student wants to define \"Lazarus species\" and give an example. The notes define the term as a living species once believed extinct, and they identify the black-footed ferret as such a species."
+    },
+    {
+      "title": "Reject partial responses",
+      "content": "B describes the general idea but does not define the term or name the example. C gives only a detail about the ferret. D gives an example but does not define the term clearly. The answer is <strong>A</strong>."
+    }
+  ]
+}

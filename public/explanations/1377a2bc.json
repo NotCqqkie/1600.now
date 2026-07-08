@@ -1,0 +1,15 @@
+{
+  "questionId": "1377a2bc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the example signal",
+      "content": "The passage first says several nonhuman primates use tools. It then gives crab-eating macaques in Malaysia as an example of primates that use stone tools to open nuts and oysters."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "B says the macaques use other tools, which the text does not state. C compares their skill with dolphins, and D compares how long different primates have used tools; neither comparison appears in the passage. The remaining statement follows from the example. The answer is <strong>A</strong>."
+    }
+  ]
+}

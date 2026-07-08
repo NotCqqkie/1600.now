@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: organize the dimensions first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the length",
+      "content": "The width is $8$ centimeters. The length is $35$ centimeters longer than the width.<br/>$$8+35=43$$"
     },
     {
-      "title": "Identify the dimensions",
-      "content": "The width is $w=8$ cm. The length is $35$ cm longer than the width, so $\\ell = 8 + 35 = 43$ cm."
-    },
-    {
-      "title": "Apply the area formula",
-      "content": "Area of a rectangle is $A = \\ell \\cdot w$, so $A = 43 \\cdot 8 = 344$ square cm. That is the correct answer."
+      "title": "Find the area",
+      "content": "Multiply the rectangle's length by its width.<br/>$$43\\cdot8=344$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

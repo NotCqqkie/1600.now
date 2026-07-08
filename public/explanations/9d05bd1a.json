@@ -1,0 +1,15 @@
+{
+  "questionId": "9d05bd1a",
+  "correctAnswer": "5/8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of j",
+      "content": "Rewrite $5x-8y=24$ in slope-intercept form.\n$$\n-8y=-5x+24\n$$\n$$\ny=\\frac{5}{8}x-3\n$$"
+    },
+    {
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $j$ has slope \n$$\n\\frac{5}{8}\n$$, line $k$ has the same slope. The answer is <strong>5/8</strong>."
+    }
+  ]
+}

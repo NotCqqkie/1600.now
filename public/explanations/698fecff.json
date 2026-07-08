@@ -1,0 +1,15 @@
+{
+  "questionId": "698fecff",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the survival chain",
+      "content": "The passage says many vulnerable native forest plants on Oahu depend on birds eating their fruits and spreading seeds to new locations. It also says the native fruit-eating birds are extinct, while introduced fruit-eating birds are now common and have been confirmed to spread plant seeds. The inference should connect these non-native birds to continued plant survival."
+    },
+    {
+      "title": "Stay within the evidence",
+      "content": "Choice A compares current seed dispersal with the extinct native birds, but the passage gives no numbers for that historical comparison. Choice B invents a preference for native fruits over non-native fruits. Choice D speculates about other activities beyond seed spreading. Since vulnerable plants need seed dispersal and non-native birds now provide it, those birds may be necessary for plants such as the olona shrub to survive. The answer is <strong>C</strong>."
+    }
+  ]
+}

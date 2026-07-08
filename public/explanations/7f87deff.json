@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the function equal to zero",
-      "content": "To find the x-intercepts, set $$y=0$$. Since the constant factor 4 is not zero, we have $$(x-12)(x+6)(x+5)=0$$.",
+      "title": "Set the product equal to zero",
+      "content": "The $x$-intercepts happen when $y=0$. Since $4$ is not zero, set the product of the factors equal to zero:<br/>$$(x-12)(x+6)(x+5)=0$$",
       "formula": null
     },
     {
-      "title": "Solve each factor for x",
-      "content": "Setting each factor equal to zero gives $$x-12=0$$ -> $$x=12$$, $$x+6=0$$ -> $$x=-6$$, and $$x+5=0$$ -> $$x=-5$$. Therefore the x-intercepts occur at $$x=12$$, $$x=-6$$, and $$x=-5$$; one of them is $$x=12$$. The answer is <strong>12</strong>.",
+      "title": "Use any zero of the product",
+      "content": "Set each factor equal to $0$:<br/>$$x=12,\\quad x=-6,\\quad x=-5$$<br/>The question asks for an $x$-coordinate of an $x$-intercept, so one valid value is $12$. The answer is <strong>12</strong>.",
       "formula": null
     }
   ]

@@ -1,0 +1,23 @@
+{
+  "questionId": "faaffc92",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertex",
+      "content": "A horizontal line intersects a parabola exactly once when it passes through the vertex. For $y=-x^2+7x-76$, the vertex x-coordinate is found with the formula below.",
+      "formula": "$$x=-\\frac{b}{2a}$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Here, $a=-1$ and $b=7$.<br/>$$x=-\\frac{7}{2(-1)}=\\frac{7}{2}$$<br/>Now evaluate the parabola at that x-value.<br/>$$-(\\frac{7}{2})^2+7(\\frac{7}{2})-76=-\\frac{49}{4}+\\frac{98}{4}-\\frac{304}{4}=-\\frac{255}{4}$$<br/>A graph shows that only this horizontal line touches the parabola once. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=-x^2+7x-76",
+        "y=-7/2",
+        "y=-353/4",
+        "y=-76",
+        "y=-255/4"
+      ]
+    }
+  ]
+}

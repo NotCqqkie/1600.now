@@ -1,0 +1,15 @@
+{
+  "questionId": "8ec0598c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtracting the second polynomial means changing the sign of every term inside the second parentheses. This keeps unlike powers separate, so the $x^6$ term and the $x^3$ term stay in different groups.<br/>$$(4x^3-5x+8)-(7x^6+9x-6)$$<br/>$$=4x^3-5x+8-7x^6-9x+6$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Now combine terms with the same power of $x$. The $x^6$ and $x^3$ terms do not combine, while the linear terms and constants do.<br/>$$-7x^6+4x^3+(-5x-9x)+(8+6)$$<br/>$$=-7x^6+4x^3-14x+14$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

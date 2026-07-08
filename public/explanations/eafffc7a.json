@@ -1,0 +1,15 @@
+{
+  "questionId": "eafffc7a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Specify the site characteristics",
+      "content": "The task asks for characteristics of the test site, so the relevant details are location, grassland type, climate, and rainfall. The notes identify a mesic grassland in the United States with a subtropical climate and year-round rain."
+    },
+    {
+      "title": "Reject study-topic details",
+      "content": "Choice A reports the study's finding. Choice C identifies who conducted the study and when. Choice D describes what the researchers studied rather than where the test took place. The remaining choice lists the site characteristics requested by the question. The answer is <strong>B</strong>."
+    }
+  ]
+}

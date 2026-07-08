@@ -1,0 +1,15 @@
+{
+  "questionId": "a6d3d4d8",
+  "correctAnswer": "3500",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the masses",
+      "content": "Add the five listed masses to get their combined total.<br/>$$3{,}620+3{,}620+3{,}240+3{,}680+3{,}340=17{,}500$$"
+    },
+    {
+      "title": "Divide by the count",
+      "content": "There are $5$ lemurs, so divide the total mass by $5$.<br/>$$\\frac{17{,}500}{5}=3{,}500$$<br/>The answer is <strong>3500</strong>."
+    }
+  ]
+}

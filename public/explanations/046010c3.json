@@ -1,0 +1,15 @@
+{
+  "questionId": "046010c3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rate of change",
+      "content": "In the linear formula, the coefficient of $x$ is $\\frac{9}{5}$. That means each $1$-kelvin increase changes the Fahrenheit temperature by $\\frac{9}{5}$ degrees."
+    },
+    {
+      "title": "Multiply by the increase",
+      "content": "For a $4.20$-kelvin increase, multiply the change by the rate.<br/>$$\\frac{9}{5}(4.20)=7.56$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

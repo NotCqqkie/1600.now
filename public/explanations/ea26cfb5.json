@@ -1,0 +1,19 @@
+{
+  "questionId": "ea26cfb5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the cause relation",
+      "content": "The sentence says swordfish are slower than frigatebirds. It then explains that this speed difference results from features of flight limiting top speeds less than features suited to swimming through water. The blank should identify the difference as an effect of that fact."
+    },
+    {
+      "title": "Reject reversed meanings",
+      "content": "Choice B would make the speed difference explain the flight-versus-swimming fact, reversing the logic. Choice C means rejection, which does not fit. Choice D means a goal, not a result."
+    },
+    {
+      "title": "Choose the result phrase",
+      "content": "The remaining phrase means an effect or result, matching the explanation for the speed difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

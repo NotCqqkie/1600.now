@@ -1,0 +1,19 @@
+{
+  "questionId": "35f591ca",
+  "correctAnswer": "-21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Clear denominators:\n$$\n84=cx^2+84x\n$$\n$$\ncx^2+84x-84=0\n$$"
+    },
+    {
+      "title": "Use one solution",
+      "content": "One solution means discriminant $0$:\n$$\n84^2-4(c)(-84)=0\n$$\n$$\n7056+336c=0\n$$"
+    },
+    {
+      "title": "Find the constant",
+      "content": "Solve:\n$$\n336c=-7056\n$$\n$$\nc=-21\n$$\nThe answer is <strong>-21</strong>."
+    }
+  ]
+}

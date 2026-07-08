@@ -1,0 +1,19 @@
+{
+  "questionId": "356972c4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify both owners",
+      "content": "The modeling belongs to multiple astronomers, so the plural possessive must be astronomers'. The trajectory belongs to one object, so the singular possessive must be object's."
+    },
+    {
+      "title": "Reject incorrect possessives",
+      "content": "Choice A leaves both relationships nonpossessive. Choice B makes astronomer singular even though the context refers to astronomers. Choice C fixes object's but still leaves astronomers without the needed plural possessive apostrophe."
+    },
+    {
+      "title": "Match plural and singular forms",
+      "content": "The phrase astronomers' modeling of the object's trajectory correctly shows plural ownership for the astronomers and singular ownership for the object. The answer is <strong>D</strong>."
+    }
+  ]
+}

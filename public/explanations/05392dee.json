@@ -1,0 +1,29 @@
+{
+  "questionId": "05392dee",
+  "correctAnswer": "-25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the discriminant condition for no real solutions",
+      "content": "For the equation $-x^2 + bx - 169 = 0$, the quadratic coefficient is $-1$, the linear coefficient is $b$, and the constant is $-169$. A quadratic has no real solutions when its discriminant is negative. Applying that here gives $$b^2-4(-1)(-169)\\lt0$$ so $$b^2-676\\lt0.$$",
+      "formula": "$$\\Delta=b^2-4ac\\lt0\\text{ for no real solutions}$$"
+    },
+    {
+      "title": "Solve the inequality for b",
+      "content": "From $b^2-676\\lt0$, get $$b^2\\lt676.$$ Since $676=26^2$, this means $$|b|\\lt26,$$ or $$-26\\lt b\\lt26.$$"
+    },
+    {
+      "title": "Find the least integer value of b",
+      "content": "Since $b$ must be an integer with $-26\\lt b\\lt26$, the possible integer values run from $-25$ through $25$. The least of these is $b=-25$. In Desmos, check the boundary and nearby integer values by evaluating $b^2-676$; negative values give no real solutions, while $b=\\pm26$ gives exactly one real solution instead.",
+      "desmosExpressions": [
+        "B=[-26,-25,25,26]",
+        "B^2-676",
+        "y=-x^{2}-25x-169"
+      ]
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The least integer that keeps the discriminant negative is <strong>-25</strong>."
+    }
+  ]
+}

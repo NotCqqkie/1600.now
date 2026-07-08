@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate Function Definition to Equation",
-      "content": "The function is defined as $ f(x) = 5x + 21 $. The $ x $-intercept occurs when $ f(x) = 0 $, which corresponds to solving $ 0 = 5x + 21 $. This is a linear equation where $ x $ must be isolated directly.",
+      "title": "Write the function",
+      "content": "The phrase $21$ more than $5$ times $x$ means:<br/>$$f(x)=5x+21$$<br/>An $x$-intercept occurs when $f(x)=0$, so solve:<br/>$$0=5x+21$$",
       "formula": "$$0 = 5x + 21$$"
     },
     {
-      "title": "Solve for the x-Intercept",
-      "content": "Subtract 21 from both sides: $ -21 = 5x $. Divide by 5: $ x = -\\frac{21}{5} $. This value represents the point where the graph crosses the $ x $-axis (when $ y = 0 $).",
+      "title": "Find the intercept input",
+      "content": "Subtract $21$ from both sides and divide by $5$:<br/>$$-21=5x$$<br/>$$x=-\\frac{21}{5}$$",
       "formula": "$$x = -\\frac{21}{5}$$"
     },
     {
-      "title": "Match to the Correct Interpreation",
-      "content": "<strong>When $f(x)=0$, the number is $-\\frac{21}{5}$.</strong> explicitly states $ x = -\\frac{21}{5} $ when $ f(x) = 0 $.<br/><br/>This matches the derived solution and directly describes the x-intercept.<br/><br/>Other choices refer to $ f(0) $ (y-intercept) or slope behavior, which are irrelevant to the x-intercept definition.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Interpret the intercept",
+      "content": "The $x$-intercept means the number is $-\\frac{21}{5}$ when $f(x)=0$. The answer is <strong>A</strong>."
     }
   ]
 }

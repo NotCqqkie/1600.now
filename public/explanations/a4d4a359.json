@@ -1,0 +1,15 @@
+{
+  "questionId": "a4d4a359",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the examples",
+      "content": "The sentence says the transit method has detected exoplanets at vast distances from Earth, then gives a list of examples. A colon after Earth is needed to introduce that list clearly."
+    },
+    {
+      "title": "Place the colon correctly",
+      "content": "Choice B attaches at 41 light-years away to Earth and puts the colon too late. Choice C uses commas instead of introducing the list. Choice D runs from Earth into the first example without a clear list marker. The remaining choice places the colon after Earth and keeps the first distance with the first exoplanet. The answer is <strong>A</strong>."
+    }
+  ]
+}

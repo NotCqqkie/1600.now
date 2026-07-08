@@ -1,0 +1,15 @@
+{
+  "questionId": "9e4f7e56",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed subject",
+      "content": "The sentence already has the main verb “led.” The words before that verb must form the subject of the sentence: the event of reaching a “power wall” led developers to invent the dual-core chip."
+    },
+    {
+      "title": "Make the event the subject",
+      "content": "Choice B creates a dependent “when” clause. Choice C creates a fused pair of clauses. Choice D leaves “led” without a clear subject. The gerund “Hitting” lets the whole event function as the subject of “led.” The answer is <strong>A</strong>."
+    }
+  ]
+}

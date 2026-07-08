@@ -1,0 +1,15 @@
+{
+  "questionId": "afe10670",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide by N",
+      "content": "Start with the given equation:\n$$\nP=N(27-C)\n$$\nSince $N$ is positive, divide both sides by $N$:\n$$\n\\frac{P}{N}=27-C\n$$"
+    },
+    {
+      "title": "Isolate C",
+      "content": "Move terms to solve for $C$:\n$$\nC=27-\\frac{P}{N}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2b1e6809",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the inner expression",
+      "content": "The expression inside the square can be rewritten as:<br/>$$\\frac{1}{2}x-\\frac{29}{2}=\\frac{x-29}{2}$$<br/>So the equation becomes:<br/>$$\\frac{(x-29)^2}{4}-49=0$$"
+    },
+    {
+      "title": "Isolate the target value",
+      "content": "Add $49$, then multiply by $4$:<br/>$$\\frac{(x-29)^2}{4}=49$$<br/>$$(x-29)^2=196$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

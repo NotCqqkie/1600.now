@@ -1,0 +1,15 @@
+{
+  "questionId": "fd09278d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the input",
+      "content": "The variable $x$ is the number of years after the end of $1959$. When $x=5$, the time is the end of $1964$."
+    },
+    {
+      "title": "Interpret the output",
+      "content": "The function value $f(x)$ is the account value in dollars. So $f(5)$ being approximately $265$ means the estimated account value is about $265$ dollars at the end of $1964$. The answer is <strong>D</strong>."
+    }
+  ]
+}

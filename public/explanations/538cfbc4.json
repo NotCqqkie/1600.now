@@ -1,0 +1,15 @@
+{
+  "questionId": "538cfbc4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name Conti's specific role",
+      "content": "The question asks for Conti's role in neutrino research. The relevant notes identify him as a particle physicist known for research on solar and geoneutrinos."
+    },
+    {
+      "title": "Reject vague or missing subjects",
+      "content": "Choice B and Choice C discuss neutrinos without mentioning Conti. Choice D names Conti but stays vague about particle physics instead of specifying neutrinos. The sentence that links Conti to solar and geoneutrino research meets the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

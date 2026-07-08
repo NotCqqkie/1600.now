@@ -1,0 +1,15 @@
+{
+  "questionId": "1958428f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the noise-study comparison",
+      "content": "The passage says arthropod studies had larger differences on average than bird studies. It also says every animal class had individual studies with differences well above the arthropod average. That means the ranges overlap: at least some bird studies exceeded at least some arthropod studies."
+    },
+    {
+      "title": "Rule out unsupported claims",
+      "content": "Choice A compares the Shaw study with other shore crab studies, but the passage gives no such comparison. Choice B reverses the average pattern. Choice D introduces whether effects were detrimental, which the passage never discusses. The answer is <strong>C</strong>."
+    }
+  ]
+}

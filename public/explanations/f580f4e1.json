@@ -1,0 +1,19 @@
+{
+  "questionId": "f580f4e1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine both halves",
+      "content": "The passage first says the 'akeke'e lives only on the Hawaiian archipelago and has adapted to a well-defined habitat. That specialization gives the species physical and behavioral traits that help it survive in that particular ecosystem."
+    },
+    {
+      "title": "Include the consequence",
+      "content": "The word However introduces the important downside. Because the 'akeke'e is so specialized, it is especially vulnerable to environmental changes that disrupt the carefully balanced ecosystem where it lives. A main idea must include both specialization and vulnerability."
+    },
+    {
+      "title": "Reject incomplete summaries",
+      "content": "<ul><li>Choice A overgeneralizes to Hawaiian birds as a group and misses the vulnerability.</li><li>Choice C adds unsupported claims about relatedness and shared habitat.</li><li>Choice D mentions specialization and location but leaves out the resulting susceptibility to habitat disturbance.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

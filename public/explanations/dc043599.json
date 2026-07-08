@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the explicit point of disagreement",
-      "content": "Text 1 says the moon formed from debris \"over the course of thousands of years.\" Text 2 says formation \"happened immediately after impact, taking just a few hours.\" The contrast is entirely about speed of formation."
+      "title": "Find the disagreement",
+      "content": "Text 1 says the moon formed from debris over thousands of years. Text 2 says more detailed simulations suggest the moon formed immediately after impact, in just a few hours. The difference is about duration, not the collision itself."
     },
     {
-      "title": "Match that contrast to a choice",
-      "content": "The correct answer should describe Text 1 as viewing formation as slower and Text 2 as viewing it as faster."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>\"The author of Text 1 argues that the formation of the moon occurred much earlier than the author of Text 2 argues.\"</strong>: overreach &mdash; neither text dates when the collision happened; they disagree on duration, not date. &#10007;</li><li><strong>\"The author of Text 1 suggests there is more evidence confirming the existence of Theia than the author of Text 2 suggests.\"</strong>: Theia's existence is not disputed in either text. &#10007;</li><li><strong>\"The author of Text 1 claims that the moon's surface is more similar to Earth's surface than the author of Text 2 claims.\"</strong>: neither text discusses surface composition or similarity. &#10007;</li><li><strong>\"The author of Text 1 believes that the moon formed more slowly than the author of Text 2 believes.\"</strong>: directly captures the thousands-of-years vs. hours contrast. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject unrelated contrasts",
+      "content": "A changes duration into historical date. B invents disagreement about Theia's existence. C introduces claims about the moon's surface that neither text discusses. The only real contrast is slow formation versus rapid formation. The answer is <strong>D</strong>."
     }
   ]
 }

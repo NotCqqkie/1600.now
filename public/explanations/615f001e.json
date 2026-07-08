@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the grammar problem",
-      "content": "The blank must connect two independent clauses: &quot;A ray diagram reveals how this ______ the hole&apos;s small size restricts light to a single ray&quot; and &quot;all light passing through the hole can only arrive at a single destination.&quot; Joining two independent clauses with a comma alone is a comma splice &mdash; a violation of Standard English punctuation rules."
+      "title": "Separate the explanation",
+      "content": "The first sentence can end after <strong>works</strong>. The next idea begins with a because-clause explaining why the small hole produces a clear image, keeping the cause attached to the effect."
     },
     {
-      "title": "Eliminate wrong choices, keep the one that fixes the comma splice",
-      "content": "Substitute each option and check whether the result produces a grammatically complete sentence or a comma splice/run-on:<ul><li><strong>Choice A &mdash; &lsquo;works because&rsquo;</strong>: creates a run-on &mdash; two sentences fused with no punctuation or conjunction between them. &#10007;</li><li><strong>Choice B &mdash; &lsquo;works. Because&rsquo;</strong>: the period ends the first sentence; &quot;Because the hole&apos;s small size restricts light to a single ray&quot; becomes a dependent clause that correctly introduces the next independent clause. &#10003;</li><li><strong>Choice C &mdash; &lsquo;works, it's because&rsquo;</strong>: the comma joins two independent clauses &mdash; a comma splice. &#10007;</li><li><strong>Choice D &mdash; &lsquo;works: it's because&rsquo;</strong>: &quot;it&apos;s because&quot; creates a second independent clause after the colon, then the sentence continues with another independent clause after the comma &mdash; still a comma splice. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Avoid a splice or run-on",
+      "content": "Choice A fuses the ideas awkwardly. Choice C creates a comma splice, and Choice D adds <em>it's because</em> before another clause, leaving the sentence tangled. A period after <strong>works</strong> cleanly starts the explanatory sentence. The answer is <strong>B</strong>."
     }
   ]
 }

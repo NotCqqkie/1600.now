@@ -1,0 +1,19 @@
+{
+  "questionId": "ceca679a",
+  "correctAnswer": "320",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the small height",
+      "content": "In right triangle $ABC$, use the Pythagorean theorem with hypotenuse $$\\sqrt{89}$$ and leg $8$.\n$$BC^2+8^2=(\\sqrt{89})^2$$\n$$BC^2+64=89$$\n$$BC=5$$"
+    },
+    {
+      "title": "Scale the height",
+      "content": "The full base is\n$$AE=AC+CE=8+24=32$$\nThe height-to-base ratio is\n$$\\frac{BC}{AC}=\\frac{5}{8}$$\nSo the larger height is\n$$DE=\\frac{5}{8}(32)=20$$"
+    },
+    {
+      "title": "Compute the area",
+      "content": "Use the triangle area formula with base $32$ and height $20$.\n$$\\frac{1}{2}(32)(20)=320$$\nThe answer is <strong>320</strong>."
+    }
+  ]
+}

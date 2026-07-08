@@ -1,0 +1,19 @@
+{
+  "questionId": "c577a517",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the terms",
+      "content": "Group the polynomial into two pairs.<br/>$$x^8+x^7y+xy^5+y^6=(x^8+x^7y)+(xy^5+y^6)$$"
+    },
+    {
+      "title": "Factor each group",
+      "content": "Each group has a common factor.<br/>$$x^8+x^7y=x^7(x+y)$$<br/>$$xy^5+y^6=y^5(x+y)$$"
+    },
+    {
+      "title": "Factor the common binomial",
+      "content": "The two grouped terms now share the factor $x+y$.<br/>$$x^7(x+y)+y^5(x+y)=(x+y)(x^7+y^5)$$<br/>One factor is $x^7+y^5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

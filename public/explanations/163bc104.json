@@ -1,0 +1,15 @@
+{
+  "questionId": "163bc104",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial value",
+      "content": "In a linear model of the form<br/>$$f(x)=mx+b$$<br/>the constant $b$ is the value when $x=0$. Here, $x$ is the number of years after the tree was first measured."
+    },
+    {
+      "title": "Interpret the constant",
+      "content": "For the function<br/>$$f(x)=6x+5$$<br/>the value when $x=0$ is<br/>$$f(0)=6(0)+5=5$$<br/>So $5$ represents the estimated height, in feet, when the tree was first measured. The answer is <strong>D</strong>."
+    }
+  ]
+}

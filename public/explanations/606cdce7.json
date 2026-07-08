@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the table first",
-      "content": "This is a linear table question, so use two table points to find the slope and intercept. The table includes $(-6,65)$ and $(6,29)$, so $$m=\\frac{29-65}{6-(-6)}=\\frac{-36}{12}=-3$$ Use $y=mx+b$ with $(-6,65)$: $$65=-3(-6)+b=18+b$$ $$b=47$$"
+      "title": "Find the slope",
+      "content": "Use two points from the table, $(-6,65)$ and $(6,29)$.\n$$m=\\frac{29-65}{6-(-6)}=\\frac{-36}{12}=-3$$"
     },
     {
-      "title": "Convert to the choice format",
-      "content": "The table line is $$y=-3x+47$$ Move terms to match the answer choices: $$3x+y=47$$ Multiplying by $3$ gives $$9x+3y=141$$",
+      "title": "Find the equation",
+      "content": "Use $y=mx+b$ with $(-6,65)$.\n$$65=-3(-6)+b$$\n$$65=18+b$$\n$$b=47$$\nSo the line is $y=-3x+47$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Rewrite the line in the same form as the choices.\n$$y=-3x+47$$\n$$3x+y=47$$\n$$9x+3y=141$$\nThe answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=-3x+47",
         "9x+3y=141"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Choice A (&lsquo;$9x+3y=141$&rsquo;) is exactly $9x+3y=141$. Choice B (&lsquo;$9x+3y=3$&rsquo;) has the same left side but the wrong constant. The other choices switch the coefficients to $3x+9y$, which does not match the fitted line. Therefore <strong>A</strong> is correct."
     }
   ]
 }

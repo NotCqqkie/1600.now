@@ -1,0 +1,19 @@
+{
+  "questionId": "61c546d1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "A quadratic with vertex $(h,k)$ has form:\n$$\nf(t)=a(t-h)^2+k\n$$\nThe maximum occurs at $t=1.9$ and height $57.76$, so the model must contain:\n$$\n(t-1.9)^2+57.76\n$$"
+    },
+    {
+      "title": "Choose the opening direction",
+      "content": "The object reaches a maximum height, so the parabola opens downward. Therefore the coefficient of the squared term must be negative."
+    },
+    {
+      "title": "Match the model",
+      "content": "The only choice with vertex $(1.9,57.76)$ and a negative leading coefficient is $f(t)=-16(t-1.9)^2+57.76$. The answer is <strong>A</strong>."
+    }
+  ]
+}

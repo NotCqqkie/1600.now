@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what 'initial deposit' means on the graph",
-      "content": "The initial deposit is the account balance at $x = 0$ months (when the account was opened). On the graph, that's the $y$-intercept of $f$."
+      "title": "Find the initial value",
+      "content": "The initial deposit is the balance when $x=0$ months. On the graph, that is the $y$-intercept of $f$."
     },
     {
-      "title": "Read the value",
-      "content": "From the graph, $f(0) \\approx 15$ dollars.<br/><br/>The answer is <strong>15</strong>."
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph shows about $15$ dollars. The answer is <strong>15</strong>."
     }
   ]
 }

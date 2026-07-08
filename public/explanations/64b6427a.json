@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what the text says critics are skeptical about",
-      "content": "The passage states: &quot;it&apos;s too early to tell if they can thrive in this unusual setting.&quot; &quot;They&quot; refers to the trees cultivated for the project. Critics doubt the trees &mdash; and by extension the plant life &mdash; can survive on the building&apos;s balconies."
+      "title": "Find the critics' concern",
+      "content": "The passage says critics are skeptical because it is too early to tell whether the specially cultivated trees can thrive in Bosco Verticale's unusual setting. Their concern is about the building's ability to support its plant life over time."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Some essential aspects of Bosco Verticale's design are difficult to adapt to locations other than Milan.&rsquo;</strong>: The text does not discuss adapting the design to other cities; critics focus solely on whether the current trees can thrive. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The plant life on Bosco Verticale ended up being less varied than Ferri had envisioned it would be.&rsquo;</strong>: The text mentions no comparison between Ferri&apos;s vision and what was planted; critics question survival, not variety. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The construction of Bosco Verticale was no less environmentally damaging than the construction of more conventional buildings is.&rsquo;</strong>: Construction impact is never mentioned in the passage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It is unclear whether Bosco Verticale can support the plant life included in its design.&rsquo;</strong>: Directly restates the critics&apos; concern that it is too early to tell if the trees can thrive in the building&apos;s unusual setting. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported concerns",
+      "content": "A shifts to adapting the design outside Milan, which the text does not discuss. B invents a problem with plant variety. C brings up construction damage, which is never mentioned. The remaining choice restates the uncertainty about whether the plants can thrive. The answer is <strong>D</strong>."
     }
   ]
 }

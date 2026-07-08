@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure required",
-      "content": "The sentence begins: &ldquo;The reed of a wind instrument is the mouthpiece ______&rdquo; The blank is completed by a relative clause introduced by <em>where</em> that modifies &ldquo;mouthpiece.&rdquo; A clause embedded in a declarative sentence uses <strong>normal subject-verb word order</strong> and ends with a <strong>period</strong>, not a question mark."
+      "title": "Use declarative structure",
+      "content": "The sentence is making a statement: the reed is the mouthpiece where sound is made. The blank needs a relative clause after <em>where</em>, so the subject <em>sound</em> should come before the verb phrase <em>is made</em>, and the sentence should end with a period."
     },
     {
-      "title": "Test each choice for word order and end punctuation",
-      "content": "<ul>\n<li><strong>Choice A — where sound is made?</strong>: Word order is correct (subject <em>sound</em> before verb <em>is made</em>), but the question mark turns a declarative sentence into a question. &#10007;</li>\n<li><strong>Choice B — where is sound made.</strong>: Word order is inverted (verb <em>is</em> before subject <em>sound</em>), producing interrogative structure inside a declarative sentence. &#10007;</li>\n<li><strong>Choice C — where sound is made.</strong>: Normal subject-verb order and a period&mdash;correct declarative clause, correct end punctuation. &#10003;</li>\n<li><strong>Choice D — where is sound made?</strong>: Both flaws combined&mdash;inverted word order and a question mark. &#10007;</li>\n</ul>\n<strong>C</strong> is correct."
+      "title": "Check word order and punctuation",
+      "content": "Choice A has declarative word order but wrongly uses a question mark. Choices B and D use question word order by placing <em>is</em> before <em>sound</em>. The remaining option keeps statement word order and period punctuation. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "e045d078",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use dates to correct order",
+      "content": "The misunderstanding is that Pangaea came first. The notes say Kenorland formed about 2.6 billion years ago and Pangaea about 300 million years ago, so the corrected sentence must make Kenorland earlier."
+    },
+    {
+      "title": "Reject vague supercontinent facts",
+      "content": "A explains supercontinents generally. C says the two formed at different times but does not identify which was earlier. D defines both as supercontinents without addressing chronology. The answer is <strong>B</strong>."
+    }
+  ]
+}

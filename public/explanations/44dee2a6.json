@@ -1,0 +1,15 @@
+{
+  "questionId": "44dee2a6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer back to the theater",
+      "content": "The first sentence places the audience at the Civic Puppet Theater. The next sentence says what the audience will experience at that same place, so the transition should point back to the location."
+    },
+    {
+      "title": "Reject nonlocation links",
+      "content": "Choice A signals purpose, but the second sentence is not the goal of the first. Choices B and C signal contrast, but no contrast appears. The remaining choice refers back to the theater as the place of the experience. The answer is <strong>D</strong>."
+    }
+  ]
+}

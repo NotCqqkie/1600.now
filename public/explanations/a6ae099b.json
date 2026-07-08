@@ -1,0 +1,22 @@
+{
+  "questionId": "a6ae099b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radical",
+      "content": "Use the identity $\\sqrt{a^2}=|a|$. The equation becomes<br/>$$|x+15|=x+15$$"
+    },
+    {
+      "title": "Find when it is true",
+      "content": "An absolute value equals the original expression when that expression is nonnegative.<br/>$$x+15\\geq0$$<br/>$$x\\geq-15$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph or solve the equation directly. The solution set begins at $x=-15$, so match that least value to the choices. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "\\sqrt{(x+15)^2}=x+15"
+      ]
+    }
+  ]
+}

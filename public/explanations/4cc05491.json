@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two points on the fit line",
-      "content": "For a slope question, choose two points on the line of best fit. The line passes approximately through $(0,0.2)$ and $(5,9.3)$."
+      "title": "Choose two line points",
+      "content": "Use two approximate points on the line of best fit, such as $(0,0.2)$ and $(5,9.3)$."
     },
     {
       "title": "Calculate the slope",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Choose the closest value",
-      "content": "The closest answer choice to $1.82$ is $1.8$. $0.2$ is the approximate $y$-intercept, not the slope. Therefore, <strong>C</strong> is correct."
+      "content": "The closest listed value to $1.82$ is $1.8$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d0540685",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Check what can change",
+      "content": "The table's surface temperature for HD 80653 b comes from a model that assumes no atmosphere. If the planet had an atmosphere, the likely difference would concern temperature, not the planet's mass."
+    },
+    {
+      "title": "Lower the model temperature",
+      "content": "An atmosphere would make the no-atmosphere temperature estimate too high, so the surface temperature would likely be lower than 2,300 kelvins. Choice A and Choice C wrongly change mass, and Choice B gives an unsupported specific temperature. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d039de15",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the removed area",
+      "content": "The starting area is $36$ square centimeters. Each small square removed has area $4$ square centimeters, so $x$ removed squares take away $4x$ square centimeters."
+    },
+    {
+      "title": "Subtract from the start",
+      "content": "The remaining area is the starting area minus the removed area.\n$$f(x)=36-4x$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

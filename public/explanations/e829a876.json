@@ -1,0 +1,15 @@
+{
+  "questionId": "e829a876",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the exception pattern",
+      "content": "The first sentence says many elements were isolated shortly after discovery, but not all elements followed that pattern. The next sentence must explain what happened in some cases: the isolation process took years."
+    },
+    {
+      "title": "Reject illogical transitions",
+      "content": "Choice A signals contrast even though the sentence explains the exception already introduced. Choice B signals a result, but no consequence is being drawn. Choice D adds another point without explaining the exception. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2476f6c6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use sinuosity as curviness",
+      "content": "The notes define curviness, or sinuosity, as the ratio of stream length to valley length. They also state that high-sinuosity rivers have higher ratios than low-sinuosity rivers. Since the Mississippi River has high sinuosity and the Neales River has low sinuosity, the comparison should say the Mississippi River is curvier by that ratio."
+    },
+    {
+      "title": "Reject reversal and noncomparisons",
+      "content": "Choice A - The high-sinuosity Neales River in Australia is curvier than the low-sinuosity Mississippi River in the United States. This reverses the notes. Choice B - In both the Mississippi and the Neales rivers, curviness is determined by comparing stream length to valley length. This defines the measure but does not compare the rivers. Choice C - By comparing the stream lengths of the Mississippi and Neales rivers to their valley lengths, one can calculate their curviness, or sinuosity. This explains calculation, not which ratio is greater. Choice D - The Mississippi River's ratio of stream length to valley length, also known as sinuosity, is greater than that of the Neales River. This makes the direct comparison the student wants. The answer is <strong>D</strong>."
+    }
+  ]
+}

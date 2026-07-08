@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the earnings equation",
-      "content": "Let $x$ be hours at job A and $y$ be hours at job B. Avery earns \\$10 per hour at job A and \\$20 per hour at job B, so the graph represents $$10x+20y=s.$$"
+      "title": "Write the earnings equation",
+      "content": "Let $x$ be hours at job A and $y$ be hours at job B. The total earnings are<br/>$$10x+20y=s$$"
     },
     {
-      "title": "Use the intercept instead of doing extra algebra",
-      "content": "The line crosses the $y$-axis at $(0,8)$. That point means Avery works $0$ hours at job A and $8$ hours at job B. Substitute just that point into the earnings equation: $$10(0)+20(8)=s.$$ So $$s=160.$$"
-    },
-    {
-      "title": "Match the equation to the choices",
-      "content": "The equation with $s=160$ is $10x+20y=160$. Its $y$-intercept is $8$ because setting $x=0$ gives $20y=160$, so $y=8$. That matches <strong>B</strong>."
+      "title": "Use the graph intercept",
+      "content": "The graph includes the intercept $(0,8)$. That means $0$ hours at job A and $8$ hours at job B, so<br/>$$10(0)+20(8)=s$$<br/>$$160=s$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

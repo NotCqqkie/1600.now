@@ -1,0 +1,19 @@
+{
+  "questionId": "1929e117",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the first ratio",
+      "content": "Divide by $4$.<br/>$$\\frac{a}{b}=\\frac{3.2}{4}=0.8$$"
+    },
+    {
+      "title": "Use the second ratio",
+      "content": "Substitute $\\frac{a}{b}=0.8$.<br/>$$\\frac{a}{bn}=\\frac{a}{b}\\cdot\\frac{1}{n}$$<br/>$$0.8\\cdot\\frac{1}{n}=18.4$$"
+    },
+    {
+      "title": "Solve the reciprocal",
+      "content": "Divide by $0.8$.<br/>$$\\frac{1}{n}=\\frac{18.4}{0.8}=23$$<br/>The answer is <strong>23</strong>."
+    }
+  ]
+}

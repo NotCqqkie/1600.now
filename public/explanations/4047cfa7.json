@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize what we need to find",
-      "content": "The essay has a maximum limit of 4,800 words and currently contains 3,175 words. To find the maximum additional words allowed, we subtract the current count from the limit. The formula is: <br/>$$\\text{Additional words allowed} = \\text{Limit} - \\text{Current}$$"
+      "title": "Subtract from the word limit",
+      "content": "The essay can have at most $4{,}800$ words and already has $3{,}175$ words. The additional words are the difference between those two values."
     },
     {
-      "title": "Calculate the result",
-      "content": "Substitute the values: $$4800 - 3175 = 1625$$ <strong>A</strong> is correct."
+      "title": "Find the remaining capacity",
+      "content": "$$\n4{,}800-3{,}175=1{,}625\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

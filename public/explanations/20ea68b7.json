@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "“The number of ______ can serve” has two key structures:<br/>After “of” — a noun that is the object of the preposition<br/>Before “can serve” — a noun that is the subject of the verb"
+      "title": "Identify the noun roles",
+      "content": "The sentence refers to the number of terms that presidents can serve. The first blank part must be the plural noun for repeated terms, and the second must be the plural noun for presidents in general."
     },
     {
-      "title": "Apply noun form conventions",
-      "content": "Objects of prepositions and subjects of verbs appear in their base form, not possessive.<br/><br/>Answer A) “terms presidents” correctly provides “terms” (base plural form, object of “of”) and “presidents” (base form, subject of “can serve”).<br/><br/>The other choices incorrectly use possessives, which are not appropriate for these grammatical functions.<br/><br/>That matches <strong>Choice A &mdash; terms presidents</strong>."
+      "title": "Avoid possessives",
+      "content": "B incorrectly makes \"term\" possessive. C makes both nouns possessive and singular. D makes \"president\" possessive. The sentence needs ordinary plural nouns, not possessive forms. The answer is <strong>A</strong>."
     }
   ]
 }

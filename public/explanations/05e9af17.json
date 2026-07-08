@@ -1,0 +1,15 @@
+{
+  "questionId": "05e9af17",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the unit rate",
+      "content": "Each choice has the form $t=kd$, so use one row of the table to find the constant of proportionality:\n$$9=k(0.18)$$\n$$k=\\frac{9}{0.18}=50$$"
+    },
+    {
+      "title": "Write the matching equation",
+      "content": "A rate of $50$ minutes per mile gives the model\n$$t=50d$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

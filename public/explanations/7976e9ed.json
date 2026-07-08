@@ -1,0 +1,15 @@
+{
+  "questionId": "7976e9ed",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main reversal",
+      "content": "The passage explains that people once thought tool use was unique to primates, then gives sea otters and woodpecker finches as evidence that this belief is wrong."
+    },
+    {
+      "title": "Reject narrower claims",
+      "content": "Choice A contradicts the idea that tools make goals easier. Choice B focuses only on sea otters and adds an unsupported comparison with primates. Choice D says many myths, but the passage addresses one. The answer is <strong>C</strong>."
+    }
+  ]
+}

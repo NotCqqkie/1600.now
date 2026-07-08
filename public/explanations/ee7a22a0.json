@@ -1,0 +1,19 @@
+{
+  "questionId": "ee7a22a0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the debut facts",
+      "content": "The question asks for a sentence that emphasizes when and where <em>Argentum</em> debuted. The useful notes are the year, 2018, and the place, New York City, New York."
+    },
+    {
+      "title": "Keep the focus narrow",
+      "content": "Details about Quispe's nationality, her usual large-scale light sculptures, the LED domes, and the work's size may be accurate, but they do not directly emphasize both parts of the debut."
+    },
+    {
+      "title": "Eliminate the off-task choices",
+      "content": "<ul><li>A: emphasizes materials and size while leaving out the location.</li><li>B: gives only general background about the artist's work with light.</li><li>C: puts the year at the start and includes New York City as the place of debut.</li><li>D: includes the year only as a parenthetical detail and leaves out the location.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

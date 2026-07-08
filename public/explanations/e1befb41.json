@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify Mercer's core claim and how it applies to Karim's conclusion",
-      "content": "Mercer argues that there is no objective definition of productivity &mdash; reading a book can be productive or idle depending on the person. Karim, after further research, concludes that life satisfaction drops when free time is spent &ldquo;unproductively,&rdquo; naming watching TV and playing games as examples. Mercer would object that labeling those activities &ldquo;unproductive&rdquo; assumes a universal definition he explicitly rejects.<br/><br/>That means the best response captures Mercer cautioning against exactly that kind of broad assumption."
+      "title": "Focus on Mercer's objection",
+      "content": "Karim concludes that life satisfaction dropped mainly when participants spent all their free time unproductively, such as by watching TV or playing games. Mercer would focus on the weakness in that label. He says there is no objective definition of productivity and that the same activity, such as reading, might count as productive for some people and idle for others."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"By acknowledging that free time is more likely to enhance life satisfaction when it is spent productively than when it is spent unproductively\"</strong>: Mercer does not endorse Karim&rsquo;s framework; he challenges whether &ldquo;productive&rdquo; is even a coherent universal category. &#10007;</li><li><strong>\"By challenging the reasoning in Text 1, as it has not been proved that productivity commonly contributes to individuals' life satisfaction\"</strong>: Mercer&rsquo;s objection is not that productivity doesn&rsquo;t matter, but that what counts as productive is subjective. This misstates his argument. &#10007;</li><li><strong>\"By warning against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities\"</strong>: This directly reflects Mercer&rsquo;s stated position that &ldquo;unproductive&rdquo; is not an objective category, so applying it to TV and games assumes a consensus that doesn&rsquo;t exist. &#10003;</li><li><strong>\"By claiming that the specific activities named in Text 1 are actually examples of productive activities rather than unproductive ones\"</strong>: Mercer wouldn&rsquo;t declare TV and games &ldquo;productive&rdquo; &mdash; his point is that the distinction is subjective, not that these activities fall on one side of it. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate mismatched responses",
+      "content": "Choice A accepts Karim's productivity framework instead of questioning it. Choice B says productivity has not been proved to contribute to life satisfaction, but Mercer's point is about how productivity is defined. Choice D would make Mercer label TV and games productive, when his claim is that such labels depend on individual judgment rather than a universal rule."
+    },
+    {
+      "title": "Select the broad-assumption warning",
+      "content": "Choice C says Mercer would warn against an overly broad assumption because there is no clear consensus on distinguishing productive from unproductive activities. That directly applies Mercer's view to Karim's conclusion: calling certain forms of free time unproductive assumes a shared definition Mercer explicitly rejects. The answer is <strong>C</strong>."
     }
   ]
 }

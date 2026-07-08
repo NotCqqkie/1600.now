@@ -1,0 +1,15 @@
+{
+  "questionId": "4d5b6aae",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the approach example",
+      "content": "The passage defines community science as collaboration between professional scientists and amateurs. It then lists benefits of that approach and ends by naming Wallace and colleagues' butterfly study as an example in which the approach was essential."
+    },
+    {
+      "title": "Exclude mismatched structures",
+      "content": "Choice A invents development history and future projects. Choice B makes the butterfly study the central topic rather than an example. Choice D invents public opinion about a new research approach. The answer is <strong>C</strong>."
+    }
+  ]
+}

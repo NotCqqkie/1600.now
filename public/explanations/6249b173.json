@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Define the goal",
-      "content": "The student wants to <strong>present the study&apos;s results</strong> &mdash; that means stating what the study actually found, not why it was designed, what question it asked, or how it was conducted. Only data outcomes from the trial bullets (macaques called and gestured more at food-holders than at empty-handed humans) qualify."
+      "title": "Use the trial outcomes",
+      "content": "The student wants to present the study's results, so the sentence must state what the trials found. The relevant notes compare how often macaques called out to and gestured at two types of humans."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Macaques in the study called out to and gestured more frequently at humans holding food than at empty-handed humans.&rsquo;</strong>: directly reports the trial outcome from the last two bullet points &mdash; this is the study&apos;s result. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In 2018, researchers who had observed macaques in India's Bandipur National Park calling out to and gesturing at humans designed a study.&rsquo;</strong>: describes the background observation that motivated the study, not the results. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The researchers hoped to find out if the macaques were intentionally communicating to try to persuade humans to share their food.&rsquo;</strong>: states the research hypothesis or question, not the outcome. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The researchers studied how macaques behaved around both humans holding food and empty-handed humans.&rsquo;</strong>: describes the study&apos;s design or method, not what was discovered. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Separate results from setup",
+      "content": "Background observations, the researchers' goal, and the study design explain why the study happened, but they are not the results. The result is the higher frequency of behavior toward humans holding food."
+    },
+    {
+      "title": "Reject setup details",
+      "content": "<ul><li>A: reports that macaques called and gestured more at humans holding food than at empty-handed humans.</li><li>B: gives background and study setup.</li><li>C: states the research question.</li><li>D: describes what the researchers studied, not what they found.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use complementary angles",
+      "content": "Triangle $XYZ$ is a right triangle, so the two acute angles are complementary. That means angles $X$ and $Y$ add to $90^\\circ$."
     },
     {
-      "title": "Step 1",
-      "content": "In right triangle XYZ, angle X has an opposite leg and the hypotenuse. By definition, $\\sin X = \\dfrac{\\text{opposite}}{\\text{hypotenuse}}$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Angles X and Y are complementary (sum to 90&deg;). The side opposite X is the side adjacent to Y. So $\\cos Y = \\dfrac{\\text{adjacent to }Y}{\\text{hypotenuse}} = \\dfrac{\\text{opposite to }X}{\\text{hypotenuse}}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Therefore $\\sin X = \\cos Y$ exactly &mdash; they share the same numerator (the leg between the right angle and angle Y) and the same denominator (the hypotenuse)."
+      "title": "Match sine and cosine",
+      "content": "The sine of an acute angle equals the cosine of its complement. Since $Y$ is the complement of $X$, $\\sin X=\\cos Y$.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the percentages",
-      "content": "$a = 2800\\%$ of $c$ → $a = 28c$.<br/>$c = 25\\%$ of $b$ → $c = 0.25b$, so $b = 4c$."
+      "title": "Translate the percents",
+      "content": "$$a=28c$$<br/>$$b=4c$$"
     },
     {
-      "title": "Compute $w$",
-      "content": "$$a - b = 28c - 4c = 24c$$<br/>So $w = 24$.<br/><br/>The answer is <strong>24</strong>."
+      "title": "Compare the difference",
+      "content": "$$a-b=28c-4c=24c$$<br/>$$w=24$$<br/>The answer is <strong>24</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "442c6050",
+  "correctAnswer": "5/108",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radicals",
+      "content": "Use fractional exponents for the cube root and fourth root.<br/>$$\\sqrt[3]{126n}=(126n)^{1/3}$$<br/>$$\\sqrt[4]{126n}=(126n)^{1/4}$$"
+    },
+    {
+      "title": "Combine the exponents",
+      "content": "The fourth-root factor is squared, so multiply that exponent by $2$. Then add exponents because the bases match.<br/>$$(126n)^{1/3}((126n)^{1/4})^2=(126n)^{1/3}(126n)^{1/2}$$<br/>$$=(126n)^{5/6}$$"
+    },
+    {
+      "title": "Solve for the value",
+      "content": "Set the exponent equal to $18x$ and divide by $18$.<br/>$$18x=\\frac{5}{6}$$<br/>$$x=\\frac{5}{6}\\cdot\\frac{1}{18}=\\frac{5}{108}$$<br/>The answer is <strong>5/108</strong>."
+    }
+  ]
+}

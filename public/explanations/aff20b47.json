@@ -1,0 +1,15 @@
+{
+  "questionId": "aff20b47",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank modifies \"contents\" and refers back to \"a social media post,\" which is singular. The sentence needs a singular possessive pronoun, not a plural form or a contraction."
+    },
+    {
+      "title": "Choose the possessive pronoun",
+      "content": "A is plural, C means \"they are,\" and D means \"it is.\" None can correctly modify \"contents\" for a singular social media post. The answer is <strong>B</strong>."
+    }
+  ]
+}

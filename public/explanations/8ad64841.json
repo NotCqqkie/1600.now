@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Enter the two profit points",
-      "content": "The problem gives two points on the linear function: $(8,220)$ and $(10,320)$. Enter those points as two lists in Desmos.",
+      "title": "Use the two profit points",
+      "content": "The linear function passes through $(8{,}220)$ and $(10{,}320)$. Find the slope:<br/>$$m=\\frac{320-220}{10-8}=50$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Use $f(x)=50x+b$ and the point $(8{,}220)$:<br/>$$220=50(8)+b$$<br/>$$b=-180$$<br/>So $f(x)=50x-180$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Enter the two data points as lists, then compare the choices to the line through them. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "x_1=[8,10]",
         "y_1=[220,320]"
       ]
-    },
-    {
-      "title": "Find the line from the data",
-      "content": "The slope is $$m=\\frac{320-220}{10-8}=50$$ Use $(8,220)$ in $f(x)=50x+b$: $$220=50(8)+b$$ $$b=-180$$ Therefore $$f(x)=50x-180$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The correct answer matches $f(x)=50x-180$. It also checks with both given values: $f(8)=220$ and $f(10)=320$, so <strong>D</strong> is correct."
     }
   ]
 }

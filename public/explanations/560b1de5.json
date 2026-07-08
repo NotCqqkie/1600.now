@@ -1,0 +1,15 @@
+{
+  "questionId": "560b1de5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the result",
+      "content": "The second sentence defines a plurality system: the winner needs the greatest number of votes, not a majority. The final sentence describes a result of that rule, since a candidate can win with less than 50 percent."
+    },
+    {
+      "title": "Choose the consequence transition",
+      "content": "Choice A signals contrast, but the final sentence follows from the rule. Choice B signals addition, not result. Choice C signals similarity. Choice D signals a logical consequence, matching the plurality explanation. The answer is <strong>D</strong>."
+    }
+  ]
+}

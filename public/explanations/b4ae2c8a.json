@@ -1,0 +1,15 @@
+{
+  "questionId": "b4ae2c8a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the signs from the graph",
+      "content": "The line of best fit rises from left to right, so its slope is positive. It crosses the $y$-axis just above $0$, so its $y$-intercept is positive."
+    },
+    {
+      "title": "Estimate the slope",
+      "content": "Two readable points on the line are about $(2,4.2)$ and $(5,9)$. The slope is approximately<br/>$$\\frac{9-4.2}{5-2}=\\frac{4.8}{3}=1.6$$<br/>A slope near $1.7$ and a positive intercept near $0.8$ fit the graph. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b78e26a2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one value",
+      "content": "The question asks for $9-3x$, so let $u=9-3x$. The equation becomes simpler.<br/>$$6u+4=5u+19$$"
+    },
+    {
+      "title": "Solve for the target",
+      "content": "Subtract $5u$ from both sides, then subtract $4$ from both sides.<br/>$$u+4=19$$<br/>$$u=15$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

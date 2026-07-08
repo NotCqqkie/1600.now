@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the probability formula",
-      "content": "The probability of selecting a blue marble is:<br/>$$\\frac{\\text{number of blue marbles}}{\\text{total number of marbles}}$$"
+      "title": "Read the table counts",
+      "content": "The table shows $12$ blue marbles out of $40$ total marbles."
     },
     {
-      "title": "Read the table",
-      "content": "The table shows $12$ blue marbles and $40$ marbles total, so the probability is:<br/>$$\\frac{12}{40}$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $19 / 40$</strong> uses the green marbles, and <strong>Choice C &mdash; $21 / 40$</strong> uses red plus blue. The event asked for blue only, so use the blue count over the total."
-    },
-    {
-      "title": "Answer",
-      "content": "$12/40$ matches <strong>Choice D &mdash; $12 / 40$</strong>, so <strong>D</strong> is correct."
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes over total outcomes.<br/>$$\\frac{12}{40}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

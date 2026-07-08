@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the table values",
-      "content": "The minimum wage was $1.00$ in 1960 and $1.50$ in 1970."
+      "title": "Read the two wages",
+      "content": "The table shows a wage of $1.00$ in $1960$ and a wage of $1.50$ in $1970$. The original value is the $1960$ wage."
     },
     {
-      "title": "Compute percent increase",
-      "content": "Percent increase is $\\frac{\\text{new}-\\text{old}}{\\text{old}}\\times100\\%$. Here, $\\frac{1.50-1.00}{1.00}\\times100\\%=50\\%$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The percent increase is $50\\%$, which matches <strong>B</strong>."
-    },
-    {
-      "title": "Use the original value in the denominator",
-      "content": "Percent increase always compares the change to the original value. The change is $0.50$ dollar, and the original value is $1.00$, so the increase is $50%$."
+      "title": "Compute the percent increase",
+      "content": "Percent increase compares the change to the original value:\n$$\n\\frac{1.50-1.00}{1.00}\\cdot100\\%=50\\%\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "bce5649f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the term",
+      "content": "The student wants a definition of georeferencing. The relevant notes say it is the process of assigning geographic coordinates to an image so mapping software can place the image in its real-world location."
+    },
+    {
+      "title": "Reject examples and uses",
+      "content": "Choice A describes López Marrero's use of georeferencing. Choice C describes one project but awkwardly repeats the term instead of defining it. Choice D describes what georeferenced photos can help researchers do. The complete definition fits the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

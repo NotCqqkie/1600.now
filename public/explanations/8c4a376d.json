@@ -1,0 +1,23 @@
+{
+  "questionId": "8c4a376d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both sides",
+      "content": "Expand each side of the equation: $$a(6x-18)+4a=6ax-18a+4a=6ax-14a$$ $$6(ax-3a)-24=6ax-18a-24$$"
+    },
+    {
+      "title": "Make the sides identical",
+      "content": "For infinitely many solutions, the simplified sides must be equal for every value of $x$. Set the simplified expressions equal: $$6ax-14a=6ax-18a-24$$ The $6ax$ terms cancel on both sides, leaving only a condition on $a$."
+    },
+    {
+      "title": "Solve the remaining condition",
+      "content": "After the $x$-terms cancel, solve the remaining equation: $$-14a=-18a-24$$ $$4a=-24$$ $$a=-6$$ This is the only value that makes the two sides identical for all $x$."
+    },
+    {
+      "title": "Match the only possible value",
+      "content": "Choice A would give a contradiction, and choice C is too broad because only one value works. Choice D is false because $a=-6$ does make the equation an identity. The answer is <strong>B</strong>."
+    }
+  ]
+}

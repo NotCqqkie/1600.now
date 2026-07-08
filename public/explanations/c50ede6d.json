@@ -1,19 +1,15 @@
 {
   "questionId": "c50ede6d",
-  "qid": "c50ede6d",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Identify the cost components: a fixed \\$18 service fee plus \\$12 per hour for $t$ hours. Total cost = $18 + 12t$."
+      "title": "Build the total cost",
+      "content": "Fixed fee plus hourly fee:<br/>$$18+12t$$"
     },
     {
-      "title": "Step 2",
-      "content": "The person intends to spend <strong>at most</strong> \\$66, so the total cost must be less than or equal to 66: $$18 + 12t \\leq 66$$"
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li>A: $12t \\leq 66$ &mdash; Omits the fixed \\$18 service fee entirely. Eliminated.</li><li>B: $12 + 18t \\leq 66$ &mdash; Swaps the service fee and hourly rate (\\$12 fixed, \\$18/hr), contradicting the problem. Eliminated.</li><li>C: $18t \\leq 66$ &mdash; Uses only the service fee amount as the hourly rate and drops the fixed fee structure. Eliminated.</li><li>D: $18 + 12t \\leq 66$ &mdash; Correctly reflects the \\$18 fixed fee plus \\$12 per hour not exceeding \\$66. That is the correct answer.</li></ul>"
+      "title": "Apply the maximum",
+      "content": "A maximum of $66$ dollars means at most $66$:<br/>$$18+12t\\le 66$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$24x+y=48$$<br/>$$6x+y=72$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Eliminate one variable",
+      "content": "Subtract the second equation from the first so the $y$ terms cancel:\n$$(24x+y)-(6x+y)=48-72$$\n$$18x=-24$$\n$$x=-\\frac{4}{3}$$"
+    },
+    {
+      "title": "Substitute to find y",
+      "content": "Use $6x+y=72$ and substitute $x=-\\frac{4}{3}$:\n$$6(-\\frac{4}{3})+y=72$$\n$$-8+y=72$$\n$$y=80$$\nThe answer is <strong>80</strong>.",
       "desmosExpressions": [
         "24x+y=48",
         "6x+y=72"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$80$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

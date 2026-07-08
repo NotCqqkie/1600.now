@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the assertion requires",
-      "content": "Rodriguez and colleagues assert that four of the five exoplanets are hot Jupiters (mass &gt; 0.25 Jupiters, period &lt; 10 days) and one is a warm Jupiter (mass &gt; 0.25 Jupiters, period &gt; 10 days). Supporting data must show all five meeting the mass threshold and exactly one planet with a period exceeding 10 days."
+      "title": "Apply both planet criteria",
+      "content": "Hot and warm Jupiters must each have a mass of at least 0.25 Jupiters. Hot Jupiters have orbital periods under 10 days, while warm Jupiters have orbital periods over 10 days."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; None of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters.</strong>: The table shows TOI-1478 b has a period of 10.180 days, which is more than 10 days &mdash; so this claim is false. &#10007;</li><li><strong>Choice B &mdash; TOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters.</strong>: TOI-1478 b&apos;s period is 10.180 days, not 153 days &mdash; the figure is wrong. &#10007;</li><li><strong>Choice C &mdash; All the planets have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days.</strong>: TOI-1333 b has a period of 4.720 days (less than 10), not more than 10; and radius is irrelevant to the hot/warm Jupiter classification. &#10007;</li><li><strong>Choice D &mdash; Each of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days.</strong>: All five masses (0.85&ndash;6.33 Jupiters) exceed 0.25, and TOI-1478 b is the sole planet with a period above 10 days (10.180). This perfectly supports four hot Jupiters and one warm Jupiter. &#10003;</li></ul>That is the correct answer."
+      "title": "Check mass and orbit data",
+      "content": "Choice A wrongly says none have periods over 10 days. Choice B would make one planet warm but does not support four hot Jupiters. Choice C uses radius, which is irrelevant to the definitions. The supporting data must include all masses and the one longer orbit. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2311206",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace Spanish's role",
+      "content": "The question asks what point the passage makes about Spanish. In both examples, Spanish sits between an Indigenous source language and English: coyote came from Nahuatl into Spanish and then English, while llama came from Quechua into Spanish and then English. The shared pattern is Spanish as the route into English."
+    },
+    {
+      "title": "Remove unsupported claims",
+      "content": "Choice A adds Spanish contributions to Indigenous languages, which the passage never says. Choice B turns two examples into a claim about equal numbers of adopted words. Choice D invents a comparison between Spanish and Indigenous contributions to English. Choice C states the actual pattern: Spanish served as a medium for Indigenous influence on English. The answer is <strong>C</strong>."
+    }
+  ]
+}

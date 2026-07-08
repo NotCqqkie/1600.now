@@ -1,0 +1,15 @@
+{
+  "questionId": "1d5cba20",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose two line points",
+      "content": "Use two readable points on the line of best fit, approximately $(0,12)$ and $(10,1)$. These are points on the line, not necessarily data points."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Apply rise over run. The line drops $11$ units while moving $10$ units to the right, so the slope is negative.<br/>$$m=\\frac{1-12}{10-0}=\\frac{-11}{10}=-1.1$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

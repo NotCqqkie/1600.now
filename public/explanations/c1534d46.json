@@ -1,0 +1,19 @@
+{
+  "questionId": "c1534d46",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The maximum height is $31.36$ feet at $t=1.4$, so the vertex is $(1.4,31.36)$. A quadratic with this vertex has form<br/>$$f(t)=a(t-1.4)^2+31.36$$"
+    },
+    {
+      "title": "Find the leading coefficient",
+      "content": "The ball starts at ground level, so $f(0)=0$:<br/>$$0=a(0-1.4)^2+31.36$$<br/>$$0=1.96a+31.36$$<br/>$$a=-16$$"
+    },
+    {
+      "title": "Choose the model",
+      "content": "Substitute $a=-16$ into the vertex form:<br/>$$f(t)=-16(t-1.4)^2+31.36$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

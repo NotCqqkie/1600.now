@@ -1,0 +1,15 @@
+{
+  "questionId": "29c1a791",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the goal",
+      "content": "The student wants an example of a dinosaur fossil specimen's nickname. The effective sentence must therefore name a specific nickname rather than only describe fossil specimens or museums generally."
+    },
+    {
+      "title": "Reject general facts",
+      "content": "B identifies a fossil specimen but gives no nickname. C only says many specimens have nicknames. D mentions a nickname indirectly but never names one. The remaining choice gives Sue as the specific nickname of the fossil specimen. The answer is <strong>A</strong>."
+    }
+  ]
+}

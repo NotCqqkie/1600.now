@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count the number of doubling periods",
-      "content": "From 1704 to 1944 is <strong>1944 - 1704 = 240 years</strong>.<br/>Since the population doubles every 60 years, the number of doubling periods is $$\\frac{240}{60} = 4$$"
+      "title": "Count doubling periods",
+      "content": "From $1704$ to $1944$ is<br/>$$1944-1704=240$$<br/>years. Since the population doubled every $60$ years, the number of doubling periods is<br/>$$240\\div60=4$$"
     },
     {
-      "title": "Set up the exponential growth equation",
-      "content": "When a population doubles every time period, after $n$ periods the population is: $$P = P_0 \\cdot 2^n$$ where $P_0$ is the initial population. With 4 doublings: $$192,000 = P_0 \\cdot 2^4$$"
+      "title": "Work backward",
+      "content": "The $1944$ population is after $4$ doublings, so it is $2^4=16$ times the $1704$ population."
     },
     {
-      "title": "Solve for the 1704 population",
-      "content": "Calculate $2^4 = 16$, then divide both sides by 16: $$P_0 = \\frac{192,000}{16} = 12,000$$ The population in 1704 was <strong>12,000</strong>."
+      "title": "Find the original population",
+      "content": "Divide the $1944$ population by $16$:<br/>$$192{,}000\\div16=12{,}000$$<br/>The answer is <strong>12000</strong>."
     }
   ]
 }

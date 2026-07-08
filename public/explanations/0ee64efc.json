@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the two sentences",
-      "content": "Sentence 1: William Still was instrumental in helping nearly 1,000 people escape slavery and earned the moniker &quot;the Father of the Underground Railroad.&quot; &mdash; he was famous. Sentence 2: &quot;despite the fame of his contributions during his lifetime, Still is discussed far less today&quot; &mdash; he is now obscure. The second sentence directly contradicts the first. The transition must signal contrast."
+      "title": "Spot the contrast in fame",
+      "content": "The first sentence presents William Still as famous during his lifetime. The next sentence says that despite this fame, he is discussed far less today than other prominent abolitionists."
     },
     {
-      "title": "Eliminate the wrong choices and confirm B",
-      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: Introduces a specific instance of the preceding claim. The second sentence does not give an example of Still&apos;s fame; it pivots to his current obscurity. &#10007;</li><li><strong>Choice B &mdash; However,</strong>: Signals a contrast between two ideas. Still was once famous (sentence 1) but is now little discussed (sentence 2) &mdash; &quot;however&quot; bridges this opposition exactly. &#10003;</li><li><strong>Choice C &mdash; Specifically,</strong>: Narrows or elaborates on a previous idea. The second sentence does not narrow or elaborate on Still&apos;s fame; it contradicts it. &#10007;</li><li><strong>Choice D &mdash; Similarly,</strong>: Signals agreement or parallel between ideas. The two sentences are in opposition, not agreement. &#10007;</li></ul>That matches <strong>Choice B &mdash; However,</strong>."
+      "title": "Choose the contrast signal",
+      "content": "Choice A introduces an example, but the second sentence is not an example of Still's work. Choice C introduces a specific elaboration, not an opposition. Choice D signals similarity, while the sentences contrast past fame with present obscurity. The transition must mark opposition. The answer is <strong>B</strong>."
     }
   ]
 }

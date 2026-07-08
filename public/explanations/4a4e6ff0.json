@@ -1,0 +1,15 @@
+{
+  "questionId": "4a4e6ff0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the timeline",
+      "content": "The passage moves through Shakespeare's career chronologically: arriving in London as early as 1585, becoming known by 1596, and delighting audiences in 1605. The transition must signal a later point in time."
+    },
+    {
+      "title": "Reject wrong relations",
+      "content": "A signals contrast, but the 1605 detail does not contradict the 1596 detail. C signals restatement, and D signals cause and effect; neither relationship fits the sequence. The remaining transition marks temporal progression. The answer is <strong>B</strong>."
+    }
+  ]
+}

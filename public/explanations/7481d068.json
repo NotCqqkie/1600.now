@@ -1,0 +1,23 @@
+{
+  "questionId": "7481d068",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the parabola maximum",
+      "content": "The quadratic is in vertex form.<br/>$$y=-3(x-23)^2+20$$<br/>Because $-3<0$, the parabola opens downward, so its greatest possible $y$-value is $20$."
+    },
+    {
+      "title": "Compare the horizontal line",
+      "content": "The other graph is the horizontal line $y=23$. Since $23$ is above the parabola's maximum value of $20$, the graphs do not intersect."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations together. The horizontal line sits above the entire downward-opening parabola, so there are no intersection points. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = 23",
+        "y = -3(x - 23)^{2} + 20"
+      ]
+    }
+  ]
+}

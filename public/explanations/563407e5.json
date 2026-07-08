@@ -1,24 +1,15 @@
 {
-  "qid": "563407e5",
   "questionId": "563407e5",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Each tray holds at least 45 and at most 55 rolls."
+      "title": "Find the possible total range",
+      "content": "Each tray has at least $45$ rolls and at most $55$ rolls. For $4$ trays:\n$$\n4\\cdot 45=180\n$$\n$$\n4\\cdot 55=220\n$$"
     },
     {
-      "title": "Step 2",
-      "content": "With 4 trays, the minimum total is 4 &times; 45 = 180 and the maximum is 4 &times; 55 = 220."
-    },
-    {
-      "title": "Step 3",
-      "content": "Any valid answer must satisfy 180 &le; total &le; 220."
-    },
-    {
-      "title": "Step 4",
-      "content": "Check each choice against this range."
+      "title": "Choose a total in range",
+      "content": "The total number of rolls must be from $180$ through $220$, inclusive. Among the choices, only $185$ is in that range. The answer is <strong>B</strong>."
     }
-  ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; 145</strong>: 145 &lt; 180, below the minimum possible total. &#10007;</li><li><strong>Choice B &mdash; 185</strong>: 180 &le; 185 &le; 220, achievable (e.g., three trays of 45 and one of 50). &#10003;</li><li><strong>Choice C &mdash; 225</strong>: 225 &gt; 220, above the maximum possible total. &#10007;</li><li><strong>Choice D &mdash; 265</strong>: 265 &gt; 220, well above the maximum possible total. &#10007;</li></ul><strong>B</strong> is correct.",
-  "correctAnswer": "B"
+  ]
 }

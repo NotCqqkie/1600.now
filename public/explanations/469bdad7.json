@@ -1,0 +1,15 @@
+{
+  "questionId": "469bdad7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "The question asks for $x-6$, and the left side contains that expression:<br/>$$4x-24=4(x-6)$$"
+    },
+    {
+      "title": "Solve for the target",
+      "content": "Substitute the factored form into the equation:<br/>$$4(x-6)=-20$$<br/>$$x-6=-5$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

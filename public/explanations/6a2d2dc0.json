@@ -1,0 +1,15 @@
+{
+  "questionId": "6a2d2dc0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name a country",
+      "content": "The student wants an example of a country that uses \"dinar\" in the name of its currency. The notes give a specific country and currency: Bahrain's currency is the Bahraini dinar."
+    },
+    {
+      "title": "Avoid general or unrelated facts",
+      "content": "B is a negative statement about a Latin word, not an example. C says several countries use the term but names no country. D gives the origin of the word instead of a current currency example. The sentence must identify Bahrain and its dinar. The answer is <strong>A</strong>."
+    }
+  ]
+}

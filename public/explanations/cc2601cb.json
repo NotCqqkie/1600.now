@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the intercept shortcut",
-      "content": "An $x$-intercept is where the graph touches or crosses the $x$-axis. On the $x$-axis, the $y$-coordinate is $0$, so look for the point on the curve with the form $(x,0)$."
+      "title": "Locate the intercept",
+      "content": "An $x$-intercept is where the graph touches or crosses the $x$-axis, so the point has the form $(x,0)$."
     },
     {
-      "title": "Read the point from the graph",
-      "content": "The parabola touches the $x$-axis at its vertex, which is the point $(7,0)$. Since the intercept is written as $(x,0)$, the value of $x$ is $7$."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The only $x$-intercept shown is $(7,0)$, so the answer is <strong>7</strong>."
+      "title": "Read the coordinate",
+      "content": "The graph shows the intercept at $(7,0)$, so the requested $x$-value is $7$. The answer is <strong>7</strong>."
     }
   ]
 }

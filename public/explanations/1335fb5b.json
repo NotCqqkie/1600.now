@@ -1,0 +1,24 @@
+{
+  "questionId": "1335fb5b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the table",
+      "content": "Using two table points, $(0,20)$ and $(1,21)$, the slope is\n$$\\frac{21-20}{1-0}=1$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "The table includes the point $(0,20)$, so the $y$-intercept is $20$. A line with slope $1$ and intercept $20$ has equation\n$$y=x+20$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The table points fit the line $y=x+20$. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[20,21]",
+        "y=x+20"
+      ]
+    }
+  ]
+}

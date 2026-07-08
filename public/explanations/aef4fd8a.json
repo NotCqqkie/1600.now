@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the square area formula",
-      "content": "The area of a square is side length times side length. With side length $86$ centimeters, the area expression must be $86\\cdot 86$."
+      "title": "Use square area",
+      "content": "The area of a square is side length times side length. The problem asks for area, not perimeter, so the expression needs two factors of the side length."
     },
     {
-      "title": "Recall the area formula for a square",
-      "content": "A square with side length s has area = s &times; s = s&sup2;."
-    },
-    {
-      "title": "Substitute the given side length",
-      "content": "The side length is 86 cm, so: Area = 86 &times; 86 cm&sup2;"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>$2\\cdot 86$</strong>: this uses only two side lengths, not side times side. Eliminated.</li><li><strong>$2\\cdot 86\\cdot 86$</strong>: this doubles the square's area. Eliminated.</li><li><strong>$4\\cdot 86$</strong>: this is the perimeter, not the area. Eliminated.</li><li><strong>$86\\cdot 86$</strong>: side times side, which is the correct area formula. That is the correct answer.</li></ul>"
+      "title": "Substitute the side length",
+      "content": "With side length $86$ centimeters, substitute $86$ for each side length in the area expression:<br/>$$86\\cdot86$$<br/>This represents square centimeters because it multiplies centimeters by centimeters. The answer is <strong>D</strong>."
     }
   ]
 }

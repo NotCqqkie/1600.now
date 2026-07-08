@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal",
-      "content": "The student wants to <strong>emphasize the distance covered</strong> by the Philadelphia and Lancaster Turnpike. The notes list four distinct facts: it was built between 1792 and 1794, it was the first private turnpike in the US, it connected Philadelphia and Lancaster in Pennsylvania, and it was sixty-two miles long. Only the sixty-two-mile measurement directly conveys distance."
+      "title": "Emphasize the distance",
+      "content": "The student's goal is to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. The relevant note is that the road was sixty-two miles long, so the best sentence should make that measurement prominent while still using accurate supporting details from the notes."
     },
     {
-      "title": "Test each choice for whether it emphasizes distance",
-      "content": "<ul><li><strong>Choice A &mdash; The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.</strong>: Makes &quot;sixty-two-mile-long&quot; a compound adjective that is the defining descriptor of the turnpike, placing distance front and center. &#10003;</li><li><strong>Choice B &mdash; The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States.</strong>: Emphasizes the turnpike&apos;s historical significance as the first private turnpike. Distance is never mentioned. &#10007;</li><li><strong>Choice C &mdash; The Philadelphia and Lancaster Turnpike, which connected two Pennsylvania cities, was built between 1792 and 1794.</strong>: Emphasizes the construction dates. Distance is omitted. &#10007;</li><li><strong>Choice D &mdash; A historic Pennsylvania road, the Philadelphia and Lancaster Turnpike was completed in 1794.</strong>: Emphasizes the completion year and historic status. Distance is not mentioned. &#10007;</li></ul>That matches <strong>Choice A &mdash; The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.</strong>."
+      "title": "Reject other emphases",
+      "content": "Choice B emphasizes historical status as the first private turnpike. Choice C emphasizes the cities and construction dates but omits the distance. Choice D emphasizes historic status and the completion year. Choices B, C, and D do not focus on the turnpike's length; Choice A places \"sixty-two-mile-long\" directly before the road's name. The answer is <strong>A</strong>."
     }
   ]
 }

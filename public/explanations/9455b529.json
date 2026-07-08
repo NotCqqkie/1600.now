@@ -1,0 +1,15 @@
+{
+  "questionId": "9455b529",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the parallel example",
+      "content": "The first sentence says humans inherit physical traits from their parents. The second sentence makes the same kind of claim about dogs. The transition should signal that the second example is similar to the first."
+    },
+    {
+      "title": "Rule out other transitions",
+      "content": "B signals a restatement, but dogs are a new example rather than another way to say the same point about humans. C signals cause and effect, which is absent. D signals a final summary, not a parallel example. The answer is <strong>A</strong>."
+    }
+  ]
+}

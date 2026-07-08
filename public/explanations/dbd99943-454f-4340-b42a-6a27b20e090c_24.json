@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the relationship",
-      "content": "Sentence before the blank introduces a technical term: the 899 BCE eclipse was <strong>annular</strong>. Sentence after the blank <strong>defines</strong> what \"annular\" means — the Moon didn't fully cover the Sun, creating a ring. This is a definition/clarification."
+      "content": "The prior sentence introduces <strong>annular</strong>; the next sentence defines it as a ring-producing eclipse."
     },
     {
-      "title": "Pick the transition",
-      "content": "<strong>That is,</strong> is correct."
+      "title": "Choose the clarifying transition",
+      "content": "A gives an example, B shifts timing, and D contrasts. A definition needs <em>That is</em>. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "85c0454a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Look for the partner factor",
+      "content": "If $x+24y$ is a factor of a quadratic beginning with $x^2$, the other factor should begin with $x$. One possible partner factor is $x+y$.\n$$(x+y)(x+24y)=x^2+25xy+24y^2$$"
+    },
+    {
+      "title": "Match the expanded form",
+      "content": "The expanded product exactly matches $x^2+25xy+24y^2$. The answer is <strong>A</strong>."
+    }
+  ]
+}

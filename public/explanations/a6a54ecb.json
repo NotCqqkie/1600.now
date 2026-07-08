@@ -1,0 +1,15 @@
+{
+  "questionId": "a6a54ecb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Limit claims to the table",
+      "content": "The text says the survey table reports percentages among people who make New Year's resolutions, separated by age bracket. A supported conclusion must therefore stay within that population and use direct comparisons from the table. It cannot infer that the same people selected multiple categories, and it cannot make claims about all US adults unless the table gives that broader population. The strongest choice should compare the relevant age groups using the listed percentages."
+    },
+    {
+      "title": "Check the unsupported options",
+      "content": "Choice A claims overlap among people who make health and exercise resolutions, but aggregate category percentages do not show whether individuals also selected multiple other categories. Choice B wrongly extends the table to all US adults. Choice C contradicts the table because resolution makers ages 30-49 have a higher health and exercise percentage than those ages 18-29. The supported comparison is that ages 50-64 are higher on personal relationships and lower on finances than ages 30-49. The answer is <strong>D</strong>."
+    }
+  ]
+}

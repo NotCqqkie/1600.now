@@ -1,0 +1,15 @@
+{
+  "questionId": "80ce4a11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Rank the per-employee values",
+      "content": "Tribal economic activity contributed about 141,510 per employee. That is less than wholesale trade at 183,790, but greater than professional services at 110,157 and administration/waste at 60,132."
+    },
+    {
+      "title": "Reject inaccurate rankings",
+      "content": "B is wrong because tribal activity is not above wholesale trade. C is wrong because tribal activity is above professional services and administration/waste. D wrongly says it is nearly equal to wholesale trade and uses \"either\" even though it is above both lower categories. The answer is <strong>A</strong>."
+    }
+  ]
+}

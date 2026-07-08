@@ -1,0 +1,15 @@
+{
+  "questionId": "cf3b1b8c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the length",
+      "content": "The width is $w$. Since the length is $38$ centimeters greater than the width, the length is<br/>$$w+38$$"
+    },
+    {
+      "title": "Use rectangle area",
+      "content": "A rectangle's area is width times length, so the area is<br/>$$A=(w)(w+38)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

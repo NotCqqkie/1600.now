@@ -1,0 +1,15 @@
+{
+  "questionId": "7b02e1f1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the warmer month pattern",
+      "content": "The assertion says flies collected in warmer months should tend to have longer life spans, and wing centroid size is the proxy for body size linked to life span. The data must therefore connect a warmer month with a larger wing size."
+    },
+    {
+      "title": "Rule out nonmatches",
+      "content": "Choice A compares temperature only and gives no wing size. Choice C misstates the female wing data. Choice D compares female and male sizes across months but does not show a warmer-month pattern. The answer is <strong>B</strong>."
+    }
+  ]
+}

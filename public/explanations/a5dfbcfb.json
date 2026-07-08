@@ -1,0 +1,15 @@
+{
+  "questionId": "a5dfbcfb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find Rahman's advantage",
+      "content": "The student needs a quotation from Rahman that explains an advantage of the geothermal system used at Platanares. The relevant note is not the broad comparison between geothermal, solar, and wind power. It is Rahman's statement that binary cycle systems return all geothermal fluid to the injection well and therefore have the least environmental impact with little or no emissions."
+    },
+    {
+      "title": "Avoid misused quotations",
+      "content": "A misuses a quote about geothermal energy compared with solar and wind systems, not one binary cycle system compared with other geothermal systems. B mentions low emissions but ties them only to using high-temperature fluid, leaving out Rahman's fluid-return reasoning. D gives the mechanism but omits the environmental advantage. The answer is <strong>C</strong>."
+    }
+  ]
+}

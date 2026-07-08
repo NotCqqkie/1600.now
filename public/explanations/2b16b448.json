@@ -1,0 +1,15 @@
+{
+  "questionId": "2b16b448",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage's purpose",
+      "content": "The passage describes Samuel Pierce burying seed bottles in 1879 and researchers checking them over decades, including recovery in 2021."
+    },
+    {
+      "title": "Eliminate unsupported purposes",
+      "content": "Choice B targets plant removal, Choice C invents a comparison of experiments, and Choice D highlights preservation difficulties. The passage focuses on an ongoing experiment. The answer is <strong>A</strong>."
+    }
+  ]
+}

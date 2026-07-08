@@ -1,0 +1,16 @@
+{
+  "questionId": "81c2f3be",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the values",
+      "content": "The mean is the sum of the data values divided by the number of values.\n$$\n2+5+8+11+34=60\n$$",
+      "formula": "$$\\text{mean} = \\frac{\\text{sum of values}}{\\text{count}}$$"
+    },
+    {
+      "title": "Divide by the count",
+      "content": "There are $5$ values.\n$$\n\\frac{60}{5}=12\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what each coordinate means",
-      "content": "In this scatterplot, the $x$-coordinate is the wolf's weight in pounds and the $y$-coordinate is the number of offspring. The question gives the weight, $50$ pounds, so we need the data point whose $x$-coordinate is $50$."
+      "title": "Identify the coordinates",
+      "content": "On the scatterplot, the $x$-coordinate represents weight in pounds and the $y$-coordinate represents offspring. The question gives a weight of $50$ pounds, so use the plotted point whose horizontal coordinate is $50$."
     },
     {
-      "title": "Read the point at x equals 50",
-      "content": "Find $50$ on the horizontal axis and move straight up to the plotted dot. That dot is at $(50,6)$, so the $50$-pound gray wolf produced $6$ offspring."
+      "title": "Read the plotted point",
+      "content": "The point with $x=50$ has coordinate $(50,6)$, so the wolf produced $6$ offspring."
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A, $8$, belongs to the heaviest wolf near $66$ pounds. Choice B, $7$, belongs to wolves heavier than $50$ pounds. Choice D, $5$, belongs to lighter wolves around $40$ to $43$ pounds. The $50$-pound wolf has $6$ offspring, so <strong>C</strong> is correct."
+      "title": "Match the choice",
+      "content": "Choice A, $8$, is too high. Choice B, $7$, is also above the plotted value. Choice D, $5$, is below the plotted value. The plotted value is $6$. The answer is <strong>C</strong>."
     }
   ]
 }

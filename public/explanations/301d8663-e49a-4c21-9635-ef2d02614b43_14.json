@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the y-intercept definition",
-      "content": "The $y$-intercept of $y = f(x)$ is the point where $x = 0$, i.e., $\\bigl(0,\\, f(0)\\bigr)$."
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept occurs where $x=0$."
     },
     {
-      "title": "Evaluate f(0)",
-      "content": "$$f(0) = 3(0) - \\frac{1}{4} = -\\frac{1}{4}$$<br/>So the $y$-intercept is $\\left(0,\\, -\\dfrac{1}{4}\\right)$.<br/><br/><strong>A</strong> is correct."
+      "title": "Evaluate the point",
+      "content": "$f(0)=6(0)-\\frac{1}{8}=-\\frac{1}{8}$, so the point is $(0,-\\frac{1}{8})$. The answer is <strong>A</strong>."
     }
   ]
 }

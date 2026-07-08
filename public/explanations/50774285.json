@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the base area",
+      "content": "Each base is a rectangle with length $17$ inches and width $9$ inches, so the base area is\n$$\n17 \\cdot 9 = 153\n$$"
     },
     {
-      "title": "Use the volume formula to find height",
-      "content": "The volume of a rectangular prism is $V = \\text{length} \\times \\text{width} \\times \\text{height}$. <br/><br/>Substitute the given values: $$2,448 = 17 \\times 9 \\times h = 153h$$ <br/>Divide both sides by 153: $$h = \\frac{2,448}{153} = 16$$ <br/>This matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Divide the volume",
+      "content": "For a right rectangular prism, volume equals base area times height.\n$$\n2{,}448=153h\n$$\n$$\nh=\\frac{2{,}448}{153}=16\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

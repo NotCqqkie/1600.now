@@ -1,0 +1,15 @@
+{
+  "questionId": "69cb26df",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare bulkheads with riprap",
+      "content": "The finding is comparative: bulkheads are more strongly negatively correlated with waterbird community integrity than riprap is. A direct illustration should compare a bulkhead-heavy site with a riprap-heavy site and show the bulkhead site has a lower IWCI score."
+    },
+    {
+      "title": "Reject mixed or unclear sites",
+      "content": "Choice A combines bulkheads and riprap, so it does not isolate the two effects. Choice C compares equal percentages with different percentages, not bulkheads versus riprap. Choice D compares two bulkhead-heavy sites and finds no meaningful difference. The direct comparison is Old Road against Miles. The answer is <strong>B</strong>."
+    }
+  ]
+}

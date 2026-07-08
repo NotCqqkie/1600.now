@@ -1,0 +1,19 @@
+{
+  "questionId": "f888e690",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the however turn",
+      "content": "The underlined portion says it may be tempting to explain the park-use difference by different levels of access to parks. The word <em>however</em> immediately after it signals that the passage will challenge that tempting explanation rather than accept it."
+    },
+    {
+      "title": "Eliminate mismatched functions",
+      "content": "Choice A calls the underlined idea a counterexample, but it is not an example that disproves an earlier claim. Choice B says the sentence gives survey scope, but the scope is already given by the respondent totals. Choice C invents a shift from conclusions to methods, which the passage does not make."
+    },
+    {
+      "title": "Name the setup and refute role",
+      "content": "After the underlined portion, the passage explains that Caracas respondents reported less proximity to parks than Fortaleza respondents, so proximity alone cannot explain the higher park use in Caracas. The underlined portion therefore introduces a possible explanation that the rest of the sentence refutes. The answer is <strong>D</strong>."
+    }
+  ]
+}

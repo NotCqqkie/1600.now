@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Clear the equations",
-      "content": "The first equation simplifies to $7x-18y=-\\frac{40}{7}$. The second equation simplifies to $7x-4py=12$. For no solution, the coefficient pairs must be proportional and the constants must be different."
+      "title": "Simplify the first equation",
+      "content": "Move the $y$ terms together in the first equation:<br/>$$\\frac{9}{10}y-\\frac{7}{10}x=\\frac{4}{7}-\\frac{9}{10}y$$<br/>$$\\frac{18}{10}y-\\frac{7}{10}x=\\frac{4}{7}$$<br/>Multiplying by $-10$ gives<br/>$$7x-18y=-\\frac{40}{7}$$"
     },
     {
-      "title": "Match the y-coefficients",
-      "content": "The $x$-coefficients are both $7$, so the scale factor is $1$. Match the $y$-coefficients: $$-18=-4p$$ Divide by $-4$: $$p=\\frac{18}{4}=\\frac{9}{2}=4.5$$"
+      "title": "Simplify the second equation",
+      "content": "Start with the second equation:<br/>$$\\frac{7}{4}x+\\frac{5}{4}=py+\\frac{17}{4}$$<br/>Move terms and multiply by $4$:<br/>$$7x-4py=12$$"
     },
     {
-      "title": "Confirm no solution",
-      "content": "With $p=4.5$, both equations have the same left side, $7x-18y$, but their constants are $-\\frac{40}{7}$ and $12$. The lines are parallel and distinct, so the system has no solution. The answer is <strong>4.5</strong>."
+      "title": "Match the coefficients",
+      "content": "For no solution, the lines must be parallel and distinct. The $x$-coefficients already match, so match the $y$-coefficients:<br/>$$-18=-4p$$<br/>$$p=4.5$$<br/>The constants are different, so the lines are distinct.<br/>The answer is <strong>4.5</strong>."
     }
   ]
 }

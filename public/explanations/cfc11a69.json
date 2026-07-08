@@ -1,0 +1,15 @@
+{
+  "questionId": "cfc11a69",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Raise the silver percentage",
+      "content": "Coins below 80% silver were considered unsuitable for trade, and the 367 BCE coin had only 74.2% silver. If the amount of silver stayed the same while the coin's total weight decreased, silver would make up a larger percentage of the coin, helping restore confidence."
+    },
+    {
+      "title": "Reject ineffective fixes",
+      "content": "Choice B only changes a stated threshold without changing the coins themselves. Choice C adds copper, worsening the silver proportion. Choice D keeps the same below-threshold silver-to-copper proportion while making coins heavier, so traders would still see unsuitable currency. The answer is <strong>A</strong>."
+    }
+  ]
+}

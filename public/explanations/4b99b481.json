@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the precise task",
-      "content": "The student wants to &quot;specify how the salt enables energy storage.&quot; The notes spell out the mechanism: when molten salt solidifies at room temperature, energy stops flowing and is stored. A correct answer must show this cause-and-effect link &mdash; solidification causes energy to stop flowing, which is the storage mechanism &mdash; not just describe a property of the salt or an outcome of using the battery."
+      "title": "Describe the storage mechanism",
+      "content": "The student wants to specify how the molten salt enables storage. The relevant notes give the mechanism: when the salt is liquid, energy flows through the battery; when the salt solidifies at room temperature, energy stops flowing and is stored. Reheating later releases that stored energy."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A — Scientists have developed a freeze-thaw battery that contains molten salt, which liquifies when heated and solidifies at room temperature.</strong>: This describes physical properties of molten salt but never explains that solidification causes energy to be stored. &#10007;</li><li><strong>Choice B — The stored energy in a freeze-thaw battery, which contains molten salt, can be used by reheating the battery.</strong>: This describes how to release stored energy (thawing), not how storage occurs in the first place. &#10007;</li><li><strong>Choice C — When the molten salt in a freeze-thaw battery solidifies at room temperature, energy stops flowing and can be stored in the battery.</strong>: This directly states the mechanism: solidification $\\Rightarrow$ energy stops flowing $\\Rightarrow$ energy is stored. That is exactly how the salt enables storage. &#10003;</li><li><strong>Choice D — Molten salt allows a freeze-thaw battery to retain 92% of its charge after twelve weeks.</strong>: This states a performance statistic but gives no explanation of the storage mechanism. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject incomplete details",
+      "content": "Choice A names the salt's temperature behavior but omits the energy-storage effect. Choice B explains how stored energy is used later. Choice D gives a retention statistic without explaining how storage occurs. The useful sentence must state that solidification stops energy flow and allows storage. The answer is <strong>C</strong>."
     }
   ]
 }

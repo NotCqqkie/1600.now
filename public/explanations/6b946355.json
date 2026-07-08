@@ -1,0 +1,15 @@
+{
+  "questionId": "6b946355",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function value",
+      "content": "The question asks when $f(x)=77$, so substitute $77$ for the output value $f(x)$ in the function equation.<br/>$$7(2x+3)=77$$"
+    },
+    {
+      "title": "Solve the equation",
+      "content": "Divide by $7$, then isolate $x$.<br/>$$2x+3=11$$<br/>$$2x=8$$<br/>$$x=4$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

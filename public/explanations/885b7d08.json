@@ -1,0 +1,15 @@
+{
+  "questionId": "885b7d08",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare warming findings",
+      "content": "Text 1 cites non-boreal research showing that warming benefits invasive species more than native species. Text 2 describes an Alaskan study where higher summer temperatures did not produce significant growth variation in either the native or invasive species."
+    },
+    {
+      "title": "Limit the challenge",
+      "content": "Choice A says Text 2 gives an alternative explanation, and Choice B frames the issue as methodology; neither happens. Choice D is too strong because Text 2 does not invalidate the non-boreal findings themselves. It questions whether those findings apply generally to Alaska's boreal context. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "05c6ce30",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show cause and result",
+      "content": "<em>Typha latifolia</em> absorbs and stores cadmium from polluted soil. The next clause says cadmium concentrations in the soil decrease, so the transition must show that this decrease follows from the plant's absorption."
+    },
+    {
+      "title": "Reject noncausal transitions",
+      "content": "A would introduce a specific example, but the soil decrease is a result. C simply adds another fact and weakens the causal link. D signals contrast, the opposite of the relationship. The result transition fits the sequence. The answer is <strong>B</strong>."
+    }
+  ]
+}

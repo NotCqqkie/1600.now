@@ -1,0 +1,16 @@
+{
+  "questionId": "0c4b6f9a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the area of circle M",
+      "content": "Circle $M$ has radius $3$, so use the circle area formula.<br/>$$A_M=\\pi(3)^2=9\\pi$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add the two circle areas",
+      "content": "Circle $N$ has area $144\\pi$. Add the two areas to get the total area.<br/>$$9\\pi+144\\pi=153\\pi$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

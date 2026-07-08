@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what &ldquo;inspired by&rdquo; requires as evidence",
-      "content": "The student claims CPB/NPR were inspired by the BBC. To prove inspiration, the evidence must show both (1) what the BBC stood for and (2) that US legislators consciously adopted that same philosophy when creating CPB/NPR. A quotation that only describes the BBC, or only describes US motivations without linking them to the BBC, cannot prove this.<ul><li><strong>Choice A &mdash; \"Although the BBC had begun as a private corporation, politicians successfully argued to make it a public company because they believed a public broadcaster could help build national unity in the aftermath of World War I.\"</strong>: describes the BBC's origin but says nothing about US legislators following the BBC's model &#10007;</li><li><strong>Choice B &mdash; \"For many decades, the BBC had no competition since it held Britain's only broadcasting license, whereas in the United States, the Corporation for Public Broadcasting launched NPR in a broadcasting market already filled with competitors.\"</strong>: highlights a structural difference between the two systems, not a philosophical inspiration &#10007;</li><li><strong>Choice C &mdash; \"Congress's embrace of publicly funded broadcasting reflected a common belief among US politicians that the role of government was not only to ensure people's safety and liberty but also to enrich people's lives in other ways.\"</strong>: explains a US political philosophy but does not link it to the BBC specifically &#10007;</li><li><strong>Choice D &mdash; \"The goal of the BBC was to support British democracy by promoting an informed citizenry, and US legislators believed that ensuring access to high-quality programming could do the same for democracy in the United States.\"</strong>: states the BBC's goal and then directly shows US legislators applying the same logic to the US &mdash; proving inspiration &#10003;</li></ul>"
+      "title": "Look for BBC influence",
+      "content": "The student's claim is that the Corporation for Public Broadcasting and NPR were inspired by the BBC. Strong evidence must do more than mention that the BBC came first; it must connect the BBC's purpose to the thinking of US legislators who supported public broadcasting."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only the correct answer establishes both the BBC's purpose and that US lawmakers adopted it as their model. That is the correct answer."
+      "title": "Separate weak evidence",
+      "content": "A only describes why British politicians made the BBC a public company. B contrasts the BBC's lack of competition with NPR's competitive broadcasting market, which shows a difference rather than inspiration. C explains US politicians' general belief that government could enrich people's lives, but it does not mention the BBC."
+    },
+    {
+      "title": "Choose the direct link",
+      "content": "The strongest quotation states that the BBC aimed to support democracy by promoting an informed citizenry and that US legislators believed access to high-quality programming could do the same for democracy in the United States. That directly links the BBC model to the US public broadcasting goal. The answer is <strong>D</strong>."
     }
   ]
 }

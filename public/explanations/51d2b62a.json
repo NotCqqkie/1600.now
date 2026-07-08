@@ -1,0 +1,15 @@
+{
+  "questionId": "51d2b62a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the starting month",
+      "content": "The variable $x$ is the number of months after the end of November 2011. Therefore, the end of November 2011 corresponds to $x=0$."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph has $y=8$, so the model predicts $8$ active projects. The answer is <strong>B</strong>."
+    }
+  ]
+}

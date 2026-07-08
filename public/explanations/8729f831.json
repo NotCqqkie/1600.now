@@ -1,0 +1,15 @@
+{
+  "questionId": "8729f831",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the whole expression",
+      "content": "The question asks for $4$ times the entire expression $8x+5$. Since the problem gives $8x+5=29$, substitute $29$ for the whole expression."
+    },
+    {
+      "title": "Multiply the value",
+      "content": "Compute the requested value:<br/>$$4(8x+5)=4(29)=116$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

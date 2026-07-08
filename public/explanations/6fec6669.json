@@ -1,0 +1,15 @@
+{
+  "questionId": "6fec6669",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the intercept",
+      "content": "The y-intercept is the value of $f(x)$ when $x=0$. Here, $x$ represents the number of bracelets Maya has made, so $x=0$ means the starting amount before any bracelets are made."
+    },
+    {
+      "title": "Evaluate the starting amount",
+      "content": "Substitute $0$ into the function:$$f(0)=-7(0)+49=49$$So the intercept represents about $49$ feet of yarn at the start, not the rate used for each bracelet. The answer is <strong>C</strong>."
+    }
+  ]
+}

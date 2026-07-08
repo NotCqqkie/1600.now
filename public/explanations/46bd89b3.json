@@ -1,0 +1,15 @@
+{
+  "questionId": "46bd89b3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a decline",
+      "content": "The researcher claims that some lakes had a decline in ice duration between the early 1980s and the mid-2000s. A valid example must compare those periods and show fewer ice days later."
+    },
+    {
+      "title": "Check the comparison",
+      "content": "A and D give single-period facts that do not establish a decline. C says Lake Neusiedl had more days later, which contradicts the claim. The matching example shows Oulujärvi had fewer ice days in 2005-06 than in 1980-81. The answer is <strong>B</strong>."
+    }
+  ]
+}

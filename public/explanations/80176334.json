@@ -1,0 +1,19 @@
+{
+  "questionId": "80176334",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture the study's finding",
+      "content": "The passage reports that a much greater proportion of Quito respondents used city parks than Fortaleza respondents: 82.9 percent compared with 35.7 percent. It then gives an important limit on how that difference should be explained."
+    },
+    {
+      "title": "Keep the stated conclusion",
+      "content": "Quito respondents reported much lower access to desired amenities near parks than Fortaleza respondents did. Therefore, the difference in park use cannot be explained by Quito residents having greater access to desired nonpark amenities near parks."
+    },
+    {
+      "title": "Avoid unsupported causes",
+      "content": "Choice A adds overall amenity counts, choice C introduces park prevalence, and choice D predicts the effect of adding amenities. The passage does not make any of those claims. The answer is <strong>B</strong>."
+    }
+  ]
+}

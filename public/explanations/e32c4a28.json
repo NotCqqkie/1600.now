@@ -1,0 +1,15 @@
+{
+  "questionId": "e32c4a28",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal a limitation",
+      "content": "The previous sentence describes a successful asteroid-deflection test on a secondary object. The next sentence says these results are no guarantee for primary objects. The blank must concede the success while introducing a limitation."
+    },
+    {
+      "title": "Reject addition and result",
+      "content": "A would signal that the primary-object conclusion follows from the success, but the text limits that inference. C would signal similarity, which conflicts with \"no guarantee.\" D would add support rather than concede a caveat. The answer is <strong>B</strong>."
+    }
+  ]
+}

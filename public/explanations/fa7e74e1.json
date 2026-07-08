@@ -1,0 +1,15 @@
+{
+  "questionId": "fa7e74e1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph intercepts",
+      "content": "The shown line crosses the $x$-axis at $(3{,}0)$ and the $y$-axis at $(0{,}-5)$. The correct equation must produce both intercepts."
+    },
+    {
+      "title": "Test the matching equation",
+      "content": "For $5x-3y=15$, setting $y=0$ gives\n$$\n5x=15\n$$\nso $x=3$. Setting $x=0$ gives\n$$\n-3y=15\n$$\nso $y=-5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

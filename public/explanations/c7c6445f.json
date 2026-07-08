@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the area conversion rule: square the linear scale factor",
-      "content": "When converting between units, area scales by the square of the linear conversion factor. Since 1 mile = 1,760 yards, we have:<br/>$$1 \\text{ square mile} = (1,760)^2 \\text{ square yards}$$<br/>Calculate the conversion factor:<br/>$$1,760^2 = 3,097,600 \\text{ square yards per square mile}$$"
+      "title": "Square the mile conversion",
+      "content": "Since area is measured in square units, square the linear conversion:<br/>$$1\\ \\text{square mile}=(1{,}760)^2\\ \\text{square yards}$$<br/>$$1{,}760^2=3{,}097{,}600$$"
     },
     {
-      "title": "Multiply the township's area by the conversion factor",
-      "content": "Convert 5.12 square miles to square yards:<br/>$$5.12 \\times 3,097,600 = 15,859,712 \\text{ square yards}$$<br/>This corresponds to choice D."
+      "title": "Convert square miles",
+      "content": "Multiply by the township's area:<br/>$$5.12(3{,}097{,}600)=15{,}859{,}712$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

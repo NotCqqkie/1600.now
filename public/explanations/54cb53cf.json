@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Reverse the relationship between populations",
-      "content": "Given that the 2020 population is 1.32 times the 2016 population, I need to reverse this to express 2016 in terms of 2020.<br/><br/>If $Z_{2020} = 1.32 \\cdot Z_{2016}$, then dividing both sides by 1.32:<br/>$$Z_{2016} = \\frac{1}{1.32} \\cdot Z_{2020}$$"
+      "title": "Set the population relationship",
+      "content": "Let $x$ be the population in $2016$. The population in $2020$ was $1.32$ times as large.\n$$\n1.32x\n$$"
     },
     {
-      "title": "Set up the percentage equation",
-      "content": "The problem asks for $p$ such that 2016 is $p\\%$ of 2020:<br/>$$Z_{2016} = \\frac{p}{100} \\cdot Z_{2020}$$<br/>Comparing with the equation from Step 1, the coefficient of $Z_{2020}$ must match:<br/>$$\\frac{p}{100} = \\frac{1}{1.32}$$"
+      "title": "Convert the fraction to percent",
+      "content": "The fraction of the $2020$ population represented by the $2016$ population is\n$$\n\\frac{x}{1.32x}=\\frac{1}{1.32}\n$$\nAs a percent, this is\n$$\n\\frac{100}{1.32}\\sim75.76\n$$"
     },
     {
-      "title": "Solve for p and round to nearest integer",
-      "content": "Multiplying both sides by 100:<br/>$$p = \\frac{100}{1.32}$$<br/>Calculating: $100 \\div 1.32 \\approx 75.76$<br/><br/>Rounding to the nearest whole number, $p = 76$."
+      "title": "Round to a whole number",
+      "content": "Round the percent to the nearest whole number.\n$$\n75.76\\sim76\n$$\nThe answer is <strong>76</strong>."
     }
   ]
 }

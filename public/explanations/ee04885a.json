@@ -1,0 +1,19 @@
+{
+  "questionId": "ee04885a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use cross-group consistency",
+      "content": "The team compared odor preferences across ten groups with different modes of living, including urban, agricultural, and hunter-gatherer groups. The important finding is that people generally rated odors about the same across those groups."
+    },
+    {
+      "title": "Draw the limited conclusion",
+      "content": "Because the ratings were similar across modes of living, the conclusion should say that mode of living likely does not have a large influence on whether a person perceives an odor as pleasant or unpleasant."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "<ul><li>A: says culture is dominant, the opposite of what similar cross-cultural ratings suggest.</li><li>B: follows from the similar ratings across living modes.</li><li>C: discusses how often people encounter vanillin, which was not measured.</li><li>D: says pleasant odors are rated equally, but vanillin was rated more pleasant than galbazine.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

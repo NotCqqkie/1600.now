@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the probability formula",
-      "content": "The probability of selecting a defective wireless earbud is:<br/>$$P(\\text{defective}) = \\frac{\\text{Number of defective earbuds}}{\\text{Total number of earbuds}} = \\frac{7}{1,000}$$"
+      "title": "Set up the probability",
+      "content": "There are $7$ defective earbuds out of $1{,}000$ total.<br/>$$P(\\text{defective})=\\frac{7}{1{,}000}$$"
     },
     {
-      "title": "Convert to decimal and identify the answer",
-      "content": "Divide the numerator by the denominator:<br/>$$7 \\div 1,000 = 0.007$$<br/>That matches <strong>Choice A &mdash; 0.007</strong>."
+      "title": "Convert to a decimal",
+      "content": "Convert the fraction.<br/>$$\\frac{7}{1{,}000}=0.007$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

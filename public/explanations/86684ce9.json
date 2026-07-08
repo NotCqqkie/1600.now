@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret increasing by 1,600%",
-      "content": "When we increase a quantity by 1,600%, we add 1,600% of the original to itself. Convert the percentage: 1,600% = $\\frac{1,600}{100} = 16$. So the result is the original plus 16 times the original: $$x + 16x = 17x$$"
+      "title": "Convert the percent increase",
+      "content": "Increasing $x$ by $1{,}600\\%$ means adding $16x$ to the original amount, because:\n$$\\frac{1{,}600}{100}=16$$\nSo the final amount is:\n$$x+16x=17x$$"
     },
     {
-      "title": "Solve for x",
-      "content": "We know the final result is 544, so: $$17x = 544$$ Divide both sides by 17: $$x = \\frac{544}{17} = 32$$ That confirms <strong>D</strong> is correct."
+      "title": "Solve for the original value",
+      "content": "The final amount is $544$, so solve:\n$$17x=544$$\n$$x=\\frac{544}{17}=32$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

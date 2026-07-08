@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the transformation from f to g",
-      "content": "When a graph is shifted up by 8 units, each $y$-value increases by 8. Therefore, $g(x) = f(x) + 8$."
+      "title": "Account for the shift",
+      "content": "A shift up $8$ adds $8$ to every output.\n$$\ng(x)=f(x)+8\n$$"
     },
     {
-      "title": "Evaluate f(5) from the factored form",
-      "content": "Substitute $x = 5$ into $f(x) = (x-2)(x+4)(x-3)$:<br/>$$f(5) = (5-2)(5+4)(5-3) = (3)(9)(2) = 54$$"
+      "title": "Evaluate the original function",
+      "content": "At $x=5$, evaluate the original function.\n$$\nf(5)=(5-2)(5+4)(5-3)\n$$\n$$\nf(5)=3\\cdot 9\\cdot 2=54\n$$"
     },
     {
-      "title": "Use the transformation to find b",
-      "content": "Since $g(x) = f(x) + 8$:<br/>$$g(5) = 54 + 8 = 62$$<br/>Therefore, $b = 62$."
+      "title": "Add the vertical shift",
+      "content": "$$\ng(5)=54+8=62\n$$\nThe point $(5,b)$ uses this output. The answer is <strong>62</strong>."
     }
   ]
 }

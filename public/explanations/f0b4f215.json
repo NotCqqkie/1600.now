@@ -1,0 +1,15 @@
+{
+  "questionId": "f0b4f215",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Highlight Costa's gold count",
+      "content": "The goal is to emphasize the number of gold medals Rafael Costa won. The notes state that Costa won thirty-eight total medals and that twenty-five of them were gold, so the best choice must foreground that gold-medal count."
+    },
+    {
+      "title": "Reject missing counts",
+      "content": "B calls Costa a multiple gold medalist but omits the number. C discusses gold medals generally and focuses on Luca Meier. D gives Costa's total medals but leaves out how many were gold. The answer is <strong>A</strong>."
+    }
+  ]
+}

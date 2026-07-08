@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $h(x)=x+300$. To find $h(40)$, replace $x$ with $40$: $$h(40)=40+300.$$"
+      "content": "To find $h(40)$, replace $x$ with $40$ in the function:<br/>$$h(40)=40+300$$"
     },
     {
-      "title": "Compute and compare",
-      "content": "$40+300=340$, so $h(40)=340$. Choice A (&lsquo;$300$&rsquo;) is the starting $300$ without adding the input, while the other choices come from using the wrong operation. <strong>B</strong> is correct."
+      "title": "Evaluate the sum",
+      "content": "Add the two terms:<br/>$$40+300=340$$<br/>So $h(40)=340$. The answer is <strong>B</strong>."
     }
   ]
 }

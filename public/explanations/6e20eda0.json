@@ -1,0 +1,19 @@
+{
+  "questionId": "6e20eda0",
+  "correctAnswer": "726",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sign of the inputs",
+      "content": "Since $a<0$, both $18a$ and $7a$ are negative. Their absolute values are their opposites.\n$$\n|18a|=-18a\n$$\n$$\n|7a|=-7a\n$$"
+    },
+    {
+      "title": "Evaluate both outputs",
+      "content": "Substitute into $f(x)=\\frac{|x|}{a}-15$.\n$$\nf(18a)=\\frac{-18a}{a}-15=-18-15=-33\n$$\n$$\nf(7a)=\\frac{-7a}{a}-15=-7-15=-22\n$$"
+    },
+    {
+      "title": "Multiply the values",
+      "content": "Find the requested product.\n$$\nf(18a)f(7a)=(-33)(-22)=726\n$$\nThe answer is <strong>726</strong>."
+    }
+  ]
+}

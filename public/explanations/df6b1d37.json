@@ -1,0 +1,15 @@
+{
+  "questionId": "df6b1d37",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the modifier",
+      "content": "The opening phrase, Working with equipment designed for a billionth-of-a-meter scale, must describe the subject that comes after the comma. The logical subject is the people using the equipment: the nanoengineers."
+    },
+    {
+      "title": "Avoid dangling subjects",
+      "content": "Choice A, Choice C, and Choice D make selenium nanoparticles the grammatical subject, but nanoparticles cannot work with equipment. A clause beginning with nanoengineers attaches the modifier to the people doing the work. The answer is <strong>B</strong>."
+    }
+  ]
+}

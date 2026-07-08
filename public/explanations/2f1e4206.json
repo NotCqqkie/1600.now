@@ -1,0 +1,15 @@
+{
+  "questionId": "2f1e4206",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the missing variable",
+      "content": "Pell et al. wanted to know whether perceived category similarity predicts brand-extension purchases. They had already calculated purchase-probability changes, so the missing data are ratings of perceived similarity between the product categories."
+    },
+    {
+      "title": "Correlate similarity and buying",
+      "content": "The matching design collects category-similarity ratings for each extended-brand pair and compares them with the calculated probability changes. Choice B rates similarity within a category, while Choice C and Choice D focus on brand recognition rather than perceived category similarity. The answer is <strong>A</strong>."
+    }
+  ]
+}

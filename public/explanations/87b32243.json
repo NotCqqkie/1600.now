@@ -1,0 +1,15 @@
+{
+  "questionId": "87b32243",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square",
+      "content": "Start with the equation:\n$$x^2-\\frac{16}{49}=0$$\nMove the constant to the other side:\n$$x^2=\\frac{16}{49}$$"
+    },
+    {
+      "title": "Count the real roots",
+      "content": "A positive value for $x^2$ gives two real square roots:\n$$x=\\pm\\sqrt{\\frac{16}{49}}=\\pm\\frac{4}{7}$$\nThere are exactly two distinct real solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

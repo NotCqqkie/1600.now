@@ -1,0 +1,15 @@
+{
+  "questionId": "9859a937",
+  "correctAnswer": "21675",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant",
+      "content": "Use the known cord to find the constant $a$ before using the new circumference. Substitute $x=1.50$ and $y=2{,}700$ in $y=800ax^2$.\n$$\n2{,}700=800a(1.50)^2\n$$\n$$\n2{,}700=1{,}800a\n$$\n$$\na=1.5\n$$"
+    },
+    {
+      "title": "Use the new circumference",
+      "content": "Now keep the same constant because the cord type is the same, and substitute $x=4.25$.\n$$\ny=800(1.5)(4.25)^2\n$$\n$$\ny=1{,}200(18.0625)=21{,}675\n$$\nThe answer is <strong>21675</strong>."
+    }
+  ]
+}

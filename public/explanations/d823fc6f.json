@@ -1,0 +1,15 @@
+{
+  "questionId": "d823fc6f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast the two contexts",
+      "content": "The first clause says actors showed suppressed brain responses when their names were called during performances. The second clause says their responses were normal in nonacting contexts. The transition must signal that opposition."
+    },
+    {
+      "title": "Reject noncontrast transitions",
+      "content": "Choice B would introduce a more specific version of the first idea. Choice C signals similarity. Choice D signals a result. The two findings are opposite, so the transition should mean on the other hand. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The sentence is anchored in the past: Zewail devised his technique &quot;in 1987.&quot; The next sentence says &quot;Years later, he ______&quot; &mdash; describing an event that came after 1987, viewed from that past reference point. The verb must express future-relative-to-past."
+      "content": "The sentence is anchored in the past: Zewail devised his technique \"in 1987.\" The next sentence says \"Years later, he ______\" — describing an event that came after 1987, viewed from that past reference point. The verb must express future-relative-to-past."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; had been honored</strong>: past perfect signals that the honoring happened <em>before</em> the 1987 reference point &mdash; the opposite of what &quot;years later&quot; requires. &#10007;</li><li><strong>Choice B &mdash; would be honored</strong>: the past-future construction (&quot;would + infinitive&quot;) correctly expresses an event that was in the future relative to 1987, told from a past-tense narrative perspective. &#10003;</li><li><strong>Choice C &mdash; is honored</strong>: present tense clashes with the past-tense frame of the passage. &#10007;</li><li><strong>Choice D &mdash; will be honored</strong>: simple future is used for events future relative to <em>now</em>, not relative to a past point &mdash; inconsistent with the past-tense narrative. &#10007;</li></ul>That matches <strong>Choice B &mdash; would be honored</strong>."
+      "content": "<ul><li><strong>Choice A — had been honored</strong>: past perfect signals that the honoring happened <em>before</em> the 1987 reference point — the opposite of what \"years later\" requires. ✗</li><li><strong>Choice B — would be honored</strong>: the past-future construction (\"would + infinitive\") correctly expresses an event that was in the future relative to 1987, told from a past-tense narrative perspective. ✓</li><li><strong>Choice C — is honored</strong>: present tense clashes with the past-tense frame of the passage. ✗</li><li><strong>Choice D — will be honored</strong>: simple future is used for events future relative to <em>now</em>, not relative to a past point — inconsistent with the past-tense narrative. ✗</li></ul>That matches <strong>Choice B — would be honored</strong>."
     }
   ]
 }

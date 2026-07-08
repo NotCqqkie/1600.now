@@ -1,0 +1,16 @@
+{
+  "questionId": "03aa0bea",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle standard form",
+      "content": "A circle in standard form has radius squared on the right side.",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    },
+    {
+      "title": "Find the radius",
+      "content": "In the given equation, the right side is $144$, so<br/>$$r^2=144$$<br/>$$r=\\sqrt{144}=12$$<br/>The answer is <strong>12</strong>."
+    }
+  ]
+}

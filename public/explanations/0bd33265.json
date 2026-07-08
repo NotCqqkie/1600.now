@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the Fahrenheit temperature",
-      "content": "Use $h=476.33$ in the given equation:<br/>$$476.33=\\frac{9(v-273.15)}{5}+32$$"
+      "title": "Substitute the temperature",
+      "content": "Use $h=476.33$ in the given conversion equation.<br/>$$476.33=\\frac{9(v-273.15)}{5}+32$$"
     },
     {
-      "title": "Isolate the kelvin expression",
-      "content": "Subtract $32$:<br/>$$444.33=\\frac{9(v-273.15)}{5}$$<br/>Multiply by $5$ and divide by $9$:<br/>$$246.85=v-273.15$$"
+      "title": "Isolate the kelvin term",
+      "content": "Subtract $32$, then multiply by $5$ and divide by $9$.<br/>$$444.33=\\frac{9(v-273.15)}{5}$$<br/>$$2{,}221.65=9(v-273.15)$$<br/>$$246.85=v-273.15$$"
     },
     {
-      "title": "Solve for v",
-      "content": "Add $273.15$:<br/>$$v=246.85+273.15=520$$<br/>The corresponding temperature is <strong>520</strong> kelvins. Substituting $520$ back into the formula returns $476.33^\\circ$F, so the conversion is consistent."
+      "title": "Solve for kelvins",
+      "content": "Add $273.15$ to both sides.<br/>$$v=246.85+273.15=520$$<br/>The answer is <strong>520</strong>."
     }
   ]
 }

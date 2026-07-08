@@ -1,0 +1,19 @@
+{
+  "questionId": "97a7cf4f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the species difference",
+      "content": "The researchers compared habitat features for great blue herons and small dark herons. They found that great blue herons prefer deep water during breeding season, but small dark herons do not show the same preference."
+    },
+    {
+      "title": "Reject unsupported outcomes",
+      "content": "Choice B contradicts the finding because increasing water depth should not make the area less appealing to great blue herons. Choice C shifts to lifespan, which the study never discusses. Choice D introduces birds that do not typically live in wetlands, but the evidence is only about two wetland species."
+    },
+    {
+      "title": "Apply the depth finding",
+      "content": "A water management strategy that increases depth should be more effective for the species that prefers deep breeding-season water than for the species whose habitat choice was not tied to depth. The answer is <strong>A</strong>."
+    }
+  ]
+}

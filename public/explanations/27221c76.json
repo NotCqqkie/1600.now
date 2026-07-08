@@ -1,0 +1,15 @@
+{
+  "questionId": "27221c76",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the purring trait",
+      "content": "The passage explains that flat-headed cats have a rigid hyoid that rumbles when the larynx vibrates, producing a purr. Jaguars have different hyoid traits that allow roaring and may prevent purring."
+    },
+    {
+      "title": "Choose the named bone",
+      "content": "A mentions the shape of the larynx, which the passage does not identify as the cause. B is wrong because flat-headed cats lack the stretchy ligament described for jaguars. D points to body size, not the trait linked to purring. The relevant trait is the rigid hyoid. The answer is <strong>C</strong>."
+    }
+  ]
+}

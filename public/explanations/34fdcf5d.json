@@ -1,0 +1,15 @@
+{
+  "questionId": "34fdcf5d",
+  "correctAnswer": "-9/2,-4.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor to read off the roots",
+      "content": "<strong>Shortcut (Vieta's):</strong> Factor out $(x - k)$:<br/>$(x-k)^2 - (k-6a)(x-k) = (x-k)\\bigl[(x-k)-(k-6a)\\bigr] = (x-k)(x-2k+6a) = 0$<br/>The two roots are $x = k$ and $x = 2k - 6a$."
+    },
+    {
+      "title": "Use sum of roots = 3k + 27",
+      "content": "Sum of roots: $k + (2k - 6a) = 3k - 6a$. Set equal to the given sum $3k + 27$:<br/>$3k - 6a = 3k + 27 \\Rightarrow -6a = 27 \\Rightarrow a = -\\dfrac{9}{2}$<br/>Equivalent decimal: $-4.5$. The answer is <strong>-9/2</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "14b059fc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a control state",
+      "content": "The students want to know whether Montana's 2009 RSRs reduced insurer competition and raised new-policy premiums. The relevant outcomes are the number of insurers and premium prices for newly issued policies, both before and after 2009. Montana data alone cannot isolate the effect, because broader market trends could have changed at the same time."
+    },
+    {
+      "title": "Compare matching measures",
+      "content": "A compares new-policy premiums with existing-policy premiums, so the measures do not match. C uses Montana again instead of a no-RSR control. D uses only insurer counts and another RSR state. The needed comparison uses analogous data from a similar state without RSRs over the same time window, preventing unrelated market changes from being confused with the regulation's introduction and testing both collected outcomes. The answer is <strong>B</strong>."
+    }
+  ]
+}

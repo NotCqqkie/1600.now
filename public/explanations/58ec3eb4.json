@@ -1,0 +1,19 @@
+{
+  "questionId": "58ec3eb4",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate one variable",
+      "content": "Multiply the first equation by $7$ so the $x$-terms match.<br/>$$7x+28y=273$$"
+    },
+    {
+      "title": "Subtract the equations",
+      "content": "Subtract the second equation from the new first equation.<br/>$$(7x+28y)-(7x-20y)=273-(-63)$$<br/>$$48y=336$$"
+    },
+    {
+      "title": "Divide to find value",
+      "content": "Divide both sides by $48$.<br/>$$y=\\frac{336}{48}$$<br/>$$y=7$$ The answer is <strong>7</strong>."
+    }
+  ]
+}

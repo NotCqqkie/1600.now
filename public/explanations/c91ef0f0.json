@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject of the clause",
-      "content": "The subject is the gerund phrase &quot;Amplifying the voices and experiences of Black soldiers.&quot; A gerund phrase functions as a single, singular noun &mdash; it always takes a singular verb regardless of any plural words inside it.<ul><li><strong>Choice A &mdash; were</strong>: &quot;Were&quot; is a plural verb. It does not agree with the singular gerund subject &quot;Amplifying.&quot; Subject-verb agreement violation. &#10007;</li><li><strong>Choice B &mdash; have been</strong>: &quot;Have been&quot; is a plural verb form. It does not agree with the singular gerund subject. Subject-verb agreement violation. &#10007;</li><li><strong>Choice C &mdash; are</strong>: &quot;Are&quot; is a plural verb. It does not agree with the singular gerund subject. Subject-verb agreement violation. &#10007;</li><li><strong>Choice D &mdash; was</strong>: &quot;Was&quot; is a singular verb and correctly agrees with the singular gerund subject &quot;Amplifying.&quot; &#10003;</li></ul>"
+      "title": "Find the gerund subject",
+      "content": "The subject is the gerund phrase about amplifying Black soldiers' voices and experiences. A gerund phrase acts as one singular noun, even when it contains plural words such as voices, experiences, and soldiers."
     },
     {
-      "title": "Apply subject-verb agreement to gerund subjects",
-      "content": "Gerund phrases are always grammatically singular, so they require a singular verb. &quot;Were,&quot; &quot;have been,&quot; and &quot;are&quot; are all plural and violate subject-verb agreement. Only &quot;was&quot; is singular and correctly matches the gerund subject. That is the correct answer."
+      "title": "Use a singular verb",
+      "content": "A, B, and C are plural verb forms, so they do not agree with the singular gerund subject. The singular verb was fits the sentence. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2d76253",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the requested cell",
+      "content": "The question asks for one table value: petri dish 6 in the chamber with venom-treated bacteria. The task is to use the row for dish 6 and the venom-treatment column."
+    },
+    {
+      "title": "Reject wrong chamber values",
+      "content": "B is the saline-treated count for petri dish 6, so it is the wrong chamber. C and D are not the venom-treated value for dish 6. The venom-treated count for dish 6 is 153 CFUs. The answer is <strong>A</strong>."
+    }
+  ]
+}

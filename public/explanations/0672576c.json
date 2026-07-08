@@ -1,0 +1,19 @@
+{
+  "questionId": "0672576c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect methods to cost",
+      "content": "The passage says longitudinal studies are expensive because they span many years. A public opinion study that only measures current support does not need to follow the same participants across a long period."
+    },
+    {
+      "title": "Apply the passage's logic",
+      "content": "If the study only asks about current support for a proposal, it can collect the needed information at one point in time. Avoiding a many-year design should also avoid the extra cost that the passage associates with longitudinal research."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice B compares general suitability, Choice C says longitudinal methods would cost less in public opinion research, and Choice D compares reliability. None follows from the passage's cost explanation. The remaining choice draws the relevant cost conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

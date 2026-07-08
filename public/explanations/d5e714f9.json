@@ -1,0 +1,15 @@
+{
+  "questionId": "d5e714f9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the contrast pair",
+      "content": "The passage says Saharan dust can have opposing effects on tropical cyclones. The first effect is introduced with On one hand and describes increased precipitation. The next sentence gives the opposite effect: lower sea surface temperatures that weaken the storm."
+    },
+    {
+      "title": "Reject noncontrast links",
+      "content": "Choice B signals time, not opposition. Choice C introduces an example, but the sentence gives the other side of a contrast. Choice D signals a restatement, though weakening the storm is not a restatement of increasing precipitation. The needed transition completes the contrast pair. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: set up the shadow ratio",
-      "content": "Objects standing vertically at the same time form similar right triangles with their shadows because the sun's angle is the same for each object. Match height to shadow length for each object, then solve the resulting proportion."
+      "title": "Use similar shadow triangles",
+      "content": "At the same time of day, the radio tower and flagpole form similar triangles with their shadows. So the ratio of height to shadow length is the same for both objects."
     },
     {
-      "title": "Set up a proportion using similar triangles",
-      "content": "At the same moment, the sun's angle is identical for all objects. The radio tower and the flagpole each form a right triangle with their respective shadows. These triangles are similar, so the ratios of height to shadow length are equal:<br/>$$\\frac{\\text{Tower height}}{\\text{Tower shadow}} = \\frac{\\text{Flagpole height}}{\\text{Flagpole shadow}}$$<br/>$$\\frac{520}{250} = \\frac{h}{14}$$"
+      "title": "Set up the proportion",
+      "content": "Let $h$ be the flagpole height. Then\n$$\n\\frac{520}{250}=\\frac{h}{14}\n$$"
     },
     {
-      "title": "Solve for the flagpole height",
-      "content": "Cross-multiply:<br/>$$250h = 520 \\times 14 = 7280$$<br/>$$h = \\frac{7280}{250} = 29.12 \\text{ feet}$$"
-    },
-    {
-      "title": "Choose the closest answer",
-      "content": "$29.12$ feet rounds to $30$ feet. Evaluate choices:<ul><li>A: $7$ - far below 29.12. Eliminated.</li><li>B: $18$ - difference of 11.12 from 29.12. Eliminated.</li><li>C: $30$ - difference of 0.88 from 29.12, the closest. <strong>C</strong> is correct.</li><li>D: $37$ - difference of 7.88 from 29.12. Eliminated.</li></ul>"
+      "title": "Solve and round",
+      "content": "Cross multiply:\n$$\n250h=520\\cdot 14=7{,}280\n$$\n$$\nh=\\frac{7{,}280}{250}=29.12\n$$\nThe closest listed height is $30$ feet. The answer is <strong>C</strong>."
     }
   ]
 }

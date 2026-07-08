@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute b as 80% less than 36",
-      "content": "<ul><li>80% less than 36 means subtract 80% of 36 from 36.</li><li>$$b = 36 - 0.80 \\times 36 = 36(1-0.80) = 36 \\times 0.20 = 7.2$$</li></ul>"
+      "title": "Find the value of b",
+      "content": "If $b$ is $80\\%$ less than $36$, then $b$ is $20\\%$ of $36$.<br/>$$b=0.20(36)=7.2$$"
     },
     {
-      "title": "Compute a as 120% greater than b",
-      "content": "<ul><li>120% greater than b means add 120% of b to b.</li><li>$$a = b + 1.20b = b(1+1.20) = 2.20b = 2.20 \\times 7.2 = 15.84$$</li><li>The answer is <strong>15.84</strong>.</li></ul>"
+      "title": "Increase b by one hundred twenty percent",
+      "content": "If $a$ is $120\\%$ greater than $b$, then $a$ is $220\\%$ of $b$.<br/>$$a=2.20(7.2)=15.84$$<br/>The answer is <strong>15.84</strong>."
     }
   ]
 }

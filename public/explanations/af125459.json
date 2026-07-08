@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down what to look up",
-      "content": "The sentence asks for the depth at which the <strong>highest number</strong> of tools made from <em>beach-collected</em> clamshells was found. So scan the &quot;beach-collected&quot; column of the table for its maximum and report the matching depth row."
+      "title": "Locate the requested column",
+      "content": "The sentence asks for the depth with the highest number of tools made from clamshells collected from the beach. In the table, that means reading the beach-collected column and finding its maximum value."
     },
     {
-      "title": "Find the maximum in the beach-collected column",
-      "content": "Reading down the beach-collected counts across the depth rows, the largest value occurs at the 3&ndash;4 meters row (the count there far exceeds the counts at the other depths)."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; 5–6 meters below the surface.</strong>: not the maximum row &mdash; the beach-collected count here is lower than at 3&ndash;4 m. &#10007;</li><li><strong>Choice B &mdash; 4–5 meters below the surface.</strong>: also lower than the 3&ndash;4 m row &mdash; misreads the peak. &#10007;</li><li><strong>Choice C &mdash; 3–4 meters below the surface.</strong>: the row containing the largest beach-collected value. &#10003;</li><li><strong>Choice D &mdash; 6–7 meters below the surface.</strong>: one of the smallest counts in the column &mdash; clearly not the maximum. &#10007;</li></ul>That is the correct answer."
+      "title": "Use the maximum row",
+      "content": "The largest beach-collected count is 99, and it appears in the 3-4 meters row. A, B, and D point to rows with fewer beach-collected tools, so they do not complete the statement accurately. The answer is <strong>C</strong>."
     }
   ]
 }

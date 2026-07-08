@@ -1,0 +1,15 @@
+{
+  "questionId": "f3df0680",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared point",
+      "content": "Text 1 says O'odham farmers plant mesquite with agaves so the trees provide shade and protect agaves from heat and light. Text 2 repeats that agaves grow best when shaded by sun-hardy species like mesquite."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "B compares advantages that Text 2 does not discuss. C speculates about refining the solar-panel method. D reverses the texts by saying agaves do not need shade. The shared point is mesquite shade protecting agaves. The answer is <strong>A</strong>."
+    }
+  ]
+}

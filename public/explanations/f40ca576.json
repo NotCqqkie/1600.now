@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question tests verb tense consistency. The passage already uses the present tense verb &ldquo;journey&rdquo; to describe the butterflies&rsquo; yearly migration, and &ldquo;Each year in the fall&rdquo; signals a recurring habitual action &mdash; so the blank must also be present tense."
+      "title": "Match the habitual tense",
+      "content": "The sentence describes a recurring annual migration. The earlier verb <em>journey</em> is present tense, and <em>Each year in the fall</em> signals a habitual action rather than a single past event."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"flew\"</strong>: simple past tense describes a completed past action, which is inconsistent with the present tense &ldquo;journey&rdquo; and the recurring yearly context. &#10007;</li><li><strong>\"were flying\"</strong>: past progressive tense describes an ongoing action at a specific past moment, which is inconsistent with the present tense &ldquo;journey&rdquo; used elsewhere in the passage. &#10007;</li><li><strong>\"had flown\"</strong>: past perfect tense describes an action completed before another past event &mdash; neither meaning fits a habitual present-tense migration. &#10007;</li><li><strong>\"fly\"</strong>: simple present tense is consistent with &ldquo;journey&rdquo; and correctly expresses a habitual, yearly occurrence. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject past-tense forms",
+      "content": "A is simple past, B is past progressive, and C is past perfect; all three conflict with the present-tense, recurring context. The needed verb is simple present, matching <em>journey</em> and describing what monarch butterflies do each year. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "7b561d81",
+  "correctAnswer": "1.764",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use cofunction identities",
+      "content": "Use\n$$\n\\cos((90-a)^\\circ)=\\sin(a^\\circ)\n$$\nand\n$$\n\\sin((90-b)^\\circ)=\\cos(b^\\circ)\n$$\nWhen $y=0$, $\\sin((a+y)^\\circ)=\\sin(a^\\circ)$."
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "The expression becomes\n$$\n2\\sin(a^\\circ)\\cos(b^\\circ)+\\sin(a^\\circ)\\cos(b^\\circ)\n$$\n$$\n3\\sin(a^\\circ)\\cos(b^\\circ)\n$$"
+    },
+    {
+      "title": "Substitute the values",
+      "content": "Use $\\sin(a^\\circ)=0.60$ and $\\cos(b^\\circ)=0.98$:\n$$\n3(0.60)(0.98)=1.764\n$$\nThe answer is <strong>1.764</strong>."
+    }
+  ]
+}

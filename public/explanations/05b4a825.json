@@ -1,0 +1,19 @@
+{
+  "questionId": "05b4a825",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the sentence sequence",
+      "content": "The passage first gives two Hoocak examples: <em>okayeke</em> means \"bad,\" and <em>ati okayeye'tesel</em> means \"bad houses.\" It then defines reduplication as a pattern in which part of a root word is repeated, sometimes with a change, inside a related word. The underlined sentence comes right after that definition, so its job is to connect the general definition to the specific Hoocak words already introduced."
+    },
+    {
+      "title": "Match the function to the text",
+      "content": "The underlined sentence says that the element \"ye\" in <em>okayeke</em> is repeated in <em>ati okayeye'tesel</em>. That does not give an English translation, because the translations appear earlier. It also does not mention exceptions to the pattern or discuss how common reduplication is in Hoocak. Instead, it identifies the repeated element and shows how the pattern works in this specific pair of words."
+    },
+    {
+      "title": "Eliminate the wrong choices",
+      "content": "<ul><li><strong>B</strong>: \"It provides an English translation of the Hoocak word mentioned earlier.\" The English meanings are supplied before the underlined sentence, not by it.</li><li><strong>C</strong>: \"It acknowledges that Hoocak has some important exceptions to the general pattern described earlier.\" The underlined sentence shows the pattern, not an exception to it.</li><li><strong>D</strong>: \"It emphasizes how frequently reduplication occurs in Hoocak.\" Frequency is addressed in the following sentence about many examples, not in the underlined sentence.</li><li><strong>A</strong>: \"It elaborates on the description of reduplication by exemplifying how it works in the specific Hoocak word mentioned earlier.\" This matches the underlined sentence's role: it turns the definition of reduplication into a concrete Hoocak example.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

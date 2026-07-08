@@ -1,0 +1,15 @@
+{
+  "questionId": "52cda056",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep title and name together",
+      "content": "The phrase should read as one noun phrase: <em>Flemish cartographer Abraham Ortelius</em>. The participial phrase that follows, <em>known for showing the world in a cordiform projection</em>, needs a comma before it."
+    },
+    {
+      "title": "Reject misplaced commas",
+      "content": "Choice B and Choice D wrongly split <em>cartographer</em> from <em>Abraham Ortelius</em>. Choice C keeps the name together but omits the comma before the descriptive phrase. The version with a comma after the name fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

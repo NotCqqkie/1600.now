@@ -1,0 +1,15 @@
+{
+  "questionId": "3f3a0f1b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph features",
+      "content": "The line of best fit rises from left to right, so it has a positive slope. It also passes close to the origin, so the $y$-intercept is close to $0$."
+    },
+    {
+      "title": "Match the equation",
+      "content": "The horizontal choices have slope $0$, and the negative-slope choice falls from left to right. The only equation with a positive slope and intercept near $0$ is $y=1.1x$. The answer is <strong>A</strong>."
+    }
+  ]
+}

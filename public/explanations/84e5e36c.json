@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=76$$<br/>$$y={x}^{2}-5$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Set the equations equal",
+      "content": "At an intersection point, both equations have the same $y$-value. Since one equation says $y=76$, substitute $76$ into the other equation.<br/>$$76=x^2-5$$"
+    },
+    {
+      "title": "Solve for possible inputs",
+      "content": "Add $5$ to both sides and take square roots.<br/>$$x^2=81$$<br/>$$x=9\\text{ or }x=-9$$<br/>Only one of these values is listed."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations shows intersections with $x$-coordinates $9$ and $-9$. The listed possible value is $-9$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=76",
         "y={x}^{2}-5"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $-9$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the slope of the linear function",
-      "content": "The function $$w(t)=280-5t$$ is in the form $$w(t)=mt+b$$ where $$m$$ is the slope. Here the coefficient of $$t$$ is $$-5$$, so $$m=-5$$."
+      "title": "Identify the rate term",
+      "content": "In the model $w(t)=280-5t$, the coefficient of $t$ is $-5$. That means the volume changes by $-5$ milliliters each second."
     },
     {
-      "title": "Interpret the slope as the draining rate",
-      "content": "A negative slope means the volume decreases. The magnitude $$|m|=5$$ gives the volume lost per second. Thus the tank drains $$5$$ milliliters each second.<br/><strong>D</strong> is correct."
+      "title": "Interpret the decrease",
+      "content": "The negative sign shows the tank is losing liquid. The amount draining each second is the magnitude of the rate, $5$ milliliters. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "7f4e7209",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the side ratio",
+      "content": "The side lengths $KL$ and $ST$ are both $28$, and<br/>$$\\frac{KL}{KJ}=\\frac{ST}{SR}$$Substitute $28$ for both numerators."
+    },
+    {
+      "title": "Find the matching side",
+      "content": "The ratio becomes<br/>$$\\frac{28}{KJ}=\\frac{28}{SR}$$so $KJ=SR$."
+    },
+    {
+      "title": "Apply side angle side",
+      "content": "The triangles already have $KL=ST$, $KJ=SR$, and the included angles $K$ and $S$ are both $40^\\circ$. That proves the triangles congruent by side-angle-side without any additional information. The answer is <strong>D</strong>."
+    }
+  ]
+}

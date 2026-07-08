@@ -1,0 +1,15 @@
+{
+  "questionId": "57d94926",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Frame the alternate name",
+      "content": "The phrase or SuperDARN, as space physicists like Nozomu Nishitani call it interrupts the main sentence to give another name for the network. A dash already closes that interruption after it, so the opening punctuation must match it."
+    },
+    {
+      "title": "Match the paired punctuation",
+      "content": "Choice A uses a comma that does not pair with the closing dash. Choice B uses a colon, which cannot close with a dash. Choice C leaves the interrupting phrase without opening punctuation. The answer is <strong>D</strong>."
+    }
+  ]
+}

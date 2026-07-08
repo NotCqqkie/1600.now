@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace the step sequence",
-      "content": "Solis 'starts by' creating the base, then [blank] builds the walls by layering coils, 'then' smooths the walls with a hacksaw blade, and 'at last' the pot is painted. The passage walks through pottery-making stages in order."
+      "title": "Follow the process order",
+      "content": "The text describes pottery-making steps in sequence: Solis starts with the base, then builds the walls, then smooths them, and at last the pot is ready for painting."
     },
     {
-      "title": "Pick a sequence marker",
-      "content": "The blank introduces the second stage in a forward-moving procedure, so a transition meaning 'the following step' is needed."
-    },
-    {
-      "title": "Eliminate by choice",
-      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: would mark building the walls as an illustration of making the base, but it is a separate later step, not an example. &#10007;</li><li><strong>Choice B &mdash; However,</strong>: signals contrast, but building the walls does not oppose making the base. &#10007;</li><li><strong>Choice C &mdash; By contrast,</strong>: also signals contrast between two ideas, which does not fit a continuous procedure. &#10007;</li><li><strong>Choice D &mdash; Next,</strong>: marks the wall-building as the following step in the sequence, fitting 'starts by... [next]... then... at last.' &#10003;</li></ul>That is the correct answer."
+      "title": "Choose the sequence marker",
+      "content": "A would make wall-building an example of making the base. B and C signal contrast, but the sentence continues the same procedure. The needed transition marks the following step in the sequence. The answer is <strong>D</strong>."
     }
   ]
 }

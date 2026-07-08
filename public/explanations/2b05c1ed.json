@@ -1,0 +1,15 @@
+{
+  "questionId": "2b05c1ed",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the time sequence",
+      "content": "The first sentence is set in 1931. The second says researchers would find androsterone in plants, but that discovery came decades later."
+    },
+    {
+      "title": "Signal a later discovery",
+      "content": "Choice A introduces an example, Choice C introduces a restatement, and Choice D points backward in time. The needed transition shows that the discovery happened later. The answer is <strong>B</strong>."
+    }
+  ]
+}

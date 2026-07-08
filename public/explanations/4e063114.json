@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student's goal is to define &quot;georeferencing.&quot; The notes supply the definition directly: it is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location. The correct choice must state what georeferencing is, not just describe a project that used it."
+      "title": "Define the goal",
+      "content": "The student wants to define the term georeferencing, so the right sentence must explain what the process is. The notes give that definition directly: georeferencing assigns geographic coordinates to an image so mapping software can place the image in its real-world location. Details about Puerto Rico, the 1930 photographs, and the 2017 project are useful context, but they do not by themselves define the term."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — A 2017 project by Tania López Marrero and colleagues assigned geographic coordinates to photographs of Puerto Rico's coastline and also used georeferencing.</strong>: Describes a specific project and incorrectly implies that assigning coordinates is separate from georeferencing; never defines the term itself. &#10007;</li><li><strong>Choice B — Tania López Marrero and colleagues used georeferencing in their analysis of the earliest known aerial photographs of Puerto Rico.</strong>: Mentions that georeferencing was used but provides no definition of what it is. &#10007;</li><li><strong>Choice C — Georeferenced aerial photographs from 1930 can help researchers analyze changes in Puerto Rico's coastline.</strong>: Explains a benefit of a georeferenced data set; does not define what georeferencing means. &#10007;</li><li><strong>Choice D — Georeferencing is the process of assigning geographic coordinates to an image so that mapping software can place it in its real-world location.</strong>: Directly defines the term by naming both what the process does (assigns coordinates) and what it enables (placement in real-world location). &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Check each option",
+      "content": "Choice A focuses on a specific project and also makes assigning coordinates sound separate from georeferencing, even though that assignment is the process itself. Choice B says Lopez Marrero and colleagues used georeferencing, but it never explains what the word means. Choice C explains why georeferenced photographs can help researchers study coastline changes, which is a benefit rather than a definition. Choice D gives both parts needed for the definition: coordinates are assigned to an image, and mapping software can place it in its real-world location. The answer is <strong>D</strong>."
     }
   ]
 }

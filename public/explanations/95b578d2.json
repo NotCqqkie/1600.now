@@ -1,0 +1,23 @@
+{
+  "questionId": "95b578d2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph intersections",
+      "content": "A solution to the system is a point where the line and parabola intersect. The question asks for a possible $x$-value, so read an $x$-coordinate at an intersection."
+    },
+    {
+      "title": "Read one possible value",
+      "content": "On the graph, one intersection is directly above $x=4$. That means $x=4$ is a possible solution value."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The guide lines $y=6$ and $x=4$ identify the displayed intersection value. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y=6",
+        "x=4"
+      ]
+    }
+  ]
+}

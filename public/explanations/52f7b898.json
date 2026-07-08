@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Find angle A",
+      "content": "The triangle is right, and angle $B$ is $30^\\circ$. Since triangle angles sum to $180^\\circ$,\n$$\nA+90^\\circ+30^\\circ=180^\\circ\n$$\n$$\nA=60^\\circ\n$$"
     },
     {
-      "title": "Determine angle A",
-      "content": "In right triangle ABC with the right angle at C and angle B = $30^{\\circ}$, use the angle sum property:<br/>$$A + 90 + 30 = 180$$<br/>Therefore angle A = $60^{\\circ}$."
+      "title": "Use the special ratio",
+      "content": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle, the sides opposite those angles are in the ratio\n$$\n1:\\sqrt{3}:2\n$$\nFor angle $A$, the opposite leg is \n$$\n\\sqrt{3}\n$$ times the adjacent leg."
     },
     {
-      "title": "Apply 30-60-90 triangle side ratios",
-      "content": "In a 30-60-90 triangle, the sides opposite the $30^{\\circ}$, $60^{\\circ}$, and $90^{\\circ}$ angles are in ratio $1: \\sqrt{3}: 2$. With hypotenuse AB = 54:<ul><li>AC (opposite the $30^{\\circ}$ angle) = $\\frac{54}{2} = 27$</li><li>BC (opposite the $60^{\\circ}$ angle) = $\\frac{54\\sqrt{3}}{2} = 27\\sqrt{3}$</li></ul>"
-    },
-    {
-      "title": "Calculate tan A and identify the answer",
-      "content": "For angle A, tangent equals the opposite side divided by the adjacent side:<br/>$$\\tan A = \\frac{BC}{AC} = \\frac{27\\sqrt{3}}{27} = \\sqrt{3}$$<br/><strong>C</strong> is correct."
+      "title": "Apply tangent",
+      "content": "Tangent is opposite over adjacent:\n$$\n\\tan A=\\frac{\\text{opposite}}{\\text{adjacent}}=\\sqrt{3}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "2859cbdc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify exponential growth",
+      "content": "Doubling every day means the amount is multiplied by $2$ for each additional day. The starting amount is $84{,}000$, so it is the initial factor."
+    },
+    {
+      "title": "Write the model",
+      "content": "After $t$ days, the doubling factor is $2^t$. Multiply that by the starting amount.\n$$y=84{,}000(2)^t$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

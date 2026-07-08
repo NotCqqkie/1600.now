@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Determine what the underlined portion is doing in context",
-      "content": "The passage opens by explaining why ordinary bubbles pop (evaporation or drainage), then says Moreau and colleagues found ways to mitigate those factors &mdash; producing bubbles lasting a year or more. The phrase <strong>For example</strong> introduces the underlined sentence, so it must illustrate one of those mitigation methods. The underlined text explains that glycerol clings to water molecules, letting the bubble draw water from surrounding air to offset evaporation."
+      "title": "Place the example in context",
+      "content": "The passage first explains that ordinary soap bubbles pop because of drainage or evaporation. It then says Moreau and colleagues found ways to mitigate those factors, allowing bubbles to last much longer."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>\"It describes the effects of a process devised by researchers that increases the longevity of an object discussed in the text.\"</strong>: The underlined portion explains exactly how glycerol extends bubble life by compensating for evaporation &mdash; a concrete effect of the researchers&rsquo; process. &#10003;</li><li><strong>\"It details the circumstances that prompted the research discussed in the text.\"</strong>: The circumstances that prompted research (bubbles pop quickly) are in the <em>first</em> sentence, not the underlined portion. &#10007;</li><li><strong>\"It presents a reason why the phenomenon discussed in the text that the researchers wanted to avoid will inevitably occur.\"</strong>: The underlined portion shows how evaporation is <em>prevented</em>, not why it is inevitable &mdash; this reverses the logic. &#10007;</li><li><strong>\"It mentions a method discussed in the text that researchers intend to test in future experiments.\"</strong>: No future experiments are mentioned anywhere; the glycerol method is a completed discovery. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject reversed or invented roles",
+      "content": "Choice B points to circumstances that prompted the research, but the underlined portion comes after the discovery as an example of a method. Choice C reverses the logic by suggesting the unwanted evaporation must inevitably occur. Choice D invents future testing, which the text does not mention."
+    },
+    {
+      "title": "Connect glycerol to durability",
+      "content": "The underlined sentence is not merely naming an ingredient. It explains a mechanism: glycerol adheres to water molecules, so the bubble can replace water lost to evaporation and avoid one cause of popping."
+    },
+    {
+      "title": "Describe the process effect",
+      "content": "The underlined portion explains that glycerol in the bubble shell draws in water molecules from the surrounding air, compensating for evaporation. That describes how the researchers’ process increases the longevity of the bubble. The answer is <strong>A</strong>."
     }
   ]
 }

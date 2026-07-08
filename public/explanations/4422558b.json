@@ -1,0 +1,19 @@
+{
+  "questionId": "4422558b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the b term",
+      "content": "Start with the given equation and subtract $10$ from both sides:\n$$\na=\\frac{5}{13}b+10\n$$\n$$\na-10=\\frac{5}{13}b\n$$"
+    },
+    {
+      "title": "Solve for b",
+      "content": "Multiply both sides by the reciprocal of \n$$\n\\frac{5}{13}\n$$:\n$$\nb=\\frac{13}{5}(a-10)\n$$\nDistribute the multiplier:\n$$\nb=\\frac{13}{5}a-26\n$$"
+    },
+    {
+      "title": "Match the expression",
+      "content": "The expression with coefficient \n$$\n\\frac{13}{5}\n$$ and constant term $-26$ is the matching choice.\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

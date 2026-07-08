@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast",
-      "content": "The passage establishes how achiral molecules behave when flipped (yields identical molecule), then shifts to chiral molecules.<br/><br/>The key signal is <em>“rather than an identical one”</em> — this phrase emphasizes the contrast: chiral molecules produce inverted molecules, not identical ones like achiral molecules."
+      "title": "Mark the molecule contrast",
+      "content": "The first sentence says a flipped achiral molecule remains structurally identical. The second sentence shifts to a flipped chiral molecule, which becomes structurally inverted \"rather than an identical one.\" The blank must mark a contrast between those two behaviors."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "“By contrast,” is the only choice that explicitly marks a shift between opposing behaviors. The other three either suggest restatement, exemplification, or similarity — none appropriate for contrasting two different processes. That matches <strong>Choice B &mdash; by contrast,</strong>."
+      "title": "Reject noncontrast transitions",
+      "content": "Choice A would signal restatement, but the second sentence does not repeat the first. Choice C would make the chiral molecule an example of the achiral molecule, and Choice D would signal similarity. The needed transition marks opposition between identical and inverted outcomes. The answer is <strong>B</strong>."
     }
   ]
 }

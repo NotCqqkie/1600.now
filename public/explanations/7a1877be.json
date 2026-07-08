@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage states the team’s conclusion that nucleobases <strong>formed in space</strong>, not from Earth contamination.<br/><br/>The decisive clue is the <em>need for nucleobases to be absent in the soil sample</em> but present in the meteorite samples.<br/><br/>This absence in soil directly counters the contamination hypothesis."
+      "title": "Use soil as the control",
+      "content": "The team concluded that nucleobases in the meteorite formed in space rather than coming from Earth contamination. The strongest supporting data would show nucleobases present in meteorite samples but absent from the nearby soil."
     },
     {
-      "title": "Match the meaning",
-      "content": "Choice A (&lsquo;Isoguanine and purine were detected in both meteorite samples but not in the soil sample.&rsquo;) shows two nucleobases (Isoguanine and purine) <em>present in both meteorite samples but <strong>not in the soil</strong></em>, directly aligning with the conclusion that they originated in space.<br/><br/>The other three either show presence in soil (which supports contamination) or focus on inconsistencies between meteorite samples rather than soil absence.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Avoid contamination evidence",
+      "content": "Choices B and C include nucleobases detected in soil, which does not support a space-origin conclusion. Choice D only compares two meteorite samples and does not use the soil control. The remaining choice shows compounds in both meteorite samples but not in soil. The answer is <strong>A</strong>."
     }
   ]
 }

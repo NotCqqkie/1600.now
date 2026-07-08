@@ -1,0 +1,15 @@
+{
+  "questionId": "77adcc5a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The condition $f(a)=14$ means that replacing $x$ with $a$ in the function gives $14$.<br/>$$\\frac{a+10}{4}=14$$"
+    },
+    {
+      "title": "Isolate the input",
+      "content": "Multiply by $4$, then subtract $10$.<br/>$$a+10=56$$<br/>$$a=46$$ The answer is <strong>C</strong>."
+    }
+  ]
+}

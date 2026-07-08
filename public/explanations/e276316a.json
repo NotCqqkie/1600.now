@@ -1,0 +1,22 @@
+{
+  "questionId": "e276316a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Factor $7$ from the terms with $x$:<br/>$$7x^2-bx-6=7(x^2-\\frac{b}{7}x)-6$$<br/>Half of $-\\frac{b}{7}$ is $-\\frac{b}{14}$."
+    },
+    {
+      "title": "Balance the added term",
+      "content": "Add and subtract the square inside the expression:<br/>$$7(x-\\frac{b}{14})^2-7(\\frac{b}{14})^2-6$$<br/>Since $7\\cdot\\frac{b^2}{196}=\\frac{b^2}{28}$, this becomes:<br/>$$7(x-\\frac{b}{14})^2-6-\\frac{b^2}{28}$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "You can also choose a positive value such as $b=14$ and compare the original expression with each choice for several $x$-values. The matching choice has the same outputs each time. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[-2,0,1,3]"
+      ]
+    }
+  ]
+}

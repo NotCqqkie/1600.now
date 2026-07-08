@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries (punctuation) question. The blank fills the word that ends one independent clause (&quot;Philosopher Peter Kivy was a leading figure in musical ____&quot;) and the text that follows begins another independent clause (&quot;Kivy's approach to the study of music was decidedly formalist&quot;). Two independent clauses need a correct boundary between them."
+      "title": "Separate the two clauses",
+      "content": "The first independent clause is \"Philosopher Peter Kivy was a leading figure in musical aesthetics.\" The following \"As evidenced by\" phrase introduces support for a second independent clause about Kivy's formalist approach."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;aesthetics as&rsquo;</strong>: Using no punctuation between the two independent clauses creates a run-on sentence — two main clauses fused without any separator. &#10007;</li><li><strong>Choice B &mdash; &lsquo;aesthetics and as&rsquo;</strong>: A coordinating conjunction joining two independent clauses requires a comma before it (&quot;, and&quot;); without that comma, this construction is ungrammatical. &#10007;</li><li><strong>Choice C &mdash; &lsquo;aesthetics, as&rsquo;</strong>: A comma alone between two independent clauses creates a comma splice — a comma cannot mark a sentence boundary without a coordinating conjunction. &#10007;</li><li><strong>Choice D &mdash; &lsquo;aesthetics. As&rsquo;</strong>: A period correctly ends the first independent clause and starts a new sentence, where &quot;As evidenced by...itself&quot; is a properly placed adverbial modifier preceding the main clause about Kivy's formalism. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use a full stop",
+      "content": "Choice A fuses the clauses. Choice B creates an awkward coordination without the needed sentence boundary. Choice C uses a comma splice. A period cleanly ends the first clause and lets the evidence phrase introduce the next sentence. The answer is <strong>D</strong>."
     }
   ]
 }

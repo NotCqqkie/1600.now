@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the 2012 to 2013 percent increase",
-      "content": "The increase was $6,720-6,400=320$ memberships.<br/>$$\\frac{320}{6,400}=0.05=5\\%$$"
+      "title": "Find the first percent increase",
+      "content": "From $2012$ to $2013$, memberships increased from $6{,}400$ to $6{,}720$:<br/>$$\\frac{6{,}720-6{,}400}{6{,}400}=\\frac{320}{6{,}400}=0.05$$<br/>The increase was $5\\%$."
     },
     {
-      "title": "Find the expected 2013 to 2014 percent increase",
-      "content": "The 5% increase was double the next increase, so the expected 2013 to 2014 increase was $5\\% \\div 2=2.5\\%$."
+      "title": "Halve the percent increase",
+      "content": "The $2012$ to $2013$ percent increase was double the $2013$ to $2014$ percent increase, so the expected increase was:<br/>$$\\frac{5\\%}{2}=2.5\\%$$"
     },
     {
-      "title": "Apply the increase to the 2013 value",
-      "content": "A 2.5% increase means multiply by $1.025$:<br/>$$6,720(1.025)=6,888$$<br/>That matches <strong>Choice B &mdash; 6,888</strong>."
+      "title": "Apply the expected increase",
+      "content": "Increase the $2013$ amount by $2.5\\%$:<br/>$$6{,}720(1.025)=6{,}888$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the histogram counts",
-      "content": "Data set A has 50 values. Read each histogram bin and keep a running total:<ul><li><strong>30 to under 40:</strong> 4 players; cumulative total 4</li><li><strong>40 to under 50:</strong> 7 more players; cumulative total 11</li><li><strong>50 to under 60:</strong> 27 more players; cumulative total 38</li><li><strong>60 to under 70:</strong> 12 more players; cumulative total 50</li></ul>The 25th and 26th values both fall after cumulative total 11 and before cumulative total 38, so both are in the 50 to under 60 bin."
+      "title": "Locate the median positions",
+      "content": "Data set A has $50$ values, so its median uses the $25$th and $26$th values. After adding $18$, data set B has $51$ values, so its median is the $26$th value."
     },
     {
-      "title": "Evaluate Statement I",
-      "content": "For 50 values, the median of A is the average of the 25th and 26th values. After adding 18, data set B has 51 values, so its median is the 26th value of B.<br/><br/>Because 18 is smaller than every value in A, it becomes the first value in B. That means the 26th value of B is the old 25th value of A.<br/><br/>But the 25th and 26th values of A are both in the 50 to under 60 bin. They could be equal. If they are equal, the median does not decrease. <strong>Statement I is not guaranteed.</strong>"
+      "title": "Test the median claim",
+      "content": "The added value $18$ is less than every value shown in the histogram, so it becomes the first value in data set B. The $26$th value of B is the old $25$th value of A. Since the old $25$th and $26$th values could be equal, the median is not guaranteed to decrease."
     },
     {
-      "title": "Evaluate Statement II",
-      "content": "Every value in A is at least 30, so the mean of A must be greater than 18. Adding a new value below the current mean pulls the mean down. Since the added value is 18, the mean of B must be less than the mean of A. <strong>Statement II must be true.</strong>"
+      "title": "Test the mean claim",
+      "content": "Every value in data set A is greater than $18$, so the mean of A is greater than $18$. Adding a value below the current mean must decrease the mean."
     },
     {
-      "title": "Combine the results",
-      "content": "Only Statement II is guaranteed, so only II must be true. That confirms <strong>B</strong> is correct."
+      "title": "Combine the statements",
+      "content": "Statement I is not guaranteed, but statement II must be true. The answer is <strong>B</strong>."
     }
   ]
 }

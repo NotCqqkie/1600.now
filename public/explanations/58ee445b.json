@@ -1,0 +1,15 @@
+{
+  "questionId": "58ee445b",
+  "correctAnswer": "42",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent equal parts",
+      "content": "Let $x$ be the length of one of the two equal parts. The three parts add to $137$ centimeters."
+    },
+    {
+      "title": "Solve for one part",
+      "content": "Set up and solve the equation.<br/>$$53+2x=137$$<br/>$$2x=84$$<br/>$$x=42$$<br/>The answer is <strong>42</strong>."
+    }
+  ]
+}

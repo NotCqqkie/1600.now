@@ -1,0 +1,19 @@
+{
+  "questionId": "5ad88106",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the Jupiter weight",
+      "content": "Jupiter's weight is $252.8\\%$ of the Earth weight. Convert the percent to a decimal and multiply:<br/><br/>$$2.528(170.00)=429.76$$"
+    },
+    {
+      "title": "Compare Neptune to Jupiter",
+      "content": "Find what percent the Neptune weight is of the Jupiter weight:<br/><br/>$$\\frac{186.32}{429.76}\\cdot 100=43.35$$"
+    },
+    {
+      "title": "Choose the closest percent",
+      "content": "The closest listed value is $43.35$. The answer is <strong>A</strong>."
+    }
+  ]
+}

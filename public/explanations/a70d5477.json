@@ -1,0 +1,19 @@
+{
+  "questionId": "a70d5477",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the narrative tense",
+      "content": "The passage uses past tense: the rover \"first touched down\" and \"spent over six years\" gathering information. The naming of the rock happened during that completed past period."
+    },
+    {
+      "title": "Reject present-oriented verbs",
+      "content": "B, C, and D use present-oriented verb forms. Those forms break the established past-tense narration."
+    },
+    {
+      "title": "Keep the past tense",
+      "content": "Named is simple past tense, so it fits the surrounding sequence of completed events. The answer is <strong>A</strong>."
+    }
+  ]
+}

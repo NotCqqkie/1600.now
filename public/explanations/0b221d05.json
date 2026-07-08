@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the graph directly",
-      "content": "The question does not ask for the inequality equation. It only asks which ordered pair is in the shaded region, so plot or locate each answer choice on the graph."
+      "title": "Use the shaded region",
+      "content": "The question asks which ordered pair is a solution, so locate each point on the graph and check whether it lies in the shaded region."
     },
     {
-      "title": "Test answer choices",
-      "content": "<ul><li><strong>A</strong> $(-5,-6)$ is outside the shaded region.</li><li><strong>B</strong> $(-2,5)$ is outside the shaded region.</li><li><strong>C</strong> $(1,4)$ is outside the shaded region.</li><li><strong>D</strong> $(6,-2)$ is inside the shaded region.</li></ul>The only plotted choice in the shaded region is $(6,-2)$, so <strong>Choice D &mdash; $\\left(6,-2\\right)$</strong>."
+      "title": "Locate each choice",
+      "content": "Choices A, B, and C are outside the shaded region. The point $(6,-2)$ is inside the shaded region. The answer is <strong>D</strong>."
     }
   ]
 }

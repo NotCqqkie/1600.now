@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Expand the first product",
-      "content": "$$(x-9y)(2x-5y)=2x^2-5xy-18xy+45y^2$$<br/>Combine the $xy$ terms:<br/>$$2x^2-23xy+45y^2$$"
+      "content": "Use distribution on the first product:<br/>$$(x-9y)(2x-5y)=2x^2-5xy-18xy+45y^2$$<br/>$$2x^2-23xy+45y^2$$"
     },
     {
       "title": "Expand the second product",
-      "content": "$$-8y(-2x+5y)=16xy-40y^2$$"
+      "content": "Distribute $-8y$ through the second factor:<br/>$$-8y(-2x+5y)=16xy-40y^2$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$2x^2-23xy+45y^2+16xy-40y^2$$<br/>The $xy$ terms combine to $-7xy$, and the $y^2$ terms combine to $5y^2$. So the equivalent expression is $$2x^2-7xy+5y^2.$$"
-    },
-    {
-      "title": "State the equivalent expression",
-      "content": "The simplified expression is $2x^2-7xy+5y^2$, which is choice B and the correct equivalent form. This final expression keeps the $x^2$ term from the first product and combines the two $xy$ contributions into $-7xy$."
+      "content": "Add the expanded parts:<br/>$$2x^2-23xy+45y^2+16xy-40y^2$$<br/>$$2x^2-7xy+5y^2$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

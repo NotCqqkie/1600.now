@@ -1,0 +1,15 @@
+{
+  "questionId": "c794fa8e",
+  "correctAnswer": "565",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the temperature",
+      "content": "The formula gives the Fahrenheit temperature from the kelvin temperature. Substitute $$h=557.33$$\n$$557.33=\\frac{9(v-273.15)}{5}+32$$"
+    },
+    {
+      "title": "Solve for kelvins",
+      "content": "Undo the operations on $v$ by subtracting $32$, multiplying by $$\\frac{5}{9}$$, then adding $273.15$.\n$$525.33=\\frac{9(v-273.15)}{5}$$\n$$291.85=v-273.15$$\n$$v=565$$\nThe answer is <strong>565</strong>."
+    }
+  ]
+}

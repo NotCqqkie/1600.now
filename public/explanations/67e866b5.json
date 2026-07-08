@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $14{x}^{2}+8x$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Identify like terms",
-      "content": "In $8x^2+6x^2+8x$, the terms $8x^2$ and $6x^2$ are like terms (both have $x^2$). The term $8x$ has a different exponent and is unlike them."
+      "content": "The terms $8x^2$ and $6x^2$ are like terms because they have the same variable part, $x^2$. The term $8x$ has a different variable part, so it cannot be combined with the squared terms. This rules out choices that mix the $x$ and $x^2$ terms."
     },
     {
-      "title": "Combine like terms",
-      "content": "Add the coefficients of the $x^2$ terms and keep $8x$ unchanged:$$8x^2+6x^2+8x=(8+6)x^2+8x=14x^2+8x$$"
-    },
-    {
-      "title": "Eliminate the answer choices",
-      "content": "<ul><li>A) $48x^4+8x$: multiplies the coefficients and adds the exponents, but combining like terms keeps the exponent as $x^2$, not $x^4$.</li><li>B) $8x^2+14x$: adds the $x$ coefficient $8$ to the $x^2$ coefficient $6$, mixing unlike terms.</li><li>C) $22x^5$: treats $8x$ as $8x^2$ and adds all exponents, which is not how like terms combine.</li><li>D) $14x^2+8x$: correctly adds $8+6=14$ for the $x^2$ coefficient and leaves $8x$ alone.</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Combine the coefficients",
+      "content": "Add only the coefficients of the like terms, and leave the unlike term unchanged.<br/>$$8x^2+6x^2+8x=(8+6)x^2+8x=14x^2+8x$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

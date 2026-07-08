@@ -1,0 +1,15 @@
+{
+  "questionId": "3020a86b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Qualify the moonlet success",
+      "content": "NASA successfully altered the orbit of a secondary object, a moonlet. The next clause says scientists have not yet shown that primary objects would be similarly affected, so the transition must qualify or contrast with the previous success."
+    },
+    {
+      "title": "Reject additive transitions",
+      "content": "A signals an example, but the unproven primary-object case is not an example of the moonlet success. C signals similarity, which is exactly what remains unproven. D signals an additional supporting point, but the sentence limits the previous point. The answer is <strong>B</strong>."
+    }
+  ]
+}

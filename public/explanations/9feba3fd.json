@@ -1,0 +1,19 @@
+{
+  "questionId": "9feba3fd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sphere volume",
+      "content": "The volume of a sphere is \n$$\nV=\\frac{4}{3}\\pi r^3\n$$ With radius $4$,\n$$\nV=\\frac{4}{3}\\pi(4)^3\n$$\n$$\nV=\\frac{256\\pi}{3}\n$$"
+    },
+    {
+      "title": "Multiply by density",
+      "content": "Mass equals density times volume.\n$$\n48(\\frac{256\\pi}{3})=16(256\\pi)=4{,}096\\pi\n$$"
+    },
+    {
+      "title": "Match the mass",
+      "content": "The mass is $4{,}096\\pi$ ounces, which is the same as \n$$\n\\frac{4{,}096\\pi}{1}\n$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

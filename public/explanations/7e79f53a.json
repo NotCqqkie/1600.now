@@ -1,0 +1,15 @@
+{
+  "questionId": "7e79f53a",
+  "correctAnswer": "3400",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion factor",
+      "content": "The question gives that $1$ meter equals $100$ centimeters. To convert meters to centimeters, multiply the number of meters by $100$."
+    },
+    {
+      "title": "Convert the length",
+      "content": "For $34$ meters, compute the number of centimeters.\n$$34\\cdot100=3{,}400$$\nThe answer is <strong>3400</strong>."
+    }
+  ]
+}

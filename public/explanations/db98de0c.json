@@ -1,0 +1,15 @@
+{
+  "questionId": "db98de0c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the balanced legacy",
+      "content": "The text first names Nixon's Watergate scandal, then pivots with \"But Nixon's legacy is complex\" to mention the Environmental Protection Agency and health care reform. Its purpose is to weigh both failings and achievements."
+    },
+    {
+      "title": "Reject one-sided purposes",
+      "content": "B claims his reputation improved over time, which the text does not argue. C says his prominence comes from associates, but they are only part of the Watergate context. D catalogs achievements while ignoring the opening discussion of Watergate. The answer is <strong>A</strong>."
+    }
+  ]
+}

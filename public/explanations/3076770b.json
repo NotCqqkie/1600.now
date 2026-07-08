@@ -1,0 +1,19 @@
+{
+  "questionId": "3076770b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read center and radius",
+      "content": "The circle equation is:\n$$\n(x+4)^2+(y-15)^2=144\n$$\nSo the center is $(-4,15)$ and the radius is:\n$$\n\\sqrt{144}=12\n$$"
+    },
+    {
+      "title": "Find possible x-values",
+      "content": "The $x$-coordinate of a point on the circle must be within $12$ units of $-4$:\n$$\n-4-12 \\le a \\le -4+12\n$$\n$$\n-16 \\le a \\le 8\n$$"
+    },
+    {
+      "title": "Choose a value in range",
+      "content": "Among the choices, $-10$ is in the interval from $-16$ to $8$. The answer is <strong>B</strong>."
+    }
+  ]
+}

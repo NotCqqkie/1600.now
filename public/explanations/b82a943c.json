@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for $x$",
-      "content": "From $5x=40$, divide both sides by $5$: $$x=8.$$"
+      "title": "Find one group of x",
+      "content": "The equation $5x=40$ tells the value of five equal groups of $x$. Divide by $5$ to find one group:<br/>$$x=8$$"
     },
     {
-      "title": "Evaluate the requested expression",
-      "content": "The question asks for $6x$, so $$6x=6(8)=48.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The value $48$ is larger than $5x=40$ by one more group of $x=8$. Values from much larger multipliers are too high, and a value below $40$ cannot equal $6x$."
+      "title": "Multiply by six",
+      "content": "The question asks for $6x$, so multiply the value of $x$ by $6$:<br/>$$6x=6(8)=48$$The answer is <strong>B</strong>."
     }
   ]
 }

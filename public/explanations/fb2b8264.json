@@ -1,0 +1,15 @@
+{
+  "questionId": "fb2b8264",
+  "correctAnswer": "39",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input value",
+      "content": "Replace $x$ with $2$ in the function. This keeps the same rule, but evaluates it at the input the question asks for:<br/>$$f(2)=4(2)^3+7$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Compute the power first, then multiply by $4$ and add $7$:<br/>$$f(2)=4(8)+7$$<br/>$$=32+7$$<br/>$$=39$$The answer is <strong>39</strong>."
+    }
+  ]
+}

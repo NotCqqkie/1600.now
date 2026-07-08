@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the graph",
-      "content": "The line passes through $(0,7)$ and $(8,0)$. Its slope is $$m=\\frac{0-7}{8-0}=-\\frac{7}{8}.$$"
-    },
-    {
       "title": "Write the line equation",
-      "content": "Since the line crosses the $y$-axis at $7$, its equation is $$y=-\\frac{7}{8}x+7.$$"
+      "content": "From the graph, the line passes through $(0,7)$ and $(8,0)$. Its slope is<br/>$$\\frac{0-7}{8-0}=-\\frac{7}{8}$$<br/>So the line is<br/>$$y=-\\frac{7}{8}x+7$$"
     },
     {
-      "title": "Use the point $(d,4)$",
-      "content": "Substitute $x=d$ and $y=4$: $$4=-\\frac{7}{8}d+7$$ $$-3=-\\frac{7}{8}d$$ $$d=\\frac{24}{7}.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$\\frac{24}{7}$ is the $x$-coordinate where the line reaches $y=4$, so it matches <strong>C</strong>."
+      "title": "Substitute the point",
+      "content": "The point $(d,4)$ lies on the line, so substitute $x=d$ and $y=4$:<br/>$$4=-\\frac{7}{8}d+7$$<br/>$$-3=-\\frac{7}{8}d$$<br/>$$d=\\frac{24}{7}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

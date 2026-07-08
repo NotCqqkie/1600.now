@@ -1,0 +1,15 @@
+{
+  "questionId": "7bab016f",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the total cost",
+      "content": "Let $m$ be the number of months. The total charge is the $38$ dollar enrollment fee plus $18$ dollars per month.<br/>$$38+18m=182$$"
+    },
+    {
+      "title": "Solve for months",
+      "content": "Subtract $38$, then divide by $18$.<br/>$$18m=182-38=144$$<br/>$$m=\\frac{144}{18}=8$$<br/>The answer is <strong>8</strong>."
+    }
+  ]
+}

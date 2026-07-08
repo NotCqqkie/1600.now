@@ -1,0 +1,19 @@
+{
+  "questionId": "18da7509",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the student's certainty",
+      "content": "The student claims IGF-1 gene variations must account for body-size variance among dog breeds. To undermine that claim, a scientist must show that IGF-1 variation is not the only relevant cause."
+    },
+    {
+      "title": "Reject supportive quotes",
+      "content": "B does not weaken the idea that IGF-1 variants matter. C directly supports the connection between IGF-1 variation and body size. D shifts to whether conclusions apply outside dogs, not whether the student's dog-size claim is too strong."
+    },
+    {
+      "title": "Undercut the sole cause",
+      "content": "The quote saying the IGF-1-related gene is one of multiple size-related genes weakens the claim that those variations must account for the observed variance. The answer is <strong>A</strong>."
+    }
+  ]
+}

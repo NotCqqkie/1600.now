@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use slope-intercept form",
-      "content": "A line with slope $m$ and y-intercept $b$ has equation $y=mx+b$. The graph shows a y-intercept of $7$, so $b=7$."
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ can be written as<br/>$$f(x)=mx+b$$"
     },
     {
-      "title": "Substitute the slope",
-      "content": "The slope is $\\frac{1}{5}$, so the equation is:<br/>$$f(x)=\\frac{1}{5}x+7$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "<strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{5}x+7$</strong> matches both the slope and intercept. <strong>Choice B &mdash; $f \\left(x\\right)=\\frac{1}{5}x+\\frac{1}{7}$</strong> has the wrong intercept, <strong>Choice C &mdash; $f(x)=\\frac{1}{5}x-\\frac{7}{5}$</strong> has intercept $-\\frac{7}{5}$, and <strong>Choice D &mdash; $f \\left(x\\right)=\\frac{1}{5}x-7$</strong> has intercept $-7$. <strong>Choice A &mdash; $f \\left(x\\right)=\\frac{1}{5}x+7$</strong>."
+      "title": "Substitute the values",
+      "content": "The slope is $\\frac{1}{5}$. The point $(0,7)$ is the $y$-intercept, so $b=7$.<br/>$$f(x)=\\frac{1}{5}x+7$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "64b88e58",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match evidence to assumption",
+      "content": "The linguist assumes that \"know\" appears often in written English. Corpus data showing that \"know\" is the eighth most commonly used verb supports that assumption, so the blank needs a word meaning to back up with evidence."
+    },
+    {
+      "title": "Reject mismatched verbs",
+      "content": "Choice B means to require as a logical consequence. Choice C means to reverse or move. Choice D means to disprove, the opposite of what the data does. The remaining word means to support with evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

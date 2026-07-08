@@ -1,0 +1,15 @@
+{
+  "questionId": "cec22fa7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the sentence's support role",
+      "content": "The sentence before the underlined one says other animals also find tools helpful. The underlined sentence gives a concrete case: boxer crabs use stinging anemones to defend against attack."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "Choice A is about humans, but the underlined sentence is about boxer crabs. Choice C claims a frequency comparison that the sentence never makes. Choice D claims boxer crabs are smarter than birds, but the passage does not compare their intelligence. The answer is <strong>B</strong>."
+    }
+  ]
+}

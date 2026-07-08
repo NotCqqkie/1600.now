@@ -1,0 +1,15 @@
+{
+  "questionId": "7cdacad3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal goal-based action",
+      "content": "The first sentence explains Greenidge-Sabral's goal: avoiding harsh synthetic dyes that could harm the environment. The second sentence describes an action she took because of that goal, experimenting with natural dyes."
+    },
+    {
+      "title": "Reject false transitions",
+      "content": "Choice A signals contrast, but the action follows from the goal. Choice B signals a conclusion or summary, which is not the relationship here. Choice C signals correction, but the second sentence does not correct the first. The answer is <strong>D</strong>."
+    }
+  ]
+}

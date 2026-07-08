@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph or substitute",
-      "content": "A fast check is to graph both lines in Desmos and read the intersection. Algebraically, substitute $y=6x+16$ into the second equation.",
+      "title": "Substitute for y",
+      "content": "Use $y=6x+16$ in the second equation.<br/>$$-7x-y=36$$<br/>$$-7x-(6x+16)=36$$",
       "desmosExpressions": [
         "y=6x+16",
         "y=-7x-36"
       ]
     },
     {
-      "title": "Solve for x and y",
-      "content": "$$-7x-(6x+16)=36$$ $$-13x-16=36$$ $$-13x=52$$ $$x=-4$$ Then $$y=6(-4)+16=-8$$"
+      "title": "Solve for x",
+      "content": "Combine like terms and isolate $x$.<br/>$$-13x-16=36$$<br/>$$-13x=52$$<br/>$$x=-4$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The solution is $(-4,-8)$. Substituting gives $-8=6(-4)+16$ and $-7(-4)-(-8)=36$, so choice A (&lsquo;$\\left(-4,-8\\right)$&rsquo;) is correct."
+      "title": "Find the y-coordinate",
+      "content": "Substitute $x=-4$ into $y=6x+16$.<br/>$$y=6(-4)+16=-8$$<br/>So the solution is $(-4,-8)$.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

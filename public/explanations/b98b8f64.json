@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to <em>specify the order</em> in which different government entities were given authority to regulate airline safety. The correct answer must show a clear chronological sequence of transfers &mdash; not just name the agencies, but show who passed authority to whom and when."
+      "title": "Track the authority transfers",
+      "content": "The student wants the order in which government entities received authority to regulate airline safety. The notes show the US Commerce Department had authority first, the CAA received it in 1938, and the FAA received it in 1958."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; The CAA had the authority to regulate safety for US airlines from 1938 until 1958, at which point authority was transferred to the US Commerce Department by Harold P. Navarro.</strong>: Gets the direction of transfer backwards &mdash; authority went from the Commerce Department <em>to</em> the CAA, not the other way around. Also misrepresents Navarro's role. &#10007;</li><li><strong>Choice B &mdash; The FAA, CAA, and the US Commerce Department all had the authority to regulate US airline safety, but they possessed this authority at different times.</strong>: Names all three agencies but never specifies the chronological order of transfers. &#10007;</li><li><strong>Choice C &mdash; The FAA has regulated airline safety since it was established by the US Congress in 1958.</strong>: Only mentions when the FAA started; says nothing about the sequence from Commerce Department to CAA to FAA. &#10007;</li><li><strong>Choice D &mdash; The authority to regulate US airline safety transferred from the US Commerce Department to the CAA in 1938, then from the CAA to the FAA in 1958.</strong>: Lays out the full chronological sequence of transfers with exact years &mdash; precisely what the goal requires. &#10003;</li></ul>That is the correct answer."
+      "title": "Reject incomplete sequences",
+      "content": "A reverses the 1958 transfer and incorrectly credits Navarro. B names the entities but gives no order. C mentions only the FAA and omits the earlier transfers. The correct sentence must show Commerce Department to CAA, then CAA to FAA, with the years. The answer is <strong>D</strong>."
     }
   ]
 }

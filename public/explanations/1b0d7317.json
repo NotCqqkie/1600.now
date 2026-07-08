@@ -1,0 +1,15 @@
+{
+  "questionId": "1b0d7317",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two outputs",
+      "content": "The function is linear, and both given inputs have the same output: $f(0)=9$ and $f(3)=9$. A linear function through those two points has slope $0$."
+    },
+    {
+      "title": "Write the constant function",
+      "content": "A slope of $0$ means the output stays at $9$ for every $x$, so the function is<br/>$$f(x)=9$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5bea2e90",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cone formula",
+      "content": "The volume of a cone is\n$$\nV=\\frac{1}{3}\\pi r^2h\n$$\nHere, $r=4$ and $h=15$."
+    },
+    {
+      "title": "Substitute and simplify",
+      "content": "Compute the volume:\n$$\nV=\\frac{1}{3}\\pi(4)^2(15)=\\frac{1}{3}\\pi(16)(15)=80\\pi\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "757bb810",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the correction",
+      "content": "The first clause says Chaucer did not write in Modern English. The next clause gives the replacement fact: he wrote in Middle English. The transition should signal substitution or correction."
+    },
+    {
+      "title": "Pick the replacement signal",
+      "content": "A signals cause and effect, C signals addition, and D signals similarity. The relationship is not causal, additive, or parallel; the second clause replaces the negated idea with the actual one. The answer is <strong>B</strong>."
+    }
+  ]
+}

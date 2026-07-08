@@ -1,0 +1,15 @@
+{
+  "questionId": "ae8e30c8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the frequency example",
+      "content": "The passage explains that corpora can test a word's incidence in spoken and written English. The example of proving that <em>first</em> is the third most commonly used adjective shows that the blank concerns how widespread or frequent a word is."
+    },
+    {
+      "title": "Choose the frequency word",
+      "content": "Choice B means believable, Choice C means forceful in expression, and Choice D means deeply significant. Those do not describe how often a word appears. <em>Pervasive</em> means widespread or prevalent, matching the corpus example. The answer is <strong>A</strong>."
+    }
+  ]
+}

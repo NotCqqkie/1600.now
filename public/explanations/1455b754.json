@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the sentence structure",
-      "content": "The sentence has a &quot;While&hellip;&quot; contrast: recent scholarship has undermined claims that his works were [blank] other Muslim philosophers. The second half confirms he was located thousands of miles from the center of Islamic thought. The blank describes a claim that scholarship has now undermined — so it must be something scholars previously believed but have now disproven, meaning his works actually did matter to contemporaries despite the geographic distance."
+      "title": "Use the contrast",
+      "content": "The 'While' clause says recent scholarship has undermined claims about Ibn Rushd's works. The rest says his location made the works available far west of the center of Islamic thought, which would support a claim that his influence was limited."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Work through all four choices:<ul><li><strong>Choice A &mdash; controversial among</strong>: &quot;Controversial among&quot; means causing dispute. The passage is about access and influence, not whether his works sparked disagreement. Scholarship undermining this claim would mean his works were not controversial — but the text never raises controversy as the issue. &#10007;</li><li><strong>Choice B &mdash; antagonistic toward</strong>: &quot;Antagonistic toward&quot; means hostile toward. The blank describes Ibn Rushd's works' relationship to other philosophers, not hostility directed at them. The passage does not suggest his works attacked contemporaries. &#10007;</li><li><strong>Choice C &mdash; imitated by</strong>: &quot;Imitated by&quot; would mean other philosophers copied his works. The passage says scholarship undermined this claim, implying scholars found his works were not widely imitated — but the text doesn't address imitation at all. &#10007;</li><li><strong>Choice D &mdash; inconsequential to</strong>: &quot;Inconsequential to&quot; means not significant to. His remote location would logically lead to the claim that his works had no impact on Muslim contemporaries. Recent scholarship undermined that claim by showing his works did matter — exactly the tension the sentence sets up. &#10003;</li></ul>That matches <strong>Choice D &mdash; inconsequential to</strong>."
+      "title": "Choose the limited claim",
+      "content": "A introduces controversy, B introduces hostility, and C introduces imitation; none is raised by the text. The word must name the rejected limited-influence claim, not a new topic about tone, copying, or disagreement. The undermined claim must be that his works were not significant to contemporary Muslim philosophers. The answer is <strong>D</strong>."
     }
   ]
 }

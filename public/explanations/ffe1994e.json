@@ -1,0 +1,15 @@
+{
+  "questionId": "ffe1994e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the opposite-effect clue",
+      "content": "The sentence says Jug found that tilling increased winter wheat yield, but that other crops showed the opposite effect. The completion therefore needs a different crop for which not tilling produced a better yield than tilling."
+    },
+    {
+      "title": "Check the remaining evidence",
+      "content": "Choice B describes a similar association, so it does not show the opposite effect. Choice C gives a range of yields with tilling but no no-tilling comparison. Choice D uses winter wheat and again shows tilling producing more. The rice example is the only one showing no tilling outperforming tilling for another crop. The answer is <strong>A</strong>."
+    }
+  ]
+}

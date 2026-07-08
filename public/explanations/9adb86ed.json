@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the circle radii",
-      "content": "Since $P$ is the center and $Q$ and $R$ lie on the circle, $PQ$ and $PR$ are both radii. Each has length $10$, so the perimeter equation has only $QR$ unknown."
+      "title": "Use the two radii",
+      "content": "Since $P$ is the center and $Q$ and $R$ lie on the circle, $PQ$ and $PR$ are both radii. Each has length $10$."
     },
     {
-      "title": "Identify the radii",
-      "content": "Since $Q$ and $R$ lie on the circle with center $P$ and radius 10 inches, both $PQ$ and $PR$ are radii of the circle. Therefore, $PQ = 10$ and $PR = 10$."
-    },
-    {
-      "title": "Apply the perimeter constraint",
-      "content": "The perimeter of triangle $PQR$ is the sum of all three sides:<br/>$$PQ + PR + QR = 34$$<br/>Substituting the known values:<br/>$$10 + 10 + QR = 34$$<br/>$$20 + QR = 34$$<br/>$$QR = 14$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Use the perimeter",
+      "content": "Let $QR$ be the unknown side.\n$$10+10+QR=34$$\n$$20+QR=34$$\n$$QR=14$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c64b948b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the duration detail",
+      "content": "The student's goal is to indicate how long John Cage's musical piece will last. The relevant note says the performance will last 639 years."
+    },
+    {
+      "title": "Ignore unrelated facts",
+      "content": "B gives the location and current performance status. C says when an organ began playing the piece. D identifies the composer. The sentence that begins with 'Lasting 639 years' directly provides the requested duration. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d7ce46c8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Fit the opening phrase",
+      "content": "The blank begins the introductory phrase before the comma. Because the painting was completed in the past, the phrase needs a past participle that can modify <em>her painting</em> without creating a separate clause."
+    },
+    {
+      "title": "Reject finite verbs",
+      "content": "Choice A is future tense, and Choice C is present tense; neither can start this introductory participial phrase. Choice D is a finite passive verb, so it creates a comma splice before the main clause."
+    },
+    {
+      "title": "Use the participle",
+      "content": "Choice B forms the smooth participial phrase <em>Completed in 1557</em>, which correctly modifies the painting before the main clause says where it can now be found. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the vertex on the parabola",
-      "content": "The vertex of a parabola is its turning point — the lowest point if the parabola opens upward, or the highest point if it opens downward. Looking at the graph, the parabola opens upward and reaches its minimum at the lowest point on the curve."
+      "title": "Locate the turning point",
+      "content": "The vertex of a quadratic graph is its turning point. On the shown graph, the parabola opens upward, so the vertex is the lowest point."
     },
     {
-      "title": "Read the coordinates from the graph",
-      "content": "The lowest point of the parabola occurs where $x = 0$ (on the y-axis, where the parabola is symmetric) and $y = 2$ (reading from the y-axis scale). Therefore, the vertex is at $(0, 2)$. That confirms <strong>C</strong> is correct."
+      "title": "Read the coordinates",
+      "content": "The lowest point is on the y-axis at $x=0$ and has y-coordinate $2$. So the vertex is $(0,2)$.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

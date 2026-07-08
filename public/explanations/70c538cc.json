@@ -1,0 +1,22 @@
+{
+  "questionId": "70c538cc",
+  "correctAnswer": "16,12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product property",
+      "content": "The equation is already factored:\n$$\n(x-16)(x-12)(x+7)(x+13)=0\n$$\nA product equals $0$ when at least one factor equals $0$."
+    },
+    {
+      "title": "Find the positive roots",
+      "content": "Set the factors equal to $0$. The equations $x-16=0$, $x-12=0$, $x+7=0$, and $x+13=0$ give the roots $16$, $12$, $-7$, and $-13$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "A graphing tool can also show the $x$-intercepts of\n$$\n(x-16)(x-12)(x+7)(x+13)=0\n$$\nThe comma separates the two roots; it is not the number $1612$. The answer is <strong>16,12</strong>.",
+      "desmosExpressions": [
+        "(x-16)(x-12)(x+7)(x+13)=0"
+      ]
+    }
+  ]
+}

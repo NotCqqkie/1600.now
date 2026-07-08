@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Decode the function parameters",
-      "content": "The function $P(t) = 24.6(1.038)^t$ has:<ul><li>Input $t$ = <strong>years after 1987</strong></li><li>Output $P(t)$ = <strong>population in millions</strong></li></ul>"
+      "title": "Identify the input meaning",
+      "content": "In the model, $t$ is the number of years after $1987$. Therefore $t=7$ means $7$ years after $1987$."
     },
     {
-      "title": "Interpret the value $P(7) = 31.94$",
-      "content": "The statement $P(7) \\approx 31.94$ means that when $t = 7$, the population is 31.94 million.<br/><br/>Since $t = 7$ corresponds to 7 years after 1987, we conclude: <strong>7 years after 1987, the predicted population is approximately 31.94 million.</strong> That matches <strong>Choice C &mdash; $7$ years after $1987$, the predicted population of this country was approximately $31.94$ million.</strong>."
+      "title": "Identify the output meaning",
+      "content": "The output $P(t)$ is the predicted population in millions. So the statement means that when $t=7$, the predicted population was about $31.94$ million.\n\nThe answer is <strong>C</strong>."
     }
   ]
 }

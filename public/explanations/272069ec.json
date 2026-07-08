@@ -1,0 +1,19 @@
+{
+  "questionId": "272069ec",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the target value",
+      "content": "Set $C(t)$ equal to the target estimate, $269$: $$269=260(\\frac{41}{40})^{t-18}+9$$"
+    },
+    {
+      "title": "Isolate the power",
+      "content": "Subtract $9$, then divide by $260$: $$260=260(\\frac{41}{40})^{t-18}$$ $$1=(\\frac{41}{40})^{t-18}$$"
+    },
+    {
+      "title": "Use the zero exponent",
+      "content": "A positive base equals $1$ when the exponent is $0$, so $t-18=0$. Therefore, $t=18$. The answer is <strong>18</strong>."
+    }
+  ]
+}

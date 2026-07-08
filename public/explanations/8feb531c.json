@@ -1,0 +1,19 @@
+{
+  "questionId": "8feb531c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the equations",
+      "content": "Divide the second equation by $3$.<br/>$$\\frac{12x+21y=33}{3}$$<br/>This gives<br/>$$4x+7y=11$$<br/>So both equations represent the same line."
+    },
+    {
+      "title": "Parameterize the line",
+      "content": "Let $x=r$ and solve $4x+7y=11$ for $y$.<br/>$$4r+7y=11$$<br/>$$y=-\\frac{4r}{7}+\\frac{11}{7}$$"
+    },
+    {
+      "title": "Write the point",
+      "content": "The point that works for every real number $r$ is<br/>$$(r,-\\frac{4r}{7}+\\frac{11}{7})$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

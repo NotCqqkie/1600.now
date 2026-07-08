@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the passage for what the blank must mean",
-      "content": "The passage says diadromous fish can be ______ euryhaline fish because they are fundamentally different: diadromous fish actually migrate to a different biome; euryhaline fish merely tolerate salinity without relocating. The blank must mean &quot;set apart from&quot; or &quot;distinguished from.&quot;"
+      "title": "Mark the category boundary",
+      "content": "Diadromous fish migrate between freshwater and marine biomes as part of their life cycle. Euryhaline fish can tolerate high salinity but do not necessarily relocate to a different biome. The blank should mean distinguished or separated from."
     },
     {
-      "title": "Test each choice against that meaning",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;demarcated from&rsquo;</strong>: &quot;demarcated from&quot; means clearly separated or set apart by a boundary &mdash; exactly what the contrast in the passage requires. &#10003;</li><li><strong>Choice B &mdash; &lsquo;reconstituted as&rsquo;</strong>: &quot;reconstituted as&quot; means reformed or reshaped into something new; the passage never says diadromous fish transform into anything. &#10007;</li><li><strong>Choice C &mdash; &lsquo;conflated with&rsquo;</strong>: &quot;conflated with&quot; means merged or treated as the same; the passage is drawing a distinction, not merging the two groups. &#10007;</li><li><strong>Choice D &mdash; &lsquo;derived from&rsquo;</strong>: &quot;derived from&quot; means originating from; the passage says nothing about one group coming from the other. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Choose separation, not mixing",
+      "content": "Choice B means remade into something else. Choice C means treated as the same, the opposite of the contrast. Choice D means originating from another group, which the passage never claims. The remaining phrase means clearly set apart. The answer is <strong>A</strong>."
     }
   ]
 }

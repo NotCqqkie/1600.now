@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the area formula for a square",
-      "content": "For a square with side length $s$, the area is $A = s^2$. We need to find the area when $s = 65$ cm."
+      "title": "Use the square area formula",
+      "content": "The area of a square is the side length squared. With side length $65$ centimeters,\n$$\nA=65^2\n$$"
     },
     {
-      "title": "Calculate 65 squared",
-      "content": "Expand using the perfect square pattern $(60 + 5)^2$:<br/>$$65^2 = 60^2 + 2(60)(5) + 5^2 = 3600 + 600 + 25 = 4225 \\text{ cm}^2$$<br/><strong>C</strong> is correct."
+      "title": "Square the side length",
+      "content": "Compute the square:\n$$\n65^2=4{,}225\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

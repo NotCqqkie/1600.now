@@ -1,0 +1,15 @@
+{
+  "questionId": "7cee5bbd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Set up the surprise",
+      "content": "The underlined portion states what readers might expect: plants cannot grow on Mars. The word <em>but</em> then overturns that expectation with findings that several plant species grew in simulated Martian soil."
+    },
+    {
+      "title": "Reject unrelated functions",
+      "content": "<strong>Choice A</strong> claims a distinction between species, but the sentence gives a general expectation. <strong>Choice C</strong> invents confusion about the hypothesis. <strong>Choice D</strong> invents an objection to the method. The answer is <strong>B</strong>."
+    }
+  ]
+}

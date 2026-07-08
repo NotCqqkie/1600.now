@@ -1,0 +1,15 @@
+{
+  "questionId": "37290fa8",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cancel the common factor",
+      "content": "The condition $k\\gt -5$ means $k+5$ is not zero, so the common factor can be canceled:<br/>$$\\frac{32(k+5)}{4(k+5)}=\\frac{32}{4}$$"
+    },
+    {
+      "title": "Find the constant",
+      "content": "Simplify the remaining fraction:<br/>$$\\frac{32}{4}=8$$<br/>The answer is <strong>8</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "Before the blank is an independent clause: &quot;Researchers studying magnetosensation have determined why some soil-dwelling roundworms in the Southern Hemisphere move in the opposite direction of Earth&apos;s magnetic field when searching for food.&quot; After the blank is another independent clause: &quot;in the Northern Hemisphere, the magnetic field points down...but in the Southern Hemisphere, it points up, toward the surface and away from worms&apos; food sources.&quot; The task is to choose punctuation that correctly joins two independent clauses where the second explains the first."
+      "title": "Identify the needed boundary",
+      "content": "The first part says roundworms move in opposite directions when searching for food. The next part explains why: Earth's magnetic field points down in the Northern Hemisphere but up in the Southern Hemisphere."
     },
     {
-      "title": "Apply the punctuation rule for explanation",
-      "content": "A colon can join two independent clauses when the second elaborates on or explains the first. Here, the magnetic field information <em>explains</em> why the worms move opposite to the field when searching for food&mdash;because field orientation differs between hemispheres.<br/><br/><ul><li><strong>A:</strong> Colon correctly joins two independent clauses and signals that the second explains the first.</li><li><strong>B:</strong> A comma cannot join two independent clauses on its own&mdash;that creates a comma splice.</li><li><strong>C:</strong> &quot;while&quot; turns the second clause into a subordinate clause, but the resulting sentence is awkward and redundant since &quot;when searching for&quot; already establishes the temporal frame.</li><li><strong>D:</strong> No punctuation between two independent clauses produces a run-on sentence.</li></ul>"
+      "title": "Use explanation punctuation",
+      "content": "Choice B creates a comma splice between independent clauses. Choice C uses while even though the second clause explains the first instead of showing a simultaneous action. Choice D leaves the two clauses without a proper boundary. The answer is <strong>A</strong>."
     }
   ]
 }

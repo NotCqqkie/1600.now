@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the tangent ratio",
+      "content": "Angle $N$ is right, so relative to angle $L$, side $MN$ is opposite and side $LN$ is adjacent.<br/>$$\\tan L=\\frac{MN}{LN}=\\frac{9}{40}$$"
     },
     {
-      "title": "Set up the tangent ratio",
-      "content": "In right triangle LMN with the right angle at N, angle L is one of the acute angles. From angle L's perspective:<ul><li>Opposite side: $MN$</li><li>Adjacent side: $LN$</li></ul>Therefore:<br/>$$\\tan L = \\frac{MN}{LN} = \\frac{9}{40}$$"
+      "title": "Find the adjacent side",
+      "content": "Substitute $MN=27$ into the tangent ratio.<br/>$$\\frac{27}{LN}=\\frac{9}{40}$$<br/>$$9(LN)=27\\cdot40$$<br/>$$LN=120$$"
     },
     {
-      "title": "Find LN, then use the Pythagorean triple",
-      "content": "Since $MN = 27$ and $\\frac{MN}{LN} = \\frac{9}{40}$:<br/>$$\\frac{27}{LN} = \\frac{9}{40} \\implies LN = \\frac{27 \\cdot 40}{9} = 120$$<br/>The legs are now in ratio $27: 120 = 9: 40$. This is the <strong>9-40-41 Pythagorean triple</strong>. With scale factor $k = 3$, the hypotenuse is $LM = 41 \\cdot 3 = 123$."
-    },
-    {
-      "title": "Calculate the perimeter",
-      "content": "Adding all three sides:<br/>$$120 + 27 + 123 = 270$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Find the perimeter",
+      "content": "The legs are in the $9$-$40$-$41$ right-triangle ratio, scaled by $3$, so the hypotenuse is $123$. Add the side lengths.<br/>$$27+120+123=270$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

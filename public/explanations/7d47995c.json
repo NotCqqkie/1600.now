@@ -1,0 +1,15 @@
+{
+  "questionId": "7d47995c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the interval",
+      "content": "A margin of error of $0.3$ ounce around the estimate $11.74$ ounces gives<br/>$$11.74-0.3=11.44$$<br/>and<br/>$$11.74+0.3=12.04$$"
+    },
+    {
+      "title": "Interpret the estimate",
+      "content": "The plausible values for the average weight of all bags are between $11.44$ ounces and $12.04$ ounces. The answer is <strong>A</strong>."
+    }
+  ]
+}

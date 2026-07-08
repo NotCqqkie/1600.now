@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute to form a quadratic equation",
-      "content": "Since $y = x^2$ and $x + y = 20$, substitute the parabola into the linear equation:<br/>$$x + x^2 = 20$$<br/>$$x^2 + x - 20 = 0$$"
+      "title": "Substitute for the variable",
+      "content": "Since $y=x^2$, substitute into the other equation:\n$$\nx+x^2=20\n$$"
     },
     {
-      "title": "Factor and identify the answer",
-      "content": "Factoring: $(x + 5)(x - 4) = 0$ gives $x = -5$ or $x = 4$. Only $x = 4$ appears among the choices. <strong>D</strong> is correct."
+      "title": "Factor the quadratic",
+      "content": "$$\nx^2+x-20=0\n$$\n$$\n(x+5)(x-4)=0\n$$"
+    },
+    {
+      "title": "Choose the listed value",
+      "content": "The possible $x$-values are $-5$ and $4$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "00b21d11",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the two relationships",
+      "content": "The ribbon parts add to $132$, and $x$ is $12$ more than $4$ times $y$:<br/>$$x+y=132$$<br/>$$x=4y+12$$"
+    },
+    {
+      "title": "Substitute and solve",
+      "content": "Replace $x$ in the total-length equation:<br/>$$(4y+12)+y=132$$<br/>$$5y=120$$<br/>$$y=24$$"
+    },
+    {
+      "title": "Find the longer part",
+      "content": "Use $x=4y+12$:<br/>$$x=4(24)+12=96+12=108$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

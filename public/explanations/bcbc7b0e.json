@@ -1,0 +1,15 @@
+{
+  "questionId": "bcbc7b0e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the mechanism sentence",
+      "content": "The first sentence states that <em>Paxillus panuoides</em> fungi are associated with alder trees. The next thought explains the mechanism: by forming mycorrhizal relations, the organisms can create nutrient exchange networks."
+    },
+    {
+      "title": "Avoid fused clauses",
+      "content": "A and B attach by forming mycorrhizal relations awkwardly to the first sentence and do not create a clean boundary. D leaves That is as a fragment before the parenthetical. A period after trees lets the next sentence explain the mechanism clearly. The answer is <strong>C</strong>."
+    }
+  ]
+}

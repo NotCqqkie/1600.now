@@ -1,0 +1,19 @@
+{
+  "questionId": "11807e3e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the evidence changed",
+      "content": "The basking shark had been classified as a full ectotherm. Researchers then showed that its body temperature is consistently warmer than the surrounding water, which directly undermines that classification. The blank should describe a position that can no longer be defended."
+    },
+    {
+      "title": "Reject unrelated meanings",
+      "content": "Choice A describes a grieving person, not a scientific position. Choice C would mean the classification became clearer, but the evidence weakens it. Choice D means unexpected, which could describe the finding but not the status of the classification."
+    },
+    {
+      "title": "Choose the defensibility word",
+      "content": "The remaining word means unable to be maintained or defended, which fits a classification contradicted by new temperature evidence. The answer is <strong>B</strong>."
+    }
+  ]
+}

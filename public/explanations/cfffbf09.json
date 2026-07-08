@@ -1,0 +1,15 @@
+{
+  "questionId": "cfffbf09",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare averages and outliers",
+      "content": "The meta-analysis found observable differences between exposed and unexposed animals in every study. On average, mammal studies showed larger differences than bird studies. But the passage also says that for every animal class examined, there were individual studies with differences well above the average for mammals. That means the class averages do not prevent overlap among individual studies."
+    },
+    {
+      "title": "Infer the overlap",
+      "content": "Choice A discusses whether studies labeled effects as harmful, which the passage never addresses. Choice B reverses the average comparison by saying effects are likely more pronounced for birds than mammals overall. Choice C speculates about the Ellis-Grant dwarf mongoose study's position relative to an average. If some bird studies were well above the mammal average, then those bird studies had larger effects than at least some mammal studies. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the multiplier for a percentage increase",
-      "content": "A quantity that is <em>40% greater</em> than the original equals 100% of the original plus 40%. This is 140% of the original amount, which we express as a multiplier: 1.40. This single multiplication is faster than computing the increase and adding it separately."
+      "title": "Use the increase multiplier",
+      "content": "A $40\\%$ increase means the new amount is $140\\%$ of the old amount. As a multiplier, that is $1.40$."
     },
     {
-      "title": "Multiply the original number of plants by the multiplier",
-      "content": "Maya had 45 plants last year. This year the number is:<br/>$$45 \\times 1.40 = 63$$<br/>Maya has <strong>63 plants</strong> in her garden this year."
+      "title": "Multiply the old amount",
+      "content": "Maya had $45$ plants last year, so multiply by the increase multiplier:<br/>\\[45(1.40)=63\\]<br/>The answer is <strong>63</strong>."
     }
   ]
 }

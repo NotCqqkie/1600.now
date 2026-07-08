@@ -1,0 +1,15 @@
+{
+  "questionId": "b2277e4a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the deposits",
+      "content": "Priya starts with $720$ dollars. By the end of the $6$th week, she has made $6$ weekly deposits of $50$ dollars each."
+    },
+    {
+      "title": "Calculate the balance",
+      "content": "$$\n720+6(50)=720+300=1{,}020\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

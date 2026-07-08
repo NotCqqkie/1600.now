@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x+3y=29$$<br/>$$3y=11$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Use the known term",
+      "content": "The second equation gives $3y$ directly:<br/>$$3y=11$$<br/>So substitute $11$ for $3y$ in the first equation."
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Use $x+3y=29$:<br/>$$x+11=29$$<br/>$$x=29-11$$<br/>The answer is <strong>18</strong>.",
       "desmosExpressions": [
         "x+3y=29",
         "3y=11"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$18$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

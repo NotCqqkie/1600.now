@@ -1,0 +1,15 @@
+{
+  "questionId": "e879bdfd",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero output",
+      "content": "The table row with $f(-9)=0$ is quickest. For a fraction to equal $0$, the numerator must equal $0$ while the denominator is not $0$."
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute $x=-9$ into the numerator.<br/>$$kx+45=0$$<br/>$$-9k+45=0$$<br/>$$-9k=-45$$<br/>$$k=5$$ The answer is <strong>5</strong>."
+    }
+  ]
+}

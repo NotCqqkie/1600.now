@@ -1,0 +1,19 @@
+{
+  "questionId": "5a431f87",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the repeated expression",
+      "content": "Let $u=3-5x$. The equation becomes<br/>$$4u+5u+8=8u+3$$"
+    },
+    {
+      "title": "Solve for the group",
+      "content": "Combine like terms and isolate $u$.<br/>$$9u+8=8u+3$$<br/>$$u=-5$$<br/>So $3-5x=-5$."
+    },
+    {
+      "title": "Transform the expression",
+      "content": "The requested expression is the opposite of $3-5x$.<br/>$$5x-3=-(3-5x)=-(-5)=5$$<br/>The answer is <strong>5</strong>."
+    }
+  ]
+}

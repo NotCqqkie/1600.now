@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage states “evaluations varied widely depending on which occupation was being considered.” The example must compare different occupations to demonstrate this variation."
+      "title": "Look for wide variation",
+      "content": "The sentence needs an example showing that participants' judgments changed greatly depending on the occupation. A strong example should compare two occupations with very different ratings."
     },
     {
-      "title": "Match the contrast across occupations",
-      "content": "<strong>82% of participants believe that it is somewhat or very likely that a robot could work effectively as a tour guide, but only 16% believe that it is somewhat or very likely that a robot could work as a surgeon.</strong> presents tour guide at 82% likely versus surgeon at only 16% likely—a dramatic difference between occupations that directly illustrates the variation.<br/><br/>Two other options provide single-occupation data without comparison, while B highlights matching percentages rather than variation.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Choose the strongest contrast",
+      "content": "The tour guide and surgeon comparison shows a large gap in likely ratings, directly illustrating variation by occupation. A and D stay within one occupation, and B highlights equal neutral percentages instead of variation. The answer is <strong>C</strong>."
     }
   ]
 }

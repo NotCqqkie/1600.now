@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Relate q to t",
-      "content": "The original model uses $t$ in <strong>years</strong>. Since there are 4 quarters per year, $q$ quarters equals $t = \\frac{q}{4}$ years."
+      "title": "Convert quarters to years",
+      "content": "The original model uses $t$ in years. Since $4$ quarter years make $1$ year, $q$ quarter years equals\n$$\nt=\\frac{q}{4}\n$$"
     },
     {
-      "title": "Substitute into the original equation",
-      "content": "Replace $t$ with $\\frac{q}{4}$ in $M = 2200 \\times 1.03^{t}$:<br/>$$M = 2200 \\times (1.03)^{q/4}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $M = 2200 \\times (1.03)^{q/4}$ &mdash; matches the substitution since $t = q/4$. Correct.</li><li><strong>B)</strong> $M = 2200 \\times (1.03)^{4q}$ &mdash; would mean $t = 4q$, treating each quarter as 4 years. Wrong.</li><li><strong>C)</strong> $M = 2200 \\times (1.0075)^{4q}$ &mdash; uses a different base 1.0075 with exponent $4q$, giving $(1.0075)^{4} \\approx 1.0303$ per quarter cycle of 4, not the correct per-quarter growth. Wrong.</li><li><strong>D)</strong> $M = 2200 \\times (1.126)^{q}$ &mdash; treats each quarter as a full year of growth at rate 12.6%, which contradicts the 3% annual rate. Wrong.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Substitute into the model",
+      "content": "Replace $t$ with \n$$\n\\frac{q}{4}\n$$ in the original equation.\n$$\nM=2{,}200(1.03)^t\n$$\n$$\nM=2{,}200(1.03)^{\\frac{q}{4}}\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

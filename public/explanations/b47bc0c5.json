@@ -1,0 +1,15 @@
+{
+  "questionId": "b47bc0c5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the unique-benefits clue",
+      "content": "The passage says hDNA offers unique benefits, including the ability to determine the biogeographical origins of organisms. That supports a claim about special insights hDNA can provide, even though it is often degraded and underused."
+    },
+    {
+      "title": "Avoid unsupported limits",
+      "content": "Choice A invents a comparison with other DNA of the same age. Choice B says hDNA is controversial, but the passage says it is underused because it is degraded. Choice C limits its value mainly to mammal research, which is not stated. The remaining choice captures the idea of unique genomic insights. The answer is <strong>D</strong>."
+    }
+  ]
+}

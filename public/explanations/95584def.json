@@ -1,0 +1,19 @@
+{
+  "questionId": "95584def",
+  "correctAnswer": "9240",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cube the unit conversion",
+      "content": "The conversion is linear, but volume is three-dimensional. Since $1$ inch is $2.54$ centimeters, $1$ cubic inch is\n$$(2.54)^3$$\ncubic centimeters."
+    },
+    {
+      "title": "Convert the volume",
+      "content": "Multiply the given volume in cubic inches by the cubic conversion factor.\n$$563.84(2.54)^3$$"
+    },
+    {
+      "title": "Round the result",
+      "content": "Evaluating the expression gives $9{,}239.68$ cubic centimeters, which rounds to the nearest whole number. The answer is <strong>9240</strong>."
+    }
+  ]
+}

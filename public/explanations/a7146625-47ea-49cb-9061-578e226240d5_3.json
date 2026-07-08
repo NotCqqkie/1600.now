@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate each fact",
-      "content": "$x$ = length, $y$ = height. <br/><br/>\"Height is 61 inches\" → $y = 61$.<br/>\"Length is 3 times its height\" → $x = 3y$."
+      "title": "Translate height",
+      "content": "The variable $y$ represents the height. Since the height is $61$ inches, one equation is<br/>$$y=61$$"
     },
     {
-      "title": "Match the system",
-      "content": "System: $\\{x = 3y,\\ y = 61\\}$.<br/><br/>A and B reverse the relationship ($y = 3x$ would mean height is 3× length). C uses $x = 61$, conflating length with the given height value.<br/><br/>That is the correct answer."
+      "title": "Translate length",
+      "content": "The variable $x$ represents the length. Since the length is $3$ times the height, the other equation is<br/>$$x=3y$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

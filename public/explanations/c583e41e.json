@@ -1,0 +1,20 @@
+{
+  "questionId": "c583e41e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circle form",
+      "content": "A circle with center $(h,k)$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>With center $(-6,1)$, substitute $h=-6$ and $k=1$ directly to get<br/>$$(x+6)^2+(y-1)^2=r^2$$",
+      "formula": "$$(x - h)^2 + (y - k)^2 = r^2$$"
+    },
+    {
+      "title": "Find the radius value",
+      "content": "Substitute the point $(-2,4)$ into the left side.<br/>$$(-2+6)^2+(4-1)^2=4^2+3^2$$<br/>$$=16+9=25$$<br/>So $r^2=25$."
+    },
+    {
+      "title": "Match the circle equation",
+      "content": "The equation is $(x+6)^2+(y-1)^2=25$. The answer is <strong>D</strong>."
+    }
+  ]
+}

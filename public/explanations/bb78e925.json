@@ -1,0 +1,16 @@
+{
+  "questionId": "bb78e925",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary angles",
+      "content": "In a right triangle, the two non-right angles are complementary. The problem states that $$A+B=90^\\circ$$, so\n$$B=90^\\circ-A$$",
+      "formula": "$$\\sin A = \\cos(90^{\\circ} - A)$$"
+    },
+    {
+      "title": "Match sine and cosine",
+      "content": "The cosine of an angle equals the sine of its complement. Therefore\n$$\\cos B=\\cos(90^\\circ-A)=\\sin A$$\nSince $$\\sin A=\\frac{\\sqrt{7}}{4}$$, the same value equals $\\cos B$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f65c6afd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep title with noun",
+      "content": "The quoted title \"Little Marie\" directly identifies the hit song. No punctuation is needed between a noun and the title that identifies it."
+    },
+    {
+      "title": "Reject interrupting punctuation",
+      "content": "B inserts an unnecessary comma between \"song\" and its title. C uses a colon after a phrase that is not an independent clause. D uses a semicolon, which cannot connect a noun phrase to its title. No punctuation fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the shaded region directly",
-      "content": "The question asks which ordered pair is a solution to the graphed inequality. A solution is any point that lands inside the shaded region, so there is no need to write the boundary equation."
+      "title": "Use the shaded region",
+      "content": "A solution to the graphed inequality is any ordered pair that lies in the shaded region."
     },
     {
-      "title": "Check each plotted choice",
-      "content": "<ul><li><strong>A</strong> $\\left(0,-4\\right)$ is below the boundary and outside the shaded region.</li><li><strong>B</strong> $\\left(0,4\\right)$ is on the wrong side of the shaded region.</li><li><strong>C</strong> $\\left(-4,0\\right)$ is outside the shaded region.</li><li><strong>D</strong> $\\left(4,0\\right)$ is inside the shaded region.</li></ul>"
-    },
-    {
-      "title": "Find the solution point",
-      "content": "Only $\\left(4,0\\right)$ is represented by a point in the shaded region. That confirms <strong>D</strong> is correct."
+      "title": "Check the listed points",
+      "content": "From the graph, $(0,-4)$, $(0,4)$, and $(-4,0)$ are outside the shaded region. The point $(4,0)$ is inside the shaded region.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammar rule at stake",
-      "content": "The blank follows an opening participial phrase: &ldquo;Fortifying soil in arid ecosystems against erosion, ______&rdquo;. A participial phrase must immediately precede the noun it modifies &mdash; so the subject of the main clause must be the thing doing the fortifying. Biocrusts fortify soil, so the subject must be &ldquo;biocrusts&rdquo; or a synonym like &ldquo;these crusts.&rdquo;"
+      "title": "Match the modifier to its subject",
+      "content": "The opening phrase “Fortifying soil in arid ecosystems against erosion” describes what biocrusts do. The subject that follows the comma must therefore be “these crusts,” not a study, an estimate, or a reduction."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>\"a recent study's estimate is that these crusts reduce global dust emissions by 60 percent each year.\"</strong>: The subject is &ldquo;a recent study&rsquo;s estimate,&rdquo; not biocrusts &mdash; a study estimate does not fortify soil. &#10007;</li><li><strong>\"an estimated 60 percent reduction in global dust emissions each year is due to these crusts, according to a recent study.\"</strong>: The subject is &ldquo;an estimated 60 percent reduction,&rdquo; which cannot fortify soil. &#10007;</li><li><strong>\"these crusts reduce global dust emissions by an estimated 60 percent each year, according to a recent study.\"</strong>: The subject is &ldquo;these crusts,&rdquo; which logically fortifies soil &mdash; the participial phrase attaches correctly. &#10003;</li><li><strong>\"a recent study has estimated that these crusts reduce global dust emissions by 60 percent each year.\"</strong>: The subject is &ldquo;a recent study,&rdquo; which cannot fortify soil. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate misplaced subjects",
+      "content": "Choice A makes “a recent study’s estimate” do the fortifying. Choice B makes “an estimated 60 percent reduction” do the fortifying. Choice D makes “a recent study” do the fortifying. The only choice that places “these crusts” after the modifier is grammatically logical. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question-and-answer structure",
-      "content": "The passage opens with a direct question—“Were penguins always flightless?”—and the underlined sentence immediately answers it. Miriam Chen's claim that penguins “could fly at some point, but that they lost that ability more than 60 million years ago” directly responds to that opening question."
+      "title": "Answer the opening question",
+      "content": "The passage opens by asking whether penguins were always flightless. The underlined sentence immediately answers by saying Miriam Chen and her team argue that penguins could once fly but lost that ability as they adapted to marine life."
     },
     {
-      "title": "Match the function to the answer",
-      "content": "<strong>Choice C &mdash; It provides an answer to the question in the previous sentence.</strong> correctly identifies this as an answer to the preceding question.<br/><br/>The other choices misidentify the function: some describe elements not present in the sentence (a defined term, a contradiction), while others mischaracterize it as noting absent research rather than presenting research findings.<br/><br/>That matches <strong>Choice C &mdash; It provides an answer to the question in the previous sentence.</strong>."
+      "title": "Reject unsupported functions",
+      "content": "Choice A says the sentence defines a scientific term, which it does not. Choice B says it contradicts the following sentence, but the following sentence supports it with fossil and genetic evidence. Choice D says the question has not been researched, while the sentence presents a research claim. The answer is <strong>C</strong>."
     }
   ]
 }

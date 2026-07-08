@@ -1,0 +1,22 @@
+{
+  "questionId": "fa30a6f2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the multiplier",
+      "content": "The equation $d=15t$ gives distance in terms of time. The coefficient of $t$ is the constant rate of change."
+    },
+    {
+      "title": "Apply the units",
+      "content": "The coefficient is $15$. Since distance is measured in inches and time is measured in seconds, the rate is $15$ inches per second."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing $y=15x$ shows a line with slope $15$, so the matching rate is $15$ inches per second. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=15x"
+      ]
+    }
+  ]
+}

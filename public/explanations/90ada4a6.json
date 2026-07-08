@@ -1,0 +1,15 @@
+{
+  "questionId": "90ada4a6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the coefficient",
+      "content": "The equation $6x+5=17$ is linear, and the coefficient of $x$ is $6$, which is not $0$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "A linear equation with a nonzero coefficient has exactly one solution. Solving confirms this:<br/>$$6x+5=17$$<br/>$$6x=12$$<br/>$$x=2$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the four consecutive odd integers",
-      "content": "Since the first is $x$, and consecutive odd integers differ by 2:<ul><li>1st: $x$</li><li>2nd: $x+2$</li><li>3rd: $x+4$</li><li>4th: $x+6$</li></ul>"
+      "title": "Write the odd integers",
+      "content": "Consecutive odd integers differ by $2$. If the first integer is $x$, then the four integers are $$x,\\quad x+2,\\quad x+4,\\quad x+6$$"
     },
     {
-      "title": "Translate the constraint to an inequality",
-      "content": "Breaking down: <em>The product of 9 and the fourth is at most 18 less than the sum of the first and third.</em><ul><li>Product of 9 and the fourth: $\\left(9\\right)(x+6)$</li><li>Sum of first and third: $x+(x+4)$</li><li>18 less than that sum: $x+(x+4)-18$</li><li>Is at most means: $\\le$</li></ul>Write the inequality:<br/>$$9(x+6) \\le x+(x+4)-18$$<br/>That matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Translate the comparison",
+      "content": "The fourth integer is $x+6$, so the product of $9$ and the fourth integer is $9(x+6)$. The sum of the first and third, with $18$ subtracted, is $x+(x+4)-18$."
+    },
+    {
+      "title": "Use at most",
+      "content": "The phrase at most means less than or equal to, so the inequality is $$9(x+6)\\le x+(x+4)-18$$ The answer is <strong>A</strong>."
     }
   ]
 }

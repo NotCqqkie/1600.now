@@ -1,0 +1,15 @@
+{
+  "questionId": "fea6f5f0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the appositive",
+      "content": "The phrase \"the International Criminal Police Organization\" renames Interpol. Because the phrase is opened with an em dash after \"Interpol,\" it needs a matching closing dash before the sentence continues with \"in 1961.\""
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "B uses a colon, which does not match the opening dash. C uses a comma, creating inconsistent punctuation around the appositive. D leaves the appositive unclosed, so the reader cannot clearly see where the parenthetical phrase ends. The answer is <strong>A</strong>."
+    }
+  ]
+}

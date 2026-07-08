@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the two needed points",
-      "content": "January 13 is 2 days after January 11, so use $x=2$. January 15 is 4 days after January 11, so use $x=4$. From the scatterplot, the corresponding flight times are $(2,6)$ and $(4,15)$."
+      "title": "Read the two points",
+      "content": "January $13$ is $2$ days after January $11$, and January $15$ is $4$ days after January $11$. From the scatterplot, the points are $(2,6)$ and $(4,15)$."
     },
     {
-      "title": "Fit a line through the two points",
-      "content": "For average rate of change, use the slope between the two points: $$m=\\frac{Delta y}{Delta x}=4.5.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The flight time increased by $15-6=9$ hours over $4-2=2$ days, so the average rate of change is $9/2=4.5$ hours per day. The answer is <strong>4.5</strong>."
+      "title": "Find the average rate",
+      "content": "Average rate of change is slope between the two points.\n$$\\frac{15-6}{4-2}=\\frac{9}{2}$$\n$$\\frac{9}{2}=4.5$$\nThe answer is <strong>4.5</strong>."
     }
   ]
 }

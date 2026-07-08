@@ -1,0 +1,19 @@
+{
+  "questionId": "a5095eb9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the noun phrase",
+      "content": "The sentence is describing what Wole Soyinka and Olga Tokarczuk were granted. The blank must complete the phrase <em>the most prestigious award for a person of letters</em> and then introduce the specific award named at the end: <em>the Nobel Prize in Literature</em>. The punctuation has to keep <em>award for a person of letters</em> together before introducing that name."
+    },
+    {
+      "title": "Reject misplaced separators",
+      "content": "<strong>Choice A</strong>, <em>award for a person of letters;</em>, uses a semicolon before <em>the Nobel Prize in Literature</em>, but that phrase is not an independent clause. <strong>Choice B</strong>, <em>award: for a person of letters</em>, puts the colon too early and splits the noun phrase. <strong>Choice D</strong>, <em>award; for a person of letters.</em>, separates the phrase with a semicolon and then cuts off the named prize with a period."
+    },
+    {
+      "title": "Use the colon after the phrase",
+      "content": "<strong>Choice C</strong>, <em>award for a person of letters:</em>, completes the full noun phrase before the colon. The colon then introduces <em>the Nobel Prize in Literature</em> as the specific example of that prestigious award. This keeps the grammar intact and makes the final noun phrase explain what the award is. The answer is <strong>C</strong>."
+    }
+  ]
+}

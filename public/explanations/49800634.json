@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the slope",
-      "content": "From the table, the line passes through $(-18,-48)$ and $(7,52)$. The slope is $$m=(52-(-48))/(7-(-18))=100/25=4.$$"
+      "content": "From the table, the line passes through $(-18,-48)$ and $(7,52)$. The slope is\n$$\n\\frac{52-(-48)}{7-(-18)}=\\frac{100}{25}=4\n$$"
     },
     {
-      "title": "Write the line",
-      "content": "Use $y=4x+b$ and the point $(7,52)$: $$52=4(7)+b$$ $$52=28+b$$ $$b=24$$ So the line is $y=4x+24$."
+      "title": "Write the equation",
+      "content": "Use $y=4x+b$ and substitute $(7,52)$:\n$$\n52=4(7)+b\n$$\n$$\n52=28+b\n$$\n$$\nb=24\n$$\nSo the line is $y=4x+24$."
     },
     {
-      "title": "Evaluate at the given x-value",
-      "content": "The point $(1/7,a)$ is on the line, so $$a=4(1/7)+24=4/7+168/7=172/7.$$ <strong>D</strong> is correct."
+      "title": "Evaluate the given point",
+      "content": "The point $(\\frac{1}{7},a)$ is on the line, so\n$$\na=4(\\frac{1}{7})+24\n$$\n$$\na=\\frac{4}{7}+\\frac{168}{7}=\\frac{172}{7}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

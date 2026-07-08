@@ -1,0 +1,19 @@
+{
+  "questionId": "501ca148",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the budget inequality",
+      "content": "Let $n$ be the number of attendees. The total cost must not exceed $240$:<br/>$$35+9.75n\\le 240$$"
+    },
+    {
+      "title": "Solve for attendees",
+      "content": "Subtract $35$ and divide by $9.75$:<br/>$$9.75n\\le 205$$<br/>$$n\\le 21.03$$"
+    },
+    {
+      "title": "Use a whole number",
+      "content": "The greatest whole number that does not exceed $21.03$ is $21$. The answer is <strong>21</strong>."
+    }
+  ]
+}

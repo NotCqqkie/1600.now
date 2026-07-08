@@ -1,0 +1,19 @@
+{
+  "questionId": "5f3c1ee9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the expressions",
+      "content": "Use the given definitions of $a$ and $b$.\n$$a-b=(7k+4r)-(10k-11r+5)$$"
+    },
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtract every term in the second expression. The negative sign changes $-11r$ to $+11r$ and $+5$ to $-5$.\n$$7k+4r-10k+11r-5$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Combine the $k$-terms and the $r$-terms.\n$$(7k-10k)+(4r+11r)-5$$\n$$-3k+15r-5$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

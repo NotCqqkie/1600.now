@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "Sentence 1: Sierra Leone's urbanization rose 2015–2020. Sentence 2: West Africa's urbanization rose <em>over the same five-year period</em>. The two facts are <strong>simultaneous and parallel</strong>."
+      "title": "Compare the two statements",
+      "content": "The first sentence gives Sierra Leone's rise in urbanization from 2015 to 2020. The second sentence broadens that same trend to West Africa as a whole during the same period."
     },
     {
-      "title": "Match the transition",
-      "content": "The logical relationship is simultaneous sequence: Sierra Leone's urbanization rose 2015–2020, and West Africa's urbanization also rose over that same five-year period — two parallel facts happening at the same time. The blank needs a transition signaling simultaneity.\n<ul>\n<li><strong>Choice A &mdash; &lsquo;In other words,&rsquo;</strong>: signals restatement of the same idea, so fails — the second sentence adds a new regional fact, not a paraphrase. ✗</li>\n<li><strong>Choice B &mdash; &lsquo;Eventually,&rsquo;</strong>: signals a later time, so fails — the two trends are simultaneous, not sequential. ✗</li>\n<li><strong>Choice C &mdash; &lsquo;Concurrently,&rsquo;</strong>: means \"at the same time,\" fitting perfectly — both trends happened during the same 2015–2020 window. ✓</li>\n<li><strong>Choice D &mdash; &lsquo;For example,&rsquo;</strong>: signals that sentence 2 is a specific instance of sentence 1, so fails — West Africa's trend is a parallel fact, not an example of Sierra Leone's. ✗</li>\n</ul>\nThat confirms <strong>C</strong> is correct."
+      "title": "Test the transition",
+      "content": "A signals simultaneity but does not frame the regional sentence as a reworded broader statement. B would make the regional trend an example of Sierra Leone's trend, which reverses the scale. D signals a later development. The needed transition presents the second sentence as a restatement of the trend. The answer is <strong>C</strong>."
     }
   ]
 }

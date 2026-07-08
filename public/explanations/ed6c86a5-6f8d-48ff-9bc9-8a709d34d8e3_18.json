@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the shift",
-      "content": "The graph shown is $y=f(x)+2$. So $f(x)=y-2$, where $y$ is the displayed function. Reading the displayed graph, $y=-4^x + 7$."
+      "title": "Use the vertical shift",
+      "content": "Because the graph shows $y=f(x)+4$, subtract $4$ from the graphed function to recover $f(x)$."
     },
     {
-      "title": "Subtract 2",
-      "content": "$$f(x) = (-4^x + 7) - 2 = -4^x + 5$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Subtract four",
+      "content": "The graph has vertical shift $9$, so\n$$\nf(x)=-6^x+9-4=-6^x+5\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

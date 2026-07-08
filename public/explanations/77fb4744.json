@@ -1,0 +1,15 @@
+{
+  "questionId": "77fb4744",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle sum",
+      "content": "The angles of a triangle add to $180^\\circ$. Since angle $G$ measures $112^\\circ$, the other two angles must add to $68^\\circ$.<br/>$$180^\\circ-112^\\circ=68^\\circ$$"
+    },
+    {
+      "title": "Find the possible measure",
+      "content": "Angle $H$ must be greater than $0^\\circ$ and less than $68^\\circ$, because angle $I$ also needs a positive measure. Among the choices, only $67^\\circ$ is less than $68^\\circ$. The answer is <strong>D</strong>."
+    }
+  ]
+}

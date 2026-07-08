@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set equations equal and isolate x²",
-      "content": "To find where the graphs intersect, set the equations equal:<br/>$$bx^2 - d = b + d$$<br/>$$bx^2 = b + 2d$$<br/>$$x^2 = \\frac{b + 2d}{b}$$"
+      "title": "Set the equations equal",
+      "content": "Intersection points have the same $y$-value on both graphs.<br/>$$bx^2-d=b+d$$"
     },
     {
-      "title": "Determine the number of solutions",
-      "content": "Since $b \\gt  0$ and $d \\gt  0$, the right side $\\frac{b + 2d}{b}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k \\gt  0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches the correct answer - <strong>C</strong> is correct."
+      "title": "Isolate the square",
+      "content": "Solve for $x^2$.<br/>$$bx^2=b+2d$$<br/>$$x^2=\\frac{b+2d}{b}$$"
+    },
+    {
+      "title": "Count the intersections",
+      "content": "Since $b>0$ and $d>0$, the value $\\frac{b+2d}{b}$ is positive. An equation of the form $x^2=k$ with $k>0$ has two distinct real solutions. The answer is <strong>C</strong>."
     }
   ]
 }

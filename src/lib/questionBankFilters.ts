@@ -1,16 +1,17 @@
 export const MAX_TIME_SPENT_FILTER_SECONDS = 180;
+export const MIN_SCORE_BAND = 1;
+export const MAX_SCORE_BAND = 10;
 
-const DIFFICULTY_FILTER_VALUES = ["easy", "medium", "hard"] as const;
 const ACTIVE_QUESTION_FILTER_VALUES = ["all", "active", "exclude-active"] as const;
 const TRI_STATE_FILTER_VALUES = ["all", "yes", "no"] as const;
 const DEFAULT_TIME_SPENT_RANGE: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS];
+const DEFAULT_SCORE_BAND_RANGE: [number, number] = [MIN_SCORE_BAND, MAX_SCORE_BAND];
 
-type DifficultyFilterValue = typeof DIFFICULTY_FILTER_VALUES[number];
 type ActiveQuestionFilterValue = typeof ACTIVE_QUESTION_FILTER_VALUES[number];
 type TriStateFilterValue = typeof TRI_STATE_FILTER_VALUES[number];
 
 export interface QuestionBankFilters {
-  difficulty: DifficultyFilterValue[];
+  scoreBandRange: [number, number];
   timeSpentRange: [number, number];
   activeQuestions: ActiveQuestionFilterValue;
   markedForReview: TriStateFilterValue;
@@ -19,7 +20,7 @@ export interface QuestionBankFilters {
 }
 
 export const createDefaultQuestionBankFilters = (): QuestionBankFilters => ({
-  difficulty: [],
+  scoreBandRange: [...DEFAULT_SCORE_BAND_RANGE],
   timeSpentRange: [...DEFAULT_TIME_SPENT_RANGE],
   activeQuestions: "all",
   markedForReview: "all",
@@ -40,14 +41,27 @@ const normalizeListValue = <T extends string>(
   ? value as T
   : fallback;
 
-const normalizeDifficulty = (
+const normalizeScoreBandRange = (
   value: unknown,
-  fallback: DifficultyFilterValue[],
-): DifficultyFilterValue[] => Array.isArray(value)
-  ? value.filter((item): item is DifficultyFilterValue =>
-    typeof item === "string" && DIFFICULTY_FILTER_VALUES.includes(item as DifficultyFilterValue),
-  )
-  : [...fallback];
+  fallback: [number, number],
+): [number, number] => {
+  if (!Array.isArray(value) || value.length !== 2) return [...fallback];
+
+  const [rawMin, rawMax] = value;
+  if (
+    typeof rawMin !== "number" ||
+    typeof rawMax !== "number" ||
+    !Number.isFinite(rawMin) ||
+    !Number.isFinite(rawMax)
+  ) {
+    return [...fallback];
+  }
+
+  const clamp = (n: number) => Math.max(MIN_SCORE_BAND, Math.min(MAX_SCORE_BAND, Math.round(n)));
+  const min = clamp(rawMin);
+  const max = clamp(rawMax);
+  return min <= max ? [min, max] : [max, min];
+};
 
 const normalizeTimeSpentRange = (
   value: unknown,
@@ -76,7 +90,7 @@ export const normalizeQuestionBankFilters = (
 ): QuestionBankFilters => {
   const source = isRecord(value) ? value : {};
   return {
-    difficulty: normalizeDifficulty(source.difficulty, fallback.difficulty),
+    scoreBandRange: normalizeScoreBandRange(source.scoreBandRange, fallback.scoreBandRange),
     timeSpentRange: normalizeTimeSpentRange(source.timeSpentRange, fallback.timeSpentRange),
     activeQuestions: normalizeListValue(
       source.activeQuestions,
@@ -98,7 +112,8 @@ export const normalizeQuestionBankFilters = (
 };
 
 export const hasActiveQuestionBankFilters = (filters: QuestionBankFilters): boolean =>
-  filters.difficulty.length > 0 ||
+  filters.scoreBandRange[0] !== DEFAULT_SCORE_BAND_RANGE[0] ||
+  filters.scoreBandRange[1] !== DEFAULT_SCORE_BAND_RANGE[1] ||
   filters.timeSpentRange[0] !== DEFAULT_TIME_SPENT_RANGE[0] ||
   filters.timeSpentRange[1] !== DEFAULT_TIME_SPENT_RANGE[1] ||
   filters.activeQuestions !== "all" ||

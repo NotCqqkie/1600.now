@@ -1,0 +1,15 @@
+{
+  "questionId": "1cbb3984",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the competition rule",
+      "content": "For ten million years after the dinosaur extinction, mammals' bodies grew faster than their brains because resources were abundant and competition was moderated. The text then says competition tends to favor intelligence and large, complex brains."
+    },
+    {
+      "title": "Predict the later shift",
+      "content": "Choice B invents a starvation effect. Choice C returns to niche adaptation from the earlier low-competition period. Choice D says body size gained an advantage, but the stated rule says competition favors brains. As population numbers grew and competition intensified, brain size would increase relative to body size. The answer is <strong>A</strong>."
+    }
+  ]
+}

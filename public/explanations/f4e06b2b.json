@@ -1,0 +1,19 @@
+{
+  "questionId": "f4e06b2b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Subtract $2$ from both sides.<br/>$$|8-x|=72$$"
+    },
+    {
+      "title": "Find both solutions",
+      "content": "Split the absolute value equation into two cases.<br/>$$8-x=72$$<br/>$$x=-64$$<br/>$$8-x=-72$$<br/>$$x=80$$"
+    },
+    {
+      "title": "Add the solutions",
+      "content": "Add the two values of $x$.<br/>$$-64+80=16$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

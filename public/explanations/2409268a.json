@@ -1,0 +1,15 @@
+{
+  "questionId": "2409268a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two ships",
+      "content": "Both the <em>Dreadnought</em> and the <em>Royal George</em> had three decks. But only the <em>Royal George</em> was ranked first-rate, so having three decks was not enough by itself."
+    },
+    {
+      "title": "Draw only the proven claim",
+      "content": "Choice A wrongly gives the non-first-rate <em>Dreadnought</em> a first-rate crew range. Choice B is contradicted by the <em>Dreadnought</em>. Choice C invents a crew need beyond 875. The supported conclusion is that three decks did not always mean first-rate status. The answer is <strong>D</strong>."
+    }
+  ]
+}

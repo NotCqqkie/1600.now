@@ -1,0 +1,15 @@
+{
+  "questionId": "1bb151bb",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function equal",
+      "content": "The question asks when $f(x)=180$. Since the function is defined by $f(x)=45x$, set the expression equal to $180$: $$45x=180$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Divide both sides by $45$ to isolate $x$: $$x=\\frac{180}{45}$$ $$x=4$$ The answer is <strong>4</strong>."
+    }
+  ]
+}

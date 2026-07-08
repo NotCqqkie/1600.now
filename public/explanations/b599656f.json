@@ -1,0 +1,21 @@
+{
+  "questionId": "b599656f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the means",
+      "content": "From the frequency table, the original total weight is\n$$13(12)+14(10)+15(3)+16(5)+17(7)+18(12)+19(13)+20(9)=1{,}183$$\nThe original mean is\n$$\\frac{1{,}183}{71}$$\nwhich is about $16.66$. After adding $32$, the new mean is\n$$\\frac{1{,}183+32}{72}=\\frac{1{,}215}{72}$$\nwhich is about $16.88$. So the mean increases.",
+      "desmosExpressions": [
+        "W=[13,14,15,16,17,18,19,20]",
+        "F=[12,10,3,5,7,12,13,9]",
+        "\\operatorname{total}\\left(W*F\\right)/\\operatorname{total}\\left(F\\right)",
+        "(\\operatorname{total}\\left(W*F\\right)+32)/(\\operatorname{total}\\left(F\\right)+1)"
+      ]
+    },
+    {
+      "title": "Compare the medians",
+      "content": "With $71$ values, the original median is the $36$th value. The cumulative count reaches $37$ at weight $17$, so the original median is $17$. After adding $32$, the new data set has $72$ values; the middle values are the $36$th and $37$th, which are still both $17$. The median stays the same. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "92787674",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the right side",
+      "content": "Use the common denominator $prs$:\n$$\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}$$\n$$\\frac{1}{q}=\\frac{rs}{prs}+\\frac{ps}{prs}+\\frac{pr}{prs}$$\n$$\\frac{1}{q}=\\frac{pr+ps+rs}{prs}$$"
+    },
+    {
+      "title": "Take the reciprocal",
+      "content": "Invert both sides to solve for $q$. Because all the variables are positive, taking reciprocals preserves the equivalent relationship between the two sides:\n$$q=\\frac{prs}{pr+ps+rs}$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

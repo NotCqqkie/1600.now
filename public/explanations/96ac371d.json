@@ -1,0 +1,15 @@
+{
+  "questionId": "96ac371d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the Thailand challenge",
+      "content": "The farm-size transition hypothesis predicts that modernization pressures cause smaller farms to combine into larger commercial farms. The student wants both a claim about whether that hypothesis applies to Thailand and support for the claim. The Thailand-specific notes from Promkhambut and colleagues say small rice farms in Thailand have adopted modern farming methods without significant scaling-up, and that their persistence is a response to modernization rather than a failure or incomplete transition."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A says the hypothesis is inconsistent with Thai rice farming, but it does not clearly include the evidence that Thai farms stayed small while modernizing. Choice B contradicts Promkhambut and colleagues by saying Thai farms expanded in size. Choice C only reports Masters and colleagues' broad statement about Asia and does not address Thailand. The supported claim is that the predicted shift to large-scale farming may not hold for Thai rice farms. The answer is <strong>D</strong>."
+    }
+  ]
+}

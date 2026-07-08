@@ -1,0 +1,15 @@
+{
+  "questionId": "eebcd6fa",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon definition",
+      "content": "The colon introduces a definition of the blank: the Nile River delta is a constantly evolving network whose channels and land strips change in size and shape. The word must mean active or changing."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "Choice A means unchanging, which directly contradicts the definition. Choice B implies no equal, but no comparison is made. Choice C concerns long-term maintenance, not constant physical change. The change-focused word fits. The answer is <strong>D</strong>."
+    }
+  ]
+}

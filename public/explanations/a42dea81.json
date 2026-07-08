@@ -1,0 +1,15 @@
+{
+  "questionId": "a42dea81",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the name with the title",
+      "content": "The subject is the noun phrase \"American drummer Dennis Chambers.\" The job title and name identify one person and should flow directly into the verb phrase \"may be best known.\""
+    },
+    {
+      "title": "Rule out comma breaks",
+      "content": "A, C, and D all introduce commas that either split the title from the name or separate the subject from its verb. The sentence needs no punctuation inside the subject. The answer is <strong>B</strong>."
+    }
+  ]
+}

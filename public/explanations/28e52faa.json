@@ -1,0 +1,15 @@
+{
+  "questionId": "28e52faa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the concession",
+      "content": "Old Faithful seems inhospitable to life because of boiling eruptions, but Chen says it is almost a cradle for biodiversity. The transition must signal that the second sentence is true despite the first impression."
+    },
+    {
+      "title": "Reject result and restatement",
+      "content": "Choice A signals result, not contrast. Choice C signals a more specific example of the prior idea, but the second sentence reverses the expectation. Choice D signals restatement, which does not fit. The answer is <strong>B</strong>."
+    }
+  ]
+}

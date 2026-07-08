@@ -1,0 +1,19 @@
+{
+  "questionId": "df18260e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the line value",
+      "content": "From $y+3=0$, the line is $y=-3$. Substitute into the quadratic equation:<br/>$$-3=2x^2-20x+54$$<br/>$$2x^2-20x+57=0$$"
+    },
+    {
+      "title": "Check the discriminant",
+      "content": "Use the discriminant to count real intersections:<br/>$$(-20)^2-4(2)(57)=400-456=-56$$"
+    },
+    {
+      "title": "Count the real solutions",
+      "content": "Because the discriminant is negative, the quadratic has no real solutions, so the system has no solutions. The answer is <strong>D</strong>."
+    }
+  ]
+}

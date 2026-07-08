@@ -1,0 +1,16 @@
+{
+  "questionId": "d953f526",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use triangle area",
+      "content": "The area of a triangle is one-half the product of its base and height. Here, the base is $54$ centimeters and the height is $84$ centimeters, so substitute those two measurements into the triangle area formula.",
+      "formula": "$$A = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$"
+    },
+    {
+      "title": "Substitute and multiply",
+      "content": "Use base $54$ and height $84$. Half of $54$ is $27$, which makes the multiplication smaller before finding the area:<br/>$$A=\\frac{1}{2}\\cdot 54\\cdot 84$$<br/>$$A=27\\cdot 84=2{,}268$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

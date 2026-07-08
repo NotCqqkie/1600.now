@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the relationship between the two sentences",
-      "content": "Sentence 1: selenium was isolated in 1817, the same year scientists discovered it &mdash; isolation was immediate. Sentence 2: molybdenum&apos;s isolation took longer, happening three years after discovery. The two timelines are opposed."
+      "title": "Find the logical relationship",
+      "content": "Selenium was isolated in the same year it was discovered. Molybdenum was isolated three years after it was discovered. The second sentence therefore contrasts with the first instead of giving a result, example, or similarity."
     },
     {
-      "title": "Pick the transition that signals opposition",
-      "content": "We need a transition that flags a contrast between &quot;isolated the same year&quot; and &quot;isolated three years after discovery.&quot;"
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; By contrast,</strong>: directly signals opposition between the two isolation timelines. &#10003;</li><li><strong>Choice B &mdash; Thus,</strong>: signals consequence &mdash; selenium&apos;s quick isolation is not a cause of molybdenum&apos;s slow isolation. Misread of the logical link. &#10007;</li><li><strong>Choice C &mdash; Similarly,</strong>: signals likeness &mdash; same-year and three-years-later are opposites, not parallels. &#10007;</li><li><strong>Choice D &mdash; For instance,</strong>: signals exemplification &mdash; molybdenum is not an example of selenium&apos;s quick isolation; it is the opposite case. &#10007;</li></ul>That is the correct answer."
+      "title": "Pick a contrast transition",
+      "content": "Choice B signals a consequence, but selenium's timeline did not cause molybdenum's. Choice C signals similarity, and Choice D signals an example; neither fits opposing timelines. A contrast transition is needed. The answer is <strong>A</strong>."
     }
   ]
 }

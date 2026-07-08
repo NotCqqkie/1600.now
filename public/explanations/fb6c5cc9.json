@@ -1,0 +1,19 @@
+{
+  "questionId": "fb6c5cc9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check corresponding angles",
+      "content": "In similar triangles, corresponding angles are congruent. Since $J$ corresponds to $M$ and angle $J$ measures $34^\\circ$, angle $M$ must also measure $34^\\circ$. Statement I must be true."
+    },
+    {
+      "title": "Check corresponding sides",
+      "content": "Corresponding side lengths in similar triangles are proportional, but they are not necessarily equal. Since the scale factor is unknown, $MN$ does not have to equal $7$. Statement II is not guaranteed."
+    },
+    {
+      "title": "Select the true statements",
+      "content": "Only Statement I must be true. The answer is <strong>A</strong>."
+    }
+  ]
+}

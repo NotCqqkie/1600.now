@@ -1,0 +1,15 @@
+{
+  "questionId": "dd22eb49",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a sample contrast",
+      "content": "The student wants to contrast the two samples, so the choice must state a difference between the NiTi wire sample and the spandex rubber sample. The notes give multiple possible details, but the relevant sentence must directly compare the two samples rather than define torsional heating or describe a shared outcome."
+    },
+    {
+      "title": "Reject shared or general facts",
+      "content": "A says both samples increased in surface temperature, which is a similarity. B defines torsional heating without contrasting the samples. C says the researchers studied both samples, but it does not identify a difference between them. Only the thickness comparison fulfills the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

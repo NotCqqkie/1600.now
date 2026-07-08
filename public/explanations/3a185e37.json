@@ -1,0 +1,19 @@
+{
+  "questionId": "3a185e37",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict the sample space",
+      "content": "Given at least $10$ years of age, count only those rows: $40+40=80$ participants."
+    },
+    {
+      "title": "Count group A",
+      "content": "In those rows, group A has $18+7=25$ participants."
+    },
+    {
+      "title": "Compute the probability",
+      "content": "The conditional probability is\n$$\n\\frac{25}{80}=\\frac{5}{16}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

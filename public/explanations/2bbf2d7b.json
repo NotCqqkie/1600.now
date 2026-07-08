@@ -1,0 +1,15 @@
+{
+  "questionId": "2bbf2d7b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the general pattern",
+      "content": "The student wants a generalization about circumnavigations, so the answer should state a broad pattern drawn from the notes. The notes give that pattern directly: most circumnavigations include land stops. They also give two examples, Moreau and Kowalska, showing that some circumnavigations can be nonstop."
+    },
+    {
+      "title": "Reject lists and definitions",
+      "content": "A lists two sailors and their boats without making a broader claim. B lists two sailors and adds the term <em>circumnavigations</em>. D only defines the term. None of those choices turns the notes into a general pattern with an exception. The answer is <strong>C</strong>."
+    }
+  ]
+}

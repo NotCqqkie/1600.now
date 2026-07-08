@@ -1,0 +1,19 @@
+{
+  "questionId": "df5a7801",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the main claim",
+      "content": "The question asks what the author would most likely agree with about Vancouver's high number of pedestrian amenities. The passage warns that other cities cannot increase pedestrian traffic simply by copying one Vancouver feature associated with walkability. It then says many factors influence walking decisions and that no single factor fully explains pedestrian habits in a city."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "Choice A invents a claim that amenities reduce walkability in other cities. Choice B invents a causal direction by saying amenities are an effect rather than a cause of Vancouver's pedestrian traffic. Choice C ranks amenities below demographic characteristics and commuting distance, but the passage lists those as examples of factors and never compares their relative influence."
+    },
+    {
+      "title": "Choose the multifactor view",
+      "content": "Choice D says Vancouver's high number of pedestrian amenities should be understood as just one of several factors that influence pedestrian activity in Vancouver. That matches the passage's main point: amenities may matter, but they cannot by themselves fully explain pedestrian habits. The answer is <strong>D</strong>."
+    }
+  ]
+}

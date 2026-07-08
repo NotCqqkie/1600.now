@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the probability",
-      "content": "$$P(\\text{at least 45}) = \\frac{\\text{members aged 45 or older}}{\\text{total members}}$$"
+      "content": "$$P(\\text{at least }45)=\\frac{\\text{members at least }45}{\\text{total members}}$$"
     },
     {
-      "title": "Read totals from the table",
-      "content": "From the table, the total number of members is $135$, and the number aged $45$ or older (summed across north and south) is $105$.<br/>$$P = \\frac{105}{135}$$<br/>That is the correct answer."
+      "title": "Use the table totals",
+      "content": "The table gives $107$ members at least $45$ years old out of $135$ total members.<br/>$$P=\\frac{107}{135}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

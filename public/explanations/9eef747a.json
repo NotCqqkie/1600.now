@@ -1,0 +1,15 @@
+{
+  "questionId": "9eef747a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute zero for x",
+      "content": "The $y$-intercept occurs when $x=0$. Evaluate $f(0)$.<br/>$$f(0)=(-4)(2)^0+25$$"
+    },
+    {
+      "title": "Compute the intercept",
+      "content": "Since $2^0=1$, simplify the expression.<br/>$$f(0)=(-4)(1)+25=21$$<br/>The point is $(0,21)$, which is the required intercept. The answer is <strong>A</strong>."
+    }
+  ]
+}

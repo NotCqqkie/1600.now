@@ -1,0 +1,15 @@
+{
+  "questionId": "ea661b7f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply the clause's main verb",
+      "content": "The blank is the main verb in the clause \"that New York City's Museum of Modern Art (MoMA) ______ a vast collection.\" The subject is singular, so the clause needs a finite singular verb."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "A is a participle, so it cannot serve as the main verb by itself. B is an infinitive. C is also an infinitive phrase. Only a finite verb completes the clause and agrees with the singular subject. The answer is <strong>D</strong>."
+    }
+  ]
+}

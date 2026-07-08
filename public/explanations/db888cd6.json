@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The y-intercept is the point where the curve crosses the y-axis, which occurs at $x = 0$. From the graph, the curve passes through the point $(0, 9)$, so the y-intercept is $9$."
+      "title": "Read the intercept",
+      "content": "The $y$-intercept occurs when $x=0$. From the graph, the intercept value is $9$."
     },
     {
-      "title": "Interpret x = 0 and the units of y in context",
-      "content": "Since $x$ represents the number of years since the end of 1992, the value $x = 0$ corresponds to the end of 1992.<br/><br/>The variable $y$ is given in thousands of catalogs. Therefore, the y-intercept value of $9$ means 9 thousand catalogs, which equals $9 \\times 1000 = 9,000$ catalogs.<br/><br/>The y-intercept represents the estimated number of catalogs sent at the end of 1992, which was 9,000.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Interpret the units",
+      "content": "Since $x=0$ means the end of $1992$, the intercept refers to that year. The $y$-values are in thousands of catalogs, so $9$ means $9{,}000$ catalogs."
+    },
+    {
+      "title": "Choose the interpretation",
+      "content": "The statement must describe the estimated number of catalogs sent at the end of $1992$ as $9{,}000$. The answer is <strong>D</strong>."
     }
   ]
 }

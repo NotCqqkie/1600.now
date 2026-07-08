@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the given relationship by substitution",
-      "content": "We're given $v = 6w$ and need to find what $3v$ equals. Substitute the relationship directly into the expression:<br/>$$3v = 3(6w)$$"
+      "title": "Substitute for the variable",
+      "content": "The question gives $v=6w$ and asks for $3v$. Replace $v$ with $6w$ in that expression:<br/>$$3v=3(6w)$$"
     },
     {
-      "title": "Multiply to get the answer",
-      "content": "Multiply the coefficient 3 by the expression in parentheses:<br/>$$3(6w) = 18w$$<br/>This confirms <strong>A</strong> is correct."
+      "title": "Multiply the factors",
+      "content": "Now multiply the coefficients:<br/>$$3(6w)=18w$$<br/>So $3v$ is equivalent to $18w$. The answer is <strong>A</strong>."
     }
   ]
 }

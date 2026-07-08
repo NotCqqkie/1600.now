@@ -1,0 +1,23 @@
+{
+  "questionId": "aa812aee",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find x from the first equation",
+      "content": "Solve the first equation for $x$.<br/>$$10x=110$$<br/>$$x=11$$"
+    },
+    {
+      "title": "Substitute into the second equation",
+      "content": "Use $x=11$ in the second equation to find $y$.<br/>$$y=8(11)-86$$<br/>$$y=88-86$$<br/>$$y=2$$"
+    },
+    {
+      "title": "Graph as a check",
+      "content": "The two equations intersect at the same ordered pair found by substitution, and its $y$-coordinate is $2$. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "10x=110",
+        "8x-86=y"
+      ]
+    }
+  ]
+}

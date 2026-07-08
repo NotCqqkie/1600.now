@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use the cylinder volume formula",
-      "content": "For a cylinder, $V=\\pi r^2h$. Substitute the given volume $64\\pi$ and height $4$, then solve for the positive radius."
+      "content": "The volume of a cylinder is $V=\\pi r^2h$. Substitute $64\\pi$ for the volume and $4$ for the height.<br/>$$64\\pi=\\pi r^2(4)$$"
     },
     {
-      "title": "Apply the cylinder volume formula",
-      "content": "The volume of a cylinder is $V = \\pi r^2 h$. Substituting the given values $V = 64\\pi$ and $h = 4$:<br/>$$64\\pi = \\pi r^2(4)$$"
-    },
-    {
-      "title": "Isolate and solve for r",
-      "content": "Divide both sides by $4\\pi$:<br/>$$r^2 = \\frac{64\\pi}{4\\pi} = 16$$<br/>Taking the positive square root:<br/>$$r = \\sqrt{16} = 4$$<br/>That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Solve for the positive radius",
+      "content": "Divide by $4\\pi$, then take the positive square root because a radius is positive.<br/>$$r^2=\\frac{64\\pi}{4\\pi}=16$$<br/>$$r=4$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

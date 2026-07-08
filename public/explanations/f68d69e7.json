@@ -1,0 +1,16 @@
+{
+  "questionId": "f68d69e7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle form",
+      "content": "A circle written in standard form has center $(h,k)$ and radius $r$.",
+      "formula": "$$(x-h)^{2}+(y-k)^{2}=r^{2}$$"
+    },
+    {
+      "title": "Read the center and radius",
+      "content": "In $(x-11)^2+(y-k)^2=49$, the center is $(11,k)$ and the radius is<br/>$$\\sqrt{49}=7$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

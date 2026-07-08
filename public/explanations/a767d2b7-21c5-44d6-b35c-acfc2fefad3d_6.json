@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks for the <strong>main purpose</strong> of the text. Map the text: the first sentence states the study&apos;s conclusion (thinking about values before discussion makes people more polite under disagreement). The remaining sentences describe the experimental and control groups and the outcome that supports that conclusion."
+      "content": "The question asks for the <strong>main purpose</strong> of the text. Map the text: the first sentence states the study's conclusion (thinking about values before discussion makes people more polite under disagreement). The remaining sentences describe the experimental and control groups and the outcome that supports that conclusion."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; To describe a widely held belief and how a study’s results support that belief</strong>: The text introduces no pre-existing widely held belief &mdash; it presents only the study&apos;s own conclusion. &#10007;</li><li><strong>Choice B &mdash; To suggest ways to improve a certain study’s experimental design</strong>: The text never critiques or proposes changes to the study&apos;s design. &#10007;</li><li><strong>Choice C &mdash; To argue that researchers were surprised by the results of a certain study</strong>: No surprise is expressed anywhere in the text. &#10007;</li><li><strong>Choice D &mdash; To explain a study’s conclusion and how a research team arrived at that conclusion</strong>: The text opens with the conclusion and then details the experimental setup (two groups, different pre-discussion tasks, comparison of civility) that produced it. &#10003;</li></ul>That is the correct answer."
+      "content": "<ul><li><strong>Choice A — To describe a widely held belief and how a study’s results support that belief</strong>: The text introduces no pre-existing widely held belief — it presents only the study's own conclusion. ✗</li><li><strong>Choice B — To suggest ways to improve a certain study’s experimental design</strong>: The text never critiques or proposes changes to the study's design. ✗</li><li><strong>Choice C — To argue that researchers were surprised by the results of a certain study</strong>: No surprise is expressed anywhere in the text. ✗</li><li><strong>Choice D — To explain a study’s conclusion and how a research team arrived at that conclusion</strong>: The text opens with the conclusion and then details the experimental setup (two groups, different pre-discussion tasks, comparison of civility) that produced it. ✓</li></ul>"
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "c5936d3e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find each parfait cost",
+      "content": "The cost for $18$ parfaits is $70.20$, so divide.<br/>$$\\frac{70.20}{18}=3.90$$"
+    },
+    {
+      "title": "Build the total cost equation",
+      "content": "$x$ fruit cups cost $1.60x$. $y$ parfaits cost $3.90y$. The total is $94.20$.<br/>$$1.60x+3.90y=94.20$$"
+    },
+    {
+      "title": "Match the equation",
+      "content": "The equation with $1.60x$ for fruit cups and $3.90y$ for parfaits is the correct model. The answer is <strong>D</strong>."
+    }
+  ]
+}

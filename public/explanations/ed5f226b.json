@@ -1,0 +1,19 @@
+{
+  "questionId": "ed5f226b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the right side",
+      "content": "Distribute $N$ in the given equation.<br/>$$PC=N(22-C)$$<br/>$$PC=22N-NC$$"
+    },
+    {
+      "title": "Collect the variable terms",
+      "content": "Add $NC$ to both sides, then factor out $C$.<br/>$$PC+NC=22N$$<br/>$$C(P+N)=22N$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Divide both sides by $P+N$.<br/>$$C=\\frac{22N}{P+N}$$<br/>This is the same as $\\frac{22N}{N+P}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5f0028ea",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the correction",
+      "content": "The first sentence says kyudo was not a medal sport. The next sentence clarifies that kyudo still appeared at the Games, but in a different role: a demonstration sport. The transition must correct or qualify the first impression."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice A signals a consequence, but the second sentence is not a result. Choice C signals simple addition. Choice D signals an example, but the second sentence is a qualification. The remaining transition means \"instead\" or \"on the contrary.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

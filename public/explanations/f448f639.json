@@ -1,0 +1,15 @@
+{
+  "questionId": "f448f639",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the known ratio",
+      "content": "Rewrite the second equation so it includes $\\frac{x}{y}$.<br/>$$\\frac{cx}{5y}=\\frac{c}{5}\\cdot \\frac{x}{y}$$"
+    },
+    {
+      "title": "Substitute and solve",
+      "content": "Since $\\frac{x}{y}=60$, substitute $60$ into the equation.<br/>$$\\frac{c}{5}\\cdot 60=60$$<br/>$$\\frac{c}{5}=1$$<br/>$$c=5$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

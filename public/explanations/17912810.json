@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the angle at line q",
-      "content": "Angle $b$ is $122^{\\circ}$, so the adjacent angle on line $q$ is $180^{\\circ}-122^{\\circ}=58^{\\circ}$."
+      "title": "Find the adjacent angle",
+      "content": "Angle $b$ is $122^\\circ$, so its adjacent angle on line $q$ is supplementary.<br/>$$180^\\circ-122^\\circ=58^\\circ$$"
     },
     {
-      "title": "Find the larger angle at line t",
-      "content": "Using the small triangle above line $q$, the exterior angle made by line $r$ and the horizontal is $43^{\\circ}+58^{\\circ}=101^{\\circ}$. Since $q \\parallel t$, the matching obtuse angle below line $t$ is also $101^{\\circ}$."
+      "title": "Use the triangle angle",
+      "content": "The angle labeled $a$ is $43^\\circ$. The exterior obtuse angle made with the parallel line is the sum of the two remote interior angles.<br/>$$43^\\circ+58^\\circ=101^\\circ$$"
     },
     {
-      "title": "Use the equal w markings",
-      "content": "The diagram marks that obtuse angle as two equal angles, each labeled $w$. So $2w=101^{\\circ}$, and $w=\\frac{101}{2}$."
+      "title": "Split the marked angle",
+      "content": "The diagram marks that obtuse angle as two equal angles, each $w$.<br/>$$2w=101$$<br/>Divide by $2$. The answer is <strong>101/2</strong>."
     }
   ]
 }

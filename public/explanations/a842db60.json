@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is an according-to-the-text question. The passage's last sentence states that linocut printing supported Carter's aim to unite Black women through her art, which is the decisive clue that must be echoed in the correct choice."
+      "title": "Find the significance",
+      "content": "The last sentence states that linocut printing helped Carter's work reach a wide audience and supported her aim to unite Black women through her art. That is the key significance of the technique."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Linocut printing involved using materials that were readily available to Carter.</strong>: The passage describes the linocut process but never mentions material availability. &#10007;</li><li><strong>Choice B &mdash; Linocut printing helped Carter use art to connect people, especially Black women.</strong>: Directly restates the passage's claim that linocut printing helped Carter unite Black women through her art. &#10003;</li><li><strong>Choice C &mdash; Carter became commercially successful once she started using linocut printing.</strong>: The passage says linocut helped Carter's work reach a wide audience, but commercial success is never mentioned. &#10007;</li><li><strong>Choice D &mdash; Carter was one of the first Black artists to use linocut printing.</strong>: No claim about being among the first is made anywhere in the passage. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject unstated claims",
+      "content": "Choice A mentions material availability, which the passage never discusses. Choice C invents commercial success. Choice D invents a claim that Carter was among the first Black artists to use linocuts. The remaining choice restates connection through art. The answer is <strong>B</strong>."
     }
   ]
 }

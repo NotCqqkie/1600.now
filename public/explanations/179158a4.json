@@ -1,0 +1,15 @@
+{
+  "questionId": "179158a4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the consequence",
+      "content": "The previous sentence explains that Roman numerals show the sequence of numerical designations, not a moon's distance from Jupiter. The next sentence draws a conclusion from that rule: it is wrong to assume Helike is the forty-fifth moon by proximity."
+    },
+    {
+      "title": "Reject other transitions",
+      "content": "Choice A signals contrast, but the idea follows from the previous sentence. Choice B signals the last item in a list, and no list is being completed. Choice D adds another point rather than marking a conclusion. A consequence transition fits. The answer is <strong>C</strong>."
+    }
+  ]
+}

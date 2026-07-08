@@ -1,0 +1,15 @@
+{
+  "questionId": "b04c41be",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the parenthesis",
+      "content": "The phrase after \"stockade\" opens a parenthetical definition: \"(a fence.\" That parenthetical must be closed before the main sentence continues with \"comes from <em>estacada</em>.\""
+    },
+    {
+      "title": "Reject mismatched marks",
+      "content": "Choice A uses a dash, choice B uses a comma, and choice C uses a semicolon; none of those marks closes the opening parenthesis. The remaining choice pairs the opening parenthesis with the required closing mark. The answer is <strong>D</strong>."
+    }
+  ]
+}

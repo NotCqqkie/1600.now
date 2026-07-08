@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "Start with $$v=-\\frac{w}{180x}$$ Multiply both sides by $180x$: $$180vx=-w$$"
+      "content": "Start with the given equation.\n$$v=-\\frac{w}{180x}$$\nSince $x$ is nonzero, multiply both sides by $180x$.\n$$180xv=-w$$"
     },
     {
-      "title": "Solve for w",
-      "content": "Multiply both sides by $-1$: $$w=-180vx$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is $w=-180vx$, so <strong>A</strong> is correct."
-    },
-    {
-      "title": "Keep the negative sign",
-      "content": "Multiplying by $180x$ clears the denominator but leaves $180vx=-w$. The last step must multiply by $-1$, so the final expression for $w$ is negative."
+      "title": "Switch the sign",
+      "content": "Multiply both sides by $-1$ to isolate $w$.\n$$w=-180xv$$\nThis is the same as $w=-180vx$. The answer is <strong>A</strong>."
     }
   ]
 }

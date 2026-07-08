@@ -1,0 +1,15 @@
+{
+  "questionId": "2a75926f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Start by isolating the absolute value expression:<br/>$$-4|6x+5|+3=-17$$<br/>$$-4|6x+5|=-20$$<br/>$$|6x+5|=5$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "An absolute value equation splits into two equations:<br/>$$6x+5=5$$<br/>$$x=0$$<br/>$$6x+5=-5$$<br/>$$x=-\\frac{5}{3}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "08111a7d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage structure",
+      "content": "The passage first explains a trait shared by all baleen whales: they filter krill through baleen plates and can consume large amounts. It then compares humpback and fin whales in size, a difference related to how much krill they can eat."
+    },
+    {
+      "title": "Keep the order accurate",
+      "content": "Choice A reverses the order by putting the size distinction first. Choice B invents population changes. Choice C treats baleen feeding as unique to humpbacks, even though the passage says all baleen whales share it. The remaining choice matches both the sequence and the comparison. The answer is <strong>D</strong>."
+    }
+  ]
+}

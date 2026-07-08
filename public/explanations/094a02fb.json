@@ -1,0 +1,15 @@
+{
+  "questionId": "094a02fb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join contrasting clauses",
+      "content": "The sentence has two independent clauses: the drawing is less well known than van Gogh's paintings, and it is still considered important. The word \"still\" signals contrast, so the clauses need a comma plus a contrasting conjunction."
+    },
+    {
+      "title": "Reject faulty boundaries",
+      "content": "Choice B creates a comma splice. Choice C fuses the clauses without punctuation or a conjunction. Choice D supplies the conjunction but omits the required comma before it. The answer is <strong>A</strong>."
+    }
+  ]
+}

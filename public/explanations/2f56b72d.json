@@ -1,0 +1,15 @@
+{
+  "questionId": "2f56b72d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the charge benchmark",
+      "content": "The experiment showed that the European peacock butterfly's maximum positive charge is high enough to facilitate electrostatic pollen transfer. That makes its charge a working benchmark for identifying another pollinator likely to show the same capacity."
+    },
+    {
+      "title": "Reject graph misreadings",
+      "content": "A claims an opposite tendency, B overstates what can be concluded about the minimum charge, and D reverses the logic by saying greater charges should prevent the capacity. The graph supports the pollinator with a higher maximum positive charge also demonstrating it. The answer is <strong>C</strong>."
+    }
+  ]
+}

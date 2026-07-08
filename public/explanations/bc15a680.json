@@ -1,0 +1,15 @@
+{
+  "questionId": "bc15a680",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the location goal",
+      "content": "The student wants to indicate the location of the Isthmus of Mansheya. The relevant notes say it is in Egypt and connects the island of Pharos to mainland Alexandria."
+    },
+    {
+      "title": "Keep only location facts",
+      "content": "Choice A only identifies the isthmus as an example. Choice B defines an isthmus generally without locating this one. Choice D describes what an isthmus does but omits where the Isthmus of Mansheya is. The remaining choice gives both Egypt and the Alexandria connection. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the substitution signal",
-      "content": "The key signal is the contrast between the instruction to “avoid using the term \"life.\"” and the statement that “researchers should use another word: \"lyfe.\"” The sentence structure creates a before-and-after instruction."
+      "title": "Mark the substitution",
+      "content": "The first sentence says scientists should avoid using one term. The next sentence says researchers should use a different term in its place. The transition needs to mark replacement, not time, place, or concession."
     },
     {
-      "title": "Apply the transition word",
-      "content": "“Instead” directly marks when one action replaces another. The other choices mark time (Previously), express concession (Regardless), or function as a locative adverb (There), none fitting the substitution dynamic. That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject wrong signals",
+      "content": "A signals an earlier time. B signals concession despite a prior point. C points to a location and does not connect the ideas. The answer is <strong>D</strong>."
     }
   ]
 }

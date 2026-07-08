@@ -1,0 +1,19 @@
+{
+  "questionId": "0d8ea9d5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the cattle-boom years",
+      "content": "The passage says forested areas were converted to cattle pasture during the 1960s and 1970s. The graph evidence should therefore show forest loss during that period, not a later recovery or a pattern from a different time."
+    },
+    {
+      "title": "Look for decreasing forest",
+      "content": "A decrease in forest patches from 1960 to 1979 would fit the passage's claim because it covers the years when conversion to cattle pasture was occurring. Evidence from 1986, 2000, or after 1979 would not directly support that specific historical claim."
+    },
+    {
+      "title": "Reject wrong time frames",
+      "content": "Choice A points to 1986, Choice B points to 2000, and Choice C describes an increase after 1979, which would not show conversion to pasture in the cattle-boom years. The remaining choice identifies a decrease in patches from 1960 to 1979. The answer is <strong>D</strong>."
+    }
+  ]
+}

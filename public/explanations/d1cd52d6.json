@@ -1,0 +1,15 @@
+{
+  "questionId": "d1cd52d6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the topic scope",
+      "content": "The passage begins with \"Women like Eleanor May Brooks\" and later mentions Nadia Kowalski as another woman who entered cryptology. Brooks is an example within a broader topic, not the whole subject."
+    },
+    {
+      "title": "Choose the broad topic",
+      "content": "Choice B shifts to research studies in intelligence, which the passage does not cover. Choice C focuses only on Brooks's education, not her field or influence. Choice D focuses only on Kowalski's career goals, which are not discussed. The remaining choice matches the group-level topic. The answer is <strong>A</strong>."
+    }
+  ]
+}

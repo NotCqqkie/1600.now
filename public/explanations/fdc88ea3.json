@@ -1,0 +1,23 @@
+{
+  "questionId": "fdc88ea3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding sides",
+      "content": "The correspondence is A to D, B to E, and C to F. Therefore, side AB corresponds to side DE, and side BC corresponds to side EF."
+    },
+    {
+      "title": "Find the scale factor",
+      "content": "Use the known corresponding side lengths:<br/>$$\\frac{DE}{AB}=\\frac{12}{9}=\\frac{4}{3}$$"
+    },
+    {
+      "title": "Scale the corresponding side",
+      "content": "Apply the same scale factor to the side corresponding to BC:<br/>$$EF=30\\cdot \\frac{4}{3}=40$$"
+    },
+    {
+      "title": "Select the matching length",
+      "content": "The length of side EF is $40$, which appears in the choices. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "questionId": "68607eca",
-  "section": "Math",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Make a two-point table",
-      "content": "On May $1$, $x=0$ and there are $240$ views, so the starting value is $240$. Every $3$ days, the number increases by $40\\%$, which means it is multiplied by $1+0.40=1.40$."
+      "title": "Find the starting value",
+      "content": "On May $1$, the number of days after May $1$ is $x=0$, and the advertisement has $240$ views. So the starting value is $240$."
     },
     {
-      "title": "Solve the unknown directly",
-      "content": "The exponent should count how many 3-day periods have passed. After $x$ days, the number of 3-day periods is $\\frac{x}{3}$, so $$f(x)=240(1.40)^{x/3}$$"
+      "title": "Find the growth factor",
+      "content": "Increasing by $40\\%$ every $3$ days means multiplying by\n$$\n1+\\frac{40}{100}=1.40\n$$\nfor each $3$-day period."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Choice C (&lsquo;$f \\left(x\\right)=240{ \\left(1.40\\right)}^{\\frac{x}{3}}$&rsquo;) has the correct starting value, multiplier, and exponent. The other choices use decay factor $0.40$, and choice D (&lsquo;$f \\left(x\\right)=240{ \\left(1.40\\right)}^{3x}$&rsquo;) uses exponent $3x$ instead of $x/3$, so <strong>C</strong> is correct."
+      "title": "Count the periods",
+      "content": "After $x$ days, the number of $3$-day periods is $\\frac{x}{3}$, so the model is\n$$\nf(x)=240(1.40)^{\\frac{x}{3}}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

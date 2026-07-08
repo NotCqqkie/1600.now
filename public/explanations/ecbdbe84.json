@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the median position",
-      "content": "There are $17$ restaurants, so the median is the 9th value in the ordered list:<br/>$$\\frac{17+1}{2}=9$$"
+      "content": "With $17$ restaurants, the median is the $9$th value in the ordered list:\n$$\n\\frac{17+1}{2}=9\n$$"
     },
     {
-      "title": "Use cumulative frequencies",
-      "content": "Count through the table in order. The first group accounts for $2$ restaurants, the first two groups account for $2+4=6$, and the first three groups account for $6+2=8$. The 9th restaurant is therefore in the next group, the $20$ to $25$ employee group."
+      "title": "Use cumulative counts",
+      "content": "The first three groups account for\n$$\n2+4+2=8\n$$\nrestaurants, so the $9$th restaurant is in the next group, from $20$ to $25$ employees."
     },
     {
-      "title": "Pick the only possible choice",
-      "content": "The median must be between $20$ and $25$. Among the answer choices, only $21$ is in that interval. That matches the computed answer, so <strong>D</strong> is correct."
+      "title": "Choose a possible median",
+      "content": "The only listed value in the $20$ to $25$ interval is $21$. The answer is <strong>D</strong>."
     }
   ]
 }

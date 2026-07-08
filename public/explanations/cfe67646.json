@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate each coordinate against the inequality directions",
-      "content": "At the point $(9, 4)$: the $x$-coordinate is $9$, which satisfies $x \\gt 0$ (since $9 \\gt 0$ is true). The $y$-coordinate is $4$, which satisfies $y \\gt 0$ (since $4 \\gt 0$ is true)."
+      "title": "Check the coordinates",
+      "content": "For the point $(9,4)$, both coordinates are positive:\n$$\n9>0\n$$\n$$\n4>0\n$$"
     },
     {
-      "title": "Identify the matching system",
-      "content": "We need both $x \\gt 0$ and $y \\gt 0$ to hold for the point. Looking at the choices, only one system has this exact pair of inequalities. That is the correct answer."
+      "title": "Match the inequalities",
+      "content": "So the point satisfies the system:\n$$\nx>0\n$$\n$$\ny>0\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

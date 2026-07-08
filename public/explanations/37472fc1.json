@@ -1,0 +1,19 @@
+{
+  "questionId": "37472fc1",
+  "correctAnswer": "744",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sign of the inputs",
+      "content": "Since $a<0$, both inputs are negative, so\n$$\n|16a|=-16a\n$$\n$$\n|9a|=-9a\n$$"
+    },
+    {
+      "title": "Evaluate both function values",
+      "content": "Substitute each input into $f(x)=\\frac{|x|}{a}-15$.\n$$\nf(16a)=\\frac{-16a}{a}-15=-16-15=-31\n$$\n$$\nf(9a)=\\frac{-9a}{a}-15=-9-15=-24\n$$"
+    },
+    {
+      "title": "Multiply the results",
+      "content": "The requested product is\n$$\n(-31)(-24)=744\n$$\nThe answer is <strong>744</strong>."
+    }
+  ]
+}

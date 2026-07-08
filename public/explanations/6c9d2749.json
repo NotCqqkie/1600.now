@@ -1,0 +1,15 @@
+{
+  "questionId": "6c9d2749",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the authors' similarity",
+      "content": "The notes show that Jean Toomer wrote <em>Cane</em> and Herman Melville wrote <em>Billy Budd, Sailor</em>. Both works recently entered the public domain, so that is the shared trait to emphasize."
+    },
+    {
+      "title": "Avoid contrast and single-author focus",
+      "content": "Choice A uses unlike and highlights a difference. Choice B includes both works but shifts to a novel-versus-novella contrast. Choice C discusses only Melville. The sentence that names both authors and the shared public-domain event fits the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

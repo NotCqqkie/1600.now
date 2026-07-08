@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining relationship",
-      "content": "The <strong>key signal</strong> in the passage is the statement that &ldquo;the modern alpaca gets only 64 percent of its genetic material from its wild ancestor, the vicuña, and the rest from the domesticated llama&rdquo;.<br/><br/>This <strong>directly establishes</strong> a genetic transfer from the llama to the alpaca during their coexistence."
+      "title": "Compare the ancestry percentages",
+      "content": "Fan's team concluded that modern alpacas get only 64 percent of their genetic material from their wild ancestor, the vicuña, while llamas get 95.5 percent from their wild ancestor, the guanaco. The rest of each genome comes from later interbreeding between llamas and alpacas."
     },
     {
-      "title": "Match the logical inference",
-      "content": "The correct answer aligns with this genetic mixing by stating that the alpaca's domestication process involved adding genetic material from the llama.<br/><br/>A, B, and D misinterpret the scope of the findings. <ul><li>A incorrectly links genetic diversity to percentages</li><li>B misreads the domestication timeline</li><li>D introduces unmentioned wild interbreeding</li></ul>.<br/><br/><strong>C</strong> is correct."
+      "title": "Draw the supported inference",
+      "content": "Choice A adds unsupported claims about genetic diversity. Choice B incorrectly ties llama genetic material to alpaca domestication, even though the interbreeding happened much later. Choice D invents ancient interbreeding among wild populations. The percentage comparison supports a larger wild-ancestor difference for alpacas than for llamas. The answer is <strong>C</strong>."
     }
   ]
 }

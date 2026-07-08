@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Key insight: f must be constant",
-      "content": "Since $f(0)=19$ and $f(1)=19$, the two known points are $(0,19)$ and $(1,19)$. The slope is $$m=\\frac{19-19}{1-0}=0,$$ so the function is constant: $f(x)=19$."
+      "title": "Find the slope",
+      "content": "The points are $(0,19)$ and $(1,19)$. Their $y$-values are the same, so the slope is $$\\frac{19-19}{1-0}=0$$"
     },
     {
-      "title": "Backsolving by testing the candidate (1/19)",
-      "content": "Testing this candidate: $$f(x) = \\frac{1}{19}$$<br/>Then $$f(0) = \\frac{1}{19} \\neq 19$$. Fails. &#10007;"
-    },
-    {
-      "title": "Backsolving by testing the candidate (1)",
-      "content": "Testing this candidate: $$f(x) = 1$$<br/>Then $$f(0) = 1 \\neq 19$$. Fails. &#10007;"
-    },
-    {
-      "title": "Backsolving by testing the candidate (19)",
-      "content": "Testing this candidate: $$f(x) = 19$$<br/>Then $$f(0) = 19$$ and $$f(1) = 19$$, which exactly match both given conditions. &#10003;<br/><br/>That matches the correct answer &mdash; <strong>C</strong> is correct."
-    },
-    {
-      "title": "Backsolving by testing the candidate (38)",
-      "content": "Testing this candidate: $$f(x) = 38$$<br/>Then $$f(0) = 38 \\neq 19$$. Fails. &#10007;"
+      "title": "Use the constant value",
+      "content": "A linear function with slope $0$ is constant. Since both given outputs are $19$, the function is $$f(x)=19$$ The answer is <strong>C</strong>."
     }
   ]
 }

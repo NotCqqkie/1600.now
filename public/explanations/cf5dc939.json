@@ -1,0 +1,26 @@
+{
+  "questionId": "cf5dc939",
+  "correctAnswer": "4,5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute a repeated expression",
+      "content": "The expression $3x-8$ appears twice, so let $u=3x-8$. The equation becomes a simpler quadratic.<br/>$$u^2-11u+28=0$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "The numbers $7$ and $4$ multiply to $28$ and add to $11$.<br/>$$u^2-11u+28=0$$<br/>$$(u-7)(u-4)=0$$"
+    },
+    {
+      "title": "Substitute back",
+      "content": "Replace $u$ with $3x-8$ and solve each equation.<br/>$$3x-8=7$$<br/>$$3x=15$$<br/>$$x=5$$<br/>$$3x-8=4$$<br/>$$3x=12$$<br/>$$x=4$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Enter the original equation and read the solution values from the graph or solver.<br/>$$(3x-8)^2-11(3x-8)+28=0$$<br/>This is two values, not $45$. The answer is <strong>4,5</strong>.",
+      "desmosExpressions": [
+        "(3x - 8)^2 - 11(3x - 8) + 28 = 0"
+      ]
+    }
+  ]
+}

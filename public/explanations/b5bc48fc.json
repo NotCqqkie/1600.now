@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bc48fc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the promised difference",
+      "content": "The first sentence says Hale and Benton received the same award for different reasons. The second sentence contrasts Hale's art-history work with Benton's painting, so the transition must signal difference."
+    },
+    {
+      "title": "Reject noncontrast transitions",
+      "content": "Choice A signals a result, but Benton's award was not caused by Hale's. Choice B introduces an example, though Benton is a separate recipient. Choice C signals a restatement, but painting is not another way to say art history. The answer is <strong>D</strong>."
+    }
+  ]
+}

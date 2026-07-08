@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the constraint",
-      "content": "Farmers have <strong>no access to inorganic additives</strong> (no NPK fertilizer). Eliminate any option containing NPK — that rules out D."
+      "title": "Apply the no-NPK limit",
+      "content": "The farmers have no access to inorganic additives, so any treatment using NPK fertilizer must be ruled out. The comparison should stay with available non-NPK treatments."
     },
     {
-      "title": "Pick the best non-inorganic combo",
-      "content": "Among compost alone, biochar alone, and biochar + compost, the table shows the biochar + compost combination produces the greatest fruit weight and size. So choice C — biochar and compost — gives the largest improvement.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Use the strongest result",
+      "content": "Among the available non-NPK options, the table indicates that biochar alone produces the greatest increase in fruit weight and fruit size. Compost alone and biochar with compost do not show as large an improvement. The answer is <strong>C</strong>."
     }
   ]
 }

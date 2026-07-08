@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Function question. The prior sentences state that much of the historical evidence comes from Indigenous oral traditions and from autobiographies written by freedom seekers. The phrase \"One such narrative\" signals that the underlined sentence will give a specific example of that kind of autobiography."
+      "title": "Use the example signal",
+      "content": "The prior sentence says evidence comes from Indigenous oral traditions and autobiographies by freedom seekers. \"One such narrative\" signals that the underlined sentence gives a specific example."
     },
     {
-      "title": "Reasoning",
-      "content": "The underlined sentence identifies Loguen's autobiography and details specific help (food, lodging, directions) the Neshnab&eacute; villagers offered &mdash; serving as a concrete example of the general claim about autobiographies documenting Indigenous assistance."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>\"It provides an example of an autobiography that describes help given by an Indigenous people to a Black freedom seeker.\"</strong>: accurately captures the example function signaled by \"One such narrative.\" &#10003;</li><li><strong>\"It shows why Loguen decided to write in great detail about his experiences traveling from Tennessee to Canada in his autobiography.\"</strong>: the sentence reports what Loguen's autobiography contains, not his motivations for writing it &mdash; misreads the sentence. &#10007;</li><li><strong>\"It argues that autobiographies are particularly important sources of information about geography in the United States before the Civil War.\"</strong>: overreaches; the sentence makes no claim about geographical importance &mdash; it describes assistance received. &#10007;</li><li><strong>\"It suggests that most historians believe that Neshnab&eacute; villagers were more successful in assisting freedom seekers than other people were.\"</strong>: the sentence makes no comparative claim about Neshnab&eacute; villagers versus other groups &mdash; contradicts/overreaches the text. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Match the example's function",
+      "content": "Loguen's autobiography describes Neshnabé villagers offering food, lodging, and directions to a Black freedom seeker. It follows the general statement by naming a particular narrative and the assistance it records during Loguen's journey to Canada. B adds a motive for writing, C shifts to geography, and D invents a comparison with other helpers. The answer is <strong>A</strong>."
     }
   ]
 }

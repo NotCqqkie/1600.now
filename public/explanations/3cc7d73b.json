@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining contrast",
-      "content": "The passage says the researchers expected the magnetic field of G47 to be similar to those in other galactic bones &mdash; which are presumably uniform. What surprised them was the opposite: the field had &quot;no clear pattern or direction.&quot; The response must capture that unexpected lack of uniformity."
+      "title": "Contrast expectation and result",
+      "content": "Researchers expected G47's magnetic field to resemble the more uniform fields seen in other galactic bones. Instead, the map showed no clear pattern or direction."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — It showed a weaker magnetic field than expected.</strong>: The passage says nothing about field strength being surprising; the surprise was about pattern, not power. &#10007;</li><li><strong>Choice B — It implied that previous mappings of the magnetic field were inaccurate.</strong>: No previous mappings are mentioned; this is unsupported by the passage. &#10007;</li><li><strong>Choice C — It produced magnetic field measurements similar to those for other galactic bones.</strong>: This is the opposite of surprising &mdash; similarity to other bones was the expectation, not the finding. &#10007;</li><li><strong>Choice D — It revealed a magnetic field that wasn't uniform.</strong>: Directly matches &quot;no clear pattern or direction,&quot; which was unexpected given the uniform fields found elsewhere. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Reject unsupported surprises",
+      "content": "<ul><li><strong>Choice A</strong>: The passage never mentions magnetic field strength.</li><li><strong>Choice B</strong>: It does not say earlier mappings were inaccurate.</li><li><strong>Choice C</strong>: Similar measurements were expected, not surprising.</li></ul>"
+    },
+    {
+      "title": "Name the unexpected pattern",
+      "content": "The surprising finding was that G47's magnetic field lacked the uniform pattern researchers had expected. The answer is <strong>D</strong>."
     }
   ]
 }

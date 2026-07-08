@@ -1,0 +1,15 @@
+{
+  "questionId": "06ed5d1c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the binomials",
+      "content": "Multiply inside the parentheses first. Distribute each term in the first factor across the second factor:<br/>$$(x-\\frac{5}{2})(x+12)=x^2+12x-\\frac{5}{2}x-30$$<br/>$$x^2+12x-\\frac{5}{2}x-30=x^2+\\frac{19}{2}x-30$$"
+    },
+    {
+      "title": "Distribute the outside factor",
+      "content": "Now multiply the entire trinomial by $2$:<br/>$$2(x^2+\\frac{19}{2}x-30)=2x^2+19x-60$$<br/>This matches choice C, $2x^2+19x-60$. The answer is <strong>C</strong>."
+    }
+  ]
+}

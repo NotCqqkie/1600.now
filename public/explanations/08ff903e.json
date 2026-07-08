@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the curator's claim requires",
-      "content": "The curator claims that pieces like <em>Yao Drum</em> <strong>represent the dances of local communities</strong> Dai visited. Any supporting evidence must directly connect <em>Yao Drum</em> to an actual community dance Dai encountered — not just describe the piece's technical features."
+      "title": "Use the curator claim",
+      "content": "The curator claims that some pieces Dai created shortly after arriving in mainland China, including <em>Yao Drum</em>, reflect a desire to represent dances of local communities she visited. Evidence must therefore connect <em>Yao Drum</em> to a specific community dance Dai encountered during her travels."
     },
     {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; \"There is no sound or music accompanying Dai's movements in <em>Yao Drum</em>, aside from the sounds of drumsticks beating against a drum and against each other.\"</strong>: Describes the music/sound setup only — no link to a community&apos;s dance tradition. &#10007;</li><li><strong>Choice B &mdash; \"Unlike some of the works Dai created in the early 1940s, <em>Yao Drum</em> does not feature a narrative structure, humorous elements, or references to real-life events.\"</strong>: Contrasts the piece with Dai&apos;s other works — never mentions local community dances. &#10007;</li><li><strong>Choice C &mdash; \"<em>Yao Drum</em> was inspired by a ceremonial dance Dai witnessed during her time performing field research among the Yao people in the province of Guizhou in 1941 or 1942.\"</strong>: Directly establishes that the piece is based on an actual community&apos;s ceremonial dance Dai observed. &#10003;</li><li><strong>Choice D &mdash; \"<em>Yao Drum</em> is notable for its intense physicality, with Dai performing sharp jumps, swift turns, and dramatic sweeps of her legs through the air as she moves in circles on the stage.\"</strong>: Describes choreographic style only — no connection to any community&apos;s dance. &#10007;</li></ul>That matches <strong>Choice C &mdash; \"<em>Yao Drum</em> was inspired by a ceremonial dance Dai witnessed during her time performing field research among the Yao people in the province of Guizhou in 1941 or 1942.\"</strong>."
+      "title": "Reject surface details",
+      "content": "Choice A describes the work's sound and music, but it does not connect those details to a local community. Choice B says what <em>Yao Drum</em> lacks compared with some other works. Choice D describes intense physical movements but gives no evidence that those movements came from a community dance."
+    },
+    {
+      "title": "Choose local evidence",
+      "content": "The remaining quotation says <em>Yao Drum</em> was inspired by a ceremonial dance Dai witnessed while doing field research among the Yao people in Guizhou, directly supporting the curator's claim. The answer is <strong>C</strong>."
     }
   ]
 }

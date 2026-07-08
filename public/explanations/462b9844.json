@@ -1,0 +1,23 @@
+{
+  "questionId": "462b9844",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given value",
+      "content": "The first equation gives $x$ directly.<br/>$$x=5$$"
+    },
+    {
+      "title": "Solve for the other variable",
+      "content": "Substitute $x=5$ into the second equation.<br/>$$-2(5)+y=-5$$<br/>$$-10+y=-5$$<br/>$$y=5$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection, then add the coordinates.<br/>$$x+y=5+5=10$$<br/>The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x = 5",
+        "-2x + y = -5"
+      ]
+    }
+  ]
+}

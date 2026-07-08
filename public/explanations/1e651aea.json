@@ -1,0 +1,15 @@
+{
+  "questionId": "1e651aea",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intersection",
+      "content": "The solution to a system of two linear equations is the point where the two lines cross on the graph."
+    },
+    {
+      "title": "Read the requested coordinate",
+      "content": "From the graph, the intersection has $y$-coordinate $2$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "31ed7207",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the paired siblings",
+      "content": "The example compares two siblings from the same parents who inherit different traits. One sibling might inherit thin lips, while the other might inherit full lips. The blank should signal this direct contrast."
+    },
+    {
+      "title": "Pick the contrast marker",
+      "content": "Choice B introduces another example, but the sentence is already inside a <em>For instance</em> example. Choice C signals a conclusion based on prior reasoning. Choice D signals the last item in a sequence. <em>By contrast</em> marks the opposition between thin and full lips. The answer is <strong>A</strong>."
+    }
+  ]
+}

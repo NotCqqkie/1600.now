@@ -1,0 +1,15 @@
+{
+  "questionId": "d8f5cbfc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertical shift",
+      "content": "Subtracting $9$ from every $y$-value shifts the entire line of best fit down $9$ units. The slope stays the same, and the $y$-intercept becomes $9$ less."
+    },
+    {
+      "title": "Adjust the intercept",
+      "content": "The drawn line for data set A has $y$-intercept about $54.57$. Therefore, the intercept for data set B is\n$$\n54.57-9=45.57\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

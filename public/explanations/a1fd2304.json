@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the mixture equation",
-      "content": "Pure saline is conserved when mixing solutions. Identify the amount of pure saline in each component:<ul><li>4 liters at 12% contains $4 \\times 0.12 = 0.48$ liters of pure saline</li><li>Let $x$ = liters of 28% solution to add, containing $0.28x$ liters of pure saline</li><li>Final mixture: $(4 + x)$ liters at 18% contains ${0.18}(4 + x)$ liters of pure saline</li></ul>"
+      "title": "Set up pure saline",
+      "content": "Let $x$ be the number of liters of $28\\%$ saline solution added. The amount of pure saline before and after mixing must match.<br/>$$0.12(4)+0.28x=0.18(4+x)$$"
     },
     {
-      "title": "Create the conservation equation",
-      "content": "Pure saline from both initial solutions must equal pure saline in the final mixture:"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Expand the right side:<br/>$$0.48 + 0.28x = 0.72 + 0.18x$$<br/>Subtract $0.18x$ from both sides and subtract $0.48$ from both sides:<br/>$$0.10x = 0.24$$<br/>Divide both sides by $0.10$:<br/>$$x = 2.4$$<br/>We must add <strong>2.4 liters</strong> of the 28% saline solution."
+      "title": "Solve the mixture equation",
+      "content": "Expand both sides, then collect the $x$ terms on one side and the constants on the other side.<br/>$$0.48+0.28x=0.72+0.18x$$<br/>$$0.10x=0.24$$<br/>$$x=2.4$$<br/>The value of $x$ is the number of liters of the stronger solution to add. The answer is <strong>2.4</strong>."
     }
   ]
 }

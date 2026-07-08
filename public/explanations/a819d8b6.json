@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the temporal signal",
-      "content": "The first sentence states that Salazar's 1873 discovery “went against earlier assumptions about the brain.” This setup signals that the next sentence explains what those earlier assumptions were—establishing a temporal relationship between past beliefs and a discovery that contradicted them."
+      "title": "Use the time cue",
+      "content": "The first sentence says Salazar's 1873 finding went against earlier assumptions. The next sentence explains what scientists had assumed before that finding, so the transition must signal a prior time."
     },
     {
-      "title": "Match the transition to the sequence",
-      "content": "\"Previously\" directly marks the temporal shift—scientists held this belief <strong>before</strong> Salazar's discovery. The other three choices fail to establish the necessary temporal relationship between past assumptions and the new discovery. That is the correct answer."
+      "title": "Reject wrong relationships",
+      "content": "Choice A signals contrast, Choice C signals result, and Choice D signals similarity. The remaining transition means \"before this,\" matching the move from Salazar's discovery back to scientists' earlier belief. The answer is <strong>B</strong>."
     }
   ]
 }

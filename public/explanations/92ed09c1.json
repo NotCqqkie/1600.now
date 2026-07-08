@@ -1,0 +1,15 @@
+{
+  "questionId": "92ed09c1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the evidence role",
+      "content": "The passage first says not all animal information cascades are beneficial. The warbler study that follows gives a concrete example of a harmful cascade, so the transition should introduce confirming evidence."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "A signals substitution, B signals a response, and D adds a separate point. The warbler example instead supports the claim that cascades can be harmful. The answer is <strong>C</strong>."
+    }
+  ]
+}

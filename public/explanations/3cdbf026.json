@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the standard-form line",
-      "content": "Use the exact form from the stem and solve the unknown directly. The line $ax+ky=6$ contains $(0,-3)$, so $$k(-3)=6 \\Rightarrow k=-2.$$ It also contains $(-2,-6)$, so $$-2a-6k=6.$$ With $k=-2$, this gives $-2a+12=6$, so $a=3$."
+      "title": "Use the point on the y-axis",
+      "content": "The point $(0,-3)$ is on the line, so substitute $x=0$ and $y=-3$ into the equation $ax+ky=6$."
     },
     {
-      "title": "Read $k$ directly",
-      "content": "The value needed for the answer is $k$, and the point $(0,-3)$ already gives $k=-2$. The value of $a$ is not needed to answer the question."
+      "title": "Solve for the coefficient",
+      "content": "The $a$ term disappears because $x=0$.\n$$\na(0)+k(-3)=6\n$$\n$$\n-3k=6\n$$"
     },
     {
-      "title": "Confirm with the easy point",
-      "content": "The point $(0,-3)$ makes the original equation especially quick: $a(0)+k(-3)=6$, so $-3k=6$ and $k=-2$. <strong>A</strong> is correct.",
+      "title": "Finish the division",
+      "content": "Divide both sides by $-3$.\n$$\nk=-2\n$$\nThe answer is <strong>A</strong>.",
       "desmosExpressions": [
         "3x-2y=6",
         "(-2,-6)",

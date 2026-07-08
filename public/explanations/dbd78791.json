@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence uses present-tense verbs throughout (&ldquo;are,&rdquo; &ldquo;travel,&rdquo; &ldquo;pack&rdquo;) to describe the Sherpas&rsquo; recurring activities. The blank is the second verb in a compound predicate joined by &ldquo;and,&rdquo; so it must match the present tense established by &ldquo;pack.&rdquo;"
+      "title": "Match the present-tense actions",
+      "content": "The sentence describes what the Solar Wind Sherpas generally do when an eclipse is imminent. The verbs are present tense: they “travel,” the particles “are,” and the Sherpas “pack up” their telescopes. The blank should continue that present-tense pattern."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"get\"</strong>: Simple present tense, consistent with &ldquo;pack&rdquo; and the other present-tense verbs. &#10003;</li><li><strong>\"had gotten\"</strong>: Past perfect tense &mdash; signals an action completed before another past event, contradicting the present-tense context. &#10007;</li><li><strong>\"got\"</strong>: Simple past tense, inconsistent with the present-tense verbs used throughout the sentence. &#10007;</li><li><strong>\"were getting\"</strong>: Past progressive tense, inconsistent with the present-tense context. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Eliminate tense shifts",
+      "content": "Choice B, “had gotten,” is past perfect and does not fit the general present statement. Choice C, “got,” shifts to past tense. Choice D, “were getting,” is past progressive. The base present verb fits the plural subject “the Sherpas.” The answer is <strong>A</strong>."
     }
   ]
 }

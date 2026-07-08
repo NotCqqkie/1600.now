@@ -1,0 +1,15 @@
+{
+  "questionId": "a7041842",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the shared power",
+      "content": "Factor $y^4$ out of the original expression.<br/>$$105y^5-70y^4=y^4(105y-70)$$"
+    },
+    {
+      "title": "Match the target form",
+      "content": "Factor $7$ from the parentheses to create $15y-10$.<br/>$$y^4(105y-70)=7y^4(15y-10)$$<br/>The answer is <strong>7</strong>."
+    }
+  ]
+}

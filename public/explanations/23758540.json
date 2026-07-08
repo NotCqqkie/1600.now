@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Undo the addition",
-      "content": "Start with $$3p+180=255$$ Subtract $180$ from both sides: $$3p=75$$"
+      "content": "Subtract $180$ from both sides.<br/>$$3p+180=255$$<br/>$$3p=75$$"
     },
     {
-      "title": "Solve for p",
-      "content": "Divide both sides by $3$: $$p=25$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $25$</strong> is $25$. It checks because $3(25)+180=75+180=255$. The other choices would make $3p$ either too small or too large to reach $255$ after adding $180$."
+      "title": "Divide by three",
+      "content": "Divide both sides by $3$.<br/>$$p=25$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

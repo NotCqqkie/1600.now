@@ -1,0 +1,15 @@
+{
+  "questionId": "1468b726",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as<br/>$$f(x)=mx+b$$<br/>The slope is<br/>$$m=\\frac{2}{5}$$"
+    },
+    {
+      "title": "Use the intercept point",
+      "content": "The line passes through $(0,9)$, so the $y$-intercept is $b=9$.<br/>$$f(x)=\\frac{2}{5}x+9$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

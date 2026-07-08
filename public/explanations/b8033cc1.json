@@ -1,0 +1,15 @@
+{
+  "questionId": "b8033cc1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use an absolute phrase",
+      "content": "The words before the comma describe the two hands before the main clause 'the hands imply' begins. The description should be a nonfinite absolute phrase, not a complete clause, so it can modify the hands without creating another sentence."
+    },
+    {
+      "title": "Keep the pair parallel",
+      "content": "A and B introduce a finite verb, creating a comma splice. D makes the first half finite and the second half nonfinite. The parallel form is 'one hand bare and the other covered in Persian script,' keeping both halves grammatically alike. The answer is <strong>C</strong>."
+    }
+  ]
+}

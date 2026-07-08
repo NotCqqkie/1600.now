@@ -1,0 +1,15 @@
+{
+  "questionId": "1f30f911",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the fossil's location",
+      "content": "The goal is to specify where Tristan Otto is. The relevant notes say Tristan Otto is on display at the Natural History Museum and that the museum is in Berlin, Germany."
+    },
+    {
+      "title": "Reject nonlocation details",
+      "content": "Choice A gives taxonomy, not location. Choice C gives the museum's location but refers only to an unnamed dinosaur fossil specimen. Choice D gives the time period when Tristan Otto lived. The remaining choice directly names both the display site and city. The answer is <strong>B</strong>."
+    }
+  ]
+}

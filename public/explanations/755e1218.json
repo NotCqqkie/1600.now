@@ -1,0 +1,15 @@
+{
+  "questionId": "755e1218",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "Multiply $12$ by each term inside the parentheses. The factor applies to both $x^2$ and $-8$, not just to the first term.\n$$\n12(x^2-8)=12x^2-12(8)\n$$\n$$\n12x^2-96\n$$"
+    },
+    {
+      "title": "Match the expression",
+      "content": "The equivalent expression is $12x^2-96$. Choice B subtracts $20$, choice C leaves the constant unchanged, and choice D changes the sign. The answer is <strong>A</strong>."
+    }
+  ]
+}

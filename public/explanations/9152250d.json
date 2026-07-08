@@ -1,0 +1,15 @@
+{
+  "questionId": "9152250d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply equal periods",
+      "content": "The passage explains that each TRAPPIST-1 planet has an orbital period equal to its rotational period. The example must use the table value for TRAPPIST-1e and repeat that value for rotation."
+    },
+    {
+      "title": "Match the same value",
+      "content": "A gives unequal periods. B gives a value that is not TRAPPIST-1e's orbital period. D uses values tied to another planet. The correct completion states that TRAPPIST-1e's orbital and rotational periods are both 6.1 days. The answer is <strong>C</strong>."
+    }
+  ]
+}

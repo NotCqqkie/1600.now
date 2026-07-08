@@ -1,0 +1,19 @@
+{
+  "questionId": "58df8518",
+  "correctAnswer": "0.866",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cosine ratio",
+      "content": "In the right triangle, $AC=19$ is adjacent to angle $A$, and $AB=38$ is the hypotenuse.\n$$\n\\cos(A)=\\frac{19}{38}=\\frac{1}{2}\n$$"
+    },
+    {
+      "title": "Identify the angle",
+      "content": "The acute angle with cosine \n$$\n\\frac{1}{2}\n$$ is $60$ degrees."
+    },
+    {
+      "title": "Find the sine value",
+      "content": "Use the sine of that angle.\n$$\n\\sin(60^\\circ)=\\frac{\\sqrt{3}}{2}\\sim0.866\n$$\nThe answer is <strong>0.866</strong>."
+    }
+  ]
+}

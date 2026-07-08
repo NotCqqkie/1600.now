@@ -1,0 +1,15 @@
+{
+  "questionId": "e6bf0bb9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the study description",
+      "content": "The sentence needs to say that an ecological study compared egg lengths and found one species' eggs longer than another's. The phrase after \"study\" is essential because it identifies what the study did, so a restrictive relative clause with no comma is needed."
+    },
+    {
+      "title": "Remove clause errors",
+      "content": "B leaves two finite verbs, \"compared\" and \"found,\" with no subordination. C uses a comma and \"which,\" making the study description sound nonessential even though it identifies the study. D incorrectly places a comma before \"that\" in a relative clause. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "15af552a",
+  "correctAnswer": "86",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with the requested input, $3$, in the function. Keep the function rule the same and change only the input value.<br/>$$f(3)=3^2+3+74$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Square first, then add all three terms. This gives the value of the function at the requested input.<br/>$$f(3)=9+3+74=86$$<br/>The answer is <strong>86</strong>."
+    }
+  ]
+}

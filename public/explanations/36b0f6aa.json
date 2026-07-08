@@ -1,0 +1,15 @@
+{
+  "questionId": "36b0f6aa",
+  "correctAnswer": "368",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial time",
+      "content": "When the flask was placed on the table, the elapsed time was $t=0$. Substitute $0$ into the function:<br/>$$g(0)=296+(368-296)(2.72)^{-0.108(0)}$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "The exponent is $0$, and $(2.72)^0=1$:<br/>$$g(0)=296+(368-296)(1)$$<br/>$$g(0)=296+72=368$$<br/>The answer is <strong>368</strong>."
+    }
+  ]
+}

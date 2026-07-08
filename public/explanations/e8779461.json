@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y={x}^{2}+14x+48$$<br/>$$x+8=11$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Solve the linear equation",
+      "content": "Use the second equation to find the value of $x$ before substituting into the quadratic equation:<br/>$$x+8=11$$<br/>$$x=3$$",
       "desmosExpressions": [
         "y={x}^{2}+14x+48",
         "x+8=11"
       ]
     },
     {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$99$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Substitute into the parabola",
+      "content": "Now substitute $x=3$ into the first equation to find the requested $y$-value:<br/>$$y=3^2+14(3)+48$$<br/>$$y=9+42+48=99$$<br/>The answer is <strong>99</strong>."
     }
   ]
 }

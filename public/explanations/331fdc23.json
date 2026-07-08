@@ -1,0 +1,15 @@
+{
+  "questionId": "331fdc23",
+  "correctAnswer": "76",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circumference and diameter",
+      "content": "A circle's circumference equals $\\pi$ times its diameter. The given circumference is already written as a multiple of $\\pi$. <br/>$$C=\\pi d$$"
+    },
+    {
+      "title": "Solve for the diameter",
+      "content": "Substitute the given circumference, then divide both sides by $\\pi$. The coefficient left over is the diameter.<br/>$$76\\pi=\\pi d$$<br/>$$d=76$$<br/>The answer is <strong>76</strong>."
+    }
+  ]
+}

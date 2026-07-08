@@ -1,0 +1,15 @@
+{
+  "questionId": "03cc36ab",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product rule",
+      "content": "The constant factor $-4$ is not zero, so one of the binomial factors must equal zero:<br/>$$w-7=0$$<br/>$$w-3=0$$<br/>$$w+8=0$$"
+    },
+    {
+      "title": "Match a listed solution",
+      "content": "Solving those equations gives<br/>$$w=7,\\quad w=3,\\quad w=-8$$Among the choices, only $7$ is listed. The answer is <strong>C</strong>."
+    }
+  ]
+}

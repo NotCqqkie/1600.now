@@ -1,0 +1,15 @@
+{
+  "questionId": "5f064580",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the size detail",
+      "content": "The student's goal is to indicate the size of Mason Neck NWR. The relevant note is that the refuge encompasses 2,276 acres."
+    },
+    {
+      "title": "Use the acreage note",
+      "content": "Choice A discusses management and limits on activity, Choice C mentions habitat, and Choice D mentions the bald eagle and management. Those choices do not give the refuge's size. The sentence with 2,276 acres directly satisfies the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

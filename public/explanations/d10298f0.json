@@ -1,0 +1,15 @@
+{
+  "questionId": "d10298f0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one unit",
+      "content": "Let $u=x+4$. Then the equation becomes:\n$$9u=8u+72$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Subtract $8u$ from both sides:\n$$9u-8u=72$$\n$$u=72$$\nSince $u=x+4$, $x+4=72$. The answer is <strong>C</strong>."
+    }
+  ]
+}

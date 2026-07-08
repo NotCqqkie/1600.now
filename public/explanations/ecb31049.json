@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Compare the two ideas",
-      "content": "Before the blank: scientists have long believed fusion has the potential to meet humanity's clean energy needs (optimistic). After the blank: prior to December 2022, no lab fusion reaction had achieved net energy gain (a limiting reality). The relationship is contrast/concession."
+      "title": "Contrast promise with limitation",
+      "content": "The first sentence describes fusion's promise as a clean energy source. The next sentence qualifies that optimism by saying no laboratory reaction had generated a net energy gain before December 2022."
     },
     {
-      "title": "Pick the contrast transition",
-      "content": "\"That said\" concedes the prior point and introduces a qualifying counterpoint &mdash; exactly the move from \"promising\" to \"but in practice it hadn't worked yet.\""
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"For this reason,\"</strong>: signals cause-effect, but the lack of net energy gain isn't a consequence of fusion's potential. &#10007;</li><li><strong>\"Moreover,\"</strong>: adds a similar point, but the second sentence opposes rather than reinforces the first. &#10007;</li><li><strong>\"Specifically,\"</strong>: introduces a detail of the previous claim, but the limitation isn't a specification of fusion's potential. &#10007;</li><li><strong>\"That said,\"</strong>: concessive transition that introduces a qualifying counterpoint, matching the contrast. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use a qualifying transition",
+      "content": "A signals cause, B adds a similar point, and C introduces a specific detail of the prior claim. The transition that means even so or nevertheless fits the limiting counterpoint. The answer is <strong>D</strong>."
     }
   ]
 }

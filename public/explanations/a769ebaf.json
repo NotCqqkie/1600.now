@@ -1,0 +1,15 @@
+{
+  "questionId": "a769ebaf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed contrast",
+      "content": "The student wants to emphasize a difference between sea palm and bull kelp. The relevant notes say participants rated sea palm's umami intensity as moderate and bull kelp's umami intensity as high."
+    },
+    {
+      "title": "Exclude similarities and side facts",
+      "content": "Choice A says both seaweeds trigger umami, which is a similarity. Choice B says both are brown seaweed. Choice C shifts to tuna and blue cheese. The remaining choice compares the two seaweeds' umami intensity directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

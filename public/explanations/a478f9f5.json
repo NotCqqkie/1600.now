@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the frequency for color Y from the table",
-      "content": "From the frequency table, color Y appears in exactly <strong>3</strong> gemstones out of the total <strong>157</strong> gemstones."
+      "title": "Find favorable outcomes",
+      "content": "The probability of selecting color Y is the number of color Y gemstones divided by the total number of gemstones. The table shows $3$ color Y gemstones out of $157$ gemstones."
     },
     {
-      "title": "Apply the probability formula",
-      "content": "Probability of selecting color Y equals the number of favorable outcomes divided by the total number of outcomes:<br/>$$P(\\text{color Y}) = \\frac{\\text{number of color Y gemstones}}{\\text{total gemstones}} = \\frac{3}{157}$$<br/>That is the correct answer."
+      "title": "Write the probability",
+      "content": "Use the favorable count over the total count.<br/>$$\\frac{3}{157}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

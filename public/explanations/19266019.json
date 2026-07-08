@@ -1,0 +1,15 @@
+{
+  "questionId": "19266019",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening modifier",
+      "content": "The sentence begins with the modifier <em>Home to roughly 710,000 people</em>. That modifier must describe the subject that immediately follows it, so the subject needs to be a place that can literally be home to people."
+    },
+    {
+      "title": "Choose the logical subject",
+      "content": "Choice B lacks a workable main clause. Choices C and D make a percentage the subject, but a percentage cannot be home to people. The sentence works only when the subject is the city of Riga, a place the opening modifier can describe. The answer is <strong>A</strong>."
+    }
+  ]
+}

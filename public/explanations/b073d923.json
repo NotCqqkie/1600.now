@@ -1,0 +1,19 @@
+{
+  "questionId": "b073d923",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write vertex form using vertex $(2, 5)$",
+      "content": "$$f(x) = a(x-2)^2 + 5$$"
+    },
+    {
+      "title": "Solve for $a$ using point $(3, 42)$",
+      "content": "$$42 = a(3-2)^2 + 5 \\implies a = 37$$<br/>So $f(x) = 37(x-2)^2 + 5$."
+    },
+    {
+      "title": "Compute $f(-1) - f(1)$",
+      "content": "$$f(-1) = 37(-3)^2 + 5 = 333 + 5 = 338$$<br/>$$f(1) = 37(-1)^2 + 5 = 37 + 5 = 42$$<br/>$$f(-1) - f(1) = 338 - 42 = 296$$"
+    }
+  ]
+}

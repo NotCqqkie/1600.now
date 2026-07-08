@@ -1,0 +1,15 @@
+{
+  "questionId": "0f1ff6de",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the present-tense pattern",
+      "content": "The sentence states general facts in present tense: the languages have a difference, one is object-oriented, and both require technical knowledge. The blank should continue that same general present-time pattern."
+    },
+    {
+      "title": "Reject tense shifts",
+      "content": "B shifts to simple past, C to past perfect, and D to past progressive. None fits the surrounding timeless present-tense statements. The answer is <strong>A</strong>."
+    }
+  ]
+}

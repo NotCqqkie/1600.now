@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Find the center",
+      "content": "The circle equation is in standard form.\n$$(x-4)^2+(y+7)^2=25$$\nSo the center is $(4,-7)$."
     },
     {
-      "title": "Identify the circle's center from standard form",
-      "content": "The equation $(x-4)^2 + (y+7)^2 = 25$ is in the form $(x-h)^2 + (y-k)^2 = r^2$, which tells us the center is $(h, k)$ and radius is $r$. <br/>Here: center $= (4, -7)$ and radius $= \\sqrt{25} = 5$."
+      "title": "Use the midpoint fact",
+      "content": "The center is the midpoint of the endpoints of a diameter. Let the other endpoint be $(u,v)$. Then\n$$\\frac{9+u}{2}=4$$\n$$\\frac{-7+v}{2}=-7$$"
     },
     {
-      "title": "Apply the diameter midpoint property",
-      "content": "For any diameter of a circle, the center is the midpoint of its two endpoints. Since $\\overline{PQ}$ is a diameter with $P = (9, -7)$ and center $(4, -7)$, we set up the midpoint formula:<br/>$$\\frac{x_P + x_Q}{2} = 4 \\quad \\text{and} \\quad \\frac{y_P + y_Q}{2} = -7$$<br/>Substituting $P = (9, -7)$:<br/>$$\\frac{9 + x_Q}{2} = 4 \\quad \\text{and} \\quad \\frac{-7 + y_Q}{2} = -7$$"
-    },
-    {
-      "title": "Solve for point Q",
-      "content": "From the first equation: $9 + x_Q = 8$, so $x_Q = -1$.<br/>From the second equation: $-7 + y_Q = -14$, so $y_Q = -7$.<br/>Point $Q$ is $(-1, -7)$. That confirms <strong>A</strong> is correct."
+      "title": "Solve for the other endpoint",
+      "content": "Solve each coordinate equation to get the endpoint across the center from $P$.\n$$9+u=8$$\n$$u=-1$$\n$$-7+v=-14$$\n$$v=-7$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

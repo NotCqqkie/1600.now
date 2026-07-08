@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the system of equations",
-      "content": "Let $a$ = number of adult tickets and $c$ = number of child tickets. The problem gives us two constraints: the total number of tickets is 32, and the total revenue is 400 dollars.<br/>$$a + c = 32$$<br/>$$15a + 10c = 400$$"
+      "title": "Set up the ticket equations",
+      "content": "Let $a$ be adult tickets and $c$ be child tickets. The total number of tickets and total revenue give:<br/>$$a+c=32$$<br/>$$15a+10c=400$$"
     },
     {
-      "title": "Solve for the number of adult tickets using substitution",
-      "content": "From the first equation, express $c$ in terms of $a$: $c = 32 - a$. Substitute this into the second equation:<br/>$$15a + 10(32 - a) = 400$$<br/>$$15a + 320 - 10a = 400$$<br/>$$5a + 320 = 400$$<br/>$$5a = 80$$<br/>$$a = 16$$<br/>So 16 adult tickets were sold."
+      "title": "Solve for adult tickets",
+      "content": "From $a+c=32$, substitute $c=32-a$ into the revenue equation:<br/>$$15a+10(32-a)=400$$<br/>$$5a+320=400$$<br/>$$a=16$$"
     },
     {
-      "title": "Calculate the amount spent on adult tickets",
-      "content": "Multiply the number of adult tickets by the price per ticket: $16 \\times 15 = 240$. Therefore, the amount spent on adult tickets is <strong>240</strong> dollars."
+      "title": "Find the adult-ticket amount",
+      "content": "Multiply the adult-ticket count by the adult-ticket price:<br/>$$16(15)=240$$<br/>The answer is <strong>240</strong>."
     }
   ]
 }

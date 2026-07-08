@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the conflict between prediction and result",
-      "content": "The theory proposes that a habitat's initial species diversity strongly affects its eventual diversity. Mercer's research did not support this: pools starting with diverse zooplankton and pools starting with a single species showed little to no difference in species diversity by the end of the study."
+      "title": "Compare theory with result",
+      "content": "Text 1 presents the view that historical diversity strongly affects later community diversity. In Text 2, Mercer and colleagues expected that starting diversity would matter, but their pools ended with little to no difference in species diversity."
     },
     {
-      "title": "Match the researchers' assessment",
-      "content": "C directly expresses what the researchers would conclude: the theory appears logical (&ldquo;may seem plausible&rdquo;) but the data did not support it (&ldquo;not supported by the research team's findings&rdquo;).<ul><li>A overstates the theory's correctness despite the failed prediction</li><li>B ignores the evidence entirely</li><li>D misinterprets refutation as a conditional limitation</li></ul><br/><br/>That matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "State the likely assessment",
+      "content": "A says the theory is largely correct despite the failed prediction. B dismisses the theory regardless of data, and D says it probably applies in the study conditions, which the result does not show. The researchers would say the view may sound plausible but lacked support from their findings. The answer is <strong>C</strong>."
     }
   ]
 }

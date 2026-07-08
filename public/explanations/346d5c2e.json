@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set f of x equal to 88",
-      "content": "The function is $f(x)=8(2x+5)$. The question asks for the $x$-value when $f(x)=88$, so solve $$8(2x+5)=88$$"
+      "title": "Set the function equal to the target",
+      "content": "The function is $f(x)=8(2x+5)$. The question asks when $f(x)=88$, so solve\n$$\n8(2x+5)=88\n$$"
     },
     {
-      "title": "Undo the multiplication",
-      "content": "Divide by $8$: $$2x+5=11$$ Subtract $5$: $$2x=6$$ Divide by $2$: $$x=3$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The correct answer is $3$. It checks because $8(2(3)+5)=8(11)=88$. The other choices make $2x+5$ larger than $11$, so they make $f(x)$ larger than $88$. Therefore, <strong>A</strong> is correct."
+      "title": "Undo the operations",
+      "content": "Divide by $8$, then solve for $x$:\n$$\n2x+5=11\n$$\n$$\n2x=6\n$$\n$$\nx=3\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "questionId": "9ca9da3a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the x-intercept",
+      "content": "The $x$-intercept represents a possible cluster with only M-type stars. From the graph, the $x$-intercept is about $(160,0)$."
+    },
+    {
+      "title": "Divide the total mass",
+      "content": "If each M-type star has mass $m$, then the total mass is about $160m$:\n$$\n160m=129{,}492\n$$\n$$\nm=\\frac{129{,}492}{160}=809.325\n$$",
+      "desmosExpressions": [
+        "129492/160"
+      ]
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "Because the intercept is read from a graph, use the closest answer choice. The closest listed value to $809.325$ is $830$. The answer is <strong>A</strong>."
+    }
+  ]
+}

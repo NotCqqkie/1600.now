@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Compare the means",
-      "content": "Sum from the frequency table:<br/>$$13(12)+14(8)+15(5)+16(7)+17(9)+18(10)+19(13)+20(7)=1175.$$ The original mean is $\\frac{1175}{71}\\approx16.55$. After adding $39$, the new mean is $\\frac{1214}{72}\\approx16.86$, so the mean increases."
+      "content": "The original sum from the frequency table is $1{,}175$, so the original mean is about $16.55$. Adding $39$ gives a new sum of $1{,}214$ for $72$ tortoises.<br/>$$\\frac{1{,}175}{71}=16.55$$<br/>$$\\frac{1{,}214}{72}=16.86$$<br/>The mean increases."
     },
     {
-      "title": "Compare the medians",
-      "content": "<strong>Original (71 values):</strong> The median is at position $\\frac{71+1}{2}=36$. Track the cumulative totals:<ul><li><strong>Weight 13:</strong> cumulative total 12</li><li><strong>Weight 14:</strong> cumulative total 20</li><li><strong>Weight 15:</strong> cumulative total 25</li><li><strong>Weight 16:</strong> cumulative total 32</li><li><strong>Weight 17:</strong> cumulative total 41</li></ul>Position 36 first appears in the weight-17 group, so the original median is 17.<br/><br/><strong>New (72 values):</strong> The added value 39 is the largest, so it occupies position 72. Positions 36 and 37 still hold weight 17, giving a new median of $\\frac{17+17}{2}=17$.<br/><br/>The <strong>medians are equal</strong>."
+      "title": "Find the original median",
+      "content": "With $71$ values, the median is the $36$th value. The cumulative count reaches $32$ by weight $16$ and $41$ by weight $17$, so the original median is $17$."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "The new mean is greater, and the medians are equal. That matches <strong>Choice B &mdash; The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.</strong>."
+      "title": "Find the new median",
+      "content": "The added value $39$ is the largest, so it becomes the last value. With $72$ values, the median is the average of the $36$th and $37$th values, and both are still $17$. The mean increases, and the medians are equal. The answer is <strong>B</strong>."
     }
   ]
 }

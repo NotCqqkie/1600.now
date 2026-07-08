@@ -1,0 +1,15 @@
+{
+  "questionId": "b4d41635",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the result",
+      "content": "The first sentence says the graphics come from perfect geometric shapes and therefore lack organic realism. The second sentence gives the consequence: the 3D elements may have unnaturally precise angles and curves. The transition must signal that the second idea follows from the first."
+    },
+    {
+      "title": "Reject unrelated links",
+      "content": "Choice B adds another point instead of showing a consequence. Choice C signals a broad conclusion, but the second sentence is a specific result. Choice D signals contrast, while the precise angles directly follow from the perfect geometric shapes. The needed transition marks a logical result. The answer is <strong>A</strong>."
+    }
+  ]
+}

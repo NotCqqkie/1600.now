@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read from the line of best fit",
-      "content": "The question asks for the predicted density at $x=1.2$, so use the line of best fit, not one of the scatterplot dots. At $x=1.2$, the line is between $4.5$ and $4.75$ grams per cubic centimeter."
+      "title": "Read from the trend line",
+      "content": "Use the line of best fit, not an individual point. At $1.2$ astronomical units from the Sun, the line predicts a density between $4.5$ and $4.75$ grams per cubic centimeter."
     },
     {
-      "title": "Match the closest choice",
-      "content": "The value read from the line is about $4.6$. Among the choices, $4.6$ is the only value in that range."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The closest listed value is $4.6$, so <strong>C</strong> is correct."
+      "title": "Choose the closest value",
+      "content": "The listed value in that interval is $4.6$ grams per cubic centimeter. The answer is <strong>C</strong>."
     }
   ]
 }

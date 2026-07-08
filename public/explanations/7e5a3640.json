@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count the doubling periods",
-      "content": "The population doubles every 4 hours. In 20 hours, the number of doubling periods is $20 \\div 4 = 5$."
+      "title": "Count the doublings",
+      "content": "The number of cells doubles every $4$ hours. In $20$ hours, the number of doubling periods is<br/>$$20\\div4=5$$"
     },
     {
-      "title": "Apply exponential growth",
-      "content": "When a population doubles $n$ times, it is multiplied by $2^n$. After 5 doublings, the initial population of 250,000 is multiplied by $2^5 = 32$:<br/>$$250,000 \\times 2^5 = 250,000 \\times 32 = 8,000,000$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Apply the growth factor",
+      "content": "Five doublings multiply the starting amount by $2^5$:<br/>$$250{,}000\\cdot2^5=250{,}000\\cdot32=8{,}000{,}000$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

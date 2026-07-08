@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding angles and a linear pair",
-      "content": "Use corresponding angles and a linear pair. Lines $l$ and $k$ are parallel, so the angle corresponding to $64^\\circ$ at the upper intersection also measures $64^\\circ$. Angle $a$ forms a linear pair with that angle."
+      "title": "Use parallel angle facts",
+      "content": "Because lines $l$ and $k$ are parallel, the angle corresponding to the given $64^\\circ$ angle also measures $64^\\circ$. That gives the angle adjacent to $a$ at the upper intersection."
     },
     {
-      "title": "Identify the angle relationship",
-      "content": "Lines l and k are parallel, cut by a transversal. Since l ∥ k, the angle at line l corresponding to 64&deg; also measures 64&deg; (corresponding angles are equal). Angle a&deg; forms a linear pair with that 64&deg; angle at line l."
-    },
-    {
-      "title": "Apply the linear pair theorem",
-      "content": "Angles in a linear pair are supplementary &mdash; they sum to 180&deg;: $$a + 64 = 180$$ $$a = 180 - 64 = 116$$"
-    },
-    {
-      "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; 26</strong>: 26 + 64 = 90, not 180. This would only apply if a and 64&deg; were complementary. &#10007;</li><li><strong>Choice B &mdash; 64</strong>: 64 would apply if a and 64&deg; were corresponding or alternate interior angles (equal). But a&deg; is the supplement of the corresponding angle, not the corresponding angle itself. &#10007;</li><li><strong>Choice C &mdash; 116</strong>: 116 + 64 = 180. Linear pair angles are supplementary. &#10003;</li><li><strong>Choice D &mdash; 154</strong>: 154 + 64 = 218 &ne; 180. &#10007;</li></ul>"
+      "title": "Use the linear pair",
+      "content": "Angle $a$ forms a linear pair with that $64^\\circ$ angle, so the two angles are supplementary and their measures add to $180^\\circ$.\n$$a+64=180$$\n$$a=116$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

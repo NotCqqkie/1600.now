@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 19",
-      "content": "The function is $f(x)=\\frac{18}{x}$. Substitute $x=19$: $$f(19)=\\frac{18}{19}$$"
+      "title": "Substitute the input",
+      "content": "Use $x=19$ in the function.<br/>$$f(19)=\\frac{18}{19}$$"
     },
     {
-      "title": "Keep the order of the fraction",
-      "content": "The numerator stays $18$ and the input $19$ goes in the denominator. The value is $\\frac{18}{19}$, not its reciprocal."
-    },
-    {
-      "title": "Check the choices",
-      "content": "$\\frac{18}{19}$ is choice A, the correct answer. Reversing the fraction, using the numerator only, or using the input value only would not give the requested ratio."
+      "title": "Keep numerator order",
+      "content": "The function places $18$ in the numerator and the input in the denominator. The answer is <strong>A</strong>."
     }
   ]
 }

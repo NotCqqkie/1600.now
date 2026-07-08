@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what dipeptides do in soy sauce",
-      "content": "Text 2 reveals a crucial finding: dipeptides (small peptides in soy sauce) enhance umami flavor <strong>and also contribute to saltiness</strong>. This dual effect is the decisive clue."
+      "title": "Connect the two experiments",
+      "content": "Text 2 says dipeptides in soy sauce enhance umami and also contribute to saltiness. Text 1 says Sato and Kearns used mushroom and seaweed broths to define pure umami flavor."
     },
     {
-      "title": "Apply this discovery to the 2007 experiment",
-      "content": "Sato and Kearns used mushroom and seaweed broths specifically to define “pure umami flavor”—isolating umami without interference from other tastes.<br/><br/>If these broths had contained substantial dipeptides, those compounds would have added saltiness alongside the umami, contaminating the pure signal they were seeking.<br/><br/>Therefore, the broths would most likely have lacked substantial dipeptides.<br/><br/>The other choices either make unsupported claims about national diets, propose unclear molecular weight comparisons, or mischaracterize the source of the relevant peptides in soy sauce.<br/><br/>That is the correct answer."
+      "title": "Infer what the broths lacked",
+      "content": "Choice A invents a claim about national diets. Choice B makes an unsupported molecular-weight comparison. Choice C overstates the role of proteins from fermentation. The remaining statement follows because substantial dipeptides would have added saltiness to the pure-umami broths. The answer is <strong>D</strong>."
     }
   ]
 }

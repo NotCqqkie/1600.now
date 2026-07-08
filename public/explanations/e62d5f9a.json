@@ -1,0 +1,15 @@
+{
+  "questionId": "e62d5f9a",
+  "correctAnswer": "-8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y-intercept input",
+      "content": "At the $y$-intercept, the $x$-coordinate is $0$. Substitute $x=0$ into the equation."
+    },
+    {
+      "title": "Find the intercept value",
+      "content": "Use the equation $7x+3y=-24$.<br/>$$7(0)+3y=-24$$<br/>$$3y=-24$$<br/>$$y=-8$$<br/>The answer is <strong>-8</strong>."
+    }
+  ]
+}

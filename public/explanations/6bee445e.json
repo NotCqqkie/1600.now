@@ -1,0 +1,19 @@
+{
+  "questionId": "6bee445e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide the whole equation",
+      "content": "The target expression appears after dividing the given equation by $4$:\n$$\n4x^2-12x-28=0\n$$\n$$\nx^2-3x-7=0\n$$"
+    },
+    {
+      "title": "Isolate the target expression",
+      "content": "Add $7$ to both sides:\n$$\nx^2-3x=7\n$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The computed value is $7$. The answer is <strong>A</strong>."
+    }
+  ]
+}

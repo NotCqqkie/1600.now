@@ -1,0 +1,15 @@
+{
+  "questionId": "65256c63",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the blocked pollinators",
+      "content": "The researchers say the first phase did not isolate the effect of excluding honeybees. The reason would be that the shielding also excluded other insects that pollinate cucumber plants, so the crop-production drop could not be attributed to honeybees alone."
+    },
+    {
+      "title": "Reject non-cucumber evidence",
+      "content": "Choice A rules out sunlight but not other pollinators. Choice B concerns Chinese cabbage and study designs for that crop, not the cucumber experiment. Choice D compares honeybee use across crops rather than explaining the first-phase limitation. The answer is <strong>C</strong>."
+    }
+  ]
+}

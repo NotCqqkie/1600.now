@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate land area",
-      "content": "Subtract water area from total area: <br/> $$87.4 - 9.6 = 77.8 \\text{ square miles}$$"
+      "title": "Find the land area",
+      "content": "Subtract the water area from the total area.<br/>$$87.4-9.6=77.8$$",
+      "formula": "$$\\text{Population density} = \\frac{\\text{Population}}{\\text{Land area}}$$"
     },
     {
-      "title": "Calculate population density",
-      "content": "Divide population by land area: <br/> $$\\frac{540,000}{77.8} \\approx 6,941 \\text{ people per square mile}$$<br/>This is closest to <strong>Choice B &mdash; 6,940</strong> is correct.",
-      "formula": "$$\\text{Population density} = \\frac{\\text{Population}}{\\text{Land area}}$$"
+      "title": "Compute the density",
+      "content": "Divide the population by the land area.<br/>$$\\frac{540{,}000}{77.8}=6{,}940.87$$<br/>This is closest to $6{,}940$.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

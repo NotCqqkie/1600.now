@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the function of the underlined sentence",
-      "content": "The underlined sentence reports that dream eye movements <em>closely matched</em> awake eye movements. This is a comparison — and the text says it led the team to their conclusion. A sentence that establishes a parallel circumstance supporting a conclusion is functioning as comparative justification."
+      "title": "Use the comparison",
+      "content": "The underlined portion compares eye tracking in dreams with eye tracking by awake sighted people. That similarity supports the team's conclusion about how the brain perceives dream objects."
     },
     {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; To offer key evidence that undermines Chen and team's initial hypothesis</strong>: The text never mentions an initial hypothesis, so nothing is undermined. &#10007;</li><li><strong>Choice B &mdash; To show the unexpected result that led Chen and team to change the focus of their study</strong>: No change of focus is described, and the result is not framed as unexpected. &#10007;</li><li><strong>Choice C &mdash; To illustrate an important real-world implication of Chen and team's main finding</strong>: The underlined portion <em>is</em> the finding, not an implication of it. &#10007;</li><li><strong>Choice D &mdash; To identify a comparable circumstance that helps justify Chen and team's conclusion</strong>: The matching eye-movement pattern is the comparable circumstance that supports the team&apos;s conclusion. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "State the support function",
+      "content": "Choice A invents an initial hypothesis, Choice B invents a change in study focus, and Choice C treats the finding as a real-world implication. The underlined portion identifies a comparable circumstance that supports the conclusion. The answer is <strong>D</strong>."
     }
   ]
 }

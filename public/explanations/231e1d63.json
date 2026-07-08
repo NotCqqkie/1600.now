@@ -1,0 +1,19 @@
+{
+  "questionId": "231e1d63",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the joined clauses",
+      "content": "The quoted Nobel criterion forms one complete idea, and the words after the blank begin another complete idea: 'in 1912, for instance, judges recognized Gerhart Johann Robert Hauptmann.' The second clause gives an example of the first, so the sentence needs punctuation that can join two independent clauses."
+    },
+    {
+      "title": "Reject weaker punctuation",
+      "content": "Choice A, 'direction\"', gives no punctuation between the clauses. Choice B, 'direction\" and,', adds an awkward coordinating conjunction with misplaced punctuation. Choice D, 'direction,\"', uses only a comma, which cannot join two independent clauses by itself."
+    },
+    {
+      "title": "Place the semicolon",
+      "content": "Choice C, 'direction\";', closes the quotation and places a semicolon after the closing quotation mark, correctly joining the two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

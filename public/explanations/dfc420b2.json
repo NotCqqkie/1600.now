@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use triangle sums and vertical angles",
-      "content": "Use triangle sums and vertical angles. First use the angle sum in triangle $ABC$ to find the angle at $C$. Then transfer that measure to triangle $CDE$ using vertical angles."
+      "title": "Find the first unknown angle",
+      "content": "In triangle $ABC$, the angles at $A$ and $B$ are $20^\\circ$ and $100^\\circ$. Let $z$ be the angle at $C$:<br/>$$20^\\circ+100^\\circ+z=180^\\circ$$<br/>$$z=60^\\circ$$"
     },
     {
-      "title": "Find the angle at C in triangle ABC",
-      "content": "In triangle ABC, the angle at A is 20 degrees and the angle at B is $x^{\\circ} = 100^{\\circ}$. Using the triangle angle sum:<br/>$$20^{\\circ} + 100^{\\circ} + \\angle ACB = 180^{\\circ}$$<br/>$$\\angle ACB = 60^{\\circ}$$"
+      "title": "Use vertical angles",
+      "content": "Segments $AD$ and $BE$ intersect at $C$, so the opposite angle in triangle $CDE$ also measures $60^\\circ$."
     },
     {
-      "title": "Use vertically opposite angles at the intersection point",
-      "content": "Lines AD and BE intersect at C, forming two pairs of vertically opposite angles. Since angles ACB and DCE are opposite each other:<br/>$$\\angle DCE = \\angle ACB = 60^{\\circ}$$"
-    },
-    {
-      "title": "Find y using the angle sum in triangle CDE",
-      "content": "In triangle CDE, we now know the angle at C is 60 degrees and the angle at E is 40 degrees. Using the triangle angle sum:<br/>$$60^{\\circ} + 40^{\\circ} + y = 180^{\\circ}$$<br/>$$y = 80^{\\circ}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Finish the second triangle",
+      "content": "In triangle $CDE$, the known angles are $60^\\circ$ and $40^\\circ$:<br/>$$60^\\circ+40^\\circ+y=180^\\circ$$<br/>$$y=80$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

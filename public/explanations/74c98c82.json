@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up and simplify the budget inequality",
-      "content": "With $a$ attendees, the total cost is $40 + 11.50a$. To stay within the budget of $225$:<br/>$$40 + 11.50a \\leq 225$$<br/>Subtract the venue fee from both sides:<br/>$$11.50a \\leq 185$$<br/>Divide both sides by 11.50:<br/>$$a \\leq \\frac{185}{11.50}$$"
+      "title": "Write the budget inequality",
+      "content": "Let $a$ be the number of attendees. The venue fee is $40$ dollars, and each attendee adds $11.50$ dollars, so the total must stay at or below $225$.<br/>$$40+11.50a\\le225$$"
     },
     {
-      "title": "Calculate the maximum whole number of attendees",
-      "content": "Evaluating the division: $\\frac{185}{11.50} \\approx 16.087$<br/><br/>Since the number of attendees must be a whole number and we need the greatest number without exceeding the budget, the answer is $a = 16$. Verification: $40 + 11.50(16) = 224 \\leq 225$, which is within the budget."
+      "title": "Solve for attendees",
+      "content": "Subtract $40$ and divide by $11.50$.<br/>$$11.50a\\le185$$<br/>$$a\\le\\frac{185}{11.50}$$<br/>This quotient is about $16.087$."
+    },
+    {
+      "title": "Choose the whole number",
+      "content": "The greatest whole number that does not exceed $16.087$ is the allowed attendee count.<br/>The answer is <strong>16</strong>."
     }
   ]
 }

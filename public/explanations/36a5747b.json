@@ -1,0 +1,19 @@
+{
+  "questionId": "36a5747b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Account for each clue",
+      "content": "Most Murray Formation sediment consists of fine grains identified as mudstone, which is slowly deposited when particles settle out of suspension in low-flow water. That points to a long-lasting lake or similar standing-water environment."
+    },
+    {
+      "title": "Add drying and streams",
+      "content": "The fine grains show cracking from episodic desiccation, so the low-flow water environment sometimes dried out. The intervals of coarse sandstone matter too, because sandstone tends to be deposited by flowing water, so the history also needs periods with one or more streams."
+    },
+    {
+      "title": "Reject incomplete histories",
+      "content": "B invents a sequence in which streams came first and the lake was brief, which the sediment evidence does not establish. C denies lake drying even though the mudstone cracked. D denies a lake despite the dominant mudstone evidence. The choice that includes a prolonged lake, occasional drying, and periods of streams accounts for all the evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

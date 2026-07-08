@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The blank follows a comma after the independent clause &quot;this period...is remembered for its grandeur and artistry.&quot; The correct choice must not create a second independent clause, which would produce a comma splice. The decisive clue is the word &quot;its&quot; before the blank: &quot;its vehicles ______ by collectors&quot; can form either a finite clause or a nonfinite phrase depending on the verb form chosen."
+      "title": "Avoid a comma splice",
+      "content": "The sentence already has an independent clause before the comma: this period in automotive design is remembered for its grandeur and artistry. After the comma, the words its vehicles need to begin a nonfinite absolute phrase, not another full independent clause."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; are highly prized</strong>: The finite present-tense verb &quot;are&quot; makes &quot;its vehicles are highly prized by collectors&quot; a full independent clause; joining it to the first clause with only a comma creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; had been highly prized</strong>: The finite past-perfect verb &quot;had been&quot; likewise creates an independent clause after the comma, producing a comma splice. &#10007;</li><li><strong>Choice C &mdash; highly prized</strong>: The nonfinite past participle &quot;highly prized&quot; forms an absolute phrase (&quot;its vehicles highly prized by collectors&quot;) that modifies the main clause without creating a second independent clause &mdash; no comma splice. &#10003;</li><li><strong>Choice D &mdash; were highly prized</strong>: The finite past-tense verb &quot;were&quot; creates an independent clause after the comma, producing a comma splice. &#10007;</li></ul>That is the correct answer."
+      "title": "Remove finite verb forms",
+      "content": "Choice A uses are, creating a second independent clause after only a comma. Choice B uses had been, creating the same comma-splice problem. Choice D uses were, another finite verb that creates an independent clause. The answer is <strong>C</strong>."
     }
   ]
 }

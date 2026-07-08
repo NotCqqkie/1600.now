@@ -1,0 +1,15 @@
+{
+  "questionId": "c5855e26",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intersection",
+      "content": "A solution to a system is a point that lies on both graphs. On the shown graph, the line and the parabola meet at the points where the two graphs cross."
+    },
+    {
+      "title": "Read the listed point",
+      "content": "One visible intersection is the point $(-1,5)$. The other listed choices are not intersection points of both graphs. The answer is <strong>A</strong>."
+    }
+  ]
+}

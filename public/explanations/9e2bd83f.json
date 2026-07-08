@@ -1,0 +1,19 @@
+{
+  "questionId": "9e2bd83f",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "List the roots",
+      "content": "Use each factor of $x^2(2x-13)(2x-u)=0$. The roots are\n$$\n0,\\;0,\\;\\frac{13}{2},\\;\\frac{u}{2}\n$$"
+    },
+    {
+      "title": "Set up the sum",
+      "content": "The sum of the roots is given as $18$.\n$$\n0+0+\\frac{13}{2}+\\frac{u}{2}=18\n$$\n$$\n\\frac{13+u}{2}=18\n$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Multiply both sides by $2$, then subtract $13$.\n$$\n13+u=36\n$$\n$$\nu=23\n$$\nThe answer is <strong>23</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2e299e17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope as rainfall rate",
+      "content": "The graph shows total rainfall, so the rainfall rate on an interval is the slope of the graph over that interval. A horizontal segment means the total rainfall is not changing."
+    },
+    {
+      "title": "Read the flat interval",
+      "content": "Between $x=2$ and $x=4$, the graph is horizontal. The change in rainfall is $0$ centimeters over $2$ hours.<br/>$$\\frac{0}{2}=0$$"
+    },
+    {
+      "title": "Choose the true statement",
+      "content": "The true statement is that the rate of rainfall was $0$ centimeters per hour between $x=2$ and $x=4$. The answer is <strong>D</strong>."
+    }
+  ]
+}

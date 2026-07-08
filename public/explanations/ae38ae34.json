@@ -1,0 +1,15 @@
+{
+  "questionId": "ae38ae34",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the rate",
+      "content": "In $d=7t+185$, the coefficient of $t$ is $7$. That means the rover's distance increases by $7$ feet each minute."
+    },
+    {
+      "title": "Multiply by the time",
+      "content": "Over $30$ minutes, the increase is:<br/>$$7\\cdot30=210$$<br/>The rover's distance increases by $210$ feet. The answer is <strong>C</strong>."
+    }
+  ]
+}

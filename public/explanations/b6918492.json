@@ -1,0 +1,19 @@
+{
+  "questionId": "b6918492",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the radius",
+      "content": "The volume of a sphere is $$V=\\frac{4}{3}\\pi r^3$$ Substitute $$r=\\frac{7}{3}$$:\n$$V=\\frac{4}{3}\\pi(\\frac{7}{3})^3$$"
+    },
+    {
+      "title": "Cube the radius",
+      "content": "Cube the numerator and denominator of the radius:\n$$(\\frac{7}{3})^3=\\frac{7^3}{3^3}=\\frac{343}{27}$$"
+    },
+    {
+      "title": "Simplify the volume",
+      "content": "Multiply the remaining factors:\n$$V=\\frac{4}{3}\\pi\\cdot\\frac{343}{27}$$\n$$V=\\frac{1{,}372\\pi}{81}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

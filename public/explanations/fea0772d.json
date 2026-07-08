@@ -1,0 +1,15 @@
+{
+  "questionId": "fea0772d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the password example",
+      "content": "The example says \"iloveyou\" was the eighth most commonly used password. That supports a blank meaning widespread or commonly adopted, especially because the passage contrasts expert advice with what users actually do."
+    },
+    {
+      "title": "Reject mismatched adjectives",
+      "content": "A suggests originality, C contradicts the easy-to-remember example, and D is too vague to capture how many people use the approach. The answer is <strong>B</strong>."
+    }
+  ]
+}

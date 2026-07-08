@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the three vertices from the graph",
-      "content": "Reading the coordinates of the three marked points:<ul><li>Point 1: $(-3, 4)$</li><li>Point 2: $(5, 3)$</li><li>Point 3: $(4, -3)$</li></ul>"
+      "title": "Read the vertices",
+      "content": "From the graph, the triangle's vertices are $(-3,4)$, $(5,3)$, and $(4,-3)$."
     },
     {
-      "title": "Apply the shoelace formula for triangle area",
+      "title": "Use coordinate area",
       "formula": "$$\\text{Area} = \\frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$",
-      "content": "Substituting the coordinates $(-3, 4)$, $(5, 3)$, and $(4, -3)$:<br/>$$\\text{Area} = \\frac{1}{2}|(-3)(3 - (-3)) + 5((-3) - 4) + 4(4 - 3)|$$<br/>$$= \\frac{1}{2}|(-3)(6) + 5(-7) + 4(1)|$$<br/>$$= \\frac{1}{2}|-18 - 35 + 4|$$<br/>$$= \\frac{1}{2}|-49|$$<br/>$$= \\frac{1}{2}(49) = 24.5$$<br/>The area is <strong>24.5 square units</strong>."
+      "content": "Substitute the three points into the area formula:\n$$\n\\frac{1}{2}|(-3)(3-(-3))+5((-3)-4)+4(4-3)|\n$$\n$$\n=\\frac{1}{2}|-18-35+4|=\\frac{49}{2}\n$$\nThe answer is <strong>24.5</strong>."
     }
   ]
 }

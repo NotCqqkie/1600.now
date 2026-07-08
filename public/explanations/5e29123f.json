@@ -1,0 +1,15 @@
+{
+  "questionId": "5e29123f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject is collection, which is singular. The phrase between commas lists examples of paintings in the collection, but it does not change the subject's number."
+    },
+    {
+      "title": "Match the singular subject",
+      "content": "B and D use plural have, and C uses the plural form remain. The singular subject collection requires the singular verb remains. The answer is <strong>A</strong>."
+    }
+  ]
+}

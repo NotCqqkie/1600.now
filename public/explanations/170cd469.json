@@ -1,0 +1,15 @@
+{
+  "questionId": "170cd469",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect ratings to purchases",
+      "content": "Pereira and colleagues investigated whether perceived category similarity predicts the likelihood of purchasing brand extensions. They collected consumers' similarity ratings and calculated how much purchase probability changed when the same brand was purchased in the paired category."
+    },
+    {
+      "title": "Require the two measures to move",
+      "content": "Choice A says similarity ratings varied while probability changes stayed similar, which weakens prediction. Choice B compares categories with and without brand extensions, and Choice D points to brand recognition without showing prediction from similarity. Evidence of a strong positive correlation between the two measured variables supports the investigated possibility because higher similarity ratings would correspond to larger purchase-probability changes. The answer is <strong>C</strong>."
+    }
+  ]
+}

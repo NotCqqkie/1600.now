@@ -1,0 +1,19 @@
+{
+  "questionId": "1ca392f4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the two lines",
+      "content": "Enter the equations as written. Both lines pass through the origin because each has no constant term:<br/>$$y=-\\frac{1}{7}x$$<br/>$$y=\\frac{1}{5}x$$",
+      "desmosExpressions": [
+        "y=-\\frac{1}{7}x",
+        "y=\\frac{1}{5}x"
+      ]
+    },
+    {
+      "title": "Find the shared point",
+      "content": "The two lines have different slopes, so they intersect only at their shared point, the origin. The $x$-coordinate of that solution is $0$. The answer is <strong>C</strong>."
+    }
+  ]
+}

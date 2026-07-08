@@ -1,0 +1,19 @@
+{
+  "questionId": "b0201f2b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the surprise",
+      "content": "The passage states that the map surprisingly revealed a magnetic field with no clear pattern or direction. That surprised researchers because they expected a more uniform field like those seen in other galactic bones."
+    },
+    {
+      "title": "Rule out unsupported details",
+      "content": "Choice A invents inaccurate previous maps. Choice B says the measurements were similar to other galactic bones, the opposite of the passage. Choice D mentions field strength, but the surprise involved pattern and direction."
+    },
+    {
+      "title": "Choose lack of uniformity",
+      "content": "A field with no clear pattern or direction is a field that is not uniform, which directly states what was surprising about the mapping. The answer is <strong>C</strong>."
+    }
+  ]
+}

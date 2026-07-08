@@ -1,0 +1,19 @@
+{
+  "questionId": "e48064ae",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the study limitation",
+      "content": "The researchers surveyed respondents from Serbia, a country described as having a developing economy. They found that participants valued speedy delivery and package tracking more than package aesthetics, but they warned against applying those findings to customers generally."
+    },
+    {
+      "title": "Choose a cautious conclusion",
+      "content": "A applies the Serbian findings broadly, which conflicts with the warning. C focuses only on whether a larger Serbian sample would show the same pattern, but the passage's limitation is broader than sample size within Serbia. D predicts that customers in more developed countries would value package design more, but the text gives no evidence for that specific outcome."
+    },
+    {
+      "title": "Call for broader research",
+      "content": "The logical completion says more research is needed with participants from countries at different levels of economic development before concluding that delivery time and tracking matter more than package design to customers broadly. The answer is <strong>B</strong>."
+    }
+  ]
+}

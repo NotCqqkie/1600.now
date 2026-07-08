@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the density formula",
-      "content": "Density is mass divided by volume. With mass = 180 grams and volume = 30 cubic centimeters: $$\\text{density} = \\frac{180}{30}$$",
+      "title": "Use density formula",
+      "content": "Density is mass divided by volume.",
       "formula": "$$\\text{density} = \\frac{\\text{mass}}{\\text{volume}}$$"
     },
     {
-      "title": "Simplify to find density",
-      "content": "Divide 180 by 30. Since $30 \\times 6 = 180$, we have $$\\frac{180}{30} = 6$$. The density is 6 grams per cubic centimeter. That matches <strong>Choice A &mdash; $6$</strong>."
+      "title": "Divide mass by volume",
+      "content": "Substitute mass $180$ and volume $30$:<br/>$$\\text{density}=\\frac{180}{30}=6$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

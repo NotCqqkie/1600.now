@@ -1,19 +1,19 @@
 {
-  "qid": "2eef7e61",
   "questionId": "2eef7e61",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Slope-intercept form is $f(x)=mx+b$ where $m$ is the slope and $b$ is the y-intercept ($f(0)$)."
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as\n$$\nf(x)=mx+b\n$$\nwhere $m$ is the slope and $b=f(0)$ is the intercept."
     },
     {
-      "title": "Step 2",
-      "content": "Given: slope $m=\\frac{5}{6}$ and $f(0)=4$, so $b=4$. The function is $f(x)=\\frac{5}{6}x+4$."
+      "title": "Substitute the values",
+      "content": "The slope is $\\frac{5}{6}$, and $f(0)=4$, so $b=4$. The function is\n$$\nf(x)=\\frac{5}{6}x+4\n$$"
     },
     {
-      "title": "Step 3",
-      "content": "Evaluate choices:<ul><li>A ($f(x)=\\frac{5}{6}x-4$): correct slope, wrong intercept ($-4$ instead of $4$) &mdash; eliminated.</li><li>B ($f(x)=\\frac{5}{6}x+4$): slope $\\frac{5}{6}$ and $f(0)=4$. <strong>B</strong> is correct.</li><li>C ($f(x)=6x-4$): uses the denominator of the slope as the slope and has a negative intercept &mdash; eliminated.</li><li>D ($f(x)=6x+4$): uses the denominator of the slope as the slope, not $\\frac{5}{6}$ &mdash; eliminated.</li></ul>"
+      "title": "Match the function",
+      "content": "The only choice with slope $\\frac{5}{6}$ and intercept $4$ is $f(x)=\\frac{5}{6}x+4$. The answer is <strong>B</strong>."
     }
   ]
 }

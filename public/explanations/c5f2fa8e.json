@@ -1,0 +1,19 @@
+{
+  "questionId": "c5f2fa8e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the experiment results",
+      "content": "The researchers hypothesized that each duckweed ecotype is adapted to its local conditions in ways that help growth and pollutant resistance. In the experiment, every ecotype grew equally well in all four water samples. Adding zinc also enhanced growth regardless of concentration. Those findings do not show special adaptation to local water chemistry or different resistance to zinc pollution."
+    },
+    {
+      "title": "Keep untested factors open",
+      "content": "Choice B rules out local environmental adaptation entirely, but the experiment did not replicate local differences in light or temperature. Choice C claims the ecotypes differ significantly in zinc resistance, while the results show the same zinc response across ecotypes. Choice D focuses on whether zinc exposure levels matched natural environments, but it ignores the water-sample result and the explicitly untested conditions."
+    },
+    {
+      "title": "Complete the conclusion",
+      "content": "Choice A keeps the researchers' hypothesis possible while following the data: if the ecotypes are locally adapted, those adaptations must involve environmental conditions other than the water each ecotype inhabits. That fits the equal growth in all water samples and leaves room for untested light or temperature differences. The answer is <strong>A</strong>."
+    }
+  ]
+}

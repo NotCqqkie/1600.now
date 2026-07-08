@@ -1,0 +1,15 @@
+{
+  "questionId": "941c76d7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Weigh the study pattern",
+      "content": "Many studies found a positive association between dissolved organic carbon and mercury in fresh water. One Finnish study did not find that correlation, which led some scientists to wonder whether the association was only a North American pattern. But the passage then says several other studies outside North America, including a study in Sweden, produced results like the North American studies, while few matched the Finnish exception."
+    },
+    {
+      "title": "Draw the broad conclusion",
+      "content": "Choice A is contradicted by the non-North-American studies that also found the positive association. Choice B discusses absolute levels in Finland, which the passage never compares. Choice C treats Lindstrom's study as flawed, but the passage presents it as supporting the broader pattern. Since most of the evidence points to a positive association across locations, the best conclusion is that the two levels usually move together. The answer is <strong>D</strong>."
+    }
+  ]
+}

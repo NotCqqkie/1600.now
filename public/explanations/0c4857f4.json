@@ -1,0 +1,15 @@
+{
+  "questionId": "0c4857f4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Resolve the parasite paradox",
+      "content": "The passage sets up an expectation that three-host CLPs might be protected because they are transmitted when an infected host is eaten, shielding them from external conditions. Yet Wood et al. found that three-host CLP abundance decreased as sea temperatures rose, while directly transmitted parasite abundance stayed largely stable."
+    },
+    {
+      "title": "Reject contradicted explanations",
+      "content": "A says more host species means better protection from warming, but the three-host parasites declined. C compares subtypes of CLPs that the passage does not distinguish. D reverses the passage by saying directly transmitted parasites were more shielded than three-host CLPs. The only supported explanation is that the shielding advantage was real but insufficient against other warming-related pressures. The answer is <strong>B</strong>."
+    }
+  ]
+}

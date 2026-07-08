@@ -1,0 +1,15 @@
+{
+  "questionId": "6fb78f48",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the group descriptor",
+      "content": "The phrase is \"one of many nonpresidents on US currency\" with a blank before \"on US currency.\" Standard English uses an infinitive after this kind of noun phrase to describe the group: \"one of many people to do something.\""
+    },
+    {
+      "title": "Avoid a second finite verb",
+      "content": "Choice B, Choice C, and Choice D are finite verb forms, so each breaks the noun phrase after \"one of many nonpresidents.\" The sentence needs an infinitive that means \"who appeared\" without creating another main verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

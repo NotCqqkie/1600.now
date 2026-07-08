@@ -1,0 +1,19 @@
+{
+  "questionId": "78a866b7",
+  "correctAnswer": "25110",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the scale factor",
+      "content": "The model is proportional to $x^2$. The new circumference is $6$ times the old circumference:\n$$\n\\frac{4.50}{0.75}=6\n$$"
+    },
+    {
+      "title": "Square the factor",
+      "content": "Since circumference is multiplied by $6$, strength is multiplied by $6^2$:\n$$\n6^2=36\n$$"
+    },
+    {
+      "title": "Find the new strength",
+      "content": "Multiply the given breaking strength by $36$:\n$$\n697.5(36)=25{,}110\n$$\nThe answer is <strong>25110</strong>."
+    }
+  ]
+}

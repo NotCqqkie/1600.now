@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a transition word question. The first sentence says the field is \"divided between dispersalists and vicariancists.\" The blank begins a sentence that names those two camps and explains what each believes. The correct transition must signal that the second sentence is clarifying or defining the division just mentioned."
+      "title": "Clarify the named division",
+      "content": "The first sentence says biogeography is divided between dispersalists and vicariancists. The next sentence names those two camps and explains what each side believes: one side argues that dispersal determines species distribution, while the other insists that vicariance does. The transition must show that the second sentence clarifies or restates the division just introduced."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Furthermore,\"</strong>: Signals additional information on top of what was said. The sentence doesn't add a new point — it explains the same point (the division). Using \"furthermore\" implies the two sentences are separate ideas. &#10007;</li><li><strong>\"By contrast,\"</strong>: Signals opposition between the two sentences. The second sentence does not contrast with the first; it elaborates on it. &#10007;</li><li><strong>\"Similarly,\"</strong>: Signals resemblance to a prior point. There is no parallel idea for the second sentence to mirror; it clarifies the first sentence. &#10007;</li><li><strong>\"That is,\"</strong>: Signals a restatement or clarification of the preceding idea — exactly what the second sentence does by spelling out what \"divided between dispersalists and vicariancists\" means. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject addition or contrast",
+      "content": "Choice A, <strong>Furthermore,</strong> would signal a separate added point, but the second sentence is explaining the same debate. Choice B, <strong>By contrast,</strong> would signal opposition between the two sentences, though they work together. Choice C, <strong>Similarly,</strong> would signal resemblance to a prior parallel point, which is not the relationship here. <strong>That is,</strong> correctly introduces a clarification of what the division means. The answer is <strong>D</strong>."
     }
   ]
 }

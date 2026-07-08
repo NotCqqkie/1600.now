@@ -1,0 +1,15 @@
+{
+  "questionId": "71b2767c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the pivot",
+      "content": "The text first reports Olsen and colleagues' finding about ocean acidification and fish behavior. Then <strong>However</strong> introduces a concern: the study used only about 28 fish, and Reyes and colleagues warn that small samples can produce biased analysis and exaggerated effects."
+    },
+    {
+      "title": "Keep the purpose narrow",
+      "content": "Choice B invents an overlooked aspect of ocean acidification. Choice C invents a debate about what causes ocean acidification. Choice D claims the text explains behavioral change over time, which it does not. The remaining choice captures the concern about a study's findings. The answer is <strong>A</strong>."
+    }
+  ]
+}

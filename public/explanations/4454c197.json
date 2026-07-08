@@ -1,0 +1,15 @@
+{
+  "questionId": "4454c197",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Set the sentence boundary",
+      "content": "The blank follows the noun phrase \"differences in\" and introduces an explanation of those differences. The sentence needs punctuation strong enough to mark that boundary, plus a word that correctly links the two contrasting descriptions of 39P/Oterma and 83982 Crantor."
+    },
+    {
+      "title": "Check contrast and punctuation",
+      "content": "Choice B leaves two independent clauses joined only by a comma after \"active centaur.\" Choice C uses a comma where the sentence needs a stronger break after \"behavior.\" Choice D creates the same comma-splice problem after the new sentence begins. A colon followed by \"while\" correctly introduces and contrasts the two descriptions. The answer is <strong>A</strong>."
+    }
+  ]
+}

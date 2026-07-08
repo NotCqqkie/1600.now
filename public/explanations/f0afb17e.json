@@ -1,0 +1,15 @@
+{
+  "questionId": "f0afb17e",
+  "correctAnswer": "64",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Subtract $27$ from both sides to get the square-root term by itself.<br/>$$\\sqrt{w}=35-27=8$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "Square both sides to undo the square root.<br/>$$w=8^2=64$$<br/>The answer is <strong>64</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "47f85ceb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the overturned assumption",
+      "content": "The passage says researchers once thought cuttlefish lacked 3D vision, but Tanaka's team tested that assumption. The cuttlefish changed their striking position in response to 3D shrimp images, suggesting the assumption was wrong."
+    },
+    {
+      "title": "Reject narrow or broad claims",
+      "content": "Choice A mentions only background about horses and barn owls. Choice B focuses on physical similarity to octopuses and squid, which is not discussed. Choice D makes a broad claim about many animals interacting, beyond the study. The answer is <strong>C</strong>."
+    }
+  ]
+}

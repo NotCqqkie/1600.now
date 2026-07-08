@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Vieta's formula",
-      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$."
+      "title": "Use the root-sum shortcut",
+      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the solutions is $$-\\frac{b}{a}$$"
     },
     {
-      "title": "Apply it to the equation",
-      "content": "In $x^2-40x-10=0$, $a=1$ and $b=-40$. So the sum is $$-\\frac{-40}{1}=40.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$40$ is correct. You do not need to solve the two irrational roots; their radical parts cancel in the sum.",
+      "title": "Apply the coefficients",
+      "content": "In $$x^2-40x-10=0$$ the coefficients are $a=1$ and $b=-40$. Therefore the sum is $$-\\frac{-40}{1}=40$$ The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=x^2-40x-10"
       ]

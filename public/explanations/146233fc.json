@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the goal requires",
-      "content": "The student wants to &quot;emphasize the order in which the two lighthouse keepers began their careers.&quot; The correct choice must explicitly show which keeper started first and which started later &mdash; not when careers ended, not general praise, not navigation impact."
+      "title": "Use the requested order",
+      "content": "The goal is to emphasize when the two keepers began their careers. The notes show Whitmore started in 1867, while Barrow started in 1904, so the sentence must compare those start dates."
     },
     {
-      "title": "Eliminate wrong choices, keep the one that shows career-start order",
-      "content": "Check each choice against the goal:<ul><li><strong>Choice A &mdash; From 1867 to 1918, the nighttime waters of Mississippi were more navigable thanks to lighthouse keepers Helen Barrow and Clara Whitmore.</strong>: focuses on navigation impact and misattributes Barrow to Mississippi &mdash; does not establish start order. &#10007;</li><li><strong>Choice B &mdash; Before automation, lighthouse keepers like Clara Whitmore and Helen Barrow were crucial to ensuring safe navigation for watercraft.</strong>: makes a general statement about both keepers; does not compare when either began. &#10007;</li><li><strong>Choice C &mdash; Helen Barrow began her career as a lighthouse keeper years after Clara Whitmore did.</strong>: directly states that Whitmore started first (1867) and Barrow started later (1904), establishing the chronological order of career starts. &#10003;</li><li><strong>Choice D &mdash; Clara Whitmore's career as a lighthouse keeper ended in 1918, whereas Helen Barrow's ended in 1920.</strong>: compares when careers ended, not when they began. &#10007;</li></ul>That matches <strong>Choice C &mdash; Helen Barrow began her career as a lighthouse keeper years after Clara Whitmore did.</strong>."
+      "title": "Reject unrelated details",
+      "content": "A misplaces Barrow and focuses on navigability. B discusses lighthouse keepers generally. D compares end dates rather than start dates. The dates in the notes make the order clear: Whitmore started first, and Barrow started later. The only sentence that states Barrow began after Whitmore fits the goal. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must do",
-      "content": "The sentence reads: \"Generations of mystery and horror ______ have been influenced by…\" The blank sits between the subject opener \"Generations of mystery and horror\" and the main verb phrase \"have been influenced.\" The blank must supply the noun that completes the subject — nothing more, nothing less.<ul><li><strong>\"writers\"</strong>: A bare noun with no punctuation, giving the subject \"Generations of mystery and horror writers\" flowing directly into the verb. &#10003;</li><li><strong>\"writers,\"</strong>: Adds a comma between subject and verb. &#10007;</li><li><strong>\"writers—\"</strong>: Adds an em dash between subject and verb. &#10007;</li><li><strong>\"writers;\"</strong>: Adds a semicolon between subject and verb. &#10007;</li></ul>"
+      "title": "Complete the subject",
+      "content": "The sentence's subject is Generations of mystery and horror writers. The blank must supply the noun writers before the main verb have been influenced."
     },
     {
-      "title": "Apply the no-punctuation rule and confirm",
-      "content": "Standard English forbids any punctuation mark between a complete subject and its main verb. The other three options each insert a punctuation mark — comma, em dash, or semicolon — in exactly that position, making all three grammatically incorrect. Only writers leaves the subject-verb connection uninterrupted. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Keep subject and verb together",
+      "content": "No punctuation should separate the complete subject from its verb. B inserts a comma, C inserts a dash, and D inserts a semicolon between writers and have been influenced. The answer is <strong>A</strong>."
     }
   ]
 }

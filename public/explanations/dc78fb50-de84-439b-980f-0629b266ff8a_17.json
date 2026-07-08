@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence has a blank for the main verb. The subject is \"Mathematician Grigori Perelman\" &mdash; singular. \"Sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical set off by commas and does not change the subject."
+      "title": "Find the subject",
+      "content": "The subject is <strong>Mathematician Grigori Perelman</strong>, which is singular. The phrase between commas, <em>sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau</em>, is extra information and does not make the subject plural."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"is\"</strong>: singular present-tense verb. Agrees with the singular subject \"Perelman.\" &#10003;</li><li><strong>\"have been\"</strong>: plural present-perfect verb. Disagrees with singular \"Perelman.\" &#10007;</li><li><strong>\"are\"</strong>: plural present-tense verb. Disagrees with singular \"Perelman.\" &#10007;</li><li><strong>\"are being\"</strong>: plural progressive verb. Disagrees with singular \"Perelman.\" &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose singular agreement",
+      "content": "B, C, and D are plural verb forms, so they do not agree with the singular subject. The sentence needs a singular verb before <em>credited</em>. The answer is <strong>A</strong>."
     }
   ]
 }

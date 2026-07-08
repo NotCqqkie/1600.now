@@ -1,0 +1,19 @@
+{
+  "questionId": "7274a698",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rate as slope",
+      "content": "Each time $x$ increases by $1$, $y$ increases by $7$, so the slope is $7$. The equation has the form:<br/>$$y=7x+b$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Use the point $(3,26)$.<br/>$$26=7(3)+b$$<br/>$$26=21+b$$<br/>$$b=5$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "The equation is $y=7x+5$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "51b44f00",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the trade-off",
+      "content": "Optimal foraging theory says animals' foraging reflects costs and benefits, and those trade-offs vary by species and circumstance. The relevant circumstance here is lunar intensity. Higher lunar intensity is negatively associated with white-throated woodrat foraging, but it is positively associated with Mohol bushbaby foraging because bushbabies rely more on vision."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "<ul><li><strong>Choice A</strong> says the same costs would produce no association for bushbabies, but the text never establishes that result.</li><li><strong>Choice B</strong> says the advantages are likely shared by species not heavily reliant on vision, which conflicts with the passage's vision-based explanation.</li><li><strong>Choice D</strong> says a real cost-benefit trade-off should make bushbabies behave more like woodrats, but OFT allows different species to respond differently.</li></ul>"
+    },
+    {
+      "title": "State the net result",
+      "content": "The positive association means the overall effect of brighter lunar conditions on bushbaby foraging is favorable. Even if increased lunar intensity creates some disadvantages for bushbabies, those disadvantages must be outweighed by the vision-related advantages described in the text. The answer is <strong>C</strong>."
+    }
+  ]
+}

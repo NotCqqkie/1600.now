@@ -1,0 +1,15 @@
+{
+  "questionId": "18d1c379",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining probability",
+      "content": "The probabilities for rooms A, B, and C must add to $1$:\n$$\n1-0.65-0.30=0.05\n$$"
+    },
+    {
+      "title": "Convert probability to count",
+      "content": "Multiply the total number of visitors by the probability for room C:\n$$\n0.05\\cdot 260=13\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

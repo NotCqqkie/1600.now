@@ -1,0 +1,15 @@
+{
+  "questionId": "eec594ba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the low-sales comparison",
+      "content": "The statement needs data showing that ColecoVision sold relatively few units. The correct completion must give ColecoVision's figure of about 2,000,000 units and compare it with a much larger figure for another system."
+    },
+    {
+      "title": "Remove mismatched table data",
+      "content": "<ul><li>Choice A gives ColecoVision the wrong total and gives Game & Watch the wrong comparison figure.</li><li>Choice C uses the right ColecoVision total but assigns Game & Watch's much higher total to Intellivision.</li><li>Choice D gives ColecoVision the wrong total and makes a weaker Apple II comparison.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

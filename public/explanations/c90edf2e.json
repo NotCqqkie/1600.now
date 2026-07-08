@@ -1,0 +1,19 @@
+{
+  "questionId": "c90edf2e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the area difference",
+      "content": "The outer rectangle includes the pool and the path. Its dimensions are $21+2x$ by $11+2x$. Subtract the pool area to get the path area.<br/>$$(21+2x)(11+2x)-21(11)=144$$"
+    },
+    {
+      "title": "Expand and simplify",
+      "content": "Expand the expression and collect terms.<br/>$$(21+2x)(11+2x)-231=144$$<br/>$$4x^2+64x=144$$<br/>$$x^2+16x=36$$"
+    },
+    {
+      "title": "Test the positive width",
+      "content": "Only a positive width can work. Substituting $x=2$ gives the required path area.<br/>$$(21+4)(11+4)-231=25\\cdot 15-231=144$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

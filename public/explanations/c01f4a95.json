@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the information into two points",
-      "content": "The function has the form $j(x)=mx+170$, so its y-intercept is $170$. That gives the point $(0,170)$. The statement $j(14)=23$ gives the point $(14,23)$."
+      "title": "Use the known output",
+      "content": "The function is $j(x)=mx+170$ and $j(14)=23$. Substitute those values:\n+$$23=14m+170$$"
     },
     {
-      "title": "Find the line from the data",
-      "content": "Use the slope formula with $(0,170)$ and $(14,23)$:<br/>$$m=\\frac{23-170}{14-0}=\\frac{-147}{14}=-10.5.$$ Since the intercept is already $170$, $$j(x)=-10.5x+170.$$"
+      "title": "Find the slope value",
+      "content": "Solve for $m$:\n+$$23-170=14m$$\n+$$-147=14m$$\n+$$m=-10.5$$"
     },
     {
-      "title": "Evaluate at x = 12",
-      "content": "Now compute:<br/>$$j(12)=-10.5(12)+170=-126+170=44$$"
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $j(12)$ is <strong>44</strong>."
+      "title": "Evaluate the requested input",
+      "content": "Now substitute $x=12$:\n+$$j(12)=-10.5(12)+170$$\n+$$j(12)=-126+170=44$$\n+The answer is <strong>44</strong>."
     }
   ]
 }

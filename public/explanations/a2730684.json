@@ -1,0 +1,19 @@
+{
+  "questionId": "a2730684",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the tangent ratio",
+      "content": "Angles $D$ and $E$ are acute, so the right angle is at $F$. For angle $E$, side $DF$ is opposite and side $EF$ is adjacent."
+    },
+    {
+      "title": "Set up the equation",
+      "content": "Use tangent as opposite over adjacent:\n$$\n\\tan E=\\frac{DF}{EF}\n$$\nSubstitute the given values:\n$$\n\\frac{1}{6}=\\frac{18.6}{EF}\n$$"
+    },
+    {
+      "title": "Solve for the side",
+      "content": "Multiply both sides by $6EF$:\n$$\nEF=18.6\\cdot 6\n$$\n$$\nEF=111.6\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

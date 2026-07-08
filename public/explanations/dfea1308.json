@@ -1,0 +1,15 @@
+{
+  "questionId": "dfea1308",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Starting from\n$$\nb-18=\\frac{x}{y}\n$$\nmultiply both sides by $y$:\n$$\ny(b-18)=x\n$$"
+    },
+    {
+      "title": "Distribute y",
+      "content": "Distribute $y$ across both terms in the parentheses:\n$$\nx=by-18y\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

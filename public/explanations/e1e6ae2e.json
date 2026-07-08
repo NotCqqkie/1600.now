@@ -1,0 +1,15 @@
+{
+  "questionId": "e1e6ae2e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match subject and verb",
+      "content": "The subject of the blank is the reliability of the dates. The head noun is reliability, which is singular. The sentence therefore needs a finite singular present-tense verb."
+    },
+    {
+      "title": "Use the finite singular form",
+      "content": "Choices A and C are nonfinite participle forms, so they cannot serve as the main verb. Choice B is plural or base form and does not agree with reliability. The remaining verb is singular and finite. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship that needs supporting data",
-      "content": "The researchers concluded that increased competition drove bufadienolide production at the expense of growth. This is a trade-off: the conclusion claims that as competition increases, toxin production increases while growth decreases."
+      "title": "State the trade-off",
+      "content": "The researchers concluded that increased competition drove toxin production at the expense of growth. Supporting data must therefore show higher competition linked to more bufadienolides and lower body mass."
     },
     {
-      "title": "Match the trade-off to the choices",
-      "content": "The matching choice shows tadpoles in low and medium population density conditions had substantially lower bufadienolide concentrations but greater body masses than those in high population density.<br/><br/>This directly supports the researchers' conclusion by demonstrating the trade-off: more competition correlates with more toxin production and less growth.<br/><br/>The other choices either omit bufadienolides entirely, use contradictory language, or focus on toxin variety rather than production.<br/><br/>That matches <strong>B</strong>."
+      "title": "Reject partial evidence",
+      "content": "Choice A discusses body mass but not toxin production. Choice C focuses on toxin measures without showing the growth trade-off. Choice D discusses toxin variety rather than production."
+    },
+    {
+      "title": "Choose both variables",
+      "content": "The data comparing low and medium density with high density show lower toxin concentrations but greater body masses under less competition, directly supporting the trade-off. The answer is <strong>B</strong>."
     }
   ]
 }

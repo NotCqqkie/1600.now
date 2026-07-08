@@ -1,0 +1,19 @@
+{
+  "questionId": "01f6209c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "A total mass that is $140\\%$ greater than the previous mass is multiplied by<br/>$$1+1.40=2.40$$<br/>Because each period is $5$ weeks, the exponent should count groups of $5$ weeks: $\\frac{t}{5}$."
+    },
+    {
+      "title": "Find the initial mass",
+      "content": "At $t=15$, there have been $3$ growth periods. Let $M_0$ be the initial mass.<br/>$$591.0=M_0(2.40)^3$$<br/>$$M_0=\\frac{591.0}{(2.40)^3}=42.75$$"
+    },
+    {
+      "title": "Match the model",
+      "content": "The model needs initial value $42.75$, growth factor $2.40$, and exponent $\\frac{t}{5}$.<br/>$$M=42.75(2.40)^{\\frac{t}{5}}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

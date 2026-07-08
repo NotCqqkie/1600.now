@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage says sellers benefit by <em>prompting consumers to consider their own valuations</em>. The blank must complete this idea using graph data. The &quot;pay what you think it&apos;s worth&quot; message directly prompts valuation-thinking. In the graph, that condition produces the highest mean prices in both studies: roughly 54 dollars (online group) and 74 dollars (students), compared to 27 to 40 dollars for the other two messages. The correct answer must show (1) both groups priced higher under &quot;pay what you think it&apos;s worth&quot; and (2) heterogeneity between the two groups."
+      "title": "Focus on valuation prompts",
+      "content": "The passage says sellers can benefit by prompting consumers to consider their own valuations. In the graph, the message \"pay what you think it's worth\" is the condition that directly asks participants to consider ticket value."
     },
     {
-      "title": "Eliminate wrong choices, confirm the answer",
-      "content": "<ul><li><strong>Choice A — the students tended to value the concert tickets more highly than did the more age-diverse group recruited online, but when considering what they could afford to pay, the students tended to choose a lower price than did the other group.</strong>: The graph shows students chose a <em>higher</em> price (about 40 dollars) than the online group (about 30 dollars) in the &quot;pay what you can&quot; condition &mdash; this statement reverses that relationship. &#10007;</li><li><strong>Choice B — in all three messaging conditions, the group of participants recruited online tended to choose lower prices than did the students, but both groups tended to choose prices closest to the actual cost of the tickets when prompted to consider the tickets' value.</strong>: Neither the text nor the graph mentions the actual market price of the tickets, so there is no basis for the second claim. &#10007;</li><li><strong>Choice C — the students tended to value the concert tickets more highly than did the more age-diverse group recruited online, but both groups tended to choose a higher price when considering the value of the tickets than when considering what they could afford or wanted to pay.</strong>: Students did price higher overall (heterogeneity), and both groups&apos; highest prices came under the &quot;pay what you think it&apos;s worth&quot; condition &mdash; exactly what the graph shows. This confirms the passage&apos;s point about valuation-prompting benefiting sellers. &#10003;</li><li><strong>Choice D — within each group of participants, there was wide variation in the value that individuals assigned to the concert tickets, but the students tended to assign a higher value to the tickets than did the more age-diverse group recruited online.</strong>: The graph shows mean prices per condition, not individual variance within groups, so the claim about &quot;wide variation within each group&quot; is unsupported. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Compare the graph results",
+      "content": "For both groups, the valuation prompt produces the highest mean ticket price: about 55 dollars for the online group and about 74 dollars for the students. The student group also assigns a higher value than the online group, showing heterogeneous valuations."
+    },
+    {
+      "title": "Connect data to the claim",
+      "content": "Those two observations match the passage's wording. Different mean prices between the two groups illustrate heterogeneous consumer valuations. Higher prices under the valuation prompt show why sellers can benefit when purchasers are asked to think about what the tickets are worth."
+    },
+    {
+      "title": "Reject unsupported details",
+      "content": "Choice A reverses the \"pay what you can\" comparison because students chose about 40 dollars, higher than the online group's about 30 dollars. Choice B mentions actual ticket cost, which the graph does not provide. Choice D claims wide individual variation within each group, but the graph shows mean prices, not individual spread. Choice C captures both patterns: students valued the tickets more highly, and both groups paid more under the valuation prompt. The answer is <strong>C</strong>."
     }
   ]
 }

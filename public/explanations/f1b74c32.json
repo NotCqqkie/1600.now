@@ -1,0 +1,19 @@
+{
+  "questionId": "f1b74c32",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the two angle measures",
+      "content": "A transversal through parallel lines creates two angle measures that are supplementary. If one measure is $(6x-210)^\\circ$, the other is<br/>$$180-(6x-210)=390-6x$$"
+    },
+    {
+      "title": "List possible four-angle sums",
+      "content": "A sum of four angles can use $0$, $1$, $2$, $3$, or $4$ copies of $(6x-210)^\\circ$. The possible sums are<br/>$$1560-24x$$<br/>$$960-12x$$<br/>$$360$$<br/>$$12x-240$$<br/>$$24x-840$$"
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "The expression $-12x+1{,}260$ is not in the possible-sum list. The answer is <strong>A</strong>."
+    }
+  ]
+}

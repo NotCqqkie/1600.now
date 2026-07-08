@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries (Standard English Conventions) question. The sentence begins with the interrogative word &quot;Where,&quot; so the blank must complete a direct question. A direct question in Standard English requires subject-auxiliary inversion (auxiliary before subject) and a question mark at the end."
+      "title": "Form a direct question",
+      "content": "The sentence begins with \"Where,\" so the blank must complete a direct question. Standard English direct questions use subject-auxiliary inversion, placing \"did\" before \"the word 'chortle,'\" and end with a question mark."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;did the word \"chortle\" come from.&rsquo;</strong>: The word order is correct (auxiliary &quot;did&quot; before subject &quot;the word&quot;), but a period cannot end an interrogative sentence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;the word \"chortle\" did come from?&rsquo;</strong>: Ends with a question mark, but the subject &quot;the word&quot; comes before the auxiliary &quot;did,&quot; which violates the inversion rule for direct questions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;did the word \"chortle\" come from?&rsquo;</strong>: Auxiliary &quot;did&quot; precedes the subject &quot;the word&quot; (correct inversion), and the sentence ends with a question mark. This forms a grammatically correct direct question. &#10003;</li><li><strong>Choice D &mdash; &lsquo;the word \"chortle\" come from.&rsquo;</strong>: No auxiliary verb at all, no inversion, and ends with a period &mdash; fails on every count. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Check order and punctuation",
+      "content": "Choice A has correct word order but ends with a period. Choice B has a question mark but lacks inversion. Choice D lacks both the auxiliary and the question mark. The only version with inversion and a question mark is correct. The answer is <strong>C</strong>."
     }
   ]
 }

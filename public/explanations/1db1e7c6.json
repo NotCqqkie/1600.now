@@ -1,0 +1,15 @@
+{
+  "questionId": "1db1e7c6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show a concession",
+      "content": "The first sentence says the 1920 method seems rudimentary today. The next sentence says a far more advanced 2015 study found a nearly identical center, showing the old method was accurate."
+    },
+    {
+      "title": "Signal the pivot",
+      "content": "A signals a consequence, C signals a restatement, and D signals an example, but the second sentence qualifies the first by adding surprising evidence. The needed transition acknowledges the first point and pivots to the accuracy evidence. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1299bfc1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function equal",
+      "content": "The question asks when $f(x)$ has a value of $108$. Substitute the function definition into that condition.<br/>$$6(3x+3)=108$$"
+    },
+    {
+      "title": "Solve the equation",
+      "content": "Divide by $6$ first, then isolate $x$ by subtracting $3$ and dividing by $3$.<br/>$$3x+3=18$$<br/>$$3x=15$$<br/>$$x=5$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

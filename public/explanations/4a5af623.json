@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor out the GCF",
-      "content": "Each term in $3x^2+45x+18$ is divisible by $3$:<br/>$$3x^2+45x+18=3(x^2+15x+6)$$"
+      "title": "Check the common factor",
+      "content": "Each term in $3x^2+45x+18$ is divisible by $3$:\n$$\n3x^2+45x+18=3(x^2+15x+6)\n$$"
     },
     {
-      "title": "Check that the remaining quadratic is irreducible over integers",
-      "content": "For $x^2+15x+6$, we need two integers whose product is $6$ and sum is $15$. The only integer pairs giving product $6$ are $(1,6)$, $(2,3)$, $(-1,-6)$, and $(-2,-3)$, none of which sum to $15$. So $3$ is the only clean factor among the listed choices."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li>A) $3$: divides every term, so it is a factor. Keep.</li><li>B) $6x$: $3x^2/6x$ is not a polynomial, so $6x$ is not a factor. Eliminate.</li><li>C) $45x$: $18/45x$ is not a polynomial, so $45x$ is not a factor. Eliminate.</li><li>D) $3x^2$: $45x/3x^2$ is not a polynomial, so $3x^2$ is not a factor. Eliminate.</li></ul><strong>A</strong> is correct."
+      "title": "Eliminate larger variable factors",
+      "content": "The constant term $18$ is not divisible by factors that include $x$, so $6x$, $45x$, and $3x^2$ cannot be factors of the entire expression. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the median shortcut",
-      "content": "There are $5$ gas prices, so the median is the $3$rd value after the prices are put in order. You do not need to find the mean."
+      "title": "Sort the prices",
+      "content": "Put the five gas prices in order from least to greatest.\n$$3.609,\\ 3.679,\\ 3.699,\\ 3.729,\\ 3.729$$"
     },
     {
-      "title": "Sort the prices",
-      "content": "Written from least to greatest, the prices are $$3.609,\\ 3.679,\\ 3.699,\\ 3.729,\\ 3.729$$ The middle value is the third number, $3.699$. In Desmos, the row $\\operatorname{median}(l_1)$ is just a quick check of the same result.",
+      "title": "Choose the middle value",
+      "content": "With $5$ values, the median is the third value in the ordered list."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The median command gives the same middle price.\nThe answer is <strong>C</strong>.",
       "desmosExpressions": [
         "l_1=[3.699,3.609,3.729,3.679,3.729]",
         "\\operatorname{median}\\left(l_1\\right)"
       ]
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $3.679$, is the second value, not the middle value.</li><li>Choice B, $3.689$, is close to the mean, but the question asks for the median.</li><li>Choice C, $3.699$, is the third and middle value. Correct.</li><li>Choice D, $3.729$, is the mode and maximum value, not the median.</li></ul>That confirms <strong>C</strong>."
     }
   ]
 }

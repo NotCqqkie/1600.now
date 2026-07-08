@@ -1,0 +1,19 @@
+{
+  "questionId": "39e91577",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the angle",
+      "content": "The angle is:<br/>$$\\frac{5\\pi}{4}=225^\\circ$$<br/>This is in the third quadrant."
+    },
+    {
+      "title": "Use the reference angle",
+      "content": "The reference angle is:<br/>$$\\frac{5\\pi}{4}-\\pi=\\frac{\\pi}{4}$$<br/>The cosine of the reference angle is:<br/>$$\\cos(\\frac{\\pi}{4})=\\frac{\\sqrt{2}}{2}$$"
+    },
+    {
+      "title": "Apply the quadrant sign",
+      "content": "Cosine is negative in the third quadrant, so:<br/>$$\\cos(\\frac{5\\pi}{4})=-\\frac{\\sqrt{2}}{2}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

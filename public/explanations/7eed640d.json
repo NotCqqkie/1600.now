@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "What does an x-intercept represent?",
-      "content": "An <em>x</em>-intercept is where the graph crosses the <em>x</em>-axis, where $y = 0$.<br/><br/>For this problem, that means $h(x) = 0$. Since $h(x)$ represents height in feet, the equation $h(x) = 0$ means the projectile is at ground level.<br/><br/>The <em>x</em>-coordinate of the <em>x</em>-intercept is the time (in seconds) when this occurs."
+      "title": "Connect intercepts to height",
+      "content": "An $x$-intercept is where $y=0$. Since $y=h(x)$ is the projectile's height, this means the projectile's height is $0$ feet."
     },
     {
-      "title": "Identify the positive x-intercept and its meaning",
-      "content": "At $x = 0$, the height is $h(0) = 12$ feet &mdash; the projectile starts above ground.<br/><br/>Since the coefficient of $x^2$ is $-16$ (negative), the parabola opens downward.<br/><br/>Starting above ground with a downward-opening parabola, the projectile will eventually return to ground level at some positive time.<br/><br/>The positive <em>x</em>-intercept represents this time when the projectile hits the ground.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Use the positive time value",
+      "content": "The positive $x$-intercept is the positive time when the height reaches $0$ feet after launch. In context, that is when the projectile hits the ground. The answer is <strong>D</strong>."
     }
   ]
 }

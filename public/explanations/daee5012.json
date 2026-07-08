@@ -1,0 +1,19 @@
+{
+  "questionId": "daee5012",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Split the absolute value",
+      "content": "The equation $|18-2x|=66$ means the inside expression can equal $66$ or $-66$.<br/>$18-2x=66$<br/>$18-2x=-66$"
+    },
+    {
+      "title": "Find the possible values",
+      "content": "Solve each case, then compute $9-x$.<br/>First case: $18-2x=66$, so $-2x=48$, $x=-24$, and $9-x=33$.<br/>Second case: $18-2x=-66$, so $-2x=-84$, $x=42$, and $9-x=-33$."
+    },
+    {
+      "title": "Match the listed value",
+      "content": "The possible values of $9-x$ are $33$ and $-33$. Only $33$ is listed. The answer is <strong>C</strong>."
+    }
+  ]
+}

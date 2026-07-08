@@ -1,0 +1,15 @@
+{
+  "questionId": "266ba3d0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one unit",
+      "content": "Let $u=4-3x$. The equation becomes easier to read.<br/>$$7u+6=6u+20$$"
+    },
+    {
+      "title": "Solve for the unit",
+      "content": "Subtract $6u$ from both sides, then subtract $6$ from both sides.<br/>$$u+6=20$$<br/>$$u=14$$<br/>Since $u=4-3x$, the requested value is $14$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

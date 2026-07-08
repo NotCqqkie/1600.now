@@ -1,0 +1,15 @@
+{
+  "questionId": "d5daae4a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the repeated-root test",
+      "content": "A quadratic has exactly one unique real solution when it is a perfect square equal to $0$. That means it has one repeated root."
+    },
+    {
+      "title": "Identify the perfect square",
+      "content": "The expression in choice D factors as<br/>$$x^2-14x+49=(x-7)^2$$<br/>So the equation becomes $(x-7)^2=0$, which has only one real solution. The answer is <strong>D</strong>."
+    }
+  ]
+}

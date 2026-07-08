@@ -1,0 +1,19 @@
+{
+  "questionId": "12ecc7f5",
+  "correctAnswer": "123",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a nonnegative variable",
+      "content": "The right side must be nonnegative, so let<br/>$$t=31-x$$<br/>Then $t\\ge0$ and<br/>$$x=31-t$$"
+    },
+    {
+      "title": "Rewrite with one variable",
+      "content": "Substitute $x=31-t$ into the equation.<br/>$$\\sqrt{k-(31-t)}=t$$<br/>Squaring is valid because $t\\ge0$.<br/>$$k-31+t=t^2$$<br/>$$k=t^2-t+31$$"
+    },
+    {
+      "title": "Minimize the constant",
+      "content": "Complete the square.<br/>$$k=t^2-t+31=(t-\\frac{1}{2})^2+\\frac{123}{4}$$<br/>The minimum value is $k=\\frac{123}{4}$, so<br/>$$4k=4\\cdot\\frac{123}{4}=123$$<br/>The answer is <strong>123</strong>."
+    }
+  ]
+}

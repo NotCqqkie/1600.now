@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the area scale factor",
+      "content": "For similar solids, surface areas scale by the square of the linear scale factor. Compare prism $Y$ to prism $X$.<br/>$$\\frac{1{,}550}{62}=25$$"
     },
     {
-      "title": "Find the linear scale factor from surface area ratio",
-      "content": "For similar solids, areas scale by the square of the linear scale factor. Calculate the surface area ratio:<br/>$$\\frac{\\text{Surface Area of X}}{\\text{Surface Area of Y}} = \\frac{62}{1,550} = \\frac{1}{25}$$<br/>Since $k^2 = \\frac{1}{25}$, the linear scale factor is $k = \\frac{1}{5}$."
+      "title": "Convert to volume scale",
+      "content": "Since the surface area scale factor is $25$, the linear scale factor is $5$. Volumes scale by the cube of the linear scale factor.<br/>$$5^3=125$$"
     },
     {
-      "title": "Apply volume scaling and sum",
-      "content": "Volumes of similar solids scale by the cube of the linear scale factor. With $k = \\frac{1}{5}$:<br/>$$\\text{Volume of X} = k^3 \\times \\text{Volume of Y} = \\left(\\frac{1}{5}\\right)^3 \\times 1,500 = \\frac{1}{125} \\times 1,500 = 12 \\text{ cm}^3$$<br/>The sum of the volumes is:<br/>$$12 + 1,500 = 1,512 \\text{ cm}^3$$"
+      "title": "Find the total volume",
+      "content": "Prism $Y$ has $125$ times the volume of prism $X$, so divide to find prism $X$ and then add.<br/>$$\\frac{1{,}500}{125}=12$$<br/>$$1{,}500+12=1{,}512$$<br/>The answer is <strong>1512</strong>."
     }
   ]
 }

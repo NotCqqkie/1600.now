@@ -1,0 +1,19 @@
+{
+  "questionId": "355ce3df",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert meters to miles",
+      "content": "Use $1$ mile equals $1{,}609$ meters:<br/>$$1.3\\ \\frac{\\text{m}}{\\text{s}^2}\\cdot \\frac{1\\ \\text{mile}}{1{,}609\\ \\text{m}}$$"
+    },
+    {
+      "title": "Convert seconds to minutes",
+      "content": "Because the unit is per second squared, multiply by $60^2$ to convert to per minute squared:<br/>$$1.3\\cdot (1/1{,}609)\\cdot 60^2=2.9$$"
+    },
+    {
+      "title": "Round to the nearest tenth",
+      "content": "The converted rate is about $2.9$ miles per minute squared. The answer is <strong>B</strong>."
+    }
+  ]
+}

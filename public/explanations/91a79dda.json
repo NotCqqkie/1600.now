@@ -1,0 +1,15 @@
+{
+  "questionId": "91a79dda",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast the orbital periods",
+      "content": "The goal is to contrast Iapetus and Mimas. The notes give a clear difference: Iapetus takes 79.33 Earth days on average to orbit Saturn, while Mimas takes only 0.94 Earth days."
+    },
+    {
+      "title": "Reject unsupported similarities",
+      "content": "Choice A invents a circular orbit for Mimas, which the notes do not support. Choices B and D focus on what the moons share through Kepler's laws, not on a contrast. The remaining choice states the speed difference supported by the orbital periods. The answer is <strong>C</strong>."
+    }
+  ]
+}

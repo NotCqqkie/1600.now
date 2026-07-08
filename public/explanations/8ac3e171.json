@@ -1,0 +1,15 @@
+{
+  "questionId": "8ac3e171",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main difficulty",
+      "content": "The passage says simply copying one walkability feature from San Francisco may not increase walking elsewhere. Reyes explains why: walking decisions depend on complex contexts involving demographics, public transit, conditions, and individual needs. The San Francisco example supports that broader difficulty."
+    },
+    {
+      "title": "Reject narrower readings",
+      "content": "Choice B is about comparing traffic counts between cities, which the passage does not do. Choice C focuses too narrowly on storefront density. Choice D invents a way to improve individual decision-making. The answer is <strong>A</strong>."
+    }
+  ]
+}

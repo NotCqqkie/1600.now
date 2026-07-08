@@ -1,0 +1,15 @@
+{
+  "questionId": "fef2ca80",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=6x^2$, and the question asks for $f(8)$. Replace $x$ with $8$ in the function."
+    },
+    {
+      "title": "Evaluate the square",
+      "content": "Square $8$ first, then multiply by $6$: $$f(8)=6(8)^2=6(64)=384$$ The value of $f(8)$ is $384$. The answer is <strong>D</strong>."
+    }
+  ]
+}

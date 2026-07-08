@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Total points of all 8 players",
-      "content": "The total points scored by all 8 players is the mean multiplied by the number of players:<br/>$$8 \\times 16.5 = 132$$"
+      "title": "Find the original total",
+      "content": "The total score for all $8$ players is the mean times the number of players.\n$$16.5\\cdot 8=132$$"
     },
     {
-      "title": "Highest score after removal",
-      "content": "The sum of the remaining 7 players after removing the highest score is $$7 \\times 14 = 98$$.<br/>Subtracting this from the total gives the highest score: $$132 - 98 = 34$$.<br/>That matches <strong>Choice C &mdash; 34</strong>- <strong>C</strong>."
+      "title": "Find the remaining total",
+      "content": "After the highest score is removed, the remaining $7$ players have a mean of $14$.\n$$14\\cdot 7=98$$"
+    },
+    {
+      "title": "Subtract the two totals",
+      "content": "The removed score is the difference between the original total and the remaining total.\n$$132-98=34$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

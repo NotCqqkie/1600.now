@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship between the two sentences",
-      "content": "Sentence 1: Patel's model revealed that supernovas created the Local Bubble and likely triggered star formation. Sentence 2: The model detailed exactly how — the bubble's expansion trapped interstellar clouds that collapsed into stars. Sentence 2 zooms in on the specific mechanism behind the broad claim in Sentence 1. The blank must signal a move from general finding to particular detail.<ul><li><strong>Choice A &mdash; Hence,</strong>: Signals a consequence or result — but Sentence 2 is not a consequence of Sentence 1; it is a detail within it. &#10007;</li><li><strong>Choice B &mdash; However,</strong>: Signals a contrast — but Sentence 2 supports and elaborates Sentence 1, not contradicts it. &#10007;</li><li><strong>Choice C &mdash; Admittedly,</strong>: Signals a concession — but Sentence 2 adds supporting detail, not a qualification or admission. &#10007;</li><li><strong>Choice D &mdash; Specifically,</strong>: Signals a shift from a general claim to a particular detail — exactly the relationship here. &#10003;</li></ul>"
+      "title": "Move from claim to detail",
+      "content": "The first sentence states the broad finding: the same supernovas that formed and expanded the Local Bubble likely helped form new stars. The next sentence explains the precise mechanism involving trapped gas and dust clouds."
     },
     {
-      "title": "Confirm the transition choice",
-      "content": "&quot;Specifically&quot; is the only word that correctly marks the move from a broad finding (&quot;likely responsible for the formation of new stars&quot;) to the precise mechanism (&quot;how the bubble's expansion trapped interstellar clouds&quot;). The other three transitions all signal relationships — result, contrast, or concession — that are not present between these two sentences. That is the correct answer."
+      "title": "Choose the detail transition",
+      "content": "Choice A signals a result, Choice B signals contrast, and Choice C signals concession. None fits a sentence that elaborates on the previous claim by giving the mechanism. The transition should mark a shift from general statement to specific detail. The answer is <strong>D</strong>."
     }
   ]
 }

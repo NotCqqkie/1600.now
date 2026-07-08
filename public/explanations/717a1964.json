@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "Look for two numbers that multiply to $-24$ and add to $10$. Those numbers are $12$ and $-2$, so $$z^2+10z-24=(z+12)(z-2).$$"
+      "content": "Find two numbers that multiply to $-24$ and add to $10$. Those numbers are $12$ and $-2$.<br/>$$z^2+10z-24=(z+12)(z-2)$$"
     },
     {
-      "title": "Use the zero product property",
-      "content": "Set each factor equal to zero: $$z+12=0 \\quad \\text{or} \\quad z-2=0.$$ This gives $z=-12$ or $z=2$."
+      "title": "Find the roots",
+      "content": "Set each factor equal to $0$.<br/>$$z+12=0\\quad\\text{or}\\quad z-2=0$$<br/>$$z=-12\\quad\\text{or}\\quad z=2$$"
     },
     {
-      "title": "Enter one valid solution",
-      "content": "The problem asks for one solution, so either root is acceptable. Entering <strong>2</strong> is valid. In Desmos, the $x$-intercepts of the graph are $-12$ and $2$.",
+      "title": "Calculator shortcut",
+      "content": "Graphing $y=x^2+10x-24$ shows the same two $x$-intercepts. Since the question asks for one solution, one valid entry is the positive root. The answer is <strong>2</strong>.",
       "desmosExpressions": [
         "y=x^2+10x-24"
       ]

@@ -1,0 +1,15 @@
+{
+  "questionId": "29323d59",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominators",
+      "content": "Multiplying both sides by $28$ keeps the solutions and removes the left denominator.<br/>$$\\frac{x-18}{28}=\\frac{x-18}{7}$$<br/>$$x-18=4(x-18)$$"
+    },
+    {
+      "title": "Solve for the target",
+      "content": "Then solve for $x$ and use the requested expression $x+18$.<br/>$$x-18=4x-72$$<br/>$$54=3x$$<br/>$$18=x$$<br/>$$x+18=36$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

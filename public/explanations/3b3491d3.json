@@ -1,0 +1,15 @@
+{
+  "questionId": "3b3491d3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rate per second",
+      "content": "The faucet adds $0.08$ milliliter every $8$ seconds, so divide by $8$ to get the rate per second.<br/>$$\\frac{0.08}{8}=0.01$$"
+    },
+    {
+      "title": "Use the starting amount",
+      "content": "The container starts with $18$ milliliters. After $t$ seconds, the added amount is $0.01t$, so the total volume is represented by this equation.<br/>$$v=0.01t+18$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

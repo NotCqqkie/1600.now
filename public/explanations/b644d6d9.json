@@ -1,0 +1,19 @@
+{
+  "questionId": "b644d6d9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the underlined role",
+      "content": "The underlined parenthetical comes immediately after the word microfilm. Its content explains what microfilm means: film containing scaled-down reproductions of documents."
+    },
+    {
+      "title": "Reject unrelated functions",
+      "content": "Choice A would fit information about Frederick Douglass himself, but the underlined portion is about a storage format. Choice C would require a debate among historians, and none appears in the parenthetical. Choice D would require an unexpected finding, but the parenthetical only clarifies a term."
+    },
+    {
+      "title": "Choose the definition function",
+      "content": "Because the underlined words define microfilm for readers, their function is to explain the meaning of a word used in the passage. The answer is <strong>B</strong>."
+    }
+  ]
+}

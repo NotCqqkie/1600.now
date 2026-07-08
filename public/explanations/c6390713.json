@@ -1,0 +1,15 @@
+{
+  "questionId": "c6390713",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the charge threshold",
+      "content": "The passage says positive charges above a threshold can attract the negatively charged stamens, and queen honeybees exceed that threshold. Any pollinator whose charge also reaches that level should be able to attract the stamens."
+    },
+    {
+      "title": "Reject unsupported charge claims",
+      "content": "A contradicts the threshold logic by saying a pollinator with a greater maximum charge cannot attract stamens. B invents repulsion by paper wasps. D claims an exact threshold above 200 pC, which the prompt does not establish. The answer is <strong>C</strong>."
+    }
+  ]
+}

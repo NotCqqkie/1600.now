@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a &ldquo;Complete the text&rdquo; (logical inference) question. The decisive clue is Chen&rsquo;s criterion: <strong>&ldquo;the strongest judicial opinions consider and rebut potential objections;&rdquo;</strong> Discussing philosophers whose views <em>conflict</em> with a judge&rsquo;s position forces the judge to engage with opposing arguments &mdash; exactly what Chen says makes opinions stronger."
+      "title": "Use Chen's standard for strength",
+      "content": "Chen says the strongest judicial opinions consider and rebut potential objections. Philosophers who disagree with a judge's view can supply exactly those objections."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — allow judges to craft judicial opinions without needing to consult philosophical works.</strong>: Self-defeating. Engaging with conflicting philosophers requires <em>more</em> consultation of philosophical works, not less. &#10007;</li><li><strong>Choice B — help judges improve the arguments they put forward in their judicial opinions.</strong>: Follows directly from Chen&rsquo;s logic: rebutting opposing views (via conflicting philosophers) produces the strongest opinions, which means better arguments. &#10003;</li><li><strong>Choice C — make judicial opinions more comprehensible to readers without legal or philosophical training.</strong>: Out of scope. The text never discusses reader accessibility or non-expert audiences; Chen&rsquo;s argument is about argumentative strength, not readability. &#10007;</li><li><strong>Choice D — bring judicial opinions in line with views that are broadly held among philosophers.</strong>: Unsupported. Chen&rsquo;s point is that rebutting opposing views strengthens reasoning &mdash; not that it aligns opinions with mainstream philosophical opinion. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject claims outside the argument",
+      "content": "<ul><li><strong>Choice A</strong>: Discussing conflicting philosophers requires consulting philosophical works, not avoiding them.</li><li><strong>Choice C</strong>: The passage does not discuss making opinions easier for nonexperts to understand.</li><li><strong>Choice D</strong>: Chen is not trying to align judges with majority philosophical views.</li></ul>"
+    },
+    {
+      "title": "Connect objections to stronger reasoning",
+      "content": "If judges engage with opposing philosophical views and rebut them, their opinions can present stronger arguments. The answer is <strong>B</strong>."
     }
   ]
 }

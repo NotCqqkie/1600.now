@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question requires",
-      "content": "The student wants to emphasize <strong>both</strong> the duration (how long Carter and Silva have been working) <strong>and</strong> the purpose (what they have been working toward). Any choice missing either element fails."
+      "title": "Use the stated goal",
+      "content": "The student wants to emphasize two things at once: duration, meaning how long Carter and Silva have been doing this work, and purpose, meaning what the work is meant to accomplish. The relevant notes say both women founded Gullah museums in 2003 and both are preservationists connected to Gullah culture."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Evaluate all four choices:<ul><li><strong>Choice A &mdash; At the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries.</strong>: focuses on what visitors can learn, not on the duration or purpose of the women&apos;s work. &#10007;</li><li><strong>Choice B &mdash; Maria Ellis Carter and Ana Silva have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century.</strong>: states the purpose but gives no start date for Carter&apos;s and Silva&apos;s work &mdash; missing the duration. &#10007;</li><li><strong>Choice C &mdash; Since 2003, Maria Ellis Carter and Ana Silva have worked to preserve Gullah culture through their museums.</strong>: &quot;Since 2003&quot; establishes ongoing duration, and &quot;worked to preserve Gullah culture&quot; states the purpose &mdash; both requirements met. &#10003;</li><li><strong>Choice D &mdash; Influenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century.</strong>: describes the history of Gullah culture, not Carter&apos;s and Silva&apos;s work at all. &#10007;</li></ul>That matches <strong>Choice C &mdash; Since 2003, Maria Ellis Carter and Ana Silva have worked to preserve Gullah culture through their museums.</strong>."
+      "title": "Keep only relevant details",
+      "content": "<ul><li><strong>Choice A - At the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries.</strong>: this focuses on visitors, not the duration or purpose of Carter's and Silva's work.</li><li><strong>Choice B - Maria Ellis Carter and Ana Silva have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century.</strong>: this gives the purpose but not the duration of their work.</li></ul>"
+    },
+    {
+      "title": "Select both required points",
+      "content": "<ul><li><strong>Choice C - Since 2003, Maria Ellis Carter and Ana Silva have worked to preserve Gullah culture through their museums.</strong>: \"Since 2003\" gives duration, and \"preserve Gullah culture\" gives purpose.</li><li><strong>Choice D - Influenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century.</strong>: this describes Gullah culture, not the two historians' work.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "92d1bb1f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the function notation",
+      "content": "The value $f(0)$ is the output of the function when the input is $x=0$. On a graph, this is the point where the curve meets the $y$-axis."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph has $y=-6$. The answer is <strong>A</strong>."
+    }
+  ]
+}

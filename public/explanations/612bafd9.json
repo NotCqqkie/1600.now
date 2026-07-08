@@ -1,0 +1,15 @@
+{
+  "questionId": "612bafd9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the unexpected ring",
+      "content": "The first sentence says debris outside the Roche limit would likely form a satellite. Costa's team found a dense ring outside that limit that remained intact, which is unexpected."
+    },
+    {
+      "title": "Use the concession transition",
+      "content": "The needed transition signals contrast between the expected accretion and the surprising intact ring. Choice A signals similarity, Choice B signals an expected fit, and Choice C signals an example that supports the rule; all misrepresent the relationship. The answer is <strong>D</strong>."
+    }
+  ]
+}

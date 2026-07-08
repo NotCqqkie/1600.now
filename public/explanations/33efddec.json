@@ -1,0 +1,15 @@
+{
+  "questionId": "33efddec",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Balance value and limitation",
+      "content": "The passage says specimens in natural history collections can preserve valuable historical DNA and allow comparisons between historical and present-day genomic data. It also says the approach is underused because some archival specimens were stored in ways that compromise DNA quality."
+    },
+    {
+      "title": "Reject unsupported overstatements",
+      "content": "Choice B contradicts the claim that the approach is underutilized. Choice C adds time-consuming extraction, which is not stated, and Choice D wrongly says the specimens are generally of marginal value despite their unique benefits. The supported inference is that some specimens are valuable but not all yield usable historical DNA. The answer is <strong>A</strong>."
+    }
+  ]
+}

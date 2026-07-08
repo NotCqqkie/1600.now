@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key relationship in the notes",
-      "content": "The notes show a cause-and-effect pattern: as wind conditions worsened (still $\\Rightarrow$ strong breeze $\\Rightarrow$ near-gale), auk landing success dropped (nearly 100% $\\Rightarrow$ ~40% $\\Rightarrow$ ~20%). An effective summary must capture this relationship, not just describe the study's setup or goals."
+      "title": "Find the study result",
+      "content": "The notes show a clear pattern: as wind intensified, successful auk landings became less common, dropping from almost 100% in still air to about 40% in a strong breeze and around 20% in near-gale conditions."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>\"For a 2019 study, researchers from the UK and Germany collected data on auks' attempts to land at cliffside nesting sites in different wind conditions.\"</strong>: describes only the methodology, not the finding &mdash; the result is never stated. &#10007;</li><li><strong>\"Laura Bennett and her colleagues wanted to know the extent to which wind affected auks' success in landing at cliffside nesting sites, so they conducted a study.\"</strong>: states only the researchers&rsquo; aim, not what they found. &#10007;</li><li><strong>\"Knowing that auks often need multiple attempts to land at their cliffside nesting sites, Laura Bennett studied the birds' success rate, which was only around 20% in some conditions.\"</strong>: cites one data point but omits the key factor (wind) driving the change. &#10007;</li><li><strong>\"Laura Bennett's 2019 study of auks' success in landing at cliffside nesting sites showed that as wind conditions intensified, the birds' success rate decreased.\"</strong>: captures the who, when, and core cause-and-effect finding of the study. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Choose a real summary",
+      "content": "Choice A describes data collection but not the result. Choice B states the research goal, not the finding. Choice C cites one data point while omitting the wind pattern. The summary that success decreased as wind intensified captures the study's main result. The answer is <strong>D</strong>."
     }
   ]
 }

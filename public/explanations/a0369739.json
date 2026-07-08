@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate AC and identify the right triangle configuration",
-      "content": "We're given $AB = 16$ and $AC = AB + 25 = 16 + 25 = 41$.<br/><br/>Triangle $ABC$ has a right angle at $B$, which means $AC$ is the hypotenuse. The altitude $BD$ is drawn from the right-angle vertex $B$ perpendicular to the hypotenuse $AC$ at point $D$."
+      "title": "Find the hypotenuse",
+      "content": "The problem gives $AB=16$ and says $AC$ is $25$ greater than $AB$.\n$$\nAC=16+25=41\n$$\nSince angle $B$ is $90^\\circ$, side $AC$ is the hypotenuse."
     },
     {
-      "title": "Apply the area method to find BC/BD",
-      "content": "The area of a right triangle can be calculated two ways:<ul><li>Using the two legs: $\\text{Area} = \\frac{1}{2} \\cdot AB \\cdot BC$</li><li>Using the hypotenuse and its altitude: $\\text{Area} = \\frac{1}{2} \\cdot AC \\cdot BD$</li></ul>Since both expressions equal the same area:<br/>$$AB \\cdot BC = AC \\cdot BD$$<br/>Rearranging to isolate our desired ratio:<br/>$$\\frac{BC}{BD} = \\frac{AC}{AB} = \\frac{41}{16}$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Use equal area formulas",
+      "content": "The area can be written using legs $AB$ and $BC$, or using hypotenuse $AC$ and altitude $BD$.\n$$\n\\frac{1}{2}AB\\cdot BC=\\frac{1}{2}AC\\cdot BD\n$$\nCancel \n$$\n\\frac{1}{2}\n$$ and divide by $BD\\cdot AB$.\n$$\n\\frac{BC}{BD}=\\frac{AC}{AB}\n$$"
+    },
+    {
+      "title": "Substitute the lengths",
+      "content": "Use $AC=41$ and $AB=16$.\n$$\n\\frac{BC}{BD}=\\frac{41}{16}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "8c57c985",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use congruent corresponding angles",
+      "content": "Congruent triangles have equal corresponding angles. The problem states that angle $A$ corresponds to angle $D$."
+    },
+    {
+      "title": "Transfer the angle measure",
+      "content": "Since angle $A$ measures $50^\\circ$, angle $D$ also measures $50^\\circ$. The directions say to disregard the degree symbol.\nThe answer is <strong>50</strong>."
+    }
+  ]
+}

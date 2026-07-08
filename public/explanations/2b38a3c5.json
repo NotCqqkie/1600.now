@@ -1,0 +1,15 @@
+{
+  "questionId": "2b38a3c5",
+  "correctAnswer": "64",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "At the $y$-intercept, the graph crosses the $y$-axis. The $x$-coordinate is $0$, so substitute $x=0$ into $y=9x^2+64$."
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "The squared term becomes $0$, leaving the constant term as the $y$-value.<br/>$y=9(0)^2+64$<br/>$y=64$<br/>The answer is <strong>64</strong>."
+    }
+  ]
+}

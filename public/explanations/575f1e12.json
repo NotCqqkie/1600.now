@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area equals length times width: $A=lw$. Substitute the given length $36$ centimeters and width $29$ centimeters."
+      "content": "The area of a rectangle is length times width. Here the length is $36$ centimeters and the width is $29$ centimeters."
     },
     {
-      "title": "Use the rectangle area formula",
-      "content": "The area of a rectangle is length times width: $$A=lw.$$ Here the length is $36$ centimeters and the width is $29$ centimeters."
-    },
-    {
-      "title": "Multiply",
-      "content": "$$A=36(29).$$ A quick calculation is $36(30)-36=1080-36=1044$."
-    },
-    {
-      "title": "State the units",
-      "content": "The area is <strong>1044</strong> square centimeters. The units are square centimeters because area measures two-dimensional space, so the answer is <strong>1044</strong>."
+      "title": "Multiply the dimensions",
+      "content": "Calculate the area:<br/>$$36\\cdot29=36(30)-36=1{,}080-36=1{,}044$$<br/>The answer is <strong>1044</strong>."
     }
   ]
 }

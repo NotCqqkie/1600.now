@@ -1,29 +1,15 @@
 {
- "qid": "50338a48",
- "questionId": "50338a48",
- "steps": [
-  {
-   "title": "Fastest check: compare a table or graph",
-   "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $w \\left(14w+9\\right)$."
-  },
-  {
-   "title": "Algebra check",
-   "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-  },
-  {
-   "title": "Step 1",
-   "content": "Identify the greatest common factor (GCF) of 14w² and 9w: both terms share a factor of w."
-  },
-  {
-   "title": "Step 2",
-   "content": "Factor out w: 14w² + 9w = w(14w + 9)."
-  },
-  {
-   "title": "Step 3",
-   "content": "Verify by distributing: w · 14w = 14w² and w · 9 = 9w. Sum is 14w² + 9w. ✓"
-  }
- ],
- "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $w \\left(14w+9\\right)$</strong>: Distributing gives 14w² + 9w, which matches the original expression exactly. &#10003;</li><li><strong>Choice B &mdash; $9w \\left(14w+1\\right)$</strong>: Distributing gives 126w² + 9w, which does not equal 14w² + 9w. &#10007;</li><li><strong>Choice C &mdash; $14{w}^{2} \\left(9w+1\\right)$</strong>: Distributing gives 126w³ + 14w², which changes both the degree and the coefficients. &#10007;</li><li><strong>Choice D &mdash; $23 \\left({w}^{2}+w\\right)$</strong>: Distributing gives 23w² + 23w, which does not match; 23 is not a factor of 14w² + 9w. &#10007;</li></ul><strong>A</strong> is correct.",
- "correctAnswer": "A",
- "section": "Math"
+  "questionId": "50338a48",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Both terms in $14w^2+9w$ contain a factor of $w$. Factoring $w$ out of each term gives\n$$\n14w^2+9w=w(14w+9)\n$$"
+    },
+    {
+      "title": "Check by distributing",
+      "content": "Distributing $w$ returns the original expression:\n$$\nw(14w+9)=14w^2+9w\n$$\nChoice B includes an extra factor, choice C changes the degree, and choice D gives coefficients of $23$ and $23$ instead of $14$ and $9$. This keeps exactly the shared factor. The answer is <strong>A</strong>."
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "04b8f01f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the hypothesis assumption",
+      "content": "The student infers similar egg-laying depth from similar pre-hatching shell temperatures. That inference assumes that the same water temperature corresponds to about the same depth near New Caledonia and Fiji."
+    },
+    {
+      "title": "Break the temperature-depth link",
+      "content": "A supports a similar-depth interpretation rather than weakening it. B concerns post-hatching movement, not egg-laying depth. D discusses suitable locations near Fiji but does not compare temperature at depth across regions. The remaining finding shows the same temperature could occur at different depths in the two places, weakening the hypothesis. The answer is <strong>C</strong>."
+    }
+  ]
+}

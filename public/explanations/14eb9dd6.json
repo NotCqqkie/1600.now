@@ -1,0 +1,15 @@
+{
+  "questionId": "14eb9dd6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal a surprising result",
+      "content": "The first sentence describes a crude method: a cardboard cutout and string. The second sentence says the method still produced a close approximation, so the transition must show contrast despite the rough technique."
+    },
+    {
+      "title": "Choose the contrast transition",
+      "content": "The matching transition means nevertheless. Choice B signals similarity, Choice C signals restatement, and Choice D suggests the outcome was fitting or expected; none captures the surprising accuracy. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b46a2e04",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hypothesis",
+      "content": "The mating environment hypothesis predicts that plants adjust floral sex allocation when mating opportunities change. The researchers concluded the hypothesis was not well supported, so the supporting data should show no useful adjustment in response to the flowering conditions."
+    },
+    {
+      "title": "Compare the data claims",
+      "content": "Choice A only compares peak timing. Choice B mentions unchanged male success after fewer flowers but not the sex allocation pattern. Choice C describes sex allocation but omits reproductive success. The remaining claim pairs strong female bias with unchanged male success. The answer is <strong>D</strong>."
+    }
+  ]
+}

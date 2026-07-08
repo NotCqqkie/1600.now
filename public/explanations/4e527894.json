@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify favorable and total outcomes",
-      "content": "We need to find the probability of choosing a blue marble. Count the favorable outcomes: there are <strong>12 blue marbles</strong>. Count the total number of marbles in the jar: <strong>30 total</strong>."
+      "title": "Count favorable outcomes",
+      "content": "There are $12$ blue marbles out of $30$ total marbles. The favorable outcomes are the blue marbles, and the total outcomes are all marbles in the jar."
     },
     {
-      "title": "Apply the probability formula",
-      "content": "The probability of choosing a blue marble is:<br/>$$P(\\text{blue}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{12}{30}$$<br/><strong>B</strong> is correct.",
+      "title": "Write the probability",
+      "content": "Use the probability formula.\n$$P(\\text{blue})=\\frac{\\text{favorable outcomes}}{\\text{total outcomes}}=\\frac{12}{30}$$\nThe answer is <strong>B</strong>.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

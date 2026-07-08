@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what infinitely many solutions means",
-      "content": "An equation has infinitely many solutions when it is true for all values of the variable. This happens only when both sides of the equation are identical expressions."
+      "title": "Match both sides",
+      "content": "An equation has infinitely many solutions when the two sides are identical expressions for every value of $x$."
     },
     {
-      "title": "Apply this to the equation",
-      "content": "The given equation is<br/>$$8x + k = 8x + 7.$$<br/>Both sides already have the term $8x$. For the sides to be identical for all values of $x$, the constants must be equal, so $k = 7$."
+      "title": "Match the constants",
+      "content": "Both sides already have $8x$.\n$$8x+k=8x+7$$\nSo the constants must be equal. The answer is <strong>7</strong>."
     }
   ]
 }

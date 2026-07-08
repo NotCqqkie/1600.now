@@ -1,0 +1,15 @@
+{
+  "questionId": "47e13155",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hypothesis",
+      "content": "The sentence proposes that helicopter surveying may lead to overestimates of cougar population density. A useful example must therefore connect helicopter surveying with a density result that looks unusually high compared with results from other studies, not merely compare study locations or study sizes."
+    },
+    {
+      "title": "Check the evidence",
+      "content": "Choice A compares the size of two study areas, which does not show an overestimate of density. Choice C reports a low maximum density, so it points in the opposite direction. Choice D compares Davidson et al. with a camera-trapping study but does not establish a helicopter-related overestimate. Choice B gives Choate et al.'s maximum density of 10.24 individuals per 100 square kilometers, higher than several other studies, so it fits the proposed explanation. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c38d6344",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the plural subject",
+      "content": "The subject \"Epic poems\" is plural, and the sentence defines what epic poems typically are. The blank must be a plural noun phrase that also works with the relative clause \"that tell a story and focus on heroic deeds.\""
+    },
+    {
+      "title": "Reject possession and singularity",
+      "content": "A and C are possessive forms, which do not work as the predicate noun here. D is singular and does not agree with the plural subject or the plural verb \"tell.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d1c02792",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare naming strategies",
+      "content": "The first sentence describes one possible band-naming strategy: choosing a highly unique and original name. The next sentence presents a different strategy: naming the band after a recognizable song by a favorite band. The transition must introduce a different option."
+    },
+    {
+      "title": "Choose the alternative signal",
+      "content": "<ul><li><strong>Choice B</strong>: \"Thus\" signals a result, but the second strategy is not caused by the first.</li><li><strong>Choice C</strong>: \"In other words\" signals restatement, but the second strategy is different.</li><li><strong>Choice D</strong>: \"For instance\" signals an example, but the song-title strategy is not an example of choosing the most original possible name.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

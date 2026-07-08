@@ -1,0 +1,15 @@
+{
+  "questionId": "f53ac190",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the graph values",
+      "content": "The example must use the Amur grape data to show that opposite-side orientation is much more common than same-side orientation. The graph shows about 150 opposite-side pairs and about 60 same-side pairs."
+    },
+    {
+      "title": "Reject inaccurate counts",
+      "content": "B misreads the same-side count as about 49, C says there were no same-side pairs, and D reverses the two counts. The choice with about 150 opposite-side pairs and about 60 same-side pairs matches the graph. The answer is <strong>A</strong>."
+    }
+  ]
+}

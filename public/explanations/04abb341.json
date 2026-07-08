@@ -1,0 +1,15 @@
+{
+  "questionId": "04abb341",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the point",
+      "content": "The graph passes through $(0,14)$. That means when $x=0$, the function value is $14$."
+    },
+    {
+      "title": "Identify the function value",
+      "content": "Since the question asks for $f(0)$, use the $y$-value from the point with $x=0$:<br/>$$f(0)=14$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

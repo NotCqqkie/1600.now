@@ -1,0 +1,15 @@
+{
+  "questionId": "b40c973d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the population evidence",
+      "content": "The approach was meant to boost the Azores bullfinch's numbers. The colon introduces evidence that the population increased from as few as 100 birds to around 1,300, so the blank should describe an approach that achieved its goal."
+    },
+    {
+      "title": "Reject unsupported labels",
+      "content": "Choice B contradicts the population increase. Choice C adds humor, which the evidence does not suggest. Choice D might describe expense, but the passage gives population results, not cost information. The answer is <strong>A</strong>."
+    }
+  ]
+}

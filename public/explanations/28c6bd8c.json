@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the table for Doctor and Internet percentages",
-      "content": "The table shows Doctor accounts for 63% of responses and Internet accounts for 13% of responses."
+      "title": "Combine the table percents",
+      "content": "The table shows $63\\%$ for doctor and $13\\%$ for Internet. Together, that is\n$$\n63\\%+13\\%=76\\%\n$$"
     },
     {
-      "title": "Combine percentages and calculate the count",
-      "content": "Combined percentage: $$63\\% + 13\\% = 76\\%$$. Out of 1,200 surveyed: $$0.76 \\times 1,200 = 912$$. That matches <strong>Choice C &mdash; 912</strong>."
+      "title": "Find the count",
+      "content": "Find $76\\%$ of the $1{,}200$ people surveyed:\n$$\n0.76(1{,}200)=912\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

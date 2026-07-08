@@ -1,0 +1,15 @@
+{
+  "questionId": "64a1da40",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the lowest walnut price",
+      "content": "The student needs the season when walnuts reached their lowest grower price. On the graph, that means finding the shortest walnut bar, not comparing all nut types or overall totals."
+    },
+    {
+      "title": "Compare the season choices",
+      "content": "Choices A, C, and D each name seasons with walnut bars higher than the lowest walnut bar. The remaining choice names the season with the lowest walnut price. The answer is <strong>B</strong>."
+    }
+  ]
+}

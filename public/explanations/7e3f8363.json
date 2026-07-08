@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the y-intercept",
-      "content": "The line contains $(0,4)$, so the y-intercept is $4$. In $f(x)=mx+b$, this means $b=4$."
+      "title": "Use the intercept point",
+      "content": "The point $(0,4)$ shows that the $y$-intercept is $4$. So the equation has the form<br/>$$f(x)=mx+4$$"
     },
     {
       "title": "Find the slope",
-      "content": "Using $(0,4)$ and $(6,34)$:<br/>$$m=\\frac{34-4}{6-0}=\\frac{30}{6}=5$$<br/>So $$f(x)=5x+4.$$"
+      "content": "Use the two given points:<br/>$$m=\\frac{34-4}{6-0}=\\frac{30}{6}=5$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "<strong>C</strong> is correct. It passes both point checks: $f(0)=4$ gives the intercept, and $f(6)=34$ confirms the slope calculation."
+      "title": "Build the equation",
+      "content": "Substitute the slope and intercept:<br/>$$f(x)=5x+4$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

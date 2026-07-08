@@ -1,0 +1,15 @@
+{
+  "questionId": "fde86b09",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose two points on the line",
+      "content": "Use points on the line of best fit, not individual scatterplot points. Two readable points on the line are approximately $(0,12)$ and $(10,1)$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Use change in $y$ divided by change in $x$:\n$$\n\\frac{1-12}{10-0}=\\frac{-11}{10}=-1.1\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

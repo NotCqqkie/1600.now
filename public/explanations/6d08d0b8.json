@@ -1,0 +1,15 @@
+{
+  "questionId": "6d08d0b8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Peru's row",
+      "content": "The sentence already gives Peru's 1995 production as 0.38 million metric tons. To complete it, read the value in the same row for Peru under the 2020 column."
+    },
+    {
+      "title": "Select the table value",
+      "content": "Choice A, Choice B, and Choice D give 2020 values from other countries in the table rather than Peru. Peru's 2020 copper production is listed as 2.15 million metric tons. The answer is <strong>C</strong>."
+    }
+  ]
+}

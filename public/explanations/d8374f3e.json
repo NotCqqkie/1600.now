@@ -1,0 +1,15 @@
+{
+  "questionId": "d8374f3e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficients",
+      "content": "For $x^2+43x+1=0$, the quadratic formula uses $a=1$, $b=43$, and $c=1$."
+    },
+    {
+      "title": "Substitute into the formula",
+      "content": "One solution from the quadratic formula is\n$$x=\\frac{-b+\\sqrt{b^2-4ac}}{2a}$$\nSubstituting $a=1$, $b=43$, and $c=1$ gives\n$$x=\\frac{-43+\\sqrt{(43)^2-4(1)(1)}}{2(1)}$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

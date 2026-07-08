@@ -1,0 +1,15 @@
+{
+  "questionId": "026a3c88",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the proximity finding",
+      "content": "Quito respondents reported higher park use than Bogota respondents, even though fewer Quito respondents lived within a 10-minute walk of a park. The text concludes that proximity alone cannot explain the difference in park use."
+    },
+    {
+      "title": "Reject unsupported causes",
+      "content": "Choice A discusses researcher expectations, which the text never mentions. Choice B concerns when sources were calculated, not the cause of the difference. Choice D questions survey accuracy, but the text treats the survey results as evidence. The answer is <strong>C</strong>."
+    }
+  ]
+}

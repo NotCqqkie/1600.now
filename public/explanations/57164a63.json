@@ -1,0 +1,15 @@
+{
+  "questionId": "57164a63",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the difference",
+      "content": "Maya needs at least $120$ signatures and already has $73$. The minimum additional number is the difference between those values."
+    },
+    {
+      "title": "Find the minimum additional amount",
+      "content": "Subtract the signatures Maya already has from the required number.<br/>$$120-73=47$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "a46f08aa",
+  "correctAnswer": "100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find circle H radius",
+      "content": "In standard circle form, the right side is the radius squared.<br/>$$(x+5)^2+(y-4)^2=49$$<br/>So<br/>$$r_H^2=49$$<br/>and $r_H=7$."
+    },
+    {
+      "title": "Find circle J radius",
+      "content": "Circle $J$ has radius $3$ units greater than circle $H$.<br/>$$r_J=7+3=10$$"
+    },
+    {
+      "title": "Square the new radius",
+      "content": "For circle $J$, the right side of the equation is $r_J^2$.<br/>$$p=10^2=100$$<br/>The answer is <strong>100</strong>."
+    }
+  ]
+}

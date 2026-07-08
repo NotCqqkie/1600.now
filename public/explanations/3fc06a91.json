@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find when the countries diverge most starkly",
-      "content": "The passage asserts the transition happened at “very different rates”—to support this claim with evidence, we need a year where France and the US are at markedly different stages of the same shift from agriculture to services."
+      "title": "Find the clearest divergence",
+      "content": "The claim is that France and the United States shifted from agriculture to services at very different rates. The clearest support comes from a comparison where the countries' changes differ sharply."
     },
     {
-      "title": "Match the data to the argument",
-      "content": "By 1950, the divergence is unmistakable: the US had reached just 14% agriculture and 53% services, while France lingered at 32% agriculture and 35% services—clear proof of a much faster US transition.<br/><br/>The other three years fail to reveal this: 1800 and 1900 show both countries at similar transition stages, while 2012 shows them nearly converged.<br/><br/><strong>A</strong> is correct."
+      "title": "Reject similar-change comparisons",
+      "content": "<ul><li><strong>Choice B</strong>: The 1800-to-2012 comparison shows broadly similar long-term changes.</li><li><strong>Choice C</strong>: The 1900-to-2012 comparison also ends with both countries nearly converged.</li><li><strong>Choice D</strong>: The 1800-to-1900 comparison shows similar early movement, not sharply different rates.</li></ul>"
+    },
+    {
+      "title": "Use the midcentury gap",
+      "content": "The 1900-to-1950 comparison shows a much faster US transition: agriculture fell and services rose far more sharply there than in France. The answer is <strong>A</strong>."
     }
   ]
 }

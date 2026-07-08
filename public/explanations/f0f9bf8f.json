@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank refers to",
-      "content": "The antecedent is &ldquo;F&eacute;lix Gonz&aacute;lez-Torres&rdquo; &mdash; one person, singular. The blank must be a pronoun that (1) agrees in number with that singular antecedent and (2) clearly indicates it was Gonz&aacute;lez-Torres himself who created the additional installations."
+      "title": "Find the pronoun antecedent",
+      "content": "The blank starts a sentence about who created additional candy installations. The antecedent is Félix González-Torres, one person, so the pronoun must be singular and refer clearly to him."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each pronoun against the singular antecedent F&eacute;lix Gonz&aacute;lez-Torres:<ul><li><strong>\"They all\"</strong>: Plural &mdash; does not agree with the singular antecedent Gonz&aacute;lez-Torres, and does not clearly refer to him. &#10007;</li><li><strong>\"Those\"</strong>: Plural &mdash; does not agree with the singular antecedent, and does not clearly refer to Gonz&aacute;lez-Torres. &#10007;</li><li><strong>\"Both\"</strong>: Implies exactly two entities &mdash; does not agree with the singular antecedent and introduces an ambiguity about what two things are meant. &#10007;</li><li><strong>\"He\"</strong>: Singular masculine pronoun &mdash; agrees with the singular antecedent Gonz&aacute;lez-Torres and unambiguously identifies him as the one who created the additional installations. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject plural or vague pronouns",
+      "content": "A and B are plural, and C implies exactly two things. The sentence needs a singular pronoun for González-Torres as the creator. The answer is <strong>D</strong>."
     }
   ]
 }

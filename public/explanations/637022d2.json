@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given value for reptiles",
-      "content": "We know $r = 12$. Substitute this into the equation $2.5b + 6r = 72$:<br/>$$2.5b + 6(12) = 72$$<br/>$$2.5b + 72 = 72$$"
+      "title": "Substitute the reptiles",
+      "content": "Use $r=12$ because the business cares for $12$ reptiles that day.<br/>$2.5b+6r=72$<br/>$2.5b+6(12)=72$"
     },
     {
-      "title": "Solve for the number of birds",
-      "content": "Subtract 72 from both sides to isolate the term with $b$:<br/>$$2.5b = 0$$<br/>Divide both sides by 2.5:<br/>$$b = 0$$<br/>The business can care for 0 birds on this day. That confirms <strong>A</strong> is correct."
+      "title": "Find the birds",
+      "content": "Simplify the reptile term, then isolate $b$.<br/>$2.5b+72=72$<br/>$2.5b=0$<br/>$b=0$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

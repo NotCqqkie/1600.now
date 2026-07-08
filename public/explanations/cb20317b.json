@@ -1,0 +1,15 @@
+{
+  "questionId": "cb20317b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the noun phrase intact",
+      "content": "The blank introduces the organism's common category before its scientific name: the fungus <em>Hydnum albidum</em>. No punctuation should interrupt that noun phrase."
+    },
+    {
+      "title": "Remove disruptive punctuation",
+      "content": "A creates a sentence break before the scientific name. C introduces the name with an unnecessary colon. D incorrectly separates fungus from the identifying scientific name. The unpunctuated noun phrase is the standard construction. The answer is <strong>B</strong>."
+    }
+  ]
+}

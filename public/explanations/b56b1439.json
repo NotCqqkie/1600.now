@@ -1,0 +1,19 @@
+{
+  "questionId": "b56b1439",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use opposite signs",
+      "content": "From $(x-37)^2=1$, the quantity $x-37$ can equal either value whose square is $1$.<br/>$$x-37=1$$<br/>$$x-37=-1$$"
+    },
+    {
+      "title": "Find both solutions",
+      "content": "Solve the two resulting equations.<br/>$$x-37=1$$<br/>$$x=38$$<br/>$$x-37=-1$$<br/>$$x=36$$"
+    },
+    {
+      "title": "Add the solutions",
+      "content": "The requested sum is<br/>$$38+36=74$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

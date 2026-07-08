@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down what the conclusion claims",
-      "content": "The team concluded that anatomical features may affect a dog&apos;s ability to distinguish speech from nonspeech. To support this, a finding must link a physical trait (head shape) to the speech-vs-nonspeech distinction &mdash; not to language familiarity or language-vs-language discrimination."
+      "title": "Target the conclusion",
+      "content": "The researchers concluded that anatomical features may affect dogs' ability to distinguish speech from nonspeech. Support must therefore connect a physical feature, such as head length, to different responses to actual language versus the scrambled nonspeech recording that does not resemble human speech."
     },
     {
-      "title": "Find the choice that ties anatomy to speech-vs-nonspeech",
-      "content": "We need head shape correlated with a larger gap between brain responses to actual language and to the scrambled (nonspeech) recording."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — Long-headed dogs accustomed to hearing Spanish tended to show more brain activity when hearing Spanish than long-headed dogs accustomed to hearing Hungarian showed when hearing Hungarian.</strong>: compares languages within one head type; never involves the scrambled nonspeech recording. Misses the speech-vs-nonspeech claim. &#10007;</li><li><strong>Choice B — Compared with shorter-headed dogs, longer-headed dogs showed a greater difference in brain activity when hearing either Spanish or Hungarian than when hearing the scrambled recording.</strong>: directly ties head shape (anatomy) to a larger speech-vs-nonspeech response gap. &#10003;</li><li><strong>Choice C — The pattern of brain activity that long-headed dogs showed when hearing the scrambled recording was different from the pattern of brain activity that short-headed dogs showed when hearing the language they were accustomed to.</strong>: compares mismatched conditions (one group&apos;s nonspeech response vs the other group&apos;s speech response); doesn&apos;t cleanly measure either group&apos;s speech-vs-nonspeech distinction. &#10007;</li><li><strong>Choice D — Compared with shorter-headed dogs, longer-headed dogs showed a greater difference in brain activity when hearing the language they were accustomed to than when hearing the other language.</strong>: this is familiar-vs-unfamiliar language, not speech-vs-nonspeech. Wrong distinction. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject wrong comparisons",
+      "content": "Choice A compares responses to familiar languages but not to nonspeech. Choice C compares mismatched groups and conditions. Choice D concerns familiar versus unfamiliar language, not speech versus nonspeech. The needed finding ties longer heads to a larger speech-nonspeech brain-activity gap across the recordings. The answer is <strong>B</strong>."
     }
   ]
 }

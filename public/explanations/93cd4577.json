@@ -1,0 +1,15 @@
+{
+  "questionId": "93cd4577",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the action and result",
+      "content": "The first sentence says a tiger opens its mouth after detecting another animal's scent. The next sentence explains what that same action allows: the scent reaches receptors on the roof of the mouth."
+    },
+    {
+      "title": "Signal how the result happens",
+      "content": "A signals a time shift, while B and C signal contrast. The relationship is not time or contrast; opening the mouth is the means by which the scent reaches the receptors. The answer is <strong>D</strong>."
+    }
+  ]
+}

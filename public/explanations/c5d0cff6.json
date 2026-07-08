@@ -1,0 +1,15 @@
+{
+  "questionId": "c5d0cff6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle sum",
+      "content": "The angles in a triangle add to $180^\\circ$. Substitute the given measures for angles $P$ and $Q$.<br/>$$104^\\circ+38^\\circ+R=180^\\circ$$"
+    },
+    {
+      "title": "Solve for angle R",
+      "content": "Subtract the known angles from $180^\\circ$.<br/>$$R=180^\\circ-104^\\circ-38^\\circ=38^\\circ$$<br/>This also fits the condition that two angles have the same measure. The answer is <strong>A</strong>."
+    }
+  ]
+}

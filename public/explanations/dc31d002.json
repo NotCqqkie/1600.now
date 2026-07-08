@@ -1,0 +1,15 @@
+{
+  "questionId": "dc31d002",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence's main verb is was thereby empowered. The opening needs to identify Pennsylvania and provide background about its becoming a state without adding another finite verb that would compete with the main clause."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "Choice A, Choice B, and Choice C all add finite verbs before the comma, creating a comma splice with was thereby empowered. A participial phrase after Pennsylvania can supply the background while leaving the sentence with one main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f435d1d5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the water's endpoint",
+      "content": "The passage traces water from the Susitna Glacier through several rivers until it reaches the mouth of the Susitna River. The next sentence describes what happens at that location, so the transition should point back to the place just named."
+    },
+    {
+      "title": "Reject examples and alternatives",
+      "content": "Choice B would introduce an example, but the sentence gives the endpoint of the route. Choice C suggests something happens despite another fact, and no such obstacle appears. Choice D suggests an alternative, but emptying into the Gulf continues the same journey. The answer is <strong>A</strong>."
+    }
+  ]
+}

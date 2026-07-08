@@ -1,0 +1,15 @@
+{
+  "questionId": "2665bade",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the publication year",
+      "content": "The student's goal is to identify when <em>The Canon of Medicine</em> was published. The relevant note states that it was published in 1025 CE."
+    },
+    {
+      "title": "Reject off-goal details",
+      "content": "Choice A describes the book's content, Choice B identifies Ibn Sina's background, and Choice C describes the book's later use. None of those choices identifies the publication year. The remaining option uses the needed year. The answer is <strong>D</strong>."
+    }
+  ]
+}

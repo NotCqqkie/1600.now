@@ -1,0 +1,15 @@
+{
+  "questionId": "af5072dd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for the shallowest limit",
+      "content": "The species least suited to full migration into the mesophotic zone would be the one whose current maximum depth is farthest from 30 meters. Maximum depth shows how deep the species is now found."
+    },
+    {
+      "title": "Use maximum depth, not minimum",
+      "content": "A and B focus on minimum depth, which does not show how close a species gets to the mesophotic zone. D is closer to the 30-meter threshold than the most restricted species. The answer is <strong>C</strong>."
+    }
+  ]
+}

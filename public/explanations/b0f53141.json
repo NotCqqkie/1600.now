@@ -1,0 +1,15 @@
+{
+  "questionId": "b0f53141",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply the main verb",
+      "content": "The sentence's subject is \"Florida resident Frederick Hill.\" The phrase between commas describes him, but the sentence still needs a finite main verb to complete the independent clause."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is an infinitive, Choice C is a present participle, and Choice D is a participial phrase. None can serve as the finite main verb of the sentence. The answer is <strong>A</strong>."
+    }
+  ]
+}

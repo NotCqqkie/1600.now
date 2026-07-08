@@ -1,0 +1,15 @@
+{
+  "questionId": "87c05165",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the density contrast",
+      "content": "The student's claim needs a comparison where a country with a very large population is less densely populated than a country with a much smaller population. That means the evidence must include both population and density data for two countries, not just size, population, or change over time."
+    },
+    {
+      "title": "Compare population and density",
+      "content": "Angola has a high population but low density, while São Tomé and Príncipe has a much smaller population and higher density. Choice A gives only Angola's size and population, Choice C misstates the density relationship, and Choice D compares populations across years instead of density. The answer is <strong>B</strong>."
+    }
+  ]
+}

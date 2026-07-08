@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the line from one point and the slope",
-      "content": "The table is linear with slope $2$ and includes the point $(3,7)$. A line with slope $2$ has form $y=2x+b$. Substitute $(3,7)$: $$7=2(3)+b$$ so $b=1$ and $y=2x+1$."
+      "title": "Use the slope to find k",
+      "content": "The points $(3,7)$ and $(k,11)$ are on a line with slope $2$, so<br/>$$\\frac{11-7}{k-3}=2$$<br/>$$\\frac{4}{k-3}=2$$<br/>$$4=2(k-3)$$<br/>$$k=5$$"
     },
     {
-      "title": "Use a list to fill the missing table values",
-      "content": "For the row with output $11$, solve $11=2x+1$, so $x=5$. For the row with input $12$, compute $y=2(12)+1=25$."
+      "title": "Use the slope to find n",
+      "content": "The points $(3,7)$ and $(12,n)$ are also on the line, so<br/>$$\\frac{n-7}{12-3}=2$$<br/>$$\\frac{n-7}{9}=2$$<br/>$$n-7=18$$<br/>$$n=25$$"
     },
     {
-      "title": "Compute the requested sum",
-      "content": "So $k=5$ and $n=25$. Therefore $k+n=5+25=30$."
+      "title": "Add the constants",
+      "content": "Now add the two values:<br/>$$k+n=5+25=30$$<br/>The answer is <strong>30</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Square both sides",
-      "content": "Square $\\sqrt{k-x}=62-x$ to clear the radical: $$k-x=(62-x)^2=3844-124x+x^2.$$ Note that any solution must also satisfy $62-x\\ge 0$ so the right side is non-negative."
+      "content": "Since the right side must be nonnegative, valid solutions need $62-x\\ge0$. Squaring gives<br/>$k-x=(62-x)^2$"
     },
     {
-      "title": "Solve the resulting quadratic",
-      "content": "Rearranging gives $$x^2-123x+(3844-k)=0.$$ The discriminant is $$\\Delta=123^2-4(3844-k)=4k-247.$$"
+      "title": "Form a quadratic equation",
+      "content": "Expand and collect terms.<br/>$k-x=x^2-124x+3{,}844$<br/>$0=x^2-123x+(3{,}844-k)$"
     },
     {
-      "title": "Apply the unique-solution condition",
-      "content": "The smallest $k$ giving a valid solution is the tangency case $\\Delta=0$: $$4k-247=0 \\Rightarrow 4k=247.$$ The repeated root $x=\\tfrac{123}{2}=61.5$ satisfies $x\\le 62$, so it is valid. The answer is <strong>247</strong>."
+      "title": "Make one real solution",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$.<br/>$(-123)^2-4(1)(3{,}844-k)=4k-247$<br/>Set this equal to $0$, giving $4k=247$. This produces $x=61.5$, which satisfies $62-x\\ge0$. The answer is <strong>247</strong>."
     }
   ]
 }

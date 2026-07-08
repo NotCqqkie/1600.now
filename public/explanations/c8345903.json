@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the given arc",
+      "content": "The arc with central angle $100^\\circ$ has length $5\\pi$. Use the arc length formula to connect that arc to the full circumference:<br/>$$5\\pi=\\frac{100}{360}(2\\pi r)$$"
     },
     {
-      "title": "Identify complementary arcs and use the arc length formula",
-      "content": "Arc <em>ADC</em> and arc <em>ABC</em> are two different paths from point A to point C around the circle. Together, they form the complete circumference: Arc <em>ADC</em> + Arc <em>ABC</em> = 2πr. We're given arc <em>ADC</em> = 5π. The angle x = 100° represents the central angle that corresponds to arc <em>ADC</em>.<br/><br/>Using the arc length formula $\\text{Arc length} = \\frac{\\text{central angle}}{360^{\\circ}} \\cdot 2\\pi r$, we can find the radius:<br/>$$5\\pi = \\frac{100^{\\circ}}{360^{\\circ}} \\cdot 2\\pi r$$"
+      "title": "Find the circumference",
+      "content": "Solve for the full circumference $2\\pi r$:<br/>$$5\\pi=\\frac{5}{18}(2\\pi r)$$<br/>$$2\\pi r=18\\pi$$"
     },
     {
-      "title": "Solve for the radius and circumference",
-      "content": "Simplify the equation:<br/>$$5\\pi = \\frac{100}{360} \\cdot 2\\pi r = \\frac{5}{18} \\cdot 2\\pi r$$<br/>Divide both sides by $\\pi$:<br/>$$5 = \\frac{5}{18} \\cdot 2r = \\frac{10r}{18}$$<br/>Multiply both sides by $\\frac{18}{10}$:<br/>$$r = 5 \\cdot \\frac{18}{10} = 9$$<br/>So the circumference is:<br/>$$2\\pi r = 2\\pi(9) = 18\\pi$$"
-    },
-    {
-      "title": "Find arc ABC using complementary arcs",
-      "content": "Since arc <em>ADC</em> and arc <em>ABC</em> together form the complete circle:<br/>$$\\text{Arc } ABC = \\text{Circumference} - \\text{Arc } ADC = 18\\pi - 5\\pi = 13\\pi$$<br/>That is the correct answer."
+      "title": "Subtract the other arc",
+      "content": "The two arcs from $A$ to $C$ make the full circle. Arc $ADC$ is $5\\pi$, so arc $ABC$ is the remaining part:<br/>$$18\\pi-5\\pi=13\\pi$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

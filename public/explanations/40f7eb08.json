@@ -1,0 +1,15 @@
+{
+  "questionId": "40f7eb08",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given value",
+      "content": "The expression asks for $5c-11$, and the equation gives the whole value of $5c$. Since $5c=30$, substitute $30$ for $5c$ directly."
+    },
+    {
+      "title": "Compute the expression",
+      "content": "Now subtract $11$ from the given value of $5c$: $$5c-11=30-11=19$$ The requested value is $19$. The answer is <strong>B</strong>."
+    }
+  ]
+}

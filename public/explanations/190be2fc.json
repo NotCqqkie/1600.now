@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the known total",
-      "content": "The 9 listed integers have mean $41$, so their total is:<br/>$$9\\cdot41=369$$"
+      "content": "The $9$ listed integers have mean $41$, so their total is:<br/>$$9\\cdot 41=369$$"
     },
     {
-      "title": "Use the possible mean of all 10 integers",
-      "content": "Let $x$ be the missing integer and let $M$ be the mean of all 10 integers. Since $M$ is an integer greater than $41$:<br/>$$\\frac{369+x}{10}=M$$<br/>Each integer is positive and less than $60$, so $x\\lt 60$. If $M\\ge43$, then $x=10M-369\\ge61$, which is too large. Therefore $M=42$."
+      "title": "Limit the new mean",
+      "content": "Let $x$ be the missing integer and $M$ be the mean of all $10$ integers. Since each integer is less than $60$, $x<60$. If $M\\geq 43$, then:<br/>$$x=10M-369\\geq 430-369=61$$<br/>That is too large, so the integer mean must be $42$."
     },
     {
-      "title": "Find the missing value",
-      "content": "$$\\frac{369+x}{10}=42$$<br/>$$369+x=420$$<br/>$$x=51$$<br/>The largest of the original 9 values is $45$, so the largest integer in data set B is <strong>51</strong>."
+      "title": "Find the missing integer",
+      "content": "Use the mean of all $10$ integers:<br/>$$\\frac{369+x}{10}=42$$<br/>$$369+x=420$$<br/>$$x=420-369$$<br/>The listed values are all less than the missing value. The answer is <strong>51</strong>."
     }
   ]
 }

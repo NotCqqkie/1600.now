@@ -1,0 +1,20 @@
+{
+  "questionId": "22164565",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: identify the scale factor first",
+      "content": "Count the relevant dimensions or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
+      "title": "Use the area scale factor for similar figures",
+      "content": "When linear dimensions scale by a factor of $k$, areas scale by $k^2$. Since the side of square M is 8 times the side of square N, the area of square M is $8^2 = 64$ times the area of square N."
+    },
+    {
+      "title": "Calculate the area of square M",
+      "content": "Since the area of square N is 36 square centimeters:<br/>$$\\text{Area}_M = 64 \\times 36 = 2,304$$<br/><strong>A</strong> is correct.",
+      "formula": "$$\\text{Area}_M = k^2 \\times \\text{Area}_N$$"
+    }
+  ]
+}

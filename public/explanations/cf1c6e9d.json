@@ -1,0 +1,15 @@
+{
+  "questionId": "cf1c6e9d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the no-role conclusion",
+      "content": "Sato and colleagues concluded that neither <em>V. fischeri</em> nor <em>B. fragilis</em> likely played a significant role in multicellular development. Since the study concerns whether those bacteria cause <em>S. rosetta</em> to form colonies, supporting evidence should show that neither bacterium tends to trigger colony formation."
+    },
+    {
+      "title": "Reject colony triggers",
+      "content": "Choice A says both bacteria triggered colonies, which weakens the conclusion. Choice B says <em>V. fischeri</em> did trigger colonies. Choice C says <em>B. fragilis</em> did trigger colonies. Only a finding that neither exposure tended to produce colonies supports ruling out both bacteria. The answer is <strong>D</strong>."
+    }
+  ]
+}

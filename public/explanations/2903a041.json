@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the two halves of the passage",
-      "content": "Sentences 1&ndash;3 describe what the researchers did and found: they used JWST to measure wavelengths through WASP-39b's atmosphere and detected CO&#8322;. The final sentence pivots to significance &mdash; the finding is the first decisive evidence of CO&#8322; in an exoplanet atmosphere and signals the JWST's broader potential."
+      "title": "Map discovery to significance",
+      "content": "The text first explains how researchers used the JWST to measure wavelengths through WASP-39b's atmosphere and detect carbon dioxide. The final sentence then explains why that discovery matters: it is decisive evidence and shows the telescope's future potential."
     },
     {
-      "title": "Name the overall structure",
-      "content": "The passage moves from a scientific discovery to its importance &mdash; discovery, then significance."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; It discusses a method used by some researchers, then states why an alternative method is superior to it.</strong>: no alternative method is introduced or compared. &#10007;</li><li><strong>Choice B &mdash; It describes how researchers made a scientific discovery, then explains the importance of that discovery.</strong>: matches the discovery-then-significance structure exactly. &#10003;</li><li><strong>Choice C &mdash; It outlines the steps taken in a scientific study, then presents a hypothesis based on that study.</strong>: the closing sentence states implications, not a new hypothesis to be tested. &#10007;</li><li><strong>Choice D &mdash; It examines how a group of scientists reached a conclusion, then shows how other scientists have challenged that conclusion.</strong>: no challenge or counter-research is mentioned. &#10007;</li></ul>That matches <strong>Choice B &mdash; It describes how researchers made a scientific discovery, then explains the importance of that discovery.</strong>."
+      "title": "Reject false structures",
+      "content": "Choice A invents an alternative method. Choice C says the text presents a hypothesis, but the ending presents significance. Choice D invents a challenge from other scientists. The answer is <strong>B</strong>."
     }
   ]
 }

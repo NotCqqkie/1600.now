@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The text asks for the earliest example of <em>spectroscopy</em> data in the table. Two instruments collected spectroscopy data: VISIR at the European Southern Observatory (2006) and TEXES at the Gemini Observatory (2007 and 2019). Two other instruments—T-ReCS (Gemini) and LWS (W.M. Keck)—collected infrared <em>imaging</em> data, not spectroscopy, so they are irrelevant regardless of their dates."
+      "title": "Filter for spectroscopy",
+      "content": "The question asks for the earliest spectroscopy data, not the earliest data overall. The table lists spectroscopy from VISIR in 2006 and TEXES in 2007 and 2019; T-ReCS and LWS are imaging sources."
     },
     {
-      "title": "Match the meaning",
-      "content": "Among the spectroscopy sources, VISIR at the European Southern Observatory obtained data in 2006, one year before TEXES's earliest observation (2007). Choice A (TEXES, 2007) is a later spectroscopy entry. Choice B (T-ReCS, 2007) collected imaging, not spectroscopy. Choice D (LWS, 2003) is the earliest entry overall but also collected imaging, not spectroscopy. Therefore, VISIR at the European Southern Observatory (2006) is the earliest spectroscopy source. That confirms <strong>C</strong> is correct."
+      "title": "Pick earliest spectroscopy",
+      "content": "A is spectroscopy but later than 2006. B is imaging, not spectroscopy. D is the earliest overall source but is also imaging. The remaining source is the earliest spectroscopy entry. The answer is <strong>C</strong>."
     }
   ]
 }

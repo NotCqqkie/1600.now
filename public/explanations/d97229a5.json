@@ -1,0 +1,15 @@
+{
+  "questionId": "d97229a5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two sentences",
+      "content": "The first idea is complete at North American cinema. The next idea begins with Her film and forms a new independent clause about what the film is about, so the two ideas need a full sentence boundary."
+    },
+    {
+      "title": "Avoid faulty joins",
+      "content": "Choice A leaves the clauses with no punctuation. Choice B creates an awkward and ungrammatical join with and her. Choice D uses only a comma between independent clauses. A period after cinema cleanly starts the second sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "792cbbe6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "A discount of $20\\%$ means $0.20$ of the original price."
+    },
+    {
+      "title": "Compute the discount",
+      "content": "The original price is $150$ dollars, so the discount is<br/>$$0.20(150)=30$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

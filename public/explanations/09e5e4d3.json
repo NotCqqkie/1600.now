@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the exact expression the question asks for",
-      "content": "The question asks for $8x^2$. Start with the equation:<br/>$$\\frac{56}{x}=8x$$"
+      "title": "Target the requested expression",
+      "content": "The question asks for $8x^2$, so avoid solving for $x$ separately. Start with<br/>$$\\frac{56}{x}=8x$$"
     },
     {
-      "title": "Multiply by x",
-      "content": "Multiply both sides by $x$:<br/>$$56=8x^2$$<br/>This already gives the requested value.<br/><br/>There is no need to solve for $x$ separately because multiplying by $x$ produces the exact expression $8x^2$ that the question asks for."
-    },
-    {
-      "title": "Answer",
-      "content": "$8x^2=56$, which matches <strong>Choice C &mdash; $56$</strong>. Therefore <strong>C</strong> is correct."
+      "title": "Multiply by the variable",
+      "content": "Multiply both sides by $x$:<br/>$$56=8x^2$$<br/>This directly gives the requested expression. The answer is <strong>C</strong>."
     }
   ]
 }

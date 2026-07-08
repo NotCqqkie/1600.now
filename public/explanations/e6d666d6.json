@@ -1,0 +1,15 @@
+{
+  "questionId": "e6d666d6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join two clauses",
+      "content": "The first clause is that the Australian Desert is an arid desert. The next clause says that, with a total area of about 2,700,000 km², it is one of the largest deserts. Two independent clauses need a comma plus a coordinating conjunction."
+    },
+    {
+      "title": "Reject incomplete joins",
+      "content": "Choice A uses only a comma, creating a comma splice. Choice C has and but no comma before the second independent clause. Choice D leaves the clauses fused with no connector. The comma plus and correctly joins the clauses. The answer is <strong>B</strong>."
+    }
+  ]
+}

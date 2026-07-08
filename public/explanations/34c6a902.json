@@ -1,0 +1,15 @@
+{
+  "questionId": "34c6a902",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared claim",
+      "content": "Text 1 says Nowak and colleagues used barriers to keep root systems separate. Text 2 agrees that this step excluded root-to-root transmission, even though it questions whether other pathways remained possible. That limited agreement is the key."
+    },
+    {
+      "title": "Avoid overclaiming the design",
+      "content": "Choice A goes further than Text 2 allows, Choice B contradicts the need to let fungal strands pass, and Choice C is unsupported by Text 2. The remaining choice states the shared root-barrier point. The answer is <strong>D</strong>."
+    }
+  ]
+}

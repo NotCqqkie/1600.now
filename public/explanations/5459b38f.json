@@ -1,0 +1,15 @@
+{
+  "questionId": "5459b38f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "The first sentence makes a general claim: many mushroom species contain phenolic compounds, including cinnamic acid and catechin. The next sentence names specific mushroom species in which Costa detected those compounds."
+    },
+    {
+      "title": "Choose an example signal",
+      "content": "A signals a cause, while B and C signal contrast. The relationship here is general statement followed by specific instances, so the transition should introduce examples. The answer is <strong>D</strong>."
+    }
+  ]
+}

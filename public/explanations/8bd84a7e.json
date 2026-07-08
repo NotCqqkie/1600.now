@@ -1,0 +1,15 @@
+{
+  "questionId": "8bd84a7e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Extract the demand claim",
+      "content": "The passage says that as renewable energy becomes more economically competitive, demand for petroleum falls. That directly links petroleum demand to competition from renewable energy."
+    },
+    {
+      "title": "Reject contradicted claims",
+      "content": "A invents a predictable annual cycle. C says refining companies are unaffected by demand, but the passage says inventory can become a liability. D reverses the effect by suggesting refiners benefit from declining demand. The renewable-energy relationship is the supported claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

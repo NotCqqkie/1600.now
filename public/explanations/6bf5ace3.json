@@ -1,0 +1,19 @@
+{
+  "questionId": "6bf5ace3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the equations",
+      "content": "Let $s$ be the side length of the square base and $h$ be the height. The volume is:\n$$\ns^2h=468\n$$\nEach lateral face has area:\n$$\nsh=78\n$$"
+    },
+    {
+      "title": "Find the base side",
+      "content": "Divide the volume equation by the lateral-face equation:\n$$\n\\frac{s^2h}{sh}=\\frac{468}{78}\n$$\n$$\ns=6\n$$"
+    },
+    {
+      "title": "Find the height",
+      "content": "Substitute $s=6$ into $sh=78$:\n$$\n6h=78\n$$\n$$\nh=13\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

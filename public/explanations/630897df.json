@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract 332.5 from both sides",
-      "content": "Start with $v = 332.5 + 0.607T$. Subtract 332.5 from both sides:<br/>$$v - 332.5 = 0.607T$$"
+      "title": "Isolate the variable term",
+      "content": "Start with the model and subtract $332.5$ from both sides.<br/>$$v=332.5+0.607T$$<br/>$$v-332.5=0.607T$$"
     },
     {
-      "title": "Divide both sides by 0.607",
-      "content": "$$T = \\frac{v - 332.5}{0.607}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$T = \\frac{v + 0.607}{332.5}$&rsquo;</strong>: Adds 0.607 and divides by 332.5 &mdash; incorrect algebraic manipulation. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$T = \\frac{v - 0.607}{332.5}$&rsquo;</strong>: Subtracts 0.607 and divides by 332.5 instead of subtracting 332.5 and dividing by 0.607. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$T = \\frac{v + 332.5}{0.607}$&rsquo;</strong>: Adds 332.5 instead of subtracting it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$T = \\frac{v - 332.5}{0.607}$&rsquo;</strong>: Subtracts 332.5 then divides by 0.607, correctly inverting both operations. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Divide by the coefficient",
+      "content": "Now divide both sides by $0.607$ to solve for $T$.<br/>$$T=\\frac{v-332.5}{0.607}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

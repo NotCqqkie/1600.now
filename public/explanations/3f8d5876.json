@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the intersection point on the graph",
-      "content": "The solution to this system is the point where the line and parabola meet. Examining the graph, these two curves intersect at exactly one point."
+      "title": "Locate the intersection",
+      "content": "The solution to a graphed system is the point where the two graphs intersect. Here, the line and the nonlinear graph meet at one visible point."
     },
     {
-      "title": "Read the coordinates from the grid",
-      "content": "From the intersection point, the $x$-coordinate is $4$ and the $y$-coordinate is $5$. The solution is $(4,5)$. The result matches."
+      "title": "Read the coordinates",
+      "content": "From the grid, the intersection has $x$-coordinate $4$ and $y$-coordinate $5$, so the solution is $(4,5)$. The answer is <strong>C</strong>."
     }
   ]
 }

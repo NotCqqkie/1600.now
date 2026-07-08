@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the equation of the shown line",
-      "content": "The graph shown is $y=f(x)+19$. Two clear points on the line are $(-1,7)$ and $(0,3)$, so the slope is $$\\frac{3-7}{0-(-1)}=-4.$$ Since the line crosses the $y$-axis at $3$, the shown line is $y=-4x+3$."
+      "title": "Read the shown graph",
+      "content": "The graph shown is $y=f(x)+19$. It slopes downward, so $f$ also has a negative slope because vertical shifts do not change slope."
     },
     {
       "title": "Undo the vertical shift",
-      "content": "Because the shown graph is $y=f(x)+19$, subtract $19$ from the equation of the shown line: $$f(x)+19=-4x+3$$ $$f(x)=-4x-16$$"
+      "content": "The shown graph has $y$-intercept $(0,3)$. To get $y=f(x)$, shift down $19$ units, giving a $y$-intercept of\n$$\n3-19=-16\n$$\nSo $f$ has a negative intercept."
     },
     {
       "title": "Match the signs",
-      "content": "The function $f(x)=-4x-16$ has a negative slope and a negative y-intercept. With $c\\gt 0$ and $d\\gt 0$, the form $-d-cx$ also has a negative y-intercept and a negative slope."
-    },
-    {
-      "title": "Match the form",
-      "content": "The matching choice, $f(x)=-d-cx$, works with $d=16$ and $c=4$. The other choices have a positive intercept, a positive slope, or both. <strong>A</strong> is correct."
+      "content": "Since $c$ and $d$ are positive, $-d-cx$ has a negative intercept and a negative slope. The answer is <strong>A</strong>."
     }
   ]
 }

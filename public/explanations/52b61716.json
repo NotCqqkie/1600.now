@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the time anchor",
-      "content": "The phrase &quot;By the end of the 1990s&quot; fixes the action at a completed point in the past. Any verb here must express an action that was finished before that specific past moment."
+      "title": "Use the past time marker",
+      "content": "The phrase by the end of the 1990s points to a completed moment in the past. The verb must show that the doubling was already complete by that past point."
     },
     {
-      "title": "Eliminate wrong tenses and confirm the answer",
-      "content": "Work through each choice:\n<ul>\n<li><strong>Choice A — has doubled</strong>: present perfect &mdash; cannot be paired with a specific past time marker like &quot;by the end of the 1990s.&quot; &#10007;</li>\n<li><strong>Choice B — had doubled</strong>: past perfect &mdash; correctly shows the doubling was completed before a specific past point. &#10003;</li>\n<li><strong>Choice C — doubles</strong>: simple present &mdash; contradicts the past timeframe entirely. &#10007;</li>\n<li><strong>Choice D — will double</strong>: future tense &mdash; the opposite of a completed past action. &#10007;</li>\n</ul>\n<strong>B</strong> is correct."
+      "title": "Reject wrong tenses",
+      "content": "Choice A uses present perfect, which does not fit a specific past time marker. Choice C uses present tense, and Choice D uses future tense. The past perfect form shows completion before the past reference point. The answer is <strong>B</strong>."
     }
   ]
 }

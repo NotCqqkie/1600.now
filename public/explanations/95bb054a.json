@@ -1,0 +1,15 @@
+{
+  "questionId": "95bb054a",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the endpoints",
+      "content": "The range is the largest value minus the smallest value. In the list, the largest value is $22$ and the smallest value is $5$."
+    },
+    {
+      "title": "Subtract the values",
+      "content": "Compute the range.<br/>$$22-5=17$$ The answer is <strong>17</strong>."
+    }
+  ]
+}

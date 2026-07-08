@@ -1,0 +1,15 @@
+{
+  "questionId": "a872e219",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each population",
+      "content": "Population equals area times population density. The town has population $1{,}040x$, and the suburb has population $540y$."
+    },
+    {
+      "title": "Set the total",
+      "content": "The combined population is $13{,}240$, so add the two population expressions:<br/>$$1{,}040x+540y=13{,}240$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

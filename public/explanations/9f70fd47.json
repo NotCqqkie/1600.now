@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 0 into the equation",
-      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs when $x = 0$. Substituting into the given equation:<br/>$$\\frac{5(0)}{8}=-\\frac{5y}{9}+22$$<br/>$$0=-\\frac{5y}{9}+22$$"
+      "title": "Set x to zero",
+      "content": "The $y$-intercept occurs where $x=0$.\n$$\n\\frac{5(0)}{8}=-\\frac{5y}{9}+22\n$$\n$$\n0=-\\frac{5y}{9}+22\n$$"
     },
     {
       "title": "Solve for y",
-      "content": "Add $\\frac{5y}{9}$ to both sides:<br/>$$\\frac{5y}{9}=22$$<br/>Multiply both sides by 9:<br/>$$5y = 198$$<br/>Divide by 5:<br/>$$y = \\frac{198}{5}$$"
+      "content": "Move the variable term to the other side and multiply by \n$$\n\\frac{9}{5}\n$$\n$$\n\\frac{5y}{9}=22\n$$\n$$\ny=22\\cdot\\frac{9}{5}=\\frac{198}{5}\n$$\nThe answer is <strong>198/5</strong>."
     }
   ]
 }

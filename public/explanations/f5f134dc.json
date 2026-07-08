@@ -1,0 +1,15 @@
+{
+  "questionId": "f5f134dc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two findings",
+      "content": "Text 1 says Cohen and Nyberg found loss aversion in financial decisions generally. Text 2 narrows that idea by concluding that loss aversion appeared only in high-stakes contexts, not in low-stakes ones."
+    },
+    {
+      "title": "State the likely response",
+      "content": "Choice A focuses on data collection rather than stakes. Choice B is too broad because Barak and Levin would add a limitation. Choice C misstates the issue as an explanation for other fields. They would say the effect depends on outcome size. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation from the word problem",
-      "content": "The positive number is $x$. The number that is 7 more than $x$ is $x + 7$. Their product is 228."
+      "title": "Translate the product",
+      "content": "The number that is $7$ more than $x$ is $x+7$. Their product is $228$, so\n$$\nx(x+7)=228\n$$"
     },
     {
-      "title": "Test the answer choices",
-      "content": "Backsolving $x=19$: If $x = 19$, then $x + 7 = 26$, and $19 \\times 26 = 494 \\neq 228$. Fails. Testing $x=12$: If $x = 12$, then $x + 7 = 19$, and $12 \\times 19 = 228$. <strong>B</strong> is correct."
+      "title": "Test the positive choice",
+      "content": "Use the positive value that makes the product work:\n$$\n12(12+7)=12(19)=228\n$$\nSo $x=12$. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "ab5224f8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare averages and studies",
+      "content": "Arthropod studies showed larger differences on average than bird studies did. But every animal class had individual studies well above the arthropod average, so individual results can cross the group averages."
+    },
+    {
+      "title": "Draw the limited conclusion",
+      "content": "Choices A and B introduce details the passage never gives, and Choice D contradicts the statement about average differences. The remaining choice follows from some bird studies exceeding some arthropod studies. The answer is <strong>C</strong>."
+    }
+  ]
+}

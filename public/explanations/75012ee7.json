@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Recognize the same line",
-      "content": "The second equation is $4$ times the first: $$4(3x+2y=11) gives 12x+8y=44.$$ So a point only needs to satisfy $3x+2y=11$ to lie on both graphs."
+      "content": "The second equation is $4$ times the first equation.\n$$\n4(3x+2y=11)\n$$\n$$\n12x+8y=44\n$$\nSo any point on one graph lies on both graphs."
     },
     {
-      "title": "Use r as the y-value",
-      "content": "The answer choices are written in terms of $r$. Let $y=r$ and solve the first equation for $x$: $$3x+2r=11$$ $$3x=11-2r$$ $$x=-2r/3+11/3$$"
+      "title": "Let y equal r",
+      "content": "Use $y=r$ in the first equation and solve for $x$.\n$$\n3x+2r=11\n$$\n$$\nx=-\\frac{2r}{3}+\\frac{11}{3}\n$$"
     },
     {
-      "title": "Match the point",
-      "content": "The point is therefore $(-2r/3+11/3,r)$, which matches <strong>B</strong>."
+      "title": "Form the ordered pair",
+      "content": "The point is\n$$\n(-\\frac{2r}{3}+\\frac{11}{3},r)\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the units",
-      "content": "Maya made 46 cups of tomato sauce total and split it into $x$ small containers and $y$ large containers. The equation $4x + 7y = 46$ totals cups (the right-hand side is in cups), so each term on the left must also be in cups. That forces 4 and 7 to be cup-capacities: 4 cups per small container and 7 cups per large container."
+      "title": "Track the units",
+      "content": "The equation $4x+7y=46$ totals cups of tomato sauce. Since $x$ is the number of small containers, $4x$ represents cups in small containers. Since $y$ is the number of large containers, the coefficient $7$ means $7$ cups per large container."
     },
     {
-      "title": "Interpret $7y$",
-      "content": "Since $y$ counts large containers and 7 is the cups per large container, the product $7y$ equals (cups per large container) $\\times$ (number of large containers) $=$ total cups of tomato sauce in all the large containers."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>A) Number of large containers is just $y$, not $7y$. Eliminate.</li><li>B) Number of small containers is $x$, not $7y$. Eliminate.</li><li>C) Total cups in large containers $= 7y$. Keep.</li><li>D) Total cups in small containers is $4x$, not $7y$. Eliminate.</li></ul>That is the correct answer."
+      "title": "Interpret the product",
+      "content": "The product $7y$ multiplies the number of cups in each large container by the number of large containers.<br/>$$7\\cdot y=(\\text{cups per large container})(\\text{number of large containers})$$<br/>So $7y$ represents the total cups of tomato sauce in the large containers. The answer is <strong>C</strong>."
     }
   ]
 }

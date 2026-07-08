@@ -1,0 +1,19 @@
+{
+  "questionId": "b7b1c6c8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the parabola maximum",
+      "content": "The equation $y=-(x-9)^2+8$ is in vertex form. Since the squared term has a negative coefficient, the vertex is the maximum point, with $y$-value $8$."
+    },
+    {
+      "title": "Compare the horizontal line",
+      "content": "The other graph is the horizontal line $y=9$. Since $9$ is above the parabola's maximum $y$-value of $8$, the two graphs do not intersect. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = 9",
+        "y = -(x - 9)^{2} + 8"
+      ]
+    }
+  ]
+}

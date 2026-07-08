@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the third sentence as a broad claim",
-      "content": "The third (underlined) sentence says, &quot;But evolutionary links between predators and their prey can persist across centuries and continents.&quot; This is a sweeping generalization about predator-prey relationships, stated as a universal principle rather than as a fact about any particular species."
+      "title": "Read the broad claim",
+      "content": "The underlined third sentence says that evolutionary links between predators and prey can persist across centuries and continents. That is a general claim about predator-prey relationships, not a detail limited to one species, one location, or one research team."
     },
     {
-      "title": "See how surrounding sentences relate to it",
-      "content": "The sentences before set up a separation: mimosa evolved with B. terrenus in East Asia, then moved to North America in 1785 without the beetle. The sentences after deliver the specific case that illustrates the principle: when B. terrenus arrived around 2001, it attacked 93% of the trees within a year. The third sentence is the general rule; the mimosa/B. terrenus story is the example."
+      "title": "Track the example around it",
+      "content": "The surrounding sentences provide the specific example. Mimosa trees evolved in East Asia with <em>B. terrenus</em>, were moved to North America in 1785 without the beetle, and were attacked quickly when the beetle later appeared near monitored trees. The mimosa and beetle story illustrates the broad claim that the predator-prey link persisted despite time and distance."
     },
     {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It states the hypothesis that Tran and colleagues had set out to investigate using mimosa trees and <em>B. terrenus</em>.&rsquo;</strong>: the text never says Tran set out to test this idea; the beetle&apos;s arrival was incidental, not a planned experiment. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It presents a generalization that is exemplified by the discussion of the mimosa trees and <em>B. terrenus</em>.&rsquo;</strong>: matches exactly &mdash; broad rule about persistent predator-prey links, then the mimosa case as the example. &#10003;</li><li><strong>Choice C &mdash; &lsquo;It provides context that clarifies why the species mentioned spread to new locations.&rsquo;</strong>: the sentence says nothing about why the trees or beetles spread; humans introduced them. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It offers an alternative explanation for the findings of Tran and colleagues.&rsquo;</strong>: it is not an alternative explanation &mdash; it is the principle the findings confirm. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Match the function",
+      "content": "Choice A invents a planned hypothesis by Tran's team. Choice C says the sentence explains why species spread, which it does not. Choice D calls it an alternative explanation, but it functions as the principle illustrated by the later example. Choice B describes that structure accurately. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "3b7f7c6c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the slopes",
+      "content": "Rewrite each equation in slope-intercept form.\n$$3x+y=13$$\n$$y=-3x+13$$\n$$4x-y=15$$\n$$y=4x-15$$"
+    },
+    {
+      "title": "Count the intersections",
+      "content": "The slopes $-3$ and $4$ are different, so the lines intersect at exactly one point."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two lines shows one intersection, matching the slope comparison.\nThe answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y = 13 - 3x",
+        "y = 4x - 15"
+      ]
+    }
+  ]
+}

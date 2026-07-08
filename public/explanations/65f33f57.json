@@ -1,0 +1,15 @@
+{
+  "questionId": "65f33f57",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Weaken the FTA claim",
+      "content": "The student claims that joining an FTA increases agricultural export growth rates. To weaken that claim, the graph must show a country whose export growth rate was higher before joining than after joining. That pattern would show that the agreement did not increase the growth rate."
+    },
+    {
+      "title": "Use Nicaragua's decline",
+      "content": "Nicaragua's exports still grew after CAFTA-DR, but their growth rate was higher before the agreement. Choice A gives only positive post-FTA growth, Choice C supports the claim with Mexico's reversal from decline to growth, and Choice D supports it with El Salvador's higher later rate. The answer is <strong>B</strong>."
+    }
+  ]
+}

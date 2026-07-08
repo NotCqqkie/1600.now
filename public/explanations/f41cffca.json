@@ -1,0 +1,19 @@
+{
+  "questionId": "f41cffca",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Look for x-intercepts",
+      "content": "Values of $x$ where $f(x)=0$ are the $x$-intercepts of the graph. So the task is to count how many times the graph touches or crosses the $x$-axis."
+    },
+    {
+      "title": "Use the graph position",
+      "content": "The graph shown stays below the $x$-axis for all displayed values and approaches a horizontal asymptote below the $x$-axis. It never reaches $y=0$."
+    },
+    {
+      "title": "Count the zeros",
+      "content": "Because the graph has no $x$-intercepts, there are zero values of $x$ for which $f(x)=0$. The answer is <strong>D</strong>."
+    }
+  ]
+}

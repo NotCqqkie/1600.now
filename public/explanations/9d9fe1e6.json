@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the y-intercept in the linear function",
-      "content": "In the function $f(x) = 42 - 0.16x$, the constant 42 is the y-intercept — the value of $f(x)$ when $x = 0$."
+      "title": "Identify the starting value",
+      "content": "In $f(x)=42-0.16x$, the constant term is the value when $x=0$. Since $x$ is days after the experiment began, $x=0$ means the start of the experiment."
     },
     {
-      "title": "Evaluate at the start of the experiment",
-      "content": "Since $x$ represents days after the start, $x = 0$ corresponds to the beginning of the experiment. At this point:<br/>$$f(0) = 42 - 0.16(0) = 42 \\text{ cm}$$<br/>So 42 cm is the height of the liquid at the start. That confirms <strong>A</strong> is correct."
+      "title": "Interpret the constant",
+      "content": "$$f(0)=42-0.16(0)=42$$So $42$ is the estimated height of the liquid, in centimeters, at the start of the experiment. The answer is <strong>A</strong>."
     }
   ]
 }

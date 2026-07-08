@@ -1,0 +1,15 @@
+{
+  "questionId": "7d486324",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the genetics link",
+      "content": "The first study links behavioral similarity between dog breeds to genetic similarity, especially for trainability. The second study says bulldogs and French bulldogs show similar trainability, so the conclusion should apply that same behavior-to-genetics connection."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A compares the two breeds with most other breeds, which the passage does not do. Choice B says individual bulldogs are more trainable, but the study says the breeds are similar. Choice D predicts future genetic change, which neither study discusses. The answer is <strong>C</strong>."
+    }
+  ]
+}

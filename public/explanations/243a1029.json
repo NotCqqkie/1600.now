@@ -1,0 +1,15 @@
+{
+  "questionId": "243a1029",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with the given equation and multiply both sides by $19u$.<br/>$$n=\\frac{p}{19u}$$<br/>$$19un=p$$"
+    },
+    {
+      "title": "Write the isolated form",
+      "content": "Rewrite with $p$ on the left.<br/>$$p=19un$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

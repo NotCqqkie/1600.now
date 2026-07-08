@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the problem rail must solve",
-      "content": "Rail's advantage over short-haul flights is the absence of lead time (no security, baggage, or boarding delays). But the passage adds a crucial \"However\": as rail passenger volumes approach capacity limits, long lead times emerge for rail too. This erases rail's advantage. The blank must describe what rail needs to do to <em>prevent</em> those capacity-driven lead times."
+      "title": "Solve the capacity problem",
+      "content": "Rail can compete with short-haul flights because it avoids the long lead time of air travel. But the model suggests rail lead times emerge as passenger volumes approach capacity limits, so the solution must expand capacity."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"rail systems should offer fewer long-haul routes and airlines should offer more long-haul routes.\"</strong>: The passage never discusses long-haul routes for either mode; there is no basis for this inference. &#10007;</li><li><strong>\"rail systems may need to schedule additional trains for these routes.\"</strong>: Adding trains expands capacity, preventing the congestion that generates long lead times and keeping rail competitive with short-haul flights. &#10003;</li><li><strong>\"security, baggage handling, and boarding procedures used by airlines may need to be implemented for rail systems.\"</strong>: Adopting airline procedures would <em>create</em> the long lead times rail currently avoids &mdash; the opposite of solving the problem. &#10007;</li><li><strong>\"passengers who travel by rail for these routes will need to accept that lead times will be similar to those for air travel.\"</strong>: Accepting worse conditions does not keep rail \"viable\" as an alternative; it concedes the advantage rail needs to retain. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the viable fix",
+      "content": "<ul><li><strong>Choice A</strong>: Discusses long-haul routes, which are not the problem.</li><li><strong>Choice B</strong>: Adds train capacity, reducing the congestion that creates lead times.</li><li><strong>Choice C</strong>: Adds airline-style procedures, which would create more delay.</li><li><strong>Choice D</strong>: Accepts the loss of rail's advantage rather than preserving it.</li></ul>The answer is <strong>B</strong>."
     }
   ]
 }

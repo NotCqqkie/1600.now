@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Determine what the blank must mean",
-      "content": "The fork fern has the largest known genome. Because extremely large genomes carry &quot;high biological costs,&quot; the sentence suggests evolutionary pressure prevents any genome from growing even larger &mdash; so this record is unlikely to be [blank]. The blank must mean &quot;surpassed&quot; or &quot;beaten by something larger.&quot;<ul><li><strong>Choice A &mdash; protracted</strong>: means drawn out or prolonged; doesn&apos;t relate to a record being beaten &#10007;</li><li><strong>Choice B &mdash; superseded</strong>: means replaced or surpassed by something better or larger; perfectly fits &quot;the largest known genome is unlikely to be exceeded&quot; &#10003;</li><li><strong>Choice C &mdash; curtailed</strong>: means cut short or reduced; the passage discusses size records, not reduction &#10007;</li><li><strong>Choice D &mdash; obviated</strong>: means made unnecessary; a genome record can&apos;t be made unnecessary &#10007;</li></ul>"
+      "title": "Use the record context",
+      "content": "The sentence says <em>Tmesipteris oblanceolata</em> has the largest known eukaryote genome. Because extremely large genomes have high biological costs, the passage suggests that an even larger genome is unlikely to appear and replace that record."
     },
     {
-      "title": "Confirm with the passage logic",
-      "content": "High biological costs act as a natural ceiling on genome size &mdash; organisms with huge genomes pay severe penalties, so evolution is unlikely to produce an even larger one. The fork fern&apos;s record is therefore unlikely to be superseded (surpassed by another organism&apos;s genome).<br/><br/>That is the correct answer."
+      "title": "Choose the record word",
+      "content": "A means prolonged, which does not fit a size record. C means reduced, and D means made unnecessary; neither describes another organism exceeding the record. The needed word means surpassed or replaced by something that comes after it. The answer is <strong>B</strong>."
     }
   ]
 }

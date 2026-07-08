@@ -1,0 +1,15 @@
+{
+  "questionId": "1456c152",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the prism volume formula",
+      "content": "For a triangular prism, the volume is<br/>$$V=Bh$$<br/>where $B$ is the area of the base and $h$ is the prism height."
+    },
+    {
+      "title": "Solve for base area",
+      "content": "Substitute $V=84$ and $h=4$:<br/>$$84=4B$$<br/>$$B=\\frac{84}{4}=21$$<br/>The answer is <strong>21</strong>."
+    }
+  ]
+}

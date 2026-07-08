@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the conclusion requires",
-      "content": "The researchers concluded that the Casarabe people developed &quot;a form of urbanism in the Amazon basin.&quot; Urbanism means organized, concentrated settlement with significant infrastructure &mdash; cities, districts, roads, canals. Any finding that supports this conclusion must show evidence of exactly that kind of dense, coordinated development."
+      "title": "Define evidence of urbanism",
+      "content": "The conclusion is that the Casarabe people developed a form of urbanism. Support should show concentrated settlements, planned construction, or infrastructure in the Amazon basin."
     },
     {
-      "title": "Eliminate each choice against the urbanism standard",
-      "content": "<ul><li><strong>Choice A — They show shapes consistent with widely separated settlements of roughly equal small size surrounded by uncultivated jungle.</strong>: Widely separated, equally small settlements with jungle between them describe sparse distribution &mdash; the old view the researchers are contradicting. &#10007;</li><li><strong>Choice B — They show shapes consistent with long-distance footpaths running from Casarabe territories to large cities outside the region inhabited by the Casarabe people.</strong>: These large cities are outside Casarabe territory, so they provide no evidence of Casarabe urbanism. &#10007;</li><li><strong>Choice C — They show shapes consistent with scattered small farms created by clearing jungle areas near sources of fresh water.</strong>: Scattered small farms are rural, not urban. This supports neither density nor coordinated infrastructure. &#10007;</li><li><strong>Choice D — They show shapes consistent with monumental platforms and dense central settlements linked to smaller settlements by a system of canals and roadways.</strong>: Monumental platforms, dense central settlements, and an integrated network of canals and roads are precisely what urbanism looks like &mdash; cities connected to surrounding communities by planned infrastructure. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Reject sparse-settlement evidence",
+      "content": "<ul><li><strong>Choice A</strong>: Small, widely separated settlements surrounded by jungle support the older sparse-population view.</li><li><strong>Choice B</strong>: Cities outside Casarabe territory do not show Casarabe urbanism.</li><li><strong>Choice C</strong>: Scattered small farms are not evidence of urban settlement.</li></ul>"
+    },
+    {
+      "title": "Use dense linked settlements",
+      "content": "Monumental platforms, dense central settlements, and canals and roads linking smaller settlements are the kind of organized infrastructure that supports urbanism. The answer is <strong>D</strong>."
     }
   ]
 }

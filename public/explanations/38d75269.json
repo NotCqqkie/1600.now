@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Step 1 — Identify the task",
-      "content": "Command-of-Evidence: pick the quotation that best illustrates the underlined claim — the sculptures LOOK as delicate as a breeze but are actually very DURABLE."
+      "title": "Match delicate and durable",
+      "content": "The underlined claim says Echelman's sculptures look delicate but are actually durable. The best supporting quotation must address both the light, flexible appearance and the physical strength that explains durability."
     },
     {
-      "title": "Step 2 — Match the evidence",
-      "content": "The right quote must speak to physical durability while remaining consistent with the delicate look. The correct answer says the materials are &quot;both flexible and strong&quot; — flexibility preserves the airy appearance, strength delivers the durability."
-    },
-    {
-      "title": "Step 3 — Per-choice elimination",
-      "content": "<ul><li><strong>Choice A — \"Echelman uses a special program that makes a 3D model of the sculpture.\"</strong>: describes a design tool; says nothing about how durable the finished sculpture is. &#10007;</li><li><strong>Choice B — \"The first part of planning a new sculpture is done using paper and pencil, and then a digital program is used to finalize the design.\"</strong>: describes the design workflow; irrelevant to the appearance-vs.-durability contrast. &#10007;</li><li><strong>Choice D — \"Each sculpture is designed to reflect local landmarks from the area in which it is eventually installed.\"</strong>: speaks to artistic inspiration, not the strength of the materials. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject unrelated evidence",
+      "content": "A and B discuss design tools and planning rather than durability, and D discusses local inspiration rather than material strength. A quotation saying the materials are flexible and strong directly supports both sides of the claim. The answer is <strong>C</strong>."
     }
   ]
 }

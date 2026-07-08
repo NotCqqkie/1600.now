@@ -1,0 +1,15 @@
+{
+  "questionId": "47325093",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "Convert $6\\%$ to a decimal.\n$$6\\%=\\frac{6}{100}=0.06$$"
+    },
+    {
+      "title": "Multiply by the total",
+      "content": "Find $6\\%$ of $450$ objects by multiplying the decimal by the total number of objects.\n$$0.06(450)=27$$\nThe answer is <strong>27</strong>."
+    }
+  ]
+}

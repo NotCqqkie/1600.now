@@ -1,0 +1,15 @@
+{
+  "questionId": "e600a369",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Punctuate the temperature series",
+      "content": "The blank supplies the first two temperature-time pairs in a three-item series that ends with and 16 degrees Celsius at 5:00 p.m. The first two pairs need a comma between them and a comma before the final and."
+    },
+    {
+      "title": "Reject fused or split pairs",
+      "content": "Choice A lacks separators between the pairs and before the final item. Choice B still fuses the first two pairs. Choice C separates each temperature from its time, breaking the units. The remaining choice correctly separates the series items. The answer is <strong>D</strong>."
+    }
+  ]
+}

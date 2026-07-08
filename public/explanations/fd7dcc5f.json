@@ -1,0 +1,15 @@
+{
+  "questionId": "fd7dcc5f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal a specific example",
+      "content": "The first sentence states a general principle: energy transfers across trophic levels. The second sentence illustrates that principle with plants, herbivores, carnivores, and omnivores in a food chain."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice A signals similarity between parallel ideas, not a general idea followed by an illustration. Choice B signals contrast, but the second sentence supports the first. Choice D also signals opposition, which does not fit. The answer is <strong>C</strong>."
+    }
+  ]
+}

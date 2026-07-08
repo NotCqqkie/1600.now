@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The phrase “To address this problem” directly links the underlined sentence to the problem just identified in the previous sentence. This signals that the sentence's function is to describe a solution—specifically, the method used to overcome the monitoring difficulty."
+      "title": "Use the problem-solution cue",
+      "content": "The phrase \"To address this problem\" points back to the difficulty of monitoring insects at night. The underlined sentence explains the method the team used to solve that monitoring problem."
     },
     {
-      "title": "Match the method to the choices",
-      "content": "Choice A (&lsquo;To describe an approach a team of scientists used to study pollinators&rsquo;) correctly identifies the underlined sentence's function: it describes the approach scientists used (time-lapse cameras) to study the pollinators.<br/><br/>The other three misidentify the sentence's role:<ul><li>B treats it as questioning a claim</li><li>C treats it as explaining moth preferences</li><li>D treats it as announcing findings, which actually appear in the following sentence</li></ul><br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Separate method from findings",
+      "content": "B says the sentence questions a claim, which it does not. C discusses moth preference, which is not stated. D describes the later findings, not the underlined sentence. The remaining option identifies the research approach. The answer is <strong>A</strong>."
     }
   ]
 }

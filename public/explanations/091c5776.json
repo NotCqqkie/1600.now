@@ -1,0 +1,19 @@
+{
+  "questionId": "091c5776",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare tax-haven use",
+      "content": "Laurent's research says tax havens are rarely used by investors living in Japan, while many investors who use tax havens reside in Saudi Arabia or Greece. The text gives Singapore as an example of a tax haven, so the supported comparison is about how likely investors in Japan are to use that kind of place."
+    },
+    {
+      "title": "Avoid unsupported inferences",
+      "content": "<ul><li><strong>Choice A - They are engaging in investment practices that Vale would acknowledge as beneficial because they are legally permissible.</strong>: Vale disapproves of tax havens even though they are legal, so the text does not say she would call them beneficial.</li><li><strong>Choice C - They are more likely than residents of Singapore to utilize investment strategies that might yield greater returns but that might also result in greater losses.</strong>: Risk, returns, and Singapore residents are not discussed.</li></ul>"
+    },
+    {
+      "title": "Keep the comparison straight",
+      "content": "<ul><li><strong>Choice D - They are more likely than residents of Greece to engage in tax avoidance.</strong>: This reverses the passage, which says many tax-haven users reside in Greece while Japan's investors rarely use tax havens.</li></ul>The supported claim is that Japan investors are less likely than Saudi Arabia investors to store wealth in a tax haven such as Singapore. The answer is <strong>B</strong>."
+    }
+  ]
+}

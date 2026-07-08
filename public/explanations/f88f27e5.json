@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the triangle and identify the interior angle at r and s",
-      "content": "The three intersecting lines form a triangle with vertices at their three intersection points.<br/><br/>The angle marked 106 degrees is exterior to the triangle (on the far side of line <em>r</em>).<br/><br/>The interior angle of the triangle at the intersection of lines <em>r</em> and <em>s</em> is supplementary to it:<br/>$$\\text{Interior angle at } r\\text{-}s = 180^{\\circ} - 106^{\\circ} = 74^{\\circ}$$"
+      "title": "Find the interior angle",
+      "content": "The angle adjacent to $106^{\\circ}$ is supplementary to it, so its measure is<br/>$$180^{\\circ}-106^{\\circ}=74^{\\circ}$$"
     },
     {
-      "title": "Apply the triangle angle sum",
-      "content": "The three interior angles of the triangle must sum to 180 degrees. We know:<ul><li>Angle at <em>r</em>-<em>s</em> intersection: 74 degrees</li><li>Angle at <em>r</em>-<em>t</em> intersection: 23 degrees (marked in the diagram)</li><li>Angle at <em>s</em>-<em>t</em> intersection: unknown</li></ul>$$74^{\\circ} + 23^{\\circ} + (\\text{angle at } s\\text{-}t) = 180^{\\circ}$$<br/>$$\\text{Angle at } s\\text{-}t = 180^{\\circ} - 74^{\\circ} - 23^{\\circ} = 83^{\\circ}$$"
-    },
-    {
-      "title": "Find x using supplementary angles",
-      "content": "The angle <em>x</em>° is on the opposite side of line <em>s</em> from the interior angle we just found. These two angles form a linear pair (they share a line and are supplementary):<br/>$$x^{\\circ} = 180^{\\circ} - 83^{\\circ} = 97^{\\circ}$$<br/>The answer is <strong>97</strong>."
+      "title": "Use the exterior angle",
+      "content": "The angle marked $x$ is an exterior angle of the triangle. It equals the sum of the two nonadjacent interior angles directly here.<br/>$$x=23+74=97$$<br/>The answer is <strong>97</strong>."
     }
   ]
 }

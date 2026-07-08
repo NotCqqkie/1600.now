@@ -1,0 +1,19 @@
+{
+  "questionId": "7d49b497",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the path area",
+      "content": "The outer rectangle adds $x$ feet on all four sides, so its dimensions are $21+2x$ by $11+2x$. The path area is outer area minus pool area.<br/>$$(21+2x)(11+2x)-231=144$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Expand and simplify.<br/>$$4x^2+64x+231-231=144$$<br/>$$4x^2+64x-144=0$$<br/>$$x^2+16x-36=0$$<br/>$$(x+18)(x-2)=0$$"
+    },
+    {
+      "title": "Use the positive width",
+      "content": "The possible values are $x=-18$ and $x=2$, but a width must be positive. Thus $x=2$, which matches choice A. The answer is <strong>A</strong>."
+    }
+  ]
+}

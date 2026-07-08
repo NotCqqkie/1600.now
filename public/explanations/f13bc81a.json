@@ -1,0 +1,19 @@
+{
+  "questionId": "f13bc81a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the lighting finding",
+      "content": "The researchers found that poor street lighting deters new or inexperienced cyclists but has little effect on experienced cyclists. More streetlights would most directly affect the group deterred by poor lighting."
+    },
+    {
+      "title": "Reject reversed effects",
+      "content": "<ul><li><strong>Choice A</strong> predicts fewer experienced cyclists, but lighting has little effect on them.</li><li><strong>Choice C</strong> predicts more experienced cyclists, but that group is not the one deterred.</li><li><strong>Choice D</strong> reverses the likely effect on inexperienced cyclists.</li></ul>"
+    },
+    {
+      "title": "Increase the deterred group",
+      "content": "Improving lighting could remove a barrier for new or inexperienced cyclists, increasing the number of them riding in the city. The answer is <strong>B</strong>."
+    }
+  ]
+}

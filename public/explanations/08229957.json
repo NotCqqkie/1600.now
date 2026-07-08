@@ -1,0 +1,15 @@
+{
+  "questionId": "08229957",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the ink placement",
+      "content": "The goal is to clearly contrast intaglio and relief printing. The relevant difference is where ink is applied: intaglio uses the grooved, carved parts of the block, while relief uses the raised, uncarved parts."
+    },
+    {
+      "title": "Reject weak contrasts",
+      "content": "B identifies Mori's technique without explaining the general difference. C contrasts a relief detail with a feature shared by both methods. D states a similarity and wrongly says both place ink in grooves. The effective sentence directly opposes the two ink placements. The answer is <strong>A</strong>."
+    }
+  ]
+}

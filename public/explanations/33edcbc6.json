@@ -1,0 +1,19 @@
+{
+  "questionId": "33edcbc6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with the given equation: $$36=\\frac{2K}{v^2}$$ Multiply both sides by $v^2$ to move the variable out of the denominator: $$36v^2=2K$$"
+    },
+    {
+      "title": "Isolate the speed term",
+      "content": "Divide both sides by $36$ to isolate $v^2$: $$v^2=\\frac{2K}{36}$$ This gives the square of the speed in terms of the kinetic energy $K$."
+    },
+    {
+      "title": "Take the positive root",
+      "content": "The problem states that $v$ is positive, so use the positive square root: $$v=\\sqrt{\\frac{2K}{36}}$$ This matches choice A. The answer is <strong>A</strong>."
+    }
+  ]
+}

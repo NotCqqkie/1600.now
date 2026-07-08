@@ -1,0 +1,15 @@
+{
+  "questionId": "9838f91f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply rate by area",
+      "content": "The recommendation is a maximum of $96$ shrubs per acre. For $4$ acres, multiply:\n$$\n96\\cdot 4=384\n$$"
+    },
+    {
+      "title": "Choose the maximum count",
+      "content": "The maximum number of shrubs is $384$. The answer is <strong>B</strong>."
+    }
+  ]
+}

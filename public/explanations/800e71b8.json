@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Add the two arcs",
-      "content": "The minor arc $MN$ and major arc $MPN$ share endpoints and together make the full circumference of the circle. Add their lengths."
+      "title": "Recognize the full circle",
+      "content": "The minor arc $MN$ and the major arc $MPN$ are the two arcs from $M$ to $N$. Together, they make the full circumference of the circle."
     },
     {
-      "title": "Recognize how the two arcs partition the circle",
-      "content": "The minor arc MN (the shorter path from M to N) and the major arc MPN (the longer path from M through P to N) together form the complete circle. These two arcs share endpoints M and N but cover all other points on the circle exactly once—no overlap, no gaps."
-    },
-    {
-      "title": "Add the arc lengths to find the circumference",
-      "content": "Since the two arcs together make up the entire circle:<br/>$$\\text{Circumference} = \\text{arc } MN + \\text{arc } MPN = 39 + 195 = 234 \\text{ cm}$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Add the arc lengths",
+      "content": "Add the two arc lengths:<br/>$$39+195=234$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

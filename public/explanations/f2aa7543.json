@@ -1,0 +1,15 @@
+{
+  "questionId": "f2aa7543",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the dog count",
+      "content": "The equation uses $d$ for the number of dogs. Since the business cares for $32$ dogs, substitute $d=32$ into the equation.\n\n$$2.5c+4(32)=128$$"
+    },
+    {
+      "title": "Solve for cats",
+      "content": "Simplify the dog term, then isolate $c$.\n\n$$2.5c+128=128$$\n\n$$2.5c=0$$\n\n$$c=0$$\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

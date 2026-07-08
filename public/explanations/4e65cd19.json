@@ -1,0 +1,15 @@
+{
+  "questionId": "4e65cd19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the linear pair",
+      "content": "At line $q$, the angles marked $x^\\circ$ and $142^\\circ$ are adjacent on a straight line. Adjacent angles on a straight line are supplementary."
+    },
+    {
+      "title": "Add the adjacent angles",
+      "content": "Supplementary angles have a sum of $180^\\circ$, so\n$$x+142=180$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

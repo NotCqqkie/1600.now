@@ -1,0 +1,15 @@
+{
+  "questionId": "7aad4c0f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the shared preference",
+      "content": "Both glossy ibises and little blue herons prefer areas with standing water for more than 60 days per year. The blank asks where neither species is very drawn, so it should describe the opposite of that shared preference."
+    },
+    {
+      "title": "Reject unsupported habitat claims",
+      "content": "Choice A concerns deep breeding-season water, which only glossy ibises prefer. Choice B is too broad, and Choice C misuses the 60-day detail by applying it to breeding seasons instead of standing water. The remaining choice directly reverses the shared standing-water preference. The answer is <strong>D</strong>."
+    }
+  ]
+}

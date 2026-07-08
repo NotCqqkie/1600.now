@@ -1,0 +1,15 @@
+{
+  "questionId": "75f1228f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $-5$ in the function rule.<br/>$$h(-5)=6|-5|$$"
+    },
+    {
+      "title": "Evaluate the absolute value",
+      "content": "The absolute value of $-5$ is $5$, so multiply.<br/>$$h(-5)=6(5)$$<br/>$$h(-5)=30$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b8c06570",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the hypothesis",
+      "content": "The hypothesis predicts that, in low visibility with medium-sized vortices, wider-headed fish should be worse than narrower-headed fish at detecting obstructions. The support must match those conditions."
+    },
+    {
+      "title": "Require a direct comparison",
+      "content": "Choice A compares only specimens of one narrow-headed species. Choice C shows equal performance, not worse performance for wider-headed fish. Choice D gives only the wide-headed bristlemouth's result without a narrow-headed comparison. The remaining choice compares both fish under the right conditions and shows the wider-headed fish bumping into more obstructions. The answer is <strong>B</strong>."
+    }
+  ]
+}

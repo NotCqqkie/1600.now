@@ -1,0 +1,15 @@
+{
+  "questionId": "17f23d23",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the matching poem pattern",
+      "content": "The sentence gives two examples of ekphrastic poems. Hayden's poem meditates on Monet's <em>Water Lilies</em>, and Fernandez's poem takes Klimt's <em>The Kiss</em> as its subject. The blank should signal that the second poem follows the same pattern as the first."
+    },
+    {
+      "title": "Reject contrast and cause",
+      "content": "Choice A signals contrast, but Fernandez's poem is not a counterexample. Choice C signals a result, but Hayden's poem does not cause Fernandez's. Choice D signals opposition, but the poems are parallel. The needed transition means in the same way. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5373664e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the prey types",
+      "content": "Text 1 reports that reducing predation on house mice led to a significant increase in their numbers. Text 2 explains that many predation-relief studies with this kind of result involve small, rapidly reproducing prey such as birds, mice, and frogs."
+    },
+    {
+      "title": "Use Text 2's explanation",
+      "content": "Text 2 contrasts those animals with white-tailed deer, which are large and reproduce slowly. That contrast suggests the difference between the two studies may come from traits of the prey species, not from the predator species or the research site. House mice fit the small, rapidly reproducing category; white-tailed deer do not."
+    },
+    {
+      "title": "Keep the focus on prey traits",
+      "content": "Choice A focuses on predator-prey size ratio, Choice B incorrectly limits the response to house mice, and Choice C compares predator traits. The remaining statement matches Text 2's explanation that house-mouse traits may help explain Harwood and colleagues' findings. The answer is <strong>D</strong>."
+    }
+  ]
+}

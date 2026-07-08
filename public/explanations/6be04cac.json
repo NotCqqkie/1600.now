@@ -1,0 +1,15 @@
+{
+  "questionId": "6be04cac",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the required verb",
+      "content": "The clause <em>this phrase ______ roughly to \"it's an old story\"</em> needs a main finite verb. The subject is <em>this phrase</em>, which is singular and third person, so the completed clause needs a verb form that can agree with that subject."
+    },
+    {
+      "title": "Use a finite singular verb",
+      "content": "Choice A, <em>to translate</em>, is an infinitive, so it cannot serve by itself as the main verb of the clause. Choice B, <em>translating</em>, is a participle or gerund and would need an auxiliary verb to form a predicate. Choice C, <em>having translated</em>, is also non-finite and does not create a complete main clause after the subject. Choice D, <em>translates</em>, is a third-person singular present-tense verb, so it agrees with <em>this phrase</em> and completes the sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

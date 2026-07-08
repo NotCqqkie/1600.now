@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the relationship between population, density, and area",
-      "content": "Population density is defined as population divided by area. Rearranging to solve for area:",
+      "title": "Use the density relationship",
+      "content": "Population density equals population divided by area. Rearranging gives the area formula.",
       "formula": "$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population density}}$$"
     },
     {
-      "title": "Substitute the given values and divide",
-      "content": "With population = 86,400 and population density = 240 people per square mile:<br/>$$\\text{Area} = \\frac{86,400}{240}$$<br/>Performing the division: $86,400 \\div 240 = 360$<br/><br/>The area of Birch County is <strong>360 square miles</strong>."
+      "title": "Divide population by density",
+      "content": "Substitute the population and density:\n$$\\frac{86{,}400}{240}=360$$\nThe answer is <strong>360</strong>."
     }
   ]
 }

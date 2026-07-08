@@ -1,0 +1,15 @@
+{
+  "questionId": "63ae8844",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Extend the Or31 discovery",
+      "content": "The passage presents EBF as promising because it repels mosquitoes by activating one receptor, Or31, which is present in all known disease-carrying mosquito species. The conclusion should turn that finding into a research strategy."
+    },
+    {
+      "title": "Avoid unrelated next steps",
+      "content": "Choice B focuses on extracting EBF, not developing new repellents. Choice C maps receptor locations, which is not presented as the obstacle. Choice D looks for the maximum number of receptors, moving away from the single-receptor insight. The answer is <strong>A</strong>."
+    }
+  ]
+}

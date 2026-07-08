@@ -1,0 +1,15 @@
+{
+  "questionId": "064c799e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare burst durations",
+      "content": "GRB 230307A lasted 200 seconds, while bursts from neutron-star mergers typically last fewer than 2 seconds. The blank must describe that duration as unusually long for this kind of burst."
+    },
+    {
+      "title": "Choose unusual, not unrelated",
+      "content": "Choice A is a generic event, Choice B means temporary relief, and Choice C means a chance occurrence. The word meaning strange or unusual fits the contrast in burst duration. The answer is <strong>D</strong>."
+    }
+  ]
+}

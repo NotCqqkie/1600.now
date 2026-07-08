@@ -1,0 +1,15 @@
+{
+  "questionId": "e2459660",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Split the factors",
+      "content": "Factor both the coefficient and the variable part. The coefficient $72$ can be split into $8$ and $9$, and $x^2$ means two factors of $x$:\n$$\n72=8\\cdot 9\n$$\n$$\nx^2=x\\cdot x\n$$"
+    },
+    {
+      "title": "Build the product",
+      "content": "Combine one coefficient factor with each $x$ factor. This gives two factors, $8x$ and $9x$, whose product recreates the original expression:\n$$\n72x^2=(8x)(9x)\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "cd3a0fab",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the highest output",
+      "content": "The assertion asks which body of water had the plant with the highest average power generated in 2019. The table must be scanned for the largest value in that column."
+    },
+    {
+      "title": "Compare the listed rivers",
+      "content": "A is 14,126 MWh, C is 2,204 MWh, and D is 10,693 MWh, all below the top value. Hiwassee Dam on the Hiwassee River generated 196,220 MWh, the largest figure shown. The answer is <strong>B</strong>."
+    }
+  ]
+}

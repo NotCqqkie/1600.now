@@ -1,0 +1,15 @@
+{
+  "questionId": "48c3beec",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared topic",
+      "content": "Text 1 says scientists still have a lot to learn about sloths and explains why studying them is difficult. Text 2 describes technology that helps scientists discover hidden sloth activities and correct misconceptions."
+    },
+    {
+      "title": "Exclude one-text topics",
+      "content": "B is not discussed in either text. C appears only in Text 1, and D appears only in Text 2. They are not topics shared by both authors. The answer is <strong>A</strong>."
+    }
+  ]
+}

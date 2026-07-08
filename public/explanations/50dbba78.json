@@ -1,0 +1,15 @@
+{
+  "questionId": "50dbba78",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Avoid a comma splice",
+      "content": "The main clause says NATO members share a commitment to collective defense. After the comma, the sentence needs a nonfinite phrase explaining that commitment, not another independent clause."
+    },
+    {
+      "title": "Use the participle",
+      "content": "A, C, and D are finite verb forms, so each would create an independent clause joined to the first with only a comma. The present participle creates a phrase that attaches to the main clause. The answer is <strong>B</strong>."
+    }
+  ]
+}

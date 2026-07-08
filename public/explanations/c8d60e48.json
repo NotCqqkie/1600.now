@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the isosceles base angles",
-      "content": "Since $AB=AC$, triangle $ABC$ is isosceles, so the base angles at $B$ and $C$ are equal before using the triangle angle sum."
+      "title": "Use equal base angles",
+      "content": "Since $AB=AC$, triangle $ABC$ is isosceles. The angles opposite those equal sides are equal, so angle $ABC$ and angle $ACB$ each measure $67^\\circ$."
     },
     {
-      "title": "Identify base angles in isosceles triangle",
-      "content": "Since $AB = AC$, triangle $ABC$ is isosceles. In an isosceles triangle, the angles opposite the equal sides are equal. The sides $AB$ and $AC$ are equal, so the angles at $B$ and $C$ (the base angles) must be equal.<br/><br/>Therefore: $\\angle ABC = \\angle ACB = 67^{\\circ}$"
-    },
-    {
-      "title": "Use triangle angle sum to find x",
-      "content": "The sum of all angles in any triangle equals $180^{\\circ}$:<br/>$$\\angle BAC + \\angle ABC + \\angle ACB = 180^{\\circ}$$<br/>$$x + 67^{\\circ} + 67^{\\circ} = 180^{\\circ}$$<br/>$$x + 134^{\\circ} = 180^{\\circ}$$<br/>$$x = 46^{\\circ}$$<br/>That is the correct answer."
+      "title": "Use the triangle sum",
+      "content": "The three interior angles of a triangle sum to $180^\\circ$.\n$$x+67^\\circ+67^\\circ=180^\\circ$$\n$$x+134^\\circ=180^\\circ$$\n$$x=46$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

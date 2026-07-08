@@ -1,0 +1,19 @@
+{
+  "questionId": "c1f75a6c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the shared-species clue",
+      "content": "Rivera-Santos's program helped one endangered <em>Amazona</em> species. Since that species corresponds in physiology, behavior, and ecology to related species, the approach may be usable across the genus."
+    },
+    {
+      "title": "Reject wrong meanings",
+      "content": "<ul><li><strong>Choice B</strong> means understandable, not usable again.</li><li><strong>Choice C</strong> means able to be seen, not applied elsewhere.</li><li><strong>Choice D</strong> implies needing rescue, which conflicts with the successful program.</li></ul>"
+    },
+    {
+      "title": "Choose the reusable word",
+      "content": "Replicable means capable of being repeated or applied again, matching the idea that the approach could work for related species. The answer is <strong>A</strong>."
+    }
+  ]
+}

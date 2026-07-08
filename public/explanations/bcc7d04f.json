@@ -1,0 +1,15 @@
+{
+  "questionId": "bcc7d04f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the central phenomenon",
+      "content": "The underlined portion defines convergent evolution as the same trait evolving independently in two reproductively separate lineages. The rest of the passage discusses studies of how that phenomenon occurs."
+    },
+    {
+      "title": "Separate definition from method",
+      "content": "A says the concept was unclear in the studies, but the passage does not imply that. B says the portion gives examples of studies, though it gives a definition. C calls it a method of analysis, but it describes a biological phenomenon. The remaining choice identifies its role as a basic description central to the passage. The answer is <strong>D</strong>."
+    }
+  ]
+}

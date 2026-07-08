@@ -1,0 +1,15 @@
+{
+  "questionId": "0ea102ed",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Line $l$ is the transversal. From the figure, angle $w$ at line $j$ is in the same relative position as the marked $54^\\circ$ angle at line $k$."
+    },
+    {
+      "title": "Apply the converse",
+      "content": "If corresponding angles are congruent, then the two lines cut by the transversal are parallel. The condition $w=54$ makes those corresponding angles equal. The answer is <strong>A</strong>."
+    }
+  ]
+}

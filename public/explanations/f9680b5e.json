@@ -1,0 +1,15 @@
+{
+  "questionId": "f9680b5e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Point back to Manhattan",
+      "content": "The first sentence locates the Inuktun speakers in Manhattan. The second sentence narrows that location to the Upper West Side, so the transition must work as a place reference."
+    },
+    {
+      "title": "Reject logical misfires",
+      "content": "A signals similarity, but no parallel case is being compared. C signals a result, though the first sentence does not cause the Upper West Side location. D signals an example of a general claim that is not present. A location adverb fits. The answer is <strong>B</strong>."
+    }
+  ]
+}

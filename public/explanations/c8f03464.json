@@ -1,0 +1,15 @@
+{
+  "questionId": "c8f03464",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep historical tense",
+      "content": "The passage describes the Srivijaya Empire in the past: trade was vital, the empire reigned from 600 CE to 1200 CE, and the people received goods."
+    },
+    {
+      "title": "Reject tense shifts",
+      "content": "Choice A shifts to present progressive. Choice B shifts to simple present. Choice D shifts to future tense. The sentence needs simple past to match the historical narrative and the nearby verb 'received.' The answer is <strong>C</strong>."
+    }
+  ]
+}

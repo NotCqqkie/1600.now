@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank fills and the rule that applies",
-      "content": "The sentence reads: &quot;her 2019 novel ______ offers a delicious twist...&quot; The blank is the novel&rsquo;s title, which sits between the noun phrase &quot;her 2019 novel&quot; and the verb &quot;offers.&quot; Standard English does not place any punctuation between a subject and the verb that immediately follows it; the title simply slots in with no mark on either side."
+      "title": "Check the sentence core",
+      "content": "The sentence core is her 2019 novel <em>Gingerbread</em> offers a delicious twist. The title sits directly between the subject noun and the verb, so no punctuation should separate the subject from its verb."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A — <em>Gingerbread</em>—</strong>: An em dash after the title interrupts the subject before its verb, creating an incomplete construction. &#10007;</li><li><strong>Choice B — <em>Gingerbread,</em></strong>: A comma between the subject and the verb is never acceptable in standard English grammar. &#10007;</li><li><strong>Choice C — <em>Gingerbread</em></strong>: The title alone, with no following punctuation, allows &quot;her 2019 novel <em>Gingerbread</em>&quot; to function smoothly as the subject of &quot;offers.&quot; &#10003;</li><li><strong>Choice D — <em>Gingerbread:</em></strong>: A colon after the title implies the verb phrase will define or list something introduced by the title, which is grammatically inappropriate here. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Remove interrupting marks",
+      "content": "Choice A adds a dash that interrupts the subject before the verb. Choice B puts a comma between the subject and verb. Choice D uses a colon where no explanation or list follows the title. The remaining choice supplies the title with no unnecessary punctuation. The answer is <strong>C</strong>."
     }
   ]
 }

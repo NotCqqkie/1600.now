@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $76$, so the answer is <strong>C</strong>, $76$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "The question asks for the output when the input is $3$, so replace $x$ with $3$ in the function."
     },
     {
-      "title": "Substitute x equals 3",
-      "content": "The function is $f(x)=18x+22$. Substitute $x=3$: $$f(3)=18(3)+22$$"
-    },
-    {
-      "title": "Multiply before adding",
-      "content": "$$18(3)=54$$ $$54+22=76$$"
+      "title": "Evaluate the expression",
+      "content": "$$\nf(3)=18(3)+22\n$$\n$$\nf(3)=54+22\n$$\n$$\nf(3)=76\n$$\nThis is the requested function value. The answer is <strong>C</strong>."
     }
   ]
 }

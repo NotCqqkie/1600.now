@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the heliograph&rsquo;s stated limitations",
-      "content": "The passage lists two constraints: heliographs worked <strong>only during the daytime</strong>, and their range depended on <strong>opacity of the air and line of sight</strong>. The word &ldquo;Therefore&rdquo; signals that the successor technology overcame exactly these problems. Eliminate choices that don&rsquo;t address daytime-only use and environmental dependence.<ul><li><strong>Choice A &mdash; &lsquo;worked on similar principles but was easier to produce and maintain.&rsquo;</strong>: Ease of production and maintenance has nothing to do with the daytime or visibility constraints described. &#10007;</li><li><strong>Choice B &mdash; &lsquo;was not so constrained by environmental circumstances.&rsquo;</strong>: This directly addresses both limitations &mdash; daytime-only use and dependence on air opacity and line of sight are all environmental constraints. &#10003;</li><li><strong>Choice C &mdash; &lsquo;could be used for more than military, surveying, or forestry purposes.&rsquo;</strong>: Expanding the range of applications doesn&rsquo;t resolve the daytime or visibility problems. &#10007;</li><li><strong>Choice D &mdash; &lsquo;enabled communication that didn't require knowledge of Morse code.&rsquo;</strong>: The passage mentions Morse code only as the form of the signal, not as a limitation driving replacement. &#10007;</li></ul>"
+      "title": "Identify the limitations",
+      "content": "The passage says heliographs worked largely only during daytime and depended on air opacity and line of sight. The replacement technology should solve those environmental constraints."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only the credited option resolves the stated constraints: the replacement technology was not limited by time of day or atmospheric conditions.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Match the replacement",
+      "content": "Choice A addresses production and maintenance, Choice C addresses possible uses, and Choice D addresses Morse code. Those are not the stated reasons heliographs were limited. A technology less constrained by environmental circumstances follows logically from the passage. The answer is <strong>B</strong>."
     }
   ]
 }

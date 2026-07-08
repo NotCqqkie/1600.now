@@ -1,0 +1,15 @@
+{
+  "questionId": "969345ee",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the point values",
+      "content": "The $x$ questions are worth $1$ point each, so they contribute $x$ points. The $y$ questions are worth $2$ points each, so they contribute $2y$ points."
+    },
+    {
+      "title": "Write the total",
+      "content": "The assignment is worth $34$ points total, so the point contributions must add to $34$.\n$$x+2y=34$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

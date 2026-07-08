@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the table for line h",
-      "content": "Line $h$ contains $(18,130)$, $(23,160)$, and $(26,178)$. Entering these in Desmos and running gives $m=6$ and $b=22$.",
+      "title": "Find the slope of h",
+      "content": "Line $h$ contains $(18{,}130)$, $(23{,}160)$, and $(26{,}178)$. Use two points to find the slope.\n$$\n\\frac{160-130}{23-18}=\\frac{30}{5}=6\n$$",
       "desmosExpressions": [
         "x_1=[18,23,26]",
         "y_1=[130,160,178]"
       ]
     },
     {
-      "title": "Write line h",
-      "content": "The equation of line $h$ is $$y=6x+22.$$ You can also get this by slope: $\\frac{160-130}{23-18}=6$, then $130=6(18)+b$, so $b=22$."
+      "title": "Write the shifted line",
+      "content": "Use $y=mx+b$ with slope $6$ and point $(18{,}130)$.\n$$\n130=6(18)+b\n$$\n$$\nb=22\n$$\nSo line $h$ is $y=6x+22$. Translating down $5$ units gives\n$$\ny=6x+17\n$$"
     },
     {
-      "title": "Translate down 5 units",
-      "content": "Moving a line down $5$ units subtracts $5$ from every $y$-value, so line $k$ is $$y=6x+22-5=6x+17.$$"
-    },
-    {
-      "title": "Find the x-intercept",
-      "content": "At the $x$-intercept, $y=0$: $$0=6x+17$$ $$x=-\\frac{17}{6}.$$ Therefore the intercept is $\\left(-\\frac{17}{6},0\\right)$, which is <strong>D</strong>."
+      "title": "Find the intercept",
+      "content": "At the $x$-intercept, $y=0$.\n$$\n0=6x+17\n$$\n$$\nx=-\\frac{17}{6}\n$$\nSo the intercept is \n$$\n(-\\frac{17}{6},0)\n$$ The answer is <strong>D</strong>."
     }
   ]
 }

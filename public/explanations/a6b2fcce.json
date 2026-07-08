@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph values for years in the answer choices",
-      "content": "From the line graph, extract the y-values (number of 3-D movies): 2003 ≈ 1, 2004 ≈ 3, 2008 ≈ 9, 2009 ≈ 20, 2010 ≈ 27, 2011 ≈ 46."
+      "title": "Compare consecutive changes",
+      "content": "Estimate the change for each listed pair of years from the line graph.<br/>$$2003\\text{-}2004:\\ 2-2=0$$<br/>$$2008\\text{-}2009:\\ 20-8=12$$<br/>$$2009\\text{-}2010:\\ 26-20=6$$<br/>$$2010\\text{-}2011:\\ 46-26=20$$"
     },
     {
-      "title": "Calculate year-to-year changes and identify the greatest",
-      "content": "For each consecutive year pair in the answer choices, find the difference: <ul><li>2003–2004: $3 - 1 = 2$</li><li>2008–2009: $20 - 9 = 11$</li><li>2009–2010: $27 - 20 = 7$</li><li>2010–2011: $46 - 27 = 19$</li></ul> The greatest change is 19 movies. That is the correct answer."
+      "title": "Choose the greatest change",
+      "content": "The greatest change among the listed intervals is $20$, which occurs from $2010$ to $2011$. The answer is <strong>D</strong>."
     }
   ]
 }

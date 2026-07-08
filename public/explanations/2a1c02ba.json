@@ -1,0 +1,15 @@
+{
+  "questionId": "2a1c02ba",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the reason",
+      "content": "The first sentence says Henderson wanted to avoid harsh synthetic dyes. The next sentence describes her experimenting with environmentally friendly natural dyes. The transition should show that her action followed from that goal."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "<ul><li><strong>Choice A</strong>: \"In actuality\" signals clarification or correction, not a reason.</li><li><strong>Choice B</strong>: \"To sum up\" signals a summary, but the sentence gives a resulting action.</li><li><strong>Choice D</strong>: \"Nevertheless\" signals contrast, which conflicts with the cause-effect relationship.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

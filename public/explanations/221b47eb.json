@@ -1,0 +1,20 @@
+{
+  "questionId": "221b47eb",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the pyramid volume",
+      "content": "For a square pyramid with side length $s$ and height $15$, substitute the given volume into the pyramid volume formula.<br/>$$180=\\frac{1}{3}\\cdot s^2\\cdot15$$",
+      "formula": "$$V = \\frac{1}{3} \\cdot s^2 \\cdot h$$"
+    },
+    {
+      "title": "Find the base side",
+      "content": "Simplify and solve for the positive side length.<br/>$$180=5s^2$$<br/>$$36=s^2$$<br/>$$s=6$$"
+    },
+    {
+      "title": "Find the base perimeter",
+      "content": "The base is a square, so its perimeter is $4s$.<br/>$$4(6)=24$$<br/>The answer is <strong>24</strong>."
+    }
+  ]
+}

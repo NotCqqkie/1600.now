@@ -4,21 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Constant work rate produces a linear relationship",
-      "content": "The phrase <strong>constant rate</strong> is the shortcut. If the inspector checks the same number of shirts each unit of time, the number remaining changes by the same amount each unit of time, so the model is linear."
+      "title": "Use constant rate",
+      "content": "A constant work rate means the number of shirts remaining changes by the same amount over each equal time interval. That makes the model linear."
     },
     {
-      "title": "Use a sample table to see the model type",
-      "content": "Pick any concrete constant-rate example, such as starting with $120$ shirts and checking $15$ shirts per hour. The points $(0,120)$, $(1,105)$, and $(2,90)$ fit a line with negative slope. direct calculation shows the same structure as the general model $\\text{remaining}=N-rt$.",
+      "title": "Determine the slope sign",
+      "content": "As time increases, the number of shirts remaining decreases. A linear model that decreases has a negative slope."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "A sample constant-rate model such as $y=120-15x$ shows the same decreasing linear pattern.\nThe answer is <strong>B</strong>.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "y_1=[120,105,90]",
         "y=120-15x"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The number remaining decreases as time increases, so the slope is negative. A constant rate of decrease is a linear model with a negative slope, which is <strong>B</strong>."
     }
   ]
 }

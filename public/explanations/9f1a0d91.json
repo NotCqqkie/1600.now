@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a transitions question. The previous sentence states that recent research shows tulip mania was &quot;neither as frenzied nor as disastrous as has been thought.&quot; The blank introduces the conclusion that the popular myth should be viewed skeptically &mdash; a direct result of that research finding."
+      "title": "Follow the research result",
+      "content": "Recent research shows tulip mania was not as frenzied or disastrous as people have thought. The next sentence says the popular myth should be regarded skeptically."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; for example,</strong>: Signals that this sentence illustrates the previous one. But skepticism about the myth is not an example of the research &mdash; it is a consequence of it. &#10007;</li><li><strong>Choice B &mdash; by contrast,</strong>: Signals opposition between two ideas. This sentence does not oppose the previous sentence; it follows from it. &#10007;</li><li><strong>Choice C &mdash; nevertheless,</strong>: Signals that something is true despite an obstacle. Nothing here is concessive &mdash; the skepticism flows directly from the research. &#10007;</li><li><strong>Choice D &mdash; therefore,</strong>: Signals a cause-and-effect relationship. Because research contradicts the myth, the myth deserves skepticism. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Signal the conclusion",
+      "content": "Choice A introduces an example, Choice B signals contrast, and Choice C signals something true despite an obstacle. The skepticism follows from the research finding, so the transition must show result. The answer is <strong>D</strong>."
     }
   ]
 }

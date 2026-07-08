@@ -1,0 +1,15 @@
+{
+  "questionId": "eb1a9dc0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the later term",
+      "content": "The underlined sentence says, \"This bone is called the hyoid.\" The sentence before it mentions a U-shaped bone in felines' throats, and the sentences after it repeatedly use \"hyoid\" to compare why ocelots purr and jaguars roar."
+    },
+    {
+      "title": "Identify the sentence role",
+      "content": "Choice A overstates the sentence's role because the sentence names a bone rather than explaining the hypothesis. Choice B says it identifies a location, but the underlined sentence gives a name. Choice D refers to a debate that the passage does not present. The sentence introduces a term used in the later discussion. The answer is <strong>C</strong>."
+    }
+  ]
+}

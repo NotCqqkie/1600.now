@@ -1,0 +1,15 @@
+{
+  "questionId": "2f4c4a75",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use spent with an activity",
+      "content": "The sentence uses the pattern <em>spent</em> plus a time period plus an activity. After <em>spent 161 days</em>, the verb form should show what activity the lander was doing during that time."
+    },
+    {
+      "title": "Reject wrong verb forms",
+      "content": "Choice A and Choice D are finite verb phrases that cannot follow <em>spent 161 days</em> in this construction. Choice B is a simple past form, which also does not name the ongoing activity after the time period. The answer is <strong>C</strong>."
+    }
+  ]
+}

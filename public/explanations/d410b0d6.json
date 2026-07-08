@@ -1,0 +1,15 @@
+{
+  "questionId": "d410b0d6",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the proportion",
+      "content": "Equivalent ratios can be written as a proportion.<br/>$$\\frac{168}{126}=\\frac{x}{6}$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Cross-multiply and solve.<br/>$$168\\cdot6=126x$$<br/>$$1{,}008=126x$$<br/>$$x=8$$<br/>The answer is <strong>8</strong>."
+    }
+  ]
+}

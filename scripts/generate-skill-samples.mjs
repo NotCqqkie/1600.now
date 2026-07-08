@@ -304,6 +304,7 @@ const makeBankQuestionMetaRow = (bankType, q) => {
     bankType === "past" ? getPastQuestionDifficulty(q) : normalizeDifficultyLabel(q.difficulty),
     active,
     bankVisible,
+    typeof q.scoreBand === "number" ? q.scoreBand : null,
   ];
 };
 
@@ -363,6 +364,7 @@ export type BankQuestionMetaRow = readonly [
   difficulty: "Easy" | "Medium" | "Hard" | null,
   active: boolean,
   bankVisible: boolean,
+  scoreBand: number | null,
 ];
 
 export interface BankCountSummary {

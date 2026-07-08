@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative) question. The researchers concluded that oxygenation may have been important in the Alboran Sea decline of L. pertusa but not in the Mauritanian coast decline. The blank must be completed with graph data that justifies this asymmetric conclusion. Key fact from the passage: the Mn/Ca ratio inversely correlates with oxygenation &mdash; rising Mn/Ca means falling oxygen."
+      "title": "Invert the oxygen measure",
+      "content": "The passage says the manganese-to-calcium ratio inversely correlates with oxygenation. That means a higher Mn/Ca ratio indicates lower oxygenation, while a stable Mn/Ca ratio indicates little change in oxygenation."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — a substantial increase in oxygenation in the Alboran Sea corresponded with the local decline in <em>L. pertusa</em>, but the opposite relationship between oxygenation and <em>L. pertusa</em> was found near the Mauritanian coast.</strong>: The graph shows Mn/Ca rising sharply in the Alboran Sea around the time of the coral&apos;s decline &mdash; meaning oxygenation decreased, not increased. This directly contradicts the graph. &#10007;</li><li><strong>Choice B — <em>L. pertusa</em> declined in the Alboran Sea during a period of substantial local decline in oxygenation, but <em>L. pertusa</em> declined near the Mauritanian coast during a period of little local change in oxygenation.</strong>: The graph shows Mn/Ca rising substantially in the Alboran Sea around 9,000 years ago (oxygenation fell), while Mn/Ca in Mauritanian samples remained nearly flat around 11,000 years ago (oxygenation stable). This asymmetry directly supports the researchers&apos; conclusion. &#10003;</li><li><strong>Choice C — oxygenation in the Alboran Sea was higher before the decline in <em>L. pertusa</em> than after the decline, whereas oxygenation near the Mauritanian coast was relatively low both before and after the decline in <em>L. pertusa</em>.</strong>: While the first clause is consistent with the Alboran graph, the second is not: Mauritanian Mn/Ca was consistently low (meaning oxygenation was high, not low) throughout the period studied. &#10007;</li><li><strong>Choice D — oxygenation in the Alboran Sea tended to be substantially higher than oxygenation near the Mauritanian coast during the period studied.</strong>: The graph shows Alboran Mn/Ca was higher than Mauritanian Mn/Ca, which means Alboran oxygenation was lower &mdash; the opposite of this claim. Also, a comparison between locations is irrelevant to the conclusion about within-location changes. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Match each location",
+      "content": "Around the Alboran Sea decline, near 9,000 years ago, the graph shows Mn/Ca rising substantially, so oxygenation was falling there. Around the Mauritanian coast decline, near 11,000 years ago, the graph shows little local change in Mn/Ca, so oxygenation was not changing much there."
+    },
+    {
+      "title": "Use the asymmetric evidence",
+      "content": "That difference explains the researchers' conclusion. A local oxygenation drop coincides with the Alboran Sea population decline, so oxygenation may have mattered there. The same kind of local oxygenation change is absent near the Mauritanian coast, so the graph does not support oxygenation as the cause there."
+    },
+    {
+      "title": "Reject reversed claims",
+      "content": "Choice A wrongly says oxygenation increased in the Alboran Sea. Choice C correctly starts with higher Alboran oxygenation before the decline but wrongly says Mauritanian oxygenation stayed relatively low; low Mn/Ca implies relatively high oxygenation. Choice D reverses the overall location comparison and does not explain the local decline pattern. Choice B states the asymmetric pattern: declining oxygenation in the Alboran Sea, little oxygenation change near Mauritania. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "1d2b77cc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Track the median positions",
+      "content": "The original data set has $14$ weights, so its median is the average of the $7$th and $8$th values. After adding $32$, the new data set has $15$ weights, so its median is the $8$th value."
+    },
+    {
+      "title": "Check whether the median must drop",
+      "content": "The added value $32$ is below all original weights, so the new $8$th value is the original $7$th value. From the histogram, the original $7$th and $8$th values are in the same interval, so they could be equal. The median therefore is not guaranteed to be less."
+    },
+    {
+      "title": "Check whether the mean must drop",
+      "content": "Every original weight is at least $70$, so the original mean is greater than $32$. Adding a value below the original mean pulls the mean down. Only statement II must be true. The answer is <strong>B</strong>."
+    }
+  ]
+}

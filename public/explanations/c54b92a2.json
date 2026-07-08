@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate range from the table",
-      "content": "From the table, reading the <em>Number of wheels made</em> column across all 11 periods (24, 24, 21, 21, 21, 19, 24, 24, 19, 22, 23): the maximum value is 24 and the minimum value is 19. $$24 - 19 = 5$$ That is the correct answer."
+      "title": "Find the extreme values",
+      "content": "Greatest value: $24$. Least value: $19$."
+    },
+    {
+      "title": "Subtract to get the range",
+      "content": "Range:<br/>$$24-19=5$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

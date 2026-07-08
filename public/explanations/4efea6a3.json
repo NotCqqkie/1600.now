@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rectangle area formula",
-      "content": "For a rectangle, area equals longest side times shortest side. Let $w$ be the shortest side. Since the area is $72$ and the longest side is $18$, use $72=18w$."
-    },
-    {
-      "title": "Set up the rectangle area equation",
-      "content": "The area of a rectangle equals length times width. We know the area is 72 square inches and the longest side is 18 inches. Let $w$ represent the shortest side:<br/>$$72 = 18w$$",
+      "title": "Set up the area equation",
+      "content": "For a rectangle, area equals length times width. Let $w$ be the shortest side. The area is $72$, and the longest side is $18$, so\n$$72=18w$$",
       "formula": "$$A = lw$$"
     },
     {
-      "title": "Solve for the shortest side",
-      "content": "Divide both sides by 18:<br/>$$w = \\frac{72}{18} = 4$$<br/>The shortest side of the rectangle is 4 inches."
+      "title": "Divide by the long side",
+      "content": "Solve for $w$.\n$$w=\\frac{72}{18}=4$$\nThe answer is <strong>4</strong>."
     }
   ]
 }

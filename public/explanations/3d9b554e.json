@@ -1,0 +1,19 @@
+{
+  "questionId": "3d9b554e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the true subject",
+      "content": "The subject of the blank is “an abstract cubist painting.” The intervening phrase about Marcel Duchamp and other works does not change the subject's singular number."
+    },
+    {
+      "title": "Reject agreement errors",
+      "content": "Choice A is plural, so “painting were entering” is wrong. Choice B is a base/plural present form and does not agree. Choice D is plural present perfect, so “painting have entered” is also wrong."
+    },
+    {
+      "title": "Choose singular present perfect",
+      "content": "The remaining verb agrees with the singular subject and shows a past action whose result still matters: the painting has become part of the canon. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dfc78750",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the present-tense frame",
+      "content": "The passage describes a general present-tense situation: the programming languages have a difference and require technical knowledge. The plural subject <em>laypeople</em> needs a present-tense plural verb."
+    },
+    {
+      "title": "Remove past-tense shifts",
+      "content": "B, C, and D all shift the sentence into past time, which does not fit the passage's general present-tense claim. The base present form agrees with the plural subject and keeps the tense consistent. The answer is <strong>A</strong>."
+    }
+  ]
+}

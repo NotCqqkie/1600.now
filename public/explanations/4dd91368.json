@@ -1,0 +1,27 @@
+{
+  "questionId": "4dd91368",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two positions",
+      "content": "Text 1 presents the publicity campaign as correcting a history in which women writers had to use male pseudonyms to receive serious consideration. Text 2 pushes back by calling that belief an overgeneralization."
+    },
+    {
+      "title": "Use the counterexamples",
+      "content": "Text 2 points to Elizabeth Barrett Browning, who published under her own name, and Sara Payson Willis, who chose a female pseudonym. Those examples challenge the broad assumption that women writers were generally barred from publishing under names perceived as female."
+    },
+    {
+      "title": "Reject agreement or new claims",
+      "content": "Choice B incorrectly makes Text 2 agree with Text 1. Choice C invents a split claim about which writers had the same motivations. Choice D focuses on the number of works published, but Text 2’s objection is about the pseudonym assumption, not productivity."
+    },
+    {
+      "title": "Clarify the disagreement",
+      "content": "Text 2 does not deny that some women used male pseudonyms or that the campaign restored names for the listed works. Its objection is narrower: the historical claim behind Text 1 is too broad because some women published under female-perceived names or chose female pseudonyms."
+    },
+    {
+      "title": "State the likely response",
+      "content": "The author of Text 2 would likely say that Barrett Browning and Willis are historical examples that complicate Text 1’s characterization of the campaign and its underlying assumption about women’s pseudonyms. The answer is <strong>A</strong>."
+    }
+  ]
+}

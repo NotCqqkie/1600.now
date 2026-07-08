@@ -1,0 +1,15 @@
+{
+  "questionId": "cf4f22d6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(-1)$, substitute $-1$ for $x$ in the function.\n$$f(-1)=-6(-1)^2-8$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Square before multiplying by $-6$.\n$$(-1)^2=1$$\n$$f(-1)=-6(1)-8$$\n$$f(-1)=-6-8$$\n$$f(-1)=-14$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

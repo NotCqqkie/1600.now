@@ -1,0 +1,15 @@
+{
+  "questionId": "fd3d22b0",
+  "correctAnswer": "75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constant term",
+      "content": "In $W(x)=5x+75$, the term $5x$ is the watering time for $x$ plants. The constant term is the time that does not depend on the number of plants."
+    },
+    {
+      "title": "Set plants watered to zero",
+      "content": "To isolate the hedge-trimming time, evaluate the function at $x=0$:\n$$\nW(0)=5(0)+75=75\n$$\nThe answer is <strong>75</strong>."
+    }
+  ]
+}

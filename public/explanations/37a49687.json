@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the example must demonstrate",
-      "content": "The sentence to complete reads: &quot;For some species, more fish were collected in the winter than the other two seasons, for instance: ______&quot; The example must name at least one specific species and show its winter count exceeding both its spring count and its autumn count, using data from the graph."
+      "title": "Track winter dominance",
+      "content": "The sentence needs an example of species for which more fish were collected in winter than in spring or autumn. The graph shows that common silver-biddy and milkfish both have winter counts higher than their counts in either other season."
     },
     {
-      "title": "Eliminate wrong choices, keep the one that correctly demonstrates winter dominance",
-      "content": "Check each choice against the graph data and the claim:<ul><li><strong>Choice A — more common silver-biddy and milkfish were collected in the winter than in either of the other two seasons.</strong>: common silver-biddy (winter: 35, spring: 17, autumn: 10) and milkfish (winter: 12, spring: 7, autumn: 0) &mdash; both show winter exceeding the other seasons. &#10003;</li><li><strong>Choice B — the common silver-biddy was collected more frequently than the other two species in all three seasons.</strong>: compares species against each other within seasons, not a single species across seasons &mdash; wrong comparison. &#10007;</li><li><strong>Choice C — in the spring, researchers collected more Red Sea goldfish than they collected from the other two species.</strong>: describes spring, not winter, and compares across species rather than across seasons. &#10007;</li><li><strong>Choice D — in the fall, researchers collected 10 common silver-biddy but collected no milkfish or Red Sea goatfish.</strong>: describes autumn data, not winter dominance. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject wrong comparisons",
+      "content": "B compares species with each other instead of comparing seasons, C focuses on spring rather than winter, and D focuses on autumn. The needed example must show winter counts exceeding both nonwinter counts for the named species. The answer is <strong>A</strong>."
     }
   ]
 }

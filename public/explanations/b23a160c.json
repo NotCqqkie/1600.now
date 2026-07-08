@@ -1,0 +1,15 @@
+{
+  "questionId": "b23a160c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply a finite verb",
+      "content": "The second clause is \"the building itself ______ us the most.\" It needs a finite main verb, and the surrounding past-tense context points to a completed past action."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is a present participle, Choice C is a perfect participle, and Choice D is an infinitive. None can serve by itself as the main verb of the independent clause. The simple past-tense verb completes the clause and matches the sentence's time frame. The answer is <strong>A</strong>."
+    }
+  ]
+}

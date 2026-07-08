@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "In the function $f(x) = 2{,}400(0.80)^x$, the variable $x$ is years after 2011. Setting $x = 0$ gives the population at the starting year 2011: $f(0) = 2{,}400 \\cdot (0.80)^0 = 2{,}400 \\cdot 1 = 2{,}400$."
+      "title": "Use the starting input",
+      "content": "The variable $x$ is years after $2011$, so $x=0$ represents the year $2011$. In an exponential model, the coefficient is the value at the starting input."
     },
     {
-      "title": "Step 2",
-      "content": "In any exponential model $f(x) = a \\cdot b^x$, the coefficient $a$ is the initial value when $x = 0$. Here $a = 2{,}400$ is the population at $x = 0$, which corresponds to 2011."
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li>The estimated percent decrease in the population for this species and preserve every $7$ years after $2011$</li><li>The estimated percent decrease in the population for this species and preserve each year after $2011$</li><li>The estimated population for this species and preserve $7$ years after $2011$</li><li>The matching choice: The estimated initial population for this species and preserve in $2011$ &mdash; <strong>D</strong> is correct.</li></ul>"
+      "title": "Evaluate the initial value",
+      "content": "Substitute $0$ into the exponential model.<br/>$$f(0)=2{,}400(0.80)^0$$<br/>$$=2{,}400\\cdot 1$$<br/>$$=2{,}400$$<br/>So $2{,}400$ is the estimated initial population in $2011$, not a percent decrease or a later population. The answer is <strong>D</strong>."
     }
   ]
 }

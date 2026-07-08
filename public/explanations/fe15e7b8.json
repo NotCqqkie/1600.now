@@ -1,0 +1,15 @@
+{
+  "questionId": "fe15e7b8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Interpret the gene pattern",
+      "content": "The study found anterior gene activity across the sea star's whole body, with only some posterior genes at the edges. That pattern suggests the sea star body is dominated by the genetic program associated with an anterior region."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "A makes posterior genes primarily responsible, B says correspondence is minimal even though the comparison relies on related markers, and D rejects the stated bilateral origin. The evidence instead revises the idea that sea stars became headless. The answer is <strong>C</strong>."
+    }
+  ]
+}

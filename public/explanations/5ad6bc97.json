@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the number of coordinators",
-      "content": "The function $f(x)=6x+4$ gives the total number of people when there are $x$ coordinators. For $8$ coordinators, use $x=8$."
+      "title": "Substitute the coordinators",
+      "content": "The function gives the total number of people for $x$ coordinators. For $8$ coordinators, substitute $x=8$."
     },
     {
-      "title": "Evaluate",
-      "content": "$$f(8)=6(8)+4=48+4=52.$$ The total number of people at the offsite is <strong>52</strong>."
-    },
-    {
-      "title": "Check the context",
-      "content": "The answer is a count of people, not a number of coordinators. The input is $8$ coordinators, and the output is $52$ total people."
+      "title": "Evaluate the function",
+      "content": "Compute the output:<br/>$$f(8)=6(8)+4=48+4=52$$<br/>The answer is <strong>52</strong>."
     }
   ]
 }

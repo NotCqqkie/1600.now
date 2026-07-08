@@ -1,0 +1,15 @@
+{
+  "questionId": "77c1a398",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the person",
+      "content": "The task is to introduce Clara Hayes to a new audience, so the choice must tell who she was. The notes identify her as a British violinist and former owner of a Stradivarius violin."
+    },
+    {
+      "title": "Avoid Stradivari-only details",
+      "content": "Choice A is about surviving violins and does not name Hayes. Choice C says an instrument is named after Hayes but does not identify her. Choice D is about Antonio Stradivari, not Hayes. The answer is <strong>B</strong>."
+    }
+  ]
+}

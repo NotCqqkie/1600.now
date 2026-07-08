@@ -1,0 +1,15 @@
+{
+  "questionId": "31d22474",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare career starts",
+      "content": "The goal is to emphasize when each lighthouse keeper began her career. Nora Whitfield began in 1834, while Clara J. Morgan began in 1883."
+    },
+    {
+      "title": "Avoid end dates or background",
+      "content": "A gives background without career start order, C compares end dates, and D contradicts the notes by placing both keepers in Maryland during 1834-1857. The matching choice states that Morgan began years after Whitfield. The answer is <strong>B</strong>."
+    }
+  ]
+}

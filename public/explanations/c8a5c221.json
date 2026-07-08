@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the negative signs",
-      "content": "$$(8x^4+7x^3)-(6x^3+4x^2)-(2x^2+x)$$ becomes $$8x^4+7x^3-6x^3-4x^2-2x^2-x.$$"
+      "title": "Distribute the negatives",
+      "content": "Subtracting each parenthesized expression changes the signs of every term inside it.\n$$(8x^4+7x^3)-(6x^3+4x^2)-(2x^2+x)$$\n$$=8x^4+7x^3-6x^3-4x^2-2x^2-x$$"
     },
     {
-      "title": "Combine like terms",
-      "content": "The $x^3$ terms give $7x^3-6x^3=x^3$. The $x^2$ terms give $-4x^2-2x^2=-6x^2$. So the expression is $$8x^4+x^3-6x^2-x.$$"
+      "title": "Combine matching powers",
+      "content": "Combine the $x^3$ terms and the $x^2$ terms.\n$$8x^4+(7x^3-6x^3)+(-4x^2-2x^2)-x$$\n$$=8x^4+x^3-6x^2-x$$"
     },
     {
-      "title": "Answer",
-      "content": "The coefficient of $x^2$ is $a=-6$, which matches the correct answer. Therefore <strong>A</strong> is correct. The question asks for the coefficient $a$, not the entire expression, so the required value is just $-6$."
+      "title": "Match the coefficient",
+      "content": "Compare this with the form $8x^4+x^3+ax^2-x$. The coefficient of $x^2$ is the value of $a$.\n$$a=-6$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

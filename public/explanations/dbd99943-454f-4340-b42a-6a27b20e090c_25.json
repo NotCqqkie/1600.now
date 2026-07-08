@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student's goal is to indicate the size of the Pilot Knob NWR. The only note that gives size information is: 'It encompasses 90 acres.' The correct choice must include that specific figure."
+      "title": "Focus on size",
+      "content": "The student's goal is to indicate the size of the Pilot Knob NWR. The only note that gives size information says that the refuge encompasses 90 acres, so the sentence must include that acreage."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The Pilot Knob NWR is a protected natural area managed by the US Fish & Wildlife Service, which limits human activities there.\"</strong>: covers management and access restrictions &mdash; no acreage. &#10007;</li><li><strong>\"The Pilot Knob NWR is a natural area in Missouri, home to the Indiana bat.\"</strong>: gives location and a species &mdash; no acreage. &#10007;</li><li><strong>\"Home to the Indiana bat, Missouri's Pilot Knob NWR is managed by the US Fish & Wildlife Service.\"</strong>: covers species and management &mdash; no acreage. &#10007;</li><li><strong>\"A protected natural area, the Pilot Knob NWR encompasses 90 acres of land in Missouri.\"</strong>: directly states the 90-acre size. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate irrelevant details",
+      "content": "A focuses on management and activity limits, B gives location and habitat, and C gives habitat and management. None of those choices states the refuge's acreage, so none satisfies the size goal. The answer is <strong>D</strong>."
     }
   ]
 }

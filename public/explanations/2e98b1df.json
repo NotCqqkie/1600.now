@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify initial members and daily increase",
-      "content": "We start with the initial number of members on the first day: $80$. Each day after that, $15$ new members join, so the growth rate is $15$ members per day. The total after $d$ days is therefore $$M = 80 + 15d.$$"
+      "title": "Identify the starting amount",
+      "content": "On the first day, the club has $80$ members. Each day after that, $15$ new members join."
     },
     {
-      "title": "Compute members after 4 days",
-      "content": "Substitute $d = 4$ into the formula: $$M = 80 + 15 \\times 4 = 80 + 60 = 140.$$ <strong>B</strong> is correct."
+      "title": "Add four days of growth",
+      "content": "Four days after the first day means $4$ daily increases.<br/>$$80+4(15)=80+60=140$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

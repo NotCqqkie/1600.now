@@ -1,0 +1,19 @@
+{
+  "questionId": "4448af27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the source clue",
+      "content": "The passage explains why Siemowit's existence is debated: knowledge of him comes from somewhat dubious oral traditions written down centuries after the events."
+    },
+    {
+      "title": "Reject opposite relations",
+      "content": "Choice A says the knowledge is not supported by those traditions. Choice B says it is independent of them. Choice D says it is merely similar to them. None states that the knowledge comes from them."
+    },
+    {
+      "title": "Choose origin",
+      "content": "Derived from means originating in, which fits knowledge based on dubious oral traditions recorded much later. The answer is <strong>C</strong>."
+    }
+  ]
+}

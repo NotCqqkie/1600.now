@@ -1,0 +1,15 @@
+{
+  "questionId": "17876d96",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize a difference",
+      "content": "The task asks for wording that contrasts the two birds. Strong wording should mention both the long-billed starthroat and the ruby-topaz hummingbird, then highlight how they differ rather than only describing one bird or giving information they share."
+    },
+    {
+      "title": "Reject one-bird descriptions",
+      "content": "Choice B describes only the long-billed starthroat. Choice C mentions both birds but only says they are among Suriname's hummingbirds, which is a shared trait rather than a contrast. Choice D describes only the ruby-topaz hummingbird. Choice A mentions both birds and contrasts their sizes by saying the long-billed starthroat is larger than the ruby-topaz hummingbird. The answer is <strong>A</strong>."
+    }
+  ]
+}

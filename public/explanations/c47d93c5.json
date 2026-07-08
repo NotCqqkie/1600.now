@@ -1,0 +1,15 @@
+{
+  "questionId": "c47d93c5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting price",
+      "content": "The smartphone originally retailed for $720$, so the payment starts from $720$ before subtracting any yearly decrease."
+    },
+    {
+      "title": "Subtract by years",
+      "content": "The company subtracts $145$ for each year since release. For $t$ years, the total subtracted amount is $145t$, so<br/>$$p=720-145t$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

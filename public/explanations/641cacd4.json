@@ -1,0 +1,15 @@
+{
+  "questionId": "641cacd4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared point",
+      "content": "Text 1 says Benton and Sato used barriers to keep plant roots separate. Text 2 accepts that the barriers separated the roots and excluded root-to-root transmission, even while criticizing the study for allowing liquids through."
+    },
+    {
+      "title": "Reject claims beyond agreement",
+      "content": "B requires a barrier that also blocks fungal strands, which would prevent testing a CMN and is not endorsed by both texts. C says excluding root transfer is sufficient, which Text 2 denies. D makes an unsupported claim about Nair and colleagues' results. The shared point is that Benton and Sato's barriers excluded root-to-root transfer. The answer is <strong>A</strong>."
+    }
+  ]
+}

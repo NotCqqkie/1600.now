@@ -1,0 +1,19 @@
+{
+  "questionId": "ff0ef760",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the relationship",
+      "content": "The first sentence states Serrano's goal: she wanted to avoid harsh synthetic dyes that could harm the environment. The second sentence gives the action she took in response, experimenting with natural dyes made from organic materials."
+    },
+    {
+      "title": "Test the transition types",
+      "content": "Choice A signals a summary, but the second sentence is not summing up the first. Choice B signals a correction, and Choice C signals contrast, but Serrano's experiment agrees with her environmental concern rather than correcting or opposing it."
+    },
+    {
+      "title": "Pick the purpose signal",
+      "content": "The needed transition should show that Serrano acted while keeping her goal in mind. The phrase in Choice D does exactly that, linking the desire to avoid synthetic dyes with the experiment using natural alternatives. The answer is <strong>D</strong>."
+    }
+  ]
+}

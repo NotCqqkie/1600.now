@@ -9,7 +9,7 @@
     },
     {
       "title": "Match the answer",
-      "content": "$f(7)=245$. The exponent applies to 7 before multiplication by 5, so the value is $5(49)$, not $(5\\cdot 7)^2$ or $5\\cdot 14$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "$f(7)=245$. The exponent applies to 7 before multiplication by 5, so the value is $5(49)$, not $(5\\cdot 7)^2$ or $5\\cdot 14$.<br/><br/>That matches the correct answer."
     }
   ]
 }

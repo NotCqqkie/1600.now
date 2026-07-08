@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the density formula and what we need to find",
-      "content": "Density is mass divided by volume. We know the mass (8.10 grams) and the cube's edge length (3.00 centimeters), so we must first calculate the volume.",
+      "title": "Use density formula",
+      "content": "Density is mass divided by volume. Use mass $8.10$ grams, then find the cube's volume from its edge length.",
       "formula": "$$\\text{Density} = \\frac{\\text{mass}}{\\text{volume}}$$"
     },
     {
-      "title": "Calculate the volume of the cube",
-      "content": "For a cube with edge length 3.00 cm:<br/>$$(3.00)^3 = 27.00 \\text{ cm}^3$$",
+      "title": "Find the cube volume",
+      "content": "The edge length is $3.00$ centimeters, so the volume is\n$$(3.00)^3=27.00$$",
       "formula": "$$V = e^3$$"
     },
     {
-      "title": "Calculate the density",
-      "content": "Divide the mass by the volume:<br/>$$\\frac{8.10 \\text{ g}}{27.00 \\text{ cm}^3} = 0.30 \\text{ g/cm}^3$$"
+      "title": "Divide mass by volume",
+      "content": "Calculate the density.\n$$\\frac{8.10}{27.00}=0.30$$\nThe answer is <strong>0.30</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "7b235a20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the exponent",
+      "content": "The exponent is $2x$, and $x$ is measured in years. In $1$ year, the exponent increases by $2$, so the exponent increases by $1$ every half year."
+    },
+    {
+      "title": "Find the half-year growth",
+      "content": "A half year is $6$ months. Over that interval, the factor is<br/>$$(1.004)^1=1.004$$<br/>This means the balance is multiplied by $1.004$ every $6$ months."
+    },
+    {
+      "title": "Convert the multiplier",
+      "content": "The multiplier $1.004$ equals<br/>$$1+0.004=1+0.4\\%$$<br/>So the balance increases by about $0.4\\%$ at the end of each $6$-month interval. The answer is <strong>C</strong>."
+    }
+  ]
+}

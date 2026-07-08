@@ -1,0 +1,15 @@
+{
+  "questionId": "dd024884",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate q",
+      "content": "Start with the given equation:\n$$\nq-29r=s\n$$\nAdd $29r$ to both sides:\n$$\nq=s+29r\n$$"
+    },
+    {
+      "title": "Match the rearranged equation",
+      "content": "The equation that expresses $q$ in terms of $r$ and $s$ is $q=s+29r$. The answer is <strong>B</strong>."
+    }
+  ]
+}

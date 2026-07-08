@@ -1,0 +1,15 @@
+{
+  "questionId": "0f71e710",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Frame a common pattern",
+      "content": "The first two sentences explain how state soils receive official status and give examples from Wisconsin and Vermont. The final sentence generalizes from that process: delays often happen because legislatures can move slowly."
+    },
+    {
+      "title": "Reject stronger links",
+      "content": "B makes the statement sound like a required logical result, which the examples do not prove. C confirms a prior claim that has not yet been stated. D signals a parallel comparison, not a generalization about delays. The answer is <strong>A</strong>."
+    }
+  ]
+}

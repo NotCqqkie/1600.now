@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the comparison structure",
-      "content": "The sentence opens with <strong>Compared to that of alumina glass</strong>. The pronoun <em>that</em> stands in for a noun, and from context that noun is <em>atomic arrangement</em>. So the phrase means &quot;Compared to the atomic arrangement of alumina glass.&quot; The blank must begin with a matching term &mdash; the <em>atomic arrangement of silica glass</em> &mdash; so the two things being compared are parallel (arrangement to arrangement)."
+      "title": "Match the comparison",
+      "content": "The opening phrase compares something to \"that of alumina glass.\" Here, <em>that</em> refers to alumina glass's atomic arrangement, so the noun after the comma must be silica glass's atomic arrangement, not silica glass itself or a disadvantage."
     },
     {
-      "title": "Apply the logical/parallel comparison rule",
-      "content": "The grammar rule: comparisons must be between like terms. <em>That of alumina glass</em> = <em>the atomic arrangement of alumina glass</em>, so the subject after the comma must be <em>silica glass's atomic arrangement</em>.<ul><li>A: subject is <strong>silica glass</strong> &mdash; compares an arrangement to a substance (illogical comparison)</li><li>B: subject is <strong>silica glass</strong> &mdash; same illogical comparison</li><li>C: subject is <strong>a significant disadvantage of silica glass</strong> &mdash; compares an arrangement to a disadvantage (illogical comparison)</li><li>D: subject is <strong>silica glass's atomic arrangement</strong> &mdash; arrangement to arrangement (parallel and logical)</li></ul><strong>D</strong> is correct."
+      "title": "Reject dangling subjects",
+      "content": "A and B put <em>silica glass</em> after the comparison, illogically comparing a substance to an atomic arrangement. C puts <em>a significant disadvantage</em> in that position, also creating an illogical comparison. Only the choice that begins with silica glass's atomic arrangement keeps the comparison parallel. The answer is <strong>D</strong>."
     }
   ]
 }

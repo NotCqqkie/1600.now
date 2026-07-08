@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two clauses",
-      "content": "Before the blank: &quot;goats are notoriously indiscriminate&quot; &mdash; an independent clause. After the blank: &quot;they will devour all kinds of shrubs and weeds, leaving virtually no part of any plant unconsumed&quot; &mdash; also an independent clause that explains what &quot;indiscriminate&quot; means here."
+      "title": "Identify the explanation",
+      "content": "The first clause says goats are notoriously indiscriminate in their diets. The next clause explains what that means: they devour all kinds of shrubs and weeds and leave virtually no part of any plant unconsumed."
     },
     {
-      "title": "Pick the punctuation that joins them correctly",
-      "content": "Two independent clauses where the second elaborates on the first call for a colon. A comma alone would create a comma splice; no punctuation would create a run-on; &quot;and&quot; without a comma would fuse them improperly."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; indiscriminate and</strong>: joins two independent clauses with a coordinating conjunction but no preceding comma, producing a run-on. &#10007;</li><li><strong>Choice B &mdash; indiscriminate,</strong>: a single comma between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; indiscriminate</strong>: no punctuation between two independent clauses creates a fused (run-on) sentence. &#10007;</li><li><strong>Choice D &mdash; indiscriminate:</strong>: the colon correctly introduces the second clause as an elaboration of the first. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use explanatory punctuation",
+      "content": "Choice A uses <em>and</em> without a comma to join independent clauses. Choice B uses only a comma, creating a comma splice. Choice C leaves two independent clauses with no punctuation. A colon correctly introduces the second clause as an explanation of <em>indiscriminate</em>. The answer is <strong>D</strong>."
     }
   ]
 }

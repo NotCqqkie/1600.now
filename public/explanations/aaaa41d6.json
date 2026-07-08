@@ -1,0 +1,15 @@
+{
+  "questionId": "aaaa41d6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the contrast",
+      "content": "Engineers warned against multiple track widths, but regional officials still failed to agree on a single-width system. The transition must show that the failure happened despite the warning."
+    },
+    {
+      "title": "Choose the contrast word",
+      "content": "Choice A signals similarity, which is wrong. Choice B means despite that and fits the contrast between the warning and officials' failure. Choice C wrongly signals cause. Choice D wrongly signals restatement. The answer is <strong>B</strong>."
+    }
+  ]
+}

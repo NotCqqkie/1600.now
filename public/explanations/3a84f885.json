@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Add the equations",
-      "content": "The system is $$(x-3)-5(y+6)=128$$ $$(x-3)+5(y+6)=467.$$ Add the equations so the $-5(y+6)$ and $+5(y+6)$ terms cancel."
+      "content": "Adding the two equations cancels the $y+6$ terms.<br/>$$(x-3)-5(y+6)=128$$<br/>$$(x-3)+5(y+6)=467$$<br/>$$2(x-3)=595$$"
     },
     {
-      "title": "Target the requested expression",
-      "content": "Adding gives $$2(x-3)=128+467=595.$$ The question asks for $6(x-3)$, which is $3$ times $2(x-3)$."
-    },
-    {
-      "title": "Multiply directly",
-      "content": "Multiply both sides of $2(x-3)=595$ by $3$: $$6(x-3)=1785.$$"
-    },
-    {
-      "title": "Confirm the shortcut",
-      "content": "There is no need to find $x$ or $y$ separately. The elimination step gives the requested expression directly, so the answer is <strong>1785</strong>."
+      "title": "Scale to the target",
+      "content": "The question asks for $6(x-3)$, which is $3$ times $2(x-3)$.<br/>$$6(x-3)=3\\cdot595=1785$$<br/>The answer is <strong>1785</strong>."
     }
   ]
 }

@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rectangle perimeter formula",
-      "content": "A rectangle's perimeter is the sum of all four sides. This rectangle has two sides of length $7$ and two sides of width $10$, so add all four side lengths or use $P=2l+2w$."
-    },
-    {
-      "title": "Recall the perimeter formula",
-      "content": "The perimeter of a rectangle is the sum of all four sides. Since a rectangle has two sides of length $l$ and two sides of width $w$, the perimeter is $2l + 2w$.",
+      "title": "Use the perimeter formula",
+      "content": "A rectangle has two lengths and two widths. Its perimeter is the sum of all four sides, so use $P=2l+2w$.",
       "formula": "$$P = 2l + 2w$$"
     },
     {
-      "title": "Substitute and calculate",
-      "content": "Substitute $l = 7$ and $w = 10$ into the formula:<br/>$$P = 2(7) + 2(10) = 14 + 20 = 34$$<br/>That matches <strong>Choice D &mdash; $34$</strong>."
+      "title": "Substitute the side lengths",
+      "content": "Use $l=7$ and $w=10$:<br/>$$P=2(7)+2(10)$$<br/>$$P=14+20=34$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The perimeter is $34$ inches. The other choices do not include both pairs of equal sides in the rectangle. The answer is <strong>D</strong>."
     }
   ]
 }

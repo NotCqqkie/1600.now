@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 0",
-      "content": "Replace $x$ with $0$ in $$f(x) = 10x^2 - 32x - 152.$$ This gives $$f(0) = 10(0)^2 - 32(0) - 152.$$"
+      "title": "Substitute zero",
+      "content": "Substitute $0$.<br/>$$f(0)=10(0)^2-32(0)-152$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(0) = 0 - 0 - 152 = -152.$$ That is the correct answer."
+      "title": "Evaluate the expression",
+      "content": "Simplify.<br/>$$f(0)=0-0-152=-152$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

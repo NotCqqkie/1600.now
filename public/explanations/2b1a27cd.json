@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Use vertex form",
-      "content": "The maximum depth is the vertex $(7,352.8)$, so use $g(t)=a(t-7)^2+352.8$. The dolphin reaches the surface at $t=14$, so $g(14)=0$."
+      "content": "The maximum depth is the vertex, so write the quadratic as $g(t)=a(t-7)^2+352.8$. The surface is reached at $t=14$, so $g(14)=0$."
     },
     {
-      "title": "Solve for a",
-      "content": "Substitute $t=14$ and $g(t)=0$: $$0=a(14-7)^2+352.8.$$ Then $49a=-352.8$, so $a=-7.2$. The model is $g(t)=-7.2(t-7)^2+352.8$."
+      "title": "Find the coefficient",
+      "content": "Substitute $t=14$ and solve for $a$: $0=a(14-7)^2+352.8$, so $49a=-352.8$ and $a=-7.2$."
     },
     {
-      "title": "Evaluate at t = 12 minutes",
-      "content": "Evaluate the model at $t=12$: $g(12)=-7.2(12-7)^2+352.8=-7.2(25)+352.8=172.8$, which rounds to <strong>173 meters</strong>."
+      "title": "Evaluate twelve minutes",
+      "content": "Use $g(t)=-7.2(t-7)^2+352.8$ at $t=12$: $g(12)=-7.2(12-7)^2+352.8=172.8$. Rounded to the nearest meter gives $173$. The answer is <strong>173</strong>."
     }
   ]
 }

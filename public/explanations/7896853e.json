@@ -1,0 +1,15 @@
+{
+  "questionId": "7896853e",
+  "correctAnswer": "4200",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion factor",
+      "content": "Each meter is $100$ centimeters. To convert $42$ meters to centimeters, multiply by $100$."
+    },
+    {
+      "title": "Multiply meters by centimeters",
+      "content": "Compute the conversion:<br/>$$42\\cdot100=4{,}200$$<br/>The answer is <strong>4200</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e271b665",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed example",
+      "content": "The student wants an example of a dinosaur fossil specimen's nickname. A useful sentence must give a specific nickname and identify the specimen that has that nickname."
+    },
+    {
+      "title": "Reject missing nicknames",
+      "content": "A discusses the <em>Pentaceratops</em> specimen but omits its nickname. B gives only a general statement about nicknames. C says a nickname exists but never states it. The effective sentence identifies Spike as the specimen's nickname. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b118adc2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sampled group",
+      "content": "The sample was selected at random from all high school students in the district. Survey results can be generalized to the population from which the random sample was drawn."
+    },
+    {
+      "title": "Avoid overgeneralizing",
+      "content": "The sample was not drawn from the whole state, and the surveyed students are only the sample. The largest valid population is all high school students in the district. The answer is <strong>A</strong>."
+    }
+  ]
+}

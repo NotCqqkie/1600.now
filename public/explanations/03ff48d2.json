@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the quadratic",
-      "content": "Expand $x(kx - 48) = -12$: $kx^2 - 48x + 12 = 0$, so $a = k$, $b = -48$, $c = 12$."
+      "title": "Rewrite as a quadratic",
+      "content": "Expand and move everything to one side:<br/>$$x(kx-48)=-12$$<br/>$$kx^2-48x=-12$$<br/>$$kx^2-48x+12=0$$"
     },
     {
-      "title": "Use the no-real-solutions condition",
-      "content": "A quadratic has no real solutions when the expression under the square root in the quadratic formula is negative. For $kx^2-48x+12=0$, that condition is $$(-48)^2-4(k)(12)\\lt0.$$ Simplify: $$2304-48k\\lt0$$ so $$k\\gt 48.$$"
+      "title": "Use the discriminant condition",
+      "content": "A quadratic has no real solutions when its discriminant is negative:<br/>$$b^2-4ac<0$$<br/>Here, $a=k$, $b=-48$, and $c=12$, so<br/>$$(-48)^2-4(k)(12)<0$$<br/>$$2304-48k<0$$<br/>$$k>48$$"
     },
     {
       "title": "Pick the least integer",
-      "content": "$k$ must be an integer greater than $48$, so the least possible integer is $k=49$. Therefore <strong>49</strong> is correct."
+      "content": "The least integer greater than $48$ is $49$. The answer is <strong>49</strong>."
     }
   ]
 }

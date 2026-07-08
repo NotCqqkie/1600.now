@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the poem is doing",
-      "content": "The speaker addresses Dunbar with admiration, noting he has &ldquo;read the hearts and souls of men&rdquo; and &ldquo;the language of the flowers&rdquo;&mdash;two domains showing deep perception of people and nature. The phrase &ldquo;mighty pen&rdquo; and the celebratory tone mark this as praise, not description of a writing process or a shared outing.<ul><li><strong>Choice A &mdash; &lsquo;To praise a certain writer for being especially perceptive regarding people and nature&rsquo;</strong>: matches both the tone (praise) and the content (perception of people and nature). &#10003;</li><li><strong>Choice B &mdash; &lsquo;To establish that a certain writer has read extensively about a variety of topics&rsquo;</strong>: misreads &ldquo;read&rdquo; as literal reading of texts rather than perceiving or understanding. &#10007;</li><li><strong>Choice C &mdash; &lsquo;To call attention to a certain writer's careful and elaborately detailed writing process&rsquo;</strong>: the poem never describes how Dunbar writes&mdash;no drafts, revision, or process mentioned. &#10007;</li><li><strong>Choice D &mdash; &lsquo;To recount fond memories of an afternoon spent in nature with a certain writer&rsquo;</strong>: no shared experience appears in the text; the speaker addresses Dunbar&apos;s abilities, not a personal outing. &#10007;</li></ul>"
+      "title": "Read the praise in the images",
+      "content": "The speaker addresses Dunbar admiringly and calls attention to his \"mighty pen.\" The poem praises his ability to understand and represent human experience, including hearts and souls, while also noticing natural details such as flowers and a brook."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The poem is a celebration of Dunbar&apos;s perceptiveness about human hearts and the natural world. That confirms <strong>A</strong> is correct."
+      "title": "Keep read figurative",
+      "content": "In context, \"read\" does not mean ordinary literal reading. It means Dunbar can perceive people and nature deeply enough to write about them with insight. The question asks for that broad characterization of the speaker's praise."
+    },
+    {
+      "title": "Reject literal or absent claims",
+      "content": "Choice B misreads \"read\" as literal reading, Choice C adds an unsupported writing process, and Choice D invents a shared afternoon in nature. The remaining choice captures the praise for Dunbar's perceptive writing. The answer is <strong>A</strong>."
     }
   ]
 }

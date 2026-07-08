@@ -1,0 +1,15 @@
+{
+  "questionId": "b725b1bf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $4$ in $f(x)=90x+7$:\n$$f(4)=90(4)+7$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Multiply $90$ by $4$ to get $360$, then add $7$ to find the function value. This is the requested output:\n$$90(4)+7=360+7=367$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

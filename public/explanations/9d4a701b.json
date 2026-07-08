@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "Before the blank: <em>light intensity affects the chemical reaction rate of photosynthesis</em> — a complete independent clause.<br/><br/>After the blank: <em>as light intensity increases, so does the rate at which the reactants are converted into their products</em> — an elaboration that explains <em>how</em> light intensity affects the rate."
+      "title": "Find the full first clause",
+      "content": "Before the blank, the sentence states that light intensity affects the chemical reaction rate of photosynthesis. The following clause explains how the rate changes as light intensity increases."
     },
     {
-      "title": "Apply the colon rule",
-      "content": "A colon can follow an independent clause to introduce an elaboration or explanation of what came before. The colon version marks this elaboration: <em>photosynthesis: as light intensity increases...</em><br/><br/>“photosynthesis and” turns the elaboration into a coordinated clause without proper punctuation; “photosynthesis,” creates a comma splice between two complete clauses; “photosynthesis” omits punctuation entirely.<br/><br/>The answer is <strong>C</strong>."
+      "title": "Introduce the explanation",
+      "content": "Choice A coordinates the clauses awkwardly, Choice B creates a comma splice, and Choice D gives no punctuation between the complete thought and its elaboration. A colon after the complete clause correctly introduces the explanation. The answer is <strong>C</strong>."
     }
   ]
 }

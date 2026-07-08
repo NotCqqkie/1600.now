@@ -27,6 +27,8 @@ import { SatScoreCard } from "@/components/practice/SatScoreCard";
 import {
   defaultFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
+  MIN_SCORE_BAND,
+  MAX_SCORE_BAND,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
 import { MOBILE_MEDIA_QUERY } from "@/hooks/use-mobile";
@@ -999,11 +1001,12 @@ type FilterDemoAction = {
     from: [number, number];
     to: [number, number];
     setRange: (range: [number, number]) => void;
+    valueRange: [number, number];
   };
 };
 
 const demoTargetFilters: QuestionBankFilters = {
-  difficulty: ["hard"],
+  scoreBandRange: [8, 10],
   timeSpentRange: [20, 95],
   activeQuestions: "active",
   markedForReview: "yes",
@@ -1012,8 +1015,8 @@ const demoTargetFilters: QuestionBankFilters = {
 };
 
 const isDemoApplied = (filters: QuestionBankFilters) =>
-  filters.difficulty.length === demoTargetFilters.difficulty.length &&
-  demoTargetFilters.difficulty.every((difficulty) => filters.difficulty.includes(difficulty)) &&
+  filters.scoreBandRange[0] === demoTargetFilters.scoreBandRange[0] &&
+  filters.scoreBandRange[1] === demoTargetFilters.scoreBandRange[1] &&
   filters.timeSpentRange[0] === demoTargetFilters.timeSpentRange[0] &&
   filters.timeSpentRange[1] === demoTargetFilters.timeSpentRange[1] &&
   filters.activeQuestions === demoTargetFilters.activeQuestions &&
@@ -1198,14 +1201,6 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
   const applyDemoOptionKey = useCallback((optionKey: string) => {
     const [group, value] = optionKey.split(":");
     if (!value) return;
-    const currentFilters = filtersRef.current;
-    if (group === "difficulty") {
-      const nextDifficulty = currentFilters.difficulty.includes(value as QuestionBankFilters["difficulty"][number])
-        ? currentFilters.difficulty.filter((difficulty) => difficulty !== value)
-        : [...currentFilters.difficulty, value as QuestionBankFilters["difficulty"][number]];
-      setDemoFilterPatch({ difficulty: nextDifficulty });
-      return;
-    }
     if (group === "activity") {
       setDemoFilterPatch({ activeQuestions: value as QuestionBankFilters["activeQuestions"] });
       return;
@@ -1378,15 +1373,33 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       from,
       to,
       setRange: (range) => setDemoFilterPatch({ timeSpentRange: range }),
+      valueRange: [0, MAX_TIME_SPENT_FILTER_SECONDS],
+    });
+    const bandDrag = (
+      from: [number, number],
+      to: [number, number],
+    ): NonNullable<FilterDemoAction["timeDrag"]> => ({
+      from,
+      to,
+      setRange: (range) => setDemoFilterPatch({ scoreBandRange: range }),
+      valueRange: [MIN_SCORE_BAND, MAX_SCORE_BAND],
     });
     const slider = () => control("time") ?? root.querySelector<HTMLElement>('[role="slider"]');
+    const bandSlider = () => control("difficulty");
 
     if (mode === "apply") {
-      const nextDifficulty = demoTargetFilters.difficulty.find(
-        (difficulty) => !currentFilters.difficulty.includes(difficulty),
-      );
-      if (nextDifficulty) {
-        return optionOrControl(`difficulty:${nextDifficulty}`, "difficulty");
+      if (
+        currentFilters.scoreBandRange[0] !== demoTargetFilters.scoreBandRange[0] ||
+        currentFilters.scoreBandRange[1] !== demoTargetFilters.scoreBandRange[1]
+      ) {
+        const target = bandSlider();
+        return target ? {
+          target,
+          timeDrag: bandDrag(
+            [currentFilters.scoreBandRange[0], currentFilters.scoreBandRange[1]],
+            [demoTargetFilters.scoreBandRange[0], demoTargetFilters.scoreBandRange[1]],
+          ),
+        } : null;
       }
       if (
         currentFilters.timeSpentRange[0] !== demoTargetFilters.timeSpentRange[0] ||
@@ -1417,11 +1430,18 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       return null;
     }
 
-    if (currentFilters.difficulty.includes("hard")) {
-      return optionOrControl("difficulty:hard", "difficulty");
-    }
-    if (currentFilters.difficulty.includes("medium")) {
-      return optionOrControl("difficulty:medium", "difficulty");
+    if (
+      currentFilters.scoreBandRange[0] !== defaultBankFilters.scoreBandRange[0] ||
+      currentFilters.scoreBandRange[1] !== defaultBankFilters.scoreBandRange[1]
+    ) {
+      const target = bandSlider();
+      return target ? {
+        target,
+        timeDrag: bandDrag(
+          [currentFilters.scoreBandRange[0], currentFilters.scoreBandRange[1]],
+          [defaultBankFilters.scoreBandRange[0], defaultBankFilters.scoreBandRange[1]],
+        ),
+      } : null;
     }
     if (
       currentFilters.timeSpentRange[0] !== defaultBankFilters.timeSpentRange[0] ||
@@ -1655,10 +1675,16 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       raf(step);
       return durationMs + entryDelay;
     };
-	    const getDemoTimePoint = (element: HTMLElement, value: number) => {
+	    const getDemoTimePoint = (
+      element: HTMLElement,
+      value: number,
+      valueRange: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS],
+    ) => {
       const rect = element.getBoundingClientRect();
       const inset = Math.min(12, rect.width * 0.14);
-      const ratio = clampDemoTimeValue(value) / MAX_TIME_SPENT_FILTER_SECONDS;
+      const [rangeMin, rangeMax] = valueRange;
+      const clamped = Math.min(rangeMax, Math.max(rangeMin, value));
+      const ratio = rangeMax === rangeMin ? 0 : (clamped - rangeMin) / (rangeMax - rangeMin);
       return {
         x: rect.left + inset + (rect.width - inset * 2) * ratio,
         y: rect.top + rect.height / 2,
@@ -1694,16 +1720,19 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
       rangeBase: [number, number],
       setRange: (range: [number, number]) => void,
       duration = 560,
+      valueRange: [number, number] = [0, MAX_TIME_SPENT_FILTER_SECONDS],
     ) => {
       captureProtectedScroll();
       const startedAt = performance.now();
       let lastValue = Number.NaN;
+      const [rangeMin, rangeMax] = valueRange;
       const step = (now: number) => {
         if (demoInterrupted || Date.now() < userFilterPauseUntilRef.current) return;
         const progress = duration <= 0 ? 1 : Math.min(1, Math.max(0, (now - startedAt) / duration));
-        // Interpolate continuously (no 5s-step rounding) so the thumb glides smoothly;
+        // Interpolate continuously (no stepped rounding) so the thumb glides smoothly;
         // the caller snaps to the exact stepped target once the animation completes.
-        const nextValue = clampDemoTimeValue(startValue + (endValue - startValue) * getDemoCursorEase(progress));
+        const nextValue = Math.min(rangeMax, Math.max(rangeMin,
+          startValue + (endValue - startValue) * getDemoCursorEase(progress)));
         if (nextValue !== lastValue) {
           lastValue = nextValue;
           const nextRange: [number, number] = [rangeBase[0], rangeBase[1]];
@@ -1717,7 +1746,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
     };
 
     if (action.timeDrag) {
-      const { from, to, setRange } = action.timeDrag;
+      const { from, to, setRange, valueRange } = action.timeDrag;
       const changedHandles = ([0, 1] as const).filter((index) => from[index] !== to[index]);
       if (changedHandles.length === 0) {
         captureProtectedScroll();
@@ -1736,7 +1765,7 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
         const handleIndex = changedHandles[handlePosition];
         const startValue = currentRange[handleIndex];
         const endValue = to[handleIndex];
-        const moveDuration = setCursorToPoint(getDemoTimePoint(action.target, startValue));
+        const moveDuration = setCursorToPoint(getDemoTimePoint(action.target, startValue, valueRange));
         schedule(() => {
           if (!canRunStep(action.target)) {
             queueDemoRetry();
@@ -1744,9 +1773,9 @@ const BankFilterInlineDemo = memo(({ isDarkMode }: { isDarkMode: boolean }) => {
           }
           setClickKey((key) => key + 1);
           const animationBase: [number, number] = [currentRange[0], currentRange[1]];
-          const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue));
+          const dragDuration = setCursorToPoint(getDemoTimePoint(action.target, endValue, valueRange));
           captureProtectedScroll();
-          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration);
+          animateRangeValue(handleIndex, startValue, endValue, animationBase, setRange, dragDuration, valueRange);
           schedule(() => {
             if (!canRunStep(action.target)) {
               queueDemoRetry();
@@ -2843,7 +2872,7 @@ const Home = () => {
             position: "relative",
             maxWidth: 1032,
             margin: "0 auto",
-            padding: "76px 24px 0",
+            padding: "110px 24px 0",
             textAlign: "center",
           }}
         >
@@ -3177,17 +3206,6 @@ const Home = () => {
         </div>
       </section>
 
-      <footer className="border-t border-border bg-card mt-auto">
-        <div className="container mx-auto px-4 py-5 text-xs text-muted-foreground flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <div className="flex items-center gap-2">
-            <BrandLogo variant="mark" className="h-5 w-5" />
-            <span>© 2026 1600.now</span>
-          </div>
-          <div className="flex items-center gap-4">
-            <span>Built for focused SAT prep.</span>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

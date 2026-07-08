@@ -1,0 +1,15 @@
+{
+  "questionId": "fd18be9e",
+  "correctAnswer": "-16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the quadratic formula",
+      "content": "Put the equation in standard form.<br/>$$6x^2-11x+c-4=0$$<br/>The quadratic formula gives<br/>$$x=\\frac{11\\pm\\sqrt{(-11)^2-4(6)(c-4)}}{12}$$<br/>$$x=\\frac{11\\pm\\sqrt{217-24c}}{12}$$"
+    },
+    {
+      "title": "Match the radical",
+      "content": "The given solution has $\\sqrt{601}$ in the numerator, so set the discriminant equal to $601$.<br/>$$217-24c=601$$<br/>$$-24c=384$$<br/>$$c=-16$$<br/>The answer is <strong>-16</strong>."
+    }
+  ]
+}

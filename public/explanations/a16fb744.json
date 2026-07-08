@@ -1,0 +1,15 @@
+{
+  "questionId": "a16fb744",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the parenthetical",
+      "content": "The sentence gives definitions in parentheses: \"mustang\" is followed by \"(a wild horse).\" The definition of \"rodeo\" starts with an opening parenthesis, so the blank must close that parenthetical before the sentence continues."
+    },
+    {
+      "title": "Choose matching punctuation",
+      "content": "Choice A leaves the parenthesis open. Choice C uses a semicolon but still fails to close the parenthetical. Choice D uses an em dash, which does not match the opening parenthesis. The needed punctuation closes the definition in the same pattern used earlier. The answer is <strong>B</strong>."
+    }
+  ]
+}

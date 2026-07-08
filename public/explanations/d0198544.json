@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the evidence shift",
-      "content": "Text 2 confirms the Polynesian origin claim yet signals a critical evolution in the evidence.<br/><br/>Kearns's unique genetic mutation—the original basis—was weakened (shown to occur worldwide), but Rojas-Vega's discovery of different genetic markers shared only by South American and Polynesian breeds now provides stronger support for the same conclusion."
+      "title": "Track the evidence change",
+      "content": "Text 2 ultimately agrees with the Polynesian-origin claim, but it changes the strength of the evidence. Kearns's mutation evidence was weakened because the mutation appears worldwide; Rojas-Vega's separate markers better support a Polynesian link."
     },
     {
-      "title": "Match to the answer's logic",
-      "content": "D captures this response: Rojas-Vega's evidence is stronger and more decisive than Kearns's original mutation evidence.<br/><br/>The others either misread what the claim says (B suggests it denies reverse transfer; C assumes European genetic uniformity) or falsely attribute disagreement Text 2 doesn't express (A claims it disputes the timeline).<br/><br/>That is the correct answer."
+      "title": "Reject misread responses",
+      "content": "A wrongly says Text 2 objects to the timeline. B invents a claim about animals moving from South America to Polynesia. C invents an assumption that European chickens were genetically uniform. The answer is <strong>D</strong>."
     }
   ]
 }

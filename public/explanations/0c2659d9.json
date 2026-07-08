@@ -1,0 +1,19 @@
+{
+  "questionId": "0c2659d9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the path area",
+      "content": "The outer rectangle has dimensions $21+2x$ by $13+2x$. The pool area is\n$$\n21\\cdot 13=273\n$$\nSo the path area is\n$$\n(21+2x)(13+2x)-273\n$$"
+    },
+    {
+      "title": "Set the area equation",
+      "content": "The concrete path area is $240$, so\n$$\n(21+2x)(13+2x)-273=240\n$$"
+    },
+    {
+      "title": "Test the matching value",
+      "content": "Using $x=3$, the outer rectangle is $27$ by $19$:\n$$\n27\\cdot 19-273=513-273=240\n$$\nThis matches the given path area. The answer is <strong>A</strong>."
+    }
+  ]
+}

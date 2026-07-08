@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify variables",
-      "content": "The variable <em>x</em> represents minutes Jordan spends stretching each day, and <em>y</em> represents minutes Jordan spends walking each day.<br/>The given equation is $$x + y = 90$$."
+      "title": "Identify what is added",
+      "content": "The variable $x$ represents stretching minutes, and $y$ represents walking minutes. Therefore, $x+y$ represents the total minutes spent on the two activities."
     },
     {
       "title": "Interpret the constant",
-      "content": "Since the left side adds the minutes for both activities, the constant 90 must be the total minutes spent stretching and walking each day.<br/>That confirms <strong>C</strong> is correct."
+      "content": "In the equation\n$$x+y=90$$\nthe number $90$ is the total number of minutes spent stretching and walking each day. The answer is <strong>C</strong>."
     }
   ]
 }

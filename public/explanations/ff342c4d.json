@@ -1,0 +1,23 @@
+{
+  "questionId": "ff342c4d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both equations",
+      "content": "The first equation gives $y=-x^2$. The second equation gives $y=8x+16$.\n$$x^2+y+3=3$$\n$$y=-x^2$$\n$$8x+16-y=0$$\n$$y=8x+16$$",
+      "desmosExpressions": [
+        "x^{2}+y+3=3",
+        "8x+16-y=0"
+      ]
+    },
+    {
+      "title": "Set the y-values equal",
+      "content": "At the intersection, the two expressions for $y$ are equal.\n$$-x^2=8x+16$$\n$$x^2+8x+16=0$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Factor the quadratic.\n$$(x+4)^2=0$$\n$$x=-4$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

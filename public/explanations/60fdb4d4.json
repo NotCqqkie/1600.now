@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $7x^2 -3x + 4$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Distribute the minus sign",
-      "content": "Subtracting a polynomial means flipping every sign inside the second set of parentheses: $$(3x^2 - 5) - (-4x^2 + 3x - 9) = 3x^2 - 5 + 4x^2 - 3x + 9.$$"
+      "title": "Distribute the subtraction",
+      "content": "The expression subtracts the entire second polynomial, so the minus sign changes the sign of every term inside the second set of parentheses. This turns $-4x^2$ into $+4x^2$, $+3x$ into $-3x$, and $-9$ into $+9$:\n$$(3x^2-5)-(-4x^2+3x-9)=3x^2-5+4x^2-3x+9$$"
     },
     {
       "title": "Combine like terms",
-      "content": "Group by degree: $$x^2\\text{-terms: } 3x^2 + 4x^2 = 7x^2.$$ $$x\\text{-terms: } -3x.$$ $$\\text{Constants: } -5 + 9 = 4.$$ So the result is $7x^2 - 3x + 4$."
-    },
-    {
-      "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$7x^2 -3x + 4$&rsquo;</strong>: $7x^2 - 3x + 4$ &mdash; matches exactly. Kept.</li><li><strong>Choice B &mdash; &lsquo;$7x^2 + 3x -4$&rsquo;</strong>: $7x^2 + 3x - 4$ &mdash; wrong sign on $x$-term and wrong constant. Eliminated.</li><li><strong>Choice C &mdash; &lsquo;$- x^2 -3x -14$&rsquo;</strong>: $-x^2 - 3x - 14$ &mdash; wrong leading coefficient (would come from adding, not subtracting, with extra sign errors). Eliminated.</li><li><strong>Choice D &mdash; &lsquo;$- x^2 + 3x -14$&rsquo;</strong>: $-x^2 + 3x - 14$ &mdash; same problem as C, and wrong on all three terms. Eliminated.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "Now group matching terms: the $x^2$ terms combine with each other, the only $x$ term stays $-3x$, and the constants $-5$ and $9$ combine to make $4$. The simplified expression is:\n$$3x^2+4x^2-3x+(-5+9)=7x^2-3x+4$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

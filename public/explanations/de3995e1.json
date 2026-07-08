@@ -1,0 +1,19 @@
+{
+  "questionId": "de3995e1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the time shift",
+      "content": "The first sentence describes what scientists knew and assumed in 1940: they isolated androstenone and believed it existed only in animals. The next sentence says scientists now know androstenone can also be found in chokecherry plants, while noting that this discovery came decades later. The transition must mark that movement from an earlier belief to present knowledge."
+    },
+    {
+      "title": "Reject non-time transitions",
+      "content": "<ul><li><strong>Choice B</strong>, \"For instance,\" would introduce an example, but the second sentence is not an example of the 1940 assumption.</li><li><strong>Choice C</strong>, \"In other words,\" would introduce a restatement, but the plant discovery is new information.</li><li><strong>Choice D</strong>, \"Thus,\" would signal a conclusion, but present knowledge about chokecherry plants is not caused by the 1940 isolation.</li></ul>"
+    },
+    {
+      "title": "Signal the present",
+      "content": "<strong>Choice A</strong>, \"Today,\" clearly signals the contrast between what scientists assumed in 1940 and what scientists know now. It also fits the sentence's later reference to a discovery that occurred decades after 1940. The answer is <strong>A</strong>."
+    }
+  ]
+}

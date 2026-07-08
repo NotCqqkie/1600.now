@@ -1,0 +1,19 @@
+{
+  "questionId": "c1b4fd06",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal claim",
+      "content": "Solís-Ramos and colleagues attribute the difference in top-trophic-level biomass to regulatory status. Supporting that claim requires a mechanism showing how fishing changes the presence of those species."
+    },
+    {
+      "title": "Reject weaker evidence",
+      "content": "<ul><li><strong>Choice A</strong> concerns total biomass, not why top-level species differ by protection.</li><li><strong>Choice B</strong> would make the unprotected reef harder to reach, weakening a fishing-pressure explanation.</li><li><strong>Choice C</strong> concerns species identity, not fishing effects.</li></ul>"
+    },
+    {
+      "title": "Show the fishing mechanism",
+      "content": "If commercial and sport fishers disproportionately remove species at the highest trophic level, the unprotected reef would be expected to have fewer of them. The answer is <strong>D</strong>."
+    }
+  ]
+}

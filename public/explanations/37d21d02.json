@@ -1,0 +1,15 @@
+{
+  "questionId": "37d21d02",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use square-root symmetry",
+      "content": "The equation is<br/>$$x^2=2{,}704$$<br/>Because $2{,}704$ is positive, the equation has one positive real solution and one negative real solution."
+    },
+    {
+      "title": "Count the real solutions",
+      "content": "Since<br/>$$52^2=2{,}704$$<br/>the solutions are $x=52$ and $x=-52$. There are exactly two real solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

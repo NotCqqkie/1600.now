@@ -1,0 +1,15 @@
+{
+  "questionId": "e9d63935",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on both soundscapes",
+      "content": "The student's goal is to indicate that both soundscapes are on the list. The response must name the cicadas at Yama-dera and the birds at Higashiyama Botanical Garden, then say both are listed."
+    },
+    {
+      "title": "Reject incomplete options",
+      "content": "A describes the list but names neither soundscape. B names only the bird soundscape. D names only the cicada soundscape and focuses on cultural significance. The sentence that names both soundscapes and states that both are on the list satisfies the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

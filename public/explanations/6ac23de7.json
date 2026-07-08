@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides by 6 to clear the fraction",
-      "content": "Start with $$\\frac{5x}{6} = 30$$. Multiply both sides by 6 to eliminate the denominator: $$6 \\cdot \\frac{5x}{6} = 30 \\cdot 6$$. This simplifies to $$5x = 180$$."
+      "title": "Clear the denominator",
+      "content": "Start with the equation and multiply both sides by $6$.\n$$\n\\frac{5x}{6}=30\n$$\n$$\n5x=180\n$$"
     },
     {
-      "title": "Divide both sides by 5 to isolate x",
-      "content": "From $$5x = 180$$, divide both sides by 5: $$x = \\frac{180}{5} = 36$$. That confirms <strong>A</strong> is correct."
+      "title": "Isolate the variable",
+      "content": "Divide both sides by $5$.\n$$\nx=\\frac{180}{5}=36\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

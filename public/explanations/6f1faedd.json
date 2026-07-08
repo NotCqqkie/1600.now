@@ -1,0 +1,15 @@
+{
+  "questionId": "6f1faedd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the lower bound",
+      "content": "The pup's mass is at least $\\frac{1}{840}$ of the mother's mass.\n$$\n\\frac{86{,}520}{840}=103\n$$"
+    },
+    {
+      "title": "Write the inequality",
+      "content": "Since $103$ grams is the smallest predicted mass, the inequality must start with\n$$\n103\\leq p\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

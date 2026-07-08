@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 3",
-      "content": "Replace $x$ with $3$ in $$f(x) = x^2 + x + 68.$$ This gives $$f(3) = (3)^2 + 3 + 68.$$"
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $3$:\n$$\nf(3)=3^2+3+68\n$$"
     },
     {
-      "title": "Compute the result",
-      "content": "Simplify: $$f(3) = 9 + 3 + 68 = 80.$$ The answer is <strong>80</strong>."
+      "title": "Evaluate",
+      "content": "$$\nf(3)=9+3+68=80\n$$\nThe answer is <strong>80</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "5583a0b4",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the second ratio",
+      "content": "Separate the constant factor from the second fraction.\n$$\n\\frac{cx}{4y}=\\frac{c}{4}\\cdot\\frac{x}{y}\n$$"
+    },
+    {
+      "title": "Use the matching values",
+      "content": "Both given expressions equal $92$, and \n$$\n\\frac{x}{y}=92\n$$\n$$\n\\frac{c}{4}\\cdot92=92\n$$\n$$\n\\frac{c}{4}=1\n$$\n$$\nc=4\n$$\nThe answer is <strong>4</strong>."
+    }
+  ]
+}

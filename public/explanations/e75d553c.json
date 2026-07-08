@@ -1,0 +1,19 @@
+{
+  "questionId": "e75d553c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the trig statement",
+      "content": "The equation says the ratio of $\\sin X$ to $\\cos Y$ is $1$. Therefore the numerator and denominator are equal.<br/>$$\\frac{\\sin X}{\\cos Y}=1$$<br/>$$\\sin X=\\cos Y$$"
+    },
+    {
+      "title": "Use complementary angles",
+      "content": "For acute angles, $\\sin X=\\cos Y$ means the angles are complementary.<br/>$$X+Y=90^{\\circ}$$<br/>Since $Y=31^{\\circ}$, substitute that value.<br/>$$X+31^{\\circ}=90^{\\circ}$$"
+    },
+    {
+      "title": "Solve for the angle",
+      "content": "Subtract $31^{\\circ}$ from $90^{\\circ}$.<br/>$$X=90^{\\circ}-31^{\\circ}$$<br/>$$X=59^{\\circ}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

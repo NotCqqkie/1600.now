@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining evidence",
-      "content": "The single decisive clue is that forest plots with limited logging are “more robust than plots that haven't been logged at all.” This finding anchors everything the answer must follow from."
+      "title": "Use the study result",
+      "content": "The passage says limited logging plots may be more robust than plots that have not been logged. That finding challenges the idea that logging is always opposed to forest conservation."
     },
     {
-      "title": "Match the implication",
-      "content": "If limited logging produces more robust forests, then limited logging must support forest health—which is what A directly states.<br/><br/>B, C, and D contradict or miss this by claiming other strategies work better, introducing doubt the evidence doesn't warrant, or arguing for untouched forests that the study shows underperform.<br/><br/>That is the correct answer."
+      "title": "State the careful conclusion",
+      "content": "B compares limited logging with other strategies the study does not discuss. C says benefits will be hard to know, but the study already suggests one. D contradicts the finding by favoring untouched forests. The careful inference is that limited logging may help forest health. The answer is <strong>A</strong>."
     }
   ]
 }

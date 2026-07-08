@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structures",
-      "content": "Left side of the blank: <em>“One such type of matter is a form of cooled, condensed gas called a Bose-Einstein condensate (BEC)”</em> is an independent clause.<br/><br/>Right side: <em>“Dutch physicist Lene Hau famously used a BEC to slow a beam of light to a complete halt”</em> is also an independent clause."
+      "title": "Separate the clauses",
+      "content": "The words before the blank form an independent clause about a Bose-Einstein condensate. The words after the blank form another independent clause about Lene Hau using a BEC to slow light."
     },
     {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "A semicolon joins two independent clauses correctly. The other choices violate this rule by using insufficient punctuation—either a comma without a conjunction, a conjunction without its required comma, or no punctuation at all. That confirms <strong>C</strong> is correct."
+      "title": "Reject weak punctuation",
+      "content": "A uses only a comma between two independent clauses, B uses <em>and</em> without the needed comma, and D uses no punctuation. A semicolon correctly joins the two clauses. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d8851a2d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the again clue",
+      "content": "The data-transfer project is \"making the data available again.\" That means the Apollo data's usefulness is being restored after being limited by outdated storage technologies."
+    },
+    {
+      "title": "Choose the restoration meaning",
+      "content": "Choice A means continuing, not restoring. Choice B means setting up, usually for the first time. Choice D means surpassing. The word that means making useful again fits the project's effect on the data. The answer is <strong>C</strong>."
+    }
+  ]
+}

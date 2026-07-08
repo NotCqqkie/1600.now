@@ -1,0 +1,15 @@
+{
+  "questionId": "e78b7f02",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "List the linked factors",
+      "content": "The study found that white butterflies were observed on green flowers more often than other butterflies were. It also found that butterflies fed more often on cloudy days. Those findings connect behavior to both butterfly color and weather conditions."
+    },
+    {
+      "title": "Eliminate incomplete options",
+      "content": "A includes weather but leaves out butterfly color. B includes butterfly color but leaves out weather. C denies both factors, contradicting the two findings reported in the text. The answer is <strong>D</strong>."
+    }
+  ]
+}

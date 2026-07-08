@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The key signal is that the second sentence confirms the first sentence's claim by explaining the specific features that created the “familiar and distant” effect—a video screen (making it feel like a familiar movie theater) placed in a coal slag-encrusted subterranean room (making it feel distant and unfamiliar)."
+      "title": "Connect claim and evidence",
+      "content": "The first sentence says Farrokh's installation felt both \"familiar and distant.\" The second sentence explains why: the video screen made it resemble a movie theater, while the coal slag-encrusted room made it feel unfamiliar."
     },
     {
-      "title": "Match the meaning",
-      "content": "“Indeed” means “in fact” or “as a matter of fact,” confirming that the second sentence is evidence for the first sentence's claim.<br/><br/>Next implies sequence, Nevertheless implies contradiction, and Instead implies substitution—none of which fits how the sentences actually relate.<br/><br/>That is the correct answer."
+      "title": "Choose a confirming transition",
+      "content": "A suggests a time sequence, but no next event is introduced. B signals contrast, and D signals substitution; neither fits because the second sentence supports the first. The needed transition means \"in fact\" and introduces confirmation. The answer is <strong>C</strong>."
     }
   ]
 }

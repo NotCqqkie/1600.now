@@ -1,0 +1,15 @@
+{
+  "questionId": "ca076aa2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the species directly",
+      "content": "The student's goal is to explain what <em>Psydrax odorata</em> is. The relevant note identifies it as a flowering shrub and says it was one of the native species catalogued on Oahu."
+    },
+    {
+      "title": "Avoid research-only details",
+      "content": "B describes <em>Hedychium gardnerianum</em>, not <em>Psydrax odorata</em>. C and D mention the study context but do not directly define the plant's type and origin. The answer is <strong>A</strong>."
+    }
+  ]
+}

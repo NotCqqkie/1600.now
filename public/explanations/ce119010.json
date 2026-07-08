@@ -1,0 +1,23 @@
+{
+  "questionId": "ce119010",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the shifted input",
+      "content": "Since $g(x)=f(x+3)$, replace the input of $f$ with $x+3$.<br/>$$g(x)=7(4)^{x+3}$$"
+    },
+    {
+      "title": "Separate the exponent",
+      "content": "Use exponent rules to rewrite the expression.<br/>$$7(4)^{x+3}=7(4)^x(4)^3=7(64)(4)^x=448(4)^x$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the original function and the shifted function gives the same simplified rule:<br/>$$g(x)=448(4)^x$$<br/>The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "f\\left(x\\right)=7\\cdot4^{x}",
+        "g\\left(x\\right)=448\\cdot4^{x}"
+      ]
+    }
+  ]
+}

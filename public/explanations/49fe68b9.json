@@ -1,0 +1,15 @@
+{
+  "questionId": "49fe68b9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the result relationship",
+      "content": "The first sentence describes Wong joining the Navy and serving during the Civil War. The second says he earned a place in US history. The transition must show that the historical recognition came through the action just described."
+    },
+    {
+      "title": "Reject unrelated transitions",
+      "content": "Choice A signals dismissal or concession, but no complication is being set aside. Choice B signals the last item in a sequence, not a result. Choice C introduces an example, but the second sentence is an outcome of Wong's service. The answer is <strong>D</strong>."
+    }
+  ]
+}

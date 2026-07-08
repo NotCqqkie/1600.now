@@ -1,0 +1,15 @@
+{
+  "questionId": "1f782f20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent statement",
+      "content": "Five percent of $w$ is $683.27$, so write $5\\%$ as $0.05$.<br/>$$0.05w=683.27$$"
+    },
+    {
+      "title": "Solve for w",
+      "content": "Divide by $0.05$ to undo taking $5\\%$ of $w$.<br/>$$w=\\frac{683.27}{0.05}=13{,}665.4$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "62748e21",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the multiplier",
+      "content": "Start with the given equation and clear the fraction.\n$$\nak=\\frac{b}{15}(6+m)\n$$\nMultiply both sides by \n$$\n\\frac{15}{b}\n$$\n$$\n\\frac{15ak}{b}=6+m\n$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Subtract $6$ from both sides.\n$$\nm=\\frac{15ak}{b}-6\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "951d11b9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Name the two numbers",
+      "content": "One number is $x$. The other number is $84$ less than $x$, which is $x-84$."
+    },
+    {
+      "title": "Write the product",
+      "content": "Their product is $y$, so multiply the two expressions:<br/>$$y=x(x-84)$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

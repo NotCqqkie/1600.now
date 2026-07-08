@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the LNH predicts and what would contradict it",
-      "content": "The LNH predicts an inverse relationship between exotericity (more non-native speakers) and grammatical complexity (lower complexity). Petrova claims their results are inconsistent with the LNH, so the correct finding must show that grammatical complexity does NOT decrease as exotericity increases &mdash; i.e., fusion and informativity correlate positively with exotericity."
+      "title": "Reverse the LNH prediction",
+      "content": "The linguistic niche hypothesis predicts an inverse relationship: as exotericity increases, grammatical complexity should decrease. Fusion and informativity are positive indices of grammatical complexity, so evidence inconsistent with the hypothesis would connect those two features positively with exotericity."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "The blank needs a finding that contradicts the LNH's predicted inverse relationship between exotericity and grammatical complexity.<ul><li><strong>Choice A &mdash; Petrova and colleagues' analysis showed a slightly negative correlation between grammatical complexity and fusion and between grammatical complexity and informativity.</strong>: this finding is between two measures of grammatical complexity and does not address exotericity at all, so it cannot be used to evaluate the LNH. &#10007;</li><li><strong>Choice B &mdash; Petrova and colleagues' analysis showed a slightly negative correlation between grammatical complexity and exotericity.</strong>: a negative correlation means complexity decreases as exotericity increases, which is exactly what the LNH predicts &mdash; this would support, not contradict, the LNH. &#10007;</li><li><strong>Choice C &mdash; Petrova and colleagues' analysis showed a slightly positive correlation between grammatical complexity and fusion.</strong>: this finding is between two aspects of grammatical complexity and does not address exotericity, so it cannot evaluate the LNH's claim about exotericity. &#10007;</li><li><strong>Choice D &mdash; Petrova and colleagues' analysis showed a slightly positive correlation between fusion and exotericity and between informativity and exotericity.</strong>: a positive correlation means grammatical complexity (fusion and informativity) increases as exotericity increases &mdash; the opposite of what the LNH predicts, directly contradicting it. &#10003;</li></ul>That is the correct answer."
+      "title": "Focus on exotericity",
+      "content": "Choices A and C compare grammatical-complexity measures with each other, but they do not address exotericity, the key variable in the LNH. Choice B gives a negative relationship between grammatical complexity and exotericity, which is exactly what the LNH predicts. A positive correlation between exotericity and both fusion and informativity would mean complexity indicators rise as non-native speaker prevalence rises, contradicting the predicted inverse relationship. The answer is <strong>D</strong>."
     }
   ]
 }

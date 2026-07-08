@@ -1,0 +1,19 @@
+{
+  "questionId": "48826e16",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent statement",
+      "content": "$4$ percent of $w$ means $0.04w$. The statement becomes<br/>$$0.04w=632.86$$"
+    },
+    {
+      "title": "Solve for the whole amount",
+      "content": "Divide both sides by $0.04$:<br/>$$w=\\frac{632.86}{0.04}=15{,}821.5$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The computed value of $w$ matches the choice with $15{,}821.5$. The answer is <strong>C</strong>."
+    }
+  ]
+}

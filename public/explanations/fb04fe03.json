@@ -1,0 +1,15 @@
+{
+  "questionId": "fb04fe03",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the locations",
+      "content": "The paragraph first gives Hudson College as an example of African American history courses. The next sentence gives another example at Piedmont Tech University, a separate institution."
+    },
+    {
+      "title": "Signal a new place",
+      "content": "A signals restatement, B signals consequence, and C signals a more specific detail about the previous point. The sentence instead moves from one college to another location. The answer is <strong>D</strong>."
+    }
+  ]
+}

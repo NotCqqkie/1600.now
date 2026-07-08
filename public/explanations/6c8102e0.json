@@ -1,0 +1,15 @@
+{
+  "questionId": "6c8102e0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the shared input",
+      "content": "A solution must make both equations true for the same ordered pair. Check the pair with $x=0$ and $y=11$."
+    },
+    {
+      "title": "Check both equations",
+      "content": "Substitute $x=0$ into each equation:\n$$\n4(0)+11=11\n$$\n$$\n4(0)^2+11=11\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c57bda78",
+  "correctAnswer": "29/40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for t",
+      "content": "Use $t=p^{2n-1}$ in the given equation to write both sides with base $p$:\n$$\np^{3/8}=(p^{2n-1})^{5/6}\n$$\n$$\np^{3/8}=p^{\\frac{5(2n-1)}{6}}\n$$"
+    },
+    {
+      "title": "Set exponents equal",
+      "content": "Since $p>1$, equal powers of $p$ have equal exponents:\n$$\n\\frac{3}{8}=\\frac{5(2n-1)}{6}\n$$\n$$\n9=20(2n-1)\n$$"
+    },
+    {
+      "title": "Solve for n",
+      "content": "Finish solving:\n$$\n9=40n-20\n$$\n$$\n29=40n\n$$\n$$\nn=\\frac{29}{40}\n$$\nThe answer is <strong>29/40</strong>."
+    }
+  ]
+}

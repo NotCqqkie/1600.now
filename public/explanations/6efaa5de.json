@@ -1,0 +1,15 @@
+{
+  "questionId": "6efaa5de",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the misrepresentation",
+      "content": "The sentence argues that merely counting yearly patents gives a false impression of innovation, because truly novel patents are vastly outnumbered by nonnovel ones. The blank must express that distortion."
+    },
+    {
+      "title": "Reject unrelated verbs",
+      "content": "Choice B means predicts a future event. Choice C means prevents or blocks. Choice D means slanders or speaks badly of. The verb meaning contradicts or gives a false impression of fits the patent-count argument. The answer is <strong>A</strong>."
+    }
+  ]
+}

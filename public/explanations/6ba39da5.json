@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the fastest elimination move",
-      "content": "Both equations start with the same $2a$ term, and the question only asks for $b$. Subtract the second equation from the first so the $a$ terms disappear immediately: $$(2a+8b)-(2a+4b)=198-98.$$"
+      "title": "Eliminate a",
+      "content": "Both equations contain the same $2a$ term. Subtract the second equation from the first:<br/>$$(2a+8b)-(2a+4b)=198-98$$"
     },
     {
-      "title": "Solve the remaining equation",
-      "content": "The subtraction gives $4b=100$. Divide both sides by $4$: $$b=25.$$ That is the requested value, so the answer is <strong>25</strong>."
-    },
-    {
-      "title": "Check in Desmos",
-      "content": "Graph the two equations with $a$ as $x$ and $b$ as $y$. The intersection has $y=25$, and that $y$-coordinate represents $b$.",
+      "title": "Solve for b",
+      "content": "Simplify the subtraction and solve:<br/>$$4b=100$$<br/>$$b=25$$<br/>The answer is <strong>25</strong>.",
       "desmosExpressions": [
         "2x+8y=198",
         "2x+4y=98"

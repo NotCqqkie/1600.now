@@ -1,0 +1,15 @@
+{
+  "questionId": "d5b7aae2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence subject",
+      "content": "\"The sculpture\" is the singular subject of the blank. The sentence describes the sculpture's present location in Chicago, so the verb should be singular simple present."
+    },
+    {
+      "title": "Apply subject agreement",
+      "content": "A and D use plural auxiliaries, and B uses plural \"have\" with a singular subject. The singular present-tense verb agrees with \"the sculpture\" and fits a permanent location. The answer is <strong>C</strong>."
+    }
+  ]
+}

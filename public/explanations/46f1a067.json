@@ -1,0 +1,15 @@
+{
+  "questionId": "46f1a067",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Because triangle $CAE$ is similar to triangle $CBD$, corresponding angles are congruent. The order of the triangle names shows that $A$ corresponds to $B$."
+    },
+    {
+      "title": "Match the given angle",
+      "content": "Therefore,\n$$\nm(CAE)=m(CBD)=56^\\circ\n$$\nThe side scale factor $AE=24(BD)$ does not change angle measures. The answer is <strong>B</strong>."
+    }
+  ]
+}

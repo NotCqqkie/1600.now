@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the required preposition",
-      "content": "The sentence reads: &quot;The element carbon has the highest melting point ______ all the elements on the periodic table.&quot; The superlative phrase &quot;highest melting point&quot; needs a preposition to introduce the group being compared. In standard English, &quot;highest X of [group]&quot; is the correct structure &mdash; &quot;of&quot; links the superlative to its comparison group."
+      "title": "Keep preposition and object together",
+      "content": "The phrase needs <em>of all the elements on the periodic table</em>. A preposition should not be separated from its object by punctuation."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; of</strong>: &quot;of&quot; directly joins &quot;highest melting point&quot; to &quot;all the elements&quot; with no intervening punctuation &mdash; grammatically clean. &#10003;</li><li><strong>Choice B &mdash; of—</strong>: the em dash separates the preposition from its object, breaking the required connection. &#10007;</li><li><strong>Choice C &mdash; of,</strong>: the comma between the preposition and its object violates standard usage. &#10007;</li><li><strong>Choice D &mdash; of:</strong>: a colon cannot come between a preposition and its object. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject punctuation breaks",
+      "content": "Choice B inserts an em dash, Choice C inserts a comma, and Choice D inserts a colon between <em>of</em> and its object. Each break makes the sentence ungrammatical."
+    },
+    {
+      "title": "Use plain of",
+      "content": "Choice A leaves <em>of</em> directly before its object, producing the standard phrase <em>highest melting point of all the elements</em>. The answer is <strong>A</strong>."
     }
   ]
 }

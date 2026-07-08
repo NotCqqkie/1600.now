@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Create a one-year growth table",
-      "content": "The model starts at 15,000 people, so the initial value is $15000$. A $4%$ increase means each year multiplies the population by $1.04$."
+      "title": "Identify the starting value",
+      "content": "At $x=0$, the model represents the year $2005$. The starting population is $15{,}000$, so the coefficient must be $15{,}000$."
     },
     {
-      "title": "Read the model",
-      "content": "An exponential model has the form $p=a(b)^x$. Here $a=15000$ and $b=1.04$, so $$p=15000(1.04)^x.$$"
+      "title": "Identify the growth factor",
+      "content": "An increase of $4\\%$ each year means each year's population is multiplied by\n+$$1+0.04=1.04$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The model $p=15000(1.04)^x$ has the correct initial value, $15{,}000$, and growth factor, $1.04$. A factor of $0.96$ models a decrease, and using $15{,}000$ as the base instead of the coefficient changes the exponential model. <strong>D</strong> is correct.",
+      "title": "Write the exponential model",
+      "content": "The model is\n+$$p=15{,}000(1.04)^x$$\n+This has the correct initial value and the correct yearly growth factor. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=15000(1.04)^x",
         "(0,15000)",

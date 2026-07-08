@@ -1,0 +1,15 @@
+{
+  "questionId": "2b329c59",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark contrast and explanation",
+      "content": "The sentence first says the designation is hypothetical. The word however signals a contrast with the earlier confident description of Proto-Nilo-Saharan as a common ancestor. After that contrast, the remaining clause gives the reason for the uncertainty: Proto-Nilo-Saharan is only postulated, and its features are inferred from the linguistic properties of its daughter languages. The punctuation must show both the interruption and the explanation."
+    },
+    {
+      "title": "Use a colon after the claim",
+      "content": "A uses only commas, so the explanatory independent clause runs on after however instead of being properly introduced. C makes However begin a new sentence and removes the direct colon link between the claim and the explanation. D places the colon before however, even though however itself needs to be set off before the explanation is introduced. The comma sets off however, and the colon introduces the reason the designation is hypothetical. The answer is <strong>B</strong>."
+    }
+  ]
+}

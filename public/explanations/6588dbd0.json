@@ -1,0 +1,15 @@
+{
+  "questionId": "6588dbd0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the discovery frame",
+      "content": "The sentence says genetic research only recently identified the ancestor of summer squash as the wild Johnny gourd. The blank needs a verb that can show research making an ancestry fact known."
+    },
+    {
+      "title": "Reject wrong actions",
+      "content": "B means formally requested, which research cannot do to an ancestor. C means enlarged, and D means urged or supported; neither expresses scientific identification. The remaining verb fits the pattern research revealed something to be true. The answer is <strong>A</strong>."
+    }
+  ]
+}

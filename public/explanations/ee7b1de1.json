@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variables and constraints",
-      "content": "Let $s$ = number of small jars and $l$ = number of large jars. The problem gives us two key constraints: <ul><li>Cost constraint: $5.20s + 12.40l \\leq 2500$</li><li>Quantity constraint: $s + l \\geq 220$ (minimum for discounted pricing)</li></ul> We want to maximize $l$."
+      "title": "Use the minimum jar count",
+      "content": "To maximize large jars while keeping the discount, buy exactly $220$ total jars. Let $l$ be the number of large jars, so the number of small jars is $220-l$."
     },
     {
-      "title": "Minimize small jars to maximize large jars",
-      "content": "To get the most large jars for the budget, we need the fewest small jars.<br/><br/>The quantity constraint $s + l \\geq 220$ creates a minimum threshold.<br/><br/>To maximize $l$, we operate at the boundary where $s + l = 220$: <br/> $$s = 220 - l$$ <br/> This substitution will express the cost constraint in terms of $l$ alone."
+      "title": "Apply the budget limit",
+      "content": "Substitute $220-l$ for the small jars in the cost inequality:<br/>$$5.20(220-l)+12.40l\\le 2{,}500$$<br/>$$1{,}144+7.20l\\le 2{,}500$$<br/>$$7.20l\\le 1{,}356$$<br/>$$l\\le 188.33$$"
     },
     {
-      "title": "Solve for the maximum number of large jars",
-      "content": "Substitute $s = 220 - l$ into the cost constraint: <br/> $$5.20(220 - l) + 12.40l \\leq 2500$$ <br/> Expanding: <br/> $$1144 - 5.20l + 12.40l \\leq 2500$$ <br/> Combining like terms: <br/> $$1144 + 7.20l \\leq 2500$$ <br/> Subtracting 1144 from both sides: <br/> $$7.20l \\leq 1356$$ <br/> Dividing by 7.20: <br/> $$l \\leq \\frac{1356}{7.20} \\approx 188.33$$ <br/> Since the manager can only purchase whole jars, the maximum number of large jars is <strong>188</strong>."
+      "title": "Choose the largest whole number",
+      "content": "The number of large jars must be a whole number, so the maximum possible value is $188$. The answer is <strong>188</strong>."
     }
   ]
 }

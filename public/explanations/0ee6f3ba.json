@@ -1,0 +1,15 @@
+{
+  "questionId": "0ee6f3ba",
+  "correctAnswer": "32400",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion factor",
+      "content": "Each leuga is $7{,}200$ pedes. To convert from leugas to pedes, multiply the number of leugas by $7{,}200$."
+    },
+    {
+      "title": "Convert the length",
+      "content": "For $4.5$ leugas:<br/>$$4.5(7{,}200)=32{,}400$$<br/>This gives the number of pedes equivalent to the given length. The answer is <strong>32400</strong>."
+    }
+  ]
+}

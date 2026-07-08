@@ -1,0 +1,19 @@
+{
+  "questionId": "61ecb67b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the chemical signatures",
+      "content": "The passage sets up two pigment clues. Red ocher is mineral-based and gets its color from iron oxide, while plant-based pigments contain a high level of carbon. The tested red pigment had no iron and a high level of carbon."
+    },
+    {
+      "title": "Keep the conclusion scoped",
+      "content": "Those results support a conclusion about the tested pigment on several beads, not about every Natufian bead or every reason the beadmakers chose a pigment. The evidence points away from red ocher and toward a plant-based pigment."
+    },
+    {
+      "title": "Reject extra claims",
+      "content": "Choice B invents a preference based on brightness, but the passage never compares brightness. Choice C invents a reason about ocher being difficult to find. Choice D claims the beads are the oldest surviving examples, but the passage provides no comparison to other ancient beads. Choice A stays with the direct chemical evidence: some examined beads were decorated with plant-based pigment rather than ocher. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "53fc1af0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require a harm mechanism",
+      "content": "The student's assertion is that escaped transgenic fish may have significant negative long-term ecological effects. A supporting quotation should explain a concrete way these fish could harm wild ecosystems over time, not merely observe that the fish exist or that research is incomplete."
+    },
+    {
+      "title": "Reject noncausal statements",
+      "content": "A reports sex ratios without showing harm. B says impacts have not been studied enough. C says introductions may be more widespread but still gives no damage mechanism. The interbreeding quotation explains how fluorescence could spread into wild populations and make those fish easier for predators to see, creating the specific ecological risk the assertion needs. The answer is <strong>D</strong>."
+    }
+  ]
+}

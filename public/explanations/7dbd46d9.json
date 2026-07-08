@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$8x+y=-11$$<br/>$$2{x}^{2}=y+341$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Write both as y",
+      "content": "Solve each equation for $y$:\n$$\n8x+y=-11\n$$\n$$\ny=-8x-11\n$$\nand\n$$\n2x^2=y+341\n$$\n$$\ny=2x^2-341\n$$"
+    },
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two $y$-values are equal:\n$$\n2x^2-341=-8x-11\n$$\n$$\n2x^2+8x-330=0\n$$\n$$\nx^2+4x-165=0\n$$"
+    },
+    {
+      "title": "Find a listed solution",
+      "content": "Factor the quadratic:\n$$\nx^2+4x-165=(x+15)(x-11)\n$$\nSo the possible $x$-values are $-15$ and $11$. The listed possible value is $-15$. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "8x+y=-11",
         "2{x}^{2}=y+341"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $-15$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "87b6f88d",
+  "correctAnswer": "160",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the second distance",
+      "content": "For the constant-speed part of the trip, multiply rate by time.<br/>$$68.0\\cdot2=136$$"
+    },
+    {
+      "title": "Add both trip parts",
+      "content": "Dana already drove $24.0$ miles before the constant-speed part.<br/>$$24.0+136=160$$<br/>The answer is <strong>160</strong>."
+    }
+  ]
+}

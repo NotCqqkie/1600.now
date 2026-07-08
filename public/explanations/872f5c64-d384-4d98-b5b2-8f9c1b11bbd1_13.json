@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student is completing the sentence: &quot;Ecuador is home to different types of volcanoes. For example, ______.&quot; The blank must name two volcanoes that are (1) each a different type and (2) correctly classified according to the table."
+      "title": "Match both volcano types",
+      "content": "The student wants an example showing that Ecuador has different types of volcanoes. The choice must name two Ecuadorian volcanoes and classify each one according to the table."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Chacana is a caldera volcano, and Fernandina is a stratovolcano.</strong>: The table shows Chacana is a caldera, but Fernandina is a shield volcano &mdash; not a stratovolcano. Fernandina is misclassified. &#10007;</li><li><strong>Choice B &mdash; Chimborazo is a caldera volcano, and Imbabura is a stratovolcano.</strong>: The table shows Chimborazo is a stratovolcano, not a caldera. Chimborazo is misclassified. &#10007;</li><li><strong>Choice C &mdash; Imbabura is a compound volcano, and Chacana is a shield volcano.</strong>: The table shows Chacana is a caldera, not a shield volcano. Chacana is misclassified. &#10007;</li><li><strong>Choice D &mdash; Fernandina is a shield volcano, and Chimborazo is a stratovolcano.</strong>: Both match the table exactly &mdash; Fernandina is a shield volcano and Chimborazo is a stratovolcano. These are two different types, correctly identified. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Remove table mismatches",
+      "content": "Choice A misclassifies Sumaco. Choice B misclassifies Cuicocha. Choice C misclassifies Cayambe. The remaining choice uses two table-supported classifications, identifying Cuicocha as a caldera volcano and Santiago as a stratovolcano. The answer is <strong>D</strong>."
     }
   ]
 }

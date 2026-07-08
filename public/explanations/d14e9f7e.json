@@ -1,0 +1,15 @@
+{
+  "questionId": "d14e9f7e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the subject",
+      "content": "The subject of the sentence is the gerund phrase \"Having proportionally large populations.\" A gerund phrase functioning as a subject is treated as singular."
+    },
+    {
+      "title": "Choose the singular verb",
+      "content": "A and C are plural present forms, so they do not agree with the singular gerund phrase. B is also plural and wrongly shifts to past tense for a general statement. The answer is <strong>D</strong>."
+    }
+  ]
+}

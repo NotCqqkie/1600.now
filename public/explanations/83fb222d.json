@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for $n$",
-      "content": "From $7n=21$, divide both sides by $7$: $$n=3.$$"
+      "title": "Solve for the variable",
+      "content": "Divide both sides of $7n=21$ by $7$.<br/>$$n=3$$"
     },
     {
-      "title": "Evaluate the requested expression",
-      "content": "The question asks for $n+5$, so substitute $n=3$: $$n+5=3+5=8.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The value of $n+5$ is <strong>8</strong>. Check the original equation: ${7}(3)=21$, so $n=3$ is valid before adding $5$."
+      "title": "Evaluate the expression",
+      "content": "Substitute $n=3$ into the expression the question asks for.<br/>$$n+5=3+5=8$$<br/>The answer is <strong>8</strong>."
     }
   ]
 }

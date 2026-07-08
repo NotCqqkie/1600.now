@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Pick two clean points from the graph",
-      "content": "Read two lattice points off the line and use them to find the slope $m=\\frac{\\Delta y}{\\Delta x}=\\frac{5}{7}$ (rise $5$ for run $7$)."
+      "title": "Read the graph features",
+      "content": "The graph crosses the y-axis at $12$ and falls $1$ unit for each $1$ unit to the right."
     },
     {
-      "title": "Convert to standard form",
-      "content": "Using point–slope $y-y_1=\\frac{5}{7}(x-x_1)$ with the y-intercept and clearing fractions gives $35x-49y=-126$. That matches <strong>Choice B &mdash; $35x-49y=-126$</strong>."
+      "title": "Write the line equation",
+      "content": "The slope is $-1$, so the equation is $y=-x+12$. The answer is <strong>B</strong>."
     }
   ]
 }

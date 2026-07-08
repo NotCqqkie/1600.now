@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Combine the repeated group",
-      "content": "Both terms contain the same group, $(t+4)$. Combine the coefficients first: $$6(t+4)-9(t+4)=(6-9)(t+4)=-3(t+4).$$"
+      "content": "Both terms contain $t+4$, so combine their coefficients first.<br/>$$6(t+4)-9(t+4)=(6-9)(t+4)$$<br/>$$-3(t+4)=45$$"
     },
     {
-      "title": "Solve the simplified equation",
-      "content": "Now solve $$-3(t+4)=45.$$ Divide by $-3$ to get $t+4=-15$, then subtract $4$: $$t=-19.$$"
-    },
-    {
-      "title": "Check the value",
-      "content": "Substitute $t=-19$: $t+4=-15$, so $6(-15)-9(-15)=-90+135=45$. The answer is <strong>-19</strong>."
+      "title": "Solve for t",
+      "content": "Divide by $-3$, then subtract $4$.<br/>$$t+4=-15$$<br/>$$t=-19$$<br/>The answer is <strong>-19</strong>."
     }
   ]
 }

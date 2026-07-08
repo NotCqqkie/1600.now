@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the form of the function",
-      "content": "The function $f(x)=4{,}800(0.80)^x$ has the exponential form $a\\cdot b^x$, where $a$ is the initial value and $b$ is the decay factor. Here $x$ counts years after 2015."
+      "title": "Read the exponential form",
+      "content": "In an exponential model $a(b)^x$, the coefficient $a$ is the value when $x=0$. Here $x$ is the number of years after $2015$."
     },
     {
-      "title": "Evaluate at x = 0",
-      "content": "At $x=0$ (the year 2015): $f(0)=4{,}800(0.80)^0=4{,}800\\cdot 1=4{,}800$. So 4,800 represents the starting population in 2015."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li>A) Initial population in 2015 - matches $f(0)=4{,}800$. Correct.</li><li>B) Population 6 years after 2015 - that would be $f(6)=4{,}800(0.80)^6\\approx 1{,}258$, not 4,800.</li><li>C) Percent decrease each year - that comes from $1-0.80=0.20$, i.e. 20%, not 4,800.</li><li>D) Percent decrease every 6 years - again a percentage from the base 0.80, not 4,800.</li></ul>That matches <strong>Choice A &mdash; The estimated initial moth population for this species and region in $2015$</strong>- <strong>A</strong>."
+      "title": "Evaluate the starting year",
+      "content": "The year $2015$ corresponds to $x=0$.<br/>$$f(0)=4{,}800(0.80)^0$$<br/>$$f(0)=4{,}800$$<br/>So $4{,}800$ is the estimated initial moth population in $2015$. The answer is <strong>A</strong>."
     }
   ]
 }

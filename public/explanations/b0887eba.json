@@ -1,0 +1,15 @@
+{
+  "questionId": "b0887eba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the subject each one",
+      "content": "The subject is \"each one,\" which is singular. The phrase \"of the thousands of faux Chinese characters\" and the long dash-enclosed modifier do not change the number of the subject."
+    },
+    {
+      "title": "Use a singular present verb",
+      "content": "A is plural, so \"each one holds no meaning\" needs the singular form instead. C uses plural \"have,\" and D uses plural \"were\" plus an awkward past-progressive form. The singular present-tense verb agrees with \"each one.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

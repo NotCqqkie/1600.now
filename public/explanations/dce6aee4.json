@@ -1,0 +1,15 @@
+{
+  "questionId": "dce6aee4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the total cost",
+      "content": "Total:\n$$\n1.94c+2.49t\n$$"
+    },
+    {
+      "title": "Use the budget limit",
+      "content": "$25$ limit:\n$$\n1.94c+2.49t\\leq25\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

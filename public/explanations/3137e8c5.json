@@ -1,0 +1,19 @@
+{
+  "questionId": "3137e8c5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence parts",
+      "content": "The words before the blank form a complete independent clause: researchers have lent their expertise to an important new initiative. The words after the blank give the name of that initiative, <em>Timeline of African American Music</em>, followed by an appositive describing the digital resource."
+    },
+    {
+      "title": "Use punctuation for a name",
+      "content": "A colon can follow an independent clause when it introduces an explanation, elaboration, or identifying appositive. Here, the title of the digital resource identifies the initiative that was just mentioned, so colon punctuation fits the sentence structure."
+    },
+    {
+      "title": "Reject boundary errors",
+      "content": "Choice A runs the independent clause and the title together without punctuation. Choice C uses a semicolon before a noun phrase instead of a second independent clause. Choice D creates a fragment because the title phrase has no main verb. The remaining option correctly introduces the name of the initiative. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "56db8b6c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define only the term",
+      "content": "The goal is to define 'high-sinuosity river.' The notes directly state that a river with high sinuosity has many meanders, and another note defines meanders as U-shaped curves."
+    },
+    {
+      "title": "Avoid extra details",
+      "content": "Choice B adds how meanders change over time, which goes beyond a definition. Choice C gives a cause related to sediment, not the meaning of high sinuosity. Choice D discusses the Tanana River rather than defining the term generally. The answer is <strong>A</strong>."
+    }
+  ]
+}

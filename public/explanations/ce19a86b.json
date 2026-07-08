@@ -1,0 +1,15 @@
+{
+  "questionId": "ce19a86b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The pronoun refers to <em>the feature-length romance</em>, meaning the film <em>Stellar</em>. Because that antecedent is singular, the blank needs a singular pronoun."
+    },
+    {
+      "title": "Eliminate plural pronouns",
+      "content": "Choice B is plural and cannot agree with a single film. Choice C is also plural. Choice D is plural as well, so it creates pronoun-antecedent disagreement with <em>the feature-length romance</em>. The answer is <strong>A</strong>."
+    }
+  ]
+}

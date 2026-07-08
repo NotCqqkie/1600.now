@@ -1,0 +1,19 @@
+{
+  "questionId": "ebf092f7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "See the example relationship",
+      "content": "The passage says the World Cup used to be smaller and more geographically limited. The next sentence gives the 1950 tournament as a specific case with only 13 teams from Europe and the Americas."
+    },
+    {
+      "title": "Reject other signals",
+      "content": "Choice A signals an additional point, not an illustration. Choice B signals contrast, but the 1950 detail supports the prior claim. Choice C signals final arrival or culmination."
+    },
+    {
+      "title": "Choose illustration",
+      "content": "For example correctly introduces the 1950 World Cup as a concrete instance of the tournament being smaller and more geographically limited. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "201c2014",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the like terms",
+      "content": "The terms $6yz^4$ and $2yz^4$ have the same variable part, $yz^4$, so they can be combined. The term $7yz$ is not like them because it does not have $z^4$."
+    },
+    {
+      "title": "Combine coefficients only",
+      "content": "Add only the coefficients of the like terms and keep the variable part unchanged.<br/>$$6yz^4+2yz^4=8yz^4$$<br/>So the full expression becomes<br/>$$6yz^4+7yz+2yz^4=8yz^4+7yz$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c67b077e",
+  "correctAnswer": "0.625,5/8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines have equal slopes — read slope directly from standard form",
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $5x + 8y = 32$ $\\Rightarrow$ slope $= -5/8$.<br/>Line $k$: $20x + ry = 20$ $\\Rightarrow$ slope $= -20/r$.<br/>Set equal: $-5/8 = -20/r$ $\\Rightarrow$ $5r = 160$ $\\Rightarrow$ $r = 32$."
+    },
+    {
+      "title": "Plug the y-intercept point into line k",
+      "content": "Line $k$ is $20x + 32y = 20$. The point $(0, b)$ lies on it, so substitute $x = 0$:<br/>$$32b = 20 \\implies b = \\frac{5}{8}$$<br/>The answer is $\\boxed{0.625}$ (or $5/8$)."
+    }
+  ]
+}

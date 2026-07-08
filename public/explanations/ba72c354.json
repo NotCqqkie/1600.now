@@ -1,0 +1,19 @@
+{
+  "questionId": "ba72c354",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert changes to multipliers",
+      "content": "A $184\\%$ increase means multiply by $1+1.84=2.84$. A $28\\%$ decrease means multiply by $1-0.28=0.72$."
+    },
+    {
+      "title": "Chain the two years",
+      "content": "Starting with value $V$, apply both multipliers.<br/>$$V(2.84)(0.72)=2.0448V$$"
+    },
+    {
+      "title": "Convert back to percent increase",
+      "content": "A final value of $2.0448V$ is an increase of<br/>$$(2.0448-1)\\cdot100\\%=104.48\\%$$The answer is <strong>A</strong>."
+    }
+  ]
+}

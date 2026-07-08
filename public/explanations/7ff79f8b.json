@@ -1,0 +1,15 @@
+{
+  "questionId": "7ff79f8b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare sales data",
+      "content": "The sentence needs data showing that the Amiga sold relatively few units. The useful comparison must give the Amiga's correct sales figure and contrast it with a much larger figure from another system."
+    },
+    {
+      "title": "Reject mismatched figures",
+      "content": "B and C use 3,935,000 as the Amiga figure, but that is not the Amiga's value. D uses the right Amiga figure but assigns 18,450,000 to the wrong system. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "11b3822f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the contrast signal",
+      "content": "The passage first defines vertical and horizontal gene transfer. It then says horizontal gene transfer is common among prokaryotes but has rarely been observed among eukaryotes. The underlined sentence begins with <em>However</em>, so it pushes back against the idea that horizontal gene transfer is rare in eukaryotes."
+    },
+    {
+      "title": "Challenge the old view",
+      "content": "The underlined sentence says new studies suggest horizontal gene transfer is more common in eukaryotes than originally thought. Choice B adds a direct comparison between organism categories that the underlined sentence itself does not make. Choice C invents a fruitless research direction. Choice D describes the opening distinction between horizontal and vertical transfer, not the underlined sentence's role. The answer is <strong>A</strong>."
+    }
+  ]
+}

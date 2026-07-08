@@ -1,0 +1,15 @@
+{
+  "questionId": "ee704c0a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare telescope distances",
+      "content": "The passage first gives JWST's location almost one million miles beyond Earth's orbit. It then gives Hubble's location about 340 miles above Earth's surface. The transition must signal that the two distances are being compared."
+    },
+    {
+      "title": "Avoid sequence and cause",
+      "content": "Choice A suggests a sequence, but Hubble's location is not a next step. Choice B adds information in the same direction rather than setting up a comparison. Choice D signals a result, but Hubble's distance is not caused by JWST's. The needed transition marks comparison between the telescopes. The answer is <strong>C</strong>."
+    }
+  ]
+}

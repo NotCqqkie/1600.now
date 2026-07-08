@@ -1,0 +1,19 @@
+{
+  "questionId": "7dfae60d",
+  "correctAnswer": "787.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Scale both dimensions",
+      "content": "A $50\\%$ increase multiplies each dimension by $1.5$."
+    },
+    {
+      "title": "Scale the area",
+      "content": "Area uses length times width, so the scale factor is<br/>$$1.5\\cdot1.5=2.25$$"
+    },
+    {
+      "title": "Find the copy area",
+      "content": "Multiply the original area by the area scale factor.<br/>$$350\\cdot2.25=787.5$$<br/>The answer is <strong>787.5</strong>."
+    }
+  ]
+}

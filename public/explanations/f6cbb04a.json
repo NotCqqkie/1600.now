@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute each time into the distance formula",
-      "content": "Evaluate $d = 60t$ at both times:<ul><li>After $12k$ hours: $d = 60(12k) = 720k$ miles</li><li>After $4k$ hours: $d = 60(4k) = 240k$ miles</li></ul>"
+      "title": "Find each distance",
+      "content": "Use $d=60t$ for each time.<br/>$$d_{12k}=60(12k)=720k$$<br/>$$d_{4k}=60(4k)=240k$$"
     },
     {
-      "title": "Calculate the ratio",
-      "content": "Divide the distance at $12k$ hours by the distance at $4k$ hours:<br/>$$\\frac{720k}{240k} = \\frac{720}{240} = 3$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Compare the distances",
+      "content": "Divide the distance after $12k$ hours by the distance after $4k$ hours.<br/>$$\\frac{720k}{240k}=3$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

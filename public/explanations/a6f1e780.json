@@ -1,0 +1,15 @@
+{
+  "questionId": "a6f1e780",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use total cost and unit price",
+      "content": "The number of pounds is the total cost divided by the cost per pound."
+    },
+    {
+      "title": "Compute the pounds",
+      "content": "$$\\frac{28}{4}=7$$The shopper bought $7$ pounds of pears. The answer is <strong>7</strong>."
+    }
+  ]
+}

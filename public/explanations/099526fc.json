@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the shown leg length",
-      "content": "The segment shown has endpoints $(-6,4)$ and $(3,10)$. Its horizontal change is $9$ and its vertical change is $6$, so its length is $$\\sqrt{9^2+6^2}=\\sqrt{117}=3\\sqrt{13}.$$"
+      "title": "Find the shown leg",
+      "content": "The shown segment has endpoints $(-6,4)$ and $(3,10)$, so its horizontal change is $9$ and its vertical change is $6$.<br/>$$\\sqrt{9^2+6^2}=\\sqrt{117}=3\\sqrt{13}$$"
     },
     {
-      "title": "Use the triangle area formula",
-      "content": "Let the other leg be $x$. The area is $36\\sqrt{13}$, so $$36\\sqrt{13}=\\frac{1}{2}(3\\sqrt{13})x.$$"
+      "title": "Use the triangle area",
+      "content": "Let the other leg have length $x$. For a right triangle,<br/>$$36\\sqrt{13}=\\frac{1}{2}(3\\sqrt{13})x$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Multiply both sides by $2$: $$72\\sqrt{13}=3\\sqrt{13}x.$$ Divide by $3\\sqrt{13}$ to get $$x=24.$$ <strong>B</strong> is correct."
+      "title": "Solve for the other leg",
+      "content": "Multiply both sides by $2$, then divide by $3\\sqrt{13}$.<br/>$$72\\sqrt{13}=3\\sqrt{13}x$$<br/>$$x=24$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

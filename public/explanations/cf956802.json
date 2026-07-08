@@ -1,19 +1,15 @@
 {
   "questionId": "cf956802",
-  "section": "Reading and Writing",
   "correctAnswer": "B",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Reading comprehension &mdash; hypothetical consequence. The passage says Hale began using sewing machines \"As he gained more customers,\" to \"produce bags more efficiently,\". Identify what would have happened without that change."
+      "title": "Identify why tools mattered",
+      "content": "The text says Hale gained more customers and then began using sewing machines and other tools to produce bags more efficiently. The tools helped him keep up with growing demand while still handcrafting key details."
     },
     {
-      "title": "Reasoning",
-      "content": "The machines were adopted in response to growing demand, so without them he would have struggled to keep up with that demand."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; He would have been unable to ensure that each bag included unique, handcrafted details.</strong>: backwards &mdash; the passage says he \"continued to handcraft the crucial details that made each bag unique.\" so handcrafting did not depend on machines. &#10007;</li><li><strong>Choice C &mdash; He would have had to individually design each bag he produced.</strong>: the text never discusses designing each bag individually; machines were about production efficiency, not design. Out of scope. &#10007;</li><li><strong>Choice D &mdash; He would not have been able to generate as much interest in his bags.</strong>: interest came from his craftsmanship and reputation, not from machine use; the passage links machines only to output volume. &#10007;</li></ul>That is the correct answer."
+      "title": "Infer the likely consequence",
+      "content": "Choice A is wrong because he continued handcrafting unique details after using machines. Choice C is not tied to the machines. Choice D concerns customer interest, but the issue was production efficiency. Without machines, demand would be harder to meet. The answer is <strong>B</strong>."
     }
   ]
 }

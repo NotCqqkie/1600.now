@@ -1,0 +1,15 @@
+{
+  "questionId": "f5523245",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root product",
+      "content": "The product of the solutions is $\\frac{c}{a}$. Here, $a=\\frac{1}{62}$ and $c=-st$.<br/>$$\\frac{c}{a}=\\frac{-st}{\\frac{1}{62}}=-62st$$"
+    },
+    {
+      "title": "Match the given form",
+      "content": "Set the products equal and solve for $k$.<br/>$$-62st=-2kst$$<br/>$$62=2k$$<br/>$$k=31$$<br/>The answer is <strong>31</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the question the passage explicitly poses",
-      "content": "After noting that most US English-speaking communities have begun using &quot;y&apos;all,&quot; the passage asks: &quot;What explains its rise in popularity?&quot; The rest of the passage then answers that question by explaining that &quot;y&apos;all&quot; fills a gap &mdash; English lacks a dedicated plural &quot;you&quot; &mdash; making it more precise. That stated question is the one the text is attempting to answer."
+      "title": "Locate the explicit question",
+      "content": "After saying that \"y'all\" has spread beyond the South and Black communities, the passage asks, \"What explains its rise in popularity?\" The rest of the passage answers by saying \"y'all\" is more precise because it always refers to two or more people."
     },
     {
-      "title": "Eliminate each wrong choice, then confirm the correct one",
-      "content": "<ul><li><strong>Choice A &mdash; How many other plural versions of the pronoun \"you\" are there in English, besides \"y'all\"?</strong>: The text mentions only &quot;you&quot; as a competing form and never counts or compares other plural pronouns. &#10007;</li><li><strong>Choice B &mdash; Why has the pronoun \"y'all\" become more widely used in the US?</strong>: This restates the passage&apos;s own explicit question and is directly answered by the explanation about precision. &#10003;</li><li><strong>Choice C &mdash; When was the first recorded use of the pronoun \"y'all\" in the English language?</strong>: The text gives a general geographic origin but never discusses when the pronoun was first recorded. &#10007;</li><li><strong>Choice D &mdash; Is \"y'all\" commonly used in English-speaking regions of the world besides the US?</strong>: The text limits its scope to US English-speaking communities and says nothing about international usage. &#10007;</li></ul>That matches <strong>Choice B &mdash; Why has the pronoun \"y'all\" become more widely used in the US?</strong>."
+      "title": "Reject unanswered questions",
+      "content": "Choice A asks for a count of other plural pronouns, which the passage never provides. Choice C asks for the first recorded use. Choice D asks about regions outside the US. The remaining choice restates the question the text directly answers. The answer is <strong>B</strong>."
     }
   ]
 }

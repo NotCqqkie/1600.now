@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "The sentence already has a finite main verb: &quot;adapted the test.&quot; The blank comes inside a supplementary phrase modifying <em>scientists</em>. A second finite verb in that slot would create an ungrammatical run-on; a nonfinite present participle is needed to open the participial modifier."
+      "title": "Find the sentence's main verb",
+      "content": "The main clause already has the finite verb adapted: the scientists adapted the mirror test. The blank sits inside a supplementary phrase modifying scientists."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A — searched</strong>: finite past tense verb. Creates two finite verbs (&quot;searched&quot;... &quot;adapted&quot;) with no connector &mdash; ungrammatical. &#10007;</li><li><strong>Choice B — searching</strong>: nonfinite present participle. Correctly opens the supplementary phrase &quot;searching for evidence of self-awareness in snakes,&quot; which modifies <em>scientists</em> while &quot;adapted&quot; remains the lone main verb. &#10003;</li><li><strong>Choice C — were searching</strong>: finite past progressive. Same problem as A &mdash; produces two competing finite verbs. &#10007;</li><li><strong>Choice D — have searched</strong>: finite present perfect. Again a second finite verb with no connector &mdash; ungrammatical. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject extra finite verbs",
+      "content": "<ul><li><strong>Choice A</strong>: Searched is a second finite verb with no connector.</li><li><strong>Choice C</strong>: Were searching is also finite and cannot fit inside the modifier.</li><li><strong>Choice D</strong>: Have searched creates the same second-verb problem.</li></ul>"
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "Only a nonfinite present participle can describe what the scientists were doing while leaving adapted as the sentence's main verb. The answer is <strong>B</strong>."
     }
   ]
 }

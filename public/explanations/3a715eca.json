@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "The first sentence states the lesson (genes interact with protein products). The second sentence describes researchers' response: they shifted focus to include the proteome, not just the genome. The transition must show this cause-and-effect connection."
+      "title": "Map lesson to response",
+      "content": "The first sentence gives the lesson from the Human Genome Project: genes are affected by interactions with proteins. The next sentence describes researchers responding by studying the proteome too."
     },
     {
-      "title": "Apply the signal",
-      "content": "“Accordingly” means “as a result; in an appropriate way given the circumstances,” and here it shows that the research shift is a logical response to learning about gene-protein interactions. “In other words” would restate, “That said” would introduce contrast, and “For example” would provide an example, none fitting the cause-and-effect relationship.<br/><br/><strong>D</strong> is correct."
+      "title": "Reject wrong transition roles",
+      "content": "<ul><li><strong>Choice A</strong>: In other words would signal a restatement, but the second sentence gives a consequence.</li><li><strong>Choice B</strong>: That said would signal contrast.</li><li><strong>Choice C</strong>: For example would make the research shift only an illustration.</li></ul>"
+    },
+    {
+      "title": "Choose the consequence signal",
+      "content": "The transition must show that proteome research follows logically from the lesson about gene-protein interactions. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "ae816417",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate actual and predicted ratings",
+      "content": "The prompt says to assume P6 gave equal actual ratings to abstract and cubist paintings. The question asks what the model predicted, so the graph's model-participant correlation data matter."
+    },
+    {
+      "title": "Use the correlation difference",
+      "content": "Choices B and D make unsupported claims about which style P6 enjoyed more, and Choice C says the predicted ratings were equal. The graph indicates different model patterns for the two styles, so the predicted ratings differed. The answer is <strong>A</strong>."
+    }
+  ]
+}

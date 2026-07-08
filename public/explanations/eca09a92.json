@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key fact",
-      "content": "The passage tells us that melanosomes produce pigment and are <strong>shaped differently depending on which colors they produce</strong>. The scientists found melanosomes in a fossilized feather. The blank asks what the scientists hypothesized they could do with that shape-color relationship.<ul><li><strong>\"show how melanosomes can be found in fossils belonging to animals from other extinct species.\"</strong>: The scientists already found melanosomes in this feather. Their goal was to determine the bird's colors, not to prove melanosomes exist in other fossils. &#10007;</li><li><strong>\"determine the colors of the bird based on the appearance of the melanosomes in the feather.\"</strong>: This applies the shape-color relationship directly: examine melanosome shape, infer color. This is exactly what the passage sets up. &#10003;</li><li><strong>\"explain why the melanosomes in the feather were so well preserved.\"</strong>: Preservation is never raised as a question in the passage. The scientists' hypothesis is about color determination, not preservation. &#10007;</li><li><strong>\"identify the colors of extinct animals whose fossils lack melanosomes.\"</strong>: Without melanosomes, the shape-color method cannot work. This is logically incompatible with the passage's method. &#10007;</li></ul>"
+      "title": "Use the melanosome clue",
+      "content": "The passage says melanosomes produce pigment and have different shapes depending on the colors they produce. The scientists found melanosomes in a fossilized feather, so their shape can be used to infer the feather's original color."
     },
     {
-      "title": "Confirm the match",
-      "content": "The shape-color relationship in the passage points directly to examining melanosome appearance to determine color. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Apply the shape-color link",
+      "content": "A shifts to finding melanosomes in other fossils, C asks about preservation, and D would require fossils without the key evidence. The hypothesis uses melanosome appearance in the feather to determine the bird's colors. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "5d5816fa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with the relationship",
+      "content": "The given relationship is\n$$\n11m=9(n+p)\n$$\nThe goal is to isolate $m$."
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Since $m$ is multiplied by $11$, divide both sides by $11$.\n$$\n\\frac{11m}{11}=\\frac{9(n+p)}{11}\n$$\n$$\nm=\\frac{9(n+p)}{11}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "6ec26b0f",
+  "correctAnswer": "240",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the doubling factor",
+      "content": "The population doubles when the exponential factor equals $2$. In the model, that factor is\n$$\n2^{\\frac{t}{240}}\n$$"
+    },
+    {
+      "title": "Set the exponent to one",
+      "content": "Since $2^1=2$, the population doubles when\n$$\n\\frac{t}{240}=1\n$$"
+    },
+    {
+      "title": "Solve for the time",
+      "content": "Multiply both sides by $240$:\n$$\nt=240\n$$\nThe answer is <strong>240</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "ad1b6ac3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the missing width",
+      "content": "The base area is length times width. With base area $35p$ and length $15$, solve for the width $w$:\n$$15w=35p$$\n$$w=\\frac{35p}{15}=\\frac{7p}{3}$$"
+    },
+    {
+      "title": "Add the prism face areas",
+      "content": "For a rectangular prism, surface area equals twice the sum of the three distinct face products:\n$$S=2(lw+lh+wh)$$\nSubstitute $l=15$, $w=\\frac{7p}{3}$, and $h=5$:\n$$S=2(15\\cdot\\frac{7p}{3}+15\\cdot5+\\frac{7p}{3}\\cdot5)$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Evaluate inside the parentheses, then combine the like terms with $p$:\n$$S=2(35p+75+\\frac{35p}{3})$$\n$$S=70p+150+\\frac{70p}{3}$$\n$$S=\\frac{280p}{3}+150$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

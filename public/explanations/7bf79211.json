@@ -1,0 +1,15 @@
+{
+  "questionId": "7bf79211",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations so the $y$ terms cancel.<br/>$$6y+(-6y)=(4x+15)+(7x-23)$$<br/>$$0=11x-8$$"
+    },
+    {
+      "title": "Find the target value",
+      "content": "Solve for $x$, then multiply by $44$.<br/>$$11x=8$$<br/>$$44x=4(11x)=4(8)=32$$<br/>This matches choice D. The answer is <strong>D</strong>."
+    }
+  ]
+}

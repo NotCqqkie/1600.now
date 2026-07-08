@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite the inequality for y",
-      "content": "Start with $2x-y\\gt 901$. Subtract $2x$ from both sides: $$-y\\gt 901-2x.$$ Divide by $-1$ and reverse the inequality: $$y\\lt2x-901.$$"
+      "title": "Isolate the variable",
+      "content": "Start with the inequality and solve for $y$:<br/>$$2x-y>901$$<br/>$$-y>901-2x$$<br/>$$y<2x-901$$"
     },
     {
-      "title": "Find the needed y-values",
-      "content": "For the three $x$-values in the tables: when $x=449$, $y\\lt-3$; when $x=450$, $y\\lt-1$; and when $x=451$, $y\\lt1$."
+      "title": "Find the allowed values",
+      "content": "Evaluate the upper bound for each listed value. For $x=449$, $y<-3$; for $x=450$, $y<-1$; and for $x=451$, $y<1$."
     },
     {
-      "title": "Identify the table",
-      "content": "The correct table pairs $x=449$ with $y=-4$, $x=450$ with $y=-2$, and $x=451$ with $y=0$, all of which satisfy the inequality. The other tables mismatch at least one listed row, so <strong>D</strong> is correct."
+      "title": "Match the valid table",
+      "content": "The table with pairs $(449,-4)$, $(450,-2)$, and $(451,0)$ satisfies all three restrictions. The answer is <strong>D</strong>."
     }
   ]
 }

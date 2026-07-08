@@ -1,0 +1,15 @@
+{
+  "questionId": "b5fe751f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product rule",
+      "content": "A product equals $0$ when at least one factor equals $0$. For<br/>$$3x(x-4)(x+6)=0$$<br/>the factors to check are $3x$, $x-4$, and $x+6$."
+    },
+    {
+      "title": "Find a listed solution",
+      "content": "Set each variable factor equal to $0$.<br/>$$x=0$$<br/>$$x-4=0,\\ x=4$$<br/>$$x+6=0,\\ x=-6$$<br/>Only one of these appears among the choices. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Condition for no solution: parallel lines",
-      "content": "A system has no solution when the two lines are parallel &mdash; they have the same slope but different y-intercepts."
+      "title": "Use the no-solution condition",
+      "content": "A system of two linear equations has no solution when the lines are parallel: same slope, different $y$-intercepts."
     },
     {
-      "title": "Find the choice with slope 4 and a different y-intercept",
-      "content": "The given equation $y=4x+12$ is $-4x+y=12$ in standard form. Choice A (&lsquo;$-4x+y=12$&rsquo;) is the same equation, so it gives infinitely many solutions. Choice B, $-4x+y=15$, has the same $x$- and $y$-coefficients but a different constant, so it is parallel and distinct. The other choices have slope $8$, so they intersect the given line once. That confirms <strong>B</strong> is correct."
+      "title": "Rewrite the given line",
+      "content": "Move all terms except the constant to the left.<br/>$$y=4x+12$$<br/>$$-4x+y=12$$"
+    },
+    {
+      "title": "Choose the parallel line",
+      "content": "A parallel distinct line keeps the same left side but changes the constant, giving $-4x+y=15$. The answer is <strong>B</strong>."
     }
   ]
 }

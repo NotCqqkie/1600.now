@@ -1,0 +1,19 @@
+{
+  "questionId": "0f635773",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given equation",
+      "content": "Start by simplifying the given line.<br/>$$4(x-n)=12y+24n$$<br/>$$4x-4n=12y+24n$$<br/>$$4x-12y=28n$$<br/>$$x-3y=7n$$"
+    },
+    {
+      "title": "Use parallel distinct lines",
+      "content": "A system has no solution when the two lines are parallel and distinct. So the second equation must have the same left side, $x-3y$, but a different constant from $7n$."
+    },
+    {
+      "title": "Choose the distinct equation",
+      "content": "The equation $x-3y=4n$ is parallel to $x-3y=7n$ and distinct because $n>0$, so $4n\\ne7n$. The answer is <strong>D</strong>."
+    }
+  ]
+}

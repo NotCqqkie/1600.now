@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the minimum occurs at the vertex",
-      "content": "Since $y = x^2 - 18x + 29$ is a quadratic with $a = 1 \\gt  0$, the parabola opens upward and has a minimum value at its vertex. The x-coordinate of the vertex is found using this key formula:",
+      "title": "Use the vertex formula",
+      "content": "The quadratic $y=x^2-18x+29$ opens upward because the coefficient of $x^2$ is positive, so its minimum occurs at the vertex.",
       "formula": "$$x = -\\frac{b}{2a}$$"
     },
     {
-      "title": "Apply the vertex formula to find x",
-      "content": "From the equation, identify $a = 1$ and $b = -18$. Substitute into the formula:<br/>$$x = -\\frac{(-18)}{2(1)} = \\frac{18}{2} = 9$$<br/>The minimum value of $y$ occurs at $x = 9$."
+      "title": "Find the vertex input",
+      "content": "Here, $a=1$ and $b=-18$. Substitute those values:<br/>$$x=-\\frac{-18}{2(1)}=\\frac{18}{2}=9$$The answer is <strong>9</strong>."
     }
   ]
 }

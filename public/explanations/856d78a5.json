@@ -1,0 +1,23 @@
+{
+  "questionId": "856d78a5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write price from quantity",
+      "content": "Let $n$ be the number of products sold. The price starts at $96$ dollars and decreases by $1.50$ for each product sold, so\n$$\n\\text{price}=96-1.5n\n$$"
+    },
+    {
+      "title": "Set the revenue equation",
+      "content": "Revenue is price times quantity:\n$$\nn(96-1.5n)=1{,}522.50\n$$\nRearrange and divide by $1.5$:\n$$\nn^2-64n+1015=0\n$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Use the quadratic formula:\n$$\nn=\\frac{64\\pm\\sqrt{64^2-4(1015)}}{2}=\\frac{64\\pm 6}{2}\n$$\nSo $n=35$ or $n=29$."
+    },
+    {
+      "title": "Choose the listed value",
+      "content": "Of the two possible values, only $29$ is listed in the choices. The answer is <strong>A</strong>."
+    }
+  ]
+}

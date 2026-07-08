@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the ratio relationship",
-      "content": "The ratio of $AB$ to $CD$ is $6$ to $1$, which means $AB$ is $6$ times as long as $CD$. We can express this as: $$AB = 6 \\cdot CD$$"
+      "title": "Write the ratio relationship",
+      "content": "The ratio of $AB$ to $CD$ is $6$ to $1$, so $AB$ is $6$ times $CD$:<br/>$$AB=6(CD)$$"
     },
     {
-      "title": "Substitute and solve for CD",
-      "content": "Substituting $AB = 132$ inches: $$132 = 6 \\cdot CD$$ Dividing both sides by $6$: $$CD = \\frac{132}{6} = 22$$ The length of line segment $CD$ is $22$ inches. That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Solve for the unknown length",
+      "content": "Substitute $132$ for $AB$ and divide by $6$:<br/>$$132=6(CD)$$<br/>$$CD=\\frac{132}{6}=22$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

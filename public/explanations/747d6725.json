@@ -1,0 +1,15 @@
+{
+  "questionId": "747d6725",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the move to another moon",
+      "content": "The passage moves from Elara to Harpalyke. It also shifts from a prograde orbit to the opposite kind of orbit, so the transition should signal a different location."
+    },
+    {
+      "title": "Reject same-idea transitions",
+      "content": "Choices A, B, and C would specify, restate, or give an example of the same idea. The remaining transition fits a move to a different Jovian moon. The answer is <strong>D</strong>."
+    }
+  ]
+}

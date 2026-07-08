@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence boundary problem",
-      "content": "After “in some versions,” the text continues with “the word was playfully rendered as 'bro!'” — this is an independent clause.<br/><br/>Right now, it's joined to the relative clause “which is an Old English [blank] as 'hark!' or 'listen!' in some versions” with only a comma.<br/><br/>When an independent clause follows material that is not yet complete as a sentence, joining them with a comma creates a comma splice."
+      "title": "Find the sentence boundary",
+      "content": "The text first defines \"hwæt\" as an Old English exclamation. The next idea begins with a participial phrase, \"Translated as 'hark!' or 'listen!' in some versions,\" and then has the independent clause \"the word was playfully rendered as 'bro!'\""
     },
     {
-      "title": "Apply the correct punctuation rule",
-      "content": "A period after “exclamation” creates a new sentence, properly separating the definition from what follows.<br/><br/>The new sentence then reads: “Translated as 'hark!' or 'listen!' in some versions, the word was playfully rendered as 'bro!'” — here, “Translated as 'hark!' or 'listen!' in some versions” is a participial phrase that correctly introduces the main clause “the word was playfully rendered as 'bro!'” The other choices leave the comma splice in place (a comma still joins “in some versions” to the independent clause).<br/><br/>The construction “is an exclamation and translated” creates a grammatical error because the second predicate lacks a complete verb form.<br/><br/>That is the correct answer."
+      "title": "Separate the two ideas",
+      "content": "A leaves a comma splice by joining the completed definition to the next independent clause. B creates an awkward and incomplete parallel structure. C fuses the definition and translation phrase without needed punctuation. A period after \"exclamation\" correctly separates the definition from the next sentence. The answer is <strong>D</strong>."
     }
   ]
 }

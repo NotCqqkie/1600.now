@@ -1,0 +1,19 @@
+{
+  "questionId": "a6c69c1d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the universal claim",
+      "content": "The claim says egocentric temporal reference is common across all human groups, so the Yupno also use a self-centered frame of reference for time. To undermine that claim, the finding should show that the Yupno's time gestures are not based on the speaker's own body-centered left, right, front, or back."
+    },
+    {
+      "title": "Reject body-centered evidence",
+      "content": "Choice A still uses left and right directions when discussing future and past, even if the hand use differs from the example. Choice B also keeps time tied to left-right pointing from the person. Choice D replaces pointing with head movement, but the directions are still left and right relative to the body."
+    },
+    {
+      "title": "Use the terrain-based pattern",
+      "content": "Choice C makes the gesture depend on orientation to the hill: with backs toward the top of a hill, the Yupno point backward for the future, but when facing the top of a hill, they point to the front. That landmark-based pattern directly undermines an egocentric account. The answer is <strong>C</strong>."
+    }
+  ]
+}

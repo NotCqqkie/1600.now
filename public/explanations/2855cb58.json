@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use the circle form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation\n$$\n(x-h)^2+(y-k)^2=r^2\n$$\nThe right side uses the radius squared."
     },
     {
-      "title": "Recall the standard circle equation",
-      "content": "A circle with center $(h, k)$ and radius $r$ satisfies:<br/>$$(x - h)^2 + (y - k)^2 = r^2$$<br/>The right-hand side is the radius <em>squared</em>."
+      "title": "Substitute the center",
+      "content": "The center is $(14,19)$, so the left side is\n$$\n(x-14)^2+(y-19)^2\n$$"
     },
     {
-      "title": "Substitute the given center and radius",
-      "content": "Center $(14, 19)$ gives $h = 14$, $k = 19$. Radius $= 6k$, so:<br/>$$r^2 = (6k)^2 = 36k^2$$<br/>The equation is $(x - 14)^2 + (y - 19)^2 = 36k^2$."
-    },
-    {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36k</strong>: The right side is $36k$, not $(6k)^2 = 36k^2$. The radius was not properly squared. &#10007;</li><li><strong>Choice B &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36{k}^{2}$</strong>: $(6k)^2 = 36k^2$. Center and radius are applied correctly. &#10003;</li><li><strong>Choice C &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=6k</strong>: The right side is just $6k$, which would mean $r = \\sqrt{6k}$, not $6k$. &#10007;</li><li><strong>Choice D &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=6{k}^{2}$</strong>: $(6k)^2 = 36k^2$, not $6k^2$. Only $k$ was squared, not the full radius. &#10007;</li></ul>That matches <strong>Choice B &mdash; ${(x-14)}^{2}+{(y-19)}^{2}=36{k}^{2}$</strong>."
+      "title": "Square the radius",
+      "content": "The radius is $6k$, so\n$$\n(6k)^2=36k^2\n$$\nThe circle's equation is\n$$\n(x-14)^2+(y-19)^2=36k^2\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

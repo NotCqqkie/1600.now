@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find b using the point (-25, 0)",
-      "content": "The graph passes through $(-25, 0)$, so $f(-25) = a\\sqrt{-25+b} = 0$. Since $f(25) \\lt 0$ (not zero), we cannot have $a = 0$. Therefore $\\sqrt{-25+b} = 0$, which gives us:<br/>$$b = 25$$"
+      "title": "Use the zero point",
+      "content": "The graph passes through $(-25,0)$, so\n$$0=a\\sqrt{-25+b}$$\nBecause $f(25)<0$, $a$ cannot be $0$. Therefore,\n$$\\sqrt{-25+b}=0$$\n$$b=25$$"
     },
     {
-      "title": "Find the sign of a using f(25) < 0",
-      "content": "With $b = 25$, we get $f(25) = a\\sqrt{50}$. Since $\\sqrt{50} = 5\\sqrt{2}$, we have $f(25) = a \\cdot 5\\sqrt{2}$. The factor $5\\sqrt{2} \\gt  0$, but $f(25) \\lt 0$, so:<br/>$$a \\lt 0$$"
+      "title": "Use the negative output",
+      "content": "Substitute $$b=25$$ into the value at $$x=25$$\n$$f(25)=a\\sqrt{25+25}=a\\sqrt{50}$$\nSince $$\\sqrt{50}>0$$ and $f(25)<0$, it follows that $a<0$."
     },
     {
-      "title": "Compare a and b to determine the answer",
-      "content": "We established that $a \\lt 0$ and $b = 25$. Therefore:<br/>$$a \\lt 0 \\lt 25 = b$$<br/>which means $a \\lt b$. That matches the correct answer - <strong>D</strong> is correct."
+      "title": "Compare the constants",
+      "content": "Since $a<0$ and $$b=25$$, the required comparison is\n$$a<b$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

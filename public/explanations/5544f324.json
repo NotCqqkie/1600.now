@@ -1,0 +1,15 @@
+{
+  "questionId": "5544f324",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Check number and possession",
+      "content": "The sentence refers to La Gomera, one island, and to the people who lived there. The later pronoun \"their\" is plural, so the noun phrase must refer to multiple residents of that single island."
+    },
+    {
+      "title": "Reject possessive mismatches",
+      "content": "B lacks the needed possessive form for island and uses a singular possessive resident. C makes resident possessive, and D treats islands as plural. The phrase should mean residents belonging to the island. The answer is <strong>A</strong>."
+    }
+  ]
+}

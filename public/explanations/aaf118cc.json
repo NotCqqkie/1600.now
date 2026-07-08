@@ -1,0 +1,20 @@
+{
+  "questionId": "aaf118cc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the multiplier",
+      "content": "Each year's increase is based on the previous year's value. That creates a repeated multiplier, not a repeated addition."
+    },
+    {
+      "title": "Find the growth factor",
+      "content": "An increase of $0.69\\%$ means multiplying each year by\n$$\n1+0.0069=1.0069\n$$\nBecause the multiplier is greater than $1$, the model is increasing exponential. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[100,100.69,101.384761]",
+        "y=100(1.0069)^x"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "78e91782",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect verb and object",
+      "content": "The sentence says the review board \"gathers to\" do something. The blank supplies the verb before the embedded question \"which sites to add next.\" A verb should connect directly to its object without punctuation between them."
+    },
+    {
+      "title": "Remove disruptive punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: A comma after the verb incorrectly separates \"select\" from its object.</li><li><strong>Choice B</strong>: A colon is not licensed because \"gathers to select\" is not an independent clause.</li><li><strong>Choice C</strong>: A semicolon cannot join \"gathers to select\" to the dependent wording that follows.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

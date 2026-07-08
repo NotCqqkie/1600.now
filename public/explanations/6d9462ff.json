@@ -1,0 +1,15 @@
+{
+  "questionId": "6d9462ff",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the time sequence",
+      "content": "The first sentence describes ticker tape in 1952. The next says true ticker tape had been retired by the 1986 parade. The blank must introduce what happened at that later parade after the original material was gone."
+    },
+    {
+      "title": "Reject nonsequence transitions",
+      "content": "A merely adds information, B restates, and C signals a decision made with prior knowledge. The needed transition marks the next point in time. The answer is <strong>D</strong>."
+    }
+  ]
+}

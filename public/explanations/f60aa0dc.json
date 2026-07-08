@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the simplification from the given condition",
-      "content": "The given equation is $\\left(10\\right)(6-4x)+5 = 9(6-4x)+23$.<br/><br/>Subtract $\\left(9\\right)(6-4x)$ from both sides:<br/>$$(6-4x) + 5 = 23$$<br/><br/>Subtract 5 from both sides:<br/>$$6 - 4x = 18$$"
+      "title": "Treat the expression as one value",
+      "content": "Treat $6-4x$ as one unknown expression."
     },
     {
-      "title": "Compute the target value",
-      "content": "So $6-4x = 18$. That matches the correct answer -- <strong>D</strong> is correct."
+      "title": "Subtract matching expression terms",
+      "content": "Subtract $9(6-4x)$ from both sides.<br/>$$10(6-4x)+5=9(6-4x)+23$$<br/>$$(6-4x)+5=23$$"
+    },
+    {
+      "title": "Finish isolating the expression",
+      "content": "Remove $5$ to isolate the expression.<br/>$$(6-4x)+5-5=23-5$$<br/>$$6-4x=18$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

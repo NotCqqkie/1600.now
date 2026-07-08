@@ -1,0 +1,15 @@
+{
+  "questionId": "38d46716",
+  "correctAnswer": "5/8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the root",
+      "content": "An eighth root is the same as raising to the $\\frac{1}{8}$ power.\n$$\n\\sqrt[8]{x^5}=(x^5)^{\\frac{1}{8}}\n$$"
+    },
+    {
+      "title": "Apply the power rule",
+      "content": "When a power is raised to another power, multiply the exponents.\n$$\n(x^5)^{\\frac{1}{8}}=x^{\\frac{5}{8}}\n$$\nSince the expression is $x^m$, $m=\\frac{5}{8}$. The answer is <strong>5/8</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5b951dfb",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the yearly deposits",
+      "content": "Priya deposits $x$ dollars once each month for $12$ months, giving $12x$. She deposits $y$ dollars twice each month for $12$ months, giving:<br/>$$12\\cdot2y=24y$$"
+    },
+    {
+      "title": "Set the total",
+      "content": "The total amount deposited last year was $7{,}200$, so the equation is:<br/>$$7{,}200=12x+24y$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

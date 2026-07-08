@@ -1,0 +1,19 @@
+{
+  "questionId": "f84f4d7b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the first deposits",
+      "content": "The first account gets $x$ dollars once each month for $12$ months, contributing\n$$\n12x\n$$"
+    },
+    {
+      "title": "Count the second deposits",
+      "content": "The second account gets $y$ dollars twice each month for $12$ months. That is $24$ deposits, contributing\n$$\n24y\n$$"
+    },
+    {
+      "title": "Write the total",
+      "content": "The total deposited was $5{,}400$, so\n$$\n5{,}400=12x+24y\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

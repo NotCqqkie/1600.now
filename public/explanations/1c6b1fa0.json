@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence's structure",
-      "content": "The underlined sentence makes a direct claim—”demonstrates vast topographic knowledge”—and immediately supports it with specific evidence: named mountains, named rivers, and a first-ever sketch of the Missouri River's drainage network."
+      "title": "Identify the sentence role",
+      "content": "The underlined sentence claims that the map shows vast topographic knowledge, then supports that claim with named mountains, named rivers, and a first-known sketch of the Missouri River drainage network."
     },
     {
-      "title": "Apply the structure to the choices",
-      "content": "<strong>Choice C &mdash; It identifies some reasons why the map is impressive.</strong> correctly describes the function: the sentence identifies reasons (the topographic evidence) why the map is impressive. The other choices reference content absent from this sentence. <br/><br/>That matches <strong>Choice C &mdash; It identifies some reasons why the map is impressive.</strong>."
+      "title": "Match the function",
+      "content": "A refers to other tribes, which appear after the underlined sentence. B and D introduce interests or uses the sentence never discusses. The sentence gives reasons the map is impressive. The answer is <strong>C</strong>."
     }
   ]
 }

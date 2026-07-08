@@ -1,0 +1,15 @@
+{
+  "questionId": "795410c3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add confirming detail",
+      "content": "The previous sentence says the statues are extremely heavy. The next sentence gives a specific weight, more than 5 tons each, which confirms and strengthens that description."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals moving on regardless of the prior point. Choice B signals a time shift that is not present. Choice D signals replacement or contrast, but the weight detail supports the prior sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

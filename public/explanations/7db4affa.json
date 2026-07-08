@@ -1,0 +1,15 @@
+{
+  "questionId": "7db4affa",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the temperature",
+      "content": "The graph gives $y=C(x)$, where $x$ is the temperature and $y$ is the estimated number of chirps per minute. Use $x=44$ on the horizontal axis."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=44$, the graph reaches $y=16$ chirps per minute. The answer is <strong>16</strong>."
+    }
+  ]
+}

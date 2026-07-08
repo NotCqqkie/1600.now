@@ -1,0 +1,23 @@
+{
+  "questionId": "31baf0a0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection point, the two expressions for $y$ are equal.\n\n$$x^2+16x+8=x+8$$"
+    },
+    {
+      "title": "Solve for possible inputs",
+      "content": "Move all terms to one side and factor.\n\n$$x^2+15x=0$$\n\n$$x(x+15)=0$$\n\n$$x=0\\quad\\text{or}\\quad x=-15$$"
+    },
+    {
+      "title": "Use the listed value",
+      "content": "Graphing the two equations shows the same possible input values. Of the listed choices, $-15$ is present.\n\nThe answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y = x^2 + 16x + 8",
+        "y = x + 8"
+      ]
+    }
+  ]
+}

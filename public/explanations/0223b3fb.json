@@ -1,0 +1,15 @@
+{
+  "questionId": "0223b3fb",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the ordered pair",
+      "content": "For $y=f(x)$, an ordered pair $(x,y)$ means the function output at that $x$ value is the corresponding $y$ value."
+    },
+    {
+      "title": "Read the function value",
+      "content": "The point $(6,4)$ satisfies $y=f(x)$. Therefore, when $x=6$, the output is $4$, so\n$$f(6)=4$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

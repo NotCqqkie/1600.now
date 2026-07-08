@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Look up the southern stoplight loosejaw in the table",
-      "content": "The question asks at what depth the southern stoplight loosejaw lives. According to the table, this species lives 500&ndash;2,000 meters below the ocean surface."
+      "title": "Find the listed depth",
+      "content": "The question asks for the depth range where the southern stoplight loosejaw lives. The table gives that range as 500 to 2,000 meters below the surface."
     },
     {
-      "title": "Match the depth range to each choice",
-      "content": "<ul><li><strong>\"More than 2,000 meters below the surface\"</strong>: the table gives an upper limit of 2,000 meters, not deeper than that. &#10007;</li><li><strong>\"to 400 meters below the surface\"</strong>: this range does not match the table&rsquo;s 500&ndash;2,000 meters for this species. &#10007;</li><li><strong>\"to 2,000 meters below the surface\"</strong>: this exactly matches the depth range recorded in the table for the southern stoplight loosejaw. &#10003;</li><li><strong>\"to 500 meters below the surface\"</strong>: this range does not match the table&rsquo;s 500&ndash;2,000 meters for this species. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Match the range",
+      "content": "A goes beyond the listed maximum, B gives a range ending at 400 meters, and D gives a range ending at 500 meters. The choice ending at 2,000 meters matches the table's range for this species. The answer is <strong>C</strong>."
     }
   ]
 }

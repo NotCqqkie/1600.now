@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence question. The researchers conclude that electric lighting (which spread in the late nineteenth century) prompted a behavioral shift &mdash; specifically, that people began engaging in more nighttime activity. The correct answer must present data from the novel analysis that would directly confirm an increase in late-night activity in novels published after electric lighting became widespread."
+      "title": "Tie evidence to lighting",
+      "content": "The researchers claim that the spread of electric lighting in the late nineteenth century produced a shift in human behavior. Strong evidence should connect novels from after that period with more activity during hours when electric lighting would matter most: late at night, after natural daylight was gone."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Novels published after the year 1800 include the clock phrase 10 a.m. less often than novels published before the year 1800 do.</strong>: 10 a.m. is a daytime hour and is unaffected by artificial lighting. A shift there has no connection to the researchers&rsquo; claim about electric lighting and nighttime behavior. &#10007;</li><li><strong>Choice B &mdash; Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods.</strong>: this directly supports the claim. Electric lighting spread in the late 1800s; if post-1880 novels suddenly reference far more late-night activity, that reflects the behavioral change the researchers describe. &#10003;</li><li><strong>Choice C &mdash; Among novels published in the nineteenth century, implied time references become steadily more common than clock phrases as publication dates approach 1900.</strong>: this tracks a shift in writing style or convention, not a shift in when characters are awake or active. It does not support the behavioral conclusion. &#10007;</li><li><strong>Choice D &mdash; The time references of noon (12 p.m.) and midnight (12 a.m.) are used with roughly the same frequency in the novels.</strong>: uniform frequency across all novels shows no change over time, which would undermine rather than support the claim that behavior shifted in response to electric lighting. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Keep the timing aligned",
+      "content": "Because the study analyzes time references across novels from many periods, the useful finding must show a before-and-after pattern. A simple frequency comparison is not enough unless it lines up with the late nineteenth-century spread of electric lighting."
+    },
+    {
+      "title": "Eliminate weak patterns",
+      "content": "<ul><li><strong>Choice A</strong> concerns 10 a.m., a daytime reference that does not connect to electric lighting.</li><li><strong>Choice C</strong> compares implied time references with clock phrases, so it is about wording patterns rather than behavior.</li><li><strong>Choice D</strong> compares noon and midnight without showing a historical change.</li></ul>"
+    },
+    {
+      "title": "Look for late-night change",
+      "content": "<strong>Choice B</strong> identifies significantly more references to activities after 10 p.m. in novels published after 1880 than in earlier novels. That timing and late-night focus directly support the conclusion that electric lighting changed human behavior. The answer is <strong>B</strong>."
     }
   ]
 }

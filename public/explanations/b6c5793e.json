@@ -1,0 +1,15 @@
+{
+  "questionId": "b6c5793e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the clauses",
+      "content": "The text first states that new polymers have been engineered to repair themselves. The next idea explains what happens upon fracture. Those two ideas need a clear sentence boundary before the phrase beginning \"Upon fracture.\""
+    },
+    {
+      "title": "Reject faulty punctuation",
+      "content": "Choice A creates a comma splice. Choice B uses dashes in a way that leaves the following clause improperly attached. Choice D runs the ideas together with only a comma later in the sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

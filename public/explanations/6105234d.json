@@ -1,23 +1,15 @@
 {
   "questionId": "6105234d",
-  "qid": "6105234d",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Identify the three payment components: a one-time down payment of \\$46, $p$ monthly payments of \\$21 each (total $21p$), and a grand total of \\$214."
+      "title": "Identify the two charges",
+      "content": "The telescope cost has a one-time down payment of $46$ dollars plus $p$ monthly payments of $21$ dollars each. The monthly payments total $21p$."
     },
     {
-      "title": "Step 2",
-      "content": "Form the equation: down payment + monthly payments = total. Substituting: $46 + 21p = 214$, which is the same as $21p + 46 = 214$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Verify by solving: $21p = 168$, so $p = 8$ monthly payments, and $8 \\times 21 + 46 = 168 + 46 = 214$. Correct."
-    },
-    {
-      "title": "Step 4",
-      "content": "Evaluate every choice:<ul><li>A: $21p - 46 = 214$ &mdash; subtracts the down payment instead of adding it; it would imply $p \\approx 12.4$, not the intended payment setup. Eliminated.</li><li>B: $46p - 21 = 214$ &mdash; swaps the roles of 46 and 21; it would make $p \\approx 5.1$. Eliminated.</li><li>C: $21p + 46 = 214$ &mdash; matches the derived equation exactly. That confirms <strong>C</strong> is correct.</li><li>D: $46p + 21 = 214$ &mdash; treats 46 as the per-payment amount and 21 as the down payment, reversing both values. Eliminated.</li></ul>"
+      "title": "Write the total",
+      "content": "The down payment plus the monthly payments equals the total cost.\n$$46+21p=214$$\n$$21p+46=214$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

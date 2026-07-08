@@ -1,0 +1,19 @@
+{
+  "questionId": "1c843ad8",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute function values",
+      "content": "Since $f(x)=c^x$, the condition $f(8)=16\\cdot f(6)$ becomes\n$$c^8=16c^6$$"
+    },
+    {
+      "title": "Divide by the common factor",
+      "content": "Because $c>1$, divide both sides by $c^6$.\n$$c^2=16$$"
+    },
+    {
+      "title": "Take the positive root",
+      "content": "The constant $c$ must be greater than $1$, so use the positive square root.\n$$c=\\sqrt{16}=4$$\nThe answer is <strong>4</strong>."
+    }
+  ]
+}

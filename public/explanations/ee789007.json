@@ -1,0 +1,24 @@
+{
+  "questionId": "ee789007",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count each price category",
+      "content": "The first class costs $0$. The second class costs half of the regular price:\n$$\n\\frac{22.80}{2}=11.40\n$$\nSince $x \\ge 2$, the number of remaining regularly priced classes is $x-2$."
+    },
+    {
+      "title": "Build the cost function",
+      "content": "Add the half-price second class to the cost of the regularly priced classes:\n$$\nf(x)=22.80(x-2)+11.40\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The Desmos rows check the model against sample class counts. For $x=2$, $x=3$, and $x=4$, the costs are $11.40$, $34.20$, and $57.00$, matching the promotion structure. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[2,3,4]",
+        "y_1=[11.40,34.20,57.00]",
+        "y=22.80(x-2)+11.40"
+      ]
+    }
+  ]
+}

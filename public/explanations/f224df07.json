@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up constraints and minimize x to maximize y",
-      "content": "Let $x$ = number of 80-pound packages and $y$ = number of 95-pound packages.<br/><br/>Two constraints apply:<ul><li>At least 12 packages: $x + y \\geq 12$</li><li>Weight limit: $80x + 95y \\leq 1050$</li></ul>To maximize $y$, we minimize $x$. From the first constraint, the minimum $x$ for a given $y$ is $x = 12 - y$."
+      "title": "Use the package minimum",
+      "content": "To maximize the number of $95$-pound packages, use the minimum total number of packages, $12$. Let $y$ be the number of $95$-pound packages, so the number of $80$-pound packages is $12-y$."
     },
     {
-      "title": "Solve for the maximum value of y",
-      "content": "Substitute $x = 12 - y$ into the weight constraint:<br/>$$80(12 - y) + 95y \\leq 1050$$<br/>$$960 - 80y + 95y \\leq 1050$$<br/>$$960 + 15y \\leq 1050$$<br/>$$15y \\leq 90$$<br/>$$y \\leq 6$$<br/>The maximum is $y = 6$. That matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "Apply the weight limit",
+      "content": "Substitute into the weight constraint.<br/>$$80(12-y)+95y\\leq1{,}050$$<br/>$$960+15y\\leq1{,}050$$<br/>$$15y\\leq90$$<br/>$$y\\leq6$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

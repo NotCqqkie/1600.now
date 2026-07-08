@@ -1,0 +1,15 @@
+{
+  "questionId": "32627761",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the migration pattern",
+      "content": "The passage links regions of China with first languages: immigrants from north China, where Mandarin is common, tend to settle in Queens, while immigrants from south China, where Cantonese or Fuzhounese is common, tend to settle in Manhattan."
+    },
+    {
+      "title": "Choose the supported inference",
+      "content": "That pattern shows a regional language relationship from one country appearing again after people emigrate to a new country. Choice A discusses language change, which the passage never mentions. Choice C concerns changes within languages after immigration, and Choice D makes an unsupported claim about country size. Only the regional-language migration pattern is supported. The answer is <strong>B</strong>."
+    }
+  ]
+}

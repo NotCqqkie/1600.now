@@ -1,0 +1,19 @@
+{
+  "questionId": "58b62797",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex form",
+      "content": "The equation is written in vertex form:<br/>$$y=a(x-h)^2+k$$<br/>For the given model,<br/>$$y=-16(x-7.4)^2+780$$<br/>the vertex is $(7.4{,}780)$."
+    },
+    {
+      "title": "Interpret the maximum",
+      "content": "Because the coefficient $-16$ is negative, the parabola opens downward, so the vertex gives the maximum height. The firework reaches $780$ feet at $7.4$ seconds."
+    },
+    {
+      "title": "Match the statement",
+      "content": "Choice B gives a maximum height of $780$ feet at $7.4$ seconds after launch. The answer is <strong>B</strong>."
+    }
+  ]
+}

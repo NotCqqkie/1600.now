@@ -1,0 +1,15 @@
+{
+  "questionId": "8913f695",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular industry",
+      "content": "The antecedent is <em>a given industry</em>, which is singular. The main clause therefore needs a singular pronoun that refers back naturally to that industry."
+    },
+    {
+      "title": "Pick the natural pronoun",
+      "content": "Choice B and Choice C are plural, so they do not agree with <em>industry</em>. Choice D uses <em>this</em>, which does not naturally refer back as the subject of <em>consists</em>. The singular pronoun fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

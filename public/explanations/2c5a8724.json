@@ -1,0 +1,15 @@
+{
+  "questionId": "2c5a8724",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The verb after the blank must agree with the subject \"re-entering one of the checkers into the game.\" That whole gerund phrase acts as a singular subject, and the sentence describes a general rule, so the verb should be simple present singular."
+    },
+    {
+      "title": "Rule out mismatched verbs",
+      "content": "B and C use plural auxiliaries, so they do not agree with the singular subject. D is also a plural/base form. The singular simple-present form matches both the subject and the sentence's general-rule context. The answer is <strong>A</strong>."
+    }
+  ]
+}

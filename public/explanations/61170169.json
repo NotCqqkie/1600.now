@@ -1,0 +1,15 @@
+{
+  "questionId": "61170169",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interrupting phrase",
+      "content": "The comma after <em>that</em> opens an interrupting phrase: <em>through community involvement and scientific study</em>. The blank appears at the end of that phrase, so a matching comma is needed before the main verb <em>aim</em>."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "Choice A leaves the interrupting phrase unclosed. Choice C uses a colon before a verb phrase, which is not the needed boundary. Choice D switches to a dash even though the interruption was opened with a comma. A comma after <em>study</em> correctly closes the phrase. The answer is <strong>B</strong>."
+    }
+  ]
+}

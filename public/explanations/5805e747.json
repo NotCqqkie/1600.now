@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, ${x}^{3}+9x$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Distribute the subtraction",
-      "content": "Start with $$(8x^3+5x)-(7x^3-4x).$$ Change the signs in the second parentheses:<br/>$$8x^3+5x-7x^3+4x.$$"
+      "content": "Subtracting the second polynomial changes both signs inside the second parentheses:<br/>$$(8x^3+5x)-(7x^3-4x)=8x^3+5x-7x^3+4x$$"
     },
     {
       "title": "Combine like terms",
-      "content": "The cubic terms give $8x^3-7x^3=x^3$. The linear terms give $5x+4x=9x$. So the expression is $$x^3+9x.$$"
+      "content": "Group the cubic terms and the linear terms, then simplify:<br/>$$(8x^3-7x^3)+(5x+4x)=x^3+9x$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The correct answer is exactly $x^3+9x$. The other choices have the wrong cubic coefficient, and a choice with the wrong linear coefficient. Therefore <strong>A</strong> is correct."
+      "title": "Match the expression",
+      "content": "The expression in choice A is $x^3+9x$. The other choices change the exponent, coefficient, or constant. The answer is <strong>A</strong>."
     }
   ]
 }

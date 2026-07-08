@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope-intercept form",
-      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $(0,b)$ is the $y$-intercept."
+      "title": "Use linear form",
+      "content": "A linear function can be written as\n$$f(x)=mx+b$$\nwhere $m$ is the slope and $b$ is the vertical intercept."
     },
     {
-      "title": "Substitute the given information",
-      "content": "The slope is $42$, so $m=42$. The graph passes through $(0,0)$, so the $y$-intercept is $b=0$. Therefore $$f(x)=42x+0=42x.$$"
-    },
-    {
-      "title": "Check the answer choices",
-      "content": "$f(x)=-42x$ has slope $-42$, $f(x)=\\frac{1}{42}x$ has slope $\\frac{1}{42}$, and $f(x)=x-42$ has slope $1$ with intercept $-42$. The function $f(x)=42x$ has slope $42$ and passes through the origin."
+      "title": "Substitute the graph facts",
+      "content": "The slope is $42$, so $m=42$. The graph passes through $(0,0)$, so $b=0$.\n$$f(x)=42x+0$$\n$$f(x)=42x$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

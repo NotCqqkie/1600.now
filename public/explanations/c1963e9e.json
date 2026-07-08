@@ -1,0 +1,15 @@
+{
+  "questionId": "c1963e9e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the requested table value",
+      "content": "The statement asks for the average amount contributed to Oklahoma's economy in 2017 by each individual employed in wholesale trade. That means the relevant table entry is the wholesale trade row and the per-employee contribution column."
+    },
+    {
+      "title": "Reject other table entries",
+      "content": "Choice A gives 141,510 dollars, a different industry's average. Choice B and Choice D give other listed values rather than the wholesale trade per-employee contribution. The wholesale trade value is 183,790 dollars. The answer is <strong>C</strong>."
+    }
+  ]
+}

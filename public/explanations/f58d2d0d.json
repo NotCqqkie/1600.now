@@ -1,0 +1,19 @@
+{
+  "questionId": "f58d2d0d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the smaller side length",
+      "content": "A side length $70\\%$ shorter is $30\\%$ of the original side length.<br/>$$40(1-0.70)=40(0.30)=12$$"
+    },
+    {
+      "title": "Use the inverse scale",
+      "content": "The same actual distance is now shown by a side length of $12$ inches instead of $40$ inches, so each inch represents more miles by the inverse factor.<br/>$$14\\cdot \\frac{40}{12}=14\\cdot \\frac{10}{3}=\\frac{140}{3}\\sim 46.67$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The value $46.67$ miles per inch is closest to $48.67$ among the choices. The answer is <strong>D</strong>."
+    }
+  ]
+}

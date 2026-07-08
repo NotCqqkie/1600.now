@@ -1,0 +1,15 @@
+{
+  "questionId": "6489d684",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular subject",
+      "content": "The sentence needs a main verb for the subject <em>He</em>. Because the subject is third-person singular and the sentence describes a typical action, the verb must be a finite present-tense form."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is an infinitive phrase, not a main verb. Choice C is also an infinitive. Choice D is a participle that cannot serve as the main verb by itself. The answer is <strong>B</strong>."
+    }
+  ]
+}

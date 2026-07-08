@@ -1,0 +1,15 @@
+{
+  "questionId": "1810d914",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the line equation",
+      "content": "Since $y=f(x)$ and $f(x)=72x$, the graph is the line\n$$\ny=72x\n$$"
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "In slope-intercept form, the coefficient of $x$ is the slope. For $y=72x$, that coefficient is $72$. The answer is <strong>D</strong>."
+    }
+  ]
+}

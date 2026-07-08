@@ -1,0 +1,19 @@
+{
+  "questionId": "42e0d745",
+  "correctAnswer": "1080",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add to eliminate y",
+      "content": "The terms with $8(y-11)$ have opposite signs, so adding the equations removes them.\n$$\\frac{x}{3}+8(y-11)=32$$\n$$\\frac{x}{5}-8(y-11)=40$$\nThis gives\n$$\\frac{x}{3}+\\frac{x}{5}=72$$"
+    },
+    {
+      "title": "Combine the x terms",
+      "content": "Use common denominator $15$.\n$$\\frac{5x}{15}+\\frac{3x}{15}=72$$\n$$\\frac{8x}{15}=72$$"
+    },
+    {
+      "title": "Isolate the target",
+      "content": "The question asks for $8x$, so multiply both sides by $15$.\n$$8x=72(15)=1{,}080$$\nThe answer is <strong>1080</strong>."
+    }
+  ]
+}

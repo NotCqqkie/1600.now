@@ -1,0 +1,15 @@
+{
+  "questionId": "6bdf9b72",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the river subject",
+      "content": "The subject is \"The Kolyma River,\" which is singular. The relative clause \"which is 1,317 miles long\" is extra information and does not affect agreement. The sentence describes a stable geographic fact, so a singular simple present verb is needed."
+    },
+    {
+      "title": "Eliminate agreement errors",
+      "content": "<ul><li><strong>Choice B</strong>: \"Are flowing\" is plural and progressive, so it does not fit the singular subject or permanent fact.</li><li><strong>Choice C</strong>: \"Flow\" is plural in this context.</li><li><strong>Choice D</strong>: \"Have flowed\" is plural present perfect and does not match the sentence's meaning.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

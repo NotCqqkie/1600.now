@@ -1,0 +1,15 @@
+{
+  "questionId": "597a727d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the comparison",
+      "content": "To refute the claim that apricots are a better vitamin C source, the answer must compare the vitamin C amounts directly. The notes show kale has 120 mg per 100 g, while apricot has only 10 mg per 100 g."
+    },
+    {
+      "title": "Reject incomplete uses",
+      "content": "Choice A gives kale's amount but never compares it with apricots. Choice B says both foods contain vitamin C without showing which has more. Choice C explains that humans need vitamin C, not which food is the better source. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b73f5682",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the zero requirement",
+      "content": "The example must support the claim that some species were entirely absent from the tide pool at particular times of year. That means the data need to show zero individuals for the named species in the stated month or months."
+    },
+    {
+      "title": "Reject nonzero examples",
+      "content": "A names barred flagtail in January, B names combtooth blenny in January, and C names barred flagtail in October; each of those examples shows fish present rather than absent. The remaining example names a species absent in all the listed months. The answer is <strong>D</strong>."
+    }
+  ]
+}

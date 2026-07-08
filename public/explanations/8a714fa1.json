@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the 6% increase algebraically",
-      "content": "Increasing <em>x</em> by 6% means we add 6% of <em>x</em> to the original value.<br/><br/>Convert 6% to decimal: $$6\\% = 0.06$$<br/>So the increased value is: $$x + 0.06x$$"
+      "title": "Convert the percent",
+      "content": "A $6\\%$ increase means adding $6\\%$ of the original amount. Convert the percent to a decimal:<br/>$$6\\%=0.06$$"
     },
     {
-      "title": "Factor and simplify",
-      "content": "Factor out <em>x</em> from both terms:<br/>$$x + 0.06x = x(1 + 0.06) = 1.06x$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Add the increase",
+      "content": "The increased quantity is:<br/>$$x+0.06x=(1+0.06)x=1.06x$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

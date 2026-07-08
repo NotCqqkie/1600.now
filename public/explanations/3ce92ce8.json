@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of f(x) directly",
-      "content": "$f(x) = 2x + 3$ is in slope-intercept form. The slope is the coefficient of $x$: slope $= 2$."
+      "title": "Read the slope of the function",
+      "content": "The graph of $y=f(x)$ is this line.\n$$\ny=2x+3\n$$\nThe coefficient of $x$ is the slope."
     },
     {
-      "title": "Parallel lines share the same slope",
-      "content": "Line $j$ is parallel to $y = f(x)$, so slope of $j$ $= 2$. That matches the answer — <strong>2</strong> is correct.",
+      "title": "Use the parallel-line fact",
+      "content": "Parallel lines have the same slope, so line $j$ has slope $2$. The answer is <strong>2</strong>.",
       "desmosExpressions": [
         "y=2x+3"
       ]

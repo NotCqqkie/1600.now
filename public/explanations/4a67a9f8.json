@@ -1,0 +1,15 @@
+{
+  "questionId": "4a67a9f8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare averages and outliers",
+      "content": "Arthropod studies had larger differences on average than bird studies did, but every animal class had individual studies well above the arthropod average. That means some bird results exceeded at least some arthropod results."
+    },
+    {
+      "title": "Keep the inference narrow",
+      "content": "Choice A contradicts the average pattern, Choice B makes an unsupported claim about one shore crab study, and Choice C introduces an unmentioned reporting issue. The remaining choice captures the overlap between individual studies. The answer is <strong>D</strong>."
+    }
+  ]
+}

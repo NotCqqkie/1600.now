@@ -1,0 +1,19 @@
+{
+  "questionId": "3f5752d0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "For a linear function, $g(x+1)-g(x)=5$ means the function increases by $5$ when $x$ increases by $1$. So the slope is $5$."
+    },
+    {
+      "title": "Use the known point",
+      "content": "Write $g(x)=5x+b$. Since $g(3)=11$:\n$$\n11=5(3)+b\n$$\n$$\n11=15+b\n$$\n$$\nb=-4\n$$"
+    },
+    {
+      "title": "Write the function",
+      "content": "The function is\n$$\ng(x)=5x-4\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

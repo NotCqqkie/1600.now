@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the vertex as the maximum of the parabola",
-      "content": "The question asks where plant diversity is <em>greatest</em>. Since the parabola opens downward, the maximum occurs at the vertex—the highest point on the curve."
+      "title": "Find the highest point",
+      "content": "The graph is a downward-opening parabola, so plant diversity is greatest at the vertex, the highest point of the curve."
     },
     {
-      "title": "Read the elevation of the peak from the graph",
-      "content": "Tracing from the peak of the parabola down to the elevation axis, the vertex occurs at approximately <strong>1,250 meters</strong>. The peak lies between the 1,000 and 1,500 gridlines, positioned roughly in that region.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Read the elevation",
+      "content": "The vertex is closest to $1{,}250$ meters on the elevation axis. The answer is <strong>C</strong>."
     }
   ]
 }

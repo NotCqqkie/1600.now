@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "State Gayah's exact claim",
-      "content": "Eliminating left turns at busy urban intersections will improve traffic flow and, as a result, reduce overall travel times &mdash; even if drivers sometimes have to travel a slightly longer distance. Support has to show that after such a restriction, drivers actually accomplish more in less time despite the longer routes."
+      "title": "Match evidence to the claim",
+      "content": "Gayah claims that eliminating left turns at busy urban intersections would improve traffic flow and reduce overall travel times, even if some drivers must travel slightly farther. Strong support should show better travel efficiency after left turns were eliminated, not just easier navigation or a comparison between different signal types."
     },
     {
-      "title": "Test the candidate that matches the prediction",
-      "content": "<strong>Choice C &mdash; After a city eliminated left turns at busy intersections, a package-delivery company reports that its drivers have been able to reach more addresses in the city daily, on average, and therefore deliver more packages there annually.</strong> reports that after a city eliminated left turns at busy intersections, delivery drivers reached more addresses per day on average and delivered more packages annually. More addresses per day with the same driving hours means travel time per stop dropped &mdash; flow improved enough to overcome any added distance. That is exactly the outcome Gayah predicts."
+      "title": "Identify the supporting outcome",
+      "content": "The package-delivery finding describes a city after left turns were eliminated at busy intersections. The company reports that its drivers reached more addresses each day and delivered more packages annually. Reaching more destinations per day suggests that travel between stops became faster overall, which is the practical effect Gayah predicts."
     },
     {
-      "title": "Eliminate the others by why they miss",
-      "content": "<ul><li><strong>Choice A &mdash; In a town that installed left-turn signals at all busy intersections, seven out of ten survey respondents agreed with the statement \"the streets in my community are easier to navigate by motor vehicle than before.\"</strong>: this describes adding left-turn signals, the opposite of Gayah's proposal &mdash; misread to treat this as support. &#10007;</li><li><strong>Choice B &mdash; A traffic study of intersections in a large city shows that on average drivers wait longer to make a left turn at intersections without left-turn signals than at intersections with such signals.</strong>: compares two ways of allowing left turns; Gayah is talking about eliminating them entirely. Wrong intervention. &#10007;</li><li><strong>Choice C &mdash; After a city eliminated left turns at busy intersections, a package-delivery company reports that its drivers have been able to reach more addresses in the city daily, on average, and therefore deliver more packages there annually.</strong>: directly shows improved flow and reduced effective travel time after the elimination. &#10003;</li><li><strong>Choice D &mdash; Statistics reveal that school buses in a city that eliminated left turns at most intersections took on average two minutes longer to complete their routes after the restriction took effect than they did before.</strong>: longer route times after elimination directly contradict the claim. &#10007;</li></ul>That matches <strong>Choice C &mdash; After a city eliminated left turns at busy intersections, a package-delivery company reports that its drivers have been able to reach more addresses in the city daily, on average, and therefore deliver more packages there annually.</strong>."
+      "title": "Reject wrong interventions",
+      "content": "Choice A describes adding left-turn signals, not eliminating turns. Choice B compares intersections with and without left-turn signals while left turns still exist, so it does not test Gayah's restriction. Choice D says school buses took longer after left turns were eliminated at most intersections, which weakens the claim instead of supporting it. The answer is <strong>C</strong>."
     }
   ]
 }

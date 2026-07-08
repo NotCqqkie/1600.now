@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify angle equality and similar triangles",
-      "content": "The figure marks angles at $W$ and $Y$ both as $a^{\\circ}$, so $\\angle QWX = \\angle QYZ$. Since $WZ$ and $XY$ intersect at $Q$, angles $\\angle WQX$ and $\\angle YQZ$ are vertical angles, making them equal. By AA similarity, triangle $WQX \\sim$ triangle $YQZ$."
+      "title": "Use similar triangles",
+      "content": "The intersecting segments create vertical angles at $Q$, and the marked angles make the triangles similar. Match corresponding sides in triangles $WQX$ and $YQZ$."
     },
     {
-      "title": "Set up the proportion from corresponding sides",
-      "content": "In similar triangles, corresponding sides are proportional:<br/>$$\\frac{WQ}{YQ} = \\frac{WX}{YZ}$$<br/>$$\\frac{70}{63} = \\frac{60}{YZ}$$"
+      "title": "Set up the proportion",
+      "content": "Using corresponding sides,\n$$\n\\frac{WQ}{YQ}=\\frac{WX}{YZ}\n$$\nSubstitute the given lengths:\n$$\n\\frac{70}{63}=\\frac{60}{YZ}\n$$"
     },
     {
-      "title": "Cross multiply and solve for YZ",
-      "content": "Cross-multiplying: $70 \\cdot YZ = 60 \\cdot 63 = 3780$<br/>$$YZ = \\frac{3780}{70} = 54$$<br/>The length of $YZ$ is <strong>54</strong>."
+      "title": "Solve for the missing side",
+      "content": "Cross multiply and solve:\n$$\n70(YZ)=60\\cdot 63\n$$\n$$\nYZ=\\frac{3{,}780}{70}=54\n$$\nThe answer is <strong>54</strong>."
     }
   ]
 }

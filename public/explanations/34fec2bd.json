@@ -1,0 +1,15 @@
+{
+  "questionId": "34fec2bd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared condition",
+      "content": "Text 1 calls separating root systems an essential step, and Text 2 calls it a necessary precaution. Text 2 doubts whether Chen's full design proves CMN transfer, but both texts agree root-to-root transfer must first be ruled out."
+    },
+    {
+      "title": "Reject stronger claims",
+      "content": "A invents a finding about Zhao's results. B says excluding root transfer is sufficient, but Text 2 explicitly says other pathways could remain. D would block fungal strands too, which would prevent testing CMN transfer. The shared prerequisite is excluding root-to-root transfer. The answer is <strong>C</strong>."
+    }
+  ]
+}

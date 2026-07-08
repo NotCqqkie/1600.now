@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $5{x}^{2}+35$."
+      "title": "Distribute the factor",
+      "content": "Use the distributive property because the factor outside the parentheses multiplies every term inside. Multiply $5$ by the $x^2$ term and also multiply $5$ by the constant term:\n$$5(x^2+7)=5\\cdot x^2+5\\cdot7$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Distribute the 5",
-      "content": "${5}(x^2 + 7) = 5 \\cdot x^2 + 5 \\cdot 7 = 5x^2 + 35$."
-    },
-    {
-      "title": "Evaluate all choices",
-      "content": "<ul><li><strong>Choice A &mdash; $5{x}^{2}+35$</strong>: matches the distributed result. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; $5{x}^{2}+12$</strong>: adds 5 to 7 instead of multiplying. Eliminated.</li><li><strong>Choice C &mdash; $5{x}^{2}+7$</strong>: does not distribute 5 to the 7. Eliminated.</li><li><strong>Choice D &mdash; $5{x}^{2}-2$</strong>: incorrect arithmetic. Eliminated.</li></ul>"
+      "title": "Simplify the expression",
+      "content": "Evaluate the products and keep the terms combined only when they are like terms. The $x^2$ term stays separate from the constant:\n$$5\\cdot x^2+5\\cdot7=5x^2+35$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $-4k+13r-5$."
+      "title": "Substitute both expressions",
+      "content": "Use the given expressions for $a$ and $b$ in $a-b$.\n$$(6k+4r)-(10k-9r+5)$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Distribute the subtraction",
+      "content": "Subtracting the second expression changes the sign of every term inside the parentheses.\n$$6k+4r-10k+9r-5$$"
     },
     {
-      "title": "Substitute and distribute the negative sign",
-      "content": "Substitute $a = 6k + 4r$ and $b = 10k - 9r + 5$ into $a - b$, then distribute the negative through $b$: $$a - b = (6k + 4r) - (10k - 9r + 5) = 6k + 4r - 10k + 9r - 5$$"
-    },
-    {
-      "title": "Combine like terms to find the answer",
-      "content": "Collect terms by variable:<ul><li>k: $6k - 10k = -4k$</li><li>r: $4r + 9r = 13r$</li><li>Constant: $-5$</li></ul>The expression simplifies to $-4k + 13r - 5$. That matches <strong>Choice B &mdash; $-4k+13r-5$</strong>."
+      "title": "Combine like terms",
+      "content": "Group the $k$-terms and $r$-terms, then simplify.\n$$(6k-10k)+(4r+9r)-5=-4k+13r-5$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

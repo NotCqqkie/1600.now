@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the line directly",
-      "content": "At $x=8,500$ feet, the line of best fit passes through about $y=39$. The point on the model is approximately $(8500,39)$."
+      "title": "Read the model value",
+      "content": "At an elevation of $8{,}500$ feet, the line of best fit is at about $39$ degrees Fahrenheit."
     },
     {
-      "title": "Optional direct check",
-      "content": "Using two points from the same line, such as $(6000,44)$ and $(9000,38)$, a two-point line calculation predicts $39$ at $x=8500$.",
+      "title": "Check with two points",
+      "content": "Using points on the line, such as $(6000,44)$ and $(9000,38)$, the prediction near $8{,}500$ feet is closest to $39$ degrees Fahrenheit. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "x_1=[6000,9000]",
         "y_1=[44,38]"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The predicted temperature is $39^\\circ\\text{F}$, which matches <strong>B</strong>."
     }
   ]
 }

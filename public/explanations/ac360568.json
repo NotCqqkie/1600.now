@@ -1,0 +1,19 @@
+{
+  "questionId": "ac360568",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require a concrete example",
+      "content": "The goal is not just to define surrealist collage or name a work. It asks for a specific example of irrational juxtaposition, so the sentence should name the actual disparate images placed together."
+    },
+    {
+      "title": "Reject abstract answers",
+      "content": "Choice B uses Salazar's broad artistic quote. Choice C identifies <em>Synchronicity</em> as surrealist collage without naming the juxtaposed elements. Choice D describes the genre generally rather than giving the concrete example."
+    },
+    {
+      "title": "Name the juxtaposed images",
+      "content": "Choice A lists the well-dressed man, clouded mountain range, and doorway to the stars in <em>Synchronicity</em>, giving the requested specific example. The answer is <strong>A</strong>."
+    }
+  ]
+}

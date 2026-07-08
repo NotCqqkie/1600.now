@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the vertex from the original graph",
-      "content": "The parabola shown opens upward with its vertex at the lowest point. From the graph, the vertex is located at <strong>(2, −2)</strong>."
+      "title": "Read the original vertex",
+      "content": "From the graph, the parabola opens upward and has vertex $(2,-2)$."
     },
     {
-      "title": "Translate the vertex up 4 units",
-      "content": "Translating up $4$ units means adding $4$ to every $y$-coordinate while keeping each $x$-coordinate the same. The vertex moves from $(2,-2)$ to $$x=2,\\qquad y=-2+4=2.$$ The new vertex is $(2,2)$, which matches the correct answer, <strong>A</strong>."
+      "title": "Move the graph upward",
+      "content": "A translation up $4$ units keeps each x-coordinate the same and adds $4$ to each y-coordinate. The vertex moves as follows:<br/>$$(2,-2)\\to(2,-2+4)=(2,2)$$<br/>The resulting graph has vertex $(2,2)$. The answer is <strong>A</strong>."
     }
   ]
 }

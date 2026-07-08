@@ -1,0 +1,15 @@
+{
+  "questionId": "45793e01",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the passage's turn",
+      "content": "The passage introduces Chen and colleagues' study, then pivots with <em>However</em> to focus on a weakness: the study relied on a small sample size. It then explains that small samples can create biased analysis and exaggerated effects."
+    },
+    {
+      "title": "Match the purpose",
+      "content": "B is wrong because the passage is not about fish behavior changing over time. C shifts the focus to ocean acidification itself. D invents a debate about the cause of ocean acidification. The passage's purpose is to raise a concern about a study's findings. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the area equation",
-      "content": "The base is 10 cm greater than the height, so if the height is $h$, the base is $b = h + 10$. Using the triangle area formula with Area = 300: $$300 = \\frac{1}{2}(h+10) \\cdot h$$",
+      "title": "Write the area equation",
+      "content": "Let $h$ be the height. The base is $10$ centimeters greater, so the base is $h+10$. Substitute into the triangle area formula.<br/>$$300=\\frac{1}{2}h(h+10)$$",
       "formula": "$$A = \\frac{1}{2}bh$$"
     },
     {
-      "title": "Backsolve the choices",
-      "content": "The answer choices are simple integers, so we can test them directly.<br/><br/>Backsolving by testing the candidate (30): If $h = 30$, then $b = 30 + 10 = 40$, and Area $= \\frac{1}{2}(40)(30) = 600 \\neq 300$. Fails.<br/><br/>Testing this candidate (20): If $h = 20$, then $b = 20 + 10 = 30$, and Area $= \\frac{1}{2}(30)(20) = \\frac{600}{2} = 300$. This matches. That matches the correct answer: <strong>B</strong> is correct."
+      "title": "Solve for the positive height",
+      "content": "Multiply by $2$, then factor.<br/>$$600=h(h+10)$$<br/>$$h^2+10h-600=0$$<br/>$$(h+30)(h-20)=0$$<br/>The positive solution is $h=20$. The answer is <strong>B</strong>."
     }
   ]
 }

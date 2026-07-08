@@ -1,0 +1,15 @@
+{
+  "questionId": "893f5f5a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two legs",
+      "content": "The right triangle has legs of length $1$ and $1$, and $z$ is the hypotenuse. Use the Pythagorean theorem:\n$$z^2=1^2+1^2$$"
+    },
+    {
+      "title": "Find the hypotenuse",
+      "content": "Simplify and take the positive square root because $z$ is a length:\n$$z^2=2$$\n$$z=\\sqrt{2}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

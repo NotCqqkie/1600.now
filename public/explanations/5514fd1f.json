@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the sentence and find the logical signal",
-      "content": "The sentence says creating the national trail would ______ their preservation efforts <em>because</em> the US government provides extra protections to national trails. The &ldquo;because&rdquo; clause gives a reason the trail would <em>help</em> those efforts, so the blank needs a word meaning to actively support or advance something."
+      "title": "Use the protections clue",
+      "content": "The because clause explains that national trails receive government protections that other areas do not. Creating a trail would therefore help the preservation efforts."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — inspire</strong>: Meaning &ldquo;motivate or influence,&rdquo; this implies the trail would stir up new motivation for efforts that already exist &mdash; not what the &ldquo;because&rdquo; clause says. Wrong direction. &#10007;</li><li><strong>Choice B — ignore</strong>: Meaning &ldquo;overlook,&rdquo; this directly contradicts the context; the trail is meant to <em>help</em> preservation, not disregard it. &#10007;</li><li><strong>Choice C — promote</strong>: Meaning &ldquo;advance or support,&rdquo; this fits exactly &mdash; the government protections that come with national-trail status would advance the preservation efforts. &#10003;</li><li><strong>Choice D — reduce</strong>: Meaning &ldquo;decrease,&rdquo; this is the opposite of what the &ldquo;because&rdquo; clause supports. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject opposite verbs",
+      "content": "Choice A means motivate, but the sentence is about practical support from protections. Choice B means overlook, and Choice D means decrease; both contradict the context. The needed word means advance or support. The answer is <strong>C</strong>."
     }
   ]
 }

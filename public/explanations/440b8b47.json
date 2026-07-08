@@ -1,0 +1,15 @@
+{
+  "questionId": "440b8b47",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the expression",
+      "content": "Because $y$ is positive, $\\sqrt{y^{12}}=y^6$. Then simplify the powers:\n$$\n\\frac{4x^{16}y^7}{7x^3\\sqrt{y^{12}}}\n=\\frac{4x^{16}y^7}{7x^3y^6}\n=\\frac{4x^{13}y}{7}\n$$"
+    },
+    {
+      "title": "Compare both forms",
+      "content": "Form I has $x^{13/2}$, $y^{7/2}$, and denominator $4$, so it does not match. Form II has $x^{10}$ and $y^2$, so it also does not match. Neither form is equivalent. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the series pattern",
-      "content": "The existing semicolon after Barry Sharpless's description and the word “and” before Morten Meldal signal a three-item series separated by semicolons: Item 1; Item 2; and Item 3."
+      "title": "Follow the series pattern",
+      "content": "The sentence lists three Nobel Prize winners. The first item already contains internal punctuation and is followed by a semicolon, so the list uses semicolons to separate its major items."
     },
     {
-      "title": "Complete the series structure",
-      "content": "A semicolon after Stanford correctly separates Carolyn Bertozzi from Morten Meldal within this pattern.<ul><li>A provides no boundary (leaving the structure ambiguous)</li><li>B uses a comma (which contradicts the established semicolon convention)</li><li>C uses a colon (which introduces rather than separates items)</li></ul><br/><br/>That is the correct answer."
+      "title": "Separate the second item",
+      "content": "Choice A gives no clear boundary before the third item. Choice B uses a comma, which does not match the semicolon pattern. Choice C uses a colon, which would introduce rather than separate. A semicolon after “Stanford” completes the series. The answer is <strong>D</strong>."
     }
   ]
 }

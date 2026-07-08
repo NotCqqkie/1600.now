@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use slope-intercept form",
-      "content": "A linear function has the form $f(x)=mx+b$, where $m$ is the slope and $b=f(0)$ is the $y$-intercept. Given slope $69$ and $f(0)=3$:<br/>$$f(x) = 69x + 3$$"
+      "content": "A linear function has the form<br/>$$f(x)=mx+b$$<br/>The slope is $69$, so $m=69$."
     },
     {
-      "title": "Match the answer",
-      "content": "That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use the initial value",
+      "content": "Since $f(0)=3$, the y-intercept is $3$. Therefore,<br/>$$f(x)=69x+3$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

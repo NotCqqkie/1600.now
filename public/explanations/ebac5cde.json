@@ -1,0 +1,19 @@
+{
+  "questionId": "ebac5cde",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage moves",
+      "content": "The passage first presents van Berlo et al.'s finding about advergames: these games may interest players but may not help them later recall product and brand information. Then the passage explains that finding through Lang's limited capacity model of motivated mediated message processing. Because players' cognitive resources are limited, those resources go mainly to game mechanics instead of to storing the advertiser's message."
+    },
+    {
+      "title": "Match the main idea",
+      "content": "The main idea must include both parts of the passage. It should mention the finding about weak recall of brand and product information in advergames, and it should also mention that Lang's model provides the explanation for that finding. Any option focused only on persuasion, marketing success, or game mechanics would distort the passage."
+    },
+    {
+      "title": "Eliminate distorted claims",
+      "content": "<ul><li><strong>Choice A</strong>: Captures both the recall finding and Lang's model as the explanation.</li><li><strong>Choice B</strong>: Shifts from recall to persuasion and purchasing, and it omits Lang's model.</li><li><strong>Choice C</strong>: Invents a balance solution and wrongly says Lang's model suggests the opposite.</li><li><strong>Choice D</strong>: Reverses the relationship by treating van Berlo et al. as corroborating Lang, when the passage uses Lang to explain van Berlo et al.'s finding.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

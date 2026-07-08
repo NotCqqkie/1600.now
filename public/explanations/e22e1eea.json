@@ -1,0 +1,15 @@
+{
+  "questionId": "e22e1eea",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find angle N in radians",
+      "content": "Angle $M$ measures:<br/>$$\\frac{\\pi}{2(12)}=\\frac{\\pi}{24}$$<br/>Angle $N$ is $12$ times angle $M$:<br/>$$12\\cdot\\frac{\\pi}{24}=\\frac{\\pi}{2}$$"
+    },
+    {
+      "title": "Convert to degrees",
+      "content": "Multiply by the radian-to-degree conversion factor:<br/>$$\\frac{\\pi}{2}\\cdot\\frac{180}{\\pi}=90$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

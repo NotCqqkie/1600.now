@@ -1,0 +1,15 @@
+{
+  "questionId": "98beb849",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the perimeter",
+      "content": "Let $x$ be the third side. The perimeter is the sum of all three sides:<br/><br/>$$8+11+x=34$$<br/>$$19+x=34$$<br/>$$x=15$$"
+    },
+    {
+      "title": "Check the triangle type",
+      "content": "With sides $8$, $11$, and $15$, the longest side is $15$. The obtuse check is<br/><br/>$$8^2+11^2<15^2$$<br/>$$64+121<225$$<br/>$$185<225$$<br/><br/>So the side length fits the condition. The answer is <strong>A</strong>."
+    }
+  ]
+}

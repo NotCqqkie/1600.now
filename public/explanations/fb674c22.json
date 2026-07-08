@@ -1,0 +1,19 @@
+{
+  "questionId": "fb674c22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence boundary",
+      "content": "The opening clause, \"Sei Shōnagon composed many lists,\" can stand as a complete sentence. The later clause, \"she bemoans boats run aground, toppled trees, and defeated wrestlers,\" is also independent. The words about \"Things That Have Lost Their Power\" introduce where the bemoaning occurs, so the blank must separate the general statement about her lists from the specific example that follows."
+    },
+    {
+      "title": "Check the wrong boundaries",
+      "content": "Choice A inserts a semicolon after \"lists,\" putting a semicolon before the phrase beginning with the title. That title phrase is not an independent clause, so the semicolon creates an incorrect boundary. Choice B adds \"in,\" making the first sentence run into the next idea without punctuation or a conjunction. Choice D inserts a colon after \"lists,\" but the words after the colon do not explain or list the \"many lists\" mentioned before it."
+    },
+    {
+      "title": "Use a period before the example",
+      "content": "A period cleanly ends the first complete thought: \"Sei Shōnagon composed many lists.\" The capitalized word \"In\" then starts a new sentence: \"In 'Things That Have Lost Their Power,' which appears in her tenth-century account of Japanese courtly life, <em>Pillow Book</em>, she bemoans boats run aground, toppled trees, and defeated wrestlers.\" That structure correctly places the introductory phrase before the subject \"she\" and the verb \"bemoans.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

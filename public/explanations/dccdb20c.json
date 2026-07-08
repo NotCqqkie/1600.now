@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "$8\\%$ means $\\frac{8}{100}=0.08$."
+      "content": "Write $8\\%$ as a decimal so it can be multiplied by the total number of tiles:<br/>$$8\\%=\\frac{8}{100}=0.08$$"
     },
     {
       "title": "Multiply by the total",
-      "content": "$$0.08(425)=34.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "There are <strong>34</strong> black tiles in the box. This is reasonable because $10\\%$ of $425$ would be $42.5$, and $8\\%$ should be a smaller number than that. The percent is applied to the total number of tiles."
+      "content": "Find $8\\%$ of $425$ by multiplying the decimal by the total:<br/>$$0.08(425)=34$$<br/>The answer is <strong>34</strong>."
     }
   ]
 }

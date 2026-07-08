@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate P(0) at the start of the survey",
-      "content": "Since $t = 0$ means the survey began (by definition), substitute $t = 0$ into the function: $$P(0) = 2,400(1.03)^0 = 2,400 \\cdot 1 = 2,400$$"
+      "title": "Interpret the input",
+      "content": "The variable $t$ is the number of years since the survey began. So $t=0$ represents the moment the survey began."
     },
     {
-      "title": "Interpret the meaning",
-      "content": "At the start of the survey ($t = 0$), the function gives 2,400, which represents the estimated number of shorebirds in the area when the survey began. <strong>B</strong> is correct."
+      "title": "Evaluate the function",
+      "content": "Substitute $t=0$.<br/>$$P(0)=2{,}400(1.03)^0$$<br/>$$P(0)=2{,}400\\cdot1=2{,}400$$"
+    },
+    {
+      "title": "State the meaning",
+      "content": "The value means the estimated number of shorebirds in the area was $2{,}400$ when the survey began. The answer is <strong>B</strong>."
     }
   ]
 }

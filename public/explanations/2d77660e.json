@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A — To compare Spanish-language newspapers published in Texas today with ones published there during the late 1800s</strong>: The text never mentions present-day newspapers; it stays entirely in the late 1800s. &#10007;</li><li><strong>Choice B — To explain that Spanish-language newspapers thrived in Texas and especially in El Paso during the late 1800s</strong>: The text opens with newspapers flourishing across Texas, then highlights El Paso&apos;s 22 papers as the peak example, and closes by explaining why. This matches the full arc of the passage. &#10003;</li><li><strong>Choice C — To argue that Spanish-language newspapers published in El Paso influenced the ones published in San Antonio during the late 1800s</strong>: No causal link between cities is ever made in the text. &#10007;</li><li><strong>Choice D — To explain why Spanish-language newspapers published in Texas were so popular in Mexico during the late 1800s</strong>: Mexico is mentioned only as a geographic neighbor; readership in Mexico is never discussed. &#10007;</li></ul>"
+      "title": "Trace the purpose",
+      "content": "The passage first says Spanish-language newspapers flourished across Texas in the late 1800s, then gives San Antonio as an example. It shifts to El Paso as the strongest case, noting its twenty-two Spanish-language newspapers and explaining why the city was such a rich site for journalism."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The matching choice captures both parts of the passage &mdash; widespread flourishing across Texas and El Paso&apos;s leadership &mdash; without adding claims the text never makes. <strong>B</strong> is correct."
+      "title": "Rule out extra claims",
+      "content": "A adds a present-day comparison the passage never makes. C invents an influence from El Paso to San Antonio. D turns Mexico into the audience for Texas newspapers, but Mexico is mentioned only to explain El Paso's location and Spanish-speaking population. The answer is <strong>B</strong>."
     }
   ]
 }

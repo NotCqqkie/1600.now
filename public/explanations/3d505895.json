@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the genetic evidence",
-      "content": "The two condors hatched from eggs laid by females in the enclosure, yet they weren't genetically similar enough to any males in the enclosure to be those males' offspring. This means the evidence pointed away from any male in the enclosure being their biological father."
+      "title": "Use the genetic evidence",
+      "content": "The two condors hatched from eggs laid by females in the enclosure, but their DNA was not similar enough to any male there for those males to be their fathers."
     },
     {
-      "title": "Infer the conclusion",
-      "content": "If the offspring came from females but probably weren't fathered by any male in the enclosure, the scientists could conclude that those mothers probably reproduced asexually—through parthenogenesis—to produce offspring with all-maternal DNA.<br/><br/>The other answers either shift focus to the mothers' origins (A) or introduce unsupported speculation about wild behavior and conditional triggers (B, D).<br/><br/><strong>C</strong> is correct."
+      "title": "Reject unsupported reproduction claims",
+      "content": "<ul><li><strong>Choice A</strong>: The evidence concerns the two individuals' origins, not their mothers' origins.</li><li><strong>Choice B</strong>: The passage gives no information about wild California condors.</li><li><strong>Choice D</strong>: The enclosure had males, so the passage does not show that lack of male access triggers parthenogenesis.</li></ul>"
+    },
+    {
+      "title": "Infer all-maternal reproduction",
+      "content": "Since parthenogenesis produces offspring from a mother without mating, the DNA pattern supports the conclusion that the mothers likely reproduced that way. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation for x-intercepts",
-      "content": "An <em>x</em>-intercept occurs where $y = 0$. Substituting into the function:<br/>$$x^2 - 18x - 448 = 0$$<br/>Since the answer choices are simple integers, backsolving is faster than solving algebraically."
+      "title": "Set the function equal to zero",
+      "content": "An <em>x</em>-intercept occurs where $y=0$, so solve<br/>$$x^2-18x-448=0$$"
     },
     {
-      "title": "Test the choices using backsolving",
-      "content": "Backsolving -- testing choice B ($-32$, 0):<br/>$$(-32)^2 - 18(-32) - 448 = 1024 + 576 - 448 = 1152 \\neq 0$$<br/>Fails. Testing choice A ($-14$, 0):<br/>$$(-14)^2 - 18(-14) - 448 = 196 + 252 - 448 = 0$$<br/>That is the correct answer."
+      "title": "Factor the quadratic",
+      "content": "Find two numbers that multiply to $-448$ and add to $-18$:<br/>$$x^2-18x-448=(x-32)(x+14)$$"
+    },
+    {
+      "title": "Choose an intercept",
+      "content": "The zeros are $x=32$ and $x=-14$, so one <em>x</em>-intercept is $(-14,0)$. The answer is <strong>A</strong>."
     }
   ]
 }

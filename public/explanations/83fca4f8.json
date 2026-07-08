@@ -1,0 +1,15 @@
+{
+  "questionId": "83fca4f8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Both equations equal $y$, so add the right sides to get $2y$ directly:\n$$\n2y=(\\frac{x}{3}+7)+(-\\frac{x}{3}+23)\n$$"
+    },
+    {
+      "title": "Cancel the x-terms",
+      "content": "The $x$-terms cancel:\n$$\n2y=7+23=30\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the exponential pattern",
-      "content": "Use the exponential form $y=a\\cdot b^x$. The table starts at $670$, so $a=670$. The values increase by about $0.6%$ each step, so the multiplier is $b=1.006$. The model is $$y=670(1.006)^x.$$"
+      "title": "Identify the starting amount",
+      "content": "At $t=0$, the account has $670$ dollars. In an exponential model, this is the initial value."
     },
     {
-      "title": "Translate back to the answer choices",
-      "content": "The question uses $d$ and $t$ instead of $y$ and $x$, so $y=670(1.006)^x$ becomes $d=670(1.006)^t$. Since $1.006=1+0.006$, the same equation is $d=670(1+0.006)^t$. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Find the growth factor",
+      "content": "From year $0$ to year $1$, the amount is multiplied by<br/>$$\\frac{674.02}{670}=1.006$$<br/>So the annual growth factor is $1.006=1+0.006$."
+    },
+    {
+      "title": "Write the model",
+      "content": "Using initial value times growth factor to the power of time gives<br/>$$d=670(1+0.006)^t$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

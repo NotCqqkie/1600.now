@@ -1,0 +1,19 @@
+{
+  "questionId": "a0f365f2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the equation",
+      "content": "Move the left side to the right side and factor out $x-a$. <br/>$$x-a=(x-a)(x-31)$$<br/>$$0=(x-a)(x-31)-(x-a)$$<br/>$$0=(x-a)(x-32)$$"
+    },
+    {
+      "title": "List the solutions",
+      "content": "The factored equation is true when either factor is $0$. <br/>$$x-a=0\\quad\\text{or}\\quad x-32=0$$<br/>$$x=a\\quad\\text{or}\\quad x=32$$"
+    },
+    {
+      "title": "Match the statements",
+      "content": "Statement I is included, statement II is not included, and statement III is included. Therefore the valid statements are I and III only.<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

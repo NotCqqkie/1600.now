@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The initial deposit is the account balance at month $x=0$, which is the $y$-intercept of the graph of $f$."
+      "title": "Identify the initial balance",
+      "content": "The initial deposit is the account balance at $x=0$ months, which is the $y$-intercept of the graph."
     },
     {
-      "title": "Solve",
-      "content": "Read the $y$-intercept from the graph: the line crosses the $y$-axis at $y=30$, so the initial deposit is 30 dollars."
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>30</strong> is correct."
+      "title": "Read the graph intercept",
+      "content": "The graph crosses the vertical axis at about $30$ dollars. The answer is <strong>30</strong>."
     }
   ]
 }

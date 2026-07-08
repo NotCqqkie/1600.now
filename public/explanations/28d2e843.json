@@ -1,0 +1,19 @@
+{
+  "questionId": "28d2e843",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept",
+      "content": "At $x=0$:<br/>$$a^0+b=-17$$<br/>$$1+b=-17$$<br/>$$b=-18$$"
+    },
+    {
+      "title": "Use the second point",
+      "content": "At $x=2$, use $b=-18$.<br/>$$a^2-18=31$$<br/>$$a^2=49$$<br/>$$a=7$$"
+    },
+    {
+      "title": "Find the difference",
+      "content": "Compute $a-b$.<br/>$$7-(-18)=25$$The answer is <strong>25</strong>."
+    }
+  ]
+}

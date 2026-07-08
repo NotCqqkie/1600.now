@@ -1,0 +1,15 @@
+{
+  "questionId": "07cdb045",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the requested detail",
+      "content": "The task asks for a sentence that specifies the length of the Foucault pendulum's cable. Most of the notes explain what Foucault pendulums demonstrate or how their swing path appears to change, but the relevant note says the University of Bergen pendulum has a weighted ball at the end of a roughly 14-meter-long cable."
+    },
+    {
+      "title": "Choose the length statement",
+      "content": "Choice A describes the pendulum's use as evidence of Earth's rotation, not the cable length. Choice B mentions that the pendulum has a cable but leaves out how long it is. Choice C explains the apparent change in swing path. Only the sentence about the University of Bergen pendulum including a cable roughly 14 meters long gives the requested measurement. The answer is <strong>D</strong>."
+    }
+  ]
+}

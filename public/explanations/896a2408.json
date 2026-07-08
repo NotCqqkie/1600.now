@@ -1,0 +1,16 @@
+{
+  "questionId": "896a2408",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put in standard form",
+      "content": "Subtract $18$ from both sides.\n$$\n2x^2-8x+8=18\n$$\n$$\n2x^2-8x-10=0\n$$"
+    },
+    {
+      "title": "Use the root sum",
+      "content": "For $ax^2+bx+c=0$, the sum of the solutions is \n$$\n-\\frac{b}{a}\n$$ Here, $a=2$ and $b=-8$.\n$$\n-\\frac{-8}{2}=4\n$$\nThe answer is <strong>4</strong>.",
+      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$"
+    }
+  ]
+}

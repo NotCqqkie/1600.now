@@ -1,0 +1,15 @@
+{
+  "questionId": "46639c46",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the list break",
+      "content": "The sentence is listing common elements in Celtic art. One item is intricate patterns that held symbolic significance; another is depictions of birds, horses, and other animals. Because the items are complex, a semicolon can mark the boundary between them."
+    },
+    {
+      "title": "Separate the series items",
+      "content": "B uses only a comma, which blurs the boundary between complex list items. C turns a list item into a separate sentence, and D uses a colon even though the next noun phrase is another item in the series, not an explanation of significance. The answer is <strong>A</strong>."
+    }
+  ]
+}

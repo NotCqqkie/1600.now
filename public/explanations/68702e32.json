@@ -1,0 +1,19 @@
+{
+  "questionId": "68702e32",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is \"a team of researchers,\" and the main verb is \"analyzed.\" The words in the blank should modify the researchers by explaining their purpose, not create a second finite verb."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "Choice A, Choice C, and Choice D all create a finite verb before \"analyzed.\" Without a conjunction or other structure connecting the two verbs, the sentence becomes ungrammatical."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "Hoping is a participle that modifies the researchers: a team hoping to find connections analyzed geotagged posts. The answer is <strong>B</strong>."
+    }
+  ]
+}

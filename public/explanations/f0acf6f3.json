@@ -1,0 +1,15 @@
+{
+  "questionId": "f0acf6f3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Resolve the quasar paradox",
+      "content": "The passage presents a contradiction: about 200 quasars formed within the universe's first billion years, yet early-universe conditions are believed to have been poorly suited to quasar creation. The conclusion should account for that mismatch."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice A invents a luminosity comparison, and Choice C invents a mass comparison. Choice B focuses on 3C 273 even though the paradox concerns early quasars generally. The remaining conclusion says the current understanding may be incomplete. The answer is <strong>D</strong>."
+    }
+  ]
+}

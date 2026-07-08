@@ -1,0 +1,15 @@
+{
+  "questionId": "464322ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Align prediction and evidence",
+      "content": "The standard view was that stock market liberalization would help companies raise money from investors. Chen then found that companies in 11 liberalizing countries received significant investment increases in the three years after liberalization. This is exactly the relationship the blank asks Chen's finding to imply."
+    },
+    {
+      "title": "Reject unsupported extensions",
+      "content": "B invents serious negative effects, C contradicts the finding that investment rose during the three-year period, and D adds a Malaysia-Philippines comparison the passage never provides. Chen's empirical finding supports the existing scholarly view. The answer is <strong>A</strong>."
+    }
+  ]
+}

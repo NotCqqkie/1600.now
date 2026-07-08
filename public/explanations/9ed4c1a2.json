@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the fraction across the parentheses",
-      "content": "Apply the distributive property:<br/>$$y = \\frac{1}{4}(25x + 17) + 8x = \\frac{25x}{4} + \\frac{17}{4} + 8x$$"
+      "title": "Distribute the fraction",
+      "content": "Rewrite the equation so the $x$ terms are easy to combine.\n$$\ny=\\frac{1}{4}(25x+17)+8x\n$$\n$$\ny=\\frac{25x}{4}+\\frac{17}{4}+8x\n$$"
     },
     {
-      "title": "Combine the x terms and identify the slope",
-      "content": "Rewrite $8x$ with denominator 4 so we can add it to $\\frac{25x}{4}$:<br/>$$8x = \\frac{32x}{4}$$<br/>Combine the $x$ terms:<br/>$$\\frac{25x}{4} + \\frac{32x}{4} = \\frac{57x}{4}$$<br/>So $y = \\frac{57x}{4} + \\frac{17}{4}$. In slope-intercept form $y = mx + b$, the slope is the coefficient of $x$: <strong>14.25</strong>."
+      "title": "Combine the coefficients",
+      "content": "Write $8x$ with denominator $4$, then add the coefficients of $x$.\n$$\n8x=\\frac{32x}{4}\n$$\n$$\n\\frac{25x}{4}+\\frac{32x}{4}=\\frac{57x}{4}=14.25x\n$$\nThe answer is <strong>14.25</strong>."
     }
   ]
 }

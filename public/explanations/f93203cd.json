@@ -1,0 +1,19 @@
+{
+  "questionId": "f93203cd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the list boundary",
+      "content": "The sentence lists three behavioral economists: Ai Hisano, George Akerlof, and Iris Bohnet. Each person's name is paired with identifying information, and that identifying information contains commas, such as <em>a senior lecturer at Kyoto University</em>. Because the list items already contain internal commas, the boundary between major list items needs stronger punctuation."
+    },
+    {
+      "title": "Separate complex items",
+      "content": "<strong>Choice A</strong>, <em>University, George Akerlof,</em>, relies only on commas, making it hard to tell where Hisano's information ends and Akerlof's begins. <strong>Choice B</strong>, <em>University George Akerlof,</em>, gives no punctuation between the two people. <strong>Choice D</strong>, <em>University; George Akerlof;</em>, uses a semicolon after Akerlof and detaches his identifying phrase, <em>a professor at Georgetown University</em>."
+    },
+    {
+      "title": "Preserve Akerlof's description",
+      "content": "<strong>Choice C</strong>, <em>University; George Akerlof,</em>, uses a semicolon to separate Hisano's full list item from Akerlof's. The comma after <em>George Akerlof</em> then correctly attaches his appositive before the next semicolon introduces Iris Bohnet. The answer is <strong>C</strong>."
+    }
+  ]
+}

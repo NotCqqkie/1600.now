@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate g(13a) and g(8a) using the sign constraint",
-      "content": "Since $a \\lt 0$, both $13a$ and $8a$ are negative. For negative numbers, $|x| = -x$, so:<br/>$$g(13a) = \\frac{|13a|}{a} - 12 = \\frac{-13a}{a} - 12 = -13 - 12 = -25$$<br/>$$g(8a) = \\frac{|8a|}{a} - 12 = \\frac{-8a}{a} - 12 = -8 - 12 = -20$$"
+      "title": "Use the sign of the input",
+      "content": "Since $a<0$, each input is negative.<br/>$$|13a|=-13a$$<br/>$$|8a|=-8a$$"
     },
     {
-      "title": "Compute the product of the two values",
-      "content": "$$g(13a) \\cdot g(8a) = (-25) \\cdot (-20) = 500$$"
+      "title": "Multiply the values",
+      "content": "Evaluate and multiply.<br/>$$g(13a)=\\frac{-13a}{a}-12=-25$$<br/>$$g(8a)=\\frac{-8a}{a}-12=-20$$<br/>$$(-25)(-20)=500$$<br/>The answer is <strong>500</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "f0708b48",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the equations:<br/>$$8(8y)=32$$<br/>$$8y=4$$"
+    },
+    {
+      "title": "Subtract the equations",
+      "content": "Subtract the equations:<br/>$$10(9x)=0$$<br/>$$9x=0$$"
+    },
+    {
+      "title": "Add the requested terms",
+      "content": "$$9x+8y=0+4=4$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

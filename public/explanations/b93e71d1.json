@@ -1,0 +1,15 @@
+{
+  "questionId": "b93e71d1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a later decrease",
+      "content": "The claim is that some lakes saw a decline in surface-ice duration between the early 1980s and the mid-2000s. Supporting data must compare the same lake across time and show fewer days in the later winter."
+    },
+    {
+      "title": "Avoid unrelated comparisons",
+      "content": "A and D compare different lakes and latitude rather than a decline over time. B shows Lake Baikal had more ice days later, which is an increase. The remaining option gives the same-lake decrease the claim requires. The answer is <strong>C</strong>."
+    }
+  ]
+}

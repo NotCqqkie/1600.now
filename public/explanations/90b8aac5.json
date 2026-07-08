@@ -1,0 +1,15 @@
+{
+  "questionId": "90b8aac5",
+  "correctAnswer": "45",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate variable and fixed time",
+      "content": "In $W(x)=3x+45$, the term $3x$ changes with the number of shrubs. The constant term is the fixed time that does not depend on shrubs."
+    },
+    {
+      "title": "Identify the mowing time",
+      "content": "Mowing the grass is the fixed part of the total time, so it is represented by the constant term $45$.\nThe answer is <strong>45</strong>."
+    }
+  ]
+}

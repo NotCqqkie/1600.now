@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the researchers' explanation requires",
-      "content": "The researchers explain that rearranging a store's layout causes shoppers to search through more of the store, exposing them to more products and increasing unplanned purchases. A supporting survey response must show this exact chain: relocated item $\\Rightarrow$ extra wandering through the store $\\Rightarrow$ spontaneous purchase."
+      "title": "Trace the store-layout chain",
+      "content": "The researchers explain that a changed store layout makes shoppers search in new places, exposes them to more products, and increases unplanned purchases. The best survey response must show a relocated item leading to extra searching and then to a spontaneous purchase."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"I needed to buy some cleaning supplies, but they weren't in their regular place. While I was looking for them, I saw this interesting notebook and decided to buy it, too.\"</strong>: The shopper searched for a relocated item, wandered through more of the store, and made an unplanned purchase &mdash; exactly what the researchers describe. &#10003;</li><li><strong>\"I didn't buy everything on my shopping list today. I couldn't find a couple of the items in the store, even though I looked all over for them.\"</strong>: The shopper searched but made no unplanned purchase &mdash; no spontaneous buy occurs, so this does not support the explanation. &#10007;</li><li><strong>\"The store sent me a coupon for a new brand of soup, so I came here to find out what kinds of soup that brand offers. I decided to buy a few cans because I had the coupon.\"</strong>: The purchase is driven by a coupon, an external cue the text explicitly contrasts with layout rearrangement. &#10007;</li><li><strong>\"This store is larger than one that's closer to where I live, and it carries more products. I came here to buy some things that the other store doesn't always have.\"</strong>: The shopper chose this store for its stock, not because of layout changes; no unplanned purchase is described. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Match the response to the chain",
+      "content": "B shows searching without an unplanned purchase. C describes a purchase caused by a coupon, not by the layout. D describes choosing a larger store for its stock, not buying something unexpected after moving through a changed layout. The response about searching for cleaning supplies and buying a notebook follows the full chain. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d3f7c914",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The subject of the blank is \"behavioral economists,\" which is plural. The phrase \"such as Gee, whose research focuses on charitable giving\" is an intervening modifier; removing it gives the core structure \"behavioral economists ______ that economic decision-making can be irrational.\""
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "A uses the singular form \"has contended.\" B uses the singular present-tense form \"contends.\" C uses the singular progressive form \"is contending.\" The plural subject requires the base present-tense verb form. The answer is <strong>D</strong>."
+    }
+  ]
+}

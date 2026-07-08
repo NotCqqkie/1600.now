@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a transitions question. The passage opens by saying activists statewide sold tea for suffrage, then gives one example (San Francisco). The blank introduces a second parallel example (Los Angeles). The transition must signal similarity between two independent, coordinated examples."
+      "title": "Compare the two examples",
+      "content": "The passage first says activists across California sold tea for suffrage. It then gives a San Francisco example and introduces a Los Angeles example, so the transition must show that the two examples are alike."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"For example,\"</strong>: Signals that the second sentence exemplifies the first. But both sentences are distinct examples of the same general claim &mdash; one does not illustrate the other. &#10007;</li><li><strong>\"To conclude,\"</strong>: Signals a closing summary. The passage is not wrapping up; it is adding a parallel case. &#10007;</li><li><strong>\"Similarly,\"</strong>: Signals that two things are alike. Helen Pierce Davis distributed tea in Los Angeles just as the Woman&rsquo;s Suffrage Party sold tea in San Francisco &mdash; a parallel action in a parallel city. &#10003;</li><li><strong>\"In other words,\"</strong>: Signals restatement or paraphrase. The Los Angeles example is a new, distinct event, not a restatement of the San Francisco one. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Signal similarity",
+      "content": "Choice A would make the Los Angeles example illustrate only the San Francisco sentence, but both examples support the broader statewide claim. Choice B signals a conclusion, and Choice D signals restatement. “Similarly” correctly links parallel tea-selling efforts in two cities. The answer is <strong>C</strong>."
     }
   ]
 }

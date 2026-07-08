@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the parallel-segment similarity",
-      "content": "Since $ST \\parallel QR$, triangle $PST$ is similar to triangle $PQR$. With $RT=2PT$, the full side is $PR=PT+RT=3PT$, so the scale factor from triangle $PQR$ to triangle $PST$ is $\\frac{1}{3}$."
+      "title": "Use similar triangles",
+      "content": "Because $ST$ is parallel to $QR$, triangle $PST$ is similar to triangle $PQR$. The corresponding sides are $ST$ with $QR$ and $PT$ with $PR$."
     },
     {
-      "title": "Use the scale shortcut: find the linear ratio",
-      "content": "Since $ST \\parallel QR$, triangle $PST \\sim$ triangle $PQR$. Given $RT = 2PT$, the full segment is $PR = PT + 2PT = 3PT$, so:<br/>$$\\frac{PT}{PR} = \\frac{1}{3}$$"
+      "title": "Find the scale factor",
+      "content": "Given $RT=2PT$, the full side $PR$ is\n$$\nPR=PT+RT=PT+2PT=3PT\n$$\nSo the smaller triangle has scale factor\n$$\n\\frac{PT}{PR}=\\frac{PT}{3PT}=\\frac{1}{3}\n$$"
     },
     {
-      "title": "Apply the ratio to ST",
-      "content": "Corresponding sides scale by $\\frac{1}{3}$:<br/>$$ST = \\frac{1}{3} \\times QR = \\frac{1}{3} \\times 180 = 60$$<br/>The answer is <strong>60</strong>."
+      "title": "Scale the parallel side",
+      "content": "Apply the same factor to $QR=180$:\n$$\nST=\\frac{1}{3}(180)=60\n$$\nThe answer is <strong>60</strong>."
     }
   ]
 }

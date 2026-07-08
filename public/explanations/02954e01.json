@@ -1,0 +1,15 @@
+{
+  "questionId": "02954e01",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=5x^2$. To find $f(9)$, substitute $9$ for $x$: $$f(9)=5(9)^2$$ The exponent applies to the substituted input before the multiplication by $5$."
+    },
+    {
+      "title": "Evaluate the square",
+      "content": "Square first, then multiply: $$f(9)=5(81)=405$$ The value $45$ would come from multiplying before squaring, which does not follow the exponent rule. The answer is <strong>D</strong>."
+    }
+  ]
+}

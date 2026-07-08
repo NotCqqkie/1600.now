@@ -1,0 +1,15 @@
+{
+  "questionId": "7eabdd8c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Translate the prediction",
+      "content": "The hypothesis predicts that, in low visibility with large vortices, intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions. If a fish detects an obstruction better, it should bump into fewer obstructions. A supporting finding therefore needs both head types in those same conditions."
+    },
+    {
+      "title": "Require the direct comparison",
+      "content": "Choice A shows equal collision rates, which would not support a detection advantage. Choice B reports only the narrow-headed lookdown, so it lacks the needed comparison. Choice D compares specimens within the intermediate-headed species only. The supporting result must show narrow-headed fish colliding more often than intermediate-headed fish, meaning the intermediate-headed fish detected better. The answer is <strong>C</strong>."
+    }
+  ]
+}

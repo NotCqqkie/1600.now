@@ -1,0 +1,19 @@
+{
+  "questionId": "cd6d731c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $h(x)=7|x|$, and the question asks for $h(-3)$. Substitute $-3$ for $x$ in the function definition."
+    },
+    {
+      "title": "Evaluate the absolute value",
+      "content": "The substitution gives\n$$h(-3)=7|-3|$$\nThe absolute value of $-3$ is $3$, so the negative input becomes positive before multiplying by $7$."
+    },
+    {
+      "title": "Multiply to find the output",
+      "content": "Now simplify the expression:\n$$h(-3)=7(3)=21$$\nThe function output for the given input is $21$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving — testing choice B (19)",
-      "content": "If there are 19 two-person tents, then the number of four-person tents is $$56 - 19 = 37$$.<br/>Total people would be $$2(19) + 4(37) = 38 + 148 = 186$$.<br/>Since 186 is not equal to 188, choice B (&lsquo;19&rsquo;) fails.",
+      "title": "Define the tent counts",
+      "content": "Let $x$ be the number of two-person tents. Since there are $56$ tents total, the number of four-person tents is $56-x$.",
       "formula": null
     },
     {
-      "title": "Backsolving — testing choice C (18)",
-      "content": "If there are 18 two-person tents, then the number of four-person tents is $$56 - 18 = 38$$.<br/>Total people would be $$2(18) + 4(38) = 36 + 152 = 188$$.<br/>That confirms <strong>C</strong> is correct.",
+      "title": "Use the people total",
+      "content": "All tents are full, so the total capacity is $188$ people.<br/>$$2x+4(56-x)=188$$<br/>$$2x+224-4x=188$$<br/>$$224-2x=188$$<br/>$$2x=36$$<br/>$$x=18$$<br/>The answer is <strong>C</strong>.",
       "formula": null
     }
   ]

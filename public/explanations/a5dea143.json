@@ -1,0 +1,16 @@
+{
+  "questionId": "a5dea143",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put in standard form",
+      "content": "Move all terms to one side.<br/>$$3x^2-12x+14=5$$<br/>$$3x^2-12x+9=0$$"
+    },
+    {
+      "title": "Use the root sum",
+      "content": "For $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$. Here, $a=3$ and $b=-12$. <br/>$$-\\frac{-12}{3}=4$$<br/>The answer is <strong>4</strong>.",
+      "formula": "$$\\text{Sum of roots} = -\\frac{b}{a}$$"
+    }
+  ]
+}

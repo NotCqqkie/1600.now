@@ -1,0 +1,15 @@
+{
+  "questionId": "aeaa4121",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the pupil-size pattern",
+      "content": "The study starts from the idea that humans view dilated pupils positively. Because dark irises can make dogs' pupils look larger, the relevant data pattern is whether dogs with large-appearing pupils received more positive human ratings than dogs whose irises did not create that effect."
+    },
+    {
+      "title": "Match the data claim",
+      "content": "Choice A reverses the pattern by saying participants responded more negatively. Choice B denies a relationship between iris shade and responses. Choice D compares actual and apparent pupil size, a distinction the described study does not establish. The supported claim is that positive responses extend to dogs with large-appearing pupils. The answer is <strong>C</strong>."
+    }
+  ]
+}

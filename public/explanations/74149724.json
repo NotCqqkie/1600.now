@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal and the key note",
-      "content": "The student wants to specify why the Mayflower Compact was created. The notes state directly: &quot;It was created in 1620 to establish a common government.&quot; That is the purpose &mdash; the answer must use this stated reason, not other details from the notes."
+      "title": "Use the purpose note",
+      "content": "The student wants to specify the reason the Mayflower Compact was created. The notes give that reason directly: it was created in 1620 to establish a common government. The sentence should focus on that purpose, not on Samuel Carver, the number of signatories, or the quoted goal of planting a colony."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Stating that its signatories wanted to \"plant the first colony in the northern parts of Virginia,\" the Mayflower Compact was a legal agreement among the pilgrims that immigrated to Plymouth Colony.&rsquo;</strong>: Describes what the signatories wanted and what the document was, but does not specify why it was created. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Created in 1620, the Mayflower Compact states that the pilgrims wanted to \"plant the first colony in the northern parts of Virginia.\"&rsquo;</strong>: Gives the date and a quoted goal of the pilgrims, but never states the purpose for which the Compact was created. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The Mayflower Compact was created to establish a common government among the pilgrims that immigrated to Plymouth Colony.&rsquo;</strong>: Directly states the reason the Compact was created, matching the key note exactly. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The Mayflower Compact had 41 signatories, including Samuel Carver, the first governor of Plymouth Colony.&rsquo;</strong>: Provides biographical and numerical details with no mention of why the Compact was created. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Remove irrelevant details",
+      "content": "Choice A describes the Compact as a legal agreement and quotes what the signatories wanted, but it does not state why the agreement was created. Choice B gives the date and the same colony quotation, again without explaining the purpose. Choice D identifies the 41 signatories and Samuel Carver's later role, which are background facts rather than the requested reason."
+    },
+    {
+      "title": "Choose the purpose sentence",
+      "content": "Choice C states that the Mayflower Compact was created to establish a common government among the pilgrims who immigrated to Plymouth Colony. That sentence directly uses the relevant note and accomplishes the student's goal without adding unrelated background. The answer is <strong>C</strong>."
     }
   ]
 }

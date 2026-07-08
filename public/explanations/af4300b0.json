@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context (vocabulary) question. The blank describes the creation process of the film. The decisive clues are &ldquo;painstakingly,&rdquo; &ldquo;three years,&rdquo; and &ldquo;repeatedly had to invent entirely new methods and tools&rdquo; &mdash; all signaling a process demanding great effort and difficulty."
+      "title": "Use the effort clues",
+      "content": "The process took three years, required more than 250,000 individual images, and forced Reiniger's team to invent new methods and tools. Those details point to a process involving great labor and difficulty."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; a haphazard</strong>: &ldquo;Haphazard&rdquo; means random or disorganized. The text describes a meticulous, deliberate process, which is the opposite of haphazard. &#10007;</li><li><strong>Choice B &mdash; a contentious</strong>: &ldquo;Contentious&rdquo; means causing controversy or conflict. The text describes a difficult but collaborative effort with no mention of dispute or argument. &#10007;</li><li><strong>Choice C &mdash; an ineffectual</strong>: &ldquo;Ineffectual&rdquo; means failing to produce the intended result. The text describes a process that ultimately succeeded in producing the film Reiniger envisioned. &#10007;</li><li><strong>Choice D &mdash; an arduous</strong>: &ldquo;Arduous&rdquo; means requiring great effort and endurance. This directly fits &ldquo;painstakingly,&rdquo; three years of work, and repeatedly inventing new tools. &#10003;</li></ul>That is the correct answer."
+      "title": "Reject weaker meanings",
+      "content": "A means disorganized, but the work sounds painstaking. B means conflict-filled, which is not mentioned. C means ineffective, but the film was created successfully. The needed word means requiring great effort. The answer is <strong>D</strong>."
     }
   ]
 }

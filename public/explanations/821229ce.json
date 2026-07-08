@@ -1,0 +1,15 @@
+{
+  "questionId": "821229ce",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the first list item",
+      "content": "The sentence lists three towns: Maseno, Ayem, and Jamame. Because Maseno is the first item in the series, it should be followed by a comma before the next town."
+    },
+    {
+      "title": "Reject wrong separators",
+      "content": "Choice A omits the separator after the first town. Choice B uses a colon without an independent clause before it. Choice C uses a semicolon where a simple list comma is needed. The comma after Maseno fits the series. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "32be24f3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area formula",
+      "content": "The area of a circle with radius $r$ is found by squaring the radius and multiplying by $\\pi$:\n$$\nA=\\pi r^2\n$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Substitute the radius",
+      "content": "The radius is $17$ meters, so square $17$ before multiplying by $\\pi$:\n$$\nA=\\pi(17)^2=289\\pi\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

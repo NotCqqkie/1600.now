@@ -1,0 +1,19 @@
+{
+  "questionId": "d6d49a17",
+  "correctAnswer": "0.866",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the sine ratio",
+      "content": "For angle $A$, sine is the opposite side divided by the hypotenuse. The hypotenuse is $24$, and the adjacent leg is $12$, so the opposite side must be found before evaluating the ratio."
+    },
+    {
+      "title": "Find the opposite side",
+      "content": "Use the Pythagorean theorem with the leg $12$ and hypotenuse $24$:\n$$\n12^2+BC^2=24^2\n$$\n$$\n144+BC^2=576\n$$\n$$\nBC^2=432\n$$\n$$\nBC=12\\sqrt{3}\n$$"
+    },
+    {
+      "title": "Evaluate the sine",
+      "content": "Now substitute the opposite side and hypotenuse into the ratio:\n$$\n\\frac{12\\sqrt{3}}{24}=\\frac{\\sqrt{3}}{2}\n$$\nThat value is about $0.866$. The answer is <strong>0.866</strong>."
+    }
+  ]
+}

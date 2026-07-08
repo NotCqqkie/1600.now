@@ -1,0 +1,15 @@
+{
+  "questionId": "9af4debc",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the product equation",
+      "content": "The product statement gives:<br/>$$x(x-12)=448$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Factor and use the positive solution:<br/>$$x^2-12x-448=0$$<br/>$$(x-28)(x+16)=0$$<br/>The answer is <strong>28</strong>."
+    }
+  ]
+}

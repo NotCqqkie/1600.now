@@ -1,0 +1,15 @@
+{
+  "questionId": "42b65c43",
+  "correctAnswer": "5041",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the quadratic",
+      "content": "If $px+q$ is a factor, write the expression as:\n$$\nax^2+142x+c=(px+q)(rx+s)\n$$\nExpanding gives:\n$$\n(px+q)(rx+s)=prx^2+(ps+qr)x+qs\n$$\nSo $a=pr$, $c=qs$, and $ps+qr=142$."
+    },
+    {
+      "title": "Maximize the product",
+      "content": "Because $ac=(pr)(qs)=(ps)(qr)$, maximize the product of two positive numbers with fixed sum $142$. The product is greatest when the two factors are equal:\n$$\nps=qr=71\n$$\nTherefore:\n$$\nac=(71)(71)=5041\n$$\nThe answer is <strong>5041</strong>."
+    }
+  ]
+}

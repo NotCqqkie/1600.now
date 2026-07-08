@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the maximum value",
-      "content": "The graph of $y=-x^2+bx-841$ opens downward. For the equation to have no real solutions, the graph must stay below the x-axis, so its maximum value must be less than $0$."
+      "title": "Use the discriminant condition",
+      "content": "For a quadratic to have no real solutions, its discriminant must be less than $0$. Here $a=-1$, $b=b$, and $c=-841$.\n$$b^2-4(-1)(-841)<0$$"
     },
     {
-      "title": "Find the boundary",
-      "content": "The vertex occurs at $x=\\frac{b}{2}$. Substitute that value:<br/>$$-\\left(\\frac{b}{2}\\right)^2+b\\left(\\frac{b}{2}\\right)-841=\\frac{b^2}{4}-841$$<br/>No real solutions requires $\\frac{b^2}{4}-841\\lt0$, so $b^2\\lt3364=58^2$."
+      "title": "Solve the inequality",
+      "content": "Simplify the discriminant inequality.\n$$b^2-3{,}364<0$$\n$$b^2<3{,}364$$\n$$b^2<58^2$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "Because $b$ is a positive integer, $b\\lt58$. The greatest possible value is <strong>57</strong>."
+      "title": "Choose the greatest integer",
+      "content": "Since $b$ is a positive integer and $b<58$, the greatest possible value is $57$. The answer is <strong>57</strong>."
     }
   ]
 }

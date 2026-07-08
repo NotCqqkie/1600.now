@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify favorable and total outcomes",
-      "content": "There are $52$ choir singers total, and $13$ of them are altos. The favorable outcomes are the altos."
+      "title": "Identify the outcomes",
+      "content": "There are $52$ choir singers total. The favorable outcomes are the $13$ singers who are altos."
     },
     {
       "title": "Write the probability",
-      "content": "Probability is favorable outcomes over total outcomes: $$P(\\text{alto})=\\frac{13}{52}$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $\\frac{1}{52}$, is one specific choir singer.</li><li>Choice B, $\\frac{13}{52}$, uses the $13$ altos out of $52$ singers. Correct.</li><li>Choice C, $\\frac{39}{52}$, is the probability of not selecting an alto.</li><li>Choice D, $\\frac{52}{52}$, would mean every choir singer is an alto.</li></ul>That confirms <strong>B</strong>."
+      "content": "Probability is favorable outcomes over total outcomes.\n$$P(\\text{alto})=\\frac{13}{52}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

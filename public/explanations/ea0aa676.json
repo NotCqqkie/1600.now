@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a subject-verb agreement question. The subject is <strong>survey</strong> (singular), buried inside the long noun phrase &ldquo;Her exhaustive chromosomal survey of plants in Silent Valley &hellip; (many of which are endangered).&rdquo; The narrative is set in the 1970s, so past tense is required."
+      "title": "Find the singular subject",
+      "content": "The subject of the verb is survey, not plants or species. The long phrase after survey only describes what was surveyed, so the verb must agree with the singular noun survey."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"are\"</strong>: plural verb; cannot agree with the singular subject <em>survey</em>. Also wrong tense (present). &#10007;</li><li><strong>\"were\"</strong>: plural past-tense verb; still disagrees with the singular subject <em>survey</em>. &#10007;</li><li><strong>\"have been\"</strong>: plural present-perfect verb; disagrees with the singular subject <em>survey</em>. &#10007;</li><li><strong>\"was\"</strong>: singular past-tense verb; correctly agrees with the singular subject <em>survey</em>. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Choose singular past tense",
+      "content": "A and C are present-tense forms, and A, B, and C are plural forms that do not agree with the singular subject. The singular past-tense verb fits the subject and the historical context. The answer is <strong>D</strong>."
     }
   ]
 }

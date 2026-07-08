@@ -1,0 +1,15 @@
+{
+  "questionId": "1cfc586d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the modifier parallel",
+      "content": "The phrase <em>enacted in 2010 and ______ three of these features</em> modifies <em>Kyrgyzstan's constitution</em>. The blank needs a participial modifier, not a new finite verb."
+    },
+    {
+      "title": "Avoid finite verbs",
+      "content": "A, B, and D create finite verb forms that disrupt the modifying phrase after <em>constitution</em>. A present participle works in parallel with the existing modifier and describes what the constitution has. The answer is <strong>C</strong>."
+    }
+  ]
+}

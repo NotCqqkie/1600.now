@@ -1,0 +1,19 @@
+{
+  "questionId": "6ab55fd0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for popularity evidence",
+      "content": "The goal is to emphasize how popular <em>The Woman in White</em> became when first published. The strongest note is the record-breaking magazine sales of 100,000 copies per issue."
+    },
+    {
+      "title": "Reject background details",
+      "content": "<ul><li><strong>Choice B</strong> explains why readers anticipated installments but does not quantify popularity.</li><li><strong>Choice C</strong> gives the publication schedule.</li><li><strong>Choice D</strong> gives genre and publication venue without showing popularity.</li></ul>"
+    },
+    {
+      "title": "Use the sales measure",
+      "content": "The remaining choice connects the novel's popularity to record-breaking magazine sales, giving a concrete measure of how popular it became. The answer is <strong>A</strong>."
+    }
+  ]
+}

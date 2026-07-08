@@ -1,0 +1,19 @@
+{
+  "questionId": "ca77c78e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the group increases",
+      "content": "A $47\\%$ increase in advanced riders means multiply $a$ by $1.47$. A $38\\%$ increase in recreational riders means multiply $b$ by $1.38$."
+    },
+    {
+      "title": "Apply the total increase",
+      "content": "The original total number of riders was $40$. A $43\\%$ total increase means the 2022 total is<br/>$$40(1.43)$$"
+    },
+    {
+      "title": "Write the matching equation",
+      "content": "The sum of the two 2022 group counts must equal the 2022 total:<br/>$$1.47a+1.38b=40(1.43)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

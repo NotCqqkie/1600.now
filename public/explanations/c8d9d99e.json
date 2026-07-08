@@ -1,0 +1,15 @@
+{
+  "questionId": "c8d9d99e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two scopes",
+      "content": "Fodor's hypothesis treats low-level systems as modular but not high-level systems. Carruthers's massive modularity hypothesis expands modularity to all cognitive systems. The key comparison is therefore about how broad each definition of modularity is."
+    },
+    {
+      "title": "Reject inaccurate contrasts",
+      "content": "Choice A does not clearly compare the hypotheses. Choice B falsely says Fodor denied innate neural structures. Choice D falsely says they differ over low-level systems, which both treat as modular. The choice about Fodorian modularity being less expansive captures the real scope difference. The answer is <strong>C</strong>."
+    }
+  ]
+}

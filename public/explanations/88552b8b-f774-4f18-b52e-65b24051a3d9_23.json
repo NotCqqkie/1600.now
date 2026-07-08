@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship between the sentences",
-      "content": "Sentence 1: Guard cells help regulate carbon dioxide intake. Sentence 2: Guard cells help regulate water loss. Both sentences describe separate, equal-weight functions of the same cells. Neither qualifies, contradicts, nor concludes the other &mdash; the second simply adds another role alongside the first."
+      "title": "Add a parallel function",
+      "content": "The first sentence says guard cells help regulate carbon dioxide intake. The next sentence gives another function of the same cells: regulating water loss. The relationship is additive, not contrasting, temporal, or concluding."
     },
     {
-      "title": "Test each transition word against that relationship",
-      "content": "<ul><li><strong>Choice A &mdash; In conclusion,</strong>: Signals a final summary that wraps up prior reasoning. The second sentence is not a conclusion drawn from the first; it is a parallel fact. Violates the additive relationship. &#10007;</li><li><strong>Choice B &mdash; Additionally,</strong>: Signals that another piece of information of equal weight is being added. Regulating water loss is a second, separate function alongside regulating CO2 &mdash; exactly an additive relationship. &#10003;</li><li><strong>Choice C &mdash; Instead,</strong>: Signals contrast or replacement &mdash; that the second idea substitutes for the first. Guard cells do both things; regulating water loss does not replace regulating CO2. &#10007;</li><li><strong>Choice D &mdash; Previously,</strong>: Signals a time shift to an earlier point. No temporal contrast exists between these two sentences. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Test transition signals",
+      "content": "Choice A signals a prior time, but no time shift is present. Choice C signals a conclusion, though the sentence adds a second fact. Choice D signals replacement or contrast, but guard cells perform both functions. The answer is <strong>B</strong>."
     }
   ]
 }

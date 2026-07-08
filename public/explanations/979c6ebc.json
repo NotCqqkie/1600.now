@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that both equations represent the same line",
-      "content": "Multiply the first equation by 4:<br/>$$4(7x + 6y) = 4(5)$$<br/>$$28x + 24y = 20$$<br/>This is exactly the second equation, so both describe the same line. Every point on $7x + 6y = 5$ satisfies both equations, giving infinitely many solutions."
+      "title": "Notice the same line",
+      "content": "The second equation is the first equation multiplied by $4$.\n$$\n4(7x+6y)=4(5)\n$$\n$$\n28x+24y=20\n$$\nSo any point on $7x+6y=5$ lies on both graphs."
     },
     {
-      "title": "Parametrize the line by solving for x in terms of y",
-      "content": "Define $L(x,y)=7x+6y$. A correct parametrization must make $L(x,y)=5$ for every value of $r$. Set $r=[0,1]$ and evaluate each choice. The row for choice D returns $[5,5]$, so it stays on the solution line for both tested values.",
+      "title": "Use the parameter as y",
+      "content": "Let $y=r$ in the simpler equation and solve for $x$.\n$$\n7x+6r=5\n$$\n$$\n7x=5-6r\n$$\n$$\nx=-\\frac{6r}{7}+\\frac{5}{7}\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Define $L(x,y)=7x+6y$ and test each parameterized point. The matching point form keeps $L(x,y)=5$ for every value of $r$. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "L(x,y)=7x+6y"
       ]
-    },
-    {
-      "title": "Confirm choice D",
-      "content": "For choice D, $x=-\\frac{6r}{7}+\\frac{5}{7}$ and $y=r$. Substituting gives $7\\left(-\\frac{6r}{7}+\\frac{5}{7}\\right)+6r=-6r+5+6r=5$, true for every $r$. <strong>D</strong> is correct."
     }
   ]
 }

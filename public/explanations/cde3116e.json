@@ -1,0 +1,15 @@
+{
+  "questionId": "cde3116e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each distance",
+      "content": "Walking for $w$ hours at $3$ miles per hour gives $3w$ miles. Running for $r$ hours at $8$ miles per hour gives $8r$ miles."
+    },
+    {
+      "title": "Add to the total distance",
+      "content": "The combined distance is $17$ miles, so<br/>$$3w+8r=17$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

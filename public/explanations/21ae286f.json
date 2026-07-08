@@ -1,0 +1,15 @@
+{
+  "questionId": "21ae286f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph direction",
+      "content": "The graph falls from left to right, so the slope is negative. That eliminates the choices with positive slopes."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Using the marked points $(0,-5)$ and $(7,-8)$, the slope is\n$$\n\\frac{-8-(-5)}{7-0}=-\\frac{3}{7}\n$$\nThe $y$-intercept is $-5$, so the equation is\n$$\nf(x)=-\\frac{3}{7}x-5\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

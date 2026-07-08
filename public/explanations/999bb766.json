@@ -1,0 +1,15 @@
+{
+  "questionId": "999bb766",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $0$ in the function because the question asks for $d(0)$.<br/>$$d(0)=180-7(0)$$"
+    },
+    {
+      "title": "Compute the value",
+      "content": "Simplify the expression after substitution.<br/>$$d(0)=180-0$$<br/>$$d(0)=180$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

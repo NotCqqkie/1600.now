@@ -1,0 +1,15 @@
+{
+  "questionId": "4c7ac0c1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim to example",
+      "content": "The first sentence makes a general claim about mushroom species containing phenolic compounds. The second gives specific detections of protocatechuic acid and biochanin in named mushrooms, so it illustrates the claim."
+    },
+    {
+      "title": "Reject contrast and cause",
+      "content": "A and B signal contrast, but the sentences agree. C signals a result, but Costa's detections are evidence, not an effect caused by the first sentence. The transition should introduce an illustration. The answer is <strong>D</strong>."
+    }
+  ]
+}

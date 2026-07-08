@@ -1,0 +1,22 @@
+{
+  "questionId": "1a311b90",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "Line $k$ has slope $m$. Since line $l$ is perpendicular to line $k$, the slope of line $l$ is the negative reciprocal.<br/>$$-1/m$$"
+    },
+    {
+      "title": "Use the shared point",
+      "content": "Line $l$ passes through $(2,8)$, so its point-slope equation can use that point and the perpendicular slope.<br/>$$y-8=(-1/m)(x-2)$$"
+    },
+    {
+      "title": "Evaluate the new point",
+      "content": "For a point with $x=3$, substitute $3$ into the equation.<br/>$$y-8=(-1/m)(3-2)$$<br/>$$y=8-1/m$$<br/>The point is $(3,8-1/m)$. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "(2, 8)"
+      ]
+    }
+  ]
+}

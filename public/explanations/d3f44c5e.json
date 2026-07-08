@@ -1,0 +1,19 @@
+{
+  "questionId": "d3f44c5e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the time shift",
+      "content": "The first sentence describes what scientists thought in 1929. The next sentence says the plant discovery would not come until decades later, so the transition must signal a later development."
+    },
+    {
+      "title": "Remove the wrong signals",
+      "content": "<ul><li><strong>Choice A</strong> signals restatement, but the plant discovery is not a restatement of the animal-only assumption.</li><li><strong>Choice B</strong> signals an example, not a later contradiction.</li><li><strong>Choice D</strong> points backward in time, while the discovery came later.</li></ul>"
+    },
+    {
+      "title": "Mark the later discovery",
+      "content": "Eventually signals movement to a later point in time and matches the phrase decades later. The answer is <strong>C</strong>."
+    }
+  ]
+}

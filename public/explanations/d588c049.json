@@ -1,0 +1,15 @@
+{
+  "questionId": "d588c049",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with the volume range",
+      "content": "The estimated volume is greater than $12.4$ cubic feet and less than $16.4$ cubic feet:\n$$\n12.4<V<16.4\n$$"
+    },
+    {
+      "title": "Convert volume to weight",
+      "content": "The boulder weighs $150$ pounds per cubic foot, so multiply all parts of the inequality by positive $150$:\n$$\n150(12.4)<x<150(16.4)\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

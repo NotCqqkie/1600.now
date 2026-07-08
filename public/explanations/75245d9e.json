@@ -1,0 +1,15 @@
+{
+  "questionId": "75245d9e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match subject and tense",
+      "content": "The subject of the sentence is Pomo artist Corine Pearce, a singular person. Because the sentence describes what she typically does, the verb should be a present-tense singular verb."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A gives a gerund, leaving the sentence without the needed main verb. Choice C gives an infinitive that does not complete the sentence. Choice D gives a passive infinitive phrase, which also fails as the main verb. The answer is <strong>B</strong>."
+    }
+  ]
+}

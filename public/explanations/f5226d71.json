@@ -1,0 +1,15 @@
+{
+  "questionId": "f5226d71",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect friction to system damage",
+      "content": "The passage says friction increases energy use and causes wear in vehicle transmissions and other mechanical systems. Rao's coating reduces friction until it is nearly nonexistent and is suitable for common applications."
+    },
+    {
+      "title": "Reject limits the passage denies",
+      "content": "A denies reduced wear, and B says the coating requires special conditions; both contradict the passage. D excludes vehicle transmissions even though they are introduced as a relevant mechanical system. The supported inference combines broad use with reduced energy use and wear. The answer is <strong>C</strong>."
+    }
+  ]
+}

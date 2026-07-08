@@ -1,0 +1,15 @@
+{
+  "questionId": "0384ad2a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested Choctaw name",
+      "content": "The student wants the cup's name in Choctaw. The notes give that specific term, <em>isht ishko</em>, and identify the object as a clay cup in the Hina Hanta archive."
+    },
+    {
+      "title": "Reject archive-only details",
+      "content": "A mentions the cup but not its Choctaw name. C gives the meaning of Hina Hanta and says the archive includes a cup, but it omits the cup's name. D explains only the archive's name. The answer is <strong>B</strong>."
+    }
+  ]
+}

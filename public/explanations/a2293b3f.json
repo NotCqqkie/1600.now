@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the subject-verb boundary",
-      "content": "The blank sits between <em>instrument</em> (the last word of the subject &ldquo;the strings inside the instrument&rdquo;) and <em>are plucked</em> (the main verb phrase). The question is whether any punctuation belongs at that boundary."
+      "title": "Locate the subject and verb",
+      "content": "The subject is the strings inside the instrument, and the main verb phrase is are plucked. Standard English does not place punctuation between a subject and its immediately following verb."
     },
     {
-      "title": "Apply the subject-verb punctuation rule",
-      "content": "Standard English does not allow punctuation between a subject and its immediately following main verb.\n<ul>\n<li><strong>Choice A &mdash; instrument:</strong>: a colon between subject and verb violates this rule. &#10007;</li>\n<li><strong>Choice B &mdash; instrument</strong>: no punctuation; the subject connects directly to the verb, conforming to Standard English. &#10003;</li>\n<li><strong>Choice C &mdash; instrument—</strong>: a dash between subject and verb violates this rule. &#10007;</li>\n<li><strong>Choice D &mdash; instrument,</strong>: a comma between subject and verb violates this rule. &#10007;</li>\n</ul>\nThat confirms <strong>B</strong> is correct."
+      "title": "Reject boundary punctuation",
+      "content": "A inserts a colon, C inserts a dash, and D inserts a comma between the subject and verb. Each breaks the subject-verb connection. The sentence needs no punctuation after instrument. The answer is <strong>B</strong>."
     }
   ]
 }

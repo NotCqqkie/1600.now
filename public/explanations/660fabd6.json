@@ -1,0 +1,15 @@
+{
+  "questionId": "660fabd6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the unit conversion",
+      "content": "The question gives $1$ kilogram as $1{,}000$ grams. To convert kilograms to grams, multiply by $1{,}000$."
+    },
+    {
+      "title": "Convert the mass",
+      "content": "Apply the conversion to $42$ kilograms.<br/>$$42\\cdot1{,}000=42{,}000$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

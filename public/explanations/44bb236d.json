@@ -1,0 +1,15 @@
+{
+  "questionId": "44bb236d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Classify the forest",
+      "content": "The passage gives two model errors: in large forests, large-mammal predictions are too high; in small forests, small-mammal predictions are too high. Tongass is explicitly a large forest, so the large-forest rule applies."
+    },
+    {
+      "title": "Apply the model rule",
+      "content": "A applies the small-forest rule to small mammals, C introduces predator-prey relationships that are not mentioned, and D shifts to factors the model reflects rather than the stated prediction error. For Tongass, the model would overestimate large-mammal population sizes. The answer is <strong>B</strong>."
+    }
+  ]
+}

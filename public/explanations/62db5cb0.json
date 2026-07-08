@@ -1,0 +1,15 @@
+{
+  "questionId": "62db5cb0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the number contrast",
+      "content": "The student's goal is to contrast the number of haiku in two poems. The relevant notes say one poem contains five haiku and the other contains fifteen."
+    },
+    {
+      "title": "Use the count comparison",
+      "content": "A discusses the collection's themes, C adds unsupported subject claims, and D only says both poems are in the same book. The needed choice directly compares the two counts, five versus fifteen, using whereas. The answer is <strong>B</strong>."
+    }
+  ]
+}

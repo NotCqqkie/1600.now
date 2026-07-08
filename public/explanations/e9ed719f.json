@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the table total",
-      "content": "The table has $100$ tiles total. The red-tile total is $30$."
+      "title": "Read the table counts",
+      "content": "The table has $100$ tiles total, and $30$ of the tiles are red."
     },
     {
-      "title": "Use favorable over total",
-      "content": "The probability of selecting a red tile is $$\\frac{\\text{red tiles}}{\\text{total tiles}}=\\frac{30}{100}=\\frac{3}{10}=0.3$$"
-    },
-    {
-      "title": "Confirm the grid-in answer",
-      "content": "The free-response box can accept $0.3$, $.3$, or $\\frac{3}{10}$. Since the stored correct answer is $0.3$, enter $0.3$."
+      "title": "Find the probability",
+      "content": "The probability is favorable outcomes divided by total outcomes:<br/>$$\\frac{30}{100}=0.3$$<br/>The answer is <strong>0.3</strong>."
     }
   ]
 }

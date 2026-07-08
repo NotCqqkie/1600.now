@@ -1,0 +1,15 @@
+{
+  "questionId": "d9668297",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to detail",
+      "content": "The first sentence makes a general claim about Leo Carver's intricate costume design. The second sentence points to the blue rhinestones as a specific feature that shows his careful attention to detail."
+    },
+    {
+      "title": "Reject time and contrast",
+      "content": "A and C signal time sequence, but the rhinestones are not a later event. D signals contrast, but the rhinestones support the claim about Carver's talent instead of opposing it. The answer is <strong>B</strong>."
+    }
+  ]
+}

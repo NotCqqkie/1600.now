@@ -1,0 +1,20 @@
+{
+  "questionId": "0c39941d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the radius",
+      "content": "Segment $QS$ is a diameter of the circle, and its length is $76$ millimeters. Segment $CR$ goes from the center $C$ to point $R$ on the circle, so $CR$ is a radius."
+    },
+    {
+      "title": "Use half the diameter",
+      "content": "A radius is half the length of a diameter. Therefore, the length of $CR$ is $$CR=\\frac{76}{2}=38$$",
+      "formula": "$$\\text{radius} = \\frac{\\text{diameter}}{2}$$"
+    },
+    {
+      "title": "State the requested length",
+      "content": "The requested segment is $CR$, so its length is $38$ millimeters. This is the radius of the circle with diameter $76$ millimeters. The answer is <strong>C</strong>."
+    }
+  ]
+}

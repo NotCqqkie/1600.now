@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a command of evidence question. The decisive clue is that <em>Gidra</em> had an \"expansive reach\" despite only printing 4,000 copies per month, so the correct choice must explain how influence outpaced circulation."
+      "title": "Support influence beyond copies",
+      "content": "The student's hypothesis is that <em>Gidra</em>'s influence cannot be measured only by the 4,000 newsletters printed each month. A supporting finding must show that readership or reach could extend beyond the number of copies."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The students who initially formed <em>Gidra</em> each contributed financially to its creation.\"</strong>: Funding sources say nothing about how the newsletter's reach exceeded its print run. &#10007;</li><li><strong>\"In addition to covering current events, <em>Gidra</em> also featured works of art and literature.\"</strong>: Content variety does not explain how 4,000 copies could influence more than 4,000 people. &#10007;</li><li><strong>\"<em>Gidra</em> was initially based out of the Asian American Studies Center at UC Berkeley.\"</strong>: Physical location tells us nothing about circulation or extended readership. &#10007;</li><li><strong>\"People would often give their copies of <em>Gidra</em> to others once they had finished reading an issue.\"</strong>: If each copy passed through multiple hands, actual readers would far exceed 4,000 — directly explaining the \"expansive reach.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject details about creation or content",
+      "content": "Choice A concerns funding. Choice B concerns art and literature in the newsletter. Choice C gives a location at UC Berkeley. None shows reach beyond circulation. If readers passed copies to others, one copy could influence multiple people. The answer is <strong>D</strong>."
     }
   ]
 }

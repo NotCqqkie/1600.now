@@ -1,0 +1,15 @@
+{
+  "questionId": "f10c50ff",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtract every term inside the parentheses. The minus sign changes the signs of $8x^6$, $6x$, and $-5$:<br/><br/>$$6x^3-4x+7-(8x^6+6x-5)$$<br/>$$=6x^3-4x+7-8x^6-6x+5$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group terms with the same powers:<br/><br/>$$-8x^6+6x^3+(-4x-6x)+(7+5)$$<br/>$$=-8x^6+6x^3-10x+12$$<br/><br/>So the equivalent expression must have an $x^6$ term of $-8x^6$, an $x^3$ term of $6x^3$, an $x$ term of $-10x$, and a constant term of $12$. The answer is <strong>B</strong>."
+    }
+  ]
+}

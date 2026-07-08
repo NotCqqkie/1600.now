@@ -1,0 +1,15 @@
+{
+  "questionId": "f687ee4f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the exception",
+      "content": "The first sentence says many adjectives share an origin with their associated nouns. The next sentence says some adjectives do not. The transition must introduce an exception or contrast to the general pattern."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals later time. Choice B signals cause and effect, but the exception is not caused by the shared-origin pattern. Choice D signals a more specific example of the same point, not an exception. The answer is <strong>C</strong>."
+    }
+  ]
+}

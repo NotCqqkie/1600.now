@@ -1,0 +1,19 @@
+{
+  "questionId": "ed9ddd50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Frame Einstein in context",
+      "content": "The task is to place Einstein's argument in historical context. The notes identify the setting as the 1927 Solvay Conference during the emerging field of quantum theory, then contrast Einstein's position with Bohr's. The explanation must include what Einstein argued and show how that argument related to the competing view that later became dominant."
+    },
+    {
+      "title": "Remove incomplete options",
+      "content": "<ul><li><strong>Choice B - 'The attendees of the 1927 Solvay Conference were among the preeminent scientists of their era, including Einstein, who opposed Bohr's proposal.'</strong>: This gives the conference setting and says Einstein opposed Bohr, but it never explains Einstein's actual claim about the independent reality of subatomic entities. It also leaves out the later historical outcome.</li><li><strong>Choice C - 'In 1927, Einstein and Bohr engaged in a famous debate; Bohr's argument, later called the Copenhagen interpretation, would remain popular for decades afterward.'</strong>: This gives the date and Bohr's later influence, but it centers Bohr instead of Einstein and does not state Einstein's argument.</li></ul>"
+    },
+    {
+      "title": "Choose the contextual claim",
+      "content": "<ul><li><strong>Choice D - 'At the 1927 Solvay Conference on Physics, Einstein disagreed with Bohr's argument that subatomic entities like electrons had a reality independent of observation.'</strong>: This reverses the notes. Einstein, not Bohr, argued that subatomic entities had a reality independent of observation.</li><li><strong>Choice A - 'During the dawn of quantum theory, Einstein maintained the independent reality of some subatomic entities, although Bohr's opposing interpretation would become the widely accepted view.'</strong>: This states the era, correctly identifies Einstein's position, names Bohr's view as opposing, and gives the later historical outcome. The answer is <strong>A</strong>.</li></ul>"
+    }
+  ]
+}

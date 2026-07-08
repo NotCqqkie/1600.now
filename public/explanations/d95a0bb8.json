@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical gap",
-      "content": "The passage explains that observational data for Titan's methane mole fraction are \"too sparse and discrepant,\" so the IPSL model's developers prescribed a uniform value instead of a realistic range. The blank must state a logical consequence of that simplification."
+      "title": "Identify the model limit",
+      "content": "Titan's methane mole fraction affects precipitation and humidity, but observations are too sparse and discrepant to fully constrain its range at different atmospheric levels. The IPSL model responds to that uncertainty by prescribing one uniform methane value for the lowest atmospheric level."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"some disagreements between the model's simulations of Titan's precipitation and humidity and the moon's actual precipitation and humidity are to be expected.\"</strong>: follows directly &mdash; a uniform methane value is almost certainly an oversimplification, so the model's precipitation and humidity outputs will not perfectly match Titan's reality. &#10003;</li><li><strong>\"further observations of Titan may clarify the moon's methane mole fraction sufficiently for the model to employ a single value rather than a range.\"</strong>: contradicts the passage &mdash; the model already uses a single uniform value, not a range; and the text suggests a uniform value is a limitation, not a goal. &#10007;</li><li><strong>\"even though the model's outputs sometimes agree with observational data, Titan's real methane mole fraction is likely higher than the methane mole fraction used in the model.\"</strong>: unsupported &mdash; the passage gives no basis for concluding the actual value is higher; \"lowest level\" in the text refers to an atmospheric layer, not a low mole fraction. &#10007;</li><li><strong>\"inconsistencies across the model's simulations of Titan's precipitation and humidity could be attributable to variations in the moon's methane mole fraction.\"</strong>: contradicts the passage &mdash; because the model applies a uniform mole fraction, any inconsistencies in its simulations cannot be traced to actual variations in Titan's methane mole fraction. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject unsupported effects",
+      "content": "Choice B says future observations may let the model use a single value, but the model already uses one. Choice C claims Titan's real value is higher than the model's value, which the text never supports. Choice D blames inconsistencies on variations the model does not include."
+    },
+    {
+      "title": "Choose the expected mismatch",
+      "content": "Because a simplified uniform methane value is used for something that affects precipitation and humidity, some mismatch between the model's simulated weather and Titan's actual weather is to be expected. The answer is <strong>A</strong>."
     }
   ]
 }

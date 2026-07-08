@@ -1,0 +1,15 @@
+{
+  "questionId": "091a0c0b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the underestimate logic",
+      "content": "The proposed explanation is conditional: if clustered camera trapping and GPS collar tracking tend to underestimate cougar density, then a study using those methods should be the one with a notably low density estimate. The data must connect both the method and the reported maximum density."
+    },
+    {
+      "title": "Match method to low result",
+      "content": "Murphy and colleagues used the named methods and reported a maximum density of only 1.65 individuals per 100 square kilometers, lower than several other studies in the table. Choice A relies on a comparison involving biopsy darting, which is not one of the suspected underestimating methods. Choice C compares study-area size rather than density, and Choice D gives a high density rather than an underestimated one. The answer is <strong>B</strong>."
+    }
+  ]
+}

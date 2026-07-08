@@ -1,0 +1,15 @@
+{
+  "questionId": "f4c548b6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the claim's contrast",
+      "content": "The student's claim is that California's climate makes irrigation essential in some parts of the state but not in others. The best quotation must connect irrigation need to regional climate differences."
+    },
+    {
+      "title": "Exclude general irrigation facts",
+      "content": "Choice B discusses ancient irrigation design in Arizona and California, not California climate. Choice C describes sprinkler systems used throughout California. Choice D states that irrigation infrastructure is important statewide, not that need varies by region. The answer is <strong>A</strong>."
+    }
+  ]
+}

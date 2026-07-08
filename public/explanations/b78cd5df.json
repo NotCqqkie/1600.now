@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the cost inequality",
-      "content": "Let $a$ be the number of attendees. The total cost is the one-time venue fee plus the per-attendee cost:<br/>$$40 + 9.50a \\leq 300$$"
+      "title": "Write the budget inequality",
+      "content": "Let $a$ be the number of attendees. The total cost is the fixed venue fee plus the cost per attendee:<br/>$$40+9.50a \\leq 300$$"
     },
     {
-      "title": "Solve for the maximum integer value",
-      "content": "Subtract 40:<br/>$$9.50a \\leq 260$$<br/>Divide by 9.50 (which is $\\frac{19}{2}$):<br/>$$a \\leq \\frac{260 \\times 2}{19} = \\frac{520}{19}$$<br/>Since $19 \\times 27 = 513$ and $520 - 513 = 7$, we have $a \\leq 27 + \\frac{7}{19} \\approx 27.37$<br/>The number of attendees must be a whole number, so the greatest value is <strong>27</strong>. Verify: $40 + 9.50(27) = 296.50 \\leq 300$ &#10003;"
+      "title": "Find the largest whole count",
+      "content": "Subtract $40$ from both sides and divide by $9.50$:<br/>$$9.50a\\leq 260$$<br/>$$a\\leq \\frac{260}{9.50}$$<br/>$$a\\leq 27.368$$The attendee count must be a whole number, so round down to avoid exceeding the budget. The answer is <strong>27</strong>."
     }
   ]
 }

@@ -4,17 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Triangle LMN has LM = x, MN = x, and NL = y. The three sides sum to x + x + y = 2x + y."
+      "title": "Add the side lengths",
+      "content": "Sides $LM$ and $MN$ each have length $x$, and side $NL$ has length $y$. The sum of the three side lengths is\n$$\nx+x+y=2x+y\n$$"
     },
     {
-      "title": "Step 2",
-      "content": "The equation 2x + y = 49 equates the perimeter to 49. So 49 is the sum of the lengths of all three sides."
+      "title": "Interpret the equation",
+      "content": "The equation\n$$\n2x+y=49\n$$\nshows that $49$ is the total of the three side lengths, which is the triangle's perimeter."
     },
     {
-      "title": "Step 3",
-      "content": "This matches the definition of perimeter: the total distance around the triangle."
+      "title": "Match the statement",
+      "content": "The choice that describes the sum of the lengths of the three sides matches this interpretation. The answer is <strong>C</strong>."
     }
-  ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; The difference, in centimeters, between the lengths of sides $LM$ and $NL$</strong>: The equation adds all sides, not subtracts any two. &#10007;</li><li><strong>Choice B &mdash; The difference, in centimeters, between the lengths of sides $LM$ and $MN$</strong>: LM and MN are both x, so their difference is 0, not 49. &#10007;</li><li><strong>Choice C &mdash; The sum of the lengths, in centimeters, of the three sides of the triangle</strong>: 2x + y = x + x + y = LM + MN + NL = perimeter = 49. &#10003;</li><li><strong>Choice D &mdash; The length, in centimeters, of one of the two sides of equal length</strong>: That would be x, not 49, which is the full sum. &#10007;</li></ul><strong>C</strong> is correct."
+  ]
 }

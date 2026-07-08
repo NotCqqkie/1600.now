@@ -1,0 +1,19 @@
+{
+  "questionId": "ff5ffd4e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero at negative two",
+      "content": "The point $(-2,0)$ is on the graph, so $x=-2$ is a zero of $f$. In $f(x)=(x-6)(x-10)(x+k)$, the zero from the last factor is $x=-k$."
+    },
+    {
+      "title": "Find k",
+      "content": "Set the last zero equal to $-2$.\n$$-k=-2$$\n$$k=2$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $x=0$ and $k=2$.\n$$f(0)=(0-6)(0-10)(0+2)=(-6)(-10)(2)=120$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

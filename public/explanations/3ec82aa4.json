@@ -1,0 +1,15 @@
+{
+  "questionId": "3ec82aa4",
+  "correctAnswer": "20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the purchase equation",
+      "content": "Let $p$ be the original price of one hoodie. Seven hoodies cost $7p$ dollars before the coupon, and the $35$-dollar coupon leaves a final cost of $105$:\n$$\n7p-35=105\n$$"
+    },
+    {
+      "title": "Solve for one hoodie",
+      "content": "Add $35$ to both sides and divide by $7$:\n$$\n7p=140\n$$\n$$\np=20\n$$\nThe answer is <strong>20</strong>."
+    }
+  ]
+}

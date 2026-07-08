@@ -1,0 +1,15 @@
+{
+  "questionId": "ee50eda4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the though clause",
+      "content": "The sentence says OHD requires careful calibration based on context and composition, though several factors affect rind growth. The word \"though\" introduces a dependent contrast clause."
+    },
+    {
+      "title": "Do not split the clause",
+      "content": "A incorrectly separates \"though\" from the clause it introduces. B puts a colon before a subordinating conjunction. C uses a semicolon before a dependent clause. No punctuation is needed between \"composition\" and \"though.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

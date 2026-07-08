@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the replicated pattern",
-      "content": "The passage establishes a language-region correlation in China (Mandarin in the north, Cantonese and Fuzhounese in the south) and then shows the same correlation emerging in NYC (Mandarin speakers from northern China settling in one area, southern language speakers in another).<br/><br/>This replication of the original-country pattern is the signal."
+      "title": "Follow the migration pattern",
+      "content": "The passage connects regions of China with different first languages and then shows similar language-region clustering among Chinese immigrants in New York City. The inference should describe that replicated pattern, not language change or country size."
     },
     {
-      "title": "Connect to the answer",
-      "content": "Choice D (&lsquo;correlations in a country between languages and regions where they are spoken can replicate themselves in a new country to which the original country's citizens emigrate.&rsquo;) states that regional language correlations can replicate in a new country when people emigrate—precisely what the passage shows.<br/><br/>The other choices make unrelated claims about how rapidly languages change, how they differ across locations, and whether country size correlates with language diversity.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject unrelated claims",
+      "content": "Choice A discusses how rapidly languages change. Choice B discusses differences between immigrant languages and origin-country languages. Choice C discusses country size and language diversity. The remaining choice states that regional language correlations can repeat after people emigrate. The answer is <strong>D</strong>."
     }
   ]
 }

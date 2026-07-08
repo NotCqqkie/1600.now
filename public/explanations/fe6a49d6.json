@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the graph shows",
-      "content": "The y-axis labeled Frequency represents how many containers have each number of walnuts. The x-axis shows the number of walnuts per container. To find the answer, we locate the bar for 78 walnuts and read its height on the frequency axis."
+      "title": "Read the correct bar",
+      "content": "The horizontal axis gives the number of walnuts per container, and the vertical axis gives the number of containers. Find the bar labeled $78$ on the horizontal axis."
     },
     {
-      "title": "Read the frequency for 78 walnuts",
-      "content": "The bar above 78 on the x-axis reaches a height of 7 on the frequency scale. This means 7 containers contain exactly 78 walnuts. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Use its frequency",
+      "content": "The bar for $78$ walnuts has height $7$, meaning $7$ containers contain exactly $78$ walnuts. The answer is <strong>B</strong>."
     }
   ]
 }

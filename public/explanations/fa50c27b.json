@@ -1,0 +1,15 @@
+{
+  "questionId": "fa50c27b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare to circle form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation\n$$(x-h)^2+(y-k)^2=r^2$$\nThe signs inside the parentheses show the coordinates of the center, and the number on the right is the radius squared."
+    },
+    {
+      "title": "Read center and radius",
+      "content": "Compare the given equation.\n$$(x-11)^2+(y-k)^2=64$$\nThe $x$-coordinate of the center is $11$, the $y$-coordinate is $k$, and\n$$r=\\sqrt{64}=8$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

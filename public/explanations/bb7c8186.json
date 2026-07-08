@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the percent-of-100 shortcut",
-      "content": "When the number is $100$, a percent of it is especially fast: $34\\%$ of $100$ is just $34$."
+      "title": "Convert the percent",
+      "content": "Write $34\\%$ as a fraction and multiply by $100$.<br/>$$34\\%=\\frac{34}{100}$$<br/>$$\\frac{34}{100}\\cdot100=34$$"
     },
     {
-      "title": "Check with multiplication",
-      "content": "The formal calculation gives the same result: $$34\\%=\\frac{34}{100}$$ $$\\frac{34}{100}\\cdot 100=34$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $34$, is $34\\%$ of $100$. Correct.</li><li>Choice B, $68$, would be $68\\%$ of $100$.</li><li>Choice C, $66$, is $34\\%$ less than $100$, not $34\\%$ of $100$.</li><li>Choice D, $134$, is $34\\%$ greater than $100$, not $34\\%$ of $100$.</li></ul>That is the correct answer."
+      "title": "Match the value",
+      "content": "Since the base is $100$, the percent value is the same number. $34\\%$ of $100$ is $34$. The answer is <strong>A</strong>."
     }
   ]
 }

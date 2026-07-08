@@ -1,0 +1,15 @@
+{
+  "questionId": "e3c01755",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject is \"The writer Maya Angelou.\" The phrase \"along with others such as Lorenzo Thomas and Gwendolyn Brooks\" adds parenthetical information and does not make the subject plural. The verb therefore needs to agree with the singular subject."
+    },
+    {
+      "title": "Match the singular subject",
+      "content": "<ul><li><strong>Choice B</strong>: \"Are\" is plural, so it does not agree with the singular subject Maya Angelou.</li><li><strong>Choice C</strong>: \"Were\" is also plural and shifts away from the sentence's present-tense statement about a continuing association.</li><li><strong>Choice D</strong>: \"Have been\" is plural, so it does not agree with the singular subject.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

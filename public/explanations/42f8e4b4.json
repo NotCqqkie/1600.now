@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the polynomial",
-      "content": "Start by factoring out the greatest common factor: $$2x^3+38x^2+168x=2x(x^2+19x+84).$$ The quadratic factors because $7\\cdot12=84$ and $7+12=19$: $$2x(x^2+19x+84)=2x(x+7)(x+12).$$"
+      "title": "Factor out the common term",
+      "content": "Each term has a factor of $2x$.\n$$\n2x^3+38x^2+168x=2x(x^2+19x+84)\n$$"
     },
     {
-      "title": "Convert roots to factors",
-      "content": "The negative roots $-7$ and $-12$ correspond to factors $x+7$ and $x+12$. Therefore the possible positive values of $b$ are $7$ and $12$. The smallest possible value is <strong>$7$</strong>."
+      "title": "Factor the quadratic",
+      "content": "Find two positive numbers with product $84$ and sum $19$.\n$$\nx^2+19x+84=(x+7)(x+12)\n$$\nSo the original expression factors as\n$$\n2x(x+7)(x+12)\n$$"
+    },
+    {
+      "title": "Choose the smallest constant",
+      "content": "The factors of the form $x+b$ are $x+7$ and $x+12$, so the possible positive values of $b$ are $7$ and $12$. The answer is <strong>7</strong>."
     }
   ]
 }

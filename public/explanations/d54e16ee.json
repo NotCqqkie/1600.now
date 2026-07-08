@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the parallel structure",
-      "content": "The passage first describes a product monopsony (single buyer forces lower prices), then introduces a labor monopsony scenario with a parallel effect (employers force lower wages).<br/><br/>The structure compares two equivalent cases with the same underlying dynamic, signaling that we need a transition showing similarity or parallel relationship."
+      "title": "Identify the parallel cases",
+      "content": "The passage first describes a product monopsony: a single buyer can force sellers to lower prices. It then describes a labor monopsony with the same kind of effect: employers can force workers to accept lower wages."
     },
     {
-      "title": "Select the transition signaling similarity",
-      "content": "<strong>Similarly,</strong> is correct."
+      "title": "Choose similarity",
+      "content": "The second sentence presents a parallel situation, so the transition must signal similarity. The answer is <strong>C</strong>."
     }
   ]
 }

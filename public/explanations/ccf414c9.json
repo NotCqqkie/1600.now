@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the comparison must show",
-      "content": "The passage claims e-books succeeded with fiction genres (read straight through) but were significantly less successful with nonfiction reference genres (flip back and forth). The blank asks for a comparison that <em>illustrates this claim</em>. The comparison must pit a fiction genre against a nonfiction/reference genre in the same time period &mdash; and the fiction genre's e-book share must be higher."
+      "title": "Set up the comparison",
+      "content": "The claim is not just that e-books became more popular over time. It is that e-books were more commercially successful for straight-through fiction genres than for nonfiction genres that readers use by flipping back and forth. The data should therefore compare one fiction genre with one nonfiction reference-style genre, preferably in the same year."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each choice against the requirement of a fiction-vs.-reference cross-genre comparison:<ul><li><strong>Choice A &mdash; the percentage of 2016 cookbook sales that were e-books with the percentage of 2016 science fiction and fantasy sales that were e-books.</strong>: cookbooks are a nonfiction reference genre (flip back and forth); science fiction and fantasy is a straight-through fiction genre. The 2016 e-book share for sci-fi/fantasy (36.7%) is 3.5 times higher than for cookbooks (10.5%) &mdash; directly illustrates the claim. &#10003;</li><li><strong>Choice B &mdash; the percentage of 2006 romance sales that were e-books with the percentage of 2016 romance sales that were e-books.</strong>: both data points are the same genre (romance), so this shows growth over time within one fiction genre, not a fiction-vs.-reference contrast. &#10007;</li><li><strong>Choice C &mdash; the percentage of 2006 romance sales that were e-books with the 2006 science fiction and fantasy sales that were e-books.</strong>: both romance and sci-fi/fantasy are straight-through fiction genres &mdash; no reference genre to compare against, so the claim cannot be illustrated. &#10007;</li><li><strong>Choice D &mdash; the percentage of 2011 travel guide sales that were e-books with the percentage of 2016 travel guide sales that were e-books.</strong>: both data points are the same genre (travel guides), showing growth within one nonfiction genre over time, not a cross-genre comparison. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject same-category checks",
+      "content": "<ul><li><strong>Choice B</strong> compares 2006 romance sales with 2016 romance sales, so it shows change within one fiction genre.</li><li><strong>Choice C</strong> compares romance with science fiction and fantasy, but both are fiction genres meant to be read straight through.</li><li><strong>Choice D</strong> compares 2011 travel guide sales with 2016 travel guide sales, so it shows change within one nonfiction genre.</li></ul>"
+    },
+    {
+      "title": "Compare fiction to reference",
+      "content": "Cookbooks are nonfiction books that readers often consult out of order, while science fiction and fantasy books are story-based works typically read from beginning to end. In 2016, e-books were 10.5% of cookbook sales but 36.7% of science fiction and fantasy sales, directly illustrating the claimed contrast. The answer is <strong>A</strong>."
     }
   ]
 }

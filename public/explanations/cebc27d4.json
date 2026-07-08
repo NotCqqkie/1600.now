@@ -1,0 +1,15 @@
+{
+  "questionId": "cebc27d4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect threat to priority",
+      "content": "Text 1 says northern wild rice faces significantly worse climate outcomes, while white-tailed deer should withstand the predicted warming and likely will not need the same conservation efforts. Text 2 says agencies should prioritize the species most threatened."
+    },
+    {
+      "title": "Remove unsupported options",
+      "content": "A calls for immediate programs for both species, which ignores the different threat levels. C shifts to preventing temperature increases, a topic neither text addresses. D adds a claim about combining agency resources with tribal knowledge that the texts do not make. The answer is <strong>B</strong>."
+    }
+  ]
+}

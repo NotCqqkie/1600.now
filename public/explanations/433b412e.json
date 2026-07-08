@@ -1,0 +1,19 @@
+{
+  "questionId": "433b412e",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant",
+      "content": "A quadratic has no real solution when its discriminant is negative. For $-3x^2+bx-27=0$, use $a=-3$ and $c=-27$:\n$$\nb^2-4(-3)(-27)<0\n$$"
+    },
+    {
+      "title": "Find the allowed values",
+      "content": "Simplify the inequality:\n$$\nb^2-324<0\n$$\n$$\nb^2<324\n$$\nSo:\n$$\n-18<b<18\n$$"
+    },
+    {
+      "title": "Pick the largest integer",
+      "content": "Since $b$ is a positive integer, the possible values are $1$ through $17$. At $b=18$, the discriminant would be $0$, giving one real solution instead of no real solution. The answer is <strong>17</strong>."
+    }
+  ]
+}

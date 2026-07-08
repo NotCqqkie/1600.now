@@ -1,0 +1,15 @@
+{
+  "questionId": "85b0f0e3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtracting the second polynomial changes the sign of every term in it.\n$$(8x^3-5x+3)-(4x^2+9x-6)$$\n$$=8x^3-5x+3-4x^2-9x+6$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Combine the linear terms and the constants.\n$$8x^3-4x^2+(-5x-9x)+(3+6)$$\n$$8x^3-4x^2-14x+9$$\nThe choices may list terms in a different order, so compare like terms instead of only reading left to right. This is the same expression as $-4x^2+8x^3-14x+9$. The answer is <strong>C</strong>."
+    }
+  ]
+}

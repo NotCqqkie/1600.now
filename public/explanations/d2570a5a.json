@@ -1,0 +1,15 @@
+{
+  "questionId": "d2570a5a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the measured indicator",
+      "content": "The researchers claim the lullaby relaxed the infants, and the passage defines a reduced heart rate as the measure of relaxation. Strong support therefore must show a lower heart rate during the lullaby, not just a preference or unrelated feature of the songs."
+    },
+    {
+      "title": "Reject indirect evidence",
+      "content": "Choice A discusses irregular heart rates rather than reduced heart rates. Choice B reports what parents preferred, which is not the researchers' infant measure. Choice D describes the singers but says nothing about relaxation. Choice C directly shows infants' heart rates were substantially lower during the lullaby than during the non-lullaby. The answer is <strong>C</strong>."
+    }
+  ]
+}

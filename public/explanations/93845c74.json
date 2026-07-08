@@ -1,0 +1,15 @@
+{
+  "questionId": "93845c74",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The notation $f(3)$ means the input value is $3$. To find this function value, substitute $3$ for $x$ in the rule $f(x)=x^3+23$. That gives the expression $3^3+23$ to evaluate."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Cube the input first, then add $23$. Since $3^3=27$, the function value is:\n$$f(3)=3^3+23=27+23=50$$\nThe answer is <strong>50</strong>."
+    }
+  ]
+}

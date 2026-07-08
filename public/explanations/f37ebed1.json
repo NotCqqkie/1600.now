@@ -1,0 +1,15 @@
+{
+  "questionId": "f37ebed1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim",
+      "content": "The student claims that small dog breeds must share a gene version that represses IGF-1 production. To weaken that claim, evidence should show small breeds with low IGF-1 do not all share the same version."
+    },
+    {
+      "title": "Show what weakens it",
+      "content": "A and B discuss the gene generally without disproving the shared-version claim, and C only compares size variation across mammals. Evidence that some small breeds with low IGF-1 have a different version than toy poodles directly undermines the claim. The answer is <strong>D</strong>."
+    }
+  ]
+}

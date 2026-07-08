@@ -1,0 +1,15 @@
+{
+  "questionId": "f60eb7b2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the worker count",
+      "content": "The colony has $43$ worker ants, and $43$ is within the model's range. Substitute $x=43$ into the equation.\n\n$$y=0.68(43)+3.1$$"
+    },
+    {
+      "title": "Find the predicted larvae",
+      "content": "Evaluate the expression to estimate the number of larvae.\n\n$$y=29.24+3.1$$\n\n$$y=32.34$$\n\nThe closest listed value is $32$.\n\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

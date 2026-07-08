@@ -1,0 +1,16 @@
+{
+  "questionId": "bd66cef6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the missing leg",
+      "content": "Let $b$ be the other leg of the right triangle. Use the Pythagorean theorem with hypotenuse $262.4$ and one leg $57.6$.<br/>$$57.6^2+b^2=262.4^2$$",
+      "formula": "$$a^2 + b^2 = c^2$$"
+    },
+    {
+      "title": "Solve for the leg",
+      "content": "Move the known leg square to the other side and take the positive square root.<br/>$$b^2=262.4^2-57.6^2$$<br/>$$b^2=68{,}853.76-3{,}317.76=65{,}536$$<br/>$$b=256$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2b800aa0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the group",
+      "content": "The underlined phrase follows <em>a family of plants</em> and gives the collective name for that family: the silversword alliance. It is naming a related group, not describing one species' traits."
+    },
+    {
+      "title": "Reject species-level readings",
+      "content": "Choice A says the phrase lists species, but it supplies one group name. Choice B claims it explains what makes <em>Dubautia raillardioides</em> unique. Choice D treats the group name as the common name for that single plant. The answer is <strong>C</strong>."
+    }
+  ]
+}

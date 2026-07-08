@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count favorable and total outcomes",
-      "content": "The favorable outcomes are the black pens: $17$. The total number of pens is $$17+33=50$$"
+      "title": "Find favorable and total outcomes",
+      "content": "The favorable outcomes are the $17$ black pens. The total number of pens is\n$$\n17+33=50\n$$"
     },
     {
-      "title": "Use probability equals favorable over total",
-      "content": "$$P(\\text{black})=\\frac{17}{50}$$ To convert to a decimal, divide: $$17\\div 50=0.34$$"
-    },
-    {
-      "title": "Confirm the grid-in answer",
-      "content": "The problem asks for a decimal or fraction, not a percent. Enter <strong>.34</strong>, <strong>0.34</strong>, or <strong>17/50</strong>."
+      "title": "Convert the probability",
+      "content": "The probability of selecting a black pen is\n$$\n\\frac{17}{50}=0.34\n$$\nThe answer is <strong>.34</strong>."
     }
   ]
 }

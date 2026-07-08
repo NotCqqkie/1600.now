@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what an x-intercept is",
-      "content": "The <em>x</em>-intercept is the point where the graph crosses the <em>x</em>-axis. At this point, $y = 0$."
+      "title": "Find the crossing point",
+      "content": "The $x$-intercept is where the graph crosses the $x$-axis. At that point, the $y$-coordinate is $0$."
     },
     {
-      "title": "Read the x-coordinate from the graph",
-      "content": "Locate where the curve intersects the <em>x</em>-axis. The graph crosses at $x=5$, so the intercept point is $(5,0)$."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The <em>x</em>-intercept is $(5,0)$, which matches <strong>B</strong>."
+      "title": "Read the intercept",
+      "content": "The graph crosses the $x$-axis at $x=5$, so the intercept point is $(5,0)$.\nThe answer is <strong>B</strong>."
     }
   ]
 }

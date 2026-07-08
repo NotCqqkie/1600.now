@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that initial height occurs at t = 0",
-      "content": "The ball is tossed from a balcony at time $t = 0$. To find the initial height, we evaluate the height equation at the moment of launch."
+      "title": "Use the launch time",
+      "content": "The height from which the ball was tossed is the height when $t=0$."
     },
     {
-      "title": "Evaluate the value h at t = 0",
-      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 8t + 11$:<br/>$$h = -4.9(0)^2 + 8(0) + 11 = 11$$<br/><strong>D</strong> is correct."
+      "title": "Evaluate the height equation",
+      "content": "Substitute $t=0$.<br/>$$h=-4.9(0)^2+8(0)+11=11$$The answer is <strong>D</strong>."
     }
   ]
 }

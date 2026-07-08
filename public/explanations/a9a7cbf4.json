@@ -1,0 +1,15 @@
+{
+  "questionId": "a9a7cbf4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert degrees to radians",
+      "content": "A full circle is $360^\\circ$, which equals $2\\pi$ radians. To convert from degrees to radians, multiply by $\\frac{\\pi}{180}$.<br/>$$30\\cdot\\frac{\\pi}{180}=\\frac{30\\pi}{180}$$"
+    },
+    {
+      "title": "Simplify the fraction",
+      "content": "Divide numerator and denominator by $30$.<br/>$$\\frac{30\\pi}{180}=\\frac{\\pi}{6}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

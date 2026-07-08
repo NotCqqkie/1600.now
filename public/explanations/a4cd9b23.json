@@ -1,0 +1,39 @@
+{
+  "questionId": "a4cd9b23",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph intercepts",
+      "content": "The graph shows a decreasing linear relationship with intercepts near $(80,0)$ and $(0,45)$. A correct equation should match both intercepts and should not have a positive slope.",
+      "formula": null,
+      "desmosExpressions": [
+        "9x+16y=720"
+      ]
+    },
+    {
+      "title": "Test the vertical intercept",
+      "content": "When $x=0$, the candidate equation becomes $$9(0)+16y=720$$$$y=45$$So its vertical intercept is the graph's shown value.",
+      "formula": null,
+      "desmosExpressions": [
+        "9x+16*45=720",
+        "9*80+16y=720"
+      ]
+    },
+    {
+      "title": "Test the horizontal intercept",
+      "content": "For the other endpoint, use $y=0$:$$9x+16(0)=720$$$$x=80$$This gives the horizontal crossing shown on the graph.",
+      "formula": null,
+      "desmosExpressions": [
+        "9x + 16y = 720"
+      ]
+    },
+    {
+      "title": "Select the matching equation",
+      "content": "The equation with intercepts $(80,0)$ and $(0,45)$ is $9x+16y=720$, which is the listed equation with the correct decreasing relationship. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "9x + 16y = 720"
+      ]
+    }
+  ]
+}

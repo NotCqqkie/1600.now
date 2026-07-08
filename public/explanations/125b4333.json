@@ -1,0 +1,19 @@
+{
+  "questionId": "125b4333",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the product equation",
+      "content": "The number that is $11$ less than $x$ is $x-11$, so\n$$x(x-11)=350$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Move all terms to one side and factor.\n$$x^2-11x-350=0$$\n$$(x-25)(x+14)=0$$"
+    },
+    {
+      "title": "Use the positive solution",
+      "content": "The possible solutions are $x=25$ and $x=-14$. The question says $x$ is positive, so use the positive solution. The answer is <strong>25</strong>."
+    }
+  ]
+}

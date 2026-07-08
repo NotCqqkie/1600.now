@@ -1,0 +1,15 @@
+{
+  "questionId": "dec93237",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the requested duration",
+      "content": "The question asks for a choice that emphasizes how long Daniel Mercer competed in the Paralympic Games. That means the response must use the notes about Mercer's career span, not just his medal count, his sport, or another athlete's timeline. The relevant note says Mercer competed as a Paralympic swimmer from 1984 to 1992."
+    },
+    {
+      "title": "Separate duration from related facts",
+      "content": "Choice A gives Mercer's medals, which shows achievement but not length of competition. Choice C shifts to the history of swimming in the Paralympic Games. Choice D gives Mercer's debut year but not the end of his career, so it cannot show duration. The remaining choice gives both 1984 and 1992, making the full span clear. The answer is <strong>B</strong>."
+    }
+  ]
+}

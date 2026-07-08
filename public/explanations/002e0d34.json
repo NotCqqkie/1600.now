@@ -1,0 +1,15 @@
+{
+  "questionId": "002e0d34",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move the constant",
+      "content": "Subtract $64$ from both sides:\n$$x^2+64=0$$\n$$x^2=-64$$"
+    },
+    {
+      "title": "Count real solutions",
+      "content": "The square of a real number cannot be negative, so the equation has zero distinct real solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

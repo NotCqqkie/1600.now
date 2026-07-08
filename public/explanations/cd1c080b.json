@@ -1,0 +1,19 @@
+{
+  "questionId": "cd1c080b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the mesophotic threshold",
+      "content": "The mesophotic zone begins at 30 meters below the surface. A coral least suited to full migration there would be the species whose current maximum depth is farthest below 30 meters, since that shows the least evidence of tolerating deeper conditions."
+    },
+    {
+      "title": "Compare maximum depths",
+      "content": "Choice A uses a minimum depth, which does not show how deep the species can go. Choice C has a 25-meter maximum, close to the threshold. Choice D also uses a minimum depth, which is not the key measure."
+    },
+    {
+      "title": "Select the shallowest maximum",
+      "content": "The remaining choice identifies <em>Plerogyra discus</em>, whose 15-meter maximum depth is farthest from the mesophotic zone. The answer is <strong>B</strong>."
+    }
+  ]
+}

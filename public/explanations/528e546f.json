@@ -1,0 +1,19 @@
+{
+  "questionId": "528e546f",
+  "correctAnswer": "42/60,7/10,0.7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict to sugar maples",
+      "content": "The condition says the tree is a sugar maple, so use only the sugar maple row of the table."
+    },
+    {
+      "title": "Use the row counts",
+      "content": "There are $42$ sugar maples from Site A and $60$ sugar maples total. The conditional probability is $$\\frac{42}{60}=\\frac{7}{10}=0.7$$"
+    },
+    {
+      "title": "Answer",
+      "content": "Equivalent correct entries include <strong>42/60</strong>, <strong>7/10</strong>, and <strong>0.7</strong>."
+    }
+  ]
+}

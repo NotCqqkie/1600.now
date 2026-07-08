@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the function evaluation",
-      "content": "We're given $f(x) = 32x + 900$, where $x$ is the monthly payment and $f(x)$ is the total lease cost. Since the monthly payment is \\$420, the question is asking for the function value $f(420)$, not for a monthly amount."
+      "title": "Substitute the monthly payment",
+      "content": "The monthly payment is $420$, so evaluate the function at $x=420$:\n$$f(420)=32(420)+900$$"
     },
     {
-      "title": "Substitute and calculate",
-      "content": "Substitute $x = 420$:<br/>$$f(420) = 32(420) + 900 = 13,440 + 900 = 14,340$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Calculate the total cost",
+      "content": "Compute the value:\n$$32(420)+900=13{,}440+900=14{,}340$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

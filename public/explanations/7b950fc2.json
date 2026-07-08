@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "The left side is an independent clause: &quot;Nora sought to increase Latina representation in corporate [BLANK].&quot; The right side is also an independent clause: &quot;[BLANK] founded Las Comadres para las Americas, an international community that for over two decades has served as a resource and information network for Latina business professionals.&quot;"
+      "title": "Locate the clause boundary",
+      "content": "\"Nora de Hoyos Comstock sought to increase Latina representation in corporate settings\" is an independent clause. \"She founded Las Comadres para las Americas\" is another independent clause."
     },
     {
-      "title": "Apply the independent-clause boundary rule",
-      "content": "Two independent clauses must be joined by one of: a period (or other terminal punctuation), a semicolon, or a comma plus a FANBOYS coordinating conjunction (and, but, or, nor, for, so, yet). Evaluating each choice:<ul><li><strong>Choice A &mdash; &lsquo;settings she&rsquo;</strong>: no punctuation between two independent clauses creates a run-on (fused) sentence. &#10007;</li><li><strong>Choice B &mdash; &lsquo;settings, she&rsquo;</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice C &mdash; &lsquo;settings and she&rsquo;</strong>: joining two independent clauses with 'and' requires a comma before the coordinating conjunction; without it, the punctuation is incorrect. &#10007;</li><li><strong>Choice D &mdash; &lsquo;settings. She&rsquo;</strong>: a period correctly separates the two independent clauses into two sentences. &#10003;</li></ul>"
+      "title": "Separate the clauses",
+      "content": "A fuses the clauses, and B joins them with only a comma. C uses \"and\" but lacks the comma needed before a coordinating conjunction between two independent clauses. A period correctly separates the two complete sentences. The answer is <strong>D</strong>."
     }
   ]
 }

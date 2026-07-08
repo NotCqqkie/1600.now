@@ -1,0 +1,19 @@
+{
+  "questionId": "9052e780",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $3$ in the function.\n$$\nh(3)=18(2)^{-3}+5\n$$"
+    },
+    {
+      "title": "Evaluate the exponent",
+      "content": "A negative exponent means take the reciprocal.\n$$\n2^{-3}=\\frac{1}{8}\n$$\nSo\n$$\nh(3)=18\\cdot\\frac{1}{8}+5\n$$"
+    },
+    {
+      "title": "Compute the value",
+      "content": "Finish the arithmetic.\n$$\n18\\cdot\\frac{1}{8}+5=\\frac{18}{8}+5=\\frac{9}{4}+\\frac{20}{4}=\\frac{29}{4}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

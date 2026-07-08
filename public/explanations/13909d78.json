@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 8 into the function",
-      "content": "We are given $f(x) = 100x + 4$. To find $f(8)$, substitute $x = 8$:<br/>$$f(8) = 100(8) + 4$$"
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=100x+4$. Substitute $x=8$.<br/>$$f(8)=100(8)+4$$"
     },
     {
-      "title": "Evaluate the expression",
-      "content": "Multiply first, then add:<br/>$$100 \\cdot 8 = 800$$<br/>$$800 + 4 = 804$$<br/>That matches <strong>Choice D &mdash; $804$</strong>."
+      "title": "Evaluate the function",
+      "content": "Multiply first, then add.<br/>$$100(8)+4=800+4=804$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

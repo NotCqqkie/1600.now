@@ -1,0 +1,19 @@
+{
+  "questionId": "e2c5989e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the prism width",
+      "content": "The base area is $63t$, and the length is $\\frac{21}{4}$. Divide area by length:<br/>$$63t\\div\\frac{21}{4}=63t\\cdot\\frac{4}{21}=12t$$"
+    },
+    {
+      "title": "Find the face areas",
+      "content": "The three different face areas are the base, front face, and side face:<br/>$$63t$$<br/>$$\\frac{21}{4}\\cdot4=21$$<br/>$$12t\\cdot4=48t$$"
+    },
+    {
+      "title": "Double the face sum",
+      "content": "A rectangular prism has two of each face, so:<br/>$$2(63t+21+48t)=2(111t+21)$$<br/>$$2(111t+21)=222t+42$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

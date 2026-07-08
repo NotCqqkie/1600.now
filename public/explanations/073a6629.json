@@ -1,0 +1,15 @@
+{
+  "questionId": "073a6629",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast the sheet structures",
+      "content": "The notes say graphite is composed of stacked graphene sheets, while carbon nanotubes are composed of graphene sheets wrapped into a cylindrical shape. The answer must emphasize that structural difference directly."
+    },
+    {
+      "title": "Reject incomplete or reversed facts",
+      "content": "Choice A mentions the nanotube cylinder but leaves out graphite's stacked sheets. Choice B shifts to carbon allotropes instead of emphasizing the contrast. Choice C reverses the facts by making graphite cylindrical and nanotubes flat. The remaining statement contrasts stacked sheets with a cylinder. The answer is <strong>D</strong>."
+    }
+  ]
+}

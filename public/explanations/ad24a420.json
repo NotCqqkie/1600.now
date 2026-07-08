@@ -1,0 +1,19 @@
+{
+  "questionId": "ad24a420",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the first function",
+      "content": "Substitute $8$ into $g$:\n$$g(8)=\\sqrt{(8-12)^2+36}$$\n$$g(8)=\\sqrt{16+36}=\\sqrt{52}$$\nSo $t=\\sqrt{52}$."
+    },
+    {
+      "title": "Square the input value",
+      "content": "The function $h$ uses the square of its input. Since $t=\\sqrt{52}$,\n$$t^2=(\\sqrt{52})^2=52$$"
+    },
+    {
+      "title": "Finish with the second function",
+      "content": "Now use the value of $t^2$ in the rule for $h$:\n$$h(t)=4+\\frac{52}{2}$$\n$$h(t)=4+26=30$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

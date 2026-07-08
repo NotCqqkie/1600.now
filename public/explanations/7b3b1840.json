@@ -1,0 +1,15 @@
+{
+  "questionId": "7b3b1840",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the stated limitation",
+      "content": "The passage directly identifies the method's limit: Google Places API data tend to cover customer-facing places. That means some neighborhood amenities may be left out of the data."
+    },
+    {
+      "title": "Reject unstated drawbacks",
+      "content": "A says the data are outdated, but the text does not mention age. B refers to advances from other fields, which the text never discusses. D concerns neighborhood boundaries, not incomplete amenity data. The answer is <strong>C</strong>."
+    }
+  ]
+}

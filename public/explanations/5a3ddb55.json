@@ -1,0 +1,15 @@
+{
+  "questionId": "5a3ddb55",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the table cell",
+      "content": "The question asks for members ages 14-17 in 1995. That means using the Seniors row and the 1995 column."
+    },
+    {
+      "title": "Compare the values",
+      "content": "Choice A gives Seniors in 1994; Choice C gives Juniors in 1995; Choice D comes from a different row or year. Choice B gives the Seniors 1995 value, 52 thousand. The answer is <strong>B</strong>."
+    }
+  ]
+}

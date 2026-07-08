@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept value",
-      "content": "At the $y$-intercept, $x=0$. Substitute into $y=625^{2x+2}$ to get $s=625^{2(0)+2}=625^2=390{,}625$."
+      "title": "Find the intercept value",
+      "content": "At the $y$-intercept, $x=0$. Substitute $0$ into the equation to find $s$.<br/>$$s=625^{2(0)+2}$$<br/>$$s=625^2$$<br/>$$s=390{,}625$$"
     },
     {
-      "title": "Look for s in the choices",
-      "content": "The question asks for an equivalent equation that displays $s$ as a constant, coefficient, or base. Choice A (&lsquo;$y={390,625}^{ \\left(x+1\\right)}$&rsquo;) uses $390{,}625$ as the base."
+      "title": "Rewrite the base",
+      "content": "Since $390{,}625=625^2$, rewrite the original equation using a power of a power.<br/>$$625^{2x+2}=625^{2(x+1)}$$<br/>$$625^{2(x+1)}=(625^2)^{x+1}$$<br/>$$625^{2x+2}=390{,}625^{x+1}$$"
     },
     {
-      "title": "Confirm equivalence",
-      "content": "Since $390{,}625=625^2$, $390{,}625^{x+1}=(625^2)^{x+1}=625^{2x+2}$. Therefore <strong>A</strong> is correct."
+      "title": "Match the displayed value",
+      "content": "The equivalent equation displays $s$ as the base $390{,}625$. The answer is <strong>A</strong>."
     }
   ]
 }

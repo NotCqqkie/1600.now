@@ -1,0 +1,15 @@
+{
+  "questionId": "c2404013",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove the grouping",
+      "content": "Both groups are being added, so removing the parentheses does not change any signs. This keeps each term from the original expression in the same order.\n$$6pt^2+5pt+8p^2t+4pt$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Only $5pt$ and $4pt$ are like terms, because they have the exact same variable part. The other two terms stay separate.\n$$5pt+4pt=9pt$$\n$$6pt^2+8p^2t+9pt$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

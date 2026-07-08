@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the zeros of f",
-      "content": "The function $f(x)=(x+7)(x+4)(x-5)$ equals $0$ when $x=-7$, $x=-4$, or $x=5$."
+      "title": "Use the zeros of the function",
+      "content": "The function\n$$f(x)=(x+7)(x+4)(x-5)$$\nequals $0$ when $x=-7$, $x=-4$, or $x=5$."
     },
     {
-      "title": "Apply the minus 2",
-      "content": "For each of those three $x$-values, $y=f(x)-2=0-2=-2$."
-    },
-    {
-      "title": "Match the table",
-      "content": "The table with $y=-2$ for $x=-7$, $x=-4$, and $x=5$ is <strong>B</strong>."
-    },
-    {
-      "title": "Why these x-values are chosen",
-      "content": "The tables use $x=-7$, $-4$, and $5$ because those are exactly the zeros of $f$. At each one, the product contains a zero factor, so $f(x)-2=-2$."
+      "title": "Apply the vertical shift",
+      "content": "For each of those three $x$-values, $f(x)=0$. Therefore\n$$y=f(x)-2=0-2=-2$$\nThe matching table has $y=-2$ for $x=-7$, $x=-4$, and $x=5$. The answer is <strong>B</strong>."
     }
   ]
 }

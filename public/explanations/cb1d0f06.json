@@ -1,0 +1,19 @@
+{
+  "questionId": "cb1d0f06",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the table points",
+      "content": "From the table, two points on the line are $(0,22)$ and $(1,23)$. The slope is\n$$\n\\frac{23-22}{1-0}=1\n$$\nThe point with $x=0$ shows the $y$-intercept is $22$."
+    },
+    {
+      "title": "Write the linear equation",
+      "content": "A line with slope $1$ and $y$-intercept $22$ has equation\n$$\ny=x+22\n$$\nThis also gives $y=24$ when $x=2$, so it matches the table."
+    },
+    {
+      "title": "Choose the matching equation",
+      "content": "The only choice with slope $1$ and intercept $22$ is the matching equation. The answer is <strong>A</strong>."
+    }
+  ]
+}

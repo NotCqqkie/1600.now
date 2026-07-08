@@ -1,0 +1,15 @@
+{
+  "questionId": "c6ac431d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the stated location",
+      "content": "The question asks where the National Association of Black Journalists was founded. The passage directly states that the organization was founded in Washington, DC, in 1975."
+    },
+    {
+      "title": "Check named cities",
+      "content": "Choices A, B, and D name cities that the passage does not give as the founding location. The remaining choice matches the location explicitly stated in the text. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "b661da25",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Simplify the left side first:\n$$\\frac{14x}{7y}=\\frac{2x}{y}$$\nSo the equation becomes\n$$\\frac{2x}{y}=2\\sqrt{w+19}$$"
+    },
+    {
+      "title": "Isolate the radical",
+      "content": "Divide both sides by $2$:\n$$\\frac{x}{y}=\\sqrt{w+19}$$"
+    },
+    {
+      "title": "Solve for w",
+      "content": "Square both sides, then subtract $19$:\n$$(\\frac{x}{y})^2=w+19$$\n$$w=(\\frac{x}{y})^2-19$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

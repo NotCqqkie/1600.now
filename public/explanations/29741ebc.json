@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a &quot;function of underlined text&quot; question. The underlined phrase &quot;(film containing scaled-down reproductions of documents)&quot; appears in parentheses immediately after the word &quot;microfilm&quot; — a classic signal that the parenthetical is defining the preceding term."
+      "title": "Read the parenthetical definition",
+      "content": "The underlined phrase appears in parentheses immediately after the word <em>microfilm</em>. It explains that microfilm is film containing scaled-down reproductions of documents, so its function is to define that term."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; It gives information about a famous person.</strong>: The parenthetical describes film technology, not Mary Church Terrell or any person. &#10007;</li><li><strong>Choice B &mdash; It explains the meaning of a word.</strong>: The phrase restates &quot;microfilm&quot; in plain language (&quot;film containing scaled-down reproductions of documents&quot;), functioning as an inline definition. &#10003;</li><li><strong>Choice C &mdash; It describes a debate among historians.</strong>: No debate appears anywhere in the underlined portion or the sentence containing it. &#10007;</li><li><strong>Choice D &mdash; It summarizes an unexpected finding.</strong>: A parenthetical definition cannot summarize a finding; it merely clarifies a term. &#10007;</li></ul>That matches <strong>Choice B &mdash; It explains the meaning of a word.</strong>."
+      "title": "Reject unrelated functions",
+      "content": "Choice A focuses on a famous person, but the parenthetical explains a technology. Choice C invents a historical debate. Choice D invents an unexpected finding, while the underlined phrase only clarifies a word. The answer is <strong>B</strong>."
     }
   ]
 }

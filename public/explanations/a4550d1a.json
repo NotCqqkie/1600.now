@@ -1,0 +1,15 @@
+{
+  "questionId": "a4550d1a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the closing dash",
+      "content": "The sentence already has an em dash before was released in 1970. If the phrase created by Niklaus Wirth is parenthetical, it needs an opening em dash after Pascal to pair with that existing closing dash."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "B and D use commas, creating a comma-dash mismatch with the closing em dash. C gives no punctuation to introduce the parenthetical phrase. The version with an opening em dash after Pascal creates the needed matching pair. The answer is <strong>A</strong>."
+    }
+  ]
+}

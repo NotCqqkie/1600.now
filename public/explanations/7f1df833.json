@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must supply",
-      "content": "The sentence has a compound subject: <em>his energetic gestures</em> and <em>his habit of barreling after a hit ball to see if it would land out of ______</em>. This compound subject needs a main finite verb to complete the clause and show what those gestures and habits accomplished."
+      "title": "Complete the main clause",
+      "content": "The subject is compound: Dawson's energetic gestures and his habit of chasing hit balls. The sentence needs a finite main verb to state what those behaviors did to the traditionally solemn umpire role."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;bounds helped&rsquo;</strong>: &quot;Helped&quot; is a finite past-tense verb that governs the compound subject. &quot;Helped transform&quot; (helped + infinitive) is a standard construction, giving the sentence a complete main clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;bounds, helping&rsquo;</strong>: The comma turns &quot;helping transform&quot; into a participial phrase, leaving no main verb &mdash; the sentence becomes a fragment. &#10007;</li><li><strong>Choice C &mdash; &lsquo;bounds that helped&rsquo;</strong>: Introduces a relative clause modifying &quot;bounds&quot; with an ambiguous antecedent, and still leaves the main clause without a verb. &#10007;</li><li><strong>Choice D &mdash; &lsquo;bounds to help&rsquo;</strong>: Creates an infinitive phrase that doesn&apos;t fit the sentence&apos;s grammatical structure &mdash; the compound subject has no finite verb. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Supply the finite verb",
+      "content": "Choice B turns the action into a participial phrase and leaves no main verb. Choice C creates a relative clause after <em>bounds</em>. Choice D uses an infinitive without completing the main clause. The remaining choice supplies <em>helped transform</em>. The answer is <strong>A</strong>."
     }
   ]
 }

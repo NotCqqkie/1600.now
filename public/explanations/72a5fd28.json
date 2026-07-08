@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up and solve the inequality",
-      "content": "We need at least 73 dinner rolls. If we buy $n$ packages with 14 rolls each:<br/>$$14n \\geq 73$$<br/>Dividing both sides by 14:<br/>$$n \\geq \\frac{73}{14} \\approx 5.214$$"
+      "title": "Divide by package size",
+      "content": "Each package has $14$ rolls, and $73$ rolls are needed. Divide to find how many packages would be required before rounding.<br/>$$\\frac{73}{14}=5.214\\dots$$"
     },
     {
-      "title": "Round up to the minimum whole number",
-      "content": "Since we cannot buy a fractional package, we must round UP. Testing:<ul><li>5 packages: $14 \\times 5 = 70$ rolls (insufficient, since $70 \\lt 73$)</li><li>6 packages: $14 \\times 6 = 84$ rolls (sufficient, since $84 \\geq 73$)</li></ul>The minimum number of packages is <strong>6</strong>."
+      "title": "Round up to packages",
+      "content": "A fraction of a package cannot be bought, and $5$ packages gives only $70$ rolls. The next whole number of packages gives enough rolls. The answer is <strong>6</strong>."
     }
   ]
 }

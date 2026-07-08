@@ -1,0 +1,15 @@
+{
+  "questionId": "b4891082",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the daily range",
+      "content": "The model estimates $68$ to $74$ miles per day, so the daily distance is between those values:\n$$68\\le \\text{daily distance}\\le 74$$"
+    },
+    {
+      "title": "Scale to thirty one days",
+      "content": "For $31$ days, multiply the lower and upper daily distances by $31$:\n$$(68)(31)\\le x\\le(74)(31)$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

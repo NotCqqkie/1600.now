@@ -1,0 +1,23 @@
+{
+  "questionId": "08b0d7b6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the domain",
+      "content": "Both functions have base $1.3$, which is greater than $1$. Therefore both functions increase as $x$ increases. The domain is $x\\gt0$, so $x=0$ is not included."
+    },
+    {
+      "title": "Analyze the first function",
+      "content": "For $f(x)=20(1.3)^{x+4}$, the smallest approached value would occur as $x$ approaches $0$ from the right:<br/>$$20(1.3)^4$$<br/>That value is not reached because $x\\gt0$."
+    },
+    {
+      "title": "Analyze the second expression",
+      "content": "The same domain issue applies to $g(x)=20(1.12)(1.3)^{x+2}$. Its lower boundary is approached near $x=0$:<br/>$$20(1.12)(1.3)^2$$<br/>The function still has no actual minimum on the domain."
+    },
+    {
+      "title": "Decide what is displayed",
+      "content": "Neither equation displays an actual minimum value as a constant or coefficient on the given domain. The answer is <strong>D</strong>."
+    }
+  ]
+}

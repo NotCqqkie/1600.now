@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's main development",
-      "content": "The passage traces a progression from context (book digitizing) through a problem (scanners can't read distorted words) to a solution (reCAPTCHA invention). The bulk of the text focuses on what reCAPTCHA is and how it works, making the invention itself the passage's primary subject."
+      "title": "Follow the invention story",
+      "content": "The passage moves from Reyes's book-digitizing problem to the security test she invented from that problem. Most of the text explains what the first reCAPTCHA test did and why it worked."
     },
     {
-      "title": "Match the purpose to the choices",
-      "content": "The correct answer correctly identifies reCAPTCHA's invention as the passage's central focus.<br/><br/>The other three choices misidentify the text's purpose by focusing on aspects the passage either doesn't explain (how scanners work), relegates to background (the book-digitizing project), or never discusses at all (reCAPTCHA's popularity).<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Separate purpose from background",
+      "content": "B is too narrow because the passage does not explain scanner mechanics. C treats the digitizing project as the main focus, though it is background for the invention. D adds popularity, which the text never discusses. The answer is <strong>A</strong>."
     }
   ]
 }

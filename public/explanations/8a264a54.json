@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "The sentence begins with a long introductory prepositional phrase: &ldquo;With a blend of traditional design elements, such as arched Gothic ceilings, and modern ones, such as floor-to-ceiling [blank].&rdquo; What follows is the main independent clause: &ldquo;transitional design splits the difference between old and new, a mixture that is increasingly seen in home interiors in the US.&rdquo; A comma is the correct punctuation to separate an introductory phrase from the main clause."
+      "title": "Keep the sentence unified",
+      "content": "The sentence lists traditional design elements and modern ones, then identifies the resulting style as transitional design. The punctuation after \"windows\" should keep \"transitional design\" in the same sentence as the subject."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; windows ; transitional</strong>: a semicolon must join two independent clauses, but &ldquo;With&hellip;windows&rdquo; is not an independent clause. &#10007;</li><li><strong>Choice B &mdash; windows — transitional</strong>: an em dash here creates emphasis or introduces a list/explanation, not a structural boundary between a phrase and its main clause. &#10007;</li><li><strong>Choice C &mdash; windows. Transitional</strong>: a period splits the sentence into a fragment (&ldquo;With&hellip;windows&rdquo;) and a separate sentence, breaking the grammatical thought. &#10007;</li><li><strong>Choice D &mdash; windows, transitional</strong>: a comma correctly marks the boundary between the introductory phrase and the main clause that follows. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject sentence breaks",
+      "content": "Choice A uses a semicolon before a phrase that is not an independent clause. Choice B creates an awkward dash break. Choice C makes \"Transitional design splits\" a new sentence, but the preceding sentence is left incomplete."
+    },
+    {
+      "title": "Use the needed comma",
+      "content": "A comma after \"windows\" cleanly separates the introductory phrase from the main clause beginning with \"transitional design.\" The answer is <strong>D</strong>."
     }
   ]
 }

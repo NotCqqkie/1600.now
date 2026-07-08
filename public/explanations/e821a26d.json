@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the shape of the scatterplot",
-      "content": "The data rise and then fall, so the model should be a downward-opening parabola. That means the coefficient of $x^2$ must be negative; equations with a positive $x^2$ coefficient open upward instead."
+      "title": "Use the graph shape",
+      "content": "The scatterplot rises and then falls, so the best quadratic model should open downward. That means the coefficient of $x^2$ must be negative."
     },
     {
       "title": "Use the intercept size",
-      "content": "The data values are in the hundreds, and the model should have a positive $y$-intercept around $745$. $y = -1.674x^2 -19.76x -745.73$ has a negative intercept, $-745.73$, so it is not reasonable."
+      "content": "The data values are in the hundreds, so the y-intercept should be positive and near $745$. This rules out the model with negative intercept $-745.73$."
     },
     {
-      "title": "Confirm the model",
-      "content": "<strong>$y = -1.674x^2 + 19.76x + 745.73$</strong>, $$y=-1.674x^2+19.76x+745.73,$$ opens downward and has the correct positive intercept. Therefore <strong>D</strong> is correct."
+      "title": "Select the remaining model",
+      "content": "The remaining equation opens downward and has the appropriate positive intercept:<br/>$$y=-1.674x^2+19.76x+745.73$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "244d2c83",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer to both cities",
+      "content": "The previous sentence names two cities, Quito and Kisumu. The blank modifies the plural noun cities, so it must use a plural demonstrative that refers to both places."
+    },
+    {
+      "title": "Choose the plural modifier",
+      "content": "The matching choice is the plural demonstrative that agrees with cities. Choice B is singular, Choice C is singular, and Choice D is singular, so none of them can correctly modify the plural noun. The answer is <strong>A</strong>."
+    }
+  ]
+}

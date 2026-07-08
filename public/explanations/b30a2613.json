@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the logical gap in “entirely attributable”",
-      "content": "The student claims the reduction is “entirely” due to lizards. To weaken an exclusive causal claim, you need evidence the same outcome also occurs without that cause."
+      "title": "Test the exclusive cause",
+      "content": "The student says the spider decline in the lizard enclosure was entirely caused by lizards. Evidence that spiders also declined without lizards would weaken that exclusive causal claim."
     },
     {
-      "title": "Identify the weakening data",
-      "content": "The graph shows the no-lizards enclosure also declined substantially (from ~85 to ~42 by day 30), proving factors other than lizards drive population loss, which contradicts the “entirely attributable to lizards” claim.<br/><br/><ul><li>The starting-count detail is just baseline data.</li><li>The timing detail is unrelated to the causal claim.</li><li>The lower final count in the lizard enclosure actually supports the student's conclusion.</li></ul><br/>The weakening evidence is that the spider population also declined without lizards, so <strong>B</strong> is correct."
+      "title": "Use the no-lizard decline",
+      "content": "Choice A gives only a starting baseline. Choice C discusses timing in the lizard enclosure, and Choice D supports some lizard effect by noting a lower final count with lizards. The weakening evidence is a substantial decline in the enclosure without lizards. The answer is <strong>B</strong>."
     }
   ]
 }

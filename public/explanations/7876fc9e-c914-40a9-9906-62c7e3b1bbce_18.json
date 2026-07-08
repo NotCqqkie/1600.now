@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The subject is &apos;Louisiana resident Oscar James Dunn,&apos; separated from the verb by a long appositive phrase. The main clause needs a finite (tensed) verb to be grammatically complete."
+      "title": "Find the main verb",
+      "content": "The subject is \"Louisiana resident Oscar James Dunn.\" The long phrase between commas only adds description, so the main clause still needs a finite verb to complete what Dunn did in 1868."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;to begin&rsquo;</strong>: an infinitive, not a finite verb &mdash; cannot serve as the main verb of a clause. &#10007;</li><li><strong>Choice B &mdash; &lsquo;having begun&rsquo;</strong>: a participial phrase, not a finite verb. &#10007;</li><li><strong>Choice C &mdash; &lsquo;beginning&rsquo;</strong>: a present participle, not a finite verb. &#10007;</li><li><strong>Choice D &mdash; &lsquo;began&rsquo;</strong>: a finite past-tense verb that can anchor the main clause. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is an infinitive, Choice B is a participial phrase, and Choice C is a present participle; none can serve as the main verb of the clause. The remaining option supplies the needed finite past-tense verb. The answer is <strong>D</strong>."
     }
   ]
 }

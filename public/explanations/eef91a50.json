@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structures",
-      "content": "Before the blank: “a fifteen-year-old Montgomery girl named Claudette Colvin was arrested for the same [BLANK]” is an independent clause. After the blank comes “According to some historians, Colvin's arrest led to Parks's action...” — another independent clause."
+      "title": "Separate two full clauses",
+      "content": "Before the blank, the sentence says Colvin was arrested for the same offense. After it, According to some historians introduces a new independent clause about what her arrest led to."
     },
     {
-      "title": "Apply the independent clause separation rule",
-      "content": "A period correctly separates two independent clauses, creating two complete sentences.<br/><br/>The other options fail: a comma creates a comma splice, no punctuation leaves a fused sentence, and “and according” doesn't establish valid structure.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject weak boundaries",
+      "content": "B creates a comma splice, C fuses the clauses with no punctuation, and D adds and without a clean structure. A period separates the two complete sentences. The answer is <strong>A</strong>."
     }
   ]
 }

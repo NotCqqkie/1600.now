@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Rewrite the given equation",
-      "content": "Divide $3x=36y-45$ by $3$ to get $$x=12y-15.$$"
+      "content": "Divide the given equation by $3$:\n$$\n3x=36y-45\n$$\n$$\nx=12y-15\n$$"
     },
     {
-      "title": "Match slopes with different intercepts",
-      "content": "For no solution, the second equation needs the same slope but a different constant. The matching choice: $\\frac{1}{3}x=4y$ scales to $x=12y$, same slope, different constant."
+      "title": "Find a parallel equation",
+      "content": "For no solution, the second equation must have the same slope relationship but a different constant. The equation \n$$\n\\frac{1}{3}x=4y\n$$ becomes\n$$\nx=12y\n$$"
     },
     {
-      "title": "Identify the choice",
-      "content": "The matching choice, $\\frac{1}{3}x=4y$, simplifies to $x=12y$. It has the same slope relationship as $x=12y-15$ but a different constant, so the two lines are parallel and never intersect. <strong>B</strong> is correct.",
+      "title": "Compare the constants",
+      "content": "The equations $x=12y-15$ and $x=12y$ have the same slope relationship but different constants, so the lines are parallel and distinct.\nThe answer is <strong>B</strong>.",
       "desmosExpressions": [
         "3x=36y-45",
         "x=4y",

@@ -1,0 +1,19 @@
+{
+  "questionId": "49ccf48c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Weigh the study pattern",
+      "content": "Many North American studies found a positive association between dissolved organic carbon and mercury. Several studies outside North America, including Finland, found similar results, while few matched the Brazil study's lack of correlation."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "Choice A is contradicted by studies outside North America showing the same association. Choice B invents measurement problems in Lehtinen's study. Choice D makes a claim about absolute levels in Brazil, not correlation."
+    },
+    {
+      "title": "Infer the typical relationship",
+      "content": "Because most studies show the two levels rising and falling together and few do not, the positive association appears typical in fresh water. The answer is <strong>C</strong>."
+    }
+  ]
+}

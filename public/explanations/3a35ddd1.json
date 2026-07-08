@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the tense framework",
-      "content": "The sentence describes a general, timeless fact about wood frogs using present-tense verbs (“is unable,” “helps prevent”). The blank verb must maintain this present-tense framework."
+      "title": "Keep the general present tense",
+      "content": "The sentence states a general biological fact about wood frogs. The surrounding verbs, such as is unable and helps prevent, use present tense."
     },
     {
-      "title": "Apply the rule: use simple present for timeless facts",
-      "content": "“Survives” uses simple present tense, matching the sentence's timeless-fact context about wood frog biology.<br/><br/>The wrong choices violate the present-tense rule by using past tense forms (“had survived,” “survived”) or conditional (“would survive”), which would shift the statement to describe a specific past event or hypothetical situation rather than a general truth.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject shifted verb forms",
+      "content": "<ul><li><strong>Choice A</strong>: Had survived shifts to past perfect.</li><li><strong>Choice B</strong>: Survived shifts to simple past.</li><li><strong>Choice C</strong>: Would survive makes the statement conditional rather than factual.</li></ul>"
+    },
+    {
+      "title": "Use present-tense agreement",
+      "content": "A simple present verb keeps the sentence focused on what the wood frog regularly does during subfreezing periods. The answer is <strong>D</strong>."
     }
   ]
 }

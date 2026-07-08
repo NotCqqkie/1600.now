@@ -1,0 +1,15 @@
+{
+  "questionId": "a51777d6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the arc fraction",
+      "content": "The arc has measure $45^\\circ$, so it is this fraction of the whole circle:<br/>$$\\frac{45}{360}=\\frac{1}{8}$$"
+    },
+    {
+      "title": "Scale to the circle",
+      "content": "The $4$-inch arc is $\\frac{1}{8}$ of the circumference, so the full circumference is $8$ times as long.<br/>$$C=4\\cdot8=32$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

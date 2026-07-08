@@ -1,0 +1,15 @@
+{
+  "questionId": "20b0c6ce",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the point",
+      "content": "If $(6,9)$ lies on the graph of $y=f(x)$, then the input $x=6$ produces the output $y=9$."
+    },
+    {
+      "title": "Read the function value",
+      "content": "Therefore, the function value at input $6$ is:<br/>$$f(6)=9$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

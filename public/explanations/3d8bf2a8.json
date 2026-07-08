@@ -1,0 +1,15 @@
+{
+  "questionId": "3d8bf2a8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "List the physical parts",
+      "content": "The student wants to specify the parts of a Foucault pendulum. The relevant notes identify a fixed point, a roughly 26-meter cable, and a weighted ball at the end of that cable."
+    },
+    {
+      "title": "Avoid behavior and function",
+      "content": "Choice A mentions only the cable. Choice B explains the pendulum's function as evidence of Earth's rotation. Choice D describes the apparent change in swing path. The remaining choice names the fixed point, cable, and weighted ball. The answer is <strong>C</strong>."
+    }
+  ]
+}

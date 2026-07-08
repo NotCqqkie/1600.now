@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal's signal",
-      "content": "The student's goal is explicitly stated: emphasize the <em>order</em> in which two of Evan Bennett's exhibitions were held. The signal is that the answer must show clear chronological sequence."
+      "title": "Use chronological language",
+      "content": "The goal is to emphasize the order of two exhibitions. The notes put <em>Wije'wi</em> in 2017 and <em>Ketu'elmita'jik</em> in 2018."
     },
     {
-      "title": "Find the choice using temporal language",
-      "content": "<strong>Evan Bennett's 2017 exhibition <em>Wije'wi</em> was followed a year later by his exhibition <em>Ketu'elmita'jik.</em></strong> uses “2017” and “was followed a year later by,” explicitly showing chronological order—Wije'wi came first, Ketu'elmita'jik came second.<br/><br/>The other three either omit temporal sequencing, shift to the paintings' meaning, or use vague language that obscures the order.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject nonsequential details",
+      "content": "B shifts to Bennett's paintings, C lists exhibitions without order, and D gives one date but describes the other vaguely. The sentence needs a clear followed a year later relationship. The answer is <strong>A</strong>."
     }
   ]
 }

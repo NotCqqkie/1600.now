@@ -1,0 +1,15 @@
+{
+  "questionId": "7c14febd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep subject and verb joined",
+      "content": "The sentence's subject is \"the strings inside the instrument,\" and its verb phrase is \"are plucked not struck.\" Standard English does not put punctuation between a subject and its verb."
+    },
+    {
+      "title": "Reject sentence breaks",
+      "content": "Choice A puts a colon inside the clause. Choice C adds an unnecessary dash between subject and verb. Choice D ends the sentence before the verb phrase arrives. The answer is <strong>B</strong>."
+    }
+  ]
+}

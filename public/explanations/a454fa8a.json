@@ -1,0 +1,15 @@
+{
+  "questionId": "a454fa8a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply range and homogeneity",
+      "content": "Previous research says species with narrow geographic ranges are more genetically homogeneous than species with extensive ranges. Since <em>M. anniana</em> is narrow-ranging and the simulation expands it to new habitats, consistency with the research means less homogeneity over time."
+    },
+    {
+      "title": "Reject wrong species claims",
+      "content": "Choice A discusses <em>Mammillaria</em> species in neighboring states and gives the wrong direction. Choice B concerns other species becoming common in Tamaulipas. Choice C also focuses on other species surviving there, not <em>M. anniana</em>'s genetic change. The answer is <strong>D</strong>."
+    }
+  ]
+}

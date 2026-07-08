@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The second sentence explains a critical obstacle: Ice Ages erase geological evidence. The third sentence states the consequence—geologists couldn't confirm the theory until the 1960s. The transition must link these: cause leads to consequence."
+      "title": "Link cause to result",
+      "content": "The second sentence explains that each Ice Age largely erases geological evidence of the one before it. The third sentence states the result: geologists could not confirm the cyclical theory until the 1960s."
     },
     {
-      "title": "Match the consequence transition",
-      "content": "“Hence” expresses a result flowing from prior cause—the evidence destruction explains why confirmation took until the 1960s. The other three either add information, suggest contrast, or mark time sequence without establishing this causal link. That matches <strong>Choice A &mdash; Hence,</strong>."
+      "title": "Reject nonresult transitions",
+      "content": "B adds another point but does not show a result. C signals contrast, though the last sentence follows from the evidence problem. D signals sequence, not consequence. The answer is <strong>A</strong>."
     }
   ]
 }

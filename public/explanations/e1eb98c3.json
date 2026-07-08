@@ -1,0 +1,19 @@
+{
+  "questionId": "e1eb98c3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Each term has a factor of $x^4$. This is the greatest common power of $x$ shared by all three terms:<br/>$$8x^6-3x^5+5x^4$$"
+    },
+    {
+      "title": "Factor out the common power",
+      "content": "Divide each term by $x^4$ to get the expression inside the parentheses, keeping the original signs and coefficients:<br/>$$8x^6-3x^5+5x^4=x^4(8x^2-3x+5)$$"
+    },
+    {
+      "title": "Match the factored form",
+      "content": "The equivalent expression is $x^4(8x^2-3x+5)$, which expands back to all three original terms. The answer is <strong>B</strong>."
+    }
+  ]
+}

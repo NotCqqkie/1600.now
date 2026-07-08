@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare the coefficients",
-      "content": "Form ratios of the matching $x$, $y$, and constant terms in $$-16x + 20y = 48$$ and $$-8x + 10y = -24$$. This gives $\\frac{-16}{-8}=\\frac{20}{10}=2$ but $\\frac{48}{-24}=-2$."
+      "title": "Compare the equations",
+      "content": "The left side of the first equation is twice the left side of the second equation.\n$$-16x+20y=2(-8x+10y)$$"
     },
     {
-      "title": "Identify the answer",
-      "content": "The $x$,$y$ ratios match but the constant ratio differs &mdash; the lines are parallel and never meet, so zero solutions. That confirms <strong>D</strong> is correct."
+      "title": "Check the constants",
+      "content": "If the equations represented the same line, the constant $-24$ would also double to $-48$. Instead, the first equation has constant $48$. The lines are parallel and never intersect.\nThe answer is <strong>D</strong>."
     }
   ]
 }

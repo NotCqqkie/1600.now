@@ -1,0 +1,15 @@
+{
+  "questionId": "d1891c77",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast specimen types",
+      "content": "The first reference organism is a holotype, the exact specimen used for the original description. The next reference organism is a neotype, which acts as a reference but is not the originally described specimen."
+    },
+    {
+      "title": "Signal the category difference",
+      "content": "Choice B signals addition, not opposition. Choice C signals reluctant concession. Choice D would make the neotype an example of a holotype, which it is not. The remaining choice marks the contrast between the two specimen categories. The answer is <strong>A</strong>."
+    }
+  ]
+}

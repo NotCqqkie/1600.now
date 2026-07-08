@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the appositive structure",
-      "content": "The sentence opens with a noun phrase—“A nearly frictionless (and, as its name suggests, extremely slippery) state”—followed by a comma, marking an appositive."
+      "title": "Match the opening phrase",
+      "content": "The sentence opens with an appositive phrase, <em>A nearly frictionless state</em>. The main clause that follows must begin with the noun that phrase describes, which is <em>superlubricity</em>."
     },
     {
-      "title": "Apply the appositive rule",
-      "content": "An appositive at the start of a sentence must be immediately followed by the noun it describes, which serves as the subject of the main clause. “A nearly frictionless (and, as its name suggests, extremely slippery) state” describes “superlubricity,” so the blank must provide this noun as the subject of an independent clause.<br/><br/>D does this: <em>superlubricity is reached when two surfaces' COF drops below 0.01</em>.<ul><li>A places a dependent clause before the noun</li><li>B introduces a second noun phrase</li><li>C presents a gerund phrase instead</li></ul>.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject misplaced subjects",
+      "content": "A delays the noun behind a dependent clause, B makes <em>two surfaces</em> the subject, and C uses a gerund phrase instead of the noun being described. The answer is <strong>D</strong>."
     }
   ]
 }

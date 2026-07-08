@@ -1,0 +1,15 @@
+{
+  "questionId": "a7ac6b19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the past-time signal",
+      "content": "The phrase nearly 150 years ago places Van Gogh's action at a specific completed time in the past. The verb must therefore be simple past, not present, future, or ongoing."
+    },
+    {
+      "title": "Reject incompatible tenses",
+      "content": "Choice A is present perfect progressive and cannot fit a specific ago phrase. Choice B describes an action happening now. Choice C describes a future action. The simple past form fits the completed historical event. The answer is <strong>D</strong>."
+    }
+  ]
+}

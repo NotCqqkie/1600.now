@@ -1,50 +1,19 @@
 {
-  "qid": "4ac59df6",
   "questionId": "4ac59df6",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $54{m}^{2}{n}^{2}$."
+      "title": "Multiply the coefficients",
+      "content": "The numerical factors are $6$ and $9$. Multiplying them gives the coefficient of the final product:\n$$\n6\\cdot9=54\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Combine like variables",
+      "content": "There are two $m$ factors and two $n$ factors, so the variable part is $m^2n^2$:\n$$\nm\\cdot m=m^2\n$$\n$$\nn\\cdot n=n^2\n$$"
     },
     {
-      "title": "Step 1",
-      "content": "Multiply the numerical coefficients: $6 \\times 9 = 54$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Multiply the $m$ factors: $m \\times m = m^{2}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Multiply the $n$ factors: $n \\times n = n^{2}$."
+      "title": "Write the product",
+      "content": "Putting the coefficient and variables together gives\n$$\n(6mn)(m)(9n)=54m^2n^2\n$$\nThe answer is <strong>A</strong>."
     }
-  ],
-  "choices": [
-    {
-      "id": "A",
-      "text": "$54{m}^{2}{n}^{2}$",
-      "explanation": "<ul><li>(6mn)(m)(9n) = 54 &middot; m&sup2; &middot; n&sup2; = 54m&sup2;n&sup2;. <strong>A</strong> is correct.</li></ul>"
-    },
-    {
-      "id": "B",
-      "text": "$54{m}^{2}n$",
-      "explanation": "<ul><li>This would require only one n factor, but both (6mn) and (9n) contribute an n, giving n&sup2;. Eliminate B.</li></ul>"
-    },
-    {
-      "id": "C",
-      "text": "$54mn$",
-      "explanation": "<ul><li>This is missing one m and one n exponent. Eliminate C.</li></ul>"
-    },
-    {
-      "id": "D",
-      "text": "$15mn$",
-      "explanation": "<ul><li>6 + 9 = 15, but addition is the wrong operation because coefficients multiply. Eliminate D.</li></ul>"
-    }
-  ],
-  "correctAnswer": "A",
-  "section": "Math"
+  ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pattern to complete",
-      "content": "The text establishes that the <strong>same element</strong> has a lower ablation rate in slower-moving dust (SPC, AST) than in faster-moving dust (HTC, OCC). The example already gives iron from AST at 28%. The completion must show <strong>iron</strong> from a <strong>faster-moving source</strong> at a higher rate to complete the contrast."
+      "title": "Keep element and source pattern",
+      "content": "The example begins with iron from AST dust at 28%. To illustrate the stated pattern, the completion should keep the element the same and compare it with iron from faster-moving HTC or OCC dust at a higher rate."
     },
     {
-      "title": "Eliminate three, confirm one",
-      "content": "<ul><li><strong>Choice A — iron from SPC dust is 20%.</strong>: SPC is also slow-moving dust. Comparing two slow sources does not illustrate the speed-vs-ablation pattern. &#10007;</li><li><strong>Choice B — sodium from OCC dust is 100%.</strong>: Different element (sodium, not iron); the example requires the same element across sources. &#10007;</li><li><strong>Choice C — iron from HTC dust is 90%.</strong>: Same element (iron), faster-moving source (HTC), higher ablation rate (90% vs 28%). This directly completes the contrast the example is building. &#10003;</li><li><strong>Choice D — sodium from AST dust is 75%.</strong>: Different element and a slow-moving source already used in the first half &mdash; fails on both counts. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject mismatched data",
+      "content": "Choice A uses another slow-moving source. Choice B switches to sodium. Choice D switches to sodium and stays with a slow-moving source. The matching data use iron from a faster-moving source with a higher ablation rate. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "3508dbc1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clause boundary",
+      "content": "The sentence first states that the sand at Les Sables Roses Beach is an unusual shade. It then gives the contrasting explanation: crushed coral and other organic matter make the sand pink."
+    },
+    {
+      "title": "Punctuate the transition",
+      "content": "Choice B and Choice C do not correctly separate the transitional word from the next independent clause, and Choice D puts the semicolon before the transition. The pattern <em>shade, though; deposits</em> correctly joins the clauses. The answer is <strong>A</strong>."
+    }
+  ]
+}

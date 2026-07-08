@@ -1,0 +1,15 @@
+{
+  "questionId": "c4352b0f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "In the result clause, the subject is \"her book's musings on tenth-century Japanese courtly life.\" The head noun is the plural noun \"musings,\" not the singular noun \"book.\""
+    },
+    {
+      "title": "Match the verb number",
+      "content": "Choice A uses a singular perfect verb. Choice B uses a singular present-tense verb. Choice D also uses a singular verb form. The remaining verb agrees with the plural subject. The answer is <strong>C</strong>."
+    }
+  ]
+}

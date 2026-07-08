@@ -1,0 +1,19 @@
+{
+  "questionId": "d5e610eb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the noun modifier",
+      "content": "The phrase \"one of many nonpresidents\" needs a modifier explaining which nonpresidents are meant. The blank should attach to that noun phrase, not create a separate finite clause."
+    },
+    {
+      "title": "Reject finite verbs",
+      "content": "A, C, and D are finite verb forms. In this position, they cannot directly modify \"nonpresidents\" and would make the sentence ungrammatical."
+    },
+    {
+      "title": "Use the infinitive modifier",
+      "content": "To appear forms a modifier meaning nonpresidents who appeared on US currency. The answer is <strong>B</strong>."
+    }
+  ]
+}

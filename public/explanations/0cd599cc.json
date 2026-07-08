@@ -1,0 +1,15 @@
+{
+  "questionId": "0cd599cc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Interpret the treatment response",
+      "content": "After a simulated attack, caterpillars exposed to harmless electric field shifts stayed defensive for many seconds. In the control group, caterpillars resumed neutral behavior in less than one-tenth of a second. The treatment response suggests the field shifts were detected as threat cues."
+    },
+    {
+      "title": "Stay within the evidence",
+      "content": "Choice B depends on different shift sizes, which were not tested. Choice C ranks species sensitivity, which the study does not establish. Choice D invents an ability to cause field shifts. The remaining choice directly explains the defensive response. The answer is <strong>A</strong>."
+    }
+  ]
+}

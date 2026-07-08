@@ -1,0 +1,19 @@
+{
+  "questionId": "87baf2f6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the student's goal",
+      "content": "The student wants to specify which countries the Danube River passes through. The relevant notes name Hungary and Romania, so the selected sentence must include both countries."
+    },
+    {
+      "title": "Reject off-goal facts",
+      "content": "B discusses world ranking only indirectly. C gives length and European rank. D gives the world rank. None of those choices specifies the countries named in the notes."
+    },
+    {
+      "title": "Name both countries",
+      "content": "The sentence identifying Hungary and Romania directly satisfies the student's goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

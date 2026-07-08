@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the x-intercept location",
-      "content": "The <em>x</em>-intercept is the point where the parabola crosses the <em>x</em>-axis. At this point, $y = 0$."
+      "title": "Locate the intercept",
+      "content": "An $x$-intercept is where the graph crosses the $x$-axis, so its $y$-coordinate is $0$."
     },
     {
-      "title": "Read the x-coordinate from the grid",
-      "content": "Examining the graph, the parabola has its vertex at approximately $(3, -4)$.<br/><br/>Moving rightward from the vertex, the parabola rises and crosses the <em>x</em>-axis at a single point.<br/><br/>Reading directly from the grid, this crossing occurs at $x = 6$.<br/><br/>The <em>x</em>-coordinate of the <em>x</em>-intercept is <strong>6</strong>."
+      "title": "Read the coordinate",
+      "content": "The graph crosses the $x$-axis at $(6,0)$, so the $x$-coordinate is $6$. The answer is <strong>6</strong>."
     }
   ]
 }

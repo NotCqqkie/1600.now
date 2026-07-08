@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x+2y=6$$<br/>$$x-2y=4$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Graph the two lines",
+      "content": "Enter the two equations exactly as written:<br/>$$x+2y=6$$<br/>$$x-2y=4$$",
       "desmosExpressions": [
         "x+2y=6",
         "x-2y=4"
       ]
     },
     {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $5$."
+      "title": "Use elimination to confirm",
+      "content": "Add the equations so the $y$-terms cancel:<br/>$$(x+2y)+(x-2y)=6+4$$<br/>$$2x=10$$<br/>$$x=5$$"
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Read the requested coordinate",
+      "content": "The solution has $x$-coordinate $5$, so the requested value of $x$ is $5$. The answer is <strong>B</strong>."
     }
   ]
 }

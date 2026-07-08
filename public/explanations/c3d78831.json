@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret what the ratio 1:18 means",
-      "content": "A ratio of mentors to participants of 1:18 means: for every 1 mentor, there are 18 participants. In other words, the number of participants is always 18 times the number of mentors:<br/>$$\\text{participants} = 18 \\times \\text{mentors}$$"
+      "title": "Use the ratio order",
+      "content": "The ratio of mentors to participants is $1$ to $18$. That means every $1$ mentor corresponds to $18$ participants."
     },
     {
-      "title": "Apply the relationship with x mentors",
-      "content": "Since there are $x$ mentors at the robotics camp, substitute into the relationship:<br/>$$\\text{participants} = 18x$$<br/>That is the correct answer."
+      "title": "Scale by the mentors",
+      "content": "If there are $x$ mentors, multiply the participant count per mentor by $x$:<br/>$$18x$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

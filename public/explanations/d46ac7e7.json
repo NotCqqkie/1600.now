@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Order the events on a timeline",
-      "content": "Two past events are named: serving in World War II (1941&ndash;1945) and joining the New York Knicks for the 1947&ndash;48 season. The WWII service was completed before he joined the Knicks."
+      "title": "Order the past events",
+      "content": "Misaka served in World War II from 1941 to 1945, then joined the New York Knicks for the 1947-48 season. The blank must show that the service was completed before another past event."
     },
     {
-      "title": "Pick the tense that shows \"before another past event\"",
-      "content": "When one past action finishes before a second past action, English uses the past perfect: \"had\" + past participle. The word \"already\" in the sentence also signals a completed prior action, which lines up with past perfect."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"already served\"</strong>: simple past treats the WWII service as just another event on the same level as joining the Knicks; it loses the \"before that\" relationship. &#10007;</li><li><strong>\"was already serving\"</strong>: past progressive says the service was ongoing at the time he joined the Knicks, but the war had ended two years earlier. &#10007;</li><li><strong>\"already serves\"</strong>: present tense conflicts with the clearly past time frame (1941&ndash;45, 1947&ndash;48). &#10007;</li><li><strong>\"had already served\"</strong>: past perfect places the completed WWII service before the later moment of joining the Knicks. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use past perfect tense",
+      "content": "Choice A is simple past, choice B wrongly suggests ongoing service, and choice C uses present tense. The past perfect form \"had already served\" correctly places one completed past action before the later past action of joining the Knicks. The answer is <strong>D</strong>."
     }
   ]
 }

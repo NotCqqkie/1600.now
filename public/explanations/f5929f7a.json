@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-\\frac{1}{9}x$$<br/>$$y=\\frac{1}{2}x$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Set the expressions equal",
+      "content": "Both equations equal $y$, so set the right sides equal.<br/>$$-\\frac{1}{9}x=\\frac{1}{2}x$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Move the terms to one side and factor out $x$.<br/>$$-\\frac{1}{9}x-\\frac{1}{2}x=0$$<br/>$$-\\frac{11}{18}x=0$$<br/>$$x=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both equations and read the $x$-coordinate of the intersection. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=-\\frac{1}{9}x",
         "y=\\frac{1}{2}x"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, $0$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

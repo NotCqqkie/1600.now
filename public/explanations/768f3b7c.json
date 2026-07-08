@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a Desmos table shortcut for s",
-      "content": "The $x$-values are $-2s$, $-s$, and $s$. Because all $x$-values are scaled by the same nonzero constant $s$, set $s=1$ to see the pattern quickly. The Desmos lists plot the representative points $(-2,24)$, $(-1,21)$, and $(1,15)$.",
+      "title": "Use a simple scale",
+      "content": "Because every listed $x$-value contains the same constant $s$, set $s=1$ to see the pattern with representative points $(-2,24)$, $(-1,21)$, and $(1,15)$.",
       "desmosExpressions": [
         "x_1=[-2,-1,1]",
         "y_1=[24,21,15]"
       ]
     },
     {
-      "title": "Translate the fitted line back to s",
-      "content": "With $s=1$, the representative points have slope $$\\frac{21-24}{-1-(-2)}=-3$$ Using $(-1,21)$ in $y=-3x+b$ gives $b=18$, so $y=-3x+18$. Restoring the original scale means the slope is $-\\frac{3}{s}$: $$y=-\\frac{3}{s}x+18$$ Multiply by $s$: $$sy=-3x+18s$$ Then rearrange: $$3x+sy=18s$$"
+      "title": "Find the representative line",
+      "content": "Use two points to find the slope:\n$$\n\\frac{21-24}{-1-(-2)}=-3\n$$\nWith point $(-1,21)$ in $y=-3x+b$,\n$$\n21=3+b\n$$\n$$\nb=18\n$$\nSo the representative line is $y=-3x+18$."
     },
     {
-      "title": "Check the choices",
-      "content": "<strong>B</strong> is $3x+sy=18s$, so B is correct."
+      "title": "Restore the scale",
+      "content": "Undoing the temporary choice $s=1$ makes the slope $-\\frac{3}{s}$ while the intercept stays $18$:\n$$\ny=-\\frac{3}{s}x+18\n$$\n$$\nsy=-3x+18s\n$$\n$$\n3x+sy=18s\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

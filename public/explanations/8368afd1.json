@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the line",
-      "content": "The line on the graph represents all (tangerine, lemon) pound-combinations that total \\$18. Each point $(x, y)$ on the line gives the pounds of lemons $y$ that pair with $x$ pounds of tangerines."
+      "title": "Use the graph as a line",
+      "content": "The line shows combinations of pounds of tangerines and pounds of lemons that cost $18$ total. Each point on the line gives a matching pair."
     },
     {
-      "title": "Read the line at x = 4",
-      "content": "Locate $x = 4$ on the horizontal axis and trace up to the line: the corresponding $y$-value is $10$. So 4 pounds of tangerines pair with 10 pounds of lemons. That confirms <strong>B</strong> is correct."
+      "title": "Read the matching value",
+      "content": "Melvin bought $4$ pounds of tangerines, so find $x=4$ on the graph and read the corresponding lemon value on the line. The graph gives $10$ pounds of lemons. The answer is <strong>B</strong>."
     }
   ]
 }

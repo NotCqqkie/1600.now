@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining clue",
-      "content": "The key signal is in the second note: the research team wanted to better understand the mechanics behind the structural properties of bird nests. This directly identifies the research team's primary goal."
+      "title": "Identify the aim",
+      "content": "The notes state that Rao's team wanted to better understand the mechanics behind bird nests' flexible yet cohesive structural properties. That sentence directly gives the research study's primary aim."
     },
     {
-      "title": "Match the signal to the choices",
-      "content": "The correct answer directly states this goal: Rao's team wanted to better understand the mechanics behind bird nests' uniquely flexible yet cohesive structural properties.<br/><br/>The other three options describe research methods, findings, or nest characteristics, not the aim itself.<br/><br/>That is the correct answer."
+      "title": "Separate aim from method",
+      "content": "B describes the model and analysis method. C describes a finding from the experiment. D describes the structures being studied but not why the team studied them. The choice that states the reason for the study is the aim. The answer is <strong>A</strong>."
     }
   ]
 }

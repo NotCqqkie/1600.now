@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find c from the given condition p(c) = 10",
-      "content": "Substitute $x = c$ into the function definition: $$p(c) = \\frac{(c-c)^2 + 180}{2c} = \\frac{0 + 180}{2c} = \\frac{90}{c}$$ Since we know $p(c) = 10$, set up the equation: $$\\frac{90}{c} = 10$$ Multiply both sides by $c$ and divide by 10: $$90 = 10c$$\n$$c = 9$$"
+      "title": "Use the given function value",
+      "content": "Substitute $x=c$ into the function. The squared term becomes $0$, so the given value of $p(c)$ can be used to solve for the constant:<br/>$$p(c)=\\frac{(c-c)^2+180}{2c}=\\frac{180}{2c}=\\frac{90}{c}$$<br/>Since $p(c)=10$:<br/>$$\\frac{90}{c}=10$$<br/>$$c=9$$"
     },
     {
-      "title": "Calculate p(15) using c = 9",
-      "content": "Now substitute $x = 15$ and $c = 9$ into the original function: $$p(15) = \\frac{(15-9)^2 + 180}{2(9)}$$ Simplify the numerator: $$p(15) = \\frac{6^2 + 180}{18} = \\frac{36 + 180}{18} = \\frac{216}{18} = 12$$ That matches <strong>Choice D &mdash; 12.00</strong>."
+      "title": "Evaluate the function",
+      "content": "Now substitute $x=15$ and $c=9$ into the original function, then simplify the numerator and denominator completely:<br/>$$p(15)=\\frac{(15-9)^2+180}{2(9)}$$<br/>$$p(15)=\\frac{36+180}{18}=\\frac{216}{18}=12$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

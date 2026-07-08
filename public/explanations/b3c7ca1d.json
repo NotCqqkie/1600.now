@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "When does a linear system have no solution?",
-      "content": "Two lines have no point in common when they are parallel: same slope but different $y$-intercepts. We need to find the choice whose two equations match that pattern."
+      "title": "Identify no solution",
+      "content": "A system of two linear equations has no solution when the lines are parallel and distinct. That means they have the same slope but different $y$-intercepts."
     },
     {
-      "title": "Check each choice",
-      "content": "<ul><li>A) $x=4$ is a vertical line and $y=7$ is a horizontal line; they cross at $(4,7)$. One solution.</li><li>B) $y=8x+4$ has slope $8$ and $y=3x+4$ has slope $3$; different slopes intersect once (here at $(0,4)$). One solution.</li><li>C) $y=12x+2$ and $y=12x+17$ have the same slope $12$ but different intercepts $2$ and $17$. Parallel, no solution.</li><li>D) $y=6$ has slope $0$ and $y=4x+6$ has slope $4$; different slopes intersect once (at $(0,6)$). One solution.</li></ul>That is the correct answer."
+      "title": "Find the parallel pair",
+      "content": "The system\n$$\ny=12x+2\n$$\n$$\ny=12x+17\n$$\nhas the same slope, $12$, but different intercepts, $2$ and $17$."
+    },
+    {
+      "title": "Choose the system",
+      "content": "Those two lines never intersect, so the system has no solution. The answer is <strong>C</strong>."
     }
   ]
 }

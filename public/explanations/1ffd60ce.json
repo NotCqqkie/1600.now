@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what needs to happen",
-      "content": "By 367 BCE, Sidonian coins had fallen to 74.2% silver &mdash; below the 80% trade threshold &mdash; causing a confidence crisis. Abd'aštart I needed to raise the silver percentage above 80% without adding more silver (Sidon was under heavy financial pressure). The key insight: keeping the <em>amount</em> of silver constant while reducing the coin&rsquo;s total weight automatically raises the <em>percentage</em> of silver."
+      "title": "Identify the currency problem",
+      "content": "The passage says confidence likely fell because Sidonian coins had dropped below the silver content widely considered suitable for trade. The coin from 367 BCE contained only 74.2 percent silver, and its yellowish appearance would have made the change visible to traders. The solution must therefore make the coins seem more trade-suitable while Sidon still has heavy financial obligations."
     },
     {
-      "title": "Eliminate wrong choices, confirm the right one",
-      "content": "<ul><li><strong>Choice A &mdash; proclaim that the percentage of silver in coins suitable for trade would be raised to a threshold higher than 80%.</strong>: Raising the threshold would make the situation worse, not better &mdash; it would disqualify even more coins. &#10007;</li><li><strong>Choice B &mdash; keep the amount of silver in Sidonian coins consistent with that in coins minted in 367 BCE but decrease their weight.</strong>: Same silver mass in a lighter coin $\\Rightarrow$ higher silver percentage $\\Rightarrow$ coin clears the 80% threshold and restores trade-suitability. &#10003;</li><li><strong>Choice C &mdash; begin minting heavier coins with a proportion of silver to copper similar to that in coins minted in 367 BCE.</strong>: Keeping the same ratio (~74% silver) in a heavier coin still leaves coins below 80% &mdash; confidence is not restored. &#10007;</li><li><strong>Choice D &mdash; fund the mining of some copper deposits that were not available to Ba'alšillem II.</strong>: More copper is the opposite of what&rsquo;s needed; the problem was too much copper making coins unsuitable for trade. &#10007;</li></ul>That matches <strong>Choice B &mdash; keep the amount of silver in Sidonian coins consistent with that in coins minted in 367 BCE but decrease their weight.</strong>."
+      "title": "Avoid adding more silver",
+      "content": "Because the city remains under financial pressure, the most logical fix is not to spend substantially more silver on each coin. If the amount of silver stays the same but the total coin weight decreases, the copper portion must shrink. That raises the percentage of silver in each coin even though the actual amount of silver is unchanged."
+    },
+    {
+      "title": "Test the proposed actions",
+      "content": "Choice A would raise the required silver threshold, making the confidence problem harder to solve. Choice C keeps a similar low proportion of silver to copper, so heavier coins would still look unsuitable for trade. Choice D adds access to copper, but copper is associated with the very problem traders noticed. The action that keeps the silver amount consistent while decreasing the coin weight explains how confidence could be relieved without extra silver. The answer is <strong>B</strong>."
     }
   ]
 }

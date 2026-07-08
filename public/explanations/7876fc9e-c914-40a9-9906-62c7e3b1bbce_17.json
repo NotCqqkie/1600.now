@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and find a finite verb",
-      "content": "The subject is <em>The extensor digitorum brevis</em> — a single muscle. The phrase \"which is attached to the calcaneus\" is a relative clause; the main clause still needs a finite verb, not a participle or infinitive."
+      "title": "Find the muscle's verb",
+      "content": "The subject is the singular noun phrase 'The extensor digitorum brevis.' The relative clause about the calcaneus interrupts the sentence, but the main clause still needs a finite verb agreeing with that singular subject."
     },
     {
-      "title": "Match a singular finite verb",
-      "content": "<strong>bears</strong> (a singular present-tense verb) agrees with the singular subject and works as the main verb. <em>Bearing</em> and <em>having borne</em> are participles (not finite verbs), and <em>to bear</em> is an infinitive — none can serve as the main verb of the sentence.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Use the singular verb",
+      "content": "Choice A and Choice D are participles, and Choice B is an infinitive; none can serve as the main verb. The remaining choice is a singular finite verb that completes the sentence. The answer is <strong>C</strong>."
     }
   ]
 }

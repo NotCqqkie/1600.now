@@ -1,0 +1,15 @@
+{
+  "questionId": "6ddad6e2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared property",
+      "content": "The notes show the same pattern in both countries: Manila is the capital of the Philippines but Quezon City is its largest city, and Vaduz is the capital of Liechtenstein but Schaan is its largest city."
+    },
+    {
+      "title": "Reject one-sided details",
+      "content": "B names the most populous cities but does not connect them to the capitals. C covers only the Philippines. D names the capitals but omits the population contrast. The best statement directly says the capital is not the most populous city in both countries. The answer is <strong>A</strong>."
+    }
+  ]
+}

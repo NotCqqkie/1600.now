@@ -1,0 +1,15 @@
+{
+  "questionId": "2e37b1e9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the effort clues",
+      "content": "The blank describes excavating a stegosaur fossil. The text says the process can take weeks or months of hard, physically tiring work, so the missing word must describe a demanding process."
+    },
+    {
+      "title": "Reject unsupported traits",
+      "content": "Choice A concerns cost, which the text never mentions. Choice B concerns frequency, not effort. Choice C is contradicted by the weeks-or-months timeline. The word that fits hard, tiring work is <em>difficult</em>. The answer is <strong>D</strong>."
+    }
+  ]
+}

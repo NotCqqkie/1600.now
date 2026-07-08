@@ -1,0 +1,15 @@
+{
+  "questionId": "739f9f71",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete subject and verb",
+      "content": "The sentence needs 'Ann Quinby of Kentucky played an important role.' The location completes the subject, and 'played' is the main verb."
+    },
+    {
+      "title": "Reject punctuation breaks",
+      "content": "Choice A creates the fragment 'Played an important role.' Choice B uses a colon between the subject and verb. Choice C uses a semicolon after a phrase that is not an independent clause. The remaining choice keeps the subject and verb together without punctuation. The answer is <strong>D</strong>."
+    }
+  ]
+}

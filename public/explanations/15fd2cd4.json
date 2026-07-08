@@ -1,0 +1,15 @@
+{
+  "questionId": "15fd2cd4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place however inside the clause",
+      "content": "The sentence says few particles are likely to reach Earth's surface because most burn up in the mesosphere. The word however is not joining two independent clauses here; it is being inserted parenthetically after surface, before the dependent since clause explains the reason."
+    },
+    {
+      "title": "Keep since dependent",
+      "content": "Choice A puts a semicolon after however even though the following since clause is dependent. Choice C puts a semicolon before that dependent clause, and Choice D makes the since clause a fragment after a period. Commas around however keep the sentence grammatical. The answer is <strong>B</strong>."
+    }
+  ]
+}

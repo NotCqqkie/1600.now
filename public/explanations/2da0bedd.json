@@ -1,0 +1,19 @@
+{
+  "questionId": "2da0bedd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Count novels and protagonists",
+      "content": "The passage discusses two novels and two protagonists, Catherine Morland and Emily St. Aubert. The phrase must show experiences belonging to the protagonists of the novels."
+    },
+    {
+      "title": "Reject number and possession errors",
+      "content": "Choice A makes novels possessive but not protagonists. Choice C makes both nouns singular. Choice D uses singular novel even though two novels are being compared."
+    },
+    {
+      "title": "Choose two plural possessives",
+      "content": "Using plural possessive forms for both novels and protagonists correctly shows the protagonists' experiences in the two novels. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "424de47a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert side scale to area scale",
+      "content": "The side lengths of parallelogram JKLM are $3$ times the corresponding side lengths of parallelogram WXYZ. For similar figures, areas scale by the square of the side-length scale factor.",
+      "formula": "$$A_{\\text{new}} = k^2 \\cdot A_{\\text{old}}$$"
+    },
+    {
+      "title": "Apply the area scale",
+      "content": "Use $k=3$ and the original area $4$:<br/>$$4\\cdot3^2=4\\cdot9=36$$<br/>The area is $36$ square centimeters. The answer is <strong>C</strong>."
+    }
+  ]
+}

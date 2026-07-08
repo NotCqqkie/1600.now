@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate to equations and equate",
-      "content": "$a$ is $240\\%$ of $b$ gives $a = 2.40b$, and $a$ is $70\\%$ of $c$ gives $a = 0.70c$. Equating and solving for $c$ in terms of $b$:<br/>$$2.40b = 0.70c$$<br/>$$c = \\frac{2.40b}{0.70} = \\frac{240}{70}b = \\frac{24}{7}b$$"
+      "title": "Translate the percent statements",
+      "content": "The statements give two expressions for $a$.\n$$a=2.40b$$\n$$a=0.70c$$\nSet them equal.\n$$2.40b=0.70c$$"
     },
     {
-      "title": "Find p such that c equals p percent of b",
-      "content": "Since $c = \\frac{24}{7}b$ and we need $c = \\frac{p}{100}b$:<br/>$$\\frac{p}{100} = \\frac{24}{7}$$<br/>$$p = \\frac{24}{7} \\times 100 = \\frac{2400}{7} = 342.\\overline{857142}$$<br/>The choice closest to $342.\\overline{857142}$ is $343$. That confirms <strong>D</strong> is correct."
+      "title": "Find c as a percent of b",
+      "content": "Solve for $c$ in terms of $b$.\n$$c=\\frac{2.40}{0.70}b=\\frac{24}{7}b$$\nSo\n$$\\frac{p}{100}=\\frac{24}{7}$$\n$$p=\\frac{2{,}400}{7}=342.857142$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

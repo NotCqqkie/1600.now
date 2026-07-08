@@ -1,0 +1,15 @@
+{
+  "questionId": "ff7962ff",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the opening modifier",
+      "content": "The phrase “Known as the Tunguska event” must modify the subject that immediately follows it. The thing known as the Tunguska event is the explosion, not the forest, an annual awareness day, or the area of forest."
+    },
+    {
+      "title": "Reject wrong subjects",
+      "content": "A makes the forest the subject, B makes an annual day the subject, and D makes the obliterated forest area the subject. The completion must begin with the explosion and then connect the result to International Asteroid Day. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "78aa6bc2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the orbital difference",
+      "content": "The student wants to contrast the two moons' orbits. The notes give one clear difference: Callisto takes 16.69 Earth days to orbit Jupiter, while Adrastea takes only 0.30 Earth days."
+    },
+    {
+      "title": "Reject similarities and errors",
+      "content": "B and C emphasize similarities involving Kepler's laws rather than contrasting the moons. D invents a circular orbit for Adrastea, even though the notes connect moons with elliptical orbits."
+    },
+    {
+      "title": "Compare orbital speeds",
+      "content": "Adrastea completes its orbit many times faster than Callisto, directly contrasting their orbital periods. The answer is <strong>A</strong>."
+    }
+  ]
+}

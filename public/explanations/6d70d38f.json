@@ -1,0 +1,15 @@
+{
+  "questionId": "6d70d38f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the glacier result",
+      "content": "The sentence explains that glaciers bore down on Earth's crust and then left a fjord carved into the landscape. The transition must show that the fjord was a result of the glaciers' movement and pressure."
+    },
+    {
+      "title": "Choose a result transition",
+      "content": "A signals a general statement, B signals an example, and D signals contrast. None fits a cause-and-effect relationship between glacial pressure and fjord formation. The answer is <strong>C</strong>."
+    }
+  ]
+}

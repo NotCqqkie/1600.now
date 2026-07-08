@@ -1,0 +1,15 @@
+{
+  "questionId": "c8d31a98",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use the points $(0,3)$ and $(1,-4)$.\n$$\nm=\\frac{-4-3}{1-0}=\\frac{-7}{1}=-7\n$$"
+    },
+    {
+      "title": "Use the intercept",
+      "content": "The point $(0,3)$ is on the $y$-axis, so the $y$-intercept is $3$. The line is\n$$\ny=-7x+3\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

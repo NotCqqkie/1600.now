@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "The passage describes Ferraro using centuries-old cooking ingredient lists to discover fruit varieties, then introduces her analysis of Renaissance paintings as another source.<br/><br/>Both methods serve the same investigative purpose. The logical relationship is <strong>addition</strong>: one method plus another method, not replacement or conclusion."
+      "title": "Map the research methods",
+      "content": "Ferraro uses centuries-old cooking ingredient lists to identify historical fruit varieties. The next sentence adds another source, Renaissance paintings, that serves the same research goal."
     },
     {
-      "title": "Match the transition",
-      "content": "“Additionally” marks that paintings are another research method she employs alongside ingredient lists. “Instead” would falsely signal switching from one method to the other, “In sum” would suggest summary, and “Thus” would imply consequence rather than a parallel approach.<br/><br/><strong>D</strong> is correct."
+      "title": "Reject non-additive transitions",
+      "content": "<ul><li><strong>Choice A</strong>: In sum would signal a summary, not another method.</li><li><strong>Choice B</strong>: Instead would falsely replace the ingredient lists with paintings.</li><li><strong>Choice C</strong>: Thus would make the paintings a result rather than an added source.</li></ul>"
+    },
+    {
+      "title": "Select the additive signal",
+      "content": "The transition must show that analyzing paintings is one more way Ferraro researches past fruit varieties in Umbria. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the slope formula",
-      "content": "The fastest approach is to apply the slope formula directly:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$<br/>This formula calculates the ratio of vertical change to horizontal change between two points."
+      "content": "The slope is the change in $y$ divided by the change in $x$ between the two points."
     },
     {
-      "title": "Substitute the points",
-      "content": "With points $(5, 7)$ and $(16, 26)$:<br/>$$m = \\frac{26 - 7}{16 - 5} = \\frac{19}{11}$$<br/>The slope of the line is $\\frac{19}{11}$.<br/>The answer is <strong>19/11</strong>."
+      "title": "Substitute the coordinates",
+      "content": "Using $(5,7)$ and $(16,26)$,<br/>$$m=\\frac{26-7}{16-5}=\\frac{19}{11}$$<br/>The answer is <strong>19/11</strong>."
     }
   ]
 }

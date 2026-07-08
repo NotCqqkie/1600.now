@@ -1,0 +1,19 @@
+{
+  "questionId": "8d0e944a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use perpendicular slopes",
+      "content": "A radius to a tangent point is perpendicular to the tangent. Since the tangent slope is \n$$\n\\frac{4}{7}\n$$, the radius slope is\n$$-\\frac{7}{4}$$"
+    },
+    {
+      "title": "Write the radius slope",
+      "content": "Using the center $(3,8)$ and tangent point $(a,-5)$, the radius slope is\n$$\\frac{-5-8}{a-3}=\\frac{-13}{a-3}$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Set the two slope expressions equal and solve.\n$$\\frac{-13}{a-3}=-\\frac{7}{4}$$\n$$-52=-7(a-3)$$\n$$a=\\frac{73}{7}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

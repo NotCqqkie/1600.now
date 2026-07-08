@@ -1,0 +1,15 @@
+{
+  "questionId": "5c0f488e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $x=6$ in the function. Substitute carefully before evaluating the exponent.\n$$f(6)=3(2)^6$$"
+    },
+    {
+      "title": "Evaluate the power",
+      "content": "Compute the exponent first, then multiply the result by $3$.\n$$f(6)=3(64)=192$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

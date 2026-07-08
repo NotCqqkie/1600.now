@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the underlined claim",
-      "content": "The underlined sentence argues that grid-cell-like behavior in neural networks has <strong>less to do with resemblance to biological brains</strong> and <strong>more to do with programmed rules</strong>. A supporting finding must show that the programming &mdash; not brain-like structure &mdash; explains the behavior.<ul><li><strong>\"The rules that allow for networks to exhibit behaviors like those of grid cells have no equivalent in the function of biological brains.\"</strong>: If the rules enabling grid-cell behavior have no biological counterpart, then the behavior clearly comes from programming, not from any true resemblance to brains. This directly supports the claim. &#10003;</li><li><strong>\"The networks that do not exhibit behaviors like those of grid cells were nonetheless programmed with rules that had proven useful in earlier neural-network studies.\"</strong>: This concerns networks that <em>don't</em> exhibit grid-cell behavior and says nothing about whether the rules of those that do have a biological basis. &#10007;</li><li><strong>\"Neural networks can often accomplish tasks that biological brains do, but they are typically programmed with rules to model multiple types of brain cells simultaneously.\"</strong>: Modeling multiple cell types is unrelated to the claim about programmed rules vs. brain resemblance for grid-cell behavior specifically. &#10007;</li><li><strong>\"Once a neural network is programmed, it is trained on certain tasks to see if it can independently arrive at processes that are similar to those performed by biological brains.\"</strong>: This describes a training process but doesn't address whether the grid-cell-like behavior originates from programming or from genuine brain similarity. &#10007;</li></ul>"
+      "title": "Focus on programmed rules",
+      "content": "The underlined claim says grid-cell-like behavior in neural networks comes less from real similarity to biological brains and more from rules programmed into the networks. A supporting finding must therefore show that the programmed rules, rather than brain-like function, are what produce the apparent grid-cell behavior."
     },
     {
-      "title": "Confirm the match",
-      "content": "<strong>The rules that allow for networks to exhibit behaviors like those of grid cells have no equivalent in the function of biological brains.</strong> establishes that the rules producing grid-cell-like behavior have no biological equivalent, proving the behavior stems from programming rather than brain resemblance. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Support the source of behavior",
+      "content": "A does exactly that: if the rules allowing grid-cell-like behavior have no equivalent in biological brains, then the similarity is only an artifact of programming. B concerns networks that do not show the behavior. C shifts to multiple cell types instead of grid cells. D describes training after programming but does not explain where the grid-cell-like behavior comes from. The answer is <strong>A</strong>."
     }
   ]
 }

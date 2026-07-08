@@ -1,0 +1,15 @@
+{
+  "questionId": "6fef61ec",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants a similarity between the two trails. The notes say both are rail trails."
+    },
+    {
+      "title": "Choose the matching sentence",
+      "content": "Choice A and Choice D describe only one trail, while Choice C contrasts their states. The sentence naming both trails as rail trails states the similarity. The answer is <strong>B</strong>."
+    }
+  ]
+}

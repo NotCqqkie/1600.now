@@ -1,0 +1,19 @@
+{
+  "questionId": "58e1528a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y-intercept",
+      "content": "The graph crosses the y-axis at $(0,2)$. A point on the graph must satisfy the equation $4x+By=12$, so substitute this intercept to solve for $B$."
+    },
+    {
+      "title": "Substitute the point",
+      "content": "Use $x=0$ and $y=2$ in the equation.\n$$4(0)+B(2)=12$$\n$$2B=12$$\n$$B=6$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The value of the constant is $6$. The answer is <strong>D</strong>."
+    }
+  ]
+}

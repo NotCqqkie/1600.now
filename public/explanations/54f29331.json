@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal",
-      "content": "The student wants to <strong>specify the average length of the green iguana</strong>. The relevant note is: <strong>&ldquo;It has an average length of 4.8 feet.&rdquo;</strong> The correct sentence must state that figure explicitly &mdash; not habitat, not diet, not a combination that omits the length."
+      "title": "Use the requested measurement",
+      "content": "The student wants to specify the green iguana's average length. The relevant note states that the green iguana has an average length of 4.8 feet."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — The green iguana can be found in Central America.</strong>: Gives habitat information; says nothing about length. &#10007;</li><li><strong>Choice B — The green iguana has an average length of 4.8 feet.</strong>: Directly states the average length of 4.8 feet, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C — One species of reptile found in Brazil primarily eats leaves and fruit.</strong>: Describes diet and location; omits length entirely. &#10007;</li><li><strong>Choice D — The green iguana is a reptile that primarily eats leaves and fruit.</strong>: Gives classification and diet; omits length entirely. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject irrelevant facts",
+      "content": "Choice A gives habitat information. Choice C gives location and diet. Choice D gives classification and diet. None of those states the requested measurement. The correct sentence must give the average length directly. The answer is <strong>B</strong>."
     }
   ]
 }

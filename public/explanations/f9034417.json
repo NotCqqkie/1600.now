@@ -1,0 +1,19 @@
+{
+  "questionId": "f9034417",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the total weight",
+      "content": "The elevator carries the $180$-pound person, $x$ boxes at $24$ pounds each, and $y$ boxes at $58$ pounds each.\n$$180+24x+58y$$"
+    },
+    {
+      "title": "Apply the maximum",
+      "content": "The total weight must be at most $4{,}920$ pounds.\n$$180+24x+58y\\le4{,}920$$"
+    },
+    {
+      "title": "Isolate the box weight",
+      "content": "Subtract the person's weight from both sides.\n$$24x+58y\\le4{,}920-180$$\n$$24x+58y\\le4{,}740$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6029264a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the decay factor",
+      "content": "A $25\\%$ decrease means each $4$-second interval keeps $75\\%$ of the previous points. As a decimal, the multiplier is $0.75$."
+    },
+    {
+      "title": "Count the intervals",
+      "content": "Since $x$ is measured in seconds and each interval is $4$ seconds, the number of intervals is\n$$\n\\frac{x}{4}\n$$\nStarting from $640$ points, the model is\n$$\nf(x)=640(0.75)^{\\frac{x}{4}}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

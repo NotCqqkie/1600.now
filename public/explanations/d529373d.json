@@ -1,0 +1,15 @@
+{
+  "questionId": "d529373d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join clauses with contrast",
+      "content": "The first clause says one might assume such misnaming cases are rare. The second clause says the opposite: they are part of a whole list of examples. The conjunctive adverb <em>on the contrary</em> needs a semicolon before it and a comma after it."
+    },
+    {
+      "title": "Avoid comma splices",
+      "content": "<strong>Choice A</strong> joins independent clauses with only commas. <strong>Choice B</strong> puts the semicolon after the transition instead of before it. <strong>Choice C</strong> gives no punctuation after <em>rare</em>. The answer is <strong>D</strong>."
+    }
+  ]
+}

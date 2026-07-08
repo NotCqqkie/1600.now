@@ -1,0 +1,15 @@
+{
+  "questionId": "b5057be9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the time",
+      "content": "The equation gives speed as $s=12+5t$. For $6$ seconds after acceleration begins, use $t=6$."
+    },
+    {
+      "title": "Calculate the speed",
+      "content": "Substitute and simplify:<br/>$$s=12+5(6)=12+30=42$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

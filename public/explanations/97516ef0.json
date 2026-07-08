@@ -1,0 +1,15 @@
+{
+  "questionId": "97516ef0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the while contrast",
+      "content": "The underlined sentence says horizontal gene transfer is common among prokaryotes but rarely observed among eukaryotes. Its function is to contrast detection frequency across two organism categories."
+    },
+    {
+      "title": "Eliminate shifted functions",
+      "content": "A shifts to mechanics, C shifts to a flawed perception introduced later, and D claims similarity. The sentence instead compares how often one biological phenomenon has been detected in the two groups. The answer is <strong>B</strong>."
+    }
+  ]
+}

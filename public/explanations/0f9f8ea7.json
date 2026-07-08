@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what initially measured means",
-      "content": "The phrase <em>initially measured</em> refers to the starting point in time. Since $x$ represents hours after the initial measurement, the initial time corresponds to $x = 0$."
+      "title": "Use the initial time",
+      "content": "Initially measured means $x=0$ hours after the starting measurement. Substitute $0$ into the model to find the culture size at the starting time."
     },
     {
-      "title": "Substitute x = 0 into the equation",
-      "content": "When $x=0$, the model gives $$y=4200(a)^0.$$ By the zero exponent rule, $a^0=1$ for any nonzero base $a$. Therefore $$y=4200\\cdot1=4200.$$ The predicted initial number of yeast cells was <strong>4200</strong>."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "No graph is needed here: for an exponential model, the initial value is the value at $x=0$. That value is the coefficient $4200$, so the answer is <strong>4200</strong>."
+      "title": "Evaluate the exponential model",
+      "content": "Use the zero-exponent rule:<br/>$$y=4{,}200(a)^0=4{,}200(1)=4{,}200$$<br/>The answer is <strong>4200</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "a2b8d020",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants to emphasize a similarity between the brown violetear and the little hermit. The notes describe different sizes, tail feathers, ear patches, and bill shapes, but both birds are identified as hummingbirds in Suriname with black bills."
+    },
+    {
+      "title": "Avoid single-bird details",
+      "content": "Choice B describes only the little hermit, so it cannot emphasize a similarity between two birds. Choice C focuses on a size difference and vaguely mentions shared traits without naming one. Choice D discusses the guidebook and its authors instead of comparing the birds. The answer is <strong>A</strong>."
+    }
+  ]
+}

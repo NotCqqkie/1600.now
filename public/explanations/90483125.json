@@ -1,0 +1,15 @@
+{
+  "questionId": "90483125",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the coincidence clue",
+      "content": "The sentence says two cicada broods on different cycles coincided in 2024. The blank needs a noun for separate things coming together at the same time, especially in a rare event that happens once every 221 years."
+    },
+    {
+      "title": "Reject wrong event nouns",
+      "content": "Choice A means one thing following another, not simultaneous emergence. Choice B means splitting apart. Choice D means an ending, but the passage describes cicadas emerging. The answer is <strong>C</strong>."
+    }
+  ]
+}

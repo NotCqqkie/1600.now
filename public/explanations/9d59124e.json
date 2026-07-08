@@ -1,0 +1,19 @@
+{
+  "questionId": "9d59124e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the legacy clue",
+      "content": "The sentence says being first to do something is highly effective for creating a lasting historical legacy. The example of Lucia Pereira Rocha shows someone remembered because she was the first to achieve certain aviation milestones."
+    },
+    {
+      "title": "Rule out mismatched verbs",
+      "content": "Choice A means acknowledge an existing legacy, not create one. Choice B means weaken it. Choice C means restrict it. None fits the idea of making a lasting legacy for oneself."
+    },
+    {
+      "title": "Choose the creation verb",
+      "content": "The remaining verb means create or set up, which fits making a lasting historical legacy through first achievements. The answer is <strong>D</strong>."
+    }
+  ]
+}

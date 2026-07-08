@@ -1,0 +1,15 @@
+{
+  "questionId": "309b4a12",
+  "correctAnswer": "-3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the intercept location",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. That point always has $x=0$."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph crosses the $y$-axis at $y=-3$. The answer is <strong>-3</strong>."
+    }
+  ]
+}

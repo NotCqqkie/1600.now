@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate $c$",
-      "content": "The equation is $$c-9=18p+k.$$ To solve for $c$, undo the subtraction by adding $9$ to both sides."
+      "title": "Undo the subtraction",
+      "content": "The equation is\n$$\nc-9=18p+k\n$$\nTo isolate $c$, undo subtracting $9$ by adding $9$ to both sides."
     },
     {
       "title": "Write the equivalent equation",
-      "content": "$$c=18p+k+9.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The equation $c=18p+k+9$ is equivalent to the original equation. Subtracting $9$ again moves in the wrong direction, and multiplication or division by $9$ does not undo the original subtraction. <strong>A</strong> is correct."
+      "content": "Adding the same value to both sides keeps the equation equivalent:\n$$\nc=18p+k+9\n$$\nThis is the expression for $c$ in terms of $p$ and $k$. The answer is <strong>A</strong>."
     }
   ]
 }

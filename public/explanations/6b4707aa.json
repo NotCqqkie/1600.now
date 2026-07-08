@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the radius from standard form",
-      "content": "In the circle equation, the right side equals $r^2$. Read circle M's radius from its equation first, then double that radius for circle N."
+      "title": "Read circle M",
+      "content": "In a circle equation, the right side is $r^2$. For circle $M$:<br/>$$(x-4)^2+(y+6)^2=36$$<br/>so the radius is:<br/>$$\\sqrt{36}=6$$"
     },
     {
-      "title": "Identify the radius of circle M",
-      "content": "The equation of circle M is $(x-4)^2 + (y+6)^2 = 36$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r_M^2$. Therefore $r_M^2 = 36$, giving us $r_M = 6$."
+      "title": "Double the radius",
+      "content": "Circle $N$ has twice the radius of circle $M$:<br/>$$2(6)=12$$"
     },
     {
-      "title": "Calculate k for circle N using the radius relationship",
-      "content": "Circle N has radius twice that of circle M, so $r_N = 2 \\cdot r_M = 2 \\cdot 6 = 12$. The equation for circle N is $(x-4)^2 + (y+6)^2 = k$, where $k$ represents $r_N^2$. Therefore: $$k = 12^2 = 144$$"
+      "title": "Square the new radius",
+      "content": "The constant $k$ is the square of circle $N$'s radius:<br/>$$k=12^2=144$$<br/>The answer is <strong>144</strong>."
     }
   ]
 }

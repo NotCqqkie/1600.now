@@ -1,0 +1,15 @@
+{
+  "questionId": "5c2bfa63",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the claim",
+      "content": "Moreno and colleagues challenge the idea that people universally make temporal distinctions along imagined linear axes like left and right. Supporting evidence should show Yupno speakers using a different spatial organization for time."
+    },
+    {
+      "title": "Reject irrelevant findings",
+      "content": "A concerns where gestures occur, not which axis represents time. C concerns hand preference, not temporal organization. D concerns grammar shared with Spanish, not spatial gestures for past or future. The answer is <strong>B</strong>."
+    }
+  ]
+}

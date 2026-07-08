@@ -1,0 +1,15 @@
+{
+  "questionId": "a8e04067",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the contrast structure",
+      "content": "The first clause says the beach sand is a different shade. What follows explains that most sand gets quartz and feldspar colors, while iron oxide gives this beach a red tint. A colon can introduce that explanation."
+    },
+    {
+      "title": "Reject comma and period errors",
+      "content": "A creates a comma splice before a clause that continues the sentence, B wrongly isolates though with commas, and D cuts though off with a period. The colon starts the explanatory contrast cleanly. The answer is <strong>C</strong>."
+    }
+  ]
+}

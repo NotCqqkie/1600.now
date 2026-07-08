@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the y-intercept condition",
-      "content": "The y-intercept is at $(0, -285)$, which means $f(0) = -285$.<br/><br/>Substituting $x = 0$ into $f(x) = a^x + b$:<br/>$$a^0 + b = -285$$<br/>Since $a^0 = 1$ for any nonzero base $a$:<br/>$$1 + b = -285$$"
+      "title": "Use the y-intercept",
+      "content": "The $y$-intercept $(0,-285)$ means $f(0)=-285$. Substitute $x=0$ into $f(x)=a^x+b$:\n$$\na^0+b=-285\n$$"
     },
     {
-      "title": "Solve for b",
-      "content": "Subtract 1 from both sides to isolate $b$:<br/>$$b = -285 - 1 = -286$$"
+      "title": "Find the constant",
+      "content": "Since $a^0=1$ for a nonzero base,\n$$\n1+b=-285\n$$\n$$\nb=-286\n$$\nThe answer is <strong>-286</strong>."
     }
   ]
 }

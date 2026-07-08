@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the blank must express",
-      "content": "The passage contrasts a misleading situation (&ldquo;only a few users&rdquo;) with the actual situation (&ldquo;over 8,000 users&rdquo;). The blank describes 8,000 ratings as a quantity that justifies trusting the average. The word needed means &ldquo;enough&rdquo; or &ldquo;sufficient.&rdquo;"
+      "content": "The passage contrasts a misleading situation (\"only a few users\") with the actual situation (\"over 8,000 users\"). The blank describes 8,000 ratings as a quantity that justifies trusting the average. The word needed means \"enough\" or \"sufficient.\""
     },
     {
       "title": "Substitute each choice and eliminate",
-      "content": "<ul><li><strong>\"excessive\"</strong>: &ldquo;Excessive&rdquo; means too much or more than needed. Calling 8,000 ratings excessive contradicts the passage&rsquo;s point that more ratings increase reliability. &#10007;</li><li><strong>\"adequate\"</strong>: &ldquo;Adequate&rdquo; means sufficient or enough &mdash; exactly the contrast the passage draws between a mere handful of ratings (unreliable) and 8,000 ratings (enough to trust the average). &#10003;</li><li><strong>\"accurate\"</strong>: &ldquo;Accurate&rdquo; describes correctness, not quantity. The passage compares few users to many users, not incorrect numbers to correct ones. &#10007;</li><li><strong>\"insufficient\"</strong>: &ldquo;Insufficient&rdquo; means not enough, which directly contradicts the passage&rsquo;s claim that 8,000 ratings support confidence in the average. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "<ul><li><strong>\"excessive\"</strong>: \"Excessive\" means too much or more than needed. Calling 8,000 ratings excessive contradicts the passage's point that more ratings increase reliability. ✗</li><li><strong>\"adequate\"</strong>: \"Adequate\" means sufficient or enough — exactly the contrast the passage draws between a mere handful of ratings (unreliable) and 8,000 ratings (enough to trust the average). ✓</li><li><strong>\"accurate\"</strong>: \"Accurate\" describes correctness, not quantity. The passage compares few users to many users, not incorrect numbers to correct ones. ✗</li><li><strong>\"insufficient\"</strong>: \"Insufficient\" means not enough, which directly contradicts the passage's claim that 8,000 ratings support confidence in the average. ✗</li></ul>That matches the correct answer."
     }
   ]
 }

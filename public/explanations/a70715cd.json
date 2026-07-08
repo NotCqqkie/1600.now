@@ -1,0 +1,15 @@
+{
+  "questionId": "a70715cd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use what correlation shows",
+      "content": "The prompt states that participant P3 gave equal actual ratings to abstract and cubist paintings. The graph shows different correlations between the model's predictions and P3's ratings for those two styles. Different correlations indicate that the model did not treat the two styles identically in its predictions."
+    },
+    {
+      "title": "Reject magnitude claims",
+      "content": "A and C infer which style P3 enjoyed more or less, but correlation does not directly give rating magnitude. B repeats the premise about P3's actual equal ratings rather than describing the model's prediction. The graph supports only a difference between predicted ratings. The answer is <strong>D</strong>."
+    }
+  ]
+}

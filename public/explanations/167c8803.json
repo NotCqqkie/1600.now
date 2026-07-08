@@ -1,0 +1,15 @@
+{
+  "questionId": "167c8803",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the success clue",
+      "content": "The program was trained to identify sidewalks in aerial images, and in the Bronx it could distinguish concrete from cobblestone. That success implies it accurately found or identified sidewalks in the images."
+    },
+    {
+      "title": "Reject mismatched verbs",
+      "content": "A means gave approval, which is unrelated to image analysis. B contradicts the program's successful mapping. C contradicts accurately and the ability to distinguish materials. The needed verb means found or identified. The answer is <strong>D</strong>."
+    }
+  ]
+}

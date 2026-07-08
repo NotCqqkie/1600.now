@@ -1,0 +1,15 @@
+{
+  "questionId": "7508d8fb",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output to two hundred",
+      "content": "The question asks when $f(x)=200$. Since $f(x)=40x$, set<br/>$$40x=200$$"
+    },
+    {
+      "title": "Solve for the input",
+      "content": "Divide both sides by $40$, the constant rate in the function. This isolates the input and shows which value of $x$ produces an output of $200$.<br/>$$x=\\frac{200}{40}=5$$<br/>The answer is <strong>5</strong>."
+    }
+  ]
+}

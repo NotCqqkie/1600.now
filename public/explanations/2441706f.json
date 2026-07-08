@@ -1,0 +1,15 @@
+{
+  "questionId": "2441706f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Describe the slower pattern",
+      "content": "The first clause says that some elements were isolated in relatively pure form soon after discovery. The phrase \"this wasn't the case with all elements\" then shifts to elements whose isolation did not happen quickly. The blank should not introduce another contrast; it should describe the usual pattern for that slower group. The following sentence about molybdenum, discovered in 1778 but isolated in 1781, gives an example of isolation taking a few years."
+    },
+    {
+      "title": "Reject conflicting signals",
+      "content": "<ul><li><strong>Choice A - even so,</strong> signals that the next idea is true despite what came before, but the sentence is already describing elements that were not isolated quickly.</li><li><strong>Choice B - similarly,</strong> suggests that these elements behaved like the quickly isolated elements, contradicting \"this wasn't the case.\"</li><li><strong>Choice C - furthermore,</strong> merely adds information instead of characterizing how common the slower isolation pattern was.</li></ul>The remaining option shows that taking a few years was a frequent pattern for such elements. The answer is <strong>D</strong>."
+    }
+  ]
+}

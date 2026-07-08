@@ -1,0 +1,15 @@
+{
+  "questionId": "1887d20d",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the line equation",
+      "content": "The slope is $-5$ and the y-intercept is $(0,45)$, so the equation of line $k$ is<br/>$$y=-5x+45$$"
+    },
+    {
+      "title": "Set the height to zero",
+      "content": "At the x-intercept, $y=0$. Substitute and solve:<br/>$$0=-5x+45$$<br/>$$5x=45$$<br/>$$x=9$$<br/>The answer is <strong>9</strong>."
+    }
+  ]
+}

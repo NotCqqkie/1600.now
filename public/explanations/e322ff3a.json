@@ -1,0 +1,23 @@
+{
+  "questionId": "e322ff3a",
+  "correctAnswer": "3/5,0.6,60/100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: label the trig ratios first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
+      "title": "Recognize complementary angles in the right triangle",
+      "content": "Since angle P is the right angle ($90^{\\circ}$), the other two angles Q and R must be complementary: <br/>$$Q + R = 90^{\\circ}$$<br/>This means $R = 90^{\\circ} - Q$."
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "When two angles are complementary, their sine and cosine are cofunctions:<br/>$$\\cos(R) = \\cos(90^{\\circ} - Q) = \\sin(Q)$$<br/>So we need to find $\\sin(Q)$."
+    },
+    {
+      "title": "Use the Pythagorean identity to find sin(Q)",
+      "content": "We're given $\\cos(Q) = \\frac{80}{100} = \\frac{4}{5}$.<br/><br/>From the Pythagorean identity:<br/>$$\\sin^2(Q) + \\cos^2(Q) = 1$$<br/>$$\\sin^2(Q) = 1 - \\left(\\frac{4}{5}\\right)^2 = 1 - \\frac{16}{25} = \\frac{9}{25}$$<br/>$$\\sin(Q) = \\frac{3}{5}$$<br/>Since $\\cos(R) = \\sin(Q)$, we have $\\cos(R) = \\frac{3}{5}$ - <strong>the answer is 3/5 or 0.6</strong>.<br/><br/>Equivalent forms accepted: <strong>3/5</strong>, <strong>0.6</strong>, <strong>60/100</strong>."
+    }
+  ]
+}

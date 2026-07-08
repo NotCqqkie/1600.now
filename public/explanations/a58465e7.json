@@ -1,0 +1,15 @@
+{
+  "questionId": "a58465e7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the protection paradox",
+      "content": "Three-host CLPs are usually shielded from external conditions during transmission, while directly transmitted parasites are exposed. Even so, three-host CLP abundance decreased as temperatures rose, and directly transmitted parasite abundance stayed largely stable."
+    },
+    {
+      "title": "Account for the decline",
+      "content": "Choice A compares CLPs with other CLPs in a way the study does not support. Choice B predicts more host species should protect parasites, but the three-host CLPs declined. Choice C falsely says directly transmitted parasites were more shielded. The finding suggests other warming effects outweighed any transmission advantage. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "85de8a7e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cylinder formula",
+      "content": "The volume of a right circular cylinder is\n$$\nV=\\pi r^2h\n$$\nHere, the radius is $13$ meters and the height is $10$ meters."
+    },
+    {
+      "title": "Substitute and compute",
+      "content": "Substitute the given radius and height.\n$$\nV=\\pi(13)^2(10)=\\pi(169)(10)=1{,}690\\pi\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

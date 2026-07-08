@@ -1,0 +1,15 @@
+{
+  "questionId": "b3df079f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare percent decreases",
+      "content": "The task asks how the United Kingdom's decline compares with declines in other countries. Percent decrease is the relevant measure because it compares proportional change across countries."
+    },
+    {
+      "title": "Use the table rankings",
+      "content": "A reverses the comparison with Germany and Australia. C switches from percent decrease to absolute hours. D falsely says the United Kingdom's hours rose. The table shows the United Kingdom declined less than Germany but more than Australia and Mexico. The answer is <strong>B</strong>."
+    }
+  ]
+}

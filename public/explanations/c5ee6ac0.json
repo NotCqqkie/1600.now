@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the line of best fit",
-      "content": "The shown line rises from left to right, so the slope is positive. It also crosses the $y$-axis above $0$, around $3.4$, so the $y$-intercept is positive."
+      "title": "Read the slope direction",
+      "content": "The line of best fit rises from left to right, so its slope is positive. That eliminates equations with slope $-1$."
     },
     {
-      "title": "Match slope and intercept signs",
-      "content": "Only $y=x+3.4$ has both a positive slope and a positive $y$-intercept. The model $y=x-3.4$ has the wrong intercept sign, and the models with negative slope do not match the rising line. Therefore <strong>A</strong> is correct."
+      "title": "Read the intercept sign",
+      "content": "The line crosses the <em>y</em>-axis above $0$, around $3.4$. The equation with positive slope and positive <em>y</em>-intercept is $y=x+3.4$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "7f3db852",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the required structure",
+      "content": "The goal is to make and support a generalization about flag symbols. The sentence must state a broad claim and then use a specific example from the notes to support it."
+    },
+    {
+      "title": "Check the generalization",
+      "content": "Choice A gives one example and adds unsupported importance. Choice B shifts to vexillologists. Choice C states that some flags use plant symbols and supports it with Grenada's nutmeg. Choice D gives a general claim but no example. The answer is <strong>C</strong>."
+    }
+  ]
+}

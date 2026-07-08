@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship between the sentences",
-      "content": "The previous sentence says slow blinks made speakers talk for less time. The blank introduces a sentence saying quicker blinks were associated with longer talking times. These two outcomes are opposite: slow blinks = less talk, quick blinks = more talk. The transition must signal contrast or reversal."
+      "title": "Compare the blink findings",
+      "content": "The previous sentence says slow blinks were associated with shorter speaking times. The sentence after the blank says quicker blinks were associated with longer speaking times. Those findings point in opposite directions."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: Signals that the second sentence illustrates the first &mdash; but the second sentence contradicts the first, not exemplifies it. &#10007;</li><li><strong>Choice B &mdash; Specifically,</strong>: Signals that the second sentence adds detail to the first &mdash; but it introduces an opposite finding, not a clarification. &#10007;</li><li><strong>Choice C &mdash; Firstly,</strong>: Signals a first item in a sequence &mdash; but this sentence is not the first point; the previous sentence already gave a finding. &#10007;</li><li><strong>Choice D &mdash; By contrast,</strong>: Signals opposition between two ideas &mdash; exactly right, since slow blinks and quick blinks produced opposite talking durations. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Choose a contrast transition",
+      "content": "A would introduce an example, but the second finding is not an example of the first. B would introduce a more specific version of the same idea, which does not fit. C would start a sequence, but the text is comparing two findings. The transition must signal contrast. The answer is <strong>D</strong>."
     }
   ]
 }

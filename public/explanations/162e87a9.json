@@ -1,0 +1,15 @@
+{
+  "questionId": "162e87a9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the payment",
+      "content": "The monthly payment is $350$, so evaluate $f(350)$.<br/>$$f(350)=24(350)+1{,}000$$"
+    },
+    {
+      "title": "Compute the total",
+      "content": "Multiply first, then add the fixed amount.<br/>$$f(350)=8{,}400+1{,}000$$<br/>$$f(350)=9{,}400$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize what 0.42 represents",
-      "content": "The expression $0.42x$ means 0.42 of the original quantity. Converting to a percentage: $0.42 = \\frac{42}{100} = 42\\%$. So 42% of the original quantity remains."
+      "title": "Find the percent remaining",
+      "content": "The expression $0.42x$ means $42\\%$ of the original quantity remains."
     },
     {
-      "title": "Calculate the percent decrease",
-      "content": "If 42% remains, then the percent that was removed is:<br/>$$100\\% - 42\\% = 58\\%$$<br/>That matches <strong>Choice D &mdash; $58\\%$</strong>."
+      "title": "Subtract from the whole",
+      "content": "The percent decrease is the part removed from $100\\%$:<br/>$$100\\%-42\\%=58\\%$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope for additional cost",
-      "content": "The cost for each additional mile is the slope of the line: how much the total cost increases when $x$ increases by $1$ mile. Do not use the total cost of one ride as the per-mile cost."
+      "title": "Use slope for the rate",
+      "content": "The cost for each additional mile is the slope of the line, because slope measures the change in total cost for a $1$-mile increase."
     },
     {
-      "title": "Read two clear points",
-      "content": "The graph shows the line passing through $(1,5)$ and $(2,7)$. These are convenient points because the change in $x$ is exactly $1$ mile."
+      "title": "Compute from two points",
+      "content": "Using the points $(1,5)$ and $(2,7)$,\n$$\nm=\\frac{7-5}{2-1}=2\n$$"
     },
     {
-      "title": "Compute the slope",
-      "content": "$$m=\\frac{7-5}{2-1}=2$$ So the cab ride cost increases by $2.00$ for each additional mile."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The additional-mile cost is $2.00$, which matches the correct answer. A choice with the flat fee, and a choice with the total cost for a $1$-mile ride, not the per-mile increase."
+      "title": "Match the per-mile cost",
+      "content": "The line increases by $2.00$ dollars for each additional mile. The answer is <strong>A</strong>."
     }
   ]
 }

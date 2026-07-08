@@ -1,0 +1,15 @@
+{
+  "questionId": "6c8aeb97",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare filings and penalties",
+      "content": "The graph shows self-dealing made up a much smaller share of filings than undistributed income but a large share of total penalties. Average penalty per filing is estimated by comparing each activity's penalty share with its filing share."
+    },
+    {
+      "title": "Infer the higher average",
+      "content": "Choice A compares to Form 990 organizations, which the graph does not do. Choice B follows because self-dealing has a higher penalty share relative to its filing share than undistributed income. Choice C misstates collective shares. Choice D says no majority of penalties, but undistributed income has about 55 percent. The answer is <strong>B</strong>."
+    }
+  ]
+}

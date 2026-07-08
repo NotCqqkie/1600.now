@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "The sentence reads: \"SN 1940B was a [BLANK] explosion of a massive star, which blasts large amounts... into space—that was first detected by American astronomer Josef Johnson.\" The closing em dash before \"that was first detected\" means a parenthetical is being closed. To correctly bracket the insertion \"explosion of a massive star, which blasts... into space,\" the blank must open with an em dash."
+      "title": "Match the paired em dashes",
+      "content": "The later em dash before that was first detected closes a parenthetical explanation of what a supernova is. The blank must open that parenthetical with a matching em dash after supernova."
     },
     {
-      "title": "Apply the rule",
-      "content": "Identify the structure on each side: left side is \"SN 1940B was a [BLANK]\"; the parenthetical \"explosion of a massive star, which blasts... into space\" is closed by an em dash. The blank must open that parenthetical with a matching em dash.\n<ul>\n<li><strong>\"supernova, the\"</strong>: <em>\"SN 1940B was a supernova, the explosion of a massive star...—that was first detected\"</em> — a comma opens the appositive but the closing punctuation is an em dash; mismatched brackets. ✗</li>\n<li><strong>\"supernova. The\"</strong>: <em>\"SN 1940B was a supernova. The explosion of a massive star...—that was first detected\"</em> — period creates two sentences; the second begins with no subject for the trailing \"that was first detected.\" ✗</li>\n<li><strong>\"supernova—the\"</strong>: <em>\"SN 1940B was a supernova—the explosion of a massive star, which blasts... into space—that was first detected\"</em> — em dash opens the appositive, matching the closing em dash; the parenthetical is correctly bracketed. ✓</li>\n<li><strong>\"supernova: the\"</strong>: <em>\"SN 1940B was a supernova: the explosion of a massive star...—that was first detected\"</em> — colon opens but an em dash closes; mismatched brackets. ✗</li>\n</ul>\nThat matches the correct answer — <strong>C</strong> is correct."
+      "title": "Choose matching punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: Opens with a comma but the sentence later closes with an em dash.</li><li><strong>Choice B</strong>: Creates a sentence break that leaves the following clause awkwardly attached.</li><li><strong>Choice C</strong>: Opens the explanatory interruption with an em dash paired with the later em dash.</li><li><strong>Choice D</strong>: Opens with a colon but closes with an em dash.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

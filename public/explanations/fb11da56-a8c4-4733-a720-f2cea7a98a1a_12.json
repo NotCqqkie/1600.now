@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the equilateral height formula",
-      "content": "For an equilateral triangle with side length $s$:<br/>$$h = \\dfrac{s\\sqrt{3}}{2}$$<br/>(This comes from a 30-60-90 split — the height is the long leg.)"
+      "title": "Use the equilateral height",
+      "content": "For an equilateral triangle with side length $s$, the height is<br/>$$h=\\frac{s\\sqrt{3}}{2}$$<br/>The given height is $49\\sqrt{3}$."
     },
     {
-      "title": "Solve for $s$",
-      "content": "$$47\\sqrt{3} = \\dfrac{s\\sqrt{3}}{2}$$<br/>Multiply both sides by $2$ and divide by $\\sqrt{3}$:<br/>$$s = \\dfrac{2 \\cdot 47\\sqrt{3}}{\\sqrt{3}} = 94$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Solve for the side length",
+      "content": "Set the formula equal to the given height and solve.<br/>$$49\\sqrt{3}=\\frac{s\\sqrt{3}}{2}$$<br/>$$98\\sqrt{3}=s\\sqrt{3}$$<br/>$$s=98$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

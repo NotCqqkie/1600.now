@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the task demands",
-      "content": "The student wants to <em>emphasize a similarity between the ages</em> of the two malls. The notes tell us Qianmen Dajie dates to the Ming dynasty (1368&ndash;1644 CE) and Rue Mouffetard to the mid-Roman Empire (117&ndash;235 CE) — the shared trait is their ancient age. A correct answer must highlight that <em>both</em> malls are very old.<ul><li><strong>Choice A &mdash; The Qianmen Dajie pedestrian mall has roots as far back as the Ming dynasty; likewise, Rue Mouffetard has existed for centuries.</strong>: Uses parallel structure with <em>likewise</em> to show both malls share the quality of great age — directly emphasizes the similarity in their ages. &#10003;</li><li><strong>Choice B &mdash; Both Qianmen Dajie and Rue Mouffetard are famous pedestrian malls, the former in Beijing and the latter in Paris.</strong>: Emphasizes fame and location, not age. Violates the task requirement (wrong similarity highlighted). &#10007;</li><li><strong>Choice C &mdash; Qianmen Dajie and Rue Mouffetard are pedestrian malls, outdoor streets closed to vehicle traffic.</strong>: Emphasizes the definition of pedestrian malls, not the ages of these two. Violates the task requirement. &#10007;</li><li><strong>Choice D &mdash; Qianmen Dajie and Rue Mouffetard are examples of pedestrian malls, which proliferated in Europe in the 19th and 20th centuries.</strong>: States that pedestrian malls proliferated in the 19th&ndash;20th centuries, but Rue Mouffetard has existed since ~117 CE — this contradicts the notes and doesn&apos;t compare the ages of the two specific malls. &#10007;</li></ul>"
+      "title": "Focus on age similarity",
+      "content": "The student's goal is to emphasize a similarity between the ages of Qianmen Dajie and Rue Mouffetard. The relevant notes say Qianmen Dajie has existed since the Ming dynasty and Rue Mouffetard since the mid-Roman Empire, so both malls are very old."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only the correct answer uses parallel phrasing to highlight that both malls share the trait of ancient origin, which is exactly the age similarity the student wants to emphasize. That is the correct answer."
+      "title": "Compare the first three choices",
+      "content": "A says Qianmen Dajie has roots as far back as the Ming dynasty and, likewise, Rue Mouffetard has existed for centuries, which compares the two malls by age. B names Qianmen Dajie in Beijing and Rue Mouffetard in Paris, which emphasizes place and fame. C defines pedestrian malls as outdoor streets closed to vehicle traffic, which does not address age."
+    },
+    {
+      "title": "Reject the unrelated option",
+      "content": "D says the two places are examples of pedestrian malls and mentions that pedestrian malls proliferated in Europe in the 19th and 20th centuries. It does not emphasize the ages of these two specific malls. The choice built around their long histories best accomplishes the student's goal. The answer is <strong>A</strong>."
     }
   ]
 }

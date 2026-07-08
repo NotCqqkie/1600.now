@@ -1,0 +1,19 @@
+{
+  "questionId": "fc842846",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the photograph limitation",
+      "content": "The text says a two-dimensional photograph cannot capture how a building interacts with its surroundings, including whether it complements, blends with, or clashes with nearby sights and activities. The conclusion must follow from that missing spatial context."
+    },
+    {
+      "title": "Reject unsupported effects",
+      "content": "Choice A brings in historical importance, which is not discussed. Choice C says the image misrepresents viewers' perceptions, but the text only says it omits context. Choice D concerns material deterioration, another topic not mentioned."
+    },
+    {
+      "title": "State the missing impact",
+      "content": "The remaining choice says the image fails to convey the full impact of the building's design and structure. The answer is <strong>B</strong>."
+    }
+  ]
+}

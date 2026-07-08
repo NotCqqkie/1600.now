@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the linear equation",
-      "content": "Expand and simplify the second equation:<br/>$$3y + 12 = 3(x + 4)$$<br/>$$3y + 12 = 3x + 12$$<br/>$$3y = 3x$$<br/>$$y = x$$"
+      "title": "Simplify the line equation",
+      "content": "Start with the second equation and simplify:\n$$3y+12=3(x+4)$$\n$$3y+12=3x+12$$\n$$3y=3x$$\n$$y=x$$"
     },
     {
-      "title": "Substitute and solve for the positive root",
-      "content": "Now we have two expressions for $y$:<ul><li>From the first equation: $y = x^2$</li><li>From the simplified equation: $y = x$</li></ul>Set them equal:<br/>$$x^2 = x$$<br/>$$x^2 - x = 0$$<br/>$$x(x - 1) = 0$$<br/>This gives $x = 0$ or $x = 1$. Since $x \\gt 0$, we have $x = 1$.<br/><br/>Substituting back: $y = x = 1$, so $xy = 1 \\cdot 1 = 1$. That confirms <strong>A</strong> is correct."
+      "title": "Use both expressions for y",
+      "content": "The system gives $y=x^2$ and $y=x$, so set them equal:\n$$x^2=x$$\n$$x^2-x=0$$\n$$x(x-1)=0$$\nThus $x=0$ or $x=1$. Since $x>0$, use $x=1$, and then $y=1$. Therefore:\n$$xy=1\\cdot 1=1$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

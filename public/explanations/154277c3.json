@@ -1,0 +1,15 @@
+{
+  "questionId": "154277c3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Specify the improvement",
+      "content": "The first sentence says Carter improved Wallace's light bulb design. The next sentence gives the exact way he improved it: placing cardboard around the carbon filament."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A suggests time sequence, B suggests concession despite an obstacle, and C suggests contrast. The relationship is specification, because the second sentence supplies a precise detail about the improvement. The answer is <strong>D</strong>."
+    }
+  ]
+}

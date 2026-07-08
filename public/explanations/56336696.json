@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must signal",
-      "content": "The passage describes a chronological process: soak, then simmer for hours or days, then &mdash; blank &mdash; remove the cloth. The blank must signal forward progression in time, indicating that the removal comes <em>after</em> the extended simmering wait."
+      "title": "Follow the dyeing sequence",
+      "content": "The passage describes a process in order: soak the sumac, add the cloth, simmer it for hours or days, and then remove the cloth. The transition should show that the final action happens after time has passed."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A — Nevertheless,</strong>: Signals contrast or concession &mdash; implies the removal happens <em>despite</em> the simmering, which is illogical for a sequential process. &#10007;</li><li><strong>Choice B — Likewise,</strong>: Signals similarity &mdash; implies the removal is similar to the simmering rather than the next step after it. &#10007;</li><li><strong>Choice C — Eventually,</strong>: Signals that something happens after a period of time &mdash; exactly right for the final step following hours or days of simmering. &#10003;</li><li><strong>Choice D — In other words,</strong>: Signals restatement or paraphrase &mdash; implies the removal is just another way of saying what the simmering sentence said, which makes no sense. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Use a time transition",
+      "content": "Choice A signals contrast, Choice B signals similarity, and Choice D signals restatement. None fits the last step of a chronological process after a long simmer. The answer is <strong>C</strong>."
     }
   ]
 }

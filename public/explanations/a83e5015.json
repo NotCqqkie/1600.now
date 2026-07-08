@@ -1,0 +1,19 @@
+{
+  "questionId": "a83e5015",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use similar triangles",
+      "content": "Because $LM$ is parallel to $PQ$, triangles $LMR$ and $PQR$ are similar."
+    },
+    {
+      "title": "Find the scale factor",
+      "content": "The corresponding side lengths along $MP$ are $MR=8$ and $RP=14$, so the linear scale factor is\n$$\n\\frac{14}{8}=\\frac{7}{4}\n$$"
+    },
+    {
+      "title": "Scale the area",
+      "content": "Areas scale by the square of the linear factor:\n$$\n36(\\frac{7}{4})^2\n$$\n$$\n36\\cdot\\frac{49}{16}=\\frac{441}{4}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

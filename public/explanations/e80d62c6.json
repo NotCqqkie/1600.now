@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the circle from standard form",
-      "content": "The equation $x^2+(y-2)^2=36$ is in standard circle form, so circle A has center $(0,2)$ and radius $6$. A downward shift changes only the center's $y$-coordinate."
-    },
-    {
-      "title": "Read circle A",
-      "content": "$x^2 + (y - 2)^2 = 36$ is in the form $(x - h)^2 + (y - k)^2 = r^2$, so circle A has center $(0, 2)$ and radius $6$."
-    },
-    {
-      "title": "Shift the center down 4 units",
-      "content": "Shifting down decreases $y$ by 4, so the new center is $(0, 2 - 4) = (0, -2)$. The radius is unchanged: still $6$, so $r^2 = 36$. Circle B: $(x - 0)^2 + (y - (-2))^2 = 36$, i.e. $x^2 + (y + 2)^2 = 36$."
-    },
-    {
-      "title": "Check each choice",
-      "content": "<ul><li>$x^2 + (y + 2)^2 = 36$ &mdash; center $(0, -2)$, radius $6$. Matches.</li><li>$x^2 + (y - 6)^2 = 36$ &mdash; center $(0, 6)$; that would be a shift up by 4, not down.</li><li>$(x - 4)^2 + (y - 2)^2 = 36$ &mdash; center $(4, 2)$; this is a horizontal shift, not vertical.</li><li>$(x + 4)^2 + (y - 2)^2 = 36$ &mdash; center $(-4, 2)$; again a horizontal shift.</li></ul>That matches the correct answer — <strong>A</strong> is correct.",
+      "title": "Read the original center",
+      "content": "The equation<br/>$$x^2+(y-2)^2=36$$<br/>is in circle form, so circle A has center $(0,2)$ and radius $6$.",
       "desmosExpressions": [
         "x^2 + (y-2)^2 = 36",
         "x^2 + (y+2)^2 = 36"
       ]
+    },
+    {
+      "title": "Shift the center down",
+      "content": "Shifting down $4$ units changes the center's y-coordinate from $2$ to $-2$:<br/>$$2-4=-2$$<br/>The new center is $(0,-2)$, and the radius is unchanged."
+    },
+    {
+      "title": "Write the shifted circle",
+      "content": "A circle with center $(0,-2)$ and radius $6$ has equation<br/>$$x^2+(y+2)^2=36$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

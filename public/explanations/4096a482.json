@@ -1,19 +1,19 @@
 {
-  "qid": "4096a482",
   "questionId": "4096a482",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "A margin of error applied to a sample mean produces a confidence interval. With mean $23.4$ and margin of error $1.3$: lower bound $= 23.4 - 1.3 = 22.1$, upper bound $= 23.4 + 1.3 = 24.7$. The interval is $[22.1, 24.7]$."
+      "title": "Build the plausible interval",
+      "content": "A margin of error is added to and subtracted from the estimate.\n$$\n23.4-1.3=22.1\n$$\n$$\n23.4+1.3=24.7\n$$"
     },
     {
-      "title": "Step 2",
-      "content": "A confidence interval conveys that the true population mean is <em>plausible</em> within the computed range, not that it is guaranteed to lie there. Values outside the interval are not impossible — they are simply less supported by this sample."
+      "title": "Interpret the interval",
+      "content": "The interval describes plausible values for the actual population mean. It does not guarantee that the mean is inside the interval, and it does not describe every individual value in the population."
     },
     {
-      "title": "Step 3",
-      "content": "The interval describes the <em>mean</em> of the population, not the range of every individual data value in the population. Therefore, <strong>Choice A</strong> is correct."
+      "title": "Choose the appropriate conclusion",
+      "content": "The statement using plausible language for the population mean between $22.1$ and $24.7$ is the appropriate conclusion. The answer is <strong>A</strong>."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

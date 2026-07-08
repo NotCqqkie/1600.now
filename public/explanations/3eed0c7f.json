@@ -1,0 +1,15 @@
+{
+  "questionId": "3eed0c7f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the broad topic",
+      "content": "The passage starts with the common idea of winged feathered dinosaurs, then broadens it by saying many wingless dinosaurs also had feathers."
+    },
+    {
+      "title": "Avoid unrelated topics",
+      "content": "B reverses the focus because the dinosaurs discussed have feathers. C invents fossil value, and D shifts to birds. The topic is dinosaurs with feathers, including winged and wingless examples. The answer is <strong>A</strong>."
+    }
+  ]
+}

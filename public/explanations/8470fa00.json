@@ -1,0 +1,19 @@
+{
+  "questionId": "8470fa00",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the requested fact",
+      "content": "The student's goal is not just to discuss the Mohs scale generally. The sentence must emphasize calcite's Mohs scale number. The notes say that calcite has a Mohs scale number of 3, while talc has 1 and orthoclase has 6. A useful response should foreground calcite's number and use the other minerals only to explain what that number means."
+    },
+    {
+      "title": "Reject shifted emphasis",
+      "content": "<strong>Choice B</strong> focuses on orthoclase and talc instead of calcite. <strong>Choice C</strong> centers orthoclase's ability to scratch other minerals, so calcite is secondary. <strong>Choice D</strong> describes ordering calcite, talc, and orthoclase by scratching ability, but it does not state calcite's specific Mohs scale number."
+    },
+    {
+      "title": "Choose the number centered sentence",
+      "content": "<strong>Choice A</strong> begins by stating that calcite has a Mohs scale number of 3. It then explains that this means calcite is harder than talc, which has a lower number, and softer than orthoclase, which has a higher number. That directly accomplishes the student's goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

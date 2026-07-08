@@ -1,0 +1,16 @@
+{
+  "questionId": "f353bde5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius",
+      "content": "The diameter is $8$ inches, so the radius is half of that:\n$$\nr=\\frac{8}{2}=4\n$$"
+    },
+    {
+      "title": "Calculate the volume",
+      "content": "Use the cylinder volume formula with $r=4$ and $h=15$:\n$$\nV=\\pi(4)^2(15)=\\pi(16)(15)=240\\pi\n$$\nThe answer is <strong>C</strong>.",
+      "formula": "$$V = \\pi r^2 h$$"
+    }
+  ]
+}

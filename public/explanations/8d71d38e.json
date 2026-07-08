@@ -1,0 +1,15 @@
+{
+  "questionId": "8d71d38e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the attendance dates",
+      "content": "The notes say Otto Richter began attending the Bauhaus in 1920, while Clara Weiss began in 1931. To emphasize order, the sentence must show that Richter attended before Weiss."
+    },
+    {
+      "title": "Rule out choices that miss order",
+      "content": "A mentions both students without chronology. B gives only Weiss's date. D focuses on directors rather than the two students. The choice that states Richter preceded Weiss fits the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

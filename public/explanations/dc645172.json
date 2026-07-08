@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the true subject",
-      "content": "The sentence opens \"The artistic talents of Barbara Chase-Riboud...\" The head noun is <strong>talents</strong> &mdash; plural. The prepositional phrase \"of Barbara Chase-Riboud\" is not the subject and does not affect agreement. The blank needs a plural verb."
+      "title": "Find the subject",
+      "content": "The subject of the sentence is <strong>talents</strong>, a plural noun. The phrase <em>of Barbara Chase-Riboud</em> identifies whose talents they are, but it does not change the subject's number."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"hasn't been\"</strong>: singular contraction (\"has not been\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"wasn't\"</strong>: singular past tense (\"was not\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"isn't\"</strong>: singular present tense (\"is not\"); does not agree with the plural subject <em>talents</em>. &#10007;</li><li><strong>\"aren't\"</strong>: plural present tense (\"are not\"); agrees with the plural subject <em>talents</em>. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Choose plural agreement",
+      "content": "A, B, and C are singular verb forms, so they do not agree with the plural subject <strong>talents</strong>. The sentence needs a plural present-tense form before <em>limited</em>. The answer is <strong>D</strong>."
     }
   ]
 }

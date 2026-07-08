@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for C",
-      "content": "Starting with $V_T = \\frac{V_S}{1-C}$, multiply both sides by $(1-C)$: $$V_T(1-C) = V_S$$ $$V_T - V_T C = V_S$$ $$V_T C = V_T - V_S$$ $$C = \\frac{V_T - V_S}{V_T} = 1 - \\frac{V_S}{V_T}$$"
+      "title": "Clear the denominator",
+      "content": "Start with the given equation:<br/>$$V_T=\\frac{V_S}{1-C}$$<br/>Multiply both sides by $1-C$:<br/>$$V_T(1-C)=V_S$$"
     },
     {
-      "title": "Evaluate Each Choice",
-      "content": "<ul><li><strong>Choice A &mdash; $C = 1 - \\frac{V_S}{V_T}$</strong>: Matches our derived result exactly. &#10003;</li><li><strong>Choice B &mdash; $C = \\frac{V_T}{V_S}$</strong>: This is the reciprocal of $V_S/V_T$, not what we derived. &#10007;</li><li><strong>Choice C &mdash; $C = 1 + \\frac{V_T}{V_S}$</strong>: Sign and ratio direction are both wrong. &#10007;</li><li><strong>Choice D &mdash; $C = V_T - V_S$</strong>: Dimensionally wrong; C must be a unitless fraction between 0 and 1. &#10007;</li></ul>That is the correct answer."
+      "title": "Isolate the concentration",
+      "content": "Distribute and solve for $C$:<br/>$$V_T-V_TC=V_S$$<br/>$$V_TC=V_T-V_S$$<br/>$$C=\\frac{V_T-V_S}{V_T}=1-\\frac{V_S}{V_T}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

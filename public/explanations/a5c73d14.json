@@ -1,0 +1,19 @@
+{
+  "questionId": "a5c73d14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use both parts of the claim",
+      "content": "The student's claim has two requirements. First, a very large city such as New York City should show more congestion than a smaller area. Second, the smaller area should still show worsening congestion over time. Supporting data must therefore show both a persistent gap and an upward trend."
+    },
+    {
+      "title": "Reject partial or false evidence",
+      "content": "Choice A says Albuquerque had greater delay than New York City throughout the period, which contradicts the described large-city pattern. Choice C gives only one value from 1992, so it cannot show a trend. Choice D mentions one low value in one area, which does not compare city sizes or show worsening over time."
+    },
+    {
+      "title": "Select the matching comparison",
+      "content": "Choice B compares New York City with Boise for the full 1990 to 2000 period. It states that New York City was always higher, while delay rose in both areas. That directly supports the student's claim about very large cities and smaller areas. The answer is <strong>B</strong>."
+    }
+  ]
+}

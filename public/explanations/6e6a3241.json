@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system for the intersection point",
-      "content": "Start with the two equations:<br/>$$x + 5y = 5$$<br/>$$2x - y = -4$$<br/>Solve the first for $x$: $x = 5 - 5y$.<br/>Substitute into the second:<br/>$$2(5 - 5y) - y = -4$$<br/>Simplify:<br/>$$10 - 10y - y = -4$$<br/>$$10 - 11y = -4$$<br/>$$-11y = -14$$<br/>$$y = \\frac{14}{11}$$<br/>Then $x = 5 - 5\\cdot\\frac{14}{11} = 5 - \\frac{70}{11} = \\frac{55-70}{11} = -\\frac{15}{11}$.<br/>So the intersection point is $\\left(-\\frac{15}{11},\\frac{14}{11}\\right)$."
+      "title": "Find the first line intercepts",
+      "content": "For $x+5y=5$, set one variable equal to $0$ at a time. When $y=0$, the equation becomes $x=5$. When $x=0$, the equation becomes $5y=5$, so $y=1$. This line passes through $(5,0)$ and $(0,1)$."
     },
     {
-      "title": "Identify the matching graph",
-      "content": "The intersection point is approximately (−1.36, 1.27).<br/>Among the four graphs, only the credited option depicts two lines that cross at a point with those coordinates.<br/>That confirms <strong>C</strong> is correct.",
+      "title": "Find the second line intercepts",
+      "content": "For $2x-y=-4$, use the same intercept check. When $y=0$, $2x=-4$, so $x=-2$. When $x=0$, $-y=-4$, so $y=4$. This line passes through $(-2,0)$ and $(0,4)$."
+    },
+    {
+      "title": "Choose the matching graph",
+      "content": "Choose the graph with one line through $(5,0)$ and $(0,1)$ and the other line through $(-2,0)$ and $(0,4)$. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y = (5 - x)/5",
         "y = 2x + 4"

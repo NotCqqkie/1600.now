@@ -1,0 +1,15 @@
+{
+  "questionId": "c7ed9312",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the final inference",
+      "content": "Panama City respondents reported higher park use even though fewer lived within a 10-minute walk of a park. The text concludes that proximity alone cannot explain the difference."
+    },
+    {
+      "title": "Reject unsupported causes",
+      "content": "A mentions researcher expectations, B suggests survey inaccuracies, and C mentions older sources; none appears in the passage. The difference must be explained by something besides park proximity. The answer is <strong>D</strong>."
+    }
+  ]
+}

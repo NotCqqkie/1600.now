@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate $l$",
-      "content": "Start with $R = \\dfrac{0.43\\,l}{A}$. Multiply both sides by $A$:<br/>$$AR = 0.43\\,l$$"
+      "title": "Clear the denominator",
+      "content": "Start with the given equation.\n$$R=\\frac{0.43l}{A}$$\nMultiply both sides by $A$.\n$$AR=0.43l$$"
     },
     {
-      "title": "Solve for $l$",
-      "content": "Divide both sides by $0.43$:<br/>$$l = \\frac{AR}{0.43}$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Isolate the length",
+      "content": "Divide both sides by $0.43$.\n$$\\frac{AR}{0.43}=l$$\n$$l=\\frac{AR}{0.43}$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

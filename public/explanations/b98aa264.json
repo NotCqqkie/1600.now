@@ -1,0 +1,15 @@
+{
+  "questionId": "b98aa264",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the name source",
+      "content": "The goal is to indicate how Fulton, Missouri, got its name. The relevant note says the city is named after Robert Fulton, so the answer must state that relationship."
+    },
+    {
+      "title": "Reject unrelated facts",
+      "content": "A is about Fulton Street and the steamboat. C is only about the steamboat. D says Fulton, Missouri, shares a name with Fulton Street but does not identify the source of the city's name. The option naming Robert Fulton as the source answers the question. The answer is <strong>B</strong>."
+    }
+  ]
+}

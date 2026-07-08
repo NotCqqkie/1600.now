@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contradiction in Text 2",
-      "content": "Text 1 predicts extinction for populations losing sea ice to warming. Text 2 describes Svalbard polar bears experiencing rapid sea-ice decline yet remaining stable and well-nourished—by adapting their diet to include reindeer and eggs."
+      "title": "Compare the two findings",
+      "content": "Text 1 says polar bear populations affected by sea-ice loss are at great risk of extinction. Text 2 describes Svalbard polar bears facing rapid sea-ice decline but remaining stable and well nourished after adding reindeer meat and birds' eggs to their diet."
     },
     {
-      "title": "Match Text 2's implicit response",
-      "content": "A names the flaw precisely: the conclusion overlooked the possibility of adaptation. <ul><li>B disputes ice-loss rates (which Text 2 doesn't challenge)</li><li>C wrongly claims Svalbard is unaffected (despite rapidly declining ice)</li><li>D frames the issue unclearly</li></ul>. <br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Focus on adaptation",
+      "content": "B disputes rates of sea-ice melt, which Text 2 does not challenge. C wrongly treats Svalbard bears as unaffected by loss of seal-hunting habitat. D says the issue is a single seal-hunting strategy, but Text 2's key point is dietary adaptation. The researchers would say Text 1 overlooks possible adaptation. The answer is <strong>A</strong>."
     }
   ]
 }

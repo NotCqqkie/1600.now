@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the slope formula",
-      "content": "In $f(x) = mx + b$, the coefficient $m$ is the slope of the line. We can find $m$ directly from the two given function values:<br/>$$m = \\frac{f(1) - f(0)}{1 - 0}$$"
+      "title": "Use the function values",
+      "content": "For $f(x)=mx+b$, the constant $m$ is the slope. The given values give the points $(0,14)$ and $(1,17)$."
     },
     {
-      "title": "Calculate m",
-      "content": "With $f(0) = 14$ and $f(1) = 17$:<br/>$$m = \\frac{17 - 14}{1 - 0} = \\frac{3}{1} = 3$$"
+      "title": "Calculate the slope",
+      "content": "Use change in output divided by change in input:<br/>$$m=\\frac{17-14}{1-0}=3$$<br/>The answer is <strong>3</strong>."
     }
   ]
 }

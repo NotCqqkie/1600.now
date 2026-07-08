@@ -1,0 +1,15 @@
+{
+  "questionId": "5615a6da",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "All terms have the same variable part, $x^5$, so combine the coefficients.<br/>$$8+11-6=13$$"
+    },
+    {
+      "title": "Match the coefficient",
+      "content": "The expression becomes<br/>$$13x^5$$<br/>Since it is equivalent to $bx^5$, $b=13$. The answer is <strong>13</strong>."
+    }
+  ]
+}

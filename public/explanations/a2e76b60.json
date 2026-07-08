@@ -1,24 +1,15 @@
 {
   "questionId": "a2e76b60",
-  "qid": "a2e76b60",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the can volume",
+      "content": "The can's total volume is its base area times its height. That gives the full space inside the can before separating fruit from syrup.<br/>$$72\\cdot12=864$$"
     },
     {
-      "title": "Step 1",
-      "content": "Find the total volume of the cylindrical can using $V = \\text{base area} \\times \\text{height} = 72 \\times 12 = 864$ cm$^3$."
-    },
-    {
-      "title": "Step 2",
-      "content": "The can is filled with fruit pieces and then syrup is poured in to fill it completely to the top. The syrup occupies the space not taken by fruit: $V_{\\text{fruit}} = V_{\\text{can}} - V_{\\text{syrup}} = 864 - 150 = 714$ cm$^3$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate each answer choice:<ul><li><strong>Choice A &mdash; 6 centimeters cubed</strong>: this would result from dividing 72 by 12, not using the correct formula. Eliminated.</li><li><strong>Choice B &mdash; 222</strong>: this would result from adding 72 and 150, which has no physical meaning here. Eliminated.</li><li><strong>Choice C &mdash; 714</strong>: equals $864 - 150$, the total can volume minus the syrup. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; 864</strong>: this is the total can volume, not the fruit volume alone. Eliminated.</li></ul>"
+      "title": "Subtract the syrup volume",
+      "content": "The syrup fills only the empty space left around the fruit. Subtract the syrup volume from the total can volume to get the fruit volume.<br/>$$864-150=714$$<br/>The answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C",
-  "section": "Math"
+  ]
 }

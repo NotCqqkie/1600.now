@@ -1,0 +1,15 @@
+{
+  "questionId": "9de21021",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the detached-body clue",
+      "content": "The passage says relative coldness differed between fruiting and nonfruiting mycelium sites, and that this difference persisted even after fruiting bodies were detached. That supports the idea that variation in mycelium thermoregulation can occur independently of fruiting bodies."
+    },
+    {
+      "title": "Check each supported statement",
+      "content": "<ul><li><strong>Choice A</strong>: Matches the evidence that the temperature difference persisted after fruiting bodies were detached.</li><li><strong>Choice B</strong>: Introduces higher temperature and productivity claims not in the passage.</li><li><strong>Choice C</strong>: Invents an explanation involving mycelium depth and spread.</li><li><strong>Choice D</strong>: Makes an unsupported comparison between mycelium and fruiting-body temperatures.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,19 +1,15 @@
 {
   "questionId": "ff2c1431",
-  "qid": "ff2c1431",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "content": "Start with $9m = 4(n + p)$. Divide both sides by $4$ to isolate the parenthesized expression: $$\\frac{9m}{4} = n + p$$"
+      "title": "Undo the outside factor",
+      "content": "Start with $$9m=4(n+p)$$ Divide both sides by $4$ to isolate the parentheses: $$\\frac{9m}{4}=n+p$$"
     },
     {
-      "choices": [
-        "<li><strong>\"$n=\\frac{4p}{9m}$\"</strong>: This inverts and conflates the terms; dividing $4p$ by $9m$ has no basis in the original equation. Eliminated.</li>",
-        "<li><strong>\"$n=\\frac{9m}{4}-p$\"</strong>: Dividing both sides by $4$ then subtracting $p$ gives exactly this expression. That matches the correct answer — <strong>B</strong> is correct.</li>",
-        "<li><strong>\"$n=4 \\left(9m\\right)+p$\"</strong>: This multiplies instead of divides and adds instead of subtracts. Eliminated.</li>",
-        "<li><strong>\"$n=9m-4-p$\"</strong>: This subtracts $4$ as a separate term rather than dividing by it. Eliminated.</li>"
-      ],
-      "content": "Subtract $p$ from both sides to isolate $n$: $$n = \\frac{9m}{4} - p$$"
+      "title": "Isolate n",
+      "content": "Subtract $p$ from both sides: $$\\frac{9m}{4}-p=n$$ or $$n=\\frac{9m}{4}-p$$ The answer is <strong>B</strong>."
     }
-  ],
-  "correctAnswer": "B"
+  ]
 }

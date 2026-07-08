@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "We're given $p(n) = 5n^3$ and need $p(n) = 135$. Set the function equal to 135:<br/>$$5n^3 = 135$$"
+      "title": "Set the function value",
+      "content": "The function is $p(n)=5n^3$, and $p(n)$ is equal to $135$. So<br/>$$5n^3=135$$"
     },
     {
-      "title": "Solve for n",
-      "content": "Divide both sides by 5:<br/>$$n^3 = 27$$<br/>Take the cube root of both sides:<br/>$$n = \\sqrt[3]{27} = 3$$<br/>That matches <strong>Choice A &mdash; $3$</strong>."
+      "title": "Solve for the input",
+      "content": "Divide by $5$ and take the cube root:<br/>$$n^3=27$$<br/>$$n=\\sqrt[3]{27}=3$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

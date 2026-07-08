@@ -1,0 +1,15 @@
+{
+  "questionId": "3a242e86",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "See the general-to-specific shift",
+      "content": "The first sentence says many mushroom species contain phenolic compounds and names two compounds. The second sentence gives specific mushrooms in which Costa detected those compounds."
+    },
+    {
+      "title": "Choose an example transition",
+      "content": "A and D signal contrast even though the sentences support each other. B signals cause and effect, but the detections illustrate the general claim rather than causing it. For example introduces specific instances. The answer is <strong>C</strong>."
+    }
+  ]
+}

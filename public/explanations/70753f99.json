@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the roots",
-      "content": "From $f(x)=(x+5)(x+1)$, the roots are $x=-5$ and $x=-1$."
+      "title": "Find the x-intercepts",
+      "content": "From\n$$f(x)=(x+5)(x+1)$$\nthe zeros are $x=-5$ and $x=-1$."
     },
     {
-      "title": "Find the vertex x-coordinate",
-      "content": "The vertex of a parabola lies halfway between its roots: $$x=\\frac{-5+(-1)}{2}=-3$$"
+      "title": "Find the vertex position",
+      "content": "The vertex lies halfway between the two $x$-intercepts.\n$$x=\\frac{-5+(-1)}{2}=-3$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The value $-3$ lies in the interval $-5\\lt x\\lt1$. <strong>B</strong> is correct."
-    },
-    {
-      "title": "Eliminate endpoint traps",
-      "content": "Choices C and D start with $-3 \\lt x$, which does not include $x=-3$ because the inequality is strict. Choice A (&lsquo;$-6 \\lt x \\lt -5$&rsquo;) is left of both roots. Only the credited option actually contains $-3$."
+      "title": "Choose the interval",
+      "content": "The value $-3$ is inside the interval $-5<x<1$. Intervals that start with $-3<x$ do not include $-3$ because the inequality is strict. The answer is <strong>B</strong>."
     }
   ]
 }

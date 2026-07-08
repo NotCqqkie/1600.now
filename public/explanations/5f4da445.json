@@ -1,0 +1,15 @@
+{
+  "questionId": "5f4da445",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Leave one main verb",
+      "content": "The sentence already has its main verb phrase: \"Antiquarians might instead procure.\" The blank should modify \"Antiquarians\" without adding another finite verb to the same clause."
+    },
+    {
+      "title": "Use a participle modifier",
+      "content": "Choice A, Choice C, and Choice D are finite verb forms, so each competes with \"might procure\" as a second main verb. The present participle \"hoping\" modifies the antiquarians who want to read an extant work while leaving \"might instead procure\" as the sentence's main verb phrase. The answer is <strong>B</strong>."
+    }
+  ]
+}

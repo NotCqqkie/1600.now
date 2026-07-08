@@ -1,0 +1,15 @@
+{
+  "questionId": "d7ba860b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The question asks for the function value when the input is $3$. Replace $x$ with $3$ in the given rule before doing any arithmetic.<br/>$$k(3)=3^3+40$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Evaluate the exponent first: $3^3$ means $3\\cdot3\\cdot3$, which equals $27$. Then add the constant term from the function rule.<br/>$$k(3)=27+40$$<br/>$$k(3)=67$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "871a62b0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant ratio",
+      "content": "The ratio of $k$ to $p$ is constant. Using $k=9$ and $p=8$:<br/>$$\\frac{k}{p}=\\frac{9}{8}$$"
+    },
+    {
+      "title": "Apply the ratio",
+      "content": "Set the same ratio when $p=504$:<br/>$$\\frac{k}{504}=\\frac{9}{8}$$<br/>$$k=504\\cdot \\frac{9}{8}=63\\cdot 9=567$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

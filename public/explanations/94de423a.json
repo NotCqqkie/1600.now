@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the task",
-      "content": "The sentence has an independent clause ending with a comma: <em>Okie-Tex takes place in an area with low light pollution,</em> followed by a blank and then <em>dark skies and ideal stargazing conditions.</em> The blank must connect the main clause to the phrase that follows without creating a run-on or comma splice."
+      "title": "Attach the modifier",
+      "content": "The first clause says Okie-Tex takes place in an area with low light pollution. The blank should introduce a supplementary modifier explaining the result of that location: dark skies and good stargazing."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; ensuring</strong>: a present participle that forms a supplementary modifier attached to the main clause &mdash; grammatically correct and no extra subject or finite verb is introduced. &#10003;</li><li><strong>Choice B &mdash; this will ensure</strong>: adds a pronoun and a finite verb, creating a comma splice (two independent clauses joined only by a comma). &#10007;</li><li><strong>Choice C &mdash; ensures</strong>: a finite verb with no subject, producing an ungrammatical sentence. &#10007;</li><li><strong>Choice D &mdash; it ensures</strong>: adds a pronoun and a finite verb, creating a comma splice just like choice B. &#10007;</li></ul> That confirms <strong>A</strong> is correct."
+      "title": "Avoid extra finite clauses",
+      "content": "B and D add a subject plus finite verb after a comma, creating a comma splice. C gives a finite verb without a subject, so the sentence is incomplete after the comma. The answer is <strong>A</strong>."
     }
   ]
 }

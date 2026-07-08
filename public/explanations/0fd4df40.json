@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the sentences",
-      "content": "The first sentence claims the ANLA is “known for its impressive audio collection.” The second provides specific evidence: “more than 5,000 audio recordings dating as far back as 1943.” The transition should signal how specific evidence supports a general claim."
+      "title": "Add confirming evidence",
+      "content": "The first sentence says the ANLA is known for an impressive audio collection. The next sentence backs up that claim by giving the size and age of the collection."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "“In fact” signals that specific evidence confirms a general claim. The other options misrepresent the relationship: “After” introduces time, “Regardless” introduces concession, and “Instead” introduces an alternative. That matches <strong>Choice A &mdash; In fact,</strong>."
+      "title": "Remove wrong transitions",
+      "content": "Choice B does not create a logical transition. Choice C signals contrast, but the second sentence supports the first. Choice D signals replacement or opposition, which also does not fit the confirming detail. The answer is <strong>A</strong>."
     }
   ]
 }

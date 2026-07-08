@@ -1,0 +1,15 @@
+{
+  "questionId": "99de765a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtracting the second polynomial changes every sign in it. This is the key step because the last constant becomes positive and cancels the first constant later in the simplification.\n$$\n(7t^4-8t^2+5t-3)-(6t^4-4t^3+9t^2-3)\n$$\n$$\n=7t^4-8t^2+5t-3-6t^4+4t^3-9t^2+3\n$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Group terms with the same power of $t$.\n$$\n(7t^4-6t^4)+4t^3+(-8t^2-9t^2)+5t+(-3+3)\n$$\n$$\n=t^4+4t^3-17t^2+5t\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

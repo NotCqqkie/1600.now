@@ -1,0 +1,15 @@
+{
+  "questionId": "a5cafacd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Generalize from both studies",
+      "content": "The student needs a generalization about research on plant litter. Both studies found that plant litter negatively affected seedling emergence, so the best sentence should state that shared pattern without focusing on one study, location, or definition."
+    },
+    {
+      "title": "Separate broad from narrow",
+      "content": "<ul><li><strong>Choice A</strong>: Gives the shared finding across studies in general terms.</li><li><strong>Choice B</strong>: Focuses on Harris and Mendez's one US grassland study.</li><li><strong>Choice C</strong>: Names specific studies and dates instead of making a broader claim.</li><li><strong>Choice D</strong>: Defines seedling emergence but does not state the plant-litter finding.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

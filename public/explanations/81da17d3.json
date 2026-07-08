@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "Text 1 claims Annibale Carracci (c. 1585) was &ldquo;the first artist to depict themself painting&rdquo; in Bologna. The question asks how the author of Text 2 would respond to that underlined claim. The answer must reflect what Text 2 actually argues &mdash; that Fontana&rsquo;s 1577 painting is the earliest Bolognese example, eight years earlier than Carracci&rsquo;s."
+      "title": "Compare the two claims",
+      "content": "Text 1 claims Carracci was the first Bolognese artist to depict themself painting, around 1585. Text 2 says Fontana's 1577 self-portrait is the earliest Bolognese example of such a work and includes an easel."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Carracci and Fontana were among the most well-respected painters in Bologna at the time.</strong>: neither text mentions the reputation or social standing of either painter, so this is unsupported. &#10007;</li><li><strong>Choice B &mdash; The depiction of Fontana in <em>Self-Portrait at the Keyboard</em> was intended to underscore the artist's creativity.</strong>: Text 2 says nothing about Fontana&rsquo;s artistic intent; this has no connection to the claim about who was first. &#10007;</li><li><strong>Choice C &mdash; Fontana likely inspired the reference to an easel and palette in Carracci's painting.</strong>: Text 2 does not suggest any influence between the two painters; it is only concerned with chronological priority, not inspiration. &#10007;</li><li><strong>Choice D &mdash; <em>Self-Portrait at the Keyboard</em> was painted earlier than Carracci's painting and also refers to the artist's craft.</strong>: Text 2 establishes both facts &mdash; Fontana&rsquo;s 1577 date precedes Carracci&rsquo;s c. 1585, and the easel in the background references the artistic craft &mdash; directly contradicting the &ldquo;first&rdquo; claim. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use Text 2's correction",
+      "content": "Text 2 would challenge the first-artist claim by pointing to Fontana's earlier painting and its reference to the artist's craft. A mentions reputation, B speculates about intent, and C claims influence; none of those points is supported by Text 2. The answer is <strong>D</strong>."
     }
   ]
 }

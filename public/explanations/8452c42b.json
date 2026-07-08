@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $66{x}^{2}$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Combine like terms",
-      "content": "Both terms have $x^2$, so add their coefficients:<br/>$$60x^2+6x^2=(60+6)x^2=66x^2$$"
+      "content": "Both terms have the same variable factor, $x^2$, so add only the coefficients.<br/>$$60x^2+6x^2=(60+6)x^2=66x^2$$"
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>A)</strong> $360x^2$: would come from multiplying $60 \\times 6$, not adding. Eliminate.</li><li><strong>B)</strong> $10x^2$: would come from $60/6$, not addition. Eliminate.</li><li><strong>C)</strong> $54x^2$: would come from $60-6$, not addition. Eliminate.</li><li><strong>D)</strong> $66x^2$: equals $60+6=66$ times $x^2$. &check;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Avoid common operations",
+      "content": "Multiplying the coefficients would give $360x^2$, subtracting them would give $54x^2$, and dividing them would give $10x^2$. The correct operation is addition. The answer is <strong>D</strong>."
     }
   ]
 }

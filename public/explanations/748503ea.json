@@ -1,0 +1,15 @@
+{
+  "questionId": "748503ea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the date threshold",
+      "content": "The passage says no source before 1155 includes references to the Round Table. <em>Annales Cambriae</em> was composed around 970, so by the passage's timeline it contains no Round Table information."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "A makes unsupported claims about Geoffrey's awareness and source availability. B compares overall content similarity without evidence. D adds an unsupported claim about historical accuracy. The remaining choice follows from the fact that <em>Annales Cambriae</em> lacks Round Table material. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c4ad75a2",
+  "correctAnswer": "-311/3600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the right side",
+      "content": "Distribute.<br/>$$0.8w-0.63=8w-0.008$$"
+    },
+    {
+      "title": "Collect like terms",
+      "content": "Collect terms.<br/>$$0.8w-8w=-0.008+0.63$$<br/>$$-7.2w=0.622$$"
+    },
+    {
+      "title": "Solve for w",
+      "content": "Divide.<br/>$$w=\\frac{0.622}{-7.2}=-\\frac{311}{3600}$$<br/>The answer is <strong>-311/3600</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat the repeated expression as a single unit",
-      "content": "The factor $(x^2 - x)$ appears in both terms. Treat it like a variable &mdash; call it $u$ for clarity:<br/>$$4u + 2u = 6u$$<br/>Substitute back: $$6(x^2 - x)$$"
+      "title": "Combine matching groups",
+      "content": "Both terms contain the same group, $(x^2-x)$. Add the coefficients multiplying that group.\n$$4(x^2-x)+2(x^2-x)=6(x^2-x)$$"
     },
     {
-      "title": "Expand by distributing 6",
-      "content": "$$6(x^2 - x) = 6x^2 - 6x$$"
-    },
-    {
-      "title": "Match to the choices",
-      "content": "<ul><li>A: $6x^2 - 6x$ &mdash; exactly what we derived. That confirms <strong>A</strong> is correct.</li><li>B: $6x^2 + 6x$ &mdash; wrong sign on the second term. Eliminated.</li><li>C: $6x$ &mdash; missing the $x^2$ term. Eliminated.</li><li>D: $6x^2$ &mdash; missing the $-6x$ term. Eliminated.</li></ul>"
+      "title": "Distribute the factor",
+      "content": "Now distribute $6$ across the parentheses.\n$$6(x^2-x)=6x^2-6x$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

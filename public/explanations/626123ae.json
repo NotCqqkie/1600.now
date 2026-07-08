@@ -1,0 +1,15 @@
+{
+  "questionId": "626123ae",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the timeline",
+      "content": "The passage moves from Shakespeare's likely arrival in London as early as 1585, to his growing fame by 1593, to a play performed in 1599. The final sentence needs a transition showing later time."
+    },
+    {
+      "title": "Pick the time transition",
+      "content": "Choice A signals restatement, Choice B signals contrast, and Choice C signals consequence. The 1599 event is not a rephrasing, opposition, or result; it simply occurs after 1593. The answer is <strong>D</strong>."
+    }
+  ]
+}

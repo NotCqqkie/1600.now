@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key inference signal",
-      "content": "The passage says Davis \"had to listen repeatedly to the vinyl recordings, which weren't very clear\" in order to transcribe the improvised lyrics. This labor-intensive process only makes sense if reliable transcriptions did not already exist &mdash; otherwise Davis could have used them instead."
+      "title": "Infer from Davis's work",
+      "content": "Davis had to listen repeatedly to unclear vinyl recordings in order to transcribe Rainey and Smith's improvised lyrics. That effort suggests reliable written versions of those improvised lyrics were not already available to her."
     },
     {
-      "title": "Test each choice against that inference",
-      "content": "<ul><li><strong>\"The songs have grown in popularity since Rainey and Smith first sang them.\"</strong>: The passage says nothing about the songs' popularity over time. No evidence supports this. &#10007;</li><li><strong>\"There were more recordings made of Rainey's songs than there were of Smith's.\"</strong>: The passage makes no comparison between the number of recordings of Rainey versus Smith. &#10007;</li><li><strong>\"There were few, if any, reliable transcriptions of Smith's and Rainey's improvised lyrics when Davis began her research.\"</strong>: Davis's painstaking effort to transcribe from unclear recordings directly implies that reliable transcriptions were not available to her. If they had been, she would not have needed to do this work. &#10003;</li><li><strong>\"According to Davis, the songs sung by Rainey were more musically innovative than those sung by Smith typically were.\"</strong>: The passage treats both artists similarly in terms of improvisation and wordplay, and makes no claim about one being more innovative than the other. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Avoid unsupported comparisons",
+      "content": "A discusses popularity over time, which the passage never mentions. B compares the number of recordings by the two singers, which is also unsupported. D claims Davis judged one singer more musically innovative, but the passage does not make that comparison. The supported inference concerns missing reliable transcriptions. The answer is <strong>C</strong>."
     }
   ]
 }

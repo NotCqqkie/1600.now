@@ -1,0 +1,19 @@
+{
+  "questionId": "cc14044e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the transformed function",
+      "content": "Since $f(x)=30x^3$, replacing $x$ with $-x$ gives this function.<br/>$$f(-x)=30(-x)^3=-30x^3$$<br/>$$y=-30x^3+c$$"
+    },
+    {
+      "title": "Find the intercept signs",
+      "content": "At the y-intercept, set $x=0$.<br/>$$t=c$$<br/>Since $c$ is positive, $t>0$. At the x-intercept, set $y=0$.<br/>$$0=-30r^3+c$$<br/>$$r^3=\\frac{c}{30}$$<br/>Since $c$ is positive, $r>0$."
+    },
+    {
+      "title": "Choose the matching signs",
+      "content": "The relationship requires both $r>0$ and $t>0$. The answer is <strong>B</strong>."
+    }
+  ]
+}

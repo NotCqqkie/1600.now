@@ -1,0 +1,19 @@
+{
+  "questionId": "0712bf27",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the prediction",
+      "content": "The hypothesis predicts that immature males should share fewer maternal food preferences than females do because males disperse. Individual 17 is the male comparison point, and individual 5 is the female comparison point."
+    },
+    {
+      "title": "Use both graph measures",
+      "content": "Support must point in the same direction on both measures: individual 17 should have a smaller percentage of its mother's diet shared with it and a larger percentage of its own diet not shared with its mother, compared with individual 5. That uses the graph's two different percentages, not just one overlap number."
+    },
+    {
+      "title": "Reject partial descriptions",
+      "content": "A and D report only the mother-diet overlap measure, so they leave out the unshared-offspring-diet measure. C reports values without showing the predicted male-female contrast. The option that compares both measures in the predicted direction is needed. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the known points from the figure",
-      "content": "From the figure, $P$ is at $(1, 0)$ on the positive $x$-axis (at $0^{\\circ}$) and $T$ is at $(-1, 0)$ on the negative $x$-axis (at $180^{\\circ}$). The center $O$ is at the origin. Points $Q$ and $R$ lie on the circle, with $Q$ in the first quadrant and $R$ in the second quadrant."
+      "title": "Find the central angle",
+      "content": "From the figure, $P$ and $T$ are endpoints of a diameter, so angle POT is $180^\\circ$. The two given $30^\\circ$ angles sit at the ends of that straight angle, leaving the middle central angle."
     },
     {
-      "title": "Find the position of Q using angle POQ",
-      "content": "Since $\\angle POQ = 30^{\\circ}$ and $P$ is at $0^{\\circ}$, point $Q$ is located $30^{\\circ}$ counterclockwise from $P$. Therefore, $Q$ is at $30^{\\circ}$ from the positive $x$-axis."
+      "title": "Subtract the known angles",
+      "content": "Subtract the two known endpoint angles from the straight central angle.<br/>$$180^\\circ-30^\\circ-30^\\circ=120^\\circ$$"
     },
     {
-      "title": "Find the position of R using angle ROT",
-      "content": "Since $\\angle ROT = 30^{\\circ}$ and $T$ is at $180^{\\circ}$, and $R$ appears above $T$ in the second quadrant, point $R$ is located $30^{\\circ}$ counterclockwise from $T$. Therefore, $R$ is at $180^{\\circ} - 30^{\\circ} = 150^{\\circ}$ from the positive $x$-axis."
-    },
-    {
-      "title": "Calculate angle QOR and convert to radians",
-      "content": "The central angle $\\angle QOR$ is the difference between their positions: $$\\angle QOR = 150^{\\circ} - 30^{\\circ} = 120^{\\circ}$$ Converting to radians: $$120^{\\circ} \\times \\frac{\\pi}{180^{\\circ}} = \\frac{120\\pi}{180} = \\frac{2\\pi}{3}$$ That confirms <strong>C</strong> is correct."
+      "title": "Convert degrees to radians",
+      "content": "$$120^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\frac{2\\pi}{3}$$<br/>This is the requested radian measure. The answer is <strong>C</strong>."
     }
   ]
 }

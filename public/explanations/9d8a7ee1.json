@@ -1,0 +1,15 @@
+{
+  "questionId": "9d8a7ee1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the causal signal",
+      "content": "The passage says Mohol bushbabies display the opposite pattern from gerbils, \"as\" their reliance on visual foraging creates a different reward-risk balance. The reference explains why the bushbabies respond differently."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "Choice A adds speed, which is not discussed. Choice C says the behavior is inconsistent with cost-benefit logic, but the phrase explains that logic. Choice D shifts back to gerbils rather than bushbabies. The answer is <strong>B</strong>."
+    }
+  ]
+}

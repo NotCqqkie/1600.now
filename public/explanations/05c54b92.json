@@ -1,0 +1,15 @@
+{
+  "questionId": "05c54b92",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides by $x$:\n$$\n\\frac{54}{x}=6x\n$$\n$$\n54=6x^2\n$$"
+    },
+    {
+      "title": "Use the requested expression",
+      "content": "The equation already gives the value of $6x^2$:\n$$\n6x^2=54\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

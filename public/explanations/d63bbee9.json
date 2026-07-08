@@ -1,0 +1,19 @@
+{
+  "questionId": "d63bbee9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up similar triangles",
+      "content": "Because $LM$ is parallel to $PQ$, triangles $LRM$ and $QRP$ are similar. Corresponding segments are proportional."
+    },
+    {
+      "title": "Find the missing segment",
+      "content": "Use the corresponding segments $LR=10$, $MR=9$, and $RP=19$.<br/>$$10/RQ=9/19$$<br/>$$9(RQ)=190$$<br/>$$RQ=190/9$$"
+    },
+    {
+      "title": "Add the segment lengths",
+      "content": "The full length is $LQ=LR+RQ$.<br/>$$LQ=10+190/9=90/9+190/9=280/9$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

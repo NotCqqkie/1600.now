@@ -1,0 +1,15 @@
+{
+  "questionId": "d17f1b03",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject of the blank is <strong>lost works</strong>, which is plural. The phrase about no copy existing is parenthetical and does not change the subject."
+    },
+    {
+      "title": "Match the plural subject",
+      "content": "Choice B, Choice C, and Choice D are singular verb forms, so they do not agree with the plural subject. A plural present-perfect verb correctly states what has happened to those lost works over time. The answer is <strong>A</strong>."
+    }
+  ]
+}

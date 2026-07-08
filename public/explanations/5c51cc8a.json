@@ -1,0 +1,19 @@
+{
+  "questionId": "5c51cc8a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the advantage",
+      "content": "The goal is to explain an advantage of onshore wind farms over offshore ones. The relevant notes say offshore farms produce more electricity but cost more to build and maintain."
+    },
+    {
+      "title": "Reject noncomparisons",
+      "content": "<ul><li><strong>Choice B</strong> gives only the location of Jaisalmer Wind Park.</li><li><strong>Choice C</strong> explains how wind farms work but not an onshore advantage.</li><li><strong>Choice D</strong> states a shared feature of both types.</li></ul>"
+    },
+    {
+      "title": "Name the cost advantage",
+      "content": "The remaining choice directly compares the two types and identifies the onshore advantage: lower building and maintenance costs. The answer is <strong>A</strong>."
+    }
+  ]
+}

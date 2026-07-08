@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the second equation",
-      "content": "The second equation is $y = 8x - 24$. Notice that the right side can be factored: $$8x - 24 = 8(x - 3)$$ So the system becomes: $$y = (x-3)(x+5)$$ $$y = 8(x-3)$$"
+      "title": "Set equal expressions",
+      "content": "Both expressions equal $y$, so set them equal.\n$$(x-3)(x+5)=8x-24$$\nFactor the right side.\n$$(x-3)(x+5)=8(x-3)$$"
     },
     {
-      "title": "Set equations equal and factor",
-      "content": "Since both expressions equal $y$, set them equal: $$(x-3)(x+5) = 8(x-3)$$ Move everything to one side and factor out the common term $(x-3)$: $$(x-3)(x+5) - 8(x-3) = 0$$ $$(x-3)[(x+5) - 8] = 0$$ $$(x-3)(x - 3) = 0$$ Therefore $x = 3$."
-    },
-    {
-      "title": "Substitute to find y and identify the solution",
-      "content": "Substitute $x = 3$ into the second equation: $$y = 8(3) - 24 = 24 - 24 = 0$$ The solution is the ordered pair $(3, 0)$. That confirms <strong>C</strong> is correct."
+      "title": "Solve the intersection",
+      "content": "Move all terms to one side and factor.\n$$(x-3)(x+5)-8(x-3)=0$$\n$$(x-3)(x-3)=0$$\n$$x=3$$\nThen \n$$\ny=8(3)-24=0\n$$ The answer is <strong>C</strong>."
     }
   ]
 }

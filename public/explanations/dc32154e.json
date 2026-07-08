@@ -1,0 +1,19 @@
+{
+  "questionId": "dc32154e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify input and output",
+      "content": "In $$K(v)=\\frac{5}{2}v^2$$, the input $$v$$ is the object's speed in meters per second, and the output $$K(v)$$ is kinetic energy in joules."
+    },
+    {
+      "title": "Interpret the notation",
+      "content": "The statement $K(18)=810$ means that when the speed is $18$ meters per second, the kinetic energy is $810$ joules."
+    },
+    {
+      "title": "Match the context statement",
+      "content": "The matching interpretation is that the object traveling at $18$ meters per second has a kinetic energy of $810$ joules. The answer is <strong>A</strong>."
+    }
+  ]
+}

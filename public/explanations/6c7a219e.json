@@ -1,0 +1,15 @@
+{
+  "questionId": "6c7a219e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared trait",
+      "content": "The passage identifies Blackbird as Blackfeet and a horror writer. It then says Dufresne is a Métis author who has also written in the genre, so the shared trait must apply to both authors."
+    },
+    {
+      "title": "Reject unsupported matches",
+      "content": "A applies Blackfeet characters to both authors, but that detail is given only for Blackbird. B says both are Blackfeet, though Dufresne is identified as Metis. D invents reading preferences. The shared trait is Indigenous horror authorship. The answer is <strong>C</strong>."
+    }
+  ]
+}

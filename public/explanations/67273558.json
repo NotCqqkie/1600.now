@@ -1,0 +1,19 @@
+{
+  "questionId": "67273558",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circle form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$"
+    },
+    {
+      "title": "Substitute the given center",
+      "content": "The center is $(14,19)$, so the left side is<br/>$$(x-14)^2+(y-19)^2$$"
+    },
+    {
+      "title": "Square the radius",
+      "content": "The radius is $8k$, so the right side is<br/>$$(8k)^2=64k^2$$<br/>The equation is $(x-14)^2+(y-19)^2=64k^2$. The answer is <strong>B</strong>."
+    }
+  ]
+}

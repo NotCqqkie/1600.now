@@ -1,0 +1,15 @@
+{
+  "questionId": "66ef40fd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $x=-4$ in $h(x)=6|x|$:\n$$\nh(-4)=6|-4|\n$$"
+    },
+    {
+      "title": "Evaluate the absolute value",
+      "content": "Since $|-4|=4$, evaluate the function:\n$$\nh(-4)=6(4)=24\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "455abc2e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the stated contrast",
+      "content": "The passage contrasts Indigenous-led cultural centers with non-Indigenous museums. The Pueblo of Pojoaque and Tohono O'odham centers use traditional knowledge and serve tribal citizens, while non-Indigenous museums tend to anticipate mainly non-Indigenous audiences."
+    },
+    {
+      "title": "Reject details not stated",
+      "content": "A and B describe exhibit size and museum size, neither of which is mentioned. D describes tribal history and culture, but the question asks how non-Indigenous museums differ. The stated difference is audience. The answer is <strong>C</strong>."
+    }
+  ]
+}

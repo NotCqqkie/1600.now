@@ -1,0 +1,15 @@
+{
+  "questionId": "e8dd55d4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the name restrictive",
+      "content": "The sentence needs a subject meaning a specific wildlife biologist, Dr. Purnima Devi Barman. The name identifies which biologist is on the front lines of conservation efforts, so it is essential and should not be set off with commas or introduced with a colon."
+    },
+    {
+      "title": "Reject appositive punctuation",
+      "content": "A sets the name off as nonessential, which is wrong because the name identifies the biologist. B opens that nonessential punctuation but does not close it before the verb. C uses a colon in the subject where a restrictive name should follow directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

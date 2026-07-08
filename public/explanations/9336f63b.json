@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The goal is to emphasize the historical significance of Manuel Reyes&rsquo;s enlistment date. The decisive clue in the notes is that only a small number of Filipino-descent sailors served in the Civil War at all &mdash; placing Reyes within that rare group is what makes his date significant."
+      "title": "Connect date to significance",
+      "content": "The student wants to emphasize the historical significance of Manuel Reyes's enlistment date. The relevant notes are that the US Civil War lasted from 1861 to 1865, Reyes enlisted in November 1863, and only a small number of Filipino-descent sailors served during that war."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Both Manuel Reyes and Rafael Santos were US Navy sailors of Filipino descent, but Reyes enlisted in the Navy in 1863, two years later than Santos.</strong>: This compares Reyes&rsquo;s date to Santos&rsquo;s date but never explains why either date matters historically &mdash; later does not mean significant. &#10007;</li><li><strong>Choice B &mdash; Manuel Reyes was a US Navy sailor of Filipino descent, along with Rafael Santos, who was born in the Philippines around 1834.</strong>: This mentions Santos&rsquo;s birth year instead of Reyes&rsquo;s enlistment date and provides no connection to the Civil War&rsquo;s historical context. &#10007;</li><li><strong>Choice C &mdash; Manuel Reyes enlisted in the US Navy in 1863, making him one of the few sailors of Filipino descent to serve in the US Civil War (1861–1865).</strong>: This gives the enlistment date and directly connects it to the rarity established by the notes &mdash; exactly the historical significance the question asks for. &#10003;</li><li><strong>Choice D &mdash; When Manuel Reyes enlisted in the US Navy in November 1863, he joined sailors such as Rafael Santos, who had been born in the Philippines around 1834.</strong>: This provides Reyes&rsquo;s enlistment date but frames it only as joining another sailor, not as belonging to a historically rare group. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject comparison and biography",
+      "content": "Choice A compares Reyes's enlistment date with Rafael Santos's earlier enlistment, but being later than Santos does not explain why Reyes's date matters historically. Choice B identifies Reyes as a Filipino-descent sailor alongside Santos and mentions Santos's birth, but it omits Reyes's enlistment date."
+    },
+    {
+      "title": "Use the Civil War context",
+      "content": "Choice D gives Reyes's November 1863 enlistment date but frames it only as joining sailors such as Santos. Choice C connects the date to the Civil War period and to the rare group of Filipino-descent US Navy sailors who served then. The answer is <strong>C</strong>."
     }
   ]
 }

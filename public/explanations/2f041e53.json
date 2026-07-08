@@ -1,0 +1,19 @@
+{
+  "questionId": "2f041e53",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute both points",
+      "content": "Since $f(x)=ax-b$, use the two given points.\n$$ac-b=8$$\n$$2ac-b=126$$"
+    },
+    {
+      "title": "Subtract the equations",
+      "content": "Subtract the first equation from the second to eliminate $b$.\n$$(2ac-b)-(ac-b)=126-8$$\n$$ac=118$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute $ac=118$ into the first equation.\n$$118-b=8$$\n$$b=110$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

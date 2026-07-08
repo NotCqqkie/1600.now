@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the charges into points",
-      "content": "The first two hours cost 220 dollars, so the total-cost line passes through $(2,220)$. Five hours cost 400 dollars, so it also passes through $(5,400)$. The slope is $$\\frac{400-220}{5-2}=60,$$ meaning each extra hour costs 60 dollars."
+      "title": "Use the two total costs",
+      "content": "The cost function is linear for $x\\ge2$. It passes through $(2{,}220)$ and $(5{,}400)$, so the hourly rate after the first two hours is:<br/>$$\\frac{400-220}{5-2}=60$$"
     },
     {
-      "title": "Read the fitted line",
-      "content": "Use $f(x)=60x+b$ with $(2,220)$: $$220=60(2)+b$$ $$b=100$$ Therefore $$f(x)=60x+100$$ This is faster than expanding the base-fee expression by hand."
+      "title": "Find the linear function",
+      "content": "Use $f(x)=60x+b$ and the point $(2{,}220)$:<br/>$$220=60(2)+b$$<br/>$$b=100$$<br/>So $f(x)=60x+100$."
     },
     {
-      "title": "Check the choices",
-      "content": "<strong>A</strong> is $f(x)=60x+100$, and it satisfies both $f(2)=220$ and $f(5)=400$. Another option has the right value at $x=5$? No: ${80}(5)=400$, but it gives $f(2)=160$, not 220. <strong>A</strong> is correct.",
+      "title": "Calculator shortcut",
+      "content": "Graph the line through the two given points and compare it to the choices. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=60x+100",
         "(2,220)",

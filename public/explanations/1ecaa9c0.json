@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the cost formula",
-      "content": "Elena pays 25 dollars as an initial fee, plus 0.80 dollars for each mile driven. For 32 miles, the total cost is:<br/>$$\\text{Total Cost} = 25 + 0.80 \\times 32$$"
+      "title": "Compute the mileage charge",
+      "content": "Elena drove $32$ miles, and each mile cost $0.80$ dollars.\n$$0.80\\cdot 32=25.60$$"
     },
     {
-      "title": "Calculate the total amount",
-      "content": "Multiply the per-mile rate by the number of miles:<br/>$$0.80 \\times 32 = 25.6$$<br/>Add this to the initial fee:<br/>$$25 + 25.6 = 50.60$$<br/>The total amount charged is 50.60 dollars. That matches <strong>Choice A &mdash; \\$50.60</strong>."
+      "title": "Add the initial fee",
+      "content": "Add the fixed fee to the mileage charge.\n$$25.00+25.60=50.60$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

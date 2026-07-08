@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the relationship into an equation",
-      "content": "Let $n$ be the smaller integer. The larger integer is $7$ greater than twice the smaller, so it equals $2n+7$. Their product is $372$:<br/>$$n(2n+7)=372$$"
+      "title": "Define the smaller integer",
+      "content": "Let $n$ be the smaller positive integer. The other integer is $7$ greater than twice it, so it is<br/>$$2n+7$$"
     },
     {
-      "title": "Solve the quadratic",
-      "content": "Expand and rearrange to standard form:<br/>$$2n^2+7n-372=0$$<br/>Apply the quadratic formula with $a=2$, $b=7$, $c=-372$:<br/>$$n=\\frac{-7\\pm\\sqrt{49+4(2)(372)}}{4}=\\frac{-7\\pm\\sqrt{3025}}{4}=\\frac{-7\\pm 55}{4}$$<br/>The positive root is $n=\\frac{48}{4}=12$."
+      "title": "Set up the product",
+      "content": "Their product is $372$.<br/>$$n(2n+7)=372$$<br/>$$2n^2+7n-372=0$$"
     },
     {
-      "title": "Verify",
-      "content": "If $n=12$, the larger integer is $2(12)+7=31$, and $12\\times 31=372$, which matches.<br/>The smaller integer is <strong>12</strong>, so the answer is <strong>12</strong>."
+      "title": "Factor the quadratic",
+      "content": "Factor the quadratic.<br/>$$2n^2+7n-372=(2n+31)(n-12)$$"
+    },
+    {
+      "title": "Use the positive solution",
+      "content": "Set each factor equal to $0$.<br/>$$2n+31=0 \\quad \\text{or} \\quad n-12=0$$<br/>The positive value is $n=12$.<br/>The answer is <strong>12</strong>."
     }
   ]
 }

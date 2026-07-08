@@ -1,0 +1,15 @@
+{
+  "questionId": "65ee294f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim and details",
+      "content": "The previous sentence claims community science can be effective and engaging. The underlined sentence explains that claim by listing benefits: more data, insight into scientists' daily work, and increased youth interest."
+    },
+    {
+      "title": "Test the sentence function",
+      "content": "B says the sentence limits the following study, but it does not set a limit. C says it contrasts with the previous sentence, though it supports it. D says it identifies the Holloway study's purpose, but it gives general benefits of community science. The answer is <strong>A</strong>."
+    }
+  ]
+}

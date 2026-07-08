@@ -1,0 +1,15 @@
+{
+  "questionId": "126a1eab",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared topic",
+      "content": "Text 1 discusses the word <em>curry</em> as a colonial term that some writers reject. Text 2 discusses a chef who recognizes that history but still calls some of his dishes curries. Both texts focus on whether and how the term is used."
+    },
+    {
+      "title": "Separate topic from examples",
+      "content": "Choice A is too broad; the texts are not about the history of peoples on the subcontinent. Choice C is only an example in Text 1 and is absent from Text 2. Choice D invents a topic about research methods. The shared topic is the term <em>curry</em>. The answer is <strong>B</strong>."
+    }
+  ]
+}

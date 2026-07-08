@@ -1,0 +1,15 @@
+{
+  "questionId": "c9631e28",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the tangent ratio",
+      "content": "Angles $A$ and $B$ are acute, so angle $C$ is the right angle. Relative to angle $B$, side $AC$ is opposite and side $BC$ is adjacent."
+    },
+    {
+      "title": "Find the adjacent side",
+      "content": "Use the tangent ratio:\n$$\\tan B=\\frac{AC}{BC}$$\n$$\\frac{1}{4}=\\frac{24.1}{BC}$$\n$$BC=24.1(4)=96.4$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

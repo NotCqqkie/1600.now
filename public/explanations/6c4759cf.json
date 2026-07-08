@@ -1,0 +1,19 @@
+{
+  "questionId": "6c4759cf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the variables",
+      "content": "The variable $x$ counts six-month periods since the end of January $1995$. The vertical value gives the estimated number of online newsletter subscribers."
+    },
+    {
+      "title": "Interpret the point",
+      "content": "The point $(1, 500)$ means that when $x=1$, the subscriber estimate is $500$. Since $x=1$ is the end of the first six-month period, the statement must describe that time and that subscriber count."
+    },
+    {
+      "title": "Match the interpretation",
+      "content": "The statement that says the estimated number of subscribers at the end of the first six-month period was $500$ matches the point. The answer is <strong>A</strong>."
+    }
+  ]
+}

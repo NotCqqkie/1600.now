@@ -1,0 +1,15 @@
+{
+  "questionId": "f2da52fc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the main verb",
+      "content": "The core sentence is <em>These extensive changes reflected the poet's evolving perspective</em>. The material about additions, removals, and prefatory material must be a modifier inserted between the subject and the main verb <em>reflected</em>."
+    },
+    {
+      "title": "Use an interrupting phrase",
+      "content": "A, B, and C introduce finite verbs that compete with or disrupt the main verb. The participial phrase with commas correctly explains what the changes included while preserving the main clause. The answer is <strong>D</strong>."
+    }
+  ]
+}

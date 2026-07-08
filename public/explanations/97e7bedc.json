@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question tests subject-verb agreement. The blank is the verb inside the relative clause \"that ______ in contact with it,\" which modifies \"nematodes.\" The relative pronoun \"that\" refers to \"nematodes,\" making the plural noun the subject of the blank verb."
+      "title": "Track the clause subject",
+      "content": "The blank is the verb in the relative clause \"that ______ in contact with it.\" The relative pronoun \"that\" refers to \"nematodes,\" which is plural."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; has come</strong>: singular present-perfect verb; violates subject-verb agreement with plural subject \"nematodes.\" &#10007;</li><li><strong>Choice B &mdash; comes</strong>: singular simple-present verb; violates subject-verb agreement with plural subject \"nematodes.\" &#10007;</li><li><strong>Choice C &mdash; is coming</strong>: singular present-progressive verb; violates subject-verb agreement with plural subject \"nematodes.\" &#10007;</li><li><strong>Choice D &mdash; come</strong>: plural simple-present verb; correctly agrees in number with plural subject \"nematodes.\" &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use the plural verb",
+      "content": "A, B, and C are singular verb forms, so they do not agree with the plural subject \"nematodes.\" The verb must be plural. The answer is <strong>D</strong>."
     }
   ]
 }

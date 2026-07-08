@@ -1,0 +1,15 @@
+{
+  "questionId": "4fcc251d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the painting title",
+      "content": "The title <em>Gun with Hand #1</em> directly identifies the oil painting, so no comma should separate <em>painting</em> from the title. The following <em>which</em> clause is nonrestrictive, so it needs a comma before it."
+    },
+    {
+      "title": "Reject misplaced commas",
+      "content": "A omits the comma before the nonrestrictive <em>which</em> clause. B puts an unnecessary comma between <em>painting</em> and the title. D also separates the title incorrectly and omits the comma before <em>which</em>. The correct punctuation attaches the title, then sets off the following clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

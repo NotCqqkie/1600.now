@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set h(x) equal to zero and isolate the squared term",
-      "content": "To find the x-intercepts, set $h(x) = 0$: $$3(x-5)^2 - 75 = 0$$ Add 75 to both sides and divide by 3: $$3(x-5)^2 = 75$$\n$$(x-5)^2 = 25$$"
+      "title": "Set the function equal to zero",
+      "content": "The x-intercepts occur where $h(x)=0$:\n$$\n3(x-5)^2-75=0\n$$\nAdd $75$ and divide by $3$:\n$$\n(x-5)^2=25\n$$"
     },
     {
-      "title": "Solve for x using square roots",
-      "content": "Since $(x-5)^2 = 25$, take the square root of both sides: $$x - 5 = \\pm 5$$ This gives us two solutions: $$x = 5 + 5 = 10 \\quad \\text{or} \\quad x = 5 - 5 = 0$$ We know $x = 0$ corresponds to the point $(0, 0)$.<br/><br/>The other x-intercept is at $x = 10$, so $t = 10$. That confirms <strong>D</strong> is correct."
+      "title": "Find both x-intercepts",
+      "content": "Take square roots:\n$$\nx-5=\\pm 5\n$$\nSo:\n$$\nx=0 \\quad \\text{or} \\quad x=10\n$$"
+    },
+    {
+      "title": "Identify the other intercept",
+      "content": "One intercept is already given as $(0,0)$, so the other is $(10,0)$. Thus $t=10$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "67d37e68",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute both expressions",
+      "content": "Replace $a$ and $b$ in $a-b$ with the expressions from the question. Keep the second expression in parentheses so the subtraction applies to every term.<br/>$$(4p+7q)-(11p-9q+8)$$"
+    },
+    {
+      "title": "Distribute the subtraction",
+      "content": "The minus sign changes every sign in the second set of parentheses. This turns $-9q$ into $+9q$ and $+8$ into $-8$.<br/>$$4p+7q-11p+9q-8$$"
+    },
+    {
+      "title": "Combine matching terms",
+      "content": "Combine the $p$-terms and $q$-terms, and keep the constant term.<br/>$$4p-11p=-7p$$<br/>$$7q+9q=16q$$<br/>So the equivalent expression is $-7p+16q-8$. The answer is <strong>A</strong>."
+    }
+  ]
+}

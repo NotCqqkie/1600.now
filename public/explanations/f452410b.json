@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Compare La Torre 6B to La Torre 6A in the table",
-      "content": "The table shows La Torre 6B with a 28.9 cm footprint versus La Torre 6A's 32.8 cm (shorter), and a 5.57 m stride versus La Torre 6A's 5.23 m (longer)."
+      "title": "Compare the track data",
+      "content": "La Torre 6B has a 28.9 cm footprint, shorter than La Torre 6A's 32.8 cm footprint. Its average stride is 5.57 m, longer than La Torre 6A's 5.23 m stride."
     },
     {
-      "title": "Find the choice that matches both comparisons",
-      "content": "<strong>a shorter footprint, and a longer average stride.</strong> states “shorter footprint, and longer average stride”—the exact comparison shown in the table. A, B, and D each misstate one or both values. This matches the correct answer — <strong>C</strong> is correct."
+      "title": "Match both comparisons",
+      "content": "Choice A gets the footprint wrong, Choice B gets both comparisons wrong, and Choice D gets the stride wrong. The choice must say shorter footprint and longer average stride. The answer is <strong>C</strong>."
     }
   ]
 }

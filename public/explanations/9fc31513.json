@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find total length of the two equal sides",
-      "content": "Each equal side is 12 ft, so together they measure $$2 \\times 12 = 24$$ feet."
+      "title": "Subtract the congruent sides",
+      "content": "The two congruent sides are each $12$ feet, so together they use<br/><br/>$$12+12=24$$"
     },
     {
-      "title": "Subtract from the perimeter to get the third side",
-      "content": "Perimeter is 42 ft, so the third side is $$42 - 24 = 18$$ feet.<br/>That confirms <strong>C</strong> is correct."
+      "title": "Identify the third side",
+      "content": "The perimeter is $42$ feet, so the remaining length is the third side:<br/><br/>$$42-24=18$$<br/><br/>The answer is <strong>C</strong>."
     }
   ]
 }

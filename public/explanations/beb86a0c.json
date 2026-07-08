@@ -1,29 +1,19 @@
 {
   "questionId": "beb86a0c",
-  "qid": "beb86a0c",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $x \\left(7x+4\\right)$."
+      "title": "Find the shared factor",
+      "content": "Both terms in $7x^2+4x$ contain a factor of $x$. The coefficients $7$ and $4$ do not share a factor greater than $1$, so the greatest common factor is just $x$."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Divide each term",
+      "content": "After factoring out $x$, the first term leaves $7x$ and the second term leaves $4$. Those two pieces go inside one set of parentheses."
     },
     {
-      "title": "Step 1",
-      "content": "Identify the greatest common factor of $7x^2$ and $4x$: both terms share a factor of x."
-    },
-    {
-      "title": "Step 2",
-      "content": "Factor out x: $7x^2 + 4x = x(7x + 4)$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Verify by distributing: $x \\cdot 7x + x \\cdot 4 = 7x^2 + 4x$. &#10003;"
+      "title": "Write the product",
+      "content": "The equivalent factored form is\n$$\n7x^2+4x=x(7x+4)\n$$\nDistributing gives the original expression again. The answer is <strong>A</strong>."
     }
-  ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $x \\left(7x+4\\right)$</strong>: Distributes to $7x^2 + 4x$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $4x \\left(7x+1\\right)$</strong>: Distributes to $28x^2 + 4x$, not $7x^2 + 4x$. &#10007;</li><li><strong>Choice C &mdash; $7x \\left(x+4\\right)$</strong>: Distributes to $7x^2 + 28x$, not $7x^2 + 4x$. &#10007;</li><li><strong>Choice D &mdash; ${x}^{2} \\left(7x+4\\right)$</strong>: Distributes to $7x^3 + 4x^2$, not $7x^2 + 4x$. &#10007;</li></ul>That is the correct answer.",
-  "correctAnswer": "A",
-  "section": "Math"
+  ]
 }

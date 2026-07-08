@@ -1,0 +1,15 @@
+{
+  "questionId": "ee472b4f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equal angles",
+      "content": "Angles $M$ and $N$ are equal, so let each measure be $x^\\circ$. The three angles of a triangle sum to $180^\\circ$.<br/>$$x+x+128=180$$"
+    },
+    {
+      "title": "Solve the angle equation",
+      "content": "Subtract $128$ from both sides, then divide by $2$.<br/>$$2x+128=180$$<br/>$$2x=52$$<br/>$$x=26$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

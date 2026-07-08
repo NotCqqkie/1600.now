@@ -1,0 +1,23 @@
+{
+  "questionId": "46d406ff",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations so the $y$-terms cancel:\n$$\nx+y=19\n$$\n$$\nx-y=9\n$$\n$$\n2x=28\n$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Divide by $2$:\n$$\nx=14\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection point. Its $x$-coordinate is $14$.\nThe answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "19=x+y",
+        "x-y=9"
+      ]
+    }
+  ]
+}

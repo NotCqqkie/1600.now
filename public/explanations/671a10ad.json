@@ -1,0 +1,15 @@
+{
+  "questionId": "671a10ad",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the tribal figure",
+      "content": "The student must compare average contribution per employee. Tribal economic activity contributed over 141,000 dollars per employee, so the completion must rank that figure against transportation/warehousing, manufacturing, and health care rather than simply describe total revenue."
+    },
+    {
+      "title": "Check the ranking",
+      "content": "Choice A is too high because transportation/warehousing is above the tribal figure. Choice C is inaccurate because the tribal figure is above both manufacturing and health care but not nearly equal to transportation/warehousing. Choice D is too low because the tribal figure is above manufacturing and health care. The only ranking that fits is below transportation/warehousing and above the other two industries. The answer is <strong>B</strong>."
+    }
+  ]
+}

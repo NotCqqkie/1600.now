@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=9x+12$$<br/>$$x+7y=20$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Substitute for one variable",
+      "content": "Use $y=9x+12$ in the second equation.\n$$x+7(9x+12)=20$$"
+    },
+    {
+      "title": "Solve for the point",
+      "content": "Simplify to find $x$, then use it to find $y$.\n$$x+63x+84=20$$\n$$64x=-64$$\n$$x=-1$$\n$$y=9(-1)+12$$\n$$y=3$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations and reading the intersection gives the same $y$-coordinate.\nThe answer is <strong>3</strong>.",
       "desmosExpressions": [
         "y=9x+12",
         "x+7y=20"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$3$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

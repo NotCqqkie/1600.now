@@ -1,0 +1,15 @@
+{
+  "questionId": "40023c76",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Replace the denied idea",
+      "content": "The first sentence says metals do not maintain bonds by sharing and exchanging electrons. The next sentence gives the actual mechanism instead: freely traveling valence electrons."
+    },
+    {
+      "title": "Use the correction transition",
+      "content": "Choice A would introduce an example, Choice C would signal a result, and Choice D would signal similarity. The remaining transition means 'instead,' which correctly replaces the denied explanation with the free-electron model. The answer is <strong>B</strong>."
+    }
+  ]
+}

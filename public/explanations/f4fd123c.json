@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the true subject and its number",
-      "content": "The subject is <strong>The African Games Co-production Market</strong> &mdash; one singular entity. The intervening phrase \"one of over 180 annual international conferences supporting video game development\" is set off by commas and describes the subject; it does not change it. Strip the interrupter out: \"The African Games Co-production Market ______ the growth...\" &mdash; the verb must be singular."
+      "title": "Find the true subject",
+      "content": "The subject is <em>The African Games Co-production Market</em>, a singular entity. The phrase between commas describes that subject but does not change its number."
     },
     {
-      "title": "Eliminate plural verbs and confirm the answer",
-      "content": "Test each verb form for agreement with a singular subject:<ul><li><strong>\"promote\"</strong>: bare plural form &mdash; agrees with plural subjects like \"they\" or \"conferences,\" not with a singular noun. &#10007;</li><li><strong>\"are promoting\"</strong>: plural present progressive &mdash; \"are\" requires a plural subject; a singular subject takes \"is promoting.\" &#10007;</li><li><strong>\"promotes\"</strong>: singular simple present &mdash; the \"-s\" ending marks agreement with a third-person singular subject like \"The African Games Co-production Market.\" &#10003;</li><li><strong>\"have promoted\"</strong>: plural present perfect &mdash; \"have\" requires a plural subject; a singular subject takes \"has promoted.\" &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use singular agreement",
+      "content": "A is a plural present-tense form. B uses plural <em>are</em>. D uses plural <em>have</em>. The sentence needs the singular present-tense verb that agrees with <em>Market</em>. The answer is <strong>C</strong>."
     }
   ]
 }

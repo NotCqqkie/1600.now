@@ -1,0 +1,19 @@
+{
+  "questionId": "6f645c8e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a concrete example",
+      "content": "The goal is to provide an example of a position in Cecchetti method ballet. The notes identify third position as one such position."
+    },
+    {
+      "title": "Reject general statements",
+      "content": "<ul><li><strong>Choice A</strong> mentions dance positions generally but not Cecchetti method.</li><li><strong>Choice B</strong> mentions Cecchetti method but not a specific position.</li><li><strong>Choice D</strong> describes body positions broadly without giving the example.</li></ul>"
+    },
+    {
+      "title": "Name the position",
+      "content": "The remaining choice directly states that third position is an example of a position in Cecchetti method ballet. The answer is <strong>C</strong>."
+    }
+  ]
+}

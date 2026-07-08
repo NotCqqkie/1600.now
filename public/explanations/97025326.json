@@ -1,0 +1,19 @@
+{
+  "questionId": "97025326",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the common term",
+      "content": "Both terms contain $25(x+10)$:\n$$\n25x^2(x+10)-25(x+10)^3=25(x+10)(x^2-(x+10)^2)\n$$"
+    },
+    {
+      "title": "Use difference of squares",
+      "content": "Factor the expression inside the brackets:\n$$\nx^2-(x+10)^2=(x-(x+10))(x+(x+10))\n$$\n$$\nx^2-(x+10)^2=(-10)(2x+10)\n$$"
+    },
+    {
+      "title": "Identify the listed factor",
+      "content": "The full factorization includes the factor $2x+10$. The answer is <strong>B</strong>."
+    }
+  ]
+}

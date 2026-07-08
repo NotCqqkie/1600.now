@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the distance equation",
-      "content": "For each part of the trip, distance equals rate times time. The first $x$ hours at 70 mph covers $70x$ miles. The remaining $y$ hours at 40 mph covers $40y$ miles. The total distance is 230 miles, so:<br/>$$70x + 40y = 230$$"
+      "title": "Set up total distance",
+      "content": "Distance equals rate times time. The first part of the trip covers $70x$ miles, and the second part covers $40y$ miles, for a total of $230$ miles:<br/>$$70x+40y=230$$"
     },
     {
-      "title": "Substitute x = 1 and solve for y",
-      "content": "We know $x = 1$, so substitute into the equation:<br/>$$70(1) + 40y = 230$$<br/>$$70 + 40y = 230$$<br/>Subtract 70 from both sides:<br/>$$40y = 160$$<br/>Divide both sides by 40:<br/>$$y = 4$$"
+      "title": "Substitute the first time",
+      "content": "Use $x=1$ and solve for $y$:<br/>$$70(1)+40y=230$$<br/>$$40y=160$$<br/>$$y=4$$<br/>The answer is <strong>4</strong>."
     }
   ]
 }

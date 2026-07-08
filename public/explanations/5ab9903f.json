@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the cost structure",
-      "content": "The shuttle costs a flat \\$840 for the first 4 hours. For each hour beyond 4 hours, there is an additional \\$60 charge. With $$t$$ total hours, the extra hours are $$t - 4$$."
+      "title": "Identify the fixed cost",
+      "content": "The first $4$ hours cost a fixed $840$ dollars. Since $t>4$, only the hours after the first $4$ hours are charged at the additional hourly rate."
     },
     {
-      "title": "Write the equation",
-      "content": "Total cost = flat fee + (extra hours) &times; (hourly rate):<br/>$$840 + 60(t - 4) = 1,080$$"
-    },
-    {
-      "title": "Match to the answer choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$840(t-4)+60t=1,080$&rsquo;</strong>: Multiplies the flat fee by the variable extra hours, which makes no sense structurally. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$840(4t)+60t=1,080$&rsquo;</strong>: Also incorrectly multiplies the flat fee by time, and uses total hours for the variable rate. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$840+60(t-4)=1,080$&rsquo;</strong>: Correctly adds the fixed \\$840 to \\$60 times the number of hours beyond 4. &#10003;</li><li><strong>Choice D &mdash; &lsquo;$840+60(4t)=1,080$&rsquo;</strong>: Uses $$4t$$ instead of $$(t-4)$$ for extra hours &#8212; that would quadruple the total time, not subtract the first 4 hours. &#10007;</li></ul>That confirms <strong>C</strong>. &#8212; <strong>C</strong> is correct."
+      "title": "Write the extra-hours cost",
+      "content": "The number of extra hours is $t-4$, and each extra hour costs $60$ dollars. The total cost is therefore<br/>$$840+60(t-4)=1{,}080$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

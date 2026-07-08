@@ -1,0 +1,15 @@
+{
+  "questionId": "a3420996",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the gaps",
+      "content": "The wall length is $4x$ feet, and each gap is $\\frac{4}{7}$ feet. The number of gaps is<br/>$$\\frac{4x}{\\frac{4}{7}}=4x\\cdot\\frac{7}{4}=7x$$"
+    },
+    {
+      "title": "Add the endpoint clip",
+      "content": "If there are $7x$ gaps between clips, there is one more clip than gap because the first clip is already at the left edge.<br/>$$y=7x+1$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "555aa654",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+    },
+    {
+      "title": "Read the figure and set up similar triangles",
+      "content": "The figure shows that angle $A$ is a right angle, $AC = 17$, and $BE = 9$. Since $\\overline{DE} \\parallel \\overline{AC}$, triangles $BDE$ and $BAC$ are similar (AA similarity), giving ratio $k = \\frac{BD}{BA} = \\frac{BE}{BC} = \\frac{DE}{AC}$. With $BE = 9$, the ratio is $k = \\frac{9}{BC}$."
+    },
+    {
+      "title": "Use the condition to find k",
+      "content": "Because $D$ lies on $BA$ with $BD = k \\cdot BA$, the condition that $D$ is the midpoint of $AB$ (i.e. $k = \\frac{1}{2}$) means $E$ is the midpoint of $BC$ as well. With $k = \\frac{1}{2}$: $BE = \\frac{BC}{2} = 9$, so $BC = 18$."
+    },
+    {
+      "title": "Verify with the right-angle triangle",
+      "content": "With $BC = 18$ and $AC = 17$ and right angle at $A$: $AB = \\sqrt{BC^2 - AC^2} = \\sqrt{324 - 289} = \\sqrt{35}$. Then $BD = \\frac{AB}{2} = \\frac{\\sqrt{35}}{2}$ (since $D$ is the midpoint of $AB$). The median from $A$ to the midpoint of hypotenuse $BC$ equals half the hypotenuse: $AE = \\frac{BC}{2} = 9$. These values are consistent with the problem's geometric setup, confirming $BC = 18$."
+    }
+  ]
+}

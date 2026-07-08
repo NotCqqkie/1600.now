@@ -1,0 +1,15 @@
+{
+  "questionId": "74876842",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the verb subject",
+      "content": "In the clause \"the toxins the organism uses to protect itself from predation actually ___ its attractiveness,\" the subject of the blank verb is \"the toxins.\" That subject is plural, so the verb must use a plural present-tense form."
+    },
+    {
+      "title": "Match plural agreement",
+      "content": "<ul><li><strong>Choice A</strong>: \"Is increasing\" is singular, so it disagrees with \"toxins.\"</li><li><strong>Choice C</strong>: \"Increases\" is the singular present-tense form.</li><li><strong>Choice D</strong>: \"Has increased\" is singular present perfect, so it also disagrees with the plural subject.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

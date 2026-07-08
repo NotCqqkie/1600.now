@@ -1,6 +1,5 @@
 import { type CSSProperties, type ElementType, type ReactNode, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { MultiSelect } from "@/components/ui/multi-select";
 import { Slider } from "@/components/ui/slider";
 import {
   Select,
@@ -24,14 +23,10 @@ import { cn } from "@/lib/utils";
 import {
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
+  MIN_SCORE_BAND,
+  MAX_SCORE_BAND,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
-
-const difficultyOptions = [
-  { label: "Easy", value: "easy" },
-  { label: "Medium", value: "medium" },
-  { label: "Hard", value: "hard" },
-] as const;
 
 const FILTER_SELECT_TRIGGER_CLASS =
   "w-full pl-4 pr-3 text-left transition-[background-color,border-color,color,box-shadow] duration-300 ease-out hover:border-primary hover:bg-primary/15 hover:text-cobalt-deep dark:hover:border-primary/60 dark:hover:bg-primary/15 dark:hover:text-cobalt [&>span]:grow [&>span]:text-left [&>svg]:transition-colors hover:[&>svg]:text-cobalt-deep dark:hover:[&>svg]:text-cobalt";
@@ -111,6 +106,8 @@ export function QuestionBankFilterPanel({
   const isHighlighted = isOpen || hasActiveFilters;
   const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
   const hasTimeSpentFilter = minTimeSpent !== 0 || maxTimeSpent !== MAX_TIME_SPENT_FILTER_SECONDS;
+  const [minBand, maxBand] = filters.scoreBandRange;
+  const hasScoreBandFilter = minBand !== MIN_SCORE_BAND || maxBand !== MAX_SCORE_BAND;
   const getSelectTriggerClass = (isActive: boolean) => cn(
     FILTER_SELECT_TRIGGER_CLASS,
     FILTER_CONTROL_CLASS,
@@ -205,26 +202,41 @@ export function QuestionBankFilterPanel({
                 ? "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]"
                 : "md:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)_minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]",
             )} data-filter-demo-grid>
-              <FilterCard icon={BarChart3} label="Difficulty" className="min-w-0">
-                <MultiSelect
-                  options={[...difficultyOptions]}
-                  selected={filters.difficulty}
-                  onChange={(value) => updateFilter("difficulty", value as QuestionBankFilters["difficulty"])}
-                  placeholder={compactLabels ? "Any" : "Any Difficulty"}
-                  hideSearch
-                  portalContainer={portalContainer}
-                  demoControl="difficulty"
-                  demoOptionPrefix="difficulty"
-                  closeOnSelect={compactLabels}
-                  preventAutoFocusScroll={homeDemoMultiOpen}
-                  className={cn(
-                    FILTER_CONTROL_CLASS,
-                    filters.difficulty.length > 0 && ACTIVE_FILTER_CONTROL_CLASS,
-                    compactLabels && filters.difficulty.length > 0 && "hover:[&_span]:!text-primary-foreground",
-                  )}
-                  open={homeDemoMultiOpen ? homeDemoOpenControls.includes("difficulty") : undefined}
-                  onOpenChange={(nextOpen) => openHomeDemoControl("difficulty", nextOpen)}
-                />
+              <FilterCard icon={BarChart3} label={compactLabels ? "Difficulty" : "Difficulty (1–10)"} className="min-w-0">
+                <div className="space-y-3 pt-1">
+                  <div className={cn(
+                    compactLabels ? "grid grid-cols-2 gap-2" : "flex items-center justify-between gap-2",
+                    "text-xs font-semibold",
+                  )}>
+                    <span className={cn(
+                      "inline-flex min-w-0 items-center justify-center rounded-full border border-border/60 bg-background px-3 py-1 text-foreground shadow-sm transition-[background-color,border-color,color,box-shadow] duration-300 ease-out",
+                      compactLabels && "w-full whitespace-nowrap px-1 tabular-nums",
+                      hasScoreBandFilter && "border-primary/35 bg-primary text-primary-foreground",
+                    )}>
+                      {compactLabels ? minBand : `${minBand}/10`}
+                    </span>
+                    <span className={cn(
+                      "inline-flex min-w-0 items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-foreground shadow-sm transition-[background-color,border-color,color,box-shadow] duration-300 ease-out",
+                      compactLabels && "w-full whitespace-nowrap px-1 tabular-nums",
+                      hasScoreBandFilter && "border-primary/35 bg-primary text-primary-foreground",
+                    )}>
+                      {compactLabels ? maxBand : `${maxBand}/10`}
+                    </span>
+                  </div>
+                  <div
+                    className="rounded-[10px] border border-transparent px-2 py-1"
+                    data-filter-demo-control="difficulty"
+                  >
+                    <Slider
+                      value={[minBand, maxBand]}
+                      min={MIN_SCORE_BAND}
+                      max={MAX_SCORE_BAND}
+                      step={1}
+                      onValueChange={(value) => updateFilter("scoreBandRange", value as [number, number])}
+                      aria-label="Difficulty band range"
+                    />
+                  </div>
+                </div>
               </FilterCard>
 
               <FilterCard icon={Clock} label={compactLabels ? "Time Spent" : "Time Spent Solving"} className="min-w-0">

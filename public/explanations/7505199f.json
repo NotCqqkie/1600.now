@@ -1,0 +1,15 @@
+{
+  "questionId": "7505199f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two World Cups",
+      "content": "The first sentence describes the 2022 World Cup as large and globally broad, with 32 teams from six continents. The next sentence describes the 1954 World Cup as smaller and less geographically broad, with only 16 teams mostly from Europe and the Americas."
+    },
+    {
+      "title": "Signal the difference",
+      "content": "A would restate the previous idea, but the second sentence contrasts with it. C would introduce an example, not a difference. D would signal a result, but the 1954 details are not caused by the 2022 event. The remaining transition correctly marks contrast. The answer is <strong>B</strong>."
+    }
+  ]
+}

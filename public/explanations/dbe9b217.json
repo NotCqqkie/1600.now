@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute $x=2$",
-      "content": "The function is $f(x)=7x^3+5$. Substitute $2$ for $x$: $$f(2)=7(2)^3+5.$$"
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $2$ in the function:<br/>$$f(2)=7(2)^3+5$$"
     },
     {
-      "title": "Evaluate the power first",
-      "content": "$2^3=8$, so $$f(2)=7(8)+5=56+5=61.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The value of $f(2)$ is <strong>61</strong>. The exponent is evaluated before multiplying by $7$, so the cubic term contributes $56$. Then the final constant adds $5$."
+      "title": "Evaluate the expression",
+      "content": "Evaluate the exponent before multiplying:<br/>$$7(2)^3+5=7(8)+5=56+5$$<br/>The answer is <strong>61</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "d4cdef38",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "From the graph, line $k$ has slope $$-\\frac{3}{4}$$ A perpendicular line has the negative reciprocal slope:\n$$m_j=\\frac{4}{3}$$"
+    },
+    {
+      "title": "Use the given point",
+      "content": "Substitute $(-15,-28)$ into $$y=\\frac{4}{3}x+b$$\n$$-28=\\frac{4}{3}(-15)+b$$\n$$-28=-20+b$$\n$$b=-8$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "The equation of line $j$ is\n$$y=\\frac{4}{3}x-8$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

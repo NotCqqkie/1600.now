@@ -1,0 +1,19 @@
+{
+  "questionId": "fc449782",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "For a parabola in the form $f(x)=a(x-h)^2+k$ with $a>0$, the minimum value is displayed by the constant $k$."
+    },
+    {
+      "title": "Complete the square",
+      "content": "Rewrite the quadratic by completing the square.<br/>$$x^2-8x-240=(x-4)^2-16-240$$<br/>$$x^2-8x-240=(x-4)^2-256$$"
+    },
+    {
+      "title": "Identify the matching form",
+      "content": "The equivalent form that displays the minimum value as a constant is $f(x)=(x-4)^2+(-256)$. The answer is <strong>B</strong>."
+    }
+  ]
+}

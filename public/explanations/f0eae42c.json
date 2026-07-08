@@ -1,0 +1,15 @@
+{
+  "questionId": "f0eae42c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture the full contrast",
+      "content": "The text is not mainly about only ocelots, only jaguars, or only the shape of the hyoid bone. It asks why one feline species purrs while the other roars, then explains that differences in the hyoid bone and its attachment may account for that sound difference."
+    },
+    {
+      "title": "Match the main idea",
+      "content": "Choice A gives a supporting detail about rigid and flexible hyoids, but it leaves out the effect on purring and roaring. Choice B says researchers are uncertain, but the text gives a specific hypothesis rather than stopping at uncertainty. Choice C explains why jaguars can roar, but it omits ocelots and the full comparison between the two species. Choice D keeps the scope broad enough: hyoid-related differences may explain why ocelots purr and jaguars roar. The answer is <strong>D</strong>."
+    }
+  ]
+}

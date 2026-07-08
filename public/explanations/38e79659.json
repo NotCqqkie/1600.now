@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the example needs",
-      "content": "The passage argues world&apos;s fairs are &quot;too expensive and not popular enough.&quot; The example cites the 1984 World&apos;s Fair costing 350 million dollars, then needs an attendance figure from the table to complete the claim of low popularity. The correct figure must come from the 1984 row."
+      "title": "Use the 1984 row",
+      "content": "The sentence gives the 1984 World's Fair as the example and asks for its visitor count. The completion must therefore use the attendance figure from the table's 1984 row, not a figure from another fair."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "Match each attendance figure to its year in the table:<ul><li><strong>Choice A — 7.35 million visitors.</strong>: The table shows the 1984 World&apos;s Fair had exactly 7.35 million visitors &mdash; this is the figure that completes the 1984 example. &#10003;</li><li><strong>Choice B — 9.60 million visitors.</strong>: 9.60 million comes from a different year in the table, not 1984 &mdash; this misrepresents the data. &#10007;</li><li><strong>Choice C — 6.40 million visitors.</strong>: 6.40 million comes from a different year in the table, not 1984 &mdash; this misrepresents the data. &#10007;</li><li><strong>Choice D — 5.60 million visitors.</strong>: 5.60 million comes from a different year in the table, not 1984 &mdash; this misrepresents the data. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject wrong table values",
+      "content": "B, C, and D give visitor totals that do not match the 1984 World's Fair. The table value that completes the example is 7.35 million visitors. The answer is <strong>A</strong>."
     }
   ]
 }

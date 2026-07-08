@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the subject",
-      "content": "Strip the parenthetical: \"behavioral economists such as Gee, <em>whose research focuses on charitable giving</em>, ____ that...\" The subject is <strong>behavioral economists</strong> &mdash; plural."
+      "title": "Find the true subject",
+      "content": "The subject of the blank is “behavioral economists such as Gee,” which is plural. The phrase “whose research focuses on charitable giving” describes Gee but does not change the subject. The verb must agree with the plural subject."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Rule violated by wrong choices: subject-verb agreement &mdash; a plural subject requires the base (plural) form of the verb, not a singular inflection.<ul><li><strong>\"has contended\"</strong>: singular present-perfect verb &mdash; disagrees with the plural subject \"behavioral economists.\" &#10007;</li><li><strong>\"contends\"</strong>: singular present-tense verb (third-person -s) &mdash; disagrees with the plural subject. &#10007;</li><li><strong>\"is contending\"</strong>: singular present-progressive verb &mdash; disagrees with the plural subject. &#10007;</li><li><strong>\"contend\"</strong>: base-form plural present-tense verb &mdash; agrees with the plural subject \"behavioral economists.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate singular verbs",
+      "content": "Choice A, “has contended,” is singular. Choice B, “contends,” is also singular. Choice C, “is contending,” is singular and progressive. The plural present-tense verb agrees with “behavioral economists.” The answer is <strong>D</strong>."
     }
   ]
 }

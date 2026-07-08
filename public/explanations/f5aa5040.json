@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Horizontal line tangent to parabola means it passes through the vertex",
-      "content": "A horizontal line intersects a parabola at exactly one point when it is tangent to the parabola—that is, when it touches the parabola at the vertex.<br/><br/>For the parabola $y = -2x^2 + 11x$ with $a = -2 \\lt 0$, the vertex is the maximum point.<br/><br/>The line $2y = c$ (equivalently, $y = \\frac{c}{2}$) must pass through this vertex."
+      "title": "Use the tangent point",
+      "content": "A horizontal line intersects this downward-opening parabola at exactly one point only when it passes through the vertex. The line $2y=c$ has constant $y$-value $\\frac{c}{2}$, so find the vertex height of the parabola."
     },
     {
-      "title": "Find the x-coordinate of the vertex",
-      "content": "Using the vertex formula with $a = -2$ and $b = 11$:<br/>$$x = -\\frac{11}{2(-2)} = \\frac{11}{4}$$",
+      "title": "Find the vertex input",
+      "content": "For $y=-2x^2+11x$, use $a=-2$ and $b=11$.<br/>$$x=-\\frac{11}{2(-2)}=\\frac{11}{4}$$",
       "formula": "$$x = -\\frac{b}{2a}$$"
     },
     {
-      "title": "Find the y-coordinate of the vertex and calculate c",
-      "content": "Substitute $x = \\frac{11}{4}$ into $y = -2x^2 + 11x$:<br/>$$y = -2\\left(\\frac{11}{4}\\right)^2 + 11\\left(\\frac{11}{4}\\right) = -2 \\cdot \\frac{121}{16} + \\frac{121}{4}$$<br/>$$= -\\frac{121}{8} + \\frac{121}{4} = -\\frac{121}{8} + \\frac{242}{8} = \\frac{121}{8}$$<br/>Since the line $2y = c$ passes through the vertex where $y = \\frac{121}{8}$:<br/>$$c = 2 \\cdot \\frac{121}{8} = \\frac{121}{4} = 30.25$$"
+      "title": "Convert the height to c",
+      "content": "Substitute the vertex input into the parabola.<br/>$$y=-2(\\frac{11}{4})^2+11(\\frac{11}{4})$$<br/>$$y=-\\frac{121}{8}+\\frac{242}{8}=\\frac{121}{8}$$<br/>Since $2y=c$,<br/>$$c=2(\\frac{121}{8})=\\frac{121}{4}$$<br/>The answer is <strong>30.25</strong>."
     }
   ]
 }

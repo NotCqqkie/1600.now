@@ -1,0 +1,19 @@
+{
+  "questionId": "e21dc6a1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original center",
+      "content": "The equation $(x-6)^2+(y+5)^2=4$ is in circle form, so circle P has center $(6,-5)$ and radius $2$."
+    },
+    {
+      "title": "Translate the center",
+      "content": "Moving right $3$ units adds $3$ to the $x$-coordinate and leaves the $y$-coordinate unchanged:\n$$\n(6,-5)\\to(9,-5)\n$$"
+    },
+    {
+      "title": "Write the new equation",
+      "content": "With center $(9,-5)$ and the same radius, circle Q has equation:\n$$\n(x-9)^2+(y+5)^2=4\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

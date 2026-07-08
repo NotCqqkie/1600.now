@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank needs",
-      "content": "The sentence uses the correlative conjunction pair \"not only... but also.\" The rule: no punctuation should interrupt either half of this pair. The blank fills the first element: \"caused ______ by cyclones but also by vapor streams.\""
+      "title": "Keep the pair intact",
+      "content": "The sentence uses the paired structure “not only” and “but also.” The first half must read smoothly with “but also by vapor streams,” so punctuation should not interrupt “caused not only by cyclones.”"
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"caused not only by cyclones—\"</strong>: places a single dash after \"cyclones,\" but there is no closing dash later in the sentence to complete the pair. An unpaired dash is a punctuation error. &#10007;</li><li><strong>\"caused—not only by cyclones—\"</strong>: wraps \"not only by cyclones\" inside paired dashes, treating it as a parenthetical insert. But \"not only by cyclones\" is not parenthetical — it is one half of the correlative structure and cannot be removed without breaking the sentence. &#10007;</li><li><strong>\"caused, not only by cyclones,\"</strong>: wraps the same phrase in commas, which has the same flaw as B: it isolates a non-parenthetical element. &#10007;</li><li><strong>\"caused not only by cyclones\"</strong>: no internal punctuation interrupts the correlative pair; the full structure reads cleanly: \"may be caused not only by cyclones but also by vapor streams.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Remove interrupting punctuation",
+      "content": "Choice A leaves an unmatched dash. Choice B wrongly sets the first half of the pair off with dashes. Choice C wrongly sets the same necessary phrase off with commas. The no-punctuation version preserves the correlative structure. The answer is <strong>D</strong>."
     }
   ]
 }

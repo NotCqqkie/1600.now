@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The student claims transgenic fish in the wild may have <strong>negative ecological effects</strong>. The decisive clue is <em>&quot;significant negative long-term ecological effects&quot;</em>, which demands a quote showing <strong>how the fish could cause harm</strong>."
+      "title": "Require a harmful effect",
+      "content": "The student's assertion is that escaped transgenic fish may cause significant negative long-term ecological effects. A supporting quotation must therefore show a plausible harmful consequence in wild ecosystems."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>Choice D &mdash; \"Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.\"</strong> explains that interbreeding could spread fluorescence, making wild fish more vulnerable to predators—<strong>a clear ecological consequence</strong> of genetic modification.<ul><li>A only notes sex ratios without impact</li><li>B describes a lack of data</li><li>C questions the completeness of observations</li></ul><br/><br/>That matches <strong>Choice D &mdash; \"Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.\"</strong>."
+      "title": "Reject evidence without harm",
+      "content": "Choice A only compares sex ratios at observed sites. Choice B says researchers lack sufficient impact studies, which does not support a specific negative effect. Choice C concerns whether observations cover all introduced ecosystems. The answer is <strong>D</strong>."
     }
   ]
 }

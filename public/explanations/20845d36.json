@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn each percent change into a multiplier",
-      "content": "$a$ is $65\\%$ less than $b$, so $35\\%$ of $b$ remains: $$a=0.35b$$ Also, $c$ is $40\\%$ greater than $a$, so $$c=1.40a$$"
+      "title": "Write the multipliers",
+      "content": "If $a$ is $65\\%$ less than $b$, then $35\\%$ of $b$ remains.<br/>$$a=0.35b$$<br/>If $c$ is $40\\%$ greater than $a$, then<br/>$$c=1.40a$$"
     },
     {
-      "title": "Combine the multipliers",
-      "content": "Substitute $a=0.35b$ into $c=1.40a$: $$c=1.40(0.35b)=0.49b$$"
-    },
-    {
-      "title": "Confirm the grid-in answer",
-      "content": "Since $c=0.49b$, the number $c$ is $0.49$ times $b$. Enter <strong>.49</strong> or <strong>0.49</strong>."
+      "title": "Combine the changes",
+      "content": "Substitute $a=0.35b$ into $c=1.40a$.<br/>$$c=1.40(0.35b)=0.49b$$<br/>So $c$ is $0.49$ times $b$. The answer is <strong>.49</strong>."
     }
   ]
 }

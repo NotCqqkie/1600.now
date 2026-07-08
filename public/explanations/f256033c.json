@@ -1,0 +1,15 @@
+{
+  "questionId": "f256033c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the range clue",
+      "content": "The passage says Chicago has everything from monumental sculpture to street art. That range signals that the blank should describe variety or scope in the city's public art."
+    },
+    {
+      "title": "Reject negative meanings",
+      "content": "Choice A suggests dispute, Choice C suggests indifference, and Choice D suggests bewilderment, but the passage praises the variety on display. The remaining choice means wide range or scope. The answer is <strong>B</strong>."
+    }
+  ]
+}

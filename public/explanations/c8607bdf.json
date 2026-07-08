@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "The subject is &quot;Alexander's use of 'we'&quot; &mdash; the head noun is &quot;use&quot; (singular). The intervening prepositional phrase &quot;of 'we'&quot; does not change the subject's number, so the verb must be singular."
+      "title": "Find the singular subject",
+      "content": "The subject is Alexander's use of we. The head noun is use, which is singular. The phrase of we sits between the subject and verb but does not change the subject's number."
     },
     {
-      "title": "Apply subject-verb agreement and eliminate the others",
-      "content": "Subject-verb agreement (rule: a singular subject takes a singular verb) requires the singular present-tense form, which is &quot;evokes.&quot;<br/><ul><li><strong>Choice A &mdash; evokes</strong>: singular present-tense verb agreeing with the singular head noun &quot;use.&quot; &#10003;</li><li><strong>Choice B &mdash; are evoking</strong>: plural present progressive; disagrees with the singular subject. &#10007;</li><li><strong>Choice C &mdash; have evoked</strong>: plural present perfect; the singular form would be &quot;has evoked,&quot; so this also fails agreement. &#10007;</li><li><strong>Choice D &mdash; evoke</strong>: plural present tense; disagrees with the singular subject. &#10007;</li></ul>"
+      "title": "Match singular agreement",
+      "content": "Choice B uses are evoking, a plural verb phrase. Choice C uses have evoked, another plural verb phrase. Choice D uses evoke, the plural present-tense form. A singular subject needs a singular verb. The answer is <strong>A</strong>."
     }
   ]
 }

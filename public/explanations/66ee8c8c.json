@@ -1,0 +1,15 @@
+{
+  "questionId": "66ee8c8c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function equal",
+      "content": "The question asks when $g(x)=-184$. Use the definition of $g$:<br/>$$-24-8x=-184$$"
+    },
+    {
+      "title": "Solve for the input",
+      "content": "Add $24$ to both sides, then divide by $-8$:<br/>$$-8x=-160$$<br/>$$x=20$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

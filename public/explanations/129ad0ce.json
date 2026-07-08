@@ -1,0 +1,19 @@
+{
+  "questionId": "129ad0ce",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the new side length",
+      "content": "A side length $70\\%$ shorter is $30\\%$ of the original side length:\n$$\n42(0.30)=12.6\n$$"
+    },
+    {
+      "title": "Find the actual distance",
+      "content": "The original side represents\n$$\n42(11)=462\n$$\nmiles. The reduced map shows the same actual distance along its side."
+    },
+    {
+      "title": "Compute miles per inch",
+      "content": "On the reduced map,\n$$\n\\frac{462}{12.6}=36.666\n$$\nRounded to two decimal places, this is $36.67$. The answer is <strong>D</strong>."
+    }
+  ]
+}

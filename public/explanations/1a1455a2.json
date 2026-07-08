@@ -1,0 +1,15 @@
+{
+  "questionId": "1a1455a2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject of the sentence is the singular noun phrase Food writer J. Kenji Lopez-Alt. The phrase who explores the science behind cooking only describes him, so the verb must agree with a singular subject."
+    },
+    {
+      "title": "Use singular agreement",
+      "content": "Choice A, Choice C, and Choice D are plural verb forms, so they do not agree with the singular subject. The singular present-tense verb correctly completes the sentence. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9b93e5b1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the naming phrase",
+      "content": "The blank appears inside a pair of dashes after <em>including the</em>. The sentence needs the phrase <em>languages Javanese and Bikol</em>, where <em>Javanese</em> and <em>Bikol</em> directly name which languages are being discussed. This is an appositive-style naming relationship within the same phrase. Because the names identify the noun immediately, no punctuation should separate <em>languages</em> from those names."
+    },
+    {
+      "title": "Reject extra punctuation",
+      "content": "Choice A keeps the identifying phrase intact. Choice B adds a colon after wording that is not a complete independent clause. Choice C inserts another dash inside an already dashed parenthetical phrase, disrupting the structure. Choice D places a comma between the noun and the language names that identify it. The sentence reads smoothly only without added punctuation after <em>languages</em>. The answer is <strong>A</strong>."
+    }
+  ]
+}

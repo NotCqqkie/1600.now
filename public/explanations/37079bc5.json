@@ -1,0 +1,15 @@
+{
+  "questionId": "37079bc5",
+  "correctAnswer": "1/4,0.25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the relevant counts from the table",
+      "content": "From the table, the number of brown regular-length pants is <em>3</em> and the total number of regular-length pants is <em>12</em>."
+    },
+    {
+      "title": "Compute the conditional probability",
+      "content": "The probability of brown given regular is $\\frac{\\text{brown regular}}{\\text{total regular}} = \\frac{3}{12}$. Simplify by dividing numerator and denominator by 3: $$\\frac{3}{12} = \\frac{1}{4}$$<br/>The answer is <strong>1/4</strong>.<br/><br/>Equivalent forms accepted: <strong>1/4</strong>, <strong>0.25</strong>."
+    }
+  ]
+}

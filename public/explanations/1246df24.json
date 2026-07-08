@@ -1,0 +1,15 @@
+{
+  "questionId": "1246df24",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the method change",
+      "content": "Baslam's spinach study added specific bacterial or fungal strains to soil. Nair's team instead used intact microbial communities from different natural settings so the experiment would better reflect the variation and complexity of naturally occurring communities."
+    },
+    {
+      "title": "Infer the avoided limitation",
+      "content": "B misstates the spinach study's focus, since flavonoid content relates to plant chemistry. C reverses the point by saying the spinach soil likely resembled wild soils. D invents abnormal baseline diversity. The remaining choice identifies the representativeness problem Nair avoided. The answer is <strong>A</strong>."
+    }
+  ]
+}

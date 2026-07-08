@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the opening phrase and main clause structure",
-      "content": "The opening noun phrase describes a specific person: <strong>“One of the few African American global explorers during the turn of the 20th century.”</strong> After the comma, the main clause begins and needs a subject. The answer depends on which noun fills that subject position."
+      "title": "Place the modified person",
+      "content": "The opening phrase, one of the few African American global explorers, describes a person. The noun immediately after the comma should therefore be the person being described: Matthew Henson."
     },
     {
-      "title": "Apply the matching rule",
-      "content": "When an opening describes a person, the main clause's subject must be that person.<br/><br/><strong>Choice A &mdash; Matthew Henson made several treks across Greenland between 1891 and 1909.</strong> correctly makes Matthew Henson the subject—he is the explorer described in the opening.<br/><br/>Making Greenland or treks the subject illogically attaches the description of a person to a place or object instead.<br/><br/><strong>Choice B &mdash; and 1909 were the years between which Matthew Henson made several treks across Greenland.</strong> is incoherent. That matches <strong>Choice A &mdash; Matthew Henson made several treks across Greenland between 1891 and 1909.</strong>."
+      "title": "Avoid dangling modifiers",
+      "content": "B makes the years 1891 and 1909 appear to be the explorers being described. C incorrectly attaches the description to Greenland. D incorrectly attaches it to several treks. The remaining choice places Matthew Henson right after the modifier and makes him the subject of the sentence. The answer is <strong>A</strong>."
     }
   ]
 }

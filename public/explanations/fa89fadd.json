@@ -1,0 +1,15 @@
+{
+  "questionId": "fa89fadd",
+  "correctAnswer": "640",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the doubling condition",
+      "content": "The model is $f(t)=45{,}000(2)^{t/640}$. The population doubles when the multiplier based on $2$ is exactly $2$, so the exponent must be $1$."
+    },
+    {
+      "title": "Solve for time",
+      "content": "Set the exponent equal to $1$.\n$$\\frac{t}{640}=1$$\n$$t=640$$\nThe answer is <strong>640</strong>."
+    }
+  ]
+}

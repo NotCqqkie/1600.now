@@ -1,0 +1,23 @@
+{
+  "questionId": "c58b4586",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the temperature at four minutes",
+      "content": "During the first $4.0$ minutes, the temperature increases by $6.5$ degrees per minute.<br/>$$23+6.5(4.0)=23+26=49$$"
+    },
+    {
+      "title": "Build the later model",
+      "content": "After $4.0$ minutes, the temperature starts at $49$ degrees and increases at $2.4$ degrees per minute. For time $x$, the elapsed time after that point is $x-4.0$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "A table beginning at $(4,49)$ and increasing by $2.4$ per minute matches the second phase. Set the second-phase expression equal to $63$.<br/>$$63=2.4(x-4.0)+49$$<br/>The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x_1=[4,5]",
+        "y_1=[49,51.4]"
+      ]
+    }
+  ]
+}

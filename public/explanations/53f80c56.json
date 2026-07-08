@@ -1,0 +1,15 @@
+{
+  "questionId": "53f80c56",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the group as one value",
+      "content": "The question asks for $x+4$, and the equation already groups that expression in $7(x+4)=63$."
+    },
+    {
+      "title": "Divide by seven",
+      "content": "Divide both sides by $7$:\n$$\nx+4=\\frac{63}{7}=9\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

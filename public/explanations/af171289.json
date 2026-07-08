@@ -1,0 +1,15 @@
+{
+  "questionId": "af171289",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the square",
+      "content": "Expand the left side of the given equation.\n\n$$(x+3)^2=x^2+6x+9$$\n\nSo the equation becomes\n\n$$x^2+6x+9=28$$"
+    },
+    {
+      "title": "Isolate the requested expression",
+      "content": "The question asks for $x^2+6x$, so subtract $9$ from both sides.\n\n$$x^2+6x=28-9$$\n\n$$x^2+6x=19$$\n\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

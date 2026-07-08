@@ -1,0 +1,19 @@
+{
+  "questionId": "0c065b89",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use residual signs",
+      "content": "A point has an actual $y$-value greater than the predicted $y$-value when the point is above the line of best fit."
+    },
+    {
+      "title": "Count the points above",
+      "content": "Counting the plotted points above the line gives $5$ points. The remaining $4$ plotted points are below the line."
+    },
+    {
+      "title": "Match the count",
+      "content": "The number of actual $y$-values greater than their predicted values is $5$. The answer is <strong>C</strong>."
+    }
+  ]
+}

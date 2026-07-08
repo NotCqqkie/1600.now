@@ -1,0 +1,15 @@
+{
+  "questionId": "62451ad7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a modifier after code",
+      "content": "The sentence already identifies “a new country dialing code” as one of Latvia's infrastructural changes. The blank should modify that noun phrase by explaining the code's function, not add another finite verb."
+    },
+    {
+      "title": "Avoid a second main verb",
+      "content": "A, B, and C are finite verb forms, so each would create an uncoordinated second predicate after “a new country dialing code.” A present participle describes what the code did while keeping the sentence grammatically unified. The answer is <strong>D</strong>."
+    }
+  ]
+}

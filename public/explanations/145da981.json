@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the critical contrast needed",
-      "content": "The conclusion states that paywalls benefit larger newspapers more than smaller ones. The evidence must show a large newspaper achieving substantially better results than a small newspaper."
+      "title": "Match the conclusion",
+      "content": "The conclusion says paywalls generally benefit larger newspapers more. Supporting data must compare a larger paper with a smaller one and show the larger paper had the better revenue change."
     },
     {
-      "title": "Confirm <strong>Choice C &mdash; <em>The</em> <em>New York Times</em> had a 20% revenue change, while the <em>Denver Post</em> had a −1% revenue change.</strong> provides this contrast",
-      "content": "<strong>Choice C &mdash; <em>The</em> <em>New York Times</em> had a 20% revenue change, while the <em>Denver Post</em> had a −1% revenue change.</strong> shows the <em>New York Times</em> (large, 20% revenue gain) versus the <em>Denver Post</em> (small, −1% change), illustrating the dramatic advantage paywalls delivered to larger papers.<br/><br/>The others either compare two large papers, omit the size comparison, or contain factual errors.<br/><br/>That matches <strong>Choice C &mdash; <em>The</em> <em>New York Times</em> had a 20% revenue change, while the <em>Denver Post</em> had a −1% revenue change.</strong>."
+      "title": "Use the large-small contrast",
+      "content": "A and B compare two large papers, so they do not test the size contrast. D gives only the smaller paper's weak result. The useful comparison pairs a large paper's 20% gain with a smaller paper's -1% change. The answer is <strong>C</strong>."
     }
   ]
 }

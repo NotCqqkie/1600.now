@@ -1,0 +1,15 @@
+{
+  "questionId": "a64e8de6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the criticized feature",
+      "content": "The passage describes Holm and colleagues' study of <em>Amphiprion percula</em> and then focuses on its small mean sample size, which could lead to biased analysis and exaggerated effects."
+    },
+    {
+      "title": "Match the main topic",
+      "content": "B concerns the cause of ocean acidification, C concerns the species' evolution, and D incorrectly centers a behavior change first reported in 2022. The main topic is a possible shortcoming in a study of <em>Amphiprion percula</em>. The answer is <strong>A</strong>."
+    }
+  ]
+}

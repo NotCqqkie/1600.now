@@ -1,0 +1,15 @@
+{
+  "questionId": "9c671b4c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the missing detail",
+      "content": "The Round Table does not appear in Geoffrey of Monmouth's <em>History</em> or in works that predate it. Malory's later <em>Le Morte d'Arthur</em> does include the Round Table, so the inference concerns where that detail could have entered Malory's version despite its absence from Geoffrey's tradition."
+    },
+    {
+      "title": "Infer a later source",
+      "content": "Choice A makes an unsupported comparison with <em>Perceval</em>. Choice C introduces historical accuracy, which the passage never discusses. Choice D says Malory preferred Geoffrey's version, but Geoffrey's version lacks the Round Table. Malory must have used a source outside Geoffrey's knowledge. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Set up the velocity boundary",
-      "content": "Pre-2006 estimates were low enough to permit a stable orbit around the Milky Way, but the 2006 Kallivayalil estimate was too high to permit one. The maximum velocity that would still allow orbit must therefore sit above the highest pre-2006 figure (which worked) and below the 2006 figure (which did not)."
+      "title": "Set the velocity boundary",
+      "content": "Before 2006, the estimates were low enough for the LMC to maintain orbit. The 2006 Kallivayalil estimate was too high. So the maximum velocity that would still allow orbit must be higher than the largest earlier working estimate but lower than the 2006 estimate."
     },
     {
-      "title": "Pull the bracketing values from the table",
-      "content": "The highest pre-2006 estimate in the table is 344 km/s, and the 2006 Kallivayalil estimate is 378 km/s. The maximum orbit-preserving velocity must lie above 344 km/s but below 378 km/s."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; above 344 km/s but below 378 km/s.</strong>: places the maximum above the highest velocity already shown to allow orbit and below the velocity shown to break orbit. &#10003;</li><li><strong>Choice B &mdash; above 297 km/s but below 344 km/s.</strong>: this range sits entirely at or below a pre-2006 value already known to allow orbit, so it understates the maximum. &#10007;</li><li><strong>Choice C &mdash; above 378 km/s.</strong>: 378 km/s is the value Besla and colleagues say is too high for orbit, so anything higher cannot be the orbit-preserving maximum. &#10007;</li><li><strong>Choice D &mdash; below 297 km/s.</strong>: this falls below pre-2006 estimates already shown to permit orbit, so it again understates the maximum. &#10007;</li></ul>That is the correct answer."
+      "title": "Use the bracketing values",
+      "content": "B and D put the maximum too low because they fall at or below earlier values that already allowed orbit. C is too high because 378 km/s was already too fast. The table brackets the maximum between 344 km/s and 378 km/s. The answer is <strong>A</strong>."
     }
   ]
 }

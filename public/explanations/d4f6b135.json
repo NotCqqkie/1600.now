@@ -1,0 +1,15 @@
+{
+  "questionId": "d4f6b135",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the minimum and maximum",
+      "content": "The minimum recorded height is $44$ feet, so every recorded height satisfies $t\\geq44$. The maximum recorded height is $61$ feet, so every recorded height satisfies $t\\leq61$."
+    },
+    {
+      "title": "Combine the bounds",
+      "content": "Both conditions must be true at the same time:\n$$\n44\\leq t\\leq61\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

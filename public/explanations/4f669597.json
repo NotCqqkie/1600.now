@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute on the left side",
-      "content": "Apply distribution to each grouped term: $3(p+1) = 3p+3$ and $9(p-1) = 9p-9$. Substituting back:<br/>$$3p + 3 + 9p - 9 = \\text{(right side)}$$<br/>Combine like terms on the left: $3p+9p = 12p$ and $3-9 = -6$, giving $12p - 6$ on the left."
+      "title": "Distribute the left side",
+      "content": "Expand each product.\n$$3(p+1)+9(p-1)=3p+3+9p-9$$\nCombine like terms.\n$$3p+3+9p-9=12p-6$$"
     },
     {
-      "title": "Solve for p",
-      "content": "The equation becomes $12p - 6 = 7p$. Subtract $7p$ from both sides:<br/>$$5p - 6 = 0$$<br/>Add $6$ to both sides:<br/>$$5p = 6$$<br/>Divide by $5$:<br/>$$p = \\frac{6}{5}=1.2$$<br/>The solution is <strong>$p = \\frac{6}{5}$</strong>."
+      "title": "Isolate p",
+      "content": "Use the simplified left side in the equation.\n$$12p-6=7p$$\n$$5p=6$$\n$$p=\\frac{6}{5}$$\nThe answer is <strong>6/5</strong>."
     }
   ]
 }

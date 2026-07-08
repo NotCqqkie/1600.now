@@ -1,0 +1,15 @@
+{
+  "questionId": "229af6d5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the centers",
+      "content": "Data set X has mean<br/>$$\\frac{13+13+14+14+15+16+16+17+17}{9}=15$$<br/>Data set Y has mean<br/>$$\\frac{2+2+3+3+4+5+5+6+6}{9}=4$$"
+    },
+    {
+      "title": "Compare the spreads",
+      "content": "Each data set has the same deviation pattern from its mean:<br/>$$-2,-2,-1,-1,0,1,1,2,2$$<br/>Standard deviation depends on these distances from the mean, so the two standard deviations are equal. The answer is <strong>C</strong>."
+    }
+  ]
+}

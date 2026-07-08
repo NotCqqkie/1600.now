@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down Text 1's central concern",
-      "content": "Text 1 says mycoprotein is environmentally better than beef but is too expensive, so access is limited; biochemists are working on cheaper substrates to expand access."
+      "title": "Connect the two texts",
+      "content": "Text 1 says mycoprotein has a lower environmental impact than beef but remains too expensive for broad access. It also says biochemists are looking for cheaper substrates to reduce production costs. Text 2 says replacing some beef consumption with mycoprotein could greatly reduce deforestation over thirty years. Without cost reductions, that substitution would be harder to achieve at global scale."
     },
     {
-      "title": "Connect that concern to Text 2's findings",
-      "content": "Text 2 shows that replacing 20% of worldwide beef consumption with mycoprotein would cut deforestation in half over thirty years. To reach that scale of substitution, mycoprotein has to become affordable in many more places &mdash; exactly what the cheaper-substrate research in Text 1 is meant to achieve. The Text 1 author would therefore say that developing a cheaper substrate would help bring about Text 2&apos;s deforestation benefit."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A — By emphasizing that since agricultural water consumption would remain static in the event of replacing beef consumption with mycoprotein consumption, an effort must be made to substitute mycoprotein for chicken and pork in diets as well</strong>: overreach &mdash; Text 1 never calls for replacing chicken or pork, and the water point isn&apos;t a Text 1 concern. &#10007;</li><li><strong>Choice B — By asserting that the development of a less expensive substrate for mycoprotein production would contribute to the goal of decreasing worldwide deforestation over time</strong>: ties Text 1&apos;s cost solution directly to Text 2&apos;s deforestation result. &#10003;</li><li><strong>Choice C — By noting that most people would be more likely to use mycoprotein as a substitute for chicken or pork in their diets than as a substitute for beef</strong>: misread &mdash; Text 1 makes no claim about consumer preference. &#10007;</li><li><strong>Choice D — By pointing out that some countries are responsible for greater deforestation than others and thus, to have any significant effect on the environment, will have to replace more than 20% of their beef consumption with mycoprotein</strong>: overreach &mdash; Text 1 never compares deforestation across countries or sets a higher replacement target. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Use cost to explain impact",
+      "content": "The author of Text 1 would likely see cheaper production as a way to make the deforestation benefit in Text 2 more achievable. Choice A shifts to chicken, pork, and water use; Choice C invents consumer preference; and Choice D adds unsupported country-level claims. The answer is <strong>B</strong>."
     }
   ]
 }

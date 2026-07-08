@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the product",
-      "content": "Use FOIL on $(4x-21)(17x+5)$: $$4x\\cdot17x+4x\\cdot5-21\\cdot17x-21\\cdot5$$"
+      "title": "Identify the middle terms",
+      "content": "In the product $(4x-21)(17x+5)$, the coefficient $b$ comes from the two terms that produce $x$-terms."
     },
     {
-      "title": "Find the x-coefficient",
-      "content": "The $x$-terms are $$20x-357x=-337x$$ so in $ax^2+bx+c$, the value of $b$ is $-337$."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $b$ is <strong>-337</strong>."
-    },
-    {
-      "title": "Ignore terms that do not affect b",
-      "content": "The value of $b$ is only the coefficient of the $x$ term. The $4x\\cdot 17x$ product affects $a$, and the $-21\\cdot 5$ product affects $c$, so the middle products decide $b$."
+      "title": "Combine the x-terms",
+      "content": "Multiply and combine the middle terms:<br/>$$4x\\cdot5+(-21)(17x)=20x-357x=-337x$$<br/>So the coefficient of $x$ is $-337$. The answer is <strong>-337</strong>."
     }
   ]
 }

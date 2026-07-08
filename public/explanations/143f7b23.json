@@ -1,0 +1,19 @@
+{
+  "questionId": "143f7b23",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the total weight",
+      "content": "The person weighs $180$ pounds. The boxes contribute $24x$ pounds and $55y$ pounds, so the total weight is\n$$180+24x+55y$$"
+    },
+    {
+      "title": "Apply the maximum capacity",
+      "content": "The total weight can be at most $5{,}620$ pounds.\n$$180+24x+55y\\le 5{,}620$$"
+    },
+    {
+      "title": "Isolate the box weights",
+      "content": "Subtract the person's weight from both sides.\n$$24x+55y\\le 5{,}620-180$$\n$$24x+55y\\le 5{,}440$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

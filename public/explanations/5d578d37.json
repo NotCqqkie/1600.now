@@ -1,0 +1,19 @@
+{
+  "questionId": "5d578d37",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Center fluorite's number",
+      "content": "The goal is to emphasize fluorite's Mohs scale number. The relevant note states that fluorite has a Mohs scale number of 4."
+    },
+    {
+      "title": "Reject off-focus choices",
+      "content": "<ul><li><strong>Choice A</strong> centers quartz and scratching ability.</li><li><strong>Choice B</strong> omits fluorite entirely.</li><li><strong>Choice D</strong> discusses ordering minerals without giving fluorite's number.</li></ul>"
+    },
+    {
+      "title": "State the number directly",
+      "content": "The remaining choice begins by saying fluorite has a Mohs scale number of 4 and then explains that number relative to gypsum and quartz. The answer is <strong>C</strong>."
+    }
+  ]
+}

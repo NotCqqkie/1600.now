@@ -1,0 +1,15 @@
+{
+  "questionId": "8b4d96ed",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the density formula",
+      "content": "Density equals mass divided by volume."
+    },
+    {
+      "title": "Divide mass by volume",
+      "content": "Substitute the given mass and volume.<br/>$$\\frac{378}{27}=14$$The answer is <strong>A</strong>."
+    }
+  ]
+}

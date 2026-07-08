@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the required number of doublings",
-      "content": "Divide the target transistor count by the initial count:<br/>$$\\frac{1,240,000}{310,000} = 4 = 2^2$$<br/>We need <strong>2 doublings</strong>."
+      "title": "Find the growth factor",
+      "content": "Compare the target to the starting amount:<br/>$$\\frac{1{,}240{,}000}{310{,}000}=4=2^2$$<br/>This is $2$ doublings."
     },
     {
-      "title": "Calculate the target year",
-      "content": "2 doublings occur over $2 \\times 2 = 4$ years. Starting from 1986:<br/>$$1986 + 4 = 1990$$<br/>That matches the correct answer - <strong>B</strong> is correct."
+      "title": "Convert doublings to years",
+      "content": "Each doubling takes $2$ years:<br/>$$1986+2\\cdot2=1990$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

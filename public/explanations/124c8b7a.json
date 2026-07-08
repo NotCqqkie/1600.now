@@ -1,0 +1,19 @@
+{
+  "questionId": "124c8b7a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding vertices",
+      "content": "The similarity statement says triangle $CAE$ is similar to triangle $CBD$. So $C$ corresponds to $C$, $A$ corresponds to $B$, and $E$ corresponds to $D$."
+    },
+    {
+      "title": "Use the matching angle",
+      "content": "Corresponding angles in similar triangles are congruent. Therefore angle $CAE$ matches angle $CBD$. The side relationship changes lengths, not angle measures."
+    },
+    {
+      "title": "Substitute the given measure",
+      "content": "The question gives angle $CBD$ as $57^\\circ$. Since angle $CAE$ has the same measure, angle $CAE$ is also $57^\\circ$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify increasing or decreasing",
-      "content": "Scan from left to right across the graph. As $x$ increases, $y$ increases. The function is increasing. This eliminates <strong>A</strong> (decreasing exponential) and <strong>C</strong> (decreasing linear)."
+      "title": "Read the direction",
+      "content": "As $x$ increases, the graph rises. That means the function is increasing, so any decreasing description does not fit."
     },
     {
-      "title": "Identify exponential or linear shape",
-      "content": "The graph is curved, not straight. The rate of increase accelerates: the $y$-values rise slowly for negative $x$, then more rapidly as $x$ approaches and passes zero.<br/><br/>This accelerating growth is the signature of exponential functions, while linear functions have constant slope and produce straight lines.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Read the shape",
+      "content": "The graph is curved and rises faster as $x$ increases, so the rate of change is not constant. A straight line would show a linear function, but this shape is exponential.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "d0289e42",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given value",
+      "content": "The system states that $y=35$. Substitute this into the other equation.<br/>$$35=10x-15$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Add $15$ to both sides, then divide by $10$.<br/>$$50=10x$$<br/>$$x=5$$<br/>The solution is $(5,35)$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read their intersection point.<br/>The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y = 10x - 15",
+        "y = 35"
+      ]
+    }
+  ]
+}

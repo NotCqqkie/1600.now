@@ -1,0 +1,15 @@
+{
+  "questionId": "129c41ac",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Connect zeros to the graph",
+      "content": "The equation $f(x)=0$ asks where the graph has a height of $0$. Those are exactly the points where the graph intersects the $x$-axis."
+    },
+    {
+      "title": "Count the intersections",
+      "content": "On the shown graph, the curve never touches or crosses the $x$-axis. That means there are $0$ values of $x$ for which $f(x)=0$. The answer is <strong>D</strong>."
+    }
+  ]
+}

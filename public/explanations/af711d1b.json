@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use distance as x and time as y",
-      "content": "The choices are all equations for $t$ in terms of $d$, so graph distance $d$ on the $x$-axis and time $t$ on the $y$-axis. The table gives the points $(0.32,8)$ and $(0.56,14)$."
+      "title": "Use a table point",
+      "content": "The table gives points such as $(0.32,8)$ and $(0.56,14)$, where $d$ is distance and $t$ is time."
     },
     {
-      "title": "Run a proportional calculation",
-      "content": "Because zero distance should take zero time, use the proportional model $t=kd$. Find $k$ from either table row: $$k=\\frac{8}{0.32}=25.$$ So the model is $t=25d$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>C</strong>, $t=25d$, is the only choice with this slope. It also checks in the table because $25(0.56)=14$."
+      "title": "Find the constant rate",
+      "content": "For a proportional relationship $t=kd$, use either row:<br/>$$k=\\frac{8}{0.32}=25$$<br/>So the equation is $t=25d$. The answer is <strong>C</strong>."
     }
   ]
 }

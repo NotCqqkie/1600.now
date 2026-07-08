@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The blank separates the noun <strong>“This hypothesis”</strong> from the dependent clause <strong>“that certain trees, such as <em>P. sylvestris</em>, survived without interruption or human intervention throughout the Holocene”</strong>.<br/><br/>The sentence's main verb <strong>“cannot stand”</strong> comes after this dependent clause.<br/><br/>This arrangement requires the blank to contain a form that creates a complete noun phrase to serve as the subject of the main verb."
+      "title": "Locate the main verb",
+      "content": "The main verb of the sentence is \"cannot stand.\" The words before it need to form a subject phrase about a hypothesis suggesting that certain trees survived. The blank should modify \"hypothesis,\" not create a separate main verb."
     },
     {
-      "title": "Apply the participial form",
-      "content": "The present participle <strong>suggesting</strong> forms the noun phrase <strong>“This hypothesis suggesting that certain trees, such as <em>P. sylvestris</em>, survived”</strong>, which functions as the subject of <strong>“cannot stand”</strong>.<br/><br/>Finite verb forms like <em>suggests</em>, <em>suggested</em>, and <em>has suggested</em> would establish their own main clauses instead of modifying the noun.<br/><br/>That is the correct answer."
+      "title": "Use the participle",
+      "content": "Choice B, Choice C, and Choice D are finite verb forms that would create a competing clause before \"cannot stand.\" The remaining present participle makes \"suggesting that\" modify \"hypothesis,\" forming a complete subject phrase. The answer is <strong>A</strong>."
     }
   ]
 }

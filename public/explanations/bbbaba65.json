@@ -1,0 +1,19 @@
+{
+  "questionId": "bbbaba65",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining probability",
+      "content": "The room probabilities must add to $1$. For room C:<br/>$$1-0.68-0.24=0.08$$"
+    },
+    {
+      "title": "Convert probability to count",
+      "content": "Multiply the total number of visitors by the probability for room C:<br/>$$0.08(275)=22$$"
+    },
+    {
+      "title": "Select the count",
+      "content": "There are $22$ visitors located in room C. The answer is <strong>B</strong>."
+    }
+  ]
+}

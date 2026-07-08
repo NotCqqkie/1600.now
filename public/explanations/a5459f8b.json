@@ -1,0 +1,19 @@
+{
+  "questionId": "a5459f8b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the odd result",
+      "content": "Patel's team searched the Scopus and Web of Science databases for the term \"Twitter\" while reviewing studies of the social media website. Most returned papers did focus on the platform, but a few discussed unrelated subjects such as sounds made by tractor engines. The blank must explain why papers about engine sounds would appear in a keyword search for \"Twitter.\""
+    },
+    {
+      "title": "Remove unrelated explanations",
+      "content": "<ul><li><strong>Choice A</strong> says researchers discussed tractor engines on the social media platform, but that would not explain why academic database records about engine sounds matched the search term.</li><li><strong>Choice B</strong> describes the databases generally and does not explain the specific off-topic results.</li><li><strong>Choice D</strong> concerns academics announcing publications on Twitter, not papers about engine sounds.</li></ul>"
+    },
+    {
+      "title": "Use the word meaning",
+      "content": "<strong>Choice C</strong> supplies the missing link: the word \"twitter\" can refer to something other than the social media website, including noises made by machines. If papers used the word in that sound-related sense, a database search for \"Twitter\" could return them. The answer is <strong>C</strong>."
+    }
+  ]
+}

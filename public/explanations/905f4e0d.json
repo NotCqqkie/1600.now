@@ -1,0 +1,15 @@
+{
+  "questionId": "905f4e0d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the target expression",
+      "content": "The target expression contains the same quantity as the given equation.<br/>$$-24-4x=-4(6+x)$$"
+    },
+    {
+      "title": "Use the given value",
+      "content": "Since $6+x=4$, substitute $4$ into the factored expression.<br/>$$-4(6+x)=-4(4)$$<br/>$$-4(4)=-16$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

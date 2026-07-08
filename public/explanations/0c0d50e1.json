@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between sentences",
-      "content": "The passage moves from a general description of the project (wind turbines off Virginia's coast) to specific concrete details about its configuration. The key signal is the shift from general claim to precise specification."
+      "title": "Move from general to exact",
+      "content": "The first two sentences give a general description of the offshore wind project and its location. The next sentence gives precise details: 176 turbines at a site 27 miles east of Cape Charles."
     },
     {
-      "title": "Match the transition to the relationship",
-      "content": "<strong>To be exact,</strong> signals that precise details are coming to specify a prior claim.<br/><br/>The other transitions signal completion (<em>in conclusion</em>), causation (<em>as a result</em>), or contradiction (<em>in contrast</em>), none of which fit.<br/><br/>That matches <strong>Choice A &mdash; To be exact,</strong>."
+      "title": "Reject other relationships",
+      "content": "B signals a conclusion, C signals a result, and D signals contrast. The needed transition introduces exact details that specify the previous general description. The answer is <strong>A</strong>."
     }
   ]
 }

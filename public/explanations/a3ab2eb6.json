@@ -1,0 +1,19 @@
+{
+  "questionId": "a3ab2eb6",
+  "correctAnswer": "680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the temperature",
+      "content": "Use $h=764.33$ in the formula.<br/>$$764.33=\\frac{9(u-273.15)}{5}+32$$"
+    },
+    {
+      "title": "Isolate the kelvin term",
+      "content": "Subtract $32$, then multiply by $\\frac{5}{9}$.<br/>$$732.33=\\frac{9(u-273.15)}{5}$$<br/>$$\\frac{5(732.33)}{9}=u-273.15$$<br/>$$406.85=u-273.15$$"
+    },
+    {
+      "title": "Add the offset",
+      "content": "Add $273.15$ to both sides.<br/>$$u=406.85+273.15=680$$<br/>The answer is <strong>680</strong>."
+    }
+  ]
+}

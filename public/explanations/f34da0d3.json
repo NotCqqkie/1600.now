@@ -1,0 +1,16 @@
+{
+  "questionId": "f34da0d3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict the sample space",
+      "content": "The phrase <em>given that the T-shirt is a Flames T-shirt</em> means only Flames T-shirts count in the denominator. Among those Flames T-shirts, count the ones that are medium.",
+      "formula": "$$P(A \\mid B) = \\frac{\\text{Count}(A \\text{ and } B)}{\\text{Count}(B)}$$"
+    },
+    {
+      "title": "Calculate the conditional probability",
+      "content": "The table shows $22$ medium Flames T-shirts out of $44$ total Flames T-shirts:<br/>$$P(\\text{medium}\\mid \\text{Flames})=\\frac{22}{44}=\\frac{1}{2}=0.5$$The answer is <strong>D</strong>."
+    }
+  ]
+}

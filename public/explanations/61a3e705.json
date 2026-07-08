@@ -1,0 +1,15 @@
+{
+  "questionId": "61a3e705",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the unchanged composition",
+      "content": "The transplanted cores showed accelerated nutrient cycling, and the microorganism community composition was unchanged. Because the community did not change, the researchers could attribute the acceleration to warmer temperatures increasing microorganism activity."
+    },
+    {
+      "title": "Eliminate unsupported roles",
+      "content": "A treats the composition finding as evidence that acceleration occurred, but acceleration was observed separately. B adds a trend at increasingly high elevations, which the text does not support. D says activity varied by community makeup, the opposite of the unchanged-composition finding. The answer is <strong>C</strong>."
+    }
+  ]
+}

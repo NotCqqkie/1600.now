@@ -1,0 +1,19 @@
+{
+  "questionId": "9d12e7ec",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect deterrence to attacks",
+      "content": "Taylor's team concluded that contrasting markings deterred jumping spiders. The data must therefore show avoidance of termites with black-and-white striped capes. Because the setup recorded both which termite type spiders first looked at and which type they attacked, the strongest support is a broad pattern: spiders mainly attacked solid-color capes no matter which cape type first drew attention."
+    },
+    {
+      "title": "Check the data description",
+      "content": "<ul><li><strong>Choice A - Half of the spiders that first looked at a termite wearing a black-and-white striped cape attacked a termite wearing a solid white cape, and the other half of those spiders were just as likely to attack a termite wearing a black-and-white striped cape as they were to attack a termite wearing a solid black cape.</strong>: this describes only one initial-look group, so it is too limited.</li><li><strong>Choice B - For each type of cape, a majority of the spiders that first looked at a termite wearing that type of cape attacked a termite wearing that same type of cape.</strong>: this would include attacks on striped capes, the opposite of deterrence.</li></ul>"
+    },
+    {
+      "title": "Choose the broad pattern",
+      "content": "<ul><li><strong>Choice C - Regardless of the type of cape worn by termites the spiders first looked at, the large majority of spider attacks were on termites wearing solid-color capes.</strong>: this shows a consistent preference for attacking solid-color capes and avoiding contrasting capes across the groups.</li><li><strong>Choice D - None of the spiders that first looked at a termite wearing a solid white cape attacked a termite wearing a black-and-white striped cape.</strong>: this covers only one initial-look group.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "67b38bb6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $h(x)=6|x|$. To find $h(-3)$, replace $x$ with $-3$."
+    },
+    {
+      "title": "Use absolute value",
+      "content": "The absolute value of $-3$ is $3$, so\n$$\nh(-3)=6|-3|=6(3)=18\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

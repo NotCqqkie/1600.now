@@ -1,0 +1,15 @@
+{
+  "questionId": "3062f61f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the possible range",
+      "content": "If the elephant pulls water $n$ times, each pull is between $5$ and $11$ liters. For $198$ liters total, the number of pulls must satisfy\n$$5n\\le 198\\le 11n$$"
+    },
+    {
+      "title": "Test the viable choice",
+      "content": "Choice C uses $37$ pulls.\n$$5(37)=185$$\n$$11(37)=407$$\nSince $198$ is between $185$ and $407$, this number of pulls is possible. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the relevant table cell",
-      "content": "From the table, the cell at row <em>Hybrid</em> and column <em>Priced at no more than \\$25,000</em> shows 2 cars. The total number of cars is 14."
+      "title": "Find the favorable count",
+      "content": "The table shows $2$ hybrid cars priced at no more than $25{,}000$. Since one car is selected from all listed cars, the total count is $14$."
     },
     {
-      "title": "Calculate the probability",
-      "content": "There are 2 favorable cars out of 14 total cars, so the probability is:<br/>$$\\frac{2}{14} = \\frac{1}{7}$$<br/>This is a probability, so it must be written as the favorable count divided by the total count. That is the correct answer."
+      "title": "Compute the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:\n$$\\frac{2}{14}=\\frac{1}{7}$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

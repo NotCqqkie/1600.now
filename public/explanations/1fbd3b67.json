@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Calculate b",
-      "content": "70% less means subtract 70% of 36 from 36: $$b = 36 - 0.70 \\times 36 = 36(1-0.70) = 36 \\times 0.30 = 10.8$$"
+      "content": "$70\\%$ less than $36$ is $30\\%$ of $36$.\n$$b=0.30(36)=10.8$$"
     },
     {
-      "title": "Calculate a and select answer",
-      "content": "140% greater means add 140% of b to b: $$a = b + 1.40b = 2.4b$$<br/>Substitute b = 10.8: $$a = 2.4 \\times 10.8 = (2 \\times 10.8) + (0.4 \\times 10.8) = 21.6 + 4.32 = 25.92$$<br/>That matches <strong>Choice B &mdash; $25.92$</strong>."
+      "title": "Calculate a",
+      "content": "$140\\%$ greater than $b$ is $240\\%$ of $b$.\n$$a=2.4(10.8)=25.92$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

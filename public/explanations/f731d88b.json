@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the parallel sides",
-      "content": "Extend $BC$ and $DE$ until they meet at point $X$. Since $AB\\parallel DE$, the exterior angle at $B$ and angle $CXD$ are alternate interior angles."
+      "title": "Use the exterior angles",
+      "content": "Extend $BC$ and $DE$ until they meet. Since $AB$ is parallel to $DE$, the exterior angle at $B$ matches the angle formed at the extension of $DE$. Its measure is<br/>$$180-136=44$$"
     },
     {
-      "title": "Find the two angles in triangle CDX",
-      "content": "The exterior angle at $B$ is $180^{\\circ}-136^{\\circ}=44^{\\circ}$, so $\\angle CXD=44^{\\circ}$. Also, $\\angle CDX=180^{\\circ}-171^{\\circ}=9^{\\circ}$."
+      "title": "Find the other triangle angle",
+      "content": "The exterior angle at $D$ is supplementary to the given pentagon angle.<br/>$$180-171=9$$"
     },
     {
-      "title": "Use the exterior angle theorem",
-      "content": "Angle $C$ of the pentagon is the exterior angle of triangle $CDX$, so its measure is the sum of the two remote interior angles: $$44+9=53.$$"
+      "title": "Add the remote angles",
+      "content": "Angle $C$ of the pentagon is the exterior angle of the small triangle, so it equals the sum of the two remote interior angles.<br/>$$44+9=53$$<br/>The answer is <strong>53</strong>."
     }
   ]
 }

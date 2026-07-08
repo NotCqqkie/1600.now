@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify axes",
-      "content": "The horizontal axis represents molecular weight $x$ (grams per mole) and the vertical axis represents boiling point $y$ (degrees Celsius)."
+      "title": "Identify each coordinate",
+      "content": "The graph uses $x$ for molecular weight and $y$ for estimated boiling point. So the ordered pair gives molecular weight first and boiling point second."
     },
     {
-      "title": "Interpret the given point",
-      "content": "The point $\\left(149.02,186.05\\right)$ lies on the graph, so when $x=149.02$ the corresponding $y$ is $186.05$<br/>That means a normal paraffin with a molecular weight of $149.02$ g/mol has an estimated boiling point of $186.05$°C<br/>That confirms <strong>B</strong> is correct."
+      "title": "Interpret the point",
+      "content": "For the point $(149.02{,}186.05)$, the molecular weight is $149.02$ grams per mole and the estimated boiling point is $186.05$ degrees Celsius. The answer is <strong>B</strong>."
     }
   ]
 }

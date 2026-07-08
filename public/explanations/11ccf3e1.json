@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the term containing k",
-      "content": "Start with $17j + 4k = m$. Subtract $17j$ from both sides: $4k = m - 17j$."
+      "title": "Isolate the term",
+      "content": "Start with the given equation and subtract $17j$ from both sides.<br/>$$17j+4k=m$$<br/>$$4k=m-17j$$"
     },
     {
-      "title": "Solve for k",
-      "content": "Divide both sides by 4: $k = \\dfrac{m - 17j}{4}$.<ul><li><strong>A ($k = \\frac{m - 17j}{4}$):</strong> Matches exactly. That matches <strong>Choice A &mdash; $k=\\frac{m-17j}{4}$</strong>.</li><li><strong>B ($k = \\frac{1}{4}m - 17j$):</strong> Only $m$ is divided by 4; $17j$ should also be divided by 4 &mdash; wrong.</li><li><strong>C ($k = \\frac{17j - m}{4}$):</strong> Numerator is negated; subtracting $17j$ gives $m - 17j$, not $17j - m$ &mdash; wrong sign.</li><li><strong>D ($k = 4m - 17j$):</strong> Multiplies $m$ by 4 instead of dividing &mdash; wrong operation.</li></ul>"
+      "title": "Divide by the coefficient",
+      "content": "Divide both sides by $4$ to solve for $k$.<br/>$$k=\\frac{m-17j}{4}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

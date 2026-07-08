@@ -1,0 +1,15 @@
+{
+  "questionId": "a01b7506",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim and example",
+      "content": "The sentence before the underlined one claims that Davis and Evans did not want to please listeners who expected an exact duplication of Gershwin's opera. The underlined sentence then gives concrete evidence for that claim: they omitted parts, including an aria, and sometimes made only brief gestures toward Gershwin's melodies."
+    },
+    {
+      "title": "Reject wrong functions",
+      "content": "Choice A describes the underlined sentence's function because it presents examples supporting the earlier claim about not duplicating the opera exactly. Choice B focuses on how the artists benefited, which appears in the following sentence about an enduring album, not in the examples themselves. Choice C invents a comparison between the success of two works of art. Choice D says the sentence undermines a later assertion, but it actually fits the passage's explanation of recomposition. The answer is <strong>A</strong>."
+    }
+  ]
+}

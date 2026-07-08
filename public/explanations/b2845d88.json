@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept from the graph",
-      "content": "Read the line's intercept and slope from the displayed graph. The line crosses the $y$-axis at $(0,-1)$ and slopes gently downward, so the equation must have $b=-1$ and a small negative slope."
+      "title": "Read the intercept",
+      "content": "The line crosses the $y$-axis at $(0,-1)$, so the equation has $y$-intercept $-1$."
     },
     {
-      "title": "Find the slope using a second point",
-      "content": "Locate another point where the line passes through a grid intersection. The line passes through (4, −2). Using the slope formula:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-2 - (-1)}{4 - 0} = \\frac{-1}{4} = -\\frac{1}{4}$$<br/>The slope is <strong>m = −1/4</strong>."
+      "title": "Find the slope",
+      "content": "Using the points $(0,-1)$ and $(4,-2)$, the slope is\n$$\nm=\\frac{-2-(-1)}{4-0}=\\frac{-1}{4}=-\\frac{1}{4}\n$$"
     },
     {
-      "title": "Write the equation in slope-intercept form",
-      "content": "With slope $m = -\\frac{1}{4}$ and y-intercept $b = -1$, the equation is:<br/>$$y = -\\frac{1}{4}x - 1$$<br/>That is the correct answer."
+      "title": "Write the equation",
+      "content": "In slope-intercept form,\n$$\ny=-\\frac{1}{4}x-1\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

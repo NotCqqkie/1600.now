@@ -1,0 +1,15 @@
+{
+  "questionId": "7519b05e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the phrase's role",
+      "content": "The underlined phrase follows the statement that advertisers hesitated to enter television. It gives a specific condition that made advertisers cautious: television set manufacturing had stalled during World War II, limiting the potential audience. That pause helps explain why advertisers doubted television could quickly reach many viewers."
+    },
+    {
+      "title": "Reject unrelated functions",
+      "content": "Choice A concerns broadcasters' persuasion tactics, which appear later. Choice B mentions programming popularity, which the phrase does not discuss. Choice D brings in radio, but the phrase itself does not compare radio and television. The answer is <strong>C</strong>."
+    }
+  ]
+}

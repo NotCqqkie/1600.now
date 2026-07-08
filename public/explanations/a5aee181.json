@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rectangle diagonal",
-      "content": "A rectangle's diagonal and two adjacent sides form a right triangle. Use the Pythagorean theorem with hypotenuse $6\\sqrt{17}$, shorter leg $6$, and unknown longer leg $x$."
+      "title": "Use the diagonal",
+      "content": "The rectangle's diagonal is the hypotenuse of a right triangle. One leg is $6$, and the hypotenuse is $6\\sqrt{17}$."
     },
     {
-      "title": "Apply the Pythagorean theorem for the rectangle's diagonal",
-      "content": "In a rectangle, the diagonal and two adjacent sides form a right triangle. With diagonal $6\\sqrt{17}$, shorter side $6$, and unknown longer side $x$:<br/>$$(6\\sqrt{17})^2 = 6^2 + x^2$$"
-    },
-    {
-      "title": "Solve for the longer side",
-      "content": "Expand the left side: $(6\\sqrt{17})^2 = 36 \\cdot 17 = 612$<br/>$$612 = 36 + x^2$$<br/>$$x^2 = 576$$<br/>$$x = 24$$<br/>Since $24 \\gt 6$, this is the longer side. That is the correct answer."
+      "title": "Find the longer side",
+      "content": "Let $b$ be the longer side and use the Pythagorean theorem.<br/>$$6^2+b^2=(6\\sqrt{17})^2$$<br/>$$36+b^2=612$$<br/>$$b^2=576$$<br/>$$b=24$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

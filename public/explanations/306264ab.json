@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the right-triangle legs",
-      "content": "In a right triangle, the longest side is the hypotenuse, so $\\sqrt{82}$ is the hypotenuse. The other two sides, $4\\sqrt{2}$ and $5\\sqrt{2}$, are the legs used as the base and height."
+      "title": "Identify the legs",
+      "content": "The longest side is the hypotenuse.<br/>$$\\sqrt{82}$$<br/>The legs are<br/>$$4\\sqrt{2} \\quad \\text{and} \\quad 5\\sqrt{2}$$<br/>because<br/>$$(4\\sqrt{2})^2+(5\\sqrt{2})^2=32+50=82$$"
     },
     {
-      "title": "Verify the Pythagorean theorem to identify the legs",
-      "content": "Since we're given three sides and told it's a right triangle, we need to confirm which sides are the legs. Compute the squares:<br/>$$(4\\sqrt{2})^2 = 16 \\cdot 2 = 32$$<br/>$$(5\\sqrt{2})^2 = 25 \\cdot 2 = 50$$<br/>$$(\\sqrt{82})^2 = 82$$<br/>Check: $32 + 50 = 82$<br/><br/>So $4\\sqrt{2}$ and $5\\sqrt{2}$ are the legs, and $\\sqrt{82}$ is the hypotenuse."
+      "title": "Use right triangle area",
+      "content": "The area of a right triangle is one half the product of its legs.<br/>$$A=\\frac{1}{2}(4\\sqrt{2})(5\\sqrt{2})$$"
     },
     {
-      "title": "Apply the area formula for a right triangle",
-      "content": "The area of a right triangle is $A = \\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$.<br/>$$A = \\frac{1}{2} \\times 4\\sqrt{2} \\times 5\\sqrt{2}$$<br/>When multiplying the legs, combine the coefficients and radicals:<br/>$$4\\sqrt{2} \\times 5\\sqrt{2} = (4 \\times 5) \\times (\\sqrt{2} \\times \\sqrt{2}) = 20 \\times 2 = 40$$<br/>Therefore:<br/>$$A = \\frac{1}{2} \\times 40 = 20$$<br/><strong>B</strong> is correct."
+      "title": "Simplify the product",
+      "content": "Multiply the coefficients and radicals.<br/>$$A=\\frac{1}{2}(20)(2)$$<br/>$$A=20$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

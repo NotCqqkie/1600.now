@@ -1,0 +1,15 @@
+{
+  "questionId": "bf711f53",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope intercept form",
+      "content": "A line with slope $-7$ can be written as<br/>$$y=-7x+b$$where $b$ is the $y$-intercept."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "The line passes through $(0,54)$. A point with $x=0$ is on the $y$-axis, so the $y$-intercept is $54$. Thus the equation is<br/>$$y=-7x+54$$The answer is <strong>A</strong>."
+    }
+  ]
+}

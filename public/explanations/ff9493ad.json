@@ -1,0 +1,19 @@
+{
+  "questionId": "ff9493ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the passage focus",
+      "content": "The text first identifies <em>Dubautia menziesii</em> as part of the silversword alliance, a plant family found only on the Hawaiian Islands. It then widens to the whole alliance, describing the unusually broad range of plant forms, including vines, shrubs, and trees."
+    },
+    {
+      "title": "Connect origin to variety",
+      "content": "The second half explains how that variety developed: all members of the alliance descended from one ancestral tarweed that arrived about 5 million years ago. Its descendants became distinct species as they adapted to the different habitats on the islands."
+    },
+    {
+      "title": "Choose the complete purpose",
+      "content": "Choice B is too narrow because the text does not describe a specific habitat for <em>Dubautia menziesii</em>. Choice C wrongly expands the claim to all Hawaiian plants, and Choice D falsely says all plants on the islands are in the alliance. The remaining choice captures both the description of the alliance and the explanation for its diversity. The answer is <strong>A</strong>."
+    }
+  ]
+}

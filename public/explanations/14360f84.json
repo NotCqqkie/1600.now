@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the no-solution condition",
-      "content": "Rewrite as $5x-14y=3$ and $-5x+hy=4$. For no solution, coefficients of $x$ and $y$ must be proportional: $$\\frac{-5}{5}=\\frac{h}{-14}.$$"
+      "title": "Rewrite both equations",
+      "content": "Put both equations in standard form.<br/>$$5x-7y=7y+3\\to5x-14y=3$$<br/>$$hy=4+5x\\to-5x+hy=4$$"
     },
     {
-      "title": "Solve for the parameter",
-      "content": "This gives $-1=\\tfrac{h}{-14}$, so $h=14$. The constants differ, confirming no solution. That matches <strong>Choice D &mdash; $14$</strong>. That coefficient relationship makes the slopes match while the constants do not."
+      "title": "Match parallel coefficients",
+      "content": "For no solution, the lines must be parallel and distinct. The $x$-coefficient in the second equation is $-1$ times the $x$-coefficient in the first, so the $y$-coefficient must use the same multiplier.<br/>$$h=(-1)(-14)=14$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

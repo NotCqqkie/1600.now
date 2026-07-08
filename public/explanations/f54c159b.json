@@ -1,0 +1,15 @@
+{
+  "questionId": "f54c159b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the confidence clue",
+      "content": "The statistical analysis confirmed the signal at over 99 percent confidence. That evidence would rule out claims that the event was unclear or open to competing interpretations."
+    },
+    {
+      "title": "Reject unrelated nouns",
+      "content": "A concerns judgment or freedom to decide, C is the likelihood the analysis establishes rather than rejects, and D concerns being hard to notice. The context calls for uncertainty about meaning or status. The answer is <strong>B</strong>."
+    }
+  ]
+}

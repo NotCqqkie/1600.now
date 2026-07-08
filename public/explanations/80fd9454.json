@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "To argue that bufadienolide doesn't fully explain tadpole preference, the student needs to show preference variation among eggs that lack bufadienolide.<br/><br/>Since native amphibians don't produce bufadienolide, any difference in how much of their eggs are consumed reveals factors beyond bufadienolide driving preference."
+      "title": "Locate the needed comparison",
+      "content": "The student wants evidence that bufadienolide does not fully explain tadpole egg preferences. The strongest support must compare eggs that both lack bufadienolide but were eaten at different rates."
     },
     {
-      "title": "Match the correct answer",
-      "content": "Answer A shows tadpoles consumed 10% of striped burrowing frog eggs but only 1% of dainty green tree frog eggs—both native species without bufadienolide, proving preference depends on factors beyond bufadienolide alone.<br/><br/>The other choices either compare species with and without bufadienolide, show equal consumption among native species or note survival without comparing consumption patterns.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Use the native-species contrast",
+      "content": "Striped burrowing frog eggs and dainty green tree frog eggs are both native amphibian eggs, so neither produces bufadienolide. The tadpoles ate 10% of the striped burrowing frog eggs but only 1% of the dainty green tree frog eggs. B only notes survival rates, C compares a bufadienolide-producing species with a nonproducing species, and D shows no preference difference. The answer is <strong>A</strong>."
     }
   ]
 }

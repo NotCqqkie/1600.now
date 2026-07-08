@@ -1,0 +1,15 @@
+{
+  "questionId": "fcbe8510",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the common term",
+      "content": "The expression $4x+8$ appears on both sides. Subtract $3(4x+8)$ from both sides:<br/>$$6(4x+8)-3(4x+8)=84$$"
+    },
+    {
+      "title": "Divide to get the value",
+      "content": "Simplify and divide by $3$:<br/>$$3(4x+8)=84$$<br/>$$4x+8=28$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

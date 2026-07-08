@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must connect",
-      "content": "The sentence has two independent clauses: (1) \"Such interpretations are ultimately [blank]\" and (2) \"the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.\" The word <em>though</em> acts as a conjunctive adverb (like <em>however</em>) that qualifies the first clause before the second clause begins. The required pattern is: IC, though; IC &mdash; a comma attaches <em>though</em> to the first clause, and a semicolon marks the boundary before the second independent clause."
+      "title": "Join the two clauses",
+      "content": "The sentence has two independent clauses. The first says the interpretations are speculative, and though qualifies that statement. The second explains why: the gray color may come from radiation, solar wind, or collisions. Because both clauses could stand as sentences, comma-only punctuation would be too weak in this sentence."
     },
     {
-      "title": "Eliminate each choice using punctuation boundary rules",
-      "content": "<ul><li><strong>\"speculative, though\"</strong>: No semicolon after <em>though</em> means the two independent clauses run together without a proper boundary &mdash; a fused sentence. Violates the rule that two independent clauses must be separated by a semicolon, period, or coordinating conjunction. &#10007;</li><li><strong>\"speculative, though ;\"</strong>: The comma attaches the transition word <em>though</em> to the first clause, and the semicolon after <em>though</em> correctly marks the boundary before the second independent clause begins. Both punctuation marks serve their intended function. &#10003;</li><li><strong>\"speculative ; though\"</strong>: The semicolon before <em>though</em> separates it from the first clause, making <em>though</em> appear to introduce the second clause as a subordinating conjunction &mdash; but then the second clause has no subordinate structure, creating an illogical boundary. Violates the rule governing placement of conjunctive adverbs. &#10007;</li><li><strong>\"speculative, though,\"</strong>: Two commas around <em>though</em> create a comma splice: the first comma cannot join two independent clauses, and the second comma does not establish a clear clause boundary. Violates the rule that commas alone cannot join two independent clauses. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Place the clause boundary",
+      "content": "Choice A lacks a boundary before the second independent clause. Choice B attaches though to the first clause with a comma and uses a semicolon before the next clause. Choice C misplaces though. Choice D creates a comma splice. The answer is <strong>B</strong>."
     }
   ]
 }

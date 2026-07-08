@@ -1,0 +1,15 @@
+{
+  "questionId": "90d4399e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Generalize from useful songs",
+      "content": "The passage begins by saying that many Indigenous songs preserve ecological knowledge. It then gives a specific example: Kwakwaka'wakw songs referred to terraced intertidal clam gardens. Archaeological and paleoecological records supported the information in those songs by showing increases in clam size and productivity during the period when the gardens were used most. That finding points to practical value in ecological knowledge transmitted through songs."
+    },
+    {
+      "title": "Reject off-scope conclusions",
+      "content": "<ul><li><strong>Choice A</strong> contradicts the passage by attributing the benefits mainly to factors unrelated to Kwakwaka'wakw activity.</li><li><strong>Choice C</strong> reverses the relationship among the evidence: the outside records support information from the songs, not the reliability of all conclusions drawn from such records.</li><li><strong>Choice D</strong> asks who originated the cultivation method, a question the passage does not address.</li></ul>The remaining option reasonably extends the finding to other Indigenous songs that may transmit useful ecological information. The answer is <strong>B</strong>."
+    }
+  ]
+}

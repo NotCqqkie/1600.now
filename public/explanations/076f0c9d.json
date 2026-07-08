@@ -1,0 +1,15 @@
+{
+  "questionId": "076f0c9d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the added measure",
+      "content": "The first sentence describes anti-counterfeiting measures Hartley used in the paper itself. The second sentence adds a separate protective step: stamping the notes with hard-to-copy sage leaf imprints. The transition must signal addition, not contrast or a narrowed example."
+    },
+    {
+      "title": "Reject contrast and examples",
+      "content": "A signals a qualification, but the second sentence does not walk back the first. B and C would make the sage leaf imprints a specific example of weaving threads and muscovite into paper, which they are not. The answer is <strong>D</strong>."
+    }
+  ]
+}

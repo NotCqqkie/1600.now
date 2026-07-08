@@ -1,0 +1,15 @@
+{
+  "questionId": "84bfb7a9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence core",
+      "content": "The sentence's core is that the resulting course was 2,500 miles long and modeled a vision of the treaty's aims. The detail about crossing seven borders must fit inside that structure without becoming another misjoined main verb."
+    },
+    {
+      "title": "Reject verb errors",
+      "content": "Choice A puts a comma after and before a past-tense verb, producing an invalid structure. Choice B makes had crossed a competing finite verb and leaves modeled awkwardly attached. Choice C strings together was, crossed, and modeled with only a comma before the last verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

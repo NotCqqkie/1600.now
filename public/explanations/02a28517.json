@@ -1,0 +1,19 @@
+{
+  "questionId": "02a28517",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the resistance",
+      "content": "Use $R=18$ in the given relationship:$$\\frac{CV^2}{P}=\\sqrt{18P}$$The variables are positive, so the later squaring step will not introduce a sign issue for $P$."
+    },
+    {
+      "title": "Eliminate the radical",
+      "content": "Square both sides and multiply by $P^2$:$$\\frac{C^2V^4}{P^2}=18P$$$$C^2V^4=18P^3$$Then divide by $18$ to isolate $P^3$."
+    },
+    {
+      "title": "Apply the cube root",
+      "content": "The result is $$P^3=\\frac{C^2V^4}{18}$$$$P=\\sqrt[3]{\\frac{C^2V^4}{18}}$$This matches the expression written with a cube root. The answer is <strong>C</strong>."
+    }
+  ]
+}

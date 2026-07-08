@@ -1,0 +1,15 @@
+{
+  "questionId": "4f4458ce",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject is Mathematician Grigori Perelman, a singular noun phrase. The phrase about working with Hamilton and Yau is parenthetical and does not make the subject plural."
+    },
+    {
+      "title": "Match the passive verb",
+      "content": "B, C, and D use plural auxiliary verbs that do not agree with Perelman. The singular auxiliary completes the passive phrase credited with proving the conjecture. The answer is <strong>A</strong>."
+    }
+  ]
+}

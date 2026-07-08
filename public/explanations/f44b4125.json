@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Analyze f(x) for a maximum",
-      "content": "$f(x) = 20(1.18)^x + 38$ has base $1.18 \\gt  1$, so it grows without bound as $x$ increases. For $x \\ge 0$ there is no maximum value. The constant $38$ is not the maximum (at $x = 0$, $f(0) = 20 + 38 = 58$); it is simply a vertical shift. So $f$ does not display its maximum as a constant or coefficient."
+      "title": "Check the first function",
+      "content": "For $f(x)=20(1.18)^x+38$, the base $1.18$ is greater than $1$. As $x$ increases for $x\\ge0$, the function increases without bound, so it has no maximum value."
     },
     {
-      "title": "Analyze g(x) for a maximum",
-      "content": "$g(x) = 7(0.68)^x$ has base $0.68$ where $0 \\lt 0.68 \\lt 1$, so it decays toward $0$ as $x$ increases. For $x \\ge 0$ the maximum occurs at $x = 0$:<br/>$$g(0) = 7(0.68)^0 = 7 \\cdot 1 = 7$$<br/>The coefficient $7$ in the equation is exactly the maximum value. So $g$ does display its maximum as a coefficient."
+      "title": "Check the second function",
+      "content": "For $g(x)=7(0.68)^x$, the base $0.68$ is between $0$ and $1$. The function decreases for $x\\ge0$, so its maximum occurs at $x=0$.\n$$\ng(0)=7(0.68)^0=7\n$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) I only:</strong> $f$ has no maximum on $x \\ge 0$, so it cannot display one. Eliminated.</li><li><strong>B) II only:</strong> Only $g$ displays its maximum (the coefficient $7$). Matches.</li><li><strong>C) I and II:</strong> $f$ does not display a maximum. Eliminated.</li><li><strong>D) Neither I nor II:</strong> $g$ does display its maximum. Eliminated.</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Choose the displayed maximum",
+      "content": "Only equation II displays its maximum value as a coefficient. The answer is <strong>B</strong>."
     }
   ]
 }

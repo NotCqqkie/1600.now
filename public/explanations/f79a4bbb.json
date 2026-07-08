@@ -1,0 +1,19 @@
+{
+  "questionId": "f79a4bbb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the lower bound",
+      "content": "Solve the second inequality for $y$:<br/>$$\\frac{y}{5}>11$$<br/>$$y>55$$"
+    },
+    {
+      "title": "Make the bounds overlap",
+      "content": "The system needs values of $y$ that are greater than $55$ and less than $45-5x$. That is possible only when:<br/>$$55<45-5x$$"
+    },
+    {
+      "title": "Find the x-range",
+      "content": "Isolate $x$ in the inequality:<br/>$$55<45-5x$$<br/>$$10<-5x$$<br/>$$x<-2$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

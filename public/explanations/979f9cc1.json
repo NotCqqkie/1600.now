@@ -1,0 +1,20 @@
+{
+  "questionId": "979f9cc1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift",
+      "content": "Shifting a graph up by $8$ units adds $8$ to every output.\n$$\ng(x)=f(x)+8\n$$",
+      "formula": "$$g(x) = f(x) + k$$"
+    },
+    {
+      "title": "Substitute the function",
+      "content": "Use $f(x)=4x+7$ in the shifted function.\n$$\ng(x)=(4x+7)+8\n$$\n$$\ng(x)=4x+7+8\n$$"
+    },
+    {
+      "title": "Match the shifted equation",
+      "content": "The equation that adds $8$ to $f(x)$ is $g(x)=4x+7+8$. The answer is <strong>A</strong>."
+    }
+  ]
+}

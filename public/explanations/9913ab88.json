@@ -1,0 +1,15 @@
+{
+  "questionId": "9913ab88",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the consequence",
+      "content": "Photogrammetry and polygonal modeling require processing shapes in the thousands. Surface model methods require processors to manage polygons in the millions, so the earlier methods are more economical as a result."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "A gives an example, B signals replacement or contrast, and D signals specification. The second sentence draws a consequence from the lower processing demands. The answer is <strong>C</strong>."
+    }
+  ]
+}

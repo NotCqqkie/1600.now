@@ -1,0 +1,19 @@
+{
+  "questionId": "4e462944",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare slopes and intercepts",
+      "content": "Both lines have slope $5$, but their $y$-intercepts are different.\n$$y=5x+10$$\n$$y=5x-2$$\nLines with the same slope and different intercepts are parallel."
+    },
+    {
+      "title": "Count the intersections",
+      "content": "Parallel distinct lines do not intersect, so the graphs have zero intersection points.\nThe answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y = 5x + 10",
+        "y = 5x - 2"
+      ]
+    }
+  ]
+}

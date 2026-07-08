@@ -1,0 +1,19 @@
+{
+  "questionId": "3826eadf",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find b from the graph",
+      "content": "For $y=a^x+b$, the horizontal asymptote is $y=b$. From the graph, the asymptote is<br/>$$y=-4$$<br/>So $b=-4$."
+    },
+    {
+      "title": "Find a from another point",
+      "content": "The graph also shows the point $(1,1)$. Substitute $x=1$, $y=1$, and $b=-4$.<br/>$$1=a^1-4$$<br/>So $a=5$."
+    },
+    {
+      "title": "Compute the difference",
+      "content": "Now find $a-b$.<br/>$$a-b=5-(-4)=9$$<br/>The answer is <strong>9</strong>."
+    }
+  ]
+}

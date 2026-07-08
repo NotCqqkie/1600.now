@@ -1,0 +1,15 @@
+{
+  "questionId": "774ffcbf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the data sentence",
+      "content": "The previous sentence says the Douglas DC-10 is far more aerodynamic than the Wright Flyer. The sentence after the blank gives a precise lift-to-drag comparison that supports that claim."
+    },
+    {
+      "title": "Select the detail transition",
+      "content": "Choice A introduces a specific supporting detail. Choice B would signal a conclusion, but the sentence gives evidence. Choice C and Choice D signal contrast, yet the ratio supports rather than contradicts the previous sentence. The answer is <strong>A</strong>."
+    }
+  ]
+}

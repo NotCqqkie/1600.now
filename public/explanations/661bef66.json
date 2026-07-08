@@ -1,0 +1,15 @@
+{
+  "questionId": "661bef66",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target post-1980s regrowth",
+      "content": "The assertion needs graph data showing natural forest regrowth after the decline associated with cattle ranching. Evidence of regrowth should show forest cover increasing during the later period."
+    },
+    {
+      "title": "Reject non-growth comparisons",
+      "content": "A describes a decrease before the recovery period. B compares two classes in a single year, and C describes similarity in one year; neither shows regrowth over time. The supporting data show forest cover rising across classes from 1979 to 2000. The answer is <strong>D</strong>."
+    }
+  ]
+}

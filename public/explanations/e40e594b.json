@@ -1,0 +1,15 @@
+{
+  "questionId": "e40e594b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "Multiply $6xy$ by each term inside the parentheses. Keep both variables attached to the outside factor during distribution, so no $x$ or $y$ factor gets dropped.\n$$6xy(3x^2)+6xy(5y)$$"
+    },
+    {
+      "title": "Simplify each product",
+      "content": "Multiply coefficients and add exponents for matching variables. The first product has three factors of $x$ and one factor of $y$; the second has one factor of $x$ and two factors of $y$.\n$$18x^3y+30xy^2$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

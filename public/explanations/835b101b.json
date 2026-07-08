@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what makes a contrast work",
-      "content": "For a contrast to accomplish its purpose, the answer must present both things side-by-side. The prompt asks to contrast Minnesota's definition (size-based: at least 10 acres) with Wisconsin's (no size requirement). An effective answer must show both clearly."
+      "title": "Compare both definitions",
+      "content": "The student wants to contrast the two states' definitions of a lake. Minnesota requires an inland body of water to be at least 10 acres, while Wisconsin does not use size in its definition."
     },
     {
-      "title": "Find the choice that presents both definitions and their difference",
-      "content": "The correct answer states Minnesota's definition (“an inland body of water of at least 10 acres”) and Wisconsin's (“doesn't take size into account”), then explicitly calls Minnesota's “more restrictive.” The other choices either address only one definition or acknowledge difference without explaining it.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "State the restriction difference",
+      "content": "The strongest sentence presents both definitions and directly explains that Minnesota's is more restrictive. A and C discuss only one definition, and B says they differ without explaining how. The answer is <strong>D</strong>."
     }
   ]
 }

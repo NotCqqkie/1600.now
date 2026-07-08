@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
-    },
-    {
-      "title": "Identify the 8 angles formed by the transversal",
-      "content": "When a transversal crosses two parallel lines, at each intersection it creates 4 angles.<br/><br/>Vertical angles are equal, so we get 2 pairs of equal angles at each intersection.<br/><br/>Because the lines are parallel, corresponding angles are equal—meaning both intersections have the same pair of angle measures.<br/><br/>Let the acute angle measure be $\\alpha$ and the obtuse angle measure be $180 - \\alpha$.<br/><br/>This gives us 4 angles of measure $\\alpha$ (acute) and 4 angles of measure $180 - \\alpha$ (obtuse)."
-    },
-    {
-      "title": "List all possible sums of 4 angles",
-      "content": "From 8 angles (4 acute, 4 obtuse), we can select any 4. The five possible sums are:<ul><li>All 4 acute: $4\\alpha$</li><li>All 4 obtuse: $\\left(4\\right)(180 - \\alpha) = 720 - 4\\alpha$</li><li>3 acute, 1 obtuse: $3\\alpha + (180 - \\alpha) = 2\\alpha + 180$</li><li>2 acute, 2 obtuse: $2\\alpha + 2(180 - \\alpha) = 360$</li><li>1 acute, 3 obtuse: $\\alpha + 3(180 - \\alpha) = 540 - 2\\alpha$</li></ul>",
+      "title": "Name the two angle types",
+      "content": "With two parallel lines and a transversal, all four acute angles are equal and all four obtuse angles are equal. If one angle is $8x-260$, its supplement is $$180-(8x-260)=440-8x$$",
       "formula": "$$\\text{Sum of 2 acute + 2 obtuse} = 360^{\\circ}$$"
     },
     {
-      "title": "Substitute the given angle and evaluate both cases",
-      "content": "One angle is $(8x - 260)^{\\circ}$, so either $\\alpha = 8x - 260$ or $180 - \\alpha = 8x - 260$ (meaning $\\alpha = 440 - 8x$).<br/><br/><strong>Case 1</strong> ($\\alpha = 8x - 260$): Possible sums are $32x - 1040$, $1760 - 32x$, $16x - 340$, $360$, $1060 - 16x$.<br/><br/><strong>Case 2</strong> ($\\alpha = 440 - 8x$): Possible sums are $1760 - 32x$, $32x - 1040$, $1060 - 16x$, $360$, $16x - 340$.<br/><br/>Combined set: $\\{32x - 1040, \\, 1760 - 32x, \\, 16x - 340, \\, 360, \\, 1060 - 16x\\}$"
+      "title": "List the possible four-angle sums",
+      "content": "The sum of four selected angles can use $0$, $1$, $2$, $3$, or $4$ angles of measure $8x-260$: $$4(8x-260)=32x-1{,}040$$ $$3(8x-260)+(440-8x)=16x-340$$ $$2(8x-260)+2(440-8x)=360$$"
+    },
+    {
+      "title": "Compare the remaining sums",
+      "content": "The other two possible sums are $$(8x-260)+3(440-8x)=1{,}060-16x$$ $$4(440-8x)=1{,}760-32x$$ The expression $-16x+1{,}560$ is not on this list. The answer is <strong>A</strong>."
     }
   ]
 }

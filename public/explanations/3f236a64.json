@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Find the constant ratio",
-      "content": "The problem says the ratio of $y$ to $x$ is constant. From the first row,<br/>$$\\frac{y}{x}=\\frac{4}{1}=4.$$"
+      "content": "The ratio of $y$ to $x$ is constant. From the first row,\n$$\n\\frac{y}{x}=\\frac{4}{1}=4\n$$"
     },
     {
-      "title": "Use the constant of proportionality",
-      "content": "So every $y$-value is $4$ times its $x$-value:<br/>$$y=4x.$$"
-    },
-    {
-      "title": "Find the missing table value",
-      "content": "When $x=40$, $y=4(40)=160$. Therefore the missing value is $160$, which matches the correct answer."
+      "title": "Use the ratio for the last row",
+      "content": "So each $y$-value is $4$ times its $x$-value. When $x=40$,\n$$\ny=4(40)=160\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

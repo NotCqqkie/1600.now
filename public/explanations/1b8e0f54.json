@@ -1,0 +1,15 @@
+{
+  "questionId": "1b8e0f54",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the direct explanation",
+      "content": "The passage states that the kiwikiu became highly specialized as it adapted to survive in a specific island habitat. That sentence directly explains why the species is specialized."
+    },
+    {
+      "title": "Reject unsupported causes",
+      "content": "A adds the idea of the most isolated locations, C adds sharing habitat with other specialized birds, and D confuses vulnerability to stressors with the cause of specialization. The cause given is adaptation to a specific Hawaiian habitat. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6db09792",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the with phrase",
+      "content": "The blank is inside a with phrase: with the Vercelli map from the thirteenth century ___ another one. This structure needs a nonfinite form to connect the map to the description another one."
+    },
+    {
+      "title": "Avoid finite verbs",
+      "content": "A, C, and D all use finite verb forms that would not fit smoothly inside the with phrase. The remaining participle creates the correct structure: with the Vercelli map being another one. The answer is <strong>B</strong>."
+    }
+  ]
+}

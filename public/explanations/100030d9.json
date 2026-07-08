@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Track the sequence of bounces and impacts",
-      "content": "Each time the ball hits the ground, it bounces up to exactly one-half the height from which it just fell. Let's track each impact and bounce:<ul><li><strong>Hit 1:</strong> Ball drops from 24 feet and hits the ground</li><li>Bounces to $\\frac{1}{2} \\times 24 = 12$ feet</li><li><strong>Hit 2:</strong> Falls from 12 feet and hits the ground</li><li>Bounces to $\\frac{1}{2} \\times 12 = 6$ feet</li><li><strong>Hit 3:</strong> Falls from 6 feet and hits the ground</li><li>Bounces to $\\frac{1}{2} \\times 6 = 3$ feet</li><li><strong>Hit 4:</strong> Falls from 3 feet and hits the ground</li></ul>"
+      "title": "Track each rebound height",
+      "content": "Each bounce reaches one-half the previous falling height. Starting from $24.0$ feet:<br/>$$24.0\\div2=12.0$$<br/>$$12.0\\div2=6.0$$<br/>$$6.0\\div2=3.0$$"
     },
     {
-      "title": "Identify the maximum height between hits 3 and 4",
-      "content": "Between the third and fourth time the ball hits the ground, it travels upward in a bounce after the third impact. The highest point it reaches is the peak of that bounce, which is $3$ feet. The answer is <strong>3.0</strong>."
+      "title": "Identify the requested bounce",
+      "content": "Between the third and fourth ground hits, the ball is on the bounce after the third hit, so its maximum height is the third rebound height. The answer is <strong>3.0</strong>."
     }
   ]
 }

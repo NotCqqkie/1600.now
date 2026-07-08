@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the decay pattern",
-      "content": "When $f(x)$ decreases by 80%, it retains 20% of its value. So with each unit increase in $x$, we multiply by 0.2. Starting from $f(0) = 89$, this gives us the exponential function:<br/>$$f(x) = 89 \\times (0.2)^x$$"
+      "title": "Apply the decay factor",
+      "content": "A decrease of $80\\%$ leaves $20\\%$ of the previous value, so each increase of $1$ in $x$ multiplies the value by $0.2$."
     },
     {
-      "title": "Evaluate f(2)",
-      "content": "Substitute $x = 2$ into the function:<br/>$$f(2) = 89 \\times (0.2)^2 = 89 \\times 0.04 = 3.56$$"
+      "title": "Evaluate after two changes",
+      "content": "Starting from $f(0)=89$, multiply by $0.2$ twice to reach $f(2)$.<br/>$$f(2)=89(0.2)^2=89(0.04)=3.56$$<br/>The answer is <strong>3.56</strong>."
     }
   ]
 }

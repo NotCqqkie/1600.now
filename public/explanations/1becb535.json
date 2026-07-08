@@ -1,0 +1,19 @@
+{
+  "questionId": "1becb535",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rectangle diagonal",
+      "content": "An inscribed rectangle has a diagonal equal to the circle's diameter. From the circumference,\n$$\n118\\pi=2\\pi r\n$$\n$$\nr=59\n$$\nSo the diameter, and the rectangle diagonal, is $118$."
+    },
+    {
+      "title": "Find the side lengths",
+      "content": "The diagonal is twice the shortest side, so the shortest side is\n$$\n\\frac{118}{2}=59\n$$\nLet the longer side be $b$. Use the Pythagorean theorem.\n$$\n59^2+b^2=118^2\n$$\n$$\nb^2=118^2-59^2=3(59^2)\n$$\n$$\nb=59\\sqrt{3}\n$$"
+    },
+    {
+      "title": "Multiply the dimensions",
+      "content": "The rectangle area is\n$$\n59(59\\sqrt{3})=3{,}481\\sqrt{3}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b5022603",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Text Two's concern",
+      "content": "Text 1 reports that students who received entrepreneurial training showed a high likelihood of creating new businesses. Text 2 warns that studies of training often have methodological flaws, especially a lack of control groups and missing pretraining baselines. Those flaws matter because they make it hard to know whether the training caused the outcome."
+    },
+    {
+      "title": "Test the objection",
+      "content": "Choice A raises participant awareness, which Text 2 never names. Choice C misuses sample size by asking about a smaller study rather than causation. Choice D introduces training length, another issue Text 2 does not mention. Choice B states the control-group objection: the participants may have shown the same business-creation likelihood even without training. The answer is <strong>B</strong>."
+    }
+  ]
+}

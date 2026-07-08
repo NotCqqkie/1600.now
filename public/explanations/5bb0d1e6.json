@@ -1,0 +1,15 @@
+{
+  "questionId": "5bb0d1e6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The previous sentence introduces the word \"rodeo.\" The blank must refer back to that word, which is singular and nonhuman, just as the earlier sentence uses \"It\" for \"lasso.\""
+    },
+    {
+      "title": "Reject human pronouns",
+      "content": "Choice B refers to a person generally, and Choice C and Choice D are gendered personal pronouns. None can clearly refer to the word \"rodeo.\" The remaining option is the singular nonhuman pronoun. The answer is <strong>A</strong>."
+    }
+  ]
+}

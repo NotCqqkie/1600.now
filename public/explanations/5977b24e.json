@@ -1,0 +1,15 @@
+{
+  "questionId": "5977b24e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the reshaping clue",
+      "content": "The sentence says the gulf's tides shift sediments along the coast and reshape the deltaic lobes over time. The blank must describe the tides affecting the delta's shape and size."
+    },
+    {
+      "title": "Reject wrong effects",
+      "content": "A means exceeded, B means improved, and D means shielded from harm. None matches tides changing the delta's form. The word meaning affected by an outside force fits the reshaping described. The answer is <strong>C</strong>."
+    }
+  ]
+}

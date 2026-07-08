@@ -1,0 +1,15 @@
+{
+  "questionId": "4c3f61be",
+  "correctAnswer": "14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the table row",
+      "content": "This is a table lookup. Use the row for air temperature $26^\\circ\\text{F}$."
+    },
+    {
+      "title": "Read the matching entry",
+      "content": "Move to the column for wind speed $15$ miles per hour. The entry is $14^\\circ\\text{F}$, and the question says to enter the value without the degree symbol. The answer is <strong>14</strong>."
+    }
+  ]
+}

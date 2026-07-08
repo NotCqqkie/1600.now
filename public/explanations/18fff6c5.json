@@ -1,0 +1,19 @@
+{
+  "questionId": "18fff6c5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the relaxation measure",
+      "content": "The passage says reduced heart rate is a measure of relaxation. To support Moreno and colleagues' claim, the finding must show that infants' heart rates dropped during the lullaby."
+    },
+    {
+      "title": "Rule out indirect evidence",
+      "content": "Choice A points to irregular heart rates, not relaxation. Choice C reports parents' preferences, not infants' physiological responses. Choice D describes the singers and does not show any calming effect."
+    },
+    {
+      "title": "Match the physiological result",
+      "content": "The remaining finding directly shows substantially lower infant heart rates during the lullaby than during the non-lullaby. The answer is <strong>B</strong>."
+    }
+  ]
+}

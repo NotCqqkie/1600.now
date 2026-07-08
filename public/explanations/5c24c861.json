@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the model at x = 55",
-      "content": "The graph uses speed on the $x$-axis and stopping distance on the $y$-axis. At $x=55$ miles per hour, the quadratic model is near $200$ feet and closest to the answer choice $210$."
+      "title": "Locate the input speed",
+      "content": "Use $x=55$ on the graph because the input is the vehicle's speed in miles per hour."
     },
     {
-      "title": "Check the result",
-      "content": "Use the nearby graph values to estimate. At $50$ mph the distance is below $200$ feet, and at $60$ mph it is around $240$ feet, so the value at $55$ mph should be between them and a little above $200$ feet."
+      "title": "Read the model value",
+      "content": "At $x=55$, the quadratic model is a little above $200$ feet. Among the choices, $210$ is the closest estimate."
     },
     {
-      "title": "Eliminate the bad choices",
-      "content": "Choices $25$ and $30$ are far too low for $55$ mph, and $250$ is closer to the curve near $60$ mph. The best estimate at $55$ mph is $210$, so <strong>C</strong> is correct."
+      "title": "Choose the closest estimate",
+      "content": "The estimates $25$ and $30$ are far too low, and $250$ is closer to the graph near $60$ miles per hour. The best estimate at $55$ miles per hour is $210$. The answer is <strong>C</strong>."
     }
   ]
 }

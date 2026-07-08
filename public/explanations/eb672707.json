@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the conversion ratio",
-      "content": "The conversion is $3$ teaspoons per $1$ tablespoon. To convert teaspoons to tablespoons, divide by $3$."
+      "title": "Use teaspoons per tablespoon",
+      "content": "Since $3$ teaspoons make $1$ tablespoon, divide the number of teaspoons by $3$."
     },
     {
-      "title": "Convert $17$ teaspoons",
-      "content": "$$17\\div3=\\frac{17}{3}.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The equivalent amount is <strong>17/3</strong> tablespoons, about $5.67$ tablespoons. The answer is a little more than $5$ tablespoons because $15$ teaspoons equals exactly $5$ tablespoons."
+      "title": "Convert the amount",
+      "content": "For $17$ teaspoons, the number of tablespoons is\n$$\n17\\div 3=\\frac{17}{3}\n$$\nThe answer is <strong>17/3</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "ab94b464",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the method sequence",
+      "content": "The passage describes steps in order: first, researchers suspended the cutout; next, they adjusted the suspension point; ultimately, they found the center."
+    },
+    {
+      "title": "Reject nonsequential transitions",
+      "content": "Choice B signals a restatement, Choice C signals contrast, and Choice D repeats the first-step signal already used. The remaining transition correctly introduces the next action in the process. The answer is <strong>A</strong>."
+    }
+  ]
+}

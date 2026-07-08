@@ -1,19 +1,15 @@
 {
   "questionId": "6a305cd0",
-  "qid": "6a305cd0",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "text": "A margin of error defines a symmetric range around the sample statistic. With sample mean 52 and margin of error 4, the confidence interval is $$52 \\pm 4$$"
+      "title": "Apply the margin of error",
+      "content": "A margin of error gives a range around the sample mean. With mean $52$ and margin of error $4$, the range is\n$$\n52-4 \\text{ to } 52+4\n$$"
     },
     {
-      "text": "Compute the bounds: lower = $52 - 4 = 48$, upper = $52 + 4 = 56$. The interval is $[48, 56]$."
-    },
-    {
-      "text": "The most appropriate conclusion is that the population mean lies within this interval, not definitively above or below 52."
-    },
-    {
-      "text": "<ul><li><strong>A</strong> &mdash; &ldquo;Less than 52&rdquo; ignores values from 52 to 56 that are in the interval. Eliminated.</li><li><strong>B</strong> &mdash; &ldquo;Greater than 52&rdquo; ignores values from 48 to 52 that are in the interval. Eliminated.</li><li><strong>C</strong> &mdash; &ldquo;Between 48 and 56&rdquo; matches exactly $52 \\pm 4$. That confirms <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; &ldquo;Less than 48 or greater than 56&rdquo; describes values outside the interval. Eliminated.</li></ul>"
+      "title": "Find the interval",
+      "content": "Compute the endpoints.\n$$\n52-4=48\n$$\n$$\n52+4=56\n$$\nThe most appropriate conclusion is that the population mean is between $48$ and $56$. The answer is <strong>C</strong>."
     }
   ]
 }

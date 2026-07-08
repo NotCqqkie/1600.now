@@ -1,0 +1,19 @@
+{
+  "questionId": "57d9d79d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the contrast signal",
+      "content": "The sentence first says the absence of <em>Mammillaria</em> in eastern and western Coahuila has been blamed on unsuitable habitat. The word “but” introduces a challenge: much of the area is hard to access."
+    },
+    {
+      "title": "Reject unsupported explanations",
+      "content": "Choice A invents confusion with a similar species. Choice B concerns overestimating the number of species throughout Mexico. Choice D restates the habitat explanation that the “but” clause is challenging."
+    },
+    {
+      "title": "Connect access and absence",
+      "content": "The remaining choice explains that the apparent absence may result from insufficient exploration of an inaccessible region, not from unsuitable habitat. The answer is <strong>C</strong>."
+    }
+  ]
+}

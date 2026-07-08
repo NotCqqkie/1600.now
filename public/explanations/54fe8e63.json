@@ -1,0 +1,15 @@
+{
+  "questionId": "54fe8e63",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the origin claims",
+      "content": "Text 1 argues that <em>Ollantay</em> was probably created in the late 1700s by someone familiar with the Inca past. Text 2 argues that the play itself is an Inca work from the 1500s that was later influenced by Spanish drama."
+    },
+    {
+      "title": "Discard unsupported disputes",
+      "content": "A asks what inspired a Spanish writer, which neither text discusses. C wrongly assumes an Inca author knew about Spanish plays, and D introduces popularity across centuries, which is not addressed. The answer is <strong>B</strong>."
+    }
+  ]
+}

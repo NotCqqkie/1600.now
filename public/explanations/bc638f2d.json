@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the constant term",
-      "content": "The function is $f(t)=12t+7$. The constant term $7$ is the value of the function when $t=0$."
+      "title": "Find the initial value",
+      "content": "In $f(t)=12t+7$, the constant term is the value of the function when $t=0$.<br/>$$f(0)=12(0)+7=7$$"
     },
     {
-      "title": "Use t = 0",
-      "content": "Substitute $t=0$: $$f(0)=12(0)+7=7.$$ Since $t=0$ is the moment Maya purchased the plant, the plant's estimated length then was $7$ inches."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "This matches <strong>D</strong>. The $12$ is the monthly growth rate, while $7$ is the initial length."
+      "title": "Interpret the time",
+      "content": "The variable $t$ is months after Maya purchased the basil plant, so $t=0$ means the purchase time. The estimated length then was $7$ inches. The answer is <strong>D</strong>."
     }
   ]
 }

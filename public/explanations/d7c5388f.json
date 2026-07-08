@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key goal",
-      "content": "The student wants to <strong>“emphasize a difference”</strong> between the two asteroid types. From the notes, the defining difference is compositional: C-type asteroids contain carbon, while S-type asteroids contain silicate minerals."
+      "title": "Use the requested difference",
+      "content": "The student wants to emphasize a difference between C-type and S-type asteroids. The notes give a direct compositional contrast: C-type asteroids are primarily carbon, while S-type asteroids are primarily silicate minerals."
     },
     {
-      "title": "Find which choice makes this contrast explicit",
-      "content": "<strong>C-type asteroids are mainly composed of carbon, whereas S-type asteroids are primarily made up of silicate minerals.</strong> directly states and contrasts each type's composition, so <strong>D</strong> is correct."
+      "title": "Keep focus on contrast",
+      "content": "A just says both are asteroid types, B explains classification generally, and C gives a percentage for S-type asteroids without clearly contrasting it with C-type asteroids. The choice that directly contrasts their compositions accomplishes the goal. The answer is <strong>D</strong>."
     }
   ]
 }

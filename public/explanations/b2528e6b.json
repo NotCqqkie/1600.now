@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use the circle points",
-      "content": "Read the plotted points, identify the center and radius of the circle, then use $C=2\\pi r$ to find the coefficient of $\\pi$."
+      "content": "The plotted points define a circle, so the center must be the same distance from each of the three points. Once the center and radius are known, use $C=2\\pi r$ to find the coefficient of $\\pi$."
     },
     {
-      "title": "Read the three points from the coordinate grid",
-      "content": "From the graph, the three points that define the circle are (2, 6), (6, 10), and (6, 2)."
+      "title": "Read the plotted points",
+      "content": "From the graph, the three points are $(2,6)$, $(6,10)$, and $(6,2)$. The points $(6,10)$ and $(6,2)$ are vertical endpoints with midpoint $(6,6)$, so any circle through both must have its center on the horizontal line through that midpoint."
     },
     {
-      "title": "Find the center using perpendicular bisectors",
-      "content": "The center is equidistant from all three points. <strong>For the y-coordinate:</strong> Notice that (6, 10) and (6, 2) have the same x-coordinate.<br/><br/>The center must lie on the perpendicular bisector of this vertical segment, which is a horizontal line through their midpoint: $y = \\frac{10 + 2}{2} = 6$. <br/><br/><strong>For the x-coordinate:</strong> The center also lies on the perpendicular bisector of (2, 6) and (6, 10).<br/><br/>This segment has slope $\\frac{10 - 6}{6 - 2} = 1$, so the perpendicular bisector has slope $-1$ and passes through the midpoint $(4, 8)$: $$y = -x + 12$$ Substituting $y = 6$: $$6 = -x + 12 \\implies x = 6$$ The center is at $(6, 6)$."
+      "title": "Check the common distance",
+      "content": "The point $(6,6)$ is $4$ units from $(6,10)$ and $4$ units from $(6,2)$. It is also $4$ units from $(2,6)$, since those points differ only in their $x$-coordinates. Because $(6,6)$ is equidistant from all three plotted points, it is the center of the circle, and the radius is $4$."
     },
     {
-      "title": "Calculate the radius and circumference",
-      "content": "The radius is the distance from center $(6, 6)$ to any point on the circle. Using $(6, 2)$: $$r = \\sqrt{(6-6)^2 + (6-2)^2} = \\sqrt{0 + 16} = 4$$ The circumference is: $$C = 2\\pi r = 2\\pi(4) = 8\\pi$$ Therefore $k = 8$."
+      "title": "Find the circumference coefficient",
+      "content": "Use the circumference formula with radius $4$:\n$$\nC=2\\pi r=2\\pi(4)=8\\pi\n$$\nThe circumference is written as $k\\pi$, so the coefficient of $\\pi$ is the requested value. The answer is <strong>8</strong>."
     }
   ]
 }

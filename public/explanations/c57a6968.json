@@ -1,0 +1,15 @@
+{
+  "questionId": "c57a6968",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare both disadvantages",
+      "content": "The student wants a comparison of disadvantages. Wairakei uses flash steam, whose disadvantage is needing geothermal reservoirs above 180 degrees C. Traunreut uses binary cycle technology, whose disadvantage is higher maintenance costs."
+    },
+    {
+      "title": "Pick the direct trade-off",
+      "content": "Choice A gives only Wairakei's temperature limitation. Choice B gives only Traunreut's cost disadvantage. Choice D compares operating temperatures but omits the maintenance-cost drawback. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "22536611",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the line equations equal",
+      "content": "At the intersection, the two $y$-values are equal:<br/><br/>$$4x+7=5x-3$$<br/>$$7=x-3$$<br/>$$x=10$$"
+    },
+    {
+      "title": "Find the second coordinate",
+      "content": "Substitute $x=10$ into either line:<br/><br/>$$y=4(10)+7=47$$<br/><br/>So the intersection point is $(10,47)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

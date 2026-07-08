@@ -1,0 +1,15 @@
+{
+  "questionId": "de51a15b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the tested relationship",
+      "content": "Hensley et al. tested whether perceived category similarity predicts the chance that consumers buy brand extensions. They measured similarity ratings and the change in purchase probability for each extended-brand pair."
+    },
+    {
+      "title": "Reject unrelated findings",
+      "content": "A introduces brand recognition as a confound. C says ratings vary while probability changes do not, weakening prediction. D compares categories with and without extensions, not similarity ratings to purchase likelihood. A positive relationship between the two measured values would support the possibility. The answer is <strong>B</strong>."
+    }
+  ]
+}

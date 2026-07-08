@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the given information and set up the proportion",
-      "content": "The provider surveyed a sample of 400 customers from a total population of 48,000 customers. In the sample, 7 customers said they would be interested in the new plan. To estimate the total number interested in the full population, we use the sample proportion to scale up."
+      "title": "Find the sample rate",
+      "content": "Of the $400$ customers surveyed, $7$ were interested. Use that sample fraction to estimate the same fraction of all $48{,}000$ customers."
     },
     {
-      "title": "Scale the sample to estimate the population",
-      "content": "Find the scaling factor from sample to population:<br/>$$\\frac{48,000}{400} = 120$$<br/>The population is 120 times the sample size, so multiply the number of interested customers in the sample by 120:<br/>$$7 \\times 120 = 840$$<br/><strong>C</strong> is correct."
+      "title": "Scale to the population",
+      "content": "Multiply the total number of customers by the sample fraction:\n$$\n48{,}000(\\frac{7}{400})\n$$\n$$\n120\\cdot 7=840\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

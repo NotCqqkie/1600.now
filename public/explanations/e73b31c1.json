@@ -1,0 +1,15 @@
+{
+  "questionId": "e73b31c1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the refuted assumption",
+      "content": "The student wants to refute a scientific assumption. The notes say scientists expected both formation and collapse temperatures to vary by material and fluid properties, but the 2023 study found the collapse temperature was nearly independent of those properties."
+    },
+    {
+      "title": "Use the collapse finding",
+      "content": "Choice A addresses formation temperature, which the study confirmed did vary. Choice B says collapse temperature varies, the opposite of the notes. Choice D mixes formation and collapse in a way that weakens the refutation. The remaining choice directly counters the prior collapse assumption. The answer is <strong>C</strong>."
+    }
+  ]
+}

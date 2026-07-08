@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence already has one main verb: &lsquo;analyzed.&rsquo; The blank sits between &lsquo;a team of researchers&rsquo; and the long phrase &lsquo;to find connections between... and... geotagged social media posts.&rsquo; That phrase is a modifier explaining the team&rsquo;s purpose &mdash; the blank must introduce a modifier, not a second main verb."
+      "title": "Avoid a second main verb",
+      "content": "The sentence already has the main verb analyzed: the team analyzed geotagged social media posts. The blank should introduce a participial phrase explaining the team's purpose, not add another finite verb."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"were hoping\"</strong>: a finite past-tense verb. This creates two main verbs in the sentence (&lsquo;were hoping&rsquo; and &lsquo;analyzed&rsquo;) with no conjunction joining them &mdash; a run-on. &#10007;</li><li><strong>\"hoped\"</strong>: another finite past-tense verb. Same problem as A &mdash; two main verbs, no conjunction. &#10007;</li><li><strong>\"was hoping\"</strong>: a finite past progressive verb. Still a second main verb. The singular &lsquo;was&rsquo; also disagrees with the plural &lsquo;team of researchers&rsquo; in context. &#10007;</li><li><strong>\"hoping\"</strong>: a present participle. It creates a participial phrase (&lsquo;hoping to find connections...&rsquo;) that modifies &lsquo;a team of researchers&rsquo; without adding a second main verb. The sentence has exactly one main verb: &lsquo;analyzed.&rsquo; &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject finite-verb choices",
+      "content": "Choice A, Choice B, and Choice C all create a second main verb before analyzed, which makes the sentence ungrammatical. The participle forms a modifier: the team, hoping to find connections, analyzed the posts. The answer is <strong>D</strong>."
     }
   ]
 }

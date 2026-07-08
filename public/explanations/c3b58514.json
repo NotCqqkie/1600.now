@@ -1,0 +1,19 @@
+{
+  "questionId": "c3b58514",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target intensity, not definition",
+      "content": "The goal is to emphasize the umami intensity of ma-konbu. The relevant note says study participants rated ma-konbu's umami intensity as high."
+    },
+    {
+      "title": "Eliminate off-target facts",
+      "content": "<ul><li><strong>Choice A</strong> defines umami but does not discuss ma-konbu's intensity.</li><li><strong>Choice B</strong> focuses on where samples were collected.</li><li><strong>Choice C</strong> identifies ma-konbu as a source of umami but does not state the intensity.</li></ul>"
+    },
+    {
+      "title": "Report the high rating",
+      "content": "The remaining choice says participants found ma-konbu's umami intensity to be high, which directly satisfies the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

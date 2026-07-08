@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what we need to find",
-      "content": "We need to express $c - b$ in terms of $t$. We're given that $9t + b = c$."
+      "title": "Isolate the requested expression",
+      "content": "Start with the given equation:<br/><br/>$$9t+b=c$$<br/><br/>Subtract $b$ from both sides:<br/><br/>$$9t=c-b$$"
     },
     {
-      "title": "Solve for c - b",
-      "content": "Starting with $9t + b = c$, subtract $b$ from both sides:<br/>$$9t + b - b = c - b$$<br/>$$9t = c - b$$<br/>Therefore $c - b = 9t$. That confirms <strong>D</strong> is correct."
+      "title": "Rewrite in the asked order",
+      "content": "The equation shows<br/><br/>$$c-b=9t$$<br/><br/>The answer is <strong>D</strong>."
     }
   ]
 }

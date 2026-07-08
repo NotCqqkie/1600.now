@@ -1,0 +1,15 @@
+{
+  "questionId": "d31bb578",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify chemical reactions",
+      "content": "The blank follows the noun phrase <em>chemical reactions</em>. It needs a participial modifier describing reactions within molecules, not a finite verb that would create a second unconnected predicate."
+    },
+    {
+      "title": "Avoid finite verbs",
+      "content": "Choice A is a past-tense finite verb. Choice C is a base-form finite verb. Choice D is future tense. Each would break the sentence structure. The participle correctly modifies <em>chemical reactions</em>. The answer is <strong>B</strong>."
+    }
+  ]
+}

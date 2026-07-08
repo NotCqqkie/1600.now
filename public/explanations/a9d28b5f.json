@@ -1,0 +1,23 @@
+{
+  "questionId": "a9d28b5f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept",
+      "content": "A line with slope $m$ and y-intercept $b$ has equation $y=mx+b$. The point $(0,12)$ is on the y-axis, so it gives $b=12$."
+    },
+    {
+      "title": "Write the line",
+      "content": "The slope is $2$ and the y-intercept is $12$, so the equation is $y=2x+12$.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[12,14]"
+      ]
+    },
+    {
+      "title": "Match the choice",
+      "content": "The equation with slope $2$ and y-intercept $12$ is $y=2x+12$. The answer is <strong>D</strong>."
+    }
+  ]
+}

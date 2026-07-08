@@ -1,0 +1,15 @@
+{
+  "questionId": "cfd4c941",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the tall threshold",
+      "content": "A shrub is classified as tall if its fully grown height is more than $120$ centimeters. So the inequality must allow some values greater than $120$."
+    },
+    {
+      "title": "Check the upper bound",
+      "content": "The inequalities ending below $120$ cannot describe a tall species. The range $94<h<168$ includes heights greater than $120$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

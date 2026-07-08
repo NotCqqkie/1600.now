@@ -1,0 +1,15 @@
+{
+  "questionId": "bc0b816d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide by four",
+      "content": "The target expression already appears after dividing the equation by $4$.\n$$4x^2-28x-48=0$$\n$$x^2-7x-12=0$$"
+    },
+    {
+      "title": "Isolate the target",
+      "content": "Add $12$ to both sides.\n$$x^2-7x=12$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

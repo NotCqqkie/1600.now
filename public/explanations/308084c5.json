@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what determines the margin of error",
-      "content": "The margin of error depends on three factors: the critical value (<em>z</em>, which is the same for both samples since they used the same method), the sample proportion (<em>p</em>), and the sample size (<em>n</em>).<br/><br/>To find why Sample A's margin is larger, we need to determine which of these factors differs."
+      "title": "Compare the proportions",
+      "content": "The sample proportions are $54\\%$ and $46\\%$. These are equally far from $50\\%$, so they do not explain the large difference in margin of error."
     },
     {
-      "title": "Rule out the sample proportion as the cause",
-      "content": "Calculate $p(1-p)$ for each sample:<ul><li>Sample A: $0.54 \\times 0.46 = 0.2484$</li><li>Sample B: $0.46 \\times 0.54 = 0.2484$</li></ul>The proportions produce identical values, so the percent in favor (54% vs 46%) does not explain the difference in margins of error."
+      "title": "Use sample size effect",
+      "content": "With the same population and method, a larger sample size gives a smaller margin of error. A smaller sample size gives a larger margin of error."
     },
     {
-      "title": "Conclude from the inverse relationship with sample size",
-      "content": "The margin of error is inversely proportional to the square root of sample size.<br/><br/>A smaller sample size produces a larger margin of error; a larger sample size produces a smaller margin of error.<br/><br/>Since Sample A has a larger MOE (3.8% vs 1.4%), Sample A must have the smaller sample size.<br/><br/><strong>D</strong> is correct."
+      "title": "Match the larger margin",
+      "content": "Sample A has the larger margin of error, $3.8\\%$, compared with Sample B's $1.4\\%$. Therefore Sample A must have had the smaller sample size.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

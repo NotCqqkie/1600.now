@@ -1,0 +1,18 @@
+{
+  "questionId": "c58aadfb",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the coefficients",
+      "content": "Factor out the shared expression $x+2$:\n$$\n\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=\\bigl(\\frac{1}{6}-\\frac{1}{5}\\bigr)(x+2)\n$$\nSince\n$$\n\\frac{1}{6}-\\frac{1}{5}=-\\frac{1}{30}\n$$\nthe equation becomes\n$$\n-\\frac{1}{30}(x+2)=-5\n$$",
+      "desmosExpressions": [
+        "\\frac{1}{6}(x+2)-\\frac{1}{5}(x+2)=-5"
+      ]
+    },
+    {
+      "title": "Solve for x",
+      "content": "Multiply both sides by $-30$:\n$$\nx+2=150\n$$\n$$\nx=148\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

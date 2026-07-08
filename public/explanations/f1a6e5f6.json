@@ -1,0 +1,19 @@
+{
+  "questionId": "f1a6e5f6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use both speed limits",
+      "content": "The speed varied between $168$ and $192$ miles per hour, so it must be at least $168$ and at most $192$."
+    },
+    {
+      "title": "Write one compound inequality",
+      "content": "Put the lower bound on the left and the upper bound on the right:\n$$\n168\\leq s\\leq 192\n$$"
+    },
+    {
+      "title": "Match both bounds",
+      "content": "Choice D is the only choice that includes both the lower limit $168$ and the upper limit $192$. The answer is <strong>D</strong>."
+    }
+  ]
+}

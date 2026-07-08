@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the no-solution condition",
-      "content": "Combine and clear fractions: the first becomes $x-10y=-3$ and the second becomes $x-2py=4$. For no solution, the $y$-coefficients must match: $$-10=-2p.$$"
+      "title": "Clear the first equation",
+      "content": "Multiply the first equation by $4$: $$5y-x=3-5y$$ $$-x+10y=3$$"
     },
     {
-      "title": "Solve for the parameter",
-      "content": "Solve $$-10=-2p$$ by dividing both sides by $-2$: $$5=p.$$ The constants $-3$ and $4$ differ, confirming no solution. The answer is <strong>5</strong>."
+      "title": "Clear the second equation",
+      "content": "Multiply the second equation by $2$: $$x+5=2py+9$$ $$x-2py=4$$"
+    },
+    {
+      "title": "Match the parallel slopes",
+      "content": "For no solution, the two lines must be parallel but have different constants. Multiplying the first equation by $-1$ gives $$x-10y=-3$$ Match the $y$-coefficient with $x-2py=4$: $$-10=-2p$$ The answer is <strong>5</strong>."
     }
   ]
 }

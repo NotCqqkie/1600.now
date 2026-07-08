@@ -1,0 +1,15 @@
+{
+  "questionId": "e2bc4bb9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the altered-version figure",
+      "content": "The student's goal is to emphasize how many participants selected an altered version of Fred Flintstone. The relevant note is the 13.1% figure, not the percentage that selected the unaltered image."
+    },
+    {
+      "title": "Reject missing or opposite data",
+      "content": "<ul><li>Choice A emphasizes the 86.9% who selected the unaltered image.</li><li>Choice B describes the study setup but gives no altered-version percentage.</li><li>Choice C states what participants were asked to do but includes no data about their selections.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

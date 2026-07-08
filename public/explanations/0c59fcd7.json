@@ -1,0 +1,15 @@
+{
+  "questionId": "0c59fcd7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the satin stems",
+      "content": "The equation is $x+y=58$, where $x$ is golden pothos stems and $y$ is satin pothos stems. Substitute $y=16$.<br/>$$x+16=58$$"
+    },
+    {
+      "title": "Find the golden stems",
+      "content": "Subtract $16$ from both sides.<br/>$$x=58-16$$<br/>$$x=42$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

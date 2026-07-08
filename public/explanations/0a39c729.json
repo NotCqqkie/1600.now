@@ -1,0 +1,15 @@
+{
+  "questionId": "0a39c729",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link the claim to an example",
+      "content": "The first sentence gives a general principle: sleek vehicles are more aerodynamic than bulkier ones. The next sentence uses the streamlined Cessna 310 and the boxy semitruck to illustrate that principle."
+    },
+    {
+      "title": "Reject nonexample transitions",
+      "content": "A signals contrast, but the Cessna supports the general claim. C signals addition, not illustration. D signals simultaneous events or comparison, not a specific example. The transition that introduces an example fits the sentence. The answer is <strong>B</strong>."
+    }
+  ]
+}

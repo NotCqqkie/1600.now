@@ -1,0 +1,15 @@
+{
+  "questionId": "75eb74c0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what y means",
+      "content": "The variable $y$ represents the total amount of fish, in pounds, eaten during the full $6$ days. It is not asking for the daily rate."
+    },
+    {
+      "title": "Use the stated total",
+      "content": "The problem says the polar bear ate $28.8$ pounds of fish in those $6$ days, so the equation for the total amount is\n$$\ny=28.8\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

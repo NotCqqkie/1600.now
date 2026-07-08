@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the vertex directly from vertex form",
-      "content": "$f(x) = \\frac{1}{9}(x-7)^2 + 3$ is in vertex form $a(x-h)^2 + k$. Vertex is $(h, k) = (7, 3)$."
+      "title": "Identify the vertex",
+      "content": "The function is in vertex form $a(x-h)^2+k$.<br/>$$f(x)=\\frac{1}{9}(x-7)^2+3$$<br/>So the vertex is $(7,3)$."
     },
     {
-      "title": "Vertex shortcut: $a \\gt 0$ means vertex is the minimum",
-      "content": "$a = \\frac{1}{9} \\gt 0$, so the parabola opens upward — the vertex $(7, 3)$ is the minimum. The minimum height is $3$ inches. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Interpret the minimum",
+      "content": "Because $$\\frac{1}{9}>0$$, the parabola opens upward, so the vertex gives the minimum height. The minimum height is $$3$$ inches above the ground. The answer is <strong>A</strong>."
     }
   ]
 }

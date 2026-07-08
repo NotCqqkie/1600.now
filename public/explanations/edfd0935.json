@@ -1,0 +1,19 @@
+{
+  "questionId": "edfd0935",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the lower bound",
+      "content": "For every real value of $x$, the exponential part is positive.<br/>$$2^x>0$$<br/>Therefore the numerator is always greater than $5$.<br/>$$6(2^x)+5>5$$"
+    },
+    {
+      "title": "Divide by the constant",
+      "content": "Dividing by $17$ gives the lower bound for $g(x)$.<br/>$$g(x)>\\frac{5}{17}$$"
+    },
+    {
+      "title": "Choose the greatest bound",
+      "content": "As $$x$$ becomes very negative, $$2^x$$ approaches $$0$$, so $$g(x)$$ approaches $$\\frac{5}{17}$$ from above but never equals it. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "284de9c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the isosceles condition",
+      "content": "A triangle is isosceles if it has at least two equal side lengths. In a triangle, equal angles are opposite equal sides, so two equal angles are sufficient."
+    },
+    {
+      "title": "Match the given angle",
+      "content": "Angle $U$ is $31^\\circ$. If angle $V$ is also $31^\\circ$, then angles $U$ and $V$ are equal, so the triangle must be isosceles. The answer is <strong>D</strong>."
+    }
+  ]
+}

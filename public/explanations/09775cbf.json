@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the original effect",
-      "content": "The original experiments showed that participants regarded products as significantly more valuable when the product-to-space ratio was <em>low</em> (items spread far apart) than when it was <em>high</em> (items crowded close together).<br/><br/>The question asks which finding would support the claim that an inexpensive store context <em>moderates</em> (weakens or reduces) this effect."
+      "title": "Define moderation",
+      "content": "The original effect was that products spaced far apart seemed more valuable than products spaced close together. To show moderation by an inexpensive store, that effect should remain but be weaker there."
     },
     {
-      "title": "Match the signal to the finding",
-      "content": "To directly support the conclusion, the finding must show that the original effect (far apart > close together) still occurs, but is <strong>weaker at the inexpensive retailer</strong> than at the upscale one.<br/><br/><strong>Choice A &mdash; At Tiffany & Co., participants judged jewelry spaced far apart to be substantially more valuable than jewelry spaced close together, but at Forever 21, participants judged jewelry spaced far apart to be only slightly more valuable than jewelry spaced close together.</strong> does exactly this: at both Tiffany and Forever 21, far-apart spacing increases perceived value over close spacing—preserving the original effect—yet the difference is <em>substantially</em> larger at Tiffany and only <em>slightly</em> larger at Forever 21.<br/><br/>This demonstrates the inexpensive store context reduces the magnitude of the spacing effect.<br/><br/>The other choices reverse the original effect or fail to show how the spacing-value relationship differs across store types.<br/><br/>The store-comparison pattern is correct."
+      "title": "Compare effect sizes",
+      "content": "Choice B reverses the original effect. Choices C and D compare stores within one spacing condition rather than comparing far-apart and close-together displays within each store. The remaining finding shows a substantial spacing effect at Tiffany but only a slight one at Forever 21. The answer is <strong>A</strong>."
     }
   ]
 }

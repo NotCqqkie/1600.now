@@ -1,0 +1,15 @@
+{
+  "questionId": "6c907811",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the target count",
+      "content": "Exactly $\\frac{2}{5}$ of $700$ flowers is\n$$\n\\frac{2}{5}(700)=280\n$$"
+    },
+    {
+      "title": "Use the bar graph counts",
+      "content": "From the bar graph, orchids account for $180$ flowers and lilies account for $100$ flowers.\n$$\n180+100=280\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

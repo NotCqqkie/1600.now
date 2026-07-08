@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the two charges",
-      "content": "The rental costs 14 dollars per day, so $d$ days cost $14d$. The booking fee is a one-time 9-dollar charge."
+      "title": "Build the daily cost",
+      "content": "The kayak costs $14$ dollars per day. For $d$ days, the daily part of the total is<br/>$$14d$$"
     },
     {
-      "title": "Write the total cost",
-      "content": "Add the daily charge and the one-time fee: $$c=14d+9.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$c=14d+9$ matches <strong>C</strong>. The other choices either swap the daily rate and fee or multiply the one-time fee by the number of days."
+      "title": "Add the one time fee",
+      "content": "The booking fee is a one-time $9$ dollars, so add it once:<br/>$$c=14d+9$$The answer is <strong>C</strong>."
     }
   ]
 }

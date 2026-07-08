@@ -1,0 +1,15 @@
+{
+  "questionId": "f2287419",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Subtract $40$ from both sides to leave only the variable term on the left:<br/>$$12x+40=148$$<br/>$$12x=108$$"
+    },
+    {
+      "title": "Match the equivalent equation",
+      "content": "Subtracting the same amount from both sides preserves the solution, so this equation has the same solution as the original equation. The answer is <strong>C</strong>."
+    }
+  ]
+}

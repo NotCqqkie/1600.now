@@ -1,0 +1,19 @@
+{
+  "questionId": "b618c743",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause and result",
+      "content": "The passage says modern planes have sleeker, more streamlined bodies, then states that they are more aerodynamic. The second idea is the result of the first, so the transition should signal cause and effect."
+    },
+    {
+      "title": "Reject noncausal links",
+      "content": "A and B signal contrast, but the sentences are not opposed. C signals the final item in a list, but the passage is not listing items."
+    },
+    {
+      "title": "Use the result transition",
+      "content": "For this reason shows that the streamlined bodies cause the improved aerodynamics. The answer is <strong>D</strong>."
+    }
+  ]
+}

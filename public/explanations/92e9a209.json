@@ -1,0 +1,15 @@
+{
+  "questionId": "92e9a209",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Replace the repeated expression",
+      "content": "Let $u=14-4x$:<br/>$$-6u+5=-7u+22$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Solve for $u$:<br/>$$u+5=22$$<br/>$$u=17$$The answer is <strong>17</strong>."
+    }
+  ]
+}

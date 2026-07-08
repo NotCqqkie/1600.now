@@ -1,0 +1,15 @@
+{
+  "questionId": "7cceec92",
+  "correctAnswer": "1458",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "Let $k=b^{1/n}$, so $f(x)=ak^x$. From $x=4$ to $x=7$, the input increases by $3$ and the output ratio is\n$$\n\\frac{162}{6}=27\n$$\nSo\n$$\nk^3=27\n$$\nand $k=3$."
+    },
+    {
+      "title": "Move two steps from seven",
+      "content": "From $x=7$ to $x=9$ is two more unit steps, so multiply by the factor $3$ twice:\n$$\nf(9)=162\\cdot 3^2=162\\cdot 9=1458\n$$\nThe answer is <strong>1458</strong>."
+    }
+  ]
+}

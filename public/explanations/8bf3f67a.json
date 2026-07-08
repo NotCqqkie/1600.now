@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the unit conversion",
-      "content": "We need to convert 42 fathoms to feet. The given conversion factor is 1 fathom = 6 feet. To convert from fathoms to feet, multiply the number of fathoms by 6."
+      "title": "Use the conversion factor",
+      "content": "Each fathom is $6$ feet. To convert $42$ fathoms to feet, multiply by $6$."
     },
     {
-      "title": "Calculate the depth in feet",
-      "content": "$$42 \\times 6 = 252 \\text{ feet}$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Compute the depth",
+      "content": "Set up the conversion:<br/>$$42\\cdot6=252$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

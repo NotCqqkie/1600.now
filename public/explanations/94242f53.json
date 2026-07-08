@@ -1,0 +1,19 @@
+{
+  "questionId": "94242f53",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the shifted values",
+      "content": "The first five values in data set B are exactly $1$ greater than the first five values in data set A. If $h=27$, then every value in B is exactly $1$ greater than the corresponding value in A, so the standard deviations are equal."
+    },
+    {
+      "title": "Check the possible last values",
+      "content": "Standard deviation measures spread. If $h=22$, the last value of B is closer to the center than $27$, so B is less spread out. If $h=28$, the last value of B is farther out than $27$, so B is more spread out."
+    },
+    {
+      "title": "Select the only valid statement",
+      "content": "Only statement I makes data set A have a greater standard deviation than data set B. The answer is <strong>A</strong>."
+    }
+  ]
+}

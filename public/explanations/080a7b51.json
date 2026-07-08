@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "Sentence 1 defines post-consumer waste (waste <em>after</em> reaching the consumer). The blank introduces a sentence about pre-consumer waste (waste <em>before</em> reaching the consumer). These are opposites &mdash; the transition must signal contrast.<ul><li><strong>Choice A &mdash; By contrast,</strong>: Signals direct opposition between the two types of waste, which is exactly the relationship the passage establishes. &#10003;</li><li><strong>Choice B &mdash; For example,</strong>: Signals that what follows <em>exemplifies</em> the previous sentence; pre-consumer waste is not an example of post-consumer waste. &#10007;</li><li><strong>Choice C &mdash; As a result,</strong>: Signals causation &mdash; that pre-consumer waste somehow results from the catalog being post-consumer waste, which is illogical. &#10007;</li><li><strong>Choice D &mdash; Specifically,</strong>: Signals elaboration or precision about the preceding idea; this sentence introduces a contrasting category, not a clarifying detail about post-consumer waste. &#10007;</li></ul>"
+      "title": "Name the relationship",
+      "content": "The first sentence describes post-consumer waste, which becomes waste after reaching the consumer. The next sentence describes pre-consumer waste, which becomes waste before reaching the consumer. The transition must signal contrast between these opposite categories."
     },
     {
-      "title": "Confirm the contrast",
-      "content": "Post-consumer (after) and pre-consumer (before) are opposite points on a timeline. Only a contrast transition fits this structure. That matches <strong>Choice A &mdash; By contrast,</strong>."
+      "title": "Check the transition logic",
+      "content": "Choice B would introduce an example, but pre-consumer waste is not an example of post-consumer waste. Choice C would show a result, and Choice D would add a specific detail. The remaining transition correctly signals opposition. The answer is <strong>A</strong>."
     }
   ]
 }

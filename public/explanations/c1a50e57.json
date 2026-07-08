@@ -1,0 +1,19 @@
+{
+  "questionId": "c1a50e57",
+  "correctAnswer": "50460",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use proportional scaling",
+      "content": "The model $y=800ax^2$ means breaking strength is proportional to $x^2$ for this cable type."
+    },
+    {
+      "title": "Set up the strength ratio",
+      "content": "Compare the strengths at circumferences $3.25$ and $7.25$:<br/>$$y/10{,}140=(7.25/3.25)^2$$"
+    },
+    {
+      "title": "Evaluate the new strength",
+      "content": "Solve for $y$:<br/>$$y=10{,}140(7.25/3.25)^2=50{,}460$$<br/>The answer is <strong>50460</strong>."
+    }
+  ]
+}

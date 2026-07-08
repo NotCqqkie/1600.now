@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize percentage of percentage multiplication",
-      "content": "The problem has two conditions: <strong>50% of all items are blue</strong>, and <strong>24% of the blue items have labels</strong>. To find items that are both blue and labeled, we need 24% of 50%. The fastest approach: multiply the two percentages as decimals."
+      "title": "Convert the two percentages",
+      "content": "Blue items are $50\\%$ of the collection, and labeled blue items are $24\\%$ of the blue items. Convert both to decimals:<br/>$$50\\%=0.50,\\quad 24\\%=0.24$$"
     },
     {
-      "title": "Multiply and identify the percentage",
-      "content": "Convert to decimals: 24% = 0.24 and 50% = 0.50.<br/>$$0.24 \\times 0.50 = 0.12$$Converting back to percentage: $$0.12 = 12\\%$$That confirms <strong>B</strong> is correct."
+      "title": "Find the combined percentage",
+      "content": "Multiply because the question asks for $24\\%$ of $50\\%$:<br/>$$0.24(0.50)=0.12=12\\%$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

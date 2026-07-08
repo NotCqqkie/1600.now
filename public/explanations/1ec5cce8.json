@@ -1,0 +1,19 @@
+{
+  "questionId": "1ec5cce8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the squares",
+      "content": "Group the $x$-terms and $y$-terms, then complete the square:\n$$x^2-10x+y^2+6y-30=0$$\n$$x^2-10x+y^2+6y=30$$\n$$(x-5)^2+(y+3)^2=64$$"
+    },
+    {
+      "title": "Use the circle radius",
+      "content": "The equation is now in circle form, so the radius is $8$. A circle inscribed in a square has diameter equal to the square's side length, so the side length is $16$."
+    },
+    {
+      "title": "Find the perimeter",
+      "content": "Multiply the side length by $4$:\n$$\n4(16)=64\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7dad326a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the range unbroken",
+      "content": "The sentence describes a range: the temperature fluctuated from one value at 11:00 a.m. to another value at 7:00 p.m. No punctuation should separate the preposition <em>from</em> from its object."
+    },
+    {
+      "title": "Remove disruptive punctuation",
+      "content": "Choice A puts a comma after <em>from</em>. Choice B repeats that error and adds a comma after <em>at</em>. Choice D uses a colon after <em>from</em> and a comma after <em>at</em>. The unpunctuated range reads correctly. The answer is <strong>C</strong>."
+    }
+  ]
+}

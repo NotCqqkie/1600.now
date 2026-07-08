@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the two clauses",
-      "content": "<ul><li><strong>Choice A &mdash; parks and</strong>: &quot;and&quot; is a coordinating conjunction, but when joining two longer main clauses it conventionally requires a comma before it &mdash; &quot;parks, and it prioritized...&quot; Without the comma, this is non-standard. &#10007;</li><li><strong>Choice B &mdash; parks</strong>: No punctuation at all between the two main clauses creates a run-on sentence. &#10007;</li><li><strong>Choice C &mdash; parks;</strong>: A semicolon correctly joins two independent clauses without a conjunction. Both sides are complete sentences, so this is grammatically sound. &#10003;</li><li><strong>Choice D &mdash; parks,</strong>: A comma alone between two main clauses with no conjunction creates a comma splice. &#10007;</li></ul>"
+      "content": "The text before the blank is a complete sentence about the Mission 66 initiative representing an investment in national parks. The text after the blank is another complete sentence about what the initiative prioritized."
     },
     {
-      "title": "Confirm the answer",
-      "content": "A semicolon is the only option that correctly separates two independent clauses without requiring a conjunction. That confirms <strong>C</strong> is correct."
+      "title": "Use a semicolon between clauses",
+      "content": "A would need a comma before \"and\" to join two full clauses. B creates a run-on, and D creates a comma splice. A semicolon correctly joins the two independent clauses without a conjunction. The answer is <strong>C</strong>."
     }
   ]
 }

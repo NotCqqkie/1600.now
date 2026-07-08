@@ -1,0 +1,23 @@
+{
+  "questionId": "9d4d5503",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the two equations",
+      "content": "Enter the two equations as written. The $x$-coordinates of their intersection points are the possible values of $x$ for the system.",
+      "desmosExpressions": [
+        "x^{2}+y=111",
+        "-3x+y=3"
+      ]
+    },
+    {
+      "title": "Check the listed value",
+      "content": "Test $x=-12$ by substituting it into the linear equation to get $y$.\n$$-3(-12)+y=3$$\n$$36+y=3$$\n$$y=-33$$"
+    },
+    {
+      "title": "Verify the quadratic equation",
+      "content": "Check the same $x$ and $y$ in the other equation.\n$$(-12)^2+(-33)=144-33=111$$\nSo $x=-12$ is a possible value. The answer is <strong>A</strong>."
+    }
+  ]
+}

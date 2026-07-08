@@ -1,0 +1,15 @@
+{
+  "questionId": "4cce95c2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on irrigation sensitivity",
+      "content": "Persad and colleagues concluded that fewer, more intense precipitation events would trigger more irrigation and that the irrigation change is highly sensitive to the area's baseline precipitation concentration. The supporting data should compare irrigation changes across different baseline conditions."
+    },
+    {
+      "title": "Avoid mixed or false data",
+      "content": "A mixes irrigation data with aquifer recharge. C also centers aquifer recharge and does not compare baseline conditions. D says irrigation declines under one condition and misuses the 11.0% figure. The remaining choice compares small irrigation increases under somewhat concentrated baseline precipitation with much larger increases under evenly distributed baseline precipitation, which supports sensitivity to the starting pattern. The answer is <strong>B</strong>."
+    }
+  ]
+}

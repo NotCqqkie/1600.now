@@ -1,0 +1,15 @@
+{
+  "questionId": "be72d73f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle sum",
+      "content": "The interior angles of a triangle add to $180^\\circ$. Here the three angle measures are $47^\\circ$, $90^\\circ$, and $$(\\frac{k}{2})^\\circ$$\n$$47+90+\\frac{k}{2}=180$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Combine the known angle measures, then isolate $k$.\n$$137+\\frac{k}{2}=180$$\n$$\\frac{k}{2}=43$$\n$$k=86$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

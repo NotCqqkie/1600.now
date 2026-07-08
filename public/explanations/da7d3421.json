@@ -1,0 +1,15 @@
+{
+  "questionId": "da7d3421",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the added category",
+      "content": "The first sentence discusses exact replicas of the Eiffel Tower. The second sentence expands the idea to towers that are not exact replicas but still pay homage to the Eiffel Tower's design."
+    },
+    {
+      "title": "Use an additive transition",
+      "content": "Choice A signals opposition, but the second sentence adds a related type of tower. Choice B signals a result, though the homage towers are not caused by the replica in Tbilisi. Choice C means always, which overstates the claim. An additive transition fits the expansion. The answer is <strong>D</strong>."
+    }
+  ]
+}

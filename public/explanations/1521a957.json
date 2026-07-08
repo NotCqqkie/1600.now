@@ -1,0 +1,15 @@
+{
+  "questionId": "1521a957",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the flying-bird example",
+      "content": "The text says most flying birds weigh less than 1 kg, then asks for an example showing that not all flying birds are so light. The right example must therefore be both capable of flight and much heavier than 1 kg."
+    },
+    {
+      "title": "Check flight and mass",
+      "content": "Choice B misstates the Andean condor's mass as below 10 kg. Choices C and D use the Somali ostrich, which is flightless, so neither can support a claim about flying birds. The remaining choice gives a flying bird with a mass far above 1 kg. The answer is <strong>A</strong>."
+    }
+  ]
+}

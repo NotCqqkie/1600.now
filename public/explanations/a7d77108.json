@@ -1,0 +1,15 @@
+{
+  "questionId": "a7d77108",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening phrase",
+      "content": "The introductory phrase \"Having 11,486 feet of prominence\" must describe the noun that comes immediately after the comma. The thing with that prominence is Mount Hayes, not geographers, a list, or a ranking."
+    },
+    {
+      "title": "Avoid dangling modifiers",
+      "content": "Choice A makes geographers the noun with prominence. Choice C makes a list have prominence. Choice D makes a ranking have prominence and also drops the needed article before \"51st.\" The remaining version correctly puts Mount Hayes after the modifier. The answer is <strong>B</strong>."
+    }
+  ]
+}

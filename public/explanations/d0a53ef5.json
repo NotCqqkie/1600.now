@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\sqrt{{ \\left(x-2\\right)}^{2}}=\\sqrt{3x+34}$$Graph or solve it directly and read the x-value that works. The requested value is $-3$.",
+      "title": "Square both sides",
+      "content": "Both sides are square roots, so square both sides:\n$$\n\\sqrt{(x-2)^2}=\\sqrt{3x+34}\n$$\n$$\n(x-2)^2=3x+34\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the original equation as written to see the two intersection points. The algebra below explains why both candidates appear before selecting the smaller one.",
       "desmosExpressions": [
         "\\sqrt{{ \\left(x-2\\right)}^{2}}=\\sqrt{3x+34}"
       ]
     },
     {
-      "title": "Simplify using the radical property",
-      "content": "Recognize that $\\sqrt{(x-2)^2} = |x-2|$ by the property $\\sqrt{u^2} = |u|$. This gives:<br/>$$|x-2| = \\sqrt{3x+34}$$<br/>Square both sides (valid since both are non-negative):<br/>$$|x-2|^2 = 3x+34$$<br/>Since $|x-2|^2 = (x-2)^2$, we have:<br/>$$(x-2)^2 = 3x+34$$"
+      "title": "Factor the quadratic",
+      "content": "Expand and move all terms to one side:\n$$\nx^2-4x+4=3x+34\n$$\n$$\nx^2-7x-30=0\n$$\n$$\n(x-10)(x+3)=0\n$$\nSo the possible solutions are $x=10$ and $x=-3$."
     },
     {
-      "title": "Expand and solve the quadratic",
-      "content": "Expand the left side:<br/>$$x^2 - 4x + 4 = 3x + 34$$<br/>Simplify:<br/>$$x^2 - 7x - 30 = 0$$<br/>Factor:<br/>$$(x-10)(x+3) = 0$$<br/>This yields $x = 10$ or $x = -3$."
-    },
-    {
-      "title": "Verify solutions and find the smallest",
-      "content": "Check both candidates in the original equation.<br/><br/>For $x = 10$:<br/>$$\\sqrt{(10-2)^2} = \\sqrt{64} = 8$$<br/>$$\\sqrt{3(10)+34} = \\sqrt{64} = 8$$<br/>Both sides equal 8. ✓<br/><br/>For $x = -3$:<br/>$$\\sqrt{(-3-2)^2} = \\sqrt{25} = 5$$<br/>$$\\sqrt{3(-3)+34} = \\sqrt{25} = 5$$<br/>Both sides equal 5. ✓<br/><br/>Both solutions are valid. The smallest solution is -3.",
+      "title": "Calculator shortcut",
+      "content": "The graph shows both solutions, and the question asks for the smaller one. The answer is <strong>-3</strong>.",
       "desmosExpressions": [
         "y = \\sqrt{(x - 2)^2}",
         "y = \\sqrt{3x + 34}"

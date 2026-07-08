@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the relationship",
-      "content": "The text describes the resurfacing machine's process in sequence: \"first scraped... ______ sprayed water... Lastly, it smoothed.\" The blank introduces the second of three sequential steps."
+      "content": "The text describes the resurfacing machine's process in sequence: \"first scraped. ______ sprayed water. Lastly, it smoothed.\" The blank introduces the second of three sequential steps."
     },
     {
       "title": "Match the transition",
-      "content": "The logical relationship is sequence — the passage walks through three numbered steps: \"first scraped,\" blank, \"Lastly, it smoothed.\" The blank must mark the second step.<ul><li><strong>Choice A &mdash; For example,</strong>: introduces a specific illustration of a general claim; the water-spraying step is not an example of scraping — it is a distinct subsequent action. ✗</li><li><strong>Choice B &mdash; Next,</strong>: the standard second-step sequencer, fitting neatly between \"first\" and \"lastly\" in a three-step process. ✓</li><li><strong>Choice C &mdash; Similarly,</strong>: signals that what follows parallels what came before; spraying water is not similar to scraping ice — these are different actions in a sequence. ✗</li><li><strong>Choice D &mdash; In contrast,</strong>: signals opposition between two ideas; the steps are not opposed to each other, they are sequential. ✗</li></ul>That is the correct answer."
+      "content": "The logical relationship is sequence — the passage walks through three numbered steps: \"first scraped,\" blank, \"Lastly, it smoothed.\" The blank must mark the second step.<ul><li><strong>Choice A — For example,</strong>: introduces a specific illustration of a general claim; the water-spraying step is not an example of scraping — it is a distinct subsequent action. ✗</li><li><strong>Choice B — Next,</strong>: the standard second-step sequencer, fitting neatly between \"first\" and \"lastly\" in a three-step process. ✓</li><li><strong>Choice C — Similarly,</strong>: signals that what follows parallels what came before; spraying water is not similar to scraping ice — these are different actions in a sequence. ✗</li><li><strong>Choice D — In contrast,</strong>: signals opposition between two ideas; the steps are not opposed to each other, they are sequential. ✗</li></ul>"
     }
   ]
 }

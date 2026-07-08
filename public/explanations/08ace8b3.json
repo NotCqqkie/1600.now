@@ -1,0 +1,15 @@
+{
+  "questionId": "08ace8b3",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add like terms",
+      "content": "Line up the two expressions and combine matching powers of $s$:<br/>$$(4s^4-5s)+(2s^4+11s+7)$$<br/>The $s^4$ terms give $6s^4$, the $s$ terms give $-5s+11s=6s$, and the constant is $7$."
+    },
+    {
+      "title": "Read b from the required form",
+      "content": "The sum is $$6s^4+6s+7.$$ In the form $as^4+bs+c$, the coefficient of $s$ is $b=6$. The answer is <strong>6</strong>."
+    }
+  ]
+}

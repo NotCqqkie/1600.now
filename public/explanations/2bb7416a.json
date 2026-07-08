@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "On the left: <strong>\"an Elvis taxon is not the real thing\"</strong> is an independent clause. On the right: \"is a misidentified look-alike\" is the predicate of a second independent clause whose subject is 'it.' The blank must supply 'however' (a conjunctive adverb) and 'it' (the subject of the second clause)."
+      "title": "Separate two clauses",
+      "content": "The sentence contrasts two independent clauses: an Elvis taxon is not the real thing, and it is a misidentified look-alike. A comma alone cannot join those clauses."
     },
     {
-      "title": "Apply the rule for conjunctive adverbs between independent clauses",
-      "content": "A conjunctive adverb joining two independent clauses requires either a semicolon before it and a comma after (IC; however, IC) or a period to end one sentence and begin another (IC. However, IC).<br/><br/>The correct answer uses 'however. It': the comma already in the stem before the blank combines with 'however' so that 'however' acts as a parenthetical/terminal adverb modifying the first independent clause, and the period creates the sentence boundary. The new sentence then begins with the capitalized 'It,' properly separating the two independent clauses.<br/><br/><ul><li><strong>Choice A — however but it</strong>: redundantly pairs 'however' with the coordinating conjunction 'but,' and a comma alone cannot join two independent clauses. &#10007;</li><li><strong>Choice B — however it</strong>: provides no punctuation or conjunction between the two independent clauses, creating a run-on. &#10007;</li><li><strong>Choice C — however, it</strong>: uses only a comma after 'however,' which is a comma splice &mdash; a conjunctive adverb requires a semicolon or period, not just a comma, to separate independent clauses. &#10007;</li></ul><strong>D</strong> is correct."
+      "title": "Reject comma splices",
+      "content": "Choice A redundantly combines however with but and still lacks proper clause separation. Choice B creates a comma splice. Choice C also creates a comma splice by using only commas around however."
+    },
+    {
+      "title": "Choose the sentence break",
+      "content": "The remaining version lets however modify the first clause and then uses a period before It to begin the second independent clause. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given line of best fit",
-      "content": "The equation of the line of best fit is already given: $y=0.096x-0.488$. The slope is the coefficient of $x$, so the slope is $0.096$."
+      "title": "Identify the slope",
+      "content": "In the line of best fit<br/>$$y=0.096x-0.488$$<br/>the slope is $0.096$."
     },
     {
-      "title": "Interpret the slope units",
-      "content": "The $x$-axis is years since 1940, measured in individual years. The $y$-axis is minimum wage in dollars per hour. Therefore a slope of $0.096$ means the model predicts an increase of $0.096$ dollars per hour for each additional year."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>Each year between 1940 and 2010, the average increase in minimum wage was 0.096 dollars.</strong> says the average increase was $0.096$ dollars each year. Two other options incorrectly treat the change as per 10 years, and the remaining alternative uses the intercept instead of the slope. Each year between 1940 and 2010, the average increase in minimum wage was 0.096 dollars. is correct."
+      "title": "Interpret the units",
+      "content": "The slope gives the predicted change in minimum wage for each $1$-year increase in $x$. So the model predicts an average increase of $0.096$ dollars each year, not the intercept. The answer is <strong>A</strong>."
     }
   ]
 }

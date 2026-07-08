@@ -1,28 +1,15 @@
 {
   "questionId": "fb96a5b3",
-  "qid": "fb96a5b3",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $3a b -7$."
+      "title": "Distribute the factor",
+      "content": "Apply the $3$ to both terms inside the parentheses: $$3(ab-4)+5=3ab-12+5$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Distribute the 3 into the parentheses",
-      "content": "$$3 \\times (ab - 4) + 5 = 3ab - 12 + 5$$"
-    },
-    {
-      "title": "Combine constant terms",
-      "content": "$$3ab - 12 + 5 = 3ab - 7$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"$3a b +1$\"</strong>: This would follow from multiplying $ab$ by 3 but not multiplying $-4$ by 3. Eliminated.</li><li><strong>\"$3a b -7$\"</strong>: This matches $3ab - 7$ exactly. That matches the correct answer &mdash; <strong>B</strong> is correct.</li><li><strong>\"$3a b -8$\"</strong>: The constant would need to be $-8$, but it is $-7$. Eliminated.</li><li><strong>\"$3a b -17$\"</strong>: This would follow from $\\left(3\\right)(ab-4) - 5$, not $+5$. Eliminated.</li></ul>"
+      "title": "Combine the constants",
+      "content": "The variable term stays $3ab$, and the constants combine: $$-12+5=-7$$ So the equivalent expression is $$3ab-7$$ Choice A misses the multiplication by $3$ on $-4$, while choices C and D use the wrong constant. The answer is <strong>B</strong>."
     }
-  ],
-  "section": "Math"
+  ]
 }

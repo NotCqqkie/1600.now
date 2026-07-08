@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph directly",
-      "content": "This is a bar-graph lookup question. The horizontal axis identifies the group, and the vertical axis gives the number of books collected."
+      "title": "Read the bar",
+      "content": "This is a direct bar-graph lookup. Locate group $1$ on the horizontal axis and read the height of its bar."
     },
     {
-      "title": "Find group 1",
-      "content": "Locate group $1$ on the horizontal axis. Its bar reaches $30$ on the vertical axis, so group $1$ collected $30$ books."
-    },
-    {
-      "title": "Confirm the free response",
-      "content": "The question asks how many books were collected by group $1$, not the total for all groups. Enter <strong>30</strong>."
+      "title": "Use the graph value",
+      "content": "The bar for group $1$ reaches $30$ on the vertical axis, so that is the number of books collected.\nThe answer is <strong>30</strong>."
     }
   ]
 }

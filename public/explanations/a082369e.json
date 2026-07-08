@@ -1,0 +1,15 @@
+{
+  "questionId": "a082369e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the study locations",
+      "content": "Most studies mentioned in the passage were conducted in North America, and many of those study sites had similar characteristics. Those studies usually found that dissolved organic carbon and mercury levels rise together. Almeida, Vieira, and Nogueira studied fresh water in Brazil and found the opposite relationship, so the blank must explain why the Brazilian setting could produce a different pattern."
+    },
+    {
+      "title": "Explain the reversed result",
+      "content": "A focuses on measurement precision, but the passage does not suggest that the North American studies were imprecise. C says the researchers may have measured the wrong characteristic, which would undermine the study rather than explain a real difference. D compares absolute mercury levels instead of explaining the relationship between carbon and mercury. B connects the different findings to different environmental circumstances affecting that relationship. The answer is <strong>B</strong>."
+    }
+  ]
+}

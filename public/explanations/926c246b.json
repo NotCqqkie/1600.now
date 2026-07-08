@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the exponential form",
-      "content": "The equation $D = 4320 \\times (1.7)^t$ is an exponential function with the standard form $D = a \\times b^t$. Here, the coefficient $a = 4320$ and the growth factor $b = 1.7$. In exponential functions, the coefficient represents the initial value when the exponent equals zero."
+      "title": "Read the initial value",
+      "content": "In an exponential model, the coefficient is the value when the exponent is $0$. Here, $t$ counts years after 2012, so $t=0$ represents 2012."
     },
     {
-      "title": "Evaluate at t = 0 to find the initial value",
-      "content": "Since $t$ represents years after 2012, when $t = 0$ we are at the year 2012. Substituting $t = 0$:<br/>$$D = 4320 \\times (1.7)^0 = 4320 \\times 1 = 4320$$<br/>The value 4,320 terabytes is the estimated data traffic at $t = 0$, which is the year 2012. That confirms <strong>D</strong> is correct."
+      "title": "Evaluate the model at zero",
+      "content": "Substitute $t=0$ into the equation.\n$$D=4{,}320(1.7)^0=4{,}320(1)=4{,}320$$\nSo $4{,}320$ is the estimated data traffic, in terabytes, in 2012. The answer is <strong>D</strong>."
     }
   ]
 }

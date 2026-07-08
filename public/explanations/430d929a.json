@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank needs",
-      "content": "The blank fills the slot before &ldquo;findings&rdquo; and must function as a <strong>possessive determiner</strong> referring to &ldquo;Mercer and Wright&rdquo; &mdash; a plural noun phrase. The correct word must be a plural possessive, not a contraction."
+      "title": "Identify the possessive slot",
+      "content": "The blank comes before <em>findings</em>, so it must be a possessive determiner. It refers to Mercer and Wright, a plural pair, so the possessive must also be plural."
     },
     {
-      "title": "Eliminate wrong choices, keep the right one",
-      "content": "<ul><li><strong>Choice A — They're</strong>: Violates <strong>possessive vs. contraction</strong> &mdash; &ldquo;they&rsquo;re&rdquo; is a contraction for &ldquo;they are,&rdquo; not a possessive determiner, so it produces a grammatically broken sentence. &#10007;</li><li><strong>Choice B — It's</strong>: Violates <strong>possessive vs. contraction</strong> &mdash; &ldquo;it&rsquo;s&rdquo; is a contraction for &ldquo;it is&rdquo; or &ldquo;it has,&rdquo; not a possessive determiner, and also does not agree with the plural antecedent. &#10007;</li><li><strong>Choice C — Their</strong>: &ldquo;Their&rdquo; is the plural possessive determiner, correctly agreeing in number with the plural antecedent &ldquo;Mercer and Wright.&rdquo; &#10003;</li><li><strong>Choice D — Its</strong>: Violates <strong>pronoun-antecedent agreement</strong> &mdash; &ldquo;its&rdquo; is a singular possessive determiner and does not agree with the plural &ldquo;Mercer and Wright.&rdquo; &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Avoid contractions",
+      "content": "Choice A is the contraction for <em>they are</em>, Choice B is the contraction for <em>it is</em>, and Choice D is a singular possessive. The plural possessive determiner agrees with Mercer and Wright and fits before <em>findings</em>. The answer is <strong>C</strong>."
     }
   ]
 }

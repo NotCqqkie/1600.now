@@ -1,0 +1,15 @@
+{
+  "questionId": "9de811ed",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use only vanilla orders",
+      "content": "The condition limits the sample space to vanilla orders. There are $20$ vanilla orders with sprinkles and $50$ vanilla orders total."
+    },
+    {
+      "title": "Compute the conditional chance",
+      "content": "Use vanilla orders with sprinkles over all vanilla orders.\n$$\\frac{20}{50}=0.40$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

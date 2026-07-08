@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to <em>emphasize</em> orthoclase's Mohs scale number — so the sentence must center on orthoclase having a Mohs number of $6$ and what that means."
+      "title": "Center orthoclase's number",
+      "content": "The goal is to emphasize orthoclase's Mohs scale number. The relevant notes say orthoclase has a number of 6, between fluorite at 4 and corundum at 9."
     },
     {
-      "title": "Match the choice",
-      "content": "The correct response leads with orthoclase's number ($6$) and uses fluorite ($4$) and corundum ($9$) to contextualize what that number means.<ul><li>A omits orthoclase entirely</li><li>C lists three minerals abstractly without giving orthoclase's number</li><li>D centers on corundum</li></ul>, not orthoclase.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject off-focus choices",
+      "content": "Choice A compares corundum and fluorite without orthoclase. Choice C describes ordering minerals but omits orthoclase's number. Choice D centers on corundum. The answer is <strong>B</strong>."
     }
   ]
 }

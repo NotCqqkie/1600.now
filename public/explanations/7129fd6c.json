@@ -1,0 +1,15 @@
+{
+  "questionId": "7129fd6c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the paired forms parallel",
+      "content": "The sentence describes Brooks's penchant for two actions: crafting short lines and putting blues rhythms into her work. Because the first action uses the gerund \"crafting,\" the second action should use a matching gerund form."
+    },
+    {
+      "title": "Reject nonparallel verbs",
+      "content": "A is a past-tense or participial form, not parallel with \"crafting.\" C is an infinitive, which breaks the paired structure. D is a base verb, also not parallel. The answer is <strong>B</strong>."
+    }
+  ]
+}

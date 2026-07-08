@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=8$$<br/>$$x+3y=26$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Use the given value",
+      "content": "The first equation already gives the value of $x$. Since the solution must satisfy both equations, substitute $8$ for $x$ in the second equation.<br/>$$8+3y=26$$",
       "desmosExpressions": [
         "x=8",
         "x+3y=26"
       ]
     },
     {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$6$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Solve for y",
+      "content": "Subtract $8$ from both sides, then divide by $3$ to isolate $y$.<br/>$$3y=18$$<br/>$$y=6$$<br/>The answer is <strong>6</strong>."
     }
   ]
 }

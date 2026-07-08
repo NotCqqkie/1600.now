@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the appositive type",
-      "content": "The phrase &quot;thymol and methane&quot; follows &quot;compounds&quot; and identifies which specific compounds are meant. Because those two names are the only way to distinguish the subject &mdash; they are essential to understanding what the sentence refers to &mdash; the appositive is restrictive. Restrictive appositives take no commas; non-restrictive (parenthetical) appositives require commas on both sides."
+      "title": "Identify the sentence core",
+      "content": "The sentence needs to name the two gaseous compounds and then connect those names directly to the plural verb \"have.\" The word \"compounds\" gives the category, while \"quindoxin and isobutylene\" gives the two names that match the two molar masses listed with \"respectively.\""
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; compounds, thymol and methane</strong>: opens with a comma but provides no closing comma &mdash; this is unmatched punctuation that incorrectly implies the names are parenthetical while leaving the appositive unclosed. &#10007;</li><li><strong>Choice B &mdash; compounds, thymol and methane,</strong>: commas on both sides treat the names as non-restrictive and parenthetical, but the names are essential &mdash; they identify which compounds. &#10007;</li><li><strong>Choice C &mdash; compounds thymol and methane</strong>: no commas, correctly treating &quot;thymol and methane&quot; as a restrictive appositive that specifies which gaseous compounds are meant. &#10003;</li><li><strong>Choice D &mdash; compounds thymol and methane,</strong>: a trailing comma with no opening comma is unmatched and creates an awkward break between the subject and its verb &quot;have.&quot; &#10007;</li></ul>That matches <strong>Choice C &mdash; compounds thymol and methane</strong>."
+      "title": "Check each punctuation pattern",
+      "content": "<ul><li><strong>Choice A - compounds, quindoxin and isobutylene,</strong>: the second comma separates the two compound names from the verb \"have,\" making the names read like a parenthetical interruption.</li><li><strong>Choice B - compounds quindoxin and isobutylene,</strong>: the comma before \"have\" incorrectly separates the plural subject from its verb.</li><li><strong>Choice C - compounds, quindoxin and isobutylene</strong>: the comma separates the category label from the two compound names, and no comma separates those names from the verb \"have.\"</li><li><strong>Choice D - compounds quindoxin and isobutylene</strong>: without a comma after \"compounds,\" the category label runs directly into the first name, making the structure unclear.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

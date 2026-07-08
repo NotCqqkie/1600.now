@@ -1,0 +1,19 @@
+{
+  "questionId": "5a93123c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the pressure prediction",
+      "content": "The second team's hypothesis says that in low visibility, greater pressure fluctuations at a fish's snout should make the fish more likely to avoid an obstruction. For large vortices, intermediate-headed fish should have greater pressure fluctuations than wide-headed fish."
+    },
+    {
+      "title": "Eliminate weak challenges",
+      "content": "Choice A gives only the wide-headed <em>Synodontis macropunctata</em>'s collision rate, so there is no comparison to test whether greater pressure improves avoidance. Choice D only describes variation among intermediate-headed dusky smooth-hounds, which does not compare fish with different expected pressure levels."
+    },
+    {
+      "title": "Compare predicted outcomes",
+      "content": "Choice C says the wide-headed fish bumped into obstructions more often than the intermediate-headed fish, which supports the hypothesis because wide-headed fish should have lower pressure fluctuations. Choice B says intermediate-headed and wide-headed fish collided just as often despite different expected pressure levels. The answer is <strong>B</strong>."
+    }
+  ]
+}

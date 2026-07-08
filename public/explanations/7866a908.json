@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up mass and silicon balance equations",
-      "content": "Let $m_1$ = mass of the first piece (35% silicon) and $m_2$ = mass of the second piece (85% silicon).<br/><br/>The total mass equation is:<br/>$$m_1 + m_2 = 60.0$$<br/>For silicon content, the final sample is 55% silicon by mass, so it contains $0.55 \\times 60.0 = 33.0$ grams of silicon. The silicon balance equation is:<br/>$$0.35m_1 + 0.85m_2 = 33.0$$"
+      "title": "Find total silicon",
+      "content": "The $60.0$ gram sample is $55.0\\%$ silicon, so the total silicon mass is:<br/>$$0.55(60.0)=33.0$$"
     },
     {
-      "title": "Solve for the mass of the second piece",
-      "content": "From the first equation, $m_1 = 60.0 - m_2$. Substitute into the silicon balance equation:<br/>$$0.35(60.0 - m_2) + 0.85m_2 = 33.0$$<br/>$$21.0 - 0.35m_2 + 0.85m_2 = 33.0$$<br/>$$21.0 + 0.50m_2 = 33.0$$<br/>$$0.50m_2 = 12.0$$<br/>$$m_2 = 24.0 \\text{ grams}$$"
+      "title": "Solve for the second piece",
+      "content": "Let $m_2$ be the mass of the second piece. Then the first piece has mass $60.0-m_2$. Use the silicon percentages.<br/>$$0.35(60.0-m_2)+0.85m_2=33.0$$<br/>$$21.0+0.50m_2=33.0$$<br/>$$m_2=24.0$$"
     },
     {
-      "title": "Calculate silicon mass in the second piece",
-      "content": "The mass of silicon in the second piece is 85% of its total mass:<br/>$$0.85 \\times 24.0 = 20.4 \\text{ grams}$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Find silicon in that piece",
+      "content": "The second piece is $85.0\\%$ silicon, so multiply its mass by $0.85$.<br/>$$0.85(24.0)=20.4$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

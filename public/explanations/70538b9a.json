@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The goal is to emphasize Anika Raman&rsquo;s achievement &mdash; specifically, what she personally accomplished and how. The correct answer must make Raman the active subject and name both her method (crossbreeding) and her result (climate-suited hybrids)."
+      "title": "Center Raman's achievement",
+      "content": "The student wants to emphasize Anika Raman's achievement, so the sentence should make Raman the focus and state what she accomplished: creating sugarcane hybrids suited to India's climate."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;By crossbreeding the imported sugarcane species <em>Saccharum officinarum</em> with grasses native to India, Raman succeeded in creating sugarcane hybrids well suited to India's climate.&rsquo;</strong>: Raman is the active grammatical subject. The sentence names her method (crossbreeding <em>Saccharum officinarum</em> with native grasses) and her specific achievement (climate-suited hybrids) &mdash; exactly what the goal requires. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In the 1930s, the Imperial Sugar Cane Institute, which enlisted Raman, sought to limit dependence on imported sugarcane.&rsquo;</strong>: The subject and emphasis belong to the Institute, not Raman. Her achievement is not mentioned. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Raman was enlisted by the Imperial Sugar Cane Institute at a time when a local variety of sugarcane needed to be produced.&rsquo;</strong>: Raman appears in passive voice as someone being enlisted, and her actual achievement &mdash; successfully creating hybrids &mdash; is absent entirely. &#10007;</li><li><strong>Choice D &mdash; &lsquo;As part of efforts to breed a local variety of sugarcane, an imported sugarcane species called <em>Saccharum officinarum</em> was crossbred with grasses native to India.&rsquo;</strong>: Written in passive voice with no named subject &mdash; Raman&rsquo;s name does not appear, so the achievement is not attributed to her. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Rule out weak emphasis",
+      "content": "Choice B focuses on the Institute's goal, not Raman's achievement. Choice C only says Raman was enlisted. Choice D uses passive voice and omits Raman as the person responsible for the crossbreeding."
+    },
+    {
+      "title": "Name method and result",
+      "content": "The remaining choice makes Raman the active subject and includes both her method, crossbreeding <em>Saccharum officinarum</em> with native grasses, and her successful result. The answer is <strong>A</strong>."
     }
   ]
 }

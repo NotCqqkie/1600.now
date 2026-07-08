@@ -1,0 +1,19 @@
+{
+  "questionId": "73bda05d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply Haddad's finding",
+      "content": "Haddad found that, for consumers who value environmental conservation, higher perceived environmental risk makes a product less likely to be purchased. The Brazil study then adds that college students had the highest perceived environmental risk for the new skin-care product. The completion should apply that relationship to the group with the highest risk perception."
+    },
+    {
+      "title": "Eliminate unsupported claims",
+      "content": "<ul><li><strong>Choice A</strong> says students prioritize other factors over sustainability, but the evidence says they perceive high environmental risk.</li><li><strong>Choice C</strong> denies a meaningful group difference even though students had the highest risk perception.</li><li><strong>Choice D</strong> compares the product with other products, which the passage never does.</li></ul>"
+    },
+    {
+      "title": "Predict lower purchases",
+      "content": "<strong>Choice B</strong> follows the logic chain: if higher perceived environmental risk reduces purchase likelihood, and college students perceived the highest risk, then college students might be less likely than the other groups to purchase the product. The answer is <strong>B</strong>."
+    }
+  ]
+}

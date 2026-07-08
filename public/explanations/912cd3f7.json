@@ -1,0 +1,15 @@
+{
+  "questionId": "912cd3f7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place however and the boundary",
+      "content": "The sentence needs to connect two independent clauses: the book wasn't written solely by Legler, and other authors also contributed. \"However\" comments on the first clause, and a semicolon can then separate the two clauses."
+    },
+    {
+      "title": "Rule out punctuation errors",
+      "content": "A creates a comma splice. B and C leave \"however\" without the required comma when it starts the second clause. The version that sets off \"however\" after Legler and uses a semicolon before the next clause is grammatical. The answer is <strong>D</strong>."
+    }
+  ]
+}

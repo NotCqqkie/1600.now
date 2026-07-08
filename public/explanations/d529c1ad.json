@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal in the passage",
-      "content": "The passage describes Stevens's poetry as dense and experimental, and adds that many readers have a difficult time even identifying the poems' subjects. The blank must name the precise challenge readers face with this poetry."
+      "title": "Use the difficulty clues",
+      "content": "The colon explains why Stevens's poetry can be hard to do something: it is dense, experimental, and full of references, and many readers struggle to identify even the subjects."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>\"comprehend\"</strong>: means to understand &mdash; readers struggle to grasp meaning, which matches the description of density, experimentation, and obscure references. &#10003;</li><li><strong>\"dislike\"</strong>: addresses preference, but the passage says nothing about whether readers enjoy the poetry. &#10007;</li><li><strong>\"interrupt\"</strong>: means to break into or stop, which has no logical connection to the difficulty readers have with the poems' content. &#10007;</li><li><strong>\"overlook\"</strong>: means to fail to notice, which is the opposite of the challenge &mdash; readers do notice the poetry but cannot understand it. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose understanding",
+      "content": "Choice B concerns preference, choice C means stop or break into something, and choice D means fail to notice. The difficulty described is a difficulty in understanding the poems, so \"comprehend\" fits. The answer is <strong>A</strong>."
     }
   ]
 }

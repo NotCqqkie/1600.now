@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student wants to explain Brook Farm's goal using a quotation from Samuel Whitman. The answer must include Whitman's own words that convey his purpose, with enough context to show what the quotation means."
+      "title": "Use the quotation goal",
+      "content": "The student wants to explain Brook Farm's goal using a quotation from Samuel Whitman. The sentence must name Brook Farm and use Whitman's words to state the purpose of the community."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; In a letter, writer Samuel Whitman explained his goal to \"guarantee the highest mental freedom.\"</strong>: includes only the opening fragment of the quotation, omitting the rest of Whitman's goal (labor suited to talents, securing the fruits of industry). The partial quote doesn't fully explain the goal, and Brook Farm is not even mentioned. &#10007;</li><li><strong>Choice B &mdash; Utopias, such as Brook Farm, founded by Samuel Whitman in 1841, were based on a specific set of principles intended to create a perfect society.</strong>: contains no quotation from Whitman at all, so the task of using his words is not accomplished. &#10007;</li><li><strong>Choice C &mdash; Founded by Samuel Whitman near Boston, Massachusetts, Brook Farm was part of a trend in the 1800s, when reformers in the United States built utopias.</strong>: provides background on Brook Farm but includes no quotation and says nothing about Whitman's stated goals. &#10007;</li><li><strong>Choice D &mdash; Established in 1841, Brook Farm was a utopian community created to \"guarantee the highest mental freedom, by providing all with labor... [and] the fruits of their industry,\" according to founder Samuel Whitman.</strong>: includes the full substantive quotation from Whitman's letter, attributes it to him, names Brook Farm, and frames the quote as his stated goal. &#10003;</li></ul>That is the correct answer."
+      "title": "Reject missing context",
+      "content": "Choice A quotes only a fragment and does not name Brook Farm. Choice B gives background about utopias but includes no quotation. Choice C gives location and historical context but does not use Whitman's words or explain the goal. The remaining choice identifies Brook Farm and uses the quoted purpose from Whitman. The answer is <strong>D</strong>."
     }
   ]
 }

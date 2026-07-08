@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set y = 0 to find the x-intercept",
-      "content": "The x-intercept occurs where the line crosses the x-axis, which is when $y = 0$. Substitute $y = 0$ into the equation:<br/>$$\\frac{5}{8}x + \\frac{2}{3}(0) = 1$$<br/>$$\\frac{5}{8}x = 1$$"
+      "title": "Set the vertical value to zero",
+      "content": "At the $x$-intercept, the $y$-coordinate is $0$. Substitute $y=0$ into the equation.<br/>$$\\frac{5}{8}x+\\frac{2}{3}(0)=1$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Multiply both sides by $\\frac{8}{5}$ (the reciprocal of $\\frac{5}{8}$):<br/>$$x = 1 \\cdot \\frac{8}{5} = \\frac{8}{5}$$<br/>The $x$-intercept is $\\frac{8}{5}$, so the answer is <strong>$\\frac{8}{5}$</strong>."
+      "title": "Solve for the intercept",
+      "content": "The equation becomes<br/>$$\\frac{5}{8}x=1$$<br/>Multiply by the reciprocal.<br/>$$x=\\frac{8}{5}$$<br/>The answer is <strong>8/5</strong>."
     }
   ]
 }

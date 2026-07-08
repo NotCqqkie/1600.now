@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the line features",
-      "content": "The equation $y=2x-5$ is in slope-intercept form $y=mx+b$. The slope is $2$, and the y-intercept is $(0,-5)$."
+      "title": "Read the line features",
+      "content": "The equation $y=2x-5$ is in slope-intercept form. The slope is $2$, and the $y$-intercept is $(0,-5)$."
     },
     {
       "title": "Match the graph",
-      "content": "The correct graph must cross the y-axis at $-5$ and rise $2$ units for every $1$ unit to the right."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer shows that line, so <strong>D</strong> is correct."
+      "content": "The correct graph must cross the $y$-axis at $-5$ and rise $2$ units for every $1$ unit to the right. The graph with those features is the correct one. The answer is <strong>D</strong>."
     }
   ]
 }

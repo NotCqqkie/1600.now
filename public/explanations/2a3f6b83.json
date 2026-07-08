@@ -1,0 +1,15 @@
+{
+  "questionId": "2a3f6b83",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the predator claim",
+      "content": "Costa and colleagues claim the caterpillar sounds are directed primarily at predators. Strong support should show that the sounds happen in response to attack-like conditions rather than as ordinary communication."
+    },
+    {
+      "title": "Use timing evidence",
+      "content": "B concerns whether species make distinctive sounds, D concerns how many sounds each species tends to make, and C supports only some sound types being detectable by predators. The strongest finding ties sound production tightly to simulated attacks. The answer is <strong>A</strong>."
+    }
+  ]
+}

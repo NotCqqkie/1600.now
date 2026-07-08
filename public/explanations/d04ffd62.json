@@ -1,0 +1,19 @@
+{
+  "questionId": "d04ffd62",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shared angle",
+      "content": "The triangles already have one pair of congruent angles: angle $A$ and angle $P$ each measure $62$ degrees. One more matching angle pair is enough to prove similarity by angle-angle similarity."
+    },
+    {
+      "title": "Test the angle information",
+      "content": "If angle $B$ measures $40$ degrees and angle $R$ measures $78$ degrees, then the missing angles are<br/>$$C=180-62-40=78$$<br/>$$Q=180-62-78=40$$"
+    },
+    {
+      "title": "Match the corresponding angles",
+      "content": "The angle pairs match as $A$ to $P$, $B$ to $Q$, and $C$ to $R$:<br/>$$62,40,78$$<br/>This is sufficient to prove the triangles similar. The answer is <strong>C</strong>."
+    }
+  ]
+}

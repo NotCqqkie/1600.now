@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify exponential growth structure",
-      "content": "Exponential population growth follows $ A = P(1 + r)^t $, where <ul><li>$ A = 60,000 $ (future population)</li><li>$ P = 48,000 $ (current population)</li><li>$ r = 4\\% = 0.04 $</li><li>$ t $ = years</li></ul>This matches structure <strong>60,000 = 48,000(1.04)^t</strong>, which is choice D."
+      "title": "Use exponential growth",
+      "content": "A yearly $4\\%$ increase multiplies the population by $$1+0.04=1.04$$"
+    },
+    {
+      "title": "Match start and target values",
+      "content": "Start with $48{,}000$ and set the growth model equal to $60{,}000$: $$60{,}000=48{,}000(1.04)^t$$ The answer is <strong>D</strong>."
     }
   ]
 }

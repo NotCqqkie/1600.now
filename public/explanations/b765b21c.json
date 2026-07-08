@@ -1,0 +1,15 @@
+{
+  "questionId": "b765b21c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join two complete clauses",
+      "content": "The first independent clause ends after <em>the site with the highest elevation</em>. The next clause, <em>it had shifted to 16.2°C by 8:30 p.m.</em>, is also independent. They need a comma plus a coordinating conjunction."
+    },
+    {
+      "title": "Reject run-ons and splices",
+      "content": "Choice A leaves no punctuation or conjunction between the clauses. Choice C uses <em>and</em> without the needed comma. Choice D uses only a comma, creating a comma splice. The comma-plus-<em>and</em> form works. The answer is <strong>B</strong>."
+    }
+  ]
+}

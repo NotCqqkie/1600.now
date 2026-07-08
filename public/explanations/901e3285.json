@@ -1,24 +1,15 @@
 {
   "questionId": "901e3285",
-  "qid": "901e3285",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Check equal-angle cases",
+      "content": "Triangle $ABC$ is isosceles, so two angles must be equal. Since angle $A$ is $40^{\\circ}$, there are three cases: $A=B$, $A=C$, or $B=C$."
     },
     {
-      "title": "Explanation",
-      "content": "In an isosceles triangle, exactly two angles are equal. Angle A = 40°. Three cases to check: (1) A = B, (2) A = C, (3) B = C."
-    },
-    {
-      "title": "Explanation",
-      "content": "Case 1: A = B = 40°, so C = 180° - 40° - 40° = 100°. Valid triangle. B = 40°. Case 2: A = C = 40°, so B = 180° - 40° - 40° = 100°. Valid. B = 100°. Case 3: B = C, so 40° + 2B = 180°, giving B = 70°. Valid."
-    },
-    {
-      "title": "Explanation",
-      "content": "Possible values of angle B are 40°, 70°, and 100°. B = 110° is not achievable: if B = 110°, then A + B = 150°, C = 30°. The angles 40°, 110°, 30° have no two equal — not isosceles."
+      "title": "List the possible values",
+      "content": "If $A=B$, then $B=40^{\\circ}$. If $A=C$, then\n$$B=180^{\\circ}-40^{\\circ}-40^{\\circ}=100^{\\circ}$$\nIf $B=C$, then\n$$40^{\\circ}+2B=180^{\\circ}$$\n$$B=70^{\\circ}$$\nSo $110^{\\circ}$ is not possible. The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D",
-  "section": "Math"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d97e6d2d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the minimum",
+      "content": "Marina must attend at least $18$ meetings, so the number of meetings must satisfy<br/>$$x\\ge18$$"
+    },
+    {
+      "title": "Include the yearly limit",
+      "content": "Only $24$ meetings are scheduled, so $x$ cannot be more than $24$. Combining both conditions gives<br/>$$18\\le x\\le24$$The answer is <strong>C</strong>."
+    }
+  ]
+}

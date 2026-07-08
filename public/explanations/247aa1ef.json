@@ -1,0 +1,23 @@
+{
+  "questionId": "247aa1ef",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track comparison and trend",
+      "content": "The student claims two things: (1) smaller areas were less affected than very large cities (lower delay values), and (2) congestion still worsened in those smaller areas over time (upward trend). The correct choice must show both conditions using data from the graph."
+    },
+    {
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'In at least one of the three urban areas shown, the amount of traffic delay was less than 20 hours per commuter per year at one point between 1990 and 2000.'</strong>: Shows one area had low delay at some point, but says nothing about worsening over time or a comparison between large and small cities.</li><li><strong>Choice B — 'In 1992, the amount of traffic delay in the New York City, New York, area was less than 30 hours per commuter per year.'</strong>: Describes only NYC in a single year. No comparison to a smaller area and no trend over time.</li></ul>"
+    },
+    {
+      "title": "Rule out the remaining choices",
+      "content": "<ul><li><strong>Choice D — 'Even though the amount of traffic delay per commuter per year was greater in the Albany-Schenectady-Troy, New York, area than in the New York City, New York, area throughout the period from 1990 to 2000, the amounts were nearly identical in 1996.'</strong>: Reverses the comparison — Albany is said to have greater delay than NYC, which contradicts the student's claim that smaller areas were less affected.</li></ul>"
+    },
+    {
+      "title": "Choose the data that prove both",
+      "content": "<ul><li><strong>Choice C — 'While the annual number of hours of traffic delay per commuter was always lower in the Albany-Schenectady-Troy, New York, area than in the New York City, New York, area for each year between 1990 and 2000, the amount of traffic delay rose in both areas during this period.'</strong>: Directly shows Albany was consistently below NYC (less affected) and that delay rose in both areas (worsened over time). Both conditions satisfied.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

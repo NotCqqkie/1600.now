@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Find the boundary line",
-      "content": "From the graph, the solid boundary line passes through $(0,-6)$ and $(9,0)$. The slope is $\\frac{0-(-6)}{9-0}=\\frac{6}{9}=\\frac{2}{3}$, and the $y$-intercept is $-6$, giving boundary $y=\\frac{2}{3}x-6$."
+      "content": "The solid boundary line passes through $(0,-6)$ and $(9,0)$. Its slope is\n$$\\frac{0-(-6)}{9-0}=\\frac{6}{9}=\\frac{2}{3}$$\nThe $y$-intercept is $-6$, so the boundary line is\n$$y=\\frac{2}{3}x-6$$"
     },
     {
-      "title": "Determine the inequality direction",
-      "content": "The shaded region lies above the line and the line itself is solid (included), so the inequality is $y\\ge\\frac{2}{3}x-6$."
-    },
-    {
-      "title": "Confirm against the choices",
-      "content": "The boundary line must pass through $(0,-6)$ and $(9,0)$, and the shading must be above a solid line. The other choices keep the same slope but move the $y$-intercept to $6$, $-9$, or $9$, so they miss the boundary. <strong>A</strong> is correct."
+      "title": "Use the shaded side",
+      "content": "The region is shaded above the boundary line, and the solid line means the boundary is included. That gives\n$$y\\ge\\frac{2}{3}x-6$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

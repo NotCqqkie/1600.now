@@ -1,0 +1,15 @@
+{
+  "questionId": "8605b13c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon definition",
+      "content": "The phrase after the colon defines the missing word: the source of a claim \"has no direct bearing on whether the claim is true.\" The blank must mean not connected to the truth of the claim."
+    },
+    {
+      "title": "Reject wrong meanings",
+      "content": "A means implied, but the issue is logical bearing, not whether the source is stated. B means unquestionable, which is not the point. C means unclear, but the source's clarity is not discussed. The answer is <strong>D</strong>."
+    }
+  ]
+}

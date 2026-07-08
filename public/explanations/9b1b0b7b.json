@@ -1,0 +1,15 @@
+{
+  "questionId": "9b1b0b7b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the direction",
+      "content": "Marisol expects to have $3\\%$ more money each year than she had the previous year. Because the amount increases each year, the model is increasing."
+    },
+    {
+      "title": "Identify the model type",
+      "content": "A percent increase uses a constant multiplier. Here, each year multiplies the previous balance by $1.03$, so the model is exponential rather than linear.<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f6fd61ad",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link renewal to duration",
+      "content": "The study says subscribers often stay enrolled because automatic payments make them inattentive. When they must actively renew, they are much more likely to discontinue. A rule requiring manual payment would therefore make subscriptions end sooner on average."
+    },
+    {
+      "title": "Exclude unsupported effects",
+      "content": "A misstates the effect on inattentive consumers, B invents faster declines in service value, and C assumes the affected subscribers are already dissatisfied. The supported prediction is shorter average subscription duration, with remaining long-term subscribers more likely to be actively choosing the service. The answer is <strong>D</strong>."
+    }
+  ]
+}

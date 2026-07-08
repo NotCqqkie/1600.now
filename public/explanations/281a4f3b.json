@@ -1,19 +1,19 @@
 {
   "questionId": "281a4f3b",
-  "section": "Math",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Convert the percent decrease",
-      "content": "A $3\\%$ decrease means each year keeps $97\\%$ of the previous year's enrollment:<br/>$$1-0.03=0.97$$"
+      "title": "Find the yearly multiplier",
+      "content": "A $3\\%$ yearly decrease means the college keeps $97\\%$ of the previous year's enrollment:\n$$\n1-0.03=0.97\n$$"
     },
     {
-      "title": "Build the exponential model",
-      "content": "The initial enrollment in 2018 is $4{,}200$, and $x$ counts years after 2018. Use initial value times yearly multiplier:<br/>$$f(x)=4{,}200(0.97)^x$$"
+      "title": "Build the model",
+      "content": "The initial enrollment is $4{,}200$, and $x$ is the number of years after $2018$. Use the initial value times the yearly multiplier:\n$$\nf(x)=4{,}200(0.97)^x\n$$"
     },
     {
-      "title": "Match the choice",
-      "content": "<strong>Choice D &mdash; $f(x) = 4,200 \\times (0.97)^x$</strong> is the only function with initial value $4{,}200$ and decay factor $0.97$. Therefore, <strong>D</strong> is correct."
+      "title": "Match the function",
+      "content": "The matching choice has initial value $4{,}200$ and decay factor $0.97$. The answer is <strong>D</strong>."
     }
   ]
 }

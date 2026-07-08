@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the ticket count equation",
-      "content": "The aquarium sold a total of 300 tickets. With $s$ standard tickets and $p$ premium tickets: $$s + p = 300$$"
+      "title": "Write the ticket equation",
+      "content": "The aquarium sold $300$ total tickets. With $s$ standard tickets and $p$ premium tickets, the count equation is<br/>$$s+p=300$$"
     },
     {
-      "title": "Set up the revenue equation and identify the system",
-      "content": "Standard tickets cost 6 dollars and premium tickets cost 14 dollars. With 3,120 dollars total revenue: $$6s + 14p = 3,120$$ Our derived system, $s + p = 300$ and $6s + 14p = 3,120$, matches the correct answer: <strong>A</strong> is correct."
+      "title": "Write the revenue equation",
+      "content": "Standard tickets cost $6$ dollars each, and premium tickets cost $14$ dollars each. The revenue equation is<br/>$$6s+14p=3{,}120$$"
+    },
+    {
+      "title": "Match the system",
+      "content": "The needed system is<br/>$$s+p=300$$<br/>$$6s+14p=3{,}120$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

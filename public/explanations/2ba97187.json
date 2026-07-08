@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contradictory relationship",
-      "content": "The passage establishes that one <em>might assume</em> there's a real deep hole, but then reveals this is wrong — the artwork is <em>merely the illusion of depth.</em>"
+      "title": "Find the reversal",
+      "content": "The first sentence says viewers might assume a real deep hole has opened in the street. The next sentence reverses that assumption by explaining that Wenner created only an illusion of depth."
     },
     {
-      "title": "Match the transition to the reversal",
-      "content": "<strong>On the contrary</strong> signals that the second sentence contradicts the first, reversing assumption with reality. The others express addition, causation, or sequence—none signal contradiction. This matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject noncontrast signals",
+      "content": "Choice A signals addition, Choice C signals result, and Choice D signals sequence. The sentence needs a transition that corrects an initial impression."
+    },
+    {
+      "title": "Choose contradiction",
+      "content": "On the contrary signals that the second sentence contrasts the apparent hole with the reality of an illusion. The answer is <strong>B</strong>."
     }
   ]
 }

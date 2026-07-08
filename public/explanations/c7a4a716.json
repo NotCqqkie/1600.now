@@ -1,0 +1,23 @@
+{
+  "questionId": "c7a4a716",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite both equations",
+      "content": "Put the equations in standard form.\n$$16x-26y=8$$\n$$-8x+ty=\\frac{1}{5}$$\nFor no solution, the lines must be parallel but distinct."
+    },
+    {
+      "title": "Match the coefficients",
+      "content": "The second equation's $x$-coefficient is $$-\\frac{1}{2}$$ of the first equation's $x$-coefficient.\n$$-8=-\\frac{1}{2}(16)$$\nUse the same factor on the $y$-coefficient.\n$$t=-\\frac{1}{2}(-26)=13$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "With this value, the coefficients are proportional, but the constants are not because $$\\frac{1}{5}\\ne-\\frac{1}{2}(8)$$ The lines are parallel and distinct, so the system has no solution. The answer is <strong>13</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{16x - 8}{26}",
+        "y = \\frac{8x + 0.2}{13}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2e3a7411",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the upper bound",
+      "content": "The third side must be less than the sum of the other two sides:\n$$\nx<9+14\n$$\n$$\nx<23\n$$"
+    },
+    {
+      "title": "Find the lower bound",
+      "content": "The third side must also be greater than the difference of the other two sides:\n$$\nx>|14-9|\n$$\n$$\nx>5\n$$"
+    },
+    {
+      "title": "Combine the bounds",
+      "content": "Together, the possible side lengths satisfy\n$$\n5<x<23\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

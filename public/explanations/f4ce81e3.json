@@ -1,0 +1,15 @@
+{
+  "questionId": "f4ce81e3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on data specificity",
+      "content": "The second team concluded that Novak and Kerrigan's study had more specificity in its data. In the database, more data specificity corresponds to a higher detail rating."
+    },
+    {
+      "title": "Reject irrelevant ratings",
+      "content": "B concerns traceability, which measures procedure clarity rather than data specificity. C supports the conclusion by giving Novak and Kerrigan high detail. D supports the conclusion by giving Tanaka a low detail rating. A lower detail rating for Novak and Kerrigan would directly challenge the conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

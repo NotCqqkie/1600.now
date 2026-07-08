@@ -1,0 +1,19 @@
+{
+  "questionId": "0ff43d60",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the temperature",
+      "content": "Set the function equal to $18$.<br/>$$18=\\frac{25{,}000-7.5x}{1{,}000}$$"
+    },
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply by $1{,}000$.<br/>$$18{,}000=25{,}000-7.5x$$"
+    },
+    {
+      "title": "Find the altitude",
+      "content": "Move the constant term, then divide.<br/>$$7.5x=25{,}000-18{,}000=7{,}000$$<br/>$$x=\\frac{7{,}000}{7.5}$$<br/>This is about $933.33$, so the closest listed altitude is $933$ meters. The answer is <strong>B</strong>."
+    }
+  ]
+}

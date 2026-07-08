@@ -1,0 +1,15 @@
+{
+  "questionId": "85181067",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject of the sentence is the singular proper noun \"Valerie Hollister.\" The descriptive phrase about her works sits between the subject and verb but does not change the subject's number."
+    },
+    {
+      "title": "Use a singular passive verb",
+      "content": "B uses a plural present-tense verb, C uses a plural past-tense verb, and D uses a plural present-perfect verb. The passive construction needs a singular present-tense form before \"included.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e9c6088f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the nitrogen amount",
+      "content": "Each kilogram contains $500$ milligrams of nitrogen. For $x$ kilograms, the nitrogen amount is $500x$ milligrams."
+    },
+    {
+      "title": "Set it equal to the total",
+      "content": "The sample contains $1{,}500$ milligrams total, so the equation is:<br/>$$500x=1{,}500$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

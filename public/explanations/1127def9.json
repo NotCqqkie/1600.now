@@ -1,0 +1,15 @@
+{
+  "questionId": "1127def9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the perimeter",
+      "content": "The rectangle has length $x+28$ and width $x$, so its perimeter is<br/>$$2(x+28)+2x=4x+56$$"
+    },
+    {
+      "title": "Translate the phrase",
+      "content": "The phrase <em>at least 456</em> means the perimeter is greater than or equal to $456$.<br/>$$4x+56\\ge456$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d7e2a211",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the isolation timelines",
+      "content": "Neon was isolated the same year scientists discovered it, while erbium was isolated 91 years after discovery. The relationship between the sentences is contrast between a quick process and a much slower one."
+    },
+    {
+      "title": "Reject noncontrast signals",
+      "content": "Choice A signals an example of the same pattern, but erbium shows the opposite pattern. Choice C signals a consequence, though no causal link is given. Choice D signals similarity, which contradicts the timeline contrast. The answer is <strong>B</strong>."
+    }
+  ]
+}

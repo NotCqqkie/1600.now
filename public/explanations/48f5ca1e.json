@@ -1,0 +1,19 @@
+{
+  "questionId": "48f5ca1e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the inputs",
+      "content": "The function $s(t)$ gives the mass that remains after $t$ years. Therefore, $s(58)$ describes the remaining mass after $58$ years.",
+      "desmosExpressions": [
+        "y = 184 \\cdot 0.5^{x/29}",
+        "(58, 46)"
+      ]
+    },
+    {
+      "title": "Interpret the statement",
+      "content": "The statement $s(58)=46$ means the remaining mass is $46$ grams when the time is $58$ years.\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

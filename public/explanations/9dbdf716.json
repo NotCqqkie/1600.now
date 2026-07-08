@@ -1,0 +1,15 @@
+{
+  "questionId": "9dbdf716",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Restate the voting rule",
+      "content": "The first sentence says Malaysia uses a single-member plurality voting system. The next sentence explains what that means: candidates are elected when they receive a plurality, or greatest number, of votes."
+    },
+    {
+      "title": "Reject non-restatements",
+      "content": "B suggests simultaneous events, C signals concession or contrast, and D adds another point. The second sentence is not a new event, contrast, or addition; it restates the meaning of the voting system just named. The answer is <strong>A</strong>."
+    }
+  ]
+}

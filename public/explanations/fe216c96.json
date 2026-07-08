@@ -1,0 +1,15 @@
+{
+  "questionId": "fe216c96",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the surfactant finding",
+      "content": "The question asks what Chen and colleagues discovered about surfactants. The final sentence says surfactants are released from microplastics and have a much stronger wave-reducing effect than microplastic particles alone can explain."
+    },
+    {
+      "title": "Remove unsupported effects",
+      "content": "Choice A invents using surfactants to contain microplastics. Choice B invents a water-based composition. Choice D invents a cleanup role. The remaining choice states the reported stronger effect on wave activity. The answer is <strong>C</strong>."
+    }
+  ]
+}

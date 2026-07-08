@@ -1,0 +1,15 @@
+{
+  "questionId": "50162f48",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the cost-benefit logic",
+      "content": "Optimal foraging theory says animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and ecological circumstance. The text gives lunar intensity as one such circumstance. Higher lunar intensity is negatively associated with European badger foraging but positively associated with Azara's night monkey foraging. The explanation is that the monkeys rely more heavily on vision, so brighter lunar conditions provide them with a larger benefit than they provide to badgers."
+    },
+    {
+      "title": "Reject unsupported hypotheticals",
+      "content": "Choice A wrongly claims the monkeys' behavior should resemble badgers' behavior, even though the text explains why the two species respond differently. Choice B extends the visual benefit to species that are not heavily reliant on vision, which the text does not support. Choice C predicts no association under a hypothetical about equal costs, but the passage does not establish that result. If brighter conditions increase monkey foraging, any disadvantages are outweighed by the visual advantages. The answer is <strong>D</strong>."
+    }
+  ]
+}

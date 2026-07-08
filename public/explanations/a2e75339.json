@@ -1,0 +1,15 @@
+{
+  "questionId": "a2e75339",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the given slope",
+      "content": "Rewrite line $s$.<br/>$$8x+2y=0$$<br/>$$y=-4x$$"
+    },
+    {
+      "title": "Use perpendicular slope",
+      "content": "Use slope $\\frac{1}{4}$.<br/>$$\\frac{\\frac{5}{4}}{k-7}=\\frac{1}{4}$$<br/>$$k=12$$<br/>The answer is <strong>12</strong>."
+    }
+  ]
+}

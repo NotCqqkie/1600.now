@@ -1,0 +1,22 @@
+{
+  "questionId": "cd814e61",
+  "correctAnswer": "16,12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(x - 16)(x - 12)(x + 5)(x + 13) = 0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $16$ or $12$.",
+      "desmosExpressions": [
+        "(x - 16)(x - 12)(x + 5)(x + 13) = 0"
+      ]
+    },
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $(x-16)(x-12)(x+5)(x+13)=0$ to zero: $x=16$, $x=12$, $x=-5$, and $x=-13$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "The positive solutions are $16$ and $12$. The answer is <strong>16</strong> or <strong>12</strong>."
+    }
+  ]
+}

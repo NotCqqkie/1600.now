@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "Sentence 1 states Alvarez&rsquo;s empirical finding: common pool resources <em>can</em> be sustainably managed by their users. Sentence 2 states that Alvarez&rsquo;s work repudiates the &ldquo;tragedy of the commons&rdquo; &mdash; the theory that users will inevitably overexploit shared resources. The second sentence is a <strong>logical consequence</strong> of the first: if sustainable management is possible, then the theory predicting inevitable failure must be wrong. The blank must signal cause-and-effect or logical conclusion."
+      "title": "Connect finding to conclusion",
+      "content": "The first sentence says common pool resources can be sustainably managed by the people who use them. The next sentence says Alvarez's work repudiates the tragedy of the commons because that theory predicts inevitable overexploitation."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each option:\n<ul><li><strong>Choice A &mdash; By contrast,</strong>: signals that sentence 2 opposes sentence 1. But sentence 2 flows directly from sentence 1 &mdash; it does not present an opposing view. Violates the contrast rule. &#10007;</li><li><strong>Choice B &mdash; For example,</strong>: signals that sentence 2 is an illustration of sentence 1. Repudiating a theory is a conclusion, not an example of empirically demonstrating sustainable management. Violates the exemplification rule. &#10007;</li><li><strong>Choice C &mdash; That said,</strong>: signals a concession or caveat &mdash; acknowledging something but then qualifying it. Sentence 2 does not qualify sentence 1; it builds on it. Violates the concession rule. &#10007;</li><li><strong>Choice D &mdash; As such,</strong>: means &ldquo;consequently&rdquo; or &ldquo;therefore,&rdquo; signaling that what follows is a logical result of what preceded. Alvarez&rsquo;s evidence of sustainable management necessarily refutes the theory of inevitable overexploitation. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject wrong transitions",
+      "content": "A signals contrast, B introduces an example, and C introduces a concession. The second sentence is a logical result of the first: evidence of sustainable management refutes a theory of inevitable overuse. The answer is <strong>D</strong>."
     }
   ]
 }

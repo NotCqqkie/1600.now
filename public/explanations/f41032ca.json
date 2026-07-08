@@ -1,0 +1,15 @@
+{
+  "questionId": "f41032ca",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply like bases",
+      "content": "Multiply the coefficients and add the exponents on the common base $x$.\n$$(7x^3)(4x^5)=(7\\cdot4)x^{3+5}$$"
+    },
+    {
+      "title": "Compare coefficients",
+      "content": "The expression becomes $28x^8$. Since it is equivalent to $bx^8$, the coefficient $b$ is the same coefficient. The answer is <strong>28</strong>."
+    }
+  ]
+}

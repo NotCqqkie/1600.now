@@ -1,0 +1,19 @@
+{
+  "questionId": "dde4e8d4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Subtract $7c$ from both sides of the equation:<br/>$$b^2+7c=4d$$<br/>$$b^2=4d-7c$$"
+    },
+    {
+      "title": "Check the radical value",
+      "content": "The condition $$d>\\frac{7}{4}c$$ makes the expression under the radical positive:<br/>$$4d>7c$$<br/>$$4d-7c>0$$"
+    },
+    {
+      "title": "Include both signs",
+      "content": "A positive number has both a positive and a negative square root, so:<br/>$$b=\\pm\\sqrt{4d-7c}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

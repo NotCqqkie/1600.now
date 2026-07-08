@@ -1,0 +1,15 @@
+{
+  "questionId": "ab1e3ca6",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the equal parts",
+      "content": "Let each equal part be $x$ centimeters. The parts add to $127$ centimeters.<br/>$$55+2x=127$$"
+    },
+    {
+      "title": "Solve for one part",
+      "content": "Subtract $55$, then divide by $2$.<br/>$$2x=127-55$$<br/>$$2x=72$$<br/>$$x=36$$<br/>The answer is <strong>36</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "143a2a90",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write total earnings",
+      "content": "The team earns $15$ dollars per coupon book. If it sells $n$ books, the total earnings are $15n$."
+    },
+    {
+      "title": "Use at least",
+      "content": "The phrase <em>at least</em> means greater than or equal to. The goal is $1{,}560$ dollars, so the inequality is\n$$\n15n\\ge1{,}560\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

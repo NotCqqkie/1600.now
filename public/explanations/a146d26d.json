@@ -1,0 +1,27 @@
+{
+  "questionId": "a146d26d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the multiplier",
+      "content": "The choices all have the form $f(x)=kx$, so use one table row to find $k$:\n$$\nk=\\frac{1{,}008}{560}=1.8\n$$",
+      "desmosExpressions": [
+        "x_1=[560,840]",
+        "y_1=[1008,1512]",
+        "y=1.8x"
+      ]
+    },
+    {
+      "title": "Check another row",
+      "content": "Confirm with the other listed value:\n$$\n1.8(840)=1{,}512\n$$\nSo the function can be $f(x)=1.8x$."
+    },
+    {
+      "title": "Match the equation",
+      "content": "The equation $f(x)=1.8x$ uses the correct gallons-per-square-foot multiplier. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "f(x) = 1.8x"
+      ]
+    }
+  ]
+}

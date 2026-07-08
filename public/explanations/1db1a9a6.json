@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the evidence should show",
-      "content": "The researchers concluded nitrogen fertilizer increases yield. Supporting evidence must demonstrate that nitrogen outperformed the control condition."
+      "title": "Compare fertilizer groups",
+      "content": "The researchers concluded that nitrogen fertilizer increases cantaloupe yield. The strongest support must compare the nitrogen-treated plants with the control plants in each year, not just describe one year or one group alone."
     },
     {
-      "title": "Check which choice shows this pattern",
-      "content": "<strong>Choice B &mdash; In every year of the experiment, plants treated with the nitrogen fertilizer had a greater yield than did plants treated with the control fertilizer.</strong> states that in every year, nitrogen yield exceeded control yield.<br/><br/>The graph confirms this: 2017 ($34 \\gt  23$), 2018 ($41 \\gt  31$), 2019 ($27 \\gt  19$).<br/><br/>This consistent pattern directly supports the researchers' conclusion about nitrogen's effectiveness.<br/><br/><strong>Choice A &mdash; In every year of the experiment, plants treated with the nitrogen fertilizer had a yield of at least 30 pounds per acre.</strong> fails at 2019 ($27 \\lt 30$), while choices C and D describe isolated observations unrelated to the core comparison. That matches <strong>Choice B &mdash; In every year of the experiment, plants treated with the nitrogen fertilizer had a greater yield than did plants treated with the control fertilizer.</strong>."
+      "title": "Use the consistent pattern",
+      "content": "A is false because the nitrogen yield drops below 30 in 2019. C conflicts with the conclusion, and D lacks a control comparison. The graph supports the conclusion by showing nitrogen yields above control yields every year. The answer is <strong>B</strong>."
     }
   ]
 }

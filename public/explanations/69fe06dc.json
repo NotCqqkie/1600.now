@@ -1,0 +1,15 @@
+{
+  "questionId": "69fe06dc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the example list",
+      "content": "The sentence says geothermal plants use an array of technologies, then gives three examples: one in Indonesia, one in Iceland, and one in the US."
+    },
+    {
+      "title": "Place the colon before examples",
+      "content": "A creates a comma splice, C wrongly ties the whole array to Indonesia, and D uses a semicolon where a list introduction is needed. The punctuation must open the full series, not only the first location. A colon after \"technologies\" correctly introduces the examples. The answer is <strong>B</strong>."
+    }
+  ]
+}

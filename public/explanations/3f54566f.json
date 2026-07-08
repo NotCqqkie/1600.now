@@ -1,0 +1,15 @@
+{
+  "questionId": "3f54566f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Weight each question type",
+      "content": "The question asks for total quiz points, so count the point value contributed by each type, not just the number of questions. Each $1$-point question contributes $1x$ points, and each $2$-point question contributes $2y$ points."
+    },
+    {
+      "title": "Model the total points",
+      "content": "The quiz is worth $84$ points total, so add the point contributions.<br/>$$x+2y=84$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

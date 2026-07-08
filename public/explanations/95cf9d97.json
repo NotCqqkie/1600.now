@@ -1,0 +1,15 @@
+{
+  "questionId": "95cf9d97",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the complex series",
+      "content": "The sentence lists three destinations: Wellington, Walgett, and Moree. Each destination includes a 'where' phrase with its own comma, so semicolons should separate the list items."
+    },
+    {
+      "title": "Reject weak separators",
+      "content": "Choice A lacks the semicolon before the third destination and misplaces one before the final 'where' phrase. Choice C uses only a comma before the last item. Choice D uses a colon inside the series. The remaining choice keeps the complex series consistently separated. The answer is <strong>B</strong>."
+    }
+  ]
+}

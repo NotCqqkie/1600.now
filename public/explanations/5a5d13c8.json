@@ -1,0 +1,15 @@
+{
+  "questionId": "5a5d13c8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the expression",
+      "content": "The expression inside the square can be combined into one fraction.\n$$\\frac{1}{2}x-\\frac{37}{2}=\\frac{x-37}{2}$$\nSo the equation becomes\n$$\\bigl(\\frac{x-37}{2}\\bigr)^2-81=0$$"
+    },
+    {
+      "title": "Isolate the target expression",
+      "content": "Move $81$ to the other side and multiply by $4$.\n$$\\bigl(\\frac{x-37}{2}\\bigr)^2=81$$\n$$\\frac{(x-37)^2}{4}=81$$\n$$(x-37)^2=324$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

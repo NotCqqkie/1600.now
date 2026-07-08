@@ -1,0 +1,15 @@
+{
+  "questionId": "c3d553ee",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The sentence already has a main verb: <em>consist</em>. The blank appears between the subject, <em>Trisyllabic words</em>, and the rest of the sentence. It should modify the subject, not create another finite verb phrase that competes with the main verb."
+    },
+    {
+      "title": "Use a participle modifier",
+      "content": "The participle <em>classified</em> works as a modifier in the phrase <em>words classified as dactyls</em>. B, C, and D each add a finite verb phrase before <em>consist</em>, leaving the sentence with two competing main verbs. Only the modifier form keeps the sentence grammatical. The answer is <strong>A</strong>."
+    }
+  ]
+}

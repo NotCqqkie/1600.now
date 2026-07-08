@@ -1,0 +1,15 @@
+{
+  "questionId": "12e74f32",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the curing process",
+      "content": "The notes describe DLS as a sequence: UV light images are projected into liquid resin, additional layers are partially cured while resin flows through the dead zone, and the completed object is baked in an oven to finish curing."
+    },
+    {
+      "title": "Choose the accurate summary",
+      "content": "Choice A makes DLS itself seem to pass through the dead zone. Choice B says curing is completed in the dead zone. Choice D is awkward and imprecise about what is baked. The choice that accurately states UV layer-by-layer curing followed by oven baking fits the notes. The answer is <strong>C</strong>."
+    }
+  ]
+}

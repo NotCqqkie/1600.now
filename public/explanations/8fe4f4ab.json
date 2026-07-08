@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The student&rsquo;s stated goal is to explain how the House of Wisdom preserved knowledge &mdash; the method or process, not just the fact that it existed or who worked there. The correct answer must trace the steps or mechanism of preservation."
+      "title": "Use the student's goal",
+      "content": "The student wants to explain how the House of Wisdom preserved knowledge. The relevant notes show a process: scholars collected texts, translated them into Arabic, and used papermaking technology to create versions that could be studied and shared."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The House of Wisdom was known for bringing together knowledge from around the world, including from Greece, India, and China.</strong>: This mentions sources of knowledge but does not explain the preservation process &mdash; what was done with those texts once collected. &#10007;</li><li><strong>Choice B &mdash; Founded in Iraq in the eighth century, the House of Wisdom employed many scholars as translators.</strong>: This introduces the scholars but describes their role only vaguely and omits the full chain of steps (collection, translation, paper versions) that constitute preservation. &#10007;</li><li><strong>Choice C &mdash; Writings from the Greek philosopher Aristotle and the Indian mathematician Aryabhata were preserved at the House of Wisdom.</strong>: This names specific examples of preserved texts but never explains how preservation happened. &#10007;</li><li><strong>Choice D &mdash; The House of Wisdom collected writings from different countries and created paper versions in Arabic to be studied and shared.</strong>: This traces the actual process: collect texts $\\Rightarrow$ translate into Arabic $\\Rightarrow$ create paper copies for study and distribution. That directly explains how preservation was accomplished. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Choose the process sentence",
+      "content": "A names regions but not the preservation method. B mentions translators but omits collection and paper copies. C gives examples of preserved writings without explaining how preservation happened. The remaining choice traces the actual process from gathered writings to Arabic paper versions for study and sharing. The answer is <strong>D</strong>."
     }
   ]
 }

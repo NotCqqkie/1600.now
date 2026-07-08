@@ -1,0 +1,15 @@
+{
+  "questionId": "42d30ee4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested count",
+      "content": "The goal is to specify the number of merchant ships in Saudi Arabia in 2021. The relevant note gives that number directly: 392 merchant ships were registered there in 2021."
+    },
+    {
+      "title": "Reject noncount details",
+      "content": "A and B give the combined deadweight tonnage, not the ship count. C defines deadweight tonnage and gives no number of ships. The correct response must state the 392-ship count. The answer is <strong>D</strong>."
+    }
+  ]
+}

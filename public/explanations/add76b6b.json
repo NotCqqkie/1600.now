@@ -1,0 +1,19 @@
+{
+  "questionId": "add76b6b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Name the repeated binomial",
+      "content": "Let $u=x+5$ so the repeated binomial is treated as one expression. The original expression becomes<br/>$$u^2+16u+64$$This keeps the structure unchanged while making the square pattern easier to see."
+    },
+    {
+      "title": "Recognize the square pattern",
+      "content": "The middle term is twice the product of $u$ and $8$, and the last term is $8^2$. So the trinomial is a perfect square.<br/>$$u^2+16u+64=(u+8)^2$$"
+    },
+    {
+      "title": "Substitute back",
+      "content": "Replace $u$ with $x+5$ to return to the original variable.<br/>$$(u+8)^2=(x+5+8)^2=(x+13)^2$$The answer is <strong>A</strong>."
+    }
+  ]
+}

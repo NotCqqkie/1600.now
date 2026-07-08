@@ -1,0 +1,15 @@
+{
+  "questionId": "c092e403",
+  "correctAnswer": "-43",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The condition $f(1/3)=-47$ means substitute $x=1/3$ into $f(x)=-12x+b$.<br/>$$-12(1/3)+b=-47$$"
+    },
+    {
+      "title": "Isolate the constant",
+      "content": "Simplify the product, then add $4$ to both sides.<br/>$$-4+b=-47$$<br/>$$b=-47+4$$<br/>$$b=-43$$<br/>The answer is <strong>-43</strong>."
+    }
+  ]
+}

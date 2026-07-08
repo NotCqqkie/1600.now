@@ -1,0 +1,15 @@
+{
+  "questionId": "3b740de3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for the amount",
+      "content": "The goal is to specify how much vitamin C blackberries contain. The relevant note is the measurement: every 100 g of blackberries contains 21 mg of ascorbic acid, which is vitamin C."
+    },
+    {
+      "title": "Keep the quantity",
+      "content": "A discusses animals, C explains why humans need vitamin C, and D says only that blackberries contain it; none gives the amount. The sentence with 21 mg per 100 g directly fulfills the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

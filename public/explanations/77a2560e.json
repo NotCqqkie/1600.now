@@ -1,0 +1,15 @@
+{
+  "questionId": "77a2560e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare sinuosity",
+      "content": "The notes define curviness as the ratio of stream length to valley length. They also say the Embarras River has high sinuosity and the Luni River has low sinuosity."
+    },
+    {
+      "title": "State the actual comparison",
+      "content": "Choice A reverses the rivers' sinuosity categories. Choice C explains how curviness is determined without comparing the rivers. Choice D describes the calculation method without stating which river is curvier. The remaining choice makes the needed comparison. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph both equations",
-      "content": "This is an intersection-count question, so the fastest route is to graph both equations in Desmos. The line $y=18$ sits above the entire parabola.",
+      "title": "Use the vertex",
+      "content": "The parabola $y=-3(x-18)^2+15$ opens downward and has vertex $(18,15)$. Since it opens downward, its greatest possible $y$-value is $15$.",
       "desmosExpressions": [
         "y=18",
         "y=-3(x-18)^2+15"
       ]
     },
     {
-      "title": "Use the vertex shortcut",
-      "content": "The parabola $y=-3(x-18)^2+15$ opens downward and has vertex $(18,15)$. Since it opens downward, its greatest possible $y$-value is $15$."
-    },
-    {
-      "title": "Compare to the horizontal line",
-      "content": "The horizontal line is $y=18$, which is above the maximum $y$-value of the parabola. Therefore, the graphs never intersect."
-    },
-    {
-      "title": "Check the choices",
-      "content": "There are zero intersection points, so <strong>D</strong> is correct."
+      "title": "Compare the line",
+      "content": "The horizontal line is $y=18$, which is above the parabola's maximum value of $15$. The two graphs never intersect, so there are zero intersection points. The answer is <strong>D</strong>."
     }
   ]
 }

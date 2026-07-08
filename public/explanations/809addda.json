@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the function of the underlined lines within the poem as a whole. The opening stanza establishes the speaker wandering in &ldquo;alien lands&rdquo;. The underlined lines shift inward: &ldquo;But in my soul&rdquo;, &ldquo;The eastern billows roll&mdash;&rdquo;, and &ldquo;I hear the voices of my native strands.&rdquo; The correct answer must describe what those internal images do for the poem."
+      "title": "Connect travel to homeland",
+      "content": "The question asks for the function of the underlined lines within the poem as a whole. The opening stanza establishes the speaker wandering in \"alien lands\". The underlined lines shift inward: \"But in my soul\", \"The eastern billows roll—\", and \"I hear the voices of my native strands.\" The correct answer must describe what those internal images do for the poem."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It establishes that the speaker's enthusiasm about current travels conflicts with the growing urge to return home.&rsquo;</strong>: the opening stanza does not express enthusiasm; it describes alien lands where Nature yields to Man, implying detachment or critique. No enthusiasm is present to conflict with anything. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It illustrates the speaker's uncertainty about maintaining strong links with relatives in distant places.&rsquo;</strong>: the underlined lines mention &ldquo;native strands&rdquo; (homeland), not family members or relational ties. Relatives are never referenced. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It conveys the speaker's sense of feeling a pull toward home while traveling in an unfamiliar place.&rsquo;</strong>: matches precisely &mdash; the rolling &ldquo;eastern billows&rdquo; in the soul and the voices of &ldquo;native strands&rdquo; express an emotional draw toward the homeland while the speaker is abroad. &#10003;</li><li><strong>Choice D &mdash; &lsquo;It reveals that upon returning after an extended absence, the speaker longs for the way a location once felt.&rsquo;</strong>: the speaker has not returned home; the poem explicitly states &ldquo;I wander among the hills of alien lands&rdquo;, meaning the speaker is still abroad. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'It establishes that the speaker's enthusiasm about current travels conflicts with the growing urge to return home.'</strong>: the opening stanza does not express enthusiasm; it describes alien lands where Nature yields to Man, implying detachment or critique. No enthusiasm is present to conflict with anything.</li><li><strong>Choice B — 'It illustrates the speaker's uncertainty about maintaining strong links with relatives in distant places.'</strong>: the underlined lines mention \"native strands\" (homeland), not family members or relational ties. Relatives are never referenced.</li></ul>"
+    },
+    {
+      "title": "Rule out the remaining choices",
+      "content": "<ul><li><strong>Choice D — 'It reveals that upon returning after an extended absence, the speaker longs for the way a location once felt.'</strong>: the speaker has not returned home; the poem explicitly states \"I wander among the hills of alien lands\", meaning the speaker is still abroad.</li></ul>"
+    },
+    {
+      "title": "Choose the pull toward home",
+      "content": "<ul><li><strong>Choice C — 'It conveys the speaker's sense of feeling a pull toward home while traveling in an unfamiliar place.'</strong>: matches precisely — the rolling \"eastern billows\" in the soul and the voices of \"native strands\" express an emotional draw toward the homeland while the speaker is abroad.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c2e0ec52",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "At birth, $x=0$ months and the seal's length was $85$ centimeters. That is the constant term in the linear model."
+    },
+    {
+      "title": "Use the monthly rate",
+      "content": "The length increases by $3.2$ centimeters per month, so the coefficient of $x$ is $3.2$.\n$$y=3.2x+85$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

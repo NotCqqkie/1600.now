@@ -1,0 +1,15 @@
+{
+  "questionId": "14a1c110",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make and support the claim",
+      "content": "The goal is not just to say kale is a better source of vitamin C than blueberries. The response also needs evidence from the notes showing the vitamin C amounts."
+    },
+    {
+      "title": "Use the two vitamin amounts",
+      "content": "A says both foods contain ascorbic acid, C gives the claim without evidence, and D explains why humans need vitamin C. The comparison using 120 mg for kale and 10 mg for blueberries supports the claim directly. The answer is <strong>B</strong>."
+    }
+  ]
+}

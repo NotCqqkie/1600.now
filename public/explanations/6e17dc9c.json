@@ -1,0 +1,15 @@
+{
+  "questionId": "6e17dc9c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the inner function",
+      "content": "First find the input that goes into the outer function:\n$$\ng(-8)=|11(-8)-5|=|-93|=93\n$$"
+    },
+    {
+      "title": "Substitute into the outer function",
+      "content": "Now use $f(x)=6(g(x))-4$ with that value:\n$$\nf(-8)=6(93)-4=558-4=554\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

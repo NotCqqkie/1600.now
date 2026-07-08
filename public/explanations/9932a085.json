@@ -1,0 +1,15 @@
+{
+  "questionId": "9932a085",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read both country trends",
+      "content": "From 1995 to 2007, the Czech Republic's employment in agriculture, hunting, and forestry drops sharply. Austria's numbers change only slightly by comparison, so the graph supports a decrease in one country while the other remains relatively steady."
+    },
+    {
+      "title": "Avoid unsupported graph claims",
+      "content": "The graph gives raw employment counts, not each country's total workforce, so A cannot be supported. C incorrectly says both countries were stable, and D reverses the Czech Republic trend by saying employment increased. The choice describing a Czech decrease and relative Austrian steadiness matches the graph. The answer is <strong>B</strong>."
+    }
+  ]
+}

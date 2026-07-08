@@ -1,0 +1,19 @@
+{
+  "questionId": "d8d7627e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed generalization",
+      "content": "The student wants a generalization about how word order is used across languages. The useful note is that 87% of languages are classified as either SVO or SOV."
+    },
+    {
+      "title": "Connect the shared pattern",
+      "content": "Both SVO and SOV orders place the subject before the verb and object. Since those two categories include 87% of the world's languages, the notes support a broad claim about the majority of languages."
+    },
+    {
+      "title": "Avoid definitions and methods",
+      "content": "Choices A and B focus on linguistic typologists' classification work, and Choice C only defines word order. The remaining choice states the supported usage pattern. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "31fe22e2",
+  "correctAnswer": "32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Move all terms to one side so the equation is written as a quadratic in $x$.\n\n$$nx^2-18x=24x^2-9$$\n\n$$(n-24)x^2-18x+9=0$$"
+    },
+    {
+      "title": "Use the discriminant condition",
+      "content": "For two distinct real solutions, the discriminant must be positive.\n\n$$(-18)^2-4(n-24)(9)>0$$\n\n$$324-36(n-24)>0$$\n\n$$324-36n+864>0$$\n\n$$1188-36n>0$$\n\n$$n<33$$"
+    },
+    {
+      "title": "Choose the greatest integer",
+      "content": "The value of $n$ must be an integer less than $33$. The greatest integer with that property is $32$.\n\nThe answer is <strong>32</strong>."
+    }
+  ]
+}

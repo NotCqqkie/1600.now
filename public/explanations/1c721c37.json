@@ -1,0 +1,15 @@
+{
+  "questionId": "1c721c37",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute one expression",
+      "content": "Let $u$ represent the expression the question asks for:\n$$u=5-7x$$\nThen the equation becomes\n$$8u+3=7u+17$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Move the $u$ terms to one side and the constants to the other:\n$$8u+3=7u+17$$\n$$u+3=17$$\n$$u=14$$\nSince $u=5-7x$, the value of the requested expression is $14$. The answer is <strong>D</strong>."
+    }
+  ]
+}

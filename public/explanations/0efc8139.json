@@ -1,0 +1,15 @@
+{
+  "questionId": "0efc8139",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $b(x)=x+1$. Use $x=8$ in the expression.<br/>$$b(8)=8+1$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Add the two terms to evaluate the function at the requested input.<br/>$$8+1=9$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

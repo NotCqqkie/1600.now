@@ -1,0 +1,15 @@
+{
+  "questionId": "d35db26a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the requested institution",
+      "content": "The student wants to identify where Bucky is housed. The relevant note names the Children's Museum of Indianapolis, so the answer must give that institution rather than only describing the fossil."
+    },
+    {
+      "title": "Reject incomplete details",
+      "content": "A identifies Bucky as a Tyrannosaurus specimen. B gives its time period, and C gives only the city. None of those directly names the housing institution. The answer is <strong>D</strong>."
+    }
+  ]
+}

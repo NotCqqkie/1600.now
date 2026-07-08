@@ -1,0 +1,19 @@
+{
+  "questionId": "c1515dd6",
+  "correctAnswer": "121",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the point at zero",
+      "content": "Since $$(0,-\\sqrt{363})$$ is on the graph,\n$$h(0)=-\\sqrt{c}=-\\sqrt{363}$$\nThus $$c=363$$"
+    },
+    {
+      "title": "Use the zero at three",
+      "content": "Since $(3,0)$ is on the graph, the expression under the radical must be $0$ when $$x=3$$\n$$3^2+3b+363=0$$\n$$9+3b+363=0$$\n$$b=-124$$"
+    },
+    {
+      "title": "Find the other zero",
+      "content": "Now $$h(m)=0$$ means\n$$m^2-124m+363=0$$\nOne solution is $$m=3$$ By the product of roots,\n$$3m=363$$\n$$m=121$$\nThe answer is <strong>121</strong>."
+    }
+  ]
+}

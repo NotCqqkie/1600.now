@@ -1,0 +1,15 @@
+{
+  "questionId": "d3721c7c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the transition inside the sentence",
+      "content": "The word 'however' interrupts the main sentence to mark a contrast, and the 'since' clause then explains why few particles reach Earth's surface. A parenthetical transition inside a sentence needs commas on both sides."
+    },
+    {
+      "title": "Reject broken boundaries",
+      "content": "Choice A uses a colon before the transition even though no explanation follows the colon. Choice C creates a new sentence that starts with a stranded dependent clause. Choice D puts a semicolon before the 'since' clause, which is not independent. The answer is <strong>B</strong>."
+    }
+  ]
+}

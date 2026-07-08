@@ -1,0 +1,15 @@
+{
+  "questionId": "fb0dc082",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the side lengths",
+      "content": "The triangle has one side of length $x$ and two sides of length $y$, so its perimeter is:<br/>$$x+y+y=x+2y$$"
+    },
+    {
+      "title": "Set the perimeter",
+      "content": "The perimeter is $69$ inches, so the equation is:<br/>$$x+2y=69$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

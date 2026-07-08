@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the mean of data set A",
-      "content": "Sum all values: $72 + 73 + 73 + 76 + 76 = 370$. Divide by 5: $$\\frac{370}{5} = 74$$"
+      "title": "Find the first mean",
+      "content": "Add the values in data set A and divide by $5$:\n$$\\frac{72+73+73+76+76}{5}=\\frac{370}{5}=74$$"
     },
     {
-      "title": "Set the means equal",
-      "content": "The mean of data set B is $$\\frac{61 + 64 + 74 + 85 + x}{5} = \\frac{284 + x}{5}$$. Since both means must be equal: $$\\frac{284 + x}{5} = 74$$"
+      "title": "Set the second mean equal",
+      "content": "Data set B must also have mean $74$:\n$$\\frac{61+64+74+85+x}{5}=74$$\n$$\\frac{284+x}{5}=74$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Multiply both sides by $5$: $$284+x=370$$ Subtract $284$: $$x=86$$ In Desmos, you can enter the two means as a single equation and solve the missing value directly. That confirms <strong>C</strong> is correct.",
+      "title": "Solve for the missing value",
+      "content": "Multiply by $5$, then subtract $284$:\n$$284+x=370$$\n$$x=86$$\nThe answer is <strong>C</strong>.",
       "desmosExpressions": [
         "\\operatorname{mean}\\left([72,73,73,76,76]\\right)=\\operatorname{mean}\\left([61,64,74,85,x]\\right)"
       ]

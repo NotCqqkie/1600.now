@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage states volunteering helps society overall. But the survey contradicts this perception: most young people recognize only individual benefits, while only 6% see societal value. This gap between what <em>is</em> true and what most young people <em>believe</em> is the decisive clue."
+      "title": "Compare benefit and belief",
+      "content": "The passage states that volunteering benefits society overall, but the survey shows most youths recognize only individual benefits. Only 6% said volunteering helps fix broader social problems, so many young people are missing part of volunteering's value."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>volunteering may be even more helpful than many young people think it is.</strong> works because the survey reveals young people underestimate volunteering's impact—only 6% see the societal benefit that the passage claims is real.<br/><br/>This gap means volunteering is more helpful than they think.<br/><br/>The others miss the mark: <ul><li>A treats individual/societal as geography (not the issue)</li><li>C invents a magnitude ranking not in the data</li><li>D shifts from perception to access barriers</li></ul><br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject unsupported shifts",
+      "content": "A shifts to where youths think they can volunteer, which the survey does not discuss. C ranks societal benefits above individual benefits, but the passage never compares their size. D shifts to finding opportunities, which is also outside the survey. The logical point is that volunteering has more value than many youths recognize. The answer is <strong>B</strong>."
     }
   ]
 }

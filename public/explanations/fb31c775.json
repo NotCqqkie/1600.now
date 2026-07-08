@@ -1,0 +1,23 @@
+{
+  "questionId": "fb31c775",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the discovery",
+      "content": "They found something never before seen in the fossil record is a complete clause. The next words, evidence of cloning, explain what that discovery was, so they need punctuation that introduces an explanation."
+    },
+    {
+      "title": "Avoid fragments and run-ons",
+      "content": "Choice A leaves Evidence of cloning in attached to the next sentence in a way that creates a fragment. Choice B uses a dash for the explanation but then runs into In clonal fragmentation without a clean sentence break. Choice C uses commas that do not clearly separate the explanation from the process sentence."
+    },
+    {
+      "title": "Keep the process sentence clean",
+      "content": "The phrase evidence of cloning should not absorb the following process description. Once the discovery is identified, the explanation of clonal fragmentation needs to begin as its own sentence."
+    },
+    {
+      "title": "Introduce then define",
+      "content": "A colon correctly introduces evidence of cloning as the thing never before seen in the fossil record. A period then starts a new sentence with In clonal fragmentation, which explains the asexual reproduction process. The answer is <strong>D</strong>."
+    }
+  ]
+}

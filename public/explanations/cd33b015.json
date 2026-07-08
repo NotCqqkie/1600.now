@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute and Simplify",
-      "content": "Given the equations $x + y = 18$ and $2(x + y) + 4y = 84$, start by substituting the value of $x + y$ from the first equation into the second.<br/>This gives us: <br/>&#160;&#160;&#160;$2(18) + 4y = 84$.<br/><br/>Simplify this equation to isolate $y$."
+      "title": "Substitute the known sum",
+      "content": "The first equation gives $x+y=18$. Substitute $18$ for $x+y$ in the second equation.<br/>$$2(18)+4y=84$$"
     },
     {
-      "title": "Solve for y",
-      "content": "From the simplified equation $36 + 4y = 84$, subtract 36 from both sides:<br/>&#160;&#160;&#160;$4y = 84 - 36$.<br/><br/>This simplifies to:\\<br/>&#160;&#160;&#160;$4y = 48$, and divide both sides by 4:<br/>&#160;&#160;&#160;$y = \\frac{48}{4} = 12$.<br/><br/>That is the correct answer, so <strong>B</strong> is correct."
+      "title": "Solve for the variable",
+      "content": "Simplify and isolate $y$.<br/>$$36+4y=84$$<br/>$$4y=48$$<br/>$$y=12$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

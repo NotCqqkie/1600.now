@@ -1,0 +1,15 @@
+{
+  "questionId": "69b63430",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support a net increase",
+      "content": "The researchers conclude that net CO<sub>2</sub> is likely to increase if warming causes earlier snow melt. A supporting finding must show early snow melt either reduces CO<sub>2</sub> absorption, increases CO<sub>2</sub> output, or both."
+    },
+    {
+      "title": "Reject unclear or opposite effects",
+      "content": "Choice A increases plant absorption and leaves respiration unchanged. Choice B suppresses respiration, which would reduce output. Choice D mentions stronger solar-radiation effects but does not show the net direction. The finding that reduces plant growth and raises heterotrophic respiration directly supports more net CO<sub>2</sub>. The answer is <strong>C</strong>."
+    }
+  ]
+}

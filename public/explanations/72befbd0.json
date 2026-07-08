@@ -1,0 +1,15 @@
+{
+  "questionId": "72befbd0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test latitude against prevalence",
+      "content": "The researchers conclude that the prevalence of deceptive antipredator displays is mediated by environmental variations associated with absolute latitude, independent of avian order. Strong support would show the trait's prevalence changing across latitude bands across the studied orders, not merely appearing within one bird order in the study or depending on typical ranges for a species."
+    },
+    {
+      "title": "Reject order-specific patterns",
+      "content": "Choice A makes one order independent of latitude and limits others to low latitudes. Choice C gives an order-specific pattern rather than a general latitude effect, and Choice D suggests most displays occur at low latitudes despite many species brooding at high latitudes. The supporting finding compares the same trait across low and high absolute-latitude bands across orders and shows higher prevalence at higher absolute latitude. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2e379c6c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Set up the narrative opening",
+      "content": "The prompt asks for the beginning of a narrative about one athlete. The sentence should focus on a single athlete, start near the beginning of that athlete's career, and use details from the notes without simply listing statistics."
+    },
+    {
+      "title": "Reject non-narrative options",
+      "content": "A splits the focus between Carter and Hill, C compares both athletes' career totals, and D describes Carter's career achievement after the fact. Those do not begin a story about one athlete's career. The answer is <strong>B</strong>."
+    }
+  ]
+}

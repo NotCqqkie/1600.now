@@ -1,0 +1,15 @@
+{
+  "questionId": "a69ff237",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare prey traits",
+      "content": "Text 2 explains different predation-relief results by focusing on prey traits: many studies that show prey increases involve small, rapidly reproducing animals, while mule deer are large and slowly reproducing. Arctic ground squirrels fit the small, rapidly reproducing pattern better than mule deer do."
+    },
+    {
+      "title": "Reject predator or uniqueness claims",
+      "content": "A shifts the explanation to predator size and reproduction, which Text 2 does not discuss. B invents a predator-to-prey size-ratio issue. C says the response is unique to arctic ground squirrels, but Text 2 says many other studies of small prey show increases. The supported explanation stays with prey characteristics: arctic ground squirrels are the kind of small, rapidly reproducing prey that Text 2 contrasts with large, slowly reproducing mule deer. The answer is <strong>D</strong>."
+    }
+  ]
+}

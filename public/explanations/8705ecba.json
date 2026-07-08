@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the sales tax amount",
-      "content": "Sales tax equals 8% of the original price. Calculate: $0.08 \\times 25 = 2$, so the sales tax is \\$2."
+      "title": "Calculate the sales tax",
+      "content": "The sales tax is $8\\%$ of the original price:\n$$0.08(25)=2$$\nSo the tax is $2$ dollars."
     },
     {
-      "title": "Add the tax to the original price",
-      "content": "Total cost equals the original price plus sales tax: $25 + 2 = 27$. The choices are dollar amounts, so the matching total is \\$27.00, not just the tax amount or the pre-tax price. The total cost is \\$27, so <strong>C</strong> is correct."
+      "title": "Add tax to the price",
+      "content": "Add the tax to the original cost:\n$$25+2=27$$\nThe total cost is $27.00$. The answer is <strong>C</strong>."
     }
   ]
 }

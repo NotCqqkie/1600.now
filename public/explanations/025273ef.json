@@ -1,0 +1,19 @@
+{
+  "questionId": "025273ef",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the series",
+      "content": "The sentence lists three pieces of fault data: length, slip rate, and most recent deformation. The measurements in parentheses belong directly after the first two listed items."
+    },
+    {
+      "title": "Reject faulty punctuation",
+      "content": "Choice B uses semicolons and stray commas for a simple series. Choice C separates labels from their measurements with unnecessary commas. Choice D runs the first two items together without needed punctuation."
+    },
+    {
+      "title": "Choose simple commas",
+      "content": "The version with length, slip rate, and most recent deformation uses commas correctly to separate the three items in the series. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Find the angle at R",
+      "content": "Since $QR$ is extended to $S$, angles $QRP$ and $PRS$ form a straight line. They are supplementary, so their measures add to $180^\\circ$. The angle at $R$ inside triangle $PQR$ is $180^\\circ-163^\\circ=17^\\circ$."
     },
     {
-      "title": "Find the interior angle at R using the linear pair",
-      "content": "Since $S$, $R$, and $Q$ are collinear, angles $\\angle QRP$ and $\\angle PRS$ form a linear pair on the line and are supplementary.<br/>$$\\angle QRP + \\angle PRS = 180^{\\circ}$$<br/>$$\\angle QRP = 180^{\\circ} - 163^{\\circ} = 17^{\\circ}$$"
-    },
-    {
-      "title": "Apply the angle sum property to find $\\angle QPR$",
-      "content": "The sum of all angles in triangle $PQR$ equals $180^{\\circ}$:<br/>$$\\angle QPR + \\angle PQR + \\angle QRP = 180^{\\circ}$$<br/>$$\\angle QPR + 132^{\\circ} + 17^{\\circ} = 180^{\\circ}$$<br/>$$\\angle QPR = 31^{\\circ}$$<br/>That matches <strong>Choice B &mdash; $31^\\circ$</strong>."
+      "title": "Use the triangle sum",
+      "content": "The angles in triangle $PQR$ sum to $180^\\circ$. Use the two known angle measures to find the remaining angle.<br/>$$180^\\circ-132^\\circ-17^\\circ=31^\\circ$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

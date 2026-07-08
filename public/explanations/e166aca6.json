@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "What is an x-intercept?",
-      "content": "An x-intercept occurs where the graph crosses the x-axis, meaning y = 0. We need to find the point(s) where the parabola meets the horizontal line y = 0."
+      "title": "Use the x-intercept definition",
+      "content": "An $x$-intercept is a point where the graph touches or crosses the $x$-axis. At that point, the $y$-coordinate is $0$."
     },
     {
-      "title": "Reading the graph: one touching point",
-      "content": "The parabola is a narrow upward-opening curve whose vertex sits directly on the x-axis at (4, 0). The curve is tangent to the x-axis at this single point — it touches but does not cross. There is exactly one x-intercept at x = 4."
+      "title": "Read the graph",
+      "content": "The parabola touches the $x$-axis at one point. The contact point is on the positive side of the axis, at the tick mark labeled $4$."
     },
     {
-      "title": "Identifying the correct choice",
-      "content": "Among the given choices, (4, 0) is the point where the parabola touches the x-axis.<br/><br/>Checking alternatives: $\\left(-5,0\\right)$ and $\\left(-4,0\\right)$ involve negative x-values not shown on the visible domain. The point $\\left(5,0\\right)$ is wrong because x = 5 lies on the rising right branch of the parabola, which is above the x-axis at that point — the curve does not pass through (5, 0).<br/><br/>The point (4, 0) matches the correct answer — <strong>D</strong> is correct."
+      "title": "Match the point",
+      "content": "The point with $x=4$ and $y=0$ is $(4,0)$. The answer is <strong>D</strong>."
     }
   ]
 }

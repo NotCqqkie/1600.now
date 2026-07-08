@@ -1,0 +1,15 @@
+{
+  "questionId": "b3065307",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each function",
+      "content": "Substitute $4$ into both functions:<br/>$$m(4)=4(4)+4=20$$<br/>$$p(4)=4-4=0$$"
+    },
+    {
+      "title": "Compute the expression",
+      "content": "Use those values in the requested expression:<br/>$$2m(4)-p(4)=2(20)-0=40$$<br/>The answer is <strong>40</strong>."
+    }
+  ]
+}

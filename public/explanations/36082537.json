@@ -1,0 +1,19 @@
+{
+  "questionId": "36082537",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the quadratic",
+      "content": "Expand the equation and move all terms to one side.<br/>$$x(kx-36)=-9$$<br/>$$kx^2-36x+9=0$$"
+    },
+    {
+      "title": "Require two real solutions",
+      "content": "A quadratic has two distinct real solutions when its discriminant is positive. Here, $a=k$, $b=-36$, and $c=9$.<br/>$$(-36)^2-4(k)(9)>0$$"
+    },
+    {
+      "title": "Find the greatest integer",
+      "content": "Solve the inequality.<br/>$$1{,}296-36k>0$$<br/>$$1{,}296>36k$$<br/>$$36>k$$<br/>The greatest integer less than $36$ is $35$. The answer is <strong>35</strong>."
+    }
+  ]
+}

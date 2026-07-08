@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert percent to fraction",
-      "content": "Fifty percent means 50 out of 100, which simplifies to the fraction $$\\frac{1}{2}$$.<br/>To find the number of seats occupied, multiply the total seats by this fraction."
+      "title": "Convert the percent",
+      "content": "$50\\%$ means one half of the total:<br/>$$50\\%=\\frac{50}{100}=\\frac{1}{2}$$"
     },
     {
-      "title": "Calculate half of 920",
-      "content": "$$\\frac{1}{2} \\times 920 = 460$$.<br/>That confirms <strong>C</strong> is correct."
+      "title": "Find half the seats",
+      "content": "Multiply the total number of seats by one half:<br/>$$\\frac{1}{2}\\cdot920=460$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

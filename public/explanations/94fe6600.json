@@ -1,0 +1,15 @@
+{
+  "questionId": "94fe6600",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate reputation from use",
+      "content": "The passage says Smith used the invisible hand metaphor only once for a narrow point and that the phrase became famous later because twentieth-century economists elevated it to support their own views. It also notes that the metaphor was largely ignored in Smith's own time."
+    },
+    {
+      "title": "Reject added endorsements",
+      "content": "Choice A endorses the metaphor as useful, which the passage does not do. Choice B overstates Smith's intent as a critique of mercantilism rather than a narrow point about it. Choice D says later economists recognized a genuinely robust model, but the passage says they promoted it to give their views an intellectual pedigree. The remaining choice explains that the metaphor's reputation comes from later promotion, not from its importance in Smith's work. The answer is <strong>C</strong>."
+    }
+  ]
+}

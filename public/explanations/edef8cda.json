@@ -1,0 +1,15 @@
+{
+  "questionId": "edef8cda",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the removed area",
+      "content": "The resulting area is the original area of rectangle $P$ minus the area that was removed."
+    },
+    {
+      "title": "Calculate the remaining area",
+      "content": "Subtract the removed area from the original area.<br/>$$56-30=26$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

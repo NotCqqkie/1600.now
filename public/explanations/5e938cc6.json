@@ -1,0 +1,15 @@
+{
+  "questionId": "5e938cc6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared purpose",
+      "content": "The student wants a similarity between mass fraction and mole fraction. The notes show that both measures indicate the relative abundance of an element, though one uses mass and the other uses atom count."
+    },
+    {
+      "title": "State both measures' role",
+      "content": "The matching option names the difference in how the measures are calculated while emphasizing their shared purpose of indicating relative abundance. Choice A only lists values, Choice C incorrectly defines mole fraction using mass, and Choice D emphasizes difference rather than similarity. The answer is <strong>B</strong>."
+    }
+  ]
+}

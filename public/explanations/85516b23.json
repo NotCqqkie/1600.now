@@ -1,0 +1,15 @@
+{
+  "questionId": "85516b23",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed verb",
+      "content": "The sentence has a singular subject, the atomic structure of an element, followed by an object, the element's place on the periodic table. The blank must supply a finite main verb that agrees with the singular subject and completes the clause."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is an infinitive, Choice B is a participle, and Choice D is a perfect participial phrase. None can serve alone as the main verb of the sentence. The sentence needs the singular present-tense verb that makes the structure determine the element's place. The answer is <strong>C</strong>."
+    }
+  ]
+}

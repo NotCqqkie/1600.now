@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the hypothesis requires",
-      "content": "The scientists believe lava dislodged deep nitrate and released it upward. The completing evidence must show elevated nitrate near the surface in the lava-affected area, demonstrating this upwelling mechanism."
+      "title": "Connect nitrate to the claim",
+      "content": "The scientists think lava dislodged deep nitrate and released it upward. The evidence must therefore show elevated nitrate in lava-affected seawater at measured depths above where the lava plunged."
     },
     {
-      "title": "Verify the data supports upwelling",
-      "content": "<strong>for both depth ranges measured, the average concentrations of nitrate were substantially higher in the seawater in the lava-affected area than in the seawater outside of the lava-affected area.</strong> directly provides this evidence: nitrate concentrations were substantially higher in the lava-affected area than outside it at both 5–45 and 75–125 meters deep.<br/><br/>This shows the lava disrupted deep nutrient sources and brought nitrate to shallower depths where diatoms thrive.<br/><br/>The other three options either address the wrong nutrients, skip the affected vs. unaffected comparison, or describe baseline conditions.<br/><br/>This matches the correct answer — <strong>B</strong> is correct."
+      "title": "Compare affected water",
+      "content": "The matching data show nitrate concentrations were substantially higher in lava-affected seawater than outside it in both measured depth ranges. A discusses phosphate, C compares nitrate with phosphate only inside the affected area, and D describes nitrate outside the affected area. The answer is <strong>B</strong>."
     }
   ]
 }

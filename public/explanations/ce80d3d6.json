@@ -1,0 +1,15 @@
+{
+  "questionId": "ce80d3d6",
+  "correctAnswer": "-21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the repeated factor",
+      "content": "Both terms on the left include $t+6$, so factor out that repeated expression before solving.\n\n$$5(t+6)-8(t+6)=(5-8)(t+6)$$\n\n$$5(t+6)-8(t+6)=-3(t+6)$$\n\nSo the equation is\n\n$$-3(t+6)=45$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Divide by $-3$, then subtract $6$ to isolate $t$.\n\n$$t+6=-15$$\n\n$$t=-21$$\n\nThe answer is <strong>-21</strong>."
+    }
+  ]
+}

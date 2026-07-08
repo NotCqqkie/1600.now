@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The researchers claim endothermy enabled mosasaurs to live in cold polar waters. Supporting evidence must directly link mosasaur presence in polar regions to their physiology &mdash; the decisive clue is the contrast between endothermic mosasaurs and nonendothermic reptiles in those same locations."
+      "title": "Support the polar-range claim",
+      "content": "The researchers claim endothermy enabled mosasaurs to include relatively cold polar waters in their range. Strong support should show mosasaurs in polar regions where nonendothermic reptiles were less common."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Mosasaurs' likely body temperatures are easier to determine from tooth enamel oxygen-18 isotope data than the body temperatures of nonendothermic Late Cretaceous marine reptiles are.</strong>: this is about research methodology, not habitat range; it says nothing about where mosasaurs actually lived. &#10007;</li><li><strong>Choice B — Fossils of both mosasaurs and nonendothermic marine reptiles have been found in roughly equal numbers in regions known to be near the poles during the Late Cretaceous, though in lower concentrations than elsewhere.</strong>: roughly equal numbers would suggest endothermy gave no advantage in polar waters, which weakens the claim rather than supporting it. &#10007;</li><li><strong>Choice C — Several mosasaur fossils have been found in regions known to be near the poles during the Late Cretaceous, while relatively few fossils of nonendothermic marine reptiles have been found in those locations.</strong>: this directly supports the claim &mdash; mosasaurs inhabited polar waters while nonendothermic reptiles largely did not, suggesting endothermy was the enabling factor. &#10003;</li><li><strong>Choice D — During the Late Cretaceous, seawater temperatures were likely higher throughout mosasaurs' range, including near the poles, than seawater temperatures at those same latitudes are today.</strong>: warmer-than-today water could still be cold enough to matter, so this finding neither confirms nor denies that endothermy was needed to survive there. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject weak support",
+      "content": "<ul><li><strong>Choice A</strong>: Ease of measuring body temperature does not show where mosasaurs lived.</li><li><strong>Choice B</strong>: Equal fossil numbers would undercut the idea that endothermy gave mosasaurs a polar advantage.</li><li><strong>Choice D</strong>: Warmer-than-present seas do not directly compare mosasaurs with nonendothermic reptiles.</li></ul>"
+    },
+    {
+      "title": "Use fossil contrast at the poles",
+      "content": "Finding several mosasaur fossils near ancient poles but relatively few nonendothermic reptile fossils there supports endothermy as the enabling difference. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the percentage relationship",
-      "content": "The June price is <em>p</em>% of the May price, so: $$(p/100) \\times 18.75 = 20.25$$"
+      "title": "Set up the percent ratio",
+      "content": "The June price as a percent of the May price is:<br/>\\[(20.25/18.75)(100)\\]"
     },
     {
-      "title": "Verify the answer with backsolving",
-      "content": "Backsolving by testing the candidate (108): $1.08 \\times 18.75 = 20.25$. That matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "Evaluate the percent",
+      "content": "Compute the ratio:<br/>\\[(20.25/18.75)(100)=1.08(100)=108\\]<br/>The value of $p$ is $108$. The answer is <strong>C</strong>."
     }
   ]
 }

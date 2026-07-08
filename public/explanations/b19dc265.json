@@ -1,0 +1,15 @@
+{
+  "questionId": "b19dc265",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject of the blank's clause is \"languages like Scheme.\" The head noun is \"languages,\" which is plural. The interrupting phrase \"used in software development\" does not change the subject's number."
+    },
+    {
+      "title": "Match plural agreement",
+      "content": "A and C use singular forms, and D also uses a singular verb form. The blank needs a plural present-tense verb phrase to agree with \"languages\" and state the contrast with object-oriented Perl. The answer is <strong>B</strong>."
+    }
+  ]
+}

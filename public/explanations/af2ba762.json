@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the constant 2.68 means",
-      "content": "The function is $F(x) = 2.68 - 0.17(x - 3)$, where $x$ is the number of months after September 1, 2014. Find the value of $x$ that makes $F(x) = 2.68$:<br/>$$2.68 = 2.68 - 0.17(x - 3)$$<br/>$$0 = -0.17(x - 3)$$<br/>$$x = 3$$"
+      "title": "Find when the constant appears",
+      "content": "The constant $2.68$ is the value of $F(x)$ when the variable part is $0$:<br/>$$F(x)=2.68-0.17(x-3)$$<br/>$$x-3=0$$<br/>$$x=3$$"
     },
     {
-      "title": "Translate $x = 3$ to a date",
-      "content": "Since $x$ counts months after September 1, $x = 3$ corresponds to <strong>December 1, 2014</strong>. So 2.68 is the average price per gallon on December 1, 2014. The answer is <strong>D</strong>."
+      "title": "Translate the month count",
+      "content": "The variable $x$ counts months after September $1$, $2014$. Three months after September $1$, $2014$, is December $1$, $2014$. The answer is <strong>D</strong>."
     }
   ]
 }

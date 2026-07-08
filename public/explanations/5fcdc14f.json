@@ -1,0 +1,15 @@
+{
+  "questionId": "5fcdc14f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the range pattern",
+      "content": "Earlier research found that narrow-range plant species tend to be more genetically homogeneous than species with extensive ranges. <em>M. klissingiana</em> begins with a narrow range in Tamaulipas, and the simulation has it spreading to new habitats."
+    },
+    {
+      "title": "Predict the genetic change",
+      "content": "Choice A concerns whether other species could survive in Tamaulipas. Choice C addresses species in neighboring states, and Choice D concerns abundance of other species. If <em>M. klissingiana</em> becomes more widely distributed, the prior pattern predicts less genetic homogeneity over time. The answer is <strong>B</strong>."
+    }
+  ]
+}

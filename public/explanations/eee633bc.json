@@ -1,0 +1,19 @@
+{
+  "questionId": "eee633bc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original center",
+      "content": "A circle in the form $(x-h)^2+(y-k)^2=r^2$ has center $(h,k)$. For\n$$(x+5a)^2+(y-34a)^2=25a^2$$\nthe center is $(-5a,34a)$."
+    },
+    {
+      "title": "Shift the center right",
+      "content": "Shifting $10a$ units to the right adds $10a$ to the $x$-coordinate.\n$$-5a+10a=5a$$\nThe new center is $(5a,34a)$."
+    },
+    {
+      "title": "Write the new equation",
+      "content": "Keep the same radius and use the new center $(5a,34a)$.\n$$(x-5a)^2+(y-34a)^2=25a^2$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

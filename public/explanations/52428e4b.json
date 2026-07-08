@@ -1,0 +1,19 @@
+{
+  "questionId": "52428e4b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the one unit factor",
+      "content": "When $w$ increases by $1$, the exponent $3w$ increases by $3$. So the function value is multiplied by<br/>$$(0.84)^3$$"
+    },
+    {
+      "title": "Evaluate the factor",
+      "content": "Compute the multiplier.<br/>$$(0.84)^3=0.592704$$<br/>So the new value is about $59.2704\\%$ of the previous value."
+    },
+    {
+      "title": "Convert to percent decrease",
+      "content": "Subtract from $100\\%$.<br/>$$100-59.2704=40.7296$$<br/>This is closest to $40.7$.<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

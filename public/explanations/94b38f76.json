@@ -1,0 +1,19 @@
+{
+  "questionId": "94b38f76",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use only table support",
+      "content": "The question asks for a conclusion about people who make New Year's resolutions that is supported by the text and table. The table gives percentages within age brackets among resolution makers, so a valid answer must compare those listed percentages directly. It cannot infer individual overlap across categories or make claims about all US adults."
+    },
+    {
+      "title": "Reject unsupported options",
+      "content": "Choice A says most people who make health-and-exercise resolutions also make resolutions in multiple additional categories, but the table does not track individual overlap. Choice C shifts from resolution makers to all US adults and claims an aging trend regardless of resolution type, which the table cannot establish. Choice D says ages 18-29 are more likely than ages 30-49 to choose health and exercise, but the table shows 79% versus 80%."
+    },
+    {
+      "title": "Check the two comparisons",
+      "content": "Choice B compares ages 50-64 with ages 30-49 in two categories. For personal relationships, ages 50-64 are at 58%, higher than 53% for ages 30-49. For finances, ages 50-64 are at 56%, lower than 63% for ages 30-49. Both parts of the choice match the table. The answer is <strong>B</strong>."
+    }
+  ]
+}

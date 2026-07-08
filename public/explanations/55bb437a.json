@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the tangent ratio",
+      "content": "The value \n$$\n\\tan B=\\frac{3}{4}\n$$ means the side opposite angle $B$ and the side adjacent to angle $B$ are in this ratio:\n$$\n3:4\n$$"
     },
     {
-      "title": "Set up the 3-4-5 ratio for both similar triangles",
-      "content": "When $\\tan B = \\frac{3}{4}$ in a right triangle, the sides are in the ratio 3:4:5. <br/> In triangle BDE: $BD = 4k$, $DE = 3k$, $BE = 5k$ for some constant $k$. <br/> In triangle BAC (which shares the same angle B): $BA = 4m$, $AC = 3m$, $BC = 5m$ for some constant $m$. <br/> Given $BC = 15$, we have $BC = 5m = 15$, so $m = 3$ and: $$BA = 4m = 12.$$"
+      "title": "Find the larger scale",
+      "content": "In the larger right triangle, $BC=15$ is the hypotenuse of the corresponding ratio.\n$$\n3:4:5\n$$\nThe scale factor is\n$$\n\\frac{15}{5}=3\n$$\nSo the adjacent side is\n$$\n4(3)=12\n$$"
     },
     {
-      "title": "Solve for k and find DE",
-      "content": "Since $BA = BD + DA = 4k + 4$ and $BA = 12$: $$4k + 4 = 12 \\implies k = 2.$$ Therefore: $$DE = 3k = 6.$$"
+      "title": "Find the smaller height",
+      "content": "Subtract $DA=4$ from the adjacent side to get $BD$.\n$$\nBD=12-4=8\n$$\nWith the same $3:4$ ratio,\n$$\n\\frac{DE}{BD}=\\frac{3}{4}\n$$\n$$\nDE=\\frac{3}{4}(8)=6\n$$\nThe answer is <strong>6</strong>."
     }
   ]
 }

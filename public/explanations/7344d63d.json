@@ -1,0 +1,15 @@
+{
+  "questionId": "7344d63d",
+  "correctAnswer": "420",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract adult-ticket revenue",
+      "content": "The $260$ adult tickets brought in:<br/>$$260(12)=3{,}120$$<br/>Subtract from total revenue:<br/>$$5{,}640-3{,}120=2{,}520$$"
+    },
+    {
+      "title": "Divide by the child price",
+      "content": "Each child ticket costs $6$, so divide the remaining revenue by $6$:<br/>$$\\frac{2{,}520}{6}=420$$<br/>The answer is <strong>420</strong>."
+    }
+  ]
+}

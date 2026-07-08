@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up equations from the problem",
-      "content": "Let $c$ = correct answers and $i$ = incorrect answers.<br/><br/>From <em>42 questions total</em>:<br/>$$c + i = 42$$<br/>From <em>score = 2(correct) - (incorrect) = 57</em>:<br/>$$2c - i = 57$$"
+      "title": "Set up the two equations",
+      "content": "Let $c$ be the number correct and $i$ be the number incorrect. The total number of answers gives<br/>$$c+i=42$$<br/>The score rule gives<br/>$$2c-i=57$$"
     },
     {
-      "title": "Add equations to eliminate i",
-      "content": "Add the equations together to cancel out $i$:<br/>$$c + i + 2c - i = 42 + 57$$<br/>$$3c = 99$$<br/>$$c = 33$$<br/>The player answered 33 questions correctly."
+      "title": "Eliminate incorrect answers",
+      "content": "Add the equations to cancel $i$:<br/>$$(c+i)+(2c-i)=42+57$$<br/>$$3c=99$$"
+    },
+    {
+      "title": "Solve for correct answers",
+      "content": "Divide both sides by $3$. The answer is <strong>33</strong>."
     }
   ]
 }

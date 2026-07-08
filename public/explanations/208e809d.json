@@ -1,0 +1,15 @@
+{
+  "questionId": "208e809d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the example",
+      "content": "The first sentence makes a general point about demonstration sports in Olympic Games. The second sentence gives a specific instance: glima appeared as a demonstration sport at the 1912 Summer Olympics."
+    },
+    {
+      "title": "Use an example transition",
+      "content": "B suggests simultaneous events, but the sentence is not about two parallel actions. C points to the future, though the 1912 Olympics are historical. D signals contrast, but the glima detail illustrates the general statement. The remaining transition correctly introduces an example. The answer is <strong>A</strong>."
+    }
+  ]
+}

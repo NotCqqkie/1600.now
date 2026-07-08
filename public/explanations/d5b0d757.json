@@ -1,0 +1,15 @@
+{
+  "questionId": "d5b0d757",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the volume units",
+      "content": "Since $1$ meter is $100$ centimeters, one cubic meter is\n$$\n100^3=1{,}000{,}000\n$$\ncubic centimeters. So\n$$\n0.72(1{,}000{,}000)=720{,}000\n$$\ncubic centimeters."
+    },
+    {
+      "title": "Convert to quarts",
+      "content": "Use $946.35$ cubic centimeters per quart, so divide the converted volume by the number of cubic centimeters in one quart:\n$$\n\\frac{720{,}000}{946.35}=760.82\n$$\nrounded to the nearest listed value. The answer is <strong>D</strong>."
+    }
+  ]
+}

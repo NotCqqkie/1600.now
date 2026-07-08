@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the three parts of the text",
-      "content": "The text has three distinct parts: (1) an unresolved question — how deep human activity affects carbon and nitrogen in soil; (2) Eze and colleagues' hypothesis — that land-use differences affect carbon and nitrogen below the topsoil layer; (3) a finding signaled by \"though\" — that carbon and nitrogen dropped to comparably low levels beyond 30 cm across all land-use types, which contradicts the hypothesis."
+      "title": "Map the opening question",
+      "content": "The text begins with an unresolved scientific question. Human activities influence carbon and nitrogen in soil, but scientists are unsure how deeply those effects extend. Eze and colleagues then propose a hypothesis about that question: differences in land use may affect carbon and nitrogen levels below the topsoil layer, not just from 0 to 30 cm."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"It describes a phenomenon that scientists do not fully understand, explains a research team's hypothesis about that phenomenon, and then describes a finding that led the team to refine the hypothesis.\"</strong>: The finding did not lead the team to refine their hypothesis — the text simply states the conflicting result with no mention of refinement. &#10007;</li><li><strong>\"It introduces an unresolved scientific question, presents a research team's hypothesis pertaining to that question, and then describes an observation made by the team that conflicts with that hypothesis.\"</strong>: Matches all three parts exactly — unresolved question, hypothesis, and a conflicting observation. &#10003;</li><li><strong>\"It discusses a process that scientists are somewhat unclear about, introduces competing hypotheses about that process, and then explains how a research team concluded that one of those hypotheses is likely correct.\"</strong>: The text presents only one hypothesis, not competing hypotheses, and no conclusion about which is correct is drawn. &#10007;</li><li><strong>\"It explains a hypothesis that has been the subject of scientific debate, discusses how a research team tested that hypothesis, and then presents data the team collected that validate the hypothesis.\"</strong>: The hypothesis is not framed as a subject of debate, and the data contradict the hypothesis rather than validate it. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Use the conflicting result",
+      "content": "The final sentence shifts with <em>though</em>, showing that the study result did not support the hypothesis. Beyond 30 cm, carbon and nitrogen dropped to comparably low levels across land-use types, so the expected land-use differences did not continue below the topsoil."
+    },
+    {
+      "title": "Eliminate mismatched structures",
+      "content": "Choice A adds refinement that the text never describes. Choice C invents competing hypotheses and a conclusion that one was likely correct. Choice D says the data validate the hypothesis, but the result conflicts with it. The structure is unresolved question, hypothesis, then conflicting observation. The answer is <strong>B</strong>."
     }
   ]
 }

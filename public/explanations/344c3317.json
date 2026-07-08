@@ -1,0 +1,19 @@
+{
+  "questionId": "344c3317",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base side",
+      "content": "Base area equals total surface area minus lateral surface area:\n$$\n42{,}120-25{,}220=16{,}900\n$$\nSince the base is a square,\n$$\ns^2=16{,}900\n$$\n$$\ns=130\n$$"
+    },
+    {
+      "title": "Find the slant height",
+      "content": "The combined area of the four triangular lateral faces is $2s\\ell$. Substitute $s=130$:\n$$\n2(130)\\ell=25{,}220\n$$\n$$\n\\ell=97\n$$"
+    },
+    {
+      "title": "Use the right triangle",
+      "content": "The pyramid height $h$, half the base side $65$, and slant height $97$ form a right triangle:\n$$\nh^2+65^2=97^2\n$$\n$$\nh^2=9409-4225=5184\n$$\n$$\nh=72\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

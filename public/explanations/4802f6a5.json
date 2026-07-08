@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the experiment actually showed",
-      "content": "In the pear juice test, the test paper for the sample containing <em>E. coli</em> O157:H7 turned purple while the test papers for the other samples (containing other <em>E. coli</em> strains or other bacteria species) turned pink. This means the aptamers bound to their target and did not bind to non-targets &mdash; they were specific.<ul><li><strong>Choice A — aptamer-based tests in real-world foods are more likely to show a high degree of specificity if the focal pathogen is <em>E. coli</em> O157:H7 than if the focal pathogen is another strain of <em>E. coli</em> or another species.</strong>: compares O157:H7-targeting aptamers to aptamers targeting other pathogens &mdash; the experiment only tested O157:H7-targeting aptamers, so this comparison is unsupported &#10007;</li><li><strong>Choice B — uncertainty about the specificity of aptamer-based tests for pathogens in real-world foods may be due to the similarity between <em>E. coli</em> O157:H7 and other <em>E. coli</em> strains.</strong>: the results resolved specificity rather than raising new uncertainty about it &#10007;</li><li><strong>Choice C — the specificity of the tests in a real-world food was unaffected by the aptamers' tendency to bind to different strains of <em>E. coli</em>.</strong>: the aptamers did not bind to other strains; this misrepresents the results &#10007;</li><li><strong>Choice D — the aptamers successfully bound to <em>E. coli</em> O157:H7 and the tests displayed a high degree of specificity in a real-world food.</strong>: directly describes the purple color result (binding to target) and the pink results for non-targets (high specificity) &#10003;</li></ul>"
+      "title": "Read the color results",
+      "content": "The paper turned purple only in pear juice treated with <em>E. coli</em> O157:H7. It stayed pink with other <em>E. coli</em> strains and other bacteria, so the aptamers bound to the target while avoiding non-targets in a real-world food."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The purple paper confirms target binding; the pink papers confirm no non-target binding &mdash; together they demonstrate high specificity in real-world pear juice. <strong>D</strong> is correct."
+      "title": "Avoid unsupported comparisons",
+      "content": "Choice A compares O157:H7 tests with tests for other focal pathogens, which the study did not do. Choice B invents an explanation for uncertainty based on strain similarity. Choice C wrongly says the aptamers tended to bind to different strains. The result instead shows target binding plus specificity in the food sample. The answer is <strong>D</strong>."
     }
   ]
 }

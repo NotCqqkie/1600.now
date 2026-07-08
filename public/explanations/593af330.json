@@ -1,0 +1,16 @@
+{
+  "questionId": "593af330",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the midsegment",
+      "content": "Since $M$ is the midpoint of $PQ$ and $N$ is the midpoint of $QR$, segment $MN$ is a midsegment of triangle $PQR$. The midsegment connects two side midpoints, is parallel to the third side, and is half its length.",
+      "formula": "$$MN = \\frac{1}{2} PR$$"
+    },
+    {
+      "title": "Double the midsegment",
+      "content": "Because $MN=15$, double the midsegment length to get the third side:\n$$\nPR=2\\cdot 15=30\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit two points from the trend",
-      "content": "The scatterplot has a clear downward trend. Two easy trend points are about $(0,6)$ and $(5,1)$. Use those two points to estimate the line."
+      "title": "Read the trend",
+      "content": "The scatterplot trend decreases from left to right, so the line of best fit should have a negative slope. The trend also crosses the $y$-axis near $6$, so the $y$-intercept should be positive."
     },
     {
-      "title": "Read the model",
-      "content": "Using $(0,6)$ and $(5,1)$, the slope is $$m=\\frac{1-6}{5-0}=-1$$ The intercept is $6$, so the trend line is $y=-x+6$. That has negative slope and positive $y$-intercept, matching the scatterplot."
-    },
-    {
-      "title": "Check the choices",
-      "content": "$y = - x -6$ has the right slope but the wrong intercept. The positive-slope equations have the wrong direction. The matching equation is $y = - x + 6$.",
+      "title": "Match slope and intercept",
+      "content": "The equation with negative slope and $y$-intercept $6$ is\n$$y=-x+6$$\nThe equation $y=-x-6$ has the right slope but the wrong intercept, and the other two choices have positive slope. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=-x+6"
       ]

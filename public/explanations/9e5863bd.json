@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the minimum and maximum",
-      "content": "The minimum recorded rate is $0.4$ in/hr, so every recorded value satisfies $s\\ge0.4$. The maximum recorded rate is $1.5$ in/hr, so every recorded value also satisfies $s\\le1.5$."
+      "title": "Use the recorded bounds",
+      "content": "The minimum recorded rainfall rate was $0.4$ inches per hour, so every recorded rate is at least $0.4$. The maximum was $1.5$, so every recorded rate is at most $1.5$."
     },
     {
       "title": "Write the compound inequality",
-      "content": "Both bounds must hold at the same time: $$0.4\\le s\\le1.5.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$0.4\\le s\\le1.5$ matches <strong>D</strong>."
+      "content": "$$0.4\\le s\\le1.5$$The answer is <strong>D</strong>."
     }
   ]
 }

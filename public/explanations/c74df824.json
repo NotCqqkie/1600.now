@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Square the linear conversion factor",
-      "content": "When converting areas between units, we must square the linear conversion factor. Since $1\\text{ nautical mile} = 1.852\\text{ km}$:<br/>$$(1.852)^2 = 3.429904$$"
+      "title": "Square the unit conversion",
+      "content": "Because this is an area conversion, square the linear conversion factor:<br/>$$(1.852)^2=3.429904$$"
     },
     {
-      "title": "Apply the conversion factor to the given area",
-      "content": "Multiply the 52 square nautical miles by this conversion factor:<br/>$$k = 52 \\times 3.429904 = 178.355008$$<br/>Rounded to the nearest tenth: $k = 178.4$"
+      "title": "Convert the area",
+      "content": "Multiply the given area by the square-unit conversion factor:<br/>$$52.00(3.429904)=178.355008$$"
+    },
+    {
+      "title": "Round to the nearest tenth",
+      "content": "The value $178.355008$ rounds to the nearest tenth. The answer is <strong>178.4</strong>."
     }
   ]
 }

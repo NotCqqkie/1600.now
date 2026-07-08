@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "content": "Set up the count equation. The teacher ordered 30 costumes total: $b + g = 30$."
+      "title": "Write the count equation",
+      "content": "The variables $b$ and $g$ count the numbers of costumes. Since the teacher ordered $30$ costumes total, the count equation is:<br/>$$b+g=30$$"
     },
     {
-      "content": "Set up the cost equation. Boys' costumes cost 24 dollars each and girls' costumes cost 33 dollars each, totaling 837 dollars: $24b + 33g = 837$."
+      "title": "Write the cost equation",
+      "content": "Each boys' costume costs $24$ dollars, and each girls' costume costs $33$ dollars. The total cost is $837$ dollars, so:<br/>$$24b+33g=837$$"
     },
     {
-      "content": "Compare with the choices. Systems that pair $b + g = 837$ with a cost equation use the total cost as a count, so they cannot model the situation. Between the systems with $b + g = 30$, \"$24b + 33g = 837$ and $b + g = 30$\" correctly places the 24 dollar rate on $b$ (boys) and the 33 dollar rate on $g$ (girls), while \"$33b + 24g = 837$ and $b + g = 30$\" switches those rates."
-    },
-    {
-      "content": "Evaluate all choices:<ul><li><strong>\"$24b + 33g = 30$ and $b + g = 837$\"</strong>: Swaps the totals (30 is a count, not a cost). Incorrect.</li><li><strong>\"$24b + 33g = 837$ and $b + g = 30$\"</strong>: Correctly assigns the 24 dollar rate to boys, the 33 dollar rate to girls, and pairs with the total count. That matches the correct answer - <strong>B</strong> is correct.</li><li><strong>\"$33b + 24g = 30$ and $b + g = 837$\"</strong>: Swaps the totals and misassigns the rates. Incorrect.</li><li><strong>\"$33b + 24g = 837$ and $b + g = 30$\"</strong>: Misassigns the rates by putting 33 on boys and 24 on girls. Incorrect.</li></ul>"
+      "title": "Match both equations",
+      "content": "The correct system must pair the total-count equation with the total-cost equation:<br/>$$24b+33g=837\\quad \\text{and}\\quad b+g=30$$The answer is <strong>B</strong>."
     }
   ]
 }

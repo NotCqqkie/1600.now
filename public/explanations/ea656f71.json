@@ -1,0 +1,19 @@
+{
+  "questionId": "ea656f71",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the shared preference",
+      "content": "Both heron species prefer areas with standing water for more than 60 days per year. Since the conclusion is about what neither species is drawn to, the blank should describe the opposite of that shared condition."
+    },
+    {
+      "title": "Reject unsupported conditions",
+      "content": "Choice B discusses other species' breeding seasons, which the passage never uses. Choice C overstates the relationship between the two herons. Choice D cannot apply to both species because only small white herons prefer deep water."
+    },
+    {
+      "title": "Choose the opposite condition",
+      "content": "Choice A describes areas with standing water for far fewer than 60 days per year. That is the direct opposite of the habitat feature both species prefer, so it logically completes the conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

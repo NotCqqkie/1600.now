@@ -1,0 +1,15 @@
+{
+  "questionId": "d1541f0f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause verb",
+      "content": "The sentence says forest fragmentation inevitably leads to alterations in local ecological processes. The blank needs a verb meaning causes, produces, or gives rise to those alterations."
+    },
+    {
+      "title": "Reject opposite meanings",
+      "content": "Choice B means prevents, which contradicts the idea that fragmentation produces changes. Choice C means includes within a larger category. Choice D means weakens or reduces. The causal verb fits the sentence's logic. The answer is <strong>A</strong>."
+    }
+  ]
+}

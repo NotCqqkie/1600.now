@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand what the blank must express",
-      "content": "The sentence says the all-female cast ______ an array of female characters. The surrounding context &mdash; an all-female cast, an array of female character roles &mdash; signals that the blank needs to describe the cast <em>being made up of</em> those characters, not acting toward them.<ul><li><strong>Choice A &mdash; engulfs</strong>: Would mean the cast encloses or overwhelms the characters &mdash; no sense of composition is conveyed. &#10007;</li><li><strong>Choice B &mdash; encourages</strong>: Would mean the cast inspires the characters &mdash; nothing in the text supports that reading. &#10007;</li><li><strong>Choice C &mdash; comprises</strong>: Means &quot;is composed of&quot; &mdash; the cast <em>is</em> these female characters. Fits perfectly. &#10003;</li><li><strong>Choice D &mdash; provokes</strong>: Would mean the cast incites or angers the characters &mdash; no basis in the text. &#10007;</li></ul>"
+      "title": "Name the composition relation",
+      "content": "The sentence says the all-female cast ______ an array of female characters. The blank must show that the cast is made up of those characters, including a strong mother and several daughters."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only &quot;comprises&quot; captures the composition relationship the sentence requires. That is the correct answer."
+      "title": "Reject action mismatches",
+      "content": "A would mean encloses or overwhelms, B would mean inspires, and D would mean provokes. None describes a cast consisting of the characters it performs."
+    },
+    {
+      "title": "Use the precise verb",
+      "content": "Comprises means is made up of, matching the relationship between the cast and the array of female characters. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "questionId": "361ac735",
+  "correctAnswer": "1.732",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle type",
+      "formula": "$$1: \\sqrt{3}: 2$$",
+      "content": "The figure shows a right triangle with a $30^\\circ$ angle, so the other acute angle is\n$$\n180^\\circ-90^\\circ-30^\\circ=60^\\circ\n$$\nThis is a $30$-$60$-$90$ triangle."
+    },
+    {
+      "title": "Set up the tangent ratio",
+      "content": "For angle $A$, tangent is opposite over adjacent. The opposite side is the longer leg and the adjacent side is the shorter leg, so\n$$\n\\tan A=\\frac{\\sqrt{3}}{1}=\\sqrt{3}\n$$"
+    },
+    {
+      "title": "Convert the radical",
+      "content": "As a decimal,\n$$\n\\sqrt{3}\\sim1.732\n$$\nThe answer is <strong>1.732</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c6c8cd5b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the graph's high point",
+      "content": "The sentence asks for the highest edge density in 1986. The graph's peak is for Class I-IV, and that value is about 160 meters per hectare. The choice must name both the class and the approximate value."
+    },
+    {
+      "title": "Check the data details",
+      "content": "Choice A uses the right class but gives a lower value. Choice C and Choice D give about 145 meters per hectare for other classes, so neither identifies the overall 1986 high point."
+    },
+    {
+      "title": "Complete the assertion",
+      "content": "The remaining choice gives approximately 160 meters per hectare for Class I-IV, matching the high in the graph. The answer is <strong>B</strong>."
+    }
+  ]
+}

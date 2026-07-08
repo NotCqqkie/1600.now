@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the exponential doubling equation",
-      "content": "From January 1, 2012 to January 1, 2016 is $4$ years. With the amount doubling each year, the account value after 4 years is:<br/>$$x \\cdot 2^4 = 800$$<br/>where $x$ is the initial deposit."
+      "title": "Count the doublings",
+      "content": "From January 1, 2012 to January 1, 2016 is $4$ years. Since the account doubles each year, the multiplier is\n$$\n2^4=16\n$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Calculate $2^4 = 16$ and solve:<br/>$$x \\cdot 16 = 800$$<br/>$$x = \\frac{800}{16} = 50$$"
+      "title": "Solve for the starting amount",
+      "content": "The final amount is $800$, so\n$$\n16x=800\n$$\nDivide by $16$:\n$$\nx=\\frac{800}{16}=50\n$$\nThe answer is <strong>50</strong>."
     }
   ]
 }

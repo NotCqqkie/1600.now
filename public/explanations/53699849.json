@@ -1,0 +1,15 @@
+{
+  "questionId": "53699849",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the conversion factor",
+      "content": "The question converts area, so the linear conversion must be squared. Since $1$ mile is $1{,}760$ yards, one square mile is\n\n$$(1{,}760)^2=3{,}097{,}600$$\n\nsquare yards."
+    },
+    {
+      "title": "Convert square yards",
+      "content": "Divide the town's area in square yards by the number of square yards in one square mile.\n\n$$\\frac{11{,}646{,}976}{3{,}097{,}600}=3.76$$\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

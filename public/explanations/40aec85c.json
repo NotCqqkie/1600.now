@@ -1,0 +1,15 @@
+{
+  "questionId": "40aec85c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect warmth to wing size",
+      "content": "The assertion needs data showing that a warmer month is associated with a larger wing centroid size, because wing size is used as a proxy for body size and body size correlates with life span."
+    },
+    {
+      "title": "Rule out irrelevant comparisons",
+      "content": "The fitting data compare May with July males, where the warmer month has a larger wing centroid size. B compares females with males rather than warmer and cooler months. C gives only a temperature difference without wing-size data. D does not support warmer months having larger size. The answer is <strong>A</strong>."
+    }
+  ]
+}

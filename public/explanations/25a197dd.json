@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal",
-      "content": "The student must <strong>identify which of the three foods has the highest magnesium content</strong>. This goal is the decisive signal."
+      "title": "Compare all three foods",
+      "content": "The student wants to identify which food has the highest magnesium content among peanuts, almonds, and chia seeds. The notes list 49 mg/oz for peanuts, 80 mg/oz for almonds, and 150 mg/oz for chia seeds."
     },
     {
-      "title": "Match the goal to the choice",
-      "content": "B directly identifies chia seeds as having the highest magnesium content—150 mg/oz, explicitly stated as more than both peanuts and almonds.<br/><br/>The other three either compare only partial sets of foods, omit the numerical comparisons needed, or introduce irrelevant information.<br/><br/>That matches <strong>Choice B &mdash; Chia seeds contain 150 mg/oz of magnesium, which is more than peanuts and almonds.</strong>."
+      "title": "Reject partial comparisons",
+      "content": "Choice A compares almonds only with peanuts, leaving out chia seeds. Choice C says magnesium is present in all three foods but gives no highest amount. Choice D gives only the peanut value and background about magnesium's role. The answer is <strong>B</strong>."
     }
   ]
 }

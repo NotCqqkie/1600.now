@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "The blank comes after “book packaging” and before the verb “specializes”. We need a noun to fill the blank and a connector to link it to the verb."
+      "title": "Attach the relative clause",
+      "content": "The phrase after the blank explains what kind of company CAKE Literary is. It needs the relative pronoun that to link specializes to the noun company."
     },
     {
-      "title": "Apply the relative clause rule",
-      "content": "The noun “company” fills the blank, and the verb “specializes” requires a relative pronoun to introduce it.<br/><br/>The rule is that “that” introduces relative clauses without a preceding comma. “Company that specializes in...” correctly applies this rule. Omitting the pronoun leaves an ungrammatical gap, and placing a comma before “that” incorrectly treats the identifying clause as nonessential.<br/><br/>That is the correct answer."
+      "title": "Avoid separating essential detail",
+      "content": "A and C leave specializes without the needed connector. D adds a comma before an essential that-clause, incorrectly separating information needed to identify the company. Company that creates the correct integrated relative clause. The answer is <strong>B</strong>."
     }
   ]
 }

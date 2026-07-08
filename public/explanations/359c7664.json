@@ -1,0 +1,15 @@
+{
+  "questionId": "359c7664",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the verbs parallel",
+      "content": "The relative clause describes baskets that typically are woven from willow and also have colorful beading. The second verb should stay in present time to match the ongoing description introduced by \"typically.\""
+    },
+    {
+      "title": "Reject past tense forms",
+      "content": "A is simple past, B is past perfect, and C is past progressive. Each clashes with the present-tense description \"are woven.\" The remaining verb fits the plural subject \"baskets\" and keeps the sentence in present time. The answer is <strong>D</strong>."
+    }
+  ]
+}

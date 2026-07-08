@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The nitrogen-treated SiC fiber exhibited a <strong>lower</strong> minimum creep rate than the polymer-derived fibers. A lower creep rate indicates the material deforms more slowly under stress—the key signal that reveals which fiber is more effective at resisting creep."
+      "title": "Interpret lower creep rate",
+      "content": "A lower minimum creep rate means the nitrogen-treated SiC fiber deforms more slowly under constant stress than the two polymer-derived fibers. Slower deformation suggests better resistance over time."
     },
     {
-      "title": "Connect to the choices",
-      "content": "A fiber that resists creep better will allow composites to hold up longer under stress—so the claim that nitrogen-treated composites can withstand mechanical stress for longer than polymer-derived ones directly follows from the finding.<br/><br/>The other three options either tack on an awkward condition or wrongly suggest the polymer-derived fibers are superior.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Infer longer stress resistance",
+      "content": "Choice A overstates the finding as substantially inhibiting creep. Choice B says reducing creep resistance would prolong machinery life, which reverses the logic. Choice C says polymer-derived fibers are better, opposite of the evidence. Nitrogen-treated composites may withstand mechanical stress longer. The answer is <strong>D</strong>."
     }
   ]
 }

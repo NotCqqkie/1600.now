@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what a margin of error means",
-      "content": "A survey reports an estimate (41%) with a margin of error (6%). The margin of error does NOT mean the estimate is exact - it defines a range of plausible values for the true population percentage."
+      "title": "Use the margin of error",
+      "content": "The survey estimate is $41\\%$, and the margin of error is $6\\%$. A margin of error gives a range of plausible values around the estimate, not one exact population percentage."
     },
     {
-      "title": "Compute the confidence interval",
-      "content": "Apply the margin of error symmetrically around the estimate:<br/>$$41\\% - 6\\% = 35\\%$$<br/>$$41\\% + 6\\% = 47\\%$$<br/>The plausible range is <strong>35% to 47%</strong>."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A</strong> - claims exactly 41% support the change. A margin of error means we cannot pin down an exact value; the true percent could be anywhere from 35% to 47%. This is too definitive.</li><li><strong>B</strong> - claims the true percent is greater than 41%. The interval extends both above and below 41%, so values below 41% (e.g., 36%) are equally plausible.</li><li><strong>C</strong> - states plausible values are between 35% and 47%. This is the precise meaning of a 6% margin of error around 41%. That matches <strong>Choice C &mdash; Plausible values of the percent of the students at the school who support a schedule change are between 35% and 47%.</strong>.</li><li><strong>D</strong> - gives numbers of students (394-406) rather than percentages. 41% of 400 is 164 students, not near 394-406. Wrong units and wrong values.</li></ul>"
+      "title": "Find the interval",
+      "content": "Compute the lower and upper ends by subtracting and adding the margin of error.<br/>$$41\\%-6\\%=35\\%$$<br/>$$41\\%+6\\%=47\\%$$<br/>So plausible values for the true percent are between $35\\%$ and $47\\%$. Statements outside this interval or statements using counts instead of percentages do not match the margin-of-error interpretation. The answer is <strong>C</strong>."
     }
   ]
 }

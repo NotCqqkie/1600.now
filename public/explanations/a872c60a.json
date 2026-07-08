@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the independent clauses at the boundary",
-      "content": "The sentence contains two independent clauses requiring proper separation.<br/><br/>The first is: <strong>“The pedagogy of the Suzuki method is rooted in several central [noun].”</strong> The second is: <strong>“The method emphasizes playing instruments from a very young age and teaches students as young as three to play simple classical pieces.”</strong>"
+      "title": "Separate the clauses",
+      "content": "The sentence first says Suzuki pedagogy is rooted in several central tenets. A new sentence then begins with a participial phrase about Shinichi Suzuki and continues with \"the method emphasizes,\" forming its own independent clause."
     },
     {
-      "title": "Apply the rule for sentence boundaries",
-      "content": "Two independent clauses cannot be separated by a comma alone; they require a period or semicolon.<br/><br/>The correct answer correctly uses a period after “tenets,” ending the first clause and allowing the second sentence to begin with “Developed by Japanese violinist Shinichi Suzuki, who sought to parallel the linguistic learning environment,” — a participial phrase that modifies “the method.” The other choices create comma splices by leaving only a comma between the relative clause and the following independent clause; choice C produces ungrammatical syntax.<br/><br/>That is the correct answer."
+      "title": "Avoid comma splices",
+      "content": "Choice B leaves the sentence without the needed boundary. Choice C creates awkward, ungrammatical phrasing. Choice D uses only a comma before another independent clause. The remaining choice ends the first sentence and starts the modifier cleanly. The answer is <strong>A</strong>."
     }
   ]
 }

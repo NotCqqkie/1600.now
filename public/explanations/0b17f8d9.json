@@ -1,0 +1,15 @@
+{
+  "questionId": "0b17f8d9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the conclusion",
+      "content": "The team concluded that anatomical features may affect dogs' ability to distinguish speech from nonspeech. Supporting evidence must connect a body feature to a difference in that exact speech-nonspeech distinction."
+    },
+    {
+      "title": "Compare head-shape results",
+      "content": "A compares familiar languages within long-headed dogs, C tests familiar versus unfamiliar speech, and D compares mismatched categories. A smaller speech-nonspeech brain-activity difference in shorter-headed dogs directly links anatomy to the ability. The answer is <strong>B</strong>."
+    }
+  ]
+}

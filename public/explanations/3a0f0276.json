@@ -1,0 +1,15 @@
+{
+  "questionId": "3a0f0276",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the congruent sides",
+      "content": "The two congruent sides are each $21$ feet, so together they account for<br/>$$21+21=42$$<br/>feet of the perimeter."
+    },
+    {
+      "title": "Find the remaining side",
+      "content": "Subtract that from the total perimeter:<br/>$$72-42=30$$<br/>That remaining length is the third side. The answer is <strong>C</strong>."
+    }
+  ]
+}

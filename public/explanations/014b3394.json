@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "State the hypothesis precisely",
-      "content": "The researcher predicted that Arctic ground squirrels (hibernate alone) would have <em>longer torpor bouts</em> and <em>shorter arousal episodes</em> than Alaska marmots (hibernate in groups). Restated from the marmots&rsquo; perspective: marmots should have <em>shorter</em> torpor bouts and <em>longer</em> arousal episodes than ground squirrels. The correct answer must match both parts of this prediction with actual table data."
+      "title": "Restate the prediction",
+      "content": "The researcher's hypothesis compares Arctic ground squirrels with Alaska marmots on two measurements. Because ground squirrels hibernate alone, the researcher expected them to conserve energy by having longer torpor bouts and shorter arousal episodes than the group-hibernating marmots. The supporting data must address both torpor duration and arousal duration."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; The Alaska marmots' arousal episodes lasted for days, while the Arctic ground squirrels' arousal episodes lasted less than a day.</strong>: Marmot arousal episodes averaged 21.2 hours (under a day), not &ldquo;days&rdquo;&mdash;this misreads the table and ignores torpor bout comparison. &#10007;</li><li><strong>Choice B &mdash; The Alaska marmots and the Arctic ground squirrels both maintained torpor for several consecutive days per bout, on average.</strong>: This notes only that both had multi-day torpor bouts; it makes no cross-species comparison and omits arousal episodes entirely. &#10007;</li><li><strong>Choice C &mdash; The Alaska marmots had shorter torpor bouts and longer arousal episodes than the Arctic ground squirrels did.</strong>: Marmots averaged 13.81 days per torpor bout vs. 16.77 days for ground squirrels (shorter); marmots averaged 21.2 hours per arousal episode vs. 14.2 hours (longer). Both parts of the hypothesis are confirmed. &#10003;</li><li><strong>Choice D &mdash; The Alaska marmots had more torpor bouts than arousal episodes, but their arousal episodes were much shorter than their torpor bouts.</strong>: This compares marmot behaviors only against each other; it never compares marmots to ground squirrels, so it cannot support the hypothesis. &#10007;</li></ul>That matches <strong>Choice C &mdash; The Alaska marmots had shorter torpor bouts and longer arousal episodes than the Arctic ground squirrels did.</strong>."
+      "title": "Check both measurements",
+      "content": "The table shows the Alaska marmots had torpor bouts averaging 13.81 days, while the Arctic ground squirrels had longer bouts averaging 16.77 days. It also shows the marmots had longer arousal episodes, 21.2 hours compared with 14.2 hours for the ground squirrels. Choice A misstates the arousal scale, Choice B omits the arousal comparison, and Choice D discusses only the marmots. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must do",
-      "content": "The passage claims female farmers constituted the majority in cultivating specific types of crops, then introduces an example with &quot;for instance.&quot; The blank must provide a specific, data-supported case where women clearly outnumber men in a particular region-and-crop pairing."
+      "title": "Find the majority example",
+      "content": "The sentence needs an example showing that women constituted the majority of farmers cultivating a specific crop in some regions. The graph supports that women made up most farmers cultivating non-root vegetables in both north and south Ondo."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — most of the farmers who mainly cultivated cereals and most of the farmers who mainly cultivated non–root vegetables in south Ondo were women.</strong>: In south Ondo, the female share of cereal farmers is only ~36% (not a majority), so the claim that most cereal farmers there were women is false per the graph. &#10007;</li><li><strong>Choice B — more women in central Ondo mainly cultivated root crops than mainly cultivated cereals.</strong>: Compares two crop types among women in one region; does not establish that women are the majority of farmers in any category. &#10007;</li><li><strong>Choice C — most of the farmers who mainly cultivated non–root vegetables in north and south Ondo were women.</strong>: Directly confirms female majority in a specific crop category across two regions &mdash; exactly the kind of precise data point &quot;for instance&quot; requires. &#10003;</li><li><strong>Choice D — a relatively equal proportion of women across the three regions of Ondo mainly cultivated cereals.</strong>: Describes equal proportions, which contradicts the &quot;majority&quot; claim the example is meant to support. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Exclude weaker data claims",
+      "content": "Choice A is false because south Ondo's cereal farmers were not mostly women. Choice B compares two crops among women instead of showing women were a majority. Choice D discusses similar cereal proportions rather than female majorities in a crop category. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "cfc0ddc9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two given equations to eliminate the $x$-terms:\n$$\ny+y=(\\frac{x}{5}+7)+(-\\frac{x}{5}+23)\n$$"
+    },
+    {
+      "title": "Simplify the result",
+      "content": "The $x$-terms cancel:\n$$\n2y=30\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

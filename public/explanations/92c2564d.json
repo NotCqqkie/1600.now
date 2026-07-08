@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the reason for worry",
-      "content": "The passage states ecologists are worried because \"its growth is declining in part because of grazing by animals.\" This is the key signal: growth has slowed compared to before."
+      "title": "Locate the stated worry",
+      "content": "The passage says ecologists are worried because Pando's growth is declining, partly because animals graze on young trees."
     },
     {
-      "title": "Match the answer to the declining growth",
-      "content": "A directly expresses this: “isn't growing at the same rate it used to” states what declining growth means. B, C, and D cite different causes (production failure, fence obstacles, root limits) that the passage never mentions. That confirms <strong>A</strong> is correct."
+      "title": "Match declining growth",
+      "content": "Choice B says young trees are no longer being produced, Choice C wrongly treats fences as obstacles, and Choice D invents a root-system limit. Declining growth means Pando is not growing at the same rate as before. The answer is <strong>A</strong>."
     }
   ]
 }

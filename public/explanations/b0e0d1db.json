@@ -1,0 +1,23 @@
+{
+  "questionId": "b0e0d1db",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given x value",
+      "content": "The first equation in the system already gives the value of $x$, so no rearranging is needed for that coordinate.<br/>$$x=4$$"
+    },
+    {
+      "title": "Substitute to find y",
+      "content": "Substitute $x=4$ into the second equation and solve for the remaining coordinate.<br/>$$-3(4)+y=-5$$<br/>$$-12+y=-5$$<br/>$$y=7$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "Now add the two coordinates because the question asks for $x+y$.<br/>$$x+y=4+7=11$$<br/>The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x = 4",
+        "-3x + y = -5"
+      ]
+    }
+  ]
+}

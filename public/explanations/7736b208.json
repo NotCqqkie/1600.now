@@ -1,0 +1,19 @@
+{
+  "questionId": "7736b208",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture both sides",
+      "content": "The passage has a clear contrast. Nixon is most famous for Watergate, but his legacy is described as complex because he also has notable achievements, including the creation of the Environmental Protection Agency and an attempted health care reform."
+    },
+    {
+      "title": "Reject narrow details",
+      "content": "Choice A focuses on Chuck Dawson and John Reed, but they are only examples of associates connected with the Watergate scandal. Choice C mentions influence on later administrations, but that captures only the health care detail and leaves out the Watergate side of the passage."
+    },
+    {
+      "title": "Choose the balanced summary",
+      "content": "Choice D says Nixon's reputation is primarily due to his associates' actions, but the passage says Nixon participated in Watergate. Choice B captures the full contrast: Nixon is commonly linked with an infamous event, yet that reputation can overshadow notable achievements. The answer is <strong>B</strong>."
+    }
+  ]
+}

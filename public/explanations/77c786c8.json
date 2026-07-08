@@ -1,0 +1,15 @@
+{
+  "questionId": "77c786c8",
+  "correctAnswer": "356",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial time",
+      "content": "When the flask was placed on the table, $0$ minutes had elapsed. The question is asking for $g(0)$."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "$$g(0)=292+(356-292)(2.72)^{-0.097(0)}$$<br/>$$g(0)=292+64(1)=356$$<br/>The answer is <strong>356</strong>."
+    }
+  ]
+}

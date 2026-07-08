@@ -1,0 +1,15 @@
+{
+  "questionId": "fa0812e2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the habitat preference",
+      "content": "The researchers found that small white herons prefer areas with deep water during breeding season, but white ibises do not. Therefore, increasing water depth in potential habitats should be more likely to attract small white herons than white ibises."
+    },
+    {
+      "title": "Exclude unsupported effects",
+      "content": "<ul><li><strong>Choice A</strong>: It contradicts the finding that deep water appeals to small white herons.</li><li><strong>Choice B</strong>: The study concerns small white herons and white ibises, not birds outside wetlands.</li><li><strong>Choice D</strong>: The text does not discuss lifespan or effects on birds already in the area.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

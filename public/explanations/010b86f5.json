@@ -1,0 +1,15 @@
+{
+  "questionId": "010b86f5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence's main verb is \"might instead procure.\" The words between \"Antiquarians\" and that main verb must describe which antiquarians, not create another finite verb."
+    },
+    {
+      "title": "Reject finite forms",
+      "content": "A, B, and D are finite verb forms, so each would create an unconnected clause before \"might instead procure.\" A participle can modify \"Antiquarians\" and keep the sentence grammatical. The answer is <strong>C</strong>."
+    }
+  ]
+}

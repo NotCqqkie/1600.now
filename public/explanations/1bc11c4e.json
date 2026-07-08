@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the slope in the linear function",
-      "content": "The function $g(m) = -0.04m + 13.2$ is in the form $y = mx + b$, where the slope is $m = -0.04$. In a linear model, the slope represents the rate of change of the output with respect to the input - in this case, the rate of change of remaining gasoline (in gallons) per mile driven."
+      "title": "Interpret the slope",
+      "content": "In $g(m)=-0.04m+13.2$, the slope is $-0.04$. The negative sign means the amount of gasoline left decreases as miles driven increase."
     },
     {
-      "title": "Interpret the slope as consumption rate",
-      "content": "A slope of $-0.04$ means that for each additional mile, the remaining gasoline decreases by $0.04$ gallons. Since the tank is losing $0.04$ gallons per mile, the car uses $0.04$ gallons per mile. That matches <strong>Choice A &mdash; $0.04$</strong>."
+      "title": "Use the positive rate",
+      "content": "For each additional mile, the gasoline left decreases by $0.04$ gallon. That means the car uses $0.04$ gallon per mile. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "9ed0b1f7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the paired objects",
+      "content": "The sentence says researchers were studying connections between two things. The first thing is the physical location in which a social media post was created. The second thing is the post's content. Those two objects need to stay together as the object of <em>between</em>."
+    },
+    {
+      "title": "Avoid separating the structure",
+      "content": "The phrase <em>created and the post's content</em> completes the paired structure smoothly: connections between the location and the content. A comma before <em>and</em> would wrongly split the two objects. A comma after <em>content</em> would also separate the object from the main verb <em>analyzed</em>, making the sentence harder to parse and grammatically incorrect. The answer is <strong>A</strong>."
+    }
+  ]
+}

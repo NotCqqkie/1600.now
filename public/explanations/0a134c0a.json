@@ -1,0 +1,15 @@
+{
+  "questionId": "0a134c0a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link limitation to response",
+      "content": "The first sentence says <em>Curiosity</em> could analyze rock samples but could not preserve them for later analysis. The second sentence says the <em>Perseverance</em> team tried to implement a mechanism that could preserve samples. The transition must show consequence."
+    },
+    {
+      "title": "Reject wrong timing and similarity",
+      "content": "Choice A signals a specific clarification, not a response. Choice B reverses the timeline by suggesting the later rover came earlier. Choice D says the two cases are similar, though the new design addresses the old limitation. The needed transition shows that the limitation led to the new design goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

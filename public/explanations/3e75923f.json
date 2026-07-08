@@ -1,0 +1,15 @@
+{
+  "questionId": "3e75923f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the eclipse cases",
+      "content": "The first sentence describes an annular solar eclipse in 1926, when the Sun looked like a ring. The second describes a different eclipse in 1927, when the Sun looked like a crescent. The transition should mark a shift to a contrasting case."
+    },
+    {
+      "title": "Reject cause and timing links",
+      "content": "Choice A wrongly suggests the 1927 eclipse resulted from the 1926 one. Choice C wrongly says the events were simultaneous, and Choice D would reinforce the first idea. The needed transition introduces a different case for contrast. The answer is <strong>B</strong>."
+    }
+  ]
+}

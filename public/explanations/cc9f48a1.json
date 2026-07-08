@@ -1,0 +1,19 @@
+{
+  "questionId": "cc9f48a1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the no-solution condition",
+      "content": "For the two-line system to have no solution, line $k$ must be parallel to line $h$ but must not be the same line."
+    },
+    {
+      "title": "Find the intercept match",
+      "content": "From the graph, line $h$ crosses the $y$-axis at $(0,-8)$. For line $k$, substitute $x=0$ into $sx+40y=t$.<br/>$$40y=t$$"
+    },
+    {
+      "title": "Reject the identical line",
+      "content": "If $t=-320$, then $40y=-320$, so $y=-8$. With the required parallel slope, that would make line $k$ identical to line $h$, giving infinitely many solutions instead of no solution. The answer is <strong>D</strong>."
+    }
+  ]
+}

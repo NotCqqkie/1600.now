@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structure",
-      "content": "Before the blank, we have an independent clause (“The clashing notes can echo a long way across the mountains”) followed by “which is why” — a relative clause that introduces a causal explanation. The blank must contain a clause that provides the logical reason."
+      "title": "Complete the relative clause",
+      "content": "The phrase which is why introduces a causal explanation after the main clause. The blank must use normal statement word order and close the sentence with a period, not a question mark."
     },
     {
-      "title": "Apply the relative clause rule",
-      "content": "A relative clause introduced by “which is why” must use normal word order (subject before auxiliary verb) and end with a period that closes the sentence.<br/><br/>The wording <strong>“ganja has been used as a communication method.”</strong> correctly applies this rule with normal word order and appropriate closing punctuation.<br/><br/>“Ganja has been used as a communication method?” misplaces a question mark, and the versions beginning “has ganga” invert the word order unnecessarily.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Check order and punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: Uses statement word order but incorrectly ends with a question mark.</li><li><strong>Choice B</strong>: Uses normal subject-verb order and a period.</li><li><strong>Choice C</strong>: Inverts the subject and verb unnecessarily.</li><li><strong>Choice D</strong>: Both inverts the word order and uses a question mark.</li></ul>The answer is <strong>B</strong>."
     }
   ]
 }

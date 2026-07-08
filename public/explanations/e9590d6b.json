@@ -1,0 +1,19 @@
+{
+  "questionId": "e9590d6b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the congruent sides",
+      "content": "The two congruent sides are each $24$ feet, so together they measure<br/>$$24+24=48$$"
+    },
+    {
+      "title": "Subtract from the perimeter",
+      "content": "The perimeter is $84$ feet, so the third side is<br/>$$84-48=36$$"
+    },
+    {
+      "title": "Select the matching length",
+      "content": "The third side is $36$ feet long. The answer is <strong>C</strong>."
+    }
+  ]
+}

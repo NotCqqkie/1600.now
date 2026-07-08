@@ -1,0 +1,24 @@
+{
+  "questionId": "4c6c2970",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test statement one",
+      "content": "Statement I says angles $B$ and $C$ are equal within triangle $ABC$. That does not give matching information about triangle $DEF$, so it cannot prove the two triangles are congruent."
+    },
+    {
+      "title": "Use the included side",
+      "content": "Statement II gives $AC=DF$. Together with \n$$\nAB=DE=7\n$$ and angles $A$ and $D$ both measuring $50^\\circ$, the equal angle is included between the two equal sides. That proves congruence by SAS."
+    },
+    {
+      "title": "Reject the side case",
+      "content": "Statement III gives $BC=EF$, which creates the SSA situation with the given side and angle. SSA can produce two different triangles, so it is not sufficient to prove congruence.",
+      "formula": "$$BC = EF \\iff (AC = DF) \\text{ OR } (AC + DF = 14\\cos 50^{\\circ})$$"
+    },
+    {
+      "title": "Select the statement",
+      "content": "Only statement II is sufficient, while statements I and III are not.\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the advantage the notes describe",
-      "content": "The notes contrast traditional platinum catalysts, which require large amounts of the rare and expensive metal, with Zhao's new catalyst, which is &quot;highly effective&quot; using only trace amounts. The key advantage is effectiveness achieved with far less platinum."
+      "title": "Name the advantage",
+      "content": "The notes say ordinary platinum catalysts require a large amount of rare, expensive platinum. Zhao's catalyst was highly effective while requiring only trace amounts, so the advantage is using much less platinum without losing effectiveness."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Researcher Ming Zhao and his colleagues created a platinum catalyst that combines platinum, a rare and expensive metal, with liquid gallium.</strong>: describes what the catalyst is made of but never mentions the efficiency advantage over traditional catalysts. &#10007;</li><li><strong>Choice B &mdash; Like other platinum catalysts, the new platinum catalyst requires a particular amount of the metal to be effective.</strong>: wrongly implies the new catalyst requires a similar amount of platinum to traditional ones, contradicting the notes. &#10007;</li><li><strong>Choice C &mdash; Platinum is a rare and expensive metal that is used as a catalyst for chemical reactions; however, platinum catalysts typically require a large amount of platinum to be effective.</strong>: restates the problem but says nothing about Zhao's solution or its advantage. &#10007;</li><li><strong>Choice D &mdash; While still highly effective, the new platinum catalyst requires far less of the rare and expensive metal than do other platinum catalysts.</strong>: directly states both sides of the comparison &mdash; effectiveness maintained, platinum use dramatically reduced. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject background-only choices",
+      "content": "<ul><li><strong>Choice A</strong> describes the catalyst's composition but does not explain the advantage.</li><li><strong>Choice B</strong> vaguely says it requires a particular amount, missing the key comparison.</li><li><strong>Choice C</strong> explains the problem with typical platinum catalysts but not the new catalyst's benefit.</li></ul>The remaining choice states the advantage directly. The answer is <strong>D</strong>."
     }
   ]
 }

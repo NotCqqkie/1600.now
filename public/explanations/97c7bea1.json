@@ -1,0 +1,19 @@
+{
+  "questionId": "97c7bea1",
+  "correctAnswer": "44",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the relationships",
+      "content": "Translate the two percent statements:<br/>$$0.35h=0.28j$$<br/>$$j=0.55k$$"
+    },
+    {
+      "title": "Express h using k",
+      "content": "From the first equation, solve for $h$ and substitute the expression for $j$:<br/>$$h=\\frac{0.28}{0.35}j$$<br/>$$h=0.8(0.55k)$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "Multiply the factors:<br/>$$0.8(0.55)=0.44$$<br/>So $h$ is $44\\%$ of $k$. The answer is <strong>44</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "910775e9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main subject",
+      "content": "The main subject is <em>Blaise Pascal's Pascaline device</em>, a singular noun phrase. The long phrase between dashes is parenthetical, so it does not change the number of the subject."
+    },
+    {
+      "title": "Choose the singular verb",
+      "content": "Choice A is a participle and cannot serve as the main finite verb. Choice B is plural past tense, and choice D is plural present tense. The sentence needs a singular past-tense verb to agree with <em>device</em> and fit the historical context. The answer is <strong>C</strong>."
+    }
+  ]
+}

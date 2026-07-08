@@ -1,0 +1,19 @@
+{
+  "questionId": "75d5a8f4",
+  "correctAnswer": "700",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the starting counts",
+      "content": "Let the starting number of each species be $N$. The starting counts are equal, so the same variable can represent both."
+    },
+    {
+      "title": "Find the final counts",
+      "content": "The prey increased by $2{,}300\\%$ of $N$, so its final count is $N+23N=24N$. The predators increased by $200\\%$ of $N$, so their final count is $N+2N=3N$."
+    },
+    {
+      "title": "Convert the comparison",
+      "content": "The prey count is\n$$\n\\frac{24N}{3N}=8\n$$\ntimes the predator count. Being $8$ times as large means it is $7$ times greater:\n$$\n7(100\\%)=700\\%\n$$\nThe answer is <strong>700</strong>."
+    }
+  ]
+}

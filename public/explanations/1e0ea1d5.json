@@ -1,0 +1,19 @@
+{
+  "questionId": "1e0ea1d5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Stay within Hemingway",
+      "content": "Blatt's conclusion is about a negative correlation within Hemingway's own body of work. The strongest support should compare Hemingway novels with different reputations and different rates of -ly adverbs."
+    },
+    {
+      "title": "Reject outside comparisons",
+      "content": "Choice A brings in Fitzgerald, Choice B brings in Morrison, and Choice C compares one Hemingway novel with a broad statistic about other authors. These do not clearly test the pattern within Hemingway's oeuvre."
+    },
+    {
+      "title": "Match merit and adverb rate",
+      "content": "Choice D compares an acclaimed Hemingway novel with 63 -ly adverbs per 10,000 words to a less-acclaimed Hemingway novel with 102, supporting the negative correlation. The answer is <strong>D</strong>."
+    }
+  ]
+}

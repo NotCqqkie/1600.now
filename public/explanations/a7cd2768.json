@@ -1,0 +1,15 @@
+{
+  "questionId": "a7cd2768",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sample-size threshold",
+      "content": "The 1991 chimpanzee study included only 14 individuals. The meta-analysis says 176 individuals are needed to be confident that a population-level handedness finding is not statistical noise. Since the 1991 study's sample is far below that threshold, the passage gives a sample-size reason for treating its right-handedness claim skeptically, even before considering any other difference between primate studies."
+    },
+    {
+      "title": "Reject unsupported doubts",
+      "content": "Choice A assumes right-handedness is rare among chimpanzees, which the passage does not establish. Choice B invents different measurement standards between the studies. Choice C shifts attention to the gorilla study, but the sentence asks why the 1991 chimpanzee claim is questionable, not whether the gorilla finding is reliable. The remaining choice directly states the gap between the sample size used and the meta-analysis threshold. The answer is <strong>D</strong>."
+    }
+  ]
+}

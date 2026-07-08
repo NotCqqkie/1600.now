@@ -1,0 +1,15 @@
+{
+  "questionId": "723fe425",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the graph to the hypothesis",
+      "content": "The hypothesis predicts that paired leaves should tend to show opposite-side orientation. Supporting data must show that this pattern appears across the grapevine species tested, not just in one species or in a comparison unrelated to same-side orientation."
+    },
+    {
+      "title": "Remove unsupported graph claims",
+      "content": "Choice A compares July grape and graybark grape but leaves out frost grape. Choice B emphasizes same-side orientation, which is not the predicted pattern. Choice D says all leaf pairs show opposite-side orientation, an absolute claim the graph does not support. The answer is <strong>C</strong>."
+    }
+  ]
+}

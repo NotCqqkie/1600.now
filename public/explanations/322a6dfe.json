@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding angles in similar polygons",
-      "content": "Similar polygons have equal corresponding angles. Use the listed vertex correspondence to match $S$ with $Z$; the side lengths affect scale, not angle measure."
+      "title": "Match the corresponding vertices",
+      "content": "The similar quadrilaterals are named in corresponding order. Since $P$, $Q$, and $R$ match $W$, $X$, and $Y$, the remaining vertices must match too: $S$ corresponds to $Z$."
     },
     {
-      "title": "Establish vertex correspondence",
-      "content": "We are given that $P$ corresponds to $W$, $Q$ corresponds to $X$, and $R$ corresponds to $Y$. Since the quadrilaterals are listed as $PQRS$ and $WXYZ$, vertices must correspond in order. Therefore, $S$ must correspond to $Z$."
-    },
-    {
-      "title": "Use the corresponding angles property",
-      "content": "In similar polygons, corresponding angles are congruent. Since $S$ corresponds to $Z$, we have $\\angle Z = \\angle S = 120^{\\circ}$. <strong>D</strong> is correct."
+      "title": "Use corresponding angles",
+      "content": "Corresponding angles in similar polygons have equal measures. Since angle $Z$ corresponds to angle $S$, its measure is $120^\\circ$. The answer is <strong>D</strong>."
     }
   ]
 }

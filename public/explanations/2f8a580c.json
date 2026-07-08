@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 3",
-      "content": "The function is $k(x)=x^3+109$. Substitute $x=3$: $$k(3)=3^3+109$$"
+      "title": "Substitute the input",
+      "content": "Use $x=3$ in the function rule.<br/>$$k(3)=3^3+109$$"
     },
     {
       "title": "Cube before adding",
-      "content": "$$3^3=27$$ $$27+109=136$$"
+      "content": "Evaluate the exponent first.<br/>$$3^3=27$$<br/>$$27+109=136$$"
     },
     {
-      "title": "Check the choices",
-      "content": "Choice A, $136$, is correct. Treating $x^3$ like $3x$, using too small a cube, or evaluating at $x=0$ would not follow the instruction to find $k(3)$, where the input must be cubed before adding $109$."
+      "title": "Match the value",
+      "content": "The value of $k(3)$ is $136$. The answer is <strong>A</strong>."
     }
   ]
 }

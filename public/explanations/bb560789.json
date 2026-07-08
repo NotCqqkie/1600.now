@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate area of square N",
-      "content": "Square N has a side length of 6 cm. Using the formula for the area of a square, Area = (side)^2, we get: $$A_{\\text{square}} = 6^2 = 36\\text{ cm}^2$$"
+      "title": "Find the square area",
+      "content": "Square N has side length $6$ centimeters, so its area is side length squared.<br/>$$6^2=36$$"
     },
     {
-      "title": "Add both areas for total",
-      "content": "Triangle M has area 72 cm^2 and square N has area 36 cm^2. The total area is: $$A_{\\text{total}} = 72 + 36 = 108\\text{ cm}^2$$ That confirms <strong>D</strong> is correct."
+      "title": "Add the two areas",
+      "content": "Triangle M has area $72$ square centimeters, and square N has area $36$ square centimeters.<br/>$$72+36=108$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

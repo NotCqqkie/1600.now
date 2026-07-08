@@ -1,0 +1,15 @@
+{
+  "questionId": "8862c918",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the example setup",
+      "content": "The first sentence says the station serves its community in several ways. The next sentence names specific services: local news, music, and Umatilla-language programming."
+    },
+    {
+      "title": "Reject contrast and result transitions",
+      "content": "B would signal a result, but the programming is an example of service, not a consequence of it. C signals a final outcome, and D signals contrast; neither relationship fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

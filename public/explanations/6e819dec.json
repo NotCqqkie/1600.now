@@ -1,0 +1,15 @@
+{
+  "questionId": "6e819dec",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the pyramid formula",
+      "content": "For a square pyramid with side length $s$, the base area is $s^2$. The volume formula is\n\n$$V=\\frac{1}{3}s^2h$$\n\nSubstitute $V=300$ and $h=9$.\n\n$$300=\\frac{1}{3}s^2(9)$$"
+    },
+    {
+      "title": "Find the side length",
+      "content": "Simplify the equation and use the positive square root because a side length is positive.\n\n$$300=3s^2$$\n\n$$100=s^2$$\n\n$$10=s$$\n\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

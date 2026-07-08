@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the square's diagonal",
-      "content": "When a square is inscribed in a circle, the square's diagonal is the circle's diameter. Find the diameter from the radius, then use the square diagonal formula $d=s\\sqrt{2}$."
+      "title": "Use the square diagonal",
+      "content": "For a square inscribed in a circle, the diagonal of the square is the diameter of the circle. The diagonal connects opposite vertices on the circle and passes through the center."
     },
     {
-      "title": "Identify the relationship between the inscribed square and circle",
-      "content": "When a square is inscribed in a circle, all four vertices touch the circle. The key insight: the diagonal of the square equals the diameter of the circle, since the diagonal passes through the center.<br/><br/>The diameter is:<br/>$$D = 2r = 2 \\cdot \\frac{18\\sqrt{2}}{2} = 18\\sqrt{2}$$"
+      "title": "Find the diameter",
+      "content": "The diameter is twice the radius:\n$$2\\cdot\\frac{18\\sqrt{2}}{2}=18\\sqrt{2}$$"
     },
     {
-      "title": "Use the diagonal formula for a square",
-      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$ (from the Pythagorean theorem on a right triangle formed by two sides and the diagonal).<br/><br/>Since the diagonal equals the diameter:<br/>$$s\\sqrt{2} = 18\\sqrt{2}$$<br/>Divide both sides by $\\sqrt{2}$:<br/>$$s = 18$$<br/>That is the correct answer."
+      "title": "Solve for the side length",
+      "content": "If the square's side length is $s$, its diagonal is $s\\sqrt{2}$. Set that equal to the circle's diameter:\n$$s\\sqrt{2}=18\\sqrt{2}$$\n$$s=18$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

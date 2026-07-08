@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sample and its population",
-      "content": "<ul><li>The psychologist chose a random sample of 42 students.</li><li>The sample was taken from all students at one middle school in a large city.</li><li>This defines the population from which the sample was drawn.</li></ul>"
+      "title": "Identify the sampled population",
+      "content": "The sample was randomly chosen from all students at one middle school. Results from a random sample can be generalized to the population that the sample came from."
     },
     {
-      "title": "Determine the largest group for generalization",
-      "content": "<ul><li>Because the sample is random, the results can be generalized to the population from which it was drawn, i.e., all students at that school.</li><li>Since only one school was sampled, generalization to all middle schools in the city or all students in the city is not justified.</li><li>Therefore the largest group to which the results can be generalized is all students at the school.</li><li>That confirms <strong>B</strong> is correct.</li></ul>"
+      "title": "Limit the conclusion",
+      "content": "Because no students from other schools were sampled, the study does not support generalizing to all middle school students in the city or all students in the city.\nThe answer is <strong>B</strong>."
     }
   ]
 }

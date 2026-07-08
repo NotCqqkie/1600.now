@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Compare each month's housing starts from the table",
-      "content": "<ul><li><strong>\"April.\"</strong>: April had 1,803 thousand starts &mdash; the highest value in the table. &#10003;</li><li><strong>\"March.\"</strong>: March had 1,713 thousand starts &mdash; lower than both April and February. &#10007;</li><li><strong>\"January.\"</strong>: January had 1,669 thousand starts &mdash; the lowest value in the table. &#10007;</li><li><strong>\"February.\"</strong>: February had 1,771 thousand starts &mdash; second highest, but still below April. &#10007;</li></ul>"
+      "title": "Find the highest table value",
+      "content": "The statement asks for the month with the highest number of housing starts in the first four months of 2022. The table's maximum value is 1,803 thousand."
     },
     {
-      "title": "Identify the maximum value",
-      "content": "Reading across the table: January 1,669 $\\Rightarrow$ February 1,771 $\\Rightarrow$ March 1,713 $\\Rightarrow$ April 1,803. The peak is 1,803, which falls in April. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Compare the lower months",
+      "content": "B is lower at 1,713 thousand, C is lower at 1,669 thousand, and D is lower at 1,771 thousand. The statement must use the 1,803-thousand maximum. The answer is <strong>A</strong>."
     }
   ]
 }

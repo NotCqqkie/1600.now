@@ -1,0 +1,15 @@
+{
+  "questionId": "f5c21da5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the species' preferences",
+      "content": "The researchers found that small white herons prefer areas with extensive canopy cover, but glossy ibises do not. A management strategy that increases tree canopy should therefore be expected to appeal more to herons than to glossy ibises."
+    },
+    {
+      "title": "Avoid unsupported outcomes",
+      "content": "B shifts to lifespan, which the study did not examine. C says canopy increases would decrease appeal to both species, contradicting the heron finding. D introduces non-wetland birds, which are not discussed. The conclusion should compare attraction of glossy ibises with attraction of small white herons. The answer is <strong>A</strong>."
+    }
+  ]
+}

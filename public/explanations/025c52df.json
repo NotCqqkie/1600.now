@@ -1,0 +1,15 @@
+{
+  "questionId": "025c52df",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the crop-variety claim",
+      "content": "The researchers concluded that lack of crop variety may reduce total pollen collection. Since Kampar has monoculture farms and Kerinci has multiple crops nearby, supporting evidence should show more pollen collection at Kerinci."
+    },
+    {
+      "title": "Use the direct pollen measure",
+      "content": "A concerns foraging observations, not total collected pollen. C shows source diversity rather than amount. D compares two colonies within Kerinci only. Higher pollen concentration in Kerinci honey directly supports the claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

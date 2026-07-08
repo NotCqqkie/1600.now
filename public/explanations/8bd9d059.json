@@ -1,0 +1,15 @@
+{
+  "questionId": "8bd9d059",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "$50\\%$ means one-half of a quantity. Since the question asks for $50\\%$ of $840$, the calculation is the same as taking half of $840$.<br/>$$50\\%=\\frac{50}{100}=\\frac{1}{2}$$"
+    },
+    {
+      "title": "Take half of the number",
+      "content": "Multiply $840$ by one-half. This gives the amount represented by $50\\%$ of the original number.<br/>$$\\frac{1}{2}\\cdot840=420$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

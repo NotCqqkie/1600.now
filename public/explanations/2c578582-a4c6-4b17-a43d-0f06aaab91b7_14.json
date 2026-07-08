@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rewrite trick for $f(1)$",
-      "content": "An exponential $f(x) = a \\cdot b^{x-1}$ has $f(1) = a \\cdot b^{0} = a$. So if the exponent has the form $x - 1$, the coefficient $a$ <em>is</em> $f(1) = k$."
+      "title": "Connect the form to f of one",
+      "content": "The value $f(1)$ appears as a coefficient when the exponential expression is written with exponent $x-1$."
     },
     {
-      "title": "Pick the form with exponent $x-1$",
-      "content": "Each choice represents the same exponential, just rewritten. The matching choice has the form $f(x) = 144.5(1.7)^{x-1}$, so:<br/>$$f(1) = 144.5(1.7)^{0} = 144.5$$<br/>The coefficient $144.5$ <strong>is</strong> $k = f(1)$ — exactly what the question asks for. <strong>C</strong> is correct."
+      "title": "Identify the matching form",
+      "content": "In the form<br/>$$f(x)=98(1.4)^{x-1}$$substituting $x=1$ makes the exponent $0$.<br/>$$f(1)=98(1.4)^0=98$$So this form shows $k$ as the coefficient. The answer is <strong>C</strong>."
     }
   ]
 }

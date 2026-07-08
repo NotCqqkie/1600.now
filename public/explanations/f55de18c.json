@@ -1,0 +1,15 @@
+{
+  "questionId": "f55de18c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the two-part structure",
+      "content": "The first part says innovation studies overemphasize examples that suggest technology always becomes more complex. The wheel-ceramics example represents that familiar progress-toward-complexity story. The second part presents Haddad's gold metallurgy research as an exception, showing a Bronze Age case where sophisticated techniques declined."
+    },
+    {
+      "title": "Choose the counterexample frame",
+      "content": "The text moves from a repeated interpretation to a counterexample showing that simpler processes can replace advanced methods. That is exactly the role of a counterexample: it limits an overbroad interpretation rather than disproving all technological development. A invents several origin studies, B adds controversy, and D says Haddad is criticized. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0e47251d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the angle sum",
+      "content": "The triangle has a right angle, an angle of $24^\\circ$, and the unknown angle $a$. The interior angles of a triangle sum to $180^\\circ$."
+    },
+    {
+      "title": "Find the missing angle",
+      "content": "Set up and solve:\n$$90^\\circ+24^\\circ+a=180^\\circ$$\n$$a=180^\\circ-90^\\circ-24^\\circ=66^\\circ$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

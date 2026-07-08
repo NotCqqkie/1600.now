@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Clarify what sequence to recount",
-      "content": "The phrase “recount the sequence of events proposed by the researchers” asks us to describe the historical events the researchers believe occurred—not the steps of their research process."
+      "title": "Recount events, not research",
+      "content": "The student needs the sequence of events the researchers proposed: Chrysalis came close to Saturn, tidal forces broke it apart, and the resulting debris formed Saturn's rings."
     },
     {
-      "title": "Match the proposed sequence",
-      "content": "<strong>Around 160 million years ago, a large moon (Chrysalis) came close enough to Saturn that tidal forces broke the moon apart; its debris then formed the planet's rings.</strong> directly sequences the actual events: Chrysalis came close to Saturn, tidal forces broke it apart, and its debris formed the rings.<br/><br/>The others either contradict this causality, present only theory without the specific sequence, or describe research methodology instead of proposed events.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Match the sequence",
+      "content": "Choice A reverses cause by saying ring debris broke the moon apart. Choice B gives only a general principle. Choice C correctly sequences approach, breakup, and ring formation. Choice D describes the researchers' process, not the proposed events. The answer is <strong>C</strong>."
     }
   ]
 }

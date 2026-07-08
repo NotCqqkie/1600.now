@@ -1,0 +1,15 @@
+{
+  "questionId": "1e9ca563",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the preservation rule",
+      "content": "The passage says wood exposed to air and water rots quickly unless sediment protects it from oxygen. The ship's wooden hull survived in the quarry."
+    },
+    {
+      "title": "Infer the protective condition",
+      "content": "If the wood survived, the likely explanation is that sediment shielded it from oxygen. A, B, and C introduce theories about wood type, age, or other ships that the passage does not support. The answer is <strong>D</strong>."
+    }
+  ]
+}

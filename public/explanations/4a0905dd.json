@@ -1,0 +1,19 @@
+{
+  "questionId": "4a0905dd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the expression",
+      "content": "Group the four terms in pairs:\n$$\n5x^2-8x+15x-24=(5x^2-8x)+(15x-24)\n$$"
+    },
+    {
+      "title": "Factor each group",
+      "content": "Each group has a common factor:\n$$\nx(5x-8)+3(5x-8)\n$$\nNow factor out the shared binomial:\n$$\n(x+3)(5x-8)\n$$"
+    },
+    {
+      "title": "Identify the factor",
+      "content": "The expression $x+3$ is a factor. The answer is <strong>D</strong>."
+    }
+  ]
+}

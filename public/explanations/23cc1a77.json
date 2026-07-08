@@ -1,0 +1,15 @@
+{
+  "questionId": "23cc1a77",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the same distance",
+      "content": "The car travels $2{,}100$ miles using $42$ gallons. The question asks for that same distance in kilometers."
+    },
+    {
+      "title": "Apply the conversion factor",
+      "content": "Each mile is $1.6$ kilometers, so multiply:<br/>$$2{,}100\\cdot1.6=3{,}360$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "d79c9d57",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root product",
+      "content": "For a quadratic $ax^2+bx+c=0$, the product of the solutions is $c/a$.",
+      "formula": "$$\\text{product of roots} = \\frac{c}{a}$$"
+    },
+    {
+      "title": "Substitute the coefficients",
+      "content": "Here, $a=1$ and $c=-80$.<br/>$$c/a=-80/1=-80$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the isosceles triangle",
-      "content": "This problem uses isosceles-triangle properties rather than Pythagoras. Since $PQ = QR$, triangle $PQR$ is isosceles, so the base angles opposite the equal sides are equal: angle $P$ = angle $R$."
+      "title": "Use equal side lengths",
+      "content": "Since $PQ=QR$, triangle $PQR$ is isosceles. The angles opposite those equal sides are also equal."
     },
     {
-      "title": "Compute the requested value",
-      "content": "With angle $P = 24^{\\circ}$, the base-angle equality gives angle $R = 24^{\\circ}$, and the diagram labels angle $R$ as $x^{\\circ}$:<br/>$$x = 24$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Match the base angles",
+      "content": "The diagram shows one base angle as $24^{\\circ}$, so the other base angle labeled $x^{\\circ}$ also measures $24^{\\circ}$. Therefore $x=24$. The answer is <strong>D</strong>."
     }
   ]
 }

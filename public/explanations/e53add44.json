@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the exponential growth model",
-      "content": "In the function $S(n) = 42000 \\cdot a^n$, the parameter $a$ is the annual growth factor (multiplier per year). We need to find the value of $a$ that represents a 6% annual salary increase."
+      "title": "Convert the percent increase",
+      "content": "A $6\\%$ increase means the salary keeps the original $100\\%$ and adds $6\\%$ more.\n$$100\\%+6\\%=106\\%$$"
     },
     {
-      "title": "Test the remaining alternative (1.06)",
-      "content": "Backsolving by testing the candidate (1.06): If $a = 1.06$, each year the salary is multiplied by 1.06.<br/><br/>This represents a 6% increase because $1.06 = 1 + 0.06$, where 0.06 is the decimal form of 6%.<br/><br/>So $S(1) = 42000 \\cdot 1.06$ gives a 6% increase from the starting salary.<br/><br/>That matches the correct answer: <strong>C</strong> is correct."
+      "title": "Write the growth factor",
+      "content": "Convert $106\\%$ to a decimal multiplier.\n$$106\\%=1.06$$\nIn $S(n)=42{,}000\\cdot a^n$, $a$ is this yearly multiplier. The answer is <strong>C</strong>."
     }
   ]
 }

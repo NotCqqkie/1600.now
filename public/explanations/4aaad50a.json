@@ -1,0 +1,15 @@
+{
+  "questionId": "4aaad50a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the overlap in effects",
+      "content": "The passage says mammal studies had larger average differences than amphibian studies, but every animal class had individual studies above the mammal average. That means at least some amphibian studies exceeded at least some mammal studies."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice B discusses whether studies specified detrimental effects, which the passage does not address. Choice C reverses the stated averages by making amphibian effects generally more pronounced. Choice D makes an unsupported claim about one specific kangaroo rat study. The supported inference is about overlap between individual studies. The answer is <strong>A</strong>."
+    }
+  ]
+}

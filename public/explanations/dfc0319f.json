@@ -1,0 +1,15 @@
+{
+  "questionId": "dfc0319f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare old belief with findings",
+      "content": "Researchers had thought defensive ultrasound was limited to tiger moths, hawkmoths, and one geometer species. Keller and colleagues then tested moths from 252 genera across most families of large-bodied moths and found defensive clicks in 52 genera, including several geometer genera."
+    },
+    {
+      "title": "Remove unsupported inferences",
+      "content": "Choice A claims most moth genera lack bat defenses, but the study only reports which tested genera produced ultrasonic clicks. Choice B invents uses for ultrasound beyond avoiding predators. Choice C invents other anti-bat strategies. Choice D states that anti-bat ultrasound may be more common among large-bodied moths than researchers previously knew. The answer is <strong>D</strong>."
+    }
+  ]
+}

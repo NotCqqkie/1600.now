@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the function notation",
-      "content": "In the function $f(x) = 70(1.04)^x$:<ul><li>$x$ = years after Sonia purchased the vase</li><li>$f(x)$ = predicted vase value in dollars</li></ul>Therefore, $f(6)$ represents the predicted value 6 years after purchase."
+      "title": "Interpret the input",
+      "content": "The function gives the predicted value of the vase $x$ years after Sonia purchased it. Therefore, $x=6$ means $6$ years after Sonia purchased the vase."
     },
     {
-      "title": "Interpret the given statement",
-      "content": "The statement <em>$f(6)$ is approximately equal to 89</em> means: 6 years after Sonia purchased the vase, the predicted value is approximately 89 dollars.<br/><br/>That matches <strong>choice D</strong>, so <strong>D</strong> is correct."
+      "title": "Interpret the output",
+      "content": "The value $f(6)$ is approximately $89$, so the predicted value is approximately $89$ dollars when $x=6$. The statement describes the vase's predicted value $6$ years after purchase. The answer is <strong>D</strong>."
     }
   ]
 }

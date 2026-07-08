@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrasting relationship",
-      "content": "The passage sets up a contrast: topographic maps show elevation above sea level, bathymetric maps show it below the sea."
+      "title": "Identify the opposition",
+      "content": "Topographic maps show elevations above sea level, while bathymetric maps show elevations below the sea. The transition must mark the contrast between those two domains."
     },
     {
-      "title": "Match the transition to the opposition",
-      "content": "<strong>“By contrast”</strong> is correct because it marks the opposition the passage sets up: bathymetric and topographic maps operate in opposite domains.<br/><br/>The others fail: “for example” suggests equivalence, “in conclusion” is inappropriate for introducing new information, and “afterward” implies temporal sequence rather than opposition.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject noncontrast signals",
+      "content": "Choice A signals a conclusion, but the sentence introduces a new contrast. Choice B signals an example, though bathymetric maps are not an example of topographic maps. Choice D signals time order, which is irrelevant here. The answer is <strong>C</strong>."
     }
   ]
 }

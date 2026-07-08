@@ -1,0 +1,15 @@
+{
+  "questionId": "8be5a870",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two sentences",
+      "content": "The words before the blank form a complete sentence about ranching terms coming from Spanish. The words after the blank begin another complete sentence giving examples with \"lasso\" and \"cinch.\""
+    },
+    {
+      "title": "Reject broken punctuation",
+      "content": "Choice B opens a parenthesis without creating a proper sentence boundary. Choice C fuses two independent clauses. Choice D uses a question mark even though the first sentence is not a question. The answer is <strong>A</strong>."
+    }
+  ]
+}

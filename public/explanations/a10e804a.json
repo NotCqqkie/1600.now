@@ -1,0 +1,15 @@
+{
+  "questionId": "a10e804a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the exception",
+      "content": "The first sentence gives a general possibility: a successful debut novelist may struggle with a follow-up. The next sentence says Tommy Orange's follow-up elevated his reputation. The transition must show that this is a possible exception to the usual concern."
+    },
+    {
+      "title": "Reject example signals",
+      "content": "Choice A and Choice D make Orange's case sound like a direct illustration of the struggle, but his sequel does the opposite. Choice B signals a result, as if success should naturally cause an elevated reputation. The needed transition introduces a case that can occur despite the general risk. The answer is <strong>C</strong>."
+    }
+  ]
+}

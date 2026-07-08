@@ -1,0 +1,15 @@
+{
+  "questionId": "2ed92b8d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each cost term",
+      "content": "The bread costs $3$ dollars. The cherries cost $1.40$ dollars per pound, so $p$ pounds of cherries cost $1.40p$ dollars."
+    },
+    {
+      "title": "Set the total cost",
+      "content": "Add the cherry cost and bread cost, then set the sum equal to the total paid.<br/>$$1.40p+3=8.60$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

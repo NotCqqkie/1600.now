@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Rewrite line l",
-      "content": "Start with $5y+25x=8$. Move the $25x$ term to the other side and divide by $5$:<br/>$$5y=-25x+8$$<br/>$$y=-5x+\\frac{8}{5}$$"
+      "content": "Put the equation in slope-intercept form.<br/>$$5y+25x=8$$<br/>$$5y=-25x+8$$<br/>$$y=-5x+\\frac{8}{5}$$<br/>Line $l$ has slope $-5$."
     },
     {
-      "title": "Read the slope",
-      "content": "In $y=mx+b$, the slope is $m$. Line $l$ has slope $-5$."
-    },
-    {
-      "title": "Use the perpendicular shortcut",
-      "content": "A perpendicular slope is the negative reciprocal:<br/>$$m_n=-\\frac{1}{-5}=\\frac{1}{5}=0.2$$"
-    },
-    {
-      "title": "Answer",
-      "content": "The slope of line $n$ is <strong>0.2</strong>."
+      "title": "Find the perpendicular slope",
+      "content": "A perpendicular slope is the negative reciprocal of the original slope.<br/>$$-\\frac{1}{-5}=\\frac{1}{5}=0.2$$<br/>The answer is <strong>0.2</strong>."
     }
   ]
 }

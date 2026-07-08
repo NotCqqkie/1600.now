@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the cause-effect relationship",
-      "content": "The passage establishes that trimethylamine N-oxide strengthens bonds between water molecules.<br/><br/>The next sentence—beginning with the blank—continues by saying these water molecules maintain their structure, with “thus preventing pressure-related damage” indicating the ultimate result.<br/><br/>The transition must connect the cause (strengthened bonds) to the effect (maintained structure)."
+      "title": "Follow the result chain",
+      "content": "Trimethylamine N-oxide strengthens bonds between water molecules. The next sentence says those molecules maintain their linked structure at extreme depths, preventing pressure-related damage."
     },
     {
-      "title": "Select the cause-effect transition",
-      "content": "“As a result” directly expresses this consequence: strengthened bonds cause water molecules to maintain their structure. The others introduce contrast relationships or examples, neither of which fits this cause-effect pattern. That matches <strong>Choice B &mdash; As a result,</strong>."
+      "title": "Reject contrasts and examples",
+      "content": "A and C signal contrast, and D introduces an example. The relationship here is cause and effect: strengthened bonds lead to maintained structure. The answer is <strong>B</strong>."
     }
   ]
 }

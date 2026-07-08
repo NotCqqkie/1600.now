@@ -1,0 +1,15 @@
+{
+  "questionId": "b864c410",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the near-zero evidence",
+      "content": "The sentence contrasts strong effects on individual consumers with national-level effects. The example says recent oil shocks had an effect on China's GDP that was only slightly greater than zero, so the blank needs a word meaning muted or small in force."
+    },
+    {
+      "title": "Reject unsupported qualities",
+      "content": "B means inconsistent or changing, but the example is about size, not variability. C means helpful, which the near-zero GDP effect does not show. D means lasting over time, but the evidence does not discuss duration. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d26487c3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer back to daytime",
+      "content": "The first sentence says poisonous amphibians can migrate during the day. The second explains what happens with the sun in the sky: their warning colors deter daytime predators. The transition should point back to that time."
+    },
+    {
+      "title": "Choose the temporal link",
+      "content": "Choice B would introduce an example, Choice C would restate the prior sentence, and Choice D would signal contrast. The second sentence instead explains daytime protection. The answer is <strong>A</strong>."
+    }
+  ]
+}

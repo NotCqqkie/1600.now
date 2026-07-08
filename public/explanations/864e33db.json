@@ -1,0 +1,15 @@
+{
+  "questionId": "864e33db",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the field connection",
+      "content": "The passage presents Harding as an early contributor to US cryptology. It then says Harding and others helped make it possible for more women, including Maya Zorya, to enter the field of cryptology. No personal contact between them is described."
+    },
+    {
+      "title": "Reject invented links",
+      "content": "A invents direct teaching. B invents a shared early career. C says Harding founded an organization that Zorya works for, which the passage never states. The supported relationship is that Harding contributed earlier to the same field Zorya works in now. The answer is <strong>D</strong>."
+    }
+  ]
+}

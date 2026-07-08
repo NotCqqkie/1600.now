@@ -1,0 +1,15 @@
+{
+  "questionId": "9a1e928d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interrupting phrase",
+      "content": "The phrase <em>according to legal researchers James Melton and Tom Ginsburg</em> interrupts the main clause between the subject <em>Iceland's constitution</em> and the verb <em>contains</em>. Since the phrase begins after a comma, it needs a comma at the end too."
+    },
+    {
+      "title": "Keep the names attached",
+      "content": "Choice A leaves the interrupting phrase unclosed. Choice B splits <em>legal researchers</em> from the names and still lacks a closing comma. Choice D ends the sentence, leaving a fragment. A comma after <em>Ginsburg</em> closes the inserted phrase. The answer is <strong>C</strong>."
+    }
+  ]
+}

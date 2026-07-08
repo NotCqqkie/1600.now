@@ -1,19 +1,15 @@
 {
   "questionId": "a255ae72",
-  "qid": "a255ae72",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Compute $x^2 - y^2$ using substitution. Given $x^2 = a + b$ and $y^2 = a + c$: $x^2 - y^2 = (a + b) - (a + c) = b - c$. The $a$ terms cancel."
+      "title": "Subtract the two expressions",
+      "content": "Use the given values of $x^2$ and $y^2$ directly. The shared $a$ term cancels when the two expressions are subtracted.<br/>$$x^2-y^2=(a+b)-(a+c)$$<br/>$$x^2-y^2=b-c$$"
     },
     {
-      "explanation": "Square the result: $(x^2 - y^2)^2 = (b - c)^2$."
-    },
-    {
-      "explanation": "Expand using the perfect square formula $(p - q)^2 = p^2 - 2pq + q^2$: $(b - c)^2 = b^2 - 2bc + c^2$."
-    },
-    {
-      "explanation": "Evaluate each choice.<ul><li><strong>Choice A &mdash; $a^2 -2a c + c^2$</strong>: this would be $(a - c)^2$, but $a$ cancels out when computing $x^2 - y^2$. No $a$ should appear. Eliminate A.</li><li><strong>Choice B &mdash; $b^2 -2b c + c^2$</strong>: this is exactly $(b - c)^2$, matching our derivation. This is correct.</li><li><strong>Choice C &mdash; $4a^2 -4a b c + c^2$</strong>: contains $a$ terms and mixed coefficients inconsistent with $(b-c)^2$. Eliminate C.</li><li><strong>Choice D &mdash; $4a^2 -2a b c + b^2c^2$</strong>: contains $a$ and a product $b^2c^2$ which cannot come from $(b-c)^2$. Eliminate D.</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Square and expand",
+      "content": "Now square that difference and expand the perfect square.<br/>$$(x^2-y^2)^2=(b-c)^2$$<br/>$$(b-c)^2=b^2-2bc+c^2$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

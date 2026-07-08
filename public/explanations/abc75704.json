@@ -1,0 +1,15 @@
+{
+  "questionId": "abc75704",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the expected pattern",
+      "content": "The hypothesis predicts an inverse relationship between body size and association with other species. Because the gnatwren is much smaller than the woodpecker, it should be more likely to join multispecies groups."
+    },
+    {
+      "title": "Pick the matching finding",
+      "content": "B compares the gnatwren only with similarly sized species. C says the smaller bird joins other species less often than the larger bird, which weakens the prediction. D shows a benefit of flocking but not the body-size pattern. The finding with the smaller bird frequently in multispecies flocks supports the hypothesis. The answer is <strong>A</strong>."
+    }
+  ]
+}

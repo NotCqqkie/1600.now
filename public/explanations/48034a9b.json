@@ -1,0 +1,15 @@
+{
+  "questionId": "48034a9b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the distance prediction",
+      "content": "The hypothesis predicts that languages farther from Africa retained fewer sounds from the original language. Evidence supports it if a region closer to Africa has more sounds than a region farther away."
+    },
+    {
+      "title": "Reject opposite patterns",
+      "content": "Choice A gives more sounds to the farther region. Choice C gives fewer sounds to the closer region. Choice D compares regions at about the same distance, so it does not test the distance pattern. The remaining finding follows the predicted closer-more, farther-fewer pattern. The answer is <strong>B</strong>."
+    }
+  ]
+}

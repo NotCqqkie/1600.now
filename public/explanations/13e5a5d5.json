@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$5 \\left|x\\right|=45$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $9$.",
+      "title": "Isolate the absolute value",
+      "content": "Start with<br/>$$5|x|=45$$<br/>Divide both sides by $5$.<br/>$$|x|=9$$"
+    },
+    {
+      "title": "Use distance from zero",
+      "content": "The equation $|x|=9$ means $x$ is $9$ units from $0$, so the two solutions are opposites."
+    },
+    {
+      "title": "Pick the positive value",
+      "content": "The question asks for the positive solution, so use the positive value from the two absolute-value solutions."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation as written and choose the positive intersection. The answer is <strong>9</strong>.",
       "desmosExpressions": [
         "5 \\left|x\\right|=45"
       ]
-    },
-    {
-      "title": "Isolate the absolute value",
-      "content": "Start with $5|x|=45$. Divide both sides by $5$:<br/>$$|x|=9$$"
-    },
-    {
-      "title": "Use the meaning of absolute value",
-      "content": "$|x|=9$ means the distance from $x$ to $0$ is $9$. The two possible values are:<br/>$$x=9\\quad\\text{or}\\quad x=-9$$"
-    },
-    {
-      "title": "Pick the positive solution",
-      "content": "The question asks for the positive solution, so choose $9$, not $-9$."
     }
   ]
 }

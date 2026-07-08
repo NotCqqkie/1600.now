@@ -1,0 +1,19 @@
+{
+  "questionId": "b3edf129",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the mean",
+      "content": "The removed value, $78.2^\\circ\\text{F}$, is the high value from the histogram. Removing a value above the original mean must make the mean of the remaining data set lower, so statement I must be true."
+    },
+    {
+      "title": "Check the median",
+      "content": "The original data set has $11$ values, so its median is the $6$th sorted value. After removing the largest value, the new data set has $10$ values, so its median is the average of the old $5$th and $6$th sorted values. Those two values could be equal, so the median does not have to be less."
+    },
+    {
+      "title": "Select the true statement",
+      "content": "Only statement I must be true. The answer is <strong>A</strong>."
+    }
+  ]
+}

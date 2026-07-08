@@ -1,0 +1,15 @@
+{
+  "questionId": "9983f8d4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Ignore the parenthetical",
+      "content": "The phrase \"such as the domestic goat (<em>Capra aegagrus hircus</em>)\" is only an example set off by commas. Remove that interruption, and the core sentence is \"even-toed ungulates ______ to a vast and diverse order of animals.\" The subject \"ungulates\" is plural."
+    },
+    {
+      "title": "Choose the plural verb",
+      "content": "Choice A, \"belongs,\" is singular. Choice B uses the singular auxiliary \"has,\" and Choice C uses the singular auxiliary \"is.\" A plural subject needs the plural present-tense verb \"belong\" to state the general classification: even-toed ungulates belong to a vast order of animals. The answer is <strong>D</strong>."
+    }
+  ]
+}

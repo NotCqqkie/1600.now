@@ -1,0 +1,23 @@
+{
+  "questionId": "c7a4e704",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the missing measure",
+      "content": "Harper et al.'s research question is whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions. The team already calculated, for each extended-brand pair, how purchase probability changed when the same brand was purchased in the other category. The missing measure is how similar consumers perceive the paired product categories to be."
+    },
+    {
+      "title": "Connect the right variables",
+      "content": "The useful design must connect the two variables named in the research question: perceived similarity between the product categories and the already calculated change in purchase probability for each extended-brand pair. Studies focused on other variables would not show whether category similarity predicts purchasing behavior."
+    },
+    {
+      "title": "Rule out mismatched variables",
+      "content": "<ul><li><strong>Choice B - Poll a representative sample of the households to determine the degree of brand recognition of each brand in the extended-brand pairs</strong>: Brand recognition is not perceived category similarity, and average cost is not purchase probability.</li><li><strong>Choice C - Have a representative sample of the households rate the similarity of one product in each extended-brand pair to other products in the same category</strong>: This measures similarity within one category, not similarity between the two categories in an extended-brand pair.</li></ul>"
+    },
+    {
+      "title": "Reject the remaining mismatch",
+      "content": "Choice D - Poll a representative sample of the households to determine the degree of brand recognition for each brand in the extended-brand pairs. This still measures brand recognition rather than category similarity, and it compares that recognition with purchase frequency from a different group of households. Choice A - Have a representative sample of the households rate the similarity of the product categories in each extended-brand pair - is the design that tests the stated research question. The answer is <strong>A</strong>."
+    }
+  ]
+}

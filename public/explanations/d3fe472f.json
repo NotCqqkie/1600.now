@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding sides",
-      "content": "Triangle $PQR$ has side lengths 2 times the corresponding side lengths of triangle $LMN$. Side $LM$ corresponds to side $PQ$."
-    },
-    {
-      "title": "Identify corresponding sides",
-      "content": "Since $L$ corresponds to $P$, $M$ corresponds to $Q$, and $N$ corresponds to $R$, side $LM$ corresponds to side $PQ$."
+      "title": "Match corresponding sides",
+      "content": "Since $L$ corresponds to $P$ and $M$ corresponds to $Q$, side $LM$ corresponds to side $PQ$."
     },
     {
       "title": "Apply the scale factor",
-      "content": "Each side of triangle $PQR$ is 2 times the corresponding side in triangle $LMN$. Therefore:<br/>$$PQ = 2 \\cdot LM = 2 \\cdot 18 = 36$$<br/>That matches the correct answer - <strong>D</strong> is correct."
+      "content": "Each side of triangle $PQR$ is $2$ times the corresponding side in triangle $LMN$. Therefore,<br/>$$PQ=2\\cdot LM=2\\cdot 18=36$$"
+    },
+    {
+      "title": "Select the matching length",
+      "content": "The measure of side $PQ$ is $36$. The answer is <strong>D</strong>."
     }
   ]
 }

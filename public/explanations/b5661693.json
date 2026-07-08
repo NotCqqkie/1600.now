@@ -1,0 +1,15 @@
+{
+  "questionId": "b5661693",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use both required facts",
+      "content": "The student wants to explain what a merchant vessel is and provide examples. The relevant note says a merchant vessel is any ship hired to carry cargo or passengers and lists bulk carriers, cruise liners, and oil tankers as examples."
+    },
+    {
+      "title": "Remove off-goal details",
+      "content": "Choice A gives a Malta statistic but no examples. Choice B mentions examples and deadweight tonnage but does not define the term. Choice D focuses on Malta's total carrying capacity, not the definition or examples. The answer is <strong>C</strong>."
+    }
+  ]
+}

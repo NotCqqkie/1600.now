@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract and interpret the y-intercept",
-      "content": "The function is $f(x) = -4x + 36$. The y-intercept is the value when $x = 0$:<br/>$$f(0) = -4(0) + 36 = 36$$<br/>In this context, $x = 0$ means no mugs have been decorated yet, so 36 fluid ounces is the amount of paint Jordan had before he started decorating mugs."
+      "title": "Find the intercept",
+      "content": "The $y$-intercept is the value of the function when $x=0$.\n$$\nf(0)=-4(0)+36=36\n$$"
     },
     {
-      "title": "Match to the correct interpretation",
-      "content": "The y-intercept of 36 represents the initial paint amount, not a per-item rate. The matching choice states that Jordan had approximately 36 fluid ounces of paint when he began to decorate the mugs, which matches our interpretation of the y-intercept. This matches - <strong>C</strong> is correct."
+      "title": "Interpret the input",
+      "content": "Here, $x$ is the number of mugs decorated. So $x=0$ means Jordan has not decorated any mugs yet."
+    },
+    {
+      "title": "Match the context",
+      "content": "The intercept means Jordan had about $36$ fluid ounces of paint at the start. The answer is <strong>C</strong>."
     }
   ]
 }

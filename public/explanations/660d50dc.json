@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the relationship between the two sentences",
-      "content": "Sentence before blank: Taylor-Reed emphasized his mixed-race ancestry by calling himself Anglo-African. Sentence after blank: he incorporated traditional African music into his compositions. Both describe him actively foregrounding his African heritage&mdash;the second is another example of the same behavior."
+      "title": "Compare the two examples",
+      "content": "Taylor-Reed emphasized his mixed-race ancestry by calling himself Anglo-African. The next sentence gives another way he foregrounded African heritage: incorporating traditional African sounds into his classical compositions."
     },
     {
-      "title": "Identify the transition type needed",
-      "content": "Two examples of the same pattern (emphasizing African heritage verbally, then musically) call for an additive transition that signals &quot;here is another instance.&quot;"
-    },
-    {
-      "title": "Eliminate by rule violated",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In addition,&rsquo;</strong>: additive transition that correctly signals another example of the same behavior. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Actually,&rsquo;</strong>: signals correction or contradiction of a prior claim; nothing is being corrected. &#10007;</li><li><strong>Choice C &mdash; &lsquo;However,&rsquo;</strong>: signals contrast, but the two sentences agree rather than contrast. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Regardless,&rsquo;</strong>: signals that what follows occurs despite the prior point; the second sentence reinforces, not defies, the first. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Choose an additive transition",
+      "content": "B would correct the previous idea, C would contrast with it, and D would show something happening despite it. The second example adds to the same pattern. The answer is <strong>A</strong>."
     }
   ]
 }

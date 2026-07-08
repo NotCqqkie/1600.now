@@ -1,0 +1,15 @@
+{
+  "questionId": "25dba04b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare fungus counts only",
+      "content": "The conclusion is specifically about damaging fungus species: Austria had more than either Bulgaria or Belgium. The supporting data must compare Austria's fungus count with the fungus counts from those two countries."
+    },
+    {
+      "title": "Reject mixed or wrong data",
+      "content": "A omits Austria, B compares Austria's fungi with Bulgaria's insects, and C uses incorrect fungus counts. The relevant table data show Austria's 51 damaging fungus species exceeds the counts for both Bulgaria and Belgium. The answer is <strong>D</strong>."
+    }
+  ]
+}

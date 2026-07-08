@@ -1,0 +1,15 @@
+{
+  "questionId": "2be627da",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the transfer bottleneck",
+      "content": "The text identifies inefficient redox reactions as the obstacle to moving electrons from bacteria to an external electrode. Adding highly conductive silver nanoparticles increased power density, so the hypothesis should explain improved electron transfer."
+    },
+    {
+      "title": "Reject wrong mechanisms",
+      "content": "A changes the issue to bacterial metabolism and electron quantity. B treats silver as catalyzing reactions after direct transfer, which muddles the mechanism. C shifts to biofilm density independent of silver. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d87d95ce",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the robot-repair logic",
+      "content": "The passage says astronauts have made regular repair missions to keep the Hubble Space Telescope working. Robots would be helpful because continuing to depend on astronauts for those repairs can be expensive."
+    },
+    {
+      "title": "Reject illogical verbs",
+      "content": "Choice A creates the nonsensical phrase “straightening astronauts.” Choice C would mean reducing astronauts, which does not explain the cost problem. Choice D suggests forgetting about astronauts, which misstates the substitution logic."
+    },
+    {
+      "title": "Choose dependence on astronauts",
+      "content": "The remaining phrase correctly explains why robots could help: relying on human astronauts to maintain the telescope is costly. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "63e67fa6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the NATO interruption",
+      "content": "The sentence opens an interruption after \"NATO\" with an em dash and then lists member nations. After the final list item, the interruption must be closed before the main clause continues with \"are committed.\""
+    },
+    {
+      "title": "Match the opening dash",
+      "content": "A uses a semicolon, which can separate list items but cannot close the dash interruption. B uses a comma, and C uses no punctuation, so both leave the interruption improperly attached to the main clause. A matching em dash closes the interruption. The answer is <strong>D</strong>."
+    }
+  ]
+}

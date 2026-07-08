@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the constraint for decreasing population",
-      "content": "In the model $P = P_0(2+r)^y$, each year the population is multiplied by the factor $(2+r)$.<br/><br/>If the population decreases by a fixed percent each year, then each year's population must be less than the previous year's.<br/><br/>This means the multiplier must be less than 1:<br/>$$2 + r \\lt 1$$<br/>Subtracting 2 from both sides gives $r \\lt -1$."
+      "title": "Interpret the multiplier",
+      "content": "In the model\n$$P=P_0(2+r)^y$$\nthe yearly multiplier is $2+r$."
     },
     {
-      "title": "Ensure population stays positive for all years",
-      "content": "A population cannot be negative. For the expression $(2+r)^y$ to remain positive for any positive value of $y$, the base $(2+r)$ itself must be positive (if the base were negative, odd powers would be negative, making $P$ negative).<br/><br/>Therefore:<br/>$$2 + r \\gt 0$$<br/>Subtracting 2 from both sides gives $r \\gt -2$."
+      "title": "Set the decrease condition",
+      "content": "For a fixed percent decrease, the multiplier must be positive and less than $1$. This makes each year's population smaller while keeping the model positive.\n$$0\\lt2+r\\lt1$$"
     },
     {
-      "title": "Combine the constraints on r",
-      "content": "From Step 1, we need $r \\lt -1$ for the population to decrease. From Step 2, we need $r \\gt -2$ for the population to remain positive. Both conditions must hold simultaneously:<br/>$$-2 \\lt r \\lt -1$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Solve the compound inequality",
+      "content": "Subtract $2$ from all three parts. The result is the interval where the multiplier is between $0$ and $1$.\n$$-2\\lt r\\lt -1$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

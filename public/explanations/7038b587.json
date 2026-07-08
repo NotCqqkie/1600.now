@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate party favor expenses",
-      "content": "Dana bought 9 packages at \\$4 each: $$9 \\times 4 = 36$$ dollars spent on party favors."
+      "title": "Find party favor cost",
+      "content": "Party favors cost $9(4)=36$ dollars."
     },
     {
-      "title": "Find muffin count from remaining budget",
-      "content": "Budget remaining for muffins: $$84 - 36 = 48$$ dollars. Since each muffin costs \\$1, she bought 48 muffins."
+      "title": "Use the remaining money",
+      "content": "Remaining money is $84-36=48$ dollars. At $1$ each, she bought $48$ muffins. The answer is <strong>48</strong>."
     }
   ]
 }

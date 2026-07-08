@@ -1,0 +1,15 @@
+{
+  "questionId": "76c185c2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on latitude",
+      "content": "The conclusion says deceptive displays are mediated by environmental variation tied to absolute latitude, independent of avian order. Strong support must show display prevalence changing with latitude across the studied orders."
+    },
+    {
+      "title": "Eliminate order-based claims",
+      "content": "A reports where birds brood but not display prevalence by latitude. B and C make the pattern depend on particular orders, which conflicts with the conclusion's order-independent claim. A cross-order increase from lower to higher latitude supports the researchers. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the line from the points",
-      "content": "Use the table points $(0,-2)$ and $(2,4)$. The slope is $$m=\\frac{4-(-2)}{2-0}=3,$$ and the $y$-intercept is $-2$. So $$f(x)=3x-2.$$"
+      "title": "Find the linear rule",
+      "content": "Using the table points $(0,-2)$ and $(2,4)$, the slope is<br/>$$\\frac{4-(-2)}{2-0}=3$$<br/>Since $f(0)=-2$, the rule is<br/>$$f(x)=3x-2$$"
     },
     {
-      "title": "Evaluate f(3)",
-      "content": "$$f(3)=3(3)-2=7.$$ The value is $7$, which matches <strong>B</strong>. This uses the requested input $x=3$, not the table input $x=2$, so it answers the actual question."
+      "title": "Evaluate at three",
+      "content": "Substitute $x=3$:<br/>$$f(3)=3(3)-2=7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

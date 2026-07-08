@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the causal sequence",
-      "content": "The passage establishes that environmental stress causes bleaching (algae expelled, corals turn white), and then bleached corals produce bright colors to recover algae. Bright colors appear only in this recovery phase."
+      "title": "Follow the bleaching sequence",
+      "content": "The text gives a cause-and-effect chain: environmental stress can kill or expel algae, which makes corals appear white. To recover algae, bleached corals produce bright colors that block intense sunlight."
     },
     {
-      "title": "Match the sequence to the answer",
-      "content": "The correct answer directly matches the passage: corals producing bright colors are those that have experienced environmental stress and bleaching. The other three contradict the text's account of bright colors and algae.<br/><br/>That is the correct answer."
+      "title": "Reject claims about recovery",
+      "content": "B compares vulnerability to white corals without support. C says recovery happens without algae, but the colors encourage algae to return. D claims bright corals survive better without algae, which the text never says. The answer is <strong>A</strong>."
     }
   ]
 }

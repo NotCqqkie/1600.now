@@ -1,0 +1,15 @@
+{
+  "questionId": "70d5be55",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the honeybee threshold",
+      "content": "The passage says foraging honeybees have a maximum positive charge high enough to facilitate electrostatic pollen transfer. The graph must therefore support a pollinator that reaches at least that same useful charge level."
+    },
+    {
+      "title": "Rule out unsupported claims",
+      "content": "Choice A points to houseflies, which the graph does not show meeting the honeybee charge level. Choice C invents a specific minimum above 100 pC. Choice D misstates the data and says pollinators with greater charges should not show the capacity. Anna's hummingbirds match the needed charge comparison. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pattern of data presentation",
-      "content": "The sentence establishes a structure: it names California with a specific range (2,600–2,800 farms) and uses “and” to introduce another state's count. The task is to complete this parallel structure with accurate data from the graph showing the next point of comparison."
+      "title": "Read the graph range",
+      "content": "The sentence needs a graph-supported comparison with California's 2016 organic farm count. The graph shows Washington in the 600-to-800 range, while California is much higher at 2,600 to 2,800 farms."
     },
     {
-      "title": "Match the graph values to the choices",
-      "content": "Washington's bar shows approximately 650 organic farms, fitting squarely within the 600–800 range.<br/><br/>This choice mirrors the format of the California statement and provides a true contrast: California, the state with the most farms, is paired with Washington, another state shown on the graph with a significantly lower count.<br/><br/>The other choices misread the graph: New York reaches roughly 1,050 (not fewer than 800), Iowa sits around 700 (not 1,200–1,400), and Pennsylvania stands near 750 (not more than 1,200). <br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject mismatched ranges",
+      "content": "Choice B gives New York as fewer than 800, but the graph places it higher. Choice C says Wisconsin and Iowa each fall between 1,200 and 1,400, which does not match both states. Choice D overstates Pennsylvania's count."
+    },
+    {
+      "title": "Use the supported state count",
+      "content": "The remaining choice correctly states that Washington had between 600 and 800 organic farms. The answer is <strong>A</strong>."
     }
   ]
 }

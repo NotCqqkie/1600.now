@@ -1,0 +1,19 @@
+{
+  "questionId": "d23a37e5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed evidence",
+      "content": "The student claims irrigation is humanity's principal use of water. Strong evidence must compare irrigation with other water uses, not just describe irrigation history or technology."
+    },
+    {
+      "title": "Eliminate narrower quotations",
+      "content": "Choice A identifies the first known irrigation system in one region, so it does not show irrigation's overall importance. Choice C describes sprinkler systems in the southwestern United States, and Choice D describes design features of an ancient Hohokam system. Those details are about location, technology, or history, not humanity's main use of water."
+    },
+    {
+      "title": "Choose the global comparison",
+      "content": "Choice B states that roughly 70% of the world's water withdrawals are for irrigation. Because that quotation gives a worldwide share of water withdrawals and shows irrigation takes the largest portion, it directly supports the claim that irrigation is humanity's principal use of water. The answer is <strong>B</strong>."
+    }
+  ]
+}

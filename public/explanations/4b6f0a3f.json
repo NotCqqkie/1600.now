@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use the sum shortcut",
-      "content": "For a quadratic $ax^2+bx+c=0$, the sum of the two solutions is $-\\dfrac{b}{a}$. Here $a=1$ and $b=-7$."
+      "content": "For a quadratic equation $ax^2+bx+c=0$, the sum of the solutions is\n$$-\\frac{b}{a}$$\nHere, $a=1$ and $b=-7$."
     },
     {
       "title": "Compute the sum",
-      "content": "$$-\\dfrac{b}{a}=-\\dfrac{-7}{1}=7.$$ So the sum of the solutions is <strong>7</strong>."
-    },
-    {
-      "title": "Check by factoring",
-      "content": "As a check, $x^2-7x-30=(x-10)(x+3)$, so the solutions are $10$ and $-3$. Their sum is $10+(-3)=7$."
+      "content": "$$-\\frac{-7}{1}=7$$\nThe answer is <strong>7</strong>."
     }
   ]
 }

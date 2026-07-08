@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This Text Structure and Purpose question asks for the overall structure of the passage. The decisive clue is the final sentence: researchers &quot;are hopeful that this discovery could aid in the development of new antibiotics for human use&quot; — the passage pivots from what was found to where it points next, signaling a two-part structure: findings, then future research direction."
+      "title": "Track the passage structure",
+      "content": "The passage first reports what researchers found about Matabele ants: they can identify infected wounds, treat them with antimicrobial secretions, and greatly reduce mortality among ants with infected injuries. Those details are research findings, not a description of a problem or a list of experimental steps."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — It summarizes research findings on Matabele ants and then identifies an area for further research.</strong>: Matches the passage exactly. The first two sentences report what the team discovered (ants detect and treat infected wounds; mortality reduced by 90%). The final sentence points toward future antibiotic development. &#10003;</li><li><strong>Choice B — It introduces a study of Matabele ants and then explains the research methods used in the study.</strong>: The passage never describes how the researchers conducted their work — no methods, procedures, or experimental design are mentioned. &#10007;</li><li><strong>Choice C — It describes unique properties of Matabele ants and then speculates on how those properties evolved.</strong>: The passage does not address evolution or how the ants&apos; wound-treatment ability developed over time. &#10007;</li><li><strong>Choice D — It identifies an issue concerning Matabele ants and then proposes a solution to address the issue.</strong>: The ants&apos; wound-treatment behavior is presented as a beneficial discovery, not as a problem. No issue affecting the ants is raised and no solution is proposed. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject missing structure elements",
+      "content": "<ul><li><strong>Choice B</strong>: The passage introduces research, but it does not explain research methods or procedures.</li><li><strong>Choice C</strong>: The passage describes ant behavior, but it does not speculate about how that behavior evolved.</li><li><strong>Choice D</strong>: The passage does not frame the ants' behavior as an issue that needs a proposed solution.</li></ul>"
+    },
+    {
+      "title": "Use findings and future use",
+      "content": "After summarizing the findings, the final sentence shifts to what the discovery could make possible: future development of new antibiotics for humans. So the structure moves from research findings to an area for further research. The answer is <strong>A</strong>."
     }
   ]
 }

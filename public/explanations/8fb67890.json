@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the passage announces upfront",
-      "content": "The opening sentence introduces a specific discovery: a runestone found in Norway. This is the passage's primary subject, not the dating method, battles, or any expert's research agenda."
+      "title": "Find the central subject",
+      "content": "The opening sentence announces a runestone discovered in Norway. The carbon dating and Ingrid Zilmer's research interest are supporting details about that discovery, not the main topic."
     },
     {
-      "title": "Match this announcement to the choices",
-      "content": "The correct answer directly states the opening subject: a runestone found in Norway.<br/><br/>The other options either address topics the passage doesn't cover (A brings in battles; C focuses on dating methodology) or mistake a supporting detail for the main point (D spotlights an expert mentioned only at the end).<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Remove supporting details",
+      "content": "A introduces battles, which the text never discusses. C focuses on carbon dating, which is only one detail. D focuses on Zilmer, who appears only as someone interested in what the stone can reveal. The passage is mainly about the Norway runestone discovery. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$6x^{2}+3$&rsquo;</strong>: treats $6x · 3$ as just $3$, dropping the $x$. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$6x^{2}+18x$&rsquo;</strong>: $6x · x = 6x^2$ and $6x · 3 = 18x$. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$7x^{2}+3$&rsquo;</strong>: wrong coefficient on $x^2$ and drops the variable from the second term. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$7x^{2}+9x$&rsquo;</strong>: adds instead of multiplying the leading coefficient, and halves the second term. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "content": "<ul><li><strong>Choice A — '$6x^{2}+3$'</strong>: treats $6x · 3$ as just $3$, dropping the $x$. ✗</li><li><strong>Choice B — '$6x^{2}+18x$'</strong>: $6x · x = 6x^2$ and $6x · 3 = 18x$. ✓</li><li><strong>Choice C — '$7x^{2}+3$'</strong>: wrong coefficient on $x^2$ and drops the variable from the second term. ✗</li><li><strong>Choice D — '$7x^{2}+9x$'</strong>: adds instead of multiplying the leading coefficient, and halves the second term. ✗</li></ul>That confirms <strong>B</strong> is correct."
     }
   ]
 }

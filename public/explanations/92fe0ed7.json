@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question tests logical transitions. The first sentence states the established belief that Mauna Loa is Earth's largest shield volcano; the second sentence introduces a 2020 study showing P&#363;h&#257;honu is significantly larger. The blank must signal that the second sentence contradicts the first."
+      "title": "Mark the contradiction",
+      "content": "The first sentence gives the long-held view that Mauna Loa is Earth's largest shield volcano. The second sentence introduces a study finding that Pūhāhonu is much larger."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Secondly,</strong>: signals addition of a secondary point; incorrectly implies the second sentence supports rather than refutes the first. &#10007;</li><li><strong>Choice B &mdash; Consequently,</strong>: signals a result or consequence; incorrectly implies the second sentence follows from the first rather than contradicts it. &#10007;</li><li><strong>Choice C &mdash; Moreover,</strong>: signals continuation or reinforcement; incorrectly implies the second sentence adds to rather than contrasts with the first. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: signals contrast or refutation; correctly marks the opposition between the long-held assumption and the new contradicting study. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Choose a contrast transition",
+      "content": "Choice A signals sequence, Choice B signals result, and Choice C signals addition. The new study contradicts the earlier belief, so a contrast transition is needed. The answer is <strong>D</strong>."
     }
   ]
 }

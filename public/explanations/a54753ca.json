@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that exactly one intersection means the line touches the vertex",
-      "content": "A parabola intersects a horizontal line $y = c$ at exactly one point when the line is tangent to the parabola. This occurs at the <strong>vertex</strong> of the parabola."
+      "title": "Use the vertex",
+      "content": "A horizontal line $y=c$ intersects a parabola at exactly one point when it passes through the vertex. So $c$ is the vertex's $y$-coordinate."
     },
     {
-      "title": "Find the x-coordinate of the vertex",
-      "content": "For a parabola $y = ax^2 + bx + d$, the vertex occurs at $x = -\\frac{b}{2a}$.<br/><br/>Here, $a = -1$ and $b = 7$, so:<br/>$$x = -\\frac{7}{2(-1)} = \\frac{7}{2}$$"
+      "title": "Find the vertex input",
+      "content": "For $y=-x^2+7x-80$, the vertex occurs at<br/>$$x=-\\frac{b}{2a}=-\\frac{7}{2(-1)}=\\frac{7}{2}$$"
     },
     {
-      "title": "Evaluate the parabola at the vertex to find c",
-      "content": "Substitute $x=\\frac{7}{2}$ into $y=-x^2+7x-80$:<br/>$$c=-\\left(\\frac{7}{2}\\right)^2+7\\left(\\frac{7}{2}\\right)-80$$<br/>$$c=-\\frac{49}{4}+\\frac{98}{4}-\\frac{320}{4}=-\\frac{271}{4}$$<br/>That is choice C, the correct answer."
+      "title": "Evaluate the vertex",
+      "content": "Substitute $x=\\frac{7}{2}$.<br/>$$c=-(\\frac{7}{2})^2+7(\\frac{7}{2})-80$$<br/>$$c=-\\frac{49}{4}+\\frac{98}{4}-\\frac{320}{4}=-\\frac{271}{4}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

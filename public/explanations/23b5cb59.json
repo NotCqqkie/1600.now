@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The table shows <strong>James K. Polk's electoral college total</strong> in one specific cell — this is the decisive data."
+      "title": "Find Polk's vote total",
+      "content": "The statement asks specifically for James K. Polk's electoral college votes. In the table, Polk's row and the electoral college column show 170 votes."
     },
     {
-      "title": "Match the meaning",
-      "content": "The winning number is stated <em>only once in the table</em> and must align with Polk's row and the 'electoral college votes' column. The other choices either reverse data, cite incorrect candidates, or use a repeated placeholder number. That matches <strong>Choice A &mdash; 170 electoral college votes.</strong>."
+      "title": "Avoid wrong table values",
+      "content": "Choice B gives 103, which is not Polk's electoral college total. Choice C gives 62, also not Polk's total. Choice D gives 44, which likewise does not match the requested cell. The answer is <strong>A</strong>."
     }
   ]
 }

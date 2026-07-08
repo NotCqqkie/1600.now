@@ -1,0 +1,19 @@
+{
+  "questionId": "246c53b8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the walnut bars",
+      "content": "The student needs the season in which walnuts reached their lowest price. That requires comparing the walnut data across the four seasons shown in the graph."
+    },
+    {
+      "title": "Eliminate higher seasons",
+      "content": "<ul><li><strong>Choice A</strong> is not the season with the lowest walnut price.</li><li><strong>Choice B</strong> is not the season with the lowest walnut price.</li><li><strong>Choice D</strong> is not the season with the lowest walnut price.</li></ul>"
+    },
+    {
+      "title": "Select the lowest season",
+      "content": "The graph shows walnuts reaching their lowest price in the 2018/19 season. The answer is <strong>C</strong>."
+    }
+  ]
+}

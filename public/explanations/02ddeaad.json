@@ -1,0 +1,15 @@
+{
+  "questionId": "02ddeaad",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "$70\\%$ is the same as $0.70$, so multiply the total fencing by $0.70$."
+    },
+    {
+      "title": "Find the amount used",
+      "content": "Compute $70\\%$ of $900$ feet.\n$$\n0.70\\cdot900=630\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

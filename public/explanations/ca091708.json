@@ -1,0 +1,15 @@
+{
+  "questionId": "ca091708",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>In that form, $h$ is the horizontal coordinate of the center and $k$ is the vertical coordinate."
+    },
+    {
+      "title": "Read the center",
+      "content": "The given center is $(6,-2)$. The radius determines $b$, but the requested value comes from the center's $x$-coordinate, so $h=6$. The answer is <strong>6</strong>."
+    }
+  ]
+}

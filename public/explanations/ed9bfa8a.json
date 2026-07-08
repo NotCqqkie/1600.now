@@ -1,0 +1,19 @@
+{
+  "questionId": "ed9bfa8a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants to emphasize a similarity between <em>Flåmsbana: Minutt for Minutt</em> and <em>Hihna 247</em>. The notes give several details that differ, including country, year, length, and subject matter. The shared point is that both are documentary programs in the slow TV genre, which broadcasts ordinary events in real time."
+    },
+    {
+      "title": "Reject contrast choices",
+      "content": "Choice A uses the two different subjects, a train ride and a supermarket checkout aisle, so it emphasizes contrast rather than similarity. Choice C compares the programs' running times, another difference. Choice D describes only <em>Flåmsbana: Minutt for Minutt</em>, so it cannot establish what the two programs have in common."
+    },
+    {
+      "title": "Choose the similarity",
+      "content": "Choice B names both programs and states their shared category and shared method: they document ordinary events in real time as slow TV documentary programs. That directly satisfies the student's goal of emphasizing a similarity. The answer is <strong>B</strong>."
+    }
+  ]
+}

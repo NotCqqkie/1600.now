@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the claim Text 2 targets",
-      "content": "Text 1's underlined claim is that the stone tools are &quot;revealing that humans occupied the cave thousands of years before the Clovis people reached the continent&quot;. That claim depends entirely on one assumption: the crude stone pieces are human-made tools. Text 2 challenges precisely this assumption — it argues the pieces may have fractured naturally and that no other human activity or DNA has been found."
+      "title": "Track Text 2's objection",
+      "content": "Text 1's claim depends on treating the stone pieces as human-made tools. Text 2 challenges that assumption by saying the pieces may have fractured naturally and that other signs of human activity or DNA have not been found. So Text 2 objects to the inference from stones to early humans in the cave."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "Text 2 disputes whether the stone pieces are tools at all, not whether the connection to early humans is plausible or eventually provable.<ul><li><strong>Choice A &mdash; By suggesting that it draws a plausible connection between two groups of people but will need to be confirmed with further study</strong>: implies Text 2 accepts the connection as plausible — but Text 2 rejects the foundational premise outright, not merely as unconfirmed. &#10007;</li><li><strong>Choice B &mdash; By asserting that it rests on an assumption about the stone pieces that is not sufficiently supported by available evidence</strong>: matches exactly — Text 2 argues the pieces may be naturally fractured rocks, meaning Text 1's claim assumes without sufficient evidence that they are tools. &#10003;</li><li><strong>Choice C &mdash; By acknowledging that it will most likely be proved correct when the stone pieces undergo more detailed analysis</strong>: misreads Text 2 as supporting Text 1's conclusion, when Text 2 is skeptical. &#10007;</li><li><strong>Choice D &mdash; By pointing out that it fails to account for evidence that the Clovis people were active on the continent as early as is commonly thought</strong>: introduces a claim about the Clovis people that Text 2 never makes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject claims Text 2 never makes",
+      "content": "Choice A makes Text 2 sound more accepting than it is. Choice C says Text 2 expects Text 1 to be proved correct, which is the opposite of its skepticism. Choice D brings in evidence about Clovis timing that Text 2 does not discuss. The answer is <strong>B</strong>."
     }
   ]
 }

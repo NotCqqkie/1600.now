@@ -1,0 +1,15 @@
+{
+  "questionId": "bd3634d1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the underlined claim",
+      "content": "The underlined sentence says the predictive model \"is sure to be invaluable\" for determining an optimal mix of city amenities. That wording looks forward and stresses what the model can do."
+    },
+    {
+      "title": "Separate model from context",
+      "content": "Choice A shifts to Boston development trends. Choice C is about the clustering algorithm's accuracy, not the model's value. Choice D describes the earlier difficulty of defining neighborhoods. The underlined sentence emphasizes the model's potential usefulness. The answer is <strong>B</strong>."
+    }
+  ]
+}

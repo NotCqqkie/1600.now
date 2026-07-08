@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the equilateral triangles",
-      "content": "The trapezoid is made from three congruent equilateral triangles. Use the perimeter to find each triangle's side length, then use the equilateral-triangle area formula for the two shaded triangles."
+      "title": "Find the side length",
+      "content": "The trapezoid perimeter is made of $5$ congruent side lengths from the equilateral triangles. Let each side length be $s$.<br/>$$5s=20$$<br/>$$s=4$$"
     },
     {
-      "title": "Determine the side length from the perimeter constraint",
-      "content": "The trapezoid is formed by three congruent equilateral triangles: two pointing upward (shaded) at the bottom corners, and one pointing downward (unshaded) in the middle. Let each equilateral triangle have side length $s$.<br/><br/>The trapezoid's perimeter consists of:<ul><li>Bottom edge: $2s$ (spanning the bases of both upward triangles)</li><li>Left edge: $s$ (left side of the left triangle)</li><li>Top edge: $s$ (the span between the two upward peaks)</li><li>Right edge: $s$ (right side of the right triangle)</li></ul>Therefore:<br/>$$5s = 20$$<br/>$$s = 4 \\text{ cm}$$"
+      "title": "Find one triangle area",
+      "content": "The area of an equilateral triangle with side length $s$ is<br/>$$\\frac{s^2\\sqrt{3}}{4}$$<br/>Substitute $s=4$ to find the area of one small triangle.<br/>$$\\frac{4^2\\sqrt{3}}{4}=4\\sqrt{3}$$"
     },
     {
-      "title": "Calculate the area of one equilateral triangle",
-      "content": "The area formula for an equilateral triangle with side length $s$ is:<br/>$$A = \\frac{s^2\\sqrt{3}}{4}$$<br/>Substituting $s = 4$:<br/>$$A = \\frac{16\\sqrt{3}}{4} = 4\\sqrt{3} \\text{ cm}^2$$"
-    },
-    {
-      "title": "Find the combined area of the two shaded regions",
-      "content": "The two shaded triangles (left and right) are congruent equilateral triangles. Their combined area is:<br/>$$2 \\times 4\\sqrt{3} = 8\\sqrt{3} \\text{ cm}^2$$<br/><strong>C</strong> is correct."
+      "title": "Double the shaded area",
+      "content": "The shaded region consists of $2$ congruent equilateral triangles, so double the area of one triangle.<br/>$$2(4\\sqrt{3})=8\\sqrt{3}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

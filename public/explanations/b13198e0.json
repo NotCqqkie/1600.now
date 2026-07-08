@@ -1,0 +1,15 @@
+{
+  "questionId": "b13198e0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute daylight minutes",
+      "content": "The equation is $x+y=1440$, where $x$ is daylight minutes and $y$ is non-daylight minutes. Substitute $x=780$.\n$$780+y=1440$$"
+    },
+    {
+      "title": "Find non-daylight minutes",
+      "content": "Subtract $780$ from both sides.\n$$y=1440-780=660$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

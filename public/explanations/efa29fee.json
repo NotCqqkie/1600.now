@@ -1,0 +1,15 @@
+{
+  "questionId": "efa29fee",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the explanations",
+      "content": "The first sentence says barnacle movement had been attributed to passive displacement by water currents. The research team then found the barnacles moved against the prevailing water flow, which points away from passive displacement."
+    },
+    {
+      "title": "Signal contradiction",
+      "content": "A and C suggest support or agreement, and D awkwardly opposes the phenomenon rather than the explanation. The finding weakens the water-current explanation. The answer is <strong>B</strong>."
+    }
+  ]
+}

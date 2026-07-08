@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Model the remaining corn",
-      "content": "Use time in hours as $x$ and bushels remaining as $y$. The bin starts with $24,000$ bushels, so one point is $(0,24000)$. After $5$ hours, $19,350$ bushels remain, giving $(5,19350)$."
+      "title": "Find the removal rate",
+      "content": "After $5$ hours, the amount removed was\n$$\n24{,}000-19{,}350=4{,}650\n$$\nSo the hourly removal rate was\n$$\n\\frac{4{,}650}{5}=930\n$$"
     },
     {
-      "title": "Find the line from the data",
-      "content": "Use the table points directly. From $(0,24000)$ to $(5,19350)$, the slope is $m=\\frac{19350-24000}{5-0}=-930.$ Substituting a point into $y=mx+b$ gives $b=24000$. The Desmos rows graph the model and the target amount, $12,840$ bushels; their intersection gives the time.",
+      "title": "Model the remaining corn",
+      "content": "If $x$ is the number of hours, the number of bushels remaining is\n$$\ny=-930x+24{,}000\n$$",
       "desmosExpressions": [
         "y=-930x+24000",
         "y=12840"
       ]
     },
     {
-      "title": "Find when $12,840$ remains",
-      "content": "Set the model equal to $12,840$: $$-930x+24000=12840.$$ Then $11160=930x$, so $x=12$. The total time is <strong>12</strong> hours."
+      "title": "Solve for the target amount",
+      "content": "Set the remaining corn equal to $12{,}840$:\n$$\n-930x+24{,}000=12{,}840\n$$\n$$\n11{,}160=930x\n$$\n$$\nx=12\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

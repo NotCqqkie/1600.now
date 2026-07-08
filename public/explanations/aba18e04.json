@@ -1,0 +1,15 @@
+{
+  "questionId": "aba18e04",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the process order",
+      "content": "The machine's actions are presented in sequence: first it scraped the ice, then it sprayed water into grooves, and lastly it smoothed the new ice. The transition must show the middle step in that order."
+    },
+    {
+      "title": "Use a sequence transition",
+      "content": "Choice A introduces an example, not the next step. Choice C signals similarity, and Choice D signals contrast; neither fits a process sequence. A transition meaning after that matches the order. The answer is <strong>B</strong>."
+    }
+  ]
+}

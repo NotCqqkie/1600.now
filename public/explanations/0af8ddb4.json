@@ -1,0 +1,15 @@
+{
+  "questionId": "0af8ddb4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Look for the same line",
+      "content": "A system has infinitely many solutions when both equations describe the same line. That happens when one equation is a constant multiple of the other."
+    },
+    {
+      "title": "Find the matching system",
+      "content": "Multiplying $x+3y=15$ by $5$ gives $5x+15y=75$, exactly the second equation in one choice.\n$$5(x+3y)=5(15)$$\n$$5x+15y=75$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

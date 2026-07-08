@@ -1,0 +1,15 @@
+{
+  "questionId": "0c673cc6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the plant pair",
+      "content": "The sentence needs the country where musk thistle is listed as the neighboring species growing alongside the Peruvian lily. This is a direct table lookup, not an inference about plant behavior."
+    },
+    {
+      "title": "Use the matching row",
+      "content": "Choice A, Choice B, and Choice C name countries that do not match the table row pairing musk thistle with the Peruvian lily. The country in that row is the remaining option. The answer is <strong>D</strong>."
+    }
+  ]
+}

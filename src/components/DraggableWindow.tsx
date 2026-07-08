@@ -30,7 +30,6 @@ interface DraggableWindowProps {
   centerOnExitSidebar?: boolean;
   keepMountedWhenClosed?: boolean;
   contentSplitExitPosition?: number;
-  sidebarExitHeaderMaxWidth?: number;
   sidebarExitMainMaxWidth?: number;
 }
 
@@ -97,7 +96,6 @@ export const DraggableWindow = ({
   centerOnExitSidebar = false,
   keepMountedWhenClosed = false,
   contentSplitExitPosition,
-  sidebarExitHeaderMaxWidth,
   sidebarExitMainMaxWidth,
 }: DraggableWindowProps) => {
   const [position, setPosition] = useState({ x: 100, y: 100 });
@@ -320,21 +318,16 @@ export const DraggableWindow = ({
     const targetMainOffset = sidebarExitMainMaxWidth
       ? Math.max(0, (bounds.width - targetMainWidth) / 2)
       : 0;
-    const targetHeaderWidth = sidebarExitHeaderMaxWidth
-      ? Math.min(bounds.width, sidebarExitHeaderMaxWidth)
-      : bounds.width;
-    const targetHeaderOffset = sidebarExitHeaderMaxWidth
-      ? Math.max(0, (bounds.width - targetHeaderWidth) / 2)
-      : 0;
+    const targetHeaderWidth = bounds.width;
 
     root.style.setProperty("--sat-split-pct", `${sidebarPosition}%`);
     root.style.setProperty("--sat-content-split-pct", `${contentPosition}%`);
     root.style.setProperty("--sat-nav-split-pct", "100%");
     root.style.setProperty("--sat-header-content-width", `${targetHeaderWidth}px`);
-    root.style.setProperty("--sat-header-content-offset-x", `${targetHeaderOffset}px`);
+    root.style.setProperty("--sat-header-content-offset-x", "0px");
     root.style.setProperty("--sat-main-content-width", `${targetMainWidth}px`);
     root.style.setProperty("--sat-main-content-offset-x", `${targetMainOffset}px`);
-  }, [getBounds, sidebarExitHeaderMaxWidth, sidebarExitMainMaxWidth]);
+  }, [getBounds, sidebarExitMainMaxWidth]);
 
   const releaseSidebarLayoutClose = useCallback(() => {
     window.setTimeout(() => {

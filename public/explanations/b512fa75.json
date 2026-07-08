@@ -1,0 +1,15 @@
+{
+  "questionId": "b512fa75",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Build the researcher phrase",
+      "content": "Mark A. Lee identifies which researcher led the 2014 study, so the name is restrictive and should not be set off with commas. The initial A. also needs its period."
+    },
+    {
+      "title": "Remove comma and initial errors",
+      "content": "<ul><li>Choice A has an unnecessary comma after researcher and omits the period after the middle initial.</li><li>Choice B adds a comma after Lee, incorrectly separating the subject phrase from studied.</li><li>Choice D adds an unnecessary comma after researcher before the identifying name.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

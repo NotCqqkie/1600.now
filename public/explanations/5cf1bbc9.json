@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret slope as the rate of change",
-      "content": "Slope measures $\\frac{\\Delta y}{\\Delta x} = \\frac{\\text{change in total cost}}{\\text{change in games}}$. This is the cost added for each additional game—the <strong>per-game price</strong>."
+      "title": "Connect slope to units",
+      "content": "The slope of a graph is the change in $y$ divided by the change in $x$. Here, that means dollars per game.<br/>$$\\frac{\\text{change in total cost}}{\\text{change in games}}$$"
     },
     {
-      "title": "Eliminate the y-intercept interpretations",
-      "content": "The other choices refer to the system's cost, which is a fixed initial expense. In $y = mx + b$, that fixed cost is the $y$-intercept (the value when $x = 0$), not the slope. The slope specifically measures the additional cost per game, not a one-time system fee."
+      "title": "Separate slope and intercept",
+      "content": "The video game system's cost is the fixed starting cost, which is the $y$-intercept. The slope represents the added cost for each additional game."
     },
     {
-      "title": "Identify the slope and choose",
-      "content": "Among the answer choices, only the credited option states a cost of &#36;25 per game, which represents a slope of 25. The other choices describe a system cost (a fixed one-time fee), which is the y-intercept, not the slope. <strong>A</strong> is correct."
+      "title": "Choose the slope interpretation",
+      "content": "The interpretation that describes the cost of each game is the slope interpretation. The answer is <strong>A</strong>."
     }
   ]
 }

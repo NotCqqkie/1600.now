@@ -1,0 +1,15 @@
+{
+  "questionId": "df90d6a6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the intended reference",
+      "content": "The blank refers to the thirty-eight Kru languages inside the parenthetical. The intended meaning is that those languages can provide information about Proto-Kru because they descend from it. The blank must therefore point back to a plural group of languages, not to one language or to possession by the languages."
+    },
+    {
+      "title": "Reject possessive and singular forms",
+      "content": "Choice A and Choice C are possessive forms, but the sentence needs a plural subject reference for the descendant relationship, not ownership. Choice D is singular, so it cannot refer to thirty-eight languages. Choice B is the option that supplies the plural reference to those languages. The answer is <strong>B</strong>."
+    }
+  ]
+}

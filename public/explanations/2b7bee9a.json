@@ -1,0 +1,15 @@
+{
+  "questionId": "2b7bee9a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the given equation",
+      "content": "The equation is already solved for $m$:<br/>$$m=8(n+p)$$"
+    },
+    {
+      "title": "Match the unchanged form",
+      "content": "The choice that gives $m$ in terms of $n$ and $p$ must match the given equation exactly, with no added division or subtraction. The answer is <strong>B</strong>."
+    }
+  ]
+}

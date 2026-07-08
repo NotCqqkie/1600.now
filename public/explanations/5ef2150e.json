@@ -1,0 +1,15 @@
+{
+  "questionId": "5ef2150e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the student's goal",
+      "content": "The student wants to explain how soap removes a contaminant. The answer must describe the mechanism: soap molecules surround the contaminant in a micelle, then water interacts with the hydrophilic ends and lifts the contaminant away."
+    },
+    {
+      "title": "Reject partial descriptions",
+      "content": "Choice A only describes contaminants as hydrophobic. Choice B stops at micelle formation and omits removal from the surface. Choice D explains how soap is made, not how it removes dirt. The remaining choice gives the full process. The answer is <strong>C</strong>."
+    }
+  ]
+}

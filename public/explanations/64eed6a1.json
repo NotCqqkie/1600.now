@@ -1,0 +1,15 @@
+{
+  "questionId": "64eed6a1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two main clauses",
+      "content": "The sentence contains two independent clauses: the museum has celebrated contemporary Native artists since 1989, and in 2015 it awarded Wilson a fellowship. A semicolon can join those closely related clauses."
+    },
+    {
+      "title": "Choose the clean boundary",
+      "content": "A blurs the two time frames with and. C creates a comma splice between independent clauses. D adds thus even though the second clause is a specific example, not a stated consequence. The semicolon gives the needed clause boundary. The answer is <strong>B</strong>."
+    }
+  ]
+}

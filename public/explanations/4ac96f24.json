@@ -1,0 +1,15 @@
+{
+  "questionId": "4ac96f24",
+  "correctAnswer": "84",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial time",
+      "content": "Before the pinecone fell means no time has passed, so use $x=0$."
+    },
+    {
+      "title": "Evaluate the height function",
+      "content": "Substitute $x=0$ into the function.\n$$f(0)=-16(0)^2+84=84$$\nThe answer is <strong>84</strong>."
+    }
+  ]
+}

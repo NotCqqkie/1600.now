@@ -1,0 +1,15 @@
+{
+  "questionId": "2725fb14",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular subject",
+      "content": "The subject is <em>the country's name</em>, a singular noun phrase. The verb must agree with that singular subject and describe a general pronunciation fact."
+    },
+    {
+      "title": "Test the verb forms",
+      "content": "Choice B, Choice C, and Choice D are all plural forms, so they do not agree with the singular subject <em>name</em>. The simple present singular verb fits both the subject and the statement of a standing fact. The answer is <strong>A</strong>."
+    }
+  ]
+}

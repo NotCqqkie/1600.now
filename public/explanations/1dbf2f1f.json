@@ -1,0 +1,19 @@
+{
+  "questionId": "1dbf2f1f",
+  "correctAnswer": "-1534",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the main lengths",
+      "content": "Point $P$ is the midpoint of segment $NQ$, and $PQ=52$. Therefore, $NP=52$ and $NQ=104$."
+    },
+    {
+      "title": "Compute both areas",
+      "content": "Since segment $NP$ is the diameter of the semicircle, its radius is $26$. The rectangle has dimensions $104$ by $18$.<br/>$$A_{\\text{semicircle}}=\\frac{1}{2}\\pi(26)^2=338\\pi$$<br/>$$A_{\\text{rectangle}}=104\\cdot18=1{,}872$$"
+    },
+    {
+      "title": "Compare to the given form",
+      "content": "The total area is<br/>$$338\\pi+1{,}872$$<br/>So $a=338$ and $b=1{,}872$. Then<br/>$$a-b=338-1{,}872=-1{,}534$$<br/>The answer is <strong>-1534</strong>."
+    }
+  ]
+}

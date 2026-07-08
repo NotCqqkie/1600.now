@@ -1,0 +1,20 @@
+{
+  "questionId": "d2ad86b9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root sum",
+      "content": "For a monic cubic $x^3+ax^2+bx+c$, the sum of the roots is the opposite of the coefficient of $x^2$.",
+      "formula": "$$r_1 + r_2 + r_3 = -a$$"
+    },
+    {
+      "title": "Add the given roots",
+      "content": "Add the three zeros.<br/>$$-3+(-8)+7=-4$$"
+    },
+    {
+      "title": "Find the coefficient",
+      "content": "Since the root sum is $-a$, set $-a=-4$ and solve.<br/>$$a=4$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

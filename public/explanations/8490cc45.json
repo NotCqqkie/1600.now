@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the y-intercept represents",
-      "content": "The $y$-intercept is the point where a graph crosses the $y$-axis. Every point on the $y$-axis has $x = 0$. Therefore, to find the $y$-intercept, we evaluate $f(0)$."
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, so the input is $x=0$."
     },
     {
-      "title": "Substitute x = 0 and simplify",
-      "content": "$$f(0) = (-7)(3)^0 + 24$$<br/>Since any non-zero number raised to the power of 0 equals 1, we have $3^0 = 1$:<br/>$$f(0) = (-7)(1) + 24 = -7 + 24 = 17$$<br/>So the $y$-intercept is the point $(0, 17)$. That confirms <strong>A</strong> is correct."
+      "title": "Evaluate the function",
+      "content": "Substitute $x=0$ into the function.<br/>$$f(0)=(-7)(3)^0+24$$<br/>$$f(0)=(-7)(1)+24=17$$<br/>So the $y$-intercept is $(0,17)$. The answer is <strong>A</strong>."
     }
   ]
 }

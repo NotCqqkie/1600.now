@@ -1,0 +1,15 @@
+{
+  "questionId": "ed4690cc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link question and claim",
+      "content": "The previous sentence asks whether penguins were always flightless. The underlined sentence responds by saying Patel's team argues that penguins could once fly but lost that ability more than 60 million years ago."
+    },
+    {
+      "title": "Check the sentence function",
+      "content": "Choice B is wrong because the following evidence supports the underlined claim. Choice C is wrong because the claim shows the question has been researched. Choice D is wrong because no scientific term is being defined. The underlined sentence directly responds to the preceding question. The answer is <strong>A</strong>."
+    }
+  ]
+}

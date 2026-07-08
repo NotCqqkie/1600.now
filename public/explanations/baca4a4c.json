@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Undo the outside multiplication",
-      "content": "The original equation is $$6(3x-4)=72.$$ Divide both sides by $6$ to keep the same solution while simplifying the equation."
+      "title": "Undo the multiplication",
+      "content": "The expression $3x-4$ is multiplied by $6$. Divide both sides by $6$ to get an equivalent equation.<br/>$$\\frac{6(3x-4)}{6}=\\frac{72}{6}$$<br/>$$3x-4=12$$"
     },
     {
-      "title": "Find the equivalent equation",
-      "content": "$$\\frac{6(3x-4)}{6}=\\frac{72}{6} \\quad \\Rightarrow \\quad 3x-4=12.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The equation $3x-4=12$ is equivalent to the original equation. Dividing incorrectly or distributing only part of the $6$ changes the solution; correct distribution would give $18x-24=72$. <strong>A</strong> is correct."
+      "title": "Match the equivalent equation",
+      "content": "The equation with the same solution is $3x-4=12$. The answer is <strong>A</strong>."
     }
   ]
 }

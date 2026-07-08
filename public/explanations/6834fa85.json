@@ -1,0 +1,23 @@
+{
+  "questionId": "6834fa85",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the scroll contrast",
+      "content": "The student wants to emphasize a difference between the two scrolls in Landscape and Couplet of Chinese Verse. The notes give the relevant contrast: Scroll 1 features a painting, and Scroll 2 features a poem from Li Bai."
+    },
+    {
+      "title": "Reject similarities and errors",
+      "content": "Choice B emphasizes what the scrolls have in common by saying they each depict nature, so it does not emphasize a difference. Choice C incorrectly says Li Bai created the artwork. Choice D invents a portrait of Li Bai, which is not in the notes."
+    },
+    {
+      "title": "Keep to the notes",
+      "content": "The notes do not ask for background about Taiga, Li Bai, or nature as a shared subject. They ask for the difference between the two parts of the artwork, so the answer has to contrast the scrolls directly."
+    },
+    {
+      "title": "State the actual difference",
+      "content": "The sentence that contrasts one scroll with a painting and the other scroll with a poem uses only information from the notes and directly addresses the student’s goal of showing how the scrolls differ. The answer is <strong>A</strong>."
+    }
+  ]
+}

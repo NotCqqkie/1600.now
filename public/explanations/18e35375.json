@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-14\\right) \\left(x+19\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-\\frac{5}{2}$.",
+      "title": "Use the roots",
+      "content": "The factored form shows the two zeros of the quadratic. Set each factor equal to zero:<br/>$$(x-14)(x+19)=0$$<br/>So the zeros are $x=14$ and $x=-19$."
+    },
+    {
+      "title": "Find the midpoint",
+      "content": "For an upward-opening parabola, the minimum occurs at the vertex. The vertex is halfway between the two zeros:<br/>$$\\frac{14+(-19)}{2}=\\frac{-5}{2}$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the function and read the $x$-coordinate of the vertex. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "f \\left(x\\right)= \\left(x-14\\right) \\left(x+19\\right)"
       ]
-    },
-    {
-      "title": "Identify the roots",
-      "content": "$f(x) = (x-14)(x+19) = 0$ has roots $x = 14$ and $x = -19$."
-    },
-    {
-      "title": "Apply the new function definition",
-      "content": "A product of two factors $(x-14)(x+19)$ is a parabola opening upward with vertex midway between the roots."
-    },
-    {
-      "title": "Compute the answer",
-      "content": "The minimum occurs at $x = \\frac{14 + (-19)}{2} = \\frac{-5}{2} = -2.5$. That matches <strong>Choice D &mdash; $-\\frac{5}{2}$</strong>."
     }
   ]
 }

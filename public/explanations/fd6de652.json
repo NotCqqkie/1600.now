@@ -1,0 +1,15 @@
+{
+  "questionId": "fd6de652",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare both foods",
+      "content": "The goal is not just to mention vitamin C; it is to compare the vitamin C content of brussels sprouts and apples. The notes show both contain ascorbic acid, but brussels sprouts contain 80 mg per 100 g while apples contain 6 mg per 100 g."
+    },
+    {
+      "title": "Remove one-sided options",
+      "content": "Choice A discusses only brussels sprouts. Choice C compares food categories rather than vitamin C amounts. Choice D explains how humans get ascorbic acid but does not compare the two foods. The needed sentence states that both foods contain vitamin C and that brussels sprouts contain more. The answer is <strong>B</strong>."
+    }
+  ]
+}

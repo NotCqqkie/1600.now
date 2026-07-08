@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the claim and what the table shows",
-      "content": "The student argues that <em>all areas</em> need more shaded bus-stop shelters, supporting this by pointing out that the highest percentage of bus stops with shaded shelter for any area is &quot;only ______.&quot; The word &quot;only&quot; signals the number should be small enough to justify the claim. The correct answer must be the actual highest percentage in the table."
+      "title": "Find the highest percentage",
+      "content": "The student claims all areas need more shaded bus-stop shelters and wants to support that by citing the highest percentage of shaded stops for any area. The phrase \"only\" signals that even the maximum value should be low."
     },
     {
-      "title": "Eliminate each choice, then confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; 50%.</strong>: 50% does not appear anywhere in the table&apos;s percentages of shaded bus stops. &#10007;</li><li><strong>Choice B &mdash; 15%.</strong>: 15% is the <em>lowest</em> percentage in the table, not the highest &mdash; misidentifies which value the student is citing. &#10007;</li><li><strong>Choice C &mdash; 90%.</strong>: 90% does not appear anywhere in the table&apos;s percentages of shaded bus stops. &#10007;</li><li><strong>Choice D &mdash; 29%.</strong>: 29% is the highest percentage of shaded bus stops shown in the table &mdash; and calling it &quot;only 29%&quot; effectively supports the student&apos;s argument that more shaded shelters are needed everywhere. &#10003;</li></ul>That is the correct answer."
+      "title": "Check the table values",
+      "content": "A and C do not match the table's shaded-shelter percentages. B gives 15%, which is the lowest percentage, not the highest. The highest percentage shown is still low enough to support the claim that more shaded shelters are needed. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "0e64d6eb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the scale contrast",
+      "content": "The passage contrasts strong effects on individual consumers with effects at the national-economy level. The GDP example says the national effect was only slightly greater than zero, so the blank needs a word meaning muted or limited."
+    },
+    {
+      "title": "Reject different dimensions",
+      "content": "<ul><li><strong>Choice A</strong> concerns duration, not size of effect.</li><li><strong>Choice C</strong> says the effects are helpful, but the passage discusses magnitude.</li><li><strong>Choice D</strong> concerns inconsistency, not a small national effect.</li></ul>"
+    },
+    {
+      "title": "Choose the muted-effect word",
+      "content": "Subdued means muted or restrained, matching an effect only slightly greater than zero. The answer is <strong>B</strong>."
+    }
+  ]
+}

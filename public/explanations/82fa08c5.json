@@ -1,0 +1,19 @@
+{
+  "questionId": "82fa08c5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect action and result",
+      "content": "John Lee served in the US Civil War, and that service earned him a place in history as one of the war's few Chinese-born American soldiers."
+    },
+    {
+      "title": "Reject weak transitions",
+      "content": "Choice B signals an example, but no broader claim needs an example. Choice C signals dismissal or concession. Choice D signals a usual pattern, which does not fit a specific historical result."
+    },
+    {
+      "title": "Choose by doing that",
+      "content": "In doing so shows that Lee earned historical recognition through the act just described: serving in the 2nd Louisiana Infantry. The answer is <strong>A</strong>."
+    }
+  ]
+}

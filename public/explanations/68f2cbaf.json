@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the distance inequality",
-      "content": "Maya walks at 5 km/h for <em>h</em> hours, covering a distance of $5h$ kilometers. Since she must walk at least 35 kilometers, we write:<br/>$$5h \\geq 35$$"
+      "title": "Write the distance inequality",
+      "content": "If Maya walks for $h$ hours at $5$ kilometers per hour, the distance is $5h$ kilometers. She needs at least $35$ kilometers.<br/>$$5h\\geq 35$$"
     },
     {
-      "title": "Solve for minimum hours",
-      "content": "Divide both sides by 5:<br/>$$h \\geq 7$$<br/>The minimum number of hours is 7. That confirms <strong>B</strong> is correct."
+      "title": "Find the minimum time",
+      "content": "$$h\\geq 7$$<br/>The minimum number of hours is $7$. The answer is <strong>B</strong>."
     }
   ]
 }

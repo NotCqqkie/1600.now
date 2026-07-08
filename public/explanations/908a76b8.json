@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the antecedent",
-      "content": "The dependent clause's subject is &quot;a given industry&quot; &mdash; singular. The pronoun that opens the main clause must refer back to that singular noun. (&quot;Water and electricity&quot; are examples set off by dashes, not the grammatical subject.)"
+      "title": "Find the singular antecedent",
+      "content": "The pronoun in the main clause refers to \"a given industry,\" which is singular. The examples \"water and electricity\" are set off by dashes and do not control the pronoun or verb."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "A singular antecedent requires a singular pronoun and a singular verb. Only &quot;it... consists&quot; satisfies both."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; these often consist</strong>: plural pronoun and plural verb &mdash; violates pronoun-antecedent agreement with singular &quot;industry.&quot; &#10007;</li><li><strong>Choice B &mdash; they often consist</strong>: same problem &mdash; plural pronoun for a singular antecedent. &#10007;</li><li><strong>Choice C &mdash; it often consists</strong>: singular pronoun and singular verb that match &quot;a given industry.&quot; &#10003;</li><li><strong>Choice D &mdash; this often consists</strong>: &quot;this&quot; as a standalone pronoun is vague/incorrect here &mdash; a personal pronoun &quot;it&quot; is needed to refer to the specific antecedent &quot;industry.&quot; &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Apply pronoun agreement",
+      "content": "Choice A uses the plural pronoun \"these.\" Choice B uses the plural pronoun \"they.\" Choice D uses \"this,\" which is vague rather than a clear personal pronoun referring to the industry. The answer is <strong>C</strong>."
     }
   ]
 }

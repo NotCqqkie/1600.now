@@ -1,0 +1,15 @@
+{
+  "questionId": "fb88c7ca",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the repeated change",
+      "content": "Having $3.2\\%$ more money each year means the account is multiplied by $1.032$ each year:\n$$\n\\text{new amount}=1.032(\\text{previous amount})\n$$"
+    },
+    {
+      "title": "Classify the model",
+      "content": "Repeated multiplication by a constant factor is exponential, not linear. Since $1.032>1$, the amount increases over time. The answer is <strong>C</strong>."
+    }
+  ]
+}

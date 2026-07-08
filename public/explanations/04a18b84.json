@@ -1,0 +1,15 @@
+{
+  "questionId": "04a18b84",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match appositive punctuation",
+      "content": "The phrase <em>the cellular organs that generate energy from light</em> renames <em>chloroplasts</em>. Because the appositive closes with an em dash before <em>reshuffled</em>, it should open with a matching em dash."
+    },
+    {
+      "title": "Reject mismatched marks",
+      "content": "Choice B opens the appositive with a comma but closes it with an em dash, creating mismatched punctuation. Choice C leaves the appositive without opening punctuation. Choice D uses a semicolon, which cannot introduce an appositive. The answer is <strong>A</strong>."
+    }
+  ]
+}

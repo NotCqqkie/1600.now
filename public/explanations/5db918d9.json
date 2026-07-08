@@ -1,0 +1,19 @@
+{
+  "questionId": "5db918d9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sentence context",
+      "content": "The uncle says the hardest <u>part</u> of telling a story is finding the beginning. In this context, <u>part</u> means one component or aspect of the larger process of storytelling."
+    },
+    {
+      "title": "Reject literal mismatches",
+      "content": "A means a physical area. B means a musical tune. D means a shapeless mass. None of those meanings fits a component of telling a story."
+    },
+    {
+      "title": "Match the meaning",
+      "content": "Element means a component or aspect of something larger, which fits the sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

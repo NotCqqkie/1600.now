@@ -1,0 +1,19 @@
+{
+  "questionId": "f0c4eaf9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Rewrite the equation in standard circle form by completing the square for $x$ and $y$.<br/>$$x^2-6x+y^2-10y-30=0$$<br/>$$(x-3)^2-9+(y-5)^2-25-30=0$$<br/>$$(x-3)^2+(y-5)^2=64$$"
+    },
+    {
+      "title": "Find the square side",
+      "content": "The equation shows that the radius of the circle is $8$. A circle inscribed in a square has a diameter equal to the square side length.<br/>$$2(8)=16$$"
+    },
+    {
+      "title": "Find the perimeter",
+      "content": "The perimeter of the square is four times the side length.<br/>$$4(16)=64$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

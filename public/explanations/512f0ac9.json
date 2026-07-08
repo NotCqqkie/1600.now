@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the structure around the blank",
-      "content": "The main clause already has a finite verb phrase ('re-created and then reprogrammed... the genetic scissors of a species of DNA-cleaving bacteria'). After the blank comes the noun phrase 'a tool that is revolutionizing the field of gene technology.' The blank must connect the action to its result/purpose."
+      "title": "Link reprogramming to purpose",
+      "content": "The main action is that Charpentier and Doudna re-created and reprogrammed the genetic scissors. The phrase after the blank names the tool produced by that action, so the blank should express purpose or result."
     },
     {
-      "title": "Apply the conventions of Standard English",
-      "content": "An infinitive of purpose ('to forge') cleanly links the reprogramming to its goal: they reprogrammed the scissors in order to forge a tool. This is a complete, idiomatic sentence."
-    },
-    {
-      "title": "Eliminate by rule violated",
-      "content": "<ul><li><strong>Choice A — to forge</strong>: infinitive of purpose correctly attaches the resulting tool to the action of reprogramming. &#10003;</li><li><strong>Choice B — forging</strong>: a participial phrase here would need a comma before it to function as a result modifier; without the comma, it creates a run-on/unclear modification. &#10007;</li><li><strong>Choice C — forged</strong>: a past participle without comma punctuation tries to function as a third main verb, breaking parallelism with 're-created and... reprogrammed' and creating a comma-splice/structure error. &#10007;</li><li><strong>Choice D — and forging</strong>: mixes a participle with finite past-tense verbs joined by 'and,' violating parallelism (should be 'and forged' to parallel 're-created and reprogrammed,' but even that is wrong contextually). &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject unparallel forms",
+      "content": "Choice B uses a participle where the sentence needs a clear purpose link. Choice C creates an awkward past-participle attachment. Choice D breaks parallel structure by joining a participle to past-tense verbs. The infinitive to forge is idiomatic here. The answer is <strong>A</strong>."
     }
   ]
 }

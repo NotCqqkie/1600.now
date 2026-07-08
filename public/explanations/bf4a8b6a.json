@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variables and set up the system",
-      "content": "Let $a$ = number of adults and $c$ = number of children.<br/><br/>From the problem constraints:<ul><li>Total people in the group: $a + c = 24$</li><li>Total revenue: $70a + 50c = 1400$</li></ul>From the first equation: $a = 24 - c$"
+      "title": "Define the group counts",
+      "content": "Let $a$ be the number of adults and $c$ be the number of children. The group has $24$ people, so\n+$$a+c=24$$\n+and the revenue equation is\n+$$70a+50c=1{,}400$$"
     },
     {
-      "title": "Use substitution to solve for c",
-      "content": "Substitute $a = 24 - c$ into the revenue equation:<br/>$$70(24 - c) + 50c = 1400$$<br/>Expand and simplify:<br/>$$1680 - 70c + 50c = 1400$$<br/>$$1680 - 20c = 1400$$<br/>$$-20c = -280$$<br/>$$c = 14$$<br/>The group has 14 children. That is the correct answer."
+      "title": "Substitute for adults",
+      "content": "From $a+c=24$, we have $a=24-c$. Substitute into the revenue equation:\n+$$70(24-c)+50c=1{,}400$$"
+    },
+    {
+      "title": "Find the child count",
+      "content": "Solve for $c$:\n+$$1{,}680-70c+50c=1{,}400$$\n+$$1{,}680-20c=1{,}400$$\n+$$-20c=-280$$\n+$$c=14$$\n+The answer is <strong>C</strong>."
     }
   ]
 }

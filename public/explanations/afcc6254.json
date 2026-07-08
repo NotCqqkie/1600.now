@@ -1,0 +1,15 @@
+{
+  "questionId": "afcc6254",
+  "correctAnswer": "67",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use acute angle sum",
+      "content": "A right triangle has one $90^{\\circ}$ angle, so the two acute angles add to:<br/>$$180^{\\circ}-90^{\\circ}=90^{\\circ}$$"
+    },
+    {
+      "title": "Subtract the given angle",
+      "content": "One acute angle is $23^{\\circ}$, so the other acute angle is:<br/>$$90^{\\circ}-23^{\\circ}=67^{\\circ}$$<br/>Disregard the degree symbol when entering it. The answer is <strong>67</strong>."
+    }
+  ]
+}

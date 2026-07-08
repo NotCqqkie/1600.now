@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Summarize what the passage actually does",
-      "content": "The passage opens by noting that few animals spit, then reports that a gray seal was observed spitting at an eagle &mdash; a behavior never seen before in seals &mdash; and closes with a biologist's hypotheses about why."
+      "title": "Identify the topic",
+      "content": "The passage starts by noting that few animals spit, then focuses on a gray seal observed spitting water at an eagle. It stresses that seals had never been seen spitting before."
     },
     {
-      "title": "Identify the unifying topic",
-      "content": "Every sentence centers on this newly observed seal behavior: setup, the sighting, the novelty, and possible explanations. The main topic is a behavior of gray seals that had not been previously documented."
+      "title": "Reject side details",
+      "content": "Choice A focuses on the observer's hobby and location. Choice C invents eagle defense behavior. Choice D suggests a comparison between species, but the text centers on the seal's behavior."
     },
     {
-      "title": "Test each choice against the whole passage",
-      "content": "<ul><li><strong>Choice A &mdash; Bird-watching in southern England</strong>: the bird-watcher and location are setup details, not the topic; the passage is about the seal, not the hobby. &#10007;</li><li><strong>Choice B &mdash; A previously unseen behavior of gray seals</strong>: matches the focus that runs through every sentence. &#10004;</li><li><strong>Choice C &mdash; How white-tailed eagles defend their territory against other predators</strong>: the eagle is the target of the spitting, not the subject; the passage never discusses eagle defense. &#10007;</li><li><strong>Choice D &mdash; Differences between gray seals and white-tailed eagles</strong>: no comparison of the two species is made; this misreads the passage. &#10007;</li></ul>That is the correct answer."
+      "title": "Name the novel behavior",
+      "content": "Choice B matches the whole passage because it identifies the newly observed behavior of gray seals as the main topic. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "71c31513",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the carbon dioxide cue",
+      "content": "Marquez and Rao concluded that carbon dioxide does not serve as an additional cue for frog-biting midges. If that conclusion is right, adding carbon dioxide to frog calls should not make a trap more attractive than calls alone."
+    },
+    {
+      "title": "Reject carbon dioxide support",
+      "content": "<ul><li><strong>Choice A</strong>: More midges in the carbon dioxide trap would support carbon dioxide as a cue.</li><li><strong>Choice B</strong>: Entering only during or after carbon dioxide release suggests midges respond to carbon dioxide.</li><li><strong>Choice D</strong>: Greater attraction at higher carbon dioxide levels would directly contradict the conclusion.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

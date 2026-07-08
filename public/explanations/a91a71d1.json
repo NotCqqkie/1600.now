@@ -1,0 +1,15 @@
+{
+  "questionId": "a91a71d1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on similarity",
+      "content": "The goal is to emphasize what EPDM rubber and single-ply NiTi wire fibers have in common. The notes say both samples increased in surface temperature when twisted."
+    },
+    {
+      "title": "Reject other focuses",
+      "content": "B emphasizes the difference in temperature increase, C inaccurately mentions two research teams, and D explains torsional heating without comparing the two named materials. The sentence should state their shared response. The answer is <strong>A</strong>."
+    }
+  ]
+}

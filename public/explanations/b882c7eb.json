@@ -1,0 +1,22 @@
+{
+  "questionId": "b882c7eb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use identical lines",
+      "content": "A system has infinitely many solutions only when the two equations represent the same line."
+    },
+    {
+      "title": "Match the intercept",
+      "content": "The given equation is\n$$\ny=\\frac{2}{7}x+3\n$$\nFor $y=mx+b$ to be identical, the $y$-intercept must be $3$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the given line and choose the equation with the same intercept. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{2}{7}x + 3"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the population represented by the sample",
-      "content": "The sample consists only of Gala apples, so any inference about weight applies specifically to that group, not to all apples in the orchard.<br/>Therefore we can estimate the proportion of Gala apples weighing more than 5 ounces from the sample proportion of 25%."
+      "title": "Identify the sampled group",
+      "content": "The sample contained only Gala apples. Therefore, the sample can support a conclusion about Gala apples, not about all apples in the orchard."
     },
     {
-      "title": "Evaluate answer choices",
-      "content": "The matching choice states that approximately 25% of all Gala apples in the orchard weigh more than 5 ounces, which matches the inference from the sample.<br/>The other choices refer to all apples or average weight, which the sample does not support.<br/><strong>D</strong> is correct."
+      "title": "Use the sample percentage",
+      "content": "In the random sample of Gala apples, $25\\%$ weighed more than $5$ ounces. The supported conclusion is that approximately the same percent of all Gala apples in the orchard weigh more than $5$ ounces.\nThe answer is <strong>D</strong>."
     }
   ]
 }

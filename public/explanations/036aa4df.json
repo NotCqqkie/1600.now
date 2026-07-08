@@ -1,0 +1,19 @@
+{
+  "questionId": "036aa4df",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate to find x",
+      "content": "Subtract the second equation from the first equation.<br/>$$(\\frac{5}{4}x+2y)-(\\frac{3}{4}x+2y)=28-24$$<br/>$$\\frac{1}{2}x=4$$<br/>$$x=8$$"
+    },
+    {
+      "title": "Find y from either equation",
+      "content": "Substitute $x=8$ into the second equation.<br/>$$\\frac{3}{4}(8)+2y=24$$<br/>$$6+2y=24$$<br/>$$y=9$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Use $x=8$ and $y=9$ in the requested expression.<br/>$$\\frac{11}{4}(8)+6(9)=22+54=76$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

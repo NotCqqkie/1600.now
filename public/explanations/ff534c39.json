@@ -1,0 +1,19 @@
+{
+  "questionId": "ff534c39",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the time interval",
+      "content": "$120$ seconds is $2$ minutes. Compare the population at times $m$ and $m+2$.<br/>$$\\frac{N(m+2)}{N(m)}=\\frac{72Q^{\\frac{m+2}{4}}}{72Q^{\\frac{m}{4}}}$$"
+    },
+    {
+      "title": "Find the growth factor",
+      "content": "When dividing powers with the same base, subtract the exponents.<br/>$$Q^{\\frac{m+2}{4}-\\frac{m}{4}}=Q^{\\frac{1}{2}}$$<br/>So every $2$ minutes, the population is multiplied by $Q^{\\frac{1}{2}}$."
+    },
+    {
+      "title": "Convert to percent increase",
+      "content": "A growth factor of $Q^{\\frac{1}{2}}$ means the increase as a decimal is $Q^{\\frac{1}{2}}-1$. As a percent, this is<br/>$$100(Q^{\\frac{1}{2}}-1)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

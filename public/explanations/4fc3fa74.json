@@ -1,0 +1,15 @@
+{
+  "questionId": "4fc3fa74",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate apatite on the scale",
+      "content": "The notes place calcite at 3, apatite at 5, and topaz at 8 on the Mohs scale. Since larger numbers mean harder minerals, apatite is between the other two."
+    },
+    {
+      "title": "Compare both other minerals",
+      "content": "A compares only topaz and calcite, B is too general, and C focuses on topaz's ability to scratch other minerals. The needed statement explains apatite's hardness relative to both calcite and topaz. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "40a6d7b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the comfort clue",
+      "content": "The passage says humanlike robots are designed to make interaction easier. The blank describes what features such as bipedal locomotion can do to people's comfort, so the word needs to mean support or strengthen."
+    },
+    {
+      "title": "Rule out opposing meanings",
+      "content": "Choice A means reduce, Choice B means limit, and Choice C means reject or deny. All three work against the idea of increasing comfort around a robot."
+    },
+    {
+      "title": "Choose support",
+      "content": "Buttress means support or strengthen, which fits the idea that certain design features can reinforce people's comfort even though a robot that looks too human may unsettle them. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the conclusion requires",
-      "content": "The team concluded snakes transmit <em>BovB</em> to frogs via horizontal transfer (HT), either directly or indirectly — puzzling because frogs don't survive snake encounters. The conclusion needs support: evidence of a mechanism that could move <em>BovB</em> from snakes to frogs without requiring direct snake-frog gene exchange."
+      "title": "Find the needed pathway",
+      "content": "The team concluded that <em>BovB</em> moved from snakes to frogs through horizontal transfer, either directly or indirectly. Because frogs usually do not survive encounters with snakes, strong support would identify an indirect carrier that contacts both animals."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;<em>BovB</em> can be transmitted across frog species through HT.&rsquo;</strong>: This addresses frog-to-frog transfer, not snake-to-frog transfer — it does not explain how frogs first acquire <em>BovB</em> from snakes. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Parasites known to feed on species of snakes and frogs in which the <em>BovB</em> gene occurs also carry <em>BovB</em>.&rsquo;</strong>: Parasites that feed on both snakes and frogs while carrying <em>BovB</em> provide a biological vector for indirect transmission (snakes $\\Rightarrow$ parasites $\\Rightarrow$ frogs), solving the paradox of how frogs acquire the gene without surviving encounters. &#10003;</li><li><strong>Choice C &mdash; &lsquo;<em>BovB</em> cannot be reliably transmitted from a snake species to bacteria that are usually encountered by frog species.&rsquo;</strong>: This rules out one indirect pathway (bacteria as vector), weakening rather than supporting the conclusion that indirect transmission is possible. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Frog species with <em>BovB</em> show few discernible advantages as compared with frog species that do not carry <em>BovB</em>.&rsquo;</strong>: This addresses fitness effects, not the transmission mechanism — it is irrelevant to how frogs acquire <em>BovB</em> from snakes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject irrelevant findings",
+      "content": "A explains possible frog-to-frog transfer, not how frogs acquired the gene from snakes. C rules out one indirect bacterial route, which weakens the idea. D concerns fitness advantages, not transmission. The remaining finding supplies a parasite vector between snakes and frogs. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "questionId": "73e41cdf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the first area",
+      "content": "Circle $M$ has radius $3$ millimeters. Use the area formula to find its area:<br/>$$A_M=\\pi(3)^2=9\\pi$$",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add both circle areas",
+      "content": "Circle $N$ already has area $169\\pi$ square millimeters. Add the two circle areas:<br/>$$9\\pi+169\\pi=178\\pi$$<br/>The combined area is $178\\pi$ square millimeters, which is choice D. The answer is <strong>D</strong>."
+    }
+  ]
+}

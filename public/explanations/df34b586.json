@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the signal",
-      "content": "The passage needs an example showing that demand “grew significantly”—the blank should display growth."
+      "title": "Find the needed trend",
+      "content": "The sentence needs an example of demand for Singer sewing machines growing significantly in countries outside the company's largest overseas markets. The data should show a clear increase over time."
     },
     {
-      "title": "Match the data to the signal",
-      "content": "The Philippines sales jumped from roughly 3,000 in 1908 to 45,000 in 1918, directly demonstrating the growth the passage describes.<br/><br/>The other three countries show flat, stable, or declining sales patterns throughout the period, contradicting the growth narrative.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose the growth example",
+      "content": "The Philippines example shows a dramatic increase from 1908 to 1918, so it fits the growth claim. B says sales were consistent, C overstates Australia as steady growth, and D describes a decline. The answer is <strong>A</strong>."
     }
   ]
 }

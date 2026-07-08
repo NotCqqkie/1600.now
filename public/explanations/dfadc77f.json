@@ -1,0 +1,15 @@
+{
+  "questionId": "dfadc77f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the evidence",
+      "content": "The first sentence says the statues are extremely heavy. The next sentence gives concrete proof: each statue weighs more than 5 tons. The transition needs to signal confirmation or supporting evidence."
+    },
+    {
+      "title": "Rule out wrong relationships",
+      "content": "<ul><li><strong>Choice B</strong> signals an earlier time, but the sentence gives evidence, not a time shift.</li><li><strong>Choice C</strong> signals a regardless-of-that pivot, but no competing point is being set aside.</li><li><strong>Choice D</strong> signals replacement or contrast, but the weight figure reinforces the previous claim.</li></ul>The remaining choice introduces confirming evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

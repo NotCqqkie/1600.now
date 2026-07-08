@@ -1,0 +1,15 @@
+{
+  "questionId": "70c41e14",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare wild and captive tucos",
+      "content": "Torres and Patel were looking for differences between findings from wild animals and findings from animals in laboratory conditions. The example for tucos gives exactly that kind of difference: wild individuals are most active during the daytime, but captive individuals are not. This points to the laboratory setting as a cause of distorted behavior."
+    },
+    {
+      "title": "Avoid overreaching",
+      "content": "Choice D completes the conclusion because the lab appears to interfere with tucos' patterns of rest and activity. Choice A says the lab is more suitable, but the evidence suggests the opposite. Choice B extends the conclusion to both tucos and dark-eyed juncos even though the specific evidence is about tucos. Choice C compares suitability for two species, which the passage does not do. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the similar right triangles",
-      "content": "The altitude from $X$ to $YZ$ creates similar right triangles because the smaller triangle shares angle $Y$ with the original triangle. Find $\\tan(\\angle Y)$ from $WX$ and $WY$, then use the complementary relationship between $Y$ and $Z$."
+      "title": "Use the smaller triangle",
+      "content": "Since $WX$ is perpendicular to $YZ$, triangle $WYX$ is right. It shares angle $Y$ with triangle $XYZ$, so the two right triangles are similar."
     },
     {
-      "title": "Find angle Y in the sub-triangle",
-      "content": "Point $W$ on hypotenuse $YZ$ creates right triangle $XWY$ with a right angle at $W$ (since $WX \\perp YZ$).<br/><br/>In this right triangle, the angle at $Y$ is the same as $\\angle XYZ$ in the original triangle.<br/><br/>Therefore:\n$$\\tan(\\angle Y) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{WX}{WY} = \\frac{385}{924}$$ Both values share a common factor: $385 = 5 \\times 77$ and $924 = 12 \\times 77$.<br/><br/>So:\n$$\\tan(\\angle Y) = \\frac{5 \\times 77}{12 \\times 77} = \\frac{5}{12}$$"
+      "title": "Relate the tangent values",
+      "content": "In triangle $WYX$, angle $X$ corresponds to angle $Z$ in triangle $XYZ$. For angle $X$, the opposite side is $WY$ and the adjacent side is $WX$.\n$$\\tan Z=\\frac{WY}{WX}$$"
     },
     {
-      "title": "Use the complementary angle relationship",
-      "content": "In triangle $XYZ$, angle $X = 90^{\\circ}$, so the other two angles sum to $90^{\\circ}$:\n$$\\angle Y + \\angle Z = 90^{\\circ}$$ This means $\\angle Z = 90^{\\circ} - \\angle Y$, so:\n$$\\tan(\\angle Z) = \\tan(90^{\\circ} - \\angle Y) = \\cot(\\angle Y) = \\frac{1}{\\tan(\\angle Y)}$$ Substituting $\\tan(\\angle Y) = \\frac{5}{12}$:\n$$\\tan(\\angle Z) = \\frac{1}{\\frac{5}{12}} = \\frac{12}{5}$$ That confirms <strong>D</strong> is correct."
+      "title": "Simplify the ratio",
+      "content": "Substitute the given lengths and reduce.\n$$\\tan Z=\\frac{924}{385}=\\frac{12\\cdot77}{5\\cdot77}=\\frac{12}{5}$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

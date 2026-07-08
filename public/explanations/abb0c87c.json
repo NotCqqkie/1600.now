@@ -1,0 +1,15 @@
+{
+  "questionId": "abb0c87c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb slot",
+      "content": "The sentence needs a finite main verb for the clause 'Cordeiro ______ the library's collections.' The present-tense context is Cordeiro's current role as director."
+    },
+    {
+      "title": "Use a finite verb",
+      "content": "A, C, and D are non-finite forms, so they cannot serve as the main verb of the independent clause. The simple present verb agrees with the singular subject and fits the current-role context. The answer is <strong>B</strong>."
+    }
+  ]
+}

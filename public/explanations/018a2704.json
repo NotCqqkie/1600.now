@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Notice the shortcut",
-      "content": "The problem asks for $2(x-7)$, not for $x$. That expression already appears in the equation, so isolate it directly."
+      "title": "Isolate the requested expression",
+      "content": "The question asks for $2(x-7)$, so isolate that expression directly instead of solving for $x$."
     },
     {
-      "title": "Subtract 18",
-      "content": "From $54=18+2(x-7)$, subtract $18$ from both sides:<br/>$$54-18=2(x-7)$$<br/>$$36=2(x-7)$$"
-    },
-    {
-      "title": "Avoid extra work",
-      "content": "There is no need to divide by $2$ or solve for $x$ because the target value is already $2(x-7)$."
-    },
-    {
-      "title": "Answer",
-      "content": "$2(x-7)=36$, which matches <strong>Choice C &mdash; $36$</strong>. Therefore <strong>C</strong> is correct."
+      "title": "Subtract eighteen",
+      "content": "Start with<br/>$$54=18+2(x-7)$$<br/>Subtract $18$ from both sides.<br/>$$54-18=2(x-7)$$<br/>So<br/>$$36=2(x-7)$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the stark contrast in comfort ratings",
-      "content": "The stem claims all three wanted cooler temps. But examine the comfort ratings: participant 20 reported −2 (feeling cold), while participants 1 and 21 both reported +1 (feeling warm).<br/><br/>That's a three-point gap on the −3 to +3 scale. The question signals a <em>but</em> — expecting us to explain why these different comfort levels coexist with the same temperature preference."
+      "title": "Compare the comfort ratings",
+      "content": "The table shows that all three participants wanted the room cooler, but their comfort ratings were not the same. Participant 20 reported minus 2, while participants 1 and 21 each reported plus 1."
     },
     {
-      "title": "Match the data to the answer",
-      "content": "The matching choice directly captures this contrast: participant 20 reported feeling significantly colder (−2) than the other two (+1 each).<br/><br/>This gap is not incidental; it explains why all three want cooler temps despite very different starting comfort levels.<br/><br/>Choices <ul><li>A denies the difference</li><li>B references info not in the table</li><li>D reverses the relationship</li></ul>.<br/><br/><strong>C</strong> is correct."
+      "title": "Use the colder outlier",
+      "content": "The matching choice captures that contrast: participant 20 felt much colder than the other two even while sharing their cooler preference. Choice A says the ratings were the same, Choice B uses information not shown, and Choice D reverses the comparison. The answer is <strong>C</strong>."
     }
   ]
 }

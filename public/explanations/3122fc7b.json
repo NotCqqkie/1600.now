@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert years to model inputs",
-      "content": "Use years after $1993$ as the input. Then $1993$ becomes $0$, $2013$ becomes $20$, and $2017$ becomes $24$. The two known data points are $(0,64)$ and $(20,238)$, with population measured in thousands."
+      "title": "Convert years to inputs",
+      "content": "Use years after $1993$ as the input. Then $1993$ becomes $0$, $2013$ becomes $20$, and $2017$ becomes $24$. The two known data points are $(0{,}64)$ and $(20{,}238)$, with population measured in thousands."
     },
     {
       "title": "Find the linear model",
-      "content": "Use the two known points to find the slope: $$m=\\frac{238-64}{20-0}=\\frac{174}{20}=8.7$$ Since the point with input $0$ has output $64$, the intercept is $64$. The model is $$y=8.7x+64.$$"
+      "content": "Use the two known points to find the slope: $m=\\frac{238-64}{20-0}=\\frac{174}{20}=8.7$. Since the point with input $0$ has output $64$, the model is $y=8.7x+64$."
     },
     {
       "title": "Evaluate at 2017",
-      "content": "For $2017$, use $x=24$: $$y=8.7(24)+64=272.8.$$ Rounded to the nearest whole number, the estimated population is <strong>273</strong> thousand."
+      "content": "For $2017$, use $x=24$: $y=8.7(24)+64=272.8$. The answer is <strong>273</strong>."
     }
   ]
 }

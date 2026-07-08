@@ -1,0 +1,15 @@
+{
+  "questionId": "2c44da0c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the technologies",
+      "content": "NeuroPulse develops neuromodulation, which stimulates nervous system structures and influences neural activity. CortexLink develops neuroprostheses, which restore lost sensory, motor, or neural functions."
+    },
+    {
+      "title": "State the functional contrast",
+      "content": "The correct contrast is influence versus restoration. A mislabels NeuroPulse's technology, B names both companies without explaining the difference, and D gives the brain-computer-interface function to neuroprostheses. The answer is <strong>C</strong>."
+    }
+  ]
+}

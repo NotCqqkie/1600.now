@@ -1,0 +1,19 @@
+{
+  "questionId": "3a15d94e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use similar triangles",
+      "content": "The marked angles and vertical angles make triangles $WQX$ and $YQZ$ similar."
+    },
+    {
+      "title": "Set corresponding sides",
+      "content": "Corresponding side ratios are equal:\n$$\n\\frac{WQ}{YQ}=\\frac{WX}{YZ}\n$$\nSubstitute the given lengths:\n$$\n\\frac{90}{27}=\\frac{60}{YZ}\n$$"
+    },
+    {
+      "title": "Solve for the side",
+      "content": "Cross multiply:\n$$\n90(YZ)=27(60)=1{,}620\n$$\n$$\nYZ=18\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

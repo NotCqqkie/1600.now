@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Transitions question. The first sentence establishes that Arabic-speaking Muslim states ruled the region for centuries; the second sentence describes Arabic words entering Spanish. The logical relationship is cause-and-effect: the centuries of Arabic rule is the cause, and the borrowing of Arabic words is the result."
+      "title": "Identify the result",
+      "content": "The first sentence says Al-Andalus was ruled by Arabic-speaking Muslim states for centuries. The second sentence says many Arabic words entered Spanish. The second idea is a result of the first, not an example, contrast, or restatement."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: Signals that the second sentence illustrates the first. But Arabic words entering Spanish is not an example of Arabic-speaking rule &mdash; it is a consequence of it. &#10007;</li><li><strong>Choice B &mdash; Instead,</strong>: Signals contrast or an alternative. Arabic words entering Spanish does not contrast with or replace the idea of Arabic-speaking rule; it follows from it. &#10007;</li><li><strong>Choice C &mdash; Specifically,</strong>: Signals that the second sentence narrows or elaborates on the first. Arabic words entering Spanish is a downstream result, not a more precise restatement of Arabic-speaking rule. &#10007;</li><li><strong>Choice D &mdash; Consequently,</strong>: Signals that the second sentence is the result of the first. Centuries of Arabic-speaking rule caused Arabic words to enter Spanish &mdash; a direct cause-and-effect fit. &#10003;</li></ul>That is the correct answer."
+      "title": "Select the causal transition",
+      "content": "A would introduce an example of Arabic-speaking rule, but the sentence describes a result. B signals contrast, and C signals specificity; neither fits the cause-and-effect relationship. The transition must show that the language borrowing followed from the historical rule. The answer is <strong>D</strong>."
     }
   ]
 }

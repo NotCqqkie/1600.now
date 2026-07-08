@@ -1,0 +1,23 @@
+{
+  "questionId": "8f0a5f45",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the equations",
+      "content": "Divide every term in the second equation by $2$:<br/>$$30x+2y=26$$<br/>$$15x+y=13$$"
+    },
+    {
+      "title": "Identify the same line",
+      "content": "The simplified second equation is identical to the first equation. That means both equations describe the same line, so every point on that line solves the system. Choice A would require one intersection point, choice B is not possible for two lines, and choice D would require parallel lines with different intercepts."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both equations; the two graphs overlap completely, which means there are infinitely many solutions. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y = 13 - 15x",
+        "y = \\frac{26 - 30x}{2}"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the y-coordinate of the intersection point",
-      "content": "The intersection point is $(q, 17)$ with $y = 17$. Substitute into both equations:<br/><br/>Equation 1: $-x - 17w = -340$<br/>Equation 2: $2x - 17w = 17$"
+      "title": "Use the shared point",
+      "content": "Substitute the shared point $(q,17)$ into both equations: $$-q-17w=-340$$ $$2q-17w=17$$"
     },
     {
-      "title": "Eliminate x and solve for w",
-      "content": "Multiply equation 1 by 2:<br/>$$-2x - 34w = -680$$<br/>Add to equation 2 to eliminate $x$:<br/>$$-2x - 34w + 2x - 17w = -680 + 17$$<br/>$$-51w = -663$$<br/>$$w = 13$$"
+      "title": "Eliminate the x-coordinate",
+      "content": "Double the first equation, then add: $$-2q-34w=-680$$ $$2q-17w=17$$ $$-51w=-663$$ Divide by $-51$. The answer is <strong>13</strong>."
     }
   ]
 }

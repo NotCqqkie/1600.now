@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=3x+9$$<br/>$$3y=8x-6$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Substitute for y",
+      "content": "Use $y=3x+9$ in the second equation.<br/>$$3(3x+9)=8x-6$$<br/>$$9x+27=8x-6$$<br/>$$x=-33$$"
+    },
+    {
+      "title": "Find y and subtract",
+      "content": "Substitute $x=-33$ into $y=3x+9$.<br/>$$y=3(-33)+9=-90$$<br/>Then subtract.<br/>$$x-y=-33-(-90)=57$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equations and use their intersection point. Then subtract the displayed $y$-coordinate from the displayed $x$-coordinate. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=3x+9",
         "3y=8x-6"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>D</strong>, $57$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

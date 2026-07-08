@@ -1,0 +1,19 @@
+{
+  "questionId": "22598326",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find what the positions share",
+      "content": "The student wants to emphasize a similarity between first position in the Vaganova method of ballet and demi-seconde position in the Royal Academy of Dance method of ballet. The notes describe different arm shapes for the two positions, but they also show the shared category: both are positions for the dancer's arms."
+    },
+    {
+      "title": "Reject contrasts and singletons",
+      "content": "Choice B incorrectly says both positions are in the Royal Academy of Dance method, even though the notes place first position in the Vaganova method. Choice C explicitly contrasts the arm placements, so it emphasizes a difference. Choice D discusses only the Vaganova method and first position, so it does not compare the two positions."
+    },
+    {
+      "title": "Choose the shared-category sentence",
+      "content": "Choice A names first position in the Vaganova method and demi-seconde position in the Royal Academy of Dance method, then says both are positions for the dancer's arms. That uses the relevant notes to emphasize the requested similarity. The answer is <strong>A</strong>."
+    }
+  ]
+}

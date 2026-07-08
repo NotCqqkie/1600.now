@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the costs bar",
-      "content": "The graph shows three factors (convenience, costs, established behaviors) with the percentage of the 55 participants who mentioned each. Locate the bar labeled &quot;costs&quot; and read it against the vertical percentage axis."
+      "title": "Read the costs bar",
+      "content": "The question asks for the percentage of participants who mentioned costs. On the graph, the bar for costs reaches the 50 percent gridline, indicating about half of the participants."
     },
     {
-      "title": "Read the height",
-      "content": "The costs bar reaches the 50% gridline, indicating roughly half of the interviewed participants mentioned costs as a factor."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; 10%</strong>: far too low &mdash; no bar in the graph sits near 10%. Misread of the axis. &#10007;</li><li><strong>Choice B &mdash; 95%</strong>: this matches the tallest bar (a different factor), not the costs bar. Wrong bar. &#10007;</li><li><strong>Choice C &mdash; 25%</strong>: this corresponds to a different, shorter bar; the costs bar is taller than this. &#10007;</li><li><strong>Choice D &mdash; 50%</strong>: matches the height of the costs bar at the 50% gridline. &#10003;</li></ul>That is the correct answer."
+      "title": "Match the graph value",
+      "content": "A is much too low, B matches the tallest bar rather than the costs bar, and C matches a lower bar for a different factor. The costs bar is about 50 percent. The answer is <strong>D</strong>."
     }
   ]
 }

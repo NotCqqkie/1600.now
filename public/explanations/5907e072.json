@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given condition into the function",
-      "content": "The function is $f(x) = x + b$. We're told that when $x = 0$, $f(0) = 24$. Substituting these values into the function:<br/>$$f(0) = 0 + b = 24$$"
+      "title": "Substitute the given input",
+      "content": "The function is $f(x)=x+b$. When $x=0$, the output is $24$, so substitute those values:<br/>$$f(0)=0+b=24$$"
     },
     {
-      "title": "Solve for b",
-      "content": "From the equation $0 + b = 24$, we immediately get $b = 24$. <strong>D</strong> is correct."
+      "title": "Identify the constant",
+      "content": "The equation becomes<br/>$$b=24$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

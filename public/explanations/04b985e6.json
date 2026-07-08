@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret function notation",
-      "content": "In the function $K(v)$, the input $v$ represents speed in m/s and the output $K(v)$ represents kinetic energy in joules.<br/><br/>The notation $K(36) = 4,536$ means: when we substitute $v = 36$, the function outputs $4,536$.<br/><br/>Therefore, the object traveling at $36$ m/s has kinetic energy of $4,536$ joules.<br/><br/>That matches <strong>Choice A &mdash; The object traveling at $36$ meters per second has a kinetic energy of $4,536$ joules.</strong>."
+      "title": "Identify the input and output",
+      "content": "In function notation, $K(36)=4{,}536$ means the input is $36$ and the output is $4{,}536$."
+    },
+    {
+      "title": "Interpret the units",
+      "content": "The input to $K(v)$ is speed in meters per second, and the output is kinetic energy in joules. So an object traveling at $36$ meters per second has a kinetic energy of $4{,}536$ joules. The answer is <strong>A</strong>."
     }
   ]
 }

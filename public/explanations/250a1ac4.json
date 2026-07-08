@@ -1,0 +1,15 @@
+{
+  "questionId": "250a1ac4",
+  "correctAnswer": "252",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Include the tax multiplier",
+      "content": "An $8\\%$ tax makes each tablet cost $108\\%$ of $156$:<br/>$$156(1.08)=168.48$$"
+    },
+    {
+      "title": "Apply the budget limit",
+      "content": "The budget gives<br/>$$168.48n\\le42{,}500$$<br/>Divide by $168.48$:<br/>$$n\\le\\frac{42{,}500}{168.48}$$<br/>This is about $252.25$, so the maximum whole number is $252$. The answer is <strong>252</strong>."
+    }
+  ]
+}

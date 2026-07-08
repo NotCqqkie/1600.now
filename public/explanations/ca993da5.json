@@ -1,0 +1,20 @@
+{
+  "questionId": "ca993da5",
+  "correctAnswer": "30.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total composition",
+      "content": "The $142$ kilograms of muscle is $67.0\\%$ of the total composition. So the total composition is approximately<br/>$$\\frac{142}{0.670}=211.94$$",
+      "formula": "$$\\text{Total} = \\frac{\\text{Part}}{\\text{Percentage}}$$"
+    },
+    {
+      "title": "Find the remaining composition",
+      "content": "The remaining composition is $33.0\\%$ of the total, which is approximately<br/>$$211.94(0.330)=69.94$$"
+    },
+    {
+      "title": "Compute the bone mass",
+      "content": "Bone is $43.6\\%$ of the remaining composition, so the bone mass is approximately<br/>$$69.94(0.436)=30.49$$<br/>Rounded to the nearest tenth, this is $30.5$. The answer is <strong>30.5</strong>."
+    }
+  ]
+}

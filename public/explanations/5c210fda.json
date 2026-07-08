@@ -1,0 +1,15 @@
+{
+  "questionId": "5c210fda",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the marker cost",
+      "content": "Olivia bought $11$ packages of markers at $4$ dollars per package:\n$$\n11\\cdot 4=44\n$$\nSo she spent $44$ dollars on markers."
+    },
+    {
+      "title": "Use the remaining money",
+      "content": "Subtract the marker cost from the total:\n$$\n68-44=24\n$$\nEach folder costs $1$ dollar, so the remaining $24$ dollars buys $24$ folders. The answer is <strong>24</strong>."
+    }
+  ]
+}

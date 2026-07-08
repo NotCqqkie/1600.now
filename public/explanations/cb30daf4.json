@@ -1,0 +1,15 @@
+{
+  "questionId": "cb30daf4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared topic",
+      "content": "Text 1 says scientists still have much to learn about sloths because they are hard to study. Text 2 describes a monitor that lets scientists learn about sloths' hidden activities and correct misconceptions."
+    },
+    {
+      "title": "Choose the common focus",
+      "content": "The matching topic is scientists' efforts to understand sloths. Choice A appears only in Text 1, Choice C appears only in Text 2, and Choice D is not discussed in either text. The answer is <strong>B</strong>."
+    }
+  ]
+}

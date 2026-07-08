@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the unit conversion between years and months",
-      "content": "The original function $p(t) = 84,000(1.05)^t$ uses $t$ in years. The new function $r(m)$ uses $m$ in months. The conversion is: $m$ months equals $\\frac{m}{12}$ years."
+      "title": "Convert months to years",
+      "content": "The original function uses time in years. If $m$ is the number of months, then the number of years is<br/>$$\\frac{m}{12}$$"
     },
     {
-      "title": "Substitute the converted time into the original function",
-      "content": "To find $r(m)$, substitute $t = \\frac{m}{12}$ into $p(t)$: $$r(m) = 84,000\\left(1.05\\right)^{\\frac{m}{12}}$$ That matches <strong>Choice D &mdash; $r \\left(m\\right)=84,000{ \\left(1.05\\right)}^{\\frac{m}{12}}$</strong>."
+      "title": "Substitute the time",
+      "content": "Replace $t$ with $\\frac{m}{12}$ in the original population model.<br/>$$r(m)=84{,}000(1.05)^{\\frac{m}{12}}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

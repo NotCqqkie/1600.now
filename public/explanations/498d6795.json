@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the Pythagorean theorem",
-      "content": "The triangle is right-angled at $B$, so $AC$ is the hypotenuse. Use $AC^2=AB^2+BC^2$ with the two given leg lengths."
+      "title": "Identify the hypotenuse",
+      "content": "Angle $B$ is the right angle, so $AB$ and $BC$ are the legs, and $AC$ is the hypotenuse."
     },
     {
-      "title": "Apply the Pythagorean theorem",
-      "content": "Since angle $B$ is the right angle, $AC$ is the hypotenuse. Apply the Pythagorean theorem:<br/>$$AC^2 = (7\\sqrt{41})^2 + (24\\sqrt{41})^2$$<br/>Expand each term:<br/>$$AC^2 = 49 \\cdot 41 + 576 \\cdot 41$$<br/>Factor out 41:<br/>$$AC^2 = 41(49 + 576) = 41 \\cdot 625$$"
+      "title": "Use the right-triangle theorem",
+      "content": "Use $AC^2=AB^2+BC^2$:\n$$\nAC^2=(7\\sqrt{41})^2+(24\\sqrt{41})^2\n$$\n$$\nAC^2=49\\cdot41+576\\cdot41\n$$\n$$\nAC^2=625\\cdot41\n$$"
     },
     {
-      "title": "Recognize the perfect square",
-      "content": "Observe that $49 + 576 = 625 = 25^2$ (note: $7^2 + 24^2 = 25^2$, a Pythagorean triple). Therefore:<br/>$$AC^2 = 41 \\cdot 25^2 = (25\\sqrt{41})^2$$<br/>Taking the positive square root:<br/>$$AC = 25\\sqrt{41}$$<br/><strong>B</strong> is correct."
+      "title": "Find the side length",
+      "content": "Since $625=25^2$,\n$$\nAC=\\sqrt{625\\cdot41}=25\\sqrt{41}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

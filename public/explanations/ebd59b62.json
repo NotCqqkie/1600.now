@@ -1,0 +1,15 @@
+{
+  "questionId": "ebd59b62",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the requested detail",
+      "content": "The goal is narrow: specify how many chromosomes the fennec fox has. The response should name the fennec fox and state the exact count, without shifting to a comparison or to general facts about chromosomes."
+    },
+    {
+      "title": "Keep only the direct count",
+      "content": "Choice A compares the fennec fox with the red fox but does not give the number. Choice C explains what genes do. Choice D gives the red fox count instead. The remaining choice directly states the fennec fox's chromosome count. The answer is <strong>B</strong>."
+    }
+  ]
+}

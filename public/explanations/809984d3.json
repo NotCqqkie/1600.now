@@ -1,0 +1,15 @@
+{
+  "questionId": "809984d3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ has the form\n$$\nf(x)=mx+b\n$$"
+    },
+    {
+      "title": "Substitute the values",
+      "content": "The slope is $\\frac{1}{3}$. Since the graph passes through $(0,7)$, the $y$-intercept is $7$:\n$$\nf(x)=\\frac{1}{3}x+7\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

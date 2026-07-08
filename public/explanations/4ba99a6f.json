@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two clauses being joined",
-      "content": "The sentence contains two independent clauses: (1) <em>&quot;In 2004, Watt sewed strips of blankets together to craft a 10-by-13-inch [blank]&quot;</em> and (2) <em>&quot;in 2014, she arranged folded blankets into two large stacks...&quot;</em>. Because no coordinating conjunction connects them, the punctuation in the blank must be strong enough to join two independent clauses on its own &mdash; only a <strong>semicolon</strong> can do this.<ul><li><strong>Choice A — sampler later,</strong>: comma alone after <em>later</em> creates a comma splice; the adverb <em>later</em> also contradicts the specific date &quot;in 2014&quot; &#10007;</li><li><strong>Choice B — sampler;</strong>: semicolon correctly joins two independent clauses without a coordinating conjunction &#10003;</li><li><strong>Choice C — sampler,</strong>: comma alone creates a comma splice &#10007;</li><li><strong>Choice D — sampler, later,</strong>: comma before <em>later</em> creates a comma splice, and <em>later</em> again contradicts the specific date &#10007;</li></ul>"
+      "title": "Find the clause boundary",
+      "content": "The sentence describes two separate actions: in 2004, Watt crafted a small sampler, and in 2014, she arranged folded blankets into stacks and cast them in bronze. Both parts can stand as independent clauses, and there is no coordinating conjunction joining them."
     },
     {
-      "title": "Confirm the correct choice",
-      "content": "A semicolon is the only punctuation mark that can join two independent clauses without a coordinating conjunction. The other choices all produce comma splices, and A and D add <em>later</em> which conflicts with the explicit year &quot;in 2014.&quot;<br/><br/><strong>B</strong> is correct."
+      "title": "Use strong punctuation",
+      "content": "Choice A and Choice D add <em>later</em>, which is unnecessary before the specific year. Choices A, C, and D also rely on commas where a stronger boundary is needed between independent clauses. A semicolon correctly links the related clauses. The answer is <strong>B</strong>."
     }
   ]
 }

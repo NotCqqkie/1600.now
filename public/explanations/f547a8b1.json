@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understanding the y-intercept",
-      "content": "The <em>y</em>-intercept is the point where a graph crosses the <em>y</em>-axis. By definition, this occurs where <em>x</em> = 0."
+      "title": "Use the intercept definition",
+      "content": "The <em>y</em>-intercept is the point where a graph crosses the <em>y</em>-axis. That point has $x=0$."
     },
     {
-      "title": "Reading the value from the graph",
-      "content": "Looking at the graph where it crosses the <em>y</em>-axis (at <em>x</em> = 0), the curve passes through the point (0, 8). This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Read the graph",
+      "content": "The graph crosses the <em>y</em>-axis at $(0,8)$. The answer is <strong>D</strong>."
     }
   ]
 }

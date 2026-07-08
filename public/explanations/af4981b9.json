@@ -1,0 +1,15 @@
+{
+  "questionId": "af4981b9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a restrictive appositive",
+      "content": "The phrase \"fellow OECD member nation\" does not identify which nation by itself. The country name is needed to specify the member nation, so it should not be set off as extra information."
+    },
+    {
+      "title": "Reject separating punctuation",
+      "content": "B uses a comma, C uses a hyphen, and D uses a colon; all wrongly separate the necessary name from \"nation.\" The needed construction places the name directly after the noun. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e0abc351",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the two sentences",
+      "content": "The first sentence states a broad trend: high-speed rail is expanding in many countries. The second sentence introduces Denmark with <em>for instance</em>, so it gives a specific example of that trend."
+    },
+    {
+      "title": "Rule out wrong structures",
+      "content": "Choice A invents a rejected belief. Choice B says the text questions an action and suggests alternatives, which it does not. Choice C claims the second sentence challenges the first, but it supports it. The answer is <strong>D</strong>."
+    }
+  ]
+}

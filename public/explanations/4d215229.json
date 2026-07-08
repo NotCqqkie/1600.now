@@ -1,0 +1,15 @@
+{
+  "questionId": "4d215229",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the illustration",
+      "content": "The first sentence introduces energy transfer across trophic levels. The next sentence gives a concrete sequence: plants feed herbivores, herbivores feed carnivores and omnivores, and so on."
+    },
+    {
+      "title": "Reject contrast transitions",
+      "content": "Choice A signals contrast, but the second sentence illustrates the first. Choice B signals a similar additional point, not an example. Choice C also signals contrast, which does not fit the explanatory sequence. The answer is <strong>D</strong>."
+    }
+  ]
+}

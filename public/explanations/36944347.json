@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank requires",
-      "content": "The blank completes &ldquo;as [blank] sediment&rdquo; within a subordinate clause. The subject of &ldquo;expand and contract&rdquo; is &ldquo;rivers,&rdquo; which is plural and non-human, so the blank needs a third-person plural pronoun paired with a matching verb."
+      "title": "Match the pronoun",
+      "content": "The phrase rivers such as the Mississippi is plural, and the blank explains what those rivers do as they expand and contract. The pronoun must therefore be plural, and the verb must agree with it."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — they accumulate</strong>: &ldquo;They&rdquo; is third-person plural and correctly agrees with the plural noun &ldquo;rivers.&rdquo; &#10003;</li><li><strong>Choice B — one accumulates</strong>: &ldquo;One&rdquo; is singular; &ldquo;rivers&rdquo; is plural&mdash;pronoun-antecedent agreement error. &#10007;</li><li><strong>Choice C — it accumulates</strong>: &ldquo;It&rdquo; is singular; &ldquo;rivers&rdquo; is plural&mdash;same agreement error. &#10007;</li><li><strong>Choice D — we accumulate</strong>: &ldquo;We&rdquo; is first-person and implies the speaker is a river, which makes no sense here. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject mismatches",
+      "content": "B uses singular one, and C uses singular it, so neither agrees with rivers. D uses we, which incorrectly makes the speaker part of the action. The remaining choice gives the needed plural pronoun and verb. The answer is <strong>A</strong>."
     }
   ]
 }

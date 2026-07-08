@@ -1,0 +1,19 @@
+{
+  "questionId": "f71ef49e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link exposure to distinction",
+      "content": "The team's conclusion is that the amount of previous language exposure may influence a dog's ability to distinguish a familiar language from an unfamiliar one. A supporting finding must therefore connect greater exposure with a stronger familiar-versus-unfamiliar brain-activity difference."
+    },
+    {
+      "title": "Reject the wrong comparisons",
+      "content": "Choice A shows dogs of all ages respond more to the familiar language, but it does not show that more exposure creates a stronger distinction. Choice C compares scrambled recordings with the unfamiliar language. Choice D compares familiar language with scrambled recordings. Neither comparison tests familiar versus unfamiliar language."
+    },
+    {
+      "title": "Use the age exposure pattern",
+      "content": "Older dogs would generally have received more exposure to the language they know. If the difference between familiar-language and unfamiliar-language brain activity was greatest among older dogs, that directly supports the idea that previous exposure influences language distinction ability. The answer is <strong>B</strong>."
+    }
+  ]
+}

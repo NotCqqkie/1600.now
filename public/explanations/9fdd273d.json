@@ -1,0 +1,19 @@
+{
+  "questionId": "9fdd273d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the yearly change",
+      "content": "Each year, the account has $1.3\\%$ more than it had the previous year. That means the old balance is multiplied by $1+0.013$, so the yearly multiplier is $$1+0.013=1.013$$"
+    },
+    {
+      "title": "Classify the pattern",
+      "content": "Repeated multiplication by the same factor gives an exponential model, not a linear model. A linear model would add or subtract the same dollar amount each year, but a percent increase adds an amount based on the current balance."
+    },
+    {
+      "title": "Check the direction",
+      "content": "The multiplier $1.013$ is greater than $1$, so the balance grows as time increases. The model is increasing, and the repeated multiplication makes it exponential. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "92229d36",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test model resolution",
+      "content": "The researchers conclude that landscape variation affects net CO2 in ways that most models are too coarse to capture. Evidence should show that a finer 1 km2 grid and a coarser 10 km2 grid produce different results for the same landscape-related measurement in the same season, not just different amounts of data."
+    },
+    {
+      "title": "Compare the same metric",
+      "content": "The key is not simply that the finer grid generates more data. The finding must show that changing the grid size changes what the model reports, because that would prove that resolution affects the scientific conclusion about CO2 patterns."
+    },
+    {
+      "title": "Eliminate matching results",
+      "content": "<ul><li><strong>Choice A</strong> reports the same seasonal pattern at both resolutions, so it does not show what coarse models miss.</li><li><strong>Choice B</strong> reports no correlation at both resolutions, which also does not show a resolution difference.</li><li><strong>Choice D</strong> says the two models reported identical net CO2.</li></ul>"
+    },
+    {
+      "title": "Use divergent outputs",
+      "content": "<strong>Choice C</strong> says autumn heterotrophic respiration rates were lower in the 1 km2 grid than in the 10 km2 grid. Different results from different grid sizes show that coarse modeling can miss important landscape detail. The answer is <strong>C</strong>."
+    }
+  ]
+}

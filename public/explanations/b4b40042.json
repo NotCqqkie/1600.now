@@ -1,0 +1,15 @@
+{
+  "questionId": "b4b40042",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match subject and time",
+      "content": "The subject is <em>Ann Greely</em>, a single person. The phrase <em>in the late 1800s</em> places the action in the past, so the verb must be singular and past tense."
+    },
+    {
+      "title": "Reject plural forms",
+      "content": "Choice B is plural present perfect. Choice C is plural present tense. Choice D is past tense but plural for this context. The singular past-tense form agrees with Ann Greely and the late-1800s time frame. The answer is <strong>A</strong>."
+    }
+  ]
+}

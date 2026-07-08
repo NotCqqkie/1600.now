@@ -1,0 +1,15 @@
+{
+  "questionId": "2efaa1a8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the list of elements",
+      "content": "The sentence announces \"three signature elements\" of Brooks's poetic style and then lists them: terse compressed lines, syncopated rhythms, and attention to everyday life. A colon is the natural punctuation to introduce a list or explanation after a complete setup."
+    },
+    {
+      "title": "Reject wrong list breaks",
+      "content": "A uses a period, leaving the following list fragment disconnected. B uses only a comma, which is too weak to introduce the list clearly. D uses a semicolon, but the material after it is not an independent clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

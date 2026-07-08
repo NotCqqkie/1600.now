@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question requires",
-      "content": "The question asks for the year when <em>both</em> museums individually had their highest number of visits—meaning the same year must be each museum’s own peak, not just the year with the highest combined total."
+      "title": "Compare each museum's peak",
+      "content": "The question asks for the year when both museums individually had their highest number of visits. The National Museum of the American Indian peaks at 1.2 million visits in 2017, and the National Museum of African American History and Culture peaks at 2.4 million visits in 2017."
     },
     {
-      "title": "Find each museum's peak year individually",
-      "content": "National Museum of the American Indian visits by year:<br/>2016: 1.1M &nbsp;|&nbsp; 2017: <strong>1.2M</strong> &nbsp;|&nbsp; 2018: 1.1M &nbsp;|&nbsp; 2019: 0.96M<br/>Peak: <strong>2017</strong><br/><br/>National Museum of African American History and Culture visits by year:<br/>2016: 0.73M &nbsp;|&nbsp; 2017: <strong>2.4M</strong> &nbsp;|&nbsp; 2018: 1.9M &nbsp;|&nbsp; 2019: 2.0M<br/>Peak: <strong>2017</strong><br/><br/>Both museums individually reached their highest visit counts in 2017. That confirms <strong>D</strong> is correct."
+      "title": "Reject nonpeak years",
+      "content": "A, B, and C name years when at least one museum's visit count was below its own peak. The same peak year for both museums is the remaining option. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "8bbd2673",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar graph",
+      "content": "The question asks which letter appears $80$ times. Compare the bar heights to the value $80$ on the vertical axis."
+    },
+    {
+      "title": "Choose the matching letter",
+      "content": "The bar for letter $B$ reaches $80$, while the other bars do not. The answer is <strong>B</strong>."
+    }
+  ]
+}

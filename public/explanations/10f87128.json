@@ -1,0 +1,15 @@
+{
+  "questionId": "10f87128",
+  "correctAnswer": "90",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "The percent $25\\%$ is the same as one fourth:<br/>$$25\\%=\\frac{25}{100}=\\frac{1}{4}$$"
+    },
+    {
+      "title": "Find one fourth of the beads",
+      "content": "Take one fourth of $360$ beads:<br/>$$\\frac{1}{4}(360)=90$$<br/>The answer is <strong>90</strong>."
+    }
+  ]
+}

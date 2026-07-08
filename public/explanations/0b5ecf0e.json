@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the passage's central argument",
-      "content": "The passage opens with a contrast between private libraries (restricted to wealthy owners) and public libraries (available to all Romans), then pivots with Pereira's observation that &quot;these two traditions aren't as distinct as they seem&quot; because both types were &quot;extensions of personal patronage.&quot; The main purpose of a passage is what the entire text works toward — here, challenging the private/public distinction by showing both shared the same underlying logic."
+      "title": "Find the shared library model",
+      "content": "The passage contrasts private Roman libraries with early public ones, then pivots to Marcos Pereira's point that they were not as distinct as they seemed. Both were viewed as extensions of personal patronage, though on different scales."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Apply each choice to what the passage actually argues:<ul><li><strong>Choice A &mdash; To give a brief overview of public access to libraries throughout Rome's republican period</strong>: The passage mentions Rome's republican period only to date it; it doesn't survey library access throughout that era. &#10007;</li><li><strong>Choice B &mdash; To contend that early imperial leaders in Rome wielded too much influence over libraries</strong>: The passage makes no judgment about whether the emperor's influence was excessive or inappropriate. &#10007;</li><li><strong>Choice C &mdash; To assert that private and early public libraries in ancient Rome had an essential similarity</strong>: This matches the passage's pivot — Pereira's point is precisely that both traditions shared the patronage model, making them essentially similar. &#10003;</li><li><strong>Choice D &mdash; To call into question the notion that private Roman libraries disappeared during the first century BCE</strong>: The passage never suggests private libraries disappeared; that idea is not raised or challenged anywhere in the text. &#10007;</li></ul>That matches <strong>Choice C &mdash; To assert that private and early public libraries in ancient Rome had an essential similarity</strong>."
+      "title": "Reject absent claims",
+      "content": "A would be an overview of republican library access, B would judge imperial influence as excessive, and D would discuss disappearance of private libraries. Those ideas are absent. The passage's main purpose is to assert an essential similarity between private and early public libraries. The answer is <strong>C</strong>."
     }
   ]
 }

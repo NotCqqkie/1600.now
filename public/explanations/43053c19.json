@@ -1,0 +1,15 @@
+{
+  "questionId": "43053c19",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the crossing point",
+      "content": "For a graphed system of two linear equations, the solution is the point where the two lines cross. The question asks only for the $y$-value of that solution."
+    },
+    {
+      "title": "Read the second coordinate",
+      "content": "The two lines cross at the grid point $(-2,3)$. In an ordered pair, the $y$-value is the second coordinate. The answer is <strong>D</strong>."
+    }
+  ]
+}

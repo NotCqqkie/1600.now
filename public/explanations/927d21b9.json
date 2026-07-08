@@ -1,0 +1,15 @@
+{
+  "questionId": "927d21b9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The subject is \"lost works,\" a plural noun phrase. The example of Lucan's poem <em>Laudes Neronis</em> sits inside that phrase, and the dash phrase \"no copy of which exists\" is parenthetical. The verb must agree with the plural subject, not the singular example."
+    },
+    {
+      "title": "Reject singular agreement",
+      "content": "B uses the singular form \"is becoming.\" C uses the singular form \"has become.\" D uses the singular present-tense form \"becomes.\" Since the subject is plural \"works,\" the verb must be plural. The answer is <strong>A</strong>."
+    }
+  ]
+}

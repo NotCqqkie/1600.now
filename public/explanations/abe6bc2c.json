@@ -1,0 +1,28 @@
+{
+  "questionId": "abe6bc2c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the solution condition",
+      "content": "A system has at least one solution when the lines are either the same line or intersect. It fails only when the lines are parallel and distinct, so each proposed equation must be checked against $6x+3y=5$."
+    },
+    {
+      "title": "Check equation one",
+      "content": "For equation I, each coefficient and constant is multiplied by $1.5$:<br/>$$1.5(6x+3y)=1.5(5)$$<br/>$$9x+4.5y=7.5$$<br/>This is the same line, so it gives infinitely many solutions with the original equation."
+    },
+    {
+      "title": "Check equation two",
+      "content": "For equation II, the sign of the $y$-coefficient changes, so it is not a multiple of the original equation. Solving each for $y$ gives slopes $-2$ and $2$, which are different, so the lines intersect once."
+    },
+    {
+      "title": "Use both equations",
+      "content": "Equation I gives the same line, and equation II gives one intersection. Both proposed equations could be the other equation in a system with at least one solution. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y=\\frac{5-6x}{3}",
+        "y=\\frac{7.5-9x}{4.5}",
+        "y=\\frac{7.5+9x}{4.5}"
+      ]
+    }
+  ]
+}

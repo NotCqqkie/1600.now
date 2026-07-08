@@ -1,0 +1,15 @@
+{
+  "questionId": "a06f9208",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the inserted name",
+      "content": "The dash after \"1715\" opens the supplementary phrase \"now known as the Maunder Minimum.\" That inserted name needs to be closed before the sentence continues with the clause explaining when sunspots were scarce."
+    },
+    {
+      "title": "Avoid weak closures",
+      "content": "Choice B does not clearly close the dash phrase. Choice C uses a colon before a dependent \"when\" clause, and Choice D uses a comma where a matching dash is needed. The second dash closes the supplement cleanly. The answer is <strong>A</strong>."
+    }
+  ]
+}

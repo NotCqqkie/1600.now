@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Data Interpretation question asking which graph data supports the researchers&rsquo; conclusion. The hypothesis is that leaders who reflect on lessons learned from past mistakes show more humility than those who don&rsquo;t. To support it, the graph must show the &ldquo;learned from mistake&rdquo; group scoring higher in humility than both the &ldquo;no learning&rdquo; group and the control group."
+      "title": "Focus on the tested hypothesis",
+      "content": "The researchers' hypothesis says that leaders who reflect on lessons learned from mistakes should show more humility than leaders who do not. Supporting data must show the learning-from-mistake group with the highest humility score."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"None of the three groups' average humility scores exceeded 3.5.\"</strong>: States a ceiling fact about score range but does not distinguish among the three groups, so it cannot support a hypothesis about which group is more humble. &#10007;</li><li><strong>\"The managers in the control group exhibited only slightly less humility on average than the managers in the two experimental groups did.\"</strong>: Misreads the graph &mdash; the control group actually scored higher than the &ldquo;no learning&rdquo; experimental group, so treating both experimental groups as a single block is inaccurate and does not support the hypothesis. &#10007;</li><li><strong>\"The managers who reflected on a past mistake that resulted in learning exhibited more humility on average than the managers in the other two groups did.\"</strong>: Directly matches the graph (learning group ~3.1 vs. control ~2.9 and no-learning group ~2.7) and restates the hypothesis in data terms. &#10003;</li><li><strong>\"All three groups exhibited less humility on average than the researchers expected.\"</strong>: The graph provides no information about the researchers&rsquo; expectations, so this claim is unsupported. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use the group comparisons",
+      "content": "A only states a score ceiling and does not compare the groups. B misreads the control group because it is not lower than both experimental groups. D mentions expectations that the graph does not provide. The graph supports the claim that the learning-from-mistake group showed more humility than the other two groups. The answer is <strong>C</strong>."
     }
   ]
 }

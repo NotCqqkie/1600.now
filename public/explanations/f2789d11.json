@@ -1,0 +1,19 @@
+{
+  "questionId": "f2789d11",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the horizontal asymptote",
+      "content": "For $y=a^x+b$, the graph approaches $y=b$ as $x$ gets very small. The graph flattens at $y=-5$, so $b=-5$."
+    },
+    {
+      "title": "Use a marked point",
+      "content": "The graph passes through $(1,2)$. Substitute into $y=a^x+b$:\n$$\n2=a^1+(-5)\n$$\nSo $a=7$."
+    },
+    {
+      "title": "Find the requested difference",
+      "content": "Compute $a-b$:\n$$\na-b=7-(-5)=12\n$$\nThe answer is <strong>12</strong>."
+    }
+  ]
+}

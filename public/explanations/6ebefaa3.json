@@ -1,0 +1,15 @@
+{
+  "questionId": "6ebefaa3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the corpus example",
+      "content": "The example is about proving that \"world\" is the eighth most commonly used noun. That points to frequency and widespread presence in spoken and written English."
+    },
+    {
+      "title": "Choose widespread presence",
+      "content": "B means believable, not frequent. C describes a forceful manner. D means deep or meaningful. The remaining word means widely present or prevalent, which fits corpus frequency data. The answer is <strong>A</strong>."
+    }
+  ]
+}

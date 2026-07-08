@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the y-intercept",
-      "content": "The <em>y</em>-intercept is the point where the graph crosses the <em>y</em>-axis, which occurs at $x = 0$. To find it, trace the vertical line $x = 0$ until it meets the graph and read off the <em>y</em>-coordinate."
+      "title": "Find the graph crossing",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. At that point, the $x$-coordinate is $0$."
     },
     {
-      "title": "Read the value from the figure",
-      "content": "From the figure, the graph passes through $(0, -4)$ on the <em>y</em>-axis. <strong>B</strong> is correct."
+      "title": "Read the intercept",
+      "content": "From the graph, the crossing point on the $y$-axis is $(0,-4)$. The answer is <strong>B</strong>."
     }
   ]
 }

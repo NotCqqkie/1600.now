@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the cutoff list",
-      "content": "All four choices use the same $x$-values, so use a Desmos list. For $x=3$, $5$, and $8$, the boundary values from $13x-18$ are $21$, $47$, and $86$.",
+      "title": "Compute boundary values",
+      "content": "All four tables use $x=3$, $x=5$, and $x=8$. Substitute those values into the boundary expression:\n$$\n13(3)-18=21\n$$\n$$\n13(5)-18=47\n$$\n$$\n13(8)-18=86\n$$",
       "desmosExpressions": [
         "x_1=[3,5,8]",
         "13x_1-18"
       ]
     },
     {
-      "title": "Test the correct table at once",
-      "content": "The matching choice has $y$-values $26$, $52$, and $91$. Enter $d_1=[26,52,91]$ and compare it to the cutoff list. Each value is greater than the matching boundary value: $26\\gt 21$, $52\\gt 47$, and $91\\gt 86$.",
+      "title": "Test the inequality",
+      "content": "For every row, the table's $y$-value must be greater than the matching boundary value. The table with $y$-values $26$, $52$, and $91$ works because\n$$\n26\\gt21,\\quad 52\\gt47,\\quad 91\\gt86\n$$",
       "desmosExpressions": [
         "x_1=[3,5,8]",
         "d_1=[26,52,91]",
@@ -23,7 +23,7 @@
     },
     {
       "title": "Identify the table",
-      "content": "A correct table must satisfy the strict inequality in all three rows. the only table whose entire $y$-list is above $13x-18$, so <strong>D</strong> is correct."
+      "content": "That table is the only one whose $y$-value is above $13x-18$ in all three rows. The answer is <strong>D</strong>."
     }
   ]
 }

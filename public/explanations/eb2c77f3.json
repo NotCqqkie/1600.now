@@ -1,0 +1,15 @@
+{
+  "questionId": "eb2c77f3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the consequence",
+      "content": "Betelgeuse became 40% brighter, and its ranking rose from 10th to 7th. The transition should show that the second change followed as a result of the first."
+    },
+    {
+      "title": "Choose the causal signal",
+      "content": "Choice A signals a summary. Choice C signals a more specific restatement, and Choice D signals an example. The relationship here is cause and effect: the brightness increase led to the ranking change. The answer is <strong>B</strong>."
+    }
+  ]
+}

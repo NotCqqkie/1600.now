@@ -1,0 +1,15 @@
+{
+  "questionId": "99103d9f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the length",
+      "content": "The width is $8$ centimeters. The length is $48$ centimeters longer than the width:<br/>$$8+48=56$$"
+    },
+    {
+      "title": "Multiply the dimensions",
+      "content": "The area of a rectangle is length times width:<br/>$$56\\cdot8=448$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

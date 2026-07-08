@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two intercepts",
-      "content": "The graph passes through $(0,40)$ and $(60,0)$. A correct equation must be true for both points."
+      "title": "Read two graph intercepts",
+      "content": "The line shown passes through the intercepts $(0,40)$ and $(60,0)$. A matching equation must be true for both points."
     },
     {
-      "title": "Test the matching equation",
-      "content": "The correct answer is $8x+12y=480$. Check the intercepts:<br/>$$(0,40):\\quad 8(0)+12(40)=480$$<br/>$$(60,0):\\quad 8(60)+12(0)=480$$<br/>Both points work, so the expression matches the graph."
+      "title": "Test the intercept equation",
+      "content": "Substitute each intercept into the equation with both variables on one side.<br/>$$8(0)+12(40)=480$$<br/>$$8(60)+12(0)=480$$<br/>Both substitutions give $480=480$."
     },
     {
-      "title": "Eliminate the slope mismatches",
-      "content": "The other choices have positive slope, but the graph slopes downward. A choice with the wrong intercepts. Therefore <strong>B</strong> is correct."
+      "title": "Match the line model",
+      "content": "The graph slopes downward, so the equations with positive slope do not fit. The equation that works for both intercepts is $8x+12y=480$. The answer is <strong>B</strong>."
     }
   ]
 }

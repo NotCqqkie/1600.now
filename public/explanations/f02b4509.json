@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the weight inequality",
-      "content": "Let $n$ = number of crates. The combined weight cannot exceed 5,180 pounds:<br/>$$600 + 130n \\leq 5,180$$"
+      "title": "Set the weight limit",
+      "content": "Let $n$ be the number of crates. The trailer weighs $600$ pounds, and each crate weighs $130$ pounds, so:<br/>$$600+130n\\le 5{,}180$$"
     },
     {
-      "title": "Solve for the maximum number of crates",
-      "content": "Subtract 600 from both sides:<br/>$$130n \\leq 4,580$$<br/>Divide by 130:<br/>$$n \\leq \\frac{4,580}{130} \\approx 35.23$$<br/>Since $n$ must be a whole number, the maximum is 35 crates. With 35 crates: $600 + 130(35) = 5,150$ pounds, within the limit. With 36 crates: $600 + 4,680 = 5,280$ pounds, exceeds the limit. That matches choice A."
+      "title": "Solve for crates",
+      "content": "Subtract the trailer weight, then divide by the crate weight:<br/>$$130n\\le 4{,}580$$<br/>$$n\\le \\frac{4{,}580}{130}$$<br/>$$n\\le 35.23$$"
+    },
+    {
+      "title": "Use a whole number",
+      "content": "The crate count must be a whole number. The maximum whole number that does not exceed $35.23$ is $35$. The answer is <strong>A</strong>."
     }
   ]
 }

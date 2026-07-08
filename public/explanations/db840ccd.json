@@ -1,0 +1,23 @@
+{
+  "questionId": "db840ccd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the ethical contrast",
+      "content": "The passage contrasts two ethical views. Some ethicists say the goodness of actions depends only on the actions themselves, regardless of context. Mercer finds that Aztec philosophy instead judged actions by social role and contribution to the community."
+    },
+    {
+      "title": "Reject added claims",
+      "content": "Choice B shifts to who is qualified to judge an action, but the passage discusses what standards judgment uses. Choice C assumes Aztecs accepted behaviors as good in all contexts, which runs against the stated role-and-community framework."
+    },
+    {
+      "title": "Reject role neutrality",
+      "content": "Choice D says similar actions by people in different roles would be morally equivalent unless their community outcomes differed. That downplays social role, even though Mercer's account says role is one of the standards used to judge actions."
+    },
+    {
+      "title": "Choose context dependence",
+      "content": "If actions are judged by role and community contribution, the Aztecs would dispute the idea that morality can be assessed by standards independent of social circumstances. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "2bcf309d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "The terms $8x^5$, $-5x^4$, and $11x^3$ have no common numerical factor greater than $1$. The smallest power of $x$ in all three terms is $x^3$."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Pull out $x^3$ from every term.<br/>$$8x^5-5x^4+11x^3=x^3(8x^2-5x+11)$$"
+    },
+    {
+      "title": "Match the factored form",
+      "content": "The factored expression keeps all three terms from the original polynomial. The answer is <strong>B</strong>."
+    }
+  ]
+}

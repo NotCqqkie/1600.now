@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 6",
-      "content": "The function is $g(x)=|x+15|$. Substitute $6$ for $x$: $$g(6)=|6+15|$$"
+      "title": "Substitute the input",
+      "content": "The function is $g(x)=|x+15|$. To find $g(6)$, replace $x$ with $6$:\n+$$g(6)=|6+15|$$"
     },
     {
-      "title": "Evaluate",
-      "content": "$$|6+15|=|21|=21$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is $21$, so <strong>D</strong> is correct."
-    },
-    {
-      "title": "Remember what absolute value does",
-      "content": "Absolute value returns the nonnegative distance from $0$. Since $6+15=21$ is already positive, $|21|=21$, not $-21$ or $9$."
+      "title": "Evaluate the absolute value",
+      "content": "Compute inside the absolute value first:\n+$$|6+15|=|21|=21$$\n+The answer is <strong>D</strong>."
     }
   ]
 }

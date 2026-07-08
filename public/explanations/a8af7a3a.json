@@ -1,0 +1,15 @@
+{
+  "questionId": "a8af7a3a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the time comparison",
+      "content": "The claim compares how long people view art in two settings: in a museum and online. Direct support must give viewing-time evidence for both settings, not facts about the artist, visitors, or collections."
+    },
+    {
+      "title": "Remove irrelevant evidence",
+      "content": "Choice B only says another Lawrence work is online. Choice C describes museum visitors' origins. Choice D says multiple museums own Lawrence works. None of those measure viewing duration in museums versus online. The answer is <strong>A</strong>."
+    }
+  ]
+}

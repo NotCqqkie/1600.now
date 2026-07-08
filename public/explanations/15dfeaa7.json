@@ -1,0 +1,15 @@
+{
+  "questionId": "15dfeaa7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require address and custom",
+      "content": "The claim has two parts: Winnemucca directly addresses the reader, and she explains a custom. The quotation must include both a reader address and an explanation of a cultural practice."
+    },
+    {
+      "title": "Reject partial matches",
+      "content": "Choice A is a family anecdote, not a reader address or custom explanation. Choice C addresses readers but does not explain a custom. Choice D mentions flower names but does not directly address the reader. The quotation explaining why people are called father or mother has both required features. The answer is <strong>B</strong>."
+    }
+  ]
+}

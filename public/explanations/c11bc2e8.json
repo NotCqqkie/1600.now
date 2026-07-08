@@ -1,0 +1,15 @@
+{
+  "questionId": "c11bc2e8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared status",
+      "content": "The prompt asks for a similarity between <em>The Prophet</em> and <em>The Professor's House</em>. The relevant notes say that both works entered the public domain, though in different years. A correct response must make the two books joint examples of that shared status rather than focus on only one work."
+    },
+    {
+      "title": "Reject contrasts and one-book focus",
+      "content": "A uses <em>unlike</em>, which emphasizes a difference in timing instead of a similarity. C contrasts the works' genres. D discusses only <em>The Professor's House</em> and leaves out <em>The Prophet</em>. None of those choices presents the shared public-domain trait. The answer is <strong>B</strong>."
+    }
+  ]
+}

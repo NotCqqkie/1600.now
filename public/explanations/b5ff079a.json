@@ -1,0 +1,15 @@
+{
+  "questionId": "b5ff079a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the second clause",
+      "content": "After \"and,\" the sentence has a new plural subject: \"its theoretical linguistic properties.\" That clause needs a finite plural verb to say what those properties do in relation to traits of Nilotic descendants."
+    },
+    {
+      "title": "Reject clause fragments",
+      "content": "Choice A and Choice C are participial forms, so they cannot serve as the main verb. Choice D creates a relative clause modifying \"properties\" but still leaves no main verb. The remaining choice is the finite plural verb the clause needs. The answer is <strong>B</strong>."
+    }
+  ]
+}

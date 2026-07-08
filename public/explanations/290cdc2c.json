@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[12]{x}$."
+      "title": "Use the exponent rule",
+      "content": "A fractional exponent with numerator $1$ represents a root. For a positive value,\n$$\nx^{\\frac{1}{n}}=\\sqrt[n]{x}\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Use the fractional exponent rule",
-      "content": "A fractional exponent with numerator $1$ means a root: $$x^{1/n}=\\sqrt[n]{x}.$$ Here $n=12$, so $$x^{1/12}=\\sqrt[12]{x}.$$"
-    },
-    {
-      "title": "Check against the choices",
-      "content": "<strong>Choice B &mdash; $\\sqrt[12]{x}$</strong>. <strong>Choice A &mdash; $\\frac{1}{12}·x$</strong> treats the exponent like multiplication by $\\dfrac{1}{12}$, <strong>Choice C &mdash; $12·x$</strong> multiplies by $12$, and <strong>Choice D &mdash; ${ \\left(x\\right)}^{12}$</strong> uses the reciprocal exponent idea incorrectly by raising $x$ to the $12$th power."
+      "title": "Apply the rule",
+      "content": "Here, the denominator of the fractional exponent is $12$, so\n$$\nx^{\\frac{1}{12}}=\\sqrt[12]{x}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

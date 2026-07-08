@@ -1,0 +1,15 @@
+{
+  "questionId": "054f64db",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the charge threshold",
+      "content": "The text says wintering honeybees have a maximum positive charge high enough to facilitate electrostatic pollen transfer. A pollinator with an even greater maximum positive charge would be expected to show the same capacity."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "Choice A says species with greater charges should not show the capacity, contradicting the threshold logic. Choice B is vague and unsupported. Choice C claims the minimum necessary charge must exceed 300 pC, which the data do not establish. The answer is <strong>D</strong>."
+    }
+  ]
+}

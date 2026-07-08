@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$\\frac{2}{5}x + \\frac{1}{4}y = \\frac{3}{8}$$<br/>$$ax + y = c$$<br/>You do not need to solve or rearrange them first."
+      "title": "Use the same-line condition",
+      "content": "A system of two linear equations has infinitely many solutions only when both equations describe the same line."
     },
     {
-      "title": "Read the number of intersections",
-      "content": "For infinitely many intersections, the two graphs must be the same line. Multiplying the first equation by 4 gives $\\frac{8}{5}x + y = \\frac{3}{2}$, so the matching value is <strong>D</strong>, $\\frac{8}{5}$."
+      "title": "Scale the first equation",
+      "content": "Make the coefficient of $y$ equal to $1$ by multiplying the first equation by $4$:<br/>$$4(\\frac{2}{5}x+\\frac{1}{4}y)=4(\\frac{3}{8})$$<br/>$$\\frac{8}{5}x+y=\\frac{3}{2}$$"
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. When the graphs are the same line, every point on that line is shared, which is the infinite-solution case."
+      "title": "Match the coefficient",
+      "content": "The second equation is $ax+y=c$. To describe the same line, its coefficient of $x$ must match $\\frac{8}{5}$. The answer is <strong>D</strong>."
     }
   ]
 }

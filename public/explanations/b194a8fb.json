@@ -1,0 +1,15 @@
+{
+  "questionId": "b194a8fb",
+  "correctAnswer": "355",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the starting time",
+      "content": "When the flask was placed on the counter, $t=0$. Substitute $0$ into the function."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Use the exponent rule that any positive base to the zero power is $1$.<br/>$$g(0)=289+(355-289)(2.72)^0=289+66=355$$The answer is <strong>355</strong>."
+    }
+  ]
+}

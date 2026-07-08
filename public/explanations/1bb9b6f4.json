@@ -1,0 +1,15 @@
+{
+  "questionId": "1bb9b6f4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the compound subject",
+      "content": "The subject is <strong>a state's voting record and polling data</strong>, two items joined by <strong>and</strong>. The phrase <strong>not its population size</strong> is parenthetical and does not change the subject's plural number."
+    },
+    {
+      "title": "Use plural agreement",
+      "content": "A and B use singular verb forms, and C is a participle rather than a finite verb. The sentence needs a plural verb that agrees with the compound subject. The answer is <strong>D</strong>."
+    }
+  ]
+}

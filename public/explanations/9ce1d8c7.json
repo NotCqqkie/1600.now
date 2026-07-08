@@ -1,0 +1,15 @@
+{
+  "questionId": "9ce1d8c7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the compounds",
+      "content": "Thymol and methane identifies which gaseous compounds the sentence is discussing. Because that information is essential to the noun compounds, it should not be separated with commas."
+    },
+    {
+      "title": "Remove extra commas",
+      "content": "Choice A and Choice B put an unnecessary comma after compounds. Choice D adds an unnecessary comma after methane. The no-comma version keeps the essential identifier attached to the noun it specifies. The answer is <strong>C</strong>."
+    }
+  ]
+}

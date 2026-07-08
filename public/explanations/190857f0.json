@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the opening question",
-      "content": "The passage opens with a direct question: “Why do sand cats purr but lions roar?” This immediately signals that an explanation will follow."
+      "title": "Track the question and answer",
+      "content": "The text opens by asking why sand cats purr but lions roar. It then presents researchers' hypothesis that the difference may be partly due to the hyoid bone and explains how the bone differs between the two species."
     },
     {
-      "title": "Match the structure to the choices",
-      "content": "<strong>Choice D &mdash; The text poses a question about two species, then presents a possible answer.</strong> correctly identifies this structure: the passage poses a question about two species, then presents a possible answer through a researcher's hypothesis about the hyoid bone with supporting anatomical details.<br/>The other three choices misrepresent the passage: <ul><li>A falsely claims the facts weaken the theory (they support it)</li><li>B invents missing content about habitats</li><li>C misidentifies purring and roaring as shared behaviors rather than contrasting ones</li></ul>.<br/>That matches <strong>Choice D &mdash; The text poses a question about two species, then presents a possible answer.</strong>."
+      "title": "Reject wrong structure claims",
+      "content": "Choice A says the facts weaken the theory, but the anatomical details support it. Choice B invents habitat discussion, and Choice C says the text describes shared behaviors even though it contrasts purring and roaring. The structure is a question followed by a possible answer. The answer is <strong>D</strong>."
     }
   ]
 }

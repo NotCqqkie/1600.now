@@ -1,0 +1,15 @@
+{
+  "questionId": "e9c93d54",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply the main verb",
+      "content": "The sentence has a subject, Land, and needs a finite main verb to complete the clause. Since the action happened a decade after 1929, a past-tense verb fits the context."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is an infinitive phrase, not a main verb. Choice C is also an infinitive. Choice D is a participle and cannot stand alone as the sentence's main verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

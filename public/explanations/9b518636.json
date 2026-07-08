@@ -1,0 +1,15 @@
+{
+  "questionId": "9b518636",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up tangent",
+      "content": "For angle $A$, tangent is opposite side over adjacent side. From the labeled triangle, the opposite side is \n$$\n2\\sqrt{3}\n$$ and the adjacent side is $2$.\n$$\n\\tan A=\\frac{2\\sqrt{3}}{2}\n$$"
+    },
+    {
+      "title": "Simplify the ratio",
+      "content": "Cancel the common factor of $2$.\n$$\n\\frac{2\\sqrt{3}}{2}=\\sqrt{3}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

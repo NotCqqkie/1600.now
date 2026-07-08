@@ -1,0 +1,15 @@
+{
+  "questionId": "4e27fe26",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the table match",
+      "content": "The example needs the location where sticky catchfly appears as the neighboring species with common cow-wheat as the target species. The right location must match both species in the table."
+    },
+    {
+      "title": "Reject mismatched rows",
+      "content": "A pairs different species, and B pairs Virginia spring beauty with star chickweed. C does not appear as the relevant table location. The matching row lists sticky catchfly with common cow-wheat. The answer is <strong>D</strong>."
+    }
+  ]
+}

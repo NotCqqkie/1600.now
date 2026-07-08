@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the underlined statement does",
-      "content": "The underlined statement says elephants and caribou have fixed geographic ranges. The following clause in the same sentence says this &ldquo;prompted some researchers to speculate&rdquo; that mammoths might show the same behavior. The strontium analysis of one mammoth tusk then shows that this animal's range expanded and later contracted, so the data did not support the fixed-range speculation for that specimen."
+      "title": "Identify the setup function",
+      "content": "The underlined statement says elephants and Arctic herbivores often have fixed geographic ranges. The text immediately says this led researchers to wonder whether Arctic woolly mammoths had similar fixed-range behavior. That opening comparison supplies the rationale for the researchers' expectation before the tusk evidence is introduced."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; It discusses a characteristic shared by certain animals in order to explain why researchers raised a possibility that turned out not to be supported by data described later in the text.</strong>: Matches exactly &mdash; the fixed-range trait prompted the hypothesis, and the strontium data did not support it for the studied mammoth. &#10003;</li><li><strong>Choice B &mdash; It illustrates a pattern of behavior among certain animals in order to present a theory about exceptions to that pattern that is weakened by a finding described later in the text.</strong>: The text never frames mammoths as &ldquo;exceptions&rdquo; to the pattern; researchers simply wondered if mammoths shared it. &#10007;</li><li><strong>Choice C &mdash; It describes a similarity in the behavior of certain animals in order to show why a method described later in the text did not reveal whether another animal also showed that behavior.</strong>: The strontium method did reveal the mammoth&rsquo;s behavior &mdash; it showed variable ranges, not a failure to reveal anything. &#10007;</li><li><strong>Choice D &mdash; It introduces a trait shared by certain animals in order to contextualize a hypothesis about the origin of that trait that is advanced later in the text.</strong>: The text never hypothesizes about why fixed ranges exist; it asks only whether mammoths shared the trait. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Connect to later data",
+      "content": "B invents a theory about exceptions, C falsely says the later method failed, and D invents a hypothesis about the origin of the trait. Later tusk data shows one mammoth's range changed during life, so the opening characteristic explains a possibility later unsupported for that specimen. The answer is <strong>A</strong>."
     }
   ]
 }

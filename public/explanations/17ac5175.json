@@ -1,0 +1,15 @@
+{
+  "questionId": "17ac5175",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal an occasional pattern",
+      "content": "The previous sentence says many elements were isolated soon after discovery, but not all. The next sentence gives radium as an example of an element whose isolation took years. The transition must show that this slower process happened in some cases."
+    },
+    {
+      "title": "Eliminate wrong transitions",
+      "content": "<ul><li><strong>Choice A</strong>: \"Thus\" signals a result, but the sentence gives an exception, not a consequence.</li><li><strong>Choice B</strong>: \"However\" repeats the contrast already established instead of expressing frequency.</li><li><strong>Choice C</strong>: \"Moreover\" adds a similar point, but the sentence qualifies the earlier general pattern.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

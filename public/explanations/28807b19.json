@@ -1,0 +1,15 @@
+{
+  "questionId": "28807b19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the factor",
+      "content": "Use the distributive property. Multiply $7$ by the $x^2$ term and also multiply $7$ by the constant term inside the parentheses."
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "The products are $7x^2$ and $35$, so the equivalent expression is:\n$$\n7(x^2+5)=7x^2+35\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

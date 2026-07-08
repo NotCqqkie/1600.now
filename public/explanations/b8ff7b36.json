@@ -1,0 +1,15 @@
+{
+  "questionId": "b8ff7b36",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate each person’s role",
+      "content": "Hayes made early contributions to US cryptology and worked as a cryptanalyst. The text then says Hayes and others helped make it possible for more women, including Markova, to enter cryptology; Markova works in and teaches digital cryptography."
+    },
+    {
+      "title": "Eliminate unsupported claims",
+      "content": "Choice B misreads the reference to the history of cryptology as saying both worked in history. Choice C invents an argument about schools. Choice D invents organizations founded by both women. The similarity supported by the text is that both contributed to cryptology. The answer is <strong>A</strong>."
+    }
+  ]
+}

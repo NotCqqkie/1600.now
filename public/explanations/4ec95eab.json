@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-3x$$<br/>$$4x+y=15$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Substitute for y",
+      "content": "Use $y=-3x$ in the second equation.\n$$4x+(-3x)=15$$\nThis simplifies to\n$$x=15$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations gives the same intersection, and the question asks for its $x$-coordinate. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=-3x",
         "4x+y=15"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, $15$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

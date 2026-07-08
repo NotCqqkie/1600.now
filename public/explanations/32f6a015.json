@@ -1,0 +1,15 @@
+{
+  "questionId": "32f6a015",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine the two benefits",
+      "content": "The text presents community science as useful for communities and researchers. It can give youth learning experiences outside the classroom, and it can also greatly increase the amount of data scientists collect."
+    },
+    {
+      "title": "Avoid one-sided summaries",
+      "content": "Choice A denies the learning benefit. Choice B reduces the passage to the butterfly example and invents surprise. Choice D denies the research benefit by suggesting data problems. The choice that includes both learning and larger data collection captures the main idea. The answer is <strong>C</strong>."
+    }
+  ]
+}

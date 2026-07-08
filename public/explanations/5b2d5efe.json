@@ -1,0 +1,15 @@
+{
+  "questionId": "5b2d5efe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject is the single quoted word <em>Analyst</em>. The phrase beginning with <em>like other dactyls</em> is just an interrupting comparison, so it does not make the subject plural."
+    },
+    {
+      "title": "Match the singular subject",
+      "content": "Choice A uses a plural/base verb form. Choices B and D use plural auxiliaries, which also disagree with the singular subject. The sentence needs the singular present-tense verb form. The answer is <strong>C</strong>."
+    }
+  ]
+}

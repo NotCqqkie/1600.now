@@ -1,0 +1,15 @@
+{
+  "questionId": "e67bf8ec",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the orbital periods",
+      "content": "The goal is to contrast the orbits of Oberon and Miranda. The relevant notes give their average orbital periods: Oberon takes 13.46 Earth days, while Miranda takes 1.41 Earth days."
+    },
+    {
+      "title": "Ignore irrelevant orbit facts",
+      "content": "Choice B focuses on Kepler's laws instead of contrasting the two moons. Choice C invents a circular orbit for Miranda, which the notes do not support. Choice D says the moons orbit like planets but does not contrast Oberon and Miranda. The answer is <strong>A</strong>."
+    }
+  ]
+}

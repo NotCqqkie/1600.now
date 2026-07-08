@@ -1,0 +1,15 @@
+{
+  "questionId": "0df554e5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the main verb",
+      "content": "The sentence's main subject is \"A 2024 study,\" and its main verb is \"offers.\" The blank should add information about what the study reported without creating a competing main verb."
+    },
+    {
+      "title": "Keep one main verb",
+      "content": "A, B, and C are finite verbs, so each would create an extra main verb before \"offers.\" A participle can modify the study while leaving \"offers\" as the only main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

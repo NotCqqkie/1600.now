@@ -1,0 +1,15 @@
+{
+  "questionId": "03389ccb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the comparative hypothesis",
+      "content": "The hypothesis predicts that wider-headed fish will detect obstructions less well than narrower-headed fish in low visibility. That means the wider-headed fish should bump into more obstructions."
+    },
+    {
+      "title": "Require wider versus narrower fish",
+      "content": "A reports only a wide-headed fish, C shows equal performance, and D describes variation within one narrow-headed species. The matching result directly compares the head shapes and shows the wider-headed fish hitting more obstructions. The answer is <strong>B</strong>."
+    }
+  ]
+}

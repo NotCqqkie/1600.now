@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the total cost expression",
-      "content": "Shirts cost \\$18 each and pants cost \\$28 each. If Jordan buys <em>s</em> shirts and <em>p</em> pairs of pants, the total spent is:<br/>$$18s + 28p$$"
+      "title": "Write the total cost",
+      "content": "Cost:<br/>$$18s+28p$$"
     },
     {
-      "title": "Translate the spending constraint",
-      "content": "Jordan can spend <em>at most</em> \\$132. The phrase <em>at most</em> means the total spending cannot exceed \\$132, which translates to $\\le$:<br/>$$18s + 28p \\le 132$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Apply the spending limit",
+      "content": "Limit:<br/>$$18s+28p\\le 132$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

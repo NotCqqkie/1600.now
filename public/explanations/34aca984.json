@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the perimeter formula",
-      "content": "Perimeter of a rectangle: $P = 2L + 2W$. With length $45$ and width $x$: $P = 2(45) + 2x = 90 + 2x$."
+      "title": "Write the perimeter expression",
+      "content": "A rectangle with length $45$ and width $x$ has perimeter\n$$\n2(45)+2x=90+2x\n$$"
     },
     {
-      "title": "Translate the constraint",
-      "content": "&ldquo;At most 190 inches&rdquo; means the perimeter is less than or equal to 190: $2x + 90 \\le 190$.<ul><li><strong>A ($2x + 90 \\le 190$):</strong> Matches both the perimeter expression and the &le; constraint. <strong>A</strong> is correct.</li><li><strong>B ($2x + 90 \\ge 190$):</strong> Uses $\\ge$, meaning &ldquo;at least&rdquo; &mdash; wrong direction.</li><li><strong>C ($2x + 45 \\le 190$):</strong> Constant should be $2 \\times 45 = 90$, not 45 &mdash; wrong coefficient.</li><li><strong>D ($2x + 45 \\ge 190$):</strong> Both the constant and the inequality direction are wrong.</li></ul>"
+      "title": "Translate the condition",
+      "content": "\"At most $190$\" means less than or equal to $190$. The inequality is\n$$\n2x+90\\le 190\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

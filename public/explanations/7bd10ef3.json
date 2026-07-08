@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rearrange and identify coefficients",
-      "content": "Start with $3x^2 - 6x = t$ and move $t$ to the left side to get the standard quadratic form $3x^2 - 6x - t = 0$. Here $a = 3$, $b = -6$, and $c = -t$.",
+      "title": "Write standard form",
+      "content": "Move $t$ to the left side so the equation is a quadratic equal to $0$.\n$$3x^2-6x-t=0$$\nHere $a=3$, $b=-6$, and $c=-t$.",
       "formula": "$$3x^2 - 6x - t = 0$$"
     },
     {
-      "title": "Apply the no-real-solutions condition",
-      "content": "A quadratic has no real solutions exactly when its discriminant $b^2 - 4ac$ is negative. Substitute the coefficients:<br/>$$(-6)^2 - 4(3)(-t) \\lt 0$$<br/>$$36 + 12t \\lt 0$$<br/>$$t \\lt -3$$",
+      "title": "Use the discriminant",
+      "content": "A quadratic has no real solutions when the discriminant is negative.\n$$b^2-4ac<0$$\n$$(-6)^2-4(3)(-t)<0$$\n$$36+12t<0$$\n$$t<-3$$",
       "formula": "$$b^2 - 4ac \\lt 0$$"
     },
     {
-      "title": "Test each choice against $t \\lt -3$",
-      "content": "<ul><li>A) $t = -4$: is $-4 \\lt -3$? Yes &mdash; no real solutions.</li><li>B) $t = -2$: is $-2 \\lt -3$? No &mdash; eliminate.</li><li>C) $t = 2$: is $2 \\lt -3$? No &mdash; eliminate.</li><li>D) $t = 4$: is $4 \\lt -3$? No &mdash; eliminate.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Pick a valid value",
+      "content": "Among the choices, only $-4$ is less than $-3$, so it makes the discriminant negative.\nThe answer is <strong>A</strong>."
     }
   ]
 }

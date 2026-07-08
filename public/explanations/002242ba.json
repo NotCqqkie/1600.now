@@ -1,0 +1,19 @@
+{
+  "questionId": "002242ba",
+  "correctAnswer": "512.4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the Fahrenheit value",
+      "content": "Use $h=440.65$ in the given conversion formula.<br/>$$440.65=\\frac{9(v-273.15)}{5}+10$$"
+    },
+    {
+      "title": "Isolate the kelvin part",
+      "content": "Subtract $10$, then multiply both sides by $\\frac{5}{9}$.<br/>$$430.65=\\frac{9(v-273.15)}{5}$$<br/>$$\\frac{5(430.65)}{9}=v-273.15$$<br/>$$239.25=v-273.15$$"
+    },
+    {
+      "title": "Solve for the temperature",
+      "content": "Add $273.15$ to both sides.<br/>$$v=239.25+273.15$$<br/>The answer is <strong>512.4</strong>."
+    }
+  ]
+}

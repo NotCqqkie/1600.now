@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "Left of the blank: <em>a scuba diving club</em> is a noun phrase. Right of the blank: <em>that is the oldest club for Black divers...</em> is a dependent relative clause."
+      "title": "Attach the relative clause",
+      "content": "The noun phrase \"a scuba diving club\" is followed by the relative clause \"that is the oldest club for Black divers in the United States.\" A restrictive relative clause beginning with that attaches directly to the noun it describes."
     },
     {
-      "title": "Apply the punctuation rule for restrictive relative clauses",
-      "content": "A restrictive relative clause is directly attached to its head noun without a comma. <strong>Club that is</strong> correctly applies this rule.<br/><br/>The other options violate it by inserting punctuation between the noun and the clause; an incorrect option disrupts the structure by adding <em>and</em>.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject interrupting punctuation",
+      "content": "Choice B inserts an unnecessary comma between club and that. Choice C inserts an unnecessary dash. Choice D adds a comma and and, breaking the relative-clause structure."
+    },
+    {
+      "title": "Keep noun and clause together",
+      "content": "No punctuation belongs between club and the restrictive relative clause that identifies what kind of club the Underwater Adventure Seekers is. The answer is <strong>A</strong>."
     }
   ]
 }

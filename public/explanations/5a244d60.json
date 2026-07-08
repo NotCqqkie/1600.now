@@ -1,0 +1,15 @@
+{
+  "questionId": "5a244d60",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The question asks for the value of the function when $x=8$. Replace every $x$ in $f(x)=90x+6$ with $8$."
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "After substitution, compute the multiplication first and then add $6$: $$f(8)=90(8)+6=720+6=726$$ The value of the function is $726$. The answer is <strong>D</strong>."
+    }
+  ]
+}

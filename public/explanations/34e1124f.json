@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the student needs",
-      "content": "The student must provide both an explanation of what Aeolian landforms are AND a specific example."
+      "title": "Use both requested elements",
+      "content": "The student needs both an explanation of Aeolian landforms and an example. The relevant notes say Aeolian landforms are created by wind, and that mushroom rocks can form when wind erodes a rock's base and top at different rates."
     },
     {
-      "title": "Apply to the choices",
-      "content": "The matching choice explains Aeolian landforms as <strong>“landforms created by the wind”</strong> and provides the specific example of a mushroom rock, describing how wind erodes the base faster than the top—exactly matching the notes.<br/><br/>The other choices either offer vague descriptions instead of a concrete example (A), mischaracterize erosion/transportation/deposition as landform examples (C), or describe only a single example without explaining Aeolian landforms broadly (D).<br/><br/>This matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject incomplete uses",
+      "content": "A gives no concrete example. C mistakenly treats erosion, transportation, and deposition as examples of landforms. D gives only the mushroom-rock example and the Aeolus connection, not the broader explanation. The answer is <strong>B</strong>."
     }
   ]
 }

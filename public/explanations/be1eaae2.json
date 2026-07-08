@@ -1,0 +1,15 @@
+{
+  "questionId": "be1eaae2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the known angles",
+      "content": "Angles $J$ and $K$ each measure $42^\\circ$, so together they measure\n$$\n42^\\circ+42^\\circ=84^\\circ\n$$"
+    },
+    {
+      "title": "Use the triangle sum",
+      "content": "The angles in a triangle sum to $180^\\circ$, so subtract the known angle total from $180^\\circ$:\n$$\nL=180^\\circ-84^\\circ\n$$\n$$\nL=96^\\circ\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "14969c90",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the shared claim",
+      "content": "Text 1 says elderberry bushes provide shade that protects chia flowers from harsh heat and light. Text 2 says O'odham farmers plant chia flowers in the shade of elderberry bushes for protection from the sun and heat."
+    },
+    {
+      "title": "Choose the agreement",
+      "content": "Both authors would agree that elderberry bushes can shade and protect chia flowers. B adds a refinement not discussed, C compares seed production without support, and D reverses the shading relationship. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1837892d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize calendar mismatch",
+      "content": "The student wants a difference between the French Republican and Gregorian calendars. The relevant notes say their month timelines do not match, and give examples where French Republican months begin during different-numbered Gregorian months."
+    },
+    {
+      "title": "Use the timeline comparison",
+      "content": "A describes only the French Republican calendar. B describes only Gregorian months. D mentions both calendars but emphasizes replacement history and their shared twelve-month structure. The effective choice states the timeline mismatch and gives an example comparing the two calendars. The answer is <strong>C</strong>."
+    }
+  ]
+}

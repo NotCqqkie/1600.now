@@ -1,0 +1,19 @@
+{
+  "questionId": "23fed7e2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the square's sign",
+      "content": "A square is nonnegative, so its opposite is nonpositive."
+    },
+    {
+      "title": "Make the right side positive",
+      "content": "For no real solution, the right side must be positive.<br/>$$p+11>0$$<br/>$$p>-11$$"
+    },
+    {
+      "title": "Pick the least integer",
+      "content": "The least integer greater than $-11$ is $-10$. The answer is <strong>C</strong>."
+    }
+  ]
+}

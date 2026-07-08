@@ -1,0 +1,15 @@
+{
+  "questionId": "16c126b5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the traffic claim",
+      "content": "The student's claim has two parts: smaller areas may have had less congestion than very large cities, but their congestion still worsened over time. The supporting graph description must show both lower delay and rising delay."
+    },
+    {
+      "title": "Reject incomplete data",
+      "content": "Choice B mentions a value below 20 hours in at least one area but does not show both parts of the claim. Choice C gives only one 1992 value for New York City. Choice D reverses the comparison by saying Beaumont had greater delay than New York City. The answer is <strong>A</strong>."
+    }
+  ]
+}

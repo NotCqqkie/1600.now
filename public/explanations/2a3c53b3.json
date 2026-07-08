@@ -1,0 +1,15 @@
+{
+  "questionId": "2a3c53b3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the two main claims",
+      "content": "The passage presents community science as useful in two ways: it helps the public understand scientists' daily work, and it lets researchers collect much more data. The butterfly study is an example of the data benefit, not the whole main idea."
+    },
+    {
+      "title": "Remove partial or false choices",
+      "content": "Choice A overfocuses on Whitcomb and invents surprise. Choice C contradicts the claim that community science is very effective for gathering data. Choice D keeps the data benefit but denies the public-understanding benefit. The answer is <strong>B</strong>."
+    }
+  ]
+}

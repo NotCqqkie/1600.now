@@ -1,0 +1,15 @@
+{
+  "questionId": "41fec2ae",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the song title",
+      "content": "The quoted title identifies the specific hit song. Because the title is essential to the noun phrase, it should follow the noun directly without punctuation."
+    },
+    {
+      "title": "Reject separating punctuation",
+      "content": "Choice A uses a colon as if introducing a separate element. Choice B sets off an essential title with a comma. Choice C uses a semicolon, which requires independent clauses. The answer is <strong>D</strong>."
+    }
+  ]
+}

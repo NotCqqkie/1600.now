@@ -1,0 +1,15 @@
+{
+  "questionId": "6a1d3618",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the tempting shortcut",
+      "content": "The passage says similarities make it tempting to treat Martian meteorites as a way to infer the properties of Mars's interior. The blank should describe the meteorites as representatives or stand-ins for the interior."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice B means artificial schemes, not representatives. Choice C means causes of change. Choice D means obstacles. The remaining phrase means stand-ins, which fits the tempting but limited inference from meteorite properties to Mars's interior. The answer is <strong>A</strong>."
+    }
+  ]
+}

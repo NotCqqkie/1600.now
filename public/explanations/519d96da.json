@@ -1,0 +1,19 @@
+{
+  "questionId": "519d96da",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "Line $k$ has slope $m$. A line perpendicular to it has slope<br/>$$-\\frac{1}{m}$$"
+    },
+    {
+      "title": "Move one unit right",
+      "content": "Line $l$ passes through $(4,7)$. Each answer choice has $x=5$, which is $1$ unit to the right of $x=4$. With slope $-\\frac{1}{m}$, the $y$-value changes by $-\\frac{1}{m}$."
+    },
+    {
+      "title": "Find the point",
+      "content": "Starting from $y=7$, subtract the change.<br/>$$y=7-\\frac{1}{m}$$<br/>So the point is<br/>$$(5,7-\\frac{1}{m})$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

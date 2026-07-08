@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Condition for Infinitely Many Solutions",
-      "content": "For the system to have infinitely many solutions, the two equations must represent the same line.<br/><br/>This requires each of their coefficients (including the constant term) to be proportional by the same factor.<br/><br/>Inspect the coefficients: the second equation <em>12x + 20y</em> is exactly 4 times the first equation's <em>3x + 5y</em> because $ 12 \\div 3 = 4 $ and $ 20 \\div 5 = 4 $.",
+      "title": "Match the multiplier",
+      "content": "For infinitely many solutions, the second equation must be the first equation multiplied by the same number. The coefficients of $x$ and $y$ are both multiplied by $4$:\n$$3\\cdot4=12$$\n$$5\\cdot4=20$$",
       "formula": "$$3x + 5y = 8 \\quad \\text{becomes} \\quad 12x + 20y = 32 \\quad \\text{when multiplied by 4}$$"
     },
     {
-      "title": "Determine the Constant Term",
-      "content": "Since the entire equation scales by 4, the constant term <em>8</em> in the first equation must also scale by 4. Calculating $ 8 \\times 4 = 32 $, so the value of <em>a</em> must be 32 to make the second equation identical to the first."
-    },
-    {
-      "title": "Final Answer",
-      "content": "The system becomes identical lines only when <em>a = 32</em>. <strong>C</strong> is correct."
+      "title": "Scale the constant",
+      "content": "The constant must also be multiplied by $4$.\n$$8\\cdot4=32$$\nSo $a=32$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "52d4c7b2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared Piketty claim",
+      "content": "Text 1 says <em>Capital in the Twenty-First Century</em> has a more rigorous structure than <em>Capital and Ideology</em>. Text 2 says <em>Capital and Ideology</em> has different aims than Piketty's earlier books. Both authors agree that the later book differs structurally from earlier work. The disagreement is about evaluation, not whether the structures differ."
+    },
+    {
+      "title": "Reject one-sided claims",
+      "content": "Choice B is something Text 1 rejects because it calls the vegetarian-diet material a tedious digression. Choice C states only Text 1's negative judgment. Choice D overstates Text 2's Burton comparison as influence, and Text 1 never mentions Burton. The answer is <strong>A</strong>."
+    }
+  ]
+}

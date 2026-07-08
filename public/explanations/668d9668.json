@@ -1,0 +1,15 @@
+{
+  "questionId": "668d9668",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $3$ in place of $x$:\n$$\nf(3)=12(3)+9\n$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Compute the value of the expression:\n$$\nf(3)=36+9=45\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

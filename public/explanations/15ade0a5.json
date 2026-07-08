@@ -1,0 +1,22 @@
+{
+  "questionId": "15ade0a5",
+  "correctAnswer": "16,10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(x-16)(x-10)(x+7)(x+17)=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $16$ or $10$.",
+      "desmosExpressions": [
+        "(x-16)(x-10)(x+7)(x+17)=0"
+      ]
+    },
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $(x-16)(x-10)(x+7)(x+17)=0$ to zero: $x=16$, $x=10$, $x=-7$, and $x=-17$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "The positive solutions are $16$ and $10$. The answer is <strong>16</strong> or <strong>10</strong>."
+    }
+  ]
+}

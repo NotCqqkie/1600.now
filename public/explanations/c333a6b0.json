@@ -1,0 +1,15 @@
+{
+  "questionId": "c333a6b0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow moisture into oil",
+      "content": "The passage gives a causal chain for frying: water evaporates from the crust, voids are left behind, and oil can fill those voids. If a section loses less moisture during frying, it should create fewer voids for oil to occupy."
+    },
+    {
+      "title": "Infer lower fat content",
+      "content": "Fewer voids means less oil absorption, so the section that loses less moisture should end with lower fat content than a section that loses more moisture. A adds crust thickness, C adds how quickly permeability changes, and D adds final temperature, none of which follows from the mechanism. The answer is <strong>B</strong>."
+    }
+  ]
+}

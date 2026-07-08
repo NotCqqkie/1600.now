@@ -1,0 +1,15 @@
+{
+  "questionId": "748bc300",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set each factor to zero",
+      "content": "By the zero-product property, one factor must equal zero.\n$$6x=0 \\quad\\text{or}\\quad x-4=0 \\quad\\text{or}\\quad x+8=0$$"
+    },
+    {
+      "title": "List the solutions",
+      "content": "The solutions are $x=0$, $x=4$, and $x=-8$. Among the choices, $0$ is listed. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8cfcb11b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the Nobel context",
+      "content": "The passage frames Nobel Prizes as honoring work that benefits mankind, then says Martin won for inventing partition chromatography. The blank should describe a significant positive contribution to chemistry."
+    },
+    {
+      "title": "Choose the positive contribution",
+      "content": "Choice A means exposure, not progress. Choice C implies reliance, and Choice D implies dispute. The phrase meaning progress within a field fits a Nobel-worthy invention in chemistry. The answer is <strong>B</strong>."
+    }
+  ]
+}

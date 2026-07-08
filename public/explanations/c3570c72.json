@@ -1,0 +1,15 @@
+{
+  "questionId": "c3570c72",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make hypothesis the subject",
+      "content": "The sentence says the hypothesis cannot stand unless other explanations are ruled out. The words after the blank must modify \"hypothesis\" so that the whole noun phrase remains the subject of \"cannot stand.\""
+    },
+    {
+      "title": "Reject finite verb forms",
+      "content": "Choice A and Choice D make \"hypothesis\" take a finite verb before \"cannot stand,\" disrupting the sentence structure. Choice B has the same problem and also shifts tense awkwardly. The answer is <strong>C</strong>."
+    }
+  ]
+}

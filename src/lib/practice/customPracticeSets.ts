@@ -1,6 +1,7 @@
 import type { NavigateFunction } from "react-router-dom";
 import type { BankSourceId, BankSubject } from "@/data/bankTypes";
 import type { BankQuestion } from "@/data/questionBank";
+import { resolvePastCanonicalSourceId, resolvePastStableId } from "@/data/pastIdAliases";
 import {
   buildPracticeRunId,
   PRACTICE_RUN_STORAGE_KEY,
@@ -31,6 +32,17 @@ interface CustomPracticeSetItem {
   storageId: string;
   index: number;
 }
+
+// Minimal question shape a practice session needs — lets callers launch from
+// lightweight metadata/route refs without loading the full question pools.
+export type PracticeSessionQuestion = Readonly<{
+  stableId: string;
+  subject: BankSubject;
+  id: number;
+  sourceId: string;
+  bankType: BankSourceId;
+  category: { domain: string; skill: string };
+}>;
 
 export interface CustomPracticeSet {
   version: 1;
@@ -142,6 +154,18 @@ const isValidPracticeSetSize = (count: number, sourceType?: CustomPracticeSet["s
 const isPersistentPracticeSet = (set: CustomPracticeSet) =>
   set.sourceType === "related-question" || (!set.sourceType && set.id.startsWith("similar-"));
 
+const normalizeStoredCustomPracticeSet = (set: CustomPracticeSet): CustomPracticeSet => ({
+  ...set,
+  originQuestionStableId: resolvePastStableId(set.originQuestionStableId),
+  items: set.items.map((item) => item.bankType === "past"
+    ? {
+        ...item,
+        sourceId: resolvePastCanonicalSourceId(item.subject, item.sourceId),
+        storageId: resolvePastStableId(item.storageId),
+      }
+    : item),
+});
+
 const isGenericPracticeSetTitle = (title: string | undefined) =>
   !title || /^\d+\s+questions?\s+practice set$/i.test(title.trim());
 
@@ -166,7 +190,7 @@ const getQuestionsForSimilarityGroup = async (groupId: string | null | undefined
     .filter((question): question is BankQuestion => Boolean(question));
 };
 
-const getUniqueQuestions = (questions: BankQuestion[]) => {
+const getUniqueQuestions = <T extends { stableId: string }>(questions: T[]): T[] => {
   const seen = new Set<string>();
   return questions
     .filter((item) => {
@@ -190,7 +214,7 @@ const getSimilarQuestionsForQuestion = async (question: BankQuestion) => {
   return getUniquePracticeSetQuestions(orderedQuestions);
 };
 
-const toCustomPracticeSetItems = (questions: BankQuestion[]): CustomPracticeSetItem[] =>
+const toCustomPracticeSetItems = (questions: PracticeSessionQuestion[]): CustomPracticeSetItem[] =>
   questions.map((question, index) => ({
     subject: question.subject,
     id: question.id,
@@ -200,7 +224,7 @@ const toCustomPracticeSetItems = (questions: BankQuestion[]): CustomPracticeSetI
     index: index + 1,
   }));
 
-const summarizeQuestions = (questions: BankQuestion[]) => {
+const summarizeQuestions = (questions: PracticeSessionQuestion[]) => {
   const subjects = new Set(questions.map((question) => question.subject));
   const domains = new Set(questions.map((question) => question.category.domain));
   const skills = new Set(questions.map((question) => question.category.skill));
@@ -221,7 +245,7 @@ const buildCustomPracticeSet = ({
   createdAt,
   now,
 }: {
-  uniqueQuestions: BankQuestion[];
+  uniqueQuestions: PracticeSessionQuestion[];
   title?: string;
   id: string;
   similarityGroupId: string | null;
@@ -253,8 +277,8 @@ const buildCustomPracticeSet = ({
 
 const readPersistentCustomPracticeSets = (uid?: string | null): CustomPracticeSet[] => {
   const storedSets = readJson<CustomPracticeSet[]>(customPracticeSetsStorageKey(uid), []);
-  const persistentSets = storedSets.filter(isPersistentPracticeSet);
-  if (persistentSets.length !== storedSets.length) {
+  const persistentSets = storedSets.filter(isPersistentPracticeSet).map(normalizeStoredCustomPracticeSet);
+  if (persistentSets.length !== storedSets.length || JSON.stringify(persistentSets) !== JSON.stringify(storedSets)) {
     saveCustomPracticeSets(persistentSets, uid, { notify: false });
   }
   return persistentSets;
@@ -335,7 +359,7 @@ export const createBankPracticeSessionFromQuestions = ({
   similarityGroupId = null,
   originQuestionStableId,
 }: {
-  questions: BankQuestion[];
+  questions: PracticeSessionQuestion[];
   title?: string;
   id?: string;
   similarityGroupId?: string | null;

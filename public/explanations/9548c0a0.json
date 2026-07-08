@@ -1,0 +1,19 @@
+{
+  "questionId": "9548c0a0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants a similarity between the two National Wildlife Refuges. The notes say Crocodile Lake NWR protects the American crocodile and Pearl Harbor NWR protects the Hawaiian stilt, both endangered species."
+    },
+    {
+      "title": "Reject one-sided or different facts",
+      "content": "Choice B mentions only Pearl Harbor NWR. Choice C emphasizes a difference in acreage. Choice D mentions only Crocodile Lake NWR and the national count, so it does not compare the two refuges."
+    },
+    {
+      "title": "State the similarity",
+      "content": "Choice A explicitly links both refuges and says they were established to protect endangered species, which is the shared purpose the notes support. The answer is <strong>A</strong>."
+    }
+  ]
+}

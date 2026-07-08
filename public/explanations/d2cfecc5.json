@@ -1,0 +1,19 @@
+{
+  "questionId": "d2cfecc5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the shown leg",
+      "content": "From the graph, the shown segment has horizontal change $6$ and vertical change $9$. Its length is\n$$\\sqrt{6^2+9^2}=\\sqrt{117}=3\\sqrt{13}$$"
+    },
+    {
+      "title": "Use the area formula",
+      "content": "Let $L$ be the other leg. A right triangle's area is half the product of its legs.\n$$\\frac{1}{2}(3\\sqrt{13})(L)=48\\sqrt{13}$$"
+    },
+    {
+      "title": "Solve for the other leg",
+      "content": "Multiply by $2$ and divide by $$3\\sqrt{13}$$\n$$L=\\frac{96\\sqrt{13}}{3\\sqrt{13}}=32$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

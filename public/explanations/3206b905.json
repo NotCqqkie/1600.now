@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $6x \\left({x}^{8}-{x}^{7}+12\\right)$."
+      "title": "Find the common factor",
+      "content": "Each term in the expression has a factor of $6x$:\n$$\n6x^9-6x^8+72x\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Divide each term",
+      "content": "Divide every term by $6x$ to see what remains inside the parentheses:\n$$\n\\frac{6x^9}{6x}=x^8\n$$\n$$\n\\frac{-6x^8}{6x}=-x^7\n$$\n$$\n\\frac{72x}{6x}=12\n$$"
     },
     {
-      "title": "Find the greatest common factor",
-      "content": "The terms are $6x^{9}$, $-6x^8$, and $72x$. Each coefficient is divisible by $6$, and each term contains at least one factor of $x$, so the greatest common factor is $6x$."
-    },
-    {
-      "title": "Factor each term",
-      "content": "Divide each term by $6x$: $$6x^{9}=6x\\cdot x^8$$ $$-6x^8=6x\\cdot(-x^7)$$ $$72x=6x\\cdot12$$"
-    },
-    {
-      "title": "Write the equivalent expression",
-      "content": "Factoring out $6x$ gives $$6x(x^8-x^7+12)$$ This matches choice <strong>D</strong>."
+      "title": "Write the factored form",
+      "content": "Putting those terms inside parentheses gives the equivalent factored form\n$$\n6x(x^8-x^7+12)\n$$\nThis keeps every original term unchanged when distributed. The answer is <strong>D</strong>."
     }
   ]
 }

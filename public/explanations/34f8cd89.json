@@ -1,22 +1,15 @@
 {
   "questionId": "34f8cd89",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Items that are blue AND triangular AND plastic must satisfy all three percentages in sequence: 36% of the crate is blue, then 40% of those are triangular, then 45% of those are plastic."
+      "title": "Find the combined percentage",
+      "content": "An item must be blue, triangular, and plastic. Multiply the three percentages in sequence:\n$$\n0.36\\cdot 0.40\\cdot 0.45=0.0648\n$$\nSo $6.48\\%$ of the items are triangular blue plastic items."
     },
     {
-      "title": "Step 2",
-      "content": "Multiply the three fractions: 0.36 &times; 0.40 &times; 0.45 = 0.144 &times; 0.45 = 0.0648 &asymp; 6.48%. About 6.48% of all items are blue triangular plastic."
-    },
-    {
-      "title": "Step 3",
-      "content": "The question asks for items that are NOT blue triangular plastic: 100% &minus; 6.48% = 93.52%."
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li>A: 1.30% &mdash; far too small; this would be the result of additional incorrect multiplication.</li><li>B: 64.80% &mdash; does not match any reasonable intermediate.</li><li>C: 93.52% &mdash; matches 100% minus the 6.48% computed above.</li><li>D: 98.70% &mdash; off by an order of magnitude in the product.</li></ul><strong>C</strong> is correct."
+      "title": "Find the complement",
+      "content": "The question asks for the percentage that are not triangular blue plastic items:\n$$\n100\\%-6.48\\%=93.52\\%\n$$\nThe answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C"
+  ]
 }

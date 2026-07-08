@@ -1,0 +1,15 @@
+{
+  "questionId": "13b65229",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent decrease",
+      "content": "A decrease of $4.2\\%$ means each year's amount is multiplied by\n$$\n1-0.042=0.958\n$$"
+    },
+    {
+      "title": "Apply the yearly multiplier",
+      "content": "The starting amount in $2010$ is $7.15$. From $2010$ to $2020$ is $10$ years, so the multiplier is applied $10$ times:\n$$\n7.15(0.958)^{10}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

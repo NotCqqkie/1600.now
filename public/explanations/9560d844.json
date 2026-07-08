@@ -1,0 +1,15 @@
+{
+  "questionId": "9560d844",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the public-domain order",
+      "content": "The student needs the sequence in which the two works entered the public domain. The notes give 2020 for <em>Billy Budd, Sailor</em> and 2021 for <em>The Common Reader</em>, so the answer must make that order explicit."
+    },
+    {
+      "title": "Require both dates in sequence",
+      "content": "A and D say both works are now public domain but omit the order. B mentions 2021 and blurs the timing of both expirations. The option that says one work entered in 2020 and the other followed in 2021 emphasizes sequence. The answer is <strong>C</strong>."
+    }
+  ]
+}

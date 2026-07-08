@@ -1,0 +1,15 @@
+{
+  "questionId": "2914707b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find one object's mass",
+      "content": "If $r$ identical objects have total mass $t$, then each object has mass:\n$$\n\\frac{t}{r}\n$$"
+    },
+    {
+      "title": "Scale to more objects",
+      "content": "For $96r$ objects, multiply the number of objects by the mass per object:\n$$\n96r\\cdot\\frac{t}{r}=96t\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

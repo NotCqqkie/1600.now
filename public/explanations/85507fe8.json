@@ -1,0 +1,15 @@
+{
+  "questionId": "85507fe8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on when",
+      "content": "The goal is to emphasize when Eli Ben-Ari won the A.M. Turing Award. The relevant note gives the year, so the best sentence must foreground 1996 rather than the award's prestige or his contribution."
+    },
+    {
+      "title": "Reject other focuses",
+      "content": "A omits the year. B emphasizes the reason he won. C explains the award's purpose and does not mention him. The remaining choice places the year in the focus position of the sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

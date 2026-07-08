@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand what homeostatic regulation predicts",
-      "content": "If REM sleep is homeostatically regulated, animals deprived of REM sleep must show a consistent, significant increase in REM sleep afterward to compensate. The researchers concluded this does NOT happen in fur seals, so the evidence must show the seals failed to produce this consistent rebound.<ul><li><strong>Choice A &mdash; didn't show significantly less REM sleep during the second day after returning to land than they did during the first day.</strong>: this compares day 1 to day 2, not REM levels to baseline &mdash; irrelevant to whether compensation occurred. &#10007;</li><li><strong>Choice B &mdash; showed no significant differences from one another in baseline levels of REM sleep.</strong>: the graph shows REM as a percentage of baseline, not the baseline values themselves &mdash; this misreads the graph. &#10007;</li><li><strong>Choice C &mdash; didn't consistently demonstrate a significant increase in REM sleep after their period of deprivation in the water.</strong>: directly matches the conclusion &mdash; some seals showed elevated REM, others returned quickly to baseline, so there is no consistent significant rebound across the group. &#10003;</li><li><strong>Choice D &mdash; showed no significant difference between REM sleep after returning to land and REM sleep while in the water.</strong>: the graph does not show REM while in the water, and the passage already states seals get almost none &mdash; this is not supported by the data shown. &#10007;</li></ul>"
+      "title": "Use the rebound prediction",
+      "content": "If REM sleep is homeostatically regulated, seals deprived of REM sleep in the water should compensate after returning to land. The graph would need to show a consistent, significant increase above baseline."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The variable patterns across the three seals &mdash; some elevated, some quickly back to baseline &mdash; show there is no consistent significant REM rebound, which is exactly what the researchers cited. That is the correct answer."
+      "title": "Reject mismatched evidence",
+      "content": "A compares the first two days without addressing baseline compensation. B concerns baseline levels, but the graph reports percentages of baseline. D compares land sleep with in-water sleep, which the graph does not show."
+    },
+    {
+      "title": "Match the researchers' claim",
+      "content": "The seals do not consistently show a significant REM rebound after deprivation, which supports the researchers' conclusion. The answer is <strong>C</strong>."
     }
   ]
 }

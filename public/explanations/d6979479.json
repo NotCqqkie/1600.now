@@ -1,0 +1,15 @@
+{
+  "questionId": "d6979479",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the requested expression",
+      "content": "The question asks for $2(x-7)$, so subtract $18$ from both sides of the equation:<br/>$$52=18+2(x-7)$$<br/>$$52-18=2(x-7)$$"
+    },
+    {
+      "title": "Compute the difference",
+      "content": "Evaluate the left side:<br/>$$52-18=34$$<br/>So $2(x-7)=34$. The answer is <strong>C</strong>."
+    }
+  ]
+}

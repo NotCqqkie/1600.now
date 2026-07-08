@@ -1,0 +1,15 @@
+{
+  "questionId": "c057d484",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the possible confound",
+      "content": "The researchers infer depth from oxygen-18 levels in one female sample and one male sample. Sample F07 matches water at about 135 meters, while sample M24 matches water at about 370 meters. To support the depth conclusion, sex must not be an alternate cause of the isotope difference."
+    },
+    {
+      "title": "Remove the sex effect",
+      "content": "If sex has no effect on oxygen-18 uptake or deposition in septa, then the different oxygen-18 levels can be interpreted as evidence of different formation depths. B would make sex a possible cause, C shifts to growth rate, and D gives a broad depth fact without ruling out the sex confound. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "dbf6afa5",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the decimals",
+      "content": "Multiply both equations by $20$ to make the coefficients whole numbers:<br/>$$14x+7y=35$$<br/>$$7x+14y=49$$"
+    },
+    {
+      "title": "Eliminate one variable",
+      "content": "Divide both equations by $7$, then subtract the second simplified equation from twice the first simplified equation:<br/>$$2x+y=5$$<br/>$$x+2y=7$$<br/>$$2(2x+y)-(x+2y)=2(5)-7$$<br/>$$3x=3$$<br/>$$x=1$$"
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Substitute $x=1$ into $2x+y=5$:<br/>$$2(1)+y=5$$<br/>$$y=3$$<br/>The answer is <strong>3</strong>.",
+      "desmosExpressions": [
+        "0.7x + 0.35y = 1.75",
+        "0.35x + 0.7y = 2.45"
+      ]
+    }
+  ]
+}

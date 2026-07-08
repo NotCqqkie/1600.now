@@ -1,0 +1,19 @@
+{
+  "questionId": "c317d179",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find when and where",
+      "content": "The student's goal is to emphasize when and where <em>Mariposa Dorada</em> debuted. The relevant note gives both details: the work debuted in 2019 at the Sarra Building in Havana, Cuba. Those details should be central, not incidental."
+    },
+    {
+      "title": "Eliminate off-goal details",
+      "content": "<ul><li><strong>Choice B</strong> describes Alvarez's general style but omits both the debut year and the location.</li><li><strong>Choice C</strong> mentions 2019 only in parentheses and omits Havana, Cuba.</li><li><strong>Choice D</strong> focuses on materials and size instead of the debut's time and place.</li></ul>"
+    },
+    {
+      "title": "Foreground the debut",
+      "content": "<strong>Choice A</strong> opens with 2019 and explicitly says the work debuted in Havana, Cuba. That structure puts both required details, the when and the where, at the center of the sentence. The answer is <strong>A</strong>."
+    }
+  ]
+}

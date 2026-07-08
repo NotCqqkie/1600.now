@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student wants to <strong>emphasize a similarity</strong> between the Gal&aacute;pagos penguin and the grey warbler finch. Scan the notes for what they share: both species can be found on the Gal&aacute;pagos Island of Floreana. Their weights (2.5 kg vs. 9 g) differ enormously, so weight is a <em>contrast</em>, not a similarity."
+      "title": "Find the shared trait",
+      "content": "The student wants a similarity between the Galápagos penguin and the grey warbler finch. The notes show that both birds can be found on the Galápagos Island of Floreana, while their weights are different."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;On average, the Galápagos penguin weighs 2.5 kilograms, while the grey warbler finch weighs 9 grams.&rsquo;</strong>: The word &ldquo;while&rdquo; signals a contrast between weights &mdash; the opposite of a similarity. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The grey warbler finch, which weighs 9 grams on average, can be found on the Galápagos Island of Floreana.&rsquo;</strong>: Mentions only the finch; does not connect it to the penguin. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The grey warbler finch and the Galápagos penguin can both be found on the Galápagos Island of Floreana.&rsquo;</strong>: Directly states the shared trait (Floreana) for <em>both</em> birds. &#10003;</li><li><strong>Choice D &mdash; &lsquo;The Galápagos Island of Floreana is home to several bird species, one of which is the Galápagos penguin.&rsquo;</strong>: Mentions only the penguin; does not bring in the finch at all. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject non-similarities",
+      "content": "Choice A emphasizes contrasting weights. Choice B mentions only the finch. Choice D mentions only the penguin. The needed sentence states the place both birds share. The answer is <strong>C</strong>."
     }
   ]
 }

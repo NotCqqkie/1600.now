@@ -1,0 +1,19 @@
+{
+  "questionId": "c491b7f0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shared feature task",
+      "content": "The question asks for the choice that emphasizes how <em>Thin in the Old</em> and <em>Victor</em> are similar. The notes give several facts about dates, auction years, media, and size, but the relevant shared feature is that both works use acrylic."
+    },
+    {
+      "title": "Eliminate contrast and dates",
+      "content": "Choice B states that Basquiat completed <em>Thin in the Old</em> in 1986 and <em>Victor</em> in 1987. That only places the works in sequence; it does not emphasize a similarity. Choice C lists each work's materials and uses <em>while</em>, so it foregrounds the different compositions instead of the shared acrylic medium."
+    },
+    {
+      "title": "Choose the similarity sentence",
+      "content": "Choice D says <em>Victor</em> is larger than <em>Thin in the Old</em>, which emphasizes a difference in size. Choice A says that both works use acrylic paint as a medium, directly naming something the two works have in common while using relevant information from the notes. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2e8f5ef0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the target expression",
+      "content": "The question asks for $8x^2$, so isolate that expression directly instead of solving for $x$."
+    },
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides by $x$:<br/>$$\\frac{56}{x}=8x$$<br/>$$56=8x^2$$<br/>Thus, the value of $8x^2$ is $56$. The answer is <strong>C</strong>."
+    }
+  ]
+}

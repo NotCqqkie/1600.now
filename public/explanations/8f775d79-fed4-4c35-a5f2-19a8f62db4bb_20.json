@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate no real solutions into an inequality",
-      "content": "The question asks for the largest positive integer $b$ that makes the quadratic have no real solutions. For a quadratic, no real solutions means the discriminant is negative:<br/>$$b^2 - 4ac \\lt 0$$<br/>Here $a = -2$ and $c = -32$, so:<br/>$$b^2 - 4(-2)(-32) \\lt 0$$<br/>$$b^2 - 256 \\lt 0$$<br/>$$b^2 \\lt 256$$"
+      "title": "Use the discriminant condition",
+      "content": "A quadratic has no real solution when its discriminant is negative. For $-2x^2+bx-32=0$,\n$$a=-2,\\quad c=-32$$\nSo\n$$b^2-4ac<0$$\n$$b^2-4(-2)(-32)<0$$\n$$b^2-256<0$$"
     },
     {
-      "title": "Find the largest positive integer $b$",
-      "content": "$b^2 \\lt 256$ means $|b| \\lt 16$, so $-16 \\lt b \\lt 16$. The largest positive integer satisfying $b \\lt 16$ is $b = 15$.<br/><br/>The answer is <strong>15</strong>."
+      "title": "Find the largest integer",
+      "content": "The inequality becomes\n$$b^2<256$$\nSince $b$ is a positive integer, the largest value less than $16$ is $15$. The answer is <strong>15</strong>."
     }
   ]
 }

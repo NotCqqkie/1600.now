@@ -1,0 +1,19 @@
+{
+  "questionId": "9bf908b7",
+  "correctAnswer": "500",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the starting counts",
+      "content": "Let each species have $x$ insects at the start. A $2{,}000\\%$ increase means adding $20x$, so the ending prey count is $21x$. A $250\\%$ increase means adding $2.5x$, so the ending predator count is $3.5x$."
+    },
+    {
+      "title": "Compare ending counts",
+      "content": "The ratio of ending prey to ending predators is<br/>$$\\frac{21x}{3.5x}=6$$<br/>So the ending prey count is $6$ times the ending predator count."
+    },
+    {
+      "title": "Convert the ratio to percent greater",
+      "content": "Being $6$ times as large means being $5$ times greater than the comparison amount.<br/>$$5\\cdot 100\\%=500\\%$$<br/>The answer is <strong>500</strong>."
+    }
+  ]
+}

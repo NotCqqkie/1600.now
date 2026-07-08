@@ -1,0 +1,15 @@
+{
+  "questionId": "bd97b82f",
+  "correctAnswer": "5900",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the linear model",
+      "content": "The whale starts at $5{,}820$ pounds and gains $10.0$ pounds per hour. After $8$ hours, the gain is:<br/>$$10.0(8)=80$$"
+    },
+    {
+      "title": "Add the gain",
+      "content": "Add the gain to the birth weight:<br/>$$5{,}820+80=5{,}900$$<br/>The answer is <strong>5900</strong>."
+    }
+  ]
+}

@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "The equation is $\\dfrac{-72}{w}=6$, and $w$ cannot be $0$. Multiply both sides by $w$ to remove the denominator: $$-72=6w.$$"
+      "content": "Multiply both sides by $w$:<br/>$$\\frac{-72}{w}=6$$<br/>$$-72=6w$$"
     },
     {
-      "title": "Solve for $w$",
-      "content": "Divide both sides by $6$: $$w=-12.$$"
-    },
-    {
-      "title": "Check the solution",
-      "content": "Substitute $w=-12$ into the original equation: $$\\dfrac{-72}{-12}=6.$$ The equation is true, so the solution is <strong>-12</strong>."
+      "title": "Isolate w",
+      "content": "Divide both sides by $6$:<br/>$$w=-12$$<br/>The answer is <strong>-12</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "101a5370",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent statement",
+      "content": "$10$ percent of an unknown number $x$ is $24$, so<br/>$$0.10x=24$$"
+    },
+    {
+      "title": "Solve for the number",
+      "content": "Divide both sides by $0.10$:<br/>$$x=\\frac{24}{0.10}=240$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The number is $240$. The answer is <strong>D</strong>."
+    }
+  ]
+}

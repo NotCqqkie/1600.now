@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: organize the dimensions first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
       "title": "Use hemisphere volume",
-      "content": "A hemisphere has half the volume of a sphere, so $$V=\\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3=\\frac{2}{3}\\pi r^3$$"
+      "content": "A hemisphere has half the volume of a sphere. With radius $r$, its volume is\n$$\\frac{1}{2}(\\frac{4}{3}\\pi r^3)=\\frac{2}{3}\\pi r^3$$"
     },
     {
       "title": "Substitute the radius",
-      "content": "With $r=24$: $$V=\\frac{2}{3}\\pi(24)^3=9{,}216\\pi\\approx28{,}953$$"
+      "content": "Use $r=24$ in the hemisphere volume formula.\n$$V=\\frac{2}{3}\\pi(24)^3$$\n$$V=\\frac{2}{3}\\pi(13{,}824)$$\n$$V=9{,}216\\pi$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The closest answer choice is $29{,}000$, so <strong>D</strong> is correct."
+      "title": "Estimate the volume",
+      "content": "Use $3.14$ as an approximation for $\\pi$.\n$$9{,}216(3.14)=28{,}938.24$$\nThis is closest to $29{,}000$ cubic inches among the listed choices. The answer is <strong>D</strong>."
     }
   ]
 }

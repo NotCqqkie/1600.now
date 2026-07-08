@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "This is a data-supports-claim question. The researchers' conclusion is that there was &quot;a growing interest among CEOs in connecting with more departments&quot; across the years analyzed &mdash; so we need a choice describing an upward trend over time."
+      "title": "Connect data to the claim",
+      "content": "The researchers conclude that CEOs became increasingly interested in connecting with more departments. Data supporting that conclusion must show a rising number of department leaders reporting directly to CEOs across the studied periods."
     },
     {
-      "title": "Reason toward the answer",
-      "content": "An increasing average number of department leaders reporting directly to the CEO across the three periods would directly demonstrate CEOs connecting with more departments over time."
-    },
-    {
-      "title": "Eliminate the wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The average numbers of managers and department leaders reporting directly to their CEO didn't fluctuate from the 1991–1995 period to the 2001–2008 period.&rsquo;</strong>: no change would contradict the conclusion of growing interest. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The average number of managers reporting directly to their CEO was highest in the 1996–2001 period.&rsquo;</strong>: a middle-period peak is not a rising trend across all three periods, so it doesn't support sustained growth. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The average number of department leaders reporting directly to their CEO was greater than the average number of managers reporting directly to their CEO in each of the three periods studied.&rsquo;</strong>: this compares two categories at single points; it shows no change over time and therefore doesn't support a growing trend. &#10007;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject nonrising patterns",
+      "content": "A says the averages did not fluctuate, which would not support growth. B describes a middle-period peak for managers, not a steady rise in department connections. C compares managers and department leaders within periods, but it does not show change over time. The answer is <strong>D</strong>."
     }
   ]
 }

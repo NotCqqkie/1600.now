@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the value of y",
-      "content": "The second equation gives $y=21$. Substitute into $y=3x-3$: $$21=3x-3$$"
+      "title": "Substitute the given value",
+      "content": "The second equation gives $y=21$. Substitute that into the first equation.<br/>$$21=3x-3$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Add $3$ to both sides and divide by $3$: $$24=3x$$ $$x=8$$"
+      "title": "Solve for the first coordinate",
+      "content": "Add $3$ to both sides, then divide by $3$.<br/>$$24=3x$$<br/>$$x=8$$"
     },
     {
-      "title": "Confirm the ordered pair",
-      "content": "The solution is $(8,21)$, which is <strong>B</strong>."
-    },
-    {
-      "title": "Check both coordinates",
-      "content": "A solution to a system must satisfy both equations. The pair $(8,21)$ has $y=21$, and it also satisfies $21=3(8)-3$, so both equations are true."
+      "title": "Write the solution pair",
+      "content": "The solution is $(8,21)$. The answer is <strong>B</strong>."
     }
   ]
 }

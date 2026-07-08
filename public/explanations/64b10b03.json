@@ -1,0 +1,19 @@
+{
+  "questionId": "64b10b03",
+  "correctAnswer": "30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the exterior angle",
+      "content": "Angle $ACD$ is an exterior angle, so it equals the sum of the two remote interior angles:<br/>$$x+y=(4x+8)+(5x+4)$$<br/>$$y=8x+12$$"
+    },
+    {
+      "title": "Use the triangle sum",
+      "content": "The interior angles of triangle $ABC$ sum to $180^{\\circ}$:<br/>$$(4x+8)+(5x+4)+(5y+10)=180$$<br/>$$9x+5y=158$$"
+    },
+    {
+      "title": "Solve for the requested sum",
+      "content": "Substitute $y=8x+12$ into the triangle-sum equation and solve:<br/>$$9x+5(8x+12)=158$$<br/>$$49x=98$$<br/>$$x=2$$<br/>$$y=28$$<br/>$$x+y=30$$The answer is <strong>30</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "82a1475f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what y means",
+      "content": "The variable $y$ represents the total amount of shellfish, in pounds, eaten during the full $6$ days. It is not the number of days or the amount per day."
+    },
+    {
+      "title": "Use the stated total",
+      "content": "The problem states that the sea otter ate $27.0$ pounds of shellfish in those $6$ days, so\n$$\ny=27\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

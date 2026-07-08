@@ -1,0 +1,15 @@
+{
+  "questionId": "57e03843",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply the date and boundary",
+      "content": "The sentence needs the second completion date, 1712, and <em>respectively</em> to pair the two paintings with their two dates. After that, a new independent clause begins about allegorical art's popularity."
+    },
+    {
+      "title": "Reject comma-splice options",
+      "content": "Choice B uses only a comma before the new independent clause. Choice C omits the second year. Choice D separates <em>respectively</em> from the date it modifies. The year, parenthetical comma, and semicolon are all needed. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d696201f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed main verb",
+      "content": "The second half of the sentence, \"students of traditional methods often only ______ such songs,\" must function as a full clause. It needs a finite main verb after the subject."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is a present participle, Choice C is a perfect participial phrase, and Choice D is an infinitive. None can serve as the clause's main verb on its own. The answer is <strong>A</strong>."
+    }
+  ]
+}

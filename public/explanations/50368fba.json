@@ -1,0 +1,15 @@
+{
+  "questionId": "50368fba",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the student goal",
+      "content": "The goal is to emphasize a similarity between Baxter and Aster. A similarity must use information about both specimens, not just a general fact about fossils. The notes say Baxter is a <em>Tyrannosaurus</em>, Aster is a <em>Triceratops</em>, and both lived in the Late Cretaceous period."
+    },
+    {
+      "title": "Reject non-similar details",
+      "content": "Choice B emphasizes different locations, so it highlights a contrast. Choice C gives a broad fact about fossil specimens and mentions only one relevant museum. Choice D discusses only Baxter and does not compare the two specimens. The answer is <strong>A</strong>."
+    }
+  ]
+}

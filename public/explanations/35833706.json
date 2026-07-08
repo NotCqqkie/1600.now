@@ -1,0 +1,15 @@
+{
+  "questionId": "35833706",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the causal claim",
+      "content": "The student claims that similarity drives same-brand cross-category purchasing. A weakening finding should give another reason that high-similarity pairs might have higher cross-category purchasing."
+    },
+    {
+      "title": "Check the competing cause",
+      "content": "Choice A restates the original correlation, so it supports rather than weakens the claim. Choice B introduces price differences but does not explain why consumers would buy both products from the same brand. Choice D says the correlation holds regardless of brand recognition, which does not challenge similarity. The remaining choice offers low competition as an alternate cause. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2b998fff",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two areas",
+      "content": "The goal is to compare sizes, so the response must use the area data for both mountain ranges. The El Carmen-Verde Mountains cover 1,141 mi², while the Sierrita Mountains cover 63 mi²."
+    },
+    {
+      "title": "Keep the focus on size",
+      "content": "A is too general, C gives only regional information, and D defines sky islands instead of comparing the two ranges' areas. The answer is <strong>B</strong>."
+    }
+  ]
+}

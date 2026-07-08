@@ -1,0 +1,19 @@
+{
+  "questionId": "72de9031",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the language-growth claim",
+      "content": "The underlined claim says 'Aha Pūnana Leo increased the number of young people who speak Hawaiian. The best support must show growth in young Hawaiian speakers and tie that growth to the school."
+    },
+    {
+      "title": "Reject unrelated population facts",
+      "content": "<ul><li><strong>Choice A</strong>: Samoan and other Pacific Islander populations do not show growth in Hawaiian speakers.</li><li><strong>Choice C</strong>: Similarities among Polynesian languages do not prove that more young people speak Hawaiian.</li><li><strong>Choice D</strong>: Native Hawaiian population totals say nothing about language ability among young people.</li></ul>"
+    },
+    {
+      "title": "Use direct speaker-count evidence",
+      "content": "A before-and-after count showing fewer than fifty children could speak Hawaiian at the school's founding but more than 2,000 students there now speak it directly supports the claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

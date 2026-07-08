@@ -1,0 +1,15 @@
+{
+  "questionId": "58f5fe95",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require a finite verb",
+      "content": "The blank is the main verb of the clause \"MoMA ______ a vast collection of oil paintings.\" That clause needs a finite verb that can agree with the singular subject \"MoMA.\""
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "B and D are infinitive phrases, so neither can serve as the main verb of the clause. C is a participle and also cannot act as the clause's finite verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

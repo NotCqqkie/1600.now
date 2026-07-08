@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the shape-focused goal",
-      "content": "The question asks the student to describe the wok's shape—its physical form. The notes provide two key characteristics: a “round, wide base” and “high, angled sides.”"
+      "title": "Describe the wok's form",
+      "content": "The student wants to describe the wok's shape. The notes give two physical features: a round, wide base and high, angled sides."
     },
     {
-      "title": "Match the shape information to the choices",
-      "content": "C directly answers by describing the wok's physical form: “a round, wide base and high, angled sides.” The other three instead emphasize the wok's history, its published book, or its cooking function. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Reject history and function details",
+      "content": "A focuses on Maria Chen's book, not the pan's shape. B mentions cooking evenly, containing splatters, and the book. D includes origin and function rather than directly describing the shape. The sentence naming the base and sides fits the goal. The answer is <strong>C</strong>."
     }
   ]
 }

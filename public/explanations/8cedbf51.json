@@ -1,0 +1,15 @@
+{
+  "questionId": "8cedbf51",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the margin of error",
+      "content": "The margin of error gives a symmetric interval around the estimate of $64\\%$. Subtract and add $2.76\\%$ to find the endpoints: $$64\\%-2.76\\%=61.24\\%$$ $$64\\%+2.76\\%=66.76\\%$$"
+    },
+    {
+      "title": "Select the interval",
+      "content": "The plausible values are greater than $61.24\\%$ and less than $66.76\\%$, because the interval extends that far below and above the estimate. The answer is <strong>A</strong>."
+    }
+  ]
+}

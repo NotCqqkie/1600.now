@@ -1,0 +1,15 @@
+{
+  "questionId": "d781b0c6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the seaweed difference",
+      "content": "The notes say winged kelp had moderate umami intensity, while arame had high umami intensity. The response must emphasize that difference between the two seaweeds, not just state that both have umami flavor."
+    },
+    {
+      "title": "Rule out noncontrasts",
+      "content": "Choice A groups the seaweeds together and shifts to ham and mushrooms. Choice B says both seaweeds trigger umami. Choice D only says both are brown seaweeds. The remaining choice directly contrasts the two umami intensities. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "38cc21d0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Isolate the changed feature",
+      "content": "Each dog appeared in both a light-iris and dark-iris version, while the rest of the face stayed the same. Because no participant saw both versions of the same dog, the ratings could be compared across controlled image sets without letting a single viewer notice the manipulation."
+    },
+    {
+      "title": "Rule out feature bias",
+      "content": "A concerns photos versus in-person viewing. C concerns what participants consciously emphasized. D concerns preexisting feelings about iris color. The design specifically rules out a preference for unrelated facial features that happened to appear in dogs with darker irises in the image set. The answer is <strong>B</strong>."
+    }
+  ]
+}

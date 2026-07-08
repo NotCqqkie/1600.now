@@ -1,0 +1,15 @@
+{
+  "questionId": "384c9f94",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the tip percent",
+      "content": "The tip is $10\\%$ of the $40$ dollar bill, so multiply $40$ by $0.10$."
+    },
+    {
+      "title": "Calculate the tip",
+      "content": "$$0.10(40)=4$$\nThe tip amount is $4$ dollars. The answer is <strong>B</strong>."
+    }
+  ]
+}

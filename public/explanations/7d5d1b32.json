@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the unknown directly",
-      "content": "For a linear equation to have no solution, the $x$-coefficients must match while the constants differ. Matching the $x$-coefficients gives $k=-\\frac{11}{13}$."
+      "title": "Use the no-solution rule",
+      "content": "A linear equation has no solution when the $x$-coefficients match but the constants do not. Expand the left side:\n$$\n2(kx-n)=2kx-2n\n$$\nSo the left-side $x$-coefficient is $2k$."
     },
     {
-      "title": "Confirm by expanding",
-      "content": "Distribute the $2$: $$2(kx-n)=-\\frac{22}{13}x-\\frac{34}{23}$$ $$2kx-2n=-\\frac{22}{13}x-\\frac{34}{23}.$$ Match the $x$-coefficients: $$2k=-\\frac{22}{13}$$ $$k=-\\frac{11}{13}\\approx-0.8462.$$"
+      "title": "Match the coefficients",
+      "content": "Set the left-side $x$-coefficient equal to the right-side $x$-coefficient:\n$$\n2k=-\\frac{22}{13}\n$$\n$$\nk=-\\frac{11}{13}\n$$"
     },
     {
-      "title": "Check the contradiction",
-      "content": "With this $k$, the $x$-terms cancel. The constants are $-2n$ and $-\\frac{34}{23}$. Since $n\\gt 1$, $2n\\gt 2\\gt \\frac{34}{23}$, so the constants cannot be equal. That leaves a false statement, which is exactly the no-solution condition. The answer is <strong>-11/13</strong>."
+      "title": "Check the constants",
+      "content": "With this value, the $x$-terms cancel. Since $n>1$, the constant $-2n$ cannot equal $-\\frac{34}{23}$, so the equation has no solution. The answer is <strong>-11/13</strong>."
     }
   ]
 }

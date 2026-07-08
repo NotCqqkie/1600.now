@@ -1,0 +1,15 @@
+{
+  "questionId": "21914a16",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed modifier",
+      "content": "The sentence is identifying a specific kind of agricultural fertilizer: fertilizers that contain macronutrients like nitrogen, phosphorus, and potassium. That meaning needs a restrictive modifier, not a separate sentence or a nonessential phrase."
+    },
+    {
+      "title": "Test the modifier choices",
+      "content": "Choice A creates a fragment beginning with Containing. Choice B makes the modifier nonessential with a comma. Choice C uses no comma, so containing macronutrients restricts which fertilizers are meant. Choice D also makes the modifier nonessential and too broad. The answer is <strong>C</strong>."
+    }
+  ]
+}

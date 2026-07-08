@@ -1,0 +1,15 @@
+{
+  "questionId": "324bb26a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the table value",
+      "content": "The sentence needs the height listed for Tikal Temple IV. The relevant row already gives the time built, so the completion should supply the matching height from that same row rather than a height from another pyramid."
+    },
+    {
+      "title": "Use the Tikal row",
+      "content": "<ul><li><strong>Choice B</strong>: This height belongs to a different pyramid in the table.</li><li><strong>Choice C</strong>: This height also comes from another pyramid row.</li><li><strong>Choice D</strong>: This value is not the Tikal Temple IV height.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

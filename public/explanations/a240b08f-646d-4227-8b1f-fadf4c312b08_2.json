@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the line of best fit",
-      "content": "Read the $y$-intercept of the line of best fit for data set A from the graph. It is about $53.75$."
+      "title": "Read the original intercept",
+      "content": "From the graph, the $y$-intercept of the line of best fit for data set A is about $53.75$."
     },
     {
-      "title": "Find the slope and original y-intercept",
-      "content": "Data set B is created by subtracting $11$ from every $y$-value in data set A. That shifts the entire line of best fit down $11$ units, so the $y$-intercept also decreases by $11$."
-    },
-    {
-      "title": "Apply the vertical shift of $-11$",
-      "content": "The shifted intercept is approximately $$53.75-11=42.75.$$ That confirms <strong>C</strong> is correct."
+      "title": "Apply the vertical shift",
+      "content": "Data set B subtracts $11$ from every $y$-value, so the line of best fit shifts down $11$ units. The new intercept is<br/>$$53.75-11=42.75$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c35eae37",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify what a zero means",
+      "content": "A value of $x$ where $f(x)=0$ is an $x$-intercept of the graph. So the question is asking how many times the complete graph touches or crosses the horizontal axis."
+    },
+    {
+      "title": "Count the intercepts",
+      "content": "Scanning the graph from left to right, the curve crosses the $x$-axis exactly once. There are no other intercepts in the complete graph. The answer is <strong>B</strong>."
+    }
+  ]
+}

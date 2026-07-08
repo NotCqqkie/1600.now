@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope direction from the graph",
-      "content": "The line of best fit goes <strong>downward</strong> from left to right — the slope is negative. Eliminate A (positive 10.95) and B (positive 0.79)."
+      "title": "Use the direction of the line",
+      "content": "The line of best fit goes downward from left to right, so its slope is negative. That eliminates the positive choices."
     },
     {
-      "title": "Estimate the magnitude",
-      "content": "Pick two points from the line: a typical line over a wide $x$-range with moderate $y$-change gives a slope close to $-0.79$, not $-10.95$ (which would be very steep).<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Estimate the steepness",
+      "content": "The line decreases moderately, by less than $1$ unit of $y$ for each $1$ unit of $x$. That is close to $-0.73$, not a steep slope like $-12.14$. The answer is <strong>C</strong>."
     }
   ]
 }

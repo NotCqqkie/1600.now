@@ -1,0 +1,15 @@
+{
+  "questionId": "071ae799",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use the two given points, $(0,0)$ and $(1,8)$.\n$$\\frac{8-0}{1-0}=8$$"
+    },
+    {
+      "title": "Use the intercept",
+      "content": "Because the line passes through $(0,0)$, its $y$-intercept is $0$. A linear function with slope $8$ and intercept $0$ is\n$$h(x)=8x$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

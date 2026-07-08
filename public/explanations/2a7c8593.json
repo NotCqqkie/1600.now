@@ -1,0 +1,15 @@
+{
+  "questionId": "2a7c8593",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the perimeter equation",
+      "content": "Let $x$ be the length of the third side. The three side lengths add to the perimeter.<br/>$$6+9+x=20$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Combine the known side lengths and isolate $x$.<br/>$$15+x=20$$<br/>$$x=5$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

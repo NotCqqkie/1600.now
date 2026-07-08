@@ -1,0 +1,23 @@
+{
+  "questionId": "22cbd537",
+  "correctAnswer": "71.5,143/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the right-triangle shortcut from the figure",
+      "content": "The right-angle mark at $B$ means $\\angle ABC=90^\\circ$. Since $A$, $B$, and $C$ are on the circle, the side opposite that right angle, $AC$, is a diameter. The diameter is $145$, so:<br/>$$AD+CD=AC=145$$"
+    },
+    {
+      "title": "Apply the altitude-to-hypotenuse theorem",
+      "content": "Segment $BD$ is perpendicular to $AC$, so $BD$ is the altitude from the right angle to the hypotenuse. For a right triangle, the altitude satisfies:<br/>$$BD^2=AD\\cdot CD$$<br/>Given $BD=\\sqrt{286}$, this becomes:<br/>$$AD\\cdot CD=(\\sqrt{286})^2=286$$"
+    },
+    {
+      "title": "Solve for the two hypotenuse pieces",
+      "content": "Let $AD=x$. Then $CD=145-x$, so:<br/>$$x(145-x)=286$$<br/>$$x^2-145x+286=0$$<br/>The two factors are $2$ and $143$, since $2+143=145$ and $2\\cdot143=286$. Thus the two segment lengths are $2$ and $143$."
+    },
+    {
+      "title": "Use AB < BC to choose the order",
+      "content": "In this right-triangle setup, the shorter leg is next to the shorter hypotenuse segment. Since $AB\\lt BC$, the segment near $AB$ is shorter, so $AD=2$ and $CD=143$. Therefore:<br/>$$r=\\frac{CD}{AD}=\\frac{143}{2}=71.5$$<br/>The answer is <strong>71.5</strong>."
+    }
+  ]
+}

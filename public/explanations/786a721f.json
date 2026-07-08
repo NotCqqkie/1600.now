@@ -1,0 +1,15 @@
+{
+  "questionId": "786a721f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Isolate Chen's finding",
+      "content": "The question asks specifically what Chen found. The text says Chen found lunar intensity to be positively associated with foraging by three-striped night monkeys, so the answer must restate that relationship."
+    },
+    {
+      "title": "Separate findings from explanations",
+      "content": "A describes a possible explanation involving vision, not Chen's measured finding. B gives Miller's pocket-mouse finding, not Chen's. D states a comparative OFT explanation rather than the finding itself. The relevant result is increased night-monkey foraging as lunar intensity increases. The answer is <strong>C</strong>."
+    }
+  ]
+}

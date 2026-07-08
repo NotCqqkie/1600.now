@@ -1,0 +1,19 @@
+{
+  "questionId": "a0e29cec",
+  "correctAnswer": "38",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the exterior angle",
+      "content": "When side $NP$ is extended through $P$, angle $MPT$ is an exterior angle. It equals the sum of the two remote interior angles.\n$$\nx+y=(3x+4)+(2x+9)\n$$\n$$\ny=4x+13\n$$"
+    },
+    {
+      "title": "Use the triangle sum",
+      "content": "The three interior angles of triangle $MNP$ sum to $180^\\circ$.\n$$\n(3x+4)+(2x+9)+(4y+10)=180\n$$\n$$\n5x+4y=157\n$$"
+    },
+    {
+      "title": "Solve for the exterior angle",
+      "content": "Substitute $y=4x+13$ into the triangle-sum equation.\n$$\n5x+4(4x+13)=157\n$$\n$$\n21x=105\n$$\n$$\nx=5\n$$\nThen \n$$\ny=4(5)+13=33\n$$, so $x+y=38$. The answer is <strong>38</strong>."
+    }
+  ]
+}

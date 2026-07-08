@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal and factor",
-      "content": "At intersection points, both expressions equal $y$:<br/>$$4x^2 - 23x = x$$<br/>Rearrange to standard form:<br/>$$4x^2 - 24x = 0$$<br/>Factor out $4x$:<br/>$$4x(x - 6) = 0$$<br/>This yields $x = 0$ or $x = 6$."
+      "title": "Set the graphs equal",
+      "content": "At an intersection, both equations have the same $y$-value.<br/>$$4x^2-23x=x$$"
     },
     {
-      "title": "Identify a from the non-zero solution",
-      "content": "We're given that one intersection is $(0, 0)$. The other intersection point is $(a, a)$, which corresponds to $x = 6$ from our factored solutions. Therefore, $a = 6$."
+      "title": "Factor the equation",
+      "content": "Move all terms to one side and factor.<br/>$$4x^2-24x=0$$<br/>$$4x(x-6)=0$$<br/>So $x=0$ or $x=6$."
+    },
+    {
+      "title": "Use the other intersection",
+      "content": "The point $(0,0)$ is already given. The other point has coordinates $(a,a)$, so $a$ is the nonzero $x$-value. The answer is <strong>6</strong>."
     }
   ]
 }

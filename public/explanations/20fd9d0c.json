@@ -1,0 +1,15 @@
+{
+  "questionId": "20fd9d0c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause",
+      "content": "The sentence says higher comic book prices had the counterintuitive effect of making buyers suddenly flood the market. The blank must mean that the price increase caused or triggered demand."
+    },
+    {
+      "title": "Choose the causal verb",
+      "content": "A means converting something into revenue, which does not describe demand. C means making something steady, but demand surged. D means taking advantage of something, not causing it. The verb meaning \"triggering\" matches the price increase's effect on demand. The answer is <strong>B</strong>."
+    }
+  ]
+}

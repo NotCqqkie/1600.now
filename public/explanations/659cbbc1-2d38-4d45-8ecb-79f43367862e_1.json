@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Combine like terms",
-      "content": "$9yz^{3} + 6yz + 3yz^{3}$. The $yz^3$ terms combine: $9yz^3 + 3yz^3 = 12yz^3$. The $6yz$ term has a different exponent on $z$, so it stays."
+      "content": "Combine $4yz^3$ and $3yz^3$; keep $5yz$ separate."
     },
     {
-      "title": "Write the final expression",
-      "content": "$$12yz^{3} + 6yz$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Simplify the expression",
+      "content": "$4yz^3+5yz+3yz^3=7yz^3+5yz$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

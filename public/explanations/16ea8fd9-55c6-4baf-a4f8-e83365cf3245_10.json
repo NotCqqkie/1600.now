@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks where the National Association of Black Journalists was founded. The answer must come directly from the passage."
+      "title": "Locate the founding place",
+      "content": "The question asks where the National Association of Black Journalists was founded. The passage states directly that the organization was founded in Washington, DC, in 1975."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Philadelphia</strong>: Philadelphia is not mentioned in the passage as the founding location. &#10007;</li><li><strong>Choice B &mdash; Detroit</strong>: Detroit is not mentioned in the passage. &#10007;</li><li><strong>Choice C &mdash; Washington, DC</strong>: the passage states the organization &quot;was founded in Washington, DC, in 1975.&quot; &#10003;</li><li><strong>Choice D &mdash; San Diego</strong>: San Diego is not mentioned in the passage. &#10007;</li></ul>That matches <strong>Choice C &mdash; Washington, DC</strong>."
+      "title": "Use the stated location",
+      "content": "A names Detroit, which is not given as the founding place. B names Philadelphia, which the passage does not identify as the founding place. D names San Diego, which is also not supported by the text. The remaining location matches the passage's direct statement. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "e7472732",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the vertex meaning",
+      "content": "The graph shows estimated revenue on the $y$-axis and product price on the $x$-axis. The $y$-value of a point on the graph represents estimated revenue."
+    },
+    {
+      "title": "Use the highest point",
+      "content": "The parabola opens downward, so its vertex is the highest point on the graph. Therefore, the $y$-value of the vertex represents the maximum estimated revenue. The answer is <strong>C</strong>."
+    }
+  ]
+}

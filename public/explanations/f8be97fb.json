@@ -1,0 +1,15 @@
+{
+  "questionId": "f8be97fb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage scope",
+      "content": "The passage presents two institutions: the Museum of Latin American Art and Casa de Rosado. For each one, it gives basic information, including founding context or location, and explains the institution's area of focus."
+    },
+    {
+      "title": "Reject unsupported purposes",
+      "content": "A invents a historical development that caused the institutions. B adds funding, which is never discussed. D claims a collection-size contrast, but only one collection size is given. The purpose is to present information about both institutions and their focuses. The answer is <strong>C</strong>."
+    }
+  ]
+}

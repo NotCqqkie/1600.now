@@ -1,0 +1,15 @@
+{
+  "questionId": "2a42afa2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the missing measure",
+      "content": "The research question asks whether perceived category similarity predicts purchasing brand extensions. The researchers already calculated purchase-probability changes for each extended-brand pair, so they still need a measure of how similar consumers think the paired categories are."
+    },
+    {
+      "title": "Select the direct correlation",
+      "content": "B measures similarity within a category, not between the extended-brand categories. C and D measure brand recognition and then correlate it with purchases or cost, which does not test perceived category similarity. The answer is <strong>A</strong>."
+    }
+  ]
+}

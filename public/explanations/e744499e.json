@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate \"at least 25 items\"",
-      "content": "With $x$ notebooks and $y$ pencil packs, the total number of items is $x + y$. \"At least 25\" means the total is greater than or equal to 25:<br/>$$x + y \\geq 25$$"
+      "title": "Model the item count",
+      "content": "The teacher orders $x$ notebooks and $y$ packs of pencils. At least $25$ items means<br/>$$x+y\\ge25$$"
     },
     {
-      "title": "Translate \"total cost not over 95 dollars\"",
-      "content": "Notebooks cost 2 dollars each and pencil packs cost 5 dollars each, so the total cost in dollars is $2x + 5y$. \"Not over 95 dollars\" means less than or equal to 95:<br/>$$2x + 5y \\leq 95$$"
+      "title": "Model the total cost",
+      "content": "Notebooks cost $2$ dollars each and pencil packs cost $5$ dollars each, so the total cost is $2x+5y$. Not over $95$ dollars means<br/>$$2x+5y\\le95$$"
     },
     {
-      "title": "Match against the choices",
-      "content": "The system is $x + y \\geq 25$ together with $2x + 5y \\leq 95$.<ul><li><strong>$x + y \\ge 25$ and $2x + 5y \\le 95$</strong>: $x+y \\ge 25$ and $2x+5y \\le 95$ &mdash; matches both inequalities exactly. Correct.</li><li><strong>$x + y \\ge 25$ and $2x + 5y \\ge 95$</strong>: $x+y \\ge 25$ and $2x+5y \\ge 95$ &mdash; reverses the cost inequality, allowing orders that exceed 95 dollars. Eliminated.</li><li><strong>$x + 5y \\le 25$ and $x + y \\ge 95$</strong>: $x+5y \\le 25$ and $x+y \\ge 95$ &mdash; mixes up the coefficients and reverses both directions. Eliminated.</li><li><strong>$x + y \\le 25$ and $2x + 5y \\ge 95$</strong>: $x+y \\le 25$ and $2x+5y \\ge 95$ &mdash; reverses both inequalities, so it caps the count and requires a minimum cost. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose the system",
+      "content": "The model is<br/>$$x+y\\ge25\\quad\\text{and}\\quad2x+5y\\le95$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

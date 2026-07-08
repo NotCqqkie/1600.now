@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the x-intercept shortcut",
-      "content": "The graph represents all combinations of M-type stars and K-type stars with total mass $127{,}882$ quettagrams. At the $x$-intercept, $y=0$, so there are no K-type stars. That means the whole mass is coming only from the M-type stars."
+      "title": "Use the horizontal intercept",
+      "content": "At the $x$-intercept of the graph, $y=0$, so there are no K-type stars. The total mass is then made only by the M-type stars."
     },
     {
-      "title": "Divide total mass by the intercept",
-      "content": "Read the $x$-intercept from the graph. It is a little less than $160$, about $158$. If $m$ is the mass of each M-type star, then:<br/>$$158m\\approx127{,}882$$<br/>$$m\\approx\\frac{127{,}882}{158}\\approx809.4$$"
+      "title": "Divide by the star count",
+      "content": "From the graph, the $x$-intercept is about $158$. If $m$ is the estimated mass of each M-type star, then the total mass divided by the number of M-type stars gives $m$:<br/>$$158m=127{,}882$$<br/>$$m=\\frac{127{,}882}{158}=809.4$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The computed mass is closest to $811$, so <strong>Choice A &mdash; $811$</strong>."
+      "title": "Choose the closest mass",
+      "content": "The computed mass, $809.4$ quettagrams, is closest to $811$ quettagrams among the listed choices. The answer is <strong>A</strong>."
     }
   ]
 }

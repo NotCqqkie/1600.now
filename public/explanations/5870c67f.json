@@ -1,0 +1,15 @@
+{
+  "questionId": "5870c67f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the adjective phrase",
+      "content": "The phrase \"Fictional yet realistic\" must describe the noun that immediately follows it. In context, the fictional yet realistic things are the personas, not the details, designers, or actual users."
+    },
+    {
+      "title": "Reject dangling modifiers",
+      "content": "B makes specific details the subject, C makes UX designers the subject, and D makes actual users the subject. None of those nouns are fictional personas, so each would make the opening modifier attach to the wrong thing. The subject after the modifier must be the personas themselves. The answer is <strong>A</strong>."
+    }
+  ]
+}

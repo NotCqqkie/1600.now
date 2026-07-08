@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Test both inequalities",
-      "content": "A solution must satisfy both $y\\le 2x$ and $y\\le -2x$."
+      "content": "A solution must satisfy both inequalities:\n$$\ny\\leq 2x\n$$\nand\n$$\ny\\leq -2x\n$$"
     },
     {
-      "title": "Check the correct pair",
-      "content": "For $(0,-2)$, the first inequality gives $-2\\le2(0)$, or $-2\\le0$, which is true. The second gives $-2\\le -2(0)$, or $-2\\le0$, which is also true."
+      "title": "Check the matching pair",
+      "content": "For $(0,-2)$, substitute $x=0$ and $y=-2$:\n$$\n-2\\leq 2(0)\n$$\nand\n$$\n-2\\leq -2(0)\n$$\nBoth simplify to $-2\\leq 0$, which is true."
     },
     {
-      "title": "Eliminate the others",
-      "content": "$(2,0)$ fails $y\\le -2x$, $(-2,0)$ fails $y\\le 2x$, and $(0,2)$ fails both. Therefore <strong>D</strong> is correct."
+      "title": "Match the solution",
+      "content": "The ordered pair $(0,-2)$ is Choice D. The answer is <strong>D</strong>."
     }
   ]
 }

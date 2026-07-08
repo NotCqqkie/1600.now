@@ -1,0 +1,15 @@
+{
+  "questionId": "32f7278d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertical angles",
+      "content": "In the figure, angles $w$ and $x$ are opposite angles formed by two intersecting lines. Opposite angles like these are vertical angles."
+    },
+    {
+      "title": "Use equality of angles",
+      "content": "Vertical angles have equal measures, so $x=w$. Given $w=112$, it follows that $x=112$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8b453426",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the confirmation",
+      "content": "The first sentence says Laurent intended <em>Fountain</em> to challenge ideas about art. The next sentence says the sculpture <em>did just that</em>, so it confirms and emphasizes the previous claim."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "A signals replacement or contrast, B adds a separate point, and C compares similar things. The relationship here is confirmation: the sculpture accomplished the challenge that Laurent intended. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a punctuation question testing supplementary elements set off by paired dashes. The phrase &quot;the cellular organs that generate energy from light&quot; is a supplementary (non-essential) appositive defining &quot;chloroplasts.&quot; A dash already follows that phrase, so the blank must supply an opening dash to form the required pair."
+      "title": "Open the definition",
+      "content": "The phrase <em>the cellular organs that generate energy from light</em> defines chloroplasts. A dash already follows that defining phrase, so the blank needs matching punctuation before it."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;chloroplasts&rsquo;</strong>: no punctuation at all. Fails to open the supplementary element, leaving the appositive unseparated from the noun and the sentence grammatically incoherent. &#10007;</li><li><strong>Choice B &mdash; &lsquo;chloroplasts;&rsquo;</strong>: uses a semicolon. A semicolon cannot pair with a dash to bracket a supplementary element; semicolons join independent clauses. &#10007;</li><li><strong>Choice C &mdash; &lsquo;chloroplasts,&rsquo;</strong>: uses a comma. A comma cannot pair with a dash to set off a supplementary element; the punctuation on both sides of the appositive must match. &#10007;</li><li><strong>Choice D &mdash; &lsquo;chloroplasts—&rsquo;</strong>: uses an opening dash. Correctly pairs with the existing dash after &quot;from light&quot; to bracket the supplementary appositive, conforming to Standard English conventions. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Match the closing dash",
+      "content": "Choice A leaves the definition unmarked. Choice B uses a semicolon, which cannot pair with the later dash. Choice C uses a comma, creating mismatched punctuation. The remaining choice supplies the opening dash for the appositive. The answer is <strong>D</strong>."
     }
   ]
 }

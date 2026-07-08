@@ -1,0 +1,19 @@
+{
+  "questionId": "993c60df",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find point L",
+      "content": "The circle has center $(0,0)$ and radius $3$, so its equation is $x^2+y^2=9$. For $L=(-3,y)$,\n$$(-3)^2+y^2=9$$\n$$9+y^2=9$$\n$$y=0$$"
+    },
+    {
+      "title": "Use opposite endpoints",
+      "content": "Point $J=(3,0)$ and point $L=(-3,0)$ are opposite endpoints of a diameter. The central angle between them is $\\pi$ radians."
+    },
+    {
+      "title": "Allow full rotations",
+      "content": "A positive angle with the same terminal side can be written as an odd multiple of $\\pi$.\n$$\\pi+2\\pi k=(2k+1)\\pi$$\nAmong the choices, $43\\pi$ is an odd multiple of $\\pi$. The answer is <strong>D</strong>."
+    }
+  ]
+}

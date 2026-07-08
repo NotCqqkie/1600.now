@@ -1,0 +1,19 @@
+{
+  "questionId": "f58179c2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero from the point",
+      "content": "The point $(-3,0)$ is on the graph, so $x=-3$ is a zero of $f$. In\n$$\nf(x)=(x-5)(x-9)(x+k)\n$$\nthe zero from the last factor is $x=-k$."
+    },
+    {
+      "title": "Find the constant",
+      "content": "Set the last factor equal to $0$ at $x=-3$:\n$$\n-3+k=0\n$$\nSo $k=3$."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $x=0$ and $k=3$:\n$$\nf(0)=(0-5)(0-9)(0+3)=(-5)(-9)(3)=135\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

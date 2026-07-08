@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question. The blank must complete the clause '______ astronauts to maintain the telescope can be expensive.' The word 'as' signals a causal explanation: the blank must describe the relationship with astronauts that makes maintenance costly."
+      "title": "Complete the cost logic",
+      "content": "The text explains that astronauts have had to repair Hubble and that robots would be helpful because using astronauts for maintenance is expensive. The blank must describe depending on astronauts for that work."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;straightening&rsquo;</strong>: 'Straightening astronauts' has no coherent meaning in context &mdash; it would mean physically aligning them, which is irrelevant to cost. &#10007;</li><li><strong>Choice B &mdash; &lsquo;forgetting about&rsquo;</strong>: 'Forgetting about astronauts' inverts the logic: the text is about continuing to depend on astronauts, not about neglecting them. &#10007;</li><li><strong>Choice C &mdash; &lsquo;relying on&rsquo;</strong>: 'Relying on astronauts' means depending on them for regular maintenance missions &mdash; and that ongoing dependence is exactly what makes the process expensive. Robots would eliminate this dependency. &#10003;</li><li><strong>Choice D &mdash; &lsquo;reducing&rsquo;</strong>: 'Reducing astronauts' most naturally means lowering them in status; nothing in the text suggests this or why it would be expensive. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject incoherent verbs",
+      "content": "A would mean physically aligning astronauts, which does not fit. B reverses the idea by suggesting neglecting astronauts. D does not idiomatically describe the maintenance relationship. The remaining phrase means depending on astronauts. The answer is <strong>C</strong>."
     }
   ]
 }

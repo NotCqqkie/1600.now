@@ -1,0 +1,15 @@
+{
+  "questionId": "610aaf89",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the genre totals",
+      "content": "The table values show puzzle games far ahead of the smaller genres, with platformer games next. Together, puzzle and platformer sales exceed the other listed genres."
+    },
+    {
+      "title": "Reject false pairings",
+      "content": "A says puzzle and sports were nearly equal, but puzzle is much larger. B says platformer and education were nearly equal, but platformer is larger. D pairs platformer with sports, which does not beat puzzle plus education. The answer is <strong>C</strong>."
+    }
+  ]
+}

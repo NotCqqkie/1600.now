@@ -1,0 +1,15 @@
+{
+  "questionId": "dc37525a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the move back to 1934",
+      "content": "The first two sentences describe the 2014 World Cup and explain that the event has expanded since the 1934 tournament. The final sentence gives the earlier state: in 1934, the event included only 16 teams. The transition must signal a shift back in time."
+    },
+    {
+      "title": "Check each transition",
+      "content": "<ul><li><strong>Choice A</strong>: Signals contrast, but the sentence mainly moves backward in time.</li><li><strong>Choice B</strong>: Signals cause and effect, but the 1934 tournament did not result from later expansion.</li><li><strong>Choice C</strong>: Signals that the sentence describes an earlier point in time.</li><li><strong>Choice D</strong>: Signals similarity, but the 1934 tournament was smaller than the later event.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

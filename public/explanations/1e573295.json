@@ -1,0 +1,15 @@
+{
+  "questionId": "1e573295",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central focus",
+      "content": "The text centers on women's contributions to cryptology. It introduces Clara Mae Benton as an important early contributor, lists her work and awards, and then connects her generation's role to later women such as Nadia Sokolova."
+    },
+    {
+      "title": "Rule out narrower claims",
+      "content": "Choice B only defines cryptology, which is a supporting detail. Choice C invents a joint project between Benton and Sokolova. Choice D adds a recommendation about teaching cryptology that the text never makes. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clauses needing connection",
-      "content": "The sentence contains two independent clauses at the blank. The first clause, “That the geographic center of North America lay in the state of North Dakota was conceded by all involved,” is a complete thought with main verb “was conceded.” The second clause, “establishing its precise coordinates proved more divisive,” is also complete with main verb “proved.”"
+      "title": "Join two complete clauses",
+      "content": "The sentence has two complete clauses: everyone conceded that North America's geographic center was in North Dakota, and establishing the exact coordinates proved more divisive. The blank must connect those independent clauses correctly."
     },
     {
-      "title": "Apply the independent clause rule",
-      "content": "A semicolon joins two independent clauses. A comma alone creates a comma splice, no punctuation creates a run-on sentence, and a colon is for elaboration or explanation, not a contrasting point. This confirms <strong>D</strong> is correct."
+      "title": "Choose the clause punctuation",
+      "content": "Choice A uses a spaced colon awkwardly before a contrasting independent clause. Choice B creates a comma splice. Choice C creates a run-on. The remaining choice uses a semicolon to join the two complete, closely related clauses. The answer is <strong>D</strong>."
     }
   ]
 }

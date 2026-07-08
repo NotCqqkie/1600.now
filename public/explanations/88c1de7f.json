@@ -1,0 +1,15 @@
+{
+  "questionId": "88c1de7f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the conclusion",
+      "content": "Romero and colleagues concluded that snowball sampling may be superior to purposive sampling for recruiting rural residents with the desired characteristics. A supporting finding must compare those two methods on that specific recruitment outcome."
+    },
+    {
+      "title": "Reject off-target findings",
+      "content": "A says recruits differed from initial participants, not that recruitment improved. B concerns prior study participation. D compares snowball sampling with untargeted contacting rather than purposive sampling. A direct finding that snowball sampling produced more qualifying participants supports the conclusion. The answer is <strong>C</strong>."
+    }
+  ]
+}

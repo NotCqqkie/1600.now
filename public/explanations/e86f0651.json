@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the circle area formula",
-      "content": "For any circle with radius $r$, we apply the standard area formula.",
+      "title": "Use the area formula",
+      "content": "The area of a circle with radius $r$ is given by the formula below.",
       "formula": "$$A = \\pi r^2$$"
     },
     {
-      "title": "Substitute the radius and compute",
-      "content": "With $r = 41$ meters:<br/>$$A = \\pi (41)^2$$<br/>Since $41^2 = 1,681$:<br/>$$A = 1,681\\pi$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Substitute the radius",
+      "content": "With radius $41$ meters, compute the area:<br/>$$A=\\pi(41)^2=1{,}681\\pi$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

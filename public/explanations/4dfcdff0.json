@@ -1,0 +1,19 @@
+{
+  "questionId": "4dfcdff0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed support",
+      "content": "The claim says some modern irrigation methods in the Southwest have a lineage that long predates Lake Marisol's completion in 1908. The quotation therefore must connect present-day irrigation methods or engineering principles to a much older source, not merely describe current irrigation or later growth."
+    },
+    {
+      "title": "Reject later or vague evidence",
+      "content": "Choice A describes sprinkler systems developed in the late 20th century, after Lake Marisol. Choice B only says irrigation infrastructure matters today. Choice C describes irrigation growth after World War II, which is also much later than 1908."
+    },
+    {
+      "title": "Use ancient continuity",
+      "content": "A 7th-century Hohokam system using hydraulic engineering design principles still used by today's engineers directly supports a long pre-1908 lineage for modern irrigation methods in the Southwest. The answer is <strong>D</strong>."
+    }
+  ]
+}

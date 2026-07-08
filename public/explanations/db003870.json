@@ -1,0 +1,15 @@
+{
+  "questionId": "db003870",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the axes",
+      "content": "The horizontal axis gives the beaver's weight in pounds, and the vertical axis gives the number of offspring."
+    },
+    {
+      "title": "Find the plotted point",
+      "content": "At $40$ pounds, the plotted point has vertical value $5$. That means the $40$-pound beaver produced $5$ offspring. The answer is <strong>A</strong>."
+    }
+  ]
+}

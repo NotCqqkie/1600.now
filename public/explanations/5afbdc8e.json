@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the circle area equal to the square area",
-      "content": "Set the circle area equal to the square area. Find the circle's area from $A=\\pi r^2$ with $r=3$, then set that equal to the square's area $s^2$."
+      "title": "Find the circle area",
+      "content": "Use the circle area formula with radius $3$:<br/>$$A=\\pi r^2=\\pi(3)^2=9\\pi$$"
     },
     {
-      "title": "Find the circle's area",
-      "content": "Use the circle area formula $A = \\pi r^2$ with radius $r = 3$:<br/>$$A_{\\text{circle}} = \\pi(3)^2 = 9\\pi$$"
-    },
-    {
-      "title": "Set up and solve for the square's side",
-      "content": "The square has the same area as the circle, so if $s$ is the side length:<br/>$$s^2 = 9\\pi$$<br/>Taking the square root of both sides:<br/>$$s = \\sqrt{9\\pi} = \\sqrt{9} \\cdot \\sqrt{\\pi} = 3\\sqrt{\\pi}$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Set equal areas",
+      "content": "Let $s$ be the side length of the square. Its area is $s^2$, and it equals the circle's area:<br/>$$s^2=9\\pi$$<br/>$$s=\\sqrt{9\\pi}=3\\sqrt{\\pi}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

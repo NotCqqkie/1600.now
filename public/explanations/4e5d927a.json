@@ -1,0 +1,15 @@
+{
+  "questionId": "4e5d927a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep Rostock essential",
+      "content": "The sentence needs the subject \"Hanseatic League member city Rostock\" before the verb \"was.\" The proper noun identifies which member city is being discussed, so it is essential information, not a removable aside."
+    },
+    {
+      "title": "Avoid commas in the subject",
+      "content": "A puts a comma between the subject and verb. B marks \"Rostock\" as nonessential and also creates a subject split. C starts the same nonessential structure but does not close it before the verb. No punctuation is needed between \"city\" and \"Rostock.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

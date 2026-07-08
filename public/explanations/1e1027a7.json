@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two points on the fit line",
-      "content": "The line of best fit passes near $(12,480)$ and $(24,880)$. These are approximate readings from the drawn line, not exact data points from the scatterplot."
-    },
-    {
       "title": "Estimate the slope",
-      "content": "Use the change in sales divided by the change in temperature: $$m\\approx\\frac{880-480}{24-12}=\\frac{400}{12}\\approx33.$$ So a reasonable equation should have slope about $33$."
+      "content": "Use two points the fit line appears to pass near: $t=12$, $d=480$, and $t=24$, $d=880$. These readings are approximate points from the drawn fit line. The slope calculation is<br/>$$\\frac{880-480}{24-12}=\\frac{400}{12}$$<br/>This is about $33$."
     },
     {
-      "title": "Find the intercept",
-      "content": "Use the point $(12,480)$ with $d=33t+b$: $$480=33(12)+b$$ $$480=396+b$$ $$b=84$$ Thus an equation of the line of best fit could be $d=33t+84$."
+      "title": "Estimate the intercept",
+      "content": "Use $d=33t+b$ with $t=12$ and $d=480$.<br/>$$480=33(12)+b$$<br/>$$480=396+b$$<br/>$$b=84$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice D &mdash; $d = 33t + 84$</strong> matches the estimated line of best fit $d=33t+84$. <strong>Choice C &mdash; $d = 33t + 300$</strong> has the right slope but an intercept that is much too high, and the remaining alternatives have slopes that are too small."
+      "title": "Match the model",
+      "content": "A reasonable line of best fit is $d=33t+84$. The answer is <strong>D</strong>."
     }
   ]
 }

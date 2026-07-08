@@ -1,0 +1,19 @@
+{
+  "questionId": "c4281d8b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat it as a quadratic",
+      "content": "Let $u=x^2$. Then the fourth-degree expression can be treated like a quadratic in $u$:\n$$\n15x^4+41x^2+28=15u^2+41u+28\n$$"
+    },
+    {
+      "title": "Factor the expression",
+      "content": "Factor the quadratic by finding factor pairs whose cross products add to $41u$:\n$$\n15u^2+41u+28=(3u+4)(5u+7)\n$$"
+    },
+    {
+      "title": "Substitute back",
+      "content": "Since $u=x^2$, the factors are\n$$\n(3x^2+4)(5x^2+7)\n$$\nThe factor $5x^2+7$ gives $a=5$ and $b=7$, so $ab=35$. The answer is <strong>D</strong>."
+    }
+  ]
+}

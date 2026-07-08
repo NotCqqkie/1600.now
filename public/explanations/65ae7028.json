@@ -1,0 +1,19 @@
+{
+  "questionId": "65ae7028",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify the exception",
+      "content": "The first sentence says scientists could isolate many elements shortly after discovering them, but this was not true for all elements. The next sentence should explain what happened in some of those exception cases: the isolation process took years."
+    },
+    {
+      "title": "Eliminate wrong transitions",
+      "content": "<ul><li><strong>Choice A</strong>, <em>However</em>, repeats the contrast already created by <em>but</em>.</li><li><strong>Choice C</strong>, <em>Thus</em>, would signal a result, but the long isolation process is not a consequence of the first sentence.</li><li><strong>Choice D</strong>, <em>Moreover</em>, adds a parallel point instead of narrowing the exception.</li></ul>"
+    },
+    {
+      "title": "Use a frequency signal",
+      "content": "<strong>Choice B</strong>, <em>Sometimes</em>, fits because it shows that in some cases, unlike the cadmium example, isolation took years. The helium example then illustrates one such case: discovered in 1868 but not isolated until 1895, after a long delay. The answer is <strong>B</strong>."
+    }
+  ]
+}

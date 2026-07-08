@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "The minimum weight decreased by 12 pounds",
-      "content": "The horse with the lowest recorded weight actually weighs 12 pounds less than recorded. This is the only change in the data."
+      "title": "Track the changed data point",
+      "content": "Only the smallest recorded weight changes. It decreases by $12$ pounds, so it remains the smallest value in the sorted list."
     },
     {
-      "title": "The median is position-based, not value-dependent",
-      "content": "With 17 horses, the median is the 9th value when the data is sorted in ascending order.<br/><br/>The horse with the lowest weight is in position 1. When we decrease its weight by 12 pounds, it remains in position 1-it is still the lowest weight.<br/><br/>The 9th position (where the median value sits) does not change, so the median itself does not change."
+      "title": "Use the median position",
+      "content": "With $17$ horses, the median is the $9$th value after sorting. Changing only the smallest value does not move the $9$th value, so the median remains the same."
     },
     {
-      "title": "Mean, range, and standard deviation all depend on values",
-      "content": "<ul><li><strong>Mean</strong> depends on the sum of all weights. Decreasing one weight by 12 decreases the sum by 12, so the mean decreases.</li><li><strong>Range</strong> = maximum - minimum. Decreasing the minimum by 12 increases the range by 12.</li><li><strong>Standard deviation</strong> measures the spread of data around the mean. Both the mean and the spread change, so the standard deviation changes.</li></ul>Only the median remains unchanged. That confirms <strong>B</strong> is correct."
+      "title": "Compare the other measures",
+      "content": "The mean changes because the total changes. The range changes because the minimum decreases. The standard deviation changes because the spread changes. The only listed value that remains the same is the median. The answer is <strong>B</strong>."
     }
   ]
 }

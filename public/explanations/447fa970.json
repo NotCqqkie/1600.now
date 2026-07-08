@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=6x+5$. When $x=5$, replace $x$ with $5$: $$f(5)=6(5)+5.$$"
+      "content": "Replace $x$ with $5$ in the function.\n$$\nf(5)=6(5)+5\n$$"
     },
     {
-      "title": "Evaluate",
-      "content": "$6(5)=30$, and $30+5=35$. Therefore, the value of $f(x)$ when $x=5$ is <strong>35</strong>."
-    },
-    {
-      "title": "Check the meaning",
-      "content": "The question asks for the output of the function at $x=5$, not the value of $x$. The output is $35$."
+      "title": "Evaluate the function",
+      "content": "Multiply first, then add.\n$$\n6(5)+5=30+5=35\n$$\nThe answer is <strong>35</strong>."
     }
   ]
 }

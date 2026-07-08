@@ -1,0 +1,15 @@
+{
+  "questionId": "be589e07",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on fossil timing",
+      "content": "The debate is about whether ancient pandas first emerged in Asia or Europe. The Bulgarian teeth are European, but they are relatively recent among European panda fossils, some of which are more than 10 million years old."
+    },
+    {
+      "title": "Limit the inference",
+      "content": "Choice A claims an Asian origin without evidence. Choice B wrongly treats recent teeth as proof of a later European origin. Choice C overreads a Bulgarian discovery as proof of European origin. A relatively recent fossil cannot resolve where pandas first emerged. The answer is <strong>D</strong>."
+    }
+  ]
+}

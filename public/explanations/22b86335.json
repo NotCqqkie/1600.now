@@ -1,0 +1,15 @@
+{
+  "questionId": "22b86335",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast",
+      "content": "Portugal requires voters to be at least 18, while Argentina allows citizens to vote at 16. The blank must signal that the second fact differs from the first."
+    },
+    {
+      "title": "Check the transition choices",
+      "content": "B would introduce an example, but Argentina's rule is not an example of Portugal's. C would start a sequence, and D would show a result, neither of which matches the relationship. The answer is <strong>A</strong>."
+    }
+  ]
+}

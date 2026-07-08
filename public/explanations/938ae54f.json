@@ -1,0 +1,15 @@
+{
+  "questionId": "938ae54f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the rate",
+      "content": "The expression $f(m)=28-4m$ gives the account balance after $m$ movies. The coefficient $-4$ means the balance decreases by $4$ dollars for each movie rented."
+    },
+    {
+      "title": "Use the withdrawn amount",
+      "content": "The question asks for the amount withdrawn each time, so use the positive amount $4$, not the negative change in balance. The answer is <strong>B</strong>."
+    }
+  ]
+}

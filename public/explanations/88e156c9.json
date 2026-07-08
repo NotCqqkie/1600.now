@@ -1,0 +1,15 @@
+{
+  "questionId": "88e156c9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match reception to earnings",
+      "content": "The journalist claims that a quality signal such as Oscar recognition can boost long-term success despite a modest opening weekend. The needed evidence should compare an Oscar-recognized film with a smaller opening weekend but higher lifetime earnings than a nonrecognized film."
+    },
+    {
+      "title": "Remove weaker film comparisons",
+      "content": "A contradicts the claim because the nonrecognized film had higher lifetime earnings. C compares two Oscar-recognized films, so it does not isolate the effect of recognition. D compares two films that were not recognized by the Oscars. The remaining comparison fits the claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

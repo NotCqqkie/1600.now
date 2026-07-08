@@ -1,0 +1,15 @@
+{
+  "questionId": "72ed53b6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match subject and tense",
+      "content": "The subject is the Wheeling National Heritage Area, a singular noun phrase. The sentence describes what that area currently is, and the phrase has long been known also points to a continuing present state."
+    },
+    {
+      "title": "Reject tense and agreement errors",
+      "content": "A uses past tense, which does not fit the current description. C is plural and disagrees with the singular subject. D uses future perfect for a present fact. The remaining choice is singular present tense. The answer is <strong>B</strong>."
+    }
+  ]
+}

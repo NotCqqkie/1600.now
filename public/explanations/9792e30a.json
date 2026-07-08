@@ -1,0 +1,19 @@
+{
+  "questionId": "9792e30a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sign pattern",
+      "content": "The function $f(x)=(x-a)(x-b)$ opens upward, so it is positive outside its two roots and negative between them."
+    },
+    {
+      "title": "Place the two roots",
+      "content": "The values are positive at $12$, negative at $15$, and positive at $18$. Therefore, one integer root must be between $12$ and $15$, and the other must be between $15$ and $18$."
+    },
+    {
+      "title": "Test the possible sums",
+      "content": "The possible integer roots are $13$ or $14$ for the first interval and $16$ or $17$ for the second interval:<br/>$$13+16=29,\\quad 13+17=30,\\quad 14+16=30,\\quad 14+17=31$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

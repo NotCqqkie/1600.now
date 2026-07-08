@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the explicit goal",
-      "content": "The prompt directly states the task: “indicate the title of a novel that won a Nebula Award.” Success requires naming the specific novel AND stating the award."
+      "title": "Match the student's goal",
+      "content": "The goal is to indicate the title of a novel that won a Nebula Award. The sentence must name the novel and connect it directly to the award."
     },
     {
-      "title": "Match to the goal",
-      "content": "The correct answer directly accomplishes this by naming Babel-17 and explicitly stating it “won a Nebula Award” in 1967.<br/><br/>The other three either hide the novel's title, avoid naming the award specifically, or use vague language like “among the best works” instead of directly stating the Nebula Award.<br/><br/>That is the correct answer."
+      "title": "Reject vague alternatives",
+      "content": "Choice B gives only a publication fact. Choice C describes Brooks generally. Choice D avoids both the specific title and the named award."
+    },
+    {
+      "title": "Name title and award",
+      "content": "Choice A names <em>Babel-17</em> and states that it won a Nebula Award in 1967, exactly satisfying the goal. The answer is <strong>A</strong>."
     }
   ]
 }

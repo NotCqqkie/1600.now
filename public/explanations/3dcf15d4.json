@@ -1,0 +1,19 @@
+{
+  "questionId": "3dcf15d4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the diagonal",
+      "content": "Simplify the given diagonal length.\n$$\n\\frac{184\\sqrt{2}}{2}=92\\sqrt{2}\n$$"
+    },
+    {
+      "title": "Find the side length",
+      "content": "For a square with side length $s$, the diagonal is \n$$\ns\\sqrt{2}\n$$ Therefore,\n$$\ns\\sqrt{2}=92\\sqrt{2}\n$$\n$$\ns=92\n$$"
+    },
+    {
+      "title": "Square the side length",
+      "content": "The area of a square is the side length squared.\n$$\n92^2=8{,}464\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

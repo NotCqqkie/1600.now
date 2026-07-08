@@ -1,0 +1,19 @@
+{
+  "questionId": "ed400904",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept occurs where $x=0$, so evaluate $f(0)$."
+    },
+    {
+      "title": "Substitute into the function",
+      "content": "Substitute $0$ for $x$ in the function to get the needed output.<br/>$$f(0)=9(0)+24$$"
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "Now simplify the expression. This gives the coordinate asked for, because only the output is needed.<br/>$$f(0)=24$$ The answer is <strong>24</strong>."
+    }
+  ]
+}

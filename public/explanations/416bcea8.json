@@ -1,0 +1,15 @@
+{
+  "questionId": "416bcea8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the rating definition",
+      "content": "The conclusion is about which study better explained the methodology. The passage defines traceability as clarity in describing procedures, so traceability is the relevant rating."
+    },
+    {
+      "title": "Challenge traceability",
+      "content": "Choice B supports the conclusion. Choice C is about category consistency, not how well the methodology was explained. Choice D gives only Richter-Klein's ratings without comparing Vogel's traceability. A lower traceability rating for Vogel would directly challenge the conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

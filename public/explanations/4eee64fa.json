@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's main content",
-      "content": "The passage reports specific findings from an experiment: what <strong>happened</strong> to plants exposed to lunar regolith (stunted roots, stress symptoms, molecular evidence). It presents <strong>findings</strong>, not unresolved questions, methodological comparisons, or failed attempts."
+      "title": "Focus on the study findings",
+      "content": "The text describes an experiment comparing seeds planted in lunar regolith with seeds planted in terrestrial soil. It then reports the results: all seeds germinated, but the regolith-grown plants showed stunted roots and stress indicators."
     },
     {
-      "title": "Apply to the answer choices",
-      "content": "The matching choice states exactly what the text does: discusses findings of a study evaluating the effects of lunar soil on plants.<br/><br/>The other three misidentify the purpose: <ul><li>A frames it as addressing a question about soil resemblance</li><li>B treats it as comparing assessment methods rather than reporting results</li><li>C contradicts the passage by claiming germination is unattainable when it explicitly succeeded</li></ul><br/><br/><strong>D</strong> is correct."
+      "title": "Reject unsupported purposes",
+      "content": "Choice A invents a question about how lunar regolith resembles terrestrial soil. Choice B turns the text into a comparison of assessment methods. Choice C contradicts the successful germination. The text's purpose is to discuss findings about plant exposure to lunar soil conditions. The answer is <strong>D</strong>."
     }
   ]
 }

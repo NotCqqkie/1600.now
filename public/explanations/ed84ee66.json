@@ -1,0 +1,15 @@
+{
+  "questionId": "ed84ee66",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the missing verb",
+      "content": "The subject is the plural noun phrase \"Puerto Rico's museums.\" The sentence needs a finite main verb that agrees with that plural subject."
+    },
+    {
+      "title": "Rule out nonfinite forms",
+      "content": "A is an infinitive, B is a participle phrase, and D is a present participle; none can serve as the main verb by itself. The base present-tense verb agrees with plural \"museums\" and completes the sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

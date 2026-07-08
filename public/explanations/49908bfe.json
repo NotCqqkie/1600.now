@@ -1,0 +1,15 @@
+{
+  "questionId": "49908bfe",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the species name",
+      "content": "The italicized name <em>Doleschallia bisaltide</em> immediately identifies which species the specimen belongs to. Because the name is essential identification, it should attach directly to the noun <em>species</em>."
+    },
+    {
+      "title": "Keep the identifier attached",
+      "content": "Choice B incorrectly uses a semicolon before a name, Choice C uses an unnecessary colon, and Choice D treats the name as nonessential with a comma. A restrictive identifier should not be separated from the noun it identifies. The answer is <strong>A</strong>."
+    }
+  ]
+}

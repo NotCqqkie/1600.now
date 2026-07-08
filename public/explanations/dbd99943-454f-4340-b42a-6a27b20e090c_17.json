@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what comes before and after the blank",
-      "content": "Before the blank: <em>\"contains three signature elements of Gwendolyn Brooks's poetic ___\"</em> — a complete independent clause announcing a list. After the blank: three list items beginning with \"terse,\". A colon is the conventional mark that introduces a list or elaboration after a complete independent clause.<ul><li><strong>\"style. Terse,\"</strong>: A period ends the sentence, leaving \"Terse, compressed lines...\" as a fragment with no main verb. &#10007;</li><li><strong>\"style, terse,\"</strong>: A comma alone joining a clause to a list creates a comma splice; no list-signaling punctuation. &#10007;</li><li><strong>\"style: terse,\"</strong>: A colon after the independent clause correctly introduces the three-item list that follows. &#10003;</li><li><strong>\"style; terse,\"</strong>: A semicolon must separate two independent clauses; \"terse, compressed lines...\" is not an independent clause. &#10007;</li></ul>"
+      "title": "Introduce the list",
+      "content": "The sentence says the poem contains three signature elements of Brooks's poetic style. The words after the blank name those elements: terse compressed lines, syncopated rhythms, and keen attention to everyday life. A colon is appropriate because it introduces the list."
     },
     {
-      "title": "Apply the colon rule",
-      "content": "Colon = complete clause before, list or elaboration after. The blank sits exactly at that boundary. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate boundary errors",
+      "content": "Choice A uses a period, leaving \"Terse compressed lines\" as a fragment. Choice B uses only commas, which do not clearly introduce the list. Choice D uses a semicolon before a list rather than after an independent clause. The colon after \"style\" correctly introduces the three elements. The answer is <strong>C</strong>."
     }
   ]
 }

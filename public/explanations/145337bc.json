@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the triangle type",
-      "content": "The figure shows a right triangle with both acute angles labeled $45^{\\circ}$. A right triangle with two equal acute angles is an isosceles right triangle."
+      "title": "Recognize equal legs",
+      "content": "The figure shows a right triangle with two $45^\\circ$ angles. A $45$-$45$-$90$ triangle has equal legs."
     },
     {
-      "title": "Use equal legs",
-      "content": "In an isosceles right triangle, the two legs have equal length. One leg is labeled $24$ and the other leg is labeled $x$, so $x=24$. That matches <strong>Choice A &mdash; $24$</strong>."
+      "title": "Match the leg lengths",
+      "content": "One leg is labeled $24$, and the other leg is labeled $x$. Since the legs are equal, $x=24$. The answer is <strong>A</strong>."
     }
   ]
 }

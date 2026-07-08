@@ -1,0 +1,19 @@
+{
+  "questionId": "7138109b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$"
+    },
+    {
+      "title": "Substitute the center",
+      "content": "The center is $(11,17)$, so the left side is<br/>$$(x-11)^2+(y-17)^2$$"
+    },
+    {
+      "title": "Square the radius",
+      "content": "The radius is $6k$, so the right side must be<br/>$$(6k)^2=36k^2$$<br/>Thus the equation is<br/>$$(x-11)^2+(y-17)^2=36k^2$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

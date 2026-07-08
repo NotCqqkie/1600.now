@@ -1,0 +1,15 @@
+{
+  "questionId": "05721779",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep subject with verb",
+      "content": "The subject is \"Puerto Rico's museums,\" and the verb is \"showcase.\" Standard English does not place punctuation between a subject and its verb when no interrupting phrase is present."
+    },
+    {
+      "title": "Reject separating punctuation",
+      "content": "B inserts a dash between the subject and verb, C inserts a comma, and D inserts a colon. Each incorrectly breaks the subject-verb connection. The answer is <strong>A</strong>."
+    }
+  ]
+}

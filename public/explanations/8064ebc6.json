@@ -1,0 +1,19 @@
+{
+  "questionId": "8064ebc6",
+  "correctAnswer": "-20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Multiply the equation by $80cx$ to remove denominators.<br/>$$80=cx^2+80x$$<br/>$$cx^2+80x-80=0$$"
+    },
+    {
+      "title": "Use one solution",
+      "content": "A quadratic has exactly one solution when its discriminant is $0$. For $cx^2+80x-80=0$, use $a=c$, $b=80$, and $c_0=-80$ to avoid confusing the coefficient name with the constant term.<br/>$$80^2-4(c)(-80)=0$$"
+    },
+    {
+      "title": "Solve the discriminant",
+      "content": "Simplify and isolate the constant.<br/>$$6{,}400+320c=0$$<br/>$$320c=-6{,}400$$<br/>$$c=-20$$<br/>The answer is <strong>-20</strong>."
+    }
+  ]
+}

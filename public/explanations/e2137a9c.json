@@ -1,0 +1,19 @@
+{
+  "questionId": "e2137a9c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up total costs",
+      "content": "Let $x$ be the total cost to build square tables, and let $y$ be the total cost to build hexagonal tables. The total cost equation is:\n$$x+y=28{,}000$$\nThe total revenue equation is:\n$$2x+2.5y=67{,}200$$"
+    },
+    {
+      "title": "Solve the system",
+      "content": "From the cost equation, $x=28{,}000-y$. Substitute into the revenue equation:\n$$2(28{,}000-y)+2.5y=67{,}200$$\n$$56{,}000-2y+2.5y=67{,}200$$\n$$0.5y=11{,}200$$\n$$y=22{,}400$$\nThen:\n$$x=28{,}000-22{,}400=5{,}600$$"
+    },
+    {
+      "title": "Compare the revenues",
+      "content": "Compute each revenue and subtract:\n$$2.5(22{,}400)=56{,}000$$\n$$2(5{,}600)=11{,}200$$\n$$56{,}000-11{,}200=44{,}800$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

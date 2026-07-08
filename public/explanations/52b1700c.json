@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the initial amount",
-      "content": "At $t=0$, the account has $604.00$, so the exponential model must start with $604$:<br/>$$n=604(\\text{growth factor})^t$$"
+      "title": "Use the starting amount",
+      "content": "At $t=0$, the account contains $604.00$, so the exponential model starts with $604$."
     },
     {
-      "title": "Find the yearly growth factor",
-      "content": "From $t=0$ to $t=1$, the amount changes from $604.00$ to $606.42$:<br/>$$\\frac{606.42}{604}=1.004$$<br/>Thus the model is $$n=604(1.004)^t=604(1+0.004)^t.$$"
+      "title": "Find the growth factor",
+      "content": "The one-year growth factor is\n$$\n\\frac{606.42}{604}=1.004\n$$"
     },
     {
-      "title": "Choose the match",
-      "content": "$n=604(1+0.004)^t$ matches the correct answer, so <strong>C</strong> is correct."
+      "title": "Write the exponential model",
+      "content": "Use initial value $604$ and growth factor $1+0.004$:\n$$\nn=604(1+0.004)^t\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

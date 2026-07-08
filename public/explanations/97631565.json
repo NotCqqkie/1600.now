@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the sample proportion",
-      "content": "In Jordan's random sample of 25 employees, 20 are enrolled in exactly three professional development courses. The proportion is $$\\frac{20}{25}=0.8.$$"
+      "content": "In the sample, $20$ out of $25$ employees are enrolled in exactly three courses:\n$$\n\\frac{20}{25}=0.8\n$$"
     },
     {
-      "title": "Scale to the full population",
-      "content": "Multiply the sample proportion by the total 500 employees: $$0.8\\times 500=400.$$ So the best estimate is 400 employees."
+      "title": "Scale to all employees",
+      "content": "Use the same proportion for the full company of $500$ employees:\n$$\n0.8\\cdot 500=400\n$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) 5 &mdash; this is far too small; 5 is the number not enrolled in the sample, not a scaled estimate. Eliminate.</li><li>B) 400 &mdash; matches $0.8\\times 500=400$. Keep.</li><li>C) 475 &mdash; would require a sample proportion of $475/500=0.95$, not $0.8$. Eliminate.</li><li>D) 480 &mdash; would require a sample proportion of $480/500=0.96$, not $0.8$. Eliminate.</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Match the estimate",
+      "content": "The best estimate is $400$ employees. The answer is <strong>B</strong>."
     }
   ]
 }

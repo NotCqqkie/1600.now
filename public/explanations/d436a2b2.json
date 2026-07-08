@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the sentence must show",
-      "content": "The goal is to emphasize how few of the park's islands have Komodo dragons. A strong emphasis requires both numbers (4 dragons-islands out of 29 total) and a word that signals scarcity."
+      "title": "Emphasize the proportion",
+      "content": "The student wants to emphasize how many islands in the park have Komodo dragons. The useful notes are that the park has twenty-nine islands and that Komodo dragons live on four of them."
     },
     {
-      "title": "Test each choice against the requirement",
-      "content": "<ul><li><strong>\"Komodo dragons, the world's largest lizards, live on islands in Komodo National Park, Indonesia.\"</strong>: Confirms that dragons live on islands, but gives no specific numbers and no sense of how rare that is. &#10007;</li><li><strong>\"The largest lizards in the world are found in Komodo National Park.\"</strong>: Identifies the lizards' size record but omits the island count entirely. &#10007;</li><li><strong>\"Only four of the twenty-nine islands in Komodo National Park have Komodo dragons living on them.\"</strong>: Uses \"only\" to signal scarcity and supplies both numbers, making the proportion concrete and emphatic. &#10003;</li><li><strong>\"There are twenty-nine islands in Indonesia's Komodo National Park.\"</strong>: Gives the total island count but drops the dragon count, so no comparison or emphasis is possible. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Include both numbers",
+      "content": "Choice A and choice B omit the number of islands with Komodo dragons. Choice D gives the total number of islands but omits the dragons. The statement using \"only four of the twenty-nine\" directly emphasizes the small proportion. The answer is <strong>C</strong>."
     }
   ]
 }

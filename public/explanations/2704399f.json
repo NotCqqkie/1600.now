@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection point from the graph",
-      "content": "The solution to a system is the point where the two graphs intersect. From the graph, the intersection is $\\left(\\frac{3}{2},0\\right)$."
+      "title": "Read the intersection",
+      "content": "The solution to a graphed system is the point where the graphs intersect. From the graph, the intersection is $(\\frac{3}{2}{,}0)$."
     },
     {
-      "title": "Match the coordinates to the equations",
-      "content": "A system with solution $\\left(\\frac{3}{2},0\\right)$ must have $x=\\frac{3}{2}$ and $y=0$. That matches <strong>Choice A &mdash; $y = 0$ and $x = \\frac{3}{2}$</strong>."
+      "title": "Match the coordinates",
+      "content": "A system with that solution must force $x=\\frac{3}{2}$ and $y=0$. The answer is <strong>A</strong>."
     }
   ]
 }

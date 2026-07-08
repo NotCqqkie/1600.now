@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the key contrast data",
-      "content": "The goal requires contrasting emissivity between the two materials. The notes provide specific emissivity values (0.02 vs. 0.74) that reveal the dramatic difference. An effective contrast must place these comparable numbers side by side, not just acknowledge that a difference exists."
+      "title": "Compare the emissivity values",
+      "content": "The task asks for a contrast between reflective metal fibers and silicon carbide fibers. The notes provide the key comparison: reflective metal fibers had very low emissivity, while silicon carbide fibers had much higher emissivity."
     },
     {
-      "title": "Match to the choices",
-      "content": "The correct answer juxtaposes the emissivity values in a <em>Whereas</em> structure, making the contrast stark and clear. The others lack the combination of specific values and a strong contrast structure. <strong>D</strong> is correct."
+      "title": "Reject weak comparisons",
+      "content": "Choice A names emissivity without contrasting the values. Choice B states a general rule instead of comparing the fibers. Choice C mentions different rates but shifts attention to the garment. The sentence with both values makes the contrast clear. The answer is <strong>D</strong>."
     }
   ]
 }

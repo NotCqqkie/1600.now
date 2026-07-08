@@ -1,0 +1,15 @@
+{
+  "questionId": "9fca0496",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x to zero",
+      "content": "A <em>y</em>-intercept occurs when $x=0$. Substitute $0$ into $y=12^{x+3}$.\n$$\ny=12^{0+3}\n$$"
+    },
+    {
+      "title": "Evaluate the intercept",
+      "content": "Simplify the exponent and compute the value.\n$$\n12^3=1{,}728\n$$\nThe intercept is $(0,1{,}728)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9dfb9aa5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast looks with formation",
+      "content": "The first sentence says the two volcanoes may look similar from afar. The second sentence says volcanologists can still tell by their formation that they are different volcano types. The transition must signal concession: despite the similarity, experts can distinguish them."
+    },
+    {
+      "title": "Reject additive transitions",
+      "content": "Choice A adds information without marking the contrast. Choice B falsely suggests the expert conclusion follows as a result of the similar appearance. Choice C would introduce an example, but the second sentence makes a contrasting point. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6459a100",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the release date",
+      "content": "The student wants to indicate when the board game was released. The relevant note is that <em>Arkham Horror</em> was released in 2005; details about the designer or source material do not answer the timing goal."
+    },
+    {
+      "title": "Match the sentence to the goal",
+      "content": "<ul><li><strong>Choice A</strong>: Identifies the designer, not the release date.</li><li><strong>Choice B</strong>: States that the game was released in 2005.</li><li><strong>Choice C</strong>: Describes the game's source material, not when it came out.</li><li><strong>Choice D</strong>: Names Lovecraft's writing as the inspiration, not the release date.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use same-side interior angles",
+      "content": "Lines $m$ and $n$ are parallel. The angle labeled $x$ and the angle labeled $26^\\circ$ are same-side interior angles formed by a transversal, so they are supplementary."
     },
     {
-      "title": "Identify the angle relationship",
-      "content": "Since lines $m$ and $n$ are parallel and line $\\ell$ is a transversal cutting through both, the angles $x^{\\circ}$ and $26^{\\circ}$ are on the same side of the transversal and between the parallel lines.<br/><br/>These are <strong>co-interior angles</strong> (also called consecutive interior angles or same-side interior angles)."
-    },
-    {
-      "title": "Apply the co-interior angle theorem and solve",
-      "content": "When a transversal crosses two parallel lines, co-interior angles are supplementary—they sum to $180^{\\circ}$:<br/>$$x + 26 = 180$$<br/>$$x = 154$$<br/>That is the correct answer."
+      "title": "Solve the angle equation",
+      "content": "Supplementary angles add to $180^\\circ$, so set up and solve the equation:<br/>$$x+26=180$$<br/>$$x=154$$<br/>This value matches the requested angle measure. The answer is <strong>D</strong>."
     }
   ]
 }

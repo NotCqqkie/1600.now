@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the core requirement",
-      "content": "The goal is explicit: provide an example of a fruit that contains vitamin C. This demands naming a specific fruit—not just mentioning “fruits” in general—and connecting it to vitamin C."
+      "title": "Name a fruit with vitamin C",
+      "content": "The goal is to provide an example of a fruit containing vitamin C. The sentence therefore needs to name a specific fruit and connect it to vitamin C."
     },
     {
-      "title": "Select the choice that supplies the specific example",
-      "content": "B names pineapple and identifies it as containing vitamin C. The other three choices discuss the broader context of humans and vitamin C but fail to specify which fruit serves as the concrete example. <strong>B</strong> is correct."
+      "title": "Reject broad vitamin facts",
+      "content": "<ul><li><strong>Choice A</strong>: It mentions fruits generally but gives no specific fruit example.</li><li><strong>Choice C</strong>: It explains why humans need food sources, not which fruit contains vitamin C.</li><li><strong>Choice D</strong>: It compares humans and animals rather than naming a fruit.</li></ul>"
+    },
+    {
+      "title": "Use pineapple as the example",
+      "content": "The relevant sentence identifies vitamin C as ascorbic acid and names pineapple as a fruit that contains it. The answer is <strong>B</strong>."
     }
   ]
 }

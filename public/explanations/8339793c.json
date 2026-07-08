@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Reverse the coupon to find the original total cost",
-      "content": "The cost after applying the \\$56 coupon was \\$32. To find the original total before the coupon, we add the coupon amount back: $$32 + 56 = 88$$ The original total cost was \\$88."
+      "title": "Undo the coupon",
+      "content": "Add back the coupon.<br/>$$32+56=88$$"
     },
     {
-      "title": "Divide by the number of baskets to get the unit price",
-      "content": "Maya bought 8 laundry baskets, each at the same price. The original total was \\$88, so the price per basket is: $$\\frac{88}{8} = 11$$ The original price for one laundry basket was <strong>\\$11</strong>."
+      "title": "Divide by the baskets",
+      "content": "Divide by $8$.<br/>$$\\frac{88}{8}=11$$<br/>The answer is <strong>11</strong>."
     }
   ]
 }

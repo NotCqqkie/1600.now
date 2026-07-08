@@ -1,0 +1,15 @@
+{
+  "questionId": "bdae2002",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sine ratio",
+      "content": "In the right triangle, segment $AB$ is opposite the $57^\\circ$ angle, and $AC$ is the hypotenuse. Therefore\n$$\\sin(57^\\circ)=\\frac{AB}{AC}$$"
+    },
+    {
+      "title": "Solve for the segment",
+      "content": "The diagram uses $AC$ as the unit reference length, so $AC=1$.\n$$AB=AC\\cdot \\sin(57^\\circ)$$\n$$AB=\\sin(57^\\circ)$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

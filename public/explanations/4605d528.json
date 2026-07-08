@@ -1,0 +1,19 @@
+{
+  "questionId": "4605d528",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Both terms share a factor of $w^3$. Rewrite each term to make that common factor visible.\n$$w^4=w^3\\cdot w$$\n$$620w^3=w^3\\cdot 620$$"
+    },
+    {
+      "title": "Factor out the common part",
+      "content": "Take $w^3$ out of both terms. The first term leaves $w$, and the second term leaves $620$.\n$$w^4-620w^3=w^3(w-620)$$"
+    },
+    {
+      "title": "Check the expansion",
+      "content": "Expanding $w^3(w-620)$ gives $w^3\\cdot w-w^3\\cdot 620$, which simplifies to $w^4-620w^3$. That matches the original expression. The answer is <strong>D</strong>."
+    }
+  ]
+}

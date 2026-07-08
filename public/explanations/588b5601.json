@@ -1,0 +1,15 @@
+{
+  "questionId": "588b5601",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the source phrase",
+      "content": "The phrase 'according to legal researchers James Melton and Tom Ginsburg' interrupts between the subject 'Nepal's constitution' and the verb 'contains.' It should close with a comma before the sentence returns to the main clause."
+    },
+    {
+      "title": "Keep the names restrictive",
+      "content": "Choice A omits the closing comma after the researchers' names. Choices C and D add an unnecessary comma before the names, even though the names identify which legal researchers are meant. The remaining choice keeps the names attached to 'researchers' and closes the interruption correctly. The answer is <strong>B</strong>."
+    }
+  ]
+}

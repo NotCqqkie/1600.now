@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the two parts of the passage",
-      "content": "The passage first describes Reed embedding blue threads and muscovite into paper as anti-counterfeiting measures. The blank then introduces a completely separate technique: stamping notes with sage leaf imprints. The relationship is additive &mdash; a second independent method is being added."
+      "title": "Add another method",
+      "content": "The first sentence describes Reed using blue threads and muscovite to prevent counterfeiting. The second sentence introduces a separate anti-counterfeiting technique: stamping notes with detailed sage leaf imprints."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Specifically,</strong>: Signals that what follows is a specific detail or elaboration of the preceding idea &mdash; but the sage leaf technique is a distinct method, not a specification of the threading method. &#10007;</li><li><strong>Choice B &mdash; That said,</strong>: Signals a contrast or qualification &mdash; but the passage is adding another technique, not walking back or contrasting with the first. &#10007;</li><li><strong>Choice C &mdash; For example,</strong>: Signals that what follows is an instance of a category just mentioned &mdash; but the sage leaf technique is not an example of the threading method; it is a separate measure. &#10007;</li><li><strong>Choice D &mdash; Moreover,</strong>: Signals an additional point of the same kind &mdash; correct for introducing a second anti-counterfeiting technique alongside the first. &#10003;</li></ul>That matches <strong>Choice D &mdash; Moreover,</strong>."
+      "title": "Reject nonadditive signals",
+      "content": "A and C would make the sage-leaf stamps a specification or example of the thread-and-muscovite method, but they are a separate method. B signals contrast, though the ideas work together. The answer is <strong>D</strong>."
     }
   ]
 }

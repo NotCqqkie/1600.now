@@ -1,0 +1,15 @@
+{
+  "questionId": "ed14daba",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input value",
+      "content": "Use the definition of $g$ and replace $x$ with $16$:<br/>$$g(16)=\\frac{7}{8}(16)-\\frac{5}{8}$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the value using a common denominator:<br/>$$g(16)=14-\\frac{5}{8}=\\frac{112}{8}-\\frac{5}{8}=\\frac{107}{8}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

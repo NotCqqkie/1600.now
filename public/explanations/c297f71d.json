@@ -1,0 +1,23 @@
+{
+  "questionId": "c297f71d",
+  "correctAnswer": "300",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the graphed line equation",
+      "content": "From the graph, line $g$ passes through $(-10,12)$ and $(0,1)$. Its slope is<br/>$$\\frac{1-12}{0-(-10)}=-\\frac{11}{10}$$<br/>So an equation for line $g$ is<br/>$$y=-\\frac{11}{10}x+1$$"
+    },
+    {
+      "title": "Convert to standard form",
+      "content": "Rewrite the equation without fractions:<br/>$$y=-\\frac{11}{10}x+1$$<br/>$$10y=-11x+10$$<br/>$$11x+10y=10$$"
+    },
+    {
+      "title": "Match the identical line",
+      "content": "For infinitely many solutions, line $k$ must be the same line. Since $165x+py=w$ has $165=15\\cdot11$, multiply the whole equation for line $g$ by $15$:<br/>$$165x+150y=150$$"
+    },
+    {
+      "title": "Add the constants",
+      "content": "Thus $p=150$ and $w=150$, so<br/>$$p+w=150+150=300$$<br/>The answer is <strong>300</strong>."
+    }
+  ]
+}

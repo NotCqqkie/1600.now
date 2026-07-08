@@ -1,0 +1,15 @@
+{
+  "questionId": "99158a5a",
+  "correctAnswer": "252",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find who skipped workshop two",
+      "content": "First find how many attended the second workshop.\n$$0.70(2{,}400)=1{,}680$$\nSo the number who attended the first workshop but not the second is\n$$2{,}400-1{,}680=720$$"
+    },
+    {
+      "title": "Apply the final percent",
+      "content": "Of those $720$ people, $35\\%$ attended the third workshop.\n$$0.35(720)=252$$\nThe answer is <strong>252</strong>."
+    }
+  ]
+}

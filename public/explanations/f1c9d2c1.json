@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify Calder's claim",
-      "content": "In Text 1, Calder argues that Appia lacked technical expertise in the use of light in the theater."
+      "title": "Compare claims about expertise",
+      "content": "Calder claims Appia lacked technical expertise with theater lighting. Text 2 rejects that view, saying he was not an amateur and had apprenticed with a lighting specialist."
     },
     {
-      "title": "Find Text 2's counter",
-      "content": "Text 2 directly rejects this by saying Appia was \"not an amateur\" and points to his apprenticeship with a lighting specialist, where he observed portable lighting devices firsthand. That apprenticeship is the source of his technical expertise."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>\"Many lighting technicians dismissed Appia's ideas about light on the stage.\"</strong>: Text 2 never mentions technicians reacting to Appia; this is unsupported overreach. &#10007;</li><li><strong>\"Appia likely gained a level of technical expertise during his time as an apprentice.\"</strong>: directly mirrors Text 2's argument and rebuts Calder's claim. &#10003;</li><li><strong>\"Theater practitioners who worked with Appia greatly admired his work.\"</strong>: Text 2 says nothing about admiration from collaborators; off topic. &#10007;</li><li><strong>\"Appia was unfamiliar with the use of music and sound in theater.\"</strong>: the disagreement is about lighting, not music; introduces an irrelevant topic. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject off-topic responses",
+      "content": "A mentions technicians dismissing ideas, C mentions admiration, and D shifts to music and sound. Text 2 would point to Appia's apprenticeship as evidence of technical expertise. The answer is <strong>B</strong>."
     }
   ]
 }

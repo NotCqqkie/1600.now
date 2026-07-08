@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "The boundary line crosses the $y$-axis at $-35$ and rises steeply: rise/run = $25$, not $5$. So the boundary is $y = 25x - 35$. The shading is <em>above</em> the line, so $y \\gt $.<ul><li><strong>Choice A — $y \\gt 5x - 35$</strong>: wrong slope ($5$ instead of $25$). &#10007;</li><li><strong>Choice B — $y \\lt 5x - 35$</strong>: wrong slope and wrong direction. &#10007;</li><li><strong>Choice C — $y \\gt 25x - 35$</strong>: correct slope and correct direction (shading above). &#10003;</li><li><strong>Choice D — $y \\lt 25x - 35$</strong>: correct slope but wrong direction. &#10007;</li></ul><strong>C</strong> is correct."
+      "content": "The boundary line crosses the $y$-axis at $-35$ and rises steeply: rise/run = $25$, not $5$. So the boundary is $y = 25x - 35$. The shading is <em>above</em> the line, so $y \\gt $.<ul><li><strong>Choice A — $y \\gt 5x - 35$</strong>: wrong slope ($5$ instead of $25$). ✗</li><li><strong>Choice B — $y \\lt 5x - 35$</strong>: wrong slope and wrong direction. ✗</li><li><strong>Choice C — $y \\gt 25x - 35$</strong>: correct slope and correct direction (shading above). ✓</li><li><strong>Choice D — $y \\lt 25x - 35$</strong>: correct slope but wrong direction. ✗</li></ul><strong>C</strong> is correct."
     }
   ]
 }

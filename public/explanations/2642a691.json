@@ -1,0 +1,15 @@
+{
+  "questionId": "2642a691",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the line form",
+      "content": "A line with slope $m$ and intercept $b$ can be written as\n$$y=mx+b$$\nThe slope is $6$, and the point $(0,34)$ gives the intercept $b=34$."
+    },
+    {
+      "title": "Write the function",
+      "content": "Substitute $m=6$ and $b=34$.\n$$f(x)=6x+34$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

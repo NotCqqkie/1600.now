@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question tests punctuation conventions. The left side of the blank (\"The number of jams available for tasting varied\") is a complete independent clause. The right side (\"some shoppers had twenty-four different options, others only six\") elaborates on that variation. The blank must introduce that elaboration in a way that is grammatically correct."
+      "title": "Introduce the variation details",
+      "content": "The first part, the number of jams available for tasting varied, is a complete clause. The following words explain how the number varied: some shoppers had twenty-four options and others had six."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"varied:\"</strong>: A colon after an independent clause correctly introduces a list or elaboration. Here it sets up the explanation of how the number varied, which is its conventional use. &#10003;</li><li><strong>\"varied,\"</strong>: A comma alone joining two independent clauses creates a comma splice; no coordinating conjunction follows the comma to make the connection grammatical. &#10007;</li><li><strong>\"varied, while\"</strong>: The subordinating conjunction \"while\" signals contrast or simultaneity, but the clause that follows is not a contrasting or simultaneous event &mdash; it simply describes the variation. This produces an illogical sentence. &#10007;</li><li><strong>\"varied while\"</strong>: Same logical problem as C: \"while\" implies the variation in jam quantity happened at the same time as some shoppers having twenty-four options, but what follows is a description of the variation itself, not a separate simultaneous occurrence. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject comma and while errors",
+      "content": "Choice B creates a comma splice between complete clauses. Choice C adds while after a comma, but the second part explains variation rather than contrasting events. Choice D has the same illogical while relationship. A colon correctly introduces the explanation after the complete clause. The answer is <strong>A</strong>."
     }
   ]
 }

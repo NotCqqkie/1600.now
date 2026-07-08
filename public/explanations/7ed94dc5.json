@@ -1,0 +1,15 @@
+{
+  "questionId": "7ed94dc5",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the identity condition",
+      "content": "An equation has infinitely many solutions when the two sides are identical expressions. The $6x$ terms already match on both sides."
+    },
+    {
+      "title": "Match the constant terms",
+      "content": "For<br/>$$6x+24=6x+k$$<br/>to be true for every $x$, the constants must be equal:<br/>$$k=24$$<br/>The answer is <strong>24</strong>."
+    }
+  ]
+}

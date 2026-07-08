@@ -1,0 +1,15 @@
+{
+  "questionId": "53a76750",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause and result",
+      "content": "Peru lowered the voting age from 21 to 18. As a direct result, many young people gained a new opportunity to participate in the country's political process."
+    },
+    {
+      "title": "Reject wrong relations",
+      "content": "A signals similarity, B signals contrast, and D signals concession despite an obstacle. The second sentence is not similar, opposite, or surprising; it follows from the age change. A result transition is needed. The answer is <strong>C</strong>."
+    }
+  ]
+}

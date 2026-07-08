@@ -1,0 +1,15 @@
+{
+  "questionId": "56f49724",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the research contrast",
+      "content": "The passage sets up two earlier approaches to convergent evolution. Chan and colleagues studied cases in which separate lineages evolve the same trait through a shared genetic mechanism. Steiner and colleagues studied cases in which convergence happens through different genetic mechanisms. The passage then says the relative prevalence of these two processes was still poorly understood."
+    },
+    {
+      "title": "Choose the broader study",
+      "content": "The last sentence explains why Green and Extavour's study matters: they evaluated both types of convergence in a single study. Choice A goes too far because the passage never says shared mechanisms were once assumed to be required. Choice B misdescribes Chan's study as comparing both mechanisms. Choice D invents a data-source claim that the passage does not make. The remaining choice captures that Green and Extavour treated the topic more comprehensively than the two earlier studies, each of which focused on one type of genetic process. The answer is <strong>C</strong>."
+    }
+  ]
+}

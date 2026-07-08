@@ -1,0 +1,19 @@
+{
+  "questionId": "f7d1257b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the line slope",
+      "content": "Use the given intercept $(0,-16)$ and the table point $(-12,44)$:\n$$\nm=\\frac{44-(-16)}{-12-0}=\\frac{60}{-12}=-5\n$$\nSo the line has equation $y=-5x-16$."
+    },
+    {
+      "title": "Solve for the variables",
+      "content": "For the row with $y=14$,\n$$\n14=-5a-16\n$$\n$$\na=-6\n$$\nFor the row with $x=2$,\n$$\nb=-5(2)-16=-26\n$$"
+    },
+    {
+      "title": "Add the values",
+      "content": "Now add:\n$$\na+b=-6+(-26)=-32\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

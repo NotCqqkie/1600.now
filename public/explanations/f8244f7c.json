@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contradiction needed to refute the hypothesis",
-      "content": "The hypothesis claims larger bills appear in hotter habitats. To show this hypothesis isn't fully supported, we need data where the relationship reverses: a large bill in a cold habitat or vice versa."
+      "title": "Look for a reversal",
+      "content": "The hypothesis predicts that hotter habitats should be associated with larger bills. To show the hypothesis is not fully supported, the table needs a case where a larger bill appears in a cooler habitat or a smaller bill appears in a hotter habitat."
     },
     {
-      "title": "Match the reversal to the data",
-      "content": "D shows the largest-billed bird (ocellated, 3.26 cm²) in the coldest habitat (27.56 degreesC) and the second-smallest-billed bird (Bendire's, 1.98 cm²) in the hottest habitat (36.57 degreesC)—a direct reversal of the hypothesis.<br/><br/>A and B contain factual errors about the temperature data; C shows a correlation that would actually support the hypothesis.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Match the contradictory data",
+      "content": "<ul><li><strong>Choice A</strong>: Describes a small bill in a cool habitat, which fits the hypothesis.</li><li><strong>Choice B</strong>: Does not show a contradiction between bill size and habitat heat.</li><li><strong>Choice C</strong>: Shows a pattern that supports the hypothesis.</li><li><strong>Choice D</strong>: Pairs the largest bill with the lowest warm-month temperature and a small bill with the highest one.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

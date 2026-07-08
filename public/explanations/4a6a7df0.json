@@ -1,0 +1,15 @@
+{
+  "questionId": "4a6a7df0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one unit",
+      "content": "Let $u=10-2x$. Then the equation becomes $7u+4=6u+22$."
+    },
+    {
+      "title": "Solve for the unit",
+      "content": "$$7u+4=6u+22$$$$u=18$$Since $u=10-2x$, the requested value is $18$, without needing to solve for $x$ itself. The answer is <strong>D</strong>."
+    }
+  ]
+}

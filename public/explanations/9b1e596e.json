@@ -1,0 +1,19 @@
+{
+  "questionId": "9b1e596e",
+  "correctAnswer": "25,26,27,28,29,30,31,32,33,34",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "There are $31$ recorded temperatures, so the median is the middle value in the ordered list: $$\\frac{31+1}{2}=16$$ The median is the $16\\text{th}$ value."
+    },
+    {
+      "title": "Locate the interval",
+      "content": "Using the cumulative frequencies, values $1$ through $10$ are below $25^\\circ\\text{F}$, and values $11$ through $16$ are in the interval from $25^\\circ\\text{F}$ to $34^\\circ\\text{F}$."
+    },
+    {
+      "title": "List possible integers",
+      "content": "Since the temperatures were recorded to the nearest integer, any integer from $25$ through $34$, inclusive, could be the median. Written without commas, the sequence is $25262728293031323334$. The answer is <strong>25,26,27,28,29,30,31,32,33,34</strong>."
+    }
+  ]
+}

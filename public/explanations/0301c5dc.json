@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find favorable and total outcomes from the table",
-      "content": "Looking at row <em>Has camping facilities</em> and column <em>Does not have bicycle paths</em>, we identify 5 parks that meet both conditions. The total number of parks is 20 + 5 + 8 + 4 = 37."
+      "title": "Find the total number of parks",
+      "content": "Add all four entries in the table:<br/>$$20+5+8+4=37$$<br/>So there are $37$ state parks in the sample space."
     },
     {
-      "title": "Calculate the probability",
-      "content": "The probability that a randomly selected park has camping facilities but no bicycle paths is: $$\\frac{5}{37}$$. That matches <strong>Choice A &mdash; $5 / 37$</strong>."
+      "title": "Find the favorable count",
+      "content": "The table entry for parks that have camping facilities but do not have bicycle paths is $5$."
+    },
+    {
+      "title": "Write the probability",
+      "content": "The probability is favorable outcomes over total outcomes:<br/>$$\\frac{5}{37}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

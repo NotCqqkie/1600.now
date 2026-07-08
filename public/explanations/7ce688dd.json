@@ -1,0 +1,15 @@
+{
+  "questionId": "7ce688dd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the radian measures",
+      "content": "Angle $P$ is $\\frac{5\\pi}{12}$ radians greater than angle $M$:\n$$\nP=\\frac{2\\pi}{3}+\\frac{5\\pi}{12}\n$$\n$$\nP=\\frac{8\\pi}{12}+\\frac{5\\pi}{12}=\\frac{13\\pi}{12}\n$$"
+    },
+    {
+      "title": "Convert to degrees",
+      "content": "Multiply by $\\frac{180}{\\pi}$:\n$$\n\\frac{13\\pi}{12}\\cdot \\frac{180}{\\pi}=195\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

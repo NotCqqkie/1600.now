@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the student's goal",
-      "content": "The task is to &ldquo;emphasize the mass of Sirius A.&rdquo; The correct choice must (1) name Sirius A and (2) foreground its specific mass (2.063 solar masses). Any choice that omits Sirius A or centers on another star fails the goal immediately."
+      "title": "Emphasize Sirius A",
+      "content": "The student's goal is to emphasize the mass of Sirius A. The relevant note says Sirius A has a mass of 2.063 solar masses, so the best choice must foreground that star and that measurement."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"The mass of stars, like Proxima Centauri, can be described in units called solar masses.\"</strong>: Generalizes about all stars and uses Proxima Centauri as the example. Sirius A is not mentioned. &#10007;</li><li><strong>\"In astronomy, the mass of stars can be described in units called solar masses, and one solar mass is roughly equal to the mass of the Sun.\"</strong>: Defines the unit of measurement without mentioning Sirius A or its mass at all. &#10007;</li><li><strong>\"The Sun is more massive than Proxima Centauri, which has a mass of 0.122 solar masses.\"</strong>: Emphasizes Proxima Centauri&rsquo;s mass, not Sirius A&rsquo;s. Wrong star. &#10007;</li><li><strong>\"With a mass of 2.063 solar masses, Sirius A is more massive than the Sun.\"</strong>: Opens by foregrounding Sirius A&rsquo;s exact mass and compares it to the Sun to make that number meaningful. Directly accomplishes the goal. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject other focuses",
+      "content": "A and C focus on Proxima Centauri, and B explains the unit of solar masses without naming Sirius A. The choice that opens with Sirius A's exact mass directly accomplishes the student's goal. The answer is <strong>D</strong>."
     }
   ]
 }

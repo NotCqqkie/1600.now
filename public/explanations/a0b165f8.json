@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the percent increase formula",
-      "content": "We know there were 135 damselflies on February 15, with a 12.50% increase from January 1. Using the percent increase formula:<br/>$$\\text{Percent Increase} = \\frac{\\text{Final} - \\text{Initial}}{\\text{Initial}} \\times 100$$<br/>$$12.50 = \\frac{135 - x}{x} \\times 100$$<br/>where $x$ is the initial number on January 1."
+      "title": "Convert the percent increase",
+      "content": "A $12.50\\%$ increase means the final amount is<br/><br/>$$1+0.125=1.125$$<br/><br/>times the original amount."
     },
     {
-      "title": "Backsolve by testing the choices",
-      "content": "Backsolving by testing choice B (119):<br/>$$\\frac{135 - 119}{119} \\times 100 = \\frac{16}{119} \\times 100 \\approx 13.45\\%$$<br/>Fails because we need 12.50%, not 13.45%. Testing choice A (120):<br/>$$\\frac{135 - 120}{120} \\times 100 = \\frac{15}{120} \\times 100 = \\frac{1}{8} \\times 100 = 12.5\\%$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Work backward from February",
+      "content": "Let $n$ be the January $1$ count. Then<br/><br/>$$1.125n=135$$<br/>$$n=\\frac{135}{1.125}=120$$<br/><br/>The answer is <strong>A</strong>."
     }
   ]
 }

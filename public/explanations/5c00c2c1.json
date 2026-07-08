@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the exponential growth form",
-      "content": "For yearly exponential growth,<br/>$$p(t)=a(1+r)^t$$<br/>where $a$ is the starting amount and $r$ is the annual growth rate as a decimal."
+      "title": "Use exponential growth form",
+      "content": "For yearly exponential growth, use the starting amount as the coefficient and the annual growth factor as the base.<br/>$$p(t)=a(1+r)^t$$"
     },
     {
-      "title": "Substitute the values",
-      "content": "The starting population is $30$, so $a=30$. A $14.8\\%$ increase means $r=0.148$, so the growth factor is $1.148$.<br/>$$p(t)=30(1.148)^t$$"
+      "title": "Substitute the starting values",
+      "content": "The initial population is $30$. A $14.8\\%$ yearly increase means $r=0.148$, so the growth factor is $1.148$.<br/>$$p(t)=30(1.148)^t$$"
     },
     {
-      "title": "Compare to the answer choices",
-      "content": "Choice C (&lsquo;$p(t) = 30 \\times 1.148^t$&rsquo;) has the correct starting population as the coefficient and the correct annual growth factor as the base. <strong>C</strong> is correct."
+      "title": "Match the model",
+      "content": "The model with coefficient $30$ and base $1.148$ is the correct exponential function. The answer is <strong>C</strong>."
     }
   ]
 }

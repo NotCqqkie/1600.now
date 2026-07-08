@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the underlined claim and Ross's evidence",
-      "content": "The underlined portion of Text 1 argues that volcanic activity from the Deccan Traps was the true cause of the K-Pg extinction because the eruption initially produced huge amounts of climate-altering gases. Text 2 reports Ross's team finding that Deccan gases did affect global conditions, but the climate returned to normal well before the extinctions began, and the extinctions align with the Chicxulub impact."
+      "title": "Compare the cause claims",
+      "content": "Text 1's underlined claim says Deccan Traps volcanic activity was the true cause of the K-Pg event. Text 2 says those gases affected climate before the event, but the climate had returned to normal before the extinctions began and the extinctions align with the Chicxulub impact."
     },
     {
-      "title": "Derive Ross's response",
-      "content": "Because the Deccan-driven climate change had already ended before the extinctions started, Ross's team would deny that those volcanic climate changes were the main driver of the K-Pg event."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; By agreeing that the Chicxulub impact changed the climate and that the Deccan Traps eruption caused the K-Pg event</strong>: overreach &mdash; Ross's team attributes the extinction to Chicxulub, not to the Deccan Traps. &#10007;</li><li><strong>Choice B &mdash; By declaring that the changes in climate caused by the Deccan Traps eruption weren't the main cause of the K-Pg event</strong>: matches Ross&apos;s finding that the climate normalized before the extinctions, so volcanic climate change wasn&apos;t the main cause. &#10003;</li><li><strong>Choice C &mdash; By questioning why those scientists assume that the Chicxulub impact caused the Deccan Traps eruption</strong>: misread &mdash; the Text 1 dissenters never claim the impact caused the eruption. &#10007;</li><li><strong>Choice D &mdash; By asserting that the Deccan Traps eruption had a more significant effect on global conditions than those scientists claim</strong>: contradicts Ross, who downplays the eruption&apos;s role relative to the impact. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject opposing responses",
+      "content": "<ul><li><strong>Choice A</strong> says Ross's team would agree that Deccan Traps caused the event, which contradicts Text 2.</li><li><strong>Choice C</strong> raises a Chicxulub-caused-eruption issue that neither text discusses.</li><li><strong>Choice D</strong> says Deccan Traps had a more significant effect than claimed, but Text 2 downplays it as the main cause.</li></ul>The remaining choice states that Deccan climate changes were not the main cause. The answer is <strong>B</strong>."
     }
   ]
 }

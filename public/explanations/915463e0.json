@@ -1,16 +1,15 @@
 {
   "questionId": "915463e0",
-  "qid": "915463e0",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "text": "Write the normal temperature range as an inequality: $97.7 \\leq T \\leq 99.1$ (inclusive on both ends)."
+      "title": "Write the normal range",
+      "content": "The range is inclusive, so a normal temperature $T$ satisfies\n$$97.7\\le T\\le 99.1$$"
     },
     {
-      "text": "Check each choice against $97.7 \\leq T \\leq 99.1$."
-    },
-    {
-      "text": "<ul><li><strong>Choice A &mdash; $97.6^{\\circ}\\text{F}$</strong>: $97.6 \\lt 97.7$, below the lower bound. Incorrect.</li><li><strong>Choice B &mdash; $97.5^{\\circ}\\text{F}$</strong>: $97.5 \\lt 97.7$, below the lower bound. Incorrect.</li><li><strong>Choice C &mdash; $98.8^{\\circ}\\text{F}$</strong>: $97.7 \\leq 98.8 \\leq 99.1$, within the normal range. That confirms <strong>C</strong> is correct.</li><li><strong>Choice D &mdash; $99.4^{\\circ}\\text{F}$</strong>: $99.4 \\gt 99.1$, above the upper bound. Incorrect.</li></ul>"
+      "title": "Choose the value inside",
+      "content": "The only listed temperature that falls within the inclusive range is\n$$97.7\\le 98.8\\le 99.1$$\nThe answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "61eba40b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on timing",
+      "content": "The question asks for the choice that emphasizes when Michael Raines won the A.M. Turing Award. The key detail from the notes is the year 1997, so the best sentence must foreground that date."
+    },
+    {
+      "title": "Reject untimed details",
+      "content": "Choice A describes the award's purpose but not Raines. Choice B emphasizes what Raines invented, not when he won. Choice C only says he is one winner. The remaining choice places 1997 at the center of the sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

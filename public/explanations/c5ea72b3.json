@@ -1,0 +1,19 @@
+{
+  "questionId": "c5ea72b3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine the two findings",
+      "content": "The passage gives two results that must both be preserved. First, the strongest passwords came from combining nudges with direct guidance. Second, the specific kind of nudge, such as reciprocity or compensation, did not significantly change user behavior."
+    },
+    {
+      "title": "Apply the nudge result",
+      "content": "Because nudge type did not significantly affect behavior, one nudge type should not be expected to produce stronger passwords than another nudge type by itself. A completion that says compensation beats reciprocity, or reciprocity beats compensation, would contradict that finding."
+    },
+    {
+      "title": "Apply the combination result",
+      "content": "Choice A makes an unsupported claim that direct guidance alone should outperform either nudge. Choice B says compensation nudges should outperform reciprocity nudges, contradicting the no-significant-difference result. Choice D says direct guidance plus reciprocity is no better than reciprocity alone and then treats two combinations as unequal because of nudge type. Choice C keeps the nudge types equivalent while saying that direct guidance plus a nudge beats that nudge alone. The answer is <strong>C</strong>."
+    }
+  ]
+}

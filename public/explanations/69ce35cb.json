@@ -1,0 +1,15 @@
+{
+  "questionId": "69ce35cb",
+  "correctAnswer": "2/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the variable terms",
+      "content": "For a linear equation to have no solution, the variable terms must match while the constant terms differ. Match the coefficients of $x$:<br/>$$-\\frac{4}{21}r=-\\frac{8}{63}$$"
+    },
+    {
+      "title": "Isolate the constant",
+      "content": "Multiply both sides by $-1$, then solve for $r$:<br/>$$\\frac{4}{21}r=\\frac{8}{63}$$<br/>$$r=\\frac{8}{63}\\cdot\\frac{21}{4}=\\frac{2}{3}$$<br/>This value makes the two $x$-terms identical, so a different constant term can produce no solution. The answer is <strong>2/3</strong>."
+    }
+  ]
+}

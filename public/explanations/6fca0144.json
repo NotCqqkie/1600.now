@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distinguish random selection from random assignment",
-      "content": "<strong>Random assignment to treatment groups</strong> allows us to infer <em>causation</em> (does watering pattern cause growth differences). <strong>Random selection from a population</strong> is what determines which population we can generalize to.<br/><br/>This study used both: the trees were randomly <em>selected</em> from a habitat, then randomly <em>assigned</em> to treatment groups.<br/><br/>Generalizability depends on the selection, not the assignment."
+      "title": "Use random selection",
+      "content": "Random selection determines which population the results can be applied to. Random assignment helps support a cause-and-effect conclusion about the watering patterns, but it does not expand the population to a new age group or a new location."
     },
     {
       "title": "Identify the source population",
-      "content": "The 60 trees were randomly selected from <strong>all 14-year-old mangrove trees in this habitat</strong>.<br/><br/>This is the population they represent. Because the selection was random, we can generalize the findings about how watering patterns affect growth from the 60-tree sample to the entire population from which they were drawn."
+      "content": "The $60$ trees were randomly selected from the $14$-year-old mangrove trees in this habitat. Therefore the results can be generalized to that source population. The answer cannot be only the selected sample, because random selection allows generalization beyond those $60$ trees."
     },
     {
-      "title": "Check constraints: age and location",
-      "content": "Two boundaries limit the scope: <ul><li><strong>Age:</strong> The study began with 14-year-old trees. We learned how 14-year-olds respond to watering; we don't know if 17-year-olds would respond the same way. (Choice B (&lsquo;All the mangrove trees that were $17$ years old in this habitat&rsquo;) is out.)</li><li><strong>Location:</strong> The sample came from one habitat, not all of Belize. Different habitats have different soil, climate, and water availability, which could change the treatment effect. (Choice C (&lsquo;All the mangrove trees that were $14$ years old in Belize&rsquo;) is out.)</li></ul>An incorrect response just restates the sample, not the population we generalize to."
-    },
-    {
-      "title": "Identify the largest applicable population",
-      "content": "Combining the principle (random selection from a population) with the constraints (age 14, location this habitat), the results can be applied to <strong>all mangrove trees that were 14 years old in this habitat</strong> &mdash; the full population from which the random sample was drawn.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Keep the age and location",
+      "content": "The sample did not come from all mangrove trees in Belize, and it did not come from $17$-year-old trees. The largest supported population is all mangrove trees that were $14$ years old in this habitat. The answer is <strong>D</strong>."
     }
   ]
 }

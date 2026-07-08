@@ -1,0 +1,15 @@
+{
+  "questionId": "caa41209",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the factor",
+      "content": "To find an equivalent expression, apply the outside factor $5$ to each term inside the parentheses. This keeps the value of the expression the same for every value of $x$:<br/>$$5(x^2+7)=5\\cdot x^2+5\\cdot 7$$"
+    },
+    {
+      "title": "Simplify the products",
+      "content": "Now multiply each term from the distribution:<br/>$$5\\cdot x^2+5\\cdot 7=5x^2+35$$<br/>The term $5x^2$ comes from multiplying $5$ by $x^2$, and $35$ comes from multiplying $5$ by $7$. The equivalent expression is $5x^2+35$. The answer is <strong>A</strong>."
+    }
+  ]
+}

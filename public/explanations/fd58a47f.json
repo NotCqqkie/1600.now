@@ -1,0 +1,15 @@
+{
+  "questionId": "fd58a47f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match identical lines",
+      "content": "A system has infinitely many solutions only when the two equations describe the same line. The given equation is\n$$\ny=\\frac{3}{7}x+5\n$$\nSo the second equation must have the same slope and the same $y$-intercept."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "In $y=mx+b$, the constant $b$ is the $y$-intercept. Matching the given line requires\n$$\nb=5\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to <em>specify the location of Ctesiphon</em>. The notes contain exactly this information: Ctesiphon was the empire&rsquo;s capital and was located near present-day Baghdad, Iraq. A correct answer must state where Ctesiphon is, not just that it existed or was a capital."
+      "title": "Focus on the requested location",
+      "content": "The student wants to specify the location of Ctesiphon. The relevant notes say Ctesiphon was the capital of the Sasanian Empire and was located near present-day Baghdad, Iraq. A useful sentence must identify Ctesiphon and state where it was, rather than focusing on the empire's dates, size, or territory."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The Sasanian Empire began in AD 224 and ended in AD 651.&rsquo;</strong>: This states dates for the empire &mdash; it says nothing about the location of Ctesiphon. &#10007;</li><li><strong>Choice B &mdash; &lsquo;The capital of the Sasanian Empire, which spanned 1.4 million square miles, was Ctesiphon.&rsquo;</strong>: This names Ctesiphon as the capital and notes the empire&rsquo;s size, but it does not say <em>where</em> Ctesiphon was located. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The Sasanians controlled an area of 1.4 million square miles, including present-day Iran and Iraq.&rsquo;</strong>: This describes the empire&rsquo;s territory but does not mention Ctesiphon&rsquo;s location at all. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Ctesiphon, the capital of the Sasanian Empire, was located near present-day Baghdad, Iraq.&rsquo;</strong>: This names Ctesiphon and directly specifies its geographic location (near present-day Baghdad, Iraq), exactly what the notes provide and the student needs. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Eliminate off-goal choices",
+      "content": "Choice A gives only the years when the Sasanian Empire began and ended, so it does not locate Ctesiphon. Choice B names Ctesiphon as the capital and includes the empire's size, but it still does not say where Ctesiphon was. Choice C describes the broad area the Sasanians controlled, including present-day Iran and Iraq, but it does not mention Ctesiphon or identify the city's location."
+    },
+    {
+      "title": "Select the location sentence",
+      "content": "Choice D directly combines the useful details: Ctesiphon was the capital of the Sasanian Empire, and it was located near present-day Baghdad, Iraq. That fulfills the student's goal because it specifies the location of Ctesiphon. The answer is <strong>D</strong>."
     }
   ]
 }

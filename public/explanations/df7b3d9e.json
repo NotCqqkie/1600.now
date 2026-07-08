@@ -1,0 +1,15 @@
+{
+  "questionId": "df7b3d9e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the pivot",
+      "content": "The first sentence says Kepler-296e may be habitable but is too far away for humanity to use soon. The next sentence shifts to a different course of action: focusing on planets in our solar system."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A signals similarity, but the second sentence changes direction. C signals an example, not an alternative. D signals sequence, not replacement of one focus with another. The remaining transition marks the pivot. The answer is <strong>B</strong>."
+    }
+  ]
+}

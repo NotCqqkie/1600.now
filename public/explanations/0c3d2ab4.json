@@ -1,0 +1,19 @@
+{
+  "questionId": "0c3d2ab4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph value",
+      "content": "The graph shown is $y=f(x)+4$. From the graph, when $x=0$, the displayed value is $8$."
+    },
+    {
+      "title": "Find the function value",
+      "content": "Subtract the vertical shift:\n$$\nf(0)+4=8\n$$\nSo $f(0)=4$."
+    },
+    {
+      "title": "Choose the constant term",
+      "content": "Each choice has the form $f(x)=-6^x+c$. Since $6^0=1$, use $f(0)=4$:\n$$\n-1+c=4\n$$\nSo $c=5$. The answer is <strong>B</strong>."
+    }
+  ]
+}

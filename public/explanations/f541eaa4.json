@@ -1,0 +1,19 @@
+{
+  "questionId": "f541eaa4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for an increase",
+      "content": "The researcher claims that some lakes have seen an increase in ice duration even though the general trend is decline. Supporting data must show a lake with fewer ice days at the start of the study and more ice days at the end."
+    },
+    {
+      "title": "Reject nonmatching data",
+      "content": "Choice B compares Kitusjarvi and Mirror Lake by latitude and typical ice duration, but it does not show change over time. Choice C says Kitusjarvi had more ice days in 1980-81 than in 2005-06, which is a decrease. Choice D also compares two lakes rather than tracking one lake's change."
+    },
+    {
+      "title": "Choose the time trend",
+      "content": "The remaining choice says Lake Baikal had fewer ice days in 1980-81 than in 2005-06. That describes an increase in duration across the study period, directly supporting the researcher's claim that some lakes increased. The answer is <strong>A</strong>."
+    }
+  ]
+}

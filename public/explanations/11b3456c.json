@@ -1,0 +1,15 @@
+{
+  "questionId": "11b3456c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive",
+      "content": "In the phrase <em>fellow OECD member nation Chile</em>, the country name identifies which member nation is meant. Because the name is essential to the noun phrase, it should not be set off with punctuation."
+    },
+    {
+      "title": "Reject nonessential punctuation",
+      "content": "Choice B uses a colon after a phrase that is not an independent clause. Choice C uses a comma, and Choice D uses a dash; both wrongly treat <em>Chile</em> as extra information. The country name should follow <em>nation</em> directly. The answer is <strong>A</strong>."
+    }
+  ]
+}

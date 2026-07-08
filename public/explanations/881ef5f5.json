@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Mean and median of eleven consecutive integers",
-      "content": "Let the eleven consecutive integers be $$n, n+1, n+2, \\dots, n+10$$ where $$n$$ is an integer.<br/>The sum is $$11n + (0+1+2+3+4+5+6+7+8+9+10) = 11n + 55$$.<br/>Thus the mean $$a = \\frac{11n+55}{11} = n+5$$.<br/>With eleven terms, the median $$b$$ is the sixth term: $$b = n+5$$.<br/>Therefore $$a = b$$."
+      "title": "Use the middle of the list",
+      "content": "For $11$ consecutive integers, the median is the middle, or sixth, integer. The mean of an evenly spaced list is also the middle value."
     },
     {
-      "title": "Absolute difference",
-      "content": "Since $$a = b$$, their difference is zero: $$|a-b| = |(n+5)-(n+5)| = 0$$.<br/>The answer is <strong>0</strong>."
+      "title": "Compare the mean and median",
+      "content": "Since $a$ and $b$ are both the middle value,\n$$a=b$$\nTherefore\n$$|a-b|=0$$\nThe answer is <strong>0</strong>."
     }
   ]
 }

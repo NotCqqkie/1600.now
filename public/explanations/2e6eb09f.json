@@ -1,0 +1,15 @@
+{
+  "questionId": "2e6eb09f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the methodological flaw",
+      "content": "Hartley et al. do not simply disagree with the conclusion of Martinez-Ramos et al.; they identify a possible problem in how the review gathered its evidence. If older studies were unintentionally excluded because they used different terminology, then the evidence base for the conclusion may be incomplete."
+    },
+    {
+      "title": "Reject unsupported alternatives",
+      "content": "Choice A treats the exclusion as intentional and useful, but the text says it may have been inadvertent. Choice B reverses the problem by claiming the study included research that was too heterogeneous, when the concern is exclusion. Choice C invents a species-count limit and says the conclusion is accurate for included species. Choice D best captures the implication: a methodological limitation may mean the conclusion is not well supported. The answer is <strong>D</strong>."
+    }
+  ]
+}

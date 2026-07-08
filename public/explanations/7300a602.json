@@ -1,0 +1,24 @@
+{
+  "questionId": "7300a602",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Model the hourly charge",
+      "content": "The first hour costs $112$, and each additional hour costs $40$. For $x$ hours, count the first hour plus $x-1$ additional hours:\n$$\n112+40(x-1)\n$$"
+    },
+    {
+      "title": "Add the parts cost",
+      "content": "Include the cost of parts, $z$:\n$$\ny=112+40(x-1)+z\n$$\n$$\ny=112+40x-40+z=40x+z+72\n$$",
+      "desmosExpressions": [
+        "y=40x+72",
+        "(1,112)",
+        "(2,152)"
+      ]
+    },
+    {
+      "title": "Match the equation",
+      "content": "The equation $y=40x+z+72$ charges $112$ dollars for the first hour, $40$ dollars for each additional hour, and adds parts cost $z$. The answer is <strong>B</strong>."
+    }
+  ]
+}

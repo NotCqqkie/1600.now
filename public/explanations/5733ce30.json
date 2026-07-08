@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the interior angle at C using the exterior angle",
-      "content": "The angle marked $110^{\\circ}$ is an exterior angle at point C. Since angles on a straight line sum to $180^{\\circ}$, the interior angle ∠BCA is supplementary to the exterior angle:<br/>$$\\angle BCA = 180^{\\circ} - 110^{\\circ} = 70^{\\circ}$$"
+      "title": "Find the angle at C",
+      "content": "The exterior angle and angle BCA form a straight line:<br/>$$180^\\circ-110^\\circ=70^\\circ$$"
     },
     {
-      "title": "Use the isosceles triangle property",
-      "content": "We're told that ∠BAC = ∠BCA. Since ∠BCA = $70^{\\circ}$, we have:<br/>$$\\angle BAC = 70^{\\circ}$$<br/>This means triangle ABC is isosceles with the two base angles equal."
+      "title": "Use the equal angles",
+      "content": "The question states that angles BAC and BCA have equal measures, so angle BAC also measures $70^\\circ$."
     },
     {
-      "title": "Apply the triangle angle sum",
-      "content": "The three angles of triangle ABC must sum to $180^{\\circ}$:<br/>$$\\angle BAC + \\angle BCA + \\angle ABC = 180^{\\circ}$$<br/>$$70^{\\circ} + 70^{\\circ} + x = 180^{\\circ}$$<br/>$$x = 40^{\\circ}$$<br/><strong>D</strong> is correct."
+      "title": "Use the triangle sum",
+      "content": "The angles in triangle ABC sum to $180^\\circ$:<br/>$$70^\\circ+70^\\circ+x^\\circ=180^\\circ$$<br/>$$x=40$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

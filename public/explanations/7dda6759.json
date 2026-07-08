@@ -1,0 +1,19 @@
+{
+  "questionId": "7dda6759",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the contrast signal",
+      "content": "The underlined sentence defines vertical gene transfer and horizontal gene transfer, using on the other hand to contrast the two processes."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "<ul><li><strong>Choice A</strong> claims the sentence proposes future research, but it only defines terms.</li><li><strong>Choice C</strong> says the sentence argues similarity, but it highlights difference.</li><li><strong>Choice D</strong> claims it corrects a misconception, which happens later in the passage.</li></ul>"
+    },
+    {
+      "title": "Describe the definition method",
+      "content": "The sentence explains horizontal gene transfer by contrasting it with the somewhat similar process of vertical gene transfer. The answer is <strong>B</strong>."
+    }
+  ]
+}

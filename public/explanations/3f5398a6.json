@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the given ratio as an equation",
-      "content": "The ratio <em>m</em> to <em>k</em> is 1 to 6 means:<br/>$$\\frac{m}{k} = \\frac{1}{6}$$"
+      "title": "Write the ratio",
+      "content": "The ratio of miles $m$ to seconds $k$ is $1$ to $6$.\n$$\nm/k=1/6\n$$"
     },
     {
-      "title": "Substitute the time interval and solve for distance",
-      "content": "Given that the time interval is 36 seconds, substitute k = 36:<br/>$$\\frac{m}{36} = \\frac{1}{6}$$<br/>Multiply both sides by 36:<br/>$$m = 36 \\times \\frac{1}{6} = 6$$<br/>The person is 6 miles from the lightning flash. <strong>D</strong> is correct."
+      "title": "Substitute the time",
+      "content": "For a time interval of $36$ seconds, use $k=36$.\n$$\nm/36=1/6\n$$\n$$\nm=36(1/6)=6\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

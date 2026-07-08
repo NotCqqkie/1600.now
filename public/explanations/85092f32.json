@@ -1,0 +1,15 @@
+{
+  "questionId": "85092f32",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Collect the variable terms",
+      "content": "Start with\n$$\nx(r-5)+4=17x+28\n$$\nMove constants and $x$-terms to get\n$$\nx(r-5)-17x=24\n$$\n$$\nx(r-22)=24\n$$"
+    },
+    {
+      "title": "Find the excluded value",
+      "content": "A linear equation of the form $ax=24$ has exactly one solution only when $a\\ne 0$. Here the coefficient is $r-22$, so the equation fails that condition when\n$$\nr-22=0\n$$\n$$\nr=22\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

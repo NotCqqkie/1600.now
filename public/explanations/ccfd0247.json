@@ -1,0 +1,19 @@
+{
+  "questionId": "ccfd0247",
+  "correctAnswer": "257",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use years after the start",
+      "content": "Let $t$ be the number of years after $1998$. Then the known points are $(0{,}60)$ and $(20{,}224)$, and $2022$ corresponds to $t=24$."
+    },
+    {
+      "title": "Find the linear model",
+      "content": "Find the slope from the known points:\n$$\nm=\\frac{224-60}{20-0}=\\frac{164}{20}=8.2\n$$\nSince the value at $t=0$ is $60$, the model is $y=8.2t+60$."
+    },
+    {
+      "title": "Predict the later value",
+      "content": "Substitute $t=24$:\n$$\ny=8.2(24)+60=256.8\n$$\nRounded to the nearest whole number, this is $257$. The answer is <strong>257</strong>."
+    }
+  ]
+}

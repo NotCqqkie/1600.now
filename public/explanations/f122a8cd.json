@@ -1,0 +1,19 @@
+{
+  "questionId": "f122a8cd",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "List the solutions",
+      "content": "From the factored equation, the solutions are $0$, $\\frac{13}{4}$, and $\\frac{u}{4}$."
+    },
+    {
+      "title": "Use the given sum",
+      "content": "The sum of the solutions is $9$, so add the three solution values.<br/>$$0+\\frac{13}{4}+\\frac{u}{4}=9$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Combine the fractions and solve.<br/>$$\\frac{13+u}{4}=9$$<br/>$$13+u=36$$<br/>$$u=23$$<br/>The answer is <strong>23</strong>."
+    }
+  ]
+}

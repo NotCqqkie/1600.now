@@ -1,0 +1,15 @@
+{
+  "questionId": "fd22ee63",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the dash interruption",
+      "content": "The phrase “first published in 1689” interrupts the main sentence after an opening em dash. Since the sentence returns to the main claim that Locke's work is essential reading, the punctuation after the year must close that interruption before the main clause continues."
+    },
+    {
+      "title": "Match the punctuation pair",
+      "content": "Choice B leaves the dash interruption open, so the sentence never clearly returns to the main clause. Choice C uses a comma, but a comma cannot close a parenthetical opened by an em dash. Choice D uses a colon, which also cannot close the interruption. Choice A supplies the year and the needed closing em dash, producing “first published in 1689—is essential reading.” The answer is <strong>A</strong>."
+    }
+  ]
+}

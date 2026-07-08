@@ -1,0 +1,15 @@
+{
+  "questionId": "637563ef",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intersection",
+      "content": "The solution to a graphed system is the point where the two lines intersect. The horizontal line is at $y=3$, and the slanted line meets it at $x=4$."
+    },
+    {
+      "title": "Write the ordered pair",
+      "content": "The intersection point is:\n$$(4,3)$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

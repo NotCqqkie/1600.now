@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Label the sides relative to angle A",
-      "content": "Use the given trigonometric ratio to identify the side pair for angle A: opposite, adjacent, and hypotenuse. Then apply the matching right-triangle shortcut."
+      "title": "Relate cosine to sides",
+      "content": "Since angle $B$ is a right angle, $AC$ is the hypotenuse. For angle $A$, $AB$ is adjacent and $BC$ is opposite."
     },
     {
-      "title": "Recognize the 3-4-5 Pythagorean triple",
-      "content": "Since $\\cos A = \\frac{3}{5}$ and $\\sin^2 A + \\cos^2 A = 1$, we have $\\sin A = \\frac{4}{5}$.<br/><br/>In right triangle ABC with ∠B = 90°, the trigonometric ratios $\\cos A = \\frac{AB}{AC} = \\frac{3}{5}$ and $\\sin A = \\frac{BC}{AC} = \\frac{4}{5}$ match the 3-4-5 Pythagorean triple.<br/><br/>Therefore, AB: BC: AC = 3: 4: 5."
+      "title": "Use the side ratio",
+      "content": "The given cosine value means\n$$\n\\frac{AB}{AC}=\\frac{3}{5}\n$$\nThis is a right-triangle side ratio where $BC$ corresponds to $4$ parts."
     },
     {
-      "title": "Find the scale factor",
-      "content": "BC = 152 corresponds to 4 in the 3-4-5 ratio. Setting $4k = 152$: $$k = 38$$"
-    },
-    {
-      "title": "Calculate AB and match the choice",
-      "content": "AB corresponds to 3 in the ratio: $$AB = 3 \\cdot 38 = 114 \\text{ mm}$$<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Scale the adjacent side",
+      "content": "Use $BC=152$ to find the scale, then find $AB$.\n$$\n4k=152\n$$\n$$\nk=38\n$$\n$$\nAB=3(38)=114\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

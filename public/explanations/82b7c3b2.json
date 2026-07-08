@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the context clue",
-      "content": "The sentence describes a clerk showing her husband a vase &quot;marked at about twelve or fourteen dollars.&quot; The phrase &quot;at about twelve or fourteen dollars&quot; immediately follows &quot;marked&quot; and specifies a dollar amount, signaling that the word describes how a retail price is displayed on merchandise."
+      "title": "Use the dollar clue",
+      "content": "The vase is described as <em>marked at about twelve or fourteen dollars</em>. The dollar amount shows that <em>marked</em> refers to the amount shown for sale."
     },
     {
-      "title": "Test each choice in context",
-      "content": "<ul><li><strong>Choice A &mdash; Staged</strong>: &quot;Staged at twelve or fourteen dollars&quot; has no meaning in a retail context. &quot;Staged&quot; refers to arranging or setting a scene, not labeling a price. &#10007;</li><li><strong>Choice B &mdash; Priced</strong>: &quot;Priced at about twelve or fourteen dollars&quot; is the standard way to say that a price tag on merchandise shows a particular amount. This fits the retail context exactly. &#10003;</li><li><strong>Choice C &mdash; Stained</strong>: &quot;Stained at twelve or fourteen dollars&quot; is nonsensical; &quot;stained&quot; refers to discoloration, not a monetary value. &#10007;</li><li><strong>Choice D &mdash; Watched</strong>: &quot;Watched at twelve or fourteen dollars&quot; is equally nonsensical; &quot;watched&quot; has no connection to pricing. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose the retail meaning",
+      "content": "In this context, <em>marked</em> means priced. A refers to arranging a scene, C refers to discoloring something, and D refers to observing something; none fits a dollar amount on merchandise. The answer is <strong>B</strong>."
     }
   ]
 }

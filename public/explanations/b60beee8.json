@@ -1,0 +1,19 @@
+{
+  "questionId": "b60beee8",
+  "correctAnswer": "18.3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the pasture share",
+      "content": "Cropland is $44.0\\%$ of the tract, so pasture is the remaining percent.<br/>$$100\\%-44.0\\%=56.0\\%$$"
+    },
+    {
+      "title": "Find building coverage",
+      "content": "Buildings cover $22.5\\%$ of the cropland and $15.0\\%$ of the pasture. As percents of the whole tract, those are:<br/>$$0.225\\cdot44.0=9.9$$<br/>$$0.150\\cdot56.0=8.4$$"
+    },
+    {
+      "title": "Add the two parts",
+      "content": "Add the two percentages of the whole tract.<br/>$$9.9+8.4=18.3$$<br/>The answer is <strong>18.3</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6cde4f0d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare hardening types",
+      "content": "The researchers found that bulkheads have a stronger negative correlation with waterbird community integrity than riprap does. Since a higher IWCI score means higher integrity, the best illustration must compare a bulkhead-heavy site with a riprap-heavy site and show the bulkhead-heavy site having a lower score. It must preserve both hardening type and the direction of the IWCI difference rather than merely comparing total shoreline alteration."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "A compares high hardening with low hardening without isolating type. B compares two sites where bulkheads dominate, so it lacks a riprap contrast. D compares equal and different percentages, which does not test bulkheads against riprap. The remaining comparison directly shows lower integrity at the bulkhead-heavy site. The answer is <strong>C</strong>."
+    }
+  ]
+}

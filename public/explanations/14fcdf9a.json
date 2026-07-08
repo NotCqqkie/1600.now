@@ -1,0 +1,15 @@
+{
+  "questionId": "14fcdf9a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding sides",
+      "content": "Since triangles QPR and STR are similar in that order, the matching vertices are Q with S, P with T, and R with R. Therefore, side $QP$ corresponds to side $ST$, and side $QR$ corresponds to side $SR$."
+    },
+    {
+      "title": "Use the scale factor",
+      "content": "The scale factor from the larger triangle to the smaller triangle is\n$$\\frac{ST}{QP}=\\frac{6}{16}$$\nApply that factor to $QR=34$, because $QR$ corresponds to $SR$.\n$$SR=34\\cdot \\frac{6}{16}=\\frac{204}{16}$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

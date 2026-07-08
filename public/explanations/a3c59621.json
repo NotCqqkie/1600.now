@@ -1,0 +1,19 @@
+{
+  "questionId": "a3c59621",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Predict the species response",
+      "content": "<em>P. rufifrons</em> uses foliage gleaning, which limits its field of vision while it forages. <em>T. surinamus</em> uses sallying, which lets it scan for prey and predators at the same time. Okafor's hypothesis predicts that the more vulnerable gleaner should be more sensitive to predator warning signals from neighboring species."
+    },
+    {
+      "title": "Keep the evidence comparative",
+      "content": "The strongest finding should compare the two species under the kind of warning signal named in the hypothesis. It should not depend on random noise, unfamiliar nonlocal calls, or a pattern where both birds react in the same way, because those results would not show greater sensitivity in the more vulnerable species."
+    },
+    {
+      "title": "Reject weak or opposite findings",
+      "content": "Choice A does not isolate greater sensitivity in <em>P. rufifrons</em>, because both species respond in one alarm-call condition. Choice B is weak because <em>P. rufifrons</em> reacts to random noise and both species respond to local alarms. Choice C gives the opposite pattern, with <em>T. surinamus</em> reacting and <em>P. rufifrons</em> not reacting. Choice D matches the prediction: the more vulnerable <em>P. rufifrons</em> responds to another local bird's alarm calls, while <em>T. surinamus</em> shows no behavioral change. The answer is <strong>D</strong>."
+    }
+  ]
+}

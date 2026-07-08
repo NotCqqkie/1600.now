@@ -1,0 +1,19 @@
+{
+  "questionId": "8232c861",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of s",
+      "content": "Rewrite line $s$ in slope-intercept form:\n$$\n10x+2y=0\n$$\n$$\n2y=-10x\n$$\n$$\ny=-5x\n$$\nSo line $s$ has slope $-5$."
+    },
+    {
+      "title": "Use perpendicular slope",
+      "content": "Line $t$ is perpendicular to line $s$, so its slope is the negative reciprocal of $-5$, which is $\\frac{1}{5}$."
+    },
+    {
+      "title": "Use the two points",
+      "content": "The slope between $(7,0)$ and $(k,\\frac{6}{5})$ is $\\frac{1}{5}$:\n$$\n\\frac{\\frac{6}{5}-0}{k-7}=\\frac{1}{5}\n$$\n$$\n6=k-7\n$$\n$$\nk=13\n$$\nThe answer is <strong>13</strong>."
+    }
+  ]
+}

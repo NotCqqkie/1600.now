@@ -1,0 +1,18 @@
+{
+  "questionId": "b53a37fb",
+  "correctAnswer": "3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine variable terms",
+      "content": "Add $x$ to both sides:\n$$\n13x+x=42\n$$\n$$\n14x=42\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Divide both sides by $14$:\n$$\nx=\\frac{42}{14}=3\n$$\nA calculator check comes from entering the equation as written and reading the same $x$-value. The answer is <strong>3</strong>.",
+      "desmosExpressions": [
+        "13x = 42 - x"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The sentence claims “Several states saw rapid growth in the production of this resource” — the blank requires an example showing substantial increases across multiple states over the full time period shown."
+      "title": "Use the growth claim",
+      "content": "The sentence needs an example of several states seeing rapid growth in copper production. The best graph evidence should show increases across multiple states over time."
     },
     {
-      "title": "Match the evidence",
-      "content": "D directly supports this by showing all three states—Arizona, Michigan, and Montana—experienced significant production increases from 1889 to 1909, with Arizona rising from roughly 30 to 280 million pounds, Montana from roughly 100 to 310 million pounds, and Michigan from roughly 80 to 230 million pounds.<br/><br/>A, B, and C either narrow the focus to one state, provide a snapshot of one year, or examine only part of the time period rather than illustrating the broad growth pattern across states.<br/><br/><strong>D</strong> is correct."
+      "title": "Match broad increases",
+      "content": "A focuses on a slowdown in one state, B compares states in one year, and C gives one Arizona value without showing growth. The matching choice covers Arizona, Michigan, and Montana rising substantially from 1889 to 1909. The answer is <strong>D</strong>."
     }
   ]
 }

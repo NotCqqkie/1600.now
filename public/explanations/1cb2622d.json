@@ -1,0 +1,19 @@
+{
+  "questionId": "1cb2622d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the given line",
+      "content": "Expand the given equation and collect like terms:<br/>$$11(x-n)=11y+11n$$<br/>$$11x-11n=11y+11n$$<br/>$$x-y=2n$$"
+    },
+    {
+      "title": "Use the no-solution condition",
+      "content": "A system of two linear equations has no solution when the lines are parallel but distinct. The second equation must simplify to the same left side, $x-y$, with a different constant."
+    },
+    {
+      "title": "Find the matching choice",
+      "content": "The equation $3x-3y=3n$ simplifies to $x-y=n$. Since $n$ is positive, $x-y=n$ and $x-y=2n$ are different parallel lines. The answer is <strong>D</strong>."
+    }
+  ]
+}

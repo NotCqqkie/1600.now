@@ -1,0 +1,19 @@
+{
+  "questionId": "069d831e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the next value",
+      "content": "Simplify the second value:\n$$\nf(s+1)=t-0.76t=0.24t\n$$"
+    },
+    {
+      "title": "Use the growth factor",
+      "content": "A one-unit input increase multiplies the output by $b$, so\n$$\nf(s+1)=bt\n$$"
+    },
+    {
+      "title": "Solve for the base",
+      "content": "Set the two expressions equal:\n$$\nbt=0.24t\n$$\nThus $b=0.24$. The answer is <strong>A</strong>."
+    }
+  ]
+}

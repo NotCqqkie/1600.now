@@ -1,0 +1,15 @@
+{
+  "questionId": "178de29b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the borrowing evidence",
+      "content": "The passage says Mayan languages borrowed Mixe-Zoquean words during the period when the Olmecs dominated the region. It then adds that all of those borrowed words derive from the Zoque branch. For words to come specifically from the Zoque branch at that time, the Zoque branch must already have existed as a distinct branch."
+    },
+    {
+      "title": "Reject broader claims",
+      "content": "A invents a replacement of Zoque by Mixe that the passage never mentions. B wrongly makes Mayan part of the same language family, even though the passage says Mayan languages are otherwise unrelated. C adds borrowing within the Mixe-Zoquean family, which the passage does not discuss. The answer is <strong>D</strong>."
+    }
+  ]
+}

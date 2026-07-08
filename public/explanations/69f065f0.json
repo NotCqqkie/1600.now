@@ -1,0 +1,15 @@
+{
+  "questionId": "69f065f0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the infrared contrast",
+      "content": "The passage calls infrared heating an improvement over conventional thermal methods because it generates heat within the food and reduces industrial cooking times. That contrast implies conventional methods take longer to cook or preserve food."
+    },
+    {
+      "title": "Reject unsupported disadvantages",
+      "content": "A invents vulnerability to breakdowns. B invents a limitation to lightweight or small foods, even though large batches are discussed. D invents an energy-use comparison that the passage never makes. The answer is <strong>C</strong>."
+    }
+  ]
+}

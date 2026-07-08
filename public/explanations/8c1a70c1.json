@@ -1,0 +1,15 @@
+{
+  "questionId": "8c1a70c1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two sentences",
+      "content": "The first clause states that Kizomba has become an international phenomenon. The next sentence begins with the 2022 example of Elvis and Namrata winning the Olympiads of Kizomba competition."
+    },
+    {
+      "title": "Reject fused clauses",
+      "content": "A creates a run-on, B creates a comma splice, and C uses <strong>and in</strong> without correctly joining the clauses. The sentence needs a period before the 2022 example. The answer is <strong>D</strong>."
+    }
+  ]
+}

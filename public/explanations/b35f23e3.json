@@ -1,0 +1,15 @@
+{
+  "questionId": "b35f23e3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two texts",
+      "content": "Text 1 says Nebraska structures are typically not built to resist expansive soil damage because the effects appear slowly and can be repaired. Text 2 says expansive soil damage can be mitigated by building structures on pile supports."
+    },
+    {
+      "title": "Apply Text 2's solution",
+      "content": "A proposes measuring moisture levels, which Text 2 does not recommend. B says Nebraska engineers misjudged existing techniques, but Text 1 says they typically do not build to resist the damage. D focuses on replacing existing supports, which is not discussed. Karim's team would recommend pile supports for new structures. The answer is <strong>C</strong>."
+    }
+  ]
+}

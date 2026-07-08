@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variables and set up area equation",
-      "content": "Let the width be $w$ meters. Then the length is $2w$ meters. The area is $$w \\cdot 2w = 2w^2$$ square meters. Given area = 288, we have $$2w^2 = 288$$."
+      "title": "Write the area equation",
+      "content": "Let $w$ be the width. The length is twice the width, so the length is $2w$. The area equation is<br/>$$w(2w)=288$$"
     },
     {
-      "title": "Solve for width and select answer",
-      "content": "Divide both sides by 2: $$w^2 = 144$$. Take the positive square root (width cannot be negative): $$w = 12$$ meters. That matches the correct answer: <strong>A</strong> is correct."
+      "title": "Solve for the width",
+      "content": "Simplify and take the positive square root.<br/>$$2w^2=288$$<br/>$$w^2=144$$<br/>$$w=12$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

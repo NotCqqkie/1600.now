@@ -1,0 +1,15 @@
+{
+  "questionId": "06cc5e64",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the plural noun",
+      "content": "The blank modifies the plural noun \"nurses\" and refers back to the thousands of nurses mentioned in the previous sentence. The modifier must therefore be plural."
+    },
+    {
+      "title": "Use plural demonstrative agreement",
+      "content": "Choice A would create \"one nurses,\" which is ungrammatical. Choice B and Choice C are singular demonstratives, so they cannot modify the plural noun \"nurses.\" The plural demonstrative correctly agrees with the noun and points back to the group already named. The answer is <strong>D</strong>."
+    }
+  ]
+}

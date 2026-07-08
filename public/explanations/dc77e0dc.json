@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute t = 0 into the function",
-      "content": "At the surface of the sample, the depth is $t = 0$ millimeters.<br/><br/>Substitute into the function: $$f(0) = 640(0.5)^{0/15}$$ Simplify the exponent: $$f(0) = 640(0.5)^{0}$$ Any nonzero number to the power 0 equals 1: $$f(0) = 640 \\cdot 1 = 640$$ That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Use surface depth",
+      "content": "At the surface of the copper sample, the depth is $t=0$ millimeters."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $0$ for $t$ and evaluate completely:<br/>$$f(0)=640(0.5)^{0/15}=640(0.5)^0=640(1)=640$$<br/>The estimated number of particles is $640$. The answer is <strong>A</strong>."
     }
   ]
 }

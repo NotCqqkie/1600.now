@@ -1,0 +1,19 @@
+{
+  "questionId": "3de53686",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize squares",
+      "content": "The expression inside the parentheses is a difference of squares. The term $144y^2$ can be rewritten as $(12y)^2$, so the expression has the form $a^2-b^2$:\n$$\nx^2-144y^2=x^2-(12y)^2\n$$"
+    },
+    {
+      "title": "Factor the difference",
+      "content": "Use the identity $a^2-b^2=(a-b)(a+b)$. Here, $a=x$ and $b=12y$, so the two factors must use $x-12y$ and $x+12y$:\n$$\nx^2-144y^2=(x-12y)(x+12y)\n$$"
+    },
+    {
+      "title": "Keep the outside factor",
+      "content": "The original expression has an outside factor of $9$, so keep that factor attached to the factored expression:\n$$\n9(x-12y)(x+12y)\n$$\nThis matches the choice with the same outside factor and both conjugate factors. The answer is <strong>D</strong>."
+    }
+  ]
+}

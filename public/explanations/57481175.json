@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the bar graph",
-      "content": "The vervet bar reaches the 12 mark on the vertical axis, and the mandrill bar reaches the 6 mark."
+      "title": "Read the two bars",
+      "content": "From the bar graph, the vervet count is $11$ and the mandrill count is $5$."
     },
     {
-      "title": "Compute the difference",
-      "content": "Subtract the mandrill count from the vervet count: $$12 - 6 = 6$$.<br/><strong>B</strong> is correct."
+      "title": "Find how many more",
+      "content": "Subtract the mandrill count from the vervet count:<br/>$$11-5=6$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

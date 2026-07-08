@@ -1,0 +1,19 @@
+{
+  "questionId": "52b690c5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the Otomi row",
+      "content": "The blank asks for the approximate number of Otomi speakers in Mexico. The table lists Otomi in central Mexico with 307,900 speakers, which is below Tzeltal's count but still substantial."
+    },
+    {
+      "title": "Reject other language counts",
+      "content": "A gives the count for Me'phaa. B gives the count for Tzeltal, which would contradict the statement that Otomi is not as widely spoken. D gives the count for a different northern Mexico language."
+    },
+    {
+      "title": "Complete the statistic",
+      "content": "Otomi has approximately 307,900 speakers in Mexico. The answer is <strong>C</strong>."
+    }
+  ]
+}

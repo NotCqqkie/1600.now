@@ -1,0 +1,15 @@
+{
+  "questionId": "af791a20",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the dream-tracking comparison",
+      "content": "The underlined sentence compares participants' eye tracking in dreams with sighted people's visual tracking while awake. That comparison supports the team's conclusion that the brain perceives dream objects as something more than pure imagination. The awake-tracking baseline gives the dream data meaning, rather than describing a practical effect."
+    },
+    {
+      "title": "Reject mismatched functions",
+      "content": "Choice A treats the detail as a real-world implication, but it is evidence leading to the conclusion. Choice C invents an unexpected result and a changed research focus. Choice D reverses the logic by saying the evidence undermines the hypothesis. The focus remains on the evidence's role in the argument. The answer is <strong>B</strong>."
+    }
+  ]
+}

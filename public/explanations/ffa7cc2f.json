@@ -1,0 +1,19 @@
+{
+  "questionId": "ffa7cc2f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the singular complement",
+      "content": "The sentence says the entities share one feature: being \"an island or a group of islands.\" Because the complement is singular, the wording should describe each entity individually, not the entities as one collective group."
+    },
+    {
+      "title": "Reject agreement problems",
+      "content": "Choice B pairs plural all with singular is. Choice D pairs singular each with plural are. Choice A uses all with are, but that collective phrasing does not fit the singular complement that follows."
+    },
+    {
+      "title": "Use the distributive subject",
+      "content": "Each of them is treats every geopolitical entity one at a time and correctly pairs the singular subject each with the singular verb is. The answer is <strong>C</strong>."
+    }
+  ]
+}

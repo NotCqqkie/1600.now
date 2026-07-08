@@ -1,0 +1,19 @@
+{
+  "questionId": "04557e5b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the process described",
+      "content": "The passage explains Cumberland Mountain, a pumped-storage hydropower facility. It describes water being pumped uphill when demand is low, stored as gravitational potential energy, and released downhill to spin turbines when demand peaks."
+    },
+    {
+      "title": "Reject purposes it does not have",
+      "content": "Choice A would require comparing two methods of energy generation, but the text focuses on one facility. Choice C calls the technology new and benefit-focused, while the passage mainly describes operation. Choice D is a recommendation to utilities, but the passage does not urge anyone to build facilities."
+    },
+    {
+      "title": "Choose the mechanism purpose",
+      "content": "Since the passage walks through how this specific water-battery stores and releases energy, its main purpose is explanatory: it gives the basics of how a specific energy technology works. The answer is <strong>B</strong>."
+    }
+  ]
+}

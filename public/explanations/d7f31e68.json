@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the most important information in the notes",
-      "content": "The notes state: &ldquo;She is best known for a 2011 YouTube video that has been viewed over two million times.&rdquo; The task is to accurately convey what Lena Park is most noted for, using only details supported by the notes."
+      "title": "Find the best-known achievement",
+      "content": "The notes explicitly state that Lena Park is best known for a 2011 YouTube video viewed over two million times. They also identify the performance as <em>Three Beats for Beatbox Flute</em>."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"Lena Park, who has won multiple national flute competitions, has also combined flute playing and beatboxing.\"</strong>: Foregrounds competitions rather than the YouTube video the notes identify as her best-known achievement. &#10007;</li><li><strong>\"Among her many achievements, prominent American flutist Lena Park graduated from the New England Conservatory and has won multiple national flute competitions.\"</strong>: Emphasizes education and competitions; omits the YouTube video entirely. &#10007;</li><li><strong>\"Lena Park is best known for a 2011 YouTube video performance of <em>Three Beats for Beatbox Flute</em> that has been viewed over two million times.\"</strong>: Uses the exact phrase &ldquo;is best known for,&rdquo; names the year, platform, title, and view count &mdash; all details from the notes. &#10003;</li><li><strong>\"Composer Marcus Rivera's original work <em>Three Beats for Beatbox Flute</em> combines flute playing and beatboxing.\"</strong>: Shifts focus to the composer Marcus Rivera rather than Lena Park. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Keep focus on Park",
+      "content": "A foregrounds competitions and beatboxing, B foregrounds education and awards, and D shifts attention to composer Marcus Rivera. The choice that states Park's best-known video performance and view count directly matches the goal. The answer is <strong>C</strong>."
     }
   ]
 }

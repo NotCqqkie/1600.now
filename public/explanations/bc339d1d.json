@@ -1,0 +1,15 @@
+{
+  "questionId": "bc339d1d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The question asks for the function value when the input is $3$. Replace $x$ with $3$ in the given rule before doing any arithmetic.<br/>$$p(3)=3^3+18$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Evaluate the exponent first: $3^3$ means $3\\cdot3\\cdot3$, which equals $27$. Then add the constant term from the function rule.<br/>$$p(3)=27+18$$<br/>$$p(3)=45$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

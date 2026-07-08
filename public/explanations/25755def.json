@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what contrasting requires",
-      "content": "The goal is to “contrast” the two samples—meaning to highlight what's different between them, not what's similar."
+      "title": "Find a sample difference",
+      "content": "The student wants to contrast the two samples, so the sentence must highlight a difference between the TPU fiber and the SEBS rubber fiber. The notes give one clear difference: the TPU sample was 3 millimeters thick, and the SEBS sample was 4 millimeters thick."
     },
     {
-      "title": "Select the choice that shows a specific difference",
-      "content": "<strong>Choice D &mdash; The SEBS rubber sample used in the 2019 study was thicker than the TPU sample.</strong> states that the SEBS sample was thicker than the TPU sample (4mm vs 3mm), using relevant data from the notes to establish a concrete distinction.<br/><br/>The other choices either emphasize similarity (both temperatures increased, both were studied) or provide only general background unrelated to comparing these specific samples.<br/><br/>That matches <strong>Choice D &mdash; The SEBS rubber sample used in the 2019 study was thicker than the TPU sample.</strong>."
+      "title": "Reject shared or general facts",
+      "content": "Choice A states a similarity: both samples heated when twisted. Choice B only says both samples were included in the 2019 study. Choice C gives general background about torsional heating rather than comparing the two specific samples. The answer is <strong>D</strong>."
     }
   ]
 }

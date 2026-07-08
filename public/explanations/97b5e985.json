@@ -1,0 +1,19 @@
+{
+  "questionId": "97b5e985",
+  "correctAnswer": "70000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percents",
+      "content": "Let the masses of the objects be $A$, $B$, and $C$. The statements become\n$$\nA=4.41B\n$$\nand\n$$\nA=0.00630C\n$$"
+    },
+    {
+      "title": "Find the mass ratio",
+      "content": "Set the two expressions for $A$ equal and solve for \n$$\n\\frac{C}{B}\n$$\n$$\n4.41B=0.00630C\n$$\n$$\n\\frac{C}{B}=\\frac{4.41}{0.00630}=700\n$$"
+    },
+    {
+      "title": "Convert the ratio to percent",
+      "content": "Since $C$ is $p\\%$ of $B$, write the ratio as \n$$\n\\frac{p}{100}\n$$\n$$\n\\frac{p}{100}=700\n$$\n$$\np=700\\cdot 100=70000\n$$\nThe answer is <strong>70000</strong>."
+    }
+  ]
+}

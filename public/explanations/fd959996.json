@@ -1,0 +1,15 @@
+{
+  "questionId": "fd959996",
+  "correctAnswer": "6.96",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the retail price",
+      "content": "The retail price is $290\\%$ of the wholesale price, so multiply by $2.90$.<br/>$$8.00\\cdot2.90=23.20$$"
+    },
+    {
+      "title": "Apply the discount",
+      "content": "A $70\\%$ discount means the remaining price is $30\\%$ of the retail price.<br/>$$0.30\\cdot23.20=6.96$$<br/>The answer is <strong>6.96</strong>."
+    }
+  ]
+}

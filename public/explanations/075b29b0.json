@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $15{x}^{3}+6{x}^{2}+4x+6$."
+      "title": "Group like terms",
+      "content": "Keep the signs from each polynomial, then combine only terms with the same power of $x$. Cubic terms combine with cubic terms, the quadratic term stays quadratic, the linear term stays linear, and constants combine with constants.\n\n$$(8x^3+4x+9)+(7x^3+6x^2-3)$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Line up like terms",
-      "content": "Adding polynomials keeps the signs shown in each group, then matching powers of $x$ can be combined."
-    },
-    {
-      "title": "Combine each power of x",
-      "content": "The cubic terms give $$8x^3+7x^3=15x^3.$$ The quadratic term is $6x^2$, the linear term is $4x$, and the constants give $$9-3=6.$$ So the expression is $$15x^3+6x^2+4x+6.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "That expression matches <strong>Choice D &mdash; $15{x}^{3}+6{x}^{2}+4x+6$</strong>, so <strong>D</strong> is correct."
+      "title": "Combine each power",
+      "content": "Add the cubic terms, keep the quadratic term, keep the linear term, and combine the constants.\n\n$$8x^3+7x^3=15x^3$$\n\n$$9-3=6$$\n\nSo the expression is\n\n$$15x^3+6x^2+4x+6$$\n\nThe answer is <strong>D</strong>."
     }
   ]
 }

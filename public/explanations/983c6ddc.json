@@ -1,0 +1,19 @@
+{
+  "questionId": "983c6ddc",
+  "correctAnswer": "26/15,1.733",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Two cases for $2|5x-1|=5x+9$. Case 1: $\\left(2\\right)(5x-1)=5x+9$ gives $x=11/5$. Case 2: $-2(5x-1)=5x+9$ gives $x=-7/15$. Both check valid."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "Add: $\\dfrac{11}{5}-\\dfrac{7}{15}=\\dfrac{33}{15}-\\dfrac{7}{15}=\\dfrac{26}{15}$.<br/><br/>The answer is <strong>26/15</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "The final check is to make sure the computed value answers exactly what the question asks for. The two solutions are $11/5$ and $-7/15$, and their sum is $26/15,1.733$. Therefore the value to enter is $26/15,1.733$."
+    }
+  ]
+}

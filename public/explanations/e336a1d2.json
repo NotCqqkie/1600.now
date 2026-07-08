@@ -5,20 +5,16 @@
   "steps": [
     {
       "title": "Use the cube volume formula",
-      "content": "A cube's volume is the cube of its edge length: $V=s^3$. With edge length $42$, compute $42^3$."
-    },
-    {
-      "title": "Apply the cube volume formula",
-      "content": "The volume of a cube equals the cube of its edge length. With edge 42 inches, we compute $V = 42^3$.",
+      "content": "The volume of a cube is the cube of its edge length. With edge length $42$ inches, compute $42^3$.",
       "formula": "$$V = s^3$$"
     },
     {
-      "title": "Calculate 42 squared",
-      "content": "First, compute $42 \\times 42$:<br/>$$42 \\times 42 = 1,764$$<br/>Note that 1,764 is the remaining alternative — a common error for students who use area instead of volume."
+      "title": "Calculate the square first",
+      "content": "First square the edge length:<br/>$$42^2=1{,}764$$<br/>This is the area of one face, so multiply by $42$ once more to get volume."
     },
     {
-      "title": "Multiply by 42 once more",
-      "content": "Now we compute $1,764 \\times 42$ by splitting into tens and ones:<br/>$$1,764 \\times 40 = 70,560$$<br/>$$1,764 \\times 2 = 3,528$$<br/>$$70,560 + 3,528 = 74,088$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Multiply by the edge length",
+      "content": "Now finish the cube:<br/>$$1{,}764\\cdot42=1{,}764\\cdot40+1{,}764\\cdot2$$<br/>$$=70{,}560+3{,}528=74{,}088$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

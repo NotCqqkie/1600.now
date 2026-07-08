@@ -1,0 +1,19 @@
+{
+  "questionId": "a688f38f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the factor",
+      "content": "Multiply $12$ by each term inside the parentheses, because the whole quantity $x+9$ is being multiplied by $12$.<br/>$$12(x+9)=12\\cdot x+12\\cdot9$$"
+    },
+    {
+      "title": "Simplify the products",
+      "content": "The variable term becomes $12x$, and the constant term becomes $108$.<br/>$$12\\cdot x+12\\cdot9=12x+108$$"
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "Choice A leaves $9$ undistributed. Choice C adds $12$ and $9$. Choice D subtracts instead of multiplying. Choice B gives $12x+108$. The answer is <strong>B</strong>."
+    }
+  ]
+}

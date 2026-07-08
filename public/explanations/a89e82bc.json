@@ -1,0 +1,15 @@
+{
+  "questionId": "a89e82bc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the unequal correlations",
+      "content": "The graph shows different model-to-participant correlations for P3's impressionist and color-field painting ratings. If P3 gave equal actual ratings to both styles, the unequal correlations suggest the model's predicted ratings did not treat the two styles the same."
+    },
+    {
+      "title": "Avoid actual-pleasure claims",
+      "content": "Choice B says the two predicted ratings would be equal, which conflicts with the unequal correlations. Choice C and Choice D make claims about which style P3 would enjoy more, but the graph gives correlations, not direct pleasure rankings. The supported statement is that the predicted ratings differed. The answer is <strong>A</strong>."
+    }
+  ]
+}

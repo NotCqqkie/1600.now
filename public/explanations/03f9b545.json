@@ -1,0 +1,19 @@
+{
+  "questionId": "03f9b545",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function value",
+      "content": "The question asks when the function value is $73$, so replace $f(x)$ with $73$ and isolate the exponential expression by subtracting $9$ from both sides.\n$$16^{\\frac{x}{12}}+9=73$$\n$$16^{\\frac{x}{12}}=64$$"
+    },
+    {
+      "title": "Rewrite with base two",
+      "content": "Write both sides as powers of $2$ so the exponents can be compared. Since $16=2^4$ and $64=2^6$, the equation becomes\n$$(2^4)^{\\frac{x}{12}}=2^6$$\n$$2^{\\frac{x}{3}}=2^6$$"
+    },
+    {
+      "title": "Equate the exponents",
+      "content": "The bases are equal, so the exponents must be equal. Solve the resulting linear equation for $x$.\n$$\\frac{x}{3}=6$$\n$$x=18$$\nThis value makes $f(x)$ equal to $73$. The answer is <strong>18</strong>."
+    }
+  ]
+}

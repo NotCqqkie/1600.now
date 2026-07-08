@@ -1,0 +1,15 @@
+{
+  "questionId": "01bae3ef",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep present tense",
+      "content": "The passage defines worker cooperatives in the present tense: a cooperative <em>is</em> owned and operated by workers, this model <em>stands</em> in contrast, and profits <em>are</em> shared. The blank should stay in that same general-present timeframe."
+    },
+    {
+      "title": "Avoid past-tense shifts",
+      "content": "B uses past perfect, C uses simple past, and D uses past progressive. All three shift away from the present-tense explanation of how cooperatives work. The plural subject <em>workers</em> needs the present-tense verb describing what they do directly from the cooperative's success. The answer is <strong>A</strong>."
+    }
+  ]
+}

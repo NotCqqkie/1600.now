@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the right triangle setup",
-      "content": "In right triangle $QRS$ with $QR\\lt RS$, the side opposite the right angle is the hypotenuse $\\overline{QS}$. The given leg of length $17$ is opposite angle $Q$. From angle $Q$:<br/>$$\\sin Q = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{17}{QS}$$"
+      "title": "Identify the sine ratio",
+      "content": "Side $QS$ is the hypotenuse. From angle $Q$, the given opposite side has length $22$, so use sine.<br/>$$\\sin Q=22/QS$$"
     },
     {
-      "title": "Solve for $QS$",
-      "content": "$$QS = \\frac{17}{\\sin Q}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Solve for the hypotenuse",
+      "content": "Multiply by $QS$ and divide by $\\sin Q$.<br/>$$QS=22/\\sin Q$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

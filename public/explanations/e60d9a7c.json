@@ -1,0 +1,15 @@
+{
+  "questionId": "e60d9a7c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the structural turn",
+      "content": "The text first reports Ward and Lund's conclusion about ocean acidification. The word \"However\" then shifts to a concern: the study used a small sample, which can lead to biased analysis and exaggerated effects."
+    },
+    {
+      "title": "Match the result and concern",
+      "content": "Choice A treats the fish species as the focus. Choice B invents a solution. Choice C claims the text compares two studies by similarity and difference, but it raises a concern about one study's result. The structure is a study result followed by a related concern. The answer is <strong>D</strong>."
+    }
+  ]
+}

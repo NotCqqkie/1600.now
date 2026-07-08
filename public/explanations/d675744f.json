@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept",
-      "content": "Substitute $x = 0$ into the equation: $$y = 4 \\times 2^0 = 4 \\times 1 = 4$$ The graph passes through $(0, 4)$ on the $y$-axis."
+      "title": "Find the starting point",
+      "content": "Substitute $x=0$ into the equation:<br/>$$y=4\\cdot 2^0=4\\cdot 1=4$$<br/>So the graph crosses the $y$-axis at $(0,4)$."
     },
     {
-      "title": "Determine exponential growth and asymptotic behavior",
-      "content": "The equation has the form $y = a \\cdot b^x$ with $a = 4$ and base $b = 2 \\gt  1$, so the function grows exponentially. <br/><br/>Check another point: at $x = 1$, $$y = 4 \\times 2^1 = 8$$ <br/>For negative $x$-values, as $x \\to -\\infty$, the term $2^x \\to 0$, so $y \\to 0$. This means the graph approaches the $x$-axis as a horizontal asymptote but never touches it. The function is always positive."
+      "title": "Check the growth pattern",
+      "content": "The base is $2$, so each increase of $1$ in $x$ doubles the value of $y$. For example:<br/>$$y=4\\cdot 2^1=8$$<br/>The correct graph should be increasing, stay above the $x$-axis, and pass through points like $(0,4)$ and $(1,8)$."
     },
     {
-      "title": "Match the graph to the characteristics",
-      "content": "The correct graph must show: <ul><li>A curve passing through $(0, 4)$</li><li>Steep exponential growth to the right</li><li>Asymptotic behavior approaching the $x$-axis on the left</li><li>Always above the $x$-axis (no $x$-intercept)</li></ul> That matches the correct answer — <strong>D</strong> is correct.",
+      "title": "Use the graph",
+      "content": "Graph the equation and compare its intercept and growth pattern to the choices. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=4*(2^x)"
       ]

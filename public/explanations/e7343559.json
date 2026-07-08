@@ -4,15 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what we're testing",
-      "content": "To find the correct table, all three $(x, y)$ pairs must satisfy the equation $y = -4x + 40$. We can test a choice by substituting each $x$ value into the equation and checking if we get the matching $y$ value."
-    },
-    {
-      "title": "Backsolving by testing the candidate",
-      "content": "Substitute each point into $y = -4x + 40$:<ul><li>$x = 0$: $y = -4(0) + 40 = 40$ ✓ (table shows $40$)</li><li>$x = 1$: $y = -4(1) + 40 = 36$ ✓ (table shows $36$)</li><li>$x = 2$: $y = -4(2) + 40 = 32$ ✓ (table shows $32$)</li></ul>All three points satisfy the equation. That matches the correct answer — <strong>C</strong> is correct.",
+      "title": "Test the listed inputs",
+      "content": "Use the equation and substitute the $x$-values shown in the tables:<br/>$$y=-4x+40$$",
       "desmosExpressions": [
         "y=-4x+40"
       ]
+    },
+    {
+      "title": "Compute the outputs",
+      "content": "For the first three listed inputs:<br/>$$x=0:\\ y=-4(0)+40=40$$<br/>$$x=1:\\ y=-4(1)+40=36$$<br/>$$x=2:\\ y=-4(2)+40=32$$<br/>The matching table has outputs $40$, $36$, and $32$. The answer is <strong>C</strong>."
     }
   ]
 }

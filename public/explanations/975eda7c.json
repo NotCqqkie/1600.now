@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must do",
-      "content": "The subject of the main clause is &quot;people in the Americas.&quot; The blank must supply a finite verb that can serve as the main verb of that clause. A finite verb is the only form that can anchor an independent clause and carry tense."
+      "title": "Supply the finite verb",
+      "content": "The subject is \"people in the Americas,\" and the main clause needs a finite verb. The phrase \"For thousands of years\" calls for a verb form that can describe use continuing from the past into the present."
     },
     {
-      "title": "Eliminate non-finite forms and confirm the answer",
-      "content": "All four choices are verb forms, but three are non-finite and cannot anchor a main clause:<ul><li><strong>Choice A &mdash; to use</strong>: a to-infinitive — non-finite; leaves the clause without a main verb. &#10007;</li><li><strong>Choice B &mdash; have used</strong>: present perfect — a finite form; pairs naturally with &quot;for thousands of years&quot; to express an action spanning from the past to the present. &#10003;</li><li><strong>Choice C &mdash; having used</strong>: a participial form — non-finite; cannot anchor a main clause. &#10007;</li><li><strong>Choice D &mdash; using</strong>: a participial form — non-finite; cannot anchor a main clause. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "A is a to-infinitive, C is a participial phrase, and D is a participle. None can serve as the finite main verb for the subject. The answer is <strong>B</strong>."
     }
   ]
 }

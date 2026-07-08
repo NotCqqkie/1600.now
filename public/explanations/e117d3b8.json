@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Use the rule $\\sqrt{x} \\times \\sqrt{y} = \\sqrt{xy}$ to combine the two radicals: $\\sqrt{(a+c)^3} \\times \\sqrt{a+c} = \\sqrt{(a+c)^3 \\cdot (a+c)} = \\sqrt{(a+c)^4}$."
+      "title": "Combine the radicals",
+      "content": "Since $a$ and $c$ are positive, $a+c$ is positive. Combine the radicals:<br/>$$\\sqrt{(a+c)^3}\\cdot\\sqrt{a+c}=\\sqrt{(a+c)^3(a+c)}=\\sqrt{(a+c)^4}$$"
     },
     {
-      "title": "Step 2",
-      "content": "Since $a$ and $c$ are positive, $a+c \\gt 0$, so $\\sqrt{(a+c)^4} = (a+c)^2$."
+      "title": "Simplify the power",
+      "content": "Taking the square root of the fourth power gives<br/>$$\\sqrt{(a+c)^4}=(a+c)^2$$"
     },
     {
-      "title": "Step 3",
-      "content": "Expand: $(a+c)^2 = a^2 + 2ac + c^2$."
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li><strong>'$a + c$'</strong>: This would require the expression to equal $(a+c)^1$, but we derived $(a+c)^2$. &#10007;</li><li><strong>'$a^2 + c^2$'</strong>: Missing the cross term $2ac$; this is $(a+c)^2$ only if $ac=0$, which is impossible since both are positive. &#10007;</li><li><strong>'$a^2 + 2a c + c^2$'</strong>: Exactly the expansion of $(a+c)^2$. &#10003;</li><li><strong>'$a^2 \\times c^2$'</strong>: This equals $(ac)^2$, a product, which has no relation to $(a+c)^2$. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Expand the square",
+      "content": "Expand the binomial:<br/>$$(a+c)^2=a^2+2ac+c^2$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

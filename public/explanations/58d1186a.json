@@ -1,0 +1,15 @@
+{
+  "questionId": "58d1186a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the equation",
+      "content": "Isolate $x$: $6x+4=58$, so $6x=54$ and $x=9$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "The equation gives one value of $x$. Since the coefficient of $x$ is not zero, there is exactly one solution. The answer is <strong>B</strong>."
+    }
+  ]
+}

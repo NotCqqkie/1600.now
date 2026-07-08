@@ -1,0 +1,15 @@
+{
+  "questionId": "20dca355",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interruption",
+      "content": "The sentence opens an interruption after \"that\" with an em dash: \"through community involvement and scientific study\" sits between the subject and the verb \"aim.\" The blank must close that interruption."
+    },
+    {
+      "title": "Match the dash pair",
+      "content": "A leaves the opening dash unclosed. B uses a comma, and C uses a colon; neither matches the opening punctuation. The sentence needs a second em dash after \"study\" to resume the main clause. The answer is <strong>D</strong>."
+    }
+  ]
+}

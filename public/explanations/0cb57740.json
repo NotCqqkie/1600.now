@@ -4,17 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count each type of side",
-      "content": "There are $n$ sides with length 4 cm. The number of 9 cm sides is $6n$, and the number of 5 cm sides is $7$."
+      "title": "Count each side type",
+      "content": "There are $n$ sides of length $4\\,\\text{cm}$, $6n$ sides of length $9\\,\\text{cm}$, and $7$ sides of length $5\\,\\text{cm}$. The equation must count sides, not total centimeters."
     },
     {
       "title": "Add the side counts",
-      "content": "The polygon has 42 sides total, so the counts must add to 42:<br/>$$n+6n+7=42$$"
+      "content": "The polygon has $42$ sides total, so the side counts must add to $42$:<br/>$$n+6n+7=42$$"
     },
     {
       "title": "Combine like terms",
-      "content": "$$7n+7=42$$<br/>That matches <strong>Choice B &mdash; $7n+7=42$</strong>."
+      "content": "Combine the two terms with $n$. This keeps all three side groups in the total count:<br/>$$7n+7=42$$<br/>The answer is <strong>B</strong>."
     }
-  ],
-  "choiceElimination": "<ul><li><strong>Choice A &mdash; $6n+7=42$</strong>: This omits the n sides with length 4 cm from the count. It only counts the 6n sides of 9 cm and the 7 sides of 5 cm, missing the n sides themselves. &#10007;</li><li><strong>Choice B &mdash; $7n+7=42$</strong>: Counts 6n (9 cm sides) + n (4 cm sides) + 7 (5 cm sides) = 7n + 7 = 42. All three groups are included and combined correctly. &#10003;</li><li><strong>Choice C &mdash; $9n+4n+5n=42$</strong>: Multiplies the lengths (9, 4, 5) by n and adds them. This mixes lengths with counts and does not equal the total number of sides. &#10007;</li><li><strong>Choice D &mdash; $9 \\left(6n\\right)+4n+5 \\left(7\\right)=42$</strong>: Multiplies lengths by counts (e.g., 9 cm &times; 6n sides), which gives total centimeters, not total sides. This equals 42 cm, not 42 sides. &#10007;</li></ul>That matches <strong>Choice B &mdash; $7n+7=42$</strong>."
+  ]
 }

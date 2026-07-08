@@ -1,0 +1,19 @@
+{
+  "questionId": "0ba77cc6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "Distribute on each side of the equation:$$6(x+15)+4x=6x+90+4x=10x+90$$$$10(x+9)=10x+90$$"
+    },
+    {
+      "title": "Compare the expressions",
+      "content": "The equation becomes $$10x+90=10x+90$$Subtracting the same expression from both sides gives $0=0$, which is true for every real value of $x$."
+    },
+    {
+      "title": "Count the solutions",
+      "content": "Since every real number satisfies the original equation, there is no single restricted value and no contradiction. The equation has infinitely many solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

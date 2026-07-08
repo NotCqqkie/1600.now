@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x=5 into g(x) and set equal to 37",
-      "content": "We know that $g(5) = 37$. Substitute $x = 5$ into the function definition $g(x) = 6x + a$:$$g(5) = 6(5) + a = 37.$$Solve for <em>a</em>."
+      "title": "Substitute the input",
+      "content": "Use $g(5)=37$ in the function $g(x)=6x+a$. Replacing $x$ with $5$ gives an equation for the constant.<br/>$$6(5)+a=37$$"
     },
     {
-      "title": "Calculate and solve for a",
-      "content": "$30 + a = 37$, so subtracting 30 from both sides we get $a = 7$.<br/>That confirms <strong>C</strong> is correct."
+      "title": "Solve for the constant",
+      "content": "Compute the product, then subtract $30$ from both sides to isolate $a$.<br/>$$30+a=37$$<br/>$$a=7$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "f502660e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one finite verb",
+      "content": "The main verb of the sentence is \"analyzed.\" The blank should modify \"researchers\" without creating another finite verb before the main verb."
+    },
+    {
+      "title": "Reject extra main verbs",
+      "content": "A, C, and D are finite verb phrases, so each competes with \"analyzed\" and creates a sentence error. The participle in the remaining choice forms a modifying phrase instead. The answer is <strong>B</strong>."
+    }
+  ]
+}

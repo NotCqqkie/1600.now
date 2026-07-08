@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the conversion",
-      "content": "We are told that $1\\text{ meter}=100\\text{ centimeters}$, so multiply the number of meters by $100$ to get centimeters."
+      "title": "Use the conversion factor",
+      "content": "The question gives $1\\text{ meter}=100\\text{ centimeters}$. To convert meters to centimeters, multiply by $100$."
     },
     {
-      "title": "Convert 64 meters to centimeters",
-      "content": "$$64\\text{ m}\\times\\frac{100\\text{ cm}}{1\\text{ m}}=6{,}400\\text{ cm}$$"
+      "title": "Convert the length",
+      "content": "For $64$ meters:\n$$\n64\\cdot 100=6{,}400\n$$\nSo the equivalent length is $6{,}400$ centimeters."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $0.064$ &mdash; this is $64$ divided by $1000$, not multiplied by $100$. Eliminated.</li><li>B) $0.64$ &mdash; this divides by $100$ instead of multiplying. Eliminated.</li><li>C) $6{,}400$ &mdash; this equals $64\\times 100$. Matches.</li><li>D) $64{,}000$ &mdash; this multiplies by $1000$, which would be the conversion to millimeters. Eliminated.</li></ul><strong>C</strong> is correct."
+      "title": "Choose the centimeter value",
+      "content": "The answer is <strong>C</strong>."
     }
   ]
 }

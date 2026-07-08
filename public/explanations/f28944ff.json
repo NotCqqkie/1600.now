@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the shared inputs",
-      "content": "The answer choices all use $x=-1$, $0$, and $1$. Substitute each value into $q(x)=48(3^x)$."
+      "title": "Evaluate each input",
+      "content": "All four tables use $x=-1$, $x=0$, and $x=1$. Substitute those values into $q(x)=48(3^x)$.<br/>$$q(-1)=48(3^{-1})=16$$<br/>$$q(0)=48(3^0)=48$$<br/>$$q(1)=48(3)=144$$"
     },
     {
-      "title": "Read the output row",
-      "content": "The values are:<br/>$$q(-1)=16,\\quad q(0)=48,\\quad q(1)=144$$<br/>So the correct table must have output row $16,48,144$."
-    },
-    {
-      "title": "Match the table",
-      "content": "The correct table pairs $x=-1$, $0$, and $1$ with $q(x)=16$, $48$, and $144$, respectively. Therefore <strong>D</strong> is correct."
+      "title": "Match the output row",
+      "content": "The correct table must pair $-1$, $0$, and $1$ with outputs $16$, $48$, and $144$, respectively. The answer is <strong>D</strong>."
     }
   ]
 }

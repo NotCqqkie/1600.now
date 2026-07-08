@@ -1,0 +1,15 @@
+{
+  "questionId": "400bf49a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count additional books",
+      "content": "There are $x-1$ books after the first."
+    },
+    {
+      "title": "Build the cost equation",
+      "content": "Their cost is $14(x-1)$, plus $18$ for the first:\n$$\ny=14(x-1)+18\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

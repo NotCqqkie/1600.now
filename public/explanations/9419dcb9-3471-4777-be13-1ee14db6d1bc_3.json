@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage says similarities in isotopic signatures make it <strong>tempting</strong> to treat meteorite geochemistry as ______ Mars's interior &mdash; but doing so is inadvisable. The blank describes a role meteorites would play: standing in <em>as substitutes</em> for direct samples of Mars's interior."
+      "title": "Use the substitute clue",
+      "content": "The passage says meteorites may seem tempting to use as stand-ins for direct evidence about Mars's interior. The blank needs a phrase for something that represents or substitutes for something else."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; proxies for</strong>: A proxy is a substitute that stands in for something inaccessible. Treating meteorites as proxies for Mars's interior is exactly the tempting but flawed move the paper cautions against. &#10003;</li><li><strong>Choice B &mdash; contrivances of</strong>: A contrivance is an artificial device or scheme. Meteorites aren't manufactured products of Mars's interior &mdash; this makes no scientific sense here. &#10007;</li><li><strong>Choice C &mdash; catalysts of</strong>: A catalyst triggers a reaction or change. Nothing in the passage suggests meteorites cause or trigger Mars's interior &mdash; they're used as evidence, not agents. &#10007;</li><li><strong>Choice D &mdash; deterrents to</strong>: A deterrent discourages or prevents. This reverses the logic &mdash; the passage says scientists are tempted <em>toward</em> using meteorites, not deterred by them. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject illogical roles",
+      "content": "Choice B suggests artificial devices, Choice C suggests causes of change, and Choice D suggests things that discourage. Meteorite geochemistry is being treated as substitute evidence. The answer is <strong>A</strong>."
     }
   ]
 }

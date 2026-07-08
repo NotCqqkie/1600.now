@@ -1,0 +1,15 @@
+{
+  "questionId": "9e260e34",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare actual and modeled ratings",
+      "content": "The question says P1 actually gave equal ratings to impressionist and color-field paintings. The graph's different correlations for the two styles indicate that the model's predictions did not track those equal actual ratings the same way."
+    },
+    {
+      "title": "Avoid unsupported direction",
+      "content": "Choice A and Choice C infer which style the model predicted P1 would enjoy more, but the correlation gap does not show direction. Choice D says the model predicted equal ratings, which would not fit the unequal correlations. The graph supports predicted ratings differing. The answer is <strong>B</strong>."
+    }
+  ]
+}

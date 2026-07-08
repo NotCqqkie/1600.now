@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the percentage increase to a growth factor",
-      "content": "<em>Increases by 0.62% of its value</em> means the new value is the old value plus 0.62% of the old value:\n<br/>New value = Old value + 0.0062 &times; Old value = Old value &times; (1 + 0.0062) = Old value &times; 1.0062"
+      "title": "Translate the yearly change",
+      "content": "Each year, the account increases by $0.62\\%$ of its previous value. That means each new value is the previous value multiplied by $1+0.0062$, or $1.0062$."
     },
     {
-      "title": "Recognize the exponential pattern",
-      "content": "Each year, we multiply the previous value by 1.0062:\n<br/>Year 1: $V_0 \\times 1.0062$\n<br/>Year 2: $V_0 \\times 1.0062^2$\n<br/>Year $t$: $$V(t) = V_0(1.0062)^t$$\n<br/>The variable $t$ is in the exponent, making this exponential (not linear)."
-    },
-    {
-      "title": "Determine if increasing or decreasing",
-      "content": "The base of the exponential is 1.0062, which is greater than 1. Multiplying by a number greater than 1 repeatedly produces larger values. This is an increasing exponential function. <strong>C</strong> is correct."
+      "title": "Classify the model",
+      "content": "Repeated multiplication by the same factor is exponential. Since the factor is greater than $1$, the value increases over time.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

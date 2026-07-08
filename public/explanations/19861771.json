@@ -1,0 +1,15 @@
+{
+  "questionId": "19861771",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Split the absolute value",
+      "content": "The equation\n$$\n|x-9|=14\n$$\nmeans the expression inside the absolute value is $14$ or $-14$:\n$$\nx-9=14 \\quad \\text{or} \\quad x-9=-14\n$$"
+    },
+    {
+      "title": "Add the solutions",
+      "content": "Solve both equations and add the results:\n$$\nx=23 \\quad \\text{or} \\quad x=-5\n$$\n$$\n23+(-5)=18\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

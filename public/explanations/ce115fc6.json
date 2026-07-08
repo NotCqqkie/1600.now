@@ -1,0 +1,15 @@
+{
+  "questionId": "ce115fc6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match terms to context",
+      "content": "The equation is\n$$\n12{,}600=3{,}000+240t\n$$\nThe total price equals the down payment plus the amount paid over $t$ monthly payments."
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "The expression $240t$ means $240$ dollars is paid each month for $t$ months. The number $t$ counts the payments, while $240$ gives the amount of one fixed monthly payment. The answer is <strong>B</strong>."
+    }
+  ]
+}

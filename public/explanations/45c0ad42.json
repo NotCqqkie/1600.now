@@ -1,0 +1,15 @@
+{
+  "questionId": "45c0ad42",
+  "correctAnswer": "364",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero from the point",
+      "content": "The point $(26,0)$ is on the graph, so $g(26)=0$. In $g(x)=(x+14)(t-x)$, the zeros are $x=-14$ and $x=t$. Since $26$ is the given zero, $t=26$."
+    },
+    {
+      "title": "Evaluate the function at zero",
+      "content": "$$g(0)=(0+14)(26-0)=14\\cdot26=364$$The answer is <strong>364</strong>."
+    }
+  ]
+}

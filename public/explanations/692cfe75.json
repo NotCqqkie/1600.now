@@ -1,0 +1,15 @@
+{
+  "questionId": "692cfe75",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the causal feature",
+      "content": "A study can support a cause-and-effect conclusion when the treatment and control groups are made comparable before the treatment. That way, a later difference is less likely to come from preexisting differences between the groups."
+    },
+    {
+      "title": "Use the random assignment",
+      "content": "The participants were randomly assigned to take either the supplement or the placebo. Random assignment is the feature that allows the researcher to attribute the statistically significant difference to the supplement. The answer is <strong>D</strong>."
+    }
+  ]
+}

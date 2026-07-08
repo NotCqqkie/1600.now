@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Define the task requirement",
-      "content": "The student wants to place Einstein&apos;s argument <em>within its historical context</em>. That requires three things: (1) identifying Einstein&apos;s specific argument, (2) locating it in the timeline of quantum theory&apos;s development, and (3) showing how it fits the broader story of the field."
+      "title": "Place the argument in context",
+      "content": "The student wants Einstein's argument placed within its historical context. That means the response must identify what Einstein argued, connect it to the early development of quantum theory, and show how it relates to Bohr's later-dominant Copenhagen interpretation."
     },
     {
-      "title": "Eliminate and match",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;During the dawn of quantum theory, Einstein maintained the independent reality of some subatomic entities, although Bohr's opposing interpretation would become the widely accepted view.&rsquo;</strong>: Names Einstein&apos;s argument, places it at the birth of quantum theory, and shows its historical outcome. All three requirements met. &#10003;</li><li><strong>Choice B &mdash; &lsquo;At the 1927 Solvay Conference on Physics, Einstein disagreed with Bohr's argument that subatomic entities like electrons had a reality independent of observation.&rsquo;</strong>: Attributes the &quot;independent reality&quot; argument to Bohr, not Einstein &mdash; factually backwards per the notes. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The attendees of the 1927 Solvay Conference were among the preeminent scientists of their era, including Einstein, who opposed Bohr's proposal.&rsquo;</strong>: Never states Einstein&apos;s actual argument, only that he opposed Bohr. No historical context for quantum theory&apos;s development. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In 1927, Einstein and Bohr engaged in a famous debate; Bohr's argument, later called the Copenhagen interpretation, would remain popular decades after.&rsquo;</strong>: Mentions the debate and Bohr&apos;s staying power, but never identifies Einstein&apos;s position. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Avoid incomplete frames",
+      "content": "Choice B reverses the positions by attributing independent reality to Bohr. Choice C says Einstein opposed Bohr but does not state Einstein's argument. Choice D mentions the famous debate and Bohr's later influence but still leaves out Einstein's own position."
+    },
+    {
+      "title": "Use the full historical frame",
+      "content": "The best completion says that during the dawn of quantum theory, Einstein maintained the independent reality of subatomic entities, while Bohr's opposing interpretation later became widely accepted. The answer is <strong>A</strong>."
     }
   ]
 }

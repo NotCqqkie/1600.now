@@ -1,0 +1,19 @@
+{
+  "questionId": "2caffa44",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared viewpoint",
+      "content": "The question asks what both authors would most likely agree with. Text 1 says collaboration between tribal groups and government agencies has built trust and will likely improve joint conservation projects. Text 2 says incorporating traditional ecological knowledge builds positive relationships and tends to lead to better conservation outcomes."
+    },
+    {
+      "title": "Eliminate unsupported effects",
+      "content": "<ul><li><strong>Choice A - 'A collaborative approach to conservation is likely to help reduce the predicted temperature increases in the Great Lakes region.'</strong>: Neither text claims that collaboration can reduce temperature increases. Both texts discuss collaboration as a way to improve conservation work.</li><li><strong>Choice B - 'In the Great Lakes region, conservation efforts focused on the northern wild rice plant are likely to be more effective than those focused on the American crow.'</strong>: Text 1 compares climate vulnerability for wild rice and crows, but neither text compares the effectiveness of conservation efforts focused on those species.</li></ul>"
+    },
+    {
+      "title": "Match both texts",
+      "content": "<ul><li><strong>Choice D - 'In the Great Lakes region, it is more important to focus conservation efforts on the northern wild rice plant than it is on the American crow.'</strong>: Neither author ranks those species by conservation priority. Text 1 discusses likely climate effects, not relative importance.</li><li><strong>Choice C - 'Natural resources conservation projects are likely to benefit from collaboration between tribal and government groups.'</strong>: This matches Text 1's claim that collaboration can improve joint projects and Text 2's claim that the approach can produce better outcomes. The answer is <strong>C</strong>.</li></ul>"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c92eb1a2",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Start with the given equation.<br/>$$4x+5=17$$<br/>$$4x=12$$<br/>$$x=3$$"
+    },
+    {
+      "title": "Evaluate the target expression",
+      "content": "Substitute $x=3$ into $7x-6$. This gives the value the question asks for.<br/>$$7(3)-6=21-6=15$$<br/>The answer is <strong>15</strong>."
+    }
+  ]
+}

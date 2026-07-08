@@ -1,0 +1,15 @@
+{
+  "questionId": "0d74fde4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate x",
+      "content": "Start with the equation<br/>$$b-65=\\frac{x}{y}$$<br/>Multiply both sides by $y$:<br/>$$y(b-65)=x$$"
+    },
+    {
+      "title": "Distribute y",
+      "content": "Distribute $y$ to both terms inside the parentheses:<br/>$$x=yb-65y$$<br/>$$x=by-65y$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

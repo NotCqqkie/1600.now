@@ -1,0 +1,15 @@
+{
+  "questionId": "e4c1baa4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Undo the added constant",
+      "content": "Start with the given equation:\n$$\n15x+45=180\n$$\nSubtract $45$ from both sides to keep the same solution."
+    },
+    {
+      "title": "Simplify the equivalent equation",
+      "content": "After subtracting, the equation becomes\n$$\n15x=180-45=135\n$$\nSo the equation with the same solution is $15x=135$. The answer is <strong>C</strong>."
+    }
+  ]
+}

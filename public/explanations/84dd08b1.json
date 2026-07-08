@@ -1,0 +1,15 @@
+{
+  "questionId": "84dd08b1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant",
+      "content": "A quadratic has more than one real solution when its discriminant is positive. For $77x^2+bx+c=0$, use $a=77$:\n$$\nb^2-4(77)c>0\n$$\n$$\nb^2-308c>0\n$$"
+    },
+    {
+      "title": "Solve for the relationship",
+      "content": "The inequality becomes:\n$$\nb^2>308c\n$$\nSince $b$ is positive, take the positive square root:\n$$\nb>\\sqrt{308c}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

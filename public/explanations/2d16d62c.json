@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the conversion factor",
-      "content": "We're given that 1 fathom = 6 feet, and the camera is at a depth of 64 fathoms. To find the depth in feet, we multiply the fathom measurement by the conversion factor that relates fathoms to feet."
+      "title": "Use the fathom conversion",
+      "content": "The question gives $1\\text{ fathom}=6\\text{ feet}$. To convert fathoms to feet, multiply by $6$."
     },
     {
       "title": "Convert to feet",
-      "content": "Multiply the depth in fathoms by the conversion factor:<br/>$$64 \\times 6 = 384 \\text{ feet}$$<br/>The camera's depth is 384 feet."
+      "content": "This changes the unit from fathoms to feet. For $64$ fathoms:\n$$\n64\\cdot 6=384\n$$\nThe answer is <strong>384</strong>."
     }
   ]
 }

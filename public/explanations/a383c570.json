@@ -1,0 +1,15 @@
+{
+  "questionId": "a383c570",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central finding",
+      "content": "Every sentence centers on the discovery that Saturn now has more than 100 observed moons. The telescope and Jupiter comparison both support the point about Saturn's moon count."
+    },
+    {
+      "title": "Avoid side details",
+      "content": "B focuses on how the telescope works, which the text never explains. C invents a focus on Jupiter's atmosphere. D treats Hawaii as the topic even though it is only the telescope's location. The purpose is the new Saturn finding. The answer is <strong>A</strong>."
+    }
+  ]
+}

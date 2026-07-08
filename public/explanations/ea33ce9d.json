@@ -1,0 +1,19 @@
+{
+  "questionId": "ea33ce9d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "Combine the terms with $x$ by factoring.\n$$-8x+48px=(-8+48p)x$$"
+    },
+    {
+      "title": "Use the no solution condition",
+      "content": "The equation has no solution when the coefficient of $x$ is $0$ but the other side is not $0$. That creates the false statement $0=96$.\n$$-8+48p=0$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Solve the coefficient equation.\n$$48p=8$$\n$$p=\\frac{1}{6}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

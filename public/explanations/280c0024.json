@@ -1,0 +1,19 @@
+{
+  "questionId": "280c0024",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both values using c",
+      "content": "Since $a$ is $3{,}600\\%$ of $c$,<br/>$$a=36c$$<br/>Since $c$ is $20\\%$ of $b$,<br/>$$c=0.20b$$<br/>so:<br/>$$b=5c$$"
+    },
+    {
+      "title": "Substitute into the equation",
+      "content": "Use $a-b=wc$:<br/>$$36c-5c=wc$$<br/>$$31c=wc$$<br/>Divide by $c$."
+    },
+    {
+      "title": "Find the constant",
+      "content": "After dividing by $c$, the constant is $w=31$. The answer is <strong>31</strong>."
+    }
+  ]
+}

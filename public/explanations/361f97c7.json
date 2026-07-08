@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $41$, so the answer is <strong>B</strong>, $41$. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=5x-4$. To find $f(9)$, replace $x$ with $9$:\n$$\nf(9)=5(9)-4\n$$\nThis is direct substitution."
     },
     {
-      "title": "Substitute x equals 9",
-      "content": "Replace $x$ with $9$ in $f(x)=5x-4$: $$f(9)=5(9)-4$$"
-    },
-    {
-      "title": "Simplify",
-      "content": "$$5(9)=45$$ $$45-4=41$$ Therefore, $f(9)=41$."
+      "title": "Evaluate the expression",
+      "content": "Compute the value:\n$$\n5(9)-4=45-4=41\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

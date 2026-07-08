@@ -1,0 +1,19 @@
+{
+  "questionId": "ec610532",
+  "correctAnswer": "-17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant",
+      "content": "For the equation $-x^2+bx-81=0$, the discriminant is\n$$\nb^2-4(-1)(-81)=b^2-324\n$$\nNo real solutions means the discriminant is less than $0$."
+    },
+    {
+      "title": "Find the integer range",
+      "content": "Apply the condition:\n$$\nb^2-324<0\n$$\n$$\nb^2<324\n$$\n$$\n|b|<18\n$$\nSince $b$ is an integer, the possible values run from $-17$ through $17$."
+    },
+    {
+      "title": "Choose the least value",
+      "content": "The least integer in that range is $-17$. The answer is <strong>-17</strong>."
+    }
+  ]
+}

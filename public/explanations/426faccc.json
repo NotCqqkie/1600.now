@@ -1,0 +1,15 @@
+{
+  "questionId": "426faccc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Since triangle $ABC$ is similar to triangle $DEF$ and angle $A$ corresponds to angle $D$, angles $A$ and $D$ have the same trigonometric ratios."
+    },
+    {
+      "title": "Check the given tangent",
+      "content": "The bundled stem gives\n$$\n\\tan A=\\frac{612}{613}\n$$\nTangent is opposite over adjacent, so this does not make \n$$\n\\frac{612}{613}\n$$ a sine value. Choice A, \n$$\n\\frac{612}{613}\n$$, would match if the given ratio were $\\sin A$ instead. With the bundled stem as written, this is a source inconsistency rather than a tangent-to-sine calculation. The answer is <strong>A</strong>."
+    }
+  ]
+}

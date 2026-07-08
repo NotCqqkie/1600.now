@@ -1,0 +1,15 @@
+{
+  "questionId": "a3b4a60c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the proxy requirement",
+      "content": "The hypothesis is that bioaccumulation in <em>Capitella teleta</em> could stand in for costly testing in Atlantic salmon. For that to work, the two species must accumulate Ag-NPs in comparable ways under comparable exposure. A proxy is useful only if measurements in the substitute organism reliably mirror the required species."
+    },
+    {
+      "title": "Reject mismatched evidence",
+      "content": "Choice B says the worm and salmon respond differently to environmental levels. Choice C concerns tolerance, not whether accumulation tracks. Choice D concerns detection ease, not whether worm data predicts salmon data. Comparable accumulation under similar exposure supports the proxy role because the worm result could substitute for salmon sampling. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "questionId": "a7ca7db3",
+  "correctAnswer": "240",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the short height",
+      "content": "Triangle $ABC$ is right, with hypotenuse $AB=\\sqrt{61}$ and leg $AC=6$. Use the Pythagorean theorem.<br/>$$BC^2+6^2=(\\sqrt{61})^2$$<br/>$$BC^2+36=61$$<br/>$$BC=5$$",
+      "formula": "$$a^2 + b^2 = c^2$$"
+    },
+    {
+      "title": "Find the scale factor",
+      "content": "Since $AC=6$ and $CE=18$, the full base is<br/>$$AE=6+18=24$$<br/>The similar-triangle scale factor from $ABC$ to $AED$ is<br/>$$\\frac{AE}{AC}=\\frac{24}{6}=4$$"
+    },
+    {
+      "title": "Scale the height",
+      "content": "The corresponding height also scales by $4$.<br/>$$ED=4\\cdot BC=4\\cdot5=20$$"
+    },
+    {
+      "title": "Calculate the area",
+      "content": "Use base $AE=24$ and height $ED=20$.<br/>$$\\frac{1}{2}\\cdot24\\cdot20=240$$<br/>The answer is <strong>240</strong>.",
+      "formula": "$$\\text{Area} = \\frac{1}{2} \\cdot \\text{base} \\cdot \\text{height}$$"
+    }
+  ]
+}

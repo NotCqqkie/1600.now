@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the operation",
-      "content": "<em>25% greater than 80</em> means the new number is 125% of the original, or 1.25 times the original. We need to calculate:<br/>$$80 \\times 1.25$$"
+      "title": "Convert the percent increase",
+      "content": "A number that is $25\\%$ greater than $80$ equals the original plus another $25\\%$.\n$$\n100\\%+25\\%=125\\%=1.25\n$$"
     },
     {
-      "title": "Compute the result",
-      "content": "$$80 \\times 1.25 = 100$$<br/>The multiplier $1.25$ includes the original 80 plus the additional 25%, so <strong>B</strong> is correct."
+      "title": "Multiply by the original number",
+      "content": "Use the increase multiplier on the original number.\n$$\n80(1.25)=100\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question testing precise vocabulary. The skill is picking the word that captures exactly what dense vegetation does to the distance high-frequency sounds can travel. The decisive clue is the causal logic: researchers believe dense-habitat birds sing at lower frequencies because dense vegetation ______ the distance high-frequency sounds travel &mdash; so the blank must mean &ldquo;reduces.&rdquo;"
+      "title": "Use the sound-distance logic",
+      "content": "Birds sing to communicate across distance, and the passage explains why researchers expect birds in dense vegetation to sing at lower frequencies. The cause must be that dense vegetation makes high-frequency sounds travel less far. Therefore, the blank needs a word meaning reduce or lessen."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; exceed</strong>: &ldquo;Exceed&rdquo; means to surpass or go beyond. Saying dense vegetation exceeds the distance sounds travel is incoherent &mdash; vegetation cannot be greater than a distance, and the idea is that it shortens that distance, not surpasses it. &#10007;</li><li><strong>Choice B &mdash; diminish</strong>: &ldquo;Diminish&rdquo; means to reduce or make smaller. Dense vegetation diminishes the distance high-frequency sounds can travel &mdash; this explains why birds in those habitats switch to lower frequencies that carry farther. &#10003;</li><li><strong>Choice C &mdash; encompass</strong>: &ldquo;Encompass&rdquo; means to enclose or encircle. A distance is not a physical object that can be enclosed by vegetation; this word does not address what happens to sound propagation. &#10007;</li><li><strong>Choice D &mdash; conceal</strong>: &ldquo;Conceal&rdquo; means to hide or keep from being seen. The passage is about how far sounds travel, not whether they are hidden; concealing a distance makes no sense in this context. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject imprecise verbs",
+      "content": "Choice A means surpass, which makes no sense with vegetation and the distance sound travels. Choice C means enclose or include, but a travel distance is not something vegetation encloses. Choice D means hide, while the passage concerns sound transmission rather than visibility. Choice B gives the needed meaning: reduce. The answer is <strong>B</strong>."
     }
   ]
 }

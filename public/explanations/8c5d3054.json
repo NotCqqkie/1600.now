@@ -1,0 +1,15 @@
+{
+  "questionId": "8c5d3054",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the text focus",
+      "content": "The text introduces Lind and colleagues’ study about ocean acidification and fish behavior, then immediately raises a concern: the study relied on a mean sample size of only about 14 fish. Soderberg and colleagues warn that small samples can increase biased analysis and exaggerated effects."
+    },
+    {
+      "title": "Eliminate unsupported purposes",
+      "content": "Choice A invents a debate about the cause of ocean acidification. Choice B claims the text discusses an overlooked aspect of ocean acidification, but the focus is study reliability. Choice D says the text explains changes in fish behavior over time, which it does not. The purpose is to note a concern about a study’s findings. The answer is <strong>C</strong>."
+    }
+  ]
+}

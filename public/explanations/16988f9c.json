@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the trend to rule out negative slopes",
-      "content": "The scatterplot's points climb from lower-left to upper-right, so the line of best fit has a positive slope. Choices A, B, and C all have slope $-0.9$, so they cannot fit increasing data. Only <strong>Choice D &mdash; $y=0.9x+2.2$</strong>, with slope $+0.9$, has the right sign."
+      "title": "Check the trend direction",
+      "content": "The scatterplot rises from left to right, so the linear model should have a positive slope. This eliminates the choices with slope $-0.9$."
     },
     {
-      "title": "Sanity-check the fit at two scatter points",
-      "content": "Approximate endpoints from the plot are $(1, 3)$ and $(9, 10)$, giving slope $\\frac{10-3}{9-1} = \\frac{7}{8} \\approx 0.9$ and intercept $b \\approx 3 - 0.9(1) \\approx 2.1$. The line $y = 0.9x + 2.2$ matches both the slope and intercept of <strong>Choice D &mdash; $y=0.9x+2.2$</strong> is correct."
+      "title": "Check the intercept",
+      "content": "The remaining model has positive slope $0.9$ and a positive $y$-intercept near $2.2$, which matches the plotted trend. The answer is <strong>D</strong>."
     }
   ]
 }

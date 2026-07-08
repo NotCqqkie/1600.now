@@ -1,0 +1,15 @@
+{
+  "questionId": "bb307f18",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Give a country example",
+      "content": "The goal is to provide an example of a country that uses the word dollar in its currency name. The useful note is that Kiribati's currency is known as the Kiribati dollar."
+    },
+    {
+      "title": "Exclude nonexamples and general facts",
+      "content": "Choice B says what Kiribati does not do, so it is not an example. Choice C explains word origin but names no country using dollar. Choice D gives a broad claim about many countries without naming one. The statement about Kiribati directly satisfies the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

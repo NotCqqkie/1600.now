@@ -1,0 +1,19 @@
+{
+  "questionId": "5fa2a266",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the comparison",
+      "content": "The student's goal is to compare the sizes of the Peloncillo-Pan Duro Mountains and the Big Hatchet Mountains. The relevant notes are their areas: 1,360 mi² and 65 mi²."
+    },
+    {
+      "title": "Reject off-task choices",
+      "content": "Choice A discusses many mountain ranges, not these two sizes. Choice C says size can vary but does not compare the two named ranges. Choice D defines sky islands instead of comparing areas."
+    },
+    {
+      "title": "Compare both measurements",
+      "content": "The choice that states the Peloncillo-Pan Duro Mountains cover 1,360 mi² and the Big Hatchet Mountains cover 65 mi² directly shows which range is larger. The answer is <strong>B</strong>."
+    }
+  ]
+}

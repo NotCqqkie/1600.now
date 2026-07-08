@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is an Inferences question. The passage presents two related findings: (1) black-furred wolves are more common in areas with frequent distemper outbreaks, and (2) black-furred wolves are more likely to be immune to distemper than gray-furred wolves. The blank must complete the conclusion that most logically follows from both findings taken together."
+      "title": "Combine the wolf findings",
+      "content": "The study found that black-furred wolves are more common where distemper outbreaks happen regularly and that black-furred wolves are more likely to be immune to distemper than gray-furred wolves. Together, those findings point to a connection between black fur and immunity."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; North American gray wolves experience more outbreaks of distemper virus than other wolf species do.</strong>: The passage compares black-furred and gray-furred wolves within the same species. No comparison to other wolf species is made or supported. &#10007;</li><li><strong>Choice B &mdash; the gene variant that results in black fur may be linked to immunity to the distemper virus.</strong>: This ties both findings together: if the same gene variant that causes black fur is also associated with immunity, it explains why black wolves are more common where distemper is frequent &mdash; they survive outbreaks at higher rates. This is the most logical conclusion from the combined evidence. &#10003;</li><li><strong>Choice C &mdash; the average life span of gray wolves is likely to increase over time because of a particular gene variant.</strong>: The passage says nothing about life spans increasing, and the gene variant described is associated with black fur and immunity &mdash; not with changes to gray wolf longevity. &#10007;</li><li><strong>Choice D &mdash; gray-furred wolves will soon replace black-furred wolves across North America.</strong>: The evidence points in the opposite direction: black wolves with immunity have a survival advantage in distemper-prone areas. There is no support for gray wolves replacing black ones. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject unsupported conclusions",
+      "content": "Choice A compares gray wolves with other species, which the text never does. Choice C predicts a longer average life span, but life span is not discussed. Choice D predicts replacement of black-furred wolves by gray-furred wolves, which contradicts the evidence."
+    },
+    {
+      "title": "Infer the gene connection",
+      "content": "The remaining choice says the gene variant that produces black fur may be linked to immunity to the distemper virus. The answer is <strong>B</strong>."
     }
   ]
 }

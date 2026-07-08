@@ -1,0 +1,15 @@
+{
+  "questionId": "721771e9",
+  "correctAnswer": "-7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the repeated group as one value",
+      "content": "Let $a=6-5x$. The equation becomes\n$$12-7a=5-8a$$"
+    },
+    {
+      "title": "Isolate the repeated group",
+      "content": "Move the $a$ terms and constants to opposite sides.\n$$12+a=5$$\n$$a=-7$$\nSince $a=6-5x$, this is the requested value. The answer is <strong>-7</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "707bfd05",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join two complete clauses",
+      "content": "The sentence first states the exhibition's goal, ending with \"the 1950s.\" What follows is another complete clause: \"given the collection's breadth of more than 120 photos, its efforts were largely successful.\" The two clauses need a proper joining structure."
+    },
+    {
+      "title": "Avoid run-ons and comma splices",
+      "content": "A leaves the complete clauses with no connector, creating a run-on. C uses only a comma, creating a comma splice. D uses \"and\" without the comma needed between long independent clauses. Comma plus \"and\" correctly links them. The answer is <strong>B</strong>."
+    }
+  ]
+}

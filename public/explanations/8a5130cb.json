@@ -1,0 +1,15 @@
+{
+  "questionId": "8a5130cb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the examples",
+      "content": "The words before the punctuation form a complete independent clause: exemplars of Stigler's law abound. The following material gives examples from mathematics, astronomy, and physics, so a colon should introduce the list after the complete clause."
+    },
+    {
+      "title": "Place the colon correctly",
+      "content": "A uses commas where a list-introducing mark is needed. B puts the colon after in mathematics, making the first field seem separate from the parallel list. D uses a semicolon after in mathematics, disrupting the series. The colon belongs after abound. The answer is <strong>C</strong>."
+    }
+  ]
+}

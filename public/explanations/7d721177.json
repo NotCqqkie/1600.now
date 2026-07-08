@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find volume from density",
-      "content": "Apply the density formula: $\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$ <br/> Solving for volume: $\\text{Volume} = \\frac{\\text{Mass}}{\\text{Density}} = \\frac{358}{347} \\approx 1.0317 \\text{ m}^3$"
+      "title": "Find the cube volume",
+      "content": "Volume is mass divided by density:<br/>$$V=\\frac{358}{347}$$<br/>This is about $1.0317$."
     },
     {
-      "title": "Find edge length and round",
-      "content": "For a cube, $s^3 = \\text{Volume}$. Substituting: <br/> $$s^3 = 1.0317$$ <br/> $$s = \\sqrt[3]{1.0317} \\approx 1.0105$$ <br/> Rounding to the nearest hundredth: 1.0105 -> 1.01 <br/> That confirms <strong>B</strong> is correct."
+      "title": "Take the cube root",
+      "content": "For cube edge $s$, solve $s^3=1.0317$:<br/>$$s=\\sqrt[3]{1.0317}$$<br/>This rounds to $1.01$. The answer is <strong>B</strong>."
     }
   ]
 }

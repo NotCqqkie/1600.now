@@ -1,0 +1,15 @@
+{
+  "questionId": "f1c177f2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Both terms in $v^4-480v^3$ contain $v^3$. Factor that out first instead of trying to multiply the binomial choices. This keeps the degree and the common power of $v$ visible."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "After taking out $v^3$, the remaining factor is $v-480$. Expanding the factored form would return the original two terms, so the expressions are equivalent.\n$$v^4-480v^3=v^3(v-480)$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

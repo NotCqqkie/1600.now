@@ -1,0 +1,15 @@
+{
+  "questionId": "ae8a9dd7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable",
+      "content": "Start with\n$$\\frac{j}{5}=k+9m$$\nMultiply both sides by $5$ to solve for $j$:\n$$j=5(k+9m)$$"
+    },
+    {
+      "title": "Match the equivalent equation",
+      "content": "The entire right side, $k+9m$, must be multiplied by $5$. The answer is <strong>B</strong>."
+    }
+  ]
+}

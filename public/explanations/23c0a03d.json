@@ -1,0 +1,19 @@
+{
+  "questionId": "23c0a03d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep emphasizes as the verb",
+      "content": "The clause already has \"emphasizes\" after the comma, so the blank cannot add another finite verb that competes with it. The blank must introduce \"that\" and place \"aiming to teach music in the same natural way children learn language\" inside a parenthetical phrase."
+    },
+    {
+      "title": "Remove extra finite verbs",
+      "content": "Choice A, \"that, is aiming,\" adds the finite verb \"is aiming\" before \"emphasizes.\" Choice B, \"that has aimed,\" creates the same competing-predicate problem. Choice D, \"that aims,\" gives \"that\" a finite verb and leaves \"emphasizes\" improperly attached after the comma."
+    },
+    {
+      "title": "Choose the parenthetical phrase",
+      "content": "The remaining wording uses \"aiming\" as a participle set off by commas. That keeps \"that\" as the subject of the relative clause and leaves \"emphasizes\" as the clause's main verb, producing a complete and grammatical sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the term with s",
-      "content": "Starting with $5r = 8s + t$, subtract $t$ from both sides: $$5r - t = 8s$$"
+      "title": "Isolate the s term",
+      "content": "Start with $5r=8s+t$. Subtract $t$ from both sides.<br/>$$5r-t=8s$$"
     },
     {
-      "title": "Solve for s",
-      "content": "Divide both sides by 8: $$s = \\frac{5r - t}{8}$$"
-    },
-    {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: $s = 40r - t$ - multiplies rather than divides by 8. Incorrect.</li><li>B: $s = 8(5r - t)$ - multiplies by 8 instead of dividing. Incorrect.</li><li>C: $s = \\frac{5}{8}r - t$ - fails to divide $t$ by 8. Incorrect.</li><li>D: $s = \\frac{5r - t}{8}$ - both terms divided by 8 correctly. That is the correct answer.</li></ul>"
+      "title": "Divide by eight",
+      "content": "Divide both sides by $8$ to solve for $s$.<br/>$$s=\\frac{5r-t}{8}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

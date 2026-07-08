@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what statistical analysis eliminates",
-      "content": "The strongest clue is the pairing of <strong>“Detailed statistical analysis helped preclude claims”</strong> with <strong>“confidence level of over 99%”</strong>. Statistical analysis serves to eliminate uncertainty and establish definitive conclusions about what data represents."
+      "title": "Use the confidence clue",
+      "content": "The statistical analysis confirmed the signal at over 99% confidence. That means the analysis helped rule out uncertainty about whether the chirping sound was truly evidence of gravitational waves."
     },
     {
-      "title": "Connect to the correct choice",
-      "content": "Statistical analysis precluded claims of <strong>ambiguity</strong>: achieving 99% confidence proves the signal is unambiguously a gravitational wave, ruling out any claim it could be interpreted as something else.<br/><br/>The other three choices either address unrelated features (inconspicuousness describes detectability; discretion has no relevance), or reverse the logic (probability is established by analysis, not precluded).<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject unrelated meanings",
+      "content": "Choice A means hard to notice, but the issue is interpretation, not visibility. Choice B means tact or freedom of choice. Choice D names probability, which the analysis established rather than precluded."
+    },
+    {
+      "title": "Name the uncertainty",
+      "content": "Ambiguity is uncertainty or openness to multiple interpretations, so ruling out claims of ambiguity fits the confirmed signal. The answer is <strong>C</strong>."
     }
   ]
 }

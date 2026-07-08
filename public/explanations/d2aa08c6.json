@@ -1,0 +1,19 @@
+{
+  "questionId": "d2aa08c6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the expressions",
+      "content": "The question gives the value of $6x$, and the target expression is $24x$. Since $24$ is $4$ times $6$, $24x$ is $4$ times $6x$:\n$$\n24x=4(6x)\n$$"
+    },
+    {
+      "title": "Use the given value",
+      "content": "Substitute $11$ for $6x$:\n$$\n24x=4(11)\n$$\n$$\n24x=44\n$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The computed value is $44$. The answer is <strong>C</strong>."
+    }
+  ]
+}

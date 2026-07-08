@@ -1,0 +1,15 @@
+{
+  "questionId": "ccbcfdb1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two minerals",
+      "content": "The student wants to compare talc and orthoclase. The notes say talc has a Mohs number of 1 and orthoclase has a Mohs number of 6. Since larger numbers indicate harder minerals that can scratch softer ones, orthoclase must be harder than talc."
+    },
+    {
+      "title": "Keep the comparison specific",
+      "content": "<ul><li><strong>Choice A</strong>: It describes the scale generally and includes calcite, so it does not make the requested direct comparison.</li><li><strong>Choice C</strong>: It compares orthoclase with calcite, not talc.</li><li><strong>Choice D</strong>: It compares calcite with talc, not orthoclase with talc.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

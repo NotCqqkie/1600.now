@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express a in terms of b",
-      "content": "Since $a$ is 40% greater than $b$:<br/>$$a = b + 0.40b = 1.40b$$"
+      "title": "Translate the percent changes",
+      "content": "A $40\\%$ increase means multiply by $1.40$, so $a=1.40b$. A $40\\%$ decrease means multiply by $0.60$, so $c=0.60a$."
     },
     {
-      "title": "Express c in terms of a",
-      "content": "Since $c$ is 40% less than $a$:<br/>$$c = a - 0.40a = 0.60a$$"
-    },
-    {
-      "title": "Substitute to find the multiple",
-      "content": "Substitute $a = 1.40b$ into $c = 0.60a$:<br/>$$c = 0.60(1.40b) = 0.84b$$<br/>Therefore, $c$ is <strong>0.84</strong> times $b$."
+      "title": "Combine the multipliers",
+      "content": "$$\nc=0.60(1.40b)=0.84b\n$$\nThe answer is <strong>.84</strong>."
     }
   ]
 }

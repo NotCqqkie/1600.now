@@ -1,0 +1,15 @@
+{
+  "questionId": "693a419d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "The expression $286\\%$ of $x$ means\n$$\n\\frac{286}{100}x=2.86x\n$$\nSo the rule can be written as $f(x)=2.86x$."
+    },
+    {
+      "title": "Classify the function",
+      "content": "The expression $2.86x$ is linear because the variable is multiplied by a constant and is not in an exponent. Since the coefficient $2.86$ is positive, the output increases as $x$ increases. The answer is <strong>D</strong>."
+    }
+  ]
+}

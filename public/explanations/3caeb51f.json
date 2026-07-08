@@ -1,0 +1,15 @@
+{
+  "questionId": "3caeb51f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Protect the main verb",
+      "content": "The main verb of the sentence is became: such meticulous documentation became Kawara's life's work. The blank should add a modifying phrase about producing artworks, not introduce another finite main verb before became."
+    },
+    {
+      "title": "Reject competing verbs",
+      "content": "Choice A creates a comma splice with has generated and became. Choice B makes generates a second main verb. Choice D reads as another past-tense main verb before became. The answer is <strong>C</strong>."
+    }
+  ]
+}

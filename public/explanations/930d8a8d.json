@@ -1,0 +1,15 @@
+{
+  "questionId": "930d8a8d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the argument's link",
+      "content": "Parker and Anagnostou infer local cultural continuity from stable obsidian-object production methods at Malia. The architectural transition alone is not enough; their argument depends on treating production methods as a cultural marker. To weaken that argument, a finding must show that the same methods were not unique to the local culture."
+    },
+    {
+      "title": "Break the uniqueness claim",
+      "content": "A addresses the obsidian source, not production methods. C may even support continuity by showing Malia kept a different method. D says building changes need not affect obsidian methods. Shared methods across cultures weaken the inference by giving another reason the same technique could persist. The answer is <strong>B</strong>."
+    }
+  ]
+}

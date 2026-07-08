@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The opening noun phrase <em>“A pioneer in the field of taphonomy”</em> introduces someone by their role.<br/><br/>The blank must contain that person's name, followed by a verb that describes their action, then information about what was discovered.<br/><br/>The sentence concludes with <em>“may be just as prevalent,”</em> which completes the finding."
+      "title": "Attach the opening modifier",
+      "content": "The opening phrase \"A pioneer in the field of taphonomy\" must describe the noun that immediately follows it. The sentence therefore needs Anna Behrensmeyer to appear right after that phrase."
     },
     {
-      "title": "Apply the rule: use active voice with a clear subject",
-      "content": "The correct answer correctly uses the active verb <strong>demonstrated</strong> with Anna Behrensmeyer as the subject, directly linking the introductory description of her pioneering role to her actual discovery in 2005.<br/><br/>This structure—person demonstrated that finding—is direct and clear.<br/><br/>The other choices either scramble the structure with confusing punctuation, shift to passive voice that obscures the agent, or introduce an illogical subject.<br/><br/>That is the correct answer."
+      "title": "Reject dangling subjects",
+      "content": "A would make fossils the pioneer. C would make \"it\" the pioneer. D would make a 2005 analysis the pioneer. All three create illogical modifier placement."
+    },
+    {
+      "title": "Use the clear subject",
+      "content": "Putting Anna Behrensmeyer after the modifier and making her the subject of \"demonstrated\" creates a grammatical sentence. The answer is <strong>B</strong>."
     }
   ]
 }

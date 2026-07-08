@@ -1,0 +1,15 @@
+{
+  "questionId": "ea6decc9",
+  "correctAnswer": "196",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a table point",
+      "content": "The table includes the point $(6,0)$. Substitute $x=6$ and $y=0$ into the equation $y=36x^2-bx-120$."
+    },
+    {
+      "title": "Solve for the coefficient",
+      "content": "$$0=36(6)^2-b(6)-120$$<br/>$$0=1{,}296-6b-120$$<br/>$$6b=1{,}176$$<br/>$$b=196$$<br/>The answer is <strong>196</strong>."
+    }
+  ]
+}

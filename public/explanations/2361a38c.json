@@ -1,0 +1,19 @@
+{
+  "questionId": "2361a38c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the squares",
+      "content": "Move the constant and complete the square for both variables.\n$$\nx^2-8x+y^2-6y=56\n$$\n$$\n(x-4)^2+(y-3)^2=56+16+9=81\n$$"
+    },
+    {
+      "title": "Find the square side",
+      "content": "The circle has radius\n$$\nr=\\sqrt{81}=9\n$$\nIf the circle is inscribed in the square, the square's side length is the diameter.\n$$\n2r=18\n$$"
+    },
+    {
+      "title": "Compute the perimeter",
+      "content": "The perimeter of the square is\n$$\n4(18)=72\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

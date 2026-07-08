@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The skill is punctuation conventions. The sentence opens a parenthetical with &quot;(&quot; before &quot;as many as 200,000, by some ______&quot; &mdash; the decisive clue is that every opening parenthesis must be matched by a closing parenthesis."
+      "title": "Close the parenthetical",
+      "content": "The sentence opens a parenthetical phrase with a left parenthesis before as many as 200,000. The blank comes at the end of that parenthetical phrase, so it must close the parenthesis before the sentence continues with in a complex of apartments."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; estimates)</strong>: Closes the parenthetical with &quot;)&quot; immediately after &quot;estimates,&quot; correctly pairing with the opening &quot;(&quot; earlier in the sentence. The sentence then flows uninterrupted into &quot;in a complex...&quot; &#10003;</li><li><strong>Choice B &mdash; estimates),</strong>: Closes the parenthetical correctly but adds an unnecessary comma between &quot;)&quot; and &quot;in a complex...&quot; &mdash; no comma is needed before a prepositional phrase that is essential to the sentence&apos;s meaning. &#10007;</li><li><strong>Choice C: estimates —</strong>: Uses an em dash to close the element, but an em dash cannot be paired with an opening parenthesis &mdash; mismatched punctuation marks leave the parenthetical unclosed. &#10007;</li><li><strong>Choice D &mdash; estimates</strong>: Provides no closing punctuation at all, leaving the opening parenthesis unmatched and the parenthetical element unclosed. &#10007;</li></ul>That matches <strong>Choice A &mdash; estimates)</strong>."
+      "title": "Avoid mismatched punctuation",
+      "content": "Choice B closes the parenthesis but adds an unnecessary comma before the essential prepositional phrase. Choice C tries to close a parenthesis with a dash, and Choice D leaves the parenthetical unclosed. The correct punctuation simply closes the parenthesis after estimates. The answer is <strong>A</strong>."
     }
   ]
 }

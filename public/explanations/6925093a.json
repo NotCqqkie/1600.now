@@ -1,0 +1,22 @@
+{
+  "questionId": "6925093a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the two radii",
+      "content": "The outside diameter is $60$ inches, so the outside radius is $30$ inches. The wall thickness is $\\frac{5}{8}$ inch, so the inside radius is $$30-\\frac{5}{8}=29.375$$"
+    },
+    {
+      "title": "Use annulus volume",
+      "content": "The wall volume is the outer cylinder volume minus the inner cylinder volume.<br/>$$V=\\pi h(R^2-r^2)$$<br/>$$V=\\pi(144)(30^2-29.375^2)$$",
+      "desmosExpressions": [
+        "\\pi \\cdot 144 \\cdot (30^{2} - 29.375^{2})"
+      ]
+    },
+    {
+      "title": "Evaluate the volume",
+      "content": "Compute the difference and multiply by the height.<br/>$$30^2-29.375^2=37.109375$$<br/>$$144(37.109375)\\pi$$ is about $16{,}788$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

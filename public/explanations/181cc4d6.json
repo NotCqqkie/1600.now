@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equal-ratio equation",
-      "content": "Since both rectangles have the same length-to-width ratio:<br/>$$\\frac{12}{w} = \\frac{18}{x}$$<br/>where $x$ is the width of rectangle B."
+      "title": "Set equal ratios",
+      "content": "The rectangles have the same length-to-width ratio. Let $x$ be the width of rectangle B.<br/>$$\\frac{12}{w}=\\frac{18}{x}$$"
     },
     {
-      "title": "Solve by cross-multiplication",
-      "content": "Cross multiply:<br/>$$12x = 18w$$<br/>Divide both sides by 12:<br/>$$x = \\frac{18w}{12} = \\frac{3w}{2}$$<br/>The width of rectangle B is $\\frac{3}{2}w$. That matches <strong>Choice A &mdash; $\\frac{3}{2}w$</strong>."
+      "title": "Solve for the width",
+      "content": "Cross multiply and solve.<br/>$$12x=18w$$<br/>$$x=\\frac{18w}{12}=\\frac32w$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

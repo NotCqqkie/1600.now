@@ -1,0 +1,15 @@
+{
+  "questionId": "f8145942",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the force definition",
+      "content": "The problem defines force as the product of mass and acceleration. In symbols, that is<br/>$$F=ma$$"
+    },
+    {
+      "title": "Substitute the mass",
+      "content": "The mass is $27$ kilograms, and the acceleration is $a$. Substitute into the formula:<br/>$$F=27a$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

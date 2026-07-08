@@ -1,0 +1,15 @@
+{
+  "questionId": "ccea7925",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor",
+      "content": "Similar triangles have corresponding side lengths in the same ratio as their perimeters. The scale factor from triangle $TUV$ to triangle $XYZ$ is<br/>$$\\frac{352}{44}=8$$"
+    },
+    {
+      "title": "Scale the side length",
+      "content": "Since side $TU$ corresponds to side $XY$, multiply the length of $TU$ by the scale factor.<br/>$$16(8)=128$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

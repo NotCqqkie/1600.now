@@ -1,0 +1,15 @@
+{
+  "questionId": "4229117b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the practical conclusion",
+      "content": "The word consequently signals that the blank must follow from the evidence. The passage says last-mile logistics remain a bottleneck because of rapid-delivery expectations, complex routes, and inefficient delivery paths. It also says new solutions such as autonomous robots are constrained by added complications, including slow travel around ground-level obstacles."
+    },
+    {
+      "title": "Reject unsupported forecasts",
+      "content": "Choice A says robots can meet expectations now, but the passage says their success is constrained. Choice B says innovations will raise expectations, not address obstacles. Choice C gives an investment recommendation the text never makes. Choice D follows from the persistent bottleneck and constrained innovations: near-term success is unlikely. The answer is <strong>D</strong>."
+    }
+  ]
+}

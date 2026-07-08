@@ -1,0 +1,19 @@
+{
+  "questionId": "c395b986",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the slope direction",
+      "content": "The data rise from left to right, so the linear model should have a positive slope. This eliminates choices A and C."
+    },
+    {
+      "title": "Use the intercept",
+      "content": "The scatterplot is near $y=15$ when $x=0$, so the model should have a positive $y$-intercept close to $15$. Choice D has a negative intercept, so it does not fit."
+    },
+    {
+      "title": "Choose the matching model",
+      "content": "The model with positive slope and a positive intercept near $15$ is<br/>$$y=14.7+10x$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

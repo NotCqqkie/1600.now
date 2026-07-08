@@ -1,0 +1,15 @@
+{
+  "questionId": "35388a2f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plant difference",
+      "content": "The student wants to emphasize a difference between <em>Pipturus albidus</em> and <em>Psidium cattleyanum</em>. The notes give that contrast: <em>Pipturus albidus</em> is a native species, while <em>Psidium cattleyanum</em> is a non-native species."
+    },
+    {
+      "title": "Contrast native status",
+      "content": "The matching choice names both plants and highlights that only the former is native. Choice A mentions only <em>Psidium cattleyanum</em>, Choice C describes the study method, and Choice D emphasizes a similarity: both plants appeared in bird fecal samples. The answer is <strong>B</strong>."
+    }
+  ]
+}

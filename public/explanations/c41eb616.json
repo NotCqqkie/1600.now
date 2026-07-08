@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Write the two angle types",
+      "content": "Two intersecting lines make two equal vertical angles and two equal adjacent angles. If one angle is $(8x-130)^\\circ$, then the opposite angle has the same measure. Each adjacent angle is supplementary:<br/>$$180-(8x-130)=310-8x$$"
     },
     {
-      "title": "Set up the angle relationships",
-      "content": "Two intersecting lines create four angles. Vertical angles are equal, and adjacent angles are supplementary (sum to 180&deg;). If one angle is $(8x - 130)$&deg;, then its vertical angle is also $(8x - 130)$&deg;, and each of the other two angles is $180 - (8x - 130) = (310 - 8x)$&deg;."
+      "title": "List possible two-angle sums",
+      "content": "The only distinct sums come from two given-type angles, two adjacent-type angles, or one of each:<br/>$$(8x-130)+(8x-130)=16x-260$$<br/>$$(310-8x)+(310-8x)=-16x+620$$<br/>$$(8x-130)+(310-8x)=180$$"
     },
     {
-      "title": "List all achievable sums of two angles",
-      "content": "The only distinct sums possible from any two of the four angles are:<br/><br/>(1) Two equal acute angles: $(8x-130)+(8x-130) = (16x-260)$&deg;<br/>(2) Two equal obtuse angles: $(310-8x)+(310-8x) = (-16x+620)$&deg;<br/>(3) One of each (a supplementary pair): $(8x-130)+(310-8x) = 180$&deg;"
-    },
-    {
-      "title": "Identify which choice is NOT achievable",
-      "content": "<ul><li><strong>Choice A &mdash; $\\left(-16x+260\\right)^\\circ$</strong>: Does not equal any of the three achievable sums. Not achievable. &#10003;</li><li><strong>Choice B &mdash; $\\left(-16x+620\\right)^\\circ$</strong>: Equals the sum of the two obtuse angles. Achievable; eliminated. &#10007;</li><li><strong>Choice C &mdash; $\\left(16x-260\\right)^\\circ$</strong>: Equals the sum of the two acute angles. Achievable; eliminated. &#10007;</li><li><strong>Choice D &mdash; $180^\\circ$</strong>: Equals the sum of one acute and one obtuse angle. Achievable; eliminated. &#10007;</li></ul>That is the correct answer."
+      "title": "Find the impossible sum",
+      "content": "The possible sums are $(16x-260)^\\circ$, $(-16x+620)^\\circ$, and $180^\\circ$. The expression $(-16x+260)^\\circ$ is not equivalent to any of them, so it could not be the sum of any two angles.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

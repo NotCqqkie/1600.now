@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the radius from the coordinates",
-      "content": "Point $A$ lies on the circle with center $C(h,k)$, so $CA$ is a radius. Use the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{113})$ to find that radius."
+      "title": "Find the radius",
+      "content": "Point $A$ is on the circle, so the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{113})$ is a radius.<br/>$$r=\\sqrt{(h+2-h)^2+(k+\\sqrt{113}-k)^2}$$<br/>$$r=\\sqrt{2^2+(\\sqrt{113})^2}=\\sqrt{117}$$"
     },
     {
-      "title": "Find the radius of the circle",
-      "content": "Since point $A$ lies on the circle with center $C(h, k)$, the radius equals the distance from $C$ to $A$.<br/>$$r = CA = \\sqrt{(h+2-h)^2 + (k+\\sqrt{113}-k)^2} = \\sqrt{2^2 + (\\sqrt{113})^2} = \\sqrt{4 + 113} = \\sqrt{117}$$"
-    },
-    {
-      "title": "Apply the Pythagorean theorem to the right triangle",
-      "content": "Point $B$ also lies on the circle, so $CB = \\sqrt{117}$ (the same radius). Since $\\angle ACB$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$.<br/><br/>By the Pythagorean theorem:<br/>$$AB^2 = (\\sqrt{117})^2 + (\\sqrt{117})^2 = 234$$<br/>$$AB = \\sqrt{234}$$<br/>That matches <strong>Choice A &mdash; $\\sqrt{234}$</strong>."
+      "title": "Use the right angle",
+      "content": "Point $B$ is also on the circle, so $CB$ has the same length as $CA$. Since angle $ACB$ is a right angle, $AB$ is the hypotenuse.<br/>$$AB^2=(\\sqrt{117})^2+(\\sqrt{117})^2=234$$<br/>$$AB=\\sqrt{234}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

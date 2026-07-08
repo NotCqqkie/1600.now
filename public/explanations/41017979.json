@@ -1,0 +1,19 @@
+{
+  "questionId": "41017979",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the origins",
+      "content": "The passage says both words entered English through Spanish and both have Indigenous origins. The difference is the specific Indigenous source language: cocoa traces back to Nahuatl in Central Mexico, while alpaca traces back to Quechua in South America."
+    },
+    {
+      "title": "Reject unsupported differences",
+      "content": "Choice A invents different times when the words entered English, but the passage gives no dates. Choice C claims that cocoa changed meaning while alpaca kept its original meaning, which the text does not discuss. Choice D adds a misconception about Spanish origin that the text never mentions."
+    },
+    {
+      "title": "Choose the stated difference",
+      "content": "The remaining choice states the difference directly supported by the passage: cocoa can be traced to Nahuatl, while alpaca can be traced to Quechua. That is the contrast the text actually provides. The answer is <strong>B</strong>."
+    }
+  ]
+}

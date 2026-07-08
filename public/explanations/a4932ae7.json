@@ -1,0 +1,15 @@
+{
+  "questionId": "a4932ae7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the sentence frame",
+      "content": "The main subject is <em>the researchers</em>, and the main verb is <em>aimed</em>. The words between commas must therefore form a modifier describing the researchers' method, not a second main verb."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "Choice A creates an awkward purpose phrase inside the comma pair. Choice C gives a finite past-tense verb, and Choice D gives a bare verb, both competing with <em>aimed</em>. A present participle phrase describes what the researchers were doing with computer imaging. The answer is <strong>B</strong>."
+    }
+  ]
+}

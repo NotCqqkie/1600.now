@@ -1,0 +1,15 @@
+{
+  "questionId": "c3756d9c",
+  "correctAnswer": "59319",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius measure",
+      "content": "The slant length $$AB=78$$, height $$h=39$$, and radius $r$ form a right triangle. Apply the Pythagorean theorem.\n$$r^2=78^2-39^2=6{,}084-1{,}521=4{,}563$$"
+    },
+    {
+      "title": "Use cone volume",
+      "content": "The volume of a cone is $$\\frac{1}{3}\\pi r^2h$$ Substitute $$r^2=4{,}563$$ and $$h=39$$\n$$V=\\frac{1}{3}\\pi(4{,}563)(39)$$\n$$V=1{,}521(39)\\pi=59{,}319\\pi$$\nThe answer is <strong>59319</strong>."
+    }
+  ]
+}

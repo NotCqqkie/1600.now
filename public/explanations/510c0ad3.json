@@ -1,0 +1,15 @@
+{
+  "questionId": "510c0ad3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the retention gap",
+      "content": "Participants recruited through snowball sampling had much higher retention than participants recruited by strangers. Since snowball sampling uses people's social networks, the most logical explanation should involve the effect of being recruited by someone socially connected."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "B compares rural and nonrural participants, but the study was conducted in rural counties. C discusses who is likely to be recruited, not who is retained. D weakens the social-connection contrast by treating network members as strangers. The remaining choice explains the retention difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

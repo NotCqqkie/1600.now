@@ -1,0 +1,15 @@
+{
+  "questionId": "39589fb1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for negligible Mb",
+      "content": "Macqueen et al. conclude that some teleost species may perform oxygen storage and diffusion with negligible help from myoglobin. The best support must identify very low cardiac Mb."
+    },
+    {
+      "title": "Reject indirect statistics",
+      "content": "Choice A is only a comparison, Choice B concerns variation, and Choice D concerns an association between average level and variance. The remaining choice directly states very low Mb levels. The answer is <strong>C</strong>."
+    }
+  ]
+}

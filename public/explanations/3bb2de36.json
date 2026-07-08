@@ -1,0 +1,19 @@
+{
+  "questionId": "3bb2de36",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Move the constant and complete the square.\n$$\nx^2-4x-29=0\n$$\n$$\nx^2-4x=29\n$$\n$$\nx^2-4x+4=33\n$$"
+    },
+    {
+      "title": "Solve the square equation",
+      "content": "Rewrite the left side as a square, then take square roots.\n$$\n(x-2)^2=33\n$$\n$$\nx=2\\pm\\sqrt{33}\n$$"
+    },
+    {
+      "title": "Match the radical value",
+      "content": "One solution has the form \n$$\n2+\\sqrt{k}\n$$, so $k=33$. The answer is <strong>B</strong>."
+    }
+  ]
+}

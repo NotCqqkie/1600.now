@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Track the exponents",
-      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a\\gt 1$, matching outputs means matching exponents. As $x$ increases by $1$, the exponent increases by $4$."
+      "title": "Track the exponent pattern",
+      "content": "The outputs are powers of $a$: $a^1$, $a^5$, and $a^9$. Since $a>1$, matching outputs means matching exponents. The exponent increases by $4$ each time $x$ increases by $1$."
     },
     {
       "title": "Write the exponent rule",
-      "content": "A linear exponent rule with rate $4$ has the form $4x+b$. Use the first value, $x=1$ gives exponent $1$: $$4(1)+b=1$$ $$b=-3$$ So the exponent is $4x-3$, and $f(x)=a^{4x-3}$."
+      "content": "Let the exponent be $4x+b$. Use the row where $x=1$ and the exponent is $1$.<br/>$$4(1)+b=1$$<br/>$$b=-3$$<br/>So the exponent is $4x-3$."
     },
     {
-      "title": "Solve for k",
-      "content": "If $f(k)=a^{29}$, then the exponent must be $29$: $$4k-3=29$$ $$4k=32$$ $$k=8$$ The correct free-response answer is <strong>8</strong>."
+      "title": "Solve for the input",
+      "content": "Set the exponent equal to $29$.<br/>$$4k-3=29$$<br/>$$4k=32$$<br/>$$k=8$$<br/>The answer is <strong>8</strong>."
     }
   ]
 }

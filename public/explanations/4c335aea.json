@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the nouns are doing",
-      "content": "&quot;Rock&quot; and &quot;rap&quot; are two genres, and each has its own chorus-to-verse ratio. The sentence even says the ratios &quot;trended similarly, with each genre's data indicating&quot; a separate ratio per genre, so possession is separate, not joint."
+      "title": "Mark separate possession",
+      "content": "The sentence discusses chorus-to-verse ratios for two genres, rock and rap. The phrase <em>each genre's data</em> shows that each genre has its own ratio trend, so each singular genre name should be possessive."
     },
     {
-      "title": "Apply the separate-possession rule",
-      "content": "When two singular nouns each independently possess their own version of the following noun, standard English marks both with apostrophe-s: &quot;rock's and rap's chorus-to-verse ratios.&quot; The genre names are singular (not &quot;rocks&quot; or &quot;raps&quot;)."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A — rocks and raps</strong>: pluralizes the genre names and shows no possession, but the ratios belong to the genres. &#10007;</li><li><strong>Choice B — rock's and rap's</strong>: correctly marks both singular genre names as possessives, matching the separate per-genre ratios. &#10003;</li><li><strong>Choice C — rocks and rap's</strong>: combines a plural noun with a possessive, which is ungrammatical. &#10007;</li><li><strong>Choice D — rock and rap's</strong>: marks possession only once, which signals joint ownership of a single shared ratio, but the sentence describes a separate ratio for each genre. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Keep both genre names singular",
+      "content": "Choice A pluralizes both genre names and shows no possession. Choice C mixes a plural form with one possessive. Choice D marks only joint possession, implying one shared ratio. The sentence needs separate singular possessives for rock and rap. The answer is <strong>B</strong>."
     }
   ]
 }

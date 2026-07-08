@@ -1,0 +1,15 @@
+{
+  "questionId": "b1b40b35",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the proxy assumption",
+      "content": "The hypothesis is that CuO-NP bioaccumulation in <em>L. stagnalis</em> could stand in for costly sampling of <em>X. laevis</em>. That requires the snail data to predict the frog data reliably; if uptake differs in an unclear way, the comparison breaks down for compliance testing."
+    },
+    {
+      "title": "Undermine the comparison",
+      "content": "Choice A shows consistency, which helps the hypothesis. Choice C concerns other nanoparticles, and Choice D gives a practical advantage of using snails. A poorly understood difference in uptake rates between the two species would make the proxy unreliable. The answer is <strong>B</strong>."
+    }
+  ]
+}

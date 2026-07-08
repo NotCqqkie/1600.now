@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection",
-      "content": "For a graphed system of linear equations, the solution is the point where the two lines cross. You do not need to solve equations if the graph is already shown."
+      "title": "Find where the lines cross",
+      "content": "The solution to a graphed system is the point where the two lines intersect. The graph shows the lines crossing at $x=-4$ and $y=-3$."
     },
     {
-      "title": "Identify the coordinates",
-      "content": "The two lines intersect at $x=-4$ and $y=-3$, so the solution is $(-4,-3)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A (&lsquo;$\\left(0,-7\\right)$&rsquo;) is a $y$-intercept, not the intersection.</li><li>Choice B (&lsquo;$\\left(0,-3\\right)$&rsquo;) has the right $y$-value but wrong $x$-value.</li><li>Choice C (&lsquo;$\\left(-4,-3\\right)$&rsquo;) is $(-4,-3)$, the intersection point. Correct.</li><li>Choice D (&lsquo;$\\left(-4,0\\right)$&rsquo;) has the right $x$-value but wrong $y$-value.</li></ul>That confirms <strong>C</strong>."
+      "title": "Match the coordinates",
+      "content": "The solution is the ordered pair $(-4,-3)$. The answer is <strong>C</strong>."
     }
   ]
 }

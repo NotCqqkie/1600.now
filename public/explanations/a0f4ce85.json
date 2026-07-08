@@ -1,0 +1,19 @@
+{
+  "questionId": "a0f4ce85",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Weigh the study pattern",
+      "content": "Many North American studies found a positive association between dissolved organic carbon and mercury. One Brazilian study did not find that correlation, leading some scientists to think the association might be limited to North America. The later evidence challenges that regional explanation."
+    },
+    {
+      "title": "Use the outside studies",
+      "content": "Several studies outside North America, including Laakso's Finland study, produced results similar to the North American studies. Few studies produced results like the Brazilian exception. That pattern suggests the correlation is more general than the North-America-only hypothesis claimed."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "Choice B attacks the Finland study without evidence. Choice C says the association is particular to North America, but the non-North American studies undermine that idea. Choice D invents claims about absolute levels in Brazil. The answer is <strong>A</strong>."
+    }
+  ]
+}

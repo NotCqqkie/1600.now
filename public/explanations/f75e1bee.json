@@ -1,0 +1,15 @@
+{
+  "questionId": "f75e1bee",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two views",
+      "content": "Text 1 says Luttrell's reputation should be considered questionable because of his actions against Sempringham Priory. Text 2 does not deny the conflict but explains it as part of a property dispute in which Luttrell believed he had a right to the property."
+    },
+    {
+      "title": "Reject unsupported responses",
+      "content": "<ul><li><strong>Choice A</strong> says the Psalter outweighs the misconduct, but Text 2 does not make that cultural-value argument.</li><li><strong>Choice B</strong> says Luttrell was wrong despite legal permission, which Text 2 does not claim.</li><li><strong>Choice C</strong> connects the actions to documentation in the Psalter, which Text 2 never mentions.</li></ul>The remaining choice adds the context that Luttrell thought his actions were justified. The answer is <strong>D</strong>."
+    }
+  ]
+}

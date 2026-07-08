@@ -1,0 +1,15 @@
+{
+  "questionId": "36745684",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find an alternate cause",
+      "content": "The student's conclusion is causal: similarity drives same-brand cross-category purchasing. To weaken it, a finding should suggest another factor that could explain why high-similarity pairs had more same-brand purchases. That alternative must be tied to the categories themselves, because the observed pattern compares product-category pairs rather than individual shoppers' stated preferences."
+    },
+    {
+      "title": "Use the confound",
+      "content": "A's price pattern does not explain the purchasing correlation. B restates the original pattern. D shows the pattern is equally strong across brand-recognition levels, which supports it. Competition changes purchasing opportunities across categories, so few competing products in high-similarity categories offers an alternate cause. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "17a0f0ac",
+  "correctAnswer": "1.6,8/5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a scalar-multiple shortcut",
+      "content": "A linear system has infinitely many solutions when the two equations are the same line. That means every coefficient in one equation is the same multiple of the matching coefficient in the other equation."
+    },
+    {
+      "title": "Find the multiplier",
+      "content": "Compare the $x$-coefficients. If the second equation is $s$ times the first equation, then $$\\frac{15}{28}=s\\left(\\frac{6}{7}\\right).$$ Therefore $$s=\\frac{15}{28}\\div\\frac{6}{7}=\\frac{15}{28}\\cdot\\frac{7}{6}=\\frac{5}{8}.$$"
+    },
+    {
+      "title": "Convert the multiplier to the requested ratio",
+      "content": "The same multiplier applies to the constants, so $k=sg=\\frac{5}{8}g$. The question asks for $\\frac{g}{k}$: $$\\frac{g}{k}=\\frac{g}{(5/8)g}=\\frac{8}{5}=1.6.$$ The answer is <strong>1.6,8/5</strong>."
+    }
+  ]
+}

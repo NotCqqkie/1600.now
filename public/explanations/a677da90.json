@@ -1,0 +1,15 @@
+{
+  "questionId": "a677da90",
+  "correctAnswer": "34",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove the known part",
+      "content": "The total length is $123$ centimeters, and one part is $55$ centimeters. The two equal parts together have length<br/>$$123-55=68$$"
+    },
+    {
+      "title": "Divide between equal parts",
+      "content": "The remaining $68$ centimeters are split into two equal parts:<br/>$$68\\div2=34$$<br/>The answer is <strong>34</strong>."
+    }
+  ]
+}

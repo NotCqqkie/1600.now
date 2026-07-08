@@ -1,0 +1,15 @@
+{
+  "questionId": "1c7a5253",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the discrepancy",
+      "content": "OFT explains cost-benefit trade-offs that vary by species and circumstances. The passage uses lunar intensity to show this: gerbils forage less under higher lunar intensity, while night monkeys forage more because vision matters more to them."
+    },
+    {
+      "title": "State what OFT explains",
+      "content": "Choice A says species variation weakens OFT, but the passage says it explains the discrepancy. Choice B wrongly says some species do not follow trade-offs. Choice D claims OFT favors benefits over costs, which is not stated. The supported point is that OFT explains different species responding differently to similar conditions. The answer is <strong>C</strong>."
+    }
+  ]
+}

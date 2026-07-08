@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the goal",
-      "content": "The student wants to <strong>present the methods</strong> used in the 2020 study &mdash; i.e., what the researchers <em>did</em>, not what they <em>found</em>."
+      "title": "Separate methods from findings",
+      "content": "The student wants the study’s methods: what the researchers did. The relevant notes say they tagged 138 female wood ducks with radio frequency ID trackers and recorded how many nest boxes each duck visited."
     },
     {
-      "title": "Look for a methods-only sentence in the notes",
-      "content": "Method facts in the notes: placed nest boxes, tagged 138 female wood ducks with RFID trackers, recorded how many nest boxes each duck visited. Results facts (to avoid): 48.5% visited one box, 13.0% visited 10+, younger ducks visited more. The correct choice should use only the method facts."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>\"By recording how many nest boxes each duck visited, the researchers discovered that only a relatively small percentage (13.0%) of the ducks visited 10 or more nest boxes.\"</strong>: reports a finding, not methods. &#10007;</li><li><strong>\"After tracking how many nest boxes the 138 wood ducks visited, the researchers found that the younger ducks tended to visit more nest boxes than the older ducks.\"</strong>: also a finding, not methodology. &#10007;</li><li><strong>\"The researchers tagged 138 female wood ducks with radio frequency ID trackers and recorded how many nest boxes each duck visited during the nesting season.\"</strong>: pure methodology, drawn directly from the notes. &#10003;</li><li><strong>\"The researchers investigated each nesting site for signs that it had been visited by the female wood ducks.\"</strong>: fabricated &mdash; the notes describe RFID tracking of ducks, not site inspections. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use only procedure details",
+      "content": "Choice A and Choice B include findings about how many boxes ducks visited or which ducks visited more, so they are not methods-only answers. Choice D invents site inspections. The sentence about tagging ducks and recording nest-box visits presents the method. The answer is <strong>C</strong>."
     }
   ]
 }

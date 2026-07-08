@@ -1,0 +1,19 @@
+{
+  "questionId": "961ccfbb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The maximum occurs $4$ seconds after launch at height $324$, so the vertex is $(4{,}324)$. The model has the form\n$$\nf(t)=a(t-4)^2+324\n$$"
+    },
+    {
+      "title": "Use the launch height",
+      "content": "At launch, $t=0$ and the height is $68$:\n$$\n68=a(0-4)^2+324\n$$\n$$\n68=16a+324\n$$\n$$\na=-16\n$$"
+    },
+    {
+      "title": "Write the model",
+      "content": "Substitute $a=-16$ into vertex form:\n$$\nf(t)=-16(t-4)^2+324\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

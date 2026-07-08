@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Know the condition",
-      "content": "A system of two linear equations has no solution when the equations represent parallel lines: the variable coefficients are proportional, but the constants are not."
+      "title": "Use the no-solution condition",
+      "content": "A system has no solution when the equations have proportional variable terms but different constants. Then the lines are parallel and distinct."
     },
     {
-      "title": "Test <strong>Choice D &mdash; $-3x+5y=12$\n$6x-10y=30$</strong>",
-      "content": "Multiply the first equation in <strong>Choice D &mdash; $-3x+5y=12$\n$6x-10y=30$</strong> by $-2$: $$-2(-3x+5y)=-2(12)$$ $$6x-10y=-24$$ The second equation in <strong>Choice D &mdash; $-3x+5y=12$\n$6x-10y=30$</strong> is $6x-10y=30$."
+      "title": "Test the parallel pair",
+      "content": "For the system with $-3x+5y=12$ and $6x-10y=30$, multiply the first equation by $-2$.<br/>$$-2(-3x+5y)=-2(12)$$<br/>$$6x-10y=-24$$<br/>The second equation has the same left side but equals $30$."
     },
     {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice D &mdash; $-3x+5y=12$\n$6x-10y=30$</strong> gives the same left side equal to two different constants, so the lines are parallel and never intersect. <strong>D</strong>."
+      "title": "Identify the contradiction",
+      "content": "The system requires $6x-10y$ to equal both $-24$ and $30$, which is impossible. The answer is <strong>D</strong>."
     }
   ]
 }

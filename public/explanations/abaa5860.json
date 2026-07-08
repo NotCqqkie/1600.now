@@ -1,0 +1,15 @@
+{
+  "questionId": "abaa5860",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain growth followed by collapse",
+      "content": "The researchers' point is that increased total seagrass coverage does not necessarily mean the ecosystem is resilient. The correct statement must account for the graph's sharp decline while showing that a broader environmental shock can still damage the ecosystem."
+    },
+    {
+      "title": "Reject temperature-only accounts",
+      "content": "Choice B points to 2018, but the graph's major decline is in 2019. Choice C explains only earlier growth, not the later drop. Choice D predicts widgeon grass should tolerate the heat, yet it also drops. Heavy rains causing algal blooms would block sunlight and explain the broad decline. The answer is <strong>A</strong>."
+    }
+  ]
+}

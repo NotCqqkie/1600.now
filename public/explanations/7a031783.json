@@ -1,0 +1,15 @@
+{
+  "questionId": "7a031783",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute four seconds",
+      "content": "The equation gives the van's speed $s$ after $t$ seconds. To find the speed after $4$ seconds, substitute $t=4$:<br/>$$s=38+3(4)$$"
+    },
+    {
+      "title": "Calculate the speed",
+      "content": "Evaluate the expression:<br/>$$s=38+12=50$$<br/>The van's speed after $4$ seconds is $50$ miles per hour. The answer is <strong>D</strong>."
+    }
+  ]
+}

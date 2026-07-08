@@ -1,0 +1,15 @@
+{
+  "questionId": "5cc0a865",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a broad claim",
+      "content": "The student wants a generalization about the Hina Hanta archive, not a single detail about one artifact. The notes give two dated examples: a cloth shawl from 1881 and a clay mug from 1915."
+    },
+    {
+      "title": "Separate examples from generalization",
+      "content": "Choice A mentions only the shawl. Choice B gives only the Choctaw name for the shawl. Choice D gives only the mug's date. The remaining claim uses both dates to make a broader point about the archive's artifacts. The answer is <strong>C</strong>."
+    }
+  ]
+}

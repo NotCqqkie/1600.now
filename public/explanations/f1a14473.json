@@ -1,0 +1,15 @@
+{
+  "questionId": "f1a14473",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the yearly multiplier",
+      "content": "A $3.5\\%$ yearly increase means each year multiplies the previous house value by a growth factor.<br/>$$1+0.035=1.035$$"
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "The starting value is $196{,}000$, and the yearly multiplier is $1.035$. Therefore,<br/>$$f(x)=196{,}000(1.035)^x$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

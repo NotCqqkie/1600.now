@@ -1,0 +1,19 @@
+{
+  "questionId": "8239bb37",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert g to f",
+      "content": "Since \n$$\ng(x)=\\frac{f(x)}{x+3}\n$$, multiply each $g(x)$ value by $x+3$:\n$$\nf(-21)=2(-21+3)=-36\n$$\n$$\nf(-9)=0(-9+3)=0\n$$\n$$\nf(15)=4(15+3)=72\n$$"
+    },
+    {
+      "title": "Find the line",
+      "content": "Use points $(-9,0)$ and $(15,72)$ to find the slope:\n$$\nm=\\frac{72-0}{15-(-9)}=\\frac{72}{24}=3\n$$\nUse $f(x)=3x+b$ and $f(-9)=0$:\n$$\n0=3(-9)+b\n$$\n$$\nb=27\n$$"
+    },
+    {
+      "title": "Identify the intercept",
+      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so the intercept is $(0,27)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

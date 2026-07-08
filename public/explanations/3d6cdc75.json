@@ -1,0 +1,15 @@
+{
+  "questionId": "3d6cdc75",
+  "correctAnswer": "-13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Replace the repeated expression",
+      "content": "Let $u=4-8x$. The original equation becomes\n$$\n18-4u=5-5u\n$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Now isolate $u$:\n$$\n18-4u=5-5u\n$$\n$$\n18+u=5\n$$\n$$\nu=-13\n$$\nThis is the value of $4-8x$. The answer is <strong>-13</strong>."
+    }
+  ]
+}

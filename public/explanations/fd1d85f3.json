@@ -1,0 +1,15 @@
+{
+  "questionId": "fd1d85f3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(8)$, replace $x$ with $8$ in $f(x)=\\frac{1}{2}(x+14)$.<br/>$$f(8)=\\frac{1}{2}(8+14)$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Add inside the parentheses, then multiply by $\\frac{1}{2}$.<br/>$$f(8)=\\frac{1}{2}(22)=11$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

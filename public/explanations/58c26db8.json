@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the special right-triangle ratio",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Write perimeter using hypotenuse",
+      "content": "Let $h$ be the hypotenuse. In an isosceles right triangle, each leg is\n$$\n\\frac{h}{\\sqrt{2}}\n$$\nSo the perimeter is\n$$\nh+2(\\frac{h}{\\sqrt{2}})=h+h\\sqrt{2}=h(1+\\sqrt{2})\n$$"
     },
     {
-      "title": "Identify the perimeter formula for an isosceles right triangle",
-      "content": "In an isosceles right triangle with legs of length $a$, the hypotenuse is $a\\sqrt{2}$ (by the Pythagorean theorem). The perimeter is:<br/>$$a + a + a\\sqrt{2} = a(2 + \\sqrt{2})$$<br/>We're given that the perimeter is $20 + 20\\sqrt{2}$, so:<br/>$$a(2 + \\sqrt{2}) = 20 + 20\\sqrt{2}$$"
-    },
-    {
-      "title": "Solve for the leg length by rationalizing",
-      "content": "Factor the right side: $20 + 20\\sqrt{2} = 20(1 + \\sqrt{2})$<br/>$$a(2 + \\sqrt{2}) = 20(1 + \\sqrt{2})$$<br/>$$a = \\frac{20(1 + \\sqrt{2})}{2 + \\sqrt{2}}$$<br/>Rationalize by multiplying numerator and denominator by $(2 - \\sqrt{2})$:<br/><br/>Numerator: $20(1 + \\sqrt{2})(2 - \\sqrt{2}) = 20(2 - \\sqrt{2} + 2\\sqrt{2} - 2) = 20\\sqrt{2}$<br/><br/>Denominator: $(2 + \\sqrt{2})(2 - \\sqrt{2}) = 4 - 2 = 2$<br/>$$a = \\frac{20\\sqrt{2}}{2} = 10\\sqrt{2}$$"
-    },
-    {
-      "title": "Calculate the hypotenuse",
-      "content": "The hypotenuse is $a\\sqrt{2}$:<br/>$$10\\sqrt{2} \\cdot \\sqrt{2} = 10 \\cdot 2 = 20$$<br/><strong>C</strong> is correct."
+      "title": "Match the given perimeter",
+      "content": "Set this equal to the given perimeter and solve.\n$$\nh(1+\\sqrt{2})=20+20\\sqrt{2}\n$$\n$$\nh(1+\\sqrt{2})=20(1+\\sqrt{2})\n$$\n$$\nh=20\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "eac67e04",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the triangle sides",
+      "content": "Triangle $QRS$ is a right triangle with the right angle at $R$. Side $SR=47$ is opposite angle $Q$, and side $QS$ is the hypotenuse. The condition $QR<QS$ is consistent with $QS$ being the longest side."
+    },
+    {
+      "title": "Set up sine",
+      "content": "From angle $Q$, sine compares the opposite side to the hypotenuse:\n$$\n\\sin Q=\\frac{47}{QS}\n$$\nThis uses the given side $SR=47$ and the requested side $QS$."
+    },
+    {
+      "title": "Solve for the length",
+      "content": "Multiply both sides by $QS$, then divide by $\\sin Q$:\n$$\nQS=\\frac{47}{\\sin Q}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "721e5daf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with slope form",
+      "content": "The slope is $6$, so write the function as\n$$\ng(x)=6x+b\n$$"
+    },
+    {
+      "title": "Use the given point",
+      "content": "Substitute the point $(3,50)$: $50=6(3)+b$, so $50=18+b$ and $b=32$. Thus $g(x)=6x+32$, which has slope $6$ and gives $g(3)=50$. The answer is <strong>D</strong>."
+    }
+  ]
+}

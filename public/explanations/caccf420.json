@@ -1,0 +1,19 @@
+{
+  "questionId": "caccf420",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "The coefficients $13$, $-13$, and $65$ share a factor of $13$. Each term also contains at least one factor of $x$, so the greatest common factor is $13x$."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Divide each term by $13x$. This removes the largest factor common to all three terms:\n$$\n13x^{10}=13x\\cdot x^9\n$$\n$$\n-13x^9=13x\\cdot(-x^8)\n$$\n$$\n65x=13x\\cdot 5\n$$"
+    },
+    {
+      "title": "Write the equivalent form",
+      "content": "Factoring gives\n$$\n13x^{10}-13x^9+65x=13x(x^9-x^8+5)\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

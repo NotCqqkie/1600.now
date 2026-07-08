@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank needs",
-      "content": "The blank begins the second sentence and modifies the plural noun <strong>&ldquo;letters&rdquo;</strong>. The word must be a <strong>plural determiner</strong> that agrees in number with &ldquo;letters&rdquo; and points back to the eighteen letters just mentioned."
+      "title": "Match the plural noun",
+      "content": "The blank modifies the plural noun letters and points back to the eighteen letters just mentioned. The determiner therefore must be plural."
     },
     {
-      "title": "Eliminate wrong choices, keep the right one",
-      "content": "<ul><li><strong>\"One\"</strong>: Violates <strong>determiner-noun agreement</strong> &mdash; &ldquo;one&rdquo; is a singular determiner and cannot modify the plural noun &ldquo;letters.&rdquo; &#10007;</li><li><strong>\"That\"</strong>: Violates <strong>determiner-noun agreement</strong> &mdash; &ldquo;that&rdquo; is a singular demonstrative determiner and does not agree with the plural noun &ldquo;letters.&rdquo; &#10007;</li><li><strong>\"This\"</strong>: Violates <strong>determiner-noun agreement</strong> &mdash; &ldquo;this&rdquo; is a singular demonstrative determiner and does not agree with the plural noun &ldquo;letters.&rdquo; &#10007;</li><li><strong>\"These\"</strong>: &ldquo;These&rdquo; is the plural demonstrative determiner, correctly agreeing in number with the plural noun &ldquo;letters.&rdquo; &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Remove singular determiners",
+      "content": "Choice A is singular and cannot modify letters. Choice B and Choice C are singular demonstratives, so they also fail to agree with the plural noun. The plural demonstrative correctly points back to the letters. The answer is <strong>D</strong>."
     }
   ]
 }

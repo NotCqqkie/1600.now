@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the linear equation for total cost",
-      "content": "The total cost equals the enrollment fee plus the monthly fee times the number of months. If $m$ is the number of months:<br/>$$32 + 19m = 203$$"
+      "title": "Model the total charge",
+      "content": "Let $m$ be the number of months. The total charge is the enrollment fee plus the monthly fee times $m$.<br/>$$32+19m=203$$"
     },
     {
-      "title": "Solve for the number of months",
-      "content": "Subtract 32 from both sides:<br/>$$19m = 171$$<br/>Divide both sides by 19:<br/>$$m = \\frac{171}{19} = 9$$<br/>That matches <strong>Choice C &mdash; $9$</strong>."
+      "title": "Solve for months",
+      "content": "Subtract $32$ from both sides, then divide by $19$.<br/>$$19m=203-32=171$$<br/>$$m=\\frac{171}{19}=9$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "0c4b7740",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify similar triangles",
+      "content": "The marked angles at $W$ and $Y$ are equal. The angles at $Q$ are vertical angles, so they are equal too. By angle-angle similarity, triangles WQX and YQZ are similar."
+    },
+    {
+      "title": "Use corresponding sides",
+      "content": "Corresponding sides in similar triangles have the same ratio.<br/>$$\\frac{70}{YZ}=\\frac{90}{36}=\\frac{5}{2}$$<br/>Solve for $YZ$.<br/>$$5YZ=140$$<br/>$$YZ=28$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

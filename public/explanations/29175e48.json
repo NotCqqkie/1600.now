@@ -1,0 +1,15 @@
+{
+  "questionId": "29175e48",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the team context",
+      "content": "The study included both engineers and entomologists. The passage says the involvement of experts from both disciplines created a more comprehensive approach than either discipline could have achieved independently."
+    },
+    {
+      "title": "Pick the joint-work noun",
+      "content": "Choice A suggests doubt, Choice B suggests overstatement, and Choice C suggests lack of trust. All conflict with the positive result of combining two fields. The blank needs a word for experts working together. The answer is <strong>D</strong>."
+    }
+  ]
+}

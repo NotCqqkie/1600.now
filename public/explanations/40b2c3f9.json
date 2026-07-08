@@ -1,0 +1,15 @@
+{
+  "questionId": "40b2c3f9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find where minima occur",
+      "content": "Both functions have base $1.2$, which is greater than $1$, and the domain is $x\\geq0$. Therefore, each function is increasing, so each minimum occurs at $x=0$."
+    },
+    {
+      "title": "Check what is displayed",
+      "content": "For I, the minimum is\n$$18(1.2)^4$$\nFor II, the minimum is\n$$18(1.07)(1.2)^2$$\nNeither minimum is displayed as a single constant or coefficient in its equation. The answer is <strong>D</strong>."
+    }
+  ]
+}

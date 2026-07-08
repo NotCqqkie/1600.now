@@ -1,0 +1,19 @@
+{
+  "questionId": "5f5de796",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a counterexample",
+      "content": "The student predicts that birds over 150 grams do not use deceptive defenses. To weaken that prediction, the data must show a bird above 150 grams that does use broken-wing display."
+    },
+    {
+      "title": "Reject insufficient evidence",
+      "content": "Choice A says the pied-billed grebe does not use the display. Choice C lacks the key threshold comparison. Choice D describes birds under 150 grams, which does not contradict the prediction."
+    },
+    {
+      "title": "Use the heavy displaying bird",
+      "content": "Choice B gives a direct counterexample: the pied-billed grebe weighs 409 grams and performs broken-wing display, despite being above the predicted threshold. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the claim requires",
-      "content": "The underlined claim states that the number of investigative articles has <strong>fallen overall since 2010</strong>. To justify this, the correct choice must compare a data point at or near 2010 to a later data point showing a lower number &mdash; one endpoint-to-endpoint comparison."
+      "title": "Compare the endpoints",
+      "content": "The claim says the number of investigative articles overall has fallen since 2010. To justify that claim, the evidence should compare the beginning of the period with the end and show a lower final value."
     },
     {
-      "title": "Eliminate each wrong choice, then confirm the correct one",
-      "content": "<ul><li><strong>\"The newspaper published approximately 1,000 investigative articles in 2010 and approximately 500 in 2019.\"</strong>: Directly compares 2010 (start) to 2019 (end) and shows a drop from ~1,000 to ~500 &mdash; this is the endpoint comparison the claim requires. &#10003;</li><li><strong>\"The smallest annual number of investigative articles published in the newspaper during the period shown is approximately 1,600 in 2013.\"</strong>: Misreads the graph &mdash; 1,600 is the largest figure in the period, not the smallest, and a single mid-period year cannot establish an overall trend. &#10007;</li><li><strong>\"The greatest annual number of investigative articles published in the newspaper during the period shown is approximately 1,000 in 2017.\"</strong>: Misreads the graph &mdash; 1,000 is not the greatest figure, and one isolated year doesn't show an overall decline. &#10007;</li><li><strong>\"The newspaper published approximately 1,000 investigative articles in 2010 and approximately 1,600 in 2013.\"</strong>: Shows an increase from 2010 to 2013, which contradicts the claim of an overall fall. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Use the start-to-end drop",
+      "content": "B misidentifies 1,600 as the smallest value, C misidentifies 1,000 as the greatest value, and D shows an increase only from 2010 to 2013. The relevant comparison is about 1,000 articles in 2010 versus about 500 in 2019. The answer is <strong>A</strong>."
     }
   ]
 }

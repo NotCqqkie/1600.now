@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use list evaluation",
-      "content": "All four choices use $x=2$, $x=3$, and $x=4$, so evaluate the function at those three inputs."
+      "title": "Evaluate the first input",
+      "content": "Use $h(x)=x^2-5$. For $x=2$:<br/>$$h(2)=2^2-5=4-5=-1$$"
     },
     {
-      "title": "Read the output row",
-      "content": "Evaluate the three inputs in order. The output row is $[-1,4,11]$: $$h(2)=-1,\\quad h(3)=4,\\quad h(4)=11$$"
-    },
-    {
-      "title": "Match the table",
-      "content": "The table with output row $-1,4,11$ is choice B, the correct table."
+      "title": "Evaluate the remaining inputs",
+      "content": "For $x=3$ and $x=4$:<br/>$$h(3)=3^2-5=9-5=4$$<br/>$$h(4)=4^2-5=16-5=11$$<br/>The table with values $-1$, $4$, and $11$ is the match. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "27cbff47",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the research context",
+      "content": "The paragraph describes two existing lines of research on convergent evolution, notes that the relative prevalence of the two mechanisms is poorly understood, and then explains why Price and Tan studied both types together."
+    },
+    {
+      "title": "Identify the paragraph's purpose",
+      "content": "A says Price and Tan should incorporate others' findings, but the text does not make that recommendation. B invents a newly revealed issue. D invents criticism of Delacroix's study. The paragraph places Price and Tan's work within its field. The answer is <strong>C</strong>."
+    }
+  ]
+}

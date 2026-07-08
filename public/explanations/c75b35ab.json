@@ -1,0 +1,19 @@
+{
+  "questionId": "c75b35ab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the two possessives",
+      "content": "The sentence compares sample 15 and sample 18, so samples must be plural possessive. It also refers to the primary descriptors belonging to the odors, so odors must be plural possessive too."
+    },
+    {
+      "title": "Reject incomplete forms",
+      "content": "Choice A makes sample singular. Choice B makes samples possessive but incorrectly treats odor as singular possessive. Choice C leaves samples nonpossessive, so it does not show that the odors belong to the samples."
+    },
+    {
+      "title": "Use plural possessive endings",
+      "content": "Both plural nouns end in s, so each takes an apostrophe after the s: samples' odors' primary descriptors. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9faa3afd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the recognition clue",
+      "content": "The text says visitors can easily recognize Spanish mission influence in Union Station's architecture. The blank must describe an influence that is easy to perceive throughout California."
+    },
+    {
+      "title": "Reject wrong tones",
+      "content": "B means subtle, which conflicts with easy recognition. C means confirmed by evidence, but the sentence needs a description of the influence itself. D means debated, which the text does not suggest. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "635f9799",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write length from width",
+      "content": "The length-to-width ratio is $9$ to $4$, so<br/>$$\\frac{L}{W}=\\frac{9}{4}=2.25$$<br/>Thus $L=2.25W$."
+    },
+    {
+      "title": "Apply the width increase",
+      "content": "If the width increases by $6$, the new width is $W+6$. The new length must be<br/>$$2.25(W+6)=2.25W+13.5$$"
+    },
+    {
+      "title": "Compare old and new lengths",
+      "content": "The original length was $2.25W$, and the new length is $2.25W+13.5$. So the length must increase by $13.5$ units. The answer is <strong>C</strong>."
+    }
+  ]
+}

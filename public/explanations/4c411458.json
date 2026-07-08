@@ -1,0 +1,15 @@
+{
+  "questionId": "4c411458",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark both possessive nouns",
+      "content": "The phrase refers to modeling done by astronomers and the trajectory belonging to one object, 2010 BL4. That requires plural possessive astronomers' and singular possessive object's."
+    },
+    {
+      "title": "Reject missing or wrong possessives",
+      "content": "Choice A lacks the possessive for astronomers and makes objects plural. Choice B makes astronomer singular. Choice D lacks the possessive for astronomers. The form with astronomers' modeling and the object's trajectory is grammatical. The answer is <strong>C</strong>."
+    }
+  ]
+}

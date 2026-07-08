@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize exponential growth",
-      "content": "The value of $y$ is multiplied by $3$ whenever $x$ increases by $1$, so the model has the form $y=a(3)^x$."
+      "title": "Recognize the multiplier",
+      "content": "Each increase of $1$ in $x$ multiplies $y$ by $3$, so the model has the form<br/>$$y=a(3)^x$$"
     },
     {
       "title": "Use the initial value",
-      "content": "When $x=0$, $y=150$. Since $3^0=1$, the coefficient must be $a=150$."
-    },
-    {
-      "title": "Match the equation",
-      "content": "The relationship is $y=150(3)^x$, which matches <strong>D</strong>."
+      "content": "When $x=0$, the value of $y$ is $150$.<br/>$$150=a(3)^0$$<br/>$$150=a$$<br/>So the equation is $y=150(3)^x$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\frac{55}{x+6}=x$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $5$.",
+      "title": "Clear the denominator",
+      "content": "Start with\n+$$\\frac{55}{x+6}=x$$\n+Multiply both sides by $x+6$:\n+$$55=x(x+6)$$"
+    },
+    {
+      "title": "Move all terms together",
+      "content": "Expand and subtract $55$ from both sides:\n+$$55=x^2+6x$$\n+$$x^2+6x-55=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph or solve the equation\n+$$\\frac{55}{x+6}=x$$\n+The factored form is\n+$$x^2+6x-55=(x+11)(x-5)$$\n+so the positive solution is selected. The answer is <strong>5</strong>.",
       "desmosExpressions": [
         "\\frac{55}{x+6}=x"
       ]
-    },
-    {
-      "title": "Clear the denominator",
-      "content": "Start with $$\\frac{55}{x+6}=x.$$ Since the positive solution will not make $x+6=0$, multiply both sides by $x+6$: $$55=x(x+6).$$"
-    },
-    {
-      "title": "Factor the quadratic",
-      "content": "Rewrite as $$x^2+6x-55=0.$$ The numbers $11$ and $-5$ multiply to $-55$ and add to $6$, so $$(x+11)(x-5)=0.$$"
-    },
-    {
-      "title": "Choose the positive solution",
-      "content": "The solutions are $x=-11$ and $x=5$. The positive solution is <strong>5</strong>. Graphing $y=55/(x+6)$ and $y=x$ shows the positive intersection at $x=5$."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "93666d8a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the center",
+      "content": "The equation $(x-a)^2+(y-16)^2=r^2$ has center $(a,16)$."
+    },
+    {
+      "title": "Use the diameter midpoint",
+      "content": "The center is the midpoint of the diameter endpoints $(a,10)$ and $(a,d)$, so their $y$-coordinates average to $16$."
+    },
+    {
+      "title": "Solve for the endpoint",
+      "content": "$$\\frac{10+d}{2}=16$$$$10+d=32$$$$d=22$$This gives the other endpoint's $y$-coordinate. The answer is <strong>D</strong>."
+    }
+  ]
+}

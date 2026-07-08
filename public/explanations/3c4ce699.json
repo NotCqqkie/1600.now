@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Match the target expression",
-      "content": "You do not need to solve for $x$. The expression being asked for is $28+4x$, and that factors as $$28+4x=4(7+x).$$"
+      "title": "Factor the target",
+      "content": "The requested expression can be written as $4$ times the expression given in the equation.\n$$\n28+4x=4(7+x)\n$$"
     },
     {
       "title": "Use the given value",
-      "content": "Since $7+x=11$, substitute directly into the factored expression: $$28+4x=4(7+x)=4(11)=44.$$ The answer is <strong>44</strong>. Solving for $x$ first also works, but factoring the target is faster."
+      "content": "Since $7+x=11$, substitute $11$ into the factored expression.\n$$\n4(7+x)=4(11)=44\n$$\nThe answer is <strong>44</strong>."
     }
   ]
 }

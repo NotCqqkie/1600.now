@@ -1,0 +1,15 @@
+{
+  "questionId": "416cf110",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the percent",
+      "content": "$247\\%$ of $x$ means $2.47x$, so the function is $f(x)=2.47x$ for $x>0$."
+    },
+    {
+      "title": "Classify the graph",
+      "content": "The expression $2.47x$ has the form $mx+b$, so it is linear. Since the slope $2.47$ is positive, the function is increasing. The answer is <strong>D</strong>."
+    }
+  ]
+}

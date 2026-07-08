@@ -1,0 +1,15 @@
+{
+  "questionId": "722a922f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial amount",
+      "content": "At the start of the observation, there are $38{,}000$ yeast cells. This is the coefficient in the exponential model."
+    },
+    {
+      "title": "Use the doubling factor",
+      "content": "Doubling every hour means the count is multiplied by $2$ for each hour. After $t$ hours, the model is\n$$\ny=38{,}000(2)^t\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

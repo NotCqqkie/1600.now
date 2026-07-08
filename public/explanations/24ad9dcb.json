@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute Planet R weight",
-      "content": "<strong>Step 1:</strong> Weight on Planet R = $\\frac{4}{5} \\times 200 = 160$ pounds.<br/>"
+      "title": "Find both weights",
+      "content": "Planet R weight is $\\frac{4}{5}$ of $200$ pounds, and Planet S weight is $\\frac{9}{5}$ of $200$ pounds.<br/>$$\\frac{4}{5}(200)=160$$<br/>$$\\frac{9}{5}(200)=360$$"
     },
     {
-      "title": "Compute Planet S weight and difference",
-      "content": "<strong>Step 2:</strong> Weight on Planet S = $\\frac{9}{5} \\times 200 = 360$ pounds.<br/>Difference = $360 - 160 = 200$ pounds. The question asks for how many more pounds on Planet S than on Planet R, so subtract the two planet weights. That matches <strong>Choice C &mdash; 200</strong>."
+      "title": "Subtract the weights",
+      "content": "Find how many more pounds the object weighs on Planet S than on Planet R.<br/>$$360-160=200$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

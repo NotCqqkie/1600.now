@@ -1,0 +1,15 @@
+{
+  "questionId": "996a198a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Name the dimensions",
+      "content": "The width is $w$ feet. The length is $29$ times the width, so the length is $29w$ feet."
+    },
+    {
+      "title": "Connect the area factors",
+      "content": "Area equals length times width, so\n$$\ny=(29w)(w)\n$$\nIn this product, $29w$ is the length. The answer is <strong>A</strong>."
+    }
+  ]
+}

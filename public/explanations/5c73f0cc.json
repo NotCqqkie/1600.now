@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the highest bar on the graph",
-      "content": "The question asks for the highest percentage of lithium recovered across all tests shown. Scan all bars for both battery types and both processes. The bar for Type B, Process 2 extends the highest on the y-axis, reaching close to the 80% line &mdash; clearly above all other bars in the chart."
+      "title": "Locate the peak value",
+      "content": "The question asks for the highest lithium recovery percentage in the graph. The tallest value is around the mid-70s, closest to 75%, not to the much lower listed percentages."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Match each answer choice against what the graph shows:<ul><li><strong>Choice A &mdash; &lsquo;75%.&rsquo;</strong>: Closest to the Type B, Process 2 bar height of approximately 76%; this is the peak value on the chart. &#10003;</li><li><strong>Choice B &mdash; &lsquo;10%.&rsquo;</strong>: Corresponds to one of the lowest bars on the chart, not the highest. &#10007;</li><li><strong>Choice C &mdash; &lsquo;45%.&rsquo;</strong>: A mid-range bar value, not the highest recovery shown. &#10007;</li><li><strong>Choice D &mdash; &lsquo;20%.&rsquo;</strong>: Another low bar value, well below the peak. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Compare the listed numbers",
+      "content": "Choice B gives 10%, which is near the low end. Choice C gives 45%, a middle value. Choice D gives 20%, also far below the peak. The value closest to the highest recovery shown is 75%. The answer is <strong>A</strong>."
     }
   ]
 }

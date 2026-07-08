@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$13x=112-x$$Graph or solve it directly and read the x-value that works. The requested value is $8$.",
+      "title": "Gather the x terms",
+      "content": "Start with<br/>$$13x=112-x$$<br/>Add $x$ to both sides:<br/>$$14x=112$$"
+    },
+    {
+      "title": "Divide to solve",
+      "content": "Divide both sides by $14$. The answer is <strong>8</strong>.",
       "desmosExpressions": [
         "13x=112-x"
       ]
-    },
-    {
-      "title": "Gather the $x$ terms",
-      "content": "Start with $$13x=112-x.$$ Add $x$ to both sides so all $x$ terms are on one side: $$14x=112.$$"
-    },
-    {
-      "title": "Solve for $x$",
-      "content": "Divide by $14$: $$x=\\frac{112}{14}=8.$$"
     }
   ]
 }

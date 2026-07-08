@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the right side",
-      "content": "Distribute 2 on the right side of $w - 12 = 2(w + 6)$: $$w - 12 = 2w + 12$$"
+      "title": "Expand the equation",
+      "content": "Distribute $2$ on the right side:<br/>$$w-12=2(w+6)$$<br/>$$w-12=2w+12$$"
     },
     {
-      "title": "Isolate w",
-      "content": "Subtract $w$ from both sides: $$-12 = w + 12$$ Then subtract 12 from both sides: $$-24 = w$$ That matches the correct answer: <strong>D</strong> is correct."
+      "title": "Solve for the variable",
+      "content": "Subtract $w$ from both sides, then subtract $12$ from both sides:<br/>$$-12=w+12$$<br/>$$-24=w$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

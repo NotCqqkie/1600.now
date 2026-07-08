@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the first graph's key values",
-      "content": "The first graph: parabola opens downward, starts at y = 7 when x = 0, vertex near (0.3, 8.3)."
+      "title": "Apply the vertical shift",
+      "content": "The second platform is $2$ feet shorter than the first platform. Since the ball is launched the same way, the entire height graph shifts down by $2$ feet while keeping the same shape."
     },
     {
-      "title": "Apply the platform change",
-      "content": "The second platform is 2 feet shorter: 7 - 2 = 5 ft. The launch mechanism is identical, so the parabolic trajectory shifts straight down by 2 feet. Every y-value decreases by 2."
+      "title": "Update the key heights",
+      "content": "The first graph starts at $7$ feet, so the second graph starts at $7-2=5$ feet. The vertex also shifts down by $2$ feet, from about $(0.3{,}8.3)$ to about $(0.3{,}6.3)$."
     },
     {
-      "title": "Compute new key points",
-      "content": "Starting height: 7 - 2 = 5. Vertex: (0.3, 8.3 - 2) = (0.3, 6.3). Height at x &asymp; 0.6: 7 - 2 = 5."
-    },
-    {
-      "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;• The parabola opens downward.\n• The vertex is at the approximate point (0.3 comma 5.0).\n• The parabola passes through the following points:\n• approximately (0 comma 3.7)\n• approximately (0.3 comma 5.0)\n• approximately (0.6 comma 3.7)&rsquo;</strong>: Starting height 3.7 would mean a 3.7-ft platform (7 - 3.3), not 5 ft. &#10007;</li><li><strong>Choice B &mdash; &lsquo;• The parabola opens downward.\n• The vertex is at the approximate point (0.3 comma 6.3).\n• The parabola passes through the following points:\n• (0 comma 5)\n• approximately (0.3 comma 6.3)\n• approximately (0.6 comma 5)&rsquo;</strong>: Starting height 5 ft matches 7 - 2 = 5, and vertex 6.3 matches 8.3 - 2 = 6.3. &#10003;</li><li><strong>Choice C &mdash; &lsquo;• The parabola opens downward.\n• The vertex is at the approximate point (0.3 comma 10.3).\n• The parabola passes through the following points:\n• (0 comma 9)\n• approximately (0.3 comma 10.3)\n• approximately (0.6 comma 9)&rsquo;</strong>: Starting height 9 would mean a 9-ft platform, which is 2 feet taller, not shorter. &#10007;</li><li><strong>Choice D &mdash; &lsquo;• The parabola opens downward.\n• The vertex is at the approximate point (0.3 comma 15.3).\n• The parabola passes through the following points:\n• (0 comma 14)\n• approximately (0.3 comma 15.3)\n• approximately (0.6 comma 14)&rsquo;</strong>: Starting height 14 is far above 5; does not match any reasonable shift. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose the shifted graph",
+      "content": "The matching graph must open downward, start at $(0{,}5)$, have vertex about $(0.3{,}6.3)$, and return to about $(0.6{,}5)$. Choice A is too low, and Choice C and Choice D are too high. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "63eefc96",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the time shift",
+      "content": "The first sentences describe inherited traits passing from parents to a child. The final sentence shifts to that child's possible descendants, so the transition must point forward in time."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "A introduces an example, C introduces clarification, and D introduces contrast. The final sentence is not doing any of those; it is projecting inheritance into the future."
+    },
+    {
+      "title": "Signal future inheritance",
+      "content": "Someday marks the move from present inheritance to a future generation of descendants. The answer is <strong>B</strong>."
+    }
+  ]
+}

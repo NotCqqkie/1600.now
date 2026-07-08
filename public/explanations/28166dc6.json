@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the subject of the blank",
-      "content": "The verb in the blank belongs to the subject &quot;The trefoil knot and the figure-eight knot.&quot; Two nouns joined by &quot;and&quot; form a compound, plural subject. The phrase &quot;each with a crossing number below five&quot; is a parenthetical modifier and does not change the subject."
+      "title": "Find the compound subject",
+      "content": "The verb must agree with \"The trefoil knot and the figure-eight knot.\" Two nouns joined by \"and\" form a plural subject. The phrase \"each with a crossing number below five\" is only a modifier and does not make the subject singular."
     },
     {
-      "title": "Match a plural, present-tense verb",
-      "content": "The sentence makes a general, present-tense classification (these knots &quot;are among the simplest&quot;), so we need a plural present-tense verb: &quot;are.&quot;"
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; was</strong>: singular and past tense; fails subject-verb agreement with the plural compound subject. &#10007;</li><li><strong>Choice B &mdash; are</strong>: plural present-tense verb that agrees with the compound subject. &#10003;</li><li><strong>Choice C &mdash; has been</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li><li><strong>Choice D &mdash; is</strong>: singular; violates subject-verb agreement with a plural subject. &#10007;</li></ul>That matches <strong>Choice B &mdash; are</strong>."
+      "title": "Reject singular verbs",
+      "content": "Choice A is singular and past tense. Choice C uses singular \"has.\" Choice D is also singular. The sentence needs a plural present-tense verb for a general classification. The answer is <strong>B</strong>."
     }
   ]
 }

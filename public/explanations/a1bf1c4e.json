@@ -5,23 +5,19 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "Start with $x^2+6x+4$. Half of $6$ is $3$, and $3^2=9$, so rewrite the expression by adding and subtracting $9$:<br/>$$x^2+6x+4=x^2+6x+9+4-9$$"
+      "content": "Half of $6$ is $3$, and $3^2=9$. Add and subtract $9$ to keep the expression equivalent.<br/>$$x^2+6x+4=x^2+6x+9+4-9$$"
     },
     {
-      "title": "Convert to vertex form",
-      "content": "The first three terms make a perfect square:<br/>$$x^2+6x+9=(x+3)^2$$<br/>The constants combine to $4-9=-5$, so:<br/>$$x^2+6x+4=(x+3)^2-5$$"
+      "title": "Rewrite the expression",
+      "content": "The first three terms form a perfect square, and the constants combine to $-5$.<br/>$$x^2+6x+4=(x+3)^2+4-9$$<br/>$$(x+3)^2+4-9=(x+3)^2-5$$"
     },
     {
-      "title": "Check by expanding",
-      "content": "Expanding the correct answer gives $$(x+3)^2-5=x^2+6x+9-5=x^2+6x+4,$$ so it matches the original expression.",
+      "title": "Calculator shortcut",
+      "content": "Graphing the original expression and $(x+3)^2-5$ gives the same curve, so the rewritten expression is equivalent. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=x^2+6x+4",
         "y=(x+3)^2-5"
       ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The matching expression is $(x+3)^2-5$, which is choice B. So <strong>B</strong> is correct."
     }
   ]
 }

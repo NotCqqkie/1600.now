@@ -1,0 +1,15 @@
+{
+  "questionId": "77b25abc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show examples of limited factors",
+      "content": "The question asks what role the references play in the passage, not which factor matters more. The passage says some studies emphasize population density and others emphasize individual physical fitness. Navarro's point is that each is only one part of a much more complex walking decision that cannot be reduced to one isolated variable."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "B says people rarely consider these factors, C says Navarro specifically calls them overemphasized, and D says they are unique to Boston. None of those claims appears in the passage; Boston is only the opening example of walkability. The references show factors researchers have identified while supporting the broader claim that many conditions and needs shape walking choices. The answer is <strong>A</strong>."
+    }
+  ]
+}

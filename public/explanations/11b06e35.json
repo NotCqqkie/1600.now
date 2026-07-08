@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the density formula",
-      "content": "We know that <strong>Density = Mass / Volume</strong>, so we can rearrange to find <strong>Mass = Density &times; Volume</strong>. The density is 926 kg/m^3, and we need to find the volume of a cube with edge length 0.70 meters.",
+      "title": "Find the cube volume",
+      "content": "For a cube, volume is the side length cubed. The edge length is $0.70$ meter.<br/>$$V=(0.70)^3=0.343$$",
       "formula": "$$m = \\rho \\cdot V$$"
     },
     {
-      "title": "Calculate the cube's volume",
-      "content": "For a cube with edge length $s$, the volume is $s^3$. With $s = 0.70$ meters:<br/>$$V = (0.70)^3 = 0.70 \\cdot 0.70 \\cdot 0.70 = 0.343 \\text{ m}^3$$"
-    },
-    {
-      "title": "Multiply density by volume to find mass",
-      "content": "Now we apply the formula:<br/>$$\\text{Mass} = 926 \\cdot 0.343 = 317.618 \\text{ kg}$$<br/>Rounding to the nearest whole number gives 318 kg. That matches <strong>Choice A &mdash; $318$</strong>."
+      "title": "Multiply by density",
+      "content": "Mass equals density times volume.<br/>$$926\\cdot0.343=317.618$$<br/>Rounded to the nearest whole number, this is $318$.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

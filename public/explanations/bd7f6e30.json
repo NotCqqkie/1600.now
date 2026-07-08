@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the isosceles condition",
-      "content": "Since $RT = TU$, triangle $RTU$ is isosceles, so its base angles are equal: $\\angle TRU = \\angle TUR$. The exterior angle at $T$ (marked $114^{\\circ}$) is supplementary to the interior angle $\\angle RTU$, so $\\angle RTU = 180^{\\circ} - 114^{\\circ} = 66^{\\circ}$. Therefore each base angle is $\\frac{180^{\\circ} - 66^{\\circ}}{2} = 57^{\\circ}$."
+      "title": "Use the equal sides",
+      "content": "Since side RT equals side TU, triangle RTU is isosceles. The two base angles at R and U have the same measure. Let each base angle be $t^{\\circ}$."
     },
     {
-      "title": "Find the angles at R from triangle STR",
-      "content": "The exterior angle of triangle $STR$ at vertex $T$ equals the sum of the two non-adjacent interior angles: $114^{\\circ} = \\angle SRT + \\angle RST$. From the figure, $\\angle RST = 50^{\\circ}$, so $\\angle SRT = 114^{\\circ} - 50^{\\circ} = 64^{\\circ}$."
+      "title": "Find the base angle",
+      "content": "The angle at T is $114^{\\circ}$, so the triangle angle sum gives\n$$\n114^{\\circ}+2t^{\\circ}=180^{\\circ}\n$$\n$$\n2t^{\\circ}=66^{\\circ}\n$$\n$$\nt=33\n$$\nThus the angle at U in triangle SUV is also $33^{\\circ}$."
     },
     {
-      "title": "Identify x",
-      "content": "From the figure, $x = \\angle SRT = 64^{\\circ}$. The answer is <strong>64</strong> — that matches <strong>C</strong>."
+      "title": "Use the exterior angle",
+      "content": "The exterior angle labeled $x^{\\circ}$ equals the sum of the two opposite interior angles of triangle SUV:\n$$\nx^{\\circ}=31^{\\circ}+33^{\\circ}=64^{\\circ}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

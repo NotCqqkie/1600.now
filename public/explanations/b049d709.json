@@ -1,0 +1,15 @@
+{
+  "questionId": "b049d709",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage structure",
+      "content": "The text first gives a study finding: high moonlight inhibits Arizona pocket mouse activity. It then explains the finding through costs and benefits, says most nocturnal mammals show the same pattern, and finally introduces Azara's night monkeys as an exception with their own explanation."
+    },
+    {
+      "title": "Reject mismatched structures",
+      "content": "<ul><li><strong>Choice A</strong>: The exception does not cast doubt on the explanation; it is explained by the same reward-risk logic.</li><li><strong>Choice C</strong>: The text explains both responses, not just one.</li><li><strong>Choice D</strong>: The difference is attributed to visual foraging, not to study methods.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

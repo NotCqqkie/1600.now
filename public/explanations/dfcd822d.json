@@ -1,0 +1,19 @@
+{
+  "questionId": "dfcd822d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a point on the circle",
+      "content": "A radius is the distance from the center to any point on the circle. Use center $(24,7)$ and the $y$-intercept $(0,-11)$."
+    },
+    {
+      "title": "Apply the distance formula",
+      "content": "Compute the distance between those two points.<br/>$$r=\\sqrt{(24-0)^2+(7-(-11))^2}$$<br/>$$r=\\sqrt{24^2+18^2}$$"
+    },
+    {
+      "title": "Compute the radius",
+      "content": "Finish the calculation.<br/>$$r=\\sqrt{576+324}=\\sqrt{900}=30$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

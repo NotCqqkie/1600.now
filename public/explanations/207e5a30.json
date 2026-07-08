@@ -1,0 +1,15 @@
+{
+  "questionId": "207e5a30",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the spreads",
+      "content": "Standard deviation measures how spread out the data are from the center. In the histograms, team A's scores are more tightly clustered, while team B's scores cover a wider interval."
+    },
+    {
+      "title": "Connect spread to deviation",
+      "content": "A narrower distribution has a smaller standard deviation than a wider distribution. So the standard deviation for team A is less than the standard deviation for team B. The answer is <strong>A</strong>."
+    }
+  ]
+}

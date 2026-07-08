@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the two independent clauses",
-      "content": "Clause 1 ends at &quot;silkworm silk&quot;: &quot;Researcher Lin Zhi developed a process for increasing the tensile strength&hellip;of silkworm silk.&quot; Clause 2 is &quot;Zhi increased the amount of force required to stretch it from approximately 0.5 GPa to 2 GPa,&quot; preceded by the introductory phrase &quot;By dissolving and reweaving the silk in a solution of iron metal ions, zinc, and sugar.&quot;"
+      "title": "Locate the sentence break",
+      "content": "The first independent clause ends after \"silkworm silk.\" It states that Lin Zhi developed a process for increasing the tensile strength of the silk. The next clause begins with the introductory phrase \"By dissolving and reweaving the silk\" and then gives the subject and verb \"Zhi increased.\" These two independent clauses need a full stop between them."
     },
     {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "Two independent clauses must be separated by a period, a semicolon, or a comma plus a coordinating conjunction. A period followed by a capitalized &quot;By&quot; creates a clean break and lets the participial phrase modify the new clause."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; silk, by</strong>: a comma alone between two independent clauses creates a comma splice. &#10007;</li><li><strong>Choice B &mdash; silk by</strong>: zero punctuation creates a run-on. &#10007;</li><li><strong>Choice C &mdash; silk and by</strong>: &quot;and&quot; is not preceded by a comma, and the resulting structure is ungrammatical because &quot;by dissolving&hellip;Zhi increased&hellip;&quot; is not parallel to anything on the left. &#10007;</li><li><strong>Choice D &mdash; silk. By</strong>: a period correctly separates the two independent clauses. &#10003;</li></ul>That is the correct answer."
+      "title": "Avoid a run-on",
+      "content": "Choice A creates a comma splice by joining two independent clauses with only a comma. Choice B gives no punctuation between the clauses. Choice C adds \"and by,\" which creates awkward, nonparallel wording instead of a clean sentence boundary. The remaining choice uses a period after \"silk\" and begins the next sentence with \"By,\" correctly separating the clauses. The answer is <strong>D</strong>."
     }
   ]
 }

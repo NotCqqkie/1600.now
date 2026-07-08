@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use equal radii",
-      "content": "Points $M$ and $N$ lie on a circle centered at $C$, so $CM$ and $CN$ are radii of the same circle. That makes triangle $CMN$ isosceles."
+      "title": "Use the equal radii",
+      "content": "Because $C$ is the center and $M$ and $N$ are on the circle, $CM$ and $CN$ are radii of the same circle. Therefore, triangle $CMN$ is isosceles, so the two base angles are equal."
     },
     {
-      "title": "Identify radii create an isosceles triangle",
-      "content": "Since <em>M</em> and <em>N</em> lie on the circle with center <em>C</em>, the distances $CM$ and $CN$ are both radii of the same circle. Therefore $CM = CN$, which means triangle $CMN$ is isosceles."
-    },
-    {
-      "title": "Apply the base angle property",
-      "content": "In an isosceles triangle, the angles opposite the equal sides are equal. The two equal sides are $CM$ and $CN$, so the angles opposite them—namely $\\angle CMN$ and $\\angle CNM$ (equivalently, $\\angle MNC$)—must be equal. Let's call this angle $x$."
-    },
-    {
-      "title": "Use angle sum to solve for the base angle",
-      "content": "The three angles of triangle $CMN$ sum to $180^{\\circ}$:<br/>$$\\angle MCN + \\angle CMN + \\angle MNC = 180^{\\circ}$$<br/>Substituting $\\angle MCN = 84^{\\circ}$ and $\\angle CMN = \\angle MNC = x$:<br/>$$84^{\\circ} + x + x = 180^{\\circ}$$<br/>$$84^{\\circ} + 2x = 180^{\\circ}$$<br/>$$2x = 96^{\\circ}$$<br/>$$x = 48^{\\circ}$$<br/>Therefore $\\angle MNC = 48^{\\circ}$, and the answer is <strong>48</strong>."
+      "title": "Split the remaining angle",
+      "content": "The angle at $C$ is $84^\\circ$, so the other two angles total\n$$\n180^\\circ-84^\\circ=96^\\circ\n$$\nSince the two base angles are equal, each is\n$$\n\\frac{96^\\circ}{2}=48^\\circ\n$$\nThe answer is <strong>48</strong>."
     }
   ]
 }

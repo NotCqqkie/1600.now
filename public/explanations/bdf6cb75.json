@@ -1,0 +1,15 @@
+{
+  "questionId": "bdf6cb75",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening modifier",
+      "content": "The opening phrase says something was initially overlooked as insignificant research. The noun immediately after the comma must therefore be research, not a person or the antibodies themselves."
+    },
+    {
+      "title": "Choose the research subject",
+      "content": "Choice A makes Milstein the thing overlooked as research. Choice B does the same after an introductory phrase. Choice D makes monoclonal antibodies, not the study, the subject. The subject that can logically be overlooked as research is Milstein's study. The answer is <strong>C</strong>."
+    }
+  ]
+}

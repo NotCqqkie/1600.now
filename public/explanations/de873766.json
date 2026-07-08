@@ -1,0 +1,15 @@
+{
+  "questionId": "de873766",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the causal relation",
+      "content": "The sentence explains the speed difference by pointing to physical features that limit swimming speeds more than flying speeds. The blank must describe the difference as a result of that fact."
+    },
+    {
+      "title": "Reject reversed logic",
+      "content": "Choice B would make the speed difference a goal. Choice C would make it a rejection. Choice D would make the difference an explanation of the feature contrast, reversing the sentence's logic. A consequence is a result, which fits the causal phrase. The answer is <strong>A</strong>."
+    }
+  ]
+}

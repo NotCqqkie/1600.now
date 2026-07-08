@@ -1,0 +1,19 @@
+{
+  "questionId": "fe131eaa",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "To find an equivalent expression, multiply the outside factor $7x$ by each term inside the parentheses. This keeps the value the same for every value of $x$."
+    },
+    {
+      "title": "Multiply each product",
+      "content": "Apply the distributive property: $$7x(x+4)=7x(x)+7x(4)$$ The first product is $7x^2$, and the second product is $28x$."
+    },
+    {
+      "title": "Write the expanded form",
+      "content": "Combining the two products gives $$7x(x+4)=7x^2+28x$$ This expression is equivalent to the original factored expression. The answer is <strong>B</strong>."
+    }
+  ]
+}

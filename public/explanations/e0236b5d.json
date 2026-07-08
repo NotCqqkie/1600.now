@@ -1,0 +1,15 @@
+{
+  "questionId": "e0236b5d",
+  "correctAnswer": "21",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the table row",
+      "content": "The table gives wind chill values for pairs of air temperature and wind speed. Use the row for an air temperature of $33^\\circ\\text{F}$."
+    },
+    {
+      "title": "Read the matching entry",
+      "content": "In that row, use the column for a wind speed of $20$ miles per hour. The problem says to disregard the degree symbol. The answer is <strong>21</strong>."
+    }
+  ]
+}

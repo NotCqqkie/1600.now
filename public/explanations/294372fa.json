@@ -1,0 +1,15 @@
+{
+  "questionId": "294372fa",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "Distribute on each side of the equation:\n$$\n5(12x-18)=60x-90\n$$\n$$\n-15(6-4x)=-90+60x\n$$"
+    },
+    {
+      "title": "Compare the expressions",
+      "content": "Both sides simplify to the same expression:\n$$\n60x-90=60x-90\n$$\nThis identity is true for every value of $x$, so the equation has infinitely many solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

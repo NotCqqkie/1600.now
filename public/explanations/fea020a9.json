@@ -1,0 +1,19 @@
+{
+  "questionId": "fea020a9",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the taxed cost",
+      "content": "A $6\\%$ tax means the school pays $106\\%$ of the tablet price:<br/>$$180(1.06)=190.80$$"
+    },
+    {
+      "title": "Divide the budget",
+      "content": "Use the budget to find the greatest possible number of tablets:<br/>$$\\frac{3{,}600}{190.80}=18.87$$"
+    },
+    {
+      "title": "Use a whole number",
+      "content": "The school cannot order part of a tablet, so round down to $18$. The answer is <strong>18</strong>."
+    }
+  ]
+}

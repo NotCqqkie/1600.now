@@ -1,0 +1,19 @@
+{
+  "questionId": "5c86ad39",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Using the table points $(-6,65)$ and $(6,29)$, the slope is\n$$\n\\frac{29-65}{6-(-6)}=\\frac{-36}{12}=-3\n$$"
+    },
+    {
+      "title": "Find the linear equation",
+      "content": "Use $y=-3x+b$ and the point $(6,29)$.\n$$\n29=-3(6)+b\n$$\n$$\nb=47\n$$\nSo the equation is $y=-3x+47$."
+    },
+    {
+      "title": "Match the answer form",
+      "content": "Rewrite the equation in the form used by the choices.\n$$\ny=-3x+47\n$$\n$$\n3x+y=47\n$$\n$$\n9x+3y=141\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3339eb5e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare sinuosity directly",
+      "content": "Curviness is measured by sinuosity, the ratio of stream length to valley length. The notes say the Willapa River has high sinuosity and the Neales River has low sinuosity, so the correct sentence must compare the two rivers and show that Willapa's ratio is greater."
+    },
+    {
+      "title": "Reject definitions and reversal",
+      "content": "B and D explain how sinuosity is determined, but neither states which river is curvier. C reverses the notes by calling the Neales River high-sinuosity and the Willapa River low-sinuosity. The choice that directly compares the ratios is needed. The answer is <strong>A</strong>."
+    }
+  ]
+}

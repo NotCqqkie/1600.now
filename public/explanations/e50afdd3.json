@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the circle",
+      "content": "The equation is in circle form.\n$$(x+6)^2+(y-17)^2=144$$\nThe center is $(-6,17)$ and the radius is $12$."
     },
     {
-      "title": "Extract the circle's center and radius",
-      "content": "The equation $(x+6)^2 + (y-17)^2 = 144$ is in standard form.<br/>Center: $(-6, 17)$<br/>Radius: $\\sqrt{144} = 12$"
+      "title": "Limit possible x-values",
+      "content": "A point on the circle can be at most $12$ units left or right of the center's $x$-coordinate. Therefore $a$ must satisfy\n$$-18\\leq a\\leq 6$$"
     },
     {
-      "title": "Determine which x-coordinate is on the circle",
-      "content": "For a point $(a, b)$ on the circle, $(a+6)^2 + (b-17)^2 = 144$.<br/>Rearranging: $(b-17)^2 = 144 - (a+6)^2$.<br/>For $b$ to be real, we need $(a+6)^2 \\leq 144$.<br/><br/>Backsolving by testing the candidate ($a = -17$):<br/>$(a+6)^2 = (-17+6)^2 = (-11)^2 = 121 \\leq 144$ ✓<br/><br/>Testing the others:<ul><li><strong>$-19$</strong>: $(-19+6)^2 = (-13)^2 = 169 \\gt  144$ — Fails</li><li><strong>$12$</strong>: $(12+6)^2 = 18^2 = 324 \\gt  144$ — Fails</li><li><strong>$17$</strong>: $(17+6)^2 = 23^2 = 529 \\gt  144$ — Fails</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the possible coordinate",
+      "content": "Among the choices, only $-17$ is in the possible interval for the $x$-coordinate of a point on the circle. The answer is <strong>B</strong>."
     }
   ]
 }

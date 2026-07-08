@@ -1,0 +1,15 @@
+{
+  "questionId": "282618af",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the redirection pattern",
+      "content": "Trade redirection means exports are shifted toward the US rather than newly created overall. The data should therefore show a country's exports to the US increasing while its total agricultural exports decrease in the same period."
+    },
+    {
+      "title": "Reject the wrong patterns",
+      "content": "<ul><li>Choice A shows Jordan increasing both US-directed and non-FTA exports, not redirecting existing trade.</li><li>Choice B says Australia's US and total rates both decreased, which does not show movement toward the US.</li><li>Choice D says Panama's US export rate decreased, the opposite of the needed pattern.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

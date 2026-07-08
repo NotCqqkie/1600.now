@@ -1,0 +1,15 @@
+{
+  "questionId": "587c3ff2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine evidence and policy",
+      "content": "Text 1 says northern pike face much worse warming outcomes and will likely need conservation, while white-tailed deer can withstand the predicted warming without much harm. Text 2 says agencies should focus on the species most threatened and most in need."
+    },
+    {
+      "title": "Avoid unsupported additions",
+      "content": "Choice A is about preventing temperature increases, which neither text discusses. Choice C adds a claim about collaboration improving success. Choice D says both species need immediate programs, contradicting Text 1's point about deer. The shared conclusion is to prioritize pike over deer. The answer is <strong>B</strong>."
+    }
+  ]
+}

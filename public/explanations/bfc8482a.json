@@ -1,0 +1,15 @@
+{
+  "questionId": "bfc8482a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the shared input",
+      "content": "The function $p$ has slope $7$, so write $p(x)=7x+b$. Use $p(3)=30$: $$7(3)+b=30$$ $$b=9$$ Then use $p(c)=-5$: $$7c+9=-5$$ $$c=-2$$"
+    },
+    {
+      "title": "Find the slope of t",
+      "content": "Since $c=-2$, the function $t$ passes through $(-2,-4)$ and $(4,44)$. Its slope is $$\\frac{44-(-4)}{4-(-2)}=\\frac{48}{6}=8$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

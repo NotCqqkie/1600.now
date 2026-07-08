@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use standard circle form",
-      "content": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$. The number on the right side is the radius squared, not the radius itself."
+      "title": "Use circle standard form",
+      "content": "A circle in standard form is:\n$$\n(x-h)^2+(y-k)^2=r^2\n$$\nThe number on the right is the radius squared."
     },
     {
-      "title": "Recognize the standard form of a circle",
-      "content": "The equation is in the standard form of a circle, where the right side equals $r^2$ (the square of the radius), not the radius itself."
-    },
-    {
-      "title": "Calculate the radius",
-      "content": "We have $r^2 = 144$. Taking the square root of both sides:<br/>$$r = \\sqrt{144} = 12$$<br/>That is the correct answer."
+      "title": "Find the radius",
+      "content": "In the given equation, the radius squared is $144$:\n$$\nr^2=144\n$$\n$$\nr=12\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "6bff27df",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the repeated change",
+      "content": "Each year, the amount increases by $11\\%$ of the previous year's amount. That means each new amount is multiplied by<br/>$$1+0.11=1.11$$"
+    },
+    {
+      "title": "Classify the function",
+      "content": "A repeated percent change is exponential, not linear. Since the multiplier $1.11$ is greater than $1$, the values increase over time."
+    },
+    {
+      "title": "Select the description",
+      "content": "The function is exponential because the same percent increase is applied repeatedly, and it is increasing because the multiplier is greater than $1$. The answer is <strong>B</strong>."
+    }
+  ]
+}

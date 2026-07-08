@@ -1,0 +1,15 @@
+{
+  "questionId": "cba0145e",
+  "correctAnswer": "24/5,4.8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two rows from the table",
+      "content": "From the table, two points are $(0,n)$ and $(5,n+24)$. The slope is change in $y$ divided by change in $x$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "$$m=\\frac{(n+24)-n}{5-0}=\\frac{24}{5}=4.8$$<br/>The unknown starting value $n$ cancels, so the slope is fixed no matter what $n$ is. The answer is <strong>$\\frac{24}{5}$</strong>, or <strong>4.8</strong>."
+    }
+  ]
+}

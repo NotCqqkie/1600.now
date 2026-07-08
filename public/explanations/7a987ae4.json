@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Avoid solving for $n$",
-      "content": "The target expression is $2n-1$, so it is faster to find $2n$ directly. From $\\dfrac{2n}{7}=8$, multiply both sides by $7$ to get $$2n=56.$$"
+      "title": "Find two n directly",
+      "content": "The question asks for $2n-1$, so find $2n$ without solving for $n$. Multiply both sides by $7$:\n$$\n\\frac{2n}{7}=8\n$$\n$$\n2n=56\n$$"
     },
     {
-      "title": "Use the target expression",
-      "content": "Now substitute $2n=56$ into $2n-1$: $$2n-1=56-1=55.$$ This avoids an extra step of solving for $n$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>B</strong> is correct. Choice C (&lsquo;56&rsquo;) is the value of $2n$ before subtracting $1$, and choice A (&lsquo;27&rsquo;) is a trap from using $n-1$ instead of $2n-1$."
+      "title": "Subtract one",
+      "content": "Use $2n=56$ in the target expression:\n$$\n2n-1=56-1=55\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

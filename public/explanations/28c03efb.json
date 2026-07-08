@@ -1,0 +1,15 @@
+{
+  "questionId": "28c03efb",
+  "correctAnswer": "841",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the radii",
+      "content": "Circle C has radius $3x$, and circle D has radius $87x$. The radius scale factor is $$\\frac{87x}{3x}=29$$"
+    },
+    {
+      "title": "Square the scale factor",
+      "content": "Areas scale by the square of the radius scale factor.$$29^2=841$$So the area of circle D is $841$ times the area of circle C. The answer is <strong>841</strong>."
+    }
+  ]
+}

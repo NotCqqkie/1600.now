@@ -1,0 +1,15 @@
+{
+  "questionId": "56cb638e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link action to result",
+      "content": "The second sentence says Marina Foss analyzes artists' palettes. The third sentence says Foss reveals clues about the techniques and practices of specific artists. The transition must show that the revealing happens through the act of analyzing the palettes."
+    },
+    {
+      "title": "Choose the action reference",
+      "content": "Choice A signals contrast, but nothing contradicts the previous sentence. Choice B signals comparison, and Choice C signals a final item in a sequence. The needed transition points back to Foss's analysis and shows what that analysis accomplishes. The answer is <strong>D</strong>."
+    }
+  ]
+}

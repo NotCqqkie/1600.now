@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what follows the blank",
-      "content": "The main clause ends with the quoted definition of pleasure (&ldquo;the absence of pain in the body and of trouble in the ______&rdquo;). What comes after is the participial phrase <em>positing that all life&rsquo;s virtues derived from this absence</em>, which supplements &mdash; but does not stand alone as &mdash; a new independent clause."
+      "title": "Attach the modifying phrase",
+      "content": "The quoted definition ends with the word \"soul.\" The phrase after the blank, \"positing that all life's virtues derived from this absence,\" is a supplemental participial phrase, not a complete new sentence."
     },
     {
-      "title": "Eliminate each punctuation error, then confirm the match",
-      "content": "<ul><li><strong>\"soul,\" positing\"</strong>: A comma after the closing quotation mark correctly connects the main clause to the participial phrase; <em>positing</em> stays lowercase because it is not a new sentence. &#10003;</li><li><strong>\"soul\": positing\"</strong>: A colon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>\"soul\"; positing\"</strong>: A semicolon cannot link a main clause to a participial phrase. &#10007;</li><li><strong>\"soul.\" Positing\"</strong>: The period ends the sentence prematurely, leaving <em>Positing&hellip;absence</em> as an unattached fragment. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Avoid fragment punctuation",
+      "content": "B uses a colon before a phrase that does not introduce a complete explanation. C uses a semicolon even though the following words are not an independent clause. D makes the following participial phrase a fragment. A comma connects the phrase correctly. The answer is <strong>A</strong>."
     }
   ]
 }

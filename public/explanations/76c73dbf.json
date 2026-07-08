@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square",
-      "content": "This is an equation-only circle problem. Complete the square for both variables to write the equation in standard form, then read the radius from $r^2$."
+      "title": "Complete both squares",
+      "content": "Group the $x$ terms and $y$ terms, then complete the square for each group:\n$$\nx^2+x=(x+\\frac{1}{2})^2-\\frac{1}{4}\n$$\n$$\ny^2+y=(y+\\frac{1}{2})^2-\\frac{1}{4}\n$$"
     },
     {
-      "title": "Recognize that completing the square converts to standard form",
-      "content": "We have the equation $x^2 + x + y^2 + y = \\frac{241}{2}$. To find the radius, we need standard form $(x-h)^2 + (y-k)^2 = r^2$. The fastest approach is completing the square for both the $x$ terms and the $y$ terms."
+      "title": "Write circle form",
+      "content": "Substitute those forms into the equation:\n$$\n(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2-\\frac{1}{2}=\\frac{241}{2}\n$$\nMove the constant to the other side:\n$$\n(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2=121\n$$"
     },
     {
-      "title": "Complete the square for x and y, then simplify",
-      "content": "For $x^2 + x$, we complete the square:<br/>$$x^2 + x = \\left(x + \\frac{1}{2}\\right)^2 - \\frac{1}{4}$$<br/>For $y^2 + y$, we do the same:<br/>$$y^2 + y = \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4}$$<br/>Substitute into the original equation:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 - \\frac{1}{4} + \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{4} = \\frac{241}{2}$$<br/>Combine the constant terms on the left:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 - \\frac{1}{2} = \\frac{241}{2}$$<br/>Add $\\frac{1}{2}$ to both sides:<br/>$$\\left(x + \\frac{1}{2}\\right)^2 + \\left(y + \\frac{1}{2}\\right)^2 = \\frac{242}{2} = 121$$"
-    },
-    {
-      "title": "Extract the radius from standard form",
-      "content": "The equation is now in the form $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = 121$. Therefore, the radius is $r = \\sqrt{121} = 11$."
+      "title": "Read the radius",
+      "content": "In standard circle form, the right side is $r^2$:\n$$\nr^2=121\n$$\n$$\nr=11\n$$\nThe answer is <strong>11</strong>."
     }
   ]
 }

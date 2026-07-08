@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The student wants to use a quotation from Naguib specifically to explain what the sculpture represents. The correct choice must include a direct quote from Naguib about the sculpture's meaning (not her general artistic goals), and attribute it to her."
+      "title": "Use the representation quote",
+      "content": "The student's goal has two parts: use a quotation from Naguib and explain what the sculpture <em>Here I Have Returned</em> represents. The relevant note says that the sculpture symbolizes “women who have lifted and supported Egyptian society and culture,” which directly states the sculpture's meaning."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Naguib, whose works include a sculpture that is a large, curved strip of wood, has explained that she wants her work to create a dialogue with audiences.</strong>: No quotation is included, so this fails the task of using a quotation from Naguib. &#10007;</li><li><strong>Choice B — Inspired by the sistrum played by Egyptian priestesses, <em>Here I Have Returned</em> symbolizes \"women who have lifted and supported Egyptian society and culture,\" according to Naguib.</strong>: This includes Naguib&apos;s direct quotation about what the sculpture represents and correctly attributes it to her. &#10003;</li><li><strong>Choice C — According to Naguib, the curved strip of wood used in <em>Here I Have Returned</em> was inspired by the sistrum, a musical instrument played by ancient Egyptian priestesses in ceremonies.</strong>: This paraphrases the inspiration for the sculpture&apos;s form but includes no quotation from Naguib, so it fails the task. &#10007;</li><li><strong>Choice D — Naguib, the sculptor of <em>Here I Have Returned</em>, wants her works to \"engage audiences in a dialogue about power, agency, and social transformation.\"</strong>: This uses a quotation from Naguib, but the quote describes her general artistic goals, not what this sculpture represents. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject form and goal details",
+      "content": "Choice A mentions Naguib's broader goal of creating dialogue with audiences, but it includes no quotation about this sculpture's representation. Choice C explains the sistrum inspiration and the sculpture's form, but it also includes no quotation. Choice D quotes Naguib, but the quotation concerns her works in general rather than what this sculpture represents. Choice B uses the needed quotation, ties it to <em>Here I Have Returned</em>, and attributes it to Naguib. The answer is <strong>B</strong>."
     }
   ]
 }

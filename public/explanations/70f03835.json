@@ -1,0 +1,19 @@
+{
+  "questionId": "70f03835",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a count below thirty-six",
+      "content": "The assertion says 36 cheekscaled frillgobies at station 3 was not the lowest count. The blank must provide a valid station count lower than 36."
+    },
+    {
+      "title": "Reject bad data points",
+      "content": "<ul><li><strong>Choice A</strong> gives 338, which is higher than 36.</li><li><strong>Choice B</strong> gives 9 but misidentifies the species.</li><li><strong>Choice D</strong> gives 65, which is higher than 36.</li></ul>"
+    },
+    {
+      "title": "Use the lower count",
+      "content": "The remaining choice gives a count of 9 spotted frillgobies at station 3, proving that 36 was not the lowest count. The answer is <strong>C</strong>."
+    }
+  ]
+}

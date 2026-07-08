@@ -1,0 +1,15 @@
+{
+  "questionId": "0f0f108d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize concrete size",
+      "content": "The student's goal is to emphasize the size of the sculpture. The most relevant note is that <em>Rotate</em> is roughly 6 feet wide and 12 feet tall, because measurements make size specific."
+    },
+    {
+      "title": "Reject vague or irrelevant details",
+      "content": "A and C only call the sculptures large without giving measurements. B focuses on material rather than size. The best completion names <em>Rotate</em> and includes its width and height. The answer is <strong>D</strong>."
+    }
+  ]
+}

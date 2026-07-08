@@ -1,0 +1,15 @@
+{
+  "questionId": "748f0bda",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the three-part structure",
+      "content": "The text first gives Brisbane as an example of a city using shoreline hardening to protect its coast. It then explains Voss and colleagues' method: using the Index of Waterbird Community Integrity to survey bird communities in Delaware Bay. Finally, it reports the researchers' finding that shoreline hardening affects birds more negatively than land development does."
+    },
+    {
+      "title": "Reject mismapped structures",
+      "content": "A wrongly frames the study as hypothesis and evidence, C calls the final statement a supposition based on field observations, and D says the text presents shoreline hardening as a solution and notes the significance of the findings. The passage is more precise: it gives an example of the approach, explains the study methodology, and reports a study finding. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2172e983",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the date clause",
+      "content": "The sentence first explains that Page's flying ship was patented on April 10, 1906, roughly six weeks before the Wright brothers' patent. The next words, <em>Page's only model had been suspiciously destroyed</em>, begin a new independent clause and need a full sentence boundary."
+    },
+    {
+      "title": "Avoid comma splices",
+      "content": "Choice A uses dashes around the comparison but leaves the next independent clause attached. Choice B uses commas where a sentence break is needed. Choice C omits the year and also leaves a comma splice. A period before <em>Page's</em> correctly starts the next sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

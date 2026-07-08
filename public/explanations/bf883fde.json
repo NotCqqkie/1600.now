@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make a table from the point and slope",
-      "content": "The point $(0,-7)$ is on the graph, so the $y$-intercept is $-7$. With slope $5$, moving one unit right raises $y$ by $5$, so another point is $(1,-2)$."
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $b$ is the $y$-intercept."
     },
     {
-      "title": "Find the line from the data",
-      "content": "In slope-intercept form, $f(x)=mx+b$. Here $m=5$ and $b=-7$, so $$f(x)=5x-7.$$"
+      "title": "Insert the graph information",
+      "content": "The slope is $5$, so $m=5$. The graph passes through $(0,-7)$, so the $y$-intercept is $-7$ and $b=-7$."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "All four choices with $5x$ have the right slope only if their constant term is correct. The distractors use intercepts $0$, $2$, and $12$. The graph has intercept $-7$, so <strong>B</strong> is correct."
+      "title": "Write the function",
+      "content": "Substitute those values:\n+$$f(x)=5x-7$$\n+The answer is <strong>B</strong>."
     }
   ]
 }

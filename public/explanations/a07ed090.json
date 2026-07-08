@@ -1,20 +1,19 @@
 {
   "questionId": "a07ed090",
-  "qid": "a07ed090",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Write the cylinder volume ratio",
-      "content": "A cylinder with radius $r$ and height $h$ has volume $\\pi r^2h$. The second cylinder with radius $R$ and height $H$ has volume $\\pi R^2H$. It must be $392$ times as large, so $R^2H=392r^2h$."
+      "title": "Write the volume comparison",
+      "content": "A cylinder's volume is<br/><br/>$$V=\\pi r^2h$$<br/><br/>If the second cylinder has radius $R$ and height $H$, its scale factor compared with the first is<br/><br/>$$\\frac{\\pi R^2H}{\\pi r^2h}$$"
     },
     {
-      "title": "Factor 392",
-      "content": "Since $392=49\\cdot8=7^2\\cdot8$, a radius of $7r$ contributes a volume factor of $49$, and a height of $8h$ contributes a factor of $8$."
+      "title": "Factor the required multiplier",
+      "content": "The volume must be $392$ times as large:<br/><br/>$$392=49\\cdot 8=7^2\\cdot 8$$<br/><br/>A radius multiplier of $7$ contributes $7^2=49$, and a height multiplier of $8$ contributes the remaining factor."
     },
     {
-      "title": "Check the matching choice",
-      "content": "Choice C gives $R=7r$ and $H=8h$, so the second volume is $\\pi(7r)^2(8h)=392\\pi r^2h$. That confirms <strong>C</strong>."
+      "title": "Choose the matching dimensions",
+      "content": "The dimensions $R=7r$ and $H=8h$ give<br/><br/>$$\\pi(7r)^2(8h)=392\\pi r^2h$$<br/><br/>The answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C",
-  "section": "Math"
+  ]
 }

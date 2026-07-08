@@ -1,0 +1,15 @@
+{
+  "questionId": "389b2370",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed control",
+      "content": "The conclusion is that <em>M. collaris</em> associates <em>T. caesius</em> alarm calls with danger. The strongest support would show that the birds are not merely reacting to any sound or to the researchers' presence, so a control sound matters for isolating the cause."
+    },
+    {
+      "title": "Isolate the alarm call effect",
+      "content": "Choice A weakens the conclusion by showing a reaction before sounds were played. Choice B concerns other species, and Choice C only shows consistency across different callers. A no-reaction result for random-noise control sounds directly supports the specific alarm-call interpretation. The answer is <strong>D</strong>."
+    }
+  ]
+}

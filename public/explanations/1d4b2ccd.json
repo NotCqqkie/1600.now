@@ -1,0 +1,19 @@
+{
+  "questionId": "1d4b2ccd",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the function values",
+      "content": "Since $f(x)=c^x$, the equation $f(9)=64\\cdot f(7)$ becomes<br/>$$c^9=64c^7$$"
+    },
+    {
+      "title": "Divide common powers",
+      "content": "Because $c\\gt1$, $c^7$ is not $0$, so divide both sides by $c^7$.<br/>$$c^2=64$$"
+    },
+    {
+      "title": "Use the positive base",
+      "content": "Taking the positive square root gives $c=8$, since the problem states $c\\gt1$. The answer is <strong>8</strong>."
+    }
+  ]
+}

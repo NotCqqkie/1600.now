@@ -1,0 +1,15 @@
+{
+  "questionId": "f096ef83",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the dash definition",
+      "content": "The phrase after the dash defines the blank: \"variations in size, shape, and material.\" The missing word must therefore mean lack of uniformity among the microplastic particles."
+    },
+    {
+      "title": "Reject mismatched nouns",
+      "content": "A means limitations or controls, not variation. C means things cannot work together, which is stronger than the idea of particles differing in size, shape, and material. D means interruptions or disturbances. The remaining word matches variation among particles. The answer is <strong>B</strong>."
+    }
+  ]
+}

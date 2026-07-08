@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Set up the ratio",
-      "content": "The problem asks for the ratio of green cards to yellow cards.<br/>Imani has 9 green cards and 36 yellow cards.<br/>The ratio is 9 to 36."
+      "content": "The ratio of green cards to yellow cards is based on $9$ green cards and $36$ yellow cards:<br/>$$9:36$$"
     },
     {
-      "title": "Simplify the ratio",
-      "content": "Find the greatest common divisor (GCD) of 9 and 36. Notice that $36 = 9 \\times 4$, so 9 is a common factor.<br/>Divide both parts by 9:<br/>$$\\frac{9 \\div 9}{36 \\div 9} = \\frac{1}{4}$$<br/>The simplified ratio is 1 to 4. That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Simplify both parts",
+      "content": "Divide both parts of the ratio by $9$:<br/>$$9:36=1:4$$<br/>So the ratio is $1$ to $4$. The answer is <strong>A</strong>."
     }
   ]
 }

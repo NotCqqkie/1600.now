@@ -1,0 +1,15 @@
+{
+  "questionId": "8870abba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening modifier",
+      "content": "The sentence begins with the modifier <em>Knowing that flying insects keep their backs pointed toward sunlight during the day</em>. After an opening modifier like this, the subject of the main clause should be the person or thing doing the knowing. In context, the entomologists know this fact and use it to explain moth behavior around nighttime lights."
+    },
+    {
+      "title": "Keep the subject logical",
+      "content": "A makes <em>the researchers' theory</em> the subject, but a theory cannot know something. C and D make moths the subject after the opening modifier, which would illogically suggest that moths know the scientific observation about insect orientation. B correctly makes <em>the researchers</em> the subject and then presents their theory about moths mistaking lights for the Sun. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the condition for no solution",
-      "content": "A system of linear equations has no solution when the lines are parallel — they have the same slope but different y-intercepts."
+      "title": "Use the no-solution condition",
+      "content": "Two linear equations have no solution when their graphs are parallel. Parallel lines have the same slope but different $y$-intercepts."
     },
     {
-      "title": "Find the slope that makes the lines parallel",
-      "content": "The first equation $y = 2x + 1$ has slope <strong>2</strong>.<br/><br/>For the second equation $y = ax - 8$ to be parallel, it must have the same slope.<br/><br/>Therefore, $a = 2$. The y-intercepts are different ($1$ versus $-8$), confirming the lines are parallel with no intersection point.<br/><br/>That matches the correct answer — <strong>D</strong> is correct.",
+      "title": "Match the slopes",
+      "content": "The first equation, $y=2x+1$, has slope $2$. The second equation, $y=ax-8$, has slope $a$. Set the slopes equal:<br/>$$a=2$$<br/>The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y = 2x + 1",
         "y = 2x - 8"

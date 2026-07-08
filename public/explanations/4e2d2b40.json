@@ -1,0 +1,19 @@
+{
+  "questionId": "4e2d2b40",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the length data",
+      "content": "The student wants to compare river lengths. The Madeira River is 3,380 kilometers long, and the Amur River is 4,444 kilometers long."
+    },
+    {
+      "title": "Reject noncomparisons",
+      "content": "Choice A gives only Madeira's length. Choice B compares locations, not lengths. Choice C gives only Amur's world ranking. None directly compares how long the two rivers are."
+    },
+    {
+      "title": "Choose the shorter river",
+      "content": "Since 3,380 kilometers is less than 4,444 kilometers, the Madeira River is shorter than the Amur River. The answer is <strong>D</strong>."
+    }
+  ]
+}

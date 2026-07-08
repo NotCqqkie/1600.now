@@ -1,0 +1,19 @@
+{
+  "questionId": "116ecf58",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the square total",
+      "content": "Each square has perimeter $4r$. For $4$ squares, the total square perimeter is:\n$$\n4(4r)=16r\n$$"
+    },
+    {
+      "title": "Find the triangle total",
+      "content": "Each equilateral triangle has perimeter $3t$. For $5$ triangles, the total triangle perimeter is:\n$$\n5(3t)=15t\n$$"
+    },
+    {
+      "title": "Write the total equation",
+      "content": "The sum of all perimeters is $260$, so:\n$$\n16r+15t=260\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

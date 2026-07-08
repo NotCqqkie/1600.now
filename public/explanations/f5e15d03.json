@@ -1,0 +1,15 @@
+{
+  "questionId": "f5e15d03",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Confirm the installation effect",
+      "content": "The first sentence says Vik's installation creates a whimsical yet perplexing experience. The next sentence supports that claim by describing visitors as both dazzled and confused, so the details illustrate the same reaction."
+    },
+    {
+      "title": "Reject wrong transition signals",
+      "content": "Choice A signals a list item. Choice B signals contrast despite an obstacle. Choice D signals replacement. The needed transition confirms and emphasizes the previous claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

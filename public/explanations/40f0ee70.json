@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the mean time",
-      "content": "From the table, the five tasks took 6, 4, 14, 10, and 11 minutes. The mean is:<br/>$$\\text{Mean} = \\frac{6 + 4 + 14 + 10 + 11}{5} = \\frac{45}{5} = 9 \\text{ minutes}$$<br/>Daniel's mean time per task is <strong>9 minutes</strong>."
+      "title": "Find the total duration",
+      "content": "The five task times are $6$, $4$, $14$, $10$, and $11$ minutes.\n$$\n6+4+14+10+11=45\n$$"
+    },
+    {
+      "title": "Divide by the task count",
+      "content": "There are $5$ tasks, so divide the total time by $5$.\n$$\n45/5=9\n$$\nThe answer is <strong>9</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the division",
-      "content": "With at least 8 square feet required per person and a total room size of 5,400 square feet, the maximum number of people is found by dividing: maximum people = total area ÷ area per person."
+      "title": "Use the capacity ratio",
+      "content": "The maximum attendance is total room area divided by required area per person."
     },
     {
-      "title": "Calculate the maximum number",
-      "content": "$$\\frac{5,400}{8} = 675$$ That confirms <strong>B</strong> is correct."
+      "title": "Compute the quotient",
+      "content": "Divide $5{,}400$ by $8$.\n$$\\frac{5{,}400}{8}=675$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

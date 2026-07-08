@@ -1,0 +1,15 @@
+{
+  "questionId": "1504acc9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the escape-speed claim",
+      "content": "The claim says using full speed can be too energetically costly even when an animal is escaping predators. The supporting data therefore need to show lizards escaping at less than their maximum speed."
+    },
+    {
+      "title": "Pick escape evidence only",
+      "content": "A compares escape and pursuit but does not show the escape constraint clearly. C says 90%-100% is the most common escape range, weakening the point. D focuses on pursuing prey instead of escaping predators. Evidence that multiple species escape below 90% of maximum speed directly supports the claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

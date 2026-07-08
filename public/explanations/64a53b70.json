@@ -1,0 +1,19 @@
+{
+  "questionId": "64a53b70",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read circle R",
+      "content": "A circle equation has the form:<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>For circle $R$,<br/>$$(x-4)^2+(y-7)^2=9$$<br/>so the center is $(4,7)$ and the radius is $3$."
+    },
+    {
+      "title": "Double the radius",
+      "content": "Circle $s$ has the same center and twice the radius of circle $R$:<br/>$$2(3)=6$$<br/>The right side of the circle equation is the radius squared:<br/>$$6^2=36$$"
+    },
+    {
+      "title": "Write the new equation",
+      "content": "Circle $s$ is represented by:<br/>$$(x-4)^2+(y-7)^2=36$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

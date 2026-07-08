@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the underlined portion does",
-      "content": "The passage opens by saying Ellison <em>cautioned</em> technology investors who predict books will be displaced. The underlined portion then states that interactive text is much older than technologists assume&mdash;directly pushing back on their assumption. This is a challenge to the investors&rsquo; stance, not support for it."
+      "title": "Connect the claim to context",
+      "content": "Ellison is cautioning investors and enthusiasts who think books will be displaced by newer media. The underlined sentence pushes back by saying interactive text is much older than technologists assume."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; It challenges the stance of the investors and enthusiasts who are mentioned earlier in the text.</strong>: The underlined portion refutes the investors&rsquo; assumption by showing interactive text predates modern technology. &#10003;</li><li><strong>Choice B &mdash; It explains the basis for the claim made by the technologists mentioned in the text.</strong>: The passage opposes the technologists&rsquo; claim rather than supporting it. &#10007;</li><li><strong>Choice C &mdash; It suggests that academics are better suited than investors to see the potential uses of contemporary interactive texts.</strong>: No comparison between academics and investors appears in the underlined portion. &#10007;</li><li><strong>Choice D &mdash; It provides a historical anecdote about the technological challenges involved in reading the earliest interactive texts.</strong>: The underlined portion is about the age of interactivity, not about technological challenges in reading. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject misread functions",
+      "content": "B says the sentence supports technologists, but it challenges them. C invents a comparison between academics and investors. D treats marginal notes as a technological challenge, which is not the point of the sentence."
+    },
+    {
+      "title": "Name the function",
+      "content": "The underlined portion challenges the stance of the investors and enthusiasts mentioned earlier. The answer is <strong>A</strong>."
     }
   ]
 }

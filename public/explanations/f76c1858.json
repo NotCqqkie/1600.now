@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$7{x}^{2}-20x-32=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $4$.",
+      "title": "Factor the quadratic",
+      "content": "Factor the left side.<br/>$$7x^2-20x-32=(7x+8)(x-4)$$<br/>So the equation becomes<br/>$$(7x+8)(x-4)=0$$"
+    },
+    {
+      "title": "Find both solutions",
+      "content": "Use the zero product property.<br/>$$7x+8=0\\text{ or }x-4=0$$<br/>$$x=-\\frac{8}{7}\\text{ or }x=4$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation or solve it directly in a calculator, then choose the positive root. The answer is <strong>4</strong>.",
       "desmosExpressions": [
         "7{x}^{2}-20x-32=0"
       ]
-    },
-    {
-      "title": "Factor the quadratic",
-      "content": "Look for two factors whose product is $7x^2-20x-32$. The pair $7x+8$ and $x-4$ works because the middle terms are $-28x+8x=-20x$:<br/>$$7x^2-20x-32=(7x+8)(x-4).$$"
-    },
-    {
-      "title": "Use the zero product property",
-      "content": "$$(7x+8)(x-4)=0$$ gives $x=-\\frac{8}{7}$ or $x=4$."
-    },
-    {
-      "title": "Choose the positive solution",
-      "content": "The positive solution is <strong>4</strong>. The other root, $-\\frac{8}{7}$, is negative, so it does not answer the question's positive-solution requirement."
     }
   ]
 }

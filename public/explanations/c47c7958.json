@@ -1,0 +1,19 @@
+{
+  "questionId": "c47c7958",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the coordinates",
+      "content": "The point is $(33,0)$. In this graph, the $x$-coordinate is Player 1's points, and the $y$-coordinate is Player 2's points."
+    },
+    {
+      "title": "Interpret the point",
+      "content": "At $(33,0)$, Player 1 earns $33$ points and Player 2 earns $0$ points."
+    },
+    {
+      "title": "Choose the matching statement",
+      "content": "The matching statement is: when Player 1 earns $33$ points, Player 2 will earn $0$ points. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { MAX_TIME_SPENT_FILTER_SECONDS } from "@/lib/questionBankFilters";
+import { MAX_TIME_SPENT_FILTER_SECONDS, MIN_SCORE_BAND, MAX_SCORE_BAND } from "@/lib/questionBankFilters";
 import type {
   BankSearchIndexRow,
   BankSearchProgressEntry,
@@ -66,13 +66,13 @@ const rowPassesFilters = (
 ): boolean => {
   const filters = request.filters;
   const stableId = row[1];
-  const difficulty = row[5];
   const inPracticeTests = row[8];
+  const scoreBand = row[11];
   const progress = request.progress[stableId] ?? getEmptyProgress();
 
-  if (filters.difficulty.length > 0) {
-    const normalizedDifficulty = (difficulty ?? "").trim().toLowerCase();
-    if (!filters.difficulty.includes(normalizedDifficulty as typeof filters.difficulty[number])) return false;
+  const [minBand, maxBand] = filters.scoreBandRange;
+  if (minBand > MIN_SCORE_BAND || maxBand < MAX_SCORE_BAND) {
+    if (scoreBand == null || scoreBand < minBand || scoreBand > maxBand) return false;
   }
 
   if (filters.markedForReview !== "all") {
@@ -116,12 +116,14 @@ const rowToResult = (row: BankSearchIndexRow): BankSearchResult => ({
   bankType: row[3],
   subject: row[4],
   difficulty: row[5],
+  scoreBand: row[11],
   category: {
     domain: row[6],
     skill: row[7],
   },
   inPracticeTests: row[8],
   previewText: row[9],
+  dupGroup: row[12] ?? 0,
 });
 
 const searchIndex = async (request: BankSearchQueryRequest): Promise<BankSearchResult[]> => {

@@ -1,0 +1,15 @@
+{
+  "questionId": "d0e2b19a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name shared wave features",
+      "content": "The student wants a similarity between P waves and S waves. The notes identify both as seismic waves that travel beneath Earth's surface after an earthquake begins at its focus, and both cause the ground to move in some way."
+    },
+    {
+      "title": "Reject difference-focused choices",
+      "content": "B emphasizes a speed difference, C discusses only P waves, and D explicitly says the waves behave very differently. B, C, and D move away from the requested similarity. The best sentence highlights the shared location and shared ground movement. The answer is <strong>A</strong>."
+    }
+  ]
+}

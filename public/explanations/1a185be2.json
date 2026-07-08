@@ -1,0 +1,15 @@
+{
+  "questionId": "1a185be2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the current-time signal",
+      "content": "The word 'Currently' signals a present state: where Anguissola's painting is now. The blank should use simple present tense to describe that present display."
+    },
+    {
+      "title": "Choose present tense",
+      "content": "Choice A is future perfect, Choice C is simple past, and Choice D is past progressive. The remaining choice uses simple present tense, matching the present-time signal. The answer is <strong>B</strong>."
+    }
+  ]
+}

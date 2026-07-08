@@ -1,0 +1,15 @@
+{
+  "questionId": "e4403f60",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the regional conflict",
+      "content": "North American studies found a positive association between dissolved organic carbon and mercury, but Park's South Korean study found a negative association. More similar findings outside North America would weaken the universal claim."
+    },
+    {
+      "title": "Limit the conclusion",
+      "content": "A invents matching carbon levels and higher mercury levels, B suggests measurement error, and D suggests precision differences; the passage does not support those explanations. If other non-North American studies show negative associations, the North American positive pattern is regional rather than universal. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structures",
-      "content": "Before the blank is an independent clause: “an extra leap second is added.” The word “whenever” begins a dependent clause: “time based on the planet's rotation lags a full nine-tenths of a second behind time kept by precise atomic clocks.”"
+      "title": "Connect verb and condition",
+      "content": "The phrase should read \"is added whenever\" because \"whenever\" introduces the condition under which a leap second is added. No punctuation is needed between the verb phrase and that dependent clause."
     },
     {
-      "title": "Apply the subordinating conjunction rule",
-      "content": "A subordinating conjunction connects an independent clause to a dependent clause directly, with no punctuation.<br/><br/>Choice D applies this rule. The other choices add punctuation that either breaks the connection (A's comma), incorrectly uses semicolon syntax meant for independent clauses, or fragments the sentence.<br/><br/>That is the correct answer."
+      "title": "Reject unnecessary punctuation",
+      "content": "A inserts an unnecessary comma. B uses a semicolon even though what follows is not an independent clause. C creates a sentence break that leaves the \"whenever\" clause fragmentary."
+    },
+    {
+      "title": "Use direct connection",
+      "content": "Added whenever correctly connects the action to the condition without punctuation. The answer is <strong>D</strong>."
     }
   ]
 }

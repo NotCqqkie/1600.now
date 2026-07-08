@@ -1,0 +1,19 @@
+{
+  "questionId": "1830267b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original median",
+      "content": "With $51$ stamps, the median is the $26$th value. The cumulative count reaches $24$ by age $76$ and $28$ by age $81$, so the $26$th value is $81$."
+    },
+    {
+      "title": "Check the new median",
+      "content": "After adding one stamp, there are $52$ stamps, so the median is the average of the $26$th and $27$th values. Both are still $81$, so the median stays $81$."
+    },
+    {
+      "title": "Compare the means",
+      "content": "The new stamp is $136$ years old, which is greater than every age in the original table. Adding a value above the original distribution increases the mean while leaving the median unchanged. The answer is <strong>B</strong>."
+    }
+  ]
+}

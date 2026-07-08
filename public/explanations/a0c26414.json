@@ -1,0 +1,19 @@
+{
+  "questionId": "a0c26414",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the radius value",
+      "content": "A circle in standard form has equation $(x-h)^2+(y-k)^2=r^2$. In the given equation, the right side is the radius squared.<br/>$$x^2+(y-5)^2=7$$"
+    },
+    {
+      "title": "Use the unchanged radius",
+      "content": "A translation changes the center but does not change the radius. Therefore, circle B still has $a=7$ in the equation $(x-h)^2+(y-k)^2=a$."
+    },
+    {
+      "title": "Find the requested product",
+      "content": "Compute $4a$ using $a=7$.<br/>$$4a=4(7)=28$$<br/>The answer is <strong>28</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "25d5ef68",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate y",
+      "content": "Add the two equations so the $y$-terms cancel.<br/>$$4y=5x+11$$<br/>$$-4y=8x-19$$<br/>$$0=13x-8$$"
+    },
+    {
+      "title": "Find the requested product",
+      "content": "Solve for $x$, then multiply by $39$.<br/>$$13x=8$$<br/>$$x=\\frac{8}{13}$$<br/>$$39x=39\\cdot \\frac{8}{13}=24$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

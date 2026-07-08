@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the percentage equation",
-      "content": "<strong>36 is 36% of what number?</strong> translates to an equation where 36 equals 36% of the unknown number $x$:<br/>$$36 = 0.36 \\times x$$"
+      "title": "Translate the percent",
+      "content": "Let $x$ be the number. The statement says $36$ is $36\\%$ of $x$, so\n$$36=0.36x$$"
     },
     {
-      "title": "Solve for the unknown number",
-      "content": "Divide both sides by 0.36 to isolate $x$:<br/>$$x = \\frac{36}{0.36}$$<br/>Rewrite $0.36 = \\frac{36}{100}$:<br/>$$x = \\frac{36}{\\frac{36}{100}} = 36 \\times \\frac{100}{36} = 100$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Divide by the decimal",
+      "content": "Solve for $x$ by dividing by $0.36$.\n$$x=\\frac{36}{0.36}=100$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

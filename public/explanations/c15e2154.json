@@ -1,0 +1,15 @@
+{
+  "questionId": "c15e2154",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join the example correctly",
+      "content": "The blank comes between two independent clauses: \"many are still well known\" and \"Malika Ouattara, for example, is a celebrated slam poet from Burkina Faso.\" The second clause gives an example of the first claim, so the punctuation must join two complete clauses and introduce an example."
+    },
+    {
+      "title": "Remove boundary errors",
+      "content": "A creates a comma splice by placing only a comma between two independent clauses. C uses \"and\" without the comma needed before a coordinating conjunction joining independent clauses, and it weakens the example relationship. D creates a run-on sentence with no punctuation between the clauses. The answer is <strong>B</strong>."
+    }
+  ]
+}

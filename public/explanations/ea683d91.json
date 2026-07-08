@@ -1,0 +1,15 @@
+{
+  "questionId": "ea683d91",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the finding",
+      "content": "The audience already understands seedling emergence, so the sentence should not define it. It should present Garcia and Patel's finding: in the stated conditions, plant litter negatively affected seedling emergence."
+    },
+    {
+      "title": "Avoid irrelevant details",
+      "content": "Choice A is too vague and never states the finding. Choice C includes the definition the audience does not need. Choice D gives only the year. The remaining option includes the researchers, conditions, and result without padding. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "questionId": "708590d7",
-  "qid": "708590d7",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Compute the mean of data set A: 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28. There are 7 values, so mean A = 28 &divide; 7 = 4."
+      "title": "Find the first mean",
+      "content": "Data set A has $7$ values.\n$$\n\\frac{1+2+3+4+5+6+7}{7}=\\frac{28}{7}=4\n$$"
     },
     {
-      "explanation": "Compute the mean of data set B: 1 + 1 + 2 + 2 + 3 + 3 + 4 = 16. There are 7 values, so mean B = 16 &divide; 7 &asymp; 2.29."
+      "title": "Find the second mean",
+      "content": "For data set B, add the values and divide by the count.\n$$\n\\frac{1+1+2+2+3+3+4}{7}=\\frac{16}{7}\n$$"
     },
     {
-      "explanation": "Compare: mean A = 4 &gt; mean B &asymp; 2.29. The mean of data set A is greater than the mean of data set B."
-    },
-    {
-      "explanation": "Evaluate all choices:<ul><li>A: Both means equal 2. Mean A = 4 and mean B &asymp; 2.29; neither equals 2. Eliminated.</li><li>B: Both means equal 4. Mean B &asymp; 2.29, not 4. Eliminated.</li><li>C: Mean A &lt; mean B. Mean A = 4 &gt; mean B &asymp; 2.29, so this is backwards. Eliminated.</li><li>D: Mean A &gt; mean B. Mean A = 4 and mean B &asymp; 2.29, so A&apos;s mean is greater. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Compare the means",
+      "content": "Compare $4$ with $\\frac{16}{7}$.\n$$\n4>\\frac{16}{7}\n$$\nThe mean of data set A is greater than the mean of data set B. The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

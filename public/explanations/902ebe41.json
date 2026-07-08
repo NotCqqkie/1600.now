@@ -1,0 +1,19 @@
+{
+  "questionId": "902ebe41",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the intercept",
+      "content": "The function is in the form $f(x)=mx+b$. In $f(x)=6x+9$, the constant term $9$ is the value of the function when $x=0$."
+    },
+    {
+      "title": "Apply the time context",
+      "content": "The variable $x$ represents years after the tree was first measured. So $x=0$ is the first measurement time, and:<br/>$$f(0)=6(0)+9=9$$"
+    },
+    {
+      "title": "Choose the interpretation",
+      "content": "The value $9$ is the tree's estimated height when it was first measured. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage explains that Titan's methane mole fraction data are too sparse to pin down, so the model's developers responded by prescribing a single uniform value at the lowest atmospheric level. The blank must state a logical consequence of using that artificial fix, introduced by \"It is therefore important to note that.\""
+      "title": "Link methane to weather",
+      "content": "The text says methane mole fraction affects meteorological phenomena on Titan, especially precipitation and humidity. It also says the available observations are too sparse and inconsistent to fully determine methane mole fraction at different atmospheric levels. The IPSL model handles that uncertainty by prescribing one uniform methane mole fraction for the lowest atmospheric level."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; some disagreements between the model's simulations of Titan's precipitation and humidity and the moon's actual precipitation and humidity are to be expected.</strong>: The methane mole fraction drives precipitation and humidity. Forcing it to a prescribed uniform value instead of the real (unknown) value means the model's outputs for those phenomena will diverge from reality &mdash; so disagreements are predictable. &#10003;</li><li><strong>Choice B &mdash; even though the model's outputs sometimes agree with observational data, Titan's real methane mole fraction is likely higher than the methane mole fraction used in the model.</strong>: Nothing in the passage indicates which direction the real value lies relative to the prescribed value. This specific directional claim is unsupported. &#10007;</li><li><strong>Choice C &mdash; further observations of Titan may clarify the moon's methane mole fraction sufficiently for the model to employ a single value rather than a range.</strong>: This is a forward-looking hope about improving data, not a consequence of the current modelling decision. &#10007;</li><li><strong>Choice D &mdash; inconsistencies across the model's simulations of Titan's precipitation and humidity could be attributable to variations in the moon's methane mole fraction.</strong>: The model uses a fixed, uniform value &mdash; it does not vary the methane mole fraction at all &mdash; so internal inconsistencies cannot be blamed on variations in that value. &#10007;</li></ul>That matches <strong>Choice A &mdash; some disagreements between the model's simulations of Titan's precipitation and humidity and the moon's actual precipitation and humidity are to be expected.</strong>."
+      "title": "Check the model limit",
+      "content": "Because the model uses a simplifying assumption about a variable that affects precipitation and humidity, its simulations should not be expected to match Titan perfectly. Choice B is backward because the model already uses a single value. Choice C invents a direction for the real methane value. Choice D blames simulation inconsistencies on variation, even though the model fixes the value uniformly."
+    },
+    {
+      "title": "Name the expected result",
+      "content": "Choice A gives the consequence that follows from the model's simplification: some mismatch between simulated and actual precipitation and humidity is predictable. The answer does not need to know the real methane value; it only needs to recognize that an uncertain variable was simplified. The answer is <strong>A</strong>."
     }
   ]
 }

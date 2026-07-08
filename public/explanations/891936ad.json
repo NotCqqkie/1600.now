@@ -1,0 +1,15 @@
+{
+  "questionId": "891936ad",
+  "correctAnswer": "-6,7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function to zero",
+      "content": "The $x$-intercepts occur where $y=0$, so set the factored function equal to $0$: $$(x+6)(x-7)=0$$"
+    },
+    {
+      "title": "Find the intercepts",
+      "content": "Set each factor equal to $0$: $$x+6=0\\quad \\text{or}\\quad x-7=0$$ Thus $x=-6$ or $x=7$; these are separate values, not $-67$. The answer is <strong>-6,7</strong>."
+    }
+  ]
+}

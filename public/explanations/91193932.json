@@ -1,0 +1,15 @@
+{
+  "questionId": "91193932",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect finding to device",
+      "content": "The underlined portion reports that the air around the mushrooms cooled. The next sentence says those reductions inspired an air-cooling device, so the underlined information connects the biological finding to a practical application rather than serving as background only."
+    },
+    {
+      "title": "Reject weaker functions",
+      "content": "Choice A limits the function to evidence about the fungi themselves. Choice B incorrectly says the observation motivated the earlier study, and Choice D calls the finding tangential even though the device depends on it. The underlined finding is central to the later application. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the yearly savings",
-      "content": "The old yearly energy cost is \\$4,820 and the new yearly energy cost is \\$3,140, so the yearly savings are $$4{,}820-3{,}140.$$"
+      "title": "Find annual savings",
+      "content": "The yearly savings are the old yearly cost minus the new yearly cost:\n$$4{,}820-3{,}140$$"
     },
     {
-      "title": "Represent savings after t years",
-      "content": "After $t$ years, the cumulative savings are $$(4{,}820-3{,}140)t.$$ The savings must exceed the \\$28,000 installation cost, so the savings must be greater than $28{,}000$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The inequality is $$28{,}000\\lt(4{,}820-3{,}140)t.$$ That confirms <strong>B</strong>."
+      "title": "Compare savings to cost",
+      "content": "After $t$ years, total savings are\n$$(4{,}820-3{,}140)t$$\nThe savings must exceed the $28{,}000$ dollar installation cost, so\n$$28{,}000<(4{,}820-3{,}140)t$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

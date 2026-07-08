@@ -1,0 +1,15 @@
+{
+  "questionId": "bc955087",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the naming rule",
+      "content": "The sentence explains that no two minor planets may share the same name. Therefore, any chosen name must belong to only one body and not be usable for another."
+    },
+    {
+      "title": "Reject non-unique meanings",
+      "content": "Choice B means suggestive of something, not unique to it. Choice C means typical, which does not prevent duplicate names. Choice D means replaced by, which makes no sense for a name and a body. The answer is <strong>A</strong>."
+    }
+  ]
+}

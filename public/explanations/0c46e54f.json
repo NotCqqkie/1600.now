@@ -1,0 +1,23 @@
+{
+  "questionId": "0c46e54f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the attribution challenge",
+      "content": "The text says Hawaiian Pidgin has a heterogeneous set of substrates. Because some of those substrates share similar features, it can be difficult to credit a word, grammar feature, or pronunciation pattern to one specific source."
+    },
+    {
+      "title": "Remove resolved or unrelated claims",
+      "content": "Choice A says the syntax confirms an origin, so it resolves attribution rather than showing difficulty. Choice B says a sound substitution can be credited to one source, even though similar languages share the relevant absence. Choice C discusses speakers shifting closer to English in some contexts, which concerns usage variation rather than substrate origin."
+    },
+    {
+      "title": "Keep the source uncertain",
+      "content": "The best illustration should preserve the uncertainty described in the text. If a statement says a feature has a confirmed origin, it fails to illustrate the challenge. If it discusses variation in how people speak rather than where a feature came from, it also misses the attribution problem."
+    },
+    {
+      "title": "Select overlapping sources",
+      "content": "The useful statement must show a feature with several plausible influences. A Hawaiian Pidgin verb that resembles an Olelo Hawaii verb while Portuguese and Spanish verbs have similar uses illustrates exactly why one substrate may be hard to identify as the sole source. The answer is <strong>D</strong>."
+    }
+  ]
+}

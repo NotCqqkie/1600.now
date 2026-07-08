@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structures",
-      "content": "Left side of blank: independent clause (“In 1919 Larrazolo was elected governor of [New Mexico]”)<br/>Right side of blank: independent clause (“in 1928 he became the nation's first Hispanic U.S. Senator”)"
+      "title": "Identify the two clauses",
+      "content": "The text joins two independent clauses: Larrazolo was elected governor of New Mexico, and in 1928 he became the nation's first Hispanic U.S. Senator. The blank must correctly connect those clauses."
     },
     {
-      "title": "Apply the joining rule",
-      "content": "A comma plus a coordinating conjunction is the correct way to join the clauses here. The credited option provides exactly this with “New Mexico, and.” The other options violate this rule by omitting either the comma, the conjunction, or both. <strong>C</strong> is correct."
+      "title": "Use comma plus conjunction",
+      "content": "A omits the comma needed before the coordinating conjunction, B creates a comma splice, and D fuses the two independent clauses without punctuation or a conjunction. The answer is <strong>C</strong>."
     }
   ]
 }

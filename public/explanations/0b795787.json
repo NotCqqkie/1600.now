@@ -1,0 +1,15 @@
+{
+  "questionId": "0b795787",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intersection",
+      "content": "The solution to a system shown on a graph is the point where the two graphs intersect."
+    },
+    {
+      "title": "Read the coordinate pair",
+      "content": "The line and curve intersect at $(3,5)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

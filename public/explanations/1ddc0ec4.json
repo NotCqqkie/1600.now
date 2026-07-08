@@ -1,0 +1,23 @@
+{
+  "questionId": "1ddc0ec4",
+  "correctAnswer": "1215",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the unit multiplier",
+      "content": "Let $k=b^{1/n}$, so $f(x)=ak^x$. From $x=4$ to $x=7$, the output changes by a factor of:\n$$\n\\frac{135}{5}=27\n$$\nThe input increases by $3$, so:\n$$\nk^3=27\n$$\n$$\nk=3\n$$"
+    },
+    {
+      "title": "Move from seven to nine",
+      "content": "From $x=7$ to $x=9$ is two more unit steps, so multiply by $3^2$:\n$$\nf(9)=135\\cdot 3^2\n$$\n$$\nf(9)=135\\cdot 9=1215\n$$",
+      "desmosExpressions": [
+        "x_1=[4,7]",
+        "y_1=[5,135]"
+      ]
+    },
+    {
+      "title": "State the value",
+      "content": "The model value at $x=9$ is $1215$. The answer is <strong>1215</strong>."
+    }
+  ]
+}

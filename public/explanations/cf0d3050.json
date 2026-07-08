@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the useful interior angle",
-      "content": "Line $c$ crosses parallel lines $s$ and $t$. The angle vertical to the marked $x^{\\circ}$ angle is inside the parallel lines and is on the same side of the transversal as the $110^{\\circ}$ angle."
+      "title": "Use the parallel lines",
+      "content": "The $110^\\circ$ angle and the angle vertical to $x^\\circ$ are same-side interior angles. Since the lines are parallel, those angles are supplementary."
     },
     {
-      "title": "Use same-side interior and vertical angles",
-      "content": "Same-side interior angles formed by a transversal of parallel lines are supplementary, so the angle vertical to $x^{\\circ}$ has measure $$180^{\\circ}-110^{\\circ}=70^{\\circ}.$$ Vertical angles are congruent, so <strong>$x=70$</strong>."
+      "title": "Solve the angle equation",
+      "content": "Vertical angles are congruent, so the angle vertical to $x^\\circ$ also has measure $x^\\circ$:\n$$\nx+110=180\n$$\n$$\nx=70\n$$\nThe answer is <strong>70</strong>."
     }
   ]
 }

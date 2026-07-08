@@ -1,0 +1,15 @@
+{
+  "questionId": "8f1da933",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the stated goal",
+      "content": "The question asks for a sentence that presents the study and its findings. A complete answer must identify the researchers' study and include the main finding of 146 springtail species, plus the two genus-level findings."
+    },
+    {
+      "title": "Exclude incomplete choices",
+      "content": "Choice A gives only genus-level data and omits the study and total count. Choice C names the study goal but not the findings. Choice D gives some data but drops the study context and frames the genus comparison as the main point. The answer is <strong>B</strong>."
+    }
+  ]
+}

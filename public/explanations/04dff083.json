@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Main Idea question. The decisive clue is the word <strong>because</strong> in the sentence &ldquo;The researchers have concluded that these settlements were culturally linked to Izapa because each of the settlements is the same age and configured in the same manner as Izapa, with a pyramid to the north and a plaza to the south.&rdquo; The main idea must capture both the conclusion (cultural link) and its basis (matching construction)."
+      "title": "Find the central claim",
+      "content": "The text says researchers found 41 smaller settlements around Izapa and concluded that they were culturally linked to it. The evidence is that the settlements are the same age and have the same pyramid-and-plaza arrangement, suggesting shared cultural ceremonies with residents of Izapa as the reason for the inference and cultural connection."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Researchers have determined that the arrangement of Izapa's structures was based on those of other nearby settlements.</strong>: Reverses the direction. The text never says Izapa copied the smaller settlements; the shared layout is the <em>evidence</em> for a link, not a source-of-influence claim. &#10007;</li><li><strong>Choice B &mdash; Cultural ceremonies in Izapa seem to have played a more important role for its residents than those in smaller, surrounding settlements did.</strong>: Unsupported comparison. The text says residents likely performed <em>similar</em> ceremonies, never that ceremonies mattered more in one place than another. &#10007;</li><li><strong>Choice C &mdash; Although archaeologists have learned much about Izapa over years of research, they have only recently found the smaller settlements that surrounded it.</strong>: Misidentifies the main idea. The recency of the discovery is background context, not the central point; the text never says how long archaeologists have studied Izapa. &#10007;</li><li><strong>Choice D &mdash; Researchers have inferred that Izapa was related to the smaller settlements that surrounded it based in part on the similarity of their construction.</strong>: Matches the passage exactly. It names the inference (cultural link/relationship) and the evidence (similar construction). &#10003;</li></ul>That matches <strong>Choice D &mdash; Researchers have inferred that Izapa was related to the smaller settlements that surrounded it based in part on the similarity of their construction.</strong>."
+      "title": "Rule out distortions",
+      "content": "A reverses the relationship by saying Izapa's layout was based on the smaller settlements. B invents a comparison about the importance of ceremonies at Izapa versus the surrounding settlements. C focuses on recent discovery rather than the cultural-link inference and its construction evidence. The answer is <strong>D</strong>."
     }
   ]
 }

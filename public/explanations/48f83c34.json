@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the dimensions",
-      "content": "The prism has height $8$ inches and base length $x$ inches. Since the length is $5$ inches more than the width, the width is $x-5$ inches."
+      "title": "Express the width",
+      "content": "The length is $x$ inches, and it is $5$ inches greater than the width. Therefore, the width is $x-5$ inches."
     },
     {
-      "title": "Use the volume formula",
-      "content": "Volume is length times width times height: $$V(x)=x(x-5)(8).$$ Reordering the factors gives $$V(x)=8x(x-5).$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$V(x)=8x(x-5)$, so <strong>D</strong> is correct. Using $x+5$ would reverse the relationship between length and width."
+      "title": "Build the volume function",
+      "content": "Volume equals length times width times height:\n$$\nV(x)=x(x-5)(8)\n$$\nReorder the factors:\n$$\nV(x)=8x(x-5)\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

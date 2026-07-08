@@ -1,0 +1,19 @@
+{
+  "questionId": "22779294",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given zero",
+      "content": "The graph passes through $(-7,0)$, so $h(-7)=0$. Substitute $x=-7$ into the factored function:<br/>$$h(-7)=(-7+p)(-7-5)(2(-7)-8)$$"
+    },
+    {
+      "title": "Find p",
+      "content": "The last two factors are not zero, so the first factor must be zero:<br/>$$-7+p=0$$<br/>$$p=7$$"
+    },
+    {
+      "title": "Evaluate h at zero",
+      "content": "Substitute $p=7$ and $x=0$:<br/>$$h(0)=(0+7)(0-5)(2(0)-8)$$<br/>$$h(0)=7(-5)(-8)=280$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

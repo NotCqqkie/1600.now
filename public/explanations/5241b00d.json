@@ -1,0 +1,19 @@
+{
+  "questionId": "5241b00d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given angle pair",
+      "content": "The triangles already have one matching angle pair: angle A and angle P each measure $54^\\circ$. To prove similarity, it is enough to establish one more matching angle pair."
+    },
+    {
+      "title": "Test the angle information",
+      "content": "If angle B is $38^\\circ$, then the third angle in triangle ABC is\n\n$$180^\\circ-54^\\circ-38^\\circ=88^\\circ$$\n\nIf angle R is $88^\\circ$, then the third angle in triangle PQR is\n\n$$180^\\circ-54^\\circ-88^\\circ=38^\\circ$$"
+    },
+    {
+      "title": "Confirm the match",
+      "content": "Both triangles then have angle measures $54^\\circ$, $38^\\circ$, and $88^\\circ$, so they are similar by angle-angle similarity.\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

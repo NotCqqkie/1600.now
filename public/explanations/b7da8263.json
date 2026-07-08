@@ -1,0 +1,15 @@
+{
+  "questionId": "b7da8263",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the finding only",
+      "content": "The audience already understands seedling emergence, so the sentence should not define it. The goal is to present Morales and Chen's finding: in the stated grassland and climate conditions, plant litter had a positive effect on seedling emergence."
+    },
+    {
+      "title": "Avoid extra definitions",
+      "content": "A gives only the publication year. B states the finding but wastes space defining seedling emergence for an already familiar audience. C gives a vague topic and an added definition of plant litter without the actual finding. The best choice states the finding and conditions directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

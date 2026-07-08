@@ -1,0 +1,15 @@
+{
+  "questionId": "ab0afcc5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect fact to result",
+      "content": "The first sentence explains that the Eloi are fictional creatures. The next sentence says they were strong candidates for a book of imaginary beings. The transition should show that the second idea follows logically from the first."
+    },
+    {
+      "title": "Choose the consequence",
+      "content": "Choice A introduces a concession, but no opposing point is being granted. Choice B introduces a correction about reality, which is unnecessary because the first sentence already states the fact. Choice D introduces an example, but the second sentence is a consequence, not an illustration. The remaining transition means because of that status. The answer is <strong>C</strong>."
+    }
+  ]
+}

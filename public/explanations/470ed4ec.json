@@ -1,0 +1,15 @@
+{
+  "questionId": "470ed4ec",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Account for simplification",
+      "content": "Titan's methane mole fraction affects precipitation and humidity, but the available observations are too sparse and discrepant to fully determine methane levels at different atmospheric heights. The model responds to that uncertainty by prescribing one uniform methane value for the lowest atmospheric level, even though the real value may vary."
+    },
+    {
+      "title": "Reject stronger claims",
+      "content": "Choice A predicts that Titan's real methane mole fraction is higher, but the passage gives no direction of error. Choice B discusses inconsistencies within simulations rather than model-reality differences. Choice C says better observations would support one value, but uncertainty is the current problem. Choice D follows from using a simplified value for uncertain real conditions. The answer is <strong>D</strong>."
+    }
+  ]
+}

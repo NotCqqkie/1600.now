@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the sentences",
-      "content": "The paragraph argues that wishcycling is harmful. Sentence 2 gives one harm (contamination). The blank starts a sentence giving a second harm (machinery damage). Both sentences support the same thesis, so the transition must signal addition &mdash; introducing another supporting example, not contrast or qualification."
+      "title": "Add a second harm",
+      "content": "The paragraph argues that wishcycling harms recycling. After contamination of recyclable batches, the next sentence adds another harm: damage to recycling plant machinery."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>\"Fittingly,\"</strong>: Means 'appropriately' or 'suitably' &mdash; implies the second harm is a fitting consequence rather than simply an additional one. Does not signal addition. &#10007;</li><li><strong>\"On the contrary,\"</strong>: Signals disagreement or reversal. The second sentence does not contradict the first &mdash; both support the same thesis. &#10007;</li><li><strong>\"Moreover,\"</strong>: Signals the addition of another point that reinforces the argument. Correctly introduces a second harm alongside the first. &#10003;</li><li><strong>\"Nevertheless,\"</strong>: Signals contrast or concession. The second sentence is not a counterpoint to the first. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Reject contrast transitions",
+      "content": "A signals aptness rather than addition, B signals reversal, and D signals concession. The sentence needs an additive transition for another supporting point. The answer is <strong>C</strong>."
     }
   ]
 }

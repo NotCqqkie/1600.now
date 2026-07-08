@@ -1,0 +1,15 @@
+{
+  "questionId": "81d341aa",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the coloring problem",
+      "content": "The passage explains that bacterial pellicles could provide an ecologically sustainable leatherlike material, but the standard process for dyeing leather creates wastewater and other undesirable byproducts. The underlined sentence says using that ordinary dyeing regimen would undermine the ecological promise of the pellicle approach. Its function is to identify the problem created by conventional coloring methods, which motivates the researchers' search for a different way to color the pellicle."
+    },
+    {
+      "title": "Separate problem from solution",
+      "content": "Choice A describes the later adaptation, in which researchers modified bacteria so the pellicle could produce embedded pigmentation, but the underlined portion itself presents the obstacle. Choice B overstates the point as a concession that the goal will be challenging to achieve. Choice C points to petroleum-based synthetic leather, not the dyeing process. The underlined portion names the consideration that led researchers to use an alternative self-coloring approach. The answer is <strong>D</strong>."
+    }
+  ]
+}

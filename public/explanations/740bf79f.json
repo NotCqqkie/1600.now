@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Find the hypotenuse",
+      "content": "The figure gives a right triangle with legs $3$ and $4$. Use the Pythagorean theorem to find the hypotenuse $MP$.<br/>$$MP^2=3^2+4^2=9+16=25$$<br/>$$MP=5$$"
     },
     {
-      "title": "Recognize the right triangle and find the hypotenuse",
-      "content": "Triangle $MNP$ has sides $MN = 3$ and $NP = 4$, meeting at vertex $N$.<br/><br/>These are two sides of a classic 3-4-5 right triangle. Since the figure shows $NQ \\perp MP$ (a right angle at $Q$), the angle at $N$ is the right angle.<br/><br/>By the Pythagorean theorem: $$MP^2 = MN^2 + NP^2 = 3^2 + 4^2 = 9 + 16 = 25$$ $$MP = 5$$"
+      "title": "Compare the two areas",
+      "content": "The same triangle area can be written using the legs or using hypotenuse $MP$ with altitude $NQ$.<br/>$$\\frac{1}{2}(3)(4)=\\frac{1}{2}(5)(NQ)$$"
     },
     {
-      "title": "Use the area method to find the altitude NQ",
-      "content": "The area of triangle $MNP$ can be computed two different ways:<br/><br/><strong>Method 1:</strong> Using the two legs as base and height: $$\\text{Area} = \\frac{1}{2} \\cdot 3 \\cdot 4 = 6$$<br/><strong>Method 2:</strong> Using the hypotenuse $MP$ as base and altitude $NQ$ as the height: $$\\text{Area} = \\frac{1}{2} \\cdot MP \\cdot NQ = \\frac{1}{2} \\cdot 5 \\cdot NQ$$<br/>Setting the two areas equal: $$6 = \\frac{1}{2} \\cdot 5 \\cdot NQ$$ $$12 = 5 \\cdot NQ$$ $$NQ = \\frac{12}{5} = 2.4$$ That confirms <strong>C</strong> is correct."
+      "title": "Solve for the altitude",
+      "content": "Simplify the area equation.<br/>$$6=\\frac{5}{2}NQ$$<br/>$$12=5NQ$$<br/>$$NQ=\\frac{12}{5}=2.4$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

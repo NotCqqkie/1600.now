@@ -1,0 +1,15 @@
+{
+  "questionId": "fad48586",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the example in the argument",
+      "content": "The text first says humans are not the only animals that use tools. The underlined sentence supports that point by describing octopuses using seashell halves for protection or hiding."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice A is wrong because the sentence is about octopuses, not human tool use. Choice B invents a comparison about frequency. Choice D invents a claim that octopuses are smarter than birds. The answer is <strong>C</strong>."
+    }
+  ]
+}

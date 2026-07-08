@@ -1,0 +1,15 @@
+{
+  "questionId": "c445c259",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence parts",
+      "content": "The phrase beginning with \"With over three millennia\" is an introductory modifier. The main clause begins with \"a single tree like this,\" so the modifier needs a comma before that subject."
+    },
+    {
+      "title": "Punctuate the modifier",
+      "content": "A makes the introductory modifier a fragment, B uses a semicolon after a non-clause, and C incorrectly joins the modifier to the subject with \"and.\" The comma after \"rings\" and the article \"a\" correctly introduce the main clause. The answer is <strong>D</strong>."
+    }
+  ]
+}

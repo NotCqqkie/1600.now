@@ -4,13 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the conditional probability equation",
-      "content": "When choosing a rhesus negative person, we need the probability of type B: $$P(\\text{B} \\mid \\text{rhesus } -) = \\frac{\\text{people with B and rhesus } -}{\\text{total rhesus negative}}$$ From the table: $P(\\text{B} \\mid \\text{rhesus } -) = \\frac{2}{7 + 2 + 1 + x} = \\frac{2}{10 + x}$.<br/><br/>We're told this equals $\\frac{1}{9}$: $$\\frac{2}{10 + x} = \\frac{1}{9}$$",
+      "title": "Set up the probability",
+      "content": "Among rhesus negative people, the type B count is $2$, and the total rhesus negative count is $10+x$. So<br/>$$\\frac{2}{10+x}=\\frac{1}{9}$$",
       "formula": "$$P(A \\mid B) = \\frac{\\text{count of both A and B}}{\\text{total count of B}}$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Cross multiply: $$2 \\cdot 9 = 1 \\cdot (10 + x)$$ $$18 = 10 + x$$ $$x = 8$$"
+      "title": "Solve the proportion",
+      "content": "Cross multiply:<br/>$$2\\cdot 9=10+x$$<br/>$$18=10+x$$<br/>$$x=8$$"
+    },
+    {
+      "title": "State the missing value",
+      "content": "The value of $x$ is $8$. The answer is <strong>8</strong>."
     }
   ]
 }

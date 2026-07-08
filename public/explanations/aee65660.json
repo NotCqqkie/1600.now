@@ -1,0 +1,20 @@
+{
+  "questionId": "aee65660",
+  "correctAnswer": "35756",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sphere radius",
+      "content": "The diameter is $29.000$ centimeters, so the radius is half the diameter.\n$$r=\\frac{29.000}{2}=14.5$$",
+      "formula": "$$V = \\frac{4}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Calculate the volume",
+      "content": "Use $\\pi=3.14159$ in the sphere volume formula.\n$$V=\\frac{4}{3}(3.14159)(14.5)^3$$\n$$V= 12{,}770.04$$"
+    },
+    {
+      "title": "Multiply by the density",
+      "content": "Mass equals density times volume. Round to the nearest whole number.\n$$2.8000(12{,}770.04)= 35{,}756$$\nThe answer is <strong>35756</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the explanation signal",
-      "content": "The word “particularly” introduces a specific explanation for the preceding claim.<br/>It connects “advertisers hesitated to jump into a new space” with the concrete reason: “the manufacturing of new television sets was stalled due to the US's involvement in World War II.”"
+      "title": "Identify the reason phrase",
+      "content": "The underlined phrase follows the statement that advertisers hesitated to support television. It gives a specific circumstance that contributed to that hesitation: television-set manufacturing was stalled during World War II."
     },
     {
-      "title": "Match the function to the choices",
-      "content": "The phrase gives a specific reason (WWII manufacturing delays) for why advertisers hesitated to support television, which directly matches what the correct choice describes.<br/>The other choices reference comparisons between radio and TV, broadcaster persuasion tactics, and programming popularity — none of which the phrase does.<br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject unrelated functions",
+      "content": "A overstates the radio comparison, C shifts to broadcasters' persuasion efforts, and D invents a point about programming popularity. None describes the underlined phrase's explanatory role. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "62965c41",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare equal ratings to data",
+      "content": "The question states that P3 gave equal actual ratings to the abstract and cubist paintings. The graph shows unequal correlations between the model’s predictions and P3’s actual ratings for those two styles: 0.16 for abstract paintings and 0.30 for cubist paintings."
+    },
+    {
+      "title": "Infer what the model predicted",
+      "content": "If the model had predicted equal ratings for abstract and cubist paintings while P3’s actual ratings were equal, the correlations for those two styles would not differ. Because the correlations are unequal, the model must have predicted unequal ratings."
+    },
+    {
+      "title": "Eliminate unsupported directions",
+      "content": "Choice A claims the model predicted more pleasure from cubist paintings, and Choice C claims less pleasure from cubist paintings; the graph supports a difference but not its direction. Choice B says the ratings would be equal, contradicting the unequal correlations. The supported completion says the ratings would differ. The answer is <strong>D</strong>."
+    }
+  ]
+}

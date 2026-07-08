@@ -1,0 +1,15 @@
+{
+  "questionId": "b8cf24b0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants to emphasize a similarity between <em>ArcelorMittal Orbit</em> and <em>Cumil the Sewer Worker</em>. The notes describe many differences: the artworks have different creators, different materials or forms, and different cities. The shared feature relevant to the student's goal is that both works are displayed in public places."
+    },
+    {
+      "title": "Reject differences and singles",
+      "content": "<ul><li><strong>Choice B</strong> emphasizes a difference by saying only <em>ArcelorMittal Orbit</em> is in London, England.</li><li><strong>Choice C</strong> is false because the works have different creators in the notes.</li><li><strong>Choice D</strong> describes only <em>Cumil the Sewer Worker</em> and does not compare it with <em>ArcelorMittal Orbit</em>.</li></ul>The remaining option states the similarity that both artworks are on display at public locations. The answer is <strong>A</strong>."
+    }
+  ]
+}

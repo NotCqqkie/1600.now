@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "Everything before the blank &mdash; &quot;A conceptual artist and designer embraced by both the art world and the fashion world&quot; &mdash; is a long noun phrase that describes Mary Ping. The main clause is &quot;Mary Ping was chosen to curate the exhibition.&quot;"
+      "title": "Set off the opening phrase",
+      "content": "The phrase \"A conceptual artist and designer embraced by both the art world and the fashion world\" describes Mary Ping. It is an introductory noun phrase before the main clause."
     },
     {
-      "title": "Apply the rule for an opening modifier",
-      "content": "An introductory descriptive phrase that renames the subject must be set off from the main clause with a single comma. No stronger punctuation is allowed because what follows (Mary Ping was chosen&hellip;) is one continuous independent clause that needs its subject."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;world&rsquo;</strong>: no punctuation creates a run-on between the modifier and the main clause. &#10007;</li><li><strong>Choice B &mdash; &lsquo;world:&rsquo;</strong>: a colon must follow an independent clause, but the modifier is a fragment, not a complete sentence. &#10007;</li><li><strong>Choice C &mdash; &lsquo;world;&rsquo;</strong>: a semicolon joins two independent clauses; the opening phrase is not independent. &#10007;</li><li><strong>Choice D &mdash; &lsquo;world,&rsquo;</strong>: a comma correctly sets off the introductory modifier from the main clause. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use only a comma",
+      "content": "Choice A leaves no punctuation between the modifier and the main clause. Choice B uses a colon after a fragment. Choice C uses a semicolon after a fragment. A comma correctly separates the introductory description from \"Mary Ping was chosen.\" The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the trend and intercept from the scatterplot",
-      "content": "The points trend downward as $x$ increases — so the slope is <strong>negative</strong>.<br/><br/>That eliminates choices with positive slopes (A and C).<br/><br/>When $x = 0$, $y$ is around <strong>8.7</strong>, and when $x$ grows, $y$ decreases gradually — a small (in absolute value) slope around $-0.8$, not a steep $-8.7$."
+      "title": "Read the trend",
+      "content": "The scatterplot shows $y$ increasing as $x$ increases, so the linear model should have a positive slope."
     },
     {
-      "title": "Match the form $y = b + mx$",
-      "content": "We need $y$-intercept $\\approx 8.7$ and slope $\\approx -0.8$:<br/>$$y = 8.7 - 0.8x$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Use the intercept",
+      "content": "The line should also have a negative $y$-intercept, so the model needs the form\n$$\ny=-14.7+10x\n$$\namong the choices."
+    },
+    {
+      "title": "Match the model",
+      "content": "Choice D is the only listed equation with the matching intercept and slope pattern for the data shown. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "97cac811",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute into the function",
+      "content": "To find $f(3)$, substitute $3$ for $x$ in the function.\n$$f(3)=3^2+21$$"
+    },
+    {
+      "title": "Evaluate the result",
+      "content": "Compute the square and add.\n$$f(3)=9+21$$\n$$f(3)=30$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

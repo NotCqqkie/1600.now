@@ -1,0 +1,15 @@
+{
+  "questionId": "5ec2f8ed",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track both measurements",
+      "content": "The sentence gives two constitutions and two separate word counts. The phrase after \"these\" must refer to the two lengths and show that the lengths belong to the constitutions."
+    },
+    {
+      "title": "Use plural possessive form",
+      "content": "A and B use singular \"length,\" which does not match the two word counts. D uses a plural noun but leaves out the possessive apostrophe needed to show ownership. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d299c471",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to exact",
+      "content": "The first sentence says elephants ranked higher than crocodiles. The next sentence gives the exact rankings, so the transition should introduce a precise detail that supports the general comparison."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals a consequence, but no conclusion is being drawn. Choice C signals contrast, though the rankings confirm the comparison. Choice D signals time, which is irrelevant here."
+    },
+    {
+      "title": "Introduce the rankings",
+      "content": "Choice B signals specificity: elephants ranked third and crocodiles fifteenth, which precisely illustrates the earlier statement that elephants ranked higher. The answer is <strong>B</strong>."
+    }
+  ]
+}

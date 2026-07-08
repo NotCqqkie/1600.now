@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the question",
-      "content": "The question asks what percent of $360$ equals $90$. Use $$\\text{percent}=\\frac{\\text{part}}{\\text{whole}}\\cdot 100$$"
+      "title": "Compare part with whole",
+      "content": "To find what percentage $90$ is of $360$, divide the part by the whole and multiply by $100$."
     },
     {
-      "title": "Compute the percent",
-      "content": "$$\\frac{90}{360}\\cdot 100=\\frac{1}{4}\\cdot 100=25\\%$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>$25\\%$, gives $0.25(360)=90$. Correct.</li><li>$50\\%$, gives $180$.</li><li>$75\\%$, gives $270$.</li><li>$225\\%$, gives $810$.</li></ul>That matches the correct answer, <strong>A</strong>."
+      "title": "Compute the percentage",
+      "content": "Calculate the percent:<br/>$$\\frac{90}{360}\\cdot100=\\frac{1}{4}\\cdot100=25\\%$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

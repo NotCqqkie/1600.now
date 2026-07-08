@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $4$, so the answer is <strong>C</strong>, 4. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "To find $f(7)$, replace $x$ with $7$ in the function. This keeps the same rule and evaluates the output at the requested input.\n\n$$f(7)=\\frac{3(7)-1}{5}$$"
     },
     {
-      "title": "Substitute x = 7 into the function definition",
-      "content": "To find $f(7)$, we replace every instance of $x$ with 7 in the function $f(x) = \\frac{3x - 1}{5}$.<br/>$$f(7) = \\frac{3(7) - 1}{5}$$"
-    },
-    {
-      "title": "Simplify the numerator and evaluate",
-      "content": "Calculate the numerator: $3(7) - 1 = 21 - 1 = 20$.<br/><br/>Then divide:<br/>$$\\frac{20}{5} = 4$$<br/>That matches <strong>Choice C &mdash; 4</strong>."
+      "title": "Evaluate the expression",
+      "content": "Simplify the numerator first, then divide by $5$.\n\n$$f(7)=\\frac{21-1}{5}$$\n\n$$f(7)=\\frac{20}{5}$$\n\n$$f(7)=4$$\n\nThe answer is <strong>C</strong>."
     }
   ]
 }

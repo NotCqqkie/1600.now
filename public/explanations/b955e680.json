@@ -1,0 +1,15 @@
+{
+  "questionId": "b955e680",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from rule to case",
+      "content": "The first sentence gives a general principle: sleek vehicles are more aerodynamic than bulky ones. The F-4 Phantom II is then used as a specific case that illustrates that principle."
+    },
+    {
+      "title": "Reject mismatched links",
+      "content": "Choice A signals contrast even though the jet supports the principle. Choice B suggests simultaneous events, and Choice D merely adds another point. The blank needs an example signal. The answer is <strong>C</strong>."
+    }
+  ]
+}

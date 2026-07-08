@@ -1,0 +1,15 @@
+{
+  "questionId": "11a38c0a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare project-leader ratings",
+      "content": "The sentence asks what project leaders rated urban agriculture as contributing less to. The graph shows their rating for improving the local microclimate is lower than their rating for increasing global biodiversity."
+    },
+    {
+      "title": "Reject missing or reversed data",
+      "content": "Choice B refers to tourist attractions, which is not part of the relevant displayed comparison. Choice C refers to educational opportunities, also not the needed comparison. Choice D reverses the relationship shown by the project-leader ratings. The answer is <strong>A</strong>."
+    }
+  ]
+}

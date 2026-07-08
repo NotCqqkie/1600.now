@@ -1,0 +1,15 @@
+{
+  "questionId": "68deaef8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area formula",
+      "content": "The area of a circle is found from the square of its radius. The problem gives the radius as $32$ millimeters, so use $r=32$ in the circle area formula.<br/>$$A=\\pi r^2$$"
+    },
+    {
+      "title": "Square the radius",
+      "content": "Substitute the radius and compute the square completely.<br/>$$A=\\pi(32)^2$$<br/>$$32^2=1{,}024$$<br/>So the area is<br/>$$1{,}024\\pi$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

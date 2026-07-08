@@ -1,0 +1,15 @@
+{
+  "questionId": "1c97f558",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the worker count",
+      "content": "Use $x=47$ in the model $y=0.68x+2.4$:\n$$\ny=0.68(47)+2.4\n$$"
+    },
+    {
+      "title": "Calculate the prediction",
+      "content": "$$\ny=31.96+2.4\n$$\n$$\ny=34.36\n$$\nThe predicted value is closest to $34$, so use the nearest option. The answer is <strong>A</strong>."
+    }
+  ]
+}

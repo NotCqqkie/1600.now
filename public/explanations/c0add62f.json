@@ -1,0 +1,19 @@
+{
+  "questionId": "c0add62f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius slope",
+      "content": "The radius goes from the center $(-2,2)$ to the point of tangency $(6,-4)$. Its slope is\n$$\\frac{-4-2}{6-(-2)}=\\frac{-6}{8}=-\\frac{3}{4}$$"
+    },
+    {
+      "title": "Write the tangent line",
+      "content": "A tangent line is perpendicular to the radius, so its slope is the negative reciprocal:\n$$\\frac{4}{3}$$\nUsing point $(6,-4)$:\n$$y+4=\\frac{4}{3}(x-6)$$\n$$y=\\frac{4}{3}x-12$$"
+    },
+    {
+      "title": "Test the listed points",
+      "content": "For $x=12$, the line gives\n$$y=\\frac{4}{3}(12)-12=16-12=4$$\nso $(12,4)$ lies on the tangent line. The answer is <strong>C</strong>."
+    }
+  ]
+}

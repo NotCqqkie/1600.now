@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "The blank sits between the noun <strong>'artists'</strong> and the names <strong>'Thomas Hart Benton and Jackson Pollock.'</strong> The names directly identify which artists are meant — they form a single, tightly bound noun phrase: <em>US artists Thomas Hart Benton and Jackson Pollock</em>."
+      "title": "Identify the appositive need",
+      "content": "The names Thomas Hart Benton and Jackson Pollock identify which twentieth-century US artists the sentence means. Because the names are essential to the noun phrase, they should not be separated from \"artists\" by punctuation."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "When a specifying noun phrase (the names) is essential to identifying the noun (<em>artists</em>), no punctuation separates them — the same way we write <em>my friend Sarah</em>, not <em>my friend, Sarah,</em>.<br/><br/>artists : Thomas Hart Benton and Jackson Pollock, inserts a colon, but a colon needs a complete independent clause before it. artists Thomas Hart Benton, and Jackson Pollock, adds a stray comma between the two names. artists, Thomas Hart Benton and Jackson Pollock adds a comma that wrongly treats the names as a non-essential aside.<br/><br/>The answer is <strong>B</strong>."
+      "title": "Avoid unnecessary punctuation",
+      "content": "Choice A inserts a colon after an incomplete phrase. Choice C adds an incorrect comma between the two names. Choice D wrongly sets the identifying names off with a comma. The unpunctuated noun phrase is correct. The answer is <strong>B</strong>."
     }
   ]
 }

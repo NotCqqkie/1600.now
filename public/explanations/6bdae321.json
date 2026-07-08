@@ -1,0 +1,15 @@
+{
+  "questionId": "6bdae321",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "Convert units:\n$$\n12.7\\cdot\\frac{1\\ \\text{mile}}{1{,}609\\ \\text{meters}}\\cdot\\frac{3{,}600\\ \\text{seconds}^2}{1\\ \\text{minute}^2}\n$$"
+    },
+    {
+      "title": "Compute the rate",
+      "content": "Evaluate:\n$$\n\\frac{12.7\\cdot3{,}600}{1{,}609}=28.4\\text{ to the nearest tenth}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

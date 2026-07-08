@@ -1,0 +1,15 @@
+{
+  "questionId": "1992c1f8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed comparison",
+      "content": "The journalist claims that the UN estimates likely included people outside the cities proper. To support that, the table must show a UN population estimate that is much larger than the city-proper population for the same city."
+    },
+    {
+      "title": "Reject unrelated table facts",
+      "content": "Choice B concerns the area of Bangkok, not population counts. Choice C compares two city-proper populations without using a UN estimate. Choice D also discusses city-proper area rather than population. The relevant support is the large gap between the UN estimate for Bogotá and Bogotá's reported city-proper population. The answer is <strong>A</strong>."
+    }
+  ]
+}

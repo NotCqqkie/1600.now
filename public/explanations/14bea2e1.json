@@ -1,0 +1,15 @@
+{
+  "questionId": "14bea2e1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the highest value",
+      "content": "The question asks for the highest percentage of lithium recovered. In the graph, the tallest bar is the dark bar for Type B under recycling process 2, which reaches close to 75 percent."
+    },
+    {
+      "title": "Use the closest table value",
+      "content": "B, C, and D give lower percentages that do not match the maximum shown by the tallest bar. The completion closest to the highest recovery percentage is 75 percent. The answer is <strong>A</strong>."
+    }
+  ]
+}

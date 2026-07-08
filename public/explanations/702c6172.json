@@ -1,0 +1,19 @@
+{
+  "questionId": "702c6172",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Pick two points on the line",
+      "content": "The line of best fit slopes downward, so the slope must be negative. Two clear points on the line are approximately $(0,12)$ and $(8,6)$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Use change in $y$ over change in $x$.\n$$\\frac{6-12}{8-0}=\\frac{-6}{8}=-0.75$$"
+    },
+    {
+      "title": "Match the closest choice",
+      "content": "The closest listed value to $-0.75$ is $-0.73$. The positive choices have the wrong sign, and $-12.14$ is much too steep. The answer is <strong>C</strong>."
+    }
+  ]
+}

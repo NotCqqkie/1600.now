@@ -1,0 +1,15 @@
+{
+  "questionId": "22aa4de2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $x=8$ and $f(8)=48$ in $f(x)=6x+b$:\n$$\n48=6(8)+b\n$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Subtract $48$ from both sides:\n$$\n48=48+b\n$$\n$$\nb=0\n$$\nThe constant term is zero because the $6x$ part already equals the given output. The answer is <strong>A</strong>."
+    }
+  ]
+}

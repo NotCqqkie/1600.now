@@ -1,0 +1,23 @@
+{
+  "questionId": "1ecf246d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "The two expressions for $y$ are equal.<br/>$$-2x-10=2x+16$$"
+    },
+    {
+      "title": "Find the coordinates",
+      "content": "Solve for $x$, then substitute.<br/>$$-4x=26$$<br/>$$x=-\\frac{13}{2}$$<br/>$$y=2(-\\frac{13}{2})+16=3$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two lines and read the $y$-coordinate of their intersection. The intersection gives the same requested value. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y=-2x-10",
+        "y=2x+16"
+      ]
+    }
+  ]
+}

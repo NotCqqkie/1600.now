@@ -1,0 +1,19 @@
+{
+  "questionId": "0fddf012",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the hypotenuse",
+      "content": "Angle $B$ is a right angle, so side $AC$ is the hypotenuse."
+    },
+    {
+      "title": "Use the Pythagorean theorem",
+      "content": "Square the two legs and add them.<br/>$$AC^2=(16\\sqrt{29})^2+(30\\sqrt{29})^2$$<br/>$$AC^2=256\\cdot29+900\\cdot29$$<br/>$$AC^2=1{,}156\\cdot29$$"
+    },
+    {
+      "title": "Find the hypotenuse",
+      "content": "Since $1{,}156=34^2$,<br/>$$AC=\\sqrt{1{,}156\\cdot29}=34\\sqrt{29}$$The answer is <strong>B</strong>."
+    }
+  ]
+}

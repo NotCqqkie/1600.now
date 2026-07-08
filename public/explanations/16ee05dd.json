@@ -1,0 +1,23 @@
+{
+  "questionId": "16ee05dd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the second point",
+      "content": "Point $L=(x,-1)$ lies on the unit circle centered at $(0,0)$, so\n$$\nx^2+(-1)^2=1\n$$\nThis gives $x^2=0$, so $L=(0,-1)$."
+    },
+    {
+      "title": "Find the central angle",
+      "content": "Points $J=(0,1)$ and $L=(0,-1)$ are opposite endpoints of a diameter. The smaller angle between their radii at the center is\n$$\n\\pi\n$$\nradians."
+    },
+    {
+      "title": "Use coterminal angles",
+      "content": "Positive measures for the same angle can be found by adding full rotations:\n$$\n\\pi+2\\pi k=(2k+1)\\pi\n$$\nSo the measure must be an odd multiple of $\\pi$."
+    },
+    {
+      "title": "Match the odd multiple",
+      "content": "Choice D, $13\\pi$, is an odd multiple of $\\pi$. The other choices are not odd multiples of $\\pi$. The answer is <strong>D</strong>."
+    }
+  ]
+}

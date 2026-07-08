@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the function notation",
-      "content": "In $h(x) = -16x^2 + 24x + 4$, the input $x$ is time in seconds and the output $h(x)$ is height in feet.<br/>So $h(1.6) = 1.44$ means: at $x = 1.6$ seconds, the height equals $1.44$ feet."
+      "title": "Match input and output",
+      "content": "The function $h(x)$ gives the height of the object in feet after $x$ seconds. In the statement $h(1.6)=1.44$, the input $1.6$ is the time after the object is thrown, and the output $1.44$ is the height."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"The height of the object 1.6 seconds after being thrown straight up in the air is 1.44 feet.\"</strong>: Height at $1.6$ seconds is $1.44$ feet &mdash; matches the input/output interpretation.</li><li><strong>\"The height of the object 1.44 seconds after being thrown straight up in the air is 1.6 feet.\"</strong>: Swaps the input and output (time $1.44$, height $1.6$). Eliminate.</li><li><strong>\"The height of the object 1.44 seconds after being thrown straight up in the air is approximately 1.6 times as great as its initial height.\"</strong>: Talks about a ratio to initial height; the equation gives an absolute height, not a multiplicative comparison. Eliminate.</li><li><strong>\"The speed of the object 1.6 seconds after being thrown straight up in the air is approximately 1.44 feet per second.\"</strong>: Refers to speed, but $h(x)$ models height, not speed. Eliminate.</li></ul>That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Interpret the statement",
+      "content": "The statement means the object's height is $1.44$ feet at $1.6$ seconds. It does not mean the time is $1.44$ seconds, and it does not describe speed because the function gives height, not rate of change. The answer is <strong>A</strong>."
     }
   ]
 }

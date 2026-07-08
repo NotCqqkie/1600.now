@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Infinitely Many Solutions Means the Equations Are Proportional",
-      "content": "When a system has infinitely many solutions, the two equations represent the same line. The constants show the scale factor from the first equation to the second: $$\\frac{21/4}{3/5}=\\frac{35}{4}$$ So every coefficient in the second equation must be $\\frac{35}{4}$ times the matching coefficient in the first equation."
+      "title": "Find the scale factor",
+      "content": "For infinitely many solutions, the two equations must be equivalent. Compare the constant terms.\n$$\n\\frac{\\frac{21}{4}}{\\frac{3}{5}}=\\frac{21}{4}\\cdot\\frac{5}{3}=\\frac{35}{4}\n$$"
     },
     {
-      "title": "Match the coefficients",
-      "content": "Multiplying the first equation's coefficients by $\\frac{35}{4}$ gives $$g=\\frac{35}{4}\\cdot\\frac{3}{7}=\\frac{15}{4}$$ and $$k=\\frac{35}{4}\\cdot\\frac{11}{7}=\\frac{55}{4}$$ Therefore $$\\frac{g}{k}=\\frac{15/4}{55/4}=\\frac{3}{11}$$ The exact answer is <strong>3/11</strong>."
+      "title": "Scale the coefficients",
+      "content": "Multiply the first equation's coefficients by the same scale factor.\n$$\ng=\\frac{35}{4}\\cdot\\frac{3}{7}=\\frac{15}{4}\n$$\n$$\nk=\\frac{35}{4}\\cdot\\frac{11}{7}=\\frac{55}{4}\n$$"
+    },
+    {
+      "title": "Find the ratio",
+      "content": "Divide $g$ by $k$.\n$$\n\\frac{g}{k}=\\frac{\\frac{15}{4}}{\\frac{55}{4}}=\\frac{15}{55}=\\frac{3}{11}\n$$\nThe answer is <strong>3/11</strong>."
     }
   ]
 }

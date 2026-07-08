@@ -1,0 +1,15 @@
+{
+  "questionId": "c5f7f560",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read which gene matters",
+      "content": "The graph data show that flies with DptA silenced maintain high survival after <em>A. sicerae</em> infection, while flies with DptB silenced drop to very low survival. That points to DptB as the key defense for this infection."
+    },
+    {
+      "title": "Avoid overstating the genes",
+      "content": "Choice A wrongly credits DptA for defense against <em>A. sicerae</em>, Choice C overstates what either gene protects against, and Choice D says both genes together are strongest when the data isolate DptB's role. The answer is <strong>B</strong>."
+    }
+  ]
+}

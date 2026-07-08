@@ -1,0 +1,19 @@
+{
+  "questionId": "8ba8dc65",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the underlined sentence",
+      "content": "The underlined sentence says the evidence is exciting because it could help researchers understand how <em>M. symmetrica</em> relates to other arthropods. It explains the significance of the possible synganglion finding."
+    },
+    {
+      "title": "Reject incorrect functions",
+      "content": "Choice A says the sentence challenges the team's claims, but it supports their significance. Choice B gives a definition that appeared earlier. Choice D falsely separates cave crickets from arthropods."
+    },
+    {
+      "title": "Choose the significance",
+      "content": "The sentence explains why finding a possible synganglion matters for understanding relationships among arthropods. The answer is <strong>C</strong>."
+    }
+  ]
+}

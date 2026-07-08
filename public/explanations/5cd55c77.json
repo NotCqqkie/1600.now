@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the selective impact on reproductive stages",
-      "content": "The key finding is that ALAN had no significant effect on spawning or fertilization, but completely inhibited hatching. This selective impact—leaving early stages unaffected while blocking the final, essential stage—is the deciding clue."
+      "title": "Focus on hatching failure",
+      "content": "The study found that low levels of artificial light did not significantly affect spawning frequency or egg fertilization, but completely inhibited hatching. Hatching is necessary for reproductive success."
     },
     {
-      "title": "Recognize the consequence of the selective impact",
-      "content": "B infers that reproductive success would be at risk in ALAN-exposed regions—the logic is direct: if hatching is completely blocked, reproduction cannot succeed.<br/><br/>The other three either contradict the research findings or compare to information the passage doesn't discuss.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Infer the risk correctly",
+      "content": "Choice A contradicts the finding about fertilization. Choice C compares clownfish with other species, which the passage does not do. Choice D says spawning frequency was strongly affected, which is false. If clownfish settle in low-light-exposed regions, their reproduction would be at risk. The answer is <strong>B</strong>."
     }
   ]
 }

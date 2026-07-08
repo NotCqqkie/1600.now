@@ -1,0 +1,15 @@
+{
+  "questionId": "9a2fd483",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Tie specificity to detail",
+      "content": "The conclusion says Hikwama's study provided more specificity in its data. The passage defines a higher detail rating as reported data with more detail, so the conclusion depends on Hikwama having a higher detail rating than Townsend."
+    },
+    {
+      "title": "Use the direct challenge",
+      "content": "Choice A concerns traceability rather than data specificity. Choices C and D either support the conclusion or do not compare the two studies' detail ratings. A lower detail rating for Hikwama than for Townsend would directly contradict the specificity claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

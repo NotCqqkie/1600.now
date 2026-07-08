@@ -1,0 +1,15 @@
+{
+  "questionId": "11699b1c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The opening phrase \"Assembling ___ by hand\" refers to what the artist assembles. The only logical antecedent is \"her massive collage-based paintings,\" which is plural and needs an object pronoun."
+    },
+    {
+      "title": "Test the pronouns",
+      "content": "A is singular, B is not the right standalone object pronoun here, and C would make the artist the thing being assembled. A plural object pronoun correctly refers to the paintings. The answer is <strong>D</strong>."
+    }
+  ]
+}

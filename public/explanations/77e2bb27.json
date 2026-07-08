@@ -1,0 +1,17 @@
+{
+  "questionId": "77e2bb27",
+  "correctAnswer": "31.25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the volume of the cube",
+      "content": "The volume of a cube with edge length 5.000 cm is:$$V = (5.000)^3 = 125.000 \\text{ cm}^3$$",
+      "formula": "$$V = a^3$$"
+    },
+    {
+      "title": "Calculate the mass using density",
+      "content": "With density = 0.250 g/cm$^3$ and volume = 125.000 cm$^3$:$$\\text{mass} = 0.250 \\times 125.000 = 31.25 \\text{ grams}$$",
+      "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$"
+    }
+  ]
+}

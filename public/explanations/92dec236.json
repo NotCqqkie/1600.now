@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the task",
-      "content": "The student wants to &quot;emphasize a similarity between the two works.&quot; The notes show one relevant shared trait: both <em>Erasure</em> and <em>Home Grown</em> feature discarded objects. The correct choice must name both works and highlight that shared feature."
+      "title": "Find the shared trait",
+      "content": "The student wants to emphasize a similarity between <em>Erasure</em> and <em>Home Grown</em>. The notes show that many of Ramos's sculptures use discarded objects, and both named works include discarded objects in their materials."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; <em>Erasure</em> (2008) uses discarded objects such as audiocassette tapes and magnets; <em>Home Grown</em> (2009), however, includes pushpins, plastic plates and forks, and wood.</strong>: The contrast word &quot;however&quot; signals a difference, not a similarity. &#10007;</li><li><strong>Choice B &mdash; Ramos's work, which often features discarded objects, has been shown both within the United States and abroad.</strong>: Never mentions <em>Erasure</em> or <em>Home Grown</em> by name, so it fails to connect the two works. &#10007;</li><li><strong>Choice C &mdash; Like many of Ramos's sculptures, both <em>Erasure</em> and <em>Home Grown</em> include discarded objects: <em>Erasure</em> uses audiocassette tapes, and <em>Home Grown</em> uses plastic forks.</strong>: Names both works, identifies the shared trait (discarded objects), and gives a specific example from each. &#10003;</li><li><strong>Choice D &mdash; Ramos completed <em>Erasure</em> in 2008 and <em>Home Grown</em> in 2009.</strong>: Mentions only completion dates, not any shared feature of the works. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Eliminate contrast and background",
+      "content": "Choice A says <em>Erasure</em> uses discarded audiocassette tapes and magnets, while <em>Home Grown</em> includes pushpins, plastic plates and forks, and wood; the word <em>however</em> emphasizes difference. Choice B gives background about Ramos's exhibitions but does not name both works."
+    },
+    {
+      "title": "Choose the shared-object sentence",
+      "content": "Choice D only says Ramos completed <em>Erasure</em> in 2008 and <em>Home Grown</em> in 2009, which gives dates rather than a similarity. Choice C names both works and states that both include discarded objects, with one example from each. The answer is <strong>C</strong>."
     }
   ]
 }

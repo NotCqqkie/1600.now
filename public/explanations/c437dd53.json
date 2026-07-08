@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the modifier rule",
-      "content": "The sentence opens with a participial phrase: &quot;Wanting to celebrate the 100th anniversary of the Alaska Purchase.&quot; A participial phrase at the start of a sentence must logically modify the grammatical subject of the clause that follows the comma. Whatever noun comes right after the comma must be capable of &quot;wanting&quot; to celebrate."
+      "title": "Attach the opening phrase",
+      "content": "The opening phrase \"Wanting to celebrate the 100th anniversary of the Alaska Purchase\" must describe the grammatical subject that follows the comma. The entity that logically wanted to celebrate is the Alaska Centennial Commission."
     },
     {
-      "title": "Eliminate each choice, then confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; a contest sponsored by the Alaska Centennial Commission would award \\$300 to an individual who came</strong>: A contest cannot want to celebrate an anniversary &mdash; this creates a dangling modifier. &#10007;</li><li><strong>Choice B &mdash; an award of \\$300 would go to an individual in a contest sponsored by the Alaska Centennial Commission for coming</strong>: An award cannot want to celebrate &mdash; another dangling modifier. &#10007;</li><li><strong>Choice C &mdash; \\$300 would be awarded to an individual by the Alaska Centennial Commission in a contest for coming</strong>: \\$300 cannot want to celebrate &mdash; dangling modifier again. &#10007;</li><li><strong>Choice D &mdash; the Alaska Centennial Commission sponsored a contest that would award \\$300 to an individual who came</strong>: The Alaska Centennial Commission is the entity that logically wanted to celebrate, so placing it as the subject immediately after the modifying phrase is correct. &#10003;</li></ul>That is the correct answer."
+      "title": "Avoid dangling modifiers",
+      "content": "Choice A makes a contest the subject. Choice B makes an award the subject. Choice C makes a money amount the subject. None of those can want to celebrate an anniversary. The clause with the commission as the subject attaches the modifier correctly. The answer is <strong>D</strong>."
     }
   ]
 }

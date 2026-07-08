@@ -1,0 +1,15 @@
+{
+  "questionId": "f2387adf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject of the main clause is President Mikhail Gorbachev's reforms. The by helping phrase is an interrupting modifier, so the blank must supply a finite main verb for what the reforms did."
+    },
+    {
+      "title": "Avoid fragment forms",
+      "content": "Choices B and C are nonfinite participial forms, so they cannot serve as the main verb. Choice D turns the idea into a relative clause and still leaves no main verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

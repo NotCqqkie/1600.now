@@ -1,0 +1,23 @@
+{
+  "questionId": "bbf064e6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the known value",
+      "content": "The second equation gives $y=3$. Substitute $3$ for $y$ in the first equation."
+    },
+    {
+      "title": "Solve for the point",
+      "content": "$$x+5(3)=17$$$$x+15=17$$$$x=2$$So the solution is $(2,3)$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both equations and read their intersection point. The point is $(2,3)$, matching the substitution. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "x + 5y = 17",
+        "y = 3"
+      ]
+    }
+  ]
+}

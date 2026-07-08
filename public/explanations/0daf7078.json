@@ -1,0 +1,15 @@
+{
+  "questionId": "0daf7078",
+  "correctAnswer": "84",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use symmetry around the center",
+      "content": "The equation $(x-42)^2=1$ means each solution is $1$ unit away from $42$. So the two solutions are symmetric around $42$."
+    },
+    {
+      "title": "Add the symmetric solutions",
+      "content": "The two solutions are $42-1$ and $42+1$. Their sum is<br/>$$(42-1)+(42+1)=84$$<br/>The answer is <strong>84</strong>."
+    }
+  ]
+}

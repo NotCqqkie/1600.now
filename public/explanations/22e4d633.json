@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The pivotal signal is the claim that LINE transposons &ldquo;are functionally important within the hippocampus&rdquo; and that their presence in octopus genomes &ldquo;prompted researchers to hypothesize that that transposon family is tied to a species&rsquo; capacity for advanced cognition.&rdquo; This directly pairs transposon activity with a brain region linked to cognition."
+      "title": "Link LINE activity to cognition",
+      "content": "The hypothesis is that LINE transposons are tied to advanced cognition. Human LINE transposons are important in the hippocampus, a structure supporting complex cognition, so support would show similar LINE activity in an octopus brain structure with a similar function."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>Choice A &mdash; The LINE transposon in <em>O. vulgaris</em> and <em>O. bimaculoides</em> genomes is active in an octopus brain structure that functions similarly to the human hippocampus.</strong> matches the hypothesis by showing LINE transposons are active in an octopus brain region comparable to the human hippocampus.<br/><br/>The other three choices either restate existing information, address transposon preservation without cognitive context, or link brain size and transposon variety without explaining cognition."
+      "title": "Reject evidence without cognition",
+      "content": "<ul><li>Choice B only adds more information about humans and does not connect octopus LINE transposons to cognition.</li><li>Choice C discusses copy numbers and corruption, not brain function.</li><li>Choice D compares brain size and transposon variety without showing LINE activity tied to cognition.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the key contrast in the passage",
-      "content": "The text distinguishes between Mieszko II Lambert &mdash; documented as king from 1025 to 1031 CE &mdash; and Siemomysł, whose &quot;historical actuality is disputed&quot; and whose chronicle record relies on oral tradition &quot;unlike its records of later rulers.&quot; The question asks for a difference in how historians view each figure.<ul><li><strong>Choice A &mdash; 'Historians agree that Mieszko II Lambert existed, but disagree about whether Siemomysł existed.'</strong>: Directly reflects the text: Mieszko II Lambert has firm documented dates; Siemomysł's existence is disputed. &#10003;</li><li><strong>Choice B &mdash; 'Historians believe that the <em>Gesta principum Polonorum</em> provides more evidence for Siemomysł's existence than it does for Mieszko II Lambert's existence.'</strong>: The opposite is true &mdash; the chronicle's record of Siemomysł relies on oral tradition, making it less reliable than its records of later rulers. &#10007;</li><li><strong>Choice C &mdash; 'Historians agree that Siemomysł ruled Poland much later than Mieszko II Lambert.'</strong>: The text says Siemomysł supposedly ruled in the 10th century (before 1025), so he ruled earlier, not later. &#10007;</li><li><strong>Choice D &mdash; 'Historians find the orally transmitted stories affirming the existence of Mieszko II Lambert to be more convincing than similar stories about Siemomysł.'</strong>: The text does not mention oral tradition concerning Mieszko II Lambert at all; the comparison cannot be made. &#10007;</li></ul>"
+      "title": "Compare the evidence",
+      "content": "The text presents Mieszko II Lambert as a documented ruler who reigned from 1025 to 1031 CE. Siemomysł is treated differently: he is less well documented, is said to have ruled in the 10th century, and has disputed historical actuality."
     },
     {
-      "title": "Verify the supported claim",
-      "content": "The text explicitly says Siemomysł &quot;is said to have ruled&quot; and his actuality &quot;is disputed,&quot; while Mieszko II Lambert &quot;ruled as king from 1025 to 1031 CE&quot; with no such qualification. The oral-tradition note further weakens confidence in Siemomysł, confirming historians do not all accept his existence. That is the correct answer."
+      "title": "Reject unsupported comparisons",
+      "content": "Choice B reverses the evidence by claiming the chronicle gives more support for Siemomysł, even though the text says its documentation of him relies on oral tradition. Choice C gets the chronology backward because Siemomysł is associated with the 10th century, before Mieszko II Lambert's rule. Choice D invents orally transmitted stories about Mieszko II Lambert. The real contrast is certainty about existence. The answer is <strong>A</strong>."
     }
   ]
 }

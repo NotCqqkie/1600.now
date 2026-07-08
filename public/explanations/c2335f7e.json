@@ -1,0 +1,19 @@
+{
+  "questionId": "c2335f7e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the numerator to zero",
+      "content": "A fraction equals $0$ when its numerator equals $0$ and its denominator does not equal $0$.\n$$(x-9)(x-10)=0$$"
+    },
+    {
+      "title": "Find the valid solutions",
+      "content": "The numerator is $0$ at $x=9$ and $x=10$. Neither value makes the denominator $x-4$ equal to $0$, so both are valid."
+    },
+    {
+      "title": "Add the solutions",
+      "content": "Add the two valid solutions.\n$$9+10=19$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

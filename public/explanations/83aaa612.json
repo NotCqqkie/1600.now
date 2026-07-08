@@ -1,0 +1,19 @@
+{
+  "questionId": "83aaa612",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find angle L in radians",
+      "content": "Angle L is $15$ times angle K. Multiply the given measure of angle K by $15$, then simplify.\n$$15(\\frac{\\pi}{2(15)})=\\frac{15\\pi}{30}=\\frac{\\pi}{2}$$"
+    },
+    {
+      "title": "Convert radians to degrees",
+      "content": "Since $\\pi$ radians equals $180^\\circ$, half of $\\pi$ radians equals half of $180^\\circ$.\n$$\\frac{\\pi}{2}=\\frac{180^\\circ}{2}=90^\\circ$$"
+    },
+    {
+      "title": "Match the degree measure",
+      "content": "The measure of angle L is $90^\\circ$. The choice with that degree measure is the correct one. The answer is <strong>D</strong>."
+    }
+  ]
+}

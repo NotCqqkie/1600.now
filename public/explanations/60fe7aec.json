@@ -1,0 +1,15 @@
+{
+  "questionId": "60fe7aec",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use supplementary angles",
+      "content": "Because lines $g$ and $h$ are parallel, the same-side interior angles formed by line $l$ are supplementary. From the figure, $x$ and $36^\\circ$ add to $180^\\circ$."
+    },
+    {
+      "title": "Subtract the given angle",
+      "content": "Set up and solve.<br/>$$x+36=180$$<br/>$$x=144$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

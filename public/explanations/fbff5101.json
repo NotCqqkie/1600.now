@@ -1,0 +1,19 @@
+{
+  "questionId": "fbff5101",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the input at the border",
+      "content": "The variable $x$ is hours after crossing the city border. At the moment the train crosses the city border, $x=0$."
+    },
+    {
+      "title": "Evaluate the starting value",
+      "content": "Substitute $x=0$ into the function:\n$$\nf(0)=60(0)+12=12\n$$\nSo the train had already traveled $12$ kilometers by the time it crossed the border."
+    },
+    {
+      "title": "Interpret the constant",
+      "content": "That distance was traveled between the station and the city border. The answer is <strong>A</strong>."
+    }
+  ]
+}

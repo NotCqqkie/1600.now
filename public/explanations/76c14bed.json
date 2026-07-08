@@ -1,0 +1,15 @@
+{
+  "questionId": "76c14bed",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the product factors",
+      "content": "Area of a rectangle is length times width. The function is<br/><br/>$$y=(72w)(w)$$<br/><br/>so the two factors represent the rectangle's two side lengths."
+    },
+    {
+      "title": "Interpret the larger factor",
+      "content": "The width is $w$, and the problem says the length is $72$ times the width:<br/><br/>$$\\text{length}=72w$$<br/><br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

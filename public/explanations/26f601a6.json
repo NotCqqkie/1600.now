@@ -1,0 +1,19 @@
+{
+  "questionId": "26f601a6",
+  "correctAnswer": "4096",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the cone lengths",
+      "content": "The height, radius, and segment $AB$ form a right triangle with hypotenuse $32$ and one leg $16$. Use the Pythagorean relationship to find the radius squared.<br/>$$r^2+16^2=32^2$$<br/>$$r^2=32^2-16^2$$<br/>$$r^2=1{,}024-256$$<br/>$$r^2=768$$"
+    },
+    {
+      "title": "Use the cone volume formula",
+      "content": "The volume of a cone is one-third the product of the base area and the height. Substitute $r^2=768$ and $h=16$.<br/>$$V=(1/3)\\pi(768)(16)=4{,}096\\pi$$"
+    },
+    {
+      "title": "Match the coefficient",
+      "content": "The volume is given as $k\\pi$, so compare that form with $4{,}096\\pi$. This gives $k=4{,}096$. The answer is <strong>4096</strong>."
+    }
+  ]
+}

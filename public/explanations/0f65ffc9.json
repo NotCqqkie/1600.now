@@ -1,0 +1,23 @@
+{
+  "questionId": "0f65ffc9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the expressions equal",
+      "content": "Both equations equal $y$, so set their right sides equal:<br/>$$x+26=(x+26)^2$$"
+    },
+    {
+      "title": "Solve the simple equation",
+      "content": "Let $u=x+26$. Then:<br/>$$u=u^2$$<br/>$$u(u-1)=0$$So $x+26=0$ or $x+26=1$, giving $x=-26$ or $x=-25$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the $x$-coordinates of the intersection points. Of the listed choices, the possible value is $-25$. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x + 26 = y",
+        "(x + 26)^2 = y"
+      ]
+    }
+  ]
+}

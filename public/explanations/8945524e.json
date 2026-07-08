@@ -1,0 +1,19 @@
+{
+  "questionId": "8945524e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Start with\n$$\n\\frac{1}{6xy}+xyz=\\frac{1}{5yz}\n$$\nSince $x$, $y$, and $z$ are positive, multiply every term by $30xyz$.\n$$\n5z+30x^2y^2z^2=6x\n$$"
+    },
+    {
+      "title": "Isolate the square",
+      "content": "Move $5z$ to the right side, then divide by $30x^2z^2$.\n$$\n30x^2z^2y^2=6x-5z\n$$\n$$\ny^2=\\frac{6x-5z}{30x^2z^2}\n$$"
+    },
+    {
+      "title": "Take the positive root",
+      "content": "Because $y$ is positive, use the positive square root.\n$$\ny=\\sqrt{\\frac{6x-5z}{30x^2z^2}}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

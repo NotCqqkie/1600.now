@@ -1,0 +1,19 @@
+{
+  "questionId": "7979af22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Express the method's purpose",
+      "content": "The sentence says Bertozzi devised a method for removing toxic byproducts from click chemistry. The phrase after the blank should explain the purpose of that removal: protecting healthy cells in humans for pharmaceutical treatments."
+    },
+    {
+      "title": "Reject faulty forms",
+      "content": "Choice B creates a past-participle fragment. Choice C awkwardly adds a second action without showing purpose. Choice D creates a participial phrase that does not clearly state why the method removes toxic byproducts."
+    },
+    {
+      "title": "Use the purpose infinitive",
+      "content": "The infinitive phrase clearly states the purpose of removing toxic byproducts: to protect healthy cells. The answer is <strong>A</strong>."
+    }
+  ]
+}

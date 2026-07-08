@@ -1,0 +1,15 @@
+{
+  "questionId": "92902a86",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence's main subject is \"Trisyllabic words,\" and its main verb is \"consist.\" The blank should therefore supply a modifier for the subject, not another finite verb that competes with \"consist.\""
+    },
+    {
+      "title": "Use the reduced modifier",
+      "content": "A, B, and C all create finite verb phrases before the main verb, making the sentence ungrammatical. The past participle \"classified\" works as a reduced modifier meaning \"which are classified\" and leaves \"consist\" as the only main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

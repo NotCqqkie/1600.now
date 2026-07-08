@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract 18 from both sides to isolate the fraction",
-      "content": "Start with the given equation: $p = 18 + \\frac{12}{n}$<br/><br/>Subtract 18 from both sides:<br/>$$p - 18 = \\frac{12}{n}$$"
+      "title": "Isolate the fraction",
+      "content": "Subtract $18$ from both sides of the equation:\n$$\np-18=\\frac{12}{n}\n$$"
     },
     {
-      "title": "Solve for n by multiplying and dividing",
-      "content": "From $p - 18 = \\frac{12}{n}$, multiply both sides by $n$:<br/>$$n(p - 18) = 12$$<br/>Divide both sides by $(p - 18)$:<br/>$$n = \\frac{12}{p - 18}$$<br/>That matches <strong>Choice D &mdash; $n=\\frac{12}{p-18}$</strong>."
+      "title": "Solve for n",
+      "content": "Multiply by $n$, then divide by $p-18$. This division is allowed because the question gives $p>18$.\n$$\nn(p-18)=12\n$$\n$$\nn=\\frac{12}{p-18}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

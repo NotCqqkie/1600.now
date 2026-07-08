@@ -1,0 +1,15 @@
+{
+  "questionId": "54f7c90d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the area equation",
+      "content": "Let $h$ be the height. The base is $h+10$, and the triangle area is $208$.\n$$208=\\frac{1}{2}h(h+10)$$"
+    },
+    {
+      "title": "Test the likely height",
+      "content": "The answer choices are integers, so test the height that makes the area work.\n$$\\frac{1}{2}(16)(16+10)=\\frac{1}{2}(16)(26)=208$$\nA height of $16$ centimeters gives the required area. The answer is <strong>B</strong>."
+    }
+  ]
+}

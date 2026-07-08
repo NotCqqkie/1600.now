@@ -1,0 +1,15 @@
+{
+  "questionId": "793f4950",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the exponent rule",
+      "content": "A power of $\\frac{1}{2}$ means a square root:\n$$\nu^{1/2}=\\sqrt{u}\n$$"
+    },
+    {
+      "title": "Apply it to the product",
+      "content": "Here the entire product $147y$ is the base, so the square root covers the full product:\n$$\n(147y)^{1/2}=\\sqrt{147y}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

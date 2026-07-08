@@ -1,0 +1,15 @@
+{
+  "questionId": "d1931158",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the new side length",
+      "content": "Square R has side length $x$, so its perimeter is $4x$. Square S has perimeter $4x+28$."
+    },
+    {
+      "title": "Convert perimeter to area",
+      "content": "$$\\frac{4x+28}{4}=x+7$$Square S has side length $x+7$, so its area is $$(x+7)^2$$The answer is <strong>A</strong>."
+    }
+  ]
+}

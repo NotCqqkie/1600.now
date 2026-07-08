@@ -1,0 +1,19 @@
+{
+  "questionId": "d6d2bd8a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Show the triangles are similar",
+      "content": "Since $AB=AC$, triangle $ABC$ is isosceles, so its base angles are congruent. With the given congruent angles, triangles $BED$ and $CFD$ are similar by angle-angle similarity."
+    },
+    {
+      "title": "Use the side ratio",
+      "content": "The point $D$ divides $BC$ so that<br/>$$BD=\\frac{5}{9}BC$$<br/>Therefore,<br/>$$CD=\\frac{4}{9}BC$$<br/>The corresponding side ratio is<br/>$$\\frac{BE}{CF}=\\frac{BD}{CD}=\\frac{5}{4}$$"
+    },
+    {
+      "title": "Solve for the length",
+      "content": "Substitute $BE=10$ and solve.<br/>$$\\frac{10}{CF}=\\frac{5}{4}$$<br/>$$5CF=40$$<br/>$$CF=8$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

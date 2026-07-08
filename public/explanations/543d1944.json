@@ -1,0 +1,15 @@
+{
+  "questionId": "543d1944",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare ages to the split",
+      "content": "Text 1 defines Gondwanan clades as clades that predate Grande Terre’s split from Gondwana about 80 million years ago. Text 2 gives crown ages of 48.9 million years for harvest spiders and 2.7 million years for cockroaches. This timing is the decisive evidence."
+    },
+    {
+      "title": "Draw the supported conclusion",
+      "content": "Choice A and Choice D wrongly make the harvest spider clade older than the split. Choice B adds a colonization claim that the texts do not establish. Since both crown ages are younger than the 80-million-year split, neither clade originated on Gondwana. The answer is <strong>C</strong>."
+    }
+  ]
+}

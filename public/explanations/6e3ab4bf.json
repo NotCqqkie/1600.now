@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Read the requested bar",
-      "content": "The graph labels the gifts A, B, C, and D along the horizontal axis. The question asks for gift C, so use only the bar above C."
+      "content": "The graph labels the gifts along the horizontal axis. The question asks for gift C, so use the bar above C."
     },
     {
-      "title": "Match the height",
-      "content": "The bar for gift C reaches $18$ volunteers. The total $43$ volunteers is context, but no subtraction is needed because the graph gives the count directly."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Choice A, $3$, is the count for gift D.</li><li>Choice B, $8$, is the count for gift B.</li><li>Choice C, $14$, is the count for gift A.</li><li>Choice D, $18$, is the count for gift C. Correct.</li></ul>That confirms <strong>D</strong>."
+      "title": "Match the bar height",
+      "content": "The bar for gift C reaches $18$ volunteers. The total of $43$ volunteers is context, but no subtraction is needed because the graph gives the count directly. The answer is <strong>D</strong>."
     }
   ]
 }

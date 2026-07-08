@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what intermittency requires in the data",
-      "content": "“Intermittent” wastewater means influxes arrive in episodes, not continuously. If they were constant, delta 15-N values would remain elevated throughout. Evidence of intermittency must show values <strong>fluctuating</strong>—rising when wastewater arrives, falling when it doesn't."
+      "title": "Define intermittent evidence",
+      "content": "If wastewater influxes happened intermittently, delta 15-N values at the intermediate-tourism sites should rise and fall over time rather than stay consistently elevated. The supporting data must show fluctuation at Akumal Bay and Tulum."
     },
     {
-      "title": "Match this pattern to the choices",
-      "content": "The correct answer shows Akumal Bay and Tulum fluctuated considerably across three measurements: Akumal (3.3 → 2.0 → 6.3) and Tulum (5.9 → 2.3 → 5.5).<br/><br/>This <strong>rising-falling-rising pattern</strong> reflects wastewater that comes and goes, supporting the intermittent conclusion.<br/><br/>The other choices don't demonstrate this fluctuation: <ul><li>A presents an exception rather than the overall pattern</li><li>B focuses on extreme values without showing how they vary over time</li><li>C claims relative stability</li></ul><br/><br/>That is the correct answer."
+      "title": "Reject weak descriptions",
+      "content": "A misstates the February 2017 comparison with Xahuayxol. B focuses on missing data and extreme values rather than the pattern over time. C describes relative stability, which points away from intermittent influxes."
+    },
+    {
+      "title": "Use the fluctuating values",
+      "content": "Akumal Bay and Tulum both fluctuate considerably across the measured dates, showing a rising-and-falling pattern consistent with wastewater that comes and goes. The answer is <strong>D</strong>."
     }
   ]
 }

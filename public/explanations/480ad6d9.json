@@ -1,0 +1,19 @@
+{
+  "questionId": "480ad6d9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the shown line",
+      "content": "The graph of $y=f(x)+13$ passes through $(-5,8)$ and $(0,3)$. Its slope is\n$$\\frac{3-8}{0-(-5)}=-1$$\nSo the shown line is $y=-x+3$."
+    },
+    {
+      "title": "Solve for the function",
+      "content": "Subtract $13$ from both sides.\n$$f(x)+13=-x+3$$\n$$f(x)=-x-10$$"
+    },
+    {
+      "title": "Match the signs",
+      "content": "Because $c$ and $d$ are positive, $-x-10$ has the form $-d-cx$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "e2709d60",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed evidence",
+      "content": "The research question is not simply whether people buy brand extensions. Bellamy et al. already calculated, for each extended-brand pair, how purchase of a brand in one category changed the probability of purchasing the same brand in the other category. The missing evidence is consumers' perceived similarity between the two product categories in each of those same pairs."
+    },
+    {
+      "title": "Separate similarity from recognition",
+      "content": "A useful design must measure category similarity and then compare that measure with the probability change the researchers already calculated. Brand recognition would test a different explanation, and average product cost would not show whether category similarity predicts purchasing. A design about similarity within one category also misses the point because the study concerns brand extensions across different product categories."
+    },
+    {
+      "title": "Match the design to the study",
+      "content": "Choice B polls households about degree of brand recognition and then compares that recognition with purchases by a different group, so it does not measure the variable in the research question. Choice C also focuses on brand recognition and product cost. Choice D asks about similarity to other products in the same category, not similarity between the categories in an extended-brand pair. The design that rates the similarity of the product categories and correlates those ratings with the team's probability data would answer the research question. The answer is <strong>A</strong>."
+    }
+  ]
+}

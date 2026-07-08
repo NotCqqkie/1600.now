@@ -1,0 +1,15 @@
+{
+  "questionId": "bcbc53d0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the increase",
+      "content": "An increase of $137\\%$ means the collection gains $1.37x$ objects. The original number is $x$."
+    },
+    {
+      "title": "Add original and increase",
+      "content": "The resulting number of objects is\n$$\nx+1.37x=2.37x\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

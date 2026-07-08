@@ -1,0 +1,15 @@
+{
+  "questionId": "9fe0ecaf",
+  "correctAnswer": "32",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding angles",
+      "content": "Because the triangles are congruent, corresponding angles are equal. Since $P$ corresponds to $X$ and $Q$ corresponds to $Y$, the remaining angles correspond: $R$ corresponds to $Z$."
+    },
+    {
+      "title": "Use the triangle sum",
+      "content": "In triangle $PQR$, angles $P$ and $Q$ measure $58^\\circ$ and $90^\\circ$:<br/>$$58+90+R=180$$<br/>$$R=32$$<br/>So angle $Z$ has the same measure. The answer is <strong>32</strong>."
+    }
+  ]
+}

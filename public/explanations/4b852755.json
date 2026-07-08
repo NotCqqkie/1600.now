@@ -1,0 +1,15 @@
+{
+  "questionId": "4b852755",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the input to zero",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the equation.<br/>$$y=4(0)^2+7(0)+11$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Evaluate the expression.<br/>$$y=11$$<br/>So the $y$-intercept is $(0,11)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

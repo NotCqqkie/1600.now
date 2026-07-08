@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the counterargument",
-      "content": "The passage states a concern: pteropods are vulnerable to acidification. But it then presents findings that provide protection: the periostracum prevents dissolution, and pteropods can rebuild damage. This protective evidence is presented as surprising—unexpected in relation to the initial concern."
+      "title": "Track the concern and findings",
+      "content": "The text first explains why pteropods were thought to be vulnerable to ocean acidification. It then presents findings that intact periostracum prevents shell dissolution and that pteropods can rebuild the inner shell wall when damage occurs."
     },
     {
-      "title": "Link the evidence to the purpose",
-      "content": "The correct answer correctly identifies the arc: the findings suggest the concern “may be unwarranted” because the protective mechanisms discovered indicate pteropods aren't as vulnerable as claimed.<br/><br/>The other three either invent content absent from the passage or misrepresent the study's focus.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject absent claims",
+      "content": "A calls for more research, B misstates calcium carbonate as protecting the periostracum, and C discusses altered behavior over time. The text instead presents findings that weaken a concern about shell damage. The answer is <strong>D</strong>."
     }
   ]
 }

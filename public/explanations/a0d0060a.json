@@ -1,0 +1,19 @@
+{
+  "questionId": "a0d0060a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the figures on the canvas",
+      "content": "The question asks for the choice that emphasizes the location of the figures in <em>Lost in the Shuffle</em>. The relevant note says the painting depicts two young men with their arms outstretched floating in the bottom left and upper right corners of the canvas. The correct choice must preserve that exact spatial information."
+    },
+    {
+      "title": "Eliminate nonlocation details",
+      "content": "<ul><li><strong>Choice A</strong>: Compares the painting's dimensions with <em>Lightness of Being</em>. That does not address where the figures are placed within <em>Lost in the Shuffle</em>.</li><li><strong>Choice B</strong>: Focuses on the vivid sky blue and indigo water in Harper's paintings, not the location of the figures.</li></ul>"
+    },
+    {
+      "title": "Choose the spatial detail",
+      "content": "<ul><li><strong>Choice D</strong>: Discusses mood and the number of figures across Harper's work rather than the figures' positions in this painting.</li></ul>Choice C directly states that two young men are depicted in the bottom left and upper right corners of the canvas. That is the location detail the question asks for. The answer is <strong>C</strong>."
+    }
+  ]
+}

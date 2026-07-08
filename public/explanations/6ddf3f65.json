@@ -1,0 +1,15 @@
+{
+  "questionId": "6ddf3f65",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the title and award",
+      "content": "The goal is to indicate the title of a novel that won a Nebula Award. A successful sentence must name the novel and connect that title to the Nebula Award."
+    },
+    {
+      "title": "Reject missing details",
+      "content": "A does not name a novel or the award. B describes the author but gives no novel title. D says a science fiction novel was published but omits the title and the award. The sentence that names <em>Babel-17</em> and its Nebula win satisfies the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

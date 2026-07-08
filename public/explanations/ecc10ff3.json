@@ -1,0 +1,23 @@
+{
+  "questionId": "ecc10ff3",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Both equations equal $y$, so set their right sides equal.<br/>$$8x=x^2-20$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Move all terms to one side and factor.<br/>$$x^2-8x-20=0$$<br/>$$(x-10)(x+2)=0$$<br/>The positive solution is $x=10$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the positive intersection's $x$-coordinate.<br/>The answer is <strong>10</strong>.",
+      "desmosExpressions": [
+        "y = 8x",
+        "y = x^2 - 20"
+      ]
+    }
+  ]
+}

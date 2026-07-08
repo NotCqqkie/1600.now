@@ -1,0 +1,15 @@
+{
+  "questionId": "f0b0d31b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the technology purpose",
+      "content": "The passage introduces ohmic heating as a food preservation technology, notes research on guava pulp, and then explains why it improves on conventional thermal methods: it generates heat inside the food instead of transferring it inward from the surface."
+    },
+    {
+      "title": "Reject claims the text lacks",
+      "content": "A mentions flaws, but the text presents ohmic heating positively. C overstates the research overview; Colombia is the only specific research location mentioned. D says the text explains conventional popularity and proposes a shift, neither of which it does. The answer is <strong>B</strong>."
+    }
+  ]
+}

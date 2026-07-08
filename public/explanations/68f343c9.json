@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate both functions first",
-      "content": "Substitute $x=3$ into each function: $$f(3)=3+5=8$$ $$g(3)=5(3)=15$$"
+      "title": "Evaluate the functions",
+      "content": "Substitute $x=3$ into each function.\n$$\nf(3)=3+5=8\n$$\n$$\ng(3)=5(3)=15\n$$"
     },
     {
-      "title": "Substitute into the full expression",
-      "content": "$$6f(3)-g(3)=6(8)-15=48-15=33$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D (&lsquo;$33$&rsquo;) is $33$, so it is correct. An incorrect response calculates $f(3)-g(3)$ without the factor $6$, choice B (&lsquo;$8$&rsquo;) is just $f(3)$, and choice C (&lsquo;$30$&rsquo;) comes from multiplying the outside coefficient by the constant term from $f(x)$ instead."
+      "title": "Use the full expression",
+      "content": "Now substitute those values into $6f(3)-g(3)$.\n$$\n6f(3)-g(3)=6(8)-15=48-15=33\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

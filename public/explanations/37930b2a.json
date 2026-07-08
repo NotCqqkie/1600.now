@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what the sample tells us",
-      "content": "74% of a random sample of 180 residents said they are satisfied. A sample proportion estimates the population proportion but is not guaranteed to equal it exactly."
+      "title": "Interpret the sample result",
+      "content": "The survey found that $74\\%$ of a random sample of $180$ residents were satisfied. A sample proportion estimates the population proportion, but it does not prove the exact population percentage."
     },
     {
-      "title": "Evaluate Statement I",
-      "content": "Statement I says 74% of ALL city residents would say they are satisfied. This cannot be concluded with certainty from a sample &mdash; due to sampling variability the true population percentage could differ. Statement I does NOT must be true."
+      "title": "Evaluate both statements",
+      "content": "Statement I does not have to be true because all city residents may not match the sample exactly. Statement II also does not have to be true because another random sample can produce a different percentage."
     },
     {
-      "title": "Evaluate Statement II",
-      "content": "Statement II says a second random sample of 180 would also yield exactly 74%. Sampling variability means different samples give different results; there is no reason the second must match the first exactly. Statement II does NOT must be true."
-    },
-    {
-      "title": "Eliminate choices",
-      "content": "<ul><li><strong>Choice A &mdash; Neither</strong>: Neither statement must be true based on a single sample. &#10003;</li><li><strong>Choice B &mdash; I only</strong>: Statement I cannot be concluded as a certainty from sample data alone. &#10007;</li><li><strong>Choice C &mdash; II only</strong>: Statement II cannot be guaranteed due to sampling variability. &#10007;</li><li><strong>Choice D &mdash; I and II</strong>: Both statements have the same flaw; neither must be true. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Select the must be true choice",
+      "content": "Neither statement must be true based on the sample. The answer is <strong>A</strong>."
     }
   ]
 }

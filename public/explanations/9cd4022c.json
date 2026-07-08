@@ -1,0 +1,15 @@
+{
+  "questionId": "9cd4022c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a restrictive appositive",
+      "content": "The blank completes the phrase \"of keen interest to [linguist] of the University of Toronto.\" The name Diane Massam identifies which linguist is meant, so it functions as a restrictive appositive. A restrictive appositive is not separated from the noun it identifies by punctuation."
+    },
+    {
+      "title": "Rule out punctuation errors",
+      "content": "<ul><li><strong>Choice A</strong>: A colon cannot follow \"of keen interest to linguist\" because that wording is not an independent clause.</li><li><strong>Choice B</strong>: Commas around the name treat it as optional extra information, which does not fit the identifying role here.</li><li><strong>Choice D</strong>: A single comma before the name creates an unsupported break between the noun and the identifying appositive.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

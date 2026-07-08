@@ -1,0 +1,15 @@
+{
+  "questionId": "b3e62021",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the song title",
+      "content": "The title <em>A Tear</em> directly identifies which hit song the sentence means. Because the title is essential identifying information, it should follow 'song' without punctuation."
+    },
+    {
+      "title": "Reject separator marks",
+      "content": "Choice A uses a colon after an incomplete setup, Choice B uses a semicolon before a title rather than a clause, and Choice C wrongly treats the title as extra information. The remaining choice leaves the restrictive title attached to the noun. The answer is <strong>D</strong>."
+    }
+  ]
+}

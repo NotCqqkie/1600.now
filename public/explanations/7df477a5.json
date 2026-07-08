@@ -1,0 +1,15 @@
+{
+  "questionId": "7df477a5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the remaining amount",
+      "content": "The expression $0.42x$ means $42\\%$ of the original quantity remains after the decrease."
+    },
+    {
+      "title": "Find the percent removed",
+      "content": "Subtract the percent that remains from the original $100\\%$:<br/>$$100\\%-42\\%=58\\%$$The answer is <strong>B</strong>."
+    }
+  ]
+}

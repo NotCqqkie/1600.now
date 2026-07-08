@@ -1,0 +1,15 @@
+{
+  "questionId": "db28f161",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate both functions",
+      "content": "Substitute $x=3$ into each function.\n$$f(3)=3+6=9$$\n$$g(3)=4(3)=12$$"
+    },
+    {
+      "title": "Compute the expression",
+      "content": "Use the order shown in $8f(3)-g(3)$.\n$$8(9)-12=72-12=60$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

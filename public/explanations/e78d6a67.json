@@ -1,0 +1,19 @@
+{
+  "questionId": "e78d6a67",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link isotope to temperature",
+      "content": "F13 had a higher oxygen-18 concentration than M03, and the researchers concluded that F13 formed at a lower temperature. A supporting finding must connect higher oxygen-18 with colder water."
+    },
+    {
+      "title": "Reject same-direction patterns",
+      "content": "Choice A links lower oxygen-18 with lower temperature. Choice B says oxygen-18 and temperature both decrease as depth increases. Choice D links higher temperature with more oxygen-18. Each pattern works against the conclusion."
+    },
+    {
+      "title": "Choose the inverse pattern",
+      "content": "If oxygen-18 increases as water temperature decreases with depth, then higher oxygen-18 in F13 supports formation at a lower temperature. The answer is <strong>C</strong>."
+    }
+  ]
+}

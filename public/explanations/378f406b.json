@@ -1,0 +1,15 @@
+{
+  "questionId": "378f406b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the yearly multiplier",
+      "content": "The exponent $\\frac{x}{12}$ converts months to years, so in\n$$\nf(x)=6{,}480(0.34)^{\\frac{x}{12}}\n$$\nthe yearly value multiplier is $0.34$."
+    },
+    {
+      "title": "Convert the decrease",
+      "content": "A $p\\%$ yearly decrease leaves multiplier $1-\\frac{p}{100}$.\n$$\n1-\\frac{p}{100}=0.34\n$$\n$$\n\\frac{p}{100}=0.66\n$$\n$$\np=66\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

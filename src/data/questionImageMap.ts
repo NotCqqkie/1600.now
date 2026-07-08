@@ -5,431 +5,39 @@ export interface QuestionImageMapEntry {
 }
 
 export const questionImageMap: Record<string, QuestionImageMapEntry> = {
-  "262137dd-b309-4356-982d-630e0212b16e_12": {
+  "20795328": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/262137dd-b309-4356-982d-630e0212b16e_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
+        "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16_q_01_FIX.png",
+        "alt": "Coordinate plane showing the line y = f(x) + 11 passing through (-4, 9) and (0, 1), with negative slope."
       }
     ]
   },
-  "ff866f0f-f295-4895-b84d-a5c603adf51a_11": {
+  "38250877": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/ff866f0f-f295-4895-b84d-a5c603adf51a_11_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/62bf03b6-2f6e-4c65-9e55-3e67dca0934b_11_q_01_FIX.png",
         "alt": "Question 11 Image"
       }
     ]
   },
-  "ff866f0f-f295-4895-b84d-a5c603adf51a_12": {
+  "40005411": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/ff866f0f-f295-4895-b84d-a5c603adf51a_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
+        "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_6_q_01_FIX.png",
+        "alt": "Question 6 Image"
       }
     ]
   },
-  "6172d662-f820-4d74-acac-4b49873dfc8f_10": {
+  "61162520": {
     "questionImages": [
       {
-        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_10_q_01_FIX.png",
+        "src": "/images/SAT-Style%20Questions/7aff17cd-7423-4e0b-80db-b95ab0c77db9_10_q_01_FIX.png",
         "alt": "Question 10 Image"
       }
     ]
   },
-  "6172d662-f820-4d74-acac-4b49873dfc8f_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
-      }
-    ]
-  },
-  "73482b52-a20f-452d-896f-76f578ac2361_13": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/73482b52-a20f-452d-896f-76f578ac2361_13_q_01_FIX.png",
-        "alt": "Question 13 Image"
-      }
-    ]
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_15": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_15_q_01_FIX.png",
-        "alt": "Question 15 Image"
-      }
-    ]
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_17": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_17_q_01_FIX.png",
-        "alt": "Question 17 Image"
-      }
-    ]
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_18": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_18_q_01_FIX.png",
-        "alt": "Question 18 Image"
-      }
-    ]
-  },
-  "c9e1513f-58d1-4e6c-8574-b9662226959f_22": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_22_q_01_FIX.png",
-        "alt": "Question 22 Image"
-      }
-    ]
-  },
-  "6acacde7-ed77-4956-a395-7f7392d6ba20_7": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_7_q_01_FIX.png",
-        "alt": "Question 7 Image"
-      }
-    ]
-  },
-  "6acacde7-ed77-4956-a395-7f7392d6ba20_9": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
-      }
-    ]
-  },
-  "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "91ff0c6a-268b-4d8b-9642-b9fb25a907b4_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/91ff0c6a-268b-4d8b-9642-b9fb25a907b4_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "27f42b6d-5bcd-4609-9ebb-429b11fd782b_9": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
-      }
-    ]
-  },
-  "27f42b6d-5bcd-4609-9ebb-429b11fd782b_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_10_q_01_FIX.png",
-        "alt": "Table titled Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters. Agaricia grahamae, Caribbean, minimum 20 meters, maximum 115 meters. Acropora bushyensis, Indo-Pacific, minimum 0 meters, maximum 5 meters. Mussa angulosa, Caribbean, minimum 5 meters, maximum 30 meters. Indophyllia macassarensis, Indo-Pacific, minimum 20 meters, maximum 25 meters."
-      }
-    ]
-  },
-  "27f42b6d-5bcd-4609-9ebb-429b11fd782b_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_11_q_01_FIX.png",
-        "alt": "Bar graph titled Annual Average Hours of Highway Traffic Delay per Auto Commuter. Years 1990, 1992, 1994, 1996, 1998, 2000. Beaumont, Texas: 8, 11, 15, 16, 20, 23 hours. Philadelphia, Pennsylvania: 30, 32, 34, 36, 39, 41 hours. Albany-Schenectady-Troy, New York: 17, 18, 20, 22, 26, 29 hours."
-      }
-    ]
-  },
-  "93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_12_q_01_FIX.png",
-        "alt": "Line graph of survival during A. sicerae infection over 10 days: Type A flies remain near 95% survival, while Type B flies drop to nearly 0% by day 10."
-      }
-    ]
-  },
-  "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2_q_01_FIX.png",
-        "alt": "Question 2 Image"
-      }
-    ]
-  },
-  "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5_q_01_FIX.png",
-        "alt": "Question 5 Image"
-      }
-    ]
-  },
-  "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13_q_01_FIX.png",
-        "alt": "Question 13 Image"
-      }
-    ]
-  },
-  "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_18": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_18_q_01_FIX.png",
-        "alt": "Question 18 Image"
-      }
-    ]
-  },
-  "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_19": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_19_q_01_FIX.png",
-        "alt": "Question 19 Image"
-      }
-    ]
-  },
-  "29b11893-ee0c-48ae-8103-403d9652ad14_1": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_1_q_01_FIX.png",
-        "alt": "Question 1 Image"
-      }
-    ]
-  },
-  "29b11893-ee0c-48ae-8103-403d9652ad14_4": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_4_q_01_FIX.png",
-        "alt": "Question 4 Image"
-      }
-    ]
-  },
-  "29b11893-ee0c-48ae-8103-403d9652ad14_19": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_19_q_01_FIX.png",
-        "alt": "Question 19 Image"
-      }
-    ]
-  },
-  "3926df58-b496-49f8-807d-ce478d37162e_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/3926df58-b496-49f8-807d-ce478d37162e_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "3926df58-b496-49f8-807d-ce478d37162e_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/3926df58-b496-49f8-807d-ce478d37162e_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
-      }
-    ]
-  },
-  "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "6c4412d8-8a7a-433a-aff9-54d9d1bebc04_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/6c4412d8-8a7a-433a-aff9-54d9d1bebc04_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "a22baf87-f61e-43f7-b868-52cf0e05d234_8": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_8_q_01_FIX.png",
-        "alt": "Question 8 Image"
-      }
-    ]
-  },
-  "a22baf87-f61e-43f7-b868-52cf0e05d234_18": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_18_q_01_FIX.png",
-        "alt": "Question 18 Image"
-      }
-    ]
-  },
-  "a22baf87-f61e-43f7-b868-52cf0e05d234_19": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_19_q_01_FIX.png",
-        "alt": "Question 19 Image"
-      }
-    ]
-  },
-  "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7_q_01_FIX.png",
-        "alt": "Question 7 Image"
-      }
-    ]
-  },
-  "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8_q_01_FIX.png",
-        "alt": "Question 8 Image"
-      }
-    ]
-  },
-  "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16_q_01_FIX.png",
-        "alt": "Question 16 Image"
-      }
-    ]
-  },
-  "2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20_q_01_FIX.png",
-        "alt": "Question 20 Image"
-      }
-    ]
-  },
-  "302c1069-d3cf-4e1c-b0bd-57e018252a85_8": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_8_q_01_FIX.png",
-        "alt": "Question 8 Image"
-      }
-    ]
-  },
-  "302c1069-d3cf-4e1c-b0bd-57e018252a85_9": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
-      }
-    ]
-  },
-  "302c1069-d3cf-4e1c-b0bd-57e018252a85_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
-      }
-    ]
-  },
-  "302c1069-d3cf-4e1c-b0bd-57e018252a85_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
-      }
-    ]
-  },
-  "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13_q_01_FIX.png",
-        "alt": "Question 13 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_3": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_3_q_01_FIX.png",
-        "alt": "Question 3 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_8": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_8_q_01_FIX.png",
-        "alt": "Question 8 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_9": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_13": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_13_q_01_FIX.png",
-        "alt": "Question 13 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_18": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_18_q_01_FIX.png",
-        "alt": "Question 18 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_20": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_20_q_01_FIX.png",
-        "alt": "Question 20 Image"
-      }
-    ]
-  },
-  "9377a50a-f782-492e-a3bf-a2b90698cacc_22": {
+  "68445372": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_22_q_01_FIX.png",
@@ -437,7 +45,447 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "979898ba-60c7-4531-ac45-29c4db2b3361_6": {
+  "73351333": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "85404087": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7d110811-1651-49a9-9be6-62e088b71c73_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "723fe425": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/262137dd-b309-4356-982d-630e0212b16e_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "80ce4a11": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/ff866f0f-f295-4895-b84d-a5c603adf51a_11_q_01_FIX.png",
+        "alt": "Question 11 Image"
+      }
+    ]
+  },
+  "77c5be13": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/ff866f0f-f295-4895-b84d-a5c603adf51a_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "a2f66098": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "f4fec01f": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6172d662-f820-4d74-acac-4b49873dfc8f_11_q_01_FIX.png",
+        "alt": "Question 11 Image"
+      }
+    ]
+  },
+  "b55a5589": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/73482b52-a20f-452d-896f-76f578ac2361_13_q_01_FIX.png",
+        "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "b93ff444": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "e2d59603": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_15_q_01_FIX.png",
+        "alt": "Question 15 Image"
+      }
+    ]
+  },
+  "a84420be": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_17_q_01_FIX.png",
+        "alt": "Question 17 Image"
+      }
+    ]
+  },
+  "9de811ed": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_18_q_01_FIX.png",
+        "alt": "Question 18 Image"
+      }
+    ]
+  },
+  "b2087ade": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/c9e1513f-58d1-4e6c-8574-b9662226959f_22_q_01_FIX.png",
+        "alt": "Question 22 Image"
+      }
+    ]
+  },
+  "5c86ad39": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_7_q_01_FIX.png",
+        "alt": "Question 7 Image"
+      }
+    ]
+  },
+  "7965048f": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6acacde7-ed77-4956-a395-7f7392d6ba20_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "3177bbb0": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "247aa1ef": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7f4fd473-e40f-4ce7-9e0d-4ec344fcf416_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "361b41be": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/91ff0c6a-268b-4d8b-9642-b9fb25a907b4_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "c1963e9e": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "e63bb06c": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_10_q_01_FIX.png",
+        "alt": "Table titled Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters. Agaricia grahamae, Caribbean, minimum 20 meters, maximum 115 meters. Acropora bushyensis, Indo-Pacific, minimum 0 meters, maximum 5 meters. Mussa angulosa, Caribbean, minimum 5 meters, maximum 30 meters. Indophyllia macassarensis, Indo-Pacific, minimum 20 meters, maximum 25 meters."
+      }
+    ]
+  },
+  "2590cc16": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/27f42b6d-5bcd-4609-9ebb-429b11fd782b_11_q_01_FIX.png",
+        "alt": "Bar graph titled Annual Average Hours of Highway Traffic Delay per Auto Commuter. Years 1990, 1992, 1994, 1996, 1998, 2000. Beaumont, Texas: 8, 11, 15, 16, 20, 23 hours. Philadelphia, Pennsylvania: 30, 32, 34, 36, 39, 41 hours. Albany-Schenectady-Troy, New York: 17, 18, 20, 22, 26, 29 hours."
+      }
+    ]
+  },
+  "c5f7f560": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/93cf6ea9-c0fa-434a-a8d7-e6927bcedce1_12_q_01_FIX.png",
+        "alt": "Line graph of survival during A. sicerae infection over 10 days: Type A flies remain near 95% survival, while Type B flies drop to nearly 0% by day 10."
+      }
+    ]
+  },
+  "4e65cd19": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_2_q_01_FIX.png",
+        "alt": "Question 2 Image"
+      }
+    ]
+  },
+  "6023eed6": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5_q_01_FIX.png",
+        "alt": "Question 5 Image"
+      }
+    ]
+  },
+  "58e1528a": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_13_q_01_FIX.png",
+        "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "9999e318": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_18_q_01_FIX.png",
+        "alt": "Question 18 Image"
+      }
+    ]
+  },
+  "87f371ca": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_19_q_01_FIX.png",
+        "alt": "Question 19 Image"
+      }
+    ]
+  },
+  "874889bc": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_1_q_01_FIX.png",
+        "alt": "Question 1 Image"
+      }
+    ]
+  },
+  "c35eae37": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_4_q_01_FIX.png",
+        "alt": "Question 4 Image"
+      }
+    ]
+  },
+  "ef443e37": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/29b11893-ee0c-48ae-8103-403d9652ad14_19_q_01_FIX.png",
+        "alt": "Question 19 Image"
+      }
+    ]
+  },
+  "0882ec7f": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3926df58-b496-49f8-807d-ce478d37162e_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "25dba04b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/3926df58-b496-49f8-807d-ce478d37162e_11_q_01_FIX.png",
+        "alt": "Question 11 Image"
+      }
+    ]
+  },
+  "c805e0b2": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6c4412d8-8a7a-433a-aff9-54d9d1bebc04_10_q_01_FIX.png",
+        "alt": "Question 10 Image"
+      }
+    ]
+  },
+  "b46a2e04": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/6c4412d8-8a7a-433a-aff9-54d9d1bebc04_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "6ea2555b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_8_q_01_FIX.png",
+        "alt": "Question 8 Image"
+      }
+    ]
+  },
+  "97c51f6a": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_18_q_01_FIX.png",
+        "alt": "Question 18 Image"
+      }
+    ]
+  },
+  "0c065b89": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/a22baf87-f61e-43f7-b868-52cf0e05d234_19_q_01_FIX.png",
+        "alt": "Question 19 Image"
+      }
+    ]
+  },
+  "3b4c3d22": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_7_q_01_FIX.png",
+        "alt": "Question 7 Image"
+      }
+    ]
+  },
+  "cba0145e": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_8_q_01_FIX.png",
+        "alt": "Question 8 Image"
+      }
+    ]
+  },
+  "cb11e03e": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "53d8d663": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_16_q_01_FIX.png",
+        "alt": "Question 16 Image"
+      }
+    ]
+  },
+  "34fef30b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/2fb14cdb-1902-43a1-b2d1-b7bccbd22d1b_20_q_01_FIX.png",
+        "alt": "Question 20 Image"
+      }
+    ]
+  },
+  "7b9db261": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_8_q_01_FIX.png",
+        "alt": "Question 8 Image"
+      }
+    ]
+  },
+  "93355ddb": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "e778678b": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_11_q_01_FIX.png",
+        "alt": "Question 11 Image"
+      }
+    ]
+  },
+  "50c0b214": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/302c1069-d3cf-4e1c-b0bd-57e018252a85_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "e9bddd15": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_11_q_01_FIX.png",
+        "alt": "Question 11 Image"
+      }
+    ]
+  },
+  "4c267a05": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_12_q_01_FIX.png",
+        "alt": "Question 12 Image"
+      }
+    ]
+  },
+  "28339d20": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/7e608cd1-45e5-4f04-99b5-d0a95eb883a6_13_q_01_FIX.png",
+        "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "aaf63a5a": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_3_q_01_FIX.png",
+        "alt": "Question 3 Image"
+      }
+    ]
+  },
+  "35f8a2c9": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_8_q_01_FIX.png",
+        "alt": "Question 8 Image"
+      }
+    ]
+  },
+  "95433c17": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_9_q_01_FIX.png",
+        "alt": "Question 9 Image"
+      }
+    ]
+  },
+  "d31c7366": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_13_q_01_FIX.png",
+        "alt": "Question 13 Image"
+      }
+    ]
+  },
+  "8acffe86": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_18_q_01_FIX.png",
+        "alt": "Question 18 Image"
+      }
+    ]
+  },
+  "dc52cf47": {
+    "questionImages": [
+      {
+        "src": "/images/SAT-Style%20Questions/9377a50a-f782-492e-a3bf-a2b90698cacc_20_q_01_FIX.png",
+        "alt": "Question 20 Image"
+      }
+    ]
+  },
+  "874a5b09": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/979898ba-60c7-4531-ac45-29c4db2b3361_6_q_01_FIX.png",
@@ -453,7 +501,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "979898ba-60c7-4531-ac45-29c4db2b3361_12": {
+  "c1b4337c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/979898ba-60c7-4531-ac45-29c4db2b3361_12_q_01_FIX.png",
@@ -461,7 +509,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "979898ba-60c7-4531-ac45-29c4db2b3361_16": {
+  "f2789d11": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/979898ba-60c7-4531-ac45-29c4db2b3361_16_q_01_FIX.png",
@@ -469,7 +517,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "979898ba-60c7-4531-ac45-29c4db2b3361_20": {
+  "3a185e37": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/979898ba-60c7-4531-ac45-29c4db2b3361_20_q_01_FIX.png",
@@ -477,7 +525,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cea66aee-3a10-4bb9-b653-46ec49321824_9": {
+  "70f03835": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cea66aee-3a10-4bb9-b653-46ec49321824_9_q_01_FIX.png",
@@ -485,7 +533,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cea66aee-3a10-4bb9-b653-46ec49321824_12": {
+  "39589fb1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cea66aee-3a10-4bb9-b653-46ec49321824_12_q_01_FIX.png",
@@ -493,7 +541,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "986a38a2-7ec7-4431-b87a-1d0c366595d6_11": {
+  "70d5be55": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/986a38a2-7ec7-4431-b87a-1d0c366595d6_11_q_01_FIX.png",
@@ -501,7 +549,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "562b97f6-c42e-48b0-9911-de9db6425784_11": {
+  "64a1da40": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/562b97f6-c42e-48b0-9911-de9db6425784_11_q_01_FIX.png",
@@ -509,7 +557,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "562b97f6-c42e-48b0-9911-de9db6425784_12": {
+  "1521a957": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/562b97f6-c42e-48b0-9911-de9db6425784_12_q_01_FIX.png",
@@ -525,7 +573,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "fa92720e-d9b2-485a-9313-5041b77e5352_11": {
+  "0185d6e3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fa92720e-d9b2-485a-9313-5041b77e5352_11_q_01_FIX.png",
@@ -533,7 +581,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0a5f1b28-e866-44fd-85d1-c7684ad9e576_13": {
+  "204fb53b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0a5f1b28-e866-44fd-85d1-c7684ad9e576_13_q_01_FIX.png",
@@ -541,7 +589,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0a5f1b28-e866-44fd-85d1-c7684ad9e576_14": {
+  "20007d55": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0a5f1b28-e866-44fd-85d1-c7684ad9e576_14_q_01_FIX.png",
@@ -549,7 +597,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f6d1c961-52d1-4186-baf5-d276dfd4939f_11": {
+  "1504acc9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f6d1c961-52d1-4186-baf5-d276dfd4939f_11_q_01_FIX.png",
@@ -557,7 +605,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "25547537-4b75-4c1c-8c86-e3b70293c301_10": {
+  "671a10ad": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/25547537-4b75-4c1c-8c86-e3b70293c301_10_q_01_FIX.png",
@@ -565,7 +613,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "25547537-4b75-4c1c-8c86-e3b70293c301_13": {
+  "b93e71d1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/25547537-4b75-4c1c-8c86-e3b70293c301_13_q_01_FIX.png",
@@ -573,7 +621,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "bcfca978-b649-44b6-8774-fc731fcc4199_13": {
+  "1e253c3f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/bcfca978-b649-44b6-8774-fc731fcc4199_13_q_01_FIX.png",
@@ -581,7 +629,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d9f381e2-df35-4ee7-a137-e689faac81b1_9": {
+  "324bb26a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d9f381e2-df35-4ee7-a137-e689faac81b1_9_q_01_FIX.png",
@@ -597,7 +645,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2ecbcc31-a047-4184-8f07-5ee89663c904_11": {
+  "f93d1976": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2ecbcc31-a047-4184-8f07-5ee89663c904_11_q_01_FIX.png",
@@ -605,7 +653,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2ecbcc31-a047-4184-8f07-5ee89663c904_12": {
+  "e957cf27": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2ecbcc31-a047-4184-8f07-5ee89663c904_12_q_01_FIX.png",
@@ -613,7 +661,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2ecbcc31-a047-4184-8f07-5ee89663c904_14": {
+  "c330ea39": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2ecbcc31-a047-4184-8f07-5ee89663c904_14_q_01_FIX.png",
@@ -621,7 +669,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11": {
+  "ec1dd6a1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_11_q_01_FIX.png",
@@ -629,7 +677,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_13": {
+  "e7c6b68d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8ee3b6ba-7cb9-4462-8a32-a7c602662d8b_13_q_01_FIX.png",
@@ -637,7 +685,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1": {
+  "1e651aea": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_1_q_01_FIX.png",
@@ -645,7 +693,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4": {
+  "cb1d0f06": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_4_q_01_FIX.png",
@@ -653,7 +701,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6": {
+  "8697a9f1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_6_q_01_FIX.png",
@@ -661,7 +709,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_8": {
+  "e7aff072": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_8_q_01_FIX.png",
@@ -669,7 +717,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10": {
+  "dc011e74": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_10_q_01_FIX.png",
@@ -677,7 +725,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11": {
+  "8f0a5c54": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32cd6c88-820b-4de4-aa5c-08fe14fb73ef_11_q_01_FIX.png",
@@ -685,7 +733,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1": {
+  "0e47251d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_1_q_01_FIX.png",
@@ -693,7 +741,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7": {
+  "24e558b2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_7_q_01_FIX.png",
@@ -701,7 +749,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9": {
+  "557fe48c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_9_q_01_FIX.png",
@@ -709,15 +757,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_16_q_01_FIX.png",
-        "alt": "Coordinate plane showing the line y = f(x) + 11 passing through (-4, 9) and (0, 1), with negative slope."
-      }
-    ]
-  },
-  "2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22": {
+  "fd614f55": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c72a9c0-5ef0-4e68-883c-a0e6698dbfb6_22_q_01_FIX.png",
@@ -725,7 +765,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "c39b24c5-b805-4b9b-a609-e68df8471f04_10": {
+  "f6af24f4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c39b24c5-b805-4b9b-a609-e68df8471f04_10_q_01_FIX.jpg",
@@ -733,7 +773,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "595615e1-f0a9-4cfd-a290-fb855094a94a_11": {
+  "295b603f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/595615e1-f0a9-4cfd-a290-fb855094a94a_11_q_01_FIX.png",
@@ -741,7 +781,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "595615e1-f0a9-4cfd-a290-fb855094a94a_13": {
+  "ae816417": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/595615e1-f0a9-4cfd-a290-fb855094a94a_13_q_01_FIX.png",
@@ -749,7 +789,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "88552b8b-f774-4f18-b52e-65b24051a3d9_7": {
+  "b26e55ad": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/88552b8b-f774-4f18-b52e-65b24051a3d9_7_q_01_FIX.png",
@@ -757,7 +797,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "88552b8b-f774-4f18-b52e-65b24051a3d9_11": {
+  "69abec27": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/88552b8b-f774-4f18-b52e-65b24051a3d9_11_q_01_FIX.png",
@@ -765,7 +805,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_8": {
+  "40aec85c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_8_q_01_FIX.png",
@@ -773,7 +813,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_9": {
+  "c6390713": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e8c1c8d6-7a36-4b74-a13e-828f6caa1c1c_9_q_01_FIX.png",
@@ -781,7 +821,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1": {
+  "7efd3af9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_1_q_01_FIX.png",
@@ -789,7 +829,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5": {
+  "3f3a0f1b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_5_q_01_FIX.png",
@@ -797,7 +837,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11": {
+  "51d2b62a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_11_q_01_FIX.png",
@@ -805,7 +845,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15": {
+  "e879bdfd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_15_q_01_FIX.png",
@@ -813,7 +853,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21": {
+  "cc9f48a1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d0bf40d9-9809-4546-a0a3-4654ea36f6fb_21_q_01_FIX.png",
@@ -821,7 +861,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8a096929-9162-4ef5-b1c5-1da19c60ea8c_2": {
+  "c5855e26": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_2_q_01_FIX.png",
@@ -829,7 +869,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8a096929-9162-4ef5-b1c5-1da19c60ea8c_11": {
+  "511f2dcd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_11_q_01_FIX.png",
@@ -837,7 +877,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8a096929-9162-4ef5-b1c5-1da19c60ea8c_13": {
+  "1c59509d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8a096929-9162-4ef5-b1c5-1da19c60ea8c_13_q_01_FIX.png",
@@ -845,7 +885,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "01d54ef3-3232-4ef0-afab-0cf0045af97e_10": {
+  "091a0c0b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/01d54ef3-3232-4ef0-afab-0cf0045af97e_10_q_01_FIX.png",
@@ -853,7 +893,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "01d54ef3-3232-4ef0-afab-0cf0045af97e_11": {
+  "93cc3050": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/01d54ef3-3232-4ef0-afab-0cf0045af97e_11_q_01_FIX.png",
@@ -861,7 +901,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "01d54ef3-3232-4ef0-afab-0cf0045af97e_14": {
+  "c9babc51": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/01d54ef3-3232-4ef0-afab-0cf0045af97e_14_q_01_FIX.png",
@@ -869,7 +909,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1eaebf8c-38dc-4789-91fd-fd26c390bf69_10": {
+  "cd5f28fd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1eaebf8c-38dc-4789-91fd-fd26c390bf69_10_q_01_FIX.png",
@@ -877,7 +917,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5": {
+  "4c3f61be": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_5_q_01_FIX.png",
@@ -885,7 +925,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9": {
+  "b5fc7be7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_9_q_01_FIX.png",
@@ -893,7 +933,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_11": {
+  "0761d8d6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_11_q_01_FIX.png",
@@ -901,15 +941,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_12_q_01_FIX.png",
-        "alt": "Question 12 Image"
-      }
-    ]
-  },
-  "f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21": {
+  "dfe68812": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f5cee4a9-66e4-4bd3-a039-2e4ea1aa7776_21_q_01_FIX.png",
@@ -917,7 +949,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21": {
+  "89617fcd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8176ff95-6cd3-4604-aebc-7f16b9b86e1a_21_q_01_FIX.png",
@@ -925,7 +957,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_11": {
+  "9e1cb49f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e26dd9f3-3dbe-49b6-afbf-43a483d231ba_11_q_01_FIX.png",
@@ -933,7 +965,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e26dd9f3-3dbe-49b6-afbf-43a483d231ba_13": {
+  "f53ac190": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e26dd9f3-3dbe-49b6-afbf-43a483d231ba_13_q_01_FIX.png",
@@ -941,7 +973,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1bab97be-1fd5-4874-9973-125f743d4cac_10": {
+  "a70715cd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1bab97be-1fd5-4874-9973-125f743d4cac_10_q_01_FIX.png",
@@ -949,7 +981,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_2": {
+  "b334c1d4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f6c3595-ed0e-41a0-8889-7d3730d37b4c_2_q_01_FIX.png",
@@ -957,7 +989,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6": {
+  "d16fc9b0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f6c3595-ed0e-41a0-8889-7d3730d37b4c_6_q_01_FIX.png",
@@ -965,7 +997,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11": {
+  "11d1ece2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f6c3595-ed0e-41a0-8889-7d3730d37b4c_11_q_01_FIX.png",
@@ -973,7 +1005,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f6c3595-ed0e-41a0-8889-7d3730d37b4c_22": {
+  "361ac735": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f6c3595-ed0e-41a0-8889-7d3730d37b4c_22_q_01_FIX.png",
@@ -981,7 +1013,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_2": {
+  "e7472732": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32388549-e820-4b4a-91a9-d9c32e611098_2_q_01_FIX.png",
@@ -989,7 +1021,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_3": {
+  "04cf3c23": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32388549-e820-4b4a-91a9-d9c32e611098_3_q_01_FIX.png",
@@ -997,7 +1029,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_9": {
+  "e0d7a46a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32388549-e820-4b4a-91a9-d9c32e611098_9_q_01_FIX.png",
@@ -1005,7 +1037,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_11": {
+  "26a47f14": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32388549-e820-4b4a-91a9-d9c32e611098_11_q_01_FIX.png",
@@ -1013,7 +1045,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "32388549-e820-4b4a-91a9-d9c32e611098_15": {
+  "fa7e74e1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/32388549-e820-4b4a-91a9-d9c32e611098_15_q_01_FIX.png",
@@ -1021,7 +1053,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2151936b-0a32-450c-9679-a3f550831cb9_10": {
+  "eec594ba": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2151936b-0a32-450c-9679-a3f550831cb9_10_q_01_FIX.png",
@@ -1029,7 +1061,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2151936b-0a32-450c-9679-a3f550831cb9_13": {
+  "282618af": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2151936b-0a32-450c-9679-a3f550831cb9_13_q_01_FIX.png",
@@ -1037,7 +1069,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "61095ce3-05bf-46a1-a191-e8b52ec70c8e_11": {
+  "92820aae": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/61095ce3-05bf-46a1-a191-e8b52ec70c8e_11_q_01_FIX.png",
@@ -1069,7 +1101,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9c1847da-e82b-4814-a0ec-0b4f99891322_22": {
+  "14fcdf9a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9c1847da-e82b-4814-a0ec-0b4f99891322_22_q_01_FIX.png",
@@ -1077,7 +1109,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b00d1a2d-fa94-4785-a802-20abbcc6d00a_1": {
+  "e2f8ebce": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_1_q_01_FIX.png",
@@ -1085,7 +1117,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b00d1a2d-fa94-4785-a802-20abbcc6d00a_2": {
+  "a146d26d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_2_q_01_FIX.png",
@@ -1093,7 +1125,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b00d1a2d-fa94-4785-a802-20abbcc6d00a_7": {
+  "7c8c8bed": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_7_q_01_FIX.png",
@@ -1101,7 +1133,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b00d1a2d-fa94-4785-a802-20abbcc6d00a_10": {
+  "9c9e3f7b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b00d1a2d-fa94-4785-a802-20abbcc6d00a_10_q_01_FIX.png",
@@ -1109,7 +1141,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ec2ddee6-a98b-41ee-9169-7cea79c09b5c_12": {
+  "16c126b5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ec2ddee6-a98b-41ee-9169-7cea79c09b5c_12_q_01_FIX.png",
@@ -1117,7 +1149,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6c5588e4-f326-44d2-afd6-39547f4bb40a_10": {
+  "ff86c1af": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6c5588e4-f326-44d2-afd6-39547f4bb40a_10_q_01_FIX.png",
@@ -1125,7 +1157,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "112a6b4d-d9f5-46f3-9367-da2e729b54fe_12": {
+  "ee85c71b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/112a6b4d-d9f5-46f3-9367-da2e729b54fe_12_q_01_FIX.jpg",
@@ -1133,7 +1165,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5": {
+  "a6062889": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_5_q_01_FIX.png",
@@ -1149,7 +1181,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_11": {
+  "c1bd2521": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_11_q_01_FIX.png",
@@ -1157,7 +1189,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_12": {
+  "ef765bc4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_12_q_01_FIX.png",
@@ -1165,7 +1197,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14": {
+  "71e35f9f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9e596d48-2bc5-4cbe-b5a5-d23a37d7cccd_14_q_01_FIX.png",
@@ -1173,7 +1205,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7": {
+  "c47c7958": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_7_q_01_FIX.png",
@@ -1181,7 +1213,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9": {
+  "dfa4cdef": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_9_q_01_FIX.png",
@@ -1189,7 +1221,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14": {
+  "b3edf129": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c8bbd7c-40a9-4e05-bc74-0279c5b08fcc_14_q_01_FIX.png",
@@ -1197,7 +1229,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_7": {
+  "918bff17": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_7_q_01_FIX.png",
@@ -1205,7 +1237,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11": {
+  "4e27fe26": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_11_q_01_FIX.png",
@@ -1213,7 +1245,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_12": {
+  "46bd89b3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/20ec56b7-c956-4c42-84fa-6d5ee0b1ccd5_12_q_01_FIX.png",
@@ -1221,7 +1253,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f814a654-4029-44fa-bca6-57bed320ab01_10": {
+  "6c8aeb97": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f814a654-4029-44fa-bca6-57bed320ab01_10_q_01_FIX.png",
@@ -1229,7 +1261,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6b1e987d-70b0-4072-9d03-3ebd56371518_15": {
+  "98886c93": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6b1e987d-70b0-4072-9d03-3ebd56371518_15_q_01_FIX.png",
@@ -1237,7 +1269,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6b1e987d-70b0-4072-9d03-3ebd56371518_17": {
+  "5fadad1b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6b1e987d-70b0-4072-9d03-3ebd56371518_17_q_01_FIX.png",
@@ -1245,7 +1277,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6b1e987d-70b0-4072-9d03-3ebd56371518_19": {
+  "8dfc0e4c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6b1e987d-70b0-4072-9d03-3ebd56371518_19_q_01_FIX.png",
@@ -1253,7 +1285,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6b1e987d-70b0-4072-9d03-3ebd56371518_22": {
+  "962cbda7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6b1e987d-70b0-4072-9d03-3ebd56371518_22_q_01_FIX.png",
@@ -1261,7 +1293,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c578582-a4c6-4b17-a43d-0f06aaab91b7_1": {
+  "6c907811": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_1_q_01_FIX.png",
@@ -1269,7 +1301,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c578582-a4c6-4b17-a43d-0f06aaab91b7_2": {
+  "160a8ba0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_2_q_01_FIX.png",
@@ -1277,7 +1309,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c578582-a4c6-4b17-a43d-0f06aaab91b7_6": {
+  "74c845b6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_6_q_01_FIX.png",
@@ -1285,7 +1317,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c578582-a4c6-4b17-a43d-0f06aaab91b7_10": {
+  "5a1dcda0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_10_q_01_FIX.png",
@@ -1293,7 +1325,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c578582-a4c6-4b17-a43d-0f06aaab91b7_17": {
+  "c0724738": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c578582-a4c6-4b17-a43d-0f06aaab91b7_17_q_01_FIX.png",
@@ -1301,7 +1333,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7d95c376-0a52-42c6-af0d-ac2aaf25546d_12": {
+  "b91abe2e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7d95c376-0a52-42c6-af0d-ac2aaf25546d_12_q_01_FIX.png",
@@ -1309,7 +1341,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_10": {
+  "e89dcdb7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5d516e8-dc0a-449f-9696-276e786df83f_10_q_01_FIX.png",
@@ -1317,7 +1349,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_15": {
+  "c70b5418": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5d516e8-dc0a-449f-9696-276e786df83f_15_q_01_FIX.png",
@@ -1325,7 +1357,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_16": {
+  "bdae2002": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5d516e8-dc0a-449f-9696-276e786df83f_16_q_01_FIX.png",
@@ -1333,7 +1365,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_19": {
+  "c12e6830": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5d516e8-dc0a-449f-9696-276e786df83f_19_q_01_FIX.png",
@@ -1341,7 +1373,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5d516e8-dc0a-449f-9696-276e786df83f_22": {
+  "f36c544b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5d516e8-dc0a-449f-9696-276e786df83f_22_q_01_FIX.png",
@@ -1349,7 +1381,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_1": {
+  "8bbd2673": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_1_q_01_FIX.png",
@@ -1357,7 +1389,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_4": {
+  "68bf488d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_4_q_01_FIX.png",
@@ -1365,7 +1397,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_5": {
+  "0b795787": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_5_q_01_FIX.png",
@@ -1373,7 +1405,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_11": {
+  "b365a530": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_11_q_01_FIX.png",
@@ -1381,7 +1413,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_12": {
+  "7db4affa": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_12_q_01_FIX.png",
@@ -1397,7 +1429,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "131fb2cc-899f-43fd-ad5b-8d89c1062d52_17": {
+  "581cb29e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/131fb2cc-899f-43fd-ad5b-8d89c1062d52_17_q_01_FIX.png",
@@ -1405,7 +1437,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "65933baf-7287-4c7d-a62b-3e57c00f4a9e_12": {
+  "68c86bff": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/65933baf-7287-4c7d-a62b-3e57c00f4a9e_12_q_01_FIX.png",
@@ -1413,7 +1445,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "97534841-3541-4563-86b8-0a919d0bde5b_8": {
+  "8d55c147": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/97534841-3541-4563-86b8-0a919d0bde5b_8_q_01_FIX.png",
@@ -1421,7 +1453,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "97534841-3541-4563-86b8-0a919d0bde5b_9": {
+  "7ff79f8b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/97534841-3541-4563-86b8-0a919d0bde5b_9_q_01_FIX.png",
@@ -1429,7 +1461,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "23a951fb-833f-4b27-9978-4eb054f855e2_15": {
+  "d39a3dc6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/23a951fb-833f-4b27-9978-4eb054f855e2_15_q_01_FIX.png",
@@ -1437,7 +1469,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "10c690aa-0aad-48ab-952b-855b2555b311_1": {
+  "309b4a12": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/10c690aa-0aad-48ab-952b-855b2555b311_1_q_01_FIX.png",
@@ -1445,7 +1477,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "10c690aa-0aad-48ab-952b-855b2555b311_4": {
+  "c395b986": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/10c690aa-0aad-48ab-952b-855b2555b311_4_q_01_FIX.png",
@@ -1453,7 +1485,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "10c690aa-0aad-48ab-952b-855b2555b311_11": {
+  "17c358e6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/10c690aa-0aad-48ab-952b-855b2555b311_11_q_01_FIX.png",
@@ -1461,7 +1493,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "10c690aa-0aad-48ab-952b-855b2555b311_16": {
+  "bcc9a681": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/10c690aa-0aad-48ab-952b-855b2555b311_16_q_01_FIX.png",
@@ -1469,7 +1501,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "10c690aa-0aad-48ab-952b-855b2555b311_18": {
+  "cc52b783": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/10c690aa-0aad-48ab-952b-855b2555b311_18_q_01_FIX.png",
@@ -1477,7 +1509,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "df7af07f-1de4-419a-83e5-dadc9e1caefe_11": {
+  "9c8b3a28": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/df7af07f-1de4-419a-83e5-dadc9e1caefe_11_q_01_FIX.png",
@@ -1485,7 +1517,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "df7af07f-1de4-419a-83e5-dadc9e1caefe_13": {
+  "4592cf75": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/df7af07f-1de4-419a-83e5-dadc9e1caefe_13_q_01_FIX.png",
@@ -1493,7 +1525,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d70596a3-d7c7-4cbc-9453-87383eff173a_11": {
+  "86d3afe7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d70596a3-d7c7-4cbc-9453-87383eff173a_11_q_01_FIX.png",
@@ -1501,7 +1533,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6197d48e-7c76-4333-af39-0b9aa39e924c_1": {
+  "b5a88a05": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6197d48e-7c76-4333-af39-0b9aa39e924c_1_q_01_FIX.png",
@@ -1517,7 +1549,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6197d48e-7c76-4333-af39-0b9aa39e924c_18": {
+  "195ce3fc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6197d48e-7c76-4333-af39-0b9aa39e924c_18_q_01_FIX.png",
@@ -1525,7 +1557,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7": {
+  "a4cd9b23": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_7_q_01_FIX.png",
@@ -1533,7 +1565,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20": {
+  "8778ec4f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6d83bce6-cd0e-49ec-848d-d2a6307de5b9_20_q_01_FIX.png",
@@ -1541,7 +1573,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7c17367d-234a-4cdb-b654-3dc1d5243ede_11": {
+  "e2ea860f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7c17367d-234a-4cdb-b654-3dc1d5243ede_11_q_01_FIX.png",
@@ -1549,7 +1581,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7c17367d-234a-4cdb-b654-3dc1d5243ede_13": {
+  "559a8b28": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7c17367d-234a-4cdb-b654-3dc1d5243ede_13_q_01_FIX.png",
@@ -1557,7 +1589,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "110d04d6-17dd-46a6-a6d5-c895e1d91668_12": {
+  "9d12e7ec": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/110d04d6-17dd-46a6-a6d5-c895e1d91668_12_q_01_FIX.png",
@@ -1581,7 +1613,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9628151f-9763-4abc-8c66-9dc08f82f715_18": {
+  "d4cdef38": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9628151f-9763-4abc-8c66-9dc08f82f715_18_q_01_FIX.png",
@@ -1589,7 +1621,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f196343a-4470-4649-8efb-edf349dd4393_7": {
+  "9c7c4c1a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_7_q_01_FIX.png",
@@ -1597,7 +1629,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f196343a-4470-4649-8efb-edf349dd4393_9": {
+  "0cef3a00": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_9_q_01_FIX.png",
@@ -1605,7 +1637,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f196343a-4470-4649-8efb-edf349dd4393_13": {
+  "52eb81c5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f196343a-4470-4649-8efb-edf349dd4393_13_q_01_FIX.png",
@@ -1629,7 +1661,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7876fc9e-c914-40a9-9906-62c7e3b1bbce_13": {
+  "7e3b9793": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7876fc9e-c914-40a9-9906-62c7e3b1bbce_13_q_01_FIX.png",
@@ -1637,7 +1669,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "dbd99943-454f-4340-b42a-6a27b20e090c_10": {
+  "62965c41": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/dbd99943-454f-4340-b42a-6a27b20e090c_10_q_01_FIX.png",
@@ -1645,7 +1677,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a7146625-47ea-49cb-9061-578e226240d5_10": {
+  "57ec1275": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a7146625-47ea-49cb-9061-578e226240d5_10_q_01_FIX.png",
@@ -1653,7 +1685,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a7146625-47ea-49cb-9061-578e226240d5_15": {
+  "ec9a8739": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a7146625-47ea-49cb-9061-578e226240d5_15_q_01_FIX.png",
@@ -1669,7 +1701,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a7146625-47ea-49cb-9061-578e226240d5_19": {
+  "ef2bc26f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a7146625-47ea-49cb-9061-578e226240d5_19_q_01_FIX.png",
@@ -1677,7 +1709,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a7146625-47ea-49cb-9061-578e226240d5_22": {
+  "72e8434a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a7146625-47ea-49cb-9061-578e226240d5_22_q_01_FIX.png",
@@ -1685,7 +1717,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a240b08f-646d-4227-8b1f-fadf4c312b08_1": {
+  "4504e1c1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a240b08f-646d-4227-8b1f-fadf4c312b08_1_q_01_FIX.png",
@@ -1701,7 +1733,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a240b08f-646d-4227-8b1f-fadf4c312b08_6": {
+  "07899dcc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a240b08f-646d-4227-8b1f-fadf4c312b08_6_q_01_FIX.png",
@@ -1717,7 +1749,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a240b08f-646d-4227-8b1f-fadf4c312b08_12": {
+  "ac1c7c9c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a240b08f-646d-4227-8b1f-fadf4c312b08_12_q_01_FIX.png",
@@ -1725,7 +1757,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a240b08f-646d-4227-8b1f-fadf4c312b08_17": {
+  "1dbf2f1f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a240b08f-646d-4227-8b1f-fadf4c312b08_17_q_01_FIX.png",
@@ -1733,7 +1765,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a240b08f-646d-4227-8b1f-fadf4c312b08_21": {
+  "8239bb37": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a240b08f-646d-4227-8b1f-fadf4c312b08_21_q_01_FIX.png",
@@ -1741,7 +1773,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9": {
+  "977b91a3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a333c1fd-7b95-4086-a9bf-1d7c8b137d23_9_q_01_FIX.png",
@@ -1749,7 +1781,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10": {
+  "ffe1994e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a333c1fd-7b95-4086-a9bf-1d7c8b137d23_10_q_01_FIX.png",
@@ -1757,7 +1789,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a333c1fd-7b95-4086-a9bf-1d7c8b137d23_11": {
+  "1992c1f8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a333c1fd-7b95-4086-a9bf-1d7c8b137d23_11_q_01_FIX.png",
@@ -1765,7 +1797,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "98abbb37-6191-475b-986c-2431f021f4a2_12": {
+  "7c5de6ba": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/98abbb37-6191-475b-986c-2431f021f4a2_12_q_01_FIX.png",
@@ -1773,7 +1805,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "fd74de5b-6191-4868-9a2d-dd70269d2477_11": {
+  "2a36b65a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fd74de5b-6191-4868-9a2d-dd70269d2477_11_q_01_FIX.png",
@@ -1781,7 +1813,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "fd74de5b-6191-4868-9a2d-dd70269d2477_12": {
+  "f8fc7fc2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fd74de5b-6191-4868-9a2d-dd70269d2477_12_q_01_FIX.png",
@@ -1789,7 +1821,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "fd74de5b-6191-4868-9a2d-dd70269d2477_13": {
+  "88e156c9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fd74de5b-6191-4868-9a2d-dd70269d2477_13_q_01_FIX.png",
@@ -1797,7 +1829,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "839d1132-416e-4cc6-be17-13454f14da43_10": {
+  "4e4896af": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/839d1132-416e-4cc6-be17-13454f14da43_10_q_01_FIX.png",
@@ -1805,7 +1837,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e950c225-1224-4691-beae-95b8ff6c7bca_10": {
+  "59c5142e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e950c225-1224-4691-beae-95b8ff6c7bca_10_q_01_FIX.png",
@@ -1813,7 +1845,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e950c225-1224-4691-beae-95b8ff6c7bca_11": {
+  "8e1d1ef7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e950c225-1224-4691-beae-95b8ff6c7bca_11_q_01_FIX.png",
@@ -1821,7 +1853,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e950c225-1224-4691-beae-95b8ff6c7bca_12": {
+  "661bef66": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e950c225-1224-4691-beae-95b8ff6c7bca_12_q_01_FIX.png",
@@ -1829,7 +1861,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e950c225-1224-4691-beae-95b8ff6c7bca_14": {
+  "f541eaa4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e950c225-1224-4691-beae-95b8ff6c7bca_14_q_01_FIX.png",
@@ -1837,7 +1869,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2f36d10d-2b67-4940-be7e-7ae5a7f478f1_13": {
+  "7802f6a0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2f36d10d-2b67-4940-be7e-7ae5a7f478f1_13_q_01_FIX.png",
@@ -1845,7 +1877,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1772a8fc-3104-49c8-9168-d2704967f5fd_11": {
+  "e367c1cb": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1772a8fc-3104-49c8-9168-d2704967f5fd_11_q_01_FIX.png",
@@ -1853,7 +1885,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1772a8fc-3104-49c8-9168-d2704967f5fd_12": {
+  "21612a9e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1772a8fc-3104-49c8-9168-d2704967f5fd_12_q_01_FIX.png",
@@ -1861,7 +1893,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1772a8fc-3104-49c8-9168-d2704967f5fd_14": {
+  "6258f8a7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1772a8fc-3104-49c8-9168-d2704967f5fd_14_q_01_FIX.png",
@@ -1877,7 +1909,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_9": {
+  "e69b73a3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/69d5bd5d-08fd-46f5-9c5d-266b2e358bce_9_q_01_FIX.png",
@@ -1885,7 +1917,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "69d5bd5d-08fd-46f5-9c5d-266b2e358bce_10": {
+  "af5072dd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/69d5bd5d-08fd-46f5-9c5d-266b2e358bce_10_q_01_FIX.png",
@@ -1901,7 +1933,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "406baf08-71da-41c0-bc3d-ddc2c25258ba_10": {
+  "87c05165": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/406baf08-71da-41c0-bc3d-ddc2c25258ba_10_q_01_FIX.png",
@@ -1909,7 +1941,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "406baf08-71da-41c0-bc3d-ddc2c25258ba_11": {
+  "65f33f57": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/406baf08-71da-41c0-bc3d-ddc2c25258ba_11_q_01_FIX.png",
@@ -1917,7 +1949,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "406baf08-71da-41c0-bc3d-ddc2c25258ba_12": {
+  "d0540685": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/406baf08-71da-41c0-bc3d-ddc2c25258ba_12_q_01_FIX.png",
@@ -1925,7 +1957,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "406baf08-71da-41c0-bc3d-ddc2c25258ba_13": {
+  "3a4907e1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/406baf08-71da-41c0-bc3d-ddc2c25258ba_13_q_01_FIX.png",
@@ -1933,7 +1965,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d3c0680f-0e7b-45fa-a287-0167b3b6346e_9": {
+  "166dd9f0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d3c0680f-0e7b-45fa-a287-0167b3b6346e_9_q_01_FIX.png",
@@ -1949,7 +1981,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1": {
+  "a676c34f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_1_q_01_FIX.png",
@@ -1957,7 +1989,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8": {
+  "70a6d8ba": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_8_q_01_FIX.png",
@@ -1965,7 +1997,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21": {
+  "bd5b6bf2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b9182840-d1e0-4eb3-b6f3-b45a868fc1ac_21_q_01_FIX.png",
@@ -1973,7 +2005,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15": {
+  "2ac973ba": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_15_q_01_FIX.png",
@@ -1981,7 +2013,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17": {
+  "0c3d2ab4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_17_q_01_FIX.png",
@@ -1989,7 +2021,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_18": {
+  "a83e5015": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/555c176c-fa9a-40e0-b8a8-cb40b47c9ee3_18_q_01_FIX.png",
@@ -1997,7 +2029,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b5bd285b-0705-476c-ac24-58aa076fb71a_9": {
+  "9d7594dd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b5bd285b-0705-476c-ac24-58aa076fb71a_9_q_01_FIX.png",
@@ -2005,7 +2037,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b5bd285b-0705-476c-ac24-58aa076fb71a_12": {
+  "cab66bf3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b5bd285b-0705-476c-ac24-58aa076fb71a_12_q_01_FIX.png",
@@ -2021,7 +2053,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a16355d1-6cca-4c4e-8e0a-f405892830f1_8": {
+  "0e8d4e8b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a16355d1-6cca-4c4e-8e0a-f405892830f1_8_q_01_FIX.png",
@@ -2029,7 +2061,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a16355d1-6cca-4c4e-8e0a-f405892830f1_13": {
+  "22d26f59": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a16355d1-6cca-4c4e-8e0a-f405892830f1_13_q_01_FIX.png",
@@ -2037,7 +2069,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a16355d1-6cca-4c4e-8e0a-f405892830f1_21": {
+  "26f601a6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a16355d1-6cca-4c4e-8e0a-f405892830f1_21_q_01_FIX.png",
@@ -2045,7 +2077,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b310cd51-4e49-46d2-99c8-70a10c0d83f9_4": {
+  "46f1a067": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b310cd51-4e49-46d2-99c8-70a10c0d83f9_4_q_01_FIX.png",
@@ -2061,7 +2093,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e580c519-9667-4b3b-8a1e-a7bec6eba694_9": {
+  "abaa5860": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e580c519-9667-4b3b-8a1e-a7bec6eba694_9_q_01_FIX.png",
@@ -2069,7 +2101,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e580c519-9667-4b3b-8a1e-a7bec6eba694_10": {
+  "79b961b3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e580c519-9667-4b3b-8a1e-a7bec6eba694_10_q_01_FIX.png",
@@ -2077,7 +2109,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_2": {
+  "b4ae2c8a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_2_q_01_FIX.png",
@@ -2085,7 +2117,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_6": {
+  "b8f68310": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_6_q_01_FIX.png",
@@ -2093,7 +2125,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_10": {
+  "dd332e46": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_10_q_01_FIX.png",
@@ -2101,7 +2133,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_12": {
+  "0b4761b2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_12_q_01_FIX.png",
@@ -2109,7 +2141,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_18": {
+  "f41cffca": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_18_q_01_FIX.png",
@@ -2117,7 +2149,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ba06b998-d854-4b29-830c-15d877280c75_21": {
+  "ed607cc8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ba06b998-d854-4b29-830c-15d877280c75_21_q_01_FIX.png",
@@ -2125,7 +2157,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10": {
+  "ded99815": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_10_q_01_FIX.png",
@@ -2133,7 +2165,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12": {
+  "a28ae30d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_12_q_01_FIX.png",
@@ -2141,7 +2173,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_16": {
+  "9ec29b83": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/915cc9ca-743d-4b40-bb9f-e3d5c6b94fe5_16_q_01_FIX.png",
@@ -2157,7 +2189,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20": {
+  "f44e43a9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6bfd0c2e-65a8-46f9-a800-10203b4c8d45_20_q_01_FIX.png",
@@ -2165,7 +2197,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_1": {
+  "d3f3f429": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ffdaaea2-8ec1-44b7-903d-084c644b881a_1_q_01_FIX.png",
@@ -2173,7 +2205,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_4": {
+  "72a73a8e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ffdaaea2-8ec1-44b7-903d-084c644b881a_4_q_01_FIX.png",
@@ -2181,7 +2213,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_12": {
+  "a67ae021": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ffdaaea2-8ec1-44b7-903d-084c644b881a_12_q_01_FIX.png",
@@ -2189,7 +2221,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ffdaaea2-8ec1-44b7-903d-084c644b881a_13": {
+  "afea400d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ffdaaea2-8ec1-44b7-903d-084c644b881a_13_q_01_FIX.png",
@@ -2213,7 +2245,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "11ee667b-8898-4917-b74e-33237205e2ef_3": {
+  "e5bdd5d3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11ee667b-8898-4917-b74e-33237205e2ef_3_q_01_FIX.png",
@@ -2221,7 +2253,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "11ee667b-8898-4917-b74e-33237205e2ef_10": {
+  "6e37e300": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11ee667b-8898-4917-b74e-33237205e2ef_10_q_01_FIX.png",
@@ -2229,7 +2261,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "11ee667b-8898-4917-b74e-33237205e2ef_18": {
+  "fb6c2819": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11ee667b-8898-4917-b74e-33237205e2ef_18_q_01_FIX.png",
@@ -2237,7 +2269,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "11ee667b-8898-4917-b74e-33237205e2ef_19": {
+  "32f7278d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11ee667b-8898-4917-b74e-33237205e2ef_19_q_01_FIX.png",
@@ -2253,7 +2285,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "11ab7acb-9d06-445e-8071-b2cefe5234c2_9": {
+  "d5dc3b9a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/11ab7acb-9d06-445e-8071-b2cefe5234c2_9_q_01_FIX.png",
@@ -2269,7 +2301,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_10": {
+  "72b7de9b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c685c82-a211-4c0f-9856-cc6b06a5a86e_10_q_01_FIX.png",
@@ -2277,7 +2309,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_12": {
+  "15c14ee3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c685c82-a211-4c0f-9856-cc6b06a5a86e_12_q_01_FIX.png",
@@ -2285,7 +2317,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2c685c82-a211-4c0f-9856-cc6b06a5a86e_14": {
+  "1d2b77cc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2c685c82-a211-4c0f-9856-cc6b06a5a86e_14_q_01_FIX.png",
@@ -2293,7 +2325,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10": {
+  "18d4be2e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8979aab8-13bc-4454-bb32-5bdf66fd4ea4_10_q_01_FIX.png",
@@ -2301,7 +2333,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8979aab8-13bc-4454-bb32-5bdf66fd4ea4_11": {
+  "ea7c07e2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8979aab8-13bc-4454-bb32-5bdf66fd4ea4_11_q_01_FIX.png",
@@ -2309,7 +2341,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1bbdda23-57e5-4170-8fb2-e513425353ca_11": {
+  "b438c5b1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1bbdda23-57e5-4170-8fb2-e513425353ca_11_q_01_FIX.png",
@@ -2317,7 +2349,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "35bd5fb1-7659-4393-b736-241352b7187e_3": {
+  "66f156ac": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_3_q_01_FIX.png",
@@ -2325,7 +2357,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "35bd5fb1-7659-4393-b736-241352b7187e_4": {
+  "d8f5cbfc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_4_q_01_FIX.png",
@@ -2333,15 +2365,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "35bd5fb1-7659-4393-b736-241352b7187e_6": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_6_q_01_FIX.png",
-        "alt": "Question 6 Image"
-      }
-    ]
-  },
-  "35bd5fb1-7659-4393-b736-241352b7187e_8": {
+  "695fd3e3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_8_q_01_FIX.png",
@@ -2349,7 +2373,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "35bd5fb1-7659-4393-b736-241352b7187e_16": {
+  "0c2659d9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/35bd5fb1-7659-4393-b736-241352b7187e_16_q_01_FIX.png",
@@ -2365,7 +2389,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "92bd954b-0e12-4b86-bc5f-d64490221af2_11": {
+  "75d9a1b9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/92bd954b-0e12-4b86-bc5f-d64490221af2_11_q_01_FIX.png",
@@ -2373,7 +2397,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "92bd954b-0e12-4b86-bc5f-d64490221af2_13": {
+  "fcaf082c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/92bd954b-0e12-4b86-bc5f-d64490221af2_13_q_01_FIX.png",
@@ -2381,7 +2405,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "92bd954b-0e12-4b86-bc5f-d64490221af2_14": {
+  "be264b44": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/92bd954b-0e12-4b86-bc5f-d64490221af2_14_q_01_FIX.png",
@@ -2389,7 +2413,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c90f26b-77aa-4ba4-80ae-bd4881600582_10": {
+  "cd1c080b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c90f26b-77aa-4ba4-80ae-bd4881600582_10_q_01_FIX.png",
@@ -2397,7 +2421,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_10": {
+  "7977f836": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9ce7f863-9f97-46a6-9458-7fb4726c3cb0_10_q_01_FIX.png",
@@ -2405,7 +2429,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_11": {
+  "d24a0c74": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9ce7f863-9f97-46a6-9458-7fb4726c3cb0_11_q_01_FIX.png",
@@ -2413,7 +2437,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9ce7f863-9f97-46a6-9458-7fb4726c3cb0_13": {
+  "62c7f851": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9ce7f863-9f97-46a6-9458-7fb4726c3cb0_13_q_01_FIX.png",
@@ -2421,7 +2445,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "27590f35-8d6e-45c6-b665-222acb5e516d_5": {
+  "b144ceea": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/27590f35-8d6e-45c6-b665-222acb5e516d_5_q_01_FIX.png",
@@ -2429,7 +2453,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "27590f35-8d6e-45c6-b665-222acb5e516d_8": {
+  "57f0d243": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/27590f35-8d6e-45c6-b665-222acb5e516d_8_q_01_FIX.png",
@@ -2437,7 +2461,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "27590f35-8d6e-45c6-b665-222acb5e516d_18": {
+  "882bcbb8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/27590f35-8d6e-45c6-b665-222acb5e516d_18_q_01_FIX.png",
@@ -2445,7 +2469,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2f91d920-5520-4266-8a2d-a29c925c95c0_2": {
+  "1f4bb722": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2f91d920-5520-4266-8a2d-a29c925c95c0_2_q_01_FIX.png",
@@ -2453,7 +2477,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2f91d920-5520-4266-8a2d-a29c925c95c0_3": {
+  "22c24efa": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2f91d920-5520-4266-8a2d-a29c925c95c0_3_q_01_FIX.png",
@@ -2469,7 +2493,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2f91d920-5520-4266-8a2d-a29c925c95c0_12": {
+  "5c5daeea": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2f91d920-5520-4266-8a2d-a29c925c95c0_12_q_01_FIX.png",
@@ -2477,7 +2501,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10": {
+  "f63d247e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_10_q_01_FIX.png",
@@ -2485,7 +2509,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_12": {
+  "24a51785": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_12_q_01_FIX.png",
@@ -2493,7 +2517,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_13": {
+  "005bc92d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0d55e7c2-0ee1-41db-a3b0-b364a32b2c6b_13_q_01_FIX.png",
@@ -2501,7 +2525,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "2cde5163-29ab-4fac-b1b1-06ee2a11740a_10": {
+  "b5bccf37": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/2cde5163-29ab-4fac-b1b1-06ee2a11740a_10_q_01_FIX.png",
@@ -2509,7 +2533,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_9": {
+  "9f776e52": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_9_q_01_FIX.png",
@@ -2517,7 +2541,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_10": {
+  "919e5794": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_10_q_01_FIX.png",
@@ -2533,7 +2557,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_13": {
+  "3202bf8d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ce4a93ed-9eeb-4f1f-a8b2-d697482ce03a_13_q_01_FIX.png",
@@ -2541,7 +2565,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0ea78efc-f415-4ef4-be7f-7d36b9549605_11": {
+  "252b266f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0ea78efc-f415-4ef4-be7f-7d36b9549605_11_q_01_FIX.png",
@@ -2549,7 +2573,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1": {
+  "2689b2ff": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f6c07e2a-39d2-49c1-b958-931fe9e17ee2_1_q_01_FIX.png",
@@ -2565,7 +2589,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_4": {
+  "f23297b6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_4_q_01_FIX.png",
@@ -2573,7 +2597,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_6": {
+  "7be1395a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_6_q_01_FIX.png",
@@ -2581,7 +2605,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_7": {
+  "5a3c8109": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_7_q_01_FIX.png",
@@ -2589,7 +2613,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_9": {
+  "d9518594": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_9_q_01_FIX.png",
@@ -2597,7 +2621,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_16": {
+  "5e280992": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_16_q_01_FIX.png",
@@ -2605,7 +2629,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d5718376-6a71-41d6-aa0f-411bb7f3bb75_21": {
+  "0a75d799": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d5718376-6a71-41d6-aa0f-411bb7f3bb75_21_q_01_FIX.png",
@@ -2613,7 +2637,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_10": {
+  "1ce2191a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a767d2b7-21c5-44d6-b35c-acfc2fefad3d_10_q_01_FIX.png",
@@ -2621,7 +2645,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_11": {
+  "99e28a8c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a767d2b7-21c5-44d6-b35c-acfc2fefad3d_11_q_01_FIX.png",
@@ -2629,7 +2653,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a767d2b7-21c5-44d6-b35c-acfc2fefad3d_13": {
+  "1139372a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a767d2b7-21c5-44d6-b35c-acfc2fefad3d_13_q_01_FIX.png",
@@ -2637,7 +2661,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "eb783fc1-8559-4650-9621-8d99c6c2ab30_10": {
+  "9148b7cd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/eb783fc1-8559-4650-9621-8d99c6c2ab30_10_q_01_FIX.png",
@@ -2645,7 +2669,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "eb783fc1-8559-4650-9621-8d99c6c2ab30_12": {
+  "2e230cb2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/eb783fc1-8559-4650-9621-8d99c6c2ab30_12_q_01_FIX.png",
@@ -2653,7 +2677,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "305aaf32-2803-4909-83d0-d08ba71a35a7_3": {
+  "42ab4ce5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/305aaf32-2803-4909-83d0-d08ba71a35a7_3_q_01_FIX.png",
@@ -2661,7 +2685,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "305aaf32-2803-4909-83d0-d08ba71a35a7_5": {
+  "cd3d20b7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/305aaf32-2803-4909-83d0-d08ba71a35a7_5_q_01_FIX.png",
@@ -2669,7 +2693,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "305aaf32-2803-4909-83d0-d08ba71a35a7_8": {
+  "703b98fc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/305aaf32-2803-4909-83d0-d08ba71a35a7_8_q_01_FIX.png",
@@ -2677,7 +2701,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "305aaf32-2803-4909-83d0-d08ba71a35a7_9": {
+  "bcca34d9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/305aaf32-2803-4909-83d0-d08ba71a35a7_9_q_01_FIX.png",
@@ -2685,7 +2709,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "305aaf32-2803-4909-83d0-d08ba71a35a7_20": {
+  "c3756d9c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/305aaf32-2803-4909-83d0-d08ba71a35a7_20_q_01_FIX.png",
@@ -2693,7 +2717,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9d845a11-6019-4b88-9309-26d92ced4f70_4": {
+  "fd69654d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d845a11-6019-4b88-9309-26d92ced4f70_4_q_01_FIX.png",
@@ -2701,7 +2725,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9d845a11-6019-4b88-9309-26d92ced4f70_5": {
+  "f172f265": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d845a11-6019-4b88-9309-26d92ced4f70_5_q_01_FIX.png",
@@ -2709,7 +2733,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9d845a11-6019-4b88-9309-26d92ced4f70_7": {
+  "5e6fb6d9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d845a11-6019-4b88-9309-26d92ced4f70_7_q_01_FIX.png",
@@ -2725,7 +2749,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9d845a11-6019-4b88-9309-26d92ced4f70_17": {
+  "c8113951": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9d845a11-6019-4b88-9309-26d92ced4f70_17_q_01_FIX.png",
@@ -2741,7 +2765,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "377b5e71-7ceb-4971-8051-73a97f38ab22_9": {
+  "14bea2e1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/377b5e71-7ceb-4971-8051-73a97f38ab22_9_q_01_FIX.png",
@@ -2749,7 +2773,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "377b5e71-7ceb-4971-8051-73a97f38ab22_10": {
+  "b73f5682": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/377b5e71-7ceb-4971-8051-73a97f38ab22_10_q_01_FIX.png",
@@ -2757,7 +2781,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "377b5e71-7ceb-4971-8051-73a97f38ab22_12": {
+  "a5c73d14": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/377b5e71-7ceb-4971-8051-73a97f38ab22_12_q_01_FIX.png",
@@ -2765,7 +2789,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "438ac81b-36aa-4552-b54a-16d92edcc54f_9": {
+  "5a3ddb55": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/438ac81b-36aa-4552-b54a-16d92edcc54f_9_q_01_FIX.png",
@@ -2773,7 +2797,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_1": {
+  "e0236b5d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_1_q_01_FIX.png",
@@ -2781,7 +2805,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_2": {
+  "5d5816fa": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_2_q_01_FIX.png",
@@ -2789,7 +2813,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_6": {
+  "256af964": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_6_q_01_FIX.png",
@@ -2797,7 +2821,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_7": {
+  "83c0b5d0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_7_q_01_FIX.png",
@@ -2805,7 +2829,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_9": {
+  "dafed602": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_9_q_01_FIX.png",
@@ -2813,7 +2837,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_17": {
+  "76ba92b7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_17_q_01_FIX.png",
@@ -2821,7 +2845,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_18": {
+  "f122a8cd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_18_q_01_FIX.png",
@@ -2837,7 +2861,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "3bf10f0c-6025-4955-91dc-118e340490f0_22": {
+  "d2357c28": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/3bf10f0c-6025-4955-91dc-118e340490f0_22_q_01_FIX.png",
@@ -2845,7 +2869,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_2": {
+  "1939a097": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_2_q_01_FIX.png",
@@ -2853,7 +2877,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_7": {
+  "0d7a5aed": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_7_q_01_FIX.png",
@@ -2861,7 +2885,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_8": {
+  "26baba78": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_8_q_01_FIX.png",
@@ -2869,7 +2893,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_9": {
+  "0c39941d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_9_q_01_FIX.png",
@@ -2877,7 +2901,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_11": {
+  "be47a094": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_11_q_01_FIX.png",
@@ -2885,7 +2909,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_21": {
+  "9561e7cc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_21_q_01_FIX.png",
@@ -2893,7 +2917,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d2870056-c182-4523-a3f3-884eafe68114_22": {
+  "3bae6298": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d2870056-c182-4523-a3f3-884eafe68114_22_q_01_FIX.png",
@@ -2901,7 +2925,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a226962a-9c3e-4022-aee4-7a2796cbe032_11": {
+  "2f56b72d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a226962a-9c3e-4022-aee4-7a2796cbe032_11_q_01_FIX.png",
@@ -2909,7 +2933,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a226962a-9c3e-4022-aee4-7a2796cbe032_13": {
+  "4d9e36e6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a226962a-9c3e-4022-aee4-7a2796cbe032_13_q_01_FIX.png",
@@ -2917,7 +2941,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "dfb92339-d3f9-4a56-afdf-957831c91ca9_11": {
+  "50d37de9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/dfb92339-d3f9-4a56-afdf-957831c91ca9_11_q_01_FIX.png",
@@ -2941,7 +2965,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "08df3b47-9273-4ad6-9301-332804bc6404_7": {
+  "c133584d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/08df3b47-9273-4ad6-9301-332804bc6404_7_q_01_FIX.png",
@@ -2949,7 +2973,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "08df3b47-9273-4ad6-9301-332804bc6404_8": {
+  "7f054a11": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/08df3b47-9273-4ad6-9301-332804bc6404_8_q_01_FIX.png",
@@ -2957,7 +2981,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "08df3b47-9273-4ad6-9301-332804bc6404_15": {
+  "6c4759cf": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/08df3b47-9273-4ad6-9301-332804bc6404_15_q_01_FIX.png",
@@ -2965,7 +2989,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "08df3b47-9273-4ad6-9301-332804bc6404_17": {
+  "048b9b24": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/08df3b47-9273-4ad6-9301-332804bc6404_17_q_01_FIX.png",
@@ -2973,7 +2997,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "301d8663-e49a-4c21-9635-ef2d02614b43_1": {
+  "e5db5dfa": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_1_q_01_FIX.png",
@@ -2981,7 +3005,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "301d8663-e49a-4c21-9635-ef2d02614b43_2": {
+  "db003870": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_2_q_01_FIX.png",
@@ -2989,7 +3013,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "301d8663-e49a-4c21-9635-ef2d02614b43_7": {
+  "19c4ef57": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_7_q_01_FIX.png",
@@ -2997,7 +3021,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "301d8663-e49a-4c21-9635-ef2d02614b43_10": {
+  "da52b5b4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_10_q_01_FIX.png",
@@ -3005,7 +3029,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "301d8663-e49a-4c21-9635-ef2d02614b43_21": {
+  "822080e0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/301d8663-e49a-4c21-9635-ef2d02614b43_21_q_01_FIX.png",
@@ -3013,7 +3037,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12": {
+  "46dd5610": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_12_q_01_FIX.png",
@@ -3021,7 +3045,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13": {
+  "e039eee8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6c4d0022-eb80-4bc1-9ae3-bebb11c77e6f_13_q_01_FIX.png",
@@ -3037,7 +3061,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1": {
+  "bbcd775d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c664e9f-dbfe-430d-92f7-13f0ba1d5978_1_q_01_FIX.png",
@@ -3045,7 +3069,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4": {
+  "849031c6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c664e9f-dbfe-430d-92f7-13f0ba1d5978_4_q_01_FIX.png",
@@ -3053,7 +3077,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7": {
+  "b5f6db45": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c664e9f-dbfe-430d-92f7-13f0ba1d5978_7_q_01_FIX.png",
@@ -3061,7 +3085,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15": {
+  "bf2e270a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c664e9f-dbfe-430d-92f7-13f0ba1d5978_15_q_01_FIX.png",
@@ -3069,7 +3093,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20": {
+  "9b518636": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8c664e9f-dbfe-430d-92f7-13f0ba1d5978_20_q_01_FIX.png",
@@ -3077,7 +3101,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_2": {
+  "e464ff79": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cd2abd24-f96a-43e7-860f-be962ea69e08_2_q_01_FIX.png",
@@ -3085,7 +3109,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_4": {
+  "c03de1f6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cd2abd24-f96a-43e7-860f-be962ea69e08_4_q_01_FIX.png",
@@ -3093,7 +3117,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_6": {
+  "72172e04": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cd2abd24-f96a-43e7-860f-be962ea69e08_6_q_01_FIX.png",
@@ -3101,7 +3125,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_10": {
+  "60fe7aec": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cd2abd24-f96a-43e7-860f-be962ea69e08_10_q_01_FIX.png",
@@ -3109,7 +3133,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cd2abd24-f96a-43e7-860f-be962ea69e08_16": {
+  "341a5c56": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cd2abd24-f96a-43e7-860f-be962ea69e08_16_q_01_FIX.png",
@@ -3117,7 +3141,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_11": {
+  "e1204fde": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_11_q_01_FIX.png",
@@ -3125,7 +3149,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_12": {
+  "a5207249": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e7b4b1e2-7d10-40a5-b5c1-741fcd71803b_12_q_01_FIX.png",
@@ -3133,7 +3157,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "700687e2-e094-4a0d-b5c9-12227f01dbff_9": {
+  "5b61e666": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/700687e2-e094-4a0d-b5c9-12227f01dbff_9_q_01_FIX.png",
@@ -3149,7 +3173,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15": {
+  "207e5a30": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_15_q_01_FIX.png",
@@ -3157,7 +3181,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16": {
+  "a0c26414": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_16_q_01_FIX.png",
@@ -3165,7 +3189,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18": {
+  "2e299e17": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_18_q_01_FIX.png",
@@ -3173,7 +3197,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_2": {
+  "858bfd20": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_2_q_01_FIX.png",
@@ -3181,7 +3205,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_3": {
+  "21ae286f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_3_q_01_FIX.png",
@@ -3189,7 +3213,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_4": {
+  "675c9aa5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_4_q_01_FIX.png",
@@ -3197,7 +3221,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_10": {
+  "ecf9b93f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_10_q_01_FIX.png",
@@ -3205,7 +3229,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e4f2c33b-9282-40a7-810c-d633e5197f95_12": {
+  "eac67e04": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e4f2c33b-9282-40a7-810c-d633e5197f95_12_q_01_FIX.png",
@@ -3213,7 +3237,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cb122a42-4101-484b-b032-9e55d6519a9c_10": {
+  "9932a085": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cb122a42-4101-484b-b032-9e55d6519a9c_10_q_01_FIX.png",
@@ -3221,7 +3245,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cb122a42-4101-484b-b032-9e55d6519a9c_11": {
+  "a8e2c40f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cb122a42-4101-484b-b032-9e55d6519a9c_11_q_01_FIX.png",
@@ -3229,7 +3253,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a4670c6c-a654-4863-946e-7b7c7171fcdb_11": {
+  "9152250d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a4670c6c-a654-4863-946e-7b7c7171fcdb_11_q_01_FIX.png",
@@ -3245,7 +3269,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "bd71c8f3-94e3-411f-929a-013a2ca9a277_18": {
+  "0baf8717": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/bd71c8f3-94e3-411f-929a-013a2ca9a277_18_q_01_FIX.png",
@@ -3253,7 +3277,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "bd71c8f3-94e3-411f-929a-013a2ca9a277_19": {
+  "3189842b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/bd71c8f3-94e3-411f-929a-013a2ca9a277_19_q_01_FIX.png",
@@ -3261,7 +3285,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_2": {
+  "0ea102ed": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0c54aae7-15f2-4e7b-a138-cae820ff684e_2_q_01_FIX.png",
@@ -3269,7 +3293,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_6": {
+  "2d74e1f4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0c54aae7-15f2-4e7b-a138-cae820ff684e_6_q_01_FIX.png",
@@ -3277,7 +3301,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_17": {
+  "ebf23040": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0c54aae7-15f2-4e7b-a138-cae820ff684e_17_q_01_FIX.png",
@@ -3285,7 +3309,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0c54aae7-15f2-4e7b-a138-cae820ff684e_20": {
+  "052d1e1d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0c54aae7-15f2-4e7b-a138-cae820ff684e_20_q_01_FIX.png",
@@ -3293,7 +3317,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_12": {
+  "d0907dd8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/872f5c64-d384-4d98-b5b2-8f9c1b11bbd1_12_q_01_FIX.png",
@@ -3309,7 +3333,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5fe11073-c749-47d4-9e43-2addecd1932f_12": {
+  "0d8ea9d5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5fe11073-c749-47d4-9e43-2addecd1932f_12_q_01_FIX.png",
@@ -3317,7 +3341,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5fe11073-c749-47d4-9e43-2addecd1932f_13": {
+  "605bdca8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5fe11073-c749-47d4-9e43-2addecd1932f_13_q_01_FIX.png",
@@ -3325,7 +3349,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ab8d5974-205a-4c42-a0c7-9177d4a35621_12": {
+  "5a28e666": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ab8d5974-205a-4c42-a0c7-9177d4a35621_12_q_01_FIX.png",
@@ -3333,7 +3357,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ab8d5974-205a-4c42-a0c7-9177d4a35621_14": {
+  "514a3c11": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ab8d5974-205a-4c42-a0c7-9177d4a35621_14_q_01_FIX.png",
@@ -3341,7 +3365,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "23fd9cca-199e-4a62-b065-4e2d5997bf7f_9": {
+  "cc095e01": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/23fd9cca-199e-4a62-b065-4e2d5997bf7f_9_q_01_FIX.png",
@@ -3349,7 +3373,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "c54d1c21-6311-4c45-9089-a236778df0e9_11": {
+  "44d8ae09": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c54d1c21-6311-4c45-9089-a236778df0e9_11_q_01_FIX.png",
@@ -3357,7 +3381,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "c54d1c21-6311-4c45-9089-a236778df0e9_13": {
+  "6652ae73": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/c54d1c21-6311-4c45-9089-a236778df0e9_13_q_01_FIX.png",
@@ -3365,7 +3389,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_13": {
+  "4cce95c2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8fe7a4d4-7c47-49fb-8df2-96e2b1be5c74_13_q_01_FIX.png",
@@ -3373,7 +3397,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "dc78fb50-de84-439b-980f-0629b266ff8a_8": {
+  "94e9b05e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/dc78fb50-de84-439b-980f-0629b266ff8a_8_q_01_FIX.png",
@@ -3381,7 +3405,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "dc78fb50-de84-439b-980f-0629b266ff8a_11": {
+  "51f68c9c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/dc78fb50-de84-439b-980f-0629b266ff8a_11_q_01_FIX.png",
@@ -3389,7 +3413,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d327ac24-d8f4-466e-a351-90aa6dbe87e3_1": {
+  "925d7ca6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d327ac24-d8f4-466e-a351-90aa6dbe87e3_1_q_01_FIX.png",
@@ -3397,7 +3421,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d327ac24-d8f4-466e-a351-90aa6dbe87e3_2": {
+  "dce868ca": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d327ac24-d8f4-466e-a351-90aa6dbe87e3_2_q_01_FIX.png",
@@ -3405,7 +3429,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d327ac24-d8f4-466e-a351-90aa6dbe87e3_9": {
+  "f16fe1fd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d327ac24-d8f4-466e-a351-90aa6dbe87e3_9_q_01_FIX.png",
@@ -3421,7 +3445,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d327ac24-d8f4-466e-a351-90aa6dbe87e3_20": {
+  "3628795d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d327ac24-d8f4-466e-a351-90aa6dbe87e3_20_q_01_FIX.png",
@@ -3429,7 +3453,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6dccbef1-7688-4e9c-bc89-87f46af60ab3_11": {
+  "2ce8f4dd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6dccbef1-7688-4e9c-bc89-87f46af60ab3_11_q_01_FIX.png",
@@ -3437,7 +3461,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6dccbef1-7688-4e9c-bc89-87f46af60ab3_12": {
+  "f7d1257b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6dccbef1-7688-4e9c-bc89-87f46af60ab3_12_q_01_FIX.png",
@@ -3445,7 +3469,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_12": {
+  "015e4052": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6e89fd3b-91b4-4432-a6bd-32d79b8e459a_12_q_01_FIX.png",
@@ -3453,7 +3477,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6e89fd3b-91b4-4432-a6bd-32d79b8e459a_13": {
+  "11a38c0a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6e89fd3b-91b4-4432-a6bd-32d79b8e459a_13_q_01_FIX.png",
@@ -3461,7 +3485,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b497f82e-d544-41ec-9ef5-cc6283f4b89f_12": {
+  "e060c114": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b497f82e-d544-41ec-9ef5-cc6283f4b89f_12_q_01_FIX.png",
@@ -3469,7 +3493,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "390a8264-19b1-4de0-9dc9-09609eadd7ca_7": {
+  "b7e8b6ad": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/390a8264-19b1-4de0-9dc9-09609eadd7ca_7_q_01_FIX.png",
@@ -3477,7 +3501,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "390a8264-19b1-4de0-9dc9-09609eadd7ca_11": {
+  "cbb9914c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/390a8264-19b1-4de0-9dc9-09609eadd7ca_11_q_01_FIX.png",
@@ -3485,7 +3509,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "390a8264-19b1-4de0-9dc9-09609eadd7ca_21": {
+  "81ff56cb": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/390a8264-19b1-4de0-9dc9-09609eadd7ca_21_q_01_FIX.png",
@@ -3493,7 +3517,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f9439b4-1f8b-48cd-b607-fd0776fedebb_12": {
+  "d2d76253": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f9439b4-1f8b-48cd-b607-fd0776fedebb_12_q_01_FIX.png",
@@ -3501,7 +3525,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f9439b4-1f8b-48cd-b607-fd0776fedebb_13": {
+  "cd3a0fab": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f9439b4-1f8b-48cd-b607-fd0776fedebb_13_q_01_FIX.png",
@@ -3509,7 +3533,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d8e8d6b1-ed34-4cab-8e27-631e82e53bba_8": {
+  "723cc513": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d8e8d6b1-ed34-4cab-8e27-631e82e53bba_8_q_01_FIX.png",
@@ -3525,7 +3549,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2": {
+  "6138a2ca": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d65f35a5-96a2-44d6-bd9b-9f0515dc64a7_2_q_01_FIX.png",
@@ -3565,7 +3589,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_7": {
+  "e06a9882": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_7_q_01_FIX.png",
@@ -3573,7 +3597,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_8": {
+  "324e1a9c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_8_q_01_FIX.png",
@@ -3581,7 +3605,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b5883220-eb88-4f6b-8d82-979efee65d2d_11": {
+  "9b1e596e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b5883220-eb88-4f6b-8d82-979efee65d2d_11_q_01_FIX.png",
@@ -3597,7 +3621,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7": {
+  "d6a8b282": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/fb11da56-a8c4-4733-a720-f2cea7a98a1a_7_q_01_FIX.png",
@@ -3621,7 +3645,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_11": {
+  "3e2608bf": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_11_q_01_FIX.png",
@@ -3629,7 +3653,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_12": {
+  "694807df": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b1c9d040-6c5c-4a68-a2b7-472cc0ce4759_12_q_01_FIX.png",
@@ -3637,7 +3661,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0f56dc3e-c66b-4dcd-b354-0e6de1091d26_12": {
+  "3555cf7b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0f56dc3e-c66b-4dcd-b354-0e6de1091d26_12_q_01_FIX.png",
@@ -3645,7 +3669,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_1": {
+  "ab789964": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_1_q_01_FIX.png",
@@ -3653,7 +3677,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_11": {
+  "b24b0780": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_11_q_01_FIX.png",
@@ -3661,7 +3685,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_12": {
+  "e8ae6856": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_12_q_01_FIX.png",
@@ -3669,7 +3693,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_13": {
+  "ccea7925": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_13_q_01_FIX.png",
@@ -3677,7 +3701,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_18": {
+  "95b578d2": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_18_q_01_FIX.png",
@@ -3685,7 +3709,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_21": {
+  "e0d8c68c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_21_q_01_FIX.png",
@@ -3693,7 +3717,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6f7157fc-7e47-4e83-add3-e372915177ec_22": {
+  "d63bbee9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6f7157fc-7e47-4e83-add3-e372915177ec_22_q_01_FIX.png",
@@ -3701,7 +3725,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_6": {
+  "056d7c51": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f3ade8fe-06c3-4b9c-a658-8857621e692f_6_q_01_FIX.png",
@@ -3709,7 +3733,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_10": {
+  "229af6d5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f3ade8fe-06c3-4b9c-a658-8857621e692f_10_q_01_FIX.png",
@@ -3717,7 +3741,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_15": {
+  "d2cfecc5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f3ade8fe-06c3-4b9c-a658-8857621e692f_15_q_01_FIX.png",
@@ -3725,7 +3749,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_17": {
+  "9c92fea5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f3ade8fe-06c3-4b9c-a658-8857621e692f_17_q_01_FIX.png",
@@ -3733,7 +3757,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "f3ade8fe-06c3-4b9c-a658-8857621e692f_18": {
+  "cf8af96f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/f3ade8fe-06c3-4b9c-a658-8857621e692f_18_q_01_FIX.png",
@@ -3741,7 +3765,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_11": {
+  "8155dcb6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b6c7623b-7d8b-46cb-8108-4c4c677bdc88_11_q_01_FIX.png",
@@ -3749,7 +3773,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b6c7623b-7d8b-46cb-8108-4c4c677bdc88_13": {
+  "5f5de796": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b6c7623b-7d8b-46cb-8108-4c4c677bdc88_13_q_01_FIX.png",
@@ -3757,7 +3781,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "597055d1-751c-4b9f-ad18-b9714acb7944_10": {
+  "c7b8e037": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/597055d1-751c-4b9f-ad18-b9714acb7944_10_q_01_FIX.png",
@@ -3765,7 +3789,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d33931f5-618d-4bf0-a69a-be73447d49f7_5": {
+  "ee8f6aac": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d33931f5-618d-4bf0-a69a-be73447d49f7_5_q_01_FIX.png",
@@ -3789,7 +3813,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5001da0-8895-4b72-8d22-da29586dc907_2": {
+  "ef1e883c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5001da0-8895-4b72-8d22-da29586dc907_2_q_01_FIX.png",
@@ -3805,7 +3829,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e5001da0-8895-4b72-8d22-da29586dc907_13": {
+  "098ac1f7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e5001da0-8895-4b72-8d22-da29586dc907_13_q_01_FIX.png",
@@ -3813,7 +3837,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4dc81965-4d7d-41a3-a149-fdc37cafa647_10": {
+  "d037bb03": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4dc81965-4d7d-41a3-a149-fdc37cafa647_10_q_01_FIX.png",
@@ -3821,7 +3845,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cbcab067-83b3-42f4-b90f-cbe6ff582f01_9": {
+  "baefdd6c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cbcab067-83b3-42f4-b90f-cbe6ff582f01_9_q_01_FIX.png",
@@ -3829,7 +3853,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cbcab067-83b3-42f4-b90f-cbe6ff582f01_10": {
+  "94b38f76": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cbcab067-83b3-42f4-b90f-cbe6ff582f01_10_q_01_FIX.png",
@@ -3837,19 +3861,11 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_10": {
+  "610aaf89": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/62bf03b6-2f6e-4c65-9e55-3e67dca0934b_10_q_01_FIX.png",
         "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "62bf03b6-2f6e-4c65-9e55-3e67dca0934b_11": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/62bf03b6-2f6e-4c65-9e55-3e67dca0934b_11_q_01_FIX.png",
-        "alt": "Question 11 Image"
       }
     ]
   },
@@ -3869,7 +3885,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "189b5a24-f2f4-4932-9c4f-36aa310357ed_11": {
+  "a711eec8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/189b5a24-f2f4-4932-9c4f-36aa310357ed_11_q_01_FIX.png",
@@ -3877,7 +3893,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "13cfe765-425a-44bc-b085-25d580925451_9": {
+  "41aba6f0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/13cfe765-425a-44bc-b085-25d580925451_9_q_01_FIX.png",
@@ -3889,7 +3905,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "13cfe765-425a-44bc-b085-25d580925451_10": {
+  "a6a54ecb": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/13cfe765-425a-44bc-b085-25d580925451_10_q_01_FIX.png",
@@ -3901,7 +3917,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "41223f98-85cf-4192-b791-4708f442a85c_13": {
+  "d58654ed": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/41223f98-85cf-4192-b791-4708f442a85c_13_q_01_FIX.png",
@@ -3909,7 +3925,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9ae9a989-b64a-43e1-92a8-37a91043b8ed_9": {
+  "8f25f06c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9ae9a989-b64a-43e1-92a8-37a91043b8ed_9_q_01_FIX.png",
@@ -3917,7 +3933,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4ad359d6-6d88-4d00-bc19-73065ca4d7a3_10": {
+  "6d08d0b8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4ad359d6-6d88-4d00-bc19-73065ca4d7a3_10_q_01_FIX.png",
@@ -3941,7 +3957,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ad300285-6ff9-46a9-97ab-7356c9cd2965_11": {
+  "1d5cba20": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ad300285-6ff9-46a9-97ab-7356c9cd2965_11_q_01_FIX.png",
@@ -3949,7 +3965,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ad300285-6ff9-46a9-97ab-7356c9cd2965_16": {
+  "319a5a90": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ad300285-6ff9-46a9-97ab-7356c9cd2965_16_q_01_FIX.png",
@@ -3957,7 +3973,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ad300285-6ff9-46a9-97ab-7356c9cd2965_20": {
+  "e5ff37f7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ad300285-6ff9-46a9-97ab-7356c9cd2965_20_q_01_FIX.png",
@@ -3989,7 +4005,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6af96c1c-ea52-4b92-a15c-9c8a703443c6_11": {
+  "7cf9b082": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6af96c1c-ea52-4b92-a15c-9c8a703443c6_11_q_01_FIX.png",
@@ -3997,7 +4013,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "6af96c1c-ea52-4b92-a15c-9c8a703443c6_14": {
+  "ae53d55a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/6af96c1c-ea52-4b92-a15c-9c8a703443c6_14_q_01_FIX.png",
@@ -4021,7 +4037,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b79b2afa-5519-4128-ab30-39cfd5c26d43_17": {
+  "f34da0d3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b79b2afa-5519-4128-ab30-39cfd5c26d43_17_q_01_FIX.png",
@@ -4029,7 +4045,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b79b2afa-5519-4128-ab30-39cfd5c26d43_21": {
+  "756e98ba": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b79b2afa-5519-4128-ab30-39cfd5c26d43_21_q_01_FIX.png",
@@ -4037,7 +4053,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_16": {
+  "a7ca7db3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e3fe84c7-8083-48b8-863b-841355113ba0_16_q_01_FIX.png",
@@ -4045,7 +4061,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "e3fe84c7-8083-48b8-863b-841355113ba0_17": {
+  "c297f71d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/e3fe84c7-8083-48b8-863b-841355113ba0_17_q_01_FIX.png",
@@ -4053,7 +4069,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "348385bf-0e3c-48f0-85b8-e84dfdf12196_11": {
+  "f50da375": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/348385bf-0e3c-48f0-85b8-e84dfdf12196_11_q_01_FIX.png",
@@ -4061,7 +4077,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "348385bf-0e3c-48f0-85b8-e84dfdf12196_14": {
+  "fb460230": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/348385bf-0e3c-48f0-85b8-e84dfdf12196_14_q_01_FIX.png",
@@ -4069,7 +4085,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9b403efb-f874-43ce-aa34-29cae02dce8e_11": {
+  "a0fe7c78": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9b403efb-f874-43ce-aa34-29cae02dce8e_11_q_01_FIX.png",
@@ -4085,7 +4101,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ceb2e234-3ab3-4376-b66a-cf8535278d77_4": {
+  "ad027fde": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ceb2e234-3ab3-4376-b66a-cf8535278d77_4_q_01_FIX.png",
@@ -4093,7 +4109,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ceb2e234-3ab3-4376-b66a-cf8535278d77_11": {
+  "fde86b09": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ceb2e234-3ab3-4376-b66a-cf8535278d77_11_q_01_FIX.png",
@@ -4101,7 +4117,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ceb2e234-3ab3-4376-b66a-cf8535278d77_17": {
+  "581f2644": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ceb2e234-3ab3-4376-b66a-cf8535278d77_17_q_01_FIX.png",
@@ -4109,7 +4125,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ceb2e234-3ab3-4376-b66a-cf8535278d77_20": {
+  "5f173ba4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ceb2e234-3ab3-4376-b66a-cf8535278d77_20_q_01_FIX.png",
@@ -4117,7 +4133,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "d7afa874-519b-4f1b-b45f-1c75ea45613b_17": {
+  "ceca679a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/d7afa874-519b-4f1b-b45f-1c75ea45613b_17_q_01_FIX.png",
@@ -4141,7 +4157,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "58a4c59d-fca7-49a5-9b86-e225bd9f39fd_12": {
+  "011a61a0": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/58a4c59d-fca7-49a5-9b86-e225bd9f39fd_12_q_01_FIX.png",
@@ -4149,7 +4165,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5d3f0045-ceeb-4690-b839-fe80816d237c_12": {
+  "9e260e34": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5d3f0045-ceeb-4690-b839-fe80816d237c_12_q_01_FIX.png",
@@ -4157,7 +4173,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "5d3f0045-ceeb-4690-b839-fe80816d237c_14": {
+  "1af0df8c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/5d3f0045-ceeb-4690-b839-fe80816d237c_14_q_01_FIX.png",
@@ -4173,7 +4189,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9": {
+  "d3227cea": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_9_q_01_FIX.png",
@@ -4181,7 +4197,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14": {
+  "f40bda8e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_14_q_01_FIX.png",
@@ -4189,7 +4205,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19": {
+  "e1df0150": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_19_q_01_FIX.png",
@@ -4197,7 +4213,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22": {
+  "58df8518": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0b20f63f-7305-47a1-adb9-fcbd5e74a7be_22_q_01_FIX.png",
@@ -4205,7 +4221,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_12": {
+  "6a6fa645": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_12_q_01_FIX.png",
@@ -4213,7 +4229,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_13": {
+  "0c4b7740": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_13_q_01_FIX.png",
@@ -4221,7 +4237,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_17": {
+  "480ad6d9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_17_q_01_FIX.png",
@@ -4229,7 +4245,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_21": {
+  "05f74731": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_21_q_01_FIX.png",
@@ -4237,7 +4253,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4bcfe385-9d5d-411a-981d-c41179df51f6_22": {
+  "e42fdeea": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4bcfe385-9d5d-411a-981d-c41179df51f6_22_q_01_FIX.png",
@@ -4245,7 +4261,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "76199cca-674f-403e-a01c-927854021f9f_11": {
+  "0c673cc6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/76199cca-674f-403e-a01c-927854021f9f_11_q_01_FIX.png",
@@ -4253,7 +4269,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "76199cca-674f-403e-a01c-927854021f9f_12": {
+  "7b02e1f1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/76199cca-674f-403e-a01c-927854021f9f_12_q_01_FIX.png",
@@ -4261,7 +4277,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "358eadf8-526f-42db-b8ee-227b4cb7d0e5_12": {
+  "102081e6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/358eadf8-526f-42db-b8ee-227b4cb7d0e5_12_q_01_FIX.png",
@@ -4285,7 +4301,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14": {
+  "ce5136f5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_14_q_01_FIX.png",
@@ -4293,7 +4309,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_19": {
+  "01a0f6cb": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_19_q_01_FIX.png",
@@ -4301,7 +4317,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_22": {
+  "d6d49a17": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/91b9d6f8-a7c4-45ed-8f4c-ca774d18592c_22_q_01_FIX.png",
@@ -4309,7 +4325,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b05db4ac-dd48-4b3f-b365-b39330c879e5_4": {
+  "f7395283": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b05db4ac-dd48-4b3f-b365-b39330c879e5_4_q_01_FIX.png",
@@ -4317,7 +4333,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b05db4ac-dd48-4b3f-b365-b39330c879e5_11": {
+  "9ca9da3a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b05db4ac-dd48-4b3f-b365-b39330c879e5_11_q_01_FIX.png",
@@ -4325,7 +4341,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "b05db4ac-dd48-4b3f-b365-b39330c879e5_16": {
+  "1e8c40bf": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/b05db4ac-dd48-4b3f-b365-b39330c879e5_16_q_01_FIX.png",
@@ -4349,7 +4365,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "471ccf49-2c32-4c56-9f7e-1788dbe63527_9": {
+  "22481f76": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/471ccf49-2c32-4c56-9f7e-1788dbe63527_9_q_01_FIX.png",
@@ -4365,7 +4381,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "471ccf49-2c32-4c56-9f7e-1788dbe63527_21": {
+  "ef1230ce": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/471ccf49-2c32-4c56-9f7e-1788dbe63527_21_q_01_FIX.png",
@@ -4373,7 +4389,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_1": {
+  "893f5f5a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8f775d79-fed4-4c35-a5f2-19a8f62db4bb_1_q_01_FIX.png",
@@ -4381,7 +4397,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10": {
+  "63f4dc5d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8f775d79-fed4-4c35-a5f2-19a8f62db4bb_10_q_01_FIX.png",
@@ -4389,7 +4405,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13": {
+  "b599656f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8f775d79-fed4-4c35-a5f2-19a8f62db4bb_13_q_01_FIX.png",
@@ -4397,7 +4413,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8f775d79-fed4-4c35-a5f2-19a8f62db4bb_15": {
+  "9f4f9d65": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8f775d79-fed4-4c35-a5f2-19a8f62db4bb_15_q_01_FIX.png",
@@ -4405,7 +4421,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "749328c4-3c9b-4615-9409-c9853a26da34_13": {
+  "054f64db": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/749328c4-3c9b-4615-9409-c9853a26da34_13_q_01_FIX.png",
@@ -4413,7 +4429,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_8": {
+  "04ec1608": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_8_q_01_FIX.png",
@@ -4421,7 +4437,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_9": {
+  "a67edd8c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_9_q_01_FIX.png",
@@ -4429,7 +4445,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_10": {
+  "aeaa4121": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4dbbfd50-0f4a-4f74-a6ce-180eff8cc514_10_q_01_FIX.png",
@@ -4437,7 +4453,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_1": {
+  "637563ef": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_1_q_01_FIX.png",
@@ -4445,7 +4461,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_3": {
+  "3b0f2c1f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_3_q_01_FIX.png",
@@ -4453,7 +4469,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_4": {
+  "b5a19d5d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_4_q_01_FIX.png",
@@ -4461,7 +4477,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_11": {
+  "376908f1": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_11_q_01_FIX.png",
@@ -4469,7 +4485,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_14": {
+  "05e9af17": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_14_q_01_FIX.png",
@@ -4477,7 +4493,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_15": {
+  "e49ebeed": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_15_q_01_FIX.png",
@@ -4485,7 +4501,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87f513aa-a49e-436a-9a4c-c87bd3101b4c_18": {
+  "bc1e6867": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87f513aa-a49e-436a-9a4c-c87bd3101b4c_18_q_01_FIX.png",
@@ -4509,7 +4525,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1dcc132a-2f7c-417a-91cd-108d7cd9c930_10": {
+  "c6938f5b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1dcc132a-2f7c-417a-91cd-108d7cd9c930_10_q_01_FIX.png",
@@ -4517,7 +4533,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1dcc132a-2f7c-417a-91cd-108d7cd9c930_15": {
+  "7d49b497": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1dcc132a-2f7c-417a-91cd-108d7cd9c930_15_q_01_FIX.png",
@@ -4525,7 +4541,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1dcc132a-2f7c-417a-91cd-108d7cd9c930_16": {
+  "f7beceb8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1dcc132a-2f7c-417a-91cd-108d7cd9c930_16_q_01_FIX.png",
@@ -4533,7 +4549,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1dcc132a-2f7c-417a-91cd-108d7cd9c930_20": {
+  "32afabff": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1dcc132a-2f7c-417a-91cd-108d7cd9c930_20_q_01_FIX.png",
@@ -4541,7 +4557,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "28e9b4c5-9a72-4d33-891e-e8ad04b471bc_13": {
+  "55e7388b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/28e9b4c5-9a72-4d33-891e-e8ad04b471bc_13_q_01_FIX.png",
@@ -4549,7 +4565,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7aff17cd-7423-4e0b-80db-b95ab0c77db9_8": {
+  "47e13155": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7aff17cd-7423-4e0b-80db-b95ab0c77db9_8_q_01_FIX.png",
@@ -4557,15 +4573,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7aff17cd-7423-4e0b-80db-b95ab0c77db9_10": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7aff17cd-7423-4e0b-80db-b95ab0c77db9_10_q_01_FIX.png",
-        "alt": "Question 10 Image"
-      }
-    ]
-  },
-  "7aff17cd-7423-4e0b-80db-b95ab0c77db9_11": {
+  "bdaecf10": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7aff17cd-7423-4e0b-80db-b95ab0c77db9_11_q_01_FIX.png",
@@ -4581,7 +4589,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "70b33953-aa61-407d-a25a-a438792bed03_12": {
+  "740abbb7": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/70b33953-aa61-407d-a25a-a438792bed03_12_q_01_FIX.png",
@@ -4589,7 +4597,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "70b33953-aa61-407d-a25a-a438792bed03_14": {
+  "555aa654": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/70b33953-aa61-407d-a25a-a438792bed03_14_q_01_FIX.png",
@@ -4621,7 +4629,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "659cbbc1-2d38-4d45-8ecb-79f43367862e_9": {
+  "ea6decc9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/659cbbc1-2d38-4d45-8ecb-79f43367862e_9_q_01_FIX.png",
@@ -4629,7 +4637,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "659cbbc1-2d38-4d45-8ecb-79f43367862e_13": {
+  "c90edf2e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/659cbbc1-2d38-4d45-8ecb-79f43367862e_13_q_01_FIX.png",
@@ -4653,7 +4661,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "659cbbc1-2d38-4d45-8ecb-79f43367862e_19": {
+  "6925093a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/659cbbc1-2d38-4d45-8ecb-79f43367862e_19_q_01_FIX.png",
@@ -4661,7 +4669,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "16ea8fd9-55c6-4baf-a4f8-e83365cf3245_12": {
+  "666a42bb": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/16ea8fd9-55c6-4baf-a4f8-e83365cf3245_12_q_01_FIX.png",
@@ -4669,7 +4677,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9419dcb9-3471-4777-be13-1ee14db6d1bc_10": {
+  "479d917d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9419dcb9-3471-4777-be13-1ee14db6d1bc_10_q_01_FIX.png",
@@ -4677,7 +4685,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9419dcb9-3471-4777-be13-1ee14db6d1bc_11": {
+  "f330e9bc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9419dcb9-3471-4777-be13-1ee14db6d1bc_11_q_01_FIX.png",
@@ -4685,7 +4693,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6": {
+  "37002f89": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_6_q_01_FIX.png",
@@ -4693,7 +4701,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15": {
+  "25e6ca2c": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_15_q_01_FIX.png",
@@ -4701,7 +4709,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18": {
+  "5a1ec635": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_18_q_01_FIX.png",
@@ -4709,7 +4717,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21": {
+  "5a887cca": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9c36ebaf-68fc-498e-8bd4-8e53ee9c2bd1_21_q_01_FIX.png",
@@ -4725,7 +4733,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1b1871b9-081a-47fd-9218-97b0bbc4a454_6": {
+  "d5049d40": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1b1871b9-081a-47fd-9218-97b0bbc4a454_6_q_01_FIX.png",
@@ -4733,7 +4741,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1b1871b9-081a-47fd-9218-97b0bbc4a454_9": {
+  "bf6bbadf": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1b1871b9-081a-47fd-9218-97b0bbc4a454_9_q_01_FIX.png",
@@ -4741,7 +4749,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1b1871b9-081a-47fd-9218-97b0bbc4a454_10": {
+  "7dd38624": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1b1871b9-081a-47fd-9218-97b0bbc4a454_10_q_01_FIX.png",
@@ -4749,7 +4757,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cf01151f-6ffa-43f7-96af-aa65491fd154_10": {
+  "246c53b8": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cf01151f-6ffa-43f7-96af-aa65491fd154_10_q_01_FIX.png",
@@ -4757,7 +4765,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "cf01151f-6ffa-43f7-96af-aa65491fd154_11": {
+  "1c101567": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/cf01151f-6ffa-43f7-96af-aa65491fd154_11_q_01_FIX.png",
@@ -4781,7 +4789,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8e440f6e-2b73-40f7-a2ba-12f834f2422e_2": {
+  "fb0dc082": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8e440f6e-2b73-40f7-a2ba-12f834f2422e_2_q_01_FIX.png",
@@ -4789,7 +4797,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8e440f6e-2b73-40f7-a2ba-12f834f2422e_16": {
+  "1886ab1d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8e440f6e-2b73-40f7-a2ba-12f834f2422e_16_q_01_FIX.png",
@@ -4805,7 +4813,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8e440f6e-2b73-40f7-a2ba-12f834f2422e_20": {
+  "ba288519": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8e440f6e-2b73-40f7-a2ba-12f834f2422e_20_q_01_FIX.png",
@@ -4813,7 +4821,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "39729166-8e92-42cc-8ed6-76acdb673a3c_5": {
+  "37d08be5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/39729166-8e92-42cc-8ed6-76acdb673a3c_5_q_01_FIX.png",
@@ -4821,7 +4829,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "39729166-8e92-42cc-8ed6-76acdb673a3c_8": {
+  "3d847e00": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/39729166-8e92-42cc-8ed6-76acdb673a3c_8_q_01_FIX.png",
@@ -4829,7 +4837,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "39729166-8e92-42cc-8ed6-76acdb673a3c_19": {
+  "d7dafd9e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/39729166-8e92-42cc-8ed6-76acdb673a3c_19_q_01_FIX.png",
@@ -4837,7 +4845,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "39729166-8e92-42cc-8ed6-76acdb673a3c_22": {
+  "e68c6b11": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/39729166-8e92-42cc-8ed6-76acdb673a3c_22_q_01_FIX.png",
@@ -4845,7 +4853,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ea42af8e-0812-4d54-a254-797255665265_11": {
+  "b3df079f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ea42af8e-0812-4d54-a254-797255665265_11_q_01_FIX.png",
@@ -4853,7 +4861,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ea42af8e-0812-4d54-a254-797255665265_12": {
+  "58449fa3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ea42af8e-0812-4d54-a254-797255665265_12_q_01_FIX.png",
@@ -4861,7 +4869,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "75f601af-f444-4475-b27a-742fda616d9b_10": {
+  "bbdd7c25": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/75f601af-f444-4475-b27a-742fda616d9b_10_q_01_FIX.png",
@@ -4869,7 +4877,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "75f601af-f444-4475-b27a-742fda616d9b_11": {
+  "da06ce19": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/75f601af-f444-4475-b27a-742fda616d9b_11_q_01_FIX.png",
@@ -4877,7 +4885,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8a23ade7-9b24-42cf-ad70-6f233213e3cd_8": {
+  "c6c8cd5b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8a23ade7-9b24-42cf-ad70-6f233213e3cd_8_q_01_FIX.png",
@@ -4885,7 +4893,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "8a23ade7-9b24-42cf-ad70-6f233213e3cd_9": {
+  "7f7a824d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/8a23ade7-9b24-42cf-ad70-6f233213e3cd_9_q_01_FIX.png",
@@ -4893,7 +4901,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_2": {
+  "b6753918": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1fc2cc40-1a64-44a1-8ebe-eca45e868415_2_q_01_FIX.png",
@@ -4901,7 +4909,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_4": {
+  "1de00210": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1fc2cc40-1a64-44a1-8ebe-eca45e868415_4_q_01_FIX.png",
@@ -4917,7 +4925,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_10": {
+  "7e9eca89": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1fc2cc40-1a64-44a1-8ebe-eca45e868415_10_q_01_FIX.png",
@@ -4925,7 +4933,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1fc2cc40-1a64-44a1-8ebe-eca45e868415_12": {
+  "cbc0021d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1fc2cc40-1a64-44a1-8ebe-eca45e868415_12_q_01_FIX.png",
@@ -4933,7 +4941,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "05468350-9fef-44ab-b9cb-893b50a7cadd_11": {
+  "37079bc5": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/05468350-9fef-44ab-b9cb-893b50a7cadd_11_q_01_FIX.png",
@@ -4941,7 +4949,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "05468350-9fef-44ab-b9cb-893b50a7cadd_16": {
+  "8faac980": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/05468350-9fef-44ab-b9cb-893b50a7cadd_16_q_01_FIX.png",
@@ -4949,7 +4957,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a45480a1-becb-48bd-a285-d5366355b085_12": {
+  "84a3678d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a45480a1-becb-48bd-a285-d5366355b085_12_q_01_FIX.png",
@@ -4957,7 +4965,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "a45480a1-becb-48bd-a285-d5366355b085_14": {
+  "afed176d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/a45480a1-becb-48bd-a285-d5366355b085_14_q_01_FIX.png",
@@ -4965,7 +4973,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_8": {
+  "0712bf27": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/9f4fcdb1-7ee4-4f49-80f7-fe6a0c0b6560_8_q_01_FIX.png",
@@ -4981,7 +4989,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7d110811-1651-49a9-9be6-62e088b71c73_4": {
+  "cc15b7aa": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7d110811-1651-49a9-9be6-62e088b71c73_4_q_01_FIX.png",
@@ -4997,23 +5005,14 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "7d110811-1651-49a9-9be6-62e088b71c73_9": {
-    "questionImages": [
-      {
-        "src": "/images/SAT-Style%20Questions/7d110811-1651-49a9-9be6-62e088b71c73_9_q_01_FIX.png",
-        "alt": "Question 9 Image"
-      }
-    ]
-  },
-  "7d110811-1651-49a9-9be6-62e088b71c73_12": {
+  "908682f3": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/7d110811-1651-49a9-9be6-62e088b71c73_12_q_01_FIX.png",
         "alt": "Question 12 Image"
       }
     ]
-  }
-,
+  },
   "4e1b3643-30b1-41c4-9027-1f149baf52c7_5": {
     "questionImages": [
       {
@@ -5022,7 +5021,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4e1b3643-30b1-41c4-9027-1f149baf52c7_9": {
+  "702c6172": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_9_q_01_FIX.png",
@@ -5030,7 +5029,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22": {
+  "22cbd537": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_22_q_01_FIX.png",
@@ -5046,7 +5045,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13": {
+  "3a15d94e": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_13_q_01_FIX.png",
@@ -5062,7 +5061,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "00907d99-e579-47a8-ac65-658aadef4aa7_12": {
+  "124c8b7a": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_12_q_01_FIX.png",
@@ -5070,7 +5069,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "00907d99-e579-47a8-ac65-658aadef4aa7_22": {
+  "3826eadf": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_22_q_01_FIX.png",
@@ -5078,7 +5077,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "68b576c1-9de8-41d3-9840-538d4edcd113_1": {
+  "92d1bb1f": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_1_q_01_FIX.png",
@@ -5086,7 +5085,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "1b5dbecd-2a08-4015-83f5-8ad883233476_13": {
+  "a89e82bc": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/1b5dbecd-2a08-4015-83f5-8ad883233476_13_q_01_FIX.png",
@@ -5094,7 +5093,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4e1b3643-30b1-41c4-9027-1f149baf52c7_1": {
+  "43053c19": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_1_q_01_FIX.png",
@@ -5102,7 +5101,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4e1b3643-30b1-41c4-9027-1f149baf52c7_4": {
+  "1335fb5b": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_4_q_01_FIX.png",
@@ -5110,7 +5109,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "4e1b3643-30b1-41c4-9027-1f149baf52c7_10": {
+  "b5f95941": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/4e1b3643-30b1-41c4-9027-1f149baf52c7_10_q_01_FIX.png",
@@ -5118,7 +5117,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1": {
+  "06d628f4": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_1_q_01_FIX.png",
@@ -5126,7 +5125,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9": {
+  "e6054eb9": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/0193a00d-3bb2-4ea6-bc80-20a0f5ff89c8_9_q_01_FIX.png",
@@ -5134,7 +5133,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9": {
+  "129c41ac": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/ed6c86a5-6f8d-48ff-9bc9-8a709d34d8e3_9_q_01_FIX.png",
@@ -5142,7 +5141,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "00907d99-e579-47a8-ac65-658aadef4aa7_1": {
+  "3e3eb468": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_1_q_01_FIX.png",
@@ -5150,7 +5149,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "00907d99-e579-47a8-ac65-658aadef4aa7_13": {
+  "bc8b2190": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_13_q_01_FIX.png",
@@ -5158,7 +5157,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "00907d99-e579-47a8-ac65-658aadef4aa7_21": {
+  "c37a12c6": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/00907d99-e579-47a8-ac65-658aadef4aa7_21_q_01_FIX.png",
@@ -5166,7 +5165,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "68b576c1-9de8-41d3-9840-538d4edcd113_2": {
+  "e81e9a54": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/68b576c1-9de8-41d3-9840-538d4edcd113_2_q_01_FIX.png",
@@ -5174,7 +5173,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87a75825-ef1b-4b13-8fde-816390546062_9": {
+  "4ea7592d": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87a75825-ef1b-4b13-8fde-816390546062_9_q_01_FIX.png",
@@ -5182,7 +5181,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "87a75825-ef1b-4b13-8fde-816390546062_14": {
+  "91508bdd": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/87a75825-ef1b-4b13-8fde-816390546062_14_q_01_FIX.png",
@@ -5190,7 +5189,7 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
       }
     ]
   },
-  "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10": {
+  "2934ff30": {
     "questionImages": [
       {
         "src": "/images/SAT-Style%20Questions/816fedc1-1434-4eb8-aa3b-6715a1e738ae_10_q_01_FIX.png",
@@ -5199,3 +5198,4 @@ export const questionImageMap: Record<string, QuestionImageMapEntry> = {
     ]
   }
 };
+

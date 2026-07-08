@@ -1,0 +1,15 @@
+{
+  "questionId": "10d68837",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the equation",
+      "content": "Use the difference of squares.\n$$x^2-64=(x-8)(x+8)$$"
+    },
+    {
+      "title": "Count the real solutions",
+      "content": "Set each factor equal to $0$.\n$$x-8=0\\quad \\text{or}\\quad x+8=0$$\nThe equation has two distinct real solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

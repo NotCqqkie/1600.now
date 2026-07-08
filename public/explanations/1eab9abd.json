@@ -1,0 +1,15 @@
+{
+  "questionId": "1eab9abd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a shared feature",
+      "content": "The student wants to emphasize a similarity between the spoon and the purse. The best sentence must mention both artifacts and state what they have in common."
+    },
+    {
+      "title": "Avoid one-sided or differing facts",
+      "content": "Choice A mentions only the spoon. Choice C and Choice D emphasize date differences instead of a similarity. The sentence that says both artifacts are featured in Hina Hanta and are relevant to Choctaw history meets the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

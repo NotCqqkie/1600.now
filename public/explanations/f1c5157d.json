@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the participial phrase and following structure",
-      "content": "The sentence opens with a past participial phrase: “Established in 1936 by African American novelist Richard Wright.” The blank is followed by the independent clause “it would become a vital part of the creative movement.” The blank should contain an independent clause with an appropriate subject for the participle to modify."
+      "title": "Match established to its noun",
+      "content": "The opening phrase Established in 1936 by Richard Wright must modify the thing established. That thing is the South Side Writers Group, not Chicago, writers generally, or a forum alone."
     },
     {
-      "title": "Match the participle to the correct subject",
-      "content": "The participle “Established” must be followed by the noun it modifies—the South Side Writers Group.<br/><br/>The wording <strong>“the South Side Writers Group”</strong> correctly names what was established.<br/><br/>The other choices use different subjects (Chicago writers, writers, and Chicago), none of which match what the participle actually describes.<br/><br/>This matches the correct answer — <strong>A</strong> is correct."
+      "title": "Keep the second clause linked",
+      "content": "B, C, and D start with subjects the modifier cannot describe. The semicolon then lets it refer back to the South Side Writers Group becoming part of the Chicago Black Renaissance. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "3dd80310",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the reliability clue",
+      "content": "The sentence contrasts small sample sizes with more than 8,000 ratings. The blank must describe a number large enough to make the average rating trustworthy."
+    },
+    {
+      "title": "Choose the sufficient word",
+      "content": "Choice A means more than needed, which the passage does not claim. Choice C describes correctness, not quantity. Choice D means not enough, the opposite of the reliability claim. The needed word means sufficient. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bf0e4735",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match units to the term",
+      "content": "The equation $18h+15c=780$ represents total dollars earned. Since $h$ is hours at the regular job, $18h$ is dollars earned there."
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "A coefficient multiplying hours to produce dollars is a dollars-per-hour rate. Therefore, $18$ is the amount earned for each hour at the regular job. The answer is <strong>A</strong>."
+    }
+  ]
+}

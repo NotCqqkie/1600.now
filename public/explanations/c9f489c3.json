@@ -1,0 +1,15 @@
+{
+  "questionId": "c9f489c3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the transfer bottleneck",
+      "content": "The passage identifies inefficient redox reactions as the obstacle to moving electrons from bacteria to the electrode. Since silver is highly conductive and increased power density, the hypothesis should explain how silver improves electron transfer."
+    },
+    {
+      "title": "Bypass redox reactions",
+      "content": "Choice A focuses on electron production rather than transfer. Choice B credits biofilm density instead of silver. Choice C still depends on silver catalyzing redox reactions, which does not fit the conductivity clue. The remaining choice says silver lets electrons transfer directly around the inefficient redox pathway. The answer is <strong>D</strong>."
+    }
+  ]
+}

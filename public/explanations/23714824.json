@@ -1,0 +1,15 @@
+{
+  "questionId": "23714824",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the contrast",
+      "content": "The first sentence says the two volcanoes may look similar from far away. The second sentence says experts can tell they are different types by how each was formed. The transition must signal appearance versus reality."
+    },
+    {
+      "title": "Reject noncontrast links",
+      "content": "A signals result, B signals example, and D signals addition. None captures the shift from surface similarity to expert distinction. A contrast transition fits that opposition. The answer is <strong>C</strong>."
+    }
+  ]
+}

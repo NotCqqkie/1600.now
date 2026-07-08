@@ -1,0 +1,15 @@
+{
+  "questionId": "567adcfa",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use plain plurals",
+      "content": "The phrase “the list of US ___ to have been led by a woman” refers to multiple places. Nothing in the sentence shows possession, so the nouns should be plural without apostrophes."
+    },
+    {
+      "title": "Remove possessive forms",
+      "content": "Choice A makes “territory's” possessive. Choice B makes both nouns possessive, and Choice D makes “state's” possessive. The remaining option uses plain plural nouns for a list of places. The answer is <strong>C</strong>."
+    }
+  ]
+}

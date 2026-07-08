@@ -1,0 +1,16 @@
+{
+  "questionId": "73351333",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the tangent ratio",
+      "content": "From the angle marked $x^\\circ$, the opposite side is $40$ and the adjacent side is $39$.",
+      "formula": "$$\\tan(\\text{angle}) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    },
+    {
+      "title": "Compare the fractions",
+      "content": "Use the tangent ratio and compare it with the given form.\n$$\n\\tan x^\\circ=\\frac{40}{39}=\\frac{c}{39}\n$$\nTherefore $c=40$. The answer is <strong>B</strong>."
+    }
+  ]
+}

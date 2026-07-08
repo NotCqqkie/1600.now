@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical gap the blank must fill",
-      "content": "The passage establishes two facts: (1) handshakes create trust between people, and (2) the team wants to improve human-robot interactions. The blank must complete the sentence &quot;The researchers want the robot's handshake to feel realistic because ______&quot; &mdash; the answer must connect a realistic handshake to improved human-robot interactions via that trust-building function."
+      "title": "Connect realism to comfort",
+      "content": "The text says handshakes can create trust and that the team wants to improve human-robot interactions. A realistic robot handshake would support that goal if it makes people feel more comfortable or trusting when interacting with the robot."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; lifelike handshakes may make people more comfortable interacting with robots.</strong>: Directly connects the realism of the handshake to improved human-robot interaction through the trust/comfort mechanism stated in the passage. &#10003;</li><li><strong>Choice B &mdash; it's easier to program a robot to perform handshakes than it is to program a robot to perform some other types of greetings.</strong>: The passage never compares handshakes to other greetings or discusses programming difficulty. &#10007;</li><li><strong>Choice C &mdash; people are less likely to interact with robots that don't look like humans.</strong>: The passage is about handshake feel, not robot appearance; visual likeness is never discussed. &#10007;</li><li><strong>Choice D &mdash; the robot in the researchers' study may have uses other than interacting with humans.</strong>: The passage describes no other use for the robot; this introduces an unsupported claim. &#10007;</li></ul>That matches <strong>Choice A &mdash; lifelike handshakes may make people more comfortable interacting with robots.</strong>."
+      "title": "Reject unsupported ideas",
+      "content": "Choice B compares programming handshakes with other greetings, which the text never discusses. Choice C shifts from handshake feel to robot appearance. Choice D introduces possible nonhuman uses for the robot, outside the stated purpose of improving human-robot interaction. The answer is <strong>A</strong>."
     }
   ]
 }

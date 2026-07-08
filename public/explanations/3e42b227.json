@@ -1,0 +1,15 @@
+{
+  "questionId": "3e42b227",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area relationship",
+      "content": "For a rectangle, area equals width multiplied by length. The expression $w(w+64)$ already shows the area as a product. Since the width is $w$, the other factor must represent the length."
+    },
+    {
+      "title": "Divide by the width",
+      "content": "Let $L$ be the length. Then\n$$wL=w(w+64)$$\n$$L=\\frac{w(w+64)}{w}=w+64$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "f3ff5263",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius",
+      "content": "Use the circumference formula for the circular base:<br/>$$10\\pi=2\\pi r$$<br/>$$r=5$$"
+    },
+    {
+      "title": "Use the cylinder volume",
+      "content": "The base area is $\\pi r^2$, and multiplying by the height gives the cylinder volume. Use $r=5$ and height $13$:<br/>$$V=\\pi(5)^2(13)$$<br/>$$V=325\\pi$$<br/>The answer is <strong>C</strong>.",
+      "formula": "$$V = \\pi r^2 h$$"
+    }
+  ]
+}

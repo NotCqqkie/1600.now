@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the scale factor",
+      "content": "The triangles are similar, and corresponding side $MN$ is $2$ times side $JK$. Therefore the linear scale factor from triangle JKL to triangle MNP is $2$."
     },
     {
-      "title": "Use the scale shortcut: perimeter scales by linear factor k",
-      "content": "Triangle $JKL$ and triangle $MNP$ are similar with $MN = 2 \\cdot JK$, so the linear scale factor is $k = 2$.<br/>Perimeters scale by the same factor:<br/>$$2 \\times 24 = 48$$<br/>That matches <strong>Choice B &mdash; 48</strong>."
+      "title": "Scale the perimeter",
+      "content": "Perimeters of similar figures scale by the same linear factor.\n\n$$24(2)=48$$\n\nThe answer is <strong>B</strong>."
     }
   ]
 }

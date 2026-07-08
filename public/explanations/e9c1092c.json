@@ -1,0 +1,15 @@
+{
+  "questionId": "e9c1092c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the appositive",
+      "content": "The phrase A politician from South Carolina describes Robert B. Elliott. After that opening phrase, the sentence should immediately name Elliott so the modifier attaches to the person it describes."
+    },
+    {
+      "title": "Reject misplaced openings",
+      "content": "B begins with a verb and leaves the modifier without a clear noun. C makes constituents the noun being described as the politician, and D begins with the prepositional phrase in 1870 instead of the person being renamed. The answer is <strong>A</strong>."
+    }
+  ]
+}

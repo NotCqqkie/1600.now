@@ -1,0 +1,15 @@
+{
+  "questionId": "1f85fb79",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place Algeria in the argument",
+      "content": "The Algeria information gives an example of a major decline in solid-fuel use between 2000 and 2019. The text says such shifts are often explained by the energy ladder, a model that links fuel choice mainly to income. The Ghana study then complicates that model by showing fuel use was flexible and shaped by several factors."
+    },
+    {
+      "title": "Match the critique of the model",
+      "content": "Choice A says the Algeria trend is poorly suited for evaluating the model, but the text uses it as the kind of trend the model tries to explain. Choice B invents two equally compelling explanations. Choice C claims Algeria and Ghana share a similar cause, which the passage does not say. The best description is that Algeria illustrates a phenomenon often explained by the energy ladder, while the later evidence suggests that explanation is inadequate. The answer is <strong>D</strong>."
+    }
+  ]
+}

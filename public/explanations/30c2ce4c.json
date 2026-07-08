@@ -1,0 +1,15 @@
+{
+  "questionId": "30c2ce4c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the required contrast",
+      "content": "The student wants to emphasize a difference between quintidi and decadi. The relevant notes say quintidi were named for animals, while decadi were named for agricultural tools."
+    },
+    {
+      "title": "Reject one-sided choices",
+      "content": "A discusses only a quintidi named after an animal. C says the two day names existed but does not explain how they differed. D discusses only decadi and agricultural tools. The answer must contrast both categories. The answer is <strong>B</strong>."
+    }
+  ]
+}

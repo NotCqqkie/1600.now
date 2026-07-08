@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the time relationship",
-      "content": "Sentence 1: in 2014 Herrera won his first storytelling competition. Sentence 2: in 2017 he created a show as a platform for others. The two sentences mark two distinct points in time, three years apart."
+      "title": "Track the timeline",
+      "content": "The first sentence describes Herrera winning a storytelling competition in 2014. The second describes him creating a show in 2017. The transition must show that the second event happened after the first."
     },
     {
-      "title": "Decide what the transition must do",
-      "content": "The blank needs to signal that the second event happened after the first &mdash; a chronological transition, not a contrast, example, or restatement."
+      "title": "Reject nonchronological links",
+      "content": "Choice A signals replacement, but the 2017 event does not replace the 2014 one. Choice B signals an example. Choice D signals restatement, but the two sentences describe different events."
     },
     {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Instead,&rsquo;</strong>: signals one thing replacing another, but creating the show didn't replace winning the competition. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For example,&rsquo;</strong>: signals an illustration of a prior claim, but the 2017 show is a later event, not an example of the 2014 win. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Later,&rsquo;</strong>: signals that the next event happened after the first, matching 2014 then 2017. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In other words,&rsquo;</strong>: signals a restatement, but the two sentences describe different events, not the same idea reworded. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Choose the time transition",
+      "content": "Later correctly marks the 2017 show as an event that occurred after Herrera's 2014 competition win. The answer is <strong>C</strong>."
     }
   ]
 }

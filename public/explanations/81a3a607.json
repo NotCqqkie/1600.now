@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the context after the colon",
-      "content": "The passage lays out three interlocking roles &mdash; maize supports the bean vines, squash shades out weeds, and beans put nitrogen back into the soil. The blank describes the &quot;web of relations&quot; these roles create."
+      "title": "Read the plant relationships",
+      "content": "The colon introduces several connected roles: maize supports bean vines, squash discourages weeds, and beans enrich the soil for the other plants. The blank must describe a web with many interrelated parts."
     },
     {
-      "title": "Predict the word",
-      "content": "A web in which multiple parts each support the others is best described as complex and densely interconnected. The blank needs a word meaning &quot;having many interrelated parts.&quot;"
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; indecipherable</strong>: means impossible to interpret, but the passage clearly lays the system out, so it is not indecipherable. &#10007;</li><li><strong>Choice B &mdash; ornamental</strong>: means decorative, but the roles described are functional, not aesthetic. &#10007;</li><li><strong>Choice C &mdash; obscure</strong>: means hidden or little known, which clashes with a system being explicitly described and named. &#10007;</li><li><strong>Choice D &mdash; intricate</strong>: means having many interconnected parts, matching three plants whose roles each rely on the others. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Choose the connected meaning",
+      "content": "A means impossible to understand, but the relationship is explained clearly. B means decorative, while the roles are practical. C means hidden or poorly known, which does not fit the named system. The word meaning complexly interconnected fits the described web. The answer is <strong>D</strong>."
     }
   ]
 }

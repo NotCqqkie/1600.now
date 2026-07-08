@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the intercept and slope as two points",
-      "content": "The $y$-intercept is $(0,-4)$. The slope is $3$, so moving right $1$ raises the output by $3$, giving a second point $(1,-1)$."
+      "title": "Use slope intercept form",
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ can be written as\n$$\nf(x)=mx+b\n$$"
     },
     {
-      "title": "Find the line from the data",
-      "content": "Slope-intercept form is $f(x)=mx+b$. The slope is $m=3$, and the $y$-intercept is $b=-4$, so $$f(x)=3x-4.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The correct answer is the only equation with slope $3$ and $y$-intercept $-4$. Therefore <strong>D</strong> is correct."
+      "title": "Substitute the given values",
+      "content": "The slope is $3$, and the $y$-intercept is $(0,-4)$, so $b=-4$:\n$$\nf(x)=3x-4\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

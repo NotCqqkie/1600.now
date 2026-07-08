@@ -1,0 +1,15 @@
+{
+  "questionId": "3df0a605",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the accuracy",
+      "content": "The third sentence explains why Harrington's newer calculation was more accurate: the older calculation used only cardboard and string."
+    },
+    {
+      "title": "Choose the natural aside",
+      "content": "B signals a final outcome, C signals similarity, and D signals purpose. The transition should introduce an obvious explanation for the accuracy difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

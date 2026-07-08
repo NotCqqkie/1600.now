@@ -1,0 +1,15 @@
+{
+  "questionId": "e65db7d2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the positive evidence",
+      "content": "The sentence says something about the book has been very positive, and the next sentence explains that reviewers praised it and that it won an award. The blank must describe the book's favorable reception."
+    },
+    {
+      "title": "Choose the reception phrase",
+      "content": "B and C point to negative or confused reactions, which conflict with praise and an award. D refers to what inspired the book, not how readers or reviewers received it. The remaining phrase naturally means the reception or reaction to the book. The answer is <strong>A</strong>."
+    }
+  ]
+}

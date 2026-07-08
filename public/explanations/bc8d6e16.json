@@ -1,0 +1,15 @@
+{
+  "questionId": "bc8d6e16",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the border time",
+      "content": "At the moment the train crosses the city border, $x=0$ hours. Substitute $0$ into the function.<br/>$$f(0)=60(0)+18=18$$<br/>So the train is $18$ kilometers from the station at the city border."
+    },
+    {
+      "title": "Interpret the constant",
+      "content": "Because distance is measured from the station, the constant $18$ represents the distance between the station and the city border, not the train's speed after crossing the border. The answer is <strong>A</strong>."
+    }
+  ]
+}

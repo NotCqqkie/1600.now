@@ -1,0 +1,19 @@
+{
+  "questionId": "30a28b8b",
+  "correctAnswer": "448",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a one unit multiplier",
+      "content": "Let $k=b^{1/n}$. Then $f(x)=a\\cdot k^x$, so $k$ is the multiplier for each increase of $1$ in $x$."
+    },
+    {
+      "title": "Find the multiplier",
+      "content": "From $x=3$ to $x=5$, the input increases by $2$:\n$$\n\\frac{f(5)}{f(3)}=\\frac{112}{7}=16\n$$\nSo $k^2=16$, and because $k$ is positive, $k=4$."
+    },
+    {
+      "title": "Move one more input unit",
+      "content": "From $x=5$ to $x=6$, multiply once by $4$:\n$$\nf(6)=112\\cdot 4=448\n$$\nThe answer is <strong>448</strong>."
+    }
+  ]
+}

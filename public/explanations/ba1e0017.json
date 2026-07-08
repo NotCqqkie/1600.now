@@ -1,0 +1,15 @@
+{
+  "questionId": "ba1e0017",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence already has its main verb: \"changed.\" The blank must describe the codes that later changed, not add another finite verb before the main verb."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "A, B, and D add finite verb forms, so the sentence would have two main verbs without a legal boundary. A past participle can modify \"codes\" in \"codes assigned by the committee\" while leaving \"changed\" as the only main verb. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e20dd959",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the one-solution condition",
+      "content": "A quadratic has exactly one real solution when its discriminant equals $0$. For $6x^2+42x+c=0$, use $a=6$ and $b=42$."
+    },
+    {
+      "title": "Solve for c",
+      "content": "Set $b^2-4ac$ equal to $0$:\n$$\n42^2-4(6)c=0\n$$\n$$\n1{,}764-24c=0\n$$\n$$\nc=\\frac{1{,}764}{24}=\\frac{147}{2}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

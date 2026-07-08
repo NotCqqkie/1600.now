@@ -1,0 +1,15 @@
+{
+  "questionId": "52cbe7e6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the two unit factor",
+      "content": "Use the equivalent form $f(x)=36(81)^x$. When the input increases by $2$, the exponent increases by $2$, so the function value is multiplied by\n$$\n81^2=6{,}561\n$$\nThus $c=6{,}561$."
+    },
+    {
+      "title": "Use the displayed base",
+      "content": "The question asks which form displays the value of $c$ as the base or coefficient. The form with base $6{,}561$ makes that two-unit growth factor visible:\n$$\nf(x)=36(6{,}561)^{\\frac{x}{2}}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

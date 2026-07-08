@@ -1,0 +1,15 @@
+{
+  "questionId": "c8b6afb7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the week count",
+      "content": "Use $w=12$ in the savings equation.\n$$\nd=31(12)+90\n$$"
+    },
+    {
+      "title": "Evaluate total savings",
+      "content": "Compute the expression.\n$$\n31(12)+90=372+90=462\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

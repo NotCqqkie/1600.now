@@ -1,0 +1,15 @@
+{
+  "questionId": "854639f3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "The expression subtracts the entire second parenthesis, so the subtraction changes the sign of each term inside that parenthesis. The term $5c^3$ becomes $-5c^3$, and the term $-4$ becomes $+4$:\n$$\n(8c+7)-(5c^3-4)=8c+7-5c^3+4\n$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Now combine only the constant terms. The terms $8c$ and $-5c^3$ are not like terms because they have different powers of $c$:\n$$\n7+4=11\n$$\nSo the simplified expression is:\n$$\n-5c^3+8c+11\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

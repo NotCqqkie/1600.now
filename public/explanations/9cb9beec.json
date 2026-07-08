@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the one-solution condition",
-      "content": "The line $y=-2.5$ and the parabola $y=x^2+10x+a$ have exactly one distinct real solution only when the line touches the parabola at its vertex."
+      "title": "Use the one-intersection condition",
+      "content": "A horizontal line and a parabola have exactly one distinct real solution when the line touches the parabola at its vertex."
     },
     {
       "title": "Find the vertex height",
-      "content": "Complete the square: $x^2+10x+a=(x+5)^2+a-25$. The vertex has $y$-coordinate $a-25$."
+      "content": "Complete the square for the parabola:<br/>$$x^2+10x+a=(x+5)^2+a-25$$<br/>The vertex has $y$-coordinate $a-25$."
     },
     {
       "title": "Set the vertex on the line",
-      "content": "For one intersection, $a-25=-2.5$. Therefore $a=22.5$."
+      "content": "For one intersection, the vertex must lie on $y=-2.5$:<br/>$$a-25=-2.5$$<br/>$$a=22.5$$<br/>The answer is <strong>22.5</strong>."
     }
   ]
 }

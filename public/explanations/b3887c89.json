@@ -1,0 +1,19 @@
+{
+  "questionId": "b3887c89",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect prey type to energy",
+      "content": "The passage contrasts two diets: non-tool-using otters rely on abundant, energy-poor snails, while tool-using otters can access high-quality mussels and clams. The inference should follow from that energy difference."
+    },
+    {
+      "title": "Reject unsupported otter claims",
+      "content": "<ul><li><strong>Choice A</strong>: The text says tool use lets otters process mussels and clams without tooth damage, so this reverses the tooth-damage evidence.</li><li><strong>Choice B</strong>: Tool-using otters gain fitness benefits, so they are not presented as less healthy.</li><li><strong>Choice D</strong>: The passage does not say otters can eat mussels and clams without tools more efficiently.</li></ul>"
+    },
+    {
+      "title": "Choose the energy inference",
+      "content": "If snails provide less energy than mussels and clams, otters limited to snails would need more prey to meet the same energy needs as tool-using otters. The answer is <strong>C</strong>."
+    }
+  ]
+}

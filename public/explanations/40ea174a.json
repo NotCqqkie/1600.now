@@ -1,0 +1,19 @@
+{
+  "questionId": "40ea174a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cancel the common factor",
+      "content": "Every term has a factor of $58$, so divide the entire equation by $58$.\n$$\n\\frac{1}{p}=\\frac{1}{q}-\\frac{1}{r}-\\frac{1}{s}\n$$"
+    },
+    {
+      "title": "Isolate the reciprocal",
+      "content": "Add \n$$\n\\frac{1}{r}\n$$ and \n$$\n\\frac{1}{s}\n$$ to both sides.\n$$\n\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}\n$$"
+    },
+    {
+      "title": "Combine and reciprocate",
+      "content": "Use common denominator $prs$, then take the reciprocal.\n$$\n\\frac{1}{q}=\\frac{rs+ps+pr}{prs}\n$$\n$$\nq=\\frac{prs}{pr+ps+rs}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

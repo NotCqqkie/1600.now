@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the underlined portion says and where it sits",
-      "content": "The underlined portion states what researchers <em>previously</em> believed: Denisovans lived only at high altitudes in cold climates in Russia and China. It appears just before the word <strong>but</strong>, which signals contrast. What follows the &ldquo;but&rdquo; is the new discovery &mdash; a molar found in Laos suggesting Denisovans also lived at low altitudes in warm climates. The underlined portion is therefore setting up a baseline so the discovery&rsquo;s importance can register."
+      "title": "See the old belief",
+      "content": "The underlined portion gives the previous understanding: Denisovans were thought to live only in high-altitude, cold-climate regions of Russia and China. The word \"but\" then introduces the Laos tooth as a broader-environment finding involving low altitudes and warm climates."
     },
     {
-      "title": "Match the function to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; It dismisses as untrue the research presented in the previous sentence.</strong>: The underlined portion describes prior beliefs; it doesn&rsquo;t dismiss any research as false. &#10007;</li><li><strong>Choice B &mdash; It defines a term used in the description that follows in the rest of the sentence.</strong>: No term is being defined here. &#10007;</li><li><strong>Choice C &mdash; It emphasizes the main goal of the research introduced in the previous sentence.</strong>: The text states what the research discovered, not what its goal was. &#10007;</li><li><strong>Choice D &mdash; It provides context that clarifies the significance of the information that follows in the rest of the sentence.</strong>: By showing how limited the prior understanding was (high-altitude, cold-climate only), the underlined portion makes the Laos discovery &mdash; low-altitude, warm-climate &mdash; significantly more striking. &#10003;</li></ul>That matches <strong>Choice D &mdash; It provides context that clarifies the significance of the information that follows in the rest of the sentence.</strong>."
+      "title": "Reject false functions",
+      "content": "A says the sentence dismisses the earlier research, but it supplies background. B says it defines a term, though no definition appears. C says it gives the research goal, but it gives prior context instead. The answer is <strong>D</strong>."
     }
   ]
 }

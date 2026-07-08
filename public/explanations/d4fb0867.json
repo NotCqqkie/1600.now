@@ -1,0 +1,15 @@
+{
+  "questionId": "d4fb0867",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Treat Finland as exception",
+      "content": "Many North American studies found dissolved organic carbon and mercury rising together, and studies in China and other places outside North America found similar positive associations. That pattern suggests the Finnish study may be an exception rather than evidence that the association is only North American."
+    },
+    {
+      "title": "Reject unsupported patterns",
+      "content": "Choice A shifts to absolute levels in Finland, not the correlation. Choice B would make the Finnish waters more like North American waters, which would not explain the missing association. Choice D contradicts the non-North American studies that found positive associations. The answer is <strong>C</strong>."
+    }
+  ]
+}

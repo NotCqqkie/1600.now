@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the triangle sum",
+      "content": "The triangle has angles $90^{\\circ}$, $13^{\\circ}$, and $a^{\\circ}$. The three angle measures in any triangle must add to $180^{\\circ}$, so write one equation.\n$$\n90+13+a=180\n$$"
     },
     {
-      "title": "Apply the triangle angle-sum theorem",
-      "content": "The triangle has a right angle ($90^{\\circ}$), an angle of $13^{\\circ}$, and unknown angle $a$. Apply the triangle angle-sum theorem:<br/>$$90^{\\circ} + 13^{\\circ} + a = 180^{\\circ}$$"
-    },
-    {
-      "title": "Solve for the missing angle",
-      "content": "Solve for $a$:<br/>$$a = 180^{\\circ} - 90^{\\circ} - 13^{\\circ} = 77^{\\circ}$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Find the missing angle",
+      "content": "Solve for $a$.\n$$\na=180-90-13=77\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

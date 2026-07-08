@@ -1,0 +1,19 @@
+{
+  "questionId": "ee924d19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the monthly multiplier",
+      "content": "A $3\\%$ increase means each month has $100\\%+3\\%=103\\%$ of the previous month's total. As a decimal, that multiplier is $1.03$."
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "The initial enrollment is $250$, and the multiplier is applied once for each month after March 2020. After $m$ months, the model is\n$$\nc=250(1.03)^m\n$$"
+    },
+    {
+      "title": "Match the model",
+      "content": "Choice A uses only the percent increase as the base, Choice C uses a $30\\%$ increase, and Choice D triples the enrollment each month. The model with starting value $250$ and multiplier $1.03$ is Choice B. The answer is <strong>B</strong>."
+    }
+  ]
+}

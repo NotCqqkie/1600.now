@@ -1,0 +1,15 @@
+{
+  "questionId": "bafa1311",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the multiplier",
+      "content": "Multiply $17$ by each term inside the parentheses. The first term becomes $17x^2$, and the constant term comes from multiplying $17$ by $-6$:<br/>$$17(x^2-6)=17x^2-17\\cdot 6$$"
+    },
+    {
+      "title": "Simplify the constant term",
+      "content": "Compute the product:<br/>$$17\\cdot 6=102$$So the equivalent expression is<br/>$$17x^2-102$$This expression has the same variable term as the original expression and the simplified constant term. The subtraction inside the parentheses becomes subtraction of $102$ after distribution. The answer is <strong>D</strong>."
+    }
+  ]
+}

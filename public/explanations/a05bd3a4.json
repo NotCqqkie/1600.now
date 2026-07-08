@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $(x + \\sqrt{5})(x - \\sqrt{5})$."
+      "title": "Rewrite as squares",
+      "content": "The expression is a difference of squares because \n$$\n5=(\\sqrt{5})^2\n$$\n$$\nx^2-5=x^2-(\\sqrt{5})^2\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Apply the pattern",
+      "content": "Use $a^2-b^2=(a+b)(a-b)$ with $a=x$ and \n$$\nb=\\sqrt{5}\n$$\n$$\nx^2-(\\sqrt{5})^2=(x+\\sqrt{5})(x-\\sqrt{5})\n$$"
     },
     {
-      "title": "Recognize a difference of squares",
-      "content": "Rewrite $5$ as $(\\sqrt{5})^2$:<br/>$$x^2-5=x^2-(\\sqrt{5})^2$$"
-    },
-    {
-      "title": "Factor using the pattern",
-      "content": "Use $a^2-b^2=(a+b)(a-b)$:<br/>$$x^2-(\\sqrt{5})^2=(x+\\sqrt{5})(x-\\sqrt{5})$$"
-    },
-    {
-      "title": "Check the common traps",
-      "content": "The squared-binomial choices are not equivalent because $$(x+\\sqrt{5})^2=x^2+2\\sqrt{5}x+5$$ and $$(x-\\sqrt{5})^2=x^2-2\\sqrt{5}x+5.$$ Both include an extra $x$ term, while $(x+\\sqrt{5})(x-\\sqrt{5})=x^2-5$.",
+      "title": "Calculator shortcut",
+      "content": "Graph the original expression and the choices; the equivalent expression has the same graph for every $x$. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=x^2-5",
         "y=(x+\\sqrt{5})(x-\\sqrt{5})",

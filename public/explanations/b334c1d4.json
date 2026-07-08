@@ -1,0 +1,19 @@
+{
+  "questionId": "b334c1d4",
+  "correctAnswer": "100",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two points on the line",
+      "content": "From the line of best fit, use two approximate points on the line, such as $(0{,}72)$ and $(6{,}126)$. The slope is<br/><br/>$$\\frac{126-72}{6-0}=9$$"
+    },
+    {
+      "title": "Predict the value at three years",
+      "content": "The line has an approximate intercept of $72$ and slope $9$. At $x=3$, the predicted body length is<br/><br/>$$72+9(3)=99$$"
+    },
+    {
+      "title": "Round to the nearest ten",
+      "content": "The question asks for the nearest $10$ centimeters. The value $99$ rounds to $100$. The answer is <strong>100</strong>."
+    }
+  ]
+}

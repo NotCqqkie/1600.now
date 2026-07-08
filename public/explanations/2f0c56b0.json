@@ -1,0 +1,19 @@
+{
+  "questionId": "2f0c56b0",
+  "correctAnswer": "60000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write equations from percents",
+      "content": "Convert each percent to a decimal:\n$$567\\%=5.67$$\n$$0.945\\%=0.00945$$\nSo the mass relationships are:\n$$A=5.67B$$\n$$A=0.00945C$$"
+    },
+    {
+      "title": "Compare masses B and C",
+      "content": "Set the two expressions for $A$ equal and solve for $C$:\n$$5.67B=0.00945C$$\n$$C=\\frac{5.67}{0.00945}B=600B$$"
+    },
+    {
+      "title": "Convert the ratio to percent",
+      "content": "If $C=600B$, then $C$ is $600$ times the mass of $B$. As a percent, that is:\n$$600\\cdot100=60{,}000$$\nThe answer is <strong>60000</strong>."
+    }
+  ]
+}

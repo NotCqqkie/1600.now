@@ -1,0 +1,15 @@
+{
+  "questionId": "f7395283",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use supplementary angles",
+      "content": "Because lines $q$ and $r$ are parallel, the same-side interior angles in the figure are supplementary. The figure gives one angle as $61^\\circ$, so:\n$$\n61+y=180\n$$\n$$\ny=119\n$$"
+    },
+    {
+      "title": "Substitute into the equation",
+      "content": "Use $y=2x+9$:\n$$\n119=2x+9\n$$\n$$\n110=2x\n$$\n$$\nx=55\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

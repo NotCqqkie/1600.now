@@ -1,0 +1,15 @@
+{
+  "questionId": "c41382de",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name a specific site",
+      "content": "The goal is to provide an example of a SNOTEL site, so the answer must name a specific station. The notes identify Bear Trap Meadow as one of the automated snow measurement stations in Wyoming."
+    },
+    {
+      "title": "Reject general facts",
+      "content": "Choice A describes how SNOTEL data can be used but names no site. Choice C identifies who maintains the stations but gives no example. Choice D describes SNOTEL sites generally throughout Wyoming without naming a specific one. The answer is <strong>B</strong>."
+    }
+  ]
+}

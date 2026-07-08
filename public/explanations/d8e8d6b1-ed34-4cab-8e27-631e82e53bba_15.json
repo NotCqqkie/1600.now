@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the grammar rule",
-      "content": "Subject-verb agreement. The subject is <strong>Mathematician Grigori Perelman</strong> &mdash; singular. The phrase \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical interrupter set off by commas; it does not add to the subject. Prepositional phrases beginning with <em>in conjunction with</em>, <em>along with</em>, <em>as well as</em>, etc. never make a singular subject plural."
+      "content": "Subject-verb agreement. The subject is <strong>Mathematician Grigori Perelman</strong> — singular. The phrase \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical interrupter set off by commas; it does not add to the subject. Prepositional phrases beginning with <em>in conjunction with</em>, <em>along with</em>, <em>as well as</em>, etc. never make a singular subject plural."
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"are\"</strong>: Plural present &mdash; violates subject-verb agreement; treats the parenthetical as adding to the subject, which it does not. &#10007;</li><li><strong>\"are being\"</strong>: Plural progressive &mdash; same number error as A, and the progressive aspect is inappropriate for a long-established attribution. &#10007;</li><li><strong>\"have been\"</strong>: Plural present perfect &mdash; wrong number; also implies the credit is no longer current, contradicting the passage's present context. &#10007;</li><li><strong>\"is\"</strong>: Singular simple present &mdash; correctly agrees with the singular subject \"Perelman.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "<ul><li><strong>\"are\"</strong>: Plural present — violates subject-verb agreement; treats the parenthetical as adding to the subject, which it does not. ✗</li><li><strong>\"are being\"</strong>: Plural progressive — same number error as A, and the progressive aspect is inappropriate for a long-established attribution. ✗</li><li><strong>\"have been\"</strong>: Plural present perfect — wrong number; also implies the credit is no longer current, contradicting the passage's present context. ✗</li><li><strong>\"is\"</strong>: Singular simple present — correctly agrees with the singular subject \"Perelman.\" ✓</li></ul>That matches the correct answer."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare the circle radii",
-      "content": "Circle B's radius is $148n$ and circle A's radius is $4n$, so the linear scale factor from circle A to circle B is $\\frac{148n}{4n}=37$. Areas scale by the square of the linear scale factor."
+      "title": "Compare the radii",
+      "content": "Circle $A$ has radius $4n$, and circle $B$ has radius $148n$. The radius scale factor from circle $A$ to circle $B$ is<br/>$$\\frac{148n}{4n}=37$$"
     },
     {
-      "title": "Find the scale factor between the radii",
-      "content": "Circle B has radius $148n$ and circle A has radius $4n$. The scale factor for the linear dimensions is:<br/>$$k = \\frac{148n}{4n} = \\frac{148}{4} = 37$$"
-    },
-    {
-      "title": "Apply the area scaling rule",
-      "content": "When linear dimensions scale by factor $k$, areas scale by factor $k^2$. The area of circle B compared to circle A is:<br/>$$k^2 = 37^2 = 1369$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Square the scale factor",
+      "content": "Circle areas scale by the square of the radius scale factor.<br/>$$37^2=1{,}369$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

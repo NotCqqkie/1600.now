@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the function notation",
-      "content": "The function $s(t)$ gives <em>the approximate mass of this isotope, in grams, that remains $t$ years after</em> the sample starts to decay.<br/>So $s(t)$ outputs the remaining mass (grams), with $t$ representing time (years)."
+      "title": "Identify input and output",
+      "content": "The function $s(t)$ gives the mass remaining, in grams, after $t$ years. In $s(93)=31$, the input is $93$ years and the output is $31$ grams remaining."
     },
     {
-      "title": "Apply the equation and match the answer",
-      "content": "$s(93) = 31$ tells us: when $t = 93$ years, the remaining mass is 31 grams.<br/>This is consistent with the decay model: 93 years is 3 half-lives, so the remaining mass is $248 \\times (0.5)^3 = 31$ grams ✓<br/><br/>This interpretation exactly matches <strong>Choice A &mdash; Approximately $31$ grams of the sample remains $93$ years after the sample starts to decay.</strong>: <em>Approximately 31 grams of the sample remains 93 years after the sample starts to decay</em>. That matches <strong>Choice A &mdash; Approximately $31$ grams of the sample remains $93$ years after the sample starts to decay.</strong>."
+      "title": "Match the interpretation",
+      "content": "So the statement means approximately $31$ grams remains $93$ years after the sample starts to decay. The answer is <strong>A</strong>."
     }
   ]
 }

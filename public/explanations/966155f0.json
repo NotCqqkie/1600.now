@@ -1,0 +1,19 @@
+{
+  "questionId": "966155f0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the slopes",
+      "content": "The equation $y=x+21$ has slope $1$, and the equation $y=12x$ has slope $12$. Lines with different slopes intersect at exactly one point."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both equations as written. The two lines cross at a single point, so the graphs intersect once. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y = x + 21",
+        "y = 12x"
+      ]
+    }
+  ]
+}

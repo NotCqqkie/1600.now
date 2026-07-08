@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal and simplify",
-      "content": "From the second equation, $y = 8x - 9$. Substitute into $y = x^2 + 4x - 5$:\n$$x^2 + 4x - 5 = 8x - 9$$\nCollecting all terms on one side:\n$$x^2 - 4x + 4 = 0$$"
+      "title": "Substitute the line",
+      "content": "Rewrite the second equation as $y=8x-9$, then substitute into the quadratic equation.<br/>$x^2+4x-5=8x-9$"
     },
     {
-      "title": "Apply the discriminant test",
-      "content": "For $x^2 - 4x + 4 = 0$, we have $a = 1$, $b = -4$, $c = 4$. The discriminant is:\n$$\\Delta = b^2 - 4ac = (-4)^2 - 4(1)(4) = 16 - 16 = 0$$\nSince $\\Delta = 0$, there is exactly one real solution. <strong>C</strong> is correct."
+      "title": "Count the solutions",
+      "content": "Move all terms to one side and factor.<br/>$x^2-4x+4=0$<br/>$(x-2)^2=0$<br/>The repeated factor gives exactly one solution to the system. The answer is <strong>C</strong>."
     }
   ]
 }

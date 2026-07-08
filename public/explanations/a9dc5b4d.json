@@ -1,0 +1,15 @@
+{
+  "questionId": "a9dc5b4d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use indirect question order",
+      "content": "Calvani asked what Acosta's favorite book was. Because the question is embedded inside a statement, it needs normal statement word order and the whole sentence should end with a period."
+    },
+    {
+      "title": "Keep statement punctuation",
+      "content": "A uses inverted word order and an exclamation mark. C has correct word order but ends the statement with a question mark. D has both inverted order and a question mark. The embedded question should read as a declarative clause. The answer is <strong>B</strong>."
+    }
+  ]
+}

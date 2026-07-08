@@ -1,19 +1,15 @@
 {
   "questionId": "da2e9202",
-  "qid": "da2e9202",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Start with the given equation",
-      "content": "$$18x + 25 = 205$$"
+      "title": "Undo the addition",
+      "content": "Start with the given equation:<br/>$$18x+25=205$$<br/>Subtract $25$ from both sides."
     },
     {
-      "title": "Subtract 25 from both sides",
-      "content": "$$18x + 25 - 25 = 205 - 25 \\implies 18x = 180$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>$18x=25$</strong>: Subtracting 25 from 205 gives 180, not 25. Eliminated.</li><li><strong>$18x=155$</strong>: $205 - 25 = 180 \\neq 155$. Eliminated.</li><li><strong>$18x=180$</strong>: Subtracting 25 from both sides of the original equation gives exactly $18x = 180$. That matches the correct answer — <strong>C</strong> is correct.</li><li><strong>$18x=205$</strong>: That would mean 25 was never subtracted. Eliminated.</li></ul>"
+      "title": "Find the equivalent equation",
+      "content": "The subtraction gives<br/>$$18x=205-25$$<br/>$$18x=180$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

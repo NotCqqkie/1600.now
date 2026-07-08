@@ -1,0 +1,19 @@
+{
+  "questionId": "bc20c8b8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial balance",
+      "content": "The initial balance is $42{,}000.00$, so the coefficient of the exponential model must be $42{,}000.00$."
+    },
+    {
+      "title": "Choose a growth factor",
+      "content": "The account balance after $12$ years is greater than the initial balance, so the base must be greater than $1$. A base of $1.08$ represents growth, while a base of $0.08$ represents decay."
+    },
+    {
+      "title": "Select the matching model",
+      "content": "The model with initial value $42{,}000.00$ and growth factor $1.08$ is<br/>$$A(t)=42{,}000.00(1.08)^t$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

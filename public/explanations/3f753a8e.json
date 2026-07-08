@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question. The blank completes a phrase describing what researchers were testing: whether false visual memories are caused by people&apos;s previous ______ incorrect renditions of images. The word or phrase must describe a plausible causal mechanism — something people experience that could produce false memories."
+      "title": "Use the later synonym clue",
+      "content": "The sentence later refers to familiarity with erroneous versions of images. The blank should therefore describe previous contact with incorrect renditions."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — compliance with</strong>: &apos;Compliance with&apos; means following rules or orders. You comply with instructions, not images. This doesn&apos;t describe a mechanism for false memory formation. &#10007;</li><li><strong>Choice B — exposure to</strong>: &apos;Exposure to&apos; means previous contact with or familiarity with something. If people had seen incorrect renditions before, that contact could plausibly produce false memories — this is exactly the hypothesis being tested (and then disproved). &#10003;</li><li><strong>Choice C — criteria for</strong>: &apos;Criteria for&apos; means standards used to judge something. This implies people set evaluation standards for incorrect images, which is grammatically awkward and logically irrelevant to causing false memories. &#10007;</li><li><strong>Choice D — forfeiture of</strong>: &apos;Forfeiture of&apos; means giving up or surrendering something. The idea that people gave up incorrect images would not logically cause false memories of those images. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Reject illogical noun phrases",
+      "content": "<ul><li><strong>Choice A</strong>: Compliance with applies to rules or orders, not images.</li><li><strong>Choice C</strong>: Criteria for would mean standards for judging, which does not cause false memories here.</li><li><strong>Choice D</strong>: Forfeiture of means giving something up, not encountering it.</li></ul>"
+    },
+    {
+      "title": "Choose the contact phrase",
+      "content": "The phrase meaning prior contact with incorrect versions matches the hypothesis the researchers tested and the later familiarity clue. The answer is <strong>B</strong>."
     }
   ]
 }

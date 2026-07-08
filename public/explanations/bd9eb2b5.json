@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table and scan for the row with the output named in the question. The input that works gives <strong>B</strong>, $9$. This is just a table lookup, and the arithmetic below confirms the same value."
+      "title": "Substitute the output",
+      "content": "The function is $f(x)=7x$. The question asks when $f(x)=63$, so substitute $63$ for the output:\n+$$7x=63$$"
     },
     {
-      "title": "Set the function equal to 63",
-      "content": "The function is $f(x)=7x$. If $f(x)=63$, then $$7x=63$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Divide by $7$: $$x=9$$"
+      "title": "Isolate the input",
+      "content": "Divide both sides by $7$:\n+$$x=\\frac{63}{7}=9$$\n+The answer is <strong>B</strong>."
     }
   ]
 }

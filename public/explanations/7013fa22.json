@@ -1,0 +1,15 @@
+{
+  "questionId": "7013fa22",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the exponent change",
+      "content": "An increase of $x$ by $8$ changes the exponent by\n$$\n\\frac{x+8}{4}-\\frac{x}{4}=2\n$$\nSo the function value is multiplied by the base factor twice."
+    },
+    {
+      "title": "Convert the multiplier",
+      "content": "The new value is multiplied by\n$$\n(1.30)^2=1.69\n$$\nA multiplier of $1.69$ means the increase is $0.69$ of the original value, or $69\\%$. The answer is <strong>D</strong>."
+    }
+  ]
+}

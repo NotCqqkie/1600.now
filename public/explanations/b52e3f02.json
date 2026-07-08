@@ -1,0 +1,15 @@
+{
+  "questionId": "b52e3f02",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the limit signal",
+      "content": "The sentence introduces the underlined portion with the phrase <em>This approach has some limits</em>. The underlined portion then names one of those limits: data from Places API tend to be restricted to customer-facing places. So its role is to point out a specific weakness in the data used to study neighborhood amenities."
+    },
+    {
+      "title": "Reject wrong roles",
+      "content": "Choice D matches that role because the underlined portion identifies a flaw in relying on the Places API data set. Choice A discusses neighborhood boundaries, which are not mentioned in the underlined portion. Choice B describes the computer model introduced earlier in the passage. Choice C focuses on potential utility, but the underlined wording is about a limitation before the passage returns to the data set's reliability. The answer is <strong>D</strong>."
+    }
+  ]
+}

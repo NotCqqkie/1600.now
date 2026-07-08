@@ -1,0 +1,15 @@
+{
+  "questionId": "ae7ae176",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the difference",
+      "content": "Mina needs at least $120$ total signatures and already has $68$. The minimum additional number is the difference between those two amounts."
+    },
+    {
+      "title": "Subtract signatures",
+      "content": "Compute the additional signatures needed:<br/>$$120-68=52$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

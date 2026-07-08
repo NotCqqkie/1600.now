@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
-      "title": "Apply the Pythagorean Theorem",
-      "content": "For a right triangle with legs and hypotenuse, we apply the theorem. We know one leg is $46.8$ mm and the hypotenuse is $213.2$ mm. Setting up the equation with unknown leg $b$:<br/>$$46.8^2 + b^2 = 213.2^2$$<br/>Rearranging to solve for $b^2$:<br/>$$b^2 = 213.2^2 - 46.8^2$$",
+      "title": "Set up the theorem",
+      "content": "For a right triangle, the legs and hypotenuse satisfy the Pythagorean theorem. Let $b$ be the unknown leg.<br/>$$46.8^2+b^2=213.2^2$$",
       "formula": "$$a^2 + b^2 = c^2$$"
     },
     {
-      "title": "Calculate the Other Leg",
-      "content": "Evaluate the squared values:<br/>$$213.2^2 = 45454.24$$<br/>$$46.8^2 = 2190.24$$<br/>Substitute into the rearranged equation:<br/>$$b^2 = 45454.24 - 2190.24 = 43264$$<br/>Take the square root:<br/>$$b = \\sqrt{43264} = 208$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Subtract the known square",
+      "content": "Solve for $b^2$ by subtracting the known leg square.<br/>$$b^2=213.2^2-46.8^2$$<br/>$$b^2=45{,}454.24-2{,}190.24=43{,}264$$"
+    },
+    {
+      "title": "Find the leg length",
+      "content": "The length of the other leg is the positive square root.<br/>$$b=\\sqrt{43{,}264}=208$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

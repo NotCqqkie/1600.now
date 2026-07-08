@@ -4,25 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the rate from the table",
-      "content": "Every answer has the form $f(x)=mx$, so the multiplier is $m=\\frac{f(x)}{x}$. Using the first row, $$m=\\frac{4536}{2520}=1.8.$$"
+      "title": "Find the multiplier",
+      "content": "Each answer choice is proportional, so divide an output by its input. Using the first row,\n$$\\frac{4{,}536}{2{,}520}=1.8$$"
     },
     {
-      "title": "Verify the constant multiplier",
-      "content": "The other rows give the same value: $$\\frac{6804}{3780}=1.8$$ and $$\\frac{9072}{5040}=1.8.$$ So the relationship is proportional with constant of proportionality $1.8$."
+      "title": "Confirm with another row",
+      "content": "A second row gives the same multiplier.\n$$\\frac{6{,}804}{3{,}780}=1.8$$\nSo the function has the form\n$$f(x)=1.8x$$"
     },
     {
-      "title": "Graph or table-check in Desmos",
-      "content": "Enter the table and overlay the correct proportional model. The line $y=1.8x$ passes through all three points. The other choices can be rejected from the table ratios because their multipliers are not $1.8$.",
+      "title": "Calculator shortcut",
+      "content": "Graph the table points and the proportional model. The line $y=1.8x$ passes through the data points. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "x_1=[2520,3780,5040]",
         "y_1=[4536,6804,9072]",
         "y=1.8x"
       ]
-    },
-    {
-      "title": "Confirm the equation",
-      "content": "The function that matches all rows is $f(x)=1.8x$, so <strong>B</strong> is correct."
     }
   ]
 }

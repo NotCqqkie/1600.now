@@ -1,0 +1,15 @@
+{
+  "questionId": "e63bb06c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the smallest depth",
+      "content": "The table's smallest maximum depth is 5 meters. That value belongs to an Indo-Pacific coral species, and 5 meters is less than 30 meters, so it falls in the shallow zone."
+    },
+    {
+      "title": "Match depth to zone",
+      "content": "Choice B gives the wrong region. Choice C gives the right region but the wrong zone, since 5 meters is not mesophotic. Choice D gives both the wrong region and the wrong zone. The answer is <strong>A</strong>."
+    }
+  ]
+}

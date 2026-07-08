@@ -1,0 +1,15 @@
+{
+  "questionId": "9aed5ff9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare tournament scale",
+      "content": "The first sentence describes the 2006 World Cup as having 32 teams from six continents. The second describes the 1958 World Cup as having only 16 teams from Europe and the Americas. The relationship is contrast."
+    },
+    {
+      "title": "Reject noncontrast transitions",
+      "content": "Choice A signals a result, but the 1958 facts do not follow from the 2006 facts. Choice B signals an example, which 1958 is not. Choice D signals restatement, but the two sentences present different facts. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6aeb0ca3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the practical application",
+      "content": "The underlined finding says the air around the mushrooms also became cooler. The next sentence says those temperature reductions inspired an air-cooling device, so the underlined portion provides the key finding behind the practical application."
+    },
+    {
+      "title": "Dismiss weaker functions",
+      "content": "B treats the finding only as support for internal fungal cooling. C calls it tangential even though it drives the device example. D reverses the sequence by saying the observation motivated the earlier study. The answer is <strong>A</strong>."
+    }
+  ]
+}

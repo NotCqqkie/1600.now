@@ -1,0 +1,22 @@
+{
+  "questionId": "ded99815",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope and intercept signs",
+      "content": "The graph has a positive $y$-intercept of $1.5$ and a negative slope. Since $R$ is positive, rewrite the matching equation to check those features.",
+      "desmosExpressions": [
+        "R=1",
+        "R x+12y=18",
+        "R x-12y=-18",
+        "R x+12y=-18",
+        "R x-12y=18"
+      ]
+    },
+    {
+      "title": "Rewrite the matching form",
+      "content": "Solve $Rx+12y=18$ for $y$:\n$$12y=-Rx+18$$\n$$y=-\\frac{R}{12}x+\\frac{18}{12}$$\n$$y=-\\frac{R}{12}x+1.5$$\nBecause $R>0$, this has negative slope and positive $y$-intercept. The answer is <strong>A</strong>."
+    }
+  ]
+}

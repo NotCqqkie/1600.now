@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $18{x}^{2}-108$."
+      "title": "Distribute the factor",
+      "content": "Multiply $18$ by each term inside the parentheses:<br/>$$18(x^2-6)=18x^2-18(6)$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Simplify the constant term",
+      "content": "Compute the constant term:<br/>$$18(6)=108$$<br/>So the equivalent expression is<br/>$$18x^2-108$$"
     },
     {
-      "title": "Distribute 18",
-      "content": "Multiply $18$ by both terms inside the parentheses:<br/>$$18(x^2-6)=18x^2-18\\cdot6$$"
-    },
-    {
-      "title": "Simplify the constant",
-      "content": "$$18\\cdot6=108$$<br/>So:<br/>$$18(x^2-6)=18x^2-108$$"
-    },
-    {
-      "title": "Fast choice check",
-      "content": "A quick check is to plug in $x=0$. The original expression gives $18(0^2-6)=-108$, matching the constant term in <strong>Choice A &mdash; $18{x}^{2}-108$</strong> and eliminating the other constants."
+      "title": "Check against the choices",
+      "content": "Choice B has constant $-24$, Choice C has constant $-6$, and Choice D adds $12$. The expression $18x^2-108$ matches the distributed form. The answer is <strong>A</strong>."
     }
   ]
 }

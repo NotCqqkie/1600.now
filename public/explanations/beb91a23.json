@@ -1,0 +1,19 @@
+{
+  "questionId": "beb91a23",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as $f(x)=mx+b$, where $m$ is the slope and $b$ is the value of $f(0)$."
+    },
+    {
+      "title": "Substitute the graph details",
+      "content": "The slope is $54$, so $m=54$. The graph passes through $(0,0)$, so the y-intercept is $0$.\n$$f(x)=54x+0=54x$$"
+    },
+    {
+      "title": "Match the equation",
+      "content": "The equation with slope $54$ and y-intercept $0$ is $f(x)=54x$. The answer is <strong>A</strong>."
+    }
+  ]
+}

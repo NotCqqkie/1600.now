@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Look at what sits on each side of the blank",
-      "content": "Before the blank: &quot;Butterfly... attempts to make use of the entire visual light spectrum&quot; &mdash; a complete independent clause that makes a general claim. After the blank: &quot;sporting rainbow-striped goggles, the rainbow-hued swimmer splashes through a wavy rainbow of water&quot; &mdash; another complete independent clause that specifies HOW the painting uses the spectrum."
+      "title": "Link claim to description",
+      "content": "The first clause says the painting uses the entire visual light spectrum. The following clause describes rainbow-striped goggles, a rainbow-hued swimmer, and rainbow water, explaining how the painting does that."
     },
     {
-      "title": "Pick the right punctuation between them",
-      "content": "A colon joins two independent clauses when the second one elaborates on or explains the first. That is exactly what is happening here: the swimmer-and-water description spells out the spectrum claim."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;spectrum&rsquo;</strong> (no punctuation): fuses two independent clauses with nothing between them &mdash; a run-on. &#10007;</li><li><strong>Choice B &mdash; &lsquo;spectrum:&rsquo;</strong>: a colon correctly introduces the elaboration that follows. &#10003;</li><li><strong>Choice C &mdash; &lsquo;spectrum while&rsquo;</strong>: &quot;while&quot; without a preceding comma fails to mark the clause boundary, and it forces a temporal/contrast reading rather than the elaboration the sentence is actually making. &#10007;</li><li><strong>Choice D &mdash; &lsquo;spectrum, while&rsquo;</strong>: a comma + subordinator is grammatical, but &quot;while&quot; signals simultaneity/contrast, not the &quot;here&apos;s how&quot; elaboration the sentence requires. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject poor clause links",
+      "content": "A fuses two independent clauses with no punctuation. C lacks a proper boundary and adds a weak \"while\" relation. D uses \"while,\" which suggests timing or contrast rather than explanation. A colon correctly introduces the explanatory description. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Anchor on the country named by the 2020 figure",
-      "content": "The student singles out the country that mined 0.55 million metric tons of copper in 2020. In the table, exactly one country has 0.55 in the 2020 column, so the rest of the sentence must report that same country's 1995 production."
+      "title": "Stay on the same row",
+      "content": "The sentence asks for the 1995 copper production of the country that mined 0.55 million metric tons in 2020. The needed value must come from that same country's row in the table."
     },
     {
-      "title": "Read that country's 1995 row",
-      "content": "For the country whose 2020 value is 0.55, the 1995 column shows 0.26 million metric tons. The completion must use that paired value, not a 1995 number belonging to any other row."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; 0.59 million metric tons of copper in 1995.</strong>: 0.59 is a 1995 value tied to a different country's row, not the 0.55-in-2020 country. Mismatched row. &#10007;</li><li><strong>Choice B &mdash; 0.44 million metric tons of copper in 1995.</strong>: 0.44 also belongs to a different country's 1995 entry, not the targeted country. Mismatched row. &#10007;</li><li><strong>Choice C &mdash; 0.26 million metric tons of copper in 1995.</strong>: 0.26 is the 1995 value in the same row as the 0.55-in-2020 country, completing the comparison correctly. &#10003;</li><li><strong>Choice D &mdash; 2.49 million metric tons of copper in 1995.</strong>: 2.49 is from a much larger producer's row and is not the 1995 figure for the targeted country. Mismatched row. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject values from other rows",
+      "content": "A, B, and D each give a 1995 figure from a different country rather than the country with 0.55 million metric tons in 2020. The same row's 1995 value is 0.26 million metric tons. The answer is <strong>C</strong>."
     }
   ]
 }

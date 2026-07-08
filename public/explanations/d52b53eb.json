@@ -1,0 +1,19 @@
+{
+  "questionId": "d52b53eb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence's main verb",
+      "content": "The subject is “The 1958 poem,” and the sentence has no other main verb. The blank must supply a finite verb that agrees with this singular subject."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is a participial phrase, Choice B is an infinitive, and Choice C is a present participle. Each would leave the sentence without a complete main predicate."
+    },
+    {
+      "title": "Use singular finite agreement",
+      "content": "The remaining verb is finite, agrees with the singular subject, and completes the sentence: the poem contains an early use of the word “dreamscape.” The answer is <strong>D</strong>."
+    }
+  ]
+}

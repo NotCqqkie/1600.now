@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammar rule being tested",
-      "content": "This is a subject-verb agreement question. The subject is \"a cycle of lunar phases.\" The head noun is <em>cycle</em> &mdash; singular. The prepositional phrase \"of lunar phases\" does not change the subject's number. The verb must be third-person singular present tense to agree.<ul><li><strong>\"are taking\"</strong>: Plural verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"have taken\"</strong>: Plural verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"take\"</strong>: Plural (base form) verb; does not agree with singular subject \"a cycle.\" &#10007;</li><li><strong>\"takes\"</strong>: Third-person singular present tense; agrees with singular subject \"a cycle.\" &#10003;</li></ul>"
+      "title": "Find the head noun",
+      "content": "The subject is <strong>a cycle of lunar phases</strong>. The head noun is <strong>cycle</strong>, which is singular; the phrase <strong>of lunar phases</strong> does not control verb agreement."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only \"takes\" is the third-person singular form that agrees with \"a cycle\" and completes the sentence correctly.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use a singular verb",
+      "content": "A, B, and C are plural verb forms, so they do not agree with the singular subject. The sentence needs a third-person singular present-tense verb. The answer is <strong>D</strong>."
     }
   ]
 }

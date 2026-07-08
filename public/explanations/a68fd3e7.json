@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace what &ldquo;Consequently&rdquo; must follow from",
-      "content": "The passage contrasts tragedies (broad, timeless themes &mdash; still widely read and performed) with history plays (require knowledge of several centuries of English history). &ldquo;Consequently&rdquo; signals the logical result of that contrast: audiences lacking that historical knowledge will find history plays harder to engage with."
+      "title": "Follow the contrast",
+      "content": "The passage contrasts tragedies, which address broad themes that still appeal to audiences, with history plays, which can require knowledge of centuries of English history. \"Consequently\" signals the result of that contrast."
     },
     {
-      "title": "Eliminate wrong completions and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; many theatergoers and readers today are likely to find Shakespeare's history plays less engaging than the tragedies.</strong>: Directly follows from the contrast: history plays demand specialized knowledge tragedies do not, so most audiences find them less engaging. &#10003;</li><li><strong>Choice B &mdash; some of Shakespeare's tragedies are more relevant to today's audiences than twentieth-century plays.</strong>: Twentieth-century plays are never mentioned in the passage, so there is no basis for this comparison. &#10007;</li><li><strong>Choice C &mdash; <em>Romeo and Juliet</em> is the most thematically accessible of all Shakespeare's tragedies.</strong>: The passage uses <em>Romeo and Juliet</em> as one example of tragedies broadly; it never ranks it above other tragedies. &#10007;</li><li><strong>Choice D &mdash; experts in English history tend to prefer Shakespeare's history plays to his other works.</strong>: The passage never mentions historians or their preferences &mdash; this introduces information not in the text. &#10007;</li></ul>That is the correct answer."
+      "title": "Complete the logical result",
+      "content": "Choice B introduces twentieth-century plays, which the text never mentions. Choice C overstates <em>Romeo and Juliet</em> as the most accessible tragedy, and choice D invents experts' preferences. The remaining choice follows logically: modern audiences may find history plays less engaging than tragedies because the history plays require specialized historical knowledge. The answer is <strong>A</strong>."
     }
   ]
 }

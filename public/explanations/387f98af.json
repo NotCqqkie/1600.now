@@ -1,0 +1,15 @@
+{
+  "questionId": "387f98af",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the first book",
+      "content": "The first book costs $18$. If $x$ books are purchased, then the number of books after the first is $x-1$."
+    },
+    {
+      "title": "Add the remaining book cost",
+      "content": "Each book after the first costs $15$, so those books cost $15(x-1)$. Add the first-book cost.<br/>$$y=15(x-1)+18$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

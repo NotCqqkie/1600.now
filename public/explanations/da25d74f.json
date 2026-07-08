@@ -1,0 +1,15 @@
+{
+  "questionId": "da25d74f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect finding to recommendation",
+      "content": "Venter and colleagues recommend focusing on reducing anthropogenic emissions rather than relying mainly on green space. The finding must show why green space has limited or mixed effectiveness for coarse particulate matter."
+    },
+    {
+      "title": "Reject findings that help green space",
+      "content": "A suggests green space works near cities. C suggests vegetation type strongly matters, and D shifts attention to weather. The finding that dense tree cover can hinder ventilation on busy streets explains why green space may fail in polluted urban settings where dispersion is especially important. The answer is <strong>B</strong>."
+    }
+  ]
+}

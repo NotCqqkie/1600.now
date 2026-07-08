@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "We need the number of games when total cost is \\$76. Substitute into the function:<br/>$$16 + 5x = 76$$"
+      "title": "Set the total cost",
+      "content": "The total cost is $76$, so set the function equal to $76$:<br/>$$16+5x=76$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Subtract 16 from both sides:<br/>$$5x = 60$$<br/>Divide both sides by 5:<br/>$$x = 12$$<br/>The variable $x$ counts games, so the solution means 12 games can be played for \\$76. Each additional game adds \\$5 after the initial \\$16 fee, matching the linear cost model."
+      "title": "Solve for games played",
+      "content": "Subtract $16$, then divide by $5$:<br/>$$5x=60$$<br/>$$x=12$$<br/>The answer is <strong>12</strong>."
     }
   ]
 }

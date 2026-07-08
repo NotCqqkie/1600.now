@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the parallel lines",
+      "content": "Because $AE$ and $BD$ are parallel, corresponding angles formed by transversal $CE$ are equal. The angle at $E$ in triangle $ACE$ equals the given $58^\\circ$ angle."
     },
     {
-      "title": "Apply the corresponding angles property with parallel lines",
-      "content": "BD is parallel to AE, so line CE is a transversal cutting both parallel lines. Angles AEC and BDC are corresponding angles in this configuration. By the corresponding angles property: $$\\angle AEC = \\angle BDC = 58^{\\circ}$$"
-    },
-    {
-      "title": "Find angle CAE using the triangle angle sum",
-      "content": "In triangle ACE, the angles sum to 180°. We know $\\angle AEC = 58^{\\circ}$ and $\\angle ACE = 62^{\\circ}$, so: $$\\angle CAE + 62^{\\circ} + 58^{\\circ} = 180^{\\circ}$$ $$\\angle CAE = 60^{\\circ}$$ That matches <strong>choice B &mdash; &lsquo;60&deg;&rsquo;</strong> is correct."
+      "title": "Use the triangle sum",
+      "content": "In triangle $ACE$, the angles sum to $180^\\circ$. The remaining angle is found by subtracting the two known angles:$$180^\\circ-62^\\circ-58^\\circ=60^\\circ$$The answer is <strong>B</strong>."
     }
   ]
 }

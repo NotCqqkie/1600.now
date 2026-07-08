@@ -1,0 +1,15 @@
+{
+  "questionId": "2ee77dfe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find claim and evidence",
+      "content": "The sentence claims that the World Cup used to be smaller and more geographically limited. The next sentence gives a concrete historical instance: the 1934 event had only 16 teams, mostly from Europe and the Americas."
+    },
+    {
+      "title": "Choose the example transition",
+      "content": "A merely affirms the prior sentence, B creates a contrast, and D adds a parallel point. The sentence needs a transition that introduces a specific example supporting the general claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

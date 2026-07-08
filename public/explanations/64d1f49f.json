@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify vertical angles",
-      "content": "Two intersecting lines form four angles. From the figure, $w$ and $z$ sit opposite each other at the vertex, so they are <strong>vertical angles</strong>."
+      "title": "Identify the angle relationship",
+      "content": "In the figure, $w$ and $z$ are opposite angles formed by two intersecting lines. Opposite angles like these are vertical angles."
     },
     {
-      "title": "Apply the vertical angles theorem",
-      "content": "Vertical angles are equal, so $z=w=136$.<br/>That confirms <strong>D</strong> is correct."
+      "title": "Apply vertical angles",
+      "content": "Vertical angles are congruent, so $z=w$. Since $w=136$, $z=136$.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,17 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points from the graph",
-      "content": "The graph passes through $(0,\\,0)$ and $(1,\\,2)$, indicating the product starts at 0 feet and travels 2 feet per minute."
+      "title": "Read points from the graph",
+      "content": "The graph passes through $(0,0)$ and $(1,2)$. This means the distance starts at $0$ feet and increases by $2$ feet during the first $1$ minute."
     },
     {
-      "title": "Compute the slope (rate)",
-      "content": "$$\\text{slope} = \\frac{2 - 0}{1 - 0} = 2$$"
+      "title": "Use the constant rate",
+      "content": "Because the graph is a straight line through the origin, the distance is the rate times the number of minutes."
     },
     {
-      "title": "Write the equation",
-      "content": "The line passes through the origin with slope 2: $d = 2m$. That matches <strong>Choice A &mdash; $d = 2m$</strong>."
+      "title": "Write the line equation",
+      "content": "The slope is<br/>$$\\frac{2-0}{1-0}=2$$<br/>Since the line passes through the origin, the equation is<br/>$$d=2m$$<br/>The answer is <strong>A</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $d = 2m$</strong>: Slope = 2, y-intercept = 0; matches the graph passing through the origin with a rise of 2 for every 1 unit run. &#10003;</li><li><strong>Choice B &mdash; $d = \\frac{1}{2}m$</strong>: Slope of 1/2 would mean the product travels only 0.5 feet per minute &mdash; inconsistent with the graph's steeper rise. &#10007;</li><li><strong>Choice C &mdash; $d = m + 2$</strong>: A y-intercept of 2 would mean the product starts 2 feet along the belt before any time passes &mdash; the graph starts at the origin. &#10007;</li><li><strong>Choice D &mdash; $d = 2m + 2$</strong>: Combines both errors: correct slope but a non-zero y-intercept of 2 that contradicts the graph's origin. &#10007;</li></ul>That matches <strong>Choice A &mdash; $d = 2m$</strong>."
+  ]
 }

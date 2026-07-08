@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "A species is &quot;tall&quot; if its fully-grown height h satisfies h &gt; 100 cm. The correct answer is the range where every value exceeds 100."
+      "content": "A species is \"tall\" if its fully-grown height h satisfies h > 100 cm. The correct answer is the range where every value exceeds 100."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $107 \\lt h \\lt 158$</strong>: every value exceeds 100. &#10003;</li><li><strong>Choice B &mdash; $50 \\lt h \\lt 100$</strong>: no value exceeds 100. &#10007;</li><li><strong>Choice C &mdash; $40 \\lt h \\lt 95$</strong>: no value exceeds 100. &#10007;</li><li><strong>Choice D &mdash; $16 \\lt h \\lt 91$</strong>: no value exceeds 100. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — $107 \\lt h \\lt 158$</strong>: every value exceeds 100. ✓</li><li><strong>Choice B — $50 \\lt h \\lt 100$</strong>: no value exceeds 100. ✗</li><li><strong>Choice C — $40 \\lt h \\lt 95$</strong>: no value exceeds 100. ✗</li><li><strong>Choice D — $16 \\lt h \\lt 91$</strong>: no value exceeds 100. ✗</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

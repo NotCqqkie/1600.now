@@ -1,0 +1,19 @@
+{
+  "questionId": "950f03d2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the outside factor",
+      "content": "Multiply $5xy$ by each term inside the parentheses. The outside factor must multiply both terms, including each coefficient and each variable power:<br/>$$5xy(3x^2)=15x^3y$$<br/>$$5xy(4y)=20xy^2$$"
+    },
+    {
+      "title": "Combine the two products",
+      "content": "Add the distributed terms:<br/>$$5xy(3x^2+4y)=15x^3y+20xy^2$$"
+    },
+    {
+      "title": "Match the equivalent form",
+      "content": "The equivalent expression keeps both the coefficients and variable powers from the distribution. The answer is <strong>D</strong>."
+    }
+  ]
+}

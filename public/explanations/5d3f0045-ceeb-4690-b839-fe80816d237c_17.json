@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the punctuation rule",
-      "content": "The sentence reads: &quot;When Fiji joined Interpol&mdash;the International Criminal Police ____ in 1971, the Fiji National Police...&quot; An opening em dash appears before &quot;the International Criminal Police.&quot; A parenthetical opened with an em dash must be closed with a matching em dash. The blank falls at the end of that parenthetical, just before &quot;in 1971.&quot;"
+      "content": "The sentence reads: \"When Fiji joined Interpol—the International Criminal Police ____ in 1971, the Fiji National Police.\" An opening em dash appears before \"the International Criminal Police.\" A parenthetical opened with an em dash must be closed with a matching em dash. The blank falls at the end of that parenthetical, just before \"in 1971.\""
     },
     {
       "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Organization—&rsquo;</strong>: Closes the em dash pair correctly. The parenthetical &mdash;the International Criminal Police Organization&mdash; is properly bounded, and &quot;in 1971&quot; returns to the main clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Organization:&rsquo;</strong>: A colon does not close an opening em dash. The paired em dashes are broken, and a colon before &quot;in 1971&quot; makes no grammatical sense. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Organization&rsquo;</strong>: No closing punctuation at all. The em dash pair is left open, causing &quot;in 1971&quot; to appear to modify &quot;Organization&quot; instead of the main clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Organization,&rsquo;</strong>: A comma does not close an em dash. The opening em dash has no matching close, breaking the parenthetical structure. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — 'Organization—'</strong>: Closes the em dash pair correctly. The parenthetical —the International Criminal Police Organization— is properly bounded, and \"in 1971\" returns to the main clause. ✓</li><li><strong>Choice B — 'Organization:'</strong>: A colon does not close an opening em dash. The paired em dashes are broken, and a colon before \"in 1971\" makes no grammatical sense. ✗</li><li><strong>Choice C — 'Organization'</strong>: No closing punctuation at all. The em dash pair is left open, causing \"in 1971\" to appear to modify \"Organization\" instead of the main clause. ✗</li><li><strong>Choice D — 'Organization,'</strong>: A comma does not close an em dash. The opening em dash has no matching close, breaking the parenthetical structure. ✗</li></ul>That confirms <strong>A</strong> is correct."
     }
   ]
 }

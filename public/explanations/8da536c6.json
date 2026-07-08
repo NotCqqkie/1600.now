@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply growth percentages to get 2022 counts",
-      "content": "To model the 2022 values, apply the growth percentages. A $p\\%$ growth means multiplying by $1 + \\frac{p}{100}$:<ul><li>Advanced swimmers in 2022: $1.48a$ (grew by 48%)</li><li>Intermediate swimmers in 2022: $1.36b$ (grew by 36%)</li><li>Total swimmers in 2022: $40\\times1.42$ (grew by 42%)</li></ul>"
+      "title": "Write the new group amounts",
+      "content": "An increase of $48\\%$ makes the advanced-swimmer count $1.48a$. An increase of $36\\%$ makes the intermediate-swimmer count $1.36b$."
     },
     {
-      "title": "Write the equation for 2022 totals",
-      "content": "The 2022 total must equal the sum of 2022 advanced and intermediate:<br/>$$1.48a + 1.36b = 40(1.42)$$That confirms <strong>C</strong> is correct."
+      "title": "Write the new total",
+      "content": "The total began at $40$ swimmers and increased by $42\\%$, so the new total is $40(1.42)$."
+    },
+    {
+      "title": "Match the total equation",
+      "content": "The two new group amounts must add to the new total:<br/>$$1.48a+1.36b=40(1.42)$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

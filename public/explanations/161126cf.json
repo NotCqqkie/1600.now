@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite to match the target form",
-      "content": "Pull the $\\tfrac{1}{4}$ out of the exponent so the outer power is $x$:$$f(x)=(1.69)^{x/4}=\\left((1.69)^{1/4}\\right)^{x}.$$Set this equal to $\\left(1+\\tfrac{p}{100}\\right)^{x}$ and match the bases:$$1+\\frac{p}{100}=(1.69)^{1/4}.$$"
+      "title": "Rewrite with exponent x",
+      "content": "Move the factor $\\frac{1}{4}$ into the base so the exponent is $x$.<br/>$$f(x)=(1.69)^{x/4}=((1.69)^{1/4})^x$$"
     },
     {
-      "title": "Compute the fourth root",
-      "content": "$(1.69)^{1/4}\\approx 1.1402$ (check: $1.1402^{4}\\approx 1.690$). So$$\\frac{p}{100}\\approx 0.1402\\;\\Rightarrow\\; p\\approx 14.02.$$"
+      "title": "Match the bases",
+      "content": "The target form is<br/>$$(1+\\frac{p}{100})^x$$<br/>so<br/>$$1+\\frac{p}{100}=(1.69)^{1/4}$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $14$: differs from 14.02 by about 0.02 &mdash; closest match.</li><li>B) $18$: would need $(1.18)^4\\approx 1.94$ &mdash; too big.</li><li>C) $39$: $1.39^4\\approx 3.73$ &mdash; far too big.</li><li>D) $86$: $1.86^4\\approx 11.97$ &mdash; far too big.</li></ul>That matches <strong>Choice A &mdash; $14$</strong>."
+      "title": "Compute the percent value",
+      "content": "Evaluate the fourth root and solve for $p$.<br/>$$(1.69)^{1/4}=1.1402$$<br/>$$\\frac{p}{100}=0.1402$$<br/>$$p=14.02$$<br/>The closest choice is $14$. The answer is <strong>A</strong>."
     }
   ]
 }

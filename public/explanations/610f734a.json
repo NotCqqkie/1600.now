@@ -1,0 +1,19 @@
+{
+  "questionId": "610f734a",
+  "correctAnswer": "No solution",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the relationship between n and k",
+      "content": "Start with $4n^5 \\cdot 3 = 3k^2$. Divide both sides by $3$:<br/>$$4n^5 = k^2$$<br/>Because $k \\gt 1$, take the positive square root:<br/>$$k = 2n^{5/2}$$"
+    },
+    {
+      "title": "Use the condition that n equals k",
+      "content": "The question asks for $a$ when $n = 2a + 1$ is equal to $k$, so set $n=k$:<br/>$$n = 2n^{5/2}$$<br/>Since $n \\gt 1$, divide both sides by $n$:<br/>$$1 = 2n^{3/2}$$<br/>Then $n = \\left(\\frac{1}{2}\\right)^{2/3}$, which is less than $1$."
+    },
+    {
+      "title": "Determine whether a valid value exists",
+      "content": "The value forced by $n=k$ violates the condition $n \\gt 1$. Therefore, there is no value of $a$ that satisfies all the stated conditions. The answer is <strong>No solution</strong>."
+    }
+  ]
+}

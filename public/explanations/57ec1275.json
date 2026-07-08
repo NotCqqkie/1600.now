@@ -1,0 +1,15 @@
+{
+  "questionId": "57ec1275",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the scale factor",
+      "content": "Similar triangles have proportional perimeters and side lengths. The table shows the larger triangle's perimeter is $3$ times the smaller triangle's perimeter."
+    },
+    {
+      "title": "Scale the side length",
+      "content": "Multiply the corresponding side length by the same scale factor.<br/>$$6\\cdot3=18$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

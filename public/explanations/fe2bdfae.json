@@ -1,0 +1,15 @@
+{
+  "questionId": "fe2bdfae",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect problem and result",
+      "content": "The passage says filtration often cannot capture very small microplastics. The sound wave device removed even tiny microplastics as small as 10 microns, so the inference must connect that result to the filtration problem."
+    },
+    {
+      "title": "Avoid unsupported claims",
+      "content": "A reverses the contrast, C mislabels the device as filtration tubes, and D adds an efficiency claim about combining methods that the test did not establish. The sound wave system may help with the small-particle problem in filtration. The answer is <strong>B</strong>."
+    }
+  ]
+}

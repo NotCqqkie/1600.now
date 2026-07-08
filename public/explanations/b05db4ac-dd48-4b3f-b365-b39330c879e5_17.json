@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the vertical shift",
-      "content": "If the graph shown is $y = f(x) + 2$, then $f(x) = y - 2$ — shift the displayed graph <strong>down by 2</strong>.<br/><br/>The displayed equation has the form $-2^x + k$ where $k$ is the horizontal asymptote. The graph's asymptote is at $y = 5$, so the displayed function is $-2^x + 5$."
+      "title": "Undo the vertical shift",
+      "content": "The graph shown is $y=f(x)+4$. To recover $f(x)$, subtract $4$ from the displayed graph's equation."
     },
     {
-      "title": "Subtract 2",
-      "content": "$$f(x) = (-2^x + 5) - 2 = -2^x + 3$$<br/>That is the correct answer."
+      "title": "Apply the graph information",
+      "content": "From the graph, $y=f(x)+4$ has form:\n$$\ny=-6^x+9\n$$\nSubtract $4$:\n$$\nf(x)=-6^x+9-4=-6^x+5\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

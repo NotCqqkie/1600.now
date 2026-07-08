@@ -1,0 +1,15 @@
+{
+  "questionId": "a1414ee2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the consequence",
+      "content": "<em>Pistia stratiotes</em> absorbs nickel from polluted soil and stores it safely in its roots and shoots. The next clause says nickel concentrations in the soil decrease, so the transition must show that this decrease is a result of the plant's absorption."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice B signals contrast, but the decrease follows from the absorption. Choice C would introduce a more specific detail, not a result. Choice D would add a separate point, but the soil's lower nickel concentration is the consequence of the previous clause. The answer is <strong>A</strong>."
+    }
+  ]
+}

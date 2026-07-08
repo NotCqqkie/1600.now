@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by elimination",
-      "content": "Add the two equations: $(\\frac{9}{2}x + 5y) + (\\frac{7}{2}x + 5y) = 28 + 24$, giving $8x + 10y = 52$."
+      "title": "Build the target expression",
+      "content": "Add the first equation to twice the second equation."
     },
     {
-      "title": "Find $\\tfrac{23}{2}x + 15y$",
-      "content": "Subtract first from second: $-x = -4$ so $x = 4$. From first: $18 + 5y = 28$ so $y = 2$. Then $\\frac{23}{2}(4) + 15(2) = 46 + 30 = 76$. <strong>D</strong> is correct."
+      "title": "Add the scaled equations",
+      "content": "$$2(\\frac{7}{2}x+5y)=2(24)$$<br/>$$7x+10y=48$$<br/>$$\\frac{9}{2}x+5y+7x+10y=28+48$$<br/>$$\\frac{23}{2}x+15y=76$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "533f2858",
+  "correctAnswer": "900",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find weekly savings",
+      "content": "Maya saves \n$$\n\\frac{3}{4}\n$$ of $240$ dollars each week:\n$$\n\\frac{3}{4}(240)=180\n$$"
+    },
+    {
+      "title": "Multiply by five weeks",
+      "content": "Over $5$ weeks, she saves\n$$\n5(180)=900\n$$\nThe answer is <strong>900</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a7c2ba57",
+  "correctAnswer": "4680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the side count",
+      "content": "A polygon with $28$ sides means evaluate the function at $x=28$.\n$$f(28)=180(28-2)$$"
+    },
+    {
+      "title": "Compute the angle sum",
+      "content": "Simplify inside the parentheses first, then multiply.\n$$180(28-2)=180(26)=4{,}680$$\nThe answer is <strong>4680</strong>."
+    }
+  ]
+}

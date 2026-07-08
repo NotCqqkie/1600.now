@@ -1,0 +1,15 @@
+{
+  "questionId": "812ea5f2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the scientific action",
+      "content": "The fossil remains can help scientists understand both hominid evolution and the Pleistocene. The blank must work with \"steps in the evolution of hominids\" and pair with \"illuminate,\" so it should mean recognize or make out."
+    },
+    {
+      "title": "Reject wrong verbs",
+      "content": "A would make scientists produce steps, B means take advantage of them, and C means rank them. The context is about detecting evolutionary steps from evidence. The answer is <strong>D</strong>."
+    }
+  ]
+}

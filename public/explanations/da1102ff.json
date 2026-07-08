@@ -1,0 +1,19 @@
+{
+  "questionId": "da1102ff",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when $x=0$. Evaluate the original function at that input:<br/>$$f(0)=5^{-4(0+1)}$$<br/>$$f(0)=5^{-4}$$<br/>$$f(0)=\\frac{1}{625}$$"
+    },
+    {
+      "title": "Rewrite the function",
+      "content": "Separate the exponent so the intercept value appears as a coefficient:<br/>$$5^{-4(x+1)}=5^{-4x-4}$$<br/>$$5^{-4x-4}=5^{-4}\\cdot5^{-4x}$$<br/>$$5^{-4}\\cdot5^{-4x}=\\frac{1}{625}(\\frac{1}{5})^{4x}$$"
+    },
+    {
+      "title": "Pick the displayed form",
+      "content": "The equivalent form that displays the $y$-intercept value as the coefficient is $f(x)=\\frac{1}{625}(\\frac{1}{5})^{4x}$. The answer is <strong>A</strong>."
+    }
+  ]
+}

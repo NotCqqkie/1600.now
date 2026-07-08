@@ -1,0 +1,19 @@
+{
+  "questionId": "ce1fd172",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the satire claim",
+      "content": "The claim is that Aristophanes satirizes sophists as teaching students how to be persuasive without caring about moral goodness. A matching quotation must connect rhetorical training to winning with an unjust or morally worse argument, not merely to study, astronomy, or a student's ability."
+    },
+    {
+      "title": "Use the unjust argument",
+      "content": "The relevant quotation says Strepsiades wants his son to learn the worse style of argument, the one that maintains what is unjust and overturns the better one. That directly shows persuasion valued over moral rightness, which is the satirical point."
+    },
+    {
+      "title": "Reject unrelated quotations",
+      "content": "Choice A only urges a son to study. Choice B describes an odd method for studying celestial things. Choice C insults a customer's ability to learn, but it does not connect persuasion with moral wrongness. The answer is <strong>D</strong>."
+    }
+  ]
+}

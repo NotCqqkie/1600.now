@@ -1,0 +1,15 @@
+{
+  "questionId": "1d18bdc9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the discriminant",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. Here, $a=64$, $b=\\frac{16}{29}$, and $c=p$.<br/>$$(\\frac{16}{29})^2-4(64)(p)=0$$"
+    },
+    {
+      "title": "Find the constant",
+      "content": "Solve for $p$.<br/>$$\\frac{256}{841}=256p$$<br/>$$p=\\frac{1}{841}=29^{-2}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f2c34e25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make nanoparticles possessive",
+      "content": "The sentence says nanoengineers leverage properties belonging to palladium nanoparticles. Because \"nanoparticles\" is plural and already ends in s, the possessive form needs only an apostrophe after the final s."
+    },
+    {
+      "title": "Reject wrong possessive forms",
+      "content": "Choice A has no possessive marker. Choice B uses the singular possessive \"nanoparticle's,\" though the sentence refers to multiple nanoparticles. Choice C adds an extra apostrophe after \"properties.\" The correct form is plural possessive. The answer is <strong>D</strong>."
+    }
+  ]
+}

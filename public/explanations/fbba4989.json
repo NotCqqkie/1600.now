@@ -1,0 +1,15 @@
+{
+  "questionId": "fbba4989",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name a neutrino researcher",
+      "content": "The goal asks for an example of a particle physicist whose work focuses on neutrinos. The notes supply both required pieces: Luciano Moretti is a particle physicist and is known for solar and geoneutrino research."
+    },
+    {
+      "title": "Drop general neutrino claims",
+      "content": "A describes neutrinos without naming a physicist, B discusses research generally, and D describes a field of work without giving the named example. The sentence must identify Moretti and his focus. The answer is <strong>C</strong>."
+    }
+  ]
+}

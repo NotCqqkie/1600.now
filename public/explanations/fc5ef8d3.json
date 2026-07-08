@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Use the perimeter scale factor",
-      "content": "For similar triangles, corresponding side lengths and perimeters use the same scale factor. Compare the two perimeters first, then apply that factor to the corresponding side."
+      "content": "For similar triangles, corresponding side lengths and perimeters have the same scale factor. The table gives perimeters $50$ and $150$, so the scale factor from triangle $TUV$ to triangle $XYZ$ is $$\\frac{150}{50}=3$$"
     },
     {
-      "title": "Find the scale factor from the perimeters",
-      "content": "For similar triangles, corresponding sides and perimeters use the same scale factor. The table gives perimeter $50$ for triangle $TUV$ and $150$ for triangle $XYZ$, so the scale factor from $TUV$ to $XYZ$ is $$\\frac{150}{50}=3.$$"
-    },
-    {
-      "title": "Apply the scale factor to find XY",
-      "content": "$TU$ corresponds to $XY$, and $TU=6$. Multiply by the scale factor: $$XY=6\\cdot3=18.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The corresponding side length is $18$, so <strong>C</strong> is correct."
+      "title": "Scale the corresponding side",
+      "content": "Since $TU$ corresponds to $XY$ and $TU=6$, multiply by the scale factor: $$XY=6\\cdot 3=18$$ The answer is <strong>C</strong>."
     }
   ]
 }

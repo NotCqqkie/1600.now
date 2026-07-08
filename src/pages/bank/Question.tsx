@@ -62,6 +62,7 @@ import {
   type BankQuestionSimilarityMeta,
   type BankSourceFilter,
 } from "@/data/questionBank";
+import { resolvePastCanonicalSourceId } from "@/data/pastIdAliases";
 import type { LoadedPracticeModule, LoadedPracticeSet } from "@/data/modulePracticeBank";
 import { PRACTICE_RUN_STORAGE_KEY } from "@/lib/practice/practiceRunStorage";
 import { formatPracticeClock, formatPracticeClockPlaceholder } from "@/lib/practice/practiceTime";
@@ -269,6 +270,7 @@ const isBankQuestionWithUuid = (question: unknown): question is BankQuestion & {
 
 type OrderedNavigationItem = {
   id: number;
+  sourceId?: string;
   storageId: string;
 };
 
@@ -543,7 +545,6 @@ const READING_ANNOTATION_MODE_STORAGE_KEY = "question-reading-annotation-mode";
 const QUESTION_BANK_HIDE_CHOICES_STORAGE_KEY = "question-bank-hide-answer-choices";
 const QUESTION_BANK_STRIKEOUT_MODE_STORAGE_KEY = "question-bank-strikeout-mode";
 const DESMOS_DEFAULT_SPLIT_POSITION = 70;
-const QUESTION_HEADER_CONTAINER_MAX_WIDTH = 1400;
 const QUESTION_CONTENT_MAX_WIDTH = 1280;
 
 const questionBankViewerStorageData = new Map<string, string>();
@@ -795,7 +796,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     !is100Hard &&
     !moduleQuestion &&
     !(needsModulePracticeBank && !modulePracticeBank);
-  const canUseRouteIndexedBankQuestion = needsBankQuestionPool && !hasActivePracticeSet;
+  const canUseRouteIndexedBankQuestion = needsBankQuestionPool;
   const bankRouteRefsRequestKey = useMemo(
     () => [subject, bankSource].join(":"),
     [bankSource, subject],
@@ -825,6 +826,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const isRouteIndexedQuestionLoading =
     canUseRouteIndexedBankQuestion &&
     (loadedRouteIndexedQuestionData.isLoading || loadedRouteIndexedQuestionData.requestKey !== routeIndexedQuestionRequestKey);
+  // Route-index lookup resolved but found no match (e.g. a practice-set item
+  // hidden from the bank pools) — fall back to loading the full pool.
+  const routeIndexedQuestionMissed =
+    canUseRouteIndexedBankQuestion &&
+    !isRouteIndexedQuestionLoading &&
+    !loadedRouteIndexedQuestionData.question;
   const [loadedBankQuestionPoolData, setLoadedBankQuestionPoolData] = useState<LoadedBankQuestionPoolState>(() => {
     if (!needsBankQuestionPool) {
       return {
@@ -856,7 +863,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       : null;
   const bankQuestionBySourceId = useMemo(() => {
     if (!currentLoadedBankQuestionPool) return null;
-    return new Map(currentLoadedBankQuestionPool.map((question) => [question.sourceId, question]));
+    return new Map(currentLoadedBankQuestionPool.flatMap((question) => [
+      [question.sourceId, question] as const,
+      ...(question.legacySourceId ? [[question.legacySourceId, question] as const] : []),
+    ]));
   }, [currentLoadedBankQuestionPool]);
   const isBankQuestionPoolLoading =
     needsBankQuestionPool &&
@@ -950,7 +960,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   useEffect(() => {
     if (!needsBankQuestionPool) return;
-    if (canUseRouteIndexedBankQuestion) {
+    if (canUseRouteIndexedBankQuestion && !routeIndexedQuestionMissed) {
       setLoadedBankQuestionPoolData((current) =>
         current.requestKey === null && current.questions.length === 0 && !current.isLoading
           ? current
@@ -1023,6 +1033,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     canUseRouteIndexedBankQuestion,
     hasActivePracticeSet,
     needsBankQuestionPool,
+    routeIndexedQuestionMissed,
     subject,
   ]);
 
@@ -1090,6 +1101,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     const similarityMeta = similarityMetaByStableId[displayedQuestionData.stableId];
     return similarityMeta ? { ...displayedQuestionData, ...similarityMeta } : displayedQuestionData;
   }, [displayedQuestionData, similarityMetaByStableId]);
+  const canonicalBankQuestionPath = isBank && isBankQuestionWithUuid(questionData)
+    ? `/bank/${questionData.subject}/${questionData.sourceId}`
+    : null;
   const currentQuestionId = currentQuestion?.uuid;
   const resolvedQuestionNumber = (() => {
     if (!currentQuestion || is100Hard || !isBankQuestionWithUuid(currentQuestion)) {
@@ -1121,7 +1135,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       if (!practiceQuestion || practiceQuestion.subject !== subject) return false;
 
       const matchesBankType = !practiceQuestion.bankType || practiceQuestion.bankType === bankSource;
-      if (matchesBankType && practiceQuestion.sourceId === idParam) return true;
+      const canonicalPracticeSourceId =
+        practiceQuestion.sourceId && (practiceQuestion.bankType === "past" || (!practiceQuestion.bankType && bankSource === "past"))
+          ? resolvePastCanonicalSourceId(practiceQuestion.subject, practiceQuestion.sourceId)
+          : practiceQuestion.sourceId;
+      const canonicalRouteSourceId = bankSource === "past"
+        ? resolvePastCanonicalSourceId(subject, idParam)
+        : idParam;
+      if (matchesBankType && canonicalPracticeSourceId === canonicalRouteSourceId) return true;
       if (practiceQuestion.storageId && practiceQuestion.storageId === currentQuestionId) return true;
       return hasNumericIdParam && matchesBankType && practiceQuestion.id === questionNumber;
     };
@@ -1174,6 +1195,31 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
+  useEffect(() => {
+    if (
+      !canonicalBankQuestionPath ||
+      !isBank ||
+      isEmbed ||
+      isAssessmentMode ||
+      !isBankQuestionWithUuid(questionData) ||
+      idParam === questionData.sourceId
+    ) {
+      return;
+    }
+
+    const params = new URLSearchParams(searchParams);
+    const queryString = params.toString();
+    navigate(`${canonicalBankQuestionPath}${queryString ? `?${queryString}` : ""}`, { replace: true });
+  }, [
+    canonicalBankQuestionPath,
+    questionData,
+    idParam,
+    isAssessmentMode,
+    isBank,
+    isEmbed,
+    navigate,
+    searchParams,
+  ]);
   const shouldUseSessionDesmosStorage = Boolean(
     !is100Hard &&
       isPracticeMode &&
@@ -1365,7 +1411,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     : idleTimerDemoParam === "1"
       ? COUNT_UP_IDLE_DEMO_PAUSE_MS
       : COUNT_UP_IDLE_PAUSE_MS;
-  const shouldUseIdleTimerPause = Boolean(currentQuestionId && !isEmbed && !usesCountdownTimer);
+  const isStandaloneBankQuestionMode = Boolean(
+    isBank &&
+      !isPracticeMode &&
+      !modulePracticeSlug &&
+      !practiceTestSetId &&
+      !customPracticeId,
+  );
+  const shouldUseIdleTimerPause = Boolean(
+    uid && currentQuestionId && isStandaloneBankQuestionMode && !isEmbed && !usesCountdownTimer,
+  );
 
   useEffect(() => {
     modulePracticeSessionMetaRef.current = modulePracticeSessionMeta;
@@ -1530,6 +1585,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       sourceId: string;
       correctAnswer?: string | null;
       difficulty?: "Easy" | "Medium" | "Hard" | null;
+      scoreBand?: number | null;
       similarityTag?: string | null;
       similarityGroupLabel?: string | null;
       category?: {
@@ -1543,7 +1599,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     const fields: QuestionInfoField[] = [
       { label: "Section", value: subjectLabel },
-      { label: "Difficulty", value: questionWithMetadata.difficulty || "Unassigned" },
+      {
+        label: "Difficulty",
+        value: typeof questionWithMetadata.scoreBand === "number"
+          ? `${questionWithMetadata.scoreBand} / 10`
+          : "Unassigned",
+      },
       { label: "Domain", value: questionWithMetadata.category?.domain || "Unassigned" },
       { label: "Skill", value: questionWithMetadata.category?.skill || "Unassigned" },
       { label: "Similarity Tag", value: questionWithMetadata.similarityGroupLabel || questionWithMetadata.similarityTag || "Unassigned" },
@@ -1574,6 +1635,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
           .map((question) => ({
             id: question.id,
+            sourceId: question.sourceId,
             storageId: question.stableId,
           }));
       }
@@ -1582,6 +1644,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         .filter((question) => !difficultyFilter || question.difficulty === difficultyFilter)
         .map((question) => ({
           id: question.id,
+          sourceId: question.sourceId,
           storageId: question.stableId,
         }));
     }
@@ -1633,6 +1696,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [baseNavigationItems, groupedQuestionOrder, previewQuestionLimit]);
   const orderedQuestionIds = useMemo(
     () => orderedNavigationItems.map((item) => item.id),
+    [orderedNavigationItems],
+  );
+  const orderedQuestionRouteIds = useMemo(
+    () => orderedNavigationItems.map((item) => item.sourceId ?? String(item.id)),
     [orderedNavigationItems],
   );
   const orderedQuestionIndexById = useMemo(
@@ -2118,6 +2185,18 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     });
   }, []);
 
+  useLayoutEffect(() => {
+    const removeExplanationWindow = (prev: Set<string>) => {
+      if (!prev.has("explanation")) return prev;
+      const next = new Set(prev);
+      next.delete("explanation");
+      return next;
+    };
+
+    setSplitScreenWindows(removeExplanationWindow);
+    setSidebarredWindows(removeExplanationWindow);
+  }, [currentQuestionId]);
+
   const handleSplitPositionChange = useCallback((newPosition: number) => {
     const roundedPosition = Math.round(newPosition * 4) / 4;
     setSplitPosition(prev => (Math.abs(prev - roundedPosition) < 0.25 ? prev : roundedPosition));
@@ -2406,7 +2485,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         );
       });
     } else if (canUseRouteIndexedBankQuestion && currentOrderedQuestionIndex >= 0) {
-      [orderedQuestionIds[currentOrderedQuestionIndex - 1], orderedQuestionIds[currentOrderedQuestionIndex + 1]]
+      [orderedQuestionRouteIds[currentOrderedQuestionIndex - 1], orderedQuestionRouteIds[currentOrderedQuestionIndex + 1]]
         .forEach((adjacentId) => preloadAdjacentQuestion(subject, adjacentId, bankSource));
     }
 
@@ -2420,6 +2499,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     currentPracticeIndex,
     effectivePracticeMode,
     orderedQuestionIds,
+    orderedQuestionRouteIds,
     practiceSet,
     subject,
   ]);
@@ -2814,7 +2894,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return;
     }
     const base = '/bank';
-    const previousQuestionId = orderedQuestionIds[currentOrderedQuestionIndex - 1];
+    const previousQuestionId = orderedQuestionRouteIds[currentOrderedQuestionIndex - 1];
     if (previousQuestionId) {
       navigate(`${base}/${subject}/${previousQuestionId}${isBank ? bankQuerySuffix : ""}`);
     }
@@ -2831,6 +2911,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     navigate,
     navigateToPracticeIndex,
     orderedQuestionIds,
+    orderedQuestionRouteIds,
     subject,
   ]);
 
@@ -2851,7 +2932,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return;
     }
     const base = '/bank';
-    const nextQuestionId = orderedQuestionIds[currentOrderedQuestionIndex + 1];
+    const nextQuestionId = orderedQuestionRouteIds[currentOrderedQuestionIndex + 1];
     if (nextQuestionId) {
       navigate(`${base}/${subject}/${nextQuestionId}${isBank ? bankQuerySuffix : ""}`);
     }
@@ -2868,12 +2949,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     navigate,
     navigateToPracticeIndex,
     orderedQuestionIds,
+    orderedQuestionRouteIds,
     subject,
   ]);
   const handleBankNavigatorJump = useCallback((qNum: number) => {
     const base = '/bank';
-    navigate(`${base}/${subject}/${qNum}${isBank ? bankQuerySuffix : ""}`);
-  }, [bankQuerySuffix, isBank, navigate, subject]);
+    const target = orderedNavigationItems.find((item) => item.id === qNum);
+    navigate(`${base}/${subject}/${target?.sourceId ?? qNum}${isBank ? bankQuerySuffix : ""}`);
+  }, [bankQuerySuffix, isBank, navigate, orderedNavigationItems, subject]);
 
   const handleEmbedAwareNext = useCallback(() => {
     if (shouldShowEmbedUpsellBeforeAdvance()) {
@@ -2923,8 +3006,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     sessionStorage.setItem(groupedOrderStorageKey, JSON.stringify(nextOrder));
     setGroupedOrderVersion((version) => version + 1);
 
-    const nextQuestionId = unansweredItems[0]?.id ?? answeredItems[0]?.id;
-    if (!nextQuestionId || nextQuestionId === resolvedQuestionNumber) return;
+    const nextQuestionItem = unansweredItems[0] ?? answeredItems[0];
+    const nextQuestionId = nextQuestionItem?.sourceId ?? nextQuestionItem?.id;
+    if (!nextQuestionId || nextQuestionItem?.id === resolvedQuestionNumber) return;
 
     if (is100Hard) {
       navigate(`/hard/${nextQuestionId}`);
@@ -3396,7 +3480,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const shouldReduceQuestionImageSize = isBank;
   const isQuestionDataLoading =
     (needsModulePracticeBank && !modulePracticeBank) ||
-    (canUseRouteIndexedBankQuestion ? isRouteIndexedQuestionLoading : isBankQuestionPoolLoading);
+    (canUseRouteIndexedBankQuestion
+      ? isRouteIndexedQuestionLoading || (routeIndexedQuestionMissed && isBankQuestionPoolLoading)
+      : isBankQuestionPoolLoading);
   const shouldShowQuestionDataLoading = !currentQuestion && isQuestionDataLoading;
 
   const renderQuestionImages = () => {
@@ -3876,6 +3962,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       {isIndexableBankRoute ? (
         <PageSeo
           id={`bank-question-${subject}-${idParam}`}
+          canonical={`https://1600.now${canonicalBankQuestionPath ?? `/bank/${subject}/${idParam}`}`}
           jsonLd={buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
             { name: "SAT Question Bank", url: "https://1600.now/bank" },
@@ -3884,8 +3971,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               url: `https://1600.now/bank/${subject}/browse`,
             },
             {
-              name: `Question #${idParam}`,
-              url: `https://1600.now/bank/${subject}/${idParam}`,
+              name: `Question #${isBankQuestionWithUuid(currentQuestion) ? currentQuestion.sourceId : idParam}`,
+              url: `https://1600.now${canonicalBankQuestionPath ?? `/bank/${subject}/${idParam}`}`,
             },
           ])}
         />
@@ -4047,7 +4134,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       openStateKey={desmosOpenStateKey}
                       onRestoreSidebarPosition={restoreDesmosSplitPosition}
                       contentSplitExitPosition={sidebarExitContentSplitPosition}
-                      sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
                       sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                     />
                   </>
@@ -4536,7 +4622,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   windowPortalContainer={windowPortalContainer}
                   windowBoundsElement={windowBoundsElement}
                   contentSplitExitPosition={sidebarExitContentSplitPosition}
-                  sidebarExitHeaderMaxWidth={QUESTION_HEADER_CONTAINER_MAX_WIDTH}
                   sidebarExitMainMaxWidth={effectiveQuestionViewMode === "horizontal" ? undefined : QUESTION_CONTENT_MAX_WIDTH}
                 />
               )}

@@ -1,0 +1,15 @@
+{
+  "questionId": "21612a9e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the 2020 copper value",
+      "content": "The sentence asks about the country that mined 0.55 million metric tons of copper in 2020. After locating that country in the table, the needed value is the amount it mined in 1995."
+    },
+    {
+      "title": "Reject mismatched values",
+      "content": "B gives a 2020 value for a different country. C belongs to another country entirely. D is another country's 1995 value, not the 1995 value for the country with 0.55 in 2020. The answer is <strong>A</strong>."
+    }
+  ]
+}

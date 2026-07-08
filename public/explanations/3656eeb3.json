@@ -1,0 +1,15 @@
+{
+  "questionId": "3656eeb3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sign restriction",
+      "content": "The square root $\\sqrt{5a+6}$ cannot be negative. Since it equals $-12a$, the value of $-12a$ must be nonnegative, so $a\\le0$."
+    },
+    {
+      "title": "Test the negative value",
+      "content": "Use the matching negative choice.\n$$\nf\\bigl(-\\frac{3}{16}\\bigr)=\\sqrt{5\\bigl(-\\frac{3}{16}\\bigr)+6}=\\sqrt{\\frac{81}{16}}=\\frac{9}{4}\n$$\nAlso,\n$$\n-12\\bigl(-\\frac{3}{16}\\bigr)=\\frac{9}{4}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

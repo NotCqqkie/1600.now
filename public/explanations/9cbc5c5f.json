@@ -1,0 +1,15 @@
+{
+  "questionId": "9cbc5c5f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the purring trait",
+      "content": "The text says rusty-spotted cats have a rigid hyoid bone that rumbles when the larynx vibrates, producing a purr. Lions, by contrast, have a more flexible hyoid and a stretchy ligament that help produce roars."
+    },
+    {
+      "title": "Reject unsupported traits",
+      "content": "<ul><li><strong>Choice A</strong> names a ligament that rusty-spotted cats lack.</li><li><strong>Choice B</strong> mentions body size, but the text identifies the hyoid as the proposed cause of purring.</li><li><strong>Choice D</strong> mentions larynx shape, which the text does not identify as the relevant trait.</li></ul>The remaining choice names the rigid hyoid bone. The answer is <strong>C</strong>."
+    }
+  ]
+}

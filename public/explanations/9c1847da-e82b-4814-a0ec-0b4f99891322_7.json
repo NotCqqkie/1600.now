@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the mean formula",
-      "content": "$$\\text{mean} = \\dfrac{\\text{sum of values}}{\\text{number of values}}$$<br/>Sum the 5 task times from the table, then divide by 5."
+      "title": "Total the task durations",
+      "content": "The mean is total time divided by task count. The table values add to $45$ minutes."
     },
     {
-      "title": "Compute",
-      "content": "Adding the 5 times in the table gives a total of $50$ minutes.<br/>$$\\text{mean} = \\dfrac{50}{5} = 10 \\text{ minutes}$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Use the task count",
+      "content": "There are $5$ tasks.\n$$\\frac{45}{5}=9$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "b77b2af9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject is the singular noun phrase \"Neuros Medical's technology.\" The phrase \"alongside other such neuromodulation technologies\" is set off by commas and does not make the subject plural."
+    },
+    {
+      "title": "Choose the singular verb",
+      "content": "A is only a participle and does not form a complete verb. C and D use plural auxiliaries that do not agree with the singular subject. The sentence needs the singular complete verb phrase. The answer is <strong>B</strong>."
+    }
+  ]
+}

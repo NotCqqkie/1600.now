@@ -1,0 +1,15 @@
+{
+  "questionId": "0272acdf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the food-web clue",
+      "content": "The second sentence says that decreased MPB abundance has a direct negative impact on coastal food webs. If losing MPB directly damages the ecosystem, MPB must be necessary to that ecosystem."
+    },
+    {
+      "title": "Reject weaker relationships",
+      "content": "B means symbolically representative, but the passage describes real ecological impact. C means lower in rank, and D means replaceable; both conflict with the idea that losing MPB harms food webs. The needed phrase means essential to. The answer is <strong>A</strong>."
+    }
+  ]
+}

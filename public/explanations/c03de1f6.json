@@ -1,0 +1,15 @@
+{
+  "questionId": "c03de1f6",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the vertical intercept",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, so $x=0$."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "The graph passes through $(0,5)$ at the $y$-axis, so the requested value of $y$ is $5$. The answer is <strong>5</strong>."
+    }
+  ]
+}

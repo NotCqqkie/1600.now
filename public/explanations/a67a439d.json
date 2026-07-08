@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the linear equation",
-      "content": "From $x + 8 = 12$, subtract $8$:<br/>$$x = 4$$"
+      "title": "Find the input",
+      "content": "Solve the first equation.<br/>$$x+8=12$$<br/>$$x=4$$"
     },
     {
-      "title": "Substitute into the second equation",
-      "content": "Plug $x = 4$ into $(x+8)^2 = y$:<br/>$$y = (4+8)^2 = 12^2 = 144$$<br/>So the ordered pair is $(4, 144)$, which is choice A."
+      "title": "Find the output",
+      "content": "$$y=(x+8)^2=12^2=144$$<br/>$$(4{,}144)$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

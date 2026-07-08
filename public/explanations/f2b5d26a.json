@@ -1,0 +1,15 @@
+{
+  "questionId": "f2b5d26a",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match both sides exactly",
+      "content": "For an equation to have infinitely many solutions, the left and right sides must be the same expression for every value of $x$. The $7x$ terms already match."
+    },
+    {
+      "title": "Match the constant terms",
+      "content": "The constants must also be equal:<br/>$$23=k$$<br/>The answer is <strong>23</strong>."
+    }
+  ]
+}

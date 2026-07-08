@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the linear inequality",
-      "content": "Let $x$ = additional samples needed. The total samples collected will be current samples plus additional samples. Since the geologist needs at least 74 samples:<br/>$$69 + x \\geq 74$$"
+      "title": "Represent the missing samples",
+      "content": "Let $x$ be the number of additional samples. The geologist already has $69$ samples and needs at least $74$ samples, so<br/>$$69+x\\ge 74$$"
     },
     {
-      "title": "Solve for the minimum additional samples",
-      "content": "Subtract 69 from both sides:<br/>$$x \\geq 5$$<br/>The minimum number of additional samples is 5. That matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "Find the minimum amount",
+      "content": "Subtract $69$ from both sides:<br/>$$x\\ge 74-69$$<br/>$$x\\ge 5$$<br/>The minimum number of additional samples is $5$. The answer is <strong>C</strong>."
     }
   ]
 }

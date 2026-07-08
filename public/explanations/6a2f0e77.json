@@ -1,0 +1,15 @@
+{
+  "questionId": "6a2f0e77",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The blank is the subject of \"will begin to combust.\" The antecedent is \"the substance,\" referring to coconut oil. That antecedent is singular."
+    },
+    {
+      "title": "Use a singular subject pronoun",
+      "content": "Choice A and choice C are plural, so they do not agree with the singular antecedent. Choice D is a demonstrative that does not work as the natural pronoun for a previously named substance in this sentence. The remaining pronoun is singular and works as the subject: \"it will begin to combust.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

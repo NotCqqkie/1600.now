@@ -1,0 +1,15 @@
+{
+  "questionId": "a3f4d563",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare native and non-native counts",
+      "content": "The task asks for a comparison of how many native and non-native species were catalogued. The notes give 15 native species and 29 non-native species."
+    },
+    {
+      "title": "State the count relationship",
+      "content": "A names two examples but not the totals, B only says both kinds were catalogued, and C shifts to non-native birds. The needed comparison is that researchers found more non-native seed species than native species. The answer is <strong>D</strong>."
+    }
+  ]
+}

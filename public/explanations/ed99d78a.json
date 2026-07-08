@@ -1,0 +1,15 @@
+{
+  "questionId": "ed99d78a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular noun",
+      "content": "The blank modifies <em>important place</em>, and <em>place</em> is singular. The word in the blank must therefore be a singular demonstrative that can refer back to the Okavango Delta."
+    },
+    {
+      "title": "Reject plural modifiers",
+      "content": "Choice B refers to two things and cannot modify the singular noun <em>place</em>. Choice C is plural, so it does not agree with <em>place</em>. Choice D is also plural and creates the same number disagreement. The answer is <strong>A</strong>."
+    }
+  ]
+}

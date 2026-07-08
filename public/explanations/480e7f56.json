@@ -1,0 +1,15 @@
+{
+  "questionId": "480e7f56",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine rank and crew size",
+      "content": "First-rate ships had 850 to 875 crew members, while lower-ranked ships had fewer. The Boyne had three decks but was not first-rate, so it was a lower-ranked three-deck ship with fewer than 850 crew members."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "B exceeds the stated first-rate range. C reverses the ranking relationship between the Boyne and the Britannia. D is contradicted by the Boyne, which had 98 cannons but fewer than 850 crew members. At least one three-deck ship had fewer than 850 people. The answer is <strong>A</strong>."
+    }
+  ]
+}

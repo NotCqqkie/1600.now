@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the price from the equation coefficients",
-      "content": "The equation $4.65x + 6.25y = 921.75$ represents: (price of smaller containers) times (number sold) plus (price of larger containers) times (number sold) = total sales.<br/><br/>Since $x$ is the number of smaller containers, the coefficient $4.65$ must be the price per smaller container.<br/><br/>Therefore, the price of each smaller container is $4.65$ dollars.<br/><br/>The answer is <strong>4.65</strong>."
+      "title": "Identify the coefficient",
+      "content": "In the equation<br/><br/>$$4.65x+6.25y=921.75$$<br/><br/>$x$ is the number of smaller containers sold. The coefficient of $x$ is the dollar amount for each smaller container."
+    },
+    {
+      "title": "Read the unit price",
+      "content": "The coefficient attached to $x$ is $4.65$, so the smaller-container price is $4.65$ dollars. The answer is <strong>4.65</strong>."
     }
   ]
 }

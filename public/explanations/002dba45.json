@@ -5,19 +5,11 @@
   "steps": [
     {
       "title": "Read the slope of line k",
-      "content": "The equation $y=-\\frac{13}{4}x+6$ is already in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$, so line $k$ has slope $-\\frac{13}{4}$."
+      "content": "The equation is in slope-intercept form.<br/>$$y=-\\frac{13}{4}x+6$$<br/>So line $k$ has slope $-\\frac{13}{4}$."
     },
     {
-      "title": "Use the perpendicular shortcut",
-      "content": "Perpendicular slopes are negative reciprocals. Flip $-\\frac{13}{4}$ to $-\\frac{4}{13}$, then change the sign:<br/>$$m_j=\\frac{4}{13}$$"
-    },
-    {
-      "title": "Convert for entry",
-      "content": "$$\\frac{4}{13}=0.3076923\\ldots$$<br/>A valid decimal entry is $.3076$."
-    },
-    {
-      "title": "Answer",
-      "content": "The slope of line $j$ is $\\frac{4}{13}$, so <strong>4/13</strong> is a correct entry."
+      "title": "Use the perpendicular slope",
+      "content": "Perpendicular slopes are negative reciprocals, so flip the fraction and change the sign.<br/>$$m_j=\\frac{4}{13}$$<br/>The answer is <strong>4/13</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "08fdee7e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject is the plural noun \"Objects.\" The phrase naming 49036 Pelion is an appositive example inserted between the subject and the verb, so it does not control subject-verb agreement."
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "A, B, and C are singular verb forms, so each incorrectly agrees with the singular example rather than the plural subject. The verb must agree with \"Objects.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

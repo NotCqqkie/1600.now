@@ -1,0 +1,16 @@
+{
+  "questionId": "0512c864",
+  "correctAnswer": "11.84",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the density-volume relationship",
+      "content": "To find mass, we use:<br/>$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$<br/>Given:<ul><li>Edge of cube = 4.000 cm</li><li>Density = 0.185 g/cm³</li></ul>For a cube, Volume = (edge)³.",
+      "formula": "$$\\text{Mass} = \\text{Density} \\times \\text{Volume}$$"
+    },
+    {
+      "title": "Calculate volume and mass",
+      "content": "First, compute the volume:<br/>$$(4.000)^3 = 64.000 \\text{ cm}^3$$<br/>Then multiply by density:<br/>$$\\text{Mass} = 0.185 \\times 64.000 = 11.84 \\text{ grams}$$"
+    }
+  ]
+}

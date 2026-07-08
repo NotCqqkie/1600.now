@@ -1,0 +1,15 @@
+{
+  "questionId": "a249bdc0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent",
+      "content": "Five percent of $w$ is $912.46$, so<br/>$$0.05w=912.46$$"
+    },
+    {
+      "title": "Divide by the decimal",
+      "content": "Divide both sides by $0.05$:<br/>$$w=\\frac{912.46}{0.05}=18{,}249.2$$The answer is <strong>C</strong>."
+    }
+  ]
+}

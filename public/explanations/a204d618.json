@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sequential pattern",
-      "content": "The passage uses &quot;first&quot; to mark the initial step (scraping ice) and &quot;Lastly&quot; to mark the final step (smoothing). The blank introduces the middle step, so the transition must signal the second action in an ordered sequence."
+      "title": "Follow the sequence",
+      "content": "The passage describes the resurfacing machine's actions in order. It first scraped off the top layer of ice, then sprayed water into grooves, and lastly smoothed the newly formed ice."
     },
     {
-      "title": "Test each choice against the pattern",
-      "content": "<ul><li><strong>Choice A &mdash; For example,</strong>: signals that the sentence illustrates something from before, but the water spraying is not an example of scraping &mdash; it is a separate step. &#10007;</li><li><strong>Choice B &mdash; Next,</strong>: signals the second step in a sequence, fitting exactly between &quot;first&quot; scraped and &quot;Lastly&quot; smoothed. &#10003;</li><li><strong>Choice C &mdash; Similarly,</strong>: signals that this action resembles the previous one, but spraying water into grooves is not similar to scraping off ice. &#10007;</li><li><strong>Choice D &mdash; In contrast,</strong>: signals an opposition to the previous action, but the passage describes steps in a single continuous process, not a contrast. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject nonsequential links",
+      "content": "A signals an example, C signals similarity, and D signals contrast. The blank needs a transition for the middle step in a sequence. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "807432f6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the contrast",
+      "content": "Three-host CLPs are usually shielded from external conditions during transmission, while directly transmitted parasites are exposed. However, the CLPs decreased as sea temperatures rose, while directly transmitted parasite abundance stayed largely stable."
+    },
+    {
+      "title": "Reject contradicted mechanisms",
+      "content": "Choice A says CLPs were less dependent on harmed hosts, which does not fit their decline. Choice C says directly transmitted parasites were more shielded, contradicting the passage. Choice D says more hosts protect parasites, but three-host CLPs declined."
+    },
+    {
+      "title": "Account for the decline",
+      "content": "Any benefit from the CLPs' transmission strategy must have been outweighed by other temperature-driven harms, explaining why their abundance still fell. The answer is <strong>B</strong>."
+    }
+  ]
+}

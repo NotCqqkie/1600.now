@@ -1,0 +1,16 @@
+{
+  "questionId": "e2ee18ef",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the first circle area",
+      "content": "Circle M has radius $9$ millimeters, so use the circle area formula before adding the given area of circle N.",
+      "formula": "$$A = \\pi r^2$$"
+    },
+    {
+      "title": "Add the two areas",
+      "content": "Circle M has area\n$$\\pi(9)^2=81\\pi$$\nCircle N has area $100\\pi$.\n$$81\\pi+100\\pi=181\\pi$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

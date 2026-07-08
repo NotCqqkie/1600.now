@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the system of equations",
-      "content": "Let $n$ = number of novels and $m$ = number of magazines.<br/><br/>Since there are 14 total items: $$n + m = 14$$<br/>Since the total cost is &#36;34: $$5n + m = 34$$"
+      "title": "Write equations for counts and cost",
+      "content": "Let $n$ be the number of novels and $m$ be the number of magazines. The total number of items and total cost give:<br/>$$n+m=14$$<br/>$$5n+m=34$$"
     },
     {
-      "title": "Solve by elimination",
-      "content": "Subtract the first equation from the second to eliminate $m$:<br/>$$(5n + m) - (n + m) = 34 - 14$$<br/>Simplify: $$4n = 20$$<br/>Divide both sides by 4: $$n = 5$$<br/>That matches <strong>Choice B &mdash; 5</strong>."
+      "title": "Subtract to eliminate magazines",
+      "content": "Subtract the first equation from the second:<br/>$$(5n+m)-(n+m)=34-14$$<br/>$$4n=20$$"
+    },
+    {
+      "title": "Solve for novels",
+      "content": "Divide by $4$:<br/>$$n=5$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

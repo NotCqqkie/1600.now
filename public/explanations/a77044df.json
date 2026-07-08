@@ -1,0 +1,15 @@
+{
+  "questionId": "a77044df",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main takeaway",
+      "content": "The passage defines horizontal gene transfer, notes that it is common among prokaryotes, and explains that understanding how to prevent it could help mitigate dangerous pathogens. The main idea centers on the possible usefulness of studying the process."
+    },
+    {
+      "title": "Avoid unsupported claims",
+      "content": "B says HGT is more common than initially thought, which the passage never claims. C invents new research overturning earlier findings. D suggests a common perception is inaccurate, but no such perception is discussed. The passage emphasizes potential practical applications. The answer is <strong>A</strong>."
+    }
+  ]
+}

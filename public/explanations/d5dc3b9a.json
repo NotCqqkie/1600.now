@@ -1,0 +1,19 @@
+{
+  "questionId": "d5dc3b9a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the depth boundary",
+      "content": "The mesophotic zone is defined as 30 to 150 meters below the surface. The question asks which coral species seems least suited to a full migration there, based on the depths where the species are currently found. The key value is therefore each species' maximum depth, because that shows whether it already reaches mesophotic conditions."
+    },
+    {
+      "title": "Compare the wrong measures",
+      "content": "Choice A focuses on a minimum depth of 20 meters, but a shallow minimum does not show the deepest conditions the species can tolerate. Choice C reaches 25 meters, close to the 30-meter threshold, so it is not the farthest from the mesophotic zone. Choice D uses the shallowest minimum depth, which is not the relevant measure for migration depth."
+    },
+    {
+      "title": "Choose the shallowest maximum",
+      "content": "Choice B identifies the species whose maximum depth is only 10 meters, farthest from the start of the mesophotic zone. A species currently found no deeper than 10 meters has the least evidence of tolerance for the cooler, darker mesophotic conditions. The answer is <strong>B</strong>."
+    }
+  ]
+}

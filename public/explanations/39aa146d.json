@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two readable points on the line",
-      "content": "The line of best fit rises from left to right, so the slope is positive. That eliminates the other choices. Two readable points on the line are approximately $(0,0.25)$ and $(4,2)$."
+      "title": "Choose two points",
+      "content": "The line of best fit rises from left to right, so its slope is positive. Two readable points on the line are approximately $(0,0.25)$ and $(4,2)$."
     },
     {
       "title": "Compute the slope",
-      "content": "Use the two readable points $(0,0.25)$ and $(4,2)$:<br/>$$m=\\frac{2-0.25}{4-0}=\\frac{1.75}{4}=0.4375$$<br/>Rounded to the choices, the slope is about $0.44$."
+      "content": "Use slope as change in $y$ divided by change in $x$.<br/>$$m=\\frac{2-0.25}{4-0}$$<br/>$$m=\\frac{1.75}{4}=0.4375$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "The positive slope near $0.44$ matches the correct answer. $2.27$ is positive but much too steep for the drawn line.",
+      "title": "Match the closest value",
+      "content": "The closest listed slope is $0.44$. The much larger positive value, $2.27$, is too steep for the line shown. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=0.4375x+0.25"
       ]

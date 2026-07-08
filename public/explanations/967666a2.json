@@ -1,0 +1,19 @@
+{
+  "questionId": "967666a2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require a refuting quote",
+      "content": "The student must use a quotation to refute the claim that slow TV is boring. The best sentence must explicitly push against that claim and use Reynolds's praise as evidence."
+    },
+    {
+      "title": "Reject incomplete uses",
+      "content": "Choice A uses the quotation but does not refute the boring claim. Choice B merely presents both views. Choice D repeats the boring claim instead of challenging it."
+    },
+    {
+      "title": "Use praise against boredom",
+      "content": "Choice C starts with <em>Far from boring</em> and then uses Reynolds's phrase about armchair tourism to show slow TV can be engaging. The answer is <strong>C</strong>."
+    }
+  ]
+}

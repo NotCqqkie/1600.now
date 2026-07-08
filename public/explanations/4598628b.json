@@ -1,0 +1,15 @@
+{
+  "questionId": "4598628b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the power requirement",
+      "content": "The claim to support is that steady energy loads are an absolute prerequisite for powering wireless communication devices piezoelectrically. Evidence would most directly support that claim by showing why steadiness matters for the devices themselves. If intermittent or unpredictable electrical supply weakens wireless device performance, then a steady supply is necessary."
+    },
+    {
+      "title": "Reject device mismatches",
+      "content": "Choice A discusses spacecraft vibration and non-CFRP harvesters but not why steady supply is required. Choice B says CFRP conductivity makes the harvester sufficient without proving the prerequisite. Choice D contradicts the proposed use by calling CFRP incompatible. Choice C directly links unreliable supply to weaker wireless device efficacy. The answer is <strong>C</strong>."
+    }
+  ]
+}

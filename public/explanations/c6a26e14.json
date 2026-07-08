@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\left|x+45\\right|=48$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $3$.",
+      "title": "Split the absolute value",
+      "content": "The equation $|x+45|=48$ means the expression inside the absolute value can equal $48$ or $-48$:<br/>$$x+45=48$$<br/>$$x+45=-48$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "Subtract $45$ from both equations:<br/>$$x=3$$<br/>$$x=-93$$"
+    },
+    {
+      "title": "Choose the positive value",
+      "content": "Only $3$ is positive. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "\\left|x+45\\right|=48"
       ]
-    },
-    {
-      "title": "Split the absolute value",
-      "content": "$$|x+45|=48$$ means the expression inside the absolute value is either $48$ or $-48$: $$x+45=48 \\quad \\text{or} \\quad x+45=-48.$$"
-    },
-    {
-      "title": "Find both solutions",
-      "content": "The first equation gives $x=3$. The second gives $x=-93$."
-    },
-    {
-      "title": "Choose the positive solution",
-      "content": "The positive solution is $3$, so the result is correct. The other positive choices do not satisfy $|x+45|=48$."
     }
   ]
 }

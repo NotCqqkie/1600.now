@@ -1,0 +1,15 @@
+{
+  "questionId": "89986153",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two sentences",
+      "content": "The first clause makes a general claim about increasing airport use. The Austin-Bergstrom sentence is an example, so the transition should start a new sentence with For example followed by a comma."
+    },
+    {
+      "title": "Compare the punctuation",
+      "content": "Choice A strands for example at the end of the first sentence; Choice C misuses a semicolon after the transition; Choice D creates a comma splice. Choice B correctly ends the first sentence and begins the example with a comma after the transition. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "47e27417",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make a statement",
+      "content": "The blank follows \"Interestingly,\" and is followed by another factual sentence. The blank should therefore be a complete declarative sentence, not a direct question."
+    },
+    {
+      "title": "Match word order and punctuation",
+      "content": "Choice A has statement word order but ends with a question mark. Choice C uses question word order but ends with a period. Choice D makes the same mismatch with a negative question form. The answer is <strong>B</strong>."
+    }
+  ]
+}

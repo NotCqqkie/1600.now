@@ -1,0 +1,15 @@
+{
+  "questionId": "33734ba7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two sentences",
+      "content": "The first clause says the black sand dazzles visitors. The next idea begins with <em>When they take a bit of sand home</em> and has its own main clause, so the first sentence should end before that dependent clause begins."
+    },
+    {
+      "title": "Avoid a run-on",
+      "content": "Choice A gives no punctuation between the ideas. Choice B uses only a comma, creating a comma splice. Choice D creates an awkward <em>and when</em> construction. A period correctly ends the first sentence and begins the next. The answer is <strong>C</strong>."
+    }
+  ]
+}

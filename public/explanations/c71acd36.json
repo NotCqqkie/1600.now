@@ -1,0 +1,15 @@
+{
+  "questionId": "c71acd36",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep actor and role distinct",
+      "content": "The sentence says the best discussions maintain a rigid distinction between an actor and a character. The blank must therefore mean treating two separate things as if they were the same."
+    },
+    {
+      "title": "Choose the merging verb",
+      "content": "B means serve as a perfect example, C means criticize harshly, and D means make something seem less important. \"Conflate\" means combine or confuse separate things, which fits the warning about actor and character. The answer is <strong>A</strong>."
+    }
+  ]
+}

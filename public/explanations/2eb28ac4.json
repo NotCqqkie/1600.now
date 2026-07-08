@@ -1,0 +1,19 @@
+{
+  "questionId": "2eb28ac4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the time frames",
+      "content": "The first sentence describes Vietnam's urbanization from 2015 to 2020. The second sentence describes urbanization across Southeast Asia during that same five-year period, so the transition must signal simultaneous trends."
+    },
+    {
+      "title": "Reject the wrong transitions",
+      "content": "Choice A would make the regional trend an example of Vietnam's trend, which it is not. Choice B implies a later event, but both trends occurred during the same period. Choice C signals restatement, but the second statistic is distinct."
+    },
+    {
+      "title": "Mark simultaneous change",
+      "content": "The remaining transition means the two urbanization trends happened at the same time, matching the overlapping dates. The answer is <strong>D</strong>."
+    }
+  ]
+}

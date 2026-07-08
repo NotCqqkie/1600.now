@@ -1,0 +1,15 @@
+{
+  "questionId": "9254747d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the one unit factor",
+      "content": "For $f(x)=k(1.72)^x$, increasing $x$ by $1$ multiplies the output by $1.72$. That is the factor for the same percent increase."
+    },
+    {
+      "title": "Make four units equivalent",
+      "content": "For $g(x)$ to have that same factor when $x$ increases by $4$, the exponent on $1.72$ must increase by $1$ when $x$ increases by $4$.\n$$\nk(1.72^x)^{\\frac{1}{4}}=k(1.72)^{x/4}\n$$\nSince \n$$\n\\frac{x+4}{4}=\\frac{x}{4}+1\n$$, this has the needed factor. The answer is <strong>A</strong>."
+    }
+  ]
+}

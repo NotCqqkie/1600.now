@@ -1,0 +1,19 @@
+{
+  "questionId": "621f863a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the coefficient sum",
+      "content": "In the rewritten form, the coefficient sum is\n$$\n\\frac{a}{4}+\\frac{b}{4}+\\frac{c}{4}=\\frac{a+b+c}{4}\n$$\nFor a polynomial, the coefficient sum equals the value at $x=1$."
+    },
+    {
+      "title": "Evaluate at one",
+      "content": "Substitute $x=1$ into the original expression.\n$$\n-20(4(1)-1)^2+8(4(1)-2)^2\n$$\n$$\n=-20(3)^2+8(2)^2\n$$\n$$\n=-180+32=-148\n$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "Since the coefficient sum is \n$$\n\\frac{a+b+c}{4}\n$$,\n$$\n\\frac{a+b+c}{4}=-148\n$$\n$$\na+b+c=4(-148)=-592\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

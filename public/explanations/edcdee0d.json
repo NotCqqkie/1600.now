@@ -1,0 +1,15 @@
+{
+  "questionId": "edcdee0d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare each crown age",
+      "content": "The researchers' view requires clades to have existed before Grande Terre completely emerged 37 million years ago. The stick insect clade's crown age is about 41.1 million years, which is older than the island's emergence, while the flea beetle clade's crown age is only about 12.8 million years."
+    },
+    {
+      "title": "Apply the dates",
+      "content": "B is wrong because Caldwell's stick insect finding supports the view rather than weakening it. C treats a clade age as an island-emergence date. D calls the reported crown ages inaccurate assumptions, which the text does not suggest. The dates support the view for one group but not the other. The answer is <strong>A</strong>."
+    }
+  ]
+}

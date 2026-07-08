@@ -1,0 +1,19 @@
+{
+  "questionId": "675c9aa5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Estimate the slope",
+      "content": "Two readable points from the graph are $(0{,}65)$ and $(100{,}105)$. The slope is<br/>$$\\frac{105-65}{100-0}=\\frac{40}{100}=\\frac{2}{5}$$"
+    },
+    {
+      "title": "Check the model values",
+      "content": "A model for the graph is $$t(x)=65+\\frac{2}{5}x$$ This gives $t(0)=65$, so the statement about $0\\%$ GC content is consistent with the graph."
+    },
+    {
+      "title": "Compare high percentages",
+      "content": "Evaluate the model at the high percentages.<br/>$$t(95)=65+38=103$$<br/>$$t(98)=65+39.2=104.2$$<br/>The value for $98\\%$ is not between $80^\\circ\\text{C}$ and $90^\\circ\\text{C}$. The answer is <strong>D</strong>."
+    }
+  ]
+}

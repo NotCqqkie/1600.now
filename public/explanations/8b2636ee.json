@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the explicit goal",
-      "content": "The student needs to identify what <em>type</em> of scientist Chaudhuri is—not just her field, but her professional title. The notes provide both: Chaudhuri studies sedimentary rocks, and sedimentary-rock scientists are called sedimentologists."
+      "title": "Identify Chaudhuri's field",
+      "content": "The notes say Anika Chaudhuri studies sedimentary rocks. They also state that a scientist who studies sedimentary rocks is called a sedimentologist. The student wants to identify what type of scientist Chaudhuri is."
     },
     {
-      "title": "Apply the definition directly",
-      "content": "Choice D answers the goal by applying the provided term to Chaudhuri. The other choices mention related information but never identify the specific type of scientist she is. That confirms <strong>D</strong> is correct."
+      "title": "Reject less direct choices",
+      "content": "Choice A only identifies chalk as a sedimentary rock. Choice B says some scientists study examples of sedimentary rocks. Choice C says such scientists exist, but it does not identify Chaudhuri's type."
+    },
+    {
+      "title": "Give the scientist type",
+      "content": "The remaining choice directly applies the definition to Chaudhuri and identifies her as a sedimentologist. The answer is <strong>D</strong>."
     }
   ]
 }

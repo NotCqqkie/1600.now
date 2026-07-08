@@ -1,0 +1,15 @@
+{
+  "questionId": "2729e4e1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Expand both sides, then move all terms to one side:<br/>$x(x+5)-176=3x(x-11)$<br/>$x^2+5x-176=3x^2-33x$<br/>$2x^2-38x+176=0$<br/>$x^2-19x+88=0$"
+    },
+    {
+      "title": "Use the sum of roots",
+      "content": "For $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$. Here, $a=1$ and $b=-19$, so $-\\frac{-19}{1}=19$. The answer is <strong>D</strong>."
+    }
+  ]
+}

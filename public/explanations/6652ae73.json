@@ -1,0 +1,15 @@
+{
+  "questionId": "6652ae73",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the needed trend from the passage",
+      "content": "The claim is that policy and market shifts led to natural forest regrowth by the mid-1980s, so the supporting evidence should show forest cover increasing over time after the earlier period of conversion pressure."
+    },
+    {
+      "title": "Keep the timeline-specific increase",
+      "content": "Choice A compares only specific classes within 2000 and misses a temporal trend. Choice D compares different classes in 1986 only. Choice C highlights earlier declines from 1960 to 1979. Choice B states the increase in forest cover for all classes from 1979 to 2000, which directly supports regrowth. The answer is <strong>B</strong>."
+    }
+  ]
+}

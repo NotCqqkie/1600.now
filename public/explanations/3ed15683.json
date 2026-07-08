@@ -1,0 +1,15 @@
+{
+  "questionId": "3ed15683",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the study result",
+      "content": "The underlined sentence reports how cuttlefish responded to 3D images in the experiment after the team tested whether the old assumption about cuttlefish vision was true. It says they changed their striking position to match the images, suggesting they have 3D vision."
+    },
+    {
+      "title": "Reject non-result functions",
+      "content": "A would explain a difference in types of 3D vision, B would propose future research, and D would explain why animals were once thought to lack 3D vision. The sentence instead gives the observed behavior and the conclusion drawn from it, so it presents the experiment's finding. The answer is <strong>C</strong>."
+    }
+  ]
+}

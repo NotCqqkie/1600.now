@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=8$$<br/>$$y={x}^{2}+8$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Use the fixed input",
+      "content": "The first equation gives the value of $x$ directly. Because the intersection point satisfies both equations in the system, substitute $x=8$ into the second equation."
+    },
+    {
+      "title": "Find the output value",
+      "content": "Evaluate the expression for $y$ using the given value of $x$.\n$$y=8^2+8$$\n$$y=64+8$$\n$$y=72$$\nThe requested value is the $y$-coordinate of the intersection point. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "x=8",
         "y={x}^{2}+8"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>D</strong>, $72$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

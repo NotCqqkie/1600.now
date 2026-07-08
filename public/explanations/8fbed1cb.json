@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the anachronism",
-      "content": "Titanium dioxide entered ink manufacturing in the early 1900s. If the Vinland Map's ink contains it, the map cannot predate that invention &mdash; so a genuine 1400s artifact is ruled out."
+      "title": "Use the ink date",
+      "content": "The team found titanium dioxide in the Vinland Map's ink. Because titanium dioxide was first introduced in ink manufacturing in the early 1900s, a map containing it could not have been produced by mapmakers in the mid-1400s."
     },
     {
-      "title": "Match the conclusion to each choice",
-      "content": "<ul><li><strong>Choice A &mdash; mid-1400s Europeans could not have known about the eastern coast of present-day North America.</strong>: About geographic knowledge, not about ink chemistry &mdash; the passage never addresses this. &#10007;</li><li><strong>Choice B &mdash; the Vinland Map could not have been drawn by mid-1400s mapmakers.</strong>: Follows directly: an ingredient that didn&apos;t exist until the 1900s cannot appear in a 1400s map, so the map must be a forgery. &#10003;</li><li><strong>Choice C &mdash; mapmakers must have used titanium compounds in their ink in the 1400s.</strong>: Contradicts the passage, which says titanium dioxide only appeared in ink in the early 1900s. &#10007;</li><li><strong>Choice D &mdash; there isn't enough information to determine when the ink was created.</strong>: Contradicts the finding &mdash; the presence of a post-1900 compound is precisely the information needed to date the ink. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Keep the conclusion narrow",
+      "content": "A overreaches from ink chemistry to what Europeans could have known. C contradicts the timeline for titanium compounds in ink. D ignores that the post-1900 compound gives evidence about when the ink could have been made. The answer is <strong>B</strong>."
     }
   ]
 }

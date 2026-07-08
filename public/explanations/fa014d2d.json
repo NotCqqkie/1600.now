@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The text says the microchip &ldquo;radically altered&rdquo; the semiconductor industry, and historians argue it had a fundamental effect by enabling mass production for the first time. The blank needs a word meaning a deep, enabling change &mdash; one that made the industry capable of something it could not do before."
+      "title": "Use the alteration clue",
+      "content": "The passage says the integrated circuit radically altered the semiconductor industry and enabled mass production for the first time. The blank needs a word for a fundamental change in the industry's capabilities."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"overwhelmed\"</strong>: Means overpowered or defeated. The text frames the microchip&rsquo;s effect as positive and enabling (mass production became possible), not as something that crushed or defeated the industry. &#10007;</li><li><strong>\"bypassed\"</strong>: Means intentionally avoided or circumvented. The microchip directly affected the semiconductor industry; it did not go around it. &#10007;</li><li><strong>\"obstructed\"</strong>: Means blocked or hindered. Again, the effect described is positive &mdash; enabling mass production &mdash; not a hindrance. &#10007;</li><li><strong>\"transformed\"</strong>: Means substantially changed in character or capability. Matches the passage: the microchip fundamentally changed what the industry could do by unlocking mass production methods for the first time. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Match the precise verb",
+      "content": "<ul><li><strong>Choice A</strong>: Means overpowered, but the effect described is enabling.</li><li><strong>Choice B</strong>: Means went around, but the microchip directly affected the industry.</li><li><strong>Choice C</strong>: Means blocked, opposite of enabling mass production.</li><li><strong>Choice D</strong>: Means changed substantially, matching the industry-wide shift.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

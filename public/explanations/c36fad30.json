@@ -1,0 +1,15 @@
+{
+  "questionId": "c36fad30",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the curing process",
+      "content": "The question asks for the choice that describes how DLS cures 3D objects. The notes explain that UV light images cure layers in liquid resin, the object is raised so resin can flow through the dead zone, and the completed object is baked in an oven."
+    },
+    {
+      "title": "Check each process description",
+      "content": "Choice A omits UV light, the driving mechanism of the process. Choice B wrongly says curing is completed in the dead zone rather than in the oven. Choice D opens with a general definition and has an awkward construction that makes the process less clear. The remaining choice accurately describes UV images curing resin layer by layer and the final oven step. The answer is <strong>C</strong>."
+    }
+  ]
+}

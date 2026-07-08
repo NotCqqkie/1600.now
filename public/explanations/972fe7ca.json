@@ -1,0 +1,19 @@
+{
+  "questionId": "972fe7ca",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the matching examples",
+      "content": "The passage says demonstration sports showcased sports related to the host country. Korfball is linked to the Netherlands, and kyudo is linked to Japan, so the transition should show that the choices were appropriate."
+    },
+    {
+      "title": "Remove illogical transitions",
+      "content": "<ul><li><strong>Choice A</strong> merely adds information and misses the host-country match.</li><li><strong>Choice B</strong> signals contrast, but the examples fit the rule.</li><li><strong>Choice D</strong> signals concession, but no obstacle or surprise is introduced.</li></ul>"
+    },
+    {
+      "title": "Signal the apt choice",
+      "content": "Fittingly shows that the sports were suitably chosen for the Amsterdam and Tokyo Games. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the roots",
-      "content": "By the zero-product property, $5x(x-6)(x+7)=0$ requires one factor to be zero. That gives $x=0$, $x=6$, or $x=-7$."
+      "title": "Set each factor to zero",
+      "content": "A product equals $0$ when at least one factor equals $0$. For<br/>$$5x(x-6)(x+7)=0$$<br/>the factors give $x=0$, $x=6$, or $x=-7$."
     },
     {
-      "title": "Identify a valid solution",
-      "content": "Among the choices, $0$ is a root of the equation. That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Choose a listed solution",
+      "content": "Among the answer choices, $0$ is one of the solutions to the equation. The answer is <strong>B</strong>."
     }
   ]
 }

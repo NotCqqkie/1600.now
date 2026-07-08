@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank requires",
-      "content": "The sentence says the fossils are so well preserved that the team has been able to ______ detailed information about the life forms — things like color patterns and species interactions. The blank needs a word meaning to gain or acquire information from a source."
+      "title": "Use the information context",
+      "content": "The fossils are so well preserved that scientists can learn details about the organisms, such as color patterns and species interactions. The blank needs a verb meaning to get or acquire information."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"occupy\"</strong>: Means to inhabit or engage. Information cannot be inhabited or occupied — this makes no sense in context. &#10007;</li><li><strong>\"hoard\"</strong>: Means to collect and hide away. Nothing in the passage suggests the team is concealing the information; they are scientists studying and sharing findings. &#10007;</li><li><strong>\"reserve\"</strong>: Means to withhold or set aside. Again, nothing indicates the team is holding the information back rather than gathering it. &#10007;</li><li><strong>\"obtain\"</strong>: Means to acquire or gain. The paleontologists are gaining detailed information from the well-preserved fossils — exactly what \"obtain\" expresses. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject wrong actions",
+      "content": "A means inhabit or take up space, which information cannot do here. B means collect and hide away. C means set aside or hold back. None fits scientists learning from fossils. The answer is <strong>D</strong>."
     }
   ]
 }

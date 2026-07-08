@@ -1,0 +1,19 @@
+{
+  "questionId": "516ff004",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student's goal is to emphasize a similarity between the two board games. The notes show the shared feature clearly: both designers created games inspired by works of fiction."
+    },
+    {
+      "title": "Reject one-sided details",
+      "content": "A mentions only Keller's game. C mentions only <em>Journey to the Center of the Earth</em>. D mentions only Lindgren's game. None of those choices compares the two games."
+    },
+    {
+      "title": "State the similarity",
+      "content": "Saying both games were inspired by works of fiction directly emphasizes the shared trait. The answer is <strong>B</strong>."
+    }
+  ]
+}

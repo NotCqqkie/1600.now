@@ -1,0 +1,15 @@
+{
+  "questionId": "25af3d81",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the example relationship",
+      "content": "The passage first says that most old solar eclipses have been forgotten, but not all. The next sentence names one specific eclipse that historians still discuss. The transition must introduce that eclipse as an example of the exception."
+    },
+    {
+      "title": "Compare the transition roles",
+      "content": "<ul><li><strong>Choice A</strong>: Indicates sequence, not an example.</li><li><strong>Choice B</strong>: Signals dismissal of a prior point, not support for it.</li><li><strong>Choice C</strong>: Introduces a specific instance of an old eclipse that was not forgotten.</li><li><strong>Choice D</strong>: Signals a summary, but the sentence provides an illustration.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

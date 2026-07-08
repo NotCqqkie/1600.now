@@ -1,0 +1,19 @@
+{
+  "questionId": "97c51f6a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the medians",
+      "content": "Each dot plot has $21$ values, so the median is the $11$th value. Counting each plot shows the $11$th value is $7$ for both data sets, so statement I is true."
+    },
+    {
+      "title": "Compare the spreads",
+      "content": "Standard deviation measures spread. Both sets are centered at $7$, but their squared distances from $7$ are different.<br/>$$\\text{Set A total}=50$$<br/>$$\\text{Set B total}=68$$<br/>So statement II is false."
+    },
+    {
+      "title": "Choose the true statement",
+      "content": "Only statement I must be true. The answer is <strong>B</strong>."
+    }
+  ]
+}

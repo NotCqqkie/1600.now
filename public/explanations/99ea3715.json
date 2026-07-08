@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find original y-intercept",
-      "content": "Set $$x=0$$ in $$27x+33y=297$$ to get $$33y=297$$.<br/>Solve: $$y=\\frac{297}{33}=9$$.<br/>So the original y‑intercept is $$(0,9)$$"
+      "title": "Find the original intercept",
+      "content": "Set $x=0$ in the original equation.\n$$27(0)+33y=297$$\n$$33y=297$$\n$$y=9$$"
     },
     {
-      "title": "Apply downward shift",
-      "content": "Shifting the graph down 5 units subtracts 5 from every y‑coordinate.<br/>New y‑intercept: $$9-5=4$$.<br/>Thus the shifted graph's y‑intercept is $$(0,4)$$ That confirms <strong>A</strong> is correct.",
+      "title": "Apply the downward shift",
+      "content": "Shifting down $5$ units subtracts $5$ from the vertical intercept.\n$$9-5=4$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The shifted line can be checked by graphing the original line and the translated line. The new vertical intercept is $(0,4)$. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "27x+33y=297",
         "27x+33y=132"

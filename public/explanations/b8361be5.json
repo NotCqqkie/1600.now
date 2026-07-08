@@ -1,0 +1,15 @@
+{
+  "questionId": "b8361be5",
+  "correctAnswer": "168",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the second group",
+      "content": "The second workshop included $42\\%$ of the $1{,}250$ people from the first workshop.<br/>$$0.42(1{,}250)=525$$"
+    },
+    {
+      "title": "Find the third group",
+      "content": "The third workshop included $32\\%$ of the $525$ people who attended both earlier workshops.<br/>$$0.32(525)=168$$<br/>The answer is <strong>168</strong>."
+    }
+  ]
+}

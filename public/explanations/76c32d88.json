@@ -1,0 +1,15 @@
+{
+  "questionId": "76c32d88",
+  "correctAnswer": "50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total weight loss",
+      "content": "The bear went from $356$ pounds to $321$ pounds, so the total weight loss was<br/>$$356-321=35$$"
+    },
+    {
+      "title": "Divide by the daily loss",
+      "content": "The bear lost $0.7$ pound per day, so the number of days is<br/>$$\\frac{35}{0.7}=50$$<br/>The answer is <strong>50</strong>."
+    }
+  ]
+}

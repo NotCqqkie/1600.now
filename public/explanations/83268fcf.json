@@ -1,0 +1,15 @@
+{
+  "questionId": "83268fcf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the commodity definition",
+      "content": "The passage defines soft commodities by origin: they are grown or farmed. Pine lumber is grown, so it fits the definition even though it is physically sturdier than sugar."
+    },
+    {
+      "title": "Reject contrast and exception signals",
+      "content": "A treats pine lumber's origin as a concession, and B wrongly calls it an exception to the rule. D suggests a summary, but the sentence applies the definition to a specific case. The answer is <strong>C</strong>."
+    }
+  ]
+}

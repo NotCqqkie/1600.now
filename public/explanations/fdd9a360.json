@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Research notes &mdash; the goal is to use a quotation to emphasize a potential problem with the wood-wide web theory. The only critical quotation in the notes is Nair and colleagues' concern that recent CMN claims are \"disconnected from evidence.\""
+      "title": "Use the critical quotation",
+      "content": "The student wants to use a quotation to emphasize a potential problem with the wood-wide web theory. The notes say the theory claims trees can communicate and exchange resources through common mycorrhizal networks. The quoted concern from Nair and colleagues is that recent claims about those networks are \"disconnected from evidence,\" which directly identifies a weakness in support for the theory."
     },
     {
-      "title": "Reasoning",
-      "content": "To accomplish the goal, the choice must (a) quote and (b) point to a problem. The phrase <strong>“disconnected from evidence”</strong> highlights the gap between popular claims and supporting evidence."
+      "title": "Reject positive details",
+      "content": "<strong>A</strong>, \"Describing trees as \"super-cooperators,\" Marsh first suggested that trees can exchange resources with one another in 1997,\" uses a quotation that presents the theory positively rather than showing a problem. <strong>B</strong>, \"In \"The Decay of the Wood-Wide Web?,\" Nair and colleagues note that common mycorrhizal networks \"have captured the interest of broad audiences,\"\" quotes public interest, not a weakness in the evidence."
     },
     {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>\"Describing trees as \"super-cooperators,\" Marsh first suggested that trees can exchange resources with one another in 1997.\"</strong>: the quoted phrase is positive and supports the theory rather than emphasizing a problem. &#10007;</li><li><strong>\"In \"The Decay of the Wood-Wide Web?,\" Nair and colleagues note that common mycorrhizal networks \"have captured the interest of broad audiences.\"</strong>: quotes neutral language about popularity, not the critical concern; does not emphasize a problem. &#10007;</li><li><strong>\"After evaluating dozens of CMN studies, Nair and colleagues expressed concern that recent claims about common mycorrhizal networks are \"disconnected from evidence.\"</strong>: uses the critical quotation to highlight the problem &mdash; that claims outrun the evidence. &#10003;</li><li><strong>\"Despite the concerns expressed in the 2022 study \"The Decay of the Wood-Wide Web?,\" the wood-wide web theory remains popular.\"</strong>: contains no quotation and therefore cannot accomplish the stated goal. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Choose the problem quotation",
+      "content": "<strong>D</strong>, \"Despite the concerns expressed in the 2022 study \"The Decay of the Wood-Wide Web?,\" the wood-wide web theory remains popular,\" mentions concerns but does not use a quotation, so it misses the student's stated goal. <strong>C</strong>, \"After evaluating dozens of CMN studies, Nair and colleagues expressed concern that recent claims about common mycorrhizal networks are \"disconnected from evidence,\"\" uses the relevant quotation to emphasize the potential problem. The answer is <strong>C</strong>."
     }
   ]
 }

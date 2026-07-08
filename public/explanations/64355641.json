@@ -1,0 +1,15 @@
+{
+  "questionId": "64355641",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep rejects as the main verb",
+      "content": "The sentence's main subject is \"Popper's theory,\" and the main verb later in the sentence is \"rejects.\" The blank must describe the theory without adding another finite main verb before \"rejects.\""
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "Choice A, Choice B, and Choice D all create finite verb phrases before \"rejects,\" producing competing main verbs. The present participle modifies \"theory\" while leaving \"rejects\" as the sentence's main verb. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e2ea860f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the requested value",
+      "content": "The sentence asks for the area of the White Mountain Apache Tribe in Arizona, so the answer must give that specific table entry. The Leech Lake value is already provided only for comparison."
+    },
+    {
+      "title": "Use the table entry",
+      "content": "A, C, and D give areas for other tribal nations in the table. The value listed for the White Mountain Apache Tribe in Arizona is 2,631 square miles. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b726c50d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute both sides",
+      "content": "Expand each side of the equation:<br/>$$40(x-2)=40x-80$$<br/>$$5(-16+8x)=-80+40x$$"
+    },
+    {
+      "title": "Compare the two sides",
+      "content": "Both sides simplify to the same expression:<br/>$$40x-80=40x-80$$<br/>This identity is true for every real value of $x$, so the equation has infinitely many solutions. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b21977a7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the proportion",
+      "content": "The ratio $6$ to $x$ is equivalent to the ratio $y$ to $7$, so<br/>$$\\frac{6}{x}=\\frac{y}{7}$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Cross-multiply and isolate $x$. The variable $x$ is in the denominator of the first ratio, so it becomes inversely related to $y$, not directly proportional to it.<br/>$$6\\cdot7=xy$$<br/>$$42=xy$$<br/>$$x=\\frac{42}{y}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

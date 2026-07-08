@@ -1,0 +1,15 @@
+{
+  "questionId": "3202bf8d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match both traffic trends",
+      "content": "The student's claim has two parts: traffic delay was greater in a very large city than in smaller areas, and delay still worsened over time in the smaller areas. The correct graph statement must support both the size difference and the upward trend."
+    },
+    {
+      "title": "Reject narrow graph claims",
+      "content": "Choice B gives only one Miami data point. Choice C reverses the relationship between Allentown-Bethlehem and Miami. Choice D mentions an isolated value below 20 hours without showing worsening over time. The remaining choice states that Miami was higher than Boise and that both areas rose. The answer is <strong>A</strong>."
+    }
+  ]
+}

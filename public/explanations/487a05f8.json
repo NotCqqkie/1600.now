@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a &quot;according to the text&quot; comprehension question. The passage opens with a direct statement of what the narrator and Diego did during the car ride; the correct choice must match that statement exactly."
+      "title": "Locate the direct detail",
+      "content": "The question asks what the narrator and Diego did in the car. The passage states directly that they played games to see how many license plates they could spot."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — They read books.</strong>: The passage never mentions reading during the car ride. &#10007;</li><li><strong>Choice B — They sang songs.</strong>: The passage never mentions singing during the car ride. &#10007;</li><li><strong>Choice C — They went to sleep.</strong>: The passage never mentions sleeping during the car ride. &#10007;</li><li><strong>Choice D — They played games.</strong>: The passage states directly that &quot;Diego and I played games to see how many different license plates we could spot.&quot; &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Remove unsupported actions",
+      "content": "A is wrong because the text never says they read books. B is wrong because it never says they sang. C is wrong because it never says they slept. The only supported action is the one stated in the first sentence. The answer is <strong>D</strong>."
     }
   ]
 }

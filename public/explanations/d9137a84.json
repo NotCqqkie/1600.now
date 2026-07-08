@@ -1,16 +1,19 @@
 {
   "questionId": "d9137a84",
-  "qid": "d9137a84",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "content": "Distribute the monomial $x^{-5}y^{4}z^{3}$ to each term of the binomial: $(x^{-5}y^{4}z^{3})(x^{2}z^{6}+y^{7}z^{-5}) = (x^{-5}y^{4}z^{3})(x^{2}z^{6}) + (x^{-5}y^{4}z^{3})(y^{7}z^{-5})$."
+      "title": "Distribute the monomial",
+      "content": "Multiply the monomial by each term in the binomial, keeping all factors from the monomial with each product:<br/>$$(x^{-5}y^4z^3)(x^2z^6+y^7z^{-5})=(x^{-5}y^4z^3)(x^2z^6)+(x^{-5}y^4z^3)(y^7z^{-5})$$"
     },
     {
-      "content": "Apply the rule $x^{a}\\cdot x^{b}=x^{a+b}$ to each product. First term: $x^{-5+2}y^{4}z^{3+6}=x^{-3}y^{4}z^{9}$. Second term: $x^{-5}y^{4+7}z^{3+(-5)}=x^{-5}y^{11}z^{-2}$."
+      "title": "Combine like bases",
+      "content": "When powers have the same base, add their exponents. The first product becomes $x^{-5+2}y^4z^{3+6}$, and the second becomes $x^{-5}y^{4+7}z^{3+(-5)}$. So the product is<br/>$$x^{-3}y^4z^9+x^{-5}y^{11}z^{-2}$$"
     },
     {
-      "content": "Combine to get $x^{-3}y^{4}z^{9}+x^{-5}y^{11}z^{-2}$. Evaluate each choice:<ul><li><strong>\"${x}^{-3}{z}^{9}+{y}^{11}{z}^{-2}$\"</strong>: missing the $y^{4}$ factor in the first term and the $x^{-5}$ factor in the second term. Incorrect.</li><li><strong>\"${x}^{-3}{z}^{9}+{x}^{-5}{z}^{-2}$\"</strong>: missing $y^{4}$ in the first term and $y^{11}$ in the second term. Incorrect.</li><li><strong>\"${x}^{-3}{y}^{4}{z}^{9}+{y}^{7}{z}^{-5}$\"</strong>: the first term is correct but the second term retains the original $y^{7}z^{-5}$ without the $x^{-5}y^{4}$ factors applied. Incorrect.</li><li><strong>\"${x}^{-3}{y}^{4}{z}^{9}+{x}^{-5}{y}^{11}{z}^{-2}$\"</strong>: matches both computed terms exactly. That matches the correct answer - <strong>D</strong> is correct.</li></ul>"
+      "title": "Match the product",
+      "content": "The simplified expression keeps $y^4$ in the first term and keeps $x^{-5}$ with $y^{11}$ in the second term. The expression is<br/>$$x^{-3}y^4z^9+x^{-5}y^{11}z^{-2}$$<br/>The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

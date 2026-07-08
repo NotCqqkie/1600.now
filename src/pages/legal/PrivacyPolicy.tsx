@@ -92,34 +92,43 @@ const sections = [
     ],
   },
   {
-    title: "10. Security",
+    title: "10. Schools, Educators, and Student Data Privacy",
+    body: [
+      "1600.now is offered directly to students as a free, ad-free study tool, and educators, school counselors, tutors, librarians, and college-access programs are welcome to share it with the students they serve. We designed the Service so that a student can use the question bank, practice modules, score calculator, vocabulary review, and explanations without creating an account or providing any personal information. An account is optional and is used only to save progress across devices, so most use of the Service involves no student personal information being submitted to us at all.",
+      "No advertising and no sale of student data: The Service displays no advertising. We do not sell or rent student personal information, we do not use student information for cross-context behavioral advertising or targeted advertising, and we do not build advertising or marketing profiles of students. We do not use student learning data to train third-party models. These commitments are consistent with the Children's Online Privacy Protection Act (\"COPPA\"), the Family Educational Rights and Privacy Act (\"FERPA\"), and state student-privacy laws such as California's Student Online Personal Information Protection Act (\"SOPIPA\").",
+      "FERPA: If a school or educator directs students to use the Service and any student \"education records\" (as defined by FERPA) are provided to us in connection with that use, we will use that information solely to provide and support the Service at the school's direction, act under the direct control of the school with respect to that information, not re-disclose it except as permitted by FERPA or as directed by the school, and delete or return it on the school's or student's request. Because the Service can be used without submitting education records, most classroom, library, and program use involves no transfer of FERPA-protected records to us.",
+      "Requests from schools, parents, and students: Schools, parents, guardians, and students may request access to, correction of, or deletion of a student's information, ask what information (if any) we hold, or ask questions about our data practices by emailing us at the contact address below. We will respond within the time required by applicable law.",
+    ],
+  },
+  {
+    title: "11. Security",
     body: [
       "We use reasonable administrative, technical, and organizational safeguards designed to protect personal information against unauthorized access, alteration, disclosure, and destruction, including encryption in transit (HTTPS/TLS), access controls, Firestore security rules, authenticated database access, and audit logging through our hosting providers.",
       "No method of transmission over the internet or method of electronic storage is 100% secure, however, and we cannot guarantee absolute security. You are responsible for protecting your account credentials and for promptly notifying us of any suspected unauthorized access at the contact email below.",
     ],
   },
   {
-    title: "11. Third-Party Links and Services",
+    title: "12. Third-Party Links and Services",
     body: [
       "The Service may contain links to third-party websites, services, and resources that are not operated by us, and may embed third-party tools (such as the Desmos graphing calculator). This Privacy Policy does not apply to those third-party services, and we are not responsible for their content, privacy practices, or terms.",
       "We encourage you to review the privacy policies of any third-party service you interact with, including: Google's Privacy Policy (for Firebase, Google Analytics for Firebase, and Google Sign-In) and Desmos's Privacy Policy.",
     ],
   },
   {
-    title: "12. Generated Content and Privacy",
+    title: "13. Generated Content and Privacy",
     body: [
       "Step-by-step explanations and certain other content shown in the Service may be prepared with automated generation systems. Where such content is pre-generated server-side or at build time, we do not transmit your personal information to model providers as part of the request. Where any user-supplied content (such as a question or note) is sent to a model provider in connection with a feature, that content is processed by the provider under its own terms and privacy policies and used solely to generate the requested output for you.",
       "We do not use your personal information to train third-party models. We do not authorize model providers to use your personal information for their own purposes beyond providing the requested service to us.",
     ],
   },
   {
-    title: "13. Changes to This Policy",
+    title: "14. Changes to This Policy",
     body: [
       "We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. When we make material changes, we will revise the \"Effective date\" above and may provide additional notice through the Service or by email. Your continued use of the Service after the update becomes effective constitutes your acceptance of the updated Privacy Policy.",
     ],
   },
   {
-    title: "14. Contact Us",
+    title: "15. Contact Us",
     body: [
       `If you have questions, comments, or requests regarding this Privacy Policy or our privacy practices, including requests to exercise your privacy rights, contact us at ${contactEmail}. We may need to verify your identity before acting on certain requests.`,
     ],
@@ -132,7 +141,7 @@ const PrivacyPolicy = () => {
       <PageSeo
         id="privacy-policy"
         title="Privacy Policy | 1600.now"
-        description="Privacy Policy for 1600.now, including what information is collected, how it is used, and how to contact us."
+        description="Privacy Policy for 1600.now: what we collect, how it is used, and our commitments for students and schools under COPPA, FERPA, and state student-data-privacy laws. No ads, no sale of student data."
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: "Home", url: "https://1600.now/" },
@@ -149,7 +158,7 @@ const PrivacyPolicy = () => {
 
       <header className={legalPageClasses.header}>
         <p className={legalPageClasses.effectiveDate}>
-          Effective date: April 20, 2026
+          Effective date: July 6, 2026
         </p>
         <h1 className={legalPageClasses.title}>
           Privacy Policy

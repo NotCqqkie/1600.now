@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rearrange to identify the quadratic",
-      "content": "Bring everything to one side: $15(x-17)(x+7) - 5(x+7) = 0$. Factor out $(x+7)$: $(x+7)[15(x-17)-5]=0$, giving $15x^2 - 155x - 1820 = 0$. So $a = 15$, $b = -155$."
+      "title": "Factor one side",
+      "content": "Move all terms to one side and factor.\n$$\n0=15(x-17)(x+7)-5(x+7)\n$$\n$$\n0=5(x+7)(3x-52)\n$$"
     },
     {
-      "title": "Vieta shortcut: sum $= -b/a$",
-      "content": "$$\\text{sum} = \\frac{-(-155)}{15} = \\frac{155}{15} = \\frac{31}{3} \\approx 10.33$$<br/>The source choice value <strong>10.33</strong> matches the computed sum."
+      "title": "Add the solutions",
+      "content": "Add the two solutions.\n$$\n-7+\\frac{52}{3}=\\frac{31}{3}\n$$\nThis is about $10.33$. The answer is <strong>10.33</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "0ef59d02",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the future sequence",
+      "content": "The chapter description uses future tense: \"we will focus.\" The next sentence describes another action that will happen next in the same chapter, so it should use simple future tense as well."
+    },
+    {
+      "title": "Reject tense shifts",
+      "content": "<ul><li><strong>Choice A</strong>: \"Will have turned\" is future perfect and implies completion before another future point, which is not signaled.</li><li><strong>Choice B</strong>: \"Turned\" shifts to simple past.</li><li><strong>Choice C</strong>: \"Had turned\" is past perfect and conflicts with the future framing.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

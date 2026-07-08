@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a dangling modifier question. The sentence opens with a participial phrase &mdash; &ldquo;Woven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist&rsquo;s Turkish grandmother&rdquo; &mdash; which must modify the subject of the independent clause that follows. The decisive clue: the things that were woven and hand-tufted are the tapestries, not the artist herself."
+      "title": "Attach the opening modifier",
+      "content": "The opening phrase says something was woven from recycled yarn and hand tufted using a carpet weaving technique. That modifier must attach to the subject that comes next. The logical subject is the topological tapestries, because the tapestries are the woven and tufted objects."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; the topological tapestries of Argentine textile artist Alexandra Kehayoglou are</strong>: the subject is the tapestries, so the participial phrase correctly modifies them; the resulting clause is grammatical and logical. &#10003;</li><li><strong>Choice B &mdash; the Argentine textile artist Alexandra Kehayoglou creates topological tapestries that are</strong>: the subject is Kehayoglou, not the tapestries &mdash; the participial phrase dangles because the artist was not woven or hand-tufted. &#10007;</li><li><strong>Choice C &mdash; when she creates her topological tapestries, Argentine textile artist Alexandra Kehayoglou makes them</strong>: the subject is again Kehayoglou, causing the same dangling modifier error; &ldquo;when she creates&rdquo; also introduces a second adverbial clause that disrupts the sentence structure. &#10007;</li><li><strong>Choice D &mdash; Alexandra Kehayoglou is an Argentine textile artist whose topological tapestries are</strong>: the subject is Kehayoglou &mdash; the participial phrase dangles because she, not her tapestries, is the grammatical subject following the opening modifier. &#10007;</li></ul>That is the correct answer."
+      "title": "Avoid a dangling modifier",
+      "content": "Choices B, C, and D all make Alexandra Kehayoglou the main subject after the opening modifier. That creates a dangling modifier because it would illogically suggest the artist herself was woven from recycled yarn and hand tufted. The sentence needs the subject immediately after the modifier to be the tapestries of Alexandra Kehayoglou, making the description grammatical and logical. The answer is <strong>A</strong>."
     }
   ]
 }

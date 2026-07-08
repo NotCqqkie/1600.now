@@ -1,0 +1,15 @@
+{
+  "questionId": "08ae072a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the confirmation clue",
+      "content": "The first sentence says Duchamp intended <em>Fountain</em> to challenge ideas about art. The second says the work \"did just that,\" so the transition should emphasize that the intention was realized."
+    },
+    {
+      "title": "Pick the confirming transition",
+      "content": "B would compare two similar examples, but there is only one work. C signals contrast, which conflicts with \"did just that.\" D adds a separate point rather than confirming the first sentence. The answer is <strong>A</strong>."
+    }
+  ]
+}

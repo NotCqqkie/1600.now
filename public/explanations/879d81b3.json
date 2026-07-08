@@ -1,0 +1,15 @@
+{
+  "questionId": "879d81b3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the pronoun to its noun",
+      "content": "The pronoun refers back to chicken fat, which the previous sentence calls the substance. That noun is singular and nonhuman, so the blank needs a singular nonhuman pronoun that clearly refers back to it."
+    },
+    {
+      "title": "Reject number and reference errors",
+      "content": "Choice A and choice B are plural, so they do not match the singular substance. Choice C is singular but does not work as a natural personal back-reference in this sentence. The remaining pronoun clearly refers to the singular substance that begins to combust. The answer is <strong>D</strong>."
+    }
+  ]
+}

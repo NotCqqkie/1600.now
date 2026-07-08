@@ -1,0 +1,19 @@
+{
+  "questionId": "f439fcb0",
+  "correctAnswer": "97",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the ordered roots",
+      "content": "Use the quadratic formula for each original equation. The first equation has roots<br/>$$-4\\pm \\sqrt{3}$$<br/>Thus $r=-4-\\sqrt{3}$ and $s=-4+\\sqrt{3}$. The second equation has roots<br/>$$-6\\pm 2\\sqrt{3}$$<br/>Thus $t=-6-2\\sqrt{3}$ and $u=-6+2\\sqrt{3}$."
+    },
+    {
+      "title": "Form the new roots",
+      "content": "The roots of the new equation are $r+u$ and $s+t$.<br/>$$r+u=(-4-\\sqrt{3})+(-6+2\\sqrt{3})=-10+\\sqrt{3}$$<br/>$$s+t=(-4+\\sqrt{3})+(-6-2\\sqrt{3})=-10-\\sqrt{3}$$"
+    },
+    {
+      "title": "Multiply the roots",
+      "content": "For $x^2+20x+c=0$, the constant term is the product of the roots.<br/>$$c=(-10+\\sqrt{3})(-10-\\sqrt{3})=100-3=97$$<br/>The answer is <strong>97</strong>."
+    }
+  ]
+}

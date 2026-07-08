@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the revenue parabola",
-      "content": "The model is $$y=-100x^2+1400x+7200$$ Since the coefficient of $x^2$ is negative, the graph opens downward, so its vertex gives the maximum revenue.",
+      "title": "Use the vertex formula",
+      "content": "For a quadratic $y=ax^2+bx+c$, the maximum or minimum occurs at\n$$\nx=-\\frac{b}{2a}\n$$\nHere, $a=-100$ and $b=1{,}400$."
+    },
+    {
+      "title": "Calculate the price increase",
+      "content": "Substitute the coefficients:\n$$\nx=-\\frac{1{,}400}{2(-100)}=7\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the revenue equation and read the $x$-coordinate of the vertex. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=-100x^2+1400x+7200"
       ]
-    },
-    {
-      "title": "Find the vertex x-value",
-      "content": "For $y=ax^2+bx+c$, the vertex occurs at $$x=-\\frac{b}{2a}$$ Here $a=-100$ and $b=1400$, so $$x=-\\frac{1400}{2(-100)}=7$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The maximum occurs when the ticket-price increase is $7$ dollars. The correct value is $7$, so <strong>B</strong> is correct."
     }
   ]
 }

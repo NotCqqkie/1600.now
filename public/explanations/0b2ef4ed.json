@@ -1,0 +1,19 @@
+{
+  "questionId": "0b2ef4ed",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the head-shape hypothesis",
+      "content": "The second team hypothesizes that intermediate-headed fish will be more likely than wide-headed fish to detect obstructions that create large vortices in low-visibility conditions. Because better detection would mean fewer collisions, a supporting finding should compare intermediate-headed and wide-headed fish under those exact conditions and show the wide-headed fish bumping into obstructions more often."
+    },
+    {
+      "title": "Rule out weak comparisons",
+      "content": "<ul><li><strong>Choice A - 'A study using obstructions that created large vortices in low-visibility conditions found that the <em>Synodontis macropunctata</em>, which has a relatively wide head, bumped into more than half of the obstructions.'</strong>: This reports only the wide-headed fish's collision rate. Without an intermediate-headed comparison, it cannot support a claim about relative detection ability.</li><li><strong>Choice B - 'A study using obstructions that created large vortices in low-visibility conditions found that some specimens of the intermediate-headed dusky smooth-hound (<em>Mustelus canis</em>) bumped into the obstructions more often than other specimens of the same fish did.'</strong>: This compares fish within the same intermediate-headed species, not intermediate-headed fish against wide-headed fish.</li></ul>"
+    },
+    {
+      "title": "Use the direct evidence",
+      "content": "<ul><li><strong>Choice D - 'A study using obstructions that created large vortices in low-visibility conditions found that the intermediate-headed dusky smooth-hound (<em>Mustelus canis</em>) bumped into the obstructions just as often as the wide-headed <em>Synodontis macropunctata</em> did.'</strong>: Equal collision rates would undermine the predicted advantage for intermediate-headed fish.</li><li><strong>Choice C - 'A study using obstructions that created large vortices in low-visibility conditions found that the wide-headed <em>Synodontis macropunctata</em> bumped into obstructions more often than the intermediate-headed dusky smooth-hound (<em>Mustelus canis</em>) did.'</strong>: This directly compares the two head types and shows the wide-headed fish detected the obstructions less effectively. The answer is <strong>C</strong>.</li></ul>"
+    }
+  ]
+}

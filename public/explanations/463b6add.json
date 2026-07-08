@@ -1,0 +1,19 @@
+{
+  "questionId": "463b6add",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept condition",
+      "content": "A $y$-intercept occurs where $x=0$. Substitute $0$ into the function."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Compute the output at $x=0$.<br/>$$y=(7/12)^{0+1}$$<br/>$$y=(7/12)^1$$<br/>$$y=7/12$$"
+    },
+    {
+      "title": "Write the intercept point",
+      "content": "The $x$-coordinate is $0$ and the $y$-coordinate is $7/12$, so the point is $(0,7/12)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

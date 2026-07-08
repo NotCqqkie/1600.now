@@ -1,0 +1,15 @@
+{
+  "questionId": "ccee993a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural antecedent",
+      "content": "The sentence says \"the artworks\" brought visual texture to the airport terminals. The blank refers back to those artworks as the subject of \"debuted in January 1983.\""
+    },
+    {
+      "title": "Match pronoun number",
+      "content": "Choice A, choice C, and choice D are singular pronouns, so they do not agree with plural \"artworks.\" The remaining pronoun is plural and correctly completes the dependent clause: \"When they debuted in January 1983.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

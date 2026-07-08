@@ -1,0 +1,15 @@
+{
+  "questionId": "9a65cf50",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the units",
+      "content": "Convert meters to miles and seconds squared to minutes squared. Since $1$ mile is $1{,}609$ meters and $1$ minute is $60$ seconds, multiply by $60^2$ for the time conversion:\n$$\n3.2\\cdot \\frac{1}{1{,}609}\\cdot 60^2\n$$"
+    },
+    {
+      "title": "Evaluate the rate",
+      "content": "Compute the converted rate:\n$$\\frac{3.2\\cdot 3{,}600}{1{,}609}=\\frac{11{,}520}{1{,}609}$$\nThis is about $7.16$. Rounded to the nearest tenth, this is $7.2$ miles per minute squared. The answer is <strong>B</strong>."
+    }
+  ]
+}

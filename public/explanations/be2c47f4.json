@@ -1,0 +1,15 @@
+{
+  "questionId": "be2c47f4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show award order",
+      "content": "The goal is chronological: show which person won the A.M. Turing Award first and which won later. The notes give Sanjay Rao in 1994 and Daniel Flores in 1995."
+    },
+    {
+      "title": "Reject nonsequence choices",
+      "content": "Choice A says both won but does not order them. Choice C gives only Flores's 1995 award. Choice D gives only Rao's 1994 award. The remaining choice names Rao first and marks Flores's award as later, making the sequence explicit. The answer is <strong>B</strong>."
+    }
+  ]
+}

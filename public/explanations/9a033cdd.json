@@ -1,0 +1,15 @@
+{
+  "questionId": "9a033cdd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a concrete value",
+      "content": "The student wants to specify an element's relative abundance on Earth. To meet that goal, the answer needs an element, the environment, and a numerical abundance measure. The notes provide two examples, including potassium's mass fraction on Earth: 160 parts per million, or 0.016%. A general statement about possible measurement methods would be too broad."
+    },
+    {
+      "title": "Reject vague or false options",
+      "content": "Choice B gives the needed specific abundance for potassium on Earth and identifies it as a mass fraction. Choice A only lists ways relative abundance can be expressed, without specifying an element's abundance. Choice C names potassium but gives no numerical value. Choice D is false because potassium's mass fraction, 160 ppm, is much lower than calcium's 17,100 ppm. The answer is <strong>B</strong>."
+    }
+  ]
+}

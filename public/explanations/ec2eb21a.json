@@ -1,0 +1,23 @@
+{
+  "questionId": "ec2eb21a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stated requirement",
+      "content": "The student wants evidence that Tamm’s journey was a true circumnavigation. The notes define one requirement for a true circumnavigation: the journey must begin and end in the same port."
+    },
+    {
+      "title": "Remove weak support",
+      "content": "Choice A states the rule but then gives the trip’s duration, which does not prove that the route met the rule. Choice C asserts that the trip was a true circumnavigation but only mentions where it ended. Choice D mentions the three great capes, but the notes do not identify that as the requested requirement."
+    },
+    {
+      "title": "Make the evidence prove the rule",
+      "content": "A useful sentence must do more than repeat that Tamm completed a true circumnavigation. It needs to show the specific fact from his journey that satisfies the stated same-port requirement."
+    },
+    {
+      "title": "Show that Tamm met it",
+      "content": "The useful evidence must connect the requirement to Tamm’s actual route. Saying that he began and ended in Les Sables d’Olonne shows that his journey satisfied the same-port condition for a true circumnavigation. The answer is <strong>B</strong>."
+    }
+  ]
+}

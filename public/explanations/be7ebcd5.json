@@ -1,0 +1,15 @@
+{
+  "questionId": "be7ebcd5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a restrictive clause",
+      "content": "The sentence needs a subject that names which materials highlight Palma Rodríguez's farming and engineering background. The words after materials form a restrictive that-clause because they identify the specific materials being discussed."
+    },
+    {
+      "title": "Keep the subject unbroken",
+      "content": "A puts a comma before that, incorrectly treating the identifying clause as extra information. C adds a comma before the verb highlight, splitting the subject from its predicate. D makes both comma errors. The no-comma version keeps the noun and restrictive clause together. The answer is <strong>B</strong>."
+    }
+  ]
+}

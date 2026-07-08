@@ -1,0 +1,15 @@
+{
+  "questionId": "d43322d7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Describe the poem's format",
+      "content": "The prompt asks for the format of <em>5 haiku (for Sarah Vaughan)</em>, meaning the poem's structure. The relevant note says the poem is written as a sequence of five haiku."
+    },
+    {
+      "title": "Reject nonformat details",
+      "content": "Choice A makes a broader claim about poems in <em>Morning Haiku</em> instead of the named poem. Choice C gives publication and thematic information, not format. Choice D explains Sanchez's reason for using haiku, not the structure of this poem. The answer is <strong>B</strong>."
+    }
+  ]
+}

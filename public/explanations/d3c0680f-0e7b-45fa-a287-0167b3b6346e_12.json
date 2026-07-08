@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The student is surprised by differences in unit sales. The answer must show the biggest gap between two systems &mdash; the most striking disparity in the table."
+      "content": "The student is surprised by differences in unit sales. The answer must show the biggest gap between two systems — the most striking disparity in the table."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Game & Watch sold approximately 18,600,000 units, whereas the ColecoVision sold only approximately 2,000,000 units.\"</strong>: a roughly 9&times; gap &mdash; by far the largest disparity in the table. &#10003;</li><li><strong>\"Game & Watch sold approximately 4,000,000 units, whereas the ColecoVision sold only approximately 3,000,000 units.\"</strong>: compares systems with a much smaller gap (~4M vs. ~3M) &mdash; not particularly surprising. &#10007;</li><li><strong>\"MSX sold approximately 4,000,000 units, whereas the Intellivision sold only approximately 3,000,000 units.\"</strong>: also a small gap (~4M vs. ~3M) &mdash; not a standout difference. &#10007;</li><li><strong>\"MSX sold approximately 18,600,000 units, whereas the Intellivision sold only approximately 2,000,000 units.\"</strong>: mismatches the table values for MSX and Intellivision. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "content": "<ul><li><strong>\"Game & Watch sold approximately 18,600,000 units, whereas the ColecoVision sold only approximately 2,000,000 units.\"</strong>: a roughly 9× gap — by far the largest disparity in the table. ✓</li><li><strong>\"Game & Watch sold approximately 4,000,000 units, whereas the ColecoVision sold only approximately 3,000,000 units.\"</strong>: compares systems with a much smaller gap (~4M vs. ~3M) — not particularly surprising. ✗</li><li><strong>\"MSX sold approximately 4,000,000 units, whereas the Intellivision sold only approximately 3,000,000 units.\"</strong>: also a small gap (~4M vs. ~3M) — not a standout difference. ✗</li><li><strong>\"MSX sold approximately 18,600,000 units, whereas the Intellivision sold only approximately 2,000,000 units.\"</strong>: mismatches the table values for MSX and Intellivision. ✗</li></ul>That matches the correct answer."
     }
   ]
 }

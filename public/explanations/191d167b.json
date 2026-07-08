@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert percentage to decimal and set up multiplication",
-      "content": "The phrase <em>136% of last year's number</em> means we multiply 250 by 136% in decimal form. Since 136% = 1.36, we set up: $$1.36 \\times 250$$"
+      "title": "Convert the percent",
+      "content": "This year's enrollment is $136\\%$ of last year's enrollment. Convert the percent to a decimal:<br/>$$136\\%=1.36$$"
     },
     {
-      "title": "Compute the product and identify the answer",
-      "content": "$$1.36 \\times 250 = 340$$ That matches <strong>Choice B &mdash; $340$</strong>."
+      "title": "Multiply by last year",
+      "content": "Multiply last year's enrollment by the decimal:<br/>$$1.36\\cdot 250=340$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

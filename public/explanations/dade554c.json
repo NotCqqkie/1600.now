@@ -1,0 +1,19 @@
+{
+  "questionId": "dade554c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the week two population",
+      "content": "The population starts at $950$ and increases by $130$ bees per week for the first $2$ weeks:\n$$\n950+2(130)=1{,}210\n$$"
+    },
+    {
+      "title": "Model the later weeks",
+      "content": "For $w>2$, there are $w-2$ additional weeks, each adding $170$ bees. The population at the end of week $w$ is\n$$\n1{,}210+170(w-2)=1{,}210+170w-340\n$$\n$$\n1{,}210+170(w-2)=870+170w\n$$"
+    },
+    {
+      "title": "Subtract from the goal",
+      "content": "The number of bees still needed is the goal minus the modeled population:\n$$\n2{,}450-(870+170w)=1{,}580-170w\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -2,19 +2,18 @@
   "questionId": "6bfd0c2e-65a8-46f9-a800-10203b4c8d45_3",
   "correctAnswer": "A",
   "section": "Math",
-  "needs_review": true,
   "steps": [
     {
-      "title": "Read the slope sign from the graph",
-      "content": "The line rises from lower-left to upper-right, so the slope is positive. That eliminates the other choices, which have $-1.5x$."
+      "title": "Check the slope direction",
+      "content": "The line of best fit rises from left to right, so its slope must be positive. This keeps the equations with a positive coefficient of $x$."
     },
     {
-      "title": "Read the y-intercept sign from the graph",
-      "content": "The line crosses the y-axis at a small positive value, so the constant term must be positive. That eliminates choice C (which has $-0.6$)."
+      "title": "Check the intercept",
+      "content": "The line crosses the $y$-axis at a positive value. That means the constant term should also be positive."
     },
     {
-      "title": "Match the equation",
-      "content": "Positive slope and positive y-intercept leaves only $y = 0.6 + 1.5x$. That confirms <strong>A</strong> is correct."
+      "title": "Match both signs",
+      "content": "The only equation with positive slope and positive $y$-intercept is $y=0.8+1.7x$. The answer is <strong>A</strong>."
     }
   ]
 }

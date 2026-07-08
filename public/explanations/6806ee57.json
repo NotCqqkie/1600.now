@@ -1,0 +1,15 @@
+{
+  "questionId": "6806ee57",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make prior action a modifier",
+      "content": "The sentence needs \"Udé\" as the subject and \"honors\" as the main verb. The material about referring to Nollywood as \"Africa's vivid mirror par excellence\" should function as a modifying phrase between the subject and main verb."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "Choices A, B, and C all create a second finite verb before \"honors,\" leaving two main verbs for the same subject without proper coordination. The remaining choice turns the prior action into a participial modifier, so the sentence stays grammatical. The answer is <strong>D</strong>."
+    }
+  ]
+}

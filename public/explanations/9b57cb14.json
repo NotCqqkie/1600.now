@@ -1,0 +1,15 @@
+{
+  "questionId": "9b57cb14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hoax context",
+      "content": "The text describes Wikipedia hoaxes and fictitious entries that stayed online for years before being recognized and deleted. The missing word should mean false creations."
+    },
+    {
+      "title": "Reject positive or neutral nouns",
+      "content": "Choice A means studies or explanations, not false entries. Choice C means improvements. Choice D means surprising disclosures. None captures the idea of made-up encyclopedia entries. The answer is <strong>B</strong>."
+    }
+  ]
+}

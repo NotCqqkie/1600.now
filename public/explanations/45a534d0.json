@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite in standard form",
-      "content": "The first equation becomes $54x-117y=30$. The second equation becomes $18x+ry=\\frac{1}{5}$. For no solution, the $x$- and $y$-coefficients must be proportional but the constants must not follow that same ratio."
+      "title": "Write standard forms",
+      "content": "Move each equation into standard form:\n$$\n54x-81y=36y+30\n$$\n$$\n54x-117y=30\n$$\nFor the second equation:\n$$\nry=\\frac{1}{5}-18x\n$$\n$$\n18x+ry=\\frac{1}{5}\n$$"
     },
     {
-      "title": "Use the coefficient ratio",
-      "content": "The $x$-coefficient changed from $54$ to $18$, a scale factor of $\\frac{1}{3}$. Apply the same factor to the $y$-coefficient: $$r=\\frac{1}{3}(-117)=-39$$"
+      "title": "Match parallel slopes",
+      "content": "For no solution, the lines must be parallel and distinct. The second equation's $x$-coefficient is \n$$\n\\frac{1}{3}\n$$ of the first equation's $x$-coefficient:\n$$\n\\frac{18}{54}=\\frac{1}{3}\n$$\nApply the same factor to the $y$-coefficient:\n$$\nr=\\frac{1}{3}(-117)=-39\n$$"
     },
     {
-      "title": "Confirm no solution",
-      "content": "The constants are not proportional because $\\frac{1/5}{30}=\\frac{1}{150}$, not $\\frac{1}{3}$. So the lines are parallel and distinct. The answer is <strong>-39</strong>."
+      "title": "Check the constants",
+      "content": "The constants are not in the same ratio:\n$$\n\\frac{\\frac{1}{5}}{30}=\\frac{1}{150}\n$$\nSince \n$$\n\\frac{1}{150}\\ne\\frac{1}{3}\n$$, the lines are distinct, so the system has no solution.\nThe answer is <strong>-39</strong>."
     }
   ]
 }

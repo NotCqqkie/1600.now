@@ -1,0 +1,15 @@
+{
+  "questionId": "5d84e2b5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the input to zero",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the equation.<br/>$$y=4(0)^2+9(0)+31$$"
+    },
+    {
+      "title": "Evaluate the intercept",
+      "content": "Simplify the expression to find the point on the $y$-axis.<br/>$$y=31$$<br/>$$(0,31)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

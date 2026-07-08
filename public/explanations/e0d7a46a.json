@@ -1,0 +1,19 @@
+{
+  "questionId": "e0d7a46a",
+  "correctAnswer": "80",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the adjacent angle",
+      "content": "Since $T$ lies on segment $SW$, angles $STU$ and $UTW$ form a linear pair. Thus, the measure of angle $UTW$ is found from\n$$\n74^\\circ+x=180^\\circ\n$$\nso $x=106^\\circ$."
+    },
+    {
+      "title": "Use the parallel segments",
+      "content": "Because segment $TU$ is parallel to segment $VW$, alternate interior angles formed by transversal $TV$ are congruent. The figure gives the matching angle as $26^\\circ$, so $r=26$."
+    },
+    {
+      "title": "Subtract the labels",
+      "content": "The figure labels $p$ as the angle with measure $106^\\circ$, so\n$$\np-r=106-26=80\n$$\nThe answer is <strong>80</strong>."
+    }
+  ]
+}

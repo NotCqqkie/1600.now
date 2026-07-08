@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the equation",
-      "content": "For infinitely many solutions, both sides must be identical for every $x$. First simplify the left side: $$(16x+36)/4-s/11=4x+9-s/11.$$ The right side is $$r(x-7)=rx-7r.$$"
+      "title": "Simplify both sides",
+      "content": "For infinitely many solutions, the two sides must be identical for every $x$. Simplify each side.<br/>$$\\frac{16x+36}{4}-\\frac{s}{11}=4x+9-\\frac{s}{11}$$<br/>$$r(x-7)=rx-7r$$"
     },
     {
-      "title": "Match coefficients",
-      "content": "The coefficient of $x$ on the left is $4$, so the coefficient of $x$ on the right must also be $4$. Thus, $r=4$."
+      "title": "Match the coefficients",
+      "content": "The coefficient of $x$ on the left is $4$, so the coefficient of $x$ on the right must also be $4$.<br/>$$r=4$$"
     },
     {
-      "title": "Match constants",
-      "content": "Substitute $r=4$ and match the constant terms: $$9-s/11=-7(4)=-28$$ $$-s/11=-37$$ $$s=407$$ The answer is <strong>407</strong>."
+      "title": "Match the constants",
+      "content": "Now match the constant terms.<br/>$$9-\\frac{s}{11}=-7(4)$$<br/>$$9-\\frac{s}{11}=-28$$<br/>$$-\\frac{s}{11}=-37$$<br/>$$s=407$$<br/>The answer is <strong>407</strong>."
     }
   ]
 }

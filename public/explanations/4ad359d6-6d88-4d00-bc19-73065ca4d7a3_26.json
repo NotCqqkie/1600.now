@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the goal demands",
-      "content": "The student wants to <em>explain an advantage of the Oak Tree House dwelling site</em>. An effective answer must name a specific benefit that Oak Tree House offered its inhabitants. The relevant note: &quot;The overhanging rock ledges offered protection from heavy rain and snow.&quot; Any correct choice must state that advantage explicitly, not merely assert that one exists."
+      "title": "Locate Oak Tree House's benefit",
+      "content": "The student wants an advantage of Oak Tree House, not Yucca House. The relevant note says Oak Tree House was built under a rock overhang and that the ledges protected it from heavy rain and snow."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — The location of Oak Tree House, an Ancestral Puebloan dwelling site in southwestern Colorado, provided an advantage to its inhabitants.</strong>: Claims an advantage exists but never names it; fails to explain anything. &#10007;</li><li><strong>Choice B — Located in southwestern Colorado, Oak Tree House is an Ancestral Puebloan dwelling site that was inhabited from approximately 1180–1210 CE.</strong>: Gives location and dates only; no advantage mentioned. &#10007;</li><li><strong>Choice C — The relatively flat terrain on which Oak Tree House was built allowed for the construction of large terraced buildings.</strong>: Describes Yucca House&apos;s advantage (flat terrain + terraced buildings), not Oak Tree House&apos;s. &#10007;</li><li><strong>Choice D — Since it was built under a rock overhang, Oak Tree House was naturally protected from heavy rain and snow.</strong>: Identifies the site feature (rock overhang) and states its benefit (protection from rain and snow) &mdash; a complete explanation of the advantage. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Avoid unrelated facts",
+      "content": "Choice A says an advantage existed but does not explain it. Choice B gives location and dates. Choice C uses the flat-terrain advantage associated with Yucca House, not Oak Tree House. The sentence naming the overhang's protection fits the goal. The answer is <strong>D</strong>."
     }
   ]
 }

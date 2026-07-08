@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square to find the radius",
-      "content": "Complete the square to rewrite the equation in circle standard form, $(x-h)^2+(y-k)^2=r^2$. The radius is the positive square root of the right side."
+      "title": "Group the circle terms",
+      "content": "Move the $y$ term to the left so the $x$ and $y$ terms can be completed separately.\n$$\nx^2+10x+y^2=8y+76\n$$\n$$\nx^2+10x+y^2-8y=76\n$$"
     },
     {
-      "title": "Rearrange and complete the square",
-      "content": "Rearrange to collect <em>x</em> and <em>y</em> terms on the left:<br/>$$x^2 + 10x + y^2 - 8y = 76$$<br/>Complete the square for <em>x</em>: Since the coefficient of <em>x</em> is 10, take half and square: $(10/2)^2 = 25$.<br/>$$x^2 + 10x = (x+5)^2 - 25$$<br/>Complete the square for <em>y</em>: Since the coefficient of <em>y</em> is $-8$, take half and square: $(-8/2)^2 = 16$.<br/>$$y^2 - 8y = (y-4)^2 - 16$$"
+      "title": "Complete both squares",
+      "content": "Add $25$ to complete the $x$ square and $16$ to complete the $y$ square.\n$$\n(x^2+10x+25)+(y^2-8y+16)=76+25+16\n$$\n$$\n(x+5)^2+(y-4)^2=117\n$$"
     },
     {
-      "title": "Convert to standard form and find the radius",
-      "content": "Substitute the completed squares:<br/>$$(x+5)^2 - 25 + (y-4)^2 - 16 = 76$$<br/>Move constants to the right side:<br/>$$(x+5)^2 + (y-4)^2 = 76 + 25 + 16 = 117$$<br/>This matches the standard form for a circle with $r^2 = 117$. Therefore, $r = \\sqrt{117}$. That confirms <strong>C</strong> is correct."
+      "title": "Read the radius",
+      "content": "In circle form, the right side is $r^2$.\n$$\nr^2=117\n$$\n$$\nr=\\sqrt{117}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

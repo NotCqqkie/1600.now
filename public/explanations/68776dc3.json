@@ -1,0 +1,22 @@
+{
+  "questionId": "68776dc3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original median",
+      "content": "The original list has $7$ values, so the median is the $4$th value when the list is ordered.\n$$12,22,24,33,39,42,44$$\nThe median is $33$."
+    },
+    {
+      "title": "Compare fourth values",
+      "content": "Each choice also has $7$ values, so each median is its $4$th value. The fourth values are $38$, $39$, $33$, and $28$, respectively. Only the third list has the same median. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "\\operatorname{median}\\left([12,22,24,33,39,42,44]\\right)",
+        "\\operatorname{median}\\left([22,25,35,38,49,50,54]\\right)",
+        "\\operatorname{median}\\left([22,28,33,39,41,43,46]\\right)",
+        "\\operatorname{median}\\left([12,15,28,33,35,39,39]\\right)",
+        "\\operatorname{median}\\left([22,25,26,28,33,33,39]\\right)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1baf25af",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Price the first people",
+      "content": "The first $30$ people cost $26$ dollars each, so that fixed charge is<br/>$$30(26)=780$$"
+    },
+    {
+      "title": "Add extra people",
+      "content": "For $n\\ge30$, there are $n-30$ additional people. Each additional person costs $18$ dollars.<br/>$$780+18(n-30)=780+18n-540=18n+240$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

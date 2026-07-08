@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the vertical angle first",
-      "content": "The angle vertical to $y$ also has measure $y$. That vertical angle is the same-side interior angle paired with $x$ on the parallel lines."
+      "title": "Relate the angles",
+      "content": "The angle vertical to the angle marked $y$ also measures $y$. That angle and the angle marked $x$ are same-side interior angles on parallel lines, so they are supplementary.<br/>$$x+y=180$$"
     },
     {
-      "title": "Apply the same-side interior angle rule",
-      "content": "Same-side interior angles formed by parallel lines are supplementary, so $$x+y=180^{\\circ}.$$ Since $y\\lt65^{\\circ}$, $$x=180^{\\circ}-y\\gt180^{\\circ}-65^{\\circ}=115^{\\circ}.$$"
+      "title": "Use the inequality",
+      "content": "Since $y<65$, subtracting $y$ from $180$ gives a value greater than subtracting $65$. <br/>$$x=180-y>180-65=115$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

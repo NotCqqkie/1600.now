@@ -1,0 +1,15 @@
+{
+  "questionId": "6e8df719",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link prediction to evidence",
+      "content": "Economists expected liberalization to make it easier for companies to raise money. Henry then found significant investment increases in countries after liberalization, which is evidence consistent with the prediction."
+    },
+    {
+      "title": "Remove unsupported implications",
+      "content": "A misstates the timing of benefits, B invents serious negative effects, and C compares Thailand with Malaysia even though the passage gives only an average across 11 countries. The finding supports the existing scholarly view. The answer is <strong>D</strong>."
+    }
+  ]
+}

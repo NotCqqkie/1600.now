@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammar issue",
-      "content": "The blank falls between two independent clauses: &quot;...evidence that it was occupied [blank]&quot; and &quot;In 1420 CE, according to Burger, humans were likely inhabiting the area.&quot; Two independent clauses cannot be joined by a comma alone (comma splice) or run together without any punctuation (fused sentence). A period is the correct separator."
+      "title": "Separate the two clauses",
+      "content": "The first clause says evidence showed Machu Picchu was occupied earlier. The next clause begins with <em>In 1420 CE</em> and can stand as its own sentence, so the boundary needs a full stop."
     },
     {
-      "title": "Eliminate wrong choices, confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;earlier. In&rsquo;</strong>: Places a period between the two independent clauses, correctly creating two separate sentences. &#10003;</li><li><strong>Choice B &mdash; &lsquo;earlier, in&rsquo;</strong>: Uses only a comma to join two independent clauses &mdash; a comma splice, which violates the rule against joining independent clauses with a comma alone. &#10007;</li><li><strong>Choice C &mdash; &lsquo;earlier, which in&rsquo;</strong>: Also a comma splice; additionally, the subordinating conjunction &quot;which&quot; makes the second clause modify the first in a confusing, illogical way. &#10007;</li><li><strong>Choice D &mdash; &lsquo;earlier in&rsquo;</strong>: Fuses two independent clauses with no punctuation at all &mdash; a run-on sentence. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Avoid comma splices",
+      "content": "B joins independent clauses with only a comma. C creates a confusing <em>which</em> construction, and D fuses the clauses without punctuation. The answer is <strong>A</strong>."
     }
   ]
 }

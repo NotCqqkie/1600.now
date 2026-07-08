@@ -1,0 +1,15 @@
+{
+  "questionId": "de7c7bb8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the equations",
+      "content": "Multiply the first equation by $3$.\n$$3(0.4x+1.3y=8)$$\n$$1.2x+3.9y=24$$"
+    },
+    {
+      "title": "Interpret the same line",
+      "content": "The result is exactly the second equation, so the two equations represent the same line. Every point on that line solves both equations. The answer is <strong>A</strong>."
+    }
+  ]
+}

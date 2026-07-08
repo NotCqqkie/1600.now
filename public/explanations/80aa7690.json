@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "The blank holds a title (&quot;linguist&quot;) immediately followed by a name (&quot;Diane Massam&quot;). The name specifies which linguist of the University of Toronto is meant &mdash; it is essential to the meaning, making it a <strong>restrictive appositive</strong>."
+      "title": "Keep title and name together",
+      "content": "The phrase names a linguist and then identifies that linguist as Diane Massam. Because the name is essential, no punctuation should separate the title from the name."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "A restrictive appositive takes <strong>no punctuation</strong> between the title and the name (compare: &quot;author Toni Morrison&quot;). A colon between a noun and its renaming noun is also wrong."
-    },
-    {
-      "title": "Eliminate the wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;linguist, Diane Massam,&rsquo;</strong>: paired commas treat the name as nonessential, violating the restrictive appositive rule. &#10007;</li><li><strong>Choice B &mdash; &lsquo;linguist, Diane Massam&rsquo;</strong>: a single comma after &quot;linguist&quot; wrongly separates the title from the name it specifies. &#10007;</li><li><strong>Choice C &mdash; &lsquo;linguist Diane Massam&rsquo;</strong>: no punctuation between title and name, matching the restrictive-appositive rule. &#10003;</li><li><strong>Choice D &mdash; &lsquo;linguist: Diane Massam&rsquo;</strong>: a colon cannot stand between a noun and the noun that renames it, and the space before the colon is also nonstandard. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Avoid unnecessary punctuation",
+      "content": "Choice A uses paired commas, Choice B uses one comma, and Choice D uses a colon; all wrongly interrupt the title-name unit. No punctuation belongs between the title and name. The answer is <strong>C</strong>."
     }
   ]
 }

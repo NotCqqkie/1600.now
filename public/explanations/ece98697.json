@@ -1,0 +1,15 @@
+{
+  "questionId": "ece98697",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope form",
+      "content": "A line written as $y=mx+b$ has slope $m$. If there is no separate constant term, the intercept is $0$."
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "In the equation<br/>$$y=\\frac{8}{15}x$$<br/>the coefficient of $x$ is $\\frac{8}{15}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

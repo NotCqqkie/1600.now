@@ -1,0 +1,19 @@
+{
+  "questionId": "58a00fe2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the product",
+      "content": "A number that is $74$ more than $x$ is $x+74$. The function gives the product of the number and that larger number, so write:\n$$\nf(x)=x(x+74)\n$$"
+    },
+    {
+      "title": "Expand the expression",
+      "content": "Distribute $x$ to get the equivalent quadratic form:\n$$\nf(x)=x(x+74)=x^2+74x\n$$\nThis is the form that must match the correct equation."
+    },
+    {
+      "title": "Pick the matching equation",
+      "content": "Choice A adds an extra $x$ term and constant, choice B misses the $74x$ term, and choice D adds an extra constant. Choice C matches $x^2+74x$. The answer is <strong>C</strong>."
+    }
+  ]
+}

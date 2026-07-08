@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the term with q and divide by 24",
-      "content": "Start with $\\frac{24}{p}=\\frac{24}{q}-\\frac{24}{r}-\\frac{24}{s}$. Add $\\frac{24}{r}+\\frac{24}{s}$ to both sides:<br/>$$\\frac{24}{q} = \\frac{24}{p} + \\frac{24}{r} + \\frac{24}{s}$$<br/>Divide both sides by 24:<br/>$$\\frac{1}{q} = \\frac{1}{p} + \\frac{1}{r} + \\frac{1}{s}$$"
+      "title": "Isolate the reciprocal",
+      "content": "Start with the given equation and add the subtracted terms to both sides.<br/>$$\\frac{24}{p}=\\frac{24}{q}-\\frac{24}{r}-\\frac{24}{s}$$<br/>$$\\frac{24}{q}=\\frac{24}{p}+\\frac{24}{r}+\\frac{24}{s}$$"
     },
     {
-      "title": "Combine the right side over the common denominator prs",
-      "content": "Rewrite each fraction with denominator $prs$:<br/>$$\\frac{1}{q} = \\frac{rs}{prs} + \\frac{ps}{prs} + \\frac{pr}{prs} = \\frac{pr + ps + rs}{prs}$$<br/>Take the reciprocal of both sides:<br/>$$q = \\frac{prs}{pr + ps + rs}$$"
+      "title": "Divide out the common factor",
+      "content": "Divide both sides by $24$.<br/>$$\\frac{1}{q}=\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s}$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A. $p + r + s$ - this would only work if $\\frac{1}{q} = \\frac{1}{p+r+s}$, but $\\frac{1}{p}+\\frac{1}{r}+\\frac{1}{s} \\neq \\frac{1}{p+r+s}$. Eliminated.</li><li>B. $24(p+r+s)$ - the 24s cancel when we divide both sides by 24, so a factor of 24 should not appear. Eliminated.</li><li>C. $\\frac{prs}{pr+ps+rs}$ - exactly the expression we derived. Correct.</li><li>D. $\\frac{prs}{24p+24r+24s}$ - again introduces a stray factor of 24 in the denominator. Eliminated.</li></ul>That matches <strong>Choice C &mdash; $\\frac{prs}{pr+ps+rs}$</strong>- <strong>C</strong>."
+      "title": "Combine and invert",
+      "content": "Use common denominator $prs$, then take reciprocals.<br/>$$\\frac{1}{q}=\\frac{rs+ps+pr}{prs}$$<br/>$$q=\\frac{prs}{pr+ps+rs}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

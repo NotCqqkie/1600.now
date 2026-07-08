@@ -1,0 +1,15 @@
+{
+  "questionId": "6d465267",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the slope",
+      "content": "Line $u$ is in slope-intercept form.\n$$\ny=3x+11\n$$\nSo the slope of line $u$ is $3$."
+    },
+    {
+      "title": "Take the negative reciprocal",
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $3$ is $-\\frac{1}{3}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

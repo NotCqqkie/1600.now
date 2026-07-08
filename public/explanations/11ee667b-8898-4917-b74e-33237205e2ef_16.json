@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the circle equation",
-      "content": "A circle with center $(h, k)$ and radius $r$ has equation:<br/>$$(x-h)^2 + (y-k)^2 = r^2$$<br/>The right side is $r^2$, not $r$."
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$"
     },
     {
-      "title": "Plug in the values $h=18$, $k=16$, $r = 6k$",
-      "content": "$$(x - 18)^2 + (y - 16)^2 = (6k)^2 = 36k^2$$<br/>That matches <strong>Choice B &mdash; $(x-18)^{2}+(y-16)^{2}=36k^{2}$</strong>."
+      "title": "Substitute the values",
+      "content": "Use center $(14,19)$ and radius $7k$.<br/>$$(x-14)^2+(y-19)^2=(7k)^2=49k^2$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

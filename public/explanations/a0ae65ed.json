@@ -1,0 +1,15 @@
+{
+  "questionId": "a0ae65ed",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify exponential growth",
+      "content": "Exponential growth means the quantity is multiplied by the same factor each time period. A constant percent increase gives a repeated multiplier greater than $1$. A constant amount added each hour would describe linear growth instead."
+    },
+    {
+      "title": "Classify the choices",
+      "content": "A $12\\%$ hourly increase means the bacteria count is multiplied by $1.12$ each hour, so that is exponential growth. Adding $1{,}200$ each hour is a constant difference, not a constant multiplier. A $12\\%$ hourly decrease is exponential decay, and subtracting $1{,}200$ each hour is linear decay. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question. The blank describes what the skeptical colleagues believed about the kea parrot's interactions with the stones. The contrast word &quot;but&quot; signals that the blank must mean the opposite of &quot;deliberately&quot; &mdash; the colleagues thought the behavior was unintentional, not planned."
+      "title": "Use the contrast with deliberate",
+      "content": "The skeptical colleagues doubted that the kea was intentionally using stones. The word <em>but</em> contrasts their suggestion with Santos's finding that the kea used the stones deliberately, so the blank must mean unintentional."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; intriguing</strong>: &quot;Intriguing&quot; means fascinating or interesting. Finding the behavior intriguing does not conflict with Santos's finding that it was deliberate &mdash; it describes a reaction, not skepticism about intent. &#10007;</li><li><strong>Choice B &mdash; obvious</strong>: &quot;Obvious&quot; means clearly evident. Calling the stone use obvious does not contradict the claim that it was deliberate; someone could find deliberate behavior obvious. No real contrast. &#10007;</li><li><strong>Choice C &mdash; accidental</strong>: &quot;Accidental&quot; means unplanned or unintentional &mdash; the direct opposite of &quot;deliberately.&quot; Skeptics suggesting the interactions were accidental is exactly the doubt that Santos and her team disproved. &#10003;</li><li><strong>Choice D &mdash; observable</strong>: &quot;Observable&quot; means able to be seen or noticed. This does not conflict with deliberate behavior; something can be both observable and deliberate. &#10007;</li></ul>That is the correct answer."
+      "title": "Test the meanings",
+      "content": "A means interesting, B means clear, and D means able to be seen; none contrasts with deliberate use. The word that directly opposes deliberate behavior is needed because Santos showed the interaction was intentional rather than unplanned. The answer is <strong>C</strong>."
     }
   ]
 }

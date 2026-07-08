@@ -1,0 +1,15 @@
+{
+  "questionId": "f93d1976",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the table row",
+      "content": "The sentence asks for the total area of Nanakuli. Since the passage is giving examples of Hawaiian home lands much smaller than Homuula-Upper Piihonua, the blank should use the area listed for Nanakuli in the table."
+    },
+    {
+      "title": "Select Nanakuli's area",
+      "content": "A, C, and D are areas for other home lands, not Nanakuli. The needed value is the one shown in Nanakuli's row, and it also fits the point that many home lands are much smaller than the largest one. The answer is <strong>B</strong>."
+    }
+  ]
+}

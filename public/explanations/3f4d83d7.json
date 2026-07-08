@@ -1,0 +1,15 @@
+{
+  "questionId": "3f4d83d7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the coefficient",
+      "content": "Multiply $84$ by both terms inside the parentheses:\n$$\ny=84x-84(3)+287\n$$\n$$\ny=84x-252+287\n$$"
+    },
+    {
+      "title": "Combine the constants",
+      "content": "Add the constant terms:\n$$\n-252+287=35\n$$\nSo the equivalent equation is $y=84x+35$. The answer is <strong>C</strong>."
+    }
+  ]
+}

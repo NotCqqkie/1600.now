@@ -1,0 +1,19 @@
+{
+  "questionId": "e5cb3272",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Interpret no plateau",
+      "content": "The study found that zoo chimpanzees' vitamin D levels correlate with UVB irradiance and show no evidence of plateauing even at the highest local UVB levels. A plateau would suggest the animals had reached their vitamin D synthesis ceiling."
+    },
+    {
+      "title": "Eliminate unsupported claims",
+      "content": "Choice A claims mid-latitude zoo chimpanzees have vitamin D levels comparable to tropical wild chimpanzees, but the passage gives no such comparison. Choice B speculates that adaptations to seasonal UVB variation may be emerging, even though the passage says wild chimpanzees lack such adaptations."
+    },
+    {
+      "title": "Use the unmet capacity",
+      "content": "Choice D says supplemental vitamin D would likely not help, but no plateau does not support that. Because vitamin D levels keep rising with available UVB instead of leveling off, the chimpanzees have not reached their inherent synthesis capacity under local conditions. The answer is <strong>C</strong>."
+    }
+  ]
+}

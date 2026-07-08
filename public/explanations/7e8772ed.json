@@ -1,0 +1,19 @@
+{
+  "questionId": "7e8772ed",
+  "correctAnswer": "44",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the system",
+      "content": "The two ribbon lengths add to $61$ inches:<br/>$$x+y=61$$<br/>The value of $x$ is $10$ more than $2$ times $y$:<br/>$$x=2y+10$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Substitute $x=2y+10$ into the total-length equation:<br/>$$(2y+10)+y=61$$<br/>$$3y+10=61$$<br/>$$3y=51$$<br/>$$y=17$$"
+    },
+    {
+      "title": "Find x",
+      "content": "Use $x=2y+10$:<br/>$$x=2(17)+10$$<br/>The answer is <strong>44</strong>."
+    }
+  ]
+}

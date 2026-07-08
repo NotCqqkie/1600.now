@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract counts from the table",
-      "content": "The row <em>At least 40 years old</em> and column <em>Total</em> shows 107 members at least 40 years old. The bottom-right cell shows 135 total members in the organization."
+      "title": "Read the needed counts",
+      "content": "The table shows $107$ members who are at least $40$ years old and $135$ total members."
     },
     {
-      "title": "Calculate the probability",
-      "content": "A randomly selected member is at least 40 years old in 107 out of 135 cases: $$\\frac{107}{135}$$ That matches <strong>Choice D &mdash; $\\frac{107}{135}$</strong>."
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:\n$$\n\\frac{107}{135}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

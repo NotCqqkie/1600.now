@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the percentage equation",
-      "content": "We know that 75% of items are faulty and there are 96 faulty items. This relationship is:<br/>$$0.75 \\times \\text{Total} = 96$$"
+      "title": "Set up the percent equation",
+      "content": "Let $t$ be the total number of items. Since $75\\%$ of the items are faulty and there are $96$ faulty items,<br/>$$0.75t=96$$"
     },
     {
-      "title": "Solve for total items",
-      "content": "Divide both sides by 0.75:<br/>$$\\text{Total} = \\frac{96}{0.75} = \\frac{96}{\\frac{3}{4}} = 96 \\times \\frac{4}{3} = \\frac{384}{3} = 128$$<br/>The sample contains <strong>128 total items</strong>."
+      "title": "Solve for the total",
+      "content": "Divide both sides by $0.75$:<br/>$$t=\\frac{96}{0.75}=128$$<br/>The answer is <strong>128</strong>."
     }
   ]
 }

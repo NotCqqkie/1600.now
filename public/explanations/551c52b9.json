@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the hourly rate",
-      "content": "The rate is dollars per hour: $$\\text{rate} = \\frac{p}{w}$$ dollars per hour."
+      "title": "Use the rate for one group",
+      "content": "Nora earns $p$ dollars for each block of $w$ hours. The question asks about $42w$ hours, which is $42$ of those same $w$-hour blocks."
     },
     {
-      "title": "Calculate earnings for 42w hours",
-      "content": "For $42w$ hours, multiply the rate by the time: $$\\frac{p}{w} \\times 42w = 42p$$ dollars. The $w$ cancels, leaving pay in dollars. <strong>A</strong> is correct."
+      "title": "Scale the earnings",
+      "content": "Multiply the pay for one block by $42$:\n$$\n42 \\cdot p=42p\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

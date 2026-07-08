@@ -1,0 +1,15 @@
+{
+  "questionId": "7c52d1f7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the expected explanation",
+      "content": "The previous sentence says Warwick's 2015 calculation was more accurate than the 1920 calculation. The next sentence explains why that difference is unsurprising: the earlier calculation used only cardboard and string. The transition should signal an obvious explanation for the contrast already stated."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A signals similarity, but the calculations are being contrasted. B signals an action done to achieve a goal, which is not the relationship here. D signals a final outcome, while the sentence supplies a reason the older result was less accurate. The answer is <strong>C</strong>."
+    }
+  ]
+}

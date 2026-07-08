@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the phrase into an expression",
-      "content": "&quot;15 less than 8 times $n$&quot; means $8n - 15$. This is the minimum value of $x$."
+      "title": "Translate the minimum value",
+      "content": "The phrase \"8 times another number $n$\" means $8n$. The phrase \"15 less than\" that amount means subtract $15$:\n$$8n-15$$\nThis expression is the minimum possible value of $x$."
     },
     {
-      "title": "Write the inequality",
-      "content": "If $8n - 15$ is the minimum value of $x$, then $x$ must be greater than or equal to it: $x \\ge 8n - 15$."
-    },
-    {
-      "title": "Eliminate the choices",
-      "content": "<ul><li>A. $x \\le 8n - 15$ &mdash; this would make $8n - 15$ the maximum, not the minimum; incorrect.</li><li>B. $x \\ge 8n - 15$ &mdash; matches our derivation.</li><li>C. $x \\le 15 - 8n$ &mdash; wrong expression and wrong direction; incorrect.</li><li>D. $x \\ge 15 - 8n$ &mdash; the expression $15 - 8n$ reverses the phrase; incorrect.</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Write the possible values",
+      "content": "If $8n-15$ is the minimum value, then $x$ can equal that value or be greater than it:\n$$x\\ge 8n-15$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

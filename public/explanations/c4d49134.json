@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Substitute the time",
-      "content": "The model is $s=40+3t$, and the question asks for the speed after $5$ seconds. Substitute $t=5$: $$s=40+3(5).$$"
+      "content": "The equation is $s=40+3t$, where $t$ is seconds after acceleration begins. For $5$ seconds, use $t=5$:<br/>$$s=40+3(5)$$"
     },
     {
       "title": "Compute the speed",
-      "content": "$$s=40+15=55.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The result is correct. The correct answer is only the initial speed, and the other choices do not add the full $3$ mph per second for $5$ seconds.",
+      "content": "Evaluate the expression:<br/>$$s=40+15=55$$<br/>The result is the speed in miles per hour after $5$ seconds; using only $40$, $43$, or $45$ would not add the full increase.<br/>The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=40+3x",
         "x=5"

@@ -1,0 +1,15 @@
+{
+  "questionId": "8c35b539",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Resolve the apparent advantage",
+      "content": "Three-host CLPs are usually shielded from the external environment during transmission, while directly transmitted parasites are exposed. Yet the study found that CLP abundance decreased as sea temperatures rose, while directly transmitted parasites stayed largely stable."
+    },
+    {
+      "title": "Reject claims that reverse the data",
+      "content": "Choice A says more host species provide better protection, but the three-host parasites declined. Choice B reverses which parasites are shielded. Choice C invents a comparison among CLP transmission strategies. The finding suggests any shielding advantage was outweighed by other temperature-driven harms despite the protected transmission route. The answer is <strong>D</strong>."
+    }
+  ]
+}

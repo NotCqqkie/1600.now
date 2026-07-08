@@ -1,0 +1,15 @@
+{
+  "questionId": "f478e2c3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the rate of change",
+      "content": "The function is linear:\n$$\nw(t)=720-4t\n$$\nThe coefficient of $t$ is $-4$, so the water volume decreases by $4$ milliliters each second."
+    },
+    {
+      "title": "Convert decrease to draining",
+      "content": "Because the question asks for the volume draining from the container each second, use the positive amount of the decrease: $4$ milliliters per second. The answer is <strong>A</strong>."
+    }
+  ]
+}

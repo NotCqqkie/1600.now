@@ -1,0 +1,19 @@
+{
+  "questionId": "07e35435",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the mutation timeline",
+      "content": "The researchers challenge the consensus that a genetic driver of smaller body size developed only within the last 20,000 years through selective breeding. Supporting evidence must show that the relevant body-size mutation existed earlier than that timeline."
+    },
+    {
+      "title": "Reject weak genetic links",
+      "content": "<ul><li><strong>Choice A - '<em>IGF1</em> has been isolated in genetic material from fossils more than 20,000 years old of the red wolf (<em>Canis rufus</em>) and certain other species related to dogs.'</strong>: identifies the gene in older related species, but not the specific size-influencing mutation in a dog ancestor.</li><li><strong>Choice B - 'An additional mutation related to <em>IGF1</em> affects the development of characteristics other than body size in smaller dog breeds like bulldogs.'</strong>: concerns another mutation and traits other than body size.</li><li><strong>Choice D - 'One variant of <em>IGF1</em> is found only in smaller dog breeds like bulldogs and appears to have emerged no more than 20,000 years ago.'</strong>: supports the consensus timeline instead of undermining it.</li></ul>"
+    },
+    {
+      "title": "Use earlier body-size evidence",
+      "content": "<strong>Choice C - 'The mutation related to <em>IGF1</em> influences body size and is found in 53,000-year-old genetic material from fossils of Siberian wolves (<em>Canis lupus campestris</em>), an ancestor of dogs.'</strong>: places the body-size mutation in a dog ancestor long before 20,000 years ago, directly supporting the researchers' challenge. The answer is <strong>C</strong>."
+    }
+  ]
+}

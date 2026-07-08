@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find b using the y-intercept",
-      "content": "The <em>y</em>-intercept occurs when $x = 0$. We have:<br/>$$f(0) = a^0 + b = 1 + b = -18$$<br/>Solving for $b$:<br/>$$b = -19$$"
+      "title": "Use the intercept",
+      "content": "At the <em>y</em>-intercept, $x=0$ and $f(x)=-18$:\n$$\na^0+b=-18\n$$\nSince $a^0=1$, $b=-19$."
     },
     {
-      "title": "Find a and calculate a + b",
-      "content": "The graph passes through $(2, 17)$, so:<br/>$$f(2) = a^2 + b = 17$$<br/>Substitute $b = -19$:<br/>$$a^2 - 19 = 17$$<br/>$$a^2 = 36$$<br/>$$a = 6$$<br/>Since $a \\gt  0$, we take the positive root. Therefore:<br/>$$a + b = 6 + (-19) = -13$$"
+      "title": "Use the other point",
+      "content": "The graph passes through $(2,17)$, so\n$$\na^2+b=17\n$$\n$$\na^2-19=17\n$$\n$$\na^2=36\n$$\nSince $a>0$, $a=6$."
+    },
+    {
+      "title": "Add the constants",
+      "content": "Now add $a$ and $b$:\n$$\na+b=6+(-19)=-13\n$$\nThe answer is <strong>-13</strong>."
     }
   ]
 }

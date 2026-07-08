@@ -1,0 +1,19 @@
+{
+  "questionId": "01995f77",
+  "correctAnswer": "-6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Add $18$ to both sides of the inequality:<br/>$$ax-18\\le 30$$<br/>$$ax\\le 48$$"
+    },
+    {
+      "title": "Use the boundary",
+      "content": "The solution is $x\\ge -8$, so dividing by $a$ must flip the inequality. That means $a$ is negative, and the boundary must satisfy:<br/>$$\\frac{48}{a}=-8$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Solve the boundary equation:<br/>$$48=-8a$$<br/>$$a=-6$$<br/>The answer is <strong>-6</strong>."
+    }
+  ]
+}

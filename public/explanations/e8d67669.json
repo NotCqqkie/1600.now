@@ -1,0 +1,15 @@
+{
+  "questionId": "e8d67669",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the dog count",
+      "content": "The business cares for $12$ dogs, so use $d=12$ in the equation for one week:<br/>$$3c+6d=72$$<br/>$$3c+6(12)=72$$"
+    },
+    {
+      "title": "Solve for cats",
+      "content": "Simplify the dog term and solve for $c$:<br/>$$3c+72=72$$<br/>$$3c=0$$<br/>$$c=0$$<br/>The business can care for $0$ cats. The answer is <strong>A</strong>."
+    }
+  ]
+}

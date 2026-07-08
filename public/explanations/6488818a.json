@@ -1,0 +1,19 @@
+{
+  "questionId": "6488818a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate Ramos's focus",
+      "content": "The first sentence says Ramos and colleagues explored how convergent evolution can result from a genetic mechanism shared by both lineages. That statement defines the focus of their study."
+    },
+    {
+      "title": "Separate nearby studies",
+      "content": "Choice A describes Adler's focus on different mechanisms. Choice C contradicts the definition of convergent evolution in reproductively separate lineages. Choice D describes the later prevalence question studied by Brooks and Nair."
+    },
+    {
+      "title": "Choose shared mechanisms",
+      "content": "The focus attributed to Ramos and colleagues is convergent traits arising through a shared genetic mechanism. The answer is <strong>B</strong>."
+    }
+  ]
+}

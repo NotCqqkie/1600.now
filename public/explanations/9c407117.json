@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what would weaken the hypothesis",
-      "content": "The student hypothesizes that acidic soil (coffee grounds + potting soil) is more beneficial for choy sum growth than neutral soil (potting soil alone). A finding weakens this hypothesis if it shows the neutral-soil plants grew better &mdash; the opposite of the prediction."
+      "title": "Reverse the prediction",
+      "content": "The student's hypothesis predicts that the acidic mixture with coffee grounds will be more beneficial for choy sum growth than neutral potting soil. A weakening finding must show the control group doing better under the same growing conditions. That directly reverses the expected benefit of the acidic treatment."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.</strong>: Neutral-soil plants grew taller than acidic-soil plants &mdash; the opposite of the hypothesis, directly weakening it. &#10003;</li><li><strong>Choice B &mdash; The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds.</strong>: Less weight in neutral soil means acidic soil produced more plant matter, which would strengthen the hypothesis. &#10007;</li><li><strong>Choice C &mdash; The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds.</strong>: Later sprouting in neutral soil means acidic soil promoted earlier germination &mdash; again supporting the hypothesis. &#10007;</li><li><strong>Choice D &mdash; Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds.</strong>: Fewer sprouts in neutral soil means acidic soil supported more germination, which strengthens the hypothesis. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject supporting results",
+      "content": "B says the neutral-soil plants weighed less, C says they sprouted later, and D says fewer of them sprouted; each would favor the acidic mixture. The only weakening result is stronger growth in soil without coffee grounds. The answer is <strong>A</strong>."
     }
   ]
 }

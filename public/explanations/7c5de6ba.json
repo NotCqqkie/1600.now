@@ -1,0 +1,15 @@
+{
+  "questionId": "7c5de6ba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the Tikal row",
+      "content": "The sentence asks specifically how long ago Tikal Temple IV was built. The relevant table entry for Tikal Temple IV gives its age before present."
+    },
+    {
+      "title": "Use the matching age",
+      "content": "Choice A, Choice C, and Choice D correspond to other pyramids' age ranges, not Tikal Temple IV. The table's Tikal Temple IV entry gives 1,300 years ago. The answer is <strong>B</strong>."
+    }
+  ]
+}

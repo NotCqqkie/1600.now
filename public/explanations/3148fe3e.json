@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$${x}^{2}+y+10=10$$<br/>$$8x+16-y=0$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Simplify both equations",
+      "content": "Simplify each equation to isolate $y$.<br/>$$y=-x^2$$<br/>$$y=8x+16$$"
+    },
+    {
+      "title": "Set the expressions equal",
+      "content": "Set the two expressions for $y$ equal.<br/>$$-x^2=8x+16$$<br/>$$x^2+8x+16=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the system or factor the quadratic.<br/>$$(x+4)^2=0$$<br/>$$x=-4$$<br/>The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "{x}^{2}+y+10=10",
         "8x+16-y=0"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $-4$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

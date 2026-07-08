@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the x-intercept",
-      "content": "The plotted points form a line that passes through (16, 0). At this point, someone buys 16 cornflowers and 0 wallflowers for exactly \\$24."
+      "title": "Use the cornflower intercept",
+      "content": "The point $(16,0)$ means the total is spent on $16$ cornflowers and $0$ wallflowers. So $16$ cornflowers cost $24.00$ dollars total."
     },
     {
-      "title": "Calculate the price per cornflower",
-      "content": "When only cornflowers are purchased, 16 of them cost \\$24 total. Therefore:<br/>$$\\frac{24}{16} = \\frac{3}{2} = 1.50$$<br/>The price of one cornflower is <strong>\\$1.50</strong>."
+      "title": "Find one cornflower price",
+      "content": "Divide the total cost by the number of cornflowers:<br/>$$\\frac{24}{16}=\\frac{3}{2}$$<br/>The answer is <strong>1.5</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 63 into the model",
-      "content": "The equation $y=0.75x+2.5$ predicts the number of larvae $y$ from the number of worker ants $x$. Since the colony has $63$ worker ants, plug in $x=63$: $$y=0.75(63)+2.5.$$"
+      "title": "Substitute the worker count",
+      "content": "The model is $y=0.75x+2.5$, and the colony has $63$ worker ants. Substitute $x=63$ to predict the number of larvae for that colony.<br/>$$y=0.75(63)+2.5$$"
     },
     {
-      "title": "Evaluate",
-      "content": "$0.75(63)=47.25$, so $y=47.25+2.5=49.75$. Rounded, that is about $50$ larvae."
-    },
-    {
-      "title": "Check each choice",
-      "content": "<ul><li>A) $50$ &mdash; matches $49.75$ rounded. Correct.</li><li>B) $66$ &mdash; may come from adding $63+2.5$ and rounding, but the model multiplies 63 by 0.75 first. Eliminated.</li><li>C) $81$ &mdash; this is roughly the worker count needed for 63 predicted larvae, not the predicted larvae for 63 workers. Eliminated.</li><li>D) $205$ &mdash; may come from adding $0.75+2.5$ and then multiplying by $63$, giving $204.75$. Eliminated.</li></ul><strong>A</strong> is correct."
+      "title": "Evaluate the prediction",
+      "content": "Compute the product first, then add the constant term.<br/>$$y=47.25+2.5$$<br/>$$y=49.75$$<br/>The closest choice to $49.75$ larvae is $50$. The answer is <strong>A</strong>."
     }
   ]
 }

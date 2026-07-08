@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute 10 and rewrite the expression",
-      "content": "Apply the distributive property to $10 \\times (10y^2 - 120)$:\n$$10 \\times (10y^2 - 120) = 100y^2 - 1200$$ Substitute back into the original expression:\n$$(8246 + 100y^2) + (100y^2 - 1200)$$"
+      "title": "Distribute the ten",
+      "content": "Distribute $10$ across the second parentheses:\n$$10(10y^2-120)=100y^2-1{,}200$$\nSo the expression becomes\n$$(8{,}246+100y^2)+(100y^2-1{,}200)$$"
     },
     {
-      "title": "Combine like terms and calculate a + b",
-      "content": "Group the $y^2$ terms: $100y^2 + 100y^2 = 200y^2$<br/>Group the constants: $8246 - 1200 = 7046$<br/>The expression in the form $ay^2 + b$ is:\n$$200y^2 + 7046$$ Identify the coefficients: $a = 200$ and $b = 7046$. Therefore:\n$$a + b = 200 + 7046 = 7246$$"
+      "title": "Combine like terms",
+      "content": "Combine the $y^2$ terms and constants:\n$$100y^2+100y^2=200y^2$$\n$$8{,}246-1{,}200=7{,}046$$\nThus $a=200$ and $b=7{,}046$."
+    },
+    {
+      "title": "Add a and b",
+      "content": "Compute the requested sum:\n$$a+b=200+7{,}046=7{,}246$$\nThe answer is <strong>7246</strong>."
     }
   ]
 }

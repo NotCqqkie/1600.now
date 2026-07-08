@@ -1,0 +1,15 @@
+{
+  "questionId": "18d4be2e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the graph range",
+      "content": "The assertion is about mean forest patch sizes in 1986 after a considerable drop. The graph's 1986 values fall within the smallest range offered, from 0 up to about 50 hectares."
+    },
+    {
+      "title": "Reject oversized ranges",
+      "content": "Choice A, Choice B, and Choice C use upper bounds that are much higher than the 1986 values shown. Those ranges would exaggerate the mean patch sizes for that year. The answer is <strong>D</strong>."
+    }
+  ]
+}

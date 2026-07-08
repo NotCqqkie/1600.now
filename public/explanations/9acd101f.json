@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the circle center",
+      "content": "The equation\n$$x^2+(y-3)^2=64$$\nhas center $(0,3)$ and radius $8$."
     },
     {
-      "title": "Extract circle A's center and apply the translation",
-      "content": "The equation $x^2 + (y-3)^2 = 64$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$, so circle A has center $(0, 3)$ and radius $8$.<br/>Shifting down $5$ units means subtracting $5$ from the y-coordinate: new center is $(0, 3-5) = (0, -2)$."
+      "title": "Shift the center down",
+      "content": "Moving the circle down $5$ units subtracts $5$ from the center's $y$ coordinate.\n$$(0,3)\\to(0,3-5)=(0,-2)$$"
     },
     {
-      "title": "Write circle B's equation",
-      "content": "Circle B has center $(0, -2)$ and radius $8$, so its equation is:<br/>$$x^2 + (y+2)^2 = 64$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Write the new equation",
+      "content": "A circle with center $(0,-2)$ and radius $8$ has equation\n$$x^2+(y+2)^2=64$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the discriminant",
-      "content": "Substituting $y = -0.5$ into $y = x^2 + 8x + a$:<br/>$$x^2 + 8x + a = -0.5$$<br/>$$x^2 + 8x + (a + 0.5) = 0$$<br/>For <strong>no real solutions</strong>, the discriminant must be negative:<br/>$$8^2 - 4(1)(a + 0.5) \\lt 0$$"
+      "title": "Set up the quadratic",
+      "content": "Substitute $y=-0.5$:<br/>$$x^2+8x+a=-0.5$$<br/>$$x^2+8x+(a+0.5)=0$$"
     },
     {
-      "title": "Solve for the least integer $a$",
-      "content": "$$64 - 4a - 2 \\lt 0$$<br/>$$62 \\lt 4a$$<br/>$$a \\gt 15.5$$<br/>The least positive integer satisfying $a \\gt 15.5$ is $a = 16$.<br/><br/>The answer is <strong>16</strong>."
+      "title": "Require no real solutions",
+      "content": "No real solutions require a negative discriminant:<br/>$$8^2-4(1)(a+0.5)\\lt0$$<br/>$$64-4a-2\\lt0$$<br/>$$62\\lt4a$$<br/>$$a\\gt15.5$$"
+    },
+    {
+      "title": "Choose the least integer",
+      "content": "The least positive integer greater than $15.5$ is required. The answer is <strong>16</strong>."
     }
   ]
 }

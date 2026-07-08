@@ -1,0 +1,15 @@
+{
+  "questionId": "c7777271",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "The expression $118\\%$ of $x$ means $1.18$ times $x$:<br/>$$f(x)=1.18x$$"
+    },
+    {
+      "title": "Identify the function type",
+      "content": "This is a linear function because $x$ is multiplied by a constant. Since the multiplier $1.18$ is positive, the function increases as $x$ increases. The answer is <strong>D</strong>."
+    }
+  ]
+}

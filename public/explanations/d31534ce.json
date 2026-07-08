@@ -1,0 +1,15 @@
+{
+  "questionId": "d31534ce",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on Malta's figure",
+      "content": "The goal is to emphasize the deadweight tonnage of merchant ships in Malta in 2021. The notes give Malta's average as 54,000 tons per ship and the global average as 21,389 tons per ship."
+    },
+    {
+      "title": "Reject irrelevant focus",
+      "content": "B compares ship counts rather than deadweight tonnage. C and D focus on Taiwan instead of Malta. Comparing Malta's 54,000-ton average with the lower global average highlights the requested figure. The answer is <strong>A</strong>."
+    }
+  ]
+}

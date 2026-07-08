@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what historians suggest",
-      "content": "The passage's final sentence states directly: <strong>Some historians suggest that Maya mathematicians inherited it from the Olmec civilization.</strong> The word &quot;inherited&quot; is the key signal&mdash;it means the Maya received something from their predecessors, not the other way around."
+      "title": "Use the final sentence",
+      "content": "The text says some historians suggest that Maya mathematicians inherited the use of zero from the Olmec civilization. Inherited means they received or acquired it from that earlier civilization."
     },
     {
-      "title": "Match it to the correct choice",
-      "content": "Choice A expresses this exactly: the Maya &quot;acquired&quot; the use of zero from the Olmec, which captures what &quot;inherited&quot; means.<br/><br/>The other three either introduce ideas unsupported by the passage (B about respecting historians vs. mathematicians, C about being secretive) or reverse the direction entirely (D suggests the Maya were givers, not receivers)."
+      "title": "Reject unsupported ideas",
+      "content": "B invents a comparison between historians and mathematicians, C invents secrecy, and D reverses the direction by suggesting the Maya spread their writing system to others. The answer is <strong>A</strong>."
     }
   ]
 }

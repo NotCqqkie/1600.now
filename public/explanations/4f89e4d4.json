@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation with the given profit",
-      "content": "We want to find how many buttons must be sold to earn a profit of \\$930. Set $p(x) = 930$ in the given function:<br/>$$6x - 270 = 930$$"
+      "title": "Set the profit value",
+      "content": "The club wants a profit of $930$, so set the function value equal to $930$.\n$$6x-270=930$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Add 270 to both sides:<br/>$$6x = 1200$$<br/>Divide both sides by 6:<br/>$$x = 200$$<br/>The debate club must sell <strong>200</strong> buttons to earn the desired profit."
+      "title": "Find the button count",
+      "content": "Solve for $x$.\n$$6x-270=930$$\n$$6x=1{,}200$$\n$$x=200$$\nThe answer is <strong>200</strong>."
     }
   ]
 }

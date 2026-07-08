@@ -1,0 +1,15 @@
+{
+  "questionId": "13e719a3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "The expression $8x+32$ has a common factor of $8$.\n$$8x+32=8(x+4)$$"
+    },
+    {
+      "title": "Solve for the target",
+      "content": "Use the factored form in the equation, since the question asks directly for $x+4$ rather than for $x$ itself.\n$$8(x+4)=24$$\n$$x+4=3$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

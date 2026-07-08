@@ -1,0 +1,19 @@
+{
+  "questionId": "5ddf2676",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the study result",
+      "content": "The study collected Western music preference assessments and personality trait reports from participants in fifty-three countries. It found that the five-factor framework captured preferences in Western music and that the correlations between those music factors and personality traits were similar across cultures."
+    },
+    {
+      "title": "Stay within the evidence",
+      "content": "The conclusion must stay with Western music preferences, personality profiles, and cross-cultural similarity. The passage does not test non-Western music, does not discuss familiarity with Western genres, and does not compare the results with what researchers previously assumed."
+    },
+    {
+      "title": "Reject unsupported extensions",
+      "content": "<ul><li>Choice A jumps to non-Western music styles, which the study did not assess.</li><li>Choice B invents a comparison to researchers' previous assumptions.</li><li>Choice C introduces familiarity with Western music, a variable not discussed in the passage.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionId": "ce05a9a1",
+  "correctAnswer": "-196",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the zeros",
+      "content": "The function is already factored:<br/>$$f(x)=(2x-20)(2x+8)$$<br/>Set each factor equal to $0$ to find the zeros:<br/>$$x=10\\quad\\text{and}\\quad x=-4$$",
+      "desmosExpressions": [
+        "f(x) = (2x - 20)(2x + 8)"
+      ]
+    },
+    {
+      "title": "Locate the vertex",
+      "content": "The minimum occurs halfway between the zeros:<br/>$$x=\\frac{10+(-4)}{2}=3$$"
+    },
+    {
+      "title": "Evaluate at the vertex",
+      "content": "Substitute $x=3$:<br/>$$f(3)=(2(3)-20)(2(3)+8)$$<br/>$$f(3)=(-14)(14)=-196$$<br/>The answer is <strong>-196</strong>."
+    }
+  ]
+}

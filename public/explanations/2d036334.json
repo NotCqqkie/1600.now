@@ -1,0 +1,19 @@
+{
+  "questionId": "2d036334",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared trait",
+      "content": "The student wants to emphasize a similarity between the Galápagos penguin and the grey warbler-finch. The notes give one shared trait: both species can be found on Floreana Island in the Galápagos. The notes also give a difference in average weight, so a strong answer should avoid making the weight contrast the main point."
+    },
+    {
+      "title": "Reject noncomparisons",
+      "content": "Choice A contrasts the birds' average weights, so it emphasizes a difference instead of a similarity. Choice B mentions only the grey warbler-finch, and Choice D mentions only the Galápagos penguin while referring vaguely to other bird species. A sentence about a similarity needs to name both birds and state what they share."
+    },
+    {
+      "title": "Choose the shared-location sentence",
+      "content": "Choice C says the grey warbler-finch and the Galápagos penguin can both be found on Floreana Island in the Galápagos. It names both species and uses their shared location to satisfy the student's goal of emphasizing a similarity. The answer is <strong>C</strong>."
+    }
+  ]
+}

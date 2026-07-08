@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key claim in the previous sentence",
-      "content": "The previous sentence introduces this idea: Lily can be <em>“keenly sensitive to a scene which was the fitting background of her own sensations.”</em> It establishes that Lily is capable of deeply connecting landscapes to her internal emotional state."
+      "title": "Locate the prior idea",
+      "content": "The sentence before the underlined one says Lily can be sensitive to a scene that fits the background of her own sensations. That introduces the idea that a landscape can reflect her inner mood."
     },
     {
-      "title": "Match the illustration to the choice",
-      "content": "The underlined sentence demonstrates this dynamic: the landscape becomes <em>“an enlargement of her present mood,”</em> and Lily discovers <em>“something of herself”</em> in its qualities.<br/><br/>This is the concrete illustration of her capability—exactly what the previous sentence introduced.<br/><br/>The other choices either confuse which sentence performs which function, misread the emotional tone, or reverse the relationship between sentences.<br/><br/><strong>D</strong> is correct."
+      "title": "Read the underlined example",
+      "content": "The underlined sentence shows that idea in action: Lily sees the landscape as an enlargement of her present mood and finds something of herself in its calmness and breadth."
+    },
+    {
+      "title": "Reject wrong function claims",
+      "content": "<ul><li><strong>Choice A</strong>: The detailed physical imagery appears mainly in the following sentence.</li><li><strong>Choice B</strong>: The sentence suggests identification and calmness, not internal conflict.</li><li><strong>Choice C</strong>: The next sentence adds scenery details rather than expanding the mood claim.</li></ul>So the underlined sentence illustrates the idea introduced just before it. The answer is <strong>D</strong>."
     }
   ]
 }

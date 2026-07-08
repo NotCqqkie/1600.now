@@ -1,0 +1,15 @@
+{
+  "questionId": "674ed97a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the research gap",
+      "content": "Lin studied convergence through shared genetic mechanisms, while Moravec studied convergence through different mechanisms. The passage says the relative prevalence of both processes remained poorly understood."
+    },
+    {
+      "title": "Match the broader study",
+      "content": "A invents an earlier assumption. B invents data reuse from the prior studies. D wrongly says Lin and Cole and Vale both compared the two mechanisms. The remaining option captures Cole and Vale evaluating both types in one study. The answer is <strong>C</strong>."
+    }
+  ]
+}

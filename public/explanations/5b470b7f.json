@@ -1,0 +1,15 @@
+{
+  "questionId": "5b470b7f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular subject",
+      "content": "The subject is it, referring to the tamarack tree. The sentence describes a regular present-tense action, so the verb needs the third-person singular present form before all its needles."
+    },
+    {
+      "title": "Reject nonfinite or mismatched forms",
+      "content": "<ul><li>Choice A is the base form and does not agree with the singular subject.</li><li>Choice B uses have, which does not agree with singular it.</li><li>Choice D is a participle and cannot serve as the sentence's finite main verb by itself.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

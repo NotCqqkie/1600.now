@@ -1,0 +1,15 @@
+{
+  "questionId": "d25cac5d",
+  "correctAnswer": "53",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(2)$, replace $x$ with $2$ in $f(x)=6x^3+5$. This gives an expression that can be evaluated directly.<br/>$$f(2)=6(2)^3+5$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the exponent first, then multiply by $6$ and add $5$.<br/>$$f(2)=6(8)+5$$<br/>$$f(2)=48+5$$<br/>$$f(2)=53$$<br/>The answer is <strong>53</strong>."
+    }
+  ]
+}

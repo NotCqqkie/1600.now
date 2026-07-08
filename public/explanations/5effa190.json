@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The passage states the mechanical recycling process has “environmental impact and the loss of material quality.” These specific flaws are what the blank word must describe."
+      "title": "Use the flaw description",
+      "content": "The passage says mechanical recycling is associated with environmental impact and loss of material quality. The blank must describe a process that is not good enough because of those problems."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>Inadequate</strong> means insufficient or not good enough—which is precisely what a process with environmental damage and material loss is.<br/><br/>The other three (resilient, dynamic, satisfactory) are positive or neutral, contradicting those flaws.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject positive descriptors",
+      "content": "A suggests durability, C suggests activity or adaptability, and D means good enough; all conflict with the listed flaws. The remaining word means insufficient or not adequate. The answer is <strong>B</strong>."
     }
   ]
 }

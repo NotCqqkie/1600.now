@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the cost structure",
-      "content": "The company charges <strong>\\$880 flat rate</strong> for the first 3 hours, then <strong>\\$60 per hour</strong> for each additional hour. Total rental time is $t$ hours (where $t \\gt 3$), and total cost is <strong>\\$1,120</strong>."
+      "title": "Separate fixed and extra costs",
+      "content": "Fixed cost: $880$. Extra hours: $t-3$."
     },
     {
-      "title": "Write the total cost equation",
-      "content": "The hours beyond the first 3 is $(t - 3)$, costing \\$60 per hour. Total cost equals the flat rate plus additional hours' cost:<br/>$$ 880 + 60(t - 3) = 1,120 $$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Write the total cost",
+      "content": "$$880+60(t-3)=1{,}120$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

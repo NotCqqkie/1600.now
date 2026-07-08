@@ -1,0 +1,23 @@
+{
+  "questionId": "e425852b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the given points",
+      "content": "The relationship must pass through $(0,45)$, $(6,81)$, and $(15,0)$. A matching quadratic has to produce all three outputs.",
+      "desmosExpressions": [
+        "x_1=[0,6,15]",
+        "y_1=[45,81,0]",
+        "y=x^2-18x+45",
+        "y=-x^2+12x+45",
+        "y=x^2+45",
+        "y=-3x^2+48x-45"
+      ]
+    },
+    {
+      "title": "Test the matching quadratic",
+      "content": "For $y=-x^2+12x+45$, substitute the two nonzero $x$-values:\n$$-(6)^2+12(6)+45=-36+72+45=81$$\n$$-(15)^2+12(15)+45=-225+180+45=0$$\nIt also gives $45$ when $x=0$ because the constant term is $45$. The answer is <strong>B</strong>."
+    }
+  ]
+}

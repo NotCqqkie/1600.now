@@ -1,0 +1,23 @@
+{
+  "questionId": "bce5ad72",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the system",
+      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x + 47 = y$$<br/>$$(x + 47)^2 = y$$<br/>You do not need to solve or rearrange them first.",
+      "desmosExpressions": [
+        "x + 47 = y",
+        "(x + 47)^2 = y"
+      ]
+    },
+    {
+      "title": "Solve by substitution",
+      "content": "Since both expressions equal $y$, set them equal:\n$$\nx+47=(x+47)^2\n$$\nLet $u=x+47$. Then\n$$\nu=u^2\n$$\n$$\nu(u-1)=0\n$$"
+    },
+    {
+      "title": "Choose a possible x-value",
+      "content": "The equation gives $x+47=0$ or $x+47=1$, so $x=-47$ or $x=-46$. The listed possible value is $-46$. The answer is <strong>D</strong>."
+    }
+  ]
+}

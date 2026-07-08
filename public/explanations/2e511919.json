@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the line graph for the highest point",
-      "content": "The line graph shows estimated chipmunk counts from 1989 to 1999. Look for the year corresponding to the highest peak on the line."
+      "title": "Find the highest point",
+      "content": "The line graph gives the estimated chipmunk count for each year. The greatest estimated count is shown by the highest point on the graph."
     },
     {
-      "title": "Identify the year of the maximum",
-      "content": "The graph's highest point falls at $1994$. Since the question asks for the year of the maximum count, the peak year is the answer. <strong>B</strong> is correct."
+      "title": "Read the peak year",
+      "content": "The highest point occurs at $1994$, so that is the year with the greatest estimated number of chipmunks. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "1de00210",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points on the line",
+      "content": "Two readable points on the line of best fit are approximately $(0{,}175)$ and $(10{,}575)$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Use change in temperature divided by change in time.\n$$\\frac{575-175}{10-0}=\\frac{400}{10}=40$$"
+    },
+    {
+      "title": "Interpret the rate",
+      "content": "The positive slope means the predicted temperature increases by about $40^\\circ\\text{F}$ per hour over the $10$-hour period. The answer is <strong>C</strong>."
+    }
+  ]
+}

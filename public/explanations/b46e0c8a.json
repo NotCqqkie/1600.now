@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize what the audience already knows",
-      "content": "The question directly specifies the audience is “already familiar with environmental DNA.” This is the defining context."
+      "title": "Use the audience clue",
+      "content": "The audience is already familiar with environmental DNA, so the sentence should not define eDNA. It should present the study itself using the relevant notes: Valdez's team, Everglades water samples, and invasive constrictor snakes."
     },
     {
-      "title": "Select the choice that presents the study appropriately",
-      "content": "The correct answer presents the specific study—the researcher, method, location, and target species—without explaining eDNA.<br/><br/>The other choices define eDNA unnecessarily, while choice B discusses eDNA's capability in general rather than this particular study.<br/><br/>That is the correct answer."
+      "title": "Choose the study-focused option",
+      "content": "B gives only a general fact about eDNA analysis. C and D define environmental DNA, which this audience does not need. The remaining choice presents the specific study without unnecessary background. The answer is <strong>A</strong>."
     }
   ]
 }

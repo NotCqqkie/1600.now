@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the shadow ratio",
-      "content": "The trees and their shadows form similar right triangles at the same time of day, so the height-to-shadow ratio is constant:<br/>$$\\frac{10}{5}=\\frac{x}{2}$$"
+      "title": "Set up similar triangles",
+      "content": "At the same time of day, the trees and shadows form similar right triangles. So the height-to-shadow ratios are equal.\n$$\\frac{10}{5}=\\frac{x}{2}$$"
     },
     {
-      "title": "Solve for the other tree's height",
-      "content": "Since $\\frac{10}{5}=2$, the other tree's height must be twice its shadow length:<br/>$$x=2\\cdot2=4$$<br/>That confirms <strong>B</strong>."
+      "title": "Find the other height",
+      "content": "Simplify and solve.\n$$2=\\frac{x}{2}$$\n$$x=4$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

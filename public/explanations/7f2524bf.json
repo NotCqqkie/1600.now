@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the y-intercept represents",
-      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which means $x=0$. Here $x$ is the number of months after the tablet was purchased. So $x=0$ means the moment it was purchased, before any months have passed."
+      "title": "Interpret the y-intercept",
+      "content": "The $y$-intercept occurs when $x=0$. Here, $x$ is the number of months since the tablet was purchased, so $x=0$ means the purchase date."
     },
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "At $x=0$, the graph is at $y=225$. So the point is $(0,225)$, meaning the estimated value at purchase was 225 dollars."
-    },
-    {
-      "title": "Interpret in context",
-      "content": "The credited option says the tablet was worth 225 dollars when it was purchased, which is exactly the meaning of the $y$-intercept. The 24-month value, decrease interpretation, and yearly percentage rate options do not describe the initial value. <strong>A</strong> is correct."
+      "title": "Read the initial value",
+      "content": "The graph's $y$-intercept is $225$, so the estimated value at the time of purchase was $225$ dollars. The answer is <strong>A</strong>."
     }
   ]
 }

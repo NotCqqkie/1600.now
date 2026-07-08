@@ -1,0 +1,15 @@
+{
+  "questionId": "26889ec3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the structure",
+      "content": "The passage first introduces 6478 Gault's repeated mass loss. It then rules out solar energy-driven ice vaporization and impact ejection. Finally, it presents rotational instability as the likely explanation."
+    },
+    {
+      "title": "Pick the structural match",
+      "content": "B incorrectly says the passage gives new evidence for the final theory. C says no persuasive account exists, but the passage endorses one. D says other observations are discredited, but the passage evaluates explanations for this asteroid's mass loss. The structure is phenomenon, two rejected explanations, then a plausible third. The answer is <strong>A</strong>."
+    }
+  ]
+}

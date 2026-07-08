@@ -1,0 +1,15 @@
+{
+  "questionId": "f7886934",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficients",
+      "content": "The equation is in the form $ax^2+bx+c=0$. For<br/>$$x^2-18x+14=0$$<br/>the coefficients are $a=1$ and $b=-18$."
+    },
+    {
+      "title": "Use the root sum",
+      "content": "For $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$. Therefore,<br/>$$-\\frac{-18}{1}=18$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

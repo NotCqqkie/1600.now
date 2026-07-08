@@ -1,0 +1,15 @@
+{
+  "questionId": "5a3c8109",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the input on the graph",
+      "content": "The notation $f(5)$ means the $y$-value of the graph when $x=5$. Find $x=5$ on the horizontal axis."
+    },
+    {
+      "title": "Read the function value",
+      "content": "From $x=5$, move vertically to the graph and read the corresponding $y$-value. The graph shows $f(5)=3$. The answer is <strong>B</strong>."
+    }
+  ]
+}

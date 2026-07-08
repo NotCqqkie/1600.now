@@ -1,0 +1,15 @@
+{
+  "questionId": "46dd5610",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the 2010 contrast",
+      "content": "The sentence already says no country in the graph had more than 2 women on its high court in 1980. The example should therefore use 2010 data showing a higher number."
+    },
+    {
+      "title": "Check the graph evidence",
+      "content": "A focuses on whether numbers decreased over time, B gives only Mexico's values, and C compares increases rather than giving the needed 2010 contrast. The statement that Sri Lanka, the Philippines, and Mexico each had 3 women in 2010 supplies exactly the needed evidence. The answer is <strong>D</strong>."
+    }
+  ]
+}

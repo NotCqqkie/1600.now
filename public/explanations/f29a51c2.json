@@ -1,0 +1,15 @@
+{
+  "questionId": "f29a51c2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refute the urban claim",
+      "content": "The claim to refute is that Storting malapportionment favors small urban districts. The notes say the seat formula awards points for residents and even more points for land. Because less populated rural districts have large tracts of land, that weighting gives those rural districts disproportionate representation over smaller, more populated urban districts."
+    },
+    {
+      "title": "Reject definitions and reversals",
+      "content": "B only defines malapportionment, so it does not identify who benefits in the Storting. C says rural districts are underrepresented, contradicting the notes. D rejects the urban claim but then wrongly says more populated districts are overrepresented. The choice that uses the land-weighted formula to show rural overrepresentation refutes the claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count total cubes and favorable outcomes",
-      "content": "Total number of cubes: $8 + 4 + 36 + 36 = 84$. The cubes that are neither blue nor yellow are the red and white cubes: $8 + 4 = 12$ cubes."
+      "title": "Count the cubes",
+      "content": "The total number of cubes is<br/>$$8+4+36+36=84$$<br/>The cubes that are neither blue nor yellow are the red and white cubes:<br/>$$8+4=12$$"
     },
     {
-      "title": "Calculate probability and simplify",
-      "content": "Set up the probability fraction using favorable outcomes over total outcomes:<br/>$$P = \\frac{12}{84}$$<br/>Simplify by dividing both numerator and denominator by 12:<br/>$$P = \\frac{1}{7}$$<br/>That matches <strong>Choice D &mdash; $\\frac{1}{7}$</strong>.",
+      "title": "Simplify the probability",
+      "content": "Use favorable outcomes over total outcomes:<br/>$$\\frac{12}{84}=\\frac{1}{7}$$<br/>The answer is <strong>D</strong>.",
       "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     }
   ]

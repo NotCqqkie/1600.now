@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what box plots reveal",
-      "content": "A box plot shows the median as the vertical line inside the box; it does <em>not</em> show the mean. Two other options make claims about means, which cannot be determined from a box plot alone, so we can immediately eliminate them."
+      "title": "Use what a box plot shows",
+      "content": "A box plot shows the median as the line inside the box. It does not give enough information to determine the mean."
     },
     {
-      "title": "Read the median from each box plot",
-      "content": "The median is the vertical line dividing each box. For Group 1, this line sits at about 25 kg. For Group 2, this line sits at about 24 kg. Group 1's median line is positioned to the right of Group 2's median line on the mass scale."
+      "title": "Compare the medians",
+      "content": "From the box plots, group $1$ has median mass $25$ kilograms, and group $2$ has median mass $24$ kilograms. Since $25>24$, group $1$ has the greater median mass."
     },
     {
-      "title": "Compare the medians and select the correct choice",
-      "content": "Group 1's median ($\\approx 25$ kg) is greater than Group 2's median ($\\approx 24$ kg). That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Choose the true statement",
+      "content": "The statement that must be true is that the median mass of group $1$ is greater than the median mass of group $2$. The answer is <strong>C</strong>."
     }
   ]
 }

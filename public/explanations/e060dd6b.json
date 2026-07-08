@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what noun should follow the comma",
-      "content": "After “Recordings of electrical activity in the brain,” the comma signals a new noun phrase is coming. Since the sentence should express what the recordings show, that noun must be the recordings themselves (here called “electrograms”), and it will be the subject of the main clause."
+      "title": "Connect the opening phrase",
+      "content": "The opening phrase identifies recordings of brain activity. The sentence should then say what those recordings, or electrograms, show about skilled soccer players."
     },
     {
-      "title": "Find the choice where electrograms is the subject of the main verb",
-      "content": "A makes “electrograms” the subject of “show,” correctly reporting what the recordings reveal about the soccer players' brains.<br/><br/>B makes “soccer players” the subject after the comma (disconnecting it from the opening phrase), C and D make “responses” the subject, both disrupting the intended structure and meaning.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Keep electrograms as subject",
+      "content": "The version with electrograms as the subject cleanly reports that the recordings show increased activity. B makes soccer players the subject, while C and D make responses the subject, weakening the sentence's logic. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "190ee069",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark simultaneous contrast",
+      "content": "The sentence compares two findings from the same analysis: negative adjectives evolve most rapidly, while negative nouns evolve most slowly. The relationship is a concurrent contrast, not similarity, cause, or time sequence."
+    },
+    {
+      "title": "Reject causal and time shifts",
+      "content": "B signals similarity, C signals consequence, and D signals a later event. None fits two contrasting results reported from the same study. The needed transition introduces a separate finding happening in the same context. The answer is <strong>A</strong>."
+    }
+  ]
+}

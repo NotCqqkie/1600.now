@@ -1,0 +1,19 @@
+{
+  "questionId": "bcca34d9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the trend direction",
+      "content": "The data trend upward, so the slope of the linear model should be positive. That eliminates the choices with negative slopes."
+    },
+    {
+      "title": "Estimate the slope size",
+      "content": "From the scatterplot, an increase of about $5$ in $x$ corresponds to an increase of about $9$ in $y$.<br/>$$\\frac{9}{5}=1.8$$"
+    },
+    {
+      "title": "Choose the matching model",
+      "content": "A model with slope $0.2$ is too flat for the data. The model with positive slope close to $1.8$ is<br/>$$y=1.80x+0.2$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

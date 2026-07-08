@@ -1,0 +1,15 @@
+{
+  "questionId": "920c1770",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the missing lightning evidence",
+      "content": "Some scientists connect Venusian whistler waves to lightning because their energy signatures resemble Earth's. Other scientists point out that PVO and VEX found little evidence of other lightning-related phenomena, such as flashes of light."
+    },
+    {
+      "title": "Choose an alternate cause",
+      "content": "Choice B denies that the waves are whistler waves, but the passage treats them as such. Choice C says Venusian lightning is unlikely to generate whistler waves, which does not explain the recorded waves. Choice D blames imprecise data, but the passage emphasizes missing lightning evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

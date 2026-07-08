@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence boundary",
-      "content": "The sentence has two independent clauses: <strong>“They were not the first in England to adopt the literary modes of classical antiquity”</strong> (complete idea) and <strong>“some of the most prominent figures of the earlier Renaissance period were also influenced by ancient Greek and Roman literature”</strong> (complete idea).<br/><br/>These must be joined with punctuation strong enough to separate two independent clauses."
+      "title": "Place however with the first clause",
+      "content": "The sentence says the neoclassical writers were not the first to adopt classical modes. “However” belongs at the end of that first independent clause to contrast it with the previous sentence, and a semicolon then separates the next independent clause."
     },
     {
-      "title": "Apply the conjunctive adverb rule",
-      "content": "Two independent clauses joined by the conjunctive adverb <strong>however</strong> follow the pattern <em>IC; however, IC</em>: a semicolon before <em>however</em> and a comma after.<br/><br/>The correct answer is the option that places the semicolon before <em>however</em> and the comma after, correctly separating the two complete clauses.<br/><br/>The other options either misplace the punctuation (e.g., put the semicolon after <em>however</em>) or use only commas, creating a comma splice.<br/><br/>That is the correct answer."
+      "title": "Separate the full clauses",
+      "content": "Choice A and Choice B use only commas between independent clauses, creating faulty boundaries. Choice D puts “however” with the second clause, but that clause supports the first claim rather than contrasting with it. The option with “however” before the semicolon has the right logic and boundary. The answer is <strong>C</strong>."
     }
   ]
 }

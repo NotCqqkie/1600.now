@@ -1,0 +1,19 @@
+{
+  "questionId": "77fb99b5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare to circle form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation:<br/>$$(x-h)^2+(y-k)^2=r^2$$"
+    },
+    {
+      "title": "Identify the center and radius",
+      "content": "Compare the given equation to standard form:<br/>$$(x-11)^2+(y-n)^2=49$$<br/>The center is $(11,n)$, and the radius is:<br/>$$\\sqrt{49}=7$$"
+    },
+    {
+      "title": "Match the description",
+      "content": "Choice A gives center $(11,n)$ and radius $7$. The answer is <strong>A</strong>."
+    }
+  ]
+}

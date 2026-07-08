@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare the two dot plots",
-      "content": "Class A's dots sit above the integers 1 through 7, and Class B's dots sit above 14 through 20. Going column by column, the dot heights in Class A match the dot heights in Class B in the same order &mdash; the two distributions have the exact same shape."
+      "title": "Compare the dot plots",
+      "content": "The dot plots have the same shape. Each value in class B is shifted the same distance to the right from the corresponding value in class A."
     },
     {
-      "title": "Apply the shift rule for standard deviation",
-      "content": "Class B is Class A shifted right by 13 (each value increases by the same constant). Adding a constant to every value moves the mean by that constant but leaves every deviation from the mean unchanged, so the standard deviation does not change."
+      "title": "Apply the shift rule",
+      "content": "Adding the same constant to every data value changes the mean, but it does not change how far the values are spread out from the mean. Therefore, the two standard deviations are equal."
     },
     {
-      "title": "Conclude",
-      "content": "Same shape plus a constant shift means the two classes have equal standard deviations. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the comparison",
+      "content": "The statement that says the standard deviations are equal is the matching comparison. The answer is <strong>B</strong>."
     }
   ]
 }

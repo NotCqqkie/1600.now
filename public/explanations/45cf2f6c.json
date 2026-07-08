@@ -1,0 +1,15 @@
+{
+  "questionId": "45cf2f6c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the right side",
+      "content": "Distribute the $2$ on the right side of the equation.<br/>$$3x+10=2(7+4x)$$<br/>$$3x+10=14+8x$$"
+    },
+    {
+      "title": "Collect terms",
+      "content": "Move the $x$-terms to one side and constants to the other.<br/>$$3x-8x=14-10$$<br/>$$-5x=4$$<br/>$$5x=-4$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

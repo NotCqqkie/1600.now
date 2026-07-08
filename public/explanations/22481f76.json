@@ -1,0 +1,19 @@
+{
+  "questionId": "22481f76",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "There are $25$ objects, so the median is the $13$th value when the heights are ordered:\n$$\n\\frac{25+1}{2}=13\n$$"
+    },
+    {
+      "title": "Locate the histogram interval",
+      "content": "The first interval contains $8$ objects. The next interval contains $6$ more, bringing the cumulative count to\n$$\n8+6=14\n$$\nSo the $13$th value lies in the $101$ to $200$ centimeter interval."
+    },
+    {
+      "title": "Choose the matching height",
+      "content": "Among the choices, $155$ is the only value in the $101$ to $200$ centimeter interval. The answer is <strong>C</strong>."
+    }
+  ]
+}

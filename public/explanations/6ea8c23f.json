@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what &quot;and&quot; is connecting",
-      "content": "The verb &ldquo;determine&rdquo; takes two parallel noun clauses as its objects: &ldquo;how current-driven mixing varies across regions&rdquo; and &ldquo;what impact it has on the distribution of heat and nutrients in the ocean.&rdquo; The word completing the blank ends the first clause and leads into &ldquo;and.&rdquo;"
+      "title": "Identify the paired objects",
+      "content": "The team determined two parallel things: how mixing varies across regions and what impact it has on heat and nutrients. These two coordinate noun clauses are joined by \"and.\""
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;regions,&rsquo;</strong>: A comma before &ldquo;and&rdquo; joining exactly two parallel clauses is incorrect &mdash; no punctuation is needed here. &#10007;</li><li><strong>Choice B &mdash; &lsquo;regions:&rsquo;</strong>: A colon introduces a list or explanation; it cannot separate two coordinate clauses joined by &ldquo;and.&rdquo; &#10007;</li><li><strong>Choice C &mdash; &lsquo;regions;&rsquo;</strong>: A semicolon joins independent clauses; the second element here is not an independent clause. &#10007;</li><li><strong>Choice D &mdash; &lsquo;regions&rsquo;</strong>: No punctuation before &ldquo;and&rdquo; when joining two parallel noun clauses &mdash; this is the correct convention. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject added punctuation",
+      "content": "A adds an unnecessary comma between the two coordinate clauses. B uses a colon, which would introduce an explanation or list. C uses a semicolon, which is for separating independent clauses. No punctuation is needed before \"and.\" The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "98d94f9f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the inverse-size prediction",
+      "content": "The hypothesis predicts that smaller birds should be more sensitive to predator warning signals. Since <em>M. collaris</em> is much smaller than <em>S. grossus</em>, the most direct support would show the smaller species responding to alarm calls while the larger one does not."
+    },
+    {
+      "title": "Reject weak support patterns",
+      "content": "Choice A reverses the prediction by making only larger birds respond. Choice B does not show real sensitivity to alarm calls because the same response occurs with random noise. Choice C does not directly compare the two named species. The answer is <strong>D</strong>."
+    }
+  ]
+}

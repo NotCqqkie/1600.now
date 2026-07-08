@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses",
-      "content": "The sentence contains two independent clauses: (1) &ldquo;Leibniz wheel calculators were popular in the first half of the twentieth [blank]&rdquo; and (2) &ldquo;these ingenious devices were eventually replaced by electronic calculators.&rdquo; The blank must provide punctuation and/or a connector that legally joins them while conveying that popularity gave way to replacement."
+      "title": "Join two complete clauses",
+      "content": "The sentence joins two independent clauses: the calculators were popular in the first half of the twentieth century, and the devices were eventually replaced. The contrast between popularity and replacement calls for a comma plus a coordinating conjunction."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; century</strong>: no punctuation or conjunction between two independent clauses &mdash; produces a run-on sentence (fused clauses). &#10007;</li><li><strong>Choice B &mdash; century,</strong>: a comma alone between two independent clauses &mdash; produces a comma splice. &#10007;</li><li><strong>Choice C &mdash; century, but</strong>: a comma plus coordinating conjunction correctly joins two independent clauses; &ldquo;but&rdquo; also signals the contrast between the devices&apos; popularity and their replacement. &#10003;</li><li><strong>Choice D &mdash; century that</strong>: the subordinating word &ldquo;that&rdquo; turns the first clause into a fragment and creates an illogical, ungrammatical sentence. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject faulty joins",
+      "content": "<ul><li><strong>Choice A</strong> gives no punctuation or conjunction between two complete clauses.</li><li><strong>Choice B</strong> uses only a comma, creating a comma splice.</li><li><strong>Choice D</strong> uses \"that\" in a way that makes the sentence ungrammatical.</li></ul>The remaining choice correctly joins the clauses and signals contrast. The answer is <strong>C</strong>."
     }
   ]
 }

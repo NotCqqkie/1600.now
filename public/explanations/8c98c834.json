@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the model",
-      "content": "The model y = 0.2x tells us that for each minute of practice, the pianist plays 0.2 piece. To find the number of pieces for a 20-minute session, substitute x = 20 into the equation."
+      "title": "Substitute the session length",
+      "content": "The session lasted $20$ minutes, so use $x=20$ in the model $y=0.2x$."
     },
     {
-      "title": "Substitute and compute",
-      "content": "$$y = 0.2 \\times 20 = 4$$ That confirms <strong>B</strong> is correct."
+      "title": "Compute the number of pieces",
+      "content": "Multiply the rate by the number of minutes:<br/>$$y=0.2(20)=4$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

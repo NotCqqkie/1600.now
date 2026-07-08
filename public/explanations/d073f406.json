@@ -1,0 +1,15 @@
+{
+  "questionId": "d073f406",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the clauses",
+      "content": "The text has two independent clauses: many works are lost, and <em>Geographica</em> is extant. The conjunctive adverb \"Conversely\" needs a strong boundary before it."
+    },
+    {
+      "title": "Reject weak boundaries",
+      "content": "B and D use \"and conversely,\" an awkward additive link for a contrast. C creates a comma splice between independent clauses. The remaining option ends the first sentence and introduces the contrast correctly. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship between the sentences",
-      "content": "The previous sentence says the user &quot;first tags the photo with all known information.&quot; The word &quot;first&quot; signals a sequence: something comes after this step. The blank must introduce that next step &mdash; CWPS's facial-recognition software analyzing the photo. The transition must mean &quot;next in sequence.&quot;"
+      "title": "Notice the sequence marker",
+      "content": "The previous sentence says a user first tags the photo with known information. The following sentence describes the facial-recognition software analyzing features and looking for matches. The transition must mark the next step in a process."
     },
     {
-      "title": "Eliminate each wrong choice, then confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Then,&rsquo;</strong>: &quot;Then&quot; is the natural sequential counterpart to &quot;first&quot; &mdash; it marks what happens after the tagging step, which is exactly what the second sentence describes. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In fact,&rsquo;</strong>: &quot;In fact&quot; emphasizes or clarifies the previous statement rather than advancing a sequence &mdash; the second sentence introduces a new step, not a restatement. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Likewise,&rsquo;</strong>: &quot;Likewise&quot; signals a parallel or similar action, but tagging and facial-recognition analysis are different steps in a process, not parallel ones. &#10007;</li><li><strong>Choice D &mdash; &lsquo;For example,&rsquo;</strong>: &quot;For example&quot; introduces an illustration of the previous point &mdash; but analyzing physical features is not an example of tagging; it is the next step. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject nonsequence transitions",
+      "content": "B would emphasize or clarify the previous statement, not move to the next step. C signals a similar parallel action, and D introduces an example; the software analysis is neither. The remaining transition follows naturally after \"first.\" The answer is <strong>A</strong>."
     }
   ]
 }

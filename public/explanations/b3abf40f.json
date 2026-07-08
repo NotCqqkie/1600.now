@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope for a change question",
-      "content": "The function $$F(x)=\\frac{9}{5}(x-273.15)+32$$ is linear. Its slope is $\\frac{9}{5}$, which means each $1$-kelvin increase changes Fahrenheit by $\\frac{9}{5}$ degrees."
+      "title": "Use the rate of change",
+      "content": "The function is linear, and its slope is $\\frac{9}{5}$. That means each $1$-kelvin increase changes Fahrenheit by $\\frac{9}{5}$ degrees."
     },
     {
       "title": "Scale the increase",
-      "content": "For a $9.10$ kelvin increase, multiply by the slope: $$\\Delta F=\\frac{9}{5}(9.10)=16.38.$$ The constants $-273.15$ and $+32$ do not affect the change."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The result is correct. The larger choices come from evaluating the whole temperature conversion rather than finding the increase.",
+      "content": "For a $9.10$ kelvin increase, multiply by the slope:\n$$\\frac{9}{5}(9.10)=16.38$$\nThe answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=(9/5)*(x-273.15)+32"
       ]

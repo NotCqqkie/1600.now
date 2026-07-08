@@ -1,0 +1,19 @@
+{
+  "questionId": "21577adf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the two unit factor",
+      "content": "The factor $c$ is the multiplier when $x$ increases by $2$. Starting with $f(x)=35(3)^{4x}$, increasing $x$ by $2$ increases the exponent by $8$, so the multiplier is $$c=3^8=6{,}561$$ This is the constant factor the question asks to see as a base or coefficient."
+    },
+    {
+      "title": "Rewrite using that factor",
+      "content": "Use $6{,}561=3^8$ to group the exponent in chunks of $8$: $$35(3)^{4x}=35(3^8)^{x/2}=35(6{,}561)^{x/2}$$ This equivalent form keeps the same function values for every $x$ and displays the two-unit multiplier directly as the base."
+    },
+    {
+      "title": "Match the displayed base",
+      "content": "Choice A shows base $3$, choice B shows base $9$, and choice C shows base $81$. Choice D shows base $6{,}561$, which is the value of $c$ found from the two-unit increase. The answer is <strong>D</strong>."
+    }
+  ]
+}

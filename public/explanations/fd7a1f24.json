@@ -1,0 +1,15 @@
+{
+  "questionId": "fd7a1f24",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent increase",
+      "content": "A $584\\%$ increase means the added mass is $5.84$ times the original mass."
+    },
+    {
+      "title": "Add original and increase",
+      "content": "The final mass is the original mass plus the increase.<br/>$$k+5.84k=6.84k$$The answer is <strong>A</strong>."
+    }
+  ]
+}

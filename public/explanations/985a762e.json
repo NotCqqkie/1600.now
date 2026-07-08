@@ -1,0 +1,19 @@
+{
+  "questionId": "985a762e",
+  "correctAnswer": "-51",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift",
+      "content": "Translating the graph of $y=f(x)$ up $5$ units gives:\n$$\ng(x)=f(x)+5\n$$\nSo:\n$$\ng(0)=f(0)+5\n$$"
+    },
+    {
+      "title": "Evaluate the original function",
+      "content": "Substitute $x=0$ into $f(x)=(x-7)(x-4)(x-2)$:\n$$\nf(0)=(-7)(-4)(-2)=-56\n$$"
+    },
+    {
+      "title": "Add the vertical shift",
+      "content": "Now add $5$:\n$$\ng(0)=-56+5=-51\n$$\nThe answer is <strong>-51</strong>."
+    }
+  ]
+}

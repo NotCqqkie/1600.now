@@ -1,0 +1,15 @@
+{
+  "questionId": "7c1abbc6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the GCF",
+      "content": "Each term in $42x^2+7x+7$ has a greatest common factor of $7$. Factoring $7$ out of every term keeps the expression equivalent.<br/>$$42x^2+7x+7=7(6x^2+x+1)$$"
+    },
+    {
+      "title": "Match the factored form",
+      "content": "Choice A has an extra factor of $x$, choice B loses the constant term, and choice D uses the wrong common factor. The equivalent expression is $7(6x^2+x+1)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "96568d22",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the ages",
+      "content": "Text 1 discusses species from clades predating Grande Terre's split from Gondwana around 80 million years ago. Text 2 says the oldest current clade crown age on the island is 41.1 million years, and nearly all current clades are much younger."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "A misuses the 2.0-million-year Goodeniaceae example as a recolonization date. B reverses the implication: if current clades are 41.1 million years old or younger, they cannot include species from 80 million years ago. D invents claims about descendants. The answer is <strong>C</strong>."
+    }
+  ]
+}

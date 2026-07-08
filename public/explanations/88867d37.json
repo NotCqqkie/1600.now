@@ -4,23 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\left(x+2\\right) \\left(x-5\\right) \\left(x+9\\right)=0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $5$.",
+      "title": "Set each factor to zero",
+      "content": "A product equals zero when at least one factor equals zero, so each factor can be tested separately:\n$$x+2=0$$\n$$x-5=0$$\n$$x+9=0$$",
       "desmosExpressions": [
         "\\left(x+2\\right) \\left(x-5\\right) \\left(x+9\\right)=0"
       ]
     },
     {
-      "title": "Use the zero product property",
-      "content": "A product equals zero when at least one factor equals zero."
-    },
-    {
-      "title": "Find the solutions",
-      "content": "Set each factor equal to zero: $x+2=0$ gives $x=-2$, $x-5=0$ gives $x=5$, and $x+9=0$ gives $x=-9$."
-    },
-    {
-      "title": "Choose the positive solution",
-      "content": "The only positive solution is $5$, which matches <strong>C</strong>."
+      "title": "Solve the factor equations",
+      "content": "Solving the three equations gives\n$$x=-2$$\n$$x=5$$\n$$x=-9$$\nThe question asks for a positive solution, so use the solution greater than zero. The answer is <strong>C</strong>."
     }
   ]
 }

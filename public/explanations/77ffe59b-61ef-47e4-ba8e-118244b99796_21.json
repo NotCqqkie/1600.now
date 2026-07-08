@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence already has a main verb &mdash; &quot;shows&quot; (&quot;Aslanian&apos;s macroanalysis ___ nearly 1,000 book titles... shows not only... but also...&quot;). The blank modifies &quot;macroanalysis&quot; and must not create a second competing main verb."
+      "title": "Preserve the main verb",
+      "content": "The sentence's main verb is 'shows': Aslanian's macroanalysis shows steady popularity and broadening interest. The blank should modify 'macroanalysis' without adding a second finite verb."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;had examined&rsquo;</strong>: A finite past-perfect verb. This would create two main verbs in one clause (&quot;had examined... shows&quot;), which is ungrammatical. &#10007;</li><li><strong>Choice B &mdash; &lsquo;examining&rsquo;</strong>: A present participle. It modifies &quot;macroanalysis&quot; as a participial phrase (&quot;macroanalysis examining nearly 1,000 book titles&quot;) without competing with &quot;shows.&quot; &#10003;</li><li><strong>Choice C &mdash; &lsquo;examines&rsquo;</strong>: A finite present-tense verb. Same problem as A &mdash; two main verbs. &#10007;</li><li><strong>Choice D &mdash; &lsquo;examined&rsquo;</strong>: A finite past-tense verb. Same problem as A and C. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose the modifier",
+      "content": "Choice A, Choice C, and Choice D are finite verb forms, which would compete with 'shows' in the same clause. The remaining choice is a participle that modifies 'macroanalysis' and keeps the sentence grammatical. The answer is <strong>B</strong>."
     }
   ]
 }

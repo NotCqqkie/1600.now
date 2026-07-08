@@ -4,31 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "At posting (day 0), there are 53 subscribers. Each day the count doubles, so after $d$ days the count is multiplied by 2 exactly $d$ times."
+      "title": "Identify the initial value",
+      "content": "At the time of posting, the channel had $53$ subscribers. That is the starting value, so it is the value when $d=0$."
     },
     {
-      "title": "Step 2",
-      "content": "Day 0: $n = 53$. Day 1: $n = 53 \\cdot 2$. Day 2: $n = 53 \\cdot 2^2$. Day $d$: $n = 53 \\cdot 2^d$."
+      "title": "Use the doubling factor",
+      "content": "Doubling each day means multiplying by $2$ once for each day after posting. For $d$ days, that repeated multiplication is represented by an exponent:\n$$\nn=53(2)^d\n$$"
     },
     {
-      "title": "Step 3",
-      "content": "This is an exponential growth model with initial value 53 and growth factor 2."
-    },
-    {
-      "title": "Step 4",
-      "content": "The equation $n = 53(2)^d$ matches this pattern exactly."
-    },
-    {
-      "title": "Graph the doubling checkpoints",
-      "content": "In the Desmos rows, $x_1$ lists days $0$ through $3$ and $y_1$ lists the subscriber counts after repeated doubling. The curve $y=53(2)^x$ should pass through each checkpoint.",
+      "title": "Calculator shortcut",
+      "content": "The plotted checkpoints follow the same doubling pattern as the exponential model: $53$, $106$, $212$, then $424$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "x_1=[0,1,2,3]",
         "y_1=[53,106,212,424]",
         "y=53(2)^x"
       ]
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $n={ \\left(53\\right)}^{d}$</strong>: This raises 53 to the power $d$, which would mean at day 1 there are 53 subscribers, not double. Wrong structure &mdash; the base should be the growth factor, not the initial value. &#10007;</li><li><strong>Choice B &mdash; $n=53{(2)}^{d}$</strong>: Initial value 53, doubled each day (base 2). At $d=1$: $53 \\cdot 2 = 106$ (double of 53). At $d=2$: $53 \\cdot 4 = 212$ (double of 106). Correct. &#10003;</li><li><strong>Choice C &mdash; $n=53{ \\left(\\frac{1}{2}\\right)}^{d}$</strong>: Base $\\frac{1}{2}$ represents exponential decay (halving each day), not doubling. &#10007;</li><li><strong>Choice D &mdash; $n={ \\left(53\\right)}^{2}+d$</strong>: This is a linear function in $d$ added to a constant, not an exponential. It does not model daily doubling. &#10007;</li></ul>That is the correct answer.",
-  "desmosExpressions": []
+  ]
 }

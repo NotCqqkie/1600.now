@@ -1,0 +1,15 @@
+{
+  "questionId": "b2a432f8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the mass-fraction value",
+      "content": "The notes define mass fraction as an element's total mass relative to the combined mass of all elements in an environment. They give oxygen's mass fraction on Earth as 297,000 ppm."
+    },
+    {
+      "title": "State oxygen's exact ratio",
+      "content": "Choice A compares oxygen with vanadium, Choice B defines mass fraction without giving the value, and Choice D uses vanadium's value for oxygen. The remaining choice gives oxygen's mass fraction. The answer is <strong>C</strong>."
+    }
+  ]
+}

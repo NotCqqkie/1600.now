@@ -1,0 +1,23 @@
+{
+  "questionId": "27828efb",
+  "correctAnswer": "340",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Make matching coefficients",
+      "content": "Rewrite the first equation so the $x$-terms line up with the second equation:<br/>$$7y=-6x+2170$$<br/>$$6x+7y=2170$$<br/>The second equation simplifies to<br/>$$6x-7y=350$$"
+    },
+    {
+      "title": "Add the equations",
+      "content": "Adding the equations eliminates $y$:<br/>$$6x+7y=2170$$<br/>$$6x-7y=350$$<br/>$$12x=2520$$<br/>$$x=210$$<br/>Then substitute into $6x+7y=2170$:<br/>$$6(210)+7y=2170$$<br/>$$y=130$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "Graphing the two equations gives the same intersection, $(210{,}130)$. The question asks for the sum of the coordinates, so add them:<br/>$$210+130=340$$<br/>The answer is <strong>340</strong>.",
+      "desmosExpressions": [
+        "7y = -6x + 2170",
+        "24x - 28y = 1400"
+      ]
+    }
+  ]
+}

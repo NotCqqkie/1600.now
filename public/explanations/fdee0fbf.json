@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope of line k",
-      "content": "The line passes through (0,-8) and (3,4). Use slope formula $$m = \\frac{y_2 - y_1}{x_2 - x_1}$$.<br/>Plug in: $$m = \\frac{4 - (-8)}{3 - 0} = \\frac{12}{3} = 4$$.",
+      "title": "Find the slope",
+      "content": "Use the points $(0,-8)$ and $(3,4)$: $$m=\\frac{4-(-8)}{3-0}=\\frac{12}{3}=4$$",
       "formula": "$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"
     },
     {
-      "title": "Write the equation using slope-intercept form",
-      "content": "The y-intercept is given as (0,-8), so b = -8. With slope m = 4, the line is $$y = 4x - 8$$.",
+      "title": "Write the line equation",
+      "content": "The line crosses the $y$-axis at $(0,-8)$, so the $y$-intercept is $-8$. With slope $4$, the equation is $$y=4x-8$$",
       "formula": "$$y = mx + b$$"
     },
     {
-      "title": "Evaluate at x = 18 to find w",
-      "content": "Substitute x = 18: $$w = 4(18) - 8 = 72 - 8 = 64$$.<br/>The answer is <strong>64</strong>."
+      "title": "Evaluate at the given x-value",
+      "content": "The point $(18,w)$ lies on the line, so substitute $x=18$: $$w=4(18)-8$$ $$w=72-8$$ The answer is <strong>64</strong>."
     }
   ]
 }

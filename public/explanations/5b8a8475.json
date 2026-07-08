@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read line k's slope",
-      "content": "Line $k$ is $y=4x+20$, which is in slope-intercept form. The slope of line $k$ is the coefficient of $x$, so $m=4$."
+      "title": "Read the given slope",
+      "content": "The equation $y=4x+20$ is in slope-intercept form, so line $k$ has slope $4$."
     },
     {
-      "title": "Use the perpendicular slope shortcut",
-      "content": "Perpendicular lines have slopes that are opposite reciprocals. The opposite reciprocal of $4$ is $$-\\frac{1}{4}$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A (&lsquo;$-\\frac{1}{4}$&rsquo;) is $-\\frac{1}{4}$, so it is correct. The other choices use unrelated denominators from the equation instead of the reciprocal of the slope."
+      "title": "Use the perpendicular rule",
+      "content": "Perpendicular lines have slopes that are opposite reciprocals. The opposite reciprocal of $4$ is<br/>$$-\\frac{1}{4}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

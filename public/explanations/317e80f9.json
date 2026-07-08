@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use substitution",
-      "content": "The system is $x+y=24$ and $5y=x$. Since the second equation already gives $x$ in terms of $y$, substitute $5y$ for $x$ in the first equation."
+      "title": "Substitute one equation",
+      "content": "The second equation gives $x$ in terms of $y$.<br/>$$x=5y$$<br/>Substitute $5y$ for $x$ in the first equation.<br/>$$5y+y=24$$"
     },
     {
-      "title": "Solve by substitution",
-      "content": "From $5y=x$, substitute into $x+y=24$: $$5y+y=24$$ $$6y=24$$ $$y=4$$ Then $x=5(4)=20$."
+      "title": "Solve for both variables",
+      "content": "Solve for $y$, then find $x$.<br/>$$6y=24$$<br/>$$y=4$$<br/>$$x=5(4)=20$$"
     },
     {
-      "title": "Confirm the ordered pair",
-      "content": "The solution is $(20,4)$. It checks because $20+4=24$ and $5(4)=20$. This matches Choice A."
+      "title": "Write the ordered pair",
+      "content": "The solution is<br/>$$(20,4)$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

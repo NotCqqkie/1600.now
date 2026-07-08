@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is an Inferences (strengthen) question. The team's conclusion rests on one dietary distinction: cattle ate millet (a human-cultivated crop) while sheep and goats ate wild plants. Any finding that most strongly supports this must reinforce the idea that cattle's diet tied them to human settlements, while sheep and goats roamed farther from cultivated land."
+      "title": "Connect crops to settlements",
+      "content": "The team's conclusion is based on diet: cattle ate cultivated millet, while sheep and goats ate mostly wild plants. Since cultivated crops would be found near human farming activity, evidence that cattle ate another human-cultivated crop would strengthen the link to human settlements."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Analysis of the animal bones showed that the cattle's diet also consisted of wheat, which humans widely cultivated in China during the Bronze Age.\"</strong>: Wheat is another cultivated crop. Cattle eating both millet and wheat deepens the evidence that their diet was tied to human-farmed land, directly reinforcing the conclusion that they were raised near settlements. &#10003;</li><li><strong>\"Further investigation of sheep and goat bones revealed that their diets consisted of small portions of millet as well.\"</strong>: If sheep and goats also ate millet&mdash;a cultivated crop&mdash;this blurs the dietary distinction the team's conclusion depends on, weakening rather than supporting it. &#10007;</li><li><strong>\"Cattle's diets generally require larger amounts of food and a greater variety of nutrients than do sheep's and goats' diets.\"</strong>: This addresses nutritional needs, not where the animals actually obtained their food. Greater nutritional requirements don't establish that cattle ate cultivated crops or lived near settlements. &#10007;</li><li><strong>\"The diets of sheep, goats, and cattle were found to vary based on what the farmers in each Bronze Age settlement could grow.\"</strong>: If all three animal types varied their diets based on nearby settlement crops, this suggests all three lived close to settlements&mdash;undermining the specific claim that cattle (but not sheep and goats) were near settlements. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Strengthen the cattle evidence",
+      "content": "B blurs the difference by giving sheep and goats some millet, C concerns nutritional needs rather than location, and D suggests all three animals varied with settlement crops. Additional cultivated wheat in cattle diets reinforces the team's conclusion because it gives cattle a second diet marker associated with nearby humans. The answer is <strong>A</strong>."
     }
   ]
 }

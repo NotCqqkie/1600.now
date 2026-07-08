@@ -1,0 +1,15 @@
+{
+  "questionId": "43e0ed90",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two views",
+      "content": "Text 1 criticizes Asimov's flat characters. Text 2 responds that this feature should not simply be treated as a flaw because Asimov wanted to show historical forces over centuries, making individual characterization less central."
+    },
+    {
+      "title": "Reject unsupported replies",
+      "content": "Choice A claims the flatness applies to some books but not <em>Foundation</em>, which Text 2 does not say. Choice B introduces historians' styles, which Text 2 never compares. Choice C says Text 2 disagrees about character quality, but Text 2 instead defends minimal characterization as purposeful. The remaining response matches that defense. The answer is <strong>D</strong>."
+    }
+  ]
+}

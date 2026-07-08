@@ -1,0 +1,15 @@
+{
+  "questionId": "8b440251",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the clause boundary",
+      "content": "The phrase <em>that have their own hillside geoglyphs</em> restricts which Utah schools are being discussed, so it should not be set off with a comma. After that phrase, the text begins a new complete sentence about an enormous BR geoglyph overlooking Bear River High."
+    },
+    {
+      "title": "Avoid comma errors",
+      "content": "Choices A and C incorrectly place a comma before the restrictive <em>that</em> clause. They also continue into <em>and an</em>, which fails to create a clean boundary before the next independent clause. Choice D keeps the restrictive clause correct but joins two independent clauses with only a comma, creating a comma splice. A period after <em>geoglyphs</em> fixes the boundary and keeps the modifier restrictive. The answer is <strong>B</strong>."
+    }
+  ]
+}

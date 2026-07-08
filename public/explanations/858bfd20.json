@@ -1,0 +1,15 @@
+{
+  "questionId": "858bfd20",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Lines $l$ and $m$ are parallel and are cut by a transversal. The angle marked $x^\\circ$ is in the corresponding position to the angle marked $111^\\circ$."
+    },
+    {
+      "title": "Set the angles equal",
+      "content": "Corresponding angles formed by a transversal crossing parallel lines are equal, so\n$$\nx=111\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

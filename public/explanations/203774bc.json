@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the product",
-      "content": "Let the smaller integer be $x$. The larger integer is $2x+11$, so their product is $$x(2x+11)=546.$$"
+      "title": "Set up the integers",
+      "content": "Let the smaller positive integer be $x$. Then the other integer is $2x+11$, and their product is $546$.<br/>$$x(2x+11)=546$$"
     },
     {
       "title": "Factor the quadratic",
-      "content": "Expand and move everything to one side: $$2x^2+11x-546=0.$$ Since $2\\cdot 546=1092$ and $39\\cdot 28=1092$, split the middle term: $$2x^2+39x-28x-546=0.$$"
+      "content": "Move all terms to one side and factor.<br/>$$2x^2+11x-546=0$$<br/>$$(x-14)(2x+39)=0$$"
     },
     {
-      "title": "Solve for the positive integer",
-      "content": "Factor by grouping: $$x(2x+39)-14(2x+39)=0$$ $$(x-14)(2x+39)=0.$$ Thus $x=14$ or $x=-\\frac{39}{2}$. The smaller positive integer is $14$."
-    },
-    {
-      "title": "Check the product",
-      "content": "The larger integer is $2(14)+11=39$, and $14\\cdot39=546$. That matches <strong>Choice B &mdash; $14$</strong>."
+      "title": "Choose the positive value",
+      "content": "The possible values are $14$ and $-\\frac{39}{2}$. Only the positive value can be the smaller positive integer. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "745836f0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the consequence chain",
+      "content": "The previous sentence says small sample sizes can increase the potential for biased analysis. The underlined sentence begins with \"in turn,\" showing the next consequence: biased analysis can lead to exaggerated reports."
+    },
+    {
+      "title": "Reject mismatched functions",
+      "content": "Choice A incorrectly describes a shift in scientific understanding. Choice B treats the sentence as emphasizing Price's reported effect, and Choice C says it counters Morris's objection even though it extends that objection. The remaining option identifies the downstream consequence of the small sample. The answer is <strong>D</strong>."
+    }
+  ]
+}

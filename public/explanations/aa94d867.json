@@ -1,0 +1,19 @@
+{
+  "questionId": "aa94d867",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the repeated expression",
+      "content": "Let $u=5-6x$. Then the equation becomes\n$$\n6u+3u+11=8u+6\n$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Combine like terms and solve for $u$.\n$$\n9u+11=8u+6\n$$\n$$\nu=-5\n$$"
+    },
+    {
+      "title": "Use the opposite expression",
+      "content": "The question asks for $6x-5$, which is the opposite of $5-6x$.\n$$\n6x-5=-(5-6x)=-u=-(-5)=5\n$$\nThe answer is <strong>5</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the boundary line from the graph",
-      "content": "The boundary line crosses the y-axis at $3$, so the y-intercept is $3$. Moving right 1 unit causes the line to rise 4 units, so the slope is $4$. The equation of the boundary line is $y = 4x + 3$."
+      "title": "Read the boundary line",
+      "content": "The boundary has $y$-intercept $6$ and slope $-4$, so its equation is $y=-4x+6$."
     },
     {
-      "title": "Determine the inequality direction",
-      "content": "The shaded region lies <strong>above</strong> the boundary line, which means $y$ is greater than the line's value at each $x$. Because the boundary is a <strong>dashed</strong> line (points on the line are <em>not</em> solutions), the inequality is strict: $y \\gt 4x + 3$.<br/><br/><ul><li><strong>Choice A &mdash; &lsquo;$y \\gt 4x+3$&rsquo;</strong>: correct line, strict inequality, shading above. &#10003;</li><li><strong>Choice B &mdash; &lsquo;$y \\gt 4x-3$&rsquo;</strong>: y-intercept would be $-3$, not $3$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$y\\geq 4x+3$&rsquo;</strong>: $\\geq$ includes the boundary, but the line is dashed (excluded). &#10007;</li><li><strong>Choice D &mdash; &lsquo;$y\\geq 4x-3$&rsquo;</strong>: wrong y-intercept <em>and</em> includes the dashed boundary. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Use the shaded side",
+      "content": "The shaded region is below the boundary line, so the inequality uses $y$ less than the line's value. The boundary is not included, so the inequality is strict.<br/>$$y<-4x+6$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "477f90f6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify each term",
+      "content": "The equation separates the total car price into the down payment plus the amount paid through monthly payments:<br/>$$15{,}600=3{,}600+240t$$"
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "Because $t$ is the number of monthly payments, multiplying $240$ by $t$ gives the total paid across all those monthly payments."
+    },
+    {
+      "title": "Name the monthly amount",
+      "content": "So $240$ is the dollar amount of each fixed monthly payment. The answer is <strong>B</strong>."
+    }
+  ]
+}

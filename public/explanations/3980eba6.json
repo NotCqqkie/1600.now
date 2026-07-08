@@ -1,0 +1,15 @@
+{
+  "questionId": "3980eba6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate statement and reason",
+      "content": "The sentence first says a ray diagram reveals how the pinhole camera works. The following <em>Because</em> clause explains why the small hole creates a clear image, so it should begin a new explanatory sentence."
+    },
+    {
+      "title": "Choose the clean break",
+      "content": "Choice A makes one long sentence that does not clearly separate the explanation. Choice C creates the awkward phrase <em>it is because</em>. Choice D uses a colon before the same awkward phrase. The period before <em>Because</em> is clean and grammatical. The answer is <strong>B</strong>."
+    }
+  ]
+}

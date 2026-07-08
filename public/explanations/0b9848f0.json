@@ -1,0 +1,19 @@
+{
+  "questionId": "0b9848f0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the list",
+      "content": "The sentence says the student discovered biographical sketches of two other Black Americans who served in Congress, then gives the names Ralph Harold Metcalfe of Illinois and Alton R. Waldon Jr. of New York. The words before the blank form a complete clause, and the names after the blank are a list that identifies the two people."
+    },
+    {
+      "title": "Reject wrong punctuation",
+      "content": "Choice B uses a semicolon, but a semicolon normally separates independent clauses, and the two names are only a noun-phrase list. Choice C uses a period, leaving the names as a fragment. Choice D uses no punctuation, which makes the list run into the phrase \"served in Congress\" without a clear grammatical break."
+    },
+    {
+      "title": "Use the colon",
+      "content": "Choice A places a colon after \"Congress.\" A colon can introduce a list or explanation after a complete clause, so it correctly signals that the two names specify which other Black Americans served in Congress. The answer is <strong>A</strong>."
+    }
+  ]
+}

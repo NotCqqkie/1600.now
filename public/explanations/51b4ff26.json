@@ -1,0 +1,15 @@
+{
+  "questionId": "51b4ff26",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from rule to example",
+      "content": "The first sentence states a general principle: sleek vehicles are usually more aerodynamic than bulkier ones. The next sentence uses the streamlined nose of the T-45 Goshawk jet to illustrate that principle before contrasting it with a boxy delivery van."
+    },
+    {
+      "title": "Introduce the example",
+      "content": "Choice A, \"meanwhile,\" suggests simultaneous events, but no timing relationship is being described. Choice B, \"however,\" would signal contrast, even though the jet supports the general rule. Choice D, \"additionally,\" would add a separate point. The needed transition introduces the T-45 Goshawk as a specific example. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b3be118e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the factor",
+      "content": "Multiply $12$ by each term inside the parentheses. The outside factor must multiply both terms inside, not only the variable term.<br/>$$12(x+5)=12x+12(5)$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Compute the constant term.<br/>$$12x+12(5)=12x+60$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

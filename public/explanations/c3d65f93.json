@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the original mean",
-      "content": "Sum the five egg counts from the table:<br/>$$149 + 144 + 148 + 136 + 139 = 716$$<br/>Divide by 5 to find the original mean:<br/>$$\\text{Original mean} = \\frac{716}{5} = 143.2$$"
+      "title": "Find the original mean",
+      "content": "Add the five original counts from the table, then divide by $5$:<br/>$$149+144+148+136+139=716$$<br/>$$\\frac{716}{5}=143.2$$"
     },
     {
-      "title": "Calculate the new mean and compare",
-      "content": "Adding the sixth nest with 121 eggs: sum $= 716 + 121 = 837$. New mean $= \\frac{837}{6} = 139.5$. Since $143.2 \\gt 139.5$, the original mean is greater."
+      "title": "Find the new mean",
+      "content": "Add the sixth nest with $121$ eggs, then divide by $6$:<br/>$$716+121=837$$<br/>$$\\frac{837}{6}=139.5$$"
     },
     {
-      "title": "Check all choices",
-      "content": "<ul><li><strong>Choice A &mdash; The mean of the original data set is greater than the mean of the new data set.</strong>: Original mean $143.2 \\gt$ new mean $139.5$ &#10003;</li><li><strong>Choice B &mdash; The mean of the original data set is less than the mean of the new data set.</strong>: $143.2 \\lt 139.5$ is false &#10007;</li><li><strong>Choice C &mdash; The means of both data sets are equal.</strong>: $143.2 \\ne 139.5$ &#10007;</li><li><strong>Choice D &mdash; There is not enough information to compare the means.</strong>: All values are given so a direct comparison is possible &#10007;</li></ul>That is the correct answer."
+      "title": "Compare the means",
+      "content": "The original mean is greater because<br/>$$143.2>139.5$$<br/>So the original data set has a greater mean than the new data set. The choices saying less than, equal, or not enough information do not match this comparison.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

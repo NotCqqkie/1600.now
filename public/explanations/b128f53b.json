@@ -1,0 +1,15 @@
+{
+  "questionId": "b128f53b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a sculpture example",
+      "content": "The notes name <em>Mahalia</em> as a 2002 sculpture by Caldwell and <em>Paulina</em> as a print."
+    },
+    {
+      "title": "Reject nonexamples",
+      "content": "B gives biographical detail, C gives a print, and D describes Caldwell generally. The sentence naming <em>Mahalia</em> as Caldwell's sculpture provides the requested example. The answer is <strong>A</strong>."
+    }
+  ]
+}

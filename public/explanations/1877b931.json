@@ -1,0 +1,19 @@
+{
+  "questionId": "1877b931",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the appositive",
+      "content": "The sentence needs to name which fellow OECD member nation is being discussed. \"Costa Rica\" is not extra information added after a complete reference; it is the essential identifying detail that specifies the nation."
+    },
+    {
+      "title": "Reject extra punctuation",
+      "content": "Choice A, \"nation: Costa Rica,\" uses a colon as if the country name were an explanation or list item. Choice B, \"nation-Costa Rica,\" uses an interruption mark. Choice D, \"nation, Costa Rica,\" treats the country name as optional nonessential information."
+    },
+    {
+      "title": "Keep the noun phrase direct",
+      "content": "A restrictive appositive should not be separated from the noun it identifies. The correct wording places the common noun and the proper noun together, so the phrase reads as one direct identification: fellow OECD member nation Costa Rica. The answer is <strong>C</strong>."
+    }
+  ]
+}

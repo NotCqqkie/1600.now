@@ -1,0 +1,15 @@
+{
+  "questionId": "b737e4d4",
+  "correctAnswer": "13.3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the unit conversion",
+      "content": "Convert meters to miles and seconds squared to minutes squared. Since the denominator unit is squared, use $60^2=3{,}600$:\n$$\n5.95\\frac{\\text{m}}{\\text{s}^2}\\cdot\\frac{1\\text{ mile}}{1{,}609\\text{ m}}\\cdot\\frac{3{,}600\\text{ s}^2}{1\\text{ min}^2}\n$$"
+    },
+    {
+      "title": "Compute and round",
+      "content": "After the units cancel, calculate the numerical value:\n$$\n5.95\\cdot\\frac{3{,}600}{1{,}609}=\\frac{21{,}420}{1{,}609}\n$$\nThis is about $13.313$, which rounds to $13.3$. The answer is <strong>13.3</strong>."
+    }
+  ]
+}

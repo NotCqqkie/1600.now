@@ -1,0 +1,15 @@
+{
+  "questionId": "b7a6cbed",
+  "correctAnswer": "54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the weight lost",
+      "content": "Subtract the final weight from the starting weight.\n$$528-501=27$$"
+    },
+    {
+      "title": "Divide by the daily rate",
+      "content": "The bear loses $0.5$ pound per day, so divide the total loss by $0.5$.\n$$\\frac{27}{0.5}=54$$\nThe answer is <strong>54</strong>."
+    }
+  ]
+}

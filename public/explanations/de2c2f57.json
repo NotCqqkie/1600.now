@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This Cross-Text Connections question asks how Text 1 and Text 2 relate. The decisive clues: Text 1 reports Lin et al.'s surprising eDNA finding and then presents Price and Ellison's hypothesis to explain it. Text 2 identifies a fatal flaw in that hypothesis — surface remains would be destroyed by scavengers and weathering in under a thousand years, far less than the several millennia the hypothesis requires."
+      "title": "Map the two texts",
+      "content": "Text 1 reports Lin and colleagues' mammoth eDNA finding: mammoth DNA appeared in sediment layers much later than the fossil record would predict. It then gives Price and Ellison's explanation that preserved surface carcasses could have leaked DNA for thousands of years."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Text 1 discusses two approaches to studying mammoth extinction without advocating for either, whereas Text 2 advocates for one approach over the other.\"</strong>: Text 1 does not weigh two competing research approaches; it presents one study's findings and one explanatory hypothesis. Text 2 does not advocate for an approach at all — it refutes the hypothesis. &#10007;</li><li><strong>\"Text 1 presents findings by Lin and colleagues and gives another research team's attempt to explain those findings, whereas Text 2 provides additional detail that calls that explanation into question.\"</strong>: Matches exactly: Text 1 = Lin et al.'s eDNA findings + Price/Ellison preservation hypothesis; Text 2 = scavengers and weathering undermine the preservation hypothesis. &#10003;</li><li><strong>\"Text 1 describes Lin and colleagues' study and a critique of their methodology, whereas Text 2 offers additional details showing that methodology to be sound.\"</strong>: Text 1 contains no methodological critique; it presents a positive hypothesis. Text 2 does not defend Lin et al.'s methods; it attacks the Price/Ellison hypothesis. &#10007;</li><li><strong>\"Text 1 argues that new research has undermined the standard view of when mammoths went extinct, whereas Text 2 suggests a way to reconcile the standard view with that new research.\"</strong>: Both the \"undermining\" finding and the attempted reconciliation appear in Text 1. Text 2 does the opposite of reconciling — it shows the reconciliation attempt fails. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Describe the challenge",
+      "content": "Text 2 adds a problem for that explanation: surface remains would probably be broken down by scavengers and weathering before a thousand years passed. A invents two research approaches. C wrongly says Text 1 critiques Lin's methods and Text 2 defends them. D reverses the relationship, since Text 2 challenges rather than reconciles the explanation from Text 1. The answer is <strong>B</strong>."
     }
   ]
 }

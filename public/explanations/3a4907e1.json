@@ -1,0 +1,15 @@
+{
+  "questionId": "3a4907e1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the delayed advantage",
+      "content": "Pereira's team concluded that exercise training restrained productivity loss better than seminars, but only after time had passed. The strongest evidence must therefore show similar productivity loss early, followed by a later split in which the exercise group loses less productivity and the seminar group loses more."
+    },
+    {
+      "title": "Track the twelve-month split",
+      "content": "At 12 weeks, the groups were close: EET was 268 and EHP was 282. By 12 months, EET had decreased to 171 while EHP had increased to 436. That delayed divergence supports the conclusion that exercise training became more effective over time, not immediately, and by a large productivity margin. Choice A says EET barely decreased, Choice B discusses type of loss, and Choice C says the gap decreased. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "023cd2fb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the sentence's role",
+      "content": "The underlined sentence reports what Pérez-Ramos and her team found when they studied the cave artifacts: many items were older than previously thought."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "A focuses on flint tools, B on improvements in linen, and D on discovering a city, none of which is the sentence's function. The sentence instead gives one study outcome. The answer is <strong>C</strong>."
+    }
+  ]
+}

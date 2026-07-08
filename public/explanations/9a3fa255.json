@@ -1,0 +1,15 @@
+{
+  "questionId": "9a3fa255",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the matching term",
+      "content": "Subtract $5x$ from both sides:\n$$5x-7=5x$$\n$$-7=0$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "The statement $-7=0$ is false, so no value of $x$ satisfies the equation. It has zero solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

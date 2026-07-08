@@ -1,0 +1,15 @@
+{
+  "questionId": "123ab439",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the word route",
+      "content": "Both examples follow the same path: an Indigenous-language word enters Spanish and then English. <em>Cacahuatl</em> becomes Spanish <em>cacao</em> before English <em>cocoa</em>, and Taino <em>mahis</em> reaches English as <em>maize</em> through Spanish."
+    },
+    {
+      "title": "Choose the supported claim",
+      "content": "A and C make unsupported claims about equal numbers or equal contributions. D adds reciprocal borrowing into Indigenous languages, which the text never says. The supported point is that Spanish served as an intermediary. The answer is <strong>B</strong>."
+    }
+  ]
+}

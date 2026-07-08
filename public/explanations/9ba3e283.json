@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Total eighth-grade students in the state",
-      "content": "Compute total eighth-grade students: $$28 \\times 1700 = 47600$$"
+      "title": "Count total students",
+      "content": "Total students:\n$$1{,}700\\cdot28=47{,}600$$"
     },
     {
-      "title": "Students with fewer than two siblings",
-      "content": "Students with fewer than two siblings: proportion = 1 - 0.321 = 0.679. Multiply: $$0.679 \\times 47600 = 32320.4 \\approx 32300$$ That confirms <strong>C</strong> is correct."
+      "title": "Use the complement percent",
+      "content": "Use the complement percent.\n$$100\\%-32.1\\%=67.9\\%=0.679$$"
+    },
+    {
+      "title": "Estimate the requested count",
+      "content": "Apply that percent.\n$$47{,}600\\cdot0.679=32{,}320.4$$\nClosest to $32{,}300$. The answer is <strong>C</strong>."
     }
   ]
 }

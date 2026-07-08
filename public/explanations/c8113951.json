@@ -1,0 +1,15 @@
+{
+  "questionId": "c8113951",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel-line angle rule",
+      "content": "The angles labeled $x$ and $y$ are same-side interior angles formed by a transversal crossing parallel lines. Same-side interior angles are supplementary."
+    },
+    {
+      "title": "Apply the given inequality",
+      "content": "$$x+y=180$$$$y=180-x$$Because $x\\gt100$, subtracting $x$ from $180$ gives a value less than $80$. Therefore $y\\lt80$ must be true, while the sum remains exactly $180$. That also rules out any option claiming the sum is less than or greater than $180$. The answer is <strong>A</strong>."
+    }
+  ]
+}

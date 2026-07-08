@@ -1,0 +1,15 @@
+{
+  "questionId": "31daf59d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the innovation list",
+      "content": "The clause \"made several innovations to the steel drum\" is followed by a list of those innovations: wheels, a cover, and amplification. The punctuation must introduce that explanatory list."
+    },
+    {
+      "title": "Reject list-boundary errors",
+      "content": "Choice A makes \"drum\" look like part of the list. Choice C gives no clear boundary before the list. Choice D uses a semicolon, but the list is not an independent clause. A colon correctly introduces the list. The answer is <strong>B</strong>."
+    }
+  ]
+}

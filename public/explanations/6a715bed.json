@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Restrict to the conditional sample",
-      "content": "The condition <em>at least 10 years</em> keeps only the 10-19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $14+9=23$."
+      "title": "Restrict to the condition",
+      "content": "Use only the $10$ to $19$ and $20+$ age groups.\n$$\n30+30=60\n$$"
     },
     {
-      "title": "Apply the conditional probability formula",
-      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{23}{60}\\approx 0.3833.$$ The answer is <strong>.3833</strong>."
+      "title": "Count group A participants",
+      "content": "In those same columns, group A has\n$$\n14+9=23\n$$"
+    },
+    {
+      "title": "Compute the probability",
+      "content": "Divide the group A count by the conditioned total.\n$$\n23\\div 60=0.3833\n$$\nThe answer is <strong>.3833</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "e10a8609",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the number contrast",
+      "content": "The student wants to contrast the number of haiku in each poem. The notes give exactly that comparison: one poem is a sequence of fifteen haiku, and the other is a sequence of seven."
+    },
+    {
+      "title": "Avoid unrelated details",
+      "content": "B only says both poems appear in <em>Morning Haiku</em>. C contrasts the poems' subjects, not their counts. D describes the collection's overall theme. The choice that states fifteen versus seven directly fulfills the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the margin of error to find the plausible range",
-      "content": "The sample estimate is 20% with a margin of error of 3%. The plausible range for the true percentage is:<br/>$$20\\% - 3\\% = 17\\% \\quad \\text{to} \\quad 20\\% + 3\\% = 23\\%$$"
+      "title": "Convert the percent range",
+      "content": "The estimate is $20\\%$ with a margin of error of $3\\%$, so the plausible percent range is $$20\\%-3\\%=17\\%$$ to $$20\\%+3\\%=23\\%$$"
     },
     {
-      "title": "Convert percentage bounds to actual bead counts",
-      "content": "With 12,000 total beads:<br/>Lower bound: $17\\% \\times 12{,}000 = 2{,}040$<br/>Upper bound: $23\\% \\times 12{,}000 = 2{,}760$<br/>So the plausible range is $2{,}040 \\lt r \\lt 2{,}760$."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"r is greater than 2,760\"</strong>: 2,760 is the upper bound of the plausible range; values above it are outside the margin of error. &#10007;</li><li><strong>\"2,040 is less than r, which is less than 2,760\"</strong>: This is exactly the interval 17%&ndash;23% of 12,000, matching the estimate plus or minus margin. &#10003;</li><li><strong>\"360 is less than r, which is less than 2,400\"</strong>: 2,400 corresponds to 20%, the point estimate; values between some lower limit and 2,400 cover only part of the plausible range and exclude the upper half. &#10007;</li><li><strong>\"r is less than 2,040\"</strong>: 2,040 is the lower bound; values below it are outside the margin of error. &#10007;</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Find the bead-count range",
+      "content": "Apply those percentages to $12{,}000$ beads: $$0.17(12{,}000)=2{,}040$$ $$0.23(12{,}000)=2{,}760$$ So the plausible number of blue beads is between $2{,}040$ and $2{,}760$. Choice C treats $360$ as a bound instead of the margin amount. The answer is <strong>B</strong>."
     }
   ]
 }

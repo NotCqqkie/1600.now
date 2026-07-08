@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express a as a percentage of b",
-      "content": "The number $a$ is 65% less than $b$, so subtract 65% of $b$ from $b$ itself:<br/>$$a = b - 0.65b = 0.35b$$"
+      "title": "Write a in terms of b",
+      "content": "If $a$ is $65\\%$ less than $b$, then $a$ is $35\\%$ of $b$.<br/>$$a=0.35b$$"
     },
     {
-      "title": "Find c in terms of b",
-      "content": "The number $c$ is 60% greater than $a$, so $c = a + 0.60a = 1.60a$. Substitute $a = 0.35b$:<br/>$$c = 1.60a = 1.60(0.35b) = 0.56b$$<br/>Thus $c$ is 0.56 times $b$. The answer is <strong>.56</strong>."
+      "title": "Write c in terms of b",
+      "content": "If $c$ is $60\\%$ greater than $a$, then $c$ is $160\\%$ of $a$.<br/>$$c=1.60a=1.60(0.35b)=0.56b$$<br/>So $c$ is $0.56$ times $b$. The answer is <strong>.56</strong>."
     }
   ]
 }

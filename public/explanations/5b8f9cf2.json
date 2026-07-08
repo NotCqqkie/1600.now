@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure before the blank",
-      "content": "The sentence opens with a series of appositive noun phrases describing a literary work: &quot;A coming-of-age story, a social meditation, and a sober gaze into the dark maw of French colonialism.&quot; Whatever fills the blank must be the subject those appositives rename, and it must control the verb &quot;interrogates.&quot;"
+      "title": "Attach the opening description",
+      "content": "The opening phrase describes a literary work: a coming-of-age story, social meditation, and gaze into colonialism. The subject after that phrase must therefore be Chraïbi's novel, which can also perform the verb \"interrogates.\""
     },
     {
-      "title": "Apply the modifier/subject rule",
-      "content": "The subject right after the comma series must be a literary work (the novel). Only an option whose subject is the novel both satisfies the appositive series and supplies a singular subject for &quot;interrogates.&quot;"
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Morocco gained its independence two years before the publication of Chraïbi's debut novel, which&rsquo;</strong>: makes &quot;Morocco&quot; the subject the appositives rename, which is illogical; Morocco is not a coming-of-age story. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Chraïbi's debut novel, published two years before Morocco gained its independence,&rsquo;</strong>: gives &quot;novel&quot; as the subject the appositives rename and as the subject of &quot;interrogates.&quot; &#10003;</li><li><strong>Choice C &mdash; &lsquo;Chraïbi wrote a debut novel that, published two years before Morocco gained its independence,&rsquo;</strong>: makes &quot;Chra&iuml;bi&quot; the subject the appositives rename, so the series describes the author, not the book. &#10007;</li><li><strong>Choice D &mdash; &lsquo;published two years before Morocco gained its independence, Chraïbi wrote a debut novel that&rsquo;</strong>: the opening participial phrase &quot;published...&quot; dangles &mdash; it should modify the novel, but it is immediately followed by &quot;Chra&iuml;bi,&quot; creating a misplaced modifier. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Avoid misplaced subjects",
+      "content": "Choice A makes Morocco follow the description, so the appositive illogically describes a country. Choice C makes Chraïbi the subject. Choice D places a publication modifier next to Chraïbi instead of the novel. The sentence needs the novel as the subject. The answer is <strong>B</strong>."
     }
   ]
 }

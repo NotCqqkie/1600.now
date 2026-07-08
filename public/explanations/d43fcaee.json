@@ -1,0 +1,15 @@
+{
+  "questionId": "d43fcaee",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Substitute $x=8$.<br/>$$7(8)+b=56$$"
+    },
+    {
+      "title": "Find the constant",
+      "content": "Simplify.<br/>$$56+b=56$$<br/>$$b=0$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

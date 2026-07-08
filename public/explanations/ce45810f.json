@@ -1,0 +1,15 @@
+{
+  "questionId": "ce45810f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the doubling relationship",
+      "content": "Each side of triangle B is double the length of each side of triangle A. Triangle A has side length $320$ millimeters."
+    },
+    {
+      "title": "Find the new side length",
+      "content": "Multiply the original side length by $2$.<br/>$$2(320)=640$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

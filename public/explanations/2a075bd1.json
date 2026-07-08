@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical chain",
-      "content": "The passage establishes: (1) medicinal plant knowledge is encoded in Indigenous language vocabulary; (2) as Indigenous languages fade, this knowledge is at risk; (3) tribal nations are preserving their languages. The blank must complete what that preservation also accomplishes &mdash; it must follow logically from the language-knowledge link.<ul><li><strong>Choice A &mdash; increasing the number of medicinal plants represented in the vocabularies of Indigenous languages.</strong>: The passage says knowledge is reflected in existing vocabulary &mdash; language preservation maintains that knowledge, it doesn&apos;t add new plants to the vocabulary. &#10007;</li><li><strong>Choice B &mdash; transmitting terms for medicinal plants from Indigenous languages to globally dominant languages.</strong>: The passage focuses on preserving Indigenous languages themselves, not on transferring their vocabulary into English or other dominant languages. &#10007;</li><li><strong>Choice C &mdash; preserving knowledge about the medicinal value of plants native to the tribal nations' lands.</strong>: Since medicinal plant knowledge lives in Indigenous language vocabulary, keeping those languages in daily use preserves that knowledge. This follows directly from the passage&apos;s logic. &#10003;</li><li><strong>Choice D &mdash; ensuring that citizens of tribal nations have physical access to medicinal plants.</strong>: The passage is about linguistic and knowledge preservation, not physical access to plants. &#10007;</li></ul>"
+      "title": "Link language to plant knowledge",
+      "content": "The passage says medicinal plant knowledge is reflected in Indigenous language vocabulary. If ancestral languages fade, that knowledge is at risk, so tribal nations preserving those languages also preserve the knowledge encoded in them. The final sentence asks what else language preservation accomplishes."
     },
     {
-      "title": "Confirm the match",
-      "content": "Language preservation maintains the vocabulary that encodes medicinal plant knowledge, so tribal nations preserving their languages are simultaneously preserving that knowledge. That matches <strong>Choice C &mdash; preserving knowledge about the medicinal value of plants native to the tribal nations' lands.</strong>."
+      "title": "Reject claims beyond language",
+      "content": "Choice A says preservation increases the number of plants represented, but the passage is about maintaining existing knowledge. Choice B shifts to globally dominant languages. Choice D concerns physical access to plants, not vocabulary or knowledge. The answer is <strong>C</strong>."
     }
   ]
 }

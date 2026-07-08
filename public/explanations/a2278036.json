@@ -1,0 +1,19 @@
+{
+  "questionId": "a2278036",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert table values",
+      "content": "Since $g(x)=\\frac{f(x)}{x+2}$, multiply each $g(x)$ value by $x+2$ to find points on $f$:<br/>$$f(-8)=0(-8+2)=0$$<br/>$$f(10)=3(10+2)=36$$"
+    },
+    {
+      "title": "Find the line",
+      "content": "The line $y=f(x)$ passes through $(-8,0)$ and $(10,36)$. Its slope is<br/>$$\\frac{36-0}{10-(-8)}=\\frac{36}{18}=2$$<br/>Using $f(x)=2x+b$ and $f(-8)=0$ gives<br/>$$0=2(-8)+b$$<br/>$$b=16$$"
+    },
+    {
+      "title": "Identify the intercept",
+      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so the intercept is $(0,16)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

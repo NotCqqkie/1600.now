@@ -1,0 +1,15 @@
+{
+  "questionId": "af998338",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link steel type to use",
+      "content": "Storage containers use 300 series stainless steel, a subtype of austenitic stainless steel. The passage states that austenitic stainless steel has a face-centered cubic crystalline structure, unlike ferritic stainless steel used for induction cookers."
+    },
+    {
+      "title": "Choose the supported contrast",
+      "content": "Choice A conflicts with ferritic steel's magnetic properties. Choice B invents a manganese threshold. Choice C matches the austenitic versus ferritic structural contrast. Choice D reverses the nickel relationship because nickel is added to make austenitic steel. The answer is <strong>C</strong>."
+    }
+  ]
+}

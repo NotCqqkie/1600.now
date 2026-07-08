@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "Let $x$ be the number of 4-pound boxes. The total weight is the sum of weights from both types of boxes:<br/>$$4x + 9(15) = 219$$"
+      "title": "Account for the nine-pound boxes",
+      "content": "There are $15$ boxes that each weigh $9$ pounds, so their total weight is<br/>$$15(9)=135$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Simplify and isolate $x$:<br/>$$4x + 135 = 219$$<br/>$$4x = 84$$<br/>$$x = 21$$<br/>That is the correct answer."
+      "title": "Find the remaining weight",
+      "content": "Subtract that from the shipment's total weight:<br/>$$219-135=84$$"
+    },
+    {
+      "title": "Divide by four pounds",
+      "content": "Each remaining box weighs $4$ pounds, so<br/>$$\\frac{84}{4}=21$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

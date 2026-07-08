@@ -2,6 +2,8 @@ import { BANK_COUNT_INDEX } from "@/lib/generated/bankCountIndex.generated";
 import {
   hasActiveQuestionBankFilters,
   MAX_TIME_SPENT_FILTER_SECONDS,
+  MIN_SCORE_BAND,
+  MAX_SCORE_BAND,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
 import type { BankSourceFilter, BankSubject } from "@/data/bankTypes";
@@ -16,6 +18,7 @@ type BankQuestionMetaRow = [
   difficulty: "Easy" | "Medium" | "Hard" | null,
   active: boolean,
   bankVisible: boolean,
+  scoreBand: number | null,
 ];
 
 export interface BankQuestionMeta {
@@ -30,6 +33,7 @@ export interface BankQuestionMeta {
   difficulty: "Easy" | "Medium" | "Hard" | null;
   active: boolean;
   bankVisible: boolean;
+  scoreBand: number | null;
 }
 
 interface BankQuestionProgressSnapshot {
@@ -39,7 +43,7 @@ interface BankQuestionProgressSnapshot {
   totalTimeSpentSeconds: number;
 }
 
-type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
+export type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
 
 interface QuestionCountBucket {
   total: number;
@@ -72,6 +76,7 @@ const toMeta = (row: BankQuestionMetaRow): BankQuestionMeta => ({
   difficulty: row[6],
   active: row[7],
   bankVisible: row[8],
+  scoreBand: row[9],
 });
 
 let metaRowsPromise: Promise<BankQuestionMeta[]> | null = null;
@@ -104,10 +109,11 @@ const isAnsweredIncorrectly = (progress: BankQuestionProgressSnapshot) =>
 const matchesBankSource = (question: BankQuestionMeta, bankSource: BankSourceFilter) =>
   bankSource === "all" || question.bankType === bankSource;
 
-const matchesDifficulty = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
-  if (filters.difficulty.length === 0) return true;
-  const difficulty = (question.difficulty ?? "").toLowerCase();
-  return filters.difficulty.includes(difficulty as QuestionBankFilters["difficulty"][number]);
+const matchesScoreBand = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
+  const [minBand, maxBand] = filters.scoreBandRange;
+  if (minBand <= MIN_SCORE_BAND && maxBand >= MAX_SCORE_BAND) return true;
+  if (question.scoreBand == null) return false;
+  return question.scoreBand >= minBand && question.scoreBand <= maxBand;
 };
 
 const matchesActiveFilter = (question: BankQuestionMeta, filters: QuestionBankFilters) => {
@@ -121,7 +127,7 @@ const questionMetaPassesFilters = (
   filters: QuestionBankFilters,
   getProgress: BankQuestionProgressLookup,
 ) => {
-  if (!matchesDifficulty(question, filters)) return false;
+  if (!matchesScoreBand(question, filters)) return false;
   if (!matchesActiveFilter(question, filters)) return false;
 
   const progress = getProgress(question);
@@ -229,6 +235,27 @@ export const loadQuestionCountTree = async (
   return tree;
 };
 
+export const loadFilteredQuestionMetaRows = async (
+  subject: BankSubject,
+  bankSource: BankSourceFilter,
+  filters: QuestionBankFilters,
+  getProgress: BankQuestionProgressLookup,
+  options: {
+    domain?: string;
+    skill?: string;
+  } = {},
+): Promise<BankQuestionMeta[]> => {
+  const metaRows = await loadMetaRows();
+  return metaRows.filter((question) => {
+    if (!question.bankVisible) return false;
+    if (question.subject !== subject) return false;
+    if (!matchesBankSource(question, bankSource)) return false;
+    if (options.domain && question.category.domain !== options.domain) return false;
+    if (options.skill && question.category.skill !== options.skill) return false;
+    return questionMetaPassesFilters(question, filters, getProgress);
+  });
+};
+
 export const loadFilteredQuestionMetaCount = async (
   subject: BankSubject,
   bankSource: BankSourceFilter,
@@ -238,20 +265,7 @@ export const loadFilteredQuestionMetaCount = async (
     domain?: string;
     skill?: string;
   } = {},
-) => {
-  let total = 0;
-  const metaRows = await loadMetaRows();
-  for (const question of metaRows) {
-    if (!question.bankVisible) continue;
-    if (question.subject !== subject) continue;
-    if (!matchesBankSource(question, bankSource)) continue;
-    if (options.domain && question.category.domain !== options.domain) continue;
-    if (options.skill && question.category.skill !== options.skill) continue;
-    if (!questionMetaPassesFilters(question, filters, getProgress)) continue;
-    total += 1;
-  }
-  return total;
-};
+) => (await loadFilteredQuestionMetaRows(subject, bankSource, filters, getProgress, options)).length;
 
 export const getEmptyProgress: BankQuestionProgressLookup = (question) => ({
   ...EMPTY_PROGRESS,

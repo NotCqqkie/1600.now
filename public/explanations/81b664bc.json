@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Set up proportional segments",
+      "content": "The three parallel segments cut two transversals. Therefore, the corresponding segments on those transversals are proportional.<br/>$$\\frac{AB}{BC}=\\frac{FE}{ED}$$"
     },
     {
-      "title": "Identify the proportional-segments setup",
-      "content": "Three parallel lines $\\overline{AF}$, $\\overline{BE}$, and $\\overline{CD}$ are cut by two transversals: one passing through A, B, C and one through F, E, D. By the Basic Proportionality Theorem, parallel lines divide transversals proportionally: $$\\frac{AB}{BC} = \\frac{FE}{ED}$$"
+      "title": "Solve for the missing length",
+      "content": "Substitute $AB=9$, $BC=18.5$, and $FE=8.5$. This keeps the matching segments in the same relative order on the two transversals.<br/>$$\\frac{9}{18.5}=\\frac{8.5}{ED}$$<br/>$$ED=\\frac{18.5\\cdot 8.5}{9}=\\frac{157.25}{9}=17.47$$"
     },
     {
-      "title": "Substitute and solve for ED",
-      "content": "$$\\frac{9}{18.5} = \\frac{8.5}{ED} \\implies ED = \\frac{18.5 \\times 8.5}{9} = \\frac{157.25}{9} \\approx 17.47$$<br/>Rounded to the nearest tenth: $ED \\approx 17.5$."
-    },
-    {
-      "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; 16.8</strong>: Would require $\\frac{9}{18.5} = \\frac{8.5}{16.8}$, i.e., $0.486 = 0.506$ &mdash; not equal. &#10007;</li><li><strong>Choice B &mdash; 17.5</strong>: $\\frac{9}{18.5} = \\frac{8.5}{17.5}$, i.e., $0.4865 \\approx 0.4857$ &mdash; matches to nearest tenth (exact: 17.472&hellip; rounds to 17.5). &#10003;</li><li><strong>Choice C &mdash; 18.4</strong>: Would require ratio $\\frac{8.5}{18.4} = 0.462 \\ne 0.486$. &#10007;</li><li><strong>Choice D &mdash; 19.6</strong>: Would require ratio $\\frac{8.5}{19.6} = 0.434 \\ne 0.486$. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Round to the nearest tenth",
+      "content": "The length $17.47$ rounds to $17.5$ to the nearest tenth. The answer is <strong>B</strong>."
     }
   ]
 }

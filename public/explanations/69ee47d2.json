@@ -1,0 +1,19 @@
+{
+  "questionId": "69ee47d2",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Make the circle standard",
+      "content": "Divide the equation by $2$ so the squared terms have coefficient $1$.\n$$\nx^2+y^2+\\frac{t}{2}x+\\frac{t}{2}y-35=0\n$$"
+    },
+    {
+      "title": "Complete both squares",
+      "content": "Half of $\\frac{t}{2}$ is $\\frac{t}{4}$, so each completed square adds $\\frac{t^2}{16}$.\n$$\n(x+\\frac{t}{4})^2+(y+\\frac{t}{4})^2=35+2(\\frac{t^2}{16})\n$$\n$$\n(x+\\frac{t}{4})^2+(y+\\frac{t}{4})^2=35+\\frac{t^2}{8}\n$$"
+    },
+    {
+      "title": "Match the radius",
+      "content": "The radius is $\\sqrt{43}$, so the radius squared is $43$.\n$$\n35+\\frac{t^2}{8}=43\n$$\n$$\n\\frac{t^2}{8}=8\n$$\n$$\nt^2=64\n$$\nSince $t$ is positive, use the positive value. The answer is <strong>8</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the dimensions from the figure",
-      "content": "The figure labels three edges of the rectangular prism: length <em>l</em> = 6 cm (bottom), width <em>w</em> = 2 cm (right side), and height <em>h</em> = 3 cm (left side)."
+      "title": "Read the prism dimensions",
+      "content": "The figure gives the prism dimensions as $6$ centimeters, $2$ centimeters, and $3$ centimeters."
     },
     {
       "title": "Apply the volume formula",
-      "content": "Substitute the dimensions into $V = lwh$:<br/>$$V = 6 \\times 2 \\times 3$$<br/>$$V = 12 \\times 3 = 36$$<br/>That matches the correct answer — <strong>A</strong> is correct.",
+      "content": "Use the prism volume formula:<br/>$$V=6\\cdot 2\\cdot 3=36$$<br/>The volume is $36$ cubic centimeters. The answer is <strong>A</strong>.",
       "formula": "$$V = lwh$$"
     }
   ]

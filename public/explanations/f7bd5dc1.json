@@ -1,0 +1,19 @@
+{
+  "questionId": "f7bd5dc1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the competing findings",
+      "content": "The passage compares different findings about macroalgal mats and MPB. Choudhury and colleagues found that macroalgae do not impact MPB. Ortega and Morales found that benthic chlorophyll concentrations, a measure of MPB biomass, decreased when macroalgae were present. Mercer and Price began with a negative-effect hypothesis, but their survey found no significant correlation between benthic chlorophyll concentrations and macroalgal mat abundance."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "<ul><li><strong>Choice B</strong> says the finding was consistent with Ortega and Morales, but Ortega and Morales found a decrease in benthic chlorophyll with macroalgae, while Mercer and Price found no significant correlation.</li><li><strong>Choice C</strong> claims study-design differences likely explain the discrepancy, but the passage gives no evidence about such differences.</li><li><strong>Choice D</strong> says macroalgal mats may positively affect chlorophyll production, but a no-correlation result does not support a positive effect.</li></ul>"
+    },
+    {
+      "title": "Choose the supported comparison",
+      "content": "The only supported conclusion is that Mercer and Price's negative-effect hypothesis was not supported by their results. Since their no-correlation finding points away from a measurable impact of macroalgae on MPB biomass, it also fits the earlier finding by Choudhury and colleagues that macroalgae do not impact MPB. Choice A states both parts without adding an unsupported explanation or reversing the comparison with Ortega and Morales. The answer is <strong>A</strong>."
+    }
+  ]
+}

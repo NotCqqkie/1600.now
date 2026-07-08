@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "This is a function question. We must determine what role the underlined sentence &quot;Bitter's feet were singing the news&quot; plays in the passage as a whole."
+      "title": "Read the footsteps as a signal",
+      "content": "Jam knows the painting is done because of the weight and rhythm of Bitter's footsteps. The underlined sentence personifies those footsteps as communicating the news, reinforcing that Jam can understand something from the sound."
     },
     {
-      "title": "Reason toward the answer",
-      "content": "The sentence right before says &quot;that was how Jam knew the painting was done&quot; &mdash; meaning the footsteps communicated information to Jam. The underlined sentence reinforces this idea by personifying the feet as &quot;singing the news,&quot; emphasizing that the footsteps convey a message to Jam."
-    },
-    {
-      "title": "Eliminate the wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; It indicates that Jam is more interested in music than in art.</strong>: misreads the figurative &quot;singing&quot; as literal music; the passage never compares Jam's interests. &#10007;</li><li><strong>Choice C &mdash; It indicates that Bitter always sings when working on a painting.</strong>: takes &quot;singing&quot; literally and overreaches with &quot;always&quot;; it is the feet, not Bitter, that figuratively sing. &#10007;</li><li><strong>Choice D &mdash; It describes Aloe's reaction upon seeing the painting for the first time.</strong>: Aloe is not a focus here, and the sentence describes Bitter's feet, not Aloe's reaction. &#10007;</li></ul>That matches <strong>Choice B &mdash; It adds to the idea that Bitter's footsteps reveal something to Jam.</strong>."
+      "title": "Reject literal misreadings",
+      "content": "Choice A treats singing as evidence about Jam's interest in music. Choice C claims Bitter always sings while painting, which the passage never says. Choice D shifts to Aloe, who is not reacting in the underlined sentence. The answer is <strong>B</strong>."
     }
   ]
 }

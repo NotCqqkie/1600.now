@@ -1,0 +1,19 @@
+{
+  "questionId": "a01e8397",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the cause and effect",
+      "content": "The river slows when it reaches calmer ocean water. The next sentence says particles are deposited, so the blank must describe reduced velocity stopping or breaking off sediment suspension."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "Choice A would mean increasing the suspension. Choice B means hiding it, which does not fit the physical process. Choice D means speeding something up, the opposite of what reduced flow velocity does."
+    },
+    {
+      "title": "Choose the stopping action",
+      "content": "Interrupting means stopping a process for a time, which matches the way slower flow causes suspended particles to fall out and form deposits. The answer is <strong>C</strong>."
+    }
+  ]
+}

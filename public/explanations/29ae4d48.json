@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "Transition question. Mihai chose an unconventional surface (concrete) for graffiti; Andrei has likewise chosen an unusual canvas (ice floes) for charcoal art. Both father and son made parallel unconventional artistic choices, so the transition must signal similarity."
+      "title": "Compare the unusual canvases",
+      "content": "Mihai Radu used concrete, an unconventional surface for graffiti at the time. His son Andrei also uses an unusual surface: fragmented ice floes. The relationship between the sentences is similarity."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; However,</strong>: signals contrast. The two sentences describe similar artistic choices, not opposing ones. &#10007;</li><li><strong>Choice B &mdash; Indeed,</strong>: signals emphatic confirmation of the previous statement. Andrei's choice does not confirm or intensify Mihai's; it presents a separate parallel case. &#10007;</li><li><strong>Choice C &mdash; Second,</strong>: signals enumeration of items in a list. The first sentence is not framed as item one of a list. &#10007;</li><li><strong>Choice D &mdash; Likewise,</strong>: signals similarity between two cases &mdash; exactly the parallel between Mihai's concrete and Andrei's ice floes. &#10003;</li></ul>That matches <strong>Choice D &mdash; Likewise,</strong>."
+      "title": "Reject the wrong transitions",
+      "content": "Choice A signals contrast, but the two artists make parallel choices. Choice B signals emphatic confirmation, but Andrei's project is a separate similar case. Choice C signals enumeration even though no list order has been set up. The answer is <strong>D</strong>."
     }
   ]
 }

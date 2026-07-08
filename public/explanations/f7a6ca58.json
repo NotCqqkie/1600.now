@@ -1,0 +1,15 @@
+{
+  "questionId": "f7a6ca58",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the known count",
+      "content": "The number of blue iris flowers is $9$, so substitute $x=9$ into the equation.<br/>$$3x+4y=67$$<br/>$$3(9)+4y=67$$"
+    },
+    {
+      "title": "Solve for white flowers",
+      "content": "Simplify and isolate $y$.<br/>$$27+4y=67$$<br/>$$4y=40$$<br/>$$y=10$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

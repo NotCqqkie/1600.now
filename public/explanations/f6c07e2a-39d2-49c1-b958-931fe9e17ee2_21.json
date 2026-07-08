@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the boundary line and shading",
-      "content": "From the figure, the boundary line passes through $(0, -5)$, giving $y$-intercept $-5$, and rises steeply, giving slope $15$. So the boundary is $y = 15x - 5$. The shaded region lies <strong>above</strong> the line, so the inequality is $y \\gt  15x - 5$."
+      "title": "Read the boundary line",
+      "content": "The matching boundary line has $y$-intercept $6$ and slope $-4$, so its equation is<br/>$$y=-4x+6$$"
     },
     {
-      "title": "Match the choice",
-      "content": "Two other options use slope $3$, which is too gentle for a steep line through $(0,-5)$. $y \\lt 15x - 5$ shades below the line.<br/><br/>Only $y \\gt  15x - 5$ matches both the slope ($15$) and the above-shading.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use the shaded side",
+      "content": "The shaded region is above the boundary line, so the inequality uses the greater-than sign.<br/>$$y>-4x+6$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

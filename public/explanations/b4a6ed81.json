@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare the factored forms",
-      "content": "The target form is $ry^4(13y-7)$. Factor the original expression to make that same structure appear."
+      "title": "Factor out the common power",
+      "content": "Start by factoring the original expression so it has the same outside factor of $y^4$:\n$$\n52y^5-28y^4=y^4(52y-28)\n$$"
     },
     {
-      "title": "Factor the original expression",
-      "content": "$$52y^5-28y^4=y^4(52y-28)$$<br/>Then factor $4$ from the parentheses:<br/>$$y^4(52y-28)=4y^4(13y-7)$$<br/>So $r=4$."
-    },
-    {
-      "title": "Check the result",
-      "content": "Expanding the factored form confirms it: $$4y^4(13y-7)=52y^5-28y^4.$$ This matches the original expression, so $r=4$."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $r$ is <strong>4</strong>."
+      "title": "Match the target factor",
+      "content": "The expression inside the parentheses has a common factor of $4$:\n$$\ny^4(52y-28)=4y^4(13y-7)\n$$\nIn the form $ry^4(13y-7)$, the value of $r$ is the outside constant. The answer is <strong>4</strong>."
     }
   ]
 }

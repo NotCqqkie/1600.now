@@ -1,0 +1,15 @@
+{
+  "questionId": "c41b345a",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Use the given equation to find $x$.<br/>$$3x+5=14$$<br/>$$3x=9$$<br/>$$x=3$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Substitute $x=3$ into the requested expression.<br/>$$6x-2=6(3)-2=18-2=16$$<br/>The answer is <strong>16</strong>."
+    }
+  ]
+}

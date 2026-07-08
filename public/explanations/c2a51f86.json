@@ -1,0 +1,18 @@
+{
+  "questionId": "c2a51f86",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the base charge",
+      "content": "The first $25$ people cost $22$ dollars each:\n$$25\\cdot22=550$$"
+    },
+    {
+      "title": "Add the extra-person charge",
+      "content": "For a group with $n$ people, the number of additional people is $n-25$. Each additional person costs $14$, so the total charge is\n$$550+14(n-25)$$\n$$=550+14n-350$$\n$$=14n+200$$\nThe answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y=14x+200\\{x\\geq25\\}"
+      ]
+    }
+  ]
+}

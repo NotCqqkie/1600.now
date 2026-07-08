@@ -1,0 +1,19 @@
+{
+  "questionId": "56080b99",
+  "correctAnswer": "3/112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radical",
+      "content": "Use the rule that a root can be written as a fractional exponent:\n$$\n\\sqrt[14]{(315n)^9}=(315n)^{\\frac{9}{14}}\n$$"
+    },
+    {
+      "title": "Match the exponents",
+      "content": "Both expressions have the same positive base, so set the exponents equal:\n$$\n\\frac{9}{14}=24x\n$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Divide by $24$:\n$$\nx=\\frac{9}{14}\\cdot\\frac{1}{24}=\\frac{9}{336}\n$$\nReducing the fraction gives the final value. The answer is <strong>3/112</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "f26b7d70",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output to zero",
+      "content": "An $x$-intercept occurs when $y=0$.<br/>$$0=7(\\frac{a}{4})^{x+c}-b$$"
+    },
+    {
+      "title": "Isolate the exponential",
+      "content": "Move $b$ to the other side and divide by $7$.<br/>$$(\\frac{a}{4})^{x+c}=\\frac{b}{7}$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "Because $a>4$, the base $\\frac{a}{4}$ is greater than $1$. A positive-base exponential function takes each positive value exactly once, and $\\frac{b}{7}$ is positive. The answer is <strong>B</strong>."
+    }
+  ]
+}

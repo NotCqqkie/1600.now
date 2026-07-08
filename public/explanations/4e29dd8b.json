@@ -1,0 +1,19 @@
+{
+  "questionId": "4e29dd8b",
+  "correctAnswer": "14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the shared value",
+      "content": "The intersection point is $(q,16)$, so $y=16$ in both equations:<br/><br/>$$-x-16w=-361$$<br/>$$2x-16w=50$$"
+    },
+    {
+      "title": "Eliminate the repeated term",
+      "content": "Subtract the first substituted equation from the second:<br/><br/>$$(2x-16w)-(-x-16w)=50-(-361)$$<br/>$$3x=411$$<br/>$$x=137$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Use $x=137$ in one substituted equation:<br/><br/>$$-137-16w=-361$$<br/>$$-16w=-224$$<br/>$$w=14$$<br/><br/>The answer is <strong>14</strong>."
+    }
+  ]
+}

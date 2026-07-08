@@ -1,0 +1,15 @@
+{
+  "questionId": "72b7de9b",
+  "correctAnswer": "600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph value",
+      "content": "The graph's $y$-value is the total distance walked after leaving the fountain. At $x=10$ minutes, the graph shows $y=600$."
+    },
+    {
+      "title": "Interpret the distance",
+      "content": "Because $y$ is already measured in meters walked after leaving the fountain, the distance for the first $10$ minutes is $600$ meters. The answer is <strong>600</strong>."
+    }
+  ]
+}

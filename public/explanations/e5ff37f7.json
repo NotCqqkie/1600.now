@@ -1,0 +1,19 @@
+{
+  "questionId": "e5ff37f7",
+  "correctAnswer": "0.981,.9811,52/53",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
+      "title": "Find the missing side using Pythagoras",
+      "content": "The right angle is at $T$, so $TR$ is the hypotenuse with $TR = 53$ and leg $RS = \\sqrt{105}$. Apply the Pythagorean theorem to find leg $TS$:<br/>$$TS^2 = TR^2 - RS^2 = 53^2 - 105 = 2809 - 105 = 2704$$<br/>$$TS = 52$$"
+    },
+    {
+      "title": "Compute the sine ratio",
+      "content": "From angle $R$, the opposite side is $TS = 52$ and the hypotenuse is $TR = 53$:<br/>$$\\sin R = \\frac{TS}{TR} = \\frac{52}{53} \\approx 0.9811$$<br/>The answer is <strong>52/53</strong>."
+    }
+  ]
+}

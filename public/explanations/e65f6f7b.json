@@ -1,0 +1,15 @@
+{
+  "questionId": "e65f6f7b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find evidence for Keller's claim",
+      "content": "Keller claims that Ballard's compositions rely on elements from Native musical traditions. To support that claim, the sentence must pair Keller's idea with a concrete example from the notes: <em>Devil's Promenade</em> incorporates a Seneca cow-horn rattle, a traditional Native instrument."
+    },
+    {
+      "title": "Reject irrelevant support",
+      "content": "A states Keller's claim but connects it to <em>Desert Trilogy</em>, which has no noted Native musical element. B omits Keller's claim and wrongly attaches the Pulitzer nomination to <em>Devil's Promenade</em>. D mentions the Pulitzer nomination, which does not support the Native-tradition claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

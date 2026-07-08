@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept condition",
-      "content": "The $y$-intercept is the point where a function's graph crosses the $y$-axis, which occurs when $x = 0$. To find the $y$-coordinate of this point, substitute $x = 0$ into the equation $y = x^2 + 27$."
+      "title": "Use the intercept condition",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $x=0$ into $y=x^2+27$."
     },
     {
-      "title": "Substitute and evaluate",
-      "content": "Substituting $x = 0$ into the equation:\n$$y = (0)^2 + 27$$\n$$y = 0 + 27$$\n$$y = 27$$\nThe $y$-intercept point is $(0, 27)$, so $y = 27$. The answer is <strong>27</strong>."
+      "title": "Evaluate the output",
+      "content": "Compute the value of $y$.<br/>$$y=0^2+27=27$$<br/>The answer is <strong>27</strong>."
     }
   ]
 }

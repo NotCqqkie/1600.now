@@ -1,0 +1,15 @@
+{
+  "questionId": "163b1eea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared claim",
+      "content": "Text 1 says many current artists make albums much longer than albums from decades past because physical limits matter less. Text 2 similarly says many new albums are longer and have more songs than albums made for physical formats."
+    },
+    {
+      "title": "Exclude unsupported comparisons",
+      "content": "Choice A mentions artwork, Choice B mentions sales, and Choice D mentions volume; none of those topics appears in both texts. The shared point is that many new albums are longer than albums generally used to be. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "102081e6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the correlation gap",
+      "content": "The graph gives different correlations for participant P1: the model tracked P1's impressionist ratings more closely than P1's color-field ratings. If P1's actual ratings for the two styles were equal, different correlations imply the model did not predict equal ratings."
+    },
+    {
+      "title": "Reject enjoyment claims",
+      "content": "A and B infer which style P1 enjoyed more, but correlations measure model fit, not preference. D says the predicted ratings were equal, which would not explain the different correlations. The answer is <strong>C</strong>."
+    }
+  ]
+}

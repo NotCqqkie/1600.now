@@ -1,0 +1,15 @@
+{
+  "questionId": "a7a7be13",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the valid zeros",
+      "content": "A fraction equals zero when its numerator equals zero and its denominator is not zero.\n$$(x-4)(x-9)=0$$\nThe denominator excludes $x=3$, which is not one of these zeros."
+    },
+    {
+      "title": "Sum the solutions",
+      "content": "The numerator is already factored, so the solutions are $x=4$ and $x=9$.\n$$4+9=13$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

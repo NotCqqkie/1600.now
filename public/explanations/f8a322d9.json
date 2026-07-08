@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the closest possible values",
-      "content": "To make the means as close as possible, make data set A as small as possible and data set B as large as possible.<ul><li>For A, use the lower endpoint of each interval: $20,30,40,50$.</li><li>For B, use the largest integer in each interval: $19,29,39,49$.</li></ul>"
+      "title": "Make the sums as close as possible",
+      "content": "To minimize the mean difference, use the smallest possible values for data set A and the largest possible values for data set B in each interval."
     },
     {
-      "title": "Find the smallest possible sum difference",
-      "content": "Apply the histogram frequencies $3,4,7,9$:<br/>$$\\text{A minimum sum}=3(20)+4(30)+7(40)+9(50)=910$$<br/>$$\\text{B maximum sum}=3(19)+4(29)+7(39)+9(49)=887$$<br/>$$910-887=23$$"
+      "title": "Find the closest sums",
+      "content": "Using the histogram frequencies $3,4,7,9$, the closest possible sums are<br/>$$3(20)+4(30)+7(40)+9(50)=910$$<br/>and<br/>$$3(19)+4(29)+7(39)+9(49)=887$$<br/>The smallest possible sum difference is<br/>$$910-887=23$$"
     },
     {
-      "title": "Convert the sum difference to a mean difference",
-      "content": "Each data set has $23$ integers, so divide the smallest possible sum difference by $23$:<br/>$$\\frac{23}{23}=1$$<br/>That matches the computed answer, so <strong>B</strong> is correct."
+      "title": "Convert to mean difference",
+      "content": "Each data set has $23$ integers, so divide the sum difference by $23$.<br/>$$\\frac{23}{23}=1$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

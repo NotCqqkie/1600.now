@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent for the blank",
-      "content": "The blank requires a pronoun that clearly refers to <strong>the Salt Lake Temple</strong>, which is singular and mentioned in the previous sentence."
+      "title": "Match the singular temple",
+      "content": "The blank refers back to \"the Salt Lake Temple,\" a singular noun phrase. The completed sentence needs a singular pronoun and verb to say that the temple was built over forty years."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "<strong>“It was”</strong> correctly uses a singular pronoun that matches the singular noun the Salt Lake Temple, applying the rule that pronouns must agree with their antecedents in number.<br/><br/>The other choices either apply plural pronouns to a singular noun or create ambiguous reference.<br/><br/>That matches <strong>Choice A &mdash; it was</strong>."
+      "title": "Avoid plural pronouns",
+      "content": "Choice B creates an unclear reference with \"one.\" Choice C and Choice D use plural pronouns and verbs, but the antecedent is one temple, not multiple structures. A singular subject needs \"it was.\" The answer is <strong>A</strong>."
     }
   ]
 }

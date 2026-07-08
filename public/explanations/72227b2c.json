@@ -1,0 +1,23 @@
+{
+  "questionId": "72227b2c",
+  "correctAnswer": "15/2,7.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set w(r) equal to zero",
+      "content": "When $w(r) = 0$, we have:<br/>$$\\frac{1}{r-9} - \\frac{r-6}{-r+5.25} = 0$$<br/>Move the second fraction to the right side:<br/>$$\\frac{1}{r-9} = \\frac{r-6}{-r+5.25}$$"
+    },
+    {
+      "title": "Simplify the right side and cross-multiply",
+      "content": "Since $-r + 5.25 = -(r - 5.25)$, we can rewrite:<br/>$$\\frac{1}{r-9} = -\\frac{r-6}{r-5.25}$$<br/>Cross-multiplying:<br/>$$(r - 5.25) = -(r-6)(r-9)$$"
+    },
+    {
+      "title": "Expand and form a quadratic equation",
+      "content": "Expand $(r-6)(r-9) = r^2 - 15r + 54$:<br/>$$r - 5.25 = -r^2 + 15r - 54$$<br/>Rearrange to standard form:<br/>$$r^2 - 14r + 48.75 = 0$$<br/>Multiply by 4 to clear the decimal:<br/>$$4r^2 - 56r + 195 = 0$$"
+    },
+    {
+      "title": "Complete the square",
+      "content": "Use $r^2-14r+48.75=0$ before the decimal-clearing step:<br/>$$r^2-14r=-48.75$$<br/>$$r^2-14r+49=0.25$$<br/>$$(r-7)^2=0.25$$<br/>So $r=7\\pm0.5$, giving $r=6.5$ or $r=7.5$. The greatest possible value is <strong>7.5</strong>, or <strong>15/2</strong>."
+    }
+  ]
+}

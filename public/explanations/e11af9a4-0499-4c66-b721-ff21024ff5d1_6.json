@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the main purpose of the text. The narrator opens with a broad claim about all boat crews, then gives two specific examples (Harris and George) that illustrate it. A correct answer must capture both the generalization and the examples that follow it."
+      "title": "Map the passage structure",
+      "content": "The narrator begins with a broad claim: in a boat, each crew member thinks he is doing everything. He then gives Harris and George as examples of that pattern."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"To give an overview of a particular situation that the narrator finds puzzling.\"</strong>: The narrator says he has \"always noticed\" this pattern, which means he finds it predictable, not puzzling. &#10007;</li><li><strong>\"To discuss how the narrator and his friends each contributed to resolving a conflict.\"</strong>: No conflict is resolved. Harris and George each believe the other did nothing; the narrator observes this without mediating. &#10007;</li><li><strong>\"To convey the narrator's confidence that he understands the role expected of him in a group.\"</strong>: The narrator says nothing about his own role or what is expected of him. He describes Harris and George's overconfidence, not his own understanding. &#10007;</li><li><strong>\"To present the narrator's generalization along with supporting examples from a specific situation.\"</strong>: The generalization is \"each member of the crew thinks he is doing everything.\" The examples are Harris thinking only he worked and George thinking only he did \"all the labour worth speaking of.\" Both elements are present. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Match general claim to examples",
+      "content": "A says the situation is unexpected, B centers the narrator's role, and C suggests shared contribution to a challenge. Harris thinks he alone worked, and George thinks he did all the labor worth mentioning; those examples support the narrator's opening observation. The passage instead presents a generalization and illustrates it with a specific situation. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "6674f71b",
+  "correctAnswer": "12000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the doublings",
+      "content": "From $1640$ to $1960$ is\n$$\n1960-1640=320\n$$\nyears. Since the population doubled every $80$ years, the number of doublings was\n$$\n\\frac{320}{80}=4\n$$"
+    },
+    {
+      "title": "Work backward from 1960",
+      "content": "Four doublings means the $1960$ population was $2^4=16$ times the $1640$ population. Divide by $16$:\n$$\n\\frac{192{,}000}{16}=12{,}000\n$$"
+    },
+    {
+      "title": "Give the initial population",
+      "content": "The answer is <strong>12000</strong>."
+    }
+  ]
+}

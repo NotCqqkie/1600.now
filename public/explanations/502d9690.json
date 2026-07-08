@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the area ratio",
-      "content": "For similar rectangles, areas scale by the square of the linear scale factor. Compare the two areas first, then take the square root to find the side-length scale factor."
+      "title": "Compare the areas",
+      "content": "For similar rectangles, areas scale by the square of the side-length scale factor. The smaller-to-larger area ratio is\n$$\n\\frac{90}{810}=\\frac{1}{9}\n$$"
     },
     {
-      "title": "Find the linear scale factor from the area ratio",
-      "content": "For similar figures, if $k$ is the linear scale factor, areas scale by $k^2$. The area ratio is $\\frac{90}{810} = \\frac{1}{9}$. Therefore $k^2 = \\frac{1}{9}$, giving $k = \\frac{1}{3}$.",
+      "title": "Convert area scale to side scale",
+      "content": "Take the square root of the area ratio to get the side-length scale factor from $\\text{JKLM}$ to $\\text{PQRS}$:\n$$\n\\sqrt{\\frac{1}{9}}=\\frac{1}{3}\n$$",
       "formula": "$$k^2 = \\frac{\\text{smaller area}}{\\text{larger area}}$$"
     },
     {
-      "title": "Apply the scale factor to the longest side",
-      "content": "The longest side of rectangle JKLM is $45$ inches. Since all linear dimensions scale by $k = \\frac{1}{3}$, the longest side of rectangle PQRS is $45 \\times \\frac{1}{3} = 15$ inches. <strong>C</strong> is correct."
+      "title": "Scale the long side",
+      "content": "The longest side of $\\text{JKLM}$ is $45$ inches, so the corresponding longest side of $\\text{PQRS}$ is\n$$\n45(\\frac{1}{3})=15\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the structure of the budget inequality",
-      "content": "The inequality $9x + 13y \\leq 104$ represents Jordan's total spending constraint.<br/><br/>Each term follows the pattern (unit price) × (quantity), where the product equals the total amount spent on that item type.<br/><br/>So each term in the left side must be a <strong>total spent</strong> on one of the pizza types."
+      "title": "Read the inequality terms",
+      "content": "In the inequality $9x+13y\\leq 104$, each term is a unit price multiplied by a number of pizzas."
     },
     {
-      "title": "Identify what 13y represents",
-      "content": "In $13y$, we have:<ul><li>$y$ = the number of large pizzas (given in the problem)</li><li>$13$ = the cost per large pizza (from the structure of the inequality, this multiplies $y$)</li><li>Therefore $13y = 13 \\times y$ = the total amount spent on large veggie pizzas</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Interpret the large pizza term",
+      "content": "The variable $y$ is the number of large veggie pizzas, and $13$ is the cost per large veggie pizza. Therefore, $13y$ is the total amount Jordan spends on large veggie pizzas. The answer is <strong>C</strong>."
     }
   ]
 }

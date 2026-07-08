@@ -1,0 +1,15 @@
+{
+  "questionId": "cc095e01",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare both table measures",
+      "content": "From 1910 to 1925, the table shows car production rising from 123,990 to 3,185,881. Over the same span, the number of companies falls from 320 to 80."
+    },
+    {
+      "title": "Reject wrong trend pairs",
+      "content": "Choice B says both measures stayed unchanged. Choice C says production decreased. Choice D says the number of companies increased. The actual pattern is rising production with fewer companies. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a5e3ea02",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the terms",
+      "content": "Group the four terms in pairs.<br/>$$4x^2-7x+12x-21=(4x^2-7x)+(12x-21)$$"
+    },
+    {
+      "title": "Factor each pair",
+      "content": "Factor each group.<br/>$$4x^2-7x=x(4x-7)$$<br/>$$12x-21=3(4x-7)$$<br/>The shared factor is $4x-7$, so the full factorization is<br/>$$(4x-7)(x+3)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

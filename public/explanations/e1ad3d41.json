@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the conditional probability from the phrase",
-      "content": "The question asks for the fraction <em>of chocolate-colored kittens</em> — this phrase signals conditional probability. We need P(deep blue eyes | chocolate coat), not the overall proportion. The denominator is the total number of chocolate kittens, not all 48."
+      "title": "Use the chocolate row",
+      "content": "The question asks for the fraction of chocolate-colored kittens, so the denominator should be the total number of chocolate-colored kittens."
     },
     {
-      "title": "Look up values and form the fraction",
-      "content": "From the chocolate row: 12 have deep blue eyes out of 16 total chocolate kittens. The fraction is: $$\\frac{12}{16}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Form the requested fraction",
+      "content": "From the chocolate row, $12$ chocolate-colored kittens have deep blue eyes out of $16$ chocolate-colored kittens total:<br/>$$\\frac{12}{16}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

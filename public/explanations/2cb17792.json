@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express y from both equations",
-      "content": "From the first equation $y + k = x + 31$:<br/>$$y = x + 31 - k$$<br/>From the second equation $y - k = x^2 - 7x$:<br/>$$y = x^2 - 7x + k$$<br/>Any solution to the system must satisfy both equations, so these expressions for $y$ must be equal."
+      "title": "Set the y-expressions equal",
+      "content": "Solve each equation for $y$:\n$$\ny=x+31-k\n$$\n$$\ny=x^2-7x+k\n$$\nSet them equal:\n$$\nx+31-k=x^2-7x+k\n$$"
     },
     {
-      "title": "Combine into a single equation in x",
-      "content": "Set the two expressions for $y$ equal:<br/>$$x + 31 - k = x^2 - 7x + k$$<br/>Rearrange to standard form:<br/>$$0 = x^2 - 7x - x + k + k - 31$$<br/>$$x^2 - 8x + (2k - 31) = 0$$"
+      "title": "Form a quadratic",
+      "content": "Move all terms to one side:\n$$\n0=x^2-8x+2k-31\n$$\nThe system has exactly one real solution when this quadratic has exactly one real root."
     },
     {
-      "title": "Apply the discriminant condition",
-      "content": "For the system to have exactly one solution, this quadratic in $x$ must have exactly one real root. This occurs when the discriminant equals zero:<br/>$$b^2 - 4ac = 0$$<br/>$$(-8)^2 - 4(1)(2k - 31) = 0$$<br/>$$64 - 8k + 124 = 0$$<br/>$$188 = 8k$$<br/>$$k = 23.5$$"
+      "title": "Use the discriminant",
+      "content": "Set the discriminant equal to $0$:\n$$\n(-8)^2-4(1)(2k-31)=0\n$$\n$$\n64-8k+124=0\n$$\n$$\n188=8k\n$$\n$$\nk=23.5\n$$\nThe answer is <strong>23.5</strong>."
     }
   ]
 }

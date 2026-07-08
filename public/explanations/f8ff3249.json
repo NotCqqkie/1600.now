@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the boundary list",
-      "content": "All answer choices use $x=4$, $6$, and $8$. Compute the right side of $y\\lt5x+4$ for each value: $$5(4)+4=24$$ $$5(6)+4=34$$ $$5(8)+4=44.$$ The $y$-values must be less than $24$, $34$, and $44$, respectively."
+      "title": "Find each cutoff",
+      "content": "All tables use $x=4$, $x=6$, and $x=8$. Substitute each value into the right side of the inequality.<br/>$$5(4)+4=24$$<br/>$$5(6)+4=34$$<br/>$$5(8)+4=44$$"
     },
     {
-      "title": "Compare the candidate to the boundary",
-      "content": "The correct table has $x$-values $4$, $6$, and $8$ paired with $y$-values $20$, $30$, and $40$. Each output is strictly below the matching cutoff: $20\\lt24$, $30\\lt34$, and $40\\lt44$."
-    },
-    {
-      "title": "Eliminate the failed choices",
-      "content": "The boundary table with $y$-values $24$, $34$, and $44$ is not strictly below the cutoff. Another table fails because $38$ is above the allowed cutoff $34$, and the remaining table fails immediately at $(4,28)$. The table with all three $y$-values below their cutoffs is correct, so <strong>C</strong> is correct."
+      "title": "Check strict inequality",
+      "content": "The matching table must have $y$-values less than $24$, $34$, and $44$ in that order. The values $20$, $30$, and $40$ all satisfy the inequality.<br/>$$20<24,\\quad 30<34,\\quad 40<44$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

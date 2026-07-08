@@ -1,0 +1,15 @@
+{
+  "questionId": "d926df4e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the graph height to zero",
+      "content": "An $x$-intercept occurs where $$y=0$$ For the graph of $$y=f(x)+5$$, solve:\n$$f(x)+5=0$$\nUsing $$f(x)=4d(24x+25)+15$$, this becomes:\n$$4d(24x+25)+20=0$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Expand and isolate $x$. Since $d$ is nonzero, division by $96d$ is allowed.\n$$96d x+100d+20=0$$\n$$96d x=-100d-20$$\n$$x=\\frac{-100d-20}{96d}$$\nSo the intercept is $$\\big(\\frac{-100d-20}{96d},0\\big)$$ The answer is <strong>B</strong>."
+    }
+  ]
+}

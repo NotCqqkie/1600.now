@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Use the intercept definition",
-      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. On the $y$-axis, $x=0$, so the correct point must start with $0$."
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. Every point on the $y$-axis has $x=0$."
     },
     {
-      "title": "Read the graph",
-      "content": "At $x=0$, the curve passes through $y=2$. The intercept is therefore $(0,2)$.",
+      "title": "Read the graph value",
+      "content": "The graph crosses the $y$-axis at $y=2$, so the point is $(0,2)$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "x=0",
         "(0,2)"
       ]
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C, $(2,0)$, is an $x$-intercept-style point, not a $y$-intercept. The graph's $y$-intercept is $(0,2)$, so <strong>B</strong> is correct."
     }
   ]
 }

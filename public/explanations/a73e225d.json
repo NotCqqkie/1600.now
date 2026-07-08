@@ -1,0 +1,15 @@
+{
+  "questionId": "a73e225d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the same-accuracy clue",
+      "content": "The semicolon explains the blank: the program's accuracy was nearly the same on Washington, DC, images and Boston images. The phrase must express comparable performance."
+    },
+    {
+      "title": "Reject illogical descriptions",
+      "content": "A suggests uncertainty, not comparable accuracy. C says the performance was different or distinct, contradicting \"nearly the same.\" D describes an attitude of support, which does not fit performance data. The answer is <strong>B</strong>."
+    }
+  ]
+}

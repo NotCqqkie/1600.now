@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $19 \\left(x-12y\\right) \\left(x+12y\\right)$."
+      "title": "Recognize the square terms",
+      "content": "The expression inside the parentheses is $x^2-144y^2$. Since $144y^2=(12y)^2$, this is a difference of two squares."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Apply the factoring pattern",
+      "content": "A difference of squares factors using the pattern $a^2-b^2=(a-b)(a+b)$. Here, $a=x$ and $b=12y$, so:<br/>$$x^2-144y^2=x^2-(12y)^2=(x-12y)(x+12y)$$"
     },
     {
-      "title": "Recognize the difference of squares",
-      "content": "Inside the parentheses, $x^2-144y^2$ is a difference of squares because $144y^2=(12y)^2$. Use the pattern $a^2-b^2=(a-b)(a+b)$."
-    },
-    {
-      "title": "Factor the expression",
-      "content": "$$x^2-144y^2=x^2-(12y)^2=(x-12y)(x+12y)$$<br/>Keeping the outside factor of $19$ gives:<br/>$$19(x^2-144y^2)=19(x-12y)(x+12y)$$<br/>This is <strong>Choice D</strong>."
+      "title": "Keep the outside factor",
+      "content": "The factor $19$ multiplies the whole factored expression:<br/>$$19(x^2-144y^2)=19(x-12y)(x+12y)$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

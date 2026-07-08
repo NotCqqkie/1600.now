@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate water lost",
-      "content": "The bowl started with 24 ounces and now contains 10 ounces.<br/>$$\\text{Water lost} = 24 - 10 = 14 \\text{ ounces}$$"
+      "title": "Find the water lost",
+      "content": "The bowl loses $24-10=14$ ounces."
     },
     {
-      "title": "Convert water loss to days using the rate",
-      "content": "The water decreases by 1 ounce every 3 days. For 14 ounces of loss:<br/>$$\\text{Days uncovered} = 14 \\text{ ounces} \\times \\frac{3 \\text{ days}}{1 \\text{ ounce}} = 42 \\text{ days}$$<br/>That matches <strong>Choice D &mdash; $42$</strong>."
+      "title": "Convert ounces to days",
+      "content": "Each ounce takes $3$ days, so $14\\cdot3=42$ days. The answer is <strong>D</strong>."
     }
   ]
 }

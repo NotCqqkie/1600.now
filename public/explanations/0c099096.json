@@ -1,0 +1,15 @@
+{
+  "questionId": "0c099096",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare voting ages",
+      "content": "The first sentence gives Kenya's minimum voting age, and the second gives Brazil's lower minimum voting age. The relationship is comparison, not cause or example."
+    },
+    {
+      "title": "Pick the comparison signal",
+      "content": "A starts a sequence that the passage does not develop, B signals a result, and D signals an example of a general rule. A comparison transition fits because Kenya's age requirement is being set beside Brazil's lower one. The answer is <strong>C</strong>."
+    }
+  ]
+}

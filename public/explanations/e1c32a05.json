@@ -1,0 +1,19 @@
+{
+  "questionId": "e1c32a05",
+  "correctAnswer": "29900",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion rate",
+      "content": "Each leuga is equal to $6{,}500$ pedes. To convert $4.6$ leugas into pedes, multiply the number of leugas by the number of pedes in one leuga."
+    },
+    {
+      "title": "Multiply the quantities",
+      "content": "Set up and evaluate the product:\n$$4.6(6{,}500)=4(6{,}500)+0.6(6{,}500)$$\n$$=26{,}000+3{,}900=29{,}900$$"
+    },
+    {
+      "title": "Enter the converted value",
+      "content": "The computed value is the number of pedes equivalent to $4.6$ leugas, and the requested response should be entered without a comma. The answer is <strong>29900</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f295155f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a difference between samples",
+      "content": "The student wants to contrast the two samples, so the sentence must highlight a difference rather than background or a shared result. The notes give direct differences: NiTi wire was 0.7 millimeter thick and rose 21.3 degrees Celsius, while EPDM rubber was 2 millimeters thick and rose 12 degrees Celsius."
+    },
+    {
+      "title": "Rule out similarities and background",
+      "content": "A says both samples were studied, which groups them together instead of contrasting them. C defines torsional heating without mentioning the samples. D states a similarity, since both temperatures increased when twisted. The sentence comparing thickness gives a clear contrast between the two samples. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "43386073",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal concession about accuracy",
+      "content": "The first sentence says the 1920 method seems rudimentary today. The next sentence pushes back by saying a modern study found almost the same center, proving the old method relatively accurate. The blank needs a concession signal."
+    },
+    {
+      "title": "Reject wrong transition logic",
+      "content": "Choice A signals an example, but the second sentence does not illustrate rudimentariness. Choice C signals a result, though accuracy is not a result of seeming rudimentary. Choice D signals restatement, but the second sentence qualifies the first. The answer is <strong>B</strong>."
+    }
+  ]
+}

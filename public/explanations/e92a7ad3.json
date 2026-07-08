@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "The subject of the sentence is <strong>ayllus</strong>. &ldquo;Ayllus&rdquo; is a plural noun referring to multiple family clans, so the verb that follows must be plural to satisfy subject-verb agreement."
+      "title": "Match the plural subject",
+      "content": "The subject is ayllus, a plural noun referring to multiple family clans. The sentence is also about the Inca Empire in the past, so the verb must be plural and past tense."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"is\"</strong>: Singular present tense. Violates subject-verb agreement &mdash; a plural subject cannot take a singular verb. &#10007;</li><li><strong>\"was\"</strong>: Singular past tense. Also violates subject-verb agreement for the same reason. &#10007;</li><li><strong>\"has been\"</strong>: Singular present perfect. Still singular, still violates subject-verb agreement with the plural subject <em>ayllus</em>. &#10007;</li><li><strong>\"were\"</strong>: Plural past tense. Agrees in number with the plural subject <em>ayllus</em> &mdash; no agreement violation. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject singular verbs",
+      "content": "A, B, and C are singular forms, so they do not agree with the plural subject. The needed verb form is both plural and appropriate for the past-time context. The answer is <strong>D</strong>."
     }
   ]
 }

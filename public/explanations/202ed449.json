@@ -1,0 +1,15 @@
+{
+  "questionId": "202ed449",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root exponent rule",
+      "content": "A fractional exponent with numerator $1$ means a root. The denominator of the exponent tells which root to use:<br/>$$x^{\\frac{1}{n}}=\\sqrt[n]{x}$$"
+    },
+    {
+      "title": "Apply the rule",
+      "content": "Here, the denominator is $13$, so the expression represents the thirteenth root of $x$:<br/>$$x^{\\frac{1}{13}}=\\sqrt[13]{x}$$The answer is <strong>A</strong>."
+    }
+  ]
+}

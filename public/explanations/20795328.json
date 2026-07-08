@@ -1,0 +1,15 @@
+{
+  "questionId": "20795328",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the shifted line",
+      "content": "The graph shows $y=f(x)+11$. From the graph, two clear points on that line are $(-4,9)$ and $(0,1)$. The slope is\n$$\\frac{1-9}{0-(-4)}=-2$$\nso the graphed line is\n$$y=-2x+1$$"
+    },
+    {
+      "title": "Isolate the function",
+      "content": "Since $y=f(x)+11$,\n$$f(x)+11=-2x+1$$\n$$f(x)=-2x-10$$\nThis has the form $-d-cx$ with positive constants $d=10$ and $c=2$. The answer is <strong>A</strong>."
+    }
+  ]
+}

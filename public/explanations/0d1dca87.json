@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given value of x",
-      "content": "Since we're given that $x = 3$, we substitute this directly into the first equation $4x + y = 37$:<br/>$$4(3) + y = 37$$"
+      "title": "Substitute the given input",
+      "content": "The system gives $x=3$. Substitute $3$ for $x$ in the first equation:<br/>$$4(3)+y=37$$"
     },
     {
-      "title": "Solve for y",
-      "content": "Simplify the left side:<br/>$$12 + y = 37$$<br/>Subtract 12 from both sides to isolate $y$:<br/>$$y = 37 - 12 = 25$$"
+      "title": "Solve for the other coordinate",
+      "content": "Simplify and subtract $12$:<br/>$$12+y=37$$<br/>$$y=25$$<br/>The answer is <strong>25</strong>."
     }
   ]
 }

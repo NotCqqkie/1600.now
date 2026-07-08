@@ -1,0 +1,15 @@
+{
+  "questionId": "81848dc1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep title and name together",
+      "content": "The blank falls between <em>renowned</em> and the name Fu Pei-mei. The phrase should form the uninterrupted title-like description <em>renowned chef and culinary instructor Fu Pei-mei</em>."
+    },
+    {
+      "title": "Remove needless punctuation",
+      "content": "Choice A wrongly inserts a comma between the description and the name. Choice C wrongly places a comma between two joined descriptions. Choice D has that same internal comma and adds an unnecessary dash before the name. The answer is <strong>B</strong>."
+    }
+  ]
+}

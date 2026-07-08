@@ -1,0 +1,15 @@
+{
+  "questionId": "c3ac4f07",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the contrast",
+      "content": "The text first presents specialization as useful: the <em>Kaua'i 'amakihi</em> has physical and behavioral traits that help it survive in a specific habitat. The word <em>However</em> then turns that same specialization into a vulnerability because environmental changes can disrupt the ecosystem it depends on."
+    },
+    {
+      "title": "Keep both main points",
+      "content": "The main idea must include both sides of that trade-off: the bird is unique to the Hawaiian archipelago and highly specialized, and that specialization makes it especially susceptible to habitat disturbance. A adds unsupported habitat-sharing information, B omits the vulnerability, and D overgeneralizes to Hawaiian birds broadly. The answer is <strong>C</strong>."
+    }
+  ]
+}

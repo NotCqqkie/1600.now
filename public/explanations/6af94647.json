@@ -1,0 +1,15 @@
+{
+  "questionId": "6af94647",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Treat the names as essential",
+      "content": "The names hexafluorobenzene and benzene identify which liquid compounds have the stated molar masses. Because those names are essential to the meaning, they should not be set off with commas."
+    },
+    {
+      "title": "Remove nonessential commas",
+      "content": "Choice A incorrectly uses commas on both sides. Choice B leaves a stray comma after the names. Choice C incorrectly opens a comma break before the names. The no-comma version treats the compound names as essential identifiers. The answer is <strong>D</strong>."
+    }
+  ]
+}

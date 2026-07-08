@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a transitions question. The first sentence calls Old Faithful &quot;seemingly inhospitable to life.&quot; The second reveals that &quot;the geyser is…almost like a cradle for biodiversity,&quot; home to numerous bacteria species. The blank must signal that the second fact is true <em>despite</em> the first &mdash; a concessive (contrast) transition."
+      "title": "Identify the contrast",
+      "content": "The first sentence says Old Faithful seems inhospitable to life. The second says it is home to many bacteria species and is almost a cradle for biodiversity. The transition must show that the second fact is true despite the first."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Thus,&rsquo;</strong>: Signals a result or consequence; implies the biodiversity follows logically from the inhospitable conditions. That is the opposite of what the passage means. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Specifically,&rsquo;</strong>: Signals that what follows narrows or elaborates on the prior claim; implies the biodiversity is a specific example of inhospitability rather than a contradiction of it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Still,&rsquo;</strong>: Means &quot;nevertheless&quot; &mdash; signals that the geyser&apos;s thriving biodiversity is true despite its seemingly inhospitable appearance. Correctly marks the concession. &#10003;</li><li><strong>Choice D &mdash; &lsquo;In other words,&rsquo;</strong>: Signals a restatement or paraphrase; implies the biodiversity restates the inhospitability claim rather than contradicting it. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject result and restatement cues",
+      "content": "A signals a result, B signals a specific example, and D signals a restatement. The remaining transition means \"nevertheless,\" which fits the contrast between apparent harshness and actual biodiversity. The answer is <strong>C</strong>."
     }
   ]
 }

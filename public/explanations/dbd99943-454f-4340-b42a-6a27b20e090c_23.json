@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "Sentence 1: contour and box modeling process <strong>thousands</strong> of shapes. Sentence 2: these methods are <strong>more economical</strong> than surface models, which need millions of polygons. Fewer shapes processed = lower computing cost: the second sentence is a consequence of the first."
+      "title": "Identify the cause and result",
+      "content": "The first sentence says contour modeling and box modeling usually require software to process thousands of geometric shapes. The next sentence compares them with surface model methods, which require processors to manage millions of polygons. Because they demand less processing power, the first two methods are more economical."
     },
     {
-      "title": "Pick the transition",
-      "content": "The logical relationship is cause-effect/consequence: the lower shape count (cause) makes these methods more economical (effect).\n<ul>\n<li><strong>\"Instead,\"</strong>: signals substitution or contradiction. The second sentence is not opposed to the first; it flows from it. ✗</li>\n<li><strong>\"Specifically,\"</strong>: signals a narrowing detail or example of the prior claim. The economy comparison is a result, not a specification of thousands of shapes. ✗</li>\n<li><strong>\"As such,\"</strong>: signals consequence — \"because of this.\" The economy is a direct result of processing fewer shapes. ✓</li>\n<li><strong>\"For example,\"</strong>: signals a specific instance illustrating a general claim. The economy comparison is not an example of processing thousands of shapes. ✗</li>\n</ul>\nThat matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate weak transitions",
+      "content": "Choice A, “Instead,” would suggest replacement rather than result. Choice B, “Specifically,” would introduce a detail of the same idea, not a consequence. Choice D, “For example,” would introduce an example, but the sentence draws a conclusion from the processing demands. The result transition fits. The answer is <strong>C</strong>."
     }
   ]
 }

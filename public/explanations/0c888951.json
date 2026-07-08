@@ -1,0 +1,15 @@
+{
+  "questionId": "0c888951",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal the contrast",
+      "content": "The passage first gives a sleek, streamlined jet as an example of aerodynamics. The next sentence turns to a boxy semitruck that encounters more wind resistance, so the transition must signal a contrast between the two examples."
+    },
+    {
+      "title": "Reject the wrong relations",
+      "content": "A suggests cause and effect, but the truck's resistance is not caused by the jet. B would introduce a more specific example of the same idea, and C would conclude the discussion. The sentence needs a transition that marks the opposite case. The answer is <strong>D</strong>."
+    }
+  ]
+}

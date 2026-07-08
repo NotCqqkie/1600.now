@@ -1,0 +1,15 @@
+{
+  "questionId": "b14a062d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The subject of the sentence is <em>Such lists</em>, which is plural. The words between commas are a modifier describing Shonagon, so they do not change the subject-verb agreement."
+    },
+    {
+      "title": "Choose the plural verb",
+      "content": "The matching verb is the plural present-tense form that agrees with <em>lists</em>. Choice A is singular, Choice B is a singular past-progressive phrase, and Choice C is an infinitive rather than the main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

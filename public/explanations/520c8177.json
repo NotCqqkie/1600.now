@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate calories per pound into an expression with the weight variable",
-      "content": "The phrase <em>30 calories per pound of the guinea pig's weight</em> tells us to multiply the weight by 30. If the guinea pig weighs $x$ pounds, this contributes $30x$ calories to the daily intake."
+      "title": "Translate the variable part",
+      "content": "The guinea pig weighs $x$ pounds, and the recommendation includes $30$ calories for each pound. That part is represented by $30x$."
     },
     {
-      "title": "Add the constant and write the equation",
-      "content": "The phrase <em>plus an additional 9 calories</em> adds a constant term. Combining both parts, the total recommended calories is: $$c=30x+9$$ <strong>D</strong> is correct."
+      "title": "Add the fixed amount",
+      "content": "The recommendation also includes an additional $9$ calories, so the total number of calories is\n$$\nc=30x+9\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

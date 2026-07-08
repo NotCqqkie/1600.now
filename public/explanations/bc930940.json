@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the stated goal",
-      "content": "The prompt is explicit: the student wants to <strong>indicate the year</strong> <em>Yosemite Falls</em> was completed. This is the decisive requirement. Any choice missing the year fails the objective."
+      "title": "Use the stated goal",
+      "content": "The student wants to indicate the year <em>Yosemite Falls</em> was completed. The relevant note says the painting was completed in 1930."
     },
     {
-      "title": "Match the goal to the choices",
-      "content": "C states the painting's title with the completion year 1930. The other choices mention other details from the notes but omit the essential year. That is the correct answer."
+      "title": "Keep the year",
+      "content": "Choice A mentions Tanaka's location and medium, choice B only says he created a notable painting, and choice D names the sumi-e method. None includes the required completion year. The remaining choice names the painting and gives 1930. The answer is <strong>C</strong>."
     }
   ]
 }

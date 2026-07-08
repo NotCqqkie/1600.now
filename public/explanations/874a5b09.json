@@ -1,0 +1,19 @@
+{
+  "questionId": "874a5b09",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the first inequality",
+      "content": "For inequality I, use $x=3$ and $y=-3$.\n$$-3\\lt -3(3)+8$$\n$$-3\\lt -1$$\nTrue."
+    },
+    {
+      "title": "Test the second inequality",
+      "content": "For inequality II, compare $y$ with $x-4$.\n$$-3\\gt 3-4$$\n$$-3\\gt -1$$\nFalse."
+    },
+    {
+      "title": "Identify what is satisfied",
+      "content": "Point $P$ satisfies inequality I only. The answer is <strong>A</strong>."
+    }
+  ]
+}

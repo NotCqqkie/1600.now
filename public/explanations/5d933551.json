@@ -1,0 +1,19 @@
+{
+  "questionId": "5d933551",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the stated goal",
+      "content": "The student wants a detailed overview of the structures at Keet Seel. The relevant notes are the natural cliff alcove, the multistory adobe and stone buildings, the cube-shaped contiguous rooms, and the round kivas used for ceremonial purposes and gathering. A strong answer should focus on physical features, not only location, builders, or dates."
+    },
+    {
+      "title": "Remove partial options",
+      "content": "Choice A mentions kivas and location but leaves out the adobe and stone construction, the multistory buildings, and the cube-shaped rooms. Choice B focuses on Ancestral Puebloan builders and the dates of habitation. Choice D gives only the builders, materials, and location, so it is too thin for a detailed structural overview."
+    },
+    {
+      "title": "Select the full overview",
+      "content": "The remaining choice combines the cliff alcove setting with multistory adobe and stone buildings, round kivas, and surrounding cube-shaped contiguous rooms. That uses the notes that describe Keet Seel's structures most completely and directly addresses the student's goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

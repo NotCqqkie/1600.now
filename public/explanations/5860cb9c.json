@@ -1,0 +1,19 @@
+{
+  "questionId": "5860cb9c",
+  "correctAnswer": "-24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write standard form",
+      "content": "Move all terms to one side:<br/>$$5x^2-30x+(21-r)=0$$"
+    },
+    {
+      "title": "Use the discriminant",
+      "content": "Exactly one real solution means:<br/>$$(-30)^2-4(5)(21-r)=0$$"
+    },
+    {
+      "title": "Solve for r",
+      "content": "$$900-20(21-r)=0$$<br/>$$480+20r=0$$<br/>$$r=-24$$<br/>The answer is <strong>-24</strong>."
+    }
+  ]
+}

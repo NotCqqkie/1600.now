@@ -1,0 +1,15 @@
+{
+  "questionId": "86d3afe7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show nonuniform capacity",
+      "content": "The sentence says Indonesia's renewable energy capacity trended upward, but not uniformly. Since the first example is solar power decreasing from 2017 to 2018, the blank should add another example showing that growth was interrupted."
+    },
+    {
+      "title": "Separate trends from comparisons",
+      "content": "B and D compare capacity levels rather than showing a break in growth. C describes wind as higher after 2017, which supports upward movement rather than nonuniform growth. A flat trend for geothermal and wind from 2019 to 2020 supplies the needed interruption. The answer is <strong>A</strong>."
+    }
+  ]
+}

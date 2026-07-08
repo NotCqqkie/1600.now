@@ -1,0 +1,15 @@
+{
+  "questionId": "252229a4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the y intercept",
+      "content": "The $y$-intercept occurs when $x=0$. Substitute $0$ into the equation.<br/>$$y=250(4)^{2(0)}$$<br/>$$y=250(4)^0=250$$"
+    },
+    {
+      "title": "Interpret the starting time",
+      "content": "The variable $x$ counts six-month periods starting from the end of March 2001, so $x=0$ represents the end of March 2001. This is before any six-month periods have passed. The graph starts with $250$ subscribers then. The answer is <strong>B</strong>."
+    }
+  ]
+}

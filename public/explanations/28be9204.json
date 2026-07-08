@@ -1,0 +1,19 @@
+{
+  "questionId": "28be9204",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the square side",
+      "content": "For a square with side length $s$, the diagonal is $s\\sqrt{2}$. Since the diagonal is $204$,\n$$\n204=s\\sqrt{2}\n$$\n$$\ns=\\frac{204}{\\sqrt{2}}=102\\sqrt{2}\n$$"
+    },
+    {
+      "title": "Find the circle radius",
+      "content": "An inscribed circle has diameter equal to the square's side length, so the radius is half the side length:\n$$\nr=\\frac{102\\sqrt{2}}{2}=51\\sqrt{2}\n$$"
+    },
+    {
+      "title": "Calculate the area",
+      "content": "Use $A=\\pi r^2$:\n$$\nA=\\pi(51\\sqrt{2})^2=\\pi(2{,}601)(2)=5{,}202\\pi\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

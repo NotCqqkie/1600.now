@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the tense signal already in the sentence",
-      "content": "The sentence gives a parallel example before the blank: &quot;the exiled character of B&igrave;nh <strong>connects</strong> to his native Saigon through the food he prepares.&quot; Both &quot;connects&quot; and &quot;prepares&quot; are simple present tense. The blank must use the same tense to describe what Linda does in <em>Bitter in the Mouth</em>.<ul><li><strong>Choice A &mdash; experienced</strong>: Simple past — mismatches the present-tense pattern. &#10007;</li><li><strong>Choice B &mdash; had experienced</strong>: Past perfect — mismatches the present-tense pattern. &#10007;</li><li><strong>Choice C &mdash; experiences</strong>: Simple present — matches &quot;connects&quot; and &quot;prepares.&quot; &#10003;</li><li><strong>Choice D &mdash; will be experiencing</strong>: Future progressive — mismatches the present-tense pattern. &#10007;</li></ul>"
+      "title": "Keep the literary present",
+      "content": "The sentence describes what characters do in novels, so it uses present tense: Bình 'connects' to Saigon, and Linda should also be described in present tense."
     },
     {
-      "title": "Confirm tense consistency",
-      "content": "Literary present tense is standard when describing what characters do in novels. The passage establishes this tense with &quot;connects&quot; and &quot;prepares,&quot; so the blank must also be simple present. &quot;Experiences&quot; is the only option that fits. That matches <strong>Choice C &mdash; experiences</strong>."
+      "title": "Reject tense shifts",
+      "content": "Choice A shifts to simple past. Choice B uses past perfect, which would place Linda's experience before another past event. Choice D uses future progressive, which does not fit a description of a novel's events. The answer is <strong>C</strong>."
     }
   ]
 }

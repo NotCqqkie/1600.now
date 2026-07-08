@@ -1,0 +1,15 @@
+{
+  "questionId": "4ccfea67",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the sequence",
+      "content": "The passage describes a process in order. First, water seeps through channels; after the blank, magma heats the water; finally, pressure forces water out of the ground. The transition must move from the first step to the following step."
+    },
+    {
+      "title": "Select the next step",
+      "content": "A signals similarity, B signals contrast, and C repeats the opening sequence marker even though the first step has already happened. The needed transition shows the process advancing to the second stage. The answer is <strong>D</strong>."
+    }
+  ]
+}

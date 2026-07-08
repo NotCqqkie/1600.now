@@ -1,0 +1,15 @@
+{
+  "questionId": "9a712342",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the transition relationship",
+      "content": "The first sentence broadly says Srinivasan has worked at JPL. The second sentence gives the particular JPL role she held: data scientist on the Mars 2020 Perseverance rover team. The transition should signal a move from general statement to specific detail."
+    },
+    {
+      "title": "Choose the specifying transition",
+      "content": "Choice B signals contrast, but the rover role does not oppose the first sentence. Choice C signals the end of a sequence, but no sequence is being listed. Choice D signals concession, but there is no obstacle or reversal. <em>Specifically</em> introduces the precise detail. The answer is <strong>A</strong>."
+    }
+  ]
+}

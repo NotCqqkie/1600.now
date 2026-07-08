@@ -1,0 +1,15 @@
+{
+  "questionId": "bfe2fb93",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the function output",
+      "content": "The problem says $s(t)$ gives the approximate mass, in grams, that remains after $t$ years. So $s(t)$ is remaining mass, not mass lost."
+    },
+    {
+      "title": "Interpret the input and output",
+      "content": "In $s(62)=36$, the input $62$ means $62$ years after decay begins, and the output $36$ means $36$ grams remain. Therefore, the statement must say that about $36$ grams remain after $62$ years. The answer is <strong>A</strong>."
+    }
+  ]
+}

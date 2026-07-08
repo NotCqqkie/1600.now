@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Subtract $72x$ from both sides of $72x = 72x$ to get $0 = 0$."
+      "title": "Simplify the equation",
+      "content": "Subtract $72x$ from both sides of the equation:<br/>$$72x=72x$$<br/>$$0=0$$"
     },
     {
-      "title": "Step 2",
-      "content": "The statement $0 = 0$ is true for every value of $x$ with no restriction, so the equation is satisfied by all real numbers."
+      "title": "Interpret the result",
+      "content": "The statement $0=0$ is always true. That means every value of $x$ satisfies the original equation, with no restriction on $x$."
     },
     {
-      "title": "Step 3",
-      "content": "Test all four choices: <ul><li><strong>Choice A &mdash; &lsquo;Exactly one&rsquo;</strong>: Exactly one solution means a unique value of $x$ satisfies the equation. Here every $x$ works, not just one. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Exactly two&rsquo;</strong>: A linear equation can never have exactly two solutions. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Infinitely many&rsquo;</strong>: Since $72x = 72x$ simplifies to $0 = 0$, which is always true, every real number is a solution. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Zero&rsquo;</strong>: Zero solutions requires a contradiction such as $0 = 5$. Here we get $0 = 0$, which is not a contradiction. &#10007;</li></ul>"
-    },
-    {
-      "title": "Step 4",
-      "content": "That confirms <strong>C</strong> is correct."
+      "title": "Match the number of solutions",
+      "content": "Exactly one and exactly two are too few because every value works. Zero solutions would require a contradiction, such as $0=5$. This equation has infinitely many solutions. The answer is <strong>C</strong>."
     }
   ]
 }

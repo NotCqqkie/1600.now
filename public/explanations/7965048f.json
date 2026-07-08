@@ -1,0 +1,19 @@
+{
+  "questionId": "7965048f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the center",
+      "content": "The points $(12,10)$ and $(12,4)$ are vertically aligned, so their midpoint is\n$$\n(12,\\frac{10+4}{2})=(12,7)\n$$\nThe point $(9,7)$ is the same distance from this midpoint, so the center is $(12,7)$."
+    },
+    {
+      "title": "Find the radius",
+      "content": "The distance from $(12,7)$ to $(12,10)$ is\n$$\n10-7=3\n$$\nSo the radius is $3$."
+    },
+    {
+      "title": "Compute the circumference",
+      "content": "Use the circumference formula.\n$$\nC=2\\pi r=2\\pi(3)=6\\pi\n$$\nSince $C=k\\pi$, $k=6$. The answer is <strong>B</strong>."
+    }
+  ]
+}

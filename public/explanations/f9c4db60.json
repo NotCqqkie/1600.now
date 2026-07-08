@@ -1,0 +1,19 @@
+{
+  "questionId": "f9c4db60",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Divide both sides by $8$:\n$$\n|x-8|=6\n$$"
+    },
+    {
+      "title": "Find both solutions",
+      "content": "The expression inside the absolute value can be $6$ or $-6$:\n$$\nx-8=6\n$$\n$$\nx=14\n$$\n$$\nx-8=-6\n$$\n$$\nx=2\n$$"
+    },
+    {
+      "title": "Add the solutions",
+      "content": "$$\n14+2=16\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

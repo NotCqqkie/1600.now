@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Notice the contrast in distances between the examples",
-      "content": "The two ultramarathons are 37.3 miles and 261 miles—far apart on the length spectrum. This dramatic range signals what the generalization should address."
+      "title": "Find the requested goal",
+      "content": "The student wants a generalization about ultramarathons, so the sentence should make a broad statement about the category rather than simply list or compare individual races."
     },
     {
-      "title": "Find the choice that generalizes from this range",
-      "content": "Choice C (&lsquo;Ultramarathons range widely in length, from a few dozen miles to a few hundred.&rsquo;) does exactly this: <em>Ultramarathons range widely in length, from a few dozen miles to a few hundred</em>—it uses the two specific examples to support a broad statement about the category.<br/><br/>The others don't generalize: <ul><li>A just lists examples</li><li>B contrasts ultras with marathons rather than characterizing the ultramarathon category</li><li>D highlights duration instead of length</li></ul><br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Generalize from both examples",
+      "content": "The notes show one ultramarathon that is 37.3 miles and another that is 261 miles, supporting the broad claim that ultramarathons vary widely in length. A only lists examples, B compares one ultramarathon with a marathon, and D contrasts race duration rather than length. The answer is <strong>C</strong>."
     }
   ]
 }

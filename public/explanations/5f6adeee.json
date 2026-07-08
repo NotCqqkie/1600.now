@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what evidence would support the claim",
-      "content": "The researchers claim jaguars in the Pantanal can survive on <strong>more fish and aquatic reptiles than mammals</strong>. To directly support this claim, we need evidence showing what jaguars are <em>actually eating</em>."
+      "title": "Find direct diet evidence",
+      "content": "The researchers claim that the Pantanal jaguars can survive on more fish and aquatic reptiles than mammals. The strongest support would show what the jaguars actually ate, not merely what prey was available."
     },
     {
-      "title": "Match the evidence to the claim",
-      "content": "The correct option provides direct evidence: analysis of jaguar waste shows aquatic prey remains were <strong>detected more often than mammal remains</strong>, directly proving the claimed diet.<br/><br/>The other three don't directly prove jaguars consume more aquatic prey: <ul><li>B shows only prey availability</li><li>C explains nutritional benefits without demonstrating consumption</li><li>D indicates jaguars still eat mammals</li></ul><br/><br/><strong>A</strong> is correct."
+      "title": "Reject indirect support",
+      "content": "B shows only that aquatic reptiles were abundant, C gives a nutritional fact, and D still focuses on mammal prey. The remaining finding uses waste-matter evidence to show aquatic prey remains appeared more often than mammal remains. The answer is <strong>A</strong>."
     }
   ]
 }

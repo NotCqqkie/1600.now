@@ -1,0 +1,15 @@
+{
+  "questionId": "16592c36",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the size detail",
+      "content": "The student's goal is to indicate the size of the Kohana Marsh NWR. The only note that gives a size is that the refuge encompasses 61 acres, so the sentence must include that measurement."
+    },
+    {
+      "title": "Exclude unrelated facts",
+      "content": "B focuses on management and activity limits, C focuses on the Hawaiian stilt, and D combines the species with the management agency. None of those states the refuge's size. The answer is <strong>A</strong>."
+    }
+  ]
+}

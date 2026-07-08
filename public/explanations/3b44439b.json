@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the angle relationship at the intersection",
-      "content": "Transversal $t$ intersects line $q$, creating angles on either side of the intersection point.<br/><br/>The angle labeled $x^{\\circ}$ is on the left side of the transversal, and the angle labeled $142^{\\circ}$ is on the right side—both positioned along the straight line $q$.<br/><br/>These two angles form a <strong>linear pair</strong>."
+      "title": "Use the straight angle",
+      "content": "The angle labeled $x^\\circ$ and the angle labeled $142^\\circ$ form a linear pair on a straight line. Linear pairs are supplementary."
     },
     {
-      "title": "Apply the linear pair property",
-      "content": "Angles that form a linear pair are adjacent angles along a straight line, so they are supplementary and sum to $180^{\\circ}$:<br/>$$x + 142 = 180$$<br/><strong>D</strong> is correct."
+      "title": "Use the requested sum",
+      "content": "Supplementary angles add to $180^\\circ$.\n$$\nx+142=180\n$$\nThe question asks for this sum directly. The answer is <strong>D</strong>."
     }
   ]
 }

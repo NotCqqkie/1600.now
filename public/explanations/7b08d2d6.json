@@ -1,0 +1,15 @@
+{
+  "questionId": "7b08d2d6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Split the absolute value",
+      "content": "The equation $|x-7|=10$ means the expression inside the absolute value is $10$ units from $0$:<br/>$$x-7=10\\quad \\text{or}\\quad x-7=-10$$"
+    },
+    {
+      "title": "Add the two solutions",
+      "content": "Solve and add the two values:<br/>$$x=17\\quad \\text{or}\\quad x=-3$$<br/>$$17+(-3)=14$$The answer is <strong>B</strong>."
+    }
+  ]
+}

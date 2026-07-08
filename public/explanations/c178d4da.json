@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the weighted means",
-      "content": "Each mean is found by multiplying each value by its frequency, adding those products, and dividing by the total number of values. Both data sets have $2+4+5+7+9=27$ values, so compare the weighted sums before dividing by $27$."
+      "title": "Compare weighted sums",
+      "content": "Both data sets have $27$ values, so comparing their means is the same as comparing their weighted sums."
     },
     {
-      "title": "Compute data set A by hand",
-      "content": "The weighted sum for data set A is $$30(2)+34(4)+38(5)+42(7)+46(9)=60+136+190+294+414=1{,}094.$$ Since data set A has $27$ values, $$\\mu_A=\\frac{1{,}094}{27}\\approx40.52.$$"
+      "title": "Compute data set totals",
+      "content": "For data set A,\n+$$30(2)+34(4)+38(5)+42(7)+46(9)=1{,}094$$\n+For data set B,\n+$$30(9)+34(7)+38(5)+42(4)+46(2)=958$$"
     },
     {
-      "title": "Compute data set B by hand",
-      "content": "The weighted sum for data set B is $$30(9)+34(7)+38(5)+42(4)+46(2)=270+238+190+168+92=958.$$ Since data set B also has $27$ values, $$\\mu_B=\\frac{958}{27}\\approx35.48.$$"
-    },
-    {
-      "title": "Compare the means and select the correct choice",
-      "content": "Both data sets have the same number of values, so comparing means is the same as comparing their weighted sums. Since $1{,}094\\gt958$, data set A has the greater mean. That matches <strong>A</strong>."
+      "title": "Choose the greater mean",
+      "content": "Since both sums are divided by the same total, $27$, the larger weighted sum gives the larger mean. Because $1{,}094>958$, data set A has the greater mean. The answer is <strong>A</strong>."
     }
   ]
 }

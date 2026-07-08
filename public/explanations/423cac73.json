@@ -1,0 +1,15 @@
+{
+  "questionId": "423cac73",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the two expressions",
+      "content": "The target expression is $4x$, and the given expression is $2x$. Since<br/>$$4x=2(2x)$$<br/>double the given value."
+    },
+    {
+      "title": "Compute the target value",
+      "content": "Use $2x=12$. Then<br/>$$4x=2(12)=24$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

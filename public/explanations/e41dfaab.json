@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must mean",
-      "content": "The sentence says historians were unable to ______ the authenticity of the letters and dismissed them as a hoax. If historians dismissed the letters as a hoax, it is because they could not confirm those letters were genuine. The blank needs a word meaning \"confirm as authentic.\""
+      "title": "Use hoax as the clue",
+      "content": "The letters were only allegedly exchanged by Lincoln and Hastings, and historians quickly dismissed them as a hoax. The blank must mean confirm that the letters were authentic, because failing to confirm authenticity explains why historians rejected them as fraudulent."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"validate\"</strong>: means to confirm or verify as genuine. If historians could not validate authenticity, dismissing the letters as a hoax follows logically. &#10003;</li><li><strong>\"interpret\"</strong>: means to explain or make sense of. Failing to interpret authenticity does not logically lead to calling something a hoax &mdash; misuse of word meaning. &#10007;</li><li><strong>\"relate\"</strong>: means to tell or narrate to others. Historians not being able to relate the letters' authenticity is incoherent in context &mdash; the text says they shared their conclusion freely. &#10007;</li><li><strong>\"accommodate\"</strong>: means to give consideration to or make room for. Historians actively considered authenticity and rejected it, so \"unable to accommodate\" contradicts the passage. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject unrelated actions",
+      "content": "Choice B, <strong>interpret</strong>, means explain or make sense of something, but the sentence is about authenticity. Choice C, <strong>relate</strong>, can mean tell or connect, which does not fit confirming whether letters are genuine. Choice D, <strong>accommodate</strong>, means make room for or consider, but the historians did consider the letters and rejected them. The word that means confirm as real or genuine is <strong>validate</strong>. The answer is <strong>A</strong>."
     }
   ]
 }

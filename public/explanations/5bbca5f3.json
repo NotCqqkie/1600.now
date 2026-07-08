@@ -1,0 +1,15 @@
+{
+  "questionId": "5bbca5f3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate at the intercept",
+      "content": "The $y$-intercept occurs when $x=0$.<br/>$$y=600(2)^{2(0)}$$<br/>$$y=600(2)^0$$<br/>$$y=600$$"
+    },
+    {
+      "title": "Connect it to the context",
+      "content": "The variable $x$ counts six-month periods starting from the end of March 1998, so $x=0$ represents the end of March 1998. The intercept represents $600$ subscribers at that time. The answer is <strong>B</strong>."
+    }
+  ]
+}

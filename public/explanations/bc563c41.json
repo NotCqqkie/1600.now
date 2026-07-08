@@ -1,0 +1,15 @@
+{
+  "questionId": "bc563c41",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The blank is the subject of will begin to combust. It refers back to the substance, cottonseed oil, which is singular and nonhuman, so the sentence needs a singular nonhuman pronoun."
+    },
+    {
+      "title": "Reject pronoun errors",
+      "content": "A and C are plural, so they do not agree with cottonseed oil. B is not the standalone personal pronoun needed as the subject of this clause. The remaining pronoun agrees with the singular nonhuman antecedent. The answer is <strong>D</strong>."
+    }
+  ]
+}

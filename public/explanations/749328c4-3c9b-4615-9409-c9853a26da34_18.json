@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the modifier",
-      "content": "The opening phrase <em>\"A politician from South Carolina,\"</em> is a descriptive modifier. The word right after the comma must be the <strong>person</strong> being described — Elliott. Anything else creates a misplaced modifier."
+      "title": "Place the modifier correctly",
+      "content": "The opening phrase <em>A politician from South Carolina</em> describes Robert B. Elliott. The noun immediately after the comma must therefore be Elliott, the person being modified."
     },
     {
-      "title": "Apply the rule",
-      "content": "Only the credited option puts <em>Elliott</em> immediately after the comma: <em>\"A politician from South Carolina, Elliott was elected...\"</em><br/><br/> starts with \"was the year,\" starts with \"constituents,\" and starts with \"in 1870\" — none of these is Elliott.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject misplaced subjects",
+      "content": "Choice B begins with <em>was the year</em>, which cannot be the politician. Choice C begins with <em>constituents</em>, not Elliott. Choice D begins with a date phrase and delays the person being described. The answer is <strong>A</strong>."
     }
   ]
 }

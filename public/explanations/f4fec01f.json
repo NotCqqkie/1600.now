@@ -1,0 +1,15 @@
+{
+  "questionId": "f4fec01f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare one lake across years",
+      "content": "The claim is about a decline in ice duration between the early 1980s and mid-2000s, so the best data compare the same lake in 1980-81 and 2005-06."
+    },
+    {
+      "title": "Eliminate choices comparing wrong items",
+      "content": "Choice B and Choice C compare Kalmarinjarvi with Mirror Lake, so they do not directly show decline for one lake over time. Choice D shows a gain in Lake Neusiedl between the two periods, not a decline. Choice A directly states fewer ice days for Kalmarinjarvi in 2005-06 than in 1980-81. The answer is <strong>A</strong>."
+    }
+  ]
+}

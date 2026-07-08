@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Read the actual point",
-      "content": "At $x=1$, the plotted data point is about $(1,12)$. That is the actual $y$-value."
+      "content": "At $x=1$, the plotted data point has a $y$-coordinate of about $12$."
     },
     {
       "title": "Read the predicted value",
-      "content": "For the predicted value, use the line of best fit at the same $x$-value. At $x=1$, the line is about $y=11$."
+      "content": "At $x=1$, the line of best fit gives a predicted $y$-value of about $11$."
     },
     {
-      "title": "Compare actual and predicted",
-      "content": "The difference is about $12-11=1$, so <strong>Choice A &mdash; 1</strong>."
+      "title": "Find the difference",
+      "content": "Subtract the predicted value from the actual value:<br/>$$12-11=1$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "bc0ce6c9",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read Text 2's critique",
+      "content": "Text 2 says entrepreneurial training studies often report positive results, but it criticizes their methods. The example is Bergman's tiny sample of 19 students, which makes it hard to know whether the training truly caused an effect. That uncertainty is the point of Text 2's likely answer."
+    },
+    {
+      "title": "Answer from the critique",
+      "content": "A claims negative results are just as frequent, which Text 2 never says. C concludes most programs fail, and D blames variation in the programs themselves. Text 2 instead says flawed study designs prevent firm conclusions. The answer is <strong>B</strong>."
+    }
+  ]
+}

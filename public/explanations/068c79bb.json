@@ -1,0 +1,15 @@
+{
+  "questionId": "068c79bb",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use zero for the intercept",
+      "content": "The $y$-intercept happens when $x=0$. Substitute $0$ into the function:<br/>$$f(0)=(-6)(5)^0+29$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Since $5^0=1$:<br/>$$f(0)=(-6)(1)+29=23$$<br/>The intercept is $(0,23)$. Choice A is $(0,23)$; the other choices use either the base, vertical shift, or coefficient instead. The answer is <strong>A</strong>."
+    }
+  ]
+}

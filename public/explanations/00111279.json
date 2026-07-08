@@ -1,0 +1,15 @@
+{
+  "questionId": "00111279",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the narrative frame",
+      "content": "The sentence recounts past events after Rahman devised a technique in 1987. It later says he \"would become known\" as the father of femtochemistry, so the blank should use the same past-future construction for a later consequence."
+    },
+    {
+      "title": "Keep the tense parallel",
+      "content": "A uses present tense, C uses future tense, and D uses past perfect without a supported earlier reference point. The parallel construction describes what later happened from the past narrative viewpoint. The answer is <strong>B</strong>."
+    }
+  ]
+}

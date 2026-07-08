@@ -1,0 +1,15 @@
+{
+  "questionId": "ea7fc88e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the y term",
+      "content": "Rewrite the equation so $y$ is by itself:<br/>$$42x-6y=-28$$<br/>$$-6y=-42x-28$$"
+    },
+    {
+      "title": "Read the slope",
+      "content": "Divide every term by $-6$:<br/>$$y=7x+\\frac{14}{3}$$In slope-intercept form, the slope is the coefficient of $x$, which is $7$. The answer is <strong>D</strong>."
+    }
+  ]
+}

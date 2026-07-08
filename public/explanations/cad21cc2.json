@@ -1,0 +1,15 @@
+{
+  "questionId": "cad21cc2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the two equations",
+      "content": "The target expression is exactly the sum of the left sides of the two given equations.\n$$(x+2y)+(5x+y)=6x+3y$$"
+    },
+    {
+      "title": "Add the constants",
+      "content": "Add the right sides the same way.\n$$18+5=23$$\nTherefore, $6x+3y=23$. The answer is <strong>C</strong>."
+    }
+  ]
+}

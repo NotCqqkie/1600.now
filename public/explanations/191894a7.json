@@ -1,0 +1,15 @@
+{
+  "questionId": "191894a7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Concede before the contrast",
+      "content": "The sentence acknowledges that increasingly precise coordinates became available over time, then contrasts that with the prime meridian staying unchanged for decades. The transition must signal concession before the <em>yet</em> contrast."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "<strong>Choice A</strong> signals a specific detail. <strong>Choice B</strong> emphasizes repetition, not concession. <strong>Choice D</strong> signals purpose, but the passage says the meridian did not move despite better data. The answer is <strong>C</strong>."
+    }
+  ]
+}

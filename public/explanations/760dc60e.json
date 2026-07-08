@@ -1,0 +1,15 @@
+{
+  "questionId": "760dc60e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the spend pattern",
+      "content": "The sentence uses the pattern spent time doing something: the rover spent over fourteen years collecting data. The blank should therefore be a present participle that completes that phrase."
+    },
+    {
+      "title": "Reject verb-form mismatches",
+      "content": "Choice A adds a finite verb after spent, which breaks the sentence. Choice C also uses a finite verb and does not agree with rover. Choice D uses a past participle where the doing form is needed. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "questionId": "13fdc8a4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize complementary angles",
+      "content": "Triangle $MNP$ is a right triangle with acute angles $N=64^\\circ$ and $P=26^\\circ$. These angles are complementary because<br/>$$64^\\circ+26^\\circ=90^\\circ$$"
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "For complementary angles, the cosine of one angle equals the sine of the other:<br/>$$\\cos P=\\sin N$$The answer is <strong>B</strong>.",
+      "formula": "$$\\cos(90^\\circ - N) = \\sin N$$"
+    }
+  ]
+}

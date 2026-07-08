@@ -1,0 +1,19 @@
+{
+  "questionId": "58ada7c8",
+  "correctAnswer": "20.6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find pasture percentage",
+      "content": "If $54.0\\%$ of the plot is farmland, the remaining pasture is\n$$\n100\\%-54.0\\%=46.0\\%\n$$"
+    },
+    {
+      "title": "Compute building percentages",
+      "content": "Find each building share as a percent of the whole plot:\n$$\n0.275(54.0)=14.85\n$$\nand\n$$\n0.125(46.0)=5.75\n$$"
+    },
+    {
+      "title": "Add the two parts",
+      "content": "The total building percentage is\n$$\n14.85+5.75=20.6\n$$\nThe answer is <strong>20.6</strong>."
+    }
+  ]
+}

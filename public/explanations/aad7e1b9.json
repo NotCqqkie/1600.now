@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 0 to find the y-intercept",
-      "content": "The y-intercept occurs where the graph crosses the y-axis, which happens at $x = 0$. Substitute this into the function: $$f(0) = \\frac{1}{8}(0) - 5 = -5$$"
+      "title": "Use x equals zero",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, so $x=0$."
     },
     {
-      "title": "Identify the y-intercept point and select the answer",
-      "content": "The y-intercept is the point with coordinates $(0, -5)$. That is the correct answer."
+      "title": "Find the intercept point",
+      "content": "Substitute $0$ into the function.<br/>$$f(0)=\\frac{1}{8}(0)-5=-5$$<br/>The $y$-intercept is $(0,-5)$. The answer is <strong>B</strong>."
     }
   ]
 }

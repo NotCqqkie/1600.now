@@ -1,0 +1,19 @@
+{
+  "questionId": "ef765bc4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial amount",
+      "content": "The table starts at $867$, so the initial amount in the account is $867$ dollars."
+    },
+    {
+      "title": "Use the growth multiplier",
+      "content": "The values increase by $0.4\\%$ each year. A $0.4\\%$ increase means multiplying by $1+0.004$ each year."
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "Using $t$ for years and $n$ for dollars, the model is $$n=867(1+0.004)^t$$The answer is <strong>B</strong>."
+    }
+  ]
+}

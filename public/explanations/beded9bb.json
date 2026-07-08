@@ -1,0 +1,15 @@
+{
+  "questionId": "beded9bb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the proxy claim",
+      "content": "The hypothesis is that Ag-NP bioaccumulation in woodlice could stand in for costly sampling of vertebrates such as African clawed frogs. For that proxy to work, woodlouse measurements must predict frog measurements."
+    },
+    {
+      "title": "Find what breaks the proxy",
+      "content": "A concerns other nanoparticles, not whether Ag-NP data can substitute for frog data. B would make woodlice more attractive for testing. D suggests stable measurements within each species. A finding that woodlouse concentrations do not predict frog concentrations directly weakens the proxy idea. The answer is <strong>C</strong>."
+    }
+  ]
+}

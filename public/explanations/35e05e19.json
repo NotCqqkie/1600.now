@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the width from the length",
-      "content": "The box's base length is x inches. It is 2 inches more than the width, so width = x - 2 inches."
+      "title": "Express the width",
+      "content": "Length is $x$, which is $2$ more than the width. So the width is\n$$\nx-2\n$$"
     },
     {
-      "title": "Compute the volume using the prism formula",
-      "content": "$$V = 14 \\cdot x \\cdot (x - 2) = 14x(x - 2)$$<br/><strong>A</strong> is correct."
+      "title": "Build the volume function",
+      "content": "Volume is length times width times height:\n$$\nV(x)=x(x-2)(14)=14x(x-2)\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

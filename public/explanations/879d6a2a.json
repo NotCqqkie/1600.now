@@ -1,0 +1,15 @@
+{
+  "questionId": "879d6a2a",
+  "correctAnswer": "16000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the doublings",
+      "content": "From $1705$ to $1985$ is\n$$\n1985-1705=280\n$$\nWith one doubling every $70$ years, the population doubled\n$$\n\\frac{280}{70}=4\n$$\ntimes."
+    },
+    {
+      "title": "Work backward",
+      "content": "Let $P$ be the population in $1705$. After $4$ doublings,\n$$\n16P=256{,}000\n$$\nso\n$$\nP=\\frac{256{,}000}{16}=16{,}000\n$$\nThe answer is <strong>16000</strong>."
+    }
+  ]
+}

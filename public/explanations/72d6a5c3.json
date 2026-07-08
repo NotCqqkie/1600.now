@@ -1,0 +1,15 @@
+{
+  "questionId": "72d6a5c3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the perimeter",
+      "content": "Let the third side length be $x$. The perimeter is the sum of the three side lengths.\n$$7+10+x=31$$"
+    },
+    {
+      "title": "Solve for the side",
+      "content": "Subtract the known side lengths from the perimeter.\n$$x=31-7-10$$\n$$x=14$$\nThis length also fits the description: $7+10>14$, and the longest side makes the triangle obtuse because $14^2>7^2+10^2$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence ends a complete independent clause and then introduces a list of exoplanets separated by semicolons. The blank needs punctuation that correctly links the clause to the list."
+      "title": "Introduce the exoplanet list",
+      "content": "The sentence moves from a complete setup about exoplanets at vast distances from Earth into a semicolon-separated list of examples. The punctuation must signal that the examples are being introduced."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Earth, at 41 light-years away,</strong>: A comma cannot introduce a list that uses semicolons as separators; it also wrongly attaches the distance phrase to &apos;Earth.&apos; &#10007;</li><li><strong>Choice B &mdash; Earth: at 41 light-years away,</strong>: A colon correctly introduces a list after an independent clause. The first item, &apos;at 41 light-years away, the super Earth TRAPPIST-1 b,&apos; then parallels the semicolon-separated items that follow. &#10003;</li><li><strong>Choice C &mdash; Earth at 41 light-years away:</strong>: Placing the punctuation in the wrong position breaks the clause-to-list relationship. &#10007;</li><li><strong>Choice D &mdash; Earth at 41 light-years away,</strong>: Same problem as A &mdash; a comma does not introduce a semicolon-separated list and incorrectly attaches the distance phrase. &#10007;</li></ul>That is the correct answer."
+      "title": "Place the list marker",
+      "content": "A and D use comma punctuation where the sentence needs a stronger list marker. C interrupts the phrase around Earth with commas. The colon after the introductory distance phrase sets up the examples that follow. The answer is <strong>B</strong>."
     }
   ]
 }

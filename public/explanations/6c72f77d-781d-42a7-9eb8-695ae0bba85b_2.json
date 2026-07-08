@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The table gives $(x, f(x))$ pairs where $x$ is roof area in square feet and $f(x)$ is gallons drained. The question asks which linear equation matches all rows. The constant of proportionality $k$ in $f(x) = kx$ equals $f(x)/x$ for any row."
+      "title": "Use the constant ratio",
+      "content": "The equation choices are all of the form $f(x)=kx$. For a proportional relationship, $k$ is the ratio<br/>$$\\frac{f(x)}{x}$$<br/>from any row of the table."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$f(x)=0.6x$&rsquo;</strong>: ratio $= 0.6$. The table gives a ratio of $1.8$ for every row. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$f(x)=1.8x$&rsquo;</strong>: ratio $= 1.8$. Matches every row in the table. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$f(x)=2,268.0x$&rsquo;</strong>: ratio is far too large &mdash; this would give thousands of gallons per square foot. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$f(x)=0.56x$&rsquo;</strong>: ratio $= 0.56$. Does not match the table. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Match the table ratio",
+      "content": "The table shows the same ratio for each row:<br/>$$\\frac{f(x)}{x}=1.8$$<br/>So the equation is $f(x)=1.8x$. The answer is <strong>B</strong>."
     }
   ]
 }

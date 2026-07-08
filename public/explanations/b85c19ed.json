@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent",
-      "content": "The blank is the direct object of <em>making</em> in &ldquo;making ______ lighter overall.&rdquo; The two actions Stradivari performed are flattening the instrument&rsquo;s curves and making [something] lighter. Since the first action targets the curves, the second must target the violin itself &mdash; &ldquo;a traditional violin&rdquo; is the antecedent."
+      "title": "Find the antecedent",
+      "content": "The sentence says Stradivari changed the shape of a traditional violin by flattening some curves and making the instrument lighter overall. The pronoun in the blank refers to \"a traditional violin,\" which is singular."
     },
     {
-      "title": "Choose the pronoun that agrees in number",
-      "content": "The antecedent &ldquo;a traditional violin&rdquo; is singular, so the pronoun must be singular.\n<ul>\n<li><strong>Choice A &mdash; those</strong>: plural pronoun; does not agree with the singular antecedent &ldquo;violin.&rdquo; &#10007;</li>\n<li><strong>Choice B &mdash; one</strong>: singular but ambiguous here; it leaves unclear what was made lighter. &#10007;</li>\n<li><strong>Choice C &mdash; them</strong>: plural pronoun; does not agree with the singular antecedent &ldquo;violin.&rdquo; &#10007;</li>\n<li><strong>Choice D &mdash; it</strong>: singular pronoun that unambiguously refers back to &ldquo;a traditional violin,&rdquo; satisfying pronoun-antecedent agreement. &#10003;</li>\n</ul>\nThat is the correct answer."
+      "title": "Choose singular agreement",
+      "content": "A and C are plural pronouns, so they do not agree with the singular antecedent. B is singular but awkward and unclear in this context. A singular pronoun that clearly refers to the traditional violin is required. The answer is <strong>D</strong>."
     }
   ]
 }

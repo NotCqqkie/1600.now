@@ -1,0 +1,15 @@
+{
+  "questionId": "8589d91b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on within-lake uniformity",
+      "content": "The passage explains why isotope abundance and activity ratios matter for sampling: if values are not uniform across one body of water, localized samples may be unreliable. Park et al. tested that concern by measuring U-238 concentration and the U-234/U-238 activity ratio at multiple depths and locations in two lakes. Their key finding was not a difference between the lakes, but no significant variation in values within the same lake."
+    },
+    {
+      "title": "Keep the inference local",
+      "content": "Choice A turns the background concern into a broad recommendation for all scientists, not a conclusion from Park et al.'s specific lakes. Choice B misreads the result as consistency across different lakes, while the text emphasizes consistency within each lake. Choice D adds unsupported claims about the number of samples and about equal reliability for sediment transport and groundwater-quality research. Since values from multiple locations and depths within each studied lake were consistent, a localized sample from one of those lakes would likely represent the whole lake. The answer is <strong>C</strong>."
+    }
+  ]
+}

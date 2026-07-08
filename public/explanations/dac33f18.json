@@ -1,0 +1,15 @@
+{
+  "questionId": "dac33f18",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the consequence",
+      "content": "The first sentence says natural selection was an obvious next step given the ideas circulating among British scientists. The next sentence explains that Darwin and Wallace arriving at the concept independently may not have been a coincidence. The transition should signal that this follows from the first idea."
+    },
+    {
+      "title": "Remove illogical signals",
+      "content": "<ul><li><strong>Choice A</strong>: \"However\" signals contrast, but the second sentence follows logically from the first.</li><li><strong>Choice C</strong>: \"Moreover\" merely adds information and misses the cause-effect relationship.</li><li><strong>Choice D</strong>: \"For example\" treats the independent discoveries as an illustration rather than a consequence.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

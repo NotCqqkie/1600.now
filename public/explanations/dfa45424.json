@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Attach each cost to its variable",
-      "content": "$g$ is the number of 10-ride passes, and each costs $13.50$, so that cost is $13.50g$. $t$ is the number of single-ride passes, and each costs $1.75$, so that cost is $1.75t$."
+      "content": "A 10-ride pass costs $13.50$, and $g$ is the number of 10-ride passes, so that cost is $13.50g$. A single-ride pass costs $1.75$, and $t$ is the number of single-ride passes, so that cost is $1.75t$."
     },
     {
       "title": "Set the monthly total",
-      "content": "Riley spends $90$ total, so $13.50g+1.75t=90$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "This equation matches the correct answer, <strong>D</strong>. $1.75g + 13.50t = 90$ reverses the two pass costs."
+      "content": "Riley spends $90$ total, so the pass costs must add to $90$:<br/>$$13.50g+1.75t=90$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "f31b3eb9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a modifier, not a clause",
+      "content": "The opening phrase modifies the subject it in the main clause. Before that main clause, the sentence needs a nonfinite participial phrase, not a separate finite verb."
+    },
+    {
+      "title": "Reject finite verbs",
+      "content": "<ul><li><strong>Choice A</strong> uses a finite present-tense verb without a subject in the opening phrase.</li><li><strong>Choice B</strong> uses a finite past-perfect verb in the same ungrammatical position.</li><li><strong>Choice D</strong> uses a finite past-tense verb before the main clause.</li></ul>"
+    },
+    {
+      "title": "Use the participle",
+      "content": "Written forms the participial phrase Originally written in ancient Greek, which correctly modifies the poem before the main clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

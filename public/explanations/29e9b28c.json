@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the triangle perimeter",
-      "content": "The perimeter of a triangle is the sum of its three side lengths. Here, the side lengths are $x$, $y$, and $z$, and the perimeter is $22$ units."
+      "title": "Set up the perimeter",
+      "content": "The perimeter is the sum of the three side lengths:\n$$\nx+y+z=22\n$$"
     },
     {
-      "title": "Set up the perimeter equation",
-      "content": "The perimeter of a triangle is the sum of all three sides. With the given information: $$x + y + z = 22$$ Substitute $x = 9$ and $y = 7$: $$9 + 7 + z = 22$$ $$16 + z = 22$$"
+      "title": "Substitute the side lengths",
+      "content": "Use $x=9$ and $y=7$:\n$$\n9+7+z=22\n$$\n$$\n16+z=22\n$$"
     },
     {
       "title": "Solve for z",
-      "content": "Subtract 16 from both sides: $$z = 22 - 16 = 6$$ That matches <strong>Choice A &mdash; $6$</strong>."
+      "content": "Subtract $16$ from both sides:\n$$\nz=22-16=6\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

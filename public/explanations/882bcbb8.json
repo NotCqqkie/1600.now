@@ -1,0 +1,23 @@
+{
+  "questionId": "882bcbb8",
+  "correctAnswer": "158",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the interior angle",
+      "content": "In the figure, $U$, $V$, and $R$ are collinear. Since angle RVS measures $34^\\circ$, the adjacent interior angle at $V$ in triangle $UVS$ is\n$$\n180^\\circ-34^\\circ=146^\\circ\n$$"
+    },
+    {
+      "title": "Find the angle at U",
+      "content": "Triangle $UVS$ has angles $146^\\circ$ at $V$ and $23^\\circ$ at $S$, so the angle at $U$ is\n$$\n180^\\circ-146^\\circ-23^\\circ=11^\\circ\n$$\nThis is also angle TUR."
+    },
+    {
+      "title": "Use the isosceles triangle",
+      "content": "Because $RT=TU$, triangle $TRU$ is isosceles. Its base angles at $R$ and $U$ are equal, so both base angles are $11^\\circ$."
+    },
+    {
+      "title": "Calculate the vertex angle",
+      "content": "The marked angle is the vertex angle of triangle $TRU$:\n$$\nx=180^\\circ-11^\\circ-11^\\circ=158^\\circ\n$$\nThe answer is <strong>158</strong>."
+    }
+  ]
+}

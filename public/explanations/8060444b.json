@@ -1,0 +1,16 @@
+{
+  "questionId": "8060444b",
+  "correctAnswer": "98",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle sum",
+      "formula": "$$\\text{Sum of angles in a triangle} = 180^{\\circ}$$",
+      "content": "The interior angles of a triangle add to $180^\\circ$. In triangle $PQR$, the other two angles each measure $41^\\circ$."
+    },
+    {
+      "title": "Subtract the known angles",
+      "content": "Find the remaining angle measure.<br/>$$P=180^\\circ-41^\\circ-41^\\circ=98^\\circ$$<br/>The answer is <strong>98</strong>."
+    }
+  ]
+}

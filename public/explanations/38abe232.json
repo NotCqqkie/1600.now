@@ -1,0 +1,15 @@
+{
+  "questionId": "38abe232",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the uncertain point",
+      "content": "The passage first introduces <em>The Federalist Papers</em> as a collection of 85 essays, then gives publication and purpose details. The final sentence shifts with \"Though\" to what is not fully known: the authorship of a few individual essays."
+    },
+    {
+      "title": "Check each structure",
+      "content": "Choice B invents disagreement among the authors about the essays' argument. Choice C says some essays were written by two people, but the passage says some authorship is uncertain. Choice D puts publication history at the end, though the passage ends with authorship uncertainty. Choice A captures both moves: a collection is introduced, then incomplete knowledge about the essays is identified. The answer is <strong>A</strong>."
+    }
+  ]
+}

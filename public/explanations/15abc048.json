@@ -1,0 +1,18 @@
+{
+  "questionId": "15abc048",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the right side",
+      "content": "The equation is\n$x^2=40(40)$\nThe right side is $40$ multiplied by itself, so\n$x^2=40^2$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation and use the positive intersection with the $x$-axis, or take the positive square root of both sides.\n$x=40$\nThe answer is <strong>40</strong>.",
+      "desmosExpressions": [
+        "x^2 = 40 \\times 40"
+      ]
+    }
+  ]
+}

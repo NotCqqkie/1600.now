@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Connect the discriminant to the number of solutions",
-      "content": "The question asks how many distinct real solutions the quadratic has. For a quadratic, the sign of the discriminant tells whether the graph crosses the $x$-axis twice, touches it once, or does not cross it. For $x^2-14x+40=0$:<br/>$$(-14)^2-4(1)(40)=196-160=36$$ Since $36\\gt0$, the quadratic has two distinct real solutions."
+      "title": "Compute the discriminant",
+      "content": "For a quadratic equation, the discriminant determines how many real solutions there are. Here $a=1$, $b=-14$, and $c=40$, so compute $$(-14)^2-4(1)(40)=196-160=36$$"
     },
     {
-      "title": "Interpret the discriminant",
-      "content": "The positive discriminant means the parabola crosses the $x$-axis at two different points. Therefore the equation has exactly two distinct real solutions."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The correct answer says there are two distinct real solutions. The other choices do not match the positive discriminant, so <strong>A</strong> is correct."
+      "title": "Interpret the sign",
+      "content": "A positive discriminant means the equation has two distinct real solutions. Since $36>0$, the given quadratic has exactly two distinct real solutions. The answer is <strong>A</strong>."
     }
   ]
 }

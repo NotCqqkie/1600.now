@@ -1,0 +1,15 @@
+{
+  "questionId": "adae695a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the publication date",
+      "content": "The student's goal is to specify when al-Biruni published his landmass theory. The relevant note is the one that gives both the publication event and the date: he published the theory in 1037 CE."
+    },
+    {
+      "title": "Exclude incomplete notes",
+      "content": "Choice B mentions a theory about a landmass but omits the date. Choice C identifies al-Biruni as an Iranian scholar but does not mention the theory or publication date. Choice D describes the theory but also omits when it was published. The answer is <strong>A</strong>."
+    }
+  ]
+}

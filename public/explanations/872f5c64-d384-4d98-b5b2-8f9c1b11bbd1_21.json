@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "Two independent clauses meet at the blank: <em>\"Scholars... needn't despair\"</em> (IC) and <em>\"they can still procure a copy...\"</em> (IC). The transition word \"though\" attaches to the first clause. To join two ICs, you need a <strong>semicolon</strong> (or period, or comma + FANBOYS conjunction)."
+      "title": "Identify the sentence parts",
+      "content": "The sentence first says that scholars wishing to read a work by Varro needn't despair. It then gives the reason: they can still obtain a copy of <em>Rerum rusticarum libri tres</em>. The punctuation at the blank has to show how <em>though</em> relates to the first clause and how the next clause begins."
     },
     {
-      "title": "Apply the rule",
-      "content": "\"Though\" is an adverbial modifier that qualifies \"needn't despair\" — it attaches to the first clause. A semicolon must then separate the two independent clauses.<br/><br/><strong>A — \"despair, though\"</strong>: The comma sets off \"though,\" but then nothing separates the two independent clauses — a comma splice follows. \"...despair, though they can still procure...\" reads as if \"though\" subordinates the second clause, reversing the meaning. Fails.<br/><br/><strong>B — \"despair, though,\"</strong>: Both commas around \"though\" treat it as a parenthetical, and then the second independent clause follows with only a comma separating the ICs — a comma splice. Fails.<br/><br/><strong>C — \"despair, though;\"</strong>: The comma sets off \"though\" as a trailing modifier of the first clause; the semicolon then correctly joins the two independent clauses. Correct.<br/><br/><strong>D — \"despair—though\"</strong>: An em-dash introduces \"though\" as if beginning a parenthetical, but no closing em-dash or other punctuation appears before the second clause — the boundary is never resolved. Fails."
+      "title": "Compare the punctuation",
+      "content": "Choice A makes <em>though they can still procure</em> read like a subordinate clause, which wrongly suggests that access to the book is a contrast rather than the reason not to despair. Choice B sets off <em>though</em> with commas and then leaves only a comma before the next independent clause. Choice D uses the dash to make <em>though</em> introduce a contrast with the second clause instead of attaching to <em>needn't despair</em>."
+    },
+    {
+      "title": "Use the needed boundary",
+      "content": "The sentence needs a comma to attach <em>though</em> to <em>needn't despair</em>, followed by a semicolon to separate the two independent clauses. That punctuation preserves the intended meaning and creates a valid boundary before <em>they can still procure</em>. The answer is <strong>C</strong>."
     }
   ]
 }

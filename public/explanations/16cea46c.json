@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract data from the table",
-      "content": "The baritone row shows 12 singers. The total number of singers is 5 + 7 + 12 + 6 = 30."
+      "title": "Find favorable outcomes",
+      "content": "The table shows $12$ baritones out of $30$ total singers."
     },
     {
-      "title": "Calculate the probability",
-      "content": "The probability that a randomly selected singer is a baritone is:<br/>$$P(\\text{baritone}) = \\frac{\\text{number of baritones}}{\\text{total singers}} = \\frac{12}{30} = \\frac{2}{5} = 0.4$$<br/>That matches <strong>Choice B &mdash; 0.40</strong>."
+      "title": "Compute the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes.<br/>$$P(\\text{baritone})=\\frac{12}{30}=\\frac25=0.40$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

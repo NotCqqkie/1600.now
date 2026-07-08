@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the ratio",
-      "content": "The ratio of $m$ to $n$ is given as 7 to 10, so $$m/n = \\frac{7}{10}$$."
+      "title": "Keep the ratio unchanged",
+      "content": "The ratio of $m$ to $n$ stays the same only if both quantities are multiplied by the same factor."
     },
     {
-      "title": "Apply the same factor to both terms",
-      "content": "Multiplying $m$ by 19 gives $19m$. To keep the ratio unchanged, we must multiply $n$ by the same factor: $$(19m)/(19n) = m/n = \\frac{7}{10}$$. Thus $n$ is also multiplied by 19. The answer is <strong>19</strong>."
+      "title": "Use the same multiplier",
+      "content": "Since $m$ is multiplied by $19$, $n$ must also be multiplied by $19$.\n$$\\frac{19m}{19n}=\\frac{m}{n}$$\nThe answer is <strong>19</strong>."
     }
   ]
 }

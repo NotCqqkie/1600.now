@@ -1,0 +1,15 @@
+{
+  "questionId": "98506d38",
+  "correctAnswer": "5400",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the side count",
+      "content": "A polygon with $32$ sides means use $x=32$ in the function:<br/>$$f(32)=180(32-2)$$"
+    },
+    {
+      "title": "Evaluate the angle sum",
+      "content": "Simplify inside the parentheses, then multiply:<br/>$$180(32-2)=180(30)=5{,}400$$<br/>The answer is <strong>5400</strong>."
+    }
+  ]
+}

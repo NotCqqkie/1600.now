@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pattern needing explanation",
-      "content": "The two human-caused sound conditions produced <strong>negligible differences</strong> in their effects on narwhal diving, despite one containing an additional acoustic element (sonic pulses). Why doesn't the added stimulus create an additional behavioral change?"
+      "title": "Explain the similar responses",
+      "content": "Both human-caused sound conditions reduced deep dives, but adding sonic pulses to ship sounds produced negligible differences. The completion must explain why the added pulses changed little."
     },
     {
-      "title": "Match the explanation to the choices",
-      "content": "The matching choice explains this directly: ship sounds alone contribute so much to the overall sound level that adding sonic pulses has little effect on the narwhals' auditory environment. If the auditory environment is not meaningfully changed by the additional pulses, the behavioral response would remain essentially the same.<br/><br/>The other choices either discuss acoustic propagation properties (A, irrelevant to why responses are similar), contradict the finding by describing an actual difference (C), or explain the overall magnitude of the effect rather than why two different exposures produce identical responses (D).<br/><br/><strong>B</strong> is correct."
+      "title": "Compare the choices",
+      "content": "Choice A discusses depth of sound travel; Choice C contradicts negligible differences; Choice D addresses overall sensitivity, not similarity between exposure types. Choice B says ship sounds dominate the auditory environment, leaving little additional effect from pulses. The answer is <strong>B</strong>."
     }
   ]
 }

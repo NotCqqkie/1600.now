@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the transition from general claim to supporting example",
-      "content": "The opening sentence makes a general counterclaim about industrial activity, and <em>Consider</em> at the start of the underlined portion signals that a specific example will now support this claim."
+      "title": "Link claim to example",
+      "content": "The first sentence says industrial activity is not always a threat to wildlife. The underlined phrase <em>Consider the silver-studded blue butterfly</em> introduces a specific case that supports that general claim."
     },
     {
-      "title": "Match the function to the correct choice",
-      "content": "The matching choice identifies the function: the underlined portion introduces a specific example (the silver-studded blue butterfly) supporting the previous sentence's general claim.<br/><br/>The others misidentify the function by claiming it challenges the species itself, suggests future research, or provides a definition.<br/><br/>That matches <strong>B</strong>."
+      "title": "Reject wrong functions",
+      "content": "Choice A says the phrase challenges an assumption about the species itself, which the text does not do. Choice C adds a call for future studies, and Choice D claims a definition is being provided. The phrase introduces a supporting example. The answer is <strong>B</strong>."
     }
   ]
 }

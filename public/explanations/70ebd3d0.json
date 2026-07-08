@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the structure of the model",
-      "content": "$N(d) = 130 \\times (0.85)^d$ is exponential with base $0.85$. A base less than $1$ means each unit increase in $d$ multiplies $N$ by $0.85$, a $15\\%$ decrease."
+      "title": "Interpret the multiplier",
+      "content": "The model is exponential with multiplier $0.85$. Each time $d$ increases by $1$, the number of species is multiplied by $0.85$. That means the model keeps $85\\%$ of the previous amount."
     },
     {
-      "title": "Translate the input units",
-      "content": "The variable $d$ is measured in hundreds of meters, so increasing $d$ by $1$ corresponds to a real-world depth increase of $100$ meters."
+      "title": "Convert the decrease",
+      "content": "Keeping $85\\%$ means losing the remaining $15\\%$.<br/>$$100\\%-85\\%=15\\%$$"
     },
     {
-      "title": "Combine the two facts",
-      "content": "Each $100$&nbsp;m increase in depth multiplies the species count by $0.85$, i.e. a $15\\%$ decrease."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For every increase in depth by 1 meter, the number of crinoid species decreases by 130.&rsquo;</strong>: a $1$&nbsp;m increase is not one unit of $d$, and $130$ is the initial value, not a per-step decrease.</li><li><strong>Choice B &mdash; &lsquo;For every increase in depth by 1 meter, the number of crinoid species decreases by 15%.&rsquo;</strong>: a $1$&nbsp;m increase is only $0.01$ units of $d$, so the $15\\%$ figure does not apply per meter.</li><li><strong>Choice C &mdash; &lsquo;For every increase in depth by 100 meters, the number of crinoid species decreases by 130.&rsquo;</strong>: $100$&nbsp;m is the right step, but $130$ is the starting value, not the amount lost.</li><li><strong>Choice D &mdash; &lsquo;For every increase in depth by 100 meters, the number of crinoid species decreases by 15%.&rsquo;</strong>: $100$&nbsp;m equals one unit of $d$, and one unit multiplies $N$ by $0.85$, a $15\\%$ decrease.</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use the depth units",
+      "content": "The variable $d$ is measured in hundreds of meters, so an increase of $1$ in $d$ means an increase of $100$ meters in depth. The model predicts a $15\\%$ decrease for every $100$ meters. The answer is <strong>D</strong>."
     }
   ]
 }

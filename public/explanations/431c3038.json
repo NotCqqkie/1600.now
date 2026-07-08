@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert given rates to calories per hour",
-      "content": "The problem gives exercise rates in 30-minute intervals. To work with hours, multiply each rate by 2:<br/><div class='callout'>Hiking: $240 \\times 2 = 480$ calories/hour<br/>Bicycling: $180 \\times 2 = 360$ calories/hour</div>"
+      "title": "Convert the known biking time",
+      "content": "One hour of bicycling is two $30$-minute periods. The bicycling calories are<br/>$$180\\cdot 2=360$$"
     },
     {
-      "title": "Calculate calories from 1 hour of bicycling",
-      "content": "The adult has already completed 1 hour of bicycling:<br/>$$1 \\text{ hour} \\times 360 \\text{ calories/hour} = 360 \\text{ calories}$$"
+      "title": "Find the remaining calories",
+      "content": "Subtract the calories already used from the total.<br/>$$2{,}760-360=2{,}400$$"
     },
     {
-      "title": "Set up and solve for hiking hours",
-      "content": "Find the remaining calories needed, then solve for hiking time. Remaining calories: $2,760 - 360 = 2,400$. Let $h$ = hours of hiking. Then:<br/>$$480h = 2,400$$<br/>$$h = \\frac{2,400}{480} = 5$$<br/>This matches - <strong>D</strong> is correct."
+      "title": "Solve for hiking hours",
+      "content": "Hiking uses $240$ calories per $30$ minutes, so let $h$ be the number of $30$-minute hiking periods.<br/>$$240h=2{,}400$$<br/>$$h=10$$<br/>Ten $30$-minute periods is $5$ hours. The answer is <strong>D</strong>."
     }
   ]
 }

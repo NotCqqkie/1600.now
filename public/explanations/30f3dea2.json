@@ -1,0 +1,15 @@
+{
+  "questionId": "30f3dea2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the namesake note",
+      "content": "The student's goal is to explain whom the award is named for. The relevant note says the A.M. Turing Award is named after groundbreaking British mathematician Alan Turing."
+    },
+    {
+      "title": "Reject criteria and winner facts",
+      "content": "A and D focus on Amit Rao's 1994 award, while B explains what the award is given for. Those facts do not identify the namesake. The needed sentence names Alan Turing. The answer is <strong>C</strong>."
+    }
+  ]
+}

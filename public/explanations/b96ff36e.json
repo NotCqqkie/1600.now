@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Substitute the point",
+      "content": "Since $(8,c)$ lies on the circle, substitute $x=8$ and $y=c$ into the equation:<br/>$$(8-4)^2+(c-7)^2=16$$"
     },
     {
-      "title": "Substitute the point into the circle equation",
-      "content": "Since $(8, c)$ lies on the circle $(x-4)^2 + (y-7)^2 = 16$, substitute $x = 8$ and $y = c$:<br/>$$(8-4)^2 + (c-7)^2 = 16$$<br/>Simplify:<br/>$$16 + (c-7)^2 = 16$$"
+      "title": "Simplify the equation",
+      "content": "Compute the squared term from the $x$-coordinate:<br/>$$16+(c-7)^2=16$$<br/>Subtract $16$ from both sides:<br/>$$(c-7)^2=0$$"
     },
     {
       "title": "Solve for c",
-      "content": "Subtract 16 from both sides:<br/>$$(c-7)^2 = 0$$<br/>Take the square root:<br/>$$c - 7 = 0$$<br/>$$c = 7$$"
+      "content": "The only number whose square is $0$ is $0$, so<br/>$$c-7=0$$<br/>$$c=7$$<br/>The answer is <strong>7</strong>."
     }
   ]
 }

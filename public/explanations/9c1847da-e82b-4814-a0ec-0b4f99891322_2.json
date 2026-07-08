@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the line of best fit at $x = 3$",
-      "content": "We're asked for the predicted body length at age 3 years, to the nearest 10 cm. Locate $x = 3$ on the horizontal axis and trace up to the line of best fit, then read the $y$-value."
+      "title": "Read the prediction from the line",
+      "content": "The question asks for the predicted body length when the seal is $3$ years old. Locate $x=3$ on the horizontal axis and read the corresponding $y$-value on the line of best fit."
     },
     {
-      "title": "Round to the nearest 10",
-      "content": "At age $x = 3$, the line passes through approximately $y \\approx 100$ cm.<br/><br/>The answer is <strong>100</strong>."
+      "title": "Round to the nearest ten",
+      "content": "At $x=3$, the line of best fit is at about $100$ centimeters, which is already rounded to the nearest $10$ centimeters. The answer is <strong>100</strong>."
     }
   ]
 }

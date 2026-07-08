@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the trend and two anchor points",
-      "content": "The scatterplot has a strong positive trend, so the negative-slope equations are out. To choose between the two positive-slope lines, use the approximate leftmost and rightmost data points from the graph: $(1,4)$ and $(8,26)$."
+      "title": "Use the scatterplot trend",
+      "content": "The scatterplot has a positive trend, so a line of best fit should have a positive slope. That eliminates the choices with negative slopes."
     },
     {
-      "title": "Estimate from two points",
-      "content": "Enter the two anchor points as $x_1=[1,8]$ and $y_1=[4,26]$, which gives a slope a little above $3$ and a y-intercept a little below $1$, so the line should look close to $y=3x+0.8$.",
+      "title": "Estimate with two points",
+      "content": "Two reasonable anchor points from the plot are about $(1,4)$ and $(8,26)$. Their slope is close to $3$, and the y-intercept is close to $1$, so the line should be close to $y=3x+0.8$.",
       "desmosExpressions": [
         "x_1=[1,8]",
         "y_1=[4,26]",
@@ -18,8 +18,8 @@
       ]
     },
     {
-      "title": "Confirm the choice",
-      "content": "Choice B, $y=0.8x+3$, predicts only $9.4$ when $x=8$, far below the rightmost point near $26$. Choice A, $y=3x+0.8$, predicts $24.8$ when $x=8$ and $3.8$ when $x=1$, which stays close to both anchor points. Therefore <strong>A</strong> is correct."
+      "title": "Check the positive choices",
+      "content": "At $x=8$, the line $y=0.8x+3$ gives $9.4$, far below the point near $26$. The line $y=3x+0.8$ gives $24.8$, which is much closer. The answer is <strong>A</strong>."
     }
   ]
 }

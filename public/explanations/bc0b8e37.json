@@ -1,0 +1,15 @@
+{
+  "questionId": "bc0b8e37",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon clue",
+      "content": "The colon explains why long-running studies need many participants: over time, many participants withdraw or fall out of contact. The missing word should name the gradual loss of participants from a study."
+    },
+    {
+      "title": "Reject unrelated terms",
+      "content": "Choice B means caution or careful consideration. Choice C means fairness or lack of bias. Choice D means the ability to repeat a study with the same results. None names participants dropping out over time. The answer is <strong>A</strong>."
+    }
+  ]
+}

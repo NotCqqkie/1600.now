@@ -1,0 +1,15 @@
+{
+  "questionId": "dfb2713b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the name restrictive",
+      "content": "The sentence needs a noun phrase identifying which Nigerian expressionist painter was known for the described style. The name is essential identifying information, so it should not be set off with commas."
+    },
+    {
+      "title": "Reject broken punctuation",
+      "content": "A uses unnecessary paired commas, B inserts a period that breaks the sentence, and D creates an awkward one-comma interruption. The sentence needs the title and name to flow directly into the verb phrase. The answer is <strong>C</strong>."
+    }
+  ]
+}

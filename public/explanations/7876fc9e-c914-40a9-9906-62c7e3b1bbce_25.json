@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to identify the <em>title</em> of Hurston's first published short story. The notes give it directly: &quot;John Redding Goes to Sea.&quot; The correct choice must name that title."
+      "title": "Use the title note",
+      "content": "The student wants the title of Hurston's first published short story. The notes directly state that the story was called \"John Redding Goes to Sea.\""
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "Check each choice against the goal of stating the title:\n<ul>\n<li><strong>Choice A &mdash; &lsquo;Zora Neale Hurston's first published work of fiction appeared in 1921.&rsquo;</strong>: gives the year but not the title. ✗</li>\n<li><strong>Choice B &mdash; &lsquo;Zora Neale Hurston's first published short story was called \"John Redding Goes to Sea.\"&rsquo;</strong>: names the title directly. ✓</li>\n<li><strong>Choice C &mdash; &lsquo;In 1921, a short story by Zora Neale Hurston appeared in *Stylus*.&rsquo;</strong>: gives the year and venue but omits the title. ✗</li>\n<li><strong>Choice D &mdash; &lsquo;Acclaimed writer Zora Neale Hurston's first published work of fiction was a short story.&rsquo;</strong>: describes the work's form but never names it. ✗</li>\n</ul>\nThat confirms <strong>B</strong> is correct."
+      "title": "Reject incomplete details",
+      "content": "Choice A gives only the year. Choice C gives the year and publication venue but not the title. Choice D says the work was a short story but does not name it. The answer is <strong>B</strong>."
     }
   ]
 }

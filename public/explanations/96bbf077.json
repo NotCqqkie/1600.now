@@ -1,0 +1,15 @@
+{
+  "questionId": "96bbf077",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a second reason",
+      "content": "The passage explains why Honeoye is a fitting state soil. One reason is that it is abundant across New York; the next sentence adds another reason, its role in agriculture."
+    },
+    {
+      "title": "Reject nonadditive transitions",
+      "content": "Choice A signals time, not another reason. Choice B signals an alternative, but both points support the same claim. Choice C signals opposition, though the second point reinforces the first. The answer is <strong>D</strong>."
+    }
+  ]
+}

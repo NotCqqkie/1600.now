@@ -1,0 +1,15 @@
+{
+  "questionId": "fbe437d2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants to emphasize a similarity between <em>The Prophet</em> and <em>Those Barren Leaves</em>. The relevant shared fact is that both books entered the public domain, though in different years."
+    },
+    {
+      "title": "Avoid difference-focused details",
+      "content": "A emphasizes a timing difference, B discusses only <em>Those Barren Leaves</em>, and D contrasts genres instead of showing similarity. The correct sentence presents both books together and identifies their shared public-domain status. The answer is <strong>C</strong>."
+    }
+  ]
+}

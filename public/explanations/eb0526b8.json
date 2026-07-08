@@ -1,0 +1,15 @@
+{
+  "questionId": "eb0526b8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence subject",
+      "content": "The subject is the singular noun Paramaribo. The phrase between the commas, with a population of roughly 250,000 people, only adds description and does not change the subject's number."
+    },
+    {
+      "title": "Match singular agreement",
+      "content": "A singular subject needs a singular verb. B, C, and D are plural verb forms, so they do not agree with Paramaribo. The sentence needs the singular form that fits the phrase home to an impressive share of the population. The answer is <strong>A</strong>."
+    }
+  ]
+}

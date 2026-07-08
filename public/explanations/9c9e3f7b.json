@@ -1,0 +1,15 @@
+{
+  "questionId": "9c9e3f7b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare intercepts",
+      "content": "The line of best fit crosses the $y$-axis near $30$, so a model with no constant term is not appropriate."
+    },
+    {
+      "title": "Compare slopes",
+      "content": "The data trend rises by about $15$ units in $y$ for each $1$ unit increase in $x$, not by about $0.76$. The model $y=30.38+15.12x$ has both the right intercept and slope. The answer is <strong>A</strong>."
+    }
+  ]
+}

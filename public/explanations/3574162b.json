@@ -1,0 +1,15 @@
+{
+  "questionId": "3574162b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the conclusion",
+      "content": "Li and colleagues found that automatically selecting \"no cutlery\" influenced whether customers requested disposable utensils. They concluded that this and other small app changes could reduce plastic waste in China by as much as 3.26 million metric tons per year."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A predicts an increase in plastic waste, which contradicts the conclusion. Choice B claims cutlery-blocking apps are becoming more popular. Choice C shifts to customers' understanding of apps rather than app design changes. The answer is <strong>D</strong>."
+    }
+  ]
+}

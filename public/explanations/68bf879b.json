@@ -1,0 +1,15 @@
+{
+  "questionId": "68bf879b",
+  "correctAnswer": "150",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one value",
+      "content": "Let $u=x-4$. The equation becomes $$\\frac{10}{6}u-24=\\frac{8}{6}u+26$$"
+    },
+    {
+      "title": "Solve for the target",
+      "content": "Move terms.<br/>$$\\frac{2}{6}u=50$$<br/>$$\\frac{1}{3}u=50$$<br/>$$u=150$$<br/>The answer is <strong>150</strong>."
+    }
+  ]
+}

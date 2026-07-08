@@ -1,0 +1,19 @@
+{
+  "questionId": "9ac68a39",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given line",
+      "content": "Solve the given equation for $y$.\n$$\n40x=2{,}000y-6{,}000\n$$\n$$\n2{,}000y=40x+6{,}000\n$$\n$$\ny=\\frac{x}{50}+3\n$$"
+    },
+    {
+      "title": "Use parallel distinct lines",
+      "content": "A system of two lines has no solution when the lines have the same slope but different $y$-intercepts. The second line needs slope \n$$\n\\frac{1}{50}\n$$ and an intercept other than $3$."
+    },
+    {
+      "title": "Match the parallel line",
+      "content": "Rewrite \n$$\n\\frac{1}{25}x=2y\n$$\n$$\ny=\\frac{x}{50}\n$$\nThis has slope \n$$\n\\frac{1}{50}\n$$ and intercept $0$, so it is parallel to the given line and distinct. The answer is <strong>A</strong>."
+    }
+  ]
+}

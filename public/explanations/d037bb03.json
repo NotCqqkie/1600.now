@@ -1,0 +1,15 @@
+{
+  "questionId": "d037bb03",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the target cell",
+      "content": "The statement asks for one value from the table: how much copper Mexico mined in 1995. The correct completion must match Mexico's row and the 1995 column."
+    },
+    {
+      "title": "Reject wrong countries",
+      "content": "Choice A gives Peru's 1995 value. Choice C gives the United States' 1995 value. Choice D gives Indonesia's 1995 value. The value in Mexico's 1995 cell is 0.33 million metric tons of copper. The answer is <strong>B</strong>."
+    }
+  ]
+}

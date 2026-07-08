@@ -4,17 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the confidence interval for the population mean",
-      "content": "Mean &plusmn; margin of error = $6.2 \\pm 0.4$, giving the interval $[5.8,\\,6.6]$ hours. This interval estimates where the true <em>population mean</em> lies, not where individual students' study times fall."
+      "title": "Build the plausible interval",
+      "content": "The estimated mean is $6.2$ hours, and the margin of error is $0.4$ hours. Subtract and add the margin of error.<br/>$$6.2-0.4=5.8$$<br/>$$6.2+0.4=6.6$$"
     },
     {
-      "title": "Understand what margin of error does NOT tell us",
-      "content": "The margin of error says nothing about individual students' study times. It cannot guarantee every student, or even most students, studied within that range. It also cannot rule out any individual studying any particular amount of time."
-    },
-    {
-      "title": "Select the best conclusion",
-      "content": "The interval $[5.8, 6.6]$ is a plausible range for the <em>mean</em> time studied by all students. That matches the correct answer, <strong>D</strong> is correct."
+      "title": "Interpret the interval",
+      "content": "The interval from $5.8$ to $6.6$ hours describes plausible values for the mean time studied by all students, not the study time of every individual student. Choices about all students, most students, or any one student's minimum time misuse the margin of error because the survey estimates an average for the whole population. The answer is <strong>D</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>'It is likely that all students studied between 5.8 and 6.6 hours.'</strong>: Incorrectly applies the mean's confidence interval to individual students. Individual times can vary widely around any mean. &#10007;</li><li><strong>'It is likely that most students studied exactly 6.2 hours.'</strong>: The sample mean is an average, not a typical individual value; most students need not have studied exactly the mean time. &#10007;</li><li><strong>'It is not possible that any student studied less than 4 hours.'</strong>: Uses absolute language ('not possible') and misapplies the interval to individuals. The margin of error says nothing about minimum individual study times. &#10007;</li><li><strong>'It is plausible that the mean time studied for all students is between 5.8 and 6.6 hours.'</strong>: Correctly identifies that the confidence interval $[5.8, 6.6]$ gives a plausible range for the population mean, not individual times. &#10003;</li></ul>That matches the correct answer, <strong>D</strong> is correct."
+  ]
 }

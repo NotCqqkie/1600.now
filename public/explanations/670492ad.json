@@ -1,0 +1,15 @@
+{
+  "questionId": "670492ad",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine behavior and genetics",
+      "content": "The first study links breed-level behavior differences to breed-level genetic differences, especially for train ability. The second study says English mastiffs and Yorkshire terriers behave differently in train ability, so the combined findings point to a genetic difference related to that trait."
+    },
+    {
+      "title": "Reject overextended claims",
+      "content": "Choice A predicts future genetic similarity, which the studies do not address. Choice C shifts from breed-level findings to individual dogs and adds a direction not given. Choice D says both breeds are more trainable than most breeds, which the passage never claims. The answer is <strong>B</strong>."
+    }
+  ]
+}

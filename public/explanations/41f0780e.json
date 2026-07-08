@@ -1,0 +1,15 @@
+{
+  "questionId": "41f0780e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Center the location detail",
+      "content": "The question asks for a sentence that emphasizes the location of the Haystack Mountain School of Crafts. The relevant note says the building complex is located in Deer Isle, Maine."
+    },
+    {
+      "title": "Reject shifted emphasis",
+      "content": "Choice B emphasizes architecture and building features while omitting the location. Choice C includes Deer Isle, Maine, but its main focus is the architect. Choice D focuses on Nolan Avery and cedar-shingled buildings. The sentence about traveling to Deer Isle, Maine makes location central. The answer is <strong>A</strong>."
+    }
+  ]
+}

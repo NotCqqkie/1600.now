@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding angles in similar figures",
-      "content": "Similar figures have congruent corresponding angles. The side-length scale factor affects lengths, not angle measures."
+      "title": "Use corresponding angles",
+      "content": "Similar figures have equal corresponding angles. The side-length scale factor changes lengths, not angle measures, so the factor of $4$ does not multiply or divide any angle."
     },
     {
-      "title": "Recall the property of similar figures",
-      "content": "When two figures are similar, their corresponding angles are equal. This is true regardless of the scale factor between them. The problem states that quadrilateral $A'B'C'D'$ is similar to quadrilateral $ABCD$, with $A$ corresponding to $A'$, $B$ to $B'$, $C$ to $C'$, and $D$ to $D'$."
-    },
-    {
-      "title": "Apply correspondence to find angle A'",
-      "content": "Since $A$ and $A'$ are corresponding angles in similar figures, they must be equal.<br/><br/>We are given that the measure of angle $A$ is $36^{\\circ}$. Therefore, the measure of angle $A'$ is also $36^{\\circ}$. The scale factor of $4$ (side lengths of $A'B'C'D'$ are $4$ times those of $ABCD$) affects only the side lengths, not the angles.<br/><br/>That is the correct answer."
+      "title": "Match the corresponding angles",
+      "content": "The problem states that angle $A$ corresponds to angle $A'$. Since angle $A$ measures $36^\\circ$, angle $A'$ also measures $36^\\circ$. Choices based on dividing by $4$, multiplying by $4$, or using another angle do not apply.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

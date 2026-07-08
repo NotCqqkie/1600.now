@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the specific data point required",
-      "content": "The question asks for the average price of lemons in July 2021. This specifies exactly which row and column of the table we need to locate."
+      "title": "Find the requested entry",
+      "content": "The question asks for the July 2021 average price for lemons, so the needed value is at the lemons row and July 2021 column."
     },
     {
-      "title": "Read the table and eliminate alternatives",
-      "content": "The table shows \\$31.78 at the intersection of Lemons and July 2021. The other choices represent either prices for different fruits in July 2021 (grapefruits at \\$22.98, oranges at \\$13.79) or the price of lemons from a different time period (June 2021 at \\$28.94).<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Use the table value",
+      "content": "That table entry is 31.78 dollars. The answer is <strong>A</strong>."
     }
   ]
 }

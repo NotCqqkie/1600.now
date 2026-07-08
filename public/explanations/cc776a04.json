@@ -1,29 +1,19 @@
 {
   "questionId": "cc776a04",
-  "qid": "cc776a04",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $-3.04x^2 -7x + 13.05$."
+      "title": "Expand the square",
+      "content": "Use the square of a binomial to expand the first part. The middle term comes from multiplying the two outside factors and doubling the product.<br/>$$(1.4x-2.5)^2=(1.4x)^2-2(1.4x)(2.5)+(2.5)^2$$<br/>$$=1.96x^2-7x+6.25$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Distribute the subtraction",
+      "content": "Now subtract the second expression. Subtracting the whole quantity means changing the sign of each term inside the parentheses.<br/>$$1.96x^2-7x+6.25-(5.0x^2-6.8)$$<br/>$$=1.96x^2-7x+6.25-5.0x^2+6.8$$"
     },
     {
-      "title": "Step 1",
-      "content": "Expand $(1.4x - 2.5)^2$ using $(a-b)^2 = a^2 - 2ab + b^2$: $(1.4x)^2 - 2(1.4x)(2.5) + (2.5)^2 = 1.96x^2 - 7x + 6.25$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Subtract $(5.0x^2 - 6.8)$ by distributing the negative: $1.96x^2 - 7x + 6.25 - 5.0x^2 + 6.8$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Combine like terms: $x^2$: $1.96 - 5.0 = -3.04$; $x$: $-7$; constant: $6.25 + 6.8 = 13.05$. Result: $-3.04x^2 - 7x + 13.05$."
+      "title": "Combine like terms",
+      "content": "Combine the $x^2$ terms, keep the $-7x$ term, and combine the constants. This gives the equivalent expression for every value of $x$.<br/>$$1.96x^2-5.0x^2=-3.04x^2$$<br/>$$6.25+6.8=13.05$$<br/>The equivalent expression is $-3.04x^2-7x+13.05$. The answer is <strong>C</strong>."
     }
-  ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; $-2.2x^2 + 1.8$</strong>: Missing the $-7x$ term and wrong constant; incorrect expansion. &#10007;</li><li><strong>Choice B &mdash; $-2.2x^2 + 11.8$</strong>: Wrong $x^2$ coefficient ($-2.2$ vs $-3.04$) and missing the $x$ term. &#10007;</li><li><strong>Choice C &mdash; $-3.04x^2 -7x + 13.05$</strong>: Matches $-3.04x^2 - 7x + 13.05$ exactly. &#10003;</li><li><strong>Choice D &mdash; $-3.04x^2 -7x + 0.55$</strong>: Correct $x^2$ and $x$ terms but wrong constant; likely forgot to add 6.8 back. &#10007;</li></ul>That is the correct answer.",
-  "correctAnswer": "C",
-  "section": "Math"
+  ]
 }

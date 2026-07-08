@@ -1,0 +1,18 @@
+{
+  "questionId": "67a6d634",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use identical lines",
+      "content": "A system has infinitely many solutions only when both equations graph as the same line. Therefore, the second equation must have the same slope as the given line."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The given line is already in slope-intercept form.\n$$\ny=\\frac{3}{8}x+2\n$$\nThe slope is $\\frac{3}{8}$. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{3}{8}x + 2"
+      ]
+    }
+  ]
+}

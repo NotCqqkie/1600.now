@@ -1,0 +1,19 @@
+{
+  "questionId": "0a624536",
+  "correctAnswer": "211",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the equation",
+      "content": "Start from the original equation and square both sides.<br/>$$\\sqrt{k-x}=53-x$$<br/>$$k-x=(53-x)^2$$<br/>$$x^2-105x+(2{,}809-k)=0$$"
+    },
+    {
+      "title": "Use the single solution boundary",
+      "content": "For the squared quadratic to have exactly one real solution, set the discriminant equal to $0$.<br/>$$105^2-4(2{,}809-k)=0$$<br/>$$11{,}025-11{,}236+4k=0$$<br/>$$4k=211$$"
+    },
+    {
+      "title": "Check the original equation",
+      "content": "At the boundary, the repeated root is $x=52.5$, and $53-x$ is positive, so it satisfies the original square-root equation. The answer is <strong>211</strong>."
+    }
+  ]
+}

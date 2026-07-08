@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute $x=2$",
-      "content": "Evaluate the function at the input the problem gives: $$h(2)=\\frac{8}{5(2)+6}.$$"
+      "title": "Substitute the input",
+      "content": "Evaluate $h(2)$ by replacing $x$ with $2$.<br/>$$h(2)=\\frac{8}{5(2)+6}$$"
     },
     {
-      "title": "Simplify the denominator",
-      "content": "The denominator is ${5}(2)+6=10+6=16$, so $$h(2)=\\frac{8}{16}=\\frac{1}{2}=0.5.$$"
+      "title": "Simplify the fraction",
+      "content": "$$h(2)=\\frac{8}{10+6}=\\frac{8}{16}=\\frac{1}{2}$$"
     },
     {
-      "title": "Confirm the entry",
-      "content": "The answer can be entered as $\\frac{1}{2}$ or <strong>.5</strong>. The stored answer uses <strong>.5</strong>. The numerator and denominator reduce by dividing both by $8$.",
+      "title": "Calculator shortcut",
+      "content": "A calculator check uses the given input $x=2$ and returns the same function value. The answer is <strong>.5</strong>.",
       "desmosExpressions": [
         "x=2"
       ]

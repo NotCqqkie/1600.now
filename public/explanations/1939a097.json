@@ -1,0 +1,15 @@
+{
+  "questionId": "1939a097",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the table values",
+      "content": "The table shows an average of $359$ books for elementary school classroom libraries and $107$ books for high school classroom libraries."
+    },
+    {
+      "title": "Find the difference",
+      "content": "Subtract the high school average from the elementary school average.\n$$359-107=252$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

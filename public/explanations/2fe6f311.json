@@ -1,0 +1,15 @@
+{
+  "questionId": "2fe6f311",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent increase",
+      "content": "An $18.75\\%$ increase means multiplying the original number by:<br/>$$1+0.1875=1.1875$$"
+    },
+    {
+      "title": "Work backward from June",
+      "content": "Let $x$ be the number of dragonflies on May $1$. Then:<br/>$$1.1875x=133$$<br/>$$x=\\frac{133}{1.1875}=112$$<br/>This is the original count before the increase. The answer is <strong>D</strong>."
+    }
+  ]
+}

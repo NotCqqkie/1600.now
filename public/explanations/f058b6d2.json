@@ -1,0 +1,15 @@
+{
+  "questionId": "f058b6d2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the conclusion",
+      "content": "The first two sentences explain that Roman numerals in moon designations indicate order of designation, not distance from Jupiter. The final sentence draws the consequence: it is wrong to infer proximity from Elara's numeral."
+    },
+    {
+      "title": "Reject nonlogical transitions",
+      "content": "Choice A signals contrast, but the final sentence follows from the prior explanation. Choice C adds another point rather than drawing an inference. Choice D suggests the end of a sequence, which is not the relationship here. The answer is <strong>B</strong>."
+    }
+  ]
+}

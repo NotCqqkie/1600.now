@@ -1,0 +1,15 @@
+{
+  "questionId": "1213d8bc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Treat the name as essential",
+      "content": "The sentence refers to <em>the novelist</em> but has not identified which novelist. The name Stephen Graham Jones is essential information, so it should not be separated from <em>novelist</em> by commas."
+    },
+    {
+      "title": "Remove unnecessary punctuation",
+      "content": "B incorrectly marks the name as nonessential with commas. C creates a sentence break that leaves the first part incomplete. D adds a comma after the full identifying phrase before the infinitive, unnecessarily separating the object from its purpose. The unpunctuated appositive is correct. The answer is <strong>A</strong>."
+    }
+  ]
+}

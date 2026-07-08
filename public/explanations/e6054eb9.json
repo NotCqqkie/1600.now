@@ -1,0 +1,19 @@
+{
+  "questionId": "e6054eb9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the tangent ratio",
+      "content": "For angle $C$ in the right triangle, tangent is opposite over adjacent:<br/>$$\\tan(C)=\\frac{AB}{BC}=\\frac{3}{4}$$<br/>So write the legs as $AB=3k$ and $BC=4k$."
+    },
+    {
+      "title": "Use the hypotenuse",
+      "content": "The figure shows the hypotenuse $AC$ is $25$. Use the Pythagorean theorem:<br/>$$(3k)^2+(4k)^2=25^2$$<br/>$$9k^2+16k^2=625$$<br/>$$25k^2=625$$<br/>$$k=5$$"
+    },
+    {
+      "title": "Find the requested side",
+      "content": "Since $AB=3k$, substitute $k=5$:<br/>$$AB=3(5)=15$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

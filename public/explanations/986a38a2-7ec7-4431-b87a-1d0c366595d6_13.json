@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage describes an experiment: after Deezer capped free streaming at 5 hours/month, affected users visited music purchase sites (licensed and unlicensed) about 2% <em>less</em>. The blank must complete the logical conclusion of that finding."
+      "title": "Track the purchase-site data",
+      "content": "After free Deezer streaming was capped, affected listeners visited licensed and unlicensed music-download sites about 2% less. The conclusion must explain that lower streaming access was associated with reduced interest in obtaining music."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; the implementation of the restriction reduced the overall number of users of the streaming service</strong>: The passage says nothing about total user counts &mdash; only about purchasing behavior. &#10007;</li><li><strong>Choice B &mdash; restrictions on the amount of music that can be streamed may actually suppress users’ interest in owning music</strong>: Purchasing dropped 2% after the restriction &mdash; so capping streaming reduced buying, meaning streaming was boosting ownership interest, not competing with it. This matches the data exactly. &#10003;</li><li><strong>Choice C &mdash; most users of the free streaming service were probably encouraged by the restriction to move to a paid version of the service with unlimited, ad-free listening</strong>: The data measures visits to purchase sites, not conversions to the paid tier. Unsupported. &#10007;</li><li><strong>Choice D &mdash; consumers are unlikely to purchase physical copies of music that is readily available through streaming</strong>: The passage includes digital downloads alongside physical media and does not distinguish between them. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Remove unsupported outcomes",
+      "content": "Choice A is about total Deezer users, which the study does not measure. Choice C speculates about premium subscriptions. Choice D focuses only on physical copies, while the study concerns purchase and download sites. The data instead links streaming restrictions to less ownership-seeking behavior. The answer is <strong>B</strong>."
     }
   ]
 }

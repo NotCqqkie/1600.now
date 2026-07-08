@@ -1,0 +1,15 @@
+{
+  "questionId": "07ab7d49",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match number and case",
+      "content": "The phrase \"nearly two thousand\" calls for a plural noun referring to people: \"Americans.\" The clause that follows identifies which Americans are meant, those who won elections during the decade after the Civil War. Nothing in the sentence shows ownership, so an apostrophe would be incorrect."
+    },
+    {
+      "title": "Use plain plural forms",
+      "content": "Choice A puts apostrophes on both \"Americans\" and \"elections,\" incorrectly making them possessive. Choice B makes \"election\" possessive, and Choice C makes \"American\" singular possessive. The sentence needs the plural noun followed by the relative clause \"who won elections,\" with \"elections\" also as a plain plural. The answer is <strong>D</strong>."
+    }
+  ]
+}

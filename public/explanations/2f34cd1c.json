@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 348 into the function",
-      "content": "The function is $f(x) = 57.40 - 0.15x$. To find the temperature on day 348, substitute $x = 348$:<br/>$$f(348) = 57.40 - 0.15(348)$$"
+      "title": "Substitute the day number",
+      "content": "Use $x=348$ in the model.<br/>$$f(348)=57.40-0.15(348)$$"
     },
     {
-      "title": "Evaluate the arithmetic",
-      "content": "First, compute the product:<br/>$$0.15 \\times 348 = 52.20$$<br/>Then subtract from 57.40:<br/>$$57.40 - 52.20 = 5.20$$<br/><strong>B</strong> is correct."
+      "title": "Evaluate the temperature",
+      "content": "Multiply first, then subtract.<br/>$$0.15(348)=52.20$$<br/>$$57.40-52.20=5.20$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

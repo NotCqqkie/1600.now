@@ -1,0 +1,19 @@
+{
+  "questionId": "e1cd45e4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the numerator equal to zero",
+      "content": "A fraction equals $0$ only when its numerator equals $0$ and its denominator is not $0$. Use the numerator:<br/><br/>$$(x-6)(x-11)=0$$"
+    },
+    {
+      "title": "Find the valid solutions",
+      "content": "Set each factor equal to $0$:<br/><br/>$$x-6=0,\\quad x=6$$<br/>$$x-11=0,\\quad x=11$$<br/><br/>The denominator excludes $x=5$, so both solutions are valid."
+    },
+    {
+      "title": "Add the solutions",
+      "content": "The question asks for the sum:<br/><br/>$$6+11=17$$<br/><br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

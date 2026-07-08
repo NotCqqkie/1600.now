@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert radical to exponent form and substitute",
-      "content": "Rewrite the left side using exponent rules: $\\sqrt[5]{p^3} = p^{\\frac{3}{5}}$, so the equation becomes $p^{\\frac{3}{5}} = t^{\\frac{8}{7}}$. Now substitute the given expression $t = p^{3n-1}$: $$p^{\\frac{3}{5}} = (p^{3n-1})^{\\frac{8}{7}}$$"
+      "title": "Convert the radical",
+      "content": "Rewrite the fifth root with a rational exponent:\n$$\n\\sqrt[5]{p^3}=p^{3/5}\n$$\nThen substitute $t=p^{3n-1}$."
     },
     {
-      "title": "Apply power rule and equate exponents",
-      "content": "Use the power rule $(a^m)^n = a^{mn}$ on the right side: $$p^{\\frac{3}{5}} = p^{(3n-1) \\cdot \\frac{8}{7}} = p^{\\frac{8(3n-1)}{7}}$$ Since $p \\gt  1$, the bases are equal, so the exponents must be equal: $$\\frac{3}{5} = \\frac{8(3n-1)}{7}$$"
+      "title": "Equate the exponents",
+      "content": "The equation becomes\n$$\np^{3/5}=(p^{3n-1})^{8/7}=p^{8(3n-1)/7}\n$$\nBecause $p>1$, the exponents are equal."
     },
     {
-      "title": "Solve for n",
-      "content": "Cross-multiply to clear the fractions: $$3 \\cdot 7 = 5 \\cdot 8(3n-1)$$ $$21 = 40(3n-1)$$ Expand the right side: $$21 = 120n - 40$$ Add 40 to both sides: $$61 = 120n$$ Therefore: $$n = \\frac{61}{120}$$<br/>The answer is <strong>61/120</strong>."
+      "title": "Solve for the constant",
+      "content": "Solve the exponent equation:\n$$\n\\frac{3}{5}=\\frac{8(3n-1)}{7}\n$$\n$$\n21=40(3n-1)\n$$\n$$\n21=120n-40\n$$\n$$\nn=\\frac{61}{120}\n$$\nThe answer is <strong>61/120</strong>."
     }
   ]
 }

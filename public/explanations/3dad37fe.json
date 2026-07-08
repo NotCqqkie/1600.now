@@ -1,0 +1,15 @@
+{
+  "questionId": "3dad37fe",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the negligible difference",
+      "content": "Both noise conditions reduced deep dives, but the two exposure types produced nearly the same behavior. The blank must explain why adding sonic pulses to ship sounds did not meaningfully change the narwhals' auditory environment."
+    },
+    {
+      "title": "Reject contradicted causes",
+      "content": "Choice A says the two exposure types led to different foraging depths, contradicting the negligible difference. Choice B discusses sound depth but not the similar behavior. Choice C conflicts with the significant decreases in dives. If ship sounds already dominate the sound level, added pulses would have little extra effect. The answer is <strong>D</strong>."
+    }
+  ]
+}

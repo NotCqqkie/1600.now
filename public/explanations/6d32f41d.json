@@ -1,0 +1,15 @@
+{
+  "questionId": "6d32f41d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Start with the equation:\n$$-4|6x+5|+8=-12$$\nSubtract $8$ and divide by $-4$:\n$$-4|6x+5|=-20$$\n$$|6x+5|=5$$"
+    },
+    {
+      "title": "Work through both cases",
+      "content": "An absolute value of $5$ means the inside can be $5$ or $-5$:\n$$6x+5=5 \\quad \\text{or} \\quad 6x+5=-5$$\n$$x=0 \\quad \\text{or} \\quad x=-\\frac{5}{3}$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

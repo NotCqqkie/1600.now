@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The first sentence says cheetahs and whales ranked highly among &apos;charismatic&apos; animals. The second says no animal outranked the tiger. The transition must signal that the tiger topped even those high-ranking animals &mdash; a concessive contrast."
+      "content": "The first sentence says cheetahs and whales ranked highly among 'charismatic' animals. The second says no animal outranked the tiger. The transition must signal that the tiger topped even those high-ranking animals — a concessive contrast."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; In other words,</strong>: signals a restatement of the same idea, not a contrast. &#10007;</li><li><strong>Choice B &mdash; As a result,</strong>: signals a cause-and-effect relationship, which does not fit here. &#10007;</li><li><strong>Choice C &mdash; Still,</strong>: concedes that cheetahs and whales ranked high, then emphasizes the tiger surpassed them anyway. &#10003;</li><li><strong>Choice D &mdash; For example,</strong>: signals an illustration, but the tiger is not an example of the previous claim. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — In other words,</strong>: signals a restatement of the same idea, not a contrast. ✗</li><li><strong>Choice B — As a result,</strong>: signals a cause-and-effect relationship, which does not fit here. ✗</li><li><strong>Choice C — Still,</strong>: concedes that cheetahs and whales ranked high, then emphasizes the tiger surpassed them anyway. ✓</li><li><strong>Choice D — For example,</strong>: signals an illustration, but the tiger is not an example of the previous claim. ✗</li></ul>That confirms <strong>C</strong> is correct."
     }
   ]
 }

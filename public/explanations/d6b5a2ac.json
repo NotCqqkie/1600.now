@@ -1,0 +1,15 @@
+{
+  "questionId": "d6b5a2ac",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the direct result",
+      "content": "The passage says friction between graphene pieces was already extremely low. When the researchers added oil as lubrication, that friction nearly vanished."
+    },
+    {
+      "title": "Reject other events",
+      "content": "Choice A claims the graphene moved to one surface, which is not stated. Choice C describes nanotubes breaking down, a setup step before the oil. Choice D contradicts the stated near-vanishing of friction. The answer is <strong>B</strong>."
+    }
+  ]
+}

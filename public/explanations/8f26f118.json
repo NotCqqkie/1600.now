@@ -1,0 +1,19 @@
+{
+  "questionId": "8f26f118",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the needed evidence",
+      "content": "The claim needs evidence that Bianchini used a dot in a number where the dot marks a non-whole value. That would show an early decimal point in Bianchini's own calculations, not merely a decorative or separating mark."
+    },
+    {
+      "title": "Reject unrelated findings",
+      "content": "Choice A weakens the claim because ordinary dots could separate letters or whole numbers. Choice B concerns Clavius, not Bianchini. Choice D says some Bianchini calculations used whole numbers and were inaccurate, which cuts against the decimal-point claim."
+    },
+    {
+      "title": "Use Bianchini's table",
+      "content": "Choice C supplies the needed evidence: a 1440s Bianchini manuscript has a dot between two numbers in a context suggesting a non-whole value. That directly supports the underlined claim about the earliest decimal point. The answer is <strong>C</strong>."
+    }
+  ]
+}

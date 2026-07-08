@@ -1,0 +1,15 @@
+{
+  "questionId": "2b0f5634",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the requested difference",
+      "content": "The notes give one clear difference between the fox species: fennec foxes have sixty-four chromosomes, while red foxes have thirty-four."
+    },
+    {
+      "title": "Require both numbers",
+      "content": "Choice A discusses genes in fennec fox chromosomes without comparing the species. Choice C states a shared feature. Choice D gives only the red fox's count. The remaining sentence directly contrasts sixty-four chromosomes with thirty-four. The answer is <strong>B</strong>."
+    }
+  ]
+}

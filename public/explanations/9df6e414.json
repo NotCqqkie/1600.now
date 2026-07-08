@@ -1,0 +1,15 @@
+{
+  "questionId": "9df6e414",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the requested example",
+      "content": "The goal is to name a specific particle physicist whose work focuses on neutrinos. A general statement about neutrinos or particle physics will not satisfy an example request."
+    },
+    {
+      "title": "Reject general statements",
+      "content": "Choice A describes neutrinos without naming a physicist. Choice C discusses neutrino research generally, and Choice D says particle physicists can study neutrinos without naming an individual. The remaining choice names Viktor M. Sokolov and connects him to neutrino oscillation research. The answer is <strong>B</strong>."
+    }
+  ]
+}

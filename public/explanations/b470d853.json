@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify the criterion",
-      "content": "The phrase “the park with the highest monthly recreation visits in all three months” requires finding which park led the chart in June, July, and August."
+      "content": "The phrase \"the park with the highest monthly recreation visits in all three months\" requires finding which park led the chart in June, July, and August."
     },
     {
       "title": "Compare the data",
-      "content": "Yellowstone dominates with 950, 1,050, and 925 thousand visits across the three months. Rocky Mountain, Grand Canyon, and Zion each record lower values in every month. That is the correct answer."
+      "content": "Yellowstone has about 950, 1,050, and 925 thousand visits across the three months. Rocky Mountain, Grand Canyon, and Zion are lower in each month. The answer is <strong>C</strong>."
     }
   ]
 }

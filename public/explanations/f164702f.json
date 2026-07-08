@@ -1,0 +1,15 @@
+{
+  "questionId": "f164702f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the storage qualifier",
+      "content": "The passage says natural history specimens can preserve valuable historical DNA, even from extinct species. But it also says archival specimens are sometimes stored in ways that compromise DNA quality, making the usefulness of those specimens variable rather than guaranteed."
+    },
+    {
+      "title": "Reject stronger claims",
+      "content": "A says the specimens are generally of marginal value, which contradicts the described benefits. B adds a claim about extraction taking a long time. C limits their use to organisms with major evolutionary change, which the passage does not do. The remaining choice preserves both the value and the limitation. The answer is <strong>D</strong>."
+    }
+  ]
+}

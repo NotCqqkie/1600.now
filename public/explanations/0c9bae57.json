@@ -1,0 +1,15 @@
+{
+  "questionId": "0c9bae57",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the time",
+      "content": "The input $x$ is the number of minutes after the glider begins to descend. For $3$ minutes, evaluate $f(3)$:<br/>$$f(3)=-50(3)+390$$"
+    },
+    {
+      "title": "Calculate the height",
+      "content": "Simplify the expression:<br/>$$f(3)=-150+390=240$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

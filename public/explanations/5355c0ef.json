@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Match the leading coefficient",
-      "content": "The expression $0.40x^2 + 0.48x + 1.12$ equals $a(5x^2 + 6x + 14)$. Expanding the right side gives $5ax^2 + 6ax + 14a$. For the $x^2$ terms to match, we need: $$0.40 = 5a$$"
+      "title": "Compare matching coefficients",
+      "content": "If\n$$\n0.40x^2+0.48x+1.12=a(5x^2+6x+14)\n$$\nthen the $x^2$ coefficients must match:\n$$\n0.40=5a\n$$"
     },
     {
-      "title": "Solve for a",
-      "content": "Divide both sides by 5 to isolate $a$: $$a = \\frac{0.40}{5} = 0.08$$ The value of $a$ is $0.08$."
+      "title": "Divide by the coefficient",
+      "content": "Solve for $a$ by dividing both sides by $5$:\n$$\na=\\frac{0.40}{5}\n$$\nThe answer is <strong>.08</strong>."
     }
   ]
 }

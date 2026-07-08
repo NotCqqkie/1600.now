@@ -1,0 +1,15 @@
+{
+  "questionId": "b91abe2e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a decline",
+      "content": "The researcher claims that some northern freshwater lakes had fewer days of surface ice by the mid-2000s than they had in the early 1980s. A typical example must compare the same lake across those two winters."
+    },
+    {
+      "title": "Reject nondecline examples",
+      "content": "A reports only 2005-06 data. C shows Spirit Lake with more ice later, not fewer. D reports only 1980-81 data. The remaining option compares Kitusjarvi across both winters and shows fewer days later. The answer is <strong>B</strong>."
+    }
+  ]
+}

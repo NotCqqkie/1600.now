@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find angle UVS",
-      "content": "Since $U$, $V$, and $R$ are collinear, $\\angle UVS$ and $\\angle RVS$ form a linear pair:<br/>$$\\angle UVS=180^\\circ-41^\\circ=139^\\circ$$"
+      "content": "Since $U$, $V$, and $R$ are collinear, angles UVS and RVS form a linear pair:\n$$\n180^\\circ-41^\\circ=139^\\circ\n$$"
     },
     {
       "title": "Find angle VUS",
-      "content": "Because $U$, $T$, and $S$ are collinear, $\\angle USV$ equals the given $29^\\circ$ angle at $S$. In triangle $UVS$:<br/>$$\\angle VUS=180^\\circ-139^\\circ-29^\\circ=12^\\circ$$"
+      "content": "Because $U$, $T$, and $S$ are collinear, angle USV equals the given $29^\\circ$ angle at $S$. In triangle $UVS$:\n$$\n180^\\circ-139^\\circ-29^\\circ=12^\\circ\n$$"
     },
     {
       "title": "Use the isosceles triangle",
-      "content": "In triangle $RTU$, $RT=TU$, so the base angles at $R$ and $U$ are equal. The angle at $U$ is $12^\\circ$, so the angle at $R$ is also $12^\\circ$. Therefore:<br/>$$x=180^\\circ-12^\\circ-12^\\circ=156^\\circ$$<br/>The answer is <strong>156</strong>."
+      "content": "In triangle $RTU$, $RT=TU$, so the base angles at $R$ and $U$ are equal. The angle at $U$ is $12^\\circ$, so the angle at $R$ is also $12^\\circ$:\n$$\nx=180^\\circ-12^\\circ-12^\\circ=156^\\circ\n$$\nThe answer is <strong>156</strong>."
     }
   ]
 }

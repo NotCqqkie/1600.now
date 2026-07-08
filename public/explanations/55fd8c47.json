@@ -1,0 +1,15 @@
+{
+  "questionId": "55fd8c47",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the causal relationship",
+      "content": "The sentence compares the lion's top running speed with the swift's flying speed, then explains why the two speeds differ. The words after the blank identify the cause: flight-related features do less to limit top speed than running-related features do. So the blank must describe the speed difference as the result of that physical fact, not as a goal, denial, or explanation of it."
+    },
+    {
+      "title": "Eliminate the wrong relationships",
+      "content": "Choice A - a repudiation. This means a rejection or denial, but the speed difference does not reject the fact about physical features. Choice B - an explanation. This reverses the logic, because the physical features explain the speed difference, not the other way around. Choice C - an objective. This would make the speed difference a goal, which does not fit. Choice D - a consequence. This means a result or effect, matching the cause-and-effect relationship in the sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

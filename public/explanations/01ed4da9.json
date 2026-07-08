@@ -1,0 +1,15 @@
+{
+  "questionId": "01ed4da9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "The two given outputs are the same: $f(0)=4$ and $f(6)=4$. The slope is therefore $0$:<br/>$$\\frac{4-4}{6-0}=0$$"
+    },
+    {
+      "title": "Use the constant value",
+      "content": "A linear function with slope $0$ is constant. Since its output is $4$, the function is $f(x)=4$. The answer is <strong>C</strong>."
+    }
+  ]
+}

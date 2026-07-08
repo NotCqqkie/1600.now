@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "Text 2 emphasizes that valid claims about plate tectonics must rest on “empirical evidence from the geological record” rather than theoretical models, then provides such evidence (zircon geochemistry) to argue for an earlier timeline of 4.2 billion years ago."
+      "title": "Contrast the evidence types",
+      "content": "Text 1 describes researchers who use computer models to argue that plate movement began about 3 billion years ago. Text 2 says claims about tectonic movement must rest on empirical geological evidence, then cites zircon chemistry suggesting movement as early as 4.2 billion years ago."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "The correct answer asserts that empirical geological evidence provides more definitive proof than computer models, with implications for an earlier timeline—the exact way Text 2's author would respond by demonstrating that better evidence changes the answer.<br/><br/>The other choices wrongly assume computer models remain valid and need only correction, refinement, or comparison, missing Text 2's fundamental point that empirical geological data replaces reliance on models entirely.<br/><br/>That is the correct answer."
+      "title": "Reject model-focused responses",
+      "content": "Choice A challenges mantle temperature, which Text 2 does not do. Choice B and Choice C focus on comparing or improving computer models, but Text 2 favors geological evidence over models. The option about more definitive evidence producing a different timeline matches this response. The answer is <strong>D</strong>."
     }
   ]
 }

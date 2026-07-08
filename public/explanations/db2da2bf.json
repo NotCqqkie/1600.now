@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key facts about the eccentric moon",
-      "content": "The passage states: (1) three moons have prograde orbits; (2) \"all but one of the 20 moons are thought to be remnants\" of bodies broken apart in collisions; (3) the one exceptional moon orbits in the same direction as the planet's spin (prograde) but has a highly eccentric orbit, suggesting a different origin than the other 19."
+      "title": "Track the exceptional moon",
+      "content": "The text says 20 moons were confirmed. All but one are thought to be remnants of earlier bodies that broke apart. The one exceptional moon orbits in the same direction as Saturn’s spin, so it has a prograde orbit, and its unusual eccentricity may suggest a different origin."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"It doesn't have a retrograde orbit, but it likely has the same origin as the moons with retrograde orbits.\"</strong>: The passage says the eccentric moon's origin may be <em>different</em> from all other 19 moons, not the same as the retrograde ones. &#10007;</li><li><strong>\"Its orbit is so tilted with respect to the other moons' orbits that it's neither prograde nor retrograde.\"</strong>: The passage explicitly says the moon orbits in the same direction as the planet's spin, i.e., it is prograde. &#10007;</li><li><strong>\"It has a prograde orbit that is likely the result of having collided with another body orbiting Saturn.\"</strong>: The passage says the eccentric orbit suggests a <em>different</em> origin than the other moons, which are the collision remnants; ascribing the orbit to a collision contradicts this. &#10007;</li><li><strong>\"It has a prograde orbit and may not be a remnant of an earlier body that orbited Saturn.\"</strong>: Correctly combines both facts: the orbit is prograde (same direction as planet's spin) and as the one exception to \"all but one are remnants,\" it may not be a collision remnant. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate unsupported details",
+      "content": "Choice A says the exceptional moon likely has the same origin as the retrograde moons, but the text says it may have a different origin. Choice B says it is neither prograde nor retrograde, but it orbits in the direction Saturn spins. Choice C invents a collision as the reason for its orbit. The supported description is prograde and possibly not a remnant. The answer is <strong>D</strong>."
     }
   ]
 }

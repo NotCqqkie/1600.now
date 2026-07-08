@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The word “that” introduces a noun clause with the subject “the rate of speciation.” This noun clause requires a verb form to connect the subject to “triple.”"
+      "title": "Find the noun clause",
+      "content": "The model predicts that the rate of speciation on a distant island ____ triple the rate on a closer island. The that clause needs a finite main verb."
     },
     {
-      "title": "Apply the finite verb rule",
-      "content": "A noun clause must have a finite (conjugated) verb as its main verb. “Will be” is the only finite option and correctly expresses the future prediction.<br/><br/>The other choices are non-finite forms—a participle and infinitives—that cannot function as the main verb of a noun clause.<br/><br/><strong>D</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "<ul><li><strong>Choice A</strong>: Being is a participle and cannot serve as the clause's main verb.</li><li><strong>Choice B</strong>: To be is an infinitive, not a finite verb.</li><li><strong>Choice C</strong>: To have been is also an infinitive phrase.</li></ul>"
+    },
+    {
+      "title": "Use the finite prediction verb",
+      "content": "A finite future-tense verb completes the clause and matches the model's prediction about the island's speciation rate. The answer is <strong>D</strong>."
     }
   ]
 }

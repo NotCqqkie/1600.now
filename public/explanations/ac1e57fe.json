@@ -1,0 +1,15 @@
+{
+  "questionId": "ac1e57fe",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the included angle",
+      "content": "The given side equality is $JK=MN$, and the given angles at $J$ and $M$ are equal. Angle $J$ is between sides $JK$ and $JL$, and angle $M$ is between sides $MN$ and $MP$."
+    },
+    {
+      "title": "Choose the matching side",
+      "content": "To use side-angle-side congruence, the second side must be the other side adjacent to the given angle. Choice A gives a non-included side and creates an ambiguous side-side-angle setup. Choice C compares two angles inside only one triangle, and Choice D leaves only one side and one angle, which cannot determine the triangles or fix the remaining side lengths. The sufficient added information is $JL=MP$. The answer is <strong>B</strong>."
+    }
+  ]
+}

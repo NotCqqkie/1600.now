@@ -1,0 +1,15 @@
+{
+  "questionId": "a1827f15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the absolute phrase",
+      "content": "The sentence first names two events as important moments in US civil rights history. The phrase beginning with <em>the former</em> and <em>the latter</em> then explains what each event did. That explanatory absolute phrase should be attached to the main clause with a comma."
+    },
+    {
+      "title": "Avoid run-ons and fragments",
+      "content": "A gives no punctuation between the main clause and the explanatory phrase, creating a run-on. C adds <em>as</em> before a phrase that lacks a finite verb, and D makes the explanatory phrase a sentence fragment after a period. A comma after <em>history</em> correctly joins the explanation. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6804d08e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the EVA duration",
+      "content": "The student wants to stress how long Ortega and Nair's EVA lasted. The relevant notes give the duration as 7 hours and 55 minutes and add that the EVA is among the longest completed spacewalks to date."
+    },
+    {
+      "title": "Choose the duration-focused sentence",
+      "content": "A explains what the astronauts did during the EVA but not how long it lasted. C says they completed an EVA during Expedition 14 but omits duration. D incorrectly uses the full mission dates as if they were the EVA's duration. The remaining choice foregrounds 7 hours and 55 minutes. The answer is <strong>B</strong>."
+    }
+  ]
+}

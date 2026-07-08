@@ -1,0 +1,19 @@
+{
+  "questionId": "30c411d1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the snow timing claim",
+      "content": "The researchers conclude that net CO2 increases when snow cover arrives before the soil surface freezes. A supporting finding must explain why that timing would raise carbon dioxide output more than plant uptake."
+    },
+    {
+      "title": "Connect insulation to respiration",
+      "content": "If early snow insulates unfrozen soil, microbes can keep respiring and releasing CO2 even while plants are not actively growing enough to absorb it. That mechanism directly explains why early snow would increase net carbon dioxide release. It links the timing of snow cover to continued winter microbial activity, which is the key causal step."
+    },
+    {
+      "title": "Reject mismatched mechanisms",
+      "content": "Choice A lowers respiration, Choice C discusses soil moisture strength without explaining timing, and Choice D concerns where snow persists rather than when it arrives. The remaining finding says snow insulation lets microbial respiration continue while plants are not growing. The answer is <strong>B</strong>."
+    }
+  ]
+}

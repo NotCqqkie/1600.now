@@ -1,0 +1,15 @@
+{
+  "questionId": "7d0051fd",
+  "correctAnswer": "121",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial time",
+      "content": "The variable $x$ is seconds after the pinecone fell. Before it fell corresponds to the initial time, $x=0$."
+    },
+    {
+      "title": "Evaluate the height function",
+      "content": "Substitute $0$ into the function.\n$$\n-16(0)^2+121=121\n$$\nThe answer is <strong>121</strong>."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "questionId": "83be7fff",
+  "correctAnswer": "18,10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: graph or solve the equation",
+      "content": "Type the equation into Desmos as written:<br/>$$(x - 18)(x - 10)(x + 3)(x + 19) = 0$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $18$ or $10$.",
+      "desmosExpressions": [
+        "(x - 18)(x - 10)(x + 3)(x + 19) = 0"
+      ]
+    },
+    {
+      "title": "Find the roots",
+      "content": "Set each factor of $(x-18)(x-10)(x+3)(x+19)=0$ to zero: $x=18$, $x=10$, $x=-3$, and $x=-19$."
+    },
+    {
+      "title": "Identify the positive solution",
+      "content": "The positive solutions are $18$ and $10$. The answer is <strong>18</strong> or <strong>10</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d126ca80",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the contrast",
+      "content": "The goal is to emphasize a difference between Rafael Quinones and James Catchings. The useful note is that Quinones played guitar while Catchings played cello."
+    },
+    {
+      "title": "Reject noncontrast choices",
+      "content": "<ul><li><strong>Choice A</strong> emphasizes that both musicians contributed to India Arie albums.</li><li><strong>Choice C</strong> mentions only Quinones and focuses on release timing.</li><li><strong>Choice D</strong> discusses the albums without naming either musician.</li></ul>"
+    },
+    {
+      "title": "Name the different instruments",
+      "content": "The remaining choice uses but and whereas to contrast guitar with cello, directly emphasizing the difference between the two musicians. The answer is <strong>B</strong>."
+    }
+  ]
+}

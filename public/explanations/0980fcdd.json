@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the linear equation into the quadratic",
-      "content": "From the second equation, $y = -7x + 49$. Substitute into $x^2 = 7x + y$:<br/>$$x^2 = 7x + (-7x + 49)$$<br/>The $7x$ and $-7x$ cancel:<br/>$$x^2 = 49$$"
+      "title": "Substitute for y",
+      "content": "From the second equation, $y=-7x+49$. Substitute this into the first equation.<br/>$$x^2=7x+(-7x+49)$$<br/>$$x^2=49$$"
     },
     {
-      "title": "Solve for x",
-      "content": "$$x = 7 \\text{ or } x = -7$$"
+      "title": "Find possible products",
+      "content": "The possible $x$-values are $7$ and $-7$. If $x=7$, then $y=0$; if $x=-7$, then $y=98$.<br/>$$xy=7(0)=0$$<br/>$$xy=(-7)(98)=-686$$"
     },
     {
-      "title": "Compute xy for each solution",
-      "content": "Use $y = -7x + 49$:<br/>If $x = 7$: $y = -49 + 49 = 0$, so $xy = 7 \\cdot 0 = 0$.<br/>If $x = -7$: $y = 49 + 49 = 98$, so $xy = -7 \\cdot 98 = -686$.<br/>The possible values of $xy$ are $0$ and $-686$."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A) 0:</strong> Matches the solution $(7, 0)$ since $7 \\cdot 0 = 0$.</li><li><strong>B) 7:</strong> Neither solution yields $xy = 7$.</li><li><strong>C) 14:</strong> Neither solution yields $xy = 14$.</li><li><strong>D) 49:</strong> Neither solution yields $xy = 49$.</li></ul>That matches <strong>Choice A &mdash; 0</strong>."
+      "title": "Match the listed value",
+      "content": "Of the products found, only $0$ appears among the choices. The answer is <strong>A</strong>."
     }
   ]
 }

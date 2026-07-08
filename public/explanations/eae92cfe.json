@@ -1,0 +1,19 @@
+{
+  "questionId": "eae92cfe",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the egg-length contrast",
+      "content": "The question asks for a sentence that emphasizes a difference between the eggs of two bird species. The notes give the relevant contrast: <em>Acrocephalus scirpaceus</em> eggs averaged 1.80 cm, while <em>Alcedo atthis</em> eggs averaged 2.19 cm. The best choice must make that difference explicit."
+    },
+    {
+      "title": "Use numbers with contrast",
+      "content": "A sentence can mention both species without emphasizing their egg difference, and it can even list both measurements without highlighting which eggs are longer. To satisfy the goal, the sentence needs both the actual averages and language that compares those averages for the reader."
+    },
+    {
+      "title": "Require explicit comparison",
+      "content": "Choice A says the species were examples in a broader study but gives no egg lengths. Choice B names the two species and their orders, but it also omits the measurements and does not state a difference. Choice C includes both numbers, but it merely lists them, leaving the reader to infer the contrast. Choice D gives both measurements and uses contrast language: <em>whereas</em> and <em>longer</em> directly show that one species' eggs had a greater average length. The answer is <strong>D</strong>."
+    }
+  ]
+}

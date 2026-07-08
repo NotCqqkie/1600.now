@@ -9,7 +9,7 @@
     },
     {
       "title": "Apply the arc length formula",
-      "content": "Arc length is proportional to its central angle:<br/>$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$<br/>Substituting the central angle and circumference:<br/>$$\\text{Arc } AC = \\frac{90^{\\circ}}{360^{\\circ}} \\times 36 = \\frac{1}{4} \\times 36 = 9$$<br/>That matches <strong>Choice A &mdash; 9</strong>.",
+      "content": "Arc length is proportional to its central angle:<br/>$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$<br/>Substituting the central angle and circumference:<br/>$$\\text{Arc } AC = \\frac{90^{\\circ}}{360^{\\circ}} \\times 36 = \\frac{1}{4} \\times 36 = 9$$<br/>That matches <strong>Choice A — 9</strong>.",
       "formula": "$$\\text{Arc length} = \\frac{\\theta}{360^{\\circ}} \\times C$$"
     }
   ]

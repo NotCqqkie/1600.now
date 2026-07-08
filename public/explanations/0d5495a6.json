@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use x = 0",
+      "title": "Substitute the input value",
       "content": "The function is $h(x)=x+b$, and the problem gives $h(0)=52$. Substitute $x=0$:<br/>$$h(0)=0+b=b$$"
     },
     {
-      "title": "Match the given output",
-      "content": "Since $h(0)=52$ and $h(0)=b$, it follows that:<br/>$$b=52$$"
-    },
-    {
-      "title": "Interpret the shortcut",
-      "content": "In $h(x)=x+b$, $b$ is also the value of the function when $x=0$, so the given y-intercept value directly gives $b$."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $b$ is <strong>52</strong>."
+      "title": "Use the given output",
+      "content": "Since $h(0)=b$ and $h(0)=52$, the constant is:<br/>$$b=52$$<br/>The answer is <strong>52</strong>."
     }
   ]
 }

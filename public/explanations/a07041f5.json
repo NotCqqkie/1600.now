@@ -1,0 +1,15 @@
+{
+  "questionId": "a07041f5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Form the direct question",
+      "content": "The words \"to find the answer\" show that the preceding blank must pose a direct question. A direct question needs auxiliary-subject inversion and a question mark."
+    },
+    {
+      "title": "Check word order and punctuation",
+      "content": "A has declarative word order and a period. B has a question mark but still uses declarative order. C has inversion but ends with a period. The remaining option has both inversion and a question mark. The answer is <strong>D</strong>."
+    }
+  ]
+}

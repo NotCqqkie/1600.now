@@ -1,0 +1,15 @@
+{
+  "questionId": "2541b758",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the logging result",
+      "content": "The study found that plots with limited logging may be more robust than unlogged plots. The blank must draw a cautious conclusion from that result: limited logging can support forest health, not that all logging or unrelated strategies are best."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice B brings in other strategies that were not compared. Choice C says the benefits may be unknowable, but the study already reports positive results. Choice D says untouched forests may be best, which contradicts the comparison with unlogged plots. The remaining option keeps the conclusion limited to controlled logging. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "60692e17",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define Ellis's finding",
+      "content": "Ellis found that social features made users more aware of how other people might perceive their listening activity. That awareness then influenced how users managed what they played, shared, or organized on the platform."
+    },
+    {
+      "title": "Check the quoted behavior",
+      "content": "The quotation needs to show more than ordinary music listening. It must show a user changing listening choices because friends can see or react to those choices. That connection between social visibility and behavior is the central point of the study."
+    },
+    {
+      "title": "Eliminate the other options",
+      "content": "Choice A says streaming feels passive and does not require deliberate choices; that is about convenience, not social perception. Choice C says recommendations can feel repetitive because they depend on past listening habits; that is about an algorithm. Choice D says social features create a shared listening experience with friends; that describes connection, not changed listening management. The remaining quotation describes choosing songs for friends who follow the user rather than for personal preference, so it directly shows social perception shaping listening choices. The answer is <strong>B</strong>."
+    }
+  ]
+}

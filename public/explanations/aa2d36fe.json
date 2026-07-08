@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
-    },
-    {
-      "title": "Identify the standard form of a circle equation",
-      "content": "The standard form of a circle equation reveals the center and radius directly. If an equation matches this pattern, the center is at $(h,k)$ and the radius is $r$, with no additional work needed.",
+      "title": "Use circle standard form",
+      "content": "A circle written in standard form shows both the center and radius directly. In this form, $h$ and $k$ give the center coordinates, and the value on the right is the square of the radius.",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
     },
     {
-      "title": "Match the given equation to the standard form",
-      "content": "The given equation is $$(x-15)^2 + (y-k)^2 = 81$$ Comparing directly: <ul><li>$(x-15)$ means $h = 15$</li><li>$(y-k)$ means the $y$-coordinate is $k$</li><li>$81 = 9^2$, so $r = 9$</li></ul> The center is at $(15, k)$ and the radius is $9$. That is the correct answer."
+      "title": "Match the given equation",
+      "content": "Compare the given equation to the standard form.<br/>$$(x-15)^2+(y-k)^2=81$$<br/>The center is $(15,k)$. Since $81=9^2$, the radius is $9$. The answer is <strong>A</strong>."
     }
   ]
 }

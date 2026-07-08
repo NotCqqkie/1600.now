@@ -1,0 +1,15 @@
+{
+  "questionId": "3558db8a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the capacities",
+      "content": "The first sentence gives London Array's capacity of about 630 MW. The next sentence gives Hornsea Project One's much larger capacity of 1,218 MW. The transition should signal that the two figures are being placed side by side."
+    },
+    {
+      "title": "Eliminate noncomparisons",
+      "content": "Choice A signals cause and effect, but London Array's capacity does not cause Hornsea's. Choice B signals restatement, but the second sentence gives a different fact. Choice D introduces an example of a general claim, which the first sentence does not provide. The answer is <strong>C</strong>."
+    }
+  ]
+}

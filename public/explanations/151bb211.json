@@ -1,0 +1,15 @@
+{
+  "questionId": "151bb211",
+  "correctAnswer": "-338",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Focus on the x coefficient",
+      "content": "The value of $b$ is the coefficient of $x$ in the expanded expression. In<br/>$$(8x-27)(14x+5)$$<br/>the $x$-term comes from the cross products."
+    },
+    {
+      "title": "Combine the cross products",
+      "content": "Compute the two $x$-terms.<br/>$$8x\\cdot5=40x$$<br/>$$(-27)(14x)=-378x$$<br/>$$40x-378x=-338x$$<br/>The answer is <strong>-338</strong>."
+    }
+  ]
+}

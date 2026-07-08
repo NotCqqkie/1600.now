@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\left|x-2\\right|=9$$Graph or solve it directly and read the x-value that works. The requested value is $11$.",
-      "desmosExpressions": [
-        "\\left|x-2\\right|=9"
-      ]
-    },
-    {
-      "title": "Recognize the two cases from the absolute value",
-      "content": "For $|x-2| = 9$, the absolute value definition tells us that either $x - 2 = 9$ or $x - 2 = -9$."
+      "title": "Split the absolute value",
+      "content": "The equation $|x-2|=9$ means<br/>$$x-2=9$$<br/>or<br/>$$x-2=-9$$"
     },
     {
       "title": "Solve both cases",
-      "content": "<strong>Case 1:</strong> If $x - 2 = 9$, then<br/>$$x = 11$$<strong>Case 2:</strong> If $x - 2 = -9$, then<br/>$$x = -7$$<br/>Since the problem asks for one possible solution, 11 is a valid answer."
+      "content": "Add $2$ to both equations:<br/>$$x=11$$<br/>$$x=-7$$"
+    },
+    {
+      "title": "Give one possible solution",
+      "content": "The question asks for one possible solution, so either solution would work. The answer is <strong>11</strong>.",
+      "desmosExpressions": [
+        "\\left|x-2\\right|=9"
+      ]
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the ratio scale factor",
-      "content": "The ratio $x:y$ is $8:3$. Since $x=184$, compare $184$ to the ratio part $8$: $$184\\div 8=23$$ So the actual values are $23$ times the ratio parts."
+      "title": "Write the ratio equation",
+      "content": "The ratio $x$ to $y$ is equivalent to $8$ to $3$, so<br/><br/>$$\\frac{x}{y}=\\frac{8}{3}$$"
     },
     {
-      "title": "Scale the y-part",
-      "content": "The $y$-part of the ratio is $3$, so $$y=3\\cdot 23=69$$"
+      "title": "Substitute the given value",
+      "content": "Use $x=184$:<br/><br/>$$\\frac{184}{y}=\\frac{8}{3}$$<br/><br/>Cross multiply:<br/><br/>$$8y=184(3)$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "The pair $(x,y)=(184,69)$ keeps the ratio because $$\\frac{184}{69}=\\frac{8}{3}$$ Enter <strong>69</strong>."
+      "title": "Solve for the missing value",
+      "content": "Finish the calculation:<br/><br/>$$8y=552$$<br/>$$y=69$$<br/><br/>The answer is <strong>69</strong>."
     }
   ]
 }

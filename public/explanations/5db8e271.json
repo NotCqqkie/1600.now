@@ -1,0 +1,15 @@
+{
+  "questionId": "5db8e271",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the h-term",
+      "content": "In the equation<br/>$$22h+18c=1{,}164$$<br/>$h$ is the number of hours worked at the regular job. Therefore, $22h$ is the amount earned from the regular job."
+    },
+    {
+      "title": "Identify the hourly rate",
+      "content": "The coefficient of $h$ is $22$, so the mechanic earns $22$ dollars for each hour at her regular job. The answer is <strong>A</strong>."
+    }
+  ]
+}

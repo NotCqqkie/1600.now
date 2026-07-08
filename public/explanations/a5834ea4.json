@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the constant function",
-      "content": "The function is $f(x)=42$. Because there is no $x$ term, the output is always $42$ no matter what input is used."
+      "title": "Read the constant function",
+      "content": "The equation $f(x)=42$ means the output is $42$ for every input $x$."
     },
     {
-      "title": "Evaluate the listed inputs",
-      "content": "For the table inputs $0$, $1$, and $2$: $$f(0)=42$$ $$f(1)=42$$ $$f(2)=42$$ The correct table must have $42$ in every output row."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is the only table with outputs $42$, $42$, and $42$. The other choices show outputs that do not stay equal to $42$, so <strong>B</strong> is correct."
+      "title": "Match the table",
+      "content": "The correct table must show $f(x)=42$ at $x=0$, $x=1$, and $x=2$. Only one table keeps the output constant at $42$. The answer is <strong>B</strong>."
     }
   ]
 }

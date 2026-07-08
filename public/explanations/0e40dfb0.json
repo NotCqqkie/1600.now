@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rectangle area formula",
-      "content": "The area of a rectangle is length times width, so multiply the given length and width."
+      "title": "Use rectangle area",
+      "content": "The area of a rectangle is length times width. Here the length is $4$ units and the width is $37$ units."
     },
     {
-      "title": "Use the area formula",
-      "content": "The area of a rectangle is length times width."
-    },
-    {
-      "title": "Substitute the dimensions",
-      "content": "With length $4$ and width $37$, the area expression is $4\\cdot37$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The expression $4\\cdot37$ matches <strong>Choice D &mdash; $4\\cdot37$</strong>. <strong>Choice A &mdash; $2\\left(4+37\\right)$</strong> is perimeter, <strong>Choice B &mdash; $2\\left(4\\cdot37\\right)$</strong> doubles the area, and <strong>Choice C &mdash; $4+37$</strong> only adds the side lengths."
+      "title": "Write the product",
+      "content": "The area expression is:<br/>$$4\\cdot37$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

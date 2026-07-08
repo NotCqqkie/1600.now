@@ -1,0 +1,15 @@
+{
+  "questionId": "c256cd81",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the study sequence",
+      "content": "The passage describes convergent evolution, then gives two studies of it: Chen and colleagues on shared genetic mechanisms and Zwaan and colleagues on different genetic mechanisms. It then mentions Green and Extavour's third study of both types."
+    },
+    {
+      "title": "Reject added claims",
+      "content": "A adds speculation about future studies, B invents an assumption being disproved, and C invents a critique while reversing the focus. The actual structure is phenomenon, two study examples, and a third study of the same phenomenon. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the consumer price",
-      "content": "The consumer price is <strong>280% of the purchase price</strong>: <br/> $$4.50 \\times 2.80 = 12.60$$ <br/> The consumer price is \\$12.60."
+      "content": "The consumer price is $280\\%$ of $4.50$, so multiply by $2.80$.\n$$4.50(2.80)=12.60$$"
     },
     {
-      "title": "Apply the 65% discount",
-      "content": "<strong>65% off</strong> means the customer pays 35% of the consumer price (100% - 65% = 35%): <br/> $$12.60 \\times 0.35 = 4.41$$ <br/> The discounted price of each remaining notebook is <strong>\\$4.41</strong>."
+      "title": "Apply the discount",
+      "content": "A $65\\%$ discount means the remaining price is $35\\%$ of the consumer price.\n$$12.60(0.35)=4.41$$\nThe answer is <strong>4.41</strong>."
     }
   ]
 }

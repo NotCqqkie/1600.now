@@ -1,0 +1,15 @@
+{
+  "questionId": "1ac55c29",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Notice the target expression",
+      "content": "The question asks for $3x+5y$. Adding the two equations produces that exact left side."
+    },
+    {
+      "title": "Add the equations",
+      "content": "Add corresponding sides.\n$$(x+4y)+(2x+y)=21+5$$\n$$3x+5y=26$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

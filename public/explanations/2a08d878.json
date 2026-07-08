@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate total books",
-      "content": "There are <em>n</em> mystery books and 18 biography books, so the total number of books is the sum: $$n + 18$$."
+      "title": "Find the total books",
+      "content": "There are $n$ mystery books and $18$ biography books, so the total number of books is\n$$\nn+18\n$$"
     },
     {
-      "title": "Compute probability of mystery",
-      "content": "Probability equals (number of mystery books) divided by (total books). Substitute the values: $$\\frac{n}{n+18}$$.<br/>That matches <strong>Choice B &mdash; $\\frac{n}{n + 18}$</strong>."
+      "title": "Use the probability ratio",
+      "content": "The probability of selecting a mystery book is the number of mystery books divided by the total number of books:\n$$\n\\frac{n}{n+18}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

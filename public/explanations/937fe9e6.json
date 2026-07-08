@@ -1,0 +1,15 @@
+{
+  "questionId": "937fe9e6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use both required facts",
+      "content": "The question asks for an introduction to Harold Keating and what he is known for. The useful notes identify him as an electronic communications specialist connected to Edison Machine Works and say he pioneered radio technology that led to the first speech transmission by radio. A complete choice must include both identity and achievement."
+    },
+    {
+      "title": "Reject incomplete summaries",
+      "content": "Choice A identifies Keating but omits his defining radio achievement. Choice C shifts focus to Edison and his employees. Choice D shifts focus to Walter J. Ames and electric traction, leaving Keating out. The answer is <strong>B</strong>."
+    }
+  ]
+}

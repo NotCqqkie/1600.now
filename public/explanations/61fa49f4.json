@@ -1,0 +1,15 @@
+{
+  "questionId": "61fa49f4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the negative value",
+      "content": "The sentence asks for a neighboring species with a negative effect value. In the table, leafy spurge is listed as a neighboring species with an effect value of -0.3238, the only negative value."
+    },
+    {
+      "title": "Reject positive or target entries",
+      "content": "A has a positive effect value of 0.3580. B has a positive effect value of 0.2523. C is listed as a target species, not the neighboring species for the negative row. The answer is <strong>D</strong>."
+    }
+  ]
+}

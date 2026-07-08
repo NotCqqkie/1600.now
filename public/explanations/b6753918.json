@@ -1,0 +1,19 @@
+{
+  "questionId": "b6753918",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle relationship",
+      "content": "Lines $r$ and $s$ are parallel, and line $t$ is a transversal. The angle labeled $x^\\circ$ is in the same relative position as the $107^\\circ$ angle on the other parallel line."
+    },
+    {
+      "title": "Use corresponding angles",
+      "content": "Corresponding angles formed by a transversal crossing parallel lines are equal. Because the two angles are corresponding, their measures are the same.\n$$x=107$$"
+    },
+    {
+      "title": "Match the angle value",
+      "content": "The value of $x$ is $107$. It is not $73$, because $73^\\circ$ is the supplement of $107^\\circ$, and it is not $90$ or $180$. The answer is <strong>D</strong>."
+    }
+  ]
+}

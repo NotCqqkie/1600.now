@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understanding percentage increase",
-      "content": "When a quantity increases by 9%, the new value equals the original amount plus 9% of the original. Mathematically:<br/>$$\\text{New} = \\text{Original} + 0.09 \\times \\text{Original}$$<br/>Factoring out the original:<br/>$$\\text{New} = \\text{Original}(1 + 0.09) = 1.09 \\times \\text{Original}$$",
+      "title": "Convert the percent increase",
+      "content": "A $9\\%$ increase means the new population is the original population plus $9\\%$ of the original population.<br/>$$1+\\frac{9}{100}=1+0.09=1.09$$",
       "formula": "$$1 + \\frac{p}{100}$$"
     },
     {
-      "title": "Finding the multiplier k",
-      "content": "From our calculation, the 2018 population equals 1.09 times the 2017 population. We're told the 2018 population equals k times the 2017 population. Therefore:<br/>$$k = 1.09$$<br/>This corresponds to choice C."
+      "title": "Identify the multiplier",
+      "content": "The $2018$ population is $1.09$ times the $2017$ population, so $k=1.09$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "questionId": "0e8d4e8b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the slope direction",
+      "content": "The displayed best-fit line falls from left to right, so its slope is negative. This eliminates the choices with positive slope."
+    },
+    {
+      "title": "Use the intercept",
+      "content": "The line crosses the $y$-axis near $2.3$, not near $16.3$. The equation with negative slope and that intercept is $y=-x+2.3$. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=-x+2.3"
+      ]
+    }
+  ]
+}

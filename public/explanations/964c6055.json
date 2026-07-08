@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The goal is a &quot;historical overview of the two theories&quot; &mdash; both extramission and intromission must appear, and the response should show how their debate unfolded over time."
+      "title": "Cover the whole debate",
+      "content": "The student wants a historical overview of the two theories of vision. That means the sentence should include both extramission and intromission, show that scholars were divided between them for many centuries, and identify Ibn al-Haytham's eleventh-century experiments as the later development that largely settled the debate in favor of intromission. Any option that discusses only one theory or one ancient supporter is too narrow."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Scholars were divided between the extramission and intromission theories of vision until Ibn al-Haytham's eleventh-century experiments largely settled the debate in support of intromission.</strong>: Names both theories, frames the centuries-long scholarly division, and marks the historical resolution &mdash; a complete overview. &#10003;</li><li><strong>Choice B &mdash; Through two opposing theories of vision—extramission and intromission—Euclid, Aristotle, and Ibn al-Haytham held that a form of radiation is emitted either from objects or from the eyes.</strong>: Names both theories but wrongly implies all three scholars shared the same view; it misrepresents Euclid and Aristotle as aligned with Ibn al-Haytham rather than opposed to each other. &#10007;</li><li><strong>Choice C &mdash; While Ibn al-Haytham largely settled the debate in the eleventh century, Aristotle supported the theory of intromission centuries before.</strong>: Covers only intromission and omits extramission entirely; not a historical overview of both theories. &#10007;</li><li><strong>Choice D &mdash; Before the eleventh century, the ancient Greek philosopher Aristotle supported the intromission theory, which held that objects emit a form of radiation that reaches the eyes.</strong>: Covers only intromission and omits extramission entirely; not a historical overview of both theories. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Avoid partial histories",
+      "content": "Choice B names the two theories but muddles the history by grouping Euclid, Aristotle, and Ibn al-Haytham together as if their positions were not divided. Choice C mentions Aristotle and Ibn al-Haytham, but it omits extramission, so it is not an overview of both theories. Choice D describes only Aristotle's support for intromission and also omits extramission. Choice A includes the centuries-long division between extramission and intromission and the later resolution through Ibn al-Haytham's experiments supporting intromission. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the two sentences",
-      "content": "The first sentence says the soldiers&rsquo; contribution was <strong>overlooked for decades</strong>. The second sentence says that <strong>in 2017, lawmakers declared recognition</strong>. These two events are sequential in time &mdash; long neglect followed by eventual honor. The transition word must bridge a time gap, not compare or list.<ul><li><strong>\"Lastly,\"</strong>: &ldquo;Lastly&rdquo; signals the final item in an enumerated list. There is no list here. &#10007;</li><li><strong>\"Then,\"</strong>: &ldquo;Then&rdquo; marks what happened next in time &mdash; after decades of being overlooked, <em>then</em> in 2017 recognition came. &#10003;</li><li><strong>\"Similarly,\"</strong>: &ldquo;Similarly&rdquo; signals that the second sentence resembles the first. Being overlooked and receiving recognition are opposites, not similar. &#10007;</li><li><strong>\"For example,\"</strong>: &ldquo;For example&rdquo; introduces an illustration of the previous point. Recognition in 2017 is not an example of being overlooked. &#10007;</li></ul>"
+      "title": "Identify the time sequence",
+      "content": "The passage first says the soldiers' contribution was overlooked for decades. The next sentence moves forward to 2017, when lawmakers created a day of recognition."
     },
     {
-      "title": "Confirm the match",
-      "content": "&ldquo;Then&rdquo; is the only transition that captures the temporal sequence: decades of neglect followed by eventual acknowledgment in 2017.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Use the next-event transition",
+      "content": "\"Then\" marks what happened later in time: recognition followed decades of neglect. A signals the last item in a list, C signals similarity, and D introduces an example, so they misstate the relationship. The answer is <strong>B</strong>."
     }
   ]
 }

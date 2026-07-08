@@ -1,0 +1,15 @@
+{
+  "questionId": "d18525d5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Start with $$-5|6x+7|+5=-30$$ Subtract $5$, then divide by $-5$: $$-5|6x+7|=-35$$ $$|6x+7|=7$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "An absolute value of $7$ means $$6x+7=7$$ or $$6x+7=-7$$ These give $$x=0$$ and $$x=-\\frac{7}{3}$$ The answer is <strong>C</strong>."
+    }
+  ]
+}

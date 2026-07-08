@@ -1,0 +1,19 @@
+{
+  "questionId": "4b605f81",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The function is in vertex form:\n$$\nf(x)=\\frac{1}{9}(x-6)^2+3\n$$\nSo the vertex is $(6,3)$. The $x$-value is time in seconds, and the $y$-value is height in inches.",
+      "desmosExpressions": [
+        "f(x)=\\frac{1}{9}(x-6)^{2}+3",
+        "(6,3)"
+      ]
+    },
+    {
+      "title": "Interpret the minimum",
+      "content": "Because \n$$\n\\frac{1}{9}>0\n$$, the parabola opens upward, so the vertex is the lowest point. Its height coordinate is $3$, meaning the toy car's minimum height was $3$ inches above the ground.\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

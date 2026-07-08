@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Standard English Conventions question testing punctuation of a parenthetical aside. The phrase &ldquo;according to Swentzell&rdquo; interrupts the sentence between the subject (&ldquo;The arrangement of the figures&rdquo;) and the verb (&ldquo;represents&rdquo;). A comma already appears before &ldquo;according,&rdquo; so the blank must supply the closing punctuation that matches it."
+      "title": "Mark the interrupting phrase",
+      "content": "The phrase <em>according to Swentzell</em> interrupts the subject and verb of the sentence. Since a comma already appears before <em>according</em>, the phrase needs a matching comma after <em>Swentzell</em>."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Swentzell</strong>: No punctuation after the aside leaves the opening comma unmatched, violating the rule that a parenthetical interruption must be enclosed by a pair of matching punctuation marks. &#10007;</li><li><strong>Choice B &mdash; Swentzell,</strong>: A closing comma matches the opening comma, correctly enclosing the aside &ldquo;according to Swentzell&rdquo; and cleanly separating it from the verb. &#10003;</li><li><strong>Choice C &mdash; Swentzell:</strong>: A colon signals that an independent clause precedes it, but &ldquo;The arrangement of the figures, according to Swentzell&rdquo; is not an independent clause, so a colon is grammatically incorrect here. &#10007;</li><li><strong>Choice D &mdash; Swentzell—</strong>: A dash does not match the comma that opened the aside; paired punctuation must be the same type on both sides (comma&ndash;comma or dash&ndash;dash). &#10007;</li></ul>That is the correct answer."
+      "title": "Reject mismatched punctuation",
+      "content": "A leaves the interrupting phrase unclosed. C uses a colon even though the preceding words do not form an independent clause. D uses a dash that does not match the opening comma. The needed punctuation is a closing comma. The answer is <strong>B</strong>."
     }
   ]
 }

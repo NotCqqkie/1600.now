@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$4x=20$$<br/>$$-3x+y=-7$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Find the two coordinates",
+      "content": "From $4x=20$, divide by $4$ to get $x=5$. Substitute that into the second equation."
+    },
+    {
+      "title": "Add the coordinates",
+      "content": "$$-3(5)+y=-7$$$$-15+y=-7$$$$y=8$$$$x+y=5+8=13$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection point. The sum of its coordinates is $13$, matching the algebra. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "4x=20",
         "-3x+y=-7"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>C</strong>, $13$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

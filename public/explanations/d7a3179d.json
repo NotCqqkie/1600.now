@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the conversion factor",
+      "title": "Use yards per inch",
       "content": "Since $1$ yard equals $36$ inches, convert inches to yards by dividing by $36$."
     },
     {
-      "title": "Divide",
-      "content": "$$1332\\div 36=37.$$"
-    },
-    {
-      "title": "Confirm the units",
-      "content": "$37$ yards is correct because $37\\cdot36=1332$ inches. The answer is <strong>37</strong>. Dividing is the correct direction because yards are larger units than inches."
+      "title": "Divide by the conversion",
+      "content": "Compute the number of yards:<br/>$$1{,}332\\div 36=37$$<br/>The answer is <strong>37</strong>."
     }
   ]
 }

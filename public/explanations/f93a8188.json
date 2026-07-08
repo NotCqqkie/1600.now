@@ -1,0 +1,15 @@
+{
+  "questionId": "f93a8188",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the linked change",
+      "content": "The question asks what changed when Don Federico became a patron. The passage says he \"ceased to write plays and assumed instead\" the role of patron, directly linking the two events."
+    },
+    {
+      "title": "Discard unsupported events",
+      "content": "Choice A mentions a poem and public recognition, neither of which fits the passage. Choice B invents an acting job. Choice D invents a move outside Madrid. The remaining choice matches \"ceased to write plays.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

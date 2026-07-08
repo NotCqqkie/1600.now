@@ -1,0 +1,15 @@
+{
+  "questionId": "b35402a1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the growth factor",
+      "content": "Each increase of $1$ in $x$ multiplies $y$ by $4$, so the relationship is exponential with base $4$. Its form is<br/>$$y=a(4)^x$$"
+    },
+    {
+      "title": "Use the initial value",
+      "content": "When $x=0$, $y=150$. Since $4^0=1$, the initial value is $a=150$.<br/>$$y=150(4)^x$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

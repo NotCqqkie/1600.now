@@ -1,0 +1,15 @@
+{
+  "questionId": "36335d86",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use present tense for facts",
+      "content": "The sentence states a permanent scientific fact: a helium atom has 2 protons. General facts and defining properties are normally expressed in the simple present tense."
+    },
+    {
+      "title": "Reject tense mismatches",
+      "content": "Choice A implies the atom acquired the property at some point, Choice C suggests a temporary ongoing action, and Choice D incorrectly places the fact only in the past. The simple present form states the permanent property. The answer is <strong>B</strong>."
+    }
+  ]
+}

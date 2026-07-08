@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the angle relationships first",
-      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the triangle sum",
+      "content": "The three interior angles in any triangle add to $180^\\circ$. In this triangle, the two given angles are $31^\\circ$ and $87^\\circ$, so those two values and the unknown angle must total $180^\\circ$.<br/>$$31^\\circ+87^\\circ+T=180^\\circ$$"
     },
     {
-      "title": "Use the triangle angle sum property",
-      "content": "The sum of the three angles in any triangle is always $180^{\\circ}$. Since we know $\\angle R = 31^{\\circ}$ and $\\angle S = 87^{\\circ}$, we can write:<br/>$$\\angle R + \\angle S + \\angle T = 180^{\\circ}$$"
-    },
-    {
-      "title": "Substitute known values and solve for ∠T",
-      "content": "Substitute the known angle measures:<br/>$$31^{\\circ} + 87^{\\circ} + \\angle T = 180^{\\circ}$$<br/>Combine the known angles:<br/>$$118^{\\circ} + \\angle T = 180^{\\circ}$$<br/>Subtract $118^{\\circ}$ from both sides:<br/>$$\\angle T = 180^{\\circ} - 118^{\\circ} = 62^{\\circ}$$<br/>That is the correct answer."
+      "title": "Subtract the known angles",
+      "content": "First combine the two given angle measures, then subtract that sum from $180^\\circ$ to find the remaining angle.<br/>$$31^\\circ+87^\\circ=118^\\circ$$<br/>$$T=180^\\circ-118^\\circ=62^\\circ$$<br/>The measure of the missing angle is $62^\\circ$. The answer is <strong>A</strong>."
     }
   ]
 }

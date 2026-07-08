@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the total weight expression",
-      "content": "The truck carries three types of load: a 210-pound machine, $x$ boxes at 28 pounds each, and $y$ boxes at 64 pounds each.<br/>$$\\text{Total weight} = 210 + 28x + 64y$$"
+      "title": "Write the load expression",
+      "content": "The truck carries a $210$-pound machine, $x$ boxes weighing $28$ pounds each, and $y$ boxes weighing $64$ pounds each. The total weight is<br/>$$210+28x+64y$$"
     },
     {
-      "title": "Apply the maximum capacity constraint",
-      "content": "The total weight cannot exceed 5,940 pounds:<br/>$$210 + 28x + 64y \\le 5{,}940$$<br/>Subtract 210 from both sides:<br/>$$28x + 64y \\le 5{,}730$$"
+      "title": "Apply the capacity limit",
+      "content": "The total weight can be at most $5{,}940$ pounds:<br/>$$210+28x+64y\\le 5{,}940$$<br/>Subtract $210$ from both sides:<br/>$$28x+64y\\le 5{,}730$$"
     },
     {
-      "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>$28x+64y \\le 5,730$</strong> is correct.</li><li><strong>B</strong>: $28x + 64y \\ge 5{,}730$ &mdash; the $\\ge$ direction would mean the load must be at least 5,730 pounds, not at most. Incorrect.</li><li><strong>C</strong>: $64x + 28y \\le 5{,}940$ &mdash; the coefficients are swapped (64 with $x$, 28 with $y$), and 210 was not subtracted. Incorrect.</li><li><strong>D</strong>: $64x + 28y \\ge 5{,}940$ &mdash; both the coefficients are swapped and the inequality direction is wrong. Incorrect.</li></ul>"
+      "title": "Match the inequality",
+      "content": "The inequality with the correct weights and maximum remaining capacity is<br/>$$28x+64y\\le 5{,}730$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

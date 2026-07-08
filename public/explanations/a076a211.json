@@ -1,0 +1,15 @@
+{
+  "questionId": "a076a211",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect need to response",
+      "content": "The first sentence says scientists need precise, unchanging measurement standards to keep results valid. The next sentence explains that metrologists developed the SI system, whose units are based on unchanging natural values. The transition should show that the SI was developed because of that need."
+    },
+    {
+      "title": "Reject contrast and addition",
+      "content": "Choice A signals opposition, but the SI system supports the need for stable standards. Choice B weakens the connection rather than explaining it. Choice C presents the SI as an extra point, not a direct response to the need. The answer is <strong>D</strong>."
+    }
+  ]
+}

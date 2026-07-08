@@ -1,0 +1,15 @@
+{
+  "questionId": "b0d144c4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the resistance",
+      "content": "The sentence says no justification for raising the toll is likely to persuade some drivers who already believe the current toll is blank. The blank must describe a belief that would make any increase unacceptable."
+    },
+    {
+      "title": "Reject weak objections",
+      "content": "Choice B means disputed, but a disputed toll might still be justified. Choice C means unclear, which does not explain resistance to an increase. Choice D means justified, the opposite of the needed idea. A belief that the current toll is already unreasonably expensive explains why drivers would reject a higher toll. The answer is <strong>A</strong>."
+    }
+  ]
+}

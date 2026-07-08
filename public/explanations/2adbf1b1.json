@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the angle relationships from the figure",
-      "content": "From the figure, angles $x$ and $y$ are vertical angles at the intersection of the transversal and line $m$, so $x=y$. Angles $y$ and $z$ are same-side interior angles formed by the transversal cutting the parallel lines $m$ and $n$, so $y+z=180^{\\circ}$."
+      "title": "Set vertical angles equal",
+      "content": "The angles labeled $x$ and $y$ are vertical angles, so they are equal: $6k+13=8k-29$."
     },
     {
-      "title": "Solve for k using x = y",
-      "content": "Set the two expressions equal:<br/>$$6k + 13 = 8k - 29$$<br/>$$42 = 2k$$<br/>$$k = 21$$"
+      "title": "Find k",
+      "content": "Solve the equation for $k$: $6k+13=8k-29$, so $42=2k$ and $k=21$."
     },
     {
-      "title": "Find x and then z",
-      "content": "Substitute $k=21$ into $y=8k-29$:<br/>$$y=8(21)-29=139^{\\circ}$$<br/>Then use $y+z=180^{\\circ}$:<br/>$$z=180^{\\circ}-139^{\\circ}=41^{\\circ}$$<br/>That matches <strong>Choice C &mdash; $41$</strong>."
+      "title": "Use supplementary angles",
+      "content": "Same-side interior angles formed by parallel lines are supplementary, so $y+z=180$. Since $y=8(21)-29=139$, $z=180-139=41$. The answer is <strong>C</strong>."
     }
   ]
 }

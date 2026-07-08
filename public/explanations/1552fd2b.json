@@ -1,0 +1,19 @@
+{
+  "questionId": "1552fd2b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the evidence signal",
+      "content": "The sentence says that a linguist assumes the word <em>great</em> appears quite often in written English. After the colon, the sentence gives corpus data: <em>great</em> is the sixth most commonly used adjective. That data supports the assumption rather than contradicting it, rearranging it, or making it logically necessary."
+    },
+    {
+      "title": "Eliminate the wrong meanings",
+      "content": "<strong>Choice A</strong>, <em>entail</em>, means logically require, but corpus data does not make the assumption logically necessary. <strong>Choice B</strong>, <em>transpose</em>, means move or swap the order of things, which does not fit a claim being tested with data. <strong>Choice C</strong>, <em>refute</em>, means prove wrong, but the data shows that the assumption is reasonable."
+    },
+    {
+      "title": "Select the supporting verb",
+      "content": "<strong>Choice D</strong>, <em>substantiate</em>, means provide evidence that backs up a claim. The ranking of <em>great</em> as the sixth most common adjective backs up the linguist's assumption that it appears quite often in written English. The answer is <strong>D</strong>."
+    }
+  ]
+}

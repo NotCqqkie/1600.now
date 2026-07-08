@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up a substitution to apply the functional equation",
-      "content": "We're given $f(4x) = x - 7$ and need to find $f(12)$. Since the left side of the equation has input $4x$, we need to find the value of $x$ that makes $4x = 12$ so we can evaluate the function at that point. Solving $4x = 12$ gives $x = 3$."
+      "title": "Match the inside input",
+      "content": "The rule gives $f(4x)=x-7$. To find $f(12)$, make the inside input equal $12$:<br/>$$4x=12$$<br/>$$x=3$$"
     },
     {
-      "title": "Substitute and evaluate",
-      "content": "Substituting $x = 3$ into the functional equation $f(4x) = x - 7$: $$f(12) = f(4 \\cdot 3) = 3 - 7 = -4$$ That matches <strong>Choice B &mdash; $-4$</strong>."
+      "title": "Evaluate the function",
+      "content": "Substitute $x=3$ into the expression $x-7$:<br/>$$f(12)=3-7=-4$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

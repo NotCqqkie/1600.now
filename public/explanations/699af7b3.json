@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up equations from percentage statements",
-      "content": "From <em>A is 375% of B</em>: $A = 3.75B$<br/>From <em>A is 0.600% of C</em>: $A = 0.00600C$"
+      "title": "Write both percent facts",
+      "content": "Convert the percent statements.\n$$\nA=3.75B\n$$\n$$\nA=0.00600C\n$$"
     },
     {
-      "title": "Equate the expressions and isolate C",
-      "content": "Since both equal $A$:<br/>$$3.75B = 0.00600C$$<br/>$$C = \\frac{3.75}{0.00600}B$$"
+      "title": "Compare the sample weights",
+      "content": "Set the expressions equal and solve for $C$.\n$$\n3.75B=0.00600C\n$$\n$$\nC=\\frac{3.75}{0.00600}B=625B\n$$"
     },
     {
-      "title": "Simplify the ratio to find p",
-      "content": "Evaluate $\\frac{3.75}{0.00600}$:<br/>$$\\frac{3.75}{0.00600} = \\frac{37500}{60} = 625$$<br/>So $C = 625B$. Since $C$ is $p$ percent of $B$, we write $C = \\frac{p}{100}B$. Therefore $\\frac{p}{100} = 625$, and $p = 62500$."
+      "title": "Convert the ratio to a percent",
+      "content": "If $C$ is $p\\%$ of $B$, then\n$$\nC=\\frac{p}{100}B\n$$\nSince $C=625B$, compare coefficients.\n$$\n\\frac{p}{100}=625\n$$\n$$\np=62{,}500\n$$\nThe answer is <strong>62500</strong>."
     }
   ]
 }

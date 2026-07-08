@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the comparison signal",
-      "content": "The structure “While both species likely benefited from warming temperatures, <em>Colobanthus quitensis</em> ______” uses “While” to set up a contrast: despite both benefiting, what distinguished <em>Colobanthus quitensis</em>?<br/><br/>The table shows <em>Colobanthus quitensis</em> increased by 55% versus <em>Deschampsia antarctica</em>'s 28%."
+      "title": "Compare the two expansions",
+      "content": "The sentence sets up a comparison: both Antarctic plant species likely benefited from warming, but <em>Colobanthus quitensis</em> did something distinctive. The table shows it increased by 55%, more than half and more than <em>Deschampsia antarctica</em>."
     },
     {
-      "title": "Match the distinction to the choices",
-      "content": "The correct answer captures the distinction—<em>Colobanthus quitensis</em> expanded by 55%, which is both greater than <em>Deschampsia antarctica</em>'s 28% and exceeds “more than half.” A, C, and D each fail to match the data: <ul><li>A falsely claims <em>Deschampsia antarctica</em> shrank.</li><li>C references information not in the table.</li><li>D misapplies the percentages as comparative rates.</li></ul><br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject unsupported comparisons",
+      "content": "A falsely says <em>Deschampsia antarctica</em> covered less land in 2018. C discusses individual plant size, which is not the table's measure. D misuses the percentages as rates of newly freed land coverage. The answer is <strong>B</strong>."
     }
   ]
 }

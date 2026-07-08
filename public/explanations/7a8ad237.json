@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Find the third angle",
+      "content": "In triangle $ABC$, angle $B$ is a right angle and angle $A$ is $64^\\circ$.\n$$64^\\circ+90^\\circ+C=180^\\circ$$\n$$C=26^\\circ$$"
     },
     {
-      "title": "Find angle C in triangle ABC using angle sum",
-      "content": "In triangle ABC, the angles sum to 180 degrees. With angle A = 64 degrees and angle B = 90 degrees:<br/>$$64^{\\circ} + 90^{\\circ} + C = 180^{\\circ}$$<br/>$$C = 26^{\\circ}$$"
-    },
-    {
-      "title": "Use congruence to determine angle F",
-      "content": "Triangles ABC and DEF are congruent with A corresponding to D. Since both B and E are right angles, B corresponds to E. Therefore, C corresponds to F. In congruent triangles, corresponding angles are equal, so angle F = C = 26 degrees."
+      "title": "Use corresponding angles",
+      "content": "The triangles are congruent, with $A$ corresponding to $D$ and right angle $B$ corresponding to right angle $E$. Therefore, $C$ corresponds to $F$, so angle $F$ has the same measure.\nThe answer is <strong>26</strong>."
     }
   ]
 }

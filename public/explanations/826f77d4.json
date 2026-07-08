@@ -1,0 +1,19 @@
+{
+  "questionId": "826f77d4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the hypotenuse",
+      "content": "The longest side is $TR$, so it is the hypotenuse. Also,<br/>$$360^2+192^2=408^2$$<br/>so the right angle is at $S$."
+    },
+    {
+      "title": "Use corresponding angles",
+      "content": "Triangle $RST$ is similar to triangle $UVW$, and $T$ corresponds to $W$. Therefore<br/>$$\\tan W=\\tan T$$"
+    },
+    {
+      "title": "Compute the tangent ratio",
+      "content": "For angle $T$, the opposite leg is $RS$ and the adjacent leg is $ST$.<br/>$$\\tan W=\\frac{360}{192}=\\frac{15}{8}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

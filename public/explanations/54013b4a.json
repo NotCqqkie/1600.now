@@ -1,0 +1,19 @@
+{
+  "questionId": "54013b4a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Pick simple values",
+      "content": "Since $b$ is $87\\%$ of $c$, choose $c=100$ and $b=87$. Then<br/>$$b+c=87+100=187$$"
+    },
+    {
+      "title": "Find a",
+      "content": "$a$ is $2088\\%$ of $187$, so<br/>$$a=\\frac{2088}{100}(187)$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "Now divide by $b$ and convert to a percent:<br/>$$\\frac{a}{b}\\cdot100\\%=\\frac{\\frac{2088}{100}(187)}{87}\\cdot100\\%=4488\\%$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

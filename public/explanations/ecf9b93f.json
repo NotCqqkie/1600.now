@@ -1,0 +1,19 @@
+{
+  "questionId": "ecf9b93f",
+  "correctAnswer": "527.7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slant heights",
+      "content": "The two faces with base $18$ use half the width, $4.5$, in the right triangle. The two faces with base $9$ use half the length, $9$.<br/>$$\\sqrt{4.5^2+12^2}=\\sqrt{164.25}=\\frac{3\\sqrt{73}}{2}$$<br/>$$\\sqrt{9^2+12^2}=15$$"
+    },
+    {
+      "title": "Add the surface areas",
+      "content": "Add the rectangular base area and the four triangular face areas.<br/>$$18\\cdot 9=162$$<br/>$$2(\\frac{1}{2}\\cdot 18\\cdot \\frac{3\\sqrt{73}}{2})=27\\sqrt{73}$$<br/>$$2(\\frac{1}{2}\\cdot 9\\cdot 15)=135$$"
+    },
+    {
+      "title": "Compute the total",
+      "content": "The total surface area is<br/>$$162+27\\sqrt{73}+135=297+27\\sqrt{73}\\sim 527.7$$<br/>The answer is <strong>527.7</strong>."
+    }
+  ]
+}

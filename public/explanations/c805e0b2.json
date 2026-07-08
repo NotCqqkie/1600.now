@@ -1,0 +1,15 @@
+{
+  "questionId": "c805e0b2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the largest gap",
+      "content": "The phrase most remarkably calls for the most dramatic difference in the table. Game & Watch has the highest sales at about 18.6 million units, while ColecoVision has the lowest at about 2 million units."
+    },
+    {
+      "title": "Reject smaller contrasts",
+      "content": "Choice A compares systems only about one million units apart. Choice B incorrectly assigns 18.6 million units to MSX. Choice C compares two systems in the lower sales range, also only about one million units apart. The answer is <strong>D</strong>."
+    }
+  ]
+}

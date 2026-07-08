@@ -1,0 +1,15 @@
+{
+  "questionId": "926e5c20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the battery detail",
+      "content": "The batteries described cannot be easily taken out and swapped for new ones. That means they are internal to the small devices. The blank needs a verb showing that portable consoles and other electronics have these batteries inside them."
+    },
+    {
+      "title": "Choose the fitting verb",
+      "content": "A fits because <em>contain</em> means to hold within: the devices contain batteries. B would mean make batteries ready, which devices do not do. C would require the devices to imagine. D would mean the devices discover batteries, which does not describe a physical component inside hardware. The answer is <strong>A</strong>."
+    }
+  ]
+}

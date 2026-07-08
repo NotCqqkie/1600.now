@@ -1,0 +1,15 @@
+{
+  "questionId": "29da2dfd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sinuosity threshold",
+      "content": "Sinuosity is the ratio of stream length to valley length. The notes say ratios greater than 1.5:1 are high-sinuosity, while ratios less than or equal to 1.5:1 are low-sinuosity. Fort Nelson is high-sinuosity, and Wadi Al-Hamd is low-sinuosity."
+    },
+    {
+      "title": "Make a direct comparison",
+      "content": "Choice A compares locations, not sinuosity. Choice B states the same calculation method for both rivers, and Choice D only says how to calculate sinuosity. The needed sentence compares the ratios and shows Fort Nelson's exceeds Wadi Al-Hamd's. The answer is <strong>C</strong>."
+    }
+  ]
+}

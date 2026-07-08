@@ -1,0 +1,15 @@
+{
+  "questionId": "12648f25",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link pressure to avoidance",
+      "content": "The hypothesis says fish avoid obstructions more successfully when pressure fluctuations at the snout are greater. For large vortices, intermediate-headed fish have higher pressure fluctuations, while wide-headed fish have low pressure fluctuations."
+    },
+    {
+      "title": "Choose the predicted contrast",
+      "content": "A gives only a wide-headed species, so there is no comparison. B says intermediate- and wide-headed fish bumped into obstructions equally often, which would not support the hypothesis. D compares individuals of the same intermediate-headed species. The supporting result is wide-headed fish bumping more often than intermediate-headed fish, because that pattern links lower pressure fluctuations with poorer avoidance. The answer is <strong>C</strong>."
+    }
+  ]
+}

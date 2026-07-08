@@ -1,0 +1,19 @@
+{
+  "questionId": "57fb5b46",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "The $y$-terms are opposites, so add the two equations to eliminate $y$. This leaves an equation involving only the requested variable, $x$.\n$$(x+5y)+(x-5y)=5+3$$\n$$2x=8$$"
+    },
+    {
+      "title": "Find the requested variable",
+      "content": "Divide both sides by $2$ to solve for $x$.\n$$x=4$$\nThe solution's $x$-coordinate is $4$, which is what the question asks for. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "x + 5y = 5",
+        "x - 5y = 3"
+      ]
+    }
+  ]
+}

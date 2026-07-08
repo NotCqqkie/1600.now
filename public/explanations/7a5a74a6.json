@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand and simplify both sides",
-      "content": "Left side: $$3(2x-8)-13 = 6x-24-13 = 6x-37$$<br/>Right side: $$4(x-4)+8 = 4x-16+8 = 4x-8$$<br/>Equation: $$6x-37 = 4x-8$$"
+      "title": "Expand both sides",
+      "content": "Distribute on each side of the equation.\n$$3(2x-8)-13=6x-24-13=6x-37$$\n$$4(x-4)+8=4x-16+8=4x-8$$\nSo the equation becomes $6x-37=4x-8$."
     },
     {
-      "title": "Solve for x and compute x-4",
-      "content": "Subtract $4x$: $$2x-37 = -8$$<br/>Add $37$: $$2x = 29$$<br/>Divide by $2$: $$x = \\frac{29}{2}$$<br/>Compute $x-4$: $$x-4 = \\frac{29}{2} - 4 = \\frac{29}{2} - \\frac{8}{2} = \\frac{21}{2}$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Solve for the target",
+      "content": "Solve for $x$, then subtract $4$.\n$$6x-37=4x-8$$\n$$2x=29$$\n$$x=\\frac{29}{2}$$\n$$x-4=\\frac{29}{2}-\\frac{8}{2}$$\n$$x-4=\\frac{21}{2}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

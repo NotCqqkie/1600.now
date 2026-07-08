@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find h(x) by combining f(x) and g(x)",
-      "content": "Add the two functions:<br/>$$h(x) = f(x) + g(x) = \\left(\\frac{1}{5}x - 8\\right) + \\left(\\frac{4}{5}x + 18\\right)$$<br/>Combine like terms:<br/>$$h(x) = \\frac{1}{5}x + \\frac{4}{5}x - 8 + 18 = x + 10$$"
+      "title": "Add the two functions",
+      "content": "Use $h(x)=f(x)+g(x)$:<br/>$$h(x)=(\\frac{1}{5}x-8)+(\\frac{4}{5}x+18)$$"
     },
     {
-      "title": "Set h(x) = 0 and solve",
-      "content": "The x-intercept is where $y = 0$:<br/>$$x + 10 = 0$$<br/>$$x = -10$$"
+      "title": "Simplify the function",
+      "content": "Combine like terms:<br/>$$h(x)=\\frac{5}{5}x+10=x+10$$"
+    },
+    {
+      "title": "Find the x-intercept",
+      "content": "At the $x$-intercept, $h(x)=0$:<br/>$$x+10=0$$<br/>$$x=-10$$<br/>The answer is <strong>-10</strong>."
     }
   ]
 }

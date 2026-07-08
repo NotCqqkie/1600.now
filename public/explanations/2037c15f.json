@@ -1,0 +1,15 @@
+{
+  "questionId": "2037c15f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the renamed list",
+      "content": "The phrase after the blank, the Hawai'i Register of Historic Places, identifies the important list being discussed. The punctuation must introduce that renaming phrase."
+    },
+    {
+      "title": "Avoid fragments and fused nouns",
+      "content": "B leaves the register name as a fragment, C misuses a semicolon before a noun phrase, and D strings the two nouns together without showing their relationship. A colon properly introduces the name of the list. The answer is <strong>A</strong>."
+    }
+  ]
+}

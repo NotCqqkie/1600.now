@@ -1,0 +1,15 @@
+{
+  "questionId": "9e52c059",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the interrupter",
+      "content": "The sentence says that relatively few particles reach Earth's surface, then uses however before a since-clause explaining why most particles burn up in the mesosphere. The since-clause depends on the earlier main clause, so it should remain in the same sentence. In this position, however is an interrupter inside one sentence, not the start of a new independent sentence. It therefore needs a comma before it and a comma after it."
+    },
+    {
+      "title": "Avoid fragments and mispunctuation",
+      "content": "A uses a semicolon before however and then a period after it, leaving the since-clause as a fragment. C puts a semicolon after however, but what follows is a dependent since-clause, not an independent clause that can stand after a semicolon. D makes However start a new sentence, again stranding the since-clause without the main clause it explains. Commas on both sides of however keep the main clause and explanation connected while correctly marking the interrupter. The answer is <strong>B</strong>."
+    }
+  ]
+}

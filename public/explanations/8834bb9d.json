@@ -1,0 +1,15 @@
+{
+  "questionId": "8834bb9d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the crater workflow",
+      "content": "The colon explains how the two data sources work together. Seismic monitoring gives researchers a rough impact location, and orbital imaging lets them inspect that limited area precisely to find the new crater."
+    },
+    {
+      "title": "Reject same-role meanings",
+      "content": "Choice A means complete, not mutually useful. Choice B would mean unnecessarily repetitive, and Choice C would mean one method can substitute for the other. The passage says the methods have different strengths that combine into a better search process. The answer is <strong>D</strong>."
+    }
+  ]
+}

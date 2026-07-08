@@ -1,0 +1,15 @@
+{
+  "questionId": "72deeb54",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the requested information",
+      "content": "The student wants to present a finding from the study. The requested finding is the result of what the researchers observed, not just the setup of the experiment. The notes say participants saw an unaltered Bic logo and two altered versions, were asked to identify the correct version, and that 65.3 percent selected the unaltered image. The percentage is the key result."
+    },
+    {
+      "title": "Compare the answer choices",
+      "content": "Choice B mentions the identification task and describes the Bic logo, but it does not report what participants selected. Choice C only describes one altered version, the one in which the cartoon man held a pencil. Choice D states that researchers asked participants to identify the correct version, which is still part of the method rather than the finding. The choice that includes both the task and the 65.3 percent result presents the study's finding. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ad0dadd0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each distance",
+      "content": "Distance equals speed times time. Walking for $w$ hours at $3$ miles per hour gives $3w$ miles. Jogging for $r$ hours at $8$ miles per hour gives $8r$ miles."
+    },
+    {
+      "title": "Set the total distance",
+      "content": "The combined distance is $19$ miles, so add the walking and jogging distances.<br/>$$3w+8r=19$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

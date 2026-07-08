@@ -1,0 +1,15 @@
+{
+  "questionId": "6d2520af",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested measurement",
+      "content": "The student wants to specify the average weight of the large tree finch. The relevant note states that the bird has an average weight of 19 grams, so the correct choice must include that measurement."
+    },
+    {
+      "title": "Reject location details",
+      "content": "Choice A discusses birds in the Galapagos Islands generally. Choice B gives the large tree finch's location on Santa Fe. Choice C describes the islands and their bird species, not the finch's weight. The answer is <strong>D</strong>."
+    }
+  ]
+}

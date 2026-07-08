@@ -1,0 +1,15 @@
+{
+  "questionId": "779c27fa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on capacity",
+      "content": "The student's goal is to emphasize Hallett Wind Farm's nameplate capacity. The relevant notes identify the farm, its location, and the specific capacity figure of 351 megawatts. The best choice must center that figure rather than define wind farms generally."
+    },
+    {
+      "title": "Drop irrelevant details",
+      "content": "<ul><li><strong>Choice B</strong>: It describes what wind farms do but omits the capacity figure.</li><li><strong>Choice C</strong>: It gives the location only and leaves out nameplate capacity.</li><li><strong>Choice D</strong>: It defines nameplate capacity but does not apply the definition to Hallett Wind Farm.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

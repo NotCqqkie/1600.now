@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must mean",
-      "content": "The passage says people socializing at the general store would &ldquo;share news and help spread it throughout their communities.&rdquo; The blank fills &ldquo;the store was a ______ of information.&rdquo; The word must mean an origin point &mdash; a place from which information flows."
+      "title": "Use the news-sharing context",
+      "content": "The sentence after the blank explains that people at the general store shared news and helped spread it through nearby communities. The blank needs a word for a place where information comes from or is obtained."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"source\"</strong>: &ldquo;Source&rdquo; means a place where something originates or is obtained. The store is precisely where information originates and spreads outward. &#10003;</li><li><strong>\"rival\"</strong>: &ldquo;Rival&rdquo; means competitor. The passage never frames the store as competing with anything. &#10007;</li><li><strong>\"condition\"</strong>: &ldquo;Condition&rdquo; means state or requirement. Saying the store was a &ldquo;condition of information&rdquo; is not meaningful in context. &#10007;</li><li><strong>\"waste\"</strong>: &ldquo;Waste&rdquo; means something discarded or spent unnecessarily &mdash; the opposite of what the passage describes. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject illogical nouns",
+      "content": "Choice B means competitor, but no competition is described. Choice C means state or requirement, which does not fit information. Choice D means discarded material or useless expenditure, the opposite of the store's role. The word for an origin point fits. The answer is <strong>A</strong>."
     }
   ]
 }

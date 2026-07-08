@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the data must support",
-      "content": "The sentence reports a research institute's finding about the share of congressional members with past military experience. The completion must be an accurate statement that the graph actually shows."
+      "title": "Read the graph trend",
+      "content": "The graph shows a steep decline in the percentage of congressional members with military experience in both chambers from 1973 to 2013, from roughly three quarters to under one fifth."
     },
     {
-      "title": "Match a well-documented historical trend",
-      "content": "The percentage of veterans in both the House and Senate fell sharply between the 1970s and the 2010s as the World War II and Korean War generations aged out of Congress, dropping from roughly three quarters of each chamber to under one fifth. A 1973-to-2013 substantial decrease in both houses fits this established pattern."
+      "title": "Reject inaccurate time spans",
+      "content": "<ul><li><strong>Choice A</strong>: The House was not consistently higher than the Senate from 2003 to 2023.</li><li><strong>Choice B</strong>: Veterans did not remain a majority in both houses through 2003.</li><li><strong>Choice D</strong>: The percentages did not stay fairly consistent from 1993 to 2023.</li></ul>"
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — from 2003 to 2023, the House of Representatives had a higher percentage of those members than the Senate did.</strong>: across this span the two chambers track closely, so a clean higher-vs-lower claim misreads the comparison. &#10007;</li><li><strong>Choice B — from 1953 to 2003, those members constituted a majority in both houses of Congress.</strong>: veterans fell below 50 percent well before 2003, so this overstates how late the majority lasted. &#10007;</li><li><strong>Choice C — the percentage of those members decreased substantially in both houses of Congress from 1973 to 2013.</strong>: matches the steep downward slopes in both lines across that 40-year window. &#10003;</li><li><strong>Choice D — the percentage of those members remained fairly consistent, regardless of house, from 1993 to 2023.</strong>: the share kept dropping through these decades, so &quot;fairly consistent&quot; contradicts the trend. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Use the steep shared decline",
+      "content": "The statement that both houses saw a substantial percentage decrease from 1973 to 2013 accurately captures the graph's clearest trend. The answer is <strong>C</strong>."
     }
   ]
 }

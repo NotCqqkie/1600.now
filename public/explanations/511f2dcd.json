@@ -1,0 +1,19 @@
+{
+  "questionId": "511f2dcd",
+  "correctAnswer": "9600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify similar triangles",
+      "content": "Angles $PTQ$ and $RSQ$ are congruent, and angles $PQT$ and $RQS$ are vertical angles. Therefore triangles $PQT$ and $RQS$ are similar by angle-angle similarity."
+    },
+    {
+      "title": "Set up the side ratio",
+      "content": "Corresponding sides are proportional. Use $TQ=8{,}400$, $QS=1{,}400$, $RS=1{,}600$, and $PT=x$:\n$$\\frac{8{,}400}{1{,}400}=\\frac{x}{1{,}600}$$"
+    },
+    {
+      "title": "Solve for the distance",
+      "content": "Simplify and solve:\n$$6=\\frac{x}{1{,}600}$$\n$$x=6(1{,}600)=9{,}600$$\nThe answer is <strong>9600</strong>."
+    }
+  ]
+}

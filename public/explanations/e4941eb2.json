@@ -1,0 +1,15 @@
+{
+  "questionId": "e4941eb2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify input and output",
+      "content": "The function $A(b)$ takes the base length $b$ as the input and returns the triangle's area as the output."
+    },
+    {
+      "title": "Interpret the function value",
+      "content": "In $A(17)=1{,}734$, the input is $17$, so the base is $17$ centimeters. The output is $1{,}734$, so the area is $1{,}734$ square centimeters. The answer is <strong>C</strong>."
+    }
+  ]
+}

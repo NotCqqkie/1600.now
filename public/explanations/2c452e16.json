@@ -1,0 +1,15 @@
+{
+  "questionId": "2c452e16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the length data",
+      "content": "The goal is to compare the two rivers' lengths. The notes give the Dnieper as 2,287 kilometers long and the Indus as 3,610 kilometers long, so the useful response must put those lengths in direct relation."
+    },
+    {
+      "title": "Reject non-comparisons",
+      "content": "A compares locations, not lengths. C gives only the Dnieper's length. D gives only the Indus's world ranking. The correct choice directly states the length relationship between the two rivers. The answer is <strong>B</strong>."
+    }
+  ]
+}

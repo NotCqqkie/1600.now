@@ -1,0 +1,22 @@
+{
+  "questionId": "fe1b01d7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the quadratic formula",
+      "content": "For $3x^2-5x-5=0$, use $a=3$, $b=-5$, and $c=-5$ in the quadratic formula. This gives the two roots when the equation is not easy to factor.<br/>$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$",
+      "desmosExpressions": [
+        "3x^2 - 5x - 5 = 0"
+      ]
+    },
+    {
+      "title": "Find both solutions",
+      "content": "Substitute the coefficients and simplify.<br/>$$x=\\frac{5\\pm\\sqrt{(-5)^2-4(3)(-5)}}{2(3)}$$<br/>$$x=\\frac{5\\pm\\sqrt{85}}{6}$$"
+    },
+    {
+      "title": "Choose the greater solution",
+      "content": "The greater solution uses the plus sign.<br/>$$x=\\frac{5+\\sqrt{85}}{6}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

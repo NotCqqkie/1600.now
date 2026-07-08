@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $1,080$, so the answer is <strong>C</strong>, 1,080. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "Use $x=24$ in the function:<br/>$$f(24)=(24+0.25(24))(60-24)$$"
     },
     {
-      "title": "Simplify the coefficient",
-      "content": "In the first parenthesis, combine like terms:<br/>$$x + 0.25x = (1 + 0.25)x = 1.25x$$<br/>So the function becomes:<br/>$$f(x) = 1.25x(60 - x)$$"
+      "title": "Evaluate each factor",
+      "content": "Compute the two factors first. This keeps the final multiplication small and avoids distributing the whole expression:<br/>$$24+0.25(24)=24+6=30$$<br/>$$60-24=36$$"
     },
     {
-      "title": "Substitute x = 24 and calculate",
-      "content": "$$f(24) = 1.25(24)(60 - 24)$$<br/>Evaluate each part:<ul><li>$1.25 \\times 24 = 30$</li><li>$60 - 24 = 36$</li></ul>Then multiply:<br/>$$f(24) = 30 \\times 36 = 1,080$$<br/>That matches the correct answer - <strong>C</strong> is correct."
+      "title": "Multiply the factors",
+      "content": "Now multiply:<br/>$$f(24)=30(36)=1{,}080$$The answer is <strong>C</strong>."
     }
   ]
 }

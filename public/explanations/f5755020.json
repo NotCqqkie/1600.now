@@ -1,0 +1,15 @@
+{
+  "questionId": "f5755020",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sample-size rule",
+      "content": "The passage says a representative handedness study needs at least 176 individuals. The meta-analysis does not say captive samples are automatically representative; it gives a numerical minimum for any handedness study. Merrick's and Porter's studies each included only 8 individuals, far below that threshold."
+    },
+    {
+      "title": "Apply the same standard",
+      "content": "B and D wrongly treat Merrick's small study as reliable. C speculates about underestimation, but the passage only supports a sample-size problem. Both studies fail the same standard equally, so both are too small for a meaningful comparison. The answer is <strong>A</strong>."
+    }
+  ]
+}

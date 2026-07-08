@@ -1,0 +1,15 @@
+{
+  "questionId": "20cec672",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link subtype to structure",
+      "content": "Washing machines use the 200 series and furnaces use the 300 series. Both are subtypes of austenitic stainless steel, and the passage says austenitic stainless steel has a face-centered cubic crystalline structure."
+    },
+    {
+      "title": "Reject false comparisons",
+      "content": "Choice B reverses the nickel relationship: the 300 series has more nickel than the 200 series. Choice C assigns the structure to ferritic steel and denies it to austenitic storage-container steel. Choice D invents matching nitrogen concentrations. The answer is <strong>A</strong>."
+    }
+  ]
+}

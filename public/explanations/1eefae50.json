@@ -1,0 +1,15 @@
+{
+  "questionId": "1eefae50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the compound name",
+      "content": "The sentence needs the specific insecticide that Parkinson added to the sucrose solution. Because the name identifies which insecticide is meant, it is essential and should not be set off with commas."
+    },
+    {
+      "title": "Avoid comma errors",
+      "content": "Choice B treats the name as nonessential with paired commas. Choice C leaves a stray comma before \"to a sucrose solution.\" Choice D opens a comma break without closing it. The no-comma version correctly makes the name restrictive. The answer is <strong>A</strong>."
+    }
+  ]
+}

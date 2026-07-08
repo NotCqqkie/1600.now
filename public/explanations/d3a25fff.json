@@ -1,0 +1,15 @@
+{
+  "questionId": "d3a25fff",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join verb to complement",
+      "content": "The sentence says the smoke point of corn oil \"is around 450 degrees Fahrenheit.\" A linking verb should connect directly to its complement without punctuation."
+    },
+    {
+      "title": "Reject unnecessary punctuation",
+      "content": "Choice A inserts a dash, Choice B a semicolon, and Choice D a comma between the verb and its complement. None of that punctuation belongs there. The remaining option leaves the verb and complement connected. The answer is <strong>C</strong>."
+    }
+  ]
+}

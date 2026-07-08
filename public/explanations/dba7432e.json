@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the table values",
-      "content": "The table gives $(0,5)$, $(1,\\frac{5}{2})$, $(2,\\frac{5}{4})$, and $(3,\\frac{5}{8})$. Compare how the output changes each time $x$ increases by $1$."
+      "title": "Find the common multiplier",
+      "content": "Each time $x$ increases by $1$, the function value is multiplied by $\\frac{1}{2}$:<br/>$$5,\\ \\frac{5}{2},\\ \\frac{5}{4},\\ \\frac{5}{8}$$"
     },
     {
-      "title": "Find the exponential pattern",
-      "content": "Because each $y$-value is half the previous $y$-value, this is exponential decay with starting value $5$ and common factor $\\frac{1}{2}$."
+      "title": "Build the model",
+      "content": "The value at $x=0$ is $5$, and the multiplier is $\\frac{1}{2}$. Therefore,<br/>$$f(x)=5(\\frac{1}{2})^x$$"
     },
     {
-      "title": "Write and match the model",
-      "content": "The model is:<br/>$$f(x)=5\\left(\\frac{1}{2}\\right)^x$$<br/>Since $\\frac{1}{2}=2^{-1}$, this is also:<br/>$$f(x)=5\\cdot2^{-x}$$<br/>That matches the computed answer, so <strong>D</strong> is correct."
+      "title": "Rewrite with base two",
+      "content": "Use $\\frac{1}{2}=2^{-1}$:<br/>$$5(\\frac{1}{2})^x=5(2^{-1})^x$$<br/>$$5(2^{-1})^x=5\\cdot2^{-x}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

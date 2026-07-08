@@ -1,0 +1,20 @@
+{
+  "questionId": "c619cb31",
+  "correctAnswer": "308",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the left side",
+      "content": "Rewrite the left side of the equation:<br/>$$\\frac{15x+35}{5}-\\frac{s}{11}=3x+7-\\frac{s}{11}$$"
+    },
+    {
+      "title": "Match the x terms",
+      "content": "The right side is<br/>$$r(x-7)=rx-7r$$<br/>For infinitely many solutions, the $x$-coefficients must match, so $r=3$."
+    },
+    {
+      "title": "Match the constants",
+      "content": "Use $r=3$ and match constant terms:<br/>$$7-\\frac{s}{11}=-7(3)$$<br/>$$7-\\frac{s}{11}=-21$$<br/>$$-\\frac{s}{11}=-28$$<br/>The answer is <strong>308</strong>.",
+      "formula": "$$s = 308$$"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "questionId": "65f9e651",
+  "correctAnswer": "0.18,9/50",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the one-step ratio",
+      "content": "For $f(x)=a\\cdot b^{x}$, moving from $x=n-1$ to $x=n$ multiplies the output by $b$. In other words, $f(n)=b\\cdot f(n-1)$."
+    },
+    {
+      "title": "Rewrite the given equation as a percent left over",
+      "content": "The equation says<br/>$$f(n-1)=f(n)+\\frac{82}{100}f(n-1)$$<br/>Subtract the $82\\%$ part from both sides:<br/>$$f(n)=\\left(1-\\frac{82}{100}\\right)f(n-1)=\\frac{18}{100}f(n-1)$$"
+    },
+    {
+      "title": "Match that ratio to b",
+      "content": "Because $f(n)=b\\cdot f(n-1)$, the multiplier from $n-1$ to $n$ is exactly $b$. Therefore<br/>$$b=\\frac{18}{100}=\\frac{9}{50}=0.18$$<br/>A quick Desmos check is just evaluating the percent left after subtracting $82\\%$. The answer is <strong>0.18</strong> or <strong>9/50</strong>.",
+      "desmosExpressions": [
+        "1-82/100",
+        "9/50"
+      ]
+    }
+  ]
+}

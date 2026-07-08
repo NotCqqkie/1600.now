@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the parabola's direction",
-      "content": "The parabola in the graph opens <strong>upward</strong>, so the leading coefficient of $x^2$ is <strong>positive</strong>. That eliminates A and B (both have $-\\tfrac{7}{25}x^2$)."
+      "title": "Read the graph directions",
+      "content": "The parabola opens upward, so the coefficient of $x^2$ is positive. The line rises from left to right, so its slope is positive."
     },
     {
-      "title": "Identify the line's slope",
-      "content": "The line has a positive slope, so the answer must use $y=\\frac{7}{5}x$ rather than $y=-\\frac{7}{5}x$. That leaves the positive-parabola, positive-line pair: <strong>$y=\\frac{7}{25}x^{2}$\n$y=\\frac{7}{5}x$</strong>. Therefore, <strong>D</strong> is correct."
+      "title": "Check the intersection",
+      "content": "At the visible intersection $(4,7)$, both positive equations give the same value.<br/>$$\\frac{7}{16}(4)^2=7$$<br/>$$\\frac{7}{4}(4)=7$$"
+    },
+    {
+      "title": "Choose the matching system",
+      "content": "The matching system is<br/>$$y=\\frac{7}{16}x^2$$<br/>$$y=\\frac{7}{4}x$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

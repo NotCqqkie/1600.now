@@ -1,23 +1,15 @@
 {
   "questionId": "e7b6f0d1",
-  "qid": "e7b6f0d1",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Solve $5x + 7 = 22$. Subtract 7 from both sides: $5x = 15$."
+      "title": "Isolate the matching equation",
+      "content": "Start with the given equation:<br/>$$5x+7=22$$<br/>Subtract $7$ from both sides:<br/>$$5x=15$$"
     },
     {
-      "title": "Step 2",
-      "content": "The question asks which equation has the same solution, i.e., which equation is equivalent to $5x = 15$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Check: $x = 3$. Substituting back: $\\left(5\\right)(3)+7 = 22$. &#10003;"
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li><strong>'$5x=154$'</strong>: Gives $x = 30.8$, not 3. &#10007;</li><li><strong>'$5x=29$'</strong>: Gives $x = 5.8$, not 3. &#10007;</li><li><strong>'$5x=15$'</strong>: Gives $x = 3$, same solution as the original equation. &#10003;</li><li><strong>'$5x=3$'</strong>: Gives $x = 0.6$, not 3. &#10007;</li></ul>That matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "Select the equivalent form",
+      "content": "An equation with the same solution can be the equivalent equation after subtracting $7$ from both sides. The matching equation is<br/>$$5x=15$$<br/>The answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C"
+  ]
 }

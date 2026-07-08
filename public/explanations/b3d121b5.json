@@ -1,0 +1,27 @@
+{
+  "questionId": "b3d121b5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Create one quadratic",
+      "content": "At an intersection, the two expressions for $y$ are equal:\n$$\nx-c=-4(x-8)^2\n$$\nMove all terms to one side:\n$$\n4x^2-63x+256-c=0\n$$"
+    },
+    {
+      "title": "Use the discriminant",
+      "content": "Two distinct real solutions require a positive discriminant:\n$$\n(-63)^2-4(4)(256-c)>0\n$$\n$$\n3969-4096+16c>0\n$$\n$$\n16c>127\n$$\n$$\nc>\\frac{127}{16}\n$$"
+    },
+    {
+      "title": "Pick a value above the boundary",
+      "content": "Since\n$$\n\\frac{127}{16}=7.9375\n$$\nthe listed value greater than this boundary is $13$.",
+      "desmosExpressions": [
+        "y = x - 13",
+        "y = -4(x - 8)^2"
+      ]
+    },
+    {
+      "title": "Finish the comparison",
+      "content": "A value greater than the tangent boundary gives two distinct intersections between the line and the parabola. The answer is <strong>D</strong>."
+    }
+  ]
+}

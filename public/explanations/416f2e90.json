@@ -1,0 +1,15 @@
+{
+  "questionId": "416f2e90",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject is the gerund phrase 'Having proportionally large populations.' Even though the phrase contains the plural noun 'populations,' the whole gerund phrase functions as a singular subject."
+    },
+    {
+      "title": "Choose singular agreement",
+      "content": "A, C, and D are plural verb forms, so they do not agree with the singular gerund subject. The singular present-tense verb fits the sentence. The answer is <strong>B</strong>."
+    }
+  ]
+}

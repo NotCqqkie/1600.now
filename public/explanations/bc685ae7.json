@@ -1,0 +1,15 @@
+{
+  "questionId": "bc685ae7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect wavelength to images",
+      "content": "The JWST is optimized for infrared wavelengths. When distant galaxies' light is infrared, that optimization explains why the JWST can produce sharper, more informative images than Hubble could."
+    },
+    {
+      "title": "Signal the result",
+      "content": "Choice B signals concession, Choice C signals correction, and Choice D signals addition. The relationship is cause and effect: infrared optimization leads to better images when the light is infrared. The answer is <strong>A</strong>."
+    }
+  ]
+}

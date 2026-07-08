@@ -1,0 +1,25 @@
+{
+  "questionId": "53cc13da",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the shifted sets",
+      "content": "The first five values in data set B are each $1$ greater than the first five values in data set A. If $h=28$, then every value in B is the corresponding value in A plus $1$, so the standard deviations are equal."
+    },
+    {
+      "title": "Test the possible values",
+      "content": "Using population standard deviation, the values are about $6.47$, $5.15$, $6.47$, and $6.77$ for data set A, B when $h=23$, B when $h=28$, and B when $h=29$, respectively. Only I makes data set B have a smaller standard deviation than data set A. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "a_1=[8,11,12,15,21,27]",
+        "b_1=[9,12,13,16,22,23]",
+        "b_2=[9,12,13,16,22,28]",
+        "b_3=[9,12,13,16,22,29]",
+        "\\operatorname{stdevp}\\left(a_1\\right)",
+        "\\operatorname{stdevp}\\left(b_1\\right)",
+        "\\operatorname{stdevp}\\left(b_2\\right)",
+        "\\operatorname{stdevp}\\left(b_3\\right)"
+      ]
+    }
+  ]
+}

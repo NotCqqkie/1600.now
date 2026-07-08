@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the interrupter",
-      "content": "The relative clause is &quot;that, through trade and centralized taxation, funded major infrastructure projects throughout the Indian subcontinent.&quot; Between the subject &quot;that&quot; and the verb &quot;funded,&quot; the writer inserts the prepositional phrase &quot;through trade and centralized taxation.&quot; A comma already opens this interrupter before &quot;through,&quot; so a matching comma must close it."
+      "title": "Close the inserted phrase",
+      "content": "The phrase 'through trade and centralized taxation' interrupts between the subject 'that' and the verb 'funded.' A comma after 'that' opens this interruption, so matching punctuation is needed after 'taxation' to close it."
     },
     {
-      "title": "Apply the paired-punctuation rule",
-      "content": "Parenthetical interrupters require matching punctuation on both sides &mdash; comma/comma or dash/dash, not mixed. The opener is a comma, so the closer must also be a comma."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;taxation:&rsquo;</strong>: a colon cannot close a comma-opened interrupter, and there is also a stray space before it. Wrong mark. &#10007;</li><li><strong>Choice B &mdash; &lsquo;taxation,&rsquo;</strong>: a closing comma matches the opening comma after &quot;that,&quot; properly bracketing the interrupter. &#10003;</li><li><strong>Choice C &mdash; &lsquo;taxation —&rsquo;</strong>: an em dash cannot pair with an opening comma; punctuation must match. &#10007;</li><li><strong>Choice D &mdash; &lsquo;taxation&rsquo;</strong>: no punctuation leaves the interrupter unclosed, fusing it with the verb &quot;funded.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Match the comma pair",
+      "content": "Choice A uses a colon, Choice C uses a dash, and Choice D uses no punctuation, so none can close a comma-opened interruption. The remaining choice supplies the needed closing comma. The answer is <strong>B</strong>."
     }
   ]
 }

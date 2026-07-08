@@ -1,0 +1,15 @@
+{
+  "questionId": "3f89bb9e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the oversimplification",
+      "content": "The energy ladder explains household fuel choice mainly through household income: as incomes rise, high-technology fuels are expected to replace solid fuels. The passage calls that model reductive because Nygaard's study found fuel use was heterogeneous and flexible, not controlled by income alone. Local prices and other circumstances also shaped what households used."
+    },
+    {
+      "title": "Reject distorted comparisons",
+      "content": "Choice A wrongly describes the model as about one aspect of fuel and says households ignore that aspect; the passage says the model focuses mainly on household income. Choice B invents equal use of different fuels, which the passage never states. Choice C makes an unsupported comparison between Guatemala and Costa Rica. The text instead contrasts a model based mainly on one household characteristic with evidence that several circumstances can affect fuel choice. The answer is <strong>D</strong>."
+    }
+  ]
+}

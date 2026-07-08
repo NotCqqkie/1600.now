@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the logical relationship",
-      "content": "Sentence 1: voting members were impressed by the album and its contribution to the banda genre. Sentence 2: they awarded the group Best Banda Album. The award is the direct consequence of being impressed, so the transition must signal cause-to-effect."
+      "title": "Map impression to award",
+      "content": "The first sentence says voting members were impressed by the album. The next sentence says they awarded the group Best Banda Album, which follows from that favorable impression."
     },
     {
-      "title": "Test for a consequence transition",
-      "content": "Accordingly means 'as a result' / 'therefore' &mdash; it links a cause to its effect, which is exactly the relationship between admiration and the resulting award."
+      "title": "Reject contrast transitions",
+      "content": "<ul><li><strong>Choice A</strong>: In contrast signals opposition, but the award matches the positive impression.</li><li><strong>Choice B</strong>: Meanwhile suggests a separate simultaneous event, not a result.</li><li><strong>Choice C</strong>: Nevertheless signals despite that, which conflicts with the cause-and-effect relationship.</li></ul>"
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — In contrast,</strong>: signals opposition, but giving an award is consistent with (not opposed to) being impressed. &#10007;</li><li><strong>Choice B — Meanwhile,</strong>: signals simultaneous unrelated events; it ignores the causal link between admiration and the award. &#10007;</li><li><strong>Choice C — Nevertheless,</strong>: signals concession (despite X, Y); but the award happens because of, not in spite of, the members&#39; admiration. &#10007;</li><li><strong>Choice D — Accordingly,</strong>: signals consequence, correctly tying the award to the members&#39; favorable impression. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Choose the result transition",
+      "content": "The transition must show that the award was a consequence of the voters being impressed. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d321f902",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the recruitment result",
+      "content": "The seeds had the desired characteristics and, with minimal guidance, recruited many people who also had those characteristics. The explanation must show why their networks would produce matching recruits."
+    },
+    {
+      "title": "Use shared network traits",
+      "content": "If the seeds' social networks include many people who share their traits, the strong recruitment result follows. A points to few shared characteristics, C discusses network size, and D concerns whether traits are known, none of which explains the success. The answer is <strong>B</strong>."
+    }
+  ]
+}

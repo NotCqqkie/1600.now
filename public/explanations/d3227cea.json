@@ -1,0 +1,15 @@
+{
+  "questionId": "d3227cea",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept condition",
+      "content": "The $y$-intercept occurs where $x=0$. Look for the row in the table with that input value."
+    },
+    {
+      "title": "Read the table value",
+      "content": "The table includes $x=0$, and its corresponding $y$-value is $15$. The answer is <strong>15</strong>."
+    }
+  ]
+}

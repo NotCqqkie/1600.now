@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the complex items in the list",
-      "content": "The blank falls within a description of the app that contains two related parts: <strong>“Chickasaw Basic, in 2009”</strong> and <strong>“an online television network, Chickasaw TV, in 2010.”</strong> Notice that each part already has an internal comma—one separates the name from the date, the other separates the descriptor from the alternative name."
+      "title": "Separate complex list items",
+      "content": "The sentence lists three language-learning resources: Chickasaw Basic in 2009, Chickasaw TV in 2010, and a Rosetta Stone course in 2015. Because the items contain internal commas, semicolons separate the list items."
     },
     {
-      "title": "Apply the semicolon-in-series rule",
-      "content": "When a list contains items that each have internal commas, you separate the items with semicolons, not commas. A semicolon after “in 2009” marks where the first description ends and the second begins. <br/><br/>The correct response places the semicolon correctly: “Chickasaw Basic, in 2009; an online television network, Chickasaw TV, in 2010.” The other choices place semicolons in wrong positions (after “Basic” alone, which leaves a comma before an incomplete element), and choice D (&lsquo;Basic, in 2009, an online television network,&rsquo;) uses only commas throughout, muddying what is actually being listed. <br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject misplaced punctuation",
+      "content": "Choice A and Choice B put a semicolon after Basic, separating the app name from its date. Choice D uses only commas, making the complex list hard to parse. The answer is <strong>C</strong>."
     }
   ]
 }

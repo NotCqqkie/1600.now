@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Put the line in slope form",
-      "content": "To find slope, rewrite the equation in $y=mx+b$ form, where $m$ is the slope."
-    },
-    {
-      "title": "Solve for y",
-      "content": "$$12x-4y=-18$$ $$-4y=-12x-18$$ $$y=3x+\\frac{9}{2}$$"
+      "title": "Isolate the y term",
+      "content": "Start with the equation and move the $x$-term to the other side:\n$$\n12x-4y=-18\n$$\n$$\n-4y=-12x-18\n$$"
     },
     {
       "title": "Read the slope",
-      "content": "The coefficient of $x$ in slope-intercept form is $3$, so the slope is $3$. The constant $\\frac{9}{2}$ is only the $y$-intercept and does not affect the slope. <strong>D</strong> is correct."
+      "content": "Divide by $-4$ to write the line in slope-intercept form:\n$$\ny=3x+\\frac{9}{2}\n$$\nThe coefficient of $x$ is the slope.\nThe answer is <strong>D</strong>."
     }
   ]
 }

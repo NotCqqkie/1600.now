@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the passage actually says",
-      "content": "The team tested three Paleolithic light sources — torches, animal-fat lamps, and fireplaces — and determined each &quot;likely had a specific purpose.&quot; The concrete example given is that animal-fat lamps were less useful than torches while walking because they did not illuminate the cave floor. The passage is about testing methods and drawing conclusions about how artists moved through dark caves.<ul><li><strong>Choice A &mdash; &lsquo;Medina-Alcaide and her team's study demonstrated that fireplaces were essential to the creators of Paleolithic cave art.&rsquo;</strong>: The passage never claims fireplaces were &quot;essential&quot; — it only says each source had a specific purpose. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Medina-Alcaide and her team discovered that Paleolithic cave artists in Spain used animal-fat lamps more often than they used torches.&rsquo;</strong>: The passage says lamps were <em>less</em> useful than torches for walking, not that they were used more often. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Medina-Alcaide and her team were reluctant to draw many conclusions from their study because of the difficulty they had replicating light sources based on known artifacts.&rsquo;</strong>: The passage shows the team drawing confident, specific conclusions — no reluctance appears. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Medina-Alcaide and her team tested Paleolithic light sources and learned some details about how Paleolithic artists traveled within dark caves.&rsquo;</strong>: Matches both the method (testing) and the outcome (understanding navigation). &#10003;</li></ul>"
+      "title": "Capture method and result",
+      "content": "The text describes Medina-Alcaide's team testing replicas of three Paleolithic light sources in a cave. The main result is that each source likely had a purpose, with lamps less useful than torches for walking because they did not illuminate the floor. This example ties the study directly to cave navigation."
     },
     {
-      "title": "Confirm the main idea match",
-      "content": "The passage is structured around a research method (testing replicas of three light sources) and its result (learning how each source functioned during movement in dark caves). The correct response captures both elements precisely while the other choices either overstate, contradict, or misread the tone of the passage. That confirms <strong>D</strong> is correct."
+      "title": "Reject overstated claims",
+      "content": "A overstates the role of fireplaces. B contradicts the example by claiming lamps were used more often than torches. C says the researchers were reluctant to draw conclusions, but the passage reports specific findings. The remaining choice captures both the test and what it revealed about cave travel. The answer is <strong>D</strong>."
     }
   ]
 }

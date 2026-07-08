@@ -1,0 +1,15 @@
+{
+  "questionId": "854747c4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two ships",
+      "content": "Both the <em>Dreadnought</em> and the <em>Caledonia</em> had three decks, but only the <em>Caledonia</em> was ranked first-rate. Therefore, having three decks was not enough by itself to make a ship first-rate."
+    },
+    {
+      "title": "Avoid claims beyond the data",
+      "content": "Choice B is contradicted because the <em>Dreadnought</em> had 98 cannons but was not first-rate. Choice C applies the first-rate crew range to a non-first-rate ship. Choice D invents a crew need above 875. The answer is <strong>A</strong>."
+    }
+  ]
+}

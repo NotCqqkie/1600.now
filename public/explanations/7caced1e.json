@@ -1,0 +1,19 @@
+{
+  "questionId": "7caced1e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius",
+      "content": "The base area is $324\\pi$, and the area of a circular base is $\\pi r^2$. So\n$$\n\\pi r^2=324\\pi\n$$\n$$\nr=18\n$$"
+    },
+    {
+      "title": "Find the height",
+      "content": "Use the cone volume formula:\n$$\n2{,}592\\pi=\\frac{1}{3}\\pi r^2h\n$$\nSince $r^2=324$,\n$$\n2{,}592\\pi=108\\pi h\n$$\n$$\nh=24\n$$"
+    },
+    {
+      "title": "Find the slant height",
+      "content": "The radius, height, and slant height form a right triangle:\n$$\n\\ell^2=18^2+24^2=324+576=900\n$$\n$$\n\\ell=30\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

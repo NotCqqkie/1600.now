@@ -1,0 +1,15 @@
+{
+  "questionId": "4b7f58a7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the plural subject",
+      "content": "The subject of the blank is \"many works,\" which is plural. The phrase between dashes about one painting is an aside and does not change the subject. The verb also needs to fit the past-time context signaled by \"at the time.\""
+    },
+    {
+      "title": "Remove number and tense errors",
+      "content": "A is singular past tense, so it does not agree with \"many works.\" C is singular present perfect and clashes with both number and the past context. D is singular present tense. The plural past-tense verb fits. The answer is <strong>B</strong>."
+    }
+  ]
+}

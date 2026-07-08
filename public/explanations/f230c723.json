@@ -1,0 +1,15 @@
+{
+  "questionId": "f230c723",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the validation evidence",
+      "content": "The passage describes Voss et al.'s CNN model, then says its output aligned with prior direct measurements. Voss et al. treat that alignment as evidence that the model accurately represents wing-motion processes. The final clause says this is one indication of accurate representation."
+    },
+    {
+      "title": "Match the purpose",
+      "content": "The text presents evidence supporting the model's overall efficacy. B focuses on refinement, C wrongly says the comparison is with other models, and D claims the passage explains why direct measurement was avoided. The answer is <strong>A</strong>."
+    }
+  ]
+}

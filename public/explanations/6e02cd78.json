@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set equations equal and solve for x",
-      "content": "At the intersection point, both equations yield the same $y$-value. Set them equal: $$(x-2)^2 = 4x - 12$$ Expand the left side: $$x^2 - 4x + 4 = 4x - 12$$ Rearrange: $$x^2 - 8x + 16 = 0$$ This is a perfect square trinomial: $$(x-4)^2 = 0$$ Therefore, $x = 4$."
+      "title": "Set the equations equal",
+      "content": "At an intersection point, the two $y$-values are equal:\n$$\n(x-2)^2=4x-12\n$$\nExpand and rearrange:\n$$\nx^2-4x+4=4x-12\n$$\n$$\nx^2-8x+16=0\n$$"
     },
     {
-      "title": "Substitute to find the y-coordinate",
-      "content": "Using $y = 4x - 12$: $$y = 4(4) - 12 = 16 - 12 = 4$$ The $y$-coordinate of the intersection point is <strong>4</strong>."
+      "title": "Find the y-coordinate",
+      "content": "Factor and solve for $x$:\n$$\n(x-4)^2=0\n$$\nSubstitute into the line equation:\n$$\ny=4(4)-12\n$$\nThe answer is <strong>4</strong>."
     }
   ]
 }

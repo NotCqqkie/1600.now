@@ -1,0 +1,15 @@
+{
+  "questionId": "e87e158b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the phrase attached",
+      "content": "The sentence says the manuscripts survived to the present day by being passed down through private libraries. The preposition by must attach directly to the gerund phrase being passed down, without punctuation interrupting that connection."
+    },
+    {
+      "title": "Reject boundary breaks",
+      "content": "Choice B uses a semicolon before a phrase that is not an independent clause. Choice C turns that phrase into a sentence fragment. Choice D puts a comma between the preposition by and its object. The answer is <strong>A</strong>."
+    }
+  ]
+}

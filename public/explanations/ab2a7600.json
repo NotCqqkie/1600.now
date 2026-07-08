@@ -1,0 +1,16 @@
+{
+  "questionId": "ab2a7600",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area scale factor",
+      "content": "For similar figures, if side lengths are multiplied by $k$, areas are multiplied by $k^2$. Here the side length scale factor is $7$, so the area scale factor is<br/>$$7^2=49$$",
+      "formula": "$$\\text{Area scale factor} = k^2$$"
+    },
+    {
+      "title": "Multiply the original area",
+      "content": "The area of ABCD is $98$ square units. Multiply by the area scale factor.<br/>$$98(49)=4{,}802$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

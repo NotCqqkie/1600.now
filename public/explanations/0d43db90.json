@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the triangle perimeter",
-      "content": "The perimeter of a triangle is the sum of its three side lengths. Use $DE+DF+EF=19$ and substitute the two known side lengths."
+      "title": "Add the side lengths",
+      "content": "The perimeter is the sum of the three side lengths. Let $EF$ be the missing side:<br/>$$5+8+EF=19$$"
     },
     {
-      "title": "Set up the perimeter equation",
-      "content": "The perimeter of triangle DEF equals the sum of its three sides. With perimeter = 19 inches, DE = 5 inches, and DF = 8 inches, we write: $$DE + DF + EF = 19$$ Substituting the known values: $$5 + 8 + EF = 19$$"
-    },
-    {
-      "title": "Solve for EF",
-      "content": "Simplifying the equation: $$13 + EF = 19$$ Therefore: $$EF = 6$$ That matches <strong>Choice B &mdash; $6$</strong>."
+      "title": "Solve for the missing side",
+      "content": "Combine the known sides, then subtract:<br/>$$13+EF=19$$<br/>$$EF=6$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

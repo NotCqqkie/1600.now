@@ -1,0 +1,15 @@
+{
+  "questionId": "5ee52447",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage sequence",
+      "content": "The question asks for the overall structure, so the order of ideas matters. The text first introduces the Swinomish Cultural Center and explains that it uses traditional knowledge to present Swinomish history and culture to tribal citizens. It then adds that the Cherokee Nation uses a similar strategy in its own cultural center. The final sentence shifts to a contrast: non-Indigenous-led museums that display Indigenous artifacts tend to expect mainly non-Indigenous audiences and use Eurocentric exhibit-design strategies."
+    },
+    {
+      "title": "Reject unsupported structures",
+      "content": "B invents a particular set of art and says the same artifacts are analyzed in both types of institutions, but the passage does not make either claim. C wrongly frames the two tribal centers as using early and newer strategies, even though the passage says the Cherokee Nation uses a similar strategy. D focuses on how audiences responded to exhibits, but the passage discusses exhibit design and audience assumptions, not actual reactions. The structure is two tribal cultural centers first, then a comparison with non-Indigenous institutions that present Indigenous exhibits. The answer is <strong>A</strong>."
+    }
+  ]
+}

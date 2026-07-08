@@ -1,0 +1,15 @@
+{
+  "questionId": "7460ec12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the musician similarity",
+      "content": "The notes say Lena Ortiz played viola on India Arie's first studio album and Marcus Chen played violin on her second studio album. The similarity is that both musicians contributed to India Arie albums."
+    },
+    {
+      "title": "Reject album-only details",
+      "content": "A mentions only Ortiz. B describes the albums without naming both musicians. C starts with the shared contribution but emphasizes the difference between viola and violin. The best choice keeps the focus on their shared role as contributors. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the form y equals px plus r",
-      "content": "The given equation is in slope-intercept form. In this standard form, the coefficient $p$ (multiplying $x$) is the slope of the line, and $r$ is the y-intercept.",
+      "title": "Read the slope",
+      "content": "The equation is in slope-intercept form, so the coefficient of $x$ is the slope.",
       "formula": "$$y = px + r$$"
     },
     {
-      "title": "Identify the slope and find p",
-      "content": "The problem states the line has a slope of $7$. Since $p$ is the slope in slope-intercept form, $p = 7$."
+      "title": "Match the coefficient",
+      "content": "In $y=px+r$, the coefficient $p$ represents the slope. The line's slope is given as $7$, so $p=7$. The answer is <strong>7</strong>."
     }
   ]
 }

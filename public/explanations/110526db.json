@@ -1,0 +1,15 @@
+{
+  "questionId": "110526db",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the awareness claims",
+      "content": "Text 1 claims Bergamo's UNESCO honor is well known among residents and tourists. Text 2 argues that without effective marketing, many current and potential visitors may not even know Bergamo has a notable food scene."
+    },
+    {
+      "title": "Reject unrelated responses",
+      "content": "Choice A defends whether Bergamo deserved the honor. Choice C discusses other benefits of the designation. Choice D credits chefs for the recognition. Text 2 would challenge the idea that the status is widely known beyond residents. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b68754df",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the target expression",
+      "content": "The question asks for the value of the whole expression $3(x-8)$, so it is not necessary to solve for $x$ separately."
+    },
+    {
+      "title": "Isolate the expression",
+      "content": "Subtract $21$ from both sides of the equation:\n$$\n56=21+3(x-8)\n$$\n$$\n35=3(x-8)\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

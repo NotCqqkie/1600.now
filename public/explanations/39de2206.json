@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Define what the quotation must show",
-      "content": "The claim: Nikhil imagines people he sees are <em>carefree even when engaged in work</em>. The quotation must (1) involve someone doing work or chores, and (2) show Nikhil perceiving that person as cheerful or carefree.<ul><li><strong>Choice A — \"I see, you don't wish to stop; I don't care to stay on here either.\"</strong>: Nikhil talks about his own feelings, not the flower seller&apos;s daughter&apos;s mood &#10007;</li><li><strong>Choice B — \"Oh, flower gathering? That is why your feet seem so glad and your anklets jingle so merrily as you walk.\"</strong>: names the work (flower gathering) and attributes joy to the worker (glad feet, merry anklets) &#10003;</li><li><strong>Choice C — \"I'll pay when I grow up—before I leave to look for work out on the other side of that stream there.\"</strong>: Nikhil discusses his own future plans, not the daughter&apos;s mood &#10007;</li><li><strong>Choice D — \"Wish I could be out too. Then I would pick some flowers for you from the very topmost branches right out of sight.\"</strong>: Nikhil expresses his own wishes, not the daughter&apos;s feelings &#10007;</li></ul>"
+      "title": "Define the quote's job",
+      "content": "The claim says Nikhil imagines passersby as carefree even while they work. The quotation must show both work or chores and Nikhil's sense that the worker is cheerful."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only the matching choice has Nikhil (1) identifying that the daughter is working &mdash; &quot;flower gathering&quot; &mdash; and (2) reading her physical demeanor as joyful &mdash; &quot;glad&quot; feet and &quot;merrily&quot; jingling anklets. That directly illustrates the claim about Nikhil imagining workers as carefree.<br/><br/><strong>B</strong> is correct."
+      "title": "Reject quotes about Nikhil himself",
+      "content": "<ul><li><strong>Choice A</strong>: It shows Nikhil reacting to someone leaving, not imagining work as carefree.</li><li><strong>Choice C</strong>: It is about Nikhil's future work plans.</li><li><strong>Choice D</strong>: It expresses Nikhil's wish to go outside, not the worker's mood.</li></ul>"
+    },
+    {
+      "title": "Use work plus cheerful motion",
+      "content": "The relevant quotation identifies flower gathering and describes glad feet and merrily jingling anklets, making the work seem joyful to Nikhil. The answer is <strong>B</strong>."
     }
   ]
 }

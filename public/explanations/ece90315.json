@@ -1,0 +1,15 @@
+{
+  "questionId": "ece90315",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial value",
+      "content": "The experiment begins when $x=0$. Substitute $0$ into the equation for remaining distance.\n$$y=420-136(0)=420$$"
+    },
+    {
+      "title": "Interpret the constant",
+      "content": "The value $420$ is the remaining distance at the start of the experiment, measured in meters. That is the rover's initial distance from its target. The answer is <strong>C</strong>."
+    }
+  ]
+}

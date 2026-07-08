@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the goal",
-      "content": "The student wants to emphasize how hot the Sun is relative to nearby stars. So the answer must directly compare the Sun&apos;s temperature with that of its neighbors and show the Sun coming out on the hot side."
+      "title": "Focus on relative heat",
+      "content": "The student's goal is to emphasize how hot the Sun is compared with nearby stars. The notes show that most nearby stars in the study were cooler than the Sun, while a smaller group was hotter."
     },
     {
-      "title": "Use the notes to check the comparison",
-      "content": "Of 357 nearby stars, 327 are K or M (cooler than the Sun) and only 11 are A or F (hotter). So the Sun is hotter than the large majority of nearby stars, but not all of them &mdash; that is the comparison the choice needs to state."
+      "title": "Rule out incomplete uses",
+      "content": "Choice B lists classifications without making the comparison. Choice C mentions only the cooler K and M stars. Choice D groups several star classes together and hides the hot-versus-cool relationship."
     },
     {
-      "title": "Eliminate by rule",
-      "content": "The correct response explicitly ranks the Sun against its nearby stars: at about $9,800^{\\circ}\\text{F}$, it is hotter than most but not all of them. The response about Marcus Lane only lists classifications; the response about the 327 K or M stars emphasizes the cooler neighbors instead of the Sun; and the response that groups K, M, A, and F stars together hides the hot-versus-cool comparison. <strong>A</strong> is correct."
+      "title": "Choose the full comparison",
+      "content": "Saying the Sun is hotter than most but not all nearby stars uses the temperature data accurately and keeps the focus on the Sun's relative heat. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "bcc9a681",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the table",
+      "content": "Using the table points $(0,38)$ and $(1,43)$, the slope is:<br/>$$m=\\frac{43-38}{1-0}=5$$"
+    },
+    {
+      "title": "Use the intercept",
+      "content": "The table includes the point $(0,38)$, so the $y$-intercept is $38$."
+    },
+    {
+      "title": "Write the linear function",
+      "content": "Combine the slope and intercept:<br/>$$f(x)=5x+38$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

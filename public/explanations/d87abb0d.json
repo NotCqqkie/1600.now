@@ -1,0 +1,15 @@
+{
+  "questionId": "d87abb0d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the current-time signal",
+      "content": "Currently tells us the sentence is describing the frog's range as it exists now. The verb must be simple present to match that present-time meaning."
+    },
+    {
+      "title": "Pick the present-tense verb",
+      "content": "The matching verb is simple present and agrees with the singular subject range. Choice A is past perfect, Choice B is future perfect, and Choice D is simple past, so each conflicts with Currently. The answer is <strong>C</strong>."
+    }
+  ]
+}

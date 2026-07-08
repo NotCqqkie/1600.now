@@ -1,0 +1,16 @@
+{
+  "questionId": "8a1cf3e1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the value of z",
+      "content": "$z = 1.34 \\times 100 = 134$"
+    },
+    {
+      "title": "Calculate the percent increase from 100 to z",
+      "content": "Apply the percent increase formula with old value 100 and new value 134:<br/>$$\\text{Percent greater} = \\frac{134 - 100}{100} \\times 100\\%$$<br/>$$= \\frac{34}{100} \\times 100\\%$$<br/>$$= 34\\%$$<br/><strong>B</strong> is correct.",
+      "formula": "$$\\text{Percent greater} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
+    }
+  ]
+}

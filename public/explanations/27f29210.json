@@ -1,0 +1,15 @@
+{
+  "questionId": "27f29210",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Summarize the findings",
+      "content": "The notes distinguish syllable rate from information rate. Syllable rates varied across languages, as shown by Spanish and Vietnamese, but the information rate was approximately consistent across all 17 languages."
+    },
+    {
+      "title": "Reject narrower summaries",
+      "content": "Choice B names what the researchers measured but not the key finding. Choice C invents a lower information rate for Spanish. Choice D confuses syllables per second with information conveyed per second. The answer is <strong>A</strong>."
+    }
+  ]
+}

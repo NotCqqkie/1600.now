@@ -1,0 +1,15 @@
+{
+  "questionId": "59438ae6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the causal signal",
+      "content": "The phrase \"as their heavy use of grass cover\" gives the reason white-footed mice differ from desert kangaroo rats and many other nocturnal mammals. Because grass cover changes the balance of reward and risk, the mice do not show the same reduced activity under high lunar intensity."
+    },
+    {
+      "title": "Explain the exception",
+      "content": "Choice A invents a faster response to lunar intensity, which the text never discusses. Choice C reverses the point because white-footed mice are presented as an exception, not as evidence that more mammals are inhibited by moonlight. Choice D says the behavior conflicts with benefits and costs, but the passage says grass cover creates a different reward-risk balance, so the same framework still explains the behavior. The reference identifies the characteristic that explains why white-footed mice do not reduce activity like the others. The answer is <strong>B</strong>."
+    }
+  ]
+}

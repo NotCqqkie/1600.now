@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is an Inferences question. The blank must follow logically from the archaeological evidence: clam size and abundance both increased during the same period when the Kwakwaka'wakw terraced garden method was in use. Any correct conclusion must stay within what the evidence actually shows&mdash;no unsupported comparisons or claims about other groups or present-day practices."
+      "title": "Tie evidence to clam gardens",
+      "content": "The blank must follow from the archaeological evidence about the Kwakwaka'wakw terraced garden method. The songs describe the use of intertidal terraced gardens to cultivate clams for food, and the evidence shows significant increases in clam size and abundance during the same period when that method was implemented."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the practice used by ancestors of modern Kwakwaka'wakw people not only effectively maintained a food source but also promoted its robustness.&rsquo;</strong>: Clam abundance increasing shows the food source was maintained; clam size also increasing shows it became more robust. This follows directly from the evidence. &#10003;</li><li><strong>Choice B &mdash; &lsquo;non-Indigenous people around the Pacific Northwest coast adopted the practice developed by the Kwakwaka'wakw people after observing its efficacy.&rsquo;</strong>: The passage never mentions non-Indigenous adoption of the practice. Inferring this from evidence about clam size and abundance alone is unsupported. &#10007;</li><li><strong>Choice C &mdash; &lsquo;there is greater corroboration in the archaeological record of ecological practices described in Kwakwaka'wakw songs than of those described in Sakha and Kaluli songs.&rsquo;</strong>: The Sakha and Kaluli songs are mentioned only as background examples; no archaeological evidence is presented for them, so no comparison is possible. &#10007;</li><li><strong>Choice D &mdash; &lsquo;although contemporary Kwakwaka'wakw people have a deep understanding of and appreciation for the fishing and farming practices used by their ancestors, they no longer implement those methods.&rsquo;</strong>: The evidence concerns past clam abundance; it says nothing about whether modern Kwakwaka'wakw people currently use or have abandoned these methods. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject unsupported claims",
+      "content": "<ul><li><strong>Choice B - 'non-Indigenous people around the Pacific Northwest coast adopted the practice developed by the Kwakwaka'wakw people after observing its efficacy.'</strong>: The passage never mentions non-Indigenous adoption of the practice. Evidence that the method was effective does not show that other groups copied it.</li><li><strong>Choice C - 'there is greater corroboration in the archaeological record of ecological practices described in Kwakwaka'wakw songs than of those described in Sakha and Kaluli songs.'</strong>: The Sakha and Kaluli songs are only background examples. The passage provides no archaeological comparison involving them.</li></ul>"
+    },
+    {
+      "title": "Draw the limited conclusion",
+      "content": "<ul><li><strong>Choice D - 'although contemporary Kwakwaka'wakw people have a deep understanding of and appreciation for the fishing and farming practices used by their ancestors, they no longer implement those methods.'</strong>: The evidence concerns past clam cultivation, not current practices.</li><li><strong>Choice A - 'the practice used by ancestors of modern Kwakwaka'wakw people not only effectively maintained a food source but also promoted its robustness.'</strong>: Increased abundance supports maintaining the food source, and increased size supports promoting its robustness. The answer is <strong>A</strong>.</li></ul>"
     }
   ]
 }

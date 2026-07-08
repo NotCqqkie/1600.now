@@ -1,0 +1,19 @@
+{
+  "questionId": "750318b4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the two-step factor",
+      "content": "The value $c$ is the factor for every increase of $2$ in $x$. Starting from $31(3)^{4x}$, increasing $x$ by $2$ raises the exponent from $4x$ to $4x+8$, so the factor is:<br/>$$3^8=6{,}561$$"
+    },
+    {
+      "title": "Rewrite with that base",
+      "content": "Rewrite the same growth using that two-step factor as the base. An exponent of $x/2$ makes each increase of $2$ add one full power:<br/>$$3^{4x}=(3^8)^{x/2}=6{,}561^{x/2}$$"
+    },
+    {
+      "title": "Select the matching form",
+      "content": "That form is the choice whose base displays $c$, while the other choices show smaller bases.<br/>$$f(x)=31(6{,}561)^{x/2}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

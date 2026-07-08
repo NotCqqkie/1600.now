@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the task requires",
-      "content": "The student wants to emphasize a difference between the two dyeing approaches. A correct answer must contrast the traditional method (uses hazardous chemicals) with Rao's method (uses nanocellulose, a natural plant-based substance)&mdash;not describe only one approach or highlight a similarity.<ul><li><strong>\"Though created using a different process, Rao's dye contains the same ingredient as the dye produced by blue jean manufacturers.\"</strong>: emphasizes a similarity (same ingredient, indigo), not a difference. &#10007;</li><li><strong>\"Nanocellulose is a natural, plant-based substance that separates the molecules of indigo powder, which doesn't dissolve in water.\"</strong>: explains what nanocellulose is without comparing the two approaches. &#10007;</li><li><strong>\"The traditional approach to dyeing blue jeans is to dip them in a solution containing hazardous chemicals.\"</strong>: describes only the traditional method without mentioning Rao's approach. &#10007;</li><li><strong>\"Rao's approach substitutes a natural, plant-based substance for the hazardous chemicals that manufacturers have traditionally used.\"</strong>: directly contrasts the two approaches by naming what Rao's method replaces (hazardous chemicals) and what it uses instead (natural, plant-based substance). &#10003;</li></ul>"
+      "title": "Look for a dyeing contrast",
+      "content": "The student wants to emphasize a difference between the two approaches to dyeing blue jeans. The relevant contrast is that the traditional process uses hazardous chemicals to dissolve indigo powder, while Rao's process uses nanocellulose, a natural plant-based substance, in a hydrogel that can be spread onto denim."
     },
     {
-      "title": "Confirm the answer",
-      "content": "<strong>“Rao's approach substitutes a natural, plant-based substance for the hazardous chemicals that manufacturers have traditionally used.”</strong> explicitly contrasts the two approaches in a single sentence, showing what changed between the traditional method and Rao's method. That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject similarity or one-sided claims",
+      "content": "Choice A emphasizes a similarity because both dyes contain indigo, so it does not focus on what makes Rao's approach different. Choice B explains what nanocellulose does, but it does not compare the two approaches. Choice C describes only the traditional method and leaves out Rao's method. The sentence that directly contrasts Rao's natural, plant-based substitute with the hazardous chemicals used traditionally best matches the goal. The answer is <strong>D</strong>."
     }
   ]
 }

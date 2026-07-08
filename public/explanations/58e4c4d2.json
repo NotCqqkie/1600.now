@@ -1,0 +1,19 @@
+{
+  "questionId": "58e4c4d2",
+  "correctAnswer": "-7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the odd integers",
+      "content": "The four consecutive odd integers, from least to greatest, are $x$, $x+2$, $x+4$, and $x+6$."
+    },
+    {
+      "title": "Translate the inequality",
+      "content": "The third odd integer is $x+4$, and $42$ less than the sum of the first and fourth is $x+(x+6)-42$. Therefore,\n$$\n24(x+4)\\le x+(x+6)-42\n$$"
+    },
+    {
+      "title": "Solve the inequality",
+      "content": "Simplify:\n$$\n24x+96\\le 2x-36\n$$\n$$\n22x\\le -132\n$$\n$$\nx\\le -6\n$$\nThe greatest odd integer that is at most $-6$ is $-7$. The answer is <strong>-7</strong>."
+    }
+  ]
+}

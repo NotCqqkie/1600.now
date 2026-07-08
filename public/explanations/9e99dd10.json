@@ -1,0 +1,15 @@
+{
+  "questionId": "9e99dd10",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Text 1's skepticism",
+      "content": "Text 2 claims Ribeiro's method could improve genre classification and benefit users. Text 1 is skeptical of genre classification itself, saying genres are ambiguous, subjective, simplistic, and may not be the best way to understand musical relationships."
+    },
+    {
+      "title": "Reject views Text 1 lacks",
+      "content": "Choice A agrees with the potential benefits instead of challenging the premise. Choice C discusses which genres systems recognize, not whether genre is useful. Choice D brings in listener enjoyment, which Text 1 does not discuss. The answer is <strong>B</strong>."
+    }
+  ]
+}

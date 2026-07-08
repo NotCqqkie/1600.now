@@ -1,0 +1,20 @@
+{
+  "questionId": "73a30d08",
+  "correctAnswer": "700",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the mass relationships",
+      "content": "Let the masses be $A$, $B$, and $C$. The statements give $$A=5.04B$$$$A=0.00072C$$"
+    },
+    {
+      "title": "Compare the masses",
+      "content": "Set the two expressions for $A$ equal:$$5.04B=0.00072C$$$$C=\\frac{5.04}{0.00072}B=7000B$$",
+      "formula": "$$\\frac{\\text{mass C}}{\\text{mass B}} = 7000$$"
+    },
+    {
+      "title": "Convert to the requested value",
+      "content": "So $C$ is $700000\\%$ of $B$, meaning $p=700000$. Then $$\\frac{p}{1000}=\\frac{700000}{1000}=700$$The answer is <strong>700</strong>."
+    }
+  ]
+}

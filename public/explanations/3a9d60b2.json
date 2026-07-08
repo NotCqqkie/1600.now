@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$2 \\left|4-x\\right|+3 \\left|4-x\\right|=25$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $9$.",
+      "title": "Combine like terms",
+      "content": "Both terms contain the same absolute-value expression.<br/>$$2|4-x|+3|4-x|=5|4-x|$$<br/>So the equation becomes $5|4-x|=25$.",
       "desmosExpressions": [
         "2 \\left|4-x\\right|+3 \\left|4-x\\right|=25"
       ]
     },
     {
-      "title": "Combine like absolute-value terms",
-      "content": "Both terms contain $|4-x|$, so combine their coefficients: $$2|4-x|+3|4-x|=5|4-x|.$$ The equation becomes $$5|4-x|=25.$$"
-    },
-    {
       "title": "Split the absolute value",
-      "content": "Divide by $5$ to get $|4-x|=5$. That means $$4-x=5$$ or $$4-x=-5.$$ These give $x=-1$ and $x=9$."
+      "content": "Divide by $5$, then use the two absolute-value cases.<br/>$$|4-x|=5$$<br/>$$4-x=5$$<br/>$$4-x=-5$$"
     },
     {
-      "title": "Choose the requested solution",
-      "content": "The question asks for the positive solution, so keep $x=9$ and reject $x=-1$. The answer is <strong>9</strong>."
+      "title": "Choose the positive solution",
+      "content": "Solving the two equations gives $x=-1$ and $x=9$. The question asks for the positive solution. The answer is <strong>9</strong>."
     }
   ]
 }

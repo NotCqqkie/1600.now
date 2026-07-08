@@ -1,0 +1,15 @@
+{
+  "questionId": "3414b045",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join the two titles",
+      "content": "The sentence gives Gerald Clarke two linked descriptions: <em>artist</em> and <em>2007 Eiteljorg Fellowship recipient</em>. Those two descriptions form one compound noun phrase before his name."
+    },
+    {
+      "title": "Avoid unnecessary punctuation",
+      "content": "Choice A wrongly adds a comma before <em>and</em> between two linked titles. Choice C adds a dash without a matching structure. Choice D adds a trailing comma with no opening comma. No extra punctuation is needed between the two titles and the name. The answer is <strong>B</strong>."
+    }
+  ]
+}

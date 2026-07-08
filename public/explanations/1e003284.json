@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=49$$<br/>$$y=\\sqrt{x}+9$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Substitute the x-value",
+      "content": "The first equation gives $x=49$. Substitute that into $y=\\sqrt{x}+9$.<br/>$$y=\\sqrt{49}+9$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph $x=49$ and $y=\\sqrt{x}+9$, or evaluate the expression directly.<br/>$$y=7+9=16$$<br/>The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "x=49",
         "y=\\sqrt{x}+9"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>A</strong>, $16$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

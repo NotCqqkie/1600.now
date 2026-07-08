@@ -1,0 +1,19 @@
+{
+  "questionId": "b67667fb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on orbit duration",
+      "content": "The student's goal is narrow: specify how long Despina takes to orbit Neptune. The directly relevant note says Despina completes an orbit of Neptune in 0.33 Earth days on average. The notes about Kepler's laws may describe orbits generally, but they do not provide the requested duration."
+    },
+    {
+      "title": "Reject missing durations",
+      "content": "<ul><li><strong>Choice B - Despina's orbit of Neptune can be described using Kepler's three laws of planetary motion.</strong>: This discusses a way to describe the orbit but never states its length.</li><li><strong>Choice C - It takes Despina three Earth days to orbit Neptune, a number that can be deduced from Kepler's laws of planetary motion.</strong>: This gives the wrong duration; the note says 0.33 Earth days, not three Earth days.</li></ul>"
+    },
+    {
+      "title": "Keep Despina as the focus",
+      "content": "<ul><li><strong>Choice D - Kepler's three laws of planetary motion describe the orbits of planets in a solar system, including Despina's orbit, which takes 0.33 Earth days on average.</strong>: This includes the duration but shifts the focus to Kepler's laws instead of directly specifying Despina's orbit time.</li></ul>The direct sentence using the 0.33-day figure best serves the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "3d418918",
+  "correctAnswer": "-15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant",
+      "content": "A quadratic has no real solutions when its discriminant is negative. For $-x^2+bx-64=0$, the coefficients are $a=-1$, $b=b$, and $c=-64$."
+    },
+    {
+      "title": "Solve the inequality",
+      "content": "Set the discriminant less than $0$.<br/>$$b^2-4(-1)(-64)<0$$<br/>$$b^2-256<0$$<br/>$$b^2<256$$<br/>So $-16<b<16$."
+    },
+    {
+      "title": "Choose the least integer",
+      "content": "The integer values are greater than $-16$ and less than $16$, so the least possible integer is $-15$. The answer is <strong>-15</strong>."
+    }
+  ]
+}

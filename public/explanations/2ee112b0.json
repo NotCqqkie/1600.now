@@ -1,0 +1,15 @@
+{
+  "questionId": "2ee112b0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the compounds",
+      "content": "The sentence says the liquid compounds have certain molar masses. The compound names hexafluorobenzene and undecane identify which liquid compounds are being discussed, so the names are essential information rather than a removable aside."
+    },
+    {
+      "title": "Keep essential names unmarked",
+      "content": "Choice A starts to set off the names with a comma but never closes the interruption. Choice B treats the names as nonessential, and Choice D inserts a comma between the subject and the verb have. Essential identifying names should appear without commas. The answer is <strong>C</strong>."
+    }
+  ]
+}

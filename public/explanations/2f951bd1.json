@@ -1,0 +1,22 @@
+{
+  "questionId": "2f951bd1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The function is\n$$\nf(x)=(x-1)^2+7\n$$\nThis is vertex form, and the squared part can never be negative."
+    },
+    {
+      "title": "Make the square zero",
+      "content": "The smallest possible value of $(x-1)^2$ is $0$. That happens when $x=1$, so the minimum value of the function is\n$$\n0+7=7\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the function shows the vertex at $(1,7)$, so the minimum value is $7$. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "f(x)=(x-1)^{2}+7"
+      ]
+    }
+  ]
+}

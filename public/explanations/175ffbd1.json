@@ -1,0 +1,19 @@
+{
+  "questionId": "175ffbd1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the requested cell",
+      "content": "The sentence asks for how much copper Mexico mined in 1995. That is a direct table lookup using the Mexico row and the 1995 column."
+    },
+    {
+      "title": "Reject other countries' values",
+      "content": "A gives the United States value for 1995. C gives China's value for 1995. D gives Poland's value for 1995. Those values do not answer the Mexico question."
+    },
+    {
+      "title": "Read Mexico's value",
+      "content": "The table lists Mexico at 0.33 million metric tons of copper in 1995. The answer is <strong>B</strong>."
+    }
+  ]
+}

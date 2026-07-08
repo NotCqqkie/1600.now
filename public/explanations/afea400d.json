@@ -1,0 +1,19 @@
+{
+  "questionId": "afea400d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use boundary-line points",
+      "content": "The boundary line has equation $rx+ty=-36$. From the graph, two clear points on the boundary are $(0,-12)$ and $(-12,-8)$."
+    },
+    {
+      "title": "Solve for the coefficients",
+      "content": "Substitute $(0,-12)$: $$0r-12t=-36$$ $$t=3$$ Substitute $(-12,-8)$: $$-12r-8(3)=-36$$ $$r=1$$"
+    },
+    {
+      "title": "Add the coefficients",
+      "content": "Now add the two coefficients: $$r+t=1+3=4$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

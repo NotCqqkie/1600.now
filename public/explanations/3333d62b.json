@@ -1,0 +1,15 @@
+{
+  "questionId": "3333d62b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join contrast clauses",
+      "content": "The sentence joins two independent clauses: the poem dates back to the 3rd century BCE, and its heroic narrative still captivates modern readers. The connection should also signal contrast between ancient origin and modern appeal."
+    },
+    {
+      "title": "Use comma plus conjunction",
+      "content": "A creates a comma splice, B puts the contrast word on the wrong side of the comma, and D creates an awkward new sentence with lowercase <strong>the</strong> while losing the contrast signal. The correct form uses a comma with a coordinating conjunction. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d264cce8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with the slope",
+      "content": "A line with slope $$-\\frac{1}{4}$$ has the form\n$$y=-\\frac{1}{4}x+b$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Substitute the point $(8,5)$ into the equation and solve for $b$.\n$$5=-\\frac{1}{4}(8)+b$$\n$$5=-2+b$$\n$$b=7$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "The equation of the line is\n$$y=-\\frac{x}{4}+7$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

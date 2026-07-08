@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to present BOTH the study and its methodology. The right answer must name what Lin was investigating and HOW Lin investigated it (computer simulations of the mother duck&#39;s wake)."
+      "title": "Match the student's goal",
+      "content": "The sentence must present both the study and its methodology. That means it should identify what Lin was trying to understand and also state how the study was conducted: by using computer simulations to study the mother duck's wake."
     },
     {
-      "title": "Find the choice that covers both pieces",
-      "content": "The correct answer states the research question (how ducklings save energy swimming behind their mother) and the methodology (Lin used computer simulations to study the effect of the mother duck&#39;s wake). Both elements are present."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; A study revealed that ducklings, which expend up to 62.8% less energy when swimming in a line behind their mother, also experience 158% less drag.</strong>: gives findings only and never mentions the methodology (computer simulations of the wake). &#10007;</li><li><strong>Choice B &mdash; Seeking to understand how ducklings swimming in a line behind their mother save energy, Mei Lin used computer simulations to study the effect of the mother duck's wake.</strong>: names the study&#39;s purpose AND the methodology. &#10003;</li><li><strong>Choice C &mdash; Mei Lin studied the physics behind the fact that by being pushed in a forward direction by waves, ducklings save energy.</strong>: vague about method and presents a finding (forward push from waves) as a premise; no methodology stated. &#10007;</li><li><strong>Choice D &mdash; Naval architect Mei Lin discovered that ducklings are pushed in a forward direction by the waves of their mother's wake, reducing the effect of drag by 158%.</strong>: reports a result with a statistic but says nothing about how Lin conducted the study. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Rule out findings-only choices",
+      "content": "A and D report results from the study, such as reduced drag or forward movement, without naming the method. C gives a vague description of the physics but still does not say how Lin investigated it. The choice that gives both the study's purpose and the simulation method fits the student's goal. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "0caf8a82",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute into the function",
+      "content": "Replace $x$ with $12$ in the function.\n$$h(12)=4(8(12)-12)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Work inside the parentheses first.\n$$h(12)=4(96-12)$$\n$$h(12)=4(84)$$\n$$h(12)=336$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

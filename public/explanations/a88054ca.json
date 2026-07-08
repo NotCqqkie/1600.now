@@ -1,0 +1,20 @@
+{
+  "questionId": "a88054ca",
+  "correctAnswer": "298/3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the side length",
+      "content": "An equilateral triangle has $3$ equal sides, so divide the perimeter by $3$.<br/>$$\\frac{894}{3}=298$$"
+    },
+    {
+      "title": "Use the circumradius formula",
+      "content": "For an equilateral triangle, the radius of the circumscribed circle is<br/>$$R=\\frac{s\\sqrt{3}}{3}$$<br/>Substitute $s=298$:<br/>$$R=\\frac{298\\sqrt{3}}{3}$$",
+      "formula": "$$R = \\frac{s\\sqrt{3}}{3}$$"
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "The radius is written as $w\\sqrt{3}$, so $w$ is the coefficient of $\\sqrt{3}$. The answer is <strong>298/3</strong>."
+    }
+  ]
+}

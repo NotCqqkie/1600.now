@@ -1,0 +1,15 @@
+{
+  "questionId": "83a445a3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the both-bacteria claim",
+      "content": "Serrano and colleagues concluded that both <em>A. ratkowskyi</em> and <em>A. boritolerans</em> might have played a role in the development of multicellular organisms. The strongest support would show that both bacterial exposures led <em>S. rosetta</em> to form colonies."
+    },
+    {
+      "title": "Reject one-sided findings",
+      "content": "Choice B supports only Harper's bacterium and not Nair's. Choice C supports only Nair's bacterium and not Harper's. Choice D says neither exposure produced colony formation, directly weakening the conclusion about both bacteria. The answer is <strong>A</strong>."
+    }
+  ]
+}

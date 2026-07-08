@@ -1,19 +1,15 @@
 {
   "questionId": "75208874",
-  "section": "Reading and Writing",
   "correctAnswer": "D",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the text shows",
-      "content": "Social media users invented the &quot;meng-&quot; prefix online, then that prefix spread into spoken Bahasa Indonesia. The passage also notes similar examples in other languages."
+      "title": "Follow the language change",
+      "content": "The text explains that social-media users first applied <em>meng</em>- to cat images, then began attaching it to existing words online, and now the affix has started entering spoken Bahasa Indonesia."
     },
     {
-      "title": "Find the logical conclusion",
-      "content": "Because language changes were created on social media and then moved into everyday speech, social media is doing more than just observing change &mdash; it is helping cause it."
-    },
-    {
-      "title": "Eliminate the wrong choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;is more useful for studying informal language than for studying formal or official language.&rsquo;</strong>: the text never compares formal vs. informal study; this is unsupported. &#10007;</li><li><strong>Choice B &mdash; &lsquo;appears to be exerting an exceptionally strong influence on the evolution of Bahasa Indonesia.&rsquo;</strong>: the final sentence says similar things happen in many languages, so Bahasa Indonesia is not exceptional. &#10007;</li><li><strong>Choice C &mdash; &lsquo;may give linguists a somewhat misleading sense of how languages are changing.&rsquo;</strong>: nothing in the text suggests linguists are being misled; the example is presented as a real change. &#10007;</li><li><strong>Choice D &mdash; &lsquo;does not merely register changes in language usage but can facilitate such changes.&rsquo;</strong>: matches exactly &mdash; social media both records and helps cause the change. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Draw the broad conclusion",
+      "content": "A compares informal and formal language study, which the text does not do. B wrongly treats Bahasa Indonesia as exceptional even though similar examples occur in other languages. C claims social media may mislead linguists, which is unsupported. Social media is helping language change happen. The answer is <strong>D</strong>."
     }
   ]
 }

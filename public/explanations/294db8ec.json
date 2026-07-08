@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the greatest common factor",
-      "content": "In $3x^{3}+9$, the coefficients are $3$ and $9$, whose greatest common factor is $3$. The variable $x$ appears only in the first term, so it is not part of the common factor."
+      "title": "Find the common factor",
+      "content": "The terms $3x^3$ and $9$ share a greatest common factor of $3$. The variable $x$ is not common to both terms because it appears only in the first term."
     },
     {
-      "title": "Factor and test each choice",
-      "content": "Factor: $3x^{3}+9=3(x^{3}+3)$. Now expand each choice and compare to $3x^{3}+9$:<ul><li><strong>A)$9 \\times (x^3 + 9)$</strong> $9(x^{3}+9)=9x^{3}+81$. The leading coefficient is $9$, not $3$, so this is not equivalent.</li><li><strong>B)$9 \\times (x^3 + 3)$</strong> $9(x^{3}+3)=9x^{3}+27$. The leading coefficient is $9$, not $3$, so this is not equivalent.</li><li><strong>C)$3 \\times (x^3 + 9)$</strong> $3(x^{3}+9)=3x^{3}+27$. The constant term is $27$, not $9$, so this is not equivalent.</li><li><strong>D)$3 \\times (x^3 + 3)$</strong> $3(x^{3}+3)=3x^{3}+9$. This matches the original expression exactly. That matches <strong>Choice D &mdash; $3 \\times (x^3 + 3)$</strong>.</li></ul>"
+      "title": "Factor the expression",
+      "content": "Factor $3$ out of both terms. Dividing $3x^3$ by $3$ leaves $x^3$, and dividing $9$ by $3$ leaves $3$:\n$$\n3x^3+9=3(x^3+3)\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

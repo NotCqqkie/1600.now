@@ -1,0 +1,19 @@
+{
+  "questionId": "2e53eafe",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the shared significance",
+      "content": "The student wants the significance of a similarity between two kits. CTAB 2X had high yield but poor purity, while Pplant had very low yield; both therefore fell short compared with Pbact."
+    },
+    {
+      "title": "Rule out unsupported comparisons",
+      "content": "Choice A gives raw measurements without explaining significance. Choice C compares CTAB 2X with Pbact and falsely says they were equal in purity. Choice D wrongly says Pbact had an insufficient yield."
+    },
+    {
+      "title": "State the common outcome",
+      "content": "The remaining choice explains the meaningful similarity: CTAB 2X and Pplant were both deemed less effective than Pbact because one lacked sufficient purity and the other lacked sufficient yield. The answer is <strong>B</strong>."
+    }
+  ]
+}

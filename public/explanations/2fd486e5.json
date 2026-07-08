@@ -1,0 +1,15 @@
+{
+  "questionId": "2fd486e5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The verb must agree with <em>her book's musings on tenth-century Japanese courtly life</em>. The head noun is <em>musings</em>, which is plural; the intervening phrase does not change the subject's number."
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "<strong>Choice A</strong>, <strong>Choice C</strong>, and <strong>Choice D</strong> all use singular verbs for the plural subject <em>musings</em>. The sentence needs the plural present-tense verb that fits a general statement about readers. The answer is <strong>B</strong>."
+    }
+  ]
+}

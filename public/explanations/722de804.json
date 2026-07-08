@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use symmetry instead of expanding",
-      "content": "The equation $(x-47)^2=1$ says that $x$ is exactly $1$ unit away from $47$. That gives one value below $47$ and one value above $47$."
+      "title": "Split into two cases",
+      "content": "The equation says $x-47$ is $1$ unit from $0$ in either direction. That gives one positive case and one negative case.<br/>$$x-47=1\\quad\\text{or}\\quad x-47=-1$$"
     },
     {
-      "title": "Find the two solutions",
-      "content": "Taking the square root gives $$x-47=1 \\quad \\text{or} \\quad x-47=-1.$$ Therefore $x=48$ or $x=46$."
+      "title": "Find both solutions",
+      "content": "Solve each equation by adding $47$ to both sides.<br/>$$x=48\\quad\\text{or}\\quad x=46$$"
     },
     {
       "title": "Add the solutions",
-      "content": "The sum is $$48+46=94.$$ Shortcut check: the two solutions are centered at $47$, so their sum is $2(47)=94$. The answer is <strong>94</strong>.",
+      "content": "The graphs $y=(x-47)^2$ and $y=1$ intersect at the same two $x$-values. Add the solutions.<br/>$$48+46=94$$<br/>The answer is <strong>94</strong>.",
       "desmosExpressions": [
         "y=(x-47)^2",
         "y=1"

@@ -1,0 +1,15 @@
+{
+  "questionId": "8faac980",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the first median",
+      "content": "Data set A has $41$ values, so its median is the $21$st value when the data are ordered.\n\n$$\\frac{41+1}{2}=21$$\n\nFrom the table, positions $17$ through $25$ are all $3$, so the median of data set A is $3$."
+    },
+    {
+      "title": "Locate the second median",
+      "content": "Removing the erroneous value $13$ leaves $40$ values. The median of data set B is the average of the $20$th and $21$st values. Those positions are still both $3$.\n\n$$\\frac{3+3}{2}=3$$\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

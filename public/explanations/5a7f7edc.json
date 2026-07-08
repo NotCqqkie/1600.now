@@ -1,0 +1,19 @@
+{
+  "questionId": "5a7f7edc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the central idea",
+      "content": "A main-idea question needs the broad claim that organizes the whole passage. The text first identifies artificial leaves as a developing renewable-energy technology that imitates photosynthesis and splits water into hydrogen and oxygen. Then it shifts to the limitation: the devices have generated interest but are not yet commercially viable on a large scale."
+    },
+    {
+      "title": "Reject narrower claims",
+      "content": "Choice B contradicts the passage because it says commercial use has recently increased, while the text says the technology is not yet commercially viable. Choice C turns energy storage into the original purpose, but the passage presents storage, transport, and distribution as challenges still being researched. Choice D invents a comparison with plant efficiency that the passage never makes."
+    },
+    {
+      "title": "Choose the broad summary",
+      "content": "Choice A captures both halves of the passage: artificial leaves are promising, but more research and development are needed before the technology can be widely used as an energy source. It is broad enough to include the technical description and the remaining practical barriers. The answer is <strong>A</strong>."
+    }
+  ]
+}

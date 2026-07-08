@@ -1,0 +1,19 @@
+{
+  "questionId": "51cd2c8a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the shared input",
+      "content": "For $p$, the slope is $6$. Use the change from $p(c)=-8$ to $p(4)=28$:\n$$\n\\frac{28-(-8)}{4-c}=6\n$$"
+    },
+    {
+      "title": "Solve for the input",
+      "content": "Solve the equation for $c$:\n$$\n\\frac{36}{4-c}=6\n$$\n$$\n36=24-6c\n$$\n$$\nc=-2\n$$"
+    },
+    {
+      "title": "Use the two points for slope",
+      "content": "For $t$, the two points are $(-2,-7)$ and $(4,35)$. The slope is\n$$\n\\frac{35-(-7)}{4-(-2)}=\\frac{42}{6}=7\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "74762384",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the density",
+      "content": "Population density is population divided by area. Use the $2{,}448$ beavers and the $136$ acres:<br/>$$\\frac{2{,}448}{136}$$"
+    },
+    {
+      "title": "Divide population by area",
+      "content": "Compute the quotient:<br/>$$\\frac{2{,}448}{136}=18$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a357b885",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the product",
+      "content": "The number that is $1$ less than $s$ is $s-1$. Their product is $342$, so<br/>$$s(s-1)=342$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Rewrite and factor:<br/>$$s^2-s-342=0$$<br/>$$(s-19)(s+18)=0$$<br/>Since $s$ is positive, use $s=19$. The answer is <strong>B</strong>."
+    }
+  ]
+}

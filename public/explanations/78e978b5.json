@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the sentence structure",
-      "content": "The sentence reads: &quot;a hypothetical basket of goods priced at 100 USD in the United States would have cost 62 USD and 110 USD in fellow OECD ______ and Luxembourg, respectively.&quot; The phrase &quot;Chile and Luxembourg&quot; identifies exactly which two OECD nations are being compared. &quot;Chile&quot; fills the blank to complete &quot;OECD nations Chile and Luxembourg&quot; as a restrictive noun phrase &mdash; no punctuation should separate a restrictive identifier from the noun it identifies.<ul><li><strong>Choice A &mdash; &lsquo;nations, Chile&rsquo;</strong>: The comma after &quot;nations&quot; treats &quot;Chile and Luxembourg&quot; as nonessential, but the names are essential to identify which OECD nations are meant. &#10007;</li><li><strong>Choice B &mdash; &lsquo;nations; Chile&rsquo;</strong>: A semicolon can only separate independent clauses or items in a complex list; neither applies here. &#10007;</li><li><strong>Choice C &mdash; &lsquo;nations: Chile&rsquo;</strong>: A colon after &quot;nations&quot; would suggest that what follows lists the cost for all OECD nations, not just Chile and Luxembourg specifically. &#10007;</li><li><strong>Choice D &mdash; &lsquo;nations Chile&rsquo;</strong>: No punctuation is needed because &quot;Chile and Luxembourg&quot; is a restrictive appositive that identifies which nations are meant. &#10003;</li></ul>"
+      "title": "Keep the nation names attached",
+      "content": "The phrase \"Chile and Luxembourg\" identifies which fellow OECD nations are being compared. Because those names are essential to the noun phrase, no punctuation should separate them from \"nations,\" and the word \"respectively\" depends on pairing those names with the two prices."
     },
     {
-      "title": "Confirm no punctuation is correct",
-      "content": "Because &quot;Chile and Luxembourg&quot; is essential information &mdash; remove it and the sentence becomes meaningless (&quot;fellow OECD nations&quot; without specifying which ones) &mdash; it must not be set off by any punctuation. Only the credited option leaves the noun phrase intact without interruption. That confirms <strong>D</strong> is correct."
+      "title": "Reject unnecessary punctuation",
+      "content": "Choice A makes the names look nonessential. Choice B uses a semicolon where there is no independent clause or complex-list break. Choice C uses a colon to introduce what should be a restrictive identifier. The answer is <strong>D</strong>."
     }
   ]
 }

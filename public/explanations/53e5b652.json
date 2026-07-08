@@ -1,0 +1,15 @@
+{
+  "questionId": "53e5b652",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the species difference",
+      "content": "The researchers found a clear difference between the two birds: great blue herons prefer deep water during breeding season, but small dark herons do not. A strategy that increases breeding-season water depth should therefore favor great blue herons more than small dark herons."
+    },
+    {
+      "title": "Choose the supported comparison",
+      "content": "Choice B discusses lifespan, which the passage never mentions. Choice C introduces birds that do not typically live in wetlands, and Choice D says appeal decreases for both species, even though deeper water should appeal to great blue herons. Choice A compares attracting small dark herons with attracting great blue herons and follows from the species difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

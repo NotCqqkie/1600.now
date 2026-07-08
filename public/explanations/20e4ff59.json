@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read what the two halves say",
-      "content": "First half: 2023 measurements showed the tower was rotating in a concerning way. Second half (after the blank): city officials closed the area so experts could explore solutions to stabilize the structure. The closure is a direct response to the concerning measurements."
+      "title": "Find cause and effect",
+      "content": "The measurements showed that the tower was rotating in a concerning way. The next sentence says officials closed the area so experts could explore stabilization. The closure is a response to the concerning measurements."
     },
     {
-      "title": "Pick the transition that names cause and effect",
-      "content": "Concerning movement is the cause; closing the area to investigate is the effect. The transition must mark that this action follows from the prior finding."
-    },
-    {
-      "title": "Eliminate by rule",
-      "content": "<ul><li><strong>Choice A &mdash; Similarly,</strong>: signals two parallel cases, but the passage gives one finding and one response, not two analogous situations. Misread of the relationship. &#10007;</li><li><strong>Choice B &mdash; As a result,</strong>: marks the closure as the consequence of the concerning rotation &mdash; exactly the cause-effect link in the text. &#10003;</li><li><strong>Choice C &mdash; For example,</strong>: would introduce an instance of a general claim, but the first sentence is itself a specific finding, not a generalization needing illustration. Misread. &#10007;</li><li><strong>Choice D &mdash; In comparison,</strong>: signals a comparison between two things, but only one tower and one response are discussed. Overreach. &#10007;</li></ul>That matches <strong>Choice B &mdash; As a result,</strong>."
+      "title": "Choose the result signal",
+      "content": "A signals similarity, C signals an example, and D signals comparison. None expresses that one event happened because of the previous finding. The needed transition marks a consequence. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "67f0e5ec",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "An exponential equation can be written as\n$$y=a(b)^x$$\nWhen $x=0$, the value of $y$ is $80$, so the starting value is $a=80$."
+    },
+    {
+      "title": "Find the growth multiplier",
+      "content": "An increase of $40\\%$ means each value is multiplied by\n$$1+0.40=1.40$$\nSo the model is\n$$y=80(1.40)^x$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

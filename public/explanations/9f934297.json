@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Apply the surface area formula for a rectangular prism",
-      "content": "A rectangular prism has six faces in three distinct pairs. We sum the area of each pair and multiply by 2:<br/><br/>Calculate each distinct face area with $l = 26$ cm, $w = 17$ cm, and $h = 14$ cm:<br/>$$lw = 26 \\times 17 = 442$$<br/>$$lh = 26 \\times 14 = 364$$<br/>$$wh = 17 \\times 14 = 238$$",
+      "title": "Use the surface area formula",
+      "content": "For a rectangular prism, use length $26$, width $17$, and height $14$.",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
-      "title": "Sum the face areas and multiply by 2",
-      "content": "$$442 + 364 + 238 = 1044$$<br/>$$SA = 2 \\times 1044 = 2088 \\text{ cm}^2$$<br/>The surface area is <strong>2088 cm^2</strong>."
+      "title": "Compute the three products",
+      "content": "Find the three different face products:<br/><br/>$$26(17)=442$$<br/>$$26(14)=364$$<br/>$$17(14)=238$$"
+    },
+    {
+      "title": "Double the sum",
+      "content": "Add the products and double because each face pair appears twice:<br/><br/>$$2(442+364+238)=2(1{,}044)=2{,}088$$<br/><br/>The answer is <strong>2088</strong>."
     }
   ]
 }

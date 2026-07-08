@@ -1,0 +1,15 @@
+{
+  "questionId": "8f513930",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make each singular and past",
+      "content": "The subject is <em>Each of these republics</em>. Because <em>Each</em> is singular, the verb must be singular; because the sentence describes a Soviet-era historical fact, it must also be past tense."
+    },
+    {
+      "title": "Reject number and tense errors",
+      "content": "<strong>Choice A</strong> is plural and present perfect. <strong>Choice B</strong> is plural and present tense. <strong>Choice D</strong> is past tense but plural, so it still fails to agree with <em>Each</em>. The answer is <strong>C</strong>."
+    }
+  ]
+}

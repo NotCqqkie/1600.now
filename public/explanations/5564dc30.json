@@ -1,0 +1,15 @@
+{
+  "questionId": "5564dc30",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the year",
+      "content": "The student wants to emphasize when Martin Kessler won the A.M. Turing Award. The relevant note is the year 1969, so the strongest sentence foregrounds that timing rather than the award's prestige or Kessler's contribution."
+    },
+    {
+      "title": "Reject non-timing details",
+      "content": "Choice A emphasizes why Kessler won. Choice C defines the award. Choice D only says he is a winner. The remaining choice puts 1969 at the center of the sentence, directly emphasizing when he won. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the cost formula",
-      "content": "The first day costs \\$54, and each additional day costs \\$27. For $d$ days, there is 1 first day and $(d-1)$ additional days, so the total cost is:<br/>$$C(d) = 54 + 27(d-1)$$"
+      "title": "Count the additional days",
+      "content": "There are $d-1$ additional days."
     },
     {
-      "title": "Expand and simplify to match a choice",
-      "content": "Distribute the 27:<br/>$$C(d) = 54 + 27d - 27$$<br/>Combine like terms:<br/>$$C(d) = 27d + 27$$<br/>This confirms <strong>A</strong> is correct."
+      "title": "Build the cost function",
+      "content": "$$C(d)=54+27(d-1)=27d+27$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

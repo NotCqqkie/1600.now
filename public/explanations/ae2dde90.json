@@ -1,0 +1,19 @@
+{
+  "questionId": "ae2dde90",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the group as one value",
+      "content": "The expression $4x+5$ appears as a single grouped quantity on both sides of the equation. Subtract $4(4x+5)$ from both sides to isolate the remaining groups."
+    },
+    {
+      "title": "Combine the groups",
+      "content": "Subtracting the grouped terms leaves $$6(4x+5)-4(4x+5)=82$$ $$2(4x+5)=82$$"
+    },
+    {
+      "title": "Find the grouped value",
+      "content": "Divide both sides by $2$ to get the requested expression itself: $$4x+5=41$$ The value of $4x+5$ is $41$. The answer is <strong>B</strong>."
+    }
+  ]
+}

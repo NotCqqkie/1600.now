@@ -1,0 +1,19 @@
+{
+  "questionId": "5cefeb15",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use foundational as the clue",
+      "content": "The passage says the mihrab is foundational to traditional mosque architecture and that even mosques with mixed styles include standard features like it. The blank needs a word for something essential and characteristic."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "Choice A means never seen before, which contradicts a standard feature. Choice B means decorated, and Choice C means visually impressive; neither captures essential importance."
+    },
+    {
+      "title": "Choose essential and typical",
+      "content": "Quintessential means representing the most typical or essential example, which fits a foundational aspect of mosque design. The answer is <strong>D</strong>."
+    }
+  ]
+}

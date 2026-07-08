@@ -1,0 +1,15 @@
+{
+  "questionId": "4d348c50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the discovery verb",
+      "content": "The sentence says maize does not closely resemble any wild plant, and genetic research only recently identified its ancestor as teosinte grass. The blank needs a verb that means uncovered or discovered and that fits naturally before the phrase about the ancestor."
+    },
+    {
+      "title": "Reject mismatched verbs",
+      "content": "Choice B cannot logically describe research making an ancestor larger. Choice C would mean research persuaded an ancestor to do something. Choice D would mean research formally requested something from the ancestor. The remaining verb describes uncovering the ancestor's identity. The answer is <strong>A</strong>."
+    }
+  ]
+}

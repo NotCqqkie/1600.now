@@ -1,0 +1,15 @@
+{
+  "questionId": "7ead875c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "$10\\%$ is the same as $\\frac{1}{10}$, so Maya saved one tenth of $280$ seeds."
+    },
+    {
+      "title": "Take one tenth",
+      "content": "Divide by $10$:\n$$\n280\\div 10=28\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

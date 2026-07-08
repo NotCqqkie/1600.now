@@ -1,0 +1,15 @@
+{
+  "questionId": "f98b4ff5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on Sirius A's mass",
+      "content": "The student's goal is not to define solar masses generally or discuss Proxima Centauri. The sentence must make Sirius A the subject and foreground its mass of 2.063 solar masses."
+    },
+    {
+      "title": "Reject off-target details",
+      "content": "Choice A focuses on Proxima Centauri and general units. Choice B defines solar masses without naming Sirius A. Choice C omits Sirius A entirely. Only the remaining choice centers Sirius A's mass. The answer is <strong>D</strong>."
+    }
+  ]
+}

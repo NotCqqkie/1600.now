@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast signal",
-      "content": "The key signal is “different”—reindeer are exceptions to the typical pattern described in the first sentence. The transition must mark a CONTRAST or EXCEPTION."
+      "title": "Signal the exception",
+      "content": "The first sentence gives the usual pattern: in most deer species, males grow antlers and females do not. The next sentence says reindeer are different, so the transition must introduce a contrast or exception."
     },
     {
-      "title": "Apply the contrast transition",
-      "content": "“However” is a contrast word that correctly introduces the exception. The other three fail to signal contrast, instead suggesting agreement, sequencing, or logical consequence. That confirms <strong>C</strong> is correct."
+      "title": "Reject noncontrast transitions",
+      "content": "A signals similarity, B signals sequence, and D signals a result. None introduces an exception to the general deer pattern. The answer is <strong>C</strong>."
     }
   ]
 }

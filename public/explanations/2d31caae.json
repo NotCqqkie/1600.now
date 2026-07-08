@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the row, not the whole table",
-      "content": "The question asks for the percent of <em>Employee A's</em> calls that received $1$ star. In Employee A's row, $16$ calls received $1$ star, and Employee A had $145$ calls total."
+      "title": "Use Employee A's row",
+      "content": "The question asks for the percent of Employee A's calls that received $1$ star. Employee A had $16$ one-star calls out of $145$ total calls."
     },
     {
-      "title": "Backsolve the percent quickly",
-      "content": "The correct answer says $11\\%$. Check it against Employee A's total: $$0.11(145)=15.95$$ That rounds to $16$, exactly the number of $1$-star calls."
+      "title": "Compute the percent",
+      "content": "Divide the one-star calls by Employee A's total calls. The quotient is about\n$$\n\\frac{16}{145}=0.1103=11.03\\%\n$$\nTo the nearest whole percent, this is $11\\%$."
     },
     {
-      "title": "Confirm the fraction",
-      "content": "The direct calculation is $$\\frac{16}{145}\\approx 0.1103=11.03\\%$$ To the nearest whole percent, that is $11\\%$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>$3\\%$ compares $16$ to all $500$ calls, not to Employee A's $145$ calls.</li><li>The matching choice, $11\\%$, uses $16$ out of $145$. Correct.</li><li>$16\\%$ treats the count $16$ like a percent.</li><li>$32\\%$ compares Employee A's $16$ one-star calls to all $50$ one-star calls.</li></ul>The result matches."
+      "title": "Choose the nearest percent",
+      "content": "The nearest whole percent is $11\\%$. The answer is <strong>B</strong>."
     }
   ]
 }

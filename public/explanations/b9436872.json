@@ -1,0 +1,15 @@
+{
+  "questionId": "b9436872",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find Yakama in the table",
+      "content": "The sentence asks for the area of the Yakama Nation in Washington. In the table, the Yakama Nation row lists Washington as the location and 2,188 square miles as the area."
+    },
+    {
+      "title": "Reject other nation areas",
+      "content": "A is the Choctaw Nation's area. B is the Hopi Tribe's area. C is the Tohono O'odham Nation's area. Only the remaining value matches the Yakama Nation row. The answer is <strong>D</strong>."
+    }
+  ]
+}

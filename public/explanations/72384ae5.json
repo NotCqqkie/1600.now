@@ -1,0 +1,15 @@
+{
+  "questionId": "72384ae5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on a sculpture",
+      "content": "The student's goal is narrow: the sentence must provide an example of one of Catlett's sculptures. The notes include both kinds of work by Catlett, so the best choice has to name a specific artwork and identify it as a sculpture rather than a print, a broad description of her career, or a biographical fact."
+    },
+    {
+      "title": "Remove the wrong details",
+      "content": "<ul><li><strong>Choice A - 'The print <em>Dancing</em> was created by celebrated artist Eleanor Catlett in 1990.'</strong>: This names a specific work, but the notes identify <em>Dancing</em> as a print, so it does not provide an example of a sculpture.</li><li><strong>Choice B - 'Artist Eleanor Catlett is best known for creating sculptures and prints that explore the Black experience.'</strong>: This summarizes Catlett's broader work but does not name any specific sculpture.</li><li><strong>Choice D - 'Eleanor Catlett, a celebrated artist, was born in 1915.'</strong>: This gives biographical information only and does not name an artwork.</li></ul>The remaining choice uses the notes to name <em>Star Gazer</em>, identifies it as a sculpture, and gives its year. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e2fb3dd8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Break the depth assumption",
+      "content": "The student's hypothesis relies on a general rule: shallower water is warmer because temperature decreases with depth. To weaken it, a finding must show that comparing depths across New Caledonia and Fiji is not enough to compare temperatures. A regional temperature difference could offset the expected effect of depth."
+    },
+    {
+      "title": "Reject irrelevant findings",
+      "content": "Choice A concerns movement after hatching, not egg-laying temperature. Choice C explains why New Caledonian eggs might be shallower but does not weaken the warmth claim. Choice D would make Fijian water colder, strengthening the hypothesis. The answer is <strong>B</strong>."
+    }
+  ]
+}

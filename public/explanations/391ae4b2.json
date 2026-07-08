@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up: comparing data sets F and G",
-      "content": "Data set F contains 57 integers, all between 160 and 280. Data set G contains all 57 integers from F, plus the integer 12. So G has 58 integers total. Crucially, 12 is far smaller than every value in F."
+      "title": "Compare the means",
+      "content": "Let $S$ be the sum of the $57$ integers in data set F. Since each value in F is at least $160$,<br/>$$S\\ge57\\cdot160=9{,}120$$Adding $12$ to make data set G must lower the mean, not raise it."
     },
     {
-      "title": "Test the mean: set up the inequality",
-      "content": "Let $S$ = sum of the 57 integers in F. Then Mean(F) $= \\frac{S}{57}$ and Mean(G) $= \\frac{S + 12}{58}$. <br/><br/>For the mean of F to be less than the mean of G:<br/>$$\\frac{S}{57} \\lt \\frac{S + 12}{58}$$<br/>Cross multiply: $58S \\lt 57(S + 12)$, which simplifies to $58S \\lt 57S + 684$, so $S \\lt 684$. <br/><br/>However, every integer in F is at least 160, so $S \\geq 57 \\times 160 = 9120$. Since $S \\geq 9120$, the inequality $S \\lt 684$ is false. Therefore, Mean(F) $\\gt $ Mean(G), not less."
+      "title": "Compare the medians",
+      "content": "Let the sorted values in F be listed in order. The median of F is $a_{29}$. In G, $12$ becomes the first value, so the median is<br/>$$\\frac{a_{28}+a_{29}}{2}\\le a_{29}$$Thus the median of F is not less than the median of G."
     },
     {
-      "title": "Test the median: position shift when adding the minimum",
-      "content": "When F is sorted, the median is the 29th integer (call it $a_{29}$). <br/><br/>When G is sorted, 12 becomes the smallest value, so G looks like: $12, a_1, a_2, \\ldots, a_{57}$. With 58 integers, the median is the average of the 29th and 30th values. Counting positions: 12 is 1st, $a_1$ is 2nd,..., $a_{28}$ is 29th, $a_{29}$ is 30th. <br/><br/>So Median(G) $= \\frac{a_{28} + a_{29}}{2}$. <br/><br/>Since the data is sorted in ascending order, $a_{28} \\leq a_{29}$. Therefore: $$\\frac{a_{28} + a_{29}}{2} \\leq a_{29}$$<br/>which means Median(G) $\\leq$ Median(F). The median is NOT less for F."
-    },
-    {
-      "title": "Conclusion: neither statistic must be less",
-      "content": "Both the mean and the median are greater for F than for G (or equal in the median case). Therefore, neither I nor II must be less for data set F than for data set G. <strong>D</strong> is correct."
+      "title": "Evaluate both statements",
+      "content": "Neither the mean nor the median must be less for data set F than for data set G. The answer is <strong>D</strong>."
     }
   ]
 }

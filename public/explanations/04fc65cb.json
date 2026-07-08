@@ -1,0 +1,19 @@
+{
+  "questionId": "04fc65cb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require both sample dates",
+      "content": "The task asks when Herrera collected both samples. A complete response must include timing for <em>Trixis antimenorrhoea</em> and timing for <em>Stephanomeria thurberi</em>, not just one specimen."
+    },
+    {
+      "title": "Avoid unrelated details",
+      "content": "The notes about family classification, viewing the specimens online, and where each sample was found are secondary. They do not answer the timing-focused goal unless the dates for both samples are included."
+    },
+    {
+      "title": "Eliminate missing timing",
+      "content": "<ul><li>A: says where many samples can now be found but gives no collection dates.</li><li>B: emphasizes locations, not dates.</li><li>C: gives a date for only <em>Trixis antimenorrhoea</em>.</li><li>D: gives June 1930 for <em>Trixis antimenorrhoea</em> and May 1929 for <em>Stephanomeria thurberi</em>.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "039991d5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the with phrase",
+      "content": "The blank appears in a phrase that begins with <em>with</em>: <em>with the even older Hereford map from the fourteenth century</em>. That phrase adds extra information to the sentence rather than forming a new independent clause, so it needs a non-finite verb form after the noun phrase."
+    },
+    {
+      "title": "Avoid a finite verb",
+      "content": "Choice B uses <em>is</em>, Choice C uses <em>has been</em>, and Choice D uses <em>was</em>. Those are finite verbs, so each would incorrectly turn the phrase after <em>with</em> into a separate clause. The participle <em>being</em> fits the structure: <em>with the even older Hereford map being another one</em>. The answer is <strong>A</strong>."
+    }
+  ]
+}

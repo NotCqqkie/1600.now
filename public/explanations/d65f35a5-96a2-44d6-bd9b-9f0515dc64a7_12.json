@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square to find the radius",
-      "content": "$x^2-16x+y^2-10y-55=0$. Group and complete the square:<br/>$$(x^2-16x+64)+(y^2-10y+25) = 55+64+25$$<br/>$$(x-8)^2+(y-5)^2 = 144$$<br/>So $r^2=144 \\Rightarrow r=12$."
+      "title": "Complete the square",
+      "content": "Group the $x$ and $y$ terms, then complete each square:\n$$\nx^2-6x+y^2-4y-51=0\n$$\n$$\n(x^2-6x+9)+(y^2-4y+4)=51+9+4\n$$"
     },
     {
-      "title": "Compute the square's perimeter",
-      "content": "An inscribed circle touches all four sides, so the square's side equals the circle's <strong>diameter</strong>: $s = 2r = 24$. The perimeter is $4s = 4\\cdot 24 = 96$. That matches the correct answer, <strong>C</strong>."
+      "title": "Find the circle radius",
+      "content": "The equation becomes\n$$\n(x-3)^2+(y-2)^2=64\n$$\nSo the radius is\n$$\nr=\\sqrt{64}=8\n$$"
+    },
+    {
+      "title": "Use the square diameter",
+      "content": "A circle inscribed in a square has diameter equal to the square's side length. Thus\n$$\ns=2r=16\n$$\n$$\n4s=4(16)=64\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

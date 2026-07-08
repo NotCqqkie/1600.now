@@ -1,0 +1,15 @@
+{
+  "questionId": "3c7f1275",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the migration prediction",
+      "content": "The researcher's claim predicts a distance pattern: as humans moved farther from Africa, languages should retain fewer sounds from the original language. A finding that weakens the claim would show a region outside Africa with more sounds than languages in Africa, reversing the predicted relationship between distance and sound count."
+    },
+    {
+      "title": "Reject findings that fit or miss it",
+      "content": "Choice A fits the prediction because Central America is farther from Africa and has fewer sounds than Western Europe. Choice C only discusses consistency within late-settled parts of Africa, and Choice D compares regional variation without showing a reversal by distance. The weakening finding is the one that makes farther regions have more sounds than Africa. The answer is <strong>B</strong>."
+    }
+  ]
+}

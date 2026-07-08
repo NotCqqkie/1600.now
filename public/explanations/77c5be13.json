@@ -1,0 +1,15 @@
+{
+  "questionId": "77c5be13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show post-deforestation regrowth",
+      "content": "The passage says forest regrowth occurred by the mid-1980s after earlier cattle-driven deforestation. The graph evidence should show forest cover increasing after the deforestation period."
+    },
+    {
+      "title": "Reject single-year comparisons",
+      "content": "A compares two classes in 2000 but does not show change over time. C shows the earlier decline from 1960 to 1979, not later regrowth. D compares two classes in 1986 and also does not show a regrowth trend. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure around the blank",
-      "content": "After the blank, the sentence has &quot;assume that people are consistently rational decision-makers&mdash;cannot explain.&quot; That trailing em dash closes a nonessential interrupter. The interrupter is the relative clause beginning with 'which' that describes neoclassical economic models."
+      "title": "Bracket the interrupter",
+      "content": "The phrase beginning with \"which\" is supplementary information about the models. Because the sentence already has a closing em dash before \"cannot explain,\" the opening mark before \"which\" must match it."
     },
     {
-      "title": "Apply the matching-punctuation rule",
-      "content": "A nonessential clause set off mid-sentence must be bracketed by matching marks on both sides &mdash; em dash with em dash, or comma with comma &mdash; never mixed. Since the closing mark is an em dash, the opening mark before 'which' must also be an em dash."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;models — which&rsquo;</strong>: em dash on both sides of the interrupter &mdash; matching pair. &#10003;</li><li><strong>Choice B &mdash; &lsquo;models, which&rsquo;</strong>: opens with a comma but closes with an em dash &mdash; mismatched bracketing punctuation. &#10007;</li><li><strong>Choice C &mdash; &lsquo;models which&rsquo;</strong>: no opening punctuation at all, leaving the nonessential clause unbracketed on the left. &#10007;</li><li><strong>Choice D &mdash; &lsquo;models which —&rsquo;</strong>: the dash falls inside the clause rather than before 'which,' so the clause still has no opening boundary on the left of 'which.' &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Match the punctuation",
+      "content": "B opens with a comma but closes with a dash. C gives no opening punctuation. D places the dash after \"which,\" inside the interrupter. The remaining choice places the dash before the supplementary clause. The answer is <strong>A</strong>."
     }
   ]
 }

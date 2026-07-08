@@ -1,0 +1,15 @@
+{
+  "questionId": "b32a28cf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the example signal",
+      "content": "The underlined sentence begins with \"For example,\" so its function is to illustrate the previous claim. The previous claim is that <em>Calamophyton</em> forests significantly changed the land."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "A invents older fossilized forests, B invents competing views, and D invents a claim about how fast the forest spread. The sentence instead gives examples: reduced erosion and new habitats. The answer is <strong>C</strong>."
+    }
+  ]
+}

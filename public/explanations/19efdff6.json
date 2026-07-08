@@ -1,0 +1,15 @@
+{
+  "questionId": "19efdff6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Tie the example to the claim",
+      "content": "The passage begins with Hoi An as an example of a place with high pedestrian traffic, then immediately warns that copying one walkability feature, such as human-scaled architecture, may not cause more walking in other cities. Ramirez's argument explains why that kind of simple replication may fail: researchers do not yet have a complete understanding of how people decide whether to walk, because those decisions depend on local norms, demographic characteristics, conditions, and needs."
+    },
+    {
+      "title": "Reject narrower purposes",
+      "content": "A overemphasizes architecture, which is only one example of a feature someone might try to copy from Hoi An. B shifts the focus to comparing pedestrian traffic between cities, but the passage is concerned with whether walking can be increased elsewhere. C says the text presents a way to improve individual decision-making, while the passage only describes why that decision-making is complex and hard to predict. The main purpose is to discuss why finding a reliable method for increasing walking in any given city is difficult. The answer is <strong>D</strong>."
+    }
+  ]
+}

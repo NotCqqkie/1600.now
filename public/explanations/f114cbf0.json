@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the relationship between the two sentences",
-      "content": "Sentence 1 describes what happens <strong>when oxygen is drawn in</strong>: a chemical reaction produces a glow. The blank begins a sentence about what happens <strong>when oxygen stops being drawn in</strong>: the reaction and the glow cease. These are opposite conditions, so the transition must signal contrast &mdash; not example, elaboration, or conclusion."
+      "title": "Compare oxygen conditions",
+      "content": "The first sentence explains that drawing in oxygen triggers the reaction and glow. The next sentence describes the opposite condition: when oxygen stops, both the reaction and glow cease."
     },
     {
-      "title": "Eliminate three choices, confirm one",
-      "content": "<ul><li><strong>\"For instance,\"</strong>: Signals that an example of the previous idea follows. The second sentence is not an example of glowing &mdash; it is the reverse scenario. &#10007;</li><li><strong>\"By contrast,\"</strong>: Signals a direct opposition between two conditions. Oxygen in $\\Rightarrow$ glow on; oxygen out $\\Rightarrow$ glow off. This is precisely a contrast. &#10003;</li><li><strong>\"Specifically,\"</strong>: Signals added detail or elaboration on the previous point. The second sentence reverses rather than elaborates. &#10007;</li><li><strong>\"In conclusion,\"</strong>: Signals a summary of what came before. The second sentence introduces a new contrasting condition, not a wrap-up. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject example and summary signals",
+      "content": "A gives an example, C gives a specific elaboration, and D gives a conclusion. The sentence needs a transition showing the opposite condition. The answer is <strong>B</strong>."
     }
   ]
 }

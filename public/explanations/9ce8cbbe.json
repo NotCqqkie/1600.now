@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the total number of elements in set K",
-      "content": "Set K contains all positive integers less than or equal to 180, with no repetition. Therefore, K = {1, 2, 3,..., 180}, giving us a total of <strong>180 elements</strong>."
+      "title": "Count the total outcomes",
+      "content": "Set K contains every positive integer from $1$ through $180$, so there are $180$ possible outcomes."
     },
     {
-      "title": "Count the favorable outcomes: even numbers <= 54",
-      "content": "We need numbers that satisfy two conditions simultaneously: even AND <= 54. The even numbers in this range are {2, 4, 6, 8,..., 54}. To count them, divide the largest even number <= 54 by 2:<br/>$$\\text{Count} = \\frac{54}{2} = 27$$<br/>There are <strong>27 favorable outcomes</strong>."
+      "title": "Count the favorable outcomes",
+      "content": "The qualifying numbers are the even values from $2$ through $54$. Their count is<br/>$$\\frac{54}{2}=27$$"
     },
     {
-      "title": "Calculate the probability and identify the answer",
-      "content": "Apply the probability formula:<br/>$$P(\\text{even and} \\leq 54) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}} = \\frac{27}{180}$$<br/>Reduce by dividing numerator and denominator by 9:<br/>$$\\frac{27}{180} = \\frac{3}{20}$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Compute the probability",
+      "content": "The probability is<br/>$$\\frac{27}{180}=\\frac{3}{20}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

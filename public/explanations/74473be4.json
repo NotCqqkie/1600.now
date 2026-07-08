@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the four choices",
-      "content": "A quadratic equation has no real solutions when its graph never touches the x-axis. In Desmos, graph the left side of each answer choice as a function of $x$. The choice whose graph has no x-intercepts is the answer.",
+      "title": "Use the discriminant",
+      "content": "A quadratic equation has no real solutions when its discriminant is negative. For $ax^2+bx+c=0$, the discriminant is $b^2-4ac$.",
       "desmosExpressions": [
         "y=x^2+14x-49",
         "y=x^2-14x+49",
@@ -14,12 +14,12 @@
       ]
     },
     {
-      "title": "Read the intercepts",
-      "content": "The other choices cross the x-axis because their constant term is negative, so they have real solutions. Choice B, $y=x^2-14x+49$, equals $(x-7)^2$, so it touches the x-axis once at $x=7$. The correct response opens upward and stays above the x-axis, so it has no real x-intercepts."
+      "title": "Test the credited equation",
+      "content": "For $5x^2-14x+49=0$, use $a=5$, $b=-14$, and $c=49$.<br/>$$b^2-4ac=(-14)^2-4(5)(49)$$<br/>$$196-980=-784$$"
     },
     {
-      "title": "Confirm with the discriminant",
-      "content": "For choice D, $a=5$, $b=-14$, and $c=49$. The discriminant is $b^2-4ac=196-4(5)(49)=196-980=-784\\lt 0$, confirming no real solutions. <strong>D</strong> is correct."
+      "title": "Interpret the result",
+      "content": "Since the discriminant is less than $0$, this quadratic has no real solutions.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

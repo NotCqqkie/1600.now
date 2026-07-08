@@ -21,6 +21,8 @@ export interface Question {
   domain?: string;
   skill?: string;
   difficulty?: string | null;
+  /** Objective 1-10 difficulty band. Higher = harder. Replaces the legacy Easy/Medium/Hard difficulty for UI. */
+  scoreBand?: number | null;
   /** Whether this question is currently used in practice tests. Does NOT control visibility in the question bank. */
   inPracticeTests?: boolean | null;
   rationale?: string | null;

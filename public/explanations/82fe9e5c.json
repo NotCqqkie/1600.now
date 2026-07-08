@@ -1,0 +1,15 @@
+{
+  "questionId": "82fe9e5c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate statement and example",
+      "content": "The first clause makes a general statement about travelers flying more frequently. The next sentence gives San Diego International Airport as a specific example, so the general statement should end before <em>For example</em> introduces the illustration."
+    },
+    {
+      "title": "Reject misplaced transitions",
+      "content": "Choice A attaches <em>for example</em> to the end of the general statement. Choice B does the same and then adds an awkward semicolon. Choice D uses commas in a way that creates a comma splice between two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

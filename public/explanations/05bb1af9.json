@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the shown line first",
-      "content": "The graph shows $y=f(x)+14$. Two clear points from the line are $(0,2)$ and $(4,1)$. The slope is $$m=\\frac{1-2}{4-0}=-\\frac{1}{4},$$ and the $y$-intercept is $2$, so the graphed line is $y=-\\frac{1}{4}x+2$."
+      "title": "Find the graphed line",
+      "content": "The graph shown is $y=f(x)+14$. From the graph, two clear points on the line are $(0,2)$ and $(4,1)$, so the slope is\n\n$$\\frac{1-2}{4-0}=-\\frac{1}{4}$$\n\nThe graphed line has equation\n\n$$y=-\\frac{1}{4}x+2$$"
     },
     {
       "title": "Undo the vertical shift",
-      "content": "Since the graphed function is $f(x)+14$, subtract 14 from the fitted equation: $$f(x)=-\\frac{1}{4}x+2-14=-\\frac{1}{4}x-12$$ So $f(x)$ must have y-intercept $-12$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong> gives $f(x)=-\\frac{1}{4}x-12$. Adding 14 gives $y=-\\frac{1}{4}x+2$, exactly the graphed line. The other choices shift to y-intercepts $30$, $16$, or $0$, so they do not match the graph."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$f(x)=-\\frac{1}{4}x-12$ matches <strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong>. <strong>Choice A &mdash; $f \\left(x\\right)=-\\frac{1}{4}x-12$</strong>."
+      "content": "Since the graphed line is $f(x)+14$, subtract $14$ to get $f(x)$.\n\n$$f(x)=-\\frac{1}{4}x+2-14$$\n\n$$f(x)=-\\frac{1}{4}x-12$$\n\nThe answer is <strong>A</strong>."
     }
   ]
 }

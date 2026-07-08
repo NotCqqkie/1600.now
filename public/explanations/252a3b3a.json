@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify roots from the graph",
-      "content": "Reading the graph, the x-intercepts occur at $x = -5$, $x = 0$, and $x = 4$. This immediately eliminates choices C and D, which have roots at $x = -4$ and $x = 5$ instead."
+      "title": "Match the intercepts",
+      "content": "The graph has $x$-intercepts at $x=-5$, $x=0$, and $x=4$. So the factored equation must include the factors $x$, $x-4$, and $x+5$."
     },
     {
-      "title": "Check end behavior to determine degree",
-      "content": "Both ends of the graph point downward, so the polynomial must have even degree and a negative leading coefficient. <strong>Choice A &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right) \\left(x+5\\right)$</strong> is cubic, so it would have opposite end behavior. <strong>Choice B &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right){ \\left(x+5\\right)}^{2}$</strong> is quartic because of $(x+5)^2$, so it fits."
+      "title": "Use the end behavior",
+      "content": "The graph is below the $x$-axis for very large positive and negative values of $x$. With a negative leading coefficient, that means the polynomial has even degree."
     },
     {
-      "title": "Confirm root multiplicity at x = −5",
-      "content": "At $x=-5$, the graph touches the x-axis without crossing, which means the root has even multiplicity. <strong>Choice B &mdash; $y=-\\frac{1}{10}x \\left(x-4\\right){ \\left(x+5\\right)}^{2}$</strong> has the factor $(x+5)^2$, so it matches the intercepts and the bounce. That makes <strong>B</strong> correct."
+      "title": "Choose the even-degree option",
+      "content": "The option with roots $-5$, $0$, and $4$ and even total degree is\n$$\ny=-\\frac{1}{10}x(x-4){(x+5)}^2\n$$\nThe squared factor also matches the bounce at $x=-5$. The answer is <strong>B</strong>."
     }
   ]
 }

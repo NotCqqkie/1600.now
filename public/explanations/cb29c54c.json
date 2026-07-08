@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the vertex from vertex form",
-      "content": "$y=-16(x-4.8)^2+432$ is in vertex form $a(x-h)^2+k$, so $(h,k)=(4.8,432)$ directly -- no algebra needed."
+      "title": "Read the vertex form",
+      "content": "It is in vertex form. In $y=a(x-h)^2+k$, the vertex is $(h,k)$, so the graph has vertex $(4.8{,}432)$."
     },
     {
-      "title": "Interpret the vertex",
-      "content": "Since $a=-16\\lt0$, the parabola opens downward -- the vertex is the maximum. The drone reaches its maximum height of $432$ ft at $t=4.8$ seconds. That is the correct answer."
+      "title": "Interpret the maximum height",
+      "content": "Because $-16$ is negative, the parabola opens downward, so the vertex gives the maximum height. The drone reaches $432$ feet at $4.8$ seconds. The answer is <strong>B</strong>."
     }
   ]
 }

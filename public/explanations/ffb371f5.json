@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$3x=12$$<br/>$$-3x+y=-6$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Add the equations",
+      "content": "The $x$-terms cancel if the two equations are added: $$3x+(-3x+y)=12+(-6)$$"
+    },
+    {
+      "title": "Find the y-value",
+      "content": "Simplify the equation: $$y=6$$ This gives the requested $y$-value directly, without first solving for $x$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "3x=12",
         "-3x+y=-6"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>B</strong>, $6$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the parallel-lines angle rules",
-      "content": "When a transversal cuts two parallel lines, corresponding angles are equal, alternate interior angles are equal, and same-side interior angles are supplementary (sum to $180^{\\circ}$)."
+      "title": "Use corresponding angles",
+      "content": "Lines $r$ and $s$ are parallel, and line $t$ is a transversal. Corresponding angles formed by a transversal crossing parallel lines have equal measures."
     },
     {
-      "title": "Solve for $x$",
-      "content": "Transversal $t$ cuts parallel lines $r$ and $s$. The $105^{\\circ}$ angle at the intersection with $r$ (above $r$, left of $t$) and angle $x^{\\circ}$ at the intersection with $s$ (above $s$, left of $t$) are corresponding angles. Corresponding angles are equal, so:<br/>$$x = 105$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Match the corresponding angle",
+      "content": "The angle marked $x$ corresponds to the angle marked $107^\\circ$ in the figure, so<br/>$$x=107$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find subject and verb",
-      "content": "The subject is &quot;John Donne&rsquo;s ___&quot; (the blank holds the noun). The main verb comes much later: &quot;had... been essentially gathering dust.&quot; Between them sits a nonrestrictive modifier: &quot;much admired during his lifetime (1572&ndash;1631) and in the decades that followed.&quot;"
+      "title": "Find the main verb later",
+      "content": "The subject is John Donne's works, and the main verb appears later: had been essentially gathering dust. The phrase much admired during his lifetime and in the decades that followed interrupts the subject and main verb as a nonessential modifier."
     },
     {
-      "title": "Punctuate the modifier",
-      "content": "A nonrestrictive modifier dropped between the subject and its verb must be set off with a comma on each side. The closing comma after &quot;followed&quot; is already there, so the blank needs the opening comma right after the subject noun &mdash; and no extra verb, because &quot;had... been gathering&quot; is already the main verb."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; works were</strong>: inserts a second main verb &quot;were,&quot; leaving the real verb &quot;had... been gathering&quot; without a subject and producing two finite verbs for one subject. &#10007;</li><li><strong>Choice B &mdash; works, were</strong>: same problem &mdash; an extra finite verb collides with &quot;had... been gathering.&quot; &#10007;</li><li><strong>Choice C &mdash; works,</strong>: gives the subject &quot;works&quot; plus the opening comma the nonrestrictive modifier needs, letting &quot;had... been gathering&quot; serve as the lone main verb. &#10003;</li><li><strong>Choice D &mdash; works had been</strong>: doubles up with the later &quot;had... been gathering,&quot; creating a redundant verb string and omitting the required opening comma. &#10007;</li></ul>That matches <strong>Choice C &mdash; works,</strong>."
+      "title": "Open the interrupting phrase",
+      "content": "Choice A and Choice B insert the extra verb were, which clashes with the later main verb. Choice D repeats had been and fails to open the interruption. The blank needs works followed by a comma so the modifier is set off before the sentence resumes. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "243756e7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the shared effect",
+      "content": "The student wants a similarity between SEBS rubber and single-ply NiTi wire. The notes show that when each fiber was twisted, its average surface temperature increased."
+    },
+    {
+      "title": "Avoid differences and context",
+      "content": "Choice A mentions both materials but does not state the shared heating effect. Choice C emphasizes that one material heated more than the other. Choice D defines torsional heating generally without focusing on the two materials. The remaining choice directly says both fibers heat up when twisted. The answer is <strong>B</strong>."
+    }
+  ]
+}

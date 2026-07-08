@@ -1,0 +1,15 @@
+{
+  "questionId": "db3b4bda",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to specific",
+      "content": "The first sentence gives the general fact that Marisa Chen worked at JPL. The second sentence narrows that claim by naming her exact role on the Mars 2020 Perseverance rover team."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "<ul><li><strong>Choice A</strong> signals opposition, but the rover role does not contradict the JPL claim.</li><li><strong>Choice B</strong> signals the end of a sequence, but no sequence is being completed.</li><li><strong>Choice C</strong> signals contrast despite an obstacle, but the passage presents no obstacle.</li></ul>The remaining choice introduces a specific detail. The answer is <strong>D</strong>."
+    }
+  ]
+}

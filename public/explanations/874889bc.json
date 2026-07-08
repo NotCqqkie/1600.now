@@ -1,0 +1,25 @@
+{
+  "questionId": "874889bc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph direction",
+      "content": "All four choices have $y$-intercept $-1$. The graph falls from left to right, so the slope must be negative."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Using the marked points $(0,-1)$ and $(8,-6)$, the slope is\n$$\\frac{-6-(-1)}{8-0}=-\\frac{5}{8}$$\nSo the function has slope \n$$\n-\\frac{5}{8}\n$$ and intercept $-1$.",
+      "desmosExpressions": [
+        "y = \\frac{5}{8}x - 1",
+        "y = \\frac{8}{5}x - 1",
+        "y = -\\frac{5}{8}x - 1",
+        "y = -\\frac{8}{5}x - 1"
+      ]
+    },
+    {
+      "title": "Match the line",
+      "content": "The matching equation is\n$$f(x)=-\\frac{5}{8}x-1$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

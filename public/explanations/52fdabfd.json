@@ -1,0 +1,15 @@
+{
+  "questionId": "52fdabfd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the correction",
+      "content": "The sentence first says Chaucer did not write in Modern English. The clause after the semicolon gives the correction: he wrote in Middle English."
+    },
+    {
+      "title": "Choose contrast, not sequence",
+      "content": "Choice A signals a result, Choice B signals similarity, and Choice D signals sequence. The needed transition introduces the replacement idea: not Modern English, but Middle English. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Do not solve for x first",
-      "content": "The target is $30x$, and the problem gives $5x=4$. Since $$30x=6(5x)$$ multiply the given equation by $6$."
+      "title": "Scale the given expression",
+      "content": "The target expression is $30x$, and the given expression is $5x$. Since<br/>$$30x=6(5x)$$<br/>multiply the given value by $6$."
     },
     {
-      "title": "Scale both sides",
-      "content": "$$6(5x)=6(4)$$ $$30x=24$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The value of $30x$ is $24$, so <strong>C</strong> is correct. This shortcut avoids fractions from solving $x=\\frac{4}{5}$ first."
+      "title": "Compute the target value",
+      "content": "Use $5x=4$. Then<br/>$$30x=6(5x)=6(4)=24$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

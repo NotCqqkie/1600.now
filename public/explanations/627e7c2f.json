@@ -1,0 +1,15 @@
+{
+  "questionId": "627e7c2f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up total mass",
+      "content": "The component masses must add to the total mass.\n$$\n35+50+x=155\n$$"
+    },
+    {
+      "title": "Solve for the missing mass",
+      "content": "Combine the known masses and subtract from the total.\n$$\n35+50=85\n$$\n$$\nx=155-85=70\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

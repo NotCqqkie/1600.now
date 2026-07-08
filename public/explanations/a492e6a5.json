@@ -1,0 +1,19 @@
+{
+  "questionId": "a492e6a5",
+  "correctAnswer": "143",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite as a quadratic",
+      "content": "Expand the left side and move all terms to one side: $$x(kx-120)=-25$$ $$kx^2-120x+25=0$$"
+    },
+    {
+      "title": "Require two real solutions",
+      "content": "A quadratic has two distinct real solutions when its discriminant is positive. Here $a=k$, $b=-120$, and $c=25$, so the condition is $$(-120)^2-4(k)(25)>0$$"
+    },
+    {
+      "title": "Choose the greatest integer",
+      "content": "Solve the inequality to find the possible values of $k$: $$14{,}400-100k>0$$ $$144>k$$ The greatest integer less than $144$ is $143$. The answer is <strong>143</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "The sentence has two independent clauses joined by a semicolon: <em>Nakalembe doesn't just compile the information, though</em> (clause 1) and <em>she also shares her findings with African farmers...</em> (clause 2). The word <strong>though</strong> is a transitional interrupter that belongs to clause 1 — it is set off by a comma and placed at the end of that clause before the semicolon."
+      "title": "Place though in clause one",
+      "content": "The first independent clause is \"Nakalembe doesn't just compile the information, though.\" The second is \"she also shares her findings with African farmers.\" A semicolon must separate the two clauses."
     },
     {
-      "title": "Apply the punctuation rule and eliminate wrong choices",
-      "content": "Two independent clauses require a semicolon between them. The correct pattern is <em>information, though; she also...</em> — a comma before <em>though</em> (setting it off within clause 1) and a semicolon after it (separating the two independent clauses). That is <strong>Choice A &mdash; &lsquo;information, though;&rsquo;</strong>.<br/><br/>An incorrect response places a comma after <em>though</em> instead of a semicolon, producing a comma splice — a comma alone cannot join two independent clauses. An incorrect response puts a semicolon before <em>though</em> and moves it to the start of clause 2 (<em>though she also shares...</em>), making clause 2 a dependent clause; a semicolon cannot precede a dependent clause. Choice D (&lsquo;information though,&rsquo;) omits punctuation between the clauses entirely, producing a run-on sentence.<br/><br/>The answer is <strong>A</strong>."
+      "title": "Reject bad clause joins",
+      "content": "Choice B joins independent clauses with only a comma. Choice C makes <em>though</em> start a dependent clause after a semicolon. Choice D leaves the two clauses without the needed boundary. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship between the two sentences",
-      "content": "The first sentence says many butterflies have bold, brightly colored wings. The second sentence introduces species with almost completely colorless, transparent wings. These ideas are opposite&mdash;visible versus invisible. The transition must signal contrast."
+      "title": "Compare the wing descriptions",
+      "content": "The first sentence describes many butterflies as having bold, brightly colored wings. The next sentence introduces butterflies with almost colorless, transparent wings. The second idea contrasts with the first rather than adding a similar example or restating it."
     },
     {
-      "title": "Eliminate wrong transitions and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; Similarly,</strong>: Signals similarity, but the two sentences describe opposite wing traits. &#10007;</li><li><strong>Choice B &mdash; Previously,</strong>: Signals that something happened earlier in time, which has nothing to do with the logical relationship here. &#10007;</li><li><strong>Choice C &mdash; In other words,</strong>: Signals restatement or clarification, but transparent wings are not a restatement of colorful wings. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: Signals contrast&mdash;exactly the relationship between bold colorful wings and colorless transparent wings. &#10003;</li></ul>That is the correct answer."
+      "title": "Choose the contrast signal",
+      "content": "Choice A signals similarity, which does not fit opposite wing traits. Choice B gives a time relationship, and choice C signals restatement. The transition must show contrast between colorful wings and transparent wings. The answer is <strong>D</strong>."
     }
   ]
 }

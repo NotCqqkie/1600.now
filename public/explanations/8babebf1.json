@@ -1,0 +1,15 @@
+{
+  "questionId": "8babebf1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rate",
+      "content": "The chopper slices $15$ pounds in $3$ minutes, so the rate is<br/>$$\\frac{15}{3}=5$$<br/>pounds per minute."
+    },
+    {
+      "title": "Divide by the rate",
+      "content": "To slice $90$ pounds at $5$ pounds per minute, divide.<br/>$$\\frac{90}{5}=18$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

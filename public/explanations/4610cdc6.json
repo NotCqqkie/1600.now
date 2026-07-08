@@ -1,0 +1,15 @@
+{
+  "questionId": "4610cdc6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the total animals",
+      "content": "The variables count two types of animals. The number of rabbits is $r$, and the number of hamsters is $h$, so the total number of animals is $r+h$."
+    },
+    {
+      "title": "Translate the limit",
+      "content": "The phrase \"at most $58$\" means the total can be $58$ or any smaller number. That gives<br/>$$r+h\\le 58$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

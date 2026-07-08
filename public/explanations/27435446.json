@@ -1,0 +1,15 @@
+{
+  "questionId": "27435446",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the proposed sequence",
+      "content": "The student needs to recount the researchers' proposed sequence of events. The notes give a clear order: Chrysalis likely came very close to Saturn around 160 million years ago, tidal forces broke the moon apart, and the resulting debris formed Saturn's rings."
+    },
+    {
+      "title": "Remove reversed or partial accounts",
+      "content": "Choice A reverses the cause and effect by saying debris from the rings caused Chrysalis to break apart. Choice B mentions a moon breaking apart but omits the timing and the rings. Choice D gives only the general tidal-force principle rather than the proposed event sequence. The answer is <strong>C</strong>."
+    }
+  ]
+}

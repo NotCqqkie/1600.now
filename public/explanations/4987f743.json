@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the claim that needs support",
-      "content": "Ortega and Solís say rural women deliberately sell less frequently because doing so raises their profit per unit sold. The right answer must describe a cost structure in which fewer trips genuinely yield higher per-unit profit."
+      "title": "Pinpoint the profit claim",
+      "content": "Ortega and Solis claim rural borrowers sell less frequently as a strategic choice that increases profit per unit sold. The supporting finding must explain how fewer sales trips could lower per-unit costs or raise per-unit returns."
     },
     {
-      "title": "Find the choice that creates that incentive",
-      "content": "If the cost of bringing goods to market is high but fixed regardless of how much is brought, then waiting to amass more goods spreads that fixed cost over more units, lowering per-unit cost and raising per-unit profit. That directly explains the rural sellers' strategic infrequency."
+      "title": "Apply the fixed-cost logic",
+      "content": "If bringing goods to market has a high cost that is mostly the same no matter how many goods are brought, rural sellers can wait and bring more goods at once. Spreading the fixed trip cost across more units raises profit per unit."
     },
     {
-      "title": "Eliminate the rest",
-      "content": "<ul><li><strong>Choice A — Many marketplaces require entrepreneurs to pay marketplace operators a fixed percentage of each day's proceeds in exchange for permission to sell goods there.</strong>: a per-day percentage fee is proportional to sales, so consolidating trips would not change per-unit profit. It fails to support the strategic-infrequency claim. &#10007;</li><li><strong>Choice B — Rural entrepreneurs can typically sell their goods for higher prices in cities than in their home areas, but the number of people selling competing goods tends to be higher in cities.</strong>: this is about where to sell, not how often, and the competition caveat actually cuts against the profit argument. &#10007;</li><li><strong>Choice C — Due to the lower costs they incur, rural entrepreneurs tend to require smaller initial loans than urban entrepreneurs do.</strong>: loan size has no bearing on whether selling less frequently increases per-unit profit. Off-topic. &#10007;</li><li><strong>Choice D — The cost to rural entrepreneurs to bring their goods to towns with marketplaces is high but largely independent of the number of goods they bring.</strong>: a fixed trip cost is exactly the structure that rewards bundling more units per trip, supporting the claim. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Reject weaker findings",
+      "content": "A describes a fee tied to each day's proceeds, not a benefit from selling less often. B concerns selling location and competition, not frequency. C concerns initial loan size, not profit per unit sold. The answer is <strong>D</strong>."
     }
   ]
 }

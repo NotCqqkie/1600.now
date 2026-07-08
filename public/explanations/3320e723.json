@@ -1,0 +1,15 @@
+{
+  "questionId": "3320e723",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Pinpoint the disagreement",
+      "content": "Stein et al. interpret the molybdenum increase as evidence that atmospheric oxygen briefly increased around 2.5 Ga. Markovic et al. argue the molybdenum could have come from later oxidative weathering of volcanic debris reached through microfractures."
+    },
+    {
+      "title": "Separate cause from timing",
+      "content": "A is not the disagreement because both texts connect molybdenum to oxidative weathering. C is wrong because Markovic et al. do not deny the molybdenum increase. D shifts to oxygen before 2.5 Ga. The dispute is whether the increase indicates atmospheric oxygen at that same time. The answer is <strong>B</strong>."
+    }
+  ]
+}

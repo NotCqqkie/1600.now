@@ -4,13 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify a common factor",
-      "content": "Every term in $6x + 12 = 24$ is divisible by 2."
+      "title": "Divide every term",
+      "content": "An equivalent equation can be made by dividing both sides by the same nonzero number. Here every term is divisible by $2$."
     },
     {
-      "title": "Divide both sides by 2",
-      "content": "$$\\frac{6x + 12}{2} = \\frac{24}{2}$$<br/>$$3x + 6 = 12$$"
+      "title": "Simplify the equation",
+      "content": "Divide each term by $2$.<br/>$$\\frac{6x+12}{2}=\\frac{24}{2}$$<br/>$$3x+6=12$$<br/>The answer is <strong>D</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; &lsquo;$3x + 7 = 12$&rsquo;</strong>: Divides $6x$ and $24$ by 2 correctly but changes 12 to 7 instead of $12 \\div 2 = 6$. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$x + 6 = 4$&rsquo;</strong>: Divides $6x$ and $24$ by 6 but leaves the constant as 6 instead of $12 \\div 6 = 2$. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$5x + 4 = 8$&rsquo;</strong>: Changes $12$ and $24$ as if dividing by 3, but no single operation on $6x+12=24$ produces $5x+4=8$. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$3x + 6 = 12$&rsquo;</strong>: Dividing every term by 2 gives $3x + 6 = 12$, which is equivalent to the original. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+  ]
 }

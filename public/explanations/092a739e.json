@@ -1,0 +1,15 @@
+{
+  "questionId": "092a739e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite line s",
+      "content": "Put line $s$ in slope-intercept form: $y+13=5x$, so $y=5x-13$. The slope of line $s$ is $5$."
+    },
+    {
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $t$ is parallel to line $s$, line $t$ also has slope $5$. The answer is <strong>C</strong>."
+    }
+  ]
+}

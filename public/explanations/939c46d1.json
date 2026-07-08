@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert gallon to fluid ounces",
-      "content": "<strong>Step 1:</strong> Convert the pitcher volume to fluid ounces.<br/>$$1\\text{ gallon}=128\\text{ fl oz}$$<br/>The glass holds approximately $$16\\text{ fl oz}$$."
+      "title": "Use fluid ounces",
+      "content": "The glass holds about $16$ fluid ounces, and $1$ gallon is $128$ fluid ounces."
     },
     {
-      "title": "Compute number of fills",
-      "content": "<strong>Step 2:</strong> Divide the total fluid ounces by the glass volume.<br/>$$\\frac{128}{16}=8$$<br/>Thus Jenny can fill the glass 8 times.<br/>That confirms <strong>B</strong> is correct."
+      "title": "Divide total by glass size",
+      "content": "Divide the total water by the amount in one full glass.\n$$\\frac{128}{16}=8$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

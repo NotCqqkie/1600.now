@@ -1,0 +1,15 @@
+{
+  "questionId": "0f93d32d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Describe discontinued software",
+      "content": "The artworks have become inaccessible because they require software such as Adobe Flash, which was discontinued in 2021. The blank must describe software that no longer operates or is no longer available for normal use."
+    },
+    {
+      "title": "Reject irrelevant meanings",
+      "content": "Choice B means unnecessary, but the software was required. Choice C means obscure, not discontinued. Choice D means widespread, which conflicts with the access problem. The remaining word describes software that no longer exists or functions as needed. The answer is <strong>A</strong>."
+    }
+  ]
+}

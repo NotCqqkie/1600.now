@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The audience already knows the Atlantic Monthly, so the correct choice must introduce Alden&apos;s book effectively &mdash; that means focusing on what the book is about, not re-explaining a magazine the audience already knows."
+      "title": "Respect the audience",
+      "content": "The audience already knows the <em>Atlantic Monthly</em>, so the sentence should introduce Rebecca Alden's book rather than explain the magazine's background. The useful notes are the book's title and its subject: female authors whose autobiographies appeared in the magazine in the early 1900s."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Rebecca Alden's <em>Faraway Women and the \"Atlantic</em> <em>Monthly\"</em> discusses female authors whose autobiographies appeared in the magazine in the early 1900s.</strong>: Names the book and describes its content (female authors, early-1900s autobiographies) without providing any background on the Atlantic Monthly. Perfectly suited for an audience already familiar with the magazine. &#10003;</li><li><strong>Choice B — A magazine called the <em>Atlantic Monthly</em>, referred to in Rebecca Alden's book title, was first published in 1857.</strong>: Introduces the Atlantic Monthly as if unknown to the audience and leads with the magazine&apos;s founding date rather than Alden&apos;s book. This contradicts the audience&apos;s stated familiarity and fails to introduce the book. &#10007;</li><li><strong>Choice C — <em>Faraway Women and the \"Atlantic Monthly\"</em> features contributors to the <em>Atlantic Monthly</em>, first published in 1857 as a magazine focusing on politics, art, and literature.</strong>: Provides founding-date background about the Atlantic Monthly &mdash; unnecessary for an audience already familiar with it &mdash; and does not effectively introduce the book&apos;s specific subject. &#10007;</li><li><strong>Choice D — An author discussed by Rebecca Alden is Juanita Harrison, whose autobiography appeared in the <em>Atlantic Monthly</em> in the early 1900s.</strong>: Mentions only one author example from the book instead of introducing the book&apos;s overall focus. This is too narrow to serve as an introduction to Alden&apos;s work. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject magazine-centered options",
+      "content": "<ul><li><strong>Choice B</strong>: It introduces the <em>Atlantic Monthly</em> as a magazine and gives its founding date, which is background the audience does not need.</li><li><strong>Choice C</strong>: It also supplies background about when the magazine began and what it focused on instead of concentrating on Alden's book.</li><li><strong>Choice D</strong>: It mentions Juanita Harrison, one author discussed by Alden, but that example is too narrow to introduce the book as a whole.</li></ul>"
+    },
+    {
+      "title": "Choose the book focus",
+      "content": "The best sentence names Alden's book and identifies its overall subject without treating the magazine itself as new information. That matches the goal of introducing the book to readers who are already familiar with the <em>Atlantic Monthly</em>. The answer is <strong>A</strong>."
     }
   ]
 }

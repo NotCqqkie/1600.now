@@ -1,0 +1,15 @@
+{
+  "questionId": "b7ef971c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare all three minerals",
+      "content": "The student wants to compare the hardness of fluorite, quartz, and diamond. On the Mohs scale, larger numbers indicate harder minerals: fluorite is 4, quartz is 7, and diamond is 10."
+    },
+    {
+      "title": "Rank by Mohs number",
+      "content": "B compares only diamond and quartz. C names all three but gives no actual ranking. D compares only diamond and fluorite and omits quartz. The effective choice ranks all three by hardness from the Mohs numbers. The answer is <strong>A</strong>."
+    }
+  ]
+}

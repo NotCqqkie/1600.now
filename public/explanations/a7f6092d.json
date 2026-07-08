@@ -1,0 +1,16 @@
+{
+  "questionId": "a7f6092d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the scale factor",
+      "content": "The side lengths of parallelogram PQRS are $3$ times the corresponding side lengths of parallelogram ABCD. For similar figures, areas scale by the square of the side-length scale factor.",
+      "formula": "$$\\text{Area scales by } k^2 \\text{ for scale factor } k$$"
+    },
+    {
+      "title": "Scale the area",
+      "content": "Use area scale factor $3^2=9$:\n$$\n24\\cdot 9=216\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

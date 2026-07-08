@@ -1,0 +1,15 @@
+{
+  "questionId": "eda62117",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the proxy link",
+      "content": "The hypothesis is that Ag-NP bioaccumulation in <em>P. pruinosus</em> could be used as a proxy for Ag-NP bioaccumulation in <em>X. laevis</em>. For that proxy role to work, measurements in the invertebrate must reliably predict measurements in the frog."
+    },
+    {
+      "title": "Find the broken prediction",
+      "content": "A only says <em>P. pruinosus</em> accumulates other nanoparticles, which does not address whether Ag-NP levels predict frog levels. B concerns fewer negative effects, not predictive accuracy. D says individuals within each species do not vary much, which would make measurements more consistent. The weakening finding is the one saying <em>P. pruinosus</em> Ag-NP concentrations are not predictive of <em>X. laevis</em> concentrations in comparable environments. The answer is <strong>C</strong>."
+    }
+  ]
+}

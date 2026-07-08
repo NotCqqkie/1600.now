@@ -1,0 +1,15 @@
+{
+  "questionId": "f7ecd40c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the center and radius",
+      "content": "Circle $M$ has equation<br/>$$(x-5)^2+(y-8)^2=9$$<br/>So its center is $(5,8)$ and its radius is<br/>$$\\sqrt{9}=3$$"
+    },
+    {
+      "title": "Double the radius",
+      "content": "Circle $P$ has the same center, but its radius is twice as large.<br/>$$2\\cdot3=6$$<br/>In a circle equation, the right side is $r^2$, so the new right side is<br/>$$6^2=36$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

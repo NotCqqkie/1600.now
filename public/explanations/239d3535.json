@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the 1891 column on the graph",
-      "content": "The graph shows the four largest Canadian cities&apos; populations at each of the first four national censuses (1871, 1881, 1891, 1901). The task is to compare the four bars/points at 1891."
+      "title": "Read the 1891 values",
+      "content": "The question asks for the city with the largest population in 1891. In that year, the graph shows one city near 220,000, higher than Toronto at about 180,000, Quebec City near 60,000, and Halifax near 40,000."
     },
     {
-      "title": "Compare the 1891 values",
-      "content": "At 1891, Montr&eacute;al sits at roughly 220,000 &mdash; the tallest of the four. Toronto trails at about 180,000, with Qu&eacute;bec City near 60,000 and Halifax around 40,000."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; Toronto</strong>: second largest in 1891, not the largest &mdash; misreads which line is highest. &#10007;</li><li><strong>Choice B &mdash; Montréal</strong>: highest population in 1891. &#10003;</li><li><strong>Choice C &mdash; Québec City</strong>: far below Montr&eacute;al and Toronto in 1891 &mdash; misreads the graph. &#10007;</li><li><strong>Choice D &mdash; Halifax</strong>: the smallest of the four in 1891 &mdash; misreads the graph. &#10007;</li></ul>That matches <strong>Choice B &mdash; Montréal</strong>."
+      "title": "Eliminate smaller cities",
+      "content": "Choice A is second highest in 1891, not the largest. Choice C is far lower than the top two cities. Choice D is the smallest of the four that year. The highest 1891 value belongs to Montreal. The answer is <strong>B</strong>."
     }
   ]
 }

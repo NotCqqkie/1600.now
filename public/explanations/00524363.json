@@ -1,0 +1,15 @@
+{
+  "questionId": "00524363",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Solve the boundary problem",
+      "content": "The passage says defining a neighborhood and its boundaries is subjective. The team used a clustering algorithm to locate dense groupings of amenities that correspond to human-identified neighborhoods."
+    },
+    {
+      "title": "Use the objective method",
+      "content": "The algorithm gave the researchers a less subjective way to identify neighborhoods. Choice A concerns customer awareness, Choice C concerns why businesses close, and Choice D concerns predicting business success rather than why the algorithm was used. The answer is <strong>B</strong>."
+    }
+  ]
+}

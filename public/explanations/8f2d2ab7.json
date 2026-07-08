@@ -1,0 +1,19 @@
+{
+  "questionId": "8f2d2ab7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the net increase",
+      "content": "The conclusion says net CO2 is likely to increase when seasonal snow cover arrives earlier relative to soil surface freezing. A supporting finding must explain why early snow would create more CO2 output than plant CO2 absorption."
+    },
+    {
+      "title": "Reject unclear mechanisms",
+      "content": "<ul><li><strong>Choice A - 'The effect of soil temperature on the growth of vegetation and on the rate of heterotrophic respiration is stronger during the period of seasonal snow cover than during the period without snow cover.'</strong>: affects both uptake and output, so the net balance is unclear.</li><li><strong>Choice B - 'Relatively early snow cover reduces the amount of soil moisture available for the growth of plant species such as <em>R. arcticus</em> and lowers the rate of heterotrophic respiration.'</strong>: lowers respiration, weakening the idea that CO2 output would increase.</li></ul>"
+    },
+    {
+      "title": "Compare pattern and cause",
+      "content": "<ul><li><strong>Choice C - 'Seasonal snow cover tends to persist longer in areas of relatively low vegetation growth and high heterotrophic respiration than in areas of relatively high vegetation growth and low heterotrophic respiration.'</strong>: gives a geographic pattern, not the causal effect of early snow.</li><li><strong>Choice D - 'The soil insulation provided by snow cover enables heterotrophic respiration to continue during a period in which plant species such as <em>R. arcticus</em> are typically not growing.'</strong>: explains that insulated soil lets microorganisms release CO2 while plants are not absorbing it through growth.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

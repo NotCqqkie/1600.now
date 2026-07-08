@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use cosine periodicity",
-      "content": "Cosine repeats every $2\\pi$. Reduce $\\frac{565\\pi}{6}$ by full rotations to find the coterminal angle on the unit circle."
+      "title": "Reduce the angle",
+      "content": "Cosine repeats every $2\\pi$. Since $2\\pi=\\frac{12\\pi}{6}$, reduce the angle by a multiple of $\\frac{12\\pi}{6}$.<br/>$$\\frac{565\\pi}{6}=47(2\\pi)+\\frac{\\pi}{6}$$"
     },
     {
-      "title": "Reduce by full rotations",
-      "content": "Cosine repeats every $2\\pi$. Since $$\\frac{565\\pi}{6}=\\frac{564\\pi}{6}+\\frac{\\pi}{6}=47(2\\pi)+\\frac{\\pi}{6},$$ the angle is coterminal with $\\frac{\\pi}{6}$."
+      "title": "Use the unit circle",
+      "content": "The angle is coterminal with $\\frac{\\pi}{6}$, so it has the same cosine value.<br/>$$\\cos(\\frac{565\\pi}{6})=\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}$$"
     },
     {
-      "title": "Use the unit-circle value",
-      "content": "$$\\cos\\left(\\frac{565\\pi}{6}\\right)=\\cos\\left(\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{3}}{2}.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$\\frac{\\sqrt{3}}{2}$ is correct. $\\frac{1}{2}$ is $\\sin(\\pi/6)$, $1$ is $\\cos(0)$, and $\\sqrt{3}$ is too large for a cosine value. The reference angle after reducing is exactly $\\pi/6$.",
+      "title": "Calculator shortcut",
+      "content": "A calculator can evaluate the original cosine expression directly. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "\\cos\\left(565\\pi/6\\right)"
       ]

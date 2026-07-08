@@ -1,0 +1,19 @@
+{
+  "questionId": "bc3e3ecc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the variable terms",
+      "content": "Move the constant to the other side and group the $x$-terms and $y$-terms:<br/>$$x^2+9x+y^2-7y=-11$$"
+    },
+    {
+      "title": "Complete both squares",
+      "content": "Add the squares of half the linear coefficients to both sides:<br/>$$x^2+9x+(\\frac{9}{2})^2+y^2-7y+(\\frac{7}{2})^2=-11+\\frac{81}{4}+\\frac{49}{4}$$"
+    },
+    {
+      "title": "Find the radius",
+      "content": "Rewrite the left side as squared binomials and simplify the right side:<br/>$$(x+\\frac{9}{2})^2+(y-\\frac{7}{2})^2=\\frac{86}{4}$$<br/>The radius is the square root of the right side:<br/>$$r=\\sqrt{\\frac{86}{4}}=\\frac{\\sqrt{86}}{2}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

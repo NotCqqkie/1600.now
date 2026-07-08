@@ -1,0 +1,15 @@
+{
+  "questionId": "58a002d7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the narrowed scope",
+      "content": "The first sentence introduces research on diets of North American ungulates generally. The next sentence says the researchers did not analyze all such ungulates and instead focused only on pronghorns and wild horses in New Mexico. The transition must signal a contrast."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "Choice A suggests the point holds regardless of a prior issue. Choice B signals a restatement, but the second clause narrows the scope. Choice C signals an example, though the sentence is correcting an overly broad expectation. A contrast transition with a semicolon correctly joins the two clauses. The answer is <strong>D</strong>."
+    }
+  ]
+}

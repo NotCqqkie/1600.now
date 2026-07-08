@@ -1,0 +1,19 @@
+{
+  "questionId": "64eaa551",
+  "correctAnswer": "54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radical",
+      "content": "Use the rule that an $a$th root is the same as raising to the power $1/a$.<br/>$$\\sqrt[a]{r^{48}}=r^{48/a}$$"
+    },
+    {
+      "title": "Set exponents equal",
+      "content": "Since $r>1$, equal powers of $r$ have equal exponents. Set the exponent from the radical equal to the target exponent.<br/>$$48/a=8/9$$"
+    },
+    {
+      "title": "Solve for the root index",
+      "content": "Cross-multiply and solve for $a$.<br/>$$48(9)=8a$$<br/>$$432=8a$$<br/>$$a=54$$<br/>The answer is <strong>54</strong>."
+    }
+  ]
+}

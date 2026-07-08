@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage directly explains the core problem: <em>“Mars's atmosphere is only one percent as dense as Earth's, the air of Mars would not provide enough resistance to the rotating blades of a standard helicopter for the aircraft to stay aloft.”</em> The fundamental issue is an atmospheric difference between the two planets."
+      "title": "Use the atmosphere clue",
+      "content": "The passage says Mars's atmosphere is only one percent as dense as Earth's, so Martian air would not provide enough resistance for a standard helicopter's blades to keep it aloft."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "Choice A (&lsquo;Because Mars and Earth have different atmospheric conditions&rsquo;) correctly identifies the problem described in the text: an atmospheric difference that prevents standard helicopters from working on Mars.<br/><br/>The other choices either cite unsupported factors (gravity), contradict what the passage shows (the solution required changing blades, not accounting for their size) or misattribute the problem to helicopter size rather than atmosphere.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject unsupported causes",
+      "content": "Choice B says Earth helicopter blades are too large. Choice C blames gravity, which the text never mentions. Choice D blames the helicopter's overall size. The answer is <strong>A</strong>."
     }
   ]
 }

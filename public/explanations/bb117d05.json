@@ -1,0 +1,15 @@
+{
+  "questionId": "bb117d05",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark false impression versus fact",
+      "content": "The first sentence says a viewer might assume a real hole had opened in the street. The next sentence states that Tanner created only an illusion of depth, so the transition must reverse that assumption."
+    },
+    {
+      "title": "Signal the contradiction",
+      "content": "Choice A adds similar information, Choice B signals sequence, and Choice C signals a result. The needed phrase marks the contrary reality: no real hole existed. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "89072d95",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Preserve the main verb",
+      "content": "The sentence's main subject is <strong>Such a compensatory measure</strong>, and its main verb is <strong>offers</strong>. The blank should modify the measure without creating another main verb before <strong>offers</strong>."
+    },
+    {
+      "title": "Use the participle modifier",
+      "content": "A, B, and C are finite verb forms, so they would compete with <strong>offers</strong> and create an ungrammatical sentence. The participle form modifies the measure and keeps <strong>offers</strong> as the main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

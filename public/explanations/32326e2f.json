@@ -1,0 +1,15 @@
+{
+  "questionId": "32326e2f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two locations",
+      "content": "The goal is to emphasize a difference between the Isthmus of Panama and the Isthmus of Ierapetra. A useful answer must mention both named isthmuses and place different facts about them side by side. The notes give a clear contrast: Panama is in Central America, while Ierapetra is in the Mediterranean Sea."
+    },
+    {
+      "title": "Keep the contrast explicit",
+      "content": "<ul><li><strong>Choice A - The Isthmus of Ierapetra is an isthmus, or land bridge.</strong>: This mentions only Ierapetra and gives a category, so it does not compare the two places.</li><li><strong>Choice C - There is an isthmus, or land bridge, located in Central America.</strong>: This mentions Central America but does not name or contrast the Isthmus of Ierapetra.</li><li><strong>Choice D - An isthmus, or land bridge, is a strip of land that connects two larger pieces of land across an expanse of water.</strong>: This defines an isthmus in general instead of emphasizing a difference between the two examples.</li></ul>The sentence with both locations directly contrasts the two isthmuses. The answer is <strong>B</strong>."
+    }
+  ]
+}

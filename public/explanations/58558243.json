@@ -1,0 +1,19 @@
+{
+  "questionId": "58558243",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the research value",
+      "content": "The question asks what Morales and Vogel's research contributes to their discipline. The passage says they built on earlier work about early modern state finance, but their unique contribution was reconstructing the earliest extant annual fiscal records for a sovereign state. That makes the value of the research evidentiary, not just thematic."
+    },
+    {
+      "title": "Use what the records show",
+      "content": "Those fiscal records matter because they changed the explanation for Philip II's defaults. The evidence shows the defaults were caused by short-term liquidity crises, not by long-term unsustainable debts, so one possible cause is rejected and another is supported."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A reverses cause and effect by saying defaults exacerbated liquidity crises. Choice C invents corrections to Hansen and Ortega's work, and Choice D invents a Hansen-Ortega hypothesis about Philip's defaults. The remaining choice accurately describes newly compiled evidence eliminating one explanation and affirming another. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $\\frac{1 + \\sqrt{11}}{2}$."
+      "title": "Put terms on one side",
+      "content": "Move the right side to the left side.\n$$\n2x^2-2=2x+3\n$$\n$$\n2x^2-2x-5=0\n$$"
     },
     {
-      "title": "Graph both sides first",
-      "content": "A fast Desmos method is to graph the left and right sides separately:<br/>$$y=2x^2-2$$<br/>$$y=2x+3$$<br/>The x-coordinates of the intersections are the solutions.",
+      "title": "Solve the quadratic",
+      "content": "Use the quadratic formula with $a=2$, $b=-2$, and $c=-5$.\n$$\nx=\\frac{2\\pm\\sqrt{(-2)^2-4(2)(-5)}}{2(2)}\n$$\n$$\nx=\\frac{2\\pm\\sqrt{44}}{4}=\\frac{1\\pm\\sqrt{11}}{2}\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing $y=2x^2-2$ and $y=2x+3$ gives the same intersection $x$-values. The listed solution with the plus sign matches the choices. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=2x^2-2",
         "y=2x+3"
       ]
-    },
-    {
-      "title": "Match the exact solution",
-      "content": "The positive intersection is approximately $2.158$. Among the choices, $\\frac{1+\\sqrt{11}}{2}\\approx2.158$, so choice D (&lsquo;$\\frac{1 + \\sqrt{11}}{2}$&rsquo;) matches the graph."
-    },
-    {
-      "title": "Confirm algebraically",
-      "content": "Move all terms to one side:<br/>$$2x^2-2x-5=0$$<br/>Quadratic formula:<br/>$$x=\\frac{2\\pm\\sqrt{44}}{4}=\\frac{1\\pm\\sqrt{11}}{2}$$<br/>Choice D (&lsquo;$\\frac{1 + \\sqrt{11}}{2}$&rsquo;) is one of these solutions, so <strong>D</strong> is correct."
     }
   ]
 }

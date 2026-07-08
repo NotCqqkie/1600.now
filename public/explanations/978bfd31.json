@@ -1,0 +1,19 @@
+{
+  "questionId": "978bfd31",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the assumption",
+      "content": "The underlined assumption is that snakes do not detect sound traveling through the air. A finding that challenges it must show a response to airborne sound, not just to sound traveling through the ground. Movement of more than 20 cm is the response standard already mentioned in the question."
+    },
+    {
+      "title": "Keep the focus on airborne sound",
+      "content": "A comparison of general hearing ability would not be enough, and evidence about ground sound alone would not challenge the assumption. The useful finding must connect the same snake species to substantial movement caused by airborne sound waves."
+    },
+    {
+      "title": "Eliminate nonchallenges",
+      "content": "<ul><li>Choice A supports the assumption for two species because it says they do not move substantially in response to airborne sound.</li><li>Choice B only compares overall hearing between species and does not address airborne sound.</li><li>Choice C also supports the assumption because it says two species react only to ground sound.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

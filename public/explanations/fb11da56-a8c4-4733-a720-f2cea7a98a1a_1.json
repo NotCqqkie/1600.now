@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the boundary",
-      "content": "The shaded region is bounded by a horizontal line at $y = 29$ — a horizontal boundary means the inequality is in $y$ alone (not $x$). That eliminates A and B."
+      "title": "Identify the boundary line",
+      "content": "The boundary is a horizontal line at $y=33$. A horizontal boundary gives an inequality involving $y$, not $x$."
     },
     {
-      "title": "Pick the direction of shading",
-      "content": "The shading is above the horizontal boundary, so the inequality includes values greater than or equal to 29. That matches <strong>$y \\geq 29$</strong>, so <strong>D</strong> is correct."
+      "title": "Use the shaded side",
+      "content": "The shaded region is above the boundary line, so the inequality includes values greater than or equal to $33$. The answer is <strong>D</strong>."
     }
   ]
 }

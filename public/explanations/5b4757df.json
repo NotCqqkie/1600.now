@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Find the similarity scale",
+      "content": "Because segment $LK$ is parallel to segment $RT$, triangle $SLK$ is similar to triangle $SRT$. Compare corresponding sides.\n$$\n\\frac{LK}{RT}=\\frac{28}{84}=\\frac{1}{3}\n$$"
     },
     {
-      "title": "Use the scale shortcut: find the linear ratio",
-      "content": "Since $\\overline{LK} \\parallel \\overline{RT}$, triangle $SKL \\sim$ triangle $STR$ (AA similarity). The linear scale factor is:<br/>$$\\frac{LK}{RT} = \\frac{28}{84} = \\frac{1}{3}$$"
+      "title": "Find the full base",
+      "content": "Triangle $RST$ is right at $T$, so use the area formula with legs $RT$ and $ST$.\n$$\n1{,}050=\\frac{1}{2}(84)(ST)\n$$\n$$\n1{,}050=42(ST)\n$$\n$$\nST=25\n$$"
     },
     {
-      "title": "Recover ST from the area",
-      "content": "Right triangle area $= \\frac{1}{2} \\cdot RT \\cdot ST$:<br/>$$1,050 = \\frac{1}{2} \\cdot 84 \\cdot ST \\implies ST = 25$$"
-    },
-    {
-      "title": "Apply scale factor to find SK, then KT",
-      "content": "Corresponding sides scale by $\\frac{1}{3}$, so $SK = \\frac{1}{3} \\cdot 25 = \\frac{25}{3}$.<br/>$$KT = ST - SK = 25 - \\frac{25}{3} = \\frac{50}{3} \\approx 16.667$$<br/>The answer is <strong>50/3</strong>."
+      "title": "Subtract the similar segment",
+      "content": "The smaller similar triangle has scale factor \n$$\n\\frac{1}{3}\n$$, so\n$$\nSK=\\frac{1}{3}(25)=\\frac{25}{3}\n$$\nThen subtract from the full length.\n$$\nKT=25-\\frac{25}{3}=\\frac{50}{3}\n$$\nThe answer is <strong>50/3</strong>."
     }
   ]
 }

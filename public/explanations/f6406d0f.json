@@ -1,0 +1,15 @@
+{
+  "questionId": "f6406d0f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the photo context",
+      "content": "The photograph featured a portrait, so the word describes what the image visually contained or showed. The surrounding context is about Nina looking at a framed photograph."
+    },
+    {
+      "title": "Eliminate impossible actions",
+      "content": "A would mean the photo paid no attention to the portrait. B would mean it approved the portrait, and C would mean it questioned the portrait; photographs do not perform those actions here. The answer is <strong>D</strong>."
+    }
+  ]
+}

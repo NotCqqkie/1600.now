@@ -1,0 +1,15 @@
+{
+  "questionId": "2ab15064",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the evidence mechanism",
+      "content": "The student's goal is not just to say that a Foucault pendulum provides evidence of Earth's rotation. The sentence must explain how it does so: the pendulum swings on an unchanging path, but to observers its path appears to change because Earth rotates beneath it."
+    },
+    {
+      "title": "Reject incomplete summaries",
+      "content": "Choice A states that the pendulum provides evidence but does not explain the mechanism. Choice C describes the pendulum's cable and ball without explaining the apparent path change. Choice D gives two facts but omits that Earth's rotation causes observers to see the swing path change over time. Choice B includes both the fixed swing path and the apparent change caused by Earth's rotation, which explains the evidence claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

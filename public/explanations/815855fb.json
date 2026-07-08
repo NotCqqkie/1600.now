@@ -1,0 +1,23 @@
+{
+  "questionId": "815855fb",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the drip rate",
+      "content": "The faucet adds $0.06$ milliliter every $3$ seconds. Convert that to milliliters per second by dividing the drop volume by the number of seconds per drop."
+    },
+    {
+      "title": "Compute the unit rate",
+      "content": "The rate is\n$$\\frac{0.06}{3}=0.02$$\nSo the faucet adds $0.02$ milliliter each second. After $t$ seconds, the added volume is $0.02t$."
+    },
+    {
+      "title": "Include the starting volume",
+      "content": "The container already has $18$ milliliters of water before any new water drips in. Add that initial amount to the volume gained from the faucet."
+    },
+    {
+      "title": "Write the volume model",
+      "content": "Combining the initial volume and the added volume gives\n$$v=0.02t+18$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d9518594",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify favorable outcomes",
+      "content": "The event is selecting a member who is at least $45$ years old. From the table, that row has $107$ members out of $135$ total members."
+    },
+    {
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:\n$$\n\\frac{107}{135}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

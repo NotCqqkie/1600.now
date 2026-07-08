@@ -1,0 +1,15 @@
+{
+  "questionId": "dbf61e71",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause and result",
+      "content": "The first sentence says Al-Andalus was ruled for centuries by Arabic-speaking Muslim states. The second sentence says Arabic words entered Spanish, so the transition must show that this language influence was a result of that history."
+    },
+    {
+      "title": "Check the transition choices",
+      "content": "B would narrow a category, but the second sentence gives an outcome. C would introduce an example, but the first sentence does not state a general set of examples. D signals contrast or replacement, which does not fit. A result transition is needed. The answer is <strong>A</strong>."
+    }
+  ]
+}

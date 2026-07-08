@@ -1,0 +1,15 @@
+{
+  "questionId": "cb33b36a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the supported claim",
+      "content": "The passage says electrolytic hydrogen could help decarbonize petroleum and heating, even though obstacles may prevent it from dominating energy systems. That means its potential in those difficult-to-decarbonize industries is not fully realized yet."
+    },
+    {
+      "title": "Reject unsupported specifics",
+      "content": "A blames carbon intensity for adoption problems, but the passage does not. B compares development across industries without evidence. D claims lack of production has limited interest, also unstated. The supported point is unrealized potential. The answer is <strong>C</strong>."
+    }
+  ]
+}

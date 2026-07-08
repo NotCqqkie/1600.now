@@ -1,0 +1,15 @@
+{
+  "questionId": "4ff67d91",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Avoid a comma splice",
+      "content": "The first clause before the comma already has a finite verb. The words after the comma should describe the nanoparticles without creating a second independent clause joined only by a comma."
+    },
+    {
+      "title": "Use a participial phrase",
+      "content": "Choice A, Choice B, and Choice D are finite verb phrases, so each would create a comma splice after the first clause. A present participle forms a modifying phrase instead of a new independent clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

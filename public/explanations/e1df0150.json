@@ -1,0 +1,19 @@
+{
+  "questionId": "e1df0150",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the trend shape",
+      "content": "The plotted data increase at a roughly steady rate, so a linear model is more appropriate than an exponential model. That eliminates choices C and D."
+    },
+    {
+      "title": "Use the trend direction",
+      "content": "Because $y$ increases as $x$ increases, the slope must be positive. Choice B has slope $-1.2$, so it decreases instead."
+    },
+    {
+      "title": "Choose the linear model",
+      "content": "The remaining model has a positive linear trend.<br/>$$y=-694+1.2x$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "f16fe1fd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the graph directions",
+      "content": "The parabola opens upward, so the coefficient of $x^2$ must be positive. The line rises from left to right, so its slope must also be positive."
+    },
+    {
+      "title": "Check the visible intersection",
+      "content": "The positive-coefficient system also fits the visible intersection at $(4,7)$:<br/>$$\\frac{7}{16}(4)^2=\\frac{7}{16}\\cdot 16=7$$<br/>and<br/>$$\\frac{7}{4}(4)=7$$"
+    },
+    {
+      "title": "Choose the positive pair",
+      "content": "The system with an upward-opening parabola and a positive-slope line is the matching choice. The answer is <strong>D</strong>."
+    }
+  ]
+}

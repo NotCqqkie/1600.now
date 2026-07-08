@@ -1,0 +1,15 @@
+{
+  "questionId": "701fe960",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the confirmation signal",
+      "content": "The second sentence says Duchamp's <em>Fountain</em> \"did just that,\" meaning it fulfilled the intention stated in the first sentence: challenging prevailing ideas about art."
+    },
+    {
+      "title": "Reject other transitions",
+      "content": "A adds a separate point, but the sentence confirms the previous one. B signals a comparison that is not being made. C signals contrast or replacement, which conflicts with \"did just that.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b41a0b09",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the collection detail",
+      "content": "The passage says the Federalist Papers were published in New York newspapers in 1787-88. Both named essays are individual essays in that collection."
+    },
+    {
+      "title": "Avoid unsupported overlaps",
+      "content": "A is wrong because the authorship of No. 12 is certain. C is unsupported because the passage does not say both essays appeared in the <em>Independent Journal</em>. D is wrong because neither essay is described as collaborative. The shared fact is publication during 1787 or 1788. The answer is <strong>B</strong>."
+    }
+  ]
+}

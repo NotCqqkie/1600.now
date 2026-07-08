@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up slope formula with the intercept points",
-      "content": "The slope formula is $m = \\frac{y_2 - y_1}{x_2 - x_1}$. We have two points: the x-intercept $(-5, 0)$ and the y-intercept $(0, \\frac{95}{4})$.<br/><br/>Substituting into the formula:<br/>$$m = \\frac{\\frac{95}{4} - 0}{0 - (-5)} = \\frac{\\frac{95}{4}}{5}$$"
+      "title": "Use the intercepts",
+      "content": "Use the intercepts $(-5,0)$ and $(0,\\frac{95}{4})$."
     },
     {
-      "title": "Simplify the complex fraction",
-      "content": "Dividing by 5 is the same as multiplying by $\\frac{1}{5}$:<br/>$$m = \\frac{95}{4} \\cdot \\frac{1}{5} = \\frac{95}{20}=\\frac{19}{4}.$$ That matches <strong>Choice C &mdash; $\\frac{19}{4}$</strong>."
+      "title": "Calculate the slope",
+      "content": "Subtract the $y$-values and divide by the difference in $x$-values.<br/>$$m=\\frac{\\frac{95}{4}-0}{0-(-5)}$$<br/>$$m=\\frac{\\frac{95}{4}}{5}=\\frac{95}{20}=\\frac{19}{4}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

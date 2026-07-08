@@ -1,0 +1,15 @@
+{
+  "questionId": "7d5ca8ef",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the missing date",
+      "content": "The debate depends on whether the Greenland crater dates to the beginning of the Younger Dryas. Lund's team had found the crater but had not yet determined its age, so they could not use it to confirm a timing connection to that cooling period."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "<ul><li><strong>Choice B</strong>: The passage does not question whether a comet fragment could make a crater that large.</li><li><strong>Choice C</strong>: The passage focuses on the crater's age, not on whether something else created it.</li><li><strong>Choice D</strong>: The passage does not challenge when the Younger Dryas began.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

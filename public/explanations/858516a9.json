@@ -1,0 +1,15 @@
+{
+  "questionId": "858516a9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Limit the bumblebee model",
+      "content": "The passage says bumblebees are heavily studied, so researchers use them to understand wild-bee declines. But Moreau notes that bumblebees have resilience traits that many other wild bees lack, so conclusions drawn from bumblebees may not always transfer."
+    },
+    {
+      "title": "Keep the caution precise",
+      "content": "Choice A wrongly suggests bumblebees are unlikely to experience major population changes. Choice B rejects using bumblebees too broadly, even for similar bees. Choice C invents a ranking of climate variation and habitat destruction. The remaining choice captures the need for caution when extrapolating from bumblebees. The answer is <strong>D</strong>."
+    }
+  ]
+}

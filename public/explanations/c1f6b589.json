@@ -1,0 +1,15 @@
+{
+  "questionId": "c1f6b589",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both total charges",
+      "content": "Marco's charge is $12+9.25x$. Priya's charge is $6+10.75x$."
+    },
+    {
+      "title": "Compare Priya to Marco",
+      "content": "Priya's total must be greater than Marco's total.<br/>$$6+10.75x\\gt12+9.25x$$<br/>$$1.5x\\gt6$$<br/>$$x\\gt4$$The answer is <strong>D</strong>."
+    }
+  ]
+}

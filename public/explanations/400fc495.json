@@ -1,0 +1,15 @@
+{
+  "questionId": "400fc495",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect impact to outcome",
+      "content": "The text says NASA crashed a probe into Dimorphos, and the next sentence says Dimorphos's orbital period was permanently altered. The transition must show that the alteration resulted from the impact."
+    },
+    {
+      "title": "Choose cause and effect",
+      "content": "A would introduce a more specific detail, B would compare two things, and C would merely add another point. The relationship between the two sentences is causal. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a2c8d9ab",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the cost conclusion",
+      "content": "The first sentence says contour modeling and box modeling typically process shapes numbering in the thousands. The next sentence says these approaches are more economical than methods that require processors to manage polygons numbering in the millions. The transition should mark the second sentence as a result of the first."
+    },
+    {
+      "title": "Reject wrong transition roles",
+      "content": "A signals replacement or contrast, not consequence. B signals a more specific detail, but the sentence gives a broader conclusion. D introduces an example, while the economy claim is not an example of the shape count; it follows from it. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9ad7bcdf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Represent the total signatures",
+      "content": "The student collected $40$ signatures on Monday and $s$ additional signatures on Tuesday. Add those amounts to represent the total:<br/>$$s+40$$"
+    },
+    {
+      "title": "Apply the minimum requirement",
+      "content": "The phrase \"at least $210$\" means the total must be greater than or equal to $210$. That gives the inequality<br/>$$s+40\\ge210$$"
+    },
+    {
+      "title": "Check the answer choices",
+      "content": "Choice A uses at most instead of at least. Choices C and D subtract Monday's signatures instead of adding them. Choice B correctly says the total number of signatures is at least $210$. The answer is <strong>B</strong>."
+    }
+  ]
+}

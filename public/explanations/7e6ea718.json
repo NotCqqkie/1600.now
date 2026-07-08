@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set y equals zero and identify all roots",
-      "content": "To find x-intercepts, set $y = 0$:<br/>$$3(x-k)(x+k)(x+r)(x-k) = 0$$<br/>Since 3 is nonzero, each factor can equal zero:<ul><li>$(x-k) = 0 \\Rightarrow x = k$ (appears with multiplicity 2)</li><li>$(x+k) = 0 \\Rightarrow x = -k$</li><li>$(x+r) = 0 \\Rightarrow x = -r$</li></ul>When counting distinct x-intercepts, we count each distinct $x$-value once, regardless of multiplicity."
+      "title": "List the zero-producing factors",
+      "content": "The graph has an $x$-intercept whenever $y=0$. The factors are<br/>$$3(x-k)(x+k)(x+r)(x-k)$$<br/>The repeated factor $(x-k)$ gives the same intercept twice, not two distinct intercepts."
     },
     {
-      "title": "Verify all roots are distinct",
-      "content": "Are the three values $k$, $-k$, and $-r$ all different? Given $k \\gt 0$, $r \\gt 0$, and $k \\neq r$:<ul><li>$k \\gt 0$ while $-k \\lt 0$, so $k \\neq -k$</li><li>$k \\gt 0$ while $-r \\lt 0$, so $k \\neq -r$</li><li>Since $k \\neq r$, we have $-k \\neq -r$</li></ul>All three roots are distinct, so there are 3 distinct x-intercepts. That confirms <strong>B</strong> is correct."
+      "title": "Count the distinct intercepts",
+      "content": "The distinct roots are<br/>$$x=k,\\quad x=-k,\\quad x=-r$$<br/>Because $k$ and $r$ are unique positive constants, these are $3$ different $x$-values. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Textual) question. It asks for the specific challenge the researchers had to overcome to examine the glyphs. The answer must be directly supported by a detail in the passage — not inferred or imported from outside."
+      "title": "Locate the obstacle",
+      "content": "The passage says the cave ceiling was only a few feet high and the glyphs were as wide as ten feet. Because of those dimensions, there was no position from which the glyphs could be fully viewed or photographed."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The cave was so remote that the researchers couldn't easily reach it.\"</strong>: The passage never mentions the cave being remote or hard to access; this claim has no textual basis. &#10007;</li><li><strong>\"Some of the glyphs were so faint that they couldn't be photographed.\"</strong>: The passage says the glyphs couldn't be photographed in their entirety because of the low ceiling and the glyphs' width — not because they were faint. &#10007;</li><li><strong>\"The researchers were unable to create a 3D model of the cave.\"</strong>: The passage states the opposite: the researchers successfully used photogrammetry to assemble a 3D model. &#10007;</li><li><strong>\"The cave's dimensions prevented the researchers from fully viewing the glyphs.\"</strong>: The passage directly states the cave's ceiling was only a few feet high, affording no position from which the ten-foot-wide glyphs could be viewed in their entirety. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Select the stated challenge",
+      "content": "The challenge was the cave's dimensions preventing full viewing. A invents remoteness, B invents faint glyphs, and C contradicts the passage because the researchers did create a 3D model. The answer is <strong>D</strong>."
     }
   ]
 }

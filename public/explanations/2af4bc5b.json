@@ -1,0 +1,19 @@
+{
+  "questionId": "2af4bc5b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given definition",
+      "content": "The question defines average acceleration as change in speed divided by time. Here the change in speed is $30$ meters per second and the time is $8$ seconds."
+    },
+    {
+      "title": "Divide speed change by time",
+      "content": "Compute the quotient:\n$$\n\\frac{30}{8}=3.75\n$$\nThe units are meters per second squared because meters per second is divided by seconds."
+    },
+    {
+      "title": "Choose the acceleration",
+      "content": "The answer is <strong>B</strong>."
+    }
+  ]
+}

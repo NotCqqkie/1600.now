@@ -1,0 +1,15 @@
+{
+  "questionId": "08dd9aeb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the term itself",
+      "content": "The student wants to explain plosive phonemes. The notes define a plosive as a sound in which air flow is at first fully blocked, so the answer should define the term rather than focus on one example."
+    },
+    {
+      "title": "Separate examples from definition",
+      "content": "A and B describe /p/ instead of directly defining plosive. C defines \"fricative,\" which is the wrong term. The choice that states the general definition of plosive uses the relevant information most directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

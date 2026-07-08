@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the genetic redistribution",
-      "content": "The key clue is the gene expression pattern: <strong>anterior genes active throughout the entire body, posterior genes limited to the edges</strong>."
+      "title": "Read the gene pattern",
+      "content": "Duval and colleagues found anterior genes active across the sea star's entire body, posterior genes limited to the edges, and no trunk-related pattern. That finding challenges the old idea that sea stars became headless."
     },
     {
-      "title": "Interpret the genetic shift",
-      "content": "The anterior region expands throughout the body while posterior shrank to the margins—sea stars evolved to expand the head and eliminate the trunk, inverting the traditional head-loss assumption.<br/><br/>The other choices misread the genetic distribution, deny the bilateral ancestor relationship, or falsely claim genetic correspondence doesn't exist.<br/><br/>That matches <strong>Choice D &mdash; rather than undergoing changes resulting in the eventual elimination of a head region in their radial body plan, as previously assumed, sea stars' morphology evolved to completely lack a trunk and consist primarily of a head region.</strong>."
+      "title": "Choose the supported inference",
+      "content": "Choice A invents a claim about posterior genes causing the starlike layout. Choice B rejects the known bilateral origin. Choice C says the genetic markers barely correspond, even though the comparison depends on their correspondence. The remaining choice matches the head-region and no-trunk finding. The answer is <strong>D</strong>."
     }
   ]
 }

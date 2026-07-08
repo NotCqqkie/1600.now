@@ -1,0 +1,15 @@
+{
+  "questionId": "8a092cea",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the profit model",
+      "content": "Profit is monthly sales revenue minus fixed monthly costs. In the equation, $12{,}500$ is the profit and $7{,}200$ is the fixed monthly cost."
+    },
+    {
+      "title": "Interpret the variable term",
+      "content": "The term $3.00x$ is the amount earned from selling $x$ notebooks at $3.00$ dollars each, so it represents monthly sales revenue from selling $x$ notebooks. The answer is <strong>A</strong>."
+    }
+  ]
+}

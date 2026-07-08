@@ -1,19 +1,19 @@
 {
   "questionId": "1f353a9e",
-  "qid": "1f353a9e",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept",
-      "content": "The y-intercept is the value of $f(t)$ when $t = 0$. Substitute: $$f(0) = 6{,}400(0.75)^{0} = 6{,}400 \\times 1 = 6{,}400$$"
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when the input is $t=0$. Substitute $0$ into the function to find the starting value on the graph.\n$$f(0)=6{,}400(0.75)^0$$\nBecause any nonzero number raised to the zero power equals $1$, the value is\n$$f(0)=6{,}400(1)=6{,}400$$"
     },
     {
-      "title": "Interpret $t=0$",
-      "content": "Since $t$ counts years since the end of 2004, $t = 0$ corresponds to the end of 2004. So the y-intercept of 6,400 represents the number of emails sent at the end of 2004."
+      "title": "Interpret the time value",
+      "content": "The variable $t$ represents the number of years since the end of $2004$. Therefore, $t=0$ means $0$ years after that starting point, which is the end of $2004$."
     },
     {
-      "title": "Check the choices",
-      "content": "Evaluate all choices:<ul><li><strong>A: The minimum estimated number of emails the organization sent to its subscribers during the $5$ years was $2,025$.</strong> Says the minimum over 5 years was 2,025. The y-intercept is an initial value, not a minimum; and 2,025 is not 6,400. Incorrect.</li><li><strong>B: The minimum estimated number of emails the organization sent to its subscribers during the $5$ years was $6,400$.</strong> Says the minimum over 5 years was 6,400. The y-intercept is an initial (starting) value, not a minimum; the function decreases, so the minimum is at $t=4$, not $t=0$. Incorrect.</li><li><strong>C: The estimated number of emails the organization sent to its subscribers at the end of $2004$ was $2,025$.</strong> Says the number of emails at the end of 2004 was 2,025. The correct y-intercept value is 6,400, not 2,025. Incorrect.</li><li><strong>D: The estimated number of emails the organization sent to its subscribers at the end of $2004$ was $6,400$.</strong> Says the estimated number of emails at the end of 2004 was 6,400. This correctly identifies both the time ($t=0$ = end of 2004) and the value (6,400). That matches <strong>Choice D &mdash; The estimated number of emails the organization sent to its subscribers at the end of $2004$ was $6,400$.</strong>.</li></ul>"
+      "title": "State the context meaning",
+      "content": "The intercept is not a minimum or maximum over the interval; it is the modeled value when the graph crosses the $y$-axis. In context, that value represents an estimated $6{,}400$ emails sent at the end of $2004$. The answer is <strong>D</strong>."
     }
   ]
 }

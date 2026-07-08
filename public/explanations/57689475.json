@@ -1,0 +1,19 @@
+{
+  "questionId": "57689475",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply by y",
+      "content": "Start with the given equation. Since $x$ is divided by $y$, multiply both sides by $y$ to isolate $x$.\n$$b-17=\\frac{x}{y}$$\n$$y(b-17)=x$$"
+    },
+    {
+      "title": "Distribute the factor",
+      "content": "Distribute $y$ across both terms inside the parentheses.\n$$y(b-17)=by-17y$$\nSo the equation becomes\n$$x=by-17y$$"
+    },
+    {
+      "title": "Check by substituting",
+      "content": "Substituting $by-17y$ back for $x$ gives\n$$\\frac{by-17y}{y}=b-17$$\nThis matches the original equation, so the expression correctly solves for $x$. The answer is <strong>B</strong>."
+    }
+  ]
+}

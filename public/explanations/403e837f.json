@@ -1,0 +1,19 @@
+{
+  "questionId": "403e837f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two lines",
+      "content": "The equations $y=x+23$ and $y=12x$ are both linear and have different slopes. Two nonparallel lines intersect at exactly one point."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations as written and count their intersection. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y = x + 23",
+        "y = 12x"
+      ]
+    }
+  ]
+}

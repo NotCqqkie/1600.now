@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: track what changes",
-      "content": "Moving each value above the median higher and each value below the median lower spreads the data farther from the center. The median, mean, and sum can stay fixed, but the standard deviation changes because the values are more spread out."
+      "title": "Count values around the median",
+      "content": "There are $29$ different numbers, so the median is the $15$th value. Since the median is $34$, there are $14$ values below $34$, one value equal to $34$, and $14$ values above $34$."
     },
     {
-      "title": "Set up the structure of the data set",
-      "content": "With 29 numbers and a mean of 34, the total sum is $29 \\times 34 = 986$. Since 29 is odd, the median is the 15th value when sorted. That means 14 values are less than 34, one value equals 34 (the median itself), and 14 values are greater than 34."
+      "title": "Check sum and mean",
+      "content": "The values above the median each increase by $6$, and the values below the median each decrease by $6$.\n$$\n14(6)-14(6)=0\n$$\nThe sum does not change, so the mean does not change."
     },
     {
-      "title": "Compute the effect on the sum and mean",
-      "content": "The transformation adds 6 to each of the 14 values above the median and subtracts 6 from each of the 14 values below the median. Net change to sum: $+6 \\times 14 - 6 \\times 14 = 0$. The sum remains 986 and the mean remains $986 \\div 29 = 34$.<ul><li>The mean remains 34 in both sets, so it is not the answer.</li><li>The sum remains 986 in both sets, so it is not the answer.</li></ul>"
-    },
-    {
-      "title": "Check whether the median changes",
-      "content": "Subtracting 6 from any value that was less than 34 keeps it less than 34; adding 6 to any value greater than 34 keeps it greater than 34. The relative order is preserved, so the 15th value remains 34.<ul><li>The median remains 34, so it is not the answer.</li></ul>Since the standard deviation changes, <strong>D</strong> is correct."
+      "title": "Check spread from the center",
+      "content": "The median value stays at $34$, but every value below it moves lower and every value above it moves higher. The data become more spread out, so the standard deviation changes. The answer is <strong>D</strong>."
     }
   ]
 }

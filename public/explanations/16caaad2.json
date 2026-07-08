@@ -1,0 +1,19 @@
+{
+  "questionId": "16caaad2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed verb",
+      "content": "The subject of the clause is tales of whose exploits, and myths is the object. The blank must supply a finite main verb so the clause is complete."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "<ul><li><strong>Choice A</strong> creates a participial phrase, not a complete clause.</li><li><strong>Choice C</strong> is an infinitive, so it cannot serve as the main verb.</li><li><strong>Choice D</strong> is a participle, leaving the clause without a finite verb.</li></ul>"
+    },
+    {
+      "title": "Complete the clause",
+      "content": "Eventually became is a simple past-tense verb, producing the complete idea that the tales eventually became myths. The answer is <strong>B</strong>."
+    }
+  ]
+}

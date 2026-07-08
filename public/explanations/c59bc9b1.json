@@ -1,0 +1,19 @@
+{
+  "questionId": "c59bc9b1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the input",
+      "content": "The variable $x$ is the number of years after the end of $1954$. Therefore, $x=5$ means five years after the end of $1954$:\n$$\n1954+5=1959\n$$\nSo the input refers to the end of $1959$."
+    },
+    {
+      "title": "Interpret the output",
+      "content": "The function value gives the account value in dollars, not the increase or a multiplier. An output of approximately $297$ means the account is worth about $297$ at the identified year."
+    },
+    {
+      "title": "Select the matching statement",
+      "content": "The matching statement gives an estimated account value of $297$ dollars at the end of $1959$. The answer is <strong>B</strong>."
+    }
+  ]
+}

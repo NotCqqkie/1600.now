@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality from Ohm's law",
-      "content": "Use Ohm's law, $I=\\frac{V}{R}$. The problem gives:<ul><li>Resistance: $R=520$ ohms</li><li>Potential difference: $V=6n$ volts</li><li>Current limit: $I\\leq 0.25$ amperes</li></ul>Substitute those values into $I=\\frac{V}{R}$:$$\\frac{6n}{520}\\leq 0.25$$"
+      "title": "Set the current limit",
+      "content": "Ohm's law gives<br/>$$I=\\frac{V}{R}$$<br/>The voltage is $6n$ and the resistance is $520$, so the current limit is<br/>$$\\frac{6n}{520}\\le0.25$$"
     },
     {
-      "title": "Solve for n by isolating the variable",
-      "content": "Multiply both sides by 520:<br/>$$6n \\leq 0.25 \\times 520$$<br/>$$6n \\leq 130$$<br/>Divide both sides by 6:<br/>$$n \\leq \\frac{130}{6} = 21.6\\overline{6}$$<br/>Since n must be a whole number of batteries, the greatest number of six-volt batteries that can be used is <strong>21</strong>."
+      "title": "Find the battery count",
+      "content": "Multiply by $520$ and divide by $6$:<br/>$$6n\\le0.25(520)=130$$<br/>$$n\\le\\frac{130}{6}$$<br/>This limit is $21.666$ and continues, so the greatest whole number of batteries below it is $21$. The answer is <strong>21</strong>."
     }
   ]
 }

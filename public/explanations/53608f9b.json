@@ -1,0 +1,19 @@
+{
+  "questionId": "53608f9b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the x-intercept meaning",
+      "content": "An $x$-intercept is a point where the graph crosses the $x$-axis. At an $x$-intercept, the output is $0$."
+    },
+    {
+      "title": "Convert the given intercepts",
+      "content": "The given intercepts are $(-4,0)$, $(5,0)$, and $(12,0)$. These points mean the graph's output is $0$ at those three input values. Therefore<br/>$$f(-4)=0$$<br/>$$f(5)=0$$<br/>$$f(12)=0$$"
+    },
+    {
+      "title": "Match the must-be-true statement",
+      "content": "The statement that must be true is $f(12)=0$. The answer is <strong>C</strong>."
+    }
+  ]
+}

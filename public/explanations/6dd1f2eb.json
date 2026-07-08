@@ -1,0 +1,19 @@
+{
+  "questionId": "6dd1f2eb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the regional pattern",
+      "content": "The passage first explains that many immigrants from north China, where Mandarin is the primary language, live in Flushing. It then explains that immigrants from south China, where Cantonese or Fuzhounese are common first languages, tend to live in Chinatown. The neighborhood language pattern in New York City mirrors those different source regions in China."
+    },
+    {
+      "title": "Eliminate unsupported causes",
+      "content": "Choice A introduces the idea that earlier immigrants know several Chinese languages, but the text never contrasts older and newer immigrants. Choice C says immigrants regularly move between Queens and Manhattan, which would not explain stable neighborhood differences. Choice D gives a possible citywide count of Cantonese, Fuzhounese, and Mandarin speakers, but total numbers do not explain why different neighborhoods have different primary languages."
+    },
+    {
+      "title": "State the most logical cause",
+      "content": "The explanation must connect the two facts the passage gives: regional primary languages in China and settlement patterns in New York City. If immigrants from different parts of China tend to settle in different neighborhoods, the primary languages of those neighborhoods will reflect the regional languages of the immigrants' places of origin. The answer is <strong>B</strong>."
+    }
+  ]
+}

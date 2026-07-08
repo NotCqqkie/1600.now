@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank connects",
-      "content": "The sentence reads: &quot;Lucassie Koperqualuk&rsquo;s guitar riffs effortlessly ______ Charlie Adams&rsquo;s delightfully catchy vocal melodies.&quot; The blank is the verb slot, and what follows is a prepositional phrase beginning with &quot;with.&quot; In standard English, no punctuation separates a verb from the prepositional phrase that directly completes it."
+      "title": "Keep the verb phrase together",
+      "content": "The sentence says the guitar riffs 'blend with' the vocal melodies. A verb and the prepositional phrase that completes it should not be split by punctuation."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; blend, with</strong>: A comma between the verb and the preposition is never correct &mdash; punctuation cannot interrupt a verb&ndash;preposition unit. &#10007;</li><li><strong>Choice B &mdash; blend. With</strong>: A period creates two fragments: &quot;...riffs effortlessly blend.&quot; leaves no object, and &quot;With Charlie Adams&rsquo;s...&quot; is a dangling phrase. &#10007;</li><li><strong>Choice C &mdash; blend; with</strong>: A semicolon must join two independent clauses; &quot;With Charlie Adams&rsquo;s...&quot; is not an independent clause. &#10007;</li><li><strong>Choice D &mdash; blend with</strong>: No punctuation between the verb and its prepositional phrase &mdash; exactly what standard English requires. &#10003;</li></ul>That is the correct answer."
+      "title": "Remove interrupting punctuation",
+      "content": "A inserts an unnecessary comma. B creates a fragment beginning with 'With.' C uses a semicolon before a phrase, not an independent clause. The clean verb phrase has no punctuation between 'blend' and 'with.' The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what follows the blank",
-      "content": "After the blank, &ldquo;such as the scent of roses when roses appeared in a scene&rdquo; is a <strong>nonrestrictive (non-essential) example</strong> &mdash; it illustrates one of the odors the vents emitted but is not required for the sentence to be grammatical or complete. Such a phrase must be set off from the preceding independent clause with appropriate punctuation."
+      "title": "Identify the example phrase",
+      "content": "The phrase after the blank gives an example: such as the scent of roses when roses appeared in a scene. That example is additional information after the complete idea about odors being emitted at points in a movie, so it needs to be set off with punctuation."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; movie such</strong>: no punctuation before &ldquo;such as&rdquo; leaves the nonessential example unset off from the clause, creating a punctuation error. &#10007;</li><li><strong>Choice B &mdash; movie; such</strong>: a semicolon can only join two independent clauses; &ldquo;such as&hellip;scene&rdquo; is not an independent clause, so a semicolon here is a punctuation error. &#10007;</li><li><strong>Choice C &mdash; movie. Such</strong>: a period turns &ldquo;Such as&hellip;scene&rdquo; into a standalone sentence, but it is not an independent clause &mdash; this creates a sentence fragment. &#10007;</li><li><strong>Choice D &mdash; movie, such</strong>: a comma correctly sets off the nonrestrictive example from the independent clause, signaling it as additional clarification rather than an essential definition. &#10003;</li></ul>That is the correct answer."
+      "title": "Choose the right boundary",
+      "content": "Choice A leaves the example unpunctuated. Choice B uses a semicolon before a phrase that is not an independent clause. Choice C turns the example into a sentence fragment. A comma before such as correctly introduces the nonessential example. The answer is <strong>D</strong>."
     }
   ]
 }

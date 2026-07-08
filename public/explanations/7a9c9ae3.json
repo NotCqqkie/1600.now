@@ -1,0 +1,15 @@
+{
+  "questionId": "7a9c9ae3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the second ratio",
+      "content": "Factor the second ratio so it uses $\\frac{x}{y}$:\n$$\n\\frac{cx}{6y}=\\frac{c}{6}\\cdot \\frac{x}{y}\n$$\nSince $\\frac{x}{y}=72$,\n$$\n\\frac{c}{6}\\cdot 72=72\n$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Divide both sides by $72$, then multiply by $6$:\n$$\n\\frac{c}{6}=1\n$$\n$$\nc=6\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c54f67",
+  "correctAnswer": "33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the total volume",
+      "content": "The mixture has $46$ mL total. Of that total, $13$ mL is isopropanol, so the remaining volume is water."
+    },
+    {
+      "title": "Subtract the known part",
+      "content": "Subtract the isopropanol volume from the total mixture volume.\n$$46-13=33$$\nThe answer is <strong>33</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use x = 1 substitution to find a + b + c directly",
-      "content": "For any polynomial of the form $ax^2 + bx + c$, evaluating at $x = 1$ gives:<br/>$$a(1)^2 + b(1) + c = a + b + c$$<br/>Since we need $a + b + c$ for the sum of the two polynomials, evaluate each polynomial at $x = 1$ and add the results."
+      "title": "Use the coefficient shortcut",
+      "content": "For a polynomial $ax^2+bx+c$, substituting $x=1$ gives $a+b+c$. Evaluate each polynomial at $x=1$ and add the results."
     },
     {
-      "title": "Evaluate both polynomials at x = 1",
-      "content": "First polynomial: $-2x^2 + 3x + 28$ at $x = 1$<br/>$$-2(1)^2 + 3(1) + 28 = -2 + 3 + 28 = 29$$<br/>Second polynomial: $4x^2 + 6x - 5$ at $x = 1$<br/>$$4(1)^2 + 6(1) - 5 = 4 + 6 - 5 = 5$$"
-    },
-    {
-      "title": "Add the results",
-      "content": "The sum of the polynomial values at $x = 1$ is:<br/>$$29 + 5 = 34$$<br/>Therefore, $a + b + c = 34$."
+      "title": "Evaluate and add",
+      "content": "Compute the two values, then add them.<br/>$$-2(1)^2+3(1)+28=29$$<br/>$$4(1)^2+6(1)-5=5$$<br/>$$29+5=34$$<br/>The answer is <strong>34</strong>."
     }
   ]
 }

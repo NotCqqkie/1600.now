@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the absolute value equation and prepare to backsolve",
-      "content": "We need to find $k$ such that $f(k) = 3k$, which gives us $$|61 - 2k| = 3k$$<br/>Since the answer choices are simple fractions, we can test them directly rather than solve algebraically."
+      "title": "Set the expressions equal",
+      "content": "The condition $f(k)=3k$ means $|61-2k|=3k$. Because $3k$ must be nonnegative, solve the absolute value equation by cases."
     },
     {
-      "title": "Test the other choices",
-      "content": "Backsolving $k = \\frac{61}{2}$:<br/>$$|61 - 2 \\cdot \\frac{61}{2}| = |61 - 61| = 0$$<br/>$$3k = 3 \\cdot \\frac{61}{2} = \\frac{183}{2}$$<br/>Since $0 \\neq \\frac{183}{2}$, this statement fails.<br/><br/>Testing $k = \\frac{183}{5}$:<br/>$$|61 - 2 \\cdot \\frac{183}{5}| = |61 - \\frac{366}{5}| = |\\frac{305 - 366}{5}| = |\\frac{-61}{5}| = \\frac{61}{5}$$<br/>$$3k = 3 \\cdot \\frac{183}{5} = \\frac{549}{5}$$<br/>Since $\\frac{61}{5} \\neq \\frac{549}{5}$, this statement also fails."
+      "title": "Solve both cases",
+      "content": "Use both possible equations: $61-2k=3k$ gives $k=\\frac{61}{5}$, and $61-2k=-3k$ gives $k=-61$. The negative value does not satisfy $3k\\ge 0$."
     },
     {
-      "title": "Test the correct answer",
-      "content": "Testing the correct answer ($k = \\frac{61}{5}$):<br/>$$|61 - 2 \\cdot \\frac{61}{5}| = |61 - \\frac{122}{5}| = |\\frac{305 - 122}{5}| = \\frac{183}{5}$$<br/>$$3k = 3 \\cdot \\frac{61}{5} = \\frac{183}{5}$$<br/>Both sides equal $\\frac{183}{5}$, so the equation is satisfied. <strong>A</strong> is correct."
+      "title": "Match the solution",
+      "content": "The listed value that satisfies the equation is $\\frac{61}{5}$. The answer is <strong>A</strong>."
     }
   ]
 }

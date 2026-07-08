@@ -1,0 +1,15 @@
+{
+  "questionId": "a35f4877",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Collect the variable terms",
+      "content": "Start with\n$$PC=N(52-C)$$\nDistribute and move the $C$ terms to one side:\n$$PC=52N-NC$$\n$$PC+NC=52N$$"
+    },
+    {
+      "title": "Factor and solve",
+      "content": "Factor out $C$ and divide:\n$$C(P+N)=52N$$\n$$C=\\frac{52N}{P+N}$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

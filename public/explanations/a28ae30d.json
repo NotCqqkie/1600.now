@@ -1,0 +1,15 @@
+{
+  "questionId": "a28ae30d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the boundary line",
+      "content": "The boundary line is\n$$rx+ty=-77$$\nTwo clear points on it are $(0,-11)$ and $(-7,-10)$."
+    },
+    {
+      "title": "Find r plus t",
+      "content": "Substitute $(0,-11)$:\n$$0r-11t=-77$$\n$$t=7$$\nSubstitute $(-7,-10)$:\n$$-7r-10(7)=-77$$\n$$-7r-70=-77$$\n$$r=1$$\nTherefore,\n$$r+t=1+7=8$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

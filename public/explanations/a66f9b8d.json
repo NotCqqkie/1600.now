@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the measurement method described",
-      "content": "The passage explicitly states that researchers measured surprise based on the cats' ear and head movements while the cats heard recordings of their owners' voices from two speakers spaced far apart. This directly answers the question about how they determined the level of surprise."
+      "title": "Find the measurement method",
+      "content": "The text states that Kato and colleagues measured the cats' surprise based on their ear and head movements while recordings of their owners' voices were played from two speakers."
     },
     {
-      "title": "Match the method to the choices",
-      "content": "Choice A — “They watched how each cat moved its ears and head.” — directly reflects this measurement method.<br/><br/>The other three either reference strangers, describe physical interaction, or mention general room movement — none of which match the passage's description.<br/><br/>That is the correct answer."
+      "title": "Match the described observation",
+      "content": "Choice B mentions a stranger's voice, but the study used owners' voices. Choice C invents physical interaction with owners, and choice D changes the measurement to movement around the room. The remaining choice directly states that the researchers watched the cats' ears and heads move. The answer is <strong>A</strong>."
     }
   ]
 }

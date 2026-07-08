@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the real-square rule",
-      "content": "For any real number $x$, $x^2$ is never negative. The smallest possible value of $x^2$ is $0$."
+      "title": "Use the square rule",
+      "content": "For any real number $x$, the square $x^2$ cannot be negative. The smallest possible value of $x^2$ is $0$."
     },
     {
-      "title": "Apply it to the equation",
-      "content": "The equation asks for $$x^2=-784$$ but $-784$ is negative. Therefore, no real value of $x$ can satisfy the equation."
+      "title": "Apply the rule",
+      "content": "The equation requires:<br/>$$x^2=-784$$<br/>Since $-784$ is negative, there are no real solutions."
     },
     {
-      "title": "Check the choices",
-      "content": "There are zero distinct real solutions, so choice D (&lsquo;Zero&rsquo;) is correct. There would be two real solutions for $x^2=784$, but the negative right side changes the result."
+      "title": "Choose the count",
+      "content": "The number of distinct real solutions is zero. The answer is <strong>D</strong>."
     }
   ]
 }

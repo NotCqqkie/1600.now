@@ -1,0 +1,15 @@
+{
+  "questionId": "54a59347",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply each pair of terms",
+      "content": "Distribute each term in the first factor across the second factor:<br/>$$w(4w)=4w^2$$<br/>$$w(-9)=-9w$$<br/>$$6(4w)=24w$$<br/>$$6(-9)=-54$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "The middle terms are the only like terms, so combine them:<br/>$$-9w+24w=15w$$<br/>Keep the first and last terms from the distribution:<br/>$$4w^2+15w-54$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

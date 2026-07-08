@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use weighted means",
-      "content": "For a frequency table, the mean is the weighted sum divided by the total frequency: $$\\text{mean}=\\frac{\\sum(\\text{value})(\\text{frequency})}{\\sum\\text{frequency}}.$$ Since all four choices use the same values $68$, $78$, $88$, and $98$, compare their weighted means."
+      "content": "For a frequency table, multiply each value by its frequency, add the products, and divide by the total frequency. The balanced tables have means at the midpoint between $78$ and $88$, which is $83$."
     },
     {
-      "title": "Compare the four weighted means",
-      "content": "The correct answer gives $$\\frac{68(5)+78(6)+88(7)+98(8)}{5+6+7+8}=\\frac{2208}{26}\\approx84.92.$$ The other choices each give $83$ because their frequencies are balanced around the midpoint between $78$ and $88$. The greatest mean is therefore <strong>A</strong>."
+      "title": "Compare the unbalanced table",
+      "content": "For the remaining table,\n$$\n\\frac{68(5)+78(6)+88(7)+98(8)}{5+6+7+8}=\\frac{2{,}208}{26}\n$$\nThis is about $84.92$. Since $84.92>83$, that data set has the greatest mean. The answer is <strong>A</strong>."
     }
   ]
 }

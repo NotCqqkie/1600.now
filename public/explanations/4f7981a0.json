@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Scale the given expression",
-      "content": "The target expression $12x+9$ is exactly $3$ times the given expression $4x+3$: $$12x+9=3(4x+3).$$"
+      "content": "The target expression is $3$ times the given expression.\n$$12x+9=3(4x+3)$$"
     },
     {
-      "title": "Substitute the known value",
-      "content": "Since $4x+3=11$, multiply by $3$: $$12x+9=3(11)=33.$$ The answer is <strong>33</strong>."
-    },
-    {
-      "title": "Avoid extra work",
-      "content": "Solving for $x$ first also works, but this scaling shortcut goes straight from the given expression to the requested expression."
+      "title": "Use the known value",
+      "content": "Substitute $4x+3=11$.\n$$3(4x+3)=3(11)=33$$\nThe answer is <strong>33</strong>."
     }
   ]
 }

@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $5x^{-1}y^2$."
+      "title": "Simplify the radical",
+      "content": "Take the square root of each factor in the numerator. The square root of $25$ is $5$, the square root of $x^8$ is $x^4$, and the square root of $y^4$ is $y^2$.<br/>$$\\sqrt{25x^8y^4}=5x^4y^2$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Simplify the expression",
-      "content": "Simplify $\\frac{\\sqrt{25x^8y^4}}{x^5}$ by taking the square root of the numerator: $\\sqrt{25x^8y^4} = 5x^4y^2$. Then divide by $x^5$: $\\frac{5x^4y^2}{x^5} = 5x^{-1}y^2$."
-    },
-    {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $x^4y^2$</strong>: The exponent on $x$ is $+4$, but after dividing $x^4$ by $x^5$ we get $x^{-1}$, not $x^4$. Incorrect.</li><li><strong>Choice B &mdash; $xy^2$</strong>: The exponent on $x$ is $+1$, same error as A &mdash; ignores the division by $x^5$. Incorrect.</li><li><strong>Choice C &mdash; $x^{-3}y$</strong>: Both exponents are wrong: $y$ should be $y^2$ (not $y$), and $x^{-3}$ would come from taking the square root of $x^8$ twice instead of once. Incorrect.</li><li><strong>Choice D &mdash; $5x^{-1}y^2$</strong>: Matches $5x^{-1}y^2$ exactly, including the coefficient 5. Correct.</li></ul><strong>D</strong> is correct."
+      "title": "Divide the powers of x",
+      "content": "Now divide by $x^5$. When powers with the same base are divided, subtract the exponents on that base.<br/>$$\\frac{5x^4y^2}{x^5}=5x^{4-5}y^2=5x^{-1}y^2$$<br/>The expression keeps the coefficient $5$ and the factor $y^2$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "549a15ea",
+  "correctAnswer": "-30",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the circle equation",
+      "content": "A circle with center $(-3,5)$ and radius $8$ has equation\n$$\n(x+3)^2+(y-5)^2=8^2\n$$\n$$\n(x+3)^2+(y-5)^2=64\n$$"
+    },
+    {
+      "title": "Expand the standard form",
+      "content": "Expand the squared binomials and combine constants.\n$$\nx^2+6x+9+y^2-10y+25=64\n$$\n$$\nx^2+y^2+6x-10y+34=64\n$$"
+    },
+    {
+      "title": "Match the general form",
+      "content": "Move all terms to the left side to match the requested form.\n$$\nx^2+y^2+6x-10y+34-64=0\n$$\n$$\nx^2+y^2+6x-10y-30=0\n$$\nThe answer is <strong>-30</strong>."
+    }
+  ]
+}

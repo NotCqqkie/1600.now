@@ -1,0 +1,15 @@
+{
+  "questionId": "98dfd384",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the insects column",
+      "content": "The conclusion is that Poland reported more damaging insect species than either other country. The supporting evidence must compare the numbers in the Insects column, not the Trees or Fungi columns. That means the evidence has to name Poland's insect count and compare it with both Italy's and Finland's insect counts."
+    },
+    {
+      "title": "Compare Poland with both countries",
+      "content": "Choice A mixes fungi and insects instead of directly supporting the insect conclusion. Choice C discusses fungi only. Choice D uses 14 and 6, which are tree counts for Italy and Finland, not insect counts. Poland's insect count, 105, exceeds both countries' insect counts, so it directly supports the researchers' conclusion. The answer is <strong>B</strong>."
+    }
+  ]
+}

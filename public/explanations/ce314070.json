@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Notice the target expression",
-      "content": "The target is $14x-1$, which is exactly $2$ times the left side of the given equation $7x-\\frac{1}{2}=-8$."
+      "title": "Match the target expression",
+      "content": "The target expression $14x-1$ is exactly twice the left side of the given equation:\n$$\n2(7x-\\frac{1}{2})=14x-1\n$$"
     },
     {
-      "title": "Multiply the whole equation by $2$",
-      "content": "$$2\\left(7x-\\frac{1}{2}\\right)=2(-8) \\quad \\Rightarrow \\quad 14x-1=-16.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The result is $-16$, so <strong>D</strong> is correct. This shortcut avoids solving for $x$ separately; the requested expression is directly produced by doubling the equation."
+      "title": "Double the whole equation",
+      "content": "Multiply both sides by $2$:\n$$\n2(7x-\\frac{1}{2})=2(-8)\n$$\n$$\n14x-1=-16\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

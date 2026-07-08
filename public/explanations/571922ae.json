@@ -1,0 +1,15 @@
+{
+  "questionId": "571922ae",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect appearance to naming",
+      "content": "The first sentence says the volcanoes look like shields lying flat. The next sentence says scientists classify this type as shield volcanoes, so the transition should show that the name is appropriate for the appearance."
+    },
+    {
+      "title": "Reject contrast and list signals",
+      "content": "Choice A suggests contrast, but the classification fits the description. Choice B adds a separate point instead of linking the name to the shape. Choice C implies a numbered sequence, and no first item appears. The answer is <strong>D</strong>."
+    }
+  ]
+}

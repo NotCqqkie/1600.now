@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the recurring pattern",
-      "content": "The sentence after the blank says that &quot;as decades passed, new calculations would reveal increasingly precise coordinates, yet the prime meridian remained unchanged.&quot; The habitual phrase &quot;would reveal&quot; signals a repeated cycle: new data appeared, the official meridian stayed put, and that loop ran for decades until the 1980s finally broke it."
+      "title": "Notice repeated recalculation",
+      "content": "The sentence after the blank says that as decades passed, new calculations revealed increasingly precise coordinates while the prime meridian stayed unchanged. The transition must capture that repeated pattern across time."
     },
     {
-      "title": "Pick the transition that captures repetition",
-      "content": "The needed transition marks that recurring, again-and-again quality of new calculations being produced without prompting change."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Specifically,</strong>: signals a single concrete example of the prior idea, but the blank introduces a long-running pattern, not a specification. &#10007;</li><li><strong>Choice B &mdash; To that end,</strong>: signals purposeful action toward a goal, but no goal from the prior sentence is being pursued. &#10007;</li><li><strong>Choice C &mdash; Again and again,</strong>: directly names the recurring nature of the new calculations across decades. &#10003;</li><li><strong>Choice D &mdash; Granted,</strong>: concedes a counterpoint, but the blank introduces continuation, not concession. &#10007;</li></ul>That matches <strong>Choice C &mdash; Again and again,</strong>."
+      "title": "Reject mismatched transitions",
+      "content": "Choice A signals a specific example, but the sentence describes a recurring pattern. Choice B signals purposeful action toward a goal, which is not present. Choice D signals concession, but the sentence continues the historical pattern. The answer is <strong>C</strong>."
     }
   ]
 }

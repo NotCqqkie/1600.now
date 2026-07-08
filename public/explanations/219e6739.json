@@ -1,0 +1,15 @@
+{
+  "questionId": "219e6739",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the hourly fee",
+      "content": "The first $2$ hours cost $180$. A $7$-hour repair costs $455$, so the additional $5$ hours cost\n$$\n455-180=275\n$$\nThe hourly fee after the first two hours is\n$$\n\\frac{275}{5}=55\n$$"
+    },
+    {
+      "title": "Build the cost function",
+      "content": "For $x\\geq 2$, the cost is $180$ plus $55$ for each hour beyond the first $2$ hours:\n$$\nf(x)=180+55(x-2)=55x+70\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

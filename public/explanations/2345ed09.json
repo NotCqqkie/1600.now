@@ -1,0 +1,19 @@
+{
+  "questionId": "2345ed09",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare reward and risk",
+      "content": "The passage explains Arizona pocket mice through a cost-benefit tradeoff. Bright moonlight may make foraging easier, but it also makes the mice more visible to owls or hawks. For them, the added food benefit may not be large enough to outweigh the added danger."
+    },
+    {
+      "title": "Apply the monkey detail",
+      "content": "Azara's night monkeys show the opposite pattern because they rely heavily on visual foraging. More moonlight helps that kind of foraging, so the benefit side of the tradeoff is stronger for the monkeys than it is for the pocket mice."
+    },
+    {
+      "title": "Select the balanced claim",
+      "content": "<ul><li><strong>Choice A</strong>: Says predator detection declines for night monkeys, but the passage does not say their risk drops.</li><li><strong>Choice B</strong>: Says both risks and rewards are greater for night monkeys, but the passage is about the balance between costs and benefits, not absolute levels.</li><li><strong>Choice C</strong>: States that costs are lower relative to benefits for night monkeys than for pocket mice, which matches the different reward-risk balance.</li><li><strong>Choice D</strong>: Says moonlight reduces the monkeys' foraging success, contradicting their reliance on visual foraging.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

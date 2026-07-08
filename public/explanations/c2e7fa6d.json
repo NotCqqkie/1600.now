@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Scale rule: area scales as k²",
-      "content": "The larger square's side is $3$ times the smaller square's side, so $k = 3$. Area scales as $k^2 = 9$. The smaller square has area $1$ unit, the larger has area $9$ units, giving a total of $10$ units."
+      "title": "Compare the areas",
+      "content": "The larger square has side length $3$ times the smaller square's side length. Areas scale by the square of the side-length factor.\n$$3^2=9$$\nSo the larger square has $9$ parts of area for every $1$ part from the smaller square."
     },
     {
-      "title": "Find the fraction for the larger square",
-      "content": "The larger square is $\\frac{9}{10}$ of the total area. Since flux is proportional to area (uniform field, perpendicular surface), flux through larger square $= \\frac{9}{10} \\times 4{,}960 = 4{,}464$ volts·meters. That matches the answer — <strong>4464</strong> is correct."
+      "title": "Use the flux fraction",
+      "content": "The larger square is $$\\frac{9}{10}$$ of the total area. Since the field is uniform and perpendicular to the surface, the larger square gets $$\\frac{9}{10}$$ of the total flux.\n$$\\frac{9}{10}(4{,}960)=4{,}464$$\nThe answer is <strong>4464</strong>."
     }
   ]
 }

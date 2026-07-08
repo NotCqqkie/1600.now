@@ -1,0 +1,19 @@
+{
+  "questionId": "3703bf08",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "An increase of $40\\%$ means the new number of views is $100\\%+40\\%=140\\%$ of the previous number. The growth factor for each period is $1.40$."
+    },
+    {
+      "title": "Count the growth periods",
+      "content": "The number of views changes once every $3$ days. After $x$ days, the number of complete model periods is\n$$\n\\frac{x}{3}\n$$"
+    },
+    {
+      "title": "Build the model",
+      "content": "Start with $245$ views and multiply by $1.40$ once for each $3$-day period:\n$$\nf(x)=245(1.40)^{\\frac{x}{3}}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

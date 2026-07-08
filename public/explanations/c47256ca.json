@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the conversion needed",
-      "content": "The cart's speed is given as 72 yards per second, but we need to express it in feet per second. The conversion factor provided is 1 yard = 3 feet."
+      "title": "Use the yard conversion",
+      "content": "Each yard is $3$ feet, so multiply the number of yards per second by $3$."
     },
     {
-      "title": "Convert yards per second to feet per second",
-      "content": "To convert yards to feet, multiply the speed by the conversion factor:<br/>$$72 \\text{ yards/s} \\times 3 \\text{ feet/yard} = 216 \\text{ feet/s}$$<br/>That matches choice D, so D is the correct answer."
+      "title": "Convert the speed",
+      "content": "Compute the feet per second:<br/>$$72(3)=216$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

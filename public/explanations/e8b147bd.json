@@ -1,0 +1,19 @@
+{
+  "questionId": "e8b147bd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate fixed and extra cost",
+      "content": "The first $3$ hours cost $880$ dollars. Since the rental lasts $t$ hours and $t>3$, the number of additional hours is $t-3$."
+    },
+    {
+      "title": "Write the total cost",
+      "content": "The extra cost is $60(t-3)$ dollars, so the total cost is<br/>$$880+60(t-3)$$"
+    },
+    {
+      "title": "Set the total equal",
+      "content": "The total cost is $1{,}120$ dollars, so the equation is<br/>$$880+60(t-3)=1{,}120$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

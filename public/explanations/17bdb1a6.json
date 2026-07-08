@@ -1,0 +1,15 @@
+{
+  "questionId": "17bdb1a6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the krill amounts",
+      "content": "The passage gives two concrete daily-consumption examples. A pygmy right whale weighing 3,500 kg could eat 1,050 kg of krill in one day. A bowhead whale weighing 66,000 kg could eat 19,800 kg of krill in one day. The conclusion should follow directly from those numbers."
+    },
+    {
+      "title": "Use the larger amount",
+      "content": "Because 19,800 kg is much greater than 1,050 kg, the bowhead whale example shows a higher possible daily krill intake than the pygmy right whale example. Choice A invents opposite trends over time. Choice C incorrectly treats phytoplankton as whale food. Choice D invents an iron-level cause for whale population decline that the text never states. The answer is <strong>B</strong>."
+    }
+  ]
+}

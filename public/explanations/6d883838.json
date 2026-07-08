@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "Transition question. The first sentence describes majoritarian elections producing two-party systems; the second describes proportional-representation systems producing multi-partyism. The two electoral systems yield opposite outcomes, so the transition must signal contrast."
+      "title": "Identify the opposite outcomes",
+      "content": "The first sentence says single-ballot majoritarian systems tend to produce two-party systems. The next sentence says proportional-representation systems tend to support many parties, so the transition should mark an opposite relationship."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Subsequently,&rsquo;</strong>: signals time sequence/causation (one event following another). The two sentences describe parallel-existing systems, not a sequence of events. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Conversely,&rsquo;</strong>: signals direct contrast between two opposing situations &mdash; exactly the relationship between majoritarian two-party outcomes and PR multi-party outcomes. &#10003;</li><li><strong>Choice C &mdash; &lsquo;For instance,&rsquo;</strong>: signals exemplification. The second sentence is not an example of the first; it describes a different electoral system with a different result. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In other words,&rsquo;</strong>: signals restatement of the same idea. The second sentence introduces a contrasting system, not a paraphrase. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject sequence and restatement",
+      "content": "Choice A suggests one event happens afterward, but the systems are being compared. Choice C would introduce an example of the first sentence, not an opposite system. Choice D would restate the same idea, which the second sentence does not do. The answer is <strong>B</strong>."
     }
   ]
 }

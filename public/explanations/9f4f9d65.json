@@ -1,0 +1,15 @@
+{
+  "questionId": "9f4f9d65",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the boundary line",
+      "content": "The boundary of the shaded region is\n$$rx+ty=-77$$\nTwo clear points on that boundary are $(0,-11)$ and $(-7,-10)$."
+    },
+    {
+      "title": "Find the constants",
+      "content": "Substitute $(0,-11)$:\n$$0r-11t=-77$$\n$$t=7$$\nSubstitute $(-7,-10)$:\n$$-7r-10(7)=-77$$\n$$-7r-70=-77$$\n$$r=1$$\nSo\n$$r+t=1+7=8$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4695f668",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find circle R area",
+      "content": "Circle R has radius $8$ millimeters, so use the area formula $A=\\pi r^2$.<br/>$$A=\\pi(8)^2=64\\pi$$"
+    },
+    {
+      "title": "Add the two areas",
+      "content": "Circle S has area $36\\pi$ square millimeters. Add the areas of the two circles.<br/>$$64\\pi+36\\pi=100\\pi$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

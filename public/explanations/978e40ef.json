@@ -1,0 +1,19 @@
+{
+  "questionId": "978e40ef",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent",
+      "content": "The statement says $x$ is $37\\%$ of $y$. Write $37\\%$ as a fraction.\n$$\nx=\\frac{37}{100}y\n$$"
+    },
+    {
+      "title": "Isolate the requested variable",
+      "content": "The question asks for $y$ in terms of $x$, so multiply both sides by \n$$\n\\frac{100}{37}\n$$\n$$\n\\frac{100}{37}x=y\n$$\n$$\ny=\\frac{100}{37}x\n$$"
+    },
+    {
+      "title": "Choose the matching expression",
+      "content": "Choice B is too small by a factor of $10$, Choice C omits the factor of $100$, and Choice D uses the unused complement. The expression that gives $y$ in terms of $x$ is \n$$\n\\frac{100}{37}x\n$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

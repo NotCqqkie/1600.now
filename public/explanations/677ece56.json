@@ -1,0 +1,19 @@
+{
+  "questionId": "677ece56",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the height",
+      "content": "Let the radius be $r$. The height is $8$ inches longer, so the height is $r+8$."
+    },
+    {
+      "title": "Use surface area",
+      "content": "The surface area of a closed right circular cylinder is\n$$\n2\\pi r^2+2\\pi rh\n$$\nSubstitute $h=r+8$ and set the result equal to the given surface area:\n$$\n2\\pi r^2+2\\pi r(r+8)=1{,}008\\pi\n$$"
+    },
+    {
+      "title": "Find the radius",
+      "content": "Divide by $2\\pi$, then solve:\n$$\nr^2+r(r+8)=504\n$$\n$$\n2r^2+8r=504\n$$\n$$\nr^2+4r=252\n$$\n$$\nr^2+4r-252=0\n$$\n$$\n(r+18)(r-14)=0\n$$\nThe positive radius is $14$. The answer is <strong>A</strong>."
+    }
+  ]
+}

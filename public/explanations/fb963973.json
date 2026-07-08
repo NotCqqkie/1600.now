@@ -1,0 +1,15 @@
+{
+  "questionId": "fb963973",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Multiply by acres",
+      "content": "The recommendation allows at most $84$ shrubs per acre. For $3$ acres, multiply by $3$.<br/>$$84\\cdot3=252$$"
+    },
+    {
+      "title": "Match the maximum",
+      "content": "The maximum number of shrubs is $252$. The answer is <strong>B</strong>."
+    }
+  ]
+}

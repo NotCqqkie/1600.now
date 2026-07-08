@@ -1,0 +1,15 @@
+{
+  "questionId": "0a75d799",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the side ratio",
+      "content": "For angle $X$, the opposite side is $222$ and the adjacent side is $296$. Tangent is opposite over adjacent."
+    },
+    {
+      "title": "Simplify the tangent",
+      "content": "Set up the ratio and reduce it.<br/>$$\\tan X=\\frac{222}{296}$$<br/>$$\\frac{222}{296}=\\frac{111}{148}=\\frac{3}{4}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

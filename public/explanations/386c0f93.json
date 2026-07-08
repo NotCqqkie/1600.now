@@ -1,0 +1,23 @@
+{
+  "questionId": "386c0f93",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the increasing function",
+      "content": "For $f(x)=16(1.25)^x+43$, the base $1.25$ is greater than $1$. On the domain $x\\ge0$, this function increases without bound, so it has no maximum value."
+    },
+    {
+      "title": "Check the decreasing function",
+      "content": "For $g(x)=6(0.75)^x$, the base $0.75$ is between $0$ and $1$. On the domain $x\\ge0$, the maximum occurs at $x=0$:\n$$\ng(0)=6(0.75)^0=6\n$$\nThat maximum is displayed as the coefficient.",
+      "desmosExpressions": [
+        "f(x) = 16(1.25)^{x} + 43",
+        "g(x) = 6(0.75)^{x}"
+      ]
+    },
+    {
+      "title": "Select the statement",
+      "content": "Only Function II displays its maximum value as a coefficient or constant. The answer is <strong>B</strong>."
+    }
+  ]
+}

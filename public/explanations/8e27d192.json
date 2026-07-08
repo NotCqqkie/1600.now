@@ -1,0 +1,15 @@
+{
+  "questionId": "8e27d192",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the clause boundary",
+      "content": "The first part says scholars dreamed about locating the lost work. The next part, \"That fantasy became reality in 2022,\" is a separate independent clause with its own subject and verb. The blank must create a strong sentence boundary."
+    },
+    {
+      "title": "Reject weak boundaries",
+      "content": "A uses only a comma, creating a comma splice. B uses \"and\" without the comma needed between independent clauses. C uses no punctuation, creating a fused sentence. A period cleanly separates the two complete sentences. The answer is <strong>D</strong>."
+    }
+  ]
+}

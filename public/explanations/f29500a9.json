@@ -1,0 +1,15 @@
+{
+  "questionId": "f29500a9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominators",
+      "content": "Start with the given equation.<br/>$$\\frac{x+7}{4}=\\frac{x+7}{16}$$<br/>Multiply both sides by $16$.<br/>$$4(x+7)=x+7$$"
+    },
+    {
+      "title": "Find the target value",
+      "content": "Subtract $x+7$ from both sides.<br/>$$3(x+7)=0$$<br/>$$x+7=0$$<br/>The value $0$ is between $-3$ and $3$. The answer is <strong>B</strong>."
+    }
+  ]
+}

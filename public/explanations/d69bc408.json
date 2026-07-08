@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace the text's two movements",
-      "content": "The passage opens with Charlot delivering Atlante's letter to Rinaldo using a split cane &mdash; a physical, mechanical act. It then shifts to Rinaldo's emotional reaction: he is \"transported with joy\" upon reading the letter. Any correct structure description must capture both parts in order."
+      "title": "Trace the two movements",
+      "content": "The passage first describes how Charlot delivers Atlante's letter to Rinaldo using a split cane. It then turns to Rinaldo's reaction when he reads the letter: he is overcome with joy."
     },
     {
-      "title": "Test each choice against the actual structure",
-      "content": "The correct choice must describe (1) the letter delivery, then (2) a character's happiness at reading it.\n<ul>\n<li><strong>\"It describes the delivery of a letter, and then portrays a character's happiness at reading that letter.\"</strong>: matches both movements exactly &mdash; the cane delivery, then Rinaldo's joy. &#10003;</li>\n<li><strong>\"It establishes that a character is desperate to receive a letter, and then explains why another character has not yet written that letter.\"</strong>: Rinaldo is melancholy, not desperate, and the letter has already been written; neither element appears in the text. &#10007;</li>\n<li><strong>\"It presents a character's concerns about delivering a letter, and then details the contents of that letter.\"</strong>: Charlot worries about the letter falling, but the text never reveals the letter's contents. &#10007;</li>\n<li><strong>\"It reveals the inspiration behind a character's letter, and then emphasizes the excitement that another character feels upon receiving that letter.\"</strong>: Atlante's inspiration for writing is never discussed; the text begins with the delivery, not the motivation. &#10007;</li>\n</ul>\nThat matches the correct answer — <strong>A</strong> is correct."
+      "title": "Match delivery then joy",
+      "content": "Choice B invents an unwritten letter. Choice C says the letter's contents are detailed, but they are not. Choice D invents Atlante's inspiration for writing. The structure is letter delivery followed by Rinaldo's happiness while reading it. The answer is <strong>A</strong>."
     }
   ]
 }

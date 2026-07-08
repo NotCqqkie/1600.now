@@ -1,0 +1,15 @@
+{
+  "questionId": "827db34c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the however shift",
+      "content": "The passage begins with a study about ocean acidification and fish behavior, then shifts with <em>However</em> to a limitation: a mean sample size of only about 28 fish."
+    },
+    {
+      "title": "Name the central concern",
+      "content": "Choice B discusses evolution, Choice C misplaces the behavior finding in 2022, and Choice D concerns the cause of ocean acidification. The passage centers on how the study's small sample size may have produced biased or exaggerated results. The answer is <strong>A</strong>."
+    }
+  ]
+}

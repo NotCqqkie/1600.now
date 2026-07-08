@@ -1,0 +1,19 @@
+{
+  "questionId": "288d3dc5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the two requirements",
+      "content": "The student needs to explain whom the A.M. Turing Award is named for and identify one recipient. The notes name Alan Turing as the namesake and Judea Pearl as a 2011 recipient."
+    },
+    {
+      "title": "Reject missing information",
+      "content": "Choice A gives the award's purpose but not the namesake or recipient. Choice C names a recipient and purpose but not the namesake. Choice D names only a recipient and year."
+    },
+    {
+      "title": "Choose namesake and recipient",
+      "content": "The sentence that names Alan Turing and Judea Pearl satisfies both parts of the student's goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "ff4ccb3c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find evidence for Kline",
+      "content": "The student needs to support Maya Kline's claim that Louis Ballard's compositions rely on elements originating within Native musical traditions. The strongest choice should do more than repeat Kline's claim. It should use a note that gives concrete evidence of a Ballard composition incorporating a Native musical element."
+    },
+    {
+      "title": "Reject weak uses of notes",
+      "content": "Choice A mentions Kline and <em>Desert Trilogy</em>, but it mainly restates the claim without evidence from a composition. Choice C identifies Ballard as a classical composer and mentions a Pulitzer nomination, but it does not address Native musical traditions. Choice D also restates Kline's claim and adds the Pulitzer detail, which does not show that a composition uses a Native musical element."
+    },
+    {
+      "title": "Use the concrete example",
+      "content": "Choice B connects Kline's claim to <em>Washington Festival Suite</em>, which incorporates a Pueblo log drum. Because the notes identify the Pueblo log drum as a traditional Native instrument, this choice gives direct evidence that one of Ballard's compositions uses an element originating within Native musical traditions. The answer is <strong>B</strong>."
+    }
+  ]
+}

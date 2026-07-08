@@ -1,0 +1,19 @@
+{
+  "questionId": "1dcb3431",
+  "correctAnswer": "216",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "A quadratic with vertex $(5,-4)$ can be written as\n$$\nf(x)=A(x-5)^2-4\n$$\nUse the point $(4,-6)$ to find $A$:\n$$\n-6=A(4-5)^2-4\n$$\nso $A=-2$."
+    },
+    {
+      "title": "Find the first intercept",
+      "content": "The $y$-intercept of $y=f(x)$ occurs when $x=0$:\n$$\na=f(0)=-2(0-5)^2-4\n$$\n$$\na=-2(25)-4\n$$\n$$\na=-54\n$$"
+    },
+    {
+      "title": "Compare the intercepts",
+      "content": "The graph of $y=5\\cdot f(x)$ has $y$-intercept\n$$\nb=5f(0)=5(-54)=-270\n$$\nThe positive difference is\n$$\n|-270-(-54)|=216\n$$\nThe answer is <strong>216</strong>."
+    }
+  ]
+}

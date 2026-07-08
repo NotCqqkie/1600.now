@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the target: 1/3 of total females",
-      "content": "From the table, the total number of female penguins is 180. One-third of this population is: $$\\frac{1}{3} \\times 180 = 60$$"
+      "title": "Find one third of females",
+      "content": "The table shows $180$ female penguins total. One third of that total is<br/>$$\\frac{1}{3}\\cdot180=60$$"
     },
     {
-      "title": "Compare each type's female count to the target",
-      "content": "Check which penguin type's female population is closest to 60: <ul><li>Chinstrap: 59 females (difference = 1)</li><li>Emperor: 27 females (difference = 33)</li><li>Gentoo: 54 females (difference = 6)</li><li>Macaroni: 40 females (difference = 20)</li></ul> Chinstrap's female population of 59 is closest to the target of 60, with the smallest distance of just 1. That is the correct answer."
+      "title": "Compare female counts",
+      "content": "The female counts are $59$, $27$, $54$, and $40$. Their distances from $60$ are $1$, $33$, $6$, and $20$, respectively. The closest count is $59$, for chinstrap penguins. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence reads: \"a cultural studies analysis ______ on the intersection of literature and popular culture might yield a radically different interpretation.\" The main verb is \"might yield\" &mdash; the blank must modify \"analysis\" without adding a second competing verb."
+      "title": "Avoid a second main verb",
+      "content": "The sentence's main verb is might yield. The blank must describe the cultural studies analysis without adding another finite verb that competes with that main verb."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"would focus\"</strong>: Creates a second finite verb (\"would focus\") with no conjunction joining it to \"might yield,\" making the sentence ungrammatical. &#10007;</li><li><strong>\"would be focusing\"</strong>: Same problem &mdash; another finite verb phrase competing with \"might yield.\" &#10007;</li><li><strong>\"focusing\"</strong>: A participial phrase that modifies \"analysis\" without adding a second main verb. The sentence reads smoothly: \"a cultural studies analysis focusing on the intersection... might yield...\" &#10003;</li><li><strong>\"focuses\"</strong>: A third-person singular verb that again competes with \"might yield\" as a main verb. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use a modifier instead",
+      "content": "<ul><li><strong>Choice A</strong>: Adds would focus as a second finite verb.</li><li><strong>Choice B</strong>: Adds would be focusing as another finite verb phrase.</li><li><strong>Choice C</strong>: Uses a participial phrase that modifies analysis.</li><li><strong>Choice D</strong>: Adds focuses as a second main verb.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

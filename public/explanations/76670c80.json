@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the square perimeter formula",
-      "content": "A square has four equal sides, so its perimeter is $P=4s$, where $s$ is the side length."
+      "title": "Use four equal sides",
+      "content": "A square has $4$ equal sides, so its perimeter is $4$ times one side length."
     },
     {
-      "title": "Identify the perimeter formula for a square",
-      "content": "The perimeter of a square is the sum of all four sides. Since all sides of a square are equal, the formula is:<br/>$$P = 4s$$<br/>where $s$ is the side length."
-    },
-    {
-      "title": "Substitute the given side length and calculate",
-      "content": "Substitute $s = 38$ into the formula:<br/>$$P = 4(38) = 152$$<br/>The perimeter is 152."
+      "title": "Multiply by the side length",
+      "content": "Each side has length $38$, so multiply by $4$.<br/>$$4\\cdot38=152$$<br/>The answer is <strong>152</strong>."
     }
   ]
 }

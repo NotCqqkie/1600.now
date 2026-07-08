@@ -1,0 +1,15 @@
+{
+  "questionId": "cd594844",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the probability evidence",
+      "content": "The passage compares swap-line probabilities: 0.20 for countries open to foreign-capital inflows and 0.03 for countries with restrictive policies. That gap shows the policy environment was meaningfully relevant to swap-line decisions."
+    },
+    {
+      "title": "Avoid overstating the link",
+      "content": "Choice B would mean decisions were based entirely on policy environment, which the probabilities do not show. Choice C says the decisions were unrelated to policy, the opposite of the data. Choice D implies an intermediary not mentioned. The remaining phrase means significant to. The answer is <strong>A</strong>."
+    }
+  ]
+}

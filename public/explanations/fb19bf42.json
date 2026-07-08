@@ -1,0 +1,15 @@
+{
+  "questionId": "fb19bf42",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the passage structure",
+      "content": "The text opens by asking what a city is, then says the answer varies by country. The examples of Albania, Greece, and building-count definitions explain why the same question has multiple answers."
+    },
+    {
+      "title": "Reject unsupported structures",
+      "content": "A is about city counts, C invents two locations with only one city, and D invents a recommendation. The structure is a question followed by an explanation of varied answers. The answer is <strong>B</strong>."
+    }
+  ]
+}

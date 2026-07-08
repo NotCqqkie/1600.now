@@ -1,0 +1,15 @@
+{
+  "questionId": "66d493e9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the process",
+      "content": "The student's goal is to describe how relief printing works. The relevant notes give the sequence: an image is carved into a block, the block is painted, and then the block is pressed onto a print surface."
+    },
+    {
+      "title": "Reject incomplete summaries",
+      "content": "A lists possible block materials without giving the steps. B mentions only lino cutting and one carving step. C names Benton's artwork but does not explain the technique. The option that gives the full carve, paint, and press sequence best fulfills the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}
