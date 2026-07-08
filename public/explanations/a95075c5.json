@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the direction of the comparison",
-      "content": "Comparing the placebo-aware group to the control group for each measure:<br/>Global improvement: 5.0 vs 3.9<br/>Symptom severity reduction: 92.00 vs 46.00<br/>Quality of life improvement: 11.4 vs 5.4<br/><br/>All three measures are higher for the placebo-aware group — a consistent upward pattern across all measures."
+      "title": "Compare all measures",
+      "content": "The placebo-aware group has higher mean ratings than the control group on all three measures: 5.0 vs. 3.9, 92.00 vs. 46.00, and 11.4 vs. 5.4. The passage says higher ratings indicate greater well-being."
     },
     {
-      "title": "Match the pattern to the answer",
-      "content": "The correct answer states the ratings “were higher for all three measures,” which is exactly what the comparison shows.<br/><br/>Since the passage defines higher ratings as greater well-being, this choice correctly indicates greater overall well-being.<br/><br/>The other choices either reverse the direction, cite wrong numbers, or avoid comparison.<br/><br/>That is the correct answer."
+      "title": "Reject partial readings",
+      "content": "Choice A lists a range without comparing groups. Choice B says two measures were lower, reversing the data. Choice C gives the control group's lower values and denies greater well-being. The remaining choice captures the all-three-measures pattern. The answer is <strong>D</strong>."
     }
   ]
 }

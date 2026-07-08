@@ -1,0 +1,15 @@
+{
+  "questionId": "d77f6341",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed boundary",
+      "content": "The first clause is complete once the unusual orange sand <em>dazzles visitors</em>. The next idea begins with a dependent <em>When</em> clause and then explains that taking sand home disturbs the ecosystem."
+    },
+    {
+      "title": "Reject fused continuations",
+      "content": "Choice A and choice C blur the boundary between the dazzling sand and the later consequence of visitors taking sand. Choice B creates faulty coordination with <em>and when</em>. A period after <em>visitors</em> cleanly separates the two sentence units. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Transitions question. The previous sentence establishes that <em>not all</em> conifers are evergreen. The blank sentence must introduce larch trees as a specific case supporting that claim, so the transition must signal <strong>example</strong>, not contrast, addition, or simultaneity."
+      "title": "Classify the next sentence",
+      "content": "The previous sentence says not all conifers are evergreen. The sentence about larch trees losing their needles every fall gives a specific example of that exception."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; for instance,</strong>: signals that the sentence is an example of the preceding claim. Larch trees exemplify the non-evergreen conifers just mentioned. &#10003;</li><li><strong>Choice B &mdash; nevertheless,</strong>: signals concession or contrast&mdash;that the new information is true <em>despite</em> the previous claim. Larch trees support the claim, not contradict it. &#10007;</li><li><strong>Choice C &mdash; meanwhile,</strong>: signals that two things are happening simultaneously or in parallel. No parallel timeline exists here; the larch sentence illustrates the claim. &#10007;</li><li><strong>Choice D &mdash; in addition,</strong>: signals a new, separate fact being added. Larch trees are not an additional fact; they are a specific instance of the exception already stated. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Use an example transition",
+      "content": "The transition must signal that larch trees illustrate the preceding claim. B would signal contrast, C would suggest simultaneous or parallel action, and D would present a merely additional fact instead of an example. The answer is <strong>A</strong>."
     }
   ]
 }

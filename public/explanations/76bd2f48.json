@@ -1,0 +1,15 @@
+{
+  "questionId": "76bd2f48",
+  "correctAnswer": "12150",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use quadratic scaling",
+      "content": "The model $y=900ax^2$ shows that breaking strength is proportional to $x^2$. The circumference changes from $1.50$ to $3.00$, which is a factor of $2$."
+    },
+    {
+      "title": "Square the scale factor",
+      "content": "Because the strength depends on $x^2$, doubling $x$ multiplies the strength by $2^2=4$.<br/>$$3{,}037.5\\cdot 4=12{,}150$$<br/>The answer is <strong>12150</strong>."
+    }
+  ]
+}

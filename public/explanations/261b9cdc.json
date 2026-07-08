@@ -1,0 +1,19 @@
+{
+  "questionId": "261b9cdc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the mean",
+      "content": "Every value in data set F is between $120$ and $230$. Adding $15$, which is below every original value, must pull the mean down. Statement I must be true."
+    },
+    {
+      "title": "Check the median",
+      "content": "Data set F has $57$ values, so its median is the $29$th value. After adding $15$, data set G has $58$ values, and its median is the average of the old $28$th and $29$th values. If those two values are equal, the median does not decrease. Statement II is not guaranteed."
+    },
+    {
+      "title": "Select the true statement",
+      "content": "Only Statement I must be less for data set G than for data set F. The answer is <strong>A</strong>."
+    }
+  ]
+}

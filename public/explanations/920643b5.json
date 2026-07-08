@@ -1,0 +1,15 @@
+{
+  "questionId": "920643b5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the process",
+      "content": "The first sentence describes the voting step in Norway's proportional representation system. The next sentence describes what happens after the votes have been counted, so the transition must show sequence."
+    },
+    {
+      "title": "Choose the sequence signal",
+      "content": "A and D suggest contrast, but the second sentence continues the process. C would restate the previous idea, while this sentence gives the next stage. The answer is <strong>B</strong>."
+    }
+  ]
+}

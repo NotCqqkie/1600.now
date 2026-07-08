@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the two given values",
-      "content": "The function has the form $f(x)=ax+b$ and passes through $(1,-64)$ and $(2,0)$. The slope is $$a=\\frac{0-(-64)}{2-1}=64.$$"
+      "title": "Find the slope",
+      "content": "Use the two table points $(1,-64)$ and $(2,0)$. For $f(x)=ax+b$, the constant $a$ is the slope:\n$$\na=\\frac{0-(-64)}{2-1}=64\n$$"
     },
     {
-      "title": "Solve for b and answer",
-      "content": "Substitute $(2,0)$ into $f(x)=64x+b$: $$0=64(2)+b,$$ so $b=-128$. Therefore $$a-b=64-(-128)=192.$$ <strong>D</strong> is correct. This also checks the two original values: $64(1)-128=-64$ and $64(2)-128=0$."
+      "title": "Find the intercept",
+      "content": "Substitute $(2,0)$ into $f(x)=64x+b$:\n$$\n0=64(2)+b\n$$\n$$\nb=-128\n$$"
+    },
+    {
+      "title": "Compute the requested value",
+      "content": "Now subtract $b$ from $a$:\n$$\na-b=64-(-128)=192\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "37f646d8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Set up the needed contrast",
+      "content": "The goal is to contrast two words that represent the same sound. A valid contrast requires: (1) both words named, (2) both identified as representing the same sound, and (3) the difference between them shown — specifically that they are written and pronounced very differently."
+    },
+    {
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'The Thai word \"khrok fi\" and the Bengali word \"bhnosh\" are onomatopoeias that represent the sound of snoring.'</strong>: Names both words and the shared sound, but stops there. It states a similarity, not a contrast — no mention of how differently they are written or pronounced.</li><li><strong>Choice C — 'Onomatopoeias, words that imitate the sounds they represent, are often written and pronounced very differently from language to language.'</strong>: A general statement about onomatopoeias; doesn't name either specific word or pair them for contrast.</li><li><strong>Choice D — 'The Thai word \"khrok fi\" represents the sound of snoring and is an onomatopoeia.'</strong>: Mentions only one word and makes no contrast at all.</li></ul>"
+    },
+    {
+      "title": "Choose the sentence with contrast",
+      "content": "<ul><li><strong>Choice B — 'Though they both represent the sound of snoring, the onomatopoeias \"khrok fi\" (Thai) and \"bhnosh\" (Bengali) are written and pronounced very differently.'</strong>: \"Though\" signals contrast. It names both words, establishes the shared sound, and explicitly states they are written and pronounced very differently — hitting all three requirements.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

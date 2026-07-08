@@ -1,0 +1,15 @@
+{
+  "questionId": "3e1c5ba1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link claim and illustration",
+      "content": "The first sentence says some inherited traits can change because of different factors. The second sentence gives eye color changing with age as a specific case of that general point."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice B signals the last step in a sequence, but no sequence is underway. Choice C signals contrast, though the second sentence supports the first. Choice D moves away from the prior claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify slope and intercept",
-      "content": "$$f(x)=7x+6$$ <br/> The function is in slope-intercept form $y=mx+b$. The slope $m=7$ represents the estimated growth in feet per year. The y-intercept $b=6$ gives the height when $x=0$."
+      "title": "Identify the intercept",
+      "content": "The function $f(x)=7x+6$ is in the form $mx+b$. The constant $6$ is the value when $x=0$."
     },
     {
-      "title": "Find the initial height",
-      "content": "$$f(0)=7\\cdot0+6=6$$ <br/> When the tree was first measured ($x=0$), its estimated height is 6 feet. That is the correct answer."
+      "title": "Interpret the initial value",
+      "content": "Here, $x=0$ means when the tree's height was first measured:<br/>$$f(0)=7(0)+6=6$$<br/>So the tree was estimated to be $6$ feet tall then. The answer is <strong>D</strong>."
     }
   ]
 }

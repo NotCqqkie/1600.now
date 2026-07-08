@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute g(x) = 49 into the function definition",
-      "content": "Set up the equation by substituting into the function definition:<br/>$$x^2 + 13 = 49$$"
+      "title": "Set the function equal to the value",
+      "content": "The question asks when $g(x)=49$, so set the function expression equal to $49$.\n$$\nx^2+13=49\n$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Subtract 13 from both sides:<br/>$$x^2 = 36$$<br/>Taking the square root:<br/>$$x = \\pm 6$$<br/>The solutions are $x = 6$ and $x = -6$. Of these, only $x = 6$ appears in the choices. <strong>A</strong> is correct."
+      "title": "Solve the equation",
+      "content": "$$\nx^2=36\n$$\n$$\nx=\\pm 6\n$$"
+    },
+    {
+      "title": "Choose the listed value",
+      "content": "Only the positive value appears among the choices. The answer is <strong>A</strong>."
     }
   ]
 }

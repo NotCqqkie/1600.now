@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=-\\frac{1}{5}x$$<br/>$$y=\\frac{1}{7}x$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Set the equations equal",
+      "content": "Both equations are equal to $y$, so set their right sides equal:<br/><br/>$$-\\frac{1}{5}x=\\frac{1}{7}x$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Move all $x$-terms to one side:<br/><br/>$$-\\frac{1}{5}x-\\frac{1}{7}x=0$$<br/>$$(-\\frac{7}{35}-\\frac{5}{35})x=0$$<br/>$$-\\frac{12}{35}x=0$$<br/>$$x=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two lines and read the $x$-coordinate of their intersection. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=-\\frac{1}{5}x",
         "y=\\frac{1}{7}x"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $0$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

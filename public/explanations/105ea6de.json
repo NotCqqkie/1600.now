@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key assertion",
-      "content": "Text 1 warns that conjugation can turn harmless nanomaterials into dangerous ones."
+      "title": "Compare the two positions",
+      "content": "Text 1 warns that conjugation can make harmless nanomaterials form a risky nanohybrid. Text 2 accepts that enhanced toxicity deserves attention but says conjugation varies by case and gives an example where a nanohybrid reduced DNA-damage potential."
     },
     {
-      "title": "Apply Text 2's response",
-      "content": "Text 2 explicitly acknowledges the toxicity concern “has drawn deserved attention,” validating Text 1's warning.<br/><br/>But the example of silicon dioxide and zinc oxide—which actually reduced DNA damage risk—proves this negative outcome is not inevitable.<br/><br/>The other choices either deny the risk exists, overstate the benefits argument, or wrongly claim researchers underestimated complexity.<br/><br/>That matches <strong>Choice D &mdash; By agreeing that the possibility described in Text 1 is a cause for concern but pointing out that nanomaterial conjugation does not inevitably produce that result</strong>."
+      "title": "Avoid overstating Text 2",
+      "content": "Choice A says benefits more than offset risks, which Text 2 does not claim. Choice B says effects are harder to predict than expected, which is not stated. Choice C denies that Text 1's situation is likely, but Text 2 treats it as a real concern. The answer is <strong>D</strong>."
     }
   ]
 }

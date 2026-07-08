@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the original line from two points",
-      "content": "Read two points from the line of best fit for data set E. The line crosses near $(0,12)$ and also passes near $(12,30)$."
+      "title": "Read the original model",
+      "content": "From the line of best fit for data set E, two readable points are about $(0,12)$ and $(12,30)$. The intercept is about $12$."
     },
     {
-      "title": "Apply the y-scale transformation",
-      "content": "The slope for data set E is $\\frac{30-12}{12-0}=1.5$, so its line of best fit is about $y=12+1.5x$. Data set F multiplies every $y$-coordinate by $3.9$, so both the intercept and the slope are multiplied by $3.9$: $12(3.9)=46.8$ and $1.5(3.9)=5.85\\approx 5.9$."
+      "title": "Find the original slope",
+      "content": "Compute the slope from those two points.<br/>$$\\frac{30-12}{12-0}=\\frac{18}{12}=1.5$$<br/>So the original line is about $y=12+1.5x$."
     },
     {
-      "title": "Match the transformed model",
-      "content": "The transformed line is approximately $y=46.8+5.9x$. The result matches."
+      "title": "Scale the line by the factor",
+      "content": "Multiplying every $y$-coordinate by $3.9$ multiplies both the intercept and the slope by $3.9$.<br/>$$12(3.9)=46.8$$<br/>The product $1.5(3.9)$ equals $5.85$, which rounds to $5.9$. The transformed line is about $y=46.8+5.9x$. The answer is <strong>A</strong>."
     }
   ]
 }

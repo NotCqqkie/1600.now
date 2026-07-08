@@ -1,0 +1,15 @@
+{
+  "questionId": "c0e376fc",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a plain plural noun",
+      "content": "The phrase one of the hundreds of requires a plural noun naming the items curated by the airport staff. No possession is being shown, so an apostrophe is not needed."
+    },
+    {
+      "title": "Remove apostrophe errors",
+      "content": "Choice A makes exhibit possessive and singular. Choice B makes hundred possessive. Choice D makes exhibits possessive. The remaining choice gives the plain plural noun phrase needed after one of the. The answer is <strong>C</strong>."
+    }
+  ]
+}

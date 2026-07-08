@@ -1,0 +1,19 @@
+{
+  "questionId": "cd3d20b7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The graph shows an upward-opening parabola with vertex<br/>$$(0,3)$$<br/>The equation must have the same vertex."
+    },
+    {
+      "title": "Check the matching equation",
+      "content": "This equation has vertex<br/>$$(0,3)$$<br/>$$f(x)=5x^2+3$$<br/>It also gives the visible point<br/>$$(1,8)$$<br/>because<br/>$$f(1)=5(1)^2+3=8$$"
+    },
+    {
+      "title": "Choose the graph match",
+      "content": "The other choices have a different vertex, either shifted left or down to the origin. The equation with the displayed vertex and shape is<br/>$$f(x)=5x^2+3$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

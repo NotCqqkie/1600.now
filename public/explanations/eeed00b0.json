@@ -1,0 +1,15 @@
+{
+  "questionId": "eeed00b0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the study claims",
+      "content": "Text 1 presents Kolvereid and Moen's study as persuasive evidence: participants showed strong intentions to become entrepreneurs as a result of entrepreneurial training. Text 2 accepts that the study reported positive results, but it criticizes the method because data were collected only after training, not before. Without pre-training data, the researchers could not show whether participants already had those intentions before the program. That means Text 2 doubts whether the training caused the reported results."
+    },
+    {
+      "title": "Eliminate unsupported questions",
+      "content": "Choice A asks whether training costs are offset by benefits, a topic neither text mentions. Choice C asks whether Kolvereid and Moen reported strong entrepreneurial intentions; Text 2 does not deny that they reported those results. It disputes what those results prove. Choice D asks about different types of entrepreneurial training programs, but neither text compares program types or outcomes across programs. Choice B asks whether the study persuasively showed that its results were attributable to the training participants received, which is exactly where the texts disagree. The answer is <strong>B</strong>."
+    }
+  ]
+}

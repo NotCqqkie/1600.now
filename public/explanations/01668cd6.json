@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize both functions are decreasing exponentials",
-      "content": "Both $f$ and $g$ have base $0.3$, which satisfies $0 \\lt 0.3 \\lt 1$.<br/><br/>When the base of an exponential function is between 0 and 1, the function decreases as $x$ increases.<br/><br/>Since we want the maximum value where $x \\geq 0$, the maximum occurs at $x = 0$.<br/><br/>We now need to check if the equation displays this maximum value as a constant or coefficient in its written form."
+      "title": "Locate the maximum input",
+      "content": "Both functions use base $0.3$, which is between $0$ and $1$. So each function decreases as $x$ increases. For $x\\geq 0$, the maximum occurs at $x=0$."
     },
     {
-      "title": "Check statement I: evaluate $f(0)$",
-      "content": "For $f(x) = 35(0.3)^{x+3}$, rewrite using the exponent rule $a^{m+n} = a^m \\cdot a^n$:<br/>$$f(x) = 35 \\cdot (0.3)^3 \\cdot (0.3)^x$$<br/>Compute the constant factor:<br/>$$(0.3)^3 = 0.027$$<br/>$$35 \\times 0.027 = 0.945$$<br/>So the maximum value is $0.945$, but this number does not appear anywhere in the original equation $f(x) = 35(0.3)^{x+3}$. Statement I does not display the maximum as a constant or coefficient."
+      "title": "Check the first equation",
+      "content": "For the first equation, substitute $x=0$ to find the maximum value.<br/>$$f(0)=35(0.3)^{0+3}$$<br/>$$f(0)=35(0.3)^3=0.945$$<br/>The maximum value is $0.945$, which is not displayed as a constant or coefficient in the original equation."
     },
     {
-      "title": "Check statement II: simplify $g(x)$ using the substitution $0.09 = (0.3)^2$",
-      "content": "For $g(x) = 35(0.09)(0.3)^{x-2}$, recognize that $0.09 = (0.3)^2$. Substitute and combine the exponents:<br/>$$g(x) = 35 \\cdot (0.3)^2 \\cdot (0.3)^{x-2}$$<br/>$$= 35 \\cdot (0.3)^{2 + (x-2)}$$<br/>$$= 35(0.3)^x$$<br/>Now $g(0) = 35(0.3)^0 = 35$. The maximum value 35 appears explicitly as the coefficient in this rewritten form. Statement II <strong>does</strong> display the maximum as a constant or coefficient."
-    },
-    {
-      "title": "Identify the correct answer",
-      "content": "Only statement II displays the maximum value as a constant or coefficient in its equation. That matches <strong>Choice B &mdash; II only</strong>."
+      "title": "Check the second equation",
+      "content": "For the second equation, use $0.09=(0.3)^2$ and simplify the expression.<br/>$$g(x)=35(0.09)(0.3)^{x-2}$$<br/>$$g(x)=35(0.3)^2(0.3)^{x-2}$$<br/>$$g(x)=35(0.3)^x$$<br/>So $g(0)=35$, and the maximum value is displayed as the coefficient. The answer is <strong>B</strong>."
     }
   ]
 }

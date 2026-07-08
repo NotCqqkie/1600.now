@@ -1,0 +1,19 @@
+{
+  "questionId": "82b213d2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Form an absolute phrase",
+      "content": "After the comma, the words 'their design' introduce a phrase that adds detail about the ancient Egyptian headrests. The blank needs a participle so the phrase can modify the main clause without becoming a separate finite clause."
+    },
+    {
+      "title": "Reject finite verb forms",
+      "content": "<ul><li><strong>Choice A - 'was prioritizing'</strong>: is a finite verb phrase, creating a second independent clause after only a comma.</li><li><strong>Choice B - 'had prioritized'</strong>: is also finite, so it creates the same comma-splice problem.</li><li><strong>Choice D - 'prioritized'</strong>: can function as a finite past-tense verb here, again producing an independent clause after the comma.</li></ul>"
+    },
+    {
+      "title": "Use the participle",
+      "content": "<strong>Choice C - 'prioritizing'</strong>: is a present participle. In 'their design prioritizing airflow, protection from insects, and hairstyle maintenance over comfort,' it forms an absolute phrase that correctly attaches to the main clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6679d3ea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare disturbance types",
+      "content": "Laurent and Fournier found no carbon-mercury correlation in wastewater-impacted waters. Bergstrom found a similar correlation to undisturbed waters in waters disturbed by urban development, so one human disturbance cannot represent all disturbances."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A compares concentration levels, which the passage does not give. Choice B invents a methods difference between the studies. Choice D compares how many freshwater bodies each disturbance affects, which is not discussed. The answer is <strong>C</strong>."
+    }
+  ]
+}

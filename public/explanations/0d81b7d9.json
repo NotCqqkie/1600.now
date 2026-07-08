@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage describes fossils of \"two previously unknown species of prehistoric penguins\" studied by paleontologists. The decisive clue is the phrase \"prehistoric\" and the context of analyzing <strong>fossil bones</strong>, which implies these species no longer exist."
+      "title": "Use fossil evidence",
+      "content": "The species were identified from fossil bones more than 55 million years old and are called prehistoric penguins. That context points to species from the past, not species alive today."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>Choice B &mdash; They are no longer living species.</strong> directly aligns with the implication of the fossils being from species that are no longer living.<br/><br/>Choice C contradicts the passage's size comparison: one species was more than three times the size of the emperor penguin, not smaller than penguin species that exist today. The passage does not mention habitat behavior.<br/><br/>A, C, and D either contradict or ignore the fossil/prehistoric context.<br/><br/>That matches <strong>Choice B &mdash; They are no longer living species.</strong>."
+      "title": "Infer their status",
+      "content": "A is unsupported, C contradicts the size detail about one species, and D is never discussed. The fossil and prehistoric context supports that the species are extinct. The answer is <strong>B</strong>."
     }
   ]
 }

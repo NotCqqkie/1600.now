@@ -1,0 +1,15 @@
+{
+  "questionId": "2592a4fa",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the input to zero",
+      "content": "The $y$-intercept occurs where $x=0$.\n$$y=7^0+14$$"
+    },
+    {
+      "title": "Evaluate the intercept",
+      "content": "Any nonzero base to the zero power equals $1$.\n$$y=1+14=15$$\nSo the intercept is $(0,15)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

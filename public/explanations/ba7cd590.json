@@ -1,0 +1,15 @@
+{
+  "questionId": "ba7cd590",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the neither conclusion",
+      "content": "Alegado and colleagues concluded that neither bacterium was likely important in the development of multicellular organisms. Since colony formation is the response being studied, supporting evidence should show no meaningful colony-forming response to either bacterium."
+    },
+    {
+      "title": "Use colony response evidence",
+      "content": "A and B each show a colony-forming response to one bacterium, so they support a role for at least one. D shows responses to both bacteria, directly weakening the conclusion. The answer is <strong>C</strong>."
+    }
+  ]
+}

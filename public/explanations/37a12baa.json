@@ -1,0 +1,15 @@
+{
+  "questionId": "37a12baa",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim to support",
+      "content": "Patel and colleagues claim that caterpillar sounds are directed primarily at predators. The strongest support should show predators noticing those sounds and changing their behavior in response."
+    },
+    {
+      "title": "Look for predator response",
+      "content": "Choice A supports only some detectability and excludes whistles. Choice B describes variation within species, and Choice D describes differences among species; neither shows predator-directed function. Evidence that predators stop attacks after hearing the sounds directly supports the claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

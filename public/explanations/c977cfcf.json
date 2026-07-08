@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast signal",
-      "content": "The word “whereas” creates a direct logical opposition between two conditions affecting decision-making speed.<br/><br/>The passage establishes that intensified information flow leads to faster, more decisive choices.<br/><br/>The blank must describe a contrasting state that explains why decisions slow down—specifically, the opposite of “intensified.”"
+      "title": "Notice the contrast",
+      "content": "The sentence contrasts intensified information flow, which is linked to decisiveness, with the condition under which people choose more slowly. The missing word should mean that the flow is decreased."
     },
     {
-      "title": "Match the target meaning",
-      "content": "The blank requires the opposite of “intensified.” <strong>Reduced</strong> expresses this precisely—when information flow is reduced between brain regions, decision-making becomes slower, maintaining the causal logic of the passage.<br/><br/>The other three (evaluated, determined, acquired) do not establish opposition to “intensified” and fail to explain a causal effect on decision speed.<br/><br/>This fulfills the “whereas” structure: more intensified flow → faster decisions; reduced flow → slower decisions.<br/><br/>That is the correct answer."
+      "title": "Choose the opposite of intensified",
+      "content": "B means assessed, C means judged or influenced, and D means obtained; none describes a lower rate of communication between brain regions. Reduced gives the needed contrast with intensified. The answer is <strong>A</strong>."
     }
   ]
 }

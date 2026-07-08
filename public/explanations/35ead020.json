@@ -1,0 +1,15 @@
+{
+  "questionId": "35ead020",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate y",
+      "content": "Add the two equations:\n$$4y+(-4y)=(9x+17)+(6x-24)$$\n$$0=15x-7$$"
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Solve for $x$ and multiply by $30$:\n$$15x=7$$\n$$x=\\frac{7}{15}$$\n$$30x=30\\cdot\\frac{7}{15}=14$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

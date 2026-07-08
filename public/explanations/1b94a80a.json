@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to emphasize <em>how Romney wool differs from Merino and Rambouillet wool</em>. That requires naming all three breeds and stating the specific difference between them.<ul><li><strong>Choice A &mdash; Romney wool is just one of the many kinds of wools, each originating from a different breed of sheep.</strong>: Mentions Romney only and gives no specific difference. &#10007;</li><li><strong>Choice B &mdash; Sheep wool varies from breed to breed, so Romney wool will be different than other kinds of wool.</strong>: Vague — never names Merino or Rambouillet, never states what the difference is. &#10007;</li><li><strong>Choice C &mdash; The fine wool produced by Merino and Rambouillet sheep is used for apparel, whereas the thicker wool of Romney sheep is used in rugs and blankets.</strong>: Names all three breeds and directly contrasts fiber thickness and end use. &#10003;</li><li><strong>Choice D &mdash; Wool is an economically important fiber—especially in Australia—that can be used to make apparel or even rugs and blankets.</strong>: Doesn't mention any breed by name; focuses on economic importance instead of the breed-specific contrast. &#10007;</li></ul>"
+      "title": "Contrast wool type and use",
+      "content": "The student wants to show how Romney wool differs from Merino and Rambouillet wool. The notes say Merino and Rambouillet sheep produce fine wool used for apparel, while Romney sheep produce thicker wool used for rugs and blankets. The choice must state that contrast clearly."
     },
     {
-      "title": "Confirm the match",
-      "content": "The notes state that Merino and Rambouillet produce <em>fine</em> wool for apparel, while Romney produces <em>thick</em> wool for rugs and blankets. Only one choice captures both halves of that contrast with all three breeds named. That matches <strong>Choice C &mdash; The fine wool produced by Merino and Rambouillet sheep is used for apparel, whereas the thicker wool of Romney sheep is used in rugs and blankets.</strong>."
+      "title": "Reject vague wool statements",
+      "content": "A mentions only Romney wool and gives no specific difference. B says breeds vary, but it never names Merino or Rambouillet or states the actual contrast. D discusses wool's economic importance and possible uses without making a breed-specific comparison. The answer is <strong>C</strong>."
     }
   ]
 }

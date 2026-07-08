@@ -1,0 +1,15 @@
+{
+  "questionId": "d39a3dc6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify opposite and hypotenuse",
+      "content": "In the right triangle, side $SR$ has length $22$. From angle $Q$, side $SR$ is opposite and side $QS$ is the hypotenuse."
+    },
+    {
+      "title": "Use the sine ratio",
+      "content": "The sine ratio is opposite over hypotenuse:<br/>$$\\sin Q=\\frac{22}{QS}$$Solve for $QS$:<br/>$$QS=\\frac{22}{\\sin Q}$$The answer is <strong>D</strong>."
+    }
+  ]
+}

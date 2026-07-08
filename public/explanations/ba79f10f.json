@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit the table",
-      "content": "The table includes $(0,18)$ and $(1,13)$. Since $x=0$ gives the $y$-intercept, $b=18$. The slope from these two points is $$m=\\frac{13-18}{1-0}=-5.$$"
+      "title": "Use the intercept",
+      "content": "The table gives the point $(0,18)$. In a linear equation $y=mx+b$, the value when $x=0$ is the $y$-intercept, so $b=18$."
     },
     {
-      "title": "Read the equation",
-      "content": "Using $y=mx+b$, the equation is $$y=-5x+18.$$"
+      "title": "Find the slope",
+      "content": "The table also gives the point $(1,13)$. Use $(0,18)$ and $(1,13)$ to find the slope.<br/>$$m=\\frac{13-18}{1-0}=-5$$"
     },
     {
-      "title": "Check the choices",
-      "content": "<strong>D</strong> is $y=-5x+18$. It checks against the table because when $x=0$, $y=18$, and when $x=1$, $y=13$. <strong>D</strong> is correct."
+      "title": "Write the equation",
+      "content": "Substitute $m=-5$ and $b=18$ into $y=mx+b$.<br/>$$y=-5x+18$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

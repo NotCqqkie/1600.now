@@ -1,0 +1,15 @@
+{
+  "questionId": "8384655f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Decide if it is a statement",
+      "content": "The sentence gives a historical fact about South Carolina politician Robert C. De Large and the years 1865 to 1877. It is not asking a question. The clause after the comma begins with \"which would,\" so \"which\" already functions as the subject of that relative clause."
+    },
+    {
+      "title": "Test punctuation and subject",
+      "content": "<ul><li><strong>Choice A - come to be known as the Reconstruction era?</strong>: This keeps the clause grammatical, but the question mark incorrectly turns a declarative statement into a question.</li><li><strong>Choice C - it come to be known as the Reconstruction era.</strong>: Adding \"it\" creates a double subject because \"which\" is already the subject of \"would come.\"</li><li><strong>Choice D - it come to be known as the Reconstruction era?</strong>: This repeats the double-subject problem from C and also uses the wrong end punctuation.</li></ul>The sentence needs no extra subject and should end with a period. The answer is <strong>B</strong>."
+    }
+  ]
+}

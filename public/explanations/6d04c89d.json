@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Factor the denominator",
-      "content": "The denominator $5x + 45$ has a greatest common factor of 5: $$5x + 45 = 5(x + 9)$$"
+      "content": "Factor $5$ from $5x+45$.\n$$\n5x+45=5(x+9)\n$$"
     },
     {
-      "title": "Simplify and find b",
-      "content": "Substitute the factored form and simplify: $$\\frac{30}{5(x+9)} = \\frac{6}{x+9}$$ by dividing numerator and denominator by 5. Comparing to $\\frac{6}{x+b}$, we have $x + 9 = x + b$, so $b = 9$. That confirms <strong>A</strong> is correct."
+      "title": "Compare denominators",
+      "content": "Substitute the factored denominator and simplify.\n$$\n\\frac{30}{5x+45}=\\frac{30}{5(x+9)}=\\frac{6}{x+9}\n$$\nComparing $\\frac{6}{x+9}$ to $\\frac{6}{x+b}$ gives $b=9$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "16088e97",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the dog count",
+      "content": "The variable $d$ represents the number of dogs. Since the business cares for $32$ dogs, use $d=32$ in the equation: $$4.5c+9(32)=288$$"
+    },
+    {
+      "title": "Find the cat count",
+      "content": "Simplify the dog term, then isolate $c$: $$4.5c+288=288$$ $$4.5c=0$$ $$c=0$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

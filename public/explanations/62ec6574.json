@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the rectangular-prism surface area",
-      "content": "Find the missing base width from base area divided by base length. Then use the rectangular-prism surface-area formula $SA=2(lw+lh+wh)$."
+      "title": "Find the missing width",
+      "content": "The base area equals length times width. Let $w$ be the missing width.\n$$\n30t=\\frac{5}{2}w\n$$\n$$\nw=30t\\cdot\\frac{2}{5}=12t\n$$"
     },
     {
-      "title": "Find the width of the base",
-      "content": "Base area = length &times; width, so:<br/>$$30t = \\frac{5}{2} \\times w \\implies w = 30t \\times \\frac{2}{5} = 12t \\text{ cm}$$<br/>Dimensions: l = 5/2 cm, w = 12t cm, h = 12 cm."
-    },
-    {
-      "title": "Apply the surface area formula",
-      "content": "Compute each face pair:<ul><li>$$lw = \\frac{5}{2} \\times 12t = 30t$$</li><li>$$lh = \\frac{5}{2} \\times 12 = 30$$</li><li>$$wh = 12t \\times 12 = 144t$$</li></ul>$$SA = 2(30t + 30 + 144t) = 2(174t + 30) = 348t + 60$$",
+      "title": "Use surface area",
+      "content": "Use $l=\\frac{5}{2}$, $w=12t$, and $h=12$. The three different face areas are:\n$$\nlw=30t\n$$\n$$\nlh=30\n$$\n$$\nwh=144t\n$$",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$60t+120$&rsquo;</strong>: This treats all four lateral faces as length-height faces: $2(30t)+4(30)=60t+120$, so it does not account for the width-height faces. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$348t+60$&rsquo;</strong>: Equals 2(174t + 30) = 2(30t + 30 + 144t), accounting for all three pairs of faces. &#10003;</li><li><strong>Choice C &mdash; &lsquo;$1,860t+60$&rsquo;</strong>: Far too large; likely from multiplying by the length instead of dividing by it when finding the width. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$360t$&rsquo;</strong>: Has no constant term, but lh = 30 is a constant, so the surface area must include a constant. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Add all face pairs",
+      "content": "A right rectangular prism has two faces of each type, so add the three face areas and multiply by $2$.\n$$\nSA=2(30t+30+144t)=2(174t+30)=348t+60\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

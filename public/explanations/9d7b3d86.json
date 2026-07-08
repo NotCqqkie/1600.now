@@ -1,0 +1,20 @@
+{
+  "questionId": "9d7b3d86",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the ratio",
+      "content": "The percent increase from position $11$ to position $15$ depends on the ratio\n$$\n\\frac{f(15)}{f(11)}\n$$",
+      "formula": "$$p = 100(r - 1)$$"
+    },
+    {
+      "title": "Cancel common factors",
+      "content": "Use the function definition:\n$$\n\\frac{f(15)}{f(11)}=\\frac{6(18.36)^{\\frac{15}{4}}}{6(18.36)^{\\frac{11}{4}}}\n$$\n$$\n=(18.36)^{\\frac{15}{4}-\\frac{11}{4}}=18.36\n$$"
+    },
+    {
+      "title": "Convert ratio to percent",
+      "content": "A ratio of $18.36$ means\n$$\np=100(18.36-1)=100(17.36)=1736\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

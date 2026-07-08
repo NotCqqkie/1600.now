@@ -1,0 +1,19 @@
+{
+  "questionId": "e303d948",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the target value",
+      "content": "Write $10{,}000$ as a power of $10$:\n$$\n10{,}000=10^4\n$$\nSo the equation becomes\n$$\n10^{4x-2}=10^4\n$$"
+    },
+    {
+      "title": "Equate the exponents",
+      "content": "The bases are equal, so the exponents are equal:\n$$\n4x-2=4\n$$\n$$\n4x=6\n$$\n$$\nx=\\frac{6}{4}=\\frac{3}{2}\n$$\nThe answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "g(x) = 10^{4x - 2}",
+        "y = 10000"
+      ]
+    }
+  ]
+}

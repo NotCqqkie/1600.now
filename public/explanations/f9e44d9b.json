@@ -1,0 +1,15 @@
+{
+  "questionId": "f9e44d9b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two views",
+      "content": "The question asks how the authors differ about the benefits of being named a City of Gastronomy. Text 1 says UNESCO helped Merida simply by selecting it, which frames the benefits as automatic. Text 2 says cities must create effective marketing strategies to benefit fully, so it frames the benefits as requiring intentional effort."
+    },
+    {
+      "title": "Discard unsupported contrasts",
+      "content": "<ul><li><strong>Choice A</strong>: Neither text compares how permanent the effects are.</li><li><strong>Choice C</strong>: Text 2 does not question whether there has been any benefit; it says full benefit requires effort.</li><li><strong>Choice D</strong>: Neither text says tour guides or tour operators are the main beneficiaries. Text 1 mentions local recipes, cooking practices, chefs, and tourism, while Text 2 focuses on marketing strategies for the city's food scene.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

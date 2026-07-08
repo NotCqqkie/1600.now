@@ -1,0 +1,15 @@
+{
+  "questionId": "e89dcdb7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the perimeter ratio",
+      "content": "Similar triangles have corresponding sides in the same ratio as their perimeters. From the table, the scale factor from triangle $TUV$ to triangle $XYZ$ is\n$$\\frac{90}{30}=3$$"
+    },
+    {
+      "title": "Scale the side length",
+      "content": "Segment $TU$ corresponds to segment $XY$, and $TU=9$.\n$$XY=9\\cdot 3=27$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

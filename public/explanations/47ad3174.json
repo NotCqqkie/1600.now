@@ -1,0 +1,19 @@
+{
+  "questionId": "47ad3174",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the decay multiplier",
+      "content": "A decrease of $18\\%$ means the sample keeps $82\\%$ of its mass after each period.\n\n$$100\\%-18\\%=82\\%=0.82$$"
+    },
+    {
+      "title": "Count the periods",
+      "content": "Each period is $11.4$ minutes, so after $t$ minutes, the number of decay periods is\n\n$$\\frac{t}{11.4}$$"
+    },
+    {
+      "title": "Build the model",
+      "content": "Use the kept fraction as the base and the number of periods as the exponent.\n\n$$M=100(0.82)^{\\frac{t}{11.4}}$$\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

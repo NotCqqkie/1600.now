@@ -1,0 +1,19 @@
+{
+  "questionId": "5a887cca",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the left-end behavior",
+      "content": "The scatterplot is exponential and levels off near $y=18$ on the left. That points to a model with a vertical shift of $+18$, so the choices without that shift are less appropriate."
+    },
+    {
+      "title": "Check the starting value",
+      "content": "At $x=0$, the model should be near $24$. Compare the two shifted models:<br/>$$24(1.55)^0+18=42$$<br/>$$6(1.55)^0+18=24$$<br/>The second shifted model matches the graph's starting level."
+    },
+    {
+      "title": "Check the growth",
+      "content": "At $x=3$, the same model gives<br/>$$6(1.55)^3+18\\sim40.3$$<br/>That follows the plotted curve, while the shifted model with coefficient $24$ starts too high. The answer is <strong>D</strong>."
+    }
+  ]
+}

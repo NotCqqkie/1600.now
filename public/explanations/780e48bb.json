@@ -1,0 +1,19 @@
+{
+  "questionId": "780e48bb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertex form",
+      "content": "The maximum height is $200$ feet at $t=3$, so the vertex is $(3{,}200)$. A quadratic with that vertex has the form:\n$$\nf(t)=a(t-3)^2+200\n$$"
+    },
+    {
+      "title": "Use the initial height",
+      "content": "At launch, $t=0$ and the height is $56$:\n$$\n56=a(0-3)^2+200\n$$\n$$\n56=9a+200\n$$\n$$\na=-16\n$$"
+    },
+    {
+      "title": "Write the model",
+      "content": "Substitute $a=-16$ into the vertex form:\n$$\nf(t)=-16(t-3)^2+200\n$$\nThis is the equation with vertex $(3{,}200)$ and initial height $56$. The answer is <strong>D</strong>."
+    }
+  ]
+}

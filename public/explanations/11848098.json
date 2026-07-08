@@ -1,0 +1,19 @@
+{
+  "questionId": "11848098",
+  "correctAnswer": "-5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Start with the inequality and add $21$ to both sides:<br/>$$ax-21\\le14$$<br/>$$ax\\le35$$"
+    },
+    {
+      "title": "Use the direction of the inequality",
+      "content": "The solution is written as $x\\ge -7$, so dividing by $a$ must reverse the inequality. That means $a$ is negative, and<br/>$$x\\ge\\frac{35}{a}$$"
+    },
+    {
+      "title": "Match the boundary value",
+      "content": "Match the boundary to $-7$ and solve:<br/>$$\\frac{35}{a}=-7$$<br/>$$35=-7a$$<br/>$$a=-5$$<br/>The answer is <strong>-5</strong>."
+    }
+  ]
+}

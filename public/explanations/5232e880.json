@@ -1,0 +1,15 @@
+{
+  "questionId": "5232e880",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hypothesis prediction",
+      "content": "The LNH predicts an inverse relationship: as exotericity rises, grammatical complexity falls. The passage defines fusion and informativity as positive indices of grammatical complexity, so findings about those two traits can be used to test whether complexity rises or falls with exotericity."
+    },
+    {
+      "title": "Rule out nonconflicting findings",
+      "content": "A does not connect complexity or either index to exotericity. B gives the negative relationship the LNH predicts, so it would not support Petrenko's inconsistency claim. D contradicts the passage's definition of the indices. Positive links between exotericity and both indices would oppose the LNH. The answer is <strong>C</strong>."
+    }
+  ]
+}

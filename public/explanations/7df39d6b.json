@@ -1,0 +1,19 @@
+{
+  "questionId": "7df39d6b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given slope",
+      "content": "Line $t$ is in slope-intercept form:<br/>$$y=-\\frac{1}{5}x+18$$<br/>So the slope of line $t$ is $-\\frac{1}{5}$."
+    },
+    {
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $-\\frac{1}{5}$ is:<br/>$$5$$"
+    },
+    {
+      "title": "Choose the slope",
+      "content": "The slope of line $s$ is $5$, matching the option with that slope. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the speed formula for miles per hour",
-      "content": "To convert a rate from miles per minute to miles per hour, multiply by the conversion factor 60 minutes/hour. Speed is distance divided by time, so:<br/>$$\\text{speed (mph)} = \\frac{\\text{distance (miles)} \\times 60}{\\text{time (minutes)}}$$"
+      "title": "Convert minutes to hours",
+      "content": "The speed in miles per hour is distance divided by time in hours. Since $27$ minutes is $\\frac{27}{60}$ hours, use $$\\frac{13}{27/60}$$"
     },
     {
-      "title": "Calculate the average speed and round",
-      "content": "Substituting the given values: distance = 13 miles, time = 27 minutes:<br/>$$\\text{speed} = \\frac{13 \\times 60}{27} = \\frac{780}{27} = 28.888...$$<br/>Rounding to the nearest tenth of a mile per hour gives <strong>28.9 mph</strong>."
+      "title": "Round to the nearest tenth",
+      "content": "Compute the speed: $$\\frac{13}{27/60}=\\frac{13\\cdot 60}{27}=\\frac{780}{27}\\sim 28.888\\dots$$ Rounded to the nearest tenth gives the required value. The answer is <strong>28.9</strong>."
     }
   ]
 }

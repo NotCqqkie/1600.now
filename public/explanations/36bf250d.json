@@ -1,0 +1,19 @@
+{
+  "questionId": "36bf250d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the deep-water clue",
+      "content": "Reyes-Mendoza and colleagues found that layers more than 400 meters deep had density and salinity conditions like those of the nearby Caribbean Sea. The suggestion should explain that similarity."
+    },
+    {
+      "title": "Reject unsupported leaps",
+      "content": "Choice B compares variation across layers without support. Choice C jumps to reevaluating other blue holes. Choice D says the relationship is inverse, contradicting the stated similarity to Caribbean conditions."
+    },
+    {
+      "title": "Choose underground connection",
+      "content": "Tunnels or caves connecting the blue hole to Caribbean waters would explain why very deep layers show Caribbean-like density and salinity. The answer is <strong>A</strong>."
+    }
+  ]
+}

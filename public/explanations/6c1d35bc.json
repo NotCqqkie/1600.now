@@ -1,0 +1,15 @@
+{
+  "questionId": "6c1d35bc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root sum rule",
+      "content": "For a quadratic equation $ax^2+bx+c=0$, the sum of the solutions is<br/>$$-\\frac{b}{a}$$"
+    },
+    {
+      "title": "Apply the coefficients",
+      "content": "In $x^2-20x-12=0$, $a=1$ and $b=-20$.<br/>$$-\\frac{-20}{1}=20$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

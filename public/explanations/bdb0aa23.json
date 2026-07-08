@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${x}^{3} \\left(7{x}^{2}-4x+9\\right)$."
+      "title": "Find the common factor",
+      "content": "Each term in $7x^5-4x^4+9x^3$ has a factor of $x^3$. The coefficients $7$, $4$, and $9$ have no common factor greater than $1$, so the common factor to remove is $x^3$."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Divide each term",
+      "content": "After taking out $x^3$, divide every term by that factor. The three remaining terms are $7x^2$, $-4x$, and $9$, in the same order as the original expression."
     },
     {
-      "title": "Find the greatest common factor",
-      "content": "Each term has at least $x^3$, and the coefficients $7$, $4$, and $9$ have no common factor greater than $1$. The greatest common factor is $x^3$."
-    },
-    {
-      "title": "Factor it out",
-      "content": "Divide each term by $x^3$: $$7x^5-4x^4+9x^3=x^3(7x^2-4x+9).$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$x^3(7x^2-4x+9)$ matches <strong>B</strong>."
+      "title": "Write the factored expression",
+      "content": "Put the remaining terms inside parentheses:\n$$\n7x^5-4x^4+9x^3=x^3(7x^2-4x+9)\n$$\nThis matches the equivalent expression in the choices. The answer is <strong>B</strong>."
     }
   ]
 }

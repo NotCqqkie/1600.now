@@ -1,0 +1,15 @@
+{
+  "questionId": "e778678b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the threshold",
+      "content": "The researchers concluded that bumblebees and European peacock butterflies can attract pollen because positive charges above 200 pC can draw pollen to a pollinator. Supporting data must show that both pollinators exceed that threshold."
+    },
+    {
+      "title": "Require both pollinators",
+      "content": "Choice B compares bumblebees with houseflies but does not establish the butterfly threshold. Choice C says butterflies have the greater charge but does not show both species exceed 200 pC. Choice D only says houseflies are below the threshold. The remaining choice gives the needed above-200 pC data for both species. The answer is <strong>A</strong>."
+    }
+  ]
+}

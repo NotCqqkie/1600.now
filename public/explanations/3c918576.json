@@ -1,0 +1,15 @@
+{
+  "questionId": "3c918576",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two telescopes",
+      "content": "The previous sentence says the JWST is positioned almost one million miles beyond Earth’s orbit. The sentence with the blank says Hubble is only about 340 miles above Earth’s surface. The relationship is a contrast between two very different distances from Earth."
+    },
+    {
+      "title": "Eliminate illogical transitions",
+      "content": "Choice A, “Therefore,” signals a result, but Hubble’s location is not a result of JWST’s location. Choice C, “Similarly,” signals likeness, but the distances are very different. Choice D, “Secondly,” suggests an ordered list, not a contrast. The transition should show opposition. The answer is <strong>B</strong>."
+    }
+  ]
+}

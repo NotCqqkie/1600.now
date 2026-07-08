@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 7 into the given equation",
-      "content": "We're given $y = 6x + 9$ and asked to find $y$ when $x = 7$. Replace $x$ with $7$ in the equation:<br/>$$y = 6(7) + 9$$"
+      "title": "Substitute the input",
+      "content": "Use $x=7$ in the equation $y=6x+9$.<br/>$$y=6(7)+9$$"
     },
     {
-      "title": "Simplify and find y",
-      "content": "Evaluate the expression step by step:<br/>$$y = 42 + 9$$<br/>$$y = 51$$"
+      "title": "Evaluate the expression",
+      "content": "Simplify the right side.<br/>$$y=42+9=51$$<br/>The answer is <strong>51</strong>."
     }
   ]
 }

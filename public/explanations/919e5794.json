@@ -1,0 +1,15 @@
+{
+  "questionId": "919e5794",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the tallest graph value",
+      "content": "The question asks for the highest percentage of lithium recovered in the tests. The needed value is the tallest bar on the graph, which is closest to 75 percent."
+    },
+    {
+      "title": "Reject lower percentages",
+      "content": "Choice A is below the tallest value. Choices C and D are much farther below it. The remaining percentage matches the highest recovery shown by the graph. The answer is <strong>B</strong>."
+    }
+  ]
+}

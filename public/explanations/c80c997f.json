@@ -1,0 +1,15 @@
+{
+  "questionId": "c80c997f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the enabling clue",
+      "content": "The sentence says the integrated circuit radically altered the semiconductor industry by enabling it to use mass production methods for the first time. That context points to a major positive change in how the industry worked, not a blockage or avoidance."
+    },
+    {
+      "title": "Choose the change word",
+      "content": "Choice A, \"obstructed,\" means blocked or hindered, which contradicts \"enabling.\" Choice C, \"bypassed,\" suggests going around something rather than gaining a new capability. Choice D, \"overwhelmed,\" suggests being overpowered. Choice B, \"transformed,\" means fundamentally changed, which fits the sentence's description of a radical shift. The answer is <strong>B</strong>."
+    }
+  ]
+}

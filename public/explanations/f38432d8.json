@@ -1,0 +1,15 @@
+{
+  "questionId": "f38432d8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the left side",
+      "content": "The question asks for $x+5$, so factor $7$ from the left side:<br/><br/>$$7x+35=7(x+5)$$"
+    },
+    {
+      "title": "Solve for the requested value",
+      "content": "Substitute that into the equation and divide by $7$:<br/><br/>$$7(x+5)=84$$<br/>$$x+5=12$$<br/><br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

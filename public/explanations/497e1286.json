@@ -1,0 +1,19 @@
+{
+  "questionId": "497e1286",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square",
+      "content": "Add $100$ to both sides."
+    },
+    {
+      "title": "Rewrite the expression",
+      "content": "Rewrite the left side in terms of $x-25$.<br/>$(\\frac{1}{2}x-\\frac{25}{2})^2=100$<br/>$\\frac{(x-25)^2}{4}=100$"
+    },
+    {
+      "title": "Solve for the requested square",
+      "content": "Multiply by $4$.<br/>$(x-25)^2=400$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

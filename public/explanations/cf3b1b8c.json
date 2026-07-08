@@ -1,0 +1,19 @@
+{
+  "questionId": "cf3b1b8c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the length",
+      "content": "The width is $w$. The length is $38$ centimeters greater than the width, so the length is $w+38$ centimeters."
+    },
+    {
+      "title": "Use rectangle area",
+      "content": "The area of a rectangle is length times width. Using width $w$ and length $w+38$ gives:<br/>$$A=(w)(w+38)$$"
+    },
+    {
+      "title": "Match the choices",
+      "content": "Choice A uses $\\frac{w}{38}$ for the length, which makes the length a fraction of the width. Choice B uses $38w$, which means $38$ times the width. Choice D uses $w^2$, which would make the block a square. The expression $A=(w)(w+38)$ matches the stated length. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7b9db261",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the date condition",
+      "content": "The sentence asks for examples of hoards discovered before 2000. The completing choice must name hoards with discovery dates earlier than 2000."
+    },
+    {
+      "title": "Check the dates",
+      "content": "Choice B is vague because it mentions the 1800s without giving the requested specific examples from the data. Choice C says both hoards were discovered in the 2000s, which is after the cutoff. Choice D includes 2013, also after 2000, and misassigns the 1940 date. The remaining choice gives two pre-2000 dates. The answer is <strong>A</strong>."
+    }
+  ]
+}

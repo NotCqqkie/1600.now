@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The passage covers two related ideas: (1) Black journalism in the US has a rich history, and (2) the National Association of Black Journalists preserves and honors that history. The main idea must connect both &mdash; not fixate on one detail or introduce claims not in the text."
+      "content": "The passage covers two related ideas: (1) Black journalism in the US has a rich history, and (2) the National Association of Black Journalists preserves and honors that history. The main idea must connect both — not fixate on one detail or introduce claims not in the text."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Cunningham's achievements are often overlooked in countries other than the United States.\"</strong>: the passage says nothing about other countries or about Cunningham being overlooked. &#10007;</li><li><strong>\"The National Association of Black Journalists was founded in Washington, DC, in the 1900s.\"</strong>: a supporting detail, not the main point of the passage. &#10007;</li><li><strong>\"Black journalism in the United States has an important history that the National Association of Black Journalists helps to honor.\"</strong>: captures both the significance of Black journalism's history and the NABJ's role in preserving it. &#10003;</li><li><strong>\"Black journalism has an interesting history both inside and outside the United States.\"</strong>: the passage focuses only on the US; \"outside the United States\" is unsupported. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "<ul><li><strong>\"Cunningham's achievements are often overlooked in countries other than the United States.\"</strong>: the passage says nothing about other countries or about Cunningham being overlooked. ✗</li><li><strong>\"The National Association of Black Journalists was founded in Washington, DC, in the 1900s.\"</strong>: a supporting detail, not the main point of the passage. ✗</li><li><strong>\"Black journalism in the United States has an important history that the National Association of Black Journalists helps to honor.\"</strong>: captures both the significance of Black journalism's history and the NABJ's role in preserving it. ✓</li><li><strong>\"Black journalism has an interesting history both inside and outside the United States.\"</strong>: the passage focuses only on the US; \"outside the United States\" is unsupported. ✗</li></ul>That matches the correct answer."
     }
   ]
 }

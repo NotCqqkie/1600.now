@@ -1,0 +1,15 @@
+{
+  "questionId": "f5ca0dec",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the input value",
+      "content": "The value $p(0)$ means the output of the polynomial when the input is $0$."
+    },
+    {
+      "title": "Read the given point",
+      "content": "The graph passes through $(0,7)$. That means when $x=0$, the output is $7$. The answer is <strong>7</strong>."
+    }
+  ]
+}

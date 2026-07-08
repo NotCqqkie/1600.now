@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "A square with side length $r$ has perimeter $4r$. Three squares contribute $3 \\times 4r = 12r$ total."
+      "title": "Find the square total",
+      "content": "Each square has perimeter $4r$. With $3$ squares, the total square perimeter is\n$$3(4r)=12r$$"
     },
     {
-      "title": "Step 2",
-      "content": "An equilateral triangle with side length $t$ has perimeter $3t$. Five triangles contribute $5 \\times 3t = 15t$ total."
+      "title": "Find the triangle total",
+      "content": "Each equilateral triangle has perimeter $3t$. With $5$ triangles, the total triangle perimeter is\n$$5(3t)=15t$$"
     },
     {
-      "title": "Step 3",
-      "content": "Setting the sum equal to 204: $12r + 15t = 204$."
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$9r+20t=204$&rsquo;</strong>: Uses 9 and 20 as coefficients; those come from treating squares like 3-sided figures and triangles like 4-sided figures. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$3r+5t=204$&rsquo;</strong>: Uses the counts of shapes (3 and 5) rather than the perimeters; forgets to multiply by sides per shape. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$12r+15t=204$&rsquo;</strong>: $12r$ = 3 squares &times; 4 sides each; $15t$ = 5 triangles &times; 3 sides each. &#10003;</li><li><strong>Choice D &mdash; &lsquo;$5r+3t=204$&rsquo;</strong>: Swaps the counts entirely; has no relationship to the geometry of the problem. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Set the perimeter sum",
+      "content": "The sum of all perimeters is $204$.\n$$12r+15t=204$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

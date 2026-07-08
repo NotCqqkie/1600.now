@@ -1,0 +1,19 @@
+{
+  "questionId": "b67eebd2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both relationships",
+      "content": "Since $a$ is $1{,}890\\%$ of $b+c$,<br/>$$a=18.9(b+c)$$<br/>Since $b$ is $75\\%$ of $c$,<br/>$$b=0.75c$$"
+    },
+    {
+      "title": "Rewrite c using b",
+      "content": "From $b=0.75c$, solve for $c$:<br/>$$c=\\frac{b}{0.75}=\\frac{4b}{3}$$<br/>Then<br/>$$b+c=b+\\frac{4b}{3}=\\frac{7b}{3}$$"
+    },
+    {
+      "title": "Convert to percent of b",
+      "content": "Substitute into the expression for $a$:<br/>$$a=18.9(\\frac{7b}{3})=44.1b$$<br/>So $a$ is $4{,}410\\%$ of $b$. The answer is <strong>A</strong>."
+    }
+  ]
+}

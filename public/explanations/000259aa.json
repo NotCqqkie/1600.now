@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the rate formula",
-      "content": "To find average miles per day, divide total distance by total time:<br/>$$\\frac{1,950 \\text{ miles}}{100 \\text{ days}}$$",
+      "title": "Set up the daily rate",
+      "content": "Average miles per day means total miles divided by total days.<br/>$$\\frac{1{,}950\\text{ miles}}{100\\text{ days}}$$",
       "formula": "$$\\text{Average rate} = \\frac{\\text{Total distance}}{\\text{Total time}}$$"
     },
     {
-      "title": "Simplify the fraction",
-      "content": "Divide both numerator and denominator to simplify:<br/>$$\\frac{1,950}{100} = \\frac{195}{10} = \\frac{39}{2} = 19.5$$<br/>That matches <strong>Choice C &mdash; 19.5</strong>."
+      "title": "Divide the distance by days",
+      "content": "Compute the quotient.<br/>$$\\frac{1{,}950}{100}=19.5$$<br/>So the butterfly traveled $19.5$ miles per day on average. The answer is <strong>C</strong>."
     }
   ]
 }

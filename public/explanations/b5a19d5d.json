@@ -1,0 +1,15 @@
+{
+  "questionId": "b5a19d5d",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the correct table entry",
+      "content": "Use the row for an air temperature of $27^\\circ$ F and the column for a wind speed of $20$ miles per hour. The intersection gives a wind chill of $13^\\circ$ F."
+    },
+    {
+      "title": "Enter the number only",
+      "content": "The question says to disregard the degree symbol, so enter only the numerical value. The answer is <strong>13</strong>."
+    }
+  ]
+}

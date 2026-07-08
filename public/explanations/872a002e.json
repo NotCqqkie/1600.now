@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent and what the blank needs to do",
-      "content": "The blank fills in a possessive determiner before &ldquo;peer autonomous Soviet socialist republics.&rdquo; The noun being possessed is those peer republics; the possessor is the Tajik Republic, a <em>singular</em> entity referred to throughout the passage. The blank must be a singular possessive determiner &mdash; not a plural one, and not a contraction."
+      "title": "Find the possessor",
+      "content": "The blank comes before <em>peer autonomous Soviet socialist republics</em>, so it needs a possessive determiner. The possessor is the Tajik Republic, which is singular, so the determiner must be singular and possessive."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; their</strong>: A plural possessive determiner &mdash; does not agree with the singular antecedent &ldquo;the Tajik Republic.&rdquo; &#10007;</li><li><strong>Choice B &mdash; they're</strong>: A contraction of &ldquo;they are&rdquo; &mdash; a verb phrase, not a possessive determiner at all. &#10007;</li><li><strong>Choice C &mdash; its</strong>: The singular possessive determiner, agreeing in number with the singular &ldquo;the Tajik Republic.&rdquo; &#10003;</li><li><strong>Choice D &mdash; it's</strong>: A contraction of &ldquo;it is&rdquo; or &ldquo;it has&rdquo; &mdash; a verb phrase, not a possessive determiner. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Separate possessives from contractions",
+      "content": "Choice A is plural and does not agree with the singular Tajik Republic. Choice B means <em>they are</em>, not possession. Choice D means <em>it is</em> or <em>it has</em>, not possession. The singular possessive determiner fits the sentence. The answer is <strong>C</strong>."
     }
   ]
 }

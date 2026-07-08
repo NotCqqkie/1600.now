@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The skill is Inferences. The passage establishes that time spent obtaining a gift signals thoughtfulness, then notes digital cards are easier to obtain online while 94.8% of surveyed participants found physical cards more socially acceptable to give. The blank must explain what this finding &ldquo;suggests&rdquo; about givers&rsquo; assumptions."
+      "title": "Connect effort to thoughtfulness",
+      "content": "The passage starts with a gift-giving norm: the time spent obtaining a gift is treated as a sign of thoughtfulness. It then contrasts digital gift cards, which can be bought online from anywhere, with physical gift cards, which sometimes require an in-person purchase. The finding must explain why givers still see physical cards as more socially acceptable."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;gift givers likely overestimate the amount of effort required to use digital gift cards and thus mistakenly assume gift recipients will view them as less desirable than physical gift cards.&rsquo;</strong>: the passage&rsquo;s thoughtfulness norm is about effort to obtain, not effort to use &mdash; this substitutes the wrong variable. &#10007;</li><li><strong>Choice B &mdash; &lsquo;physical gift cards are likely preferred by gift recipients because the tangible nature of those cards offers a greater psychological sense of ownership than digital gift cards do.&rsquo;</strong>: the passage directly states recipients prefer digital cards for usage, so this contradicts the text. &#10007;</li><li><strong>Choice C &mdash; &lsquo;physical gift cards are likely less desirable to gift recipients than digital gift cards are because of the perception that physical gift cards require unnecessary effort to obtain.&rsquo;</strong>: reverses the text &mdash; it is digital cards that are easy to obtain, and the passage says recipients prefer digital, not that they dislike physical due to effort. &#10007;</li><li><strong>Choice D &mdash; &lsquo;gift givers likely perceive digital gift cards as requiring relatively low effort to obtain and thus wrongly assume gift recipients will appreciate them less than they do physical gift cards.&rsquo;</strong>: follows directly from the norm (low obtain-effort = less thoughtful) and explains why givers favor physical cards despite recipients preferring digital. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported assumptions",
+      "content": "Choice A shifts the issue to effort required to use digital gift cards, but the norm concerns effort required to obtain a gift. Choice B contradicts the passage because recipients view digital cards as superior in terms of usage. Choice C says physical cards are less desirable because they require unnecessary effort, but the passage describes physical cards as more socially acceptable to give."
+    },
+    {
+      "title": "Use the stated norm",
+      "content": "Choice D follows the passage's logic: because digital cards are easy to obtain, gift givers may see them as lower-effort and therefore assume recipients will appreciate them less than physical cards. That explains the social preference for physical cards even though recipients like the usability of digital cards. The answer is <strong>D</strong>."
     }
   ]
 }

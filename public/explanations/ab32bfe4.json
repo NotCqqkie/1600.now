@@ -1,0 +1,15 @@
+{
+  "questionId": "ab32bfe4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare prey types",
+      "content": "Text 2 explains that many predation-relief studies showing prey increases focus on small, rapidly reproducing prey such as birds, mice, and rabbits. Text 1's ash-grey mice fit that category, while Beaulieu and Dufour's moose are large and slowly reproducing."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "B invents a predator-to-prey body-size ratio. C shifts the issue to predator traits, but Text 2 compares prey traits. D says the response is limited to ash-grey mice, contradicting Text 2's reference to many small prey species. The remaining choice links Grant's findings to mouse traits not shared by moose. The answer is <strong>A</strong>."
+    }
+  ]
+}

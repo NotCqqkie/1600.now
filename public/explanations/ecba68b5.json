@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "The subject is \"Mathematician Grigori Perelman\" &mdash; a single person, therefore singular. The long phrase \"sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau\" is a parenthetical modifier, not part of the subject. The verb must agree with the singular subject Perelman."
+      "title": "Find the real subject",
+      "content": "The subject is the singular person Mathematician Grigori Perelman. The phrase about Hamilton and Yau is set off by commas and does not change the number of the subject."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"are\"</strong>: plural present verb; does not agree with the singular subject \"Mathematician Grigori Perelman.\" &#10007;</li><li><strong>\"have been\"</strong>: plural present-perfect verb; does not agree with the singular subject. &#10007;</li><li><strong>\"are being\"</strong>: plural present-progressive verb; does not agree with the singular subject. &#10007;</li><li><strong>\"is\"</strong>: singular present verb; agrees with the singular subject \"Mathematician Grigori Perelman.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use singular agreement",
+      "content": "A, B, and C are plural verb forms, so they do not agree with the singular subject Perelman. The singular present verb completes the passive construction credited with proving. The answer is <strong>D</strong>."
     }
   ]
 }

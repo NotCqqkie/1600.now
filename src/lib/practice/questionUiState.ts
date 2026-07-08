@@ -1,3 +1,5 @@
+import { resolvePastStableId } from "@/data/pastIdAliases";
+
 export interface QuestionUiState {
   answer?: string;
   checkedAnswers?: Record<string, boolean>;
@@ -96,7 +98,29 @@ const removeLegacyQuestionUiState = (storageId: string): void => {
 
 export const getQuestionUiStateMap = (
   uid: string | null | undefined,
-): QuestionUiStateMap => readJson<QuestionUiStateMap>(questionUiStateStorageKey(uid), {});
+): QuestionUiStateMap => {
+  const key = questionUiStateStorageKey(uid);
+  const map = readJson<QuestionUiStateMap>(key, {});
+  let changed = false;
+  let nextMap = map;
+
+  for (const storageId of Object.keys(map)) {
+    const canonicalStorageId = resolvePastStableId(storageId);
+    if (canonicalStorageId === storageId) continue;
+    if (nextMap === map) nextMap = { ...map };
+    const existing = nextMap[canonicalStorageId];
+    const legacy = nextMap[storageId];
+    nextMap[canonicalStorageId] = mergeQuestionUiStateMaps(
+      { [canonicalStorageId]: legacy },
+      existing ? { [canonicalStorageId]: existing } : {},
+    )[canonicalStorageId];
+    delete nextMap[storageId];
+    changed = true;
+  }
+
+  if (changed) writeJson(key, nextMap);
+  return nextMap;
+};
 
 export const saveQuestionUiStateMap = (
   uid: string | null | undefined,

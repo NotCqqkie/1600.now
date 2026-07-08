@@ -1,0 +1,19 @@
+{
+  "questionId": "2ce4cdba",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the retention contrast",
+      "content": "Moreno and colleagues compared participants recruited through snowball sampling with people recruited by strangers. In snowball sampling, initial participants recruit additional participants from their social networks. The key finding is that the social-network recruits had a much higher retention rate, so the blank should explain why being recruited through a social connection might make someone more likely to continue participating."
+    },
+    {
+      "title": "Rule out unrelated claims",
+      "content": "Choice B is about who is likely to be recruited through snowball sampling, not why recruited participants stay in a study. Choice C compares rural and nonrural participants, but the study described only two rural counties. Choice D suggests two people can share a network yet regard each other as strangers, which would weaken the social-connection explanation rather than explain higher retention."
+    },
+    {
+      "title": "Choose the social explanation",
+      "content": "Choice A says being recruited by someone with whom one is socially connected may create a feeling of obligation to persist with the study. That directly explains why participants recruited through their social networks would be retained at higher rates than participants recruited by strangers. The answer is <strong>A</strong>."
+    }
+  ]
+}

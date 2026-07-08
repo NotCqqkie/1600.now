@@ -1,0 +1,19 @@
+{
+  "questionId": "cda87d73",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify both sides",
+      "content": "For infinitely many solutions, both sides must be identical for every value of $x$. Expand each side.<br/>$$a(5x-15)+4a=5ax-15a+4a=5ax-11a$$<br/>$$5(ax-3a)-20=5ax-15a-20$$"
+    },
+    {
+      "title": "Match the constant terms",
+      "content": "The $5ax$ terms already match, so match the constant terms.<br/>$$-11a=-15a-20$$<br/>Solve for $a$.<br/>$$4a=-20$$<br/>$$a=-5$$"
+    },
+    {
+      "title": "Check identity",
+      "content": "When $a=-5$, both sides simplify to the same expression.<br/>$$-25x+55=-25x+55$$<br/>So only $a=-5$ works. The answer is <strong>A</strong>."
+    }
+  ]
+}

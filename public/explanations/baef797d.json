@@ -1,0 +1,15 @@
+{
+  "questionId": "baef797d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce examples",
+      "content": "The previous sentence says comics by other Black cartoonists followed Morrie Turner's syndicated strip. The next sentence names Jerry Craft and Charlos Gary as two later syndicated Black cartoonists."
+    },
+    {
+      "title": "Match the example relation",
+      "content": "B signals contrast, but the named cartoonists support the prior claim. C signals an alternative, and D signals an earlier time even though the dates are later than 1965. The transition should introduce specific examples. The answer is <strong>A</strong>."
+    }
+  ]
+}

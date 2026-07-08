@@ -1,0 +1,15 @@
+{
+  "questionId": "be7439d8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "The statement says $250\\%$ of $n$ is $45$. Since $250\\%=2.5$, write the equation that directly represents the percent statement:<br/>$$2.5n=45$$"
+    },
+    {
+      "title": "Solve for the number",
+      "content": "Divide by $2.5$:<br/>$$n=\\frac{45}{2.5}=18$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

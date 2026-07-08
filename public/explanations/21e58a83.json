@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structure around the blank",
-      "content": "The sentence reads: &quot;Jetties can sometimes have the opposite [blank] obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.&quot; The left side (&quot;Jetties can sometimes have the opposite effect&quot;) is a complete independent clause. The right side (&quot;obstructing&hellip;areas&quot;) is also a complete independent clause. The blank must fill in the noun <em>effect</em> plus punctuation that connects the word <em>though</em> and joins the two independent clauses correctly."
+      "title": "Separate the independent clauses",
+      "content": "The sentence first says jetties can have the opposite effect. It then gives a complete explanation: obstructing sand flow can increase erosion. Those two independent clauses need a semicolon, while though is set off after effect."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "The rule: two independent clauses require a semicolon (or period) between them; a comma alone creates a comma splice. The adverb <em>though</em> must be set off by a comma from the clause it modifies:<ul><li><strong>Choice A &mdash; effect, though ;</strong>: &quot;effect&quot; completes the first clause; the comma correctly sets off <em>though</em> as a supplementary adverb; the semicolon then properly separates the two independent clauses. &#10003;</li><li><strong>Choice B &mdash; effect, though</strong>: No semicolon to separate the two independent clauses &mdash; this fuses them without proper boundary punctuation. &#10007;</li><li><strong>Choice C &mdash; effect ; though</strong>: A semicolon before <em>though</em> makes &quot;though obstructing&hellip;areas&quot; a dependent clause after the semicolon, which violates the rule that a semicolon must be followed by an independent clause. &#10007;</li><li><strong>Choice D &mdash; effect, though,</strong>: Two commas set off <em>though</em> as an interrupter, but no boundary separates the two independent clauses &mdash; comma splice. &#10007;</li></ul>That matches <strong>Choice A &mdash; effect, though ;</strong>."
+      "title": "Reject faulty boundaries",
+      "content": "<ul><li>Choice B lacks the semicolon needed between the two independent clauses.</li><li>Choice C places though after the semicolon, leaving the second side as an awkward dependent construction.</li><li>Choice D uses commas only, creating a comma splice between independent clauses.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

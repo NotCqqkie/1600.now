@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the intercept shortcut",
-      "content": "The graph asks for the $y$-intercept written as $(0,y)$. Since the first coordinate is $0$, look where the exponential graph crosses the $y$-axis."
+      "title": "Locate the intercept",
+      "content": "The $y$-intercept has $x$-coordinate $0$, so look where the graph crosses the $y$-axis."
     },
     {
-      "title": "Read the y-axis point",
-      "content": "The curve intersects the $y$-axis at $(0,3)$. The problem asks for the value of $y$ in $(0,y)$, so $y=3$."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The $y$-coordinate of the $y$-intercept is <strong>3</strong>, so the answer is <strong>3</strong>."
+      "title": "Read the coordinate value",
+      "content": "The graph crosses the $y$-axis at $(0,3)$, so the value of $y$ is $3$. The answer is <strong>3</strong>."
     }
   ]
 }

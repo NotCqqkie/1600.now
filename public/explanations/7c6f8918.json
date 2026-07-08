@@ -1,0 +1,19 @@
+{
+  "questionId": "7c6f8918",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the introduction",
+      "content": "The sentence begins with a long introductory prepositional phrase about a blend of traditional design elements and modern ones. The main clause begins with 'transitional design splits the difference,' so the punctuation after 'windows' must connect that introductory phrase to the main clause."
+    },
+    {
+      "title": "Reject boundary errors",
+      "content": "Choice A, 'windows; transitional,' uses a semicolon after a phrase, but a semicolon needs an independent clause on both sides. Choice B, 'windows. Transitional,' turns the opening phrase into a fragment. Choice C, 'windows-transitional,' uses a dash where the sentence needs ordinary introductory punctuation."
+    },
+    {
+      "title": "Set off the phrase",
+      "content": "Choice D, 'windows, transitional,' uses a comma to separate the long introductory phrase from the main clause that follows. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8061ec20",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the geologic rule",
+      "content": "The first sentence states the principle: an intrusion is younger than the rocks it cuts through. The second sentence applies that principle to date an intrusion relative to the Tournaisian and Gzhelian rock layers."
+    },
+    {
+      "title": "Choose logical consequence",
+      "content": "B merely adds information, C signals purpose, and D signals contrast. The second sentence follows as a result of the rule in the first sentence, so \"Accordingly\" supplies the right relationship. The answer is <strong>A</strong>."
+    }
+  ]
+}

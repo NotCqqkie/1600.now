@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use two table values",
-      "content": "From the table, $g(1)=32$ and $g(2)=28$. Since $g(x)=mx+b$, these give $$32=m+b$$ and $$28=2m+b.$$"
+      "content": "From the table, $g(1)=32$ and $g(2)=28$. Since $g(x)=mx+b$, these give<br/>$$32=m+b$$<br/>$$28=2m+b$$"
     },
     {
       "title": "Solve for b",
-      "content": "Subtract the first equation from the second: $28-32=(2m+b)-(m+b)$, so $m=-4$. Substitute into $32=m+b$: $$32=-4+b,$$ so $$b=36.$$ The question asks for the value of $b$, so <strong>Choice D &mdash; $36$</strong>."
+      "content": "Subtract the first equation from the second to get $m=-4$. Substitute into $32=m+b$.<br/>$$32=-4+b$$<br/>$$b=36$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

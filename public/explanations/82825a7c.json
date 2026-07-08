@@ -1,0 +1,15 @@
+{
+  "questionId": "82825a7c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the time equation",
+      "content": "The variables $x$ and $y$ are both times in hours. The total driving time is $6$ hours, so<br/>$$x+y=6$$"
+    },
+    {
+      "title": "Write the distance equation",
+      "content": "Distance equals rate times time. The highway distance is $60x$, and the local-road distance is $45y$. The total distance is $330$ miles:<br/>$$60x+45y=330$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

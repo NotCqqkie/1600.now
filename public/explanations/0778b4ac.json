@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to <strong>specify how many chromosomes the pineapple has</strong> &mdash; a precise number, not a comparison or a description of what chromosomes do."
+      "title": "Focus on the requested detail",
+      "content": "The notes include many facts, but the stated goal is narrow: specify how many chromosomes the pineapple has. The sentence must give the pineapple's exact count, not explain genes, compare fruits, or discuss the melon."
     },
     {
-      "title": "Test each choice against the goal",
-      "content": "<ul><li><strong>Choice A &mdash; The pineapple's chromosomes contain genes, which are critical to determining an organism's physical traits.</strong>: Describes what chromosomes do, not how many the pineapple has. &#10007;</li><li><strong>Choice B &mdash; The pineapple (<em>Ananas comosus</em>) has fifty chromosomes.</strong>: Directly states the exact chromosome count: fifty. This is precisely what the goal requires. &#10003;</li><li><strong>Choice C &mdash; The pineapple (<em>Ananas comosus</em>) and the melon (<em>Cucumis melo</em>) both have chromosomes, but the pineapple has more than the melon does.</strong>: Gives a relative comparison, not an exact number. &#10007;</li><li><strong>Choice D &mdash; The melon, a species of fruit, has twenty-four structures called chromosomes.</strong>: Specifies the melon&apos;s count, not the pineapple&apos;s. &#10007;</li></ul>That matches <strong>Choice B &mdash; The pineapple (<em>Ananas comosus</em>) has fifty chromosomes.</strong>."
+      "title": "Check the choice focus",
+      "content": "Choice A describes what pineapple chromosomes contain. Choice C compares pineapple and melon counts without giving the pineapple's exact number. Choice D gives the melon's count. The remaining choice directly states the pineapple's count from the notes. The answer is <strong>B</strong>."
     }
   ]
 }

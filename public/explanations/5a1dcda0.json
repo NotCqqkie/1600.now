@@ -1,0 +1,15 @@
+{
+  "questionId": "5a1dcda0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the needed ratio",
+      "content": "Sine of an angle in a right triangle is opposite side divided by hypotenuse."
+    },
+    {
+      "title": "Use the triangle sides",
+      "content": "From angle $x^\\circ$, the opposite side is $63$ and the hypotenuse is $73$.<br/>$$\\sin x^\\circ=\\frac{63}{73}$$The answer is <strong>C</strong>."
+    }
+  ]
+}

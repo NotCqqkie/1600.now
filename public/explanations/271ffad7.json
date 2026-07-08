@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the axis of symmetry",
-      "content": "The maximum height occurs at $t=4$, so the parabola's axis of symmetry is $t=4$."
+      "title": "Use symmetry",
+      "content": "A quadratic projectile model is symmetric around its maximum point. The projectile starts at height $9$ meters at $0$ seconds and reaches its maximum at $4$ seconds."
     },
     {
-      "title": "Reflect the launch time",
-      "content": "The object has height $9$ at $t=0$. The matching time with the same height is the same distance on the other side of $t=4$: $$4+(4-0)=8.$$ That matches <strong>Choice B &mdash; $8$</strong>."
+      "title": "Mirror the time",
+      "content": "The return to height $9$ meters is $4$ seconds after the maximum:\n$$\n4+4=8\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

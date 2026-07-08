@@ -1,0 +1,15 @@
+{
+  "questionId": "b757951d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the common factor",
+      "content": "Both terms in $6x^6-18x^2$ share a factor of $6x^2$. The coefficient $6$ divides both coefficients, and $x^2$ is the smaller power of $x$."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "Pull out $6x^2$. Dividing the first term by $6x^2$ leaves $x^4$, and dividing the second term by $6x^2$ leaves $-3$:<br/>$$6x^6-18x^2=6x^2(x^4-3)$$The answer is <strong>D</strong>."
+    }
+  ]
+}

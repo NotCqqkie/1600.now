@@ -1,0 +1,19 @@
+{
+  "questionId": "c37a12c6",
+  "correctAnswer": "349.2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up tangent",
+      "content": "For the right triangle formed by the ramp, tangent is opposite over adjacent. The height is $29.1$, and the horizontal distance is $x$, so the tangent value is $\\frac{29.1}{x}$."
+    },
+    {
+      "title": "Use the boundary value",
+      "content": "The law requires the tangent value to be less than $\\frac{1}{12}$. The least possible horizontal distance occurs at the boundary, so use equality to find that cutoff.<br/>$$\\frac{29.1}{x}=\\frac{1}{12}$$"
+    },
+    {
+      "title": "Solve for the distance",
+      "content": "Cross-multiply to find the boundary distance.<br/>$$x=29.1(12)=349.2$$<br/>Distances greater than this satisfy the strict inequality, so the least boundary value is the requested result. The answer is <strong>349.2</strong>."
+    }
+  ]
+}

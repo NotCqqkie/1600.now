@@ -1,0 +1,15 @@
+{
+  "questionId": "57eb7c06",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the simulations",
+      "content": "The control simulation gave lichens access to all water sources, including bark water. The experimental simulation removed bark water and predicted lower biomass plus reduced summer survival for certain species."
+    },
+    {
+      "title": "Infer the water benefit",
+      "content": "A invents specialized absorption ability. C overstates bark water as most absorbed water. D falsely says bark water reduces biomass, but the decrease occurred when bark water was removed. The evidence suggests bark water helps some lichens handle seasonal water loss. The answer is <strong>B</strong>."
+    }
+  ]
+}

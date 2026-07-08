@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the phrase &ldquo;for one&rdquo; modifies",
-      "content": "The sentence lists two pivotal events: the founding of the League of United Latin American Citizens (in a specific year) and the <em>Katzenbach v. Morgan</em> court decision in 1966. The phrase <em>&ldquo;for one&rdquo;</em> (meaning &ldquo;for example&rdquo;) marks the <strong>first</strong> event as one example in the series, so it must attach directly to the year of founding&mdash;not float free or attach to the second event."
+      "title": "Place for one with the first event",
+      "content": "The founding of the League in 1929 is one pivotal event, and the <em>Katzenbach v. Morgan</em> decision is another. The phrase for one should attach to the founding date, then the next event should begin a new sentence."
     },
     {
-      "title": "Test each choice against punctuation conventions",
-      "content": "A transitional phrase marking one item in a series must be set off by a comma before it, and a period after it creates the sentence boundary that introduces the next example as a new sentence.\n<ul>\n<li><strong>Choice A — 1929. For one, the</strong>: The period comes after 1929, so &ldquo;For one,&rdquo; appears to introduce the <em>second</em> event (the Katzenbach decision) as &ldquo;one example,&rdquo; which reverses the intended meaning. &#10007;</li>\n<li><strong>Choice B — 1929, for one, the</strong>: Uses only commas, producing a comma splice&mdash;two independent clauses joined by a comma alone. &#10007;</li>\n<li><strong>Choice C — for one, the</strong>: Omits the year entirely, removing the historical fact, and also creates a comma splice. &#10007;</li>\n<li><strong>Choice D — 1929, for one. The</strong>: A comma after 1929 sets off &ldquo;for one,&rdquo; attaching it to the founding; the period then closes that sentence and a new sentence begins with &ldquo;The&rdquo; to introduce the Katzenbach decision. &#10003;</li>\n</ul>\n<strong>D</strong> is correct."
+      "title": "Avoid comma splices",
+      "content": "Choice A makes for one introduce the court decision instead. Choices B and C create comma splices, and Choice C also omits the founding year. The remaining choice punctuates the first example and starts a new sentence for the second. The answer is <strong>D</strong>."
     }
   ]
 }

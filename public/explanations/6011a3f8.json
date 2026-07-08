@@ -10,7 +10,7 @@
     },
     {
       "title": "Test which choice satisfies the condition",
-      "content": "We need $b^2 \\gt 7056$, which means $|b| \\gt 84$.<ul><li><strong>Choice A &mdash; &lsquo;$-93$&rsquo;</strong>: $b = -93$ gives $(-93)^2 = 8649 \\gt 7056$ ✓</li><li><strong>Choice B &mdash; &lsquo;$-84$&rsquo;</strong>: $b = -84$ gives $(-84)^2 = 7056 \\not\\gt 7056$ ✗</li><li><strong>Choice C &mdash; &lsquo;$6$&rsquo;</strong>: $b = 6$ gives $(6)^2 = 36 \\not\\gt 7056$ ✗</li><li><strong>Choice D &mdash; &lsquo;$42$&rsquo;</strong>: $b = 42$ gives $(42)^2 = 1764 \\not\\gt 7056$ ✗</li></ul>Only the credited option satisfies the condition. That confirms <strong>A</strong> is correct."
+      "content": "We need $b^2 \\gt 7056$, which means $|b| \\gt 84$.<ul><li><strong>Choice A — '$-93$'</strong>: $b = -93$ gives $(-93)^2 = 8649 \\gt 7056$ ✓</li><li><strong>Choice B — '$-84$'</strong>: $b = -84$ gives $(-84)^2 = 7056 \\not\\gt 7056$ ✗</li><li><strong>Choice C — '$6$'</strong>: $b = 6$ gives $(6)^2 = 36 \\not\\gt 7056$ ✗</li><li><strong>Choice D — '$42$'</strong>: $b = 42$ gives $(42)^2 = 1764 \\not\\gt 7056$ ✗</li></ul>Only the credited option satisfies the condition. That confirms <strong>A</strong> is correct."
     }
   ]
 }

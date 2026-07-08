@@ -1,19 +1,15 @@
 {
   "questionId": "e312081b",
-  "qid": "e312081b",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Remove the parentheses: $(x + 7) + (2x - 4) = x + 7 + 2x - 4$."
+      "title": "Remove the parentheses",
+      "content": "Rewrite the expression without parentheses:<br/>$$(x+7)+(2x-4)=x+7+2x-4$$"
     },
     {
-      "title": "Step 2",
-      "content": "Combine the $x$-terms: $x + 2x = 3x$. Combine the constants: $7 + (-4) = 3$. The result is $3x + 3$."
-    },
-    {
-      "title": "Step 3",
-      "content": "<ul><li><strong>A: $3x - 3$</strong> - The constant is $+3$, not $-3$. Eliminated.</li><li><strong>B: $3x + 3$</strong> - Matches exactly. That matches the correct answer - <strong>B</strong> is correct.</li><li><strong>C: $3x - 11$</strong> - Incorrect constant; would require $-7 - 4 = -11$, which changes the sign of 7. Eliminated.</li><li><strong>D: $3x + 11$</strong> - Incorrect constant; would require $7 + 4 = 11$, ignoring the minus sign. Eliminated.</li></ul>"
+      "title": "Combine like terms",
+      "content": "Combine the $x$-terms and the constants:<br/>$$x+2x=3x$$<br/>$$7-4=3$$<br/>So the expression is $3x+3$. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find where the function equals zero",
-      "content": "The x-intercept occurs where the graph crosses the x-axis, which happens when $y = 0$. Setting $f(x) = 0$:<br/>$$6x - 90 = 0$$"
+      "title": "Set the output to zero",
+      "content": "The $x$-intercept occurs where $y=0$, so set $f(x)$ equal to $0$:\n$$\n6x-90=0\n$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Add 90 to both sides and divide by 6:<br/>$$6x = 90$$<br/>$$x = 15$$<br/>So the x-intercept is at $(15, 0)$. That matches the correct answer - <strong>D</strong> is correct."
+      "title": "Solve for the intercept",
+      "content": "Add $90$ and divide by $6$: $6x=90$, so $x=15$. The $x$-intercept is $(15,0)$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "1336adc9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the two equations",
+      "content": "The equations are\n$$y=\\frac{x}{5}+8$$\n$$y=-\\frac{x}{5}+30$$\nAdding them eliminates the $x$ terms:\n$$y+y=\\frac{x}{5}+8-\\frac{x}{5}+30$$"
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Combine like terms:\n$$2y=38$$\nThe question asks for $2y$, so no further solving is needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

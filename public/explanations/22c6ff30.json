@@ -1,0 +1,19 @@
+{
+  "questionId": "22c6ff30",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Text 2's baseline concern",
+      "content": "Text 2 criticizes entrepreneurial-training studies for failing to establish pretraining baselines for measured participant attributes. To apply that concern to Cruz and colleagues' study, the author would need to know whether the study measured attributes only after training or also before training."
+    },
+    {
+      "title": "Separate other concerns",
+      "content": "Choice B asks about shared participant characteristics, which is not one of Text 2's listed flaws. Choice C asks about sample size, but Text 1 already leaves a broader baseline question unresolved. Choice D asks about comparison with successful entrepreneurs, not pretraining measurement."
+    },
+    {
+      "title": "Ask about measurement timing",
+      "content": "The remaining question addresses whether Cruz and colleagues measured participant attributes after training, which would reveal whether a missing pretraining baseline might be a problem. The answer is <strong>A</strong>."
+    }
+  ]
+}

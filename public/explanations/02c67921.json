@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify where the y-intercept occurs",
-      "content": "The $y$-intercept of a graph is the point where the graph crosses the $y$-axis. Every point on the $y$-axis has $x=0$, so the intercept has the form $(0,y)$."
+      "title": "Locate the vertical intercept",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. At that point, $x=0$, so the point has the form $(0,y)$."
     },
     {
-      "title": "Read the y-value from the graph",
-      "content": "On the graph, the exponential curve crosses the $y$-axis at the marked point $(0,3)$. Therefore the missing $y$-coordinate in $(0,y)$ is $$y=3.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The question asks for the value of $y$, not the full ordered pair. The answer is <strong>3</strong>."
+      "title": "Read the graph",
+      "content": "The graph crosses the $y$-axis at the marked point $(0,3)$, so the missing coordinate is $y=3$. The answer is <strong>3</strong>."
     }
   ]
 }

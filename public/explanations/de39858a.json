@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the point with x = 0",
-      "content": "The function is $h(x)=a^x+b$. Since $h(0)=10$, substitute $x=0$: $$a^0+b=10.$$ Because $a^0=1$, $b=9$."
+      "title": "Use the first point",
+      "content": "Since the graph passes through $(0,10)$,<br/>$$a^0+b=10$$<br/>Because $a^0=1$,<br/>$$b=9$$"
     },
     {
-      "title": "Read $a$ and $b$",
-      "content": "Use the second point, $\\left(-2,\\frac{226}{25}\\right)$:<br/>$$a^{-2}+9=\\frac{226}{25}$$<br/>$$a^{-2}=\\frac{226}{25}-\\frac{225}{25}=\\frac{1}{25}$$<br/>So $\\frac{1}{a^2}=\\frac{1}{25}$, which gives $a=5$."
+      "title": "Use the second point",
+      "content": "Substitute $(-2,\\frac{226}{25})$ into the function:<br/>$$a^{-2}+9=\\frac{226}{25}$$<br/>$$a^{-2}=\\frac{1}{25}$$<br/>Thus $a^2=25$, and since $a$ is positive, $a=5$."
     },
     {
-      "title": "Compute the requested product",
-      "content": "The question asks for $ab$, not the full equation. Multiply the constants: $$ab=5\\cdot9=45.$$ $45$ is choice <strong>C</strong>."
+      "title": "Compute the product",
+      "content": "Multiply the two constants and evaluate the product:<br/>$$ab=5\\cdot9=45$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

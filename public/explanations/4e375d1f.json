@@ -1,23 +1,15 @@
 {
-  "qid": "4e375d1f",
   "questionId": "4e375d1f",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "The conversion factor is 100 centimeters = 1 meter. To convert centimeters to meters, divide by 100."
+      "title": "Choose the conversion direction",
+      "content": "Since $100$ centimeters equals $1$ meter, converting centimeters to meters means dividing by $100$. The number of meters should be smaller than the number of centimeters because meters are larger units."
     },
     {
-      "title": "Step 2",
-      "content": "$4{,}600 \\div 100 = 46$ meters."
-    },
-    {
-      "title": "Step 3",
-      "content": "Verify the unit direction: dividing by 100 makes the number smaller, which is correct since a meter is larger than a centimeter."
-    },
-    {
-      "title": "Step 4",
-      "content": "<ul><li>$0.022$ &mdash; this is far too small; dividing by 100 does not yield a value less than 1 for 4,600 cm; incorrect.</li><li>The matching choice: $46$ &mdash; $4600 \\div 100 = 46$. <strong>B</strong> is correct.</li><li>$4{,}700$ &mdash; this is larger than the original number of centimeters and goes in the wrong direction; incorrect.</li><li>$460{,}000$ &mdash; this would result from multiplying by 100 instead of dividing; incorrect.</li></ul>"
+      "title": "Convert to meters",
+      "content": "Divide the number of centimeters by $100$.\n$$4{,}600\\div100=46$$\nThis keeps the unit direction correct: multiplying by $100$ would convert meters to centimeters instead. The answer is <strong>B</strong>."
     }
   ]
 }

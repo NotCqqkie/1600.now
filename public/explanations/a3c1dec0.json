@@ -1,0 +1,15 @@
+{
+  "questionId": "a3c1dec0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the steady-load claim",
+      "content": "The text claims that steady energy loads are an absolute prerequisite for wireless communication devices to be powered piezoelectrically. A supporting finding should show why intermittent or unpredictable power would create a problem for those devices. That would make the need for steady loads more convincing."
+    },
+    {
+      "title": "Reject weaker support",
+      "content": "Choice A shifts to non-CFRP harvesters and does not address why steady loads matter. Choice C would undermine the passage by saying the CFRP electrode is incompatible with most wireless communication devices. Choice D explains a possible mechanism for sufficient energy output, but it does not show that steadiness is necessary. The finding that intermittent or unpredictable electrical supply undermines wireless devices directly supports the prerequisite claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

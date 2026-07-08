@@ -1,0 +1,15 @@
+{
+  "questionId": "0420c2d6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the required contrast",
+      "content": "The student wants to emphasize a difference between <em>Vulpes zerda</em> and <em>Sterkiella histriomuscorum</em>. The notes identify the contrast: the fennec fox has sixty-four chromosomes, while <em>Sterkiella histriomuscorum</em> has over 15,000."
+    },
+    {
+      "title": "Check the irrelevant choices",
+      "content": "Choice B describes only <em>Sterkiella histriomuscorum</em>, so it does not make the required comparison. Choice C states a similarity: both organisms have chromosomes. Choice D describes only the fennec fox. The remaining choice compares both chromosome counts and emphasizes the large difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

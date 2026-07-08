@@ -1,0 +1,15 @@
+{
+  "questionId": "1e8b03a9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the frequency evidence",
+      "content": "The passage says corpora can test hypotheses about word frequency. The example says \"life\" is the ninth most commonly used noun, so the blank must mean very widespread or common."
+    },
+    {
+      "title": "Pick the frequency word",
+      "content": "B relates to credibility, not frequency. C means declining, which conflicts with the high ranking. D means used incorrectly, but the passage does not discuss errors in usage. The needed word means found widely. The answer is <strong>A</strong>."
+    }
+  ]
+}

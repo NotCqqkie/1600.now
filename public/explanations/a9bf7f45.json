@@ -1,0 +1,19 @@
+{
+  "questionId": "a9bf7f45",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify each input and output",
+      "content": "The problem says $x$ is the depth below the surface in millimeters, and $f(x)$ is the predicted intensity in photons. So $f(11)=300$ describes the intensity when the depth is $11$ millimeters."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Substituting $x=11$ gives the same output stated in the question.<br/>$$f(11)=600(0.5)^{\\frac{11}{11}}=600(0.5)=300$$<br/>So the statement means a beam $11$ millimeters below the surface has a predicted intensity of $300$ photons. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y = 600 \\cdot 0.5^{x/11}",
+        "(11, 300)"
+      ]
+    }
+  ]
+}

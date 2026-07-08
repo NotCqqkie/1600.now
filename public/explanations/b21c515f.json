@@ -1,0 +1,15 @@
+{
+  "questionId": "b21c515f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the sign pattern",
+      "content": "The inequality is $4x-8y>16$. In the region where $x<0$ and $y>0$, the term $4x$ is negative and the term $-8y$ is also negative."
+    },
+    {
+      "title": "Show it cannot work",
+      "content": "In that region, $4x-8y$ is always negative. A negative value cannot be greater than $16$, so the region contains no solution points.<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

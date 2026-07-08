@@ -1,0 +1,19 @@
+{
+  "questionId": "8f35ad8a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the source of doubt",
+      "content": "Ecologists express reservations about traditional descriptions after comparing them with recent observations. The blank must name a mismatch that would make those descriptions seem less useful."
+    },
+    {
+      "title": "Remove nonmismatch words",
+      "content": "<ul><li><strong>Choice A</strong> means declarations and does not explain doubt.</li><li><strong>Choice B</strong> means similarities, which would support the descriptions.</li><li><strong>Choice C</strong> means repeated appearances, not conflict between descriptions and observations.</li></ul>"
+    },
+    {
+      "title": "Name the disagreement",
+      "content": "Discrepancies between the traditional descriptions and recent observations would naturally lead ecologists to question the descriptions' utility. The answer is <strong>D</strong>."
+    }
+  ]
+}

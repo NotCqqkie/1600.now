@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "This is a list with internal commas: items \"intricate patterns... which often held symbolic significance,\" \"depictions of birds, horses, and other animals,\" and \"inlaid enamel accents.\" Because the second item already contains commas, the items must be separated by <strong>semicolons</strong>."
+      "title": "Identify the list",
+      "content": "The sentence lists common elements in Celtic art: intricate spiral patterns, depictions of animals, and inlaid enamel accents. Because one item contains commas, the list uses semicolons to mark the major separations."
     },
     {
-      "title": "Apply the rule",
-      "content": "The list already contains a semicolon later (\"...animals; and inlaid enamel accents\"), so all separators must be semicolons. The blank must be \"significance; depictions.\"<br/><br/><strong>A — \"significance. Depictions\"</strong>: A period would cut the sentence in two, leaving \"These included intricate patterns...\" without completing the list. Fails.<br/><br/><strong>B — \"significance: depictions\"</strong>: A colon signals an explanation or formal list introduction, not a list separator mid-sentence. Fails.<br/><br/><strong>C — \"significance; depictions\"</strong>: A semicolon correctly separates the first list item from the second in a semicolon-separated list. Correct.<br/><br/><strong>D — \"significance, depictions\"</strong>: A comma is the default list separator, but when items in the list already contain commas (\"birds, horses, and other animals\"), commas cannot serve as the list separator — readers cannot tell where one item ends and the next begins. Fails."
+      "title": "Choose the list separator",
+      "content": "Choice A creates a fragment after the period. Choice B uses a colon where the sentence needs a list separator. Choice D uses a comma, which is too weak for this comma-heavy list. A semicolon after “significance” correctly separates the first item from “depictions.” The answer is <strong>C</strong>."
     }
   ]
 }

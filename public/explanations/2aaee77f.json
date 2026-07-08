@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Text Structure and Purpose question. The question asks for the function of the underlined sentence: &quot;Female cuckoos have been seen quickly laying eggs in the nests of other bird species when those birds are out looking for food.&quot; We need to identify what role this specific sentence plays within the passage."
+      "title": "Tie the detail to cuckoo behavior",
+      "content": "The text first explains that some birds lay eggs in other species' nests. The underlined sentence gives a specific detail about how female cuckoos carry out that behavior: they lay eggs quickly while the host birds are away. It adds timing and method, not a new topic."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; It introduces a physical feature of female cuckoos that is described later in the text.</strong>: The underlined sentence describes behavior (quick egg-laying while birds forage), not any physical feature like size, color, or body part. Nothing later in the text describes a physical feature introduced here. &#10007;</li><li><strong>Choice B &mdash; It describes the appearance of the cuckoo nests mentioned earlier in the text.</strong>: The underlined sentence says nothing about the appearance of nests. It describes when and how the egg-laying happens. &#10007;</li><li><strong>Choice C &mdash; It offers a detail about how female cuckoos carry out the behavior discussed in the text.</strong>: The preceding sentences establish the general behavior (adult females lay eggs in other nests). The underlined sentence adds the operational detail of how this is done: quickly, and timed for when the host birds are away foraging. This is exactly a detail about carrying out the behavior. &#10003;</li><li><strong>Choice D &mdash; It explains how other birds react to the female cuckoo behavior discussed in the text.</strong>: The other birds&apos; reaction (raising the cuckoo chicks) is described in the sentence after the underlined one. The underlined sentence focuses on the cuckoo&apos;s own actions, not the host birds&apos; response. &#10007;</li></ul>That matches <strong>Choice C &mdash; It offers a detail about how female cuckoos carry out the behavior discussed in the text.</strong>."
+      "title": "Reject the wrong functions",
+      "content": "Choice A says the sentence introduces a physical feature, but it describes behavior. Choice B says it describes nests' appearance, which it does not. Choice D refers to host birds' reactions, which are discussed after the underlined sentence. The sentence stays focused on the cuckoo's action before the egg hatches. The answer is <strong>C</strong>."
     }
   ]
 }

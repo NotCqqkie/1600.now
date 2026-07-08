@@ -1,0 +1,15 @@
+{
+  "questionId": "7977f836",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match latitude to ice",
+      "content": "The claim predicts that a lake at a higher latitude will typically have more days with measurable surface ice than a lake at a lower latitude."
+    },
+    {
+      "title": "Choose the supporting comparison",
+      "content": "A contradicts the claim, while B and C give ice-day numbers without the needed two-lake latitude comparison. The supporting data must show higher latitude with more ice days. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0a2e4305",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the proximity clue",
+      "content": "More Quito respondents reported using parks than Lima respondents did. But fewer Quito respondents lived within a 10-minute walk of a park, so proximity alone cannot explain the difference in park use."
+    },
+    {
+      "title": "Avoid unsupported claims",
+      "content": "A mentions expectations not discussed, B questions survey accuracy without evidence, and C invents older sources. The text attributes the difference to something other than park proximity. The answer is <strong>D</strong>."
+    }
+  ]
+}

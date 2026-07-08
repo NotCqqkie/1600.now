@@ -1,0 +1,19 @@
+{
+  "questionId": "d7dafd9e",
+  "correctAnswer": "61/64,0.953,.9531",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up",
+      "content": "The condition \"not a motor neuron\" restricts the sample space to Sensory and Interneurons only. From the table: Sensory total $= 13 + 9 + 3 = 25$; Interneuron total $= 10 + 29 + 0 = 39$. Restricted sample space $= 25 + 39 = 64$."
+    },
+    {
+      "title": "Solve",
+      "content": "Count those with diameter ≤ 30 µm (the \"Less than 20\" and \"20 to 30\" columns): Sensory: $13 + 9 = 22$. Interneurons: $10 + 29 = 39$. Total favorable $= 22 + 39 = 61$. $$P(\\text{diameter} \\leq 30 \\mid \\text{not motor}) = \\frac{61}{64} \\approx 0.9531$$"
+    },
+    {
+      "title": "Answer",
+      "content": "<strong>61/64</strong> (or 0.953 /.9531) is correct."
+    }
+  ]
+}

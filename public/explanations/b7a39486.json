@@ -1,0 +1,15 @@
+{
+  "questionId": "b7a39486",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the rank goal",
+      "content": "The student wants to emphasize Mauritania's global rank for its youth population. The relevant notes are the country-specific ones: 39.9 percent of Mauritania's population is under fifteen years old, and Mauritania has the thirty-fourth-largest under-fifteen population in the world. Broader facts about Africa or a UN quotation do not directly state Mauritania's rank."
+    },
+    {
+      "title": "Use the world-rank note",
+      "content": "Choice A combines Mauritania's under-fifteen percentage with its thirty-fourth-place world rank, so it directly addresses the requested emphasis. Choice B makes an unsupported causal claim about Africa's youth population. Choice C focuses on Africa as a whole and a UN statement, while Choice D quotes the UN about empowerment. Neither gives Mauritania's position among countries worldwide for that age group. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the cost function",
-      "content": "First 25 people: $25 \\cdot 28 = 700$ dollars. Each additional person beyond 25: \\$17 each. Number of additional people: $n - 25$.<br/>$$f(n) = 700 + 17(n - 25)$$"
+      "title": "Separate the fixed group",
+      "content": "First group: $25$ people at $28$ dollars. Extra group: $n-25$ people at $17$ dollars."
     },
     {
-      "title": "Simplify",
-      "content": "$f(n) = 700 + 17n - 425 = 17n + 275$.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Write and simplify",
+      "content": "$$f(n)=25(28)+17(n-25)$$<br/>$$f(n)=700+17n-425$$<br/>$$f(n)=17n+275$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

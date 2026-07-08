@@ -1,0 +1,15 @@
+{
+  "questionId": "8993f846",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the concession",
+      "content": "The first sentence says Ningbo expanded its rapid transit system during the 2020s. The second says the system will likely need even more expansion, so the relationship is despite that earlier expansion."
+    },
+    {
+      "title": "Reject contrast and sequence",
+      "content": "B would contrast two different things, C would introduce an example, and D would signal replacement. A concessive transition meaning nevertheless fits the idea that more expansion may still be needed. The answer is <strong>A</strong>."
+    }
+  ]
+}

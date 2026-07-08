@@ -1,19 +1,15 @@
 {
-  "section": "Reading and Writing",
+  "questionId": "94f48106",
   "correctAnswer": "B",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to explain WHY brine pools are toxic to most sea life. A good answer must give the cause (extreme saltiness) and connect it to toxicity."
+      "title": "State the salinity cause",
+      "content": "The student wants to explain why brine pools are toxic to most sea life. The relevant notes link the toxicity directly to extreme saltiness: brine pools are three to eight times saltier than the surrounding ocean."
     },
     {
-      "title": "Match the notes to the goal",
-      "content": "The notes say the water is three to eight times saltier than the surrounding ocean and that this extreme saltiness is what makes it toxic. The correct answer states both halves of that cause-and-effect in one sentence."
-    },
-    {
-      "title": "Eliminate the others",
-      "content": "<ul><li><strong>Choice A &mdash; Though brine pools are toxic to most sea life, some bacteria can survive there.</strong>: notes an exception to the toxicity but never explains the cause. &#10007;</li><li><strong>Choice B &mdash; The water in brine pools is toxic to most sea life because it is three to eight times saltier than the surrounding ocean.</strong>: gives the salinity cause and the toxicity effect. &#10003;</li><li><strong>Choice C &mdash; The brine pools in the Gulf of Aqaba are toxic to most sea life and were discovered by researchers in 2022.</strong>: states the toxicity but explains the discovery, not the reason. &#10007;</li><li><strong>Choice D &mdash; Brine pools are salty underwater lakes that sit on the ocean floor.</strong>: defines a brine pool without mentioning toxicity at all. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Exclude noncausal details",
+      "content": "A notes that some bacteria survive but does not explain the cause of toxicity. C combines toxicity with discovery date, not cause. D defines brine pools but does not explain their toxic effect. The answer is <strong>B</strong>."
     }
-  ],
-  "questionId": "94f48106"
+  ]
 }

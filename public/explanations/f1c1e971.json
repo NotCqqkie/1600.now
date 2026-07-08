@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the circle facts first: radii are equal, a diameter sets up a right angle, a tangent is perpendicular to the radius, and central/inscribed angles connect to arcs."
+      "title": "Add the radian measures",
+      "content": "Angle $T$ is $\\frac{7\\pi}{12}$ radians greater than angle $R$, so add the two radian measures. Convert $\\frac{5\\pi}{6}$ to twelfths first.<br/>$$T=\\frac{5\\pi}{6}+\\frac{7\\pi}{12}$$<br/>$$T=\\frac{10\\pi}{12}+\\frac{7\\pi}{12}$$<br/>$$T=\\frac{17\\pi}{12}$$"
     },
     {
-      "title": "Find angle T in radians",
-      "content": "Angle $T$ is $\\frac{7\\pi}{12}$ radians greater than angle $R = \\frac{5\\pi}{6}$, so:<br/>$$T = \\frac{5\\pi}{6} + \\frac{7\\pi}{12}$$To add these fractions, convert $\\frac{5\\pi}{6}$ to a denominator of 12:<br/>$$\\frac{5\\pi}{6} = \\frac{10\\pi}{12}$$Therefore:<br/>$$T = \\frac{10\\pi}{12} + \\frac{7\\pi}{12} = \\frac{17\\pi}{12}$$"
-    },
-    {
-      "title": "Convert from radians to degrees",
-      "content": "Multiply by the conversion factor $\\frac{180^{\\circ}}{\\pi}$:<br/>$$T = \\frac{17\\pi}{12} \\cdot \\frac{180^{\\circ}}{\\pi} = \\frac{17 \\cdot 180^{\\circ}}{12} = 17 \\cdot 15^{\\circ} = 255^{\\circ}$$That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Convert to degrees",
+      "content": "Multiply by $\\frac{180^\\circ}{\\pi}$.<br/>$$\\frac{17\\pi}{12}\\cdot\\frac{180^\\circ}{\\pi}=17\\cdot15^\\circ=255^\\circ$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

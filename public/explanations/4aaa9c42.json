@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express (b+c) in terms of b",
-      "content": "From $b = 0.82c$, we get $c = b/0.82$. Therefore:<br/>$$b + c = b + \\frac{b}{0.82} = b\\left(1 + \\frac{1}{0.82}\\right) = b\\left(\\frac{1.82}{0.82}\\right)$$"
+      "title": "Relate the variables",
+      "content": "Use $b=0.82c$, so $c=\\frac{b}{0.82}$."
     },
     {
-      "title": "Calculate the ratio a/b",
-      "content": "Using $a = 22.14(b + c)$:<br/>$$\\frac{a}{b} = 22.14 \\cdot \\frac{b + c}{b} = 22.14 \\cdot \\frac{1.82}{0.82}$$<br/>Compute: $22.14 \\times 1.82 = 40.2948$, then $40.2948 \\div 0.82 = 49.14$."
+      "title": "Find the ratio",
+      "content": "$$\n\\frac{a}{b}=22.14(1+\\frac{1}{0.82})=49.14\n$$"
     },
     {
-      "title": "Convert to a percentage",
-      "content": "$$\\frac{a}{b} \\times 100\\% = 49.14 \\times 100\\% = 4914\\%$$<br/><strong>D</strong> is correct."
+      "title": "Convert to percent",
+      "content": "$$\n49.14\\cdot100\\%=4{,}914\\%\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

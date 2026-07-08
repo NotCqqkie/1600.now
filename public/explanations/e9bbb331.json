@@ -1,0 +1,15 @@
+{
+  "questionId": "e9bbb331",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect wax removal to recovery",
+      "content": "The alkaline treatment removed epicuticular wax and recovered the largest share of particulates, 53.8 percent. That suggests many particles adhere to wax and would be missed by methods that do not substantially affect it."
+    },
+    {
+      "title": "Reject unsupported study features",
+      "content": "Choice B focuses on tree diversity, not extraction accuracy. Choice C says earlier studies found concentrations above 53.8 percent, which would not support underestimation. Choice D focuses on treatment order rather than missed wax-bound particles. Prior methods that leave wax intact would explain underestimates. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "75fd013b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a plain plural noun",
+      "content": "The blank is the object of the preposition by. The chemists are the people using the emulsifiers, so the sentence needs a plain plural noun, not a possessive form."
+    },
+    {
+      "title": "Remove possessive errors",
+      "content": "Choice A is a plural possessive, Choice B is a singular possessive, and Choice D puts a possessive on the wrong word. None expresses simple users of emulsifiers. The answer is <strong>C</strong>."
+    }
+  ]
+}

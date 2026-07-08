@@ -1,0 +1,15 @@
+{
+  "questionId": "4cabe8be",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared frame claim",
+      "content": "Text 1 says many Impressionists chose painted frames to distinguish their work from conventional gold Salon frames. Text 2 says painted frames were chosen for aesthetic harmony with the paintings. Both describe deliberate frame selection."
+    },
+    {
+      "title": "Exclude unsupported contrasts",
+      "content": "B contradicts Text 1 because Pissarro's painted frames were like those of many Impressionists. C reverses Text 2's direction: the frame color was chosen for the painting, not the painting for the frame. D adds an unsupported claim about buyers wanting gold frames. The answer is <strong>A</strong>."
+    }
+  ]
+}

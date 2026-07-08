@@ -1,0 +1,15 @@
+{
+  "questionId": "f2c59cee",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given time",
+      "content": "The equation gives speed after $t$ seconds. Substitute $t=6$.\n$$s=48+3(6)$$"
+    },
+    {
+      "title": "Compute the speed",
+      "content": "Evaluate the expression.\n$$s=48+18$$\n$$s=66$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

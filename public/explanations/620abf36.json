@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat x plus 5 as a block",
-      "content": "Both sides contain $x+5$: $$6(x+5)=5(x+5)+31$$ Subtract $5(x+5)$ from both sides."
+      "title": "Treat the group as one term",
+      "content": "The expression $x+5$ appears on both sides, so subtract $5(x+5)$ from both sides.\n$$6(x+5)=5(x+5)+31$$\n$$x+5=31$$"
     },
     {
-      "title": "Solve for the requested expression",
-      "content": "$$x+5=31$$ The problem asks for $x+5$, so no extra subtraction is needed."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C (&lsquo;$31$&rsquo;) is $31$, so it is correct. Choice B, $26$, is the value of $x$, not the requested value $x+5$."
+      "title": "Answer the requested value",
+      "content": "The problem asks for $x+5$, not for $x$. The answer is <strong>C</strong>."
     }
   ]
 }

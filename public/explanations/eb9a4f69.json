@@ -1,0 +1,15 @@
+{
+  "questionId": "eb9a4f69",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a pollinator confound",
+      "content": "The first phase blocked insects from reaching cucumber plants. To support the researchers' claim, the finding must show that the experiment excluded more than honeybees, so the effect cannot be assigned only to honeybees."
+    },
+    {
+      "title": "Separate relevant evidence",
+      "content": "Choice A concerns onions, Choice C compares honeybee use across crops, and Choice D rules out sunlight but not other pollinators. Evidence that squash bees pollinate cucumbers and were blocked explains why the drop is not honeybee-specific. The answer is <strong>B</strong>."
+    }
+  ]
+}

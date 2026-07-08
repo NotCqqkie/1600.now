@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand the x-intercept",
-      "content": "The x-intercept of a function is the point where the graph crosses the x-axis. This occurs where the $y$-value equals zero."
+      "title": "Locate the intercept type",
+      "content": "The $x$-intercept is where the graph crosses the $x$-axis. At that point, the $y$-coordinate is $0$."
     },
     {
-      "title": "Read the x-intercept from the graph",
-      "content": "Examining the grid, locate where the line intersects the x-axis. The line crosses at $x = -12$, so the x-intercept is the point $(-12, 0)$. That is the correct answer."
+      "title": "Read the graph point",
+      "content": "From the graph, the line crosses the $x$-axis at $x=-12$. Therefore, the intercept is\n+$$(-12,0)$$\n+The answer is <strong>A</strong>."
     }
   ]
 }

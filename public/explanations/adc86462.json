@@ -1,0 +1,15 @@
+{
+  "questionId": "adc86462",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the classification logic",
+      "content": "The passage says the hardingfele produces sound primarily through vibrating strings. Under Hornbostel-Sachs, an instrument that produces sound this way is classified as a chordophone, so the next sentence draws a conclusion."
+    },
+    {
+      "title": "Reject nonconclusion transitions",
+      "content": "Choice A signals contrast. Choice B adds a separate point. Choice D signals similarity between separate things, but no comparison is being made. The transition must show a logical result from the previous sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7e062031",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare captive and wild settings",
+      "content": "The passage says captive primate studies show more right-handedness than wild primate studies. The blank follows \"therefore,\" so it should explain why the captive setting might produce more right-handed behavior."
+    },
+    {
+      "title": "Explain the captivity effect",
+      "content": "A and C focus on sample size, which does not explain why captivity would matter. B points to different criteria between two studies, not to the captive-wild difference. The answer is <strong>D</strong>."
+    }
+  ]
+}

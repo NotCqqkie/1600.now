@@ -1,0 +1,15 @@
+{
+  "questionId": "d017ca7c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause",
+      "content": "The trend is that many recently discovered minor planets receive only identification numbers. The sentence explains the reason: there are over 500,000 such bodies, making unique names nearly impossible."
+    },
+    {
+      "title": "Reject noncausal words",
+      "content": "B means called or directed to, C means hinted at, and D means placed in someone's care. The idiom needed here expresses that the trend is caused by or explained by the large number of bodies. The answer is <strong>A</strong>."
+    }
+  ]
+}

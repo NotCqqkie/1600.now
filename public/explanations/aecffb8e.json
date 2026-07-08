@@ -1,0 +1,19 @@
+{
+  "questionId": "aecffb8e",
+  "correctAnswer": "163",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constants",
+      "content": "From $(0,-\\sqrt{326})$, substitute $x=0$:\n$$\n-\\sqrt{c}=-\\sqrt{326}\n$$\nso $c=326$. From $(2,0)$, the radicand must be $0$:\n$$\n4+2b+326=0\n$$\nso $b=-165$."
+    },
+    {
+      "title": "Set the radicand to zero",
+      "content": "If $h(m)=0$, then\n$$\nm^2-165m+326=0\n$$\nUse the quadratic formula:\n$$\nm=\\frac{165\\pm \\sqrt{165^2-4(326)}}{2}=\\frac{165\\pm 161}{2}\n$$"
+    },
+    {
+      "title": "Choose the greater value",
+      "content": "The two possible values are\n$$\n\\frac{165+161}{2}=163,\\quad \\frac{165-161}{2}=2\n$$\nThe greater value comes from the plus sign. The answer is <strong>163</strong>."
+    }
+  ]
+}

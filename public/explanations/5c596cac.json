@@ -1,0 +1,15 @@
+{
+  "questionId": "5c596cac",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the contrast cleanly",
+      "content": "The sentence first says OHD requires calibration based on context and composition. The word though then introduces a qualification: several other factors affect rind growth. The following clause explains that qualification by listing temperature, water vapor pressure, and glass chemistry."
+    },
+    {
+      "title": "Use comma plus colon",
+      "content": "Choice B lacks needed punctuation, Choice C misuses a semicolon before though, and Choice D treats though as a parenthetical before a full clause. The remaining choice sets up the contrast and introduces the factor list. The answer is <strong>A</strong>."
+    }
+  ]
+}

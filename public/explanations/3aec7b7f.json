@@ -1,0 +1,15 @@
+{
+  "questionId": "3aec7b7f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State law and example need",
+      "content": "The student wants both an explanation and an example of Kepler's first law of planetary motion. The relevant explanation is that orbits are elliptical and that the object being orbited is one focus of the ellipse. The relevant example from the notes is Europa, a moon of Jupiter, because Europa's orbit is elliptical and Kepler's laws also apply to moons."
+    },
+    {
+      "title": "Require a concrete example",
+      "content": "Choice A gives only a partial statement of the law and does not provide an example. Choice B focuses on Europa's orbital period, which concerns time rather than the elliptical shape described by the first law. Choice C gives a generic example about satellites instead of a concrete one from the notes. The choice about Europa gives a specific elliptical orbit and notes that the law applies to moons. The answer is <strong>D</strong>."
+    }
+  ]
+}

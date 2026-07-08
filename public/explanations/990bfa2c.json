@@ -1,0 +1,15 @@
+{
+  "questionId": "990bfa2c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two methods",
+      "content": "The sentence compares the program with the road-map method. The program identified sidewalks more accurately and distinguished sidewalk materials, so the blank should show that it performed better."
+    },
+    {
+      "title": "Choose the better-than word",
+      "content": "B means helpful, C means alike, and D means altered; none expresses higher quality than the road-map method. The answer is <strong>A</strong>."
+    }
+  ]
+}

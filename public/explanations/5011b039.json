@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Match the circle form",
+      "content": "A circle equation in standard form is\n$$\n(x-h)^2+(y-k)^2=r^2\n$$\nThe given equation has $144$ on the right side, so $r^2=144$."
     },
     {
-      "title": "Recognize the standard form of a circle equation",
-      "content": "The equation $(x-3)^2 + (y+4)^2 = 144$ matches the standard form $(x-h)^2 + (y-k)^2 = r^2$. In this form, the number on the right side of the equation is $r^2$ (the radius squared), not the radius itself."
-    },
-    {
-      "title": "Extract the radius from the equation",
-      "content": "From the equation, we have $r^2 = 144$. To find the radius, take the square root of both sides: $$r = \\sqrt{144} = 12$$ The radius of the circle is <strong>12</strong>."
+      "title": "Use the radius value",
+      "content": "The number on the right side is the radius squared, not the radius itself. Since the radius is positive,\n$$\nr=\\sqrt{144}=12\n$$\nThe answer is <strong>12</strong>."
     }
   ]
 }

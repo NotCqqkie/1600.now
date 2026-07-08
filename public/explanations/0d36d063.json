@@ -1,0 +1,15 @@
+{
+  "questionId": "0d36d063",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the freezer role",
+      "content": "The task asks what refrigerants do in freezers. The notes state that freezers use refrigerants to absorb heat and release cold air, with fluoromethane given as an example of a refrigerant."
+    },
+    {
+      "title": "Reject chemistry-only details",
+      "content": "Choice A describes freezers without naming refrigerants. Choice B gives fluoromethane's chemical composition instead of its function. Choice C mentions phase changes but does not directly state the freezer role. The needed sentence names the role directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

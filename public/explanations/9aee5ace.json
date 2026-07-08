@@ -1,0 +1,15 @@
+{
+  "questionId": "9aee5ace",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the location",
+      "content": "The first sentence identifies India as the country associated with the Cheruku rasamu mango. The next sentence gives a mango production figure, so the transition should point back to that same place."
+    },
+    {
+      "title": "Choose the place marker",
+      "content": "Choice A suggests the production figure is a consequence of the mango's origin. Choice C suggests emphasis or correction, and Choice D suggests narrowing a point. The sentence simply means that in India, 18.8 million metric tons of mangoes were produced in 2018. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "56f6ad9d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Divide both sides by $3$.<br/>$$|x-7|=\\frac{k}{3}$$"
+    },
+    {
+      "title": "Force one solution",
+      "content": "An absolute value equation $|x-7|=r$ has exactly one solution only when $r=0$. A positive $r$ gives two solutions, and a negative $r$ gives no real solutions. Therefore<br/>$$\\frac{k}{3}=0$$The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the claim and how to weaken it",
-      "content": "The underlined claim is: Puerto Rican guinea pigs probably came from Colombia and descended from Colombian guinea pigs. The evidence for it is that ancient trade routes linked Puerto Rico to Colombia, not Peru. To weaken this claim, we need something showing the guinea pigs actually came from Peru instead &mdash; the best tool is direct genetic evidence of ancestry."
+      "title": "Target the Colombian claim",
+      "content": "The underlined claim says guinea pigs in Puerto Rico probably came from Colombia and descended from Colombian guinea pigs. The passage supports that claim with trade-route evidence: ancient routes connected Puerto Rico with Colombia but not with Peru. To weaken the claim directly, the finding should challenge Colombian ancestry, not merely describe Puerto Rican culture or later guinea pig appearances."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"Ancient guinea pigs in Puerto Rico were genetically less similar to ancient guinea pigs in Colombia than to ancient guinea pigs in Peru.\"</strong>: Genetic similarity directly measures descent. Greater similarity to Peruvian guinea pigs means they likely descended from Peruvian stock &mdash; the strongest possible challenge to a Colombian-origin claim. &#10003;</li><li><strong>\"Guinea pigs are common in ancient Puerto Rican art, especially in pottery.\"</strong>: Cultural frequency says nothing about whether the animals came from Colombia or Peru. &#10007;</li><li><strong>\"Modern breeds of guinea pigs don't look like images of guinea pigs in ancient art from Puerto Rico, Colombia, and Peru.\"</strong>: Appearance differences between modern and ancient breeds don&rsquo;t reveal which ancient population Puerto Rican guinea pigs descended from. &#10007;</li><li><strong>\"The guinea pig population of ancient Colombia was much larger than the guinea pig population of ancient Peru.\"</strong>: Population size has no bearing on which population served as the source for Puerto Rico &mdash; a smaller Peruvian population could still have been the origin. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Use genetic evidence",
+      "content": "A says ancient Puerto Rican guinea pigs were genetically less similar to Colombian guinea pigs than to Peruvian guinea pigs, which points away from Colombian descent and toward Peru despite the trade-route evidence. B only shows that guinea pigs appeared often in Puerto Rican art. C compares modern breeds with ancient art, not ancient populations with one another. D makes a Colombian source seem more available, so it does not weaken the claim. The answer is <strong>A</strong>."
     }
   ]
 }

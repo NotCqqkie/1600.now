@@ -1,0 +1,19 @@
+{
+  "questionId": "09a04928",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Reconcile the two findings",
+      "content": "Ellis and Chen found that liberalization did not create enduring increases in investment. Rao found that investment rose significantly during the first three years after liberalization. The conclusion needs to fit both results at once: an early increase paired with no lasting increase."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A claims more consistent investment growth, but the lack of enduring increases points against consistency. Choice B reverses the timing because Rao found increases in the first three years, not only after that period. Choice C refers to economists' expectations, which the passage never gives."
+    },
+    {
+      "title": "Choose the combined result",
+      "content": "The remaining statement captures both studies without adding a comparison to nonliberalized countries or outside expectations: liberalization can raise investment at first, but that rise may not continue over time. The answer is <strong>D</strong>."
+    }
+  ]
+}

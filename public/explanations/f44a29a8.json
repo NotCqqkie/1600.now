@@ -5,12 +5,12 @@
   "steps": [
     {
       "title": "Substitute values into the kinetic energy formula",
-      "formula": "$$KE = \\frac{1}{2}mv^2$$",
-      "content": "With KE = 27 joules and m = 6 kilograms, substitute into the formula:<br/>$$27 = \\frac{1}{2}(6)v^2$$<br/>$$27 = 3v^2$$"
+      "content": "With KE = 27 joules and m = 6 kilograms, substitute into the formula:<br/>$$27 = \\frac{1}{2}(6)v^2$$<br/>$$27 = 3v^2$$",
+      "formula": "$$KE = \\frac{1}{2}mv^2$$"
     },
     {
       "title": "Solve for speed",
-      "content": "Divide both sides by 3:<br/>$$v^2 = 9$$<br/>Take the positive square root:<br/>$$v = 3 \\text{ meters per second}$$<br/>That matches the correct answer - <strong>A</strong> is correct."
+      "content": "Divide both sides by 3:<br/>$$v^2 = 9$$<br/>Take the positive square root:<br/>$$v = 3 \\text{ meters per second}$$<br/>That matches the correct answer."
     }
   ]
 }

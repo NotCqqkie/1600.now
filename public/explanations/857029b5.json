@@ -1,0 +1,15 @@
+{
+  "questionId": "857029b5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the although contrast",
+      "content": "The sentence presents a surprising mismatch: Philip II's government regularly defaulted on debt, yet it ran a larger surplus than a government seen as fiscally virtuous. The blank must name that inconsistency."
+    },
+    {
+      "title": "Reject unrelated nouns",
+      "content": "A means a sign of something future, B means a model example, and C means permission or a penalty. None captures the contradiction between defaulting and running a surplus. The answer is <strong>D</strong>."
+    }
+  ]
+}

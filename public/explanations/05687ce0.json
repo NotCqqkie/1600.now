@@ -1,0 +1,15 @@
+{
+  "questionId": "05687ce0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the distances",
+      "content": "The JWST is almost one million miles beyond Earth's orbit. Hubble is only about 340 miles above Earth's surface. The transition must signal a sharp contrast."
+    },
+    {
+      "title": "Choose a contrast signal",
+      "content": "Choice B signals cause and effect, Choice C signals sequence, and Choice D signals similarity. None matches the opposition between the two telescope locations. A contrast transition directly fits the relationship. The answer is <strong>A</strong>."
+    }
+  ]
+}

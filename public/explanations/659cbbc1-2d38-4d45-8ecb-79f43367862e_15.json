@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the paint coverage rate",
-      "content": "One gallon covers $70$ square yards. Painting an area of $w$ square yards once would require $\\frac{w}{70}$ gallons."
+      "title": "Double the wall area",
+      "content": "Painting the walls twice means covering the total wall area twice. The total area painted is $2w$ square feet."
     },
     {
-      "title": "Account for two coats",
-      "content": "Painting the same area twice doubles the amount of paint needed:<br/>$$P=2\\left(\\frac{w}{70}\\right)=\\frac{2w}{70}=\\frac{w}{35}$$"
-    },
-    {
-      "title": "Match the choice",
-      "content": "$P=\\frac{w}{35}$ confirms <strong>D</strong>, so <strong>D</strong> is correct."
+      "title": "Convert area to gallons",
+      "content": "One gallon covers $70$ square feet, so divide the total painted area by $70$. <br/>$$P=\\frac{2w}{70}=\\frac{w}{35}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "ee763f27",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the clam evidence",
+      "content": "The passage says archaeological evidence showed significant increases in clam size and abundance at the same time the Kwakwaka'wakw terraced garden method was used. A supported conclusion must stay tied to that evidence: the method affected the clam food source. It should not add claims about other groups, present-day use, or adoption by outsiders."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "<ul><li><strong>Choice B</strong> says non-Indigenous people adopted the practice after observing it, but the passage never discusses adoption by non-Indigenous people.</li><li><strong>Choice C</strong> compares archaeological support for Kwakwaka'wakw songs with support for Temiar and Lakota songs, but the passage does not make that comparison.</li><li><strong>Choice D</strong> claims contemporary Kwakwaka'wakw people no longer use those methods, but the passage gives no information about current use.</li></ul>"
+    },
+    {
+      "title": "Connect size and abundance",
+      "content": "<strong>Choice A</strong> says the ancestral practice maintained a food source and promoted its robustness. That matches the evidence: if clams became larger and more abundant while the terraced gardens were used, the practice both supported the food source and made it stronger. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question is asking",
-      "content": "The question asks for the <strong>conclusion</strong> of Zhao and colleagues' 2016 study. The notes distinguish background facts (the mutations exist; both animals have them) from the study's actual finding: the dogs first acquired these mutations <em>by interbreeding with Tibetan wolves around 24,000 years ago</em>. A conclusion is a causal finding, not just a description of shared traits.<ul><li><strong>Choice A &mdash; Like Tibetan mastiffs, Tibetan wolves can withstand hypoxic conditions at high altitudes.</strong>: States a shared capability but says nothing about origin or the 2016 study's finding. &#10007;</li><li><strong>Choice B &mdash; Both Tibetan mastiffs and Tibetan wolves have mutations in their EPAS1 and HBB genes, which prevent excess hemoglobin production and boost hemoglobin's oxygen-carrying ability, respectively.</strong>: Describes a shared genetic trait, not the study&apos;s conclusion. &#10007;</li><li><strong>Choice C &mdash; In addition to preventing excess hemoglobin production, a mutation in Tibetan mastiffs' HBB gene boosts hemoglobin's oxygen-carrying ability.</strong>: Describes one gene&apos;s function in isolation and misrepresents the notes. Not a study conclusion. &#10007;</li><li><strong>Choice D &mdash; By interbreeding with Tibetan wolves around 24,000 years ago, Tibetan mastiffs acquired the genetic mutations that enable them to withstand hypoxic conditions.</strong>: Directly states the study&apos;s causal conclusion about origin and timing. &#10003;</li></ul>"
+      "title": "Separate facts from conclusion",
+      "content": "The question asks for the conclusion of Zhao and colleagues' study. The notes give background facts about mutations in mastiffs and wolves, then state the study's conclusion: mastiffs acquired those mutations through interbreeding with Tibetan wolves around 24,000 years ago."
     },
     {
-      "title": "Confirm the match",
-      "content": "The Zhao study concluded that mastiffs acquired altitude-adaptation mutations through interbreeding with wolves ~24,000 years ago. The correct answer captures this causal, time-specific finding.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject background facts",
+      "content": "A states a shared high-altitude ability, B states shared mutations, and C discusses one gene's function. Those are background details, not the study's causal conclusion about origin, timing, and interbreeding with Tibetan wolves. The answer is <strong>D</strong>."
     }
   ]
 }

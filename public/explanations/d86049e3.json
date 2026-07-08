@@ -1,0 +1,15 @@
+{
+  "questionId": "d86049e3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the map problem",
+      "content": "Tracking pedestrian activity can produce incomplete sidewalk maps because sidewalks with few pedestrians may be left out. The blank must mean fails to account for or overlooks."
+    },
+    {
+      "title": "Match the omission",
+      "content": "Choice A means overlooks, matching incomplete maps. Choice B means supervises, which does not fit. Choice C means endorses. Choice D means finds, the opposite of the problem described. The answer is <strong>A</strong>."
+    }
+  ]
+}

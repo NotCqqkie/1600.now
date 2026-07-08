@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Build the linear equation from initial height and rate",
-      "content": "The car starts at height 17 feet. It rises at 9 feet per second, meaning after each second of time $s$, the height increases by $9s$ feet total. Therefore:<br/>$$h = \\text{initial height} + \\text{total rise} = 17 + 9s$$<br/>Rewriting in standard form:<br/>$$h = 9s + 17$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Use starting height and rate",
+      "content": "The cable car starts $17$ feet above the ground and rises $9$ feet each second. After $s$ seconds, the total rise is $9s$."
+    },
+    {
+      "title": "Write the height equation",
+      "content": "Add the starting height and the rise after $s$ seconds.<br/>$$h=17+9s$$<br/>$$h=9s+17$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

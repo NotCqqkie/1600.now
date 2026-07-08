@@ -1,0 +1,15 @@
+{
+  "questionId": "4cc48b23",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the four",
+      "content": "Start with the part of the expression that has multiplication outside the parentheses. The $4$ must be distributed to both terms inside $(x^2+7)$, so multiply $4$ by $x^2$ and by $7$:\n$$4(x^2+7)=4x^2+28$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Substitute the expanded terms back into the full expression. The only like terms are $9x^2$ and $4x^2$; the $x^3$, $-5x$, and $28$ terms do not combine with anything else:\n$$(x^3+9x^2-5x)+(4x^2+28)=x^3+13x^2-5x+28$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

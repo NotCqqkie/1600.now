@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a textual evidence question asking which critic's quotation most directly challenges the underlined claim. The claim is that Medell&iacute;n's style is &quot;so idiosyncratic that it resists efforts to view his work through the lens of nationality or cultural identity.&quot; To challenge it, a quotation must show the work actually invites classification by nationality or cultural identity."
+      "title": "Define the challenged claim",
+      "content": "The underlined claim says Medellin's style is so idiosyncratic that it resists being viewed through nationality or cultural identity. Because the question asks for a challenge, the quotation must push against that idea by saying the work can be classified through one of those cultural lenses, not merely by naming one influence."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — \"Although a number of ancient Indigenous artistic traditions pictured human forms in profile, the forms populating the surface of <em>A History of Mexico</em> suggest a specifically Maya influence.\"</strong>: Identifying one influence does not argue the whole work invites cultural classification or resists the &quot;idiosyncratic&quot; label. It supports, rather than challenges, the idea that many traditions blend in the work. &#10007;</li><li><strong>Choice B — \"In <em>A History of Mexico</em>, the synthesis of ancient and modernist traditions functions as a stylistic parallel to the work's subject matter: a survey of centuries of Mexican history.\"</strong>: Describing how multiple traditions fuse into a unified style actually reinforces the claim that the work defies single-category classification rather than challenging it. &#10007;</li><li><strong>Choice C — \"Many critics focus on Indigenous influences in <em>A History of Mexico</em> and other key works by Medellín to the exclusion of influences from non-Indigenous art.\"</strong>: This argues critics should view all influences equally, which supports viewing the work as idiosyncratic and resisting narrow cultural lenses &mdash; it does not challenge the underlined claim. &#10007;</li><li><strong>Choice D — \"While <em>A History of Mexico</em> features modernist motifs, it relies primarily on angular human forms in profile—a staple of Maya sculpture—and thus invites classification as Indigenous art.\"</strong>: Directly states the work &quot;invites classification as Indigenous art,&quot; the exact cultural identity framing the claim says the work resists. This is a head-on challenge. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Separate support from challenge",
+      "content": "A identifies one Maya influence without classifying the whole work, B supports the idea that different traditions are synthesized, and C says critics overfocus on Indigenous influence while excluding other influences. The remaining quotation goes further by saying the work \"invites classification as Indigenous art,\" directly contradicting the claim that classification by cultural identity is resisted. The answer is <strong>D</strong>."
     }
   ]
 }

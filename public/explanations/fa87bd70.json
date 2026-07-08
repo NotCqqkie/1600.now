@@ -1,0 +1,15 @@
+{
+  "questionId": "fa87bd70",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the past-time frame",
+      "content": "The sentence begins with when we arrived, which places the action in the past. Later that day also keeps the narrative in the past, so the main verb for seeing the geoglyph should be simple past."
+    },
+    {
+      "title": "Reject tense shifts",
+      "content": "Choice A is present tense. Choice B is present progressive. Choice C is future tense. None matches the past-time frame set by arrived. The remaining verb is simple past and fits the completed action. The answer is <strong>D</strong>."
+    }
+  ]
+}

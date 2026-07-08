@@ -1,0 +1,15 @@
+{
+  "questionId": "5523ba71",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "The greatest common factor of the coefficients $186$ and $30$ is $6$. Both terms also include $t^2$, so factor out $6t^2$."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Divide each term by $6t^2$:<br/>$$\\frac{186t^3}{6t^2}=31t$$<br/>$$\\frac{30t^2u}{6t^2}=5u$$<br/>The expression factors as $6t^2(31t-5u)$. Check the choices:<ul><li><strong>Choice A - $6t^{2}(31t^{2}-5u)$</strong>: the first term would have one extra factor of $t$.</li><li><strong>Choice B - $6t^{2}(31t-5u)$</strong>: multiplying gives the original expression.</li><li><strong>Choice C - $6tu(31t^{2}-5)$</strong>: introduces an extra $u$ in the first term.</li><li><strong>Choice D - $6t^{2}u(31t-5)$</strong>: also adds an extra $u$ to the first term.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

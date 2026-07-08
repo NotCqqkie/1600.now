@@ -1,0 +1,19 @@
+{
+  "questionId": "a76e71fe",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link experience to retention",
+      "content": "The survey found speedy delivery and package tracking highly important to customer experience, while package aesthetics were low in importance. Prior studies connect customer experience with customer retention, so the conclusion should concern repeat purchases."
+    },
+    {
+      "title": "Reject unsupported shifts",
+      "content": "A calls for more research instead of drawing the supported conclusion. C shifts to online reviews, which the passage never mentions. D introduces attracting new customers, which is outside the study's focus on retention."
+    },
+    {
+      "title": "Apply the importance ratings",
+      "content": "Repeat purchases are more closely related to efficient, transparent delivery than to package design. The answer is <strong>B</strong>."
+    }
+  ]
+}

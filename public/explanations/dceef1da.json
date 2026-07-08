@@ -1,0 +1,15 @@
+{
+  "questionId": "dceef1da",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the margins",
+      "content": "The two margins of error were calculated the same way, so the comparison comes from sample size. Larger random samples usually have smaller margins of error because the estimate is based on more data."
+    },
+    {
+      "title": "Connect size to precision",
+      "content": "The first margin of error is smaller than the second margin of error, so the first sample must have had more ovens than the second sample. The answer is <strong>A</strong>."
+    }
+  ]
+}

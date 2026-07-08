@@ -1,0 +1,23 @@
+{
+  "questionId": "c2e4a8e3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the student's claim",
+      "content": "The student claims that obedience to law should be nearly absolute and that even minor infractions should not be ignored. The best quotation must therefore show that small legal violations are dangerous, not merely that governments can be unstable in different ways."
+    },
+    {
+      "title": "Separate power from obedience",
+      "content": "Choice A discusses how oligarchic rulers may preserve power by staying on good terms with different groups. That addresses political management, but it does not explain why minor violations of law should be treated seriously."
+    },
+    {
+      "title": "Separate fear and corruption",
+      "content": "Choice C focuses on fear of constitutional destroyers keeping a government attentive to the constitution. Choice D focuses on preventing magistrates from making money. Both are about preserving order, but neither directly supports the student's point about small infractions."
+    },
+    {
+      "title": "Choose accumulating harm",
+      "content": "The quotation about transgression creeping in unnoticed and eventually ruining the state directly supports the claim. It explains why even small infractions matter: they can accumulate quietly until the whole state is harmed. The answer is <strong>B</strong>."
+    }
+  ]
+}

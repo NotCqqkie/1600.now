@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the matching angle information",
-      "content": "The given angle pairs show that the triangles have the same three angle measures, so they are similar by AAA. To determine whether they are congruent, you need enough side information to know whether the scale factor is $1$."
+      "title": "Use the angle information",
+      "content": "Both triangles have angles measuring $32^{\\circ}$ and $46^{\\circ}$. The third angle in each triangle is\n$$180^{\\circ}-32^{\\circ}-46^{\\circ}=102^{\\circ}$$\nSo the triangles are similar by equal corresponding angles."
     },
     {
-      "title": "Calculate the unknown angles in both triangles",
-      "content": "In triangle ABC: $A = 180^{\\circ} - 32^{\\circ} - 46^{\\circ} = 102^{\\circ}$<br/><br/>In triangle DEF: $D = 180^{\\circ} - 32^{\\circ} - 46^{\\circ} = 102^{\\circ}$<br/><br/>Both triangles have identical angles: $102^{\\circ}$, $32^{\\circ}$, and $46^{\\circ}$."
-    },
-    {
-      "title": "Understand that equal angles alone establish similarity, not congruence",
-      "content": "Since all corresponding angles are equal, the triangles are similar by AAA.<br/><br/>However, similar triangles have the same shape but can be different sizes—like a photograph and an enlargement.<br/><br/>To prove congruence (identical in every way), we need to show that at least one pair of corresponding sides are equal."
-    },
-    {
-      "title": "Evaluate which choice provides a corresponding side pair",
-      "content": "The angle correspondence given in the problem tells us that angle $A$ corresponds to angle $D$ (both $102^{\\circ}$). By the properties of triangles:<ul><li>Side $BC$ is opposite angle $A$ in triangle ABC</li><li>Side $EF$ is opposite angle $D$ in triangle DEF</li></ul>Therefore, $BC$ and $EF$ are corresponding sides. Knowing the lengths of both $BC$ and $EF$ lets you determine whether they are equal. If they are equal, the triangles must be congruent (since they are already similar with scale factor 1). That confirms <strong>C</strong> is correct."
+      "title": "Need one corresponding side",
+      "content": "Similar triangles are congruent only if their scale factor is $1$. The sides opposite the $102^{\\circ}$ angles are $BC$ and $EF$, so knowing both lengths is enough to decide whether the scale factor is $1$. If those corresponding sides are equal, all corresponding sides are equal. The answer is <strong>C</strong>."
     }
   ]
 }

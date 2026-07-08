@@ -1,0 +1,15 @@
+{
+  "questionId": "43a63466",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the surprising accuracy",
+      "content": "The first sentence describes a crude method using cardboard and string. The next sentence says the method still produced a close approximation compared with a later computer result."
+    },
+    {
+      "title": "Choose the contrast transition",
+      "content": "The matching transition means nevertheless, which fits the contrast between crude technique and accurate result. Choice B signals similarity, Choice C signals restatement, and Choice D suggests the result was expected rather than surprising. The answer is <strong>A</strong>."
+    }
+  ]
+}

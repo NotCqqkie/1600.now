@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must do",
-      "content": "The sentence reads: \"This type of random, continuous ______ is known as Brownian motion, can be observed throughout the natural world.\" The clause \"which is known as Brownian motion\" is a nonessential (extra-information) relative clause &mdash; it can be removed without breaking the sentence. Nonessential relative clauses must be enclosed by matching punctuation: a comma before \"which\" and the existing comma after \"motion\" are both required."
+      "title": "Set off the which clause",
+      "content": "Which is known as Brownian motion is extra information about this type of movement. The sentence already has a comma after motion, so it needs a matching comma before which."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"movement: which\"</strong>: A colon can only follow an independent clause; \"This type of random, continuous movement\" is not independent. Also, colons do not set off nonessential relative clauses. &#10007;</li><li><strong>\"movement, which\"</strong>: Supplies the required comma before \"which,\" completing the pair with the comma already after \"motion.\" The nonessential clause is properly enclosed. &#10003;</li><li><strong>\"movement which\"</strong>: No comma before \"which,\" so the nonessential clause is missing its opening punctuation mark. &#10007;</li><li><strong>\"movement. Which\"</strong>: A period ends the sentence at \"movement,\" leaving \"Which is known as Brownian motion, can be observed throughout the natural world\" as a fragment. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Complete the comma pair",
+      "content": "A uses a colon after a phrase that is not an independent clause. C lacks the opening comma for the nonessential clause. D creates a fragment beginning with Which. The comma before which correctly sets off the extra information. The answer is <strong>B</strong>."
     }
   ]
 }

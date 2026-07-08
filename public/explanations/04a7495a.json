@@ -1,0 +1,15 @@
+{
+  "questionId": "04a7495a",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the target expression",
+      "content": "The expression being asked for can be written using the given expression:<br/>$$45+9x=9(5+x)$$"
+    },
+    {
+      "title": "Substitute the given value",
+      "content": "Since $5+x=4$, substitute $4$ into the factored form:<br/>$$9(5+x)=9(4)=36$$<br/>The answer is <strong>36</strong>."
+    }
+  ]
+}

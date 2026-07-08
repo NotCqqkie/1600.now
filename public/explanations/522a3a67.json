@@ -1,0 +1,15 @@
+{
+  "questionId": "522a3a67",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from definition to instance",
+      "content": "The first sentence defines extinct languages. The next sentence names Umbrian as a specific language that went extinct, so the transition should introduce an example."
+    },
+    {
+      "title": "Reject conclusion and concession",
+      "content": "Choice A signals a result, but Umbrian's extinction does not result from the definition. Choice B signals a concession, which is not present. Choice D signals a final summary. The relationship is general definition followed by a specific instance. The answer is <strong>C</strong>."
+    }
+  ]
+}

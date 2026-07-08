@@ -1,0 +1,15 @@
+{
+  "questionId": "3e150fa3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two outputs",
+      "content": "The linear function has the same output at two different inputs:\n$$\nf(0)=4\n$$\n$$\nf(9)=4\n$$\nSo its slope is:\n$$\n\\frac{4-4}{9-0}=0\n$$"
+    },
+    {
+      "title": "Write the constant function",
+      "content": "A linear function with slope $0$ and output $4$ is:\n$$\nf(x)=4\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the graph data to find which gene protects against A. sicerae",
-      "content": "Type A flies have <em>DptA</em> silenced but <em>DptB</em> active &mdash; they show roughly 90% survival against <em>A. sicerae</em>. Type B flies have <em>DptB</em> silenced but <em>DptA</em> active &mdash; survival drops to nearly 0%. Survival tracks the presence of <em>DptB</em>, not <em>DptA</em>. The passage also confirms <em>DptB</em> does not help against <em>P. rettgeri</em>, making its protection specific to <em>A. sicerae</em>.<ul><li><strong>Choice A &mdash; <em>DptA</em> confers defense against <em>A. sicerae</em> regardless of the presence of <em>DptB</em>.</strong>: Reverses the finding &mdash; it is <em>DptB</em>, not <em>DptA</em>, that provides defense. Type B flies (DptA active, DptB silenced) show near-zero survival. &#10007;</li><li><strong>Choice B &mdash; <em>DptB</em> protects against only one bacteria species, whereas <em>DptA</em> protects against multiple species.</strong>: The data shows <em>DptA</em> does not protect against <em>A. sicerae</em>; no evidence supports multi-species protection for <em>DptA</em>. &#10007;</li><li><strong>Choice C &mdash; <em>DptB</em> may have developed as a specific defense against <em>A. sicerae</em>.</strong>: Consistent with the data: <em>DptB</em> alone drives survival against <em>A. sicerae</em> but not <em>P. rettgeri</em>, suggesting species-specific evolution. &#10003;</li><li><strong>Choice D &mdash; defense against <em>A. sicerae</em> is strongest when both <em>DptA</em> and <em>DptB</em> are present.</strong>: The experiment does not show a condition where both are simultaneously silenced or both are active against <em>A. sicerae</em>; this is not supported by the data shown. &#10007;</li></ul>"
+      "title": "Read the survival pattern",
+      "content": "Type A flies have <em>DptA</em> silenced but <em>DptB</em> active, and they show high survival against <em>A. sicerae</em>. Type B and type AB flies have <em>DptB</em> silenced, and their survival is low. Survival therefore tracks <em>DptB</em> activity."
     },
     {
-      "title": "Confirm the evolutionary inference",
-      "content": "<em>DptB</em> alone confers robust defense against <em>A. sicerae</em> but not against <em>P. rettgeri</em>, pointing to a species-specific adaptation. That supports the conclusion that <em>DptB</em> may have evolved specifically to combat <em>A. sicerae</em>. That is the correct answer."
+      "title": "Reject broader claims",
+      "content": "A reverses the pattern by crediting <em>DptA</em>. B claims <em>DptA</em> protects against multiple species, which the text and graph do not show. D depends on both genes being active together, but that condition is not shown in the graph."
+    },
+    {
+      "title": "Draw the species link",
+      "content": "Because <em>DptB</em> is linked to survival against <em>A. sicerae</em> but not to resistance against <em>P. rettgeri</em>, the evidence supports a specific defense against <em>A. sicerae</em>. The answer is <strong>C</strong>."
     }
   ]
 }

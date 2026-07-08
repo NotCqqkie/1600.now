@@ -1,0 +1,15 @@
+{
+  "questionId": "2b991df4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the passage order",
+      "content": "The text first gives specific Muscogee words: <em>hatki</em> and <em>hathaki</em>. It then explains the general phenomenon those words illustrate, reduplication, and ends by saying this type of reduplication is common in Muscogee."
+    },
+    {
+      "title": "Reject absent topics",
+      "content": "A invents translation issues, B invents scholarly controversy, and C invents a discussion of Muscogee's relationship to other languages. The choice that follows the actual specific-to-general structure of the text is correct. The answer is <strong>D</strong>."
+    }
+  ]
+}

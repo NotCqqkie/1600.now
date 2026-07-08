@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the causal chain",
-      "content": "The text sets up a specific constraint: researchers need a control group of people similar to office-holders but who lost elections &mdash; yet researchers <strong>cannot control who wins elections</strong>. The blank must complete the sentence with the direct consequence of that inability. The passage's main challenge is assembling an appropriately similar control group, so the blank should reflect that difficulty."
+      "title": "Identify the control problem",
+      "content": "To measure the effect of holding office, researchers need to compare officeholders with non-officeholders who are otherwise similar. But researchers cannot control who wins elections, so they cannot easily create the ideal comparison group."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>\"struggle to find valid data about the behavior of politicians who do not currently hold office.\"</strong>: the passage never says data on non-officeholders is hard to find; the problem is identifying the right <em>people</em> for a control group, not the data itself. &#10007;</li><li><strong>\"can only conduct valid studies with people who have previously held office rather than people who presently hold office.\"</strong>: studying past office-holders would not reveal behavioral changes caused by taking office &mdash; and the text does not support this limitation. &#10007;</li><li><strong>\"should select a control group of people who differ from office-holders in several significant ways.\"</strong>: the text explicitly requires a control group of people who are <em>similar</em> to office-holders, so selecting people who differ contradicts the requirement. &#10007;</li><li><strong>\"will find it difficult to identify a group of people who can function as an appropriate control group for their studies.\"</strong>: directly follows from the constraint &mdash; not controlling who wins means not being able to determine who would be a suitably similar non-winner for comparison. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Keep the conclusion narrow",
+      "content": "A shifts from finding comparable people to finding data. B invents a rule that only former officeholders can be studied. C directly contradicts the requirement that the control group be similar to officeholders. The sentence should conclude that an appropriate control group will be hard to identify. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c7b8e037",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate ratings from predictions",
+      "content": "The prompt assumes P4 gave equal actual ratings to abstract and cubist paintings. The question asks what the model predicted, so the relevant evidence is the graph's different model-participant correlations."
+    },
+    {
+      "title": "Avoid unsupported direction",
+      "content": "Choices B and C claim one style was enjoyed more, which correlation data alone do not show. Choice D says the predicted ratings were equal. The remaining choice only says the predicted ratings differed. The answer is <strong>A</strong>."
+    }
+  ]
+}

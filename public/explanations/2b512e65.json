@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what the blank is doing in the sentence",
-      "content": "The blank is the subject of &quot;have a special genetic ability called RNA editing.&quot; That subject is &quot;cephalopods,&quot; followed by an appositive (&quot;ocean dwellers that include the squid, the octopus, and the cuttlefish&quot;) that defines what cephalopods are."
+      "title": "Set off the appositive",
+      "content": "The subject is cephalopods, followed by an appositive that explains what cephalopods are. Because that appositive contains internal commas, matching dashes clearly enclose the full description before the verb have."
     },
     {
-      "title": "Apply the matched-punctuation rule for nonrestrictive appositives",
-      "content": "A nonrestrictive appositive that interrupts a sentence must be set off on BOTH sides by matching punctuation (two commas or two dashes). Because the appositive already contains internal commas (squid, octopus, cuttlefish), dashes are the clean choice for the outer pair."
+      "title": "Reject punctuation errors",
+      "content": "Choice A opens the appositive but never closes it. Choice B incorrectly splits ocean dwellers from the phrase that modifies it and adds a comma before the verb. Choice C misuses a colon after include."
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A — cephalopods, ocean dwellers that include the squid, the octopus, and the cuttlefish</strong>: opens the appositive with a comma but never closes it before &quot;have&quot; &mdash; unmatched punctuation. &#10007;</li><li><strong>Choice B — cephalopods — ocean dwellers — that include the squid, the octopus, and the cuttlefish,</strong>: dashes wrongly chop &quot;ocean dwellers&quot; off from its own modifier &quot;that include...,&quot; and the trailing comma before &quot;have&quot; wrongly splits subject from verb. &#10007;</li><li><strong>Choice C — cephalopods, ocean dwellers that include : the squid, the octopus, and the cuttlefish,</strong>: a colon cannot follow &quot;include&quot; (no independent clause precedes it), and the trailing comma again splits subject from verb. &#10007;</li><li><strong>Choice D — cephalopods — ocean dwellers that include the squid, the octopus, and the cuttlefish —</strong>: matched dashes correctly enclose the whole appositive, leaving &quot;cephalopods... have&quot; intact. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Choose matched dashes",
+      "content": "The remaining version places the whole appositive between two dashes and keeps cephalopods connected to the verb have. The answer is <strong>D</strong>."
     }
   ]
 }

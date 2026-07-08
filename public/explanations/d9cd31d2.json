@@ -1,0 +1,15 @@
+{
+  "questionId": "d9cd31d2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use exponential form",
+      "content": "Each time $x$ increases by $1$, $y$ is multiplied by $3$. That means the relationship has the form\n$$\ny=a(3)^x\n$$"
+    },
+    {
+      "title": "Use the starting value",
+      "content": "When $x=0$, $y=180$.\n$$\n180=a(3)^0=a\n$$\nSo the equation is $y=180(3)^x$. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "fb460230",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link cell gaps to shapes",
+      "content": "The passage explains the mechanism: the bigger the size difference between worker cells and drone cells, the harder it is to connect those sections neatly. Bees then need more cells with more or fewer than six sides to fill the gaps."
+    },
+    {
+      "title": "Read the species data",
+      "content": "The graph shows that western honeybee hives have far fewer nonhexagonal cells, about 0.1% to 0.5%, than dwarf honeybee hives, about 2.1% to 2.6%, or black dwarf honeybee hives, about 2.4% to 2.5%."
+    },
+    {
+      "title": "Infer the size gap",
+      "content": "Fewer nonhexagonal filler cells imply a smaller worker-drone cell-size difference. Choice B makes unsupported claims about which cells hold drone eggs. Choice C reverses the pattern by saying western honeybees use many more shapes. Choice D wrongly says western honeybees have a lower percentage of hexagonal cells; fewer nonhexagonal cells means a higher hexagonal percentage. Choice A makes the supported inference about closer cell sizes. The answer is <strong>A</strong>."
+    }
+  ]
+}

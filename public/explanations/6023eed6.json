@@ -1,0 +1,15 @@
+{
+  "questionId": "6023eed6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary",
+      "content": "The boundary is a horizontal line at $y=33$, so the inequality must involve $y$, not $x$."
+    },
+    {
+      "title": "Use the shaded side",
+      "content": "The shaded region is above the horizontal line, so it represents points with y-values greater than or equal to $33$.\n$$y\\geq33$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "This is a word-in-context question. The blank describes the kind of environment created when kelp forests slow down rough ocean currents."
+      "title": "Use the calmer-waters clue",
+      "content": "Kelp forests slow powerful, rough currents. The next phrase defines the environment created by that slowing as one with calmer waters where animals can shelter."
     },
     {
-      "title": "Use the surrounding context",
-      "content": "The sentence itself defines the answer: &quot;a more ______ environment with calmer waters where animals can take shelter.&quot; The blank must be a synonym for calm/peaceful."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice B &mdash; dangerous</strong>: contradicts the passage, which says the slowed currents create a safer environment for shelter. &#10007;</li><li><strong>Choice C &mdash; imaginative</strong>: nonsensical &mdash; environments are not literally imaginative, and the word has no relation to current speed or safety. &#10007;</li><li><strong>Choice D &mdash; surprising</strong>: the passage describes a predictable physical effect of slowed currents, not anything unexpected. &#10007;</li></ul>That matches <strong>Choice A &mdash; tranquil</strong>."
+      "title": "Reject the wrong tones",
+      "content": "B contradicts the shelter context. C is unrelated because the environment is not being described as creative. D suggests something unexpected, while the passage describes a direct effect of slower currents. The answer is <strong>A</strong>."
     }
   ]
 }

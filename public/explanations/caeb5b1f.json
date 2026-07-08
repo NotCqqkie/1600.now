@@ -1,0 +1,15 @@
+{
+  "questionId": "caeb5b1f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clause boundary",
+      "content": "The sentence links two independent clauses: the guide grew in scope and influence, and its modest French eateries were replaced with esteemed restaurants from around the world. Independent clauses joined with <em>and</em> need a comma before the conjunction."
+    },
+    {
+      "title": "Select the complete join",
+      "content": "Choice A leaves the clauses run together with no punctuation or conjunction. Choice B uses only a comma, creating a comma splice. Choice D has the conjunction but lacks the comma needed before it. The comma plus <em>and</em> correctly joins the two clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

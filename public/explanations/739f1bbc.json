@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: organize the givens first",
-      "content": "Track the given side and angle relationships first: equal sides, equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle or side chase once the givens are organized."
+      "title": "Use the equilateral definition",
+      "content": "An equilateral triangle has all three side lengths equal. The problem already gives two equal sides: $AB=5{,}740\\text{ mm}$ and $BC=5{,}740\\text{ mm}$."
     },
     {
-      "title": "Recognize the triangle is isosceles",
-      "content": "We're given $AB = 5{,}740\\text{ mm}$ and $BC = 5{,}740\\text{ mm}$. Since two sides are equal, triangle $ABC$ is isosceles."
-    },
-    {
-      "title": "Apply the definition of equilateral",
-      "content": "An equilateral triangle has all three sides equal in length. Since $AB = BC = 5{,}740\\text{ mm}$, we need $AC = 5{,}740\\text{ mm}$ for the triangle to be equilateral. The credited option provides exactly this: $AC = 5{,}740\\text{ mm}$. <strong>A</strong> is correct."
+      "title": "Make the third side match",
+      "content": "To prove triangle $ABC$ is equilateral, the remaining side must also have length $5{,}740\\text{ mm}$. That condition is $AC=5{,}740\\text{ mm}$.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

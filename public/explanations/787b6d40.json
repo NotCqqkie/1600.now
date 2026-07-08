@@ -1,0 +1,15 @@
+{
+  "questionId": "787b6d40",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two complete clauses",
+      "content": "The sentence has two complete clauses: scholars needn't despair, and they can still procure another work by Varro. The transition though belongs with the first clause, and a semicolon can separate the two complete clauses."
+    },
+    {
+      "title": "Reject comma-only joins",
+      "content": "Choice A leaves two complete clauses improperly joined. Choice B uses commas around though but still does not properly separate the clauses. Choice D uses an em dash but leaves the second clause unattached. The comma before though plus semicolon after it creates the needed boundary. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a84d58aa",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence's subject is a team of researchers, and its main verb is analyzed. The blank should modify the researchers' purpose without adding a second finite verb before analyzed."
+    },
+    {
+      "title": "Use a participle",
+      "content": "Choice A, Choice B, and Choice C all add finite verb phrases that compete with analyzed as the main verb. A present participle modifies the team and lets analyzed remain the only main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,19 +1,15 @@
 {
   "questionId": "54c6128b",
-  "section": "Reading and Writing",
   "correctAnswer": "A",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the underlined sentence",
-      "content": "The passage describes how the team traced oak planks to the Jura region of France. The underlined sentence then reasons: because timber from distant Jura had to come by boat, the findings &quot;suggest the complexity of Roman trade routes.&quot;"
+      "title": "Connect finding to trade",
+      "content": "The earlier sentences explain how the team traced the planks to the Jura region of France. The underlined sentence then uses that evidence to infer something broader about Roman trade routes."
     },
     {
-      "title": "Name the function",
-      "content": "That move &mdash; taking the team&#39;s evidence and drawing a broader inference about Roman trade &mdash; is presenting a conclusion based on the findings."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A — It presents a conclusion about Roman trade routes based on the team's findings.</strong>: exactly what the sentence does. &#10003;</li><li><strong>Choice B — It questions how the team was able to conclude that the planks were used to build a boat.</strong>: the sentence says timber was transported by boat, not that the planks were used to build one. Misread. &#10007;</li><li><strong>Choice C — It explains why the planks were made from oak rather than a different kind of wood.</strong>: the sentence says nothing about oak vs. other woods. Off topic. &#10007;</li><li><strong>Choice D — It describes common methods used in Roman subway construction.</strong>: subway construction is only the modern setting where planks were found; the sentence is about Roman trade. Misread. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject misread functions",
+      "content": "Choice B misreads boat transport as boat construction. Choice C shifts to why the planks were oak. Choice D confuses modern subway construction with the Roman evidence. The underlined sentence presents a conclusion from the team's findings. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write f(x) in factored form",
-      "content": "Because the graph passes through $(8,0)$ and $(-3,0)$, the roots are $x=8$ and $x=-3$. So $$f(x)=a(x-8)(x+3).$$"
+      "title": "Use the two roots",
+      "content": "The graph passes through $(8,0)$ and $(-3,0)$, so the roots are $8$ and $-3$. Therefore,<br/>$$f(x)=a(x-8)(x+3)$$"
     },
     {
-      "title": "Expand to find b in terms of a",
-      "content": "$$f(x)=a(x^2-5x-24)=ax^2-5ax-24a.$$ Matching to $ax^2+bx+c$ gives $b=-5a$, so $$a+b=a-5a=-4a.$$"
+      "title": "Find b in terms of a",
+      "content": "Expand the factors.<br/>$$a(x-8)(x+3)=a(x^2-5x-24)$$<br/>$$=ax^2-5ax-24a$$<br/>So $b=-5a$."
     },
     {
-      "title": "Test integer values a &gt; 1",
-      "content": "Since $a$ is an integer with $a\\gt1$, $a+b=-4a$ takes values $-8,-12,-16,\\ldots$ Only $-8$ (when $a=2$) appears among the choices.<ul><li>$-8$: matches $a=2$ - possible.</li><li>$-4$: would need $a=1$, but $a\\gt1$ - impossible.</li><li>$5$: $-4a=5$ gives non-integer $a$ - impossible.</li><li>$5.5$: $-4a=5.5$ gives non-integer $a$ - impossible.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Test the possible values",
+      "content": "Then<br/>$$a+b=a-5a=-4a$$<br/>Since $a$ is an integer greater than $1$, the first possible value is when $a=2$.<br/>$$-4(2)=-8$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

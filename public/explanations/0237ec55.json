@@ -1,0 +1,23 @@
+{
+  "questionId": "0237ec55",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A line with slope $m$ and $y$-intercept $b$ can be written as<br/>$$y=mx+b$$"
+    },
+    {
+      "title": "Substitute the line facts",
+      "content": "The slope is $-3$. The point $(0,80)$ is the $y$-intercept, so $b=80$.<br/>$$y=-3x+80$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Use the two points $(0,80)$ and $(1,77)$ to confirm the line has slope $-3$ and intercept $80$. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[80,77]"
+      ]
+    }
+  ]
+}

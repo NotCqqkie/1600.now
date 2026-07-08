@@ -1,0 +1,23 @@
+{
+  "questionId": "a6062889",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the marked angle",
+      "content": "The figure marks a $135^\\circ$ angle where line $k$ intersects line $n$. The angle labeled $s$ is at that same intersection, directly opposite the marked angle."
+    },
+    {
+      "title": "Use vertical angles",
+      "content": "When two lines intersect, opposite angles are vertical angles, and vertical angles have equal measures. Since $s$ is opposite the marked $135^\\circ$ angle, the value of $s$ is also $135^\\circ$."
+    },
+    {
+      "title": "Check the other labels",
+      "content": "The angles adjacent to the marked $135^\\circ$ angle are supplementary to it, so each adjacent angle measures $45^\\circ$. The labels $q$, $r$, and $t$ are not the angle that is vertical to the marked $135^\\circ$ angle."
+    },
+    {
+      "title": "Choose the true statement",
+      "content": "The true statement is that $s=135$. The answer is <strong>C</strong>."
+    }
+  ]
+}

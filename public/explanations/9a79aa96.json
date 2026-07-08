@@ -1,0 +1,15 @@
+{
+  "questionId": "9a79aa96",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x to zero",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into $y=-(5)^x-44$.<br/>$$y=-(5)^0-44$$"
+    },
+    {
+      "title": "Evaluate the y-value",
+      "content": "Since $5^0=1$, simplify the expression.<br/>$$y=-1-44=-45$$<br/>The $y$-intercept is $(0,-45)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

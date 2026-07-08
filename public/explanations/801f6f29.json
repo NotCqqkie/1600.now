@@ -1,0 +1,15 @@
+{
+  "questionId": "801f6f29",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate claim from example",
+      "content": "The first sentence gives the broad idea: conservation initiatives that rely on natural features or processes can help protect ecosystems. The Quinault River logjams are then presented as one example of that larger nature-based conservation approach helping blueback salmon recover."
+    },
+    {
+      "title": "Avoid detail-only claims",
+      "content": "Choice A overemphasizes partnership, Choice B names only the salmon-logjam example, and Choice C adds an unsupported comparison to non-nature-based methods. The main idea must capture the general effectiveness of nature-based conservation. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c6b27c20",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertical intercept",
+      "content": "The y-intercept occurs when $x=0$."
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "$$y=8(0)^2+5(0)+4=4$$The intercept is $(0,4)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

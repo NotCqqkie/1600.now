@@ -1,0 +1,23 @@
+{
+  "questionId": "b263b73d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the original radius",
+      "content": "The equation\n$$(x-2)^2+(y-3)^2=9$$\nhas center $(2,3)$. The right side of a circle equation is $r^2$, so circle A has radius $\\sqrt{9}=3$.",
+      "desmosExpressions": [
+        "(x-2)^2 + (y-3)^2 = 9",
+        "(x-2)^2 + (y-3)^2 = 36"
+      ]
+    },
+    {
+      "title": "Double the radius",
+      "content": "Circle B has the same center but twice the radius of circle A. Therefore the radius of circle B is\n$$2(3)=6$$"
+    },
+    {
+      "title": "Square the new radius",
+      "content": "The equation for circle B must keep the center terms $(x-2)^2$ and $(y-3)^2$, but use the new radius squared:\n$$6^2=36$$\nSo the equation is $(x-2)^2+(y-3)^2=36$. The answer is <strong>B</strong>."
+    }
+  ]
+}

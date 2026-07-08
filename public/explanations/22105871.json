@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify Text 2's position on bumblebee emotions",
-      "content": "Text 2 acknowledges that bees may engage in play and possibly experience a positive emotional state, but immediately qualifies this: &ldquo;emotions in insects, if they do indeed exist, are likely very <em>rudimentary</em>.&rdquo; Any response from Text 2&apos;s author must reflect both acceptance of possible play <em>and</em> this strict limitation on the depth of those feelings."
+      "title": "Capture Text two qualification",
+      "content": "Text 1 says the bees appeared to be playing because they were having fun. Text 2 does not fully reject that idea: it says bumblebees may engage in play and may experience some kind of positive emotional state."
     },
     {
-      "title": "Test each choice against Text 2's qualified position",
-      "content": "<ul><li><strong>Choice A &mdash; By objecting that the bees were actually experiencing a negative feeling akin to stress rather than a positive feeling</strong>: Text 2 explicitly says the bees &ldquo;may engage in play, possibly experiencing some kind of positive emotional state&rdquo; &mdash; it does not argue the feeling was negative. &#10007;</li><li><strong>Choice B &mdash; By arguing that some insects other than bumblebees may be capable of experiencing complex emotional states</strong>: Text 2 argues the opposite &mdash; insect emotions are <em>rudimentary</em>, not complex; and Text 2 makes no claim about other insect species. &#10007;</li><li><strong>Choice C &mdash; By pointing out that even humans sometimes struggle to have fun while engaging in play</strong>: Text 2 says nothing about human play; this is outside the scope of the passage entirely. &#10007;</li><li><strong>Choice D &mdash; By noting that if the bees were truly playing, any positive feelings they may have experienced were probably quite basic</strong>: matches Text 2&apos;s qualified acceptance of play combined with the claim that insect emotions are &ldquo;likely very rudimentary&rdquo; &mdash; i.e., probably quite basic. &#10003;</li></ul>That matches <strong>Choice D &mdash; By noting that if the bees were truly playing, any positive feelings they may have experienced were probably quite basic</strong>."
+      "title": "Keep the emotion limited",
+      "content": "Text 2 immediately qualifies the claim by noting that insects lack brain areas associated with human emotions and that insect emotions, if they exist, are likely very rudimentary. So the response should allow possible positive feeling but limit how complex that feeling is."
+    },
+    {
+      "title": "Reject stronger replies",
+      "content": "<ul><li>Choice A wrongly changes the possible feeling from positive to negative stress.</li><li>Choice B claims complex emotional states in insects, which Text 2 does not support.</li><li>Choice C shifts to human play, a topic Text 2 never discusses.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

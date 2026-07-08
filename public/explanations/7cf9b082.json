@@ -1,0 +1,15 @@
+{
+  "questionId": "7cf9b082",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare associated traits",
+      "content": "The table shows strong differences for incubation duration and capacity for multiple broods, while the number of parental incubators appears in both display and non-display groups."
+    },
+    {
+      "title": "Reject overread conclusions",
+      "content": "Choice A says all three traits are equally associated, which the table does not show. Choice C reverses the pattern by emphasizing less opportunity and longer incubation. Choice D narrows the claim to species with more than one incubator. The remaining choice matches the stronger associations. The answer is <strong>B</strong>."
+    }
+  ]
+}

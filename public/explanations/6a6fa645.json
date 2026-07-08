@@ -1,0 +1,15 @@
+{
+  "questionId": "6a6fa645",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the median",
+      "content": "With $14$ weights, the original median is the average of the $7$th and $8$th values. After adding $85$ as the largest value, the new median is the $8$th original value. That is greater only if the $8$th value is greater than the $7$th value, so statement I is not guaranteed."
+    },
+    {
+      "title": "Check the mean",
+      "content": "The added value $85$ is greater than every original weight shown. Since it is greater than the original mean, adding it must increase the mean. Only statement II must be true. The answer is <strong>B</strong>."
+    }
+  ]
+}

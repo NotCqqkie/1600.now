@@ -1,0 +1,15 @@
+{
+  "questionId": "ea8bb75a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two binding limits",
+      "content": "For side lengths $8$, $13$, and $x$, the unknown side must be shorter than the sum of the other two sides and longer than their difference."
+    },
+    {
+      "title": "Find the valid range",
+      "content": "Apply those two limits:\n$$\nx<8+13\n$$\n$$\nx>|13-8|\n$$\nSo the possible values satisfy $5<x<21$. The answer is <strong>C</strong>."
+    }
+  ]
+}

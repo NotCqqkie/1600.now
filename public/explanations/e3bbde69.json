@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$8x+y=5$$<br/>$$y=9x+1$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Graph the equations as written",
+      "content": "Enter the two equations exactly as they appear:<br/>$$8x+y=5$$<br/>$$y=9x+1$$<br/>The solution is the point where the two graphs intersect.",
       "desmosExpressions": [
         "8x+y=5",
         "y=9x+1"
       ]
     },
     {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>B</strong>, $\\frac{4}{17}$."
+      "title": "Substitute for y",
+      "content": "Use $y=9x+1$ in the first equation:<br/>$$8x+y=5$$<br/>$$8x+(9x+1)=5$$"
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Solve for x",
+      "content": "Combine like terms and solve:<br/>$$17x+1=5$$<br/>$$17x=4$$<br/>$$x=\\frac{4}{17}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "1f713c7f",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $h(8)$, replace $x$ with $8$:<br/>$$h(8)=\\frac{7(8)-2}{6}$$"
+    },
+    {
+      "title": "Simplify the numerator",
+      "content": "Evaluate the numerator first:<br/>$$7(8)-2=56-2=54$$"
+    },
+    {
+      "title": "Evaluate the quotient",
+      "content": "Now divide by $6$:<br/>$$\\frac{54}{6}=9$$"
+    },
+    {
+      "title": "State the function value",
+      "content": "The value of $h(8)$ is $9$. The answer is <strong>9</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify and interpret the exponent",
-      "content": "Rewrite: $\\frac{8}{6}t = \\frac{4}{3}t$. Since $t$ is in years, the coefficient $\\frac{4}{3}$ represents the number of 3% growth periods per year."
+      "title": "Interpret the exponent",
+      "content": "The base $1.03$ means one $3\\%$ increase happens each time the exponent increases by $1$. In one year, the exponent increases by\n$$\n\\frac{8}{6}=\\frac{4}{3}\n$$\nso there are $\\frac{4}{3}$ growth periods per year."
     },
     {
-      "title": "Find the period in months",
-      "content": "If growth of 3% occurs every $n$ months, then in 12 months (1 year), there are $\\frac{12}{n}$ periods. This must equal $\\frac{4}{3}$:<br/>$$\\frac{12}{n} = \\frac{4}{3}$$<br/>$$n = 12 \\div \\frac{4}{3} = 9$$<br/>That matches <strong>Choice A &mdash; $9$</strong>."
+      "title": "Convert periods to months",
+      "content": "If each growth period is $n$ months, then one year has $\\frac{12}{n}$ periods:\n$$\n\\frac{12}{n}=\\frac{4}{3}\n$$\n$$\nn=12\\div\\frac{4}{3}=9\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

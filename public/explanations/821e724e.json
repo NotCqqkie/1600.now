@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the point (22, 0) to find t",
-      "content": "Since the graph passes through $(22, 0)$, the function value at $x = 22$ is zero: $g(22) = 0$.<br/>$$(22 + 16)(t - 22) = 0$$<br/>$$38(t - 22) = 0$$<br/>Since $38 \\neq 0$, we must have $t - 22 = 0$, so $t = 22$."
+      "title": "Use the zero point",
+      "content": "The graph passes through $(22,0)$, so $g(22)=0$. Substitute $x=22$ into the function.<br/>$$g(22)=(22+16)(t-22)=0$$<br/>$$38(t-22)=0$$<br/>Therefore, $t=22$."
     },
     {
-      "title": "Evaluate g(0)",
-      "content": "With $t = 22$, calculate $g(0)$:<br/>$$g(0) = (0 + 16)(22 - 0) = 16 \\cdot 22 = 352$$"
+      "title": "Evaluate the requested value",
+      "content": "Now substitute $x=0$ and $t=22$.<br/>$$g(0)=(0+16)(22-0)=16\\cdot 22=352$$<br/>The answer is <strong>352</strong>."
     }
   ]
 }

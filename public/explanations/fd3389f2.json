@@ -1,0 +1,15 @@
+{
+  "questionId": "fd3389f2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the angle",
+      "content": "The angle $\\frac{5\\pi}{6}$ is in quadrant II because it is between $\\frac{\\pi}{2}$ and $\\pi$. Its reference angle is<br/>$$\\pi-\\frac{5\\pi}{6}=\\frac{\\pi}{6}$$"
+    },
+    {
+      "title": "Apply the cosine sign",
+      "content": "Cosine is negative in quadrant II. The reference-angle cosine is<br/>$$\\cos(\\frac{\\pi}{6})=\\frac{\\sqrt{3}}{2}$$<br/>Therefore,<br/>$$\\cos(\\frac{5\\pi}{6})=-\\frac{\\sqrt{3}}{2}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast the blank must complete",
-      "content": "The sentence contrasts two outcomes of one-way trips: some locations end up with an excess of bicycles while &quot;other areas&quot; face &quot;insufficient supply.&quot; The blank describes the excess-side condition &mdash; it must capture a location that is overfull or oversupplied with bicycles, forming a clear contrast with shortage."
+      "title": "Use the supply contrast",
+      "content": "The sentence describes a bike-sharing imbalance caused by one-way trips. Some locations end up with too many bicycles while other areas have insufficient supply. The blank needs to describe being overfilled with bicycles."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; susceptible to</strong>: Means sensitive to or easily affected by. Locations are not sensitive to bicycles; they accumulate them. Wrong part of speech semantically &mdash; the word requires a harm or influence, not a commodity. &#10007;</li><li><strong>Choice B &mdash; contingent on</strong>: Means dependent on. No dependency relationship exists between a location and the bicycles stacking up there. &#10007;</li><li><strong>Choice C &mdash; saturated with</strong>: Means filled to capacity or overstocked. Directly captures the excess-bicycle condition and contrasts cleanly with &quot;insufficient supply.&quot; &#10003;</li><li><strong>Choice D &mdash; depleted of</strong>: Means emptied of. This would make both sides of the contrast describe shortage &mdash; eliminating any contrast at all. &#10007;</li></ul>That is the correct answer."
+      "title": "Filter the phrase meanings",
+      "content": "Choice A means vulnerable to, which does not describe excess supply. Choice B means dependent on, which does not fit the relationship. Choice D means emptied of, which would repeat the shortage idea instead of contrasting with it. The answer is <strong>C</strong>."
     }
   ]
 }

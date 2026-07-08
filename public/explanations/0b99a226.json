@@ -1,0 +1,15 @@
+{
+  "questionId": "0b99a226",
+  "correctAnswer": "106",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the target profit",
+      "content": "The club wants a profit of $420$, so set $p(x)=420$.<br/>$$6x-216=420$$"
+    },
+    {
+      "title": "Find magnets sold",
+      "content": "Add $216$ to both sides, then divide by $6$.<br/>$$6x=636$$<br/>$$x=106$$<br/>The answer is <strong>106</strong>."
+    }
+  ]
+}

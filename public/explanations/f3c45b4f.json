@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the specific obstacles Text 1 identifies",
-      "content": "Text 1 claims dating is unreliable at Sterkfontein because of two specific problems: mixed soil layers prevent stratigraphic dating, and animal bones may be relocated by flooding. These are the obstacles blocking reliable age assignment."
+      "title": "Compare the dating methods",
+      "content": "Text 1 says assigning ages at Sterkfontein is difficult because mixed soil layers and relocated animal bones make common dating approaches unreliable. Text 2 presents cosmogenic nuclide dating of the surrounding breccia as a way to avoid those specific problems."
     },
     {
-      "title": "Apply Text 2's solution to these obstacles",
-      "content": "<strong>They would argue that their techniques are better suited than other methods to the unique challenges posed by the Sterkfontein Caves.</strong> says the researchers would argue their technique is better suited than other methods to Sterkfontein's unique challenges—and that's exactly what Text 2 demonstrates.<br/><br/>Cosmogenic nuclide dating analyzes the breccia surrounding the fossils, explicitly avoiding both the problematic soil-layer and animal-bone approaches.<br/><br/>The other choices either introduce unsupported claims (the unsupported corruption claim), contradict the solution (the combination-method alternative suggests combining the old methods rather than replacing them), or misstate the advantage (the direct-application alternative claims it works because applied “directly” rather than because it avoids the flawed methods).<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Avoid overstating the response",
+      "content": "A adds fossil corruption, which neither text claims. B recommends combining the older methods, but Text 2 says its approach avoids their problems. D is inaccurate because the method is applied to the surrounding breccia, not directly to the fossils. The researchers would emphasize that their method fits Sterkfontein's challenges better. The answer is <strong>C</strong>."
     }
   ]
 }

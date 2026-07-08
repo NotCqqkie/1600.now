@@ -1,0 +1,23 @@
+{
+  "questionId": "01a0f6cb",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the pattern shape",
+      "content": "The scatterplot points form an approximately linear increasing pattern, so the model should be linear with a positive slope.",
+      "desmosExpressions": [
+        "x_1=[1200,1600,1900,2300,2600,3200,3500,4100]",
+        "y_1=[900,1100,1600,1900,2850,3000,3700,4000]"
+      ]
+    },
+    {
+      "title": "Check a representative value",
+      "content": "For the linear model $y=-582+1.2x$, at $x=3500$:\n$$\ny=-582+1.2(3500)=3618\n$$\nThis is close to the plotted value near $3700$."
+    },
+    {
+      "title": "Reject mismatched models",
+      "content": "The model $y=582-1.2x$ decreases, while the scatterplot increases. The exponential models do not match the roughly straight pattern. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questionId": "87f371ca",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use cylinder scaling",
+      "content": "A cylinder has volume $V=\\pi r^2h$. If the radius is multiplied by $a$ and the height is multiplied by $b$, the volume is multiplied by $a^2b$."
+    },
+    {
+      "title": "Match the volume factor",
+      "content": "The new volume must be $576$ times the original volume. Since\n$$576=8^2\\cdot9,$$\na radius factor of $8$ and a height factor of $9$ gives the needed multiplier.",
+      "desmosExpressions": [
+        "8^{2} \\cdot 9",
+        "9^{2} \\cdot 8",
+        "9^{2} \\cdot 64"
+      ]
+    },
+    {
+      "title": "Choose the dimensions",
+      "content": "The dimensions $R=8r$ and $H=9h$ make the volume scale by $8^2\\cdot9=576$. The answer is <strong>C</strong>."
+    }
+  ]
+}

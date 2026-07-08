@@ -1,0 +1,15 @@
+{
+  "questionId": "cb827af0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sample size effect",
+      "content": "For a survey percentage calculated the same way, a larger random sample usually gives a smaller margin of error because the estimate is based on more data. The larger sample reduces the typical sampling variation around the estimate."
+    },
+    {
+      "title": "Apply it to the new sample",
+      "content": "The sample size increases from $144$ to $288$, so the margin of error is expected to decrease. The point estimate is not forced to move higher or lower just because the sample is larger; it is the precision that changes. The answer is <strong>A</strong>."
+    }
+  ]
+}

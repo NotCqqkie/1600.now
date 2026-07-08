@@ -1,0 +1,15 @@
+{
+  "questionId": "f8c4975f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope intercept form",
+      "content": "A line with slope $m$ and y-intercept $b$ has equation:\n$$\ny=mx+b\n$$\nThe slope is $6$, and the point $(0,4)$ gives the y-intercept $4$."
+    },
+    {
+      "title": "Write the line equation",
+      "content": "Substitute $m=6$ and $b=4$:\n$$\ny=6x+4\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "87376f75",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Track the units",
+      "content": "The rate is $1{,}800$ meters per hour per second. Convert meters to feet, then convert the hour in the denominator to seconds."
+    },
+    {
+      "title": "Apply both conversions",
+      "content": "Use $1$ meter equals $3.28$ feet and $1$ hour equals $3{,}600$ seconds:<br/>$$1{,}800\\cdot\\frac{3.28\\ \\text{ft}}{1\\ \\text{m}}\\cdot\\frac{1\\ \\text{h}}{3{,}600\\ \\text{s}}$$<br/>$$=\\frac{1{,}800\\cdot3.28}{3{,}600}$$<br/>$$=1.64$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The converted rate is about $1.64$ feet per second squared, so the closest listed value is $1.64$. The answer is <strong>B</strong>."
+    }
+  ]
+}

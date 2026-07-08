@@ -1,0 +1,15 @@
+{
+  "questionId": "62784b9f",
+  "correctAnswer": "29",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for the variable",
+      "content": "Start with the given equation and isolate $x$: $$6x+5=23$$ $$6x=18$$ $$x=3$$ This value satisfies the condition in the question, so it can be used in the requested expression."
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Substitute $x=3$ into $12x-7$: $$12x-7=12(3)-7=36-7=29$$ The computation uses the value of $x$ from the given equation and answers exactly what the question asks for. The answer is <strong>29</strong>."
+    }
+  ]
+}

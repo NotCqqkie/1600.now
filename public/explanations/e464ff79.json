@@ -1,0 +1,15 @@
+{
+  "questionId": "e464ff79",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the eligible ranges",
+      "content": "The ranges for $17$ or more complete years are $17$ to $20$, $21$ to $24$, and $25$ to $28$. Their counts are $16$, $7$, and $8$."
+    },
+    {
+      "title": "Add the counts",
+      "content": "Add those employee counts.<br/>$$16+7+8=31$$<br/>The answer is <strong>31</strong>."
+    }
+  ]
+}

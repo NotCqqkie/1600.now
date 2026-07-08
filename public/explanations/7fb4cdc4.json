@@ -1,0 +1,15 @@
+{
+  "questionId": "7fb4cdc4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the ratio",
+      "content": "The ratio $12$ to $2$ is equivalent to the ratio $60$ to $2k$, so\n$$\\frac{12}{2}=\\frac{60}{2k}$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Simplify the left side and solve.\n$$6=\\frac{60}{2k}$$\n$$12k=60$$\n$$k=5$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

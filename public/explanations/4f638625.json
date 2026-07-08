@@ -1,0 +1,15 @@
+{
+  "questionId": "4f638625",
+  "correctAnswer": "34",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The notation $h(3)$ means to use $3$ as the input for the function $h$. Substitute $x=3$ into $h(x)=x^3+7$:\n$$\nh(3)=3^3+7\n$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the cube first, then add $7$:\n$$\nh(3)=27+7\n$$\n$$\nh(3)=34\n$$\nThe answer is <strong>34</strong>."
+    }
+  ]
+}

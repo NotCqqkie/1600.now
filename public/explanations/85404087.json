@@ -1,0 +1,25 @@
+{
+  "questionId": "85404087",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Go to the input value",
+      "content": "$f(2)$ means the $y$-value on the graph when $x=2$. Use the vertical line $x=2$ to locate that point on the graph.",
+      "desmosExpressions": [
+        "x=2"
+      ]
+    },
+    {
+      "title": "Read the output value",
+      "content": "At $x=2$, the graph is on the $x$-axis, so the point is $(2,0)$ and $f(2)=0$.",
+      "desmosExpressions": [
+        "(2,0)"
+      ]
+    },
+    {
+      "title": "Match the value to a choice",
+      "content": "The value $0$ is listed in the choices. The answer is <strong>D</strong>."
+    }
+  ]
+}

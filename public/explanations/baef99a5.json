@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Central Ideas and Details question asking what is true about Dorian based on the passage. The passage describes Dorian's physical and emotional reaction upon first seeing Morgan's portrait of him. The correct answer must be directly supported by the text &mdash; no outside inference."
+      "title": "Read Dorian's reaction",
+      "content": "When Dorian sees the portrait, his cheeks flush with pleasure, joy comes into his eyes, and he stands in wonder. The passage says the sense of his own beauty comes to him like a revelation."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; He wants to know Morgan's opinion of the portrait.</strong>: The passage says Dorian was 'dimly conscious that Morgan was speaking to him, but not catching the meaning of his words.' Dorian is absorbed in his own reaction, not concerned with Morgan's view. &#10007;</li><li><strong>Choice B &mdash; He is delighted by what he sees in the portrait.</strong>: His cheeks 'flushed for a moment with pleasure,' a 'look of joy came into his eyes,' and the sense of his own beauty struck him 'like a revelation.' The text directly and repeatedly signals delight. &#10003;</li><li><strong>Choice C &mdash; He prefers portraits to other types of paintings.</strong>: The text makes no comparison between portrait and other art forms. This is unsupported. &#10007;</li><li><strong>Choice D &mdash; He is uncertain of Morgan's talent as an artist.</strong>: Nothing in the passage suggests doubt about Morgan's skill; Dorian's reaction is entirely focused on seeing his own beauty, not evaluating the painter. &#10007;</li></ul>That is the correct answer."
+      "title": "Choose the supported statement",
+      "content": "A is unsupported because Dorian is not focused on Morgan's opinion. C invents a preference for portraits. D suggests doubt about Morgan's talent, but the passage shows delight, not uncertainty. The supported statement is that Dorian is pleased by what he sees in the portrait. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "69356c45",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the minimum of f",
+      "content": "For $f(x)=4x^2+40x+107$, use the vertex shortcut:\n$$\n\\text{minimum}=c-\\frac{b^2}{4a}=107-\\frac{40^2}{4(4)}=107-100=7\n$$"
+    },
+    {
+      "title": "Use the horizontal shift",
+      "content": "The function $g(x)=f(x+6)$ is a horizontal shift of $f$. A horizontal shift changes where the minimum occurs, but not the minimum value. The answer is <strong>C</strong>."
+    }
+  ]
+}

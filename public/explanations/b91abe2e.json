@@ -1,0 +1,15 @@
+{
+  "questionId": "b91abe2e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a decline over time",
+      "content": "The researcher's claim is that some lakes saw a decline in ice duration between the early 1980s and the mid-2000s. A typical example must compare the same lake across those two periods and show fewer ice days later."
+    },
+    {
+      "title": "Reject nondecline examples",
+      "content": "A reports only 2005-06 data, C shows an increase rather than a decline, and D reports only 1980-81 data. None demonstrates the claimed decrease across time. The answer is <strong>B</strong>."
+    }
+  ]
+}

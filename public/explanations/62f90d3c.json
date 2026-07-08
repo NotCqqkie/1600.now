@@ -1,0 +1,15 @@
+{
+  "questionId": "62f90d3c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the goal clearly",
+      "content": "The sentence first states that no birder has achieved the ultimate goal. The words after the blank define that goal: catching an in-person glimpse of all 10,000-plus bird species. A colon can introduce that explanatory phrase."
+    },
+    {
+      "title": "Reject faulty boundaries",
+      "content": "A has no punctuation, so the definition runs into the noun. B turns the defining phrase into a fragment. D uses a semicolon, which requires an independent clause after it, but the phrase after the blank is not independent. The answer is <strong>C</strong>."
+    }
+  ]
+}

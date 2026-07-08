@@ -1,0 +1,15 @@
+{
+  "questionId": "6c4ab930",
+  "correctAnswer": "27/2,13.5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the function",
+      "content": "We have $c(r) = \\frac{3}{8}(2\\pi r)$. Multiplying the constants:<br/>$$c(r) = \\frac{3\\pi r}{4}$$<br/>This is a linear function with slope $\\frac{3\\pi}{4}$."
+    },
+    {
+      "title": "Find k using the rate of change",
+      "content": "For a linear function, when the radius increases by 18 cm, the change in $c$ is:<br/>$$\\Delta c = \\frac{3\\pi}{4} \\cdot 18 = \\frac{27\\pi}{2}$$<br/>Since this change equals $k\\pi$, we have $k\\pi = \\frac{27\\pi}{2}$, so $k = \\frac{27}{2} = 13.5$.<br/><br/>Equivalent forms accepted: <strong>27/2</strong>, <strong>13.5</strong>."
+    }
+  ]
+}

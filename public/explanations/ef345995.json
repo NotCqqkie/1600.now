@@ -1,0 +1,19 @@
+{
+  "questionId": "ef345995",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the factor",
+      "content": "The expression has $9$ multiplying the entire quantity $x^2+4$, so distribute $9$ to each term inside the parentheses."
+    },
+    {
+      "title": "Distribute the factor",
+      "content": "Multiply $9$ by each term inside the parentheses.<br/>$$9(x^2+4)=9(x^2)+9(4)$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Finish the multiplication.<br/>$$9(x^2)+9(4)=9x^2+36$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

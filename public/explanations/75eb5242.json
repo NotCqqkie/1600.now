@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the logical requirement",
-      "content": "The “but” and “find out” signal that the blank should contain the question the researchers want to answer about consumer preference."
+      "title": "Recognize the direct question",
+      "content": "The setup says companies have simplified packaging, then says researchers designed a study to find out something. The blank should be the question the study investigates, not a statement of a known result."
     },
     {
-      "title": "Match the sentence form to its punctuation",
-      "content": "Direct questions require inverted word order (do consumers...) and a question mark. B has both: inverted word order plus question mark. A falsely claims we know consumers prefer simplicity, while C and D mismatch word order with punctuation. That confirms <strong>B</strong> is correct."
+      "title": "Use question form",
+      "content": "A makes a declarative claim. C has inverted question word order but ends with a period. D ends with a question mark but uses declarative word order. A direct question needs both inverted word order and a question mark. The answer is <strong>B</strong>."
     }
   ]
 }

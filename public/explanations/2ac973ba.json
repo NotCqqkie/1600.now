@@ -1,0 +1,19 @@
+{
+  "questionId": "2ac973ba",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the table slope",
+      "content": "Using the table points $(-4,28)$ and $(-2,23)$, the slope is $\\frac{23-28}{-2-(-4)}=-\\frac{5}{2}$."
+    },
+    {
+      "title": "Compare the equation",
+      "content": "Rewrite $5x+sy=18s$ to identify its slope and intercept: $sy=-5x+18s$, so $y=-\\frac{5}{s}x+18$. For $s=2$, this has slope $-\\frac{5}{2}$ and intercept $18$, matching the table."
+    },
+    {
+      "title": "Match the relationship",
+      "content": "The equation with the matching slope and values is $5x+sy=18s$. The answer is <strong>B</strong>."
+    }
+  ]
+}

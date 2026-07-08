@@ -1,0 +1,17 @@
+{
+  "questionId": "6abff179",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate first and later days",
+      "content": "The first day costs $300$. If the rental lasts $x$ days, then the number of additional days is $x-1$, and each additional day costs $150$.",
+      "formula": "$$ y = 150x + 150 $$"
+    },
+    {
+      "title": "Write and simplify the cost",
+      "content": "The total cost is<br/>$$y=300+150(x-1)$$<br/>Distribute and combine constants:<br/>$$y=300+150x-150$$<br/>$$y=150x+150$$<br/>The answer is <strong>A</strong>.",
+      "formula": "$$ y = 150x + 150 $$"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "27c46b8e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Supply the main verb",
+      "content": "The subject is plural: \"emulsifiers such as cetyl hydroxyethylcellulose.\" The sentence needs a finite verb that agrees with that subject and completes the independent clause before the phrase \"to blend oil and water.\""
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is only a past participle without an auxiliary. Choice C creates a relative clause and leaves the sentence fragmentary. Choice D is a participial phrase, not a main verb. The remaining choice is a finite plural passive verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

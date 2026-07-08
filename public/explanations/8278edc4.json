@@ -1,0 +1,15 @@
+{
+  "questionId": "8278edc4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep preposition attached",
+      "content": "The sentence says the animals had been confiscated from the private collections of aristocrats. The word <em>from</em> is a preposition, and <em>the private collections</em> is its object, so no punctuation should separate them."
+    },
+    {
+      "title": "Remove needless punctuation",
+      "content": "A inserts a semicolon between a preposition and its object. C uses a colon even though the words before it do not form a complete independent clause. D adds a comma that interrupts the prepositional phrase. The sentence needs the plain preposition with no punctuation. The answer is <strong>B</strong>."
+    }
+  ]
+}

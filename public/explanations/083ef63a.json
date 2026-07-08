@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-2\\right) \\left(x+15\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-13/2$.",
+      "title": "Use the roots",
+      "content": "The function is in factored form. Its roots are $x=2$ and $x=-15$."
+    },
+    {
+      "title": "Find the midpoint",
+      "content": "The parabola opens upward, so its minimum occurs at the vertex. The vertex is halfway between the two roots.\n\n$$\\frac{2+(-15)}{2}=\\frac{-13}{2}$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing $f(x)=(x-2)(x+15)$ shows the vertex at the same input value.\n\nThe answer is <strong>-13/2</strong>.",
       "desmosExpressions": [
         "f \\left(x\\right)= \\left(x-2\\right) \\left(x+15\\right)"
       ]
-    },
-    {
-      "title": "Use the roots shortcut",
-      "content": "$f(x)=(x-2)(x+15)$ is an upward-opening parabola. Its roots are $x=2$ and $x=-15$."
-    },
-    {
-      "title": "Find the midpoint of the roots",
-      "content": "The vertex of a parabola in factored form lies halfway between the two x-intercepts:<br/>$$x=\\frac{2+(-15)}{2}=\\frac{-13}{2}$$"
-    },
-    {
-      "title": "Answer",
-      "content": "The function reaches its minimum when $x=-\\frac{13}{2}$.<br/><br/>The question asks for the input where the minimum occurs, not the minimum output value, so the x-coordinate of the vertex is the final answer."
     }
   ]
 }

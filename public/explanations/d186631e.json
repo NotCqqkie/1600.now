@@ -1,0 +1,15 @@
+{
+  "questionId": "d186631e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify the analysis",
+      "content": "The sentence already has the main verb phrase <em>might yield</em>. The blank should therefore describe the cultural studies analysis, not add another finite verb before the sentence reaches its main verb."
+    },
+    {
+      "title": "Avoid extra finite verbs",
+      "content": "Choices A, B, and D each insert a finite verb form, creating an ungrammatical extra verb before <em>might yield</em>. The remaining choice uses a participle to modify <em>analysis</em> smoothly. The answer is <strong>C</strong>."
+    }
+  ]
+}

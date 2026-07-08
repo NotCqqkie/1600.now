@@ -1,0 +1,15 @@
+{
+  "questionId": "0a52bbf5",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root sum rule",
+      "content": "For a quadratic equation $ax^2+bx+c=0$, the sum of the solutions is<br/>$$-\\frac{b}{a}$$"
+    },
+    {
+      "title": "Apply the coefficients",
+      "content": "In $x^2-7x-30=0$, $a=1$ and $b=-7$. Therefore the sum is<br/>$$-\\frac{-7}{1}$$<br/>The answer is <strong>7</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "723cc513",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match season to fitness",
+      "content": "The assertion says fruit flies collected in cooler months should tend to have lower reproductive fitness. Because wing centroid size is used as a proxy for body size, and body size correlates with fitness, the evidence should compare wing size between a warmer month and a cooler month."
+    },
+    {
+      "title": "Reject weak data uses",
+      "content": "Choice A uses male values that do not provide the needed accurate table support. Choice B compares male and female wing sizes within months rather than showing a seasonal change. Choice C gives only temperature, so it omits the wing-size proxy for reproductive fitness."
+    },
+    {
+      "title": "Choose the seasonal comparison",
+      "content": "The useful comparison keeps the sex the same and compares a cooler month with a warmer month. Female wing centroid size being smaller in September than in July connects cooler collection conditions with lower body-size proxy values. The answer is <strong>D</strong>."
+    }
+  ]
+}

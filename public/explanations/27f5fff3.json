@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the existing intersection",
-      "content": "The original two-line system has exactly one solution: the point where the two shown lines intersect. From the graph, that intersection is $(8,2)$."
+      "title": "Use the original intersection",
+      "content": "The two original lines intersect at $(8,2)$. A solution to the three-equation system would have to be this same point and also satisfy the added equation."
     },
     {
-      "title": "Test the third equation",
-      "content": "For the three-equation system to have a solution, the original intersection point must also satisfy the new equation $x+4y=-16$. Substitute $(8,2)$: $$8+4(2)=16$$"
+      "title": "Test the added equation",
+      "content": "Substitute $x=8$ and $y=2$ into $x+4y=-16$:\n$$\n8+4(2)=16\n$$\nThe left side is $16$, not $-16$, so the original intersection is not on the added line."
     },
     {
-      "title": "Compare to the required value",
-      "content": "The new equation requires $x+4y=-16$, but the original intersection gives $16$. Since $(8,2)$ is not on the third line, no point can satisfy all three equations."
-    },
-    {
-      "title": "State the result",
-      "content": "The resulting system has zero solutions, which matches <strong>Choice A &mdash; Zero</strong>."
+      "title": "Count common solutions",
+      "content": "The original system has only one intersection, and that point fails the added equation. Therefore, no point satisfies all three equations. The answer is <strong>A</strong>."
     }
   ]
 }

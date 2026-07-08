@@ -1,0 +1,15 @@
+{
+  "questionId": "1400d8cc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle angle sum",
+      "content": "The three angle measures in a triangle add to $180^\\circ$:<br/>$$38+90+\\frac{k}{2}=180$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Combine the known angles and isolate $k$:<br/>$$128+\\frac{k}{2}=180$$<br/>$$\\frac{k}{2}=52$$<br/>$$k=104$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

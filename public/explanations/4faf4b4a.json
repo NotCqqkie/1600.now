@@ -1,0 +1,20 @@
+{
+  "questionId": "4faf4b4a",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the equations",
+      "content": "The question asks for $4x$, so subtract the second equation from the first. The $y$ terms cancel immediately.<br/>$$2x-(-2x)=(9+7y)-(3+7y)$$<br/>$$4x=6$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations gives an intersection with $x=1.5$, and $4(1.5)=6$. The answer is <strong>6</strong>.",
+      "desmosExpressions": [
+        "y=\\frac{2x-9}{7}",
+        "y=\\frac{-2x-3}{7}",
+        "(1.5,-\\frac{6}{7})"
+      ]
+    }
+  ]
+}

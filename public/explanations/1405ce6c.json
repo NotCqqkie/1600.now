@@ -1,0 +1,15 @@
+{
+  "questionId": "1405ce6c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with the given equation.<br/>$$R=\\frac{0.37l}{A}$$<br/>Multiply both sides by $A$ to remove the denominator.<br/>$$AR=0.37l$$"
+    },
+    {
+      "title": "Isolate the length",
+      "content": "Divide both sides by $0.37$.<br/>$$\\frac{AR}{0.37}=l$$<br/>So<br/>$$l=\\frac{AR}{0.37}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

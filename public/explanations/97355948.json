@@ -1,0 +1,15 @@
+{
+  "questionId": "97355948",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the eclipse contrast",
+      "content": "The first sentence describes a partial solar eclipse, where the Moon blocks only part of the Sun. The second describes a total solar eclipse, where the Moon completely blocks the Sun."
+    },
+    {
+      "title": "Choose a contrast transition",
+      "content": "A signals result, B signals reinforcement, and C incorrectly suggests the events happened at the same time despite different dates. A contrast transition fits the shift from partial to total eclipse. The answer is <strong>D</strong>."
+    }
+  ]
+}

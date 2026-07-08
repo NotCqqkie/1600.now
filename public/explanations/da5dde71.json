@@ -1,0 +1,19 @@
+{
+  "questionId": "da5dde71",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the center in standard form",
+      "content": "A circle with center $(h,k)$ has equation $(x-h)^2+(y-k)^2=r^2$. With center $(-3,2)$, this becomes\n$$(x+3)^2+(y-2)^2=r^2$$"
+    },
+    {
+      "title": "Find the radius value",
+      "content": "Use the point $(-9,10)$ on the circle to find the distance squared from the center.\n$$r^2=(-9-(-3))^2+(10-2)^2$$\n$$r^2=(-6)^2+8^2$$\n$$r^2=36+64=100$$"
+    },
+    {
+      "title": "Write the circle equation",
+      "content": "Substitute $r^2=100$ into the standard form.\n$$(x+3)^2+(y-2)^2=100$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c1b4337c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare to the old model",
+      "content": "The old line of best fit has slope $8.8$. At $x=9$, the old model predicts\n$$\ny=-5.6+8.8(9)=73.6\n$$"
+    },
+    {
+      "title": "Use the new point",
+      "content": "The new point is $(9,52)$, which is far below $73.6$. A far-right point below the old trend pulls the new best-fit slope down."
+    },
+    {
+      "title": "Choose the lower slope",
+      "content": "The new slope should be less than $8.8$. Among the choices, $5.9$ is the only reasonable lower estimate. The answer is <strong>A</strong>."
+    }
+  ]
+}

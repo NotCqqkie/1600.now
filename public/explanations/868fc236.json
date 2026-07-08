@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use calories as x and kilojoules as y",
-      "content": "The question asks how $x$ food calories correspond to $k$ kilojoules, so use calories as the input and kilojoules as the output. Two rows from the table are $(4.0,16.7)$ and $(9.0,37.7)$."
+      "title": "Use calories as the input",
+      "content": "The question says $x$ food calories is equivalent to $k$ kilojoules, so use calories as the input and kilojoules as the output. Two table rows are $(4.0,16.7)$ and $(9.0,37.7)$."
     },
     {
       "title": "Find the conversion rate",
-      "content": "Use the slope between the two table rows:<br/>$$\\frac{37.7-16.7}{9.0-4.0}=\\frac{21}{5}=4.2$$<br/>So $k$ is about $4.2$ times $x$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The relationship is best represented by $k=4.2x$. That confirms <strong>B</strong>."
+      "content": "Compute the rate of change in kilojoules per food calorie:\n$$\\frac{37.7-16.7}{9.0-4.0}=\\frac{21}{5}=4.2$$\nThus $k$ is $4.2$ times $x$, so the relationship is $k=4.2x$. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the proportional relationship",
-      "content": "When Maya works $z$ hours, she earns $14.25z$ dollars. This establishes a direct proportion: earnings scale proportionally with hours. If the number of hours multiplies by a factor, earnings multiply by that same factor."
+      "title": "Use the hourly expression",
+      "content": "The expression $14.25z$ gives Maya's earnings for $z$ hours. Working $4z$ hours means working $4$ times as many hours."
     },
     {
-      "title": "Apply the scaling factor",
-      "content": "Maya now works $4z$ hours, which is 4 times as many hours as $z$. Therefore, her earnings also multiply by 4:<br/>$$4 \\times (14.25z)$$<br/>This matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Scale the earnings",
+      "content": "Because the hours are multiplied by $4$, the earnings are also multiplied by $4$.\n$$\n4(14.25z)\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

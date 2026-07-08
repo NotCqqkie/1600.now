@@ -1,0 +1,15 @@
+{
+  "questionId": "e62830ea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect impact to orbital change",
+      "content": "NASA crashed a probe into Dimorphos, and the following sentence says Dimorphos's orbital period was permanently altered. The second event is the result of the first."
+    },
+    {
+      "title": "Use the result transition",
+      "content": "A would add an independent fact, B would specify a detail rather than a result, and D would compare two things. The matching transition signals consequence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the equation",
-      "content": "Slope $5$, $y$-intercept $-35$: $y = 5x - 35$."
+      "title": "Write the line equation",
+      "content": "A line with slope $5$ and $y$-intercept $(0,-35)$ has equation<br/>$$y=5x-35$$"
     },
     {
-      "title": "Set the variable $y = 0$",
-      "content": "$0 = 5x - 35 \\Rightarrow 5x = 35 \\Rightarrow x = 7$.<br/><br/>The x-intercept is where the line crosses the x-axis, so setting $y$ to $0$ isolates that crossing point. The answer is <strong>7</strong>."
+      "title": "Set the height to zero",
+      "content": "At the $x$-intercept, the $y$-coordinate is $0$.<br/>$$0=5x-35$$<br/>$$5x=35$$<br/>$$x=7$$<br/>The answer is <strong>7</strong>."
     }
   ]
 }

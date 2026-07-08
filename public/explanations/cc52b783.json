@@ -1,0 +1,15 @@
+{
+  "questionId": "cc52b783",
+  "correctAnswer": "4.5,9/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read two points from the graph",
+      "content": "The line passes through the intercepts $(0,9)$ and $(14,0)$. The point $(7,c)$ is halfway between those $x$-values because $7$ is halfway between $0$ and $14$."
+    },
+    {
+      "title": "Use the halfway value",
+      "content": "On a line, the halfway $x$-value has the halfway $y$-value:<br/>$$c=\\frac{9+0}{2}=\\frac{9}{2}=4.5$$<br/>So the value of $c$ is <strong>4.5</strong>."
+    }
+  ]
+}

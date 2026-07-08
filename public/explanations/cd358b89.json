@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find g(x) by substituting x-1 into f",
-      "content": "Since $g(x) = f(x-1)$, substitute $(x-1)$ for each instance of $x$ in $f(x) = (x+7)(x+4)(x+2)$:<br/>$$g(x) = ((x-1)+7)((x-1)+4)((x-1)+2)$$<br/>Simplifying:<br/>$(x-1)+7 = x+6$<br/>$(x-1)+4 = x+3$<br/>$(x-1)+2 = x+1$<br/><br/>So $g(x) = (x+6)(x+3)(x+1)$."
+      "title": "Substitute into the function",
+      "content": "Because $g(x)=f(x-1)$, replace each $x$ in $f$ with $x-1$.<br/>$$g(x)=((x-1)+7)((x-1)+4)((x-1)+2)$$"
     },
     {
-      "title": "Find the x-intercepts",
-      "content": "The x-intercepts occur where $g(x) = 0$:<br/>$$(x+6)(x+3)(x+1) = 0$$<br/>Each factor gives a solution:<ul><li>$x + 6 = 0$ yields $x = -6$</li><li>$x + 3 = 0$ yields $x = -3$</li><li>$x + 1 = 0$ yields $x = -1$</li></ul>"
+      "title": "Find the intercept values",
+      "content": "Simplify, then set each factor equal to $0$.<br/>$$g(x)=(x+6)(x+3)(x+1)$$<br/>$$x=-6,\\ -3,\\ -1$$"
     },
     {
-      "title": "Sum the roots",
-      "content": "$$a + b + c = (-6) + (-3) + (-1) = -10$$<br/>The correct answer is B."
+      "title": "Add the values",
+      "content": "The sum of the three $x$-intercepts is<br/>$$-6+(-3)+(-1)=-10$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

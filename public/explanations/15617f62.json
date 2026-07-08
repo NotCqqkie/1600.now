@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the population density formula",
-      "content": "Population density tells us people per unit area. The relationship is:<br/>$$\\text{Population Density} = \\frac{\\text{Population}}{\\text{Area}}$$<br/>Rearranging to solve for area:<br/>$$\\text{Area} = \\frac{\\text{Population}}{\\text{Population Density}}$$"
+      "title": "Use density as a ratio",
+      "content": "Population density is population divided by area.<br/>$$\\text{density}=\\frac{\\text{population}}{\\text{area}}$$<br/>So<br/>$$\\text{area}=\\frac{\\text{population}}{\\text{density}}$$"
     },
     {
-      "title": "Substitute and divide",
-      "content": "Substituting the given values:<br/>$$\\text{Area} = \\frac{92,400}{280}$$<br/>Divide: $92,400 \\div 280 = 330$ square miles.<br/><br/>That matches <strong>Choice C &mdash; $330$</strong>."
+      "title": "Divide population by density",
+      "content": "Substitute the values.<br/>$$\\text{area}=\\frac{92{,}400}{280}=330$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

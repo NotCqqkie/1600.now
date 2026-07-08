@@ -1,0 +1,19 @@
+{
+  "questionId": "2047a455",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the force relationship",
+      "content": "The force is the product of mass and acceleration. In symbols,<br/>$$F=ma$$"
+    },
+    {
+      "title": "Substitute the mass",
+      "content": "The mass is $36$ kilograms and the acceleration is $a$, so<br/>$$F=36a$$"
+    },
+    {
+      "title": "Select the matching equation",
+      "content": "The equation that represents the product of $36$ and $a$ is $F=36a$. The answer is <strong>A</strong>."
+    }
+  ]
+}

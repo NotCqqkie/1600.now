@@ -1,0 +1,15 @@
+{
+  "questionId": "92c92858",
+  "correctAnswer": "70",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $3$ in the function:<br/>$$f(3)=3^2+3+58$$"
+    },
+    {
+      "title": "Compute the output",
+      "content": "Evaluate the expression by squaring first, then adding the remaining terms:<br/>$$f(3)=9+3+58=70$$<br/>The answer is <strong>70</strong>."
+    }
+  ]
+}

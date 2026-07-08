@@ -1,0 +1,15 @@
+{
+  "questionId": "a3f3a5ca",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the title with the name",
+      "content": "The phrase before the blank identifies Valerie Trouet by profession: dendrochronologist Valerie Trouet. A professional title or identifying noun directly before a name is not separated from that name by a comma, dash, or colon."
+    },
+    {
+      "title": "Remove separators",
+      "content": "Choice A adds a dash, incorrectly turning the name into an interruption or elaboration. Choice B inserts a comma between the identifying noun and the name. Choice D uses a colon, which would introduce a list or explanation, not a name. The answer is <strong>C</strong>."
+    }
+  ]
+}

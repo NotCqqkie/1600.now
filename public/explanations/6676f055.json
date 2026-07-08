@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the vertex",
-      "content": "The function $f(\\theta) = -0.32(\\theta - 31)^2 + 920$ is written in vertex form. The value inside the parentheses gives the $\\theta$-coordinate of the vertex: $\\theta = 31$.",
+      "title": "Identify the vertex form",
+      "content": "The model is written in vertex form, so the value inside the squared term identifies the input at the vertex.",
       "formula": "$$\\text{Vertex form: } y = a(x - h)^2 + k \\text{ has vertex at } x = h$$"
     },
     {
-      "title": "Confirm maximum and select answer",
-      "content": "Since $a = -0.32 \\lt 0$, the parabola opens downward, so the vertex is a maximum point. The angle that gives the greatest airflow is $\\theta = 31$ degrees. That confirms <strong>C</strong> is correct."
+      "title": "Use the maximum point",
+      "content": "Because the coefficient of the squared term is negative, the parabola opens downward, so its vertex gives the greatest airflow. The angle at the vertex is $31$ degrees. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding angles",
-      "content": "The triangles are similar. Since $J$ corresponds to $M$ and $L$ and $P$ are both right angles, the remaining acute angles $K$ and $N$ correspond, so $\\cos N=\\cos K$."
+      "title": "Match the angles",
+      "content": "The triangles are similar, so corresponding angles have equal measures. Since $J$ corresponds to $M$ and the right angles $L$ and $P$ correspond, the remaining angles $K$ and $N$ correspond."
     },
     {
-      "title": "Identify corresponding angles in the similar triangles",
-      "content": "Triangle JKL ~ Triangle MNP with angle J corresponding to angle M. Since angles L and P are both right angles (90°), angles K and N are the two acute angles in their respective triangles."
-    },
-    {
-      "title": "Use complementary angles in right triangles",
-      "content": "In a right triangle, the two acute angles are complementary:<br/>$$J + K = 90^{\\circ}$$<br/>$$M + N = 90^{\\circ}$$<br/>Since $J = M$ (corresponding angles), we have $N = 90^{\\circ} - M = 90^{\\circ} - J = K$."
-    },
-    {
-      "title": "Find cos N",
-      "content": "Since $N = K$ and $\\cos K = \\frac{1}{18}$, we have $\\cos N = \\frac{1}{18}$, which is choice A."
+      "title": "Use equal cosine values",
+      "content": "Because $K$ and $N$ are corresponding angles, their cosine values are equal.<br/>$$\\cos N=\\cos K=\\frac{1}{18}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

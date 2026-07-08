@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the series",
-      "content": "The phrase <strong>“and public squares”</strong> signals we're in a series of places."
+      "title": "Recognize the series",
+      "content": "The sentence lists places where azulejos can be found: libraries, train stations, and public squares. Items in a simple three-part list need commas between them."
     },
     {
-      "title": "Apply list punctuation",
-      "content": "When three items form a list with <strong>“and”</strong> joining the final item, commas separate each item.<br/><br/>The correct answer provides the comma after <strong>“libraries”</strong> to properly mark the first item in the three-item list.<br/><br/>The other choices use wrong punctuation for list structure.<br/><br/>That is the correct answer."
+      "title": "Use list punctuation",
+      "content": "Choice A gives no punctuation between list items. Choice B uses a colon where a comma is needed. Choice C uses a dash, which does not fit the simple list. The remaining choice correctly separates libraries from train stations. The answer is <strong>D</strong>."
     }
   ]
 }

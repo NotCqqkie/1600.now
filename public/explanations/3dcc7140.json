@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the defining contrast",
-      "content": "The strongest signal is the dramatic numerical disparity: 221,000 islands under one definition versus 24 under another. This stark difference reveals that the choice of definition fundamentally determines what gets counted."
+      "title": "Compare the island counts",
+      "content": "The notes show that different definitions produce dramatically different counts for Sweden: 221,000 islands under one definition and 24 under another."
     },
     {
-      "title": "Match the definition's impact",
-      "content": "D makes the key generalization directly—different definitions produce <strong>huge disparities</strong>—and supports it with Sweden's dramatic shift from 221,000 to 24.<br/><br/>The others either present limited information or fail to emphasize how significantly definition affects the count.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject limited statements",
+      "content": "<ul><li><strong>Choice A</strong>: It presents only one definition and does not generalize about differing definitions.</li><li><strong>Choice B</strong>: It mentions different definitions but not the size of their effect.</li><li><strong>Choice C</strong>: It focuses on Sweden's islands, not nissologists' definitions.</li></ul>"
+    },
+    {
+      "title": "Generalize from Sweden",
+      "content": "The best sentence both generalizes that definitions can create huge disparities and supports that point with Sweden's numbers. The answer is <strong>D</strong>."
     }
   ]
 }

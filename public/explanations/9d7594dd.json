@@ -1,0 +1,19 @@
+{
+  "questionId": "9d7594dd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read Chile's row",
+      "content": "The sentence already gives Chile's 1995 copper production and asks for the 2020 value from the table. The relevant cell is Chile in the 2020 column."
+    },
+    {
+      "title": "Reject other country values",
+      "content": "Choice B, Choice C, and Choice D give 2020 copper amounts for other countries in the table, not Chile. They therefore cannot complete a sentence about Chile's production."
+    },
+    {
+      "title": "Use Chile's 2020 amount",
+      "content": "Choice A gives 5.73 million metric tons of copper in 2020, which is the table value for Chile and correctly completes the statement. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1cd50b0c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make the verb agree",
+      "content": "The subject is <em>Fans</em>, a plural noun. The blank needs a present-tense verb form that agrees with that plural subject in the sentence about recognizing a voice."
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "A uses a singular present-tense verb, B uses the singular auxiliary <em>has</em>, and D uses the singular auxiliary <em>is</em>. The base present-tense form agrees with the plural subject. The answer is <strong>C</strong>."
+    }
+  ]
+}

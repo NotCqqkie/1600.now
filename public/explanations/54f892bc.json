@@ -1,0 +1,19 @@
+{
+  "questionId": "54f892bc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert years to months",
+      "content": "Since $1$ year is $12$ months, $k$ years is<br/>$$12k$$<br/>months."
+    },
+    {
+      "title": "Count the growth intervals",
+      "content": "The shrub grows $71$ centimeters every $m$ months. In $12k$ months, the number of intervals is<br/>$$\\frac{12k}{m}$$"
+    },
+    {
+      "title": "Multiply by the growth amount",
+      "content": "Multiply $71$ centimeters by the number of intervals:<br/>$$71(\\frac{12k}{m})=\\frac{852k}{m}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

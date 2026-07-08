@@ -1,0 +1,15 @@
+{
+  "questionId": "25012517",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the exclusivity claim",
+      "content": "The students claim broken-wing display is exclusive to shorebirds, the order Charadriiformes. To weaken that claim, the table must show birds outside Charadriiformes that perform the display."
+    },
+    {
+      "title": "Reject shorebird-only evidence",
+      "content": "A is consistent with the claim because it pairs a displaying shorebird with a non-displaying non-shorebird. B and C show variation among shorebirds but do not show the behavior outside shorebirds. Sooty grouse and pine warbler are non-shorebirds that perform the display. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Take the square root of both sides",
-      "content": "Starting with $(x+7)^2=9$, take the square root of both sides. Remember the $\\pm$:<br/>$$x+7=\\pm 3$$"
+      "title": "Use both signs",
+      "content": "Starting with\n$$\n(x+7)^2=9\n$$\ntake the square root of both sides and include both signs.\n$$\nx+7=\\pm 3\n$$"
     },
     {
-      "title": "Solve for x",
-      "content": "From $x+7=3$: $x=-4$.<br/>From $x+7=-3$: $x=-10$.<br/>So the possible values are $-4$ and $-10$."
+      "title": "Solve the two equations",
+      "content": "$$\nx+7=3 \\quad \\text{or} \\quad x+7=-3\n$$\n$$\nx=-4 \\quad \\text{or} \\quad x=-10\n$$"
     },
     {
-      "title": "Test each choice",
-      "content": "Plug each into $(x+7)^2$ and see which gives 9:<ul><li><strong>A)</strong> $x=-2$: $(-2+7)^2=25 \\ne 9$. Eliminate.</li><li><strong>B)</strong> $x=2$: $(2+7)^2=81 \\ne 9$. Eliminate.</li><li><strong>C)</strong> $x=-3$: $(-3+7)^2=16 \\ne 9$. Eliminate.</li><li><strong>D)</strong> $x=-4$: $(-4+7)^2=9$ &check;.</li></ul><strong>D</strong> is correct."
+      "title": "Choose the listed value",
+      "content": "Only $-4$ appears among the choices. The answer is <strong>D</strong>."
     }
   ]
 }

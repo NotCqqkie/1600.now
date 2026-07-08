@@ -1,0 +1,15 @@
+{
+  "questionId": "72e8434a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Track the shift",
+      "content": "Every value in set B is $17$ microfarads greater than the corresponding value in set A. Adding the same amount to every value increases the mean by $17$ and leaves the range unchanged."
+    },
+    {
+      "title": "Find set B values",
+      "content": "The dot plot shows set A has mean $8\\,\\mu\\text{F}$ and range $12\\,\\mu\\text{F}$. Therefore, for set B,<br/>$$8+17=25$$<br/>and the range remains $12\\,\\mu\\text{F}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

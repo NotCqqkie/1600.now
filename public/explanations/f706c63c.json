@@ -1,0 +1,15 @@
+{
+  "questionId": "f706c63c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the speed equation",
+      "content": "Start with the given equation:<br/>$$53=\\frac{2K}{v^2}$$<br/>Multiply both sides by $v^2$, then divide by $53$:<br/>$$53v^2=2K$$<br/>$$v^2=\\frac{2K}{53}$$"
+    },
+    {
+      "title": "Choose the positive value",
+      "content": "Speed is positive, so use the positive value:<br/>$$v=\\sqrt{\\frac{2K}{53}}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

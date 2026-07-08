@@ -1,0 +1,15 @@
+{
+  "questionId": "5581a661",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the concrete example",
+      "content": "The student wants an example of a position in ballroom dance. The notes give exactly one named example: closed facing position."
+    },
+    {
+      "title": "Avoid general statements",
+      "content": "Choice B says some dance positions are for partner dancing, but it names no ballroom position. Choice C says body positions matter in dance generally. Choice D says ballroom dance includes several partner positions but gives no specific example. The remaining choice identifies closed facing position as the example. The answer is <strong>A</strong>."
+    }
+  ]
+}

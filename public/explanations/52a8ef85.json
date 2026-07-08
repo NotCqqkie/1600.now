@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value x = 2",
-      "content": "We start with $$30x+15y=150$$. Substituting $x=2$ gives $$30(2)+15y=150$$. Simplify the product: $$60+15y=150$$."
+      "title": "Substitute the jacket count",
+      "content": "Priya purchased $2$ jackets, so substitute $x=2$ into the equation:\n$$\n30(2)+15y=150\n$$\n$$\n60+15y=150\n$$"
     },
     {
-      "title": "Solve for y",
-      "content": "From $$60+15y=150$$, subtract 60 from both sides: $$15y=90$$. Divide both sides by 15: $$y=6$$. Therefore, Priya purchased 6 hats, and the substituted equation checks because $60+15(6)=150$. <strong>B</strong> is correct."
+      "title": "Solve for hats",
+      "content": "Subtract $60$ from both sides, then divide by $15$:\n$$\n15y=90\n$$\n$$\ny=6\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

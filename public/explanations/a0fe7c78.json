@@ -1,0 +1,15 @@
+{
+  "questionId": "a0fe7c78",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the hypothesis",
+      "content": "The proposal says GDP growth should matter more for urban land expansion as government efficiency increases. In Region 1, the graph shows the opposite pattern: GDP's contribution fell from 38 percent to 28 percent while population's contribution rose from 65 percent to 75 percent."
+    },
+    {
+      "title": "Infer the likely trend",
+      "content": "If increased efficiency would make GDP more important, then GDP becoming less important suggests efficiency did not increase. A, C, and D either claim improvement or discuss patterns not supported by Region 1's reversal. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "acb9bd80",
+  "correctAnswer": "-0.833,-5/6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the fact that (a, 0) is on the line",
+      "content": "Since the line passes through the point $(a, 0)$, this point must satisfy the equation $y = x + \\frac{5}{6}$. We can substitute the coordinates directly into the equation to find $a$."
+    },
+    {
+      "title": "Substitute and solve for a",
+      "content": "Substituting $x = a$ and $y = 0$:<br/>$$0 = a + \\frac{5}{6}$$<br/>Solving for $a$:<br/>$$a = -\\frac{5}{6}$$<br/>Equivalent forms accepted: <strong>-0.833</strong>, <strong>-5/6</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that all probabilities sum to 1",
-      "content": "The three sections account for all attendees. Therefore:<br/>$$P(A) + P(B) + P(C) = 1$$"
+      "title": "Find section C probability",
+      "content": "The probabilities for sections A, B, and C must add to $1$.\n$$P(C)=1-0.35-0.30=0.35$$"
     },
     {
-      "title": "Calculate the probability for section C",
-      "content": "Substitute the given probabilities:<br/>$$P(C) = 1 - 0.35 - 0.30 = 0.35$$"
-    },
-    {
-      "title": "Convert probability to number of attendees",
-      "content": "Multiply the probability by the total number of attendees:<br/>$$0.35 \\times 400 = 140$$<br/>That matches <strong>Choice D &mdash; $140$</strong>."
+      "title": "Convert probability to attendees",
+      "content": "Multiply the probability for section C by the total number of attendees.\n$$0.35(400)=140$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

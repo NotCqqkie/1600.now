@@ -1,0 +1,20 @@
+{
+  "questionId": "36437cac",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle sum",
+      "content": "The interior angles of a triangle add to<br/>$$180^\\circ$$",
+      "formula": "$$D + E + F = 180^{\\circ}$$"
+    },
+    {
+      "title": "Substitute the given angles",
+      "content": "Substitute the given angle measures for angle $D$ and angle $E$.<br/>$$62^\\circ+90^\\circ+F=180^\\circ$$"
+    },
+    {
+      "title": "Solve for the missing angle",
+      "content": "Combine the known angles, then subtract from the triangle total.<br/>$$152^\\circ+F=180^\\circ$$<br/>$$F=28^\\circ$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

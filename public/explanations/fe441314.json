@@ -1,0 +1,15 @@
+{
+  "questionId": "fe441314",
+  "correctAnswer": "3620",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the masses",
+      "content": "Find the total mass of the $5$ values:<br/>$$3{,}920+3{,}920+3{,}140+3{,}960+3{,}160=18{,}100$$"
+    },
+    {
+      "title": "Divide by five",
+      "content": "The mean is the total divided by the number of values:<br/>$$\\frac{18{,}100}{5}=3{,}620$$<br/>The answer is <strong>3620</strong>."
+    }
+  ]
+}

@@ -4,21 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "The graph passes through $(-6,0)$, $(2,0)$, and $(5,0)$, so the zeros of $f$ are $x = -6$, $x = 2$, and $x = 5$."
+      "title": "Identify the zeros",
+      "content": "The graph passes through $(-6,0)$, $(2,0)$, and $(5,0)$. Points with y-coordinate $0$ are zeros of the polynomial, so the zeros are $-6$, $2$, and $5$."
     },
     {
-      "title": "Step 2",
-      "content": "By the Factor Theorem: if $f(a) = 0$, then $(x - a)$ is a factor. So the factors corresponding to the zeros are $(x+6)$, $(x-2)$, and $(x-5)$."
+      "title": "Apply the factor theorem",
+      "content": "By the Factor Theorem, if $f(a)=0$, then $x-a$ is a factor. The zero $2$ gives the factor $x-2$."
     },
     {
-      "title": "Step 3",
-      "content": "Scan the choices for any of these three factors: $(x+6)$ is not listed; $(x-2)$ is the correct answer; $(x-5)$ is not listed."
-    },
-    {
-      "title": "Step 4",
-      "content": "The matching choice, $(x-2)$, must be a factor because $f(2) = 0$."
+      "title": "Match the listed factor",
+      "content": "The other zeros would give factors $x+6$ and $x-5$, which are not listed. The listed factor that must divide the polynomial is $x-2$. The answer is <strong>C</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A - $x+2$</strong>: This factor implies a zero at $x = -2$. The graph does not pass through $(-2, 0)$, so $(x+2)$ need not be a factor. &#10007;</li><li><strong>Choice B - $x+5$</strong>: This factor implies a zero at $x = -5$. The graph does not pass through $(-5, 0)$, so $(x+5)$ need not be a factor. &#10007;</li><li><strong>Choice C - $x-2$</strong>: This factor implies a zero at $x = 2$. The graph passes through $(2, 0)$, confirming $f(2) = 0$, so $(x-2)$ must be a factor by the Factor Theorem. &#10003;</li><li><strong>Choice D - $x-6$</strong>: This factor implies a zero at $x = 6$. The graph does not pass through $(6, 0)$, so $(x-6)$ need not be a factor. &#10007;</li></ul><strong>C</strong> is correct."
+  ]
 }

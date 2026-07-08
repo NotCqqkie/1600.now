@@ -1,0 +1,15 @@
+{
+  "questionId": "6abb2480",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The notation $g(5)$ means to evaluate the function when the input is $5$. Substitute $x=5$ into $g(x)=31-x$:\n$$\ng(5)=31-5\n$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Subtract to find the function value:\n$$\ng(5)=26\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

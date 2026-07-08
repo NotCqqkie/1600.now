@@ -1,0 +1,23 @@
+{
+  "questionId": "9acbfd19",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base area",
+      "content": "Subtract the lateral surface area from the total surface area.<br/>$$48{,}672-27{,}936=20{,}736$$"
+    },
+    {
+      "title": "Find the square side",
+      "content": "The base is a square, so its side length is the square root of the base area.<br/>$$s=\\sqrt{20{,}736}=144$$"
+    },
+    {
+      "title": "Find the slant height",
+      "content": "For a square pyramid, lateral surface area is $2s\\ell$.<br/>$$27{,}936=2(144)\\ell$$<br/>$$27{,}936=288\\ell$$<br/>$$\\ell=97$$"
+    },
+    {
+      "title": "Use the right triangle",
+      "content": "The height, slant height, and half the base side form a right triangle.<br/>$$97^2=h^2+72^2$$<br/>$$9{,}409=h^2+5{,}184$$<br/>$$h^2=4{,}225$$<br/>$$h=65$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

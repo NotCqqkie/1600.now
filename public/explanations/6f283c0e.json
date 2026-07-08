@@ -1,0 +1,15 @@
+{
+  "questionId": "6f283c0e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep both parts of the claim",
+      "content": "The author calls the energy ladder model reductive but still says income constrained fuel choice. The important balance is that income matters, while other factors, such as cooking equipment, also influence household decisions."
+    },
+    {
+      "title": "Reject extreme readings",
+      "content": "A says income matters for different reasons, but the text accepts income as a constraint and adds other factors. C denies that income affects fuel type. D denies that income has an effect. The answer is <strong>B</strong>."
+    }
+  ]
+}

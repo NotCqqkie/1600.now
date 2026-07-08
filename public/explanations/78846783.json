@@ -1,0 +1,15 @@
+{
+  "questionId": "78846783",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use stated collection details",
+      "content": "The question asks what the text supports about the Hispanic Society of America. The passage states that it was founded in 1904, is located in New York City, and has more than 18,000 objects in its museum collection."
+    },
+    {
+      "title": "Reject contradicted claims",
+      "content": "Choice A contradicts the statement that the society is located in New York City. Choice B contradicts the founding date of 1904, and Choice C introduces visitor numbers that the passage never mentions. The supported statement is about the museum collection's size. The answer is <strong>D</strong>."
+    }
+  ]
+}

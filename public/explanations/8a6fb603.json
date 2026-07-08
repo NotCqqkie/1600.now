@@ -1,0 +1,15 @@
+{
+  "questionId": "8a6fb603",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the left sides and right sides of the two equations:\n$$\n(x+8)+(x-8)=(-7y+3)+(7y+11)\n$$\nThe $y$-terms cancel, and the constants on the left also cancel."
+    },
+    {
+      "title": "Find the requested value",
+      "content": "After simplifying, the sum gives\n$$\n2x=14\n$$\nThe question asks for the value of $2x$. The answer is <strong>C</strong>."
+    }
+  ]
+}

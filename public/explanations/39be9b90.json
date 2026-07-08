@@ -1,0 +1,15 @@
+{
+  "questionId": "39be9b90",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested detail",
+      "content": "The student's goal is to specify the year Marian Collett created <em>Sister</em>. The relevant notes say that <em>Sister</em> is a bronze sculpture and that Collett created it in 1973."
+    },
+    {
+      "title": "Keep title and year together",
+      "content": "A gives Collett's birth year, not the sculpture's creation year. B describes her broader artistic reputation without naming <em>Sister</em> or 1973. C mentions sculptures generally but omits the title and year. The remaining choice states the creator, medium, title, and year. The answer is <strong>D</strong>."
+    }
+  ]
+}

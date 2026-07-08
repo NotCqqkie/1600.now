@@ -1,0 +1,15 @@
+{
+  "questionId": "9399546c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the quadratic",
+      "content": "To display zeros directly, look for a factored form. Find two numbers that multiply to $168$ and add to $-46$. The pair is $-4$ and $-42$.\n$$x^2-46x+168=(x-4)(x-42)$$"
+    },
+    {
+      "title": "Use the zero form",
+      "content": "A factored form displays the zeros because each factor can be set equal to $0$.\n$$x-4=0\\quad\\text{or}\\quad x-42=0$$\nSo the zeros are visible as $4$ and $42$. Among the choices, that factored form is $(x-4)(x-42)$. The answer is <strong>B</strong>."
+    }
+  ]
+}

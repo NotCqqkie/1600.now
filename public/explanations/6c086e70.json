@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast and what it reveals",
-      "content": "The sentence sets up a contrast: businesses <em>typically</em> promote themselves, <strong>but</strong> some do not ______ their marketing. The evidence follows: 33% of restaurants skipped a free tool proven to raise revenue by 5%. These restaurants are leaving an effective, available opportunity unused."
+      "title": "Use the revenue clue",
+      "content": "The contrast says businesses typically promote themselves, but some restaurants skipped a free review-site listing associated with average revenue increases. The missing word should describe failing to make marketing as effective as possible."
     },
     {
-      "title": "Eliminate each wrong choice, then confirm the correct one",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;adorn&rsquo;</strong>: Means to decorate or enhance appearance &mdash; the passage is about effectiveness, not aesthetics, so this word doesn't fit the context. &#10007;</li><li><strong>Choice B &mdash; &lsquo;optimize&rsquo;</strong>: Means to make the most effective use of available opportunities &mdash; restaurants that skip a free, revenue-boosting tool are clearly not optimizing their marketing. &#10003;</li><li><strong>Choice C &mdash; &lsquo;endorse&rsquo;</strong>: Means to openly approve or recommend &mdash; the passage describes failing to use a tool, not failing to approve of one's own marketing. &#10007;</li><li><strong>Choice D &mdash; &lsquo;counteract&rsquo;</strong>: Means to actively undermine &mdash; the passage implies neglect, not deliberate self-sabotage, which counteract would require. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose the precise verb",
+      "content": "Choice A means decorate, which is about appearance rather than effectiveness. Choice C means approve or recommend, not improve performance. Choice D means act against, but the restaurants are neglecting an opportunity rather than undermining marketing. The answer is <strong>B</strong>."
     }
   ]
 }

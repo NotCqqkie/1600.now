@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use congruent-triangle angle correspondence",
-      "content": "Triangles $ABC$ and $DEF$ are congruent. Since $A$ corresponds to $D$, those angles have the same measure: $34^{\\circ}$. The right angles $B$ and $E$ also correspond, so the remaining angles $C$ and $F$ correspond."
+      "title": "Match corresponding angles",
+      "content": "The triangles are congruent, with $A$ corresponding to $D$ and right angle $B$ corresponding to right angle $E$. The remaining angles $C$ and $F$ correspond."
     },
     {
-      "title": "Find angle C in triangle ABC using angle sum",
-      "content": "Angle $A = 34^{\\circ}$ and angle $B = 90^{\\circ}$ are given. Angles in a triangle sum to $180^{\\circ}$, so: $$C = 180^{\\circ} - 34^{\\circ} - 90^{\\circ} = 56^{\\circ}$$"
-    },
-    {
-      "title": "Use congruence to find angle F",
-      "content": "The congruence specifies that $A$ corresponds to $D$. Since angle $B = 90^{\\circ}$ and angle $E = 90^{\\circ}$, vertex $B$ corresponds to vertex $E$. Therefore, vertex $C$ corresponds to vertex $F$. <br/> In congruent triangles, corresponding angles are equal, so angle $F = 56^{\\circ}$."
+      "title": "Find the remaining angle",
+      "content": "In triangle ABC, the angle measures sum to $180^\\circ$:<br/>$$34^\\circ+90^\\circ+C=180^\\circ$$<br/>$$C=56^\\circ$$<br/>Since angle C corresponds to angle F, angle F measures $56^\\circ$.<br/>The answer is <strong>56</strong>."
     }
   ]
 }

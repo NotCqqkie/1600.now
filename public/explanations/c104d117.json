@@ -1,0 +1,19 @@
+{
+  "questionId": "c104d117",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the known ratio",
+      "content": "Rewrite the second equation to show the ratio $\\frac{j}{k}$.<br/>$$\\frac{84j}{14xk}=\\frac{84}{14x}\\cdot \\frac{j}{k}$$"
+    },
+    {
+      "title": "Substitute the ratio",
+      "content": "Since $\\frac{j}{k}=58$, substitute it into the equation.<br/>$$\\frac{84}{14x}\\cdot 58=58$$<br/>Divide both sides by $58$.<br/>$$\\frac{84}{14x}=1$$"
+    },
+    {
+      "title": "Find the value of x",
+      "content": "Solve the remaining equation.<br/>$$84=14x$$<br/>$$x=6$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

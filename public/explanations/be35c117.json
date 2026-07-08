@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the rate calculation",
-      "content": "To find revolutions per minute, divide the total number of revolutions by the total time in minutes: $$\\frac{960 \\text{ revolutions}}{60 \\text{ minutes}}$$"
+      "title": "Divide by the time",
+      "content": "Revolutions per minute means total revolutions divided by total minutes:\n+$$\\frac{960}{60}$$"
     },
     {
-      "title": "Simplify and find the rate",
-      "content": "$$\\frac{960}{60} = \\frac{96}{6} = 16$$ The turbine completes 16 revolutions per minute, so <strong>A</strong> is correct."
+      "title": "Simplify the rate",
+      "content": "Compute the quotient:\n+$$\\frac{960}{60}=16$$\n+The turbine completes $16$ revolutions per minute. The answer is <strong>A</strong>."
     }
   ]
 }

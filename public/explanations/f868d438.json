@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures around the blank",
-      "content": "Left of the blank: the opening elements of a proper noun (first and middle names). Right of the blank: the conclusion of the proper noun (“Kingelez”) followed immediately by the main verb (“were featured”) of the sentence. No clause boundary separates these elements."
+      "title": "Keep the full name intact",
+      "content": "The blank comes inside the proper name Bodys Isek Kingelez, immediately before the main verb. No punctuation should split the parts of the name or separate the subject from the verb."
     },
     {
-      "title": "Apply the standard for names within a clause",
-      "content": "<strong>Kingelez</strong> (no punctuation) preserves the proper noun as a single, unbroken unit connecting to the verb.<br/><br/>A semicolon would falsely mark a clause boundary within parts of a name; a comma would interrupt the name's structural continuity; a colon would suggest the name introduces what follows.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Apply the punctuation rule",
+      "content": "<ul><li><strong>Choice A</strong>: Inserts a semicolon inside a name.</li><li><strong>Choice B</strong>: Inserts an unnecessary comma before the verb.</li><li><strong>Choice C</strong>: Leaves the name unbroken and connects it cleanly to the verb.</li><li><strong>Choice D</strong>: Inserts a colon where nothing is being introduced.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "6a8f5105",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the length",
+      "content": "The width is $w$. Since the length is $42$ centimeters greater than the width, the length is\n$$\nw+42\n$$"
+    },
+    {
+      "title": "Build the area expression",
+      "content": "Rectangle area equals width times length.\n$$\nA=(w)(w+42)\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

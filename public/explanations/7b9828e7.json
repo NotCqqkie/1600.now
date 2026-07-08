@@ -1,0 +1,15 @@
+{
+  "questionId": "7b9828e7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the title and name together",
+      "content": "The phrase US economist directly introduces the proper name Arthur Laffer. Because the name identifies which economist is meant, no punctuation is needed between the job title and the name."
+    },
+    {
+      "title": "Remove unnecessary punctuation",
+      "content": "Choice B inserts an unwarranted dash between the title and name. Choice C uses a colon even though the name is not a list or explanation. Choice D wrongly sets off the identifying name with a comma. The answer is <strong>A</strong>."
+    }
+  ]
+}

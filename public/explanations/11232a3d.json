@@ -1,0 +1,15 @@
+{
+  "questionId": "11232a3d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants a similarity between <em>Lady in Brown</em> and <em>Mobile: Pittsburgh</em>. The notes show that both are artworks that won Carnegie Prize gold medals."
+    },
+    {
+      "title": "Avoid one-sided details",
+      "content": "Choice B mentions only Lavery and one artwork. Choice C discusses the museum awarding medals to painters and sculptors, not the two artworks' shared trait. Choice D emphasizes a difference in medium. The remaining choice states the similarity. The answer is <strong>A</strong>."
+    }
+  ]
+}

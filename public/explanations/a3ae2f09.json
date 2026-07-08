@@ -1,0 +1,19 @@
+{
+  "questionId": "a3ae2f09",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel slope",
+      "content": "The line $y=7x+3$ has slope $7$. Since line $l$ is parallel to it, line $l$ also has slope $7$."
+    },
+    {
+      "title": "Write line l",
+      "content": "Line $l$ passes through $(0,0)$, so its equation is<br/>$$y=7x$$"
+    },
+    {
+      "title": "Substitute the given point",
+      "content": "The point $(5,d)$ lies on line $l$, so substitute $x=5$ and $y=d$.<br/>$$d=7(5)=35$$<br/>The answer is <strong>35</strong>."
+    }
+  ]
+}

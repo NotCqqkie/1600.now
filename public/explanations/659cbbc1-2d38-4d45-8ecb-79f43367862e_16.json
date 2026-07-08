@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the y-intercept",
-      "content": "$f(0)=4^{-5(0+1)}=4^{-5}=\\frac{1}{1{,}024}$, so the y-intercept is $\\left(0,\\frac{1}{1{,}024}\\right)$."
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when $x=0$. Substitute $0$ into the function.<br/>$$f(0)=4^{-5(0+1)}=4^{-5}=\\frac{1}{1{,}024}$$"
     },
     {
-      "title": "Choose the form that shows it",
-      "content": "Rewrite $f(x)=4^{-5(x+1)}=4^{-5}\\cdot 4^{-5x}=\\frac{1}{1{,}024}\\left(\\frac{1}{4}\\right)^{5x}$. The coefficient $\\frac{1}{1{,}024}$ is exactly the y-coordinate of the y-intercept.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Display that coefficient",
+      "content": "Separate the exponent into two parts.<br/>$$4^{-5(x+1)}=4^{-5}4^{-5x}$$<br/>$$4^{-5}4^{-5x}=\\frac{1}{1{,}024}(\\frac{1}{4})^{5x}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

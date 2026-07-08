@@ -1,0 +1,15 @@
+{
+  "questionId": "7ef2d3ed",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Form a direct question",
+      "content": "The sentence asks two direct questions: what atmospheric rivers are and how they affect weather. The second question needs auxiliary-before-subject word order and must end with a question mark."
+    },
+    {
+      "title": "Fix order and punctuation",
+      "content": "Choice A has the right word order but ends with a period. Choice B has statement word order and a period. Choice D ends with a question mark but keeps statement word order. The answer is <strong>C</strong>."
+    }
+  ]
+}

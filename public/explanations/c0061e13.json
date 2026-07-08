@@ -1,0 +1,19 @@
+{
+  "questionId": "c0061e13",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare voting ages",
+      "content": "The passage places two voting-age requirements side by side: Panama requires citizens to be 18, while the Isle of Man allows voting at 16. The transition should signal comparison."
+    },
+    {
+      "title": "Reject sequence and cause",
+      "content": "Choice A implies a list that does not continue. Choice C would make the Isle of Man an example of Panama's rule, which it is not. Choice D invents a cause-and-effect relationship."
+    },
+    {
+      "title": "Signal the comparison",
+      "content": "Choice B directly frames the second voting requirement as a comparison with Panama's requirement, highlighting the difference between 18 and 16. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "72bc1cc8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the film series",
+      "content": "The sentence lists three films matched respectively with three filmmakers: <em>Zoot Suit</em>, <em>El Norte</em>, and <em>Stand and Deliver</em>. The blank must separate the first film from the second and leave the second separated from the third."
+    },
+    {
+      "title": "Use series commas",
+      "content": "A lacks a comma after the first film's year, so the first two film titles run together. B lacks both needed separators, and C turns the second film into a parenthetical interruption rather than a normal series item. Commas after the first and second film years correctly punctuate the series. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the center from standard form",
-      "content": "For a circle written as $(x-h)^2+(y-k)^2=r^2$, the center is $(h,k)$. Compare each part of the equation to that standard form."
+      "title": "Compare to circle form",
+      "content": "A circle in standard form is $$(x-h)^2+(y-k)^2=r^2$$ Its center is $(h,k)$."
     },
     {
-      "title": "Recognize the standard form of a circle",
-      "content": "A circle with center $(h, k)$ and radius $r$ has the equation $(x-h)^2 + (y-k)^2 = r^2$. We can read the center directly from this form without any algebra."
-    },
-    {
-      "title": "Extract the center from the given equation",
-      "content": "The given equation is $(x+4)^2 + (y-6)^2 = 9$. Comparing to the standard form:<ul><li>$(x+4)^2 = (x-(-4))^2$ corresponds to $(x-h)^2$, so $h = -4$</li><li>$(y-6)^2$ corresponds to $(y-k)^2$, so $k = 6$</li></ul>Therefore, the center is $(-4, 6)$. That matches the correct answer - <strong>C</strong> is correct."
+      "title": "Read the signs carefully",
+      "content": "The given equation is $$(x+4)^2+(y-6)^2=9$$ Rewrite the first factor as $x-(-4)$, so $h=-4$. The second factor gives $k=6$. The answer is <strong>C</strong>."
     }
   ]
 }

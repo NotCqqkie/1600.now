@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is -4, so the answer is <strong>A</strong>, -4. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "Replace every $x$ with $-1$ in the function:\n$$\nf(-1)=\\frac{(-1)^2-8(-1)+3}{-1-2}\n$$"
     },
     {
-      "title": "Substitute the value x = -1",
-      "content": "Replace every instance of $x$ with $-1$:<br/>$$f(-1) = \\frac{(-1)^2 - 8(-1) + 3}{-1 - 2}$$"
-    },
-    {
-      "title": "Evaluate numerator and denominator, then divide",
-      "content": "<strong>Numerator:</strong> $(-1)^2 - 8(-1) + 3 = 1 + 8 + 3 = 12$<br/><strong>Denominator:</strong> $-1 - 2 = -3$<br/>$$f(-1) = \\frac{12}{-3} = -4$$<br/><strong>A</strong> is correct."
+      "title": "Evaluate the fraction",
+      "content": "The numerator is $1+8+3=12$, and the denominator is $-1-2=-3$. Thus\n$$\nf(-1)=\\frac{12}{-3}=-4\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

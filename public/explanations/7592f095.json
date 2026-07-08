@@ -1,0 +1,15 @@
+{
+  "questionId": "7592f095",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the height context",
+      "content": "The phrase \"of a good height\" describes Mr. French's physical stature. In this context, \"good\" does not mean morally good or dependable; it means notable in amount or size."
+    },
+    {
+      "title": "Remove non-size meanings",
+      "content": "Choice A describes behavior. Choice C describes ability. Choice D describes dependability. None of those meanings fits a description of height. The word meaning substantial or notable in amount fits the sentence. The answer is <strong>B</strong>."
+    }
+  ]
+}

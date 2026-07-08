@@ -1,0 +1,15 @@
+{
+  "questionId": "edf73449",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect load to cost",
+      "content": "The first sentence says edge modeling and kitbashing process shapes in the thousands. The next sentence says these approaches are more economical than methods handling polygons in the millions."
+    },
+    {
+      "title": "Signal the result",
+      "content": "Choice A signals replacement or contrast. Choice B gives an example, and Choice C narrows a point. The sentence needs a result transition because the lower processing load explains the economic advantage. The answer is <strong>D</strong>."
+    }
+  ]
+}

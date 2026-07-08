@@ -1,0 +1,20 @@
+{
+  "questionId": "64c8fa75",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the percent increase formula",
+      "content": "Identify the original price (\\$18), new price (\\$90), and change (\\$90 - \\$18 = \\$72).",
+      "formula": "$$\\text{percent increase} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$$"
+    },
+    {
+      "title": "Calculate the percent increase",
+      "content": "$$\\frac{72}{18} \\times 100\\% = 4 \\times 100\\% = 400\\%$$"
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, compare the result from the work to the answer choices. The value, equation, or condition found above matches $400\\%$, and the other choices fail the same setup or substitution. Therefore <strong>D</strong> is correct."
+    }
+  ]
+}

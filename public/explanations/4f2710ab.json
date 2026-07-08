@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the logical relationship between sentences",
-      "content": "Sentence 1 makes a general claim: organisms have evolved surprising adaptations. Sentence 2 gives a specific case: tadpole shrimp embryos can pause development for over ten years during drought. The second sentence illustrates the first &mdash; it&apos;s an example, not a contrast, a simultaneous event, or a result.<ul><li><strong>Choice A — in contrast,</strong>: Signals opposition. Tadpole shrimp are not contrasted with the general claim &mdash; they support it. &#10007;</li><li><strong>Choice B — for example,</strong>: Signals that a specific case illustrates a general point. Tadpole shrimp are exactly that &mdash; one specific example of a surprising adaptation. &#10003;</li><li><strong>Choice C — meanwhile,</strong>: Signals that two things happen at the same time separately. The shrimp example is not a parallel event &mdash; it&apos;s evidence for the claim. &#10007;</li><li><strong>Choice D — consequently,</strong>: Signals that something follows as a result. The shrimp&apos;s adaptation is not a consequence of the general claim &mdash; it illustrates it. &#10007;</li></ul>"
+      "title": "Connect claim to example",
+      "content": "The first sentence makes a general claim about surprising adaptations that help organisms survive adverse conditions. The second sentence gives a specific case: tadpole shrimp embryos can pause development for years during drought."
     },
     {
-      "title": "Confirm the answer",
-      "content": "&quot;For example&quot; is the only transition that signals illustration of a general principle with a specific case. <strong>B</strong> is correct."
+      "title": "Reject wrong transition signals",
+      "content": "Choice A signals contrast, but the shrimp example supports the general claim. Choice C signals simultaneous separate events. Choice D signals a result, but the adaptation is not caused by the prior sentence. The needed transition introduces an example. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the data directly",
-      "content": "This is a linear table. As $x$ increases by $1$, $y$ decreases by $3$, so the slope is $m=-3$. Use the point $(-8,12)$ in $f(x)=-3x+b$: $$12=-3(-8)+b$$ $$12=24+b$$ $$b=-12$$ Therefore $$f(x)=-3x-12$$"
+      "title": "Find the slope",
+      "content": "From the table, each time $x$ increases by $1$, $f(x)$ decreases by $3$. So the slope is $-3$."
+    },
+    {
+      "title": "Write the linear function",
+      "content": "Use the point $(-8,12)$ in $f(x)=-3x+b$.<br/>$$12=-3(-8)+b$$<br/>$$12=24+b$$<br/>$$b=-12$$<br/>So $f(x)=-3x-12$."
     },
     {
       "title": "Find the x-intercept",
-      "content": "The $x$-intercept is where $f(x)=0$. Set $-3x-12=0$, which gives $-3x=12$ and $x=-4$. So the intercept is $(-4,0)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>B</strong> is $(-4,0)$, so B is correct."
+      "content": "At the x-intercept, $f(x)=0$.<br/>$$-3x-12=0$$<br/>$$-3x=12$$<br/>$$x=-4$$<br/>The intercept is $(-4,0)$. The answer is <strong>B</strong>."
     }
   ]
 }

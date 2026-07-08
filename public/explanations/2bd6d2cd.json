@@ -1,0 +1,15 @@
+{
+  "questionId": "2bd6d2cd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to specific",
+      "content": "The first sentence says generally that Radiohead chose their name as a tribute to another band. The second sentence gives the precise song and band behind that tribute."
+    },
+    {
+      "title": "Choose the detail transition",
+      "content": "Choice A signals the last item in a sequence, choice B signals dismissal or contrast, and choice C signals substitution. The needed transition introduces exact details that clarify the general statement. The answer is <strong>D</strong>."
+    }
+  ]
+}

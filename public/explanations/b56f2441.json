@@ -1,0 +1,15 @@
+{
+  "questionId": "b56f2441",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the exception",
+      "content": "The first sentence says most beach sand is cream or beige. The next sentence says Talofofo Beach is an exception and then explains the contrast: most sand gets its color from quartz and feldspar, while this beach's sand gets a green tint from olivine and organic matter."
+    },
+    {
+      "title": "Avoid comma splices and fragments",
+      "content": "Choice A uses only a comma between independent clauses. Choice C breaks the though clause with an extra comma. Choice D leaves though dangling at the end of a sentence. A colon after exception can introduce the contrasting explanation that follows. The answer is <strong>B</strong>."
+    }
+  ]
+}

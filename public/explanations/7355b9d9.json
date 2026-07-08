@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the Factor Theorem",
-      "content": "If $(k-x)$ is a factor of the expression, then by the Factor Theorem, the expression must equal 0 when $x = k$."
+      "title": "Use the factor theorem",
+      "content": "If $k-x$ is a factor, then the expression equals $0$ when $x=k$."
     },
     {
-      "title": "Substitute and solve for n",
-      "content": "Set $x = k$ in $-x^2 + \\frac{1}{31}nk^2$:<br/>$$-k^2 + \\frac{1}{31}nk^2 = 0$$<br/>Factor out $k^2$:<br/>$$k^2\\left(-1 + \\frac{1}{31}n\\right) = 0$$<br/>Since $k \\gt 0$, we have $k^2 \\neq 0$, so:<br/>$$-1 + \\frac{1}{31}n = 0$$<br/>$$\\frac{1}{31}n = 1$$<br/>$$n = 31$$<br/>This confirms <strong>D</strong> is correct."
+      "title": "Substitute the root",
+      "content": "Substitute $x=k$ into the expression.\n$$\n-k^2+\\frac{1}{31}nk^2=0\n$$\n$$\nk^2(-1+\\frac{n}{31})=0\n$$"
+    },
+    {
+      "title": "Solve for n",
+      "content": "Since $k>0$, $k^2\\neq0$, so the other factor must equal $0$.\n$$\n-1+\\frac{n}{31}=0\n$$\n$$\nn=31\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

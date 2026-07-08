@@ -1,0 +1,15 @@
+{
+  "questionId": "b32f4ba1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the cause and result",
+      "content": "The first sentence says Leda orbits Jupiter in the same direction Jupiter rotates. The next sentence gives the consequence of that fact: Leda's orbit is described as prograde."
+    },
+    {
+      "title": "Rule out noncausal transitions",
+      "content": "A would correct a misconception, B would mark contrast, and D would mark sequence. The sentence needs a transition showing that the label follows from the orbital direction. The answer is <strong>C</strong>."
+    }
+  ]
+}

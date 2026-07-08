@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert radicals to exponential form",
-      "content": "Rewrite $\\sqrt[5]{84n}$ as $(84n)^{1/5}$ and $\\sqrt[6]{84n}$ as $(84n)^{1/6}$. The given expression becomes:<br/>$$(84n)^{1/5} \\cdot \\left[(84n)^{1/6}\\right]^2$$"
+      "title": "Convert radicals to exponents",
+      "content": "Rewrite each radical using a fractional exponent.<br/>$$\\sqrt[5]{84n}(\\sqrt[6]{84n})^2=(84n)^{1/5}((84n)^{1/6})^2$$"
     },
     {
-      "title": "Simplify the squared term using the power rule",
-      "content": "Apply $(a^m)^n = a^{mn}$ to the second factor:<br/>$$\\left[(84n)^{1/6}\\right]^2 = (84n)^{2/6} = (84n)^{1/3}$$<br/>Now the expression is:<br/>$$(84n)^{1/5} \\cdot (84n)^{1/3}$$"
+      "title": "Combine the exponents",
+      "content": "Use the power rule, then add exponents with the same base.<br/>$$((84n)^{1/6})^2=(84n)^{1/3}$$<br/>$$\\frac{1}{5}+\\frac{1}{3}=\\frac{3}{15}+\\frac{5}{15}=\\frac{8}{15}$$"
     },
     {
-      "title": "Combine using the product rule for exponents",
-      "content": "Apply $a^m \\cdot a^n = a^{m+n}$:<br/>$$(84n)^{1/5} \\cdot (84n)^{1/3} = (84n)^{1/5 + 1/3}$$<br/>Find the sum with common denominator 15:<br/>$$\\frac{1}{5} + \\frac{1}{3} = \\frac{3}{15} + \\frac{5}{15} = \\frac{8}{15}$$<br/>So the simplified expression is $(84n)^{8/15}$."
-    },
-    {
-      "title": "Set equal to the target form and solve for x",
-      "content": "We need $(84n)^{8/15} = (84n)^{30x}$. Since the bases are equal, the exponents must be equal:<br/>$$\\frac{8}{15} = 30x$$<br/>Solve for $x$:<br/>$$x = \\frac{8}{15 \\cdot 30} = \\frac{8}{450} = \\frac{4}{225}$$<br/>The answer is <strong>4/225</strong>."
+      "title": "Match the target exponent",
+      "content": "The expression is equivalent to $(84n)^{8/15}$, and the target form is $(84n)^{30x}$. Set the exponents equal.<br/>$$\\frac{8}{15}=30x$$<br/>$$x=\\frac{8}{450}=\\frac{4}{225}$$<br/>The answer is <strong>4/225</strong>."
     }
   ]
 }

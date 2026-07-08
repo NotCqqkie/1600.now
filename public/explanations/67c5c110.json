@@ -1,0 +1,33 @@
+{
+  "questionId": "67c5c110",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equations",
+      "content": "The first equation is already $x+6y=-14$. Dividing the second equation by $5$ gives:\n$$\nx+6y=0\n$$\nDividing the third equation by $2$ gives:\n$$\nx+6y=19.5\n$$"
+    },
+    {
+      "title": "Compare the lines",
+      "content": "All three equations have the same left side, so they represent lines with the same slope. Their constants are different:\n$$\n-14,\\ 0,\\ 19.5\n$$\nThus the lines are distinct and parallel, so they have no common point.",
+      "desmosExpressions": [
+        {
+          "id": "eq1",
+          "latex": "x+6y=-14"
+        },
+        {
+          "id": "eq2",
+          "latex": "x+6y=0"
+        },
+        {
+          "id": "eq3",
+          "latex": "x+6y=19.5"
+        }
+      ]
+    },
+    {
+      "title": "Count the solutions",
+      "content": "A system of distinct parallel lines has zero solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

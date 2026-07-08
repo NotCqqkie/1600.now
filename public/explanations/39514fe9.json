@@ -1,0 +1,15 @@
+{
+  "questionId": "39514fe9",
+  "correctAnswer": "-14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use symmetry of the roots",
+      "content": "The zeros are $-22$ and $-6$. The vertex lies halfway between the two zeros on the $x$-axis."
+    },
+    {
+      "title": "Find the midpoint",
+      "content": "Average the two zeros:<br/>$$r=\\frac{-22+(-6)}{2}=\\frac{-28}{2}$$<br/>The answer is <strong>-14</strong>."
+    }
+  ]
+}

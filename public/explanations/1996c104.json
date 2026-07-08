@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the causal progression",
-      "content": "The passage traces a chain: circulation generates currents, and these currents then create a protective barrier. The blank needs a transition that marks the currents as the forward result of this sequence."
+      "title": "Follow the causal chain",
+      "content": "The passage explains a sequence: liquid metals circulate in Earth's core, that circulation generates electrical currents, and those currents create a protective barrier around Earth. The blank must show that the barrier is the next result in the sequence."
     },
     {
-      "title": "Apply the consequential meaning",
-      "content": "<strong>“In turn”</strong> expresses consequence—the currents create the barrier. <strong>“Likewise”</strong> suggests similarity, <strong>“nevertheless”</strong> introduces contrast, and <strong>“in reality”</strong> merely emphasizes; none convey the causal progression.<br/><br/>That matches <strong>Choice A &mdash; in turn,</strong>."
+      "title": "Reject noncausal transitions",
+      "content": "Choice B signals similarity, but the second clause is an effect, not a similar example. Choice C signals contrast, and Choice D signals correction or emphasis. The needed transition shows the currents produce the barrier as the next consequence. The answer is <strong>A</strong>."
     }
   ]
 }

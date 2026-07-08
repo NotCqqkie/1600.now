@@ -1,0 +1,15 @@
+{
+  "questionId": "fa7baaff",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the battery clue",
+      "content": "The next sentence explains the problem: new batteries cannot be put in once the old ones stop working. The blank must describe removing an old battery and putting in a new one."
+    },
+    {
+      "title": "Choose the swap word",
+      "content": "Choice A means evaluated, Choice B means created for the first time, and Choice C means stopped from happening. None matches exchanging an old battery for a new one. The needed word means swapped out for a substitute. The answer is <strong>D</strong>."
+    }
+  ]
+}

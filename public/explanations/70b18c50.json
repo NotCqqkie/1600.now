@@ -1,0 +1,15 @@
+{
+  "questionId": "70b18c50",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the cause-effect structure",
+      "content": "The sentence says the speed difference is largely something of the fact that flying features limit top speed less than swimming features do. That structure calls for an effect produced by a cause."
+    },
+    {
+      "title": "Reject noncausal nouns",
+      "content": "B would make the speed difference an explanation, C would mean a rejection, and D would mean a goal. A noun meaning result fits the relationship between the physical fact and the speed difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship",
-      "content": "Sentence 1: rings outside the Roche limit are <strong>expected to accrete into a satellite</strong>.<br/>Sentence 2: Morgado's team detected a ring <strong>well outside the Roche limit that has remained intact</strong> — contrary to expectation."
+      "title": "Spot the violated prediction",
+      "content": "The first sentence predicts that debris rings outside the Roche limit should accrete into satellites. The Quaoar ring remained intact despite being well outside that limit, so the second sentence pushes against the expectation."
     },
     {
-      "title": "Match the choice",
-      "content": "The logical relationship between the two sentences is contrast. Sentence 1 states the prediction; Sentence 2 presents a finding that defies it. The blank needs a transition signaling that the observation contradicts the rule.\n<ul>\n<li><strong>\"likewise,\"</strong>: signals similarity — but the finding contradicts the prediction rather than confirming it. ✗</li>\n<li><strong>\"for example,\"</strong>: signals that Sentence 2 is a specific instance illustrating Sentence 1 — but a ring that stayed intact is the opposite of what Sentence 1 predicts. ✗</li>\n<li><strong>\"fittingly,\"</strong>: signals that the outcome is in line with expectations — but the ring's persistence is precisely what was not expected. ✗</li>\n<li><strong>\"though,\"</strong>: signals contrast — the ring defied the prediction by remaining intact rather than accreting. ✓</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+      "title": "Choose a contrast transition",
+      "content": "A signals similarity, B says the result is expected, and C introduces an example of the rule. The sentence needs a contrast marker for a finding that defies the rule. The answer is <strong>D</strong>."
     }
   ]
 }

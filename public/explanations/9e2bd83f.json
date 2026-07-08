@@ -1,0 +1,15 @@
+{
+  "questionId": "9e2bd83f",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify all roots from the factored form",
+      "content": "The equation $x^2(2x - 13)(2x - u) = 0$ breaks into three factors, each giving a root:<ul><li>$x^2 = 0 \\Rightarrow x = 0$ with multiplicity 2</li><li>$2x - 13 = 0 \\Rightarrow x = \\frac{13}{2}$</li><li>$2x - u = 0 \\Rightarrow x = \\frac{u}{2}$</li></ul>"
+    },
+    {
+      "title": "Sum all roots and solve for u",
+      "content": "The sum of all roots (counting multiplicity) equals 18:<br/>$$0 + 0 + \\frac{13}{2} + \\frac{u}{2} = 18$$<br/>Combine the fractions on the left:<br/>$$\\frac{13 + u}{2} = 18$$<br/>Multiply both sides by 2:<br/>$$13 + u = 36$$<br/>Therefore $u = 23$."
+    }
+  ]
+}

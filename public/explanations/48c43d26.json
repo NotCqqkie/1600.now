@@ -1,0 +1,19 @@
+{
+  "questionId": "48c43d26",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>For center $(-4,2)$, the left side must be<br/>$$(x+4)^2+(y-2)^2$$"
+    },
+    {
+      "title": "Find the radius value",
+      "content": "Use the given point $(-10,-6)$ to compute $r^2$:<br/>$$r^2=(-10-(-4))^2+(-6-2)^2$$<br/>$$=(-6)^2+(-8)^2$$<br/>$$=36+64=100$$"
+    },
+    {
+      "title": "Choose the matching equation",
+      "content": "The circle equation must use center $(-4,2)$ and squared radius $100$:<br/>$$(x+4)^2+(y-2)^2=100$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

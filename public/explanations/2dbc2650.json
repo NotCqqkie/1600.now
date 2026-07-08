@@ -1,0 +1,15 @@
+{
+  "questionId": "2dbc2650",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $-5$ in the function rule.<br/>$$m(-5)=8|-5|$$"
+    },
+    {
+      "title": "Evaluate the absolute value",
+      "content": "The absolute value of $-5$ is $5$, so multiply.<br/>$$m(-5)=8(5)$$<br/>$$m(-5)=40$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f2516218",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare both disadvantages",
+      "content": "The student wants to compare the disadvantages of the geothermal systems used at both plants. The Wayang Windu plant uses a flash steam system, whose disadvantage is that it requires geothermal reservoirs above \\(180^\\circ\\text{C}\\), limiting where the system can be used. The Raft River plant uses a binary cycle system, which works with lower-temperature reservoirs but has the disadvantage of higher maintenance costs."
+    },
+    {
+      "title": "Reject one-sided comparisons",
+      "content": "<ul><li><strong>Choice A</strong> names only the Raft River system's cost disadvantage and does not compare both systems' drawbacks.</li><li><strong>Choice B</strong> names only the Wayang Windu system's need for hotter reservoirs.</li><li><strong>Choice D</strong> contrasts the systems' temperature requirements but leaves out the Raft River system's higher maintenance costs.</li></ul>The remaining option compares Wayang Windu's temperature limitation with Raft River's maintenance-cost disadvantage. The answer is <strong>C</strong>."
+    }
+  ]
+}

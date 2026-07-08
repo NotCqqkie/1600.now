@@ -1,0 +1,15 @@
+{
+  "questionId": "fe153e82",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify cause and effect",
+      "content": "The text contrasts the bulky Wright Flyer with modern planes that have sleeker, more streamlined bodies. The final sentence explains the result of that design difference: modern planes are more aerodynamic."
+    },
+    {
+      "title": "Choose the result transition",
+      "content": "Choice A signals a final item in a list. Choice B signals contradiction. Choice D signals that the point is true despite something else. The needed relationship is consequence, because sleek bodies lead to better aerodynamics. The answer is <strong>C</strong>."
+    }
+  ]
+}

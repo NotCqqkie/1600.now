@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the variable x",
-      "content": "The variable $x$ represents the number of months <strong>after</strong> the end of November 2012. To find the number of projects at the end of November 2012 itself, we need the value at $x = 0$ (zero months have passed after that starting date)."
+      "title": "Use the starting month",
+      "content": "The variable $x$ is the number of months after the end of November $2012$. At the end of November $2012$, zero months have passed, so use $x=0$."
     },
     {
-      "title": "Read the graph at x = 0",
-      "content": "From the graph, at $x = 0$ (the $y$-intercept), the curve passes through the point $(0, 5)$. The predicted number of active projects at the end of November 2012 was $5$. That confirms <strong>B</strong> is correct."
+      "title": "Read the graph intercept",
+      "content": "At $x=0$, the graph shows $5$ active projects. The answer is <strong>B</strong>."
     }
   ]
 }

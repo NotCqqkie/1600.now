@@ -1,0 +1,19 @@
+{
+  "questionId": "ffaff774",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the first equation",
+      "content": "Any solution must satisfy $y=0$, so the ordered pair needs $0$ as its second coordinate."
+    },
+    {
+      "title": "Find the matching x-values",
+      "content": "Substitute $y=0$ into the second equation.<br/>$$0=7(x^2-49)$$<br/>$$0=x^2-49$$<br/>$$x^2=49$$<br/>$$x=\\pm7$$"
+    },
+    {
+      "title": "Choose the listed solution",
+      "content": "The possible solutions include $(7,0)$ and $(-7,0)$, but only $(7,0)$ is listed. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "questionId": "d31c7366",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the tangent ratio",
+      "content": "For angle $y^{\\circ}$ in the right triangle, tangent is opposite over adjacent. Identify the side opposite angle $y^{\\circ}$ and the leg adjacent to it."
+    },
+    {
+      "title": "Identify the right triangle and angle y°",
+      "content": "The right angle is at vertex R (bottom left corner). The angle y° is at vertex S (bottom right corner). From the diagram: QR = 5 (vertical leg) and RS = 7 (horizontal leg)."
+    },
+    {
+      "title": "From angle S, identify opposite and adjacent sides",
+      "content": "For angle y° at vertex S:<ul><li><strong>Opposite side</strong> (across from angle S) = QR = 5</li><li><strong>Adjacent side</strong> (next to angle S) = RS = 7</li></ul>"
+    },
+    {
+      "title": "Apply the tangent ratio",
+      "content": "$$\\tan y^{\\circ} = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{5}{7}$$<br/>That confirms <strong>A</strong> is correct.",
+      "formula": "$$\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    }
+  ]
+}

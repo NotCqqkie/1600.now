@@ -1,0 +1,15 @@
+{
+  "questionId": "ac5d5b0a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the sentence's job",
+      "content": "The question asks for the function of the underlined sentence, so the answer must describe what that sentence contributes to the passage. The earlier sentence explains Mara Voss's version of the hyperpop sound. The underlined sentence then introduces Eliza Grant and says that she added pop melodies to that sound more recently."
+    },
+    {
+      "title": "Reject unsupported functions",
+      "content": "<ul><li><strong>Choice B - 'It criticizes a later hyperpop artist for being too similar to an earlier hyperpop artist.'</strong>: The sentence does not criticize Grant, and it does not say she is too similar to Voss.</li><li><strong>Choice C - 'It praises a particular hyperpop artist for consistently evolving through the years.'</strong>: The sentence mentions one contribution, not repeated change over many years.</li><li><strong>Choice D - 'It asserts that the hyperpop sound hasn't changed, even though new artists have adopted it.'</strong>: The sentence says Grant contributed to the sound by adding pop melodies, so it does not claim the sound stayed unchanged.</li></ul>The remaining choice captures that the sentence identifies an artist and names a stylistic element she contributed. The answer is <strong>A</strong>."
+    }
+  ]
+}

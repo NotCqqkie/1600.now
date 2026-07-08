@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Finding $a$ by matching the $x^3$ coefficient",
-      "content": "When we expand $(ax + 2)(7x^2 - bx + 5)$, the $x^3$ term comes from $ax \\cdot 7x^2 = 7ax^3$.<br/><br/>The right side has $21x^3$.<br/><br/>Therefore: $$7a = 21 \\quad \\Rightarrow \\quad a = 3$$"
+      "title": "Match the cubic term",
+      "content": "The $x^3$ term comes from multiplying $ax$ by $7x^2$:\n$$\nax\\cdot7x^2=7ax^3\n$$\nSince the right side has $21x^3$, solve\n$$\n7a=21\n$$\nSo $a=3$."
     },
     {
-      "title": "Finding $ab$ by matching the $x^2$ coefficient",
-      "content": "When we expand, the $x^2$ terms come from:<ul><li>$ax\\cdot (-bx) = -abx^2$</li><li>$2\\cdot 7x^2 = 14x^2$</li></ul>Combined, the $x^2$ coefficient is $-ab+14$. The right side has coefficient $-16$, so:<br/>$$-ab+14=-16$$<br/>$$ab=30$$<br/>This matches, so <strong>C</strong> is correct."
+      "title": "Match the middle term",
+      "content": "The $x^2$ terms are\n$$\n-abx^2+14x^2\n$$\nSo the coefficient is $-ab+14$. Match it to $-16$:\n$$\n-ab+14=-16\n$$\nThus $ab=30$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope using the two points",
-      "content": "Using the slope formula with points $(0, -6)$ and $(1, -3)$:<br/>$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{-3 - (-6)}{1 - 0} = \\frac{3}{1} = 3$$"
+      "title": "Find the slope",
+      "content": "Use the two given points to find the slope.<br/>$$m=\\frac{-3-(-6)}{1-0}=\\frac{3}{1}=3$$"
     },
     {
-      "title": "Write the equation in slope-intercept form",
-      "content": "Since the line passes through $(0, -6)$, the y-intercept is $b = -6$. With slope $m = 3$, the equation is:<br/>$$y = 3x - 6$$<br/>That matches the correct answer &mdash; <strong>D</strong> is correct."
+      "title": "Use the y intercept",
+      "content": "The point $(0,-6)$ gives the $y$-intercept, so $b=-6$. The line is<br/>$$y=3x-6$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

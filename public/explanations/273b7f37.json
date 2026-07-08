@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what we need to calculate",
-      "content": "Maya saved 10% of the 840 carrots she harvested. We need to find 10% of 840."
+      "title": "Convert the percent",
+      "content": "Maya saved $10\\%$ of $840$ carrots. Convert the percent to a decimal:\n$$\n10\\%=0.10\n$$"
     },
     {
-      "title": "Calculate using the 10% shortcut",
-      "content": "10% equals $\\frac{1}{10}$, so we divide by 10 instead of multiplying by 0.10.<br/>$$840 \\div 10 = 84$$<br/>That matches <strong>Choice B &mdash; $84$</strong>."
+      "title": "Find the saved amount",
+      "content": "$$\n840(0.10)=84\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

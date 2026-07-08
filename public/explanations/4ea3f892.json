@@ -1,0 +1,19 @@
+{
+  "questionId": "4ea3f892",
+  "correctAnswer": "66",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Name the three integers",
+      "content": "Let the consecutive integers be $n$, $n+1$, and $n+2$. The greatest is $n+2$."
+    },
+    {
+      "title": "Translate the condition",
+      "content": "Subtract the greatest integer from the sum of the other two integers.<br/>$$n+(n+1)-(n+2)=63$$"
+    },
+    {
+      "title": "Identify the greatest integer",
+      "content": "Simplify the equation, then add $2$ to get the greatest integer.<br/>$$n+n+1-n-2=63$$<br/>$$n-1=63$$<br/>$$n=64$$<br/>$$n+2=66$$<br/>The answer is <strong>66</strong>."
+    }
+  ]
+}

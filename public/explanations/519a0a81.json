@@ -1,0 +1,15 @@
+{
+  "questionId": "519a0a81",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $21$ in the function:\n$$\ng(21)=\\frac{4}{7}(21)-\\frac{5}{7}\n$$"
+    },
+    {
+      "title": "Simplify the value",
+      "content": "Compute the expression:\n$$\ng(21)=12-\\frac{5}{7}\n$$\n$$\ng(21)=\\frac{84}{7}-\\frac{5}{7}\n$$\n$$\ng(21)=\\frac{79}{7}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

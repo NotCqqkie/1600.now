@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical rule",
-      "content": "The sentence opens with two participial phrases: <em>&quot;Laden with emojis and seemingly meaningless words, and driven largely by Sawano&rsquo;s &lsquo;personal feeling and mood,&rsquo;&quot;</em> A participial phrase at the start of a sentence must be followed immediately by the noun it modifies. The phrases describe the <em>titles</em> (not the listener, the pieces, or an approach), so &quot;the titles&quot; must be the subject of the main clause."
+      "title": "Attach the opening modifiers",
+      "content": "The sentence begins with modifying phrases: the subject is described as laden with emojis and seemingly meaningless words and driven largely by Sawano's personal feeling and mood. Those descriptions logically refer to Sawano's mysterious titles, not to a listener, a musical piece, or a listener's approach. In Standard English, an opening modifier should be followed immediately by the noun it modifies, so the noun after the comma must be the titles."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; the listener can approach each piece free from expectations because of the titles.</strong>: Places &quot;the listener&quot; right after the modifying phrases, implying the listener &mdash; not the titles &mdash; is laden with emojis and driven by Sawano&rsquo;s mood. Dangling modifier. &#10007;</li><li><strong>Choice B &mdash; the titles allow the listener to approach each piece free from expectations.</strong>: Places &quot;the titles&quot; immediately after the participial phrases, correctly establishing that the titles are what are laden with emojis and driven by Sawano&rsquo;s mood. &#10003;</li><li><strong>Choice C &mdash; each piece can be approached by the listener free from expectations because of the titles.</strong>: Places &quot;each piece&quot; right after the modifying phrases, implying the pieces &mdash; not the titles &mdash; are laden with emojis. Dangling modifier. &#10007;</li><li><strong>Choice D &mdash; the listener's approach to each piece because of the titles can be free from expectations.</strong>: Places &quot;the listener&rsquo;s approach&quot; right after the phrases, implying the approach is laden with emojis and driven by Sawano&rsquo;s mood. Dangling modifier. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Avoid dangling modifiers",
+      "content": "Choice A puts the listener after the opening modifiers, making it sound as if the listener is laden with emojis and driven by Sawano's mood. Choice C makes each piece the modified noun, even though the titles are what have the strange words and emojis. Choice D attaches the description to the listener's approach, which is also illogical because an approach cannot be laden with emojis or driven by Sawano's personal mood. Choice B places the titles immediately after the modifiers and creates a clear sentence about how the titles affect listeners' expectations. The answer is <strong>B</strong>."
     }
   ]
 }

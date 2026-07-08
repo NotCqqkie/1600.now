@@ -1,0 +1,19 @@
+{
+  "questionId": "0d935a90",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the general-to-specific shift",
+      "content": "The first sentence introduces edge modeling as one process used by digital artists. The second sentence explains exactly what that process involves: piecing separate shapes together to create 3D objects."
+    },
+    {
+      "title": "Rule out wrong relationships",
+      "content": "Choice A adds a separate point instead of narrowing the first idea. Choice C signals a result, but the second sentence clarifies rather than follows as an effect. Choice D signals comparison, but the two sentences discuss the same process."
+    },
+    {
+      "title": "Name the precise elaboration",
+      "content": "The remaining transition marks a move from a broad statement to a more precise explanation of that same idea. The answer is <strong>B</strong>."
+    }
+  ]
+}

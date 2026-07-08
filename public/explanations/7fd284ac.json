@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the point being compared",
-      "content": "The charity with the greatest percent of expenses spent on programs is the highest point on the scatterplot, about $(3400,92)$. The actual percent is therefore about $92$."
+      "title": "Identify the actual value",
+      "content": "The charity with the greatest percent spent on programs is the highest point on the scatterplot. Its actual percent is about $92\\%$."
     },
     {
-      "title": "Estimate the fit line at that x-value",
-      "content": "Use the drawn line of best fit to predict the percent at $x\\approx3400$. Reading straight up to the line gives a predicted value slightly above $85\\%$."
-    },
-    {
-      "title": "Compute the residual",
-      "content": "The actual point is about $92\\%$, and the prediction is slightly above $85\\%$. The difference is slightly less than $7\\%$, so the closest choice is <strong>B</strong>."
+      "title": "Compare to the prediction",
+      "content": "At the same $x$-value, the line of best fit predicts slightly above $85\\%$. The difference is about<br/>$$92-85=7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

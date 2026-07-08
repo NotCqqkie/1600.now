@@ -1,0 +1,19 @@
+{
+  "questionId": "4be1675e",
+  "correctAnswer": "214",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "This is a quadratic equation, so use standard form before applying the quadratic formula. Subtract $43$ from both sides:\n$$\nx^2+7x-43=0\n$$"
+    },
+    {
+      "title": "Use the quadratic formula",
+      "content": "Here $a=1$, $b=7$, and $c=-43$. Substitute these values and simplify the expression under the radical:\n$$\nx=\\frac{-7\\pm\\sqrt{7^2-4(1)(-43)}}{2(1)}\n$$\n$$\nx=\\frac{-7\\pm\\sqrt{221}}{2}\n$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "Comparing with the given form shows that $m=-7$ and $q=221$. Add those two values:\n$$\nm+q=-7+221=214\n$$\nThe answer is <strong>214</strong>."
+    }
+  ]
+}

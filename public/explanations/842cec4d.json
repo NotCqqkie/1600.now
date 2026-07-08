@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the bounds from the problem",
-      "content": "The train's speed varied between 45 mph and 60 mph. &quot;Varied between&quot; means the speed was at least 45 and at most 60, inclusive."
+      "title": "Identify both speed bounds",
+      "content": "The speed varied between $45$ miles per hour and $60$ miles per hour, so it was at least $45$ and at most $60$."
     },
     {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>Choice A &mdash; $s\\le15$</strong>: This caps speed at 15 mph &mdash; below the stated range. &#10007;</li><li><strong>Choice B &mdash; $s\\le45$</strong>: Only an upper bound; allows speeds below 45 and excludes speeds up to 60. &#10007;</li><li><strong>Choice C &mdash; $s\\le60$</strong>: Only an upper bound; allows any speed below 60 but ignores the lower bound of 45. &#10007;</li><li><strong>Choice D &mdash; $45\\le s\\le60$</strong>: Exactly captures both bounds &mdash; speed is between 45 and 60 inclusive. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Write the compound inequality",
+      "content": "The lower and upper bounds must both be included.<br/>$$45\\le s\\le 60$$<br/>Choices with only one inequality miss one side of the range. The answer is <strong>D</strong>."
     }
   ]
 }

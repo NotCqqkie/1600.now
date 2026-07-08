@@ -1,0 +1,19 @@
+{
+  "questionId": "331c051f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove the parentheses",
+      "content": "Rewrite the expression without parentheses while keeping every term in the same order.<br/>$(7nr^2+4nr)+(5n^2r+6nr)=7nr^2+4nr+5n^2r+6nr$"
+    },
+    {
+      "title": "Identify the like terms",
+      "content": "Only $4nr$ and $6nr$ have the exact same variable part, so only those terms can combine. The terms $7nr^2$ and $5n^2r$ stay separate because their exponents are different."
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Add the coefficients on the matching $nr$ terms.<br/>$4nr+6nr=10nr$<br/>The expression becomes $7nr^2+5n^2r+10nr$. The answer is <strong>D</strong>."
+    }
+  ]
+}

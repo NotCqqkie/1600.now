@@ -1,0 +1,19 @@
+{
+  "questionId": "0a6f8a96",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the first point",
+      "content": "Substitute $(0,9)$ into $h(x)=a^x+b$:\n$$\n9=a^0+b=1+b\n$$\nSo $b=8$."
+    },
+    {
+      "title": "Use the second point",
+      "content": "Substitute $(2,24)$ and $b=8$:\n$$\n24=a^2+8\n$$\n$$\na^2=16\n$$\nSince $a$ is positive, $a=4$."
+    },
+    {
+      "title": "Multiply the constants",
+      "content": "$$\nab=4(8)=32\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

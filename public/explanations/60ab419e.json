@@ -1,0 +1,15 @@
+{
+  "questionId": "60ab419e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the timeline",
+      "content": "The passage moves forward through Shakespeare's career: he likely arrived in London around 1585, was known for plays by 1591, and the blank introduces an event in 1596. The needed transition signals a later point in time."
+    },
+    {
+      "title": "Reject non-temporal transitions",
+      "content": "Choice A signals restatement, but the sentence adds a new event. Choice B signals contrast, and choice C signals consequence; neither relationship fits the timeline. The remaining transition marks forward movement from 1591 to 1596. The answer is <strong>D</strong>."
+    }
+  ]
+}

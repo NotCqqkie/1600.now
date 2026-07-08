@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate y to read off the slope of line h",
-      "content": "$\\tfrac{1}{4}x + \\tfrac{1}{9}y - 72 = 0 \\Rightarrow \\tfrac{1}{9}y = -\\tfrac{1}{4}x + 72 \\Rightarrow y = -\\tfrac{9}{4}x + 648$. Slope of $h = -\\tfrac{9}{4}$."
+      "title": "Find the slope of line h",
+      "content": "Rewrite line $h$ in slope-intercept form.<br/>$$\\frac{1}{4}x+\\frac{1}{9}y-72=0$$<br/>$$\\frac{1}{9}y=-\\frac{1}{4}x+72$$<br/>$$y=-\\frac{9}{4}x+648$$<br/>So line $h$ has slope $-\\frac{9}{4}$."
     },
     {
-      "title": "Flip and negate for the perpendicular slope",
-      "content": "Perpendicular shortcut: negative reciprocal of $-\\tfrac{9}{4}$ is $\\tfrac{4}{9}$. Perpendicular slopes multiply to $-1$, and $(-\\tfrac{9}{4})(\\tfrac{4}{9})=-1$, confirming the slope. That matches <strong>Choice D &mdash; $\\frac{4}{9}$</strong>."
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular slopes are negative reciprocals. The negative reciprocal of $-\\frac{9}{4}$ is<br/>$$\\frac{4}{9}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

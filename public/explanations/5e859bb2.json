@@ -1,0 +1,15 @@
+{
+  "questionId": "5e859bb2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The sentence already has a main verb: \"offers.\" The subject is \"Such a compensatory measure,\" so the blank must describe that measure without adding another finite verb before \"offers.\""
+    },
+    {
+      "title": "Choose a modifier",
+      "content": "Choice B, choice C, and choice D are finite verb forms, so each would create two main verbs joined only by commas. The present participle \"counteracting\" works as a modifier: the measure counteracting decline offers an evolutionary explanation. The answer is <strong>A</strong>."
+    }
+  ]
+}

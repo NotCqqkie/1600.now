@@ -1,0 +1,15 @@
+{
+  "questionId": "200ad390",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the intercept",
+      "content": "In the model $s=68m+320$, the constant term is the value of $s$ when $m=0$:\n$$\ns=68(0)+320=320\n$$\nSo $320$ is the number of steps already counted at the start of the walk."
+    },
+    {
+      "title": "Interpret the start time",
+      "content": "The variable $m$ is minutes after the start of the walk. Therefore $m=0$ means the moment the walk begins, so the $320$ steps were taken before the walk. The answer is <strong>D</strong>."
+    }
+  ]
+}

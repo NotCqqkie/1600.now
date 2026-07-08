@@ -1,0 +1,15 @@
+{
+  "questionId": "6036c7b8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the LiDAR result",
+      "content": "The previous sentence says some parts of Tikal are physically inaccessible because stones are intertwined with tree roots. The next sentence explains the result: LiDAR's penetrating light waves were the only way to reveal some unknown aspects."
+    },
+    {
+      "title": "Reject noncausal transitions",
+      "content": "Choice A signals similarity, not result. Choice B gives a time sequence, but the point is not what happened afterward. Choice D introduces a specific detail, not a consequence. The needed transition means therefore. The answer is <strong>C</strong>."
+    }
+  ]
+}

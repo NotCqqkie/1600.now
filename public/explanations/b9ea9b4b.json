@@ -1,0 +1,15 @@
+{
+  "questionId": "b9ea9b4b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the two clauses",
+      "content": "The sentence says Dickens's novel originally had a different title, then adds that while writing and editing he had planned another title. These are two independent clauses."
+    },
+    {
+      "title": "Place though correctly",
+      "content": "B and D create comma splices before the second independent clause. C misuses 'though' at the start of the second clause. The punctuation has to handle both the interrupting adverb and the clause boundary. A sets off the trailing 'though' and uses a semicolon to join the clauses. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "63554dd2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare each table row",
+      "content": "The table compares participants aware of taking a placebo with a control group. In global improvement, symptom severity reduction, and quality of life improvement, the aware-placebo group's mean rating is higher."
+    },
+    {
+      "title": "Reject wrong comparisons",
+      "content": "Choice A gives the aware group's range across measures and then makes an unsupported claim about variation by participant. Choice B says the aware group was lower on two measures. Choice C uses the control group's range and contradicts the data. The aware group's ratings are higher on all three measures. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question requires",
-      "content": "The student wants to <em>compare the causes</em> of crown shyness proposed by both theories. A correct answer must state <strong>Jacobs's specific cause</strong> (branches brushing and breaking) <em>and</em> <strong>Ng's specific cause</strong> (branches detecting shade and stopping growth), using language that contrasts them."
+      "title": "Compare both proposed causes",
+      "content": "The goal is to compare the causes in two theories. Jacobs's theory says crown shyness happens when neighboring trees brush together and branches break; Ng's theory says branches stop growing when they detect shade from nearby branches."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>\"While Jacobs proposes that crown shyness is caused by neighboring tree branches brushing against one another, Ng posits that it occurs when branches detect shade from nearby trees' branches.\"</strong>: Names both causes explicitly and uses a contrast structure (\"While...Ng posits\") to compare them directly. &#10003;</li><li><strong>\"Both Jacobs and Ng have proposed theories to explain what causes crown shyness.\"</strong>: Only acknowledges that two theories exist; gives no information about what either theory proposes as a cause. &#10007;</li><li><strong>\"Ng posits the mutual shade avoidance theory, whereas Jacobs proposes an alternative theory.\"</strong>: Names Ng's theory by title and vaguely calls Jacobs's an \"alternative\" &mdash; neither specific cause is compared. &#10007;</li><li><strong>\"Jacobs's mutual abrasion theory proposes that when neighboring trees brush against one another, branches break off, resulting in a phenomenon in which the tops of trees grow close together but don't overlap.\"</strong>: Explains only Jacobs's theory; Ng's theory and cause are entirely absent. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject one-sided summaries",
+      "content": "B says both scholars have theories but gives no causes. C names Ng's theory and calls Jacobs's an alternative, but it does not compare the causes. D explains only Jacobs's mutual abrasion theory and leaves out Ng's cause. The answer is <strong>A</strong>."
     }
   ]
 }

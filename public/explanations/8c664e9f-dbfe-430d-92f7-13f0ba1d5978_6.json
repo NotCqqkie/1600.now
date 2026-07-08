@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the second leg of the trip",
-      "content": "Driving $70.0$ mph for $2$ hours covers:<br/>$$70.0 \\times 2 = 140 \\text{ miles}$$"
+      "title": "Find the later distance",
+      "content": "Use rate times time for the part driven at constant speed:<br/>$$70.0\\cdot 2=140$$"
     },
     {
-      "title": "Add to the first leg",
-      "content": "Total distance is the first leg plus the second:<br/>$$22.0 + 140 = 162 \\text{ miles}$$<br/>The answer is <strong>162</strong>."
+      "title": "Add the starting distance",
+      "content": "Add the first $22.0$ miles to the later distance:<br/>$$22.0+140=162$$<br/>The answer is <strong>162</strong>."
     }
   ]
 }

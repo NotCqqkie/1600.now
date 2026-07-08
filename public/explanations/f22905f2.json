@@ -1,0 +1,19 @@
+{
+  "questionId": "f22905f2",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zeros",
+      "content": "The graph has zeros at $x=7$ and $x=-2$, so the quadratic can be written as\n$$\nf(x)=a(x-7)(x+2)\n$$\nwhere $a$ is an integer greater than $1$."
+    },
+    {
+      "title": "Find the expression",
+      "content": "Expand the factors: $f(x)=a(x^2-5x-14)=ax^2-5ax-14a$. Thus $b=-5a$, so $a+b=a-5a=-4a$."
+    },
+    {
+      "title": "Choose a possible value",
+      "content": "Since $a$ is an integer greater than $1$, $-4a$ can be $-8$ when $a=2$. The other choices would not make $a$ an integer greater than $1$. The answer is <strong>A</strong>."
+    }
+  ]
+}

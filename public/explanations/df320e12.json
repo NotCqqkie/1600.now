@@ -1,0 +1,15 @@
+{
+  "questionId": "df320e12",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the required detail",
+      "content": "The student wants to identify the sculpture for which Arp won the gold medal. The sentence therefore needs both the prize connection and the artwork's title, <em>Sculpture classique</em>."
+    },
+    {
+      "title": "Eliminate incomplete choices",
+      "content": "A mentions a sculpture but does not name it. B names Arp and the medal but omits the sculpture. D describes the Carnegie Prize but does not mention Arp or the artwork. The only choice that links Arp's medal to <em>Sculpture classique</em> satisfies the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

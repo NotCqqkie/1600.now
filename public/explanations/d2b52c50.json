@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what 'emphasize the order' requires",
-      "content": "To emphasize the order means showing which state became a state first and the temporal distance between them."
+      "title": "Emphasize the state order",
+      "content": "The goal is to show the sequence in which Alaska and Hawaii joined the United States. The relevant notes are that Alaska became the 49th state in January 1959 and Hawaii became the 50th state in August 1959."
     },
     {
-      "title": "Find the choice that directly shows the sequence",
-      "content": "The correct answer explicitly shows the order with “before,” includes ordinal numbers (49th, 50th), and quantifies the gap (“several months”).<br/><br/>The other choices redirect to flag information; choice C downplays the temporal gap by highlighting only the shared year.<br/><br/>That is the correct answer."
+      "title": "Reject irrelevant note uses",
+      "content": "B only discusses the flag. C mentions the shared year but not the before-and-after relationship. D focuses on Hawaii and the flag rather than the order of the two states. The answer is <strong>A</strong>."
     }
   ]
 }

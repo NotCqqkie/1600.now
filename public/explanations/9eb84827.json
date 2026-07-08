@@ -1,0 +1,15 @@
+{
+  "questionId": "9eb84827",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract matching terms",
+      "content": "Subtract $3x$ from both sides of the equation.<br/>$$3x+7=3x$$<br/>$$7=0$$"
+    },
+    {
+      "title": "Identify the contradiction",
+      "content": "The statement $7=0$ is never true, so the equation has zero solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

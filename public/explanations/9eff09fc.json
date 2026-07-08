@@ -1,0 +1,15 @@
+{
+  "questionId": "9eff09fc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Collect the x terms",
+      "content": "Expand and move the $x$ terms to one side.\n$$x(r-8)+5=21x+29$$\n$$x(r-8)-21x=24$$\n$$x(r-29)=24$$"
+    },
+    {
+      "title": "Find the excluded value",
+      "content": "The equation has exactly one solution as long as the coefficient of $x$ is not $0$. If $r=29$, the equation becomes\n$$0x=24$$\nwhich has no solution, not exactly one solution.\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

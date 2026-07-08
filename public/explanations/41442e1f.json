@@ -1,0 +1,15 @@
+{
+  "questionId": "41442e1f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the prediction",
+      "content": "The researcher's claim predicts that languages farther from Africa should retain fewer sounds from the original language. A weakening finding should show the opposite pattern: languages outside Africa having more sounds than languages in Africa."
+    },
+    {
+      "title": "Reject supporting patterns",
+      "content": "Choice A supports greater sound variety in Africa. Choice C fits the distance pattern by putting fewer sounds farther away. Choice D does not directly compare Africa with farther regions. A finding that Europe and Western Asia tend to have more sounds than Africa reverses the prediction. The answer is <strong>B</strong>."
+    }
+  ]
+}

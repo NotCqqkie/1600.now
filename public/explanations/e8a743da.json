@@ -1,0 +1,15 @@
+{
+  "questionId": "e8a743da",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join the clauses correctly",
+      "content": "The sentence contrasts \"these consonants are rare\" with the fact that four retroflex consonants are relatively common in some dialects of Mandarin. The two sides are independent clauses, and \"however\" appears inside the second clause."
+    },
+    {
+      "title": "Rule out faulty joins",
+      "content": "A uses only a comma between independent clauses, creating a comma splice. B leaves the first independent clause running into the next one without a proper separator. D produces an ungrammatical connection with \"and\" before \"however.\" A semicolon correctly separates the independent clauses before the contrasting second clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

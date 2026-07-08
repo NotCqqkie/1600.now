@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the minimum of f(x) using the vertex formula",
-      "content": "For $f(x) = 3x^2 + 54x + 247$, identify $a = 3$ and $b = 54$. <br/><br/>Substitute into the vertex formula: <br/>$$x = -\\frac{54}{2(3)} = -\\frac{54}{6} = -9$$<br/>The minimum of $f(x)$ occurs at $x = -9$.",
+      "title": "Find where the original is minimized",
+      "content": "For $f(x)=3x^2+54x+247$, the vertex gives the minimum because the quadratic opens upward.<br/>$$x=-\\frac{54}{2(3)}=-\\frac{54}{6}=-9$$",
       "formula": "$$x = -\\frac{b}{2a}$$"
     },
     {
-      "title": "Apply the transformation g(x) = f(x+4)",
-      "content": "Since $g(x) = f(x+4)$, the function $g$ reaches its minimum when its input equals the x-value where $f$ is minimized. <br/><br/>Set the argument equal to $-9$: <br/>$$x + 4 = -9$$<br/>Solve for $x$: <br/>$$x = -13$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Shift the input",
+      "content": "The function $g(x)=f(x+4)$ is minimized when the input to $f$ equals $-9$. Set $x+4$ equal to that value.<br/>$$x+4=-9$$<br/>$$x=-13$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

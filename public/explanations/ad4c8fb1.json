@@ -1,0 +1,19 @@
+{
+  "questionId": "ad4c8fb1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the same line",
+      "content": "Multiplying the first equation by $5$ gives the second equation:\n$$\n5(4x+9y)=5(11)\n$$\n$$\n20x+45y=55\n$$\nSo a point only needs to lie on $4x+9y=11$."
+    },
+    {
+      "title": "Test the parameterized point",
+      "content": "For the point $(r,-\\frac{4r}{9}+\\frac{11}{9})$, substitute $x=r$ and $y=-\\frac{4r}{9}+\\frac{11}{9}$:\n$$\n4r+9(-\\frac{4r}{9}+\\frac{11}{9})=4r-4r+11=11\n$$"
+    },
+    {
+      "title": "Select the point",
+      "content": "This point satisfies the line for every real number $r$, so it lies on both equations in the system. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3919ef98",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match law and example",
+      "content": "Kepler's first law says planetary orbits are ellipses, and the notes add that the law also applies to moons. Tethys is the specific moon example with an elliptical orbit, so the response must connect the law's shape claim to that moon."
+    },
+    {
+      "title": "Use the Tethys example",
+      "content": "Choice A focuses on orbital period, not shape. Choice C emphasizes the foci detail and gives no moon example. Choice D stays general and does not use Tethys. The sentence that names Tethys's elliptical orbit and explains that the law applies to moons fulfills both parts of the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

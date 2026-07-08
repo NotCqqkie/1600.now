@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Find the sorting rate",
-      "content": "The machine sorts 18 pounds in 6 minutes. Divide to find the rate: $$\\frac{18 \\text{ pounds}}{6 \\text{ minutes}} = 3 \\text{ pounds per minute}$$"
+      "content": "The machine sorts $18$ pounds in $6$ minutes, so its rate is $$\\frac{18\\text{ pounds}}{6\\text{ minutes}}=3\\text{ pounds per minute}$$"
     },
     {
-      "title": "Calculate time for 108 pounds",
-      "content": "At 3 pounds per minute, divide 108 by the rate to find the time: $$\\frac{108 \\text{ pounds}}{3 \\text{ pounds per minute}} = 36 \\text{ minutes}$$ This matches the correct answer &mdash; <strong>C</strong> is correct."
+      "title": "Divide by the rate",
+      "content": "To find the time for $108$ pounds, divide the total pounds by the rate: $$\\frac{108\\text{ pounds}}{3\\text{ pounds per minute}}=36\\text{ minutes}$$ The answer is <strong>C</strong>."
     }
   ]
 }

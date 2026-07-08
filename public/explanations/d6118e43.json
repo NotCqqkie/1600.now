@@ -1,0 +1,15 @@
+{
+  "questionId": "d6118e43",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the grassland condition",
+      "content": "Aphid colonies generally need stable woody surfaces to thrive, but both habitats Han studied are mostly grassland. In that setting, aphid colonies may stay too small to produce much honeydew, causing ants to prey on them instead of protecting them."
+    },
+    {
+      "title": "Predict opposite abundance",
+      "content": "If ants prey on aphids in both grassland habitats, more ants would tend to correspond with fewer aphids, producing a negative relationship between their abundance. A concerns species identity, B shifts to aphid diversity, and D compares the two sites rather than explaining a shared pattern in both. The answer is <strong>C</strong>."
+    }
+  ]
+}

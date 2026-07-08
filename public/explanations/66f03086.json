@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count the data values",
-      "content": "The dataset has 9 values: 73, 75, 78, 80, 82, 86, 93, 97, 101. They are already arranged in ascending order."
+      "title": "Count the values",
+      "content": "There are $9$ values, and they are already listed from least to greatest."
     },
     {
-      "title": "Find the median using the middle value rule",
-      "content": "When a dataset has an odd number of values, the median is the middle value. With 9 values, the position of the median is:<br/>$$\\text{Position} = \\frac{9 + 1}{2} = 5$$<br/>Counting to the 5th position: 73 (1st), 75 (2nd), 78 (3rd), 80 (4th), 82 (5th). The median is 82. That confirms <strong>B</strong> is correct."
+      "title": "Find the middle position",
+      "content": "For an odd number of values, the median is the middle value.<br/>$$\\frac{9+1}{2}=5$$<br/>The fifth value in the list is $82$. The answer is <strong>B</strong>."
     }
   ]
 }

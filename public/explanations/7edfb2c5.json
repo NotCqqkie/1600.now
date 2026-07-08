@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the evidence threshold",
-      "content": "The passage identifies 400°C as the critical temperature—the typical campfire temperature that the team used to assess whether artifacts show evidence of fire control."
+      "title": "Use the fire threshold",
+      "content": "The team's conclusion depends on whether artifacts were exposed to temperatures above 400 degrees Celsius, the typical temperature campfires reach. Evidence supporting the conclusion should identify artifacts with exposure clearly above that threshold."
     },
     {
-      "title": "Locate the qualifying artifacts",
-      "content": "The graph shows L5_239 and K3_18 at roughly 550°C and 650°C respectively, both exceeding 400°C and supporting the team's fire-control conclusion. The other choices involve below-threshold artifacts, while C sets an irrelevant standard. This confirms <strong>B</strong> is correct."
+      "title": "Select above-threshold data",
+      "content": "Choice A names artifacts that do not both clear the 400-degree threshold. Choice C uses 100 degrees, which is not the fire-control standard. Choice D compares two artifacts without showing campfire-level exposure. The remaining choice gives two artifacts around 550 and 650 degrees. The answer is <strong>B</strong>."
     }
   ]
 }

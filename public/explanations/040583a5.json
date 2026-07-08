@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the gap pattern between treatments",
-      "content": "The key signal is the gap between the ethylene-treated bar (light) and untreated bar (dark) at each temperature. Notice that this gap is much larger at 14°C, 16°C, and 18°C than at 20°C."
+      "title": "Compare treated and untreated",
+      "content": "The student's conclusion must come from comparing bananas with and without ethylene at each temperature. The graph shows a larger gap between the two treatments at 14°C, 16°C, and 18°C than at 20°C."
     },
     {
-      "title": "Match the gap pattern to the answer",
-      "content": "At the three lower temperatures, the gap is roughly 3–3.5 days each; at 20°C, it shrinks to about 1.5 days.<br/><br/>This reveals that ethylene's absolute effect on ripening time was much stronger at lower temperatures. <br/><br/>D states exactly this pattern: ethylene caused a greater absolute change at 14°C, 16°C, and 18°C than at 20°C.<br/><br/>A, B, and C either misstate the data or reverse the observed relationships.<br/><br/>That matches <strong>Choice D &mdash; ethylene was associated with a greater absolute change in ripening time at 14°C, 16°C, and 18°C than at 20°C.</strong>."
+      "title": "Choose the gap claim",
+      "content": "A makes an ideal-storage claim the experiment does not establish. B says temperature differences were not associated with ripening-time differences for untreated bananas, which the graph does not support. C reverses the temperature pattern for ethylene-treated bananas. The answer is <strong>D</strong>."
     }
   ]
 }

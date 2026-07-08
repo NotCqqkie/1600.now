@@ -1,0 +1,15 @@
+{
+  "questionId": "0bbc76d8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the size note",
+      "content": "The student's goal is to indicate the size of the Coachella Valley National Wildlife Refuge. Most notes describe its location, purpose, manager, or restrictions on human activity. The only note that gives a size measurement says that the refuge encompasses 3,592 acres, so the effective sentence must include that acreage rather than unrelated background details."
+    },
+    {
+      "title": "Keep only relevant details",
+      "content": "Choice A discusses the refuge's location and the Coachella Valley fringe-toed lizard but gives no acreage. Choice C focuses on US Fish & Wildlife Service management and limits on human activity. Choice D mentions the lizard and the manager, again without indicating size. The needed response states that the protected natural area encompasses 3,592 acres of land in California. The answer is <strong>B</strong>."
+    }
+  ]
+}

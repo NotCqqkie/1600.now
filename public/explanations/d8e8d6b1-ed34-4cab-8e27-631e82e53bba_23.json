@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a transitions question. Sentence 1 establishes that natural selection was an &ldquo;obvious next step&rdquo; given ideas already circulating in the 1800s. Sentence 2 notes that Darwin and Wallace may not have independently discovered it by coincidence. The blank links these two sentences: Sentence 2 is a logical consequence of Sentence 1 &mdash; if the idea was obvious, independent discovery follows naturally."
+      "title": "Identify the inference",
+      "content": "The first sentence says natural selection was an obvious next step given ideas already circulating among British scientists. The next sentence draws a logical consequence: Darwin and Wallace reaching the idea independently may not have been accidental."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"however,\"</strong>: &ldquo;However&rdquo; signals contrast. Sentence 2 does not contradict Sentence 1; it reinforces it. &#10007;</li><li><strong>\"then,\"</strong>: &ldquo;Then&rdquo; here means &ldquo;in that case&rdquo; or &ldquo;it follows that,&rdquo; expressing a logical inference from Sentence 1. If natural selection was the obvious next step, then of course two scientists would arrive at it simultaneously. &#10003;</li><li><strong>\"moreover,\"</strong>: &ldquo;Moreover&rdquo; adds an additional, separate point. Sentence 2 is not a separate addition; it is the expected consequence of Sentence 1&rsquo;s claim. &#10007;</li><li><strong>\"for example,\"</strong>: &ldquo;For example&rdquo; requires Sentence 2 to be a specific instance that illustrates Sentence 1. Sentence 2 is a consequence, not an illustration. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject wrong transitions",
+      "content": "A signals contrast, but the second sentence follows from the first. C adds a separate point rather than drawing a consequence. D would introduce an example, but the sentence states an inference. The answer is <strong>B</strong>."
     }
   ]
 }

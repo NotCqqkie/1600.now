@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the horizontal line",
-      "content": "The second equation gives $y=28$. Substitute $28$ into $y=12x-20$: $$28=12x-20.$$"
+      "title": "Substitute the known y-value",
+      "content": "The second equation gives $y=28$. Substitute that into the first equation:\n$$\n28=12x-20\n$$"
     },
     {
-      "title": "Solve for $x$",
-      "content": "Add $20$: $48=12x$. Divide by $12$: $x=4$. So the solution is $(4,28)$."
+      "title": "Solve for the x-value",
+      "content": "Add $20$ to both sides, then divide by $12$:\n$$\n48=12x\n$$\n$$\n4=x\n$$\nSo the solution has coordinates $(4,28)$."
     },
     {
-      "title": "Check the choices",
-      "content": "The solution is $(4,28)$. Reversing the coordinates or using an incorrect $x$-value does not satisfy both equations, so <strong>A</strong> is correct.",
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and use their intersection point. The intersection is $(4,28)$. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=12x-20",
         "y=28"

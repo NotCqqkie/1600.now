@@ -1,0 +1,16 @@
+{
+  "questionId": "dcb550c6",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the equation:<br/>$$y=8(1.75)^0$$"
+    },
+    {
+      "title": "Apply the zero exponent rule",
+      "content": "Any nonzero number raised to the $0$ power equals $1$:<br/>$$(1.75)^0=1$$<br/>Then<br/>$$y=8\\cdot1=8$$<br/>The answer is <strong>8</strong>.",
+      "formula": "$$a^0 = 1 \\quad (a \\neq 0)$$"
+    }
+  ]
+}

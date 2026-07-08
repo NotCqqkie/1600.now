@@ -1,0 +1,15 @@
+{
+  "questionId": "c8a4fb33",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the phrase",
+      "content": "Three times the value of $x$ is $3x$. Six more than that amount means add $6$."
+    },
+    {
+      "title": "Write the equation",
+      "content": "Since $y$ is $6$ more than $3x$,<br/>$$y=3x+6$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ca55cdeb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "At $x=0$, the model should give the population in $2010$, which is $6{,}000$. In an exponential model, this starting value is the coefficient."
+    },
+    {
+      "title": "Use the growth factor",
+      "content": "A $3\\%$ annual increase means each year's population is multiplied by\n$$\n1+0.03=1.03\n$$\nAfter $x$ years, the model is\n$$\np=6{,}000(1.03)^x\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

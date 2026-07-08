@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Lay out the two given facts",
-      "content": "(1) Twelve-day-old nestlings beg more in response to their own local dialect than to nonlocal dialects &mdash; an early preference for local song. (2) Song preference plays a role in mate selection. The completion must be the logical consequence of combining these two."
+      "title": "Connect preference to mating",
+      "content": "The study found that pied flycatcher nestlings produced more begging calls in response to their own dialect than to nonlocal dialects, showing an early preference for the local dialect. The final sentence adds that song preference plays a role in mate selection."
     },
     {
-      "title": "Chain them forward",
-      "content": "Early preference for local dialect + song preference shapes mate choice $\\Rightarrow$ when these nestlings mature, that preference should push them toward mates from their own local population rather than nonlocal ones."
-    },
-    {
-      "title": "Eliminate by overreach or contradiction",
-      "content": "<ul><li><strong>'<em>F. hypoleuca</em> nestlings' preference for their own dialect likely disappears as they mature to promote socialization between different <em>F. hypoleuca</em> populations.'</strong>: contradicts the inference &mdash; the whole reason the early preference matters is that it carries forward into mate selection. &#10007;</li><li><strong>'<em>F. hypoleuca</em> nestlings who show an early preference for their own dialect are likely to receive more food from their caretakers than nestlings who show no preferences among any <em>F. hypoleuca</em> dialects.'</strong>: the study measured begging-call counts, not feeding outcomes; nothing in the passage links dialect preference to food rewards. Unsupported. &#10007;</li><li><strong>'<em>F. hypoleuca</em> nestlings' preference for their own dialect likely drives them when they mature to reproduce with other <em>F. hypoleuca</em> from local rather than nonlocal populations.'</strong>: directly follows the chain &mdash; early local-dialect preference plus song-driven mate choice yields local mating. &#10003;</li><li><strong>'<em>F. hypoleuca</em> nestlings show a preference for both local <em>F. hypoleuca</em> dialects and the songs of other local songbirds over the songs of nonlocal birds of any species.'</strong>: extends the finding to other species, which the study never tested. Overreach. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate unsupported inferences",
+      "content": "Choice A says the preference likely disappears, which is not supported. Choice B shifts to receiving more food from caretakers. Choice D adds preferences for other local songbirds and nonlocal birds of any species, which the study did not test. The supported inference is that early local-dialect preference may later guide local mate choice. The answer is <strong>C</strong>."
     }
   ]
 }

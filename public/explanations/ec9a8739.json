@@ -1,0 +1,15 @@
+{
+  "questionId": "ec9a8739",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret zeros",
+      "content": "Values of $x$ where $f(x)=0$ are the graph's $x$-intercepts."
+    },
+    {
+      "title": "Count the intercepts",
+      "content": "The graph shows $2$ distinct $x$-intercepts, so there are $2$ distinct values of $x$ for which $f(x)=0$. The answer is <strong>B</strong>."
+    }
+  ]
+}

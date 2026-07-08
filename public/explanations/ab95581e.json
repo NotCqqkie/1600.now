@@ -1,0 +1,15 @@
+{
+  "questionId": "ab95581e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the tradeoff",
+      "content": "Resin works as a stabilizer but is slow because it takes a long time to cure. Low-melt-point plastic sheets provide the same stabilizing utility while allowing near-instant embedding."
+    },
+    {
+      "title": "Match speed with quality",
+      "content": "A focuses on shape without capturing the efficiency gain, C falsely says no stabilizer is used, and D implies improved perpendicular cuts rather than maintained stabilization. The supported conclusion is faster preparation without compromising the hair's cross-sectional shape. The answer is <strong>B</strong>."
+    }
+  ]
+}

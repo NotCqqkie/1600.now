@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the key principle",
-      "content": "A single random sample gives an <em>estimate</em> of a population parameter, not a guaranteed value. Sampling variability means another sample will generally produce a different proportion, and results from one city say nothing about another city."
+      "title": "Separate estimate from certainty",
+      "content": "A random sample can estimate a population percentage, but it does not prove the exact percentage for all adults in the city."
     },
     {
-      "title": "Evaluate each Roman numeral statement",
-      "content": "Statement I says the entire city must be 64% satisfied - but 64% is a sample estimate, not proof. Not necessarily true.<br/>Statement II says another random sample of 850 adults must also yield 64% - sampling variability rules this out. Not necessarily true.<br/>Statement III says a sample from a different city must yield 64% - a different population can have any satisfaction rate. Not necessarily true."
+      "title": "Check the three claims",
+      "content": "Statement I is not guaranteed because the sample percentage need not equal the population percentage. Statement II is not guaranteed because a second random sample can vary. Statement III is not guaranteed because a different city is a different population."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li>A) None: matches our finding that no statement must be true. Keep.</li><li>B) II only: II is not guaranteed. Eliminate.</li><li>C) I and II only: neither is guaranteed. Eliminate.</li><li>D) I and III only: neither is guaranteed. Eliminate.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Choose the only guaranteed option",
+      "content": "Since none of the three statements must be true, the choice that says none is the only valid conclusion.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

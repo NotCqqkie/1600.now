@@ -1,0 +1,15 @@
+{
+  "questionId": "5934f76e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular antecedent",
+      "content": "The blank refers to \"Marcel Duchamp's abstract cubist aesthetic.\" That noun phrase is singular, so the pronoun must also be singular."
+    },
+    {
+      "title": "Reject mismatched pronouns",
+      "content": "Choice A is plural. Choice C uses \"we,\" which has no clear referent in the sentence. Choice D is also plural. Only a singular pronoun correctly refers to the aesthetic. The answer is <strong>B</strong>."
+    }
+  ]
+}

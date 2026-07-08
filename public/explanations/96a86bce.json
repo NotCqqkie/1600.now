@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal: present Moreno&apos;s research to an audience unfamiliar with Angkor Wat",
-      "content": "The notes include: (1) what Angkor Wat is (a Cambodian temple built in the 1100s), (2) what decorrelation stretch analysis is (a digital imaging technique), and (3) what Moreno found (hundreds of hidden images). A correct answer must introduce Angkor Wat for an unfamiliar audience AND present the discovery clearly."
+      "title": "Introduce site and discovery",
+      "content": "The audience is unfamiliar with Angkor Wat, so the sentence should identify it while presenting Moreno's research. The relevant research is that he used a novel digital imaging technique to reveal hundreds of previously unknown images."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Moreno photographed Angkor Wat's plaster walls and then applied decorrelation stretch analysis to the photographs.</strong>: Describes Moreno&apos;s method but never identifies what Angkor Wat is; an unfamiliar reader is left without context. &#10007;</li><li><strong>Choice B &mdash; Decorrelation stretch analysis is a novel digital imaging technique that Moreno used to enhance the contrast between colors in a photograph.</strong>: Defines the technique but says nothing about where Moreno applied it or what he discovered. &#10007;</li><li><strong>Choice C &mdash; Using a novel digital imaging technique, Moreno revealed hundreds of images hidden on the walls of Angkor Wat, a Cambodian temple.</strong>: Identifies Angkor Wat as &quot;a Cambodian temple,&quot; names the discovery (hundreds of hidden images), and attributes it to Moreno &mdash; meeting both requirements. &#10003;</li><li><strong>Choice D &mdash; Built to honor a Hindu god before becoming a Buddhist temple, Cambodia's Angkor Wat concealed hundreds of images on its plaster walls.</strong>: Explains Angkor Wat&apos;s history and mentions the hidden images, but it does not attribute the discovery to Moreno or describe his research. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Keep Moreno in focus",
+      "content": "A describes Moreno's method but does not explain what Angkor Wat is or what he found. B defines the technique without the site or discovery. D gives Angkor Wat's history but omits Moreno's research role. The answer is <strong>C</strong>."
     }
   ]
 }

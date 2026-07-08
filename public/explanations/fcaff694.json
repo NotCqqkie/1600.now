@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a punctuation question testing restrictive vs. non-restrictive appositives. The blank fills \"as ______ attest.\" The proper names \"Roberto Scandone and Christopher Kilburn\" identify which researchers are meant, making them a restrictive appositive — which takes no commas."
+      "title": "Identify the names",
+      "content": "The phrase must identify which researchers are attesting to the claim. “Roberto Scandone and Christopher Kilburn” names the specific researchers, so the names are essential rather than extra information."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"researchers, Roberto Scandone and Christopher Kilburn,\"</strong>: Two commas set the names off as non-restrictive, implying they are merely supplemental information. But the names are essential to identifying the specific researchers, so commas are incorrect here. &#10007;</li><li><strong>\"researchers, Roberto Scandone and Christopher Kilburn\"</strong>: One comma before the names creates a mismatched pair — a non-restrictive appositive must be enclosed in commas on both sides. This is also incorrect. &#10007;</li><li><strong>\"researchers Roberto Scandone and Christopher Kilburn\"</strong>: No commas. A restrictive appositive that identifies which researchers must not be set off by commas. This is grammatically correct. &#10003;</li><li><strong>\"researchers Roberto Scandone, and Christopher Kilburn\"</strong>: The comma after \"Scandone\" illogically separates the two coordinated names in the appositive, breaking the phrase. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use no commas",
+      "content": "Choice A incorrectly sets the names off with commas. Choice B uses only the opening comma of that incorrect structure. Choice D wrongly inserts a comma between the paired names. No commas are needed between “researchers” and the names. The answer is <strong>C</strong>."
     }
   ]
 }

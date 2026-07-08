@@ -1,0 +1,15 @@
+{
+  "questionId": "e8e96d80",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the input to zero",
+      "content": "The $y$-intercept happens where $x=0$. Substitute $0$ into the equation:<br/>$$y=8^0+19$$"
+    },
+    {
+      "title": "Evaluate the intercept",
+      "content": "Since $8^0=1$, the intercept value is<br/>$$y=1+19=20$$<br/>So the $y$-intercept is $(0,20)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

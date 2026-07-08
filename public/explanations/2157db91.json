@@ -1,0 +1,15 @@
+{
+  "questionId": "2157db91",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the two formulas",
+      "content": "The general formula is:\n$$\nK=\\frac{1}{2}mv^2\n$$\nFor this object, the formula is:\n$$\nK=36v^2\n$$\nSo the coefficients of $v^2$ must match."
+    },
+    {
+      "title": "Solve for the mass",
+      "content": "Set the coefficients equal:\n$$\n\\frac{1}{2}m=36\n$$\n$$\nm=72\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

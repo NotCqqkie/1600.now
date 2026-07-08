@@ -1,0 +1,15 @@
+{
+  "questionId": "844a267e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the theory changed",
+      "content": "The goal is to describe how understanding of the glass's origin evolved. That requires both the earlier 2017 grass-fire explanation and the later 2021 cometary-explosion explanation, so readers can see the change over time. Mentioning only one study would not show evolution; the sentence needs to present the old view and the newer replacement."
+    },
+    {
+      "title": "Reject incomplete histories",
+      "content": "A gives only the newer evidence about mineral signatures. C gives only the older grass-fire explanation and omits the cometary explanation. D says the studies differed but does not describe either explanation, so it does not show how scientific understanding changed from one account to another. The answer is <strong>B</strong>."
+    }
+  ]
+}

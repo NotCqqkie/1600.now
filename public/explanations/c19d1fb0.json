@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the initial moment",
-      "content": "<em>From which the tennis ball was launched</em> refers to time $t = 0$, the initial moment when the tennis ball leaves the balcony."
+      "title": "Use the launch time",
+      "content": "The launch height is the height when $t=0$, because $t$ measures seconds after the tennis ball is launched."
     },
     {
-      "title": "Evaluate the equation at t = 0",
-      "content": "Substitute $t = 0$ into $h = -4.9t^2 + 7t + 24$:<br/>$$h = -4.9(0)^2 + 7(0) + 24 = 24$$The initial height is <strong>24 meters</strong>."
+      "title": "Evaluate the height equation",
+      "content": "Substitute $t=0$:\n+$$h=-4.9(0)^2+7(0)+24$$\n+$$h=24$$\n+The answer is <strong>24</strong>."
     }
   ]
 }

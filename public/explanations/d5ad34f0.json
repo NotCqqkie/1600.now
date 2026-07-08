@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the relationship the blank must express",
-      "content": "Clinical trials \"fail to [blank]\" conclusions practitioners reach from real-world observations. One reason: practitioners may overlook confounding variables &mdash; meaning their conclusions can be wrong or incomplete. The blank must mean something like \"confirm\" or \"support.\"<ul><li><strong>\"circumvent\"</strong>: means to get around or bypass; trial results can't bypass a conclusion &#10007;</li><li><strong>\"corroborate\"</strong>: means to confirm or support with evidence; trials that find different results \"fail to corroborate\" practitioners' conclusions &#10003;</li><li><strong>\"disseminate\"</strong>: means to spread widely; trial results don't spread conclusions &#10007;</li><li><strong>\"implement\"</strong>: means to put into effect; trial results don't enact conclusions &#10007;</li></ul>"
+      "title": "Use the evidence contrast",
+      "content": "The sentence contrasts randomized clinical trials with practitioners' real-world conclusions. Because practitioners may overlook confounding variables, trial results may fail to support or confirm those conclusions."
     },
     {
-      "title": "Confirm with context",
-      "content": "When practitioners overlook confounding variables, their conclusions about what caused an outcome can be flawed. A rigorous clinical trial controls for those variables &mdash; so it would naturally produce different results and \"fail to corroborate\" the practitioner's observation.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose confirmation",
+      "content": "Choice A means bypass, choice C means spread widely, and choice D means put into effect. \"Corroborate\" means confirm or support with evidence, which fits trial results failing to back up observational conclusions. The answer is <strong>B</strong>."
     }
   ]
 }

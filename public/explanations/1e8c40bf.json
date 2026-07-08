@@ -1,0 +1,19 @@
+{
+  "questionId": "1e8c40bf",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the middle position",
+      "content": "Add the frequencies:\n$$\n3+3+4+1+3+9=23\n$$\nWith $23$ observations, the median is the:\n$$\n\\frac{23+1}{2}=12\\text{th}\n$$\nobservation."
+    },
+    {
+      "title": "Use cumulative counts",
+      "content": "The first $3$ observations are $14$, observations $4$ through $6$ are $15$, observations $7$ through $10$ are $16$, and observation $11$ is $17$. The next group, $18$, contains observation $12$."
+    },
+    {
+      "title": "Read the median",
+      "content": "The $12$th observation is $18$, so the median number of birds is $18$. The answer is <strong>18</strong>."
+    }
+  ]
+}

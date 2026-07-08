@@ -1,0 +1,15 @@
+{
+  "questionId": "a531c283",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $5$ in place of $x$ in the function rule:\n$$\nh(5)=22-5\n$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the difference:\n$$\nh(5)=17\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

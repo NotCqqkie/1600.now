@@ -1,0 +1,15 @@
+{
+  "questionId": "6699d05b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The function is in vertex form.\n$$\nf(x)=\\frac{1}{8}(x-5)^2+3\n$$\nIn $a(x-h)^2+k$, the vertex is $(h,k)$, so this vertex is $(5,3)$."
+    },
+    {
+      "title": "Interpret the minimum",
+      "content": "The coefficient of the squared term is positive, so the vertex gives the minimum value of the function. Here $x=5$ is the time in seconds, and $f(x)=3$ is the height in inches. The answer is <strong>A</strong>."
+    }
+  ]
+}

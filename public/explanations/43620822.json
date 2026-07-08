@@ -1,0 +1,15 @@
+{
+  "questionId": "43620822",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the decay factor",
+      "content": "Each week, the collection decreases by $1/2$ of the previous amount. That means the amount left is multiplied by $1/2$ each week."
+    },
+    {
+      "title": "Build the model",
+      "content": "The initial number of books is $3{,}600$, and the weekly factor is $1/2$. After $w$ weeks, the model is<br/>$$c=3{,}600(1/2)^w$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

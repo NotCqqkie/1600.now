@@ -1,0 +1,19 @@
+{
+  "questionId": "ba6e25db",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the caution in the text",
+      "content": "The researchers found that Serbian participants gave low importance to package aesthetics and high importance to speedy delivery and package tracking. But they cautioned against applying the findings to customers generally because all respondents were from Serbia, which the text describes as having a developing economy."
+    },
+    {
+      "title": "Avoid unsupported predictions",
+      "content": "<ul><li><strong>Choice B - customers in countries with higher levels of economic development than that of Serbia</strong>: The text gives no evidence that customers in those countries would value package design more than delivery time or transparency.</li><li><strong>Choice C - online retailers that operate in a variety of countries</strong>: This turns the finding into a business recommendation, but the caution is about whether the study can be generalized.</li><li><strong>Choice D - the greater importance assigned to delivery time and tracking than to package design may not be observed if the survey were to be given to a larger group of Serbian participants.</strong>: This focuses on sample size within Serbia, not on applying the findings to customers generally.</li></ul>"
+    },
+    {
+      "title": "Choose the needed research",
+      "content": "Choice A - additional research is needed with participants from countries of varying levels of economic development to determine whether delivery time and tracking are more important than package design to customers broadly. That follows from the warning: results from one country cannot by themselves prove what customers broadly prefer. The answer is <strong>A</strong>."
+    }
+  ]
+}

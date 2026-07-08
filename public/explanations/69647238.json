@@ -1,0 +1,15 @@
+{
+  "questionId": "69647238",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x to zero",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the function.<br/>$$y=8(4)^{0+2}$$"
+    },
+    {
+      "title": "Compute the coordinate",
+      "content": "Evaluate the power and multiply.<br/>$$y=8(4^2)=8(16)=128$$<br/>So the intercept has $x$-coordinate $0$ and $y$-coordinate $128$. The answer is <strong>C</strong>."
+    }
+  ]
+}

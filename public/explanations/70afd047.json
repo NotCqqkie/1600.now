@@ -1,0 +1,15 @@
+{
+  "questionId": "70afd047",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the date requirement",
+      "content": "The student's goal is to specify when Kenorland formed. The relevant note gives the exact timing: Kenorland formed about 2.6 billion years ago."
+    },
+    {
+      "title": "Use the specific date",
+      "content": "A says only long ago, C describes the supercontinent cycle in general, and D defines Kenorland as a supercontinent without giving its formation time. The effective choice states the exact date from the notes. The answer is <strong>B</strong>."
+    }
+  ]
+}

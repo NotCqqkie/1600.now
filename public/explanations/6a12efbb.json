@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute y = 11 into the perimeter equation",
-      "content": "The given perimeter equation for the rectangular rug is $ 58 = 2x + 2y $. The width $ y $ of the rug is given as 11 feet. Substitute this value into the equation: <br/>$$ 58 = 2x + 2(11) $$<br/>Simplify the right side: $$ 58 = 2x + 22 $$<br/>Subtract 22 from both sides: $$ 36 = 2x $$<br/>Divide both sides by 2: $$ x = 18 $$<br/> The answer is <strong>18</strong>."
+      "title": "Substitute the width",
+      "content": "The width is $11$, so substitute $y=11$ into the perimeter equation.\n$$\n58=2x+2(11)\n$$"
+    },
+    {
+      "title": "Solve for the length",
+      "content": "Simplify and isolate $x$.\n$$\n58=2x+22\n$$\n$$\n36=2x\n$$\n$$\nx=18\n$$\nThe answer is <strong>18</strong>."
     }
   ]
 }

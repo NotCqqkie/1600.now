@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the signal",
-      "content": "The team's conclusion is that <em>“certain microbes in the soil might explain the difference”</em> between healthy and diseased plants. To directly support this, I need evidence showing which specific microbes differ between healthy and diseased plants."
+      "title": "Target the team's conclusion",
+      "content": "The team concluded that certain soil microbes might explain why some tomato plants stayed healthy while others became diseased. Supporting evidence should connect microbial differences to protection from <em>Ralstonia solanacearum</em>."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "The correct response directly shows that healthy plants have significantly higher concentrations of microbes known to inhibit the disease-causing bacterium—the microbial difference that explains their protection.<ul><li>The response about disease bacteria being present equally regardless of plant health does not show that other microbes explain the difference between healthy and diseased plants.</li><li>The response about disease occurring regardless of microbial differences contradicts the conclusion.</li><li>The response about moisture discusses moisture instead of microbes.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Check what each finding tests",
+      "content": "B says the disease-causing bacteria were present regardless of plant health. C points to moisture instead of microbes, and D says disease occurred regardless of microbial differences. The answer is <strong>A</strong>."
     }
   ]
 }

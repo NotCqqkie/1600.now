@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the trend around 60%",
-      "content": "The scatterplot has an increasing trend. At $60\\%$ concentration, the predicted density should be between the nearby trend values around $53\\%$ and $67\\%$."
+      "title": "Use nearby trend values",
+      "content": "The scatterplot shows an increasing linear trend. At $60\\%$ concentration, the predicted density should be between the trend values near $53\\%$ and $67\\%$."
     },
     {
-      "title": "Estimate from nearby values",
-      "content": "The trend is about $1{,}255$ near $53\\%$ and about $1{,}340$ near $67\\%$. Since $60\\%$ is roughly halfway between those concentrations, the prediction should be near the middle of those densities, about $1{,}300$."
+      "title": "Estimate the middle value",
+      "content": "The nearby densities are about $1{,}255$ and $1{,}340$. Since $60\\%$ is roughly between the two concentrations, estimate a density near the middle.\n$$\\frac{1{,}255+1{,}340}{2}=1{,}297.5$$"
     },
     {
-      "title": "Predict density at 60% and match a choice",
-      "content": "Of the choices $1{,}200$, $1{,}250$, $1{,}300$, and $1{,}350$, the closest prediction is $1{,}300$. That is the correct answer."
+      "title": "Choose the closest value",
+      "content": "The closest listed value to this estimate is $1{,}300$.\nThe answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\frac{{x}^{2}}{25}=36$$Graph or solve it directly and read the x-value that works. The requested value is $30$.",
+      "title": "Isolate the square",
+      "content": "Multiply both sides by $25$:\n$$\n\\frac{x^2}{25}=36\n$$\n$$\nx^2=900\n$$"
+    },
+    {
+      "title": "Find possible values",
+      "content": "The solutions are:\n$$\nx=30\\quad\\text{or}\\quad x=-30\n$$\nOnly the positive value $30$ is listed among the choices."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation and read the listed solution from the intersection. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "\\frac{{x}^{2}}{25}=36"
       ]
-    },
-    {
-      "title": "Multiply both sides by 25",
-      "content": "To isolate $x^2$, multiply both sides by 25:<br/>$$\\frac{x^2}{25} \\cdot 25 = 36 \\cdot 25$$<br/>$$x^2 = 900$$"
-    },
-    {
-      "title": "Take the positive square root",
-      "content": "Since $x^2 = 900$, and the answer choices are all positive, take the positive square root:<br/>$$x = \\sqrt{900} = 30$$<br/>That is the correct answer."
     }
   ]
 }

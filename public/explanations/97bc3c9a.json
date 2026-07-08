@@ -1,0 +1,15 @@
+{
+  "questionId": "97bc3c9a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the point",
+      "content": "Substitute the point $(6,0)$ into the first inequality: $$0\\le 6+12$$ This is true because $0\\le 18$."
+    },
+    {
+      "title": "Check the other condition",
+      "content": "Substitute the same point into the second inequality: $$0\\ge -3(6)-12$$ This is true because $0\\ge -30$, so the point satisfies both inequalities. The answer is <strong>D</strong>."
+    }
+  ]
+}

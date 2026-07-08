@@ -1,0 +1,15 @@
+{
+  "questionId": "07553061",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify the word term",
+      "content": "The blank follows a term and introduces what that term means. It needs a participial modifier that links term to the following that-clause, not a finite verb starting a separate clause."
+    },
+    {
+      "title": "Avoid finite verbs",
+      "content": "Choices A, B, and C use finite verb forms, leaving the sentence with an ungrammatical extra verb after term. The remaining choice uses a present participle to modify term smoothly. The answer is <strong>D</strong>."
+    }
+  ]
+}

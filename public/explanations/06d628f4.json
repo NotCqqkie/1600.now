@@ -1,0 +1,15 @@
+{
+  "questionId": "06d628f4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary angles",
+      "content": "In a right triangle, the two acute angles add to $90^\\circ$. The figure shows one acute angle as $24^\\circ$, so the other angle satisfies<br/>$$a+24=90$$"
+    },
+    {
+      "title": "Solve for the angle",
+      "content": "Subtract $24$ from both sides.<br/>$$a=90-24=66$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

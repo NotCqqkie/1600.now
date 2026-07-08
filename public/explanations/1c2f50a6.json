@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate 20% discount",
-      "content": "To find 20% of the original price, multiply 50 by 0.20:<br/>$$0.20 \\times 50 = 10$$<br/>The discount amount is &#36;10."
+      "title": "Find the discount",
+      "content": "A $20\\%$ reduction on a $50$ dollar jacket means subtracting $20\\%$ of $50$.<br/>$$0.20(50)=10$$<br/>The discount is $10$ dollars."
     },
     {
-      "title": "Compute sale price",
-      "content": "Subtract the discount from the original price:<br/>$$50 - 10 = 40$$<br/>The sale price is &#36;40, which matches the correct answer."
+      "title": "Subtract from the original price",
+      "content": "Subtract the discount from the original price.<br/>$$50-10=40$$<br/>The sale price is $40$, which matches choice D. The answer is <strong>D</strong>."
     }
   ]
 }

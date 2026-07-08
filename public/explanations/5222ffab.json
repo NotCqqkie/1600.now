@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the key finding",
-      "content": "The notes state <strong>“They found that certain fibers allow the brain to toggle from one method of processing smells to another”</strong> and then specify both methods: capturing information at a given moment, and tracking changes over time.<br/><br/>An effective summary must present this discovery—the toggle mechanism and both processing approaches."
+      "title": "Summarize both smell methods",
+      "content": "The study's finding is that certain fibers let the brain toggle between two ways of processing smell: capturing olfactory information at one moment and tracking changes in that information over time."
     },
     {
-      "title": "Match the finding to the choices",
-      "content": "The matching choice directly reports both methods of smell processing and the toggle between them—exactly what the study found.<br/><br/>The other choices fail to summarize the findings:<ul><li>A foregrounds the methodology instead</li><li>B describes only one method</li><li>C describes the research goal rather than what was discovered</li></ul><strong>D</strong> is correct."
+      "title": "Reject partial summaries",
+      "content": "Choice A foregrounds the study method. Choice B mentions only one processing method. Choice C states the research goal rather than the finding. The best summary includes the toggle and both forms of olfactory processing. The answer is <strong>D</strong>."
     }
   ]
 }

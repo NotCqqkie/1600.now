@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine the sign and magnitude",
-      "content": "The line of best fit slopes <strong>downward</strong> from left to right, so the slope is <strong>negative</strong> (eliminates C and D). To distinguish $-7$ from $-0.7$, estimate $\\dfrac{\\text{rise}}{\\text{run}}$ between two clear points on the line."
+      "title": "Determine the slope sign",
+      "content": "The line of best fit goes downward from left to right, so its slope is negative."
     },
     {
-      "title": "Match the slope",
-      "content": "The line drops by roughly $0.7$ units of $y$ for every $1$ unit of $x$ — a shallow negative slope, not a steep one. So the slope is closest to $-0.7$.<br/><br/><strong>B</strong> is correct."
+      "title": "Estimate the steepness",
+      "content": "Using two clear points on the line, the line falls by about $1.1$ units for each increase of $1$ unit in $x$. So the slope is closest to $-1.1$. The answer is <strong>B</strong>."
     }
   ]
 }

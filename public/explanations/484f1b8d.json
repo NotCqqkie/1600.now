@@ -1,0 +1,15 @@
+{
+  "questionId": "484f1b8d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the mass of one object",
+      "content": "If $r$ identical objects have total mass $t$, then divide the total mass by the number of objects to find the mass of each object:<br/>$$\\frac{t}{r}$$"
+    },
+    {
+      "title": "Scale to the requested count",
+      "content": "The question asks for the total mass of $132r$ identical objects, so multiply the mass of one object by $132r$:<br/>$$132r\\cdot\\frac{t}{r}=132t$$<br/>The factor $r$ cancels because the number of objects is $132$ times the original number. The expression is $132t$. The answer is <strong>D</strong>."
+    }
+  ]
+}

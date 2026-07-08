@@ -1,0 +1,15 @@
+{
+  "questionId": "cd4db358",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find tangent at angle Y",
+      "content": "The altitude $WX$ forms right triangle $XWY$. Relative to angle $Y$, the opposite side is $WX=350$ and the adjacent side is $YW=840$, so:\n$$\\tan Y=\\frac{350}{840}=\\frac{5}{12}$$"
+    },
+    {
+      "title": "Use complementary angles",
+      "content": "In right triangle $XYZ$, angles $Y$ and $Z$ are complementary. Therefore, their tangent values are reciprocals:\n$$\\tan Z=\\frac{1}{\\tan Y}=\\frac{1}{\\frac{5}{12}}=\\frac{12}{5}$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

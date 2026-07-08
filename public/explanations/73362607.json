@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert 10% to a decimal",
-      "content": "10% means 10 per 100, which can be written as a decimal or fraction:<br/>$$10\\% = 0.10 = \\frac{1}{10}$$"
+      "title": "Convert the percent",
+      "content": "Convert $10\\%$ to a decimal.\n$$\n10\\%=0.10\n$$"
     },
     {
-      "title": "Multiply the harvest by the decimal",
-      "content": "To find how many tomatoes Lina gave away, multiply the total harvest by the decimal form:<br/>$$680 \\times 0.10 = 68$$<br/>Lina gave <strong>68</strong> cherry tomatoes to her neighbor."
+      "title": "Multiply by the harvest",
+      "content": "Take $10\\%$ of $680$ tomatoes.\n$$\n680(0.10)=68\n$$\nThe answer is <strong>68</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "80075196",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the list of ways",
+      "content": "The sentence says the US Geological Survey compiles data in several ways, then lists three by phrases: exchanging information, linking maps, and maintaining a database. A colon can introduce that explanatory list."
+    },
+    {
+      "title": "Avoid fragment punctuation",
+      "content": "Choice A creates a sentence fragment beginning with By. Choice C uses a semicolon before phrases that are not an independent clause. Choice D places a colon after the preposition by, which is ungrammatical. The answer is <strong>B</strong>."
+    }
+  ]
+}

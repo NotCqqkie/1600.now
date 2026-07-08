@@ -1,0 +1,19 @@
+{
+  "questionId": "cbc86784",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the input",
+      "content": "The variable $x$ represents the number of years after the organization was established. So $x=4$ means $4$ years after it was established."
+    },
+    {
+      "title": "Interpret the output",
+      "content": "The function value $h(4)=46$ means the estimated number of students at that time is $46$."
+    },
+    {
+      "title": "Match the statement",
+      "content": "The matching statement says there were $46$ students $4$ years after the organization was established. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "cb39b3f2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the full date range",
+      "content": "The student wants to specify how long Mozambique used the escudo officially. The relevant notes give both endpoints: Mozambique adopted the escudo in 1914, and the metical replaced it in 1980."
+    },
+    {
+      "title": "Reject incomplete timing",
+      "content": "A gives no dates for the escudo's official use. B gives only the starting year. D focuses on the metical since 1980 and does not state when the escudo first became official. The answer is <strong>C</strong>."
+    }
+  ]
+}

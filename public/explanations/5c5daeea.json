@@ -1,0 +1,19 @@
+{
+  "questionId": "5c5daeea",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the x-intercept",
+      "content": "The graph models combinations of M-type and K-type stars with total mass $132{,}778$ quettagrams. At the $x$-intercept, $y=0$, so all the mass comes from M-type stars."
+    },
+    {
+      "title": "Compute mass per M-type star",
+      "content": "The graph shows an $x$-intercept near $160$. If each M-type star has mass $m$, then<br/>$$160m=132{,}778$$<br/>$$m=\\frac{132{,}778}{160}=829.8625$$"
+    },
+    {
+      "title": "Choose the closest estimate",
+      "content": "The value $829.8625$ is closest to $828$ among the choices. The answer is <strong>A</strong>."
+    }
+  ]
+}

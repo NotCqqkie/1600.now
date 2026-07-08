@@ -1,0 +1,15 @@
+{
+  "questionId": "25e6ca2c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the marked angle",
+      "content": "The figure marks angle $C$ as the right angle of triangle $ABC$. A right angle measures $90^\\circ$."
+    },
+    {
+      "title": "Choose the angle measure",
+      "content": "Since angle $C$ is the right angle, the listed measure that matches the figure is $90^\\circ$. The answer is <strong>D</strong>."
+    }
+  ]
+}

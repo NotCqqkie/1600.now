@@ -1,0 +1,15 @@
+{
+  "questionId": "eca66603",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace Malthus to biology",
+      "content": "Darwin's notebook connects species' struggle for survival to Malthus, whose economic essay argued that population growth outpaces food production. A later 1838 notebook uses similar population-pressure language, suggesting Darwin had applied that economic idea to biology by then."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "Choice A adds a date as late as 1858 without support. Choice B reverses the influence by making Malthus depend on animal behavior. Choice D says economists had already stated natural selection in the same terms, which the passage does not show. The remaining inference matches the Malthus connection. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ce35445f",
+  "correctAnswer": "0.75,3/4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Parallel lines have equal slopes — read slope directly from standard form",
+      "content": "For $ax + by = c$ the slope is $-a/b$, no algebra needed.<br/>Line $j$: $5x + 6y = 66$ $\\Rightarrow$ slope $= -5/6$.<br/>Line $k$: $20x + ry = 18$ $\\Rightarrow$ slope $= -20/r$.<br/>Set equal: $-5/6 = -20/r$ $\\Rightarrow$ $r = 24$."
+    },
+    {
+      "title": "Plug the y-intercept point into line k",
+      "content": "Line $k$ is $20x + 24y = 18$. The point $(0, b)$ lies on it, so substitute $x = 0$:<br/>$$24b = 18 \\implies b = \\frac{3}{4}$$<br/>The answer is $\\boxed{0.75}$ (or $3/4$)."
+    }
+  ]
+}

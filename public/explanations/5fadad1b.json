@@ -1,0 +1,23 @@
+{
+  "questionId": "5fadad1b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the needed ratio",
+      "content": "The segment $AB$ is opposite the $58^\\circ$ angle, and the hypotenuse is $14$. Sine relates the opposite side to the hypotenuse."
+    },
+    {
+      "title": "Set up sine",
+      "content": "Use the sine ratio:<br/>$$\\sin 58^\\circ=\\frac{AB}{14}$$"
+    },
+    {
+      "title": "Solve for the segment",
+      "content": "Multiply both sides by $14$:<br/>$$AB=14\\sin 58^\\circ$$"
+    },
+    {
+      "title": "Select the expression",
+      "content": "The expression for the opposite side is $14\\sin 58^\\circ$. The answer is <strong>A</strong>."
+    }
+  ]
+}

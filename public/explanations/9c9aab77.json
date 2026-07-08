@@ -1,0 +1,19 @@
+{
+  "questionId": "9c9aab77",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's detail",
+      "content": "The underlined sentence does not state a new conclusion about ocean acidification. It adds a detail about Patel and colleagues' study: the study relied on a mean sample size of only about 18 fish. That detail matters because the next sentences discuss what can happen when researchers rely on relatively small samples."
+    },
+    {
+      "title": "Track how later sentences use it",
+      "content": "After the underlined sentence, Jensen and colleagues caution that a small sample size can increase the potential for biased analysis. The final sentence adds that biased analysis can contribute to reports of exaggerated effects. So the underlined sentence introduces a limitation, and the following sentences explain the significance of that limitation."
+    },
+    {
+      "title": "Eliminate mismatched functions",
+      "content": "B is wrong because the sentence does not offer another cause of fish behavior; it describes study design. C is wrong because the sentence does not emphasize the threat from ocean acidification. D is wrong because Patel and colleagues' conclusion appears in the previous sentence, not the underlined one. A accurately describes a detail about the study that later sentences address. The answer is <strong>A</strong>."
+    }
+  ]
+}

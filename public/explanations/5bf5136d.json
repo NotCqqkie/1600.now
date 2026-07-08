@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the triangle inequality",
-      "content": "For side lengths $8$, $15$, and $x$, the sum of any two sides must be greater than the third side."
+      "title": "Find the upper bound",
+      "content": "The third side must be less than the sum of the two given sides.<br/>$$x<8+15=23$$"
     },
     {
-      "title": "Find the bounds on x",
-      "content": "The fixed sides give the upper bound: $8+15\\gt x$, so $x\\lt23$. The smaller fixed side plus $x$ must exceed the larger fixed side: $8+x\\gt 15$, so $x\\gt 7$."
+      "title": "Find the lower bound",
+      "content": "The smaller given side plus the third side must be greater than the larger given side.<br/>$$8+x>15$$<br/>So $x>7$."
     },
     {
-      "title": "Combine and choose",
-      "content": "Together, the possible lengths are $7\\lt x\\lt23$. That confirms <strong>C</strong> is correct."
+      "title": "Combine the bounds",
+      "content": "Both conditions must be true at the same time.<br/>$$7<x<23$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

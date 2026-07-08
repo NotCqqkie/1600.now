@@ -1,0 +1,19 @@
+{
+  "questionId": "5a61edab",
+  "correctAnswer": "228",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shared slope",
+      "content": "Parallel lines have the same slope. The line<br/><br/>$$y=38x+5$$<br/><br/>has slope $38$, so line $s$ also has slope $38$."
+    },
+    {
+      "title": "Write the line through the origin",
+      "content": "Line $s$ passes through $(0,0)$, so its $y$-intercept is $0$. Its equation is<br/><br/>$$y=38x$$"
+    },
+    {
+      "title": "Evaluate at the given point",
+      "content": "The point $(6,d)$ is on line $s$, so substitute $x=6$:<br/><br/>$$d=38(6)=228$$<br/><br/>The answer is <strong>228</strong>."
+    }
+  ]
+}

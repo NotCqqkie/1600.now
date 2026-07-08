@@ -1,0 +1,15 @@
+{
+  "questionId": "1d33f092",
+  "correctAnswer": "610",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The question asks for $f(x)$ when $x=5$, so substitute $5$ for $x$ in the function rule.\n$$f(5)=128(5)-30$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Multiply first, then subtract.\n$$128(5)-30=640-30=610$$\nThe answer is <strong>610</strong>."
+    }
+  ]
+}

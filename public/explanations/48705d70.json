@@ -1,0 +1,15 @@
+{
+  "questionId": "48705d70",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate complete clauses",
+      "content": "The text before the blank forms a complete sentence about Amy McGovern's work. The words after the blank begin another complete sentence explaining supervised machine learning."
+    },
+    {
+      "title": "Use a period between sentences",
+      "content": "A runs the two clauses together with no punctuation. B creates a comma splice. D creates an illogical relative-clause fragment. A period after learning and a capitalized Supervised correctly separate the two sentences. The answer is <strong>C</strong>."
+    }
+  ]
+}

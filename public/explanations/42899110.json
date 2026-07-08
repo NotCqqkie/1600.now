@@ -1,0 +1,19 @@
+{
+  "questionId": "42899110",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the denominator",
+      "content": "Use the difference of squares.\n$$\n\\pi^2-x^2=(\\pi-x)(\\pi+x)\n$$\nSince $x+\\pi$ is the same as $\\pi+x$, this can be the common denominator."
+    },
+    {
+      "title": "Rewrite the second fraction",
+      "content": "Multiply the second fraction by $\\frac{\\pi-x}{\\pi-x}$.\n$$\n\\frac{18\\pi}{x+\\pi}=\\frac{18\\pi(\\pi-x)}{\\pi^2-x^2}\n$$"
+    },
+    {
+      "title": "Subtract the numerators",
+      "content": "Now subtract over the common denominator.\n$$\n\\frac{18\\pi^2}{\\pi^2-x^2}-\\frac{18\\pi(\\pi-x)}{\\pi^2-x^2}=\\frac{18\\pi^2-18\\pi(\\pi-x)}{\\pi^2-x^2}\n$$\n$$\n\\frac{18\\pi^2-18\\pi(\\pi-x)}{\\pi^2-x^2}=\\frac{18\\pi x}{\\pi^2-x^2}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

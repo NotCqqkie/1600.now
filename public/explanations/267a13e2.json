@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify where the independent clauses meet",
-      "content": "At the blank, the text transitions from one independent clause (ending with &quot;temple walls&quot;) to another (beginning with &quot;he discovered the markings...&quot;)."
+      "title": "Separate two sentences",
+      "content": "The first independent clause ends after Tan noticed markings on the temple walls. The next words begin a new sentence explaining how, with digital imaging techniques, he discovered what the markings were."
     },
     {
-      "title": "Apply the independent-clause separation rule",
-      "content": "Two independent clauses must be separated by terminal punctuation (a period) or a semicolon, not by a comma alone or no punctuation at all. <strong>Choice D &mdash; walls. With</strong> provides the period.<ul><li><strong>A. walls, with</strong> &mdash; comma splice; a comma cannot join two independent clauses.</li><li><strong>B. walls with</strong> &mdash; run-on; no punctuation between two independent clauses.</li><li><strong>C. walls so with</strong> &mdash; ungrammatical; &quot;so&quot; does not function as a clause separator here.</li><li><strong>D. walls. With</strong> &mdash; correctly terminates the first clause with a period.</li></ul>"
+      "title": "Reject run-ons",
+      "content": "Choice A creates a comma splice between independent clauses. Choice B gives no punctuation between the clauses. Choice C adds so in a place where it does not create a grammatical sentence. The answer is <strong>D</strong>."
     }
   ]
 }

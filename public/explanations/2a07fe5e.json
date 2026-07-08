@@ -1,0 +1,19 @@
+{
+  "questionId": "2a07fe5e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for y",
+      "content": "Use $y=3x+9$ in the second equation.<br/>$$3(3x+9)=8x-6$$<br/>$$9x+27=8x-6$$<br/>$$x=-33$$",
+      "desmosExpressions": [
+        "y=3x+9",
+        "3y=8x-6"
+      ]
+    },
+    {
+      "title": "Find the requested difference",
+      "content": "Substitute back to find $y$.<br/>$$y=3(-33)+9=-90$$<br/>Then compute the requested value, being careful to subtract a negative number.<br/>$$x-y=-33-(-90)=57$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

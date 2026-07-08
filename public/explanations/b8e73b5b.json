@@ -1,15 +1,19 @@
 {
- "questionId": "b8e73b5b",
- "correctAnswer": "C",
- "section": "Math",
- "steps": [
-  {
-   "title": "Set up the savings inequality",
-   "content": "Maya earns \\$9 per hour for the first 8 hours: \\$9 × 8 = \\$72.<br/>Let $x$ = hours worked at \\$12/hour for the rest of the week.<br/>Total earnings, in dollars: $72 + 12x$.<br/>Maya saves 75% of her earnings, so: $$0.75(72 + 12x) \\geq 270$$"
-  },
-  {
-   "title": "Solve for the minimum hours",
-   "content": "Simplify by distributing: $$54 + 9x \\geq 270$$<br/>Subtract 54 from both sides: $$9x \\geq 216$$<br/>Divide by 9: $$x \\geq 24$$<br/>The least number of hours Maya must work is 24. That confirms <strong>C</strong> is correct."
-  }
- ]
+  "questionId": "b8e73b5b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write total earnings",
+      "content": "The first $8$ hours pay $72$. If $x$ is the remaining hours, earnings are $72+12x$."
+    },
+    {
+      "title": "Create the savings inequality",
+      "content": "Maya saves $75\\%$ and wants at least $270$:<br/>$$0.75(72+12x)\\geq 270$$"
+    },
+    {
+      "title": "Solve for the least hours",
+      "content": "Solve the inequality:<br/>$$54+9x\\geq 270$$<br/>$$9x\\geq 216$$<br/>$$x\\geq 24$$The answer is <strong>C</strong>."
+    }
+  ]
 }

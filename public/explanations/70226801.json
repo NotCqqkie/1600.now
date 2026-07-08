@@ -1,0 +1,19 @@
+{
+  "questionId": "70226801",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the side ratio",
+      "content": "In an isosceles right triangle, if each leg is $a$, the hypotenuse is $a\\sqrt{2}$. The perimeter is\n$$\na+a+a\\sqrt{2}=a(2+\\sqrt{2})\n$$"
+    },
+    {
+      "title": "Solve for the leg",
+      "content": "Set the perimeter equal to the given value.\n$$\na(2+\\sqrt{2})=20+20\\sqrt{2}\n$$\n$$\na=10\\sqrt{2}\n$$"
+    },
+    {
+      "title": "Find the hypotenuse",
+      "content": "Multiply the leg by $\\sqrt{2}$.\n$$\n(10\\sqrt{2})(\\sqrt{2})=20\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0de85948",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate at the y-intercept",
+      "content": "The $y$-intercept occurs when $x=0$. Substitute into the function:\n$$f(0)=-8(5)^0+\\frac{1}{k}$$\nSince $5^0=1$,\n$$f(0)=-8+\\frac{1}{k}$$"
+    },
+    {
+      "title": "Combine the terms",
+      "content": "Write $-8$ with denominator $k$:\n$$-8+\\frac{1}{k}=\\frac{-8k}{k}+\\frac{1}{k}=\\frac{1-8k}{k}$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

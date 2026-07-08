@@ -1,0 +1,15 @@
+{
+  "questionId": "e0850cf6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rate per lesson",
+      "content": "Use the charge for $8$ lessons and the charge for $18$ lessons. The change in charge divided by the change in lessons is<br/>$$\\frac{590-240}{18-8}=\\frac{350}{10}=35$$<br/>So each additional lesson adds $35$ dollars."
+    },
+    {
+      "title": "Find the linear rule",
+      "content": "Use $f(x)=35x+b$ and substitute the charge for $8$ lessons:<br/>$$240=35(8)+b$$<br/>$$240=280+b$$<br/>$$b=-40$$<br/>Thus $f(x)=35x-40$, which also gives $590$ when $x=18$. The answer is <strong>D</strong>."
+    }
+  ]
+}

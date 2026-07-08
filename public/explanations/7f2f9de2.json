@@ -1,0 +1,15 @@
+{
+  "questionId": "7f2f9de2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the past date",
+      "content": "The sentence is anchored to November 5, 2003, and the main clause uses the simple past verb \"became.\" The verb in the \"when\" clause should match that past-tense event."
+    },
+    {
+      "title": "Keep past tense",
+      "content": "<ul><li><strong>Choice A</strong>: \"Begins\" is present tense, which conflicts with the fixed past date.</li><li><strong>Choice B</strong>: \"Will begin\" is future tense, which also conflicts with the 2003 event.</li><li><strong>Choice D</strong>: \"Has begun\" is present perfect and does not fit a specific completed past date.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

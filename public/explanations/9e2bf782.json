@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Find the median position",
-      "content": "There are $27$ fish, so the median is the $\\frac{27+1}{2}=14$th value when the weights are ordered."
+      "content": "There are $27$ fish, so the median is the $14$th value when the weights are ordered."
     },
     {
-      "title": "Locate the 14th fish",
-      "content": "The $8$ fish in tank A are positions $1$ through $8$. The $9$ fish in tank B are positions $9$ through $17$. Therefore the $14$th fish is in tank B."
+      "title": "Locate the middle fish",
+      "content": "The $8$ fish in tank A occupy positions $1$ through $8$. The $9$ fish in tank B occupy positions $9$ through $17$, so the median fish is in tank B."
     },
     {
-      "title": "Match the possible weight",
-      "content": "Tank B fish weigh at least $6$ ounces and no more than $14$ ounces. Of the choices, only $10$ is in that range, so <strong>B</strong> is correct."
+      "title": "Choose a possible weight",
+      "content": "Tank B fish weigh at least $6$ ounces and no more than $14$ ounces. Of the choices, only $10$ is in that range. The answer is <strong>B</strong>."
     }
   ]
 }

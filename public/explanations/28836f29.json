@@ -1,0 +1,15 @@
+{
+  "questionId": "28836f29",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the ordered pair",
+      "content": "In $(2,91)$, the $x$-coordinate is $2$ and the $y$-coordinate is $91$. Here $x$ is days after the company went public, and $y$ is stock price in dollars."
+    },
+    {
+      "title": "Interpret the coordinates",
+      "content": "The point means that after $2$ days, the estimated stock price is $91$ dollars. The answer is <strong>A</strong>."
+    }
+  ]
+}

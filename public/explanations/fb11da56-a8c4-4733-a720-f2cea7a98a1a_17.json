@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the scale change",
-      "content": "Same actual region, but the larger map is $90\\%$ longer per side — its side length is $1.9$ times the original. Stretching the map by factor $1.9$ means each actual mile is now drawn $1.9$ times longer on paper, so each inch on the new map represents fewer miles."
+      "title": "Find the new scale factor",
+      "content": "The larger map has a side length $90\\%$ longer than the original, so each side is $1.9$ times as long as before."
     },
     {
-      "title": "Compute the new scale",
-      "content": "Original: 1 inch = 13 miles. New: 1 inch = $\\dfrac{13}{1.9}$ miles.<br/>$$\\dfrac{13}{1.9} \\approx 6.84 \\text{ miles}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Divide the represented distance",
+      "content": "The same actual distance is spread across $1.9$ times as many inches, so the miles represented by $1$ inch are divided by $1.9$.<br/>$$\\frac{13}{1.9}=6.842105$$<br/>This is closest to $6.84$. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "15a2abf3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up profit",
+      "content": "Let $x$ be the number of picnic blankets rented. Revenue is $18x$, expenses are $162$, and profit is $504$, so\n$$\n504=18x-162\n$$"
+    },
+    {
+      "title": "Solve for rentals",
+      "content": "Add $162$ and divide by $18$: $666=18x$, so $x=37$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d4c6bbe0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the shared topic",
+      "content": "The passage begins with a study of ocean acidification's effect on fish behavior. It then discusses a later review of conclusions about that same topic and the risk of exaggerated effects."
+    },
+    {
+      "title": "Reject unrelated topics",
+      "content": "Choice A concerns overfishing and marine diversity. Choice B concerns fish-capture technology, and Choice C concerns predator feeding patterns. None of those topics appears in the passage. The shared research topic is acidification and fish behavior. The answer is <strong>D</strong>."
+    }
+  ]
+}

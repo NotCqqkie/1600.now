@@ -1,0 +1,15 @@
+{
+  "questionId": "47d369e5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the consonant counts",
+      "content": "The sentence compares Polynesian languages with very low consonant counts to a global median of more than twenty-two consonants. Sikaiana has nine, and Olelo Hawaii has one fewer."
+    },
+    {
+      "title": "Reject unrelated meanings",
+      "content": "B means unchanging, C means reproducible, and D describes musical quality. The data are about unusually small numbers of consonants relative to the global median, so the word must mean very low in quantity. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must describe",
-      "content": "The passage says Bell <em>worked closely with Wren to create original cover art</em>. The blank fills in the type of relationship this represents &mdash; the word must precisely capture a collaborative working dynamic between two people."
+      "title": "Use the collaboration clue",
+      "content": "The passage says Clara Bell worked closely with Eleanor Wren to create original cover art. The blank must name a creative relationship based on shared work."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; rebellion</strong>: Implies resistance or defiance against something &mdash; nothing in the passage suggests conflict or opposition. &#10007;</li><li><strong>Choice B &mdash; partnership</strong>: Directly captures the collaborative working relationship described: two people, closely working together on a shared creative project. &#10003;</li><li><strong>Choice C &mdash; discovery</strong>: Describes an outcome or finding, not a type of working relationship between two people. &#10007;</li><li><strong>Choice D &mdash; disagreement</strong>: Implies conflict, which contradicts the passage&apos;s description of Bell and Wren working closely together. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Rule out conflict or outcomes",
+      "content": "A and D imply opposition or conflict, which contradicts \"worked closely.\" C names a finding rather than a working relationship. The collaborative noun fits the context. The answer is <strong>B</strong>."
     }
   ]
 }

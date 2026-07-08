@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries question testing punctuation between a verb and its direct object. The sentence reads: 'Her innovative poems ______ the use of Jamaican Creole (a spoken language) in literature.' The blank is filled by 'popularized' plus whatever punctuation follows it. A verb must not be separated from its direct object by any punctuation."
+      "title": "Find the verb and object",
+      "content": "The sentence says that Louise Bennett's poems did something to <em>the use of Jamaican Creole in literature</em>. The blank contains the verb <em>popularized</em> plus possible punctuation, and the noun phrase after the blank is the direct object of that verb."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; popularized;</strong>: A semicolon is used between two independent clauses. 'The use of Jamaican Creole in literature' is not an independent clause; it is the direct object of 'popularized.' A semicolon here breaks the sentence illegally. &#10007;</li><li><strong>Choice B &mdash; popularized,</strong>: A comma between a verb and its direct object is not standard in English. No comma is warranted here. &#10007;</li><li><strong>Choice C &mdash; popularized</strong>: No punctuation between the verb and its direct object. This conforms to Standard English conventions. &#10003;</li><li><strong>Choice D &mdash; popularized:</strong>: A colon can introduce a list or explanation, but 'the use of Jamaican Creole in literature' is simply the direct object of 'popularized,' not a list or a restatement requiring a colon. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Keep the connection unbroken",
+      "content": "Standard English does not place punctuation between a verb and its direct object. Choice A adds a semicolon, which would separate the verb from the object as if another independent clause followed. Choice B adds a comma, but there is no interruption or list requiring a comma there. Choice D adds a colon, but the object is not an explanation or list introduced after a complete clause. Choice C leaves <em>popularized the use of Jamaican Creole</em> connected without punctuation, which completes the sentence correctly. The answer is <strong>C</strong>."
     }
   ]
 }

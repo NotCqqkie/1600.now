@@ -1,0 +1,15 @@
+{
+  "questionId": "5ed124b7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the variable",
+      "content": "Combine the terms with $x$ by factoring:<br/>$$-4x+20px=(-4+20p)x$$<br/>So the equation becomes $(-4+20p)x=100$."
+    },
+    {
+      "title": "Force a contradiction",
+      "content": "For the equation to have no solution, the coefficient of $x$ must be $0$, leaving the impossible statement $0=100$. Set the coefficient equal to $0$:<br/>$$-4+20p=0$$<br/>$$20p=4$$<br/>$$p=\\frac{1}{5}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

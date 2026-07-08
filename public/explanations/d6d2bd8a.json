@@ -1,0 +1,19 @@
+{
+  "questionId": "d6d2bd8a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the triangle angles",
+      "content": "Since $AB=AC$, triangle $ABC$ is isosceles, so its base angles are congruent. Because $E$ is on $AB$ and $F$ is on $AC$, the angle at $B$ in triangle $BED$ equals the angle at $C$ in triangle $CFD$. The problem also gives a second pair of equal angles."
+    },
+    {
+      "title": "Use similar triangles",
+      "content": "With two pairs of congruent angles, triangles $BED$ and $CFD$ are similar. The corresponding side ratio is $$\\frac{BE}{CF}=\\frac{BD}{CD}$$"
+    },
+    {
+      "title": "Apply the side ratio",
+      "content": "Since $BD=\\frac{5}{9}BC$, the remaining segment is $CD=\\frac{4}{9}BC$. Therefore, $$\\frac{10}{CF}=\\frac{5}{4}$$ Solving gives $5CF=40$, so $CF=8$. The answer is <strong>A</strong>."
+    }
+  ]
+}

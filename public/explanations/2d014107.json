@@ -1,0 +1,19 @@
+{
+  "questionId": "2d014107",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the embedded clause",
+      "content": "The phrase in what introduces an embedded noun clause inside a declarative sentence. Embedded clauses use normal subject-verb word order and the sentence should end with a period."
+    },
+    {
+      "title": "Reject question forms",
+      "content": "<ul><li><strong>Choice B</strong> has correct word order but wrongly ends the declarative sentence with a question mark.</li><li><strong>Choice C</strong> uses question word order and a question mark.</li><li><strong>Choice D</strong> uses question word order even though it has a period.</li></ul>"
+    },
+    {
+      "title": "Use statement word order",
+      "content": "He viewed as unnecessary development supplies normal subject-verb order inside the embedded clause and ends the sentence correctly. The answer is <strong>A</strong>."
+    }
+  ]
+}

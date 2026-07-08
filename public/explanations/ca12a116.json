@@ -1,0 +1,15 @@
+{
+  "questionId": "ca12a116",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the sentence boundary",
+      "content": "The words before the blank complete a sentence about geophysicists relying on data about a fault's dimensions and features. The next thought begins with \"For the Imperial fault\" and explains how the US Geological Survey compiles such data."
+    },
+    {
+      "title": "Reject run-on joins",
+      "content": "A gives no punctuation between complete thoughts. B uses only a comma before a prepositional phrase, so it does not create a proper boundary. D joins the thoughts awkwardly with \"and for.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

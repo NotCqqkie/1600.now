@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the required verb tense",
-      "content": "The sentence describes events from the 1950s. The previous clause uses the simple past verb &quot;advised&quot; to describe Zufall&apos;s action. The blank describes another action by Zufall in the same historical timeframe, so it must also use simple past tense."
+      "title": "Match the time frame",
+      "content": "The passage describes events in the 1950s. The previous sentence uses the simple past verb \"advised\" for Zufall's action, and the blank describes another action in the same past sequence."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; suggested</strong>: Simple past tense &mdash; matches &quot;advised&quot; and correctly places the action in the past. &#10003;</li><li><strong>Choice B &mdash; suggests</strong>: Present tense &mdash; does not indicate the action happened in the past. &#10007;</li><li><strong>Choice C &mdash; had suggested</strong>: Past perfect &mdash; implies this action happened before &quot;advised,&quot; creating an inconsistency with the parallel structure. &#10007;</li><li><strong>Choice D &mdash; was suggesting</strong>: Past progressive &mdash; inconsistent with the simple past verb &quot;advised&quot; used for the parallel action. &#10007;</li></ul>That matches <strong>Choice A &mdash; suggested</strong>."
+      "title": "Choose simple past",
+      "content": "B is present tense, C is past perfect, and D is past progressive. Those forms either leave the past frame or add an unsupported time relationship. The simple past form keeps the action parallel with \"advised.\" The answer is <strong>A</strong>."
     }
   ]
 }

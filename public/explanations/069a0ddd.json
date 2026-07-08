@@ -1,0 +1,15 @@
+{
+  "questionId": "069a0ddd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the rarity conclusion",
+      "content": "The passage says some Bronze Age hoards contained gold, but gold was much rarer than bronze. A logical result is that not every hoard would contain gold."
+    },
+    {
+      "title": "Reject unsupported explanations",
+      "content": "B claims gold objects were melted down, which the passage never says. C discusses adapting bronze-working skills to gold, which is not tied to rarity. D concerns how hoards were discovered, not whether they contained rare gold. The answer is <strong>A</strong>."
+    }
+  ]
+}

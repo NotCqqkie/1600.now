@@ -1,0 +1,15 @@
+{
+  "questionId": "e039eee8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Form 4720 percentages",
+      "content": "The blank concerns organizations that filed Form 990-PF, so the support must come from the graph's breakdown of why those organizations also filed Form 4720."
+    },
+    {
+      "title": "Keep the comparison in scope",
+      "content": "A compares Form 990-PF filers with Form 990 filers, B requires combining other reasons, and C requires average penalty amounts rather than percentages by filing reason. The relevant statement compares excess business holdings with minimum charitable distribution failure within the Form 990-PF group. The answer is <strong>D</strong>."
+    }
+  ]
+}

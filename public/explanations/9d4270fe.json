@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify profit equation structure",
-      "content": "Profit = Revenue - Fixed Cost.<br/>$$18000 = 3.50x - 5250$$ shows profit (18000) equals 3.50x minus 5250, so 3.50x is the revenue."
+      "title": "Match the profit structure",
+      "content": "The problem says profit is monthly sales revenue minus fixed monthly costs. The equation has that form:<br/>$$18{,}000=3.50x-5{,}250$$"
     },
     {
-      "title": "Interpret the term 3.50x",
-      "content": "Since revenue equals price per phone stand times number sold, the coefficient 3.50 has units dollars per phone stand. Therefore $$3.50x$$ is the monthly sales revenue from selling $$x$$ phone stands.<br/>That confirms <strong>A</strong> is correct."
+      "title": "Interpret the revenue term",
+      "content": "The fixed cost is $5{,}250$, so the term before subtracting fixed costs, $3.50x$, represents monthly sales revenue from selling $x$ phone stands. The answer is <strong>A</strong>."
     }
   ]
 }

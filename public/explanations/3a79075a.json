@@ -1,0 +1,19 @@
+{
+  "questionId": "3a79075a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the past time marker",
+      "content": "The phrase \"born in 1979 in Lilongwe\" refers to one completed event at a specific past time. The verb must therefore be simple past."
+    },
+    {
+      "title": "Reject present forms",
+      "content": "B uses present perfect, C uses simple present, and D uses present progressive. Each form conflicts with the completed past event described by \"in 1979.\""
+    },
+    {
+      "title": "Complete the past-tense clause",
+      "content": "Was is the simple past form that fits a completed birth event. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage says fish studies showed larger differences on average than bird studies, but in every animal class &mdash; including birds &mdash; some individual studies exceeded the fish average. The question asks what can be inferred."
+      "title": "Separate average from extremes",
+      "content": "The meta-analysis found larger differences for fish studies on average than for bird studies. But every animal class had individual studies with differences well above the average for fish."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;the studies in the meta-analysis that examined fish were more likely than those that examined birds to specify whether the observed effects were detrimental.&rsquo;</strong>: introduces a detail not supported by the passage. &#10007;</li><li><strong>Choice B &mdash; &lsquo;the differences that studies attribute to exposure to anthropogenic noise are likely to be more pronounced for birds than they are for fish.&rsquo;</strong>: contradicts the on-average finding for fish. &#10007;</li><li><strong>Choice C &mdash; &lsquo;the difference found in the study conducted by Lidia Eva Wysocki and colleagues was likely larger than the average difference for studies of common carp included in the meta-analysis.&rsquo;</strong>: makes an unsupported claim about Wysocki&apos;s specific study. &#10007;</li><li><strong>Choice D &mdash; &lsquo;some studies of birds found larger effects of exposure to anthropogenic noise than some studies of fish did.&rsquo;</strong>: if some bird studies exceeded the fish average, they necessarily exceeded fish studies that fell below that average. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported claims",
+      "content": "Choice A discusses whether effects were labeled detrimental, which the passage does not address. Choice B contradicts the fish average. Choice C makes an unsupported claim about one common carp study."
+    },
+    {
+      "title": "Infer overlap between studies",
+      "content": "If some bird studies were well above the fish average, then some bird studies must have shown larger effects than at least some fish studies. The answer is <strong>D</strong>."
     }
   ]
 }

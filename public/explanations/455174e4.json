@@ -1,0 +1,15 @@
+{
+  "questionId": "455174e4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the yearly multiplier",
+      "content": "A yearly decrease of $2.5\\%$ means the population keeps\n$$\n100\\%-2.5\\%=97.5\\%\n$$\nAs a decimal, this multiplier is $0.975$."
+    },
+    {
+      "title": "Count the elapsed years",
+      "content": "From $2008$ to $2018$ is $10$ years. Starting with $7.84$ quail per mile, apply the multiplier $10$ times:\n$$\n7.84(0.975)^{10}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

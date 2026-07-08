@@ -1,0 +1,15 @@
+{
+  "questionId": "32d27049",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the constants",
+      "content": "Add the known terms on the left:<br/>$$28+32=60$$<br/>So the equation becomes:<br/>$$60+x=130$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Subtract $60$ from both sides:<br/>$$x=130-60=70$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

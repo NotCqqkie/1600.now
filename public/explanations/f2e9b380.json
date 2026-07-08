@@ -1,0 +1,19 @@
+{
+  "questionId": "f2e9b380",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a broad mineral rule",
+      "content": "The student wants to make a generalization about minerals, so the answer should state a rule that applies beyond only calcite, apatite, and topaz. The notes give the general rule: minerals with larger Mohs scale numbers are harder than minerals with smaller numbers and can leave visible scratches on them."
+    },
+    {
+      "title": "Reject specific examples",
+      "content": "<ul><li><strong>Choice A - 'Based on their Mohs scale numbers, topaz (8) is harder than apatite (5), and apatite is harder than calcite (3).'</strong>: This ranks only the three minerals named in the notes. It is accurate, but it is a specific comparison rather than a generalization about minerals.</li><li><strong>Choice B - 'Topaz can leave visible scratches on calcite, which is why topaz has a higher number than calcite on the Mohs scale of mineral hardness.'</strong>: This focuses only on topaz and calcite, so it does not turn the rule into a broader statement.</li></ul>"
+    },
+    {
+      "title": "Select the generalization",
+      "content": "<ul><li><strong>Choice D - 'The Mohs scale can be used to order calcite, topaz, and apatite by their ability to scratch other minerals.'</strong>: This still stays with the three listed minerals and describes what the scale can do with them.</li><li><strong>Choice C - 'Any mineral with a Mohs number of 8, like topaz, can scratch a mineral with a Mohs number of 5, like apatite.'</strong>: The phrase 'Any mineral' makes the claim general. Topaz and apatite serve as examples of the rule, not as the whole claim. The answer is <strong>C</strong>.</li></ul>"
+    }
+  ]
+}

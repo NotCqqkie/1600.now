@@ -1,0 +1,19 @@
+{
+  "questionId": "04cf3c23",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use two table points",
+      "content": "The table includes the points $(0{,}95)$ and $(1{,}105)$. Use these to find the slope and intercept of the linear relationship."
+    },
+    {
+      "title": "Find the slope",
+      "content": "From $(0{,}95)$ to $(1{,}105)$, the change in $y$ is $10$ and the change in $x$ is $1$:\n$$\nm=\\frac{105-95}{1-0}=10\n$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "The point $(0{,}95)$ gives the $y$-intercept, so the equation is\n$$\ny=10x+95\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

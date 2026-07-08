@@ -1,0 +1,15 @@
+{
+  "questionId": "a39e5341",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The sentence already has a main verb: <em>analyzed</em>. The blank must modify <em>researchers</em> without adding another finite verb that competes with the main verb."
+    },
+    {
+      "title": "Choose the participle",
+      "content": "A, B, and D are finite verb forms, so each would create an ungrammatical sentence with two main verbs and no connector. The non-finite participle properly modifies the researchers. The answer is <strong>C</strong>."
+    }
+  ]
+}

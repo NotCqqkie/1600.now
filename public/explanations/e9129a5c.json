@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two points on the line",
-      "content": "The line of best fit rises gently. Two clear approximate points on the line are $(0,2.5)$ and $(10,4.7)$. Use points on the fit line itself, not random scatterplot points."
+      "title": "Choose two points on the line",
+      "content": "Two clear approximate points on the line of best fit are $(0,2.5)$ and $(10,4.7)$. Use points on the line of best fit, not individual scatterplot points."
     },
     {
-      "title": "Find the slope",
-      "content": "$$m=\\frac{4.7-2.5}{10-0}=\\frac{2.2}{10}=0.22$$ The slope is positive because the line rises from left to right."
-    },
-    {
-      "title": "Eliminate by sign and size",
-      "content": "Two other options are negative, but the line has positive slope. $2.45$, is much too steep for a line that rises only about $2.2$ units over $10$ units of run. $0.22$ is correct, so <strong>C</strong> is correct."
+      "title": "Calculate the slope",
+      "content": "Use rise over run:<br/>$$m=\\frac{4.7-2.5}{10-0}=\\frac{2.2}{10}=0.22$$<br/>The positive value matches the line rising from left to right. The answer is <strong>C</strong>."
     }
   ]
 }

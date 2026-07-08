@@ -1,0 +1,15 @@
+{
+  "questionId": "b8f1bd59",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the percent equations",
+      "content": "Translate the two statements as $a=2.8b$ and $a=0.85c$. Because both expressions equal $a$, set them equal:\n$$2.8b=0.85c$$"
+    },
+    {
+      "title": "Express c as a percent",
+      "content": "Solve for $c$ in terms of $b$:\n$$c=\\frac{2.8}{0.85}b=\\frac{56}{17}b$$\nThe percent value is about $329.41$, so the closest value is $329$. The answer is <strong>D</strong>."
+    }
+  ]
+}

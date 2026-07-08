@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by substitution",
-      "content": "From $y = 4x$, substitute into $3x + y = 21$: $3x + 4x = 21$, so $7x = 21$ and $x = 3$."
+      "title": "Substitute for y",
+      "content": "Use $y=4x$ in the second equation:<br/>$$3x+4x=21$$"
     },
     {
-      "title": "Find $7x$",
-      "content": "$7x = 7 \\cdot 3 = 21$. That confirms <strong>C</strong> is correct."
+      "title": "Use the requested expression",
+      "content": "Combine like terms:<br/>$$7x=21$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "questionId": "3d8bb627",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the vertex input",
+      "content": "The parabola opens upward, so its minimum is at the vertex. For $g(x)=x^2+\\frac{27}{2}x$,\n$$\nx=-\\frac{b}{2a}=-\\frac{\\frac{27}{2}}{2}=-\\frac{27}{4}\n$$"
+    },
+    {
+      "title": "Evaluate the minimum",
+      "content": "Substitute the vertex input.\n$$\ng\\bigl(-\\frac{27}{4}\\bigr)=\\bigl(-\\frac{27}{4}\\bigr)^2+\\frac{27}{2}\\bigl(-\\frac{27}{4}\\bigr)\n$$\n$$\n=\\bigl(\\frac{27}{4}\\bigr)^2-2\\bigl(\\frac{27}{4}\\bigr)^2\n$$\n$$\n=-\\bigl(\\frac{27}{4}\\bigr)^2\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the function and read the $y$-value of the vertex. The displayed minimum matches the expression found above. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "g(x) = x^2 + \\frac{27}{2}x"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "59c17875",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence subject",
+      "content": "The subject is \"the 66-kilometer-per-second collision between these meteoroids and atmospheric gases.\" Its head noun is singular: \"collision.\" Nearby plural nouns inside prepositional phrases do not control the verb."
+    },
+    {
+      "title": "Reject plural verbs",
+      "content": "B, C, and D all use plural verb forms that would agree with a plural subject, not with the singular head noun \"collision.\" The sentence needs the singular present-tense verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test a small positive x",
-      "content": "$$3^1 = 3$$ and $$3(1)+3 = 6$$, so $$3^x \\lt 3x+3$$ at $$x=1$$."
+      "title": "Check a small positive value",
+      "content": "At $x=1$, compare the two expressions.\n$$3^1=3$$\n$$3(1)+3=6$$\nSo $3^x\\lt3x+3$ for this small positive value."
     },
     {
-      "title": "Test a larger x",
-      "content": "$$3^3 = 27$$ and $$3(3)+3 = 12$$, so $$3^x \\gt 3x+3$$ at $$x=3$$.<br/><br/>Since the inequality changes from less to greater as x increases, there must be a constant c where they are equal, and for $0 \\lt x \\lt c$ the first inequality holds; for $x \\gt c$ the second holds.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Check a larger value",
+      "content": "At $x=3$, compare again.\n$$3^3=27$$\n$$3(3)+3=12$$\nSo $3^x\\gt3x+3$ for this larger value."
+    },
+    {
+      "title": "Describe the changeover",
+      "content": "The exponential expression is less at first and greater later, so there is a changeover value $c$ with the stated before and after behavior. The answer is <strong>C</strong>."
     }
   ]
 }

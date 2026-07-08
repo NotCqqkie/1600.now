@@ -1,0 +1,15 @@
+{
+  "questionId": "d81b5834",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the list",
+      "content": "The sentence lists three programming languages: COBOL, Java, and Clojure. Each list item includes extra descriptive information, such as a date or developer. Because some of those descriptions contain commas, simple comma separation would make the boundaries between the three list items unclear."
+    },
+    {
+      "title": "Separate complex items",
+      "content": "A semicolon after the COBOL description separates the first item from Java. Another semicolon after the Java description separates the second item from Clojure. Choice A does not separate the complex items cleanly, Choice B mispunctuates the Java description, and Choice C uses only a comma before the final item. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant b using the initial height",
-      "content": "At time $t = 0$, the object is released from a height of 2,704 feet. Substituting into the function:<br/>$$h(0) = -16(0)^2 + b = 2,704$$<br/>Therefore $b = 2,704$, and the complete function is:<br/>$$h(t) = -16t^2 + 2,704$$"
+      "title": "Find the initial height",
+      "content": "At release, $t=0$ and the height is $2{,}704$ feet. Substitute into the function:<br/>$$h(0)=-16(0)^2+b=2{,}704$$<br/>$$b=2{,}704$$"
     },
     {
-      "title": "Solve for when the object hits the ground",
-      "content": "The object hits the ground when $h(t) = 0$. Set up the equation:<br/>$$-16t^2 + 2,704 = 0$$<br/>Divide both sides by $-16$:<br/>$$t^2 = \\frac{2,704}{16} = 169.00$$<br/>Take the positive square root (since time is positive):<br/>$$t = \\sqrt{169.00} = 13.00 \\text{ seconds}$$<br/>This matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Set height equal to zero",
+      "content": "The object hits the ground when $h(t)=0$:<br/>$$-16t^2+2{,}704=0$$<br/>$$16t^2=2{,}704$$<br/>$$t^2=169$$"
+    },
+    {
+      "title": "Take the positive root",
+      "content": "Time must be positive, so use the positive square root:<br/>$$t=\\sqrt{169}=13.00$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

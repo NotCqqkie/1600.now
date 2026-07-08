@@ -1,0 +1,15 @@
+{
+  "questionId": "9a15fc78",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the center value",
+      "content": "The two solutions of $|4x-8|=k$ are symmetric around the value that makes the inside equal to zero:\n$$4x-8=0$$\n$$x=2$$"
+    },
+    {
+      "title": "Use symmetry of the solutions",
+      "content": "The two solutions have average $2$. Therefore their sum is\n$$2(2)=4$$\nThe answer is <strong>4</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3f4d6418",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate complex factors",
+      "content": "The sentence lists three factors after \"namely.\" Some factors contain internal commas, such as the added detail about higher-velocity meteoroids and the example of humidity, so the main list items need stronger separation."
+    },
+    {
+      "title": "Reject confusing separators",
+      "content": "A uses a dash, which signals elaboration rather than separating list items. B uses a comma, making the complex list harder to parse. D uses a period, ending the sentence mid-list. A semicolon correctly separates the main factors. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8f0a5c54",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the supplementary angle",
+      "content": "The angle vertical to the marked $77^\\circ$ angle also measures $77^\\circ$. That angle and the angle labeled $y^\\circ$ are same-side interior angles, so they are supplementary:\n$$\n77+y=180\n$$\nThus, $y=103$."
+    },
+    {
+      "title": "Solve for x",
+      "content": "Use $y=2x+7$ and substitute $103$ for $y$:\n$$\n103=2x+7\n$$\n$$\n96=2x\n$$\n$$\nx=48\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c0b1e790",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two expressions for $y$ are equal:<br/>$$2x^2-15x+23=x+a$$<br/>$$2x^2-16x+(23-a)=0$$"
+    },
+    {
+      "title": "Use the tangent condition",
+      "content": "The graphs intersect at exactly one point, so this quadratic in $x$ has exactly one solution. The solution is the axis of symmetry:<br/>$$x=\\frac{-(-16)}{2(2)}=\\frac{16}{4}=4$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The intersection has $x$-coordinate $4$. The answer is <strong>C</strong>."
+    }
+  ]
+}

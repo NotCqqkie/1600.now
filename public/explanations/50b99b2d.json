@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find each object's speed",
-      "content": "Object M covers $5x$ inches in $y$ seconds, so its speed is $\\frac{5x}{y}$ inches per second. Object N is twice as fast: $2 \\cdot \\frac{5x}{y} = \\frac{10x}{y}$ inches per second."
+      "title": "Find the faster speed",
+      "content": "Object $M$ travels $5x$ inches in $y$ seconds, so its speed is\n$$\n\\frac{5x}{y}\n$$\nObject $M$ is half as fast as object $N$, so object $N$ has speed\n$$\n2(\\frac{5x}{y})=\\frac{10x}{y}\n$$"
     },
     {
-      "title": "Compute time for object N to travel 40x",
-      "content": "$$\\text{time} = \\frac{\\text{distance}}{\\text{speed}} = \\frac{40x}{\\frac{10x}{y}} = 40x \\cdot \\frac{y}{10x} = 4y \\text{ seconds}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $16y$ &mdash; this would be the time at speed $\\frac{5x}{2y}$, half of M's speed instead of double. Wrong.</li><li><strong>B)</strong> $4y$ &mdash; matches $\\frac{40x}{10x/y} = 4y$. Correct.</li><li><strong>C)</strong> $30y$ &mdash; far too large; it is the target coefficient minus twice the starting-distance coefficient, not the time at object N's speed. Wrong.</li><li><strong>D)</strong> $8y$ &mdash; this is the time M would take to travel $40x$ (since M needs $y$ per $5x$, so $8y$ per $40x$), not N. Wrong.</li></ul><strong>B</strong> is correct."
+      "title": "Divide distance by speed",
+      "content": "Time equals distance divided by speed. For object $N$ to travel $40x$ inches,\n$$\n\\frac{40x}{\\frac{10x}{y}}=40x\\cdot\\frac{y}{10x}=4y\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "100f5c3d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join two independent clauses",
+      "content": "The first clause says the guide grew in scope and influence. The second clause says its modest French eateries were replaced by esteemed restaurants around the world. A comma plus coordinating conjunction can join them."
+    },
+    {
+      "title": "Reject faulty boundaries",
+      "content": "Choice A gives no proper boundary before the second clause. Choice C uses only a comma, creating a comma splice. Choice D uses <em>and</em> without the needed comma between independent clauses. The answer is <strong>B</strong>."
+    }
+  ]
+}

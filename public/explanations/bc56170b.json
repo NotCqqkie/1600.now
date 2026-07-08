@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The task is to emphasize the aim &mdash; the investigative goal &mdash; of Nakahara's research study, not its methods, background curiosity, or conclusion."
+      "title": "Identify the research aim",
+      "content": "The student wants to emphasize the aim of Nakahara's research. The notes say Nakahara wondered whether some unaccounted-for lunar oxygen could be coming from Earth and analyzed Kaguya data to test that suspicion."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; As it orbited the Moon, the Kaguya satellite collected data that was later analyzed by cosmochemist Hiroshi Nakahara.</strong>: Focuses on Kaguya's data collection method, not on the purpose driving Nakahara's research. &#10007;</li><li><strong>Choice B &mdash; Before 2008, Hiroshi Nakahara wondered if the Moon was receiving some of its oxygen from Earth.</strong>: Describes Nakahara's pre-study curiosity, not the formal aim of the research. &#10007;</li><li><strong>Choice C &mdash; Cosmochemist Hiroshi Nakahara set out to determine whether some of the Moon's oxygen was coming from Earth.</strong>: &quot;Set out to determine&quot; directly expresses the investigative goal &mdash; the purpose that drove the study. &#10003;</li><li><strong>Choice D &mdash; Hiroshi Nakahara's study determined that Earth is sending a small amount of oxygen to the Moon.</strong>: States the study's conclusion, not its aim. &#10007;</li></ul>That is the correct answer."
+      "title": "Separate aim from method",
+      "content": "A focuses on Kaguya collecting data, which is a method. B describes Nakahara's earlier curiosity, not the study's aim. D gives the conclusion, not the purpose. The aim was to determine whether some of the Moon's oxygen came from Earth. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "2b233b2a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the direct fact",
+      "content": "The text states that El Museo del Barrio is located in New York City, was founded in 1969, and has more than 8,500 objects in its collection."
+    },
+    {
+      "title": "Reject contradictions",
+      "content": "Choice A contradicts the statement that the museum is in New York City. Choice C contradicts the 1969 founding date. Choice D invents attendance information the passage never gives. The remaining choice restates \"more than 8,500 objects\" as \"over 8,500 objects.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

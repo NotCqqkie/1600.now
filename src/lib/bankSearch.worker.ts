@@ -123,6 +123,7 @@ const rowToResult = (row: BankSearchIndexRow): BankSearchResult => ({
   },
   inPracticeTests: row[8],
   previewText: row[9],
+  dupGroup: row[12] ?? 0,
 });
 
 const searchIndex = async (request: BankSearchQueryRequest): Promise<BankSearchResult[]> => {

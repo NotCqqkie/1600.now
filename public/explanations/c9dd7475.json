@@ -1,0 +1,15 @@
+{
+  "questionId": "c9dd7475",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the present rule",
+      "content": "The sentence describes a current standing rule: Interpol can help with investigations, but only Algerian authorities have arrest power there. The blank needs a present-tense linking verb for <em>authorities</em>."
+    },
+    {
+      "title": "Avoid past-tense shifts",
+      "content": "<strong>Choice A</strong> is past progressive, suggesting a temporary past situation. <strong>Choice B</strong> is simple past, and <strong>Choice C</strong> is past perfect; both wrongly move the rule into the past. The answer is <strong>D</strong>."
+    }
+  ]
+}

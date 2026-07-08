@@ -1,0 +1,15 @@
+{
+  "questionId": "67f00cd9",
+  "correctAnswer": "230",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate the y terms",
+      "content": "Multiply the first equation by $2$ and the second equation by $3$. This makes the $y$-terms opposites.<br/>$$2(18x-24y)=2(37),\\quad 36x-48y=74$$<br/>$$3(7x+16y)=3(52),\\quad 21x+48y=156$$"
+    },
+    {
+      "title": "Match the numerator",
+      "content": "Add the equations, then divide by $57$.<br/>$$57x=230$$<br/>$$x=\\frac{230}{57}$$<br/>The solution form says $x=\\frac{p}{57}$, so $p=230$. The answer is <strong>230</strong>."
+    }
+  ]
+}

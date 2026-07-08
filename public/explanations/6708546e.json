@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the scale factor",
+      "content": "Each side length of parallelogram WXYZ is $3$ times the corresponding side length of parallelogram JKLM, so the linear scale factor is $3$."
     },
     {
-      "title": "Identify the linear scale factor",
-      "content": "Each side of parallelogram WXYZ is 3 times the corresponding side of parallelogram JKLM. The linear scale factor is therefore $k = 3$."
-    },
-    {
-      "title": "Apply area scaling for similar figures",
-      "content": "For similar figures, areas scale by the square of the linear scale factor. With $k = 3$, the area scales by $k^2 = 3^2 = 9$.<br/>$$\\text{Area of WXYZ} = (\\text{Area of JKLM}) \\times 9 = 4 \\times 9 = 36 \\text{ cm}^2$$<br/>That confirms <strong>C</strong> is correct.",
+      "title": "Square the scale factor",
+      "content": "For similar figures, areas scale by the square of the linear scale factor.<br/>$$3^2=9$$",
       "formula": "$$\\text{Area ratio} = k^2$$"
+    },
+    {
+      "title": "Scale the given area",
+      "content": "Multiply the area of parallelogram JKLM by the area scale factor.<br/>$$4\\cdot 9=36$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

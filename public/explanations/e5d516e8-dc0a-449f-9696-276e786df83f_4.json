@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope-intercept form",
-      "content": "A linear function with slope $m$ and $y$-intercept $b$ has the form $f(x) = mx + b$. Here $m = 51$ and the line passes through $(0,0)$, so $b = 0$."
+      "title": "Use the slope and intercept",
+      "content": "A linear function with slope $m$ and y-intercept $b$ can be written as<br/>$$f(x)=mx+b$$<br/>The slope is $51$, and the graph passes through $(0,0)$, so the y-intercept is $0$."
     },
     {
-      "title": "Write the equation",
-      "content": "$$f(x) = 51x + 0 = 51x$$<br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Write the function rule",
+      "content": "Substitute $m=51$ and $b=0$:<br/>$$f(x)=51x+0=51x$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

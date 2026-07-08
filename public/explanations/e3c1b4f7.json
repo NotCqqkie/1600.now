@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify how &lsquo;though&rsquo; functions in the sentence",
-      "content": "The word <em>though</em> is a supplementary transitional element inserted after &ldquo;a signature of her work&rdquo; and before the main clause &ldquo;she occasionally relies&hellip;&rdquo;. A supplementary element like this must be enclosed by matching punctuation on both sides so it can be removed without breaking the sentence."
+      "title": "Set off though with commas",
+      "content": "In this sentence, <em>though</em> is a supplementary transition inserted between <strong>a signature of her work</strong> and the main clause. It needs matching punctuation on both sides."
     },
     {
-      "title": "Eliminate each choice that breaks the enclosure, then confirm the match",
-      "content": "<ul><li><strong>\"work, though,\"</strong>: Comma before <em>though</em> and comma after <em>though</em> properly enclose the supplementary element. &#10003;</li><li><strong>\"work, though\"</strong>: Opens the enclosure with a comma but never closes it &mdash; the second comma is missing. &#10007;</li><li><strong>\"work ; though,\"</strong>: A semicolon cannot be paired with a comma to set off a supplementary element. &#10007;</li><li><strong>\"work, though ;\"</strong>: Opens with a comma but closes with a semicolon &mdash; the punctuation marks do not match. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject unmatched punctuation",
+      "content": "B starts the interruption but does not close it, C incorrectly uses a semicolon before the interruption, and D incorrectly closes it with a semicolon. The sentence needs commas on both sides of <em>though</em>. The answer is <strong>A</strong>."
     }
   ]
 }

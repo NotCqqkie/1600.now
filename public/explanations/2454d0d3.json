@@ -1,0 +1,23 @@
+{
+  "questionId": "2454d0d3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection point, both equations have the same $y$-value:<br/>$$x^2+17x+4=x+4$$"
+    },
+    {
+      "title": "Solve for possible inputs",
+      "content": "Move all terms to one side and factor:<br/>$$x^2+16x=0$$<br/>$$x(x+16)=0$$<br/>So the possible $x$-values are $x=0$ and $x=-16$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection whose $x$-coordinate is listed among the choices. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "y=x^{2}+17x+4",
+        "y=x+4"
+      ]
+    }
+  ]
+}

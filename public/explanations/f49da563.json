@@ -1,0 +1,20 @@
+{
+  "questionId": "f49da563",
+  "correctAnswer": "37436",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sphere radius",
+      "content": "The radius is half the diameter:<br/>$$r=31.000/2=15.500$$"
+    },
+    {
+      "title": "Compute the volume",
+      "content": "Use the sphere volume formula with $\\pi=3.14159$:<br/>$$V=\\frac{4}{3}(3.14159)(15.500)^3$$<br/>The volume is about $15{,}598.517$.",
+      "formula": "$$V = \\frac{4}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Multiply by density",
+      "content": "Mass is density times volume:<br/>$$2.4000(15{,}598.517)=37{,}436.441$$<br/>Rounded to the nearest whole number. The answer is <strong>37436</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "61c008c6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the specification goal",
+      "content": "The goal is to specify magnesium's total mass relative to the combined mass of all elements on Earth. The notes define that ratio as a mass fraction and give magnesium's value as 154,000 ppm."
+    },
+    {
+      "title": "Rule out missing or wrong values",
+      "content": "A compares magnesium with zinc instead of giving magnesium's value. B defines mass fraction but omits the number. D uses zinc's 40 ppm value. The sentence with magnesium's exact mass fraction satisfies the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "557fe48c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the tangent ratio",
+      "content": "From angle $L$, tangent is opposite over adjacent:\n$$\n\\tan L=\\frac{JK}{LK}=\\frac{3}{4}\n$$\nSo the legs are in a $3:4$ ratio."
+    },
+    {
+      "title": "Scale the right triangle",
+      "content": "A right triangle with legs in a $3:4$ ratio has hypotenuse ratio $5$. The figure gives hypotenuse $LJ=90$, so the scale factor is\n$$\n\\frac{90}{5}=18\n$$"
+    },
+    {
+      "title": "Find the opposite side",
+      "content": "$JK$ corresponds to the $3$ side, so\n$$\nJK=3(18)=54\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

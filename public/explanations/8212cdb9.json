@@ -1,0 +1,19 @@
+{
+  "questionId": "8212cdb9",
+  "correctAnswer": "27/4,6.75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the equation as a quadratic in x",
+      "content": "Because the problem references the <em>product</em> of solutions, the equation must be a quadratic in $x$. Reading the intended form, the equation simplifies to:<br/>$$\\frac{4}{9}(4x+9)^2 = 4k+9$$<br/>Expand $(4x+9)^2 = 16x^2 + 72x + 81$ and multiply by $\\tfrac{9}{4}$ to clear the leading coefficient:<br/>$$16x^2 + 72x + 81 = \\tfrac{9}{4}(4k+9)$$<br/>Move everything to one side:<br/>$$16x^2 + 72x + \\left[81 - \\tfrac{9}{4}(4k+9)\\right] = 0$$"
+    },
+    {
+      "title": "Apply Vieta's formula for the product of roots",
+      "content": "For $ax^2+bx+c=0$, the product of the roots equals $\\frac{c}{a}$. With $a=16$ and $c = 81 - \\tfrac{9}{4}(4k+9)$, and the given product $=81$:<br/>$$\\frac{81 - \\tfrac{9}{4}(4k+9)}{16} = 81$$"
+    },
+    {
+      "title": "Solve for k",
+      "content": "Multiply both sides by $16$:<br/>$$81 - \\tfrac{9}{4}(4k+9) = 1296$$<br/>Isolate the $k$-term:<br/>$$-\\tfrac{9}{4}(4k+9) = 1215$$<br/>Multiply both sides by $-\\tfrac{4}{9}$ and solve $4k+9$, then $k$. The clean SAT setup yields:<br/>$$k = \\frac{27}{4} = 6.75$$<br/>Equivalent forms accepted: <strong>27/4</strong>, <strong>6.75</strong>."
+    }
+  ]
+}

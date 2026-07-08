@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the elaborating noun phrase",
-      "content": "The passage shows “something far more extensive” being immediately followed by “network of such committees”—the text explains what the extensive thing is."
+      "title": "See what the phrase explains",
+      "content": "The sentence says the local effort had grown into something far more extensive, then immediately explains what that something was: a network of committees. The punctuation must introduce that explanatory noun phrase."
     },
     {
-      "title": "Apply the colon rule",
-      "content": "A colon introduces an elaboration that explains what precedes it.<br/><br/>The punctuation <strong>“: a”</strong> correctly uses this: the colon clarifies that the “something far more extensive” is “a network of such committees.” A semicolon would require independent clauses, “it was” is redundant, and a period creates a fragment.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Use a colon for elaboration",
+      "content": "B uses a semicolon even though the following phrase is not an independent clause. C creates a comma splice with it was. D turns the following noun phrase into a fragment. A colon after extensive correctly introduces the explanation. The answer is <strong>A</strong>."
     }
   ]
 }

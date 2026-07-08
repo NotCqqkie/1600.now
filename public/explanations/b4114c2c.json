@@ -1,0 +1,15 @@
+{
+  "questionId": "b4114c2c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause-effect link",
+      "content": "The first sentence says Italian remained the default language for opera scores for several centuries. The second says singers today encounter many Italian terms in eighteenth-century opera scores. The second idea follows from the first."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "Choice B would signal contrast, Choice C would signal the last item in a sequence, and Choice D would signal concession. The relationship is result: because Italian dominated opera scoring, Italian terms still appear in scores singers use. The answer is <strong>A</strong>."
+    }
+  ]
+}

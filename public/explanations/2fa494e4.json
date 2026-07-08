@@ -1,0 +1,19 @@
+{
+  "questionId": "2fa494e4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the atypical traits",
+      "content": "The passage says ecologists have learned much about wild-bee declines from bumblebees because bumblebees are heavily studied. Fontaine then adds an important qualification: bumblebees have social behavior and dietary generalism, traits associated with greater resilience to certain environmental changes. That makes bumblebees unusual among wild-bee genera."
+    },
+    {
+      "title": "Avoid overbroad conclusions",
+      "content": "Choice A overpredicts future population changes and treats generalist diets as a simple guarantee of lower risk. Choice B goes too far by saying researchers should not use bumblebees even for similar bees. Choice C invents a ranking between climate variation and habitat destruction that the passage does not support."
+    },
+    {
+      "title": "State the cautious inference",
+      "content": "Because bumblebees may respond differently from many other wild bees, data from bumblebees should not automatically be generalized to all wild-bee declines. The logical conclusion is that researchers need caution when extrapolating from bumblebee evidence to other wild bees. The answer is <strong>D</strong>."
+    }
+  ]
+}

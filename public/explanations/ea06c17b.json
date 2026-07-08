@@ -1,0 +1,19 @@
+{
+  "questionId": "ea06c17b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main clause",
+      "content": "The sentence first gives a complete main clause: <em>Antonio Martorell's 2010 woodcut print La Playa Negra I (Tar Beach I) has been displayed at the Smithsonian American Art Museum</em>. The words after the blank, <em>which features a large collection of contemporary art</em>, add extra information about the museum. That kind of nonessential <em>which</em> clause needs a comma before it, not a new independent-clause boundary."
+    },
+    {
+      "title": "Test the wrong boundaries",
+      "content": "<strong>Choice A</strong>, <em>Museum and which</em>, uses <em>and which</em> without a parallel earlier <em>which</em> clause. <strong>Choice B</strong>, <em>Museum; which</em>, puts a semicolon before a relative clause, but a <em>which</em> clause is not independent. <strong>Choice C</strong>, <em>Museum. Which</em>, turns the relative clause into a sentence fragment."
+    },
+    {
+      "title": "Attach the extra information",
+      "content": "<strong>Choice D</strong>, <em>Museum, which</em>, keeps the museum in the main clause and attaches the nonessential relative clause with the required comma. The completed sentence says that the work has been displayed at the Smithsonian American Art Museum, which features a large collection of contemporary art. The answer is <strong>D</strong>."
+    }
+  ]
+}

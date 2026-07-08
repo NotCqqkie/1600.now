@@ -1,0 +1,15 @@
+{
+  "questionId": "a44a8c59",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract matching terms",
+      "content": "The expression $x+6$ appears on both sides. Subtract $8(x+6)$ from both sides.<br/>$$9(x+6)=8(x+6)+74$$<br/>$$x+6=74$$"
+    },
+    {
+      "title": "Use the requested value",
+      "content": "The question asks directly for $x+6$, which the equation already gives as $74$. The answer is <strong>C</strong>."
+    }
+  ]
+}

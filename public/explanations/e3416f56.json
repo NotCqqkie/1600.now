@@ -1,0 +1,15 @@
+{
+  "questionId": "e3416f56",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from evidence to conclusion",
+      "content": "The researchers discovered glaciers in Antarctica that were at least 60 million years old. They then concluded that Antarctica had glaciers before its continent-wide ice sheet formed 34 million years ago. The transition must show that the conclusion follows from the discovery."
+    },
+    {
+      "title": "Reject contrast transitions",
+      "content": "Choice B signals opposition, but the conclusion follows from the evidence. Choice C and Choice D both signal concession despite an obstacle, and no obstacle is present. The needed transition marks a logical result drawn from the discovery. The answer is <strong>A</strong>."
+    }
+  ]
+}

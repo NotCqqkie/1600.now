@@ -1,0 +1,15 @@
+{
+  "questionId": "62fb9aff",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the seaweed difference",
+      "content": "The notes say participants rated North Pacific konbu's umami intensity as moderate and arame's as high. To emphasize a difference, the answer must contrast those two intensity ratings."
+    },
+    {
+      "title": "Reject similarity-focused options",
+      "content": "<ul><li>Choice B groups both seaweeds together as umami-triggering foods instead of contrasting them.</li><li>Choice C shifts attention to tuna and garlic rather than the difference between the seaweeds.</li><li>Choice D only says both are brown seaweed and gives no difference in umami intensity.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

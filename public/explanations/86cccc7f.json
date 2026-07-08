@@ -1,0 +1,15 @@
+{
+  "questionId": "86cccc7f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed verb",
+      "content": "The sentence says some music can have many valid interpretations. The blank needs a verb showing that Oliveros's compositions can sustain or allow those interpretations."
+    },
+    {
+      "title": "Reject opposing verbs",
+      "content": "A would mean disproving the interpretations, B would mean leaving them out, and D would mean avoiding them. The only verb that fits the idea of upholding many valid interpretations is \"support.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

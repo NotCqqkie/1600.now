@@ -1,0 +1,15 @@
+{
+  "questionId": "0d38d180",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define high-sinuosity rivers",
+      "content": "The requested definition should explain what makes a river high-sinuosity. The notes say a river with high sinuosity has many meanders, and another note defines a meander as a U-shaped curve in a river channel."
+    },
+    {
+      "title": "Reject examples and extra details",
+      "content": "Choice A focuses on the Nestucca River, a specific example. Choice C explains how meanders form, not what high sinuosity means. Choice D adds later movement of meanders, which goes beyond a definition. The remaining choice gives the direct definition using many meanders. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the triangle's sides",
-      "content": "The small square marks the right angle. From the figure:<ul><li>Hypotenuse (opposite the right angle) = 21</li><li>One leg = 6</li><li>Unknown leg = a</li></ul>"
+      "title": "Identify the sides",
+      "content": "The right angle shows that the side labeled $21$ is the hypotenuse. The side labeled $6$ and the side labeled $a$ are the legs."
     },
     {
-      "title": "Apply the Pythagorean theorem",
-      "content": "For a right triangle: $a^2+b^2=c^2$<br/>Here $a^2+6^2=21^2$<br/>Isolate $a^2$: $a^2=21^2-6^2$<br/>Take the square root: $a=\\sqrt{21^2-6^2}$"
+      "title": "Apply the theorem",
+      "content": "Use the Pythagorean theorem:<br/>$$a^2+6^2=21^2$$<br/>Solve for $a$ by subtracting $6^2$ and taking the square root:<br/>$$a=\\sqrt{21^2-6^2}$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"$\\sqrt{{21}^{2}-{6}^{2}}$\"</strong>: exactly what the Pythagorean theorem gives. That matches the correct answer — <strong>A</strong> is correct.</li><li><strong>\"${21}^{2}-{6}^{2}$\"</strong>: this is $a^2$, not $a$; missing the square root. Eliminated.</li><li><strong>\"$\\sqrt{21-6}$\"</strong>: subtracts the sides before rooting; no Pythagorean basis. Eliminated.</li><li><strong>\"$21-6$\"</strong>: simple subtraction of sides, not valid for finding a leg. Eliminated.</li></ul>"
+      "title": "Match the expression",
+      "content": "The expression for the missing leg is<br/>$$\\sqrt{21^2-6^2}$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

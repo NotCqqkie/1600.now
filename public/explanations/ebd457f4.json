@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate weekly savings amount",
-      "content": "Maria saves $\\frac{3}{7}$ of 224 dollars each week. Multiply:<br/>$$\\frac{3}{7} \\times 224 = \\frac{672}{7} = 96$$<br/>Maria saves 96 dollars per week."
+      "title": "Find weekly savings",
+      "content": "Maria saves $\\frac{3}{7}$ of $224$ dollars each week:\n$$\n\\frac{3}{7}\\cdot 224=3\\cdot 32=96\n$$"
     },
     {
-      "title": "Multiply by 8 weeks",
-      "content": "Total savings over 8 weeks at 96 dollars per week:<br/>$$96 \\times 8 = 768$$<br/>The answer is 768 dollars."
+      "title": "Multiply by eight weeks",
+      "content": "At $96$ dollars per week for $8$ weeks, the total saved is\n$$\n96\\cdot 8=768\n$$\nThe answer is <strong>768</strong>."
     }
   ]
 }

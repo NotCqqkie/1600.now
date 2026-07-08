@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure needed",
-      "content": "The sentence has a complete main clause ending with <strong>snow and ice cover</strong>. What follows must attach to that clause and express its result &mdash; the monkeys hunting for marine animals. A nonfinite participial phrase is the correct structure to show this consequence."
+      "title": "Attach the result phrase",
+      "content": "The clause before the blank is already complete: the preferred food sources may become unavailable because of snow and ice. The words after the blank should attach as a result of that situation."
     },
     {
-      "title": "Eliminate each choice by rule",
-      "content": "Rule: a finite verb cannot be added after a complete clause without a coordinating conjunction; a nonfinite participle can follow a main clause to express result or consequence.<ul><li><strong>Choice A — forces</strong>: finite present-tense verb &mdash; creates a run-on sentence by adding a second main verb without a conjunction. &#10007;</li><li><strong>Choice B — to force</strong>: infinitive &mdash; produces a dangling infinitive with no clear logical subject attached to the clause. &#10007;</li><li><strong>Choice C — forcing</strong>: present participle &mdash; correctly forms a participial phrase after the main clause, showing that the lack of food sources results in the monkeys hunting. &#10003;</li><li><strong>Choice D — forced</strong>: past participle used alone &mdash; leaves an incomplete, ambiguous participial structure with no grammatical anchor. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject finite or dangling forms",
+      "content": "Choice A adds a finite verb after a complete clause, creating a run-on. Choice B creates an awkward infinitive with no clear subject. Choice D leaves a past-participle phrase that does not fit the meaning. A present participle correctly shows the result. The answer is <strong>C</strong>."
     }
   ]
 }

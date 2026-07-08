@@ -1,0 +1,15 @@
+{
+  "questionId": "753d3ae2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a difference",
+      "content": "The student wants to contrast the two samples, so the answer should show how they differ. The notes say the TPU sample was 3 millimeters thick, while the SEBS rubber sample was 4 millimeters thick."
+    },
+    {
+      "title": "Reject similarities",
+      "content": "Choice A explains torsional heating in general. Choice B describes the study's broad topic. Choice C says both samples' temperatures increased, which is a similarity rather than a contrast. Stating that the SEBS sample was thicker than the TPU sample gives a direct difference. The answer is <strong>D</strong>."
+    }
+  ]
+}

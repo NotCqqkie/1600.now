@@ -1,0 +1,15 @@
+{
+  "questionId": "38250877",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Need no increase at voltage",
+      "content": "The claim is that applying a positive voltage is not by itself enough to increase adhesion. The evidence must show a positive-voltage case with adhesion about the same as the 0 V baseline."
+    },
+    {
+      "title": "Check graph values",
+      "content": "A misstates the 0 V value. B shows high adhesion at 3 V, which does not prove insufficiency. C compares 2 V to other positive voltages. The remaining option compares 1 V with the 0 V baseline. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Transitions question. The skill is identifying the logical relationship between the previous sentences and the sentence that begins with the blank. The decisive clue is the contrast: the previous sentences say Paris was ideal and Sen was making a name for herself, but the new sentence says she &ldquo;longed to return to India.&rdquo; The blank must signal an unexpected reversal."
+      "title": "Find the relationship",
+      "content": "The first two sentences make Paris sound ideal for Sen: she was studying France's modernist masters firsthand and beginning to build a reputation as a painter. The sentence with the blank then moves in the opposite direction by saying she longed to return to India, where she believed her art could truly flourish. The transition must signal that unexpected contrast."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Still,</strong>: &ldquo;Still&rdquo; means &ldquo;nevertheless&rdquo; or &ldquo;even so,&rdquo; signaling that what follows contrasts with what came before. Here it correctly marks the surprise: despite Paris being ideal and her career thriving, she longed to leave. &#10003;</li><li><strong>Choice B — Therefore,</strong>: &ldquo;Therefore&rdquo; signals a result or logical consequence. If Sen&apos;s longing for India were a consequence of her Paris success, those ideas would have to connect causally &mdash; they don&apos;t. The longing contradicts, not follows from, her success. &#10007;</li><li><strong>Choice C — Indeed,</strong>: &ldquo;Indeed&rdquo; signals emphasis or confirmation of what preceded. Using it would imply that longing to leave Paris confirms or reinforces the idea that Paris was ideal &mdash; the opposite of the actual relationship. &#10007;</li><li><strong>Choice D — Furthermore,</strong>: &ldquo;Furthermore&rdquo; adds information in the same direction. It would imply that Sen&apos;s longing for India is an additional point supporting how well things were going in Paris, which contradicts the contrast the passage establishes. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Test the transitions",
+      "content": "Choice B signals a result, but Sen's desire to leave Paris is not presented as a consequence of her success there. Choice C signals emphasis or confirmation, which would incorrectly suggest that wanting to return to India supports the idea that Paris was ideal. Choice D adds another point in the same direction, but the passage changes direction. Choice A means even so or nevertheless, so it marks the contrast between Paris seeming ideal and Sen still wanting India. The answer is <strong>A</strong>."
     }
   ]
 }

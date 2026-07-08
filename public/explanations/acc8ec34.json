@@ -1,0 +1,15 @@
+{
+  "questionId": "acc8ec34",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on expedition events",
+      "content": "The student's goal is to provide a historical overview of the Shackleton expedition, so the response should summarize the expedition itself rather than its later cultural legacy. The relevant notes give a chronological sequence: Shackleton and a small crew left for Antarctica in 1914, the ship <em>Endurance</em> became trapped in ice and sank in 1915, and the crew was rescued in 1916 after difficult sea-ice experiences. A strong overview should connect those events in order."
+    },
+    {
+      "title": "Separate legacy from overview",
+      "content": "Choice A mainly discusses a 1959 book and a 2001 documentary, so it shifts away from the expedition's own history. Choice B misstates the notes by saying the expedition rescued the crew of a sunken ship; the notes say Shackleton's crew was rescued. Choice D lists later legacy items and the 2022 discovery, not the 1914-1916 expedition sequence. The option that covers departure, ship loss, hardships, and rescue gives the requested historical overview. The answer is <strong>C</strong>."
+    }
+  ]
+}

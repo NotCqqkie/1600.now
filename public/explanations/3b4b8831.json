@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$38{x}^{2}=38 \\left(9\\right)$$Graph or solve it directly and read the x-value that works. The requested value is $-3$.",
+      "title": "Cancel the common factor",
+      "content": "Both sides of the equation have a factor of $38$, so divide both sides by $38$.<br/>$$38x^2=38(9)$$<br/>$$x^2=9$$",
       "desmosExpressions": [
         "38{x}^{2}=38 \\left(9\\right)"
       ]
     },
     {
-      "title": "Divide both sides by 38",
-      "content": "The coefficient 38 appears on both sides. Divide to simplify:<br/>$$x^2 = 9$$"
-    },
-    {
-      "title": "Take square roots to find both solutions",
-      "content": "Taking the square root of both sides:<br/>$$x = \\pm\\sqrt{9} = \\pm 3$$<br/>The two solutions are $x = 3$ and $x = -3$. The negative solution is $x = -3$."
+      "title": "Find both roots",
+      "content": "An equation of the form $x^2=9$ has two solutions.<br/>$$x=3$$<br/>$$x=-3$$<br/>The negative solution is requested. The answer is <strong>-3</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The claim: countries with very large populations can be less densely populated than countries with much smaller populations. The example must compare two countries &mdash; one with a large population and low density, one with a smaller population and higher density."
+      "title": "Match population to density",
+      "content": "The claim says a very populous country can be less densely populated than a much smaller country. The example must compare population size and population density across two countries."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; the geographic size of Angola (1,246,700 square kilometers) with its relatively high population of 25,022,000 inhabitants.</strong>: only one country&apos;s data is relevant to the contrast claimed. &#10007;</li><li><strong>Choice B &mdash; Angola, which has a high population of 25,022,000 inhabitants and a relatively low density of 20.1 inhabitants/square kilometer, with São Tomé and Príncipe, which has a much lower population and a higher density.</strong>: exactly the large-population/low-density vs. small-population/high-density contrast the claim requires. &#10003;</li><li><strong>Choice C &mdash; Mauritania, which has a low density, with Ethiopia, which has a similar density despite both countries having different geographic sizes.</strong>: the passage claims a contrast in density, not similarity. &#10007;</li><li><strong>Choice D &mdash; the populations of both São Tomé and Príncipe and Ethiopia in 2015 with their populations in 2010.</strong>: fails to set up the required comparison. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject incomplete comparisons",
+      "content": "<ul><li><strong>Choice A</strong> discusses only Angola's size and population.</li><li><strong>Choice C</strong> compares countries with similar density, not the claimed contrast.</li><li><strong>Choice D</strong> compares years, not population with density.</li></ul>"
+    },
+    {
+      "title": "Use the density contrast",
+      "content": "The remaining choice compares high-population, low-density Angola with lower-population, higher-density Sao Tome and Principe, directly illustrating the claim. The answer is <strong>B</strong>."
     }
   ]
 }

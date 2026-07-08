@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Build the confidence interval",
-      "content": "A margin of error specifies the plausible range around a point estimate. The interval extends from the estimate minus the margin to the estimate plus the margin:<br/>$$14\\% - 2.75\\% = 11.25\\% \\quad \\text{(lower bound)}$$<br/>$$14\\% + 2.75\\% = 16.75\\% \\quad \\text{(upper bound)}$$"
+      "title": "Apply the margin of error",
+      "content": "The estimate is $14\\%$, and the margin of error is $2.75\\%$. Subtract and add the margin to get the plausible interval.\n$$14\\%-2.75\\%=11.25\\%$$\n$$14\\%+2.75\\%=16.75\\%$$"
     },
     {
-      "title": "Identify the correct conclusion",
-      "content": "The confidence interval [11.25%, 16.75%] represents all values that are plausible for the true defect percentage based on the sample and margin of error. This is exactly what the correct answer states. That confirms <strong>B</strong> is correct."
+      "title": "Interpret the interval",
+      "content": "The conclusion should describe the percent of all gloves produced during the week as plausibly between $11.25\\%$ and $16.75\\%$, not exactly equal to the sample estimate. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "5f405d49",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Provide a nickname",
+      "content": "The student wants an example of a dinosaur fossil specimen's nickname. The notes identify one specimen by nickname, location, and genus: Pops, a <em>Triceratops</em> specimen at the Denver Museum of Nature and Science."
+    },
+    {
+      "title": "Name the example directly",
+      "content": "A says a nicknamed specimen exists but never gives the nickname. B gives the genus, age, and museum but omits the nickname. C is only a general statement about nicknames. The sentence must name Pops as the example. The answer is <strong>D</strong>."
+    }
+  ]
+}

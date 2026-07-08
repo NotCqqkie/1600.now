@@ -1,0 +1,19 @@
+{
+  "questionId": "92820aae",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare actual and predicted ratings",
+      "content": "The question states that P6 gave equal ratings to abstract and cubist paintings. The graph data used in the explanation show different model correlations for those two styles, so the model did not treat them the same."
+    },
+    {
+      "title": "Reject direction claims",
+      "content": "Choice A and Choice D claim one style gave P6 more pleasure than the other, but the correlation difference does not establish a higher or lower direction. Choice B says the predicted ratings were equal, contrary to the unequal correlations."
+    },
+    {
+      "title": "State the model difference",
+      "content": "The unequal correlations indicate that the model predicted different ratings for abstract and cubist paintings even though P6's actual ratings were equal. The answer is <strong>C</strong>."
+    }
+  ]
+}

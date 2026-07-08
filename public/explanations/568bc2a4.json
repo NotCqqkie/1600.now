@@ -1,20 +1,15 @@
 {
-  "qid": "568bc2a4",
   "questionId": "568bc2a4",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Convert furlongs to yards: $372 \\text{ furlongs} \\times 220 \\text{ yd/furlong} = 81{,}840 \\text{ yd}$."
+      "title": "Convert furlongs to yards",
+      "content": "Each furlong is $220$ yards, so multiply the number of furlongs by $220$:\n$$\n372\\cdot 220=81{,}840\n$$\nThis gives $81{,}840$ yards."
     },
     {
-      "title": "Step 2",
-      "content": "Convert yards to feet: $81{,}840 \\text{ yd} \\times 3 \\text{ ft/yd} = 245{,}520 \\text{ ft}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Equivalently: $372 \\times 220 \\times 3 = 372 \\times 660 = 245{,}520$. This single product works because each furlong is first converted to yards and each yard is then converted to feet, so the units cancel in sequence. Therefore, <strong>Choice D</strong> is correct."
+      "title": "Convert yards to feet",
+      "content": "Each yard is $3$ feet, so multiply the yard total by $3$:\n$$\n81{,}840\\cdot 3=245{,}520\n$$\nThe answer is <strong>D</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A — $318$</strong>: Far too small; likely from dividing instead of multiplying. &#10007;</li><li><strong>Choice B — $426$</strong>: Far too small; does not match any unit conversion. &#10007;</li><li><strong>Choice C — $27,280$</strong>: Result of multiplying $372 \\times 220 \\div 3$ (dividing by 3 instead of multiplying). &#10007;</li><li><strong>Choice D — $245,520$</strong>: $372 \\times 220 \\times 3 = 245{,}520$ ✓. &#10003;</li></ul><strong>D</strong> is correct.",
-  "correctAnswer": "D"
+  ]
 }

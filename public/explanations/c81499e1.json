@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the conversion factor",
-      "content": "We are given that 1 kilogram = 1,000 grams. To convert from kilograms to grams, multiply by this factor."
+      "title": "Use the gram conversion",
+      "content": "Each kilogram is $1{,}000$ grams, so multiply kilograms by $1{,}000$."
     },
     {
-      "title": "Multiply the mass by the conversion factor",
-      "content": "The anteater's mass is 42 kilograms. Applying the conversion:<br/>$$42 \\text{ kg} \\times 1,000 \\frac{\\text{grams}}{\\text{kg}} = 42,000 \\text{ grams}$$<br/>The giant anteater's mass is <strong>42,000 grams</strong>."
+      "title": "Convert the mass",
+      "content": "For $42$ kilograms, compute<br/>$$42(1{,}000)$$<br/>The answer is <strong>42000</strong>."
     }
   ]
 }

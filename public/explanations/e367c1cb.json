@@ -1,0 +1,15 @@
+{
+  "questionId": "e367c1cb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the Colville value",
+      "content": "The sentence needs the total area of the Colville Tribes in Washington. The table gives that entry as 2,185 square miles, matching the comparison with smaller tribal nations."
+    },
+    {
+      "title": "Reject wrong table entries",
+      "content": "B, C, and D give values that do not match the table entry for the Colville Tribes. The answer is <strong>A</strong>."
+    }
+  ]
+}

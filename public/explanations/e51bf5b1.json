@@ -1,23 +1,19 @@
 {
   "questionId": "e51bf5b1",
-  "qid": "e51bf5b1",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Use the factor theorem",
-      "content": "If $x+2b$ is a factor, then $x=-2b$ must make $3x^2+kx+14b$ equal $0$, where $k$ is the coefficient of $x$ in the answer choice."
+      "title": "Use the factor root",
+      "content": "If $x+2b$ is a factor, then substituting $x=-2b$ must make the expression equal $0$. Let $k$ be the coefficient of $x$ in a choice.\n$$3x^2+kx+14b$$"
     },
     {
-      "title": "Solve for the possible coefficient",
-      "content": "Substitute $x=-2b$:<br/>$$3(-2b)^2+k(-2b)+14b=0$$<br/>$$12b^2-2kb+14b=0$$<br/>Because $b\\gt 0$, divide by $2b$:<br/>$$6b-k+7=0$$<br/>So $k=6b+7$."
+      "title": "Solve for the coefficient",
+      "content": "Substitute $x=-2b$.\n$$3(-2b)^2+k(-2b)+14b=0$$\n$$12b^2-2kb+14b=0$$\nSince $b>0$, divide by $2b$.\n$$6b-k+7=0$$\n$$k=6b+7$$"
     },
     {
-      "title": "Confirm by hand",
-      "content": "The coefficient must be $7$ more than a multiple of $6$. Among $7$, $28$, $42$, and $49$, only $49$ works because $49=6(7)+7$."
-    },
-    {
-      "title": "Choose the integer case",
-      "content": "<strong>$3{x}^{2}+49x+14b$</strong> gives $49=6b+7$, so $b=7$, a positive integer. Then $3x^2+49x+98=(x+14)(3x+7)$, so $x+2b=x+14$ is a factor. $3{x}^{2}+49x+14b$ is correct."
+      "title": "Pick the valid coefficient",
+      "content": "The coefficient must be $7$ more than a multiple of $6$. The value $49$ works because $49=6(7)+7$, giving positive integer $b=7$. The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

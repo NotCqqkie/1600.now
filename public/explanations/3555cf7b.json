@@ -1,0 +1,15 @@
+{
+  "questionId": "3555cf7b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare actual and predicted ratings",
+      "content": "The question states that participant P6 gave equal actual ratings to abstract and cubist paintings. The graph shows different correlations between model predictions and participant ratings for those styles, so the model did not treat the two ratings as equal."
+    },
+    {
+      "title": "Avoid unsupported directions",
+      "content": "Choice B and Choice D each claim a specific direction of preference, but the graph does not establish which style P6 personally enjoyed more. Choice C says the model predicted equal ratings, which conflicts with the different correlation values. The supported conclusion is simply that the model's predicted ratings differed. The answer is <strong>A</strong>."
+    }
+  ]
+}

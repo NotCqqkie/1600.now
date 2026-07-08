@@ -1,0 +1,15 @@
+{
+  "questionId": "dd5bdd09",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast old and new output",
+      "content": "The passage claims newer offshore wind turbines often outperform older models. It then compares a 1998 farm producing about 0.6 MW per turbine with a 2021 farm producing about 10 MW per turbine."
+    },
+    {
+      "title": "Reject cause and concession",
+      "content": "Choice A signals concession, but no opposing point is being granted. Choice B signals cause, though the older farm does not cause the newer farm's output. Choice D signals eventual timing rather than comparison. The remaining transition highlights the performance difference. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the factorization requirement",
-      "content": "For $\\frac{x^2 - c}{x - b}$ to equal $x + b$, the numerator must factor in a way that allows cancellation with the denominator. This means we need the numerator to equal $(x - b)(x + b)$ expanded, so that:<br/>$$\\frac{(x - b)(x + b)}{x - b} = x + b$$"
+      "title": "Use the required factor",
+      "content": "For the expression to simplify to $x+b$, the numerator must factor as:<br/>$$(x-b)(x+b)$$"
     },
     {
-      "title": "Expand using difference of squares",
-      "content": "Expand $(x - b)(x + b) = x^2 - b^2$.<br/><br/>Since the numerator $x^2 - c$ must equal this expansion:<br/>$$x^2 - c = x^2 - b^2$$",
+      "title": "Expand the product",
+      "content": "Use the difference of squares:<br/>$$(x-b)(x+b)=x^2-b^2$$<br/>So $x^2-c$ must match $x^2-b^2$, which means $c=b^2$.",
       "formula": "$$(a - b)(a + b) = a^2 - b^2$$"
     },
     {
-      "title": "Solve for c and identify the answer",
-      "content": "From $x^2 - c = x^2 - b^2$, we can see that $c = b^2$.<br/><br/>Since $b$ is a positive integer, $c$ must be a perfect square. Checking the choices:<ul><li>9 = $3^2$ &#10003;</li><li>12 is not a perfect square</li><li>14 is not a perfect square</li><li>18 is not a perfect square</li></ul>That matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Choose a square value",
+      "content": "Since $b$ is a positive integer, $c$ must be a perfect square. Among the choices, $9=3^2$ is the only perfect square. The answer is <strong>A</strong>."
     }
   ]
 }

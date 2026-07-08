@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Run a two-point linear calculation",
-      "content": "The values $h(7)=21$ and $h(9)=25$ are the points $(7,21)$ and $(9,25)$. Use those table values directly. It returns $m=2$ and $b=7$, so $h(x)=2x+7$.",
+      "title": "Find the slope",
+      "content": "Use the two given points, $(7,21)$ and $(9,25)$:<br/>$$m=\\frac{25-21}{9-7}=\\frac{4}{2}=2$$",
       "desmosExpressions": [
         "x_1=[7,9]",
         "y_1=[21,25]"
       ]
     },
     {
-      "title": "Verify with the original values",
-      "content": "By hand, the slope is $\\frac{25-21}{9-7}=2$. Then $21=2(7)+b$, so $b=7$. Check the second value: $2(9)+7=25$, so the model fits both given points."
+      "title": "Find the intercept",
+      "content": "Substitute $m=2$ and the point $(7,21)$ into $y=mx+b$:<br/>$$21=2(7)+b$$<br/>$$21=14+b$$<br/>$$b=7$$"
     },
     {
-      "title": "Evaluate each answer choice",
-      "content": "<ul><li><strong>A.</strong> $h(x) = \\frac{1}{2}x - \\frac{7}{2}$: slope is $\\tfrac{1}{2}$, not 2; eliminated.</li><li><strong>B.</strong> $h(x) = 2x + 7$: slope 2 and $h(7) = 21$, $h(9) = 25$; matches.</li><li><strong>C.</strong> $h(x) = 7x + 21$: $h(7) = 70$, not 21; eliminated.</li><li><strong>D.</strong> $h(x) = 9x + 25$: $h(7) = 88$, not 21; eliminated.</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Write the function",
+      "content": "The linear function is $h(x)=2x+7$, which also gives $h(9)=25$. The answer is <strong>B</strong>."
     }
   ]
 }

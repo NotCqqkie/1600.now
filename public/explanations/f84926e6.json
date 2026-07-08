@@ -1,0 +1,15 @@
+{
+  "questionId": "f84926e6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal the genre contrast",
+      "content": "The first sentence classifies <em>Rocannon's World</em> as science fiction. The second sentence classifies <em>The Farthest Shore</em> as fantasy. The transition should mark a contrast between two works by the same author."
+    },
+    {
+      "title": "Reject noncontrast signals",
+      "content": "<ul><li><strong>Choice A</strong>: \"Afterward\" signals time order, not a genre comparison.</li><li><strong>Choice B</strong>: \"In other words\" signals restatement, but the second sentence is different from the first.</li><li><strong>Choice C</strong>: \"For example\" would make the second novel an example of the first classification, which it is not.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

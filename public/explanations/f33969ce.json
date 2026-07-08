@@ -1,0 +1,19 @@
+{
+  "questionId": "f33969ce",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a weighted mean",
+      "content": "The groups have different sizes, so multiply each group mean by its number of penguins before averaging."
+    },
+    {
+      "title": "Find the combined total",
+      "content": "Compute the total height contribution from each group.\n$$420(84)=35{,}280$$\n$$210(90)=18{,}900$$\n$$35{,}280+18{,}900=54{,}180$$"
+    },
+    {
+      "title": "Divide by all penguins",
+      "content": "There are $630$ penguins total.\n$$\\frac{54{,}180}{630}=86$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

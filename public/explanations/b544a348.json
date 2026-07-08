@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the matching y coefficient",
-      "content": "Both equations contain the term $4y$, which means we can eliminate $y$ by subtracting one equation from the other without needing to multiply either equation first."
+      "title": "Subtract matching terms",
+      "content": "Both equations include the same $4y$ term, so subtract the second equation from the first to eliminate $y$: $$(6x+4y)-(2x+4y)=46-14$$"
     },
     {
-      "title": "Subtract the equations to solve for x",
-      "content": "Subtract equation 2 from equation 1:<br/>$$(6x + 4y) - (2x + 4y) = 46 - 14$$<br/>Simplify by combining like terms:<br/>$$4x = 32$$<br/>Divide both sides by 4:<br/>$$x = 8$$"
+      "title": "Find the value requested",
+      "content": "After simplifying, divide by $4$ to get the value of $x$: $$4x=32$$ $$x=8$$ The answer is <strong>8</strong>."
     }
   ]
 }

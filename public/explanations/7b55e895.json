@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what both texts observe",
-      "content": "Both Text 1 and Text 2 describe tropical mountain bird species as having <strong>severely restricted geographic ranges</strong>, even though they propose different reasons for this restriction."
+      "title": "Find the shared observation",
+      "content": "Text 1 says tropical mountain birds are limited in the spaces they can inhabit because they survive at specific elevations. Text 2 says these birds tend to inhabit smaller geographic areas when many other bird species are present."
     },
     {
-      "title": "Match the shared observation to the choices",
-      "content": "Choice A (&lsquo;Tropical mountain bird species are restricted in where they can live.&rsquo;) states that tropical mountain bird species are <strong>restricted in where they can live</strong>.<br/><br/>Text 1 explicitly says they “tend to be limited in the types of spaces they can call home.” Text 2 says a mountain bird species “tended to inhabit much smaller geographic areas.” The other choices address observation tools, nest construction, and genetic similarity—none of which either text discusses.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Ignore disputed causes",
+      "content": "The texts differ on whether temperature or competition explains the restriction, but both agree that tropical mountain bird species are restricted in where they live. B, C, and D introduce tools, nests, or genetics, which neither text discusses. The answer is <strong>A</strong>."
     }
   ]
 }

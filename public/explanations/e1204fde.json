@@ -1,0 +1,15 @@
+{
+  "questionId": "e1204fde",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find Himalayan balsam's value",
+      "content": "The sentence asks for the effect value of Himalayan balsam. In the table, Himalayan balsam appears as the neighboring species paired with marsh woundwort, and its listed effect value is 0.7905."
+    },
+    {
+      "title": "Reject other table entries",
+      "content": "Choice B gives the value for leafy spurge, not Himalayan balsam. Choice C gives a value that does not appear in the table. Choice D gives the value for Canadian wood betony. The Himalayan balsam row gives 0.7905. The answer is <strong>A</strong>."
+    }
+  ]
+}

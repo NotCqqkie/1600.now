@@ -1,0 +1,15 @@
+{
+  "questionId": "9495c951",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Infer from the site visits",
+      "content": "The evidence is about what free Deezer users did after free streaming was capped at five hours per month. Almeida found that those listeners visited licensed online music sellers, such as the iTunes store, and unlicensed download sites about 2% less. Those sites are places people go to obtain music outside streaming, so the inference should connect the restriction to a reduced tendency to seek music through ownership or downloads."
+    },
+    {
+      "title": "Avoid unsupported outcomes",
+      "content": "Choice A claims the restriction reduced the overall number of Deezer users, but the study described visits to outside music sites, not total service membership. Choice C claims most free users upgraded to a paid version, but the passage gives no evidence about upgrades. Choice D concerns physical copies, while the data are about online sellers and download sites. The remaining choice follows from the 2% decline in visits to ownership and download sources: limiting free streaming may have suppressed, rather than increased, users' interest in owning music. The answer is <strong>B</strong>."
+    }
+  ]
+}

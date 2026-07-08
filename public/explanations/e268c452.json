@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the sequence already established",
-      "content": "The passage walks through the ebru process in order: \"First, the artisan fills a shallow tray...Next, the artisan adds inks or paints...\" The blank introduces the action that completes the procedure (slipping paper in and out to transfer the design)."
+      "title": "Follow the process order",
+      "content": "The passage describes ebru as a sequence: first the tray is filled, next inks or paints are added, and then paper is slipped through the liquid to transfer the design."
     },
     {
-      "title": "Decide what the transition must do",
-      "content": "Because First and Next have already been used, the blank needs a word that signals the last step in a stepwise procedure, not contrast, cause, or correction."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>\"Actually,\"</strong>: signals correction of a prior statement; nothing earlier is being corrected. &#10007;</li><li><strong>\"Therefore,\"</strong>: signals cause-and-effect, but slipping paper through the bath is the next step, not a logical consequence. &#10007;</li><li><strong>\"Nevertheless,\"</strong>: signals contrast with the prior idea, and there is no opposing idea here. &#10007;</li><li><strong>\"Finally,\"</strong>: signals the concluding step in a sequence, matching the First/Next pattern. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Signal the last step",
+      "content": "A would signal correction, B would signal a consequence, and C would signal contrast. The needed transition marks the final step in the procedure after \"First\" and \"Next.\" The answer is <strong>D</strong>."
     }
   ]
 }

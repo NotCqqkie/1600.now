@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the defining contrast",
-      "content": "The passage sets up two approaches with advantages, then uses “But” to reveal a key limitation: when results contradict, it exposes that each approach can fail to account for relevant factors affecting the animals' behavior."
+      "title": "Track the passage structure",
+      "content": "The text first explains that both wild and lab studies have advantages: normal behavior is easier to presume in the wild, while factors are easier to control in the lab. It then adds that conflicting results show one or both methods may have missed a relevant factor."
     },
     {
-      "title": "Select the answer matching this logic",
-      "content": "The correct answer describes both approaches as viable (each can be <strong>effectively studied</strong>) while acknowledging that both have <strong>drawbacks that could affect the accuracy of the findings</strong> — exactly mirroring the passage's structure of advantages followed by a crucial “But” exposing limitations.<br/><br/>The other choices either rank one method as superior, claim conflicts are inevitable, or overstate that both studies definitely had flaws rather than the passage's more cautious <strong>one or both</strong>.<br/><br/>That is the correct answer."
+      "title": "State the balanced main idea",
+      "content": "Choice A ranks wild studies above lab studies, which the text does not do. Choice B says conflicts are likely and unresolvable, going beyond the text. Choice D says both studies must be flawed, but the text says one or both. The balanced point is that both approaches work but have drawbacks. The answer is <strong>C</strong>."
     }
   ]
 }

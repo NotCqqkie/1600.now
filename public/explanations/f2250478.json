@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the unexpected finding",
-      "content": "The passage establishes that social animals with parental care show innate face preference in newborns. But tortoises are solitary and don't care for young—yet their hatchlings also showed significant preference for face-like stimuli."
+      "title": "Use the tortoise finding",
+      "content": "The passage starts with social animals that care for their young, then adds a surprising result: solitary <em>Testudo</em> tortoise hatchlings, which receive no parental care, still preferred face-like images. That means face preference is not limited to social species with parental care."
     },
     {
-      "title": "Apply the finding to the choices",
-      "content": "If the trait appeared only in social/parental species, you'd assume it evolved specifically for those functions. But tortoises are solitary with no parental care, yet their hatchlings show the same innate preference—so the trait cannot necessarily be explained as an adaptation for social interaction or parental care. researchers should not assume that an innate attraction to face-like stimuli is necessarily an adaptation related to social interaction or parental care. captures this: researchers should not assume the attraction is necessarily linked to those functions.<br/><br/>The other choices either contradict the evidence (A wrongly predicts solitary newborns find it threatening; D addresses untested adult comparisons) or reverse the innate/learned distinction the evidence supports.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Rule out unsupported claims",
+      "content": "A contradicts the preference shown by tortoise hatchlings, since they did not treat the image as threatening. C wrongly turns an innate attraction into a learned one. D compares hatchlings with adults, but adult tortoises were not tested. The supported conclusion is that researchers should not automatically connect the trait to social interaction or parental care. The answer is <strong>B</strong>."
     }
   ]
 }

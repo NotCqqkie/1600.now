@@ -1,0 +1,15 @@
+{
+  "questionId": "b3ddd990",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate complete clauses",
+      "content": "The sentence contrasts two complete ideas: many of Euclid's works are lost, and his <em>Elements</em> is extant. A conjunctive adverb such as conversely cannot join two independent clauses with only a comma."
+    },
+    {
+      "title": "Reject faulty punctuation",
+      "content": "Choice A creates an awkward mix of and with conversely. Choice B creates a comma splice between complete clauses. Choice D leaves conversely poorly integrated and does not cleanly separate the clauses. A period before Conversely separates the two sentences, and the comma after it correctly introduces the contrast. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2838426",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the stated fact",
+      "content": "The passage explicitly says the Hispanic Society of America is located in New York City and has more than 18,000 objects in its museum collection. A supported statement must stay within those stated details."
+    },
+    {
+      "title": "Reject contradictions and guesses",
+      "content": "B contradicts the New York City location. C contradicts the 1904 founding date. D invents a comparison about visitor numbers that the passage never provides. The remaining statement repeats the collection size given in the text. The answer is <strong>A</strong>."
+    }
+  ]
+}

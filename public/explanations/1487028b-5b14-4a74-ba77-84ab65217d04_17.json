@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause boundary",
-      "content": "Before the blank: \"a complex network of radiating veins that provide structural <strong>support</strong>\" — a complete independent clause. After: \"<strong>... in thickness from the center to the edges, these veins allow...</strong>\" — another independent clause with its own subject (\"these veins\")."
+      "title": "Find the sentence boundary",
+      "content": "The first clause ends after the veins provide structural support. The next clause begins with a modifying phrase, then uses 'these veins' as its subject and 'allow' as its verb."
     },
     {
-      "title": "Apply the rule",
-      "content": "Two ICs require a period (or semicolon). The participle \"Decreasing in thickness...\" then opens a participial phrase modifying \"these veins.\"<br/><br/><strong>Choice A &mdash; support. Decreasing</strong>'s <strong>period</strong> creates that needed sentence break.<br/><br/>B is a comma splice. C's \"while decreasing\" jams two ICs together with only a comma. D drops punctuation entirely.<br/><br/>That matches <strong>Choice A &mdash; support. Decreasing</strong>."
+      "title": "Separate the clauses",
+      "content": "B fuses the structures without punctuation. C and D use commas where a full sentence break is needed. A period after 'support' correctly separates the complete thought before 'Decreasing' begins the modifier. The answer is <strong>A</strong>."
     }
   ]
 }

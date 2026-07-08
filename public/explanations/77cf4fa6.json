@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the percentage as a fraction",
-      "content": "To find how many blocks are green, we need to calculate 10% of 190. Express 10% as a fraction: $$10\\% = \\frac{10}{100} = \\frac{1}{10}$$"
+      "title": "Convert the percent",
+      "content": "$10\\%$ is the same as $\\frac{1}{10}$. So the green blocks are one tenth of all $190$ blocks."
     },
     {
-      "title": "Multiply the total by the fraction",
-      "content": "Multiply 190 by $\\frac{1}{10}$: $$190 \\times \\frac{1}{10} = \\frac{190}{10} = 19$$<br/><strong>19</strong> blocks are green."
+      "title": "Find one tenth",
+      "content": "Divide the total number of blocks by $10$.<br/>$$\\frac{190}{10}=19$$<br/>The answer is <strong>19</strong>."
     }
   ]
 }

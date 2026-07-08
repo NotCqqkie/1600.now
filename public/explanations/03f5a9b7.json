@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the defining clue in the passage",
-      "content": "The passage says the groups that heard healthy reef sounds &quot;were twice as likely as other groups to show signs of making a permanent home.&quot; The blank must describe larvae that reacted strongly and positively to environmental sound cues. The word needs to capture this stimulus-response behavior.<ul><li><strong>Choice A &mdash; responsive</strong>: means reacting readily to a stimulus &mdash; exactly what the larvae did when healthy reef sounds increased their likelihood of settling. &#10003;</li><li><strong>Choice B &mdash; inactive</strong>: means not engaging in activity, which contradicts the larvae doubling their rate of reef-building behavior. &#10007;</li><li><strong>Choice C &mdash; liked</strong>: describes being regarded with pleasure by others &mdash; not a logical description of a group's reaction to sound. &#10007;</li><li><strong>Choice D &mdash; distressed</strong>: means experiencing difficulty or decline, which contradicts the positive outcome of increased settling behavior. &#10007;</li></ul>"
+      "title": "Use the behavior clue",
+      "content": "The larvae that heard healthy reef sounds were twice as likely to show signs of making a permanent home. The blank needs a word for reacting readily to a stimulus."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only &quot;responsive&quot; logically describes larvae that reacted to a sound stimulus by significantly increasing a specific behavior. That matches <strong>Choice A &mdash; responsive</strong>."
+      "title": "Reject contradictions",
+      "content": "B contradicts the increased settling behavior. C describes being liked by others, not reacting to sound. D suggests harm or distress, but the passage presents the reef sounds as encouraging settlement. The answer is <strong>A</strong>."
     }
   ]
 }

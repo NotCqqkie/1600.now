@@ -1,0 +1,15 @@
+{
+  "questionId": "62e6cbb5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify compound growth",
+      "content": "The value increases by $2\\%$ of the previous year's value, so this is exponential growth. The growth factor is<br/>$$1+0.02=1.02$$"
+    },
+    {
+      "title": "Build the value function",
+      "content": "Start with the purchase value $180$ and multiply by $1.02$ once for each year $t$.<br/>$$V(t)=180(1.02)^t$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

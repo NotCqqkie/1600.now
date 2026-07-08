@@ -1,0 +1,15 @@
+{
+  "questionId": "d926df4e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the height to zero",
+      "content": "An $x$-intercept occurs where $y=0$. For $y=f(x)+5$, solve\n\n$$f(x)+5=0$$\n\nUsing $f(x)=4d(24x+25)+15$, this becomes\n\n$$4d(24x+25)+20=0$$"
+    },
+    {
+      "title": "Solve for the intercept",
+      "content": "Expand the expression first, then move the constant terms to the other side. Since $d$ is nonzero, division by $96d$ is allowed, so the result gives the actual $x$-coordinate of the intercept.\n\n$$96dx+100d+20=0$$\n\n$$96dx=-100d-20$$\n\n$$x=\\frac{-100d-20}{96d}$$\n\nSo the intercept is $(\\frac{-100d-20}{96d},0)$.\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

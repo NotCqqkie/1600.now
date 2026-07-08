@@ -1,0 +1,19 @@
+{
+  "questionId": "d263bed0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the margin of error",
+      "content": "A margin of error creates an interval around the estimate. The estimate is $31.86$ ounces, and the margin of error is $0.18$ ounce."
+    },
+    {
+      "title": "Compute the interval endpoints",
+      "content": "Subtract and add the margin of error:\n$$\n31.86-0.18=31.68\n$$\n$$\n31.86+0.18=32.04\n$$"
+    },
+    {
+      "title": "Interpret the interval",
+      "content": "Plausible values for the average weight of all bags are between $31.68$ ounces and $32.04$ ounces. The answer is <strong>A</strong>."
+    }
+  ]
+}

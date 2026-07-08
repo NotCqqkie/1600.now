@@ -1,0 +1,15 @@
+{
+  "questionId": "26180942",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use size and consumption",
+      "content": "The text says the pygmy right whale can weigh up to 3,500 kg, while the blue whale can weigh 150,000 kg and consume as much as 45,000 kg of krill per day. That comparison supports an inference about the blue whale's greater daily krill consumption."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "<ul><li><strong>Choice A</strong>: The passage never says blue whales make food scarce for pygmy right whales.</li><li><strong>Choice B</strong>: The 45,000 kg figure is given for blue whales, not both species.</li><li><strong>Choice C</strong>: The passage says pygmy right whales feed on krill, not that they are less likely to do so.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

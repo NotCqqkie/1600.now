@@ -1,0 +1,15 @@
+{
+  "questionId": "a9557454",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Collect the x terms",
+      "content": "Move the variable terms to one side and constants to the other.<br/>$$6x+4=rx+9$$<br/>$$6x-rx=9-4$$<br/>$$(6-r)x=5$$"
+    },
+    {
+      "title": "Create no solution",
+      "content": "For no solution, the coefficient of $x$ must be $0$, leaving the false statement $0=5$.<br/>$$6-r=0$$<br/>$$r=6$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

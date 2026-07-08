@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Use the immediate context",
-      "content": "The speaker calls summer &quot;a time of pause,\nA void and silent space between two worlds,\nWhen inspiration lags, and feeling sleeps,\nGathering strength for efforts yet to come.&quot; &quot;A void&quot; is paired with &quot;silent space&quot; and described as a pause where inspiration and feeling are absent &mdash; the dominant idea is emptiness."
+      "title": "Use the surrounding images",
+      "content": "The speaker calls summer a pause and a silent space where inspiration lags and feeling sleeps. In that context, <em>a void</em> describes an empty or vacant interval between more active periods."
     },
     {
-      "title": "Test the synonym",
-      "content": "Substitute each choice into &quot;a ____ and silent space between two worlds.&quot; The right word should mean &quot;empty/vacant&quot; to match &quot;silent space&quot; and the absence of inspiration and feeling."
-    },
-    {
-      "title": "Eliminate by misread",
-      "content": "<ul><li><strong>Choice A &mdash; A useless</strong>: the speaker says the pause involves &quot;Gathering strength for efforts yet to come.&quot; Thus, the interval is purposeful, not useless. &#10007;</li><li><strong>Choice B &mdash; An empty</strong>: &quot;an empty and silent space&quot; matches the pairing exactly &mdash; a vacancy where inspiration and feeling are absent. &#10003;</li><li><strong>Choice C &mdash; A forgotten</strong>: nothing in the text says the interval has been overlooked or unremembered; this idea is not in the passage. &#10007;</li><li><strong>Choice D &mdash; An incomplete</strong>: the speaker isn't describing something half-finished; the space is a full, defined pause between two worlds. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject mismatched meanings",
+      "content": "A does not fit because the pause helps gather strength for future efforts. C adds memory, which the poem does not discuss. D suggests incompleteness, but the line describes vacancy rather than an unfinished state. The phrase most nearly means empty. The answer is <strong>B</strong>."
     }
   ]
 }

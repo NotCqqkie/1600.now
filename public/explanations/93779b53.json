@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read activity 3",
-      "content": "On the bar graph, find activity $3$ on the horizontal axis and read the height of its bar."
+      "title": "Read activity three",
+      "content": "Find activity $3$ on the horizontal axis of the bar graph. Its bar height is between $35$ and $40$ students."
     },
     {
-      "title": "Use the closest listed value",
-      "content": "The bar for activity $3$ is just below $40$ students, so the matching value is $39$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>B</strong> is $39$, so <strong>B</strong> is correct."
+      "title": "Choose the listed count",
+      "content": "Among the choices, the only value between $35$ and $40$ is $39$. The answer is <strong>B</strong>."
     }
   ]
 }

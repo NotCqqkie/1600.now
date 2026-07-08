@@ -1,0 +1,19 @@
+{
+  "questionId": "bfd80d04",
+  "correctAnswer": "18.1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the cropland contribution",
+      "content": "Cropland is $56.0\\%$ of the property, and buildings are on $22.5\\%$ of the cropland:\n$$\n0.560(22.5)=12.6\n$$\nSo cropland contributes $12.6\\%$ of the whole property with buildings."
+    },
+    {
+      "title": "Find the meadow contribution",
+      "content": "The meadow covers $100\\%-56.0\\%=44.0\\%$ of the property. Its building share of the whole property is\n$$\n0.440(12.5)=5.5\n$$"
+    },
+    {
+      "title": "Add the contributions",
+      "content": "Add the two whole-property percentages:\n$$\np=12.6+5.5=18.1\n$$\nThe answer is <strong>18.1</strong>."
+    }
+  ]
+}

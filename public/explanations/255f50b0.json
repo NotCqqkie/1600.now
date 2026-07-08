@@ -1,0 +1,19 @@
+{
+  "questionId": "255f50b0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the input",
+      "content": "The function $f(t)$ gives the amount of money in the account $t$ years after the initial deposit. Therefore, $f(4)$ is the account amount after $4$ years."
+    },
+    {
+      "title": "Interpret the output",
+      "content": "The statement says $f(4)$ is approximately $7{,}038.57$. That means the amount in the account after $4$ years is about $7{,}038.57$. It is the total balance, not the amount of increase."
+    },
+    {
+      "title": "Choose the interpretation",
+      "content": "Choice B describes a repeated increase every $4$ years. Choice C describes an increase by $7{,}038.57$. Choice D describes a decrease. Choice A states the account amount after $4$ years. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the median in each set",
-      "content": "Set A has $21$ values, so the median is the $11\\text{th}$ value when sorted. The errant data value $19$ is the largest count and sits above the middle of the distribution."
+      "title": "Locate the first median",
+      "content": "Data set A has $21$ values, so its median is the $11\\text{th}$ value when the data are ordered."
     },
     {
-      "title": "Compare after removing the 19",
-      "content": "Set B has $20$ values, so its median is the average of the $10\\text{th}$ and $11\\text{th}$ values.<br/><br/>Because the removed $19$ is above the median position, the $10\\text{th}$ and $11\\text{th}$ values of set A are unchanged in set B, and they are equal — making the median of B equal to the median of A.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Remove the high value",
+      "content": "The value $19$ is above the middle of the ordered list. Removing it leaves the middle of the remaining $20$ values at the average of the original $10\\text{th}$ and $11\\text{th}$ values."
+    },
+    {
+      "title": "Compare the medians",
+      "content": "From the table, those two middle values make the same median as data set A, so removing the high erroneous value does not change the median.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

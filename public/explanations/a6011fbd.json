@@ -1,0 +1,15 @@
+{
+  "questionId": "a6011fbd",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the time as input",
+      "content": "The variable $x$ is the number of minutes after the helicopter begins to descend, so use $x=4$."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $4$ into the function.<br/>$$f(4)=-35(4)+270$$<br/>$$f(4)=-140+270$$<br/>$$f(4)=130$$The answer is <strong>A</strong>."
+    }
+  ]
+}

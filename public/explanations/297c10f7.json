@@ -1,0 +1,19 @@
+{
+  "questionId": "297c10f7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on overall travel time",
+      "content": "Rao claims that eliminating left turns at busy urban intersections would improve traffic flow and reduce overall travel times, even if some drivers had to travel slightly farther. Strong support should therefore show better real-world travel performance after left turns were eliminated."
+    },
+    {
+      "title": "Reject mismatched findings",
+      "content": "Choice B concerns installing left-turn signals, not eliminating left turns. Choice C compares waiting times at intersections with and without left-turn signals, but it does not test a left-turn ban or total travel time. Choice D says school bus routes took longer after restrictions, which would weaken Rao's claim."
+    },
+    {
+      "title": "Use the supportive result",
+      "content": "The remaining finding says that after a city eliminated left turns at busy intersections, delivery drivers reached more addresses per day and delivered more packages annually. Reaching more destinations in the same workday supports improved traffic flow and shorter overall travel time. The answer is <strong>A</strong>."
+    }
+  ]
+}

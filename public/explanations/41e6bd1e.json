@@ -1,0 +1,19 @@
+{
+  "questionId": "41e6bd1e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square both sides",
+      "content": "Start with the equation and square both sides:<br/>$$r=\\sqrt{6w-4}$$<br/>$$r^2=6w-4$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Add $4$ and divide by $6$:<br/>$$r^2+4=6w$$<br/>$$w=\\frac{r^2+4}{6}$$"
+    },
+    {
+      "title": "Rewrite the expression",
+      "content": "Split the fraction:<br/>$$w=\\frac{r^2}{6}+\\frac{4}{6}=\\frac{r^2}{6}+\\frac{2}{3}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

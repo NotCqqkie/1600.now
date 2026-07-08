@@ -1,0 +1,19 @@
+{
+  "questionId": "1e3a82d3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the OFT explanation",
+      "content": "The passage says optimal foraging theory explains cost-benefit trade-offs that vary by species and ecological circumstances. It then presents two species responding differently to lunar intensity."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice A says OFT favors benefits over costs, which the text does not say. Choice C suggests some species ignore trade-offs. Choice D treats species variation as a weakness, though the text says OFT explains it."
+    },
+    {
+      "title": "Account for species differences",
+      "content": "Choice B follows directly: OFT can explain why different species respond differently to the same ecological circumstance, such as lunar intensity. The answer is <strong>B</strong>."
+    }
+  ]
+}

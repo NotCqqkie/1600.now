@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what evidence would support the claim",
-      "content": "The passage establishes that larger rotor diameter produces more energy.<br/><br/>The student claims energy per newly installed turbine <em>increased</em> between 2011 and 2021.<br/><br/>To support this, we need evidence showing turbines became substantially <strong>larger on average</strong> over the decade—a shift from smaller to larger sizes in the distribution."
+      "title": "Connect size to energy",
+      "content": "The passage states that larger rotor diameter means greater energy generation, all else equal. To support the student's claim, the graph data must show a broad shift from smaller newly installed turbines in 2011 to larger newly installed turbines in 2021."
     },
     {
-      "title": "Match the distribution shift to the choices",
-      "content": "The matching choice shows exactly this pattern: in 2011, most turbines were less than 100 meters, but by 2021, most turbines had rotor diameters of at least 115 meters.<br/><br/>This shift toward larger turbines directly supports the claim that energy per turbine increased, since bigger rotors generate more energy.<br/><br/>The other choices either describe only one year (B), misread the 2021 data by claiming a majority had diameters greater than 130 meters when only ~20% did (C), or show the > 130 meter category fluctuating rather than consistently growing (A). <br/><br/><strong>D</strong> is correct."
+      "title": "Choose the broad shift",
+      "content": "A claims the largest category increased every year, which the graph does not show. B describes only 2011, so it cannot prove an increase over time. C overstates the 2021 share above 130 meters. The comparison from mostly under 100 meters to mostly at least 115 meters supports the claim. The answer is <strong>D</strong>."
     }
   ]
 }

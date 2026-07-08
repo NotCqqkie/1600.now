@@ -1,0 +1,15 @@
+{
+  "questionId": "593f43ad",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect need to response",
+      "content": "The first sentence says rising demand for region-specific cheeses created a need to verify authenticity claims. The next sentence explains that the European Union created DOP status to certify local tradition."
+    },
+    {
+      "title": "Choose the causal transition",
+      "content": "Choice A and Choice D signal contrast, but the EU action responds to the need. Choice C signals restatement, but DOP status is a solution rather than a rewording of the problem. The transition must show that the verification need caused the label to be established. The answer is <strong>B</strong>."
+    }
+  ]
+}

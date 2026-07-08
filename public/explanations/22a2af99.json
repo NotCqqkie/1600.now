@@ -1,0 +1,19 @@
+{
+  "questionId": "22a2af99",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the final-depth pressure",
+      "content": "After descending $d$ additional meters from depth $h$, the final depth is $h+d$. Substitute that into the pressure model.<br/>$$P_2=10(h+d)+101=10h+10d+101$$"
+    },
+    {
+      "title": "Compare the two formulas",
+      "content": "The problem also gives<br/>$$P_2=10d+331$$<br/>So the constant part must match the starting-depth pressure.<br/>$$10h+101=331$$"
+    },
+    {
+      "title": "Interpret the constant",
+      "content": "The expression $10h+101$ is the total pressure at the diver's original depth, just before descending the additional $d$ meters. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "Text-completion/illustrate-the-claim question. The claim is that Marianne can persuade others of the rightness of her artistic judgments. The correct quotation must show her actively convincing someone (Willoughby) to accept her views on art."
+      "title": "Target persuasion evidence",
+      "content": "The claim is that Marianne can persuade others that her artistic judgments are right. The strongest quotation must show her overcoming disagreement, not merely sharing interests or enjoying conversation."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; \"Above all, when she heard him declare, that of music and dancing he was passionately fond, she gave him such a look of approbation as secured the largest share of his discourse to herself for the rest of his stay.\"</strong>: shows Marianne approving of Willoughby's existing taste and steering conversation toward herself; it does not depict her persuading him of an artistic judgment. &#10007;</li><li><strong>Choice B &mdash; \"Their taste was strikingly alike. The same books, the same passages were idolized by each—or if any difference appeared, any objection arose, it lasted no longer than till the force of her arguments and the brightness of her eyes could be displayed.\"</strong>: explicitly shows Marianne overcoming Willoughby's objections through &quot;the force of her arguments&quot; &mdash; the very persuasion the claim describes. &#10003;</li><li><strong>Choice C &mdash; \"It was only necessary to mention any favourite amusement to engage her to talk. She could not be silent when such points were introduced, and she had neither shyness nor reserve in their discussion.\"</strong>: characterizes her willingness to discuss favorite topics, not her ability to win others over to her judgments. &#10007;</li><li><strong>Choice D &mdash; \"They speedily discovered that their enjoyment of dancing and music was mutual, and that it arose from a general conformity of judgment in all that related to either. Encouraged by this to a further examination of his opinions, she proceeded to question him on the subject of books.\"</strong>: describes pre-existing agreement between the two, not Marianne persuading anyone of anything. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject shared-interest quotes",
+      "content": "Choice A shows Marianne approving Willoughby's existing interest in music and dancing and gaining his attention. Choice C shows she speaks freely about favorite amusements. Choice D shows mutual agreement about dancing and music before books are discussed. These details show interest or similarity, not persuasion."
+    },
+    {
+      "title": "Match the arguments phrase",
+      "content": "The remaining quotation says any difference or objection lasted only until Marianne's arguments could be displayed. That wording shows her actively overcoming Willoughby's objections about artistic judgments, which is the claim the quotation must illustrate. The answer is <strong>B</strong>."
     }
   ]
 }

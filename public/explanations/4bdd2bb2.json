@@ -1,0 +1,19 @@
+{
+  "questionId": "4bdd2bb2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect skill to reception",
+      "content": "The final phrase says Cunningham's works were received as groundbreaking artworks. The blank must name a quality that explains that reception, not just another biographical fact."
+    },
+    {
+      "title": "Reject weak connections",
+      "content": "<ul><li><strong>Choice B</strong> gives a career fact but does not explain why the dance pieces were viewed as art.</li><li><strong>Choice C</strong> mentions founding a company, which does not logically lead to that reception.</li><li><strong>Choice D</strong> uses contrast where the passage needs support.</li></ul>"
+    },
+    {
+      "title": "Add the artistic reason",
+      "content": "Saying that Cunningham incorporated his principles with great skill and artistry explains why the work was seen as more than experimental spectacle. The answer is <strong>A</strong>."
+    }
+  ]
+}

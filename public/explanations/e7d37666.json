@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context / vocabulary question. The frame &ldquo;It is by no means ______&rdquo; negates whatever word fills the blank, and &ldquo;indeed, Farhadi himself cites Bruegel as an inspiration&rdquo; confirms that recognizing Bruegel&rsquo;s influence is clearly and genuinely warranted. The blank needs a word that, when negated by &ldquo;by no means,&rdquo; produces the meaning &ldquo;definitely worth recognizing.&rdquo;"
+      "title": "Use the negating phrase",
+      "content": "The phrase by no means negates the word in the blank. Since Farhadi himself cites Bruegel as an inspiration, recognizing Bruegel's influence is clearly worth doing."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"substantial\"</strong>: &ldquo;By no means substantial&rdquo; means the recognition is not meaningful or weighty &mdash; the opposite of what the passage supports. &#10007;</li><li><strong>\"satisfying\"</strong>: &ldquo;By no means satisfying&rdquo; means the recognition is not pleasing &mdash; irrelevant to whether the influence is real, and contradicted by Farhadi&rsquo;s own confirmation. &#10007;</li><li><strong>\"unimportant\"</strong>: &ldquo;By no means unimportant&rdquo; means the recognition is definitely important &mdash; consistent with the artist himself citing Bruegel and with &ldquo;indeed&rdquo; reinforcing the certainty. &#10003;</li><li><strong>\"appropriate\"</strong>: &ldquo;By no means appropriate&rdquo; means the recognition is not proper or suitable &mdash; again the opposite of what the passage establishes. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Test the negated meanings",
+      "content": "Choice A would mean the recognition is not substantial. Choice B would mean it is not satisfying. Choice D would mean it is not appropriate. The intended meaning is that the recognition is definitely important. The answer is <strong>C</strong>."
     }
   ]
 }

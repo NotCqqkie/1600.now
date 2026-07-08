@@ -1,0 +1,15 @@
+{
+  "questionId": "deb752c3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the expressions",
+      "content": "The target expression is $7$ times the given expression:<br/>$$63x=7(9x)$$"
+    },
+    {
+      "title": "Scale the known value",
+      "content": "Since $9x=11$, substitute $11$ for $9x$:<br/>$$63x=7(11)=77$$The answer is <strong>C</strong>."
+    }
+  ]
+}

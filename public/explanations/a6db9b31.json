@@ -1,0 +1,15 @@
+{
+  "questionId": "a6db9b31",
+  "correctAnswer": "42",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, so $x=0$."
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "Substitute $x=0$ into $y=x^2+42$.\n$$y=0^2+42=42$$\nThe answer is <strong>42</strong>."
+    }
+  ]
+}

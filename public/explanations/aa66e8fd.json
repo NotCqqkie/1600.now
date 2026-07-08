@@ -1,0 +1,19 @@
+{
+  "questionId": "aa66e8fd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the boundary",
+      "content": "The sentence contains two independent clauses: Ritchie's team collected arthropods with one method, and Boyer's team gathered them with bug vacuums. The blank must name the first method and punctuate the boundary between those two complete clauses."
+    },
+    {
+      "title": "Place the example phrase",
+      "content": "The phrase \"for instance\" belongs with \"sweep nets\" because sweep nets are an example of a collection method. A correctly sets off that phrase with a comma after \"sweep nets\" and then uses a semicolon after \"for instance\" to join the two independent clauses."
+    },
+    {
+      "title": "Reject the other punctuation",
+      "content": "B puts the semicolon before \"for instance,\" which separates the example phrase from the collection method it explains and leaves the second clause attached awkwardly after the phrase. C uses only a comma between independent clauses. D gives no boundary punctuation between the clauses. The answer is <strong>A</strong>."
+    }
+  ]
+}

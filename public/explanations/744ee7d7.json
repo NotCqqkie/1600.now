@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Locate the boundary line",
-      "content": "The shaded region in the graph is bounded by a horizontal line at $y = 36$. A horizontal boundary tells us the inequality restricts the $y$-coordinate, not $x$."
+      "title": "Identify the boundary",
+      "content": "The boundary is a horizontal line at $y=36$. A horizontal boundary uses $y$, so choices with $x$ do not match the graph."
     },
     {
-      "title": "Determine the direction of shading",
-      "content": "The shaded region lies <em>above</em> the line $y = 36$, meaning every shaded point has a $y$-value greater than or equal to 36. Because the boundary itself is solid, equality is included."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A. $x \\le 36$ &mdash; describes a vertical boundary, but the boundary here is horizontal. Eliminated.</li><li>B. $x \\ge 36$ &mdash; also vertical-boundary; wrong variable. Eliminated.</li><li>C. $y \\le 36$ &mdash; correct variable but would shade <em>below</em> the line, not above. Eliminated.</li><li>D. $y \\ge 36$ &mdash; horizontal boundary at $y=36$ with shading above it. Matches the graph.</li></ul>That confirms <strong>D</strong> is correct.",
+      "title": "Use the shading direction",
+      "content": "The region is shaded above the boundary line. A solid boundary includes equality, so the inequality must use greater than or equal to.<br/>The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y \\ge 36"
       ]

@@ -1,0 +1,15 @@
+{
+  "questionId": "da1330fe",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the unique benefit",
+      "content": "The text says hDNA offers unique benefits, including genomic data from extirpated populations. Because those populations no longer exist in the same way, hDNA can provide information other genomic sources may not provide."
+    },
+    {
+      "title": "Reject unsupported overclaims",
+      "content": "B overgeneralizes from one pathogen study. C invents controversy as the reason hDNA is underused, while the text cites degradation. D claims hDNA is more degraded than comparable DNA, a comparison the text never makes. The answer is <strong>A</strong>."
+    }
+  ]
+}

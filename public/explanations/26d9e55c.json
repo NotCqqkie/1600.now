@@ -1,0 +1,15 @@
+{
+  "questionId": "26d9e55c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the length",
+      "content": "The width is $8$ centimeters. The length is $45$ centimeters greater than the width.\n$$8+45=53$$"
+    },
+    {
+      "title": "Compute the area",
+      "content": "Rectangle area is width times length.\n$$8\\cdot 53=424$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

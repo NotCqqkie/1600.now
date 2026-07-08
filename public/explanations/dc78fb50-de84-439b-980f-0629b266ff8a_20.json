@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "The first part — \"The sand at Vermelha Beach in Brazil is a strikingly different shade\" — is an independent clause.<br/><br/>What follows it (\"though most sand gets its shade from...quartz and feldspar, deposits of iron oxide...lend the sand...a colorful red tint\") is also an independent clause that explains <em>how</em> the shade is different."
+      "title": "Identify the explanation",
+      "content": "The first clause says Vermelha Beach has sand of a strikingly different shade. The following clause explains why: most sand gets its color from quartz and feldspar, but Vermelha Beach's sand gets a red tint from iron oxide and organic matter."
     },
     {
-      "title": "Apply the colon rule",
-      "content": "A colon can join an independent clause to a follow-up that explains or elaborates on it — exactly the relationship here.<br/><br/>shade, though most creates a comma splice, B inserts an ungrammatical comma after \"though,\" and D leaves a sentence fragment.<br/><br/>Only the colon in C correctly introduces the elaboration.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use an explanatory colon",
+      "content": "A creates a comma splice. B incorrectly interrupts <em>though most</em> with a comma. D leaves <em>Most sand gets its shade</em> disconnected from the contrast. A colon correctly introduces the explanation of the different shade. The answer is <strong>C</strong>."
     }
   ]
 }

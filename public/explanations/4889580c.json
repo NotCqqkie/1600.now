@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace the logical chain",
-      "content": "Marketplaces emerge when people want to trade for resources they don't already control. Scholars underestimated the ecological diversity of Maya lands, so they would have pictured the landscape as uniform &mdash; with regions producing largely the same resources."
+      "title": "Trace the marketplace logic",
+      "content": "Marketplaces arise when groups want resources they do not control. If scholars underestimated the ecological diversity of Maya lands, they would have pictured the regions as producing mostly similar resources, leaving little reason for agricultural trade."
     },
     {
-      "title": "Predict the assumption",
-      "content": "If every region looks ecologically similar, there is little incentive to trade because no one has access to meaningfully different goods. The blank should say marketplaces would not have given the Maya access to products different from those they already produced."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — marketplaces likely would not have attracted many traders from outside the regions controlled by the Maya.</strong>: shifts to external trade, but the passage's logic is about internal ecological variation, not outside traders. &#10007;</li><li><strong>Choice B — farming practices would have been largely the same throughout Maya lands even if the crops people produced varied significantly.</strong>: concedes significant crop variation, which would actually justify marketplaces and contradicts the assumption of uniformity. &#10007;</li><li><strong>Choice C — marketplaces would not have enabled Maya people to acquire many products different from those they already produced.</strong>: follows directly from assuming the regions were ecologically uniform &mdash; without diverse outputs, marketplaces offer nothing new. &#10003;</li><li><strong>Choice D — farmers would trade agricultural products only if they had already produced enough to meet their own needs.</strong>: addresses surplus production rather than the diversity of products available, missing the ecology-based reasoning. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject unrelated assumptions",
+      "content": "Choice A shifts to traders from outside Maya regions, not diversity within those regions. Choice B allows significant crop variation, which would support marketplaces. Choice D discusses surplus production rather than whether markets would provide different products. The needed assumption is about access to products unlike those already produced. The answer is <strong>C</strong>."
     }
   ]
 }

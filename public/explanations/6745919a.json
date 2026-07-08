@@ -1,0 +1,15 @@
+{
+  "questionId": "6745919a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Need plural possessive",
+      "content": "The properties belong to multiple nanoparticles. A regular plural noun ending in <em>s</em> forms the possessive with an apostrophe after the final <em>s</em>."
+    },
+    {
+      "title": "Reject apostrophe errors",
+      "content": "A incorrectly makes \"properties\" possessive too. B has no possessive apostrophe. D uses singular \"nanoparticle's.\" The remaining form gives the plural possessive for nanoparticles and leaves \"properties\" as a plain noun. The answer is <strong>C</strong>."
+    }
+  ]
+}

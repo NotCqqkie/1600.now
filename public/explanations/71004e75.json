@@ -1,0 +1,15 @@
+{
+  "questionId": "71004e75",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the inverse hypothesis",
+      "content": "The hypothesis says birds with a narrower field of vision while foraging should be more sensitive to neighboring species' alarm calls. <em>M. barbatus</em> forages in dense vegetation, so it should react more; <em>P. saturatus</em> forages in open areas, so it should react less."
+    },
+    {
+      "title": "Test the predicted contrast",
+      "content": "Choice A has <em>M. barbatus</em> not reacting, contrary to the prediction. Choice B does not compare the two focal species. Choice C shifts to <em>M. barbatus</em> alarm calls and has <em>P. saturatus</em> reacting. The supporting finding must show <em>P. saturatus</em> not reacting while <em>M. barbatus</em> does. That pattern clearly tests both sides of the inverse relationship at once. The answer is <strong>D</strong>."
+    }
+  ]
+}

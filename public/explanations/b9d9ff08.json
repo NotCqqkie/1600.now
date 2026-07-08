@@ -1,0 +1,23 @@
+{
+  "questionId": "b9d9ff08",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the first part",
+      "content": "The text first explains 3D vision in cats and toads. It says each animal combines two images in the brain, one from each eye, to create depth perception and judge how close or far away an object is."
+    },
+    {
+      "title": "Map the second part",
+      "content": "The text then turns to researchers studying 3D vision in praying mantises. It describes the team's use of color filters like those in 3D glasses and explains that the study confirmed mantises have 3D vision, though theirs differs from that of other animals."
+    },
+    {
+      "title": "Reject false relationships",
+      "content": "Choice A wrongly says the first part explains differences between cats and toads, but the text groups them together. Choice C says the mantis study confirms similarities, while the text says mantis 3D vision is unlike that of other animals. Choice D says the study challenges the earlier description, which it does not."
+    },
+    {
+      "title": "Choose the structure",
+      "content": "The remaining choice describes the actual organization: a discussion of 3D vision in cats and toads followed by a study of that kind of vision in praying mantises. The answer is <strong>B</strong>."
+    }
+  ]
+}

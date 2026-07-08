@@ -1,0 +1,15 @@
+{
+  "questionId": "26a47f14",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the boundary line",
+      "content": "The boundary of the shaded region is the horizontal line $y=-8$. On the boundary, the inequality becomes the equation\n$$\nry=128\n$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute $y=-8$ into the boundary equation:\n$$\nr(-8)=128\n$$\n$$\n-8r=128\n$$\n$$\nr=-16\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

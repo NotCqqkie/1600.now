@@ -1,0 +1,15 @@
+{
+  "questionId": "55318a7f",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the coefficients",
+      "content": "All three terms are like terms because they each contain $x^4$. Add only the coefficients."
+    },
+    {
+      "title": "Match the requested constant",
+      "content": "$$6x^4+8x^4-3x^4=(6+8-3)x^4$$$$6x^4+8x^4-3x^4=11x^4$$This matches $bx^4$, so $b$ is $11$. The answer is <strong>11</strong>."
+    }
+  ]
+}

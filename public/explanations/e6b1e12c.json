@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the logical relationship",
-      "content": "Sentence 1 says the shifting has been attributed to passive displacement by water currents. Sentence 2 reports that the barnacles moved toward the turtles' heads, against the prevailing flow, consistent with self-initiated locomotion. The finding contradicts the passive-displacement explanation."
+      "title": "Challenge passive displacement",
+      "content": "The first sentence says barnacle movement had been explained as passive displacement by water currents. The next sentence reports movement against the prevailing water flow, which supports self-initiated locomotion instead."
     },
     {
-      "title": "Pick a transition that signals contradiction of the explanation",
-      "content": "The blank needs a transition meaning the new finding weakens the explanation just given. \"Undermining this explanation\" fits exactly."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>\"Contrary to this phenomenon,\"</strong>: misreads what is being opposed; the research opposes the explanation for the phenomenon, not the phenomenon (the shifting) itself, which still occurs. &#10007;</li><li><strong>\"Undermining this explanation,\"</strong>: correctly signals that the new finding weakens the passive-current explanation. &#10003;</li><li><strong>\"Drawing a similar conclusion,\"</strong>: overreach in the wrong direction; the new finding reaches an opposite conclusion (active movement), not a similar one. &#10007;</li><li><strong>\"Confirming this hypothesis,\"</strong>: reverses the relationship; the finding refutes, not confirms, the passive-displacement hypothesis. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the weakening transition",
+      "content": "Choice A says the finding is contrary to the phenomenon, but the movement itself still occurs. Choice C says the finding draws a similar conclusion, when it reaches the opposite explanation. Choice D says it confirms the passive hypothesis, which is reversed. The transition should show that the new result weakens the old explanation. The answer is <strong>B</strong>."
     }
   ]
 }

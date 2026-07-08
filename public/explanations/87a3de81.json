@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "To solve $x^2 + x - 20 = 0$, factor the expression. We need two numbers that multiply to $-20$ and add to $1$. Those are $5$ and $-4$. $$x^2 + x - 20 = (x + 5)(x - 4) = 0$$"
+      "content": "Find two numbers that multiply to $-20$ and add to $1$. Those numbers are $5$ and $-4$, so:\n$$x^2+x-20=(x+5)(x-4)$$"
     },
     {
-      "title": "Find the positive solution",
-      "content": "From the factored form $(x + 5)(x - 4) = 0$, we get $x = -5$ or $x = 4$. Since $a \\gt 0$, the value of $a$ is $4$."
+      "title": "Choose the positive solution",
+      "content": "Set each factor equal to zero:\n$$(x+5)(x-4)=0$$\n$$x=-5\\quad\\text{or}\\quad x=4$$\nSince $a>0$, use the positive solution. The answer is <strong>4</strong>."
     }
   ]
 }

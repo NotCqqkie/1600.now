@@ -1,0 +1,15 @@
+{
+  "questionId": "0a576302",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the shape-color link",
+      "content": "The passage explains that melanosomes produce pigment and have different shapes depending on which colors they produce. Since scientists found melanosomes in a fossilized bird feather, the hypothesis should use their appearance to infer the bird's color."
+    },
+    {
+      "title": "Avoid unsupported extensions",
+      "content": "Choice A moves to fossils from other extinct species, which the passage does not establish. Choice C concerns why the feather was preserved, not what color it was. Choice D contradicts the method because it asks about fossils without melanosomes. The supported hypothesis uses the feather's melanosomes to determine color. The answer is <strong>B</strong>."
+    }
+  ]
+}

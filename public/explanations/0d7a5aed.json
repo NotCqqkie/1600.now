@@ -1,0 +1,19 @@
+{
+  "questionId": "0d7a5aed",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both savings amounts",
+      "content": "After $x$ weeks, Barbara has her starting $70$ dollars plus $10$ dollars for each week, so her total is $70+10x$. Maria's total is $120+5x$."
+    },
+    {
+      "title": "Set the amounts equal",
+      "content": "Their savings are equal when the two expressions represent the same dollar amount: $$70+10x=120+5x$$"
+    },
+    {
+      "title": "Find the number of weeks",
+      "content": "Subtract $5x$ from both sides and subtract $70$ from both sides: $$5x=50$$ $$x=10$$ The savings are equal after $10$ weeks. The answer is <strong>C</strong>."
+    }
+  ]
+}

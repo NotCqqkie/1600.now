@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\frac{7x-4}{3}$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Factor the numerator",
-      "content": "Both terms in the numerator share the factor $(x-6)$: $$7x(x-6)-4(x-6)=(x-6)(7x-4).$$"
+      "content": "The two numerator terms share a factor of $(x-6)$:\n$$\n7x(x-6)-4(x-6)=(x-6)(7x-4)\n$$"
     },
     {
-      "title": "Factor the denominator and cancel",
-      "content": "Factor $3$ from the denominator: $3x-18=3(x-6)$. Because $x\\gt 6$, the factor $(x-6)$ is nonzero and can be canceled: $$\\frac{(x-6)(7x-4)}{3(x-6)}=\\frac{7x-4}{3}.$$"
+      "title": "Factor the denominator",
+      "content": "The denominator also contains a factor of $(x-6)$:\n$$\n3x-18=3(x-6)\n$$\nBecause $x>6$, this factor is not $0$, so canceling it is allowed."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $\\frac{x-6}{3}$ &mdash; keeps the canceled factor instead of the remaining $7x-4$ factor. Eliminated.</li><li>B) $\\frac{7x-4}{3}$ &mdash; matches the simplified expression.</li><li>C) $\\frac{7x^{2}-4x-18}{3x-18}$ &mdash; equals $\\frac{x(7x-4)-18}{3(x-6)}$, which does not equal the original. Eliminated.</li><li>D) $\\frac{7x^{2}-4x-66}{3x-18}$ &mdash; $7x^{2}-4x-66$ is not divisible by $(x-6)$: plugging in $x=6$ gives $7(36)-4(6)-66=252-24-66=162\\neq 0$, so it cannot simplify to $\\frac{7x-4}{3}$. Eliminated.</li></ul><strong>B</strong> is correct."
+      "title": "Cancel the common factor",
+      "content": "Cancel the common nonzero factor $(x-6)$:\n$$\n\\frac{(x-6)(7x-4)}{3(x-6)}=\\frac{7x-4}{3}\n$$\nChoices that keep $(x-6)$ or expand incorrectly do not match this simplified expression. The answer is <strong>B</strong>."
     }
   ]
 }

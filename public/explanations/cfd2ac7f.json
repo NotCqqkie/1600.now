@@ -1,0 +1,19 @@
+{
+  "questionId": "cfd2ac7f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the reference",
+      "content": "The phrase “This relative scarcity” points back to the previous sentence: plant-based artifacts are seldom studied because they are perishable. That scarcity makes well-preserved organic artifacts especially notable."
+    },
+    {
+      "title": "Eliminate wrong references",
+      "content": "Choice A invents an unfulfilled research goal. Choice B makes the phrase about uncertainty, not scarcity. Choice C says it distinguishes artifact types, but the phrase refers to the rarity of plant-based artifacts."
+    },
+    {
+      "title": "Identify the difficulty",
+      "content": "The referenced scarcity is a challenging situation for researchers, since perishable plant-based artifacts are rarely available for study. The answer is <strong>D</strong>."
+    }
+  ]
+}

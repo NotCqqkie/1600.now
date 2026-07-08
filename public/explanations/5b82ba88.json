@@ -1,0 +1,15 @@
+{
+  "questionId": "5b82ba88",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared claim",
+      "content": "Text 1 says O'odham farmers sometimes plant tepary beans with organ pipe cacti so the cacti provide shade. That shade protects the beans from harsh heat and light and helps preserve soil moisture. Text 2 repeats the same basic point when it describes O'odham farmers strategically planting tepary beans in the shade of sun-hardy species like organ pipe cacti for protection from sun and heat."
+    },
+    {
+      "title": "Reject unsupported points",
+      "content": "Choice A states the agreement between the two texts: organ pipe cacti can shade tepary beans and protect them from intense heat and light. Choice B makes an unsupported comparison between Ramos's approach and the O'odham approach. Choice C reverses the shade relationship by saying organ pipe cacti grow best in shade and tepary beans do not require it. Choice D speculates about refining the solar-panel method. The answer is <strong>A</strong>."
+    }
+  ]
+}

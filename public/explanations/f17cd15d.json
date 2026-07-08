@@ -1,0 +1,15 @@
+{
+  "questionId": "f17cd15d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the naming question",
+      "content": "The student wants to explain whom the award is named for. The relevant note says the A.M. Turing Award is named after groundbreaking British mathematician Alan Turing."
+    },
+    {
+      "title": "Ignore purpose and recipient details",
+      "content": "A explains what the award honors, not its namesake. C and D discuss Frances E. Allen's 2006 award, which does not answer the naming question. The sentence that names Alan Turing directly fulfills the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

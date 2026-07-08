@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the center and a point on the circle",
-      "content": "A circle with center $(-3,7)$ has equation $(x+3)^2+(y-7)^2=r^2$. Use the given point $(-9,15)$ to find $r^2$."
+      "title": "Write the center form",
+      "content": "A circle with center $(h,k)$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>With center $(-3,7)$, this becomes<br/>$$(x+3)^2+(y-7)^2=r^2$$"
     },
     {
-      "title": "Write the standard form with the center",
-      "content": "A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$. With center $(-3,7)$:<br/>$$(x-(-3))^2 + (y-7)^2 = r^2 \\;\\Rightarrow\\; (x+3)^2 + (y-7)^2 = r^2$$"
+      "title": "Find the radius value",
+      "content": "Use the point $(-9,15)$ on the circle to find $r^2$.<br/>$$r^2=(-9+3)^2+(15-7)^2$$<br/>$$r^2=(-6)^2+8^2=36+64=100$$"
     },
     {
-      "title": "Find r^2 using the given point",
-      "content": "The point $(-9,15)$ lies on the circle, so:<br/>$$(-9+3)^2 + (15-7)^2 = (-6)^2 + 8^2 = 36 + 64 = 100$$<br/>So $r^2 = 100$, giving $(x+3)^2 + (y-7)^2 = 100$."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $(x-3)^2 + (y+7)^2 = 10$ - wrong center signs and $r^2 = 10$. Wrong.</li><li><strong>B)</strong> $(x+3)^2 + (y-7)^2 = 10$ - correct center but $r^2 = 10$ instead of 100. Wrong.</li><li><strong>C)</strong> $(x-3)^2 + (y+7)^2 = 100$ - correct $r^2 = 100$ but center signs are flipped, giving center $(3,-7)$. Wrong.</li><li><strong>D)</strong> $(x+3)^2 + (y-7)^2 = 100$ - correct center $(-3,7)$ and $r^2 = 100$. Correct.</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Complete the equation",
+      "content": "Substitute $r^2=100$ into the circle equation.<br/>$$(x+3)^2+(y-7)^2=100$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must supply",
-      "content": "The sentence is: <em>The collection ______ 18 plays that might otherwise have been lost...</em> The subject <strong>The collection</strong> is singular. The blank is the main verb of the sentence, so it must be a finite (tensed) verb that agrees with a singular subject &mdash; not an infinitive or participle, which cannot function as a main verb."
+      "title": "Supply the main verb",
+      "content": "The subject is \"The collection,\" and the sentence needs a finite main verb to state what the First Folio collection does. A participle or infinitive cannot serve as the main verb here."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;to be including&rsquo;</strong>: A to-infinitive cannot serve as a main verb; the sentence would have no finite verb. &#10007;</li><li><strong>Choice B &mdash; &lsquo;including&rsquo;</strong>: A present participle cannot serve as a main verb without an auxiliary; the sentence would be a fragment. &#10007;</li><li><strong>Choice C &mdash; &lsquo;to include&rsquo;</strong>: Another to-infinitive &mdash; same problem as A, no finite verb. &#10007;</li><li><strong>Choice D &mdash; &lsquo;includes&rsquo;</strong>: Third-person singular present tense &mdash; a proper finite verb that agrees with the singular subject &ldquo;The collection.&rdquo; &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Match singular agreement",
+      "content": "Choice A and Choice C are infinitive forms, so they leave the sentence without a finite verb. Choice B is a participle and also creates a fragment. The singular subject needs the present-tense verb \"includes.\" The answer is <strong>D</strong>."
     }
   ]
 }

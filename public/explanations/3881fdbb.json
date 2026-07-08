@@ -1,0 +1,15 @@
+{
+  "questionId": "3881fdbb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use experiential relevance",
+      "content": "The passage says doctors' credentials were not ignored, but participants valued experiential relevance more. Former trial volunteers had gone through the experience that participants were considering, while doctors had credentialed expertise without that same firsthand role. The blank must therefore explain why firsthand trial experience mattered more to participants than professional authority."
+    },
+    {
+      "title": "Reject unsupported causes",
+      "content": "Choice A shifts to participants' ability to evaluate messages, but the passage never says they lacked that ability. Choice B invents a difference in how positive the messages were. Choice C incorrectly says participants were skeptical of doctors' credentials, even though the passage says credentials were outweighed rather than dismissed. The remaining choice states that volunteers shared the contemplated experience while doctors did not, so it matches the passage's explanation. The answer is <strong>D</strong>."
+    }
+  ]
+}

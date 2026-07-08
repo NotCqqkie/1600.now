@@ -1,0 +1,15 @@
+{
+  "questionId": "0016c189",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the title directly",
+      "content": "The sentence refers to a specific novel, <em>Mexican Gothic</em>. Because the title identifies which novel is meant, it functions restrictively after \"novel\" and should not be separated from that noun by punctuation."
+    },
+    {
+      "title": "Reject added punctuation",
+      "content": "Choice B uses a colon, which would introduce an explanation or list rather than attach a title. Choice C uses a comma, incorrectly treating the title as extra nonrestrictive information. Choice D opens a parenthesis without closing it, making the sentence incomplete. The answer is <strong>A</strong>."
+    }
+  ]
+}

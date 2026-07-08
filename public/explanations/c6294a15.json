@@ -1,0 +1,15 @@
+{
+  "questionId": "c6294a15",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the steel types",
+      "content": "Cooking utensils use ferritic stainless steel, which has a higher chromium percentage than austenitic stainless steel. Washing machines use the 200 series of austenitic stainless steel. The conclusion should compare uses by first tracing each manufactured item back to the steel family named in the passage."
+    },
+    {
+      "title": "Infer the chromium comparison",
+      "content": "A gives cooking utensils the structure of austenitic steel. B invents a chromium distinction between two austenitic subtypes. D gives sinks, which use 300 series austenitic steel, ferritic-style magnetic properties. The direct inference compares washing machines with cooking utensils. The answer is <strong>C</strong>."
+    }
+  ]
+}

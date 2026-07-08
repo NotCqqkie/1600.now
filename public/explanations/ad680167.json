@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Main Idea question. The passage covers three elements: (1) ceramic bowls recovered from a shipwreck, (2) a portable X-ray fluorescence analyzer that reads chemical signatures without damage, and (3) comparing those signatures to kiln-site materials to identify which kilns made the bowls. The main idea must capture all three elements together."
+      "title": "Find the central action",
+      "content": "The text describes bowls recovered from a shipwreck, a tool that identifies their chemical makeup without damage, and a comparison with old kiln materials. The point is that researchers can identify which kilns likely made the bowls."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Because of a new technology, researchers can locate and recover more shipwrecks than they could in the past.</strong>: The tool was used to analyze bowls already recovered from a known shipwreck, not to locate or recover shipwrecks. &#10007;</li><li><strong>Choice B &mdash; Researchers have been able to identify the location of a number of Chinese kilns in operation 1,000 years ago.</strong>: The researchers compared bowls to materials from kiln sites whose locations were already known; they identified which kilns produced the bowls, not where the kilns are. &#10007;</li><li><strong>Choice C &mdash; With the help of a special tool, researchers have determined the likely origin of bowls recovered from a shipwreck.</strong>: This accurately captures all three elements &mdash; the tool, the bowl-origin determination, and the shipwreck context. &#10003;</li><li><strong>Choice D &mdash; Before the invention of portable X-ray fluorescence, researchers needed to take a small piece out of an artifact to analyze its components.</strong>: The passage notes only that the tool works without damaging artifacts; it never compares this to pre-invention methods or makes that prior practice the main point. &#10007;</li></ul>That is the correct answer."
+      "title": "Separate details from main idea",
+      "content": "A shifts to locating shipwrecks, which the tool is not used for here. B says researchers identified kiln locations, but those sites were already known for comparison. D focuses on possible earlier methods and damage, a supporting detail rather than the main claim. The main idea is identifying the bowls' likely origin. The answer is <strong>C</strong>."
     }
   ]
 }

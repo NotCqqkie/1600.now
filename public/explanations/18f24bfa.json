@@ -1,0 +1,15 @@
+{
+  "questionId": "18f24bfa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test for a specific response",
+      "content": "Alvarez and colleagues concluded that <em>S. leucostigma</em> associates <em>T. caesius</em> alarm calls with danger because the birds froze or scattered after hearing those calls. Strong support should show that the response was specific to the alarm calls, not merely a reaction to researchers approaching, to any random sound, or to general disturbance in the area."
+    },
+    {
+      "title": "Use the control result",
+      "content": "Choice A suggests a possible confound because the birds sometimes reacted before sounds were played. Choice C concerns other bird species, not whether <em>S. leucostigma</em> recognizes these calls. Choice D shows consistent responses to different callers, but not specificity compared with other sounds. No reaction to random control sounds would show that the defensive response was tied to <em>T. caesius</em> alarm calls in particular. The answer is <strong>B</strong>."
+    }
+  ]
+}

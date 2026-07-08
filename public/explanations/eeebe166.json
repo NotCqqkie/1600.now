@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the y-intercept location",
-      "content": "The <em>y</em>-intercept is the point where the line crosses the <em>y</em>-axis. This always occurs when $x = 0$."
+      "title": "Locate the intercept",
+      "content": "The <em>y</em>-intercept is where the line crosses the <em>y</em>-axis, so it occurs when $x=0$."
     },
     {
-      "title": "Read the y-value from the graph",
-      "content": "Locate $x = 0$ on the graph (the vertical <em>y</em>-axis). The line crosses the <em>y</em>-axis at $y = 5$. Therefore, the <em>y</em>-intercept is the point $(0, 5)$.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Read the point",
+      "content": "From the graph, the line crosses the <em>y</em>-axis at $y=5$, so the intercept is $(0,5)$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the probability",
-      "content": "$P(\\text{at least }45)=\\dfrac{\\text{members aged}\\ge 45}{\\text{total members}}$. The total is $135$, the denominator for every choice."
+      "title": "Use the full member count",
+      "content": "Use all $135$ members as the denominator."
     },
     {
-      "title": "Read the count from the table",
-      "content": "Adding the rows for ages $45$ and older (north and south of Center St.) gives $110$ members. So the probability is $\\dfrac{110}{135}$.<br/><br/>That is the correct answer."
+      "title": "Count the selected members",
+      "content": "At least $45$ years old means the older age groups. Their table entries total $107$."
+    },
+    {
+      "title": "Form the probability",
+      "content": "Probability is favorable outcomes over total outcomes:\n$$\n\\frac{107}{135}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

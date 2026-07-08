@@ -1,0 +1,15 @@
+{
+  "questionId": "af605e81",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast both locations",
+      "content": "The goal is not just to mention a specimen; it is to contrast where the two specimens are housed. The notes put Mason in Boston and Elliot in Tokyo."
+    },
+    {
+      "title": "Keep both specimens in view",
+      "content": "A emphasizes a similarity, C gives only Elliot's location, and D does not identify either location. The sentence naming Boston for Mason and Tokyo for Elliot uses \"while\" to contrast their locations. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate rates and times into distances",
-      "content": "Distance = rate &times; time.<br/>Evan drives at 45 mph for e hours $\\Rightarrow$ distance = 45e miles.<br/>Maya drives at 50 mph for m hours $\\Rightarrow$ distance = 50m miles.<br/>Total distance = 45e + 50m miles."
+      "title": "Write each distance",
+      "content": "Distance equals rate times time. Evan drives for $e$ hours at $45$ miles per hour, so his distance is $45e$. Maya drives for $m$ hours at $50$ miles per hour, so her distance is $50m$."
     },
     {
-      "title": "Apply the total distance condition",
-      "content": "The problem states the total distance was <em>under</em> 310 miles, so the total must be strictly less than 310:<br/>$$45e + 50m \\lt 310$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"$45e+50m\\gt 310$\"</strong>: Uses the correct coefficients but the wrong inequality direction &mdash; this would mean the total exceeds 310 miles. &#10007;</li><li><strong>\"$45e+50m\\lt 310$\"</strong>: Evan&rsquo;s distance (45e) plus Maya&rsquo;s distance (50m) is less than 310 miles &mdash; exactly the given constraint. &#10003;</li><li><strong>\"$50e+45m\\gt 310$\"</strong>: Swaps the speeds (assigns 50 to Evan and 45 to Maya) and uses the wrong inequality direction. &#10007;</li><li><strong>\"$50e+45m\\lt 310$\"</strong>: Has the correct inequality direction but swaps Evan&rsquo;s and Maya&rsquo;s speeds. &#10007;</li></ul>That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Use the total distance condition",
+      "content": "The total distance was under $310$ miles, so the sum of the two distances must be strictly less than $310$:<br/>$$45e+50m<310$$The answer is <strong>B</strong>."
     }
   ]
 }

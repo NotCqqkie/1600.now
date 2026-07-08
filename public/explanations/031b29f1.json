@@ -1,0 +1,15 @@
+{
+  "questionId": "031b29f1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "End the first sentence",
+      "content": "The first part says the veins provide structural support. The next part begins a participial phrase, decreasing in thickness from the center to the edges, and then gives a full main clause about what the veins allow."
+    },
+    {
+      "title": "Reject run-on structures",
+      "content": "Choice B creates a garbled phrase and leaves another clause unseparated. Choice C and Choice D use commas that cannot properly separate the completed support statement from the next independent clause. A period after support cleanly ends the first sentence and lets the participial phrase modify these veins. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what f(x) represents",
-      "content": "The function $f(x) = 210,000(1.20)^x$ gives the company's predicted annual revenue (in dollars). The variable $x$ represents years after the company started, and $f(x)$ represents the predicted annual revenue at that time. Therefore, $f(5)$ is the predicted annual revenue at $x = 5$ years."
+      "title": "Identify the input meaning",
+      "content": "The variable $x$ represents years after the company started selling headphones online. Therefore $f(5)$ means the predicted annual revenue $5$ years after the company started."
     },
     {
-      "title": "Interpret the statement and match to a choice",
-      "content": "When we're told $f(5)$ is approximately equal to $522,547$, this means the predicted annual revenue at 5 years is approximately $522,547$ dollars. That confirms <strong>A</strong> is correct."
+      "title": "Interpret the output",
+      "content": "The value of the function is measured in dollars. So the statement $f(5)\\sim 522{,}547$ means the predicted annual revenue after $5$ years is about $522{,}547$ dollars. The answer is <strong>A</strong>."
     }
   ]
 }

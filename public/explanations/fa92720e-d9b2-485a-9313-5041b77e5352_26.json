@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the task",
-      "content": "The student wants to emphasize a difference between the two flags. The notes give the key facts: El Salvador's flag has a palm branch (a plant) and Zambia's flag has an eagle (an animal). The correct choice must directly contrast these two flags, not merely mention both."
+      "title": "Focus on difference",
+      "content": "The task asks for a difference between the two flags. The relevant notes say Eritrea’s flag includes an olive branch, a plant, while Croatia’s flag includes leopards, animals."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>\"Vexillologists study flags, like those of El Salvador and Zambia.\"</strong>: names both flags but only makes a claim about vexillology, not any difference between the two flags. &#10007;</li><li><strong>\"Many countries feature symbols on their flags, such as animals, plants, or landforms, and the study of these designs is known as vexillology.\"</strong>: describes a general fact about flags worldwide; does not contrast El Salvador and Zambia specifically. &#10007;</li><li><strong>\"Countries like El Salvador and Zambia use symbols on their flags; examples include plants and animals.\"</strong>: implies both countries share the same category of symbols without distinguishing which country has which type. &#10007;</li><li><strong>\"El Salvador includes a plant on its flag, whereas Zambia’s flag includes an animal.\"</strong>: directly contrasts the two flags &mdash; plant vs. animal &mdash; using \"whereas\" to signal the opposition. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Contrast the symbols",
+      "content": "Choice A gives a general fact about flags and vexillology. Choice B says both countries use symbols but does not emphasize the contrast. Choice C only mentions flag study. The option with “whereas” directly contrasts plant and animal symbols. The answer is <strong>D</strong>."
     }
   ]
 }

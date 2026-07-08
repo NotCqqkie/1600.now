@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the root-finding method",
-      "content": "This is a quadratic equation, so the goal is to find its roots. The quadratic formula is a direct way to solve it when simple factoring is not the focus. For $4x^2 + 5x - 5 = 0$ with $a = 4$, $b = 5$, $c = -5$:<br/>$$x = \\dfrac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\dfrac{-5 \\pm \\sqrt{25 - 4(4)(-5)}}{8} = \\dfrac{-5 \\pm \\sqrt{105}}{8}$$"
+      "title": "Apply the quadratic formula",
+      "content": "For $3x^2-5x-5=0$, the coefficients are $a=3$, $b=-5$, and $c=-5$. Substitute them into the quadratic formula.<br/>$$x=\\frac{-(-5)\\pm\\sqrt{(-5)^2-4(3)(-5)}}{2(3)}$$"
     },
     {
-      "title": "Pick the greater root",
-      "content": "The greatest solution uses the $+$ sign:<br/>$$x = -\\dfrac{5}{8} + \\dfrac{\\sqrt{105}}{8}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the greater solution",
+      "content": "Simplify the formula.<br/>$$x=\\frac{5\\pm\\sqrt{25+60}}{6}=\\frac{5\\pm\\sqrt{85}}{6}$$<br/>The greater solution uses the plus sign. The answer is <strong>B</strong>."
     }
   ]
 }

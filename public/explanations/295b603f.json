@@ -1,0 +1,15 @@
+{
+  "questionId": "295b603f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find evidence of increase",
+      "content": "The researcher needs an example of a lake whose ice duration increased, so the evidence must compare the same lake in 1980-81 and 2005-06. A high count in only one winter cannot establish a trend."
+    },
+    {
+      "title": "Require a two-year comparison",
+      "content": "Choices A and B give only one time point, so neither proves a change. Choice D says both named lakes increased, but that overstates the graph. The remaining choice directly compares one lake across the two winters. The answer is <strong>C</strong>."
+    }
+  ]
+}

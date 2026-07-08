@@ -1,0 +1,15 @@
+{
+  "questionId": "6e9f2e1a",
+  "correctAnswer": "52390",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Notice the scale factor",
+      "content": "The second cable circumference is twice the first.<br/>$$6.50=2(3.25)$$<br/>Because the model uses $x^2$, doubling $x$ multiplies $y$ by $2^2=4$."
+    },
+    {
+      "title": "Scale the breaking strength",
+      "content": "Multiply the given breaking strength by $4$.<br/>$$13{,}097.5\\cdot4=52{,}390$$<br/>The answer is <strong>52390</strong>."
+    }
+  ]
+}

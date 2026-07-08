@@ -1,0 +1,19 @@
+{
+  "questionId": "9c0f1c91",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the shared definition",
+      "content": "The goal is to emphasize a similarity between the Isthmus of Suez and the Auckland Isthmus. The notes define an isthmus as a strip of land connecting two larger pieces of land across water."
+    },
+    {
+      "title": "Reject partial answers",
+      "content": "<ul><li><strong>Choice A</strong> gives only the general definition and does not mention both places.</li><li><strong>Choice B</strong> discusses only the Auckland Isthmus.</li><li><strong>Choice D</strong> discusses only the Isthmus of Suez.</li></ul>"
+    },
+    {
+      "title": "State the shared feature",
+      "content": "The remaining choice says both named isthmuses connect two larger pieces of land across water, so it directly emphasizes their similarity. The answer is <strong>C</strong>."
+    }
+  ]
+}

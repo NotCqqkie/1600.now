@@ -1,0 +1,19 @@
+{
+  "questionId": "bf2e270a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding sides",
+      "content": "Because triangle QPR is similar to triangle STR, the vertices match in order: Q with S, P with T, and R with R. Therefore segment QP corresponds to ST, and QR corresponds to SR."
+    },
+    {
+      "title": "Build the proportion",
+      "content": "Use the corresponding side ratios:<br/>$$\\frac{QP}{ST}=\\frac{QR}{SR}$$<br/>Substitute the known side lengths:<br/>$$\\frac{18}{11}=\\frac{30}{SR}$$"
+    },
+    {
+      "title": "Find the side length",
+      "content": "Cross multiply:<br/>$$18\\cdot SR=30\\cdot11$$<br/>$$18\\cdot SR=330$$<br/>$$SR=\\frac{330}{18}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

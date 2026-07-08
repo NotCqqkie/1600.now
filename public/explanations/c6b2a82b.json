@@ -1,0 +1,15 @@
+{
+  "questionId": "c6b2a82b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the length",
+      "content": "The width is $6$ centimeters, and the length is $32$ centimeters longer than the width:<br/>$$6+32=38$$"
+    },
+    {
+      "title": "Compute the area",
+      "content": "The area of a rectangle is length times width:<br/>$$38(6)=228$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

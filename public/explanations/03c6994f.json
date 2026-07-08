@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Recognize the scale factor rule for areas",
-      "content": "The side length of square A is 248 times the side length of square B, so the linear scale factor is 248. For any two similar figures, when linear dimensions scale by a factor $r$, the areas scale by $r^2$. Here, $r = 248$.",
+      "title": "Use the area scale rule",
+      "content": "The side lengths of square A are $248$ times the side lengths of square B. Areas scale by the square of the side-length scale factor.",
       "formula": "$$\\text{Area scale factor} = r^2$$"
     },
     {
-      "title": "Calculate the area scale factor and match the answer",
-      "content": "The area of square A is $248^2$ times the area of square B, so $k = 248^2$.<br/>Computing: $248^2 = 61{,}504$<br/>That matches <strong>Choice A &mdash; $61,504$</strong>."
+      "title": "Square the side scale",
+      "content": "The area scale factor is<br/>$$248^2=61{,}504$$<br/>So the value of $k$ is $61{,}504$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify slope and y-intercept",
-      "content": "The slope is $m=3$. The point $(0,8)$ has $x=0$, so it is the y-intercept, giving $b=8$."
+      "title": "Identify slope and intercept",
+      "content": "The slope is $3$. The point $(0,8)$ has $x=0$, so it is the vertical intercept."
     },
     {
-      "title": "Write the slope-intercept equation",
-      "content": "Using $y=mx+b$ with $m=3$ and $b=8$:<br/>$$y=3x+8$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A: $y=-8x+3$ has slope $-8$, not $3$. Eliminated.</li><li>B: $y=8x+3$ has slope $8$, not $3$. Eliminated.</li><li>C: $y=3x-8$ has slope $3$ but y-intercept $-8$, so it does not pass through $(0,8)$. Eliminated.</li><li>D: $y=3x+8$ has slope $3$ and passes through $(0,8)$.</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Write the line equation",
+      "content": "Use slope-intercept form with $m=3$ and $b=8$.\n$$y=mx+b$$\n$$y=3x+8$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

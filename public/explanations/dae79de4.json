@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Total customers",
-      "content": "The table’s bottom‑right corner shows the total number of customers as <strong>135</strong>."
+      "title": "Find the relevant counts",
+      "content": "The total number of customers is $135$. The number of customers who are at least $40$ years old is $105$."
     },
     {
-      "title": "Customers at least 40 years old",
-      "content": "The row for customers aged 40 or older shows a total of <strong>105</strong> customers. Probability is favorable outcomes divided by total outcomes, so the probability is $$\\frac{105}{135}.$$ This matches <strong>$\\frac{105}{135}$</strong>, so <strong>D</strong> is correct."
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:<br/>$$\\frac{105}{135}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

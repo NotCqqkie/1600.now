@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make two points for the line",
-      "content": "The line passes through $(0,12)$. Its slope is $\\frac{1}{8}$, so moving $8$ units right raises $y$ by $1$. That gives a second point, $(8,13)$."
+      "title": "Use slope-intercept form",
+      "content": "A line in slope-intercept form is<br/>$$y=mx+b$$<br/>where $m$ is the slope and $b$ is the $y$-intercept."
     },
     {
-      "title": "Use the points directly",
-      "content": "Use the table points directly. From $(0,12)$ to $(8,13)$, the slope is $m=\\frac{13-12}{8-0}=\\frac{1}{8}.$ Substituting a point into $y=mx+b$ gives $b=12$. That matches <strong>Choice D &mdash; $y=\\frac{1}{8}x+12$</strong>."
+      "title": "Substitute slope and intercept",
+      "content": "The slope is $\\frac{1}{8}$, and the point $(0,12)$ gives the intercept $b=12$.<br/>$$y=\\frac{1}{8}x+12$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

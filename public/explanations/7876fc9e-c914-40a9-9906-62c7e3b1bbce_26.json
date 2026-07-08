@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The student wants to emphasize a similarity between first position (Vaganova method) and demi-seconde position (Royal Academy of Dance). Look for the choice that highlights what the two positions share rather than how they differ."
+      "title": "Find the shared category",
+      "content": "The student wants a similarity between first position in Vaganova method ballet and demi-seconde position in Royal Academy of Dance ballet. The notes show that both are positions for a dancer's arms; the details about how the arms are shaped are differences, not the requested similarity."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;First position in Vaganova method ballet and demi-seconde position in Royal Academy of Dance ballet are both positions for the dancer's arms.&rsquo;</strong>: This directly states the shared trait &mdash; both are arm positions &mdash; which is the similarity the student wants to emphasize. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Both first position and demi-seconde position are positions in Royal Academy of Dance ballet.&rsquo;</strong>: Factually wrong &mdash; first position belongs to Vaganova method, not Royal Academy of Dance. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In first position, both arms are rounded to roughly align the fingers with the navel, in contrast to demi-seconde position, where both arms are out to the sides but angled downward.&rsquo;</strong>: This emphasizes a contrast between the two positions, not a similarity. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In Vaganova method ballet, there are a number of positions, including first position.&rsquo;</strong>: This describes only the Vaganova method and says nothing about demi-seconde position; no similarity is drawn. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject contrasts and omissions",
+      "content": "Choice B wrongly puts both positions in Royal Academy of Dance ballet. Choice C emphasizes how the arm positions differ. Choice D mentions only Vaganova first position. The answer is <strong>A</strong>."
     }
   ]
 }

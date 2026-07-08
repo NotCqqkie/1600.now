@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The goal is specific: describe the exhibition Torres curated in <em>2018</em>. The notes identify it as <em>Pacha, Llaqta, Wasichay: Indigenous Space, Modern Architecture, New Art</em>, featuring seven emerging Latino artists. The correct choice must name this exhibition and include that detail."
+      "title": "Use only the 2018 exhibition",
+      "content": "The student wants to describe the exhibition Torres curated in 2018. The notes identify that exhibition as <em>Pacha, Llaqta, Wasichay: Indigenous Space, Modern Architecture, New Art</em> and say it featured works by seven emerging Latino artists."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Held at the Whitney Museum of American Art, the exhibition <em>Vida Americana: Mexican Muralists Remake American Art, 1925–1945</em> included nearly 200 works by twentieth-century Mexican and Latino artists.</strong>: this describes the 2020 exhibition, not the 2018 one. &#10007;</li><li><strong>Choice B &mdash; <em>Pacha, Llaqta, Wasichay: Indigenous Space, Modern Architecture, New Art</em>, an exhibition at the Whitney Museum of American Art, featured works by seven emerging Latino artists.</strong>: correctly names the 2018 exhibition and includes the key detail about seven emerging Latino artists. &#10003;</li><li><strong>Choice C &mdash; In both 2018 and 2020, Elena Torres curated exhibitions at the Whitney Museum of American Art in New York.</strong>: mentions 2018 but gives no description of that exhibition whatsoever. &#10007;</li><li><strong>Choice D &mdash; While one exhibition that Elena Torres curated featured works by emerging artists, another included works by twentieth-century artists.</strong>: contrasts the two exhibitions without naming or dating either one &mdash; fails to describe the 2018 exhibition specifically. &#10007;</li></ul>That is the correct answer."
+      "title": "Avoid unrelated exhibitions",
+      "content": "Choice A describes the 2020 exhibition. Choice C only says Torres curated exhibitions in two years. Choice D compares two exhibitions without describing the 2018 one by name. The best sentence identifies and describes the 2018 exhibition. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "0fd427e8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify opposite and adjacent",
+      "content": "Since $A$ and $B$ are acute in right triangle $ABC$, the right angle is at $C$. Relative to angle $B$, side $AC$ is opposite and side $BC$ is adjacent."
+    },
+    {
+      "title": "Use the tangent ratio",
+      "content": "Use tangent as opposite over adjacent.<br/>$$\\tan B=\\frac{AC}{BC}$$<br/>Substitute the given values.<br/>$$\\frac{1}{4}=\\frac{24.6}{BC}$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Multiply both sides by $BC$, then multiply by $4$.<br/>$$BC=24.6\\cdot4=98.4$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

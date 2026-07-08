@@ -1,0 +1,15 @@
+{
+  "questionId": "453d8214",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clause boundary",
+      "content": "The sentence has two independent clauses: \"The sand at Komodo Island Beach in Indonesia is a more unusual shade\" and \"deposits of crushed coral and other organic matter lend the sand a unique pink hue.\" The word \"though\" works as a parenthetical transition after the first clause."
+    },
+    {
+      "title": "Punctuate the transition",
+      "content": "Choice B and choice D create comma splices because they use only commas between independent clauses. Choice C places the semicolon before \"though,\" making the second part read awkwardly. The remaining choice sets off \"though\" with a comma and uses a semicolon before the next independent clause. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7912f38d",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "All three terms are multiples of $x^5$, so combine only the coefficients:<br/>$$18x^5+21x^5-11x^5=(18+21-11)x^5$$"
+    },
+    {
+      "title": "Find the coefficient",
+      "content": "Compute the coefficient:<br/>$$18+21-11=28$$<br/>So the expression is $28x^5$, meaning $b=28$. The answer is <strong>28</strong>."
+    }
+  ]
+}

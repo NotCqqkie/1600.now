@@ -1,0 +1,19 @@
+{
+  "questionId": "b1ef8f8b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the exponent rule",
+      "content": "An exponent of $\\frac{1}{2}$ means the square root of the entire base:<br/>$$a^{\\frac{1}{2}}=\\sqrt{a}$$"
+    },
+    {
+      "title": "Apply it to the expression",
+      "content": "The base is the entire product $174y$, so:<br/>$$(174y)^{\\frac{1}{2}}=\\sqrt{174y}$$"
+    },
+    {
+      "title": "Match the equivalent form",
+      "content": "The equivalent expression is $\\sqrt{174y}$, matching the option that keeps the square root over the whole product. The answer is <strong>C</strong>."
+    }
+  ]
+}

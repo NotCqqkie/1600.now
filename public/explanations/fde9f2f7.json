@@ -1,0 +1,15 @@
+{
+  "questionId": "fde9f2f7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the square area rule",
+      "content": "A square's area equals side length times side length. Here the side length is $7.25w$ meters."
+    },
+    {
+      "title": "Substitute the side length",
+      "content": "So the area is:<br/>$$A=(7.25w)(7.25w)$$<br/>Choice B gives perimeter, and the other choices use the wrong side length. The answer is <strong>C</strong>."
+    }
+  ]
+}

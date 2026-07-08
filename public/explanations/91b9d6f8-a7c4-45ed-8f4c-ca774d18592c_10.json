@@ -4,12 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope from two table points",
-      "content": "Using $(0, 12)$ and $(1, 19)$ from the table:<br/>$$m = \\frac{\\Delta y}{\\Delta x} = \\frac{19 - 12}{1 - 0} = 7$$"
-    },
-    {
-      "title": "Write the linear equation",
-      "content": "The point $(0, 12)$ is on the line, so the y-intercept is $b = 12$. The line is $y = 7x + 12$. The Desmos rows below graph that line and the table points to check that $(0,12)$, $(1,19)$, and $(2,26)$ all lie on the same line.",
+      "title": "Read the intercept point",
+      "content": "The table includes the point $(0,12)$. A y-intercept occurs where $x=0$, so this point gives the y-intercept directly.",
       "desmosExpressions": [
         "y=7x+12",
         "(0,12)",
@@ -18,8 +14,8 @@
       ]
     },
     {
-      "title": "Verify with the third point",
-      "content": "Check $(2, 26)$: $y = 7(2) + 12 = 14 + 12 = 26$. <strong>✓</strong><br/><br/>The y-coordinate of the y-intercept is <strong>12</strong>."
+      "title": "State the coordinate value",
+      "content": "The y-coordinate of the y-intercept is $12$. The answer is <strong>12</strong>."
     }
   ]
 }

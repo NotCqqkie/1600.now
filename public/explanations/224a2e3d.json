@@ -1,0 +1,19 @@
+{
+  "questionId": "224a2e3d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move all z terms together",
+      "content": "Start with the given equation and add $z$ to both sides:<br/>$$12yz-7xz=12xy-z$$<br/>$$12yz-7xz+z=12xy$$"
+    },
+    {
+      "title": "Factor out z",
+      "content": "Each term on the left contains $z$:<br/>$$z(12y-7x+1)=12xy$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Solve for $z$:<br/>$$z=\\frac{12xy}{12y-7x+1}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

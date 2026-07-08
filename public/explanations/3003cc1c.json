@@ -1,0 +1,19 @@
+{
+  "questionId": "3003cc1c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent statements",
+      "content": "Convert each percent into a multiplier:\n$$b=0.82c$$\n$$a=21.32(b+c)$$\nThe percent $2{,}132\\%$ becomes $21.32$ because it is divided by $100$."
+    },
+    {
+      "title": "Write the sum using one variable",
+      "content": "Use $b=0.82c$ in the expression $b+c$:\n$$b+c=0.82c+c=1.82c$$\nThen substitute into the equation for $a$:\n$$a=21.32(1.82c)=38.8024c$$"
+    },
+    {
+      "title": "Convert the ratio to a percent",
+      "content": "Compare $a$ to $b$:\n$$\\frac{a}{b}=\\frac{38.8024c}{0.82c}=47.32$$\nSo $a$ is\n$$47.32(100\\%)=4{,}732\\%$$\nof $b$. The answer is <strong>A</strong>."
+    }
+  ]
+}

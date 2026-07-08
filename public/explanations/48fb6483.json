@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Find the other acute angle",
+      "content": "In triangle $ABC$, angle $B$ is $90^\\circ$ and angle $ACB$ is $58^\\circ$. The two acute angles must complete the triangle's $180^\\circ$ angle sum:\n$$\nBAC=180^\\circ-90^\\circ-58^\\circ=32^\\circ\n$$"
     },
     {
-      "title": "Find angle BAC from angle sum",
-      "content": "In triangle $ABC$, angle $B=90^\\circ$ and angle $ACB=58^\\circ$. Using the angle sum property, the three angles of a triangle sum to $180^\\circ$:<br/>$$\\angle BAC = 180^\\circ - 90^\\circ - 58^\\circ = 32^\\circ$$"
+      "title": "Use the parallel segment",
+      "content": "Since $RS$ is parallel to $AB$, angle $CRS$ corresponds to angle $CAB$. Corresponding angles formed by parallel lines are equal, so\n$$\nCRS=32^\\circ\n$$"
     },
     {
-      "title": "Use similar triangles to find angle CRS",
-      "content": "Since $RS$ is parallel to $AB$, triangle $CRS$ is similar to triangle $CAB$ (they share angle $C$, and the parallel condition makes the other angles match). In similar triangles, corresponding angles are equal:<br/>$$\\angle CRS = \\angle CAB = 32^\\circ$$"
-    },
-    {
-      "title": "Find angle ARS using supplementary angles",
-      "content": "Point $R$ lies on segment $AC$, so angles $CRS$ and $ARS$ form a linear pair at $R$. Linear-pair angles are supplementary:<br/>$$\\angle ARS = 180^\\circ - \\angle CRS = 180^\\circ - 32^\\circ = 148^\\circ$$<br/>The answer is <strong>148</strong>."
+      "title": "Use the linear pair",
+      "content": "Points $A$, $R$, and $C$ lie on the same line, so angles $ARS$ and $CRS$ form a linear pair. Their measures sum to $180^\\circ$:\n$$\nARS=180^\\circ-32^\\circ=148^\\circ\n$$\nThe answer is <strong>148</strong>."
     }
   ]
 }

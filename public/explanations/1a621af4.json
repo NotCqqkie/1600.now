@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the English inequality into algebraic form",
-      "content": "The phrase <em>x is at most 5 less than 4 times the value of y</em> breaks down as:<ul><li><em>at most</em> means $\\leq$</li><li><em>5 less than 4 times the value of y</em> means $4y - 5$</li></ul>Combining these: $$x \\leq 4y - 5$$"
+      "title": "Translate the inequality",
+      "content": "The phrase at most means less than or equal to. The phrase $5$ less than $4$ times $y$ means $4y-5$, so:<br/>$$x\\leq 4y-5$$"
     },
     {
-      "title": "Substitute y = -3 and find the maximum value of x",
-      "content": "Plugging in $y = -3$ into the inequality:<br/>$$x \\leq 4(-3) - 5$$<br/>$$x \\leq -12 - 5$$<br/>$$x \\leq -17$$<br/>Since $x$ can be at most $-17$, the greatest possible value of $x$ is $-17$."
+      "title": "Substitute the value",
+      "content": "Use $y=-3$:<br/>$$x\\leq 4(-3)-5$$<br/>$$x\\leq -12-5$$<br/>So the greatest possible value is the right side of the inequality. The answer is <strong>-17</strong>."
     }
   ]
 }

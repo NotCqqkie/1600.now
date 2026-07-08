@@ -1,0 +1,15 @@
+{
+  "questionId": "494049f3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the square",
+      "content": "For any real value of $x$, the expression $(x+49)^2$ cannot be negative."
+    },
+    {
+      "title": "Compare with the right side",
+      "content": "The equation asks for a square to equal $-81$:<br/>$$(x+49)^2=-81$$No real value of $x$ can make that true, so there are $0$ real solutions. The answer is <strong>D</strong>."
+    }
+  ]
+}

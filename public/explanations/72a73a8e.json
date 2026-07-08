@@ -1,0 +1,15 @@
+{
+  "questionId": "72a73a8e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the plotted points",
+      "content": "A solution to the inequality is any point inside the shaded region shown in the coordinate plane. Test each listed ordered pair by locating it on the graph."
+    },
+    {
+      "title": "Identify the shaded point",
+      "content": "The points $(-5,0)$, $(0,5)$, and $(0,-5)$ lie outside the shaded region. The point $(5,0)$ lies inside the shaded region, so it is a solution to the inequality. The answer is <strong>D</strong>."
+    }
+  ]
+}

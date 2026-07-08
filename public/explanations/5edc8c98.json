@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients",
-      "content": "The equation $100x^2 - (20a + 5b)x + ab = 0$ has $A = 100$ and $B = -(20a + 5b)$."
+      "title": "Use the sum of roots",
+      "content": "Use the sum formula.\n$$\n-\\frac{B}{A}=\\frac{20a+5b}{100}\n$$"
     },
     {
-      "title": "Vieta shortcut: sum $= -B/A$",
-      "content": "$$\\text{sum} = \\frac{-(-(20a+5b))}{100} = \\frac{20a+5b}{100} = \\frac{5(4a+b)}{100} = \\frac{1}{20}(4a+b)$$"
-    },
-    {
-      "title": "Read off $k$",
-      "content": "The sum equals $k(4a+b)$, so $k = \\dfrac{1}{20} = 0.05$. The answer is <strong>.05</strong>."
+      "title": "Read the coefficient",
+      "content": "$$\n\\frac{20a+5b}{100}=\\frac{1}{20}(4a+b)\n$$\n$$\nk=\\frac{1}{20}=0.05\n$$\nThe answer is <strong>.05</strong>."
     }
   ]
 }

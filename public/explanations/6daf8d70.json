@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate total flowers constraint",
-      "content": "The problem states 'no more than 188 total flowers planted.' Since l represents lilies and d represents daisies, this translates to the inequality $$l + d \\leq 188$$."
+      "title": "Translate the total limit",
+      "content": "No more than $188$ total flowers means the sum of lilies and daisies is at most $188$:\n$$\nl+d\\le 188\n$$"
     },
     {
-      "title": "Translate lilies-to-daisies ratio constraint",
-      "content": "The condition 'lilies will be at most four times daisies' means $$l \\leq 4d$$. This establishes the second inequality in the system."
+      "title": "Translate the lily limit",
+      "content": "Lilies being at most four times daisies means\n$$\nl\\le 4d\n$$"
     },
     {
-      "title": "Identify system in answer choices",
-      "content": "The system with $$l + d \\leq 188$$ and $$l \\leq 4d$$ matches <strong>D</strong>. This system correctly models both constraints from the problem."
+      "title": "Match both inequalities",
+      "content": "The system must contain both $l+d\\le 188$ and $l\\le 4d$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c73c31a0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared trait",
+      "content": "The student wants a similarity between Jane and Fafnir. The notes say Jane was a <em>Tyrannosaurus</em> and Fafnir was a <em>Triceratops</em>, but both lived in the Late Cretaceous period. That shared time period is the relevant comparison."
+    },
+    {
+      "title": "Avoid location-only facts",
+      "content": "Choice B contrasts museum locations instead of giving a similarity. Choice C mentions only Jane, and Choice D makes a general point about museums rather than directly comparing the two named specimens. The best sentence states their shared period. The answer is <strong>A</strong>."
+    }
+  ]
+}

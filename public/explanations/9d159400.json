@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the tangency condition",
-      "content": "A circle intersects the $y$-axis at exactly one point when it is tangent to the $y$-axis. In standard form, compare the radius $r$ with the distance from the center $(h,k)$ to the $y$-axis, which is $|h|$."
+      "title": "Use the tangent condition",
+      "content": "A circle intersects the $y$-axis at exactly one point when it is tangent to the $y$-axis. That happens when the distance from the center to the $y$-axis equals the radius."
     },
     {
-      "title": "Identify the tangency condition",
-      "content": "A circle intersects the <em>y</em>-axis at exactly one point when it is tangent to the <em>y</em>-axis. This occurs when the distance from the circle's center to the <em>y</em>-axis equals the circle's radius.<br/><br/>For a circle $(x - h)^2 + (y - k)^2 = r^2$:<ul><li>Center: $(h, k)$</li><li>Radius: $r$</li><li>Distance from center to <em>y</em>-axis: $|h|$</li></ul>We need: $|h| = r$"
-    },
-    {
-      "title": "Find which circle is tangent to the y-axis",
-      "content": "All four choices have $r^2 = 25$, so the radius is $r = 5$. We need $|h| = 5$.<ul><li><strong>A:</strong> $(x-10)^2 + (y-7)^2 = 25$ has center $(10, 7)$, so $|h| = 10 \\neq 5$</li><li><strong>B:</strong> $(x-10)^2 + (y-5)^2 = 25$ has center $(10, 5)$, so $|h| = 10 \\neq 5$</li><li><strong>C:</strong> $(x-5)^2 + (y-12)^2 = 25$ has center $(5, 12)$, so $|h| = 5$, which equals $r$</li><li><strong>D:</strong> $x^2 + (y-12)^2 = 25$ has center $(0, 12)$, so $|h| = 0 \\neq 5$</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Compare center distance and radius",
+      "content": "Each choice has radius $5$ because $r^2=25$. Choice C has center $(5,12)$, whose distance to the $y$-axis is $5$. That equals the radius, so the circle touches the $y$-axis once. The answer is <strong>C</strong>."
     }
   ]
 }

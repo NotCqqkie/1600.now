@@ -1,0 +1,19 @@
+{
+  "questionId": "d6556a2b",
+  "correctAnswer": "759",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the price increase",
+      "content": "Price increase:<br/>$$11-8=3$$"
+    },
+    {
+      "title": "Find the bags sold",
+      "content": "Fewer bags and new sales:<br/>$$3\\cdot7=21$$<br/>$$90-21=69$$"
+    },
+    {
+      "title": "Compute the revenue",
+      "content": "Revenue:<br/>$$11\\cdot69=759$$<br/>The answer is <strong>759</strong>."
+    }
+  ]
+}

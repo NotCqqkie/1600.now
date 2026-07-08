@@ -1,0 +1,15 @@
+{
+  "questionId": "0f7f1fd6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the product",
+      "content": "Since $pu=96$, substitute $96$ for $pu$ in the second equation.<br/>$$(12a)(pu)=96$$<br/>$$(12a)(96)=96$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Divide both sides by $96$, then divide by $12$.<br/>$$12a=1$$<br/>$$a=\\frac{1}{12}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

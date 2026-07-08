@@ -1,0 +1,15 @@
+{
+  "questionId": "9794541e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make the source inference",
+      "content": "The passage says Geoffrey's <em>History</em> and earlier works do not mention the Round Table, but Malory's later <em>Le Morte d'Arthur</em> does. The conclusion should explain how Malory could have included a detail missing from Geoffrey and works before Geoffrey."
+    },
+    {
+      "title": "Rule out unsupported claims",
+      "content": "A compares overall similarity among texts, which the passage never measures. B claims Malory preferred Geoffrey when sources conflicted, but the passage does not say that. C argues historical accuracy and misuses the timeline. The Round Table evidence instead points to a source Geoffrey did not know. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "30b3e838",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the timeline",
+      "content": "The first sentence describes Ortiz winning a storytelling competition in 2014. The next sentence describes a show he created in 2017. The transition must show that the second event happened after the first."
+    },
+    {
+      "title": "Reject nonchronological links",
+      "content": "Choice A signals contrast or replacement. Choice B signals an example, but the show is a later event, not an example of winning. Choice D signals restatement, but the sentences describe different events. The answer is <strong>C</strong>."
+    }
+  ]
+}

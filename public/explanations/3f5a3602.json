@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test the first nonmatching system with intercepts",
-      "content": "The graph in the question gives three fast targets: both lines share the $x$-intercept $(8,0)$, and the $y$-intercepts are positive, about $(0,3.2)$ and $(0,6.4)$. The first nonmatching system has lines that hit the $x$-axis at $(4,0)$ and $(6.4,0)$, so they do not share the required intercept $(8,0)$.",
+      "title": "Use the graph intercepts",
+      "content": "The graph shows both lines sharing the $x$-intercept $(8,0)$, with positive $y$-intercepts near $(0,3.2)$ and $(0,6.4)$. This quickly eliminates systems whose intercepts do not match.",
       "desmosGraphs": [
         {
           "label": "$8x+4y=32$ $-10x-4y=-64$",
@@ -22,8 +22,8 @@
       ]
     },
     {
-      "title": "Test another nonmatching system with the same targets",
-      "content": "The same intercept check fails because the two lines cross the $x$-axis at $(4,0)$ and $(6.4,0)$ instead of sharing $(8,0)$. They also slope upward from left to right, while the lines in the question slope downward.",
+      "title": "Reject the wrong slopes",
+      "content": "Another nonmatching system has $x$-intercepts that do not match the graph, and its lines slope upward instead of downward. That does not fit the displayed lines.",
       "desmosGraphs": [
         {
           "label": "$8x-4y=32$ $-10x+4y=-64$",
@@ -42,8 +42,8 @@
       ]
     },
     {
-      "title": "Test the system with the correct x-intercept but wrong y-intercepts",
-      "content": "The system in C passes the shared-intercept check: both lines go through $(8,0)$. But the $y$-intercepts are on the wrong side of the axis: $(0,-3.2)$ and $(0,-6.4)$ instead of positive $(0,3.2)$ and $(0,6.4)$. That wrong vertical placement eliminates C.",
+      "title": "Check the shared intercept",
+      "content": "This system passes through the shared $x$-intercept $(8,0)$, but its $y$-intercepts are negative instead of positive. That puts the lines on the wrong side of the axis.",
       "desmosGraphs": [
         {
           "label": "$4x-10y=32$ $-8x+10y=-64$",
@@ -60,8 +60,8 @@
       ]
     },
     {
-      "title": "Test the correct answer last",
-      "content": "The expression matches the graph. The first line, $4x+10y=32$, passes through $(8,0)$ and $(0,3.2)$. The second line, $-8x-10y=-64$, passes through $(8,0)$ and $(0,6.4)$. Both lines slope downward, so D matches the shared $x$-intercept, both positive $y$-intercepts, and the direction of the graph.",
+      "title": "Check the matching system",
+      "content": "For the remaining system, $4x+10y=32$ passes through $(8,0)$ and $(0,3.2)$, while $-8x-10y=-64$ passes through $(8,0)$ and $(0,6.4)$. Both match the graph.",
       "desmosGraphs": [
         {
           "label": "The matching choice: $4x+10y=32$ $-8x-10y=-64$",
@@ -76,8 +76,8 @@
       ]
     },
     {
-      "title": "Confirm the answer",
-      "content": "A and B miss the shared $x$-intercept. C has the correct shared $x$-intercept but the wrong side of the $x$-axis. D is the only pair with shared $x$-intercept $(8,0)$, positive $y$-intercepts $(0,3.2)$ and $(0,6.4)$, and downward slopes. <strong>D</strong> is correct."
+      "title": "Select the system",
+      "content": "Only one system has the shared $x$-intercept, the two positive $y$-intercepts, and the downward slopes shown in the graph. The answer is <strong>D</strong>."
     }
   ]
 }

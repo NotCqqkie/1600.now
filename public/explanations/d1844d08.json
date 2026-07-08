@@ -1,0 +1,15 @@
+{
+  "questionId": "d1844d08",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify each coordinate",
+      "content": "In this context, $x$ is the number of days after the company went public, and $y$ is the estimated stock price in dollars."
+    },
+    {
+      "title": "Interpret the ordered pair",
+      "content": "The ordered pair $(2,52)$ means that when $x=2$, the value of $y$ is $52$. So two days after the company went public, the estimated stock price is $52$ dollars. The answer is <strong>A</strong>."
+    }
+  ]
+}

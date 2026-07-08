@@ -1,0 +1,15 @@
+{
+  "questionId": "f3f17763",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare claim and finding",
+      "content": "The first sentence presents some researchers' idea that Grande Terre species belong to clades older than the island split around 80 million years ago. The study then reports crown ages of only about 7.3 million years."
+    },
+    {
+      "title": "Choose the incompatible result",
+      "content": "Choice A adds an explanation of the discrepancy that the text does not provide. Choice B says the study clarifies why researchers proposed the idea, and Choice C says they reconsidered it; neither happens in the text. The study findings conflict with the idea. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use intercepts to shrink the choices",
-      "content": "The line of best fit crosses the vertical axis a little above $16{,}000$ when $t=0$. That eliminates the other choices immediately, because their intercepts are about $4{,}690$ and $9{,}060$. Only A and C have a reasonable intercept."
+      "title": "Estimate the intercept",
+      "content": "The line of best fit crosses the vertical axis near $16{,}000$. That leaves the choices whose constant term is close to $16{,}000$."
     },
     {
-      "title": "Use a two-point calculation for the slope",
-      "content": "Use two readable points from the line, such as $(0,16000)$ and $(5,40000)$. The slope is approximately $$\\frac{40000-16000}{5-0}=4800,$$ so the answer should be near $4{,}800$, not near $9{,}060$."
+      "title": "Estimate the slope",
+      "content": "Use two readable points, such as approximately $(0,16{,}000)$ and $(5,40{,}000)$.\n$$\n\\frac{40{,}000-16{,}000}{5-0}=4{,}800\n$$"
     },
     {
-      "title": "Match the equation",
-      "content": "The matching choice, $n=16{,}090+4{,}680t$, has the right intercept and a slope close to the fitted slope. A choice with the right intercept but a slope almost twice as large. Therefore, <strong>A</strong> is correct."
+      "title": "Choose the matching model",
+      "content": "The model with intercept near $16{,}000$ and slope near $4{,}800$ is $n=16{,}090+4{,}680t$. The answer is <strong>A</strong>."
     }
   ]
 }

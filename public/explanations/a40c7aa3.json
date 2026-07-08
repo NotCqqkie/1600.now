@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "The first sentence sets the pattern: most discovered planets orbit G-type stars like the Sun. The next sentence introduces KELT-9b, which orbits a B-type star &mdash; twice as massive and nearly twice as hot as the Sun. That is the opposite of the typical case, so the relationship is contrast."
+      "title": "Find the exception",
+      "content": "The first sentence gives the general pattern: most discovered exoplanets orbit G-type stars like the Sun. The next sentence introduces KELT-9b, which orbits a B-type star that is hotter and more massive than the Sun."
     },
     {
-      "title": "Pick the contrast transition",
-      "content": "A contrast between a general pattern and an exception requires a contrast signal. &quot;However&quot; is the standard contrast transition and fits the &quot;most X; but here is an exception&quot; structure exactly."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; likewise,</strong>: signals similarity, but the KELT-9 planet contradicts the G-type pattern rather than echoing it. &#10007;</li><li><strong>Choice B &mdash; however,</strong>: signals contrast, which matches the move from typical G-type case to atypical B-type case. &#10003;</li><li><strong>Choice C &mdash; therefore,</strong>: signals a cause-effect conclusion, but the discovery is not a consequence of the prior sentence. &#10007;</li><li><strong>Choice D &mdash; for example,</strong>: would treat KELT-9b as an example of the G-type pattern, but it is the opposite &mdash; a B-type star, not a G-type. &#10007;</li></ul>That is the correct answer."
+      "title": "Signal contrast",
+      "content": "Choice A signals similarity, Choice C signals result, and Choice D would make KELT-9b an example of the G-type pattern. Because the second sentence presents an exception to that pattern, a contrast transition is needed. The answer is <strong>B</strong>."
     }
   ]
 }

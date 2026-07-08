@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what both texts agree on",
-      "content": "Both texts discuss Impressionist painters making deliberate choices about frames. Text 1 says Moreau &quot;insisted&quot; on specific frames and Impressionists &quot;chose&quot; colorful frames to distinguish themselves. Text 2 says frames were chosen &quot;for aesthetic reasons&quot; to &quot;harmonize&quot; with paintings. The point of agreement is that Impressionist painters were intentional about frame selection &mdash; even if the texts disagree on the motive."
+      "title": "Find the shared framing claim",
+      "content": "Both texts describe Impressionist painters making deliberate frame choices. Text 1 says many chose colorful frames to distinguish themselves from Salon conventions. Text 2 says frame colors were chosen for aesthetic reasons, to harmonize with the paintings."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; Gold frames were considered especially desirable by those who purchased works from Impressionist painters.</strong>: Neither text says buyers wanted gold frames; in fact both texts imply buyers of Impressionist works received painted frames. &#10007;</li><li><strong>Choice B &mdash; The colors in an Impressionist painting were often chosen to complement the colors of the frame it would be placed in.</strong>: This reverses the relationship: Text 2 says frame colors were chosen to match the <em>painting</em>, not the other way around. &#10007;</li><li><strong>Choice C &mdash; Many Impressionist painters were intentional about the frames they selected for their works.</strong>: Both texts confirm this &mdash; Text 1 through Moreau&apos;s insistence and the movement&apos;s deliberate choice of colorful frames, Text 2 through the aesthetic reasoning behind frame color selection. &#10003;</li><li><strong>Choice D &mdash; Moreau's preferred framing style was different from that of most Impressionist painters.</strong>: Text 1 explicitly presents Moreau as representative of Impressionist practice, not an exception to it. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject unsupported agreement claims",
+      "content": "Choice A claims buyers especially wanted gold frames, which neither text says. Choice B reverses Text 2's relationship; frames were selected to suit paintings, not the reverse. Choice D says Moreau differed from most Impressionists, but Text 1 presents him as typical. The answer is <strong>C</strong>."
     }
   ]
 }

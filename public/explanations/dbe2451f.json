@@ -1,0 +1,15 @@
+{
+  "questionId": "dbe2451f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare daily consumption",
+      "content": "The common minke whale can have a mass of up to 4,000 kg and baleen whales can eat up to 30 percent of their mass per day, so the minke's maximum would be about 1,200 kg. The blue whale can consume as much as 45,000 kg of krill per day."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "A wrongly suggests minke whales are less likely to eat krill, B wrongly gives both species the blue whale's 45,000 kg figure, and D invents food-scarcity effects. The comparison shows the blue whale can eat more krill per day. The answer is <strong>C</strong>."
+    }
+  ]
+}

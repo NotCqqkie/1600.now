@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Cross-Text Connections question. Text 1 makes an underlined claim; you must find how the Text 2 researchers would respond to it. The claim in Text 1 is that emotional contagion requires physical interaction and observation of body language. Text 2 found emotional contagion occurring through text-based social media posts &mdash; no physical interaction at all."
+      "title": "Compare the two claims",
+      "content": "Text 1 claims emotional contagion requires physical interaction and body language. Text 2 reports evidence of emotional contagion through text-based social media posts, without in-person interaction. That directly challenges the necessity claim rather than contradicting the phenomenon itself."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"It perpetuates a flawed understanding of emotional contagion, because there isn't enough evidence to suggest that smiling is a sign of emotional contagion.\"</strong>: Text 2 says nothing about smiling; smiling is only mentioned in Text 1 as supporting evidence. The Text 2 researchers would not object on those grounds. &#10007;</li><li><strong>\"It reflects an incomplete view of emotional contagion, because this phenomenon can occur even without in-person interaction.\"</strong>: This matches exactly. Shah and Silva found emotional contagion through text-based posts &mdash; proving physical interaction is not required &mdash; so Text 1's claim is incomplete, not wrong in every case. &#10003;</li><li><strong>\"It's fairly persuasive, because studies attempting to identify emotional contagion in situations without in-person interaction have thus far yielded unclear results.\"</strong>: Text 2 found clear results (positive posts led to more positive posts), so this misstates the study's outcome. &#10007;</li><li><strong>\"It's mostly accurate, because the social networking study confirmed that emotional contagion primarily occurs in response to negative emotions like nervousness.\"</strong>: Neither text claims emotional contagion is primarily negative; Text 2 shows it works for both positive and negative emotions. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "State the likely response",
+      "content": "Choice A focuses on smiling, which Text 2 does not address. Choice C says nonphysical studies were unclear, but Text 2 found evidence. Choice D wrongly limits the effect to negative emotions. Text 2 would say the underlined claim is incomplete because emotional contagion can occur without in-person interaction. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c6b63c52",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the plausible interval",
+      "content": "The estimate is $8$ books, and the margin of error is $1.4$ books.\n$$8-1.4=6.6$$\n$$8+1.4=9.4$$"
+    },
+    {
+      "title": "Choose the interval statement",
+      "content": "The interval describes the plausible values for the actual mean number of books read by employees at the company, not every individual employee's number of books. The answer is <strong>B</strong>."
+    }
+  ]
+}

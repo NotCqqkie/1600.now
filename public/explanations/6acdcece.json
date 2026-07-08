@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate x",
-      "content": "Start with $$b-65=\\frac{x}{y}.$$ Multiply both sides by $y$: $$y(b-65)=x.$$"
+      "title": "Multiply by y",
+      "content": "Start with the given equation.\n$$\nb-65=\\frac{x}{y}\n$$\nMultiply both sides by $y$.\n$$\ny(b-65)=x\n$$"
     },
     {
-      "title": "Distribute",
-      "content": "Distribute $y$ across the parentheses: $$x=by-65y.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$x=by-65y$ matches <strong>D</strong>."
-    },
-    {
-      "title": "Check the structure of the answer",
-      "content": "The whole quantity $b-65$ is multiplied by $y$, so both terms must receive the factor $y$. That is why the answer has $by-65y$, not $by-65$."
+      "title": "Distribute the factor",
+      "content": "Distribute $y$ across the parentheses.\n$$\nx=y(b-65)=by-65y\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

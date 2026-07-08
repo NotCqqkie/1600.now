@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4$$<br/>$$x=y+6$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Use the known value",
+      "content": "The first equation gives $y=4$. Substitute that value into the second equation.\n$$\nx=4+6\n$$"
+    },
+    {
+      "title": "Find the coordinate",
+      "content": "Simplify the right side.\n$$\nx=10\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both equations and read the $x$-coordinate of their intersection. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=4",
         "x=y+6"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $10$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

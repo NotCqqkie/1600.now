@@ -1,0 +1,19 @@
+{
+  "questionId": "da872e5c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the first kit",
+      "content": "The first seed kit costs $18$ dollars. If $x$ kits are purchased total, then the number of kits after the first is $x-1$."
+    },
+    {
+      "title": "Write the total cost",
+      "content": "The additional kits cost $13$ dollars each, so the total cost is the first-kit cost plus the additional-kit cost.<br/>$$y=18+13(x-1)$$<br/>$$y=13(x-1)+18$$"
+    },
+    {
+      "title": "Match the equation",
+      "content": "This equation charges $18$ dollars for the first kit and $13$ dollars for each of the remaining $x-1$ kits. The answer is <strong>C</strong>."
+    }
+  ]
+}

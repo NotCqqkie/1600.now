@@ -4,13 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify favorable and total outcomes",
-      "content": "In a probability problem, we count <strong>favorable outcomes</strong> (what we want) and <strong>total outcomes</strong> (all possibilities). Here:<ul><li>Total houses on the block: <strong>8</strong></li><li>Houses with red doors (favorable): <strong>3</strong></li></ul>"
+      "title": "Identify the outcomes",
+      "content": "There are $8$ houses total, and $3$ of them have red doors. The favorable outcomes are the houses with red doors."
     },
     {
-      "title": "Apply the probability formula",
-      "content": "The probability of selecting a house with a red door is the ratio of houses with red doors to total houses:<br/>$$P(\\text{red door}) = \\frac{\\text{houses with red doors}}{\\text{total houses}} = \\frac{3}{8}$$<br/>That confirms <strong>B</strong> is correct.",
+      "title": "Apply probability",
+      "content": "Use favorable outcomes over total outcomes.",
       "formula": "$$P = \\frac{\\text{favorable}}{\\text{total}}$$"
+    },
+    {
+      "title": "Substitute the counts",
+      "content": "Substitute $3$ favorable houses and $8$ total houses.\n$$P=\\frac{3}{8}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

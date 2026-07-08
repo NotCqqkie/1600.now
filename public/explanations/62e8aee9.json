@@ -1,0 +1,19 @@
+{
+  "questionId": "62e8aee9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Each term in $19x^3+3x^2+8x$ contains a factor of $x$. Factoring out the greatest common factor means dividing every term by $x$ and keeping what remains inside parentheses."
+    },
+    {
+      "title": "Divide each term",
+      "content": "Divide term by term: $19x^3\\div x=19x^2$, $3x^2\\div x=3x$, and $8x\\div x=8$. The remaining terms become the terms inside the parentheses."
+    },
+    {
+      "title": "Check by expanding",
+      "content": "Multiplying the factored form back out returns the same three terms in the original expression: $x(19x^2+3x+8)=19x^3+3x^2+8x$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1026cb97",
+  "correctAnswer": ".0004",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square units",
+      "content": "Since $1$ meter equals $100$ centimeters, $1$ square meter equals $10{,}000$ square centimeters.\n$$\n240\\ \\frac{\\text{cm}^2}{\\text{hour}}\\cdot \\frac{1\\ \\text{m}^2}{10{,}000\\ \\text{cm}^2}=0.024\\ \\frac{\\text{m}^2}{\\text{hour}}\n$$"
+    },
+    {
+      "title": "Convert hours to minutes",
+      "content": "There are $60$ minutes in $1$ hour, so divide by $60$.\n$$\n\\frac{0.024}{60}=0.0004\n$$\nThe answer is <strong>.0004</strong>."
+    }
+  ]
+}

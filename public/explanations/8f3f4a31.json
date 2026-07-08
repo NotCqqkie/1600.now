@@ -1,0 +1,15 @@
+{
+  "questionId": "8f3f4a31",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the specific prize",
+      "content": "The phrase <em>the most prestigious award for a person of letters</em> needs to stay intact. The words after the blank, <em>the Nobel Prize in Literature</em>, identify the specific award being described, so the punctuation should introduce that appositive."
+    },
+    {
+      "title": "Place the colon correctly",
+      "content": "A and B misuse semicolons, which must connect independent clauses. C places the colon too early, splitting <em>for a person of letters</em> away from the noun it modifies. Putting the colon after the full noun phrase correctly introduces the specific prize. The answer is <strong>D</strong>."
+    }
+  ]
+}

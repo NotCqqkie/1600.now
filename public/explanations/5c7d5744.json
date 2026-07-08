@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the two curves on the graph",
-      "content": "The graph contains two curves: a straight line (the linear equation) and a parabola opening upward (the nonlinear equation). The solution to the system is the point where these two curves intersect."
+      "title": "Locate the intersection",
+      "content": "A solution to a graphed system is the point where the two graphs intersect. Here, the line and the nonlinear graph meet at one visible point."
     },
     {
-      "title": "Locate the intersection and read its coordinates",
-      "content": "Visually trace where the line and parabola meet. At the intersection point, the $x$-coordinate is $-2$ and the $y$-coordinate is $6$. The solution is $(-2,6)$, which matches <strong>B</strong>."
+      "title": "Read the coordinates",
+      "content": "The intersection has $x$-coordinate $-2$ and $y$-coordinate $6$, so the solution is $(-2,6)$. The answer is <strong>B</strong>."
     }
   ]
 }

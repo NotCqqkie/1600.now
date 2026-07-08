@@ -1,0 +1,15 @@
+{
+  "questionId": "7edd9be6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect pressure to avoidance",
+      "content": "Large vortices produce greater snout pressure fluctuations for narrow-headed fish than for wide-headed fish. The second team's hypothesis says greater pressure fluctuations help fish avoid obstructions in low visibility. Combining those ideas, narrow-headed fish should have fewer collisions, while wide-headed fish should bump into obstructions more often under the same large-vortex, low-visibility conditions."
+    },
+    {
+      "title": "Reject missing comparisons",
+      "content": "Choice A compares only narrow-headed fish with other narrow-headed fish, so it does not test the head-shape difference. Choice B says narrow- and wide-headed fish collide equally often, which would not support greater pressure fluctuations improving avoidance. Choice D gives only the wide-headed fish's collision rate and no comparison to narrow-headed fish, so it cannot show whether lower fluctuations mean poorer avoidance. The remaining finding shows the wide-headed fish, with lower pressure fluctuations, bumping into obstructions more often than the narrow-headed fish, with higher pressure fluctuations. The answer is <strong>C</strong>."
+    }
+  ]
+}

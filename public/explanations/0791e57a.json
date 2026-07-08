@@ -1,0 +1,19 @@
+{
+  "questionId": "0791e57a",
+  "correctAnswer": "1080",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The vertex is $(12,1{,}440)$, so use\n$$\nf(t)=a(t-12)^2+1{,}440\n$$"
+    },
+    {
+      "title": "Use the launch height",
+      "content": "Use $f(0)=0$:\n$$\n0=a(0-12)^2+1{,}440\n$$\n$$\n144a=-1{,}440\n$$\n$$\na=-10\n$$"
+    },
+    {
+      "title": "Evaluate at eighteen seconds",
+      "content": "Substitute $t=18$:\n$$\nf(18)=-10(18-12)^2+1{,}440\n$$\n$$\nf(18)=-10(36)+1{,}440=1{,}080\n$$\nThe answer is <strong>1080</strong>."
+    }
+  ]
+}

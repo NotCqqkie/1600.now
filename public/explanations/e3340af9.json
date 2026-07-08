@@ -1,0 +1,15 @@
+{
+  "questionId": "e3340af9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect need to response",
+      "content": "The first sentence explains a need to verify claims that certain cheeses are typical of specific Italian regions. The next sentence describes the EU establishing DOP status to certify regional traditions."
+    },
+    {
+      "title": "Use a cause-effect transition",
+      "content": "Choice A signals opposition, Choice B signals similarity, and Choice C signals disregard. The EU label is presented as a response to the need for verification, so the transition must show consequence. The answer is <strong>D</strong>."
+    }
+  ]
+}

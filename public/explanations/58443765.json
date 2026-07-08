@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph or check the choices",
-      "content": "Since the answer choices are ordered pairs, the quickest method is to check which point lies on both graphs. Graph both equations and read an intersection point.",
+      "title": "Set the equations equal",
+      "content": "Both equations equal $y$, so set their right sides equal:<br/>$$5x+4=5x^2+4$$"
+    },
+    {
+      "title": "Find the shared point",
+      "content": "Subtract $5x+4$ from both sides:<br/>$$0=5x^2-5x$$<br/>$$0=5x(x-1)$$<br/>The possible $x$-values make one factor equal $0$."
+    },
+    {
+      "title": "Check the listed point",
+      "content": "Graph the two equations and choose the listed ordered pair at an intersection point. The listed intersection point is $(0,4)$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=5x+4",
         "y=5x^2+4"
       ]
-    },
-    {
-      "title": "Test the matching point",
-      "content": "Test $(0,4)$: $$5(0)+4=4$$ and $$5(0)^2+4=4$$ Both equations give $y=4$, so $(0,4)$ satisfies the system."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "A choice with the right $x$ but wrong $y$. The two points with $x=8$ fail. The point that satisfies both equations is $(0,4)$, so <strong>B</strong> is correct."
     }
   ]
 }

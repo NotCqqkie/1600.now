@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structures at the sentence boundary",
-      "content": "Left: independent clause ending with “study its ancient tombs.” Right: participial phrase “built into the rocky outcrops of a vast desert” followed by independent clause “these burial chambers seem to blend seamlessly with nature.”"
+      "title": "Separate the two sentences",
+      "content": "The first complete idea is that Laila Nehme traveled to Hegra to study its ancient tombs. The next sentence begins with a participial phrase, \"Built into the rocky outcrops of a vast desert,\" and then has the independent clause \"these burial chambers seem to blend seamlessly with nature.\""
     },
     {
-      "title": "Apply the comma splice rule",
-      "content": "Two independent clauses cannot be joined by a comma alone—this violates the comma splice rule.<br/><br/><strong>Choice A &mdash; tombs. Built</strong> separates them with a period, allowing the participial phrase to introduce the second sentence.<br/><br/>The other choices create comma splices by joining independent clauses with only a comma or produce an incoherent parallel structure.<br/><br/>That matches <strong>Choice A &mdash; tombs. Built</strong>."
+      "title": "Reject fused structures",
+      "content": "B creates a comma splice by joining the first independent clause to the next sentence with only a comma. C incorrectly coordinates \"study\" and \"built\" as if they were parallel actions. D fuses the tombs description into one confusing sentence with no clear boundary. The answer is <strong>A</strong>."
     }
   ]
 }

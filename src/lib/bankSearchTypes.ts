@@ -16,6 +16,7 @@ export type BankSearchIndexRow = readonly [
   previewText: string,
   searchText: string,
   scoreBand: number | null,
+  dupGroup: number,
 ];
 
 export interface BankSearchResult {
@@ -32,6 +33,8 @@ export interface BankSearchResult {
   };
   inPracticeTests: boolean;
   previewText: string;
+  /** Near-duplicate group within the pool; 0 = unique */
+  dupGroup: number;
 }
 
 export interface BankSearchProgressEntry {

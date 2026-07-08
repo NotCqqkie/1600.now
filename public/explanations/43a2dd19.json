@@ -1,0 +1,18 @@
+{
+  "questionId": "43a2dd19",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the equation",
+      "content": "Factor out the common factor $x$.<br/>$$x^2-28x=0$$<br/>$$x(x-28)=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph or solve the equation to find its zeros. The zero-product form also shows the listed nonzero solution. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "x^{2}-28x=0"
+      ]
+    }
+  ]
+}

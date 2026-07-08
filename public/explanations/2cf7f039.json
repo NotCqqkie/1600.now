@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the function equal to 35",
-      "content": "The function is $f(x)=7\\sqrt{x}$, and the question asks when $f(x)=35$. So solve $$7\\sqrt{x}=35$$"
+      "title": "Set the output",
+      "content": "The function is $f(x)=7\\sqrt{x}$, and the question asks when $f(x)=35$. So solve\n$$\n7\\sqrt{x}=35\n$$"
     },
     {
       "title": "Solve for x",
-      "content": "Divide by $7$: $$\\sqrt{x}=5$$ Square both sides: $$x=25$$"
+      "content": "Divide by $7$, then square both sides:\n$$\n\\sqrt{x}=5\n$$\n$$\nx=25\n$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The correct answer is $25$, which is <strong>Choice C</strong>. It checks because $7\\sqrt{25}=7(5)=35$. The other choices do not make the function equal $35$."
+      "title": "Choose the input",
+      "content": "The value $25$ makes $7\\sqrt{x}=35$. The answer is <strong>C</strong>."
     }
   ]
 }

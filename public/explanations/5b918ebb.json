@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify corresponding angles",
-      "content": "Line $n$ is a transversal crossing parallel lines $r$ and $s$. From the figure, the $162^{\\circ}$ angle and the $x^{\\circ}$ angle occupy matching positions at the two intersections, so they are corresponding angles."
+      "content": "Line $n$ is a transversal crossing parallel lines $r$ and $s$. The angle marked $162^\\circ$ and the angle marked $x^\\circ$ are in corresponding positions."
     },
     {
-      "title": "Apply the corresponding angles relationship",
-      "content": "Corresponding angles formed by a transversal across parallel lines are congruent. Therefore, $$x=162.$$"
+      "title": "Use the parallel-line relationship",
+      "content": "Corresponding angles formed by a transversal across parallel lines are congruent.<br/>$$x=162$$<br/>The answer is <strong>162</strong>."
     }
   ]
 }

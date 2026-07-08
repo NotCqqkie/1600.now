@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question tests Command of Evidence (Support). The team&rsquo;s idea is that the shifting appearance of iridescent colors makes insects harder for other animals to see. The experiment compared how many iridescent wings versus solid-color (purple/blue) wings human participants could locate. The winning choice must show that participants found fewer iridescent wings, directly supporting the &ldquo;harder to see&rdquo; prediction."
+      "title": "Test the team's prediction",
+      "content": "The team thought shifting iridescent colors might make insects harder to see, even though scientists had assumed iridescence might attract predators. The experiment compares how easily participants found iridescent wings versus wings painted with nonchanging purple or blue colors in the leaf-search task."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; On average, participants found most of the purple wings and blue wings and far fewer of the iridescent wings.</strong>: Shows noniridescent wings were found more often, meaning iridescent wings were harder to spot &mdash; exactly what the team predicted. &#10003;</li><li><strong>Choice B &mdash; On average, participants found the iridescent wings faster than they found the purple wings or blue wings.</strong>: Shows iridescent wings were easier (not harder) to locate, which directly undermines the team&rsquo;s idea. &#10007;</li><li><strong>Choice C &mdash; Some participants reported that the purple wings were easier to see than the blue wings.</strong>: Compares two noniridescent colors against each other; neither group is iridescent, so this finding is irrelevant to the team&rsquo;s prediction about iridescence. &#10007;</li><li><strong>Choice D &mdash; Some participants successfully found all of the wings on the leaves.</strong>: If all wings &mdash; iridescent and solid &mdash; could be found, that suggests iridescence provided no camouflage advantage, which if anything weakens the team&rsquo;s idea. &#10007;</li></ul>That matches <strong>Choice A &mdash; On average, participants found most of the purple wings and blue wings and far fewer of the iridescent wings.</strong>."
+      "title": "Reject weak support",
+      "content": "B would weaken the idea by making iridescent wings easier to find. C compares purple and blue wings, not iridescent wings against noniridescent ones. D says some people found all wings, which does not support a camouflage advantage. The answer is <strong>A</strong>."
     }
   ]
 }

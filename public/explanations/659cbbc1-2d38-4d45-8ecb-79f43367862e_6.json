@@ -4,17 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the standard form",
-      "content": "A circle with center $(h, k)$ and radius $r$: $(x-h)^2 + (y-k)^2 = r^2$. Center $(-5, 2)$ gives $(x+5)^2 + (y-2)^2$ on the left, eliminating A and C."
+      "title": "Write the circle form",
+      "content": "A circle with center $(h,k)$ has equation\n$$\n(x-h)^2+(y-k)^2=r^2\n$$\nWith center $(-5,1)$, the left side is\n$$\n(x+5)^2+(y-1)^2\n$$"
     },
     {
-      "title": "Compute the radius",
-      "content": "Distance from $(-5, 2)$ to $(-9, 5)$: $\\sqrt{(-9+5)^2 + (5-2)^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$. So $r^2 = 25$.<br/>$$(x+5)^2 + (y-2)^2 = 25$$<br/>The Desmos graph is a visual check: it shows the circle centered at $(-5,2)$ and passing through $(-9,5)$, so the radius really is $5$. That confirms <strong>D</strong> is correct.",
+      "title": "Find the radius value",
+      "content": "Use the point $(-9,4)$ to find $r^2$.\n$$\nr^2=(-9+5)^2+(4-1)^2\n$$\n$$\nr^2=(-4)^2+3^2=25\n$$",
       "desmosExpressions": [
         "(x+5)^2 + (y-2)^2 = 25",
         "(-5, 2)",
         "(-9, 5)"
       ]
+    },
+    {
+      "title": "Build the equation",
+      "content": "Substitute the center and radius value.\n$$\n(x+5)^2+(y-1)^2=25\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "5d361327",
+  "correctAnswer": "2700",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=270x$. To find $f(10)$, substitute $10$ for $x$, because the input replaces the variable in the rule."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Multiply to find the output.\n$$\nf(10)=270(10)=2700\n$$\nThe answer is <strong>2700</strong>."
+    }
+  ]
+}

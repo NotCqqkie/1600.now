@@ -1,0 +1,15 @@
+{
+  "questionId": "a5e23c00",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect language to place",
+      "content": "The passage links Mandarin with north China and Flushing, while Cantonese and Fuzhounese are linked with south China and Chinatown. That repeated alignment between regional languages and New York neighborhoods is the basis for the inference."
+    },
+    {
+      "title": "Infer settlement patterns",
+      "content": "Choice B invents movement between boroughs, Choice C invents a difference between older and newer immigrants, and Choice D requires population totals the passage never gives. The supported inference is that migrants from each Chinese region tended to settle where that region's dominant language is spoken. The answer is <strong>A</strong>."
+    }
+  ]
+}

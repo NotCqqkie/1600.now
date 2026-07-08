@@ -1,0 +1,19 @@
+{
+  "questionId": "380458bf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to each term",
+      "content": "Multiply $4xy$ by both terms inside the parentheses. This keeps the $x$ and $y$ factors attached to each product.<br/>$$4xy(3x^2)+4xy(5y)$$"
+    },
+    {
+      "title": "Simplify the products",
+      "content": "Multiply coefficients and combine matching variable factors. The first product gains another two powers of $x$, and the second product gains another factor of $y$.<br/>$$4xy\\cdot3x^2=12x^3y$$<br/>$$4xy\\cdot5y=20xy^2$$"
+    },
+    {
+      "title": "Write the equivalent expression",
+      "content": "The expanded expression is $12x^3y+20xy^2$. The answer is <strong>D</strong>."
+    }
+  ]
+}

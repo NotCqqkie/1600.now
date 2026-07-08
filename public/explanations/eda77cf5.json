@@ -1,0 +1,15 @@
+{
+  "questionId": "eda77cf5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect praise to the award",
+      "content": "The first sentence says the album received critical attention and praise. The next sentence says few were surprised when it won an award, so the transition must show a result."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "The matching transition signals that the unsurprising award win follows from the album's strong reception. Choice A signals frequency, Choice C signals contrast, and Choice D signals concession. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the task requires",
-      "content": "The student wants to use <em>one</em> poem to illustrate the sestina form. A correct answer must: (1) select a single poem, (2) accurately state that a sestina has thirty-nine lines with six end words in a set pattern, and (3) use end words that actually belong to the chosen poem."
+      "title": "Use one poem as evidence",
+      "content": "The student wants to use one poem to illustrate the sestina form. The sentence must identify a single poem, explain the form's thirty-nine lines and six patterned end words, and use end words that belong to that poem."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>\"Whitman employs the sestina, a poetic form with thirty-nine lines and six end words, in both \"Forage Sestina\" and \"Towards Autumn.\"</strong>: references both poems rather than one, so it does not use a single poem to illustrate the form. &#10007;</li><li><strong>'As a sestina, \"Towards Autumn\" contains thirty-nine lines and six end words—in this case, <em>daughter</em>, <em>friend</em>, <em>bread</em>, <em>mother</em>, <em>lover</em>, and <em>myself</em>—that alternate in a set pattern.'</strong>: selects one poem, correctly states the form&rsquo;s features, and uses the exact end words the notes attribute to &ldquo;Towards Autumn.&rdquo; &#10003;</li><li><strong>The remaining alternative uses the words <em>daughter</em>, <em>friend</em>, <em>bread</em>, <em>mother</em>, <em>lover</em>, and <em>myself</em>, which are found in the poem \"Forage Sestina.\"'</strong>: misattributes these end words &mdash; the notes say they belong to &ldquo;Towards Autumn,&rdquo; not &ldquo;Forage Sestina.&rdquo; &#10007;</li><li><strong>'Whitman has used the sestina form multiple times, as in \"Towards Autumn,\" which contains these six words: <em>words</em>, <em>structure</em>, <em>wire</em>, <em>beam</em>, <em>wall</em>, and <em>room</em>.'</strong>: misattributes those end words &mdash; the notes assign them to &ldquo;Forage Sestina,&rdquo; not &ldquo;Towards Autumn.&rdquo; &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject inaccurate examples",
+      "content": "Choice A names both poems instead of using one as the illustration. Choice C assigns the end words from <em>Towards Autumn</em> to <em>Forage Sestina</em>. Choice D assigns the end words from <em>Forage Sestina</em> to <em>Towards Autumn</em>. The answer is <strong>B</strong>."
     }
   ]
 }

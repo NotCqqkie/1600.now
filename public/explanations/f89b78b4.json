@@ -1,0 +1,15 @@
+{
+  "questionId": "f89b78b4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence's role",
+      "content": "The underlined sentence says the crater's shape and appearance did not suggest impact formation. In the passage, that point works with the evidence of water ice and ammonia to support the idea that the crater was likely an ice volcano."
+    },
+    {
+      "title": "Separate method from evidence",
+      "content": "Choice A wrongly says the sentence introduces a research method. Choice C shifts to the importance of New Horizons, and Choice D invents an initial misconception. The sentence instead rules out impact as an alternative explanation based on the crater's appearance. The answer is <strong>B</strong>."
+    }
+  ]
+}

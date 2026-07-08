@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the goal requires",
-      "content": "To effectively describe how DLS cures 3D objects, an answer must trace the actual mechanism from start to finish. The notes show the sequence: UV light projects into liquid resin → layers build up → final baking."
+      "title": "Trace the curing sequence",
+      "content": "The notes describe UV light images projected into liquid resin, layers forming as the object is raised and more resin flows, and final baking in an oven. The answer must keep that sequence and the roles of light, resin, and oven clear."
     },
     {
-      "title": "Find the choice that captures this sequence",
-      "content": "Choice C traces the mechanism precisely: UV light projects into liquid resin (initiating curing), layers build up, then the object bakes in an oven.<br/><br/>The other choices either wrongly place curing in the dead zone, skip the UV-into-resin initiation, or scramble the sequence.<br/><br/>That is the correct answer."
+      "title": "Reject scrambled processes",
+      "content": "A suggests UV light itself is baked. B says DLS passes through a dead zone, though the light passes through and resin flows there. D suggests the resin solidifies and then passes through the dead zone. The accurate description has UV light curing resin layer by layer before oven curing. The answer is <strong>C</strong>."
     }
   ]
 }

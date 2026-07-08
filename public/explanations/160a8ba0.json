@@ -1,0 +1,15 @@
+{
+  "questionId": "160a8ba0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the original intercept",
+      "content": "From the scatterplot, the line of best fit for data set A has a $y$-intercept of about $53.75$."
+    },
+    {
+      "title": "Shift the intercept down",
+      "content": "Data set B subtracts $11$ from every $y$-value, so the whole line of best fit shifts down $11$ units. The new intercept is<br/>$$53.75-11=42.75$$The answer is <strong>C</strong>."
+    }
+  ]
+}

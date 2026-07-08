@@ -1,0 +1,15 @@
+{
+  "questionId": "6d016f04",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the answered question",
+      "content": "The passage directly asks why y'all has become more popular, then answers by explaining that many English varieties lack a dedicated plural form of <em>you</em>. Because y'all always refers to more than one person, it can express meaning more precisely."
+    },
+    {
+      "title": "Reject questions not addressed",
+      "content": "<ul><li>Choice A asks for a count of other plural forms, which the passage never provides.</li><li>Choice B asks about first recorded use, but the passage does not discuss origin dates.</li><li>Choice C asks about regions outside the US, while the passage stays within US usage.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

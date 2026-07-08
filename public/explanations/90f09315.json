@@ -1,0 +1,15 @@
+{
+  "questionId": "90f09315",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name a specific nickname",
+      "content": "The student wants an example of a dinosaur fossil specimen's nickname. The answer must name a particular nickname, not just say that nicknames are common or that a specimen exists."
+    },
+    {
+      "title": "Reject general dinosaur facts",
+      "content": "Choice A mentions a nicknamed specimen but never gives the nickname. Choice B only says many specimens receive nicknames. Choice D describes the fossil specimen without naming its nickname. The remaining choice identifies Wyrex as the nickname of the specimen. The answer is <strong>C</strong>."
+    }
+  ]
+}

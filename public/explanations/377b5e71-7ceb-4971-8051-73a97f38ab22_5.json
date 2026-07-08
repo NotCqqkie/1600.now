@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The question asks for the main purpose of the text. The text opens with Hanel&apos;s conclusion (reflecting on values makes people more polite), then describes the exact method used: two groups, what each wrote about, and what was observed."
+      "content": "The question asks for the main purpose of the text. The text opens with Hanel's conclusion (reflecting on values makes people more polite), then describes the exact method used: two groups, what each wrote about, and what was observed."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — To argue that researchers were surprised by the results of a certain study</strong>: No surprise is mentioned anywhere in the text. &#10007;</li><li><strong>Choice B — To suggest ways to improve a certain study’s experimental design</strong>: The text describes the design neutrally; no improvements are proposed. &#10007;</li><li><strong>Choice C — To explain a study’s conclusion and how a research team arrived at that conclusion</strong>: The first sentence states the conclusion; the rest walks through the method. Both halves are present. &#10003;</li><li><strong>Choice D — To describe a widely held belief and how a study’s results support that belief</strong>: No pre-existing belief is mentioned; the study&apos;s finding stands on its own. &#10007;</li></ul><strong>C</strong> is correct."
+      "content": "<ul><li><strong>Choice A — To argue that researchers were surprised by the results of a certain study</strong>: No surprise is mentioned anywhere in the text. ✗</li><li><strong>Choice B — To suggest ways to improve a certain study’s experimental design</strong>: The text describes the design neutrally; no improvements are proposed. ✗</li><li><strong>Choice C — To explain a study’s conclusion and how a research team arrived at that conclusion</strong>: The first sentence states the conclusion; the rest walks through the method. Both halves are present. ✓</li><li><strong>Choice D — To describe a widely held belief and how a study’s results support that belief</strong>: No pre-existing belief is mentioned; the study's finding stands on its own. ✗</li></ul><strong>C</strong> is correct."
     }
   ]
 }

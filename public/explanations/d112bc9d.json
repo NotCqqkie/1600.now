@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract temperature values from the scatterplot",
-      "content": "This is not a modeling problem; it asks for the biggest one-step increase. Read the plotted points from left to right: $(1,69)$, $(2,60)$, $(3,73)$, $(4,68)$, $(5,64)$, $(6,62)$, and $(7,65)$."
+      "title": "Read the plotted values",
+      "content": "The relevant recorded temperatures are $(1,69)$, $(2,60)$, $(3,73)$, $(5,64)$, $(6,62)$, and $(7,65)$."
     },
     {
-      "title": "Calculate the temperature change for each interval",
-      "content": "For each time period, compute $\\Delta y = y_{\\text{end}} - y_{\\text{start}}$:<ul><li>Choice D ($x=1$ to $x=2$): $60 - 69 = -9^{\\circ}\\text{F}$ (decrease)</li><li>Choice C ($x=2$ to $x=3$): $73 - 60 = 13^{\\circ}\\text{F}$ (increase)</li><li>Choice B ($x=5$ to $x=6$): $62 - 64 = -2^{\\circ}\\text{F}$ (decrease)</li><li>Choice A ($x=6$ to $x=7$): $65 - 62 = 3^{\\circ}\\text{F}$ (increase)</li></ul>The greatest increase is $13^{\\circ}\\text{F}$ from day 2 to day 3. That is the correct answer."
+      "title": "Compare the changes",
+      "content": "Compute each listed change.<br/>$$x=6\\text{ to }x=7:\\quad 65-62=3$$<br/>$$x=5\\text{ to }x=6:\\quad 62-64=-2$$<br/>$$x=2\\text{ to }x=3:\\quad 73-60=13$$<br/>$$x=1\\text{ to }x=2:\\quad 60-69=-9$$"
+    },
+    {
+      "title": "Choose the greatest increase",
+      "content": "The greatest increase is $13$ degrees, from $x=2$ to $x=3$. The answer is <strong>C</strong>."
     }
   ]
 }

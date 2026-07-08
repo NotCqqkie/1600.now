@@ -1,0 +1,15 @@
+{
+  "questionId": "f0c76ffc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Weigh performance and cost",
+      "content": "The scientist's conclusion depends on practical considerations: BZMA must perform nearly as well as the expensive β-cyclodextrin resin while outperforming other inexpensive methacrylate resins."
+    },
+    {
+      "title": "Find the best-value evidence",
+      "content": "The finding that BZMA is only modestly lower than the expensive resin but higher than the other cheap resins supports that trade-off across both compounds. Practical potential here depends on strong absorption plus lower cost, not on absorption alone, in wastewater cleanup. B is uneven, while C and D fail to distinguish BZMA from low-cost peers. The answer is <strong>A</strong>."
+    }
+  ]
+}

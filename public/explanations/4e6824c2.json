@@ -1,0 +1,19 @@
+{
+  "questionId": "4e6824c2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the bottleneck",
+      "content": "The passage identifies the problem in microbial fuel cells: electrons produced by bacteria must travel through inefficient redox reactions before reaching the outside electrode. That slow transfer keeps typical power density at or below 0.30 mW/cm2. After researchers added silver nanoparticles to the anode covering, power density rose to 0.66 mW/cm2."
+    },
+    {
+      "title": "Use the conductivity clue",
+      "content": "The last sentence points to silver's high electrical conductivity, so the hypothesis should explain the increase through easier electron movement. Choice A shifts the explanation to bacterial metabolism, but the passage locates the bottleneck after electrons are produced. Choice B removes the nanoparticles from the explanation. Choice D says silver catalyzes the redox reactions, which is not the conductivity-based mechanism."
+    },
+    {
+      "title": "Choose direct transfer",
+      "content": "Choice C fits the experiment and the stated property of silver: conductive nanoparticles could let electrons bypass the inefficient redox chain and move directly to the electrode. That mechanism explains why adding silver would increase power output. The answer is <strong>C</strong>."
+    }
+  ]
+}

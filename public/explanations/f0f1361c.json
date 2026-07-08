@@ -1,0 +1,15 @@
+{
+  "questionId": "f0f1361c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Split the explanation cleanly",
+      "content": "The phrase <em>A ray diagram reveals how this works</em> is a complete sentence. The next sentence can begin with <em>Because</em>, which introduces the reason the small hole leads to a focused projected image."
+    },
+    {
+      "title": "Avoid splice constructions",
+      "content": "Choice A attaches the reason awkwardly to <em>works</em>. Choice C creates a comma splice with <em>it's because</em>. Choice D uses a colon and the same awkward <em>it's because</em> structure. Ending the first sentence after <em>works</em> gives the mechanism its own clear explanatory sentence about light. The answer is <strong>B</strong>."
+    }
+  ]
+}

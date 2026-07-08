@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use f(6) = 42 to find k",
-      "content": "Substitute $x = 6$ into the function definition:<br/>$$f(6) = 5(6) + k(6-2) = 42$$<br/>$$30 + 4k = 42$$<br/>$$4k = 12$$<br/>$$k = 3$$"
+      "title": "Use the given function value",
+      "content": "Substitute $x=6$ and $f(6)=42$ into the function:<br/>$$42=5(6)+k(6-2)$$<br/>$$42=30+4k$$"
     },
     {
-      "title": "Evaluate f(11) with k = 3",
-      "content": "Now that $k = 3$, simplify the original function:<br/>$$f(x) = 5x + 3(x-2) = 5x + 3x - 6 = 8x - 6$$<br/>Evaluate at $x = 11$:<br/>$$f(11) = 8(11) - 6 = 88 - 6 = 82$$"
+      "title": "Solve for k",
+      "content": "Continue solving:<br/>$$12=4k$$<br/>$$k=3$$"
+    },
+    {
+      "title": "Evaluate the new input",
+      "content": "Substitute $k=3$ and $x=11$:<br/>$$f(11)=5(11)+3(11-2)$$<br/>$$f(11)=55+27=82$$<br/>The answer is <strong>82</strong>."
     }
   ]
 }

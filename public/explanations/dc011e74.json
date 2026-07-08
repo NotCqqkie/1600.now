@@ -1,0 +1,15 @@
+{
+  "questionId": "dc011e74",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose two points",
+      "content": "The line of best fit falls from left to right, so the slope must be negative. Two visible points on the drawn line are approximately $(0{,}11.2)$ and $(8{,}4.5)$."
+    },
+    {
+      "title": "Calculate the slope",
+      "content": "Use the slope formula:\n$$\nm=\\frac{4.5-11.2}{8-0}=\\frac{-6.7}{8}=-0.8375\n$$\nThis is closest to $-0.84$. The answer is <strong>B</strong>."
+    }
+  ]
+}

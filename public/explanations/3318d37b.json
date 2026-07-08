@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the unit rate",
-      "content": "We are given that the supply costs \\$12.50 per pound. This is the unit rate, the cost per unit quantity."
+      "title": "Use the unit price",
+      "content": "The cost is $12.50$ dollars for each pound. For $4$ pounds, multiply the price per pound by $4$."
     },
     {
-      "title": "Calculate total cost by scaling the unit rate",
-      "content": "To find the cost for 4 pounds, multiply the unit rate by the quantity:<br/>$$12.50 \\times 4 = 50$$<br/>The cost for 4 pounds is \\$50.00. Because the price is given per pound, the relationship is proportional: twice as many pounds would cost twice as much. No additional fixed fee is described, so multiplication alone gives the total."
+      "title": "Find the total cost",
+      "content": "The total cost is\n$$\n12.50\\cdot 4=50\n$$\nThe answer is <strong>50</strong>."
     }
   ]
 }

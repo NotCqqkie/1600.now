@@ -1,0 +1,23 @@
+{
+  "questionId": "ebf23040",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare spread from the mean",
+      "content": "Standard deviation measures how spread out the data values are from their mean. Values clustered close to the mean have a smaller standard deviation, while values spread farther away have a larger standard deviation. The means identify the center of each histogram, not the amount of spread by themselves."
+    },
+    {
+      "title": "Read group A",
+      "content": "Group A has more weight farther from its mean of $2.1$. Its histogram places substantial frequency near the outer weights, so many objects are not close to the center. That wider spread makes its standard deviation larger."
+    },
+    {
+      "title": "Read group B",
+      "content": "Group B is more tightly clustered near its mean of $11.1$. Most objects are close to the center of that distribution, with less frequency far out in the tails. A tighter cluster means a smaller standard deviation."
+    },
+    {
+      "title": "Choose the larger spread",
+      "content": "Because group A is more spread out from its mean than group B, group A has the greater standard deviation. The answer is <strong>C</strong>."
+    }
+  ]
+}

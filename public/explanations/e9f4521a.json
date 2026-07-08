@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use part over whole",
-      "content": "$27$ is the part and $45$ is the whole. Convert the fraction to a percent: $$\\frac{27}{45}\\cdot 100$$"
+      "title": "Write the percent equation",
+      "content": "$27$ is $p\\%$ of $45$, so<br/>$$27=\\frac{p}{100}(45)$$"
     },
     {
-      "title": "Calculate p",
-      "content": "$$\\frac{27}{45}=0.60$$ $$0.60\\cdot 100=60$$ Therefore, $27$ is $60\\%$ of $45$."
-    },
-    {
-      "title": "Confirm the grid-in answer",
-      "content": "Since $p$ is the number in $p\\%$, enter <strong>60</strong>, not $0.60$."
+      "title": "Solve for the percent",
+      "content": "Divide by $45$ and multiply by $100$:<br/>$$\\frac{27}{45}=\\frac{p}{100}$$<br/>$$p=\\frac{27}{45}\\cdot100=60$$<br/>The answer is <strong>60</strong>."
     }
   ]
 }

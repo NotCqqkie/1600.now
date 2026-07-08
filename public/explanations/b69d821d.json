@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the main idea of the poem. The speaker describes the calm of a port at evening and then &mdash; marked by &ldquo;Then, and then only, have I thought&rdquo; &mdash; reflects that old age could be sweet and quiet after a &ldquo;windy youth.&rdquo; The correct answer must capture both the triggering scene (evening port tranquility) and the thought it prompts (appreciation of old age's stillness)."
+      "title": "Link scene and reflection",
+      "content": "The poem describes a calm evening port: lights, moored boats, furled sails, and still wind. Then the speaker reflects that old age could be sweet and quiet after a stormy youth."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The tranquility of a port in the evening can incline a person to appreciate the stillness of old age.</strong>: matches exactly: the calm scene prompts the speaker to welcome old age as &ldquo;sweet,&rdquo; &ldquo;quiet,&rdquo; and &ldquo;gracious.&rdquo; &#10003;</li><li><strong>Choice B &mdash; The difficulty of bringing a ship into port is apt training for dealing with the types of struggles encountered in old age.</strong>: introduces difficulty in docking, which is absent from the poem. The poem also depicts old age as peaceful rather than full of struggles. &#10007;</li><li><strong>Choice C &mdash; A person who leads a long life that is varied and active may find it difficult to stay in a calm place.</strong>: contradicts the poem's tone. The speaker welcomes old age's calm; there is no suggestion of difficulty accepting stillness. &#10007;</li><li><strong>Choice D &mdash; The contrast between the peacefulness of a port at night and its activity during the day reflects the contrast between the calm of old age and the vibrancy of youth.</strong>: the poem never describes daytime activity at the port, so a day/night contrast is not established. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject overreadings",
+      "content": "Choice B invents difficulty docking and struggle in old age. Choice C contradicts the speaker's welcome of calm. Choice D invents a daytime-port contrast that the poem never develops."
+    },
+    {
+      "title": "State the main idea",
+      "content": "Choice A connects the evening port's tranquility with the speaker's appreciation of old age as peaceful, sweet, quiet, and gracious after youthful storms. The answer is <strong>A</strong>."
     }
   ]
 }

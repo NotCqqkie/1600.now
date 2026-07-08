@@ -1,0 +1,15 @@
+{
+  "questionId": "2a36b65a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the requested Pueblo",
+      "content": "The sentence asks for the total area of Nambé Pueblo, not Santo Domingo Pueblo or any other Pueblo nation."
+    },
+    {
+      "title": "Use the table value",
+      "content": "The table lists Nambé Pueblo at 32.4 square miles. The other numbers belong to different Pueblo nations and do not complete the requested comparison. The answer is <strong>B</strong>."
+    }
+  ]
+}

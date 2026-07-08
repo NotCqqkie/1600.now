@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the y-intercept represents",
-      "content": "The $y$-intercept is the point where a graph crosses the $y$-axis. This always occurs when $x = 0$. We need to find the value of $p(0)$ from the table."
+      "title": "Identify the intercept",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. At that point, the $x$-coordinate is $0$."
     },
     {
-      "title": "Read the table at $x = 0$",
-      "content": "Looking at the table, when $x = 0$, the corresponding value in the $p(x)$ column is $-6$. Therefore, the point is $(0, -6)$. That confirms <strong>A</strong> is correct."
+      "title": "Read the graph",
+      "content": "The graph crosses the $y$-axis at $y=-6$, so the point is $(0,-6)$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc029705",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the layout explanation",
+      "content": "The researchers explain that rearranging a store makes shoppers search through more areas, exposing them to more products and increasing unplanned purchases. A supporting response must include both parts of that process: a planned item was not in its usual place, and the shopper bought something extra while searching."
+    },
+    {
+      "title": "Reject different purchase causes",
+      "content": "Choice B shows searching but no extra purchase. Choice C attributes the purchase to a coupon, which is an obvious marketing cue rather than a layout effect. Choice D says the shopper chose a larger store for planned items, not that a rearranged layout caused a spontaneous purchase. Choice A shows relocated cleaning supplies leading the shopper to notice and buy a notebook. The answer is <strong>A</strong>."
+    }
+  ]
+}

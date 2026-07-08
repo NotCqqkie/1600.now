@@ -1,0 +1,15 @@
+{
+  "questionId": "58fd3273",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two expressions for $y$ are equal:<br/>$$2x^2-17x+30=3x+a$$<br/>$$2x^2-20x+30-a=0$$"
+    },
+    {
+      "title": "Use one-solution condition",
+      "content": "Exactly one intersection means this quadratic in $x$ has one real solution, so its vertex gives the repeated solution. For $2x^2-20x+30-a$, the vertex $x$-value is<br/>$$x=\\frac{-(-20)}{2(2)}=5$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

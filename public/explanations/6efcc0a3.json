@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the two function values",
+      "title": "Use the two given points",
       "content": "The values $h(0)=36$ and $h(1)=35$ give two points on the line: $(0,36)$ and $(1,35)$."
     },
     {
-      "title": "Find the slope and intercept",
-      "content": "The slope is $$m=(35-36)/(1-0)=-1.$$ Since $h(0)=36$, the $y$-intercept is $36$."
+      "title": "Find slope and intercept",
+      "content": "The slope is\n$$m=\\frac{35-36}{1-0}=-1$$\nSince $h(0)=36$, the vertical intercept is $36$."
     },
     {
-      "title": "Write the function",
-      "content": "A linear function with slope $-1$ and intercept $36$ is $$h(x)=-x+36.$$ <strong>A</strong> is correct."
+      "title": "Write the linear function",
+      "content": "A linear function with slope $-1$ and intercept $36$ is\n$$h(x)=-x+36$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

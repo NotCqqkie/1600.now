@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Move the x terms together",
-      "content": "Start with $-37x=-74x$. Add $74x$ to both sides:<br/>$$37x=0$$"
+      "title": "Move like terms together",
+      "content": "Start with the equation:<br/>$$-37x=-74x$$<br/>Add $74x$ to both sides:<br/>$$37x=0$$"
     },
     {
-      "title": "Solve",
-      "content": "Divide by $37$:<br/>$$x=0$$<br/>This is one specific solution."
-    },
-    {
-      "title": "Classify the equation",
-      "content": "The equation has exactly one solution because only $x=0$ works. It is not infinitely many solutions because not every value of $x$ makes the original equation true."
-    },
-    {
-      "title": "Answer",
-      "content": "The equation has exactly one solution, so <strong>B</strong> is correct."
+      "title": "Count the solution",
+      "content": "Divide by $37$:<br/>$$x=0$$<br/>There is exactly one solution. The answer is <strong>B</strong>."
     }
   ]
 }

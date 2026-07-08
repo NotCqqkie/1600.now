@@ -5,19 +5,19 @@
   "steps": [
     {
       "title": "Use symmetry of the roots",
-      "content": "A quadratic's vertex lies halfway between its two $x$-intercepts. The roots are $x=-20$ and $x=-4$, so the vertex's $x$-coordinate is their average."
+      "content": "The zeros are $x=-20$ and $x=-4$. For a quadratic, the vertex lies on the vertical line halfway between the two zeros."
     },
     {
-      "title": "Find the midpoint",
-      "content": "$$r=\\frac{-20+(-4)}{2}=\\frac{-24}{2}=-12$$ A quick Desmos check is to graph any quadratic with those two roots, such as $y=(x+20)(x+4)$; its axis of symmetry is $x=-12$.",
+      "title": "Average the zero locations",
+      "content": "Find the midpoint of the two $x$-values.<br/>$$\\frac{-20+(-4)}{2}=\\frac{-24}{2}=-12$$"
+    },
+    {
+      "title": "Read the requested coordinate",
+      "content": "The vertex is written as $(r,-64)$, so $r$ is the $x$-coordinate of the vertex. The answer is <strong>-12</strong>.",
       "desmosExpressions": [
         "y=(x+20)(x+4)",
         "x=-12"
       ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The vertex is given as $(r,-64)$, so $r$ is the vertex's $x$-coordinate. Therefore $r=-12$, which is the required value."
     }
   ]
 }

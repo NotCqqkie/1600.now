@@ -1,0 +1,15 @@
+{
+  "questionId": "a04d5f8a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the sentence's role",
+      "content": "The underlined sentence follows the claim that animals other than humans use tools. It names a specific animal and a specific tool-use behavior."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "A compares how often sea otters use tools, C compares sea otters' intelligence with birds', and D shifts to human tool use. The sentence gives a concrete nonhuman tool-use example: sea otters using stones to open shells. The answer is <strong>B</strong>."
+    }
+  ]
+}

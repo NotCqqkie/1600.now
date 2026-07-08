@@ -1,0 +1,15 @@
+{
+  "questionId": "139c9d01",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the dimensions",
+      "content": "The width is represented by $w$. The length is $68$ times the width, so the length is $68w$."
+    },
+    {
+      "title": "Match the area formula",
+      "content": "Area equals length times width. In the expression $y=(68w)(w)$, the factor $w$ is the width, so $68w$ is the length. The answer is <strong>A</strong>."
+    }
+  ]
+}

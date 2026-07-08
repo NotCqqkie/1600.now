@@ -1,0 +1,15 @@
+{
+  "questionId": "91956cdd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square both sides",
+      "content": "The question asks for $x-2$, and the equation already has $x-2$ inside the square root. Square both sides of the equation.<br/>$$(\\sqrt{x-2})^2=3^2$$"
+    },
+    {
+      "title": "Find the target expression",
+      "content": "Squaring gives<br/>$$x-2=9$$<br/>This matches choice C. The answer is <strong>C</strong>."
+    }
+  ]
+}

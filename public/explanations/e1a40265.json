@@ -1,0 +1,15 @@
+{
+  "questionId": "e1a40265",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function gives the output for any chosen input. Plug $x=-4$ into $g(x)=-7x+58$.<br/>$$g(-4)=-7(-4)+58$$"
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "Multiply first, then add to find the value of the function at that input.<br/>$$g(-4)=28+58=86$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

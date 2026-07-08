@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use a one-row Desmos table",
-      "content": "The question asks which equation shows $c=f(0)$ as the coefficient or base. Make the fastest possible table: set $x_1=[0]$, then evaluate each answer choice at that one input. All four forms are equivalent, so they should all output the same value; the issue is which form displays that value as the coefficient.",
+      "title": "Use the intercept input",
+      "content": "The value $c$ is $f(0)$. In exponential form, $f(0)$ is displayed as the coefficient when the exponent becomes $0$ at $x=0$.",
       "desmosExpressions": [
         "x_1=[0]",
         "a_1=22(1.5)^{x_1+1}",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "title": "Look for exponent zero at x = 0",
-      "content": "At $x=0$, the Desmos table gives $33$ for every equivalent form. The value is shown directly as the coefficient only when the exponent becomes $0$, because $(1.5)^0=1$. In choice B, $f(x)=33(1.5)^x$, so $f(0)=33(1.5)^0=33$. The coefficient $33$ is exactly $c$.",
+      "title": "Check the unshifted form",
+      "content": "For $f(x)=33(1.5)^x$, substituting $x=0$ gives:<br/>$$f(0)=33(1.5)^0=33$$<br/>So the value of $c$ is shown directly as the coefficient.",
       "desmosExpressions": [
         "y=33(1.5)^x",
         "(0,33)",
@@ -24,8 +24,8 @@
       ]
     },
     {
-      "title": "Eliminate the shifted forms",
-      "content": "Choice A (&lsquo;$f \\left(x\\right)=22{ \\left(1.5\\right)}^{x+1}$&rsquo;) shows $f(-1)$ as the coefficient, choice C (&lsquo;$f \\left(x\\right)=49.5{ \\left(1.5\\right)}^{x-1}$&rsquo;) shows $f(1)$ as the coefficient, and choice D (&lsquo;$f \\left(x\\right)=74.25{ \\left(1.5\\right)}^{x-2}$&rsquo;) shows $f(2)$ as the coefficient. Only the credited option (&lsquo;$f \\left(x\\right)=33{ \\left(1.5\\right)}^{x}$&rsquo;) shows $f(0)$ as the coefficient. <strong>B</strong> is correct."
+      "title": "Eliminate shifted exponents",
+      "content": "The other forms have exponents $x+1$, $x-1$, or $x-2$, so their coefficients represent function values at shifted inputs instead of $x=0$.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

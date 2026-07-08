@@ -1,23 +1,15 @@
 {
   "questionId": "ad2ec615",
-  "qid": "ad2ec615",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Let $u = x^2$ to turn the quartic into a quadratic: $x^4 - 2x^2 - 15$ becomes $u^2 - 2u - 15$."
+      "title": "Treat it as a quadratic",
+      "content": "Let $u=x^2$. Then $x^4$ becomes $u^2$, and the original expression becomes a quadratic in $u$.<br/>$$u^2-2u-15$$"
     },
     {
-      "title": "Step 2",
-      "content": "Factor the quadratic $u^2 - 2u - 15$. Find two numbers that multiply to $-15$ and add to $-2$: those numbers are $+3$ and $-5$. So $u^2 - 2u - 15 = (u + 3)(u - 5)$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Substitute $u = x^2$ back: $(u + 3)(u - 5) = (x^2 + 3)(x^2 - 5)$."
-    },
-    {
-      "title": "Step 4",
-      "content": "Verify: $(x^2 + 3)(x^2 - 5) = x^4 - 5x^2 + 3x^2 - 15 = x^4 - 2x^2 - 15$ &#10003;. This matches choice B, so <strong>B</strong> is correct.<ul><li><strong>$(x^2+1)(x^2-15)$</strong> expands to $x^4 - 14x^2 - 15$, so the middle term is wrong.</li><li><strong>$(x^2+3)(x^2-5)$</strong> expands to $x^4 - 2x^2 - 15$, matching the original expression.</li><li><strong>$(x^2+5)(x^2-3)$</strong> expands to $x^4 + 2x^2 - 15$, so the middle term has the wrong sign.</li><li><strong>$(x^2+15)(x^2-1)$</strong> expands to $x^4 + 14x^2 - 15$, so the middle term is wrong.</li></ul>"
+      "title": "Factor and substitute back",
+      "content": "Find two numbers that multiply to $-15$ and add to $-2$: $3$ and $-5$.<br/>$$u^2-2u-15=(u+3)(u-5)$$<br/>Substitute $u=x^2$ to return to the original variable.<br/>$$(x^2+3)(x^2-5)$$<br/>The answer is <strong>B</strong>."
     }
-  ],
-  "correctAnswer": "B"
+  ]
 }

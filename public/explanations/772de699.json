@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $x \\left(19{x}^{2}+5x+8\\right)$."
+      "title": "Find the common factor",
+      "content": "The coefficients $19$, $5$, and $8$ have no common factor greater than $1$, but every term has a factor of $x$. So the greatest common factor of the whole expression is $x$."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Find the greatest common factor",
-      "content": "Look at $19x^3+5x^2+8x$. The coefficients $19$, $5$, and $8$ share no common factor other than $1$. Every term has at least one factor of $x$, so the GCF is just $x$."
-    },
-    {
-      "title": "Factor out $x$",
-      "content": "$$19x^3+5x^2+8x=x\\bigl(19x^2+5x+8\\bigr)$$You can verify by distributing: $x\\cdot 19x^2=19x^3$, $x\\cdot 5x=5x^2$, $x\\cdot 8=8x$. &check;"
-    },
-    {
-      "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $19x(x^2+5x+8)$:</strong> distributes to $19x^3+95x^2+152x$, not the original. &cross;</li><li><strong>B) $8x(19x^3+5x^2+1)$:</strong> distributes to $152x^4+40x^3+8x$, which has an $x^4$ term. &cross;</li><li><strong>C) $x(19x^2+5x+8)$:</strong> distributes to $19x^3+5x^2+8x$. &check;</li><li><strong>D) $32(x^3+x^2+x)$:</strong> distributes to $32x^3+32x^2+32x$, wrong coefficients. &cross;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Factor out x",
+      "content": "Remove one factor of $x$ from each term. Distributing $x$ back into the parentheses would recreate all three original terms.<br/>$$19x^3+5x^2+8x=x(19x^2+5x+8)$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

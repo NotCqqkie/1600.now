@@ -1,0 +1,15 @@
+{
+  "questionId": "51026df1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the period",
+      "content": "The exponent is $4x$, where $x$ is measured in years. One application of the growth factor happens when the exponent increases by $1$:\n$$\n4x=1\n$$\n$$\nx=\\frac{1}{4}\n$$\nOne-fourth of a year is $3$ months."
+    },
+    {
+      "title": "Interpret the factor",
+      "content": "The factor $1.004$ means the balance is multiplied by\n$$\n1.004=1+0.004=1+0.4\\%\n$$\nSo every $3$ months, the balance increases by about $0.4\\%$ of the balance at the beginning of that interval.\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

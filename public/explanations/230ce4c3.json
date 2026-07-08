@@ -1,0 +1,15 @@
+{
+  "questionId": "230ce4c3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficient",
+      "content": "In $H=2.517L+22.84$, $H$ is estimated height and $L$ is femur length. The number $2.517$ is the coefficient of $L$."
+    },
+    {
+      "title": "Interpret the rate",
+      "content": "In a linear model, the coefficient of the input tells how much the output changes for each increase of $1$ in the input. Here, estimated height increases by $2.517$ inches for each $1$-inch increase in femur length. The answer is <strong>A</strong>."
+    }
+  ]
+}

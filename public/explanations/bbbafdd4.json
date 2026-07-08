@@ -1,0 +1,15 @@
+{
+  "questionId": "bbbafdd4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $-4$ in the function:<br/>$$h(-4)=6(-4)-7$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Multiply first, then subtract the final constant term:<br/>$$h(-4)=-24-7=-31$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

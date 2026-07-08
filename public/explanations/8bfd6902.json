@@ -1,0 +1,22 @@
+{
+  "questionId": "8bfd6902",
+  "correctAnswer": "5,6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute a simpler variable",
+      "content": "The expression $2x-7$ appears more than once, so let $u=2x-7$. This changes the equation into a simpler quadratic:\n$$\nu^2-8u+15=0\n$$",
+      "desmosExpressions": [
+        "(2x - 7)^2 - 8(2x - 7) + 15 = 0"
+      ]
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Factor the quadratic by finding two numbers that multiply to $15$ and add to $-8$. Those numbers are $-3$ and $-5$:\n$$\nu^2-8u+15=(u-3)(u-5)\n$$\nSo $u$ must be $3$ or $5$."
+    },
+    {
+      "title": "Back substitute for x",
+      "content": "Use $u=2x-7$ for each value. From $u=3$:\n$$\n2x-7=3\n$$\n$$\nx=5\n$$\nFrom $u=5$:\n$$\n2x-7=5\n$$\n$$\nx=6\n$$\nThe list $5,6$ means either value works, not the number $56$. The answer is <strong>5,6</strong>."
+    }
+  ]
+}

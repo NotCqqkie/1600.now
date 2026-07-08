@@ -1,0 +1,15 @@
+{
+  "questionId": "d2ddc95c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track delivery constraints",
+      "content": "The passage sets up a tension: consumers want faster delivery, companies struggle with last-mile logistics, and even new solutions create new complications."
+    },
+    {
+      "title": "Match the realistic conclusion",
+      "content": "A says companies should invest more, B shifts to planning for volume, and C says companies may lack incentive, even though the passage says innovations are already emerging. The viable conclusion is that consumer expectations may exceed what delivery companies can realistically provide. The answer is <strong>D</strong>."
+    }
+  ]
+}

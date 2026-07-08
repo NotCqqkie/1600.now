@@ -1,0 +1,19 @@
+{
+  "questionId": "ce5136f5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rectangle area",
+      "content": "The figure is made from a rectangle and a semicircle. The rectangle has side lengths $20$ and $5$, so its area is:\n$$\n20(5)=100\n$$\nThe semicircle uses segment $WX$ as its diameter."
+    },
+    {
+      "title": "Find the semicircle area",
+      "content": "The diameter of the semicircle is $20$, so the radius is $10$. The area of a semicircle is half the area of the full circle:\n$$\n\\frac{1}{2}\\pi(10)^2=50\\pi\n$$"
+    },
+    {
+      "title": "Add the two areas",
+      "content": "Add the rectangle area and the semicircle area:\n$$\n100+50\\pi\n$$\nThis is equivalent to $20(5)+50\\pi$. The answer is <strong>C</strong>."
+    }
+  ]
+}

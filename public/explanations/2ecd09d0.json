@@ -1,0 +1,15 @@
+{
+  "questionId": "2ecd09d0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the outputs",
+      "content": "The passage gives the Beatrice wind farm's output and then gives Hornsea Project One's much larger output. The relationship is a side-by-side numerical comparison."
+    },
+    {
+      "title": "Reject other transitions",
+      "content": "A would make Hornsea merely an example, B would create a cause-and-effect relationship, and C would present a restatement. The sentence needs a comparison signal. The answer is <strong>D</strong>."
+    }
+  ]
+}

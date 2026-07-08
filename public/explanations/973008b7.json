@@ -1,0 +1,15 @@
+{
+  "questionId": "973008b7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the painting title",
+      "content": "The student wants to identify the painting for which Shannon won a Carnegie Prize gold medal. The notes state that Shannon's winning artwork was the painting <em>Miss Kitty</em>."
+    },
+    {
+      "title": "Require the exact artwork",
+      "content": "A and B give background about the medal or prize without naming the painting. C mentions a painting but does not identify it by title. The answer is <strong>D</strong>."
+    }
+  ]
+}

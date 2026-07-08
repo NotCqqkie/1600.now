@@ -1,0 +1,19 @@
+{
+  "questionId": "4f8b98ab",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert decay to a multiplier",
+      "content": "A decrease of $18\\%$ means $82\\%$ of the mass remains after each period, so the decay multiplier is $0.82$."
+    },
+    {
+      "title": "Count the time periods",
+      "content": "One decay period is $9.09$ minutes. After $t$ minutes, the number of periods is\n$$\n\\frac{t}{9.09}\n$$"
+    },
+    {
+      "title": "Build the model",
+      "content": "Using an initial mass of $100$, the model is\n$$\nM=100(0.82)^{\\frac{t}{9.09}}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

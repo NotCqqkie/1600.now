@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the opening modifier",
-      "content": "The sentence opens with &quot;A government body officially known as the Althing,&quot; &mdash; an appositive phrase that renames a noun. The subject immediately following the comma must name the <em>same entity</em> as that phrase (Iceland&apos;s parliament = the Althing), or the modifier dangles and misidentifies what the Althing is.<ul><li><strong>Choice A — the world's oldest parliaments include one which first met in 930 CE, Iceland's.</strong>: Places &quot;the world&apos;s oldest parliaments&quot; as the subject, suggesting the Althing <em>is</em> the world&apos;s oldest parliaments (plural). Dangling modifier. &#10007;</li><li><strong>Choice B — Iceland's parliament is one of the oldest in the world, first meeting in 930 CE.</strong>: Places &quot;Iceland&apos;s parliament&quot; directly after the comma. This correctly identifies Iceland&apos;s parliament as the government body known as the Althing, and the participial phrase &quot;first meeting in 930 CE&quot; adds detail without confusion. &#10003;</li><li><strong>Choice C — the first meeting of one of the oldest parliaments in the world, Iceland's, was in 930 CE.</strong>: Places &quot;the first meeting&quot; as the subject, implying the Althing is a meeting rather than a parliament. Dangling modifier. &#10007;</li><li><strong>Choice D — 930 CE was the year when Iceland's parliament, one of the oldest parliaments in the world, first met.</strong>: Places &quot;930 CE&quot; as the subject, implying the Althing is a year. Dangling modifier. &#10007;</li></ul>"
+      "title": "Match the opening phrase",
+      "content": "The sentence begins with an appositive: a government body officially known as the Althing. The subject after the comma must name that same government body."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only the matching choice places the correct noun &mdash; Iceland&apos;s parliament &mdash; immediately after the opening appositive, avoiding a dangling modifier. <strong>B</strong> is correct."
+      "title": "Rule out dangling subjects",
+      "content": "Choice A makes the subject the world's oldest parliaments. Choice C makes it the first meeting. Choice D makes it 930 CE. None of those can be the government body known as the Althing."
+    },
+    {
+      "title": "Choose the matching noun",
+      "content": "Iceland's parliament is the noun that correctly matches the opening appositive and can logically be known as the Althing. The answer is <strong>B</strong>."
     }
   ]
 }

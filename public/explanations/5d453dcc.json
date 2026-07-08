@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative) question. Charles and Stephens's claim is that more-informed voters are more confident evaluating candidates and therefore more likely to vote. The correct answer must point to graph data that directly supports this comparison between high-information and low-information voters."
+      "title": "Match data to the claim",
+      "content": "Charles and Stephens claim that better-informed voters are more likely to vote because they are more confident evaluating candidates. The graph evidence must therefore compare high-information and low-information voters' voting probabilities, not just describe one group."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;At each point on the political orientation scale, high-information voters were more likely than low-information voters to vote.&rsquo;</strong>: This directly supports the claim by showing that across all political orientations, higher information consistently predicts higher voting likelihood &mdash; exactly the relationship Charles and Stephens assert. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Only low-information voters who identify as independents had a voting probability below 50%.&rsquo;</strong>: This describes only low-information voters and says nothing about how they compare to high-information voters. It cannot support a claim about the effect of being informed. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The closer that low-information voters are to the ends of the political orientation scale, the more likely they were to vote.&rsquo;</strong>: This describes a pattern within low-information voters only. Without comparing to high-information voters, it cannot support the claim that being informed drives voting likelihood. &#10007;</li><li><strong>Choice D &mdash; &lsquo;High-information voters were more likely to identify as strong Democrats or strong Republicans than low-information voters were.&rsquo;</strong>: The graph shows voting probability, not how many people fall into each category. This statement cannot be read from the graph at all, and even if true, it would not support the claim about information and voting likelihood. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Require a direct comparison",
+      "content": "Evidence that high-information voters have a higher voting probability at every political orientation directly supports the claim. It shows that the information difference is associated with voting likelihood across Democrats, independents, and Republicans rather than only in one category. That is stronger support than a single isolated point from the graph."
+    },
+    {
+      "title": "Reject partial graph readings",
+      "content": "Choice B and Choice C describe only low-information voters, so neither supports a claim about the effect of being informed. Choice D makes an unsupported claim about how many voters identify with each party. The remaining statement directly compares information levels. The answer is <strong>A</strong>."
     }
   ]
 }

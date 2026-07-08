@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "All four choices share the base $2^x$ &mdash; they differ only by the added constant. Plug $x = 0$ into the table to find the constant: $2^0 = 1$, and the table gives $h(0) = 22$, so the constant must be $22 - 1 = 21$."
+      "title": "Compare the table to powers of two",
+      "content": "Each answer choice has a $2^x$ term, but choices A, B, and C add a positive constant. Check the table values against $2^x$ first."
     },
     {
-      "title": "Verify with the other rows",
-      "content": "That gives $h(x) = 2^x + 21$. Confirm: $h(1) = 2 + 21 = 23$ and $h(2) = 4 + 21 = 25$, both consistent with the table. That confirms <strong>D</strong> is correct."
+      "title": "Match the function values",
+      "content": "The table's values match $2^x$ without any added constant. Adding $16$, $15$, or $2$ would make every output too large. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "7fdc891c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Confirm the claim",
+      "content": "The first sentence says Madison's pseudonym did far more than conceal authorship. The second sentence explains and reinforces that claim by describing the name as a rhetorical strategy tied to ancient republican ideals."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals opposition, but the second sentence agrees with the first. Choice B suggests a separate additional point, not emphatic confirmation. Choice C signals contrast, which does not fit the reinforcing explanation. The answer is <strong>D</strong>."
+    }
+  ]
+}

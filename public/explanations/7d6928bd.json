@@ -4,13 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "text": "Identify the key phrase: the service can deliver <em>at most</em> 18 items per day. &quot;At most&quot; means the total cannot exceed 18; it can equal 18 but not go higher. This translates to $\\le$."
+      "title": "Translate the capacity phrase",
+      "content": "At most $18$ items means the total number of items can be $18$ or less. That uses the inequality symbol $\\le$, not $\\ge$."
     },
     {
-      "text": "Build the expression for total items: packages plus envelopes = $p + e$. Applying the constraint: $p + e \\le 18$."
-    },
-    {
-      "text": "Evaluate all choices:<ul><li><strong>A: $p+e\\le18$</strong> - total items is at most 18. That confirms <strong>A</strong> is correct.</li><li><strong>B: $p+e\\ge18$</strong> - says total is <em>at least</em> 18, meaning the service must deliver 18 or more. This contradicts &quot;at most.&quot; Eliminated.</li><li><strong>C: $p-e\\le18$</strong> - uses subtraction instead of addition. The number of packages <em>minus</em> envelopes is unrelated to the daily capacity constraint. Eliminated.</li><li><strong>D: $p-e\\ge18$</strong> - subtraction with the wrong direction. Eliminated.</li></ul>"
+      "title": "Add the item types",
+      "content": "The total number of items is packages plus envelopes, so use $p+e$. Applying the daily limit gives:<br/>$$p+e\\le18$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

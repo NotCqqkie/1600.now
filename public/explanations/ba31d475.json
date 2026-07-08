@@ -1,0 +1,15 @@
+{
+  "questionId": "ba31d475",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift",
+      "content": "Translating a graph $6$ units down subtracts $6$ from every output value. Starting from $y=7x$, the new equation is:<br/>$$y=7x-6$$"
+    },
+    {
+      "title": "Check the direction",
+      "content": "Adding $6$ would shift the graph up. Changing $x$ inside parentheses would shift the graph horizontally. The down shift is represented by subtracting $6$ outside the $7x$ term. The answer is <strong>B</strong>."
+    }
+  ]
+}

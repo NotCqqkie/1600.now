@@ -1,0 +1,15 @@
+{
+  "questionId": "ef1230ce",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the intercept",
+      "content": "In the equation $y=5x+k$, the constant $k$ is the $y$-intercept because setting $x=0$ gives $y=k$."
+    },
+    {
+      "title": "Read the graph",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,-8)$. Therefore, $k=-8$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "8dfc0e4c",
+  "correctAnswer": "65",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base angles",
+      "content": "Since $AC=CD$, triangle $ACD$ is isosceles. Its vertex angle is $108^\\circ$, so each base angle is:<br/>$$\\frac{180^\\circ-108^\\circ}{2}=36^\\circ$$"
+    },
+    {
+      "title": "Find the adjacent angle",
+      "content": "Angles $ACD$ and $ACB$ form a linear pair, so:<br/>$$180^\\circ-108^\\circ=72^\\circ$$<br/>In triangle $ABC$, the other two angles therefore sum to:<br/>$$180^\\circ-72^\\circ=108^\\circ$$"
+    },
+    {
+      "title": "Use triangle ABE",
+      "content": "In triangle $ABE$, angle $BAE$ is $36^\\circ$ more than angle $BAC$, and angle $ABE$ is $29^\\circ$ less than angle $ABC$. Therefore:<br/>$$x+108^\\circ+36^\\circ-29^\\circ=180^\\circ$$<br/>$$x+115^\\circ=180^\\circ$$<br/>$$x=65$$<br/>The answer is <strong>65</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the proportion",
-      "content": "Since the ratio 120 to $m$ is equivalent to the ratio 3 to 27, we can write: $$\\frac{120}{m} = \\frac{3}{27}$$"
+      "title": "Write the equivalent ratios",
+      "content": "The ratio $120$ to $m$ equals the ratio $3$ to $27$. Write that as a proportion.<br/>$$\\frac{120}{m}=\\frac{3}{27}$$"
     },
     {
-      "title": "Simplify and solve",
-      "content": "Simplify the right side: $\\frac{3}{27} = \\frac{1}{9}$<br/><br/>So $\\frac{120}{m} = \\frac{1}{9}$. Cross-multiplying gives $120 \\cdot 9 = m$, therefore $m = 1080$."
+      "title": "Solve the proportion",
+      "content": "Simplify the right side, then solve for $m$.<br/>$$\\frac{120}{m}=\\frac{1}{9}$$<br/>$$120\\cdot 9=m$$<br/>$$m=1080$$<br/>The answer is <strong>1080</strong>."
     }
   ]
 }

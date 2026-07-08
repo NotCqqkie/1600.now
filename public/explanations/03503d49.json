@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the budget into an inequality",
-      "content": "Let $p$ be the pre-tax price per desk. The owner buys 72 desks, so the pre-tax total is $72p$. A 6% sales tax multiplies this by $1.06$, giving an after-tax total of $72p \\cdot 1.06$. This cannot exceed the <strong>12,000-dollar</strong> budget: $$72p \\cdot 1.06 \\leq 12{,}000$$"
+      "title": "Remove the sales tax",
+      "content": "A $6\\%$ sales tax means the after-tax total is $1.06$ times the before-tax total. If the full budget is $12{,}000$, then the before-tax desk total is<br/>$$\\frac{12{,}000}{1.06}$$"
     },
     {
-      "title": "Solve for the maximum p",
-      "content": "Divide both sides by $72 \\cdot 1.06 = 76.32$: $$p \\leq \\frac{12{,}000}{76.32} \\approx 157.23$$ The largest listed pre-tax price that stays within the budget is <strong>157.23 dollars</strong>."
-    },
-    {
-      "title": "Compare with the choices",
-      "content": "<ul><li><strong>138.89 dollars</strong> uses an unstated 10,000-dollar budget and ignores the 6% tax.</li><li><strong>157.23 dollars</strong> stays within the budget because $72(157.23)(1.06)\\approx 11{,}999.79$.</li><li><strong>166.67 dollars</strong> ignores the 6% tax.</li><li><strong>176.67 dollars</strong> applies the tax in the wrong direction.</li></ul>That matches <strong>Choice B &mdash; \\$157.23</strong>."
+      "title": "Divide among the employees",
+      "content": "There are $72$ desks, so the before-tax price per desk is<br/>$$\\frac{12{,}000}{1.06\\cdot72}$$<br/>Rounded to cents, this is<br/>$$157.23$$<br/>The closest listed price is $157.23$. The answer is <strong>B</strong>."
     }
   ]
 }

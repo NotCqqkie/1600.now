@@ -1,0 +1,19 @@
+{
+  "questionId": "0ce7389b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the water statements",
+      "content": "The first sentence must end after “the water turns to vapor.” The next sentence begins with the introductory phrase “With a pressure cooker pot, though,” before explaining the airtight seal."
+    },
+    {
+      "title": "Reject faulty punctuation",
+      "content": "Choice B creates an ungrammatical connection with “and with.” Choice C uses a comma where a full sentence boundary is needed. Choice D fuses the ideas with no punctuation."
+    },
+    {
+      "title": "Start a new sentence",
+      "content": "The remaining choice completes the first sentence with “vapor” and starts the next sentence with “With,” creating the needed boundary. The answer is <strong>A</strong>."
+    }
+  ]
+}

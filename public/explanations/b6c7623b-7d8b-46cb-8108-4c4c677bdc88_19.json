@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammar issue",
-      "content": "Two possessives are needed: the modeling belongs to multiple astronomers (plural noun ending in -s, so apostrophe after the s: <em>astronomers'</em>), and the trajectory belongs to the object (singular, apostrophe before s: <em>object's</em>)."
+      "title": "Mark the possessives",
+      "content": "The sentence needs possession in two places: the modeling belongs to an astronomer, and the trajectory belongs to the object 2060 Chiron. A grammatically complete phrase must show both relationships before trajectory."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<strong>A: astronomers modeling of the object's</strong> — \"astronomers\" has no apostrophe, so it reads as the subject of \"modeling\" rather than showing possession. The phrase becomes ungrammatical. Eliminated.<br/><br/><strong>B: astronomers' modeling of the object's</strong> — plural possessive for astronomers, singular possessive for object. Plugging in: \"according to astronomers' modeling of the object's trajectory\" — both possessives correct. <strong>Correct.</strong><br/><br/><strong>C: astronomers modeling of the objects</strong> — missing both apostrophes. \"objects\" is just plural, not possessive. Eliminated.<br/><br/><strong>D: astronomer's modeling of the object's</strong> — singular possessive on astronomer, but the passage implies multiple astronomers produced the modeling. Singular is too narrow. Eliminated."
+      "title": "Choose the intended possessive",
+      "content": "A has no possessive marking, C leaves astronomers nonpossessive, and D makes the owner of the modeling plural even though that plural owner is not established in the sentence. The remaining form supplies possessive marking for both modeling and the object's trajectory. The answer is <strong>B</strong>."
     }
   ]
 }

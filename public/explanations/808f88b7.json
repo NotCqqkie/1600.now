@@ -1,0 +1,19 @@
+{
+  "questionId": "808f88b7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the navigation purpose",
+      "content": "The student's goal is not merely to define a nautical mile; it is to explain why nautical miles are used in seafaring navigation. The relevant notes connect nautical miles to one minute of latitude, nautical charts marked with latitude and longitude, and measurements that account for Earth's curvature."
+    },
+    {
+      "title": "Reject partial answers",
+      "content": "Choice A states that a nautical mile equals one minute of latitude, but it does not fully explain why that relationship helps navigation. Choice B explains why nautical charts are accurate but never mentions nautical miles. Choice D contradicts the notes because latitude and longitude coordinates do take Earth's curvature into account."
+    },
+    {
+      "title": "Complete the reason",
+      "content": "Choice C links the needed ideas into one explanation: nautical miles directly correlate with coordinates on nautical charts, and those coordinates account for Earth's curvature. That makes nautical miles efficient for calculating distances at sea, which answers the student's question. The answer is <strong>C</strong>."
+    }
+  ]
+}

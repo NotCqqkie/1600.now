@@ -1,0 +1,19 @@
+{
+  "questionId": "681c6d54",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Double the surface area",
+      "content": "The patio has area $d$. Covering it twice means the stain must cover $2d$ square feet."
+    },
+    {
+      "title": "Convert area to gallons",
+      "content": "Each gallon covers $240$ square feet, so the number of gallons needed is<br/>$$\\frac{2d}{240}=\\frac{d}{120}$$"
+    },
+    {
+      "title": "Multiply by the price",
+      "content": "Each gallon costs $27$ dollars, so the cost is<br/>$$c=27(\\frac{d}{120})$$The answer is <strong>C</strong>."
+    }
+  ]
+}

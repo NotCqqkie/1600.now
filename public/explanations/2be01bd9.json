@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding and complementary angles",
-      "content": "Since triangle $RST$ is similar to triangle $UVW$, angle $R$ corresponds to angle $U$ and angle $S$ corresponds to angle $V$. In the right triangle, the two acute angles are complementary."
+      "title": "Match corresponding angles",
+      "content": "Because the triangles are similar, corresponding angles have equal tangent values. Angle $R$ corresponds to angle $U$, so<br/>$$\\tan(U)=\\frac{36}{5}$$"
     },
     {
-      "title": "Determine angle correspondence",
-      "content": "Since triangle RST ∼ triangle UVW with angle R ↔ angle U and angle T ↔ angle W, we have angle S ↔ angle V. Thus angle S = angle V."
-    },
-    {
-      "title": "Use complementary angles to find tan(V)",
-      "content": "In right triangle RST with right angle at T, angles R and S are complementary. For complementary angles, $\\tan(S) = \\frac{1}{\\tan(R)} = \\frac{1}{\\frac{36}{5}} = \\frac{5}{36}$. Since angle V = angle S, we have:<br/>$$\\tan(V) = \\frac{5}{36} \\approx 0.1389$$"
+      "title": "Use complementary tangents",
+      "content": "Angles $U$ and $V$ are the two acute angles in a right triangle, so their tangent values are reciprocals.<br/>$$\\tan(V)=\\frac{1}{\\tan(U)}=\\frac{1}{\\frac{36}{5}}=\\frac{5}{36}$$The answer is <strong>5/36</strong>."
     }
   ]
 }

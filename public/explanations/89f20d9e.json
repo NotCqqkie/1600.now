@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Restrict to the conditional sample",
-      "content": "The condition <em>at least 10 years</em> keeps only the 10–19 and 20+ columns. From the table, those columns total $30+30=60$ participants. Group A within those columns contributes $17+8=25$."
+      "title": "Restrict the sample space",
+      "content": "Given that the participant is at least $10$ years old, only the $10$-$19$ and $20+$ columns count. Those columns contain $30+30=60$ participants."
     },
     {
-      "title": "Apply the conditional probability formula",
-      "content": "$$P(A\\mid \\text{age}\\ge 10)=\\frac{25}{60}=\\frac{5}{12}.$$ That confirms <strong>B</strong> is correct."
+      "title": "Find the conditional probability",
+      "content": "In those same columns, group A has $17+8=25$ participants. Therefore\n$$P(A\\mid \\text{age}\\ge10)=\\frac{25}{60}=\\frac{5}{12}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

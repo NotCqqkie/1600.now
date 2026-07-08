@@ -1,0 +1,15 @@
+{
+  "questionId": "6680b7fa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the stated limit",
+      "content": "The text says Google Places API data tend to be restricted to customer-facing places. That means the model may miss amenities that are not customer-facing."
+    },
+    {
+      "title": "Choose the consequence",
+      "content": "Choice A follows directly: conclusions may not reflect all neighborhood amenities. Choice B introduces boundary problems. Choice C introduces unmentioned recent advancements. Choice D introduces outdated data, which the text never claims. The answer is <strong>A</strong>."
+    }
+  ]
+}

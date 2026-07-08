@@ -1,0 +1,15 @@
+{
+  "questionId": "5dabc892",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the ecosystem approach",
+      "content": "The ecosystem-based approach considers interactions among climate, terrain, and species in a whole geographical area. The passage says this approach may lead to better outcomes for all species in that location, not just one target species."
+    },
+    {
+      "title": "Keep the outcome broad",
+      "content": "A invents a focus on reducing competing species. C shifts to the distribution of the entire genus throughout Mexico, which is broader than the Guerrero ecosystem at issue. D says the approach would be unable to evaluate survival elsewhere, a limitation not supported by the passage. The remaining choice captures a broad strategy that still benefits <em>M. guerreronis</em>. The answer is <strong>B</strong>."
+    }
+  ]
+}

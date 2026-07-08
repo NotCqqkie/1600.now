@@ -1,0 +1,23 @@
+{
+  "questionId": "d569d2db",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause pattern",
+      "content": "The sentence first says, <em>Such interpretations are ultimately speculative</em>. That is a complete independent clause. The words after the blank also begin another complete clause: <em>the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions</em>. The punctuation must connect those two complete clauses while using <em>though</em> as a contrast word attached to the first clause."
+    },
+    {
+      "title": "Reject the comma splice",
+      "content": "<strong>Choice B</strong>, <em>speculative, though,</em>, leaves two independent clauses joined only by commas. The second complete clause begins after <em>though</em>, so commas alone do not create a strong enough boundary between the two clauses."
+    },
+    {
+      "title": "Reject the dependent opening",
+      "content": "<strong>Choice C</strong>, <em>speculative; though</em>, places the semicolon before <em>though</em>. That makes the following words read as a dependent <em>though</em> clause after a semicolon, which does not correctly stand as the second independent clause. The contrast word needs to stay with the first clause before the semicolon."
+    },
+    {
+      "title": "Place the semicolon after though",
+      "content": "<strong>Choice D</strong>, <em>speculative, though</em>, makes <em>though</em> introduce the clause that follows it. That turns the second idea into a concessive dependent clause, but the sentence needs that idea to stand as its own independent clause explaining why the interpretations are speculative. <strong>Choice A</strong>, <em>speculative, though;</em>, attaches <em>though</em> to the first clause with a comma and then uses a semicolon before the next independent clause. The structure is <em>complete clause, though; complete clause</em>, which correctly expresses the contrast. The answer is <strong>A</strong>."
+    }
+  ]
+}

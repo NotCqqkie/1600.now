@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the square and the answer lines",
-      "content": "Each choice compares $(x+15)^2$ with a constant. Graph $y=(x+15)^2$ and the four horizontal lines from the choices. The line that touches the parabola exactly once gives exactly one real solution.",
+      "title": "Use the square shape",
+      "content": "The expression $(x+15)^2$ is always at least $0$. It equals $0$ at exactly one value of $x$, but it equals any positive constant at two values of $x$.",
       "desmosExpressions": [
         "y=(x+15)^2",
         "y=0",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "title": "Evaluating the constant in each choice",
-      "content": "Extract the constant $k$ from the right side of each equation:<ul><li>A) $k = 0$ ✓ exactly one solution</li><li>B) $k = -45$ → no real solutions</li><li>C) $k = 45$ → two solutions</li><li>D) $k = 135$ → two solutions</li></ul>Only the matching choice yields exactly one distinct real solution. <strong>A</strong> is correct."
+      "title": "Test the constants",
+      "content": "A negative constant gives no real solution, $0$ gives one real solution, and a positive constant gives two real solutions. Only<br/>$$(x+15)^2=0$$has exactly one distinct real solution. The answer is <strong>A</strong>."
     }
   ]
 }

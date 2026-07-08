@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variable and set up equation",
-      "content": "Let w be the volume of water in mL. The total volume is the sum of water and acetic acid: $$w + 12 = 68.$$"
+      "title": "Subtract the acid volume",
+      "content": "The total mixture volume is $68$ milliliters, and the acetic acid volume is $12$ milliliters. The water volume is<br/>$$68-12$$"
     },
     {
-      "title": "Solve for water volume",
-      "content": "Subtract 12 from both sides: $$w = 68 - 12 = 56.$$ The answer is <strong>56</strong>."
+      "title": "Compute the water volume",
+      "content": "Evaluate the subtraction. The answer is <strong>56</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "f70e97b7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "The terms $9x^2$ and $5x^2$ are like terms because they have the same variable part. The constant $6$ is not an $x^2$ term, so it stays separate instead of being added to the coefficient."
+    },
+    {
+      "title": "Combine the coefficients",
+      "content": "Add only the coefficients of the like terms. The exponent stays $2$ because adding like terms changes the coefficient, not the variable part.<br/>$$9x^2+5x^2=14x^2$$<br/>The expression becomes $14x^2+6$. The answer is <strong>B</strong>."
+    }
+  ]
+}

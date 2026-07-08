@@ -1,0 +1,15 @@
+{
+  "questionId": "b5f95941",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the matching angle",
+      "content": "The $74^\\circ$ angle and the adjacent angle on line $q$ form a straight angle.\n$$180-74=106$$\nBecause line $q$ is parallel to line $r$, the corresponding angle labeled $y^\\circ$ also measures $106^\\circ$."
+    },
+    {
+      "title": "Use the angle equation",
+      "content": "Substitute $y=106$ into the given equation.\n$$106=2x+8$$\n$$98=2x$$\n$$49=x$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

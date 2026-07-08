@@ -1,0 +1,16 @@
+{
+  "questionId": "dab8d35c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Expand the product and collect the terms on the left side:\n$$x(x+11)-14=0$$\n$$x^2+11x-14=0$$"
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "For $a=1$, $b=11$, and $c=-14$, calculate the discriminant:\n$$b^2-4ac=11^2-4(1)(-14)=121+56=177$$\nThen substitute into the quadratic formula:\n$$x=\\frac{-11\\pm\\sqrt{177}}{2}$$\nThe answer is <strong>D</strong>.",
+      "formula": "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$"
+    }
+  ]
+}

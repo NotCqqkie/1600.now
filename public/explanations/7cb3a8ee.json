@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\left|x-5\\right|=10$$Graph or solve it directly and read the x-value that works. The requested value is $15$.",
+      "title": "Split the absolute value",
+      "content": "The equation $|x-5|=10$ means $x-5$ is $10$ units from $0$. Because the question asks for one possible solution, it is enough to solve one valid case.\n$$x-5=10$$"
+    },
+    {
+      "title": "Find one solution",
+      "content": "Solve the selected case.\n$$x=15$$\nThe answer is <strong>15</strong>.",
       "desmosExpressions": [
         "\\left|x-5\\right|=10"
       ]
-    },
-    {
-      "title": "Set Up Both Cases for Absolute Value",
-      "content": "The equation $|x - 5| = 10$ means $(x - 5)$ equals either $10$ or $-10$.<br/>$$x - 5 = 10 \\quad \\text{or} \\quad x - 5 = -10$$"
-    },
-    {
-      "title": "Solve Both Cases",
-      "content": "<strong>Case 1:</strong> From $x - 5 = 10$, add 5 to both sides: $x = 15$.<br/><strong>Case 2:</strong> From $x - 5 = -10$, add 5 to both sides: $x = -5$.<br/><br/>Since the question asks for one possible solution, $x = 15$ is a valid answer."
     }
   ]
 }

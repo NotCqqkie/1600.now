@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the target expression directly",
-      "content": "The expression asks for $4x-10$, and the problem already tells you $4x=36$. Do not solve for $x$ unless you need to."
+      "title": "Use the expression directly",
+      "content": "The question asks for $4x-10$, and the equation already gives the value of $4x$. So substitute $36$ for $4x$ instead of solving for $x$."
     },
     {
-      "title": "Substitute 36 for 4x",
-      "content": "$$4x-10=36-10=26$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$26$ is choice B, the correct answer. Using $x-10$, $x+10$, or $4x+10$ would change the expression the question asks for instead of substituting $4x=36$ into $4x-10$."
+      "title": "Subtract ten",
+      "content": "$$\n4x-10=36-10=26\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

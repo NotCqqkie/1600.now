@@ -1,0 +1,15 @@
+{
+  "questionId": "436427a4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the series",
+      "content": "The sentence lists three deserts: Chihuahuan, Karakum, and Taklamakan. Because each item includes an internal comma before its ranking, semicolons are needed to separate the items clearly."
+    },
+    {
+      "title": "Reject punctuation errors",
+      "content": "A splits Karakum Desert from its ranking. B runs the list together without proper separators. C uses a comma where the first item should be separated from the second. The remaining choice keeps the internal comma and uses semicolons between list items. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,18 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the median, mode, and mean",
-      "content": "Enter the five temperatures as a Desmos list. `median(l_1)` and `mean(l_1)` both return $81$. The mode is also $81$, because $81$ appears 3 times compared to 80 and 82 each appearing once.",
+      "title": "Check the center values",
+      "content": "The temperatures are $81$, $80$, $81$, $81$, and $82$. Ordered, they are:\n$$80,81,81,81,82$$\nThe median is $81$, the mode is $81$, and the mean is:\n$$\\frac{81+80+81+81+82}{5}=\\frac{405}{5}=81$$"
+    },
+    {
+      "title": "Find the range",
+      "content": "The range is the maximum value minus the minimum value:\n$$82-80=2$$\nThis is the only listed quantity that is not equal to $81$. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "l_1=[81,80,81,81,82]",
         "\\operatorname{median}\\left(l_1\\right)",
         "\\operatorname{mean}\\left(l_1\\right)",
         "\\operatorname{max}\\left(l_1\\right)-\\operatorname{min}\\left(l_1\\right)"
       ]
-    },
-    {
-      "title": "Calculate the range",
-      "content": "The range is the difference between the maximum and minimum values: $82-80=2$. Since the question asks which quantity is <em>not</em> equal to $81$, the range is the only one that does not equal $81$. That confirms <strong>D</strong> is correct."
     }
   ]
 }

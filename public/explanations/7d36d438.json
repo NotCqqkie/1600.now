@@ -1,0 +1,15 @@
+{
+  "questionId": "7d36d438",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output value",
+      "content": "The condition $f(x)=168$ means the output of the function is $168$. Since $f(x)=24x$, write:<br/>$$24x=168$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Divide both sides by the coefficient to isolate $x$ and get the requested input:<br/>$$x=168/24=7$$<br/>The answer is <strong>7</strong>."
+    }
+  ]
+}

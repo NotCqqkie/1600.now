@@ -1,0 +1,15 @@
+{
+  "questionId": "6b582db1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Subtract $18$ from both sides.<br/>$$\\sqrt{w}=30-18=12$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "Square both sides to solve for $w$.<br/>$$w=12^2=144$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

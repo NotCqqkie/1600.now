@@ -1,0 +1,19 @@
+{
+  "questionId": "d6853faf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on noun behavior",
+      "content": "The student wants to emphasize a difference between Bengali and Danish nouns. The useful contrast is that Bengali changes the noun form for location, while Danish keeps the noun unchanged and uses a preposition."
+    },
+    {
+      "title": "Reject family-based contrasts",
+      "content": "Choice B compares language families only. Choice C mentions Bengali noun change but shifts to language family. Choice D also turns the contrast toward Indo-Aryan versus Germanic instead of how Danish nouns mark location."
+    },
+    {
+      "title": "State the noun contrast",
+      "content": "A suffix added to a Bengali noun contrasts directly with an unchanged Danish noun plus a preposition, which is the difference the notes identify. The answer is <strong>A</strong>."
+    }
+  ]
+}

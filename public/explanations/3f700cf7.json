@@ -1,0 +1,15 @@
+{
+  "questionId": "3f700cf7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate contrasting clauses",
+      "content": "The sentence contrasts the Michelin Guide's current prestige with its modest origin as a marketing gimmick in 1900. The blank must both separate the two main clauses and signal that contrast clearly in standard punctuation."
+    },
+    {
+      "title": "Reject weak punctuation",
+      "content": "B uses only a comma, creating a comma splice and losing the contrast signal. C still leaves a comma splice around \"however.\" D gives no punctuation or contrast signal at all. The answer is <strong>A</strong>."
+    }
+  ]
+}

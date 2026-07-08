@@ -1,0 +1,15 @@
+{
+  "questionId": "eebfed24",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "Vertex form gives the vertex.<br/>$$(7.2{,}680)$$"
+    },
+    {
+      "title": "Interpret the maximum",
+      "content": "The parabola opens downward, so this is the maximum: $680$ feet after $7.2$ seconds. The answer is <strong>B</strong>."
+    }
+  ]
+}

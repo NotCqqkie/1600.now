@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify each cost component",
-      "content": "The technician's charge has two parts:<ul><li>Labor: 55 dollars per hour &times; $x$ hours = $55x$ dollars (variable, depends on time)</li><li>Parts: a flat 135 dollar fee (constant, regardless of time)</li></ul>"
+      "title": "Write the labor cost",
+      "content": "The technician charges $55$ dollars per hour. If the job takes $x$ hours, the labor charge is $$55x$$"
     },
     {
-      "title": "Write the total-cost function and evaluate each choice",
-      "content": "Total = labor + parts, so $$f(x)=55x+135.$$ Compare to each option:<ul><li><strong>\"$f \\left(x\\right)=x+135$\"</strong>: Charges only 1 dollar per hour for labor instead of 55. Incorrect rate. &#10007;</li><li><strong>\"$f \\left(x\\right)=55x$\"</strong>: Captures the hourly labor cost but omits the 135 dollar parts charge entirely. &#10007;</li><li><strong>\"$f \\left(x\\right)=55x+135$\"</strong>: 55 dollars per hour for labor plus the 135 dollar parts fee. Matches both components exactly. &#10003;</li><li><strong>\"$f \\left(x\\right)=55x-135$\"</strong>: Subtracts 135 instead of adding it. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Add the fixed parts cost",
+      "content": "The parts charge is a fixed $135$ dollars, so add it to the hourly labor charge: $$f(x)=55x+135$$ The answer is <strong>C</strong>."
     }
   ]
 }

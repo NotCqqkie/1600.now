@@ -1,0 +1,19 @@
+{
+  "questionId": "61162520",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the tariff logic",
+      "content": "The student's claim is about relative production cost: agricultural production in Argentina and the United States is likely less expensive than in India and Russia. The passage explains the key pattern. When tariffs are eliminated, relatively expensive domestic producers are suppressed by cheaper imports, while cheaper producers are more likely to gain production."
+    },
+    {
+      "title": "Exclude price and scale claims",
+      "content": "<ul><li><strong>Choice B - 'Although eliminating tariffs would likely cause agricultural market prices to decrease in most locations, it would likely cause agricultural market prices to increase in both Argentina and the United States.'</strong>: This focuses on market prices, not on which countries have relatively inexpensive production.</li><li><strong>Choice C - 'Argentina and the United States are the only countries shown that are projected to see both an increase in agricultural production and a reduction in agricultural prices in the absence of tariffs.'</strong>: The extra price pattern makes the support less direct than a production comparison tied to the passage's explanation.</li></ul>"
+    },
+    {
+      "title": "Match the production pattern",
+      "content": "<ul><li><strong>Choice D - 'In the absence of tariffs, total agricultural production in Argentina and the United States would likely exceed that in India and Russia.'</strong>: Absolute output can reflect country size or total capacity, so it does not by itself show relative production cost.</li><li><strong>Choice A - 'Although agricultural production in India and Russia would likely decrease if tariffs were eliminated, it would likely increase in both Argentina and the United States.'</strong>: This is the exact decrease-versus-increase pattern expected if India and Russia are relatively expensive producers and Argentina and the United States are relatively inexpensive. The answer is <strong>A</strong>.</li></ul>"
+    }
+  ]
+}

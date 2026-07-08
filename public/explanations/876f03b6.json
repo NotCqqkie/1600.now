@@ -1,0 +1,15 @@
+{
+  "questionId": "876f03b6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove the constant term",
+      "content": "Start with:\n$$\n14x+60=200\n$$\nSubtract $60$ from both sides:\n$$\n14x=140\n$$"
+    },
+    {
+      "title": "Match the equivalent equation",
+      "content": "Subtracting the same value from both sides keeps the solution unchanged, so the equivalent equation is $14x=140$. The answer is <strong>C</strong>."
+    }
+  ]
+}

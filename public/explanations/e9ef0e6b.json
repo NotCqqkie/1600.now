@@ -1,16 +1,15 @@
 {
   "questionId": "e9ef0e6b",
-  "qid": "e9ef0e6b",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "content": "Whales travel between 68 and 73 miles per day, so the daily range is $68 \\le d \\le 73$."
+      "title": "Start with the daily range",
+      "content": "The model says the whale travels from $68$ to $73$ miles each day. Let $d$ be the daily miles:<br/>$$68\\le d\\le73$$"
     },
     {
-      "content": "Over 14 days, total miles $x = 14d$. Multiply all parts of the inequality by 14 (positive, so signs unchanged): $68 \\times 14 \\le x \\le 73 \\times 14$."
-    },
-    {
-      "content": "<ul><li><strong>$68+14 \\le x \\le 73+14$</strong>: Adds 14 instead of multiplying — wrong operation.</li><li><strong>$\\left(68\\right) \\left(14\\right) \\le x \\le \\left(73\\right) \\left(14\\right)$</strong>: $(68)(14) \\le x \\le (73)(14)$ — matches our result. That matches the correct answer — <strong>B</strong> is correct.</li><li><strong>$68 \\le 14+x \\le 73$</strong>: $68 \\le 14 + x \\le 73$ — subtracts 14 from $x$, which doesn't represent total distance.</li><li>D: $68 \\le 14x \\le 73$ — divides by 14 instead of multiplying, giving a tiny range.</li></ul>"
+      "title": "Scale by fourteen days",
+      "content": "The total number of miles for $14$ days is $14d$, so multiply every part of the inequality by $14$:<br/>$$68(14)\\le x\\le73(14)$$<br/>The answer is <strong>B</strong>."
     }
-  ],
-  "correctAnswer": "B"
+  ]
 }

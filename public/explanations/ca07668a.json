@@ -1,0 +1,15 @@
+{
+  "questionId": "ca07668a",
+  "correctAnswer": "40/3,13.333",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Calculate the slope using two known points",
+      "content": "The line passes through $(8, 2)$ and $(0, 5)$. The slope is:<br/>$$m = \\frac{5 - 2}{0 - 8} = \\frac{3}{-8} = -\\frac{3}{8}$$"
+    },
+    {
+      "title": "Find the x-intercept using the slope-intercept form",
+      "content": "Since $(0, 5)$ is the y-intercept, the equation is $y = -\\frac{3}{8}x + 5$. The point $(c, 0)$ lies on this line, so substitute $y = 0$:<br/>$$0 = -\\frac{3}{8}c + 5$$<br/>$$\\frac{3}{8}c = 5$$<br/>$$c = 5 \\cdot \\frac{8}{3} = \\frac{40}{3}$$<br/>Equivalent forms accepted: <strong>40/3</strong>, <strong>13.333</strong>."
+    }
+  ]
+}

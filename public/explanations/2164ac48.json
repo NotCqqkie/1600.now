@@ -1,0 +1,15 @@
+{
+  "questionId": "2164ac48",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test whether the proxy matches",
+      "content": "The hypothesis says Ag-NP bioaccumulation in <em>D. melanogaster</em> could stand in for costly sampling of vertebrates such as <em>X. laevis</em>. To support that proxy role, the two species must show similar bioaccumulation behavior under comparable conditions."
+    },
+    {
+      "title": "Reject nonmatching evidence",
+      "content": "Choice A compares tolerance, not uptake rates. Choice B says fruit-fly concentrations vary more, weakening reliability. Choice D compares detection difficulty rather than whether the species accumulate Ag-NPs similarly. The remaining finding shows comparable uptake in comparable environments. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9859a937",
+  "correctAnswer": "21675",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given values",
+      "content": "Use $x=1.50$, $y=2700$ in $y=800ax^2$: $$2700 = 800a(1.50)^2 = 1800a \\Rightarrow a=1.5.$$"
+    },
+    {
+      "title": "Solve for the unknown",
+      "content": "Now use $x=4.25$: $$y = 800(1.5)(4.25)^2 = 1200 \\cdot 18.0625 = 21675.$$ The answer is <strong>21675</strong>."
+    },
+    {
+      "title": "Confirm the answer",
+      "content": "As a final check, make sure the computed value answers exactly what the question asks for. The work above gives $21675$; substituting or interpreting it in the original condition satisfies the requirement, so $21675$ is the value to enter."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6652ae73",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Need evidence of regrowth",
+      "content": "The sentence says natural forest regrowth occurred by the mid-1980s. The graph evidence must therefore show forest cover increasing after the period of decline, not just compare two classes in one year."
+    },
+    {
+      "title": "Prefer change over comparison",
+      "content": "Choice A and choice D are single-year comparisons, so they do not show regrowth over time. Choice C describes the earlier decrease from 1960 to 1979. An increase for all classes from 1979 to 2000 directly supports forest regrowth. The answer is <strong>B</strong>."
+    }
+  ]
+}

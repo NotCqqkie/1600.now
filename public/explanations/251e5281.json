@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key contrast in the passage",
-      "content": "The passage sets up a rule: traveling waves break when steepness passes a critical threshold, so &quot;breaking thus constrains wave height.&quot; Then it delivers the exception: McAllister et al. found that &quot;spike waves can exceed that constraint&quot; because other factors (jet stability, cavity shape) govern their breaking. The main idea is this exception &mdash; spike waves can be taller than traveling-wave physics would predict."
+      "title": "Track the wave contrast",
+      "content": "The passage contrasts ordinary traveling waves with spike waves. Traveling waves break once steepness passes a threshold, which limits their height. McAllister et al. studied spike waves, which form when traveling waves moving in opposing directions intersect and can erupt vertically."
     },
     {
-      "title": "Eliminate the wrong choices and confirm D",
-      "content": "<ul><li><strong>Choice A &mdash; Previous studies have suggested that steepness mediates breaking in traveling waves, but the study by McAllister et al. shows that jet stability and cavity shape may also influence breaking in such waves.</strong>: Mis-assigns jet stability and cavity shape to traveling waves; the text says those factors govern spike-wave breaking, not traveling-wave breaking. &#10007;</li><li><strong>Choice B &mdash; The process of breaking limits the height of traveling waves, but the study by McAllister et al. suggests that spike waves can exceed those limits if their height-to-length ratio reaches a critical threshold.</strong>: Wrongly states spike waves exceed limits by reaching a steepness threshold; the passage says they exceed the constraint because additional factors mediate their breaking. &#10007;</li><li><strong>Choice C &mdash; McAllister et al. suggest that spike waves can form when traveling waves propagating in opposing directions intersect and that spike waves tend to be higher than traveling waves.</strong>: The formation mechanism is background fact, not the researchers&apos; finding; the text also never claims spike waves are generally higher. &#10007;</li><li><strong>Choice D &mdash; The study by McAllister et al. suggests that when traveling waves intersect in specific ways, the resulting wave may be higher than would be expected based on the properties of traveling waves.</strong>: Correctly captures the main idea: spike waves can exceed the height constraint set by traveling-wave steepness rules. &#10003;</li></ul>That matches <strong>Choice D &mdash; The study by McAllister et al. suggests that when traveling waves intersect in specific ways, the resulting wave may be higher than would be expected based on the properties of traveling waves.</strong>."
+      "title": "Focus on the study finding",
+      "content": "The key finding is that spike waves can exceed the traveling-wave height constraint because their breaking is shaped by more than steepness. Jet stability and cavity shape also matter, so the main idea must describe spike waves as behaving differently from what traveling-wave properties alone would predict."
+    },
+    {
+      "title": "Reject distorted summaries",
+      "content": "Choice A wrongly applies jet stability and cavity shape to traveling waves. Choice B wrongly says spike waves exceed limits simply by reaching a steepness threshold. Choice C treats spike-wave formation as the researchers' main suggestion and adds a general height claim the text does not make. Choice D keeps the focus on intersecting traveling waves producing a wave that may be higher than expected. The answer is <strong>D</strong>."
     }
   ]
 }

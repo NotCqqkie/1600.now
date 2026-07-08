@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Choose the conversion direction",
-      "content": "The problem gives $1$ rod $=5.5$ yards. Since the question starts with rods and asks for yards, multiply by $5.5$ yards per rod."
+      "title": "Choose the conversion",
+      "content": "The conversion is $1$ rod equals $5.5$ yards. Since the question starts with rods and asks for yards, multiply by $5.5$."
     },
     {
-      "title": "Set up the unit cancellation",
-      "content": "$$83\\text{ rods}\\cdot\\frac{5.5\\text{ yards}}{1\\text{ rod}}$$<br/>The rod units cancel, leaving yards."
-    },
-    {
-      "title": "Multiply",
-      "content": "$$83(5.5)=456.5$$"
-    },
-    {
-      "title": "Answer",
-      "content": "$83$ rods are equivalent to <strong>456.5</strong> yards."
+      "title": "Multiply the values",
+      "content": "Convert $83$ rods to yards.\n\n$$83(5.5)=456.5$$\n\nThe answer is <strong>456.5</strong>."
     }
   ]
 }

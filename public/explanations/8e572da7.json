@@ -1,0 +1,15 @@
+{
+  "questionId": "8e572da7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the caution clue",
+      "content": "The passage says Birmingham textile firms might seem representative of industrial agglomeration generally, but Marin and colleagues warn against relying too broadly on that one example. The leather clothing industry lacked a key driver present in the textile case, so the blank needs a phrase about drawing broad conclusions from a limited case."
+    },
+    {
+      "title": "Reject wrong meanings",
+      "content": "<ul><li><strong>Choice A</strong>: You cannot logically \"convene with\" an example in this context.</li><li><strong>Choice B</strong>: \"Corroborating\" means confirming with evidence, but the warning is about overgeneralizing.</li><li><strong>Choice C</strong>: \"Scrutinizing\" means examining closely, which is not what the authors caution against.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

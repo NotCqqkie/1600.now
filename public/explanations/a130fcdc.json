@@ -1,19 +1,15 @@
 {
   "questionId": "a130fcdc",
-  "qid": "a130fcdc",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the list",
-      "content": "The choices all use the same $x$-values: $-1$, $0$, and $1$. Evaluate $g(x)=9x+5$ at each input to get the needed output row: $$g(-1)=-4,\\quad g(0)=5,\\quad g(1)=14.$$"
+      "title": "Evaluate each input",
+      "content": "The tables use $x=-1$, $x=0$, and $x=1$. Substitute each value into $g(x)=9x+5$ to find the matching outputs:<br/><br/>$$g(-1)=9(-1)+5=-4$$<br/>$$g(0)=9(0)+5=5$$<br/>$$g(1)=9(1)+5=14$$"
     },
     {
-      "title": "Confirm by direct substitution",
-      "content": "Substitute each input: $$g(-1)=9(-1)+5=-4$$ $$g(0)=9(0)+5=5$$ $$g(1)=9(1)+5=14$$ So the correct table must pair $-1$ with $-4$, $0$ with $5$, and $1$ with $14$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The table with outputs $4$, $9$, and $14$ starts with $g(-1)=4$, but it should be $-4$. The table with outputs $-5$, $0$, and $5$ starts with $g(-1)=-5$, also wrong. The table with outputs $-9$, $0$, and $9$ shows the outputs for $9x$, not $9x+5$. The correct answer shows $-4$, $5$, and $14$ in order, so <strong>C</strong> is correct."
+      "title": "Match the output row",
+      "content": "The correct table must pair the inputs with $-4$, $5$, and $14$ in that order. The other tables show at least one output that does not match the function rule. The answer is <strong>C</strong>."
     }
   ]
 }

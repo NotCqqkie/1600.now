@@ -1,0 +1,19 @@
+{
+  "questionId": "32a290ea",
+  "correctAnswer": "107",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle angle sum",
+      "content": "The angles in triangle $RST$ add to $180$ degrees:<br/>$$45+x+(4x-5)=180$$<br/>$$40+5x=180$$<br/>$$x=28$$"
+    },
+    {
+      "title": "Find angle T",
+      "content": "Substitute $x=28$ into the expression for angle $T$:<br/>$$4(28)-5=112-5=107$$"
+    },
+    {
+      "title": "Use the parallel lines",
+      "content": "Since line segment $LK$ is parallel to line segment $RT$, angle $SKL$ corresponds to angle $T$. Therefore angle $SKL$ has the same measure. The answer is <strong>107</strong>."
+    }
+  ]
+}

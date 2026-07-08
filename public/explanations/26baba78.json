@@ -1,0 +1,15 @@
+{
+  "questionId": "26baba78",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the favorable count",
+      "content": "The table shows that color $Y$ has frequency $6$. There are $181$ flowers total."
+    },
+    {
+      "title": "Form the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes.\n$$P(\\text{color }Y)=\\frac{6}{181}$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

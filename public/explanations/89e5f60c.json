@@ -1,0 +1,19 @@
+{
+  "questionId": "89e5f60c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope intercept form",
+      "content": "A line with the given slope has this form.<br/>$$y=\\frac{1}{8}x+b$$"
+    },
+    {
+      "title": "Substitute the point",
+      "content": "Use the given point to find $b$.<br/>$$-6=\\frac{1}{8}(40)+b$$<br/>$$-6=5+b$$<br/>$$b=-11$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "Substitute the intercept into the line equation.<br/>$$y=\\frac{x}{8}-11$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

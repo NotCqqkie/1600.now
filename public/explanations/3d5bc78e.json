@@ -1,0 +1,15 @@
+{
+  "questionId": "3d5bc78e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the length statement",
+      "content": "The variable $x$ is the length and $y$ is the height. Since the length is $3$ times the height, the relationship is<br/>$$x=3y$$"
+    },
+    {
+      "title": "Translate the height statement",
+      "content": "The height is $84$ inches, and $y$ represents the height, so the second equation is<br/>$$y=84$$<br/>The system must include $x=3y$ and $y=84$. The answer is <strong>B</strong>."
+    }
+  ]
+}

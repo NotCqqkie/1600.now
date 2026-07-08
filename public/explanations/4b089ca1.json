@@ -1,0 +1,15 @@
+{
+  "questionId": "4b089ca1",
+  "correctAnswer": "54",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input value",
+      "content": "Use the function definition and replace $x$ with $3$ because the question asks for $f(3)$:<br/>$$f(3)=3^2+3+42$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Simplify the expression to get the output for that input:<br/>$$f(3)=9+3+42=54$$<br/>The answer is <strong>54</strong>."
+    }
+  ]
+}

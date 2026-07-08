@@ -1,0 +1,19 @@
+{
+  "questionId": "4c08e046",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify width and length",
+      "content": "The width is represented by $w$. The length is $46$ times the width, so the length is $46w$."
+    },
+    {
+      "title": "Connect the area factors",
+      "content": "Area is length times width. In\n$$\ny=(46w)(w)\n$$\nthe factor $w$ is the width, which means the factor $46w$ is the length."
+    },
+    {
+      "title": "Interpret the factor",
+      "content": "The expression $46w$ represents the length of the rectangle, in feet. The answer is <strong>A</strong>."
+    }
+  ]
+}

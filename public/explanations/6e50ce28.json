@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate each sentence",
-      "content": "Sentence 1: &quot;The sum of a number $x$ and 9 is twice as large as a number $y$&quot; $\\Rightarrow$ $x + 9 = 2y$.<br/>Sentence 2: &quot;The number $y$ is 4 less than the number $x$&quot; $\\Rightarrow$ $y = x - 4$."
+      "title": "Translate the sum sentence",
+      "content": "The sum of $x$ and $9$ is $x+9$. That sum is twice as large as $y$, so the first equation is\n$$x+9=2y$$"
     },
     {
-      "title": "Match the system",
-      "content": "The system must contain both equations: $$x+9=2y$$ and $$y=x-4.$$ The choice with $x+9=2y$ and $y=x-4$ gives exactly that system. The system with $2 \\left(x+9\\right)=y$ reverses the first relationship, and the systems with $y=4-x$ reverse the second relationship. That confirms <strong>A</strong> is correct."
+      "title": "Translate the less sentence",
+      "content": "The phrase \"$4$ less than $x$\" means subtract $4$ from $x$. Therefore the second equation is\n$$y=x-4$$\nThe system with both equations is the target system. The answer is <strong>A</strong>."
     }
   ]
 }

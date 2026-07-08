@@ -1,0 +1,19 @@
+{
+  "questionId": "cab04f85",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join contrasting clauses",
+      "content": "The sentence contrasts what observers might think about the spider's silk with the fact that the spider uses a unique, stretchy silk. Both sides are complete clauses, and \"however\" is a conjunctive adverb introducing the contrast."
+    },
+    {
+      "title": "Reject comma-only joins",
+      "content": "Choice A uses commas around \"however\" but joins two complete clauses with only a comma. Choice B lacks needed punctuation before \"however.\" Choice C puts the semicolon after \"however,\" separating it from the clause it introduces."
+    },
+    {
+      "title": "Use semicolon and comma",
+      "content": "A semicolon before \"however\" and a comma after it correctly connect the two complete contrasting clauses. The answer is <strong>D</strong>."
+    }
+  ]
+}

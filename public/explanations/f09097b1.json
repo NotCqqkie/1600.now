@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the relationship between heights",
-      "content": "The plant grows at a constant average rate over 14 days. The final height equals the initial height plus all the growth that occurred:<br/><br/>$$\\text{Final height} = \\text{Initial height} + \\text{Total growth}$$"
+      "title": "Find the total growth",
+      "content": "The plant grew an average of $1.15$ centimeters per day for $14$ days:<br/>$$1.15(14)=16.1$$"
     },
     {
-      "title": "Calculate the total growth",
-      "content": "Growth occurs at 1.15 cm per day for 14 days:<br/>$$\\text{Total growth} = 1.15 \\times 14 = 16.1 \\text{ cm}$$"
-    },
-    {
-      "title": "Solve for initial height",
-      "content": "Substitute into the relationship:<br/>$$39.9 = \\text{Initial height} + 16.1$$<br/>$$\\text{Initial height} = 39.9 - 16.1 = 23.8 \\text{ cm}$$"
+      "title": "Subtract from the final height",
+      "content": "The final height was $39.9$ centimeters, so the beginning height was:<br/>$$39.9-16.1=23.8$$The answer is <strong>23.8</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "73af3e99",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match compound verbs",
+      "content": "The singular subject \"This technique\" has a compound predicate: it \"emphasizes\" one thing and also does something else. The second verb should stay parallel with the third-person singular present-tense verb \"emphasizes.\""
+    },
+    {
+      "title": "Keep tense and number parallel",
+      "content": "B uses plural \"have\" and shifts tense, C uses plural \"are\" and shifts to progressive form, and D uses a base-form verb that does not agree with the singular subject. The answer is <strong>A</strong>."
+    }
+  ]
+}

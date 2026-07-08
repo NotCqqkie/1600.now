@@ -1,0 +1,15 @@
+{
+  "questionId": "31980973",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting amount",
+      "content": "At $t=0$, there are $272$ people in line, so the model starts at $272$."
+    },
+    {
+      "title": "Use the decreasing rate",
+      "content": "The number of people in line decreases by $16$ each minute, so the slope is $-16$. The model is:\n$$p(t)=-16t+272$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "29031c64",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the sample-size threshold",
+      "content": "The passage says a handedness study needs at least 176 individuals to produce a representative result. Chen's gorilla study and Brooks's chimpanzee study each included only 8 individuals, so both are far below the stated threshold for drawing representative conclusions."
+    },
+    {
+      "title": "Reject one-sided reliability",
+      "content": "A and D treat Chen's study as reliable despite the tiny sample. B assumes Brooks underestimated right-handedness, which the small sample cannot show. Since both studies fall far below the threshold, neither supports a meaningful comparison. The answer is <strong>C</strong>."
+    }
+  ]
+}

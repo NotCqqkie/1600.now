@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the axis of symmetry",
-      "content": "The vertex is $(-2,5)$, so the axis of symmetry is $x=-2$. The two $x$-intercepts of a parabola are the same horizontal distance from this axis."
+      "title": "Use the symmetry line",
+      "content": "The vertex is $(-2,5)$, so the axis of symmetry is the vertical line $x=-2$. The two $x$-intercepts are the same horizontal distance from this line."
     },
     {
-      "title": "Mirror the known root across the axis",
-      "content": "Other intercept $= 2h - r_1 = 2(-2) - \\left(-\\dfrac{15}{4}\\right) = -4 + \\dfrac{15}{4} = -\\dfrac{16}{4} + \\dfrac{15}{4} = -\\dfrac{1}{4}$.<br/>The other x-intercept is $\\left(-\\dfrac{1}{4}, 0\\right)$, so Choice B is the correct answer."
+      "title": "Mirror the known intercept",
+      "content": "Let $r$ be the other $x$-intercept. The midpoint of the two intercepts' $x$-coordinates is $-2$.<br/>$$\\frac{-\\frac{15}{4}+r}{2}=-2$$<br/>$$-\\frac{15}{4}+r=-4$$<br/>$$r=-\\frac{1}{4}$$"
+    },
+    {
+      "title": "Write the other intercept",
+      "content": "The other $x$-intercept is $(-\\frac{1}{4},0)$. The answer is <strong>B</strong>."
     }
   ]
 }

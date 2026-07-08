@@ -1,0 +1,15 @@
+{
+  "questionId": "3e3eb468",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count each side length",
+      "content": "The triangle has one side of length $x$ and two sides of length $y$."
+    },
+    {
+      "title": "Write the perimeter equation",
+      "content": "The perimeter is the sum of the three side lengths.<br/>$$x+y+y=47$$<br/>Combine the like terms.<br/>$$x+2y=47$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

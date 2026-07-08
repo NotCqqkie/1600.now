@@ -1,0 +1,15 @@
+{
+  "questionId": "74fc23e4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage's turn",
+      "content": "The text starts with a widely held belief that protected areas hinder economic development because they restrict some economic activity. It then explains why that belief may persist: economic assessments often miss indirect tourism effects connected to protected areas."
+    },
+    {
+      "title": "Use the study as contrast",
+      "content": "A invents a second research team and methodology. B treats the belief as demonstrated and then solved by one example. D says several studies support the belief and frames Abrolhos as a mere exception. The final 'But' instead introduces Tan et al.'s findings as evidence that tourism associated with Abrolhos can boost nearby economic sectors, including fishing income, conflicting with the belief. The answer is <strong>C</strong>."
+    }
+  ]
+}

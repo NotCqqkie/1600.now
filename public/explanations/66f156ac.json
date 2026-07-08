@@ -1,0 +1,19 @@
+{
+  "questionId": "66f156ac",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the target voltage",
+      "content": "The capacitor starts at $16$ volts. The target is $15\\%$ of that initial amount:\n$$\n0.15(16)=2.4\n$$\nSo the graph should be read at about $2.4$ volts."
+    },
+    {
+      "title": "Use the decay model",
+      "content": "From the graph, the voltage follows exponential decay with initial value $16$. A model is\n$$\nV(t)=16e^{-t/\\tau}\n$$\nwhere $\\tau$ is the time constant."
+    },
+    {
+      "title": "Estimate the time",
+      "content": "Set the model equal to the target voltage:\n$$\n16e^{-t/\\tau}=2.4\n$$\nThen\n$$\ne^{-t/\\tau}=0.15\n$$\nso\n$$\nt=-\\tau\\ln(0.15)\n$$\nThe graph shows $\\tau$ is about $0.90$ seconds, so\n$$\nt=-0.90\\ln(0.15)=1.71\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

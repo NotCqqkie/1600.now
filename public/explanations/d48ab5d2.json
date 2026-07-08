@@ -1,0 +1,19 @@
+{
+  "questionId": "d48ab5d2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial value",
+      "content": "The present value is the value when $x=0$, so the initial value is $186{,}000$."
+    },
+    {
+      "title": "Find the yearly multiplier",
+      "content": "A yearly increase of $3.2\\%$ means multiplying by $1+0.032=1.032$ each year."
+    },
+    {
+      "title": "Write the model",
+      "content": "Use the exponential form $f(x)=a(b)^x$ with $a=186{,}000$ and $b=1.032$.<br/>$$f(x)=186{,}000(1.032)^x$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

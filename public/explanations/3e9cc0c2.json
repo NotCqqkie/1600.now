@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the finite geometric series identity",
-      "content": "For any value of $$p$$, the product $$(1 - p)(1 + p + p^2 + \\cdots + p^n)$$ telescopes to $$1 - p^{n+1}$$. Here the second factor has terms from $$p^0$$ through $$p^7$$, so $$n = 7$$ and the product equals $$1 - p^8$$."
+      "title": "Use the telescoping pattern",
+      "content": "The second factor is a finite geometric sum from $p^0$ through $p^7$. Multiplying by $(1-p)$ makes each middle power cancel with the next term."
     },
     {
-      "title": "Verify by direct expansion",
-      "content": "Multiply $$(1-p)$$ term-by-term into the series:<ul><li>$$1 \\cdot (1 + p + p^2 + p^3 + p^4 + p^5 + p^6 + p^7) = 1 + p + p^2 + p^3 + p^4 + p^5 + p^6 + p^7$$</li><li>$$-p \\cdot (1 + p + p^2 + p^3 + p^4 + p^5 + p^6 + p^7) = -p - p^2 - p^3 - p^4 - p^5 - p^6 - p^7 - p^8$$</li></ul>Adding, every middle term cancels, leaving $$1 - p^8$$."
+      "title": "Show the cancellation",
+      "content": "Expand by distributing $1$ and $-p$.\n$$\n1+p+p^2+p^3+p^4+p^5+p^6+p^7\n$$\n$$\n-p-p^2-p^3-p^4-p^5-p^6-p^7-p^8\n$$"
     },
     {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li>$1 - p^9$ - would require a factor up to $$p^8$$, not $$p^7$$. Eliminated.</li><li>The matching choice: $1 - p^8$ - matches the telescoped result. This is correct.</li><li>$1 - p^7$ - would require the series to end at $$p^6$$. Eliminated.</li><li>$1 - p^6$ - would require the series to end at $$p^5$$. Eliminated.</li></ul><strong>B</strong> is correct."
+      "title": "Keep the uncanceled terms",
+      "content": "Only the first and last terms remain.\n$$\n1-p^8\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

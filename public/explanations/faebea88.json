@@ -1,0 +1,15 @@
+{
+  "questionId": "faebea88",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the three-part structure",
+      "content": "The passage has three clear movements. First, it briefly describes a 2020 literary reissue project that replaces nonfemale pseudonyms with the authors' female given names. Next, it introduces Leah Romano and other scholars, who criticize the project for lacking nuance and erasing authorial intention. Finally, it supports that criticism by explaining that pseudonyms were not always forced by social roles; for some writers, they could be chosen acts of self-fashioning."
+    },
+    {
+      "title": "Avoid invented structures",
+      "content": "Choice B invents an authorship question and a discussion of the original publication circumstances, neither of which appears. Choice C invents a literary movement and a study of that movement, while the passage is about a reissue project and scholarly criticism. Choice D wrongly says the scholars advanced the project's assertion, but the passage says they criticized the project's implication. The remaining choice matches the actual sequence: a project is described, a response by Romano and others is introduced, and support for that response is expressed. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the confidence interval",
-      "content": "Margin of error is ±3% around the point estimate of 30%.<br/><br/>Lower bound: 30% − 3% = 27%<br/>Upper bound: 30% + 3% = 33%<br/><br/>The confidence interval is [27%, 33%]. This range represents where we expect the true population percent to fall."
+      "title": "Build the margin interval",
+      "content": "The estimate is $30\\%$ with a margin of error of $3\\%$. That gives the interval<br/>$$30\\%-3\\%=27\\%$$<br/>$$30\\%+3\\%=33\\%$$"
     },
     {
-      "title": "Evaluate each statement against the confidence interval",
-      "content": "The confidence interval tells us which population values are plausible (inside the interval) and which are doubtful (outside the interval).<ul><li><strong>Choice A &mdash; Approximately 3% of the teens in the study who are classified as heavy texters are not really heavy texters.</strong> Misinterprets 3% as a sample misclassification rate. Margin of error measures uncertainty when generalizing to the population, not classification accuracy within the sample.</li><li><strong>Choice B &mdash; It is not possible that the percent of all US teens who are heavy texters is less than 27%.</strong> Says it is not possible for the true percent to be below 27%. That is too absolute; a confidence interval does not make values outside the interval impossible.</li><li><strong>Choice C &mdash; The percent of all US teens who are heavy texters is 33%.</strong> Claims the true percent is 33%. This confuses the upper boundary with the estimate itself. The true value is likely somewhere in [27%, 33%], not specifically 33%.</li><li><strong>Choice D &mdash; It is doubtful that the percent of all US teens who are heavy texters is 35%.</strong> Says it is doubtful that the true percent is 35%. Since 35% > 33%, 35% lies outside the confidence interval [27%, 33%]. The word doubtful correctly reflects that values outside the interval are less likely. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Interpret values outside it",
+      "content": "A margin of error does not make values outside the interval impossible, but it does make them doubtful. Choice A treats margin of error as a classification error in the sample, not uncertainty about the larger teen population. Choice B is too absolute, and Choice C names only the upper endpoint. Since $35\\%$ is greater than the upper end, $33\\%$, it is doubtful that the population percent is $35\\%$. The answer is <strong>D</strong>."
     }
   ]
 }

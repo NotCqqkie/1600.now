@@ -1,0 +1,15 @@
+{
+  "questionId": "195b6e6d",
+  "correctAnswer": "472",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output equal",
+      "content": "The question asks for the input $x$ that makes $g(x)=236$. Since $g(x)=\\frac{x}{2}$, set the expression equal to $236$.<br/>$$\\frac{x}{2}=236$$"
+    },
+    {
+      "title": "Undo the division",
+      "content": "Multiply both sides by $2$ to isolate $x$.<br/>$$x=236\\cdot2=472$$<br/>The answer is <strong>472</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "6ea977ff",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the passage's conclusion",
+      "content": "The passage says a much higher share of Bogotá respondents used parks even though fewer of them lived within a 10-minute walk of a park. It concludes that greater proximity alone cannot explain the difference."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "B mentions source timing, C mentions researcher expectations, and D questions survey accuracy; none is discussed in the passage. The stated difference must have another cause besides park proximity. The answer is <strong>A</strong>."
+    }
+  ]
+}

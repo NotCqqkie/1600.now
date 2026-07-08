@@ -1,0 +1,19 @@
+{
+  "questionId": "bbbb4fc8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target a production barrier",
+      "content": "Adlhart claims the sponge would be hard to mass-produce. A supporting finding must point to a problem with producing the sponge at scale, not merely to the pollution problem or to the sponge's performance."
+    },
+    {
+      "title": "Reject off-target details",
+      "content": "Choice A describes a source of microplastic pollution. Choice B addresses shipping. Choice C concerns absorption differences in experiments. None of these explains why manufacturing many sponges would be difficult."
+    },
+    {
+      "title": "Confirm the ingredient limit",
+      "content": "Choice D identifies a raw-material barrier: starch and gelatin are already in high demand, so they would be hard to source in large quantities. Since those are the sponge's main ingredients, this supports Adlhart's claim. The answer is <strong>D</strong>."
+    }
+  ]
+}

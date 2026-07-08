@@ -1,0 +1,19 @@
+{
+  "questionId": "ee8f6aac",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Decide if the graph rises",
+      "content": "Reading the graph from left to right, the $y$-values increase as $x$ increases. So the function is increasing, not decreasing."
+    },
+    {
+      "title": "Decide if the graph is curved",
+      "content": "A linear graph is a straight line with constant slope. This graph curves upward and gets steeper, which is the shape of exponential growth."
+    },
+    {
+      "title": "Classify the function",
+      "content": "The function is increasing and exponential. The answer is <strong>C</strong>."
+    }
+  ]
+}

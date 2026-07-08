@@ -1,0 +1,15 @@
+{
+  "questionId": "6610f923",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The function is written in vertex form.\n$$\nf(x)=\\frac{1}{8}(x-3)^2+6\n$$\nA function in the form $a(x-h)^2+k$ has vertex $(h,k)$, so the vertex is $(3,6)$."
+    },
+    {
+      "title": "Interpret the height",
+      "content": "The coefficient of the squared term is positive, so the vertex is the minimum point. In this context, the $y$-value gives the drone's minimum height: $6$ inches above the ground. The answer is <strong>A</strong>."
+    }
+  ]
+}

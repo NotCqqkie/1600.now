@@ -1,0 +1,15 @@
+{
+  "questionId": "17402922",
+  "correctAnswer": "35",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant ratio",
+      "content": "The ratio of $k$ to $p$ is constant. Using $k=5$ and $p=4$ gives<br/>$$\\frac{k}{p}=\\frac{5}{4}$$"
+    },
+    {
+      "title": "Apply the ratio to the new value",
+      "content": "When $p=28$, multiply by the constant ratio:<br/>$$k=\\frac{5}{4}\\cdot 28=5\\cdot 7=35$$The answer is <strong>35</strong>."
+    }
+  ]
+}

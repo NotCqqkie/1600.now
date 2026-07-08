@@ -1,0 +1,15 @@
+{
+  "questionId": "d55ae50c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the formulas",
+      "content": "The general kinetic energy formula and the given formula describe the same value of $K$, so their coefficients of $v^2$ must match.<br/>$$\\frac{1}{2}mv^2=38v^2$$"
+    },
+    {
+      "title": "Solve for the mass",
+      "content": "Divide both sides by $v^2$, then multiply by $2$.<br/>$$\\frac{1}{2}m=38$$<br/>$$m=76$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

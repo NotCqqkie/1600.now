@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the slope of the conversion function",
-      "content": "The conversion function is linear: $$F(x)=\\frac{9}{5}(x-273.15)+32$$ The slope is $\\frac{9}{5}$, so each $1$ kelvin increase changes the Fahrenheit temperature by $\\frac{9}{5}$ degrees."
+      "title": "Use the rate of change",
+      "content": "The function is linear, and only the increase is asked for. The coefficient of $x$ tells how many Fahrenheit degrees correspond to a $1$ kelvin increase.\n$$\nF(x)=\\frac{9}{5}(x-273.15)+32\n$$"
     },
     {
-      "title": "Scale the temperature change",
-      "content": "For an increase of $2.40$ kelvins, $$\\Delta F=\\frac{9}{5}(2.40)=4.32$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A (&lsquo;$4.32$&rsquo;) is $4.32$, so it is correct. The choices near $500$ come from plugging a temperature into the conversion formula instead of finding the change in temperature."
+      "title": "Scale the increase",
+      "content": "Multiply the kelvin increase by the rate of change.\n$$\n\\frac{9}{5}(2.40)=1.8(2.40)=4.32\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

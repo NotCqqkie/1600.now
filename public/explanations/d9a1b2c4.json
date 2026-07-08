@@ -1,0 +1,15 @@
+{
+  "questionId": "d9a1b2c4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the historians' view",
+      "content": "The final sentence gives the relevant claim: some historians suggest Maya mathematicians inherited the use of zero from the Olmec civilization. The answer should restate that inheritance claim."
+    },
+    {
+      "title": "Reject unrelated claims",
+      "content": "Choice B invents a comparison between historians and mathematicians. Choice C invents secrecy, and Choice D invents an attempt to spread the writing system to others. The supported point is that Maya civilization received the use of zero from the Olmec civilization. The answer is <strong>A</strong>."
+    }
+  ]
+}

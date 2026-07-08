@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "The blank falls between a subject noun phrase (“Her portrait of novelist Zadie Smith”) and a verb phrase (“is displayed in the National Portrait Gallery in London”)."
+      "title": "Keep the subject intact",
+      "content": "The sentence's subject is \"Her portrait of novelist Zadie Smith,\" followed directly by the verb \"is displayed.\" No punctuation should separate the subject from its verb."
     },
     {
-      "title": "Apply the rule",
-      "content": "The rule is: do not insert punctuation between a subject and its verb. A comma between subject and verb violates this rule, while a colon and em dash would introduce elaboration or emphasis not present in the sentence. That confirms <strong>C</strong> is correct."
+      "title": "Reject interrupting marks",
+      "content": "<ul><li><strong>Choice A</strong> inserts a colon between the subject and verb.</li><li><strong>Choice B</strong> inserts a dash between the subject and verb.</li><li><strong>Choice D</strong> inserts a comma between the subject and verb.</li></ul>The remaining choice leaves the subject-verb connection uninterrupted. The answer is <strong>C</strong>."
     }
   ]
 }

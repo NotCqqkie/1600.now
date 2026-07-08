@@ -1,0 +1,15 @@
+{
+  "questionId": "e2172497",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two clauses",
+      "content": "The first clause says the observatory sites number nearly five dozen. The next clause says the radars track mesospheric winds, so the blank must properly separate the two complete ideas."
+    },
+    {
+      "title": "Avoid the comma splice",
+      "content": "A, C, and D leave the two independent clauses joined by only a comma or an incomplete modifier. A period followed by \"Located across the globe\" correctly starts the second sentence and modifies \"the radars.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

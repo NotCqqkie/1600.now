@@ -1,0 +1,15 @@
+{
+  "questionId": "98886c93",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zeros on the graph",
+      "content": "Values of $x$ where $f(x)=0$ are the $x$-intercepts of the graph. From the graph, the curve meets the $x$-axis at two distinct places."
+    },
+    {
+      "title": "Count the distinct values",
+      "content": "Because there are two distinct $x$-intercepts, there are two distinct values of $x$ for which $f(x)=0$. The answer is <strong>B</strong>."
+    }
+  ]
+}

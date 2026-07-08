@@ -1,0 +1,15 @@
+{
+  "questionId": "40143112",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join the two clauses",
+      "content": "The first independent clause ends after <em>Laffer curve</em>. The next clause identifies the curve as a theoretical relationship and then says it was sketched on a napkin. The blank must correctly separate two independent clauses."
+    },
+    {
+      "title": "Reject comma splices",
+      "content": "A gives no punctuation between the clauses. C creates a relative clause and then leaves the following main clause improperly joined. D uses only a comma between independent clauses. A semicolon correctly connects the two complete clauses. The answer is <strong>B</strong>."
+    }
+  ]
+}

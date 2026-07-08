@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "The subject is &quot;Anthropologist L&iacute;via Barbosa&quot; — one person, singular. The long prepositional phrase &quot;of the Universidade Federal Fluminense in Brazil&quot; modifies the subject but does not change it. The blank needs a singular present-tense verb."
+      "title": "Find the subject",
+      "content": "The subject is \"Anthropologist Lívia Barbosa,\" one person. The phrase \"of the Universidade Federal Fluminense in Brazil\" only describes her and does not change the subject's number."
     },
     {
-      "title": "Test each choice against subject-verb agreement",
-      "content": "<ul><li><strong>Choice A &mdash; studies</strong>: Third-person singular present tense — matches a singular subject. &#10003;</li><li><strong>Choice B &mdash; are studying</strong>: Plural verb form — does not agree with a singular subject. &#10007;</li><li><strong>Choice C &mdash; have studied</strong>: Plural auxiliary — does not agree with a singular subject. &#10007;</li><li><strong>Choice D &mdash; study</strong>: Base form used for plural subjects or first-person — does not agree with a third-person singular subject. &#10007;</li></ul>That matches <strong>Choice A &mdash; studies</strong>."
+      "title": "Match subject and verb",
+      "content": "B, C, and D use plural verb forms that do not agree with a singular third-person subject. The sentence needs a singular present-tense verb to agree with one anthropologist. The answer is <strong>A</strong>."
     }
   ]
 }

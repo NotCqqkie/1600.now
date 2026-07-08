@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the probability formula",
-      "content": "The probability that a randomly selected subscriber is a Safaricom subscriber equals the ratio of Safaricom subscribers to total subscribers.<br/><br/>We're told this probability is 0.38, there are $p$ million Safaricom subscribers, and 104 million total subscribers on October 31, 2016.<br/>Setting up the equation:<br/>$$\\frac{p}{104} = 0.38$$",
+      "title": "Write the probability equation",
+      "content": "The probability is the number of Safaricom subscribers divided by the total number of subscribers. On October 31, 2016, there were $104$ million total subscribers, so<br/>$$\\frac{p}{104}=0.38$$",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
     },
     {
-      "title": "Solve for p and round",
-      "content": "Multiply both sides by 104:<br/>$$p = 0.38 \\times 104$$<br/>Calculating: $p = 39.52$<br/>Rounding to the nearest integer, $p = 40$ million."
+      "title": "Calculate and round",
+      "content": "Multiply both sides by $104$:<br/>$$p=0.38(104)=39.52$$<br/>Rounded to the nearest integer, this is $40$.<br/>The answer is <strong>40</strong>."
     }
   ]
 }

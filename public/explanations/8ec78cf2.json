@@ -1,0 +1,15 @@
+{
+  "questionId": "8ec78cf2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interruption",
+      "content": "The sentence opens an em dash interruption after \"that\": \"that—through community involvement and scientific study—aim to bring adjutants back.\" The interruption must be closed before the main verb \"aim\" resumes."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "Choice B uses a comma, Choice C uses a colon, and Choice D uses no punctuation, so none properly closes the em dash interruption. Matching the opening em dash keeps the parenthetical phrase bracketed and lets the sentence continue grammatically. The answer is <strong>A</strong>."
+    }
+  ]
+}

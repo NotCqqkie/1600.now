@@ -1,0 +1,15 @@
+{
+  "questionId": "9d5b9a83",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the material named",
+      "content": "The question asks what material Ortega uses in her artworks. The passage directly states that her method involves applying colorful yarn to photographs of people."
+    },
+    {
+      "title": "Reject unmentioned materials",
+      "content": "A, B, and C are never mentioned in the passage. The material actually named in the text is yarn. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "48e94ce3",
+  "correctAnswer": "580",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Handle the absolute values",
+      "content": "Since $a<0$, both $16a$ and $7a$ are negative. Their absolute values are the opposites of those expressions:\n$$\n|16a|=-16a\n$$\n$$\n|7a|=-7a\n$$"
+    },
+    {
+      "title": "Evaluate the function values",
+      "content": "Substitute each input into $f(x)=\\frac{|x|}{a}-13$:\n$$\nf(16a)=\\frac{-16a}{a}-13=-16-13=-29\n$$\n$$\nf(7a)=\\frac{-7a}{a}-13=-7-13=-20\n$$"
+    },
+    {
+      "title": "Multiply the results",
+      "content": "The requested product is\n$$\n(-29)(-20)=580\n$$\nThe answer is <strong>580</strong>."
+    }
+  ]
+}

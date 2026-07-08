@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the linear function form",
-      "content": "The function is<br/>$$f(t) = 120 + 30t$$<br/>This is a linear function in the standard form $f(t) = b + mt$, where:<ul><li>$b = 120$ is the y-intercept (initial value when $t = 0$)</li><li>$m = 30$ is the slope (coefficient of $t$, representing the rate of change)</li></ul>"
+      "title": "Identify the coefficient",
+      "content": "In $f(t)=120+30t$, the coefficient of $t$ is $30$. Since $t$ is the number of monthly deposits, this coefficient is the change in account balance per monthly deposit."
     },
     {
-      "title": "Interpret the slope in context",
-      "content": "The slope of a linear function represents how much the output changes for each unit increase in the input. Since $t$ is the number of monthly deposits, a slope of 30 means the account balance increases by 30 dollars for each additional deposit. That confirms <strong>A</strong> is correct."
+      "title": "State the rate in context",
+      "content": "For each additional monthly deposit, the amount in Sofia's bank account increases by $30$ dollars.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

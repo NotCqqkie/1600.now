@@ -1,0 +1,19 @@
+{
+  "questionId": "ed607cc8",
+  "correctAnswer": "1/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify angle A",
+      "content": "From the figure, angle $B$ is a right angle and angle $C$ is $30^{\\circ}$. The angles in a triangle sum to $180^{\\circ}$, so angle $A$ is $60^{\\circ}$."
+    },
+    {
+      "title": "Use the side ratio",
+      "content": "In a $30$-$60$-$90$ triangle, the sides are in the ratio $1:\\sqrt{3}:2$. Since $BC=36\\sqrt{3}$ is opposite the $60^{\\circ}$ angle, the hypotenuse is $72$."
+    },
+    {
+      "title": "Find the cosine",
+      "content": "For angle $A$, the adjacent leg is $36$ and the hypotenuse is $72$:<br/>$$\\cos(A)=\\frac{36}{72}=\\frac{1}{2}$$<br/>The answer is <strong>1/2</strong>."
+    }
+  ]
+}

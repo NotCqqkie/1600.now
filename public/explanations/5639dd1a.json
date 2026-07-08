@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$${x}^{2}= \\left(22\\right) \\left(22\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $22$.",
+      "title": "Recognize the square",
+      "content": "The right side is the product of $22$ with itself:\n$$\n(22)(22)=22^2\n$$\nSo the equation is $x^2=22^2$."
+    },
+    {
+      "title": "Use the positive solution",
+      "content": "The solutions are $x=22$ and $x=-22$, but the question asks for the positive solution."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation or solve it directly to find the positive value. The answer is <strong>22</strong>.",
       "desmosExpressions": [
         "{x}^{2}= \\left(22\\right) \\left(22\\right)"
       ]
-    },
-    {
-      "title": "Recognize the square",
-      "content": "The right side is $(22)(22)=22^2$, so the equation is $$x^2=22^2.$$"
-    },
-    {
-      "title": "Take both square roots",
-      "content": "If $x^2=22^2$, then $x=22$ or $x=-22$. Squaring either value gives the same result."
-    },
-    {
-      "title": "Choose the positive solution",
-      "content": "The question asks for the positive solution, so keep $22$ and reject $-22$. The answer is <strong>22</strong>."
     }
   ]
 }

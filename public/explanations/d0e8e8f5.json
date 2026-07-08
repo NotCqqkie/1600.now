@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the solution represents",
-      "content": "The solution to a system of equations is the point (or points) that satisfies both equations. Graphically, this is where the two curves intersect."
+      "title": "Use the intersection",
+      "content": "The solution to a system shown on a graph is the point where the two graphs intersect."
     },
     {
-      "title": "Find and read the intersection from the graph",
-      "content": "Reading the coordinates from the given graph where the line and parabola meet, the intersection point is $(4,1)$. That matches <strong>D</strong>."
+      "title": "Read the coordinates",
+      "content": "The line and the parabola intersect at $(4,1)$ on the graph. The answer is <strong>D</strong>."
     }
   ]
 }

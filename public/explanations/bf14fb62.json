@@ -1,0 +1,15 @@
+{
+  "questionId": "bf14fb62",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the likely pair",
+      "content": "Test $(6,16)$ in both equations:\n$$\n4(6-2)=16\n$$\nand\n$$\n(6-2)^2=16\n$$"
+    },
+    {
+      "title": "Verify both equations",
+      "content": "The ordered pair $(6,16)$ gives the same $y$-value in both equations, so it satisfies the system. The answer is <strong>B</strong>."
+    }
+  ]
+}

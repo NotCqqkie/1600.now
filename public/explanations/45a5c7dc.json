@@ -1,0 +1,15 @@
+{
+  "questionId": "45a5c7dc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the feather focus",
+      "content": "The text corrects a common assumption: feathered dinosaurs were not only winged dinosaurs. It then gives the wingless <em>Yutyrannus</em> as an example."
+    },
+    {
+      "title": "Reject absent topics",
+      "content": "B compares dinosaur and bird feathers, C explains extinction, and D claims only one species had feathers; none matches the passage. The text is about feathers appearing on certain dinosaurs, including non-winged ones. The answer is <strong>A</strong>."
+    }
+  ]
+}

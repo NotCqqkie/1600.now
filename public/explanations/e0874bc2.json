@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the perimeter scale factor",
-      "content": "For similar triangles, corresponding side lengths and perimeters use the same scale factor. Compare the two perimeters first, then apply that factor to the corresponding side."
+      "title": "Find the scale factor",
+      "content": "For similar triangles, the ratio of corresponding side lengths equals the ratio of the perimeters. The perimeters are $37$ and $333$, so<br/>$$\\frac{333}{37}=9$$"
     },
     {
-      "title": "Find the scale factor from perimeters",
-      "content": "For similar triangles, the ratio of corresponding side lengths is the same as the ratio of the perimeters. The table gives perimeter $37$ for triangle $TUV$ and $333$ for triangle $XYZ$, so the scale factor from $TUV$ to $XYZ$ is $$\\frac{333}{37}=9.$$"
-    },
-    {
-      "title": "Apply scale factor to find XY",
-      "content": "$TU$ corresponds to $XY$, and $TU=18$. Multiply by the scale factor: $$XY=18\\cdot9=162.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The corresponding side length is $162$, so <strong>D</strong> is correct."
+      "title": "Scale the corresponding side",
+      "content": "Side $TU$ corresponds to side $XY$, and $TU=18$. Multiply by the scale factor:<br/>$$XY=18\\cdot 9=162$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

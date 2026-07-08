@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the narrative opening signal",
-      "content": "“Begin a narrative about the creation” is the key phrase. This signals that we need an opening—a sentence that establishes the foundation of the story, not one that describes mechanics or summarizes timeline."
+      "title": "Start the creation story",
+      "content": "The student wants to begin a narrative about the creation of Demir's robots. A strong opening should introduce the inspiration and the design goal before moving into details about testing, refinement, or how the finished robots operate."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "The correct answer opens with the inspiration source (ants forming bridges) and explicitly connects it to Demir's goal (“set out to design quadruped robots capable of similarly collaborative behavior”).<br/><br/>The other choices either describe how the robots operate (A), report how long the creation took (B), or focus on ant behavior rather than the human designer (D).<br/><br/>Opening a narrative about creation means starting with inspiration and intent—not mechanics or timeline.<br/><br/><strong>C</strong> is correct."
+      "title": "Avoid later-stage details",
+      "content": "Choice A explains the robots' operation, Choice B jumps to the end of the yearlong process, and Choice D focuses mainly on ants. The useful opening connects ant bridge behavior to Demir setting out to design collaborative robots. The answer is <strong>C</strong>."
     }
   ]
 }

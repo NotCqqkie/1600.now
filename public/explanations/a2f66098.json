@@ -1,0 +1,15 @@
+{
+  "questionId": "a2f66098",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the claim",
+      "content": "The example must show that a peaking hydroelectric plant can generate more megawatt hours per year than some run-of-river plants. The relevant data must compare plant type with annual generation, because generator count alone would not prove that claim."
+    },
+    {
+      "title": "Use annual generation",
+      "content": "Choice B uses number of generators instead of power generated. Choice C compares two run-of-river plants, and Choice D reverses the relationship the claim needs. The data point showing J. Woodruff's annual generation above the run-of-river plants directly supports the example. The answer is <strong>A</strong>."
+    }
+  ]
+}

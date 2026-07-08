@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$."
+      "title": "Find the common factor",
+      "content": "Look for the greatest common factor in both terms. The coefficients $5$ and $15$ share $5$, the powers $x^9$ and $x^4$ share $x^4$, and both terms include $y^3$."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Factor each term",
+      "content": "Factor out $5x^4y^3$ from each term:\n$$\n5x^9y^3+15x^4y^3=5x^4y^3(x^5)+5x^4y^3(3)\n$$"
     },
     {
-      "title": "Factor the expression",
-      "content": "Factor $5x^9y^3 + 15x^4y^3$ by pulling out the greatest common factor. Both terms share $5x^4y^3$: $5x^9y^3 + 15x^4y^3 = 5x^4y^3(x^5 + 3)$."
-    },
-    {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $5{x}^{4}{y}^{3} \\left(3{x}^{5}\\right)$</strong>: Expanding gives $15x^9y^3$, which is missing the $15x^4y^3$ term entirely. &#10007;</li><li><strong>Choice B &mdash; $5{x}^{4}{y}^{3} \\left({x}^{3}\\right)$</strong>: Expanding gives $5x^7y^3$, which matches neither term of the original expression. &#10007;</li><li><strong>Choice C &mdash; $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$</strong>: Expanding gives $5x^9y^3 + 15x^4y^3$ &mdash; exactly the original expression. &#10003;</li><li><strong>Choice D &mdash; $5{x}^{4}{y}^{3} \\left({x}^{3}+3\\right)$</strong>: Expanding gives $5x^7y^3 + 15x^4y^3$, but the original has $x^9$, not $x^7$. &#10007;</li></ul>That matches <strong>Choice C &mdash; $5{x}^{4}{y}^{3} \\left({x}^{5}+3\\right)$</strong>."
+      "title": "Combine the leftover terms",
+      "content": "Put the remaining pieces inside one set of parentheses:\n$$\n5x^4y^3(x^5+3)\n$$\nThis keeps both original terms when distributed back through the parentheses. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use slope as the rate",
-      "content": "The question asks for the predicted increase in total fat for every $1$ gram increase in total protein. That is the slope of the line of best fit."
+      "title": "Use slope for the rate",
+      "content": "The predicted increase in total fat for each $1$ gram increase in total protein is the slope of the line of best fit."
     },
     {
-      "title": "Fit two points from the line",
-      "content": "Two approximate points on the line are $(20,34)$ and $(30,48)$. Using those points gives the slope directly."
+      "title": "Estimate from two line points",
+      "content": "Two approximate points on the line are $(20,34)$ and $(30,48)$."
     },
     {
-      "title": "Compute and compare",
-      "content": "$$m=\\frac{48-34}{30-20}=\\frac{14}{10}=1.4$$ The closest answer choice to $1.4$ is $1.5$, so <strong>C</strong> is correct."
+      "title": "Compute the slope",
+      "content": "$$m=\\frac{48-34}{30-20}=\\frac{14}{10}=1.4$$The closest choice to $1.4$ is $1.5$. The answer is <strong>C</strong>."
     }
   ]
 }

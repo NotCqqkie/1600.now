@@ -1,0 +1,19 @@
+{
+  "questionId": "62540129",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find calcium from milk",
+      "content": "The recipe uses $4$ cups of milk, and each cup has $286$ milligrams of calcium.<br/>$$4(286)=1{,}144$$<br/>So the milk contributes $1{,}144$ milligrams of calcium."
+    },
+    {
+      "title": "Find calcium from bananas",
+      "content": "The whole recipe has $1{,}158$ milligrams of calcium. Subtract the milk calcium.<br/>$$1{,}158-1{,}144=14$$<br/>The two bananas together contribute $14$ milligrams."
+    },
+    {
+      "title": "Divide by two bananas",
+      "content": "Each banana has half of that amount.<br/>$$\\frac{14}{2}=7$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

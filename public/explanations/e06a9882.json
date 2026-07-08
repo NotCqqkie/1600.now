@@ -1,0 +1,15 @@
+{
+  "questionId": "e06a9882",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a graph point",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,2)$. Substitute this point into the equation $10x+By=50$."
+    },
+    {
+      "title": "Find the coefficient",
+      "content": "Using $(0,2)$ gives an equation with only $B$ left to solve: $$10(0)+B(2)=50$$ $$2B=50$$ $$B=25$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

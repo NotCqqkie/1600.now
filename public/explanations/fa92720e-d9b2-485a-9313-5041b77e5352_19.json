@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure",
-      "content": "\"Though\" is a parenthetical word inserted after \"the Sun's position\" but before the rest of the independent clause beginning with \"as the eccentricity of Earth's orbit...\". Parenthetical \"though\" needs to be set off with commas on both sides."
+      "title": "Find the sentence structure",
+      "content": "The sentence says axial tilt is not the only factor that affects the Sun's position. The word <em>though</em> interrupts that idea before the dependent <em>as</em>-clause explains another factor: the eccentricity of Earth's orbit."
     },
     {
-      "title": "Apply the rule",
-      "content": "Identify the structure: \"Axial tilt is not the only factor that affects the Sun's [BLANK] as the eccentricity of Earth's orbit...\" — \"though\" is a concessive parenthetical that must be bracketed by commas on both sides.\n<ul>\n<li><strong>\"position, though,\"</strong>: <em>\"...the Sun's position, though, as the eccentricity...\"</em> — commas on both sides correctly enclose the parenthetical \"though\"; the main clause flows uninterrupted. ✓</li>\n<li><strong>\"position; though,\"</strong>: <em>\"...the Sun's position; though, as the eccentricity...\"</em> — semicolon before \"though\" implies an IC ends there, but \"Axial tilt is not the only factor that affects the Sun's position\" is followed by a fragment \"though, as...\" which is not an IC. ✗</li>\n<li><strong>\"position, though\"</strong>: <em>\"...the Sun's position, though as the eccentricity...\"</em> — opening comma is present but no closing comma after \"though\"; the parenthetical bleeds into the following clause. ✗</li>\n<li><strong>\"position, though;\"</strong>: <em>\"...the Sun's position, though; as the eccentricity...\"</em> — semicolon after \"though\" would require \"as the eccentricity...\" to be an IC, but it is a dependent clause. ✗</li>\n</ul>\nThat matches the correct answer — <strong>A</strong> is correct."
+      "title": "Set off though",
+      "content": "When <em>though</em> is used parenthetically in the middle of a sentence, it needs commas on both sides. A semicolon would not work before the <em>as</em>-clause because that clause cannot stand alone as a complete sentence."
+    },
+    {
+      "title": "Pick the punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: Uses a comma before and after <em>though</em>.</li><li><strong>Choice B</strong>: Uses a semicolon before a dependent clause.</li><li><strong>Choice C</strong>: Leaves the parenthetical <em>though</em> unclosed.</li><li><strong>Choice D</strong>: Also uses a semicolon before a dependent clause.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

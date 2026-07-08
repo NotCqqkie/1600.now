@@ -1,0 +1,15 @@
+{
+  "questionId": "2aecdd34",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular subject",
+      "content": "The second clause has the singular subject <em>TML</em>. Its verb should match that subject and parallel the first clause, where <em>DL pertains</em> uses simple present tense."
+    },
+    {
+      "title": "Reject plural forms",
+      "content": "A and C use plural auxiliaries, and D is a plural or base-form verb; all break agreement with singular <em>TML</em>. The sentence needs the singular simple-present form. The answer is <strong>B</strong>."
+    }
+  ]
+}

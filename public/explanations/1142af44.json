@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the mean",
-      "content": "From the frequency table, the total frequency is $a + 3a + 5a + 3a + a = 13a$.<br/><br/>The sum of all values weighted by frequency is:<br/>$$1(a) + 2(3a) + 3(5a) + 4(3a) + 5(a) = a + 6a + 15a + 12a + 5a = 39a$$<br/>Therefore, mean $= \\frac{39a}{13a} = 3$."
+      "title": "Compute the mean",
+      "content": "The total frequency is $a+3a+5a+3a+a=13a$. The weighted sum is<br/>$$1(a)+2(3a)+3(5a)+4(3a)+5(a)=39a$$<br/>So the mean is<br/>$$\\frac{39a}{13a}=3$$"
     },
     {
-      "title": "Find the median",
-      "content": "There are $13a$ data points. The counts below 3 total $a + 3a = 4a$, and the counts at or below 3 total $4a + 5a = 9a$. The middle value or values must fall in the value 3 group, so the median is 3."
+      "title": "Locate the median",
+      "content": "The values below $3$ have total frequency $a+3a=4a$. The values equal to $3$ have frequency $5a$, so the middle value or values fall in the group with value $3$."
     },
     {
-      "title": "Find the difference",
-      "content": "Mean $-$ Median $= 3 - 3 = 0$. That matches <strong>Choice A &mdash; 0</strong>."
+      "title": "Compare the measures",
+      "content": "The mean and median are both $3$, so the mean is greater than the median by<br/>$$3-3=0$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

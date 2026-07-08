@@ -1,0 +1,19 @@
+{
+  "questionId": "3628795d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the trig ratio",
+      "content": "In the right triangle, side $SR$ has length $17$ and is opposite angle $Q$. The side $QS$ is the hypotenuse, and the question asks for an expression for that length."
+    },
+    {
+      "title": "Use sine for opposite side",
+      "content": "The sine ratio relates the opposite side and the hypotenuse: $$\\sin Q=\\frac{\\text{opposite}}{\\text{hypotenuse}}=\\frac{17}{QS}$$"
+    },
+    {
+      "title": "Solve for the hypotenuse",
+      "content": "Multiply both sides by $QS$, then divide by $\\sin Q$: $$QS\\sin Q=17$$ $$QS=\\frac{17}{\\sin Q}$$ The answer is <strong>D</strong>."
+    }
+  ]
+}

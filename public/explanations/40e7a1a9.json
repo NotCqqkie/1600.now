@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up percent increase formula",
-      "content": "The percent increase from an original value to a new value is given by $$\\frac{\\text{new} - \\text{original}}{\\text{original}} \\times 100\\%.$$ Here the original is 48 and the new is 288."
+      "title": "Find the increase",
+      "content": "The increase from $48$ to $288$ is\n$$\n288-48=240\n$$"
     },
     {
-      "title": "Calculate p",
-      "content": "$$\\frac{288-48}{48} \\times 100 = \\frac{240}{48} \\times 100 = 5 \\times 100 = 500.$$ The answer is <strong>500</strong>."
+      "title": "Convert to a percent",
+      "content": "Percent increase is the increase divided by the original value, then multiplied by $100$.\n$$\n\\frac{240}{48}\\cdot 100=5\\cdot 100\n$$\nThe answer is <strong>500</strong>."
     }
   ]
 }

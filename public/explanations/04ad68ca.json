@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "The passage says flying buttresses &ldquo;eliminated&rdquo; the need for thick walls. The blank introduces what happened next &mdash; Gothic cathedrals could use thinner, higher walls. That is a consequence, not a similarity, an example, or a contrast."
+      "title": "Find the cause and effect",
+      "content": "Flying buttresses eliminated the need for thick, short walls. The next sentence explains the consequence: Gothic cathedrals could have thinner, higher walls."
     },
     {
-      "title": "Eliminate wrong transitions and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; Similarly,</strong>: &ldquo;Similarly&rdquo; signals that the next idea resembles the previous one, but thinner walls are a <em>result</em> of the invention, not a parallel example of it. &#10007;</li><li><strong>Choice B &mdash; For instance,</strong>: &ldquo;For instance&rdquo; introduces an example that illustrates the previous statement, but Gothic cathedrals having thinner walls is not an illustration of the flying buttress invention &mdash; it is what the invention made possible. &#10007;</li><li><strong>Choice C &mdash; Nevertheless,</strong>: &ldquo;Nevertheless&rdquo; signals contrast or concession, implying thinner walls happened <em>despite</em> the invention, which contradicts the passage. &#10007;</li><li><strong>Choice D &mdash; As a result,</strong>: &ldquo;As a result&rdquo; directly signals that thinner, higher walls were a consequence of eliminating the need for thick walls &mdash; exactly the cause-effect relationship in the passage. &#10003;</li></ul>That matches <strong>Choice D &mdash; As a result,</strong>."
+      "title": "Reject other transitions",
+      "content": "A signals similarity, but the second sentence gives a result. B introduces an example, though the sentence states what the invention made possible. C signals contrast, which contradicts the cause-and-effect relationship. The answer is <strong>D</strong>."
     }
   ]
 }

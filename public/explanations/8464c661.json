@@ -1,0 +1,15 @@
+{
+  "questionId": "8464c661",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the frying mechanism",
+      "content": "The passage gives a cause-and-effect chain: water evaporates from the crust, voids form, oil fills those voids, and fat content increases. If less moisture leaves the food, fewer voids are available for oil."
+    },
+    {
+      "title": "Rule out unsupported effects",
+      "content": "Choice B introduces frying temperature, which the passage does not connect to moisture loss. Choice C concerns how fast the crust loses permeability, which is not stated. Choice D introduces crispiness, another unsupported outcome. The answer is <strong>A</strong>."
+    }
+  ]
+}

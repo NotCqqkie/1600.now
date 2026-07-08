@@ -1,0 +1,15 @@
+{
+  "questionId": "311c8cc0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage progression",
+      "content": "The text begins with a broad scientific interest in shipwrecks' ecological effects. It then narrows to Chen and colleagues' study of microbial communities near wooden shipwrecks and ends with one finding about peak diversity."
+    },
+    {
+      "title": "Reject distorted structures",
+      "content": "Choice A adds historical significance not discussed. Choice B misstates the study as having received major scholarly attention and includes a reaction. Choice C focuses on wood type as the main point. The broad-interest, specific-study, finding sequence matches. The answer is <strong>D</strong>."
+    }
+  ]
+}

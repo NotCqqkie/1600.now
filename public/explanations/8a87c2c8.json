@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Add the equations",
-      "content": "The system is arranged so the $y$-terms cancel if you add the two equations: $$(x+4)+(x-4)=(-2y+9)+(2y+5).$$"
+      "content": "Add the left sides and the right sides:<br/>$$(x+4)+(x-4)=(-2y+9)+(2y+5)$$"
     },
     {
-      "title": "Simplify directly to the target",
-      "content": "On the left, $(x+4)+(x-4)=2x$. On the right, $-2y+2y=0$ and $9+5=14$. Therefore, $$2x=14.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The question asks for $2x$, so there is no need to solve for $x$ or $y$. The value is $14$, which matches <strong>C</strong>. The value $7$ is the trap from giving $x$ instead of $2x$."
+      "title": "Use the canceled terms",
+      "content": "The constants on the left cancel, and the $y$-terms on the right cancel:<br/>$$2x=14$$<br/>The question asks for $2x$, so no further solving is needed. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "8198d708",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the final sentence",
+      "content": "The passage says proximity alone cannot explain the difference in park use. Mexico City residents reported using parks more even though fewer reported living within a 10-minute walk of a park."
+    },
+    {
+      "title": "Rule out unsupported claims",
+      "content": "Choice A raises survey inaccuracies that the text never mentions. Choice B invents researcher expectations, and Choice D invents older sources. The text's actual point is that some factor besides proximity must explain the difference. The answer is <strong>C</strong>."
+    }
+  ]
+}

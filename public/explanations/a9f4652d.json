@@ -1,0 +1,15 @@
+{
+  "questionId": "a9f4652d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Set the possessive subject",
+      "content": "The blank is the subject of the verb \"correlate.\" Because the sentence is discussing Canada and Germany's constitutions, the subject must be plural. It also needs a possessive form because the lengths belong to the constitutions."
+    },
+    {
+      "title": "Reject number and ownership errors",
+      "content": "A has the plural possessive but the singular noun \"length.\" B lacks the possessive apostrophe. C is singular possessive and singular, even though two constitutions are being discussed. The plural possessive with plural \"lengths\" fits the sentence and agrees with \"correlate.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

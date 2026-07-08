@@ -1,0 +1,16 @@
+{
+  "questionId": "28c458a1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use distance from rate",
+      "content": "For constant speed, distance equals rate times time. The rate is $18$ meters per second and the time is $5$ seconds.",
+      "formula": "$$D = r \\cdot t$$"
+    },
+    {
+      "title": "Multiply rate by time",
+      "content": "Compute the distance traveled.<br/>$$18\\cdot 5=90$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use vertical angles",
+      "content": "Vertical angles are opposite angles formed by two intersecting lines, and vertical angles have equal measures. The problem states that angle $1$ and angle $2$ are vertical angles, so their measures must match."
     },
     {
-      "title": "Recall the Vertical Angles Theorem",
-      "content": "When two straight lines intersect at a point, they create four angles. The pairs of angles that are <strong>opposite each other</strong> across the intersection point are called <strong>vertical angles</strong>. A fundamental property: vertical angles are always congruent (equal in measure)."
-    },
-    {
-      "title": "Apply the theorem",
-      "content": "The problem states that angle 1 and angle 2 are vertical angles, with angle 1 measuring $72^\\circ$. Since vertical angles must be congruent, angle 2 has the same measure as angle 1: angle 2 = $72^\\circ$. That is the correct answer."
+      "title": "Match the equal measure",
+      "content": "Angle $1$ measures $72^{\\circ}$, so angle $2$ also measures $72^{\\circ}$. The answer is <strong>A</strong>."
     }
   ]
 }

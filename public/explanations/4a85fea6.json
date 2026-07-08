@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the research promises",
-      "content": "The passage establishes the problem (herbicides also kill harmless plants nearby) and then introduces the solution: engineered DNA that would allow &ldquo;exclusively targeting <em>E. esula</em>.&rdquo; The blank must state the logical consequence of that exclusive targeting."
+      "title": "Follow the targeting logic",
+      "content": "Chemical herbicides can control <em>E. esula</em> but may also kill harmless nearby plants. The new DNA-based approach may exclusively target <em>E. esula</em> by inhibiting its reproduction."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — making individual <em>E. esula</em> plants more susceptible to existing chemical herbicides.</strong>: The engineered DNA is meant to replace herbicides, not to boost their effect on individual plants. &#10007;</li><li><strong>Choice B — enhancing the ecological benefits of <em>E. esula</em> in North America.</strong>: The text describes only harmful effects of <em>E. esula</em>; there are no ecological benefits to enhance. &#10007;</li><li><strong>Choice C — enabling cattle to consume <em>E. esula</em> without becoming sick.</strong>: The research is about inhibiting the plant&rsquo;s reproduction, not changing how cattle react to it. &#10007;</li><li><strong>Choice D — reducing invasive <em>E. esula</em> numbers without harming other organisms.</strong>: Exclusively targeting <em>E. esula</em> means only that plant is affected, so its numbers fall while other plants and organisms are unharmed&mdash;directly solving the problem stated. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "State the consequence",
+      "content": "Choice A keeps the focus on herbicides, which the new approach is meant to avoid. Choice B contradicts the invasive harm described. Choice C shifts to cattle digestion rather than reproduction. Exclusive targeting would reduce <em>E. esula</em> while sparing other organisms. The answer is <strong>D</strong>."
     }
   ]
 }

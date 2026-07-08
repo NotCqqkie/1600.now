@@ -1,0 +1,15 @@
+{
+  "questionId": "e7c6b68d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the prompt's assumption",
+      "content": "The question assumes P7 gave equal actual ratings to impressionist and color-field paintings. It then asks what the model predicted, so the answer should compare the model's predicted ratings for those two styles."
+    },
+    {
+      "title": "Rule out unsupported directions",
+      "content": "B and D claim a specific higher or lower preference that the data do not establish. C says the model predicted equal ratings, which conflicts with the indicated difference. The supported claim is simply that the predicted ratings differed. The answer is <strong>A</strong>."
+    }
+  ]
+}

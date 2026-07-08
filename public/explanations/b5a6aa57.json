@@ -1,0 +1,23 @@
+{
+  "questionId": "b5a6aa57",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for y",
+      "content": "Use $y=6x+16$ in the second equation:<br/>$$-7x-(6x+16)=36$$<br/>$$-13x-16=36$$",
+      "desmosExpressions": [
+        "y=6x+16",
+        "-7x-y=36"
+      ]
+    },
+    {
+      "title": "Solve for x",
+      "content": "Continue solving by adding $16$ to both sides:<br/>$$-13x=52$$<br/>$$x=-4$$"
+    },
+    {
+      "title": "Find y",
+      "content": "Substitute $x=-4$ into $y=6x+16$:<br/>$$y=6(-4)+16=-8$$<br/>The solution is $(-4,-8)$, which satisfies both original equations. The answer is <strong>A</strong>."
+    }
+  ]
+}

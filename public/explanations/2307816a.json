@@ -1,0 +1,15 @@
+{
+  "questionId": "2307816a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make a broad findings claim",
+      "content": "The student wants a generalization from the study's findings, not a sentence about the study's method. The notes show variation by city, but the average park happiness benefit across all 25 cities was 0.10, and a value above 0 indicates a positive effect."
+    },
+    {
+      "title": "Avoid method and city errors",
+      "content": "Choice A and Choice D describe how the study used geotagged posts rather than stating a broad finding. Choice C misreads Boston: its benefit was below average but still greater than 0, so it was positive. The broad supported claim is that parks' effect can vary by city but is positive overall. The answer is <strong>B</strong>."
+    }
+  ]
+}

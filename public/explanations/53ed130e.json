@@ -1,0 +1,15 @@
+{
+  "questionId": "53ed130e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon's clue",
+      "content": "The statement after the colon explains the blank: \"we will never be able to answer it.\" The missing word must mean impossible to settle or answer."
+    },
+    {
+      "title": "Rule out weaker meanings",
+      "content": "B would mean internally contradictory, C would mean urgently necessary, and D would mean impossible to avoid. Those do not match a question that cannot be answered. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "703b98fc",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the starting point",
+      "content": "The initial deposit is the account balance at the start. On the graph, that means the value when $x=0$ months."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "At $x=0$, the graph crosses the vertical axis at $40$ dollars. To the nearest whole dollar, that initial balance is $40$.<br/>The answer is <strong>40</strong>."
+    }
+  ]
+}

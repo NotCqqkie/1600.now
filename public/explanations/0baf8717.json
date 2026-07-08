@@ -1,0 +1,15 @@
+{
+  "questionId": "0baf8717",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the first two segments",
+      "content": "The graph first increases in a straight line for $1$ hour, meaning constant speed away from home. Then it is flat for $4$ hours, meaning Quinidra stayed at the location."
+    },
+    {
+      "title": "Read the final segment",
+      "content": "The final straight segment decreases back to $0$ distance from home, so she drove back home at a constant speed. This matches all three parts of the model. The answer is <strong>B</strong>."
+    }
+  ]
+}

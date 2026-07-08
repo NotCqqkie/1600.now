@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the points to locate the circle",
-      "content": "Because the three points define the circle, the center must be equally distant from all three. Use the vertical chord from $(7,11)$ to $(7,5)$ and the point $(4,8)$ to identify the center and radius."
+      "title": "Read the three points",
+      "content": "The graph shows the points $(4,8)$, $(7,11)$, and $(7,5)$. The center of the circle must be the same distance from all three points."
     },
     {
-      "title": "Identify the three points from the coordinate grid",
-      "content": "Reading from the graph: $(4, 8)$, $(7, 11)$, and $(7, 5)$."
+      "title": "Find the center and radius",
+      "content": "The midpoint of $(7,11)$ and $(7,5)$ is $(7,8)$. That point is also $3$ units from $(4,8)$, so $(7,8)$ is the center and the radius is $3$."
     },
     {
-      "title": "Find the center of the circle",
-      "content": "The center lies on the perpendicular bisector of every chord. The chord from $(7, 11)$ to $(7, 5)$ is vertical with midpoint $(7, 8)$, so its perpendicular bisector is the horizontal line $y = 8$. Thus the center has $y$-coordinate $8$. Checking the candidate $(7, 8)$ against all three given points:<ul><li>$(7, 8)$ to $(4, 8)$: $|7-4| = 3$</li><li>$(7, 8)$ to $(7, 11)$: $|11-8| = 3$</li><li>$(7, 8)$ to $(7, 5)$: $|8-5| = 3$</li></ul>All three distances are equal, so $(7, 8)$ is the center."
-    },
-    {
-      "title": "Calculate the circumference and find $k$",
-      "content": "With radius $r = 3$:<br/>$C = 2\\pi r = 2\\pi(3) = 6\\pi$<br/>Therefore $k = 6$. That matches <strong>Choice B &mdash; $6$</strong>."
+      "title": "Use circumference",
+      "content": "The circumference of a circle is<br/>$$C=2\\pi r$$<br/>With $r=3$,<br/>$$C=2\\pi(3)=6\\pi$$<br/>Since the circumference is $k\\pi$, $k=6$. The answer is <strong>B</strong>."
     }
   ]
 }

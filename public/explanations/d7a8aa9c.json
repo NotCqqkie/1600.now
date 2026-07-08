@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the scale factor",
-      "content": "Each side of triangle U equals $k$ times the corresponding side of triangle R. Since U's side length is greater than R's side length, the scale factor must satisfy $k>1$."
+      "title": "Require a larger scale",
+      "content": "Triangle U has side lengths greater than triangle R, so the scale factor must be greater than $1$."
     },
     {
-      "title": "Determine what scale factor k must satisfy",
-      "content": "Side of U = k &times; side of R. For U's side to be <strong>greater</strong> than R's side, we need k &gt; 1."
-    },
-    {
-      "title": "Evaluate each choice numerically",
-      "content": "<strong>$\\frac{31}{30}$</strong> $\\frac{31}{30} \\approx 1.033 \\gt  1$ &mdash; U's sides are longer than R's &check;<br/>B) $1$ &mdash; sides are equal, not greater<br/>C) $\\frac{30}{31} \\approx 0.968 \\lt 1$ &mdash; U's sides would be shorter<br/>D) $0$ &mdash; sides collapse to length zero"
-    },
-    {
-      "title": "Select the valid value",
-      "content": "Only $\\frac{31}{30}$ exceeds 1. That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Compare the choices",
+      "content": "The only listed value greater than $1$ is:<br/>$$\\frac{31}{30}>1$$<br/>The other listed values are equal to or less than $1$. The answer is <strong>A</strong>."
     }
   ]
 }

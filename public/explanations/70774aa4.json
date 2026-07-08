@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Scale the given expression",
-      "content": "You do not need to solve for $x$. The target expression is $24x$, and $24x$ is exactly $4$ times $6x$: $$24x=4(6x).$$"
+      "content": "The target expression $24x$ is exactly $4$ times $6x$.\n$$24x=4(6x)$$"
     },
     {
-      "title": "Use $6x=18$",
-      "content": "Substitute the given value into the scaled expression: $$24x=4(18)=72.$$ The value of $24x$ is $72$, which matches <strong>D</strong>."
+      "title": "Use the given value",
+      "content": "Substitute $6x=18$ into the scaled expression.\n$$24x=4(18)=72$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

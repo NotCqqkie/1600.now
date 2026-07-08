@@ -1,0 +1,15 @@
+{
+  "questionId": "e1ed8f2b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the opening claim",
+      "content": "The passage begins by saying Hawaiian silversword species illustrate adaptive radiation. The rest of the passage explains why: the species share a common ancestor but developed distinct forms as they adapted to different habitats."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "A contradicts the passage because silverswords are physically distinct. B is background about the archipelago, and C overgeneralizes from silverswords to most plants. The main idea is that silverswords are good examples of adaptive radiation. The answer is <strong>D</strong>."
+    }
+  ]
+}

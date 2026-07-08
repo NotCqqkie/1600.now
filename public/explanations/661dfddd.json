@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the direction of the trend",
-      "content": "The line of best fit slopes downward from left to right. Since the $x$-axis is elevation and the $y$-axis is temperature, moving right means increasing elevation."
-    },
-    {
-      "title": "Use a slope check",
-      "content": "A quick Desmos check with two points on the fit line gives a negative slope, confirming that temperature decreases as elevation increases.",
+      "title": "Read the trend line",
+      "content": "The line of best fit slopes downward from left to right. Since the horizontal axis is elevation, moving right means elevation is increasing.",
       "desmosExpressions": [
         "x_1=[6000,9000]",
         "y_1=[44,38]"
       ]
     },
     {
-      "title": "Match the statement",
-      "content": "A negative association means higher elevation tends to go with lower temperature. That confirms <strong>B</strong>."
+      "title": "State the association",
+      "content": "A downward-sloping trend means the vertical value tends to decrease as the horizontal value increases. Here, temperature tends to decrease as elevation increases.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

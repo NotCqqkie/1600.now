@@ -1,0 +1,23 @@
+{
+  "questionId": "32afabff",
+  "correctAnswer": "1680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor",
+      "content": "The volumes are $392\\pi$ for cylinder A and $10{,}584\\pi$ for cylinder B. Their volume ratio is<br/>$$\\frac{10{,}584\\pi}{392\\pi}=27$$<br/>For similar solids, volume scales by the cube of the linear scale factor, so the linear scale factor is $3$."
+    },
+    {
+      "title": "Find cylinder A height",
+      "content": "Use the volume formula with radius $7$.<br/>$$\\pi(7)^2h=392\\pi$$<br/>$$49h=392$$<br/>$$h=8$$"
+    },
+    {
+      "title": "Compute the surface areas",
+      "content": "Cylinder A has surface area<br/>$$2\\pi(7)^2+2\\pi(7)(8)=98\\pi+112\\pi=210\\pi$$<br/>So $k=210$. Surface area scales by the square of the linear scale factor, so cylinder B has surface area<br/>$$9(210\\pi)=1{,}890\\pi$$<br/>Thus $n=1{,}890$."
+    },
+    {
+      "title": "Subtract the constants",
+      "content": "Now subtract $k$ from $n$.<br/>$$n-k=1{,}890-210=1{,}680$$<br/>The answer is <strong>1680</strong>."
+    }
+  ]
+}

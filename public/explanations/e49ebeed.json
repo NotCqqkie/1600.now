@@ -1,0 +1,23 @@
+{
+  "questionId": "e49ebeed",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the tangent ratio",
+      "content": "From the figure, $AC=90$ is the hypotenuse. For angle $C$, tangent compares the opposite side to the adjacent side, so $AB$ and $BC$ are in a $3$ to $4$ ratio."
+    },
+    {
+      "title": "Set up the side lengths",
+      "content": "Write the two legs as $AB=3m$ and $BC=4m$. Those leg lengths form a $3$-$4$-$5$ right triangle, so the hypotenuse is $5m$."
+    },
+    {
+      "title": "Find the scale factor",
+      "content": "Use the hypotenuse to solve for the multiplier:\n$$5m=90$$\n$$m=18$$"
+    },
+    {
+      "title": "Find the requested side",
+      "content": "The question asks for $AB$, the side opposite angle $C$. Since $AB=3m$, substitute $m=18$:\n$$AB=3(18)=54$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

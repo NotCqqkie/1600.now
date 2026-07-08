@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the slope-intercept form",
-      "content": "The equation $y = \\frac{7x}{13} - 19$ is already in slope-intercept form $$y = mx + b$$ where the slope is $m$, the coefficient of $x$, and the y-intercept is $b$."
+      "title": "Use slope-intercept form",
+      "content": "A line written in slope-intercept form has the structure<br/>$$y=mx+b$$<br/>where $m$ is the slope."
     },
     {
-      "title": "Extract the slope",
-      "content": "The coefficient of $x$ in the equation is $\\frac{7}{13}$. Therefore, the slope is $\\frac{7}{13}$.<br/>The answer is <strong>7/13</strong>."
+      "title": "Read the coefficient",
+      "content": "Rewrite the equation to show the coefficient of $x$.<br/>$$y=\\frac{7}{13}x-19$$<br/>The answer is <strong>7/13</strong>."
     }
   ]
 }

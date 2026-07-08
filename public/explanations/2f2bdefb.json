@@ -1,0 +1,15 @@
+{
+  "questionId": "2f2bdefb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal a new location",
+      "content": "The passage moves from Monument 3 at La Venta in Tabasco to another colossal head at San Lorenzo in Veracruz. The transition should show that the discussion is shifting to a different place."
+    },
+    {
+      "title": "Reject false relationships",
+      "content": "Choice A suggests a result, Choice B suggests a more specific restatement, and Choice C suggests an example. The second discovery is simply in another location. The answer is <strong>D</strong>."
+    }
+  ]
+}

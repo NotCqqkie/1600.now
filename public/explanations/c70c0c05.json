@@ -1,0 +1,15 @@
+{
+  "questionId": "c70c0c05",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial constant",
+      "content": "At the initial measurement, $t=0$ and $P=8{,}000$.<br/>$$8{,}000=C(2)^{r\\cdot0}=C$$"
+    },
+    {
+      "title": "Use the doubled amount",
+      "content": "After $8$ hours, the population is $16{,}000$.<br/>$$16{,}000=8{,}000(2)^{8r}$$<br/>$$2=2^{8r}$$<br/>$$1=8r$$<br/>$$r=\\frac{1}{8}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

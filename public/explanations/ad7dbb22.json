@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Restate the criterion visually",
-      "content": "The predicted $y$-value comes from the line of best fit. The actual $y$-value comes from the dot. The line predicts a greater $y$-value than the actual data point exactly when the dot is <strong>below</strong> the line."
+      "title": "Identify below-line points",
+      "content": "The line of best fit gives the predicted $y$-value. It predicts a greater $y$-value than the actual data point exactly when the plotted point is below the line."
     },
     {
-      "title": "Count the dots that lie below the line",
-      "content": "Scan left to right and count only dots below the line. The below-line dots occur near $x\\approx2.5$, $3.3$, $4.1$, $4.9$, $7.3$, and $9.0$. That is $6$ data points."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "Since $6$ dots have actual values below the prediction line, the line predicts a greater $y$-value than the actual $y$-value for $6$ points. The answer is <strong>6</strong>."
+      "title": "Count the matching points",
+      "content": "Scan the $11$ points and count the points below the line. There are $6$ such points. The answer is <strong>6</strong>."
     }
   ]
 }

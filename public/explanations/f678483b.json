@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that the surface is at zero depth",
-      "content": "The submersible reaches the ocean surface when its depth equals 0 meters. We need to solve $g(x) = 0$ to find when this occurs."
+      "title": "Set the depth equal to zero",
+      "content": "The submersible reaches the surface when its depth below the ocean surface is $0$. Set $g(x)$ equal to $0$.<br/>$$0=-\\frac{1}{52}(x+17)(x-31)$$"
     },
     {
-      "title": "Read zeros directly from the factored form",
-      "content": "The function is already given in factored form: $$g(x) = -\\frac{1}{52}(x+17)(x-31)$$ The constant factor $-\\frac{1}{52}$ is nonzero, so $g(x) = 0$ requires $(x+17)(x-31) = 0$. The zeros are immediate: $x = -17$ or $x = 31$."
+      "title": "Use the factored form",
+      "content": "The constant factor is not zero, so the product is zero only when one factor is zero.<br/>$$x+17=0\\text{ or }x-31=0$$<br/>$$x=-17\\text{ or }x=31$$"
     },
     {
-      "title": "Apply the domain constraint",
-      "content": "Since $x \\gt  0$ (minutes after collecting the sample), the solution $x = -17$ is impossible in this context. The only valid time is $x = 31$ minutes, when the device reaches the surface. The answer is <strong>31</strong>."
+      "title": "Use the time restriction",
+      "content": "The problem states that $x>0$, so the negative value is not possible for the number of minutes after collecting the sample. The answer is <strong>31</strong>."
     }
   ]
 }

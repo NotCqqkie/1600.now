@@ -1,0 +1,19 @@
+{
+  "questionId": "5e280992",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use same-side angles",
+      "content": "Because lines $l$ and $k$ are parallel, the same-side interior angles made by transversal $t$ are supplementary. That means their measures add to $180^{\\circ}$:\n$$\nx+y=180\n$$"
+    },
+    {
+      "title": "Apply the given inequality",
+      "content": "Solve the angle relationship for $y$:\n$$\ny=180-x\n$$\nSince $x \\gt 165$, subtracting $x$ from $180$ gives a value less than $15$:\n$$\ny=180-x \\lt 180-165=15\n$$"
+    },
+    {
+      "title": "Match the required statement",
+      "content": "The statement that must be true is $y \\lt 15$. The answer is <strong>A</strong>."
+    }
+  ]
+}

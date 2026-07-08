@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize that population change depends on density change",
-      "content": "Since <strong>Population = Density times Area</strong>, and the region's land area is constant at 91,600 square kilometers, the population increase equals (change in density) times (constant area).<br/><br/>Change in density: $3.0 - 2.3 = 0.7$ people per square kilometer"
+      "title": "Find the density increase",
+      "content": "The land area stayed the same, so the population increase equals the density increase times the land area. The density increase is $$3.0-2.3=0.7$$ people per square kilometer."
     },
     {
-      "title": "Multiply the change in density by the constant area",
-      "content": "Population increase = $$0.7 \\times 91,600 = 64,120 \\text{ people}$$<br/>That matches <strong>Choice D &mdash; 64,120</strong>."
+      "title": "Multiply by land area",
+      "content": "Multiply the increase in people per square kilometer by the number of square kilometers: $$0.7\\cdot 91{,}600=64{,}120$$ The answer is <strong>D</strong>."
     }
   ]
 }

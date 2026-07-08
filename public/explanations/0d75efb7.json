@@ -1,0 +1,15 @@
+{
+  "questionId": "0d75efb7",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the boundary",
+      "content": "Solve the inequality for $y$. Divide by $-8$, so the inequality direction reverses.<br/>$$5x-8y>40$$<br/>$$-8y>40-5x$$<br/>$$y<\\frac{5}{8}x-5$$"
+    },
+    {
+      "title": "Check the impossible region",
+      "content": "If $x<0$, then $\\frac{5}{8}x-5<-5$. In the region where $x<0$ and $y>0$, every $y$-value is positive, so it cannot be less than a number below $-5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

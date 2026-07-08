@@ -1,0 +1,15 @@
+{
+  "questionId": "d149592c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the volume pattern",
+      "content": "The study found that for the same favorite recording, musicians tended to choose higher optimal volumes than nonmusicians. If the musician's preferred volume for <em>Heartbeats</em> is 82.2 decibels, the nonmusician's optimal volume would be lower."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice B compares <em>Heartbeats</em> with other music, which the finding does not support. Choice C compares music with nature sounds, also unsupported. Choice D reverses the pattern by suggesting 82.2 decibels is too low. The expected result is less enjoyment at 82.2 decibels than at a lower volume. The answer is <strong>A</strong>."
+    }
+  ]
+}

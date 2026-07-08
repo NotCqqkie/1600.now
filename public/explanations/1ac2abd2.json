@@ -1,0 +1,15 @@
+{
+  "questionId": "1ac2abd2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Text 2's method critique",
+      "content": "Text 2 says entrepreneurial-training studies often lack control groups and pretraining baselines. Those safeguards are needed to show whether training caused participants' high performance rather than merely coinciding with it."
+    },
+    {
+      "title": "Name the objection",
+      "content": "Choice A concerns training length. Choice B concerns a smaller sample size, not whether training caused the result. Choice D concerns participant awareness, which Text 2 does not mention. The relevant objection is that participants may have performed well even without the training. The answer is <strong>C</strong>."
+    }
+  ]
+}

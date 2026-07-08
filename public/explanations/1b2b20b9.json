@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Identify the radius value",
+      "content": "A circle equation has this form:<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>For circle A, the right side is $7$, so the radius squared is $7$."
     },
     {
-      "title": "Identify the radius squared from Circle A's equation",
-      "content": "Circle A is given as $x^2 + (y-6)^2 = 7$. This is in standard form $(x-h)^2 + (y-k)^2 = r^2$, where the right side equals $r^2$. Therefore the radius squared is $r^2 = 7$."
+      "title": "Use the same radius",
+      "content": "Circle B has the same radius as circle A. Translating the circle changes the center, but it does not change the radius, so in circle B's equation, $a=7$."
     },
     {
-      "title": "Apply the horizontal translation to find Circle B's center",
-      "content": "Circle A has center $(0, 6)$ from its equation. Circle B has the same radius but is translated 96 units to the right. A rightward translation adds 96 to the $x$-coordinate of the center: new center is $(0 + 96, 6) = (96, 6)$."
-    },
-    {
-      "title": "Write Circle B's equation and calculate 4a",
-      "content": "With center $(96, 6)$ and radius squared 7, Circle B's equation is $(x - 96)^2 + (y - 6)^2 = 7$. In the form $(x-h)^2 + (y-k)^2 = a$, we have $a = 7$. Therefore: $$4a = 4 \\cdot 7 = 28$$ That matches the expected answer — <strong>28</strong> is correct."
+      "title": "Multiply by four",
+      "content": "The question asks for $4a$:<br/>$$4a=4\\cdot 7=28$$<br/>The answer is <strong>28</strong>."
     }
   ]
 }

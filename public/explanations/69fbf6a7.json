@@ -1,0 +1,15 @@
+{
+  "questionId": "69fbf6a7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The sentence's main subject is <em>The powerful blast</em>, and the main verb later is <em>ejected</em>. The words between them must describe which blast, not create another finite predicate."
+    },
+    {
+      "title": "Use a participle",
+      "content": "A, C, and D are finite verb forms, so each would leave <em>ejected particles</em> grammatically stranded. A participial modifier keeps the sentence structure intact. The answer is <strong>B</strong>."
+    }
+  ]
+}

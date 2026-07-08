@@ -1,0 +1,19 @@
+{
+  "questionId": "0ca9f770",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the interrupting phrase",
+      "content": "The phrase \"on the other hand\" interrupts the clause \"Tales in English often begin with 'once upon a time.'\" An interrupting transitional phrase inside a clause should be set off with commas."
+    },
+    {
+      "title": "Reject broken punctuation",
+      "content": "A uses mismatched dash-and-comma punctuation. B creates a fragment after a period. D uses a colon where the sentence needs an interrupting phrase, not an explanation introduced after a complete clause."
+    },
+    {
+      "title": "Set off the transition",
+      "content": "English, on provides the first comma, completing \"English, on the other hand, often begin\" with matching commas. The answer is <strong>C</strong>."
+    }
+  ]
+}

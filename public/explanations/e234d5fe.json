@@ -1,0 +1,15 @@
+{
+  "questionId": "e234d5fe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Choose a real contrast",
+      "content": "The student wants to contrast the two National Wildlife Refuges. The notes provide a clear difference: Pelican Key is in Florida on the Atlantic coast, while Sierra Ridge is in California on the Pacific coast."
+    },
+    {
+      "title": "Reject noncontrasts",
+      "content": "A gives a general fact about endangered species, B states a similarity, and D mentions only Pelican Key in a broader statistic. The effective choice directly contrasts the refuges by location on opposite coasts. The answer is <strong>C</strong>."
+    }
+  ]
+}

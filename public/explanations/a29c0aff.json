@@ -1,0 +1,15 @@
+{
+  "questionId": "a29c0aff",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Balance income with other factors",
+      "content": "The passage criticizes the energy ladder model as reductive, but it does not reject income entirely. It says income constrained fuel choice while other factors, including difficulty acquiring fuels, also influenced decisions."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "Choice B denies any income effect, contradicting the passage. Choice C changes the issue to the reason income matters, which the passage does not dispute. Choice D shifts to fuel amount rather than fuel type. Income explains part, but not all, of fuel-choice differences. The answer is <strong>A</strong>."
+    }
+  ]
+}

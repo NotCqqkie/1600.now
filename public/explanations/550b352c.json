@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the linear equation",
-      "content": "Starting with $17 = 3x + 5$, subtract 5 from both sides:<br/>$$17 - 5 = 3x + 5 - 5$$<br/>$$12 = 3x$$<br/>Divide both sides by 3:<br/>$$\\frac{12}{3} = \\frac{3x}{3}$$<br/>$$x = 4$$"
+      "title": "Solve the equation",
+      "content": "Subtract $5$ from both sides, then divide by $3$:\n$$\n17=3x+5\n$$\n$$\n12=3x\n$$\n$$\nx=4\n$$"
     },
     {
-      "title": "Count the solutions",
-      "content": "We found exactly one value of $x$ that satisfies the equation. Since a linear equation in one variable with a non-zero coefficient on the variable produces exactly one solution, there is exactly one solution to this equation. <strong>B</strong> is correct."
+      "title": "Count the solution",
+      "content": "The equation gives one value of $x$. Since the coefficient of $x$ is nonzero, there cannot be infinitely many solutions or no solution.\nThe answer is <strong>B</strong>."
     }
   ]
 }

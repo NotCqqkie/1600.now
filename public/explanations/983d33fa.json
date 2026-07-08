@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank needs to do",
-      "content": "The subject &quot;Some historians&quot; is a plural noun phrase that needs a finite main verb to complete the clause. The blank is followed by a that-clause describing tulip mania as the first historical instance of an asset bubble. Only a finite verb can head a main clause &mdash; nonfinite forms (participles, infinitives) cannot."
+      "title": "Supply the main verb",
+      "content": "The subject \"Some historians\" needs a finite verb to complete the main clause before the that-clause about tulip mania. Nonfinite forms cannot serve as the main verb here."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; claiming</strong>: present participle (nonfinite). Cannot serve as the main verb of the clause &mdash; leaves &quot;Some historians&quot; without a finite verb. &#10007;</li><li><strong>Choice B &mdash; claim</strong>: finite present tense, third-person plural &mdash; matches the plural subject &quot;Some historians&quot; and correctly heads the main clause. &#10003;</li><li><strong>Choice C &mdash; having claimed</strong>: perfect participle (nonfinite). Same problem as A &mdash; cannot function as a main verb. &#10007;</li><li><strong>Choice D &mdash; to claim</strong>: to-infinitive (nonfinite). Cannot serve as the main verb of the clause &mdash; also leaves &quot;Some historians&quot; without a finite verb. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "A is a present participle, C is a perfect participle, and D is a to-infinitive. Each leaves the subject without a finite main verb. The answer is <strong>B</strong>."
     }
   ]
 }

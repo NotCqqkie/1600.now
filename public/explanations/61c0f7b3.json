@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question focused on emphasis. The notes give two specific measurements (4.46 cm for <em>Gygis alba</em>, 7.22 cm for <em>Gavia stellata</em>). The correct choice must use both measurements and explicit contrast language to make the size difference impossible to miss."
+      "title": "Need explicit difference",
+      "content": "The question asks for emphasis on a difference between the eggs of two species. The key contrast is that <em>Gygis alba</em> eggs averaged 4.46 cm, while <em>Gavia stellata</em> eggs averaged 7.22 cm."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;A 2017 study compared the lengths of eggs produced by an array of different bird species, such as <em>Gygis alba</em> and <em>Gavia stellata</em>.&rsquo;</strong>: Names both species but omits both measurements entirely. Without numbers, no difference is emphasized. &#10007;</li><li><strong>Choice B &mdash; &lsquo;A 2017 study found that <em>Gygis alba</em> eggs had an average length of 4.46 cm, whereas <em>Gavia stellata</em> eggs were longer, with an average length of 7.22 cm.&rsquo;</strong>: Includes both measurements, the contrast word &ldquo;whereas,&rdquo; and the explicit phrase &ldquo;were longer&rdquo; &mdash; all three together make the difference unmissable. &#10003;</li><li><strong>Choice C &mdash; &lsquo;The bird species <em>Gygis alba</em>, which belongs to the order Charadriiformes, and <em>Gavia stellata</em>, of the order Gaviiformes, were included in a 2017 study that compared the average lengths of their eggs.&rsquo;</strong>: Notes that egg lengths were compared but provides neither measurement nor any language emphasizing a difference. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Elena Morales led a research study that determined the average lengths of eggs, including those of <em>Gygis alba</em> birds (4.46 cm) and <em>Gavia stellata</em> birds (7.22 cm).&rsquo;</strong>: Lists both measurements in parentheses but uses no contrast language (&ldquo;whereas,&rdquo; &ldquo;longer,&rdquo; etc.), so the difference is merely implied, not emphasized. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Prefer contrast language",
+      "content": "A strong sentence should not merely name the species or say the study compared egg lengths. It should include both measurements and directly signal that the second species' eggs were longer."
+    },
+    {
+      "title": "Eliminate weak comparisons",
+      "content": "<ul><li>A: names both species but gives no measurements.</li><li>B: gives both average lengths and uses explicit contrast language.</li><li>C: focuses on the species' taxonomic orders and study inclusion.</li><li>D: lists both numbers but leaves the difference only implied.</li></ul>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "09f1e1c3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal the unresolved contrast",
+      "content": "The sentence first says historians have identified the likely authorship of many pseudonymous essays, using \"Publius\" as an example. It then contrasts that success with pen names that remain elusive."
+    },
+    {
+      "title": "Choose a contrast transition",
+      "content": "Choice A reinforces the previous point instead of contrasting it. Choice C signals similarity. Choice D would make the unsolved pen names examples of identified authorship, which reverses the meaning. The remaining transition marks the needed contrast. The answer is <strong>B</strong>."
+    }
+  ]
+}

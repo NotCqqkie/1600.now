@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
-      "title": "Recall the 30-60-90 triangle side ratio",
-      "content": "In a 30-60-90 triangle, the sides opposite the 30°, 60°, and 90° angles are always in the ratio 1: √3: 2. If we let the shortest side (opposite 30°) be $s$, then the three sides are:<ul><li>Shortest side (opposite 30°): $s$</li><li>Middle side (opposite 60°): $s\\sqrt{3}$</li><li>Longest side, the hypotenuse (opposite 90°): $2s$</li></ul>",
+      "title": "Use the side ratio",
+      "content": "A $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has side lengths in the ratio $1: \\sqrt{3}:2$. Let the shortest side be $x$, so the sides are $x$, $x\\sqrt{3}$, and $2x$.",
       "formula": "$$1: \\sqrt{3}: 2$$"
     },
     {
-      "title": "Apply the perimeter condition",
-      "content": "The perimeter is the sum of all three sides:<br/>$$s + s\\sqrt{3} + 2s = 21 + 7\\sqrt{3}$$<br/>Combine like terms on the left:<br/>$$s(1 + \\sqrt{3} + 2) = 21 + 7\\sqrt{3}$$<br/>$$s(3 + \\sqrt{3}) = 21 + 7\\sqrt{3}$$<br/>Notice that the right side factors as $7(3 + \\sqrt{3})$."
+      "title": "Match the perimeter",
+      "content": "The perimeter in terms of $x$ is<br/>$$x+x\\sqrt{3}+2x=x(3+\\sqrt{3})$$<br/>The given perimeter factors the same way.<br/>$$21+7\\sqrt{3}=7(3+\\sqrt{3})$$"
     },
     {
-      "title": "Solve for the scale factor and find the longest side",
-      "content": "Since $s(3 + \\sqrt{3}) = 7(3 + \\sqrt{3})$, divide both sides by $(3 + \\sqrt{3})$:<br/>$$s = 7$$<br/>The longest side is the hypotenuse, which equals $2s = 2(7) = 14$."
+      "title": "Find the longest side",
+      "content": "Thus $x=7$. The longest side is the hypotenuse, $2x$.<br/>$$2x=2(7)=14$$<br/>The answer is <strong>14</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "89a116c9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Avoid a comma splice",
+      "content": "The main clause is complete: Congress designated the area. After the comma, the sentence needs a modifier explaining why Congress did so, not a second finite clause."
+    },
+    {
+      "title": "Use the modifier",
+      "content": "A adds an independent clause after a comma, while B and D use finite verb forms where a modifier is needed. \"Citing\" creates a participial phrase that explains the reason for the designation without adding a new clause. The answer is <strong>C</strong>."
+    }
+  ]
+}

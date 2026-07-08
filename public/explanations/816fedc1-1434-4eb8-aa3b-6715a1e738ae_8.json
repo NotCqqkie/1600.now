@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Relate the y-intercept to the initial deposit",
-      "content": "The function $f(x)$ gives the balance $x$ months after the initial deposit, so $f(0)$ is the balance at month $0$ — the initial deposit itself."
+      "title": "Connect the intercept to time",
+      "content": "The initial deposit is the account balance when $x=0$ months, so it is the $y$-intercept of the graph."
     },
     {
-      "title": "Read the y-intercept from the graph",
-      "content": "The graph crosses the y-axis at about $35$, so the initial deposit is approximately \\$35.<br/><br/>The answer is <strong>35</strong>."
+      "title": "Read the starting balance",
+      "content": "The graph crosses the $y$-axis at about $35$ dollars. The answer is <strong>35</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "4a10c09d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the hypothesis",
+      "content": "The hypothesis says moths evolved ultrasound that disrupts bat echolocation because that defense costs less metabolically than producing chemicals that make moths noxious to bats. Under that explanation, ultrasound and chemical unpalatability are treated as alternative defenses."
+    },
+    {
+      "title": "Use the new finding",
+      "content": "Hart et al. found several moth genera that both emit disruptive ultrasonic pulses and are unpalatable to bats. Those moths have not avoided the cost of chemical defense by using ultrasound; they appear to maintain both defenses at the same time. That overlap weakens the idea that lower metabolic cost is always the reason the ultrasonic trait developed."
+    },
+    {
+      "title": "Draw the limited conclusion",
+      "content": "Choice A makes a broad prediction about future investigations. Choice B invents another primary purpose for ultrasound, and Choice D mostly restates that the traits can overlap without explaining the consequence for the hypothesis. The better conclusion is that the cost-saving hypothesis cannot explain every instance of disruptive ultrasound in moths. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Analyze the equation",
-      "content": "Set each factor of $\\left(48\\right)(x^3+125)(x^4-16)=0$ to zero. From $x^3=-125$ we get $x=-5$; from $x^4=16$ we get $x=\\pm 2$ (the other two roots are non-real)."
+      "title": "Set the factors to zero",
+      "content": "The constant factor $48$ does not affect the solutions, so use the two variable factors.<br/>$$x^3+125=0$$<br/>$$x^4-16=0$$"
     },
     {
-      "title": "Count the solutions",
-      "content": "The distinct real solutions are $-5,\\ 2,\\ -2$ - exactly three. That matches the correct answer, so <strong>B</strong> is correct."
+      "title": "Count the real solutions",
+      "content": "The first equation gives $x=-5$. The second gives<br/>$$x^4=16$$<br/>so the real solutions are $x=2$ and $x=-2$. There are $3$ distinct real solutions. The answer is <strong>B</strong>."
     }
   ]
 }

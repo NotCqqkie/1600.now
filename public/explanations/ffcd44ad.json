@@ -1,0 +1,15 @@
+{
+  "questionId": "ffcd44ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the three moves",
+      "content": "The text defines community science as professional scientists collaborating with amateur enthusiasts. It then lists benefits of that approach and ends by mentioning a Coleman study in which the approach was essential. The study functions as an example of the approach in use, not as the passage's main topic."
+    },
+    {
+      "title": "Reject invented elements",
+      "content": "B adds public opinion, C adds a development history and future projects, and D says the passage presents study results. Those elements are absent. The actual structure is approach, benefits, and a study that used the approach. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what would contradict the setup",
-      "content": "The student expected the two mycorrhizal hosts to benefit substantially from fungi while the non-mycorrhizal species (broccoli) would not benefit or be harmed. The surprising finding would be data that contradicts this prior knowledge."
+      "title": "Find the surprising pattern",
+      "content": "The setup predicts that host plants benefit from mycorrhizal fungi, while a nonmycorrhizal plant should not benefit and might be harmed. The surprising completion should therefore show a nonhost gaining mass with fungi."
     },
     {
-      "title": "Find which data point contradicts expectations",
-      "content": "Broccoli (non-mycorrhizal) with fungi measured 7.5 g versus 7 g without fungi—a slight benefit from fungi despite being a non-host.<br/><br/>This contradicts the expectation that non-hosts don't benefit from mycorrhizal fungi and would genuinely surprise the student.<br/><br/>The other choices either describe expected results (B: hosts outperforming non-hosts; C: hosts benefiting substantially) or misstate the data (D claims corn was highest in treated soil when broccoli actually was).<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Use the species expectations",
+      "content": "B simply compares two species grown with fungi and does not show surprise. C describes the expected large benefit for a host plant. D misstates the treated-soil comparison because corn was not the highest. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the logical relationship",
-      "content": "Sentence 1 says the shell appears external, protecting the body like armor. Sentence 2 says the shell is often incorrectly assumed to be an exoskeleton. Because the shell looks external, people draw the wrong conclusion that it is an exoskeleton."
+      "title": "Identify the result",
+      "content": "The first sentence says a turtle shell appears external and armor-like. The next sentence describes the misconception that follows from that appearance: people often assume the shell is an exoskeleton."
     },
     {
-      "title": "Pick the transition type",
-      "content": "The first sentence is the cause and the second is the effect (the resulting misconception). A causal connector like 'hence' (meaning 'therefore') is needed."
-    },
-    {
-      "title": "Eliminate by choice",
-      "content": "<ul><li><strong>Choice A &mdash; That being said,</strong>: signals a concession or pivot, but sentence 2 follows from sentence 1 rather than pushing back against it. &#10007;</li><li><strong>Choice B &mdash; However,</strong>: signals contrast, but the two sentences agree (appearance leads to assumption). &#10007;</li><li><strong>Choice C &mdash; For instance,</strong>: would mark sentence 2 as an example of sentence 1, but the misconception is a consequence, not an instance, of the shell's appearance. &#10007;</li><li><strong>Choice D &mdash; Hence,</strong>: correctly marks the misconception as the result of the shell's external appearance. &#10003;</li></ul>That is the correct answer."
+      "title": "Choose the causal link",
+      "content": "Choice A and Choice B signal a pivot or contrast, but the second sentence follows from the first. Choice C signals an example, not a consequence. The remaining transition means \"therefore\" and fits the cause-effect relationship. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "66498619",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the core subject",
+      "content": "The subject of the blank is <em>MindMaze's technology</em>, which is singular. The phrase <em>alongside other such neuromodulation technologies</em> adds related information but does not make the subject plural."
+    },
+    {
+      "title": "Use a complete singular predicate",
+      "content": "Choice A is only a participle and leaves the clause incomplete. Choice C and Choice D use plural auxiliaries that disagree with the singular subject. The sentence needs the singular finite verb phrase <em>is paving</em>. The answer is <strong>B</strong>."
+    }
+  ]
+}

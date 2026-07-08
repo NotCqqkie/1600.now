@@ -1,0 +1,19 @@
+{
+  "questionId": "a4cd49f8",
+  "correctAnswer": "19",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the missing vertical line",
+      "content": "The graph does not intersect $x=5$, so the denominator must be $0$ when $x=5$:\n$$2(5)+c=0$$\n$$10+c=0$$\n$$c=-10$$"
+    },
+    {
+      "title": "Use the two zeros",
+      "content": "Since $f(6)=0$ and $f(7)=0$, the numerator has roots $6$ and $7$:\n$$x^2+ax+b=(x-6)(x-7)$$\n$$x^2+ax+b=x^2-13x+42$$\nThus $a=-13$ and $b=42$."
+    },
+    {
+      "title": "Add the constants",
+      "content": "Now add the three constants:\n$$a+b+c=-13+42+(-10)=19$$\nThe answer is <strong>19</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the stated correspondence",
-      "content": "In the congruence statement, $A$ corresponds to $P$. Corresponding angles in congruent triangles are equal, so $\\angle P = \\angle A$."
+      "title": "Use the correspondence",
+      "content": "The congruent triangles are listed so that $A$ corresponds to $P$, $B$ corresponds to $Q$, and $C$ corresponds to $R$."
     },
     {
-      "title": "Find angle P",
-      "content": "The measure of $\\angle A$ is $50^\\circ$, so the measure of $\\angle P$ is also $50^\\circ$. That confirms <strong>B</strong> is correct."
+      "title": "Match the angle measures",
+      "content": "Corresponding angles in congruent triangles are equal, so angle $P$ has the same measure as angle $A$.\n$$50^\\circ$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the punctuation rule being tested",
-      "content": "The blank completes &quot;chemistry ______ and his colleagues at Temple University recently developed...&quot; The structure requires a title + name phrase to serve as the first element of a compound subject joined by &quot;and.&quot; The SAT rule: no comma is needed between a title and the proper name it directly precedes, and no comma is needed after the name when it continues into a compound subject."
+      "title": "Keep the title and name together",
+      "content": "The blank completes chemistry professor Yugang Sun and his colleagues as the subject of developed. A title directly before a proper name does not need a comma, and the name should not be separated from and his colleagues."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — professor Yugang Sun</strong>: no comma between title and name, no comma after the name &mdash; both correct, producing the clean compound subject &quot;chemistry professor Yugang Sun and his colleagues.&quot; &#10003;</li><li><strong>Choice B — professor Yugang Sun,</strong>: the comma after &quot;Sun&quot; incorrectly separates the first element of the compound subject from the coordinating conjunction &quot;and&quot; &mdash; this is an unnecessary comma error. &#10007;</li><li><strong>Choice C — professor, Yugang Sun,</strong>: the comma before &quot;Yugang Sun&quot; incorrectly separates the title from the name, and the comma after &quot;Sun&quot; incorrectly interrupts the compound subject &mdash; double unnecessary comma error. &#10007;</li><li><strong>Choice D — professor, Yugang Sun</strong>: the comma between &quot;professor&quot; and &quot;Yugang Sun&quot; incorrectly separates the title from the proper name it modifies &mdash; this is an unnecessary comma error. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject unnecessary commas",
+      "content": "Choice B incorrectly places a comma after Sun before the compound subject continues. Choice C separates both the title and the continuing subject with commas. Choice D incorrectly separates professor from the name. The choice with no comma in the title-name phrase or before and his colleagues is grammatical. The answer is <strong>A</strong>."
     }
   ]
 }

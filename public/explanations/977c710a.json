@@ -1,0 +1,19 @@
+{
+  "questionId": "977c710a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the like terms",
+      "content": "The terms $8yz^4$ and $7yz^4$ are like terms because they have the same variable part. The term $5yz$ is not like them because it has $z^1$ instead of $z^4$."
+    },
+    {
+      "title": "Add only matching terms",
+      "content": "Combine the coefficients of the like terms and leave $5yz$ separate.<br/>$$8yz^4+7yz^4=15yz^4$$<br/>So the expression becomes<br/>$$15yz^4+5yz$$"
+    },
+    {
+      "title": "Match the expression",
+      "content": "The simplified expression matches choice A. Choices B, C, and D incorrectly combine exponents or unlike terms. The answer is <strong>A</strong>."
+    }
+  ]
+}

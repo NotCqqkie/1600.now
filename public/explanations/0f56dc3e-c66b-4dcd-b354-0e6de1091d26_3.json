@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the context",
-      "content": "The uncle says the hardest <u>part</u> of telling a story is finding the beginning. He's identifying one component of the storytelling task, not a region or musical line."
+      "title": "Use the sentence context",
+      "content": "The uncle says the hardest 'part' of telling a story is finding the beginning. Here, 'part' means one component or aspect of the overall activity of storytelling."
     },
     {
-      "title": "Match the meaning",
-      "content": "The underlined word needs to mean a component or aspect of a task — the uncle identifies finding the beginning as one piece of the storytelling challenge. Substitute each choice:\n<ul>\n<li><strong>Choice A — Zone</strong>: the hardest \"<em>zone</em>\" of telling a story — zone means a region or area in space, which doesn't apply to an abstract task like storytelling. ✗</li>\n<li><strong>Choice B — Melody</strong>: the hardest \"<em>melody</em>\" of telling a story — melody means a musical line or tune, unrelated to the act of telling a story. ✗</li>\n<li><strong>Choice C — Element</strong>: the hardest \"<em>element</em>\" of telling a story — element means a component or aspect of something, which fits: finding the beginning is one component of the storytelling task. ✓</li>\n<li><strong>Choice D — Blob</strong>: the hardest \"<em>blob</em>\" of telling a story — blob means a shapeless mass, which has no coherent meaning in this context. ✗</li>\n</ul>\nThat matches <strong>Choice C &mdash; Element</strong>."
+      "title": "Reject literal meanings",
+      "content": "Choice A means an area, which does not fit an activity. Choice B is related to music, but the sentence is about storytelling. Choice D is an informal word for a shape or mass, not an aspect of a task. The answer is <strong>C</strong>."
     }
   ]
 }

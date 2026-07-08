@@ -1,0 +1,19 @@
+{
+  "questionId": "ee219c6d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the inputs and outputs",
+      "content": "The function gives the value of the CD in dollars, and $x$ is the number of years after the investment was made."
+    },
+    {
+      "title": "Interpret the function value",
+      "content": "The notation $f(2)$ means the value of the CD when $x=2$. Since $x$ measures years after the investment, the statement describes the CD value $2$ years after the investment."
+    },
+    {
+      "title": "Choose the matching statement",
+      "content": "The statement says the total value after $2$ years is approximately $8{,}652.80$ dollars, not the interest rate, a number of days, or the gain over the initial value. The answer is <strong>C</strong>."
+    }
+  ]
+}

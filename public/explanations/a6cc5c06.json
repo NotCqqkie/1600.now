@@ -1,0 +1,19 @@
+{
+  "questionId": "a6cc5c06",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interruption",
+      "content": "The dash after <em>temperature</em> opens an interrupting phrase: <em>around 225 degrees Fahrenheit</em>. Standard punctuation requires that dash interruption to be closed before the main clause, <em>flaxseed oil will begin to emit smoke</em>, resumes."
+    },
+    {
+      "title": "Reject mismatched marks",
+      "content": "Choice A leaves the interruption unclosed. Choice C tries to close it with a colon, and choice D tries to close it with a parenthesis. Neither mark matches the opening dash, so neither correctly returns the sentence to its main clause."
+    },
+    {
+      "title": "Resume the main clause",
+      "content": "Choice B supplies <em>Fahrenheit—</em>, which closes the interruption with a matching dash. The sentence then correctly resumes with the main clause about flaxseed oil emitting smoke. The answer is <strong>B</strong>."
+    }
+  ]
+}

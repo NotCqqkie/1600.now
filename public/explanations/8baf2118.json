@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fit two points from the line",
-      "content": "Use the drawn line of best fit, not individual scatterplot dots. Two readable points on the line are about $(0,13.5)$ and $(10,5.5)$. Enter those in Desmos and run a two-point line calculation row.",
+      "title": "Read the line direction",
+      "content": "The line of best fit decreases from left to right, so its slope is negative. It crosses the $y$-axis above $0$, so its intercept is positive."
+    },
+    {
+      "title": "Estimate slope and intercept",
+      "content": "Two readable points on the line are about $(0,13.5)$ and $(10,5.5)$. The slope is:<br/>$$m=\\frac{5.5-13.5}{10-0}=-0.8$$<br/>The intercept is $13.5$, so the equation is $y=13.5-0.8x$.",
       "desmosExpressions": [
         "x_1=[0,10]",
         "y_1=[13.5,5.5]"
       ]
     },
     {
-      "title": "Read slope and intercept",
-      "content": "Using the two estimated points, the slope is $$m=\\frac{5.5-13.5}{10-0}=-0.8$$ The point at $x=0$ gives the intercept $b=13.5$. The negative slope matches the line going down from left to right, and the positive intercept matches the line crossing the $y$-axis above $0$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The equation is $y=13.5-0.8x$. $y=13.5+0.8x$ has the wrong slope sign, $y=-13.5+0.8x$ has the wrong intercept sign, and $y=-13.5-0.8x$ has both signs wrong.",
+      "title": "Calculator shortcut",
+      "content": "Enter the two estimated points and compare the line to the plotted trend. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=13.5-0.8x"
       ]

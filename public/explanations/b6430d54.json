@@ -1,0 +1,19 @@
+{
+  "questionId": "b6430d54",
+  "correctAnswer": "-18000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the horizontal intercept",
+      "content": "$$-8a=-720$$<br/>$$a=90$$"
+    },
+    {
+      "title": "Find the vertical intercept",
+      "content": "$$3.6b=-720$$<br/>$$b=-200$$"
+    },
+    {
+      "title": "Multiply the intercepts",
+      "content": "$$ab=90(-200)=-18{,}000$$<br/>The answer is <strong>-18000</strong>."
+    }
+  ]
+}

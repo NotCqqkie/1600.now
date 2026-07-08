@@ -1,0 +1,15 @@
+{
+  "questionId": "4d69db24",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the point",
+      "content": "A solution must satisfy both inequalities. Substitute $(12,0)$ into the system because that point is one of the choices.<br/>$$0\\le 12+4$$<br/>$$0\\ge -2(12)-6$$"
+    },
+    {
+      "title": "Check both inequalities",
+      "content": "Both statements are true, so the point lies in the solution region for the system.<br/>$$0\\le 16$$<br/>$$0\\ge -30$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

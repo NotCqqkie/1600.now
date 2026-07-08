@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage structure",
-      "content": "The passage introduces a hypothesis: parasites could serve as “a mechanism” for horizontal gene transfer between vertebrate species.<br/><br/>The colon before the underlined portion signals it will explain <strong>how</strong>.<br/><br/>The underlined portion then describes the process: a parasite feeds on one host, acquires a gene, relocates to a different vertebrate species, and transfers the gene there."
+      "title": "Explain the parasite mechanism",
+      "content": "The passage introduces Stojanovic's hypothesis that invertebrate parasites could enable horizontal gene transfer between vertebrate species. The underlined portion then gives the step-by-step process: a parasite acquires a gene from one host and transfers it to another."
     },
     {
-      "title": "Match the function to the choices",
-      "content": "The underlined portion describes a means for horizontal gene transfer.<br/><br/>It describes a means by which horizontal gene transfer might occur among vertebrates. directly names this function: “describes a means by which horizontal gene transfer might occur among vertebrates.” The other three introduce elements not in the passage—<ul><li>A compares parasite susceptibility</li><li>B explains gene likelihood</li><li>C contrasts vertebrate and invertebrate mechanisms</li></ul><br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject unrelated functions",
+      "content": "Choice A compares parasite susceptibility, which the underlined portion does not discuss. Choice B concerns which genes are more likely to transfer, which is absent. Choice C claims a contrast between vertebrates and invertebrates, but the portion describes a possible transfer route among vertebrates. The answer is <strong>D</strong>."
     }
   ]
 }

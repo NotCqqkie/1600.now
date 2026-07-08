@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Complete the square",
-      "content": "Rewrite the circle equation in standard form by completing the square for the $x$ terms and the $y$ terms. Then read the center from $(x-h)^2+(y-k)^2=r^2$."
+      "title": "Complete each square",
+      "content": "For $x^2+18x$, half of $18$ is $9$, and $9^2=81$. For $y^2+12y$, half of $12$ is $6$, and $6^2=36$.<br/>$$x^2+18x=(x+9)^2-81$$<br/>$$y^2+12y=(y+6)^2-36$$"
     },
     {
-      "title": "Complete the square for both variables",
-      "content": "<strong>For $x^2 + 18x$:</strong> Take half of 18 to get 9, then square: $9^2 = 81$. Thus $x^2 + 18x = (x + 9)^2 - 81$.<br/><br/><strong>For $y^2 + 12y$:</strong> Take half of 12 to get 6, then square: $6^2 = 36$. Thus $y^2 + 12y = (y + 6)^2 - 36$."
+      "title": "Write standard form",
+      "content": "Substitute the completed squares and move constants to the other side.<br/>$$(x+9)^2-81+(y+6)^2-36=-36$$<br/>$$(x+9)^2+(y+6)^2=81$$"
     },
     {
-      "title": "Substitute and find the center in standard form",
-      "content": "Substitute the completed squares into the original equation:<br/>$$(x + 9)^2 - 81 + (y + 6)^2 - 36 = -36$$<br/>Combine constants on the right:<br/>$$(x + 9)^2 + (y + 6)^2 = -36 + 81 + 36 = 81$$<br/>The standard form $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$. Since $(x + 9)^2 = (x - (-9))^2$ and $(y + 6)^2 = (y - (-6))^2$, the center is $(-9, -6)$. That matches <strong>Choice B &mdash; $(-9,-6)$</strong>."
+      "title": "Read the center",
+      "content": "Standard form is $(x-h)^2+(y-k)^2=r^2$. Here, $(x+9)^2=(x-(-9))^2$ and $(y+6)^2=(y-(-6))^2$, so the center is $(-9,-6)$. The answer is <strong>B</strong>."
     }
   ]
 }

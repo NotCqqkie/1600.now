@@ -1,0 +1,15 @@
+{
+  "questionId": "6cfd25e7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Describe a sufficient sample",
+      "content": "The passage contrasts ratings based on only a few users with a rating based on more than 9,000 users. The blank must describe a number large enough to make the average rating feel reliable."
+    },
+    {
+      "title": "Reject wrong sample descriptions",
+      "content": "Choice A means not enough, which contradicts the confidence described. Choice B means too much, but the passage does not criticize the number as excessive. Choice C describes correctness, not whether a count of raters is sufficient. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "23eeb3e6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the requested detail",
+      "content": "The student wants the title of J.D. Salinger's first published short story. The relevant note gives that title: <em>The Young Folks</em>."
+    },
+    {
+      "title": "Choose the title statement",
+      "content": "A gives the year and publication, B gives the genre, and C gives only the year. None of those identifies the title. The sentence naming <em>The Young Folks</em> directly accomplishes the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

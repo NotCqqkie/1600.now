@@ -1,0 +1,15 @@
+{
+  "questionId": "66024879",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the timeline",
+      "content": "The passage states that no source before 1155 mentions the Round Table. <em>Annales Cambriae</em> was composed around 970, so under the passage's own rule it could not have supplied information about the Round Table. It could still be a source for other Arthurian details, but not this one."
+    },
+    {
+      "title": "Avoid unsupported inferences",
+      "content": "Choice B compares overall content similarity, which the passage never evaluates. Choice C contradicts the claim that no pre-1155 source had Round Table material. Choice D makes an unsupported claim about historical accuracy. The only necessary inference is that Malory could not have used <em>Annales Cambriae</em> for Round Table information. The answer is <strong>A</strong>."
+    }
+  ]
+}

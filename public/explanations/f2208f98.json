@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read each choice against the passage",
-      "content": "<ul><li><strong>\"The reaction to Ngũgĩ's rejection of English illustrates that some literary experts believe that fame is most easily gained by writing in a widely understood language, such as Gĩkũyũ.\"</strong>: The passage says colleagues warned Gĩkũyũ would make works <em>inaccessible</em> outside his community &mdash; the opposite of \"widely understood.\" &#10007;</li><li><strong>\"Although Ngũgĩ insisted on publishing his first works in Gĩkũyũ, they have since been translated into many other languages.\"</strong>: The passage states he had already published four novels in English before switching to Gĩkũyũ &mdash; Gĩkũyũ was not his first language of publication. &#10007;</li><li><strong>\"Although Ngũgĩ's decision to write in Gĩkũyũ was met with some skepticism, it didn't prevent him from achieving literary success.\"</strong>: This captures both elements: critics were skeptical, yet he went on to publish acclaimed works translated into 30+ languages. &#10003;</li><li><strong>\"In the 1970s, Ngũgĩ became convinced that literature ought to be written in authors' native languages, and he proceeded to publish many works in Gĩkũyũ.\"</strong>: The passage never states what motivated his choice or that he believed others should follow suit. &#10007;</li></ul>"
+      "title": "Capture skepticism and outcome",
+      "content": "The passage says critics warned that writing in Gĩkũyũ might limit Ngũgĩ's reach, but he later wrote acclaimed works translated into more than thirty languages. The last sentence overturns the warning by showing broad reception outside his community despite skepticism."
     },
     {
-      "title": "Confirm the main idea",
-      "content": "The passage sets up a contrast: skepticism from fellow writers and critics &mdash; then the outcome of widespread translation and critical acclaim. <strong>“Although Ngũgĩ's decision to write in Gĩkũyũ was met with some skepticism, it didn't prevent him from achieving literary success.”</strong> holds both halves of that contrast without adding or removing information. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Reject distorted summaries",
+      "content": "A wrongly treats Gĩkũyũ as widely understood, B says his first works were in Gĩkũyũ, and D invents a belief about all authors. The main idea is skepticism followed by success, not one biographical motive or the chronology of publication. The answer is <strong>C</strong>."
     }
   ]
 }

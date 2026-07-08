@@ -1,0 +1,19 @@
+{
+  "questionId": "2acc3aaa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare typical and unusual works",
+      "content": "The text says Erdrich's work usually focuses on everyday life in Ojibwe communities. It then says <em>The Crown of Columbus</em> is set largely on a Caribbean island."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "<ul><li><strong>Choice A</strong> mentions a movie adaptation, which the passage never states.</li><li><strong>Choice C</strong> mentions dialogue, which the passage never discusses.</li><li><strong>Choice D</strong> claims the main characters are Ojibwe, but the passage does not say that.</li></ul>"
+    },
+    {
+      "title": "Use the setting difference",
+      "content": "Since the novel is set largely on a Caribbean island, it differs from most of Erdrich's work by not being set in a rural Ojibwe community. The answer is <strong>B</strong>."
+    }
+  ]
+}

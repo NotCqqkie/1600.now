@@ -1,0 +1,19 @@
+{
+  "questionId": "ef2bc26f",
+  "correctAnswer": "65",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the base angles",
+      "content": "Since $AC=CD$, triangle $ACD$ is isosceles. Its vertex angle is $108^\\circ$, so each base angle is<br/>$$\\frac{180^\\circ-108^\\circ}{2}=36^\\circ$$"
+    },
+    {
+      "title": "Use triangle angles",
+      "content": "In triangle $BDE$, one angle is $29^\\circ$ and another is $36^\\circ$. The third angle is<br/>$$180^\\circ-29^\\circ-36^\\circ=115^\\circ$$"
+    },
+    {
+      "title": "Use the straight angle",
+      "content": "The angle marked $x$ forms a straight angle with the $115^\\circ$ angle.<br/>$$x=180^\\circ-115^\\circ=65^\\circ$$<br/>The answer is <strong>65</strong>."
+    }
+  ]
+}

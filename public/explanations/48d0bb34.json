@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the goal",
-      "content": "The student wants to describe the rocking chair to an audience that does not know Rami Haddad. So the sentence must (1) identify Haddad as the maker and (2) describe the chair itself."
+      "title": "Combine object and maker",
+      "content": "The student wants to describe the rocking chair for readers unfamiliar with Rami Haddad. A successful sentence must describe the chair's features while also identifying Haddad as the woodworker or furniture designer connected to it."
     },
     {
-      "title": "Look for a choice that does both",
-      "content": "The sentence that names Haddad and describes the chair's sleek, contoured armrests and seat, walnut material, and placement in Boston's Museum of Fine Arts satisfies the note-taking goal."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A — With its sleek, contoured armrests and seat, the walnut rocking chair in Boston's Museum of Fine Arts is just one piece of furniture created by American woodworker Rami Haddad.</strong>: identifies Haddad for the unfamiliar audience and describes the chair using relevant notes. &#10003;</li><li><strong>Choice B — Rami Haddad was born in 1916 and died in 2009, and during his life, he made a chair that you can see if you visit the Museum of Fine Arts in Boston.</strong>: gives biographical dates but no description of the chair (overreach on biography, misread of the goal). &#10007;</li><li><strong>Choice C — Furniture designer Rami Haddad was a recipient of one of the John D. and Catherine T. MacArthur Foundation's \"genius grants.\"</strong>: focuses on an award and never describes the chair at all (misread of the goal). &#10007;</li><li><strong>Choice D — The rocking chair is made from walnut, and it has been shaped such that its armrests and seat are sleek and contoured.</strong>: describes the chair but never names Haddad, so the unfamiliar audience is not introduced to him (misread of the audience constraint). &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject incomplete descriptions",
+      "content": "Choice B gives biographical dates and museum access but does not describe the chair. Choice C focuses on Haddad's grant and ignores the chair. Choice D describes the walnut chair's shape but does not introduce Haddad to the audience. The strongest sentence does both required jobs. The answer is <strong>A</strong>."
     }
   ]
 }

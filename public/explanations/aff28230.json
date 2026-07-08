@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=10$$<br/>$$y=x+21$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Use the given value of x",
+      "content": "The system already gives $x=10$. Because the question asks for $y$, substitute that given value into the equation that defines $y$.",
       "desmosExpressions": [
         "x=10",
         "y=x+21"
       ]
     },
     {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>D</strong>, $31$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Substitute into the equation",
+      "content": "Use $y=x+21$ and replace $x$ with $10$:<br/>$$y=10+21=31$$<br/>The solution has $y$-coordinate $31$. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "696fe5d6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match subject and time",
+      "content": "The subject is the singular noun \"painting,\" and \"Currently\" signals present time. The verb must therefore be singular and present tense."
+    },
+    {
+      "title": "Reject tense mismatches",
+      "content": "A is simple past. C is past progressive. D is future perfect. All three conflict with the present-time signal. The remaining verb is singular present tense and agrees with \"painting.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

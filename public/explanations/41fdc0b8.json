@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate years into t-values",
-      "content": "The variable $t$ means years after 2000. So year 2000 is $t=0$ with population $862$, and year 2010 is $t=10$ with population $846$."
+      "title": "Translate the time variable",
+      "content": "The variable $t$ means years after $2000$. So the year $2000$ is $t=0$ with population $862$, and the year $2010$ is $t=10$ with population $846$."
     },
     {
-      "title": "Use the data directly",
-      "content": "The slope is the population change divided by the time change: $$\\frac{846-862}{10-0}=\\frac{-16}{10}=-1.6.$$ Since the value at $t=0$ is $862$, the linear model is $P(t)=862-1.6t$."
+      "title": "Compute the slope",
+      "content": "$$\nm=\\frac{846-862}{10-0}=\\frac{-16}{10}=-1.6\n$$\nThe starting value at $t=0$ is $862$."
     },
     {
-      "title": "Check the choices",
-      "content": "The expression matches $P(t)=862-1.6t$. Using $(t-2000)$ even though $t$ already means years after 2000, so it uses the wrong input variable."
+      "title": "Write the linear model",
+      "content": "The model is\n$$\nP(t)=862-1.6t\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

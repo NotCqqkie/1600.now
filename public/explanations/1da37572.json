@@ -1,0 +1,15 @@
+{
+  "questionId": "1da37572",
+  "correctAnswer": "180",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the profit equal to the goal",
+      "content": "Use $p(x)=6x-180$ and set the profit to $900$:\n$$6x-180=900$$"
+    },
+    {
+      "title": "Solve for the number sold",
+      "content": "Add $180$ and divide by $6$:\n$$6x=1080$$\n$$x=180$$\nThe answer is <strong>180</strong>."
+    }
+  ]
+}

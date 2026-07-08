@@ -1,0 +1,15 @@
+{
+  "questionId": "aace5967",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the model",
+      "content": "The energy ladder model explains fuel choice mainly through household income: as incomes rise, high-technology fuels replace solid fuels. An advocate of the model would therefore explain Brazil's decline in solid fuel use by pointing to rising incomes and greater use of high-technology fuels."
+    },
+    {
+      "title": "Keep the model income based",
+      "content": "B uses fuel availability rather than income. C introduces relative fuel prices, which the model description does not emphasize. D says rising incomes weakened the link between income and fuel choice, contradicting the model. The explanation must follow the model's income-driven mechanism. The answer is <strong>A</strong>."
+    }
+  ]
+}

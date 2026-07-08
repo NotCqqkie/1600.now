@@ -1,0 +1,15 @@
+{
+  "questionId": "99bf27b6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the geologic rule",
+      "content": "The first sentence gives a rule: an intrusion is younger than the rocks it cuts through. The second sentence applies that rule to a specific formation, so the transition should show a logical result or application."
+    },
+    {
+      "title": "Choose a result transition",
+      "content": "B signals concession, C signals purpose, and D signals an added separate point. The second sentence does not contrast, state a goal, or add an unrelated point; it follows from the rule. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e4278312",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with the requested input, $8$, before doing any arithmetic.<br/>$$f(8)=4(8)^2$$"
+    },
+    {
+      "title": "Evaluate the power first",
+      "content": "Square $8$ first, then multiply by $4$.<br/>$$4(8)^2=4(64)=256$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

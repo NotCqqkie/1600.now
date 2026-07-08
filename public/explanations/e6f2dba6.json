@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a verb-form question. The blank sits between \"yellow\" and \"considered complementary to blue\" &mdash; the main clause has no finite verb yet, so the blank must supply one."
+      "title": "Supply the finite verb",
+      "content": "The clause has the subject yellow and the complement considered complementary to blue. It needs a finite verb to complete the passive construction."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"is\"</strong>: The finite present-tense verb \"is\" pairs with the past participle \"considered\" to form the passive \"is considered,\" giving the clause a proper finite main verb. &#10003;</li><li><strong>\"having been\"</strong>: \"Having been\" is a nonfinite perfect participle; it cannot serve as the finite main verb of a clause. &#10007;</li><li><strong>\"to be\"</strong>: \"To be\" is a nonfinite to-infinitive; it cannot serve as the finite main verb of a clause. &#10007;</li><li><strong>\"being\"</strong>: \"Being\" is a nonfinite present participle; it cannot serve as the finite main verb of a clause. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is a participial phrase, not a finite main verb. Choice C is an infinitive, so it also cannot serve as the main verb. Choice D is a present participle and leaves the clause incomplete. The finite verb creates the grammatical phrase is considered. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "f56769e2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the definition",
+      "content": "The phrase after the blank explains what 'cognate replacement' means: the rate at which a word is replaced over time with a noncognate form. The transition must signal clarification or restatement."
+    },
+    {
+      "title": "Remove unrelated signals",
+      "content": "Choice A signals similarity between separate ideas. Choice C introduces an example, but the phrase after the blank defines a term. Choice D adds another point, but this phrase clarifies the same point. The answer is <strong>B</strong>."
+    }
+  ]
+}

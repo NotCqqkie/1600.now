@@ -1,0 +1,15 @@
+{
+  "questionId": "7f73aa59",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with $b-18=\\frac{x}{y}$. Since $x$ is divided by $y$, multiply both sides by $y$.\n$$y(b-18)=x$$"
+    },
+    {
+      "title": "Distribute the factor",
+      "content": "Distribute $y$ across the parentheses.\n$$x=by-18y$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

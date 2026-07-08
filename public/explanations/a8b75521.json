@@ -1,0 +1,15 @@
+{
+  "questionId": "a8b75521",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the time",
+      "content": "The drone's height after $2$ minutes is $f(2)$. Substitute $x=2$ into the function because $x$ represents minutes after the descent begins."
+    },
+    {
+      "title": "Evaluate the height",
+      "content": "Now compute the predicted height in feet using the function value at that time.<br/>$$f(2)=-40(2)+340$$<br/>$$f(2)=-80+340$$<br/>$$f(2)=260$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "69e19919",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the transfer problem",
+      "content": "The passage says MFCs lose efficiency because electrons must pass through a series of inefficient redox reactions before reaching an electrode. The silver nanoparticles increased power density, and silver is highly conductive."
+    },
+    {
+      "title": "Link conductivity to bypassing",
+      "content": "A focuses on bacterial metabolism, B makes the result independent of silver, and C suggests catalyzing the redox reactions rather than avoiding them. The logical hypothesis is that conductive silver lets electrons transfer directly to the electrode. The answer is <strong>D</strong>."
+    }
+  ]
+}

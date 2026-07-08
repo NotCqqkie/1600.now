@@ -1,0 +1,15 @@
+{
+  "questionId": "a54aebf7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central focus",
+      "content": "The passage is not mainly defining cryptology or arguing for a school policy. It opens by saying that women like Evelyn Marie Harper made important early contributions to US cryptology. It then gives examples of Harper's achievements and connects those contributions to later women in the field, including Dr. Nia Patel."
+    },
+    {
+      "title": "Separate details from the point",
+      "content": "<ul><li><strong>Choice A - 'Cryptology should be taught more often in schools to encourage more women to enter the field.'</strong>: The passage never recommends teaching cryptology more often in schools.</li><li><strong>Choice C - 'Cryptology is a field that focuses primarily on securely managing data.'</strong>: The passage includes a definition of cryptology, but that definition supports the larger discussion of women's contributions.</li><li><strong>Choice D - 'Evelyn Marie Harper and Dr. Nia Patel worked together on an important project in the field of cryptology.'</strong>: The passage does not say Harper and Patel worked together.</li></ul>The remaining choice best captures the broad claim about women such as Harper and Patel contributing to cryptology. The answer is <strong>B</strong>."
+    }
+  ]
+}

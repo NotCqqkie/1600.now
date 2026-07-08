@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the given input and output",
-      "content": "The function is $f(x)=5x+b$, and $f(6)=30$. Substitute $x=6$ and $f(x)=30$:<br/>$$30=5(6)+b$$"
+      "title": "Substitute the given value",
+      "content": "The function is $f(x)=5x+b$, and $f(6)=30$. Substitute $x=6$ and $f(x)=30$.<br/>$$30=5(6)+b$$"
     },
     {
-      "title": "Solve for b",
-      "content": "$$30=30+b$$<br/>Subtract $30$ from both sides:<br/>$$b=0$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "If $b=1$, $5$, or $6$, then $f(6)$ would be greater than $30$. Only $b=0$ keeps $f(6)=30$."
-    },
-    {
-      "title": "Answer",
-      "content": "$b=0$, which matches <strong>Choice A &mdash; $0$</strong>. Therefore <strong>A</strong> is correct."
+      "title": "Solve for the constant",
+      "content": "Evaluate and isolate $b$.<br/>$$30=30+b$$<br/>$$b=0$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

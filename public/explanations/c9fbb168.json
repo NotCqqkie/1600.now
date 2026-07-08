@@ -1,0 +1,15 @@
+{
+  "questionId": "c9fbb168",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare daily amounts",
+      "content": "The northern right whale can consume up to 24,000 kg of krill per day. A pygmy right whale can weigh up to 3,500 kg, and baleen whales can eat up to 30 percent of their mass, or about 1,050 kg per day."
+    },
+    {
+      "title": "Eliminate unsupported claims",
+      "content": "Choice A invents food-supply competition. Choice B wrongly gives both species the 24,000 kg figure. Choice D invents a difference in how likely the two whales are to eat krill. The remaining comparison follows from the numbers. The answer is <strong>C</strong>."
+    }
+  ]
+}

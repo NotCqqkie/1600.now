@@ -1,0 +1,15 @@
+{
+  "questionId": "d5319ad9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the Jupiter weight",
+      "content": "Jupiter weight is $247.5\\%$ of Earth weight, so multiply by $2.475$.\n$$2.475(240.00)=594.00$$"
+    },
+    {
+      "title": "Convert Saturn to a percent",
+      "content": "Let $x$ be the percent of Jupiter weight represented by Saturn weight.\n$$250.07=\\frac{x}{100}(594.00)$$\n$$x=\\frac{250.07}{594.00}\\cdot 100$$\n$$x=42.10$$\nThe closest listed value is $42.10$. The answer is <strong>A</strong>."
+    }
+  ]
+}

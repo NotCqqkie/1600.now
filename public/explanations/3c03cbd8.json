@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the equation",
-      "content": "The equation is $$6x+21y=3{,}918.$$ The total tree count (3,918) equals (6 hectares)$\\cdot x$ + (21 hectares)$\\cdot y$. For units to work out as trees, $x$ and $y$ must each have units of trees per hectare. The coefficient $6$ comes from the community garden, so $x$ is the average trees per hectare in the community garden."
+      "title": "Track the units",
+      "content": "The equation is $6x+21y=3{,}918$. The term $6x$ represents trees in the $6$-hectare community garden."
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>A: Average trees per hectare in the community garden &mdash; matches the analysis (6 hectares $\\cdot$ trees/hectare = total community-garden trees).</li><li>B: Average trees per hectare in the public park &mdash; that role is played by $y$ (paired with 21 hectares), not $x$.</li><li>C: Total trees in the community garden &mdash; that would be $6x$, not $x$ itself.</li><li>D: Total trees in the public park &mdash; that would be $21y$, not $x$.</li></ul><strong>A</strong> is correct."
+      "title": "Interpret the variable",
+      "content": "For $6x$ to be a number of trees, $x$ must be trees per hectare. Since $6$ is the community garden's area, $x$ is the average number of trees per hectare in the community garden. The answer is <strong>A</strong>."
     }
   ]
 }

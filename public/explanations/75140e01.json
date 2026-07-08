@@ -1,0 +1,19 @@
+{
+  "questionId": "75140e01",
+  "correctAnswer": "2,7,11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify condition for x-intercepts",
+      "content": "The x-intercepts occur where the graph crosses the x-axis, i.e., where $y = f(x) = 0$.<br/>Set the function equal to zero:<br/>$$f(x)=4(x-2)(x-7)(x-11)=0$$<br/>Since the constant factor $4$ is never zero, the product $(x-2)(x-7)(x-11)$ must be zero."
+    },
+    {
+      "title": "Apply the zero-product property",
+      "content": "If a product of factors equals zero, at least one factor is zero.<br/>Thus we set each linear factor equal to zero:<br/>$$x-2=0$$<br/>$$x-7=0$$<br/>$$x-11=0$$<br/>Solving each gives the possible x-coordinates."
+    },
+    {
+      "title": "List the intercepts and select the matching choice",
+      "content": "The solutions are $x=2$, $x=7$, and $x=11$. Each of these is an x-coordinate of an x-intercept.<br/>Since this is a free-response question, any of these three values is an acceptable answer. The answer is <strong>2, 7, or 11</strong>."
+    }
+  ]
+}

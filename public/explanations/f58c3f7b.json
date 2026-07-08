@@ -1,0 +1,19 @@
+{
+  "questionId": "f58c3f7b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the dependent clause",
+      "content": "Though it was designated as mission STS-45 is a dependent introductory clause. It cannot stand alone and should be followed by a comma before the main clause."
+    },
+    {
+      "title": "Reject wrong boundaries",
+      "content": "<ul><li><strong>Choice B</strong> adds and, which does not correctly connect a though-clause to the main clause.</li><li><strong>Choice C</strong> creates a fragment by ending the dependent clause with a period.</li><li><strong>Choice D</strong> omits the needed comma after the dependent clause.</li></ul>"
+    },
+    {
+      "title": "Use the comma boundary",
+      "content": "A comma after STS-45 correctly separates the introductory though-clause from the main clause the mission was actually the forty-sixth flight. The answer is <strong>A</strong>."
+    }
+  ]
+}

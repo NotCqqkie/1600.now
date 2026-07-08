@@ -1,0 +1,16 @@
+{
+  "questionId": "f9062291",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: use the triangle sum",
+      "content": "Use the fact that the three interior angles of a triangle add to $180^\\circ$. Once the sum of two angles is known, subtract that sum from $180^\\circ$."
+    },
+    {
+      "title": "Apply the angle sum property of triangles",
+      "content": "In any triangle, the sum of the interior angles is $180^{\\circ}$. For triangle HJK: $$\\angle H + \\angle J + \\angle K = 180^{\\circ}$$ Given that $\\angle H + \\angle J = 42^{\\circ}$, we substitute: $$42^{\\circ} + \\angle K = 180^{\\circ}$$ $$\\angle K = 180^{\\circ} - 42^{\\circ} = 138^{\\circ}$$ <strong>D</strong> is correct.",
+      "formula": "$$\\angle A + \\angle B + \\angle C = 180^{\\circ}$$"
+    }
+  ]
+}

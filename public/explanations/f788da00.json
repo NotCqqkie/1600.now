@@ -1,0 +1,22 @@
+{
+  "questionId": "f788da00",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the factored form",
+      "content": "The graph has an $x$-intercept wherever $f(x)=0$.\n$$x(x-10)^2(x-11)^3=0$$\nEach distinct factor that can equal zero gives one distinct $x$-intercept."
+    },
+    {
+      "title": "Count distinct roots",
+      "content": "The roots come from the factors $x$, $(x-10)^2$, and $(x-11)^3$.\n$$x=0$$\n$$x=10$$\n$$x=11$$\nThere are $3$ distinct roots."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the polynomial and count the distinct places where it meets the $x$-axis. There are $3$ such intercepts. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = x(x - 10)^{2}(x - 11)^{3}"
+      ]
+    }
+  ]
+}

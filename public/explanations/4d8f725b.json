@@ -1,0 +1,19 @@
+{
+  "questionId": "4d8f725b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Start with the given equation:\n$$\n-2|3x+10|+12=-8\n$$\nSubtract $12$ and divide by $-2$:\n$$\n-2|3x+10|=-20\n$$\n$$\n|3x+10|=10\n$$"
+    },
+    {
+      "title": "Solve both cases",
+      "content": "The expression inside the absolute value can equal $10$ or $-10$:\n$$\n3x+10=10\n$$\n$$\nx=0\n$$\n$$\n3x+10=-10\n$$\n$$\nx=-\\frac{20}{3}\n$$"
+    },
+    {
+      "title": "Match the solution set",
+      "content": "The solution set contains $0$ and $-\\frac{20}{3}$.\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

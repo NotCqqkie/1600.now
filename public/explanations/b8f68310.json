@@ -1,0 +1,15 @@
+{
+  "questionId": "b8f68310",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the definition of minimum",
+      "content": "The minimum value of a data set is the smallest data value that appears with a positive frequency."
+    },
+    {
+      "title": "Read the first listed value",
+      "content": "From the frequency table, the smallest value that occurs in the data set is $20$. The answer is <strong>C</strong>."
+    }
+  ]
+}

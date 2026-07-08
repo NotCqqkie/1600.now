@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read off x directly",
-      "content": "The first equation is $x = 7$. This is already solved &mdash; no algebra needed. The solution must have $x = 7$."
+      "title": "Use the given value of x",
+      "content": "The first equation already gives $x=7$, so the solution point must have an $x$-coordinate of $7$."
     },
     {
-      "title": "Substitute into the second equation",
-      "content": "The second equation is $y = x - 11$. Plug in $x = 7$:<br/>$$y = 7 - 11 = -4$$<br/>The solution is $(7, -4)$."
-    },
-    {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>$\\left(0,0\\right)$</strong>: $x = 0 \\ne 7$, so this fails the first equation immediately. &#10007;</li><li><strong>$\\left(7,-4\\right)$</strong>: $x = 7$ &#10003; and $y = 7 - 11 = -4$ &#10003;. Both equations satisfied. &#10003;</li><li><strong>$\\left(7,-11\\right)$</strong>: $x = 7$ &#10003;, but $y = 7 - 11 = -4 \\ne -11$. Fails the second equation. &#10007;</li><li><strong>$\\left(7,11\\right)$</strong>: $x = 7$ &#10003;, but $y = 7 - 11 = -4 \\ne 11$. The sign is wrong. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Find the matching y value",
+      "content": "Substitute $x=7$ into the second equation.<br/>$$y=7-11=-4$$<br/>The solution point is $(7,-4)$. The answer is <strong>B</strong>."
     }
   ]
 }

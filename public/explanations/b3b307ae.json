@@ -1,0 +1,15 @@
+{
+  "questionId": "b3b307ae",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Narrow the aim",
+      "content": "The first sentence gives the researchers' general aim: analyze cattle diet composition. The second sentence narrows that aim to the ratio of three plant subtypes in the animals' diet."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals replacement or contrast, but the second sentence refines the first. Choice B signals concession, with no concession present. Choice C signals a result, but the second sentence is a specific version of the same aim. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b864c29f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the contrast",
+      "content": "The first sentence says people typically think of winged dinosaurs when they think of feathered dinosaurs. The underlined sentence begins with \"However\" and expands the idea by saying many wingless dinosaurs also had feathers. It corrects the narrow assumption that feathers belonged only to winged dinosaurs."
+    },
+    {
+      "title": "Reject wrong functions",
+      "content": "A invents a purpose for feathers. B misidentifies the underlined sentence as an example, but the example comes in the next sentence. C says the sentence defines a term, which it does not. The answer is <strong>D</strong>."
+    }
+  ]
+}

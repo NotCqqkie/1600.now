@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structure on each side of the blank",
-      "content": "The clause before the blank ends with &quot;ruthenium&quot; and is a complete independent clause. The clause after the blank begins with &quot;the alloy&quot; and is also a complete independent clause. Two independent clauses joined without proper punctuation and a conjunction create a run-on sentence or comma splice."
+      "title": "Join two main clauses",
+      "content": "The words before the blank form one independent clause about trying to improve NiCoCr. The words after the blank form another independent clause about the resulting alloy being unsuitable."
     },
     {
-      "title": "Eliminate choices that leave a run-on or splice, and confirm the answer",
-      "content": "The standard rule: join two independent clauses with a comma followed by a coordinating conjunction.<ul><li><strong>Choice A &mdash; (Ru)</strong>: no punctuation or conjunction — fuses the two clauses into a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; (Ru) but</strong>: conjunction without a comma before it — violates the comma-plus-conjunction convention for longer clauses. &#10007;</li><li><strong>Choice C &mdash; (Ru),</strong>: comma alone without a conjunction — creates a comma splice. &#10007;</li><li><strong>Choice D &mdash; (Ru), but</strong>: comma and coordinating conjunction &quot;but&quot; — correctly joins the two clauses and signals the contrast between the intended improvement and the unsuitable result. &#10003;</li></ul>That is the correct answer."
+      "title": "Reject run-ons and splices",
+      "content": "Choice A fuses the clauses with no connector. Choice B uses <em>but</em> without the expected comma for these longer clauses. Choice C uses only a comma, creating a comma splice."
+    },
+    {
+      "title": "Use comma plus but",
+      "content": "Choice D supplies <em>(Ru), but</em>, correctly joining the two independent clauses and signaling the contrast between the intended improvement and the unsuitable result. The answer is <strong>D</strong>."
     }
   ]
 }

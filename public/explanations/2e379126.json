@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals negative 6",
-      "content": "Replace $x$ with $-6$ in $g(x)=5x-7$: $$g(-6)=5(-6)-7$$"
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $-6$ in the function rule.<br/>$$g(-6)=5(-6)-7$$"
     },
     {
-      "title": "Simplify carefully",
-      "content": "$$5(-6)=-30$$ $$-30-7=-37$$ Therefore, $g(-6)=-37$."
+      "title": "Evaluate the expression",
+      "content": "Multiply first, then subtract.<br/>$$5(-6)=-30$$<br/>$$-30-7=-37$$"
     },
     {
-      "title": "Check the choices",
-      "content": "$-37$ is correct. Solving for the $x$-value that would make $g(x)=-6$ answers a different question; here the task is to evaluate $g(-6)$ directly from the function rule."
+      "title": "Match the value",
+      "content": "The value of $g(-6)$ is $-37$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c8da3fc0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the subject intact",
+      "content": "The blank supplies the subject of \"asserts.\" The phrase \"physicist Mishkat Bhattacharya\" is a title plus name functioning as one noun phrase, so no comma should split the title from the name or the subject from the verb."
+    },
+    {
+      "title": "Rule out comma errors",
+      "content": "A places a comma between the subject and \"asserts.\" B splits the title from the name. D makes both errors. The unpunctuated noun phrase preserves the subject-verb connection. The answer is <strong>C</strong>."
+    }
+  ]
+}

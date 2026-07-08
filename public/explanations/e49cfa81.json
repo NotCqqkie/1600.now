@@ -1,0 +1,15 @@
+{
+  "questionId": "e49cfa81",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hypothesis context",
+      "content": "The text says corpora can empirically test hypotheses about word usage. If someone has a belief that <em>last</em> is frequent, corpus analysis can support that hypothesis with evidence."
+    },
+    {
+      "title": "Choose the belief noun",
+      "content": "Choice B means a plan or plot. Choice C means a summary. Choice D means acknowledgment or identification. The blank needs a noun meaning assumption or hypothesis. The answer is <strong>A</strong>."
+    }
+  ]
+}

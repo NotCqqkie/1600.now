@@ -1,0 +1,15 @@
+{
+  "questionId": "7d3684a9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify the noun directly",
+      "content": "The blank follows the noun <em>profile</em> and must attach directly to it before the phrase about the <em>Navajo Times</em>. A participle can form the needed modifier: a profile appearing in the newspaper."
+    },
+    {
+      "title": "Reject finite verbs",
+      "content": "Choice B, Choice C, and Choice D are finite verb forms. Without a relative pronoun such as <em>that</em>, those forms cannot directly modify <em>profile</em> inside the larger sentence. The answer is <strong>A</strong>."
+    }
+  ]
+}

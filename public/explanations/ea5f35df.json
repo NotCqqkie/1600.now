@@ -1,0 +1,15 @@
+{
+  "questionId": "ea5f35df",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the hoax context",
+      "content": "The sentence describes fictitious Wikipedia entries that persisted for years before being recognized and deleted. The blank needs a noun for false creations, matching “hoaxes” and “fictitious entries.”"
+    },
+    {
+      "title": "Eliminate unrelated nouns",
+      "content": "Choice B, “analyses,” means examinations. Choice C, “revelations,” means newly revealed facts. Choice D, “enhancements,” means improvements. None of those names false entries. The remaining noun means invented or false things. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "35dffe7a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the long delay",
+      "content": "The conjecture was posed in the first century BCE, but the first valid proof did not appear until 1999. For all that time, a conclusive demonstration resisted mathematicians' efforts."
+    },
+    {
+      "title": "Reject mismatched verbs",
+      "content": "B means foreshadowed, C means perfectly represented, and D means replaced. None describes a proof remaining out of reach despite repeated attempts across centuries. The answer is <strong>A</strong>."
+    }
+  ]
+}

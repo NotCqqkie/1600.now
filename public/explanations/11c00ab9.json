@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the correct table cell",
-      "content": "The question asks specifically for the estimated impact of invasive <em>mongooses</em> on threatened <em>mammals</em>. Find the mongooses row and the mammals column in the table. Their intersection gives the answer.<ul><li><strong>Choice A &mdash; 0.35.</strong>: 0.35 does not appear anywhere in the table. &#10007;</li><li><strong>Choice B &mdash; 0.61.</strong>: 0.61 is the estimated impact of <em>cats</em> on threatened mammals, not mongooses. Wrong row. &#10007;</li><li><strong>Choice C &mdash; 0.75.</strong>: 0.75 is exactly the value at the intersection of the mongooses row and the mammals column. &#10003;</li><li><strong>Choice D &mdash; 0.52.</strong>: 0.52 is the estimated impact of cats on threatened <em>reptiles</em>. Wrong row and wrong column. &#10007;</li></ul>"
+      "title": "Find the table intersection",
+      "content": "The question asks for the estimated impact of invasive mongooses on threatened mammals. The needed value is at the intersection of the mongooses row and the mammals column in the table."
     },
     {
-      "title": "Verify the value matches the question",
-      "content": "The only value that corresponds to mongooses and mammals is 0.75. All other choices pull values from different rows or columns, or from values not present in the table at all. That matches <strong>Choice C &mdash; 0.75.</strong>."
+      "title": "Reject wrong cells",
+      "content": "Choice A gives 0.35, which is not the requested mongooses-and-mammals value. Choice B gives 0.61, the cats-and-mammals value. Choice D gives 0.52, the cats-and-reptiles value. The mongooses-and-mammals cell is 0.75. The answer is <strong>C</strong>."
     }
   ]
 }

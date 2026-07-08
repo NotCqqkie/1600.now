@@ -1,0 +1,19 @@
+{
+  "questionId": "061361b9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the passage purpose",
+      "content": "The question asks for the main purpose of the text. The passage opens by noting that copying Tokyo's high density may not increase walkability elsewhere, then Rojas argues that understanding of walking decisions is \"insufficiently robust\" because multiple factors — preference, safety, and more — shape behavior. The closing sentence confirms: \"walking decisions are made in complex contexts in which multiple conditions and needs inform individuals' choices.\" The overall point is that pinning down a reliable walkability lever is hard."
+    },
+    {
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'To describe the effect of high population density on any given city's walkability'</strong>: density is only one example used to introduce the problem; the text does not focus on density's effects.</li><li><strong>Choice B — 'To present a claim about how individuals' decision-making about walking can be improved'</strong>: the passage identifies a gap in understanding, not a path to improvement.</li><li><strong>Choice D — 'To explain why it is challenging to compare the amount of pedestrian traffic in different cities'</strong>: comparing traffic levels is never the subject; the text is about what drives individuals to walk.</li></ul>"
+    },
+    {
+      "title": "Choose the purpose statement",
+      "content": "<ul><li><strong>Choice C — 'To discuss the difficulty of identifying a reliable way to increase walking in any given city'</strong>: matches the whole arc — copying one feature fails, research is insufficiently robust, multiple conditions complicate decisions.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

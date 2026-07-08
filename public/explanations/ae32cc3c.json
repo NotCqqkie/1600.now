@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use the line of best fit",
-      "content": "The question asks for the predicted value at $x=1{,}200$, so read from the line of best fit rather than from an individual data point."
+      "content": "A prediction should be read from the line of best fit, not from a single plotted data point."
     },
     {
-      "title": "Read the predicted y-value",
-      "content": "At $x=1{,}200$, the line is between $10$ and $12$ on the $y$-axis, closest to $11$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The predicted value is $11$, which matches <strong>C</strong>. The distractors correspond to a larger $x$-value or give predictions that are too high or too low for $x=1200$."
+      "title": "Read the value at the input",
+      "content": "At $x=1{,}200$, the line is between $10$ and $12$ on the $y$-axis, closest to $11$. The answer is <strong>C</strong>."
     }
   ]
 }

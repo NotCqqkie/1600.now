@@ -1,0 +1,15 @@
+{
+  "questionId": "4eb49912",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence subject",
+      "content": "The sentence needs a subject for the verb phrase \"led developers to invent the dual-core chip.\" The event of reaching the power wall must function as that subject."
+    },
+    {
+      "title": "Use a gerund subject",
+      "content": "A creates a separate clause and leaves \"led\" without a clear subject. C creates a dependent \"when\" clause. D creates a prepositional phrase that cannot serve as the subject. A gerund phrase can act as the sentence subject. The answer is <strong>B</strong>."
+    }
+  ]
+}

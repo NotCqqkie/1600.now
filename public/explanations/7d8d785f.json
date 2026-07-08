@@ -1,0 +1,15 @@
+{
+  "questionId": "7d8d785f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the plural subject",
+      "content": "The subject is Jessie Redmon Fauset's contributions, which is plural. The long phrase about <em>The Crisis</em> interrupts the sentence, but it does not change the subject that the verb must agree with."
+    },
+    {
+      "title": "Reject nonmatching verbs",
+      "content": "Choice A uses singular has, which does not agree with contributions. Choice C lacks the needed auxiliary for the passive meaning. Choice D is nonfinite and cannot complete the main clause. The plural verb phrase agrees with the plural subject. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key requirement",
-      "content": "The passage requires selecting a maple tree native to <strong>North America</strong> with a maximum height of <strong>under 60 feet</strong>. The decisive detail is a specific combination of both traits — not height alone or origin alone."
+      "title": "Apply both tree limits",
+      "content": "The student needs a maple tree that satisfies two criteria: it must be native to North America and it must not grow more than 60 feet tall. Both criteria must be met together."
     },
     {
-      "title": "Match the data to the criteria",
-      "content": "Red maple is native to North America and has a maximum height of 60 feet, satisfying both requirements.<br/><br/>The rejected choices fail for specific reasons: silver maple reaches a maximum of 70 feet (exceeds the 60-foot limit); sugar maple reaches a maximum of 75 feet (exceeds the 60-foot limit); Norway maple is not native to North America.<br/><br/>That matches <strong>Choice C &mdash; red maple.</strong>."
+      "title": "Reject failed criteria",
+      "content": "A and B fail the height limit, and D fails the native-to-North-America requirement. The selected tree is native to North America and has a maximum height that does not exceed 60 feet. The answer is <strong>C</strong>."
     }
   ]
 }

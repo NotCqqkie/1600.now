@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the necessary counts from the table",
-      "content": "Presidents aged at least 50: 50–54 (13) + 55–59 (11) + 60–64 (7) + 65–69 (3) = 34.<br/>Presidents aged at least 60: 60–64 (7) + 65–69 (3) = 10."
+      "title": "Count at least fifty",
+      "content": "Combine the rows for ages $50$ through $69$: $$13+11+7+3=34$$"
     },
     {
-      "title": "Calculate the conditional probability",
-      "content": "The fraction of presidents at least 60 (among those at least 50) is:<br/>$$\\frac{10}{34}$$<br/>That is the correct answer."
+      "title": "Count at least sixty",
+      "content": "Only the $60$-$64$ and $65$-$69$ rows meet the higher cutoff: $$7+3=10$$"
+    },
+    {
+      "title": "Form the fraction",
+      "content": "So the requested fraction is $$\\frac{10}{34}$$ The answer is <strong>B</strong>."
     }
   ]
 }

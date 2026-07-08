@@ -1,0 +1,15 @@
+{
+  "questionId": "f28444ae",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sign up pattern",
+      "content": "The sentence says students can \"sign up\" followed by the purpose of signing up. Standard English uses the infinitive construction \"sign up to\" plus a verb to express that purpose."
+    },
+    {
+      "title": "Reject wrong verb forms",
+      "content": "<ul><li><strong>Choice B</strong>: \"Learned\" is a past-tense or participial form and cannot express the purpose after \"sign up.\"</li><li><strong>Choice C</strong>: \"Are learning\" creates an ungrammatical construction after \"sign up.\"</li><li><strong>Choice D</strong>: The bare verb \"learn\" is missing the required \"to.\"</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

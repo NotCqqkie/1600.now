@@ -1,0 +1,15 @@
+{
+  "questionId": "2879e553",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the parallel verb clue",
+      "content": "The phrase \"not only\" and \"but also\" pairs the blank with \"illuminate.\" Since illuminate means make clear, the fossil remains help scientists make evolutionary steps clear as well."
+    },
+    {
+      "title": "Rule out mismatched verbs",
+      "content": "Choice A says \"exploit,\" meaning use for benefit, but the sentence is not about using evolutionary steps for advantage. Choice B says \"prioritize,\" but no ranking is being made. Choice C says \"yield,\" which would mean produce the steps themselves. The remaining verb means perceive or recognize clearly, matching the passage's logic. The answer is <strong>D</strong>."
+    }
+  ]
+}

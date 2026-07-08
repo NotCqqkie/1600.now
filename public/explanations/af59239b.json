@@ -1,0 +1,15 @@
+{
+  "questionId": "af59239b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the given angles",
+      "content": "Triangle $ABC$ and triangle $XYZ$ already have two matching angle pairs. Angle $A$ matches angle $X$, and angle $B$ matches angle $Y$:<br/>$$A=X=35^\\circ$$<br/>$$B=Y=85^\\circ$$"
+    },
+    {
+      "title": "Apply triangle similarity",
+      "content": "Two equal angle pairs are enough to prove triangles similar by angle-angle similarity. If desired, the third angles are also forced to match because each triangle has angle sum $180^\\circ$:<br/>$$180^\\circ-35^\\circ-85^\\circ=60^\\circ$$So no side lengths or third-angle measures are needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

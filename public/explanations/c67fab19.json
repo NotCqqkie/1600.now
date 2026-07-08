@@ -1,0 +1,15 @@
+{
+  "questionId": "c67fab19",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the total volume",
+      "content": "The total mixture is the sum of the water and isopropanol volumes. The total is $41$ mL, and the isopropanol volume is $10$ mL."
+    },
+    {
+      "title": "Subtract the known part",
+      "content": "Subtract the isopropanol volume from the total:\n$$\n41-10=31\n$$\nThe answer is <strong>31</strong>."
+    }
+  ]
+}

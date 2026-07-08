@@ -1,0 +1,15 @@
+{
+  "questionId": "7cd976c9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the setting effect",
+      "content": "The passage says lab studies are useful for controlling variables, but kestrels' surroundings can significantly affect their hormone levels. The finding should therefore show a hormone difference between kestrels in different settings."
+    },
+    {
+      "title": "Keep the species and setting",
+      "content": "A compares wild male kestrels with captive male canaries, mixing species. B says wild and captive males had similar levels, contradicting the expected setting effect. C describes differences between individuals, not differences caused by wild versus captive settings. The finding about higher breeding-season androgen levels in wild males fits the logic. The answer is <strong>D</strong>."
+    }
+  ]
+}

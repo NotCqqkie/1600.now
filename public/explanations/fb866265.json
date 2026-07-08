@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the decay shortcut",
-      "content": "In $y=a(b)^x$, the value of $b$ is the multiplier for each $1$-unit increase in $x$. Since the model decreases as $x$ increases, $b$ must be between $0$ and $1$. That already eliminates $1.83$, $18.36$, and $126.35$."
+      "title": "Use the decay pattern",
+      "content": "In a model written as $y=a(b)^x$, the value of $b$ is the multiplier each time $x$ increases by $1$. A decreasing exponential model has a positive multiplier less than $1$."
     },
     {
-      "title": "Match the multiplier",
-      "content": "The only answer choice between $0$ and $1$ is $0.83$. Therefore $b\\approx0.83$, so <strong>A</strong> is correct."
+      "title": "Find the only possible choice",
+      "content": "Among the choices, only $0.83$ is greater than $0$ and less than $1$. The other choices are greater than $1$, which would make the exponential model increase. The answer is <strong>A</strong>."
     }
   ]
 }

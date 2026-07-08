@@ -1,0 +1,15 @@
+{
+  "questionId": "b5bccf37",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the requested table cell",
+      "content": "The statement asks for Girl Scouts who were 14 to 17 years old in 1995. In the table, that means using the row for ages 14 to 17 and the column for 1995, whose value is 52 thousand."
+    },
+    {
+      "title": "Ignore unrelated values",
+      "content": "Choice A gives 185, Choice B gives 727, and Choice C gives 45. Each number comes from a different table entry or does not match the requested age category and year. The answer is <strong>D</strong>."
+    }
+  ]
+}

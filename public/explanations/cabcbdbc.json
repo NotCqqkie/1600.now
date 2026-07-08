@@ -1,0 +1,15 @@
+{
+  "questionId": "cabcbdbc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Subtract $28$ from both sides.<br/>$$\\sqrt{w}+28=38$$<br/>$$\\sqrt{w}=10$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "Square both sides to undo the square root.<br/>$$w=10^2$$<br/>$$w=100$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

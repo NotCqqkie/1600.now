@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify intercepts and slope of the first equation",
-      "content": "For $x + y = 53$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = 53$, giving $(0, 53)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = 53$, giving $(53, 0)$</li><li>Slope: $-1$ (line slants downward)</li></ul>"
+      "title": "Find the first line",
+      "content": "For $x+y=53$, set one variable equal to $0$ at a time:\n$$\n(0,53)\\quad\\text{and}\\quad(53,0)\n$$\nSo this line slopes downward through those intercepts."
     },
     {
-      "title": "Identify intercepts and slope of the second equation",
-      "content": "For $11x + 18y = 730$:<ul><li>$y$-intercept: set $x = 0 \\Rightarrow y = \\frac{730}{18} \\approx 41$, giving $(0, 41)$</li><li>$x$-intercept: set $y = 0 \\Rightarrow x = \\frac{730}{11} \\approx 66$, giving $(66, 0)$</li><li>Slope: $-\\frac{11}{18}$ (line slants downward)</li></ul>"
+      "title": "Find the second line",
+      "content": "For $11x+18y=730$, set $x=0$ to get\n$$\ny=\\frac{730}{18}=40.5\n$$\nSet $y=0$ to get\n$$\nx=\\frac{730}{11}=66.4\n$$\nThese are about $(0,41)$ and $(66,0)$. This line also slopes downward."
     },
     {
-      "title": "Select the graph matching both equations",
-      "content": "The correct graph shows both lines slanting downward: the first through $(0, 53)$ and $(53, 0)$, the second through $(0, 41)$ and $(66, 0)$. The matching graph is the one where both lines have negative slope and the listed intercepts agree with those four points. The distractor graphs either make one line slope upward or make the first line horizontal, so they cannot represent the two equations. <strong>B</strong> is correct.",
+      "title": "Match the graph",
+      "content": "The matching graph must show one downward line through $(0,53)$ and $(53,0)$ and another downward line through about $(0,41)$ and $(66,0)$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y = 53 - x",
         "y = (730 - 11x)/18"

@@ -1,0 +1,15 @@
+{
+  "questionId": "6c6a1ca1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track facts then uncertainty",
+      "content": "The passage first identifies the Federalist Papers, their authors, publication context, and purpose. It then shifts to an unresolved issue: the authorship of a few individual essays is uncertain."
+    },
+    {
+      "title": "Reject inaccurate summaries",
+      "content": "Choice A misstates the authorship issue as one-person versus two-person essays. Choice B leaves out the uncertainty. Choice C invents disagreement among the authors about ratification. The structure is known background followed by something not fully known. The answer is <strong>D</strong>."
+    }
+  ]
+}

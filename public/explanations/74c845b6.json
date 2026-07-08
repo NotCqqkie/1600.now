@@ -1,0 +1,25 @@
+{
+  "questionId": "74c845b6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the displayed line",
+      "content": "The graph shown is $y=f(x)+8$, not $y=f(x)$. From the graph, the displayed line has slope $-5$ and $y$-intercept $-1$, so it is<br/>$$y=-5x-1$$"
+    },
+    {
+      "title": "Undo the vertical shift",
+      "content": "Since the displayed graph is $y=f(x)+8$, subtract $8$ from the displayed equation.<br/>$$f(x)=(-5x-1)-8=-5x-9$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Adding $8$ to $f(x)=-5x-9$ gives the displayed line.<br/>$$(-5x-9)+8=-5x-1$$The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y = -14x - 1",
+        "y = -5x - 1",
+        "y = -5x + 16",
+        "y = -14x + 16"
+      ]
+    }
+  ]
+}

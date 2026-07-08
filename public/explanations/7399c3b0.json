@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>D</strong>, $14$."
-    },
-    {
       "title": "Isolate the square",
-      "content": "Start with $k^2-58=138$. Add $58$ to both sides so the square term is alone: $$k^2=196.$$"
+      "content": "Add $58$ to both sides so the squared term is alone.<br/>$$k^2-58=138$$<br/>$$k^2=196$$"
     },
     {
-      "title": "Take both roots",
-      "content": "If $k^2=196$, then $k=14$ or $k=-14$. The question asks for the positive solution, so keep $14$ and reject $-14$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>D</strong> is correct because $14^2-58=196-58=138$. The larger answer choices would make $k^2$ far too large."
+      "title": "Take the positive root",
+      "content": "The two numbers whose square is $196$ are $14$ and $-14$. The question asks for the positive solution.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "a01680aa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match sensitivity to information",
+      "content": "The second team's hypothesis links sensor sensitivity to the locations where pressure differences provide the most information. The earlier study gives a clear pattern: fish with narrower heads should have that highest-information point closer to the snout, while fish with wider heads should have it farther from the snout. A supporting finding must show the most sensitive sensors following that same narrow-head versus wide-head pattern."
+    },
+    {
+      "title": "Compare the species pattern",
+      "content": "A says the narrower longnose gar has its most sensitive sensors closer to the snout than the wider devil catfish does, matching the predicted locations. B puts both species' most sensitive sensors near the snout, so it loses the width-based difference. C supports the gar pattern but says the devil catfish has no sensitivity peak. D reverses the expected relationship by placing the wider species' most sensitive sensors closer to the snout. The answer is <strong>A</strong>."
+    }
+  ]
+}

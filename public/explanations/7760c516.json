@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the mean formula",
-      "content": "The mean is found by adding all the values and dividing by how many values there are. Count the data set: 7, 11, 14, 3, 16, 24, 11, 5, 5, 4 &mdash; there are 10 values.",
+      "title": "Use the mean formula",
+      "content": "The mean is the sum of the data values divided by the number of values. There are $10$ plant heights.",
       "formula": "$$\\text{Mean} = \\frac{\\text{Sum of all values}}{\\text{Number of values}}$$"
     },
     {
-      "title": "Add all heights and divide",
-      "content": "Sum all the values:<br/>$$7 + 11 + 14 + 3 + 16 + 24 + 11 + 5 + 5 + 4 = 100$$<br/>Divide the sum by the count:<br/>$$\\frac{100}{10} = 10$$<br/>The mean height of the plants is 10 centimeters."
+      "title": "Add and divide",
+      "content": "Add the heights, then divide by $10$.<br/>$$7+11+14+3+16+24+11+5+5+4=100$$<br/>$$\\frac{100}{10}=10$$<br/>The answer is <strong>10</strong>."
     }
   ]
 }

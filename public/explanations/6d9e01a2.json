@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)=4{x}^{2}-50x+126$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $25/4$.",
+      "title": "Locate the minimum",
+      "content": "The parabola opens upward because the coefficient of $x^2$ is positive, so the minimum occurs at the vertex.",
       "desmosExpressions": [
         "f \\left(x\\right)=4{x}^{2}-50x+126"
       ]
     },
     {
-      "title": "Recognize the parabola opens upward with minimum at its vertex",
-      "content": "The function $f(x) = 4x^2 - 50x + 126$ has leading coefficient $a = 4 \\gt 0$. Since the parabola opens upward, its minimum value occurs at the vertex. We need the x-coordinate of this vertex."
-    },
-    {
-      "title": "Calculate the x-coordinate of the vertex",
-      "content": "With coefficients $a = 4$ and $b = -50$: $$x = -\\frac{(-50)}{2(4)} = \\frac{50}{8} = \\frac{25}{4}$$ The minimum occurs at $x = \\frac{25}{4}$."
+      "title": "Find the vertex input",
+      "content": "For $ax^2+bx+c$, the vertex input is $-\\frac{b}{2a}$. Here, $a=4$ and $b=-50$.\n$$\nx=-\\frac{-50}{2(4)}=\\frac{50}{8}=\\frac{25}{4}\n$$\nThe answer is <strong>25/4</strong>."
     }
   ]
 }

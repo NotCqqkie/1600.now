@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the plural signal in the relative clause",
-      "content": "The phrase <em>“who made New York City their home”</em> uses plural pronouns (<strong>“who”</strong> and <strong>“their”</strong>), indicating a plural antecedent noun."
+      "title": "Match plural nouns",
+      "content": "The phrase <em>who made New York City their home</em> points to multiple immigrants. The sentence also needs the plural noun <em>stories</em>, not a possessive form, after <em>tell the</em>."
     },
     {
-      "title": "Apply the plural and non-possessive requirements",
-      "content": "<strong>“Stories of the South Asian immigrants”</strong> is correct: plural noun matching the relative clause, non-possessive form working with “of.” The other choices use singular nouns or possessive forms, violating these requirements.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject possessive forms",
+      "content": "Choice A and Choice B use <em>story's</em>, a singular possessive where a plural noun is needed. Choice D uses possessive forms for both stories and immigrant, creating the wrong grammar and number. The answer is <strong>C</strong>."
     }
   ]
 }

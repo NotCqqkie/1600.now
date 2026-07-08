@@ -4,24 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $17x+9y$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Group like terms",
-      "content": "Combine the $x$ terms: $10x + 7x = 17x$. Combine the $y$ terms: $4y + 5y = 9y$."
+      "content": "Combine $x$-terms with $x$-terms and $y$-terms with $y$-terms. The variables are different, so the $x$ terms and $y$ terms cannot be combined with each other.\n$$10x+7x+4y+5y$$"
     },
     {
-      "title": "Write the simplified expression",
-      "content": "The result is $17x + 9y$."
-    },
-    {
-      "title": "Check each choice",
-      "content": "<ul><li><strong>$3x+9y$</strong>: $3x + 9y$: $y$ coefficient is right but $x$ should be 17, not 3.</li><li><strong>$7x+11y$</strong>: $7x + 11y$: neither coefficient matches.</li><li><strong>$15x+11y$</strong>: $15x + 11y$: $x$ off by 2 and $y$ off by 2.</li><li><strong>$17x+9y$</strong>: $17x + 9y$: matches the sums exactly.</li></ul>That matches the correct answer &mdash; <strong>D</strong> is correct."
+      "title": "Add the coefficients",
+      "content": "Add the coefficients of each variable, then keep the same variable labels.\n$$(10+7)x+(4+5)y$$\n$$17x+9y$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

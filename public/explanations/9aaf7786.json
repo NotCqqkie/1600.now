@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the equation using point-slope form",
-      "content": "We know the slope is $m = -\\frac{4}{3}$ and the line passes through the point $(-9, 0)$. Using the point-slope form of a line:<br/>$$y - y_1 = m(x - x_1)$$<br/>Substitute the given point and slope:<br/>$$y - 0 = -\\frac{4}{3}(x - (-9))$$<br/>$$y = -\\frac{4}{3}(x + 9)$$"
+      "title": "Use point slope form",
+      "content": "The line has slope $-\\frac{4}{3}$ and passes through $(-9,0)$.\n$$y-0=-\\frac{4}{3}(x-(-9))$$\n$$y=-\\frac{4}{3}(x+9)$$"
     },
     {
-      "title": "Find the y-intercept by setting x to 0",
-      "content": "The y-intercept is where the line crosses the y-axis, which occurs at $x = 0$. Substitute into our equation:<br/>$$y = -\\frac{4}{3}(0 + 9)$$<br/>$$y = -\\frac{4}{3} \\cdot 9$$<br/>$$y = -\\frac{36}{3}$$<br/>$$y = -12$$<br/>The y-coordinate of the y-intercept is <strong>-12</strong>."
+      "title": "Find the vertical intercept",
+      "content": "Set $x=0$ to find where the line crosses the vertical axis.\n$$y=-\\frac{4}{3}(0+9)$$\n$$y=-\\frac{36}{3}=-12$$\nThe answer is <strong>-12</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph for x-axis crossings",
-      "content": "$f(x)=0$ wherever the graph of $y=f(x)$ <strong>crosses the $x$-axis</strong>. From the form $f(x)=abx+c$ (a linear function in $x$), the curve is a straight line. Inspect the graph to count crossings."
+      "title": "Connect zeros to the graph",
+      "content": "The equation $f(x)=0$ is true at exactly the points where the graph of $y=f(x)$ intersects the $x$-axis."
     },
     {
-      "title": "Match the count",
-      "content": "The line shown does <strong>not</strong> intersect the $x$-axis at all (it stays entirely above or entirely below it). So $f(x)=0$ has <strong>zero</strong> solutions.<br/><br/><strong>D</strong> is correct."
+      "title": "Count the intersections",
+      "content": "From the graph, the curve does not intersect the $x$-axis. Therefore, there are $0$ values of $x$ for which $f(x)=0$. The answer is <strong>D</strong>."
     }
   ]
 }

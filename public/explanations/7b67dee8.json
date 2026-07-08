@@ -1,0 +1,19 @@
+{
+  "questionId": "7b67dee8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the rule change",
+      "content": "The earlier CE rule blocked categorical exclusions for actions that had significant effects either individually or cumulatively. The revised 2020 rule focused on actions that normally do not have a significant effect. The important change is the loss of explicit attention to cumulative effects across multiple actions."
+    },
+    {
+      "title": "Identify the risk",
+      "content": "Environmentalists would be concerned if agencies could approve quick reviews for projects that look minor one by one but become harmful when grouped together. That concern follows directly from changing a rule that considered cumulative impact into one that asks whether an action normally has a significant environmental effect."
+    },
+    {
+      "title": "Reject reversed choices",
+      "content": "Choice A invents a highway-building incentive not stated in the text. Choice B says more exclusions would result in more reviews and a slower process, which reverses the purpose of CEs. Choice C reverses the timeline by claiming the old rule allowed expedited reviews for significant rare effects. Choice D captures the cumulative-effect concern. The answer is <strong>D</strong>."
+    }
+  ]
+}

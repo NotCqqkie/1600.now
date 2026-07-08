@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the function of the underlined sentence: &quot;However, many of the fossil studies have relied on incomplete data sets.&quot; The skill is rhetorical purpose. The decisive clue is the word &quot;However,&quot; which signals a limitation being introduced after fossil studies were described as pointing to a different conclusion than genetic studies."
+      "title": "Read the limitation",
+      "content": "The underlined sentence says many fossil studies relied on incomplete data sets. It follows a contrast between genetic studies and fossil studies, then prepares for a larger 2022 fossil investigation that uses more than 1,000 fossils."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; It offers an overview of the tools scientists use to examine fossils.</strong>: The sentence mentions data sets, not tools or techniques used in fossil examination. &#10007;</li><li><strong>Choice B &mdash; It describes a limitation of some studies about the origin of turtles.</strong>: The sentence says fossil studies &quot;relied on incomplete data sets,&quot; which is a direct statement of their limitation regarding turtle origins. &#10003;</li><li><strong>Choice C &mdash; It summarizes previous research on the evolution of crocodiles.</strong>: The sentence says nothing about crocodiles; it addresses data quality in fossil studies. &#10007;</li><li><strong>Choice D &mdash; It criticizes a widely held belief about genetic studies of reptiles.</strong>: The sentence targets fossil studies, not genetic studies, and does not characterize any belief as widely held. &#10007;</li></ul>That matches <strong>Choice B &mdash; It describes a limitation of some studies about the origin of turtles.</strong>."
+      "title": "Rule out misread purposes",
+      "content": "A says the sentence overviews tools, but it discusses data quality. C shifts to crocodile evolution, which is not the focus. D targets genetic studies, while the sentence specifically limits fossil studies. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the one-solution condition",
-      "content": "A quadratic has exactly one real solution when its graph just touches the x-axis at the vertex. For $y=-4x^2+24x+c$, the vertex occurs at:<br/>$$x=\\frac{-24}{2(-4)}=3$$"
+      "title": "Use the discriminant condition",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For<br/>$$-4x^2+24x+c=0$$<br/>the values are $a=-4$, $b=24$, and constant term $c$."
     },
     {
-      "title": "Set the vertex height to zero",
-      "content": "Substitute $x=3$ and set $y=0$:<br/>$$-4\\left(3\\right)^2+24\\left(3\\right)+c=0$$<br/>$$-36+72+c=0$$<br/>$$c=-36$$<br/>That matches <strong>Choice C &mdash; $-36$</strong>."
+      "title": "Set the discriminant to zero",
+      "content": "Apply $b^2-4ac=0$.<br/>$$24^2-4(-4)c=0$$<br/>$$576+16c=0$$<br/>$$16c=-576$$<br/>$$c=-36$$"
+    },
+    {
+      "title": "Match the constant",
+      "content": "The needed value of $c$ matches choice C. The answer is <strong>C</strong>."
     }
   ]
 }

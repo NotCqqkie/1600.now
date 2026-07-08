@@ -1,0 +1,15 @@
+{
+  "questionId": "d7ebfd22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to specific",
+      "content": "The first sentence says Marisol Vega draws on a variety of Mexican musical genres. The next sentence names corridos, rancheras, and other northern Mexican genres, so the transition should introduce specific examples."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice B signals a result, but the genre list is not caused by the first sentence. Choice C signals a conclusion, though the passage is elaborating. Choice D signals correction or contrast, but the second sentence supports the first. The answer is <strong>A</strong>."
+    }
+  ]
+}

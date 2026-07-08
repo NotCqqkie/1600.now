@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The phrase &quot;a fictionalized account of the lives of the Mirabal [blank]&quot; is a supplementary (appositive) element describing the novel <em>In the Time of the Butterflies</em>. A comma already opens it after &quot;Butterflies,&quot; so the blank must close the element with a matching comma before the main clause &quot;can serve&hellip;&quot;"
+      "title": "Find the appositive boundary",
+      "content": "The phrase <em>a fictionalized account of the lives of the Mirabal sisters</em> describes the novel and is supplementary. The comma after the title opens that descriptive phrase, so another comma is needed after <em>sisters</em> before the main verb phrase continues."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Evaluate all four choices:<ul><li><strong>Choice A &mdash; sisters, and</strong>: the conjunction &quot;and&quot; has nothing parallel to connect here &mdash; it creates a grammatical mismatch with the supplementary element structure. &#10007;</li><li><strong>Choice B &mdash; sisters and</strong>: lacks the closing comma entirely and adds an unnecessary conjunction, leaving the supplementary element unenclosed. &#10007;</li><li><strong>Choice C &mdash; sisters,</strong>: the comma pairs with the comma after &quot;Butterflies,&quot; correctly enclosing the supplementary element and separating it from the main clause. &#10003;</li><li><strong>Choice D &mdash; sisters</strong>: omits the closing comma, so the supplementary element runs into the main clause without proper punctuation. &#10007;</li></ul>That is the correct answer."
+      "title": "Close the description",
+      "content": "Choice A adds an unnecessary <em>and</em>. Choice B also adds <em>and</em> while failing to close the supplementary phrase. Choice D leaves the descriptive phrase running into <em>can serve</em> without punctuation. A comma after <em>sisters</em> closes the description cleanly. The answer is <strong>C</strong>."
     }
   ]
 }

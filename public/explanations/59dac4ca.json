@@ -1,0 +1,15 @@
+{
+  "questionId": "59dac4ca",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary angles",
+      "content": "Angles $U$ and $V$ add to $90$ degrees, so they are complementary. The sine of one acute angle equals the cosine of its complement."
+    },
+    {
+      "title": "Apply the identity",
+      "content": "Use the cofunction relationship.\n$$\n\\sin(U)=\\cos(V)\n$$\nSince\n$$\n\\sin(U)=\\frac{6\\sqrt{2}}{11}\n$$\nit follows that\n$$\n\\cos(V)=\\frac{6\\sqrt{2}}{11}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "06a12ce1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the time span",
+      "content": "The equation represents the population after $10$ years, from January $1$, $2005$ to January $1$, $2015$. The starting population is $31{,}480$, and the ending population is $32{,}210$. The added term $10x$ must represent the total increase over those $10$ years."
+    },
+    {
+      "title": "Connect the multiplier",
+      "content": "Because $x$ is multiplied by $10$ years, $x$ represents the amount of increase for one year, not the total increase. The equation would give\n\n$$10x=32{,}210-31{,}480$$\n\nso $x$ is the total change divided evenly across the years. That means $x$ is the average yearly increase in the town population.\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

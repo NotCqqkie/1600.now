@@ -1,0 +1,15 @@
+{
+  "questionId": "d58654ed",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the data relationship",
+      "content": "The assertion links warmer collection months to longer life span. Because wing centroid size is used as a proxy for body size and correlates with life span, the needed data must connect a warmer month with a larger wing measurement."
+    },
+    {
+      "title": "Use the month comparison",
+      "content": "Choice A compares sexes, not month temperatures. Choice C points to a larger female wing size in September than July, which does not support the warmer-month pattern. Choice D gives temperature only, without wing size. The useful comparison shows male wing size larger in July than in October. The answer is <strong>B</strong>."
+    }
+  ]
+}

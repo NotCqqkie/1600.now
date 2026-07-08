@@ -1,0 +1,15 @@
+{
+  "questionId": "27ccee3d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare study demands",
+      "content": "The passage contrasts a simple fitness study with HILDA, which follows data for 25,000 people to find economic well-being trends that take a long time to develop."
+    },
+    {
+      "title": "Explain the funding need",
+      "content": "Such a longitudinal study costs more because long-term economic trends require data collected over many years. B and C shift to fitness studies, and D speculates that the sample size may be insufficient, which the passage does not claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

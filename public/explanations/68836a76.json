@@ -1,0 +1,19 @@
+{
+  "questionId": "68836a76",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the circle",
+      "content": "Compare the equation with the standard circle form.<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>For $(x+5)^2+(y-14)^2=144$, the center is $(-5,14)$ and the radius is $12$."
+    },
+    {
+      "title": "Find possible x-values",
+      "content": "The $x$-coordinate of any point on the circle must be within $12$ units of the center's $x$-coordinate.<br/>$$-5-12\\le a\\le -5+12$$<br/>$$-17\\le a\\le 7$$"
+    },
+    {
+      "title": "Test the choices",
+      "content": "Choice A is less than $-17$, while choices C and D are greater than $7$. The only listed value in the possible range is $-12$. The answer is <strong>B</strong>."
+    }
+  ]
+}

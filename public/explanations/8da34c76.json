@@ -1,0 +1,15 @@
+{
+  "questionId": "8da34c76",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The equation is in vertex form $y=a(x-h)^2+k$. For $y=-4.7(x-8.3)^2+9{,}800$, the vertex is $(8.3,9{,}800)$."
+    },
+    {
+      "title": "Interpret the maximum",
+      "content": "Because $a=-4.7$ is negative, the parabola opens downward, so the vertex is the maximum. The plane reaches a maximum height of $9{,}800$ meters at $8.3$ seconds. The answer is <strong>B</strong>."
+    }
+  ]
+}

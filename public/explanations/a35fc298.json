@@ -1,0 +1,19 @@
+{
+  "questionId": "a35fc298",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original y-intercept",
+      "content": "Set $x=0$ in the original equation: $$7(0)+8y=17.$$ Then $$8y=17,$$ so $$y=\\frac{17}{8}.$$"
+    },
+    {
+      "title": "Apply the vertical shift",
+      "content": "Shifting a graph up $5$ units adds $5$ to every $y$-value, including the $y$-intercept. The new intercept is $$\\frac{17}{8}+5=\\frac{17}{8}+\\frac{40}{8}=\\frac{57}{8}.$$"
+    },
+    {
+      "title": "Confirm the choice",
+      "content": "The resulting graph has $y$-intercept $(0,\\frac{57}{8})$, which matches <strong>Choice A — (0, $\\frac{57}{8}$)</strong>."
+    }
+  ]
+}

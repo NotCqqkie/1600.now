@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the punctuation structure",
-      "content": "An em-dash after &ldquo;photographs&rdquo; opens a supplementary element explaining what was photographed. That opening em-dash requires a closing em-dash to bracket the parenthetical and separate it from &ldquo;to powerful effect in her exhibition.&rdquo; A comma may also appear inside the em-dashes to separate sub-elements of the supplement."
+      "title": "Close the dash pair",
+      "content": "The dash after photographs opens a supplementary phrase explaining what Calle photographed. That inserted phrase must be closed before the main sentence continues with to powerful effect in her exhibition."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;described, from hair to grass to sculptures&rsquo;</strong>: No closing em-dash &mdash; leaves the parenthetical opened by the dash after &ldquo;photographs&rdquo; unclosed. Violates paired-dash rule. &#10007;</li><li><strong>Choice B &mdash; &lsquo;described, from hair to grass to sculptures—&rsquo;</strong>: Comma separates the two sub-elements inside the parenthetical; closing em-dash pairs with the opening em-dash after &ldquo;photographs.&rdquo; Correct. &#10003;</li><li><strong>Choice C &mdash; &lsquo;described—from hair to grass to sculptures,&rsquo;</strong>: Places a dash between the two supplementary sub-elements instead of a comma, then ends with a comma instead of a closing em-dash &mdash; mismatches the opening em-dash. Violates paired-dash rule. &#10007;</li><li><strong>Choice D &mdash; &lsquo;described: from hair to grass to sculptures&rsquo;</strong>: A colon must follow an independent clause; &ldquo;items they described&rdquo; ends a relative clause, not an independent clause. Also omits the closing em-dash. Violates colon rule and paired-dash rule. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject broken punctuation",
+      "content": "Choice A never closes the dash pair. Choice C uses a dash inside the supplement and then a comma where the closing dash is needed. Choice D uses a colon after a non-independent clause and still leaves the dash unclosed. The answer is <strong>B</strong>."
     }
   ]
 }

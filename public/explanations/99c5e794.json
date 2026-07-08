@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the 3% annual increase",
-      "content": "The initial population is $18{,}000$, so the coefficient should be $18{,}000$. A $3\\%$ yearly increase means each year is multiplied by $1+0.03=1.03$."
+      "title": "Identify the initial value",
+      "content": "The model starts with the population in $2008$, so the initial value is $18{,}000$."
     },
     {
-      "title": "Build the exponential model",
-      "content": "After $x$ years, the factor $1.03$ is applied $x$ times:<br/>$$p=18{,}000(1.03)^x$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "The equations $p=0.97{ \\left(18,000\\right)}^{x}$ and $p=1.03{ \\left(18,000\\right)}^{x}$ put $18{,}000$ in the exponential base and misuse the initial population. The equation $p=18,000{ \\left(0.97\\right)}^{x}$ uses $0.97$, which would be a decrease. The model $p=18,000{ \\left(1.03\\right)}^{x}$ is correct, so <strong>D</strong> is the answer."
+      "title": "Use the growth factor",
+      "content": "A yearly increase of $3\\%$ means the population is multiplied by\n$$1+0.03=1.03$$\nAfter $x$ years, the model is\n$$p=18{,}000(1.03)^x$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

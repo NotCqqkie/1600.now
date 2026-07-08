@@ -18,7 +18,7 @@
     },
     {
       "title": "Calculate the perimeter",
-      "content": "Sum all three sides:<br/>$$P = 31\\sqrt{2} + 31\\sqrt{2} + 62 = 62\\sqrt{2} + 62 = 62 + 62\\sqrt{2}$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "content": "Sum all three sides:<br/>$$P = 31\\sqrt{2} + 31\\sqrt{2} + 62 = 62\\sqrt{2} + 62 = 62 + 62\\sqrt{2}$$<br/>That matches the correct answer."
     }
   ]
 }

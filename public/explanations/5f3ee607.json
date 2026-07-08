@@ -4,22 +4,18 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the signs",
-      "content": "The scatterplot trends downward from left to right, so the slope should be negative. The trend is above the origin near the $y$-axis, so the $y$-intercept should be positive."
+      "title": "Read the trend",
+      "content": "The points trend downward from left to right, so the linear model should have a negative slope. The trend is above the origin near the $y$-axis, so the $y$-intercept should be positive."
     },
     {
-      "title": "Graph the choices in Desmos",
-      "content": "Overlay the four answer-choice lines on the scatterplot in Desmos. Only $y=-1.9x+10.1$ has both the negative slope and positive intercept that match the data.",
+      "title": "Calculator shortcut",
+      "content": "Graph the four answer-choice lines over the scatterplot. The matching model is the one with a negative slope and a positive $y$-intercept. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=-1.9x-10.1",
         "y=-1.9x+10.1",
         "y=1.9x-10.1",
         "y=1.9x+10.1"
       ]
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The most appropriate linear model is $y=-1.9x+10.1$, which matches <strong>B</strong>."
     }
   ]
 }

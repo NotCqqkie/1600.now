@@ -1,0 +1,15 @@
+{
+  "questionId": "511f8e5f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define a useful proxy",
+      "content": "The hypothesis depends on <em>A. aquaticus</em> serving as a reliable proxy for <em>P. perezi</em>. That requires WC-NP uptake in the invertebrate to predict uptake in the vertebrate."
+    },
+    {
+      "title": "Break the proxy link",
+      "content": "The matching finding weakens the hypothesis because different, poorly understood uptake rates would make the proxy unreliable. Choice A suggests less harmful testing, Choice C concerns other nanoparticles, and Choice D shows consistency that would support proxy use. The answer is <strong>B</strong>."
+    }
+  ]
+}

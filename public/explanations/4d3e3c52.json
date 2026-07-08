@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key evidence about conventional fabrication",
-      "content": "The passage states that conventional ETL fabrication loses up to 80% of solution, explicitly increasing the cost of manufacturing at scale. This is the central problem the researchers are trying to solve with spray coating. Look for the choice that captures this limitation of conventional methods for large-volume production.<ul><li><strong>Choice A — It is less suitable for manufacturing large volumes of planar p-i-n perovskite solar cells than an alternative fabrication method may be.</strong>: Directly addresses the scale problem &mdash; conventional fabrication is less suitable for large-volume manufacturing than spray coating. &#10003;</li><li><strong>Choice B — It is more expensive when manufacturing at scale than are processes for fabricating ETLs used in other perovskite solar cell architectures.</strong>: Compares conventional to other perovskite architectures, not to spray coating specifically. The passage does not support a cross-architecture cost comparison. &#10007;</li><li><strong>Choice C — It typically entails a greater loss of nanoparticle solution than do other established approaches for ETL fabrication.</strong>: Compares conventional ETL fabrication to other established approaches, but the passage describes only one conventional method and does not support that comparison. &#10007;</li><li><strong>Choice D — It is somewhat imprecise and therefore limits the potential effectiveness of p-i-n planar perovskite solar cells at capturing and storing solar power.</strong>: Introduces unsupported claims about cell effectiveness; the passage focuses on manufacturing cost, not effectiveness at capturing solar power. &#10007;</li></ul>"
+      "title": "Focus on manufacturing scale",
+      "content": "The passage says conventional ETL fabrication can waste up to 80 percent of the nanoparticle solution, increasing manufacturing cost at scale. Spray coating is presented as a practical alternative that may avoid this problem. The inference should be about conventional fabrication being less suitable for large-scale production."
     },
     {
-      "title": "Confirm the match and eliminate",
-      "content": "Only the matching choice accurately captures the passage&rsquo;s claim: conventional fabrication is inferior to spray coating for large-scale manufacturing. The other choices either compare the wrong things or introduce ideas not found in the passage. <strong>A</strong> is correct."
+      "title": "Reject unsupported comparisons",
+      "content": "Choice B compares ETLs across different perovskite architectures, which the passage does not do. Choice C compares conventional fabrication with other established ETL methods, also unsupported. Choice D shifts from manufacturing cost to solar-power effectiveness. Only the scale problem follows from the described waste. The answer is <strong>A</strong>."
     }
   ]
 }

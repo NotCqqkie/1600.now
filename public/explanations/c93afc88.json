@@ -1,0 +1,19 @@
+{
+  "questionId": "c93afc88",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the main focus",
+      "content": "The question asks for the main idea of the passage, so the explanation needs to cover the whole text. The passage describes a large community science study that investigated how butterfly color and weather conditions relate to butterfly behavior. It also reports findings about color, size, weather, and flower preference."
+    },
+    {
+      "title": "Eliminate unsupported summaries",
+      "content": "Choice A focuses on collaboration between professional scientists and the public, but the passage uses that as background for the study rather than as the main claim. Choice B says coloring is less relevant than weather, but the passage compares color with butterfly size, not with weather. Choice C introduces study location, which the passage never discusses."
+    },
+    {
+      "title": "Choose the broad summary",
+      "content": "The remaining summary captures the large study, the role of butterfly color, the role of weather conditions, and the appropriately cautious idea that these factors might influence behavior. It does not add a stronger claim than the passage supports. The answer is <strong>D</strong>."
+    }
+  ]
+}

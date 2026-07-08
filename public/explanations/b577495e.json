@@ -1,0 +1,15 @@
+{
+  "questionId": "b577495e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the restoration signal",
+      "content": "The Apollo data had been stored on outdated technologies, and the project is making those data available again. The blank must describe restoring the data's usefulness so they can be used to study long-term effects on the Moon."
+    },
+    {
+      "title": "Reject mismatched actions",
+      "content": "B suggests continuing, not restoring availability. C suggests surpassing usefulness, which the sentence does not claim. D means putting something in place, which does not fit the data-transfer context. The remaining word captures making old data useful again. The answer is <strong>A</strong>."
+    }
+  ]
+}

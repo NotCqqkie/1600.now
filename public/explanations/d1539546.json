@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key pattern in the passage",
-      "content": "The passage describes two opposite outcomes of crab burrowing: in marsh interiors (pannes), burrowing improves drainage and marsh plants recover &#10003; good outcome. At marsh edges, burrowing accelerates erosion and causes marsh loss &#10007; bad outcome. The blank asks what the burrowing action of crabs &ldquo;suggests.&rdquo; The right answer must capture this location-dependent reversal."
+      "title": "Track the location effect",
+      "content": "The passage gives two opposite effects of crab burrowing. In interior salt pannes, burrowing loosens soil, improves drainage, and helps plants move back in as the pannes shrink. At marsh edges, the same kind of soil loosening can accelerate erosion and promote marsh loss. The key variable is location."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; can be beneficial to marshes with small pannes but can be harmful to marshes with large pannes.</strong>: &#10007; The passage never mentions panne size as a factor &mdash; the distinction is location (interior vs. edge), not size.</li><li><strong>Choice B &mdash; may promote increases in marsh plants or decreases in marsh plants, depending on the crabs' location.</strong>: &#10003; Directly maps interior burrowing (plant increases) to edge burrowing (plant decreases), capturing the location-based contrast.</li><li><strong>Choice C &mdash; tends to be more heavily concentrated in areas of marsh interiors with standing water than at marsh edges.</strong>: &#10007; The passage compares the <em>effects</em> of burrowing in two locations, not the <em>frequency</em> or concentration of burrowing.</li><li><strong>Choice D &mdash; varies in intensity depending on the size of the panne relative to the size of the surrounding marsh.</strong>: &#10007; The passage never discusses burrowing intensity or compares panne size to marsh size.</li></ul>That is the correct answer."
+      "title": "Reject wrong variables",
+      "content": "Choice A makes panne size the issue, but the passage contrasts interior pannes with marsh edges. Choice C discusses where burrowing is concentrated, not what burrowing does. Choice D invents a link between burrowing intensity and relative panne size. Choice B captures the location-based contrast between plant increases and plant decreases. The answer is <strong>B</strong>."
     }
   ]
 }

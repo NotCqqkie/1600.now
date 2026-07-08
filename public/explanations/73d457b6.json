@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the claim and its foundation",
-      "content": "The archaeologist claims the notches were <em>&quot;made at one time by one individual as a means of counting something.&quot;</em> This claim rests on the pattern — unevenly spaced, approximately parallel notches made with a single tool — being distinctive of numerical recording. To weaken the claim, a finding must show that this pattern <strong>does not uniquely indicate counting</strong>, i.e., it appears in non-numerical contexts too."
+      "title": "Identify the weak point",
+      "content": "The underlined claim says the nine notches were probably made by one individual at one time as a way of counting something. That claim depends on treating unevenly spaced, approximately parallel notches made with a single stone tool as evidence of numerical recording."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Parallel lines are a common feature in modern humans' early systems for recording numerical information.&rsquo;</strong>: actually supports the claim by linking parallel lines to counting systems. &#10003; for the wrong reason — this strengthens, not weakens. &#10007;</li><li><strong>Choice B &mdash; &lsquo;More than nine approximately parallel notches made with a different stone tool are present on another artifact found at a site in western France.&rsquo;</strong>: a different tool on a different artifact tells us nothing about whether either artifact was used for counting. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It would have taken careful effort to make evenly spaced lines on bone with the stone tools typically used by Neanderthals.&rsquo;</strong>: addresses effort to make <em>evenly</em> spaced lines, not the significance of <em>uneven</em> spacing on this bone — irrelevant to the counting claim. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Decorative art discovered at another Neanderthal site in western France primarily features patterns of unevenly spaced parallel lines.&rsquo;</strong>: shows that the same pattern — unevenly spaced parallel lines — appears in purely <em>decorative</em> contexts, meaning the pattern does not uniquely signal counting and the bone could be decorative rather than numerical. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Look for another purpose",
+      "content": "A weakening finding should show that the same pattern could plausibly mean something other than counting. If unevenly spaced parallel lines also appear in decorative Neanderthal art, then the pattern on the hyena bone would not uniquely point to recorded numerical information."
+    },
+    {
+      "title": "Test each choice",
+      "content": "Choice A connects parallel lines to modern humans' number systems, so it would not weaken the counting interpretation. Choice B mentions another artifact with notches but gives no purpose for those marks. Choice C discusses the difficulty of making evenly spaced lines, while this artifact has uneven spacing. Choice D gives a non-numerical use for the same kind of pattern: decoration. The answer is <strong>D</strong>."
     }
   ]
 }

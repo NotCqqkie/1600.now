@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the matching condition",
-      "content": "A linear equation in one variable has infinitely many solutions only when, after distributing and combining like terms, the coefficient of the variable on the left equals that on the right AND the constant terms on each side are equal. Both conditions must hold simultaneously, giving two equations in the two unknowns $a$ and $b$."
+      "title": "Distribute the left side",
+      "content": "For infinitely many solutions, both sides must simplify to the same expression. Start by distributing the left side.<br/>$$a(4-x)-b=4a-ax-b$$"
     },
     {
-      "title": "Solve for a and b",
-      "content": "Applying the coefficient-match equation determines $a = 3$, and substituting that into the constant-match equation determines $b = 14$. The pair $(a, b) = (3, 14)$ matches <strong>Choice B &mdash; &lsquo;$a = 3$ and $b = 14$&rsquo;</strong>."
+      "title": "Match the x coefficient",
+      "content": "Compare $4a-ax-b$ with $-2-3x$. The coefficient of $x$ on the left is $-a$, and the coefficient of $x$ on the right is $-3$.<br/>$$-a=-3$$<br/>$$a=3$$"
+    },
+    {
+      "title": "Match the constant term",
+      "content": "Now match the constant terms using $a=3$.<br/>$$4a-b=-2$$<br/>$$4(3)-b=-2$$<br/>$$12-b=-2$$<br/>$$b=14$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

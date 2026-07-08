@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the decisive contrast",
-      "content": "The passage states that neutron merger bursts <em>typically</em> last fewer than 2 seconds, then immediately notes that GRB 230307A lasted 200 seconds. That sharp contrast signals the blank must describe the burst&rsquo;s duration as something unusual or unexpected."
+      "title": "Compare the durations",
+      "content": "GRB 230307A lasted 200 seconds, while bursts from neutron mergers usually last fewer than 2 seconds. The blank must describe the 200-second burst as highly unusual for that type of event."
     },
     {
-      "title": "Eliminate wrong words and confirm the answer",
-      "content": "Test each choice against the need for &ldquo;something unusual&rdquo;:\n<ul>\n<li><strong>\"a coincidence\"</strong>: means a point of correspondence or accidental similarity &mdash; the passage emphasizes difference, not similarity. &#10007;</li>\n<li><strong>\"a reprieve\"</strong>: means temporary relief or a delay of punishment &mdash; a duration of time cannot be a reprieve. &#10007;</li>\n<li><strong>\"an incident\"</strong>: means something that occurred &mdash; it fits the burst itself but not its <em>duration</em>, and carries no sense of strangeness. &#10007;</li>\n<li><strong>\"an oddity\"</strong>: means something odd or unusual &mdash; a 200-second duration is dramatically unusual compared to the sub-2-second norm. &#10003;</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate weak nouns",
+      "content": "A suggests accidental similarity, but the point is a sharp difference. B means temporary relief, and C simply means something that occurred; neither captures unusualness. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the saving relationship",
-      "content": "Hannah saves $\\frac{1}{5}h$ and Wyatt saves $\\frac{2}{7}w$. Together they save \\$3,270 each month:<br/>$$\\frac{h}{5}+\\frac{2w}{7}=3{,}270$$"
+      "title": "Write the savings total",
+      "content": "Hannah saves $\\frac{h}{5}$, and Wyatt saves $\\frac{2w}{7}$. Together, they save $3{,}270$.\n$$\n\\frac{h}{5}+\\frac{2w}{7}=3{,}270\n$$"
     },
     {
-      "title": "Clear the fractions",
-      "content": "Multiply both sides by the common denominator $35$:<br/>$$7h+10w=35\\cdot 3{,}270=114{,}450$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Clear the denominators",
+      "content": "Multiply every term by $35$.\n$$\n7h+10w=35(3{,}270)=114{,}450\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

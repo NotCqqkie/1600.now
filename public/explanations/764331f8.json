@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Text Structure/Function question asking what the underlined sentence does in context. The key is that it immediately follows &ldquo;Day by day, Dot grew stronger&rdquo; &mdash; so the underlined sentence must support or illustrate that claim."
+      "title": "Use the previous sentence",
+      "content": "The underlined sentence follows the statement that Dot grew stronger day by day. It then shows Dot exercising in her stroller and bouncing for hours to develop her leg muscles."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It offers a detail that shows how Dot is growing stronger.&rsquo;</strong>: Dot bouncing for hours in her stroller to develop her leg muscles is a specific physical detail that directly illustrates the previous sentence&rsquo;s claim that she is growing stronger. &#10003;</li><li><strong>Choice B &mdash; &lsquo;It expresses hope that Celestine will mature psychologically.&rsquo;</strong>: The underlined sentence is about Dot&rsquo;s physical activity, not about Celestine at all &mdash; Celestine is not mentioned in it. &#10007;</li><li><strong>Choice C &mdash; &lsquo;It explores some of the narrator's psychological characteristics.&rsquo;</strong>: The underlined sentence describes Dot&rsquo;s behavior in her stroller; the narrator does not appear in it. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It indicates how sad Celestine is by describing a behavior she engages in.&rsquo;</strong>: Dot, not Celestine, is doing the bouncing. The sentence says nothing about Celestine&rsquo;s sadness. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject wrong subjects",
+      "content": "Choice B is about Celestine's psychological maturity, which the underlined sentence does not discuss. Choice C is about the narrator, not Dot. Choice D incorrectly says the behavior belongs to Celestine. The answer is <strong>A</strong>."
     }
   ]
 }

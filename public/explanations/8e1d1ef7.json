@@ -1,0 +1,19 @@
+{
+  "questionId": "8e1d1ef7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the required pattern",
+      "content": "The researchers concluded that only one of the three countries has more damaging insect species than damaging fungus species. The right choice must identify the one country with more insects and also show that the other two countries have more fungi."
+    },
+    {
+      "title": "Check the country comparisons",
+      "content": "Choice A reverses Bulgaria's pattern by saying it has 16 fungus species and only 9 insect species. Choice B only compares fungus counts across countries, so it does not address insects versus fungi within each country. Choice D gives isolated figures for Great Britain and Belgium without establishing the needed pattern."
+    },
+    {
+      "title": "Use the matching data",
+      "content": "The remaining choice states that Bulgaria reported 14 damaging fungus species and 16 damaging insect species, while Great Britain and Belgium each reported more fungi than insects. That is the exact only-one-country pattern the conclusion requires. The answer is <strong>C</strong>."
+    }
+  ]
+}

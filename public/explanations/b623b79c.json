@@ -1,0 +1,22 @@
+{
+  "questionId": "b623b79c",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Expand and move all terms to one side.<br/>$$x(x-15)=34$$<br/>$$x^2-15x-34=0$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Find two numbers with product $-34$ and sum $-15$.<br/>$$x^2-15x-34=(x-17)(x+2)$$<br/>So the solutions are $x=17$ and $x=-2$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "A calculator can solve the entered equation $x(x-15)=34$ directly. The positive solution is the value greater than $0$. The answer is <strong>17</strong>.",
+      "desmosExpressions": [
+        "x(x - 15) = 34"
+      ]
+    }
+  ]
+}

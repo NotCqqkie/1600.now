@@ -1,0 +1,15 @@
+{
+  "questionId": "90ed9c87",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex series",
+      "content": "The sentence lists key years: 1916, 1936, and 1943. Because the list items contain internal commas and explanatory clauses, semicolons are needed to separate the major items clearly."
+    },
+    {
+      "title": "Mark the final item",
+      "content": "B omits the needed separator, C creates a fragment after a period, and D uses only a comma. The second and third list items should be separated with a semicolon before <strong>and</strong>. The answer is <strong>A</strong>."
+    }
+  ]
+}

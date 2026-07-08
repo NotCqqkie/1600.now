@@ -1,0 +1,15 @@
+{
+  "questionId": "d032ae0e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each limit",
+      "content": "At least $35$ gives $x\\geq 35$. No more than $60$ gives $x\\leq 60$."
+    },
+    {
+      "title": "Combine the bounds",
+      "content": "Both conditions must hold:<br/>$$35\\leq x\\leq 60$$The answer is <strong>C</strong>."
+    }
+  ]
+}

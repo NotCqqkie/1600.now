@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the diameter endpoints",
-      "content": "The diameter endpoints are given directly, so find the diameter length first and then take half of it to get the radius."
+      "title": "Find the diameter length",
+      "content": "The diameter endpoints have the same $x$-coordinate, so the diameter is a vertical segment. Its length is\n$$\n17-5=12\n$$"
     },
     {
-      "title": "Calculate the diameter length",
-      "content": "The diameter endpoints are $(3, 5)$ and $(3, 17)$. Both points have the same $x$-coordinate, so this is a vertical segment. The length is: $$17 - 5 = 12$$"
-    },
-    {
-      "title": "Find the radius",
-      "content": "The radius is half the diameter: $$r = \\frac{12}{2} = 6$$"
+      "title": "Take half the diameter",
+      "content": "The radius is half the diameter:\n$$\nr=\\frac{12}{2}\n$$\nThe answer is <strong>6</strong>."
     }
   ]
 }

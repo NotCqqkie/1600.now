@@ -1,0 +1,15 @@
+{
+  "questionId": "34127060",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Double the wall area",
+      "content": "Painting the room twice means covering the wall area twice. Since the wall area is $w$, the total painted area is $2w$ square feet."
+    },
+    {
+      "title": "Use the coverage rate",
+      "content": "One gallon covers $80$ square feet, so divide the total painted area by $80$:\n$$\nP=\\frac{2w}{80}=\\frac{w}{40}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

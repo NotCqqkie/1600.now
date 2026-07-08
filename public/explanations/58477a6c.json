@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Test Equation I",
-      "content": "Multiply the given equation $4x + 7y = 8$ by 1.5: $6x + 10.5y = 12$. This is identical to Equation I, so both represent the same line and have infinitely many solutions. Equation I works."
+      "title": "Test equation I",
+      "content": "Multiply the given equation by $1.5$:<br/>$$1.5(4x+7y)=1.5(8)$$<br/>$$6x+10.5y=12$$<br/>Equation I is the same line, so it gives infinitely many solutions with the original equation."
     },
     {
-      "title": "Test Equation II",
-      "content": "For Equation II ($6x - 10.5y = 12$) to be the same line, we'd need a scalar $k$ where $4k=6$ and $7k=-10.5$. The first gives $k=1.5$, the second gives $k=-1.5$, which is a contradiction. So the lines are not parallel; they intersect at exactly one point. Equation II also works."
+      "title": "Test equation II",
+      "content": "For equation II, the coefficients are not proportional to the original equation's coefficients. The equations are different nonparallel lines, so they intersect in exactly one solution."
     },
     {
-      "title": "Conclusion",
-      "content": "Both Equation I and Equation II can be the second equation in a system with at least one solution.<br/><br/><strong>C</strong> is correct."
+      "title": "Choose all valid equations",
+      "content": "The system needs at least one solution. Equation I gives infinitely many solutions, and equation II gives exactly one solution.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

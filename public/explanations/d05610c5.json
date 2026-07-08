@@ -1,0 +1,15 @@
+{
+  "questionId": "d05610c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the collection size",
+      "content": "Green items are $20\\%$ of the collection, and there are $60$ green items. Let $T$ be the total number of items:\n$$\n0.20T=60\n$$\n$$\nT=300\n$$"
+    },
+    {
+      "title": "Find the blue items",
+      "content": "Blue items are $35\\%$ of the collection, so\n$$\n0.35\\cdot 300=105\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

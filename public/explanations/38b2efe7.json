@@ -1,0 +1,19 @@
+{
+  "questionId": "38b2efe7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the discoveries",
+      "content": "The goal is to compare Caldwell's discovery with Halpern's. Caldwell discovered mobile DNA segments that can change position in a genome. Halpern discovered how phage DNA enters a bacterial host cell and becomes part of the host genome. The comparison should connect those two forms of DNA movement."
+    },
+    {
+      "title": "Remove mismatched claims",
+      "content": "Choice B reverses the discoveries, assigning phage DNA to Caldwell and mobile genome segments to Halpern. Choice C incorrectly makes both discoveries about phage DNA and the lysogenic cycle. Choice D wrongly says Halpern explained how transposable elements move."
+    },
+    {
+      "title": "Choose the shared feature",
+      "content": "The remaining choice accurately says Caldwell's work involved moving DNA segments and Halpern's work involved phage DNA entering and incorporating into a host cell's genome. The answer is <strong>A</strong>."
+    }
+  ]
+}

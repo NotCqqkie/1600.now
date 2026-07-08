@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection",
-      "content": "For a graphed system, the solution is where the two lines cross."
+      "title": "Find the intersection",
+      "content": "For a graphed system of linear equations, the solution is the point where the two lines cross."
     },
     {
-      "title": "Write the ordered pair",
-      "content": "The graph shows the intersection at $x=4$ and $y=-5$, so the solution is $(4,-5)$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The result is correct. The other choices are other visible coordinates, but they are not the point where both lines intersect."
+      "title": "Read the ordered pair",
+      "content": "The lines intersect at $(4,-5)$, so that ordered pair is the solution. The answer is <strong>A</strong>."
     }
   ]
 }

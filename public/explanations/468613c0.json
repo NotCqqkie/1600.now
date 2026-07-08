@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: organize the dimensions first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Apply the triangle area formula",
-      "content": "Substitute base = 48 cm and height = 96 cm into the triangle area formula:<br/>$$A = \\frac{1}{2} \\times 48 \\times 96$$",
+      "title": "Use the triangle formula",
+      "content": "A triangle's area is one-half the product of its base and height.",
       "formula": "$$A = \\frac{1}{2}bh$$"
     },
     {
-      "title": "Simplify and compute",
-      "content": "Observe that $\\frac{96}{2} = 48$:<br/>$$A = 48 \\times 48 = 2,304$$<br/><strong>C</strong> is correct."
+      "title": "Multiply the dimensions",
+      "content": "Substitute the base $48$ and height $96$.\n$$\nA=\\frac{1}{2}(48)(96)=48\\cdot 48=2{,}304\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

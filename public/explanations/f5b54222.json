@@ -1,0 +1,15 @@
+{
+  "questionId": "f5b54222",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared feature",
+      "content": "The student wants a similarity between the two sculptures. The notes say <em>Recognition</em> shows figures reaching out to symbolize a supportive relationship, and <em>Students Aspire</em> shows figures embracing to symbolize support in pursuing equality."
+    },
+    {
+      "title": "Reject one-sided details",
+      "content": "<ul><li><strong>Choice A</strong>: It discusses only <em>Students Aspire</em>, so it does not compare both sculptures.</li><li><strong>Choice C</strong>: The dates do not emphasize a similarity in the sculptures' content.</li><li><strong>Choice D</strong>: It contrasts different facial features instead of emphasizing the shared supportive symbolism.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

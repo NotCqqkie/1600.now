@@ -1,0 +1,23 @@
+{
+  "questionId": "242590af",
+  "correctAnswer": "1890",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the area scale factor",
+      "content": "The surface area ratio from prism $X$ to prism $Y$ is\n$$\n\\frac{1{,}200}{48}=25\n$$\nSurface area scales by the square of the linear scale factor."
+    },
+    {
+      "title": "Find the volume scale factor",
+      "content": "Since the surface area scale factor is $25$, the linear scale factor is $5$. Volumes scale by the cube of the linear factor:\n$$\n5^3=125\n$$"
+    },
+    {
+      "title": "Find prism X volume",
+      "content": "Prism $Y$ has $125$ times the volume of prism $X$, so\n$$\nV_X=\\frac{1{,}875}{125}=15\n$$"
+    },
+    {
+      "title": "Add the volumes",
+      "content": "The requested sum is\n$$\n15+1{,}875=1{,}890\n$$\nThe answer is <strong>1890</strong>."
+    }
+  ]
+}

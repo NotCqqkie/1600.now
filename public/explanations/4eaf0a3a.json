@@ -1,28 +1,19 @@
 {
-  "qid": "4eaf0a3a",
   "questionId": "4eaf0a3a",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${ \\left(xy\\right)}^{\\frac{8}{5}}$."
+      "title": "Rewrite the radical",
+      "content": "A fifth root is the same as raising to the power $\\frac{1}{5}$:\n$$\n\\sqrt[5]{x^8y^8}=(x^8y^8)^{\\frac{1}{5}}\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Rewrite the radical as a fractional exponent",
-      "content": "$$\\sqrt[5]{x^8y^8}=(x^8y^8)^{1/5}$$"
-    },
-    {
-      "title": "Factor the base",
-      "content": "$$x^8y^8=(xy)^8 \\implies (x^8y^8)^{1/5}=\\bigl((xy)^8\\bigr)^{1/5}$$"
+      "title": "Combine the factors",
+      "content": "Since $x$ and $y$ are positive, the factors can be grouped as a power of $xy$:\n$$\nx^8y^8=(xy)^8\n$$"
     },
     {
       "title": "Apply the power rule",
-      "content": "$$\\bigl((xy)^8\\bigr)^{1/5}=(xy)^{8\\cdot\\frac{1}{5}}=(xy)^{8/5}$$<br/>This matches choice B."
+      "content": "Use the rule for a power raised to another power:\n$$\n\\bigl((xy)^8\\bigr)^{\\frac{1}{5}}=(xy)^{\\frac{8}{5}}\n$$\nThe answer is <strong>B</strong>."
     }
-  ],
-  "section": "Math"
+  ]
 }

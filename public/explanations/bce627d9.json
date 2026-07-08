@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The decisive clue is the opening contrast: <em>Mineralogical differences are detectable in samples collected from two locations on the near-Earth asteroid Ryugu, but such differences may not indicate substantial compositional variations in the asteroid.</em> Observable local differences exist, yet they don't necessarily reveal asteroid-wide differences.<br/><br/>This paradox is resolved if the small-scale mineral distribution is not the same everywhere."
+      "title": "Resolve the sample difference",
+      "content": "The text says mineralogical differences between two small Ryugu samples may not indicate large compositional differences across the asteroid. That makes sense if minerals are not evenly distributed at the small scale."
     },
     {
-      "title": "Match the meaning",
-      "content": "“Uniform” means evenly or consistently distributed throughout.<br/><br/>If the distribution is unlikely to be uniform, the minerals are scattered inconsistently—which is why differences are detectable.<br/><br/>The other choices don't apply: “neglected” and “redundant” don't describe distributions, and “ongoing” suggests a process rather than a spatial pattern.<br/><br/>That is the correct answer."
+      "title": "Choose the distribution word",
+      "content": "Choice A means ignored, choice B means repetitive or unnecessary, and choice C means continuing. None describes an even spatial pattern. The remaining choice means consistent throughout, which is the distribution the scientists say is unlikely. The answer is <strong>D</strong>."
     }
   ]
 }

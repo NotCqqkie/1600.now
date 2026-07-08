@@ -1,0 +1,15 @@
+{
+  "questionId": "b2e92804",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one unit",
+      "content": "Let $u=5-6x$. Then the equation becomes simpler.<br/>$$10u+4=9u+22$$"
+    },
+    {
+      "title": "Solve for the unit",
+      "content": "Subtract $9u$ and subtract $4$. <br/>$$u=18$$<br/>Since $u=5-6x$, the requested value is $18$. The answer is <strong>D</strong>."
+    }
+  ]
+}

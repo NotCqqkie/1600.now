@@ -1,0 +1,23 @@
+{
+  "questionId": "30efa600",
+  "correctAnswer": "249",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use years after the start",
+      "content": "Let $t$ be years after $1995$. The first known value is $t=0$ with population $59$, and the second is $t=20$ with population $217$, measured in thousands."
+    },
+    {
+      "title": "Find the linear rate",
+      "content": "The slope is\n$$\n\\frac{217-59}{20-0}=\\frac{158}{20}=7.9\n$$\nSo the model is $y=7.9t+59$.",
+      "desmosExpressions": [
+        "y=7.9x+59",
+        "(24,248.6)"
+      ]
+    },
+    {
+      "title": "Predict for the final year",
+      "content": "For $2019$, $t=24$:\n$$\ny=7.9(24)+59=248.6\n$$\nRounded to the nearest whole number, this is $249$. The answer is <strong>249</strong>."
+    }
+  ]
+}

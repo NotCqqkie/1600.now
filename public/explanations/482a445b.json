@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, ${x}^{4}+17{x}^{2}+48$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
       "title": "Expand each part",
-      "content": "First, $$(x^2+8)^2=x^4+16x^2+64.$$ Also, $$(x-4)(x+4)=x^2-16$$ by difference of squares."
+      "content": "Square the binomial and multiply the difference of squares. The first part gives three terms, and the second part contributes another $x^2$ term and a constant:\n$$\n(x^2+8)^2=x^4+16x^2+64\n$$\n$$\n(x-4)(x+4)=x^2-16\n$$"
     },
     {
       "title": "Combine like terms",
-      "content": "Adding the two parts gives $$x^4+16x^2+64+x^2-16=x^4+17x^2+48.$$ This matches, so <strong>B</strong> is correct. The missing odd-power terms are expected because both parts create only even powers and constants."
+      "content": "Add the expanded expressions and combine the $x^2$ terms and constants:\n$$\nx^4+16x^2+64+x^2-16=x^4+17x^2+48\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

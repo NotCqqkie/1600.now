@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what to rearrange",
-      "content": "We're given the income formula $T = PQ$ and asked to solve for $Q$ in terms of $P$ and $T$. To isolate $Q$, we need to undo the multiplication by $P$."
+      "title": "Start with the income formula",
+      "content": "The formula is\n$$T=PQ$$\nThe question asks for $Q$, so undo the multiplication by $P$."
     },
     {
-      "title": "Divide both sides by P",
-      "content": "Starting with $T = PQ$, we divide both sides by $P$:<br/>$$\\frac{T}{P} = \\frac{PQ}{P}$$<br/>$$\\frac{T}{P} = Q$$<br/>Therefore, $Q = \\frac{T}{P}$. That confirms <strong>B</strong> is correct."
+      "title": "Divide by the ticket price",
+      "content": "Divide both sides by $P$.\n$$\\frac{T}{P}=\\frac{PQ}{P}$$\n$$\\frac{T}{P}=Q$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

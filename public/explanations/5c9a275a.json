@@ -1,0 +1,19 @@
+{
+  "questionId": "5c9a275a",
+  "correctAnswer": "95",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "List the solutions",
+      "content": "The equation is already factored:\n$$\nx^2(4x-17)(4x-u)=0\n$$\nThe solutions are\n$$\n0,\\quad \\frac{17}{4},\\quad \\frac{u}{4}\n$$"
+    },
+    {
+      "title": "Use the given sum",
+      "content": "The sum of the distinct solutions is $28$:\n$$\n0+\\frac{17}{4}+\\frac{u}{4}=28\n$$\n$$\n\\frac{17+u}{4}=28\n$$"
+    },
+    {
+      "title": "Solve for u",
+      "content": "Multiply by $4$ and subtract $17$:\n$$\n17+u=112\n$$\n$$\nu=95\n$$\nThe answer is <strong>95</strong>."
+    }
+  ]
+}

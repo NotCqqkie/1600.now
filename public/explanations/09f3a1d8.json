@@ -1,0 +1,15 @@
+{
+  "questionId": "09f3a1d8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two methods",
+      "content": "Road maps are described as not very accurate, while Rahman's program more accurately identified sidewalks and could even distinguish materials. The blank must describe better performance."
+    },
+    {
+      "title": "Choose the stronger word",
+      "content": "A is vague and awkward in the phrase, C contradicts the stated improvement, and D does not express a performance comparison. Superior fits because the program performed better than the road-map method. The answer is <strong>B</strong>."
+    }
+  ]
+}

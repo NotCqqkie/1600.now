@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries question. The blank falls between the parenthetical defining endophytic fungi and the phrase &quot;researching 120 endophytic fungi-produced compounds, she found...&quot; The challenge is marking the boundary between two independent clauses: one ending after the parenthetical, and one beginning with the prepositional phrase &quot;By researching...&quot;"
+      "title": "Separate the two sentences",
+      "content": "The first sentence ends after the parenthetical definition of endophytic fungi. The next idea begins with “By researching 120 endophytic fungi-produced compounds,” which introduces how Macías-Rubalcava reached her finding."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;plant). By&rsquo;</strong>: A period correctly ends the first sentence after the parenthetical, and &quot;By researching...&quot; begins a new sentence with a prepositional phrase modifying the subject &quot;she.&quot; This is a complete, grammatical boundary. &#10003;</li><li><strong>Choice B &mdash; &lsquo;plant), by&rsquo;</strong>: A comma alone cannot join two independent clauses &mdash; this creates a comma splice. &#10007;</li><li><strong>Choice C &mdash; &lsquo;plant) and by&rsquo;</strong>: Without a comma before &quot;and,&quot; the conjunction cannot join two sentences in this structure; the result is ungrammatical. &#10007;</li><li><strong>Choice D &mdash; &lsquo;plant) by&rsquo;</strong>: No punctuation between the two sentences fuses them into a run-on. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Rule out faulty boundaries",
+      "content": "Choice B creates a comma splice between complete ideas. Choice C uses “and by” awkwardly and does not form a clean boundary. Choice D fuses the sentences with no punctuation."
+    },
+    {
+      "title": "Choose the complete boundary",
+      "content": "The remaining choice ends the first sentence with a period after the parenthetical and starts a new sentence with “By researching.” The answer is <strong>A</strong>."
     }
   ]
 }

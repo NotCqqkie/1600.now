@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the cost per mile driven",
-      "content": "Gasoline costs \\$5 per gallon, and the car travels 32 miles per gallon. The cost per mile driven is $\\frac{5}{32}$ dollars per mile. If Rosa drives $m$ fewer miles, her total savings is $\\left(\\frac{5}{32}\\right)m$ dollars. This tells us the coefficient must be $\\frac{5}{32}$, not $\\frac{32}{5}$, so we can eliminate the other choices immediately."
+      "title": "Find cost per mile",
+      "content": "Each mile costs $\\frac{5}{32}$ dollars."
     },
     {
-      "title": "Set savings equal to the target amount",
-      "content": "Rosa wants to reduce her weekly gas spending by \\$8. Her savings from driving $m$ fewer miles is $\\left(\\frac{5}{32}\\right)m$, so the equation is $$\\left(\\frac{5}{32}\\right)m = 8.$$ The right side must be 8 (the savings target), not 112, so an equation set equal to $112$ is eliminated. That is <strong>Choice D</strong>, the correct answer."
+      "title": "Set savings equal to the goal",
+      "content": "For $m$ fewer miles, set the savings equal to $8$:<br/>$$\\frac{5}{32}m=8$$The answer is <strong>D</strong>."
     }
   ]
 }

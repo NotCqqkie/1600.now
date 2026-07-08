@@ -1,16 +1,19 @@
 {
   "questionId": "d46da42c",
-  "qid": "d46da42c",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "content": "Identify key features of $f(x) = x^2 + 4$: vertex at $(0, 4)$, opens upward (coefficient of $x^2$ is positive), minimum value is 4."
+      "title": "Identify the vertex",
+      "content": "The function $f(x)=x^2+4$ is the basic parabola $y=x^2$ shifted up $4$ units, so its vertex is<br/>$$(0,4)$$"
     },
     {
-      "content": "Since the minimum $y$-value is 4, the graph never crosses or touches the $x$-axis. The $y$-intercept is $(0,4)$ and the parabola is symmetric about the $y$-axis."
+      "title": "Identify the opening direction",
+      "content": "The coefficient of $x^2$ is positive, so the parabola opens upward. Therefore, the vertex is the minimum point of the graph."
     },
     {
-      "content": "<ul><li><strong>\"&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;\"</strong>: a graph that does not show an upward-opening parabola with vertex at $(0,4)$. Incorrect.</li><li><strong>\"&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;\"</strong>: a graph that does not match the vertex or direction of opening. Incorrect.</li><li><strong>\"&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;\"</strong>: a graph that does not show the correct vertex or orientation. Incorrect.</li><li><strong>\"&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;\"</strong>: an upward-opening parabola with vertex at $(0,4)$, entirely above the $x$-axis. That matches the correct answer — <strong>D</strong> is correct.</li></ul>"
+      "title": "Match the graph",
+      "content": "The correct graph is the upward-opening parabola with vertex $(0,4)$. The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

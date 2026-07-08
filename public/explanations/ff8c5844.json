@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the exponential pattern",
-      "content": "Use the form $g(x)=a\\cdot b^x$. The table shows $g(0)=1$, so $$a=1.$$ The table also shows $g(1)=\\frac{1}{25}$, so $$a\\cdot b=\\frac{1}{25}.$$ Since $a=1$, $$b=\\frac{1}{25}.$$"
+      "title": "Use the value at zero",
+      "content": "For an exponential function $g(x)=a(b)^x$, the value at $x=0$ is $a$ because $b^0=1$. The table shows $g(0)=1$, so $a=1$."
     },
     {
-      "title": "Read the base",
-      "content": "Therefore $g(x)=\\left(\\frac{1}{25}\\right)^x$. The positive value at $x=0$ also eliminates the choices with a leading negative sign."
+      "title": "Use the next table value",
+      "content": "With $a=1$, the model is $g(x)=b^x$. The table shows $g(1)=\\frac{1}{25}$, so $b=\\frac{1}{25}$."
     },
     {
-      "title": "Check the choices",
-      "content": "$g \\left(x\\right)={ \\left(\\frac{1}{25}\\right)}^{x}$ is $g(x)=\\left(\\frac{1}{25}\\right)^x$, so D is correct."
+      "title": "Write the function",
+      "content": "Therefore the function is $$g(x)=(\\frac{1}{25})^x$$ Negative choices have the wrong sign, and $25^x$ has the wrong base. The answer is <strong>D</strong>."
     }
   ]
 }

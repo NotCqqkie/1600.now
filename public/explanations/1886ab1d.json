@@ -1,0 +1,19 @@
+{
+  "questionId": "1886ab1d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose two points on the line",
+      "content": "Two clear points on the line of best fit are approximately $(0,25)$ and $(80,11)$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Use change in temperature divided by change in depth:<br/>$$m=\\frac{11-25}{80-0}=\\frac{-14}{80}=-0.175$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The listed value closest to $-0.175$ is $-0.17$. The answer is <strong>D</strong>."
+    }
+  ]
+}

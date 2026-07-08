@@ -1,0 +1,15 @@
+{
+  "questionId": "41e456a3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two texts",
+      "content": "Text 1 presents evidence that predators can control prey numbers. Text 2 accepts that many studies show this pattern, but explains why it may not apply to large, slowly reproducing prey such as Dall sheep."
+    },
+    {
+      "title": "Reject unsupported limits",
+      "content": "Choice B says contrary findings have not been accepted, which Text 2 does not claim. Choice C shifts the limitation to predator traits, but Text 2 focuses on prey traits. Choice D invents methodological flaws in the supporting studies. The remaining choice captures both parts of Text 2's stance: the principle has support, but it should not be treated as universal. The answer is <strong>A</strong>."
+    }
+  ]
+}

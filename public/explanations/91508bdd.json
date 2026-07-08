@@ -1,0 +1,15 @@
+{
+  "questionId": "91508bdd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each power",
+      "content": "Compute the two powers separately. Since $2^4=16$ and $2^5=32$, the expression can be rewritten as $16+32$."
+    },
+    {
+      "title": "Add the values",
+      "content": "Now add the two results: $2^4+2^5=16+32=48$. The value $48$ appears in choice B. The answer is <strong>B</strong>."
+    }
+  ]
+}

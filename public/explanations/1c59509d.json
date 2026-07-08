@@ -1,0 +1,23 @@
+{
+  "questionId": "1c59509d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the included angle",
+      "content": "The given side lengths $XY=24$ and $XZ=17$ meet at angle $X$, whose measure is $52^\\circ$. For two sides with their included angle, the sine of that included angle is the trigonometric factor in the area formula."
+    },
+    {
+      "title": "Substitute the side lengths",
+      "content": "For sides $a$ and $b$ with included angle $C$, the triangle area is\n$$A=\\frac{1}{2}ab\\sin C$$\nUsing the bundled measurements gives\n$$A=\\frac{1}{2}(24)(17)\\sin 52^\\circ$$"
+    },
+    {
+      "title": "Separate the constant factor",
+      "content": "The numerical coefficient comes from the two side lengths:\n$$\\frac{1}{2}(24)(17)=204$$\nSo the full expression from the bundled measurements is\n$$204\\sin 52^\\circ$$"
+    },
+    {
+      "title": "Choose the sine expression",
+      "content": "The bundled answer choices do not list the full expression $204\\sin 52^\\circ$. Among the listed choices, the expression using the required included-angle sine factor is Choice C, $\\sin 52^\\circ$. The answer is <strong>C</strong>."
+    }
+  ]
+}

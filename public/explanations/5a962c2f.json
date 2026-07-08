@@ -1,0 +1,15 @@
+{
+  "questionId": "5a962c2f",
+  "correctAnswer": "98",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the known angles",
+      "content": "The angles of a triangle sum to $180^\\circ$. The two given angles have total measure<br/>$$41+41=82$$"
+    },
+    {
+      "title": "Subtract from the triangle total",
+      "content": "Subtract the known angle sum from $180$. This gives the remaining angle at vertex $M$.<br/>$$180-82=98$$<br/>The answer is <strong>98</strong>."
+    }
+  ]
+}

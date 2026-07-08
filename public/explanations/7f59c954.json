@@ -1,0 +1,19 @@
+{
+  "questionId": "7f59c954",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the causal condition",
+      "content": "A study can attempt to establish cause and effect when subjects are randomly assigned to the treatment and control groups. Random assignment helps balance other variables between the groups before outcomes are compared."
+    },
+    {
+      "title": "Separate selection from assignment",
+      "content": "Random selection helps make results more representative of a population. Random assignment is the condition that supports a causal comparison between treatment and control groups because it controls for many confounding differences."
+    },
+    {
+      "title": "Choose the required design",
+      "content": "Equal group sizes or equal average ages are not required for a causal claim. Random selection from each habitat would support generalizing results, but the necessary condition for cause and effect is random assignment to the treatment and control groups. The answer is <strong>B</strong>."
+    }
+  ]
+}

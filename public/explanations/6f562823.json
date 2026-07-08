@@ -1,0 +1,15 @@
+{
+  "questionId": "6f562823",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add all four sides",
+      "content": "Fencing along each edge means using the perimeter of the rectangle. There are two sides of length $x$ and two sides of width $y$.<br/>$$x+x+y+y=2x+2y$$"
+    },
+    {
+      "title": "Set the total length",
+      "content": "Malia used $58$ feet of fencing total, so the perimeter expression must equal $58$.<br/>$$2x+2y=58$$<br/>The other product choices describe area, not fencing around the edges. The answer is <strong>A</strong>."
+    }
+  ]
+}

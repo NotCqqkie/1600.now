@@ -1,0 +1,19 @@
+{
+  "questionId": "81e736e0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the concept",
+      "content": "The audience is unfamiliar with biographical analysis, so the sentence should define the concept directly. The notes say biographical analysis is an approach to art criticism that considers the personal experiences of the artist. That definition is more useful for a new audience than an isolated example or a comparison to stylistic analysis."
+    },
+    {
+      "title": "Reject indirect options",
+      "content": "Choice B describes stylistic analysis of <em>Water Lilies</em>, not biographical analysis. Choice C contrasts stylistic analysis with biographical analysis but defines only stylistic analysis. Choice D gives an example from <em>Women in the Garden</em> without explaining the broader concept."
+    },
+    {
+      "title": "Prefer the definition",
+      "content": "The remaining choice identifies biographical analysis as an approach to art criticism and explains that it considers the artist's personal experiences, which is the clearest presentation for an unfamiliar audience. The answer is <strong>A</strong>."
+    }
+  ]
+}

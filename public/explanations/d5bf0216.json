@@ -1,0 +1,15 @@
+{
+  "questionId": "d5bf0216",
+  "correctAnswer": "120",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output",
+      "content": "The question asks for the input where $g(x)=84$. Since $g(x)=2x-156$, set the expression equal to $84$.\n$$2x-156=84$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Add $156$ to both sides, then divide by $2$.\n$$2x=240$$\n$$x=120$$\nThe answer is <strong>120</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e5db5dfa",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the target frequency",
+      "content": "Scan the frequency column for \\(38\\). This identifies the row whose frequency is \\(38\\)."
+    },
+    {
+      "title": "Read the matching value",
+      "content": "The row with frequency \\(38\\) corresponds to data value \\(20\\). The answer is <strong>B</strong>."
+    }
+  ]
+}

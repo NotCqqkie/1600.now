@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find where the function equals zero",
-      "content": "The graph intersects the <em>x</em>-axis where $y = 0$, which means $f(x) = 0$.<br/>Set the function equal to zero:<br/>$$-400x^2 + 24,000x = 0$$<br/>Factor out $-400x$:<br/>$$-400x(x - 60) = 0$$<br/>This gives us $x = 0$ or $x = 60$. Since the problem states the intersections are at 0 and $a$, we have $a = 60$."
+      "title": "Interpret an x-intercept",
+      "content": "At an $x$-axis intersection, the revenue value is $0$, because the graph has $y=0$ there."
     },
     {
-      "title": "Interpret what $a$ represents",
-      "content": "At the <em>x</em>-axis intersection point $x = a$, we have $f(a) = 0$. This means the unit price $a$ results in a revenue of \\$0. That confirms <strong>C</strong> is correct."
+      "title": "Connect it to the variables",
+      "content": "Here $x$ represents the unit price and $f(x)$ represents the revenue. So the intercept at $x=a$ means\n$$\nf(a)=0\n$$"
+    },
+    {
+      "title": "Match the interpretation",
+      "content": "Therefore, $a$ represents the unit price that results in a revenue of $0$ dollars. The answer is <strong>C</strong>."
     }
   ]
 }

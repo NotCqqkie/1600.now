@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the list structure",
-      "content": "After the blank the sentence continues 'and monitor seasonal ice zones.' Combined with 'measure a wider range of variables' and 'travel to greater depths,' there are three parallel verb phrases that share the subject 'More advanced floats': measure variables, travel to greater depths, and monitor seasonal ice zones."
+      "title": "Read the sentence as a series",
+      "content": "The sentence lists three actions by more advanced floats: measure more variables, travel to greater depths, and monitor seasonal ice zones. The blank must punctuate the first two items in that series."
     },
     {
-      "title": "Apply the series-comma rule",
-      "content": "A series of three items takes commas between items, with 'and' before the final item: 'A, B, and C.'"
-    },
-    {
-      "title": "Eliminate by choice",
-      "content": "<ul><li><strong>\"variables: travel to greater depths\"</strong>: a colon needs an independent clause before it and treats what follows as elaboration, not as a middle item in a list. &#10007;</li><li><strong>\"variables, travel to greater depths,\"</strong>: gives the correct series punctuation with a comma after each of the first two items. &#10003;</li><li><strong>\"variables travel to greater depths,\"</strong>: missing comma after 'variables' fuses the first two list items into one ungrammatical phrase. &#10007;</li><li><strong>\"variables, travel to greater depths;\"</strong>: a semicolon before 'and' in a simple list of phrases is incorrect; semicolons separate items only when items themselves contain commas. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Use commas between items",
+      "content": "A uses a colon in a simple series, C omits the comma after \"variables,\" and D uses a semicolon before the final item. The correct completion uses commas after \"variables\" and \"depths\" to separate the three parallel actions. The answer is <strong>B</strong>."
     }
   ]
 }

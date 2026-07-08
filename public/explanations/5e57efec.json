@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify why compensation leads to favoring large donors",
-      "content": "The passage uses <strong>so</strong> to connect two ideas: charities can compensate donors for nuisance costs, and therefore they will favor large donors. The relationship between nuisance costs and donation size must explain why larger donations become preferable when costs are compensated."
+      "title": "Connect costs to donor size",
+      "content": "The passage says charities that compensate donors for nuisance costs will likely prefer a few large donors over many small donors. That only follows if the nuisance cost does not rise much with the donation amount."
     },
     {
-      "title": "Apply the relationship to the economic logic",
-      "content": "If nuisance costs are largely independent of donation size, the compensation a charity must pay does not scale with the size of the donation; reimbursing a \\$10 donor can cost roughly as much as reimbursing a \\$1000 donor.<br/><br/>That makes large donors more efficient targets when charities compensate donors for those costs.<br/><br/>The other three choices fail to create this economic incentive. That confirms <strong>C</strong> is correct."
+      "title": "Reject the wrong relationships",
+      "content": "A says the costs are added to donation size, B says the costs predict donation size, and D says the costs are included within donation size. The remaining phrase means the costs are largely separate from donation size. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "e291db02",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the concession",
+      "content": "The previous sentence admits that Beaumont's painting cannot technically show a fourth dimension because humans see in three. The next sentence pivots to the value of the painting's multiple perspectives."
+    },
+    {
+      "title": "Rule out wrong transitions",
+      "content": "A would introduce an example, B would restate the limitation, and C would simply add another point. The transition needs to mean \"despite that limitation.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "51c88da7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the singular subject",
+      "content": "The subject of the verb is \"similarity,\" not the plural \"groups.\" The passive construction needs a form of \"be\" before \"evaluated\" that agrees with the singular subject."
+    },
+    {
+      "title": "Reject agreement errors",
+      "content": "Choice A and Choice C are plural forms, so they do not agree with \"similarity.\" Choice B is singular but past tense, which does not fit the general present-tense description. The remaining option is singular and present tense. The answer is <strong>D</strong>."
+    }
+  ]
+}

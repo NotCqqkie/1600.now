@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and determine its number",
-      "content": "The subject is <strong>A Sheaf Gleaned in French Fields (1876)</strong> — the name of one book. The appositive <strong>a volume of English translations of French poems</strong> (set off by commas) restates it, confirming it's singular: one work."
+      "title": "Find the singular subject",
+      "content": "The subject is the book title <em>A Sheaf Gleaned in French Fields</em>. The phrase set off by commas describes that one volume, so the subject is singular."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A verb must agree in number with its subject. <strong>Has enhanced</strong> is the singular present perfect form needed here.<br/><br/>The other choices all fail: <strong>are enhancing</strong> and <strong>have enhanced</strong> are plural; <strong>enhance</strong> is bare or plural form.<br/><br/><strong>A</strong> is correct."
+      "title": "Use a singular verb",
+      "content": "B, C, and D all use plural verb forms that do not agree with the singular book title. The matching choice uses a singular present-perfect verb. The answer is <strong>A</strong>."
     }
   ]
 }

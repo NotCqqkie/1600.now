@@ -1,0 +1,15 @@
+{
+  "questionId": "55fbd435",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line k",
+      "content": "Rewrite the equation in slope-intercept form.\n$$\n5x+17y-8=0\n$$\n$$\n17y=-5x+8\n$$\n$$\ny=-\\frac{5}{17}x+\\frac{8}{17}\n$$"
+    },
+    {
+      "title": "Use the perpendicular slope",
+      "content": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of $-\\frac{5}{17}$ is\n$$\n\\frac{17}{5}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

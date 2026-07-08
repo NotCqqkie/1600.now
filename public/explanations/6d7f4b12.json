@@ -1,0 +1,15 @@
+{
+  "questionId": "6d7f4b12",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the complexity claim",
+      "content": "The references to population density and average commuting distance are examples of factors emphasized by studies of walking decisions. Rosales's point is that these factors matter, but walking decisions happen in complex contexts where many conditions and needs influence individual choices."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "A says the factors have been overemphasized and are relevant to most people, claims the text does not make. B wrongly treats the factors as unique to Copenhagen. C says most people rarely consider them, but the passage does not discuss what people consciously consider. The answer is <strong>D</strong>."
+    }
+  ]
+}

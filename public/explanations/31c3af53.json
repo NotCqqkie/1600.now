@@ -1,0 +1,15 @@
+{
+  "questionId": "31c3af53",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage sequence",
+      "content": "The text begins with a broad interest in shipwrecks' ecological effects, then narrows to Whitaker and colleagues' study of wooden shipwrecks in the Gulf of Mexico, and finally reports a finding about microbial diversity and richness."
+    },
+    {
+      "title": "Reject invented structure",
+      "content": "Choice A invents scholarly attention and a research-team reaction. Choice B makes historical significance central, which the passage does not do. Choice C invents a famous wreck and the wood used to build it. The remaining choice follows the actual sequence. The answer is <strong>D</strong>."
+    }
+  ]
+}

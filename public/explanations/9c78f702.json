@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the chronological signal",
-      "content": "Sentence 2 begins &ldquo;When alive&rdquo; and describes phytoplankton absorbing carbon. Sentence 3 begins with the blank and continues &ldquo;after they die,&rdquo; describing what happens next. The two sentences form a time-ordered sequence: alive $\\Rightarrow$ dead. The blank must signal that the second event comes later in that sequence."
+      "title": "Follow the sequence",
+      "content": "The second sentence describes what phytoplankton do when alive: they absorb carbon through photosynthesis. The next sentence begins with what happens after they die, so the relationship is chronological."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each option:\n<ul><li><strong>Choice A &mdash; Specifically,</strong>: signals that what follows is a precise elaboration or narrowing of the previous idea. The death-and-sinking stage is not a specific detail within the living stage; it is a new, later stage. Violates the elaboration rule. &#10007;</li><li><strong>Choice B &mdash; By contrast,</strong>: signals opposition. In both life and death phytoplankton contribute to carbon storage, so no genuine contrast exists. Violates the contrast rule. &#10007;</li><li><strong>Choice C &mdash; Nevertheless,</strong>: signals concession &mdash; &ldquo;despite what was just said, this is still true.&rdquo; Nothing in sentence 2 creates an obstacle to sentence 3; the events simply happen in order. Violates the concession rule. &#10007;</li><li><strong>Choice D &mdash; Then,</strong>: a temporal adverb signaling the next step in a sequence. It pairs perfectly with &ldquo;When alive&rdquo; by marking what happens afterward. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject non-temporal links",
+      "content": "A would introduce a specific detail of the previous point, B would create contrast, and C would create concession. The sentence needs a transition that marks the next stage in time. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "89354433",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the reference function",
+      "content": "The references to demographic characteristics and neighborhood type appear as examples of factors that some studies emphasize. The next clause says walking decisions occur in complex contexts shaped by multiple conditions and needs, so the references are presented as important but incomplete parts of a larger explanation."
+    },
+    {
+      "title": "Reject overstatements",
+      "content": "A incorrectly makes the factors unique to Zurich. B says most people rarely consider them, which the text never claims. D says Andrade thinks they have been overemphasized, but the passage says understanding is insufficiently robust, not that these factors are irrelevant or overstudied. The remaining choice captures the limited-example role. The answer is <strong>C</strong>."
+    }
+  ]
+}

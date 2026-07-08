@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the sentence boundary",
-      "content": "The first main clause is &quot;Economists have observed that improvements in efficiency often correlate negatively with resource conservation.&quot; The next main clause is &quot;efficiency gains, lowering the cost of use, may increase demand to the extent that resource consumption ultimately rises.&quot; The word &quot;though&quot; is supplementary here, so it needs comma separation from the first clause and a semicolon before the next main clause."
+      "title": "Locate the clause boundary",
+      "content": "The first independent clause ends after <em>resource conservation</em>. The word <em>though</em> is supplementary, and the next independent clause begins with <em>efficiency gains</em>. The punctuation must set off <em>though</em> and separate the two clauses."
     },
     {
-      "title": "Choose the punctuation that separates the parts correctly",
-      "content": "The referenced choice gives &quot;conservation, though ; efficiency gains...&quot; In the rendered sentence, the comma sets off &quot;though&quot; from the first main clause, and the semicolon joins the following main clause to the rest of the sentence. That is the only choice that both handles &quot;though&quot; and marks the boundary between the main clauses."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; conservation, though,</strong>: leaves the next main clause joined only by commas, creating a comma splice. &#10007;</li><li><strong>Choice B &mdash; conservation ; though</strong>: places the semicolon before &quot;though,&quot; which does not correctly separate the supplementary word from the preceding clause. &#10007;</li><li><strong>Choice C &mdash; conservation, though ;</strong>: correctly sets off &quot;though&quot; and uses the semicolon to join the next main clause. &#10003;</li><li><strong>Choice D &mdash; conservation, though</strong>: lacks the semicolon needed before the following main clause, so it creates a comma splice. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject comma splices",
+      "content": "A and D lack the semicolon needed before the second independent clause, so both create comma-splice problems there. B places the semicolon before <em>though</em> instead of setting off the supplementary word with a comma. The answer is <strong>C</strong>."
     }
   ]
 }

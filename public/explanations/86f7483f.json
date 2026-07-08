@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the given minimum and maximum distances",
-      "content": "The problem states the hummingbird traveled a minimum of 1,620 miles and a maximum of 4,240 miles. So the distance d must be at least 1,620 and at most 4,240. $$1620 \\le d$$ and $$d \\le 4240$$."
+      "title": "Translate the endpoints",
+      "content": "A minimum of $1{,}620$ miles means $d$ is at least $1{,}620$. A maximum of $4{,}240$ miles means $d$ is at most $4{,}240$."
     },
     {
-      "title": "Combine into a compound inequality and match the choice",
-      "content": "From the two inequalities we have $$1620 \\le d$$ and $$d \\le 4240$$. Combining them gives the compound inequality $$1620 \\le d \\le 4240$$. That confirms <strong>B</strong> is correct."
+      "title": "Combine the bounds",
+      "content": "Place $d$ between the two endpoint values:\n$$1{,}620\\le d\\le 4{,}240$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

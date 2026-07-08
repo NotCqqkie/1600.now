@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Subtract the constant",
-      "content": "Start with $6p+144=222$. Subtract $144$ from both sides:<br/>$$6p=78$$"
+      "title": "Isolate the variable term",
+      "content": "Start with the equation and subtract $144$ from both sides:<br/>$$6p+144=222$$<br/>$$6p=78$$"
     },
     {
-      "title": "Divide by 6",
-      "content": "$$p=\\frac{78}{6}=13$$"
-    },
-    {
-      "title": "Check quickly",
-      "content": "Substitute $p=13$ back into the original equation:<br/>$$6(13)+144=78+144=222$$<br/>So it satisfies the equation exactly. This also rules out larger choices, which would make the left side greater than $222$."
-    },
-    {
-      "title": "Answer",
-      "content": "$p=13$, which matches <strong>Choice A &mdash; $13$</strong>. Therefore <strong>A</strong> is correct."
+      "title": "Solve for the value",
+      "content": "Divide both sides by $6$:<br/>$$p=13$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

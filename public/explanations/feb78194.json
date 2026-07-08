@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation for profit",
-      "content": "Given that the profit is 558 dollars, which comes from total revenue minus daily expenses, we can write: <br/> $$\\text{Profit} = \\text{Total Revenue} - \\text{Daily Expenses}$$<br/> Knowing that the daily expense is 126 dollars, and the revenue per audio guide rented is 18 dollars, let's denote the number of audio guides rented as $x$. Thus, total revenue is $18x$. Therefore: <br/> $$558 = 18x - 126$$"
+      "title": "Write the profit equation",
+      "content": "Let $x$ be the number of audio guides rented. The revenue is $18x$, and the expenses are $126$, so the profit equation is $$558=18x-126$$"
     },
     {
-      "title": "Solve for x",
-      "content": "<div class=\"callout\">Add 126 dollars to both sides of the equation to isolate terms involving $x$: <br/> $$558 + 126 = 18x$$<br/> Simplify and solve: <br/> $$684 = 18x$$</div><br/> To find $x$, divide both sides by $18$: <br/> $$\\frac{684}{18} = x$$<br/> Thus, we can solve this easily: $38 = x$. The answer is <strong>38</strong>."
+      "title": "Solve for the rentals",
+      "content": "Add $126$ to both sides, then divide by $18$: $$684=18x$$ $$\\frac{684}{18}=x$$ The answer is <strong>38</strong>."
     }
   ]
 }

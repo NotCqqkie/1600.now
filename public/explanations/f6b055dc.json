@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection",
-      "content": "The solution to a graphed system is the point where the two lines cross, because that point lies on both lines at the same time. On the grid, the crossing point is at $x=2$ and $y=2$."
+      "title": "Read the intersection point",
+      "content": "The solution to a graphed system of two linear equations is the point where the two lines intersect. On the graph, the lines cross at $x=2$ and $y=2$."
     },
     {
-      "title": "Match the ordered pair",
-      "content": "The solution is the ordered pair $(2,2)$. It has the same $x$-coordinate and $y$-coordinate read from the intersection, so it matches the correct answer, <strong>B</strong>."
+      "title": "Write the ordered pair",
+      "content": "The solution is the ordered pair $(2,2)$. The answer is <strong>B</strong>."
     }
   ]
 }

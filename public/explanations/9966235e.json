@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Find the cube volume",
+      "content": "The cube edge length is $72$, so its volume is\n$$72^3=373{,}248$$"
     },
     {
-      "title": "Establish dimensions and calculate cube volume",
-      "content": "The cube has edge length 72 inches. Since the sphere touches the center of each face, the sphere is centered at the cube's center, making the radius equal to half the edge length: $\\frac{72}{2} = 36$ inches.<br/><br/>The volume of the cube is:<br/>$$V_{\\text{cube}} = 72^3 = 373,248 \\text{ cubic inches}$$"
+      "title": "Find the sphere volume",
+      "content": "The sphere radius is $36$, so its volume is\n$$\\frac{4}{3}\\pi(36)^3=62{,}208\\pi$$\nThis is about $195{,}432$ cubic inches."
     },
     {
-      "title": "Calculate sphere volume and find remaining space",
-      "content": "The volume of a sphere with radius 36 is:<br/>$$V_{\\text{sphere}} = \\frac{4}{3}\\pi(36)^3 = \\frac{4}{3}\\pi(46,656) \\approx 195,432 \\text{ cubic inches}$$<br/>The space not taken up by the sphere is:<br/>$$373,248 - 195,432 \\approx 177,816 \\text{ cubic inches}$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Subtract the sphere volume",
+      "content": "Subtract the sphere volume from the cube volume and round to the nearest cubic inch.\n$$373{,}248-195{,}432=177{,}816$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

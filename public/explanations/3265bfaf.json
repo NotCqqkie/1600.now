@@ -1,0 +1,19 @@
+{
+  "questionId": "3265bfaf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use a common denominator",
+      "content": "The equation is a sum of reciprocals, so use the common denominator $17pqs$ on the right side before combining the terms.\n$$\n\\frac{1}{p}=\\frac{17qs}{17pqs},\\quad \\frac{1}{q}=\\frac{17ps}{17pqs},\\quad \\frac{1}{s}=\\frac{17pq}{17pqs},\\quad \\frac{1}{17}=\\frac{pqs}{17pqs}\n$$"
+    },
+    {
+      "title": "Combine the reciprocals",
+      "content": "Add the fractions on the right side.\n$$\n\\frac{1}{R}=\\frac{17qs+17ps+17pq+pqs}{17pqs}\n$$"
+    },
+    {
+      "title": "Take the reciprocal",
+      "content": "Solving for $R$ gives\n$$\nR=\\frac{17pqs}{17qs+17ps+17pq+pqs}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

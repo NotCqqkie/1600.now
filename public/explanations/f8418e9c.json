@@ -1,0 +1,22 @@
+{
+  "questionId": "f8418e9c",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use zero product property",
+      "content": "The equation is already factored. A product equals $0$ when at least one factor equals $0$."
+    },
+    {
+      "title": "List the roots",
+      "content": "Set each factor equal to $0$.\n$$x=0,\\quad x=13,\\quad x=-6,\\quad x=5$$\nThe squared factor still gives $x=5$."
+    },
+    {
+      "title": "Pick the greatest root",
+      "content": "Compare the four roots. The greatest root is $13$. The answer is <strong>13</strong>.",
+      "desmosExpressions": [
+        "x(x-13)(x+6)(x-5)^{2}=0"
+      ]
+    }
+  ]
+}

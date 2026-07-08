@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides to clear the fraction",
-      "content": "Starting from $u - 4 = \\frac{12}{t-3}$, multiply both sides by $(t-3)$:<br/>$$(u-4)(t-3) = 12$$"
+      "title": "Clear the denominator",
+      "content": "Start with:\n$$\nu-4=\\frac{12}{t-3}\n$$\nMultiply both sides by $t-3$:\n$$\n(u-4)(t-3)=12\n$$"
     },
     {
-      "title": "Solve for t",
-      "content": "Divide both sides by $(u-4)$:<br/>$$t - 3 = \\frac{12}{u-4}$$<br/>Add 3 to both sides:<br/>$$t = 3 + \\frac{12}{u-4} = \\frac{3(u-4) + 12}{u-4} = \\frac{3u - 12 + 12}{u-4} = \\frac{3u}{u-4}$$<br/>This matches choice D."
+      "title": "Isolate the variable",
+      "content": "Divide by $u-4$ and add $3$:\n$$\nt-3=\\frac{12}{u-4}\n$$\n$$\nt=3+\\frac{12}{u-4}\n$$"
+    },
+    {
+      "title": "Combine into one fraction",
+      "content": "Use a common denominator:\n$$\nt=\\frac{3(u-4)}{u-4}+\\frac{12}{u-4}=\\frac{3u-12+12}{u-4}=\\frac{3u}{u-4}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

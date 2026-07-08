@@ -1,0 +1,19 @@
+{
+  "questionId": "9c9e19cb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on variety",
+      "content": "The student wants to emphasize the variety of soundscapes on the list. That means the sentence should bring together several different kinds of sounds, not describe one listed soundscape in isolation. The notes provide three different examples: cicadas at Kiyomizu-dera, birds at the Higashiyama Botanical Garden, and water flowing over Nachi Falls."
+    },
+    {
+      "title": "Eliminate single-example choices",
+      "content": "<ul><li><strong>Choice A</strong> mentions only the sound of water flowing over Nachi Falls.</li><li><strong>Choice B</strong> mentions only cicadas at the Kiyomizu-dera temple.</li><li><strong>Choice C</strong> mentions only birds at the Higashiyama Botanical Garden.</li></ul>Each of those choices uses a relevant note, but each focuses on just one soundscape, so none emphasizes variety."
+    },
+    {
+      "title": "List the different sounds",
+      "content": "<strong>Choice D</strong> explicitly says that a range of different soundscapes is on the list and then names cicadas, birds, and water. Because it combines multiple sound types in one sentence, it directly accomplishes the student's goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

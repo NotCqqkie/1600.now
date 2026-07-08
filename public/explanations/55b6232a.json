@@ -1,0 +1,15 @@
+{
+  "questionId": "55b6232a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each bin amount",
+      "content": "Each small bin holds $1$ fish, so $s$ small bins hold $s$ fish. Each large bin holds $2$ fish, so $b$ large bins hold $2b$ fish."
+    },
+    {
+      "title": "Model the total fish",
+      "content": "The total number of fish is $43$, so add the fish from the small and large bins.\n$$s+2b=43$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

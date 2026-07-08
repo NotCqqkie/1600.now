@@ -1,0 +1,15 @@
+{
+  "questionId": "857fed82",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use statement word order",
+      "content": "The phrase <em>we know that</em> introduces a noun clause. Because the whole sentence is a statement, the clause after <em>that</em> needs normal subject-verb order and should end with a period."
+    },
+    {
+      "title": "Reject question forms",
+      "content": "Choice A uses question word order and a question mark. Choice C keeps the inverted question word order even though it ends with a period. Choice D uses statement word order but incorrectly ends with a question mark. The answer is <strong>B</strong>."
+    }
+  ]
+}

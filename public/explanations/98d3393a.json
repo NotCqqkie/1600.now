@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the type of line x = 5",
-      "content": "$x = 5$ is a vertical line; its slope is undefined."
+      "title": "Classify the given line",
+      "content": "The equation $x=5$ is a vertical line. A line perpendicular to a vertical line is horizontal."
     },
     {
-      "title": "Perpendicular to vertical = horizontal",
-      "content": "A line perpendicular to a vertical line is horizontal. A horizontal line has slope $0$. Any line perpendicular to $x=5$ must be parallel to the $x$-axis. That confirms <strong>A</strong> is correct."
+      "title": "Use the horizontal slope",
+      "content": "Every horizontal line has slope $0$. The answer is <strong>A</strong>."
     }
   ]
 }

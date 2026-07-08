@@ -1,0 +1,19 @@
+{
+  "questionId": "9da72468",
+  "correctAnswer": "14700",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the relationships",
+      "content": "Let $U$ be undergraduate students, $G$ be graduate students, and $P$ be postdoctoral students. The percent relationships are:<br/>$$U=72.5P$$<br/>$$G=0.26U$$"
+    },
+    {
+      "title": "Find the undergraduate count",
+      "content": "Use the known graduate count $G=3{,}770$:<br/>$$3{,}770=0.26U$$<br/>$$U=\\frac{3{,}770}{0.26}=14{,}500$$"
+    },
+    {
+      "title": "Add the requested groups",
+      "content": "Now find $P$ and add:<br/>$$14{,}500=72.5P$$<br/>$$P=200$$<br/>$$U+P=14{,}500+200=14{,}700$$<br/>The answer is <strong>14700</strong>."
+    }
+  ]
+}

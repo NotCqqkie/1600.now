@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the implied agent in the opening phrase",
-      "content": "The phrase “After pleading for years—to no effect—for the passage of key antidiscrimination legislation” contains an action (pleading) with an implied agent: the activists.<br/><br/>Standard English requires that the subject of the main clause match this agent to avoid a dangling modifier—a phrase that becomes grammatically disconnected from the sentence."
+      "title": "Match the modifier to activists",
+      "content": "The opening phrase, \"After pleading for years,\" describes the people who pleaded for antidiscrimination legislation. In context, those people are Judith Heumann and the other disability rights activists."
     },
     {
-      "title": "Apply to find the correct subject",
-      "content": "The correct response places “the activists” as the subject of the main clause, matching the agent from the opening phrase.<br/><br/>The other three use different subjects—pressure, a protest, or lawmakers—that don't match, leaving the opening phrase dangling in each case.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject dangling subjects",
+      "content": "A makes \"pressure\" the subject, B makes \"a sit-in protest\" the subject, and C makes \"lawmakers\" the subject. Those subjects do not match the people who pleaded for years. The main clause must begin with the activists. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage describes a shift: Wigner&rsquo;s 1934 conjecture about a crystal &quot;remained largely conjecture&quot; until 2021, when researchers captured the first image.<br/><br/>The key signal is the claim that Chen&rsquo;s team achieved <strong>the first visual confirmation</strong>.<br/><br/>This defines the core new development the text is emphasizing."
+      "title": "Track the scientific shift",
+      "content": "The Wigner crystal was proposed in 1934 but remained largely conjecture. In 2021, Chen and colleagues captured an image, described as the first visual confirmation of the crystal."
     },
     {
-      "title": "Match the evidence to the main claim",
-      "content": "The correct response directly states the confirmed evidence for the Wigner crystal, mirroring the phrase &quot;first visual confirmation.&quot;<ul><li>B focuses on the method (inserting graphene) rather than confirmation</li><li>C narrows the focus to a component (graphene)</li><li>D misrepresents the difficulty as inherent to the structure, not the scientific gap</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Focus on confirmation",
+      "content": "B focuses on the method rather than the evidence. C overstates graphene's importance, and D invents a reason imaging is difficult. The answer is <strong>A</strong>."
     }
   ]
 }

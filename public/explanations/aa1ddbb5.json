@@ -1,0 +1,15 @@
+{
+  "questionId": "aa1ddbb5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the password evidence",
+      "content": "\"Nonetheless\" contrasts expert advice to make complicated passwords with what users actually do. The example of \"123456789\" being the third most commonly used password shows a widespread preference for convenience."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "A does not fit because the example is not inventive. B is too vague; the evidence is about common use, not usefulness. C contradicts the easy-to-remember example and the contrast with complicated passwords. The answer is <strong>D</strong>."
+    }
+  ]
+}

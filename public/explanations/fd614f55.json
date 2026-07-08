@@ -1,0 +1,19 @@
+{
+  "questionId": "fd614f55",
+  "correctAnswer": "86.5,173/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify diameter AC",
+      "content": "The diagram marks angle $ABC$ as a right angle. An inscribed right angle subtends a diameter, so $AC$ is a diameter of the circle. Since the diameter is $175$, $$AD+CD=175.$$"
+    },
+    {
+      "title": "Use the altitude-to-hypotenuse theorem",
+      "content": "Because $AC\\perp BE$ at $D$, segment $BD$ is the altitude from the right angle to hypotenuse $AC$ in right triangle $ABC$. Therefore: $$BD^2=AD\\cdot CD.$$ With $BD=\\sqrt{346}$, this gives $$AD\\cdot CD=346.$$"
+    },
+    {
+      "title": "Solve for the two hypotenuse segments",
+      "content": "The two positive numbers $AD$ and $CD$ have sum $175$ and product $346$, so they are the roots of $$t^2-175t+346=0.$$ Factoring gives $t=2$ and $t=173$. Since $AB\\lt BC$, the segment adjacent to $AB$ is shorter, so $AD=2$ and $CD=173$. Thus $$r=\\frac{CD}{AD}=\\frac{173}{2}.$$"
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify unit prices from the equation coefficients",
-      "content": "The equation $26.4x + 26.7y = 691.2$ represents a cost relationship. It has the form:<br/>$$(\\text{cost per unit of mulch}) \\cdot x + (\\text{cost per unit of gravel}) \\cdot y = \\text{total cost}$$<br/>Comparing with our equation, the coefficient of $x$ is the cost per cubic yard of mulch: <strong>&#36;26.40</strong>.<br/>The coefficient of $y$ is the cost per ton of gravel: <strong>&#36;26.70</strong>."
+      "title": "Read the unit costs",
+      "content": "In the equation $26.4x+26.7y=691.2$, $x$ counts cubic yards of mulch and $y$ counts tons of gravel. So mulch costs $26.40$ dollars per cubic yard, and gravel costs $26.70$ dollars per ton."
     },
     {
-      "title": "Find the price difference",
-      "content": "Subtract the unit price of mulch from the unit price of gravel:<br/>$$26.70 - 26.4 = 0.30$$<br/>A ton of gravel cost Priya &#36;0.30 more than a cubic yard of mulch."
+      "title": "Subtract the unit costs",
+      "content": "Find how much more the gravel costs:<br/>$$26.70-26.40=0.30$$<br/>The answer is <strong>0.30</strong>."
     }
   ]
 }

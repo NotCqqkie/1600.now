@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the graph directly",
-      "content": "The $x$-axis is pressure in atmospheres, and the $y$-axis is temperature in kelvins. The question asks for the temperature when the pressure is $6$ atmospheres, so start at $x=6$ on the graph."
+      "title": "Use the pressure coordinate",
+      "content": "The $x$-axis represents pressure, and the $y$-axis represents temperature. The question asks for the temperature when the pressure is $6$ atmospheres, so read the graph at $x=6$."
     },
     {
-      "title": "Read the y-coordinate",
-      "content": "At $x=6$, the graphed point is at about $y=700$. That means the estimated temperature is $700$ kelvins."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice C &mdash; $700$</strong> is $700$, so <strong>Choice C &mdash; $700$</strong>."
+      "title": "Read the temperature",
+      "content": "At $x=6$, the graph shows a temperature of about $700$ kelvins. The answer is <strong>C</strong>."
     }
   ]
 }

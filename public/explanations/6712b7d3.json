@@ -1,0 +1,15 @@
+{
+  "questionId": "6712b7d3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Preserve the main verb",
+      "content": "The main subject is American abstract artist Richard Serra, and the main verb later in the sentence is assembles. The words in the blank must identify Serra and add a nonfinite phrase about his intention, not create another main verb before assembles."
+    },
+    {
+      "title": "Avoid competing finite verbs",
+      "content": "Choice A creates the finite verb is intending before the sentence reaches assembles. Choice B creates the finite verb intends and interrupts the subject awkwardly. Choice D also uses intends as a finite verb, leaving assembles improperly attached. The answer is <strong>C</strong>."
+    }
+  ]
+}

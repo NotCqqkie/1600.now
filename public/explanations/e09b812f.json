@@ -1,0 +1,15 @@
+{
+  "questionId": "e09b812f",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect problem to label",
+      "content": "The passage describes an uncoordinated railroad system in which trains on one gauge could not travel on another without time-consuming conversions. The final sentence gives the historians' label for that complicated system."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "Choice A would signal correction. Choice C would make the label an example, and Choice D would signal similarity. The label follows as a result of the confusing mixed-gauge arrangement. The answer is <strong>B</strong>."
+    }
+  ]
+}

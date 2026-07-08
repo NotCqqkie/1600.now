@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the cutoff list",
-      "content": "All four answer choices use $x=4$, $6$, and $8$. Compute the boundary value $5x+4$ for each:<br/>$$5(4)+4=24$$<br/>$$5(6)+4=34$$<br/>$$5(8)+4=44$$"
+      "title": "Compute the cutoff values",
+      "content": "For each listed $x$-value, compute the boundary value $5x+4$:<br/>$$5(4)+4=24$$<br/>$$5(6)+4=34$$<br/>$$5(8)+4=44$$"
     },
     {
-      "title": "Compare the candidate in one row",
-      "content": "The correct table has $x$-values $4$, $6$, and $8$ paired with $y$-values $20$, $30$, and $40$. Each output is strictly below the matching cutoff: $20\\lt24$, $30\\lt34$, and $40\\lt44$."
+      "title": "Compare the valid table",
+      "content": "The valid table must have all three $y$-values strictly below those cutoffs. The values $20$, $30$, and $40$ work because:<br/>$$20<24$$<br/>$$30<34$$<br/>$$40<44$$"
     },
     {
-      "title": "Eliminate the others",
-      "content": "The boundary table with $y$-values $24$, $34$, and $44$ is not strictly below the cutoff. Another table fails because $38$ is above the allowed cutoff $34$, and the remaining table fails immediately at $(4,28)$. The table with all three $y$-values below their cutoffs is correct, so <strong>C</strong> is correct."
+      "title": "Eliminate the other tables",
+      "content": "The other tables include at least one value that is equal to or greater than its cutoff. The table with all three valid rows is the answer. The answer is <strong>C</strong>."
     }
   ]
 }

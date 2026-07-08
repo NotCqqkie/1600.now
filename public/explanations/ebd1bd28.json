@@ -1,0 +1,15 @@
+{
+  "questionId": "ebd1bd28",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function is\n$$\nf(x)=\\frac{x+10}{3}\n$$\nTo find $f(-7)$, replace $x$ with $-7$. The input goes only in the numerator expression."
+    },
+    {
+      "title": "Evaluate the fraction",
+      "content": "Compute the numerator first, then divide by $3$:\n$$\nf(-7)=\\frac{-7+10}{3}=\\frac{3}{3}=1\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

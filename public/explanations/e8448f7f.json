@@ -1,0 +1,15 @@
+{
+  "questionId": "e8448f7f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Add $8$ to both sides.<br/>$$x^2+11x+8=0$$"
+    },
+    {
+      "title": "Apply the quadratic formula",
+      "content": "Here, $a=1$, $b=11$, and $c=8$.<br/>$$x=\\frac{-11\\pm\\sqrt{11^2-4(1)(8)}}{2(1)}$$<br/>$$x=\\frac{-11\\pm\\sqrt{89}}{2}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

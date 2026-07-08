@@ -1,0 +1,15 @@
+{
+  "questionId": "cdce0b9c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join two full clauses",
+      "content": "The text has two independent clauses: one about the Forth Road Bridge being among the longest and one about the Yavuz Sultan Selim Bridge being longer. The relationship is contrast."
+    },
+    {
+      "title": "Use comma plus but",
+      "content": "Choice A adds an incorrect comma after the conjunction. Choice B uses only a comma, creating a comma splice and losing the contrast signal. Choice D omits the needed comma before a coordinating conjunction joining two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

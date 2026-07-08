@@ -1,0 +1,15 @@
+{
+  "questionId": "629d4a84",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the repeated expression",
+      "content": "The expression $3x+9$ appears on both sides. Let\n$$\nu=3x+9\n$$\nThen the equation becomes\n$$\n7u=4u+72\n$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Subtract $4u$ from both sides:\n$$\n3u=72\n$$\nDivide by $3$:\n$$\nu=24\n$$\nSince $u=3x+9$, the value of $3x+9$ is $24$. The answer is <strong>B</strong>."
+    }
+  ]
+}

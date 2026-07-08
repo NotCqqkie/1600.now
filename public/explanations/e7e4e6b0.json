@@ -1,0 +1,19 @@
+{
+  "questionId": "e7e4e6b0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the conclusion",
+      "content": "The team concludes that the ability to distinguish spontaneous laughter from volitional laughter appears to be universal across cultures. To weaken that conclusion, the quotation should cast doubt on whether listeners can reliably separate those two kinds of laughter in the first place. Evidence that makes the acoustic difference between the categories less clear would directly undermine the team's interpretation of the participants' judgments."
+    },
+    {
+      "title": "Reject supporting choices",
+      "content": "Choice B says community size had no effect on listeners' identifications, which removes a possible demographic objection and supports the team's conclusion. Choice C says judgments of spontaneous laughter are associated with features such as intensity variability and higher pitch, which gives listeners markers for recognition. Choice D says features of spontaneous laughter are consistent within and across societies, which also supports cross-cultural recognition."
+    },
+    {
+      "title": "Choose the weakening quotation",
+      "content": "Choice A says volitional laughter in natural social contexts often shares acoustic qualities such as pitch and fluctuation of intensity with spontaneous laughter. If the two categories can share key features in real contexts, the recordings may not reflect a distinction that listeners can universally identify. That most directly weakens the team's conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

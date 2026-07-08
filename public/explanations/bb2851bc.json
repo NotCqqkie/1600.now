@@ -1,0 +1,19 @@
+{
+  "questionId": "bb2851bc",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the variables",
+      "content": "In the function $f(x)=4{,}500(1.02)^x$, the input $x$ is the number of years after the investment was made. The output $f(x)$ is the value of the CD in dollars."
+    },
+    {
+      "title": "Interpret the function value",
+      "content": "The statement says $f(2)$ is approximately $4{,}681.80$. Since $x$ is measured in years, this describes the CD value $2$ years after the investment."
+    },
+    {
+      "title": "Choose the context statement",
+      "content": "The statement says that $2$ years after the investment was made, the value of the CD was approximately $4{,}681.80$ dollars. The answer is <strong>C</strong>."
+    }
+  ]
+}

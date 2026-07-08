@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pronoun reference signal",
-      "content": "The key signal is the pronoun <strong>they</strong>, which must refer clearly to commercial plastics.<br/><br/>The passage describes how they are made from nonrenewable petroleum and do not biodegrade—facts about plastics, not problems.<br/><br/>For <strong>they</strong> to have an unambiguous antecedent, the main clause must establish <strong>commercial plastics</strong> as the grammatical subject."
+      "title": "Attach the opening modifier",
+      "content": "The phrase \"Despite being cheap, versatile, and easy to produce\" must describe the noun that immediately follows it. Since those qualities belong to commercial plastics, the main clause needs to start with commercial plastics, not with an abstract placeholder or with the problems."
     },
     {
-      "title": "Apply the pronoun reference rule",
-      "content": "The correct answer makes <strong>commercial plastics</strong> the grammatical subject with <strong>have two associated problems:</strong>, ensuring the pronoun <strong>they</strong> clearly refers back to plastics.<br/><br/>The other choices place <strong>problems</strong> as the grammatical focus, creating ambiguous pronoun reference (do the problems themselves get made from petroleum?), and using awkward <strong>are that</strong> phrasing instead of a clear construction.<br/><br/>This matches the correct answer — <strong>D</strong> is correct."
+      "title": "Avoid dangling subjects",
+      "content": "A places \"there\" after the modifier, while B and C make the problems seem cheap, versatile, and easy to produce. The completion that starts with commercial plastics also gives \"they\" a clear antecedent. The answer is <strong>D</strong>."
     }
   ]
 }

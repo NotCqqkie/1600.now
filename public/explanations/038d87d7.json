@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the equation components",
-      "content": "The equation $3x + 28y = 4,291$ has coefficients 3 and 28 representing the park and residential area in hectares. These multiply with variables to sum to 4,291 total trees."
+      "title": "Match each term to an area",
+      "content": "The park has $3$ hectares and the residential area has $28$ hectares. In the equation<br/>$$3x+28y=4{,}291$$<br/>the term $3x$ represents the trees in the park."
     },
     {
-      "title": "Recognize what the equation structure means",
-      "content": "For the equation to equal the total number of trees, each product (area times variable) must represent the trees in that region. Therefore:<br/>$$3x = \\text{trees in park}$$<br/>$$28y = \\text{trees in residential area}$$"
-    },
-    {
-      "title": "Interpret x",
-      "content": "Since $3x$ equals the trees in the park and 3 is the park's area in hectares, $x$ must be the number of trees per hectare:<br/>$$x = \\frac{\\text{trees in park}}{3} = \\text{trees per hectare in park}$$<br/>This is the average number of trees per hectare in the park.<br/><br/>That matches <strong>Choice A &mdash; The average number of trees per hectare in the park</strong>."
+      "title": "Interpret the variable",
+      "content": "Because $3$ is the number of hectares in the park, $x$ must be the number of trees per hectare in the park. The answer is <strong>A</strong>."
     }
   ]
 }

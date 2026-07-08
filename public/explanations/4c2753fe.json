@@ -1,0 +1,19 @@
+{
+  "questionId": "4c2753fe",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the monthly rate",
+      "content": "The shrub grows $57$ centimeters every $m$ months, so its average monthly growth rate is\n$$\\frac{57}{m}$$\ncentimeters per month."
+    },
+    {
+      "title": "Convert years to months",
+      "content": "There are $12$ months in a year, so $k$ years is $12k$ months."
+    },
+    {
+      "title": "Multiply rate by time",
+      "content": "Multiply the monthly rate by the number of months.\n$$\\frac{57}{m}\\cdot12k=\\frac{684k}{m}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

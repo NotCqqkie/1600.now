@@ -1,0 +1,15 @@
+{
+  "questionId": "31032367",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name both soundscapes",
+      "content": "The student's goal is to indicate that both soundscapes are on the list. The relevant notes identify the bell at Matsumoto Castle and the crickets on the banks of the Kamo River as listed soundscapes."
+    },
+    {
+      "title": "Exclude partial choices",
+      "content": "A mentions only the bell, B mentions only the crickets, and D describes the list without naming either soundscape. The effective choice must include both listed sounds in one statement. The answer is <strong>C</strong>."
+    }
+  ]
+}

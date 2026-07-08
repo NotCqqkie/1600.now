@@ -1,0 +1,15 @@
+{
+  "questionId": "7dd38624",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the table",
+      "content": "Find the row for an air temperature of $29^{\\circ}\\text{F}$ and the column for a wind speed of $15$ miles per hour."
+    },
+    {
+      "title": "Read the intersection",
+      "content": "The entry at that row and column is the wind chill temperature. Disregard the degree symbol when entering it. The answer is <strong>18</strong>."
+    }
+  ]
+}

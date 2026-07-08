@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the daily-gain inequality",
-      "content": "The elephant starts at $210$ pounds and gains more than $2$ but less than $3$ pounds per day. After $d$ days, the possible weight is:<br/>$$210+2d\\lt w\\lt210+3d$$"
+      "title": "Write the weight range",
+      "content": "The elephant starts at $210$ pounds. After $d$ days, gaining more than $2$ but less than $3$ pounds per day gives this range:<br/>$$210+2d\\lt w\\lt210+3d$$"
     },
     {
-      "title": "Substitute 365 days",
+      "title": "Substitute the number of days",
       "content": "Use $d=365$:<br/>$$210+2(365)\\lt w\\lt210+3(365)$$"
     },
     {
       "title": "Compute the endpoints",
-      "content": "$$210+730\\lt w\\lt210+1095$$<br/>$$940\\lt w\\lt1305$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The possible weights are represented by $940\\lt w\\lt1305$, which is choice D. Choice C (&lsquo;$730 \\lt w \\lt 1,095$&rsquo;) is only the weight gained; it forgets to add the starting $210$ pounds."
+      "content": "Evaluate both ends of the range:<br/>$$210+730\\lt w\\lt210+1{,}095$$<br/>$$940\\lt w\\lt1{,}305$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

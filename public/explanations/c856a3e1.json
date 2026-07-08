@@ -1,0 +1,15 @@
+{
+  "questionId": "c856a3e1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the action clue",
+      "content": "The narrator says, \"I place my keys on the bowl.\" The context describes setting keys down in a location, not opening something, taking something away, or ordering items by rank."
+    },
+    {
+      "title": "Match the physical action",
+      "content": "Choice A means to open a lock, which does not fit setting keys on a bowl. Choice C means to take away, the opposite of the action described. Choice D means to order by grade or position, which is unrelated. The remaining choice means to set something somewhere. The answer is <strong>B</strong>."
+    }
+  ]
+}

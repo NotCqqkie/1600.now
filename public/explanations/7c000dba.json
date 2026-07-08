@@ -1,0 +1,19 @@
+{
+  "questionId": "7c000dba",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the lower bound",
+      "content": "The side $x$ and the side of length $7$ must add to more than the side of length $12$:<br/>$$x+7>12$$<br/>$$x>5$$"
+    },
+    {
+      "title": "Find the upper bound",
+      "content": "The two known sides must also add to more than the third side $x$:<br/>$$7+12>x$$<br/>$$19>x$$"
+    },
+    {
+      "title": "Combine the bounds",
+      "content": "Both bounds must hold at the same time, so the possible lengths are:<br/>$$5<x<19$$The answer is <strong>C</strong>."
+    }
+  ]
+}

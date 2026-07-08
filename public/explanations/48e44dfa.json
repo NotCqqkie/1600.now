@@ -1,0 +1,15 @@
+{
+  "questionId": "48e44dfa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a restrictive appositive",
+      "content": "The phrase \"fellow OECD member nation Latvia\" uses the country name to identify which member nation is meant. Because the name is essential, it should not be set off from \"nation.\""
+    },
+    {
+      "title": "Rule out extra punctuation",
+      "content": "B uses a colon after a fragment, while C and D treat \"Latvia\" as nonessential with a comma or dash. No punctuation is needed between the noun and the identifying name. The answer is <strong>A</strong>."
+    }
+  ]
+}

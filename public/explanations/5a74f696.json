@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Choose the right model",
-      "content": "Doubling at a fixed interval is exponential growth with base 2. The standard form is $$M(t) = M_0 \\cdot 2^{t/T},$$ where $M_0$ is the starting value and $T$ is the doubling period."
+      "title": "Use a doubling model",
+      "content": "The account starts at $940$ dollars and doubles every $12$ years. Doubling means multiplying by $2$ once every $12$ years."
     },
     {
-      "title": "Plug in the given values",
-      "content": "The account starts at $M_0 = 940$ dollars and doubles every $T = 12$ years, giving $$M(t) = 940 \\cdot 2^{t/12}.$$ Quick check at $t=12$: $940 \\cdot 2^1 = 1880$, which is double the original &mdash; correct."
-    },
-    {
-      "title": "Evaluate the choices",
-      "content": "<ul><li><strong>A.</strong> $M(t)=940\\left(\\frac{1}{2}\\right)^{t/12}$ &mdash; this halves every 12 years, the opposite of doubling.</li><li><strong>B.</strong> $M(t)=940\\left(\\frac{1}{12}\\right)^{t/2}$ &mdash; decays toward zero, not doubling.</li><li><strong>C.</strong> $M(t)=940(2)^{t/12}$ &mdash; doubles every 12 years as required.</li><li><strong>D.</strong> $M(t)=940(12)^{t/2}$ &mdash; grows twelvefold every 2 years, far too fast.</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Write the exponent",
+      "content": "After $t$ years, the number of $12$-year periods is\n$$\n\\frac{t}{12}\n$$\nSo the model is\n$$\nM(t)=940(2)^{\\frac{t}{12}}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

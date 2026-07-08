@@ -1,0 +1,22 @@
+{
+  "questionId": "45482deb",
+  "correctAnswer": "25",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Make one quadratic equation",
+      "content": "Set the two expressions for $y$ equal to each other.\n$$-0.5=x^2+10x+a$$\n$$x^2+10x+a+0.5=0$$"
+    },
+    {
+      "title": "Require no real solutions",
+      "content": "A quadratic has no real solutions when its discriminant is negative. Here $A=1$, $B=10$, and $C=a+0.5$.\n$$B^2-4AC<0$$\n$$10^2-4(1)(a+0.5)<0$$",
+      "desmosExpressions": [
+        "y_1=[0]"
+      ]
+    },
+    {
+      "title": "Find the least integer",
+      "content": "Now solve the inequality.\n$$100-4a-2<0$$\n$$98-4a<0$$\n$$98<4a$$\n$$24.5<a$$\nSince $a$ is a positive integer, use the least integer greater than $24.5$. The answer is <strong>25</strong>."
+    }
+  ]
+}

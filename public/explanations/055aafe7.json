@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding side ratios",
-      "content": "The similarity statement gives the correspondence $A\\leftrightarrow X$, $B\\leftrightarrow Y$, and $C\\leftrightarrow Z$, so $AB$ corresponds to $XY$ and $BC$ corresponds to $YZ$."
+      "title": "Match corresponding sides",
+      "content": "The similarity statement gives $AB$ corresponding to $XY$ and $BC$ corresponding to $YZ$. Use those corresponding pairs in a proportion because similar triangles have equal side ratios."
     },
     {
-      "title": "Identify corresponding sides and set up proportion",
-      "content": "Since $A \\leftrightarrow X$, $B \\leftrightarrow Y$, and $C \\leftrightarrow Z$, the sides correspond as: $AB \\leftrightarrow XY$ and $BC \\leftrightarrow YZ$.<br/>For similar triangles, the ratios of corresponding sides are equal:<br/>$$\\frac{AB}{XY} = \\frac{BC}{YZ}$$<br/>Substituting the known values:<br/>$$\\frac{160}{XY} = \\frac{640}{72}$$"
+      "title": "Set up the proportion",
+      "content": "The side ratios must match.\n\n$$\\frac{AB}{XY}=\\frac{BC}{YZ}$$\n\nSubstitute the known side lengths.\n\n$$\\frac{160}{XY}=\\frac{640}{72}$$"
     },
     {
-      "title": "Cross multiply and solve for XY",
-      "content": "Cross multiply to eliminate the fractions:<br/>$$160 \\times 72 = 640 \\times XY$$<br/>$$11,520 = 640 \\times XY$$<br/>Divide both sides by 640:<br/>$$XY = \\frac{11,520}{640} = 18$$<br/>That matches <strong>Choice D &mdash; $18$</strong>."
+      "title": "Solve for the side length",
+      "content": "Cross multiply and divide to isolate $XY$.\n\n$$160(72)=640(XY)$$\n\n$$11{,}520=640(XY)$$\n\n$$18=XY$$\n\nThe answer is <strong>D</strong>."
     }
   ]
 }

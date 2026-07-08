@@ -1,0 +1,22 @@
+{
+  "questionId": "f40e743a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the rate of change",
+      "content": "The function is:\n$$\nT(x)=67-8x\n$$\nThe coefficient of $x$ is $-8$, so the temperature changes by $-8$ degrees Fahrenheit each hour."
+    },
+    {
+      "title": "Convert drop to decrease",
+      "content": "A change of $-8$ degrees means the temperature decreases by $8$ degrees each hour.",
+      "desmosExpressions": [
+        "y = 67 - 8x \\{1 \\leq x \\leq 5\\}"
+      ]
+    },
+    {
+      "title": "Choose the hourly decrease",
+      "content": "The estimated decrease per hour is $8$ degrees Fahrenheit. The answer is <strong>B</strong>."
+    }
+  ]
+}

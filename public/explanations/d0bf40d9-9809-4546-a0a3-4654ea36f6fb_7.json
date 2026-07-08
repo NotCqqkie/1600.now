@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall exponential growth form",
-      "content": "When $y$ grows by a fixed percent for each unit increase in $x$, the relationship is:<br/>$$y = y_0 (1 + r)^x$$<br/>where $y_0$ is the value at $x = 0$ and $r$ is the growth rate as a decimal."
+      "title": "Use exponential growth form",
+      "content": "An exponential model with initial value $90$ and growth rate $20\\%$ has the form $y=90(1+r)^x$, where $r=0.20$."
     },
     {
-      "title": "Plug in the values",
-      "content": "$y_0 = 90$ and $r = 0.20$ (20%):<br/>$$y = 90(1.20)^x$$<br/>The factor $1.20$ means the value is multiplied by $1.20$ each time $x$ increases by $1$. That matches <strong>A</strong>."
+      "title": "Build the growth factor",
+      "content": "Add the growth rate to $1$.<br/>$$1+0.20=1.20$$ The model is $y=90(1.20)^x$. The answer is <strong>A</strong>."
     }
   ]
 }

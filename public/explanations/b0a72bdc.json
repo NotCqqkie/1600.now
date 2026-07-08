@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the radius from standard form",
-      "content": "A circle in standard form has right side $r^2$. Find the radius by taking the square root, then double it to get the diameter."
-    },
-    {
-      "title": "Identify the radius using standard circle form",
-      "content": "The equation $(x+4)^2 + (y-6)^2 = 25$ is in the standard form for a circle. The right side gives us $r^2 = 25$.",
+      "title": "Read the radius",
+      "content": "A circle in standard form has the squared radius on the right side. Here the equation has right side $25$, so\n$$\nr^2=25\n$$",
       "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
     },
     {
-      "title": "Calculate the diameter",
-      "content": "From $r^2 = 25$, we get $r = \\sqrt{25} = 5$. Since diameter equals twice the radius: $$d = 2(5) = 10$$<br/><br/>This matches choice B."
+      "title": "Double the radius",
+      "content": "The radius is\n$$\nr=\\sqrt{25}=5\n$$\nThe diameter is twice the radius:\n$$\nd=2(5)=10\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

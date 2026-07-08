@@ -1,0 +1,15 @@
+{
+  "questionId": "b144ceea",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the requested input",
+      "content": "The variable $x$ is the number of years after the 2000 census. Two years after the census means $x=2$."
+    },
+    {
+      "title": "Read and convert",
+      "content": "At $x=2$, the graph is about $4.3$ on the $y$-axis. Since $y$ is measured in thousands,\n$$\n4.3\\cdot1{,}000=4{,}300\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

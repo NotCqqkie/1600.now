@@ -1,0 +1,19 @@
+{
+  "questionId": "98226a4a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare both sides",
+      "content": "The two sides are the same expression written in a different order.<br/>$$x^2-97=-97+x^2$$<br/>This is true for every value of $x$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph both sides as separate functions. They are the same graph, so every real $x$ works and there are infinitely many solutions. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = x^{2} - 97",
+        "y = -97 + x^{2}"
+      ]
+    }
+  ]
+}

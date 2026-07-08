@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify customers who did not purchase gasoline",
-      "content": "From the <em>Gasoline not purchased</em> row (Total column), there are 50 customers who did not purchase gasoline out of 135 total customers."
+      "title": "Find the favorable total",
+      "content": "The row labeled Gasoline not purchased has a total of $50$ customers."
     },
     {
-      "title": "Apply the probability formula",
-      "content": "Probability is calculated as: $$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$<br/>Therefore: $$P(\\text{did not purchase gasoline}) = \\frac{50}{135}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use all customers as total",
+      "content": "There were $135$ customers total, so the probability is:<br/>$$\\frac{50}{135}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

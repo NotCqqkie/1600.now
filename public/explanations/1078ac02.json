@@ -1,0 +1,19 @@
+{
+  "questionId": "1078ac02",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Start with\n$$\nx(11x+25)+c=4\n$$\nExpand and move all terms to one side:\n$$\n11x^2+25x+(c-4)=0\n$$"
+    },
+    {
+      "title": "Match the quadratic formula",
+      "content": "The denominator in the quadratic formula is $2(11)=22$, matching the given solution. Therefore the expression under the radical must be $185$."
+    },
+    {
+      "title": "Use the discriminant",
+      "content": "Set the discriminant equal to $185$:\n$$\n25^2-4(11)(c-4)=185\n$$\n$$\n625-44c+176=185\n$$\n$$\n801-44c=185\n$$\n$$\nc=14\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

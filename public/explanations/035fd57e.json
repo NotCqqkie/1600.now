@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Form, Structure, and Sense question testing verb tense. The word &quot;Currently&quot; at the start of the sentence signals that the action is happening right now, in the present. The correct verb must use simple present tense to match that time frame."
+      "title": "Use the time signal",
+      "content": "\"Currently\" signals that the sentence is describing the frog's present-day range. The verb must be in the present tense and agree with the singular subject \"range.\""
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; includes</strong>: Simple present tense, which correctly expresses a present-time fact established by &quot;Currently.&quot; &#10003;</li><li><strong>Choice B &mdash; included</strong>: Simple past tense, which places the action in the past and contradicts &quot;Currently.&quot; &#10007;</li><li><strong>Choice C &mdash; will have included</strong>: Future perfect tense, which describes an action completed at some future point &mdash; inconsistent with &quot;Currently.&quot; &#10007;</li><li><strong>Choice D &mdash; had included</strong>: Past perfect tense, which describes an action completed before another past event &mdash; inconsistent with &quot;Currently.&quot; &#10007;</li></ul>That matches <strong>Choice A &mdash; includes</strong>."
+      "title": "Reject past and future tenses",
+      "content": "B places the range in the past. C uses future perfect, which points to completion before a future time. D uses past perfect, which points to completion before another past event. The answer is <strong>A</strong>."
     }
   ]
 }

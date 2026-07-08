@@ -1,0 +1,15 @@
+{
+  "questionId": "562040d1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the support needed",
+      "content": "The experts' claim is that high-speed rail is more cost-effective than highway systems. A supporting finding should compare what each system costs with what each system delivers, such as how much traffic capacity each option provides for the money spent."
+    },
+    {
+      "title": "Reject side issues",
+      "content": "Choice B focuses on old rail infrastructure, which could make rail harder or more expensive to build. Choice C mentions a long-term maintenance fund, not whether rail gives more value than highways. Choice D discusses travel preferences in Turkey and Germany rather than cost-effectiveness in the United States. Choice A directly says highway capacity is more expensive relative to accommodated traffic than high-speed rail capacity is. The answer is <strong>A</strong>."
+    }
+  ]
+}

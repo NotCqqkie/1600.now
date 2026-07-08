@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $48$, so the answer is <strong>C</strong>, 48. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "To find $f(2)$, substitute $2$ for $x$ in the function, then evaluate the resulting expression.<br/>$$f(2)=3\\cdot4^2$$"
     },
     {
-      "title": "Substitute x = 2 into the function",
-      "content": "We're given $f(x) = 3 \\cdot 4^x$ and need to find $f(2)$. Substitute $x = 2$ directly into the function: $$f(2) = 3 \\cdot 4^2$$"
-    },
-    {
-      "title": "Evaluate the exponential and multiply",
-      "content": "Evaluate $4^2 = 16$. Then multiply: $$f(2) = 3 \\cdot 16 = 48$$ That confirms <strong>C</strong> is correct."
+      "title": "Evaluate the expression",
+      "content": "First evaluate the exponent, then multiply.<br/>$$4^2=16$$<br/>$$3\\cdot16=48$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

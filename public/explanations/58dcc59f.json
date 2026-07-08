@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variables and write the area equation",
-      "content": "Let <em>w</em> = width (feet). Since the length is 7 feet longer, length = <em>w</em> + 7. Using the area formula:<br/>$$w(w + 7) = 120$$"
+      "title": "Write the dimensions",
+      "content": "Let $w$ be the width of the patio. The length is $7$ feet longer, so the length is $w+7$."
     },
     {
-      "title": "Expand and rearrange to standard form",
-      "content": "Expand the left side:<br/>$$w^2 + 7w = 120$$<br/>Rearrange:<br/>$$w^2 + 7w - 120 = 0$$"
+      "title": "Use the area equation",
+      "content": "The area is length times width:<br/>$$w(w+7)=120$$<br/>$$w^2+7w-120=0$$"
     },
     {
-      "title": "Factor and solve for the dimensions",
-      "content": "Find two numbers that multiply to <em>-120</em> and add to <em>7</em>. These are <em>15</em> and <em>-8</em>:<br/>$$(w + 15)(w - 8) = 0$$<br/>This gives <em>w</em> = -15 or <em>w</em> = 8. Since width must be positive, <em>w</em> = 8 feet.<br/><br/>Therefore, the length is <em>w</em> + 7 = 8 + 7 = <strong>15 feet</strong>."
+      "title": "Find the positive width",
+      "content": "Factor the quadratic:<br/>$$(w+15)(w-8)=0$$<br/>The positive width is $8$, so the length is<br/>$$8+7=15$$<br/>The answer is <strong>15</strong>."
     }
   ]
 }

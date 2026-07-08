@@ -1,0 +1,15 @@
+{
+  "questionId": "f8b62e0c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the passage overview",
+      "content": "The passage introduces researchers' interest in how wooden shipwrecks affect underwater ecosystems, then narrows to Elena Mugge and colleagues' study of seafloor microbial communities. It describes their method of placing pine and oak pieces at different distances from two shipwrecks and ends with a finding about bacterial community composition."
+    },
+    {
+      "title": "Reject unsupported purposes",
+      "content": "<ul><li><strong>Choice A - To argue that wooden shipwrecks affect fish more than they do microbial communities</strong>: Fish are never discussed, and the study focuses on bacteria, archaea, and fungi.</li><li><strong>Choice B - To describe how the first shipwreck in the Gulf of Mexico was discovered</strong>: The text is not a discovery story; it describes a research study using two shipwrecks.</li><li><strong>Choice C - To detail the composition of HMS <em>Conqueror</em></strong>: HMS <em>Conqueror</em> appears only as opening context about historical shipwrecks, not as the main subject.</li></ul>The passage's structure is an overview of a study on wooden shipwrecks and microbial communities. The answer is <strong>D</strong>."
+    }
+  ]
+}

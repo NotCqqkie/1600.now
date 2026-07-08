@@ -1,0 +1,15 @@
+{
+  "questionId": "ea7c07e2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find zero observations",
+      "content": "The sentence needs an example of a species that was entirely absent from the tide pool at particular times. The graph shows striated rockskipper at zero in both January and April of 2001."
+    },
+    {
+      "title": "Reject nonzero examples",
+      "content": "Choice A, Choice C, and Choice D each describe a species-month combination with at least one observed fish. Those examples do not fit the phrase <em>did not observe even one</em>. The answer is <strong>B</strong>."
+    }
+  ]
+}

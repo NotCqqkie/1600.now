@@ -1,0 +1,15 @@
+{
+  "questionId": "a2aa979e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the needed support",
+      "content": "Romero and Chen concluded that delayed onset of subfreezing autumn temperatures gives invasive species an advantage in Alaska. A strong supporting finding must therefore connect the late autumn temperature shift to a larger benefit for the invasive plant than for the native plant. It should not merely show both plants changing, and it should not introduce another possible cause."
+    },
+    {
+      "title": "Compare the findings",
+      "content": "Choice B says both species produced more leaves in years with late subfreezing onset, but those years also had early spring growing seasons, so the effect cannot be tied cleanly to autumn delays. Choice C says the invasive plant stopped producing leaves sooner than the native plant in late-onset years, which weakens the conclusion. Choice D says neither species varied significantly in when leaf production ended, leaving no invasive advantage. The remaining finding shows the invasive knotgrass extending leaf production much more than the native dogwood when subfreezing temperatures arrived late. The answer is <strong>A</strong>."
+    }
+  ]
+}

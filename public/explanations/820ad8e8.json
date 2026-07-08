@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the point structure",
-      "content": "Each draw earns 1 point, so $d$ draws yield $1 \\cdot d = d$ points. Each win earns 4 points, so $w$ wins yield $4 \\cdot w = 4w$ points."
+      "title": "Translate each point source",
+      "content": "Each draw earns $1$ point, so $d$ draws earn $d$ points. Each win earns $4$ points, so $w$ wins earn $4w$ points."
     },
     {
-      "title": "Form the total equation",
-      "content": "Total points = points from draws + points from wins = 46:<br/>$$d + 4w = 46$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>A)</strong> $d + 4w = 46$ &mdash; 1 point per draw and 4 per win, matching the problem. Correct.</li><li><strong>B)</strong> $4d + w = 46$ &mdash; swaps the point values, giving draws 4 points and wins 1 point. Wrong.</li><li><strong>C)</strong> $d + \\frac{w}{4} = 46$ &mdash; divides wins by 4 instead of multiplying. Wrong.</li><li><strong>D)</strong> $\\frac{d}{4} + w = 46$ &mdash; divides draws by 4 and gives only 1 point per win. Wrong.</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Set the total points",
+      "content": "The participant has earned $46$ points total, so add the points from draws and wins.<br/>$$d+4w=46$$<br/>The swapped expression would give draws $4$ points and wins $1$ point. The answer is <strong>A</strong>."
     }
   ]
 }

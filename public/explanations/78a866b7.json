@@ -1,0 +1,15 @@
+{
+  "questionId": "78a866b7",
+  "correctAnswer": "25110",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the constant",
+      "content": "Use the cord with circumference $0.75$ inches and strength $697.5$ pounds:\n$$\n697.5=800a(0.75)^2\n$$\nSince $(0.75)^2=0.5625$, this becomes\n$$\n697.5=450a\n$$\nso $a=1.55$."
+    },
+    {
+      "title": "Use the new circumference",
+      "content": "For a circumference of $4.50$ inches, substitute into the model: $y=800(1.55)(4.50)^2=1{,}240(20.25)=25{,}110$. The answer is <strong>25110</strong>."
+    }
+  ]
+}

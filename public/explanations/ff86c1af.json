@@ -1,0 +1,15 @@
+{
+  "questionId": "ff86c1af",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Calculate depth ranges",
+      "content": "The question asks for the greatest range between minimum and maximum depths. For each coral species, subtract the minimum depth from the maximum depth and compare the results."
+    },
+    {
+      "title": "Pick the widest spread",
+      "content": "A, B, and D each have smaller differences between minimum and maximum depth. The species with the greatest difference between maximum and minimum depth is the remaining species. The answer is <strong>C</strong>."
+    }
+  ]
+}

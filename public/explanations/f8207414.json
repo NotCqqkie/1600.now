@@ -1,0 +1,19 @@
+{
+  "questionId": "f8207414",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the introductory phrase",
+      "content": "The sentence begins with an introductory prepositional phrase: With almost two millennia of climate data in its tree rings. A comma should separate that phrase from the main clause."
+    },
+    {
+      "title": "Reject bad boundaries",
+      "content": "Choice A incorrectly uses and to connect the phrase to the main clause. Choice C turns the introductory phrase into a fragment. Choice D uses a semicolon even though the first part is not an independent clause."
+    },
+    {
+      "title": "Choose the comma",
+      "content": "A comma after rings correctly marks the boundary before the main clause, a single tree like this can tell the history of the world. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ce9a2f3a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use Text 1's skepticism",
+      "content": "Text 2 presents Silva and colleagues' method as a possible improvement in automated genre classification. Text 1, however, questions whether genre classification is useful in the first place, calling genre categories ambiguous, subjective, and simplistic."
+    },
+    {
+      "title": "Reject technical praise",
+      "content": "Choice A would treat better classification as a promising advance, but Text 1 would be less interested in that technical improvement because it doubts the value of genre categories. Choice C introduces listener enjoyment, which is not the point of disagreement in either text. Choice D focuses on whether some genres are easier for systems to recognize, while Text 1's objection is broader. The response most consistent with Text 1 is that genre may not be the best framework for understanding music. The answer is <strong>B</strong>."
+    }
+  ]
+}

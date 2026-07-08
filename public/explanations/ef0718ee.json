@@ -1,0 +1,19 @@
+{
+  "questionId": "ef0718ee",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cost source",
+      "content": "The passage contrasts a short, straightforward marketing study with HILDA, a longitudinal study tracking economic well-being trends that can take a long time to develop. The funding burden comes from having to collect data over many years."
+    },
+    {
+      "title": "Reject side issues",
+      "content": "Choice A explains why marketing studies may be easier, not why HILDA is expensive. Choice B questions whether the sample is large enough, which is not stated. Choice D shifts to long-term marketing trends, not economic well-being."
+    },
+    {
+      "title": "Connect trends and time",
+      "content": "The remaining choice explains that long-term economic trends are hard to find without collecting data over many years. The answer is <strong>C</strong>."
+    }
+  ]
+}

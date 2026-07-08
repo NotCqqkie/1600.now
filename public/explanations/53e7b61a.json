@@ -1,0 +1,19 @@
+{
+  "questionId": "53e7b61a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cofunction identity",
+      "content": "Since\n$$\\frac{\\sin X}{\\cos Y}=1$$\nit follows that\n$$\\sin X=\\cos Y$$\nFor acute angles, sine of one angle equals cosine of its complement."
+    },
+    {
+      "title": "Relate the acute angles",
+      "content": "Because both angles are acute, $\\sin X=\\cos Y$ means $X$ and $Y$ are complementary. Therefore their measures add to $90^\\circ$."
+    },
+    {
+      "title": "Solve for the angle",
+      "content": "Use $Y=27^\\circ$:\n$$X+27^\\circ=90^\\circ$$\n$$X=63^\\circ$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -155,7 +155,7 @@ const Index = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Full Question Bank</h3>
-                <p className="text-sm text-muted-foreground">5,880+ practice questions</p>
+                <p className="text-sm text-muted-foreground">8,000+ practice questions</p>
               </div>
             </div>
           </Card>
@@ -248,11 +248,6 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="border-t mt-12">
-        <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
-          <p>© 2024 1600.now - SAT Practice Platform</p>
-        </div>
-      </footer>
     </div>
   );
 };

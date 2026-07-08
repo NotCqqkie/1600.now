@@ -1,0 +1,15 @@
+{
+  "questionId": "221dee44",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence's main subject is \"Antiquarians,\" and the main verb phrase is \"might instead procure.\" The blank should describe those antiquarians, not create another main verb before \"might procure.\" A participle can modify the noun while leaving the modal verb as the sentence's main action."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "A, C, and D are finite verb forms. Each would make \"Antiquarians\" appear to have a separate main verb before \"might instead procure,\" producing an uncoordinated two-verb structure. The participle form correctly describes antiquarians who want to read an extant work. The answer is <strong>B</strong>."
+    }
+  ]
+}

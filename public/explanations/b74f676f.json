@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks which verb form conforms to Standard English. The skill is parallel structure (verb-form agreement within a compound predicate). The decisive clue is the verb &quot;premiered,&quot; which is past tense &mdash; the blank is the second verb joined to it by &quot;and,&quot; so it must also be simple past tense to match."
+      "title": "Match the compound verb",
+      "content": "The sentence says it was in Chicago that Price premiered her First Symphony and did something else. The second verb should be parallel with premiered, which is simple past tense."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; developing</strong>: A present participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered... and developing&quot; violates parallel structure. &#10007;</li><li><strong>Choice B &mdash; developed</strong>: Simple past tense matches &quot;premiered,&quot; forming a grammatically parallel compound predicate: &quot;premiered... and developed.&quot; &#10003;</li><li><strong>Choice C &mdash; to develop</strong>: An infinitive cannot function as a parallel verb in a compound predicate; &quot;premiered... and to develop&quot; violates parallel structure. &#10007;</li><li><strong>Choice D &mdash; having developed</strong>: A perfect participle cannot serve as the second verb in a compound predicate alongside a simple past verb; &quot;premiered... and having developed&quot; violates parallel structure. &#10007;</li></ul>That is the correct answer."
+      "title": "Keep verbs parallel",
+      "content": "A is a participle, C is an infinitive, and D is a perfect participle; none matches the simple past verb premiered in the compound predicate. The sentence needs a second simple past verb. The answer is <strong>B</strong>."
     }
   ]
 }

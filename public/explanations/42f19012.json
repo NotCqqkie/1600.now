@@ -1,28 +1,15 @@
 {
-  "qid": "42f19012",
   "questionId": "42f19012",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $\\sqrt[64]{{a}^{56}}$."
+      "title": "Rewrite the exponent",
+      "content": "The choices all use $a^{56}$ inside a radical, so rewrite the original exponent with numerator $56$. Multiplying the numerator and denominator by the same number keeps the exponent equal to the original value.<br/>$$\\frac{7}{8}=\\frac{7\\cdot 8}{8\\cdot 8}=\\frac{56}{64}$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Step 1",
-      "content": "Recall that $a^{p/q} = \\sqrt[q]{a^p}$. Here the exponent is $\\frac{7}{8}$, so $a^{7/8} = \\sqrt[8]{a^{7}}$."
-    },
-    {
-      "title": "Step 2",
-      "content": "To match the form $\\sqrt[n]{a^{56}}$ used in the answer choices, scale the exponent so the numerator becomes 56. Multiply numerator and denominator by 8: $$\\frac{7}{8} = \\frac{7 \\times 8}{8 \\times 8} = \\frac{56}{64}$$ so $a^{7/8} = a^{56/64} = \\sqrt[64]{a^{56}}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li>A: $\\sqrt[8]{a^{56}} = a^{56/8} = a^{7}$. This equals $a^{7}$, not $a^{7/8}$. Eliminated.</li><li>B: $\\sqrt[64]{a^{56}} = a^{56/64} = a^{7/8}$. This equals the given expression exactly. <strong>B</strong> is correct.</li><li>C: $\\sqrt[49]{a^{56}} = a^{56/49} = a^{8/7}$. The exponent $8/7 \\neq 7/8$. Eliminated.</li><li>D: $\\sqrt[7]{a^{56}} = a^{56/7} = a^{8}$. This equals $a^{8}$, not $a^{7/8}$. Eliminated.</li></ul>"
+      "title": "Convert to radical form",
+      "content": "A fractional exponent can be written as a radical: $a^{m/n}$ is the $n$th root of $a^m$. With denominator $64$ and numerator $56$, the expression becomes a $64$th root.<br/>$$a^{7/8}=a^{56/64}=\\sqrt[64]{a^{56}}$$<br/>The answer is <strong>B</strong>."
     }
-  ],
-  "section": "Math"
+  ]
 }

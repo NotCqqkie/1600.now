@@ -1,0 +1,15 @@
+{
+  "questionId": "b29f7a8b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "After the semicolon, the subject is \"such symbiotic relationships.\" The inserted \"wherein\" clause modifies those relationships, so the sentence still needs a finite main verb to connect the subject to \"extensive networks.\""
+    },
+    {
+      "title": "Rule out nonfinite forms",
+      "content": "A, B, and C are nonfinite forms, so they cannot serve as the main verb of the independent clause after the semicolon. The plural subject needs a finite present-tense verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

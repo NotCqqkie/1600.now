@@ -1,0 +1,15 @@
+{
+  "questionId": "83c0b5d0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the right side",
+      "content": "Evaluate $2(6)$ first.<br/>$$7x+10=12+8x$$"
+    },
+    {
+      "title": "Solve the linear equation",
+      "content": "Move the $x$-terms to one side and the constants to the other.<br/>$$7x+10=12+8x$$<br/>$$-x=2$$<br/>$$x=-2$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

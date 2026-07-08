@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Lightbulb } from "lucide-react";
@@ -26,7 +26,6 @@ interface ExplanationWindowProps {
   windowPortalContainer?: HTMLElement | null;
   windowBoundsElement?: HTMLElement | null;
   contentSplitExitPosition?: number;
-  sidebarExitHeaderMaxWidth?: number;
   sidebarExitMainMaxWidth?: number;
 }
 
@@ -55,7 +54,6 @@ export const ExplanationWindow = ({
   windowPortalContainer,
   windowBoundsElement,
   contentSplitExitPosition,
-  sidebarExitHeaderMaxWidth,
   sidebarExitMainMaxWidth,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,7 +75,7 @@ export const ExplanationWindow = ({
       </div>
     ) : null;
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setIsOpen(false);
     autoOpenedRef.current = false;
   }, [questionId]);
@@ -169,7 +167,6 @@ export const ExplanationWindow = ({
         portalContainer={windowPortalContainer}
         boundsElement={windowBoundsElement}
         contentSplitExitPosition={contentSplitExitPosition}
-        sidebarExitHeaderMaxWidth={sidebarExitHeaderMaxWidth}
         sidebarExitMainMaxWidth={sidebarExitMainMaxWidth}
       >
         <div className="w-full h-full flex flex-col overflow-hidden">

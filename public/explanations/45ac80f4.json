@@ -1,0 +1,19 @@
+{
+  "questionId": "45ac80f4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial value",
+      "content": "The condo is currently worth $186{,}000$, so an exponential model must start with $186{,}000$ when $x=0$."
+    },
+    {
+      "title": "Convert percent growth",
+      "content": "A $3.1\\%$ yearly increase means the value is multiplied by\n$$\n1+0.031=1.031\n$$\neach year."
+    },
+    {
+      "title": "Build the growth function",
+      "content": "After $x$ years, the function is\n$$\nf(x)=186{,}000(1.031)^x\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

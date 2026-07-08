@@ -1,0 +1,15 @@
+{
+  "questionId": "bd7f22cf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the scale factor",
+      "content": "Surface area scales with the square of the edge-length scale factor. The edge-length scale factor from cube X to cube Y is<br/>$$\\frac{5}{96}$$"
+    },
+    {
+      "title": "Compute the area ratio",
+      "content": "Square the scale factor:<br/>$$(\\frac{5}{96})^2=\\frac{25}{9{,}216}$$The answer is <strong>A</strong>."
+    }
+  ]
+}

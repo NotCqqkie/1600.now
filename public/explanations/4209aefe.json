@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate x = 5 to the corresponding year",
-      "content": "Since $x$ represents the number of years after 1959, when $x = 5$, we're looking at the year $1959 + 5 = 1964$."
+      "title": "Translate the input",
+      "content": "The input $x$ is the number of years after $1959$. When $x=5$, the year is\n$$\n1959+5=1964\n$$"
     },
     {
-      "title": "Interpret f(5) approximately 249 in context",
-      "content": "The function $f(x) = 212(1.033)^x$ models the dollar value of the bank account.<br/><br/>When we compute $f(5)$, we get the account's value in dollars at year 1964.<br/><br/>Therefore, $f(5) \\approx 249$ means the account is approximately $249$ dollars in 1964.<br/><br/>This directly matches the correct answer - <strong>B</strong> is correct."
+      "title": "Interpret the function value",
+      "content": "The function value gives the bank account's value in dollars. So $f(5)$ being approximately $249$ means the estimated value is about $249$ dollars in $1964$. The answer is <strong>B</strong>."
     }
   ]
 }

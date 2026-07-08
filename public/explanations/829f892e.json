@@ -1,0 +1,15 @@
+{
+  "questionId": "829f892e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "In the relative clause, \"traces\" is already the finite verb: the digital resource traces the history of musical genres. The blank appears between commas, so it needs a nonfinite modifier explaining how the resource traces that history, not another full verb."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "Choice A, \"integrates,\" Choice B, \"is integrating,\" and Choice D, \"has integrated,\" are all finite verb forms. Any of them would compete with \"traces\" in the same clause without a conjunction. Choice C, \"integrating,\" forms a participial phrase that fits between the commas and modifies the action of tracing. The answer is <strong>C</strong>."
+    }
+  ]
+}

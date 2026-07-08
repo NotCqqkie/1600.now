@@ -1,0 +1,15 @@
+{
+  "questionId": "9009f763",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the second equation",
+      "content": "Rewrite the second fraction so it uses the given ratio.<br/>$$\\frac{cx}{5y}=\\frac{c}{5}\\cdot\\frac{x}{y}$$"
+    },
+    {
+      "title": "Substitute the known ratio",
+      "content": "Since $\\frac{x}{y}=68$, the second equation becomes<br/>$$\\frac{c}{5}\\cdot 68=68$$<br/>Divide both sides by $68$.<br/>$$\\frac{c}{5}=1$$<br/>Then multiply by $5$. The answer is <strong>5</strong>."
+    }
+  ]
+}

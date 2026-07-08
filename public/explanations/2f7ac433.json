@@ -1,0 +1,15 @@
+{
+  "questionId": "2f7ac433",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product property",
+      "content": "If a product equals $0$, at least one factor must equal $0$."
+    },
+    {
+      "title": "Solve both factors",
+      "content": "$$v-14=0$$$$v=14$$$$v-5=0$$$$v=5$$The solutions are $5$ and $14$. The answer is <strong>D</strong>."
+    }
+  ]
+}

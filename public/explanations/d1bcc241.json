@@ -1,0 +1,15 @@
+{
+  "questionId": "d1bcc241",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable term",
+      "content": "Subtract $63$ from both sides to get the term with $p$ alone.<br/>$$9p+63=369$$<br/>$$9p=369-63$$<br/>$$9p=306$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Divide by $9$ to solve for $p$.<br/>$$p=\\frac{306}{9}$$<br/>$$p=34$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

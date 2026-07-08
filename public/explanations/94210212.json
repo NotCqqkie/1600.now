@@ -1,0 +1,19 @@
+{
+  "questionId": "94210212",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the first intercept",
+      "content": "For $f(x)=a(2.7)^{x+b}$, the $y$-intercept occurs at $x=0$:\n$$\nf(0)=a(2.7)^b\n$$\nThat value requires evaluating the power, so it is not displayed directly as one constant or coefficient in equation I."
+    },
+    {
+      "title": "Check the second equation",
+      "content": "For $g(x)=a(2.7)^x+b$, substitute $0$ for the input:\n$$\ng(0)=a(2.7)^0+b=a+b\n$$\nThe equation shows $a$ and $b$ separately, not the combined intercept value $a+b$, so equation II also does not display it directly."
+    },
+    {
+      "title": "Choose neither equation",
+      "content": "Neither equation directly displays the $y$-coordinate of its $y$-intercept as a constant or coefficient. The answer is <strong>D</strong>."
+    }
+  ]
+}

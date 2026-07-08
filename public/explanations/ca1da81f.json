@@ -1,0 +1,15 @@
+{
+  "questionId": "ca1da81f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the sentence cleanly",
+      "content": "The first clause explains that the Suzuki method is rooted in several central tenets. The next idea must begin a new sentence: a participial phrase, \"Developed by Japanese violinist Shinichi Suzuki,\" modifies \"the method,\" the subject of the following clause."
+    },
+    {
+      "title": "Avoid comma-splice options",
+      "content": "Choices B and D keep the material in one sentence, leaving the independent clause about the method joined to the prior clause only by a comma. Choice C adds an awkward \"that,\" and still fails to create the needed sentence break. The period cleanly separates the two structures. The answer is <strong>A</strong>."
+    }
+  ]
+}

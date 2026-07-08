@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x=4$$<br/>$$y=5-x$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Graph the equations as written",
+      "content": "Enter the two equations exactly as they appear:<br/>$$x=4$$<br/>$$y=5-x$$<br/>The solution is the intersection point of the two graphs.",
       "desmosExpressions": [
         "x=4",
         "y=5-x"
       ]
     },
     {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>A</strong>, $1$."
+      "title": "Use substitution to verify",
+      "content": "The first equation gives $x=4$. Substitute that value into the second equation to find the requested $y$-value."
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Find the y-value",
+      "content": "Evaluate the expression:<br/>$$y=5-4=1$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

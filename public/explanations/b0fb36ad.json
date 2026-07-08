@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a subject-verb agreement question. The subject is &quot;The question,&quot; a singular noun. The long relative clause (&quot;of what cross-cultural traits&hellip; in the first place&quot;) modifies it but does not change its number. The blank must be a singular finite verb."
+      "title": "Find the head subject",
+      "content": "The subject is <em>The question</em>, which is singular. The long phrase about cross-cultural traits and pressures modifies that subject but does not make it plural."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; animates</strong>: Singular present-tense verb; agrees with the singular head noun &quot;question.&quot; &#10003;</li><li><strong>Choice B &mdash; have animated</strong>: Plural present-perfect verb; violates subject-verb agreement with singular &quot;question.&quot; &#10007;</li><li><strong>Choice C &mdash; animate</strong>: Bare-plural verb form; violates subject-verb agreement with singular &quot;question.&quot; &#10007;</li><li><strong>Choice D &mdash; animating</strong>: Nonfinite present participle; cannot serve as the finite main verb of the clause, leaving the sentence without a finite verb. &#10007;</li></ul>That is the correct answer."
+      "title": "Require a singular verb",
+      "content": "B and C are plural verb forms, so they do not agree with the singular subject. D is a participle and would leave the clause without a finite main verb. The sentence needs a singular finite verb. The answer is <strong>A</strong>."
     }
   ]
 }

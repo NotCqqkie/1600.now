@@ -1,0 +1,19 @@
+{
+  "questionId": "e8df0184",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the quantity clue",
+      "content": "The passage contrasts Mendel's team finding over one hundred satellites with many astronomers finding only one or two. The blank needs a word meaning numerous."
+    },
+    {
+      "title": "Eliminate mismatched meanings",
+      "content": "<ul><li><strong>Choice A</strong> describes lower quality, not a large number.</li><li><strong>Choice B</strong> means lacking pattern, not numerous.</li><li><strong>Choice D</strong> means probable, but the discoveries have already happened.</li></ul>"
+    },
+    {
+      "title": "Choose the quantity word",
+      "content": "Plentiful means existing in large amounts, so it matches the evidence that the team has spotted over one hundred satellites. The answer is <strong>C</strong>."
+    }
+  ]
+}

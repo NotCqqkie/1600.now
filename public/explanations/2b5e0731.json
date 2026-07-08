@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the cause and effect",
-      "content": "The mother wants to ensure her calf's safety (her desire). She releases an infrasonic call (her action). The blank must show why the action follows from the desire."
+      "title": "See the cause",
+      "content": "The mother elephant wants to make sure her calf is safe. The next sentence gives the action she takes because of that concern: she releases an infrasonic call."
     },
     {
-      "title": "Match the transition to the logic",
-      "content": "<em>For this reason</em> directly expresses causality: the mother's desire for safety motivates her action of releasing the call.<br/>The other choices don't fit this causal relationship; they introduce unrelated meanings like illustration, time shift, or parallelism.<br/><strong>B</strong> is correct."
+      "title": "Rule out other signals",
+      "content": "Choice A signals an example, Choice C signals a time shift, and Choice D signals similarity. None of those relationships explains why the mother releases the call."
+    },
+    {
+      "title": "Choose the causal transition",
+      "content": "For this reason connects the mother's concern for safety to the action she takes as a result. The answer is <strong>B</strong>."
     }
   ]
 }

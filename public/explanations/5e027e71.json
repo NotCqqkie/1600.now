@@ -1,0 +1,15 @@
+{
+  "questionId": "5e027e71",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero product property",
+      "content": "A product equals $0$ when at least one of its factors equals $0$. Set each factor equal to $0$.<br/>$$x=0$$<br/>$$x-2=0$$<br/>$$x+5=0$$"
+    },
+    {
+      "title": "List the solutions",
+      "content": "Solve the three simple equations.<br/>$$x=0$$<br/>$$x=2$$<br/>$$x=-5$$<br/>One listed solution is $0$. The answer is <strong>B</strong>."
+    }
+  ]
+}

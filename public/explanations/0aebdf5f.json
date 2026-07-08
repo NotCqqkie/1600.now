@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "The subject of the sentence is <strong>speakers of the English language</strong>, a plural noun phrase."
+      "title": "Match plural speakers",
+      "content": "The subject is speakers of the English language, which is plural. The verb must agree with that plural subject while expressing a general present-tense statement."
     },
     {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "A plural subject requires a plural verb form. <strong>Choice A &mdash; use</strong> is the plural present tense form that agrees with the plural subject. The other options are singular forms and violate the subject-verb agreement rule. That matches <strong>Choice A &mdash; use</strong>."
+      "title": "Reject singular forms",
+      "content": "B, C, and D are singular verb forms, so they do not agree with the plural subject. The plural present-tense verb form fits the sentence. The answer is <strong>A</strong>."
     }
   ]
 }

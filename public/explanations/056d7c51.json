@@ -1,0 +1,19 @@
+{
+  "questionId": "056d7c51",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear rule",
+      "content": "Using the table points $(3,9)$ and $(5,11)$, the slope is<br/>$$\\frac{11-9}{5-3}=1$$<br/>So the relationship has the form $p=c+b$."
+    },
+    {
+      "title": "Find the constant",
+      "content": "Substitute $(3,9)$ into $p=c+b$.<br/>$$9=3+b$$<br/>$$b=6$$<br/>Thus $p=c+6$."
+    },
+    {
+      "title": "Match the equation form",
+      "content": "Rewrite $p=c+6$ by subtracting $p$ from both sides.<br/>$$c-p=-6$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e257d15f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the moderated effect",
+      "content": "The earlier experiments found that products seemed more valuable when the product-to-space ratio was low, meaning the products were spaced farther apart. The researchers then ask whether store context changes that spacing effect. If an inexpensive store context moderates the effect, the far-apart versus close-together difference should still point in the original direction but should be weaker at Forever 21 than at Tiffany & Co."
+    },
+    {
+      "title": "Check the store comparison",
+      "content": "A makes far-apart jewelry less valuable than close-together jewelry at both stores, reversing the original effect. B compares Tiffany & Co. with Forever 21 at each spacing level instead of measuring the spacing effect within each store. D also compares stores at matching spacing levels and never establishes the needed far-apart advantage. C gives a substantial spacing effect at Tiffany & Co. but only a slight one at Forever 21, showing moderation by the inexpensive store context. The answer is <strong>C</strong>."
+    }
+  ]
+}

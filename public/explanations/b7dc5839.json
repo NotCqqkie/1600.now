@@ -1,0 +1,15 @@
+{
+  "questionId": "b7dc5839",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the reversal",
+      "content": "The first sentence says a parent may have a trait while none of that parent's children inherit it. The next sentence says the grandchildren could still inherit the trait. The transition must signal contrast despite the previous statement."
+    },
+    {
+      "title": "Reject additive signals",
+      "content": "B would introduce a more specific detail, while C and D add information in the same direction. The needed transition means \"despite that,\" which fits the trait skipping one generation and appearing in the next. The answer is <strong>A</strong>."
+    }
+  ]
+}

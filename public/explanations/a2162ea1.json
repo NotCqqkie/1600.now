@@ -1,19 +1,15 @@
 {
   "questionId": "a2162ea1",
-  "qid": "a2162ea1",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "text": "Identify the sample mean and margin of error: the estimated average is $31.4$ pounds with a margin of error of $0.23$ pounds."
+      "title": "Find the interval bounds",
+      "content": "Use the estimate $31.4$ and the margin of error $0.23$ to find the lower and upper plausible values for the population average.<br/>$$31.4-0.23=31.17$$<br/>$$31.4+0.23=31.63$$"
     },
     {
-      "text": "Compute the confidence interval bounds: lower bound $= 31.4 - 0.23 = 31.17$ pounds; upper bound $= 31.4 + 0.23 = 31.63$ pounds."
-    },
-    {
-      "text": "Interpret the margin of error: plausible values for the true population average lie within the interval $[31.17,\\ 31.63]$ pounds. Values outside this range are not well supported by the data."
-    },
-    {
-      "text": "Evaluate all choices:<ul><li>A: Plausible values are between $31.17$ and $31.63$ pounds - this correctly describes the confidence interval. That confirms <strong>A</strong> is correct.</li><li>B: Plausible values are less than $31.17$ or greater than $31.63$ - this describes the region outside the confidence interval, which is the opposite of what a margin of error implies. Eliminated.</li><li>C: The average is less than $31.29$ pounds - $31.29 = 31.4 - 0.11$ is not one of the bounds and the statement ignores the upper range. Eliminated.</li><li>D: The average is greater than $31.29$ pounds - same issue; this truncates the interval incorrectly. Eliminated.</li></ul>"
+      "title": "Interpret the interval",
+      "content": "The margin of error gives an interval centered at the sample estimate. Therefore, plausible values for the average weight of all boxes filled by the company are between $31.17$ and $31.63$ pounds. The answer is <strong>A</strong>."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "fcb3e2f7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the two-part structure",
+      "content": "The text first defines horizontal gene transfer and says it is common among prokaryotes. It then explains why the process matters: preventing it could reduce dangerous antibiotic-resistant pathogens."
+    },
+    {
+      "title": "Reject invented structures",
+      "content": "Choice A invents a history of research. Choice B shifts the focus to one threatening organism. Choice C claims the text compares two organisms, but the named bacteria are examples. The text describes a biological process and its importance. The answer is <strong>D</strong>."
+    }
+  ]
+}

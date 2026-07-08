@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key location descriptor",
-      "content": "The passage establishes that manul cats live in “out-of-the-way parts of Asia,” which is the decisive clue about the nature of their habitats."
+      "title": "Use the habitat clue",
+      "content": "The text says manul cats live mostly alone in out-of-the-way parts of Asia, with Mount Everest as an example. Their habitats are difficult to research because they are remote in relation to people."
     },
     {
-      "title": "Apply the descriptor to find the answer",
-      "content": "\"Distant from\" large populations describes habitats far from human settlements, explaining why the cats are difficult to research. The other options either contradict this remote-location clue or do not fit the sentence's logic. That is the correct answer."
+      "title": "Reject impossible fits",
+      "content": "A contradicts the remote habitat clue by saying the habitats are full of humans. B illogically says habitats are attracted to humans. C illogically says habitats are responsible for human populations. The phrase needed means far from large human populations. The answer is <strong>D</strong>."
     }
   ]
 }

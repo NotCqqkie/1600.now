@@ -1,0 +1,15 @@
+{
+  "questionId": "3d317191",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Look for one variable value",
+      "content": "A linear equation has exactly one solution when simplifying leaves one specific value for the variable. If simplifying gives a false statement, there is no solution; if it gives an identity, there are infinitely many solutions."
+    },
+    {
+      "title": "Solve the candidate equation",
+      "content": "The equation\n$$\n\\frac{1}{36}+x=-x-\\frac{1}{36}\n$$\nleaves a single variable value.\n$$\n\\frac{1}{36}+2x=-\\frac{1}{36}\n$$\n$$\n2x=-\\frac{2}{36}\n$$\n$$\nx=-\\frac{1}{36}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

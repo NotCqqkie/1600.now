@@ -1,0 +1,15 @@
+{
+  "questionId": "63976369",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Give a nickname example",
+      "content": "The goal is to provide an example of a dinosaur fossil specimen's nickname. The answer must name the nickname and connect it to a specific fossil specimen."
+    },
+    {
+      "title": "Reject general descriptions",
+      "content": "Choice A says a specimen has a nickname but does not provide it. Choice B only says many specimens have nicknames. Choice D describes the <em>Brachylophosaurus</em> specimen and its period without naming the nickname. The remaining choice identifies Roberta as the nickname. The answer is <strong>C</strong>."
+    }
+  ]
+}

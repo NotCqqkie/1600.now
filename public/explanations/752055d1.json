@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant C using the initial measurement",
-      "content": "At $t = 0$ hours, $P = 15,000$. Substitute into the formula: $$15,000 = C(2)^{r \\cdot 0} = C(2)^0 = C \\cdot 1$$ Therefore, $C = 15,000$."
+      "title": "Use the initial amount",
+      "content": "At $t=0$, the population is $15{,}000$. Substitute into $P=C(2)^{rt}$.<br/>$$15{,}000=C(2)^{r\\cdot0}=C$$"
     },
     {
-      "title": "Substitute the second measurement to set up an equation for r",
-      "content": "At $t = 5$ hours, $P = 30,000$. Substitute $C = 15,000$ and $t = 5$: $$30,000 = 15,000(2)^{5r}$$ Divide both sides by $15,000$: $$\\frac{30,000}{15,000} = (2)^{5r}$$ $$2 = (2)^{5r}$$"
+      "title": "Use the later amount",
+      "content": "After $5$ hours, the population is $30{,}000$.<br/>$$30{,}000=15{,}000(2)^{5r}$$<br/>$$2=(2)^{5r}$$"
     },
     {
-      "title": "Solve the exponential equation for r",
-      "content": "Since $2 = 2^1$, we have $(2)^{5r} = 2^1$. When the bases are equal, the exponents must be equal: $$5r = 1$$ $$r = \\frac{1}{5}$$ That confirms <strong>B</strong> is correct."
+      "title": "Match the exponents",
+      "content": "Since $2=2^1$, the exponents must match.<br/>$$5r=1$$<br/>$$r=\\frac{1}{5}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

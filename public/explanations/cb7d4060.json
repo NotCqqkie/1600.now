@@ -1,0 +1,15 @@
+{
+  "questionId": "cb7d4060",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare expected and actual effects",
+      "content": "Three-host complex life cycle parasites are often shielded from the external environment during transmission because they move when an infected host is ingested. Directly transmitted parasites are more exposed. Even so, Singh et al. found that three-host parasite abundance decreased as sea temperatures rose, while directly transmitted parasite abundance was largely stable."
+    },
+    {
+      "title": "Eliminate unsupported inferences",
+      "content": "Choice A says more host species make a parasite better protected, but the three-host parasites declined. Choice C compares dependence on warming-affected hosts, which the text does not establish. Choice D says directly transmitted parasites were more shielded, contradicting the passage. The finding suggests any shielding advantage for three-host parasites did not fully offset other warming-related harms. The answer is <strong>B</strong>."
+    }
+  ]
+}

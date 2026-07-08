@@ -1,0 +1,19 @@
+{
+  "questionId": "f0775ef3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for an invasive advantage",
+      "content": "Keller and Stein concluded that invasives are advantaged by delays in the onset of subfreezing temperatures in Alaska. A supporting finding must therefore show more than both plant types responding to a warm autumn. It must show that the invasive species, <em>P. aviculare</em>, benefits more from the delay than the native species, <em>V. edule</em>."
+    },
+    {
+      "title": "Reject weak findings",
+      "content": "Choice B says neither species showed significant variation in when leaf production stopped, which would not support any advantage from delayed freezing. Choice C says <em>P. aviculare</em> stopped producing leaves sooner than <em>V. edule</em> in delayed-freezing years, pointing away from an invasive advantage. Choice D adds early spring onset, a confounding detail that weakens the link to autumn delays."
+    },
+    {
+      "title": "Compare the autumn extension",
+      "content": "Choice A says both species produced leaves later into autumn in years with late subfreezing temperature onset, but that the extension was much greater for <em>P. aviculare</em> than for <em>V. edule</em>. That directly shows the invasive gaining more from the delayed freeze. The answer is <strong>A</strong>."
+    }
+  ]
+}

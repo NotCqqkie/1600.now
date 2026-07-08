@@ -1,0 +1,15 @@
+{
+  "questionId": "3e2608bf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the system row",
+      "content": "The statement asks for worldwide units sold of the MSX manufactured by ASCII Corp. The relevant table row is the one where the system is MSX and the manufacturer is ASCII Corp."
+    },
+    {
+      "title": "Read the units-sold value",
+      "content": "That row gives approximately 4,000,000 units sold worldwide. A, C, and D use values from other systems in the table rather than the MSX row. The answer is <strong>B</strong>."
+    }
+  ]
+}

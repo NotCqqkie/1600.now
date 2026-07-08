@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read off the y-intercept",
-      "content": "$f(0)$ is the $y$-value of the graph when $x=0$ — i.e. the <strong>y-intercept</strong>. Look at where the line crosses the $y$-axis."
+      "title": "Use the input value",
+      "content": "The value $f(0)$ is the $y$-value on the graph when $x=0$. This is where the graph crosses the $y$-axis."
     },
     {
-      "title": "Match the value",
-      "content": "The graph crosses the $y$-axis at $y=-6$, so $f(0)=-6$.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph has $y=-6$, so $f(0)=-6$. The answer is <strong>A</strong>."
     }
   ]
 }

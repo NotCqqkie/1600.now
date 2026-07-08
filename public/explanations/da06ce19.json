@@ -1,0 +1,15 @@
+{
+  "questionId": "da06ce19",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the extraction sequence",
+      "content": "Each rinse created a separate extract from the same pulverized Ryugu sample. If a compound appears in any extract, that compound must have been present in the sample before that extraction happened."
+    },
+    {
+      "title": "Confirm both compound types",
+      "content": "B and D mention alkanes but not detected dimethyl sulfides. C gives broad counts but does not directly establish the needed sequence evidence. The useful data states that the third extract contains dimethyl sulfides and the fourth contains alkanes, proving both were present. The answer is <strong>A</strong>."
+    }
+  ]
+}

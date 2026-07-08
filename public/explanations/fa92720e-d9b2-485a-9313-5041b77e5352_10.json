@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Set up the two views",
-      "content": "Political scientists predict ads should <em>reduce</em> the knowledge gap. Cognitive scientists predict prior knowledge helps absorb new info — so high-knowledge viewers should benefit more, <em>widening</em> the gap."
+      "title": "Compare the two predictions",
+      "content": "Political scientists expected campaign ads to reduce knowledge gaps by giving voters clear information. Cognitive scientists expected prior knowledge to make new information easier to learn, so high-knowledge participants could benefit more."
     },
     {
-      "title": "Apply the graph to the choices",
-      "content": "If the ads produced an effect <em>contrary</em> to political scientists' prediction (gap didn't shrink), and that result is consistent with the cognitive-science explanation, the remaining alternative fits.<br/><br/>A and D claim the political-science view was supported; C says \"worsened\" the problem but denies the cognitive phenomenon — internally inconsistent.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Match the graph's effect",
+      "content": "<ul><li><strong>Choice A</strong>: Says the result supports political scientists more, but benefiting high-knowledge participants points the other way.</li><li><strong>Choice B</strong>: Captures an effect contrary to the political-science prediction and consistent with the cognitive-science mechanism.</li><li><strong>Choice C</strong>: Denies the cognitive phenomenon even though it explains the pattern.</li><li><strong>Choice D</strong>: Says the political-science prediction occurred, which conflicts with the gap not shrinking.</li></ul>The answer is <strong>B</strong>."
     }
   ]
 }

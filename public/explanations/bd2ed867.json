@@ -1,0 +1,23 @@
+{
+  "questionId": "bd2ed867",
+  "correctAnswer": "16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Real solutions occur where the horizontal line and parabola intersect. Set the two expressions for $y$ equal.\n$$-0.5=x^2+8x+a$$\nRewrite as a quadratic equation.\n$$x^2+8x+(a+0.5)=0$$"
+    },
+    {
+      "title": "Make the discriminant negative",
+      "content": "For no real solutions, the discriminant must be less than $0$.\n$$8^2-4(1)(a+0.5)<0$$\n$$64-4a-2<0$$\n$$62<4a$$\n$$15.5<a$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Since $a$ is a positive integer greater than $15.5$, choose the least integer that works. The answer is <strong>16</strong>.",
+      "desmosExpressions": [
+        "y = -0.5",
+        "y = x^2 + 8x + 16"
+      ]
+    }
+  ]
+}

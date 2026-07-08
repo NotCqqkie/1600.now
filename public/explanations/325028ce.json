@@ -1,0 +1,23 @@
+{
+  "questionId": "325028ce",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the original radius",
+      "content": "A circle in standard form has equation $(x-h)^2+(y-k)^2=r^2$. For circle A, the center is $(3,9)$ and<br/>$$r^2=25$$<br/>$$r=5$$"
+    },
+    {
+      "title": "Double and square the radius",
+      "content": "Circle B has the same center, but its radius is twice as large.<br/>$$2(5)=10$$<br/>The equation must use the square of that radius.<br/>$$10^2=100$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the original circle and the circle with doubled radius shows the same center and the larger radius. Keep the same center and replace the right side with $100$.<br/>$$(x-3)^2+(y-9)^2=100$$<br/>The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "(x-3)^2 + (y-9)^2 = 25",
+        "(x-3)^2 + (y-9)^2 = 100"
+      ]
+    }
+  ]
+}

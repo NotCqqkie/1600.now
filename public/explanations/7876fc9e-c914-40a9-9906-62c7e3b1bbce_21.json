@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The first sentence claims the pseudonym &quot;accomplished far more than simply concealing his authorship.&quot; The second sentence reinforces that point: it was a complex rhetorical strategy, not an arbitrary pen name. The transition must signal confirmation and intensification of the same idea."
+      "title": "Confirm the pseudonym claim",
+      "content": "The first sentence says Thomson's pseudonym did more than hide his authorship. The next sentence strengthens that idea by explaining that the name was a deliberate rhetorical strategy."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Indeed,&rsquo;</strong>: signals confirmation and intensification &mdash; exactly the relationship between the two sentences. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Conversely,&rsquo;</strong>: signals a contrast or reversal. The second sentence does not contradict the first. &#10007;</li><li><strong>Choice C &mdash; &lsquo;In addition,&rsquo;</strong>: also signals contrast. Same problem as &quot;Conversely.&quot; &#10007;</li><li><strong>Choice D &mdash; &lsquo;However,&rsquo;</strong>: introduces a new, separate point. The second sentence restates and deepens the first rather than adding a distinct idea. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject wrong transitions",
+      "content": "Choice B and Choice D signal contrast, but the second sentence supports the first. Choice C adds another point without showing the confirmation and emphasis needed here. The answer is <strong>A</strong>."
     }
   ]
 }

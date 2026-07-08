@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=2{x}^{2}-25x+84$$<br/>$$y=3x+a$$<br/>Desmos will create a slider for $a$; adjust it until the line and parabola intersect at exactly one point."
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two expressions for $y$ are equal.<br/>$$2x^2-25x+84=3x+a$$<br/>$$2x^2-28x+(84-a)=0$$"
     },
     {
-      "title": "Read the x-coordinate",
-      "content": "Click the single intersection point and read the x-coordinate. It matches <strong>C</strong>, $7$."
+      "title": "Use one intersection",
+      "content": "The graphs intersect at exactly one point, so the quadratic equation has exactly one solution. That solution is the vertex of the quadratic in $x$. For $2x^2-28x+(84-a)=0$, the vertex $x$-value is:<br/>$$x=\\frac{-(-28)}{2(2)}=\\frac{28}{4}=7$$"
     },
     {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Match the x-value",
+      "content": "The single intersection has $x=7$.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "9c92fea5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the shown line",
+      "content": "The graph of $y=f(x)-19$ passes through $(-5,-3)$ and $(0,-8)$. Its slope is<br/>$$\\frac{-8-(-3)}{0-(-5)}=-1$$<br/>and its $y$-intercept is $-8$, so<br/>$$y=-x-8$$"
+    },
+    {
+      "title": "Recover the function",
+      "content": "Since the graphed function is $y=f(x)-19$, add $19$ to both sides.<br/>$$f(x)-19=-x-8$$<br/>$$f(x)=-x+11$$"
+    },
+    {
+      "title": "Match the positive constants",
+      "content": "The function $f(x)=-x+11$ can be written as $f(x)=d-cx$ with $d=11$ and $c=1$, both positive. The answer is <strong>A</strong>."
+    }
+  ]
+}

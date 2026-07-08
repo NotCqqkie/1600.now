@@ -1,0 +1,15 @@
+{
+  "questionId": "cf1197de",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear structure",
+      "content": "The equation follows starting length plus growth equals final length:\n$$\n0.5t+6=10\n$$\nThe constant $6$ is the starting length, and the expression $0.5t$ is the amount of growth after $t$ months."
+    },
+    {
+      "title": "Interpret the units",
+      "content": "Since $t$ is measured in months and $0.5t$ is inches of growth, $0.5$ means inches per month. So the coefficient tells how much Mia's hair grows each month. The answer is <strong>B</strong>."
+    }
+  ]
+}

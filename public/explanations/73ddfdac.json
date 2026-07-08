@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the unit conversion",
-      "content": "To convert 108 furlongs to feet, apply both conversion factors in sequence. Since 1 furlong = 220 yards and 1 yard = 3 feet, the calculation is:<br/>$$108 \\times 220 \\times 3$$"
+      "title": "Convert furlongs to feet",
+      "content": "Use both conversion factors: $1$ furlong is $220$ yards, and $1$ yard is $3$ feet. That means each furlong is this many feet:<br/>$$220\\cdot3=660$$"
     },
     {
-      "title": "Combine conversion factors and multiply",
-      "content": "First, multiply the two conversion factors: $220 \\times 3 = 660$ feet per furlong.<br/><br/>Then multiply by the initial distance:<br/>$$108 \\times 660 = 71,280 \\text{ feet}$$"
+      "title": "Multiply by the distance",
+      "content": "Now multiply by the $108$ furlongs.<br/>$$108\\cdot660=71{,}280$$<br/>The answer is <strong>71280</strong>."
     }
   ]
 }

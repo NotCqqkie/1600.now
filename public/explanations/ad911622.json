@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert percentage changes to multipliers",
-      "content": "When a value increases by 148%, the new amount is 100% + 148% = 248% of the original, or $$1 + 1.48 = 2.48$$ times the original. When a value decreases by 14%, it becomes 100% - 14% = 86% of what it was, or $$1 - 0.14 = 0.86$$ times that amount."
+      "title": "Convert changes to multipliers",
+      "content": "An increase of $148\\%$ means the new value is $100\\%+148\\%=248\\%$ of the original, so multiply by $1+1.48=2.48$. A decrease of $14\\%$ means the new value is $86\\%$ of the previous value, so multiply by $1-0.14=0.86$."
     },
     {
-      "title": "Apply both changes sequentially",
-      "content": "The value is first multiplied by 2.48 (the 148% increase from 2014 to 2015), then multiplied by 0.86 (the 14% decrease from 2015 to 2016). The combined effect multiplies the original value by $$2.48 \\times 0.86$$."
+      "title": "Apply the changes in order",
+      "content": "The poster is first multiplied by $2.48$ from the end of $2014$ to the end of $2015$, then by $0.86$ from the end of $2015$ to the end of $2016$. The combined multiplier is<br/>$$2.48\\cdot0.86=2.1328$$"
     },
     {
-      "title": "Calculate the net multiplier and convert to percentage",
-      "content": "Computing the product: $$2.48 \\times 0.86 = 2.1328$$ This means the value at the end of 2016 is 2.1328 times its value at the end of 2014. A multiplier of 2.1328 corresponds to an increase of $$2.1328 - 1 = 1.1328 = 113.28\\%$$. Therefore, the correct answer is choice A."
+      "title": "Convert back to an increase",
+      "content": "A final value of $2.1328$ times the original means the poster is $1.1328$ times the original value above where it started. Convert that excess multiplier to a percentage increase:<br/>$$2.1328-1=1.1328=113.28\\%$$<br/>The net percentage increase is $113.28\\%$. The answer is <strong>A</strong>."
     }
   ]
 }

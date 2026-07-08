@@ -1,0 +1,15 @@
+{
+  "questionId": "db7c6bd9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clause boundary",
+      "content": "The sentence first says the exhibition set out to provide an overview through the 1950s. It then adds another independent clause: <em>its efforts were largely successful</em>. Those clauses need a proper coordinating connection."
+    },
+    {
+      "title": "Apply comma and conjunction",
+      "content": "Choice A uses only a comma, creating a comma splice. Choice B uses no punctuation, creating a run-on. Choice C uses a conjunction without the needed comma before it. The answer is <strong>D</strong>."
+    }
+  ]
+}

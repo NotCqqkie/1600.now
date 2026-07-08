@@ -1,0 +1,15 @@
+{
+  "questionId": "9c8b3a28",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the lowest value",
+      "content": "The question asks for the state of the plant with the lowest average power generated per year in 2019. The relevant table column is average power generation."
+    },
+    {
+      "title": "Match value to state",
+      "content": "The Wisconsin plant has the lowest listed average power generation, 3,999 MWh per year. Michigan, Florida, and Indiana all have higher values in the table. The answer is <strong>A</strong>."
+    }
+  ]
+}

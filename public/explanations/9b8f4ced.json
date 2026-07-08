@@ -1,0 +1,15 @@
+{
+  "questionId": "9b8f4ced",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the name's role",
+      "content": "The name Marie-Denise Villers identifies which little-known French portrait artist created the painting. Because the name is essential to identifying the artist, it should be attached directly to <em>artist</em> without punctuation."
+    },
+    {
+      "title": "Reject unnecessary marks",
+      "content": "A uses a dash, C uses a colon, and D uses a comma; each treats the name as an aside or elaboration rather than an essential identifier. No punctuation keeps the identifying name properly attached. The answer is <strong>B</strong>."
+    }
+  ]
+}

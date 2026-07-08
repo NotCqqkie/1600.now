@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the assertion's two requirements",
-      "content": "The assertion claims provisioning services are reported in every region and represent the overall majority of reported services."
+      "title": "Check both parts of the assertion",
+      "content": "Egoh and colleagues assert that every region reported effects on provisioning services and that provisioning services make up the majority overall. Supporting data must prove both regional presence and overall majority."
     },
     {
-      "title": "Identify which choice proves both claims",
-      "content": "The correct answer establishes both claims: “none of the percentages shown for provisioning services are lower than 33%” proves provisioning across all regions (with Central at the minimum), while the overall 75% proves it's the majority.<br/>The other choices highlight only regional variation; a remaining choice confirms regional presence without the majority evidence.<br/><strong>B</strong> is correct."
+      "title": "Use minimum and overall values",
+      "content": "Choice A gives only two regions and the overall value. Choice C shows regional presence but not majority. Choice D gives the highest and lowest regional values but not the overall majority. The remaining choice establishes both required parts. The answer is <strong>B</strong>."
     }
   ]
 }

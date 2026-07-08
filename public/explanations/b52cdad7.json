@@ -1,0 +1,19 @@
+{
+  "questionId": "b52cdad7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the scale factor",
+      "content": "Similar triangles have the same scale factor for corresponding side lengths as for perimeters:<br/>$$\\frac{160}{40}=4$$"
+    },
+    {
+      "title": "Scale the corresponding side",
+      "content": "Since side $TU$ corresponds to side $XY$, multiply the length of side $TU$ by the scale factor:<br/>$$8(4)=32$$"
+    },
+    {
+      "title": "Select the matching choice",
+      "content": "The corresponding side in triangle $XYZ$ has length $32$. The answer is <strong>C</strong>."
+    }
+  ]
+}

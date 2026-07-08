@@ -1,0 +1,19 @@
+{
+  "questionId": "962cbda7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shift rule",
+      "content": "Set B is made by adding $17$ microfarads to every value in set A. Adding the same number to every data value increases the mean by that number and leaves the range unchanged."
+    },
+    {
+      "title": "Update the mean and range",
+      "content": "From the dot plot, set A has mean $8$ microfarads and range $12$ microfarads. For set B:<br/>$$8+17=25$$<br/>The range stays $12$ microfarads."
+    },
+    {
+      "title": "Select the true statement",
+      "content": "Set B has mean $25$ microfarads and range $12$ microfarads. The answer is <strong>C</strong>."
+    }
+  ]
+}

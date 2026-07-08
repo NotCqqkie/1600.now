@@ -1,0 +1,15 @@
+{
+  "questionId": "e74a4908",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the worker count",
+      "content": "Use $x=64$:<br/>$$y=0.58(64)+3.4$$"
+    },
+    {
+      "title": "Evaluate the prediction",
+      "content": "Compute:<br/>$$y=37.12+3.4$$<br/>$$y=40.52$$The closest listed number is $41$. The answer is <strong>D</strong>."
+    }
+  ]
+}

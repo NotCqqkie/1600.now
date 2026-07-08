@@ -1,0 +1,15 @@
+{
+  "questionId": "9a484259",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the tested relationship",
+      "content": "Keller and colleagues tested whether perceived similarity between product categories predicts consumers' likelihood of buying a brand extension. The needed evidence must connect similarity ratings to purchase-probability changes."
+    },
+    {
+      "title": "Look for positive correlation",
+      "content": "Choice A concerns general purchase volume. Choice B introduces brand recognition without proving the investigated relationship. Choice D says ratings varied while probability changes stayed similar, which would undermine prediction. A strong positive correlation between ratings and probability changes shows the possibility occurs. The answer is <strong>C</strong>."
+    }
+  ]
+}

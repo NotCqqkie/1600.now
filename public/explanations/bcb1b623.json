@@ -1,0 +1,15 @@
+{
+  "questionId": "bcb1b623",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert servings to rates",
+      "content": "Yogurt provides $1$ microgram per $4.0$ ounces, so its rate is $\\frac{1}{4.0}=0.25$ micrograms per ounce. Salmon provides $1$ microgram per $1.5$ ounces, so its rate is about $\\frac{1}{1.5}=0.67$ micrograms per ounce."
+    },
+    {
+      "title": "Write the total amount",
+      "content": "For $x$ ounces of yogurt and $y$ ounces of salmon, multiply each amount by its rate and set the sum equal to the total vitamin B12 consumed.\n\n$$0.25x+0.67y=2.1$$\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

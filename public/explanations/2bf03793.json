@@ -1,0 +1,15 @@
+{
+  "questionId": "2bf03793",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the reciprocal",
+      "content": "The target expression\n$$\n\\frac{8}{x}\n$$\nis the reciprocal of\n$$\n\\frac{x}{8}\n$$"
+    },
+    {
+      "title": "Take the reciprocal value",
+      "content": "Since $\\frac{x}{8}=6$, the reciprocal is\n$$\n\\frac{8}{x}=\\frac{1}{6}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

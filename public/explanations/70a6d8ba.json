@@ -1,0 +1,15 @@
+{
+  "questionId": "70a6d8ba",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding angles",
+      "content": "Because the two triangles are similar, corresponding angles are congruent. The order of the triangle names shows that the angle at A in the first triangle corresponds to the angle at B in the second triangle."
+    },
+    {
+      "title": "Use the given angle measure",
+      "content": "The side-length scale factor does not change angle measures. The corresponding angle at B is $59^{\\circ}$, so the requested angle at A is also $59^{\\circ}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d3f7c3a2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the list items",
+      "content": "The sentence lists three deserts: the Syrian Desert, the Kyzylkum Desert, and the Chalbi Desert. Because each item includes a ranking phrase, semicolons should separate the major list items while commas stay inside an item."
+    },
+    {
+      "title": "Reject broken boundaries",
+      "content": "<ul><li><strong>Choice A</strong> uses a comma where the Syrian and Kyzylkum entries need a semicolon, then splits Kyzylkum from its ranking.</li><li><strong>Choice C</strong> provides no boundary between the Syrian and Kyzylkum entries.</li><li><strong>Choice D</strong> incorrectly separates Kyzylkum Desert from ranked sixteenth.</li></ul>"
+    },
+    {
+      "title": "Separate the list cleanly",
+      "content": "The remaining choice uses a semicolon after ninth in size and another after ranked sixteenth, keeping each desert-and-ranking unit intact. The answer is <strong>B</strong>."
+    }
+  ]
+}

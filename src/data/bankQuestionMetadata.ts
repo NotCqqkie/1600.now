@@ -43,7 +43,7 @@ interface BankQuestionProgressSnapshot {
   totalTimeSpentSeconds: number;
 }
 
-type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
+export type BankQuestionProgressLookup = (question: BankQuestionMeta) => BankQuestionProgressSnapshot;
 
 interface QuestionCountBucket {
   total: number;
@@ -235,6 +235,27 @@ export const loadQuestionCountTree = async (
   return tree;
 };
 
+export const loadFilteredQuestionMetaRows = async (
+  subject: BankSubject,
+  bankSource: BankSourceFilter,
+  filters: QuestionBankFilters,
+  getProgress: BankQuestionProgressLookup,
+  options: {
+    domain?: string;
+    skill?: string;
+  } = {},
+): Promise<BankQuestionMeta[]> => {
+  const metaRows = await loadMetaRows();
+  return metaRows.filter((question) => {
+    if (!question.bankVisible) return false;
+    if (question.subject !== subject) return false;
+    if (!matchesBankSource(question, bankSource)) return false;
+    if (options.domain && question.category.domain !== options.domain) return false;
+    if (options.skill && question.category.skill !== options.skill) return false;
+    return questionMetaPassesFilters(question, filters, getProgress);
+  });
+};
+
 export const loadFilteredQuestionMetaCount = async (
   subject: BankSubject,
   bankSource: BankSourceFilter,
@@ -244,20 +265,7 @@ export const loadFilteredQuestionMetaCount = async (
     domain?: string;
     skill?: string;
   } = {},
-) => {
-  let total = 0;
-  const metaRows = await loadMetaRows();
-  for (const question of metaRows) {
-    if (!question.bankVisible) continue;
-    if (question.subject !== subject) continue;
-    if (!matchesBankSource(question, bankSource)) continue;
-    if (options.domain && question.category.domain !== options.domain) continue;
-    if (options.skill && question.category.skill !== options.skill) continue;
-    if (!questionMetaPassesFilters(question, filters, getProgress)) continue;
-    total += 1;
-  }
-  return total;
-};
+) => (await loadFilteredQuestionMetaRows(subject, bankSource, filters, getProgress, options)).length;
 
 export const getEmptyProgress: BankQuestionProgressLookup = (question) => ({
   ...EMPTY_PROGRESS,

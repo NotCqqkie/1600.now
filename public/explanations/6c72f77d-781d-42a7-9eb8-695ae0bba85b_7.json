@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall what standard deviation measures",
-      "content": "Standard deviation measures how <em>spread out</em> a distribution is. A distribution clustered tightly near its center has a small standard deviation; one with values spread far from the center has a large standard deviation."
+      "title": "Recall standard deviation",
+      "content": "Standard deviation measures how spread out the data are from the center. A tighter distribution has a smaller standard deviation."
     },
     {
-      "title": "Compare the two histograms",
-      "content": "Team A's histogram is concentrated near the center (most scores cluster around the middle bins).<br/><br/>Team B's histogram is more spread out, with significant counts in the extreme bins.<br/><br/>So team A has the smaller spread: $\\sigma_A \\lt \\sigma_B$.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Compare the spreads",
+      "content": "The histogram for team A is more concentrated near the center, while the histogram for team B is more spread out. Therefore the standard deviation for team A is less than the standard deviation for team B. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "392bf29e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture both findings",
+      "content": "The study found that syllable rates varied across the 17 languages, with Spanish and Vietnamese as examples. It also found that the information rate stayed roughly consistent across all 17 languages."
+    },
+    {
+      "title": "Avoid partial summaries",
+      "content": "Choice A confuses syllables per second with information conveyed per second. Choice B only defines information rate. Choice D contradicts the finding that information rate was approximately consistent. A summary that includes varied syllable rates and similar information rates gives the overview. The answer is <strong>C</strong>."
+    }
+  ]
+}

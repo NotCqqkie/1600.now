@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical need",
-      "content": "The sentence has &quot;Scientists&quot; as its subject but no main verb yet &mdash; the blank must supply a finite (tensed) verb that governs the that-clause beginning with &quot;that the secret...&quot;"
+      "title": "Complete the thought with a main verb",
+      "content": "The subject \"Scientists\" needs a finite verb to complete the independent clause. The verb must also be able to introduce the following that-clause about the secret to Roman concrete's durability."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;explain&rsquo;</strong>: A finite present-tense verb that agrees with the plural subject &quot;Scientists&quot; and correctly governs the that-clause. &#10003;</li><li><strong>Choice B &mdash; &lsquo;having explained&rsquo;</strong>: A nonfinite perfect participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice C &mdash; &lsquo;explaining&rsquo;</strong>: A nonfinite present participle; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li><li><strong>Choice D &mdash; &lsquo;to explain&rsquo;</strong>: A nonfinite to-infinitive; it cannot serve as the main verb of an independent clause, violating the finite verb rule. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject nonfinite forms",
+      "content": "Choices B, C, and D are nonfinite verb forms, so none can serve as the main verb of the sentence. The remaining form is a present-tense finite verb that agrees with the plural subject and governs the that-clause. The answer is <strong>A</strong>."
     }
   ]
 }

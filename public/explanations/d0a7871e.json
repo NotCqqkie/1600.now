@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the two expressions for y equal",
-      "content": "Both equations equal $y$, so set the right sides equal:<br/>$$x + 4 = x^2 + x$$"
+      "title": "Set the equations equal",
+      "content": "Both equations give the same value of $y$, so their right sides must be equal.<br/>$$x+4=x^2+x$$"
     },
     {
-      "title": "Solve for x",
-      "content": "Subtract $x$ from both sides:<br/>$$4 = x^2$$<br/>So $x^2 = 4$, giving $x = 2$ or $x = -2$."
+      "title": "Solve for possible values",
+      "content": "Subtract $x$ from both sides, then take the square root.<br/>$$4=x^2$$<br/>$$x=\\pm 2$$"
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>&ndash;2</strong> &ndash;2 &mdash; one of our solutions. Check: $y = -2 + 4 = 2$ and $y = (-2)^2 + (-2) = 2$. Match. Correct.</li><li><strong>0</strong> 0 &mdash; gives $y = 4$ from the first equation but $y = 0$ from the second. Not a solution.</li><li><strong>3</strong> 3 &mdash; gives $y = 7$ vs. $y = 12$. Not a solution.</li><li><strong>4</strong> 4 &mdash; gives $y = 8$ vs. $y = 20$. Not a solution.</li></ul>Therefore, the correct answer is choice A."
+      "title": "Pick the listed value",
+      "content": "The possible values are $2$ and $-2$. Of the listed choices, only $-2$ appears. The answer is <strong>A</strong>."
     }
   ]
 }

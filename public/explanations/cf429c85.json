@@ -1,0 +1,19 @@
+{
+  "questionId": "cf429c85",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the proxy problem",
+      "content": "Bennett and Price measured benthic chlorophyll concentrations as a proxy for MPB biomass. They found that those concentrations did not negatively correlate with macroalgal proliferation, even though earlier work suggested macroalgae can suppress MPB by reducing sunlight. Their added observation explains why the proxy may be misleading."
+    },
+    {
+      "title": "Account for compensation",
+      "content": "MPB may respond to low-light conditions by producing higher-than-normal concentrations of chlorophyll. If that happens, chlorophyll levels could remain high even when MPB biomass is being suppressed. The researchers' conclusion therefore should warn that chlorophyll concentration is not always a straightforward measure of how much MPB biomass is present."
+    },
+    {
+      "title": "Reject contradictory conclusions",
+      "content": "Choice B denies the compensation mechanism the researchers raise. Choice C says the larger trend is unrelated to light, contradicting the passage's focus on low-light conditions. Choice D blames differences among sites, but the text does not make that claim. Choice A captures the reliability problem with the proxy. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dc65b66b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constant term",
+      "content": "In $f(x)=6x+9$, the number $6$ is the yearly growth rate, and $9$ is the starting value."
+    },
+    {
+      "title": "Use the starting time",
+      "content": "The phrase years after its height was first recorded means the first recording happens when $x=0$.<br/>$$f(0)=6(0)+9=9$$<br/>So $9$ is the estimated height, in feet, when the tree was first recorded. The answer is <strong>D</strong>."
+    }
+  ]
+}

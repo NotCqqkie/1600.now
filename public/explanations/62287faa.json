@@ -1,0 +1,19 @@
+{
+  "questionId": "62287faa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original intercept",
+      "content": "Set $x=0$ in the original equation to find the original $y$-intercept:<br/>$$10(0)+20y=160$$<br/>$$20y=160$$<br/>$$y=8$$"
+    },
+    {
+      "title": "Apply the downward shift",
+      "content": "Shifting the line down $5$ units subtracts $5$ from every $y$-coordinate, including the intercept:<br/>$$8-5=3$$"
+    },
+    {
+      "title": "Write the new intercept",
+      "content": "The resulting $y$-intercept is $(0,3)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

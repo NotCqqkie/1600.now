@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Cancel the common factor",
-      "content": "Since $k \\gt -6$, $(k+6) \\ne 0$, so:<br/>$$\\frac{27(k+6)}{3(k+6)} = \\frac{27}{3} = 9$$"
+      "title": "Cancel the shared factor",
+      "content": "Since $k\\gt -6$, $k+6$ is not $0$.<br/>$$\\frac{27(k+6)}{3(k+6)}=\\frac{27}{3}$$"
     },
     {
-      "title": "Identify $c$",
-      "content": "The expression equals the constant $c = 9$.<br/><br/>The answer is <strong>9</strong>."
+      "title": "Find the constant",
+      "content": "$$\\frac{27}{3}=9$$<br/>The answer is <strong>9</strong>."
     }
   ]
 }

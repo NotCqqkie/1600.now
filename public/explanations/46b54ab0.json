@@ -1,0 +1,19 @@
+{
+  "questionId": "46b54ab0",
+  "correctAnswer": "22",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "Factor out the common term $x-k$:\n$$\n0=(x-k)(8x+t)-(x-k)\n$$\n$$\n0=(x-k)(8x+t-1)\n$$"
+    },
+    {
+      "title": "Use the negative solution",
+      "content": "The solutions come from $x-k=0$ or $8x+t-1=0$. Since $k$ is positive, $x=k$ cannot equal the negative solution $-\\frac{21}{8}$. Therefore:\n$$\n8(-\\frac{21}{8})+t-1=0\n$$"
+    },
+    {
+      "title": "Find the value",
+      "content": "Simplify the equation:\n$$\n-21+t-1=0\n$$\n$$\nt=22\n$$\nThe answer is <strong>22</strong>."
+    }
+  ]
+}

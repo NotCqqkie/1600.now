@@ -1,0 +1,23 @@
+{
+  "questionId": "4b5c8fa4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Multiply the first equation by $10$ to remove the fractions:<br/>$$25x-2y=480$$<br/>Keep the second equation in its original form:<br/>$$x+2y=-12$$",
+      "desmosExpressions": [
+        "\\frac{5}{2}x - \\frac{1}{5}y = 48",
+        "x + 2y = -12"
+      ]
+    },
+    {
+      "title": "Eliminate one variable",
+      "content": "Add the equations so the $y$-terms cancel:<br/>$$25x-2y+x+2y=480+(-12)$$<br/>$$26x=468$$<br/>$$x=18$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "Use $x+2y=-12$ with $x=18$:<br/>$$18+2y=-12$$<br/>$$2y=-30$$<br/>$$y=-15$$<br/>Then find the requested value:<br/>$$x+y=18+(-15)=3$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

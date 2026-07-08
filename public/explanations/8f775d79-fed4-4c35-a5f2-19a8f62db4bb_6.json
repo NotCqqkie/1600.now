@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Add the two equations to eliminate $y$: $$(x+y)+(x-y)=-1+5 \\implies 2x=4 \\implies x=2$$"
+      "title": "Use the given x value",
+      "content": "The first equation gives $x=4$. Substitute this into the second equation:\n$$-3x+y=-5$$\n$$-3(4)+y=-5$$"
     },
     {
-      "title": "Solve",
-      "content": "Substitute $x=2$ into $x+y=-1$: $$2+y=-1 \\implies y=-3$$"
-    },
-    {
-      "title": "Answer",
-      "content": "The solution to the system is $(2,-3)$. This ordered pair satisfies both original equations because $2+(-3)=-1$ and $2-(-3)=5$. Therefore <strong>C</strong> is correct."
+      "title": "Find x plus y",
+      "content": "Solve for $y$:\n$$-12+y=-5$$\n$$y=7$$\nThen add:\n$$x+y=4+7=11$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

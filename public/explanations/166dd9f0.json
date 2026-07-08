@@ -1,0 +1,15 @@
+{
+  "questionId": "166dd9f0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use maximum depth",
+      "content": "A species least suited to full migration into the mesophotic zone should have the shallowest demonstrated depth range, especially the maximum depth furthest from the 30-meter start of that zone."
+    },
+    {
+      "title": "Find the farthest limit",
+      "content": "Choice B uses a minimum depth, which does not show the deepest tolerated conditions. Choice C reaches 25 meters, close to the mesophotic boundary. Choice D also uses a minimum depth. <em>Astreopora expansa</em> has a maximum depth of only 15 meters, furthest from 30 meters. The answer is <strong>A</strong>."
+    }
+  ]
+}

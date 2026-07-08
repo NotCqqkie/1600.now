@@ -1,0 +1,15 @@
+{
+  "questionId": "f9a71080",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $21$ in the function.<br/>$$g(21)=\\frac{4}{7}(21)-\\frac{5}{7}$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the first term, then subtract with a common denominator.<br/>$$\\frac{4}{7}(21)=\\frac{84}{7}$$<br/>$$g(21)=\\frac{84}{7}-\\frac{5}{7}=\\frac{79}{7}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

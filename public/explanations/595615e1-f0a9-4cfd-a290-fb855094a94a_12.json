@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The LNH predicts a <em>negative</em> correlation between exotericity and grammatical complexity (fusion and informativity). To be inconsistent with the LNH, the data must show the opposite&mdash;a positive or non-negative correlation between exotericity and those complexity indices."
+      "title": "Use the LNH prediction",
+      "content": "The LNH predicts an inverse relationship between exotericity and grammatical complexity. Since fusion and informativity are positive indices of complexity, evidence against the LNH should show those indices rising with exotericity."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Shcherbakova and colleagues' analysis showed a slightly positive correlation between grammatical complexity and fusion.</strong>: describes a finding that does not compare exotericity with fusion or informativity&mdash;does not address the LNH prediction. &#10007;</li><li><strong>Choice B — Shcherbakova and colleagues' analysis showed a slightly negative correlation between grammatical complexity and exotericity.</strong>: describes a negative correlation consistent with what the LNH predicts. &#10007;</li><li><strong>Choice C — Shcherbakova and colleagues' analysis showed a slightly positive correlation between fusion and exotericity and between informativity and exotericity.</strong>: reports a slightly <strong>positive</strong> correlation between fusion and exotericity and between informativity and exotericity&mdash;directly contradicting the LNH&apos;s predicted inverse relationship. &#10003;</li><li><strong>Choice D — Shcherbakova and colleagues' analysis showed a slightly negative correlation between grammatical complexity and fusion and between grammatical complexity and informativity.</strong>: describes correlations among complexity indices themselves, not between exotericity and complexity. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Look for the opposite pattern",
+      "content": "Choice A does not compare exotericity with the indices, Choice B supports the predicted inverse relationship, and Choice D compares complexity with its own indices. The remaining choice gives positive relationships with exotericity. The answer is <strong>C</strong>."
     }
   ]
 }

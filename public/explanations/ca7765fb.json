@@ -1,0 +1,19 @@
+{
+  "questionId": "ca7765fb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the first study",
+      "content": "Raman and Desai found that, for consumers who value environmental conservation, a higher perception of a product's environmental effectiveness makes purchase more likely. The question tells us to assume that finding is broadly applicable, so it can be used with the later furniture study."
+    },
+    {
+      "title": "Use the furniture ratings",
+      "content": "In the later study, college students gave the new piece of furniture a higher environmental effectiveness rating, on average, than any other demographic group did. If higher perceived effectiveness raises purchase likelihood, the group with the highest rating should be the group most likely to buy it."
+    },
+    {
+      "title": "Reject unsupported outcomes",
+      "content": "Choice A contradicts the stated link by suggesting college students prioritize other factors. Choice B denies a meaningful difference even though the ratings differ, and Choice C compares the furniture with other products not discussed in the passage. The remaining conclusion follows from combining the two studies. The answer is <strong>D</strong>."
+    }
+  ]
+}

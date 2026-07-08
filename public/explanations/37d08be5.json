@@ -1,0 +1,24 @@
+{
+  "questionId": "37d08be5",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the hourly rate",
+      "content": "Use the table entries with $x=4$, $y=90$, $x=6$, and $y=130$. The rate of change is<br/>$$\\frac{130-90}{6-4}=20$$",
+      "desmosExpressions": [
+        "x_1=[4,6]",
+        "y_1=[90,130]",
+        "y=20x+10\\{x\\ge1\\}"
+      ]
+    },
+    {
+      "title": "Find the fixed part",
+      "content": "Use $f(x)=20x+b$ and substitute $(4,90)$.<br/>$$90=20(4)+b$$<br/>$$b=10$$"
+    },
+    {
+      "title": "Write the function",
+      "content": "The model is<br/>$$f(x)=20x+10$$It also gives $f(6)=130$, matching the table. The answer is <strong>C</strong>."
+    }
+  ]
+}

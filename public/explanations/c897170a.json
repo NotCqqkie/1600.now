@@ -1,0 +1,15 @@
+{
+  "questionId": "c897170a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the shared input",
+      "content": "The slope of $p$ is $7$, and $p(5)=38$. Since $p(c)=-11$, use the slope between the points $(c,-11)$ and $(5,38)$:\n$$\n\\frac{38-(-11)}{5-c}=7\n$$\n$$\n\\frac{49}{5-c}=7\n$$\n$$\n5-c=7\n$$\n$$\nc=-2\n$$"
+    },
+    {
+      "title": "Use the two values of t",
+      "content": "For function $t$, the two points are $(-2,-8)$ and $(4,52)$. Its slope is\n$$\n\\frac{52-(-8)}{4-(-2)}=\\frac{60}{6}=10\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

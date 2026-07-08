@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject and its number",
-      "content": "The subject is <strong>The Arrhenius equation</strong>—singular. The participial phrase <em>named for its creator</em> doesn't change the subject's number."
+      "title": "Find the true subject",
+      "content": "The subject is <em>The Arrhenius equation</em>, which is singular. The phrase <em>named for its creator</em> only adds description and does not change the subject's number."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "<strong>Remains</strong> is singular and correctly agrees with the singular subject. The other three choices are all plural verb forms that violate agreement. That confirms <strong>C</strong> is correct."
+      "title": "Match singular agreement",
+      "content": "The verb must agree with the singular subject <em>equation</em>. A, B, and D use plural verb forms, so they do not match the subject. The singular verb form is required. The answer is <strong>C</strong>."
     }
   ]
 }

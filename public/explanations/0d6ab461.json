@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count the deposits by the end of week 5",
-      "content": "The account starts with 520 dollars at the beginning of week 1. Maya makes a 45-dollar deposit at the end of each week. From the end of week 1 through the end of week 5, there are exactly 5 deposits."
+      "title": "Count the deposits",
+      "content": "The account starts with $520$ dollars at the beginning of week $1$. By the end of week $5$, Maya has made $5$ weekly deposits of $45$ dollars."
     },
     {
-      "title": "Apply the linear formula to find the total",
-      "content": "Amount equals the initial balance plus the sum of all deposits:<br/>$$\\text{Amount} = 520 + 5 \\times 45$$<br/>$$= 520 + 225$$<br/>$$= 745$$<br/>That matches <strong>Choice D &mdash; $745$</strong>."
+      "title": "Add deposits to the start",
+      "content": "Add the $5$ deposits to the starting balance:<br/>$$520+5(45)=520+225=745$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the graph shortcut",
-      "content": "For a system of two graphed linear equations, the solution is the single point that lies on both lines. Since the question asks only for $x$, you only need the $x$-coordinate of the intersection."
+      "title": "Use the intersection point",
+      "content": "For a graphed system of linear equations, the solution is the point where the two lines intersect."
     },
     {
-      "title": "Read the intersection",
-      "content": "The two lines cross at the grid point $(4,1)$. In the ordered pair $(x,y)=(4,1)$, the first coordinate is $x=4$."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The prompt asks for the $x$-value, not the full ordered pair, so the answer is <strong>4</strong>."
+      "title": "Read the x-coordinate",
+      "content": "The lines intersect at $(4,1)$. The first coordinate is the value of $x$, so $x=4$. The answer is <strong>4</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "fa5a767f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the point",
+      "content": "Substitute the coordinates $x=4$ and $y=-18$ into the inequality.<br/>$$y\\leq 4x-18$$"
+    },
+    {
+      "title": "Check the inequality",
+      "content": "Evaluate the right side.<br/>$$4(4)-18=16-18=-2$$<br/>Then compare.<br/>$$-18\\leq -2$$<br/>This is true, so the point is a solution. The answer is <strong>C</strong>."
+    }
+  ]
+}

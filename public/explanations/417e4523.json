@@ -1,0 +1,19 @@
+{
+  "questionId": "417e4523",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Rename the recordings",
+      "content": "The opening phrase, \"Recordings of electrical activity in the brain,\" is followed by a comma. The blank needs an appositive that renames those recordings and then supplies a main verb for the sentence."
+    },
+    {
+      "title": "Use the right noun",
+      "content": "\"Electrograms\" can rename recordings of electrical activity, and \"show\" can serve as the main verb. By contrast, responses to scenarios are not the same thing as recordings, and players do not logically possess the electrograms."
+    },
+    {
+      "title": "Reject wrong subjects",
+      "content": "<ul><li>A: uses \"electrograms\" to rename the recordings and \"show\" as the verb.</li><li>B: makes responses the appositive.</li><li>C: makes players possess the recordings.</li><li>D: also treats responses, not recordings, as the appositive.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

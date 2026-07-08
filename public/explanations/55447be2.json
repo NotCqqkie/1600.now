@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=\\frac{1}{3}x-14$$<br/>$$y=-x+18$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Set the equations equal",
+      "content": "Both equations equal $y$, so set the right sides equal:\n$$\n\\frac{1}{3}x-14=-x+18\n$$"
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "Move the $x$ terms to one side and constants to the other:\n$$\n\\frac{4}{3}x=32\n$$\n$$\nx=24\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection's $x$-coordinate. The answer is <strong>24</strong>.",
       "desmosExpressions": [
         "y=\\frac{1}{3}x-14",
         "y=-x+18"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$24$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

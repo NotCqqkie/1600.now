@@ -1,0 +1,15 @@
+{
+  "questionId": "ce9be66b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the main verb",
+      "content": "The relative clause already has its main verb later: \"encourages.\" The blank should describe Craciun's work without creating another finite verb that competes with that main predicate."
+    },
+    {
+      "title": "Avoid a run-on clause",
+      "content": "Choice A, Choice C, and Choice D all create finite verb phrases before \"encourages,\" producing two unjoined predicates in the same clause. A participle can modify \"work\" while leaving \"encourages\" as the clause's only main verb. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "questionId": "9f43d2b6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the vertex input",
+      "content": "For $p(x)=2x^2+20x+15$, the parabola opens upward because $a=2$. Its minimum occurs at the vertex input:\n$$\nx=-\\frac{b}{2a}=-\\frac{20}{2(2)}=-5\n$$",
+      "desmosExpressions": [
+        "p(x)=2x^{2}+20x+15"
+      ]
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $x=-5$ to find the minimum value:\n$$\np(-5)=2(-5)^2+20(-5)+15\n$$\n$$\np(-5)=50-100+15=-35\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8a010d4e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine the breed findings",
+      "content": "One study links behavioral differences between dog breeds to genetic differences, especially for attachment and attention-seeking. Another study finds that French bulldogs and cairn terriers behave notably differently for that same trait."
+    },
+    {
+      "title": "Reject unsupported extensions",
+      "content": "Choice B predicts future genetic change, Choice C compares these breeds with most other breeds, and Choice D shifts from breed-level findings to individual dogs. The combined findings imply a genetic basis for the breeds' attachment-related difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

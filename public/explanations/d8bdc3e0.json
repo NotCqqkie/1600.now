@@ -1,0 +1,15 @@
+{
+  "questionId": "d8bdc3e0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the conclusion",
+      "content": "The final sentence says architects using biophilic design consider every aspect of a project, from location and initial material selection to interior design and building installation. That range covers both early planning and later execution from start to finish."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "B introduces crew size and speed, C invents a goal of unique materials, and D contradicts the balanced physical and emotional relationship described in the passage. The conclusion should summarize the full project timeline. The answer is <strong>A</strong>."
+    }
+  ]
+}

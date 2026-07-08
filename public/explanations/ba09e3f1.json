@@ -1,0 +1,11 @@
+{
+  "questionId": "ba09e3f1",
+  "correctAnswer": "5/24,0.208,.2083,.2084,.208",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Perpendicular slopes are negative reciprocals",
+      "content": "Line $k$ has equation $y = -\\frac{24}{5}x + 4$, so its slope is $-\\frac{24}{5}$. For line $j$ perpendicular to $k$, flip and negate: $$m_j = -\\frac{1}{-\\frac{24}{5}} = \\frac{5}{24}.$$ Therefore the correct slope is <strong>5/24</strong>."
+    }
+  ]
+}

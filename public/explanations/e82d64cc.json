@@ -1,0 +1,19 @@
+{
+  "questionId": "e82d64cc",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on debut time and place",
+      "content": "The question asks which choice most effectively emphasizes when and where <em>Argentum</em> debuted. The relevant note gives both details: the work debuted in 2018 at the Bronx Museum of the Arts in New York City, New York. The right choice should make the year and location central, not shift attention to the artist's background, materials, size, or general style."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A</strong>: Mentions <em>Argentum</em>'s debut, but it omits both the year and the location. Its emphasis is on the iridescent LED domes and the 253-cubic-foot size.</li><li><strong>Choice B</strong>: Describes Vargas's general work with large-scale light sculptures. It does not identify <em>Argentum</em>'s debut, date, or place.</li></ul>"
+    },
+    {
+      "title": "Choose the debut sentence",
+      "content": "<ul><li><strong>Choice D</strong>: Includes 2018 only as a parenthetical detail and gives no location, so it does not emphasize when and where the work debuted.</li></ul>Choice C says that in 2018, Isabel Vargas debuted <em>Argentum</em> in New York City, New York. That directly highlights both requested details. The answer is <strong>C</strong>."
+    }
+  ]
+}

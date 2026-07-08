@@ -1,0 +1,15 @@
+{
+  "questionId": "ea148279",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a heavy flying bird",
+      "content": "The text needs an example showing that not all flying birds weigh less than one kilogram. The table shows the needed example must be capable of flight and have a mass well above one kilogram."
+    },
+    {
+      "title": "Eliminate table mismatches",
+      "content": "Choice A uses the northern cassowary, which cannot fly. Choice B says the Andean condor is below 10 kg, but the table lists 11.3 kg. Choice C also uses the non-flying northern cassowary. The answer is <strong>D</strong>."
+    }
+  ]
+}

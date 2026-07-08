@@ -1,0 +1,15 @@
+{
+  "questionId": "f5523245",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Product of roots = c/a (Vieta's formula)",
+      "content": "For the quadratic with $a = \\frac{1}{62}$ and $c = -st$, the product of the two solutions is $\\frac{c}{a} = \\frac{-st}{1/62} = -62st$."
+    },
+    {
+      "title": "Set equal to −2kst and solve for k",
+      "content": "$-62st = -2k \\cdot st$ → $62 = 2k$ → $k = 31$. Therefore the correct value is <strong>31</strong>."
+    }
+  ]
+}

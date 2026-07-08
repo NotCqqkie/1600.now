@@ -1,0 +1,15 @@
+{
+  "questionId": "ef7277ae",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex list",
+      "content": "The sentence lists measurement units: the <em>sa</em>, the <em>shesep</em>, and the <em>khar</em>. Each unit is paired with a description, so semicolons should separate the main list items while commas attach descriptions to names clearly."
+    },
+    {
+      "title": "Keep names with descriptions",
+      "content": "Choice A splits <em>shesep</em> from “a unit of length.” Choice B lacks needed punctuation after “area.” Choice D uses a comma where a semicolon is needed and also splits <em>shesep</em> from its description. The punctuation must separate list items cleanly. The answer is <strong>C</strong>."
+    }
+  ]
+}

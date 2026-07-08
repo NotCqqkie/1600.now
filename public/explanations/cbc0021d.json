@@ -1,0 +1,16 @@
+{
+  "questionId": "cbc0021d",
+  "correctAnswer": "58",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cosine ratio",
+      "content": "Cosine compares the adjacent side to the hypotenuse for the marked angle. Here, $KL$ is adjacent to angle $y^\\circ$, and the hypotenuse is $59$.\n$$\\frac{KL}{59}=\\frac{58}{59}$$",
+      "formula": "$$\\cos y^{\\circ} = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Multiply both sides by $59$.\n$$KL=58$$\nThe answer is <strong>58</strong>."
+    }
+  ]
+}

@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
       "title": "Find the side length",
-      "content": "The equilateral triangle has perimeter 858 cm. Since all three sides are equal: $$\\text{Side} = \\frac{858}{3} = 286 \\text{ cm}$$"
+      "content": "An equilateral triangle has $3$ equal sides, so divide the perimeter by $3$.\n$$\n\\frac{858}{3}=286\n$$"
     },
     {
-      "title": "Apply the circumradius formula for an equilateral triangle",
-      "content": "When the three vertices lie on a circle, that circle is the circumcircle. For an equilateral triangle with side length $s$, the circumradius is found using the formula. Substituting $s = 286$: $$R = \\frac{286\\sqrt{3}}{3}$$",
+      "title": "Use the circumradius formula",
+      "content": "The circle through the vertices is the circumcircle. For an equilateral triangle with side length $s$,\n$$\nR=\\frac{s\\sqrt{3}}{3}\n$$\nSubstitute $s=286$.\n$$\nR=\\frac{286\\sqrt{3}}{3}\n$$",
       "formula": "$$R = \\frac{s\\sqrt{3}}{3}$$"
     },
     {
-      "title": "Solve for w",
-      "content": "The problem states the radius equals $w\\sqrt{3}$. Setting our expression equal to this form: $$\\frac{286\\sqrt{3}}{3} = w\\sqrt{3}$$Dividing both sides by $\\sqrt{3}$: $$w = \\frac{286}{3}$$"
+      "title": "Match the coefficient",
+      "content": "The radius is given as $w\\sqrt{3}$, so match the coefficient of $\\sqrt{3}$.\n$$\nw=\\frac{286}{3}\n$$\nThe answer is <strong>286/3</strong>."
     }
   ]
 }

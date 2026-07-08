@@ -1,0 +1,19 @@
+{
+  "questionId": "6ee820fd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use half a sphere",
+      "content": "A hemisphere has half the volume of a sphere.\n$$\nV=\\frac{1}{2}(\\frac{4}{3}\\pi r^3)=\\frac{2}{3}\\pi r^3\n$$"
+    },
+    {
+      "title": "Substitute the radius",
+      "content": "Use $r=60$.\n$$\nV=\\frac{2}{3}\\pi(60)^3\n$$\n$$\nV=\\frac{2}{3}\\pi(216{,}000)=144{,}000\\pi\n$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "Approximate with $\\pi$ near $3.14$.\n$$\n144{,}000(3.14)=452{,}160\n$$\nThe closest listed value is $452{,}200$. The answer is <strong>D</strong>."
+    }
+  ]
+}

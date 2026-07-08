@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Split the group into two parts",
-      "content": "The first $30$ people cost $24$ dollars each. The remaining $n-30$ people cost $16$ dollars each."
+      "title": "Separate the group costs",
+      "content": "The first $30$ people cost $24$ dollars each. The remaining people cost $16$ dollars each, and there are $n-30$ remaining people."
     },
     {
-      "title": "Write and simplify the charge",
-      "content": "$f(n)=24(30)+16(n-30)=720+16n-480=16n+240$."
+      "title": "Simplify the function",
+      "content": "Write the total cost and combine like terms.<br/>$$f(n)=24(30)+16(n-30)$$<br/>$$f(n)=720+16n-480=16n+240$$"
     },
     {
-      "title": "Match the choice",
-      "content": "The function $f(n)=16n+240$ matches <strong>A</strong>."
-    },
-    {
-      "title": "Check with the minimum group size",
-      "content": "When $n=30$, the charge should be $30\\cdot 24=720$. The correct answer gives $16(30)+240=720$, so it preserves the cost for the first $30$ people."
+      "title": "Match the function",
+      "content": "The function is $f(n)=16n+240$. The answer is <strong>A</strong>."
     }
   ]
 }

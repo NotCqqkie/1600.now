@@ -1,0 +1,15 @@
+{
+  "questionId": "9a33eadf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Sequence the past actions",
+      "content": "The exhibition was a completed past event in 2013. The painting had to be chosen before it was featured, so the verb should show an action completed before another past action."
+    },
+    {
+      "title": "Reject wrong tenses",
+      "content": "A and D put the choosing in the present. C puts it in the future. The remaining verb phrase is past perfect and correctly sequences the earlier choosing before the later exhibition. The answer is <strong>B</strong>."
+    }
+  ]
+}

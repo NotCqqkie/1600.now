@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the elaborating relationship",
-      "content": "The key signal: “continents” is immediately followed by “geological structures called arcs” — a more specific description that elaborates on what continents are in this geological context."
+      "title": "Introduce the explanation",
+      "content": "The phrase after the blank, <em>geological structures called arcs</em>, explains what kind of structures are involved in the origin of Earth's continents. A colon can introduce that kind of clarifying explanation."
     },
     {
-      "title": "Use a colon to mark elaboration",
-      "content": "A colon introduces a phrase that elaborates on or clarifies the preceding noun. “Geological structures called arcs” elaborates on “continents,” requiring a colon.<br/><br/>No punctuation fails to mark the relationship; a semicolon and a period require independent clauses or sentence boundaries that aren't present.<br/><br/>This matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose the valid boundary",
+      "content": "A runs the words together without punctuation. C uses a semicolon, but the words after it are not an independent clause. D creates a sentence fragment because <em>Geological structures called arcs</em> cannot stand alone as a sentence here. The colon correctly introduces the clarifying phrase. The answer is <strong>B</strong>."
     }
   ]
 }

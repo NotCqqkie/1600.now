@@ -1,0 +1,15 @@
+{
+  "questionId": "19a47936",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the bag count equation",
+      "content": "If $x$ is the number of granola bags and $y$ is the number of pistachio bags, the total number of bags gives<br/>$$x+y=160$$"
+    },
+    {
+      "title": "Write the revenue equation",
+      "content": "Each granola bag costs $8$ dollars and each pistachio bag costs $13$ dollars. The total revenue is $1{,}675$ dollars, so<br/>$$8x+13y=1{,}675$$The system is these two equations together. The answer is <strong>C</strong>."
+    }
+  ]
+}

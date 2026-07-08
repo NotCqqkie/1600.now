@@ -1,0 +1,19 @@
+{
+  "questionId": "f9539e05",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function can be written as\n$$\nf(x)=mx+b\n$$\nwhere $m$ is the slope and $b$ is the value of $f(0)$."
+    },
+    {
+      "title": "Substitute the line information",
+      "content": "The slope is $-3$, so $m=-3$. The point $(0,-17)$ gives the $y$-intercept, so $b=-17$."
+    },
+    {
+      "title": "Write the function",
+      "content": "Substitute those values into the linear form:\n$$\nf(x)=-3x-17\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

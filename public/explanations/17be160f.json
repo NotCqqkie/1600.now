@@ -1,0 +1,15 @@
+{
+  "questionId": "17be160f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show cause and effect",
+      "content": "The first sentence says a probe intentionally crashed into Dimorphos. The next sentence says Dimorphos's orbital period was permanently altered. The transition must show that the alteration resulted from the crash."
+    },
+    {
+      "title": "Pick the result transition",
+      "content": "Choice A signals comparison, Choice B signals addition, and Choice D signals specification. The remaining transition means 'as a result,' which fits the causal relationship between the impact and the orbital change. The answer is <strong>C</strong>."
+    }
+  ]
+}

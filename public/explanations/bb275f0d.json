@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the causal explanation in the notes",
-      "content": "The decisive clue is the <strong>causal chain</strong>: varied vegetation → varied diet → stronger immune systems. A generalization about honeybees should state this explanation, not just describe the environment or report statistics."
+      "title": "Build the generalization",
+      "content": "The notes explain that urban flowering vegetation gives honeybees a varied diet, which strengthens their immune systems. They also show higher winter survival in urban areas than in rural areas, where monoculture crops are common."
     },
     {
-      "title": "Find the answer that connects a generalization about honeybees to its causal explanation",
-      "content": "The correct answer claims honeybees thrive better in cities and directly supports this by citing the <strong>causal mechanism</strong>: varied urban diets strengthen immune systems.<br/><br/>The other choices don't combine the causal explanation with a generalization about where honeybees thrive.<br/><br/>That is the correct answer."
+      "title": "Require claim and support",
+      "content": "A compares vegetation, not honeybee success. B gives survival statistics but no causal explanation. C explains diet and immunity but does not state the broader thriving comparison clearly. The best sentence generalizes that bees are more likely to thrive in cities and supports it with the varied-diet mechanism. The answer is <strong>D</strong>."
     }
   ]
 }

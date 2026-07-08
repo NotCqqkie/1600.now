@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\frac{1}{3} \\left(x+6\\right)-\\frac{1}{2} \\left(x+6\\right)=-8$$Graph or solve it directly and read the x-value that works. The requested value is $42$.",
-      "desmosExpressions": [
-        "\\frac{1}{3} \\left(x+6\\right)-\\frac{1}{2} \\left(x+6\\right)=-8"
-      ]
-    },
-    {
-      "title": "Factor the repeated group",
-      "content": "Both terms contain $(x+6)$, so combine the coefficients first: $$\\left(\\frac{1}{3}-\\frac{1}{2}\\right)(x+6)=-8.$$"
+      "title": "Combine the repeated group",
+      "content": "Both terms on the left contain $x+6$, so factor that group:\n$$\n(\\frac{1}{3}-\\frac{1}{2})(x+6)=-8\n$$"
     },
     {
       "title": "Simplify the coefficient",
-      "content": "$$\\frac{1}{3}-\\frac{1}{2}=\\frac{2}{6}-\\frac{3}{6}=-\\frac{1}{6},$$ so $$-\\frac{1}{6}(x+6)=-8.$$"
+      "content": "Compute the coefficient:\n$$\n\\frac{1}{3}-\\frac{1}{2}=\\frac{2}{6}-\\frac{3}{6}=-\\frac{1}{6}\n$$\nSo\n$$\n-\\frac{1}{6}(x+6)=-8\n$$"
     },
     {
-      "title": "Solve for $x$",
-      "content": "Multiply both sides by $-6$ to get $x+6=48$. Subtract $6$: $$x=42.$$ The key shortcut is combining the repeated $(x+6)$ group before distributing fractions. The answer is <strong>42</strong>."
+      "title": "Solve the equation",
+      "content": "Multiply both sides by $-6$:\n$$\nx+6=48\n$$\nSubtract $6$ from both sides:\n$$\nx=42\n$$\nThe answer is <strong>42</strong>.",
+      "desmosExpressions": [
+        "\\frac{1}{3} \\left(x+6\\right)-\\frac{1}{2} \\left(x+6\\right)=-8"
+      ]
     }
   ]
 }

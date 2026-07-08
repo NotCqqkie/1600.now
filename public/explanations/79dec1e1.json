@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the blank&rsquo;s role",
-      "content": "The sentence says some colors seem to be more ______ viewers than others, and the example confirms that people find blues and greens more <em>appealing</em>. The blank must describe a positive effect colors have on viewers&rsquo; preferences &mdash; something that makes a color more desirable or pleasing to them.<ul><li><strong>Choice A &mdash; &lsquo;confusing for&rsquo;</strong>: Implies colors create confusion in viewers &mdash; opposite of the &ldquo;appealing&rdquo; relationship the example describes. &#10007;</li><li><strong>Choice B &mdash; &lsquo;attractive to&rsquo;</strong>: Directly captures the idea that some colors draw viewers in more than others, aligning with the &ldquo;more appealing&rdquo; example. &#10003;</li><li><strong>Choice C &mdash; &lsquo;corrected by&rsquo;</strong>: Implies viewers fix or adjust colors &mdash; makes no logical sense in context. &#10007;</li><li><strong>Choice D &mdash; &lsquo;similar to&rsquo;</strong>: Implies colors resemble viewers in some way &mdash; incoherent and contradicts the contrast the example establishes. &#10007;</li></ul>"
+      "title": "Match the appeal clue",
+      "content": "The example says people find paintings with blues and greens more appealing than paintings with yellows and oranges. The blank needs a phrase about colors pleasing viewers."
     },
     {
-      "title": "Select the matching choice",
-      "content": "Colors that are more &ldquo;attractive to&rdquo; viewers naturally prompt viewers to find them more appealing &mdash; the phrase fits the blank precisely. That confirms <strong>B</strong> is correct."
+      "title": "Reject illogical phrases",
+      "content": "Choice A suggests confusion, not appeal. Choice C says viewers correct colors. Choice D says colors are similar to viewers. The needed phrase means appealing or pleasing to viewers. The answer is <strong>B</strong>."
     }
   ]
 }

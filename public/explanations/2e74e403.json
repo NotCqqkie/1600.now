@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two points from the fit line",
-      "content": "For a slope-of-best-fit question, pick two points on the displayed line, not necessarily two data points. The line passes near $(0,8)$ and $(10,1)$, and it clearly slopes downward."
+      "title": "Choose two points on the line",
+      "content": "Use two readable points on the line of best fit, not necessarily two data points. The line passes near $(0,8)$ and $(10,1)$."
     },
     {
-      "title": "Read the slope",
-      "content": "Using two readable points on the fit line, the slope is approximately $$\\frac{1-8}{10-0}=\\frac{-7}{10}=-0.7.$$"
+      "title": "Compute the slope",
+      "content": "Use change in $y$ over change in $x$.<br/>$$\\frac{1-8}{10-0}=\\frac{-7}{10}=-0.7$$"
     },
     {
-      "title": "Eliminate by sign and size",
-      "content": "The slope must be negative, so the other choices are out. $-7$ is far too steep for a line that drops about $7$ units over $10$ units of run. The matching choice, $-0.7$, matches."
+      "title": "Use sign and size",
+      "content": "The line slopes downward, so the slope must be negative. A drop of about $7$ units over a run of $10$ units is closest to $-0.7$. The answer is <strong>C</strong>."
     }
   ]
 }

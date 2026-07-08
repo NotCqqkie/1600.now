@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the graphical meaning of a solution",
-      "content": "A solution to a system of two equations is the point where the two graphs intersect. Here, the line and the absolute value graph cross at one point."
+      "title": "Use the graphical solution",
+      "content": "The solution to a system of two equations is the point where the two graphs intersect."
     },
     {
-      "title": "Read the intersection",
-      "content": "From the grid, the intersection point is $(1,5)$. The point $(4,2)$ is the vertex of the absolute value graph, not the solution to the system."
+      "title": "Read the intersection point",
+      "content": "On the graph, the line and the absolute value function intersect at $(1,5)$. The point $(4,2)$ is the vertex of the absolute value graph, not the intersection."
     },
     {
-      "title": "Match the choice",
-      "content": "The solution is $(1,5)$, which matches the correct answer, <strong>C</strong>."
+      "title": "Select the matching point",
+      "content": "The solution to the system is $(1,5)$. The answer is <strong>C</strong>."
     }
   ]
 }

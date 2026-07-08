@@ -1,0 +1,15 @@
+{
+  "questionId": "dce868ca",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertical angles",
+      "content": "The figure shows $r$ and $s$ opposite each other where two lines intersect, so they are vertical angles."
+    },
+    {
+      "title": "Set the angles equal",
+      "content": "Vertical angles are equal, so $s=r$. Since $r=61$, $s$ has the same value. The answer is <strong>61</strong>."
+    }
+  ]
+}

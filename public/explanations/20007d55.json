@@ -1,0 +1,15 @@
+{
+  "questionId": "20007d55",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the sex-specific claim",
+      "content": "Ehmann and colleagues predicted a sex-specific difference: immature males should devote more attention than females to immigrants to their home region. Because males leave their birth area at maturity, immigrant adults may be especially useful models for them. The supporting data must compare male and female proportions."
+    },
+    {
+      "title": "Separate counts from proportions",
+      "content": "A compares individuals within the same sex groups, B gives only a total count, and D gives only the overall range without separating males from females. The useful comparison shows the female individuals directing a lower proportion of peering at immigrants than the male individuals, which is the predicted sex-specific pattern. The answer is <strong>C</strong>."
+    }
+  ]
+}

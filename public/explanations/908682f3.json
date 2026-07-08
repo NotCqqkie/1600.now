@@ -1,0 +1,15 @@
+{
+  "questionId": "908682f3",
+  "correctAnswer": "23",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the cosine ratio",
+      "content": "For angle $y$, cosine equals adjacent side over hypotenuse. The figure shows hypotenuse $JL=24$, and the adjacent side is $KL$. The given ratio has denominator $24$, so it is already comparing a side length to that hypotenuse."
+    },
+    {
+      "title": "Solve for the side",
+      "content": "Use the given ratio.\n$$\\cos y^\\circ=\\frac{KL}{24}$$\n$$\\frac{23}{24}=\\frac{KL}{24}$$\n$$KL=23$$\nThe answer is <strong>23</strong>."
+    }
+  ]
+}

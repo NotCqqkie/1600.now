@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the workload shift",
-      "content": "Infected workers are described as “ceasing their share of labor” while uninfected workers “feed, groom, and transport them.”"
+      "title": "Track the labor burden",
+      "content": "Infected ants stop doing their share of colony labor and receive care. Uninfected workers must still sustain the colony while feeding, grooming, and transporting the infected ants."
     },
     {
-      "title": "Connect the burden to the outcome",
-      "content": "<strong>Choice B &mdash; need to compensate for reduced contributions within the colony while also caring for infected workers is burdensome to the uninfected workers.</strong> directly identifies the cause: uninfected workers must compensate for the infected workers' lost contributions while also providing all their care—a double burden that explains their shortened lifespans.<br/><br/>The unsupported-scenario alternatives involve uninfected workers becoming infected despite no mention of transmission or predator attacks that are never discussed. <strong>Choice D &mdash; average lifespan of <em>T. nylanderi</em> worker ants in colonies without parasitic activity typically falls well below three years, the range covered by the study.</strong> merely restates baseline data unrelated to the shortened lifespans observed in parasitized colonies.<br/><br/>That matches <strong>Choice B &mdash; need to compensate for reduced contributions within the colony while also caring for infected workers is burdensome to the uninfected workers.</strong>."
+      "title": "Explain the shorter lives",
+      "content": "The matching completion explains the shortened lifespans as the result of compensating for infected workers' reduced contributions while caring for them. Choice A invents transmission risk, Choice C introduces predator attacks, and Choice D gives colony-without-parasites data that would not explain the burden in parasitized colonies. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the central angle rule",
-      "content": "A central angle has its vertex at the center of the circle, and its degree measure equals the degree measure of the intercepted arc."
-    },
-    {
-      "title": "Recognize the central angle",
-      "content": "Angle $\\angle UMV$ has its vertex at $M$ (the center) with rays extending to points $U$ and $V$ on the circle. This is a <strong>central angle</strong>, and it directly intercepts arc $UV$."
-    },
-    {
-      "title": "Use the central angle property",
-      "content": "The measure of a central angle equals the measure of its intercepted arc. Therefore, $\\angle UMV = 110^{\\circ}$.",
+      "title": "Identify the central angle",
+      "content": "Point $M$ is the center of the circle, so angle $UMV$ is a central angle. A central angle has the same degree measure as its intercepted arc.",
       "formula": "$$\\text{Central angle measure} = \\text{Arc measure}$$"
+    },
+    {
+      "title": "Use the arc measure",
+      "content": "The measure of arc $UV$ is $110^\\circ$, so the measure of angle $UMV$ is<br/>$$110^\\circ$$The answer is <strong>110</strong>."
     }
   ]
 }

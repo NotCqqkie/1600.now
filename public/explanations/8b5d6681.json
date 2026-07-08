@@ -1,0 +1,15 @@
+{
+  "questionId": "8b5d6681",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given point",
+      "content": "The point $(0,b)$ lies on the graph of $y=f(x)$, so $b=f(0)$."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $x=0$ into the function.\n$$f(0)=0^4+6(0)+17=17$$\nThe answer is <strong>17</strong>."
+    }
+  ]
+}

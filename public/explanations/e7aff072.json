@@ -1,0 +1,15 @@
+{
+  "questionId": "e7aff072",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the task durations",
+      "content": "The table gives task times of $8$, $6$, $14$, $11$, and $11$ minutes. Their total is\n$$\n8+6+14+11+11=50\n$$"
+    },
+    {
+      "title": "Divide by the number of tasks",
+      "content": "There are $5$ tasks, so the mean time is\n$$\n\\frac{50}{5}=10\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

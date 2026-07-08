@@ -1,0 +1,15 @@
+{
+  "questionId": "84c75bd4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine the two ideas",
+      "content": "The text introduces habitat navigation, then describes researchers teaching goldfish to drive a wheeled tank. The main idea should capture the surprising point that fish can navigate outside water when given mechanical assistance."
+    },
+    {
+      "title": "Avoid overclaims",
+      "content": "Choice A says fish can navigate only in water, which the experiment contradicts. Choice B claims navigation depends directly on the animal's environment, which the example challenges. Choice C invents treats and many different tasks. The remaining choice captures fish navigating on land with help. The answer is <strong>D</strong>."
+    }
+  ]
+}

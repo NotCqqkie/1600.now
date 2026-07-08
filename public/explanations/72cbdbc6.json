@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the cause-and-effect",
-      "content": "The researchers found that poor street lighting DETERS new or inexperienced cyclists but has LITTLE EFFECT on experienced cyclists. So improving lighting should help the deterred group, not the unaffected one."
+      "title": "Follow the lighting effect",
+      "content": "The researchers found that poor street lighting deters new or inexperienced cyclists but has little effect on experienced cyclists. Improving lighting should therefore mainly affect the deterred group."
     },
     {
-      "title": "Predict the conclusion",
-      "content": "If poor lighting was keeping new/inexperienced riders away, then adding more streetlights should INCREASE the number of new or inexperienced cyclists. Experienced cyclists weren't affected, so their numbers shouldn't change much."
+      "title": "Reject backwards or overbroad effects",
+      "content": "Choice A goes backward because removing a deterrent should not reduce new cyclists. Choices B and C focus on experienced cyclists, but the passage says lighting has little effect on them."
     },
     {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;decrease the number of new or inexperienced cyclists riding in the city.&rsquo;</strong>: backwards &mdash; removing a deterrent should raise, not lower, their numbers. &#10007;</li><li><strong>Choice B &mdash; &lsquo;increase the number of experienced cyclists riding in the city.&rsquo;</strong>: overreach &mdash; experienced cyclists weren't deterred by poor lighting, so better lighting wouldn't change their behavior. &#10007;</li><li><strong>Choice C &mdash; &lsquo;decrease the number of experienced cyclists riding in the city.&rsquo;</strong>: contradicts the finding that lighting has little effect on experienced cyclists. &#10007;</li><li><strong>Choice D &mdash; &lsquo;increase the number of new or inexperienced cyclists riding in the city.&rsquo;</strong>: directly follows from removing the deterrent for that group. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Predict the likely result",
+      "content": "The remaining choice follows logically: adding streetlights could increase the number of new or inexperienced cyclists riding in the city. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "08ea504f",
+  "correctAnswer": "15.12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rate of change",
+      "content": "The coefficient of $x$ is $\\frac{9}{5}$, so each $1$-kelvin increase changes the Fahrenheit temperature by $\\frac{9}{5}$ degrees."
+    },
+    {
+      "title": "Multiply by the increase",
+      "content": "For an increase of $8.40$ kelvins, multiply the kelvin change by the rate.<br/>$$\\frac{9}{5}(8.40)$$<br/>The answer is <strong>15.12</strong>."
+    }
+  ]
+}

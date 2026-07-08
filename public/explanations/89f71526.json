@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key comparison",
-      "content": "The phrase “still lower than” signals that the answer must be a volcano with a higher deformation rate than Sierra Negra."
+      "title": "Use the comparison phrase",
+      "content": "The phrase \"still lower than\" means the completed statement must name a volcano with a deformation rate higher than Sierra Negra's rate."
     },
     {
-      "title": "Match the rates to the requirement",
-      "content": "Pacaya shows 3.4 centimeters per month—the only rate exceeding Sierra Negra's 2.9. The other three volcanoes all fall below Sierra Negra. That confirms <strong>B</strong> is correct."
+      "title": "Pick the higher rate",
+      "content": "A, C, and D name volcanoes with rates below Sierra Negra's 2.9 centimeters per month. The remaining volcano is higher, at 3.4 centimeters per month. The answer is <strong>B</strong>."
     }
   ]
 }

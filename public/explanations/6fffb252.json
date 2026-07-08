@@ -1,0 +1,15 @@
+{
+  "questionId": "6fffb252",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the scientists' overlap",
+      "content": "The question asks for a choice that emphasizes a similarity between Eleanor Marsh and Clara Vogel. The notes identify Marsh as an entomologist, someone who studies insects, and Vogel as an ornithologist, someone who studies birds. Insects and birds are different subjects, but both are living organisms studied by scientists."
+    },
+    {
+      "title": "Reject contrasts and generalities",
+      "content": "<ul><li><strong>A</strong>, \"The entomologist Eleanor Marsh was born in 1797, but ornithologist Clara Vogel was born later, in 1868,\" emphasizes a difference in birth years instead of a shared trait.</li><li><strong>C</strong>, \"Entomology and ornithology are just two examples of the myriad fields in which scientists can specialize,\" discusses fields generally and does not directly compare Marsh and Vogel.</li><li><strong>D</strong>, \"Eleanor Marsh conducted research on wheat flies and cicadas; Clara Vogel, by contrast, is known for her research on Brazilian birds,\" explicitly signals contrast and focuses on different research subjects.</li><li><strong>B</strong>, \"Like entomologist Eleanor Marsh, ornithologist Clara Vogel dedicated her scientific career to the study of living organisms,\" uses the comparison word <em>Like</em> and identifies the common ground between their careers.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

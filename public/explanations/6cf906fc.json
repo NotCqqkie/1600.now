@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question. The word &quot;sheltering&quot; modifies &quot;roof&quot; in a poem describing a barren, stormy landscape where no such roof exists. The context &mdash; heavy gray skies threatening a storm &mdash; tells us what function this roof would serve if it were present."
+      "title": "Use the roof context",
+      "content": "Sheltering describes a roof in a barren scene with heavy gray skies. In that context, a sheltering roof would provide cover from the weather, so the word points to protection."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Protective&rsquo;</strong>: A roof's purpose in a storm is to shield from wind and rain. &quot;Sheltering&quot; in this context means offering protection from the elements, which matches &quot;protective&quot; exactly. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Restrictive&rsquo;</strong>: Restrictive means limiting or confining. The poem presents a roof's absence as a source of vulnerability, not as something that would constrain anything. No element of the text supports this meaning. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Affectionate&rsquo;</strong>: Affectionate means loving or tender. While the speaker does express love for the woman in the painting, the word &quot;sheltering&quot; describes the physical roof in the landscape, not any emotional quality. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Suspicious&rsquo;</strong>: Suspicious means dubious or questionable. Nothing in the poem implies a roof would be untrustworthy; the absence of one simply leaves the scene exposed to the storm. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject emotional or doubtful meanings",
+      "content": "Choice B means limiting, but the missing roof would make the scene less exposed. Choice C shifts to affection, even though the word describes a roof. Choice D means doubtful or distrustful, which does not fit a roof's function. The answer is <strong>A</strong>."
     }
   ]
 }

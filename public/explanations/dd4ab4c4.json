@@ -4,13 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "content": "Check whether the polynomial is a perfect square trinomial. The first term $9a^2 = (3a)^2$ and the last term $16b^2 = (4b)^2$ are both perfect squares."
+      "title": "Recognize the square pattern",
+      "content": "The first and last terms are perfect squares:<br/>$$9a^2=(3a)^2$$<br/>$$16b^2=(4b)^2$$"
     },
     {
-      "content": "For $(3a + 4b)^2$, the middle term would be $2 \\cdot (3a) \\cdot (4b) = 24ab$. The given polynomial has exactly $24ab$, so $9a^2 + 24ab + 16b^2 = (3a + 4b)^2$. Therefore $(3a + 4b)$ is a factor."
+      "title": "Check the middle term",
+      "content": "For a square of a binomial, the middle term is twice the product of the two base terms:<br/>$$2(3a)(4b)=24ab$$<br/>So the polynomial factors as<br/>$$(3a+4b)^2$$"
     },
     {
-      "content": "Evaluate each choice:<ul><li><strong>\"$a + b$\"</strong>: Dividing $(3a+4b)^2$ by $(a+b)$ does not yield a polynomial with integer coefficients; $(a+b)$ is not a factor. Incorrect.</li><li><strong>\"$3a + 4b$\"</strong>: Since $9a^2 + 24ab + 16b^2 = (3a+4b)^2$, the factor $3a+4b$ appears twice. That matches the correct answer &mdash; <strong>B</strong> is correct.</li><li><strong>\"$9a + 4b$\"</strong>: Testing $a=1, b=1$: polynomial $= 9+24+16 = 49$ and $\\left(9\\right)(1)+4(1) = 13$. Since $13 \\nmid 49$, this is not a factor. Incorrect.</li><li><strong>\"$9a + 16b$\"</strong>: Testing $a=1, b=1$: $9+16 = 25$. Since $25 \\nmid 49$, this is not a factor. Incorrect.</li></ul>"
+      "title": "Identify a factor",
+      "content": "Since<br/>$$(3a+4b)^2=(3a+4b)(3a+4b)$$<br/>one factor is $3a+4b$. The answer is <strong>B</strong>."
     }
   ]
 }

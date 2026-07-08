@@ -1,0 +1,19 @@
+{
+  "questionId": "2d74e1f4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use the two table points, $(4,17)$ and $(6,23)$. This gives the rate of change for the line:<br/>$$m=\\frac{23-17}{6-4}=\\frac{6}{2}=3$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Substitute $(4,17)$ into $y=mx+b$ with $m=3$:<br/>$$17=3(4)+b$$<br/>$$17=12+b$$<br/>$$b=5$$"
+    },
+    {
+      "title": "Write the function",
+      "content": "The linear function is:<br/>$$h(x)=3x+5$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

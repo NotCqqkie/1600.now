@@ -1,0 +1,15 @@
+{
+  "questionId": "1e234959",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the native ecoregion",
+      "content": "The student wants to indicate which ecoregion the willow oak is native to. The notes state directly that the willow oak is native to the Southeastern ecoregion of the United States."
+    },
+    {
+      "title": "Reject other identifiers",
+      "content": "Choice A mentions ecoregions generally but not the willow oak. Choice B gives the scientific name. Choice C identifies the tree type and scientific name but not its native ecoregion. The answer is <strong>D</strong>."
+    }
+  ]
+}

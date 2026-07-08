@@ -1,0 +1,15 @@
+{
+  "questionId": "bdaecf10",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the unusual pattern",
+      "content": "Most high and medium entropy alloys become less tough as temperature falls. To support Liu et al.'s conclusion that these alloys behave differently, the graph should show the opposite pattern: greater toughness at the lower cryogenic temperature."
+    },
+    {
+      "title": "Compare across temperatures",
+      "content": "Choice A compares the two alloys at one temperature. Choice B compares propagation with initiation, not the typical temperature trend. Choice C describes change size between temperature intervals. The remaining choice shows both toughness measures are lower at room temperature than at 20 kelvins. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat the repeated group as the target",
-      "content": "The question asks for $3-5x$, so do not expand it. Let the repeated group stay together while you move terms."
+      "title": "Keep the repeated group",
+      "content": "The question asks for $3-5x$, and that exact group appears on both sides. Keep the group together instead of solving for $x$."
     },
     {
       "title": "Isolate the group",
-      "content": "Start with $$8-6(3-5x)=21-7(3-5x).$$ Subtract $8$ from both sides: $$-6(3-5x)=13-7(3-5x).$$ Add $7(3-5x)$ to both sides to get $$3-5x=13.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The target expression has value <strong>13</strong>. This is faster than solving for $x$ because the problem asks for the grouped expression itself."
+      "content": "Start with the equation:\n$$\n8-6(3-5x)=21-7(3-5x)\n$$\nSubtract $8$ from both sides, then add $7(3-5x)$ to both sides:\n$$\n-6(3-5x)=13-7(3-5x)\n$$\n$$\n3-5x=13\n$$\nThe answer is <strong>13</strong>."
     }
   ]
 }

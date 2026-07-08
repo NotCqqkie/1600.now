@@ -1,0 +1,15 @@
+{
+  "questionId": "30d91239",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the limits signal",
+      "content": "The underlined portion follows the phrase \"This approach has some limits.\" It explains that Places API data tend to cover customer-facing places, so it names a limitation of the data source."
+    },
+    {
+      "title": "Reject unrelated functions",
+      "content": "<ul><li><strong>Choice A</strong> is about neighborhood boundaries, which the underlined portion never discusses.</li><li><strong>Choice B</strong> describes a strength, but the text explicitly signals a limit.</li><li><strong>Choice C</strong> introduces the model, but that happened earlier in the passage.</li></ul>The remaining choice identifies the underlined text as a specific flaw in the data set. The answer is <strong>D</strong>."
+    }
+  ]
+}

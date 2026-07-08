@@ -1,0 +1,15 @@
+{
+  "questionId": "e8c9a7f8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the small-forest rule",
+      "content": "The passage says that when the model is applied to small forests, its predictions for small-mammal populations are too high. Conecuh National Forest is a small forest, so that rule applies."
+    },
+    {
+      "title": "Reject mismatched predictions",
+      "content": "Choice A concerns large mammals. Choice B introduces factors other than shorter winters. Choice D introduces predator-prey relationships, which the passage does not mention. The expected error is too-high predictions for small mammals. The answer is <strong>C</strong>."
+    }
+  ]
+}

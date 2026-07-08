@@ -1,0 +1,15 @@
+{
+  "questionId": "576a77d7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the pronoun target",
+      "content": "The astronomers attributed the star's wobble to the gravitational influence of the exoplanet. The blank must refer back to \"the wobble,\" which is singular."
+    },
+    {
+      "title": "Use a singular object pronoun",
+      "content": "A does not fit because there is no set of individual items, while B and D are plural and do not agree with \"the wobble.\" The sentence needs a singular object pronoun after \"attributed.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

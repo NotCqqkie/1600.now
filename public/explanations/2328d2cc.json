@@ -1,0 +1,19 @@
+{
+  "questionId": "2328d2cc",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the list structure",
+      "content": "After \"namely,\" the sentence lists three factors: size and composition, velocity, and atmospheric fluctuations. Because later list items include commas, semicolons are the clearest way to separate the items."
+    },
+    {
+      "title": "Reject weaker separators",
+      "content": "Choice B ends the sentence in the middle of the list. Choice C uses only a comma, which blurs the boundary between list items. Choice D inserts a dash where the sentence needs list punctuation."
+    },
+    {
+      "title": "Separate the first two factors",
+      "content": "A semicolon after meteoroids cleanly separates the first factor from the second factor, their velocity upon entering Earth's mesosphere. The answer is <strong>A</strong>."
+    }
+  ]
+}

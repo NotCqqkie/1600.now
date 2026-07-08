@@ -1,0 +1,15 @@
+{
+  "questionId": "b5a88a05",
+  "correctAnswer": "152",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use same-side angles",
+      "content": "Lines $r$ and $s$ are parallel, and line $n$ is a transversal. The marked $28^\\circ$ angle and $x$ are same-side interior angles, so they are supplementary."
+    },
+    {
+      "title": "Subtract from a straight angle",
+      "content": "Set their sum equal to $180^\\circ$ and solve.\n$$x+28=180$$\n$$x=180-28=152$$\nThe answer is <strong>152</strong>."
+    }
+  ]
+}

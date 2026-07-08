@@ -1,0 +1,15 @@
+{
+  "questionId": "1413814e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The notation $f(x)$ gives the output of the function for a chosen input $x$. The question asks for the output when the input is $3$, so replace $x$ with $3$ in the expression.\n$$f(3)=28(3)+75$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Multiply first, then add.\n$$28(3)+75=84+75=159$$\nThis value is the function output for the requested input. The answer is <strong>C</strong>."
+    }
+  ]
+}

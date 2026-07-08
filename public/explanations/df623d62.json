@@ -1,0 +1,15 @@
+{
+  "questionId": "df623d62",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Check the sentence boundary",
+      "content": "The first clause says the djeser and heqat were ancient Egyptian units of measurement. The next idea begins with a modifier, <em>Used to record length and volume, respectively</em>, and then continues with a complete clause about the units falling out of use."
+    },
+    {
+      "title": "Avoid comma splices",
+      "content": "A and B incorrectly use only a comma to connect complete clauses. D creates an awkward and unparallel structure. A period after <em>measurement</em> cleanly separates the sentence before the modifying phrase. The answer is <strong>C</strong>."
+    }
+  ]
+}

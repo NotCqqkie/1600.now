@@ -1,0 +1,15 @@
+{
+  "questionId": "54493ca7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert feet to yards",
+      "content": "Since $3$ feet equal $1$ yard, divide the feet-per-second speed by $3$.\n$$\n\\frac{6}{25}\\div3=\\frac{6}{25}\\cdot\\frac{1}{3}\n$$"
+    },
+    {
+      "title": "Simplify the converted speed",
+      "content": "Multiply and reduce the fraction.\n$$\n\\frac{6}{25}\\cdot\\frac{1}{3}=\\frac{6}{75}=\\frac{2}{25}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

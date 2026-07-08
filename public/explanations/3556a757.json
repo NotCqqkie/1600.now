@@ -1,0 +1,15 @@
+{
+  "questionId": "3556a757",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage order",
+      "content": "The passage first introduces a feature shared by all baleen whales: filtering krill through baleen plates. It then compares humpback and fin whale size, which matters because body mass relates to how much krill a whale can consume. The structure moves from a broad feeding trait to a species-specific comparison tied to that trait."
+    },
+    {
+      "title": "Reject reversed structures",
+      "content": "A reverses the order by putting the size distinction first. B adds population changes, and C calls baleen feeding unique to humpbacks, though the text says all baleen whales share it as a group. The answer is <strong>D</strong>."
+    }
+  ]
+}

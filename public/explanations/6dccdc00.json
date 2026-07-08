@@ -1,0 +1,17 @@
+{
+  "questionId": "6dccdc00",
+  "correctAnswer": "-15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept point",
+      "content": "The line has slope $\\frac{5}{6}$ and passes through the $x$-intercept $(18,0)$.\n$$\ny-0=\\frac{5}{6}(x-18)\n$$",
+      "formula": "$$y - y_1 = m(x - x_1)$$"
+    },
+    {
+      "title": "Find the y-intercept",
+      "content": "Rewrite in slope-intercept form.\n$$\ny=\\frac{5}{6}x-\\frac{5}{6}(18)\n$$\n$$\ny=\\frac{5}{6}x-15\n$$\nSo the $y$-coordinate of the $y$-intercept is $-15$. The answer is <strong>-15</strong>.",
+      "formula": "$$y = mx + b$$"
+    }
+  ]
+}

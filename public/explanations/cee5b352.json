@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make two seal-length points",
-      "content": "At birth, $x=0$ and the seal is 148 cm long, so the starting value is $148$. The seal grows $5.2$ cm per month, so the slope is $5.2$."
+      "title": "Identify the starting value",
+      "content": "At birth, $x=0$, and the seal's length was $148$ centimeters. So the $y$-intercept is $148$."
     },
     {
-      "title": "Read the linear model",
-      "content": "A linear model is $$y=\\text{starting value}+(\\text{monthly growth})x.$$ Substituting the values gives $$y=148+5.2x,$$ or $$y=5.2x+148.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is the only equation with starting length $148$ and monthly growth $5.2$. <strong>D</strong> is correct."
+      "title": "Add the monthly growth",
+      "content": "The length increases by $5.2$ centimeters per month, so after $x$ months the increase is $5.2x$. The model is:\n$$\ny=5.2x+148\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

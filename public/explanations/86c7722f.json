@@ -1,0 +1,15 @@
+{
+  "questionId": "86c7722f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clauses",
+      "content": "The first complete idea is \"these consonants are rare.\" The next complete idea is that in some dialects of Mandarin, four such consonants are relatively common. The word \"however\" marks a contrast between the rarity in many languages and the relative commonness in those Mandarin dialects."
+    },
+    {
+      "title": "Join the contrast correctly",
+      "content": "A comma alone would create a comma splice because it would join two independent clauses without adequate punctuation. No punctuation would create a run-on, and \"rare and in some dialects\" would not cleanly coordinate the two complete ideas. A semicolon correctly links the two closely related independent clauses before the contrast word \"however.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

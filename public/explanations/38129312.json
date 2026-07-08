@@ -1,0 +1,19 @@
+{
+  "questionId": "38129312",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex",
+      "content": "The object reaches a maximum height of $277$ feet at $t=3$. That means the vertex has time coordinate $3$ and height coordinate $277$, and the parabola opens downward."
+    },
+    {
+      "title": "Use the launch height",
+      "content": "Vertex form is $f(t)=a(t-3)^2+277$. Since the initial height is $133$, use $f(0)=133$.\n$$133=a(0-3)^2+277$$\n$$133=9a+277$$\n$$a=-16$$"
+    },
+    {
+      "title": "Write the model",
+      "content": "Substitute $a=-16$ into vertex form.\n$$f(t)=-16(t-3)^2+277$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

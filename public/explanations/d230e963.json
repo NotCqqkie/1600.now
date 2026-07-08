@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read signs from the line",
-      "content": "The line of best fit crosses the $y$-axis above the origin, so the intercept is positive. It also rises from left to right, so the slope is positive."
+      "title": "Read the intercept sign",
+      "content": "The line of best fit crosses the $y$-axis above the origin, so the $y$-intercept is positive."
     },
     {
-      "title": "Reject the negative-intercept choices",
-      "content": "Start by checking the other choices. Both cross the $y$-axis at $-2.8$, below the origin. The displayed line crosses the $y$-axis above the origin, so C and D cannot match."
+      "title": "Read the slope sign",
+      "content": "The line rises from left to right, so the slope is positive."
     },
     {
-      "title": "Reject the negative-slope choice",
-      "content": "Now test choice B, $y=2.8-1.7x$. Its $y$-intercept is positive, but the line falls from left to right. The graph's best-fit line rises from left to right, so B is out."
-    },
-    {
-      "title": "Confirm the matching model",
-      "content": "<strong>A</strong>, $y=2.8+1.7x$, is the only option with both features: a positive $y$-intercept and a positive slope."
+      "title": "Match both features",
+      "content": "The only listed equation with a positive intercept and a positive slope is $y=2.8+1.7x$. The answer is <strong>A</strong>."
     }
   ]
 }

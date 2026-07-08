@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure around the blank",
-      "content": "The sentence has two independent clauses separated by the blank. Before: <strong>&ldquo;The Lim&oacute;n technique&hellip; is known for its emphasis on breath control and its interplay of weight and [blank]&rdquo;</strong> &mdash; a complete main clause. After: <strong>&ldquo;dancers may explore, for example, the moment of mid-air suspension at the top of a jump&rdquo;</strong> &mdash; another complete main clause. Two independent clauses must be joined by a boundary that is stronger than a comma and does not use a relative pronoun."
+      "title": "Join two main clauses",
+      "content": "The words before the blank form one complete clause about the Limon technique's emphasis and interplay of weight and weightlessness. The words after the blank form another complete clause about what dancers may explore."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"weightlessness\"</strong>: Placing no punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>\"weightlessness which\"</strong>: The relative pronoun &ldquo;which&rdquo; cannot join two independent clauses; it would need to modify a noun and creates a grammatically confused structure. &#10007;</li><li><strong>\"weightlessness,\"</strong>: A comma alone between two independent clauses without a coordinating conjunction is a comma splice. &#10007;</li><li><strong>\"weightlessness;\"</strong>: A semicolon correctly separates two related independent clauses. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject weak boundaries",
+      "content": "Choice A leaves the two independent clauses fused with no punctuation. Choice B uses <em>which</em>, which cannot join the two main clauses this way. Choice C uses only a comma, creating a comma splice. The answer is <strong>D</strong>."
     }
   ]
 }

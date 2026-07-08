@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Exactly one solution means discriminant $= 0$",
-      "content": "For $-9x^2-12x+c=0$, identify $a=-9$, $b=-12$, and constant term $c$. A quadratic has exactly one real solution only when the graph is tangent to the $x$-axis, which is the same as setting the discriminant equal to $0$."
+      "title": "Use the one-solution condition",
+      "content": "A quadratic equation has exactly one real solution when its discriminant is $0$. For\n$$\n-9x^2-12x+c=0\n$$\nthe coefficients are $a=-9$ and $b=-12$."
     },
     {
-      "title": "Discriminant shortcut: solve for $c$",
-      "content": "$$(-12)^2-4(-9)(c)=0$$<br/>$$144+36c=0$$<br/>$$c=-4$$<br/>The constant that makes the discriminant zero is <strong>-4</strong>."
+      "title": "Set the discriminant to zero",
+      "content": "$$\nb^2-4ac=0\n$$\n$$\n(-12)^2-4(-9)c=0\n$$\n$$\n144+36c=0\n$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "$$\n36c=-144\n$$\nDivide both sides by $36$. The answer is <strong>-4</strong>."
     }
   ]
 }

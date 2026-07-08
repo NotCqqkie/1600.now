@@ -1,0 +1,19 @@
+{
+  "questionId": "03f9a829",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $m(56)$, replace $x$ with $56$ in the function:<br/>$$m(56)=\\frac{56}{7}$$"
+    },
+    {
+      "title": "Simplify the quotient",
+      "content": "Evaluate the division:<br/>$$\\frac{56}{7}=8$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The function value is $8$. The answer is <strong>D</strong>."
+    }
+  ]
+}

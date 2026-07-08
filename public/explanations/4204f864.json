@@ -1,0 +1,16 @@
+{
+  "questionId": "4204f864",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the side scale factor",
+      "content": "Area scales by the square of the side-length scale factor. The side lengths of square A are $72$ times the side lengths of square B.",
+      "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
+    },
+    {
+      "title": "Compute the area factor",
+      "content": "Square the scale factor:\n$$\nk=72^2=5{,}184\n$$\nThe area of square A is $5{,}184$ times the area of square B. The answer is <strong>A</strong>."
+    }
+  ]
+}

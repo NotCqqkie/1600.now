@@ -1,0 +1,19 @@
+{
+  "questionId": "6a2efa22",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose a simple value",
+      "content": "Let $c=100$. Since $b$ is $78\\%$ of $c$,\n$$\nb=0.78(100)=78\n$$"
+    },
+    {
+      "title": "Find a from the sum",
+      "content": "The sum of $b$ and $c$ is\n$$\n78+100=178\n$$\nSince $a$ is $2{,}223\\%$ of that sum,\n$$\na=22.23(178)=3{,}956.94\n$$"
+    },
+    {
+      "title": "Convert to percent of b",
+      "content": "Find the ratio of $a$ to $b$ and convert to a percent:\n$$\n\\frac{3{,}956.94}{78}=50.73\n$$\n$$\n50.73\\cdot 100\\%=5{,}073\\%\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

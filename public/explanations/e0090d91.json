@@ -1,0 +1,19 @@
+{
+  "questionId": "e0090d91",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rectangle area",
+      "content": "Rectangle $X$ has length $32$ and width $16.5$, so its area is<br/>$$32\\cdot16.5=528$$"
+    },
+    {
+      "title": "Find the triangle area",
+      "content": "The rectangle's area is $3$ times the triangle's area, so the triangle's area is<br/>$$\\frac{528}{3}=176$$"
+    },
+    {
+      "title": "Use base and height",
+      "content": "For right triangle $Y$, base $=22$ and area $=176$.<br/>$$\\frac12(22)h=176$$<br/>$$11h=176$$<br/>$$h=16$$The answer is <strong>B</strong>."
+    }
+  ]
+}

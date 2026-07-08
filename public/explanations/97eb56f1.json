@@ -1,0 +1,15 @@
+{
+  "questionId": "97eb56f1",
+  "correctAnswer": "183",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the later distance",
+      "content": "For the constant-speed part of the trip, multiply speed by time.<br/>$$55.0(3)=165$$"
+    },
+    {
+      "title": "Add the first distance",
+      "content": "Add the $18.0$ miles Nora already drove to the later distance.<br/>$$18.0+165=183$$<br/>The answer is <strong>183</strong>."
+    }
+  ]
+}

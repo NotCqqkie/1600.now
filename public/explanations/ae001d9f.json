@@ -1,0 +1,15 @@
+{
+  "questionId": "ae001d9f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the plant contrast",
+      "content": "The goal asks for a difference between <em>Clermontia kakeana</em> and <em>Ardisia elliptica</em>. The notes say the first is native and the second is non-native, while both were catalogued in Oahu. The contrast has to be between the plants themselves, not between studies or bird samples."
+    },
+    {
+      "title": "Reject similarity or missing pair",
+      "content": "A emphasizes that both seeds appeared in samples, B describes the study, and C mentions only <em>Ardisia elliptica</em>. The needed sentence names both plants and contrasts native status. The answer is <strong>D</strong>."
+    }
+  ]
+}

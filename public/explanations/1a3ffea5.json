@@ -1,0 +1,15 @@
+{
+  "questionId": "1a3ffea5",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The y-intercept occurs where $x=0$. Substitute $0$ into the function:\n$$\nf(0)=5(0)+17\n$$"
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "The y-coordinate of the y-intercept is the resulting output:\n$$\nf(0)=17\n$$\nThe answer is <strong>17</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ce555f68",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circumference formula",
+      "content": "The circumference formula using diameter is\n$$C=\\pi d$$\nThe given circumference is $36\\pi$."
+    },
+    {
+      "title": "Find the diameter",
+      "content": "Substitute and divide by $\\pi$:\n$$36\\pi=\\pi d$$\n$$d=36$$\nThe answer is <strong>36</strong>."
+    }
+  ]
+}

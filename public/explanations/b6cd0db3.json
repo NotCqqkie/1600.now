@@ -1,0 +1,15 @@
+{
+  "questionId": "b6cd0db3",
+  "correctAnswer": "40",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations to eliminate $x$:\n$$\n(8x+7y)+(-8x-5y)=31+9\n$$\n$$\n2y=40\n$$"
+    },
+    {
+      "title": "Use the requested expression",
+      "content": "The question asks for $2y$, and the sum of the equations gives that value directly. The answer is <strong>40</strong>."
+    }
+  ]
+}

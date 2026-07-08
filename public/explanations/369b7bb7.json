@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 4",
-      "content": "The function is $g(x)=\\sqrt{6x+1}$. Substitute $x=4$: $$g(4)=\\sqrt{6(4)+1}$$"
+      "title": "Substitute the input",
+      "content": "To find $g(4)$, replace $x$ with $4$ in $g(x)=\\sqrt{6x+1}$.\n$$\ng(4)=\\sqrt{6(4)+1}\n$$"
     },
     {
-      "title": "Simplify inside the radical first",
-      "content": "$$6(4)+1=25$$ so $$g(4)=\\sqrt{25}=5$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice <strong>C</strong>, $5$, is correct. The other choices come from dividing by $6$, which is not the operation here. $25$ is the value inside the square root before taking the square root."
+      "title": "Evaluate the radical",
+      "content": "Simplify inside the radical first.\n$$\n6(4)+1=25\n$$\n$$\ng(4)=\\sqrt{25}=5\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

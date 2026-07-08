@@ -4,23 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$8x=88$$Graph or solve it directly and read the x-value that works. The requested value is $11$.",
+      "title": "Undo multiplication",
+      "content": "Divide both sides of the equation by $8$.\n$$8x=88$$\n$$x=\\frac{88}{8}$$\n$$x=11$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Entering the equation directly gives the same value of $x$. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "8x=88"
       ]
-    },
-    {
-      "title": "Undo multiplication by 8",
-      "content": "The equation is $$8x=88$$ Divide both sides by $8$ to isolate $x$."
-    },
-    {
-      "title": "Solve",
-      "content": "$$x=\\frac{88}{8}=11$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A (&lsquo;$11$&rsquo;) is $11$, so it is correct. Choice B (&lsquo;$80$&rsquo;) comes from subtracting $8$, choice C (&lsquo;$96$&rsquo;) comes from adding $8$, and choice D, $704$, would solve $\\frac{x}{8}=88$, not $8x=88$."
     }
   ]
 }

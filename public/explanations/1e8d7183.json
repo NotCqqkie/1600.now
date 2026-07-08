@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\left(18w-30\\right) \\left(18w+30\\right)$."
+      "title": "Rewrite each term as a square",
+      "content": "Both terms are perfect squares. The coefficient $324$ is $18^2$, and the constant $900$ is $30^2$.\n$$324w^2=(18w)^2$$\n$$900=30^2$$\nSo the expression can be written as a difference of squares.\n$$(18w)^2-30^2$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Apply the square difference pattern",
+      "content": "A difference of squares factors into the difference of the bases times the sum of the bases.\n$$a^2-b^2=(a-b)(a+b)$$\nHere, $a=18w$ and $b=30$, so the expression factors as\n$$(18w-30)(18w+30)$$"
     },
     {
-      "title": "Recognize a difference of squares",
-      "content": "Write each term as a perfect square: $324w^2 = (18w)^2$ and $900 = 30^2$. So $324w^2 - 900 = (18w)^2 - 30^2$."
-    },
-    {
-      "title": "Apply $a^2-b^2=(a-b)(a+b)$",
-      "content": "With $a=18w$ and $b=30$: $(18w)^2 - 30^2 = (18w - 30)(18w + 30)$."
-    },
-    {
-      "title": "Test the choices",
-      "content": "Expand each candidate and compare to $324w^2 - 900$.<ul><li><strong>Choice A &mdash; $(18w-30)(18w-30)$</strong>: $(18w-30)^2 = 324w^2 - 1,080w + 900$. Has a $w$ term and wrong constant sign. Eliminate.</li><li><strong>Choice B &mdash; $\\left(9w-15\\right) \\left(9w+15\\right)$</strong>: $81w^2 - 225$. Wrong leading coefficient and constant. Eliminate.</li><li><strong>Choice C &mdash; $(9w-15)(9w-15)$</strong>: $81w^2 - 270w + 225$. Wrong on all three terms. Eliminate.</li><li><strong>Choice D &mdash; $\\left(18w-30\\right) \\left(18w+30\\right)$</strong>: $324w^2 - 900$. Exact match.</li></ul>That matches <strong>Choice D &mdash; $\\left(18w-30\\right) \\left(18w+30\\right)$</strong>."
+      "title": "Match the factored expression",
+      "content": "The original expression has a subtraction between two squares, so the factored form needs one factor with subtraction and one factor with addition. The expression $(18w-30)(18w+30)$ matches that structure and expands back to $324w^2-900$. The answer is <strong>D</strong>."
     }
   ]
 }

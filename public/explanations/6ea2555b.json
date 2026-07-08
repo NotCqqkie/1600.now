@@ -1,0 +1,15 @@
+{
+  "questionId": "6ea2555b",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting balance",
+      "content": "The initial deposit is the account balance when the account was opened. Since $x$ is the number of months since the initial deposit, that starting moment is $x=0$."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "At $x=0$, read the point where the graph crosses the $y$-axis. That value is the estimated initial deposit, rounded to the nearest whole dollar. The answer is <strong>15</strong>."
+    }
+  ]
+}

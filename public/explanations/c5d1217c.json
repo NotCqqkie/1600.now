@@ -1,0 +1,15 @@
+{
+  "questionId": "c5d1217c",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize percentage growth",
+      "content": "Each year, the account has $3.4\\%$ more money than the year before. A repeated percent increase means the amount is multiplied by the same factor each year:<br/>$$1+0.034=1.034$$"
+    },
+    {
+      "title": "Classify the model",
+      "content": "Repeated multiplication by a constant factor gives an exponential model. Since the factor is greater than $1$, the amount grows over time:<br/>$$A(t)=125(1.034)^t$$Because $1.034>1$, the model is increasing. The answer is <strong>C</strong>."
+    }
+  ]
+}

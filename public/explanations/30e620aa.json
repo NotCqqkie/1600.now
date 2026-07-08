@@ -1,0 +1,19 @@
+{
+  "questionId": "30e620aa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening modifier",
+      "content": "The sentence begins with a description of a person: a recipient of the Nobel Prize in Chemistry and the Albert Einstein World Award of Science. After the comma, the sentence needs the noun that this opening phrase describes, so the subject must be Ahmed Zewail."
+    },
+    {
+      "title": "Reject dangling subjects",
+      "content": "Choice A makes the limits of measurability the subject, so the award-recipient phrase dangles. Choice C makes the introduction of a discipline the subject. Choice D makes the result the subject. None of those subjects can logically be the person who received the awards."
+    },
+    {
+      "title": "Choose the attached subject",
+      "content": "The remaining choice begins with chemist Ahmed Zewail as the subject, then gives the actions that complete the sentence: he expanded measurability and introduced the discipline known as femtochemistry. That correctly attaches the opening modifier to the person it describes. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3397aa95",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track general to specific",
+      "content": "The first sentence mentions \"certain grains\" generally. The next sentence names maize and wheat as the specific grains that reconfigured North American foodways."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals comparison, but no comparison is being made. Choice B suggests a numbered sequence, and Choice C suggests an alternative; neither fits the move to examples. The remaining transition narrows from the general category to specific grains. The answer is <strong>D</strong>."
+    }
+  ]
+}

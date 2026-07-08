@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the relationship",
-      "content": "The phrase &quot;$y$ is $72$ less than $x$&quot; means take $x$ and subtract $72$:<br/>$$y = x - 72$$"
+      "title": "Translate the phrase",
+      "content": "The phrase says $y$ is $72$ less than $x$. That means start with $x$ and subtract $72$."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>Choice A: $y=x+72$ &mdash; this adds $72$, meaning $y$ would be $72$ more than $x$, not less. Eliminate.</li><li>Choice B: $y=\\frac{1}{72}x$ &mdash; this divides $x$ by $72$, a multiplicative relationship, not a subtraction. Eliminate.</li><li>Choice C: $y=72x$ &mdash; this multiplies $x$ by $72$, not subtracts. Eliminate.</li><li>Choice D: $y=x-72$ &mdash; subtracts $72$ from $x$, matching &quot;$72$ less than $x$&quot;.</li></ul>That matches <strong>Choice D &mdash; $y=x-72$</strong>."
+      "title": "Write the equation",
+      "content": "The relationship is:<br/>$$y=x-72$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

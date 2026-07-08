@@ -1,0 +1,15 @@
+{
+  "questionId": "bdb5d3c3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the sequence",
+      "content": "The process is presented in order: first artists soak the woad, next they add the cloth and simmer it, and then they remove the cloth. The blank should mark the last step in the sequence."
+    },
+    {
+      "title": "Reject contrast and cause",
+      "content": "Choice B signals contrast, but removing the cloth does not oppose simmering it. Choice C signals cause and effect, not sequence. Choice D signals correction, which is not needed. The transition that marks the final step fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

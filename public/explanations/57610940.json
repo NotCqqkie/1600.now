@@ -1,0 +1,19 @@
+{
+  "questionId": "57610940",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area formula",
+      "content": "For a rectangle, area equals length times width. The area is $60$ square inches, and the longest side is $12$ inches, so the unknown shorter side can be represented by $w$."
+    },
+    {
+      "title": "Set up the equation",
+      "content": "Use the rectangle area relationship with the known side length:\n$$60=12w$$\nThis equation says the known side times the unknown side gives the given area."
+    },
+    {
+      "title": "Solve for the shorter side",
+      "content": "Divide both sides by $12$:\n$$w=\\frac{60}{12}=5$$\nSince $5<12$, this is the shortest side of the rectangle. The answer is <strong>A</strong>."
+    }
+  ]
+}

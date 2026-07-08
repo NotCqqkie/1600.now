@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a modifier and sentence continuity question. The opening sentence establishes <em>Rabinal Ach&iacute;</em> as the subject. The blank follows the participial phrase &ldquo;Based on events that occurred when Rabinal was a city-state ruled by a king,&rdquo; which must modify the subject of the independent clause that follows. The decisive clue: the dance drama &mdash; not the military leader K&rsquo;iche&rsquo; Ach&iacute; &mdash; must be the subject, since the participial phrase describes the drama&rsquo;s basis, and the sentence must then continue that drama as its grammatical focus."
+      "title": "Attach the opening modifier",
+      "content": "The opening participial phrase describes the basis of the drama <em>Rabinal Achí</em>, so the next subject should be the drama itself. It cannot logically modify K'iche' Achí, because he is a character in the story, not the work based on events."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>&lsquo;<em>Rabinal Achí</em> tells the story of K'iche' Achí, a military leader who&rsquo;</strong>: <em>Rabinal Ach&iacute;</em> is the subject, correctly modified by the opening participial phrase; the relative clause &ldquo;who had once been an ally&hellip;&rdquo; then provides information about K&rsquo;iche&rsquo; Ach&iacute; within a grammatical structure. &#10003;</li><li><strong>&lsquo;K'iche' Achí, the military leader in the story of <em>Rabinal Achí</em>,&rsquo;</strong>: the subject is now K&rsquo;iche&rsquo; Ach&iacute;, causing the participial phrase to dangle &mdash; the story, not the character, is based on those historical events. &#10007;</li><li><strong>&lsquo;the military leader whose story is told in <em>Rabinal Achí</em>, K'iche' Achí,&rsquo;</strong>: the subject is again the military leader, producing the same dangling modifier error; the appositional structure also leaves the main clause without a clear predicate for the blank. &#10007;</li><li><strong>&lsquo;there was a military leader, K'iche' Achí, who in <em>Rabinal Achí</em>&rsquo;</strong>: the existential subject &ldquo;there&rdquo; causes the participial phrase to dangle; placing &ldquo;in <em>Rabinal Ach&iacute;</em>&rdquo; between the relative pronoun &ldquo;who&rdquo; and the verb also violates standard relative clause word order. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject dangling subjects",
+      "content": "B and C make K'iche' Achí the subject, and D makes there the subject. Those choices leave the opening modifier attached to the wrong noun. The drama tells the story, and the following relative clause can then describe the military leader without a dangling modifier. The answer is <strong>A</strong>."
     }
   ]
 }

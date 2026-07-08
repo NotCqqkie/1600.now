@@ -1,0 +1,15 @@
+{
+  "questionId": "8addbeb9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ can be written as $f(x)=mx+b$."
+    },
+    {
+      "title": "Apply the given slope",
+      "content": "The slope is $-48$, and passing through $(0,0)$ means the intercept is $0$. So<br/>$$f(x)=-48x$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

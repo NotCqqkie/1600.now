@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up distance and time",
-      "content": "The total distance is $$r+b=240$$ Since time equals distance divided by speed, the biking time is $\\frac{b}{12}$ and the running time is $\\frac{r}{6}$."
+      "title": "Set up total distance",
+      "content": "Riley ran $r$ miles and biked $b$ miles for a total of $240$ miles.<br/>$$r+b=240$$"
     },
     {
       "title": "Use the time relationship",
-      "content": "Riley biked for twice as many hours as she ran, so $$\\frac{b}{12}=2\\left(\\frac{r}{6}\\right)$$ Multiplying by $12$ gives $$b=4r$$"
+      "content": "Time equals distance divided by speed. Biking time is twice running time.<br/>$$\\frac{b}{12}=2(\\frac{r}{6})$$<br/>$$\\frac{b}{12}=\\frac{r}{3}$$<br/>$$b=4r$$"
     },
     {
-      "title": "Solve and confirm",
-      "content": "Substitute $b=4r$ into the distance equation: $$r+4r=240$$ $$r=48$$ Then $$b=4(48)=192$$ Choice D (&lsquo;192&rsquo;) is correct."
+      "title": "Solve for biking miles",
+      "content": "Substitute $b=4r$ into the distance equation.<br/>$$r+4r=240$$<br/>$$5r=240$$<br/>$$r=48$$<br/>$$b=4(48)=192$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

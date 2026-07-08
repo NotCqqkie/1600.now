@@ -1,0 +1,15 @@
+{
+  "questionId": "94e9b05e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link temperature and size",
+      "content": "The assertion says flies collected in cooler months should tend to have shorter life spans. The passage explains the link: wing centroid size is a proxy for body size, and body size correlates with life span. So the needed data must connect a cooler month with a smaller wing centroid size."
+    },
+    {
+      "title": "Use the relevant comparison",
+      "content": "A compares female wing size in May with female wing size in June, so it links the cooler month to smaller wing size. B compares males with females rather than months. C gives only temperature and no wing-size evidence. D compares male wing sizes but does not use the female comparison that directly illustrates the stated finding. The answer is <strong>A</strong>."
+    }
+  ]
+}

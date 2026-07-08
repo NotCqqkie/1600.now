@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Factor the radicand",
-      "content": "$x^2 + 10x + 25$ is a perfect square trinomial because $10 = 2 \\cdot 5$ and $25 = 5^2$. So $x^2 + 10x + 25 = (x + 5)^2$, and since $x \\gt  0$, $x + 5 \\gt  0$."
+      "content": "The expression under the fourth root is a perfect square trinomial.<br/>$$x^2+10x+25=(x+5)^2$$"
     },
     {
       "title": "Apply the fourth root",
-      "content": "$\\sqrt[4]{(x+5)^2} = ((x+5)^2)^{1/4} = (x+5)^{2/4} = (x+5)^{1/2}$."
-    },
-    {
-      "title": "Check each choice",
-      "content": "<ul><li>$(x+5)^4$ &mdash; this would come from squaring the radicand, not taking a fourth root. Too big.</li><li>$(x+5)^2$ &mdash; equals the radicand itself, not its fourth root.</li><li>$(x+5)$ &mdash; equals the square root of the radicand, not the fourth root.</li><li>$(x+5)^{1/2}$ &mdash; matches the exponent $2/4 = 1/2$ from the calculation above.</li></ul>That matches <strong>Choice D &mdash; $(x + 5)^{1/2}$</strong>."
+      "content": "Rewrite the fourth root using exponents. Because $x>0$, $x+5$ is positive.<br/>$$\\sqrt[4]{(x+5)^2}=((x+5)^2)^{1/4}$$<br/>$$\\sqrt[4]{(x+5)^2}=(x+5)^{1/2}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

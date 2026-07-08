@@ -1,0 +1,19 @@
+{
+  "questionId": "33b9a2a0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is the emission of light, a singular noun phrase. The long which-clause only describes the wavelength; it does not change the need for a singular finite verb."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice A is a present participle, Choice C is an infinitive, and Choice D is a perfect participle. None can serve as the main verb of the clause."
+    },
+    {
+      "title": "Choose subject-verb agreement",
+      "content": "Identifies is a singular finite verb that agrees with emission and completes the sentence's main clause. The answer is <strong>B</strong>."
+    }
+  ]
+}

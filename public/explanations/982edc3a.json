@@ -1,0 +1,19 @@
+{
+  "questionId": "982edc3a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the phrase unbroken",
+      "content": "The em dashes already set off the parenthetical phrase. Inside it, <em>including</em> is a preposition, so its object should follow directly without punctuation interrupting the phrase."
+    },
+    {
+      "title": "Reject added punctuation",
+      "content": "Choice B adds an extra em dash inside an already dashed parenthetical. Choice C uses a colon after a phrase that is not an independent clause. Choice D puts a comma between the preposition and its object."
+    },
+    {
+      "title": "Leave the object direct",
+      "content": "Choice A leaves the phrase as <em>including the languages Madurese and Bikol</em>, with no punctuation separating <em>including</em> from its object. The answer is <strong>A</strong>."
+    }
+  ]
+}

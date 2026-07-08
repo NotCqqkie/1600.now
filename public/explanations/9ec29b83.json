@@ -1,0 +1,28 @@
+{
+  "questionId": "9ec29b83",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Shift each option upward",
+      "content": "The displayed graph is $y=f(x)+2$, so each possible formula for $f$ should be shifted up by $2$ before comparing it with the graph.",
+      "desmosExpressions": [
+        "y=-3^x+3",
+        "y=-3^x+5",
+        "y=-3^x+6",
+        "y=-3^x+7"
+      ]
+    },
+    {
+      "title": "Match the shifted graph",
+      "content": "The shifted model from $f(x)=-3^x+3$ is:\n$$\ny=-3^x+5\n$$\nThis has the point placement and horizontal behavior shown in the graph.",
+      "desmosExpressions": [
+        "y=-3^x+5"
+      ]
+    },
+    {
+      "title": "Choose the original function",
+      "content": "Since the graph shown is already $2$ units above $f$, the original function is the one whose upward shift matched the graph. The answer is <strong>B</strong>."
+    }
+  ]
+}

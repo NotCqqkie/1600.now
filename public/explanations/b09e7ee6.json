@@ -1,0 +1,15 @@
+{
+  "questionId": "b09e7ee6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the battery failure",
+      "content": "The devices have internal batteries that cannot be removed and replaced. When those batteries stop working, the devices can no longer function and are typically thrown away as waste."
+    },
+    {
+      "title": "Reject positive or irrelevant words",
+      "content": "B contradicts the idea that the devices are discarded as waste. C describes familiarity, which battery failure does not determine. D describes appearance, which does not explain why dead devices are thrown away. The answer is <strong>A</strong>."
+    }
+  ]
+}

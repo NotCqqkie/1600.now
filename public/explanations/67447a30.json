@@ -1,0 +1,19 @@
+{
+  "questionId": "67447a30",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the absolute value",
+      "content": "Divide both sides by $3$.<br/>$$|x-7|=\\frac{k}{3}$$"
+    },
+    {
+      "title": "Use the one-solution case",
+      "content": "An equation of the form $|x-7|=c$ has no solutions if $c<0$, two solutions if $c>0$, and exactly one solution if $c=0$."
+    },
+    {
+      "title": "Choose the required value",
+      "content": "Exactly one solution requires<br/>$$\\frac{k}{3}=0$$<br/>This matches the listed option that says $0$ only. The answer is <strong>C</strong>."
+    }
+  ]
+}

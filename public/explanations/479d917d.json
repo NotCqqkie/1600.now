@@ -1,0 +1,15 @@
+{
+  "questionId": "479d917d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the ages",
+      "content": "The question asks for the youngest bear, so the relevant value is the smallest age in the table. The listed ages for the answer choices are 7, 6, 11, and 3 years."
+    },
+    {
+      "title": "Pick the minimum value",
+      "content": "Choice A names a 7-year-old bear, Choice B a 6-year-old bear, and Choice C an 11-year-old bear. The remaining bear is 3 years old, the lowest age shown. The answer is <strong>D</strong>."
+    }
+  ]
+}

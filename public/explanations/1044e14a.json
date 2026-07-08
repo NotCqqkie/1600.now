@@ -1,0 +1,15 @@
+{
+  "questionId": "1044e14a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the loudness finding",
+      "content": "People perceive meaningful sounds as quieter than meaningless sounds at the same actual volume. If <em>Heartbeats</em> is treated as meaningful music and the nature sounds are treated as noise, the nature sounds would seem louder even at 61.5 decibels."
+    },
+    {
+      "title": "Reject unsupported effects",
+      "content": "Choice A changes perception into an actual volume adjustment. Choice B claims both sounds would be judged as not 61.5 decibels, which is not stated. Choice D says the two sounds would seem comparably meaningful, contradicting the treatment of nature sounds as noise. The answer is <strong>C</strong>."
+    }
+  ]
+}

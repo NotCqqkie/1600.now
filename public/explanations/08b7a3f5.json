@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the prism formula",
+      "content": "For a triangular prism, the volume equals the area of the base times the height. The formula is $V=Bh$, where $B$ is the base area and $h$ is the prism height. Substitute the given volume and height.\n\n$$315=B(9)$$"
     },
     {
-      "title": "Apply the volume formula for a triangular prism",
-      "content": "We have the formula: $$V = Bh$$ Given: $V = 315\\text{ cm}^3$ and $h = 9\\text{ cm}$. Substituting these values into the formula: $$315 = B \\cdot 9$$"
-    },
-    {
-      "title": "Solve for the area of the base",
-      "content": "Divide both sides by 9 to isolate $B$: $$B = \\frac{315}{9} = 35$$ The area of the base is <strong>35 cm^2</strong>."
+      "title": "Solve for base area",
+      "content": "Divide by $9$ to isolate $B$, since the question asks for the area of the base rather than a side length.\n\n$$B=\\frac{315}{9}$$\n\n$$B=35$$\n\nThe answer is <strong>35</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "98a1dbd4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the proxy idea",
+      "content": "The hypothesis is that CeO2-NP bioaccumulation in zebra mussels could serve as a proxy for bioaccumulation testing in rainbow trout. For that to work, mussel uptake would need to reliably indicate trout uptake."
+    },
+    {
+      "title": "Reject nonweakening findings",
+      "content": "Choice A supports reliability by showing little individual variation in both species. Choice C compares other nanoparticle types, not whether CeO2-NP uptake matches between the two species. Choice D gives a possible advantage of mussels but does not weaken proxy validity."
+    },
+    {
+      "title": "Break the proxy link",
+      "content": "The remaining finding weakens the hypothesis because unexplained differences in CeO2-NP uptake rates would make mussels unreliable substitutes for trout. The answer is <strong>B</strong>."
+    }
+  ]
+}

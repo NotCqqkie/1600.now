@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what would weaken the claim",
-      "content": "The student claims that emotionality of movie reviews is <strong>unrelated</strong> to box office success. To weaken this, we need a finding showing that emotionality <em>does</em> predict box office earnings &mdash; a direct link between the two variables."
+      "title": "Weaken the no-link claim",
+      "content": "The student claims that review emotionality is unrelated to box office success. To weaken that conclusion, a finding must show a direct relationship between emotionality scores in written reviews and box office earnings."
     },
     {
-      "title": "Test each choice against that standard",
-      "content": "<ul><li><strong>Choice A &mdash; Movies that had the highest average emotionality scores received the lowest average star ratings on the movie rating website.</strong>: connects emotionality to star ratings, not to box office earnings &mdash; irrelevant to the student's claim. &#10007;</li><li><strong>Choice B &mdash; The average emotionality score of a movie's reviews was a positive predictor of that movie's box office earnings.</strong>: directly links emotionality to box office success, contradicting the student's claim that the two are unrelated. &#10003;</li><li><strong>Choice C &mdash; More than half of the movies that the team examined received an average star rating of 3 out of 5 stars.</strong>: describes star ratings only; says nothing about emotionality or its relationship to earnings. &#10007;</li><li><strong>Choice D &mdash; The movies that were most successful at the box office tended to have high average star ratings.</strong>: links star ratings to box office success, but does not address emotionality at all. &#10007;</li></ul>That matches <strong>Choice B &mdash; The average emotionality score of a movie's reviews was a positive predictor of that movie's box office earnings.</strong>."
+      "title": "Reject star-rating evidence",
+      "content": "Choice A connects emotionality to star ratings, not earnings. Choice C reports many average star ratings, with no emotionality or earnings link. Choice D connects star ratings to box office success, but the student's conclusion is specifically about emotionality in written reviews. The answer is <strong>B</strong>."
     }
   ]
 }

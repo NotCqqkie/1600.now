@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structural requirement",
-      "content": "The main subject “Several advantages” (with its appositive explanation set off by em dashes) must be followed by a verb to create a complete clause. The blank must contain that verb, connecting the subject to “acoustic waves as a promising alternative...”"
+      "title": "Find the sentence subject",
+      "content": "The subject is \"Several advantages.\" The long phrase between em dashes only explains those advantages, so the sentence still needs a main verb after the interruption."
     },
     {
-      "title": "Apply the finite verb rule",
-      "content": "An independent clause requires a finite verb. “Have positioned” is a finite verb phrase that creates the complete main clause: “Several advantages have positioned acoustic waves as a promising alternative...” The other choices use non-finite forms—participles (positioning, having positioned) and a prepositional phrase (by positioning)—which cannot function as the main verb of an independent clause.<br/><br/>That is the correct answer."
+      "title": "Use a finite verb",
+      "content": "Choice B and choice D are participle phrases, not main verbs. Choice C is a prepositional phrase, so it also cannot complete the clause. The remaining choice supplies the finite verb phrase needed for the complete sentence: \"Several advantages have positioned acoustic waves as a promising alternative.\" The answer is <strong>A</strong>."
     }
   ]
 }

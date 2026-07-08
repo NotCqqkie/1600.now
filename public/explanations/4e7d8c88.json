@@ -1,0 +1,15 @@
+{
+  "questionId": "4e7d8c88",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is \"Louisiana resident P.B.S. Pinchback.\" The sentence needs a finite main verb to state what Pinchback did in 1868."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "A is an infinitive, C is a present participle, and D is a perfect participle. None can serve as the main verb of the sentence by itself. The simple past-tense verb fits the completed event in 1868. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d663d758",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rate of change",
+      "content": "In $d=9t+185$, the coefficient $9$ means the distance increases by $9$ feet each minute."
+    },
+    {
+      "title": "Multiply by the time",
+      "content": "Over $25$ minutes, the increase is\n$$\n9\\cdot 25=225\n$$"
+    },
+    {
+      "title": "Match the increase",
+      "content": "The increase is $225$ feet. The answer is <strong>C</strong>."
+    }
+  ]
+}

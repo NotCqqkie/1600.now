@@ -1,0 +1,15 @@
+{
+  "questionId": "13630a66",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the squares",
+      "content": "Move the constant and complete the square for both variables.\n$$x^2-14x+y^2-12y=84$$\n$$(x-7)^2+(y-6)^2=84+49+36=169$$"
+    },
+    {
+      "title": "Find the square perimeter",
+      "content": "The circle has radius $13$, so its diameter is $26$. An inscribed circle has diameter equal to the square's side length.\n$$4(26)=104$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

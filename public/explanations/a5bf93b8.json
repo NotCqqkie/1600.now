@@ -1,0 +1,15 @@
+{
+  "questionId": "a5bf93b8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the dash explanation",
+      "content": "The sentence says Kovacs's publications are frequently cited, then explains after the dash that other economists find her studies valuable. The blank must show that citations highlight usefulness."
+    },
+    {
+      "title": "Choose the emphasis verb",
+      "content": "Choice A would mean the citations contradict usefulness. Choice B would mean they prevent it, and Choice D would mean they obscure it. Frequent citation by peers instead emphasizes the value of the research. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "492db25e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a related benefit",
+      "content": "The first sentence says caffeic acid benefits termite mushrooms by combating free radicals. The second sentence adds that the acid may promote cellular health in humans, who also experience free radical damage. The relationship is addition."
+    },
+    {
+      "title": "Avoid contrast and example",
+      "content": "Choice A signals opposition, but both sentences describe benefits. Choice C signals correction or replacement, but the first idea is not being corrected. Choice D signals an example, but humans are not an example of termite mushrooms. The remaining transition introduces an additional related point. The answer is <strong>B</strong>."
+    }
+  ]
+}

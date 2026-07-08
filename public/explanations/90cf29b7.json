@@ -1,0 +1,15 @@
+{
+  "questionId": "90cf29b7",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use one full rotation",
+      "content": "The angle $2\\pi$ radians equals $360^\\circ$. Therefore, $74\\cdot 2\\pi$ radians equals $74$ full rotations."
+    },
+    {
+      "title": "Convert to degrees",
+      "content": "Multiply $74$ by the degree measure of one full rotation:<br/>$$74(360)$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

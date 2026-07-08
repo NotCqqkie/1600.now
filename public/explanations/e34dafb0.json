@@ -1,0 +1,19 @@
+{
+  "questionId": "e34dafb0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the terms",
+      "content": "Start by moving the $a$-terms to the same side:<br/>$$4a=\\frac{9b^2}{a}-12a$$<br/>$$16a=\\frac{9b^2}{a}$$"
+    },
+    {
+      "title": "Clear the denominator",
+      "content": "Multiply both sides by $a$:<br/>$$16a^2=9b^2$$"
+    },
+    {
+      "title": "Take the positive root",
+      "content": "Divide by $16$ and take the square root. Since $a$ and $b$ are positive, use the positive root:<br/>$$a^2=\\frac{9b^2}{16}$$<br/>$$a=\\frac{3b}{4}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

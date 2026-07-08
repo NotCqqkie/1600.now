@@ -1,0 +1,15 @@
+{
+  "questionId": "011a61a0",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match data to the hypothesis",
+      "content": "Martinez and colleagues predicted that paired grapevine leaves would tend to show opposite-side orientation. Supporting data should therefore show opposite-side orientation occurring more often than same-side orientation across the tested species, not merely one species with a high opposite-side count."
+    },
+    {
+      "title": "Reject partial graph readings",
+      "content": "Choice A focuses on same-side counts and compares species to each other, but it does not show that opposite-side orientation is more common than same-side orientation in each species. Choice B goes too far because the graph still shows some same-side pairs. Choice D discusses July grape and graybark grape only, leaving out the full pattern. The relevant support is that graybark grape, Amur grape, and July grape all have more opposite-side pairs than same-side pairs, even though the exact ratios differ. The answer is <strong>C</strong>."
+    }
+  ]
+}

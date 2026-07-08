@@ -1,0 +1,15 @@
+{
+  "questionId": "ae91d719",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the correction",
+      "content": "The first sentence presents an assumption that offshore and land-based wind farms of similar size produce the same amount of energy. The second sentence corrects that assumption by saying Amrumbank West's turbines produce more."
+    },
+    {
+      "title": "Choose a corrective transition",
+      "content": "Choice B would introduce an example supporting the assumption, Choice C would present a result, and Choice D would mark a sequence. The second sentence corrects the expected equality by showing what actually happens. The answer is <strong>A</strong>."
+    }
+  ]
+}

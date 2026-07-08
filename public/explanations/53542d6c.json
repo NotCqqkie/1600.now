@@ -1,0 +1,15 @@
+{
+  "questionId": "53542d6c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the contrast",
+      "content": "The text says some modernist periodicals, such as <em>The Dial</em>, have been explored in depth. It then says <em>Voices</em> remains a periodical about which relatively little is known."
+    },
+    {
+      "title": "Reject similarity signals",
+      "content": "A signals similarity, B adds a reinforcing point, and D introduces an example. The sentence needs a contrast transition because <em>Voices</em> is in the opposite scholarly situation from <em>The Dial</em>. The answer is <strong>C</strong>."
+    }
+  ]
+}

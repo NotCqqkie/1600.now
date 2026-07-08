@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Original price equation",
-      "content": "The variables represent original prices: $l$ is the lamp's original price and $c$ is the clock's original price. Since the two original prices total \\$80, the first equation is $$l + c = 80$$"
+      "title": "Write the original total",
+      "content": "The original lamp price is $l$, and the original clock price is $c$. Their combined original price is $80$, so\n$$l+c=80$$"
     },
     {
-      "title": "Sale price equation",
-      "content": "After discounts, the customer pays:<ul><li>Lamp (20% discount): customer pays 100% - 20% = 80% of original = $0.80l$</li><li>Clock (40% discount): customer pays 100% - 40% = 60% of original = $0.60c$</li></ul>Combined sale price is \\$56: $$0.80l + 0.60c = 56$$<br/>That confirms <strong>C</strong> is correct."
+      "title": "Write the sale total",
+      "content": "A $20\\%$ discount on the lamp means the customer pays $80\\%$ of its original price, or $0.80l$. A $40\\%$ discount on the clock means the customer pays $60\\%$ of its original price, or $0.60c$.\n$$0.80l+0.60c=56$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

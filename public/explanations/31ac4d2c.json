@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the specific goal",
-      "content": "The student wants to <strong>specify the fanner basket's name in Choctaw</strong>. The notes provide that name: <em>ufko tapushik</em>. A correct answer must include this Choctaw term directly."
+      "title": "Identify the naming task",
+      "content": "The student wants to specify the fanner basket's name in Choctaw. The relevant note says the fanner basket is called <em>ufko tapushik</em>, so the correct sentence must connect that term to the basket."
     },
     {
-      "title": "Test each choice for the Choctaw name",
-      "content": "<ul><li><strong>Choice A — The Hina Hanta archive features cultural artifacts, such as a fanner basket and a robe, that are relevant to the history of the Choctaw people.</strong>: mentions the fanner basket but omits its Choctaw name entirely. &#10007;</li><li><strong>Choice B — The cane fanner basket, which is included in the Hina Hanta online archive, is called an <em>ufko tapushik</em> in Choctaw.</strong>: directly names the fanner basket and provides its Choctaw name <em>ufko tapushik</em>, fulfilling the goal exactly. &#10003;</li><li><strong>Choice C — Hina Hanta, which means \"bright path\" in Choctaw, includes a fanner basket in its archive.</strong>: mentions the fanner basket but gives the archive's Choctaw meaning instead of the basket's Choctaw name. &#10007;</li><li><strong>Choice D — The name of the online archive Hina Hanta means \"bright path\" in Choctaw.</strong>: discusses the archive's name in Choctaw; the fanner basket is not mentioned at all. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Separate archive facts from basket facts",
+      "content": "Several notes describe the Hina Hanta archive, but the task is narrower than identifying the archive or translating its name. A sentence about \"bright path\" in Choctaw does not name the fanner basket."
+    },
+    {
+      "title": "Check each choice",
+      "content": "Choice A mentions the fanner basket and robe as cultural artifacts but gives no Choctaw name for the basket. Choice C mentions Hina Hanta and a fanner basket but gives only the archive's meaning. Choice D discusses the archive name and does not mention the basket. Choice B directly says the cane fanner basket is called <em>ufko tapushik</em> in Choctaw. The answer is <strong>B</strong>."
     }
   ]
 }

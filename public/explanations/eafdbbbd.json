@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$\\frac{1}{4} \\left(x+5\\right)-\\frac{1}{3} \\left(x+5\\right)=-7$$Graph or solve it directly and read the x-value that works. The requested value is $79$.",
-      "desmosExpressions": [
-        "\\frac{1}{4} \\left(x+5\\right)-\\frac{1}{3} \\left(x+5\\right)=-7"
-      ]
-    },
-    {
       "title": "Factor the repeated group",
-      "content": "Both terms contain $(x+5)$, so combine the coefficients first: $$\\left(\\frac{1}{4}-\\frac{1}{3}\\right)(x+5)=-7.$$"
+      "content": "Both terms on the left contain $x+5$, so combine only the coefficients:\n$$\n(\\frac{1}{4}-\\frac{1}{3})(x+5)=-7\n$$"
     },
     {
       "title": "Simplify the coefficient",
-      "content": "$$\\frac{1}{4}-\\frac{1}{3}=\\frac{3}{12}-\\frac{4}{12}=-\\frac{1}{12},$$ so $$-\\frac{1}{12}(x+5)=-7.$$"
+      "content": "Use twelfths to subtract the fractions:\n$$\n\\frac{1}{4}-\\frac{1}{3}=\\frac{3}{12}-\\frac{4}{12}=-\\frac{1}{12}\n$$\nSo the equation becomes\n$$\n-\\frac{1}{12}(x+5)=-7\n$$"
     },
     {
-      "title": "Solve and check choices",
-      "content": "Multiply by $-12$ to get $x+5=84$, so $x=79$. $79$ is correct. $-5$ would make the left side $0$, not $-7$. The shared factor method avoids distributing fractions separately."
+      "title": "Solve for the variable",
+      "content": "Multiply both sides by $-12$:\n$$\nx+5=84\n$$\nThen subtract $5$:\n$$\nx=79\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two sides of the original equation or enter the equation directly; the intersection gives the same solution. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "\\frac{1}{4} \\left(x+5\\right)-\\frac{1}{3} \\left(x+5\\right)=-7"
+      ]
     }
   ]
 }

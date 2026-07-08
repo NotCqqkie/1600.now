@@ -1,0 +1,15 @@
+{
+  "questionId": "4ea3d3bb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare prediction with data",
+      "content": "Economists expected stock market liberalization to help companies raise money from investors. Avery then found significant investment increases in the three years after liberalization across 11 countries, so the evidence aligns with the prediction."
+    },
+    {
+      "title": "Reject claims beyond the study",
+      "content": "Choice A compares Bangladesh and Malaysia, but the passage gives no such comparison. Choice B says economists missed negative effects, but the data support their view. Choice C says companies waited at least three years to benefit, while the passage says investment increased during those three years. The answer is <strong>D</strong>."
+    }
+  ]
+}

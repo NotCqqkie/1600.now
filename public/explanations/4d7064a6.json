@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)= \\left(x-10\\right) \\left(x+13\\right)$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-\\frac{3}{2}$.",
+      "title": "Find the roots",
+      "content": "The factored form shows the roots directly.<br/>$$x-10=0\\quad\\text{or}\\quad x+13=0$$<br/>So the roots are $10$ and $-13$."
+    },
+    {
+      "title": "Use the midpoint",
+      "content": "The parabola opens upward, so its minimum occurs at the vertex. The vertex x-coordinate is halfway between the roots."
+    },
+    {
+      "title": "Find the vertex",
+      "content": "Average the two root values.<br/>$$x=\\frac{10+(-13)}{2}=-\\frac{3}{2}$$<br/>The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "f \\left(x\\right)= \\left(x-10\\right) \\left(x+13\\right)"
       ]
-    },
-    {
-      "title": "Identify the roots",
-      "content": "$f(x) = (x - 10)(x + 13) = 0$ gives roots $x = 10$ and $x = -13$."
-    },
-    {
-      "title": "Find the vertex x-coordinate",
-      "content": "A parabola opening upward reaches its minimum at the vertex, which lies midway between the roots:<br/>$$x = \\frac{10 + (-13)}{2} = \\frac{-3}{2} = -1.5$$"
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>D</strong> is correct."
     }
   ]
 }

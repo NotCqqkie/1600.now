@@ -1,0 +1,15 @@
+{
+  "questionId": "b05391f3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square",
+      "content": "Start with the equation.<br/>$$x^2-\\frac{49}{36}=0$$<br/>Add $\\frac{49}{36}$ to both sides.<br/>$$x^2=\\frac{49}{36}$$"
+    },
+    {
+      "title": "Count the roots",
+      "content": "Since the right side is positive, there are two real square-root solutions.<br/>$$x=\\pm\\frac{7}{6}$$<br/>So the equation has exactly two distinct real solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

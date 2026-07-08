@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the key phrase that drives the conclusion",
-      "content": "The crucial observation is that innovations tend to engender their own complications. This reveals that attempts to solve the delivery problem don't actually resolve the core challenge—they create new obstacles instead. This pattern is what signals the researchers' conclusion."
+      "title": "Track the delivery problem",
+      "content": "Consumers expect faster delivery, but companies struggle with last-mile logistics. Even proposed innovations, such as sidewalk delivery robots, create additional complications."
     },
     {
-      "title": "Infer what repeated barriers suggest about expectations",
-      "content": "If every solution to fast delivery creates new obstacles, the logical inference is that the expectation itself—consumers' demand for ever-faster delivery—may exceed what is actually achievable.<br/><br/>consumers' expectations for reduced delivery times may be outstripping what is viable for delivery companies to provide. directly states this: expectations may be <em>outstripping</em> viability.<br/><br/>The other three options focus on alternative concerns (better understanding, continued investment, or finding incentive) that don't address the pattern of recurring complications.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Infer the feasibility limit",
+      "content": "B shifts to delivery volume, C merely says faster delivery would be beneficial, and D contradicts the fact that companies are already trying solutions. The repeated obstacles suggest expectations may exceed what companies can viably provide. The answer is <strong>A</strong>."
     }
   ]
 }

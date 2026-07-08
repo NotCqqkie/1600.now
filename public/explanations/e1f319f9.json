@@ -1,0 +1,15 @@
+{
+  "questionId": "e1f319f9",
+  "correctAnswer": "1512",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "The terms $4(y-12)$ and $-4(y-12)$ cancel when the equations are added:\n$$\n\\frac{x}{7}+\\frac{x}{3}=31+41\n$$"
+    },
+    {
+      "title": "Clear the denominators",
+      "content": "Simplify and multiply by $21$:\n$$\n\\frac{x}{7}+\\frac{x}{3}=72\n$$\n$$\n3x+7x=1{,}512\n$$\n$$\n10x=1{,}512\n$$\nThe answer is <strong>1512</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 6",
-      "content": "The function is $f(x)=4x-9$. Substitute $x=6$: $$f(6)=4(6)-9$$"
+      "title": "Substitute the input",
+      "content": "Use $x=6$ in the function.\n$$f(6)=4(6)-9$$"
     },
     {
-      "title": "Simplify",
-      "content": "$$4(6)=24$$ $$24-9=15$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B, $15$, is correct. Adding $9$ instead of subtracting, using $x=1$, or using $x=-6$ would not match the positive input $x=6$ in $4x-9$, so the substitution must stay $4(6)-9$."
+      "title": "Evaluate the function",
+      "content": "Multiply first, then subtract.\n$$4(6)-9=24-9=15$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

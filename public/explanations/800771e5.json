@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the claim requires",
-      "content": "The student claims there were more medicine and health submissions in 2019 than in any other year. To support this, the answer must cite medicine and health data showing 2019&apos;s value is the highest across all years shown in the graph."
+      "title": "Use the medicine-health peak",
+      "content": "The student claims there were more medicine and health submissions in 2019 than in any other year. To support this, the answer must cite medicine and health data showing 2019's value is the highest across all years shown in the graph."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In 2016, the number of cellular and molecular biology topic submissions was the same as the number of animal science topic submissions.&rsquo;</strong>: discusses the wrong topic categories and the wrong year, so it does not support the claim about medicine and health in 2019. Also factually wrong &mdash; the graph shows roughly 200 vs. 50 for those categories in 2016. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In 2019, there were more physics and space science topic submissions than there were medicine and health topic submissions.&rsquo;</strong>: directly contradicts the claim. The graph shows approximately 100 physics/space submissions versus approximately 285 medicine and health submissions in 2019. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The lowest number of animal science topic submissions in a year was approximately 95 in 2016.&rsquo;</strong>: discusses the wrong topic and misreads the graph &mdash; animal science submissions in 2016 were closer to 50, not 95. Does not address medicine and health. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019.&rsquo;</strong>: directly states that 2019 holds the peak medicine and health value (~285), which is exactly what is needed to support the claim that 2019 had more than any other year. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'In 2016, the number of cellular and molecular biology topic submissions was the same as the number of animal science topic submissions.'</strong>: discusses the wrong topic categories and the wrong year, so it does not support the claim about medicine and health in 2019. Also factually wrong — the graph shows roughly 200 vs. 50 for those categories in 2016.</li><li><strong>Choice B — 'In 2019, there were more physics and space science topic submissions than there were medicine and health topic submissions.'</strong>: directly contradicts the claim. The graph shows approximately 100 physics/space submissions versus approximately 285 medicine and health submissions in 2019.</li></ul>"
+    },
+    {
+      "title": "Rule out the remaining choices",
+      "content": "<ul><li><strong>Choice C — 'The lowest number of animal science topic submissions in a year was approximately 95 in 2016.'</strong>: discusses the wrong topic and misreads the graph — animal science submissions in 2016 were closer to 50, not 95. Does not address medicine and health.</li></ul>"
+    },
+    {
+      "title": "Choose the highest value",
+      "content": "<ul><li><strong>Choice D — 'The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019.'</strong>: directly states that 2019 holds the peak medicine and health value (~285), which is exactly what is needed to support the claim that 2019 had more than any other year.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

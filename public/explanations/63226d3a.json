@@ -1,0 +1,19 @@
+{
+  "questionId": "63226d3a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use parallel lines",
+      "content": "A system of two linear equations has no solution when the lines are parallel and have different intercepts. Parallel lines have the same slope."
+    },
+    {
+      "title": "Rewrite the given line",
+      "content": "Put the given equation in slope-intercept form.\n$$\n31ry-8x=c\n$$\n$$\n31ry=8x+c\n$$\n$$\ny=\\frac{8}{31r}x+\\frac{c}{31r}\n$$"
+    },
+    {
+      "title": "Use the matching slope",
+      "content": "The other line must have the same slope as the given line, so its slope is\n$$\n\\frac{8}{31r}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

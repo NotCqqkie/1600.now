@@ -1,0 +1,19 @@
+{
+  "questionId": "82aae5c3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the one step multiplier",
+      "content": "The function is $z(w)=(0.836)^{2w}$. When $w$ increases by $1$, the exponent $2w$ increases by $2$, so the output is multiplied by the base twice: $$(0.836)^2=0.698896$$"
+    },
+    {
+      "title": "Convert to a decrease",
+      "content": "A multiplier of $0.698896$ means the function keeps about $69.89\\%$ of its previous value for each one-unit increase in $w$. The decrease is the part missing from $1$: $$1-0.698896=0.301104$$"
+    },
+    {
+      "title": "Choose the closest percent",
+      "content": "As a percent, $0.301104$ is about $30.1\\%$. The smaller choices come from using $0.836$ directly or confusing the base with the percent decrease, but the exponent changes by $2$ each step. The answer is <strong>D</strong>."
+    }
+  ]
+}

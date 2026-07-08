@@ -1,0 +1,19 @@
+{
+  "questionId": "fca39929",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare words per page",
+      "content": "<em>A Moment in the Sun</em> has fewer pages but far more words than <em>1Q84</em>. That means the conclusion must concern word density per page, not translation, reading time, or paper thickness."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice B makes an unsupported claim about translation. Choice C discusses reading time, which is never measured. Choice D concerns paper thickness, which cannot be inferred from only page counts and word counts."
+    },
+    {
+      "title": "Compute the density",
+      "content": "Choice A follows from the numbers: about 625,000 words over 1,100 pages is roughly 568 words per page, while 407,000 words over 1,157 pages is roughly 352 words per page. The answer is <strong>A</strong>."
+    }
+  ]
+}

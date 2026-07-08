@@ -1,15 +1,15 @@
 {
   "questionId": "ee846db7",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "content": "The equation $5.65x + 7.45y = 1{,}348.25$ models total revenue: each term is (price per unit) times (number of units sold). The variable $x$ is the number of smaller containers sold."
+      "title": "Interpret the revenue terms",
+      "content": "In the equation $5.65x+7.45y=1{,}348.25$, each term is a price per container times a number of containers. The total on the right is the total sales amount, so each coefficient is a unit price."
     },
     {
-      "content": "In the term $5.65x$, the coefficient 5.65 is multiplied by $x$ (number of smaller containers). That coefficient is the price per smaller container, a fixed dollar amount, not an expression involving a variable."
-    },
-    {
-      "content": "Evaluate every choice:<ul><li>A: $5.65$ - This is the coefficient of $x$, so it represents the price per smaller container. That matches the correct answer; <strong>A</strong> is correct.</li><li>B: $7.45y$ - This is the entire revenue from larger containers, not the price per smaller container. Eliminated.</li><li>C: $7.45$ - This is the price per larger container, not the smaller one. Eliminated.</li><li>D: $5.65x$ - This is the total revenue from smaller containers, not the price of each one. Eliminated.</li></ul>"
+      "title": "Use the coefficient of x",
+      "content": "The variable $x$ represents smaller containers, so the coefficient of $x$ is the price of each smaller container. The expression $5.65x$ is total revenue from smaller containers, making the unit price $5.65$. The answer is <strong>A</strong>."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Analyze $f(x)=-5(4)^x-4$",
-      "content": "The base $4\\gt 1$ makes $(4)^x$ grow without bound as $x\\to\\infty$, and the $-5$ coefficient flips the sign, so $-5(4)^x\\to-\\infty$. Thus $f(x)\\to-\\infty$ as $x\\to\\infty$, meaning $f$ has no minimum value. The horizontal asymptote $y=-4$ is approached as $x\\to-\\infty$ but never attained."
+      "title": "Analyze the first function",
+      "content": "For $f(x)=-5(4)^x-4$, the exponential part grows as $x$ increases. Multiplying by a negative coefficient makes the outputs decrease without bound, so there is no lowest output value."
     },
     {
-      "title": "Analyze $g(x)=-4(5)^x$",
-      "content": "Similarly $(5)^x\\to\\infty$ as $x\\to\\infty$, so $g(x)=-4(5)^x\\to-\\infty$. There is no minimum value; the asymptote $y=0$ is approached as $x\\to-\\infty$ but never reached, and $g$ never equals $-4$ at a minimum."
+      "title": "Analyze the second function",
+      "content": "For $g(x)=-4(5)^x$, the same one-sided behavior occurs: as $x$ gets larger, the values keep becoming more negative. That rules out a minimum value for this function as well."
     },
     {
-      "title": "Choose the statement",
-      "content": "Neither function has a minimum value of $-4$: both continue decreasing without bound. That matches <strong>Choice D &mdash; Neither I nor II</strong>."
+      "title": "Compare the statements",
+      "content": "Neither function has a minimum value at $-4$, or at any other value. The answer is <strong>D</strong>."
     }
   ]
 }

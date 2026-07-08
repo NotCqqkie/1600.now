@@ -1,0 +1,15 @@
+{
+  "questionId": "0f9d287a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared steroid claim",
+      "content": "Text 1 says bison and elk samples had similar levels of beta-sitosterol and stigmastanol. Text 2 says fecal-steroidal profiles alone are not sufficient to distinguish bison from elk, which also points to similarity between their profiles."
+    },
+    {
+      "title": "Use only both-text support",
+      "content": "B claims every ungulate species has a unique profile, contradicting the bison-elk similarity. C discusses preservation over long time spans, which neither text establishes. D makes a prevalence claim about bison and elk versus moose that is not supported by both texts. The remaining conclusion follows from both passages. The answer is <strong>A</strong>."
+    }
+  ]
+}

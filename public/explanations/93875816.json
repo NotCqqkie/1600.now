@@ -1,0 +1,15 @@
+{
+  "questionId": "93875816",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two clauses",
+      "content": "The sentence says Balos Beach sand is a more unusual shade, and then explains the reason: crushed coral and other organic matter make the sand pink. The word “though” belongs with the first clause, creating a contrast with most sand being beige."
+    },
+    {
+      "title": "Eliminate punctuation problems",
+      "content": "Choice A joins two independent clauses with only a comma. Choice B puts “though” after a colon, which does not fit the contrast. Choice C leaves “though” before a comma but still creates a comma splice before the second independent clause. The semicolon correctly separates the clauses after “though.” The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d65a2094",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect cause and result",
+      "content": "<em>Typha latifolia</em> absorbs manganese and stores it safely. The following decrease in soil manganese is a result of that absorption, so the transition must show cause and effect."
+    },
+    {
+      "title": "Signal the consequence",
+      "content": "A signals contrast, B adds a separate point, and D introduces a specific example rather than a result. The transition needs to show that the soil decrease follows from the plant's action. The answer is <strong>C</strong>."
+    }
+  ]
+}

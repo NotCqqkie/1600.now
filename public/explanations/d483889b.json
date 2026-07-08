@@ -1,0 +1,19 @@
+{
+  "questionId": "d483889b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the concentrations",
+      "content": "Use decimal forms for the percents.\n$$4\\%=0.04$$\n$$7\\%=0.07$$\n$$5\\%=0.05$$"
+    },
+    {
+      "title": "Balance the amount of salt",
+      "content": "The first solution contributes $0.04x$ liters of salt, and the second solution contributes $0.07y$ liters of salt. The final mixture has total volume $x+y$ and concentration $0.05$, so its salt amount is $0.05(x+y)$."
+    },
+    {
+      "title": "Write the mixture equation",
+      "content": "Set the salt before mixing equal to the salt after mixing.\n$$0.04x+0.07y=0.05(x+y)$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

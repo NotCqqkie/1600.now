@@ -1,0 +1,15 @@
+{
+  "questionId": "7d13df34",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the inserted phrase",
+      "content": "The underlined portion says that CEP attendees numbered \"more than 7,000 in all.\" The passage argues that the CEP was crucial to the Civil Rights Movement, so the headcount helps show the program's large scale."
+    },
+    {
+      "title": "Connect number to function",
+      "content": "A discusses opinions, which a headcount does not show. B is about the variety of workshop topics, not the number of attendees. C mentions criticism, which the passage never discusses. The phrase uses scale to reinforce the CEP's broad impact. The answer is <strong>D</strong>."
+    }
+  ]
+}

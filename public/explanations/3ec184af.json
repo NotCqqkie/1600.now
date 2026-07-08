@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key clue",
-      "content": "The passage explains the reason noses break off: they are “delicate and stick out from the rest of the sculpture, making it especially easy to break.” This description of physical vulnerability is the deciding signal."
+      "title": "Use the breakage clue",
+      "content": "The passage explains that noses are delicate and stick out from the rest of a sculpture, making them especially easy to break."
     },
     {
-      "title": "Match the meaning to the choices",
-      "content": "Fragile (B) is the word that captures exactly this—it means easily damaged or broken.<br/><br/>The other three either identify unrelated properties (a nose's distinctiveness, its prevalence, or its artistic refinement) rather than explain why it would break.<br/><br/><strong>B</strong> is correct."
+      "title": "Reject unrelated qualities",
+      "content": "<ul><li><strong>Choice A</strong>: Recognizable describes identifiability, not ease of breaking.</li><li><strong>Choice C</strong>: Common describes frequency, not physical vulnerability.</li><li><strong>Choice D</strong>: Sophisticated describes refinement, not delicacy.</li></ul>"
+    },
+    {
+      "title": "Choose the vulnerability word",
+      "content": "The word needed is the one that means easily damaged or broken, matching delicate and easy to break. The answer is <strong>B</strong>."
     }
   ]
 }

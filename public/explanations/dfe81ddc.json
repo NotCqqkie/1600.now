@@ -1,0 +1,15 @@
+{
+  "questionId": "dfe81ddc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect captivity to influence",
+      "content": "The passage compares two primate studies: a captive group showed more right-handed individuals, while a wild chimpanzee group did not show that tendency. The final sentence then gives the relevant difference between the groups: captive animals spend much more time with humans than wild animals do."
+    },
+    {
+      "title": "Rule out unsupported explanations",
+      "content": "Choice A invents a difference in how the studies measured handedness. Choices C and D both invent sample-size problems that the passage never discusses. The supported completion should link the captive animals' extended contact with humans to the right-handedness found in the captive-primate study. The answer is <strong>B</strong>."
+    }
+  ]
+}

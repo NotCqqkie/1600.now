@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the parabola's minimum using vertex form",
-      "content": "Since the parabola $y = x^2 + 10x + k$ opens upward (positive leading coefficient), it has a minimum value.<br/><br/>For no real solutions, this minimum must be above the horizontal line $y = -3.5$.<br/><br/>Complete the square:<br/>$$y = (x^2 + 10x + 25) - 25 + k = (x+5)^2 + k - 25$$<br/>The minimum $y$-value is $k - 25$."
+      "title": "Find the minimum height",
+      "content": "Complete the square for the parabola:<br/>$$y=x^2+10x+k=(x+5)^2+k-25$$<br/>Because the parabola opens upward, its minimum value is $k-25$."
     },
     {
-      "title": "Set up the no-intersection condition",
-      "content": "For the parabola and the horizontal line $y = -3.5$ to have no intersection points, the parabola's minimum must be strictly above the line:<br/>$$k - 25 \\gt -3.5$$<br/>$$k \\gt 21.5$$"
+      "title": "Require no intersection",
+      "content": "The system has no real solutions when the parabola's minimum is above the horizontal line $y=-3.5$. Set up and solve that condition:<br/>$$k-25\\gt -3.5$$<br/>$$k\\gt 21.5$$"
     },
     {
-      "title": "Find the least positive integer",
-      "content": "Since $k$ is a positive integer and must satisfy $k\\gt 21.5$, the least possible value is $k=22$. The answer is <strong>22</strong>."
+      "title": "Choose the least integer",
+      "content": "Since $k$ is a positive integer, the least integer greater than $21.5$ is $22$. The answer is <strong>22</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the percentage to a fraction",
-      "content": "To find $30\\%$ of $360$, we express the percentage as a fraction: $30\\% = \\frac{30}{100} = \\frac{3}{10}$."
+      "title": "Convert the percent",
+      "content": "Convert $30\\%$ to a fraction:\n$$30\\%=\\frac{30}{100}=\\frac{3}{10}$$"
     },
     {
-      "title": "Multiply the fraction by the whole",
-      "content": "Now we multiply: $$\\frac{3}{10} \\times 360 = \\frac{1080}{10} = 108.$$ This means $108$ is three tenths of $360$. That confirms <strong>B</strong> is correct."
+      "title": "Multiply by the whole",
+      "content": "Find $\\frac{3}{10}$ of $360$:\n$$\\frac{3}{10}(360)=108$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

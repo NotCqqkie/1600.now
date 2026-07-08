@@ -1,27 +1,23 @@
 {
   "questionId": "89fc23af",
+  "correctAnswer": "D",
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $x + 1 - \\frac{2}{x - 4}$."
+      "title": "Start the division",
+      "content": "Divide $x^2-3x-6$ by $x-4$. The first quotient term is $x$ because $x^2\\div x=x$. Subtract $x(x-4)$ from the numerator."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Divide the polynomials",
-      "content": "Divide $x^2-3x-6$ by $x-4$. The first term is $x$ because $x^2\\div x=x$. Subtracting $x(x-4)=x^2-4x$ leaves $x-6$."
+      "title": "Find the first remainder",
+      "content": "After the first subtraction,\n$$(x^2-3x-6)-(x^2-4x)=x-6$$\nThe remaining expression still has degree $1$, so continue the division with one more quotient term."
     },
     {
       "title": "Finish the remainder",
-      "content": "Next, $x\\div x=1$. Subtracting ${1}(x-4)=x-4$ leaves a remainder of $-2$. Therefore $$\\frac{x^2-3x-6}{x-4}=x+1-\\frac{2}{x-4}.$$"
+      "content": "The next term is $1$. Subtract $1(x-4)$:\n$$(x-6)-(x-4)=-2$$\nSo the quotient is $x+1$ and the remainder is $-2$."
     },
     {
-      "title": "Confirm the choice",
-      "content": "That confirms <strong>D</strong>. The negative remainder matters: since the remainder is $-2$, the final term is $-\\frac{2}{x-4}$, not $+\\frac{2}{x-4}$."
+      "title": "Write the equivalent expression",
+      "content": "A quotient of $x+1$ with remainder $-2$ gives\n$$\\frac{x^2-3x-6}{x-4}=x+1-\\frac{2}{x-4}$$\nThe answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D"
+  ]
 }

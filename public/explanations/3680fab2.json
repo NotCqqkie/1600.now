@@ -1,0 +1,19 @@
+{
+  "questionId": "3680fab2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting amount",
+      "content": "At the beginning of the observation, when $t=0$, there are $84{,}000$ bacteria. So the model needs an initial factor of $84{,}000$."
+    },
+    {
+      "title": "Use the daily multiplier",
+      "content": "The population doubles every day, so each day multiplies the previous amount by $2$. After $t$ days, that multiplier is\n$$\n2^t\n$$\nTherefore the model is\n$$\ny=84{,}000(2)^t\n$$"
+    },
+    {
+      "title": "Choose the exponential growth model",
+      "content": "The expression uses the initial amount and raises the daily doubling factor to the number of days. The answer is <strong>D</strong>."
+    }
+  ]
+}

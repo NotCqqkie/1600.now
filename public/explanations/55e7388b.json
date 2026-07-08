@@ -1,0 +1,15 @@
+{
+  "questionId": "55e7388b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a counterexample",
+      "content": "The student's prediction is that bird species with mean body masses greater than 150 grams do not use deceptive defenses. To weaken it, the table must show a bird above 150 grams that still performs broken-wing display. The example must cross the threshold and still show the deceptive behavior named in the prediction about larger birds."
+    },
+    {
+      "title": "Reject noncounterexamples",
+      "content": "Choice A says the blue-winged teal does not use broken-wing display, which would not weaken the prediction. Choice B compares two birds without crossing the 150-gram threshold. Choice C uses only birds under 150 grams. The answer is <strong>D</strong>."
+    }
+  ]
+}

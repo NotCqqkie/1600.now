@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine medians for both groups",
-      "content": "Group A has 9 players (odd count) → median is the 5th score. Group B has 11 players (odd count) → median is the 6th score. List scores in order for each group based on their frequency distributions.<br/><br/><strong>Group A scores (9 players):</strong> 2, 3, 4, 4, 5, 6, 6, 6, 9. The 5th score is 5.<br/><strong>Group B scores (11 players):</strong> 5, 5, 5, 5, 6, 6, 8, 8, 9, 10, 10. The 6th score is 6."
+      "title": "Order group A scores",
+      "content": "Group A has $9$ scores. For an odd number of scores, the median is the middle entry, which is the $5$th score after ordering.\n$$2,3,4,4,5,6,6,6,9$$\nSo group A's median is $5$."
     },
     {
-      "title": "Calculate the difference",
-      "content": "Subtract the median of Group A from the median of Group B: $6-5=1$. If you do not want to sort by hand, expand each frequency table into a Desmos list and subtract the medians. The answer is <strong>1</strong>.",
+      "title": "Order group B scores",
+      "content": "Group B has $11$ scores, so the middle position is different: it is the $6$th ordered score.\n$$5,5,5,5,6,6,8,8,9,10,10$$\nThus group B's median is $6$."
+    },
+    {
+      "title": "Compare the medians",
+      "content": "Subtract the group A median from the group B median.\n$$6-5=1$$\nThe answer is <strong>1</strong>.",
       "desmosExpressions": [
         "A=[2,3,4,4,5,6,6,6,9]",
         "B=[5,5,5,5,6,6,8,8,9,10,10]",

@@ -1,0 +1,19 @@
+{
+  "questionId": "cae7d174",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the required similarity",
+      "content": "The student's goal is to emphasize a similarity between two specific sculptures: <em>Seated Woman</em> and <em>Woman Fixing Her Hair</em>. To accomplish that goal, the sentence must mention both works and identify something they share. A sentence about only one sculpture, the artist's biography, or Caldwell's overall career would not compare the two sculptures."
+    },
+    {
+      "title": "Check each option against the goal",
+      "content": "<ul><li><strong>Choice A</strong> discusses only <em>Seated Woman</em>, so it cannot establish a similarity between two sculptures.</li><li><strong>Choice B</strong> describes Caldwell as a creator of prints and sculptures, but it does not address the two named works.</li><li><strong>Choice D</strong> gives Caldwell's birth year, which is a biographical detail rather than a comparison of the sculptures.</li></ul>"
+    },
+    {
+      "title": "Name the shared material",
+      "content": "<strong>Choice C</strong> names both <em>Seated Woman</em> and <em>Woman Fixing Her Hair</em> and states that both are made of mahogany. That directly emphasizes the similarity the student wants to highlight. The answer is <strong>C</strong>."
+    }
+  ]
+}

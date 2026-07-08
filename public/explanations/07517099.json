@@ -1,0 +1,19 @@
+{
+  "questionId": "07517099",
+  "correctAnswer": "12.04",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write vertex form",
+      "content": "The maximum daylight is $13.84$ hours at $t=3$, so the quadratic has vertex $(3,13.84)$. Use vertex form for the daylight function.\n\n$$d(t)=a(t-3)^2+13.84$$"
+    },
+    {
+      "title": "Find the coefficient",
+      "content": "Use the point where $t=5.5$ and $d(t)=12.59$ to find $a$.\n\n$$12.59=a(5.5-3)^2+13.84$$\n\n$$12.59=6.25a+13.84$$\n\n$$-1.25=6.25a$$\n\n$$a=-0.2$$"
+    },
+    {
+      "title": "Evaluate March first",
+      "content": "March 1 corresponds to $t=0$, so substitute $0$ into the model.\n\n$$d(0)=-0.2(0-3)^2+13.84$$\n\n$$d(0)=-0.2(9)+13.84$$\n\n$$d(0)=12.04$$\n\nThe answer is <strong>12.04</strong>."
+    }
+  ]
+}

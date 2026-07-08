@@ -1,0 +1,15 @@
+{
+  "questionId": "a84420be",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary angles",
+      "content": "In a right triangle, the two acute angles are complementary. The sine of one acute angle equals the cosine of its complementary angle."
+    },
+    {
+      "title": "Match the trig values",
+      "content": "Since angles $A$ and $C$ are complementary,\n$$\\sin C=\\cos A$$\nGiven $\\cos A=0.55$, it follows that\n$$\\sin C=0.55$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student must make a generalization about exoplanets as a category and support it with evidence from the notes. The decisive clue is that both Phobetor (Greek mythology) and Mastika (Malay) appear in the notes with their naming origins explained."
+      "title": "Identify the needed generalization",
+      "content": "The student wants to make and support a generalization about exoplanets. The notes include masses and host stars, but the useful pattern is about names: Phobetor is drawn from Greek mythology, while Mastika means \"gem\" or \"jewel\" in Malay. Those two examples support a broad claim about exoplanet names having diverse origins."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Exoplanets that are named Phobetor orbit Lich, and those that are named Mastika orbit Gumala.</strong>: Misrepresents the notes by implying multiple exoplanets share each name, and states an orbit fact rather than forming any generalization. &#10007;</li><li><strong>Choice B &mdash; Even though Phobetor and Mastika are both exoplanets, their masses are different: Phobetor's mass is 0.01 Jupiter masses, and Mastika's is 0.92 Jupiter masses.</strong>: Contrasts two specific exoplanets on mass; describes individual facts, not a broader claim about the category. &#10007;</li><li><strong>Choice C &mdash; Many stars have both a designation and a proper name; for instance, PSR B1257+12 is also known as Lich, and HD 179949 is also known as Gumala.</strong>: Makes a generalization about stars, not exoplanets, so it targets the wrong subject. &#10007;</li><li><strong>Choice D &mdash; Exoplanet names have diverse origins, a fact that can be seen in the cases of Phobetor, a name drawn from Greek mythology, and Mastika, which means \"gem\" or \"jewel\" in Malay.</strong>: States a generalization about all exoplanets (diverse naming origins) and backs it with both examples from the notes. &#10003;</li></ul>That is the correct answer."
+      "title": "Eliminate unsupported choices",
+      "content": "<ul><li><strong>Choice A</strong>: Misrepresents the notes by implying multiple exoplanets share each name, and it gives orbit facts instead of a generalization.</li><li><strong>Choice B</strong>: Compares only the two planets' masses, so it does not make a broad claim about exoplanets.</li><li><strong>Choice C</strong>: Generalizes about stars having designations and proper names, not about exoplanets.</li><li><strong>Choice D</strong>: States that exoplanet names have diverse origins and supports the claim with Phobetor and Mastika.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

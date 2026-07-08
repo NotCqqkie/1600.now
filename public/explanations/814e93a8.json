@@ -1,0 +1,15 @@
+{
+  "questionId": "814e93a8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the named service",
+      "content": "The student wants an example of a public service Tecuautla is responsible for. The notes state that municipalities provide public services and name water treatment as one such service. The answer must link Tecuautla to that specific service."
+    },
+    {
+      "title": "Avoid generic statements",
+      "content": "<ul><li><strong>Choice B</strong>: It mentions public services in general but does not name water treatment.</li><li><strong>Choice C</strong>: It gives population information, which is unrelated to public services.</li><li><strong>Choice D</strong>: It says Tecuautla provides public services but gives no concrete example.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

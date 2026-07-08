@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up conversion",
-      "content": "Set up the conversion:<br/>$$ 10.7 \\frac{\\text{m}}{\\text{s}^2} \\times \\frac{1 \\text{ mile}}{1609 \\text{ m}} \\times \\left(\\frac{60 \\text{ s}}{1 \\text{ min}}\\right)^2 $$<br/>Simplify to:<br/>$$ = 10.7 \\times \\frac{3600}{1609} \\frac{\\text{mile}}{\\text{min}^2} $$"
+      "title": "Convert the acceleration units",
+      "content": "Convert meters to miles and seconds squared to minutes squared:<br/>$$10.7\\cdot\\frac{1}{1{,}609}\\cdot60^2$$"
     },
     {
-      "title": "Compute and match choice",
-      "content": "Compute the value:<br/>$$ \\frac{10.7 \\times 3600}{1609} \\approx 23.94 $$<br/>Rounded to the nearest tenth gives $23.9$ miles per minute squared.<br/>That matches the correct answer - <strong>B</strong> is correct."
+      "title": "Round the converted rate",
+      "content": "This value is about $23.94$:<br/>$$10.7\\cdot\\frac{3{,}600}{1{,}609}$$<br/>Rounded to the nearest tenth, it is $23.9$ miles per minute squared. The answer is <strong>B</strong>."
     }
   ]
 }

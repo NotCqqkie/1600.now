@@ -1,0 +1,19 @@
+{
+  "questionId": "9de4a1b4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Name the angle measures",
+      "content": "Two intersecting lines form two pairs of vertical angles, and vertical angles are equal. If one angle is $(5x-170)^\\circ$, then its vertical angle has the same measure. Each adjacent angle is supplementary, so its measure is $180-(5x-170)=350-5x$ degrees."
+    },
+    {
+      "title": "List possible pair sums",
+      "content": "There are only three kinds of sums from two of the four angles. Two angles of the first measure sum to $2(5x-170)=10x-340$. Two angles of the adjacent measure sum to $2(350-5x)=700-10x$. One of each measure sums to $(5x-170)+(350-5x)=180$."
+    },
+    {
+      "title": "Eliminate the impossible sum",
+      "content": "The possible sums are $(10x-340)^\\circ$, $(-10x+700)^\\circ$, and $180^\\circ$. The expression $(-10x+340)^\\circ$ is not on that list. Also, because $(5x-170)^\\circ$ is a positive angle, $x>34$, making $-10x+340<0$. A sum of two angle measures cannot be negative. The answer is <strong>A</strong>."
+    }
+  ]
+}

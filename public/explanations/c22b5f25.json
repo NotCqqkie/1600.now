@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Find the slope",
-      "content": "The line contains $(-2,7)$ and $(4,-1)$. Its slope is $$m=\\frac{-1-7}{4-(-2)}=\\frac{-8}{6}=-\\frac{4}{3}.$$"
+      "content": "Use the two points $(-2,7)$ and $(4,-1)$:\n$$\nm=\\frac{-1-7}{4-(-2)}=\\frac{-8}{6}=-\\frac{4}{3}\n$$"
     },
     {
       "title": "Find the intercept",
-      "content": "Use $y=mx+b$ with the point $(-2,7)$: $$7=-\\frac{4}{3}(-2)+b$$ $$7=\\frac{8}{3}+b$$ $$b=\\frac{13}{3}.$$"
+      "content": "Use $y=mx+b$ with $(-2,7)$ to check the intercept:\n$$\n7=-\\frac{4}{3}(-2)+b\n$$\n$$\nb=\\frac{13}{3}\n$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The function is $$f(x)=-\\frac{4}{3}x+\\frac{13}{3}.$$ This matches <strong>C</strong>."
-    },
-    {
-      "title": "Use the fastest choice check",
-      "content": "Only the equation with slope $-\\frac{4}{3}$ can work, so once the slope is found, the other choices are eliminated immediately. The intercept calculation confirms that choice C also passes through the given points."
+      "title": "Write the function",
+      "content": "The matching linear function is\n$$\nf(x)=-\\frac{4}{3}x+\\frac{13}{3}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

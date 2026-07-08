@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what an unfamiliar audience needs to know",
-      "content": "The goal is to describe <em>Unwoven Light</em> to someone unfamiliar with Mina Sun Lee. An effective description must include: who the artist is, what the work looks like, and &mdash; most importantly &mdash; the defining visual effect (light forming colorful prisms through the fence). Any choice missing the prism effect or the artist's identity fails the task."
+      "title": "Cover the work and artist",
+      "content": "The goal is to describe <em>Unwoven Light</em> for an audience unfamiliar with Mina Sun Lee. A strong answer should identify Lee and give the defining visual effect: light passing through an iridescent-tiled fence to form colorful prisms."
     },
     {
-      "title": "Evaluate each choice against the goal",
-      "content": "<ul><li><strong>Choice A — Lee's 2013 installation <em>Unwoven Light</em>, which included a chain-link fence and iridescent tiles made from plexiglass, featured light as its primary medium of expression.</strong>: mentions materials but omits the colorful prism effect that makes the work distinctive; also does not identify Lee for an unfamiliar audience. &#10007;</li><li><strong>Choice B — Korean American light artist Mina Sun Lee created <em>Unwoven Light</em> in 2013.</strong>: identifies the artist and year but provides no description of the work at all. &#10007;</li><li><strong>Choice C — The chain-link fence in Mina Sun Lee's <em>Unwoven Light</em> was fitted with tiles made from iridescent plexiglass.</strong>: describes a material detail but omits the prism effect and the artist&rsquo;s identity for an unfamiliar audience. &#10007;</li><li><strong>Choice D — In <em>Unwoven Light</em>, a 2013 work by Korean American artist Mina Sun Lee, light formed colorful prisms as it passed through a fence Lee had fitted with iridescent tiles.</strong>: identifies the artist, dates the work, names the medium, and captures the defining visual effect &mdash; everything an unfamiliar audience needs. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Reject incomplete descriptions",
+      "content": "Choice A describes materials but does not identify Lee for the audience. Choice B identifies the artist and year but barely describes the work. Choice C gives one material detail but omits the prism effect and artist background. The answer is <strong>D</strong>."
     }
   ]
 }

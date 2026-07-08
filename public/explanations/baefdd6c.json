@@ -1,0 +1,19 @@
+{
+  "questionId": "baefdd6c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the organic-only limit",
+      "content": "The farmers have no access to inorganic soil additives, so any option using NPK fertilizer must be excluded. The best remaining option must produce the greatest improvement in fruit weight and size among organic treatments."
+    },
+    {
+      "title": "Compare the organic gains",
+      "content": "A includes inorganic NPK fertilizer. C and D are organic but produce smaller gains than the combined organic treatment. The biochar-and-compost treatment gives the highest listed organic values: 979.3 g weight, 6.76 cm length, and 13.68 cm diameter."
+    },
+    {
+      "title": "Select the best treatment",
+      "content": "The organic combination with the greatest gains is biochar and compost. The answer is <strong>B</strong>."
+    }
+  ]
+}

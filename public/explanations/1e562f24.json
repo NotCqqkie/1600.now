@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Construct the confidence interval",
-      "content": "Subtract and add the margin of error: $0.62-0.05=0.57$ and $0.62+0.05=0.67$. So the plausible range is 0.57 to 0.67."
+      "title": "Apply the margin of error",
+      "content": "A margin of error of $0.05$ means subtracting and adding $0.05$ to the estimate $0.62$.<br/>$$0.62-0.05=0.57$$<br/>$$0.62+0.05=0.67$$"
     },
     {
-      "title": "Interpret what the interval means",
-      "content": "Any proportion from 0.57 to 0.67 is plausible. Proportions below 0.57 or above 0.67 are not supported by the sample data."
-    },
-    {
-      "title": "Evaluate all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; It is plausible that the proportion is between $0.57$ and $0.67$.</strong>: This exactly describes the interval. &#10003;</li><li><strong>Choice B &mdash; It is plausible that the proportion is less than $0.57$.</strong>: Values below 0.57 are outside the interval. &#10007;</li><li><strong>Choice C &mdash; The proportion is exactly $0.62$.</strong>: 0.62 is the point estimate, not guaranteed to be the true population proportion. &#10007;</li><li><strong>Choice D &mdash; It is plausible that the proportion is greater than $0.67$.</strong>: Values above 0.67 are outside the interval. &#10007;</li></ul>That matches <strong>Choice A &mdash; It is plausible that the proportion is between $0.57$ and $0.67$.</strong>."
+      "title": "Interpret the interval",
+      "content": "The plausible interval is from $0.57$ to $0.67$. Values below $0.57$ or above $0.67$ are outside that interval, and the estimate does not prove the exact population proportion. The answer is <strong>A</strong>."
     }
   ]
 }

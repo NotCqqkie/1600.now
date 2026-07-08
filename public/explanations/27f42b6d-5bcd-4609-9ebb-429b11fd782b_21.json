@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; There,</strong>: means &quot;in/at that place&quot; — points directly back to the university wall just named. &#10003;</li><li><strong>Choice B &mdash; Later,</strong>: signals time progression, but no time shift is happening — the next sentence describes the same moment at the same place. &#10007;</li><li><strong>Choice C &mdash; For instance,</strong>: introduces an example of a broader category, but the passage is discussing this specific sculpture, not illustrating a general point. &#10007;</li><li><strong>Choice D &mdash; However,</strong>: signals contrast, but the next sentence simply continues describing the sculpture at its established location — no contradiction. &#10007;</li></ul>That matches <strong>Choice A &mdash; There,</strong>."
+      "content": "<ul><li><strong>Choice A — There,</strong>: means \"in/at that place\" — points directly back to the university wall just named. ✓</li><li><strong>Choice B — Later,</strong>: signals time progression, but no time shift is happening — the next sentence describes the same moment at the same place. ✗</li><li><strong>Choice C — For instance,</strong>: introduces an example of a broader category, but the passage is discussing this specific sculpture, not illustrating a general point. ✗</li><li><strong>Choice D — However,</strong>: signals contrast, but the next sentence simply continues describing the sculpture at its established location — no contradiction. ✗</li></ul>That matches <strong>Choice A — There,</strong>."
     }
   ]
 }

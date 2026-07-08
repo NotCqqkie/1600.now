@@ -1,0 +1,15 @@
+{
+  "questionId": "1f4f7ef6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Punctuate the place list",
+      "content": "The sentence lists three places where azulejos beautify public spaces: libraries, train stations, and public squares. The blank must separate the first list item from the second without creating a break or interruption."
+    },
+    {
+      "title": "Reject nonlist punctuation",
+      "content": "A uses a colon, which is not needed inside this simple series. B runs the list items together with no punctuation. C uses a dash, which incorrectly marks an interruption rather than a standard list separator. A comma fits the list. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the y-intercept",
-      "content": "The y-intercept occurs at $x = 0$. Since $x$ represents months after the end of April 2015, $x = 0$ corresponds to the end of April 2015. Substitute $x = 0$ into the equation:<br/>$$y = -\\frac{1}{5}(0)^2 + 3(0) + 31 = 31$$"
+      "title": "Set the input to zero",
+      "content": "The $y$-intercept occurs when $x=0$. In context, $x=0$ means $0$ months after the end of April $2015$, so it represents the end of April $2015$."
     },
     {
-      "title": "Interpret the y-intercept",
-      "content": "The y-intercept is 31, which represents the estimated number of scheduled deliveries at the end of April 2015. That matches <strong>Choice B &mdash; At the end of April $2015$, the estimated number of scheduled deliveries was $31$.</strong>."
+      "title": "Evaluate the model",
+      "content": "Substitute $x=0$:<br/>$$y=-\\frac{1}{5}(0)^2+3(0)+31$$<br/>$$y=31$$"
+    },
+    {
+      "title": "Interpret the intercept",
+      "content": "The $y$-intercept means the estimated number of scheduled deliveries at the end of April $2015$ was $31$. The answer is <strong>B</strong>."
     }
   ]
 }

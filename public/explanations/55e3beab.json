@@ -1,0 +1,15 @@
+{
+  "questionId": "55e3beab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the length note",
+      "content": "The student's goal is to specify the green iguana's average length. The relevant note is the measurement: an average length of 4.8 feet."
+    },
+    {
+      "title": "Reject unrelated traits",
+      "content": "Choice A describes diet. Choice B combines habitat and diet without the measurement. Choice C describes geographic range. None of those gives the average length. The answer is <strong>D</strong>."
+    }
+  ]
+}

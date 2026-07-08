@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand vertical shifts",
-      "content": "Shifting a graph DOWN by $k$ units subtracts $k$ from the output: $g(x) = f(x) - k$."
+      "title": "Use a downward shift",
+      "content": "Shifting a graph down $4$ units subtracts $4$ from every output value. So the transformed function is $g(x)=f(x)-4$."
     },
     {
-      "title": "Apply the shift",
-      "content": "Shifting $f(x) = 5x^3$ down 4 units:<br/>$$g(x) = 5x^3 - 4$$"
-    },
-    {
-      "title": "Match to the choices",
-      "content": "<ul><li><strong>Choice A &mdash; $g \\left(x\\right)=\\frac{5}{4}{x}^{3}$</strong>: This scales the function vertically by $\\frac{1}{4}$, not a vertical shift. Incorrect</li><li><strong>Choice B &mdash; $g \\left(x\\right)=5{x}^{\\frac{3}{4}}$</strong>: This changes the exponent, producing a completely different function. Incorrect</li><li><strong>Choice C &mdash; $g \\left(x\\right)=5{x}^{3}+4$</strong>: Adding 4 shifts the graph UP 4 units, not down. Incorrect</li><li><strong>Choice D &mdash; $g \\left(x\\right)=5{x}^{3}-4$</strong>: Subtracting 4 shifts the graph DOWN 4 units. Correct</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Substitute the function",
+      "content": "Since $f(x)=5x^3$, the shifted function is<br/>$$g(x)=5x^3-4$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

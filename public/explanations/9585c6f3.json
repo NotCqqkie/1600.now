@@ -1,0 +1,15 @@
+{
+  "questionId": "9585c6f3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equal ratios",
+      "content": "The ratio $8$ to $4$ is equivalent to the ratio $40$ to $4k$, so:<br/>$$\\frac{8}{4}=\\frac{40}{4k}$$<br/>$$2=\\frac{40}{4k}$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Multiply both sides by $4k$, then divide by $8$.<br/>$$2(4k)=40$$<br/>$$8k=40$$<br/>$$k=5$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

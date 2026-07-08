@@ -1,0 +1,15 @@
+{
+  "questionId": "87fa264b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the function:<br/>$$f(0)=5(0)-\\frac{1}{6}$$"
+    },
+    {
+      "title": "Write the intercept point",
+      "content": "Evaluating gives<br/>$$f(0)=-\\frac{1}{6}$$<br/>so the intercept is $(0,-\\frac{1}{6})$. The answer is <strong>A</strong>."
+    }
+  ]
+}

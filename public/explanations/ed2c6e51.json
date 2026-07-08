@@ -1,0 +1,15 @@
+{
+  "questionId": "ed2c6e51",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Frame the example phrase",
+      "content": "The phrase such as karst, which refers to limestone terrain riddled with caves or sinkholes interrupts the main sentence. It needs to be set off clearly before the sentence resumes with illustrate."
+    },
+    {
+      "title": "Choose the clean boundary",
+      "content": "Choice A uses a comma that would blur with the internal comma after karst. Choice B uses a colon, which does not properly frame this interrupting example phrase. Choice D leaves no punctuation to mark the interruption. The answer is <strong>C</strong>."
+    }
+  ]
+}

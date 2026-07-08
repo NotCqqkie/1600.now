@@ -1,0 +1,15 @@
+{
+  "questionId": "03a17a64",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep essential names attached",
+      "content": "The sentence must identify which gaseous compounds have the listed molar masses. The names propylene and propane are essential identifiers, so they should not be set off as removable extra information."
+    },
+    {
+      "title": "Reject comma and period errors",
+      "content": "Choice A uses two commas and treats the names as nonessential. Choice C inserts a period and leaves the rest as a fragment. Choice D uses an opening comma without a matching closing comma. The no-comma version keeps the essential names attached. The answer is <strong>B</strong>."
+    }
+  ]
+}

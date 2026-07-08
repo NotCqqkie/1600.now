@@ -1,0 +1,17 @@
+{
+  "questionId": "83158284",
+  "correctAnswer": "11.52",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the volume of the cube",
+      "content": "For a cube with edge length $a = 4.000$ cm, calculate:<br/>$$V = (4.000)^3 = 64.000 \\text{ cm}^3$$",
+      "formula": "$$V = a^3$$"
+    },
+    {
+      "title": "Apply the density formula to find mass",
+      "content": "Use the relationship between mass, density, and volume. Substitute the known values:<br/>$$\\text{mass} = 0.180 \\text{ g/cm}^3 \\times 64.000 \\text{ cm}^3 = 11.52 \\text{ grams}$$<br/>The mass of the cube is <strong>11.52 grams</strong>.",
+      "formula": "$$\\text{mass} = \\text{density} \\times \\text{volume}$$"
+    }
+  ]
+}

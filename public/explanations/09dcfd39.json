@@ -1,0 +1,15 @@
+{
+  "questionId": "09dcfd39",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the practical shift",
+      "content": "The first sentence says Kepler-452b may be habitable but is too far away to use anytime soon. The next sentence shifts to a nearer, practical focus: planets within our solar system."
+    },
+    {
+      "title": "Choose the substitute",
+      "content": "Choice A would introduce an example, but nearby planets are not an example of using Kepler-452b. Choice B suggests sequence, and choice D suggests similarity. The needed transition signals a replacement for an impractical option. The answer is <strong>C</strong>."
+    }
+  ]
+}

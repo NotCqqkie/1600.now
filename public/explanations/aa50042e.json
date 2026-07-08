@@ -1,0 +1,15 @@
+{
+  "questionId": "aa50042e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define torsional heating",
+      "content": "The notes state that torsion is twisting and that objects generally heat up when twisted. An explanation of torsional heating should combine those ideas into a definition of temperature increase caused by twisting."
+    },
+    {
+      "title": "Reject examples without definition",
+      "content": "<ul><li>Choice A compares two fibers' results but does not define the concept.</li><li>Choice C is too vague because change could mean increase or decrease, while the notes specify heating.</li><li>Choice D describes the 2019 study rather than explaining what torsional heating is.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

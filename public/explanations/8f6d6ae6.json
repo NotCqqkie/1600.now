@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two parts being joined",
-      "content": "Before the blank: &quot;...had as many as 20,000 inhabitants in the year 1150 CE&quot; &mdash; a complete independent clause. After the blank: &quot;making it one of the largest cities in North America at the time&quot; &mdash; a participial phrase (begins with &quot;making&quot;), not an independent clause."
+      "title": "Classify the modifier",
+      "content": "The words before the blank form a complete independent clause: Cahokia had as many as 20,000 inhabitants in 1150 CE. The words after the blank, beginning with <em>making</em>, form a participial phrase that explains the result."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "A participial phrase that modifies the preceding clause is set off with a comma. So the correct connector between the independent clause and the &quot;making...&quot; modifier is a comma."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; CE making</strong>: no punctuation before a trailing participial modifier &mdash; creates a run-on / fused construction. &#10007;</li><li><strong>Choice B &mdash; CE. Making</strong>: a period leaves &quot;Making it one of the largest cities...&quot; as a sentence fragment (no main verb). &#10007;</li><li><strong>Choice C &mdash; CE, making</strong>: comma properly attaches the participial modifier to the main clause. &#10003;</li><li><strong>Choice D &mdash; CE; making</strong>: a semicolon must join two independent clauses, but &quot;making it...&quot; is a phrase, not a clause. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Choose the comma",
+      "content": "A leaves no punctuation before the participial phrase. B turns the participial phrase into a sentence fragment. D uses a semicolon even though <em>making it one of the largest cities</em> is not an independent clause. A comma correctly attaches the phrase to the main clause. The answer is <strong>C</strong>."
     }
   ]
 }

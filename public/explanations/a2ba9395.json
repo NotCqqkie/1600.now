@@ -1,0 +1,24 @@
+{
+  "questionId": "a2ba9395",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the decay factor",
+      "content": "The beam starts with $800$ photons. Decreasing by $50\\%$ means multiplying by $0.5$ for each $7$ millimeters of material."
+    },
+    {
+      "title": "Count the intervals",
+      "content": "At a depth of $x$ millimeters, the number of $7$-millimeter intervals is $\\frac{x}{7}$. That makes the exponent $\\frac{x}{7}$, not $x$.",
+      "desmosExpressions": [
+        "x_1=[0,7,14]",
+        "y_1=[800,400,200]",
+        "y=800(0.5)^{x/7}"
+      ]
+    },
+    {
+      "title": "Build the model",
+      "content": "Use initial amount $800$, decay factor $0.5$, and exponent $\\frac{x}{7}$.\n$$I=800(0.5)^{\\frac{x}{7}}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

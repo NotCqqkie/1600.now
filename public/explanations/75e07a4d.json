@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the data requirement",
-      "content": "The question asks specifically for a food item on day 1. That's the constraint that must be met."
+      "title": "Apply the day constraint",
+      "content": "The student's statement is limited to day 1 of the Gemini menu schedule, so the answer must name a day 1 food item."
     },
     {
-      "title": "Find the matching food item",
-      "content": "Sugar cookie cubes is the only item in the table for day 1. The other three all reference items from different days. That confirms <strong>C</strong> is correct."
+      "title": "Match the table entry",
+      "content": "A, B, and D list items from other menu days. The matching day 1 entry is sugar cookie cubes for meal B. The answer is <strong>C</strong>."
     }
   ]
 }

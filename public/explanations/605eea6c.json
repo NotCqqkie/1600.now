@@ -1,0 +1,15 @@
+{
+  "questionId": "605eea6c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the universal claim",
+      "content": "The student claims ego-based time concepts are universal, meaning temporal gestures should depend on the speaker's own orientation, such as left, right, front, or back. A weakening finding must show a group using a reference frame that stays fixed even when the speaker faces a different direction."
+    },
+    {
+      "title": "Reject non-weakening findings",
+      "content": "Choice A could still fit a body-relative system because opposite directions might mean front and back. Choice B concerns grammar, not spatial reference frames. Choice D compares gesture frequency, but using fewer gestures would not show whether the remaining gestures are ego-based or landscape-based. That distinction is what weakens universality. The answer is <strong>C</strong>."
+    }
+  ]
+}

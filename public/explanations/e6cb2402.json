@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Match the coefficient condition",
-      "content": "A linear equation in one variable has no solution when the $x$-coefficients match but the constants are different. Match the $x$-coefficients first."
+      "title": "Use the no-solution condition",
+      "content": "A linear equation has no solution when the variable terms are the same on both sides but the constants are different. First expand the left side:<br/>$$4(kx+11)=4kx+44$$"
     },
     {
-      "title": "Confirm by expanding",
-      "content": "Expand the left side: $$4(kx+11)=4kx+44.$$ The equation is $$4kx+44=\\frac{60}{19}x+40.$$ For no solution, match the $x$-coefficients: $$4k=\\frac{60}{19}$$ $$k=\\frac{60}{76}=\\frac{15}{19}\\approx0.7895.$$"
+      "title": "Match the variable terms",
+      "content": "The equation becomes<br/>$$4kx+44=\\frac{60}{19}x+40$$<br/>For the variable terms to match, set the coefficients equal:<br/>$$4k=\\frac{60}{19}$$"
     },
     {
-      "title": "Check the contradiction",
-      "content": "With $k=\\frac{15}{19}$, the $x$-terms match, but the constants are $44$ and $40$. After subtracting the matching $x$-terms, the equation becomes $44=40$, which is impossible. Therefore the equation has no solution, and the answer is <strong>15/19</strong>."
+      "title": "Solve for the constant",
+      "content": "Divide both sides by $4$:<br/>$$k=\\frac{60}{19}\\div4=\\frac{60}{76}=\\frac{15}{19}$$<br/>Then the constants $44$ and $40$ are unequal, so the equation has no solution. The answer is <strong>15/19</strong>."
     }
   ]
 }

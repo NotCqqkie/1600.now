@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the shape",
-      "content": "The points rise faster as $x$ increases, so the model should be an increasing curve, not a straight line. That eliminates choices A and B."
+      "title": "Use the shape of the data",
+      "content": "The data points rise faster as $x$ increases, so an increasing curve is more appropriate than a straight line. That eliminates the linear models."
     },
     {
-      "title": "Compare choices C and D",
-      "content": "The curve that sits above all $8$ points is not centered on the data. The centered increasing curve has data points split around it: some above, some below, and some touching."
-    },
-    {
-      "title": "Graph-check the centered curve",
-      "content": "A reasonable model should follow the trend and have points on both sides of the curve. The centered increasing curve with two points touching and points on both sides is correct."
+      "title": "Choose the centered curve",
+      "content": "A good model should run through the middle of the data, with points on both sides of the curve. The centered increasing curve has points touching it and points above and below it. The answer is <strong>D</strong>."
     }
   ]
 }

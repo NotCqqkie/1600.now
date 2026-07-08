@@ -1,0 +1,16 @@
+{
+  "questionId": "758c36a4",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the constant term",
+      "content": "In the linear function $f(x)=42-0.16x$, the constant term is $42$. This is the value of the function when $x=0$.",
+      "formula": "$$f(x) = mx + b$$"
+    },
+    {
+      "title": "Interpret the starting value",
+      "content": "Since $x$ is days after the start of the experiment, $x=0$ means the start:<br/>$$f(0)=42-0.16(0)=42$$<br/>So $42$ is the estimated water height at the start. The answer is <strong>A</strong>."
+    }
+  ]
+}

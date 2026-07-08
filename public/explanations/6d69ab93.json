@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify Lang's specific mechanism",
-      "content": "Lang's proposed cause is specific: hydrogen trapped in water ice becomes gaseous and escapes, creating the acceleration. This mechanism requires both a source of trapped hydrogen and conditions to release it."
+      "title": "Test Lang's mechanism",
+      "content": "Lang's claim needs two pieces: a way for hydrogen gas to be trapped in water ice and a way for that gas to escape while the object moves through the solar system. Evidence for both would directly support the proposed cause."
     },
     {
-      "title": "Confirm the mechanism is valid",
-      "content": "The correct response validates both requirements: cosmic radiation embeds hydrogen in water ice (source), and solar system warming triggers outgassing (release).<br/><br/>The other choices–C don't validate this mechanism: <ul><li>A addresses problems with unrelated models</li><li>B contradicts it by proposing H₂ ice instead</li><li>C merely notes that nongravitational effects are subtle</li></ul><br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject weaker support",
+      "content": "Choice A only criticizes other models. Choice B contradicts the water-ice hydrogen mechanism and points to molecular hydrogen ice instead. Choice C merely says nongravitational effects can be hard to detect. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the percentage",
-      "content": "When a material can contain a maximum of 0.002% phosphorus <strong>by mass</strong>, the mass of phosphorus is 0.002% of the total sample mass:<br/>$$ \\text{mass of P} = 0.002\\% \\times 160 \\text{ g} $$"
+      "title": "Convert the percent",
+      "content": "The maximum phosphorus mass is $0.002\\%$ of the sample mass. Convert the percent to a decimal.<br/>$$0.002\\%=\\frac{0.002}{100}=0.00002$$"
     },
     {
-      "title": "Convert percentage to decimal",
-      "content": "To compute with the percentage, convert it to decimal form by dividing by 100:<br/>$$ 0.002\\% = \\frac{0.002}{100} = 0.00002 $$"
-    },
-    {
-      "title": "Calculate the maximum phosphorus mass",
-      "content": "Now multiply the decimal form by the sample mass:<br/>$$ \\text{mass of P} = 0.00002 \\times 160 = 0.0032 \\text{ grams} $$<br/>The maximum mass of phosphorus the sample can contain is <strong>0.0032 grams</strong>."
+      "title": "Multiply by the sample mass",
+      "content": "Use the decimal form of the percent with the $160$-gram sample.<br/>$$0.00002\\cdot 160=0.0032$$<br/>The maximum phosphorus mass is $0.0032$ grams. The answer is <strong>.0032</strong>."
     }
   ]
 }

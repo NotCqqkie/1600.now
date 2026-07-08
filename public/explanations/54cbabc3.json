@@ -1,0 +1,24 @@
+{
+  "questionId": "54cbabc3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the rate of change",
+      "content": "The function passes through the point with input $4$ and output $190$, and the point with input $10$ and output $670$. The slope is the change in profit divided by the change in items sold.<br/>$$m=\\frac{670-190}{10-4}=\\frac{480}{6}=80$$"
+    },
+    {
+      "title": "Find the starting value",
+      "content": "Use $f(x)=80x+b$ and substitute the point where $x=4$ and $f(x)=190$.<br/>$$190=80(4)+b$$<br/>$$190=320+b$$<br/>$$b=-130$$<br/>So the equation is $f(x)=80x-130$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The line through the two given points is $y=80x-130$. It checks both profits:<br/>$$80(4)-130=190$$<br/>$$80(10)-130=670$$<br/>The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "x_1=[4,10]",
+        "y_1=[190,670]",
+        "y=80x-130"
+      ]
+    }
+  ]
+}

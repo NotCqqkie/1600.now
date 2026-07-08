@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Isolate the absolute value",
-      "content": "Subtract $37$ from both sides: $$|x-8|=16.$$"
+      "content": "Subtract $37$ from both sides.\n$$|x-8|+37=53$$\n$$|x-8|=16$$"
     },
     {
-      "title": "Use the symmetry shortcut",
-      "content": "The equation $|x-8|=16$ has solutions $16$ units away from $8$: $$x=8+16=24 \\quad \\text{and} \\quad x=8-16=-8.$$"
-    },
-    {
-      "title": "Sum the solutions",
-      "content": "$$24+(-8)=16.$$ Shortcut: the solutions are centered at $8$, so their sum is $2(8)=16$. The answer is <strong>16</strong>."
+      "title": "Use symmetry around the center",
+      "content": "The expression $|x-8|=16$ means $x$ is $16$ units from $8$. The two solutions are equally spaced around $8$, so their sum is twice the center.\n$$2(8)=16$$\nThe answer is <strong>16</strong>."
     }
   ]
 }

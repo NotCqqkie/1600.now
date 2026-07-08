@@ -1,0 +1,15 @@
+{
+  "questionId": "4e4896af",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the 1993 column",
+      "content": "The question asks which Girl Scout category had the most members in 1993. The relevant values are Brownies at 1,225 thousand, Adults at 826 thousand, Daisies at 191 thousand, and Cadettes at 168 thousand."
+    },
+    {
+      "title": "Pick the largest category",
+      "content": "The largest 1993 value is 1,225 thousand for Brownies. A, C, and D all name categories with lower membership totals in that year. The answer is <strong>B</strong>."
+    }
+  ]
+}

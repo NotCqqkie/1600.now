@@ -1,0 +1,22 @@
+{
+  "questionId": "4c32c17c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the decay factor",
+      "content": "A decrease of $24\\%$ means $76\\%$ of the mass remains after each $22.96$-minute period:\n$$\n1-0.24=0.76\n$$"
+    },
+    {
+      "title": "Write the exponent",
+      "content": "The number of $22.96$-minute periods in $t$ minutes is\n$$\n\\frac{t}{22.96}\n$$\nSo the model must raise the decay factor $0.76$ to that exponent."
+    },
+    {
+      "title": "Match the model",
+      "content": "The equation needs initial mass $100$, decay factor $0.76$, and exponent $\\frac{t}{22.96}$.\nThe answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "M = 100 \\cdot 0.76^{t / 22.96}"
+      ]
+    }
+  ]
+}

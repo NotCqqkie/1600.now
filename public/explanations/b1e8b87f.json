@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the verb-object structure",
-      "content": "The word “unearthed” completes the verb “have.” What follows is the noun phrase “knives, horseshoes, wool tunics, and thousands of other artifacts,” which is the direct object of that verb."
+      "title": "Keep verb and object together",
+      "content": "The verb phrase is <em>have unearthed</em>. The words that follow, including knives, horseshoes, and wool tunics, are the direct object of that verb."
     },
     {
-      "title": "Apply the rule for verb-object punctuation",
-      "content": "A verb must connect directly to its object without intervening punctuation.<br/><br/>The result is correct because it provides no punctuation between the verb and object.<br/><br/>The other choices all insert a mark (colon, comma, or em dash) that separates them.<br/><br/>That is the correct answer."
+      "title": "Remove separating punctuation",
+      "content": "Choice A inserts a colon between the verb and its object. Choice B inserts a comma, and Choice C inserts an em dash. A verb should connect directly to its object without intervening punctuation. The answer is <strong>D</strong>."
     }
   ]
 }

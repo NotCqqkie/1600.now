@@ -1,0 +1,19 @@
+{
+  "questionId": "123157cb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject is the word stockade, which is singular. The sentence also parallels the later phrase cinch derives, so the blank needs a singular present-tense verb."
+    },
+    {
+      "title": "Reject nonagreeing verbs",
+      "content": "<ul><li><strong>Choice A</strong> uses plural have and does not agree with the singular subject.</li><li><strong>Choice B</strong> uses plural were and an unsuitable progressive form.</li><li><strong>Choice C</strong> is the plural/base present form.</li></ul>"
+    },
+    {
+      "title": "Use the singular verb",
+      "content": "Derives agrees with the singular subject the word stockade and matches the parallel verb in cinch derives. The answer is <strong>D</strong>."
+    }
+  ]
+}

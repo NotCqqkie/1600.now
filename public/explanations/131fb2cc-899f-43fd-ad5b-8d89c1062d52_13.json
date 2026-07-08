@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the tangent ratio",
-      "content": "In a right triangle, $\\tan A = \\dfrac{\\text{opposite}}{\\text{adjacent}}$ — the side opposite angle $A$ over the side adjacent to angle $A$ (not the hypotenuse)."
+      "title": "Find the angle measure",
+      "content": "The triangle has a right angle and angle $C=30^\\circ$, so angle $A$ is<br/>$$180^\\circ-90^\\circ-30^\\circ=60^\\circ$$"
     },
     {
-      "title": "Plug in the side lengths",
-      "content": "Triangle ABC has a right angle at B, hypotenuse AC = 114, and angle C = $30^\\circ$. Since the angles of a triangle sum to $180^\\circ$, angle A = $180^\\circ - 90^\\circ - 30^\\circ = 60^\\circ$.<br/>In a 30-60-90 triangle with hypotenuse 114: the side opposite $30^\\circ$ (AB) is $114 \\div 2 = 57$, and the side opposite $60^\\circ$ (BC) is $57\\sqrt{3}$.<br/>$$\\tan A = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{BC}{AB} = \\frac{57\\sqrt{3}}{57} = \\sqrt{3} \\approx 1.732$$<br/>The answer is <strong>1.732</strong>."
+      "title": "Use the tangent ratio",
+      "content": "In a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle with hypotenuse $114$, the shorter leg is $57$ and the longer leg is $57\\sqrt{3}$. For angle $A$, tangent is opposite over adjacent."
+    },
+    {
+      "title": "Compute the ratio",
+      "content": "Use the side opposite angle $A$ over the side adjacent to angle $A$.<br/>$$\\tan A=\\frac{57\\sqrt{3}}{57}=\\sqrt{3}=1.732$$<br/>The answer is <strong>1.732</strong>."
     }
   ]
 }

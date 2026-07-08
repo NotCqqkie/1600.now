@@ -1,0 +1,19 @@
+{
+  "questionId": "24bf2c6c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare hypothesis and finding",
+      "content": "The researchers expected medieval settlements to differ from modern cities because restrictive institutions might weaken the usual density-size relationship. Their model accounted for those institutions. Instead, the expected relationship held for all 173 medieval settlements, so the conclusion should emphasize continuity between medieval and modern urban development rather than a failed constraint."
+    },
+    {
+      "title": "Eliminate unsupported claims",
+      "content": "Choice A says social institutions limited the rate of density growth, but the finding does not show that limitation. Choice C says medieval social and economic dynamics were much different from modern ones, which works against the similar density-size pattern. Choice D invents different effects on different social groups, a distinction the text never discusses."
+    },
+    {
+      "title": "Choose the consistent conclusion",
+      "content": "The result suggests that even though social structures changed over time, the interactions shaping core urban areas were notably similar in medieval settlements and modern cities. That matches the finding that the same density-size relationship held despite the researchers' original hypothesis. The answer is <strong>B</strong>."
+    }
+  ]
+}

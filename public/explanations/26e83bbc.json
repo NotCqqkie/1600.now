@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the product f(x) * g(x)",
-      "content": "To find $b$, we expand $(x^2 + bx)(8x^2 - 40x)$ using the distributive property:<br/>$$\\begin{align}(x^2 + bx)(8x^2 - 40x) &= x^2(8x^2 - 40x) + bx(8x^2 - 40x)\\\\&= 8x^4 - 40x^3 + 8bx^3 - 40bx^2\\\\&= 8x^4 + (8b - 40)x^3 - 40bx^2\\end{align}$$"
+      "title": "Multiply the functions",
+      "content": "Use the given expressions for $f(x)$ and $g(x)$:\n$$\nf(x)g(x)=(x^2+bx)(8x^2-40x)\n$$\n$$\nf(x)g(x)=8x^4-40x^3+8bx^3-40bx^2\n$$\n$$\nf(x)g(x)=8x^4+(-40+8b)x^3-40bx^2\n$$"
     },
     {
-      "title": "Compare coefficients with the given product",
-      "content": "Since $f(x)\\cdot g(x)=8x^4-39x^3-5x^2$, the coefficient of $x^3$ in our expansion must equal $-39$:<br/>$$8b-40=-39$$<br/>$$8b=1$$<br/>$$b=\\frac{1}{8}$$<br/>That matches <strong>Choice C &mdash; $\\frac{1}{8}$</strong>, so <strong>C</strong>."
+      "title": "Match the coefficients",
+      "content": "Compare with $8x^4-39x^3-5x^2$. Using the $x^3$ coefficient:\n$$\n-40+8b=-39\n$$\n$$\n8b=1\n$$\n$$\nb=\\frac{1}{8}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

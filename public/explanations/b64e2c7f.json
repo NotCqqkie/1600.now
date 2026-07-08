@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the minimum increase equation",
-      "content": "The butterfly can fly with a temperature of <strong>at least</strong> $56.0^\\circ\\text{F}$. Its current temperature is $52.4^\\circ\\text{F}$. For the minimum increase, the temperature must reach exactly the threshold:<br/>$$52.4 + \\text{increase} = 56.0$$"
+      "title": "Identify the target temperature",
+      "content": "The butterfly can fly only when its body temperature is at least $56.0^\\circ\\text{F}$. Its current body temperature is $52.4^\\circ\\text{F}$."
     },
     {
-      "title": "Solve for increase",
-      "content": "$$\\text{increase} = 56.0 - 52.4 = 3.6^\\circ\\text{F}$$<br/>That is answer choice B."
+      "title": "Subtract current temperature",
+      "content": "The minimum increase is the target temperature minus the current temperature: $$56.0-52.4=3.6$$ degrees Fahrenheit. The answer is <strong>B</strong>."
     }
   ]
 }

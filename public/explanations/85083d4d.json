@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question. The blank completes a &ldquo;Disproving the common misconception of Native art as ______&rdquo; framing, so the correct word must be the opposite of what the passage then describes: artists working in traditional tribal styles, European modernist traditions, abstract expressionism, and blended styles &mdash; a wide range of approaches."
+      "title": "Use the range of styles",
+      "content": "The sentence says the collection disproves a misconception because the artists use a range of styles: traditional, modernist, abstract expressionist, and blended. The blank should describe the mistaken idea that Native art is all the same."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; uncontroversial</strong>: Means not causing dispute; the passage never implies anyone considers Native art controversial or non-controversial &mdash; the misconception is about stylistic sameness, not controversy. &#10007;</li><li><strong>Choice B &mdash; individualistic</strong>: Means emphasizing personal uniqueness; a range of individual styles would actually support &ldquo;individualistic,&rdquo; so this word cannot be the misconception that the diversity disproves. &#10007;</li><li><strong>Choice C &mdash; theoretical</strong>: Means concerned with abstract ideas rather than practice; the text says nothing about people mistakenly viewing Native art as theoretical, and the listed artistic traditions are practical styles, not theoretical stances. &#10007;</li><li><strong>Choice D &mdash; homogeneous</strong>: Means uniform or all the same; this is exactly the misconception disproved by listing four distinct traditions, showing Native art is stylistically diverse, not uniform. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unrelated descriptions",
+      "content": "<ul><li><strong>Choice A</strong> means not disputed, which is unrelated to the range of styles.</li><li><strong>Choice B</strong> means focused on individuals, but the passage emphasizes stylistic variety.</li><li><strong>Choice C</strong> means abstract or conceptual, not uniform in style.</li></ul>The remaining choice means uniform or all alike. The answer is <strong>D</strong>."
     }
   ]
 }

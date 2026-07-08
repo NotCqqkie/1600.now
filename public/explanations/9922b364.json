@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what information the goal requires",
-      "content": "The student's goal is explicitly stated: identify the <strong>year</strong> that <em>The Canon of Medicine</em> was published. The notes directly provide this information: “It was published in the year 1025 CE.”"
+      "title": "Find the requested year",
+      "content": "The student's goal is to identify when <em>The Canon of Medicine</em> was published. The relevant note gives the year directly: 1025 CE."
     },
     {
-      "title": "Select the option that includes the publication date",
-      "content": "The correct answer directly presents the book and its publication year (1025 CE). Those choices, and D each reference information from the notes—the author's background, the book's historical use, and its content—but none state when it was published. That confirms <strong>A</strong> is correct."
+      "title": "Exclude other details",
+      "content": "B identifies the author, C describes the book's use, and D describes its contents, but none gives the publication year. The sentence that names 1025 CE fulfills the goal. The answer is <strong>A</strong>."
     }
   ]
 }

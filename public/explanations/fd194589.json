@@ -1,0 +1,15 @@
+{
+  "questionId": "fd194589",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "In the function $t(x)=-4x+72$, the coefficient of $x$ is $-4$. This coefficient is the rate of change."
+    },
+    {
+      "title": "Interpret the rate",
+      "content": "The input $x$ is hours after $6$ p.m., so a slope of $-4$ means the estimated temperature changes by $-4$ degrees Fahrenheit per hour. In context, it decreases $4$ degrees Fahrenheit each hour. The answer is <strong>A</strong>."
+    }
+  ]
+}

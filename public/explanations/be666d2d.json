@@ -1,0 +1,15 @@
+{
+  "questionId": "be666d2d",
+  "correctAnswer": "-6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute one expression",
+      "content": "Let $u=5-8x$. The equation becomes\n$$\n10-3u=4-4u\n$$"
+    },
+    {
+      "title": "Solve for the expression",
+      "content": "Add $4u$ to both sides, then subtract $10$:\n$$\n10+u=4\n$$\n$$\nu=-6\n$$\nThe answer is <strong>-6</strong>."
+    }
+  ]
+}

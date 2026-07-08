@@ -1,0 +1,15 @@
+{
+  "questionId": "058bf8ea",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the solved-after clue",
+      "content": "The conjecture was posed in 1970 and yielded to a proof only in 2018. That setup implies the conjecture resisted mathematicians' efforts for a long time, so the blank needs a word meaning baffled or defeated."
+    },
+    {
+      "title": "Reject illogical verbs",
+      "content": "A means satisfied or calmed, B means ignored, and D means taught beliefs by repetition. None describes an unsolved mathematical problem frustrating researchers. The word meaning baffled fits the context. The answer is <strong>C</strong>."
+    }
+  ]
+}

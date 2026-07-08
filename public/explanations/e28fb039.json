@@ -1,0 +1,15 @@
+{
+  "questionId": "e28fb039",
+  "correctAnswer": "600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the growth factor",
+      "content": "The function is<br/>$$f(t)=64{,}000(2)^{\\frac{t}{600}}$$<br/>The population doubles when the factor $2$ is applied once."
+    },
+    {
+      "title": "Set the exponent to one",
+      "content": "Set the exponent on $2$ equal to $1$.<br/>$$\\frac{t}{600}=1$$<br/>$$t=600$$<br/>The answer is <strong>600</strong>."
+    }
+  ]
+}

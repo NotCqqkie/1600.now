@@ -1,0 +1,15 @@
+{
+  "questionId": "dc6b9e17",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sampling problem",
+      "content": "The passage says the CCZ's biota is poorly sampled and the few samples cannot be presumed representative. Therefore, the number of other invertebrates in the area cannot currently be reliably calculated."
+    },
+    {
+      "title": "Choose the uncertainty word",
+      "content": "Choice A means extremely small, but the text does not say the number is small. Choice B means confirmable, which contradicts the poor sampling. Choice C means weak or shaky, which does not describe a number well. <em>Inestimable</em> means impossible to estimate. The answer is <strong>D</strong>."
+    }
+  ]
+}

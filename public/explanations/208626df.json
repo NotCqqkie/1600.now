@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the ordered pair notation",
-      "content": "The notation $(l,w) = (9,4)$ assigns the first coordinate to $l$ and the second to $w$. Therefore $l = 9$ (length) and $w = 4$ (width). This immediately eliminates choices A and C, which incorrectly state length = 4 and width = 9."
+      "title": "Interpret the ordered pair",
+      "content": "The notation $(l,w)=(9,4)$ assigns the first coordinate to $l$ and the second coordinate to $w$. Therefore, the rectangle has length $9$ and width $4$, not length $4$ and width $9$."
     },
     {
-      "title": "Verify the inequality constraint",
-      "content": "The inequality $2l + 2w \\le 31$ represents the perimeter condition.<br/><br/>Substituting $l = 9$ and $w = 4$:\n$$2(9) + 2(4) = 18 + 8 = 26$$\nSince $26 \\le 31$, the point $(9,4)$ satisfies the inequality, meaning the perimeter is less than or equal to 31 (not greater than or equal to).<br/><br/>This eliminates <strong>Choice D &mdash; If the rectangle has length $9$ and width $4$, its perimeter is greater than or equal to $31$.</strong>."
-    },
-    {
-      "title": "Confirm the correct interpretation",
-      "content": "<strong>Choice B &mdash; If the rectangle has length $9$ and width $4$, its perimeter is less than or equal to $31$.</strong> states: <em>If the rectangle has length 9 and width 4, its perimeter is less than or equal to 31.</em> This correctly matches both the ordered pair assignment $(l, w) = (9, 4)$ and the inequality direction ($\\le 31$). That matches <strong>Choice B &mdash; If the rectangle has length $9$ and width $4$, its perimeter is less than or equal to $31$.</strong>."
+      "title": "Check the perimeter",
+      "content": "Substitute $l=9$ and $w=4$ into the perimeter expression.<br/>$$2(9)+2(4)=18+8=26$$<br/>Since $26\\le31$, the point satisfies the inequality. This means the perimeter is less than or equal to $31$. The answer is <strong>B</strong>."
     }
   ]
 }

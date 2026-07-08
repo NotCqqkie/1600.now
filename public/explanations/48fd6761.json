@@ -1,0 +1,15 @@
+{
+  "questionId": "48fd6761",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the Kleenex comparison",
+      "content": "The text says Kleenex could become generic, as cellophane was. That comparison implies cellophane used to identify a particular company's product but later became a general term that other companies could use."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "<ul><li>Choice A adds a legal debate over cellophane that the passage does not mention.</li><li>Choice C introduces recent popularity, which is not discussed.</li><li>Choice D conflicts with the comparison because becoming generic implies the term had trademark status before.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

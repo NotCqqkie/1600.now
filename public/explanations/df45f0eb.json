@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the contrast structure",
-      "content": "The sentence pairs two directly opposing observations linked by <strong>yet</strong>: studies show austerity has negligible electoral consequences, but recent European governments suffered electorally due to austerity.<br/><br/>This structure—presenting a collision between research findings and real-world events—is the underlined sentence's core function."
+      "title": "Identify the conflict",
+      "content": "The underlined sentence contrasts two things: studies have found negligible electoral effects from austerity, yet some recent European governments suffered electorally because of austerity programs."
     },
     {
-      "title": "Match the structure to the answer choices",
-      "content": "<strong>It identifies a conflict between research findings and recent events that the text goes on to suggest is a consequence of a complicating factor in the data used to generate those findings.</strong> describes the sentence as identifying “a conflict between research findings and recent events,” which is exactly its structure.<br/><br/>The text then attributes this conflict to a complicating factor: governments' strategic timing of austerity measures obscured the true electoral risks in the historical data.<br/><br/>The other three choices either trace the conflict to insufficient real-world data in the studies, imagine research disagreement, or fault researchers' analysis.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Connect to the explanation",
+      "content": "The rest of the text explains the conflict through a complicating factor in the data: governments often time austerity measures to avoid electoral costs, obscuring the risks. A, C, and D misstate the source of the explanation. The answer is <strong>B</strong>."
     }
   ]
 }

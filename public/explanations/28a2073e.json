@@ -1,0 +1,15 @@
+{
+  "questionId": "28a2073e",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Remove the known part",
+      "content": "The two equal parts share the remaining length: $$126-54=72$$"
+    },
+    {
+      "title": "Divide the remaining length",
+      "content": "Each equal part is half of $72$: $$72\\div2=36$$ The answer is <strong>36</strong>."
+    }
+  ]
+}

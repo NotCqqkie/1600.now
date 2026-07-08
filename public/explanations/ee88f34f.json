@@ -1,0 +1,15 @@
+{
+  "questionId": "ee88f34f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is the researchers. The phrase finding that administrative unit GK13 had a 0.62 ratio interrupts the main clause. After that interruption, the sentence still needs a finite verb to say what the researchers did."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "Choice B is a participle, Choice C is an infinitive, and Choice D is a perfect participle. None can serve as the main verb of the independent clause. The past-tense finite verb completes the sentence: the researchers recommended efforts to improve biodiversity. The answer is <strong>A</strong>."
+    }
+  ]
+}

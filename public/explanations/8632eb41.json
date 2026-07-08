@@ -1,0 +1,15 @@
+{
+  "questionId": "8632eb41",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the margin of error",
+      "content": "The estimate is $8.4$, and the margin of error is $1.3$. Subtract and add the margin:<br/><br/>$$8.4-1.3=7.1$$<br/>$$8.4+1.3=9.7$$"
+    },
+    {
+      "title": "Interpret the interval",
+      "content": "The plausible interval for the actual mean is<br/><br/>$$7.1\\leq \\text{mean}\\leq 9.7$$<br/><br/>This describes the company mean, not every individual employee. The answer is <strong>B</strong>."
+    }
+  ]
+}

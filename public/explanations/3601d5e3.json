@@ -1,0 +1,15 @@
+{
+  "questionId": "3601d5e3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the Round Table gap",
+      "content": "<em>History</em> and earlier works do not mention the Round Table, but <em>Le Morte d'Arthur</em> does. The blank must explain how Langley could include a detail absent from Richard of Winchelsea's work. If Richard and earlier sources lacked the detail, Langley likely got it outside that source chain later."
+    },
+    {
+      "title": "Reject unsupported source claims",
+      "content": "Choice A makes an unsupported claim about historical accuracy, Choice B cannot explain a detail missing from <em>History</em>, and Choice D only compares overall similarity. The remaining choice explains that Langley had another source. The answer is <strong>C</strong>."
+    }
+  ]
+}

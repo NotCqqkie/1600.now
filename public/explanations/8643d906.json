@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the equation components",
-      "content": "Since $t$ represents years after 1990, the input $t = 25$ corresponds to the year $1990 + 25 = 2015$. The output $P(25) = 560$ indicates the population value is 560."
+      "title": "Interpret the input",
+      "content": "The function input $t$ represents years after $1990$. For $P(25)$, the year is:\n$$1990+25=2015$$"
     },
     {
-      "title": "Match to the correct interpretation",
-      "content": "The equation $P(25) = 560$ predicts that the snow leopard population is 560 in the year 2015. That confirms <strong>C</strong> is correct."
+      "title": "Interpret the output",
+      "content": "The value $P(25)=560$ means the predicted population is $560$ when $t=25$, which is the year $2015$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "100c1522",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set y equal to zero",
+      "content": "The $x$-intercept is where the graph crosses the $x$-axis. At that point, the $y$-value is $0$, so set $g(x)=0$."
+    },
+    {
+      "title": "Solve for the intercept",
+      "content": "Because $g(x)=x-18$, solve\n$$\nx-18=0\n$$\nAdd $18$ to both sides:\n$$\nx=18\n$$",
+      "desmosExpressions": [
+        "y = x - 18",
+        "(18, 0)"
+      ]
+    },
+    {
+      "title": "Give the x-coordinate",
+      "content": "The answer is <strong>18</strong>."
+    }
+  ]
+}

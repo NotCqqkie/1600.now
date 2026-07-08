@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: track what changes",
-      "content": "When the same amount is added to every value, the mean and median move by that amount. The range and standard deviation stay the same because the spacing between values does not change."
+      "title": "Apply the constant shift",
+      "content": "Data set B is made by adding $56$ to every value in data set A. Adding the same number to every value shifts the whole data set without changing the spacing between values."
     },
     {
-      "title": "Use the constant-shift rule",
-      "content": "Data set B is created by adding $56$ to every value in data set A. Adding a constant shifts the whole dot plot right but does not stretch it out."
+      "title": "Compare the medians",
+      "content": "The median of data set A is the $8$th value because there are $15$ values. Adding $56$ to every value also adds $56$ to the median, so the median of data set B is greater."
     },
     {
-      "title": "Compare medians",
-      "content": "Data set A has $15$ values, so its median is the $8$th value. The dot plot shows that value is $23$. After adding $56$ to every value, the median of B is $23+56=79$, which is greater than the median of A."
-    },
-    {
-      "title": "Compare ranges",
-      "content": "The minimum and maximum of data set A are $22$ and $26$, so its range is $26-22=4$. In data set B, those become $78$ and $82$, so the range is $82-78=4$. The range stays equal."
+      "title": "Compare the ranges",
+      "content": "The range is maximum minus minimum. After adding $56$ to both the maximum and the minimum, the difference stays the same.\n$$\n(\\text{max}+56)-(\\text{min}+56)=\\text{max}-\\text{min}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

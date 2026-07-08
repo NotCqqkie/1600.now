@@ -1,0 +1,15 @@
+{
+  "questionId": "bd9c4f94",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope intercept form",
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ can be written as<br/>$$f(x)=mx+b$$"
+    },
+    {
+      "title": "Substitute the slope and intercept",
+      "content": "The slope is $\\frac{1}{4}$, and the point $(0,3)$ gives a $y$-intercept of $3$.<br/>$$f(x)=\\frac{1}{4}x+3$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

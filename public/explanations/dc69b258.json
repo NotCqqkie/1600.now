@@ -1,0 +1,15 @@
+{
+  "questionId": "dc69b258",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the setting clue",
+      "content": "The passage says kestrels' surroundings can significantly affect hormone levels. Therefore, a result comparing captive and wild kestrels should reasonably show a hormone difference between those settings."
+    },
+    {
+      "title": "Select the setting difference",
+      "content": "A says captive and wild kestrels are similar, which conflicts with the clue. B discusses individual differences, not study setting. C is about chickadees, not kestrels. A captive-versus-wild hormone difference in kestrels fits the passage's logic. The answer is <strong>D</strong>."
+    }
+  ]
+}

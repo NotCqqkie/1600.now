@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 20% as a fraction",
-      "content": "We're told 20% of the beads are blue. Since 20% equals $\\frac{1}{5}$, finding 20% of 450 is the same as dividing 450 by 5."
+      "title": "Convert the percent",
+      "content": "$20\\%$ is the same as $\\frac{1}{5}$. So finding $20\\%$ of the beads means finding one fifth of $450$."
     },
     {
-      "title": "Calculate the number of blue beads",
-      "content": "$$\\frac{450}{5} = 90$$<br/>This represents the blue-bead group only; the remaining beads are other colors and are not part of the requested count. That confirms <strong>A</strong> is correct."
+      "title": "Find one fifth",
+      "content": "Divide the total number of beads by $5$.<br/>$$\\frac{450}{5}=90$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

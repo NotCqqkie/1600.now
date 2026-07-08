@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal: provide an overview",
-      "content": "The student wants to “provide an overview of the Haber-Bosch process.” For an industrial process, an effective overview must explain what the process is, what inputs it uses, and how it works — the essential mechanism and conditions.<br/><br/>History and applications are peripheral to understanding the core process itself."
+      "title": "Use the overview goal",
+      "content": "The student wants an overview of the Haber-Bosch process. A good overview should state the process's product, inputs, and required conditions rather than only its history or use."
     },
     {
-      "title": "Select the choice that covers the essential mechanism",
-      "content": "<strong>Choice B &mdash; The Haber-Bosch process uses an iron catalyst along with high temperatures and pressures to manufacture ammonia from nitrogen and hydrogen.</strong> describes what the process produces (ammonia), what it combines (nitrogen and hydrogen), and the essential conditions (iron catalyst, high temperatures and pressures).<br/><br/>The other choices skip critical details: A doesn't state the output, C prioritizes history and application over the mechanism itself, and D lists only one condition while omitting inputs and what's produced.<br/><br/>That matches <strong>Choice B &mdash; The Haber-Bosch process uses an iron catalyst along with high temperatures and pressures to manufacture ammonia from nitrogen and hydrogen.</strong>."
+      "title": "Reject partial summaries",
+      "content": "A names some requirements but omits the product. C focuses on the inventors and fertilizer use, not how the process works. D gives the year and some conditions but leaves out the inputs and output. The answer is <strong>B</strong>."
     }
   ]
 }

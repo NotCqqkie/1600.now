@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite in slope-intercept form",
-      "content": "The answer choices are graphs, so rewrite the equation in slope-intercept form to see the line's intercept and direction. Start with $ax+by=b$ and solve for $y$:<br/>$$by=-ax+b$$<br/>$$y=-\\frac{a}{b}x+1$$"
+      "title": "Rewrite the line",
+      "content": "Solve for $y$ to identify the slope and intercept.<br/>$$ax+by=b$$<br/>$$by=-ax+b$$<br/>$$y=-\\frac{a}{b}x+1$$"
     },
     {
-      "title": "Interpret the slope and intercept",
-      "content": "Since $0\\lt a\\lt b$, the ratio $\\frac{a}{b}$ is between $0$ and $1$. So the slope $-\\frac{a}{b}$ is negative but greater than $-1$, and the $y$-intercept is $1$."
+      "title": "Interpret the constants",
+      "content": "Since $0<a<b$, the ratio $\\frac{a}{b}$ is between $0$ and $1$. Therefore, the slope $-\\frac{a}{b}$ is negative but has absolute value less than $1$, and the $y$-intercept is $1$."
     },
     {
       "title": "Match the graph",
-      "content": "Look for the line that crosses the $y$-axis at $1$ and slopes gently downward from left to right. That is choice C, so <strong>C</strong> is correct."
+      "content": "Choose the graph that crosses the $y$-axis at $1$ and slopes gently downward from left to right. The answer is <strong>C</strong>."
     }
   ]
 }

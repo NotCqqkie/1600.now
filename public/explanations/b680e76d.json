@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the total to find the missing cell",
-      "content": "From the table: males who play = 312, females who play = 220, females who don't play = 216. Since all 1,000 students must be accounted for, males who don't play equals the total minus the three known cell values:<br/>$$1,000 - (312 + 220 + 216) = 1,000 - 748 = 252$$<br/>That is the correct answer."
+      "title": "Add the known cells",
+      "content": "The table accounts for males who play, females who play, and females who do not play:\n$$\n312+220+216=748\n$$"
+    },
+    {
+      "title": "Subtract from the total",
+      "content": "There were $1{,}000$ total students, so the missing number of males who do not play a school sport is\n$$\n1{,}000-748=252\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

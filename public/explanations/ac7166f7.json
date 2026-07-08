@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the claim requires",
-      "content": "The underlined claim has three parts: the rider must be (1) experienced, (2) mainly biking to work, and (3) preferring routes that reduce travel time. A supporting response must satisfy all three parts simultaneously."
+      "title": "Break down the claim",
+      "content": "The claim has three parts: the rider is experienced, mainly bikes to work, and prefers routes that reduce travel time. The supporting response must show all three together."
     },
     {
-      "title": "Evaluate each choice against the claim",
-      "content": "<ul><li><strong>Choice A &mdash; \"I have a bike, but I don't ride it very often. When the weather is nice, I sometimes use my bike to go into town to do some shopping.\"</strong>: The rider is infrequent and bikes for errands, not work &mdash; fails parts 1 and 2. &#10007;</li><li><strong>Choice B &mdash; \"I just got a new bike, and I'm looking forward to going on rides with my friends soon.\"</strong>: Doesn&rsquo;t establish experience, doesn&rsquo;t mention commuting to work, and states no route preference. &#10007;</li><li><strong>Choice C &mdash; \"I bike to my job every day. There's a nice bike path that goes through a park, but I use the bike lane on the main road because it's faster.\"</strong>: Daily commuting implies experience (part 1), bikes to work (part 2), and explicitly chooses the faster route over the scenic one (part 3). &#10003;</li><li><strong>Choice D &mdash; \"I usually bike to work, but I'm taking the bus now because my bike has a broken part that needs to be fixed.\"</strong>: The rider is an experienced work commuter but gives no route preference &mdash; fails part 3. &#10007;</li></ul>That is the correct answer."
+      "title": "Check each response",
+      "content": "Choice A is infrequent shopping by bike, not experienced commuting. Choice B mentions a new bike and future rides with friends, with no work route. Choice D mentions biking to work but gives no route preference. The response about biking to work daily and choosing the faster route fits all parts. The answer is <strong>C</strong>."
     }
   ]
 }

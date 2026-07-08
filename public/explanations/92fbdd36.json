@@ -1,0 +1,15 @@
+{
+  "questionId": "92fbdd36",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the repeated expression",
+      "content": "The target expression is just $10$ times the expression given in the equation:<br/>$$80x+60=10(8x+6)$$"
+    },
+    {
+      "title": "Multiply the given value",
+      "content": "Since $8x+6=46$, substitute that value into the target expression:<br/>$$10(8x+6)=10(46)=460$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat a over b as one quantity",
-      "content": "The first equation gives $\\frac{5a}{b}=8.25$, so divide by $5$: $$\\frac{a}{b}=\\frac{8.25}{5}=1.65$$"
+      "title": "Find the shared ratio",
+      "content": "Use the first equation to isolate the repeated ratio: $\\frac{a}{b}=\\frac{8.25}{5}=1.65$."
     },
     {
       "title": "Substitute into the second equation",
-      "content": "Rewrite the second equation as $$\\frac{a}{bn}=\\frac{a}{b}\\cdot\\frac{1}{n}=33$$ Substitute $\\frac{a}{b}=1.65$: $$\\frac{1.65}{n}=33$$"
+      "content": "Substitute that value into the second equation: $\\frac{1.65}{n}=33$."
     },
     {
-      "title": "Solve for n",
-      "content": "$$1.65=33n$$ $$n=\\frac{1.65}{33}=0.05$$ This also means $\\frac{1}{n}=20$, which makes $1.65\\cdot 20=33$. The grid-in answer can be <strong>.05</strong>, <strong>0.05</strong>, or <strong>1/20</strong>."
+      "title": "Solve for the variable",
+      "content": "Multiply by $n$, then divide by $33$: $1.65=33n$, so $n=\\frac{1.65}{33}=0.05$. The answer is <strong>.05</strong>."
     }
   ]
 }

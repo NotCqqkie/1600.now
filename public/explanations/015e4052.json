@@ -1,0 +1,15 @@
+{
+  "questionId": "015e4052",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find an increase in ice days",
+      "content": "The researcher needs an example that goes against the general decline in surface-ice duration. The correct data point must show more ice days in winter 2005-06 than in winter 1980-81."
+    },
+    {
+      "title": "Reject non-increase evidence",
+      "content": "Choice A includes lakes that do not both show the needed increase. Choice C states a starting value rather than an increase over time. Choice D gives a 2005-06 threshold but does not compare it with 1980-81. The answer is <strong>B</strong>."
+    }
+  ]
+}

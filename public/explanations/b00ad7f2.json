@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Put both equations in graphable form",
-      "content": "Rewrite the system as $$y=9x+13$$ and $$y=\\frac{5}{2}x.$$ This makes it easy to graph or substitute."
+      "title": "Rewrite one equation",
+      "content": "From $5x=2y$, solve for $y$ so it can be substituted into the other equation:<br/>$$y=\\frac{5}{2}x$$"
     },
     {
-      "title": "Solve the intersection",
-      "content": "Set the right sides equal: $$9x+13=\\frac{5}{2}x.$$ Multiply by $2$: $18x+26=5x$, so $-13x=26$ and $x=-2$. Then $y=\\frac{5}{2}(-2)=-5$."
+      "title": "Substitute into the other equation",
+      "content": "Use $y-9x=13$ and replace $y$ with $\\frac{5}{2}x$:<br/>$$\\frac{5}{2}x-9x=13$$<br/>$$\\frac{5}{2}x-\\frac{18}{2}x=13$$<br/>$$-\\frac{13}{2}x=13$$<br/>$$x=-2$$"
     },
     {
-      "title": "Check the choices",
-      "content": "The solution is $(-2,-5)$. Reversing the ordered pair or using other coordinates does not satisfy both equations, so <strong>C</strong> is correct.",
+      "title": "Find the ordered pair",
+      "content": "Substitute $x=-2$ into $y=\\frac{5}{2}x$:<br/>$$y=\\frac{5}{2}(-2)=-5$$<br/>So the solution is $(-2,-5)$, with the $x$-value first and the $y$-value second. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y=9x+13",
         "y=5x/2"

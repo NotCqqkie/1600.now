@@ -1,0 +1,15 @@
+{
+  "questionId": "183ca626",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use cause and effect",
+      "content": "The tower's concerning rotation caused city officials to close the surrounding area. The transition must show that the closure follows from the 2023 measurements."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals comparison, but no second comparable situation follows. Choice C signals an example, but the closure is not an example of a broader claim. Choice D signals similarity, not consequence. The needed transition marks a result. The answer is <strong>B</strong>."
+    }
+  ]
+}

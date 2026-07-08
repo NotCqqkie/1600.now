@@ -1,0 +1,15 @@
+{
+  "questionId": "5a5ce648",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate independent clauses",
+      "content": "The clause before the blank is complete: the geographic center's location was conceded by all involved. The clause after the blank is also complete: establishing the precise coordinates proved more divisive."
+    },
+    {
+      "title": "Avoid weak boundaries",
+      "content": "Choice A creates a run-on sentence, and Choice D creates a comma splice. Choice B uses a colon even though the second clause is a contrast, not an explanation of the first. The answer is <strong>C</strong>."
+    }
+  ]
+}

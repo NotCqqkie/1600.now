@@ -1,0 +1,19 @@
+{
+  "questionId": "77a93356",
+  "correctAnswer": "-39",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Multiply each term by $156cx$ to get a quadratic equation.<br/>$$156=cx^2+156x$$<br/>$$cx^2+156x-156=0$$"
+    },
+    {
+      "title": "Set the discriminant to zero",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$.<br/>$$156^2-4(c)(-156)=0$$<br/>$$24{,}336+624c=0$$"
+    },
+    {
+      "title": "Find the constant",
+      "content": "Solve for $c$.<br/>$$624c=-24{,}336$$<br/>$$c=-39$$The answer is <strong>-39</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sequence type",
-      "content": "This is a geometric sequence: it starts at 7, and each term is 3 times the previous one. The first term is $a = 7$ and the common ratio is $r = 3$."
+      "title": "Identify the sequence pattern",
+      "content": "The sequence starts with $7$ and each term after the first is $3$ times the preceding term. This is a geometric sequence with first term $7$ and common ratio $3$."
     },
     {
-      "title": "Apply the geometric sequence formula",
-      "content": "For any geometric sequence, the $n$-th term is given by $a \\cdot r^{n-1}$. Substituting $a = 7$ and $r = 3$:<br/>$$w = 7 \\cdot 3^{n-1}$$<br/>Verify: $n = 1$ gives $w = 7(3^0) = 7$; $n = 2$ gives $w = 7(3^1) = 21$<br/><br/><strong>D</strong> is correct."
+      "title": "Write the nth term",
+      "content": "For a geometric sequence, the $n$th term is\n$$w=a r^{n-1}$$\nSubstitute $a=7$ and $r=3$:\n$$w=7(3)^{n-1}$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

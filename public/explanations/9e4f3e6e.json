@@ -1,0 +1,15 @@
+{
+  "questionId": "9e4f3e6e",
+  "correctAnswer": "19",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(169)$, replace the input variable $x$ with $169$ in the definition of the function:<br/>$$f(169)=6+\\sqrt{169}$$"
+    },
+    {
+      "title": "Evaluate the radical",
+      "content": "The square root is $13$ because $13^2=169$. Substitute that value and finish the arithmetic:<br/>$$f(169)=6+13=19$$<br/>This value is the output of the function at the requested input. The answer is <strong>19</strong>."
+    }
+  ]
+}

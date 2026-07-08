@@ -1,0 +1,15 @@
+{
+  "questionId": "48533cb8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test antenna necessity",
+      "content": "The researchers concluded that thermal receptors in the antennae detect light. The strongest support would show that interfering with the antennae delays or prevents the normal escape response."
+    },
+    {
+      "title": "Reject weaker evidence",
+      "content": "Choice A shows other body parts warming but does not isolate antennae as the detection mechanism. Choice B weakens the thermal explanation by preserving the response at reduced temperatures. Choice C compares species without testing the mechanism. The answer is <strong>D</strong>."
+    }
+  ]
+}

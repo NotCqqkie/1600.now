@@ -1,0 +1,15 @@
+{
+  "questionId": "54351c4b",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zeros as factors",
+      "content": "The graph contains $(-5,0)$, $(8,0)$, $(0,0)$, and $(3,0)$, so the zeros include $-5$, $8$, $0$, and $3$. That means $x+5$, $x-8$, $x$, and $x-3$ must be factors of the polynomial."
+    },
+    {
+      "title": "Compare the choices",
+      "content": "A required factor must use zeros from the given list. Choice A would have zeros $5$ and $-3$, which are not given. Choice B has no matching pair of real zeros from the list. Choice C would need roots that do not match the given zeros. The expression $x^2-8x$ factors as $x(x-8)$, using the confirmed zeros $0$ and $8$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "6725ea2a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the finite verb",
+      "content": "The relative clause begins with the subject 'whose work' and later contains the finite verb 'encourages': 'whose work ______ the richness of Betham's poems and the poet's historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.' Because 'encourages' already serves as the main verb of that clause, the blank cannot add another finite verb for the same subject."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "<ul><li><strong>Choice A - 'has highlighted'</strong>: This is a finite present-perfect verb. Pairing it with 'encourages' would create two finite verbs for 'whose work' without a coordinating conjunction.</li><li><strong>Choice B - 'is highlighting'</strong>: This is also finite. It would compete with 'encourages' for the role of main verb in the same relative clause.</li><li><strong>Choice D - 'highlights'</strong>: This finite verb agrees with 'work,' but it still creates the same uncoordinated two-verb structure: 'whose work highlights the richness and importance encourages a broader rethinking.'</li></ul>"
+    },
+    {
+      "title": "Use the participial modifier",
+      "content": "<ul><li><strong>Choice C - 'highlighting'</strong>: This is a non-finite present participle, so it can modify 'work' without replacing or duplicating the main verb. The sentence then reads as a grammatical clause in which Bailey's work, highlighting Betham's richness and importance, encourages a broader rethinking. The answer is <strong>C</strong>.</li></ul>"
+    }
+  ]
+}

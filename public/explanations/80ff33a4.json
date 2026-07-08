@@ -1,0 +1,15 @@
+{
+  "questionId": "80ff33a4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the given angles",
+      "content": "Triangle $ABC$ has angles $46^\\circ$ and $109^\\circ$. Triangle $JKL$ has corresponding angles $46^\\circ$ and $109^\\circ$."
+    },
+    {
+      "title": "Apply angle angle similarity",
+      "content": "Two pairs of corresponding angles are already equal, so the triangles are similar by angle-angle similarity. No side length or third angle is needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

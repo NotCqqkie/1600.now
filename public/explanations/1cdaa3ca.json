@@ -1,0 +1,15 @@
+{
+  "questionId": "1cdaa3ca",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep consist as the verb",
+      "content": "The subject is “Disyllabic words,” and the main verb later in the sentence is “consist.” The blank sits between them, so it must modify the subject rather than introduce another finite verb."
+    },
+    {
+      "title": "Reject extra finite verbs",
+      "content": "A, C, and D each create a finite verb phrase before “consist,” leaving two unjoined predicates. The past participle “classified” forms a reduced modifier: words classified as trochees consist of one stressed syllable followed by one unstressed syllable. The answer is <strong>B</strong>."
+    }
+  ]
+}

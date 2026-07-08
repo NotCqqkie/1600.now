@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use circle standard form",
+      "content": "For a circle, the number on the right side of standard form is $r^2$, where $r$ is the radius.<br/>$$(x-h)^2+(y-k)^2=r^2$$"
     },
     {
-      "title": "Identify the standard circle equation form",
-      "content": "The equation $(x + 4)^2 + (y + 7)^2 = 144$ is in the standard form of a circle equation: $$(x - h)^2 + (y - k)^2 = r^2$$ where $(h, k)$ is the center and $r$ is the radius. The constant on the right side equals $r^2$."
-    },
-    {
-      "title": "Solve for the radius",
-      "content": "From our equation, $r^2 = 144$. Taking the square root of both sides: $$r = \\sqrt{144} = 12$$"
+      "title": "Find the radius",
+      "content": "The given equation has $144$ on the right side, so $r^2=144$. Take the positive square root because a radius is a distance.<br/>$$r=\\sqrt{144}=12$$<br/>The answer is <strong>12</strong>."
     }
   ]
 }

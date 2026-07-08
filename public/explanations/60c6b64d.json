@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage’s conclusion is that <strong>carbon dioxide does not serve as an additional cue</strong> for midges.<br/><br/>The decisive clue is the <em>comparison between the two traps</em>: if CO₂ has no added value, the trap with calls alone should perform <strong>as well as or better than</strong> the combined trap."
+      "title": "Test the added cue claim",
+      "content": "Ortega and Shah concluded that carbon dioxide does not serve as an additional cue. The supporting finding should show that adding carbon dioxide to frog calls did not improve the trap's ability to attract midges."
     },
     {
-      "title": "Match the meaning",
-      "content": "Choice C (&lsquo;More midges were found in the trap that only played calls than in the trap that played calls and released carbon dioxide.&rsquo;) shows that <strong>the calls-only trap attracted more midges</strong> than the combined one, which <em>directly supports</em> the conclusion that CO₂ adds no benefit.<br/><br/>The other three either show CO₂ helping midges (A, B, and D), contradicting the conclusion.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject carbon dioxide support",
+      "content": "Choice A says most midges were in the carbon dioxide trap. Choice B links trap entries to periods of carbon dioxide release. Choice D says higher carbon dioxide attracted more midges. All three make carbon dioxide look useful."
+    },
+    {
+      "title": "Support calls alone",
+      "content": "If the calls-only trap attracted more midges than the calls-plus-carbon-dioxide trap, then carbon dioxide did not add a locating cue. The answer is <strong>C</strong>."
     }
   ]
 }

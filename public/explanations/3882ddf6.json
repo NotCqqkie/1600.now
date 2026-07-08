@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the evidence and the logical gap",
-      "content": "The passage establishes two data points: rocks from 4.02 bya resemble <em>plume-setting</em> rocks; rocks from 3.75 bya and 3.6 bya resemble <em>subduction-setting</em> rocks. The conclusion must follow strictly from this: subduction-like processes were already occurring by 3.75 bya (the earliest subduction-resembling sample), but not necessarily before 4.02 bya (which still showed plume characteristics)."
+      "title": "Use the earliest matching rocks",
+      "content": "The 4.02 bya Acasta rocks resemble modern plume-setting rocks, while the 3.75 bya and 3.6 bya rocks resemble modern subduction-setting rocks. The earliest evidence of subduction-like composition is therefore at about 3.75 bya."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — subduction-like processes began occurring in some locations no later than 3.75 bya.</strong>: Matches the evidence exactly &mdash; 3.75 bya is the earliest date of subduction-type rocks, so subduction must have started by then. &#10003;</li><li><strong>Choice B — subduction replaced mantle plume formation as the most common geological process by about 4.02 bya.</strong>: Contradicts the data: 4.02 bya rocks still resemble plume-setting rocks, so subduction had not yet taken over by that date. &#10007;</li><li><strong>Choice C — the majority of the rocks in the Acasta Gneiss Complex formed through subduction.</strong>: The passage never counts what proportion of rocks formed through subduction; this is an unsupported overreach. &#10007;</li><li><strong>Choice D — the rocks in the Acasta Gneiss Complex are of a more recent origin than scientists previously thought.</strong>: The passage says nothing about revising the age of these rocks; this claim has no basis in the text. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Avoid unsupported extensions",
+      "content": "B overgeneralizes and conflicts with the 4.02 bya plume evidence, C invents a majority claim, and D invents a revision to the rocks' ages. The supported conclusion is limited to subduction-like processes beginning no later than 3.75 bya. The answer is <strong>A</strong>."
     }
   ]
 }

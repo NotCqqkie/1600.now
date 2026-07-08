@@ -1,0 +1,15 @@
+{
+  "questionId": "385481ba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed verb",
+      "content": "The subject is the International Criminal Police Organization, or Interpol, a singular organization. The blank must provide the sentence's main verb before the object, offices in more than 200 cities."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "A is an infinitive, C is a present participle, and D is a perfect participle. None can serve as the main verb by itself. The singular present-tense verb supplies a complete predicate that agrees with Interpol. The answer is <strong>B</strong>."
+    }
+  ]
+}

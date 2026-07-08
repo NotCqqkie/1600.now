@@ -1,0 +1,15 @@
+{
+  "questionId": "514a3c11",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the student's claim",
+      "content": "The second student claims congestion affected smaller areas and also worsened in a very large city. To support that claim, the data must show traffic delay increasing over time in each of the three urban areas shown."
+    },
+    {
+      "title": "Avoid single-point data",
+      "content": "Choice B gives only one low data point, Choice C compares two areas without showing worsening over time, and Choice D gives one New York City value from 1992. The supporting data must show greater delay in 2000 than in 1990 for all three areas. The answer is <strong>A</strong>."
+    }
+  ]
+}

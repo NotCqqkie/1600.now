@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the first radical using the power rule",
-      "content": "Apply the property $\\sqrt[n]{a^m} = a^{m/n}$ to separate and simplify $\\sqrt[5]{4^5 x^{40}}$.<br/>$$\\sqrt[5]{4^5 x^{40}} = \\sqrt[5]{4^5} \\cdot \\sqrt[5]{x^{40}} = 4^{5/5} \\cdot x^{40/5} = 4 \\cdot x^8 = 4x^8$$"
+      "title": "Simplify the radicals",
+      "content": "Since $x>1$, use fractional exponents directly:\n$$\n\\sqrt[5]{4^5x^{40}}=4x^8\n$$\nand\n$$\n\\sqrt[8]{3^8x}=3x^{1/8}\n$$"
     },
     {
-      "title": "Simplify the second radical",
-      "content": "Apply the same property to $\\sqrt[8]{3^8 x}$.<br/>$$\\sqrt[8]{3^8 x} = \\sqrt[8]{3^8} \\cdot \\sqrt[8]{x} = 3^{8/8} \\cdot x^{1/8} = 3 \\cdot x^{1/8} = 3x^{1/8}$$"
+      "title": "Combine constants and powers",
+      "content": "Substitute the simplified radicals into the expression:\n$$\n5(4x^8)(3x^{1/8})=60x^{8+1/8}=60x^{65/8}\n$$\nSo $a=60$ and $b=\\frac{65}{8}$."
     },
     {
-      "title": "Multiply all terms and combine like terms",
-      "content": "Substitute the simplified radicals back into the original expression:<br/>$$5 \\cdot (4x^8) \\cdot (3x^{1/8}) = 5 \\cdot 4 \\cdot 3 \\cdot x^8 \\cdot x^{1/8}$$<br/>Combine constants: $5 \\cdot 4 \\cdot 3 = 60$<br/>Combine powers of $x$ using $x^m \\cdot x^n = x^{m+n}$: $x^8 \\cdot x^{1/8} = x^{8+1/8}$<br/><br/>Convert to a common denominator: $8 = \\frac{64}{8}$, so $8 + \\frac{1}{8} = \\frac{64}{8} + \\frac{1}{8} = \\frac{65}{8}$<br/>$$\\text{Result} = 60x^{65/8}$$"
-    },
-    {
-      "title": "Identify a and b, then find their sum",
-      "content": "Comparing $60x^{65/8}$ to the form $ax^b$:<ul><li>$a = 60$</li><li>$b = \\frac{65}{8}$</li></ul>Therefore:<br/>$$a + b = 60 + \\frac{65}{8} = \\frac{480}{8} + \\frac{65}{8} = \\frac{545}{8}$$"
+      "title": "Add the constants",
+      "content": "Find $a+b$:\n$$\n60+\\frac{65}{8}=\\frac{480}{8}+\\frac{65}{8}=\\frac{545}{8}\n$$\nThe answer is <strong>545/8</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c17d2ac5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the access contrast",
+      "content": "The sentence says the mission data were mostly inaccessible until a recent transfer project changed that. The blank needs the opposite of inaccessible: something usable or obtainable."
+    },
+    {
+      "title": "Reject unrelated results",
+      "content": "Choice A would mean difficult, not newly usable. Choice B means typical of a group. Choice D means able to be predicted. The transfer project made the data accessible for Ellis's research. The answer is <strong>C</strong>."
+    }
+  ]
+}

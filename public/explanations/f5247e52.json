@@ -9,7 +9,7 @@
     },
     {
       "title": "Determine the number of solutions",
-      "content": "Since $b \\gt  0$ and $d \\gt  0$, the right side $\\frac{b + 2d}{b}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k \\gt  0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches the correct answer - <strong>C</strong> is correct."
+      "content": "Since $b \\gt  0$ and $d \\gt  0$, the right side $\\frac{b + 2d}{b}$ is a positive number.<br/><br/>An equation of the form $x^2 = k$ where $k \\gt  0$ has exactly two distinct real solutions: the positive and negative square roots.<br/><br/>Therefore, the graphs intersect at exactly two points. This matches the correct answer."
     }
   ]
 }

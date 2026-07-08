@@ -1,0 +1,19 @@
+{
+  "questionId": "bc1e6867",
+  "correctAnswer": "216",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use two table points, $(-8,48)$ and $(8,-96)$, to find $r$:\n$$r=\\frac{-96-48}{8-(-8)}=\\frac{-144}{16}=-9$$"
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Substitute $(-8,48)$ into $f(x)=-9x+s$:\n$$48=-9(-8)+s$$\n$$48=72+s$$\n$$s=-24$$"
+    },
+    {
+      "title": "Multiply the constants",
+      "content": "Now multiply $r$ and $s$:\n$$rs=(-9)(-24)=216$$\nThe answer is <strong>216</strong>."
+    }
+  ]
+}

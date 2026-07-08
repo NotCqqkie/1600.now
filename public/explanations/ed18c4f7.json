@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 'twice the number of notebooks that Maya has'",
-      "content": "Maya has <em>n</em> notebooks. The phrase <em>twice the number</em> means multiply by 2. So twice the number of notebooks that Maya has is:<br/>$$2n$$"
+      "title": "Translate twice Maya's amount",
+      "content": "Maya has $n$ notebooks, so twice Maya's number of notebooks is\n$$\n2n\n$$"
     },
     {
-      "title": "Add '4 more' and identify the answer",
-      "content": "Leon has <em>4 more than</em> that amount. The phrase <em>4 more than</em> means add 4:<br/>$$2n + 4$$<br/>That matches the correct answer &mdash; <strong>D</strong> is correct."
+      "title": "Add four more",
+      "content": "Leon has $4$ more than twice Maya's amount, so his number of notebooks is\n$$\n2n+4\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

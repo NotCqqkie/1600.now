@@ -1,0 +1,15 @@
+{
+  "questionId": "eaceb621",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move the variable terms",
+      "content": "Add $9x$ to both sides of the equation.<br/>$$9x-23=23-9x$$<br/>$$18x-23=23$$<br/>Then add $23$ to both sides.<br/>$$18x=46$$"
+    },
+    {
+      "title": "Count the solutions",
+      "content": "The equation has a nonzero coefficient on $x$, so it has one value of $x$ that works.<br/>$$x=\\frac{46}{18}=\\frac{23}{9}$$<br/>Therefore, the equation has exactly one solution. The answer is <strong>B</strong>."
+    }
+  ]
+}

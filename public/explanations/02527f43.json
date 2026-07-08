@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal",
-      "content": "The student wants to &quot;indicate where the short story takes place.&quot; The correct choice must state the story's setting &mdash; its location."
+      "title": "Use the student's goal",
+      "content": "The student wants to indicate where the short story takes place. The relevant note is the one identifying the setting as Harlem."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; \"Raymond's Run\" takes place in Harlem.</strong>: directly states where the story is set &mdash; fulfills the goal. &#10003;</li><li><strong>Choice B &mdash; \"Raymond's Run\" was published in <em>Gorilla, My Love</em>.</strong>: identifies the book in which the story appeared &mdash; does not indicate where the story takes place. &#10007;</li><li><strong>Choice C &mdash; \"Raymond's Run\" is told from a first person perspective.</strong>: describes narrative point of view &mdash; does not indicate where the story takes place. &#10007;</li><li><strong>Choice D &mdash; \"Raymond's Run\" was written by Maya Johnson.</strong>: identifies the author &mdash; does not indicate where the story takes place. &#10007;</li></ul>That matches <strong>Choice A &mdash; \"Raymond's Run\" takes place in Harlem.</strong>."
+      "title": "Ignore unrelated details",
+      "content": "B gives the book where the story was published. C gives the narrative perspective. D gives the author. None of those details states the location of the story. The answer is <strong>A</strong>."
     }
   ]
 }

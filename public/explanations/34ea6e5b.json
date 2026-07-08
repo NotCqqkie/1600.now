@@ -1,0 +1,15 @@
+{
+  "questionId": "34ea6e5b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the secondary-feature clue",
+      "content": "The passage says image sharing was originally a secondary feature and became the app's centerpiece only after its popularity became clear. The blank must describe image sharing as lower in importance than the app's original location-sharing purpose."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "Choice B has no logical relationship to the app's purpose. Choice C is unrelated to importance or hierarchy. Choice D would mean image sharing was essential to the original purpose, contradicting the clue that it was secondary. The answer is <strong>A</strong>."
+    }
+  ]
+}

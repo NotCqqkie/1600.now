@@ -1,16 +1,15 @@
 {
   "questionId": "90eed2e5",
-  "qid": "90eed2e5",
   "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "text": "Find the proportion of supporters in the sample: $$\\frac{10}{25} = 0.40$$"
+      "title": "Find the sample proportion",
+      "content": "The sample had $10$ supporters out of $25$ people. Use the sample as an estimate for the whole county board because the poll was random:\n$$\\frac{10}{25}=0.40$$"
     },
     {
-      "text": "Apply this proportion to the full population of 60 board members: $$0.40 \\times 60 = 24$$"
-    },
-    {
-      "text": "<ul><li><strong>A</strong> &mdash; 10 is just the raw sample count, not scaled to the full population. Eliminated.</li><li><strong>B</strong> &mdash; 14 does not correspond to any proportional calculation from these numbers. Eliminated.</li><li><strong>C</strong> &mdash; 24 equals $0.40 \\times 60$, the sample proportion applied to the full board. That confirms <strong>C</strong> is correct.</li><li><strong>D</strong> &mdash; 40 is the sample support percent, not the estimated number of board members who support the proposal. Eliminated.</li></ul>"
+      "title": "Scale to the full board",
+      "content": "Apply the sample proportion to all $60$ board members to estimate the number of supporters in the full group:\n$$0.40\\cdot60=24$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

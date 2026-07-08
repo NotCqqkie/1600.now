@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Factor the target expression",
-      "content": "The target expression is $21+7x$. Factor out $7$: $$21+7x=7(3+x).$$"
+      "content": "The expression $21+7x$ contains the same group as the given expression after factoring.\n$$21+7x=7(3+x)$$"
     },
     {
-      "title": "Use the given value directly",
-      "content": "The problem gives $3+x=64$, so substitute that value into the factored expression: $$21+7x=7(3+x)=7(64)=448.$$ The answer is <strong>448</strong>."
-    },
-    {
-      "title": "Why this is faster",
-      "content": "You could solve $x=61$ first, but it is unnecessary because the expression already contains the group $3+x$ after factoring."
+      "title": "Use the given value",
+      "content": "Substitute $3+x=64$ into the factored expression.\n$$7(3+x)=7(64)=448$$\nThe answer is <strong>448</strong>."
     }
   ]
 }

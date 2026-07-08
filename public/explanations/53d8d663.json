@@ -1,0 +1,19 @@
+{
+  "questionId": "53d8d663",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the asymptote",
+      "content": "For $y=a^x+b$, the horizontal asymptote is $y=b$. The graph approaches $y=-2$, so $b=-2$."
+    },
+    {
+      "title": "Use the marked point",
+      "content": "The graph shows the point $(1,7)$. Substitute $x=1$, $y=7$, and $b=-2$.<br/>$$7=a^1-2$$<br/>$$a=9$$"
+    },
+    {
+      "title": "Subtract the constants",
+      "content": "Now compute $a-b$.<br/>$$a-b=9-(-2)=11$$<br/>The answer is <strong>11</strong>."
+    }
+  ]
+}

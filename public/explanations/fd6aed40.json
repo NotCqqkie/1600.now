@@ -1,0 +1,15 @@
+{
+  "questionId": "fd6aed40",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the water-depth preference",
+      "content": "The researchers found that glossy ibises prefer areas with deep water during breeding season, while small dark herons do not share that preference. A water-management strategy that increases water depth should therefore be more appealing to glossy ibises than to small dark herons."
+    },
+    {
+      "title": "Reject irrelevant outcomes",
+      "content": "Choice B introduces birds that do not typically live in wetlands, which the study does not discuss. Choice C discusses lifespan rather than habitat selection or attraction to an area. Choice D says deeper water would decrease appeal for both species, contradicting the finding about glossy ibises. Choice A follows the comparison directly: increased water depth is more likely to attract glossy ibises than small dark herons. The answer is <strong>A</strong>."
+    }
+  ]
+}

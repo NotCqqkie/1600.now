@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the parabola",
-      "content": "From the graph, the parabola opens <strong>upward</strong>, so the leading coefficient is positive: $y = \\tfrac{7}{16}x^2$ (not negative). That eliminates and."
+      "title": "Read the parabola direction",
+      "content": "The parabola opens upward, so the coefficient of $x^2$ is positive. This keeps the quadratic equation\n$$\ny=\\frac{7}{16}x^2\n$$"
     },
     {
-      "title": "Read the line",
-      "content": "The line passes through the origin with a <strong>positive</strong> slope (rises from left to \\right), so $y = \\tfrac{7}{4}x$ (not $-\\tfrac{7}{4}x$).<br/><br/>Both equations positive confirms <strong>D</strong> — <strong>D</strong> is correct."
+      "title": "Read the line direction",
+      "content": "The line rises from left to right, so its slope is positive. This keeps the linear equation\n$$\ny=\\frac{7}{4}x\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "331f01e2",
+  "correctAnswer": "42000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion factor",
+      "content": "One kilogram equals $1{,}000$ grams. To convert kilograms to grams, multiply by $1{,}000$."
+    },
+    {
+      "title": "Convert the mass",
+      "content": "Multiply the dog's mass by the conversion factor.\n$$42\\cdot1{,}000=42{,}000$$\nThe answer is <strong>42000</strong>."
+    }
+  ]
+}

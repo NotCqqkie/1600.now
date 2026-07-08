@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $46(x+y)$."
-    },
-    {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Look for the common factor",
-      "content": "Both terms in $46x+46y$ have a factor of $46$. When a number multiplies every term, pull that number outside parentheses."
+      "title": "Find the common factor",
+      "content": "Both terms in $46x+46y$ contain the factor $46$. Since the same number multiplies $x$ and $y$, that number can be pulled outside one set of parentheses."
     },
     {
       "title": "Factor the expression",
-      "content": "$$46x+46y=46\\cdot x+46\\cdot y=46(x+y)$$<br/>The expression inside the parentheses keeps the two unlike terms, $x$ and $y$, separate."
+      "content": "Pull $46$ outside the parentheses and keep the two unlike terms inside. The expression inside the parentheses must still show both variables.<br/>$$46x+46y=46(x+y)$$"
     },
     {
-      "title": "Check the choices",
-      "content": "An incorrect response multiplies $x$ and $y$, which changes the structure. Choice C (&lsquo;$92y$&rsquo;) is $92y$, and choice D (&lsquo;$92x$&rsquo;) is $92x$, so each drops one variable. The correct response preserves both terms as $46(x+y)$, so <strong>B</strong> is correct."
+      "title": "Match the equivalent expression",
+      "content": "The factored form preserves the original addition of two separate terms instead of multiplying the variables or dropping one variable. The answer is <strong>B</strong>."
     }
   ]
 }

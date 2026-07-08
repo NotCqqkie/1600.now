@@ -1,0 +1,20 @@
+{
+  "questionId": "74b179e5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has this form.",
+      "formula": "$$(x-h)^2 + (y-k)^2 = r^2$$"
+    },
+    {
+      "title": "Substitute the center and radius",
+      "content": "The center is $(17,14)$ and the radius is $7k$, so:\n$$\n(x-17)^2+(y-14)^2=(7k)^2\n$$"
+    },
+    {
+      "title": "Square the radius",
+      "content": "Square the radius term:\n$$\n(7k)^2=49k^2\n$$\nSo the equation is:\n$$\n(x-17)^2+(y-14)^2=49k^2\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

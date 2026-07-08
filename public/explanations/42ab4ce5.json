@@ -1,0 +1,15 @@
+{
+  "questionId": "42ab4ce5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intercept",
+      "content": "The $y$-intercept is where the graph crosses the vertical axis. That happens when the input, the number of months since purchase, is $0$."
+    },
+    {
+      "title": "Interpret the starting value",
+      "content": "At $x=0$, the graph shows a value of $250$ dollars. That represents the bike's estimated value when it was purchased.<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

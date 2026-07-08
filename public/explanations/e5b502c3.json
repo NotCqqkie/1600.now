@@ -1,0 +1,15 @@
+{
+  "questionId": "e5b502c3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find both volumes",
+      "content": "The cube volume is\n$$\n78^3=474{,}552\n$$\nThe sphere radius is $39$, so its volume is\n$$\n\\frac{4}{3}\\pi(39)^3\\sim248{,}475\n$$"
+    },
+    {
+      "title": "Subtract the sphere",
+      "content": "The space not taken up by the sphere is\n$$\n474{,}552-248{,}475=226{,}077\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

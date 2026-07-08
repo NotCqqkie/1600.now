@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the starting value",
-      "content": "The problem gives $q(0)=18$, so the exponential model must start with coefficient $18$."
+      "title": "Use the initial value",
+      "content": "The equation must have initial value $q(0)=18$, so the coefficient should be $18$."
     },
     {
       "title": "Find the decay factor",
-      "content": "A $35\\%$ decrease means each new value keeps $100\\%-35\\%=65\\%$ of the previous value. The decay factor is $0.65$, so:<br/>$$q(x)=18(0.65)^x$$"
+      "content": "A $35\\%$ decrease means each value keeps $65\\%$ of the previous value.<br/>$$100\\%-35\\%=65\\%=0.65$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice C &mdash; $q \\left(x\\right)=18{ \\left(0.65\\right)}^{x}$</strong> is the only option with initial value $18$ and decay factor $0.65$. <strong>Choice A &mdash; $q \\left(x\\right)=0.65{ \\left(18\\right)}^{x}$</strong> swaps the coefficient and base. <strong>Choice B &mdash; $q \\left(x\\right)=1.35{ \\left(18\\right)}^{x}$</strong> and <strong>Choice D &mdash; $q \\left(x\\right)=18{ \\left(1.35\\right)}^{x}$</strong> use growth factors instead of the decay factor $0.65$."
+      "title": "Build the exponential model",
+      "content": "Use the initial value as the coefficient and the decay factor as the base.<br/>$$q(x)=18(0.65)^x$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

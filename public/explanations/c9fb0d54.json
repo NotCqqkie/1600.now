@@ -1,0 +1,15 @@
+{
+  "questionId": "c9fb0d54",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the marketing clue",
+      "content": "The sentence says a well-executed marketing campaign helped make a novel a bestseller. The missing word should name something that marketing can create and that can help a book's commercial success."
+    },
+    {
+      "title": "Reject unrelated qualities",
+      "content": "Choice A is about being new or original, not marketing attention. Choice C is about being complicated. Choice D is about usefulness. None matches the role of a marketing campaign. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures surrounding the blank",
-      "content": "The blank appears between a singular noun phrase functioning as the subject (“One species, the silverleaf sunflower”) and a noun phrase functioning as the direct object."
+      "title": "Supply the main verb",
+      "content": "The subject is <em>One species, the silverleaf sunflower</em>, and the sentence needs a main verb before the object phrase beginning with <em>both an early-flowering ecotype</em>. The verb must be finite and agree with the singular subject."
     },
     {
-      "title": "Apply the finite verb rule",
-      "content": "An independent clause requires a finite verb as its main predicate. “Includes” is the only choice providing a finite verb form that matches the singular subject.<br/><br/>The other choices are non-finite forms—past participle, present participle, and infinitive—that cannot function as the main verb.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject nonfinite verbs",
+      "content": "Choice A is a participial phrase, not a finite main verb. Choice B is also nonfinite. Choice C is an infinitive, which cannot serve as the main verb of this sentence. The answer is <strong>D</strong>."
     }
   ]
 }

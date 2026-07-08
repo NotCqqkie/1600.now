@@ -1,0 +1,21 @@
+{
+  "questionId": "8172a440",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zeros of f",
+      "content": "The graph contains $(-6,0)$, $(7,0)$, $(0,0)$, and $(4,0)$, so $f(x)$ has zeros at $x=-6$, $x=7$, $x=0$, and $x=4$.",
+      "desmosExpressions": [
+        "y=x^2-2x-24",
+        "y=x^2-x+42",
+        "y=x^2-11x-28",
+        "y=x^2-7x"
+      ]
+    },
+    {
+      "title": "Find the factor with known zeros",
+      "content": "A factor of $f(x)$ can use zeros from that list. The expression $x^2-7x$ factors as<br/>$$x^2-7x=x(x-7)$$<br/>Its zeros are $0$ and $7$, both of which are zeros of $f(x)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

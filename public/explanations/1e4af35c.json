@@ -1,0 +1,15 @@
+{
+  "questionId": "1e4af35c",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output equal",
+      "content": "The function is $g(x)=4x$. The question asks when $g(x)=28$, so set this equation:\n$$\n4x=28\n$$"
+    },
+    {
+      "title": "Solve for the input",
+      "content": "Divide both sides by $4$:\n$$\nx=\\frac{28}{4}=7\n$$\nThe answer is <strong>7</strong>."
+    }
+  ]
+}

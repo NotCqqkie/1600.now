@@ -1,0 +1,19 @@
+{
+  "questionId": "653ecd45",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Plug $x=0$ into $f(x)=12x^2-44x-168$:\n$$\nf(0)=12(0)^2-44(0)-168\n$$"
+    },
+    {
+      "title": "Compute the value",
+      "content": "The terms with $x$ become $0$, so only the constant term remains:\n$$\nf(0)=-168\n$$"
+    },
+    {
+      "title": "Choose the matching value",
+      "content": "The computed function value is $-168$, which matches the listed value in choice A. The answer is <strong>A</strong>."
+    }
+  ]
+}

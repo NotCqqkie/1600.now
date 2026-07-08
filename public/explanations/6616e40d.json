@@ -1,0 +1,19 @@
+{
+  "questionId": "6616e40d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect comments to expectations",
+      "content": "The passage says comments are closely related to customers' expectations about service. Gas stations near schools usually offer discounts, but gas stations near restaurants do not. The lower good-to-bad comment ratio near restaurants should be explained by expectations shaped by the lack of discounts."
+    },
+    {
+      "title": "Reject unsupported explanations",
+      "content": "Choice A discusses customer volume, not comment ratios. Choice C only restates that school-area stations receive relatively better comments. Choice D proposes adding more stations near schools, which does not explain the observed pattern."
+    },
+    {
+      "title": "Choose the expectation link",
+      "content": "The remaining choice explains that restaurant-area customers may have higher expectations because they pay higher prices without discounts. The answer is <strong>B</strong>."
+    }
+  ]
+}

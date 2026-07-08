@@ -1,0 +1,19 @@
+{
+  "questionId": "98b4a45b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Similar figures have equal corresponding angles. The given scale factor tells how the side lengths compare, but it does not change any angle measures."
+    },
+    {
+      "title": "Match the named vertices",
+      "content": "The problem says vertex $P$ corresponds to vertex $W$. That means angle $P$ and angle $W$ are a corresponding pair, so they have the same measure in the two similar trapezoids."
+    },
+    {
+      "title": "Find angle W",
+      "content": "Since angle $P$ measures $48^\\circ$, angle $W$ also measures $48^\\circ$. The answer is <strong>B</strong>."
+    }
+  ]
+}

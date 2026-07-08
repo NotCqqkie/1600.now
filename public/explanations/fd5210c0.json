@@ -1,0 +1,15 @@
+{
+  "questionId": "fd5210c0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal a replacement",
+      "content": "The first sentence says aircraft can no longer stay aloft by lift past the Kármán line. The next sentence explains the replacement mechanism: velocity keeps the aircraft in orbit even though the air is too thin for lift."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "Choice A suggests something remains true despite the prior idea, but the sentence is not a despite relationship. Choice B would introduce an example, and Choice C would introduce a concession; neither fits a replacement of lift by velocity. The needed transition signals substitution. The answer is <strong>D</strong>."
+    }
+  ]
+}

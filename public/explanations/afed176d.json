@@ -1,0 +1,15 @@
+{
+  "questionId": "afed176d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the pupil-size pattern",
+      "content": "The passage links dilated pupils with positive human reactions and explains that dark dog irises can make pupils appear larger. The study's finding should therefore connect larger-looking dog pupils with more positive participant responses, specifically by comparing reactions to dogs whose iris colors did or did not create that large-pupil appearance."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "A makes an unsupported comparison between dogs and people rather than using the dog-image results. B reverses the pattern by saying large-appearing pupils led to more negative reactions. D denies any relationship between iris shade and participant responses. The supported conclusion is that the human response pattern for pupil size extends to dogs whose dark irises make the pupils look larger. The answer is <strong>C</strong>."
+    }
+  ]
+}

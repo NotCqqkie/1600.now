@@ -1,0 +1,15 @@
+{
+  "questionId": "f9a780aa",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the intercept form",
+      "content": "The function $f(x)=-7x+12$ is in slope-intercept form, where the constant term is the $y$-coordinate of the $y$-intercept."
+    },
+    {
+      "title": "Read the constant term",
+      "content": "The constant term in $-7x+12$ is the requested coordinate. The answer is <strong>12</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "68bf488d",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the intercept",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis, which occurs when $x=0$."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=0$, the graph passes through $(0,4)$, so the requested $y$-value is $4$. The answer is <strong>4</strong>."
+    }
+  ]
+}

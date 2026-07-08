@@ -1,0 +1,15 @@
+{
+  "questionId": "c0b954c2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the full date span",
+      "content": "The student wants to specify how long the Gambia officially used the Gambian pound. The notes give both endpoints: the pound was adopted in 1965 and replaced by the dalasi in 1971."
+    },
+    {
+      "title": "Reject incomplete timing",
+      "content": "B gives only the start date, C focuses on the dalasi rather than the pound's full period, and D gives no dates. The best sentence states the full span from adoption to replacement. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "759909b6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect rule to result",
+      "content": "First-past-the-post awards the seat to the candidate with a plurality, not necessarily a majority. If several candidates split the vote, that rule allows a winner below 50 percent."
+    },
+    {
+      "title": "Choose a consequence transition",
+      "content": "A adds information, B compares similar ideas, and D contrasts. The sentence needs a consequence transition meaning \"as a result.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

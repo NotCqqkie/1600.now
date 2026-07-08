@@ -1,0 +1,23 @@
+{
+  "questionId": "d9293932",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given input",
+      "content": "The system gives $x=8$. Substitute $8$ into the second equation."
+    },
+    {
+      "title": "Compute the output",
+      "content": "Evaluate $y=x^2+7$:<br/>$$y=8^2+7=64+7=71$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection's $y$-coordinate. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "x = 8",
+        "y = x^2 + 7"
+      ]
+    }
+  ]
+}

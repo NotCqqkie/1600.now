@@ -1,0 +1,15 @@
+{
+  "questionId": "6258f8a7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare percent declines",
+      "content": "The student is comparing the decline in Argentina with declines in other countries. Because the countries started with different 1950 hour totals, the useful comparison is percent decrease rather than raw hours. The table supports a ranking in which Argentina's percentage drop is between the larger drops for Ireland and the United Kingdom and the smaller drop for Mexico."
+    },
+    {
+      "title": "Reject inaccurate comparisons",
+      "content": "A uses raw decreases and misstates the comparison. B is wrong because Argentina's hours declined rather than rose. C is wrong because Argentina's percent decrease is not greater than Ireland's; it is smaller than Ireland's and the United Kingdom's but greater than Mexico's. The answer is <strong>D</strong>."
+    }
+  ]
+}

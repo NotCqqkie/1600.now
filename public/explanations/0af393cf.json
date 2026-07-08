@@ -1,0 +1,19 @@
+{
+  "questionId": "0af393cf",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the antecedent",
+      "content": "The pronoun refers to the star's wobble, which is a single nonhuman phenomenon. The pronoun must therefore be singular."
+    },
+    {
+      "title": "Reject number mismatches",
+      "content": "Choice A and Choice C are plural, so they do not agree with the singular wobble. Choice D is distributive and would require a group of items, not one wobble."
+    },
+    {
+      "title": "Choose the singular pronoun",
+      "content": "It correctly refers back to the singular noun wobble in the phrase attributed it to the gravitational influence of the exoplanet. The answer is <strong>B</strong>."
+    }
+  ]
+}

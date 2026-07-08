@@ -1,0 +1,15 @@
+{
+  "questionId": "12fa563b",
+  "correctAnswer": "63",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the larger population",
+      "content": "The population reached $140\\%$ of the initial population of $60$.<br/>$$1.40(60)=84$$"
+    },
+    {
+      "title": "Find the moved amount",
+      "content": "The biologist moved $75\\%$ of the $84$ beetles.<br/>$$0.75(84)=63$$<br/>The answer is <strong>63</strong>."
+    }
+  ]
+}

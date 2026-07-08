@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks which equation correctly represents the total part count. Let n = number of 9-inch parts. Then 8-inch parts = 4n, and 3-inch parts = 30. The total must equal 100 parts: $$4n + n + 30 = 100$$"
+      "title": "Count each part type",
+      "content": "The number of $9$-inch parts is $n$. The number of $8$-inch parts is $4n$, and the number of $3$-inch parts is $30$."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"$\\left(8\\right)(4n)+9n+3(30)=100$\"</strong>: trap &mdash; multiplies by lengths instead of counting parts. &#10007;</li><li><strong>\"$8n+9n+3n=100$\"</strong>: trap &mdash; wrong multiplier on n. &#10007;</li><li><strong>\"$4n+30=100$\"</strong>: trap &mdash; omits the 30 fixed parts. &#10007;</li><li><strong>\"$5n+30=100$\"</strong>: correctly counts all three part types. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Write the total count",
+      "content": "Add the counts of parts, not their lengths:\n$$\n4n+n+30=100\n$$\n$$\n5n+30=100\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

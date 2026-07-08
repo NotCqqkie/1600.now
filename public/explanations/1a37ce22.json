@@ -1,0 +1,15 @@
+{
+  "questionId": "1a37ce22",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "$50\\%$ is the same as $\\frac{1}{2}$, so finding $50\\%$ of $640$ means finding half of $640$."
+    },
+    {
+      "title": "Find half",
+      "content": "Multiply by $\\frac{1}{2}$.<br/>$$\\frac{1}{2}\\cdot640=320$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

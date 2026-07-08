@@ -1,0 +1,15 @@
+{
+  "questionId": "fa0944de",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the authority transfers",
+      "content": "The student wants the order in which government entities received authority over US airline safety. The notes give a sequence: Commerce Department in 1926, CAA in 1938, and FAA in 1958."
+    },
+    {
+      "title": "Reject incomplete sequences",
+      "content": "B incorrectly sends authority back to the Commerce Department. C says the agencies held authority at different times but gives no order, and D mentions only the final agency. The choice that states both transfers with dates satisfies the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f7ecd40c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read circle information",
+      "content": "Circle $M$ has equation $(x-5)^2+(y-8)^2=9$, so its center is $(5,8)$ and its radius is<br/>$$\\sqrt{9}=3$$"
+    },
+    {
+      "title": "Double the radius",
+      "content": "Circle $P$ has the same center and twice the radius of circle $M$. <br/>$$2\\cdot3=6$$<br/>The equation must use $r^2=6^2=36$ with center $(5,8)$. The answer is <strong>B</strong>."
+    }
+  ]
+}

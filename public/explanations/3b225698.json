@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use corresponding angles",
-      "content": "In similar triangles, corresponding angles are congruent. Since $N$ corresponds to $R$, angle $R$ has the same measure as angle $N$."
+      "title": "Match corresponding angles",
+      "content": "The correspondence is $L$ with $P$, $M$ with $Q$, and $N$ with $R$. Since the triangles are similar, corresponding angles have equal measures."
     },
     {
-      "title": "Corresponding angles in similar triangles are congruent",
-      "content": "Since triangle $LMN$ is similar to triangle $PQR$ with the correspondence $N \\leftrightarrow R$, we apply the fundamental property of similar figures: <strong>corresponding angles are congruent</strong>. Therefore, $\\angle R = \\angle N$."
-    },
-    {
-      "title": "Substitute the given angle measure",
-      "content": "We're given that $\\angle N = 24^{\\circ}$, so $\\angle R = 24^{\\circ}$. <br/><br/>Note: The condition $3LM = PQ$ specifies that side lengths are in a ratio of $1:3$ (the scale factor), but angles in similar triangles are always equal regardless of size. The scale factor affects side lengths and areas, not angles.<br/><br/><strong>C</strong> is correct."
+      "title": "Use the given angle",
+      "content": "Because $N$ corresponds to $R$, the measure of angle $R$ equals the measure of angle $N$. The side-length scale factor affects side lengths, not angle measures. The answer is <strong>C</strong>."
     }
   ]
 }

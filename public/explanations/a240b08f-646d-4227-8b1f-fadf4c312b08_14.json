@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the definition",
-      "content": "We want $f(1) = k$ to appear directly as the coefficient or base. Plug $x=1$ into each form and check which form makes the substitution trivial — i.e., the exponent becomes $0$."
+      "title": "Make the exponent zero",
+      "content": "To show $f(1)$ directly as a coefficient, the exponential factor should become $1$ when $x=1$. That happens when the exponent is $x-1$."
     },
     {
-      "title": "Test the choices",
-      "content": "For C, $f(x) = 144.5(1.7)^{x-1}$: at $x=1$, exponent $= 0$, so $f(1) = 144.5(1.7)^0 = 144.5 \\cdot 1 = 144.5$. The coefficient $144.5$ <strong>is</strong> $k = f(1)$.<br/><br/>A gives $f(1)=50(1.7)^2$ — coefficient isn't $f(1)$. B gives $f(1)=85(1.7)$. D gives $f(1)=245.65(1.7)^{-1}$. Only C exposes $k$ as the coefficient.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Check the matching form",
+      "content": "For the form $f(x)=98(1.4)^{x-1}$, substituting $x=1$ gives<br/>$$f(1)=98(1.4)^0=98$$<br/>So the coefficient shown is the value of $k$. The answer is <strong>C</strong>."
     }
   ]
 }

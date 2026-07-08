@@ -1,0 +1,15 @@
+{
+  "questionId": "605bdca8",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the all-four-coins claim",
+      "content": "The student argues that the United States should follow Australia's example for each of the four coins. To weaken that argument, the data must show that not all four coins create the kind of financial loss that led Australia to stop producing coins."
+    },
+    {
+      "title": "Reject weaker comparisons",
+      "content": "A compares two profitable coins, C shifts to gross cost, and D only ranks losses among coins that lose money. The remaining choice shows that two coins produced negative seigniorage while two produced positive seigniorage. The answer is <strong>B</strong>."
+    }
+  ]
+}

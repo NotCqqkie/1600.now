@@ -1,0 +1,15 @@
+{
+  "questionId": "41cc547c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the growth factor",
+      "content": "A $6\\%$ increase means each month has $100\\%+6\\%=106\\%$ of the previous month's total. As a decimal, the monthly multiplier is $1.06$."
+    },
+    {
+      "title": "Build the exponential model",
+      "content": "The initial value is $900$ customers. After $m$ months, multiply by $1.06$ a total of $m$ times.\n$$c=900(1.06)^m$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

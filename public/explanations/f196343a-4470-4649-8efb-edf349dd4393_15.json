@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the budget line",
-      "content": "A graph showing combinations of two stocks Sayen can buy is a <strong>linear constraint</strong> of the form (price A)$\\cdot x$ + (price B)$\\cdot y$ = total budget. From the graph, the $x$-intercept is $90$ and the $y$-intercept is $50$."
+      "title": "Use the intercepts",
+      "content": "The graph shows a line of possible stock purchases. A correct equation must match both intercepts from the graph: the $x$-intercept is $80$, and the $y$-intercept is $45$."
     },
     {
-      "title": "Match intercepts to the equation",
-      "content": "Test the matching equation: $10x + 18y = 900$.<ul><li>$x$-intercept ($y=0$): $10x=900 \\Rightarrow x=90$</li><li>$y$-intercept ($x=0$): $18y=900 \\Rightarrow y=50$</li></ul>Both intercepts match the graph, so <strong>B</strong> is correct."
+      "title": "Check the matching equation",
+      "content": "For $9x+16y=720$, the intercepts are:<br/>$$y=0:\\ 9x=720,\\ x=80$$<br/>$$x=0:\\ 16y=720,\\ y=45$$These match the graph. The answer is <strong>B</strong>."
     }
   ]
 }

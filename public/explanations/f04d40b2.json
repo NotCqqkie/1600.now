@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Establish the confidence interval from margin of error",
-      "content": "The survey estimates 40% support with a margin of error of 4%. This means the true percentage supporting the ordinance is plausibly between 40% - 4% = 36% and 40% + 4% = 44%."
+      "title": "Find the plausible percent range",
+      "content": "The estimate is $40\\%$ with a margin of error of $4\\%$, so a plausible population percentage is:<br/>$$40\\%-4\\%\\le p\\le 40\\%+4\\%$$<br/>$$36\\%\\le p\\le 44\\%$$"
     },
     {
-      "title": "Convert percentage bounds to population counts",
-      "content": "The population is 60,000 people. Apply the percentage bounds:<br/>Lower bound: 0.36 x 60,000 = 21,600<br/>Upper bound: 0.44 x 60,000 = 26,400<br/>So a plausible value for the number of supporters falls between 21,600 and 26,400 people."
+      "title": "Convert to people",
+      "content": "Apply that range to the population of $60{,}000$:<br/>$$0.36(60{,}000)=21{,}600$$<br/>$$0.44(60{,}000)=26{,}400$$A plausible count must be between $21{,}600$ and $26{,}400$."
     },
     {
-      "title": "Check which choice falls in the plausible range",
-      "content": "Test each option:<ul><li><strong>$480$</strong>: 480 -> represents 0.8% of the population, far too small</li><li><strong>$720$</strong>: 720 -> represents 1.2% of the population, far too small</li><li><strong>$24,600$</strong>: 24,600 -> represents 41% of 60,000, which lies within [36%, 44%]</li><li><strong>$35,400$</strong>: 35,400 -> represents 59% of the population, far too large</li></ul>That matches the correct answer - <strong>C</strong> is correct."
+      "title": "Choose the plausible count",
+      "content": "The only listed value in that range is $24{,}600$. The answer is <strong>C</strong>."
     }
   ]
 }

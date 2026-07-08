@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the grammatical structure",
-      "content": "The sentence has a main clause: <em>These extensive ______ reflected the poet's evolving literary perspective.</em> The blank must complete the noun phrase <em>These extensive ______</em> and then allow the list of examples (the addition of hundreds of new poems, the removal of some&hellip;) to be offset by commas without creating a second competing verb."
+      "title": "Find the main verb",
+      "content": "The sentence's main structure is These extensive changes reflected the poet's evolving perspective. The material about additions, removals, and prefatory material is an explanatory phrase that should be set off from the main clause."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>\"changes, including\"</strong>: <em>Including</em> is a nonfinite present participle that opens a supplementary phrase offset by commas, letting the main verb <em>reflected</em> stand alone. Grammatical and clear. &#10003;</li><li><strong>\"changes would include\"</strong>: <em>Would include</em> is a finite modal verb that creates a second main clause, making the sentence ungrammatical &mdash; <em>reflected</em> can no longer serve as the main verb. &#10007;</li><li><strong>\"changes included\"</strong>: <em>Included</em> is a finite past-tense verb with the same problem: two competing main verbs (<em>included</em> and <em>reflected</em>) in a single independent clause. &#10007;</li><li><strong>\"changes, include\"</strong>: <em>Include</em> is a finite present-tense verb, equally ungrammatical for the same reason as C. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Avoid competing verbs",
+      "content": "Choice A uses including to introduce examples while leaving reflected as the main verb. Choice B, Choice C, and Choice D introduce finite verbs that compete with reflected and make the sentence ungrammatical. The answer is <strong>A</strong>."
     }
   ]
 }

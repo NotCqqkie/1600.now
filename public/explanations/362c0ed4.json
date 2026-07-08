@@ -1,0 +1,15 @@
+{
+  "questionId": "362c0ed4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the counterexample",
+      "content": "The text first presents decarcinization as possibly an evolutionary dead end because many decarcinized groups are extinct and have few living relatives. It then introduces frog crabs as an important counterexample: they are a living decarcinized group, have traits suited to dwelling in sediment, and had decarcinized members as far back as the Early Cretaceous."
+    },
+    {
+      "title": "Limit the inference",
+      "content": "A casts doubt on crablike bodies too broadly, B contradicts the statement that many decarcinized groups have few living relatives, and C focuses on traits the text does not identify as the reason frog crabs persisted. Frog crabs show that decarcinization is not always a dead end; some ecological conditions can favor decarcinized forms over crablike ones. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7802f6a0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on one species",
+      "content": "The sentence needs an example of within-species variation, meaning a change in the number of individuals within a single species over time. A comparison between two different species would show between-species variation, not the pattern the researchers described."
+    },
+    {
+      "title": "Use the accurate range",
+      "content": "Choice A names one species but misreads the striated rockskipper's highest months. Choice C gives only one high point for the Cocos frillgoby, so it does not show variation across time. Choice D compares striated rockskippers with Indo-Pacific sergeants instead of tracking one population's change. The answer is <strong>B</strong>."
+    }
+  ]
+}

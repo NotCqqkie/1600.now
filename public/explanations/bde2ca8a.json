@@ -1,0 +1,15 @@
+{
+  "questionId": "bde2ca8a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attack the sole-cause claim",
+      "content": "The conclusion says cataract frequency is solely due to variation in <em>Aasdh</em> expression. To weaken that claim, the finding must show that different expression levels do not reliably produce different cataract outcomes."
+    },
+    {
+      "title": "Reject supporting evidence",
+      "content": "Choice B makes the gene's effect more isolated, not weaker. Choice C only shows expression levels vary in nature. Choice D strengthens the experiment by making the knockout and wild-type mice otherwise identical. The answer is <strong>A</strong>."
+    }
+  ]
+}

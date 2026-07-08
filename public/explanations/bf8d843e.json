@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Use the right triangle",
+      "content": "Triangle BDC is a $30$-$60$-$90$ triangle with hypotenuse $BC=12$. In that special triangle, the side opposite $30^{\\circ}$ is half the hypotenuse, so\n$$\nDC=\\frac{12}{2}=6\n$$"
     },
     {
-      "title": "Find DC using the 30-60-90 triangle BDC",
-      "content": "Triangle $BDC$ has a right angle at $D$ because $BD \\perp AC$, angle $BCD = 60^{\\circ}$, and angle $DBC = 30^{\\circ}$. This is a 30-60-90 right triangle.<br/><br/>In a 30-60-90 triangle, the sides opposite $30^{\\circ}$, $60^{\\circ}$, and $90^{\\circ}$ are in the ratio $1: \\sqrt{3}: 2$.<br/><br/>With $BC = 12$ as the hypotenuse, we have:<br/>$$DC = 12 \\cdot \\frac{1}{2} = 6$$<br/>$$BD = 12 \\cdot \\frac{\\sqrt{3}}{2} = 6\\sqrt{3}$$"
+      "title": "Relate the two halves",
+      "content": "The same altitude creates triangle ABD on the other side. Since the large triangle is split into matching $30$-$60$-$90$ right triangles, the two halves of the base are equal, so $AD=DC$."
     },
     {
-      "title": "Find AD using the 30-60-90 triangle ABD",
-      "content": "Triangle $ABD$ has a right angle at $D$, angle $ABD = 30^{\\circ}$, and angle $BAD = 60^{\\circ}$. This is also a 30-60-90 triangle.<br/><br/>Using the same side ratio, with $BD = 6\\sqrt{3}$ as the side opposite $60^{\\circ}$:<br/>$$AD = \\frac{6\\sqrt{3}}{\\sqrt{3}} = 6$$<br/>That is the correct answer."
+      "title": "Find the requested length",
+      "content": "Using $AD=DC$ and $DC=6$ gives\n$$\nAD=6\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

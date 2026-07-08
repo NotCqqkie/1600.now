@@ -1,0 +1,15 @@
+{
+  "questionId": "328d4afe",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the central claim",
+      "content": "The passage says thistles are unwelcome in gardens and on farms, but then pivots to the point that weeds like thistles provide benefits. The pollinator detail is an example supporting that main idea."
+    },
+    {
+      "title": "Exclude side details",
+      "content": "B focuses on the background detail that thistles are in North America. C discusses removing weeds, and D discusses gardening techniques, neither of which appears in the passage. The main point is that some weeds have benefits. The answer is <strong>A</strong>."
+    }
+  ]
+}

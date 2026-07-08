@@ -1,0 +1,15 @@
+{
+  "questionId": "7ee5f484",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening phrase",
+      "content": "The sentence begins with the introductory noun phrase \"A painting by 19th-century artist Katsushika Hokusai.\" The main clause that follows must name that painting as the subject so the introduction has something grammatical to modify."
+    },
+    {
+      "title": "Reject mismatched subjects",
+      "content": "A makes \"deeper thematic meaning\" the subject. B makes the meaning the subject by using a possessive title. C makes \"visual allegory\" the subject. None properly attaches the opening phrase to the painting itself. The answer is <strong>D</strong>."
+    }
+  ]
+}

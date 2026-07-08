@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the two sentences",
-      "content": "Sentence 1: greater iconicity $\\Rightarrow$ sign more likely to have been learned (iconicity helps acquisition). Sentence 2: the iconicity-acquisition correlation was <em>lower</em> than the frequency-acquisition correlation (iconicity matters less than another factor)."
+      "title": "Spot the concession",
+      "content": "The first sentence says signs with greater iconicity were more likely to be learned. The second sentence limits that finding by saying iconicity had a lower correlation with acquisition than sign frequency did. The needed transition must concede that the first finding is true while introducing a limiting comparison."
     },
     {
-      "title": "Identify the relationship",
-      "content": "Sentence 2 concedes a limit on Sentence 1's finding: yes, iconicity helps, but a different factor mattered more. That is a concession transition."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; In fact,</strong>: signals intensification of the prior point, but Sentence 2 weakens, not strengthens, the role of iconicity (logic violated). &#10007;</li><li><strong>Choice B &mdash; In other words,</strong>: signals restatement, but Sentence 2 introduces a new factor (frequency) and a comparison, not a paraphrase (logic violated). &#10007;</li><li><strong>Choice C &mdash; Granted,</strong>: concedes that iconicity's role, while real, is outranked by frequency &mdash; exactly the relationship between the two sentences. &#10003;</li><li><strong>Choice D &mdash; As a result,</strong>: signals cause-and-effect, but Sentence 2 is not a consequence of Sentence 1; it is a contrast with another correlation (logic violated). &#10007;</li></ul>That matches <strong>Choice C &mdash; Granted,</strong>."
+      "title": "Reject nonconcession signals",
+      "content": "A suggests emphasis, but the second sentence limits the prior point. B suggests restatement, but the sentence adds a comparison with sign frequency. D suggests cause and effect, but no result is being described. The answer is <strong>C</strong>."
     }
   ]
 }

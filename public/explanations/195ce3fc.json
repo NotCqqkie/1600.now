@@ -1,0 +1,19 @@
+{
+  "questionId": "195ce3fc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find line k's slope",
+      "content": "From the graph, line $k$ passes through $(0,4)$ and $(3,0)$. Its slope is<br/>$$\\frac{0-4}{3-0}=-\\frac{4}{3}$$"
+    },
+    {
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular lines have slopes that are negative reciprocals. Since line $k$ has slope $-\\frac{4}{3}$, line $j$ has slope $\\frac{3}{4}$."
+    },
+    {
+      "title": "Use the given point",
+      "content": "Substitute slope $\\frac{3}{4}$ and point $(-20,-23)$ into point-slope form, then simplify.<br/>$$y+23=\\frac{3}{4}(x+20)$$<br/>$$y=\\frac{3}{4}x+15-23$$<br/>$$y=\\frac{3}{4}x-8$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

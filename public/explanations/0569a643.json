@@ -1,0 +1,23 @@
+{
+  "questionId": "0569a643",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the semicircle arcs",
+      "content": "Each diameter splits the circle into two semicircles. Since the circumference is $96\\pi$, each semicircle has arc length<br/>$$\\frac{96\\pi}{2}=48\\pi$$"
+    },
+    {
+      "title": "Express the unknown arcs",
+      "content": "Let arc $AB=x$. The problem gives arc $DA=3x$. Because $AC$ is a diameter,<br/>$$AB+BC=48\\pi$$<br/>so arc $BC=48\\pi-x$. Because $BD$ is a diameter, arc $CD=x$."
+    },
+    {
+      "title": "Solve around the circle",
+      "content": "The four arcs make the full circumference.<br/>$$x+(48\\pi-x)+x+3x=96\\pi$$<br/>$$4x+48\\pi=96\\pi$$<br/>$$x=12\\pi$$"
+    },
+    {
+      "title": "Find the requested arc",
+      "content": "Substitute $x=12\\pi$ into arc $BC=48\\pi-x$.<br/>$$BC=48\\pi-12\\pi=36\\pi$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "f8ef7b2a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the convention shift",
+      "content": "The passage first says the poems often follow sonnet conventions, including fourteen-line length. The specific twelve-line poem then subverts those conventions, so the transition must signal contrast."
+    },
+    {
+      "title": "Reject continuation signals",
+      "content": "<ul><li><strong>Choice A</strong> would make the twelve-line poem an example of following the convention.</li><li><strong>Choice B</strong> signals similarity, but the poem breaks the pattern.</li><li><strong>Choice D</strong> signals aptness rather than opposition.</li></ul>"
+    },
+    {
+      "title": "Mark the contrast",
+      "content": "By contrast correctly marks the shift from poems that adhere to convention to a poem that playfully subverts it. The answer is <strong>C</strong>."
+    }
+  ]
+}

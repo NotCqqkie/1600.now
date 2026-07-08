@@ -1,0 +1,15 @@
+{
+  "questionId": "cb83a99e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the conclusion as the target",
+      "content": "Marsh and Nair conclude that delayed autumn freezing gives invasive species an advantage in Alaska. A supporting finding must therefore connect the delay to a greater benefit for the invasive <em>P. aviculare</em> than for the native <em>C. canadensis</em>. It is not enough to show that both plants respond to warmer autumn conditions; the result has to show a stronger response by the invasive species."
+    },
+    {
+      "title": "Compare each finding",
+      "content": "Choice A says <em>P. aviculare</em> stopped producing leaves sooner than <em>C. canadensis</em>, which weakens the idea of an invasive advantage. Choice B says neither species varied with the timing of subfreezing temperatures, so it shows no advantage from the delay. Choice D says both species produced more leaves, but it also introduces early spring onset as another possible cause. Choice C says both species produced leaves later into autumn, and the extension was much greater for <em>P. aviculare</em>, directly supporting the conclusion. The answer is <strong>C</strong>."
+    }
+  ]
+}

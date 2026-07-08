@@ -1,0 +1,15 @@
+{
+  "questionId": "bb9ef9c9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause",
+      "content": "The passage explains why the frigatebird can move much faster than the pronghorn: features suited to flight limit top speed less than features suited to running on land. The blank must show that the speed difference results from that fact."
+    },
+    {
+      "title": "Reject noncausal nouns",
+      "content": "B would make the difference a goal, C would make it a denial, and D is awkward with \"of\" and reverses the relationship. The remaining noun means a result caused by something else. The answer is <strong>A</strong>."
+    }
+  ]
+}

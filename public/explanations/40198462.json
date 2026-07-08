@@ -1,0 +1,23 @@
+{
+  "questionId": "40198462",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute for y",
+      "content": "Since $y=x+48$, substitute $x+48$ for $y$ in the second equation.\n$$(x+48)^2=x+48$$"
+    },
+    {
+      "title": "Solve the resulting equation",
+      "content": "Let $u=x+48$. Then\n$$u^2=u$$\n$$u(u-1)=0$$\nSo $u=0$ or $u=1$, which gives $x=-48$ or $x=-47$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the possible $x$-coordinates at the intersections. The listed possible value is $-47$. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x + 48 = y",
+        "(x + 48)^2 = y"
+      ]
+    }
+  ]
+}

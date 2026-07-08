@@ -1,0 +1,15 @@
+{
+  "questionId": "7be1395a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Select the needed table rows",
+      "content": "The question asks for employees with $16$ or more complete years. From the table, those are the $16$ to $18$ years row and the $19$ to $21$ years row."
+    },
+    {
+      "title": "Add the two counts",
+      "content": "The table shows $10$ employees in the first row and $3$ employees in the second:\n$$\n10+3=13\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

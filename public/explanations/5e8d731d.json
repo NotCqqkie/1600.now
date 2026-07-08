@@ -1,0 +1,15 @@
+{
+  "questionId": "5e8d731d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare possible daily intake",
+      "content": "The passage says baleen whales can eat up to 30 percent of their mass per day. A sei whale can weigh as much as 25,000 kg, so its possible daily intake is up to 7,500 kg, while the bowhead whale can consume 19,800 kg per day."
+    },
+    {
+      "title": "Reject unsupported whale claims",
+      "content": "Choice A says sei whales are less likely to eat krill, which is not stated. Choice B gives the same maximum to both whales. Choice D invents food competition. The remaining choice follows from the numbers: the bowhead can eat more krill per day. The answer is <strong>C</strong>."
+    }
+  ]
+}

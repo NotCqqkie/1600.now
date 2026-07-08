@@ -1,0 +1,15 @@
+{
+  "questionId": "89f0e9d3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare margin of error",
+      "content": "The first sample has margin of error $0.8$ minute, and the second sample has margin of error $1.9$ minutes. The first sample therefore has the smaller margin of error."
+    },
+    {
+      "title": "Connect precision to sample size",
+      "content": "When margins of error are calculated the same way, a larger sample usually gives a smaller margin of error. Since the first sample has the smaller margin of error, it must have contained more air fryers. The answer is <strong>A</strong>."
+    }
+  ]
+}

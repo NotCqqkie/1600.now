@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the calculation",
-      "content": "We need to find 20% of the total bill of 30.00 dollars."
+      "title": "Convert the percent",
+      "content": "A tip of $20\\%$ means $0.20$ of the total bill."
     },
     {
-      "title": "Calculate the tip amount",
-      "content": "Convert 20% to a decimal: $20\\% = 0.2$.<br/>Multiply by the total bill:<br/>$$0.2 \\times 30 = 6$$<br/>The tip is 6.00 dollars. That confirms <strong>D</strong> is correct."
+      "title": "Multiply by the bill",
+      "content": "Use the total bill of $30.00$ dollars.\n$$0.20(30)=6$$\nThe tip is $6.00$ dollars. The answer is <strong>D</strong>."
     }
   ]
 }

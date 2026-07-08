@@ -1,0 +1,15 @@
+{
+  "questionId": "250726be",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the inserted list",
+      "content": "The phrase beginning with <em>including</em> is set off by an opening dash and contains a list of Greek deities. After Crius, the punctuation must close that inserted phrase so the main clause can continue."
+    },
+    {
+      "title": "Use the matching dash",
+      "content": "The matching punctuation closes the dash-framed insertion after Crius. Choice A uses a semicolon that suggests another list item, Choice C uses a comma that does not match the opening dash, and Choice D leaves the insertion unclosed. The answer is <strong>B</strong>."
+    }
+  ]
+}

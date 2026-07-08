@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key causal relationship",
-      "content": "The passage shows that pressure destabilizes hydrogen bonds, which causes compression: “extreme high pressure...destabilizes these bonds and compresses water's structure.” The defining clue: bond stability prevents compression."
+      "title": "Link bonds to compression",
+      "content": "The passage says high pressure destabilizes hydrogen bonds, compressing water's structure. Evidence for TMAO should therefore show that TMAO stabilizes bonds or reduces compression."
     },
     {
-      "title": "Match the mechanism to the correct answer",
-      "content": "<strong>Choice D &mdash; Analysis of water's molecular structure under high pressure reveals that hydrogen bonds are more stable when TMAO is present than when it is not.</strong> shows hydrogen bonds remain more stable when TMAO is present.<br/><br/>This prevents bond destabilization and thus prevents compression, directly supporting the hypothesis that TMAO reduces water's compressibility.<br/><br/>The other choices either don't address water's compressibility (A and B) or contradict the hypothesis by showing water compresses more with TMAO (C).<br/><br/>That matches <strong>Choice D &mdash; Analysis of water's molecular structure under high pressure reveals that hydrogen bonds are more stable when TMAO is present than when it is not.</strong>."
+      "title": "Use the mechanism evidence",
+      "content": "A misunderstands the relationship, B concerns TMAO's shape rather than water, and C says water compresses faster as TMAO rises. More stable hydrogen bonds when TMAO is present directly supports reduced compressibility. The answer is <strong>D</strong>."
     }
   ]
 }

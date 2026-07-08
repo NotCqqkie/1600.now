@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the ratio as an equation",
-      "content": "The ratio of <em>t</em> to <em>u</em> is 2 to 3, which means:\n$$\\frac{t}{u} = \\frac{2}{3}$$"
+      "title": "Write the ratio as a proportion",
+      "content": "The ratio of $t$ to $u$ is $2$ to $3$, so use $t=18$ in the proportion.<br/>$$\\frac{18}{u}=\\frac{2}{3}$$"
     },
     {
-      "title": "Substitute t = 18 and solve for u",
-      "content": "Substitute $t = 18$ into the equation:\n$$\\frac{18}{u} = \\frac{2}{3}$$ Cross-multiply to isolate <em>u</em>:\n$$18 \\cdot 3 = 2 \\cdot u$$\n$$54 = 2u$$\n$$27 = u$$ That confirms <strong>D</strong> is correct."
+      "title": "Solve for the missing value",
+      "content": "Cross-multiply and divide by $2$.<br/>$$18\\cdot 3=2u$$<br/>$$54=2u$$<br/>$$u=27$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

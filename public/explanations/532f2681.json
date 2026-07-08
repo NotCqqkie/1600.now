@@ -1,0 +1,15 @@
+{
+  "questionId": "532f2681",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared topic",
+      "content": "Text 1 discusses what scientists can learn from sloth fossils and why living sloths are hard to observe. Text 2 describes backpack monitors that help scientists study tree-dwelling sloths."
+    },
+    {
+      "title": "Avoid unsupported topics",
+      "content": "B introduces climate change, which neither text discusses. C shifts to caring for sloths, not studying them. D fits part of Text 1 but not Text 2, which focuses on living sloths and monitoring technology. Both texts concern scientific study. The answer is <strong>A</strong>."
+    }
+  ]
+}

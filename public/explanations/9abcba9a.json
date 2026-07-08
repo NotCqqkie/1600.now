@@ -1,0 +1,15 @@
+{
+  "questionId": "9abcba9a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show examples follow the rule",
+      "content": "The first sentence states a pattern: regionally popular demonstration sports were usually onetime showcases, unlike sports with international appeal. The second sentence gives examples that fit that pattern: speed skating became a medal event, while <em>glíma</em> appeared only once."
+    },
+    {
+      "title": "Reject contrast and addition",
+      "content": "Choice A would concede a counterpoint, and Choice B would signal contradiction, but the examples support the first sentence. Choice D would add a separate point rather than show a logical result. The remaining transition shows consistency with the prior pattern. The answer is <strong>C</strong>."
+    }
+  ]
+}

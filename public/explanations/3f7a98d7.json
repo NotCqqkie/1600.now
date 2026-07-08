@@ -1,0 +1,15 @@
+{
+  "questionId": "3f7a98d7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "Compare $f(x+1)$ to $f(x)$:\n$$f(x+1)=72b^{x+1}=72b^x\\cdot b=b\\cdot f(x)$$\nSo each increase of $1$ in $x$ multiplies the value by $b$."
+    },
+    {
+      "title": "Convert factor to percent",
+      "content": "A multiplier of $b$ represents an increase of $b-1$ times the original value. As a percent, that is\n$$100(b-1)$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

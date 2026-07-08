@@ -592,7 +592,7 @@ const PracticeTestResults = () => {
                                   "border-rose-500/30 bg-rose-500/10 text-rose-600 dark:text-rose-400",
                               )}
                             >
-                              Band {sourceQuestion.scoreBand}
+                              {sourceQuestion.scoreBand}/10
                             </span>
                           )}
                         </div>

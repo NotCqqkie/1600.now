@@ -1,0 +1,20 @@
+{
+  "questionId": "17d71e60",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate first and later days",
+      "content": "The first day costs $72n$. For $x$ total days, there are $x-1$ additional days, each costing $36n$."
+    },
+    {
+      "title": "Build and simplify the cost",
+      "content": "Add the first-day cost and the additional-day costs.<br/>$$72n+36n(x-1)$$<br/>$$72n+36nx-36n=36nx+36n$$",
+      "formula": "$$ C(x) = 36nx + 36n $$"
+    },
+    {
+      "title": "Check the first day",
+      "content": "When $x=1$, the simplified function gives<br/>$$36n(1)+36n=72n$$<br/>which matches the first-day cost. The answer is <strong>A</strong>."
+    }
+  ]
+}

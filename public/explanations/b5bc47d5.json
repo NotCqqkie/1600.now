@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the scale ratio",
-      "content": "The scale gives $1$ inch (model) $= \\frac{19}{4}$ feet (actual). Equivalently, $\\frac{19}{4}$ feet of actual length corresponds to $1$ inch in the model."
+      "title": "Write inches per foot",
+      "content": "The scale says $1$ model inch represents $\\frac{19}{4}$ actual feet. So $1$ actual foot corresponds to\n$$\n\\frac{1}{19/4}=\\frac{4}{19}\n$$\nmodel inches."
     },
     {
-      "title": "Find inches per foot",
-      "content": "Divide both sides by $\\frac{19}{4}$: $1$ foot of actual length corresponds to $\\frac{1}{19/4} = \\frac{4}{19}$ inch in the model."
-    },
-    {
-      "title": "Scale up to x feet",
-      "content": "For $x$ feet of actual length, multiply:<br/>$$x \\cdot \\frac{4}{19} = \\frac{4x}{19} \\text{ inches}$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>$\\frac{4x}{(19)(12)}$: includes an unnecessary factor of $12$ &mdash; eliminate.</li><li>$\\frac{19x}{(12)(4)}$: wrong ratio and extra $12$ &mdash; eliminate.</li><li>$\\frac{4x}{19}$: matches the derived expression.</li><li>$\\frac{19x}{4}$: this converts inches to feet, not the reverse &mdash; eliminate.</li></ul>That is the correct answer."
+      "title": "Multiply by actual length",
+      "content": "For $x$ actual feet, multiply by the number of model inches per actual foot:\n$$\nx\\cdot \\frac{4}{19}=\\frac{4x}{19}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

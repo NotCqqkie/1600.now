@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the dual requirement",
-      "content": "The prompt says the student wants to provide both an explanation of what <em>Sonic Meditations</em> is <strong>and</strong> a concrete example of one meditation. The correct choice must accomplish both goals."
+      "title": "Use explanation and example",
+      "content": "The student wants to explain what <em>Sonic Meditations</em> is and give a specific example. The notes define it as a series of sound-based exercises with instructions, and they provide examples from individual meditations."
     },
     {
-      "title": "Test each choice for explanation and example",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;<em>Sonic Meditations</em> is not music but rather a series of sound-based meditations that consist of instructions; Meditation XVIII, for instance, instructs participants to \"listen to a sound until you no longer recognize it.\"&rsquo;</strong>: opens with an explanation of what the work is, then pairs it with a specific example from Meditation XVIII. Both requirements met. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In 1971, Castillo created <em>Sonic Meditations</em>, a series of meditations that consist of instructions for participants to make, imagine, listen to, or remember sounds.&rsquo;</strong>: describes what the work is but gives no specific example of any single meditation. &#10007;</li><li><strong>Choice C &mdash; &lsquo;\"Walk so silently that the bottoms of your feet become ears\" is one example of the instructions found in Castillo's <em>Sonic Meditations</em>.&rsquo;</strong>: provides an example from Meditation V but never explains what <em>Sonic Meditations</em> is. &#10007;</li><li><strong>Choice D &mdash; &lsquo;While both meditations consist of instructions, Meditation XVIII instructs participants to \"listen,\" whereas Meditation V instructs participants to \"walk.\"&rsquo;</strong>: compares two meditations but does not explain what <em>Sonic Meditations</em> is as a concept. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject one-part responses",
+      "content": "B explains the work but gives no specific meditation as an example. C gives an example but does not explain what the work is. D compares two meditations without clearly explaining <em>Sonic Meditations</em> as a whole. The remaining choice does both required tasks. The answer is <strong>A</strong>."
     }
   ]
 }

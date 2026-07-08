@@ -1,0 +1,19 @@
+{
+  "questionId": "4c62023d",
+  "correctAnswer": "-20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fractions",
+      "content": "Multiply the equation by $80cx$:\n$$\n80=cx^2+80x\n$$\nRearrange it as a quadratic:\n$$\ncx^2+80x-80=0\n$$"
+    },
+    {
+      "title": "Use one-solution condition",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$:\n$$\n80^2-4(c)(-80)=0\n$$\n$$\n6400+320c=0\n$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Continue solving the linear equation:\n$$\n320c=-6400\n$$\nThe answer is <strong>-20</strong>."
+    }
+  ]
+}

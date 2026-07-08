@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the structure across the blank",
-      "content": "Reading what sits on each side of the blank reveals three pieces: (a) an independent clause &mdash; &quot;American writer Edwidge Danticat, who emigrated from Haiti in 1981, has won acclaim for her powerful short stories, novels, and essays&quot;; (b) a participial phrase &mdash; &quot;praising her lyrical yet unflinching depictions of her native country's turbulent history&quot;; (c) a second independent clause &mdash; &quot;writer Robert Antoni has compared Danticat to Nobel Prize-winning novelist Toni Morrison.&quot; The participial phrase logically modifies Robert Antoni (he is the one doing the praising), so it must be attached to the second clause, not the first."
+      "title": "Map the two sentence parts",
+      "content": "The words before the blank can form a complete sentence: \"American writer Edwidge Danticat, who emigrated from Haiti in 1981, has won acclaim for her powerful short stories, novels, and essays.\" The words after the blank introduce a new sentence about writer Robert Antoni comparing Danticat to Toni Morrison."
     },
     {
-      "title": "Apply the punctuation rule and eliminate the others",
-      "content": "Two independent clauses cannot be joined by a comma alone (the comma-splice rule). They must be separated by a period or semicolon, or joined by a comma plus a coordinating conjunction. The period in choice D ends the first independent clause cleanly, and &quot;Praising&hellip;history,&quot; then functions as an introductory participial phrase modifying &quot;writer Robert Antoni&quot; in the new sentence.<br/><ul><li><strong>Choice A &mdash; essays, praising</strong>: the comma attaches the participle &quot;praising&hellip;history&quot; to Danticat's essays, and the sentence then runs straight into the second independent clause (&quot;writer Robert Antoni has compared&hellip;&quot;) with no boundary &mdash; a misplaced participle plus a run-on. &#10007;</li><li><strong>Choice B &mdash; essays and praising</strong>: &quot;and praising&quot; tries to add the participle to the list (&quot;short stories, novels, and essays&quot;), but a participle does not parallel those nouns, and again nothing separates the second independent clause that follows. &#10007;</li><li><strong>Choice C &mdash; essays praising</strong>: with no punctuation, the participial phrase fuses into the first clause and slams into the second independent clause with no boundary &mdash; a fused/run-on sentence. &#10007;</li><li><strong>Choice D &mdash; essays. Praising</strong>: the period ends the first independent clause; &quot;Praising&hellip;history,&quot; becomes an introductory participial phrase correctly modifying the subject &quot;writer Robert Antoni&quot; in the next sentence. &#10003;</li></ul>"
+      "title": "Use a period before the phrase",
+      "content": "Because the first part is already an independent clause, it needs a real sentence boundary before the Robert Antoni sentence begins. A period after \"essays\" ends the first sentence. Then \"Praising her lyrical yet unflinching depictions of her native country's turbulent history\" introduces Antoni as the person doing the praising."
+    },
+    {
+      "title": "Eliminate boundary errors",
+      "content": "<ul><li><strong>Choice A - essays, praising</strong>: A comma alone cannot join the complete Danticat sentence to the complete Robert Antoni sentence, so this creates a comma splice.</li><li><strong>Choice B - essays and praising</strong>: \"And praising\" is not parallel with the nouns \"short stories, novels, and essays,\" and it still lacks a proper sentence boundary.</li><li><strong>Choice C - essays praising</strong>: With no punctuation, the sentence parts run together incorrectly.</li><li><strong>Choice D - essays. Praising</strong>: The period ends the first sentence, and \"Praising\" properly begins the introductory phrase for the Antoni sentence.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

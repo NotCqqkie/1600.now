@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the coefficients",
-      "content": "In $70T+85C=1{,}240$, $70T$ represents the points from triangle tokens, so each triangle token is worth $70$ points. Similarly, $85C$ shows each circle token is worth $85$ points."
+      "title": "Read the token values",
+      "content": "In $70T+85C=1{,}240$, the coefficient of $T$ shows that each triangle token is worth $70$ points. The coefficient of $C$ shows that each circle token is worth $85$ points."
     },
     {
       "title": "Find the difference",
-      "content": "A circle token is worth $85-70=15$ more points than a triangle token."
-    },
-    {
-      "title": "Match the choice",
-      "content": "The difference is $15$, which matches choice D."
+      "content": "Subtract the triangle-token value from the circle-token value:\n$$\n85-70=15\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

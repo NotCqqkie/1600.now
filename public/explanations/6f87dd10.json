@@ -1,0 +1,15 @@
+{
+  "questionId": "6f87dd10",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert miles to gallons",
+      "content": "The car travels $32$ miles per gallon, so after $d$ miles, the amount of gas used is<br/>$$\\frac{d}{32}$$<br/>gallons."
+    },
+    {
+      "title": "Subtract from the initial gas",
+      "content": "The tank starts with $12$ gallons. The remaining amount is the starting amount minus the amount used.<br/>$$f(d)=12-\\frac{d}{32}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

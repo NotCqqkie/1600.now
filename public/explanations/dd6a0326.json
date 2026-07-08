@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the opening participial phrase modifies",
-      "content": "The sentence opens with the participial phrase \"Named in 1999 as one of the greatest achievements by a US chemist in the past hundred years.\" A participial phrase must modify the noun that immediately follows it &mdash; that noun must be the thing that was named. The thing named as a great achievement is a synthesis, not a person or a date.<ul><li><strong>\"Julian synthesized the alkaloid physostigmine in 1935; it\"</strong>: Places \"Julian\" right after the phrase, implying Julian himself was named as one of the greatest achievements. Dangling modifier. &#10007;</li><li><strong>\"in 1935 Julian synthesized the alkaloid physostigmine, which\"</strong>: Places \"in 1935\" right after the phrase, implying a date was named as one of the greatest achievements. Dangling modifier. &#10007;</li><li><strong>\"Julian's 1935 synthesis of the alkaloid physostigmine\"</strong>: Places the noun phrase \"Julian's 1935 synthesis\" immediately after the participial phrase, correctly identifying what was named as one of the greatest achievements. &#10003;</li><li><strong>\"the alkaloid physostigmine was synthesized by Julian in 1935 and\"</strong>: Places \"the alkaloid physostigmine\" immediately after the phrase, implying the compound itself (not its synthesis) was named as the achievement. Dangling modifier. &#10007;</li></ul>"
+      "title": "Attach the opening phrase",
+      "content": "The opening phrase <em>Named in 1999 as one of the greatest achievements</em> must describe the noun that immediately follows it. The thing named as an achievement is Julian's synthesis of physostigmine, not Julian himself, the year 1935, or the alkaloid by itself."
     },
     {
-      "title": "Confirm the correct subject and eliminate the rest",
-      "content": "Only the noun that was actually named as an achievement can follow the participial phrase without creating a dangling modifier. That noun is \"Julian's 1935 synthesis.\" The other three options each place the wrong noun immediately after the opening phrase, violating the participial modifier rule. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Place the right noun",
+      "content": "C correctly begins with <em>Julian's 1935 synthesis</em>, so the modifier attaches to the achievement and that noun phrase can serve as the subject of <em>led</em>. A places Julian after the modifier. B places a date after it. D places the compound after it, implying the compound itself was named the achievement. The answer is <strong>C</strong>."
     }
   ]
 }

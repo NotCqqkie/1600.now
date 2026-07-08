@@ -1,0 +1,24 @@
+{
+  "questionId": "3b69cb76",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel slope",
+      "content": "Line $k$ has equation $y=7x+2$, so its slope is $7$. A parallel line must have the same slope."
+    },
+    {
+      "title": "Use the given point",
+      "content": "Line $j$ passes through $(0,3)$, so its $y$-intercept is $3$. With slope $7$, its equation is $y=7x+3$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing points $(0,3)$ and $(1,10)$ gives a line with slope $7$ and intercept $3$, which matches $y=7x+3$. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,1]",
+        "y_1=[3,10]",
+        "y=7x+2"
+      ]
+    }
+  ]
+}

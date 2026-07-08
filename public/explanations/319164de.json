@@ -1,0 +1,19 @@
+{
+  "questionId": "319164de",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage moves",
+      "content": "The passage first introduces a survey study in Bogota and Fortaleza and gives park-use results. It then considers whether nearby nonpark amenities explain the difference and rejects that explanation."
+    },
+    {
+      "title": "Reject inaccurate structures",
+      "content": "<ul><li><strong>Choice A</strong> describes two studies, but the passage presents one study.</li><li><strong>Choice C</strong> blames the survey method, which the passage does not do.</li><li><strong>Choice D</strong> invents an unresolved planning question.</li></ul>"
+    },
+    {
+      "title": "Match study and rejection",
+      "content": "The remaining choice accurately says the study is introduced, then a possible explanation for some results is considered and rejected. The answer is <strong>B</strong>."
+    }
+  ]
+}

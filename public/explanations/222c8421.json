@@ -1,0 +1,15 @@
+{
+  "questionId": "222c8421",
+  "correctAnswer": "1260",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function value",
+      "content": "The question asks for the input that makes $h(x)=630$. Since $h(x)=\\frac{x}{2}$, set the expression equal to $630$.<br/>$$\\frac{x}{2}=630$$"
+    },
+    {
+      "title": "Solve for the input",
+      "content": "Multiply both sides by $2$ to undo the division by $2$.<br/>$$x=630\\cdot2=1{,}260$$<br/>The answer is <strong>1260</strong>."
+    }
+  ]
+}

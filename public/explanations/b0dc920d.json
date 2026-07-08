@@ -1,24 +1,19 @@
 {
   "questionId": "b0dc920d",
-  "qid": "b0dc920d",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Write the height",
+      "content": "The container is a right cylinder, so its volume is base area times height. A height that is $5$ inches longer than the radius is\n$$\nh=r+5\n$$"
     },
     {
-      "title": "Step 1",
-      "content": "The volume of a right cylinder is $V = \\pi r^2 h$. The height is 5 inches longer than the radius, so $h = r + 5$."
+      "title": "Substitute into volume",
+      "content": "Use the cylinder volume formula:\n$$\nV=\\pi r^2h=\\pi r^2(r+5)\n$$"
     },
     {
-      "title": "Step 2",
-      "content": "Substitute: $V = \\pi r^2(r + 5)$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Distribute: $V = \\pi r^3 + 5\\pi r^2$."
+      "title": "Distribute the expression",
+      "content": "Multiply $\\pi r^2$ by each term in the parentheses:\n$$\nV=\\pi r^3+5\\pi r^2\n$$\nThe answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D",
-  "section": "Math"
+  ]
 }

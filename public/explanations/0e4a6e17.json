@@ -1,0 +1,19 @@
+{
+  "questionId": "0e4a6e17",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the point on the graph",
+      "content": "Since the graph passes through $(-4,0)$, substituting $x=-4$ must make $h(x)=0$.<br/>$$0=(-4+p)(-4-3)(2(-4)-10)$$"
+    },
+    {
+      "title": "Find the value of p",
+      "content": "The last two factors are not $0$, so the first factor must be $0$.<br/>$$-4+p=0$$<br/>$$p=4$$"
+    },
+    {
+      "title": "Evaluate at zero",
+      "content": "Now substitute $x=0$ into the function.<br/>$$h(0)=(0+4)(0-3)(2(0)-10)$$<br/>$$h(0)=4(-3)(-10)=120$$<br/>This matches choice D. The answer is <strong>D</strong>."
+    }
+  ]
+}

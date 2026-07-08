@@ -1,0 +1,15 @@
+{
+  "questionId": "c88765e6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define annular eclipse",
+      "content": "The previous sentence identifies the 899 BCE eclipse as annular. The following sentence explains what annular means: the Moon did not cover the Sun completely and instead created a ring of fire. The transition should introduce a definition or restatement."
+    },
+    {
+      "title": "Reject nondefinition links",
+      "content": "A introduces an example, but the sentence defines the term rather than giving one example of it. B signals simultaneous events, which is not the relationship. D signals contrast despite an obstacle, while the second sentence simply clarifies the prior term. The answer is <strong>C</strong>."
+    }
+  ]
+}

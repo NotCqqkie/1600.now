@@ -1,0 +1,19 @@
+{
+  "questionId": "d98d8f69",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common factor",
+      "content": "Both terms share a factor of $30$.<br/>$$7{,}680x^4-2{,}430=30(256x^4-81)$$"
+    },
+    {
+      "title": "Use difference of squares",
+      "content": "Continue factoring.<br/>$$256x^4-81=(16x^2)^2-9^2$$<br/>$$256x^4-81=(16x^2-9)(16x^2+9)$$<br/>$$256x^4-81=(4x-3)(4x+3)(16x^2+9)$$"
+    },
+    {
+      "title": "Identify the missing factor",
+      "content": "The full factorization is<br/>$$30(4x-3)(4x+3)(16x^2+9)$$The expression $4x^2-3$ is not one of these factors. The answer is <strong>B</strong>."
+    }
+  ]
+}

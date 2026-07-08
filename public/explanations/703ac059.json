@@ -1,0 +1,15 @@
+{
+  "questionId": "703ac059",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify what the question needs",
+      "content": "The sentence reads: \"Such interpretations are ultimately ______ the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.\" The blank must complete \"speculative\" and then use \"though\" to connect two independent clauses in a concessive relationship."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A — speculative, though</strong>: places a comma before \"though\" but nothing after it. The second independent clause follows \"though\" with no separator, making the boundary between the connector and the clause unclear — not Standard English punctuation for this structure. ✗</li><li><strong>Choice B — speculative, though,</strong>: places commas both before and after \"though.\" A comma after \"though\" would set it off as a parenthetical, but here \"though\" is doing structural work joining the clauses — a following comma creates a comma splice into the second clause. ✗</li><li><strong>Choice C — speculative; though</strong>: the semicolon comes before \"though,\" which separates the first clause from the connector. But \"though\" must be grouped with the second clause (i.e., what follows \"though\" is the concessive clause), so the semicolon goes after \"though,\" not before it. ✗</li><li><strong>Choice D — speculative, though;</strong>: comma before \"though\" closes the first independent clause; semicolon after \"though\" separates the connector from the second independent clause. This follows the Standard English pattern [IC], though; [IC] for concessive constructions. ✓</li></ul>That matches <strong>Choice D — speculative, though;</strong>."
+    }
+  ]
+}

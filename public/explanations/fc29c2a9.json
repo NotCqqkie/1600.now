@@ -1,0 +1,19 @@
+{
+  "questionId": "fc29c2a9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the sentence's job",
+      "content": "The question asks about the function of the underlined sentence in the passage as a whole. The sentence appears right after the passage mentions a U-shaped bone in the throats of two feline species. The underlined sentence does not add a new claim; it names that bone."
+    },
+    {
+      "title": "Use the following discussion",
+      "content": "After the underlined sentence, the passage repeatedly uses the term \"hyoid\" to explain why jungle cats can purr and why leopards and many other big cats can roar. That means the underlined sentence prepares readers for the later explanation by introducing the term that the passage will keep using."
+    },
+    {
+      "title": "Eliminate broader functions",
+      "content": "Choice B says the sentence explains the researchers' hypothesis, but the hypothesis is about why feline sounds differ. Choice C claims the sentence summarizes a debate, and no debate is presented. Choice D identifies the location of the bone, but that location is given in the previous sentence. The sentence introduces a term used later. The answer is <strong>A</strong>."
+    }
+  ]
+}

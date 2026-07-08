@@ -1,0 +1,15 @@
+{
+  "questionId": "2590cc16",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the student's claim",
+      "content": "The student claims that congestion increased during the 1990s in both very large cities and smaller areas, while the smaller areas may have been less affected. Supporting graph data should therefore show two things at once: a smaller area with lower delay than Philadelphia and an increase in delay over time."
+    },
+    {
+      "title": "Reject incomplete graph claims",
+      "content": "Choice A reverses the size comparison by saying Albany had greater delay than Philadelphia. Choice B gives only one Philadelphia data point and says nothing about smaller areas or trends. Choice C gives only a single low value, so it does not show worsening congestion. Choice D says Albany was always lower than Philadelphia while both areas rose from 1990 to 2000, matching the claim. The answer is <strong>D</strong>."
+    }
+  ]
+}

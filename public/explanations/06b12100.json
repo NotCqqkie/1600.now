@@ -1,0 +1,15 @@
+{
+  "questionId": "06b12100",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the study's pattern",
+      "content": "The study found that similarities in dog behavior between breeds correspond to genetic similarities, especially for trainability. If two breeds show similar trainability behavior, the study supports an inference about shared genetics behind that behavior."
+    },
+    {
+      "title": "Avoid overreaching",
+      "content": "Choice A claims the breeds are more trainable than most others, which is not stated. Choice B predicts future genetic divergence, which the study does not address. Choice C compares individual dogs across breeds, but the study concerns breed-level similarities. The remaining choice applies the genetic-basis pattern to the shared trainability behavior. The answer is <strong>D</strong>."
+    }
+  ]
+}

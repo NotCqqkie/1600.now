@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logic of the blank",
-      "content": "The passage says research in the 2010s <strong>suffered from a myopic focus</strong> on a few wealthy regions due to limited data. The next sentence says researchers would later ______ this shortcoming <em>after gaining new access</em> to records from Africa and Eastern Europe. The new data gave them a way to fix or improve the flaw&mdash;so the blank must mean <strong>make better or correct</strong>."
+      "title": "Use the shortcoming context",
+      "content": "The text says earlier income-inequality research had a shortcoming: a narrow focus on a few countries because of limited data. Later, researchers gained access to records in countries in Africa and Eastern Europe. The blank needs a word meaning they would make that shortcoming better."
     },
     {
-      "title": "Eliminate choices that do not mean &lsquo;correct or improve,&rsquo; then confirm the match",
-      "content": "<ul><li><strong>\"postulate\"</strong>: To postulate means to assert or assume something as a hypothesis. This would mean researchers proposed the shortcoming existed&mdash;not that they fixed it. &#10007;</li><li><strong>\"ameliorate\"</strong>: To ameliorate means to make something bad less severe or to improve it. New data from Africa and Eastern Europe let researchers correct the myopic regional focus&mdash;exactly the right fit. &#10003;</li><li><strong>\"sanction\"</strong>: To sanction means to officially approve or to penalize. Neither sense fits correcting a research flaw. &#10007;</li><li><strong>\"rationalize\"</strong>: To rationalize means to justify or explain away. This implies defending the shortcoming, not addressing it. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Eliminate wrong meanings",
+      "content": "Choice A, “postulate,” means propose. Choice C, “sanction,” means approve or penalize, neither of which fits fixing a shortcoming. Choice D, “rationalize,” means justify. The word meaning improve or lessen a problem fits. The answer is <strong>B</strong>."
     }
   ]
 }

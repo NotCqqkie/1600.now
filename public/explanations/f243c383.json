@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Track the exposed faces",
-      "content": "Let $s$ be the side length of each square base. Write the surface area of one prism, then write the surface area after the two prisms are glued together and the glued square faces are no longer exposed."
+      "title": "Write both surface areas",
+      "content": "Let $s$ be the side length of a square base. One prism has height $80$, so<br/>$$K=2s^2+4s(80)=2s^2+320s$$<br/>After the prisms are glued along a square base, the new prism has height $160$, so its surface area is<br/>$$2s^2+4s(160)=2s^2+640s$$"
     },
     {
-      "title": "Express surface area formulas",
-      "content": "A rectangular prism with square base of side $s$ and height $h$ has surface area $2s^2 + 4sh$.<br/><br/>For each given prism with height 80 cm:<br/>$$K = 2s^2 + 4s(80) = 2s^2 + 320s = 2s(s + 160)$$<br/>When two prisms are glued along a square base, they form a prism of height 160 cm:<br/>$$2s^2 + 4s(160) = 2s^2 + 640s = 2s(s + 320)$$"
-    },
-    {
-      "title": "Set up and simplify the ratio equation",
-      "content": "The combined surface area is $\\frac{33}{17}K$, so:<br/>$$\\frac{2s(s + 320)}{2s(s + 160)} = \\frac{33}{17}$$<br/>Factor out $2s$ and cancel:<br/>$$\\frac{s + 320}{s + 160} = \\frac{33}{17}$$"
+      "title": "Use the given ratio",
+      "content": "The combined surface area is $\\frac{33}{17}K$. Set up the ratio and cancel the common factor $2s$.<br/>$$\\frac{2s^2+640s}{2s^2+320s}=\\frac{33}{17}$$<br/>$$\\frac{s+320}{s+160}=\\frac{33}{17}$$"
     },
     {
       "title": "Solve for the side length",
-      "content": "Cross multiply:<br/>$$17(s + 320) = 33(s + 160)$$<br/>$$17s + 5440 = 33s + 5280$$<br/>$$160 = 16s$$<br/>$$s = 10$$<br/>That matches the correct answer - <strong>B</strong> is correct."
+      "content": "Cross-multiply and solve.<br/>$$17(s+320)=33(s+160)$$<br/>$$17s+5{,}440=33s+5{,}280$$<br/>$$160=16s$$<br/>$$s=10$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

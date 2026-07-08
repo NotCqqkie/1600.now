@@ -1,0 +1,19 @@
+{
+  "questionId": "ff149ad3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare distance from fifty",
+      "content": "Each list is centered at $50$, so the least standard deviation comes from the list whose values stay closest to $50$."
+    },
+    {
+      "title": "Check the tightest list",
+      "content": "For the list $49,50,50,50,51$, the deviations from $50$ are\n$$\n-1,0,0,0,1\n$$\nThe sum of squared deviations is\n$$\n1+0+0+0+1=2\n$$\nThe other lists include values farther from $50$, so they have larger spread."
+    },
+    {
+      "title": "Pick the least spread",
+      "content": "The list $49,50,50,50,51$ has the least spread, so it has the smallest standard deviation. The answer is <strong>D</strong>."
+    }
+  ]
+}

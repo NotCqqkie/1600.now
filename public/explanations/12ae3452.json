@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the value a = 10",
-      "content": "Substitute $a = 10$ into the equation $54 = 2a + 2b$:<br/>$$54 = 2(10) + 2b$$<br/>$$54 = 20 + 2b$$"
+      "title": "Substitute the given value",
+      "content": "Start with $54=2a+2b$ and substitute $a=10$.<br/>$$54=2(10)+2b$$<br/>$$54=20+2b$$"
     },
     {
-      "title": "Solve for b",
-      "content": "Subtract 20 from both sides to isolate the $b$ term:<br/>$$54 - 20 = 2b$$<br/>$$34 = 2b$$<br/>Divide both sides by 2:<br/>$$b = 17$$"
+      "title": "Solve for the side length",
+      "content": "Subtract $20$ from both sides, then divide by $2$.<br/>$$34=2b$$<br/>$$b=17$$<br/>The answer is <strong>17</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d7a7aa91",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce a role",
+      "content": "The first sentence says resins have several important roles in tree health. The next sentence gives one specific role: sealing wounds so insects and fungi cannot enter. The transition must introduce an example of the general claim."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice B signals contrast, but wound sealing supports the first sentence. Choice C signals something true despite an obstacle, and no obstacle appears. Choice D signals sequence, but the sentence gives an example rather than a next step. The needed transition introduces a specific instance. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "ce28c100",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Punctuate the interruption",
+      "content": "The phrase recommending evolving binary star systems is not an independent clause; it continues the sentence as a participial phrase. Therefore, however is interrupting one clause and should be set off with commas."
+    },
+    {
+      "title": "Keep one sentence",
+      "content": "Choice B uses a semicolon before however even though the following phrase is not independent. Choice C creates the same problem after a period. Choice D wrongly places a semicolon after however. The remaining choice uses commas to mark the interruption. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1c60cd0c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the range of examples",
+      "content": "The passage lists Chicago public art from monumental mosaics to innovative street murals. That range explains why the city's public art can satisfy any art lover."
+    },
+    {
+      "title": "Rule out negative nouns",
+      "content": "B suggests dispute, C suggests lack of clarity, and D suggests lack of interest. Those conflict with the positive description of varied public art. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the repeated output",
-      "content": "The table has $f(22)=-10$ and $f(28)=-10$. A factored quadratic that gives the same output at $x=22$ and $x=28$ is built from $(x-22)(x-28)$, because that product is $0$ at both inputs. To make the output $-10$ at those inputs, use $$f(x)=(x-22)(x-28)-10.$$"
+      "title": "Use the repeated value",
+      "content": "The table shows $f(22)=-10$ and $f(28)=-10$. The product $(x-22)(x-28)$ is $0$ at both of those inputs, so subtracting $10$ gives the needed output."
     },
     {
-      "title": "Use the equal outputs as a quick check",
-      "content": "The table also shows $f(22)=-10$ and $f(28)=-10$. In $f(x)=(x-22)(x-28)-10$, plugging in $x=22$ or $x=28$ makes the product 0, so both values are $-10$. Then $f(30)=(8)(2)-10=6$, matching the third row."
+      "title": "Check the third value",
+      "content": "Test the expression at $x=30$:\n$$\n(30-22)(30-28)-10=(8)(2)-10=6\n$$\nThis matches the table."
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li>A: $f(x)=(x-22)(x-28)+5$ gives $f(22)=5\\neq-10$. Eliminated.</li><li>B: $f(x)=(x-22)(x-28)-10$ gives $f(22)=-10$, $f(28)=-10$, $f(30)=6$. All match.</li><li>C: $f(x)=(x-10)(x-30)+30$ gives $f(30)=30\\neq6$. Eliminated.</li><li>D: $f(x)=(x-10)(x-30)-30$ gives $f(30)=-30\\neq6$. Eliminated.</li></ul>That is the correct answer."
+      "title": "Select the equation",
+      "content": "The function is\n$$\nf(x)=(x-22)(x-28)-10\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

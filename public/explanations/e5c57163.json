@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the linear scale factor",
-      "content": "Square A's sides are 154 times square B's sides. The linear scale factor is $r = 154$."
+      "title": "Identify the scale factor",
+      "content": "Square A's sides are $154$ times square B's, so the scale factor is $154$."
     },
     {
-      "title": "Apply the area scaling rule",
-      "content": "When linear dimensions scale by factor $r$, areas of similar figures scale by $r^2$. With $r = 154$, the area ratio $k$ equals $154^2$.",
+      "title": "Use area scaling",
+      "content": "Areas scale by the square of the side-length scale factor, so $k=154^2$.",
       "formula": "$$k = r^2$$"
     },
     {
-      "title": "Calculate k",
-      "content": "$$k = 154^2 = 23716$$<br/>Therefore $k = 23716$."
+      "title": "Calculate the area ratio",
+      "content": "Evaluate the square: $k=154^2=23716$. The answer is <strong>23716</strong>."
     }
   ]
 }

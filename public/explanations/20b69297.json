@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the ratio of yellow to blue from the first batch",
-      "content": "The first batch mixed 2 ounces of blue with 3 ounces of yellow. The ratio of yellow to blue is $\\frac{3}{2} = 1.5$. This means that yellow is always 1.5 times the blue amount in any batch made with this ratio."
+      "title": "Find the paint ratio",
+      "content": "The first batch uses $2$ ounces of blue paint and $3$ ounces of yellow paint. The ratio of yellow paint to blue paint is<br/>$$\\frac{3}{2}=1.5$$"
     },
     {
-      "title": "Apply the ratio to the second batch",
-      "content": "For the second batch, Anita uses 5 ounces of blue paint. The second batch needs yellow paint equal to $1.5 \\times 5 = 7.5$ ounces.<br/><br/><strong>Choice D &mdash; 1.5 times the amount of blue paint used in the second batch</strong> says <em>1.5 times the amount of blue paint used in the second batch</em>, which is exactly this calculation.<br/><br/>That matches <strong>Choice D &mdash; 1.5 times the amount of blue paint used in the second batch</strong>."
+      "title": "Apply the same ratio",
+      "content": "The second batch must use yellow paint equal to $1.5$ times its blue paint. With $5$ ounces of blue paint, that amount is<br/>$$1.5(5)=7.5$$The correct description is $1.5$ times the amount of blue paint used in the second batch. The answer is <strong>D</strong>."
     }
   ]
 }

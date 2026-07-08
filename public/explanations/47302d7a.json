@@ -1,0 +1,15 @@
+{
+  "questionId": "47302d7a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the timing claim",
+      "content": "The team's claim says the mutation strongly affects dog size and existed before humans began deliberately breeding dogs, which the passage places within the last 12,000 years."
+    },
+    {
+      "title": "Use older genetic evidence",
+      "content": "Finding the mutation in a dog ancestor 53,000 years ago directly supports the idea that it predates human breeding. B only compares wolves and Pomeranians, C does not address when the mutation arose, and D concerns overall dog size variation. The answer is <strong>A</strong>."
+    }
+  ]
+}

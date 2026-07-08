@@ -1,0 +1,19 @@
+{
+  "questionId": "0916f4fb",
+  "correctAnswer": "800",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both mass equations",
+      "content": "Convert each percent relationship into an equation.<br/>$$A=3.84B$$<br/>and<br/>$$A=0.00048C$$"
+    },
+    {
+      "title": "Compare C to B",
+      "content": "Set the two expressions for $A$ equal and solve for $C$.<br/>$$3.84B=0.00048C$$<br/>$$C=\\frac{3.84}{0.00048}B$$<br/>$$C=8{,}000B$$"
+    },
+    {
+      "title": "Convert to the requested value",
+      "content": "If $C=8{,}000B$, then $C$ is $800{,}000\\%$ of $B$, so $p=800{,}000$.<br/>$$\\frac{p}{1{,}000}=\\frac{800{,}000}{1{,}000}=800$$<br/>The answer is <strong>800</strong>."
+    }
+  ]
+}

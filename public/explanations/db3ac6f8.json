@@ -1,0 +1,15 @@
+{
+  "questionId": "db3ac6f8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the constants",
+      "content": "Start with\n$$\n(x+k)^2+49=49\n$$\nSubtract $49$ from both sides:\n$$\n(x+k)^2=0\n$$"
+    },
+    {
+      "title": "Count the solution",
+      "content": "A square equals $0$ only when its base equals $0$, so $x+k=0$ gives one real solution. The answer is <strong>B</strong>."
+    }
+  ]
+}

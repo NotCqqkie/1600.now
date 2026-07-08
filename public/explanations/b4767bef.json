@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the perimeter total",
+      "content": "The perimeter is the sum of the three side lengths. If the third side is $x$ centimeters, the equation is $$5+7+x=21$$"
     },
     {
-      "title": "Set up the perimeter equation",
-      "content": "The perimeter of a triangle equals the sum of all three sides. We're given two sides (5 cm and 7 cm) and the perimeter (21 cm). Let the unknown side be $x$:<br/>$$5 + 7 + x = 21$$"
-    },
-    {
-      "title": "Solve for the third side",
-      "content": "Combine the known sides on the left:<br/>$$12 + x = 21$$<br/>Subtract 12 from both sides:<br/>$$x = 9$$<br/>That matches <strong>Choice B &mdash; $9$</strong>."
+      "title": "Subtract the known sides",
+      "content": "First combine the given side lengths, then subtract that sum from the perimeter: $$12+x=21$$ $$x=21-12$$ $$x=9$$ The answer is <strong>B</strong>."
     }
   ]
 }

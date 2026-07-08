@@ -1,0 +1,15 @@
+{
+  "questionId": "4e57540d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect counting to evaluation",
+      "content": "The study aims to evaluate conservation strategies, but the text says northern muriquis are hard to count accurately. If researchers cannot reliably tell whether the population is rising, falling, or stable, strategy effectiveness will be hard to judge."
+    },
+    {
+      "title": "Reject unrelated outcomes",
+      "content": "A invents a new counting methodology, C shifts to adding other species, and D invents a problem about overlooked conservation approaches. The counting difficulty creates a risk of inaccurate conclusions about which strategies work. The answer is <strong>B</strong>."
+    }
+  ]
+}

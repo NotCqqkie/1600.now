@@ -1,0 +1,15 @@
+{
+  "questionId": "324e1a9c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Estimate the intercept",
+      "content": "The data trend downward and appear to be near $90$ when $x$ is near $0$. So the model should have a negative slope and a $y$-intercept near $90$."
+    },
+    {
+      "title": "Estimate the slope",
+      "content": "The data drop by about $90$ units over about $9$ horizontal units, so the slope should be close to\n$$\n\\frac{-90}{9}=-10\n$$\nThe equation with intercept $90$ and slope $-10$ is $y=90-10x$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Walking takes a fixed 24 minutes. Taking the bus takes $w$ minutes of waiting plus 6 minutes of riding, for a total of $w + 6$ minutes."
+      "title": "Write the bus time",
+      "content": "Walking takes $24$ minutes. Taking the bus takes $w$ minutes of waiting plus $6$ minutes of riding, for a total of $w+6$ minutes."
     },
     {
-      "title": "Step 2",
-      "content": "Walking is faster than the bus when the walking time is less than the bus total time: $24 \\lt w + 6$, which rearranges to $w + 6 \\gt 24$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate each choice:<ul><li>$w -6 \\lt 24$ simplifies to $w \\lt 30$. This is true for much of the 0&ndash;36 range and does not identify when walking is faster. Incorrect.</li><li>$w -6 \\gt 24$ simplifies to $w \\gt 30$, which comes from subtracting rather than adding the ride time. Incorrect.</li><li>$w + 6 \\lt 24$ simplifies to $w \\lt 18$. This says the bus is faster than walking, the opposite of what is asked. Incorrect.</li><li>The matching choice: $w + 6 \\gt 24$ directly states that the total bus time exceeds the 24-minute walk, so walking is faster. <strong>D</strong> is correct.</li></ul>"
+      "title": "Compare the two routes",
+      "content": "Walking is faster when the walking time is less than the total bus time. That means the $24$-minute walk must take less time than waiting for the bus and then riding it.<br/>$$24<w+6$$<br/>Equivalently,<br/>$$w+6>24$$<br/>This matches the inequality that says the bus trip would take more than $24$ minutes. The answer is <strong>D</strong>."
     }
   ]
 }

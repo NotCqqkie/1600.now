@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a modifier placement (dangling modifier) question. The introductory phrase \"Upon recovering two years later\" must modify the subject of the main clause. That subject must be Henry — he is the one who recovered — and the main clause must then logically connect to forcing Richard from court."
+      "title": "Attach the opening phrase",
+      "content": "\"Upon recovering two years later\" must describe Henry VI, because he is the person who recovered from illness."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Henry resumed his reign,\"</strong>: Places \"Henry\" immediately after the introductory phrase, so it correctly modifies him. Henry (a person) logically recovered and then forced Richard from court. &#10003;</li><li><strong>\"the reign of Henry resumed,\"</strong>: Dangling modifier — \"the reign of Henry\" becomes the subject, illogically implying that Henry's reign (not Henry himself) recovered from illness. &#10007;</li><li><strong>\"Henry's reign resumed,\"</strong>: Also a dangling modifier — \"Henry's reign\" is the subject, again suggesting the reign recovered from illness rather than Henry. &#10007;</li><li><strong>\"it was Henry who resumed his reign,\"</strong>: A cleft construction that places \"it\" as the grammatical subject immediately after the phrase, creating a dangling modifier: \"it\" illogically appears to be what recovered two years later. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose the logical subject",
+      "content": "The main clause must therefore begin with Henry as the subject. B and C illogically make the reign recover, and D places the vague pronoun \"it\" after the modifier. The participial opening needs the person who recovered, not an abstract noun or placeholder pronoun. The answer is <strong>A</strong>."
     }
   ]
 }

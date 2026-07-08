@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Transitions question. The previous sentence describes Lily Wong winning a court case in January 1885; the sentence with the blank describes her writing an open letter in April 1885. The transition must signal the correct logical relationship between these two events."
+      "title": "Track the timeline",
+      "content": "The passage first describes Wong's court victory in January 1885. The sentence with the blank describes a separate action in April of the same year."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Later,</strong>: Signals that April&apos;s open letter came after January&apos;s court victory &mdash; a straightforward chronological sequence. This fits perfectly. &#10003;</li><li><strong>Choice B — For instance,</strong>: Signals that the second sentence is an example of the first. But the open letter is not an example of winning a court case; it is a separate event that happened afterward. &#10007;</li><li><strong>Choice C — In other words,</strong>: Signals that the second sentence restates or paraphrases the first. The open letter is not a restatement of the court victory; it is a distinct action. &#10007;</li><li><strong>Choice D — Rather,</strong>: Signals contrast or an alternative. The open letter is not an alternative to or contrast with the court case; both are acts of civil rights advocacy. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject nonchronological links",
+      "content": "Choice B makes the letter an example of the court victory. Choice C makes it a restatement. Choice D signals contrast. None fits two events presented in time order."
+    },
+    {
+      "title": "Choose sequence",
+      "content": "Later correctly shows that the April open letter occurred after the January court case. The answer is <strong>A</strong>."
     }
   ]
 }

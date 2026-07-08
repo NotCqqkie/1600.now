@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "Before the blank: &ldquo;By linking the Hudson River to Lake Erie&rdquo; &mdash; a participial (introductory) phrase. After the blank: &ldquo;the canal reduced transport time to nine days and cut costs to six dollars per ton&rdquo; &mdash; a complete independent clause. An introductory participial phrase must be followed by a comma, and nothing else.<ul><li><strong>\"Erie; the\"</strong>: A semicolon joins two independent clauses, but the participial phrase before the blank is not an independent clause. &#10007;</li><li><strong>\"Erie (the\"</strong>: An open parenthesis signals a parenthetical insertion, but the rest of the sentence is the main clause, not a parenthetical. &#10007;</li><li><strong>\"Erie, the\"</strong>: A comma correctly separates the introductory participial phrase from the independent clause that follows. &#10003;</li><li><strong>\"Erie: the\"</strong>: A colon introduces a list or elaboration after an independent clause, but the phrase before the blank is not an independent clause. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Find the sentence boundary",
+      "content": "By linking the Hudson River to Lake Erie is an introductory participial phrase. The main clause begins with the canal reduced transport time, so the introductory phrase needs only a comma before the subject."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "Rule: introductory participial phrase + comma + independent clause. Only a comma (Erie, the) fits this structure. Every other option requires what comes before the blank to be an independent clause, which it is not.<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use the comma",
+      "content": "A semicolon and D colon would require an independent clause before the punctuation, and B incorrectly opens a parenthesis before the main clause. A comma correctly separates the introductory phrase from the sentence's main clause. The answer is <strong>C</strong>."
     }
   ]
 }

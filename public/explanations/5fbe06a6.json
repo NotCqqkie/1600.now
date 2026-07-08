@@ -1,0 +1,19 @@
+{
+  "questionId": "5fbe06a6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two texts",
+      "content": "Text 1 presents the principle that predators control prey population numbers, supported by a mouse study in New Zealand. Text 2 does not reject that evidence; it says many predation relief studies do show increases in prey abundance. So the principle has evidential support."
+    },
+    {
+      "title": "Limit the principle",
+      "content": "Text 2 then adds an important limit: excluding coyotes had no significant effect on white-tailed deer abundance. It explains that many supporting studies involve small, rapidly reproducing prey, while deer are large and slowly reproducing. That difference suggests the principle should not be treated as universal."
+    },
+    {
+      "title": "Avoid invented objections",
+      "content": "Choice A invents methodological flaws. Choice B discusses whether contrary findings are widely accepted, which Text 2 never addresses. Choice C wrongly focuses on predator traits rather than prey traits. The answer is <strong>D</strong>."
+    }
+  ]
+}

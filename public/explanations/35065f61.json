@@ -1,0 +1,24 @@
+{
+  "questionId": "35065f61",
+  "correctAnswer": "3626",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the scale factor",
+      "content": "Each side of rectangle NPQR is $7$ times the corresponding side of rectangle JKLM, so the linear scale factor is $7$."
+    },
+    {
+      "title": "Square the scale factor",
+      "content": "Areas of similar figures scale by the square of the linear scale factor:<br/>$$7^2=49$$",
+      "formula": "$$\\text{Area scale factor} = k^2$$"
+    },
+    {
+      "title": "Find the larger area",
+      "content": "Multiply the original area by the area scale factor:<br/>$$74\\cdot 49=3{,}626$$"
+    },
+    {
+      "title": "State the area",
+      "content": "The area of rectangle NPQR is $3{,}626$ square units. The answer is <strong>3626</strong>."
+    }
+  ]
+}

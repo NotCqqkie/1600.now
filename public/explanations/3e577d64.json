@@ -1,0 +1,15 @@
+{
+  "questionId": "3e577d64",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the elevations",
+      "content": "The previous sentence says snowpack was deepest in early March at lower elevations. The blank introduces a different timing at higher elevations, where snowpack was deepest in mid-March. The transition must signal contrast."
+    },
+    {
+      "title": "Reject noncontrast transitions",
+      "content": "A signals a restatement, but the second finding is not the same idea in different words. B signals an example, but higher-elevation data is not an example of lower-elevation data. D signals summary, but the sentence adds new information. The answer is <strong>C</strong>."
+    }
+  ]
+}

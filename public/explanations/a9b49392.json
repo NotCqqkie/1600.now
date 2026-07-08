@@ -1,0 +1,23 @@
+{
+  "questionId": "a9b49392",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the difference",
+      "content": "Use the difference of squares.<br/>$$x^2-y^2=(x-y)(x+y)$$<br/>So the first equation becomes<br/>$$(x-y)(x+y)=39$$"
+    },
+    {
+      "title": "Use the given difference",
+      "content": "The second equation gives $x-y=3$. Substitute that into the factored equation.<br/>$$3(x+y)=39$$<br/>$$x+y=13$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the system and read the value of $x+y$ from the intersection. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x^2 - y^2 = 39",
+        "x - y = 3"
+      ]
+    }
+  ]
+}

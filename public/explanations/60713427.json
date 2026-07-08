@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the parenthetical interruption",
-      "content": "The phrase “among their many roles” is followed by a comma before “provide”—this signals that the phrase is parenthetical, offering extra information within the sentence structure."
+      "title": "Find the inserted phrase",
+      "content": "The phrase \"among their many roles\" interrupts the sentence between that and provide. Because it is extra information, it needs matching punctuation before and after the interruption."
     },
     {
-      "title": "Match paired punctuation for the parenthetical phrase",
-      "content": "The rule is that parenthetical phrases require punctuation both before and after.<br/><br/>The closing comma is already present after “roles,” so an opening comma after “that” completes the pairing.<br/><br/>The semicolon, colon, and em-dash don't create this required pairing for a parenthetical insertion.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject mismatched marks",
+      "content": "Choice A uses a dash before a phrase closed with a comma. Choice B uses a semicolon, which cannot separate that from its verb. Choice D uses a colon, which does not set off the interruption."
+    },
+    {
+      "title": "Pair the commas",
+      "content": "A comma after that pairs with the comma after roles, neatly setting off \"among their many roles.\" The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "ecf9b93f",
+  "correctAnswer": "527.7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slant heights",
+      "content": "The base area is\n$$\n18\\cdot 9=162\n$$\nFor the two faces with base $18$, the slant height uses half the width:\n$$\n\\sqrt{4.5^2+12^2}=\\sqrt{164.25}=\\frac{3\\sqrt{73}}{2}\n$$\nFor the two faces with base $9$, the slant height uses half the length:\n$$\n\\sqrt{9^2+12^2}=15\n$$"
+    },
+    {
+      "title": "Add the face areas",
+      "content": "The two triangular faces with base $18$ have total area\n$$\n2\\cdot \\frac{1}{2}\\cdot 18\\cdot \\frac{3\\sqrt{73}}{2}=27\\sqrt{73}\n$$\nThe two triangular faces with base $9$ have total area\n$$\n2\\cdot \\frac{1}{2}\\cdot 9\\cdot 15=135\n$$"
+    },
+    {
+      "title": "Compute total surface area",
+      "content": "Add the base area and triangular face areas: $162+135+27\\sqrt{73}=297+27\\sqrt{73}$. This is about $527.7$. The answer is <strong>527.7</strong>."
+    }
+  ]
+}

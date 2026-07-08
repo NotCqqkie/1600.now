@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the probability formula",
-      "content": "For a random selection, probability equals the ratio of favorable outcomes to total outcomes.<br/><br/>Favorable outcomes (mystery books): 5<br/>Total outcomes (all books): 10<br/>$$P(\\text{mystery}) = \\frac{\\text{number of mystery books}}{\\text{total number of books}} = \\frac{5}{10}$$"
+      "title": "Set up the probability",
+      "content": "There are $5$ mystery books out of $10$ total books, so\n$$P(\\text{mystery})=\\frac{5}{10}$$"
     },
     {
       "title": "Simplify the fraction",
-      "content": "Reduce the fraction by dividing both numerator and denominator by 5:<br/>$$\\frac{5}{10} = \\frac{5 \\div 5}{10 \\div 5} = \\frac{1}{2}$$<br/>That matches the correct answer - <strong>C</strong> is correct."
+      "content": "Divide the numerator and denominator by $5$.\n$$\\frac{5}{10}=\\frac{1}{2}$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

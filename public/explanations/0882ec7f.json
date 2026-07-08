@@ -1,0 +1,15 @@
+{
+  "questionId": "0882ec7f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a count below 31",
+      "content": "The assertion says 31 blackspotted rockskippers at station 3 was not the lowest count at any station. To support that, the completion must identify a table entry lower than 31 and report it accurately."
+    },
+    {
+      "title": "Check each data claim",
+      "content": "A gives a lower number but misquotes the species and station, B gives 610, and D gives 50. Those values do not prove a lower accurate count than 31. The accurate lower count is 16 barred flagtails at station 3. The answer is <strong>C</strong>."
+    }
+  ]
+}

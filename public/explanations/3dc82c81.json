@@ -1,0 +1,19 @@
+{
+  "questionId": "3dc82c81",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice proposed versus current",
+      "content": "The first sentence describes proposed wind farms and uses \"would generate\" for future capacity. The second sentence gives the current record for a single offshore wind farm."
+    },
+    {
+      "title": "Reject imprecise links",
+      "content": "A suggests the current record is predictable, which the passage does not show. C marks a general contrast but misses the time shift. D signals similarity, though the proposed values are much larger than the current record."
+    },
+    {
+      "title": "Mark the present record",
+      "content": "Presently signals the move from proposed future capacities to what is currently true. The answer is <strong>B</strong>."
+    }
+  ]
+}

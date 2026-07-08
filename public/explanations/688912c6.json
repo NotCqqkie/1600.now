@@ -1,0 +1,15 @@
+{
+  "questionId": "688912c6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Preserve the paired phrase",
+      "content": "The sentence uses the paired construction <em>not only</em> and <em>but also</em> to connect two parallel prepositional phrases: <em>by cyclones</em> and <em>by vapor streams</em>. Because those two phrases are part of one correlative structure, no punctuation should interrupt the connection between them."
+    },
+    {
+      "title": "Remove internal breaks",
+      "content": "Choice A places a dash after <em>cyclones</em>, breaking the link before <em>but also</em>. Choice B surrounds <em>not only by cyclones</em> with dashes, treating it as an interruption instead of part of the core structure. Choice C uses commas in the same disruptive way. The remaining choice keeps <em>caused not only by cyclones but also by vapor streams</em> as one smooth, parallel construction. The answer is <strong>D</strong>."
+    }
+  ]
+}

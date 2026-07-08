@@ -1,0 +1,15 @@
+{
+  "questionId": "f359385d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the controlled variable",
+      "content": "Soil moisture can vary in the wild and influence plant chemistry. Walsh and colleagues avoided that confound by growing individually potted mustard plants in a controlled environment while introducing different microbial communities."
+    },
+    {
+      "title": "Reject misstated goals",
+      "content": "A overstates what the method proves, B says the study re-created wild conditions, and C reverses the issue by focusing on microbial effects on moisture. The controlled method separates microbial-community effects from moisture effects that could appear in nature. The answer is <strong>D</strong>."
+    }
+  ]
+}

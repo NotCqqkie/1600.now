@@ -1,0 +1,15 @@
+{
+  "questionId": "616387a9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the title and name together",
+      "content": "The blank completes the compound subject: \"chemistry professor Yugang Sun and his colleagues.\" The professional title and the person's name form one uninterrupted noun phrase, so no comma should separate them or cut the subject off before \"and his colleagues.\""
+    },
+    {
+      "title": "Reject comma breaks",
+      "content": "Choice B incorrectly places a comma after the name, separating Sun from \"and his colleagues.\" Choice C incorrectly separates \"professor\" from the name. Choice D makes both comma errors. The version with no commas keeps the title-name unit intact. The answer is <strong>A</strong>."
+    }
+  ]
+}

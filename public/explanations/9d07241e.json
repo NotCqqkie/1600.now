@@ -1,0 +1,15 @@
+{
+  "questionId": "9d07241e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the true subject",
+      "content": "In the clause after \"that,\" the full subject is \"her book's musings on tenth-century Japanese courtly life.\" The head noun is \"musings,\" which is plural, so the verb in the blank must agree with a plural subject."
+    },
+    {
+      "title": "Match the plural subject",
+      "content": "Choice B uses singular \"has,\" choice C uses singular \"is,\" and choice D uses the singular verb \"fascinates.\" The plural subject \"musings\" requires the plural present-tense verb \"fascinate.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

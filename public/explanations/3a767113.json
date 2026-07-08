@@ -1,0 +1,19 @@
+{
+  "questionId": "3a767113",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared concern",
+      "content": "Both texts focus on whether studies of nutrient transfer can rule out non-CMN pathways. Text 1 says Chen's study lacked the barrier step, and Text 2 says even Alvarez's barriers could allow another pathway through liquids."
+    },
+    {
+      "title": "Rule out unshared questions",
+      "content": "Choice A asks about the availability of a barrier material, which Text 1 does not address. Choice C would split the authors' views about Alvarez's design. Choice D raises root-to-root and CMN transfer together, which neither text directly settles."
+    },
+    {
+      "title": "Choose Chen's pathway issue",
+      "content": "Both authors would point to the same conclusion about Chen's study: it did not effectively exclude nutrient pathways other than a CMN. The answer is <strong>B</strong>."
+    }
+  ]
+}

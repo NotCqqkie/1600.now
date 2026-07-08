@@ -1,0 +1,15 @@
+{
+  "questionId": "1e095ec0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The sentence already has the main verb phrase \"might yield.\" The blank is inside the noun phrase about a New Historicist analysis of historical context, so it must modify \"analysis\" rather than create another main verb."
+    },
+    {
+      "title": "Reject finite verb phrases",
+      "content": "A, B, and C are finite verb phrases, so each would create two main verbs in one clause. A present participle can modify \"analysis\" while leaving \"might yield\" as the main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

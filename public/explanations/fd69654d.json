@@ -1,0 +1,15 @@
+{
+  "questionId": "fd69654d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find where the line crosses",
+      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. At that point, the $x$-coordinate is $0$."
+    },
+    {
+      "title": "Read the intercept point",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,-4)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

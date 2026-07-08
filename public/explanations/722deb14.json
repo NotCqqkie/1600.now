@@ -1,0 +1,15 @@
+{
+  "questionId": "722deb14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the concession",
+      "content": "The first sentence gives the general pattern: many elements were isolated soon after discovery. The next sentence says this was not true for all elements, then gives europium as an example. The blank must acknowledge the general statement while introducing an exception."
+    },
+    {
+      "title": "Test the transition choices",
+      "content": "A signals a result, but the second sentence is not a consequence of the first. C signals similarity, and D signals restatement; neither fits a contrast with the general pattern. A concession transition is needed because the sentence accepts the first point before limiting it. The answer is <strong>B</strong>."
+    }
+  ]
+}

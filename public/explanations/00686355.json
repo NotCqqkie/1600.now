@@ -1,0 +1,19 @@
+{
+  "questionId": "00686355",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage sequence",
+      "content": "The question asks for the overall structure, so the explanation needs to follow the passage from beginning to end. The text begins broadly with historical shipwrecks and researchers' interest in their effects on sea life and ecosystems. It then narrows to Rahman and colleagues' study of wooden shipwrecks and seafloor microbial communities."
+    },
+    {
+      "title": "Reject invented details",
+      "content": "Choice A is wrong because the passage never describes the historical significance of the <em>Cygne</em>; it only names that shipwreck as one example. Choice B is wrong because the passage never says the study received significant scholarly attention or describes the team's reaction. Choice C is wrong because the passage never says the <em>Cygne</em> was famous, identifies its building material, or explains how that ship's wood affected microbes."
+    },
+    {
+      "title": "Choose the matching structure",
+      "content": "The remaining structure matches the whole passage in order. First, the text notes general scientific interest in shipwrecks' ecological effects. Next, it describes a specific study connected to that interest: placing pine and oak samples at different distances from two shipwrecks. Finally, it reports one finding from that study, that microbial diversity and richness peaked about 125 meters from the shipwrecks. The answer is <strong>D</strong>."
+    }
+  ]
+}

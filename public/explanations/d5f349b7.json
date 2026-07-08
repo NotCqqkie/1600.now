@@ -9,7 +9,7 @@
     },
     {
       "title": "Use similarity to find angle S",
-      "content": "The triangles are similar with $P$ corresponding to $S$. In similar triangles, corresponding angles are equal:<br/>$$\\angle S = \\angle P = 72^{\\circ}$$<br/>That matches the correct answer — <strong>B</strong> is correct."
+      "content": "The triangles are similar with $P$ corresponding to $S$. In similar triangles, corresponding angles are equal:<br/>$$\\angle S = \\angle P = 72^{\\circ}$$<br/>That matches the correct answer."
     }
   ]
 }

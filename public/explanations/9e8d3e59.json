@@ -1,0 +1,23 @@
+{
+  "questionId": "9e8d3e59",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "The function values give the points $(2,3)$ and $(6,5)$. The slope is:\n$$m=\\frac{5-3}{6-2}=\\frac{2}{4}=\\frac{1}{2}$$",
+      "desmosExpressions": [
+        "x_1=[2,6]",
+        "y_1=[3,5]"
+      ]
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Use $y=mx+b$ with the point $(2,3)$:\n$$3=\\frac{1}{2}(2)+b$$\n$$3=1+b$$\n$$b=2$$"
+    },
+    {
+      "title": "Write the function rule",
+      "content": "Combine the slope and intercept:\n$$f(x)=\\frac{1}{2}x+2$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

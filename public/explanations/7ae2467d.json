@@ -1,0 +1,15 @@
+{
+  "questionId": "7ae2467d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the positive context",
+      "content": "The reception has been very good, and the book won an award. The blank must name a positive action that reviewers, booksellers, and librarians might take toward a well-received book."
+    },
+    {
+      "title": "Eliminate negative meanings",
+      "content": "Choice A means criticized, Choice B means ignored, and Choice D means interpreted wrongly; all conflict with the praise and award. The remaining word means endorsed or suggested positively. The answer is <strong>C</strong>."
+    }
+  ]
+}

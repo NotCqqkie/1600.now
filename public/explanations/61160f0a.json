@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the main verb of the sentence",
-      "content": "The sentence already has a finite main verb later on: &quot;Author Madeline L'Engle... <strong>begins</strong> her novel A Wrinkle in Time with descriptions of...&quot; The blank sits inside a phrase set off by commas between the subject and that main verb."
+      "title": "Locate the main verb",
+      "content": "The sentence's main verb is <strong>begins</strong>. The blank appears in a phrase set off by commas between the subject and that main verb."
     },
     {
-      "title": "Choose a non-finite form for the modifier slot",
-      "content": "A modifier between subject and main verb must not introduce a second finite verb. A present participle (-ing) forms a participial phrase that modifies the subject: &quot;L'Engle, looking to create a suspenseful tone..., begins...&quot;"
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;looked&rsquo;</strong>: finite past-tense verb; produces two main verbs (looked / begins) for one subject. Verb-form error. &#10007;</li><li><strong>Choice B &mdash; &lsquo;looks&rsquo;</strong>: finite present-tense verb; same two-main-verb problem. Verb-form error. &#10007;</li><li><strong>Choice C &mdash; &lsquo;is looking&rsquo;</strong>: finite progressive; still a second main verb attached to L'Engle. Verb-form error. &#10007;</li><li><strong>Choice D &mdash; &lsquo;looking&rsquo;</strong>: present participle forming a modifier phrase, leaving &quot;begins&quot; as the lone main verb. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Use a modifier form",
+      "content": "Choice A, Choice B, and Choice C are finite verb forms, so each would create a second main verb for the same subject. A present participle forms a descriptive phrase that modifies the author while leaving <strong>begins</strong> as the main verb. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "2f40a868",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the greatest common factor",
+      "content": "The greatest common factor of $32x$ and $56$ is $8$. Factoring by $8$ means each original term must be split into the outside factor and the remaining inside factor."
+    },
+    {
+      "title": "Rewrite the expression",
+      "content": "$$32x+56=8(4x)+8(7)=8(4x+7)$$The equivalent expression is $8(4x+7)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

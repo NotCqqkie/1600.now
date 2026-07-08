@@ -1,0 +1,15 @@
+{
+  "questionId": "b0c3e1c3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the causal wording",
+      "content": "The sentence explains why the springbok is much slower than the peregrine falcon: features that make flight possible limit top speed less than features suited for running on land. The blank should describe the speed difference as the result of that fact."
+    },
+    {
+      "title": "Reject reversed meanings",
+      "content": "B means a denial or rejection, but the text accepts the fact as an explanation. C means a goal, while the speed difference is an observed result. D reverses the logic by making the difference explain the fact instead of result from it. The answer is <strong>A</strong>."
+    }
+  ]
+}

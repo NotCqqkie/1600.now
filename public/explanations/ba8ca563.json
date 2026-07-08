@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the side length using the volume formula",
-      "content": "A cube with side length $s$ has volume $V = s^3$. We need to solve $s^3 = 438,976$ for $s$.<br/><br/>Estimate: Since $70^3 = 343,000$ and $80^3 = 512,000$, the side length is between 70 and 80.<br/><br/>Test $s = 76$:<br/>$$76^2 = 5,776$$<br/>$$76^3 = 5,776 \\times 76 = 438,976 \\checkmark$$<br/>So $s = 76$."
+      "title": "Find the cube side length",
+      "content": "For a cube with side length $s$, the volume is $s^3$. Since the volume is $438{,}976$, solve $s^3=438{,}976$. Testing nearby cube roots gives<br/>$$76^3=438{,}976$$<br/>so $s=76$."
     },
     {
-      "title": "Calculate the surface area",
-      "content": "A cube has 6 square faces. The surface area is:<br/>$$A = 6s^2 = 6 \\times (76)^2 = 6 \\times 5,776 = 34,656 \\text{ square units}$$"
+      "title": "Compute the surface area",
+      "content": "A cube has $6$ congruent square faces, so its surface area is $6s^2$.<br/>$$6(76)^2=6(5{,}776)=34{,}656$$<br/>The answer is <strong>34656</strong>."
     }
   ]
 }

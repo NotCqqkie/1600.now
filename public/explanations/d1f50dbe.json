@@ -1,45 +1,19 @@
 {
   "questionId": "d1f50dbe",
-  "qid": "d1f50dbe",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "One gallon of sealant covers 190 square feet. So to cover $A$ square feet once, you need $\\frac{A}{190}$ gallons."
+      "title": "Double the area",
+      "content": "The deck has area $w$ square feet, and sealing it twice means covering $2w$ square feet."
     },
     {
-      "title": "Step 2",
-      "content": "The deck has area $w$ square feet and must be sealed twice, so the total area to cover is $2w$ square feet."
+      "title": "Convert area to gallons",
+      "content": "Each gallon covers $190$ square feet, so divide the total covered area by $190$.<br/>$$S=\\frac{2w}{190}$$"
     },
     {
-      "title": "Step 3",
-      "content": "Substitute into the rate: $S = \\frac{2w}{190}$."
-    },
-    {
-      "title": "Step 4",
-      "content": "Simplify the fraction: $\\frac{2}{190} = \\frac{1}{95}$, giving $S = \\frac{w}{95}$."
+      "title": "Simplify the expression",
+      "content": "Reduce the coefficient.<br/>$$\\frac{2w}{190}=\\frac{w}{95}$$ The answer is <strong>D</strong>."
     }
-  ],
-  "choices": [
-    {
-      "id": "A",
-      "text": "$S = \\dfrac{w}{190}$",
-      "explanation": "<ul><li>This formula covers the deck only once, not twice. The problem requires two coats, so the total area is $2w$, not $w$. This is incorrect.</li></ul>"
-    },
-    {
-      "id": "B",
-      "text": "$S = 190w$",
-      "explanation": "<ul><li>This multiplies $w$ by 190 instead of dividing. Larger deck area means more gallons needed, but the rate is gallons per square foot = $\\frac{1}{190}$, not 190. This is incorrect.</li></ul>"
-    },
-    {
-      "id": "C",
-      "text": "$S = 380w$",
-      "explanation": "<ul><li>This is $190 \\times 2 \\times w$, which multiplies by the coverage rate instead of dividing by it. This is not correct.</li></ul>"
-    },
-    {
-      "id": "D",
-      "text": "$S = \\dfrac{w}{95}$",
-      "explanation": "<ul><li>Total area for two coats = $2w$. Gallons = $\\frac{2w}{190} = \\frac{w}{95}$. That is the correct answer.</li></ul>"
-    }
-  ],
-  "correctAnswer": "D"
+  ]
 }

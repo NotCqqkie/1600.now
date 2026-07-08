@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the second inequality for x",
-      "content": "From $3x \\gt 13$, divide both sides by 3: $$x \\gt \\frac{13}{3}$$"
+      "title": "Find the lower bound for input",
+      "content": "Use the second inequality to identify the allowed values of $x$.<br/>$$3x\\gt 13$$<br/>$$x\\gt \\frac{13}{3}$$"
     },
     {
-      "title": "Find the constraint on y",
-      "content": "For any point to satisfy both inequalities, we need $y \\gt 3x - 2$ where $x \\gt \\frac{13}{3}$.<br/><br/>Evaluate $3x - 2$ at the boundary: $$3 \\cdot \\frac{13}{3} - 2 = 13 - 2 = 11$$ Since $x$ is strictly greater than $\\frac{13}{3}$, the expression $3x - 2$ is strictly greater than $11$.<br/><br/>Therefore, all valid $y$-values must satisfy $y \\gt 11$. That confirms <strong>B</strong> is correct."
+      "title": "Convert it to a lower bound",
+      "content": "The expression $3x-2$ is smallest at the boundary $x=\\frac{13}{3}$.<br/>$$3(\\frac{13}{3})-2=13-2=11$$<br/>Since $x$ must be greater than that boundary, $3x-2$ must be greater than $11$. Thus $y\\gt 11$. The answer is <strong>B</strong>."
     }
   ]
 }

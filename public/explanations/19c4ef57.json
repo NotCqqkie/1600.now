@@ -1,0 +1,15 @@
+{
+  "questionId": "19c4ef57",
+  "correctAnswer": "68",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertical angles",
+      "content": "When two lines intersect, opposite angles are vertical angles. From the figure, $r$ and $s$ are opposite each other, so they have equal measures."
+    },
+    {
+      "title": "Match the given measure",
+      "content": "Since $r=68$, the equal angle $s$ has the same measure.<br/>$$s=68$$<br/>The answer is <strong>68</strong>."
+    }
+  ]
+}

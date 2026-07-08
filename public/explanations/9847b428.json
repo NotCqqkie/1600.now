@@ -1,0 +1,15 @@
+{
+  "questionId": "9847b428",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept condition",
+      "content": "At the $y$-intercept, the graph crosses the $y$-axis, so the $x$-coordinate is $0$. Substitute $x=0$ into the equation."
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "$$\ny=0^2+31=31\n$$\nThe point is $(0,31)$, so the requested coordinate value is found directly. The answer is <strong>31</strong>."
+    }
+  ]
+}

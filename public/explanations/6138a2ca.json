@@ -1,0 +1,15 @@
+{
+  "questionId": "6138a2ca",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify vertical angles",
+      "content": "When two lines intersect, opposite angles are vertical angles. From the figure, $r$ and $s$ are opposite angles."
+    },
+    {
+      "title": "Use equal angle measures",
+      "content": "Vertical angles are equal, so\n$$\ns=r=61\n$$\nThe answer is <strong>61</strong>."
+    }
+  ]
+}

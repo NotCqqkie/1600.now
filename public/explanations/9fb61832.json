@@ -1,0 +1,19 @@
+{
+  "questionId": "9fb61832",
+  "correctAnswer": "-219",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift",
+      "content": "Translating the graph of $y=f(x)$ up $5$ units adds $5$ to every output. Therefore<br/>$$g(x)=f(x)+5$$"
+    },
+    {
+      "title": "Evaluate the original function",
+      "content": "Substitute $x=0$ into the factored form.<br/>$$f(0)=(0-8)(0-7)(0-4)=(-8)(-7)(-4)=-224$$"
+    },
+    {
+      "title": "Add the shift",
+      "content": "Now add $5$ to the original output.<br/>$$g(0)=-224+5=-219$$<br/>The answer is <strong>-219</strong>."
+    }
+  ]
+}

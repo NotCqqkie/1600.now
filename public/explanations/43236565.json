@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the angle relationship",
-      "content": "From the figure, the angle marked $x^{\\circ}$ and the angle marked $145^{\\circ}$ are opposite angles formed where lines $k$ and $n$ intersect. These are vertical angles."
+      "title": "Use the angle relationship",
+      "content": "In the figure, the angle labeled $x^\\circ$ and the angle labeled $145^\\circ$ are vertical angles. Vertical angles have equal measures."
     },
     {
-      "title": "Apply the vertical angles theorem",
-      "content": "Vertical angles are congruent, so $$x=145.$$<br/><ul><li>A) $x \\lt 145$: false, since $x=145$. Eliminate.</li><li>B) $x \\gt 145$: false, since $x=145$. Eliminate.</li><li>C) $x=145$: true. Match.</li><li>D) Cannot be determined: false because the vertical angle relationship determines $x$. Eliminate.</li></ul><strong>C</strong> is correct."
+      "title": "Set the measures equal",
+      "content": "Because the two angles are vertical angles,\n$$\nx=145\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

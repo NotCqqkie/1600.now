@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the dimensions",
-      "content": "Width is $w$ feet. The length is $12$ times the width, so length $=12w$ feet. Area $=$ length $\\times$ width gives $$y=(12w)(w).$$"
+      "title": "Match the area formula",
+      "content": "Rectangle area is length times width. In\n$$\ny=(12w)(w)\n$$\nthe factors are the two dimensions."
     },
     {
-      "title": "Interpret the factor",
-      "content": "In $(12w)(w)$, the factor $w$ is the width, so $(12w)$ must be the length. This matches choice <strong>A</strong>, so <strong>A</strong> is correct."
+      "title": "Identify the longer side",
+      "content": "The length is $12$ times the width, so $12w$ represents the length, in feet. The answer is <strong>A</strong>."
     }
   ]
 }

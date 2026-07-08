@@ -1,0 +1,19 @@
+{
+  "questionId": "64f9d019",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the central concept",
+      "content": "The underlined portion appears immediately after the term \"convergent evolution.\" It explains that convergent evolution occurs when the same trait evolves independently in two reproductively separate lineages. The rest of the passage then discusses studies of convergent evolution, including studies of shared genetic mechanisms, different genetic mechanisms, and a later study that evaluated both types."
+    },
+    {
+      "title": "Separate definition from examples",
+      "content": "<ul><li><strong>Choice A</strong> is wrong because the passage does not imply the earlier studies were unclear; the phrase defines a term for the reader.</li><li><strong>Choice B</strong> is wrong because the underlined portion does not give examples of how scientists studied the phenomenon.</li><li><strong>Choice C</strong> is wrong because convergent evolution is a phenomenon, not a method of scientific analysis.</li></ul>"
+    },
+    {
+      "title": "Describe its role",
+      "content": "<strong>Choice D</strong> matches the function of the phrase. The underlined portion gives a basic description of convergent evolution, and convergent evolution is the concept at the center of the discussion that follows. The answer is <strong>D</strong>."
+    }
+  ]
+}

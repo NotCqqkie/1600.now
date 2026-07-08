@@ -1,0 +1,15 @@
+{
+  "questionId": "6b227371",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the language clusters",
+      "content": "The passage links northern China with Mandarin and Flushing, and southern China with Cantonese or Fuzhounese and Chinatown. The blank must explain why Chinese language patterns in New York neighborhoods reflect immigrants' regions of origin. The explanation has to connect geography in China with settlement patterns in New York City."
+    },
+    {
+      "title": "Reject unrelated migration claims",
+      "content": "Choice A discusses how many languages immigrants speak, not neighborhood clustering. Choice C suggests frequent moves between boroughs, which would weaken the stable pattern. Choice D compares total numbers of speakers but does not explain the geographic split. The key is regional language differences reflected in where immigrant groups settled. The answer is <strong>B</strong>."
+    }
+  ]
+}

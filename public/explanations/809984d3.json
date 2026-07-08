@@ -1,0 +1,15 @@
+{
+  "questionId": "809984d3",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $m$ and $y$-intercept $b$ can be written as<br/>$$f(x)=mx+b$$"
+    },
+    {
+      "title": "Substitute slope and intercept",
+      "content": "The slope is $\\frac{1}{3}$. The point $(0,7)$ gives the $y$-intercept, so $b=7$:<br/>$$f(x)=\\frac{1}{3}x+7$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key evidence",
-      "content": "The passage states: real estate tax was &quot;the main means of voter qualification&quot; and &quot;accounted for over two-thirds of government receipts,&quot; yet &quot;relatively few people paid the tax on real estate.&quot; If few people paid this tax but it dominated revenue and was the primary voting qualification, those few must have had large real estate holdings to generate such high tax payments. The blank must complete a logical inference from this evidence."
+      "title": "Use the tax qualification rule",
+      "content": "During the Bourbon Restoration, voting required paying at least 300 francs in direct taxes. The passage then explains that real estate tax was the main means of voter qualification, even though relatively few people paid that tax."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; those people who had the right to vote most likely had substantial holdings of French real estate.</strong>: Follows directly from the evidence &mdash; real estate tax was the main qualification and the dominant revenue source, so voters were likely large real estate holders. &#10003;</li><li><strong>Choice B &mdash; the voting habits of French artisans and merchants were effective in reducing tax burdens on businesses.</strong>: The passage says nothing about the voting habits of artisans and merchants or any reduction in business taxes. Unsupported inference rule violated. &#10007;</li><li><strong>Choice C &mdash; the number of doors and windows in French residences was kept to a minimum but increased after 1830.</strong>: The passage mentions a doors-and-windows tax but provides no data on changes over time. Unsupported inference rule violated. &#10007;</li><li><strong>Choice D &mdash; French people with significant foreign investments were unlikely to have the right to vote.</strong>: Although foreign investments were lightly taxed, the passage gives no basis to conclude that foreign investors lacked domestic real estate holdings sufficient for voting. Unsupported inference rule violated. &#10007;</li></ul>That matches <strong>Choice A &mdash; those people who had the right to vote most likely had substantial holdings of French real estate.</strong>."
+      "title": "Infer from revenue evidence",
+      "content": "Real estate tax also produced more than two-thirds of government receipts. If a small group paid the tax, and that tax both dominated revenue and qualified people to vote, those voters most likely had enough French real estate to generate substantial tax payments."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "<ul><li>Choice B invents effects of artisans' and merchants' voting habits.</li><li>Choice C adds a trend in doors and windows after 1830 that the passage does not discuss.</li><li>Choice D ignores that people with foreign investments could still qualify through French real estate taxes.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

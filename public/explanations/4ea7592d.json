@@ -1,0 +1,15 @@
+{
+  "questionId": "4ea7592d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the x value",
+      "content": "Use $x=0.5$ in the equation $y=2x+3$:\n$$\ny=2(0.5)+3\n$$"
+    },
+    {
+      "title": "Compute the y value",
+      "content": "Multiply first, then add:\n$$\ny=1+3=4\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

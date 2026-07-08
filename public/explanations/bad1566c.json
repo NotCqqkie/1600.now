@@ -1,0 +1,15 @@
+{
+  "questionId": "bad1566c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the examples",
+      "content": "The sentence says Camp's work references several themes, then lists those themes: movement, the environment, and Kalabari culture. The punctuation must introduce a list that explains what the themes are."
+    },
+    {
+      "title": "Use a colon for the list",
+      "content": "Choice A uses a semicolon before a list, not between independent clauses. Choice B creates a fragment after the period. Choice C gives no punctuation to separate <em>themes</em> from the examples. A colon correctly introduces the list of themes. The answer is <strong>D</strong>."
+    }
+  ]
+}

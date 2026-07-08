@@ -1,0 +1,15 @@
+{
+  "questionId": "8e5af1a7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the study limitation",
+      "content": "The study surveyed respondents from Serbia, which the passage identifies as a country with a developing economy. Because the participants all came from one national and economic context, the researchers warned against applying the results to customers generally."
+    },
+    {
+      "title": "Complete the caution",
+      "content": "<ul><li><strong>Choice A</strong>: This applies the Serbian survey results broadly to online retailers in many countries, which is exactly the kind of generalization the researchers cautioned against.</li><li><strong>Choice B</strong>: This fits the caution because it calls for additional research with participants from countries at different levels of economic development before drawing a broad conclusion about delivery time, tracking, and package design.</li><li><strong>Choice C</strong>: This focuses only on whether the same result would appear in a larger Serbian sample, but the stated limitation concerns applying the findings beyond Serbia.</li><li><strong>Choice D</strong>: This makes a specific prediction about customers in countries with higher economic development, but the passage gives no evidence for that prediction.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

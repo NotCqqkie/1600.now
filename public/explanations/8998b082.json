@@ -1,0 +1,19 @@
+{
+  "questionId": "8998b082",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two claims",
+      "content": "Text 1 says the UNESCO designation has obviously brought awareness and boosted tourism in Buenaventura. Text 2 qualifies that idea: Park and colleagues argue that cities still need effective marketing strategies to benefit fully from being named a City of Gastronomy. The response should therefore challenge the automatic-benefit part of Text 1's claim about tourism."
+    },
+    {
+      "title": "Eliminate unrelated responses",
+      "content": "<ul><li><strong>Choice B</strong> discusses who deserves credit for UNESCO recognition, which Text 2 never addresses.</li><li><strong>Choice C</strong> says there are other benefits besides tourism, but Text 2 focuses on whether tourism benefits happen automatically.</li><li><strong>Choice D</strong> judges whether the honor was overdue, which is not Text 2's concern.</li></ul>"
+    },
+    {
+      "title": "Require deliberate promotion",
+      "content": "<strong>Choice A</strong> matches Text 2 because it says a UNESCO City of Gastronomy should still make deliberate efforts to attract visitors. That directly challenges Text 1's suggestion that awareness and tourism benefits follow obviously from the designation itself. The answer is <strong>A</strong>."
+    }
+  ]
+}

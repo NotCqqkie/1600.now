@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the right input",
-      "content": "Before the acorn fell, no time had elapsed since the fall began — so $x = 0$. The starting height is $f(0)$."
+      "title": "Use the starting time",
+      "content": "Before the acorn fell, no time had passed, so use $x=0$. The starting height is $f(0)$."
     },
     {
-      "title": "Compute $f(0)$",
-      "content": "$f(0) = -16(0)^2 + 76 = 76$ feet.<br/><br/>The answer is <strong>76</strong>."
+      "title": "Evaluate the function",
+      "content": "Substitute $0$ into the function:<br/>$$f(0)=-16(0)^2+76=76$$<br/>The answer is <strong>76</strong>."
     }
   ]
 }

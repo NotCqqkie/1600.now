@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite both lines",
-      "content": "A system has no solution when the lines are parallel but distinct. Rewrite each equation in standard form: $$6x-5y=13y+4 \\Rightarrow 6x-18y=4$$ $$ty=\\frac{3}{2}+3x \\Rightarrow -3x+ty=\\frac{3}{2}$$"
+      "title": "Rewrite both equations",
+      "content": "Put each equation in standard form.<br/>$$6x-5y=13y+4$$<br/>$$6x-18y=4$$<br/>$$ty=\\frac{3}{2}+3x$$<br/>$$-3x+ty=\\frac{3}{2}$$"
     },
     {
-      "title": "Match the slopes",
-      "content": "Parallel lines have proportional $x$- and $y$-coefficients. Compare the second equation to the first: the $x$-coefficient changed from $6$ to $-3$, so the scale factor is $-\\frac{1}{2}$. Apply that to the $y$-coefficient: $$-18\\left(-\\frac{1}{2}\\right)=9$$ Thus $t=9$."
+      "title": "Make the lines parallel",
+      "content": "For no solution, the two lines must be parallel and distinct. The $x$-coefficient changes from $6$ to $-3$, so the scale factor is $-\\frac{1}{2}$. Apply that to the $y$-coefficient.<br/>$$-18(-\\frac{1}{2})=9$$"
     },
     {
-      "title": "Confirm no solution",
-      "content": "When $t=9$, the two lines have the same slope but different constants, so they are distinct parallel lines. They never intersect, so the system has no solution. Enter <strong>9</strong>."
+      "title": "Check the constants",
+      "content": "The constants do not use the same scale factor because $4(-\\frac{1}{2})=-2$, not $\\frac{3}{2}$. The lines are parallel and distinct. The answer is <strong>9</strong>."
     }
   ]
 }

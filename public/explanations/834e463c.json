@@ -1,0 +1,15 @@
+{
+  "questionId": "834e463c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given function value",
+      "content": "Substitute $x=9$ and $f(9)=54$ into $f(x)=6x+b$.<br/>$$54=6(9)+b$$"
+    },
+    {
+      "title": "Solve for b",
+      "content": "Simplify and subtract $54$ from both sides.<br/>$$54=54+b$$<br/>$$b=0$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

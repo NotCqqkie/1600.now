@@ -1,0 +1,15 @@
+{
+  "questionId": "86428777",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link the goal to the action",
+      "content": "Green wanted to avoid harsh synthetic dyes because they could damage the environment. The next sentence says she began experimenting with natural dye methods, so the transition must show that this action was taken in order to achieve the goal from the first sentence."
+    },
+    {
+      "title": "Choose the purpose transition",
+      "content": "Choice A, \"In any case,\" would dismiss or move past the previous idea instead of connecting to it. Choice C, \"On the other hand,\" would signal contrast, but experimenting with natural dyes is not opposed to avoiding synthetic ones. Choice D, \"In reality,\" would suggest a correction, though the first sentence is not being corrected. \"To that end\" means for that purpose, which precisely connects Green's environmental goal to her experiment with natural dye methods. The answer is <strong>B</strong>."
+    }
+  ]
+}

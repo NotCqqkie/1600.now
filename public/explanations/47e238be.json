@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand what the blank must do",
-      "content": "The first clause says Iceland's volcanoes are <strong>extreme outliers</strong> because their magma comes from nearly 3,000 km deep. The second clause explains why they're outliers: many of Earth's volcanoes are fed by shallow pockets of magma found less than 15 km below the surface. The blank must connect these two clauses with a transition that shows the second clause <em>confirms or elaborates on</em> the first."
+      "title": "Link outlier to evidence",
+      "content": "The first clause calls Iceland's volcanoes extreme outliers because their magma comes from nearly 3,000 km deep. The next clause supports that claim by explaining that many volcanoes are fed by much shallower magma."
     },
     {
-      "title": "Eliminate wrong transitions, keep the right one",
-      "content": "<ul><li><strong>Choice A — indeed,</strong>: &ldquo;Indeed&rdquo; signals confirming elaboration &mdash; the second clause provides evidence that Iceland is an outlier by showing a common shallow-magma pattern it departs from. &#10003;</li><li><strong>Choice B — nevertheless,</strong>: Violates <strong>transition logic</strong> &mdash; &ldquo;nevertheless&rdquo; signals a contrast or concession, but the second clause agrees with and supports the first rather than contradicting it. &#10007;</li><li><strong>Choice C — in addition,</strong>: Violates <strong>transition logic</strong> &mdash; &ldquo;in addition&rdquo; introduces a new, separate idea, but the second clause elaborates on the same point (why Iceland is an outlier), not an unrelated fact. &#10007;</li><li><strong>Choice D — consequently,</strong>: Violates <strong>transition logic</strong> &mdash; &ldquo;consequently&rdquo; signals a cause-and-effect result, but Iceland's outlier status does not cause other volcanoes to use shallow magma. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject contrast and result",
+      "content": "B would signal contrast, but the second clause supports the outlier claim. C would add a separate point instead of confirming the same one. D would make shallow magma a result of Iceland's outlier status, which is illogical. The answer is <strong>A</strong>."
     }
   ]
 }

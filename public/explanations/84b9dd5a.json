@@ -1,0 +1,19 @@
+{
+  "questionId": "84b9dd5a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the month four balance",
+      "content": "The original balance is $800.00$. A $0.5\\%$ increase means multiplying by $1.005$.\n$$800.00(1.005)=804.00$$\nFor $x\\geq 4$, the model starts with $804.00$."
+    },
+    {
+      "title": "Count the growth periods",
+      "content": "After month $4$, the balance increases by $0.2\\%$ every $2$ months. The growth factor per period is $1.002$, and the number of periods after month $4$ is\n$$\\frac{x-4}{2}$$"
+    },
+    {
+      "title": "Build the model",
+      "content": "Use the month $4$ balance as the initial amount and raise the growth factor to the number of $2$-month periods.\n$$B(x)=804.00(1.002)^{\\frac{x-4}{2}}$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

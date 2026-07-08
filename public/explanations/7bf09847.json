@@ -1,0 +1,15 @@
+{
+  "questionId": "7bf09847",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the contrast",
+      "content": "The parenthetical contrasts the blank with words used mainly in specialized or academic publications, which are poorly represented. The blank must therefore describe ordinary, standard words that a general corpus would represent well."
+    },
+    {
+      "title": "Reject mismatched qualities",
+      "content": "A describes low importance, C describes depth or seriousness, and D describes randomness; none means ordinary or commonly used. The example of <em>world</em> as a frequent noun points to standard usage. The answer is <strong>B</strong>."
+    }
+  ]
+}

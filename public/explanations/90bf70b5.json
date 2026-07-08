@@ -1,0 +1,15 @@
+{
+  "questionId": "90bf70b5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Use the first equation:<br/>$$x+8=15$$<br/>$$x=7$$"
+    },
+    {
+      "title": "Substitute into y",
+      "content": "Now substitute $x=7$ into the second equation:<br/>$$y=4(7)^2+6=4(49)+6=202$$<br/>The intersection point is $(7{,}202)$. The answer is <strong>B</strong>."
+    }
+  ]
+}

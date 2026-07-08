@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Parallel lines share the same slope",
-      "content": "Parallel shortcut: equal slopes. Line $y = 7x + 4$ has slope $7$, so line $l$ also has slope $7$."
+      "title": "Use the parallel slope",
+      "content": "Parallel lines have equal slopes, so line $l$ has slope $7$. Since it passes through the origin, $y=7x$."
     },
     {
-      "title": "Write line l through the origin",
-      "content": "Line $l$ passes through $(0, 0)$ with slope $7$: $y = 7x$."
-    },
-    {
-      "title": "Substitute x = 5 to find d",
-      "content": "$d = 7 \\times 5 = 35$, so <strong>35</strong> is correct."
+      "title": "Substitute the x-value",
+      "content": "For the point $(5,d)$, use $x=5$:<br/>$$d=7(5)=35$$<br/>The answer is <strong>35</strong>."
     }
   ]
 }

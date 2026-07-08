@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the main idea of the text. The passage praises the book's ambition and scope, then pivots with &quot;But&quot; to identify a shortcoming: the absence of a unifying authorial point of view. The main idea must capture both the genuine value and this structural limitation."
+      "title": "Balance value and limitation",
+      "content": "The passage praises <em>The Fifty-Year Mission</em> as a comprehensive and valuable oral history, then pivots with \"But\" to name a limitation: it lacks a clear authorial point of view that could unify the many accounts. The main idea must include both the work's ambition and its flaw."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The compilers of <em>The Fifty-Year Mission</em> had lofty goals for their oral history of the <em>Star Trek</em> franchise, but the published work lacks information about many key events in the franchise's history.</strong>: The text's criticism is about the lack of an authorial voice, not about missing events. The passage explicitly says the book includes accounts from every series and film ever made. &#10007;</li><li><strong>Choice B &mdash; <em>The Fifty-Year Mission</em> includes more accounts from people involved with <em>Star Trek</em> television shows than it does from people involved with <em>Star Trek</em> films.</strong>: The text never compares the ratio of TV versus film accounts; it states the book covers both. This detail is invented. &#10007;</li><li><strong>Choice C &mdash; The large amount of material compiled into <em>The Fifty-Year Mission</em> is surprising given that many of the people involved in the <em>Star Trek</em> franchise did not participate in the oral history project.</strong>: The text implies broad participation by noting accounts from cast and crew of every series and film &mdash; it never suggests many people declined to participate. &#10007;</li><li><strong>Choice D &mdash; <em>The Fifty-Year Mission</em> represents a worthwhile attempt to thoroughly recount the history of the <em>Star Trek</em> franchise, but its approach has an important limitation.</strong>: Captures both halves of the passage &mdash; the genuine value (&quot;unique and valuable resource&quot;) and the structural flaw (no authorial voice to unify accounts). &#10003;</li></ul>That matches <strong>Choice D &mdash; <em>The Fifty-Year Mission</em> represents a worthwhile attempt to thoroughly recount the history of the <em>Star Trek</em> franchise, but its approach has an important limitation.</strong>."
+      "title": "Reject invented criticisms",
+      "content": "Choice A invents missing key events, while the text emphasizes broad coverage from every television series and film. Choice B invents a comparison between television and film accounts. Choice C invents low participation, though the passage says the book includes cast and crew accounts across the franchise. Choice D accurately presents the work as worthwhile and thorough while noting an important limitation in its approach. The answer is <strong>D</strong>."
     }
   ]
 }

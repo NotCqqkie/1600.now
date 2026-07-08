@@ -1,0 +1,15 @@
+{
+  "questionId": "3f129a31",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the comparison",
+      "content": "The underlined phrase compares the color filters on the mantises' faces to familiar filters from 3D glasses. That comparison helps readers picture an unusual experimental setup in which each mantis eye was covered by a different colored filter."
+    },
+    {
+      "title": "Rule out other functions",
+      "content": "A invents a research problem; the phrase describes no obstacle. C says the phrase emphasizes a difference, but it makes a similarity. D treats movie glasses as an earlier research tool, though the text only uses them as a familiar comparison. The answer is <strong>B</strong>."
+    }
+  ]
+}

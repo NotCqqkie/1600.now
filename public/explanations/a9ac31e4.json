@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the bar chart values",
-      "content": "Gorner measures approximately 41 square km, Fiescher approximately 29 square km, and Unteraar approximately 22 square km."
+      "title": "Compare glacier areas",
+      "content": "The graph shows the Gorner glacier at about 41 square kilometers, the Fiescher glacier at about 29 square kilometers, and the Unteraar glacier at about 22 square kilometers."
     },
     {
-      "title": "Determine the correct comparison",
-      "content": "Gorner is the largest of the three glaciers, exceeding both Fiescher and Unteraar.<br/>The other three choices contradict this ranking by incorrectly positioning Gorner relative to one or both of the other glaciers.<br/>That is the correct answer."
+      "title": "Rank the glaciers",
+      "content": "Choice B says Gorner is smaller than Fiescher. Choice C says Gorner is smaller than both. Choice D says Gorner is smaller than Unteraar. The remaining comparison correctly says Gorner has a larger area than both glaciers. The answer is <strong>A</strong>."
     }
   ]
 }

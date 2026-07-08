@@ -1,0 +1,15 @@
+{
+  "questionId": "3996c12e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the purchase time",
+      "content": "The time of purchase is $0$ years after purchase, so substitute $x=0$ into the model."
+    },
+    {
+      "title": "Evaluate the model",
+      "content": "Any nonzero number to the $0$ power equals $1$:<br/>$$y=8{,}400(0.88)^0=8{,}400(1)=8{,}400$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

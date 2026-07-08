@@ -1,0 +1,15 @@
+{
+  "questionId": "57231afa",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the verb's subject",
+      "content": "In the relative clause \"which ______ located in Newark,\" the word \"which\" refers to Newark Liberty International Airport. That antecedent is singular, and the location is stated as a present fact."
+    },
+    {
+      "title": "Use singular present tense",
+      "content": "Choice B is plural present. Choice C is plural past and does not fit a current location fact. Choice D is also plural. The singular present-tense verb agrees with the airport. The answer is <strong>A</strong>."
+    }
+  ]
+}

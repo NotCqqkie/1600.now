@@ -1,0 +1,19 @@
+{
+  "questionId": "a2b08940",
+  "correctAnswer": "0.057",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The maximum rate is $0.300$ at population $8{,}000$, so the vertex is $(8{,}000,0.300)$. Write the model as<br/>$$r(x)=a(x-8{,}000)^2+0.300$$"
+    },
+    {
+      "title": "Use the zero point",
+      "content": "The rate is $0$ when the population is $0$:<br/>$$0=a(0-8{,}000)^2+0.300$$<br/>$$a=-\\frac{0.300}{(8{,}000)^2}$$"
+    },
+    {
+      "title": "Evaluate at the population",
+      "content": "Substitute $x=800$:<br/>$$r(800)=-\\frac{0.300}{(8{,}000)^2}(800-8{,}000)^2+0.300$$<br/>The distance ratio is $0.9$, so<br/>$$r(800)=-0.300(0.9)^2+0.300$$<br/>$$=-0.300(0.81)+0.300=0.057$$<br/>The answer is <strong>0.057</strong>."
+    }
+  ]
+}

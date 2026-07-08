@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$x+y=125$$<br/>$$x+y+y=155$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Subtract the equations",
+      "content": "The system is\n$$\nx+y=125\n$$\n$$\nx+y+y=155\n$$\nThe second equation has one extra $y$ compared with the first equation."
+    },
+    {
+      "title": "Solve for the extra term",
+      "content": "Subtract the first equation from the second:\n$$\n(x+2y)-(x+y)=155-125\n$$\n$$\ny=30\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations and reading the intersection gives the same $y$-coordinate. The answer is <strong>30</strong>.",
       "desmosExpressions": [
         "x+y=125",
         "x+y+y=155"
       ]
-    },
-    {
-      "title": "Read the y-coordinate",
-      "content": "Click the intersection point and read the y-coordinate. It matches <strong>$30$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

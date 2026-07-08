@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate 16 percent",
-      "content": "Convert $16\\%$ to $0.16$ and multiply by the bill amount: $$0.16\\cdot74.50=11.92.$$ The expected tip is 11.92 dollars."
+      "title": "Calculate the tip",
+      "content": "Convert $16\\%$ to $0.16$, then multiply by the bill amount.<br/>$$0.16(74.50)=11.92$$"
     },
     {
       "title": "Choose the closest amount",
-      "content": "The closest choice to 11.92 dollars is 12.00 dollars, which is only 0.08 dollars away."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "12.00 dollars matches <strong>C</strong>."
-    },
-    {
-      "title": "Round to the nearest listed dollar amount",
-      "content": "The exact estimate is not one of the choices, so compare distances. $11.92$ is closest to $12.00$; it is farther from $10.00$ and $14.00$."
+      "content": "The expected tip is $11.92$ dollars, which is closest to $12.00$ dollars among the choices. The answer is <strong>C</strong>."
     }
   ]
 }

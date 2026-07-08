@@ -1,0 +1,15 @@
+{
+  "questionId": "b26e55ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the data values",
+      "content": "The example must show that elevation and prominence can differ significantly. A mountain with a high elevation but much lower prominence directly illustrates why elevation alone may not indicate how high the mountain appears."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "Choice B compares only prominence values. Choice C adds mountain-range information that does not show elevation versus prominence. Choice D gives elevation and range but not prominence, so it cannot demonstrate the difference. The answer is <strong>A</strong>."
+    }
+  ]
+}

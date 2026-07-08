@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Start with the given equation",
-      "content": "The equation is $R=\\frac{D}{h}$."
+      "title": "Undo division by h",
+      "content": "Start with the given equation:\n$$\nR=\\frac{D}{h}\n$$\nTo isolate $D$, multiply both sides by $h$."
     },
     {
-      "title": "Isolate D",
-      "content": "Multiply both sides by $h$: $Rh=D$."
-    },
-    {
-      "title": "Match the choice",
-      "content": "Rewriting gives $D=Rh$, which matches <strong>A</strong>."
-    },
-    {
-      "title": "Check the inverse operation",
-      "content": "Since $D$ is divided by $h$, multiplying by $h$ undoes the division. Dividing by $h$ again or adding $h$ would not preserve the original relationship."
+      "title": "Write distance alone",
+      "content": "Multiplying by $h$ gives\n$$\nRh=D\n$$\nor equivalently\n$$\nD=Rh\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a punctuation question. The blank falls between the festival name and a non-essential appositive phrase (&ldquo;or FESTAC &rsquo;77 &hellip; known&rdquo;) that is already closed by a dash. The skill is dash enclosure: a non-essential element set off by one dash requires a matching dash on the other side."
+      "title": "Open the parenthetical name",
+      "content": "The phrase 'or FESTAC '77, as the event was more commonly known' interrupts the main sentence to give a shorter name for the festival. Because the interruption ends with an em dash after 'known,' it should begin with a matching em dash after 'Culture.'"
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Culture:</strong>: A colon must follow an independent clause; &ldquo;the Second World Black and African Festival of Arts and Culture&rdquo; is not an independent clause, so the colon is ungrammatical. &#10007;</li><li><strong>Choice B: Culture—</strong>: An opening dash here matches the closing dash after &ldquo;known,&rdquo; correctly enclosing the non-essential appositive on both sides. &#10003;</li><li><strong>Choice C &mdash; Culture,</strong>: A non-essential element must be set off with matching punctuation. Because the closing punctuation is a dash, the opening punctuation cannot be a comma. &#10007;</li><li><strong>Choice D &mdash; Culture</strong>: No punctuation before the appositive leaves the phrase unset-off, violating the rule that non-essential elements require enclosing punctuation. &#10007;</li></ul>That matches <strong>Choice B &mdash; Culture—</strong>."
+      "title": "Match the punctuation pair",
+      "content": "Choice A uses a colon, which does not pair with the later em dash. Choice C uses a comma, which also does not match the closing dash. Choice D provides no punctuation to open the interrupting phrase. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "b3e90f98",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the approaches",
+      "content": "Text 1 presents an asteroid impact explanation for Nadir and lists features that support it. Text 2 evaluates two alternative causes: carbonate dissolution and subsurface salt withdrawal."
+    },
+    {
+      "title": "Avoid misread differences",
+      "content": "A invents excitement in Text 2, B reverses the focus of Text 1, and D says Text 2 argues against impact even though it tests alternatives. The real difference is one plausible cause versus two possible causes. The answer is <strong>C</strong>."
+    }
+  ]
+}

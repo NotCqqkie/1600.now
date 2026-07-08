@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the frequency table to identify which values appear in the dataset",
-      "content": "A frequency of 0 means that value does not appear in the dataset. Reading the table from top to bottom:<ul><li>Data values 6, 7, 8, 9, 10, 11, 12 all have frequencies > 0</li><li>Data value 13 has frequency 0 — it does NOT appear</li><li>Data value 14 has frequency 6 — it DOES appear</li></ul>The dataset includes only the values with positive frequencies."
+      "title": "Use positive frequencies",
+      "content": "A frequency of $0$ means that data value does not appear in the set. The maximum must be the largest data value with a positive frequency."
     },
     {
-      "title": "Identify the maximum data value",
-      "content": "The maximum data value is the largest value in the table that actually appears in the dataset (frequency > 0).<br/><br/>Scanning the data value column from highest to lowest: 14 is the largest value, and it has frequency 6, confirming it appears in the dataset.<br/><br/>The answer is <strong>14</strong>. — <strong>14</strong> is correct."
+      "title": "Find the largest value",
+      "content": "The table shows that $13$ has frequency $0$, but $14$ has a positive frequency. Therefore, the largest data value that appears is $14$. The answer is <strong>14</strong>."
     }
   ]
 }

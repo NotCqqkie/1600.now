@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the equation of line k",
-      "content": "Use slope-intercept form with slope $m = 6$ and $y$-intercept $b = -48$. This gives: $$y = 6x - 48$$",
+      "title": "Write the line equation",
+      "content": "A line with slope $6$ and $y$-intercept $(0,-48)$ has equation<br/>$$y=6x-48$$",
       "formula": "$$y = mx + b$$"
     },
     {
-      "title": "Find the x-intercept by setting y = 0",
-      "content": "At the $x$-intercept, $y = 0$. Substitute into the equation: $$0 = 6x - 48$$ <br/>Add 48 to both sides: $$6x = 48$$ <br/>Divide both sides by 6: $$x = 8$$ <br/>The $x$-coordinate of the $x$-intercept is 8."
+      "title": "Set the output to zero",
+      "content": "At the $x$-intercept, $y=0$. Substitute and solve.<br/>$$0=6x-48$$<br/>$$6x=48$$<br/>$$x=8$$<br/>The answer is <strong>8</strong>."
     }
   ]
 }

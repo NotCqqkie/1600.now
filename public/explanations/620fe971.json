@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Backsolving - testing choice B",
-      "content": "Choice B (&lsquo;The crew has been unloading about 4.5 crates per hour.&rsquo;) claims the crew unloads about 4.5 crates per hour. In the linear model $$y = 126 - 28x$$, the slope $$-28$$ indicates the number of crates is decreasing at 28 crates per hour. Since $4.5 \\ne 28$, choice B (&lsquo;The crew has been unloading about 4.5 crates per hour.&rsquo;) does not describe the x-intercept."
+      "title": "Interpret the intercept",
+      "content": "The $x$-intercept is the point on the graph where $y=0$. In this context, $y$ represents the approximate number of crates that remain to be unloaded. So $y=0$ means there are no crates left on the truck."
     },
     {
-      "title": "Backsolving - testing choice C",
-      "content": "Choice C (&lsquo;The crew has been unloading about 28 crates per hour.&rsquo;) states the crew unloads about 28 crates per hour. While the slope magnitude is 28 crates/hour, the x-intercept represents a time, not a rate. Therefore choice C (&lsquo;The crew has been unloading about 28 crates per hour.&rsquo;) does not interpret the x-intercept."
+      "title": "Find the time",
+      "content": "Set $y$ equal to $0$ in the model and solve for $x$. This gives the number of hours after the crew started working when the remaining-crates amount reaches $0$:\n$$0=126-28x$$\n$$28x=126$$\n$$x=\\frac{126}{28}=4.5$$"
     },
     {
-      "title": "Backsolving - testing choice A",
-      "content": "To find the x-intercept set $$y = 0$$: $$0 = 126 - 28x$$ $$\\to$$ $$28x = 126$$ $$\\to$$ $$x = \\frac{126}{28} = 4.5$$. This means after 4.5 hours no crates remain, i.e., the crew has finished unloading all the crates. That confirms <strong>A</strong> is correct."
+      "title": "Match the context",
+      "content": "The value $x=4.5$ represents about $4.5$ hours after the crew started unloading. Since the corresponding $y$-value is $0$, the crew will have unloaded all the crates at that time. The answer is <strong>A</strong>."
     }
   ]
 }

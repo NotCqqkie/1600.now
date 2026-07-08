@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the triangle area formula",
-      "content": "For any triangle, $A=\\frac{1}{2}bh$. Here, the base is $36$ cm and the height is $80$ cm."
+      "title": "Use the area formula",
+      "content": "The area of a triangle is $\\frac{1}{2}bh$. Here, the base is $36$ centimeters and the height is $80$ centimeters."
     },
     {
-      "title": "Recall the triangle area formula",
-      "content": "For any triangle: $A = \\frac{1}{2} \\times base \\times height$"
-    },
-    {
-      "title": "Substitute and calculate",
-      "content": "With base $= 36$ cm and height $= 80$ cm:<br/>$$A = \\frac{1}{2} \\times 36 \\times 80 = 18 \\times 80 = 1440 \\text{ square centimeters}$$"
+      "title": "Substitute and multiply",
+      "content": "Compute the area.<br/>$$\\frac{1}{2}(36)(80)=18(80)=1{,}440$$<br/>The answer is <strong>1440</strong>."
     }
   ]
 }

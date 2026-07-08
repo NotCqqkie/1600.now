@@ -1,0 +1,15 @@
+{
+  "questionId": "f4d9c18b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject is \"Iceland's 4,089-word constitution,\" which is singular. The long comparison to Spain's constitution interrupts the subject and verb but does not change agreement."
+    },
+    {
+      "title": "Match the singular verb",
+      "content": "A uses plural \"have.\" B uses plural \"rank.\" C uses plural \"are ranking.\" The remaining verb is singular and agrees with \"constitution.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

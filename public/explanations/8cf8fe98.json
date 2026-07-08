@@ -1,0 +1,15 @@
+{
+  "questionId": "8cf8fe98",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed verb",
+      "content": "The subject is the singular noun phrase \"The extensor digitorum brevis.\" The sentence needs a finite main verb that agrees with that singular subject."
+    },
+    {
+      "title": "Use a finite verb",
+      "content": "A, B, and D are nonfinite verb forms: a participle, an infinitive, and a perfect participle. \"Bears\" is a finite present-tense verb that agrees with the singular subject. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate to an equation",
-      "content": "\"5% of $w$ is 741.41\" becomes:<br/>$$0.05 w = 741.41$$"
+      "title": "Translate the percent",
+      "content": "$5\\%$ of $w$ is $901.32$:<br/>$$0.05w=901.32$$"
     },
     {
-      "title": "Solve for $w$",
-      "content": "$$w = \\frac{741.41}{0.05} = 14{,}828.2$$<br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Divide by the decimal",
+      "content": "$$w=901.32/0.05=18{,}026.4$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

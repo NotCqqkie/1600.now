@@ -1,0 +1,22 @@
+{
+  "questionId": "d16fc9b0",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the entries",
+      "content": "The table gives the task times $8$, $5$, $12$, $10$, and $10$ minutes."
+    },
+    {
+      "title": "Calculate the mean",
+      "content": "Add the values and divide by the number of tasks:<br/><br/>$$\\frac{8+5+12+10+10}{5}=\\frac{45}{5}=9$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "A calculator can compute the mean directly from the five table entries. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "\\operatorname{mean}\\left([8,5,12,10,10]\\right)"
+      ]
+    }
+  ]
+}

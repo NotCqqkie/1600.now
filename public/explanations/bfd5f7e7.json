@@ -1,0 +1,15 @@
+{
+  "questionId": "bfd5f7e7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Bracket the modifier",
+      "content": "The relative clause begins with \"that\" and needs \"emphasizes\" as its main verb: \"an approach that emphasizes retaining.\" The phrase about aiming to teach music is an interrupting participial modifier, so it needs commas around it."
+    },
+    {
+      "title": "Reject verb conflicts",
+      "content": "A inserts an extra finite verb. C and D make the aiming verb finite, leaving \"emphasizes\" as a second uncoordinated verb inside the relative clause. The participial form keeps the structure grammatical. The answer is <strong>B</strong>."
+    }
+  ]
+}

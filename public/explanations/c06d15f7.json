@@ -1,0 +1,15 @@
+{
+  "questionId": "c06d15f7",
+  "correctAnswer": "-1",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero numerator",
+      "content": "A rational expression equals zero only when its numerator equals zero and its denominator is not zero. Substitute $a+4$ for $x$ in the numerator.\n$$3(a+4)-9=0$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Expand and simplify.\n$$3a+12-9=0$$\n$$3a+3=0$$\n$$3a=-3$$\n$$a=-1$$\nThe answer is <strong>-1</strong>."
+    }
+  ]
+}

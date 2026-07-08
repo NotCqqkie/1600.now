@@ -1,0 +1,19 @@
+{
+  "questionId": "22d26f59",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding angles",
+      "content": "Line $k$ is the transversal. From the figure, angles $w$ and $y$ are corresponding angles on lines $r$ and $s$."
+    },
+    {
+      "title": "Use the converse",
+      "content": "If corresponding angles are congruent, then the two lines cut by the transversal are parallel. Since $w=160$, the added statement $y=160$ would make $w$ and $y$ congruent."
+    },
+    {
+      "title": "Check the other conditions",
+      "content": "The condition $x=20$ follows from $w=160$ at the same intersection, so it gives no information about line $s$. The condition $w+y=180$ would make $y=20$, and $y+z=180$ can describe a linear pair on line $s$ without proving the lines are parallel. The answer is <strong>B</strong>."
+    }
+  ]
+}

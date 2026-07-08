@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject's number",
-      "content": "The subject of the clause is “her book's musings on tenth-century Japanese courtly life.” The head noun “musings” is plural in form."
+      "title": "Find the subject head",
+      "content": "The subject is her book's musings on tenth-century Japanese courtly life. The head noun musings is plural, so the verb must use a plural form."
     },
     {
-      "title": "Apply subject-verb agreement",
-      "content": "A plural subject requires a plural verb form. “Fascinate” is the plural present tense and matches the plural subject. “Has fascinated,” “fascinates,” and “is fascinating” all use singular verb forms that violate subject-verb agreement. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject singular verbs",
+      "content": "B, C, and D all use singular verb forms that do not agree with musings. The plural present-tense form agrees with the subject. The answer is <strong>A</strong>."
     }
   ]
 }

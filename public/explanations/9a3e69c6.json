@@ -1,0 +1,15 @@
+{
+  "questionId": "9a3e69c6",
+  "correctAnswer": "3620",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the five masses",
+      "content": "Add all five values:\n$$\n3{,}920+3{,}920+3{,}140+3{,}960+3{,}160=18{,}100\n$$"
+    },
+    {
+      "title": "Divide by the count",
+      "content": "There are $5$ lemurs, so divide the total mass by $5$:\n$$\n\\frac{18{,}100}{5}=3{,}620\n$$\nThe answer is <strong>3620</strong>."
+    }
+  ]
+}

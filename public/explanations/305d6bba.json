@@ -1,0 +1,15 @@
+{
+  "questionId": "305d6bba",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two positions",
+      "content": "Text 1 says automated genre classification has not been very successful and may have reached a technological limit. Text 2 counters that a new image-based method solved a difficult classification problem, showing room for innovation."
+    },
+    {
+      "title": "Reject unrelated responses",
+      "content": "Choice A discusses disagreement among people, which Text 2 does not emphasize. Choice B shifts to usefulness for listeners. Choice C invents criticism that previous research favored certain genres. The answer is <strong>D</strong>."
+    }
+  ]
+}

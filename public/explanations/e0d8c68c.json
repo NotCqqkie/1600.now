@@ -1,0 +1,19 @@
+{
+  "questionId": "e0d8c68c",
+  "correctAnswer": "32.5,65/2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the line from two table points",
+      "content": "The table gives points such as $\\left(2,-\\frac{183}{10}\\right)$ and $\\left(4,-\\frac{171}{10}\\right)$. Since the relationship is linear, use those points to find the slope:$$m=\\frac{-\\frac{171}{10}-\\left(-\\frac{183}{10}\\right)}{4-2}=\\frac{\\frac{12}{10}}{2}=\\frac{3}{5}.$$"
+    },
+    {
+      "title": "Read the intercept from the line",
+      "content": "Use $(2,-\\frac{183}{10})$ in $y=\\frac{3}{5}x+b$:$$-\\frac{183}{10}=\\frac{3}{5}(2)+b$$ $$-\\frac{183}{10}=\\frac{12}{10}+b\\Rightarrow b=-\\frac{195}{10}=-\\frac{39}{2}$$So the line is $y=\\frac{3}{5}x-\\frac{39}{2}$. The $x$-intercept occurs when $y=0$."
+    },
+    {
+      "title": "Solve for the x-intercept",
+      "content": "Set $0=\\frac{3}{5}x-\\frac{39}{2}$. Then $\\frac{3}{5}x=\\frac{39}{2}$, so $x=\\frac{39}{2}\\cdot\\frac{5}{3}=\\frac{65}{2}=32.5$. Enter <strong>65/2</strong> or <strong>32.5</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5109a894",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect cause to result",
+      "content": "Hartley argued that the USGS calculation omitted important considerations, including Earth's curvature. The next sentence gives the result of that criticism: the USGS-determined center was inaccurate."
+    },
+    {
+      "title": "Use a consequence transition",
+      "content": "Choices A and B signal contrast, and Choice D signals sequence. The remaining transition introduces a conclusion caused by the omitted considerations. The answer is <strong>C</strong>."
+    }
+  ]
+}

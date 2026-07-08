@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key signal",
-      "content": "The word “outliers” signals that jets reaching the ionosphere are exceptional. The blank must introduce information that reinforces this claim."
+      "title": "Use the outlier signal",
+      "content": "Jets reaching the ionosphere are called outliers because the ionosphere begins about 80 km above Earth. The next clause says most jets reach only 20 to 50 km, which confirms that the ionosphere-reaching jets are unusual."
     },
     {
-      "title": "Match the confirming transition",
-      "content": "“Indeed” introduces information that reinforces a previous point.<br/><br/>In context, it introduces the fact that most jets reach only 20–50 km—which confirms the exceptional status of those reaching 80+ km.<br/><br/>The other choices don't establish this confirming function: “nevertheless” introduces contradiction, “consequently” implies causation, and “in addition” treats the information as independent.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject wrong relations",
+      "content": "A signals contrast, B signals cause and effect, and D simply adds another point. The blank needs a transition that reinforces the previous claim by introducing confirming evidence about the majority of jets. The answer is <strong>C</strong>."
     }
   ]
 }

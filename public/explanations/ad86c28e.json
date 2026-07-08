@@ -1,0 +1,15 @@
+{
+  "questionId": "ad86c28e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Balance value and limits",
+      "content": "The passage says natural history specimens can provide valuable historical DNA, including data from extirpated populations. It also says some archival storage conditions compromise DNA quality in ways current methods cannot easily fix."
+    },
+    {
+      "title": "Reject claims beyond the text",
+      "content": "A calls the specimens generally marginal, B adds unsupported claims about extraction time, and D says they are primarily used in one research area. The remaining choice keeps both ideas: valuable data may exist, but not every specimen yields usable hDNA. The answer is <strong>C</strong>."
+    }
+  ]
+}

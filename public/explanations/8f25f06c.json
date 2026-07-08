@@ -1,0 +1,15 @@
+{
+  "questionId": "8f25f06c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the lowest weight",
+      "content": "The statement must be completed with the bear that has the smallest approximate weight in the table. The explanation compares each listed bear's weight to identify the minimum."
+    },
+    {
+      "title": "Match weight to sex and age",
+      "content": "Choice A names a 13-year-old female at 375 pounds. Choice B names a 6-year-old female at 400 pounds. Choice C names a 10-year-old male at 800 pounds. The lowest listed value is 200 pounds for a 3-year-old male. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "5b95469e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x equal to zero",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the function:<br/>$$f(0)=3(0)-\\frac{1}{5}$$"
+    },
+    {
+      "title": "Write the intercept point",
+      "content": "Evaluate the function value:<br/>$$f(0)=-\\frac{1}{5}$$<br/>So the intercept point is<br/>$$(0,-\\frac{1}{5})$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

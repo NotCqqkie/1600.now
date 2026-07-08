@@ -1,0 +1,15 @@
+{
+  "questionId": "ed0831db",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the target",
+      "content": "The question gives the value of $5x$, not $x$ by itself. Since the target expression is $30x$, rewrite $30x$ as a multiple of $5x$. Because $30=6\\cdot5$, the target can be written this way:\n$$30x=6(5x)$$"
+    },
+    {
+      "title": "Substitute the given value",
+      "content": "The equation says $5x=8$, so substitute $8$ for the entire expression $5x$. This avoids solving for $x$ separately and goes directly to the requested value:\n$$30x=6(8)=48$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "c5738cbc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the perception principle",
+      "content": "The passage says people with clinically typical hearing perceive sounds they believe are meaningful as quieter than sounds of the same volume that they believe are noise. The key comparison is perception, not the measured decibel level."
+    },
+    {
+      "title": "Use the fixed volume",
+      "content": "In the scenario, both Led Zeppelin's <em>Whole Lotta Love</em> and the nature sounds are at 60.8 decibels. If the participant treats the nature sounds as noise and the music as meaningful, the nature sounds would seem louder."
+    },
+    {
+      "title": "Avoid changing the setup",
+      "content": "Choice A turns the result into a belief about the decibel measurement, choice B adds a volume adjustment, and choice C claims the two sounds were comparably meaningful. Those ideas conflict with the described scenario. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bd3eff35",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the name list",
+      "content": "The sentence has an independent clause ending with <em>served in Congress</em>, followed by a list of two specific people. The punctuation must introduce that list."
+    },
+    {
+      "title": "Choose list punctuation",
+      "content": "Choice A's period and Choice C's semicolon make the following names a fragment or the wrong relation; Choice D lowercases the proper noun <em>Congress</em>. A colon correctly introduces the names. The answer is <strong>B</strong>."
+    }
+  ]
+}

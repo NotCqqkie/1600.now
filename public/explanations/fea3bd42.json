@@ -1,0 +1,15 @@
+{
+  "questionId": "fea3bd42",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the contrast signal",
+      "content": "The previous sentence says horizontal gene transfer has rarely been observed among eukaryotes. The underlined sentence begins with However and says new studies suggest it is more common in eukaryotes than originally thought."
+    },
+    {
+      "title": "Challenge the old perception",
+      "content": "The sentence therefore implies that the common perception may be inaccurate. Choice A invents a fruitless research direction, Choice B describes the first sentence's distinction, and Choice D invents a direct comparison of detection frequencies between organism categories. The answer is <strong>C</strong>."
+    }
+  ]
+}

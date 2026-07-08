@@ -1,0 +1,15 @@
+{
+  "questionId": "1da7d1ff",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate noun from modifier",
+      "content": "The possessive \"John Donne's\" needs a noun after it, so the blank must begin with \"works.\" The words \"much admired during his lifetime (1572-1631) and in the decades that followed\" describe those works rather than supply the main verb of the sentence. That descriptive phrase needs to be set off before the main verb phrase \"had been essentially gathering dust.\""
+    },
+    {
+      "title": "Reject extra main verbs",
+      "content": "<ul><li><strong>Choice B - works, were</strong> adds the finite verb \"were,\" creating a competing verb inside the descriptive phrase.</li><li><strong>Choice C - works were</strong> also turns the modifier into a finite clause and leaves it awkwardly attached to the later main verb.</li><li><strong>Choice D - works had been</strong> supplies another finite verb phrase before the sentence's actual main verb, so the sentence boundary breaks down.</li></ul>The remaining option supplies the noun and the comma needed to introduce the modifier. The answer is <strong>A</strong>."
+    }
+  ]
+}

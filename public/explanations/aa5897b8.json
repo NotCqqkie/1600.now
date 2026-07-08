@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace the relationship between the two sentences",
-      "content": "The underlined sentence describes a specific moment from <em>Mansfield Park</em>: Henry&apos;s smile causes Fanny to blush, and she suspects he notices. The sentence that follows begins &quot;This moment&quot; and states it <em>illustrates</em> what scholar Lydia Marsh calls &quot;deep intersubjectivity.&quot; The word <em>illustrates</em> is the key signal: the underlined sentence provides a concrete example, and the next sentence names the concept it exemplifies.<ul><li><strong>Choice A &mdash; 'It states a claim about Austen's skill at representing psychological complexity that is reinforced by an example presented in the following sentence.'</strong>: reverses the structure &mdash; the underlined sentence is the example, not the claim &#10007;</li><li><strong>Choice B &mdash; 'It advances an interpretation of an Austen protagonist who is contrasted with protagonists from other Austen novels cited in the following sentence.'</strong>: no other Austen novels appear anywhere in the passage &#10007;</li><li><strong>Choice C &mdash; 'It describes a recurring theme in Austen's novels that is the focus of a literary scholar's analysis summarized in the following sentence.'</strong>: the underlined sentence describes one specific interaction from one book, not a recurring theme &#10007;</li><li><strong>Choice D &mdash; 'It provides a synopsis of an interaction in an Austen novel that illustrates a literary concept discussed in the following sentence.'</strong>: correctly identifies the underlined sentence as a concrete example that grounds the concept introduced next &#10003;</li></ul>"
+      "title": "Trace the sentence roles",
+      "content": "The underlined sentence gives a brief synopsis of one interaction in <em>Mansfield Park</em>: Henry Crawford's almost imperceptible smile makes Fanny Price blush, and her embarrassment increases when she suspects he recognizes her reaction. The following sentence then interprets that specific moment. It says Fanny infers Henry's mental state and also infers that Henry is making inferences about her mental state, which illustrates Lydia Marsh's idea of \"deep intersubjectivity.\""
     },
     {
-      "title": "Confirm the correct choice",
-      "content": "The underlined sentence is a synopsis of one scene; the following sentence names the literary concept that scene exemplifies. The correct answer is the only one that captures both parts of this relationship accurately.<br/><br/>That is the correct answer."
+      "title": "Reject reversed functions",
+      "content": "Choice A reverses the structure by treating the underlined sentence as a broad claim about Austen's skill rather than as an example. Choice B invents a contrast with protagonists from other Austen novels. Choice C says the underlined sentence describes a recurring theme, but it describes one scene. The remaining choice correctly says the underlined sentence summarizes an interaction that illustrates the literary concept discussed next. The answer is <strong>D</strong>."
     }
   ]
 }

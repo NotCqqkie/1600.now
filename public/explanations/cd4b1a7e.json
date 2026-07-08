@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the clause structure",
-      "content": "The sentence contains a complete subject (<em>Nery and her colleagues</em>), a time marker (<em>In January 2023</em>), and a direct object (<em>a study showing changes</em>...). The blank must hold the main verb of this independent clause."
+      "title": "Find the finite verb slot",
+      "content": "The subject is \"Nery and her colleagues,\" and the sentence needs a main verb after the time marker \"In January 2023.\" The verb should describe the completed action of releasing the study."
     },
     {
-      "title": "Apply the finite verb requirement",
-      "content": "An independent clause requires a finite main verb matching the tense context. <em>Published</em> is a finite past-tense verb that completes the clause. <em>Publishing</em>, <em>having published</em>, and <em>to publish</em> cannot serve as main verbs—they need helping verbs or other structures to work in this position.<br/><br/>That is the correct answer."
+      "title": "Reject nonfinite forms",
+      "content": "B is a present participle, C is a perfect participial phrase, and D is an infinitive. None can serve as the finite main verb of the clause."
+    },
+    {
+      "title": "Complete the past action",
+      "content": "Published is a finite past-tense verb that completes the independent clause. The answer is <strong>A</strong>."
     }
   ]
 }

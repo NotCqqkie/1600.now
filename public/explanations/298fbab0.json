@@ -1,0 +1,15 @@
+{
+  "questionId": "298fbab0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the seed pattern",
+      "content": "The passage says fruit-eating birds drop some seeds from at-risk native plants, but they drop many more seeds from abundant non-native plants. The conclusion should follow from that imbalance in seed dispersal."
+    },
+    {
+      "title": "Reject unsupported details",
+      "content": "Choice B adds timing that the passage never gives, Choice C makes an unsupported claim about where native plants already grow, and Choice D wrongly treats jessamine as endangered even though the passage describes non-native plants as abundant. More dispersed non-native seeds logically supports faster growth for non-native plant populations. The answer is <strong>A</strong>."
+    }
+  ]
+}

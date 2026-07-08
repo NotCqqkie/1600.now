@@ -1,0 +1,15 @@
+{
+  "questionId": "362c7e65",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a difference",
+      "content": "The student wants to contrast the two samples. The notes provide a clear difference: the natural rubber fiber is 2.2 millimeters thick, while the single-ply NiTi wire is 0.7 millimeters thick."
+    },
+    {
+      "title": "Reject noncontrasts",
+      "content": "B emphasizes that both samples heated up. C explains torsional heating generally. D only names the study and the samples without comparing them. The answer is <strong>A</strong>."
+    }
+  ]
+}

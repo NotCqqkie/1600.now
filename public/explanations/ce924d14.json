@@ -1,0 +1,15 @@
+{
+  "questionId": "ce924d14",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the positive context",
+      "content": "The passage says the book's reception has been very good and notes that it won a literature award. The blank therefore needs a verb showing favorable support from reviewers, booksellers, and librarians."
+    },
+    {
+      "title": "Reject negative verbs",
+      "content": "Choice A means criticized, the opposite of a good reception. Choice C means failed to notice, but the book received attention and an award. Choice D means failed to understand, which does not fit the praise implied by the context. The answer is <strong>B</strong>."
+    }
+  ]
+}

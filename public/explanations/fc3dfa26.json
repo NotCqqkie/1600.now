@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor the denominator and multiply by the common denominator",
-      "content": "Notice that $x^2 - 9 = (x+3)(x-3)$. Rewriting the equation:<br/>$$\\frac{4x^2}{(x+3)(x-3)} - \\frac{2x}{x + 3} = \\frac{1}{x -3}$$<br/>The LCD is $(x+3)(x-3)$. Multiply both sides by this to eliminate denominators:<br/>$$4x^2 - 2x(x-3) = x+3$$"
-    },
-    {
-      "title": "Expand and collect like terms",
-      "content": "Distribute the $-2x$:<br/>$$4x^2 - 2x^2 + 6x = x + 3$$<br/>Simplify:<br/>$$2x^2 + 5x - 3 = 0$$"
+      "title": "Clear the denominators",
+      "content": "Factor the denominator as $x^2-9=(x+3)(x-3)$. Multiplying the equation by $(x+3)(x-3)$ gives $$4x^2-2x(x-3)=x+3$$"
     },
     {
       "title": "Factor the quadratic",
-      "content": "We need two numbers that multiply to $(2)(-3) = -6$ and add to $5$. Those are $6$ and $-1$.<br/>$$2x^2 + 6x - x - 3 = 0$$<br/>$$2x(x+3) - 1(x+3) = 0$$<br/>$$(2x-1)(x+3) = 0$$<br/>So $x = \\frac{1}{2}$ or $x = -3$."
+      "content": "Expand and move everything to one side: $$4x^2-2x^2+6x=x+3$$ $$2x^2+5x-3=0$$ $$(2x-1)(x+3)=0$$"
     },
     {
-      "title": "Check domain restrictions",
-      "content": "The denominators give restrictions: $x \\neq -3$ and $x \\neq 3$. Since $x = -3$ makes the original equation undefined, it is extraneous. The valid solution is $x = \\frac{1}{2}$. That matches the correct answer — <strong>C</strong> is correct.",
+      "title": "Reject the undefined value",
+      "content": "The possible values are $x=\\frac{1}{2}$ and $x=-3$. But $x=-3$ makes a denominator equal to $0$ in the original equation, so it is not allowed. The answer is <strong>C</strong>.",
       "desmosExpressions": [
         "y = \\frac{4x^2}{x^2 - 9} - \\frac{2x}{x + 3}",
         "y = \\frac{1}{x - 3}"

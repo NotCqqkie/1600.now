@@ -1,0 +1,19 @@
+{
+  "questionId": "a760c005",
+  "correctAnswer": "130",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate h and j",
+      "content": "Translate the first percent statement into an equation.<br/>$$0.36h=0.72j$$<br/>$$h=2j$$"
+    },
+    {
+      "title": "Substitute the value of j",
+      "content": "The second statement says $j$ is $65\\%$ of $k$.<br/>$$j=0.65k$$<br/>$$h=2(0.65k)=1.30k$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "The equation $h=1.30k$ gives the requested percent of $k$. The answer is <strong>130</strong>."
+    }
+  ]
+}

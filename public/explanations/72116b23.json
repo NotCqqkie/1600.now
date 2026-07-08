@@ -1,0 +1,15 @@
+{
+  "questionId": "72116b23",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the underlined finding",
+      "content": "The underlined portion reports that temperature reductions were observed in the air immediately surrounding the mushrooms. In context, this extends the discussion beyond the mushrooms' own fruiting bodies and hyphae. The next sentence then explains why that surrounding-air finding matters: the reductions inspired an air-cooling device made with mushrooms."
+    },
+    {
+      "title": "Link the finding to the device",
+      "content": "Choice B treats the sentence as direct proof that fungi maintain a hypothermic state, but the sentence focuses on nearby air. Choice C calls the finding tangential even though it leads directly to the prototype. Choice D reverses the order by saying the observation motivated the earlier study of evaporative cooling. The underlined information is central because it connects fungal thermal biology to a practical air-cooling application. The answer is <strong>A</strong>."
+    }
+  ]
+}

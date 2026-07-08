@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the perimeter of square X",
-      "content": "Square X has side length 15 cm. The perimeter of any square is $4 \\times \\text{side}$.<br/>Perimeter of X = $4 \\times 15 = 60$ cm"
+      "title": "Find square X perimeter",
+      "content": "A square with side length $15$ has perimeter equal to $4$ times its side length.\n$$4\\cdot 15=60$$"
     },
     {
-      "title": "Find the perimeter of square Y",
-      "content": "We're told the perimeter of square Y is 3 times the perimeter of square X.<br/>Perimeter of Y = $3 \\times 60 = 180$ cm"
+      "title": "Scale square Y perimeter",
+      "content": "Square Y has $3$ times that perimeter.\n$$3\\cdot 60=180$$"
     },
     {
-      "title": "Find the side length of square Y",
-      "content": "Since square Y has perimeter 180 cm, and the perimeter of a square equals $4 \\times \\text{side}$:<br/>$$180 = 4 \\times \\text{side}$$<br/>$$\\text{side} = \\frac{180}{4} = 45 \\text{ cm}$$<br/>That matches <strong>Choice D &mdash; $45$</strong>."
+      "title": "Convert perimeter to side length",
+      "content": "Divide the perimeter of square Y by $4$.\n$$\\frac{180}{4}=45$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

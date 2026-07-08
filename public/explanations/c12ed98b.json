@@ -1,0 +1,19 @@
+{
+  "questionId": "c12ed98b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "Vertex form:<br/>$$f(x)=a(x-2)^2+7$$<br/>Use $(3,53)$:<br/>$$53=a(3-2)^2+7$$"
+    },
+    {
+      "title": "Find the quadratic",
+      "content": "Solve:<br/>$$53=a+7$$<br/>$$a=46$$<br/>$$f(x)=46(x-2)^2+7$$"
+    },
+    {
+      "title": "Evaluate the difference",
+      "content": "Evaluate and subtract:<br/>$$f(-1)=46(-3)^2+7=421$$<br/>$$f(1)=46(-1)^2+7=53$$<br/>$$f(-1)-f(1)=421-53=368$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

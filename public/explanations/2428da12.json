@@ -1,0 +1,19 @@
+{
+  "questionId": "2428da12",
+  "correctAnswer": "1944",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the three-unit growth",
+      "content": "The ratio from $x=3$ to $x=6$ is\n$$\n\\frac{f(6)}{f(3)}=\\frac{216}{8}=27\n$$\nThis is the multiplier for a $3$-unit increase in $x$."
+    },
+    {
+      "title": "Find the one-unit multiplier",
+      "content": "Since $27=3^3$, the multiplier for each $1$-unit increase in $x$ is $3$."
+    },
+    {
+      "title": "Move from six to eight",
+      "content": "From $x=6$ to $x=8$ is a $2$-unit increase, so multiply by $3^2$:\n$$\nf(8)=216(3^2)=216(9)=1{,}944\n$$\nThe answer is <strong>1944</strong>."
+    }
+  ]
+}

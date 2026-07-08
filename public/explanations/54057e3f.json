@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The word &quot;thus&quot; signals a logical consequence. The setup is: military service familiarizes veterans with organizational structures also found in civilian government. The blank must state what naturally follows from that familiarity &mdash; specifically, something that explains why veterans are overrepresented in civilian government jobs."
+      "title": "Connect familiarity to preference",
+      "content": "The explanation offered is that military service familiarizes people with organizational structures also found in civilian government bureaucracy. That familiarity would help explain why veterans are overrepresented in civilian government jobs."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — makes civilian government jobs especially appealing to military veterans.</strong>: Familiarity with an organization&apos;s structure makes working within it more attractive. This follows directly from the premise and explains the overrepresentation of veterans in civilian government jobs. &#10003;</li><li><strong>Choice B — alters the typical relationship between military service and subsequent career preferences.</strong>: The text never establishes what a &quot;typical&quot; relationship between military service and career preferences looks like, so there is no basis for claiming the relationship is being altered. &#10007;</li><li><strong>Choice C — encourages nonveterans applying for civilian government jobs to consider military service instead.</strong>: The passage focuses on veterans moving into civilian government, not on nonveterans reconsidering military service. This reverses the direction of the argument. &#10007;</li><li><strong>Choice D — increases the number of civilian government jobs that require some amount of military experience to perform.</strong>: The passage explains veterans&apos; attraction to existing jobs due to shared structures, not that the jobs themselves are being changed to require military experience. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject wrong directions",
+      "content": "Choice B refers to a typical relationship the text never establishes. Choice C shifts to nonveterans considering military service. Choice D claims the jobs require military experience, which is not stated. Familiarity instead makes those jobs especially appealing to veterans. The answer is <strong>A</strong>."
     }
   ]
 }

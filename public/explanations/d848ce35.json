@@ -1,0 +1,15 @@
+{
+  "questionId": "d848ce35",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Make a perfect square",
+      "content": "Move all terms to one side:<br/>$$169x^2+104x-84=0$$<br/>The first two terms match part of $(13x+4)^2$:<br/>$$(13x+4)^2=169x^2+104x+16$$"
+    },
+    {
+      "title": "Use the positive value",
+      "content": "Rewrite the equation with that square:<br/>$$(13x+4)^2-100=0$$<br/>$$(13x+4)^2=100$$<br/>Because $13x+4\\gt0$, use the positive square root. The answer is <strong>10</strong>."
+    }
+  ]
+}

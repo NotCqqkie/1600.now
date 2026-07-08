@@ -1,0 +1,15 @@
+{
+  "questionId": "ad027fde",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The question asks for the function value when the input is $36$. Use $x=36$ in the function:\n$$\nf(36)=7+\\sqrt{36}\n$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "The square root of $36$ is $6$, so add that to $7$:\n$$\nf(36)=7+6=13\n$$\nThe answer is <strong>13</strong>."
+    }
+  ]
+}

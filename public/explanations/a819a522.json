@@ -1,0 +1,15 @@
+{
+  "questionId": "a819a522",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the key comparison",
+      "content": "The passage says mammal studies had larger differences on average than amphibian studies. But it also says every animal class had individual studies with differences well above the mammal average. Since amphibians are one of the animal classes being compared, some amphibian studies exceeded the mammal average."
+    },
+    {
+      "title": "Rule out claims beyond the data",
+      "content": "A contradicts the statement that the average mammal effect was larger than the average amphibian effect. C compares Howard's study to a prairie dog average not provided in the passage. D discusses whether effects were labeled detrimental, which the passage never addresses. The data support some amphibian studies exceeding some mammal studies. The answer is <strong>B</strong>."
+    }
+  ]
+}

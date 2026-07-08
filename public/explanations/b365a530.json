@@ -1,0 +1,15 @@
+{
+  "questionId": "b365a530",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the fitted line",
+      "content": "The question asks for a predicted value, so use the line of best fit rather than a nearby scatterplot point."
+    },
+    {
+      "title": "Read the predicted value",
+      "content": "At $x=2$, the line of best fit is just below $15$ on the $y$-axis, about $14.8$. The closest listed value is $15$. The answer is <strong>D</strong>."
+    }
+  ]
+}

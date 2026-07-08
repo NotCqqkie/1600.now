@@ -4,23 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$(x + 2) \\times (x + 3) = (x -2) \\times (x -3) + 10$$Graph or solve it directly and read the x-value that works. The requested value is $1$.",
+      "title": "Expand both sides",
+      "content": "Expand each side of the equation:<br/>$$(x+2)(x+3)=x^2+5x+6$$<br/>$$(x-2)(x-3)+10=x^2-5x+16$$",
       "desmosExpressions": [
         "(x + 2) \\times (x + 3) = (x -2) \\times (x -3) + 10"
       ]
     },
     {
-      "title": "Expand both sides",
-      "content": "Expand the products: $$(x+2)(x+3)=x^2+5x+6$$ and $$(x-2)(x-3)+10=x^2-5x+6+10=x^2-5x+16.$$"
-    },
-    {
-      "title": "Cancel the matching term",
-      "content": "Set the expanded forms equal: $$x^2+5x+6=x^2-5x+16.$$ The $x^2$ terms cancel, leaving $$5x+6=-5x+16.$$"
-    },
-    {
-      "title": "Solve and verify",
-      "content": "Add $5x$ and subtract $6$: $$10x=10,$$ so $x=1$. Graphing the two sides also shows one intersection at $x=1$.",
+      "title": "Cancel and solve",
+      "content": "Set the expanded forms equal and cancel $x^2$ from both sides:<br/>$$x^2+5x+6=x^2-5x+16$$<br/>$$5x+6=-5x+16$$<br/>$$10x=10$$<br/>$$x=1$$<br/>The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=(x+2)(x+3)",
         "y=(x-2)(x-3)+10"

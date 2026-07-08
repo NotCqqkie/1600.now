@@ -1,0 +1,15 @@
+{
+  "questionId": "df8cb9c0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the rate term",
+      "content": "In the equation<br/>$$0.3t+4=7$$<br/>the variable $t$ is measured in months. The coefficient $0.3$ is multiplied by the number of months, so it represents inches per month."
+    },
+    {
+      "title": "Match the context",
+      "content": "The $4$ is the starting length, and the $7$ is the target length. The coefficient $0.3$ describes how many inches Maya's hair grows each month.<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

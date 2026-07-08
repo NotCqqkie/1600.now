@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Locate the median position",
-      "content": "There are $31$ values, so the median is the $\\dfrac{31+1}{2} = 16$th value when the data is sorted in increasing order. Walk through the frequency table accumulating counts until the running total reaches $16$."
+      "content": "There are $31$ values, so the median is the middle value in the sorted data set.<br/>$$\\frac{31+1}{2}=16$$<br/>The median is the sixteenth value."
     },
     {
-      "title": "Find the temperature at position 16",
-      "content": "Adding up the frequencies bin by bin in order, the running total first reaches $16$ in the bin for $33^{\\circ}\\text{F}$ — meaning the 16th sorted value falls in that bin.<br/><br/>So the median is $33^{\\circ}\\text{F}$.<br/><br/>The answer is <strong>33</strong>."
+      "title": "Use the frequency table",
+      "content": "Add the frequencies in increasing temperature order until the running total reaches the sixteenth value. The running total first reaches that position at $33$ degrees Fahrenheit. The answer is <strong>33</strong>."
     }
   ]
 }

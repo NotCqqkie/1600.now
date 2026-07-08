@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the system from the given conditions",
-      "content": "Let $a$ be the number of people who voted against the proposal, and $f$ be the number who voted in favor.<br/><br/>From <em>4 times as many people voted in favor as against</em>:<br/>$$f = 4a$$<br/>From <em>24,000 more people voted in favor than against</em>:<br/>$$f = a + 24,000$$"
+      "title": "Define the quantities",
+      "content": "Let $a$ be the number of people who voted against the proposal, and let $f$ be the number who voted in favor."
     },
     {
-      "title": "Solve by eliminating the common variable",
-      "content": "Both equations equal $f$, so set them equal to each other:<br/>$$4a = a + 24,000$$<br/>Subtract $a$ from both sides:<br/>$$3a = 24,000$$<br/>Divide by 3:<br/>$$a = 8,000$$<br/>That confirms <strong>A</strong> is correct."
+      "title": "Write the two equations",
+      "content": "Four times as many people voted in favor as against, and there were $24{,}000$ more votes in favor.<br/>$$f=4a$$<br/>$$f=a+24{,}000$$"
+    },
+    {
+      "title": "Solve for against votes",
+      "content": "Set the two expressions for $f$ equal.<br/>$$4a=a+24{,}000$$<br/>$$3a=24{,}000$$<br/>$$a=8{,}000$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "92809ecb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the central problem",
+      "content": "The text explains that countries define urban settlements in different ways, including different population thresholds and other factors. The final sentence states the consequence: this variation makes global comparisons difficult."
+    },
+    {
+      "title": "Reject narrower claims",
+      "content": "B invents a universal 10,000-person standard for researchers. C focuses only on Greenland and adds a research focus not stated in the text. D contradicts the text by saying comparison is easy. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the graph up 6 units",
-      "content": "Translating the graph of $y=f(x)$ up 6 units adds 6 to the output: $$g(x)=f(x)+6$$."
+      "title": "Apply the translation",
+      "content": "Translating the graph of $y=f(x)$ up $6$ units adds $6$ to every output, so $g(x)=f(x)+6$."
     },
     {
-      "title": "Evaluate f(0)",
-      "content": "Substitute $x=0$ into $f(x)=(x-5)(x-3)(x+5)$:<br/>$$f(0)=(0-5)(0-3)(0+5)=(-5)(-3)(5)$$<br/>Compute step by step:<br/>$$(-5)(-3)=15$$<br/>$$15\\times5=75$$<br/>Thus $$f(0)=75$$."
+      "title": "Evaluate the original function",
+      "content": "Substitute $x=0$ into $f(x)=(x-5)(x-3)(x+5)$.<br/>$$f(0)=(0-5)(0-3)(0+5)$$<br/>$$f(0)=(-5)(-3)(5)$$<br/>$$f(0)=75$$"
     },
     {
-      "title": "Compute g(0) and select answer",
-      "content": "Use the translation: $$g(0)=f(0)+6=75+6=81$$.<br/>The answer is <strong>81</strong>."
+      "title": "Add the vertical shift",
+      "content": "Add $6$ to the value of $f(0)$.<br/>$$g(0)=75+6$$<br/>$$g(0)=81$$ The answer is <strong>81</strong>."
     }
   ]
 }

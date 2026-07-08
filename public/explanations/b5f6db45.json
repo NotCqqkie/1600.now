@@ -1,0 +1,15 @@
+{
+  "questionId": "b5f6db45",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept definition",
+      "content": "The $y$-intercept is where a line crosses the $y$-axis. At that point, the input is $x=0$."
+    },
+    {
+      "title": "Read the table row",
+      "content": "The table includes the row with $x=0$. The corresponding $y$-value in that row is $17$. The answer is <strong>17</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0f5e5bf9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Build the subject",
+      "content": "The blank is the subject of the verb \"found.\" It names German biologist Gertrud Morlock and her colleagues. The title and name work together to identify the biologist, and \"Morlock and colleagues\" is a two-part compound subject."
+    },
+    {
+      "title": "Avoid unnecessary commas",
+      "content": "Choice A and Choice C incorrectly put commas around \"Gertrud Morlock,\" treating the name as nonessential. Choice A also adds a comma after \"colleagues,\" separating the subject from the verb. Choice B avoids the first error but adds an unnecessary comma before \"and\" in a two-part subject. The no-comma version is grammatical. The answer is <strong>D</strong>."
+    }
+  ]
+}

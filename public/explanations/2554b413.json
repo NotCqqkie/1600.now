@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the y-intercept",
-      "content": "The point $(0, 9)$ lies on the line. Since $x = 0$ at this point, $y = 9$ is the $y$-intercept."
+      "title": "Use slope-intercept form",
+      "content": "A line with slope $m$ and $y$-intercept $b$ can be written as\n$$\ny=mx+b\n$$"
     },
     {
-      "title": "Write the equation",
-      "content": "With slope $m = 7$ and $y$-intercept $b = 9$, slope-intercept form gives: $$y = 7x + 9$$"
-    },
-    {
-      "title": "Match the answer",
-      "content": "The equation with slope $7$ and $y$-intercept $9$ is $y=7x+9$. That matches <strong>Choice A &mdash; $y = 7x + 9$</strong>."
+      "title": "Substitute the slope and intercept",
+      "content": "The slope is $7$. The point $(0,9)$ is on the $y$-axis, so the $y$-intercept is $9$. Therefore,\n$$\ny=7x+9\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

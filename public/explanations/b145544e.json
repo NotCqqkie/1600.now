@@ -1,0 +1,15 @@
+{
+  "questionId": "b145544e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the function definition",
+      "content": "The function $s(t)$ gives the approximate mass, in grams, that remains $t$ years after the sample starts to decay."
+    },
+    {
+      "title": "Interpret the ordered pair",
+      "content": "The statement $s(62)=30$ means that when $t=62$ years, the remaining mass is $30$ grams. It is not the mass lost, and the time is not $30$ years.<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

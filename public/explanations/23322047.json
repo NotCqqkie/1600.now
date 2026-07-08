@@ -1,0 +1,15 @@
+{
+  "questionId": "23322047",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "Distribute on each side.\n$$18(x-15)=18x-270$$\n$$-15(x+18)=-15x-270$$\nSo the equation becomes\n$$18x-270=-15x-270$$"
+    },
+    {
+      "title": "Solve and count",
+      "content": "Add $15x$ and $270$ to both sides.\n$$33x=0$$\n$$x=0$$\nThere is exactly one real solution. The answer is <strong>A</strong>."
+    }
+  ]
+}

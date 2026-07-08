@@ -1,0 +1,15 @@
+{
+  "questionId": "427b4b07",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the term",
+      "content": "The term $24h$ represents earnings from the regular job, because $h$ is the number of hours worked at that job. Multiplying hours by a dollar rate gives total pay from that job."
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "In a rate times hours term, the coefficient is dollars per hour. Therefore, $24$ is not the number of hours; it is the amount earned for each hour at the regular job. The answer is <strong>A</strong>."
+    }
+  ]
+}

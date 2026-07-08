@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph directly",
-      "content": "This is a bar-graph lookup question. The vertical axis gives the number of times each color appears, so look for the bar whose height is $70$."
+      "title": "Use the bar height",
+      "content": "The vertical value on the bar graph gives how many times each color appears. The question asks for the color whose bar has height $70$."
     },
     {
-      "title": "Find the matching bar",
-      "content": "The bar at height $70$ is labeled Green. That means green appears $70$ times in the data set."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>Blue is about $27$, so A is too small.</li><li>Green is $70$, so B matches.</li><li>Red is about $33$, so C is too small.</li><li>Yellow is about $43$, so D is too small.</li></ul>That confirms <strong>B</strong>."
+      "title": "Match the color",
+      "content": "On the graph, the bar at height $70$ is labeled Green, so green is the color that appears $70$ times. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key difference to emphasize",
-      "content": "The student wants to emphasize a difference, not similarities. From the notes, the critical distinction is their different ingredient requirements: baking soda needs to be mixed with a separate acidic ingredient to release carbon dioxide, while baking powder already contains the acid mixed in."
+      "title": "Target the requested difference",
+      "content": "The student wants a contrast between baking soda and baking powder. The notes show that baking soda needs liquid plus an acidic ingredient to produce carbon dioxide, while baking powder needs liquid but not a separate acidic ingredient."
     },
     {
-      "title": "Find the choice presenting this contrast",
-      "content": "The correct answer directly states this difference using “whereas”—baking soda requires an acidic ingredient, but baking powder does not.<br/><br/>Descriptions of both as leavening agents producing CO2 treat them as equivalent, and details about use in baked goods do not contrast the two ingredients.<br/><br/>That is the correct answer."
+      "title": "Eliminate noncontrasts",
+      "content": "A and B describe similarities between the two leavening agents. C identifies baking soda and honey but does not compare baking soda with baking powder. The effective sentence uses the acid requirement to contrast the two. The answer is <strong>D</strong>."
     }
   ]
 }

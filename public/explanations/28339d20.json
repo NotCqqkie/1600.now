@@ -1,0 +1,15 @@
+{
+  "questionId": "28339d20",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the yet contrast",
+      "content": "The passage sets up a contrast. Merino wool is described as soft overall because its outer fiber is only slightly coarser than its inner fiber, while Navajo-Churro wool is described as coarser overall and useful for durable rugs. The word <strong>Yet</strong> signals that the table reveals something unexpected despite that setup, so the answer must preserve the Navajo-Churro's coarser outer fiber while identifying a surprising softness in one fiber measurement."
+    },
+    {
+      "title": "Keep the contrast precise",
+      "content": "Choice A misstates the comparison by making the issue uniform softness and variable outer fiber rather than the surprising inner-fiber result. Choice B says the domestic breeds became less suitable for delicate garments because of larger inner-fiber minimums, which does not fit the contrast. Choice C is too broad because it claims both outer and inner fiber became softer overall. The remaining choice keeps the Navajo-Churro's somewhat coarse outer fiber in view while adding that its inner fiber, at its softest, is softer than the mouflon's or the Merino's inner fiber. The answer is <strong>D</strong>."
+    }
+  ]
+}

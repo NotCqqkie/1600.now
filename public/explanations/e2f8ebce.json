@@ -1,0 +1,15 @@
+{
+  "questionId": "e2f8ebce",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the initial concentration",
+      "content": "At $x=0$, the graph shows an initial concentration of about $10$ million cells per mL."
+    },
+    {
+      "title": "Find when the graph reaches target",
+      "content": "Move across from $20$ million cells per mL to the graph, then down to the time axis. The time is closest to $35$ minutes. The answer is <strong>B</strong>."
+    }
+  ]
+}

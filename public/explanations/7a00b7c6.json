@@ -1,0 +1,15 @@
+{
+  "questionId": "7a00b7c6",
+  "correctAnswer": "28600",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert miles to yards",
+      "content": "The speed is $16.250$ miles per hour. Since each mile is $1{,}760$ yards, multiply by $1{,}760$ to convert the rate to yards per hour."
+    },
+    {
+      "title": "Multiply the rate",
+      "content": "Compute the conversion:<br/>$$16.250\\cdot1{,}760=28{,}600$$<br/>The answer is <strong>28600</strong>."
+    }
+  ]
+}

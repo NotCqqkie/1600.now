@@ -1,0 +1,15 @@
+{
+  "questionId": "1d6e03a4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track Spanish's role",
+      "content": "The passage says <em>cocoa</em> came to English indirectly through Spanish after Spanish borrowed it from Nahuatl. It also says <em>puma</em> entered English through Spanish from Quechua. In both examples, Spanish is the intermediary."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "Choice B compares Spanish's contribution with Indigenous languages, but the passage gives no such measure. Choice C invents equal numbers of adopted words. Choice D says Spanish contributed words to Indigenous languages, reversing the direction described. Spanish served as a medium between Indigenous languages and English. The answer is <strong>A</strong>."
+    }
+  ]
+}

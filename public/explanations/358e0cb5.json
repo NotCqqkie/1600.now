@@ -1,0 +1,15 @@
+{
+  "questionId": "358e0cb5",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the unique contribution",
+      "content": "The text says Marquez and Richter reconstructed the earliest surviving annual fiscal records for any sovereign state. Those records show Philip II's defaults came from short-term liquidity crises, not long-term unsustainable debts."
+    },
+    {
+      "title": "Avoid claims beyond the text",
+      "content": "Choice B reverses the relationship by saying defaults worsened liquidity crises. Choice C says they corrected Keller and Brandt, which is not stated. Choice D says the new evidence supports Keller and Brandt's hypothesis about Philip's defaults, which the text does not say. The answer is <strong>A</strong>."
+    }
+  ]
+}

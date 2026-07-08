@@ -1,0 +1,19 @@
+{
+  "questionId": "bc8b2190",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify each coordinate",
+      "content": "The problem defines $x$ as molecular weight and $y$ as estimated boiling point. That means the first coordinate gives molecular weight, and the second coordinate gives boiling point."
+    },
+    {
+      "title": "Interpret the ordered pair",
+      "content": "For the point shown, the coordinate values are $x=141.32$ and $y=172.26$. So the graph represents a straight-chain alkane with molecular weight $141.32$ grams per mole and estimated boiling point $172.26$ degrees Celsius."
+    },
+    {
+      "title": "Eliminate reversed meanings",
+      "content": "The interpretation should not reverse the coordinates, and it should not describe a minimum or maximum value. The point is just one ordered pair on the graph, with the axis meanings assigned by the question. The answer is <strong>B</strong>."
+    }
+  ]
+}

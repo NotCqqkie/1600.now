@@ -1,0 +1,15 @@
+{
+  "questionId": "b24b0780",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the sine ratio",
+      "content": "For angle $x^\\circ$, the opposite side is the vertical leg with length $28$, and the hypotenuse is $c$."
+    },
+    {
+      "title": "Match the numerator",
+      "content": "Use opposite over hypotenuse.\n$$\\sin(x^\\circ)=\\frac{28}{c}$$\nThe question gives $\\sin(x^\\circ)=\\frac{k}{c}$, so $k=28$. The answer is <strong>28</strong>."
+    }
+  ]
+}

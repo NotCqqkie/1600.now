@@ -1,0 +1,15 @@
+{
+  "questionId": "645e1ce0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the time shift",
+      "content": "The passage moves from 1889, when the Eiffel Tower's design was criticized, to the present, when that silhouette is commonplace in replicas and other structures. The transition should signal the current period."
+    },
+    {
+      "title": "Reject non-temporal links",
+      "content": "Choice A signals opposition without marking time, Choice B signals a conclusion, and Choice C simply adds information. A present-day transition best captures the change from past novelty to current familiarity. The answer is <strong>D</strong>."
+    }
+  ]
+}

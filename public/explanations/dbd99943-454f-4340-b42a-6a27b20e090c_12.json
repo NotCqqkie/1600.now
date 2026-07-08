@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage sets up a logical completion: most studies outside North America replicated the positive DOC-mercury association, and few matched Porvari and Verta's null result. The blank must follow from this evidence."
+      "title": "Weigh the study pattern",
+      "content": "Many North American studies found a positive association between dissolved organic carbon and mercury. Although one Finnish study did not find the correlation, several studies outside North America, including Luo and colleagues’ study in China, produced results like the North American studies, and few matched the Finnish result."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"levels of dissolved organic carbon and mercury in bodies of fresh water are both much higher in Finland than elsewhere.\"</strong>: The passage compares correlation patterns, not absolute concentration levels. Nothing in the text supports a claim about Finland having higher levels. &#10007;</li><li><strong>\"the hypothesis that the positive association is particular to North America is correct.\"</strong>: This directly contradicts the evidence: multiple non-North-American studies (e.g., Luo in China) reproduced the positive association, undermining the North America-specific hypothesis. &#10007;</li><li><strong>\"dissolved organic carbon and mercury levels do typically rise and fall together in fresh water.\"</strong>: This follows logically. Most studies across different regions found the same positive association; Porvari and Verta are the outlier. The accumulated evidence supports a general relationship. &#10003;</li><li><strong>\"there were circumstances unique to Luo and colleagues' study that impeded accurate measurements of mercury levels.\"</strong>: The passage presents Luo's study as corroborating evidence, not as methodologically flawed. No basis for this claim is given. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate overclaims",
+      "content": "Choice A invents higher levels in Finland. Choice B says the association is particular to North America, but the outside-North-America studies weaken that hypothesis. Choice D says Luo’s study had inaccurate measurements, which is unsupported. The broader pattern suggests the two levels typically rise and fall together in fresh water. The answer is <strong>C</strong>."
     }
   ]
 }

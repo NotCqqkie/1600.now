@@ -1,0 +1,15 @@
+{
+  "questionId": "df949ee7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Specify the discovery location",
+      "content": "The student's goal is to say where <em>Discoglossus nigriventer</em> was identified. The relevant note says a living specimen was identified in Israel in 2011 after the species had been believed extinct."
+    },
+    {
+      "title": "Remove unrelated species details",
+      "content": "A discusses <em>Dysphania pusilla</em>, not <em>Discoglossus nigriventer</em>. C explains the Lazarus species category but gives no location. D gives the year but omits Israel, the location requested. The answer is <strong>B</strong>."
+    }
+  ]
+}

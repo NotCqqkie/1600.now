@@ -1,0 +1,15 @@
+{
+  "questionId": "ae9ecc95",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the horizontal value to zero",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. At that point, the horizontal coordinate is $0$, so substitute $x=0$ into the equation.<br/>$$y=\\frac{45}{0-5}$$"
+    },
+    {
+      "title": "Evaluate the coordinate",
+      "content": "Simplify the fraction to find the vertical coordinate. The intercept point uses $x=0$ together with this value of $y$.<br/>$$y=\\frac{45}{-5}=-9$$<br/>The $y$-intercept is $(0,-9)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

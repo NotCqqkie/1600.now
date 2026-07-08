@@ -1,0 +1,23 @@
+{
+  "questionId": "4f346345",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the shared expression",
+      "content": "Both equations equal $y$, so set the right sides equal:<br/>$$x+33=(x+33)^2$$<br/>Let $u=x+33$, giving:<br/>$$u=u^2$$"
+    },
+    {
+      "title": "Solve for possible inputs",
+      "content": "Move all terms to one side and factor:<br/>$$u^2-u=0$$<br/>$$u(u-1)=0$$<br/>So $u=0$ or $u=1$, which means $x=-33$ or $x=-32$."
+    },
+    {
+      "title": "Choose the listed value",
+      "content": "Only $-32$ appears among the choices. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x + 33 = y",
+        "(x + 33)^2 = y"
+      ]
+    }
+  ]
+}

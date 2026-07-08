@@ -1,0 +1,15 @@
+{
+  "questionId": "92ce698a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the retention gap",
+      "content": "The passage says researchers had trouble recruiting and retaining participants in very rural counties. Menon and colleagues tested snowball sampling by having a small group of suitable participants recruit more people from their social networks. The key result is that people recruited through those social connections stayed in the study at much higher rates than people recruited by strangers."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "The blank must explain why social-network recruitment would improve retention. Choice A discusses whether people in a network can still regard each other as strangers, which does not explain persistence in a study. Choice B compares rural and nonrural participants, but the study only involved rural counties. Choice C concerns who is more likely to be recruited, not why recruited participants remain. The remaining inference directly connects recruitment by a social contact to a feeling of obligation to keep participating. The answer is <strong>D</strong>."
+    }
+  ]
+}

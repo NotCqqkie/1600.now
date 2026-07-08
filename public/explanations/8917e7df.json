@@ -1,0 +1,19 @@
+{
+  "questionId": "8917e7df",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate Elena's amount",
+      "content": "Elena has $3$ times as many dollars as Noor. Since Elena has $e$ dollars and Noor has $n$ dollars, this means<br/>$$e=3n$$"
+    },
+    {
+      "title": "Translate the total",
+      "content": "Together, they have $48$ dollars, so their amounts add to $48$.<br/>$$e+n=48$$"
+    },
+    {
+      "title": "Choose the matching system",
+      "content": "The system must include both the relationship between the two amounts and the total amount.<br/>$$e=3n$$<br/>$$e+n=48$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

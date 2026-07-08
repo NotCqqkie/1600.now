@@ -1,0 +1,19 @@
+{
+  "questionId": "465c145f",
+  "correctAnswer": "1340",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the obtuse angle",
+      "content": "An obtuse angle is supplementary to the acute angle $7x-400$, so it is $180-(7x-400)$."
+    },
+    {
+      "title": "Add the requested angles",
+      "content": "Add one acute angle and three obtuse angles.<br/>$(7x-400)+3(180-(7x-400))$<br/>$=7x-400+540-21x+1{,}200$<br/>$=-14x+1{,}340$"
+    },
+    {
+      "title": "Match the constant",
+      "content": "Compare with $-14x+w$, so $w=1{,}340$. The answer is <strong>1340</strong>."
+    }
+  ]
+}

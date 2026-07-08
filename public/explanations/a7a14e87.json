@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope of line k, then flip-and-negate for perpendicular",
-      "content": "Line $k$: $x + y = 0 \\Rightarrow y = -x$, so slope $= -1$. Perpendicular slope is the negative reciprocal: $-\\frac{1}{-1} = 1$."
+      "title": "Find the perpendicular slope",
+      "content": "Rewrite line $k$ in slope-intercept form.<br/>$$x+y=0$$<br/>$$y=-x$$<br/>Line $k$ has slope $-1$, so line $j$ has slope $1$."
     },
     {
-      "title": "Write line j and convert to standard form",
-      "content": "Line $j$ has slope $1$ and passes through $(0, 5)$, so $y = x + 5$. Rearranging: $x - y = -5$. The correct answer is choice D."
+      "title": "Write line j",
+      "content": "Line $j$ has slope $1$ and $y$-intercept $(0,5)$.<br/>$$y=x+5$$<br/>$$x-y=-5$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

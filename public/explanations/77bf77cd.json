@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject number and time context",
-      "content": "The subject “Farouk El-Baz” is singular — the appositive phrase “a geologist and space scientist” provides description but doesn't create a compound subject. The phrase “during the 1960s and 1970s” establishes that past tense is required."
+      "title": "Match subject and tense",
+      "content": "The subject is the singular person Farouk El-Baz. The appositive phrase <em>a geologist and space scientist</em> describes him but does not make the subject plural, and the time phrase points to the past."
     },
     {
-      "title": "Match the singular subject to its past-tense verb",
-      "content": "A singular subject requires a singular verb form; in past tense, the singular form of “to be” is “was”. The other choices fail: “are” and “were” are plural, and “have been” is present-tense. That confirms <strong>B</strong> is correct."
+      "title": "Reject agreement errors",
+      "content": "Choice A and Choice D are plural verb forms, so they do not agree with the singular subject. Choice C is also plural and does not fit the simple past context. The answer is <strong>B</strong>."
     }
   ]
 }

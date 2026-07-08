@@ -1,0 +1,15 @@
+{
+  "questionId": "5812d92f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the steel types",
+      "content": "Ferritic stainless steel, used for induction cookers, has more chromium than austenitic stainless steel. Dishwashers use 200-series austenitic stainless steel, while storage containers and sinks use 300-series austenitic stainless steel."
+    },
+    {
+      "title": "Reject unsupported properties",
+      "content": "Choice A wrongly suggests sinks share the magnetic properties of ferritic steel. Choice B invents a chromium-threshold contrast between two austenitic subtypes. Choice C assigns the austenitic face-centered cubic structure to ferritic steel. The remaining choice follows from the chromium comparison between austenitic dishwashers and ferritic induction cookers. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8929ce5d",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer back to the wall",
+      "content": "The previous sentence places the sculpture on a university building wall. The next sentence describes how the sculpture appears at that location, so the transition must point back spatially."
+    },
+    {
+      "title": "Reject time, example, contrast",
+      "content": "Choice B signals time, Choice C introduces an example, and Choice D creates contrast. The location word points back to the wall and fits the physical description that follows. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Factor and apply absolute value property",
-      "content": "Recognize that $6x - 6 = 6(x-1)$:<br/>$$|6(x-1)| = 150$$<br/>Apply the property for absolute values to get:<br/>$$6|x-1| = 150$$",
+      "title": "Factor inside the absolute value",
+      "content": "Rewrite the expression inside the absolute value:<br/>$$6x-6=6(x-1)$$",
       "formula": "$$|ab| = |a| \\cdot |b|$$"
     },
     {
       "title": "Isolate the absolute value",
-      "content": "Divide both sides by 6:<br/>$$|x-1| = 25$$"
+      "content": "Use the product property and divide by $6$:<br/>$$6|x-1|=150$$<br/>$$|x-1|=25$$"
     },
     {
-      "title": "Identify the positive solution",
-      "content": "From $|x-1| = 25$, we have two cases: $x - 1 = 25$ or $x - 1 = -25$. The positive value of $x - 1$ is $25$."
+      "title": "Choose the positive value",
+      "content": "The positive value of $x-1$ is requested. The answer is <strong>25</strong>."
     }
   ]
 }

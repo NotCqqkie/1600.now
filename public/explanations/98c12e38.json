@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Find the area of circle K using its radius",
-      "content": "Circle $K$ has radius $r = 6$ mm. Using the circle area formula, we get $$A_K = \\pi(6)^2 = 36\\pi \\text{ mm}^2$$",
+      "title": "Find circle K area",
+      "content": "Circle $K$ has radius $6$, so use the circle area formula to find its area.\n$$A_K=\\pi(6)^2=36\\pi$$",
       "formula": "$$A = \\pi r^2$$"
     },
     {
-      "title": "Add the areas of circles K and L",
-      "content": "We have the area of circle $K$ as $36\\pi$ mm$^2$ and the area of circle $L$ as $121\\pi$ mm$^2$ (given). The total area is $$A_{\\text{total}} = 36\\pi + 121\\pi = 157\\pi \\text{ mm}^2$$ That confirms <strong>D</strong> is correct."
+      "title": "Add the two areas",
+      "content": "Circle $L$ already has area $121\\pi$. Add the two circle areas to get the combined area.\n$$36\\pi+121\\pi=157\\pi$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "da52b5b4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use two table points: $(-11,27+\\frac{11}{27})$ and $(-1,27+\\frac{1}{27})$.<br/>$m=\\frac{(27+\\frac{1}{27})-(27+\\frac{11}{27})}{-1-(-11)}$<br/>$m=\\frac{-\\frac{10}{27}}{10}=-\\frac{1}{27}$"
+    },
+    {
+      "title": "Write the line",
+      "content": "From the table pattern, when $x=0$, the $y$-value is $27$. So the line is $y=-\\frac{x}{27}+27$."
+    },
+    {
+      "title": "Find the intercept",
+      "content": "Set $y=0$ to find the $x$-intercept.<br/>$0=-\\frac{x}{27}+27$<br/>$\\frac{x}{27}=27$<br/>$x=729$<br/>The intercept is $(729,0)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

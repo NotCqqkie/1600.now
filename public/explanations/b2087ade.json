@@ -1,0 +1,15 @@
+{
+  "questionId": "b2087ade",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the shift rule",
+      "content": "Set B adds $14\\mu\\text{F}$ to every capacitor in set A. Adding the same amount to every data value increases the mean by that amount but leaves the range unchanged."
+    },
+    {
+      "title": "Update the mean",
+      "content": "From the dot plot, set A has mean $10\\mu\\text{F}$ and range $12\\mu\\text{F}$. Therefore, set B has mean\n$$10\\mu\\text{F}+14\\mu\\text{F}=24\\mu\\text{F}$$\nand range $12\\mu\\text{F}$.\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

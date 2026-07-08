@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the visible point",
-      "content": "The graph shown is $y=f(x)+4$, not $y=f(x)$. The easiest visible point is the $y$-intercept: the graph passes through $(0,8)$. That means when $x=0$, the shifted output is $8$."
+      "title": "Use the displayed graph",
+      "content": "The graph shown is $y=f(x)+4$. The visible $y$-intercept of that graph is $8$, so\n$$\nf(0)+4=8\n$$\nTherefore, $f(0)=4$. This matters because the answer choices define $f$, not the shifted graph."
     },
     {
-      "title": "Test the shifted choices",
-      "content": "Since the displayed graph is $f(x)+4$, add $4$ to each answer choice and evaluate at $x=0$. For an answer of the form $f(x)=-3^x+c$, the shifted value at $x=0$ is $-1+c+4=c+3$."
-    },
-    {
-      "title": "Confirm with the graph",
-      "content": "For the correct answer, $f(x)=-3^x+5$, so the displayed curve would be $y=-3^x+9$. At $x=0$, this gives $y=-1+9=8$, matching the graph. The curve also decreases sharply as $x$ increases, matching the shown shape."
-    },
-    {
-      "title": "Eliminate the other constants",
-      "content": "The other constants make the shifted $y$-intercept $4$, $11$, and $12$, respectively. The graph's shifted $y$-intercept is $8$, so only the answer with constant $5$ works. <strong>B</strong> is correct."
+      "title": "Test the function form",
+      "content": "Each choice has the form $f(x)=-3^x+c$. Since $3^0=1$:\n$$\nf(0)=-1+c\n$$\nSet this equal to $4$:\n$$\n-1+c=4\n$$\nSo $c=5$, which gives the needed vertical position. The answer is <strong>B</strong>."
     }
   ]
 }

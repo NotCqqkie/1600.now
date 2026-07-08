@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Identify the special triangle",
+      "content": "Since\n$$\n\\tan(A)=\\sqrt{3}\n$$\nangle $A$ is $60^{\\circ}$. Because $C$ is a right angle, triangle $ABC$ is a $30^{\\circ}$-$60^{\\circ}$-$90^{\\circ}$ triangle."
     },
     {
-      "title": "Find angle A",
-      "content": "Given $\\tan(A) = \\sqrt{3}$. The angle whose tangent equals $\\sqrt{3}$ is $60^{\\circ}$, so $A = 60^{\\circ}$. In triangle $ABC$, angles sum to $180^{\\circ}$. With $C = 90^{\\circ}$ and $A = 60^{\\circ}$, we get $B = 30^{\\circ}$."
+      "title": "Transfer the angles",
+      "content": "The triangles are similar, with $A$ corresponding to $D$ and $C$ corresponding to $F$. Therefore $D=60^{\\circ}$, $F=90^{\\circ}$, and $E=30^{\\circ}$."
     },
     {
-      "title": "Use similarity to find angles in triangle DEF",
-      "content": "Since $A$ corresponds to $D$: angle $D = 60^{\\circ}$.<br/>Since $C$ corresponds to $F$: angle $F = 90^{\\circ}$.<br/>The remaining angle: $E = 30^{\\circ}$.<br/>Triangle $DEF$ is a $30^{\\circ}$–$60^{\\circ}$–$90^{\\circ}$ right triangle."
-    },
-    {
-      "title": "Apply the 30–60–90 side ratio",
-      "content": "In a $30^{\\circ}$–$60^{\\circ}$–$90^{\\circ}$ triangle, the sides opposite those angles are in ratio $1: \\sqrt{3}: 2$.<br/><br/>In triangle $DEF$, side $DF$ is opposite the $30^{\\circ}$ angle at $E$, and side $DE$ is opposite the $90^{\\circ}$ angle at $F$.<br/><br/>Therefore $DF: DE = 1: 2$. With $DF = 130$, we have $DE = 2 \\times 130 = 260$.<br/>That confirms <strong>D</strong> is correct.",
+      "title": "Use the side ratio",
+      "content": "In triangle $DEF$, side $DF$ is opposite the $30^{\\circ}$ angle, and side $DE$ is the hypotenuse. In a $30^{\\circ}$-$60^{\\circ}$-$90^{\\circ}$ triangle, the hypotenuse is twice the shorter leg.\n$$\nDE=2(130)=260\n$$\nThe answer is <strong>D</strong>.",
       "formula": "$$1: \\sqrt{3}: 2 \\text{ (sides opposite } 30^{\\circ}, 60^{\\circ}, 90^{\\circ} \\text{)}$$"
     }
   ]

@@ -1,19 +1,15 @@
 {
   "questionId": "249508d9",
-  "section": "Reading and Writing",
   "correctAnswer": "C",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the relationship",
-      "content": "The first sentence claims the installation &quot;succeeds in creating a whimsical yet perplexing experience.&quot; The sentence after the blank gives a concrete instance &mdash; visitors are &quot;both dazzled and confused&quot; &mdash; which confirms and intensifies that claim."
+      "title": "Confirm the first claim",
+      "content": "The first sentence says the installation creates a whimsical yet perplexing experience. The next sentence describes visitors being dazzled and confused inside a blue room with a stuffed unicorn, confirming that same claim with specifics."
     },
     {
-      "title": "Pick the transition",
-      "content": "A transition that affirms/intensifies a prior claim is needed. &quot;Indeed&quot; signals exactly that confirming emphasis."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; Second,</strong>: signals the next item in a list, but no &quot;first&quot; point was made. &#10007;</li><li><strong>Choice B &mdash; Instead,</strong>: signals replacement/contrast, but the second sentence agrees with the first. &#10007;</li><li><strong>Choice C &mdash; Indeed,</strong>: confirms and intensifies the prior claim &mdash; exactly the relationship here. &#10003;</li><li><strong>Choice D &mdash; Nevertheless,</strong>: signals contrast, but no contrast exists. &#10007;</li></ul>That matches <strong>Choice C &mdash; Indeed,</strong>."
+      "title": "Reject contrast transitions",
+      "content": "Choice A signals a second item in a list, but no list is being built. Choice B signals replacement or contrast. Choice D also signals contrast. The needed transition reinforces the first sentence. The answer is <strong>C</strong>."
     }
   ]
 }

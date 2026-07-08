@@ -1,0 +1,15 @@
+{
+  "questionId": "37002f89",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Choose two clear points",
+      "content": "From the graph, the line passes through the lattice points $(-6,-7)$ and $(6,-5)$."
+    },
+    {
+      "title": "Compute the slope",
+      "content": "Use the slope formula:<br/>$$\\frac{y_2-y_1}{x_2-x_1}=\\frac{-5-(-7)}{6-(-6)}=\\frac{2}{12}=\\frac{1}{6}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

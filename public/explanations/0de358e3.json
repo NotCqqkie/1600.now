@@ -1,0 +1,19 @@
+{
+  "questionId": "0de358e3",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use proportional equations",
+      "content": "For infinitely many solutions, the two equations must represent the same line. The second equation must be a constant multiple of the first."
+    },
+    {
+      "title": "Find the multiplier",
+      "content": "Compare the $y$-coefficients and constants.<br/>$$\\frac{18}{6}=3$$<br/>$$\\frac{21}{7}=3$$<br/>So the $x$-coefficient must also be multiplied by $3$."
+    },
+    {
+      "title": "Scale the x coefficient",
+      "content": "Multiply the first equation's $x$-coefficient by $3$.<br/>$$r=3(4)=12$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

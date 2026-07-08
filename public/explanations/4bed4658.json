@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the compound predicate structure",
-      "content": "The sentence reads: “The lock would increase the salinity of the lakes and ______ a natural barrier of water most marine creatures would be unable to cross.” This is a compound predicate — two verbs joined by “and” that share the same subject, “The lock.” When verbs are connected this way, they must be parallel in form and tense."
+      "title": "Keep the predicates parallel",
+      "content": "The subject is <em>The lock</em>, and the sentence gives two things the lock would do: it would increase the lakes' salinity and would form a barrier. After the shared modal <em>would</em>, both verbs should be base forms."
     },
     {
-      "title": "Match the tense to maintain parallelism",
-      "content": "The first verb is “would increase” — a conditional form combining the modal “would” with the base verb “increase.” For parallelism, the second verb must follow the same pattern: “would [base verb].” Since the second “would” is implied after the conjunction, the verb must be the base form “create,” producing “would increase and create.” <br/><br/>The other choices break this parallelism by using different forms: a present-tense verb (creates), a gerund (creating), and a past-tense verb (created), respectively. <br/><br/><strong>B</strong> is correct."
+      "title": "Match the implied modal",
+      "content": "Choice A uses a present-tense singular verb, Choice C uses a participle, and Choice D uses a past-tense form. The parallel structure requires <em>would increase and create</em>, with the second <em>would</em> implied. The answer is <strong>B</strong>."
     }
   ]
 }

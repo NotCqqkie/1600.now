@@ -1,0 +1,15 @@
+{
+  "questionId": "5263361d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the dig sequence",
+      "content": "The passage lays out an archaeological dig in order: permissions are granted, a surveyor creates a grid, the site is dug, and artifacts are recorded and mapped. The blank introduces the last step, when artifacts are removed, cataloged, and analyzed."
+    },
+    {
+      "title": "Reject non-sequence signals",
+      "content": "Choice A would introduce an example, but the sentence gives the next action. Choice B would signal contradiction, though nothing is being contradicted. Choice C would move backward in time, conflicting with the step-by-step order. The answer is <strong>D</strong>."
+    }
+  ]
+}

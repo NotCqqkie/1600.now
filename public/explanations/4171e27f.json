@@ -1,0 +1,19 @@
+{
+  "questionId": "4171e27f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the increase",
+      "content": "A value that is $130\\%$ greater than $g$ is the original $g$ plus $130\\%$ of $g$. That makes $f$ equal to $230\\%$ of $g$.<br/>$$f=2.30g$$"
+    },
+    {
+      "title": "Apply the decrease",
+      "content": "If $h$ is $80\\%$ less than $f$, then $h$ is $20\\%$ of $f$. Substitute the expression for $f$.<br/>$$h=0.20f$$<br/>$$h=0.20(2.30g)$$<br/>$$h=0.46g$$"
+    },
+    {
+      "title": "Read the multiplier",
+      "content": "The equation shows that $h$ is $0.46$ times $g$. The answer is <strong>B</strong>."
+    }
+  ]
+}

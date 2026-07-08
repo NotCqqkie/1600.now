@@ -1,0 +1,19 @@
+{
+  "questionId": "a9f6be44",
+  "correctAnswer": "14070",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find undergraduates",
+      "content": "Graduate students are $35\\%$ of undergraduate students. Let $U$ be the number of undergraduate students.\n$$4{,}851=0.35U$$\n$$U=\\frac{4{,}851}{0.35}=13{,}860$$"
+    },
+    {
+      "title": "Find postdoctoral students",
+      "content": "Undergraduate students are $6{,}600\\%$, or $66$ times, the number of postdoctoral students. Let $P$ be the number of postdoctoral students.\n$$13{,}860=66P$$\n$$P=210$$"
+    },
+    {
+      "title": "Add the groups",
+      "content": "$$13{,}860+210=14{,}070$$\nThe answer is <strong>14070</strong>."
+    }
+  ]
+}

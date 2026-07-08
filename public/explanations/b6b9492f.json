@@ -1,0 +1,15 @@
+{
+  "questionId": "b6b9492f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Draw the consequence",
+      "content": "Morrison argued that the USGS had left out important considerations, especially the curvature of the earth. The next sentence states the result of that omission: the USGS-determined center was inaccurate."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "Choice A signals sequence. Choice B signals concession or qualification. Choice D signals contrast. The remaining choice signals that the inaccuracy follows logically from the omitted considerations. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "97f88f52",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject of the sentence is \"Latvia's 4,917-word constitution,\" which is singular. The intervening comparison with Chile's constitution is extra information and does not change the subject's number."
+    },
+    {
+      "title": "Use singular agreement",
+      "content": "Choice B uses the plural auxiliary \"have.\" Choice C uses a plural verb form, and Choice D uses the plural auxiliary \"are.\" The sentence needs a singular present-tense verb to agree with \"constitution.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

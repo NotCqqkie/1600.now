@@ -1,0 +1,19 @@
+{
+  "questionId": "580b518a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match prices to variables",
+      "content": "The equation is\n$14x+15y=436$\nThe coefficient $14$ matches the short-sleeved shirt price, and the coefficient $15$ matches the long-sleeved shirt price. The variables count how many shirts of each type were sold."
+    },
+    {
+      "title": "Eliminate price choices",
+      "content": "Since $x$ and $y$ are quantities, choices C and D are not right: they describe prices, but the prices are already the coefficients $14$ and $15$."
+    },
+    {
+      "title": "Interpret the variable",
+      "content": "Because $15y$ represents total revenue from long-sleeved shirts, $y$ represents the number of long-sleeved shirts sold. Choice B would match $x$, the short-sleeved shirt count. The answer is <strong>A</strong>."
+    }
+  ]
+}

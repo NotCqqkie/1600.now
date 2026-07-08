@@ -1,0 +1,19 @@
+{
+  "questionId": "e3bc9f6a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect Knight to fast painting",
+      "content": "The passage says Alfred Hair pioneered fast painting, which involved working across multiple canvases at once. It also says many of Hair's acolytes, including Isaac Knight, imitated that technique. The technique partly accounts for the impressionistic qualities now associated with the Florida Highwaymen's shared aesthetic, so Knight's works would likely reflect those typical group qualities."
+    },
+    {
+      "title": "Reject unsupported rankings",
+      "content": "Choice B claims Knight's works are less derivative of Hair's works than usually acknowledged, but the passage gives no such comparison. Choice C says Knight's works are inferior to works by Hair or Reagan, and Choice D says Knight's works are more aesthetically interesting than Reagan's. The passage describes stylistic differences, not quality rankings."
+    },
+    {
+      "title": "Compare Knight and Reagan",
+      "content": "Choice A says Knight's paintings likely have visual qualities regarded as more typical of Florida Highwaymen paintings than works by Reagan do. That follows because Knight imitated fast painting, while Reagan did not fully embrace that approach and painted with greater attention to detail. The answer is <strong>A</strong>."
+    }
+  ]
+}

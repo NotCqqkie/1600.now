@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the bar heights from the figure",
-      "content": "From the bar graph, read the chess bar height and the drama bar height directly off the y-axis (in number of students). The reading shows chess at roughly $20$ students and drama at roughly $30$ students."
+      "title": "Read the two bars",
+      "content": "From the bar graph, chess has $20$ students and drama has $30$ students."
     },
     {
-      "title": "Compute the difference",
-      "content": "Subtract chess from drama: $$30-20=10$$ So drama has $10$ more students than chess, which matches <strong>Choice A &mdash; $10$</strong>."
+      "title": "Subtract the counts",
+      "content": "Find how many more students are in drama than in chess.<br/>$$30-20=10$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

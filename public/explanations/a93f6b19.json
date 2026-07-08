@@ -1,0 +1,19 @@
+{
+  "questionId": "a93f6b19",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a second point",
+      "content": "The previous sentence says Santos's photograph fuels Reyes's exploration of love and cultural identity. The next sentence makes another point about the same poem: by responding to the photograph, the poem also reflects on poetry's relationship to other art forms."
+    },
+    {
+      "title": "Eliminate mismatched signals",
+      "content": "<ul><li><strong>Choice A</strong>, <em>Conversely</em>, signals contrast, but the two ideas are compatible.</li><li><strong>Choice C</strong>, <em>For instance</em>, would introduce an example, but the second idea is not an example of love and identity.</li><li><strong>Choice D</strong>, <em>In other words</em>, signals restatement, but the second idea is new.</li></ul>"
+    },
+    {
+      "title": "Signal addition",
+      "content": "<strong>Choice B</strong>, <em>What's more</em>, correctly signals that the sentence is adding a complementary observation. The poem explores love and cultural identity, and it also reflects on the relationship between poetry and other art forms. The answer is <strong>B</strong>."
+    }
+  ]
+}

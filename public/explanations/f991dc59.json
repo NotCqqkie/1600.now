@@ -1,0 +1,19 @@
+{
+  "questionId": "f991dc59",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer back to the place",
+      "content": "The previous sentence says the sculpture is built between statues at a park in France. The next sentence describes how it appears in that same location."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "<ul><li><strong>Choice B</strong> adds a time sequence that the passage does not need.</li><li><strong>Choice C</strong> signals contrast, but the description supports the same idea.</li><li><strong>Choice D</strong> signals an example, but the sentence is describing the just-named sculpture.</li></ul>"
+    },
+    {
+      "title": "Use the location word",
+      "content": "There refers back to the park in France and smoothly connects the sculpture's placement to its appearance. The answer is <strong>A</strong>."
+    }
+  ]
+}

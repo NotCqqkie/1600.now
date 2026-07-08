@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student&#x27;s stated goal",
-      "content": "The key signal is the goal stated in the prompt: emphasize a <strong>similarity</strong> between P and S waves. The correct answer must identify what they have in common."
+      "title": "Look for shared wave traits",
+      "content": "The student wants a similarity between P waves and S waves. The notes say both are seismic waves that travel beneath Earth's surface and both cause the ground to move, even though they move it in different ways."
     },
     {
-      "title": "Find what both waves share",
-      "content": "<strong>Choice A &mdash; P waves and S waves both travel beneath Earth's surface, causing the ground to move.</strong> directly states both P and S waves travel beneath Earth&#x27;s surface and both cause the ground to move&mdash;the two shared characteristics evident in the notes.<ul><li>B contrasts their speeds, which is a difference rather than a similarity.</li><li>C focuses on P waves alone and never mentions S waves.</li><li>D explicitly emphasizes difference, not similarity.</li></ul>That matches <strong>Choice A &mdash; P waves and S waves both travel beneath Earth's surface, causing the ground to move.</strong>."
+      "title": "Avoid difference-focused options",
+      "content": "Choice B compares their speeds, which is a difference. Choice C discusses only P waves. Choice D explicitly says the waves behave very differently. The remaining choice states what both waves share. The answer is <strong>A</strong>."
     }
   ]
 }

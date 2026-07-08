@@ -1,0 +1,15 @@
+{
+  "questionId": "c21fcabf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence boundary",
+      "content": "The first clause says the relationship was the focus of a 1992 study in the Netherlands. The next clause says the study examined arthropod specimens. These are separate independent clauses and need a clear boundary."
+    },
+    {
+      "title": "Reject run-on options",
+      "content": "Choice A joins the clauses with <em>and led</em>, making the structure awkward and unclear. Choice B leaves a comma splice. Choice D creates the incorrect phrase <em>Netherlands led by</em> without a boundary after the country name. The answer is <strong>C</strong>."
+    }
+  ]
+}

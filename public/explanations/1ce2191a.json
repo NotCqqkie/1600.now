@@ -1,0 +1,15 @@
+{
+  "questionId": "1ce2191a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the highest graph value",
+      "content": "The question asks for the highest percentage of lithium recovered. In the graph, the tallest bar is for Type B Process 2, which reaches about 76% on the y-axis."
+    },
+    {
+      "title": "Match the closest percent",
+      "content": "Choice B, choice C, and choice D are far below the tallest bar's value. The closest listed value to about 76% is 75%. The answer is <strong>A</strong>."
+    }
+  ]
+}

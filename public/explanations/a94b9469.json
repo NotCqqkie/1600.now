@@ -1,0 +1,15 @@
+{
+  "questionId": "a94b9469",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the timing note",
+      "content": "The student wants to specify when Euramerica formed. The relevant note directly says that Euramerica formed about 300 million years ago."
+    },
+    {
+      "title": "Reject broader facts",
+      "content": "Choice B explains the supercontinent cycle but does not give Euramerica's date. Choice C defines Euramerica as a supercontinent. Choice D names Euramerica and Kenorland generally but does not specify when Euramerica formed. The sentence with the 300-million-year date matches the goal. The answer is <strong>A</strong>."
+    }
+  ]
+}

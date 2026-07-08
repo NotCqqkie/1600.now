@@ -1,0 +1,19 @@
+{
+  "questionId": "623f1c46",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link share to possible growth",
+      "content": "The study compared each brand's market share with how much purchasing one product raised the probability of purchasing the same brand in another category. An inverse relationship means higher-share brands showed smaller increases, while lower-share brands showed larger increases."
+    },
+    {
+      "title": "Rule out unrelated mechanisms",
+      "content": "Choice A focuses on how often a product category is bought, not on cross-category lift. Choice B discusses competition within one category. Choice D would weaken the effect for low-share brands because consumers would not recognize the shared brand."
+    },
+    {
+      "title": "Use the ceiling effect",
+      "content": "High-share brands are already likely to be bought, so purchasing the paired product leaves less room for their purchase probability to rise. Low-share brands have more room for a cross-category boost. The answer is <strong>C</strong>."
+    }
+  ]
+}

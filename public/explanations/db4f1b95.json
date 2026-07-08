@@ -1,0 +1,15 @@
+{
+  "questionId": "db4f1b95",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the requested expression",
+      "content": "The question asks for the value of $4(x-5)$, which already appears in the equation. Subtract $8$ from both sides."
+    },
+    {
+      "title": "Find the target value",
+      "content": "After subtracting $8$, the remaining expression is the requested value.<br/>$$68-8=4(x-5)$$<br/>$$60=4(x-5)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

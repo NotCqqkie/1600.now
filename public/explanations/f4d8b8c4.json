@@ -1,0 +1,15 @@
+{
+  "questionId": "f4d8b8c4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion ratio",
+      "content": "Since $180^\\circ=\\pi$ radians, multiply a degree measure by $\\frac{\\pi}{180}$ to convert it to radians."
+    },
+    {
+      "title": "Convert the angle",
+      "content": "Apply the conversion to $60^\\circ$, then simplify the fraction by dividing by $60$.<br/>$60^\\circ\\cdot \\frac{\\pi}{180}=\\frac{60\\pi}{180}=\\frac{\\pi}{3}$<br/>This is the same as $\\frac{1}{3}\\pi$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

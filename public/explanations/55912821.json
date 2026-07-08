@@ -1,0 +1,15 @@
+{
+  "questionId": "55912821",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the direct detail",
+      "content": "The question asks what New Caledonian crows are known for. The passage states directly that they are well known for creating hooks and spears from twigs."
+    },
+    {
+      "title": "Rule out nearby details",
+      "content": "A and B mention brain size and lifespan, neither of which appears in the passage. D assigns leaf use to New Caledonian crows, but the passage says palm cockatoos use leaves to pad their beaks. The twig-tool detail is the match. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intercept directly",
-      "content": "The function is already in slope-intercept form: $$y=-9x+9.$$ In $y=mx+b$, the $y$-intercept is $b$."
+      "title": "Read the intercept form",
+      "content": "The function $f(x)=-9x+9$ is already in slope-intercept form. The constant term is the $y$-coordinate of the $y$-intercept."
     },
     {
-      "title": "Identify the requested coordinate",
-      "content": "Here $b=9$, so the graph crosses the $y$-axis at $(0,9)$. The question asks for the $y$-coordinate, not the whole point."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "At the $y$-intercept, $x=0$, and $f(0)=-9(0)+9=9$. The answer is <strong>9</strong>.",
+      "title": "Confirm with zero",
+      "content": "At the $y$-intercept, $x=0$.<br/>$$f(0)=-9(0)+9=9$$<br/>The answer is <strong>9</strong>.",
       "desmosExpressions": [
         "y=-9x+9",
         "x=0"

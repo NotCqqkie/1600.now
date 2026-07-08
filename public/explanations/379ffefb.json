@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the Pythagorean theorem",
-      "content": "The two given side lengths, $13$ and $8$, are the legs of a right triangle. Use $a^2+b^2=c^2$ to find the hypotenuse."
+      "title": "Apply the Pythagorean theorem",
+      "content": "The legs are $13$ centimeters and $8$ centimeters. For hypotenuse $c$:\n$$\nc^2=13^2+8^2\n$$"
     },
     {
-      "title": "Set up the Pythagorean theorem",
-      "content": "For a right triangle with legs $a$ and $b$ and hypotenuse $c$, we have $a^2 + b^2 = c^2$. With legs of 13 and 8 centimeters:<br/>$$13^2 + 8^2 = c^2$$"
-    },
-    {
-      "title": "Calculate the hypotenuse",
-      "content": "Square the legs and add:<br/>$$169 + 64 = c^2$$<br/>$$233 = c^2$$<br/>$$c = \\sqrt{233}$$<br/>This matches the correct answer, so <strong>B</strong> is correct."
+      "title": "Solve for the hypotenuse",
+      "content": "Evaluate the squares and take the square root:\n$$\nc^2=169+64=233\n$$\nSo\n$$\nc=\\sqrt{233}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

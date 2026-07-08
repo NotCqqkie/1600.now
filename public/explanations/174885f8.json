@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute distance for walking and running",
-      "content": "Distance equals rate times time. Walking gives $$4 \\cdot w = 4w$$ miles and running gives $$7 \\cdot r = 7r$$ miles."
+      "title": "Write walking distance",
+      "content": "Distance equals rate times time. Walking at $4$ miles per hour for $w$ hours gives<br/>$$4w$$"
     },
     {
-      "title": "Write the total-distance equation",
-      "content": "The combined total is 18 miles, so $$4w + 7r = 18.$$<ul><li>A) $4w+7r=18$ &mdash; matches the distance equation.</li><li>B) $\\frac{1}{4}w+\\frac{1}{7}r=18$ &mdash; uses reciprocals of the rates, which would give time, not distance.</li><li>C) $\\frac{1}{4}w+\\frac{1}{7}r=198$ &mdash; wrong coefficients and wrong total.</li><li>D) $4w+7r=198$ &mdash; correct coefficients but wrong total (the total is 18, not 198).</li></ul>That matches <strong>Choice A &mdash; $4w+7r=18$</strong>."
+      "title": "Write running distance",
+      "content": "Running at $7$ miles per hour for $r$ hours gives<br/>$$7r$$"
+    },
+    {
+      "title": "Set the total distance",
+      "content": "The combined total distance is $18$ miles, so<br/>$$4w+7r=18$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

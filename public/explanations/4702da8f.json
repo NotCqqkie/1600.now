@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 8",
-      "content": "The function is $f(x)=90-7x$. Substitute $x=8$: $$f(8)=90-7(8)$$"
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $8$ in the function.\n$$\nf(8)=90-7(8)\n$$"
     },
     {
-      "title": "Multiply before subtracting",
-      "content": "$$7(8)=56$$ $$90-56=34$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice B, $34$, is correct. Adding the coefficient and input, using $x=1$, or adding $8$ after subtracting $7$ would not follow the order in $90-7x$, where $7$ multiplies the input first."
+      "title": "Evaluate the expression",
+      "content": "Multiply before subtracting.\n$$\n90-7(8)=90-56=34\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

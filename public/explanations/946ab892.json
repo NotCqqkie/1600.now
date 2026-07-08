@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Start with slope-intercept form",
-      "content": "A linear function with slope $3$ has the form $$g(x)=3x+b.$$"
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $3$ can be written as follows, where $b$ is the y-intercept.<br/>$$g(x)=3x+b$$"
     },
     {
-      "title": "Use the given point",
-      "content": "The graph passes through $(2,19)$, so $g(2)=19$: $$19=3(2)+b$$ $$b=13.$$"
+      "title": "Substitute the given point",
+      "content": "The graph passes through $(2,19)$, so plug in $x=2$ and $g(x)=19$.<br/>$$19=3(2)+b$$<br/>$$19=6+b$$<br/>$$13=b$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "The function is $g(x)=3x+13$. That confirms <strong>C</strong>."
-    },
-    {
-      "title": "Use the point as a check",
-      "content": "Substituting $x=2$ into the correct answer gives $g(2)=3(2)+13=19$, exactly the given point. The other choices give $6$, $9$, or $25$ when $x=2$."
+      "title": "Write the function",
+      "content": "Substitute $b=13$ into the linear equation.<br/>$$g(x)=3x+13$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

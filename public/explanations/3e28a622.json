@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 64",
-      "content": "The function is $g(x)=\\sqrt{x}+250$. Substitute $x=64$: $$g(64)=\\sqrt{64}+250$$"
+      "title": "Substitute the input",
+      "content": "For $x=64$, substitute $64$ into $g(x)=\\sqrt{x}+250$.\n$$\ng(64)=\\sqrt{64}+250\n$$"
     },
     {
-      "title": "Take the square root first",
-      "content": "$$\\sqrt{64}=8$$ so $$g(64)=8+250=258$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$258$, choice C, is correct. Stopping after finding $\\sqrt{64}$, forgetting the square-root part, or adding $64$ instead of $\\sqrt{64}$ gives a different value because the function adds only the square root to 250."
+      "title": "Evaluate the function",
+      "content": "Now simplify.\n$$\ng(64)=8+250\n$$\n$$\ng(64)=258\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

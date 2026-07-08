@@ -1,0 +1,15 @@
+{
+  "questionId": "5bf52c92",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the singular subject",
+      "content": "The subject of the blank is \"Food writer J. Kenji López-Alt,\" one person. The relative clause \"who explores the science behind cooking\" only describes him and does not change the subject's number."
+    },
+    {
+      "title": "Reject plural verb forms",
+      "content": "B is a plural present-tense form. C is a plural present-perfect form and also clashes with the simple-present structure. D is a plural progressive form. A singular present-tense verb agrees with López-Alt. The answer is <strong>A</strong>."
+    }
+  ]
+}

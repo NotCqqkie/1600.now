@@ -1,0 +1,23 @@
+{
+  "questionId": "d4ba774e",
+  "correctAnswer": "258",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Measure years from the start",
+      "content": "Let $t$ be the number of years after $1996$. Then $1996$ is $t=0$, $2016$ is $t=20$, and $2020$ is $t=24$. The model gives $61$ thousand people when $t=0$ and $225$ thousand people when $t=20$."
+    },
+    {
+      "title": "Find the yearly change",
+      "content": "The slope of the linear model is\n$$\\frac{225-61}{20-0}=\\frac{164}{20}=8.2$$\nSince the value at $t=0$ is $61$, the model is\n$$y=8.2t+61$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Evaluate the model at $t=24$.\n$$8.2(24)+61=257.8$$\nRounded to the nearest whole number, this is $258$. The answer is <strong>258</strong>.",
+      "desmosExpressions": [
+        "y=8.2x+61",
+        "(24,257.8)"
+      ]
+    }
+  ]
+}

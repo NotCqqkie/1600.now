@@ -1,0 +1,15 @@
+{
+  "questionId": "335fdda0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join independent clauses",
+      "content": "The sentence links two independent clauses: compiling is not exclusive to certain programming languages, and any language can incorporate a compiler. The word \"however\" can work as a parenthetical contrast at the end of the first clause."
+    },
+    {
+      "title": "Punctuate however cleanly",
+      "content": "A and C put \"however\" before the second clause but omit the comma it needs. B uses only commas between independent clauses, creating a comma splice. A comma before \"however\" and a semicolon after it correctly joins the clauses. The answer is <strong>D</strong>."
+    }
+  ]
+}

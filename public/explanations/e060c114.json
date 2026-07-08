@@ -1,0 +1,15 @@
+{
+  "questionId": "e060c114",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for an increase",
+      "content": "The researcher needs an example of a lake whose ice duration increased. That means the lake must have more days of ice in 2005-06 than it had in 1980-81."
+    },
+    {
+      "title": "Avoid one-year comparisons",
+      "content": "A wrongly includes Kalmarinjarvi, which did not increase. C and D give single-year facts rather than showing growth over time. The remaining choice identifies a lake with more ice days in 2005-06 than in 1980-81. The answer is <strong>B</strong>."
+    }
+  ]
+}

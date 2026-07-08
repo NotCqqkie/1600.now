@@ -1,0 +1,19 @@
+{
+  "questionId": "29f34eb3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Both expressions equal $y$, so set them equal.<br/>$$-\\frac{1}{4}x=\\frac{1}{6}x$$<br/>Multiplying by $12$ gives<br/>$$-3x=2x$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations exactly as written. The intersection gives the system solution. Algebraically,<br/>$$0=5x$$<br/>$$x=0$$<br/>The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=-\\frac{1}{4}x",
+        "y=\\frac{1}{6}x"
+      ]
+    }
+  ]
+}

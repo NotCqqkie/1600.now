@@ -1,0 +1,15 @@
+{
+  "questionId": "7860ebe4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Divide the coefficients",
+      "content": "Simplify the numeric part of the fraction first, then handle the variable powers separately.\n$$\n\\frac{8}{24}=\\frac{1}{3}\n$$"
+    },
+    {
+      "title": "Subtract the exponents",
+      "content": "When dividing powers with the same base, subtract the exponents.\n$$\n\\frac{8v^{15}}{24v^5}=\\frac{1}{3}v^{15-5}=\\frac{v^{10}}{3}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

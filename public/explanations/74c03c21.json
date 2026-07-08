@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up a time equation",
-      "content": "The trip lasted $3$ hours total. Since $x$ is the time on the highway and $y$ is the time on local streets, the times add to the total: $x+y=3$."
+      "title": "Write the time equation",
+      "content": "The total trip took $3$ hours. Since $x$ is highway time and $y$ is local-street time, the time equation is:<br/>$$x+y=3$$"
     },
     {
-      "title": "Set up a distance equation",
-      "content": "Distance equals rate times time. On the highway, the shuttle covered $60x$ miles; on local streets, it covered $30y$ miles. Together these equal the $150$ mile trip: $60x+30y=150$."
+      "title": "Write the distance equation",
+      "content": "Distance equals rate times time. The highway distance is $60x$, and the local-street distance is $30y$. The total distance is $150$ miles.<br/>$$60x+30y=150$$"
     },
     {
-      "title": "Match the correct system",
-      "content": "The system is $60x+30y=150$ and $x+y=3$.<ul><li><strong>A)</strong> $60x+30y=3$, $x+y=150$ swaps the totals: the distances equal $3$ and times equal $150$, which is impossible.</li><li><strong>B)</strong> $60x+30y=150$, $x+y=3$ matches the distance and time equations derived above.</li><li><strong>C)</strong> $30x+60y=3$, $x+y=150$ both swaps totals and assigns $30$ mph to the highway time $x$ instead of $60$ mph.</li><li><strong>D)</strong> $30x+60y=150$, $x+y=3$ has the right totals but pairs the $30$ mph local rate with the highway time $x$ and the $60$ mph highway rate with the local time $y$. That confirms <strong>B</strong> is correct.</li></ul>"
+      "title": "Match the system",
+      "content": "The matching system is:<br/>$$60x+30y=150$$<br/>$$x+y=3$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

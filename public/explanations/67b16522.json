@@ -1,0 +1,15 @@
+{
+  "questionId": "67b16522",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the opening modifier",
+      "content": "The sentence begins with the participial phrase \"Having devised an optical spectroscopy technique.\" That phrase must describe the subject that follows, so the subject must be the person who devised the technique: Ahmed Zewail."
+    },
+    {
+      "title": "Reject dangling subjects",
+      "content": "B makes \"a new scientific discipline\" the subject, C makes \"the introduction\" the subject, and D makes \"chemist Ahmed Zewail's introduction\" the subject. None of those subjects can have devised the technique. The version with Ahmed Zewail himself as the subject fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

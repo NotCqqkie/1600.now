@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the English into an inequality",
-      "content": "The phrase describes $x$ as being <em>at most</em> some value.<br/><br/>That value is <em>19 less than 4 times $y$</em>, which is $4y - 19$.<br/><br/>Therefore:<br/>$$x \\leq 4y - 19$$"
+      "title": "Translate the phrase",
+      "content": "The phrase at most means less than or equal to. The phrase $19$ less than $4$ times $y$ is $4y-19$, so\n+$$x\\le4y-19$$"
     },
     {
-      "title": "Substitute y = 4 and solve for the greatest x",
-      "content": "Substitute $y = 4$:<br/>$$x \\leq 4(4) - 19$$<br/>$$x \\leq 16 - 19$$<br/>$$x \\leq -3$$<br/>The greatest possible value of $x$ is $-3$."
+      "title": "Substitute the given value",
+      "content": "Use $y=4$:\n+$$x\\le4(4)-19$$\n+$$x\\le16-19$$\n+$$x\\le-3$$\n+The greatest possible value of $x$ is $-3$. The answer is <strong>-3</strong>."
     }
   ]
 }

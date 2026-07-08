@@ -1,0 +1,15 @@
+{
+  "questionId": "1d0e6b21",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the listing goal",
+      "content": "The student wants to list activities available on the Maple Ridge Trail. The relevant notes name three activities: biking, in-line skating, and cross-country skiing."
+    },
+    {
+      "title": "Exclude off-goal details",
+      "content": "A and B focus on the trail's railroad-corridor origin. D mentions location and visitor access but not the activities. The sentence that lists biking, in-line skating, and cross-country skiing directly accomplishes the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

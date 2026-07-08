@@ -1,0 +1,15 @@
+{
+  "questionId": "1aaeb83d",
+  "correctAnswer": "11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept of the graph occurs where $x=0$. Since the graph is $y=f(x)$, the requested $y$-coordinate is the value of $f(0)$."
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Substitute $0$ for $x$ in the function:<br/>$$f(0)=-7(0)+11=11$$<br/>The computed output is the $y$-coordinate of the intercept, not the full ordered pair. The answer is <strong>11</strong>."
+    }
+  ]
+}

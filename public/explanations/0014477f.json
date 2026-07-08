@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify where to find the comparison data",
-      "content": "The student needs to find Nambé Pueblo's area in the table to complete the sentence comparing it with Taos Pueblo's 156.2 square miles."
+      "title": "Find the needed table row",
+      "content": "The student needs Nambé Pueblo's area, not Taos Pueblo's area. The table row for Nambé Pueblo gives 32.4 square miles."
     },
     {
-      "title": "Locate Nambé Pueblo in the table",
-      "content": "Nambé Pueblo is listed in the table with a total area of 32.4 square miles. The other three choices represent areas of different Pueblo nations—Pueblo de San Ildefonso, Santa Clara Pueblo, and Pueblo of Acoma. That matches <strong>Choice C &mdash; 32.4 square miles.</strong>."
+      "title": "Remove unrelated areas",
+      "content": "A is Pueblo de San Ildefonso, B is Santa Clara Pueblo, and D is Pueblo of Acoma, so none supplies Nambé Pueblo's total area. The answer is <strong>C</strong>."
     }
   ]
 }

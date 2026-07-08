@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the negative sign",
-      "content": "The negative sign in front of the second group changes the signs of both terms within it:<br/>$$(3x + 4) - (2x - 8) = 3x + 4 - 2x + 8$$"
+      "title": "Distribute the minus sign",
+      "content": "The minus sign before the second parentheses changes both signs inside that group.<br/>$$(3x+4)-(2x-8)=3x+4-2x+8$$"
     },
     {
       "title": "Combine like terms",
-      "content": "Group the $x$ terms and constants separately, then simplify:<br/>$$(3x - 2x) + (4 + 8)$$<br/>$$x + 12$$<br/>That confirms <strong>C</strong> is correct."
+      "content": "Now group the $x$ terms and the constants.<br/>$$(3x-2x)+(4+8)=x+12$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

@@ -5,16 +5,12 @@
   "steps": [
     {
       "title": "Use the triangle area formula",
-      "content": "The area of a triangle is one-half the product of its base and corresponding height. Use $A=\\frac{1}{2}bh$ with the given base and height."
-    },
-    {
-      "title": "Recall the triangle area formula",
-      "content": "The area of a triangle is one-half the product of its base and height:",
+      "content": "The area of a triangle is one-half the product of its base and corresponding height.",
       "formula": "$$A = \\frac{1}{2}bh$$"
     },
     {
-      "title": "Substitute the given values and calculate",
-      "content": "With base $b = 12$ cm and height $h = 64$ cm:<br/>$$A = \\frac{1}{2} \\cdot 12 \\cdot 64$$<br/>$$A = \\frac{768}{2} = 384$$<br/>That confirms <strong>B</strong> is correct."
+      "title": "Substitute and simplify",
+      "content": "The base is $12$ centimeters and the height is $64$ centimeters.\n$$A=\\frac{1}{2}(12)(64)$$\n$$A=6(64)$$\n$$A=384$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

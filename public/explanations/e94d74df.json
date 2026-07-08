@@ -1,0 +1,15 @@
+{
+  "questionId": "e94d74df",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the comparison",
+      "content": "The opening phrase compares the radial velocity method's zone of discovery with that of direct imaging. The comparison is not between planets or detection events; it is between zones associated with methods. The blank therefore needs a main clause about the radial velocity method's zone."
+    },
+    {
+      "title": "Use a main clause",
+      "content": "A makes 'detection' the comparison target and muddles the meaning. C and D do not smoothly complete the phrase ending with 'the effect these exoplanets have on nearby stars.' The wording also has to leave that final phrase attached to how dim exoplanets are detected. The option with 'zone of discovery is vast' fits the comparison. The answer is <strong>B</strong>."
+    }
+  ]
+}

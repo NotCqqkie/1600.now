@@ -1,0 +1,19 @@
+{
+  "questionId": "5b61e666",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stakeholder ranking",
+      "content": "The planner wants advertisements aimed at stakeholders to emphasize enhancement of pollination. In the table, stakeholders rank pollination 7, which is higher than the other listed stakeholder service rankings."
+    },
+    {
+      "title": "Reject wrong comparisons",
+      "content": "Choice B compares soil erosion between stakeholders and project leaders, not pollination's importance to stakeholders. Choice C compares pollination across groups rather than within stakeholder priorities. Choice D reverses the ranking between carbon sequestration and pollination."
+    },
+    {
+      "title": "Match the strongest support",
+      "content": "The supported data point is that stakeholders ranked enhancement of pollination higher than the other four services shown, making it logical to emphasize that benefit to them. The answer is <strong>A</strong>."
+    }
+  ]
+}

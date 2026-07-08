@@ -1,0 +1,15 @@
+{
+  "questionId": "0cbc27bf",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $x=10$ in the function $g(x)=9x^{-1}$.<br/>$$g(10)=9(10)^{-1}$$"
+    },
+    {
+      "title": "Apply the negative exponent",
+      "content": "A negative exponent means to take the reciprocal of the base.<br/>$$(10)^{-1}=\\frac{1}{10}$$<br/>$$g(10)=9(\\frac{1}{10})=\\frac{9}{10}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

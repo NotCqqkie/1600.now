@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of line $k$",
-      "content": "Line $k$ is written in slope-intercept form: $$y=7x+\\frac{1}{8}.$$ In $y=mx+b$, the slope is $m$, so line $k$ has slope $7$."
+      "title": "Read line k slope",
+      "content": "Line $k$ is written in slope-intercept form.\n$$y=7x+\\frac{1}{8}$$\nIn $y=mx+b$, the slope is $m$, so line $k$ has slope $7$."
     },
     {
-      "title": "Use the perpendicular slope shortcut",
-      "content": "Perpendicular lines have slopes that are opposite reciprocals. The opposite reciprocal of $7$ is $$-\\frac{1}{7}.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The answer is $-\\frac{1}{7}$. The value $\\frac{1}{8}$ uses the intercept incorrectly, $-8$ is just the negative reciprocal of the intercept, and $7$ is the original slope, which would be parallel rather than perpendicular.",
+      "title": "Use perpendicular slopes",
+      "content": "Perpendicular lines have slopes that are opposite reciprocals. The opposite reciprocal of $7$ is\n$$-\\frac{1}{7}$$\nThe answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=7x+1/8",
         "y=(-1/7)x+1/8"

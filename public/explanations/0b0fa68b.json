@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find f(3) using the functional equation",
-      "content": "We are given that $f(cx) = x - 7$ for all values of $x$. To find $f(3)$, we need to determine what value of $x$ makes $cx = 3$. Solving for $x$: $x = \\frac{3}{c}$. Now substitute this into the functional equation:<br/>$$f(3) = f(cx) = x - 7 = \\frac{3}{c} - 7$$"
+      "title": "Match the input",
+      "content": "The rule gives $f(cx)=x-7$. To use $f(3)$, set the input $cx$ equal to $3$.<br/>$$cx=3$$<br/>$$x=\\frac{3}{c}$$"
     },
     {
-      "title": "Solve for c using f(3) = 31",
-      "content": "We are told that $f(3) = 31$. From the previous step, we have $f(3) = \\frac{3}{c} - 7$. Setting these equal:<br/>$$\\frac{3}{c} - 7 = 31$$<br/>Add 7 to both sides:<br/>$$\\frac{3}{c} = 38$$<br/>Multiply both sides by $c$ and divide by 38:<br/>$$c = \\frac{3}{38} \\approx 0.0789$$"
+      "title": "Use the given output",
+      "content": "Substitute $x=\\frac{3}{c}$ into the rule, then use $f(3)=31$.<br/>$$31=\\frac{3}{c}-7$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Add $7$ and solve for $c$.<br/>$$38=\\frac{3}{c}$$<br/>$$38c=3$$<br/>The answer is <strong>3/38</strong>."
     }
   ]
 }

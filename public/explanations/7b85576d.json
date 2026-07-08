@@ -1,0 +1,19 @@
+{
+  "questionId": "7b85576d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the system",
+      "content": "Enter the equations as written and look for their intersection points:<br/>$$y-x=32$$<br/>$$y=x^2-30x$$",
+      "desmosExpressions": [
+        "y - x = 32",
+        "y = x^2 - 30x"
+      ]
+    },
+    {
+      "title": "Read a possible output",
+      "content": "A solution point has to lie on both graphs. One intersection has $y=64$, which is one possible value of the requested coordinate. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the polynomial in factored form",
-      "content": "Since the zeros of $h(x)$ are $-4$, $5$, and $9$, the polynomial factors as:\n$$h(x) = (x + 4)(x - 5)(x - 9)$$"
+      "title": "Write the factors",
+      "content": "Zeros of $-4$, $5$, and $9$ mean the polynomial has factors $x+4$, $x-5$, and $x-9$.\n$$h(x)=(x+4)(x-5)(x-9)$$"
     },
     {
-      "title": "The constant term equals h(0)",
-      "content": "In the standard form $h(x) = x^3 + ax^2 + bx + c$, the constant $c = h(0)$. Substitute $x = 0$ into the factored form:\n$$c = (0 + 4)(0 - 5)(0 - 9) = 4 \\cdot (-5) \\cdot (-9)$$"
+      "title": "Use the constant term",
+      "content": "In $h(x)=x^3+ax^2+bx+c$, the constant term is $h(0)$. Substitute $x=0$ into the factored form.\n$$c=(0+4)(0-5)(0-9)$$"
     },
     {
-      "title": "Calculate the product",
-      "content": "Multiply left to right:\n$$4 \\cdot (-5) \\cdot (-9) = (-20) \\cdot (-9) = 180$$\nTherefore, $c = 180$."
+      "title": "Multiply the constants",
+      "content": "Evaluate the product.\n$$4\\cdot(-5)\\cdot(-9)=(-20)(-9)=180$$\nThe answer is <strong>180</strong>."
     }
   ]
 }

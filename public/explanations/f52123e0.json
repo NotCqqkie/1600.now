@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what range measures",
-      "content": "The range is the simplest measure of spread in a dataset. It equals the difference between the largest and smallest values, telling us how far apart the extreme values are.",
+      "title": "Use the range formula",
+      "content": "The range is the largest value minus the smallest value.",
       "formula": "$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$"
     },
     {
-      "title": "Find the maximum and minimum values",
-      "content": "Scanning the seven scores: 21, 25, 25, 31, 34, 38, 55<ul><li>Largest value: 55</li><li>Smallest value: 21</li></ul>"
-    },
-    {
-      "title": "Subtract to find the range",
-      "content": "$$55 - 21 = 34$$<br/>The range of the seven scores is 34."
+      "title": "Subtract the extremes",
+      "content": "The largest score is $55$, and the smallest score is $21$.\n$$\n55-21=34\n$$\nThe answer is <strong>34</strong>."
     }
   ]
 }

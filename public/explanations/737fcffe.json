@@ -1,0 +1,15 @@
+{
+  "questionId": "737fcffe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim to instance",
+      "content": "The first sentence states a general principle about random variables clustering around an average over many trials. The second sentence gives a coin-flip scenario as a concrete illustration of that principle."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A signals addition of a separate point. B signals contrast. D signals comparison between two things. The sentence needs a transition that introduces a specific example of the general claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

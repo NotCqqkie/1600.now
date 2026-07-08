@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the core claim to weaken",
-      "content": "The traditional view claims “voting in an election does not change a voter's attitude.” To weaken this claim, we need evidence showing the opposite—that voting DOES change attitudes in some measurable way."
+      "title": "Target the claim to weaken",
+      "content": "The traditional view says voting does not change voters' attitudes toward candidates. A weakening finding must show that people who voted later differed in attitude from otherwise similar people who could not vote."
     },
     {
-      "title": "Match evidence showing voting's effect",
-      "content": "Voters held significantly more polarized (extreme) attitudes than non-voters two years after the election, showing that voting itself affected how attitudes developed relative to not voting—which directly contradicts the claim that voting doesn't change attitudes.<br/><br/>The other options either suggest attitudes are driven by general political orientation regardless of voting, demonstrate attitudes change even without voting, or report attitudes at one time without showing a voting-caused shift.<br/><br/>This confirms <strong>C</strong> is correct."
+      "title": "Show voting changed attitudes",
+      "content": "Choice A makes attitudes depend on political orientation regardless of voting. Choice B shows change among nonvoters, not an effect of voting. Choice D reports a general negative tendency without isolating voting. A voter-versus-too-young comparison with more polarized voter attitudes weakens the claim. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the data directly",
-      "content": "Use the exponential form $A(t)=a(b)^t$. The initial balance gives $a=35{,}800$. The 13-year balance gives $$67{,}506.24=35{,}800(b)^{13}.$$"
+      "title": "Use the initial balance",
+      "content": "An exponential account model has the form $A(t)=a(b)^t$. The initial balance is $35{,}800.00$, so $a=35{,}800.00$."
     },
     {
-      "title": "Find the growth multiplier",
-      "content": "Divide by $35{,}800$ and take the 13th root:<br/>$$b=\\left(\\frac{67{,}506.24}{35{,}800}\\right)^{1/13}\\approx1.05.$$<br/>So the model is $$A(t)=35800(1.05)^t.$$"
-    },
-    {
-      "title": "Compare with the choices",
-      "content": "<strong>Choice A</strong>, $A \\left(t\\right)=35,800.00{ \\left(1.05\\right)}^{t}$, has both the correct starting value and the growth multiplier. The remaining alternative uses $0.05$, which would make the balance almost zero after 13 years. Choice A is correct."
+      "title": "Check the growth factor",
+      "content": "Test the listed growth factor $1.05$ at $t=13$:<br/>$$35{,}800(1.05)^{13}$$<br/>This rounds to $67{,}506.24$, so the initial value and base fit the data. The answer is <strong>A</strong>."
     }
   ]
 }

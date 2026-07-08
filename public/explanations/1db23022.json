@@ -1,0 +1,15 @@
+{
+  "questionId": "1db23022",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each animal group",
+      "content": "Each horse uses $3$ acres, so $h$ horses use $3h$ acres. Each goat uses $1$ acre, so $g$ goats use $g$ acres."
+    },
+    {
+      "title": "Write the total land equation",
+      "content": "The total land required is $27$ acres:<br/>$$3h+g=27$$<br/>This is the same as $g+3h=27$. The answer is <strong>B</strong>."
+    }
+  ]
+}

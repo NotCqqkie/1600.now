@@ -1,0 +1,22 @@
+{
+  "questionId": "30ce09cc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cross multiply",
+      "content": "Start with the proportion and cross-multiply.<br/>$$\\frac{2}{x}=\\frac{1}{7}$$<br/>$$2\\cdot 7=1\\cdot x$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Simplify the equation.<br/>$$14=x$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph or solve the equation directly and read the $x$-value that satisfies it.<br/>The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "\\frac{2}{x} = \\frac{1}{7}"
+      ]
+    }
+  ]
+}

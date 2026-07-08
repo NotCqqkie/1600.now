@@ -1,0 +1,19 @@
+{
+  "questionId": "b6ffef23",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the hypotenuse",
+      "content": "Angle $Q$ is a right angle, so $PR$ is the hypotenuse. Since $PQ=20$ and $PR$ is $9$ greater than $PQ$,\n$$PR=20+9=29$$"
+    },
+    {
+      "title": "Write the area two ways",
+      "content": "The area of triangle $PQR$ can be written using the legs or using the hypotenuse and altitude:\n$$\\frac{1}{2}(PQ)(QR)=\\frac{1}{2}(PR)(QS)$$\nCancel $\\frac{1}{2}$:\n$$(PQ)(QR)=(PR)(QS)$$"
+    },
+    {
+      "title": "Find the requested ratio",
+      "content": "Divide both sides by $(PQ)(QS)$:\n$$\\frac{QR}{QS}=\\frac{PR}{PQ}=\\frac{29}{20}$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

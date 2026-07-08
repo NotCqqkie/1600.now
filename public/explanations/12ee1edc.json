@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Condition for no solution",
-      "content": "<ul><li>For a linear equation $$ax = c$$, there is no solution when the coefficient of $$x$$ is zero and the constant term is non-zero: $$a = 0$$ and $$c \\neq 0$$.</li><li>Here $$a = b-5$$ and $$c = 12$$.</li></ul>"
+      "title": "Use the no solution condition",
+      "content": "The equation has the form<br/>$$(b-5)x=12$$<br/>There is no solution when the coefficient of $x$ is $0$, because then the equation becomes $0=12$."
     },
     {
-      "title": "Solve for b",
-      "content": "<ul><li>Set coefficient to zero: $$b-5 = 0$$ &rarr; $$b = 5$$.</li><li>Check constant: $$12 \\neq 0$$ (true), so the equation has no solution when $$b = 5$$.</li><li>That matches <strong>Choice A &mdash; 5</strong>.</li></ul>"
+      "title": "Set the coefficient to zero",
+      "content": "Solve for the value that makes the coefficient $0$.<br/>$$b-5=0$$<br/>$$b=5$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

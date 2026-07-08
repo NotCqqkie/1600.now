@@ -1,0 +1,15 @@
+{
+  "questionId": "5a28e666",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the zone threshold",
+      "content": "The mesophotic zone begins at 30 meters below the surface. To identify the species least suited to a full migration there, focus on maximum depth: the species whose current range stops farthest above 30 meters has the weakest evidence of tolerating mesophotic conditions."
+    },
+    {
+      "title": "Compare the relevant depths",
+      "content": "Choice A identifies a maximum depth of 25 meters, which is close to the threshold. Choices C and D use minimum depths, which do not show how deep the species can tolerate. The species with a 15-meter maximum depth is farthest from the mesophotic zone. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the two constraints",
-      "content": "The problem gives us two key pieces of information: the <strong>total number of tickets</strong> sold was 216, and the <strong>total revenue</strong> collected was &#36;2,256. These are two different quantities, so we need two equations."
+      "title": "Write the ticket count",
+      "content": "Let $f$ be standard tickets and $r$ be discounted tickets. The total number of tickets is $216$, so<br/>$$f+r=216$$"
     },
     {
-      "title": "Translate the ticket count to an equation",
-      "content": "Since $f$ is the number of standard tickets and $r$ is the number of discounted tickets, the total number of tickets is their sum:<br/>$$f + r = 216$$"
+      "title": "Write the revenue equation",
+      "content": "Standard tickets cost $12$ each, and discounted tickets cost $8.50$ each. The total revenue is $2{,}256$, so<br/>$$12f+8.50r=2{,}256$$"
     },
     {
-      "title": "Translate the revenue to an equation",
-      "content": "Revenue equals price per ticket times the number of tickets. Standard tickets contribute $12f$ in revenue, and discounted tickets contribute $8.50r$ in revenue. The total revenue is &#36;2,256:<br/>$$12f + 8.50r = 2,256$$<br/>That matches <strong>Choice B &mdash; $f + r = 216$ and $12f + 8.50r = 2,256$</strong>."
+      "title": "Match the system",
+      "content": "The system with the ticket-count equation and the revenue equation is choice B. The answer is <strong>B</strong>."
     }
   ]
 }

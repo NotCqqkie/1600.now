@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the two functions shown",
-      "content": "The graph displays two functions:<ul><li>A V-shaped absolute value graph.</li><li>A straight-line graph.</li></ul>The solution is not found by writing equations; it is the point where the two visible graphs cross."
+      "title": "Locate the intersection",
+      "content": "The solution to a graphed system is the point where the two graphs intersect. Here, the straight line crosses the absolute value graph at one visible point."
     },
     {
-      "title": "Read the intersection point from the grid",
-      "content": "The straight line meets the left branch of the V-shaped graph at the point where $x=1$ and $y=5$. The solution is $(1,5)$, which matches the correct answer, <strong>C</strong>."
+      "title": "Read the coordinates",
+      "content": "From the grid, the intersection has coordinates<br/>$$(1,5)$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

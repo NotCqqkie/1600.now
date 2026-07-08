@@ -1,0 +1,23 @@
+{
+  "questionId": "8ddba1bb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the required quotation",
+      "content": "The passage says the speaker \"declares her intention to create art that has a universal appeal across generations.\" The correct quotation must show the speaker actively stating a plan to make something for people of all ages — not simply describing a need or addressing an unrelated subject."
+    },
+    {
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — '\"Our world, so worn and weary, / Needs music, pure and strong, / To hush the jangle and discords / Of sorrow, pain, and wrong.\" (from \"<em>Songs for the People</em>\")'</strong>: Describes society's need for music but contains no declaration by the speaker of her own artistic intention.</li><li><strong>Choice C — '\"God bless our native land, / Land of the newly free, / Oh may she ever stand / For truth and liberty.\" (from \"<em>God Bless Our Native Land</em>\")'</strong>: A patriotic address with no reference to artistic creation or generational scope.</li></ul>"
+    },
+    {
+      "title": "Rule out the remaining choices",
+      "content": "<ul><li><strong>Choice D — '\"My mother's kiss, my mother's kiss, / I feel its impress now; / As in the bright and happy days / She pressed it on my brow.\" (from \"<em>My Mother's Kiss</em>\")'</strong>: A personal memory with no connection to universal artistic intent.</li></ul>"
+    },
+    {
+      "title": "Choose the universal appeal quote",
+      "content": "<ul><li><strong>Choice B — '\"Let me make the songs for the people, / Songs for the old and young; / Songs to stir like a battle-cry / Wherever they are sung.\" (from \"<em>Songs for the People</em>\")'</strong>: The speaker directly declares her intention (\"Let me make\") to create songs for both old and young — universal, cross-generational appeal stated in her own voice.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

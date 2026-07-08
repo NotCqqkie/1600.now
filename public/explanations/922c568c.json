@@ -1,0 +1,19 @@
+{
+  "questionId": "922c568c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the speed of A",
+      "content": "Particle A's speed is $5{,}500\\%$ of particle C's speed. Convert the percent to a multiplier: $$a=\\frac{5{,}500}{100}c=55c$$"
+    },
+    {
+      "title": "Solve for the speed of B",
+      "content": "Particle C's speed is $0.01\\%$ of particle B's speed, so $c$ is a very small fraction of $b$: $$c=\\frac{0.01}{100}b=0.0001b$$ Dividing by $0.0001$ gives $$b=10{,}000c$$"
+    },
+    {
+      "title": "Add the two speeds",
+      "content": "Now add the expressions for $a$ and $b$: $$a+b=55c+10{,}000c=10{,}055c$$ This matches choice A. The answer is <strong>A</strong>."
+    }
+  ]
+}

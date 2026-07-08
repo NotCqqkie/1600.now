@@ -1,0 +1,15 @@
+{
+  "questionId": "dfdf5c93",
+  "correctAnswer": "27",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations because the $x$-terms cancel.<br/>$$(5x+7y)+(-5x-4y)=18+9$$"
+    },
+    {
+      "title": "Read the requested value",
+      "content": "Simplify both sides.<br/>$$3y=27$$<br/>The expression requested is already $3y$. The answer is <strong>27</strong>."
+    }
+  ]
+}

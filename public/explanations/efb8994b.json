@@ -1,0 +1,15 @@
+{
+  "questionId": "efb8994b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare fluorite on the scale",
+      "content": "The student wants to emphasize fluorite's hardness in relation to other minerals. On the Mohs scale, minerals with larger numbers are harder and can scratch minerals with smaller numbers. Fluorite is 4, talc is 1, and quartz is 7, so fluorite sits between the softer talc and the harder quartz."
+    },
+    {
+      "title": "Center the fluorite comparison",
+      "content": "A centers on quartz rather than fluorite. C compares quartz with talc but leaves fluorite out. D only says the three minerals can be ordered, without specifying fluorite's place on that order or what it can scratch. The answer is <strong>B</strong>."
+    }
+  ]
+}

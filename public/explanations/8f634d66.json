@@ -1,0 +1,15 @@
+{
+  "questionId": "8f634d66",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the possessive pattern",
+      "content": "The sentence lists things about Puerto Rico: the territory's history, its architecture, and its coffee. The blank must be a singular possessive pronoun referring to Puerto Rico and matching the later phrase its coffee."
+    },
+    {
+      "title": "Reject contractions and plural form",
+      "content": "Choice B is a contraction meaning they are, and Choice D is a contraction meaning it is. Choice C is a plural possessive, but Puerto Rico is singular in this sentence. The only form that gives singular possession and keeps the list parallel is its. The answer is <strong>A</strong>."
+    }
+  ]
+}

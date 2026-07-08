@@ -1,0 +1,15 @@
+{
+  "questionId": "24f5492f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(1)$, substitute $1$ for every $x$ in the function. This evaluates the function at the requested input:<br/>$$f(1)=3(1)^3+\\frac{1}{4}(1)^2-1$$"
+    },
+    {
+      "title": "Simplify the value",
+      "content": "Evaluate the powers first, then combine the whole-number terms before adding the fraction:<br/>$$f(1)=3+\\frac{1}{4}-1$$<br/>$$f(1)=2+\\frac{1}{4}=\\frac{9}{4}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

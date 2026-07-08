@@ -1,0 +1,15 @@
+{
+  "questionId": "0f1b7edf",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract matching terms",
+      "content": "Subtract $7x$ from both sides of the equation.\n$$7x+4=7x+10$$\n$$4=10$$"
+    },
+    {
+      "title": "Interpret the contradiction",
+      "content": "The statement $4=10$ is false for every value of $x$, so the original equation has zero solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b578563a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the input value",
+      "content": "Use the linear equation to find the shared $x$-coordinate.\n\n$$x+6=16$$\n\n$$x=10$$"
+    },
+    {
+      "title": "Evaluate the output",
+      "content": "Substitute $x=10$ into the quadratic equation to find the matching $y$-coordinate.\n\n$$y=3(10)^2+4$$\n\n$$y=3(100)+4$$\n\n$$y=304$$\n\nThe intersection point is $(10{,}304)$.\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

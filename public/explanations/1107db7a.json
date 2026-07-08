@@ -1,0 +1,16 @@
+{
+  "questionId": "1107db7a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the scale factor",
+      "content": "Area uses two dimensions, length and width. If every side length is multiplied by $96$, both dimensions in the area calculation are multiplied by $96$, so areas are multiplied by $96^2$.",
+      "formula": "$$\\text{Area scale factor} = (\\text{linear scale factor})^2$$"
+    },
+    {
+      "title": "Compute the area factor",
+      "content": "$$96^2=96\\cdot96=9{,}216$$So the area of square A is $9{,}216$ times the area of square B. The answer is <strong>D</strong>."
+    }
+  ]
+}

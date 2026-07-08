@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify coefficients and use the discriminant",
-      "content": "For a quadratic equation $ax^2 + bx + c = 0$, the number of distinct real solutions depends on the discriminant $\\Delta = b^2 - 4ac$.<br/><br/>The equation $2x^2 - 10x + 8 = 0$ has coefficients $a = 2$, $b = -10$, and $c = 8$.<br/><br/>Since we're asked how many distinct real solutions exist, we'll check the discriminant rather than solving the full equation."
+      "title": "Use the discriminant",
+      "content": "For a quadratic equation, the sign of the discriminant tells how many distinct real solutions there are. Here $a=2$, $b=-10$, and $c=8$."
     },
     {
       "title": "Calculate the discriminant",
-      "content": "$$\\Delta = b^2 - 4ac = (-10)^2 - 4(2)(8) = 100 - 64 = 36$$<br/>Since $\\Delta = 36 \\gt  0$, the quadratic has exactly two distinct real solutions. <strong>B</strong> is correct."
+      "content": "Compute\n$$\nb^2-4ac=(-10)^2-4(2)(8)=100-64=36\n$$\nSince $36>0$, the equation has exactly two distinct real solutions. The answer is <strong>B</strong>."
     }
   ]
 }

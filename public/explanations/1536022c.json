@@ -1,0 +1,15 @@
+{
+  "questionId": "1536022c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the frequency clue",
+      "content": "The example is about the incidence of the word \"day\" and its ranking as the fifth most commonly used noun. The blank must mean how common or widespread a word is."
+    },
+    {
+      "title": "Choose the frequency word",
+      "content": "A describes bold behavior, B means believable, and D means deeply meaningful. Corpus data measures frequency, so the fitting word means widespread. The answer is <strong>C</strong>."
+    }
+  ]
+}

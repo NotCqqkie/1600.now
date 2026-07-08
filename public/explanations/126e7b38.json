@@ -1,0 +1,15 @@
+{
+  "questionId": "126e7b38",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the critic",
+      "content": "The critic accepts that the infants' heart rates decreased during the lullaby but argues that this could show increased attention rather than relaxation. To weaken that claim, the new finding should make the attention explanation less compatible with another result from the study, especially the observed change in pupil size."
+    },
+    {
+      "title": "Use the pupil evidence",
+      "content": "The study found that pupil size decreased more during the lullaby than during the non-lullaby. If attention usually makes a person's pupils increase, then the observed pupil decrease points away from attention as the cause. Parent preference in Choice A, unfamiliarity in Choice B, and blinking in Choice C do not directly address the measured pupil result. The answer is <strong>D</strong>."
+    }
+  ]
+}

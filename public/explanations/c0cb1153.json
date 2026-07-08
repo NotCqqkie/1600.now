@@ -1,0 +1,19 @@
+{
+  "questionId": "c0cb1153",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the other factor",
+      "content": "If $x+3b$ is a factor, write the quadratic as<br/>$$(x+3b)(x+r)=x^2+(r+3b)x+3br$$<br/>The constant term in each choice is $21b$, so<br/>$$3br=21b$$<br/>Because $b$ is positive, divide by $b$ to get $r=7$."
+    },
+    {
+      "title": "Use the middle coefficient",
+      "content": "With $r=7$, the middle coefficient must be $7+3b$. Check which listed middle coefficient gives a positive integer $b$.<br/>$$7+3b=37$$<br/>$$3b=30$$<br/>$$b=10$$"
+    },
+    {
+      "title": "Match the expression",
+      "content": "The expression with middle coefficient $37$ is $x^2+37x+21b$. The answer is <strong>D</strong>."
+    }
+  ]
+}

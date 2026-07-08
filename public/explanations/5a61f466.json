@@ -1,0 +1,15 @@
+{
+  "questionId": "5a61f466",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use both quantities",
+      "content": "The student wants to contrast meteorite falls with meteorite finds. The relevant notes give both quantities: about 1,200 recorded falls and over 60,000 recorded finds. A strong answer must place those numbers side by side."
+    },
+    {
+      "title": "Reject definitions alone",
+      "content": "<ul><li><strong>Choice A</strong>: It defines the two categories but gives no numerical contrast.</li><li><strong>Choice B</strong>: It names the categories but omits the counts.</li><li><strong>Choice C</strong>: It gives only the number of falls, so it cannot contrast falls with finds.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

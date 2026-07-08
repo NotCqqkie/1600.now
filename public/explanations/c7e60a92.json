@@ -1,0 +1,15 @@
+{
+  "questionId": "c7e60a92",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the vertical shift",
+      "content": "Translating a graph down $6$ units subtracts $6$ from every output value. The slope stays the same."
+    },
+    {
+      "title": "Write the new equation",
+      "content": "Start from $y=7x$ and subtract $6$ from the right side.\n$$y=7x-6$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

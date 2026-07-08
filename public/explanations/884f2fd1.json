@@ -1,0 +1,15 @@
+{
+  "questionId": "884f2fd1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep adapted as the main verb",
+      "content": "The sentence's main action is that scientists adapted the mirror test. The blank describes the scientists as they conducted the study, so it should not introduce a second finite main verb."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "A, B, and C are finite verb forms, creating competing main verbs before 'adapted.' The participle creates the modifying phrase 'scientists searching for evidence' while leaving 'adapted' as the main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

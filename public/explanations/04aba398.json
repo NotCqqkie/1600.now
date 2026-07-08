@@ -1,0 +1,15 @@
+{
+  "questionId": "04aba398",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the practical consequence",
+      "content": "The passage defines horizontal gene transfer, notes that it can increase antibiotic resistance, and then says understanding how to prevent it might help mitigate dangerous pathogens."
+    },
+    {
+      "title": "State the main idea",
+      "content": "A mentions a mistaken perception, B claims a changed view of frequency, and C refers to new research overturning earlier findings. The main idea is the possible practical value of studying the process. The answer is <strong>D</strong>."
+    }
+  ]
+}

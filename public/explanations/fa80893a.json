@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the target-expression shortcut",
-      "content": "The target $12x-2$ is close to $\\left(3\\right)(4x+5)$. Multiply the given equation $4x+5=17$ by $3$: $$12x+15=51.$$"
+      "title": "Scale the given equation",
+      "content": "The target expression $12x-2$ is close to $3$ times the left side of $4x+5=17$. Multiply the equation by $3$.<br/>$$3(4x+5)=3(17)$$<br/>$$12x+15=51$$"
     },
     {
-      "title": "Adjust to $12x-2$",
-      "content": "Subtract $17$ from both sides: $$12x-2=34.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The requested value is <strong>34</strong>. This method is faster than solving for $x$ because it transforms the given equation directly into the expression the question asks for."
+      "title": "Adjust to the target",
+      "content": "Subtract $17$ from both sides to get the requested expression.<br/>$$12x+15-17=51-17$$<br/>$$12x-2=34$$<br/>The answer is <strong>34</strong>."
     }
   ]
 }

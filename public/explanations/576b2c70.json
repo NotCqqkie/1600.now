@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical role the blank must fill",
-      "content": "The blank sits inside a relative clause introduced by <strong>which</strong>. Because <em>which</em> is the subject of that clause, the blank must be the finite verb &mdash; the main predicate that makes the clause a complete grammatical unit."
+      "title": "Make the relative clause complete",
+      "content": "The blank is inside a relative clause introduced by <em>which</em>. Since <em>which</em> is the subject of that clause, the blank must supply a finite verb that can serve as the clause's predicate."
     },
     {
-      "title": "Eliminate each non-finite form, then confirm the match",
-      "content": "<ul><li><strong>Choice A — provided</strong>: A finite past-tense verb; correctly serves as the predicate of the relative clause. &#10003;</li><li><strong>Choice B — having provided</strong>: A non-finite perfect participle; cannot be the main verb of a clause. &#10007;</li><li><strong>Choice C — to provide</strong>: A non-finite infinitive; cannot be the main verb of a clause. &#10007;</li><li><strong>Choice D — providing</strong>: A non-finite present participle; cannot be the main verb of a clause. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject non-finite verb forms",
+      "content": "Choice B is a participle, Choice C is an infinitive, and Choice D is another participle. None can serve as the main verb of the relative clause. The finite past-tense verb completes the sentence. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "5a1ec635",
+  "correctAnswer": "121",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the angle relationships",
+      "content": "From the parallel-line diagram, angles $a$ and $c$ are equal, and angles $b$ and $c$ form a linear pair. Therefore, $a+b=180^\\circ$."
+    },
+    {
+      "title": "Solve for k",
+      "content": "Substitute the expressions for $a$ and $b$. This uses the fact that the two angle measures together make a straight angle.\n$$(4k+57)+(\\frac{k}{4}+55)=180$$\n$$4k+\\frac{k}{4}+112=180$$\n$$\\frac{17k}{4}=68$$\n$$k=16$$"
+    },
+    {
+      "title": "Find the angle value",
+      "content": "Since $a=c$, use $a=4k+57$.\n$$c=4(16)+57$$\n$$c=64+57$$\n$$c=121$$\nThe answer is <strong>121</strong>."
+    }
+  ]
+}

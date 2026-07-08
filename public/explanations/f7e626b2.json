@@ -4,21 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Set up the surface area formula",
-      "content": "A rectangular prism has three types of faces appearing twice each. With dimensions $l = 5$, $w = 6$, and $h = 7$ inches, we calculate the sum of the three distinct rectangular face areas, then double it.",
+      "title": "Use the prism formula",
+      "content": "A rectangular prism has three pairs of congruent faces. For dimensions $5$, $6$, and $7$, use the surface area formula.",
       "formula": "$$SA = 2(lw + lh + wh)$$"
     },
     {
-      "title": "Calculate the three face areas",
-      "content": "<ul><li>Face 1 (5 x 6): $5 \\times 6 = 30$ square inches</li><li>Face 2 (5 x 7): $5 \\times 7 = 35$ square inches</li><li>Face 3 (6 x 7): $6 \\times 7 = 42$ square inches</li></ul>Sum: $30 + 35 + 42 = 107$ square inches."
+      "title": "Compute the three face areas",
+      "content": "Find the area of one face from each pair.<br/>$$5(6)=30$$<br/>$$5(7)=35$$<br/>$$6(7)=42$$"
     },
     {
-      "title": "Multiply by 2 and identify the answer",
-      "content": "The total surface area accounts for two of each face:<br/>$$SA = 2 \\times 107 = 214 \\text{ square inches}$$That matches the correct answer &mdash; <strong>D</strong> is correct."
+      "title": "Double the sum",
+      "content": "Double the sum of those three face areas.<br/>$$2(30+35+42)=2(107)=214$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

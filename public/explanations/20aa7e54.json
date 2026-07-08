@@ -1,0 +1,15 @@
+{
+  "questionId": "20aa7e54",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track host dependence",
+      "content": "Three-host parasites depended on at least two vertebrate species and declined as sea temperatures rose. Two-host parasites depended on only one vertebrate species and were largely stable."
+    },
+    {
+      "title": "Draw the warming inference",
+      "content": "A reverses which parasite type was more affected, C denies likely warming effects on the fish, and D states the host-number relationship backward. The pattern suggests warming-related vertebrate changes suppressed some parasites but did not affect two-host parasite abundance. The answer is <strong>B</strong>."
+    }
+  ]
+}

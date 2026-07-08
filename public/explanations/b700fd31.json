@@ -1,0 +1,15 @@
+{
+  "questionId": "b700fd31",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the increase",
+      "content": "A $37.5\\%$ increase means the final amount is $1.375$ times the original amount. Let $x$ be the number of sea turtles on July $1$.\n$$\n264=1.375x\n$$"
+    },
+    {
+      "title": "Solve for the original amount",
+      "content": "Divide by $1.375$.\n$$\nx=\\frac{264}{1.375}=192\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

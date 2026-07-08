@@ -1,0 +1,15 @@
+{
+  "questionId": "7fa6a788",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test latitude prevalence",
+      "content": "The researchers conclude that deceptive antipredator displays are not mainly explained by avian order. Instead, the trait's prevalence is mediated by environmental variation associated with absolute latitude. The strongest support should therefore compare how common the trait is across latitude bands, across the studied orders."
+    },
+    {
+      "title": "Use rates, not locations",
+      "content": "Choice A undercuts the conclusion by saying the trait is widespread in <em>Charadriiformes</em> independent of latitude. Choice B documents where displays occur, but it does not give a clear across-order prevalence comparison. Choice D counts where birds brood and where many display-using birds are found, not how prevalent the trait is in each latitude band. Choice C gives the needed prevalence pattern: about 34% at 0°-30° absolute latitude and about 60% at 50°-80° absolute latitude across orders. The answer is <strong>C</strong>."
+    }
+  ]
+}

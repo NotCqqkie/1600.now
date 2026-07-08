@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the 2012/2013 data and the previous year",
-      "content": "In 2012/2013, Argentina is at approximately 70% (down from ~80% in 2011/2012), Brazil is at ~30%, and the United States is at ~8%. This establishes both Argentina's trend and the three-country ranking for that year."
+      "title": "Read the target year",
+      "content": "For 2012/2013, Argentina's percentage decreased from the previous marketing year but still remained above Brazil and the United States. The completion must report both the decrease and the ranking."
     },
     {
-      "title": "Check which choice matches this pattern",
-      "content": "<strong>Choice C &mdash; Argentina decreased from the previous marketing year but remained the highest among the three countries.</strong> directly matches: Argentina decreased and remained the highest among the three.<br/><br/>The other choices each fail—A and B mischaracterize Brazil (flat value, not increasing, and never surpassing Argentina), while D incorrectly claims the US peaked in 2012/2013 when its ~8% is actually one of its lowest values on the graph.<br/><br/>That matches <strong>Choice C &mdash; Argentina decreased from the previous marketing year but remained the highest among the three countries.</strong>."
+      "title": "Reject graph mismatches",
+      "content": "A wrongly says Brazil increased and stayed below the United States. B wrongly says Brazil surpassed Argentina. D wrongly says the United States reached its highest point. The statement about Argentina matches the data. The answer is <strong>C</strong>."
     }
   ]
 }

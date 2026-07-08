@@ -1,0 +1,15 @@
+{
+  "questionId": "497c17b2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the uncertainty pivot",
+      "content": "The passage says probabilistic models may seem incompatible with causal determinism, then adds that complete foreknowledge of relevant conditions is generally unavailable. That distinction separates determined outcomes from human certainty about them."
+    },
+    {
+      "title": "Reconcile prediction and determinism",
+      "content": "B treats probabilistic modeling as a rejection of determinism, which the pivot resists. C focuses only on past data, and D adds an unsupported requirement about overwhelming probability. The passage allows determinism without absolute certainty. The answer is <strong>A</strong>."
+    }
+  ]
+}

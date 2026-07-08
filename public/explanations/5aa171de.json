@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses",
-      "content": "Clause 1: &quot;They are hardly pristine, though&quot; &mdash; a complete sentence in which &quot;though&quot; functions as a sentence-final hedge attached to the first clause.<br/><br/>Clause 2: &quot;many chondrites experience aqueous alteration as a result of exposure to fluids, as well as fracturing, veining, and localized melting due to collisions with other objects&quot; &mdash; also a complete sentence.<br/><br/>Two independent clauses must be joined by appropriate punctuation, not a comma alone."
+      "title": "Mark the clause boundary",
+      "content": "The first clause is \"They are hardly pristine, though.\" The next clause begins \"many chondrites experience aqueous alteration.\" Because both clauses are independent, the sentence needs more than a comma between them."
     },
     {
-      "title": "Apply the rule and check each choice",
-      "content": "The correct boundary between two independent clauses (with no coordinating conjunction) is a semicolon. &quot;Though&quot; here is a sentence-final adverb, set off by a comma at the end of clause 1; the semicolon then marks the clause boundary.<ul><li><strong>Choice A &mdash; &lsquo;pristine, though&rsquo;</strong>: leaves only a comma between two independent clauses, creating a comma splice. &#10007;</li><li><strong>Choice B &mdash; &lsquo;pristine, though;&rsquo;</strong>: comma sets off the sentence-final &quot;though,&quot; and the semicolon properly joins the two independent clauses. &#10003;</li><li><strong>Choice C &mdash; &lsquo;pristine; though&rsquo;</strong>: places the semicolon before &quot;though,&quot; so &quot;though&quot; would have to introduce clause 2 as a conjunctive adverb but is not followed by the required comma, and the orphaned &quot;though&quot; reads awkwardly. &#10007;</li><li><strong>Choice D &mdash; &lsquo;pristine, though,&rsquo;</strong>: surrounds &quot;though&quot; with commas as a parenthetical but supplies no semicolon, leaving the two independent clauses joined only by a comma. &#10007;</li></ul>"
+      "title": "Place though correctly",
+      "content": "Choice A leaves a comma splice. Choice C puts the semicolon before \"though,\" making the transition awkward and improperly punctuated. Choice D uses only commas and still lacks a real clause boundary. The correct punctuation keeps the comma before \"though\" and uses a semicolon after it. The answer is <strong>B</strong>."
     }
   ]
 }

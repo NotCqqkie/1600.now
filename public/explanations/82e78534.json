@@ -1,0 +1,15 @@
+{
+  "questionId": "82e78534",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State a scientific fact",
+      "content": "The sentence describes a stable fact about xenon: a xenon atom contains 54 protons. The singular subject a xenon atom needs a singular present-tense verb."
+    },
+    {
+      "title": "Choose simple present tense",
+      "content": "Choice A uses past tense, which does not fit a permanent fact. Choice B uses present perfect, which suggests a completed action rather than a property. Choice D uses present progressive, which suggests a temporary action. The remaining verb correctly states an ongoing scientific fact. The answer is <strong>C</strong>."
+    }
+  ]
+}

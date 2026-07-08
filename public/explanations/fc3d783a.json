@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the line equation",
-      "content": "The line equation $2y = 12.5$ simplifies to $y = 6.25$ (or $y = \\frac{25}{4}$). This is a horizontal line."
+      "title": "Convert the line equation",
+      "content": "Divide both sides of $2y=12.5$ by $2$: $$y=6.25$$ Since the line intersects the parabola at exactly one point, the resulting quadratic must have exactly one solution."
     },
     {
-      "title": "Set up the intersection equation",
-      "content": "For a horizontal line to intersect a parabola at exactly one point, the line must be tangent to the parabola. To find intersections, set the parabola equal to the line's $y$-value:<br/>$$-9x^2 + bx = 6.25$$<br/>Rearranging to standard quadratic form:<br/>$$-9x^2 + bx - 6.25 = 0$$<br/>For exactly one solution, the discriminant of this quadratic must equal zero."
+      "title": "Set the discriminant to zero",
+      "content": "Set the parabola equal to the line: $$-9x^2+bx=6.25$$ $$9x^2-bx+6.25=0$$ For exactly one solution, the discriminant is $0$: $$(-b)^2-4(9)(6.25)=0$$"
     },
     {
-      "title": "Apply the discriminant condition",
-      "content": "For a quadratic $ax^2 + px + q = 0$, the discriminant is $\\Delta = p^2 - 4aq$. In our equation $-9x^2 + bx - 6.25 = 0$, we have $a = -9$, $p = b$, and $q = -6.25$. Setting the discriminant to zero:<br/>$$b^2 - 4(-9)(-6.25) = 0$$<br/>$$b^2 - 225 = 0$$<br/>$$b^2 = 225$$<br/>Since $b$ is positive, $b = 15$."
+      "title": "Solve for the positive constant",
+      "content": "Simplify the discriminant equation: $$b^2-225=0$$ $$b^2=225$$ Because $b$ is positive, use the positive square root. The answer is <strong>15</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "3339d857",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject is \"the presence,\" which is singular. The long phrase about fossilized microbacteria only modifies that subject and does not control the verb. The sentence needs a singular present-tense verb."
+    },
+    {
+      "title": "Match presence with its verb",
+      "content": "A uses the plural or base form, so \"the presence reinforce\" is incorrect. B uses plural \"have,\" and D uses plural \"are.\" The singular verb form agrees with \"the presence\" in the sentence skeleton \"the presence reinforces claims.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

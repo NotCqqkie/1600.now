@@ -1,0 +1,15 @@
+{
+  "questionId": "d7de6164",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep by with its object",
+      "content": "The phrase is \"known by a nickname.\" The preposition \"by\" should be followed directly by its noun object, with no intervening punctuation."
+    },
+    {
+      "title": "Remove unnecessary punctuation",
+      "content": "B uses an em dash, C uses a comma, and D uses a colon; each separates the preposition from \"a nickname.\" The phrase \"known by a nickname\" needs the preposition directly before its object. The answer is <strong>A</strong>."
+    }
+  ]
+}

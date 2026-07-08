@@ -1,0 +1,19 @@
+{
+  "questionId": "5e6fb6d9",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the function value",
+      "content": "$f(6)$ means the $y$-value on the graph when $x=6$, so read the graph's height above that input."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "On the graph, the point with $x=6$ is $(6,2)$, so $f(6)=2$. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "x=6",
+        "(6,2)"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the structures around the blank",
-      "content": "A noun (<strong>method</strong>) is immediately followed by a participial phrase (<strong>called ELISA</strong>) that provides additional information about it."
+      "title": "Set off the method name",
+      "content": "The first sentence already identifies the scientists' method. In the next sentence, called ELISA adds the method's name as extra information and should be set off with commas, matching the comma already after the parenthetical definition."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "A non-restrictive participial phrase is separated from its noun by a comma.<br/><br/>The correct answer correctly uses a comma between <strong>method</strong> and <strong>called ELISA</strong>; since the method is already identified from the previous sentence, this phrase is non-restrictive.<br/><br/>The distractors create nested or unbalanced parentheticals, use mixed punctuation (em dash before, comma after), or lack punctuation, treating the phrase as restrictive.<br/><br/>That is the correct answer."
+      "title": "Reject mismatched punctuation",
+      "content": "Choice A opens a parenthetical structure that is not properly balanced. Choice B opens with a dash but closes with a comma, creating mismatched punctuation. Choice D fails to set off the extra naming phrase. The answer is <strong>C</strong>."
     }
   ]
 }

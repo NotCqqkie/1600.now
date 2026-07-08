@@ -1,0 +1,15 @@
+{
+  "questionId": "7c546b8a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square feet to square meters",
+      "content": "Since $1$ meter is $3.28$ feet, square the length conversion for area.<br/>$$(3.28)^2=10.7584$$<br/>So $1$ square meter equals $10.7584$ square feet."
+    },
+    {
+      "title": "Convert hours to minutes",
+      "content": "Convert $330$ square feet per hour to square meters per minute.<br/>$$\\frac{330}{10.7584(60)}$$<br/>This is about $0.51$ square meter per minute. The answer is <strong>D</strong>."
+    }
+  ]
+}

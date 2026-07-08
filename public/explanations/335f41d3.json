@@ -1,0 +1,15 @@
+{
+  "questionId": "335f41d3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the phenomenon",
+      "content": "The main clause says astronomers detected a striking phenomenon. The noun phrase after the blank identifies that phenomenon as the explosion of a massive star, so punctuation should introduce an explanation."
+    },
+    {
+      "title": "Avoid fragments and splices",
+      "content": "Choice A uses a semicolon before a fragment, Choice B creates a comma splice with it was, and Choice C leaves the noun phrase as a sentence fragment. The remaining choice uses a colon to introduce the explanation. The answer is <strong>D</strong>."
+    }
+  ]
+}

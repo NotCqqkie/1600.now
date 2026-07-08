@@ -1,0 +1,15 @@
+{
+  "questionId": "84540c2a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining probability",
+      "content": "Every visitor is in room A, room B, or room C, so the probabilities add to $1$:\n$$\nP(C)=1-0.62-0.30=0.08\n$$"
+    },
+    {
+      "title": "Convert to visitors",
+      "content": "There are $500$ visitors total, so the number in room C is\n$$\n0.08(500)=40\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

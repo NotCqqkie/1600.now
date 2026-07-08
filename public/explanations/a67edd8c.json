@@ -1,0 +1,15 @@
+{
+  "questionId": "a67edd8c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Rank the industry values",
+      "content": "5.2 < 7.3 < 10.7 < 13.7."
+    },
+    {
+      "title": "Reject misranked choices",
+      "content": "The answer is <strong>A</strong>."
+    }
+  ]
+}

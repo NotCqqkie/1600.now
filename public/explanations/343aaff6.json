@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two points",
-      "content": "The point $(0,4)$ is on the line. A slope of $6$ means one step to the right raises $y$ by $6$, so another point is $(1,10)$. Use these two points directly."
+      "title": "Use slope-intercept form",
+      "content": "A linear function with slope $6$ has the form\n$$\nf(x)=6x+b\n$$\nThe graph passes through $(0,4)$, so the $y$-intercept is $4$. That point gives the constant term directly."
     },
     {
-      "title": "Find the line from the data",
-      "content": "A line with slope $6$ has the form $f(x)=6x+b$. Since $(0,4)$ is on the line, $4=6(0)+b$, so $b=4$. The function is $f(x)=6x+4$."
-    },
-    {
-      "title": "Match the answer",
-      "content": "A choice with slope $4$ and no intercept. A choice with slope $24$. A choice with slope $10$. Only the matching choice has slope $6$ and intercept $4$, so <strong>C</strong> is correct."
+      "title": "Write the function",
+      "content": "Substitute $b=4$ into the equation:\n$$\nf(x)=6x+4\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

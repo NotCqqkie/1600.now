@@ -1,0 +1,15 @@
+{
+  "questionId": "a676c34f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the requested input",
+      "content": "The question asks for the cost when the manufacturer makes $50$ rings, so find $x=50$ on the horizontal axis."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=50$, the line is at $y=175$. Since $y$ is the cost in dollars, the cost is $175$. The answer is <strong>C</strong>."
+    }
+  ]
+}

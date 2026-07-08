@@ -1,0 +1,15 @@
+{
+  "questionId": "59c5142e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the Oscar prediction",
+      "content": "The student's claim says strong opening-weekend earnings should predict Oscar recognition. Weakening evidence must show a film with stronger opening earnings failing to receive recognition while a lower-earning film did receive it."
+    },
+    {
+      "title": "Ignore lifetime and director data",
+      "content": "B and C compare lifetime earnings, not opening-weekend earnings. D discusses directors and recognition but does not test the opening-weekend prediction. The relevant contrast shows higher opening earnings without Oscar recognition against lower opening earnings with recognition. The answer is <strong>A</strong>."
+    }
+  ]
+}

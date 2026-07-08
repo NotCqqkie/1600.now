@@ -1,0 +1,19 @@
+{
+  "questionId": "7741d3bf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Remove old assumptions",
+      "content": "The simulations suggest that early quasars could form through rare convergences of gases without ultraviolet backgrounds or other extreme, implausible environmental conditions. That means previous models may have included conditions that were treated as necessary but were not actually needed. The conclusion points to replacing weak assumptions, not denying the quasars themselves or reversing causation in the formation process."
+    },
+    {
+      "title": "Eliminate reversals",
+      "content": "<ul><li><strong>Choice B</strong> wrongly suggests early quasars may not have existed, but the passage accepts that they did.</li><li><strong>Choice C</strong> reverses the evidence by saying ultraviolet backgrounds were underemphasized.</li><li><strong>Choice D</strong> invents the idea that supposed causes were actually consequences.</li></ul>"
+    },
+    {
+      "title": "Use a better model",
+      "content": "<strong>Choice A</strong> follows because future models may be able to explain early quasars without relying on the extreme and implausible conditions used in earlier models. Those future models would rest on more credible assumptions. The answer is <strong>A</strong>."
+    }
+  ]
+}

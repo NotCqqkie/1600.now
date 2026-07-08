@@ -1,0 +1,19 @@
+{
+  "questionId": "bbeb82cb",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply a vertical shift",
+      "content": "Translating a graph $6$ units down subtracts $6$ from every output value. The graph stays a line with the same slope, but each point is moved lower by the same vertical amount.",
+      "desmosExpressions": [
+        "y = 3x",
+        "y = 3x - 6"
+      ]
+    },
+    {
+      "title": "Write the shifted equation",
+      "content": "Start with $y=3x$ and subtract $6$ from the right side.\n$$\ny=3x-6\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

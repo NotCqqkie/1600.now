@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read slope and intercept from the line",
-      "content": "The line of best fit goes <strong>down</strong> from left to right, so the slope is <strong>negative</strong> (rules out A and C). The $y$-intercept is small and positive — about $1.54$, not $15.4$."
+      "title": "Read the slope direction",
+      "content": "The line of best fit decreases from left to right, so its slope is negative."
+    },
+    {
+      "title": "Estimate the intercept",
+      "content": "The line crosses the $y$-axis near $2.3$, not near $16.3$."
     },
     {
       "title": "Match the equation",
-      "content": "Slope $\\approx -1$ and $y$-intercept $\\approx 1.54$ gives $y = -x + 1.54$.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "content": "A negative slope with a small positive intercept matches\n$$\ny=-x+2.3\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

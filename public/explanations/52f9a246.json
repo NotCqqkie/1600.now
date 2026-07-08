@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count the frequency of each distinct number",
-      "content": "In the data 5, 5, 5, 5, 9, 9, 9, 14, 14:<ul><li>5 appears 4 times</li><li>9 appears 3 times</li><li>14 appears 2 times</li></ul>"
+      "title": "Count each data value",
+      "content": "A frequency table lists each value with the number of times it appears. In the data set, $5$ appears $4$ times, $9$ appears $3$ times, and $14$ appears $2$ times."
     },
     {
-      "title": "Match to the correct frequency table",
-      "content": "A frequency table pairs each unique number with its count. The table listing Number [5, 9, 14] with corresponding Frequency [4, 3, 2] exactly matches our counts. This matches - <strong>A</strong> is correct."
+      "title": "Match the table",
+      "content": "The correct table must pair the numbers $5$, $9$, and $14$ with frequencies $4$, $3$, and $2$, respectively.\nThe answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the ordinal markers",
-      "content": "The passage contains “Second” and “Finally” introducing the second and third questions, indicating the first question requires the parallel ordinal marker."
+      "title": "Match the ordered list",
+      "content": "The passage introduces three research questions and then labels the second and final questions with \"Second\" and \"Finally.\" The first question needs the matching ordinal marker that begins the sequence."
     },
     {
-      "title": "Apply the ordinal sequence",
-      "content": "“First,” establishes the beginning of an ordinal series, creating parallel structure with “Second” and “Finally” to list the three research questions.<br/><br/>The other choices either introduce causation (as a result), addition without ordinal position (additionally) or contrast (however)—none of which fit a numbered sequence.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject nonordinal transitions",
+      "content": "A signals a result, C adds another point without marking sequence position, and D signals contrast. The sentence needs the first item in an ordered list of questions. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "2e230cb2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate decrease from sameness",
+      "content": "The sentence already excludes countries with increases and asks for examples of the other two patterns: a lower number in 2013 than in 2009 and the same number in both years. The graph shows the Philippines decreasing, Belgium staying the same, and Guatemala increasing."
+    },
+    {
+      "title": "Reject the wrong patterns",
+      "content": "Choice B shifts to a 2013 cross-country comparison instead of change over time. Choice C uses Guatemala, which increased, so it does not provide a same-number example. Choice D also uses Guatemala, so it repeats the already excluded increase pattern. The answer is <strong>A</strong>."
+    }
+  ]
+}

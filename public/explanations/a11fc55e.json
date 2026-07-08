@@ -1,0 +1,15 @@
+{
+  "questionId": "a11fc55e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize chronology",
+      "content": "The goal is release order, so the sentence must compare the 1933 film with the 1956 film in time."
+    },
+    {
+      "title": "Reject other emphases",
+      "content": "A discusses fame, C contrasts credited and uncredited roles, and D mentions only one film. The effective sentence uses early and later language to mark sequence. The answer is <strong>B</strong>."
+    }
+  ]
+}

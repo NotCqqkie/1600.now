@@ -1,0 +1,15 @@
+{
+  "questionId": "195f5063",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set x to zero",
+      "content": "A $y$-intercept occurs where $x=0$. Substitute $0$ into $y=x^2+18$."
+    },
+    {
+      "title": "Evaluate y",
+      "content": "Compute the corresponding $y$-value.\n$$y=0^2+18=18$$\nThe answer is <strong>18</strong>."
+    }
+  ]
+}

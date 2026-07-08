@@ -1,0 +1,15 @@
+{
+  "questionId": "2958fa84",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence subject",
+      "content": "The subject of the clause is Henry's careful construction. The head noun is construction, which is singular, so the verb must agree with a singular third-person subject."
+    },
+    {
+      "title": "Choose the singular verb",
+      "content": "A uses have, which agrees with a plural subject. B uses are, also plural. D uses the base form become, which does not agree with the singular subject when it stands alone in the present tense. The remaining verb form is singular and fits the sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

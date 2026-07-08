@@ -1,0 +1,15 @@
+{
+  "questionId": "dd13f311",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the target output",
+      "content": "The function is $g(x)=5x$, and the question asks when $g(x)=35$. Substitute $35$ for the function value:\n$$\n5x=35\n$$"
+    },
+    {
+      "title": "Divide by the coefficient",
+      "content": "Solve for $x$:\n$$\nx=\\frac{35}{5}=7\n$$\nThe answer is <strong>7</strong>."
+    }
+  ]
+}

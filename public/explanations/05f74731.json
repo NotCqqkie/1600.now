@@ -1,0 +1,19 @@
+{
+  "questionId": "05f74731",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert to values of f",
+      "content": "Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$.<br/>$$f(-6)=0(-3)=0$$<br/>$$f(9)=5(12)=60$$"
+    },
+    {
+      "title": "Find the vertical intercept",
+      "content": "The slope through $(-6,0)$ and $(9,60)$ is<br/>$$m=\\frac{60-0}{9-(-6)}=\\frac{60}{15}=4$$<br/>Using $f(-6)=0$:<br/>$$0=4(-6)+b$$<br/>$$b=24$$"
+    },
+    {
+      "title": "Write the intercept point",
+      "content": "The $y$-intercept of $y=f(x)$ is $(0,b)$, so the point is $(0,24)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

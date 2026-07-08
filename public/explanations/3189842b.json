@@ -1,0 +1,15 @@
+{
+  "questionId": "3189842b",
+  "correctAnswer": "24",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the weighted total",
+      "content": "Multiply each mass by its frequency, then add the products.<br/>$$10(12)+20(6)+30(8)+40(9)=120+120+240+360=840$$"
+    },
+    {
+      "title": "Divide by the count",
+      "content": "There are $35$ objects, so divide the total mass by $35$.<br/>$$\\frac{840}{35}=24$$<br/>The answer is <strong>24</strong>."
+    }
+  ]
+}

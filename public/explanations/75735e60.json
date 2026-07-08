@@ -1,0 +1,15 @@
+{
+  "questionId": "75735e60",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed support",
+      "content": "The conclusion is that <em>M. barbatus</em> associates the antshrike alarm calls with danger. Strong support would show that the birds are responding specifically to those alarm calls, not simply to any sudden sound, researcher activity, or disturbance in the area."
+    },
+    {
+      "title": "Rule out weaker evidence",
+      "content": "A discusses other species, so it does not isolate <em>M. barbatus</em>'s association. B shows consistency across alarm calls but gives no control sound. C introduces a confounding reaction to human approach. A no-reaction result for random noise isolates the alarm call as the meaningful trigger. The answer is <strong>D</strong>."
+    }
+  ]
+}

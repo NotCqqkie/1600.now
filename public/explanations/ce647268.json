@@ -1,0 +1,19 @@
+{
+  "questionId": "ce647268",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the contrast",
+      "content": "The text introduces the energy ladder as a common explanation for household fuel choice, then says Nielsen's study shows that model to be reductive. The word \"however\" signals the author's purpose."
+    },
+    {
+      "title": "Reject misread purposes",
+      "content": "Choice B overstates the role of country comparison. Choice C reverses the topic by focusing on income effects. Choice D wrongly says the model concerns fuel prices, not household fuel choice."
+    },
+    {
+      "title": "Name the purpose",
+      "content": "The text's main purpose is to challenge a common explanation for how households choose fuels by showing that other factors also matter. The answer is <strong>A</strong>."
+    }
+  ]
+}

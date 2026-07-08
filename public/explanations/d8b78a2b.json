@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key statement",
-      "content": "The passage explicitly states <em>“No clear evidence has emerged to favor one of these claims over the others, however.”</em> This is the crucial point determining the answer."
+      "title": "Use the lack of evidence",
+      "content": "The text lists several competing origin claims for red velvet cake, then says no clear evidence favors one claim over the others. The conclusion should reflect uncertainty, not choose a winner."
     },
     {
-      "title": "Find the logical conclusion",
-      "content": "<strong>we cannot say at present who actually baked the first red velvet cake.</strong> expresses the appropriate conclusion: we cannot identify the inventor.<br/><br/>The other options either introduce unsupported facts (A: pre-1860s origin, D: Austin creator) or claim greater certainty than the passage allows (C: that none of them likely invented it).<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject unsupported claims",
+      "content": "A adds an origin before the 1860s, but the text gives no evidence for that. C says none of the claimants likely invented the cake, which is stronger than the evidence allows. D favors the Austin bakery even though the text says no claim is favored. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "bb7cf319",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Decode the input and output",
+      "content": "The notation $f(2)=190$ means that when the input is $2$, the output is $190$. In context, $x$ is minutes after the dive, and $f(x)$ is depth below sea level in meters."
+    },
+    {
+      "title": "Interpret the statement",
+      "content": "So $f(2)=190$ means that $2$ minutes after the seal dives, its estimated depth is $190$ meters below sea level."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The point $(2{,}190)$ on the graph shows the same input-output interpretation. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "f(x) = -9x^2 + 113x",
+        "(2, 190)"
+      ]
+    }
+  ]
+}

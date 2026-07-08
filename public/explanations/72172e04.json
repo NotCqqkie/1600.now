@@ -1,0 +1,15 @@
+{
+  "questionId": "72172e04",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the plotted speed",
+      "content": "Locate $8$ meters per second on the horizontal axis, then move up to the plotted point."
+    },
+    {
+      "title": "Read the closest output",
+      "content": "The point is closest to $640$ watts on the vertical axis. The answer is <strong>A</strong>."
+    }
+  ]
+}

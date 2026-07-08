@@ -1,0 +1,19 @@
+{
+  "questionId": "2eea6001",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Paraphrase the inefficiency",
+      "content": "The student must paraphrase Mercer and Whitman's explanation of why barter is inefficient. Their quotation says a trader must find someone who both has what the trader wants and wants what the trader has. The key idea is the difficult matching of both parties' desires."
+    },
+    {
+      "title": "Avoid definition-only choices",
+      "content": "Choice A and Choice C mainly restate that barter involves trading goods without money, but they do not explain why this creates inefficiency. Choice D shifts to the later idea that barter economies can become monetary economies."
+    },
+    {
+      "title": "Select the matching paraphrase",
+      "content": "The remaining choice captures the need for a precise alignment of desires, which paraphrases the quoted explanation of why barter wastes time. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4508e0a2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the value claim",
+      "content": "The passage argues that public knowledge of economics is central to democracy and cannot remain only with experts. The blank must describe what economic knowledge is not, given that it is necessary for citizens."
+    },
+    {
+      "title": "Choose the necessary-knowledge word",
+      "content": "A concerns whether knowledge can be achieved, B concerns fairness, and C concerns how common something is. The remaining word means unnecessary or extra, which the passage rejects. The answer is <strong>D</strong>."
+    }
+  ]
+}

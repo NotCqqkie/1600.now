@@ -1,0 +1,16 @@
+{
+  "questionId": "e81e9a54",
+  "correctAnswer": "61",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertical angles",
+      "content": "When two lines intersect, opposite angles are vertical angles, and vertical angles have equal measures.",
+      "formula": "\\text{Vertical angles are equal}"
+    },
+    {
+      "title": "Apply the given measure",
+      "content": "Angles $r$ and $s$ are opposite angles in the diagram, so they have the same measure. Since $r=61$, $s=61$. The answer is <strong>61</strong>."
+    }
+  ]
+}

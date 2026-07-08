@@ -1,0 +1,15 @@
+{
+  "questionId": "f59fb2ef",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the clause boundary",
+      "content": "The words before the blank complete a list: race, gender, history, and memory. The words after the blank form a second independent clause: she is credited with expanding the horizons of conceptual photographic art. A comma plus a coordinating conjunction is needed between the clauses."
+    },
+    {
+      "title": "Test the connector choices",
+      "content": "Choice A has the conjunction but lacks the comma needed before it. Choice C leaves the two clauses with no punctuation or conjunction. Choice D uses a comma alone, creating a comma splice. The answer is <strong>B</strong>."
+    }
+  ]
+}

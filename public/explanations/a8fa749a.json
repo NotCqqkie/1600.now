@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the punctuation rule being tested",
-      "content": "The sentence lists three works, each followed by a descriptive phrase containing its own comma: <em>The Joys of Motherhood</em>, a novel...; <em>A Kind of Marriage</em>, a television play...; and <em>Head Above Water</em>, her autobiography. Because the items contain internal commas, the rule for a <em>complex series</em> applies: use semicolons (not commas) to separate the items from each other, and use a comma after each title to introduce its description."
+      "title": "Recognize the complex series",
+      "content": "The sentence lists three parts of Buchi Emecheta's oeuvre. The first item is <em>The Joys of Motherhood</em>, followed by a descriptive phrase about a novel set in 1950s Lagos. The second item is <em>A Kind of Marriage</em>, followed by a descriptive phrase about a television play. The third item is <em>Head Above Water</em>, followed by a descriptive phrase identifying it as her autobiography. Because the items themselves contain commas, semicolons should separate the larger list items."
     },
     {
-      "title": "Eliminate each choice by the rule violated",
-      "content": "The blank fills the slot between &quot;Lagos&quot; (end of item 1's description) and <em>A Kind of Marriage</em> (start of item 2). A semicolon must go after &quot;Lagos&quot; to separate items 1 and 2, and a comma must follow <em>A Kind of Marriage</em> to introduce its description.<ul><li><strong>Choice A &mdash; Lagos, <em>A Kind of Marriage</em>,</strong>: uses a comma after &quot;Lagos&quot; to separate items in a series that already has internal commas &mdash; violates the complex-series rule requiring semicolons between items. &#10007;</li><li><strong>Choice B &mdash; Lagos; <em>A Kind of Marriage</em>,</strong>: semicolon after &quot;Lagos&quot; correctly separates items 1 and 2; comma after the title correctly introduces the description. Matches the complex-series rule. &#10003;</li><li><strong>Choice C &mdash; Lagos, <em>A Kind of Marriage</em>:</strong>: comma after &quot;Lagos&quot; again fails the complex-series rule, and a colon cannot separate a title from its supplementary description mid-series. &#10007;</li><li><strong>Choice D &mdash; Lagos; <em>A Kind of Marriage</em></strong>: semicolon after &quot;Lagos&quot; is correct, but omitting the comma after the title leaves no punctuation between the title and its description, violating the requirement to set off the supplementary phrase. &#10007;</li></ul>That is the correct answer."
+      "title": "Punctuate the second item",
+      "content": "Choice A uses only a comma after Lagos, which is not strong enough to separate the first large item from the second in this complex series. Choice C also uses only a comma after Lagos and then adds an unsuitable colon after the title. Choice D correctly uses a semicolon after Lagos but lacks the comma after <em>A Kind of Marriage</em> that introduces the description \"a television play.\" The remaining choice uses both marks correctly: a semicolon between list items and a comma after the second title. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sample and its source",
-      "content": "<ul><li>The survey sampled biology professors.</li><li>These professors were selected at random from the Texas public universities system.</li></ul>"
+      "title": "Identify the sampled group",
+      "content": "The survey used a random sample of biology professors from Texas public universities. A survey can be generalized to the population from which its random sample was selected."
     },
     {
-      "title": "Determine the appropriate population for generalization",
-      "content": "<ul><li>Results from a random sample can be generalized to the population from which the sample was drawn.</li><li>Since the sample was biology professors from all Texas public university campuses, the largest population to which the results apply is all biology professors at all Texas public universities.</li></ul>That is the correct answer."
+      "title": "Choose the matching population",
+      "content": "The sample was not taken from all professors or from all biology professors in the United States. It was taken from biology professors at Texas public universities, so that is the largest supported population. The answer is <strong>C</strong>."
     }
   ]
 }

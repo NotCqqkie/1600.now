@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute f(1)",
-      "content": "All four forms describe the same function, so they share the same $f(1) = k$. Use the equivalent form: $f(1) = 42(1.2)^1 = 50.4$. So $k = 50.4$."
+      "title": "Use the definition of k",
+      "content": "The value $k$ is $f(1)$. A form that shows $k$ as the coefficient should make the exponential factor equal $1$ when $x=1$."
     },
     {
-      "title": "Find the form where k appears",
-      "content": "We need a form whose coefficient or base equals $50.4$. Check the equivalent form:<br/>$$f(x) = 50.4(1.2)^{x-1}$$<br/>Coefficient is $50.4 = k$. (Verify $f(1) = 50.4(1.2)^0 = 50.4$ ✓.)<br/><br/>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Check the shifted form",
+      "content": "In the form $f(x)=98(1.4)^{x-1}$, substituting $x=1$ gives:<br/>$$f(1)=98(1.4)^0=98$$The coefficient is therefore the value of $k$. The answer is <strong>C</strong>."
     }
   ]
 }

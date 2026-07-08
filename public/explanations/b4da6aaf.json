@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast in Green's responses",
-      "content": "Green found the 2016 version confusing but praised the 2019 version enthusiastically. The words \"However\" and \"This suggests\" signal that the passage is pointing to a change in the show itself that explains the shift in his reaction."
+      "title": "Compare Green's two reactions",
+      "content": "Green found the 2016 version's storytelling very confusing, but he enthusiastically praised the 2019 Broadway version's storytelling. The inference should explain that shift in his opinion."
     },
     {
-      "title": "Apply the contrast to each choice",
-      "content": "<ul><li><strong>A</strong>: says 2016 had fewer storytelling problems than 2019 -- this directly contradicts the passage, where Green found 2016 confusing and 2019 praiseworthy.</li><li><strong>B</strong>: addresses production size rather than storytelling -- off-topic from the storytelling contrast the passage emphasizes.</li><li><strong>C</strong>: reverses the actual contrast -- Green enthusiastically praised 2019, not 2016, and found 2016 confusing, not 2019.</li><li><strong>D</strong>: correctly captures the implied improvement in storytelling from 2016 to 2019, which explains why Green went from confused to enthusiastic.</li></ul><br/>That is the correct answer."
+      "title": "Infer improvement over time",
+      "content": "A says 2016 had fewer storytelling problems, which reverses the evidence. B discusses production size, not Green's storytelling judgment. C says 2019 was less enjoyable, which conflicts with the praise. The shift points to major improvement. The answer is <strong>D</strong>."
     }
   ]
 }

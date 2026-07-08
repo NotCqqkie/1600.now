@@ -1,0 +1,15 @@
+{
+  "questionId": "713896e2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial value",
+      "content": "In $f(t)=12t+7$, the constant term is the value when $t=0$.<br/>$$f(0)=12(0)+7=7$$"
+    },
+    {
+      "title": "Interpret the context",
+      "content": "The variable $t$ is months after Maya purchased the jade plant, so $t=0$ is the purchase time. The estimated length then was $7$ inches. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use Vieta's product formula",
-      "content": "For a quadratic $Ax^2+Bx+C=0$, the product of the two solutions is $\\frac{C}{A}$. Here the leading coefficient is $85$ and the constant term is $ab$."
+      "title": "Factor by grouping",
+      "content": "Group the middle terms to factor the quadratic:<br/>$85x^2+(85b+a)x+ab=85x^2+85bx+ax+ab$<br/>$85x(x+b)+a(x+b)=(x+b)(85x+a)$"
     },
     {
-      "title": "Compute the product",
-      "content": "So the product of the two solutions is:<br/>$$\\frac{ab}{85}$$<br/>The problem says this product is $kab$, so:<br/>$$kab=\\frac{ab}{85}$$"
-    },
-    {
-      "title": "Solve for k",
-      "content": "Since $a$ and $b$ are positive, $ab\\ne0$, so divide both sides by $ab$:<br/>$$k=\\frac{1}{85}$$<br/>This matches, so <strong>A</strong> is correct."
-    },
-    {
-      "title": "Check by factoring",
-      "content": "The quadratic factors as:<br/>$$85x^2+(85b+a)x+ab=(x+b)(85x+a)$$<br/>The roots are $-b$ and $-\\frac{a}{85}$, and their product is $\\frac{ab}{85}$, confirming $k=\\frac{1}{85}$."
+      "title": "Find the product",
+      "content": "The solutions are $x=-b$ and $x=-\\frac{a}{85}$. Their product is $(-b)(-\\frac{a}{85})=\\frac{ab}{85}$. Since the product is $kab$, the value of $k$ is $\\frac{1}{85}$. The answer is <strong>A</strong>."
     }
   ]
 }

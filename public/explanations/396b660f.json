@@ -1,0 +1,15 @@
+{
+  "questionId": "396b660f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target combined carrying capacity",
+      "content": "The student wants the combined carrying capacity of Belgium's merchant ships in 2021. The notes define carrying capacity as deadweight tonnage and give the combined DWT as 9.6 million tons."
+    },
+    {
+      "title": "Exclude counts and definitions alone",
+      "content": "A and D report the number of ships, not their combined capacity. B defines deadweight tonnage but gives no value for Belgium in 2021. The answer is <strong>C</strong>."
+    }
+  ]
+}

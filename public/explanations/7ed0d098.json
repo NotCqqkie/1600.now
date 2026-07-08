@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find 15% of 10 hours",
-      "content": "First, calculate 15% of the 10-hour workday: $$0.15 \\times 10 = 1.5$$ hours."
+      "title": "Find the training hours",
+      "content": "Priya spent $15\\%$ of a $10$-hour workday in training calls:<br/>$$0.15\\cdot10=1.5$$"
     },
     {
       "title": "Convert hours to minutes",
-      "content": "Now change hours to minutes by multiplying by 60: $$1.5 \\times 60 = 90$$ minutes. This conversion is necessary because the answer choices are in minutes, not hours. That confirms <strong>D</strong> is correct."
+      "content": "There are $60$ minutes in $1$ hour, so<br/>$$1.5\\cdot60=90$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

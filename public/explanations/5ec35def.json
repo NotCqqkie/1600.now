@@ -1,0 +1,19 @@
+{
+  "questionId": "5ec35def",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two points",
+      "content": "The line passes through $(0,0)$ and $(1,36)$. The point $(0,0)$ means the $y$-intercept is $0$."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Use the slope formula.\n$$m=\\frac{36-0}{1-0}=36$$"
+    },
+    {
+      "title": "Write the function",
+      "content": "A line with slope $36$ and intercept $0$ is\n$$h(x)=36x$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

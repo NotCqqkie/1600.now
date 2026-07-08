@@ -1,0 +1,23 @@
+{
+  "questionId": "b46fcc1b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the equations",
+      "content": "Enter the two equations as written:<br/>$$y=x+13$$<br/>$$y=4x$$",
+      "desmosExpressions": [
+        "y = x + 13",
+        "y = 4x"
+      ]
+    },
+    {
+      "title": "Compare the slopes",
+      "content": "The slopes are different: one line has slope $1$, and the other has slope $4$. Two nonparallel lines intersect at exactly one point."
+    },
+    {
+      "title": "Count intersections",
+      "content": "Because the two lines are not parallel, their graphs intersect at $1$ point. The answer is <strong>B</strong>."
+    }
+  ]
+}

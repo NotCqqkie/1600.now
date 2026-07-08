@@ -1,0 +1,15 @@
+{
+  "questionId": "c2faee2b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a participial modifier",
+      "content": "The sentence already has a main clause: \"the Pyramid of Userkaf is one of the oldest known structures in the world.\" After the comma, the blank should begin a participial phrase modifying the pyramid."
+    },
+    {
+      "title": "Reject nonparticiples",
+      "content": "Choice A is an infinitive, Choice B is a finite verb that would create a run-on, and Choice C is a base-form verb without a subject. The remaining option is a present participle that fits the modifier. The answer is <strong>D</strong>."
+    }
+  ]
+}

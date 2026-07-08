@@ -1,0 +1,23 @@
+{
+  "questionId": "b661da25",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the left side",
+      "content": "$\\frac{14x}{7y} = \\frac{2x}{y}$, so the equation becomes $\\frac{2x}{y} = 2\\sqrt{w+19}$."
+    },
+    {
+      "title": "Isolate the square root",
+      "content": "Divide both sides by 2: $\\frac{x}{y} = \\sqrt{w+19}$."
+    },
+    {
+      "title": "Square both sides and solve for $w$",
+      "content": "Square: $\\left(\\frac{x}{y}\\right)^2 = w + 19$. Subtract 19: $w = \\left(\\frac{x}{y}\\right)^2 - 19$."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li>A: $w = \\sqrt{\\frac{x}{y}} - 19$ — took a square root instead of squaring.</li><li>B: $w = \\sqrt{\\frac{28x}{14y}} - 19$ — same error and failed to simplify/divide by 2.</li><li>C: $w = \\left(\\frac{x}{y}\\right)^2 - 19$ — matches the derivation.</li><li>D: $w = \\left(\\frac{28x}{14y}\\right)^2 - 19$ — forgot to divide by 2; $\\frac{28x}{14y} = \\frac{2x}{y}$, not $\\frac{x}{y}$.</li></ul><strong>C</strong> is correct."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "0289e5a6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Model the revenue",
+      "content": "If $n$ products are sold, the price has decreased $n$ times by $2.50$, so the price is $120-2.50n$. The revenue is:<br/>$$n(120-2.50n)$$"
+    },
+    {
+      "title": "Test the plausible choice",
+      "content": "For $n=23$, the price is:<br/>$$120-2.50(23)=62.50$$<br/>The revenue is:<br/>$$23(62.50)=1{,}437.50$$"
+    },
+    {
+      "title": "Reject impossible counts",
+      "content": "Choice B gives $24(60)=1{,}440$, which is too high. Choices C and D would require more than $48$ decreases of $2.50$, making the price negative. The answer is <strong>A</strong>."
+    }
+  ]
+}

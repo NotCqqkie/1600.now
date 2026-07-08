@@ -1,0 +1,15 @@
+{
+  "questionId": "2cb0bde3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon definition",
+      "content": "The colon signals that the rest of the sentence explains the blank. The Mekong River Delta is described as constantly evolving, with channels and land changing in size and shape as sediment is deposited."
+    },
+    {
+      "title": "Reject opposite meanings",
+      "content": "Choice B means unchanging, the opposite of constantly evolving. Choice C concerns long-term maintenance, not change. Choice D means without equal, but the passage makes no comparison with other deltas. The answer is <strong>A</strong>."
+    }
+  ]
+}

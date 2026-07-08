@@ -1,0 +1,18 @@
+{
+  "questionId": "d212f197",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use vertex form",
+      "content": "The function $f(x)=(x-4)^2+6$ is in vertex form. The squared term is never negative, so its smallest value is $0$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The smallest value occurs when $(x-4)^2=0$, leaving $f(x)=6$. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "f(x)=(x-4)^{2}+6"
+      ]
+    }
+  ]
+}

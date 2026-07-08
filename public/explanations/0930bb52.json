@@ -1,0 +1,15 @@
+{
+  "questionId": "0930bb52",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the slope formula",
+      "content": "Slope is vertical change divided by horizontal change:<br/>$$m=\\frac{y_2-y_1}{x_2-x_1}$$"
+    },
+    {
+      "title": "Substitute the points",
+      "content": "Use the points $(0,0)$ and $(14,15)$:<br/>$$m=\\frac{15-0}{14-0}=\\frac{15}{14}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

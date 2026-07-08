@@ -1,0 +1,15 @@
+{
+  "questionId": "640df8c4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep one main verb",
+      "content": "The main verb of the sentence is \"analyzed\": the researchers analyzed geotagged posts. The blank should introduce a modifying phrase that describes the researchers' purpose, not create another main verb."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "B, C, and D are finite verb phrases, so each would create a run-on structure with \"analyzed.\" A present participle makes \"looking for a relationship\" a modifier of \"researchers.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

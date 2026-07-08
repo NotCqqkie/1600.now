@@ -1,0 +1,19 @@
+{
+  "questionId": "a7aa78f2",
+  "correctAnswer": "288",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the legs with tangent",
+      "content": "Angle $Y$ is a right angle, so $XY$ and $YZ$ are the legs. From angle $Z$, side $XY$ is opposite and $YZ=24$ is adjacent.<br/>$$\\tan 41^{\\circ}=\\frac{XY}{24}$$<br/>$$XY=24\\tan 41^{\\circ}$$"
+    },
+    {
+      "title": "Write the triangle area",
+      "content": "Use the right-triangle area formula with legs $XY$ and $YZ$.<br/>$$\\text{Area}=\\frac{1}{2}(24)(24\\tan 41^{\\circ})=288\\tan 41^{\\circ}$$"
+    },
+    {
+      "title": "Match the coefficient",
+      "content": "The area is written in the form $k\\tan 41^{\\circ}$, so $k=288$. The answer is <strong>288</strong>."
+    }
+  ]
+}

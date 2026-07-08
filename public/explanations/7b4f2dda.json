@@ -1,0 +1,19 @@
+{
+  "questionId": "7b4f2dda",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the first slope",
+      "content": "Rewrite the equation for line $s$ in slope-intercept form: $$6x+2y=0$$ $$2y=-6x$$ $$y=-3x$$ Line $s$ has slope $-3$."
+    },
+    {
+      "title": "Use the perpendicular slope",
+      "content": "A line perpendicular to a line with slope $-3$ has slope $\\frac{1}{3}$. Since line $t$ passes through $(5,0)$, its equation is $$y=\\frac{1}{3}(x-5)$$"
+    },
+    {
+      "title": "Substitute the second point",
+      "content": "The point $(k,\\frac{4}{3})$ lies on line $t$, so substitute $y=\\frac{4}{3}$: $$\\frac{4}{3}=\\frac{1}{3}(k-5)$$ $$4=k-5$$ $$k=9$$ The answer is <strong>9</strong>."
+    }
+  ]
+}

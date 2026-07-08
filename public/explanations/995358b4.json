@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Words in Context question testing a paradox. Water is &ldquo;critical to most reactions that enable life,&rdquo; yet the text says the presence of water likely ______ biomolecule formation during Earth&rsquo;s earliest oceans. The word &ldquo;although&rdquo; signals the blank must be the opposite of helpful &mdash; something that hindered or impeded."
+      "title": "Use the paradox",
+      "content": "The text says water is critical to life-related reactions, yet its presence during early Earth's ocean-covered period created a problem for biomolecule formation. The blank needs a word meaning hindered."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; reflected</strong>: &ldquo;reflected&rdquo; means showed or indicated. Water reflecting biomolecule formation is neither a negative nor a paradox &mdash; it does not complete the contrast the sentence requires. &#10007;</li><li><strong>Choice B &mdash; hampered</strong>: &ldquo;hampered&rdquo; means hindered or impeded. Water being life-critical yet impeding biomolecule formation is precisely the paradox the study addresses. &#10003;</li><li><strong>Choice C &mdash; imitated</strong>: &ldquo;imitated&rdquo; means copied or mimicked. There is no meaningful sense in which the presence of water could copy the formation of biomolecules, and this creates no paradox. &#10007;</li><li><strong>Choice D &mdash; exploited</strong>: &ldquo;exploited&rdquo; means took advantage of. Water exploiting a biomolecular process is conceptually incoherent in this context and introduces no logical paradox. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Choose the obstacle",
+      "content": "A means indicated, C means copied, and D means took advantage of; none creates the contrast. A word meaning impeded or made more difficult fits the paradox. The answer is <strong>B</strong>."
     }
   ]
 }

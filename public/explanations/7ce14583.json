@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the most logical transition. The first sentence establishes that Haddad's painting fuels the poem's exploration of temporality and identity; the next sentence introduces a separate additional fact about the poem &mdash; that it reflects on the relationship between poetry and other art forms. The transition must signal addition, not restatement, example, or contrast."
+      "title": "Classify the sentence relationship",
+      "content": "The first sentence says Haddad's painting fuels Rahman's exploration of temporality and identity. The next sentence adds a separate point: Rahman's poem also reflects on the relationship between poetry and other art forms."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;In other words,&rsquo;</strong>: signals a paraphrase or restatement of the previous sentence. The second sentence is a new claim, not a reworded version of the first. &#10007;</li><li><strong>Choice B &mdash; &lsquo;For instance,&rsquo;</strong>: signals that the sentence provides an example of the preceding idea. The second sentence adds a distinct observation rather than illustrating one already made. &#10007;</li><li><strong>Choice C &mdash; &lsquo;What's more,&rsquo;</strong>: signals that the sentence adds a second, separate point on top of the first. That is exactly the relationship here: the poem explores temporality and identity <em>and also</em> reflects on poetry's relationship to other art forms. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Conversely,&rsquo;</strong>: signals a contrast or reversal. Nothing in the second sentence contradicts or opposes the first. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Choose addition over contrast",
+      "content": "A would restate the first idea, B would introduce an example, and D would mark a contrast. The second sentence adds another related claim rather than rephrasing, illustrating, or opposing the first. The answer is <strong>C</strong>."
     }
   ]
 }

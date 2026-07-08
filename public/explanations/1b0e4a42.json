@@ -1,0 +1,23 @@
+{
+  "questionId": "1b0e4a42",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the two y-values equal",
+      "content": "At the solution, both equations have the same $x$ and the same $y$.\n$$-\\frac{1}{8}x=\\frac{1}{10}x$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Move all terms to one side.\n$$-\\frac{1}{8}x-\\frac{1}{10}x=0$$\n$$-\\frac{9}{40}x=0$$\n$$x=0$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two lines shows that they intersect at the origin, so the requested $x$-coordinate is $0$. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=-\\frac{1}{8}x",
+        "y=\\frac{1}{10}x"
+      ]
+    }
+  ]
+}

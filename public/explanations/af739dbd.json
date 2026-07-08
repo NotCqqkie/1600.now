@@ -1,0 +1,15 @@
+{
+  "questionId": "af739dbd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to exact",
+      "content": "The first sentence says Life Without Buildings chose its name as a tribute to another band. The second sentence gives the exact tribute: the song and the band that inspired the name."
+    },
+    {
+      "title": "Use a specifying transition",
+      "content": "A signals that something is true despite another fact. B signals the end of a sequence, and C signals substitution or contrast. The needed transition narrows the general tribute claim to its specific source. The answer is <strong>D</strong>."
+    }
+  ]
+}

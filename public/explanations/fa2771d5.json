@@ -4,30 +4,26 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read the original center",
+      "content": "A circle in the form $(x-h)^2+(y-k)^2=r^2$ has center $(h,k)$. For circle A,<br/>$$(x-7)^2+(y+3)^2=1$$<br/>so the center is $(7,-3)$."
     },
     {
-      "title": "Identify the center and radius of circle A",
-      "content": "The standard form of a circle is $$(x-h)^2+(y-k)^2=r^2$$. Circle A has equation $$(x-7)^2+(y+3)^2=1$$, so the center is $$(7,-3)$$ and the radius is $$1$$."
+      "title": "Translate the center right",
+      "content": "Moving right $4$ units adds $4$ to the $x$-coordinate and leaves the $y$-coordinate unchanged.<br/>$$(7+4,-3)=(11,-3)$$"
     },
     {
-      "title": "Apply the translation right 4 units",
-      "content": "Translating right by 4 adds 4 to the x-coordinate of the center. New center: $$(7+4,-3)=(11,-3)$$. The radius stays $$1$$. Circle B's equation is $$(x-11)^2+(y+3)^2=1$$."
-    },
-    {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li><strong>\"${\\left(x-7\\right)}^{2}+{\\left(y+7\\right)}^{2}=1$\"</strong>: Center would be (7,-7). The x did not shift and y changed incorrectly. &#10007;</li><li><strong>\"${\\left(x-3\\right)}^{2}+{\\left(y+3\\right)}^{2}=1$\"</strong>: Center would be (3,-3). That shifts left 4, not right. &#10007;</li><li><strong>\"${\\left(x-11\\right)}^{2}+{\\left(y+3\\right)}^{2}=1$\"</strong>: Center is (11,-3), exactly 4 right of (7,-3). &#10003;</li><li><strong>\"${\\left(x-7\\right)}^{2}+{\\left(y-1\\right)}^{2}=1$\"</strong>: Center would be (7,1). The x did not shift and y changed incorrectly. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
-    }
-  ],
-  "desmosExpressions": [
-    {
-      "id": "a",
-      "latex": "(x-7)^{2}+(y+3)^{2}=1"
-    },
-    {
-      "id": "b",
-      "latex": "(x-11)^{2}+(y+3)^{2}=1"
+      "title": "Write the translated equation",
+      "content": "The radius stays the same, so the new circle has center $(11,-3)$ and radius $1$. Its equation is<br/>$$(x-11)^2+(y+3)^2=1$$<br/>The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        {
+          "id": "a",
+          "latex": "(x-7)^{2}+(y+3)^{2}=1"
+        },
+        {
+          "id": "b",
+          "latex": "(x-11)^{2}+(y+3)^{2}=1"
+        }
+      ]
     }
   ]
 }

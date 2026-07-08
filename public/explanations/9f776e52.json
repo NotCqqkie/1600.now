@@ -1,0 +1,15 @@
+{
+  "questionId": "9f776e52",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for forest recovery",
+      "content": "The blank must provide graph evidence for natural regrowth after the mid-1980s. Evidence of regrowth should show forest cover increasing after the period of heavy conversion to cattle pasture."
+    },
+    {
+      "title": "Reject data that miss regrowth",
+      "content": "Choice A gives a one-year similarity, not growth. Choice B describes an earlier decrease. Choice C gives a single comparison in 2000. The remaining choice states that forest cover increased for all classes from 1979 to 2000, directly supporting regrowth. The answer is <strong>D</strong>."
+    }
+  ]
+}

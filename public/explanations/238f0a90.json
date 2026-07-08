@@ -1,0 +1,15 @@
+{
+  "questionId": "238f0a90",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the evidence gap",
+      "content": "The passage explains a discrepancy: historians of capitalism often rely on longitudinal economic data from archival records, but those records do not exist for much of precolonial Africa. Duarte and other Africanist scholars still study capitalism in that context."
+    },
+    {
+      "title": "Infer the supported difference",
+      "content": "A discusses views about capitalism's benefits, which the passage never mentions. B shifts to definitions of capitalist activity. D assumes both groups derive data from archival records, but the problem is that such records are missing. The supported inference is that Africanist scholars use different evidence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "35f8a2c9",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use dilation property",
+      "content": "A dilation changes side lengths by the scale factor, but it preserves angle measures. So angle $X$ in triangle $XYZ$ equals the corresponding angle in triangle $ABC$."
+    },
+    {
+      "title": "Match the corresponding angle",
+      "content": "From the figure, the angle corresponding to $X$ measures $60^{\\circ}$. Therefore, angle $X$ also measures $60^{\\circ}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

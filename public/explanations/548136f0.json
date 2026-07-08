@@ -1,0 +1,15 @@
+{
+  "questionId": "548136f0",
+  "correctAnswer": "-0.667,-2/3,-.6667",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the fact that (a, 0) is on the line",
+      "content": "Since the point $(a, 0)$ lies on line $q$, its coordinates must satisfy the equation $y = x + \\frac{2}{3}$. This means we can substitute $x = a$ and $y = 0$ directly into the equation."
+    },
+    {
+      "title": "Solve for a",
+      "content": "Substituting $y = 0$ and $x = a$:<br/>$$0 = a + \\frac{2}{3}$$<br/>Subtract $\\frac{2}{3}$ from both sides:<br/>$$a = -\\frac{2}{3}$$<br/>Equivalent forms accepted: <strong>-0.667</strong>, <strong>-2/3</strong>, <strong>-.6667</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the student's goal",
-      "content": "The task is to connect <em>Save Me</em> to &ldquo;the history of neon <em>in art</em>.&rdquo; The relevant note is: &ldquo;Neon signs became popular with artists in the 1960s and continue to be popular today.&rdquo; The correct choice must (1) mention Steele&rsquo;s sculpture and (2) place it within the artistic tradition of neon, citing that 1960s-to-present timeline."
+      "title": "Connect sculpture to art history",
+      "content": "The goal is to connect <em>Save Me</em> to neon in art, not to advertising history or production methods. The relevant note says neon signs became popular with artists in the 1960s and remain popular today, so the sentence should place Steele's sculpture in that artistic lineage."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Neon signs like *Save Me* are popular with advertisers and artists alike, though they must, as Archer notes, be made by hand, as they cannot be easily mass-produced.&rsquo;</strong>: Mixes advertising into the goal, which is about art history specifically. Also emphasizes the handmade production note, which is off-task. &#10007;</li><li><strong>Choice B &mdash; &lsquo;With *Save Me*, Steele joins the decades-long lineage of artists who have helped make neon a popular artistic medium since the 1960s.&rsquo;</strong>: Names the sculpture, places Steele in the artistic tradition of neon, and cites the 1960s starting point from the notes. Directly accomplishes the stated goal. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Continuing from the 1920s to today, neon lighting has been a popular material, both as an advertising tool and an artistic medium.&rsquo;</strong>: Does not mention Steele or <em>Save Me</em>, and conflates advertising with art. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The pink neon sign *Save Me* nods to the rich history of a material whose artistic popularity has long been in decline.&rsquo;</strong>: Contradicts the notes, which say neon&rsquo;s artistic popularity &ldquo;continues to be popular today.&rdquo; Factually wrong. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject off-task history",
+      "content": "Choice A shifts toward advertising and handmade production. Choice C omits Steele and <em>Save Me</em>. Choice D contradicts the note by saying neon's artistic popularity has declined, even though the notes say it continues today. The answer is <strong>B</strong>."
     }
   ]
 }

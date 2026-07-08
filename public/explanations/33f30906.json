@@ -1,0 +1,15 @@
+{
+  "questionId": "33f30906",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the award context",
+      "content": "The fellowship was given to Leonard Thomas because of his lifetime contributions to the arts. The blank must describe his being selected to receive an honor, not his feelings or eligibility."
+    },
+    {
+      "title": "Reject mismatched meanings",
+      "content": "A suggests confusion, which the sentence never implies. B suggests unwillingness, but no reluctance is mentioned. C contradicts the fact that Thomas received the fellowship. The remaining word means selected for the honor. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "f17af649",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one value",
+      "content": "Let $u$ represent the repeated expression $5-6x$. The equation becomes:<br/>$$11u+4=10u+22$$"
+    },
+    {
+      "title": "Solve for the repeated value",
+      "content": "Subtract $10u$ and $4$ from both sides:<br/>$$11u+4=10u+22$$<br/>$$u=18$$<br/>The repeated expression has that value."
+    },
+    {
+      "title": "Select the matching choice",
+      "content": "The requested expression has value $18$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The student wants to make a <em>generalization</em> about the <em>kind of study</em> Feldman, Hart, and Shah conducted &mdash; not to report a specific finding. That means the correct answer must describe the research method and field broadly, not repeat case-specific data from the notes."
+      "title": "Match the student's goal",
+      "content": "The student wants a generalization about the kind of study Feldman, Hart, and Shah conducted. The relevant notes are that they used statistical methods and that the methods addressed disputed authorship of musical material. Because the goal is broad, a one-song conclusion is too narrow."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Based on statistical analysis, Feldman, Hart, and Shah claim that John Lennon wrote the verse of \"In My Life.\"</strong>: This misrepresents the finding (they found only an 18.9% probability for McCartney; they did not claim Lennon definitively wrote it) and reports a specific case detail rather than generalizing the type of study. &#10007;</li><li><strong>Choice B — There is only an 18.9% probability that Paul McCartney wrote the verse for \"In My Life\"; John Lennon is the more likely author.</strong>: This reports the specific numerical result from the notes. It summarizes a finding, not the broader kind of study. &#10007;</li><li><strong>Choice C — It is likely that John Lennon, not Paul McCartney, wrote the verse for \"In My Life.\"</strong>: This is a specific conclusion about one song, not a generalization about the research approach. &#10007;</li><li><strong>Choice D — Researchers have used statistical methods to address questions of authorship within the field of music.</strong>: This steps back from the specific case and characterizes the methodology (statistical methods) and the research domain (authorship in music) &mdash; exactly the generalization requested. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Avoid one-song summaries",
+      "content": "Choices A, B, and C focus on who wrote the verse for In My Life. Those statements may use details from the notes, but they do not generalize about the type of research method or field. The answer is <strong>D</strong>."
     }
   ]
 }

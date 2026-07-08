@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the linear pressure function",
-      "content": "Pressure at any depth equals initial pressure plus the pressure increase from descent.<br/><br/>At sea level (depth = 0): 15.20 psi<br/>For each foot descended: pressure increases by 0.43 psi<br/><br/>This gives us the linear function where $d$ is depth in feet:"
+      "title": "Write the pressure model",
+      "content": "The total pressure is the sea-level pressure plus the added pressure from descending. At a depth of $d$ feet, the model is<br/>$$P=15.20+0.43d$$"
     },
     {
-      "title": "Substitute depth and calculate",
-      "content": "Substitute $d = 110$ feet into the function:<br/>$$P = 15.20 + 0.43(110)$$<br/>Calculate the product: $0.43 \\times 110 = 47.3$<br/>$$P = 15.20 + 47.3 = 62.50 \\text{ psi}$$<br/>That matches <strong>Choice A &mdash; $62.50$</strong>."
+      "title": "Substitute the depth",
+      "content": "Use $d=110$ because the diver is $110$ feet below sea level.<br/>$$P=15.20+0.43(110)$$<br/>$$P=15.20+47.30$$<br/>$$P=62.50$$"
+    },
+    {
+      "title": "Match the pressure",
+      "content": "The total pressure is $62.50$ psi, which matches choice A. The answer is <strong>A</strong>."
     }
   ]
 }

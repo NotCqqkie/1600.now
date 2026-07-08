@@ -1,0 +1,15 @@
+{
+  "questionId": "d9709160",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the scale factor",
+      "content": "The side lengths of PQRS are $5$ times the corresponding side lengths of JKLM. For similar figures, areas scale by the square of the side-length scale factor.<br/>$$5^2=25$$"
+    },
+    {
+      "title": "Scale the area",
+      "content": "Multiply the area of JKLM by the area scale factor.<br/>$$80\\cdot25=2{,}000$$<br/>The area of PQRS is $2{,}000$ square units. The answer is <strong>D</strong>."
+    }
+  ]
+}

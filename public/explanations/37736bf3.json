@@ -1,0 +1,15 @@
+{
+  "questionId": "37736bf3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the clause boundary",
+      "content": "The sentence contains two independent clauses: Chambers did not play drums on \"Rapper's Delight,\" and he joined Sugar Hill Records after the song's release. The transition <em>however</em> is set off after the first clause, and a semicolon is needed before the second independent clause."
+    },
+    {
+      "title": "Apply the punctuation",
+      "content": "<strong>Delight,” however;</strong> correctly places <em>however</em> after the first clause and uses the semicolon to join the two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

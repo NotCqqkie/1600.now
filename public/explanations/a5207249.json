@@ -1,0 +1,15 @@
+{
+  "questionId": "a5207249",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Rank the 7.3 billion figure",
+      "content": "Tribal economic activity totaled over 7.3 billion dollars. The table shows accommodation and food services at 5.2 billion dollars, retail at 10.7 billion dollars, and health care at 13.7 billion dollars."
+    },
+    {
+      "title": "Reject incorrect rankings",
+      "content": "Choice A wrongly says 7.3 billion is above retail. Choice C wrongly says it is above all three industries. Choice D wrongly says it is nearly equal to health care and retail. The figure is above accommodation and food services but below health care and retail. The answer is <strong>B</strong>."
+    }
+  ]
+}

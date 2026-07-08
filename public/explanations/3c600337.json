@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x equals 0",
-      "content": "The function is $f(x)=320(0.1)^x$. Substitute $x=0$: $$f(0)=320(0.1)^0$$"
+      "title": "Substitute zero",
+      "content": "Use $x=0$ in the function.\n$$\nf(0)=320(0.1)^0\n$$"
     },
     {
-      "title": "Use the zero exponent rule",
-      "content": "Any nonzero base to the $0$ power equals $1$, so $$(0.1)^0=1$$ Then $$f(0)=320(1)=320$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice D, $320$, is correct. $32$ is what you would get at $x=1$, not at $x=0$, because multiplying by $0.1$ happens only after the exponent is 1."
+      "title": "Use the zero exponent",
+      "content": "Any nonzero number to the $0$ power is $1$.\n$$\n320(0.1)^0=320(1)=320\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

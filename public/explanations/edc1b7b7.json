@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read $6x+9y$ directly by adding/subtracting",
-      "content": "The variables appear bundled as $6x$ and $9y$ &mdash; solve for those units directly.<br/>Adding the equations cancels $6x$: $\\left(10\\right)(9y) = 40$, so $9y = 4$.<br/>Subtracting cancels $9y$: $\\left(4\\right)(6x) = 0$, so $6x = 0$."
+      "title": "Solve for the bundled terms",
+      "content": "Adding cancels the $6x$ terms:<br/>$$10(9y)=40$$<br/>$$9y=4$$"
     },
     {
-      "title": "Find the value $6x + 9y$",
-      "content": "Therefore $6x + 9y = 0 + 4 = 4$. The answer is <strong>4</strong>."
+      "title": "Find the remaining bundle",
+      "content": "Subtracting cancels the $9y$ terms:<br/>$$4(6x)=0$$<br/>$$6x=0$$"
+    },
+    {
+      "title": "Add the requested terms",
+      "content": "Add the bundled values:<br/>$$6x+9y=0+4=4$$The answer is <strong>4</strong>."
     }
   ]
 }

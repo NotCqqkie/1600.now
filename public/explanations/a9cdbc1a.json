@@ -1,0 +1,15 @@
+{
+  "questionId": "a9cdbc1a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the solved-conjecture contrast",
+      "content": "The phrase <em>though it seemed</em> sets up a contrast with the fact that the conjecture eventually yielded to a proof. The blank should describe something that seemed impossible to overcome, making the later proof surprising."
+    },
+    {
+      "title": "Reject weak contrasts",
+      "content": "B means clear or certain, which does not contrast with being proved. C means faultless, which also creates no useful contrast. D means inevitable, making the proof expected rather than surprising. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate z",
-      "content": "We're given $z = 1.18 \\times 100$. Multiply:\n$$z = 1.18 \\times 100 = 118$$"
+      "title": "Find the value of z",
+      "content": "The value of $z$ is $1.18$ times $100$.\n$$z=1.18(100)=118$$"
     },
     {
-      "title": "Find the percent increase",
-      "content": "The percent increase from 100 to 118 is:\n$$\\frac{118 - 100}{100} \\times 100\\% = \\frac{18}{100} \\times 100\\% = 18\\%$$ That confirms <strong>B</strong> is correct."
+      "title": "Compute the percent increase",
+      "content": "The increase from $100$ to $118$ is $18$. As a percent of $100$:\n$$\\frac{18}{100}\\cdot100\\%=18\\%$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

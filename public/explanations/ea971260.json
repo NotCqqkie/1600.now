@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the main purpose of the passage. Every sentence describes Nora's internal reactions &mdash; her fear, her disinterest, her shock and puzzlement &mdash; so the purpose must be about portraying Nora's perspective toward Clara's friends."
+      "title": "Follow Nora's perspective",
+      "content": "Every sentence describes Nora's reaction to Clara's friends: she is afraid of them, does not understand their topics, finds them uninteresting, and feels shocked and puzzled."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>&quot;To portray Nora's reaction to Clara's friends&quot;</strong>: The passage details exactly this: Nora was afraid of them, found their topics uninteresting, and was shocked and puzzled. Every sentence supports a focus on Nora's feelings. &#10003;</li><li><strong>&quot;To identify the topics Nora talks about with Clara's friends&quot;</strong>: The passage says Clara's friends &quot;talked about things of which she knew nothing&quot; but never names those topics. No specific topics are identified. &#10007;</li><li><strong>&quot;To explain how Clara met some of her friends&quot;</strong>: The passage never mentions how Clara met her friends. This information is entirely absent. &#10007;</li><li><strong>&quot;To illustrate how Clara's friends feel about Nora&quot;</strong>: The passage focuses on Nora's feelings, not the friends' feelings about Nora. The friends' perspective is never given. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Choose the reaction purpose",
+      "content": "B asks for specific topics, which the passage does not identify. C asks how Clara met friends, and D asks how the friends feel about Nora; neither appears. The passage portrays Nora's reaction to Clara's friends. The answer is <strong>A</strong>."
     }
   ]
 }

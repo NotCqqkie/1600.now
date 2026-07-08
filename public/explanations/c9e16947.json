@@ -1,0 +1,15 @@
+{
+  "questionId": "c9e16947",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Signal transit maintenance result",
+      "content": "The first sentence says residents rely on the Suzhou Rail Transit for millions of trips each year. The second says officials maintain the stations to keep those journeys smooth, so the transition should show a logical result."
+    },
+    {
+      "title": "Reject unrelated transitions",
+      "content": "Choice B signals an alternative, but the sentences are not presenting two options. Choice C signals an example, but maintenance is a consequence of heavy use. Choice D signals contrast, but the second sentence follows logically from the first. The answer is <strong>A</strong>."
+    }
+  ]
+}

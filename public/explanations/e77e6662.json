@@ -1,0 +1,15 @@
+{
+  "questionId": "e77e6662",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the sample proportion",
+      "content": "In the sample, $6$ of $24$ lawns contain fertilizer.\n$$\\frac{6}{24}=\\frac{1}{4}$$"
+    },
+    {
+      "title": "Scale to all lawns",
+      "content": "Use the same proportion for the town's $288$ lawns.\n$$\\frac{1}{4}\\cdot 288=72$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

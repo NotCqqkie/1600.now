@@ -1,0 +1,15 @@
+{
+  "questionId": "eef785fe",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the tiger as a contrast",
+      "content": "The passage first says the cheetah and blue whale ranked in the top twenty. The next sentence shifts to a stronger point: no animal ranked above the tiger."
+    },
+    {
+      "title": "Signal the ranking shift",
+      "content": "Choice B suggests the tiger's ranking resulted from the cheetah and whale rankings. Choice C would restate the prior sentence, and Choice D would introduce a mere example. The sentence needs a contrast transition for the tiger's superior ranking. The answer is <strong>A</strong>."
+    }
+  ]
+}

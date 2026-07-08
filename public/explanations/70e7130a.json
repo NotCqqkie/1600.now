@@ -1,0 +1,15 @@
+{
+  "questionId": "70e7130a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Limit the supplement claim",
+      "content": "The study found that zoo chimpanzees' vitamin D levels were lower in autumn than in summer and appeared unaffected by oral vitamin D supplements. But the researchers immediately qualify that supplement result: supplementation was rare, highly varied, and poorly tracked. That weak record means the study cannot confidently settle whether better or more consistent supplementation would help during the low-UVB season."
+    },
+    {
+      "title": "Choose the cautious conclusion",
+      "content": "A invents a claim that supplement effects are clearer in summer than in autumn, which the passage never suggests. C questions whether the autumn vitamin D measurements were accurate, but the problem is with supplementation records, not the measurements themselves. D makes supplementation the likely main cause of differences even though the data are too poor for that. B keeps the conclusion cautious: a possible autumn benefit from supplementation cannot be ruled out. The answer is <strong>B</strong>."
+    }
+  ]
+}

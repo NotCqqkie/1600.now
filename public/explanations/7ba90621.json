@@ -1,0 +1,15 @@
+{
+  "questionId": "7ba90621",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare telescope positions",
+      "content": "The first sentence says JWST is almost one million miles beyond Earth's orbit. The next sentence says Hubble is only about 340 miles above Earth's surface, creating a sharp distance contrast."
+    },
+    {
+      "title": "Choose the contrast signal",
+      "content": "A signals a result, B signals similarity, and D signals sequence. The relationship between JWST's distant location and Hubble's much closer orbit is contrast. The answer is <strong>C</strong>."
+    }
+  ]
+}

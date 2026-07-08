@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the visible graph points",
-      "content": "From the graph, use the marked lattice points $(-5,-1)$ and $(2,4)$. These are enough to determine the line without inventing any extra points."
+      "title": "Read the intercept",
+      "content": "The graph crosses the $y$-axis at $12$, so the equation must have $y$-intercept $12$."
     },
     {
-      "title": "Find the line equation",
-      "content": "The slope is:<br/>$$m=\\frac{4-(-1)}{2-(-5)}=\\frac{5}{7}$$<br/>Use point-slope form with $(2,4)$:<br/>$$y-4=\\frac{5}{7}(x-2)$$<br/>Multiply by $7$: $$7y-28=5x-10$$<br/>Rearrange: $$5x-7y=-18$$<br/>Multiplying by $7$ gives $$35x-49y=-126$$"
+      "title": "Compare the slopes",
+      "content": "The line decreases from left to right, so the slope is negative. The graph falls $1$ unit for each $1$ unit to the right, so the slope is $-1$, not $-2$."
     },
     {
-      "title": "Confirm the choice",
-      "content": "Verify both visible points in choice B:<br/>$35(2)-49(4)=70-196=-126$<br/>$35(-5)-49(-1)=-175+49=-126$<br/>Both points satisfy the equation, so <strong>B</strong> is correct."
+      "title": "Choose the matching equation",
+      "content": "The equation with $y$-intercept $12$ and slope $-1$ is $y=-x+12$.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

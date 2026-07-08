@@ -1,0 +1,15 @@
+{
+  "questionId": "5ab8b2fc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate positive mass",
+      "content": "The mass $m$ is positive, so it must be greater than zero.\n$$m>0$$"
+    },
+    {
+      "title": "Apply the upper limit",
+      "content": "The mass must also be less than $540$ grams.\n$$m<540$$\nCombining both conditions gives $0<m<540$. The answer is <strong>D</strong>."
+    }
+  ]
+}

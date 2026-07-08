@@ -1,0 +1,15 @@
+{
+  "questionId": "830813b2",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the confirming data",
+      "content": "The linguist assumes that <em>own</em> appears often in written English. The corpus data supports that assumption by showing that <em>own</em> is the eighth most commonly used adjective, so the blank needs a word meaning confirm with evidence."
+    },
+    {
+      "title": "Reject opposing meanings",
+      "content": "B means disprove, which conflicts with the confirming data. C means rearrange, and D means imply as a necessary result; neither describes using evidence to support an assumption. The answer is <strong>A</strong>."
+    }
+  ]
+}

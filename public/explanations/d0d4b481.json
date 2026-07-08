@@ -1,0 +1,15 @@
+{
+  "questionId": "d0d4b481",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested example",
+      "content": "The student wants an example of a poem by Charles Bertram Johnson. The relevant note is that <em>Old Things</em> is a poem by Johnson and was published in March 1923."
+    },
+    {
+      "title": "Name the poem",
+      "content": "Choice A describes Johnson's roles but gives no poem. Choice B says he published poetry in <em>The Crisis</em> but does not identify a specific poem. Choice D describes the magazine, not Johnson's work. The remaining choice provides the requested poem example. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "58b022d2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the meta-analysis result",
+      "content": "The meta-analysis found observable differences between animals exposed to anthropogenic noise and otherwise similar unexposed animals in every study. Those effects could be beneficial or harmful, but they were substantial."
+    },
+    {
+      "title": "Allow different effects",
+      "content": "The conclusion should say noise exposure likely has noticeable effects across species while allowing the nature of the effect to differ. A claims larger effects for birds, B excludes other mammals, and D adds an unsupported comparison about reporting detriment. The answer is <strong>C</strong>."
+    }
+  ]
+}

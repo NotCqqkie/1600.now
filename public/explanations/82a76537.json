@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The blank falls between the prepositional phrase &ldquo;In a JSON file storing data about fire belly [newts]&rdquo; and the transitional phrase &ldquo;for instance,&rdquo; which is followed by the main clause. The skill tested is punctuation: how to correctly set off the supplementary element &ldquo;for instance&rdquo; so the sentence remains grammatical."
+      "title": "Set off the example phrase",
+      "content": "The phrase <em>for instance</em> interrupts the sentence between an opening prepositional phrase and the main clause. It needs matching commas around it."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; newts. For</strong>: A period after &ldquo;newts&rdquo; turns the opening prepositional phrase (&ldquo;In a JSON file storing data about fire belly newts&rdquo;) into a sentence fragment &mdash; it has no subject or verb. &#10007;</li><li><strong>Choice B &mdash; newts, for</strong>: A comma after &ldquo;newts&rdquo; pairs with the comma already present after &ldquo;instance,&rdquo; correctly setting off &ldquo;for instance&rdquo; as a parenthetical supplementary element between the prepositional phrase and the main clause. &#10003;</li><li><strong>Choice C &mdash; newts : for</strong>: A colon can introduce an elaboration but cannot be paired with a comma to bracket a supplementary phrase. Using a colon here violates the rule that both sides of a colon must function together, not as mismatched punctuation around an interrupter. &#10007;</li><li><strong>Choice D &mdash; newts ; for</strong>: A semicolon joins two independent clauses. &ldquo;In a JSON file storing data about fire belly newts&rdquo; is a prepositional phrase, not an independent clause, so a semicolon is grammatically impermissible here. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Keep the sentence intact",
+      "content": "A creates a fragment by ending after the opening phrase. C uses a colon where a paired comma is needed, and D uses a semicolon even though the words before it are not an independent clause. The comma after <em>newts</em> pairs with the comma after <em>instance</em>. The answer is <strong>B</strong>."
     }
   ]
 }

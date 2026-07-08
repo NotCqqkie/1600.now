@@ -1,0 +1,15 @@
+{
+  "questionId": "a74b7a27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Refer to the song",
+      "content": "The previous sentence names one song, <em>I Need Love</em>. The blank needs a singular pronoun that can serve as the subject of <em>ranked</em> and refer back to that one song."
+    },
+    {
+      "title": "Reject plural pronouns",
+      "content": "Choice A and Choice B are plural, so they do not agree with the singular song. Choice C refers to individual members of a group, but no group is being selected from here. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4260f243",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the margin of error",
+      "content": "A margin of error gives a plausible interval around the estimate. Subtract and add $1.84\\%$ from the estimate $9.2\\%$."
+    },
+    {
+      "title": "Calculate the interval",
+      "content": "Compute the lower and upper bounds.\n$$9.2-1.84=7.36$$\n$$9.2+1.84=11.04$$\nSo it is plausible that the defective rate is between $7.36\\%$ and $11.04\\%$. The answer is <strong>B</strong>."
+    }
+  ]
+}

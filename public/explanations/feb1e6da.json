@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what the sentence is doing",
-      "content": "The sentence with the blank first says the differences between the two editions are extreme &mdash; remarkable even by James's standards. The clause after the blank then presents critics regarding the two editions as entirely different novels. That claim reinforces the point about extreme differences rather than contradicting or restating it.<ul><li><strong>\"by contrast,\"</strong>: signals opposition &#10007;</li><li><strong>\"in fact,\"</strong>: signals reinforcement or intensification of the preceding point &#10003;</li><li><strong>\"nevertheless,\"</strong>: signals concession, implying the critics' view is surprising despite the differences &#10007;</li><li><strong>\"in other words,\"</strong>: signals restatement, implying the two clauses say the same thing &#10007;</li></ul>"
+      "title": "Reinforce the extreme difference",
+      "content": "The sentence says the differences between the two editions are extreme, even by James's standards. The next clause intensifies that point by noting that some critics treat the editions as two different novels."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only &ldquo;in fact&rdquo; correctly presents the critics' view as a natural extension of the extreme differences already established. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject contrast and restatement",
+      "content": "A signals opposition, but the critics' view supports the prior claim. C signals concession, which would imply a contrast that is not present. D signals a restatement, but the second clause strengthens the point rather than merely rephrasing it. The answer is <strong>B</strong>."
     }
   ]
 }

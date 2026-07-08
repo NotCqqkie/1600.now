@@ -1,0 +1,15 @@
+{
+  "questionId": "2d8d3ec2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate fixed and extra costs",
+      "content": "The first $3$ hours cost a fixed $920$ dollars. Since $t>3$, the number of additional hours is:\n$$\nt-3\n$$"
+    },
+    {
+      "title": "Build the total cost equation",
+      "content": "The extra cost is $35$ dollars per additional hour, so the total cost is:\n$$\n920+35(t-3)=1{,}130\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

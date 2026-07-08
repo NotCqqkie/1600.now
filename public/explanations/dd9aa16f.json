@@ -1,0 +1,15 @@
+{
+  "questionId": "dd9aa16f",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "All three terms have the same variable part, $x^4$, so combine only the coefficients:\n$$\n9x^4+12x^4-12x^4=(9+12-12)x^4\n$$"
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "Finish the arithmetic in the coefficient:\n$$\n(9+12-12)x^4=9x^4\n$$\nSince this is equal to $bx^4$, the coefficient $b$ is the coefficient of $x^4$. The answer is <strong>9</strong>."
+    }
+  ]
+}

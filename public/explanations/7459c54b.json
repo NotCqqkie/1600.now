@@ -1,0 +1,15 @@
+{
+  "questionId": "7459c54b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the intercept",
+      "content": "An $x$-intercept is a point where the graph has $y=0$. Since $(-7,0)$ is an $x$-intercept, the function value at $x=-7$ is $0$."
+    },
+    {
+      "title": "Match function notation",
+      "content": "The statement $f(-7)=0$ says exactly that the point $(-7,0)$ is on the graph. The answer is <strong>C</strong>."
+    }
+  ]
+}

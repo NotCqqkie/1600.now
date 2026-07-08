@@ -1,0 +1,15 @@
+{
+  "questionId": "9b3fbfe3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match hoaxes to their label",
+      "content": "The blank describes fictitious Wikipedia entries that began as jokes by mischievous users and were later deleted. The word must mean deceptive jokes rather than useful or truthful material."
+    },
+    {
+      "title": "Reject mismatched nouns",
+      "content": "A means improvements, C means truthful disclosures, and D means examinations. The context calls the entries hoaxes perpetrated as jokes, so a word for tricks fits. The answer is <strong>B</strong>."
+    }
+  ]
+}

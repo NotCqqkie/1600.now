@@ -1,0 +1,15 @@
+{
+  "questionId": "064d23c6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the independent clauses",
+      "content": "The sentence first says Okinaka does not make decisions single-handedly. It then gives a full second clause explaining that all historical designations must be approved by nine other experts. The transition <em>however</em> can close the first sentence before the second begins."
+    },
+    {
+      "title": "Avoid the comma splice",
+      "content": "Choice A places <em>however</em> between independent clauses with only commas. Choice B adds an incoherent <em>and</em> after the transition. Choice C lacks the punctuation needed after <em>however</em>. Ending the first sentence after <em>however</em> and starting a new sentence with <em>All</em> is grammatical. The answer is <strong>D</strong>."
+    }
+  ]
+}

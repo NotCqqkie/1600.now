@@ -1,0 +1,16 @@
+{
+  "questionId": "d79c9d57",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root product",
+      "content": "For a quadratic $ax^2+bx+c=0$, the product of the solutions is $\\frac{c}{a}$.",
+      "formula": "$$\\text{product of roots} = \\frac{c}{a}$$"
+    },
+    {
+      "title": "Substitute the coefficients",
+      "content": "For $x^2+10x-80=0$, $a=1$ and $c=-80$.<br/>$$\\frac{c}{a}=\\frac{-80}{1}=-80$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "fb96d203",
+  "correctAnswer": "38",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percentages",
+      "content": "The first statement gives:\n$$\na=\\frac{4{,}200}{100}c=42c\n$$\nThe second statement gives:\n$$\nc=\\frac{25}{100}b=0.25b\n$$"
+    },
+    {
+      "title": "Write both in terms of c",
+      "content": "From $c=0.25b$, solve for $b$:\n$$\nb=\\frac{c}{0.25}=4c\n$$\nSo $a=42c$ and $b=4c$."
+    },
+    {
+      "title": "Find the coefficient",
+      "content": "Substitute into $a-b=wc$:\n$$\n42c-4c=wc\n$$\n$$\n38c=wc\n$$\nSince $c$ is positive, $w=38$. The answer is <strong>38</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "913aea04",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the doubling periods",
+      "content": "From $1700$ to $1820$ is:<br/>$$1820-1700=120$$<br/>Since the population doubled every $30$ years, this is:<br/>$$\\frac{120}{30}=4$$<br/>doubling periods."
+    },
+    {
+      "title": "Reverse the doublings",
+      "content": "Four doublings multiply the original population by $2^4=16$. Let $P$ be the population in $1700$:<br/>$$16P=272{,}000$$<br/>$$P=17{,}000$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

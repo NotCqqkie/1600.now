@@ -1,0 +1,19 @@
+{
+  "questionId": "34fef30b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Restrict the sample",
+      "content": "The condition is that the participant is at least $10$ years old. From the table, the total number of participants in the qualifying age groups is:<br/>$$30+30=60$$"
+    },
+    {
+      "title": "Count group A",
+      "content": "Within those same qualifying age groups, group A has:<br/>$$11+4=15$$"
+    },
+    {
+      "title": "Compute the probability",
+      "content": "Use the restricted sample as the denominator.<br/>$$\\frac{15}{60}=\\frac{1}{4}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

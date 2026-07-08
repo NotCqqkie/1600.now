@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down what the underlined claim needs",
-      "content": "The underlined sentence asserts that even in countries where almost everyone speaks Swahili, many of those speakers learned it as a second, third, or fourth language &mdash; not as a first language. Supporting evidence must show that the total Swahili-speaking population in such a country greatly exceeds the worldwide first-language total (about 15 million) cited in the passage."
+      "title": "Use the first-language limit",
+      "content": "The underlined claim says many people in heavily Swahili-speaking countries speak Swahili as a second, third, or fourth language rather than as a first language. The passage gives a key benchmark: only up to 15 million people worldwide are estimated to speak Swahili as a first language. Data supporting the claim should show a country with far more Swahili speakers than that worldwide first-language total."
     },
     {
-      "title": "Match the data to that need",
-      "content": "<strong>Choice A &mdash; Tanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language.</strong> reports that Tanzania has roughly 61 million Swahili speakers, which is far more than the ~15 million worldwide first-language total. Because Tanzania alone has many more Swahili speakers than there are first-language speakers globally, most Tanzanian speakers must have learned Swahili as a non-first language &mdash; exactly the claim."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; Tanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language.</strong>: directly demonstrates the gap the claim requires. &#10003;</li><li><strong>Choice B &mdash; Tanzania is estimated to have at most 15 million Swahili speakers, while the country's total population is approximately 61 million people.</strong>: misreads the table and fails to show that total speakers exceed first-language speakers. &#10007;</li><li><strong>Choice C &mdash; Approximately 100 percent of the people who speak Swahili as their first language live in Kenya, which has a total population of approximately 55 million people.</strong>: an overreach the table does not support, and it does not address non-first-language acquisition. &#10007;</li><li><strong>Choice D &mdash; Approximately 100 percent of Kenya's population speaks Swahili, while only about 25 percent of the Democratic Republic of the Congo's population speaks Swahili.</strong>: compares two countries&apos; speaker percentages but never contrasts total speakers with first-language speakers, so it cannot support the claim. &#10007;</li></ul>That matches <strong>Choice A &mdash; Tanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language.</strong>."
+      "title": "Compare Tanzania to the benchmark",
+      "content": "Tanzania has about 61 million Swahili speakers, which is much larger than the estimated worldwide total of first-language Swahili speakers. Since one country alone has many more Swahili speakers than the global first-language estimate, many of those speakers must be using Swahili as a later-learned language. Choice B misstates the Tanzanian speaker count, Choice C invents a location for all first-language speakers, and Choice D compares countries without addressing first-language status. The answer is <strong>A</strong>."
     }
   ]
 }

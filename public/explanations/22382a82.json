@@ -1,0 +1,19 @@
+{
+  "questionId": "22382a82",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the impromptu clue",
+      "content": "The blank describes features of live performances that result from impromptu deviations when performers do not have to follow an established score. The needed word should mean spontaneous, improvised, or done without advance preparation."
+    },
+    {
+      "title": "Rule out wrong meanings",
+      "content": "Choice A means unavoidable, Choice B means hard to notice, and Choice D means extremely careful or precise. None of those meanings matches features created by in-the-moment deviations from a score."
+    },
+    {
+      "title": "Match the live-performance idea",
+      "content": "The remaining word means improvised or done without preparation, so it matches the clue about impromptu performance features. The answer is <strong>C</strong>."
+    }
+  ]
+}

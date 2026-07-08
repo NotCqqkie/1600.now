@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the detail that emphasizes the thickness",
-      "content": "The goal is to <em>emphasize</em> the thickness of lead-208's neutron skin.<br/><br/>To emphasize means to give special importance or prominence to something.<br/><br/>The notes provide a specific measurement: 0.28 trillionths of a millimeter.<br/><br/>This precise number is exactly what's needed to accomplish the goal of emphasizing the thickness."
+      "title": "Use the stated goal",
+      "content": "The student wants to emphasize the thickness of lead-208's neutron skin. The notes give one detail that directly does this: its neutron skin is approximately 0.28 trillionths of a millimeter thick."
     },
     {
-      "title": "Find the choice that includes this measurement",
-      "content": "The correct answer provides the specific thickness measurement — “measures about 0.28 trillionths of a millimeter” — that emphasizes the thickness as requested.<br/><br/>Those choices mention lead-208 but omit the thickness measurement entirely, while B shifts focus to general atomic properties rather than to lead-208's specific characteristics.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Choose the measured detail",
+      "content": "Choice B gives a general fact about atoms with excess neutrons. Choice C says lead-208 has a neutron skin but gives no thickness. Choice D identifies neutrons around the surface but omits the measurement. The choice with 0.28 trillionths of a millimeter directly emphasizes thickness. The answer is <strong>A</strong>."
     }
   ]
 }

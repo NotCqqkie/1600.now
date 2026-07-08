@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical setup before the blank",
-      "content": "The passage establishes: (1) bumblebees and other wild bees have experienced population collapse; (2) ecologists draw much of their wild-bee insight from bumblebees because they are heavily researched; (3) however, Moreau notes bumblebees have social behaviors and dietary generalism &mdash; traits linked to increased resilience to <em>some specific</em> environmental changes &mdash; that most other wild-bee genera lack. &ldquo;therefore&rdquo; signals Moreau draws a conclusion: because bumblebees are atypically resilient in some ways, generalizing from bumblebee data to all wild bees is risky."
+      "title": "Identify the research problem",
+      "content": "The passage says ecologists have learned much about wild-bee declines from bumblebees because bumblebees are heavily researched. That creates a possible generalization problem: evidence from one well-studied genus may be used to understand declines across many other wild-bee genera."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; although bumblebees and many other wild bees have experienced similar population declines in the past, compared with other wild bees, bumblebees are likely at greater risk of being harmed by climate variation than by habitat destruction.</strong>: &#10007; The passage never compares the relative threat of climate variation vs. habitat destruction to bumblebees specifically; this is unsupported.</li><li><strong>Choice B &mdash; although bumblebees have been more extensively studied than most wild bees, researchers should not use bumblebees to draw conclusions about the decline of other wild bees, even ones with feeding patterns and levels of sociability that are similar to those of bumblebees.</strong>: &#10007; Too extreme &mdash; the passage implies caution in extrapolation, not a blanket rejection of all comparisons including bees with similar traits.</li><li><strong>Choice C &mdash; because bumblebees and other bees with generalist diets are less negatively affected by environmental stress than bees with specialized diets are, they are less likely to experience major population changes in the future than bees with specialized diets are.</strong>: &#10007; Contradicts the passage, which states bumblebees are already experiencing population collapse despite their dietary generalism.</li><li><strong>Choice D &mdash; because the responses of bumblebees and other wild bees to environmental threats are not always comparable, researchers need to exercise caution when extrapolating information about wild-bee population declines from bumblebees.</strong>: &#10003; Directly follows from the &ldquo;therefore&rdquo; signal: Moreau&rsquo;s finding that bumblebees have atypical resilience traits means their data cannot be freely generalized to other wild bees.</li></ul>That matches <strong>Choice D &mdash; because the responses of bumblebees and other wild bees to environmental threats are not always comparable, researchers need to exercise caution when extrapolating information about wild-bee population declines from bumblebees.</strong>."
+      "title": "Use Moreau's key distinction",
+      "content": "Moreau points out that bumblebees have two traits that many wild bees do not share: social behaviors and dietary generalism. The passage also says those traits are associated with increased resilience to some specific environmental changes. That means bumblebees may not respond to every environmental threat in the same way other wild bees respond."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "A makes a specific claim about bumblebees being more harmed by climate variation than by habitat destruction, but the passage does not rank those threats. B goes too far because it says researchers should not use bumblebees to draw conclusions even about similar bees. C turns a limited resilience point into a broad prediction about future population changes."
+    },
+    {
+      "title": "Draw the cautious inference",
+      "content": "The logical conclusion should preserve both parts of the passage: bumblebee research is important, but bumblebees have traits that can make them different from other wild bees. Because their responses to threats are not always comparable, researchers should be careful when extending conclusions from bumblebees to wild-bee declines more broadly. The answer is <strong>D</strong>."
     }
   ]
 }

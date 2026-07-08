@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the angle relationship",
-      "content": "Lines $m$ and $n$ are parallel, and line $t$ is a transversal. The marked $134^{\\circ}$ angle and the marked $w^{\\circ}$ angle are in matching positions relative to the transversal and the two parallel lines, so they are corresponding angles."
+      "title": "Identify corresponding angles",
+      "content": "Lines $m$ and $n$ are parallel, and line $t$ is a transversal. The angle marked $134^{\\circ}$ and the angle marked $w^{\\circ}$ are in corresponding positions."
     },
     {
-      "title": "Use corresponding angles",
-      "content": "Corresponding angles formed by a transversal cutting parallel lines have equal measures. Therefore, $w^{\\circ} = 134^{\\circ}$, so $w = 134$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The answer choice with $134$ is choice D, so <strong>D</strong> is correct."
+      "title": "Use the parallel lines",
+      "content": "Corresponding angles formed by a transversal crossing parallel lines are congruent:\n+$$w^{\\circ}=134^{\\circ}$$\n+$$w=134$$\n+The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "bbc39a9f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Protect the main verb",
+      "content": "The sentence's main verb is <em>bestows</em>. The subject should be <em>Helical swimming</em>, followed by an interrupting modifier about being widely understood to confer stability and efficiency."
+    },
+    {
+      "title": "Avoid extra verbs",
+      "content": "Choices A and C add finite verbs before the true main verb. Choice B adds the same extra verb and punctuation that breaks the subject from <em>bestows</em>. The blank should leave the subject intact and open the modifier with a comma. The answer is <strong>D</strong>."
+    }
+  ]
+}

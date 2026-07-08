@@ -1,0 +1,15 @@
+{
+  "questionId": "2934ff30",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the supplementary rule",
+      "content": "Supplementary angles have measures that add to $180^\\circ$. For angles $x$ and $y$, that means:<br/>$$x+y=180$$"
+    },
+    {
+      "title": "Isolate the second angle",
+      "content": "Subtract $x$ from both sides:<br/>$$y=180-x$$<br/>This relationship must be true for any supplementary pair. The answer is <strong>A</strong>."
+    }
+  ]
+}

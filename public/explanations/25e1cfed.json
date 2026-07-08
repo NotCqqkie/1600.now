@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand both sides",
-      "content": "Distribute on each side: $8(12x-9)=96x-72$ and $-12(6-8x)=-72+96x$."
+      "title": "Distribute both sides",
+      "content": "Expand each side of the equation:\n$$\n8(12x-9)=96x-72\n$$\n$$\n-12(6-8x)=-72+96x\n$$"
     },
     {
-      "title": "Compare the expressions",
-      "content": "The equation becomes $96x-72=96x-72$. This identity is true for every value of $x$."
-    },
-    {
-      "title": "Choose the solution count",
-      "content": "Because every $x$ satisfies the equation, there are infinitely many solutions. That matches <strong>Choice C &mdash; Infinitely many</strong>."
+      "title": "Compare the two sides",
+      "content": "After rewriting the right side, the equation becomes\n$$\n96x-72=96x-72\n$$\nThis identity is true for every value of $x$, so the equation has infinitely many solutions. The answer is <strong>C</strong>."
     }
   ]
 }

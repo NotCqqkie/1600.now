@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant m using the given condition",
-      "content": "We know that when <em>x</em> = 120 shirts, the total cost is \\$960. Substitute into $c(x) = mx + 600$:<br/>$$960 = m(120) + 600$$<br/>$$960 - 600 = 120m$$<br/>$$m = 3$$"
+      "title": "Find the cost per shirt",
+      "content": "Use the fact that $120$ shirts cost $960$.\n$$960=120m+600$$\n$$360=120m$$\n$$m=3$$"
     },
     {
-      "title": "Calculate the cost for 900 shirts",
-      "content": "Substitute <em>x</em> = 900 and $m = 3$ into the function:<br/>$$c(900) = 3(900) + 600$$<br/>$$c(900) = 2700 + 600 = 3300$$<br/>The total cost to produce 900 shirts is <strong>3300</strong> dollars."
+      "title": "Evaluate the cost function",
+      "content": "Now substitute $x=900$ and $m=3$.\n$$c(900)=3(900)+600=3{,}300$$\nThe answer is <strong>3300</strong>."
     }
   ]
 }

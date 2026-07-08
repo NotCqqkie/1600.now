@@ -4,8 +4,8 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the function values into points",
-      "content": "$h(30)=18$ gives the point $(30,18)$, and $h(28)=23$ gives the point $(28,23)$."
+      "title": "Convert values to points",
+      "content": "$h(30)=18$ gives the point $(30,18)$, and $h(28)=23$ gives the point $(28,23)$ on the graph of the linear function."
     },
     {
       "title": "Find the slope",
@@ -13,11 +13,11 @@
     },
     {
       "title": "Find the intercept",
-      "content": "Use $h(x)=mx+b$ with $(30,18)$:<br/>$$18=-\\frac{5}{2}(30)+b$$<br/>$$18=-75+b$$<br/>$$b=93$$"
+      "content": "Use $h(x)=mx+b$ and substitute the point $(30,18)$.\n$$18=-\\frac{5}{2}(30)+b$$\n$$18=-75+b$$\n$$b=93$$"
     },
     {
-      "title": "Write the equation",
-      "content": "$$h(x)=-\\frac{5}{2}x+93$$<br/>This equation uses the slope from the two given function values and the intercept found by substitution. It matches choice D, the correct answer."
+      "title": "Write the function",
+      "content": "The equation is\n$$h(x)=-\\frac{5}{2}x+93$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

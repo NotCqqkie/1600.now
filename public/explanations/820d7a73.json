@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Locate the requested group",
-      "content": "The horizontal axis labels the groups from $1$ through $10$. The question asks about group $6$, so move to the bar directly above the label $6$."
+      "content": "The horizontal axis lists groups $1$ through $10$. The question asks for group $6$, so use the bar above $6$."
     },
     {
       "title": "Read the bar height",
-      "content": "The top of the bar for group $6$ lines up with the $40$ mark on the vertical axis. The vertical axis measures number of cans, so group $6$ collected $40$ cans."
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The graph value for group $6$ is $40$, so the answer is <strong>40</strong>."
+      "content": "The bar for group $6$ reaches the $40$ mark on the vertical axis. Since the vertical axis measures cans collected, group $6$ collected $40$ cans. The answer is <strong>40</strong>."
     }
   ]
 }

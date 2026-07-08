@@ -1,0 +1,15 @@
+{
+  "questionId": "3cbef9f4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify the lens subject",
+      "content": "The sentence already has the main verb \"ensured.\" The words in the blank should describe what the plano-convex lens was doing to the laser while leaving \"ensured\" as the only finite verb in the clause."
+    },
+    {
+      "title": "Reject extra main verbs",
+      "content": "A and B are finite verb forms, so each would create an uncoordinated sequence in which the lens both focuses the laser and ensured the spot size. D is also a bare verb form that cannot smoothly modify the subject here. The participle form creates a modifying phrase before the main verb. The answer is <strong>C</strong>."
+    }
+  ]
+}

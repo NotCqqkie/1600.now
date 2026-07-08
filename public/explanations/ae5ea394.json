@@ -1,0 +1,15 @@
+{
+  "questionId": "ae5ea394",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare results to the belief",
+      "content": "The conventional view says odor pleasantness is shaped by culture. The study found that people from many places ranked the odors similarly, which points away from culture as the main explanation."
+    },
+    {
+      "title": "Reject unsupported conclusions",
+      "content": "A reverses the direction of the finding. B adds a comparison between pleasant and unpleasant odors that the passage does not make. C is about objective measurement, not culture's role. The similar rankings suggest the standard cultural explanation may be unsound. The answer is <strong>D</strong>."
+    }
+  ]
+}

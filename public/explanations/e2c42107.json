@@ -1,0 +1,15 @@
+{
+  "questionId": "e2c42107",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject of the sentence is \"Anthropologist Livia Barbosa,\" a single person. The phrase \"of the Universidade Federal Fluminense in Brazil\" only describes Barbosa, so it does not change the subject's number."
+    },
+    {
+      "title": "Match subject and verb",
+      "content": "Choice A is a base-form verb used with plural subjects. Choice B uses \"are,\" which is plural. Choice D uses \"have,\" also plural. A singular third-person present-tense subject needs the singular verb form ending in -s. The answer is <strong>C</strong>."
+    }
+  ]
+}

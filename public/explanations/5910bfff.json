@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate the H term",
-      "content": "Start with:<br/>$$D=T-\\frac{4}{15}(100-H)$$<br/>Subtract $T$ from both sides:<br/>$$D-T=-\\frac{4}{15}(100-H)$$"
+      "title": "Move the temperature term",
+      "content": "Start with the given formula and subtract $T$ from both sides.\n$$\nD=T-\\frac{4}{15}(100-H)\n$$\n$$\nD-T=-\\frac{4}{15}(100-H)\n$$"
     },
     {
-      "title": "Undo the coefficient",
-      "content": "Multiply both sides by $-\\frac{15}{4}$:<br/>$$-\\frac{15}{4}(D-T)=100-H$$<br/>The left side can also be written as $\\frac{15}{4}(T-D)$."
+      "title": "Clear the coefficient",
+      "content": "Multiply both sides by $-\\frac{15}{4}$.\n$$\n-\\frac{15}{4}(D-T)=100-H\n$$"
     },
     {
-      "title": "Solve for H",
-      "content": "Subtract $100$ from both sides and then multiply by $-1$:<br/>$$H=100+\\frac{15}{4}(D-T)$$<br/>So the equivalent expression is:<br/>$$H=\\frac{15}{4}(D-T)+100$$"
-    },
-    {
-      "title": "Check the answer choice with sample values",
-      "content": "Use quick sample values to catch sign errors. If $T=82$ and $H=70$, then the original formula gives $D=82-\\frac{4}{15}(30)=74$. Plugging $D=74$ and $T=82$ into the correct expression gives:<br/>$$\\frac{15}{4}(74-82)+100=70$$<br/>It returns the original $H$, so <strong>A</strong> is correct."
+      "title": "Isolate humidity",
+      "content": "Subtract $100$ from both sides, then multiply by $-1$.\n$$\nH=100+\\frac{15}{4}(D-T)\n$$\n$$\nH=\\frac{15}{4}(D-T)+100\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

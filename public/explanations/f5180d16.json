@@ -1,0 +1,15 @@
+{
+  "questionId": "f5180d16",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Synthesize three outcomes",
+      "content": "The notes report three different effects of bat ingestion on seed germination: positive for <em>Ficus grevei</em>, neutral for <em>Senna fruticosa</em>, and negative for <em>Piper friedrichsthalii</em>."
+    },
+    {
+      "title": "Avoid cherry-picking",
+      "content": "B reverses the direction of the studies by making germination affect bats. C misstates the 2017 study as negative, and D claims a consistent positive effect even though the notes show neutral and negative findings too. The accurate generalization is that effects can vary. The answer is <strong>A</strong>."
+    }
+  ]
+}

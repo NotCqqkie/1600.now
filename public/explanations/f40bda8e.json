@@ -1,0 +1,19 @@
+{
+  "questionId": "f40bda8e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the semicircle radius",
+      "content": "Since $K$ is the midpoint of segment $JL$ and $KL=13$, $JL=26$. Point $L$ is the center, so $LM$ is a radius. Because $JM$ is the diameter,<br/>$$2r=26+r$$<br/>$$r=26$$"
+    },
+    {
+      "title": "Find the rectangular area",
+      "content": "The rectangle's base is<br/>$$KM=KL+LM=13+26=39$$<br/>Its height is $14$, so its area is<br/>$$39\\cdot14=546$$"
+    },
+    {
+      "title": "Add the semicircle area",
+      "content": "The semicircle area is<br/>$$\\frac{1}{2}\\pi(26)^2=338\\pi$$<br/>The total area is<br/>$$546+338\\pi$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

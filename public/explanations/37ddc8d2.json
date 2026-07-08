@@ -1,0 +1,15 @@
+{
+  "questionId": "37ddc8d2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count each part type",
+      "content": "The number of $11$-inch parts is $n$. The number of $7$-inch parts is $3n$, and the number of $4$-inch parts is $28$."
+    },
+    {
+      "title": "Write the total count",
+      "content": "The total number of parts is $92$.\n$$3n+n+28=92$$\n$$4n+28=92$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

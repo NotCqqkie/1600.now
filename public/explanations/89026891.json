@@ -1,0 +1,15 @@
+{
+  "questionId": "89026891",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare host dependence",
+      "content": "Three-host parasites declined as temperatures rose and depend on at least two vertebrate species. Two-host parasites remained stable and depend on only one vertebrate species, suggesting that warming affects parasite abundance through changes in required vertebrate hosts."
+    },
+    {
+      "title": "Match the study pattern",
+      "content": "Choice A reverses which parasite was more affected. Choice B contradicts the point that marine vertebrates are vulnerable. Choice C explains declined three-host parasites and stable two-host parasites among the studied fish hosts. Choice D reverses the relationship between host number and sensitivity. The answer is <strong>C</strong>."
+    }
+  ]
+}

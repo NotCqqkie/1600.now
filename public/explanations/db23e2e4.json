@@ -1,0 +1,15 @@
+{
+  "questionId": "db23e2e4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep verb and object together",
+      "content": "The blank supplies the verb for the subject, the Florida-based researchers. The words after the blank, \"climate data from several sites,\" are the direct object, so no punctuation should separate the verb from that object."
+    },
+    {
+      "title": "Reject punctuation breaks",
+      "content": "Choice A inserts a comma between verb and object. Choice C uses a semicolon before a noun phrase, not an independent clause. Choice D uses a colon where the object should attach directly to the verb. The answer is <strong>B</strong>."
+    }
+  ]
+}

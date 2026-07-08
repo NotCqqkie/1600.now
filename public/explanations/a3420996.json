@@ -1,0 +1,15 @@
+{
+  "questionId": "a3420996",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the gaps",
+      "content": "The wall length is $4x$ feet, and consecutive clips are spaced $\\frac{4}{7}$ feet apart. The number of gaps is\n$$\\frac{4x}{\\frac{4}{7}}=4x\\cdot\\frac{7}{4}=7x$$"
+    },
+    {
+      "title": "Add the first clip",
+      "content": "A row with $7x$ gaps has one more clip than gaps because there is a clip at both ends.\n$$y=7x+1$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

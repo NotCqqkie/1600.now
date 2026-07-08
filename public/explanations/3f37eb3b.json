@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The colon introduces an elaboration: the source “has no direct bearing on whether the claim is true.” This explicitly defines what the blank should express."
+      "title": "Use the colon's definition",
+      "content": "The clause after the colon explains the blank: the source of a claim has no direct bearing on whether the claim is true."
     },
     {
-      "title": "Apply the signal to the choices",
-      "content": "<strong>Irrelevant</strong> directly expresses the meaning needed—source is unrelated to the validity of what's claimed.<br/><br/>The other choices refer to clarity (indistinct), certainty (indisputable), or unstated meaning (implicit), none of which capture this disconnect.<br/><br/><strong>B</strong> is correct."
+      "title": "Reject mismatched meanings",
+      "content": "<ul><li><strong>Choice A</strong>: Indistinct means unclear, but the source's clarity is not the issue.</li><li><strong>Choice C</strong>: Indisputable means impossible to question, which does not fit.</li><li><strong>Choice D</strong>: Implicit means unstated or suggested, not unrelated to truth.</li></ul>"
+    },
+    {
+      "title": "Choose the no-bearing word",
+      "content": "The needed word means not applicable to the question of whether the claim itself is true. The answer is <strong>B</strong>."
     }
   ]
 }

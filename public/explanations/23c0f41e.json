@@ -1,0 +1,15 @@
+{
+  "questionId": "23c0f41e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Isolate the hypothesis",
+      "content": "The researchers hypothesize that shoreline hardening harms waterbird communities more than land development does. Since a low IWCI score means low community integrity, support would come from a site with more hardening having a worse IWCI score than a site with more development but less hardening."
+    },
+    {
+      "title": "Compare the site patterns",
+      "content": "Choice B gives the opposite result: the site with more hardening has the better IWCI score. Choices C and D change development and hardening together, so those comparisons cannot isolate which factor matters more. The remaining comparison separates the variables: Back River has more developed land and less hardening but a higher IWCI score than Magothy, which has less developed land and more hardening. The answer is <strong>A</strong>."
+    }
+  ]
+}

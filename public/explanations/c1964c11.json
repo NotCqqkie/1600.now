@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Isolate $p$ on the left side",
-      "content": "Starting from $p + 29 = q + r$, subtract $29$ from both sides to undo the $+29$:<br/>$$p + 29 - 29 = q + r - 29$$<br/>$$p = q + r - 29$$"
+      "title": "Undo the addition",
+      "content": "The equation is\n+$$p+29=q+r$$\n+To isolate $p$, subtract $29$ from both sides."
     },
     {
-      "title": "Check each choice",
-      "content": "<ul><li>A) $p = q + r + 29$: this would mean $p - 29 = q + r$, not $p + 29 = q + r$. Eliminate.</li><li>B) $p = q + r - 29$: adding $29$ to both sides gives $p + 29 = q + r$. Match.</li><li>C) $p = -q - r + 29$: implies $q + r = 29 - p$, not what's given. Eliminate.</li><li>D) $p = -q - r - 29$: implies $q + r = -p - 29$, not what's given. Eliminate.</li></ul>That is the correct answer."
+      "title": "Write the isolated form",
+      "content": "This gives\n+$$p=q+r-29$$\n+The answer is <strong>B</strong>."
     }
   ]
 }

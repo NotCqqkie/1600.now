@@ -1,0 +1,15 @@
+{
+  "questionId": "ba1776b0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the passage order",
+      "content": "The text first identifies community science as a research approach. It then lists benefits, including public awareness, learning experiences, and more data. Finally, it mentions Vargas's butterfly-wing study as an example using that approach."
+    },
+    {
+      "title": "Match the structure",
+      "content": "Choice A invents study results. Choice B follows the exact order: approach, benefits, example study. Choice C invents development and future projects. Choice D overstates the text as arguing for a new approach and discussing public opinion. The answer is <strong>B</strong>."
+    }
+  ]
+}

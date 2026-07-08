@@ -1,0 +1,23 @@
+{
+  "questionId": "d2872ee3",
+  "correctAnswer": "304/3,101.33",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+    },
+    {
+      "title": "Find the side length of the equilateral triangle",
+      "content": "Perimeter = 912 cm. For an equilateral triangle, all three sides are equal:<br/>$$s = \\frac{912}{3} = 304 \\text{ cm}$$"
+    },
+    {
+      "title": "Use the equilateral circumradius shortcut",
+      "content": "For an equilateral triangle with side length $s$, the radius of the circle through its vertices is<br/>$$R=\\frac{s}{\\sqrt{3}}=\\frac{s\\sqrt{3}}{3}$$<br/>With $s=304$,<br/>$$R=\\frac{304\\sqrt{3}}{3}$$"
+    },
+    {
+      "title": "Solve for w using the given form",
+      "content": "The problem says the radius is $w\\sqrt{3}$ centimeters, so set<br/>$$w\\sqrt{3}=\\frac{304\\sqrt{3}}{3}$$<br/>Divide by $\\sqrt{3}$:<br/>$$w=\\frac{304}{3}$$<br/>Accepted entries include <strong>304/3</strong> or <strong>101.33</strong>."
+    }
+  ]
+}

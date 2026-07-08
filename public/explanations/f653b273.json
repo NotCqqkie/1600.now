@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The skill is cross-text connections. The decisive clue is Text 2's concession: \"the skulls looked avian at first\" &mdash; the Text 2 paleontologists acknowledge the fossils' bird-like appearance before concluding the creatures were probably lizards."
+      "title": "Combine appearance and revision",
+      "content": "Text 1 says researchers initially thought the fossil might be an avian dinosaur because its skull features looked birdlike. Text 2 agrees that the skulls looked avian at first, but says detailed studies found lizard traits."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>&lsquo;It is understandable because the fossil does look like it could be related to birds, even though <em>O. khaungraae</em> is probably a lizard.&rsquo;</strong>: Directly reflects Text 2's reasoning: the skull's avian appearance explains why the researchers' initial thought made sense, even though detailed study points to a lizard. &#10003;</li><li><strong>&lsquo;It is confusing because it isn't clear what caused the researchers to think that <em>O. khaungraae</em> might be related to birds.&rsquo;</strong>: Text 2 explicitly states the skulls \"looked avian,\" so the cause of the initial thought is perfectly clear to the Text 2 paleontologists &mdash; there is no confusion. &#10007;</li><li><strong>&lsquo;It is flawed because the researchers mistakenly assumed that <em>O. khaungraae</em> must be a lizard.&rsquo;</strong>: Inverts the facts &mdash; Text 1 researchers thought the fossil was a bird, not a lizard; only the Text 2 paleontologists conclude it is a lizard. &#10007;</li><li><strong>&lsquo;It is reasonable because the <em>O. khaungraae</em> skull is about the same size as the skull of the second fossil but is shaped differently.&rsquo;</strong>: Neither text states the two skulls are shaped differently; this detail is unsupported by the passage. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Keep both points together",
+      "content": "B is wrong because Text 2 makes clear why the initial thought arose. C reverses the mistake by saying the researchers initially assumed a lizard connection. D adds an unsupported size-and-shape comparison between skulls. The likely response would acknowledge that the birdlike interpretation made sense at first but was revised. The answer is <strong>A</strong>."
     }
   ]
 }

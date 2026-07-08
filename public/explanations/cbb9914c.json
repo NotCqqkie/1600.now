@@ -1,0 +1,15 @@
+{
+  "questionId": "cbb9914c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the even-integer column",
+      "content": "The question asks for the fraction of even integers that are in list A. From the table, list A has $12$ even integers, and the total number of even integers is $52$."
+    },
+    {
+      "title": "Form the fraction",
+      "content": "The requested fraction is\n$$\n\\frac{12}{52}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9e1cb49f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare fungus counts",
+      "content": "The conclusion is specifically about damaging fungus species: Great Britain had more than either Switzerland or Hungary. Supporting data must compare fungus counts across those countries."
+    },
+    {
+      "title": "Use the matching data",
+      "content": "A discusses only Hungary, B compares Great Britain's fungus count with Switzerland's insect count, and D gives data that do not match the table. The matching choice compares Great Britain's 290 damaging fungus species with the fungus counts for both other countries. The answer is <strong>C</strong>."
+    }
+  ]
+}

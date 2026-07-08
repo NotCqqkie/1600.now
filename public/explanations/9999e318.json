@@ -1,0 +1,19 @@
+{
+  "questionId": "9999e318",
+  "correctAnswer": "78/79,0.987,.9873",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+    },
+    {
+      "title": "Find the missing side using Pythagoras",
+      "content": "The right angle is at $S$, so $TR$ is the hypotenuse with $TR = 79$ and leg $RS = \\sqrt{157}$. Apply the Pythagorean theorem to find leg $TS$:<br/>$$TS^2 = TR^2 - RS^2 = 79^2 - 157 = 6241 - 157 = 6084$$<br/>$$TS = \\sqrt{6084} = 78$$"
+    },
+    {
+      "title": "Compute the sine ratio",
+      "content": "From angle $R$, the opposite side is $TS = 78$ and the hypotenuse is $TR = 79$:<br/>$$\\sin R = \\frac{TS}{TR} = \\frac{78}{79} \\approx 0.9873$$<br/>The answer is <strong>78/79</strong>."
+    }
+  ]
+}

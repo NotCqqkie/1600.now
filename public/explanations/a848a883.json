@@ -1,0 +1,15 @@
+{
+  "questionId": "a848a883",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture the study result",
+      "content": "The passage reports higher park use among Panama City respondents than Fortaleza respondents, then says this difference cannot be due to greater access to desired amenities near Panama City parks."
+    },
+    {
+      "title": "Reject unsupported causes",
+      "content": "Choice A claims Panama City has more amenities overall, but the passage only compares access to amenities near parks. Choice B predicts future increases in park use, which the passage does not do. Choice C attributes the difference to greater park prevalence, a factor never mentioned. The remaining choice states both the higher-use finding and the rejection of amenity access as the explanation. The answer is <strong>D</strong>."
+    }
+  ]
+}

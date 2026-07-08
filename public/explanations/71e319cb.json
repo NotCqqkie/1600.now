@@ -1,0 +1,15 @@
+{
+  "questionId": "71e319cb",
+  "correctAnswer": "12",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate the constant term",
+      "content": "Subtract the second equation from the first to eliminate the $wy$ term.\n$$(-x-wy)-(2x-wy)=-357-102$$\n$$-3x=-459$$\n$$x=153$$"
+    },
+    {
+      "title": "Use the intersection point",
+      "content": "The graphs intersect at $(q,17)$, so use $x=153$ and $y=17$ in the first equation.\n$$-153-17w=-357$$\n$$-17w=-204$$\n$$w=12$$\nThe answer is <strong>12</strong>."
+    }
+  ]
+}

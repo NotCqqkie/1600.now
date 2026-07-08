@@ -1,0 +1,19 @@
+{
+  "questionId": "3d847e00",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Ignore the vertical shift",
+      "content": "The table includes points such as $(0,n)$ and $(3,n+14)$. The constant $n$ shifts every $y$-value by the same amount, so it does not affect the slope.",
+      "desmosExpressions": [
+        "x_1=[0,3]",
+        "y_1=[0,14]"
+      ]
+    },
+    {
+      "title": "Find the change ratio",
+      "content": "Use the two points shown in terms of $n$. The change in $y$ is $(n+14)-n=14$, and the change in $x$ is $3-0=3$.<br/>$$m=\\frac{14}{3}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

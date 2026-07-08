@@ -1,0 +1,15 @@
+{
+  "questionId": "6d4b410b",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the sand volume",
+      "content": "The sand volume is $2$, so substitute $y=2$ into the equation.\n$$\n34x+79(2)=328\n$$\n$$\n34x+158=328\n$$"
+    },
+    {
+      "title": "Solve for compost volume",
+      "content": "Subtract $158$ and divide by $34$.\n$$\n34x=170\n$$\n$$\nx=5\n$$\nThe answer is <strong>5</strong>."
+    }
+  ]
+}

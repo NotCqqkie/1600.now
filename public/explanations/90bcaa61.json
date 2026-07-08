@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the doubling factor",
-      "content": "The model is $$f(t)=75{,}000\\cdot2^{t/380}$$ The starting population is $75{,}000$, and the factor $2^{t/380}$ shows the growth multiplier."
+      "title": "Identify the multiplier",
+      "content": "The model is\n$$f(t)=75{,}000(2)^{\\frac{t}{380}}$$\nThe initial population is multiplied by\n$$2^{\\frac{t}{380}}$$"
     },
     {
-      "title": "Set the multiplier to 2",
-      "content": "For the population to double, the multiplier must be $2$: $$2^{t/380}=2^1$$ Therefore $$\\frac{t}{380}=1$$"
+      "title": "Set one doubling",
+      "content": "For the population to double, the multiplier must equal $2$:\n$$2^{\\frac{t}{380}}=2^1$$\nSo the exponents are equal:\n$$\\frac{t}{380}=1$$"
     },
     {
-      "title": "Answer",
-      "content": "Since $\\frac{t}{380}=1$, multiply by $380$ to get $t=380$. The population doubles after <strong>380</strong> minutes."
+      "title": "Solve for t",
+      "content": "Multiply both sides by $380$:\n$$t=380$$\nThe answer is <strong>380</strong>."
     }
   ]
 }

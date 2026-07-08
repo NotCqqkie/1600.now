@@ -1,0 +1,15 @@
+{
+  "questionId": "1e605893",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the square",
+      "content": "Add $\\frac{25}{9}$ to both sides.<br/>$$x^2=\\frac{25}{9}$$"
+    },
+    {
+      "title": "Count both roots",
+      "content": "A positive value of $x^2$ gives one positive square root and one negative square root.<br/>$$x=\\pm\\frac{5}{3}$$<br/>So there are exactly two distinct real solutions. The answer is <strong>C</strong>."
+    }
+  ]
+}

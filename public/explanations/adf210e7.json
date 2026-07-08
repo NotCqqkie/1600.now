@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the function of the phrase starting with 'among them'",
-      "content": "The phrase “among them Nigerian American essayist and novelist Teju Cole” is meant to clarify which of the “leading contemporary writers” are being referenced—it specifies the group by providing a particular example."
+      "title": "Find the sentence boundary",
+      "content": "The main clause says the poems have earned praise from leading contemporary writers. The phrase beginning with <em>among them</em> adds an example of one such writer, so it is supplementary rather than a new independent clause."
     },
     {
-      "title": "Apply the comma rule for clarifying phrases",
-      "content": "A comma introduces or sets off a clarifying phrase that identifies or specifies a noun.<br/><br/>D correctly uses a comma: “writers, among them Nigerian American essayist and novelist Teju Cole.” The others violate this—<ul><li>A creates a sentence fragment with a period</li><li>B omits punctuation</li><li>C uses a semicolon for a non-independent clause</li></ul><br/><br/>That is the correct answer."
+      "title": "Use supplementary punctuation",
+      "content": "A creates a fragment beginning with <em>Among</em>. B gives no punctuation at the boundary. C uses a semicolon before a supplementary phrase, but a semicolon must separate independent clauses. A comma correctly introduces the example phrase. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "416b066a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the angle",
+      "content": "The angle $\\frac{2\\pi}{3}$ equals $120^\\circ$, so it is in quadrant II. Its reference angle is\n$$\n\\pi-\\frac{2\\pi}{3}=\\frac{\\pi}{3}\n$$"
+    },
+    {
+      "title": "Use the sine value",
+      "content": "The sine of the reference angle is\n$$\n\\sin\\bigl(\\frac{\\pi}{3}\\bigr)=\\frac{\\sqrt{3}}{2}\n$$\nSine is positive in quadrant II, so\n$$\n\\sin\\bigl(\\frac{2\\pi}{3}\\bigr)=\\frac{\\sqrt{3}}{2}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

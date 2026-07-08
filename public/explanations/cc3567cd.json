@@ -1,0 +1,16 @@
+{
+  "questionId": "cc3567cd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use intercept form",
+      "content": "The line passes through $(4,0)$ and $(0,7)$, so its $x$-intercept is $4$ and its $y$-intercept is $7$.",
+      "formula": "$$\\frac{x}{a} + \\frac{y}{b} = 1$$"
+    },
+    {
+      "title": "Clear the denominators",
+      "content": "Substitute $a=4$ and $b=7$.\n$$\\frac{x}{4}+\\frac{y}{7}=1$$\nMultiply by $28$.\n$$7x+4y=28$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

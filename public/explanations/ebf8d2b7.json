@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the time used per box",
-      "content": "$x$ large boxes use $12x$ minutes (12 min each). $y$ small boxes use $6y$ minutes (6 min each)."
+      "title": "Translate large boxes",
+      "content": "Each large box takes $12$ minutes, so $x$ large boxes take $12x$ minutes."
     },
     {
-      "title": "Set the total equal to 720",
-      "content": "The total daily time is 720 minutes: $12x + 6y = 720$."
+      "title": "Translate small boxes",
+      "content": "For the small boxes, use the $6$-minute rate with the count $y$. That contributes $6y$ minutes to the daily total."
     },
     {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>$6x+12y=720$</strong>: $6x + 12y = 720$: swaps the per-box times (6 min for large, 12 min for small).</li><li><strong>$12x+6y=720$</strong>: $12x + 6y = 720$: correctly multiplies each box count by its own time.</li><li><strong>$\\left(x+y\\right)\\left(12+6\\right)=720$</strong>: $(x+y)(12+6)=720$: this would only work if every box took 18 minutes, which is not the case.</li><li><strong>$\\left(12+x\\right)\\left(6+y\\right)=720$</strong>: $(12+x)(6+y)=720$: adds counts and times, which is not how time accumulates.</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Set the total time",
+      "content": "The machine runs for $720$ minutes total, so the equation is\n$$\n12x+6y=720\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "48056c7d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the trial relationship",
+      "content": "The passage says randomized clinical trials sometimes fail to do something to conclusions based on real-world observations. The next sentence explains that those observations may overlook confounding variables, so trial evidence may not confirm them."
+    },
+    {
+      "title": "Choose the support word",
+      "content": "A means put into action, B means avoid, and D means spread widely; none fits the relationship between evidence and conclusions. The needed word means confirm or support. The answer is <strong>C</strong>."
+    }
+  ]
+}

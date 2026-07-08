@@ -1,0 +1,20 @@
+{
+  "questionId": "dfd265c8",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the function values",
+      "content": "Use $f(x)=c^x$. The equation becomes<br/>$$c^7=16c^5$$",
+      "formula": "$$c^2 = 16$$"
+    },
+    {
+      "title": "Divide matching powers",
+      "content": "Divide both sides by $c^5$.<br/>$$c^2=16$$"
+    },
+    {
+      "title": "Use the positive value",
+      "content": "Use the positive value because $c>1$.<br/>$$c=\\sqrt{16}=4$$<br/>The answer is <strong>4</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "22c50079",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "Maya used $70\\%$ of the $600$ feet of fencing. Convert the percent to a decimal.\n\n$$70\\%=0.70$$"
+    },
+    {
+      "title": "Multiply by the total",
+      "content": "Find $70\\%$ of $600$.\n\n$$0.70(600)=420$$\n\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

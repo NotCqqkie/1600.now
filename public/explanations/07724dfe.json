@@ -1,0 +1,15 @@
+{
+  "questionId": "07724dfe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the difficulty",
+      "content": "The first sentence says even experienced bird watchers can have trouble visually distinguishing the common raven from the Chihuahuan raven. The next sentence explains why: the two species can share similarities that make them appear almost identical at times."
+    },
+    {
+      "title": "Use a confirming transition",
+      "content": "\"Indeed\" fits because it confirms and elaborates on the claim that visual identification is difficult. \"Instead\" would introduce an alternative to the first idea, which is not happening. \"Moreover\" would add another independent point, and \"Thus\" would present a result. The sentence is giving direct confirmation of the confusion described just before it. The answer is <strong>C</strong>."
+    }
+  ]
+}

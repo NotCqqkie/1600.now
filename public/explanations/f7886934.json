@@ -1,0 +1,15 @@
+{
+  "questionId": "f7886934",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the coefficients",
+      "content": "The equation\n$$\nx^2-18x+14=0\n$$\nhas $a=1$ and $b=-18$ in standard quadratic form."
+    },
+    {
+      "title": "Use the root sum",
+      "content": "For $ax^2+bx+c=0$, the sum of the solutions is $-\\frac{b}{a}$. Therefore,\n$$\n-\\frac{-18}{1}=18\n$$\nNo solving by factoring is needed because the question asks only for the sum. The answer is <strong>A</strong>."
+    }
+  ]
+}

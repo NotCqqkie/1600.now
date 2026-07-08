@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$4x+5=165$$Graph or solve it directly and read the x-value that works. The requested value is $40$.",
+      "title": "Isolate the variable term",
+      "content": "Start with\n$$\n4x+5=165\n$$\nSubtract $5$ from both sides:\n$$\n4x=160\n$$"
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Divide both sides by $4$:\n$$\nx=40\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing or solving the equation directly gives the same solution. The answer is <strong>40</strong>.",
       "desmosExpressions": [
         "4x+5=165"
       ]
-    },
-    {
-      "title": "Undo the addition",
-      "content": "Start with $4x+5=165$. Subtract $5$ from both sides so the term with $x$ is alone: $$4x=160.$$"
-    },
-    {
-      "title": "Undo the multiplication",
-      "content": "Divide both sides by $4$: $$x=40.$$ Check by substituting: $4(40)+5=160+5=165$, so the solution is <strong>40</strong>. The equation balances exactly, confirming there was no rounding or estimate involved."
     }
   ]
 }

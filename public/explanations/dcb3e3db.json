@@ -1,0 +1,15 @@
+{
+  "questionId": "dcb3e3db",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare compound types",
+      "content": "The student wants to contrast dichloromethane and tetradecafluorohexane. The notes distinguish them by class and composition: dichloromethane is a hydrochlorocarbon with hydrogen, chlorine, and carbon, while tetradecafluorohexane is a perfluorocarbon with fluorine and carbon."
+    },
+    {
+      "title": "Reject shared-feature choices",
+      "content": "B and C emphasize that both compounds are refrigerants used in cooling technologies, and D discusses only tetradecafluorohexane. The needed sentence sets the two compounds' different categories and elements side by side. The answer is <strong>A</strong>."
+    }
+  ]
+}

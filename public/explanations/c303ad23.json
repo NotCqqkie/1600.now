@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Do not solve for $x$",
-      "content": "The target expression, $x^2-7x$, is already hidden inside the equation $$4x^2-28x-36=0.$$ Factor $4$ from the first two terms by dividing the whole equation by $4$."
+      "title": "Divide by the common factor",
+      "content": "Start with\n+$$4x^2-28x-36=0$$\n+Divide every term by $4$:\n+$$x^2-7x-9=0$$"
     },
     {
       "title": "Isolate the target expression",
-      "content": "Dividing by $4$ gives $$x^2-7x-9=0.$$ Add $9$ to both sides: $$x^2-7x=9.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The requested value is <strong>9</strong>."
+      "content": "The question asks for $x^2-7x$, so add $9$ to both sides:\n+$$x^2-7x=9$$\n+The answer is <strong>9</strong>."
     }
   ]
 }

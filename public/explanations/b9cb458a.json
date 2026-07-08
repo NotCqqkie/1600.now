@@ -1,0 +1,15 @@
+{
+  "questionId": "b9cb458a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the predictor finding",
+      "content": "The passage first presents the expectation that flowers with high sugar concentrations should attract hummingbirds. The study then overturns that expectation: visit frequencies were not influenced by nectar traits. Instead, physical compatibility between flower corollas and hummingbird bills more strongly predicted interaction patterns."
+    },
+    {
+      "title": "Avoid overstating nectar effects",
+      "content": "Choice A overstates the finding with “consistently” and says hummingbirds prefer low nectar rewards, which the text never claims. Choice C invents nectar qualities as a secondary factor, even though the study says visit frequencies were not influenced by nectar traits. Choice D invents uncertainty about which plants produce high-reward nectar. Choice B cautiously follows from the finding that compatibility may lead hummingbirds to visit lower-reward flowers over higher-reward ones. The answer is <strong>B</strong>."
+    }
+  ]
+}

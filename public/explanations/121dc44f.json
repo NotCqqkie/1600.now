@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express an 8% increase algebraically",
-      "content": "An increase of 8% adds 0.08 times the original amount to the original:<br/>$$\\text{2019 population} = \\text{2018 population} + 0.08 \\cdot \\text{2018 population}$$<br/>Factor the right side:<br/>$$\\text{2019 population} = (1 + 0.08) \\cdot \\text{2018 population} = 1.08 \\cdot \\text{2018 population}$$"
+      "title": "Convert the increase",
+      "content": "An $8\\%$ increase means the new population is the original population plus $8\\%$ of the original population.<br/>$$100\\%+8\\%=108\\%$$"
     },
     {
-      "title": "Identify the constant k",
-      "content": "The problem states that the 2019 population is $k$ times the 2018 population. From our factorization, this multiplier is $1.08$, so $k = 1.08$. That matches <strong>Choice C &mdash; $1.08$</strong>."
+      "title": "Find the multiplier",
+      "content": "Convert $108\\%$ to a decimal multiplier.<br/>$$108\\%=\\frac{108}{100}=1.08$$<br/>So $k=1.08$. The answer is <strong>C</strong>."
     }
   ]
 }

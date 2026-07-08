@@ -1,0 +1,15 @@
+{
+  "questionId": "95e83810",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the complex list",
+      "content": "The sentence lists artists followed by descriptive appositives. Because each item contains an internal comma between the artist's name and description, semicolons should separate the major list items."
+    },
+    {
+      "title": "Place the separator",
+      "content": "Choice A uses only a comma between complex items. Choice C puts the semicolon after the next artist's name, splitting that name from its description. Choice D omits the needed separator. The blank needs a semicolon before the next artist's name and a comma after it. The answer is <strong>B</strong>."
+    }
+  ]
+}

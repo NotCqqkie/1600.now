@@ -1,0 +1,22 @@
+{
+  "questionId": "c3df13a2",
+  "correctAnswer": "-3",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the equation",
+      "content": "Divide both sides by $15$:<br/>$$15x^2=15(9)$$<br/>$$x^2=9$$"
+    },
+    {
+      "title": "Use the negative root",
+      "content": "Taking the square root gives two possible values:<br/>$$x=\\pm\\sqrt{9}=\\pm 3$$<br/>The question asks for the negative solution."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation and choose the negative intersection with the $x$-values. The answer is <strong>-3</strong>.",
+      "desmosExpressions": [
+        "15x^2 = 15(9)"
+      ]
+    }
+  ]
+}

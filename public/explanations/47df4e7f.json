@@ -1,0 +1,15 @@
+{
+  "questionId": "47df4e7f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the counting problem",
+      "content": "The passage says white-headed langurs are hard to count accurately. If researchers cannot reliably tell whether the population is rising, falling, or stable, it becomes harder to judge whether conservation strategies are working."
+    },
+    {
+      "title": "Remove unsupported effects",
+      "content": "Choice B predicts that other conservationists will adopt a method, which the text does not suggest. Choice C changes the study's scope without addressing the problem. Choice D invents overlooked conservation approaches. The logical consequence is unreliable conclusions about strategy effectiveness. The answer is <strong>A</strong>."
+    }
+  ]
+}

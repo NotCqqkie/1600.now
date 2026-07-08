@@ -1,0 +1,15 @@
+{
+  "questionId": "59b0c918",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the equation",
+      "content": "Distribute on the left side.\n$$\n5(2x+7)-3(x-4)=10x+35-3x+12=7x+47\n$$"
+    },
+    {
+      "title": "Find the requested value",
+      "content": "Set this equal to the right side and solve for $x$, then find $10x$.\n$$\n7x+47=-1+15x\n$$\n$$\n48=8x\n$$\n$$\nx=6\n$$\n$$\n10x=60\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

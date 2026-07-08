@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the relationship between the sentences",
-      "content": "Sentences 1&ndash;2 describe a challenge: seals must exert energy to dive while keeping their heart rate low to avoid oxygen depletion. Sentence 3 describes the seal's actual behavior: minimal flipper movement to conserve energy. The behavior is a direct consequence of the oxygen challenge, so the blank needs a cause-and-effect signal."
+      "title": "Name the logical link",
+      "content": "The first part explains the challenge of diving while conserving oxygen. The final sentence describes seals moving their flippers as little as possible to conserve energy, so the blank needs a cause-and-effect transition."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A — In the first place,</strong>: signals the first item in a series of enumerated points, not a causal consequence. &#10007;</li><li><strong>Choice B — On the other hand,</strong>: signals contrast, but the seal's energy-conserving behavior follows from the oxygen challenge rather than opposing it. &#10007;</li><li><strong>Choice C — For this reason,</strong>: directly signals that the minimal flipper movement is a result of the oxygen-related challenge described before. &#10003;</li><li><strong>Choice D — In comparison,</strong>: signals a comparison between two things, but no second subject is being compared here. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject mismatched transitions",
+      "content": "A signals the first point in a sequence, B signals contrast, and D signals comparison. The needed transition must show that the flipper behavior results from the oxygen and energy challenge just described. The answer is <strong>C</strong>."
     }
   ]
 }

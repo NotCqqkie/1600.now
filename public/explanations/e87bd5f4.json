@@ -1,0 +1,15 @@
+{
+  "questionId": "e87bd5f4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare familiar and unfamiliar speech",
+      "content": "The conclusion says younger dogs may be worse at differentiating between familiar and unfamiliar languages. A supporting finding must show that as dog age decreases, the brain-activity difference between familiar and unfamiliar language also decreases."
+    },
+    {
+      "title": "Reject wrong comparisons",
+      "content": "Choice A shows dogs of all ages distinguished the languages but not that younger dogs did so worse. Choice C concerns overall activity levels, and Choice D compares scrambled recordings with unfamiliar language. The remaining finding shows shrinking language-specific differences in younger dogs. The answer is <strong>B</strong>."
+    }
+  ]
+}

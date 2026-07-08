@@ -4,28 +4,24 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the shown line first",
-      "content": "The graph shown is $y=f(x)-11$. Two clear points on that line are $(-2,0)$ and $(0,-4)$. The slope is $$m=\\frac{-4-0}{0-(-2)}=-2,$$ and the $y$-intercept is $-4$, so the graphed line is $y=-2x-4$."
+      "title": "Find the graphed line",
+      "content": "The graph shown is $y=f(x)-11$. Using two points on that line, $(-2,0)$ and $(0,-4)$, the slope is\n$$\n\\frac{-4-0}{0-(-2)}=-2\n$$\nThe $y$-intercept is $-4$, so the graphed line is $y=-2x-4$."
     },
     {
-      "title": "Undo the vertical shift",
-      "content": "Since the graph is $y=f(x)-11$, add 11 to the fitted equation: $$f(x)=(-2x-4)+11=-2x+7$$",
+      "title": "Undo the shift",
+      "content": "Since $y=f(x)-11$, add $11$ to the graphed line:\n$$\nf(x)=(-2x-4)+11=-2x+7\n$$",
       "desmosExpressions": [
         "y=-2x-4",
         "y=-2x+7"
       ]
     },
     {
-      "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong> gives $f(x)=-2x+7$. Subtracting 11 gives $y=-2x-4$, exactly the graphed line. <strong>Choice C &mdash; $f \\left(x\\right)=-13x+7$</strong> has the same intercept after shifting, but its slope is $-13$, not $-2$. Choices A and D miss the intercept.",
+      "title": "Match the equation",
+      "content": "The choice that defines $f(x)$ as $-2x+7$ is the match. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=(-2x+7)-11",
         "y=-2x-4"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "$f(x)=-2x+7$ matches <strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong>. <strong>Choice B &mdash; $f \\left(x\\right)=-2x+7$</strong>."
     }
   ]
 }

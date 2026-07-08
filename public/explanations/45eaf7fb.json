@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's goal",
-      "content": "The student wants to emphasize Tecozautla's SIZE. The most effective way to do that is to include a concrete measurement — a specific number that makes the size tangible. Choices that omit the area measurement cannot make size the focal point."
+      "title": "Identify the goal",
+      "content": "The student wants to emphasize the size of Tecozautla. The relevant note is the concrete area measurement: Tecozautla covers roughly 535 square kilometers. A sentence focused on services, location, or the number of municipalities would not emphasize physical size."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — The municipality of Tecozautla in Hidalgo, Mexico, covers an area of roughly $535 \\text{ km}^2$.</strong>: Centers the sentence on the area measurement ($535 \\text{ km}^2$), directly emphasizing Tecozautla's size with a concrete figure. &#10003;</li><li><strong>Choice B — Providing street lighting is just one example of the public services that municipalities provide.</strong>: Focuses on municipal services, not on Tecozautla's size at all — the measurement is absent. &#10007;</li><li><strong>Choice C — Tecozautla is one of 84 governmental regions, known as municipalities, across Hidalgo.</strong>: Focuses on Tecozautla's administrative count among municipalities, not on its physical size. &#10007;</li><li><strong>Choice D — Tecozautla—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents.</strong>: Focuses on public services provided, not on the area or size of Tecozautla. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Remove irrelevant details",
+      "content": "Choice B discusses street lighting and public services generally. Choice C says Hidalgo has 84 municipalities, which gives administrative context but not Tecozautla's area. Choice D says Tecozautla provides services to residents, again shifting attention away from size."
+    },
+    {
+      "title": "Choose the size detail",
+      "content": "The option that says Tecozautla covers roughly 535 square kilometers directly uses the note that measures its physical area. That is the only choice centered on the student's requested emphasis. The answer is <strong>A</strong>."
     }
   ]
 }

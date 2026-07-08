@@ -1,0 +1,20 @@
+{
+  "questionId": "e3e8f223",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use hemisphere volume",
+      "content": "A hemisphere is half of a sphere. Since a sphere has volume $\\frac{4}{3}\\pi r^3$, a hemisphere has volume<br/>$$V=\\frac{1}{2}\\cdot\\frac{4}{3}\\pi r^3=\\frac{2}{3}\\pi r^3$$",
+      "formula": "$$V = \\frac{2}{3}\\pi r^3$$"
+    },
+    {
+      "title": "Substitute the radius",
+      "content": "Use the given radius, $r=66$, and compute the cubed value before multiplying by $\\pi$.<br/>$$V=\\frac{2}{3}\\pi(66)^3$$<br/>$$66^3=287{,}496$$<br/>$$V=191{,}664\\pi$$"
+    },
+    {
+      "title": "Approximate the volume",
+      "content": "Use $\\pi$ as $3.14159$ to estimate the volume and choose the closest listed value.<br/>$$191{,}664(3.14159)=602{,}138.51376$$<br/>The closest value is $602{,}000$. The answer is <strong>D</strong>."
+    }
+  ]
+}

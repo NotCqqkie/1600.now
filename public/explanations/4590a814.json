@@ -1,0 +1,15 @@
+{
+  "questionId": "4590a814",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "Multiply $14$ by each term inside the parentheses. The factor outside the parentheses applies to both $x$ and $12$:\n$$\n14(x+12)=14x+14(12)\n$$"
+    },
+    {
+      "title": "Simplify the constant",
+      "content": "Calculate the constant term:\n$$\n14(12)=168\n$$\nSo the equivalent expression keeps the original variable term and uses that product:\n$$\n14x+168\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

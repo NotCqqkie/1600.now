@@ -1,0 +1,19 @@
+{
+  "questionId": "f0b283f4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the sentence function",
+      "content": "The question asks what the underlined sentence does in the passage. That sentence is not defining vertical and horizontal gene transfer; the previous sentence already does that. Instead, it says horizontal gene transfer is common among prokaryotes but has rarely been observed among eukaryotes."
+    },
+    {
+      "title": "Name the contrast",
+      "content": "The underlined sentence therefore contrasts how frequently one biological phenomenon, horizontal gene transfer, has been detected in two organism categories. Prokaryotes are given as the category where it is common, and eukaryotes are given as the category where it has rarely been observed."
+    },
+    {
+      "title": "Reject nearby ideas",
+      "content": "Choice B wrongly refers to two biological phenomena and similarity. Choice C says the sentence explains a flawed perception. Choice D describes mechanics of two biological processes, which belongs to the opening sentence instead. The answer is <strong>A</strong>."
+    }
+  ]
+}

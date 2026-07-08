@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express 74% of the height algebraically",
-      "content": "When we say the base is <em>74% of the height</em>, this means base = 74% $\\times$ $h$. We need to convert the percentage to decimal form."
+      "title": "Convert the percent",
+      "content": "The base is $74\\%$ of the height, so convert $74\\%$ to a decimal.<br/>$$74\\%=\\frac{74}{100}=0.74$$"
     },
     {
-      "title": "Convert percentage to decimal",
-      "content": "$$74\\% = \\frac{74}{100} = 0.74$$<br/>Therefore, the base length is $0.74h$. That confirms <strong>D</strong> is correct."
+      "title": "Multiply by the height",
+      "content": "If the height is $h$, then the base length is<br/>$$0.74h$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

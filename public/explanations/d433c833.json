@@ -1,0 +1,16 @@
+{
+  "questionId": "d433c833",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the triangle angle sum",
+      "content": "The angles in a triangle sum to $180^\\circ$. With angle $P=38^\\circ$ and angle $Q=90^\\circ$, write the equation.<br/>$$38^\\circ+90^\\circ+R=180^\\circ$$",
+      "formula": "$$A + B + C = 180^\\circ$$"
+    },
+    {
+      "title": "Solve for angle R",
+      "content": "Combine the known angles, then subtract from $180^\\circ$.<br/>$$128^\\circ+R=180^\\circ$$<br/>$$R=52^\\circ$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

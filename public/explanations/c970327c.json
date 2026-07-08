@@ -1,0 +1,19 @@
+{
+  "questionId": "c970327c",
+  "correctAnswer": "272",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel slope",
+      "content": "The line $y=34x+5$ has slope $34$. Since line $s$ is parallel to it, line $s$ also has slope $34$."
+    },
+    {
+      "title": "Use the point on the line",
+      "content": "Line $s$ passes through $(0,0)$, so its equation is<br/>$$y=34x$$"
+    },
+    {
+      "title": "Evaluate at the given input",
+      "content": "The point $(8,d)$ is on line $s$, so substitute $x=8$.<br/>$$d=34(8)=272$$<br/>The answer is <strong>272</strong>."
+    }
+  ]
+}

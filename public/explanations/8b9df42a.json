@@ -1,0 +1,19 @@
+{
+  "questionId": "8b9df42a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two models",
+      "content": "Text 1 says Ramanathan et al. identified K2-18 b as a hycean candidate on the inner edge of the habitable zone at about 1 AU. Text 2 says Chen et al. recalculated that inner edge for hydrogen-rich hycean candidates as far out as 3.85 AU."
+    },
+    {
+      "title": "Infer Chen's response",
+      "content": "If the inner edge is much farther out, then a planet at about 1 AU would be too close to its star for surface liquid water. Chen et al. would therefore challenge Ramanathan et al.'s candidate by pointing to the effect of its hydrogen-rich atmosphere: higher surface temperatures and increased evaporation."
+    },
+    {
+      "title": "Eliminate the reversals",
+      "content": "Choice A says the planets are too far from their stars, but Chen's model implies K2-18 b is too close. Choice C reverses the temperature claim because Chen et al. find higher, not lower, temperatures. Choice D adds an unsupported comparison to other planet types. The answer is <strong>B</strong>."
+    }
+  ]
+}

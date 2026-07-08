@@ -1,28 +1,19 @@
 {
-  "qid": "433184f1",
   "questionId": "433184f1",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{13}{ \\left(x+1\\right) \\left(6x-7\\right)}$."
+      "title": "Use a common denominator",
+      "content": "The common denominator is $(6x-7)(x+1)$. Rewrite each fraction with that denominator.<br/>$$\\frac{6}{6x-7}-\\frac{1}{x+1}=\\frac{6(x+1)}{(6x-7)(x+1)}-\\frac{6x-7}{(x+1)(6x-7)}$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Combine the numerators",
+      "content": "Subtract the second numerator from the first.<br/>$$6(x+1)-(6x-7)=6x+6-6x+7$$<br/>$$=13$$"
     },
     {
-      "title": "Step 1",
-      "content": "Find a common denominator for $\\frac{6}{6x-7} - \\frac{1}{x+1}$. The LCD is $(6x-7)(x+1)$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Rewrite each fraction: $\\frac{6(x+1)}{(6x-7)(x+1)} - \\frac{(6x-7)}{(x+1)(6x-7)}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Combine numerators: $6(x+1) - (6x-7) = 6x+6-6x+7 = 13$. Result: $\\frac{13}{(x+1)(6x-7)}$, which matches <strong>Choice D</strong>."
+      "title": "Write the simplified fraction",
+      "content": "Place the simplified numerator over the common denominator.<br/>$$\\frac{13}{(x+1)(6x-7)}$$<br/>The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D",
-  "section": "Math"
+  ]
 }

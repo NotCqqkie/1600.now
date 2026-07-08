@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the rectangle area formula",
-      "content": "For a rectangle, Area = width times length. The given area $A = w(w+7)$ is already factored as a product of two terms."
+      "title": "Use the area factors",
+      "content": "For a rectangle,\n$$\n\\text{area}=\\text{width}\\cdot\\text{length}\n$$\nThe given area is already written as the product $w(w+7)$."
     },
     {
-      "title": "Identify the length",
-      "content": "Since Area = width times length and we're given $A = w(w+7)$ with width = $w$, the remaining factor must be the length. Therefore, length = $(w+7)$. <strong>D</strong> is correct."
+      "title": "Identify the length factor",
+      "content": "The width is $w$, so the other factor, $w+7$, represents the length. The answer is <strong>D</strong>."
     }
   ]
 }

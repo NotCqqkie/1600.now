@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify whether these nouns show possession",
-      "content": "The key signal is the grammatical function of each noun. <em>Musicians</em> is part of the subject with Joseph Kekuku, and <em>audiences</em> is the direct object of <em>introduced</em>. Neither noun shows possession of anything else."
+      "title": "Check for possession",
+      "content": "The sentence needs a plural noun for the subject, \"Joseph Kekuku and other Hawaiian musicians,\" and a plural noun for the object, \"audiences.\" Neither noun owns anything, so neither should have an apostrophe."
     },
     {
-      "title": "Apply the plural rule",
-      "content": "Both nouns are simple plurals without possessive meaning, so neither takes an apostrophe: <em>musicians</em> and <em>audiences</em>.<br/><br/>The forms with apostrophes on both nouns incorrectly make both words possessive; <em>musicians'</em> introduced <em>audiences</em> incorrectly makes only <em>musicians</em> possessive.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject apostrophe errors",
+      "content": "<ul><li><strong>Choice B</strong> incorrectly makes both \"musicians\" and \"audiences\" possessive.</li><li><strong>Choice C</strong> incorrectly makes both nouns singular possessives.</li><li><strong>Choice D</strong> incorrectly makes only \"musicians\" possessive.</li></ul>The remaining choice uses plural nonpossessive nouns. The answer is <strong>A</strong>."
     }
   ]
 }

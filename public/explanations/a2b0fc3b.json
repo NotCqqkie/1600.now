@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the defining contrast",
-      "content": "France and Japan were already at 70%+ in 1970, so they cannot account for post-1970 urbanization growth.<br/><br/>The passage identifies Algeria as a <strong>main contributor to world urbanization since 1970</strong>, which means Algeria must have started well below 70% in 1970 and risen substantially by 2020."
+      "title": "Find the growth pattern",
+      "content": "France and Japan were already at least 70% urban in 1970, so they do not explain much of the later worldwide increase. Algeria must instead show a lower 1970 level and a substantial rise by 2020."
     },
     {
-      "title": "Match the pattern to the graph data",
-      "content": "The graph shows Algeria at approximately 40% urban in 1970 and roughly 70% in 2020—a dramatic ~30 percentage point increase that explains Algeria's role as a main contributor.<br/><br/>The correct answer states “around 40% urban in 1970 to more than 70% urban in 2020,” which matches this growth pattern exactly.<br/><br/>Those choices overstate 2020 (claiming around 90% instead of ~70%), and C underestimates both values.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject inaccurate values",
+      "content": "A and B overstate Algeria's 2020 value by claiming around 90%. C understates both the starting and ending values. The graph's pattern is about 40% urban in 1970 and more than 70% urban in 2020. The answer is <strong>D</strong>."
     }
   ]
 }

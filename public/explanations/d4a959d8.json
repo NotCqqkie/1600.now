@@ -1,0 +1,15 @@
+{
+  "questionId": "d4a959d8",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the attribution issue",
+      "content": "The study links PA tourism to higher household incomes, but the final sentence narrows what can be inferred. Lower Zambezi was remote and had few tourist draws besides the PA, while Abrolhos was near amenities outside the PA. The concession must separate tourism caused by interest in the PA from tourism that may be caused by nearby amenities."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "The needed completion ties Lower Zambezi tourism to the PA and allows that Abrolhos tourism may come from nearby amenities. A wrongly shifts Abrolhos gains to non-tourism industries, B invents unstable tourism patterns, and D invents a faster income-growth rate near Abrolhos. The answer is <strong>C</strong>."
+    }
+  ]
+}

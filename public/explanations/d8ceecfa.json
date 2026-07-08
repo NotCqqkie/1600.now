@@ -1,0 +1,15 @@
+{
+  "questionId": "d8ceecfa",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the direct label",
+      "content": "The blank comes between the adjective \"American\" and the proper name \"Will Barnet.\" The sentence needs the noun that identifies Barnet's role, followed directly by his name."
+    },
+    {
+      "title": "Remove extra punctuation",
+      "content": "A colon would introduce an explanation or list, C adds an unnecessary dash, and D wrongly separates the role noun from the name with a comma. A direct identifier needs no punctuation between \"artist\" and \"Will Barnet.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

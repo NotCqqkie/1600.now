@@ -1,0 +1,15 @@
+{
+  "questionId": "70f95a85",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the head noun",
+      "content": "The subject is <em>The city of Quito in Ecuador</em>. The head noun is <em>city</em>, which is singular; the prepositional phrases do not make the subject plural."
+    },
+    {
+      "title": "Use singular present agreement",
+      "content": "Choice B uses plural <em>have</em>. Choice C and Choice D use plural <em>are</em>. The sentence states an ongoing fact about one city, so it needs the singular present-tense verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

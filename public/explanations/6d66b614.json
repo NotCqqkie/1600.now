@@ -1,0 +1,15 @@
+{
+  "questionId": "6d66b614",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match purpose to examples",
+      "content": "The passage says demonstration sports showcased sports related to the host country. The next sentence gives exactly that pattern: an Austrian sport at the Austria Games and a French sport at the France Games. This makes the second sentence a fitting confirmation, not a contrast or unrelated addition."
+    },
+    {
+      "title": "Reject wrong transition signals",
+      "content": "Choice B signals contrast despite an obstacle. Choice C adds an independent point, but this sentence illustrates the rule just stated. Choice D signals opposition, while the examples confirm the purpose. The answer is <strong>A</strong>."
+    }
+  ]
+}

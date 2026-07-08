@@ -1,0 +1,19 @@
+{
+  "questionId": "3e86bcd5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the pattern described",
+      "content": "The passage says archaeologists have found many <em>Tritia gibbosula</em> shell beads at many Middle Stone Age sites across western North Africa. The blank must describe that widespread presence."
+    },
+    {
+      "title": "Eliminate wrong meanings",
+      "content": "Choice A means convenience or practicality, which is not the focus. Choice B means fertility or productive abundance, not wide distribution. Choice D means diversity, but the passage emphasizes similar beads appearing at many sites."
+    },
+    {
+      "title": "Choose widespread presence",
+      "content": "The remaining word means being found everywhere or in many places, which matches the beads' presence across many sites. The answer is <strong>C</strong>."
+    }
+  ]
+}

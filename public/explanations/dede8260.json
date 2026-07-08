@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the goal: emphasize methodology",
-      "content": "The student wants to highlight <em>how</em> Lewis conducted the study &mdash; the actual research process. From the notes, the key action is: Lewis and her team <strong>reviewed 132 medical school websites, examining student policies</strong>. The correct choice must describe this process, not the data location, the results, or the research aim.<ul><li><strong>\"The student policies of 132 medical schools can be found online, according to research by Nadia Lewis.\"</strong>: describes where data is located, not how research was conducted &#10007;</li><li><strong>\"To find out how many medical schools have guidelines about student social media use, Nadia Lewis and her team examined the student policies of 132 medical schools.\"</strong>: names the specific action the researchers took &mdash; examining policies of 132 schools &#10003;</li><li><strong>\"Out of 132 medical schools, only thirteen had student policies that mentioned social media, and only five specified what use was acceptable.\"</strong>: reports results, not methodology &#10007;</li><li><strong>\"Nadia Lewis and her team wanted to know how many medical schools have student social media policies in place about protecting patient confidentiality.\"</strong>: describes the study's aim, not how it was conducted &#10007;</li></ul>"
+      "title": "Focus on methodology",
+      "content": "The student's goal is to emphasize how the study was conducted. The relevant note is the method: Lewis and her team reviewed 132 medical school websites and examined publicly available student policies. The sentence should foreground that research action rather than the study's results or purpose."
     },
     {
-      "title": "Confirm the correct choice",
-      "content": "Methodology means the steps taken to carry out research. The action <strong>“examined the student policies of 132 medical schools”</strong> is precisely the research process from the notes.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Name the research action",
+      "content": "B states both the goal and the method, saying the team examined the student policies of 132 medical schools. A focuses on policies being online. C gives the results about thirteen schools and five definitions. D gives the research aim about social media policies and confidentiality, not the process used to investigate it. The answer is <strong>B</strong>."
     }
   ]
 }

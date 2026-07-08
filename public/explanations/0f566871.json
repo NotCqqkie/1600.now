@@ -1,0 +1,15 @@
+{
+  "questionId": "0f566871",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify regional authenticity",
+      "content": "The first clause says the cheeses are valued for regional authenticity. The second clause explains what that means: they are made with local ingredients and methods typical of their geographic regions."
+    },
+    {
+      "title": "Reject nonclarifying signals",
+      "content": "Choice B would signal contrast, Choice C would signal correction, and Choice D would signal sequence or consequence. The relationship is clarification, so the transition should mean \"in other words.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

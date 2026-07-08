@@ -1,0 +1,15 @@
+{
+  "questionId": "93355ddb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the claim",
+      "content": "The underlined claim says male and female <em>A. fasciatus</em> share the same sponge microhabitat. Supporting graph data must show at least one male and at least one female present in the same sponge."
+    },
+    {
+      "title": "Require both sexes",
+      "content": "Choice B mentions only males in one sponge. Choice C pairs males with undetermined individuals, so it does not prove female presence. Choice D mentions only females in one sponge. The remaining choice shows both males and females in each sponge, directly supporting shared microhabitats. The answer is <strong>A</strong>."
+    }
+  ]
+}

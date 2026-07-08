@@ -1,0 +1,15 @@
+{
+  "questionId": "7b0e9b7b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect the list to its setup",
+      "content": "The sentence introduces \"two other Black Americans who served in\" Congress and then names those two people. The punctuation must show that the names explain or specify the group just introduced."
+    },
+    {
+      "title": "Reject breaks and weak joins",
+      "content": "A creates a sentence break, leaving the two names as a fragment. C uses a semicolon, but the names after it are not an independent clause. D provides no punctuation to separate the setup from the list. The answer is <strong>B</strong>."
+    }
+  ]
+}

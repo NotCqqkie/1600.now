@@ -1,0 +1,19 @@
+{
+  "questionId": "0aa5eadd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the dates",
+      "content": "Grande Terre completely emerged 37 million years ago. Durand et al. found that the southern beech clade on Grande Terre has a crown age of 16.4 million years, much more recent than the island's emergence."
+    },
+    {
+      "title": "Reject unsupported extensions",
+      "content": "Choice A makes an unsupported claim about origin outside the South Pacific. Choice B contradicts the 16.4-million-year age. Choice D makes a claim about most species on Grande Terre, but the passage only discusses southern beeches."
+    },
+    {
+      "title": "Draw the age inference",
+      "content": "A clade with a most recent common ancestor 16.4 million years ago did not exist before the island emerged 37 million years ago. The answer is <strong>C</strong>."
+    }
+  ]
+}

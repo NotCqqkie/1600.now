@@ -1,0 +1,19 @@
+{
+  "questionId": "231435c2",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two clauses",
+      "content": "The sentence contains two independent clauses: the first says the situation has not always been the case, and the second says the magnetic poles have swapped places. The word <em>though</em> acts parenthetically between them."
+    },
+    {
+      "title": "Reject broken punctuation",
+      "content": "Choice A places the semicolon before <em>though</em>, stranding the parenthetical. Choice B leaves a comma splice between independent clauses. Choice D omits the semicolon needed to separate those clauses."
+    },
+    {
+      "title": "Set off though correctly",
+      "content": "Choice C uses a comma before <em>though</em> to mark the parenthetical and a semicolon after it to separate the two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

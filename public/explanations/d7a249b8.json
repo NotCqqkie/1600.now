@@ -1,0 +1,19 @@
+{
+  "questionId": "d7a249b8",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the named moon",
+      "content": "The passage directly states that scientists used the <em>Voyager 1</em> space probe to discover Adrastea in 1979. That sentence gives the requested year."
+    },
+    {
+      "title": "Reject other years",
+      "content": "Choice B and Choice C are not given as Adrastea's discovery year. Choice D is 1610, the year Galileo discovered Io, so it belongs to a different moon."
+    },
+    {
+      "title": "Use the stated year",
+      "content": "Choice A gives 1979, the year the passage explicitly associates with the discovery of Adrastea. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the central argument of the passage",
-      "content": "The passage opens by stating animals use objects as tools. It then names the old belief: tool use was thought unique to primates. The next two sentences refute that belief: dolphins use sponges to protect their noses, and palm cockatoos use leaves to open nuts. The passage&apos;s purpose is to show that a variety of non-primate animals use tools &mdash; overturning the primate-only assumption."
+      "title": "Find the central purpose",
+      "content": "The text starts with the broad claim that animals use tools, then rejects the old belief that tool use was unique to primates. The dolphin and palm cockatoo examples show that tool use appears across different kinds of animals."
     },
     {
-      "title": "Eliminate the wrong choices and confirm D",
-      "content": "<ul><li><strong>Choice A — To question the belief that birds are intelligent</strong>: The passage never discusses intelligence; it calls cockatoo tool use &quot;creative,&quot; implying the opposite of unintelligence. &#10007;</li><li><strong>Choice B — To compare tool use in humans with tool use in palm cockatoos</strong>: Humans are never directly mentioned as tool users in the passage; palm cockatoos appear as one example among several, not as a contrast to humans. &#10007;</li><li><strong>Choice C — To establish that tool use doesn't indicate intelligence</strong>: Intelligence is never mentioned; the passage describes animal tool use as inventive and creative, not as evidence against intelligence. &#10007;</li><li><strong>Choice D — To argue that a variety of animals use tools</strong>: The passage refutes the primate-only myth by showing that dolphins and palm cockatoos also use tools &mdash; exactly the argument that tool use spans a variety of animals. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Discard narrower claims",
+      "content": "A is wrong because the text does not question bird intelligence. B is wrong because it never compares humans with palm cockatoos. C is wrong because it does not argue that tool use fails to show intelligence. The answer is <strong>D</strong>."
     }
   ]
 }

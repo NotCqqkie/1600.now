@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve by taking square roots",
-      "content": "Take the square root of both sides of $x^2 = 144$:<br/>$$x = \\pm\\sqrt{144} = \\pm 12$$<br/>The two solutions are $x = 12$ and $x = -12$."
+      "title": "List both solutions",
+      "content": "Solving $x^2=144$ requires both the positive and negative square roots:\n$$\nx=\\pm\\sqrt{144}=\\pm 12\n$$"
     },
     {
-      "title": "Check the listed values",
-      "content": "The choices include $-12$, and $-12$ is one of the two solutions. Verify it directly: $$(-12)^2=144.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "$-12$ is correct because $x=-12$ satisfies the equation, so the answer is <strong>Choice A</strong>."
+      "title": "Use the listed values",
+      "content": "The listed value that satisfies the equation is negative, because\n$$\n(-12)^2=144\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

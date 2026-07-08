@@ -1,0 +1,19 @@
+{
+  "questionId": "444b6721",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the common power",
+      "content": "Both terms share $q^{19}$, so factor that out first:\n$$\n64q^{21}-169q^{19}=q^{19}(64q^2-169)\n$$"
+    },
+    {
+      "title": "Use difference of squares",
+      "content": "The remaining factor is a difference of squares because $64q^2=(8q)^2$ and $169=13^2$:\n$$\n64q^2-169=(8q)^2-13^2=(8q-13)(8q+13)\n$$"
+    },
+    {
+      "title": "Match the factor",
+      "content": "The full factorization is $q^{19}(8q-13)(8q+13)$. Therefore $8q+13$ appears directly as a factor of the original expression. The answer is <strong>A</strong>."
+    }
+  ]
+}

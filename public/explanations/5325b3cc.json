@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two key facts in the text",
-      "content": "The text introduces two things about the Black Pearl orchestra: (1) it performs classical music, and (2) through the iConduct! program, community members learn conducting basics and then actually conduct the orchestra themselves. The main idea must cover both facts.<ul><li><strong>Choice A — The Black Pearl orchestra performs music from all over the world but mostly performs music composed by Philadelphians.</strong>: The text names Beethoven and Jessie Montgomery &mdash; no claim is made that most composers are Philadelphians. &#10007;</li><li><strong>Choice B — Alvarez founded the Black Pearl orchestra to perform classical music by contemporary artist Jessie Montgomery.</strong>: Montgomery is one example; the text does not say the orchestra was founded for her music. &#10007;</li><li><strong>Choice C — The Black Pearl orchestra gives community members the chance to both listen to and participate in classical music performance.</strong>: Covers both the concerts and the iConduct! conducting opportunity &mdash; the full main idea. &#10003;</li><li><strong>Choice D — Alvarez has community members conduct an orchestra to demonstrate how difficult the task is.</strong>: The text never states that difficulty is the purpose of the program. &#10007;</li></ul>"
+      "title": "Cover performance and participation",
+      "content": "The text gives two main facts: the Black Pearl orchestra performs classical music, and its iConduct! program lets community members learn conducting basics and conduct the orchestra themselves."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only the matching choice captures both the listening and the active participation that the text emphasizes. <strong>C</strong> is correct."
+      "title": "Reject narrow claims",
+      "content": "Choice A invents a focus on Philadelphian composers. Choice B overstates one example, Jessie Montgomery, as the founding purpose. Choice D invents a goal of proving difficulty. The main idea must include both listening to and participating in classical performance. The answer is <strong>C</strong>."
     }
   ]
 }

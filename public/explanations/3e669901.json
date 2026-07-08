@@ -1,0 +1,15 @@
+{
+  "questionId": "3e669901",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize an indirect question",
+      "content": "The wording <em>asked what</em> introduces an embedded question inside a declarative sentence. Embedded questions use statement word order, with the subject before the verb, and the overall sentence takes a period instead of a question mark or exclamation mark."
+    },
+    {
+      "title": "Use statement word order",
+      "content": "Choice A uses inverted word order and an exclamation mark. Choice B uses statement word order but incorrectly ends the sentence with a question mark. Choice D uses inverted word order and a question mark. Choice C keeps the subject <em>her favorite book</em> before the verb <em>was</em> and ends the declarative sentence correctly. The answer is <strong>C</strong>."
+    }
+  ]
+}

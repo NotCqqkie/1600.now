@@ -1,0 +1,15 @@
+{
+  "questionId": "75dda9d6",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare slope forms",
+      "content": "For $f(x)=ax$, the coefficient $a$ is the slope."
+    },
+    {
+      "title": "Match the coefficient",
+      "content": "The slope is $31$, so $a=31$. The answer is <strong>31</strong>."
+    }
+  ]
+}

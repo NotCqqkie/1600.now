@@ -1,0 +1,15 @@
+{
+  "questionId": "4877ce4b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the sequence",
+      "content": "The sentence begins with \"first consider,\" so the second clause should introduce the next action in a sequence: compare the first painting to another one."
+    },
+    {
+      "title": "Use the next-step transition",
+      "content": "Choice A suggests substitution, choice C suggests continuation despite a contrast, and choice D suggests a result. None of those relationships fits a two-step procedure. The transition \"next\" correctly marks the second action after \"first consider.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

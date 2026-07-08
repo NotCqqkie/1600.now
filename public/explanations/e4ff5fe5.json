@@ -1,0 +1,19 @@
+{
+  "questionId": "e4ff5fe5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the clustering",
+      "content": "Standard deviation is smaller when values are closer to the mean. The lists are all centered near $52$, so compare how far the numbers spread from $52$."
+    },
+    {
+      "title": "Find the tightest list",
+      "content": "The list $51,52,52,52,53$ stays within $1$ unit of $52$. The other lists include values at least $2$ units from $52$, so they are more spread out."
+    },
+    {
+      "title": "Choose the smallest spread",
+      "content": "The tightest cluster has the smallest standard deviation. The answer is <strong>D</strong>."
+    }
+  ]
+}

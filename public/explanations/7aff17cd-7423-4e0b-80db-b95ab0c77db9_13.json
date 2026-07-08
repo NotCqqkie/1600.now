@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The researcher argues that GPS-tracked distance is significantly higher than the RTD method for the same animal. The correct choice must pair a GPS value with an RTD value for the same caribou so that the GPS value is the larger one, directly supporting that claim."
+      "title": "Compare the methods",
+      "content": "The researcher argues that GPS records all movements, so it should produce much higher travel distances than round-trip distance for the same population. The example should therefore show an RTD result lower than the GPS result for the same animal."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;caribou would be greater than 2,155 kilometers if the RTD method had been used.&rsquo;</strong>: This reverses the researcher's argument. &#10007;</li><li><strong>Choice B &mdash; &lsquo;caribou would be less than 3,807 kilometers if the RTD method had been used.&rsquo;</strong>: If the GPS-measured distance is $3{,}807$ km and the RTD value for the same caribou is less, that directly supports the claim that GPS records more distance. &#10003;</li><li><strong>Choice C &mdash; &lsquo;white-eared kob would be less than 400 kilometers if the GPS method had been used.&rsquo;</strong>: Cross-animal comparisons don't isolate the effect of the measurement method. &#10007;</li><li><strong>Choice D &mdash; &lsquo;white-eared kob would be greater than 3,807 kilometers if the GPS method had been used.&rsquo;</strong>: Starting from the RTD value and predicting a GPS outcome doesn't follow logically from the argument as stated. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Use one population",
+      "content": "Choice A predicts a GPS value lower than a comparison point, which runs against the argument. Choice C gives only a weak lower bound for caribou under RTD. Choice D makes an unsupported prediction about Tibetan antelope. The remaining choice directly says the caribou RTD value would be lower than its GPS value. The answer is <strong>B</strong>."
     }
   ]
 }

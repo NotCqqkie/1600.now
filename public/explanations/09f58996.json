@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 49",
-      "content": "The notation $f(49)$ means use $x=49$ in the function $f(x)=7+\\sqrt{x}$:<br/>$$f(49)=7+\\sqrt{49}$$"
+      "title": "Substitute the input",
+      "content": "Use $x=49$ in the function.<br/>$$f(49)=7+\\sqrt{49}$$"
     },
     {
-      "title": "Use the perfect square",
-      "content": "$49$ is a perfect square, and $\\sqrt{49}=7$. Therefore:<br/>$$f(49)=7+7=14$$<br/>The square root symbol means the nonnegative square root, so use $7$, not $-7$."
-    },
-    {
-      "title": "Answer",
-      "content": "The value of $f(49)$ is <strong>14</strong>."
+      "title": "Evaluate the function",
+      "content": "The square root symbol means the nonnegative square root, and $\\sqrt{49}=7$.<br/>$$f(49)=7+7=14$$<br/>The answer is <strong>14</strong>."
     }
   ]
 }

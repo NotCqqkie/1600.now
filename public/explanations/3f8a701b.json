@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for the needed coefficient",
-      "content": "For an equation in $x$ to have no solutions, the $x$-coefficients must match but the constants must not match. Expanding the right side gives $$7x+4=ax+ab.$$ Matching the $x$-coefficients gives $a=7$, so statement I must be true."
+      "title": "Expand the right side",
+      "content": "Rewrite the equation so the coefficients and constants can be compared.\n$$\n7x+4=a(x+b)\n$$\n$$\n7x+4=ax+ab\n$$"
     },
     {
-      "title": "Find the excluded value of b",
-      "content": "With $a=7$, the equation becomes $7x+4=7x+7b$. If $4=7b$, the equation would have infinitely many solutions instead of no solutions. Therefore no solutions require $$7b\\neq4\\Rightarrow b\\neq\\frac{4}{7}.$$"
+      "title": "Make the coefficients match",
+      "content": "A linear equation has no solutions when the $x$-coefficients match but the constants do not. Matching the $x$-coefficients requires\n$$\na=7\n$$"
     },
     {
-      "title": "Translate the condition",
-      "content": "The condition is exactly $$a=7\\quad\\text{and}\\quad b\\neq\\frac{4}{7}.$$ That means $a$ must equal $7$, while $b$ only has to avoid one value."
+      "title": "Keep the constants different",
+      "content": "With $a=7$, the right-side constant is $7b$. To avoid infinitely many solutions, the constants cannot match.\n$$\n7b\\ne 4\n$$\n$$\nb\\ne \\frac{4}{7}\n$$"
     },
     {
-      "title": "Select the answer",
-      "content": "Statement I is required. Statement II is not required because $b$ can be any value except $\\frac{4}{7}$. Statement III is required. Therefore only I and III must be true, which is choice D."
+      "title": "Identify the required statements",
+      "content": "Statement I is required, statement II is not required, and statement III is required. The answer is <strong>D</strong>."
     }
   ]
 }

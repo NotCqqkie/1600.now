@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Determine what the opening modifier must describe",
-      "content": "The phrase &ldquo;Far from being modern inventions&rdquo; is an introductory modifier. It must directly precede&mdash;and describe&mdash;the grammatical subject of the main clause. The only things that could be called &ldquo;modern inventions&rdquo; in this sentence are drinking straws, so &ldquo;drinking straws&rdquo; must be the subject."
+      "title": "Identify the modified subject",
+      "content": "The opening phrase <em>Far from being modern inventions</em> must describe the subject that follows it. The only thing in the sentence that can be modern inventions is drinking straws."
     },
     {
-      "title": "Eliminate choices with the wrong subject and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Sumerians in ancient Mesopotamia used drinking straws&rsquo;</strong>: This places &ldquo;Sumerians&rdquo; as the subject. People are not &ldquo;modern inventions,&rdquo; so the modifier is misapplied. &#10007;</li><li><strong>Choice B &mdash; &lsquo;drinking straws were used by Sumerians in ancient Mesopotamia&rsquo;</strong>: &ldquo;Drinking straws&rdquo; is the subject, correctly receiving the &ldquo;modern inventions&rdquo; modifier. &#10003;</li><li><strong>Choice C &mdash; &lsquo;the use of drinking straws by Sumerians in ancient Mesopotamia happened&rsquo;</strong>: The subject is &ldquo;the use,&rdquo; an abstract noun phrase rather than drinking straws themselves; the modifier does not logically apply to &ldquo;use.&rdquo; &#10007;</li><li><strong>Choice D &mdash; &lsquo;ancient Mesopotamia was home to Sumerians who used drinking straws&rsquo;</strong>: Places &ldquo;ancient Mesopotamia&rdquo; as the subject; a region is not a &ldquo;modern invention.&rdquo; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Avoid misplaced modifiers",
+      "content": "A makes Sumerians the subject, C makes the use of straws the subject, and D makes ancient Mesopotamia the subject. Those subjects cannot be modern inventions. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "6319f109",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the reply declarative",
+      "content": "After the question about the word's origin, the next sentence gives an interesting statement before adding where the word first appears. That statement should use normal subject-before-verb order and end with a period."
+    },
+    {
+      "title": "Match order and punctuation",
+      "content": "Choice B uses statement word order but ends with a question mark. Choice C and Choice D use question-style inversion but end with periods. The standard statement form with a period fits the context. The answer is <strong>A</strong>."
+    }
+  ]
+}

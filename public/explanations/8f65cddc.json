@@ -1,16 +1,15 @@
 {
   "questionId": "8f65cddc",
-  "qid": "8f65cddc",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Start with $\\frac{1}{5b}=\\frac{9x}{y}$. Cross-multiply: $y = 5b \\cdot 9x = 45bx$."
+      "title": "Clear the denominator with y",
+      "content": "Start with the given equation:\n$$\\frac{1}{5b}=\\frac{9x}{y}$$\nMultiply both sides by $y$:\n$$\\frac{y}{5b}=9x$$"
     },
     {
-      "title": "Step 2",
-      "content": "Divide both sides by $45b$: $x = \\frac{y}{45b}$."
+      "title": "Isolate x",
+      "content": "Divide both sides by $9$:\n$$\\frac{y}{45b}=x$$\nSo the equivalent equation is:\n$$x=\\frac{y}{45b}$$\nThe answer is <strong>C</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $x=\\frac{5by}{9}$</strong>: This would mean $\\frac{1}{5b}=\\frac{9 \\cdot 5by/9}{y}=5b$, giving $\\frac{1}{5b}=5b$, false in general. &#10007;</li><li><strong>Choice B &mdash; $x=y-45b$</strong>: Substituting back gives $\\frac{1}{5b}=\\frac{9(y-45b)}{y}$, which is not a valid identity. &#10007;</li><li><strong>Choice C &mdash; $x=\\frac{y}{45b}$</strong>: Substituting: $\\frac{9x}{y}=\\frac{9 \\cdot y/(45b)}{y}=\\frac{9}{45b}=\\frac{1}{5b}$. &#10003;</li><li><strong>Choice D &mdash; $x=45by$</strong>: Substituting: $\\frac{9 \\cdot 45by}{y}=405b \\neq \\frac{1}{5b}$ in general. &#10007;</li></ul>That confirms <strong>C</strong> is correct.",
-  "correctAnswer": "C"
+  ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the main idea of the passage. The decisive clue is the phrase &quot;not yet commercially viable as a large-scale energy source,&quot; which signals that the passage is about what still needs to happen before the technology can be widely used."
+      "title": "Find the technology gap",
+      "content": "The passage first defines artificial leaves as silicon-based solar cells that imitate photosynthesis by using catalysts to split water into hydrogen and oxygen gas. It then shifts to the main limitation: the technology is attracting interest, but it is not yet commercially viable as a large-scale energy source."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Continued research and development in artificial-leaf technology is needed before the devices can be widely used as an energy source.&rsquo;</strong>: This directly matches the passage's structure: the technology generates interest but is not yet viable, and scientists are researching improvements. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The recent increase in the commercial use of artificial leaves as an energy source has encouraged many scientists to research ways to improve the technology.&rsquo;</strong>: The passage says the opposite &mdash; artificial leaves are not yet commercially used; the research is a response to that gap, not to increased commercial deployment. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Artificial leaves split water molecules into oxygen and hydrogen gas using catalysts more efficiently than plants do using the process of photosynthesis.&rsquo;</strong>: The passage never compares the efficiency of artificial leaves to natural photosynthesis; this is an unsupported detail. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Artificial leaves were developed to mimic the natural process of photosynthesis in plants in order to store energy for long-term commercial use.&rsquo;</strong>: Mimicking photosynthesis is a background detail, not the main idea; the passage does not say long-term storage is the development goal. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Match the main idea",
+      "content": "<ul><li><strong>Choice A</strong>: This matches both halves of the passage. Artificial leaves are promising, but scientists still need to improve storage, transportation, distribution, cost, and efficiency before the devices can be widely used as an energy source.</li><li><strong>Choice B</strong>: This contradicts the passage because it says artificial leaves have recently increased in commercial use. The passage says the technology is not yet commercially viable.</li><li><strong>Choice C</strong>: This uses a detail about splitting water molecules, but the passage never says artificial leaves do this more efficiently than plants do.</li><li><strong>Choice D</strong>: This mentions the photosynthesis comparison, but it adds a goal of long-term commercial energy storage that the passage does not state.</li></ul>The answer is <strong>A</strong>."
     }
   ]
 }

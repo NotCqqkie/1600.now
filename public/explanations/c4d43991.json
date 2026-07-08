@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage establishes a clear pattern: Shang dynasty bronze artifacts contain a rare form of lead &mdash; bronze artifacts from <em>after</em> the Shang dynasty do not. The blank must state the most logical inference from that absence."
+      "title": "Track the lead pattern",
+      "content": "The passage says Shang dynasty bronze artifacts contain a rare form of lead, while bronze artifacts from after the Shang dynasty do not. That absence suggests the source of that lead-bearing raw material stopped being used after the Shang period."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A &mdash; Shang dynasty bronze pieces are rare and therefore more valuable than those from other time periods.</strong>: the passage never claims Shang pieces are more valuable; rarity of the lead type does not imply rarity or higher worth of the artifacts. &#10007;</li><li><strong>Choice B &mdash; the source of some of the raw materials used to make bronze was exploited only until the end of the Shang dynasty.</strong>: if the lead source stopped being used at the end of the Shang dynasty, later artifacts would naturally lack it &mdash; this directly matches the pattern. &#10003;</li><li><strong>Choice C &mdash; bronze was used for a short time during the Shang dynasty before different metals were used to make artifacts.</strong>: the passage explicitly mentions &ldquo;bronze artifacts from China dated after the Shang dynasty,&rdquo; so bronze continued to be used afterward. &#10007;</li><li><strong>Choice D &mdash; methods used to analyze bronze artifacts are not useful on pieces that are dated after the Shang dynasty.</strong>: the passage never discusses analytical methods; this is entirely unsupported. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject unsupported inferences",
+      "content": "Choice A adds value and rarity claims about Shang bronze pieces. Choice C contradicts the passage because bronze artifacts continued after the Shang dynasty. Choice D introduces analysis methods, which the passage never discusses. The logical inference is that a raw-material source was used only through the Shang dynasty. The answer is <strong>B</strong>."
     }
   ]
 }

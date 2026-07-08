@@ -1,0 +1,15 @@
+{
+  "questionId": "759c31bc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the discovery context",
+      "content": "The sentence says genetic research only recently did something to show maize's ancestor was teosinte grass. The needed verb must mean that research uncovered or made known a fact that had not been clearly identified before."
+    },
+    {
+      "title": "Reject verbs that cannot fit",
+      "content": "Choice A cannot logically take an ancestor as its object in this construction. Choice C would mean research encouraged the ancestor, which is nonsensical. Choice D refers to making a formal request, not discovering a scientific relationship. The answer is <strong>B</strong>."
+    }
+  ]
+}

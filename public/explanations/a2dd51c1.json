@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's core structure",
-      "content": "The passage moves from a general problem (building demolition waste) through Portland's specific response (a law requiring deconstruction) to concrete results (a 2019 study showing 27% of materials reused, the rest recycled). The purpose centers on this effort and its outcomes."
+      "title": "Trace problem and response",
+      "content": "The text begins with demolition waste, then explains Portland's response: requiring some buildings to be deconstructed so materials can be reused. It ends with results from a 2019 study."
     },
     {
-      "title": "Apply the structure to find the main purpose",
-      "content": "The correct answer matches: it captures both the effort (Portland's law requiring deconstruction) and the tangible results (27% reused, rest recycled).<br/><br/>Those choices, and D all introduce elements absent from the passage—public support trends, claims that deconstruction is ineffective, and comparisons to other cities—so none of them aligns with what the text actually conveys.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject absent claims",
+      "content": "B invents public support trends, C claims deconstruction is ineffective, and D invents comparisons with other cities. The passage explains Portland's effort to reduce demolition waste and reports reuse and recycling outcomes. The answer is <strong>A</strong>."
     }
   ]
 }

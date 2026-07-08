@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the line of best fit",
-      "content": "The question asks for the predicted temperature at $4{,}000$ feet, so use the line of best fit, not an individual data point."
+      "title": "Use the best-fit line",
+      "content": "The question asks for the temperature predicted by the line of best fit, so read the $y$-value on the line when the distance is $4{,}000$ feet."
     },
     {
-      "title": "Find the y-value",
-      "content": "At $x=4{,}000$, the line of best fit is at about $35^\\circ\\text{F}$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is $35$, so <strong>B</strong> is correct."
+      "title": "Read the predicted value",
+      "content": "At $x=4{,}000$, the line of best fit has a temperature of about $35^\\circ\\text{F}$. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "The plausible range is the estimate &plusmn; the margin of error: 66% &plusmn; 2.91%."
+      "title": "Subtract the margin",
+      "content": "Lower bound:<br/>$$66\\%-2.91\\%=63.09\\%$$"
     },
     {
-      "title": "Solve",
-      "content": "Lower bound: 66 &minus; 2.91 = 63.09%<br/>Upper bound: 66 + 2.91 = 68.91%"
-    },
-    {
-      "title": "Answer",
-      "content": "<strong>A</strong> is correct."
+      "title": "Add the margin",
+      "content": "Upper bound:<br/>$$66\\%+2.91\\%=68.91\\%$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

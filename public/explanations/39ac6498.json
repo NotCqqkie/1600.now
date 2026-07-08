@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence type",
-      "content": "&quot;What are atmospheric rivers, and how ___&quot; is a direct question with two coordinated interrogative clauses joined by &quot;and.&quot; A direct question must end with a question mark."
+      "title": "Recognize the direct question",
+      "content": "The sentence begins with a direct question: \"What are atmospheric rivers, and how ___\". Both coordinated parts ask a question, so the sentence must end with a question mark."
     },
     {
-      "title": "Apply question word order",
-      "content": "A direct <em>wh-question</em> requires subject-auxiliary inversion: the auxiliary &quot;do&quot; comes before the subject &quot;they&quot; (&quot;how do they affect&quot;), not after it (&quot;how they do affect,&quot; which is statement order)."
+      "title": "Use direct-question word order",
+      "content": "A direct how question uses subject-auxiliary inversion: the auxiliary comes before the subject. The needed order is do before they, not they before do."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — do they affect our weather.</strong>: violates end-punctuation rule &mdash; a direct question needs a question mark, not a period. &#10007;</li><li><strong>Choice B — they do affect our weather.</strong>: violates both rules &mdash; statement word order in a question, plus a period instead of a question mark. &#10007;</li><li><strong>Choice C — do they affect our weather?</strong>: correct subject-auxiliary inversion and a question mark to close the direct question. &#10003;</li><li><strong>Choice D — they do affect our weather?</strong>: violates word-order rule &mdash; statement order (subject before auxiliary) does not form a direct question. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject punctuation and order errors",
+      "content": "<ul><li><strong>Choice A</strong>: The word order is fine, but the period cannot close a direct question.</li><li><strong>Choice B</strong>: It has statement word order and a period.</li><li><strong>Choice D</strong>: It uses statement word order even though the sentence is a direct question.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

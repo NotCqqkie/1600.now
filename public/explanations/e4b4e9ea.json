@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use base area times height",
-      "content": "For a right square prism, $V=s^2h$. The square base has edge length $8$, so its area is $8^2=64$ square units."
+      "title": "Find the base area",
+      "content": "The base is a square with edge length $8$, so its area is\n$$\n8^2=64\n$$"
     },
     {
-      "title": "Set up the volume formula for a right prism",
-      "content": "For any prism, Volume = Base Area × Height. The base is a square with edge length 8, so:\n$$\\text{Base Area} = 8^2 = 64 \\text{ square units}$$\nSubstituting into the volume formula:\n$$4480 = 64 \\times h$$"
-    },
-    {
-      "title": "Solve for height",
-      "content": "Divide both sides by 64:\n$$h = \\frac{4480}{64} = 70 \\text{ units}$$\nThat matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use the volume",
+      "content": "For a right square prism, volume equals base area times height:\n$$\n4{,}480=64h\n$$\nDivide by $64$:\n$$\nh=70\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

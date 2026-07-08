@@ -1,0 +1,15 @@
+{
+  "questionId": "100bdefb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use claim plus support",
+      "content": "The student needs to make and support a claim about when humans arrived in North America. The notes say the Clovis arrived about 13,000 years ago, but stone tools from Silver Creek Cave date to about 17,500 years ago, and more than a dozen sites contain pre-Clovis items."
+    },
+    {
+      "title": "Check the incomplete choices",
+      "content": "Choice B makes the claim but does not give the supporting evidence from the sites. Choice C only reports the Clovis First hypothesis. Choice D mentions the Silver Creek tools but does not clearly state the claim about humans arriving before the Clovis. The remaining choice gives the 13,000-year date and uses the pre-Clovis sites as support. The answer is <strong>A</strong>."
+    }
+  ]
+}

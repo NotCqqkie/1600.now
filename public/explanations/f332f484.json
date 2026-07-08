@@ -1,0 +1,25 @@
+{
+  "questionId": "f332f484",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Look for matching slopes",
+      "content": "An equation has no solution when the two sides have the same $x$-coefficient but different constants. That creates parallel, distinct lines.",
+      "desmosExpressions": [
+        "y=-13x-\\frac{1}{9}",
+        "y=-13x+\\frac{1}{9}",
+        "y=13x-\\frac{1}{9}",
+        "y=13x+\\frac{1}{9}"
+      ]
+    },
+    {
+      "title": "Find the contradiction",
+      "content": "The equation<br/>$$-13x-\\frac{1}{9}=-13x+\\frac{1}{9}$$<br/>has the same $x$-term on both sides. Subtracting $-13x$ leaves<br/>$$-\\frac{1}{9}=\\frac{1}{9}$$<br/>which is impossible."
+    },
+    {
+      "title": "Choose the no-solution equation",
+      "content": "The impossible statement means that equation has no solution. The answer is <strong>B</strong>."
+    }
+  ]
+}

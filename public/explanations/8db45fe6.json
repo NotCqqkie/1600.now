@@ -1,0 +1,19 @@
+{
+  "questionId": "8db45fe6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the comparison",
+      "content": "The underlined phrase begins with <em>much like</em>, so it is making a comparison. It compares the colored filters placed over the mantises' eyes to the filters in familiar 3D movie glasses, helping readers picture the experimental setup."
+    },
+    {
+      "title": "Reject other functions",
+      "content": "Choice B says the phrase emphasizes a difference between mantis research and other animal-vision research, but the phrase compares filter devices. Choice C treats the phrase as a history of a research tool. Choice D says it identifies a problem, though the text presents no methodological problem there."
+    },
+    {
+      "title": "Choose the clarifying role",
+      "content": "The phrase functions as an analogy for understanding the praying mantis study. It explains the unfamiliar setup by linking it to a familiar visual device rather than adding a contrast, a tool history, or a research obstacle. The answer is <strong>A</strong>."
+    }
+  ]
+}

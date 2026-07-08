@@ -1,0 +1,15 @@
+{
+  "questionId": "ab410a89",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the lower bound",
+      "content": "The expression $2^x$ is always positive, but it can get arbitrarily close to $0$."
+    },
+    {
+      "title": "Apply the bound",
+      "content": "Since $2^x$ can approach $0$, the values of $g(x)$ can approach<br/>$$\\frac{1}{13}(6\\cdot0+5)=\\frac{5}{13}$$<br/>but never reach or go below it. The answer is <strong>B</strong>."
+    }
+  ]
+}

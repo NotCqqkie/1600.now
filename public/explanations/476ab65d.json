@@ -1,0 +1,15 @@
+{
+  "questionId": "476ab65d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage sequence",
+      "content": "The text begins with a common conservation claim: protected areas are widely thought to hinder economic development because they restrict some kinds of economic activity. It then explains why that perception may persist, noting that economic assessments often miss indirect effects of tourism linked to protected areas. The final sentence shifts to Narayan and colleagues' finding about the Mamanuca Islands, where tourism connected to the protected area increased demand in other sectors and boosted nearby retail income."
+    },
+    {
+      "title": "Reject false structures",
+      "content": "Choice A says the passage summarizes several studies supporting the common belief and then treats one protected area as an exception, but the text does not present several supporting studies. Choice C invents a broad goal of reconciling conservation and economic priorities. Choice D claims one team's findings support a negative-impact hypothesis and another team's method changes the conclusion, which is not the sequence. The actual structure is belief, reason for the belief, then a study whose finding conflicts with it. The answer is <strong>B</strong>."
+    }
+  ]
+}

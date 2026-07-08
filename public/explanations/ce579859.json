@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret 125% more as a growth factor",
-      "content": "If the population increases by 125%, the new population equals the old population plus 125% of the old population.<br/><br/>If there are $N$ rabbits, the new count is $N + 1.25N = 2.25N$.<br/><br/>Therefore, each year the population is multiplied by a factor of 2.25, which gives an exponential model: $n = a(2.25)^t$, where $a$ is the population when $t = 0$ (end of 2016)."
+      "title": "Convert the percent increase",
+      "content": "$125\\%$ more than a value means the new value is the original plus $125\\%$ of the original:\n$$\n1+1.25=2.25\n$$\nSo the yearly growth factor is $2.25$."
     },
     {
-      "title": "Use the given data point to find the initial value",
-      "content": "The end of 2017 is $t = 1$ year after the end of 2016. We are told that $n = 180$ at this time. Substituting into our model:<br/>$$180 = a(2.25)^1$$<br/>$$180 = 2.25a$$<br/>$$a = \\frac{180}{2.25} = 80$$"
+      "title": "Find the starting value",
+      "content": "Let $a$ be the estimated number of rabbits at the end of $2016$. Since the end of $2017$ is $t=1$, use $n=180$:\n$$\n180=a(2.25)^1\n$$\n$$\n180=2.25a\n$$\n$$\na=80\n$$"
     },
     {
-      "title": "Write and identify the equation",
-      "content": "With $a = 80$, the equation becomes $n = 80(2.25)^t$. That matches <strong>choice B</strong>, so <strong>B</strong> is correct."
+      "title": "Write the model",
+      "content": "Use starting value $80$ and growth factor $2.25$:\n$$\nn=80(2.25)^t\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

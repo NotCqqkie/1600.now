@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the underlined portion does",
-      "content": "The underlined sentence describes Oliveira and colleagues as <strong>capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight</strong>.<br/><br/>This is evaluative — it tells us why their approach (using historical DNA from museum specimens) <em>matters</em>."
+      "title": "Identify the evaluative language",
+      "content": "The underlined portion says Oliveira and colleagues capitalized on the research potential of a vast but underused source of insight. That comments on why their use of historical DNA matters."
     },
     {
-      "title": "Match the choice",
-      "content": "<strong>Choice B &mdash; &lsquo;It offers commentary on the significance of the approach that Oliveira and colleagues used for their study.&rsquo;</strong> says it <em>offers commentary on the significance</em> of their approach — exactly what an evaluation of an underutilized resource is.<br/><br/>A is wrong: it doesn't list specific applications. C is wrong: it focuses on the methodology, not the findings. D is wrong: it celebrates the approach rather than explaining why it isn't used.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject unsupported functions",
+      "content": "Choice A says the portion lists applications, but it does not. Choice C shifts to the study's findings about flora. Choice D says it explains why the method is not widely used, which is not the point."
+    },
+    {
+      "title": "State the function",
+      "content": "The underlined portion evaluates the significance of the study's approach by describing historical DNA as a valuable, underused source. The answer is <strong>B</strong>."
     }
   ]
 }

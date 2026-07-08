@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures",
-      "content": "Before the blank: “This idea is known as the service recovery ______” is an independent clause (subject <strong>idea</strong>, verb <strong>is known</strong>).<br/>After the blank: “research suggests that it has important implications for customer loyalty and retention” is an independent clause (subject <strong>research</strong>, verb <strong>suggests</strong>)."
+      "title": "Join two clauses",
+      "content": "The sentence has two independent clauses: <em>This idea is known as the service recovery paradox</em> and <em>research suggests that it has important implications</em>. Standard punctuation requires a period, semicolon, or comma plus coordinating conjunction."
     },
     {
-      "title": "Apply the rule for joining independent clauses",
-      "content": "When two independent clauses need to be joined, the rule requires either a period, a semicolon, or a comma plus a coordinating conjunction.<br/><br/>Choice C (<strong>paradox, and</strong>) applies the comma-plus-conjunction pattern correctly.<br/><br/>Those choices violate the rule—A creates a comma splice by omitting the conjunction, B creates a fused sentence by omitting both punctuation and conjunction—while D violates it by placing the comma after the conjunction instead of before.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject faulty joins",
+      "content": "A creates a comma splice, B creates a fused sentence, and D places the comma after the conjunction instead of before it. The comma-plus-<em>and</em> pattern is the correct join. The answer is <strong>C</strong>."
     }
   ]
 }

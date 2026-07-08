@@ -9,7 +9,7 @@
     },
     {
       "title": "Interpret the base",
-      "content": "Each interval, the balance is multiplied by $1.005$ — a $0.5\\%$ increase from the previous interval's balance.<br/><br/>So at the end of every 4-month interval, the balance grows by about $0.5\\%$ of the balance at the start of that interval. That matches the correct answer — <strong>B</strong> is correct."
+      "content": "Each interval, the balance is multiplied by $1.005$ — a $0.5\\%$ increase from the previous interval's balance.<br/><br/>So at the end of every 4-month interval, the balance grows by about $0.5\\%$ of the balance at the start of that interval. That matches the correct answer."
     }
   ]
 }

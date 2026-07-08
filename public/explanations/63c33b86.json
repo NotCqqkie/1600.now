@@ -1,0 +1,23 @@
+{
+  "questionId": "63c33b86",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support the comparison",
+      "content": "The passage claims that peaking hydroelectric plants can generate more megawatt-hours of power per year than some run-of-river plants, even though peaking plants do not typically operate continuously. The blank must complete the example by using the table's mode and average annual power generation columns to compare a peaking plant with run-of-river plants."
+    },
+    {
+      "title": "Use the relevant values",
+      "content": "The table shows that Great Falls is a peaking plant with average annual power generation of 124,392 MWh/yr. The two run-of-river plants listed are Scanlon, at 7,511 MWh/yr, and Kansas River, at 15,345 MWh/yr. Great Falls therefore generates more average annual power than both run-of-river plants in the table."
+    },
+    {
+      "title": "Eliminate mismatches",
+      "content": "<ul><li><strong>Choice B</strong> refers to generator counts, but the table gives no generator-count data.</li><li><strong>Choice C</strong> says the top run-of-river plant exceeds the top peaking plant, which contradicts the table.</li><li><strong>Choice D</strong> compares two run-of-river plants, so it does not support a peaking-versus-run-of-river claim.</li></ul>"
+    },
+    {
+      "title": "Choose the direct example",
+      "content": "<strong>Choice A</strong> directly states that Great Falls generates more average annual power than any run-of-river plant in the table. That is exactly the example needed to support the passage's claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

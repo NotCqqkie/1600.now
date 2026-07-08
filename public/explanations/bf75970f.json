@@ -1,0 +1,15 @@
+{
+  "questionId": "bf75970f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Capture the spike-wave finding",
+      "content": "The passage explains that traveling waves have a height constraint because they break when steepness passes a critical threshold. Caldwell and colleagues used a circular wave tank to study spike waves, which can erupt vertically when opposing traveling waves intersect. They found that spike waves can exceed the usual traveling-wave constraint."
+    },
+    {
+      "title": "Avoid overstating wave behavior",
+      "content": "Choice A makes a broad claim that spike waves tend to be higher than traveling waves. Choice B wrongly says spike waves exceed limits when steepness reaches the same threshold, even though other factors mediate spike-wave breaking. Choice D shifts the finding back to traveling waves. The main idea is that intersecting waves can produce unexpectedly high spike waves. The answer is <strong>C</strong>."
+    }
+  ]
+}

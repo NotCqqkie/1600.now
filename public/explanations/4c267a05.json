@@ -1,0 +1,15 @@
+{
+  "questionId": "4c267a05",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two predictions",
+      "content": "Political scientists expected campaign ads to reduce knowledge gaps. Cognitive scientists expected people with more existing political knowledge to learn more easily. The graph shows high-knowledge participants improved after ads, while low-knowledge participants did not meaningfully improve."
+    },
+    {
+      "title": "Connect the widened gap",
+      "content": "Choice A says the result supports political scientists, but the gap widened. Choice C denies the cognitive phenomenon, though high-knowledge participants benefited more. Choice D says political scientists' prediction occurred, which it did not. The remaining choice states the contrary effect. The answer is <strong>B</strong>."
+    }
+  ]
+}

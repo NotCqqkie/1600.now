@@ -1,0 +1,19 @@
+{
+  "questionId": "642b4906",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the area equation",
+      "content": "The total area is $72R$. If the width is $W$, then the length is $4.5W$, so\n$$\n4.5W^2=72R\n$$"
+    },
+    {
+      "title": "Substitute the width",
+      "content": "The width is $X\\sqrt{R}$. Substitute that expression for $W$.\n$$\n4.5(X\\sqrt{R})^2=72R\n$$\n$$\n4.5X^2R=72R\n$$"
+    },
+    {
+      "title": "Solve for the factor",
+      "content": "Divide both sides by $R$, then use the positive value because a width is positive.\n$$\n4.5X^2=72\n$$\n$$\nX^2=16\n$$\n$$\nX=4\n$$\nThe answer is <strong>4</strong>."
+    }
+  ]
+}

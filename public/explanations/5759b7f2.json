@@ -1,0 +1,15 @@
+{
+  "questionId": "5759b7f2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Describe the requested color",
+      "content": "The question asks for the color popular at 2021 London Fashion Week. The notes identify that color as stirring ocean blue and describe it as cool in tone and bright in intensity."
+    },
+    {
+      "title": "Avoid unrelated framing",
+      "content": "Choice A discusses both Fashion Week colors. Choice B gives a general fact about trend reports. Choice C frames the color mainly as a contrast with 2018 New York Fashion Week. The remaining choice gives the requested year, location, color, and description directly. The answer is <strong>D</strong>."
+    }
+  ]
+}

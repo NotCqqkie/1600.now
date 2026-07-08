@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the absolute-value equation",
-      "content": "Graph the two sides of the equation:<br/>$$y=|-5x+13|$$<br/>$$y=73$$<br/>The intersection points give the two solutions to $|-5x+13|=73$.",
+      "title": "Graph both sides",
+      "content": "Graph the absolute-value expression and the horizontal line. The intersection points give the solutions to the equation.",
       "desmosExpressions": [
         "y=|-5x+13|",
         "y=73"
       ]
     },
     {
-      "title": "Read the two x-values",
-      "content": "The graphs intersect at $x=-12$ and $x=\\frac{86}{5}$. Those are the only two solutions because an absolute-value graph can cross a horizontal line at most twice."
+      "title": "Find both solutions",
+      "content": "The equation $|-5x+13|=73$ means the inside expression can equal $73$ or $-73$.<br/>$$-5x+13=73$$<br/>$$x=-12$$<br/>$$-5x+13=-73$$<br/>$$x=\\frac{86}{5}$$"
     },
     {
       "title": "Add the solutions",
-      "content": "The question asks for the sum, not either individual solution:<br/>$$-12+\\frac{86}{5}=\\frac{-60+86}{5}=\\frac{26}{5}$$<br/>This matches, so <strong>D</strong> is correct."
+      "content": "The question asks for the sum of the two solutions.<br/>$$-12+\\frac{86}{5}=\\frac{-60+86}{5}=\\frac{26}{5}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

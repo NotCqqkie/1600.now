@@ -1,0 +1,19 @@
+{
+  "questionId": "f070c084",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Label the integers",
+      "content": "The first integer is $x$, so the second integer is $x+1$ and the third integer is $x+2$."
+    },
+    {
+      "title": "Translate the comparison",
+      "content": "The sum of $6$ and the second integer is $6+(x+1)$. The product of $19$ and the third integer is $19(x+2)$."
+    },
+    {
+      "title": "Use less than",
+      "content": "The phrase \"is less than\" means the first expression is less than the second.<br/>$$6+(x+1)<19(x+2)$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

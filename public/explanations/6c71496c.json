@@ -1,0 +1,15 @@
+{
+  "questionId": "6c71496c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the area factors",
+      "content": "The area of a rectangle is length times width. The given area model is:\n\\[\ny=(87w)(w)\n\\]\nOne factor is \\(w\\), which represents the width in feet."
+    },
+    {
+      "title": "Interpret the other factor",
+      "content": "The rectangle's length is \\(87\\) times its width, so if the width is \\(w\\), the length is:\n\\[\n87w\n\\]\nThat means \\(87w\\) is not the area, not the width, and not the difference between the length and width. It represents the length of the rectangle, in feet. The answer is <strong>A</strong>."
+    }
+  ]
+}

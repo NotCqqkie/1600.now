@@ -1,0 +1,19 @@
+{
+  "questionId": "4f572e0d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify like terms",
+      "content": "The terms $16x^2$ and $6x^2$ are like terms because they have the same variable part, $x^2$. The constant $5$ has no like term and stays separate."
+    },
+    {
+      "title": "Combine the coefficients",
+      "content": "Add only the coefficients of the $x^2$ terms; the exponent stays $2$:<br/>$$16x^2+6x^2=22x^2$$<br/>So the equivalent expression is<br/>$$22x^2+5$$"
+    },
+    {
+      "title": "Match the expression",
+      "content": "Choice A changes the exponent to $4$, and choices C and D also miss the constant term. Choice B matches $22x^2+5$. The answer is <strong>B</strong>."
+    }
+  ]
+}

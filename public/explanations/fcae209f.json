@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the mechanism of fungal spread",
-      "content": "The text states the fungus &ldquo;can spread from tree to <em>nearby</em> tree through the air.&rdquo; Proximity is the key: the fungus can only reach trees close enough for airborne transmission. The surviving Nacionals were in &ldquo;a hard-to-reach valley,&rdquo; signaling geographic isolation. Any explanation for their survival must connect isolation to the proximity-dependent spread.<ul><li><strong>\"early twentieth-century scientists did not know why so many Nacionals were becoming infected.\"</strong>: Scientists&rsquo; ignorance of the disease does not explain how physically isolated trees avoided infection. &#10007;</li><li><strong>\"the ability of the fungus to travel through the air was only recently discovered.\"</strong>: When the airborne ability was <em>discovered</em> is irrelevant to whether the fungus physically reached trees in a remote valley in the past. &#10007;</li><li><strong>\"they were too far from the other Nacional trees infected by the fungus to become infected themselves.\"</strong>: Distance prevented the airborne fungus from bridging the gap to these trees &mdash; a direct consequence of the &ldquo;nearby tree&rdquo; spread mechanism. &#10003;</li><li><strong>\"the chocolate made from their pods was highly valued.\"</strong>: The value of chocolate is an economic fact unrelated to how the fungus spreads or why these trees were spared. &#10007;</li></ul>"
+      "title": "Use the spread mechanism",
+      "content": "The fungus spreads from tree to nearby tree through the air. The surviving Nacional trees were found in a hard-to-reach valley, suggesting they were geographically isolated from infected trees."
     },
     {
-      "title": "Confirm the correct choice",
-      "content": "Because the fungus spreads only to nearby trees, being geographically isolated in a remote valley is exactly what would have prevented infection. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Connect distance to survival",
+      "content": "Choice A concerns scientists’ knowledge, not the trees’ survival. Choice B concerns when a fact was discovered, not whether the fungus could reach the valley. Choice D is about chocolate value, not disease spread. Distance from infected trees explains why the fungus may not have reached them. The answer is <strong>C</strong>."
     }
   ]
 }

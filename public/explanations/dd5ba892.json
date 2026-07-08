@@ -1,0 +1,19 @@
+{
+  "questionId": "dd5ba892",
+  "correctAnswer": "36",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the relationships",
+      "content": "The first relationship gives:<br/>$$0.42h=0.54j$$The second gives:<br/>$$j=0.28k$$"
+    },
+    {
+      "title": "Write h in terms of k",
+      "content": "Solve the first equation for $h$, then substitute $j=0.28k$:<br/>$$h=\\frac{0.54}{0.42}j$$<br/>$$h=\\frac{0.54}{0.42}(0.28k)$$<br/>$$h=0.36k$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "Since $h=0.36k$, $h$ is $36\\%$ of $k$. The answer is <strong>36</strong>."
+    }
+  ]
+}

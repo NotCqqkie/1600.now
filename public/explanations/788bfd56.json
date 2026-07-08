@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute into the function",
-      "content": "The function is $f(x)=7+\\sqrt{x}$, so $f(169)$ means replace $x$ with $169$: $$f(169)=7+\\sqrt{169}.$$"
+      "title": "Substitute the input",
+      "content": "To find $f(169)$, replace $x$ with $169$ in the function rule.\n$$f(169)=7+\\sqrt{169}$$"
     },
     {
-      "title": "Evaluate the square root",
-      "content": "The principal square root of $169$ is $13$. Therefore, $$f(169)=7+13=20.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>B</strong> is correct. The common trap is to mishandle the square root or evaluate the function at a different input; this question only asks for the value when $x=169$."
+      "title": "Evaluate the radical",
+      "content": "The principal square root of $169$ is $13$, so the function value is\n$$7+13=20$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the equation as a list",
-      "content": "All choices use $x=0$, $1$, and $2$. Evaluate $x+4$ at those inputs: $$0+4=4,\\quad 1+4=5,\\quad 2+4=6$$ The output row is $[4,5,6]$."
+      "title": "Evaluate the given inputs",
+      "content": "The tables use $x=0$, $x=1$, and $x=2$. Substitute each value into $y=x+4$.<br/>$$0+4=4$$<br/>$$1+4=5$$<br/>$$2+4=6$$"
     },
     {
-      "title": "Match the table",
-      "content": "The correct answer is exactly the output list $[4,5,6]$. The output list $[6,5,4]$ is reversed, $[2,1,0]$ is too low, and $[0,1,2]$ gives the input values instead of the outputs. Therefore <strong>A</strong> is correct.",
+      "title": "Calculator shortcut",
+      "content": "The matching output values are $4$, $5$, and $6$ for inputs $0$, $1$, and $2$. The table with those corresponding values is the correct one. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "x_1=[0,1,2]",
         "a_1=[4,5,6]",

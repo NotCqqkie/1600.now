@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the underlined word must mean",
-      "content": "The text uses the word &quot;spread&quot; to describe the zoo: it was &quot;spread over numberless acres.&quot; The question asks what &quot;spread&quot; most nearly means in this context. The zoo's vast physical area and the detail that it required a train to explore it signal that &quot;spread&quot; describes extent across space."
+      "title": "Use the size context",
+      "content": "The zoo is described as huge, spread over numberless acres, and large enough to require a train to explore. In this context, \"spread\" describes physical extent across a large area."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each choice as a substitute for &quot;spread&quot;:<ul><li><strong>Choice A &mdash; Hidden</strong>: means concealed &mdash; the zoo is described as large and explorable, not concealed; this contradicts the context. &#10007;</li><li><strong>Choice B &mdash; Discussed</strong>: means talked about &mdash; a zoo cannot be &quot;discussed over numberless acres&quot;; this is not a spatial meaning at all. &#10007;</li><li><strong>Choice C &mdash; Extended</strong>: means stretched or distributed across an area &mdash; the zoo extended over numberless acres, matching the sense of vast physical coverage. &#10003;</li><li><strong>Choice D &mdash; Coated</strong>: means covered with a surface layer &mdash; a zoo is not &quot;coated&quot; over acres; this word applies to surfaces, not spatial distribution. &#10007;</li></ul>That matches <strong>Choice C &mdash; Extended</strong>."
+      "title": "Match the spatial meaning",
+      "content": "Choice A means concealed, which does not fit a huge zoo. Choice B means talked about, which is not spatial. Choice D means covered with a surface layer, which does not fit a zoo occupying acres. The context requires a word meaning stretched out over space. The answer is <strong>C</strong>."
     }
   ]
 }

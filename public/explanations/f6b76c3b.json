@@ -1,0 +1,15 @@
+{
+  "questionId": "f6b76c3b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move terms to one side",
+      "content": "Subtract $2{,}740x$ from both sides.<br/>$$2{,}740x=5{,}480x$$<br/>$$0=2{,}740x$$"
+    },
+    {
+      "title": "Count the solution",
+      "content": "Divide by $2{,}740$ to get $x=0$. One value satisfies the equation, so there is exactly one solution. The answer is <strong>B</strong>."
+    }
+  ]
+}

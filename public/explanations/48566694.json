@@ -1,0 +1,19 @@
+{
+  "questionId": "48566694",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the actual side distance",
+      "content": "On the original map, $1$ inch represents $18$ miles and the side length is $40$ inches. The actual distance represented by one side is\n$$\n40\\cdot 18=720\n$$\nmiles."
+    },
+    {
+      "title": "Find the smaller side length",
+      "content": "The smaller map is $60\\%$ shorter, so it keeps $40\\%$ of the original side length:\n$$\n0.40\\cdot 40=16\n$$\ninches."
+    },
+    {
+      "title": "Compute the new scale",
+      "content": "The same $720$ miles are represented by $16$ inches, so each inch represents\n$$\n\\frac{720}{16}=45\n$$\nmiles. The answer is <strong>D</strong>."
+    }
+  ]
+}

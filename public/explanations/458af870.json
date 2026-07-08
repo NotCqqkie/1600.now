@@ -1,0 +1,15 @@
+{
+  "questionId": "458af870",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the pattern",
+      "content": "Inside the parentheses, $x^2-144y^2$ is a difference of squares because $144y^2=(12y)^2$. This means the two factors must use the same two terms with opposite signs, so the middle terms cancel when expanded. The outside factor of $18$ stays attached after the inside expression is factored."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "Use $a^2-b^2=(a-b)(a+b)$ with $a=x$ and $b=12y$, then keep the outside factor of $18$.<br/>$$18(x^2-144y^2)=18(x^2-(12y)^2)$$<br/>$$18(x^2-144y^2)=18(x-12y)(x+12y)$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

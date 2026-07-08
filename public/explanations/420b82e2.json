@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the evolutionary signal",
-      "content": "The strongest clue is that the appendix <em>“hasn't disappeared”</em> despite being thought useless.<br/><br/>Evolution only preserves traits that benefit survival. The passage reveals the appendix's likely benefit: species with it have higher lymphoid tissue—tissue that supports immune responses.<br/><br/>Together, these facts signal that the appendix benefits the immune system."
+      "title": "Connect persistence to function",
+      "content": "The appendix has emerged independently in multiple mammal lineages and has not disappeared after emerging. The team also found that species with an appendix tend to have more lymphoid tissue, which supports immune responses."
     },
     {
-      "title": "Match the signal to the answer",
-      "content": "B directly states this conclusion: the appendix is preserved because it benefits the immune system.<br/><br/>The other choices either address the wrong scope (<ul><li>C predicts future emergence</li><li>D reverses causality</li><li>A invokes nonmammals not in the passage)</li></ul>.<br/><br/><strong>B</strong> is correct."
+      "title": "Infer the likely benefit",
+      "content": "Choice A shifts to nonmammals, Choice C predicts future emergence, and Choice D compares past and present tissue levels without support. The evidence supports the idea that the appendix persists in certain mammals because it benefits immune systems. The answer is <strong>B</strong>."
     }
   ]
 }

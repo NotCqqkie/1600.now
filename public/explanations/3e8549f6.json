@@ -1,0 +1,19 @@
+{
+  "questionId": "3e8549f6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb slot",
+      "content": "The clause \"they ______ valuable items\" needs a finite main verb. The previous sentence uses simple past with \"exported,\" so the exchange action should also be in simple past."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "A is an infinitive, C is a participle, and D is a perfect participial phrase. None can serve as the main verb of the independent clause."
+    },
+    {
+      "title": "Match the past action",
+      "content": "Obtained is a finite simple-past verb that completes the clause and matches \"exported.\" The answer is <strong>B</strong>."
+    }
+  ]
+}

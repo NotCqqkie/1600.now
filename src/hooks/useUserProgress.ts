@@ -14,6 +14,7 @@ import {
   saveQuestionUiStateMap,
   type QuestionUiStateMap,
 } from '@/lib/practice/questionUiState';
+import { resolvePastStableId } from '@/data/pastIdAliases';
 import type { CustomPracticeSet } from '@/lib/practice/customPracticeSets';
 
 const PROGRESS_KEY_PREFIX = 'userProgress:';
@@ -113,9 +114,31 @@ if (typeof window !== 'undefined') migrateLegacyKeysOnce();
 
 const readProgressFor = (uid: string | null | undefined): Record<string, QuestionProgress> => {
   if (typeof window === 'undefined') return {};
+  const key = progressStorageKey(uid);
   try {
-    const raw = localStorage.getItem(progressStorageKey(uid));
-    return raw ? JSON.parse(raw) : {};
+    const raw = localStorage.getItem(key);
+    const parsed = raw ? JSON.parse(raw) : {};
+    let changed = false;
+    const normalized: Record<string, QuestionProgress> = {};
+    for (const [questionId, progress] of Object.entries(parsed) as Array<[string, QuestionProgress]>) {
+      const canonicalId = resolvePastStableId(questionId);
+      const current = normalized[canonicalId];
+      const nextProgress = { ...progress, questionId: canonicalId };
+      normalized[canonicalId] = current
+        ? {
+            questionId: canonicalId,
+            isMarkedForReview: current.isMarkedForReview || nextProgress.isMarkedForReview,
+            attempts: [...(current.attempts ?? []), ...(nextProgress.attempts ?? [])],
+            totalTimeSpentSeconds: Math.max(
+              current.totalTimeSpentSeconds ?? 0,
+              nextProgress.totalTimeSpentSeconds ?? 0,
+            ),
+          }
+        : nextProgress;
+      changed ||= canonicalId !== questionId;
+    }
+    if (changed) localStorage.setItem(key, JSON.stringify(normalized));
+    return normalized;
   } catch (error) {
     console.error('Failed to parse user progress:', error);
     return {};

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical gap the question exploits",
-      "content": "The passage states that historians of capitalism rely on archival records, which do not exist for much of precolonial Africa. Yet Duarte and other Africanist scholars have demonstrated that capitalism did exist in precolonial Africa. If the standard evidence base is unavailable, those scholars must have used something else.<br/><br/>Now check each choice against that inference:<br/><ul><li><strong>Choice A — They likely make use of different types of evidence than historians of capitalism typically rely on.</strong>: Since archival records don't exist for precolonial Africa, Duarte must have drawn on non-archival sources. This follows directly from the passage. &#10003;</li><li><strong>Choice B — They likely differ from historians of capitalism in the methods they use to derive longitudinal economic data from archival records.</strong>: The passage says those archival records simply do not exist for precolonial Africa, so Duarte could not have used them by any method. Contradicts the passage. &#10007;</li><li><strong>Choice C — They likely have a different view about which activities should be considered capitalist in nature than historians of capitalism do.</strong>: The text treats &quot;returns-focused investment&quot; and &quot;open markets for wage labor&quot; as uncontested features of capitalism. No definitional disagreement is mentioned. &#10007;</li><li><strong>Choice D — They likely view capitalism as having been more beneficial for Africa than historians of capitalism do.</strong>: The passage discusses the existence of capitalism, not its effects or benefits. No evaluative comparison is made. &#10007;</li></ul>"
+      "title": "Use the evidence gap",
+      "content": "The passage says many historians of capitalism rely on longitudinal economic data from archival records. It also says those records do not exist for much of precolonial Africa. Duarte and other Africanist scholars still show that capitalist features existed there before colonization, so the supported inference is that they likely draw on evidence outside the archival data usually favored by those historians."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only the matching choice is logically supported: Duarte's findings about precolonial Africa require evidence beyond the archival records that other historians depend on. <strong>A</strong> is correct."
+      "title": "Reject unsupported differences",
+      "content": "Choice A - They likely make use of different types of evidence than historians of capitalism typically rely on follows from the missing archival record base. Choice B - They likely differ from historians of capitalism in the methods they use to derive longitudinal economic data from archival records still depends on records the passage says largely do not exist. Choice C - They likely have a different view about which activities should be considered capitalist in nature invents a definitional dispute. Choice D - They likely view capitalism as having been more beneficial for Africa than historians of capitalism do shifts to benefits, which the passage does not discuss. The answer is <strong>A</strong>."
     }
   ]
 }

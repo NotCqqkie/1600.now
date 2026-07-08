@@ -1,0 +1,15 @@
+{
+  "questionId": "f61ebb4d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the dash aside",
+      "content": "The sentence opens a parenthetical aside with an em dash before 'assuming.' That aside must close before the main clause 'this practice has the potential' can resume."
+    },
+    {
+      "title": "Match the paired punctuation",
+      "content": "A leaves the aside unclosed. B uses a colon, and D uses a comma; neither matches the opening em dash. A second em dash after 'cooperation' cleanly closes the aside. The answer is <strong>C</strong>."
+    }
+  ]
+}

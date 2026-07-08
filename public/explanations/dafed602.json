@@ -1,0 +1,15 @@
+{
+  "questionId": "dafed602",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for the first coordinate",
+      "content": "Use the first equation.<br/>$$x+5=7$$<br/>$$x=2$$"
+    },
+    {
+      "title": "Substitute for the second coordinate",
+      "content": "Use $x=2$ in the second equation.<br/>$$y=(2+5)^2$$<br/>$$y=7^2$$<br/>$$y=49$$<br/>The ordered pair is $(2,49)$. The answer is <strong>A</strong>."
+    }
+  ]
+}

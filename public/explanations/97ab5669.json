@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Use context clues to identify the meaning needed",
-      "content": "The sentence says Otero &quot;doesn't have a definite idea of when it might happen&quot; — she holds an uncertain belief about the future. The word &quot;conjecture&quot; in the next sentence confirms the blank must mean forming an opinion without complete knowledge.\n<ul>\n<li><strong>Choice A &mdash; demands</strong>: Demands means to require or insist — this implies authority and certainty, not uncertainty. &#10007;</li>\n<li><strong>Choice B &mdash; speculates</strong>: Speculates means to form an opinion based on incomplete information — this matches both the uncertain context and the label &quot;conjecture.&quot; &#10003;</li>\n<li><strong>Choice C &mdash; doubts</strong>: Doubts means to be uncertain whether something is true — this contradicts Otero's interest in research motivated by this belief. &#10007;</li>\n<li><strong>Choice D &mdash; establishes</strong>: Establishes means to determine with certainty — this contradicts &quot;doesn't have a definite idea.&quot; &#10007;</li>\n</ul>"
+      "title": "Use the uncertainty clues",
+      "content": "Otero does not have a definite idea about when humans might need to live beyond Earth. The next sentence calls the idea a \"conjecture,\" so the blank should describe forming a belief without complete certainty."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only one choice describes forming a belief under uncertainty. That confirms <strong>B</strong> is correct."
+      "title": "Match the conjecture word",
+      "content": "A suggests insisting on something, C suggests disbelief, and D suggests proving something. Those meanings conflict with the uncertainty and conjecture in the passage. The answer is <strong>B</strong>."
     }
   ]
 }

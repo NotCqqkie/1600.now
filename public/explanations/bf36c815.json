@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: use the function table",
-      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is $10$, so the answer is <strong>D</strong>, 10. This is just a one-row lookup, and the arithmetic below confirms the table value."
+      "title": "Substitute the input",
+      "content": "The function is $g(x)=-x+10$. To find $g(0)$, replace $x$ with $0$ and keep the negative sign attached to the input."
     },
     {
-      "title": "Substitute $x=0$",
-      "content": "The function is $g(x)=-x+10$. Evaluate it at $0$: $$g(0)=-(0)+10.$$"
-    },
-    {
-      "title": "Simplify",
-      "content": "$-(0)=0$, so $$g(0)=10.$$"
+      "title": "Evaluate the expression",
+      "content": "The substitution gives\n$$\ng(0)=-(0)+10\n$$\nSince $-(0)=0$, this becomes\n$$\ng(0)=0+10=10\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

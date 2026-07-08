@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the key points from the graph",
-      "content": "The graph gives the model points directly. It starts at sea level, so it passes through $(0,0)$. Its lowest point is at $(3,-12)$. It returns to sea level at $(6,0)$. The correct table must list those three ordered pairs."
+      "title": "Read the key graph points",
+      "content": "The model starts at sea level, reaches its lowest point after $3$ hours, and returns to sea level after $6$ hours. The corresponding ordered pairs are\n$$(0,0),\\ (3,-12),\\ (6,0)$$"
     },
     {
-      "title": "Verify the table points",
-      "content": "The matching table lists $(0,0)$, $(3,-12)$, and $(6,0)$. These match the two sea-level points and the lowest point visible on the graph."
+      "title": "Compare the table entries",
+      "content": "The correct table must list exactly those three input-output pairs. Tables that repeat $x=0$ with different $y$-values or swap coordinates cannot represent this model."
     },
     {
-      "title": "Confirm the choice",
-      "content": "Two incorrect tables repeat $x=0$ with two different $y$-values, so they cannot be tables for a function. Another incorrect table does not include the key point $(3,-12)$. The table with $(0,0)$, $(3,-12)$, and $(6,0)$ is correct."
+      "title": "Select the matching table",
+      "content": "The table with\n$$(0,0),\\ (3,-12),\\ (6,0)$$\nmatches the graph. The answer is <strong>C</strong>."
     }
   ]
 }

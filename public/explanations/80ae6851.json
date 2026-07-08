@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine each segment type's contribution",
-      "content": "With $x$ segments of 2 minutes each, we get $2x$ minutes. With $y$ segments of 5 minutes each, we get $5y$ minutes."
+      "title": "Translate each segment type",
+      "content": "$x$ segments of $2$ minutes contribute $2x$ minutes. $y$ segments of $5$ minutes contribute $5y$ minutes."
     },
     {
-      "title": "Write the total equation",
-      "content": "The sum of all segments equals the 84-minute video:<br/>$$2x + 5y = 84$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Add to the total length",
+      "content": "The segment lengths add to the $84$-minute total:<br/>$$2x+5y=84$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

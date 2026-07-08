@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Determine whether the graph is linear or exponential",
-      "content": "A linear function produces a straight line; an exponential function produces a curve. The graph shows a straight line, so the function is linear. This eliminates C (increasing exponential) and D (decreasing exponential)."
+      "title": "Identify the graph shape",
+      "content": "The graph is a straight line, so it represents a linear function rather than an exponential function."
     },
     {
-      "title": "Determine the direction of change",
-      "content": "Reading left to right, the line rises — as $x$ increases, $y$ increases. The function is therefore increasing, not decreasing. This eliminates B (decreasing linear).<ul><li>A: Increasing linear — straight line rising left to right. That is the correct answer.</li><li>B: Decreasing linear — line would fall left to right. Eliminated.</li><li>C: Increasing exponential — would be a rising curve. Eliminated.</li><li>D: Decreasing exponential — would be a falling curve. Eliminated.</li></ul>"
+      "title": "Identify the direction",
+      "content": "Reading from left to right, the line rises. That means as $x$ increases, $f(x)$ also increases. The function is increasing linear. The answer is <strong>A</strong>."
     }
   ]
 }

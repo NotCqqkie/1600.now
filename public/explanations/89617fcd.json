@@ -1,0 +1,19 @@
+{
+  "questionId": "89617fcd",
+  "correctAnswer": "28/17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the known side",
+      "content": "From the figure, $AC=28$. The problem says $AB$ is $11$ less than $AC$, so<br/>$$AB=28-11=17$$"
+    },
+    {
+      "title": "Use the altitude triangles",
+      "content": "Since $BD$ is perpendicular to $AC$, triangle $BDC$ is similar to triangle $ABC$: they share angle $C$, and each has a right angle. Corresponding sides give a direct ratio."
+    },
+    {
+      "title": "Match corresponding sides",
+      "content": "The hypotenuse-to-leg ratio in the smaller triangle matches the same ratio in the original triangle.<br/>$$\\frac{BC}{BD}=\\frac{AC}{AB}=\\frac{28}{17}$$<br/>The answer is <strong>28/17</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "98f735d0",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Center the Wyoming count",
+      "content": "The student's goal is to emphasize the number of SNOTEL sites in Wyoming. The relevant note is that there are around 90 such sites throughout the state."
+    },
+    {
+      "title": "Reject non-count details",
+      "content": "Choice B focuses on one site at Cottonwood Creek. Choice C says what SNOTEL sites do, and Choice D focuses on Nora Falkenberg and one example site. The remaining option emphasizes the number. The answer is <strong>A</strong>."
+    }
+  ]
+}

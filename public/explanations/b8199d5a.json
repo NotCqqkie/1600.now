@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate Bahrain's area in the table",
-      "content": "The question asks for <strong>Bahrain's total area</strong>. I need to find the Bahrain row and read the <strong>“Total area (square miles)”</strong> column."
+      "title": "Locate Bahrain's area",
+      "content": "The question asks for Bahrain's total area, so the table's Bahrain row and total area column are the relevant places to check."
     },
     {
-      "title": "Read the value and eliminate distractors",
-      "content": "Bahrain's area in the table is <strong>304 square miles</strong>. The other choices either use a different country's values or confuse area with population. That is the correct answer."
+      "title": "Read the listed value",
+      "content": "The Bahrain row lists 304 square miles. A is Kuwait's population, B is Qatar's area, and D is Kuwait's area. The answer is <strong>C</strong>."
     }
   ]
 }

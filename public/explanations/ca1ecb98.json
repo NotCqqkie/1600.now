@@ -1,0 +1,15 @@
+{
+  "questionId": "ca1ecb98",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Handle however between clauses",
+      "content": "The sentence contrasts Chambers being known for Sugar Hill Records with the fact that he did not play on the label's classic song. The correct punctuation keeps <em>however</em> as a parenthetical after the first independent clause and uses a semicolon before the next independent clause."
+    },
+    {
+      "title": "Reject quotation boundary errors",
+      "content": "Choice A makes <em>however</em> introduce the second sentence, shifting the contrast to the wrong clause. Choice C joins two independent clauses with only commas. Choice D gives no punctuation around <em>however</em> or between the clauses. The answer is <strong>B</strong>."
+    }
+  ]
+}

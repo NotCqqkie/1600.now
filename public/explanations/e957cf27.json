@@ -1,0 +1,15 @@
+{
+  "questionId": "e957cf27",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare route types",
+      "content": "The statement needs an example showing an international route carrying more passengers than a highly traveled domestic route. That requires comparing passenger counts, not distances, and the comparison should use routes from the same year."
+    },
+    {
+      "title": "Use passenger counts",
+      "content": "A compares distance rather than passengers. B compares passenger counts, but it does not show the international route exceeding the domestic route. C compares the same international route across two years rather than contrasting route types. The relevant same-year comparison shows the exception clearly. The answer is <strong>D</strong>."
+    }
+  ]
+}

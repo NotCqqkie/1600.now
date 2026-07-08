@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the equal legs",
-      "content": "The figure shows a right triangle with two congruent legs, each of length $32$. A right triangle with congruent legs is isosceles, so its two acute angles are congruent."
+      "content": "The figure shows a right triangle with two congruent legs, each of length $32$. A right triangle with congruent legs has two congruent acute angles."
     },
     {
-      "title": "Use the triangle angle sum",
-      "content": "The right angle measures $90^{\\circ}$, leaving $90^{\\circ}$ for the two equal acute angles. Therefore, $$2x=90,$$ so $$x=45.$$"
+      "title": "Split the remaining angle",
+      "content": "The right angle measures $90^{\\circ}$, leaving $90^{\\circ}$ for the two congruent acute angles.<br/>$$2x=90$$<br/>$$x=45$$<br/>The answer is <strong>45</strong>."
     }
   ]
 }

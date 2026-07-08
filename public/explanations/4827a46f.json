@@ -1,0 +1,15 @@
+{
+  "questionId": "4827a46f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is 'a unique tradition of embroidery,' and the sentence's main verb is 'remains.' The blank must add descriptive information about the tradition without creating another main verb."
+    },
+    {
+      "title": "Use a participial modifier",
+      "content": "A, B, and C add finite verb forms, which compete with 'remains' and make the sentence ungrammatical. A participial phrase can modify the tradition: it dates back over two thousand years. The answer is <strong>D</strong>."
+    }
+  ]
+}

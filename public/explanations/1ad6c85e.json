@@ -1,0 +1,15 @@
+{
+  "questionId": "1ad6c85e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the shared habitat",
+      "content": "The student's goal is to emphasize a similarity between <em>Artemia franciscana</em> and <em>Achromobacter</em>. The notes give one relevant shared trait: both live in the southern portion of the Great Salt Lake."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "Choice A mentions only <em>Artemia franciscana</em>, so it cannot show a similarity. Choice B mentions only <em>Achromobacter</em>, so it has the same problem. Choice C describes the lake but does not connect the two organisms. The answer is <strong>D</strong>."
+    }
+  ]
+}

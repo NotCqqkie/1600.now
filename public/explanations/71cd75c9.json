@@ -1,0 +1,19 @@
+{
+  "questionId": "71cd75c9",
+  "correctAnswer": "70",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the relationships",
+      "content": "Write the percentages as equations:<br/>$$0.40h=0.56j$$<br/>$$j=0.50k$$"
+    },
+    {
+      "title": "Express h in terms of k",
+      "content": "Solve the first equation for $h$, then substitute for $j$:<br/>$$h=\\frac{0.56}{0.40}j$$<br/>$$h=1.4(0.50k)=0.70k$$"
+    },
+    {
+      "title": "Convert to a percentage",
+      "content": "Since $h=0.70k$, $h$ is $70\\%$ of $k$. The question says to disregard the percent sign. The answer is <strong>70</strong>."
+    }
+  ]
+}

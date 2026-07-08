@@ -1,0 +1,15 @@
+{
+  "questionId": "3231fd4a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the complex list",
+      "content": "The sentence lists three deserts, and each item includes a rank: the Sonoran Desert, the Great Salt Desert, and the Ferlo Desert. Because the items contain internal commas, semicolons should separate the list items."
+    },
+    {
+      "title": "Keep each rank attached",
+      "content": "Choice A and choice D place a semicolon between the Great Salt Desert and its rank, splitting a noun from its modifier. Choice C runs list items together without needed semicolons. The remaining choice separates the desert entries while keeping each rank attached to its desert. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bf6bbadf",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the probability fraction",
+      "content": "The denominator is the total number of animals, $185$. The numerator is the number of animals of species Y from the table."
+    },
+    {
+      "title": "Read the table count",
+      "content": "The table shows $3$ animals of species Y, so the probability is:<br/>$$\\frac{3}{185}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

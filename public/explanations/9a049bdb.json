@@ -1,0 +1,15 @@
+{
+  "questionId": "9a049bdb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Choose a possessive pronoun",
+      "content": "The blank comes before \"methodology,\" so it must be possessive. The antecedent is \"the technique,\" a singular nonhuman noun, so the pronoun must be singular and possessive."
+    },
+    {
+      "title": "Avoid contractions and plurals",
+      "content": "Choice A means \"they are,\" not possession. Choice C means \"it is,\" also not possession. Choice D is plural and does not agree with \"the technique.\" The remaining choice is the singular possessive form. The answer is <strong>B</strong>."
+    }
+  ]
+}

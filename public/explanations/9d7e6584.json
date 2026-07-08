@@ -1,0 +1,15 @@
+{
+  "questionId": "9d7e6584",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the recruitment result",
+      "content": "Snowball sampling worked better than chance because the initial participants recruited people from their own social networks. The blank must explain why those networks produced many people with the desired characteristics."
+    },
+    {
+      "title": "Reject weak network claims",
+      "content": "A says network members may not know the relevant characteristics. B says network members share few traits, and C focuses on network size. None explains above-chance recruitment. The best explanation is that seeds' networks include many people who resemble the seeds. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify constant rate of change",
-      "content": "The weather balloon descends at a constant rate of $350$ feet per minute. Constant amount of change per minute means linear. Exponential would mean a constant percent change, which is not what the problem says."
+      "title": "Identify the rate type",
+      "content": "The balloon descends at a constant rate of $350$ feet per minute. A constant amount of change per minute is linear, not exponential."
     },
     {
-      "title": "Use a quick table",
-      "content": "Use a few time-altitude points: at $0$ minutes the altitude is $8800$, at $1$ minute it is $8450$, and at $2$ minutes it is $8100$. The altitude drops by $350$ each minute, confirming a decreasing linear model."
-    },
-    {
-      "title": "Conclusion",
-      "content": "The relationship is linear because the rate is constant, and it is decreasing because altitude goes down as time increases. The result matches <strong>B</strong>."
+      "title": "Match the direction",
+      "content": "As time increases, the altitude decreases. The relationship is therefore decreasing and linear. The answer is <strong>B</strong>."
     }
   ]
 }

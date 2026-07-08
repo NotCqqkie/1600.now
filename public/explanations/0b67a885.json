@@ -1,0 +1,15 @@
+{
+  "questionId": "0b67a885",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate one variable",
+      "content": "Subtract the second equation from the first so the $x$ terms cancel.\n\n$$(x+2y)-(x+y)=68-50$$\n\n$$y=18$$"
+    },
+    {
+      "title": "Substitute back",
+      "content": "Use $x+y=50$ and $y=18$ to solve for $x$.\n\n$$x+18=50$$\n\n$$x=32$$\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

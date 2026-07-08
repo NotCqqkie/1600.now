@@ -1,0 +1,15 @@
+{
+  "questionId": "b3ae1cd6",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate weight and volume",
+      "content": "The boulder weighs $150$ pounds per cubic foot, so weight equals $150$ times volume."
+    },
+    {
+      "title": "Scale the volume bounds",
+      "content": "The volume is between $14.2$ and $18.2$ cubic feet. Multiplying all parts by positive $150$ keeps the inequality directions the same:<br/>$$150(14.2)<x<150(18.2)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

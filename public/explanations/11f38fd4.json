@@ -1,0 +1,15 @@
+{
+  "questionId": "11f38fd4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the research question",
+      "content": "The student wants to present what the study was trying to find out. The relevant note says the researchers wanted to know whether torsional cooling could be used as a refrigeration method."
+    },
+    {
+      "title": "Reject results and background",
+      "content": "B reports a finding about temperature increases. C defines torsional heating and cooling. D defines torsion and describes heating. None of those states what the researchers wanted to investigate. The choice about torsional cooling and refrigeration presents the study's research question. The answer is <strong>A</strong>."
+    }
+  ]
+}

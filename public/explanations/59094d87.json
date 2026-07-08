@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sentence structure",
-      "content": "The sentence has two independent clauses: &quot;was founded in 1931 with the goal of showcasing the culture and history of the Mohegan [blank]&quot; and &quot;today, nearly a century later, it is the oldest Native-owned and -operated museum in the country.&quot; Each clause has its own subject and verb and can stand alone."
+      "title": "Join two independent clauses",
+      "content": "The first clause says the museum was founded to showcase Mohegan Tribe culture and history. The second says that today it is the oldest Native-owned and -operated museum in the country. These clauses need a proper boundary."
     },
     {
-      "title": "Apply the comma + coordinating conjunction rule and eliminate each choice",
-      "content": "Two independent clauses must be joined by a comma followed by a coordinating conjunction (e.g., &quot;and&quot;) — a comma splice (comma alone) and a missing comma before &quot;and&quot; are both errors.<ul><li><strong>Choice A — Tribe, and</strong>: Comma before the coordinating conjunction &quot;and&quot; correctly joins two independent clauses. &#10003;</li><li><strong>Choice B — Tribe</strong>: No punctuation or conjunction between two independent clauses creates a run-on sentence (fused sentence rule violated). &#10007;</li><li><strong>Choice C — Tribe and</strong>: Uses &quot;and&quot; without the required comma before it — violates the comma-before-coordinating-conjunction rule. &#10007;</li><li><strong>Choice D — Tribe,</strong>: Comma alone without a coordinating conjunction creates a comma splice. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject run-ons and splices",
+      "content": "Choice B creates a fused sentence with no punctuation. Choice C uses <em>and</em> without the needed comma. Choice D uses only a comma, creating a comma splice. A comma plus coordinating conjunction correctly joins the clauses. The answer is <strong>A</strong>."
     }
   ]
 }

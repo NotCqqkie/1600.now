@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up linear model",
-      "content": "$$5200 - 80d = 2000$$<br/>Let d be the number of days. Inventory after d days is 5200 minus 80d. Set equal to 2000."
+      "title": "Model the remaining lids",
+      "content": "Let $d$ be days. Set the remaining lids equal to $2{,}000$:<br/>$$5{,}200-80d=2{,}000$$"
     },
     {
-      "title": "Solve for days",
-      "content": "$$5200 - 2000 = 80d$$<br/>$$3200 = 80d$$<br/>$$d = \\frac{3200}{80} = 40$$<br/><strong>B</strong> is correct."
+      "title": "Solve for the days",
+      "content": "$$3{,}200=80d$$<br/>$$d=40$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

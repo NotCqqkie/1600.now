@@ -1,0 +1,19 @@
+{
+  "questionId": "0b48e029",
+  "correctAnswer": "1.352",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the exposed faces",
+      "content": "The box has no lid, so its exterior surface area includes $5$ square faces. Each square face has side length $52$ centimeters."
+    },
+    {
+      "title": "Find the area in square centimeters",
+      "content": "The area of one face is<br/>$$52^2=2{,}704$$<br/>For $5$ faces, the total area is<br/>$$5(2{,}704)=13{,}520$$"
+    },
+    {
+      "title": "Convert to square meters",
+      "content": "Since $1$ meter is $100$ centimeters, $1$ square meter is $10{,}000$ square centimeters.<br/>$$\\frac{13{,}520}{10{,}000}=1.352$$<br/>The answer is <strong>1.352</strong>."
+    }
+  ]
+}

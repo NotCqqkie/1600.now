@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical role of the blank",
-      "content": "The phrase \"a type of Chinese landscape painting ______ by the use of blue and green hues\" is an appositive — a noun phrase that renames <em>qingl&uuml; shanshui</em>. An appositive must remain a noun phrase, so the blank cannot be a finite verb (which would create a second independent clause joined to the first by only a comma, i.e., a comma splice). The blank must be a non-finite past participle functioning as a modifier."
+      "title": "Keep the appositive grammatical",
+      "content": "The phrase <em>a type of Chinese landscape painting</em> is an appositive that renames <em>qinglü shanshui</em>. The blank must modify that noun phrase without creating a second independent clause after the comma."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>\"has been characterized\"</strong>: finite present-perfect verb; turns the appositive into a second main clause, creating a comma splice. &#10007;</li><li><strong>\"will be characterized\"</strong>: finite future verb; same comma-splice problem. &#10007;</li><li><strong>\"characterized\"</strong>: non-finite past participle; correctly modifies the noun phrase without creating a second clause. &#10003;</li><li><strong>\"is characterized\"</strong>: finite present verb; creates a comma splice just like A and B. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Use a participial modifier",
+      "content": "A, B, and D are finite verb phrases, so each would create a comma splice with the earlier independent clause. The sentence needs a past participle that modifies the painting type: a type of painting marked by blue and green hues. The answer is <strong>C</strong>."
     }
   ]
 }

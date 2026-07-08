@@ -1,20 +1,15 @@
 {
   "questionId": "b0c5ece5",
-  "qid": "b0c5ece5",
+  "correctAnswer": "C",
+  "section": "Math",
   "steps": [
     {
-      "title": "Identify the hypotenuse and legs",
-      "content": "The figure is a right triangle. The legs are $4$ and $b$, and the hypotenuse is $19$."
+      "title": "Identify the triangle parts",
+      "content": "The figure is a right triangle. Its legs are $4$ and $b$, and its hypotenuse is $19$."
     },
     {
-      "title": "Apply the Pythagorean theorem",
-      "content": "For a right triangle, the sum of the squares of the legs equals the square of the hypotenuse:<br/>$${4}^{2}+{b}^{2}={19}^{2}$$"
-    },
-    {
-      "title": "Eliminate the other equations",
-      "content": "<ul><li><strong>$4b=19$</strong>: treats the relationship as a product, which has no geometric basis here. &#10007;</li><li><strong>$4+b=19$</strong>: treats the relationship as a sum of sides, not the Pythagorean theorem. &#10007;</li><li><strong>${4}^{2}+{b}^{2}={19}^{2}$</strong>: matches the Pythagorean relationship. &#10003;</li><li><strong>${4}^{2}-{b}^{2}={19}^{2}$</strong>: subtracts the leg squares instead of adding them. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Apply the theorem",
+      "content": "For a right triangle, the sum of the squares of the legs equals the square of the hypotenuse:\n$$\n4^2+b^2=19^2\n$$\nThe answer is <strong>C</strong>."
     }
-  ],
-  "correctAnswer": "C",
-  "section": "Math"
+  ]
 }

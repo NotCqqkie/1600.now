@@ -1,0 +1,15 @@
+{
+  "questionId": "049097ac",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the two minerals",
+      "content": "The goal is to compare fluorite and corundum. The notes say fluorite has a Mohs number of 4, corundum has a Mohs number of 9, and minerals with larger numbers can scratch minerals with smaller numbers."
+    },
+    {
+      "title": "Keep the right pair",
+      "content": "Choice B compares quartz and fluorite, not corundum and fluorite. Choice C compares corundum and quartz, not the requested pair. Choice D describes ordering three minerals generally but does not directly compare fluorite and corundum. The remaining choice applies the scratch rule to the two target minerals. The answer is <strong>A</strong>."
+    }
+  ]
+}

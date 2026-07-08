@@ -1,0 +1,15 @@
+{
+  "questionId": "a6d49910",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y intercept input",
+      "content": "The $y$-intercept occurs when $x=0$. Substitute $0$ into\n$$g(x)=\\frac{1}{8}(3)^x$$"
+    },
+    {
+      "title": "Evaluate the function",
+      "content": "Compute the output:\n$$g(0)=\\frac{1}{8}(3)^0$$\n$$g(0)=\\frac{1}{8}(1)=\\frac{1}{8}$$\nSo the $y$-intercept is $(0,\\frac{1}{8})$. The answer is <strong>B</strong>."
+    }
+  ]
+}

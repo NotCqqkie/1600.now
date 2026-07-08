@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Complete the square",
-      "content": "$$x^2 - 4x + y^2 - 8y - 80 = 0$$<br/>$$(x-2)^2 - 4 + (y-4)^2 - 16 - 80 = 0$$<br/>$$(x-2)^2 + (y-4)^2 = 100$$<br/>So $r^2 = 100 \\Rightarrow r = 10$, diameter $= 20$."
+      "content": "Rewrite the circle equation by grouping the $x$-terms and $y$-terms.\n$$\nx^2-6x+y^2-4y-51=0\n$$\n$$\n(x-3)^2+(y-2)^2=64\n$$\nSo the radius is $8$."
     },
     {
-      "title": "Find the square's perimeter",
-      "content": "An inscribed circle has diameter equal to the square's <strong>side length</strong>: side $= 20$.<br/>$$P = 4 \\cdot 20 = 80$$<br/>The Desmos graph below checks the circle equation: it has center $(2,4)$ and radius $10$, so the diameter is $20$. That confirms <strong>C</strong> is correct.",
+      "title": "Use the square side",
+      "content": "For a circle inscribed in a square, the square's side length equals the circle's diameter.\n$$\n\\text{side}=2(8)=16\n$$\n$$\n\\text{perimeter}=4(16)=64\n$$\nThe answer is <strong>C</strong>.",
       "desmosExpressions": [
         "(x-2)^2 + (y-4)^2 = 100",
         "(2, 4)"

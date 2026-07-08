@@ -1,0 +1,15 @@
+{
+  "questionId": "5451eb6f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the student's goal",
+      "content": "The student wants a specific example of one of C.M. Forster's most famous works. The notes identify his most famous novels as <em>A Room with a View</em> and <em>Howards End</em>, so the response should name one of those works."
+    },
+    {
+      "title": "Avoid unrelated details",
+      "content": "A general description of Forster as an acclaimed writer does not provide a specific work. The details about <em>Albergo Empedocle</em> identify his first published fiction or compare its timing, but the notes do not call it one of his most famous works. The statement naming the 1908 novel <em>A Room with a View</em> fits the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

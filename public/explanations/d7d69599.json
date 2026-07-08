@@ -1,0 +1,15 @@
+{
+  "questionId": "d7d69599",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial amount",
+      "content": "At the start of the observation, when $t=0$, there are $52{,}000$ bacteria. In an exponential model, this is the coefficient."
+    },
+    {
+      "title": "Use the doubling factor",
+      "content": "Doubling every day means the population is multiplied by $2$ for each increase of $1$ in $t$. The model is\n$$y=52{,}000(2)^t$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

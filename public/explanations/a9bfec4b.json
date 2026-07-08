@@ -1,0 +1,15 @@
+{
+  "questionId": "a9bfec4b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The particles belong to the Andromedid meteoroid stream, which is treated as a singular thing. The blank therefore needs a singular possessive determiner before particles."
+    },
+    {
+      "title": "Reject pronoun errors",
+      "content": "A is plural and does not agree with the singular stream. B means they are, creating an ungrammatical phrase. C means it is, which also cannot fit before particles. The singular possessive form correctly shows the stream's particles. The answer is <strong>D</strong>."
+    }
+  ]
+}

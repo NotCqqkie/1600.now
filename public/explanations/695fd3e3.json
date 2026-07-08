@@ -1,0 +1,15 @@
+{
+  "questionId": "695fd3e3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the restricted total",
+      "content": "The condition is that the person is at least $18$ years old. From the table, those groups are $18$ to $40$, $41$ to $65$, and greater than $65$:\n$$\n23\\%+22\\%+21\\%=66\\%\n$$"
+    },
+    {
+      "title": "Compute the conditional probability",
+      "content": "Within the at-least-$18$ group, the greater-than-$65$ group makes up $21\\%$. The conditional probability is\n$$\n\\frac{0.21}{0.66}=0.318\n$$\nThis is about $0.32$. The answer is <strong>B</strong>."
+    }
+  ]
+}

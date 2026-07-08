@@ -9,7 +9,7 @@
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — photosynthesis:</strong>: A colon after a complete independent clause correctly introduces an explanatory clause. &#10003;</li><li><strong>Choice B — photosynthesis,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C — photosynthesis</strong>: Two independent clauses with no connector is a run-on. &#10007;</li><li><strong>Choice D — photosynthesis and</strong>: &quot;And&quot; without a preceding comma is still a run-on, and it implies addition rather than explanation. &#10007;</li></ul><strong>A</strong> is correct."
+      "content": "<ul><li><strong>Choice A — photosynthesis:</strong>: A colon after a complete independent clause correctly introduces an explanatory clause. ✓</li><li><strong>Choice B — photosynthesis,</strong>: A comma alone between two independent clauses is a comma splice. ✗</li><li><strong>Choice C — photosynthesis</strong>: Two independent clauses with no connector is a run-on. ✗</li><li><strong>Choice D — photosynthesis and</strong>: \"And\" without a preceding comma is still a run-on, and it implies addition rather than explanation. ✗</li></ul><strong>A</strong> is correct."
     }
   ]
 }

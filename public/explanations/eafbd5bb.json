@@ -1,0 +1,15 @@
+{
+  "questionId": "eafbd5bb",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the inserted phrase",
+      "content": "The comma after \"become\" opens an interrupting phrase: \"with the breakout success of her 2020 novel <em>Mexican Gothic</em>.\" The blank must close that phrase before the main sentence continues with \"best known as a novelist.\""
+    },
+    {
+      "title": "Match the opening comma",
+      "content": "A uses a dash, which does not match the opening comma. B uses a semicolon before a phrase that is not an independent clause. C leaves the interruption unclosed. A closing comma completes the sentence correctly. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,23 +4,23 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$8{x}^{2}-40=32$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $3$.",
+      "title": "Isolate the square",
+      "content": "Add $40$ to both sides, then divide by $8$:\n$$\n8x^2-40=32\n$$\n$$\n8x^2=72\n$$\n$$\nx^2=9\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the original equation as written. This gives a quick visual check of the possible intersection values before choosing the positive solution.",
       "desmosExpressions": [
         "8{x}^{2}-40=32"
       ]
     },
     {
-      "title": "Isolate $x^2$",
-      "content": "Start with $$8x^2-40=32.$$ Add $40$ to both sides: $$8x^2=72.$$ Divide by $8$: $$x^2=9.$$"
+      "title": "Use the positive solution",
+      "content": "The solutions to $x^2=9$ are:\n$$\nx=3\\quad\\text{or}\\quad x=-3\n$$\nThe question asks for the positive solution."
     },
     {
-      "title": "Take the square root",
-      "content": "$$x=3 \\quad \\text{or} \\quad x=-3.$$ The problem asks for the positive solution, so use $x=3$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice A, $3$, is correct. Choice B, $4$, solves a different equation; choice C, $9$, is $x^2$ rather than $x$; and choice D, $72$, comes from not dividing by $8$.",
+      "title": "Calculator shortcut",
+      "content": "Graph the two sides and read the positive intersection. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "y=8x^2-40",
         "y=32"

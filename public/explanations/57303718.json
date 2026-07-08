@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Textual Evidence question. The claim is that the narrator prefers her hometown to other places she has visited. The correct quotation must do two things: praise the hometown AND explicitly compare it to other places &mdash; both elements are required."
+      "title": "Require a hometown preference",
+      "content": "The claim is not merely that the narrator enjoys her hometown. It says she prefers her hometown to other places she has visited. The quotation must therefore show both sides of that comparison: experience traveling elsewhere and greater delight in the native town."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — \"There is always something fresh, something to be traced or discovered, something particularly to be remembered.\"</strong>: praises the hometown but makes no comparison to other places visited. &#10007;</li><li><strong>Choice B — \"Two large rivers join just below the village at the head of tide-water, and these, with the great inflow from the sea, make a magnificent stream, bordered by lovely green fields that slope gently to long lines of willows at the water's edge.\"</strong>: describes the hometown's scenery but contains no comparison to other places. &#10007;</li><li><strong>Choice C — \"I have had a good deal of journeying in my life, and taken great delight in it, but I have never taken greater delight than in my rides and drives and tramps and voyages within the borders of my native town.\"</strong>: explicitly contrasts &quot;journeying in my life&quot; with experiences in &quot;my native town.&quot;, proving the hometown is preferred over other places. &#10003;</li><li><strong>Choice D — \"There is never-ending pleasure in making one's self familiar with such a region.\"</strong>: praises the region but makes no comparison to other places the narrator has visited. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject praise without comparison",
+      "content": "Choice A says there is always something fresh to discover, but it does not compare the hometown with other places. Choice B describes beautiful scenery around a village without stating a preference over travel elsewhere. Choice D praises the pleasure of becoming familiar with a region, but again gives no comparison. Choice C contrasts a life of journeying with never taking greater delight than in experiences within the native town. The answer is <strong>C</strong>."
     }
   ]
 }

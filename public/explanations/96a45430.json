@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation for an 8% increase",
-      "content": "When <em>n</em> is increased by 8%, the new value is $1.08n$. We're told this equals 432: $$1.08n = 432$$"
+      "title": "Write the percent equation",
+      "content": "Increasing $n$ by $8\\%$ multiplies it by $1.08$. The result is $432$, so\n$$\n1.08n=432\n$$"
     },
     {
-      "title": "Test choice C",
-      "content": "Backsolving - testing choice C (400): If $n = 400$, then $$1.08 \\times 400 = 400 + 0.08 \\times 400 = 400 + 32 = 432$$ That confirms <strong>C</strong> is correct."
+      "title": "Solve for the original number",
+      "content": "Divide by $1.08$:\n$$\nn=\\frac{432}{1.08}=400\n$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The original number is $400$, which is Choice C. The answer is <strong>C</strong>."
     }
   ]
 }

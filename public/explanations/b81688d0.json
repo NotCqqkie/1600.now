@@ -1,0 +1,19 @@
+{
+  "questionId": "b81688d0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the month four balance",
+      "content": "The balance after $4$ months is the original $950$ dollars plus $0.8\\%$ of that original balance.<br/>$$950(1.008)=957.60$$"
+    },
+    {
+      "title": "Count the growth periods",
+      "content": "After month $4$, the balance grows by $0.2\\%$ every $2$ months. The number of two-month periods from month $4$ to month $x$ is<br/>$$\\frac{x-4}{2}=\\frac{x}{2}-\\frac{4}{2}$$"
+    },
+    {
+      "title": "Write the exponential model",
+      "content": "Use initial amount $957.60$, growth factor $1.002$, and the two-month period count as the exponent.<br/>$$B(x)=957.60(1.002)^{\\frac{x}{2}-\\frac{4}{2}}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

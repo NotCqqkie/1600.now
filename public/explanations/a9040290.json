@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative) question. The passage establishes a rule: when winds are stronger than forecast, the predicted maximum electricity output is too low, meaning actual generation exceeds the prediction. The blank must complete the example for the West region by accurately reading the graph and matching the passage's logic."
+      "title": "Read direction and value",
+      "content": "The passage explains the relationship between wind strength and the predicted maximum amount of wind-generated electricity. If winds are stronger than forecast, the predicted maximum will be too low, so the actual amount the turbines could generate will be higher than the prediction. The example must therefore use data from the West region showing actual wind generation above the forecasted amount, not below it."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; strong enough to generate about 150 thousand more MWh of electricity from wind turbines.</strong>: The graph shows additional MWh generated above the prediction. The West bar sits at approximately 150 thousand MWh above the predicted amount. This fits the passage's rule (stronger winds = more electricity than predicted) and the correct graph value. &#10003;</li><li><strong>Choice B &mdash; so weak that the electricity from wind turbines was about 175 thousand MWh less than predicted.</strong>: The West bar is above zero, meaning electricity exceeded the prediction &mdash; the opposite of &quot;weak.&quot; The direction and the value (175) are both wrong. &#10007;</li><li><strong>Choice C &mdash; so weak that the electricity from wind turbines was about 150 thousand MWh less than predicted.</strong>: The direction is wrong. The West bar is above zero, indicating more electricity than predicted, not less. &#10007;</li><li><strong>Choice D &mdash; strong enough to generate about 175 thousand more MWh of electricity from wind turbines.</strong>: The direction (stronger winds, more MWh) is correct, but the value 175 misreads the graph. The West bar is approximately 150 thousand, not 175 thousand. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject wrong graph readings",
+      "content": "Choice B and Choice C say the winds were so weak that wind generation was less than predicted, which is the opposite direction needed for the example. Choice D has the correct direction because it says the winds were strong enough to generate more electricity, but its amount is about 175 thousand MWh, not the West region's value. The graph supports about 150 thousand more MWh for the West region. The answer is <strong>A</strong>."
     }
   ]
 }

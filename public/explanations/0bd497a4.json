@@ -1,0 +1,19 @@
+{
+  "questionId": "0bd497a4",
+  "correctAnswer": "-107",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the quadratic in order",
+      "content": "Move all terms to one side:<br/>$$5x^2-50x+(18-r)=0$$"
+    },
+    {
+      "title": "Use the one-solution condition",
+      "content": "One real solution means the discriminant is $0$:<br/>$$b^2-4ac=0$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute and solve:<br/>$$(-50)^2-4(5)(18-r)=0$$<br/>$$2{,}500-20(18-r)=0$$<br/>$$125=18-r$$<br/>$$r=-107$$<br/>The answer is <strong>-107</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7404b5ce",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each condition",
+      "content": "Positive mass means the mass is greater than $0$:<br/><br/>$$m>0$$<br/><br/>Less than $640$ grams means<br/><br/>$$m<640$$"
+    },
+    {
+      "title": "Combine the inequalities",
+      "content": "Both statements must be true at the same time, so write $m$ between the two bounds:<br/><br/>$$0<m<640$$<br/><br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

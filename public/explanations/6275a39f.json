@@ -1,0 +1,19 @@
+{
+  "questionId": "6275a39f",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set equations equal",
+      "content": "At the intersection, both equations have the same $y$-value:\n$$\n2x+5=5x-4\n$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "Move the $x$-terms and constants to opposite sides:\n$$\n9=3x\n$$\n$$\nx=3\n$$"
+    },
+    {
+      "title": "Find y",
+      "content": "Substitute $x=3$ into $y=2x+5$:\n$$\ny=2(3)+5=11\n$$\nThe intersection is $(3,11)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

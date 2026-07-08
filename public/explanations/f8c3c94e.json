@@ -1,0 +1,15 @@
+{
+  "questionId": "f8c3c94e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Preserve the relative clause",
+      "content": "The noun \"approach\" is followed by a relative clause describing what that approach emphasizes. The phrase about teaching music like language is added description inside that clause, so it should be inserted parenthetically while \"emphasizes\" remains the clause's main verb."
+    },
+    {
+      "title": "Remove extra verb forms",
+      "content": "A makes \"is aiming\" a second finite verb inside the relative clause. C creates competing verbs, since \"aims\" and \"emphasizes\" both try to serve as the clause's main verb. D creates the same problem with \"has aimed\" and also shifts the intended present description. The answer is <strong>B</strong>."
+    }
+  ]
+}

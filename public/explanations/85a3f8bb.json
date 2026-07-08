@@ -1,0 +1,15 @@
+{
+  "questionId": "85a3f8bb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Interpret the lower creep rate",
+      "content": "Creep is deformation under persistent stress, and a lower minimum creep rate means a material deforms more slowly under the tested conditions. The nitrogen-treated fiber therefore suggests better resistance to stress than the two polymer-derived fibers."
+    },
+    {
+      "title": "Avoid overstating the finding",
+      "content": "Choice A overclaims that only the nitrogen-treated fiber can substantially inhibit creep. Choice C reverses the comparison and adds unsupported chemical-property claims. Choice D says reducing creep resistance would prolong life, which is backwards. Better resistance implies longer stress tolerance in aerospace composites. The answer is <strong>B</strong>."
+    }
+  ]
+}

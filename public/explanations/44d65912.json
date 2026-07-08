@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate each game into an equation",
-      "content": "Each coin is worth $c$ points and each star is worth $s$ points, so total score = (coins)($c$) + (stars)($s$).<br/><br/>Game 1: 18 coins and 9 stars for 576 points gives $18c + 9s = 576$.<br/><br/>Game 2: 23 coins and 11 stars for 716 points gives $23c + 11s = 716$."
+      "title": "Translate the first game",
+      "content": "Each coin is worth $c$ points and each star is worth $s$ points. For $18$ coins, $9$ stars, and $576$ total points, the equation is<br/>$$18c+9s=576$$"
     },
     {
-      "title": "Evaluate each answer choice",
-      "content": "The correct system must match $18c + 9s = 576$ and $23c + 11s = 716$.<ul><li><strong>A.</strong> $9c + 18s = 576$ swaps the coin and star counts; eliminated.</li><li><strong>B.</strong> $18c + 9s = 576$ and $23c + 11s = 716$ matches both games exactly.</li><li><strong>C.</strong> Places 576 and 716 as coefficients of $s$, which is dimensionally wrong; eliminated.</li><li><strong>D.</strong> Places 576 and 716 as coefficients of $c$ with 9 and 11 on the right side; eliminated.</li></ul><strong>B</strong> is correct."
+      "title": "Translate the second game",
+      "content": "For $23$ coins, $11$ stars, and $716$ total points, the equation is<br/>$$23c+11s=716$$"
+    },
+    {
+      "title": "Match the system",
+      "content": "The system must keep coins with $c$, stars with $s$, and total scores on the right.<br/>$$18c+9s=576$$<br/>$$23c+11s=716$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

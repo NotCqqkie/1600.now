@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the hypothesis predicts",
-      "content": "The hypothesis states that female preference for subspecies-specific feather sounds will drive &quot;further genetic and anatomical divergence&quot; between the subspecies. Direct support must show this divergence actually growing over time &mdash; not just explain the current difference, but demonstrate it widening."
+      "title": "Look for growing divergence",
+      "content": "The hypothesis says females prefer the sound made by males of their own subspecies, and that this preference will drive further genetic and anatomical divergence over time. Direct support should show the sound difference between the subspecies increasing across generations."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; The feathers located on the wings of the migratory fork-tailed flycatchers have a narrower shape than those of the nonmigratory birds, which allows them to fly long distances.</strong>: About wing shape and flight distance, not the subspecies-specific sounds or female mate preference &mdash; does not address the hypothesis at all. &#10007;</li><li><strong>Choice B &mdash; Over several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males.</strong>: Shows the acoustic difference between subspecies actively widening over generations &mdash; exactly the increasing divergence the hypothesis predicts. &#10003;</li><li><strong>Choice C &mdash; Fork-tailed flycatchers communicate different messages to each other depending on whether their feathers create high-pitched or low-pitched sounds.</strong>: About communication functions of pitch, not about divergence between subspecies or female preference driving that divergence. &#10007;</li><li><strong>Choice D &mdash; The breeding habits of the migratory and nonmigratory fork-tailed flycatchers remained generally the same over several generations.</strong>: About breeding habits staying generally the same, not about whether female sound preference is driving genetic and anatomical divergence between the subspecies. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject weaker evidence",
+      "content": "<ul><li><strong>Choice A</strong> explains a current wing-shape difference related to flight distance, not divergence over time.</li><li><strong>Choice C</strong> concerns communication messages, not female preference causing subspecies divergence.</li><li><strong>Choice D</strong> says breeding habits stayed the same, which does not support further divergence.</li></ul>The remaining choice shows the pitch difference widening over several generations. The answer is <strong>B</strong>."
     }
   ]
 }

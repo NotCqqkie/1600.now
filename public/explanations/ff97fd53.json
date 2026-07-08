@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the passage's arc",
-      "content": "The text traces the Cafe from its 1973 origin in Medina's apartment, through its move to a cafe and then a permanent 1981 location, through its expansion into art and music, and closes with its ongoing role fostering emerging Nuyorican talent."
+      "title": "Follow the full history",
+      "content": "The text traces the Nuyorican Poets Cafe from Medina's 1973 apartment gatherings to a rented cafe, a permanent location, expanded programming, and its ongoing role fostering emerging Nuyorican talent."
     },
     {
-      "title": "Identify what kind of summary fits",
-      "content": "The passage covers both how the Cafe came to exist (founding) and what it does (mission), so the overall purpose is a broad overview of both."
-    },
-    {
-      "title": "Eliminate by choice",
-      "content": "<ul><li><strong>\"To explain what motivated Medina to found the Nuyorican Poets Cafe\"</strong>: the text never gives Medina's motivation, only that he invited Nuyorican writers; this overreads. &#10007;</li><li><strong>\"To situate the Nuyorican Poets Cafe within the cultural life of New York as a whole\"</strong>: the text never compares the Cafe to broader NYC culture; this is out of scope. &#10007;</li><li><strong>\"To discuss why the Nuyorican Poets Cafe expanded its scope to include art and music\"</strong>: expansion is mentioned but no reason is given, and this misses the founding and mission content. &#10007;</li><li><strong>\"To provide an overview of the founding and mission of the Nuyorican Poets Cafe\"</strong>: matches the full arc from 1973 origin to present-day fostering of talent. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject narrower purposes",
+      "content": "A asks for Medina's motivation, which the text does not explain. B broadens to New York's cultural life as a whole. C focuses only on the expansion into art and music and asks why, but no reason is given. The answer is <strong>D</strong>."
     }
   ]
 }

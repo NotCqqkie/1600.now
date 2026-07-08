@@ -1,0 +1,15 @@
+{
+  "questionId": "b156f9e1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given expression",
+      "content": "The question gives $x-3=4$, and asks for $3(x-3)$. Substitute the whole expression instead of solving for $x$."
+    },
+    {
+      "title": "Multiply the value",
+      "content": "Compute the requested expression.<br/>$$3(x-3)=3(4)=12$$The answer is <strong>C</strong>."
+    }
+  ]
+}

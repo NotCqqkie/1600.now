@@ -1,0 +1,19 @@
+{
+  "questionId": "6018bc35",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the cause of the glow",
+      "content": "The student's goal is to explain what makes the neon sculpture glow. The relevant note gives the mechanism: an electrical current passes through gas in the tubes and makes the gas glow."
+    },
+    {
+      "title": "Reject descriptions without cause",
+      "content": "A describes the sculpture's appearance. B describes how the tubes are shaped. C says the sculpture glows but does not explain why. None gives the electrical-current mechanism."
+    },
+    {
+      "title": "State the mechanism",
+      "content": "An electrical current passing through the gas-filled tubes explains why <em>Need Money for Cars</em> glows white. The answer is <strong>D</strong>."
+    }
+  ]
+}

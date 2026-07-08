@@ -1,0 +1,15 @@
+{
+  "questionId": "bdfae860",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting balance",
+      "content": "In the function\n$$f(n)=42-6n$$\nthe $42$ represents the starting amount in the account before any rentals are made."
+    },
+    {
+      "title": "Read the per game decrease",
+      "content": "The term $-6n$ means the balance decreases by $6$ dollars for each game rented. The amount withdrawn each time is the positive cost, $6$ dollars. The answer is <strong>B</strong>."
+    }
+  ]
+}

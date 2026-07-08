@@ -1,0 +1,20 @@
+{
+  "questionId": "3b0f2c1f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify favorable outcomes",
+      "content": "From the frequency table, the number of igneous rocks is $10$. These are the favorable outcomes."
+    },
+    {
+      "title": "Identify total outcomes",
+      "content": "The collection contains $70$ rocks in all, so the sample space has $70$ outcomes."
+    },
+    {
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes, so\n$$P(\\text{igneous})=\\frac{10}{70}$$\nThe answer is <strong>D</strong>.",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    }
+  ]
+}

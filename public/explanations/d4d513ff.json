@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $3 \\left(5x+8\\right)$."
+      "title": "Find the common factor",
+      "content": "The terms $15x$ and $24$ share a greatest common factor of $3$. That means each term can be rewritten as a multiple of $3$."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Factor the expression",
+      "content": "Factor $3$ out of both terms:<br/>$$15x+24=3(5x)+3(8)=3(5x+8)$$"
     },
     {
-      "title": "Factor out the greatest common factor",
-      "content": "Both terms in $15x+24$ are divisible by $3$: $$15x+24=3(5x)+3(8).$$"
+      "title": "Check by distributing",
+      "content": "Distribute $3$ back into the parentheses to confirm the expression returns to the original:<br/>$$3(5x+8)=15x+24$$"
     },
     {
-      "title": "Write the factored form",
-      "content": "$$15x+24=3(5x+8).$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$3 \\left(5x+8\\right)$ is correct. Expanding A gives $120x+15$, B gives $360x+24$, and D gives $24x+90$. The expression $3 \\left(5x+8\\right)$ expands back to the original expression, so it is the equivalent form."
+      "title": "Select the equivalent form",
+      "content": "The equivalent expression is $3(5x+8)$, which is one of the choices. The answer is <strong>C</strong>."
     }
   ]
 }

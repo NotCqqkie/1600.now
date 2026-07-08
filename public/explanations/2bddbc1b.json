@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
-    },
-    {
-      "title": "Identify the sides relative to angle A",
-      "content": "Angle A is at the bottom left corner. The side adjacent to angle A is $AC = 41$. The hypotenuse (opposite the right angle at C) is $AB = 42$.",
+      "title": "Use the cosine ratio",
+      "content": "For angle $A$ in a right triangle, cosine compares the adjacent leg to the hypotenuse.",
       "formula": "$$\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$"
     },
     {
-      "title": "Calculate cos A",
-      "content": "Substitute the adjacent side and hypotenuse: $$\\cos A = \\frac{41}{42}$$ <strong>B</strong> is correct."
+      "title": "Substitute the side lengths",
+      "content": "The side adjacent to angle $A$ is $41$, and the hypotenuse is $42$.<br/>$$\\cos A=\\frac{41}{42}$$The answer is <strong>B</strong>."
     }
   ]
 }

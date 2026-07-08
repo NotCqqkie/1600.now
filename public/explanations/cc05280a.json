@@ -1,0 +1,15 @@
+{
+  "questionId": "cc05280a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Link cause and result",
+      "content": "The first sentence says Whitaker conducted extensive research while writing the book. The second says colleagues regarded the released book as reliable. The transition must show that the reliability judgment resulted from the research."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals similarity, not cause and effect. Choice C signals sequence. Choice D signals contrast, but the second sentence follows naturally from the first. The answer is <strong>B</strong>."
+    }
+  ]
+}

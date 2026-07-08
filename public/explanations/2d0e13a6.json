@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the slope of line k",
-      "content": "Line $k$ is $$y=\\frac{3}{4}x+2$$ In slope-intercept form $y=mx+b$, the slope is $m=\\frac{3}{4}$."
+      "title": "Read the slope",
+      "content": "Line $k$ is written in slope-intercept form:\n$$\ny=\\frac{3}{4}x+2\n$$\nIn $y=mx+b$, the slope is $m$, so line $k$ has slope $\\frac{3}{4}$."
     },
     {
       "title": "Use parallel slopes",
-      "content": "Parallel lines have the same slope, so line $j$ also has slope $$\\frac{3}{4}=0.75$$ A valid decimal entry is <strong>.75</strong>."
-    },
-    {
-      "title": "Final answer format",
-      "content": "The question is free response, so either $\\frac{3}{4}$ or the decimal $.75$ represents the same slope. The stored answer uses <strong>.75</strong>."
+      "content": "Parallel lines have the same slope, so line $j$ has slope\n$$\n\\frac{3}{4}=0.75\n$$\nThe answer is <strong>.75</strong>."
     }
   ]
 }

@@ -1,6 +1,5 @@
 import { startTransition, useDeferredValue, useState, useMemo, useCallback, useEffect, useRef, type Dispatch, type SetStateAction, type SyntheticEvent } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import type { BankQuestion } from "@/data/questionBank";
 import { mathDomainSkills, englishDomainSkills, allMathDomains, allEnglishDomains } from "@/data/questionCategories";
 import { normalizeBankSource, type BankSubject, type BankSourceFilter } from "@/data/bankTypes";
 import {
@@ -10,6 +9,11 @@ import {
   loadQuestionCountTree,
   type BankQuestionMeta,
 } from "@/data/bankQuestionMetadata";
+import {
+  bankPracticeDupFingerprint,
+  loadFilteredBankPracticeRefs,
+  type BankPracticeQuestionRef,
+} from "@/lib/practice/bankPracticeRefs";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -30,9 +34,6 @@ import { QuestionBankFilterPanel } from "@/components/question/QuestionBankFilte
 import {
   createDefaultQuestionBankFilters,
   hasActiveQuestionBankFilters,
-  MAX_TIME_SPENT_FILTER_SECONDS,
-  MIN_SCORE_BAND,
-  MAX_SCORE_BAND,
   normalizeQuestionBankFilters,
   type QuestionBankFilters,
 } from "@/lib/questionBankFilters";
@@ -42,7 +43,7 @@ import type {
   BankSearchWorkerResponse,
 } from "@/lib/bankSearchTypes";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
-import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
+import { spaceOutNearDuplicates } from "@/lib/text/nearDuplicateSpacing";
 import {
   createBankPracticeSessionFromQuestions,
   launchCustomPracticeSet,
@@ -50,8 +51,6 @@ import {
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import {
   useUserProgress,
-  isQuestionSolved,
-  isQuestionAnsweredIncorrectly,
   QuestionProgress,
 } from "@/hooks/useUserProgress";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
@@ -59,13 +58,6 @@ import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage"
 import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
 
-const loadBankPool = async (
-  subject: BankSubject,
-  bankSource: BankSourceFilter,
-): Promise<BankQuestion[]> => {
-  const { loadBankPool: loadPool } = await import("@/data/questionBank");
-  return loadPool(subject, bankSource);
-};
 interface TopicSelectionState {
   math: {
     selected: boolean;
@@ -349,7 +341,6 @@ export const BankIndex = ({
   const [rawKeywordSearchQuery, setRawKeywordSearchQuery] = useState("");
   const [isKeywordSearchLoading, setIsKeywordSearchLoading] = useState(false);
   const [showKeywordSearchBusy, setShowKeywordSearchBusy] = useState(false);
-  const [isKeywordPracticeLoading, setIsKeywordPracticeLoading] = useState(false);
   const [isKeywordListCollapsed, setIsKeywordListCollapsed] = useState(false);
   const [keywordSubject, setKeywordSubject] = useState<BankSubject>("math");
   const [isKeywordSubjectPinned, setIsKeywordSubjectPinned] = useState(false);
@@ -622,48 +613,6 @@ export const BankIndex = ({
     );
   }, []);
 
-  const isQuestionActive = useCallback((q: BankQuestion): boolean => {
-    return q.inPracticeTests === true;
-  }, []);
-  const questionPassesFilters = useCallback((q: BankQuestion): boolean => {
-    const progress = getQuestionProgress(q);
-
-    const [minBand, maxBand] = filters.scoreBandRange;
-    if (minBand > MIN_SCORE_BAND || maxBand < MAX_SCORE_BAND) {
-      if (q.scoreBand == null || q.scoreBand < minBand || q.scoreBand > maxBand) return false;
-    }
-    if (filters.markedForReview !== "all") {
-      if (filters.markedForReview === "yes" && !progress.isMarkedForReview) return false;
-      if (filters.markedForReview === "no" && progress.isMarkedForReview) return false;
-    }
-    if (filters.solved !== "all") {
-      const solved = isQuestionSolved(progress);
-      if (filters.solved === "yes" && !solved) return false;
-      if (filters.solved === "no" && solved) return false;
-    }
-    if (filters.answeredIncorrectly !== "all") {
-      const incorrect = isQuestionAnsweredIncorrectly(progress);
-      if (filters.answeredIncorrectly === "yes" && !incorrect) return false;
-      if (filters.answeredIncorrectly === "no" && !isQuestionSolved(progress)) return false;
-    }
-    const [minTimeSpent, maxTimeSpent] = filters.timeSpentRange;
-    if (progress.totalTimeSpentSeconds < minTimeSpent) return false;
-    if (
-      maxTimeSpent < MAX_TIME_SPENT_FILTER_SECONDS &&
-      progress.totalTimeSpentSeconds > maxTimeSpent
-    ) {
-      return false;
-    }
-
-    if (filters.activeQuestions !== "all") {
-      const isActive = isQuestionActive(q);
-      if (filters.activeQuestions === "active" && !isActive) return false;
-      if (filters.activeQuestions === "exclude-active" && isActive) return false;
-    }
-
-    return true;
-  }, [filters, getQuestionProgress, isQuestionActive]);
-
   useEffect(() => {
     if (isHomeFilterDemo) return;
 
@@ -758,9 +707,6 @@ export const BankIndex = ({
     keywordSearchProgress,
     toast,
   ]);
-  const getFilteredQuestions = useCallback((questions: BankQuestion[]): BankQuestion[] => {
-    return questions.filter(q => questionPassesFilters(q));
-  }, [questionPassesFilters]);
   const [questionCounts, setQuestionCounts] = useState(() => getDefaultQuestionCountTree(bankSource));
 
   useEffect(() => {
@@ -889,33 +835,31 @@ export const BankIndex = ({
     subjectOverride?: "math" | "reading",
     domainOverride?: string,
     skillOverride?: string
-  ): Promise<BankQuestion[]> => {
+  ): Promise<BankPracticeQuestionRef[]> => {
     if (subjectOverride) {
-      const questions = await loadBankPool(subjectOverride, bankSource);
-      let filtered = getFilteredQuestions(questions);
-
-      if (skillOverride) {
-        filtered = filtered.filter(q => q.category.skill === skillOverride);
-      } else if (domainOverride) {
-        filtered = filtered.filter(q => q.category.domain === domainOverride);
-      }
-      return filtered;
+      return loadFilteredBankPracticeRefs(
+        subjectOverride,
+        bankSource,
+        filters,
+        getMetadataProgress,
+        skillOverride ? { skill: skillOverride } : domainOverride ? { domain: domainOverride } : {},
+      );
     }
 
-    const skillQuestionMap: Map<string, { subject: "math" | "reading"; questions: BankQuestion[] }> = new Map();
-    const poolCache = new Map<BankSubject, BankQuestion[]>();
+    const skillQuestionMap: Map<string, { subject: "math" | "reading"; questions: BankPracticeQuestionRef[] }> = new Map();
+    const poolCache = new Map<BankSubject, BankPracticeQuestionRef[]>();
 
     const getSubjectPool = async (subject: BankSubject) => {
       const cached = poolCache.get(subject);
       if (cached) return cached;
-      const pool = await loadBankPool(subject, bankSource);
+      const pool = await loadFilteredBankPracticeRefs(subject, bankSource, filters, getMetadataProgress);
       poolCache.set(subject, pool);
       return pool;
     };
 
     for (const { subject, skill } of selectedTopicsInfo.selectedSkills) {
       const pool = await getSubjectPool(subject);
-      const filtered = getFilteredQuestions(pool).filter(q => q.category.skill === skill);
+      const filtered = pool.filter(q => q.category.skill === skill);
       const key = `${subject}-${skill}`;
       skillQuestionMap.set(key, { subject, questions: filtered });
     }
@@ -928,12 +872,12 @@ export const BankIndex = ({
     });
 
     return shuffled.flatMap(([, { questions }]) => questions);
-  }, [bankSource, getFilteredQuestions, selectedTopicsInfo.selectedSkills]);
+  }, [bankSource, filters, getMetadataProgress, selectedTopicsInfo.selectedSkills]);
 
-  const startBankPracticeSession = useCallback((questions: BankQuestion[], exitTo = `/bank?bankType=${bankSource}`) => {
+  const startBankPracticeSession = useCallback((questions: BankPracticeQuestionRef[], exitTo = `/bank?bankType=${bankSource}`) => {
     if (isHomeFilterDemo || questions.length === 0) return;
 
-    const spacedQuestions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates(questions, bankPracticeDupFingerprint);
 
     const practiceSet = createBankPracticeSessionFromQuestions({
       questions: spacedQuestions,
@@ -956,8 +900,6 @@ export const BankIndex = ({
     if (shouldShuffle) {
       questions = shuffleQuestions(questions);
     }
-    questions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
-
     startBankPracticeSession(questions);
   }, [startBankPracticeSession, getSelectedQuestions]);
 
@@ -1021,34 +963,17 @@ export const BankIndex = ({
   const canCreateKeywordPracticeSet =
     keywordPracticeQuestions.length >= KEYWORD_PRACTICE_MIN_QUESTIONS;
 
-  const hydrateKeywordPracticeQuestions = useCallback(async (
-    results: readonly BankSearchResult[],
-  ): Promise<BankQuestion[]> => {
-    const pool = await loadBankPool(activeKeywordSubject, bankSource);
-    const byStableId = new Map(pool.map((question) => [question.stableId, question]));
-    return results
-      .map((result) => byStableId.get(result.stableId))
-      .filter((question): question is BankQuestion => Boolean(question));
-  }, [activeKeywordSubject, bankSource]);
-
-  const handleCreateKeywordPracticeSet = useCallback(async (shuffle = false) => {
+  const handleCreateKeywordPracticeSet = useCallback((shuffle = false) => {
     const nextParams = new URLSearchParams();
     nextParams.set("bankType", bankSource);
     nextParams.set("q", keywordSearch.trim());
     const selectedResults = shuffle ? shuffleQuestions(keywordPracticeQuestions) : keywordPracticeQuestions;
-    setIsKeywordPracticeLoading(true);
-    try {
-      const questions = await hydrateKeywordPracticeQuestions(selectedResults);
-      startBankPracticeSession(
-        questions,
-        `/bank?${nextParams.toString()}`,
-      );
-    } finally {
-      setIsKeywordPracticeLoading(false);
-    }
+    startBankPracticeSession(
+      selectedResults,
+      `/bank?${nextParams.toString()}`,
+    );
   }, [
     bankSource,
-    hydrateKeywordPracticeQuestions,
     keywordPracticeQuestions,
     keywordSearch,
     startBankPracticeSession,
@@ -1065,7 +990,7 @@ export const BankIndex = ({
   const trimmedKeywordSearch = keywordSearch.trim();
   const isKeywordSearchActive = trimmedKeywordSearch.length > 0;
   const isKeywordSearchBusy = isKeywordSearchLoading || isKeywordSearchPending;
-  const isKeywordActionBusy = isKeywordSearchBusy || isKeywordPracticeLoading;
+  const isKeywordActionBusy = isKeywordSearchBusy;
   const shouldShowKeywordSubjectToggle =
     isKeywordSubjectPinned || (keywordSearchInfo.mathCount > 0 && keywordSearchInfo.readingCount > 0);
   const visibleKeywordSearchResults = keywordSearchResults.slice(0, BANK_SEARCH_RESULT_LIMIT);
@@ -1239,7 +1164,7 @@ export const BankIndex = ({
                         </span>
                         {typeof question.scoreBand === "number" && (
                           <span className="shrink-0 rounded-full border border-ds-line px-1.5 py-0.5 text-[11px] font-medium leading-none text-ink-muted">
-                            Band {question.scoreBand}
+                            {question.scoreBand}/10
                           </span>
                         )}
                       </div>

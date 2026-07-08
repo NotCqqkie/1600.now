@@ -1,0 +1,15 @@
+{
+  "questionId": "cd8e3fc7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the cost chain",
+      "content": "The passage links SAGE's high cost to its longitudinal method: the study surveys many people in multiple countries over many years to investigate causal relationships. The sociology study only seeks an average age, so causation is irrelevant and longitudinal methods are unnecessary."
+    },
+    {
+      "title": "Avoid the wrong comparison",
+      "content": "Choice A compares SAGE with longitudinal sociology studies, but the example sociology study does not need to be longitudinal. Choice C shifts from cost to authoritativeness, which the passage never evaluates. Choice D overgeneralizes by saying sociology studies should avoid longitudinal methods altogether. The lower-cost consequence follows from not needing the expensive method. The answer is <strong>B</strong>."
+    }
+  ]
+}

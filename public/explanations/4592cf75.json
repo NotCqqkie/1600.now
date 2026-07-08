@@ -1,0 +1,15 @@
+{
+  "questionId": "4592cf75",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sex-specific prediction",
+      "content": "Ehmann and colleagues predicted that immature females would devote more attention than immature males to permanent residents of their home region. The reason is sex-specific: females typically remain in the same area from youth through adulthood, while males do not. Supporting data must therefore compare female and male peering proportions."
+    },
+    {
+      "title": "Compare the proportions",
+      "content": "A gives the needed pattern: individuals 6 and 1 have higher proportions of peering toward permanent residents than individuals 13 and 15. B gives only the overall range, not a sex comparison. C compares within each sex rather than between sexes. D uses total peering events, but the hypothesis is about the proportion directed at permanent residents. The answer is <strong>A</strong>."
+    }
+  ]
+}

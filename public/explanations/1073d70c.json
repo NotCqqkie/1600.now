@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the percent increase to a growth factor",
-      "content": "Use the exponential pattern directly. The initial count is $35$, and a $180\\%$ increase means after one hour the count is $35+1.80(35)=98$. Use the values at $t=0$ and $t=1$ directly."
+      "title": "Identify the starting amount",
+      "content": "The model starts when the article was first featured, at $t=0$. The number of comments then was $35$, so the exponential model begins with coefficient $35$."
     },
     {
-      "title": "Build the exponential model",
-      "content": "In $C=a(b)^t$, the starting amount is $a=35$. The hourly multiplier is $b=1+1.80=2.80$, so the model is $$C=35(2.8)^t$$ <strong>Choice D &mdash; $C=35{ \\left(2.8\\right)}^{t}$</strong> has both the correct initial value and the correct hourly growth factor."
+      "title": "Convert increase to multiplier",
+      "content": "An increase by $180\\%$ means the new amount is the old amount plus $1.80$ times the old amount:<br/>$$1+1.80=2.80$$"
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $C=35(1.18)^{t}$ &mdash; corresponds to a $18\\%$ hourly increase. Eliminated.</li><li>B) $C=35(1.8)^{t}$ &mdash; corresponds to an $80\\%$ increase per hour (forgets to add $1$). Eliminated.</li><li>C) $C=35(18)^{t}$ &mdash; corresponds to a $1700\\%$ increase per hour. Eliminated.</li><li>D) $C=35(2.8)^{t}$ &mdash; matches the $180\\%$ hourly increase.</li></ul>That matches <strong>Choice D &mdash; $C=35{ \\left(2.8\\right)}^{t}$</strong>."
+      "title": "Write the exponential model",
+      "content": "Use the starting amount and hourly multiplier:<br/>$$C=35(2.8)^t$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

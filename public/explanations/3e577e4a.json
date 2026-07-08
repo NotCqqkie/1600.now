@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Find the radius slope",
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. The radius goes from $(2,-5)$ to $(-2,-6)$, so its slope is\n$$\n\\frac{-6-(-5)}{-2-2}=\\frac{-1}{-4}=\\frac{1}{4}\n$$"
     },
     {
-      "title": "Use perpendicular slopes",
-      "content": "The radius connects center $(2, -5)$ to tangent point $(-2, -6)$:<br/>$$m_{\\text{radius}} = \\frac{-6 - (-5)}{-2 - 2} = \\frac{-1}{-4} = \\frac{1}{4}$$"
-    },
-    {
-      "title": "Take the negative reciprocal for the tangent slope",
-      "content": "The tangent line is perpendicular to the radius, so its slope is:<br/>$$m_{\\text{tangent}} = -\\frac{1}{1/4} = -4$$<br/><strong>A</strong> is correct."
+      "title": "Use the tangent slope",
+      "content": "The tangent slope is the negative reciprocal of the radius slope.\n$$\n-\\frac{1}{\\frac{1}{4}}=-4\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

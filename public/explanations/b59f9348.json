@@ -1,0 +1,23 @@
+{
+  "questionId": "b59f9348",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Adding the two equations eliminates the $y$-terms."
+    },
+    {
+      "title": "Solve for the coordinate",
+      "content": "$$(x+5y)+(x-5y)=5+7$$$$2x=12$$$$x=6$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection point. Its $x$-coordinate is $6$, which matches the algebra. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x + 5y = 5",
+        "x - 5y = 7"
+      ]
+    }
+  ]
+}

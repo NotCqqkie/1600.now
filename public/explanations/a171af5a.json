@@ -1,0 +1,19 @@
+{
+  "questionId": "a171af5a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the height",
+      "content": "The variable $y$ represents the truck's height. The height is $64$ inches, so:<br/>$$y=64$$"
+    },
+    {
+      "title": "Translate the length",
+      "content": "The variable $x$ represents the truck's length. The length is $4$ times the height, so:<br/>$$x=4y$$"
+    },
+    {
+      "title": "Match the system",
+      "content": "The system must include $x=4y$ and $y=64$. The answer is <strong>D</strong>."
+    }
+  ]
+}

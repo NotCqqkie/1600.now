@@ -1,0 +1,15 @@
+{
+  "questionId": "08b363f8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the timeline",
+      "content": "The first sentence gives a 1965 milestone. The second sentence mentions syndicated strips from 1994 and 1996, so the transition must show movement forward in time."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "Choice A signals a restatement, but the second sentence adds new events. Choice B reverses the timeline by saying the later strips came previously. Choice C would introduce examples of a general claim, not later developments after a milestone. The answer is <strong>D</strong>."
+    }
+  ]
+}

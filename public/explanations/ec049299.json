@@ -1,0 +1,19 @@
+{
+  "questionId": "ec049299",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the underlined sentence",
+      "content": "The underlined sentence reports that Allan and colleagues published a study concluding that ocean acidification strongly affects the behavior of <em>Pomacentrus amboinensis</em>. The key word is <em>concluding</em>."
+    },
+    {
+      "title": "Reject later or absent details",
+      "content": "Choice A refers to the later criticism about sample size, not the underlined sentence. Choice B invents a list of fish traits. Choice C invents a location detail."
+    },
+    {
+      "title": "State the sentence function",
+      "content": "Choice D accurately describes the underlined sentence because it states the conclusion Allan and colleagues reached in their 2013 study. The answer is <strong>D</strong>."
+    }
+  ]
+}

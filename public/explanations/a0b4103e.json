@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Expand the right side",
-      "content": "$\\frac{1}{5}(x-k)(x+k) = \\frac{1}{5}(x^2 - k^2) = \\frac{1}{5}x^2 - \\frac{k^2}{5}$"
+      "title": "Expand the factored form",
+      "content": "Use the difference of squares pattern:<br/><br/>$$\\frac{1}{5}(x-k)(x+k)=\\frac{1}{5}(x^2-k^2)$$<br/>$$=\\frac{1}{5}x^2-\\frac{k^2}{5}$$"
     },
     {
       "title": "Match the constant terms",
-      "content": "The original expression is $\\frac{1}{5}x^2 - 2$. Setting $-\\frac{k^2}{5} = -2$ gives $k^2 = 10$, so $k = \\sqrt{10}$ (positive). The positive value is used because $k$ represents the listed constant. That confirms <strong>D</strong> is correct."
+      "content": "The constant term must match the original expression:<br/><br/>$$-\\frac{k^2}{5}=-2$$<br/>$$k^2=10$$<br/>$$k=\\sqrt{10}$$<br/><br/>The answer is <strong>D</strong>."
     }
   ]
 }

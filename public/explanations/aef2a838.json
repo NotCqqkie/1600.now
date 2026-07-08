@@ -1,0 +1,15 @@
+{
+  "questionId": "aef2a838",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the known quantity",
+      "content": "The expression $6m-9$ contains $6m$, and the problem already gives the value of $6m$. There is no need to solve for $m$ separately before evaluating the expression."
+    },
+    {
+      "title": "Substitute directly",
+      "content": "Replace $6m$ with the given value $24$, then subtract $9$ from that result:<br/>$$6m-9=24-9=15$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

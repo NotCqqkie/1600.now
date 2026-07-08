@@ -1,0 +1,15 @@
+{
+  "questionId": "60c17066",
+  "correctAnswer": "360",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the known volume",
+      "content": "The equation is\n$$0.12x+0.22y=0.21(x+y)$$\nThe amount of $12\\%$ solution is $40.0$ gallons, so substitute $x=40$:\n$$0.12(40)+0.22y=0.21(40+y)$$"
+    },
+    {
+      "title": "Solve for y",
+      "content": "Simplify and isolate $y$:\n$$4.8+0.22y=8.4+0.21y$$\n$$0.01y=3.6$$\n$$y=360$$\nThe answer is <strong>360</strong>."
+    }
+  ]
+}

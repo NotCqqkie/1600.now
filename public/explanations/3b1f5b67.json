@@ -1,0 +1,15 @@
+{
+  "questionId": "3b1f5b67",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the square",
+      "content": "The first three terms form a perfect square.<br/>$$x^4+12ax^2+36a^2=(x^2+6a)^2$$<br/>So the expression becomes a difference of squares.<br/>$$(x^2+6a)^2-25$$<br/>$$(x^2+6a)^2-5^2$$"
+    },
+    {
+      "title": "Factor the difference",
+      "content": "Use $A^2-B^2=(A-B)(A+B)$ with $A=x^2+6a$ and $B=5$.<br/>$$(x^2+6a-5)(x^2+6a+5)$$<br/>One factor is $x^2+6a+5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

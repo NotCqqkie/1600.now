@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate costs into mathematical expressions",
-      "content": "The bread costs a fixed <strong>3 dollars</strong>. Grapes cost <strong>2.20 dollars per pound</strong>, so <em>p</em> pounds cost <strong>$2.20p$</strong>. The total paid is <strong>14.00 dollars</strong>."
+      "title": "Translate each cost",
+      "content": "The loaf of bread costs $3$ dollars. The grapes cost $2.20$ dollars per pound, so $p$ pounds of grapes cost $2.20p$ dollars."
     },
     {
-      "title": "Build the total cost equation",
-      "content": "The total cost is the sum of the bread and grapes:<br/>$$3 + 2.20p = 14.00$$<br/>Rearranging: $2.20p + 3 = 14.00$. That matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Build the total equation",
+      "content": "The total cost is the grape cost plus the bread cost.<br/>$$2.20p+3=14.00$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

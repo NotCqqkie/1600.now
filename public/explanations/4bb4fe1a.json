@@ -1,0 +1,19 @@
+{
+  "questionId": "4bb4fe1a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two zeros",
+      "content": "The graph has zeros at $x=10$ and $x=-4$, so the function can be written as:<br/>$$f(x)=a(x-10)(x+4)$$"
+    },
+    {
+      "title": "Expand the factors",
+      "content": "Expand the binomial product:<br/>$$(x-10)(x+4)=x^2-6x-40$$<br/>So:<br/>$$f(x)=a(x^2-6x-40)=ax^2-6ax-40a$$"
+    },
+    {
+      "title": "Choose an integer value",
+      "content": "The coefficient $b$ is $-6a$, so:<br/>$$a+b=a-6a=-5a$$<br/>Since $a$ is an integer greater than $1$, $a=2$ gives $a+b=-10$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "questionId": "9739384f",
+  "correctAnswer": "320",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the vertex model",
+      "content": "The maximum height is $576$ feet at $6$ seconds, so use vertex form:<br/>$$h(t)=a(t-6)^2+576$$",
+      "formula": "$$ y = a(x - h)^2 + k $$"
+    },
+    {
+      "title": "Use the launch height",
+      "content": "The object started at height $0$, so $h(0)=0$:<br/>$$0=a(0-6)^2+576$$<br/>$$0=36a+576$$<br/>$$a=-16$$"
+    },
+    {
+      "title": "Evaluate at ten seconds",
+      "content": "Now substitute $t=10$:<br/>$$h(10)=-16(10-6)^2+576=-16(16)+576=320$$The answer is <strong>320</strong>."
+    }
+  ]
+}

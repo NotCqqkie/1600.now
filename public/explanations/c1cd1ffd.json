@@ -1,0 +1,15 @@
+{
+  "questionId": "c1cd1ffd",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "Expand and combine like terms.<br/>$${5}(2x+9)-3(2x-4)=10x+45-6x+12=4x+57$$<br/>Set this equal to the right side.<br/>$$4x+57=-3+14x$$<br/>$$60=10x$$<br/>$$x=6$$"
+    },
+    {
+      "title": "Compute the requested value",
+      "content": "The question asks for $12x$, not just $x$.<br/>$$12x=12(6)=72$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

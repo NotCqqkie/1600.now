@@ -1,0 +1,15 @@
+{
+  "questionId": "53e9f285",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare price and reviews",
+      "content": "The study found fewer negative reviews near restaurants and convenience stores, where charging is often discounted or free, and more negative reviews near car rental companies, where users usually pay full price. Service levels are assumed similar, so the explanation should focus on user expectations rather than station quality."
+    },
+    {
+      "title": "Explain the review difference",
+      "content": "A is about awareness of fees, not review standards. B and C discuss visit frequency, but the study compares proportions of negative reviews. Lower expectations for discounted service explain why subsidized stations receive fewer negative reviews despite similar service. The answer is <strong>D</strong>."
+    }
+  ]
+}

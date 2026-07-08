@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make a two-row table",
-      "content": "The problem gives one point and one rate. Since $y=23$ when $x=3$, use the point $(3,23)$. Because every increase of $1$ in $x$ increases $y$ by $7$, the slope is $7$."
+      "title": "Use the rate as slope",
+      "content": "For every increase of $1$ in $x$, $y$ increases by $7$. That means the slope is $7$, so the equation has the form\n$$\ny=7x+b\n$$"
     },
     {
-      "title": "Find the line from the data",
-      "content": "Use $y=mx+b$ with $m=7$ and the point $(3,23)$: $$23=7(3)+b$$ $$23=21+b$$ $$b=2$$ So the equation is $y=7x+2$."
+      "title": "Find the intercept",
+      "content": "Use the point $(3,23)$:\n$$\n23=7(3)+b\n$$\n$$\n23=21+b\n$$\n$$\nb=2\n$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "The matching choice is the only equation with slope $7$ and intercept $2$. A quick check gives $7(3)+2=23$, so <strong>C</strong> is correct."
+      "title": "Write the equation",
+      "content": "The relationship is\n$$\ny=7x+2\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

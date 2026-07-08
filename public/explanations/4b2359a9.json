@@ -1,0 +1,15 @@
+{
+  "questionId": "4b2359a9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show the infrared result",
+      "content": "The passage says most light from distant galaxies is infrared and the JWST is primarily an infrared telescope. The next idea follows as a result: JWST can provide more information about those galaxies than Hubble could."
+    },
+    {
+      "title": "Use a result transition",
+      "content": "B signals contrast, but the ideas support each other. C signals an added point rather than a result. D suggests a correction or surprise, which is not the relationship here. The needed transition means \"as a result.\" The answer is <strong>A</strong>."
+    }
+  ]
+}

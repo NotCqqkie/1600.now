@@ -1,19 +1,15 @@
 {
-  "section": "Reading and Writing",
+  "questionId": "93cad661",
   "correctAnswer": "B",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the pattern",
-      "content": "SCCM advances young Black musicians by pairing them with established mentors for technical training and creative guidance. The blank follows: &quot;Numerous organizations offer similar kinds of support to new generations of painters, writers, and other artists, suggesting that ______&quot;"
+      "title": "Generalize the pattern",
+      "content": "The SCCM supports young artists by connecting them with established mentors for training and guidance. The passage then says many other arts organizations offer similar support to new generations of artists."
     },
     {
-      "title": "Generalize the inference",
-      "content": "If many other arts organizations do the same mentorship-based thing for young artists, the logical inference is that arts organizations broadly recognize mentorship of young artists as valuable."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; artists of all ages benefit more from technical training than from creative guidance.</strong>: the passage treats them as joint benefits, not ranks one above the other. Overreach. &#10007;</li><li><strong>Choice B &mdash; many arts organizations recognize the importance of providing opportunities for young artists to learn from experienced mentors.</strong>: directly generalizes the &quot;similar kinds of support&quot; sentence. &#10003;</li><li><strong>Choice C &mdash; most established artists could become even better artists by serving as mentors.</strong>: passage says mentors help mentees, not that mentoring improves the mentors. Misread. &#10007;</li><li><strong>Choice D &mdash; finding a mentor is more important for musicians than it is for painters, writers, and other types of artists.</strong>: opposite of the point &mdash; the passage groups them together as similarly mentored. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Keep the focus on mentees",
+      "content": "Choice A ranks training above guidance without support, Choice C shifts the benefit to mentors, and Choice D treats musicians as different from other artists. The pattern suggests that many organizations value mentorship for young artists. The answer is <strong>B</strong>."
     }
-  ],
-  "questionId": "93cad661"
+  ]
 }

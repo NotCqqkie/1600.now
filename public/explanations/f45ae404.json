@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the two halves of the sentence",
-      "content": "Before the blank: \"an ethical AI-powered crowd-monitoring ___\" &mdash; this needs a head noun (system) to complete the noun phrase. After the blank: \"video streamed from cameras in heavily touristed areas, the AI algorithm determines crowd sizes...\" The second part contains an independent clause (\"the AI algorithm determines crowd sizes\") that must be separated from what precedes it."
+      "title": "Separate the two sentences",
+      "content": "The first part names Public Eye as an ethical AI-powered crowd-monitoring system. The next part begins with an introductory participial phrase, <em>Analyzing video streamed from cameras</em>, before the independent clause about what the AI algorithm determines."
     },
     {
-      "title": "Test how each punctuation choice handles the boundary",
-      "content": "We need (1) to close off the noun \"system\" and (2) to attach \"Analyzing video streamed from cameras\" as an introductory participial phrase to the independent clause \"the AI algorithm determines crowd sizes.\""
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>\"system—analyzing\"</strong>: an em dash followed by \"analyzing\" makes the participial phrase part of the first sentence, leaving \"the AI algorithm determines crowd sizes\" floating as a second independent clause joined only by a comma &mdash; comma splice. &#10007;</li><li><strong>\"system, analyzing\"</strong>: same problem &mdash; the participial phrase modifies \"system,\" and then the independent clause is joined to it by only a comma. Comma splice. &#10007;</li><li><strong>\"system. Analyzing\"</strong>: the period ends the first sentence cleanly; \"Analyzing video streamed from cameras in heavily touristed areas,\" is a properly punctuated introductory participial phrase to the new independent clause. &#10003;</li><li><strong>\"system analyzing\"</strong>: no punctuation at all &mdash; the independent clause is still joined to a noun phrase by only a comma, and \"system analyzing video\" reads as a run-on. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Prevent a comma splice",
+      "content": "A and B attach <em>analyzing</em> to the first sentence, leaving the independent clause joined only by a comma. D gives no sentence boundary and still produces a run-on structure. A period after <em>system</em> cleanly starts the new sentence. The answer is <strong>C</strong>."
     }
   ]
 }

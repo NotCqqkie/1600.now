@@ -1,0 +1,19 @@
+{
+  "questionId": "1f4bb722",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the y-intercept",
+      "content": "The line crosses the $y$-axis at $12$, so the equation has $b=12$ in slope-intercept form."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Use two clear points on the line, such as $(0,12)$ and $(6,6)$. Then<br/>$$m=\\frac{6-12}{6-0}=\\frac{-6}{6}=-1$$"
+    },
+    {
+      "title": "Write the equation",
+      "content": "With slope $-1$ and y-intercept $12$, the equation is<br/>$$y=-x+12$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

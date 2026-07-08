@@ -1,0 +1,15 @@
+{
+  "questionId": "ccb755b8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two expressions for $y$ are equal.$$2x^2-23x+60=x+a$$"
+    },
+    {
+      "title": "Use the one-intersection condition",
+      "content": "Move all terms to one side.$$2x^2-24x+(60-a)=0$$For the graphs to intersect at exactly one point, this quadratic has one solution. That solution occurs at the vertex, whose $x$-coordinate is $$\\frac{-(-24)}{2(2)}=6$$The answer is <strong>C</strong>."
+    }
+  ]
+}

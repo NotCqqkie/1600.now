@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find f from the table points",
-      "content": "Use the points $(-4,0)$ and $\\left(-\\frac{19}{5},1\\right)$. The slope is $$m=\\frac{1-0}{-\\frac{19}{5}-(-4)}=\\frac{1}{\\frac{1}{5}}=5.$$ Substitute $(-4,0)$ into $f(x)=5x+b$ to get $b=20$, so $f(x)=5x+20$."
+      "title": "Find the linear function",
+      "content": "Using the table points $(-4,0)$ and $(-\\frac{19}{5},1)$, the slope is<br/>$$m=\\frac{1-0}{-\\frac{19}{5}-(-4)}=\\frac{1}{\\frac{1}{5}}=5$$<br/>Substitute $(-4,0)$ into $f(x)=5x+b$:<br/>$$0=5(-4)+b$$<br/>$$b=20$$"
     },
     {
-      "title": "Apply h(x) = f(x) - 13",
-      "content": "Now subtract $13$ from the whole function: $$h(x)=f(x)-13=(5x+20)-13=5x+7.$$ A quick check at $x=-4$ gives $h(-4)=-13$, which is $13$ less than $f(-4)=0$. That matches the correct answer, <strong>B</strong>."
+      "title": "Apply the function shift",
+      "content": "So the function from the table is $f(x)=5x+20$. Since $h(x)=f(x)-13$, subtract $13$ from the constant term:<br/>$$h(x)=(5x+20)-13=5x+7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

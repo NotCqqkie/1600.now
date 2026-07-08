@@ -1,0 +1,15 @@
+{
+  "questionId": "7a1e8c91",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the partition hypothesis",
+      "content": "The partition hypothesis separates Devonian forests into two distinct biomes: a tropical deltaic forest with <em>Eospermatopteris</em> and an arid floodplain forest with <em>Archaeopteris</em>. Malik's conclusion needs evidence from Cairo that does not fit that separation, especially evidence that the two supposedly distinct plant associations overlapped."
+    },
+    {
+      "title": "Find the contradiction",
+      "content": "Choice A fits the hypothesis because <em>Eospermatopteris</em> belongs in a tropical deltaic forest. Choice B places the transition after the Devonian. Choice D mentions other species without addressing the key plants. Evidence of contemporaneous <em>Eospermatopteris</em> and <em>Archaeopteris</em> in an arid floodplain forest would directly undermine the partition. The answer is <strong>C</strong>."
+    }
+  ]
+}

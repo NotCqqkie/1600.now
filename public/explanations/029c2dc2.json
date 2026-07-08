@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the contributions to the total",
-      "content": "The drill sheet is worth 90 points total. The points come from:<ul><li>$x$ questions worth 2 points each, totaling $2x$ points</li><li>$y$ questions worth 5 points each, totaling $5y$ points</li></ul>"
+      "title": "Write the point totals",
+      "content": "There are $x$ questions worth $2$ points each, so those questions are worth $2x$ points. There are $y$ questions worth $5$ points each, so those questions are worth $5y$ points."
     },
     {
-      "title": "Set up the equation for the total",
-      "content": "Since the total must be 90 points:<br/>$$2x + 5y = 90$$<br/>That matches <strong>Choice D &mdash; $2x+5y=90$</strong>."
+      "title": "Set the total equal to the budget",
+      "content": "The drill sheet is worth $90$ points total, so<br/>$$2x+5y=90$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

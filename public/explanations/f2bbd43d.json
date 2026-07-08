@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the inequalities with y = 67",
-      "content": "The point $(x, 67)$ has $y = 67$. The first inequality $y \\gt  15$ is satisfied since $67 \\gt  15$. Correct<br/><br/>For the second inequality $5x + y \\lt 23$, substitute $y = 67$:<br/>$$5x + 67 \\lt 23$$<br/>$$5x \\lt -44$$<br/>$$x \\lt -8.8$$"
+      "title": "Substitute the y value",
+      "content": "The point is $(x,67)$, so $y=67$. The first inequality is true because $67>15$. Substitute $67$ into the second inequality.<br/>$$5x+67<23$$"
     },
     {
-      "title": "Determine which choice satisfies the constraint x < -8.8",
-      "content": "Testing each choice:<ul><li><strong>$-10$</strong>: $-10 \\lt -8.8$ Correct</li><li><strong>$-6$</strong>: $-6 \\lt -8.8$ Incorrect</li><li><strong>$6$</strong>: $6 \\lt -8.8$ Incorrect</li><li><strong>$10$</strong>: $10 \\lt -8.8$ Incorrect</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Solve the constraint",
+      "content": "Subtract $67$ and divide by $5$.<br/>$$5x<-44$$<br/>$$x<-\\frac{44}{5}$$<br/>$$x<-8.8$$<br/>Only $-10$ is less than $-8.8$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,50 +1,19 @@
 {
   "questionId": "967ef685",
-  "qid": "967ef685",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $\\frac{36a \\left({k}^{2}+1\\right)}{k}$."
+      "title": "Use a common denominator",
+      "content": "The first term already has denominator $k$. Rewrite the second term with the same denominator by multiplying by $\\frac{k}{k}$:\n$$\n36ak=\\frac{36ak^2}{k}\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Combine the fractions",
+      "content": "Now the terms can be added because both are written over $k$:\n$$\n\\frac{36a}{k}+\\frac{36ak^2}{k}=\\frac{36a+36ak^2}{k}\n$$"
     },
     {
-      "title": "Step 1",
-      "content": "Rewrite the second term with denominator k: $36ak = \\frac{36ak^{2}}{k}$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Combine the two fractions: $\\frac{36a}{k} + \\frac{36ak^{2}}{k} = \\frac{36a + 36ak^{2}}{k}$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Factor 36a from the numerator: $\\frac{36a(1 + k^{2})}{k} = \\frac{36a(k^{2}+1)}{k}$."
+      "title": "Factor the numerator",
+      "content": "The numerator has a common factor of $36a$:\n$$\n\\frac{36a+36ak^2}{k}=\\frac{36a(k^2+1)}{k}\n$$\nThe answer is <strong>D</strong>."
     }
-  ],
-  "choices": [
-    {
-      "id": "A",
-      "text": "$\\frac{72a}{k}$",
-      "elimination": "<ul><li>This would be correct only if $36ak = \\frac{36a}{k}$, i.e., if $k = \\frac{1}{k}$, which is only true when $k=1$.</li><li>For general $k \\gt 0$, the second term is $\\frac{36ak^{2}}{k}$, not $\\frac{36a}{k}$.</li><li>Eliminated because the $k^{2}$ factor in the numerator is dropped.</li></ul>"
-    },
-    {
-      "id": "B",
-      "text": "$\\frac{72a{k}^{2}}{k}$",
-      "elimination": "<ul><li>This simplifies to $72ak$, which equals $2 \\times 36ak$ &mdash; it ignores the $\\frac{36a}{k}$ term entirely.</li><li>Both terms must be combined, not just one of them doubled.</li><li>Eliminated because the first term $\\frac{36a}{k}$ is absent.</li></ul>"
-    },
-    {
-      "id": "C",
-      "text": "$\\frac{36a\\left(k+1\\right)}{k}$",
-      "elimination": "<ul><li>Expanding: $\\frac{36a(k+1)}{k} = \\frac{36ak + 36a}{k} = 36a + \\frac{36a}{k}$.</li><li>This equals the original only if $36ak = 36a$, i.e., $k = 1$. It doesn&apos;t hold for general $k$.</li><li>Eliminated because the correct factor is $(k^{2}+1)$, not $(k+1)$.</li></ul>"
-    },
-    {
-      "id": "D",
-      "text": "$\\frac{36a\\left({k}^{2}+1\\right)}{k}$",
-      "elimination": "<ul><li>Convert the second term: $36ak = \\frac{36ak^{2}}{k}$.</li><li>Add: $\\frac{36a}{k} + \\frac{36ak^{2}}{k} = \\frac{36a(1+k^{2})}{k} = \\frac{36a(k^{2}+1)}{k}$.</li><li>This matches exactly. That confirms <strong>D</strong> is correct.</li></ul>"
-    }
-  ],
-  "section": "Math"
+  ]
 }

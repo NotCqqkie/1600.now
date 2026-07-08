@@ -1,0 +1,19 @@
+{
+  "questionId": "b20d9cdd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group matching terms",
+      "content": "Group the four terms into two pairs. The first two terms share a factor involving $x^2$, and the last two terms share a factor involving $y^2$. This sets up a common binomial factor.<br/>$$10x^3+40x^2y+xy^2+4y^3$$<br/>$$=(10x^3+40x^2y)+(xy^2+4y^3)$$"
+    },
+    {
+      "title": "Pull out common factors",
+      "content": "Factor each group separately. The first group has common factor $10x^2$, and the second group has common factor $y^2$.<br/>$$10x^2(x+4y)+y^2(x+4y)$$"
+    },
+    {
+      "title": "Use the shared factor",
+      "content": "Both terms now share the factor $x+4y$, so factor it out. The other factor is made from the remaining pieces, $10x^2$ and $y^2$.<br/>$$(10x^2+y^2)(x+4y)$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

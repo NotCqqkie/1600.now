@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find z",
-      "content": "First, 40% less than 45 means subtract 40% of 45 from 45. In decimal form, 40% = 0.40, so $$z = 45 \\times (1 - 0.40) = 45 \\times 0.60 = 27$$."
+      "title": "Find the value of z",
+      "content": "$40\\%$ less than $45$ means keeping $60\\%$ of $45$:<br/>$$z=45(0.60)=27$$"
     },
     {
-      "title": "Find w",
-      "content": "The number w is 120% greater than z, meaning $w = z + 120\\% \\text{ of } z = z \\times (1 + 1.20)$. Substitute z = 27: $$w = 27 \\times (1 + 1.20) = 27 \\times 2.20 = 59.4 = \\frac{297}{5}$$ The answer is <strong>297/5</strong>."
+      "title": "Increase by one hundred twenty percent",
+      "content": "$120\\%$ greater than $z$ means multiplying $z$ by $2.20$:<br/>$$w=27(2.20)=59.4=\\frac{297}{5}$$<br/>The answer is <strong>297/5</strong>."
     }
   ]
 }

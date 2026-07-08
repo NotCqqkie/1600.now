@@ -1,0 +1,15 @@
+{
+  "questionId": "6d804964",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the large-forest flaw",
+      "content": "The model's flaw depends on forest size and mammal size. For large forests, its predictions for large-mammal populations are too high. Pinehollow is a large forest, so the same large-mammal overprediction would be expected there."
+    },
+    {
+      "title": "Reject unrelated flaws",
+      "content": "Choice A applies the small-mammal issue to a large forest. Choice C introduces predator-prey relationships, which are not discussed. Choice D says the model reflects other factors, but the stated flaw is overestimating population size. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the proportion of sample voters supporting Candidate A",
-      "content": "From the table, voters for Candidate A: 202 (female) + 34 (male) = 236 out of 400 total sampled.<br/><br/>Proportion: $$\\frac{236}{400} = \\frac{59}{100}$$"
+      "title": "Find the sample proportion",
+      "content": "The sample has $202+34=236$ voters planning to vote for Candidate A out of $400$ voters total.\n$$\\frac{236}{400}=\\frac{59}{100}$$"
     },
     {
-      "title": "Scale the sample proportion to the town's total voters",
-      "content": "Apply the sample proportion to the town's 6,000 voters:<br/>$$\\frac{59}{100} \\times 6,000 = 59 \\times 60 = 3,540$$<br/>The estimate is <strong>3,540</strong> voters for Candidate A."
+      "title": "Scale to the town",
+      "content": "Apply that proportion to the town's $6{,}000$ voters.\n$$\\frac{59}{100}\\cdot 6{,}000=59\\cdot60$$\n$$59\\cdot60=3{,}540$$\nThis is 3540 voters. The answer is <strong>3,540</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "8af8cb1f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The sentence needs one main action for the subject <em>an ecological study</em>. The core claim is that the study <em>found</em> one species' eggs to be longer than another's. That means the words about comparing egg lengths must describe which study is being discussed, so they need to be introduced as a restrictive modifier after <em>study</em>."
+    },
+    {
+      "title": "Choose the grammatical modifier",
+      "content": "Choice A - study, that. This incorrectly places a comma before <em>that</em>, even though a restrictive clause introduced by <em>that</em> should not be set off by a comma. Choice B - study, which. This creates a nonessential clause and leaves the sentence structure awkward before <em>found</em>. Choice C - study. This leaves <em>compared</em> and <em>found</em> competing as main verbs. Choice D - study that. This correctly makes <em>that compared the lengths of eggs produced by different bird species</em> modify <em>study</em>, leaving <em>found</em> as the main verb. The answer is <strong>D</strong>."
+    }
+  ]
+}

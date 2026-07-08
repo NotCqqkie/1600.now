@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the meaning of $(0,b)$",
-      "content": "If the graph passes through $(0,b)$, then $b$ is the function value when $x=0$."
+      "title": "Use the point notation",
+      "content": "If the graph passes through $(0,b)$, then $b$ is the value of the function when $x=0$."
     },
     {
-      "title": "Evaluate $f(0)$",
-      "content": "$$f(0)=0^5+8(0)+23=23.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "Therefore $b=23$. The answer is <strong>23</strong>. This is the $y$-intercept of the graph because the point has $x=0$. All terms with $x$ disappear at that input."
+      "title": "Evaluate the function",
+      "content": "Substitute $0$ for $x$:<br/>$$f(0)=0^5+8(0)+23$$<br/>The answer is <strong>23</strong>."
     }
   ]
 }

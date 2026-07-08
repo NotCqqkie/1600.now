@@ -1,0 +1,15 @@
+{
+  "questionId": "fe201a0c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast two species concepts",
+      "content": "The passage presents competing ways to define species. The cohesion species concept uses phenotypic cohesion, while the genetic species concept uses genetic similarity, so the second concept is being contrasted with the first."
+    },
+    {
+      "title": "Reject noncontrast signals",
+      "content": "Choice A would make the genetic concept an example of the cohesion concept. Choice B incorrectly signals a consequence. Choice C adds emphasis but not contrast. The remaining choice introduces an alternative framework. The answer is <strong>D</strong>."
+    }
+  ]
+}

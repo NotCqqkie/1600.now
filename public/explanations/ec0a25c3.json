@@ -1,0 +1,19 @@
+{
+  "questionId": "ec0a25c3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the missing variable",
+      "content": "Ellison et al. are trying to answer whether perceived category similarity predicts consumers' likelihood of purchasing brand extensions. They already identified extended-brand pairs and calculated, for each pair, how purchase probability changed when the same brand was bought in the other category. That calculation gives them the purchasing outcome to compare against a similarity measure."
+    },
+    {
+      "title": "Match the study to the question",
+      "content": "To answer their research question, they need a measure of how similar consumers think the paired product categories are. That measure can then be compared with the purchase-probability changes the team already calculated for each extended-brand pair. The design must focus on category pairs, such as cooking oil and butter, rather than on a brand's popularity."
+    },
+    {
+      "title": "Reject unrelated measurements",
+      "content": "Choice A measures similarity of one product to other products in the same category, which is not between-category similarity. Choices B and D measure brand recognition instead, and Choice D compares recognition with product cost. Those measurements would not test whether shoppers see the paired categories as similar. The remaining design directly links perceived category similarity to the team's purchase-probability data. The answer is <strong>C</strong>."
+    }
+  ]
+}

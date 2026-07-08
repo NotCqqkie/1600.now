@@ -1,0 +1,23 @@
+{
+  "questionId": "fa2d7485",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the function equal to output",
+      "content": "The function is $f(x)=5\\sqrt{x}$, and the desired output is $45$:<br/>$$5\\sqrt{x}=45$$"
+    },
+    {
+      "title": "Isolate the radical",
+      "content": "Divide both sides by $5$:<br/>$$\\sqrt{x}=9$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "Square both sides to solve for $x$:<br/>$$x=9^2=81$$"
+    },
+    {
+      "title": "Select the matching value",
+      "content": "The value of $x$ is $81$. The answer is <strong>D</strong>."
+    }
+  ]
+}

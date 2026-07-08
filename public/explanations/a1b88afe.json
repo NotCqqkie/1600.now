@@ -1,0 +1,15 @@
+{
+  "questionId": "a1b88afe",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the comparison",
+      "content": "The text compares ordinary historical knowledge to a map: it can be detailed, accurate, and useful, but it feels cold and lacks the vivid charm of a painting. The point is that historical figures are often known through facts rather than felt as full people."
+    },
+    {
+      "title": "Eliminate narrower claims",
+      "content": "<ul><li><strong>Choice A</strong> focuses on historians' interests, which the text does not discuss.</li><li><strong>Choice B</strong> claims historians' creativity is restricted, but the text is about how historical knowledge feels.</li><li><strong>Choice D</strong> treats the map-and-painting comparison too literally.</li></ul>The remaining choice states the main idea about facts rather than personalities. The answer is <strong>C</strong>."
+    }
+  ]
+}

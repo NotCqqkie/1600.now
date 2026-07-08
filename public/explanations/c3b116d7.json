@@ -5,16 +5,15 @@
   "steps": [
     {
       "title": "Factor the quadratic",
-      "content": "To factor $5x^2 + 31x - 28$, look for two binomials $(5x + a)(x + b)$ where $ab = -28$ and $5b + a = 31$. Testing $a = -4, b = 7$: $(5x - 4)(x + 7) = 5x^2 + 35x - 4x - 28 = 5x^2 + 31x - 28$. &#10003;"
+      "content": "Factor by splitting the middle term. The values $35$ and $-4$ have product $-140$ and sum $31$:<br/>$$5x^2+31x-28=5x^2+35x-4x-28$$<br/>$$=5x(x+7)-4(x+7)$$<br/>$$=(5x-4)(x+7)$$"
     },
     {
-      "title": "Test expression I using the Factor Theorem",
-      "content": "By the Factor Theorem, $(x - 7)$ is a factor if and only if $f(7) = 0$. <br/>$$f(7) = 5(7)^2 + 31(7) - 28 = 245 + 217 - 28 = 434$$<br/>Since $f(7) = 434 \\neq 0$, expression I is NOT a factor."
+      "title": "Compare the listed factors",
+      "content": "Statement I lists $x-7$, but the factorization contains $x+7$, so statement I is not a factor. Statement II lists $5x-4$, which appears in the factorization, so statement II is a factor."
     },
     {
-      "title": "Test expression II using the Factor Theorem",
-      "content": "By the Factor Theorem, $(5x - 4)$ is a factor if and only if $f(4/5) = 0$ (setting $5x - 4 = 0$ gives $x = 4/5$). <br/>$$f(4/5) = 5\\left(\\frac{4}{5}\\right)^2 + 31\\left(\\frac{4}{5}\\right) - 28 = \\frac{16}{5} + \\frac{124}{5} - 28 = \\frac{140}{5} - 28 = 0$$<br/>Since $f(4/5) = 0$, expression II IS a factor. Only statement II is a factor. That is the correct answer."
+      "title": "Eliminate the other choices",
+      "content": "Choices that include statement I cannot work, and the choice that excludes statement II cannot work. Only the choice for statement II alone matches the factorization.<br/>The answer is <strong>B</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; I only</strong>: Expression I is $(x - 7)$. Testing $f(7) = 5(49) + 217 - 28 = 434 \\neq 0$, so $x - 7$ is not a factor. &#10007;</li><li><strong>Choice B &mdash; II only</strong>: Expression II is $(5x - 4)$. Testing $f(4/5) = 16/5 + 124/5 - 28 = 0$ &#10003;. Expression I fails as shown. Only II is a factor. &#10003;</li><li><strong>Choice C &mdash; I and II</strong>: Expression I is not a factor ($f(7) = 434$), so both cannot be factors. &#10007;</li><li><strong>Choice D &mdash; Neither I nor II</strong>: Expression II is confirmed a factor via the Factor Theorem. &#10007;</li></ul>That is the correct answer."
+  ]
 }

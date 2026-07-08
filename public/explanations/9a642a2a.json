@@ -1,0 +1,15 @@
+{
+  "questionId": "9a642a2a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Punctuate the appositive",
+      "content": "The phrase <em>in this case, Henry Cavendish</em> adds identifying information inside the noun phrase. Because it interrupts the sentence before the relative clause <em>who was not the first</em>, it needs matching punctuation on both sides."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "Choice A opens with a colon and closes with a comma. Choice B opens with a dash and closes with a comma. Choice C has no opening punctuation for the appositive. Only matching dashes correctly bracket the interruption. The answer is <strong>D</strong>."
+    }
+  ]
+}

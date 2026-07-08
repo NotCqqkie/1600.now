@@ -1,0 +1,19 @@
+{
+  "questionId": "4868129c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the claim",
+      "content": "Morales and colleagues challenge the idea that cultures universally represent time along imagined linear axes. The passage gives English front/back language as an example of that kind of axis. To support the researchers' claim, a finding should show that Yupno speakers' gestures do not arrange past and future as opposite directions on a single line."
+    },
+    {
+      "title": "Reject irrelevant findings",
+      "content": "<ul><li><strong>Choice A - Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented.</strong>: this is about which hand is used, not the direction of time gestures.</li><li><strong>Choice B - Some Yupno grammatical structures used when talking about time are also used in English.</strong>: shared grammar does not show whether gestures follow a linear axis.</li><li><strong>Choice C - Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors.</strong>: setting and frequency do not address past/future direction.</li></ul>"
+    },
+    {
+      "title": "Choose the directional evidence",
+      "content": "<ul><li><strong>Choice D - Future-oriented gestures used by Yupno speakers do not, on average, point in the opposite linear direction of past-oriented gestures.</strong>: this directly shows the absence of the opposite-direction pattern expected by the supposedly universal linear-axis view.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

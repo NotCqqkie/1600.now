@@ -40,6 +40,10 @@ import {
   type BankSourceId,
   type BankSubject,
 } from "./bankTypes";
+import {
+  getPastIdAliasByCanonicalId,
+  resolvePastCanonicalSourceId,
+} from "./pastIdAliases";
 
 interface RawBankSource {
   bankType: BankSourceId;
@@ -110,6 +114,7 @@ type BankRouteIndexRow = readonly [
   bankType: BankSourceId,
   difficulty: "Easy" | "Medium" | "Hard" | null,
   detailShard: number,
+  dupGroup: number,
 ];
 
 const bankRouteIndexLoaders = {
@@ -261,6 +266,8 @@ export interface BankQuestion {
   subject: BankSubject;
   /** original unique id from the source dataset */
   sourceId: string;
+  /** pre-normalization past-bank id, retained for old links and progress migration */
+  legacySourceId?: string;
   questionNumber: number | string;
   testName: string;
   prompt: string;
@@ -291,9 +298,12 @@ export interface BankQuestionRouteRef {
   id: number;
   stableId: string;
   sourceId: string;
+  legacySourceId?: string;
   bankType: BankSourceId;
   difficulty?: "Easy" | "Medium" | "Hard" | null;
   detailShard: number;
+  /** Near-duplicate group within the pool; 0 = unique */
+  dupGroup: number;
 }
 
 // Re-export category types for consumers
@@ -729,6 +739,9 @@ const normalizeQuestion = (
   }
 
   const sourceId = String(q.id);
+  const pastAlias = source.bankType === "past"
+    ? getPastIdAliasByCanonicalId(subject, sourceId)
+    : null;
   const testName = source.bankType === "past" ? source.bankLabel : q.testName || source.bankLabel;
   const stableId = buildBankQuestionKey(source.bankType, subject, sourceId);
   const hiddenFromBank = metadata.hiddenBankQuestionIds.has(stableId);
@@ -743,7 +756,10 @@ const normalizeQuestion = (
     bankLabel: source.bankLabel,
     subject,
     sourceId,
-    questionNumber: source.bankType === "past" ? extractLegacyQuestionNumber(sourceId) : sourceId,
+    ...(pastAlias ? { legacySourceId: pastAlias.legacyId } : {}),
+    questionNumber: source.bankType === "past"
+      ? pastAlias?.legacyQuestionNumber ?? extractLegacyQuestionNumber(sourceId)
+      : sourceId,
     testName,
     prompt,
     passage,
@@ -996,14 +1012,21 @@ const loadBankQuestionDetailShard = (
   );
 };
 
-const routeRowToRef = (row: BankRouteIndexRow): BankQuestionRouteRef => ({
-  id: row[0],
-  stableId: row[1],
-  sourceId: row[2],
-  bankType: row[3],
-  difficulty: row[4],
-  detailShard: row[5],
-});
+const routeRowToRef = (subject: BankSubject, row: BankRouteIndexRow): BankQuestionRouteRef => {
+  const bankType = row[3];
+  const sourceId = row[2];
+  const pastAlias = bankType === "past" ? getPastIdAliasByCanonicalId(subject, sourceId) : null;
+  return {
+    id: row[0],
+    stableId: row[1],
+    sourceId,
+    ...(pastAlias ? { legacySourceId: pastAlias.legacyId } : {}),
+    bankType,
+    difficulty: row[4],
+    detailShard: row[5],
+    dupGroup: row[6] ?? 0,
+  };
+};
 
 export const loadBankQuestionRouteRefs = (
   subject: BankSubject,
@@ -1011,7 +1034,7 @@ export const loadBankQuestionRouteRefs = (
 ): Promise<BankQuestionRouteRef[]> => {
   const cacheKey = `${subject}:${bankSource}`;
   return cachePromiseWithEviction(routeRefsCache, cacheKey, () =>
-    loadBankRouteIndexRows(subject, bankSource).then((rows) => rows.map(routeRowToRef)),
+    loadBankRouteIndexRows(subject, bankSource).then((rows) => rows.map((row) => routeRowToRef(subject, row))),
   );
 };
 
@@ -1029,11 +1052,17 @@ export const loadBankQuestionRouteRef = async (
   const cacheKey = `${subject}:${bankSource}`;
   let sourceIdIndex = routeRefBySourceIdCache.get(cacheKey);
   if (!sourceIdIndex) {
-    sourceIdIndex = Promise.resolve(new Map(refs.map((ref) => [ref.sourceId, ref])));
+    sourceIdIndex = Promise.resolve(new Map(refs.flatMap((ref) => [
+      [ref.sourceId, ref] as const,
+      ...(ref.legacySourceId ? [[ref.legacySourceId, ref] as const] : []),
+    ])));
     routeRefBySourceIdCache.set(cacheKey, sourceIdIndex);
   }
 
-  return (await sourceIdIndex).get(idParam) ?? null;
+  const indexedRef = (await sourceIdIndex).get(idParam);
+  if (indexedRef) return indexedRef;
+  const canonicalPastId = resolvePastCanonicalSourceId(subject, idParam);
+  return canonicalPastId === idParam ? null : (await sourceIdIndex).get(canonicalPastId) ?? null;
 };
 
 export const loadRouteIndexedBankQuestion = (
@@ -1100,7 +1129,10 @@ export const loadBankQuestionBySourceId = async (
   let index = sourceIdIndexCache.get(cacheKey);
   if (!index) {
     index = loadBankPool(subject, bankSource, options).then((questions) =>
-      new Map(questions.map((q) => [q.sourceId, q])),
+      new Map(questions.flatMap((q) => [
+        [q.sourceId, q] as const,
+        ...(q.legacySourceId ? [[q.legacySourceId, q] as const] : []),
+      ])),
     );
     sourceIdIndexCache.set(cacheKey, index);
   }
@@ -1117,7 +1149,10 @@ export const loadSourceBankQuestionBySourceId = async (
   let index = sourceQuestionIdIndexCache.get(cacheKey);
   if (!index) {
     index = loadAllSourceBankQuestions(subject, bankSource, options).then((questions) =>
-      new Map(questions.map((q) => [q.sourceId, q])),
+      new Map(questions.flatMap((q) => [
+        [q.sourceId, q] as const,
+        ...(q.legacySourceId ? [[q.legacySourceId, q] as const] : []),
+      ])),
     );
     sourceQuestionIdIndexCache.set(cacheKey, index);
   }

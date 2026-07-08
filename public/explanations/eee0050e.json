@@ -1,0 +1,19 @@
+{
+  "questionId": "eee0050e",
+  "correctAnswer": "17",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the product equation",
+      "content": "The number that is $6$ less than $x$ is $x-6$. The product condition gives\n$$\nx(x-6)=187\n$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Move all terms to one side and factor:\n$$\nx^2-6x-187=0\n$$\n$$\n(x-17)(x+11)=0\n$$"
+    },
+    {
+      "title": "Choose the positive root",
+      "content": "The solutions are $x=17$ and $x=-11$. Since $x$ is positive, use the positive solution. The answer is <strong>17</strong>."
+    }
+  ]
+}

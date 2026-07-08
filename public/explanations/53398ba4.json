@@ -1,0 +1,16 @@
+{
+  "questionId": "53398ba4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the missing side",
+      "content": "The diagonal and the two sides of the rectangle form a right triangle. Let $x$ be the unknown side length, then use the Pythagorean theorem.<br/>$$6^2+x^2=(\\sqrt{85})^2$$<br/>$$36+x^2=85$$<br/>$$x^2=49$$<br/>$$x=7$$",
+      "formula": "$$a^2 + b^2 = d^2$$"
+    },
+    {
+      "title": "Calculate the perimeter",
+      "content": "The rectangle has side lengths $6$ and $7$, so its perimeter is twice their sum.<br/>$$P=2(6+7)$$<br/>$$P=2(13)$$<br/>$$P=26$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

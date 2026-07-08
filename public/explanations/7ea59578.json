@@ -1,0 +1,23 @@
+{
+  "questionId": "7ea59578",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check for equivalent equations",
+      "content": "Multiply the first equation by $5$.$$5(3.5x+1.2y)=5(8)$$"
+    },
+    {
+      "title": "Compare the result",
+      "content": "$$17.5x+6y=40$$This is exactly the second equation, so both equations describe the same line. The system has infinitely many solutions."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations. They overlap as the same line, so every point on one is also on the other. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "y = \\frac{8 - 3.5x}{1.2}",
+        "y = \\frac{40 - 17.5x}{6}"
+      ]
+    }
+  ]
+}

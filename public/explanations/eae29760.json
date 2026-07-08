@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student wants to explain an advantage of the Hanke-Henry calendar. A strong answer must state what that advantage is and explain why it exists &mdash; connecting the calendar's design (364 days, divisible by 7) to the benefit (more predictable scheduling)."
+      "title": "Identify the calendar benefit",
+      "content": "The student wants to explain an advantage of the Hanke-Henry calendar. The notes say it has 364 days, which can be divided evenly by 7, so dates fall on the same weekday every year."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"The Gregorian calendar has 365 days, which is one day longer than the Hanke-Henry permanent calendar.\"</strong>: states a factual comparison of day counts but names no advantage of the Hanke-Henry calendar. &#10007;</li><li><strong>\"Adopting the Hanke-Henry permanent calendar would help solve a problem with the Gregorian calendar.\"</strong>: hints at an advantage but never identifies the problem or the solution, so no advantage is actually explained. &#10007;</li><li><strong>\"Designed so calendar dates would occur on the same day of the week each year, the Hanke-Henry calendar supports more predictable scheduling than does the Gregorian calendar.\"</strong>: names the advantage (more predictable scheduling) and explains why (dates fall on the same weekday each year), directly linking cause and benefit. &#10003;</li><li><strong>\"The Hanke-Henry permanent calendar was developed as an alternative to the Gregorian calendar, which is currently the most-used calendar in the world.\"</strong>: describes the calendar's origins but states no advantage at all. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Reject incomplete background",
+      "content": "Choice A only compares the number of days in the Gregorian and Hanke-Henry calendars, without explaining why the difference helps. Choice B says the calendar would solve a problem, but it is too vague to explain the advantage. Choice D gives background about the Gregorian calendar’s current use rather than the Hanke-Henry benefit."
+    },
+    {
+      "title": "Link design to scheduling",
+      "content": "The sentence that connects fixed weekdays to more predictable scheduling uses the relevant information from the notes. It explains why the Hanke-Henry design is advantageous compared with the Gregorian calendar. The answer is <strong>C</strong>."
     }
   ]
 }

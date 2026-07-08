@@ -1,0 +1,15 @@
+{
+  "questionId": "ac517f4c",
+  "correctAnswer": "1/38",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the product formula",
+      "content": "For a quadratic $ax^2+bx+c=0$, the product of the solutions is $\\frac{c}{a}$. In the given equation,<br/>$$a=38$$<br/>and<br/>$$c=rs$$"
+    },
+    {
+      "title": "Match the given product form",
+      "content": "The product of the solutions is<br/>$$\\frac{rs}{38}$$<br/>The problem says this equals $krs$, so<br/>$$krs=\\frac{rs}{38}$$<br/>Divide by $rs$. The answer is <strong>1/38</strong>."
+    }
+  ]
+}

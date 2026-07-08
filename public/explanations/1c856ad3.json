@@ -1,0 +1,15 @@
+{
+  "questionId": "1c856ad3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test alarm-call specificity",
+      "content": "The conclusion is that <em>C. cinerascens</em> associates <em>T. caesius</em> alarm calls with danger. Supporting evidence should show the birds respond specifically to those calls, not just to any sound or disturbance. A strong control should keep the playback situation while removing the alarm-call meaning."
+    },
+    {
+      "title": "Use the control condition",
+      "content": "Choice A only shows consistent responses across callers, not whether the response is danger-specific. Choice C suggests an alternate cause before playback, and Choice D concerns other species. The remaining choice shows no response to random noise, isolating the alarm calls from ordinary noise or disturbance and making the danger-association explanation stronger for this specific species. The answer is <strong>B</strong>."
+    }
+  ]
+}

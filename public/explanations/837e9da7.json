@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute into the denominator",
-      "content": "The function is $f(x)=\\dfrac{1}{8x}$. When $x=4$, the denominator is 8 times 4, not 8 plus 4."
+      "title": "Substitute the input",
+      "content": "The function is $f(x)=\\frac{1}{8x}$. Substitute $x=4$ into the denominator.<br/>$$f(4)=\\frac{1}{8(4)}$$"
     },
     {
-      "title": "Simplify the fraction",
-      "content": "$$f(4)=\\dfrac{1}{8(4)}=\\dfrac{1}{32}$$<br/>The expression equals one over the product 32, so <strong>D</strong> is correct. Choice C uses $\\dfrac{1}{12}$, which comes from adding $8+4$ instead of multiplying."
+      "title": "Simplify the denominator",
+      "content": "Multiply $8$ by $4$, not add them.<br/>$$f(4)=\\frac{1}{32}$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

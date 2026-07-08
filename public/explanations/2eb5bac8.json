@@ -1,0 +1,19 @@
+{
+  "questionId": "2eb5bac8",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when $x=0$. At that input, each factor of $2^x$ becomes $1$, so the function value is the sum of the coefficients.<br/>$$f(0)=22(2)^0+8(2)^0=22+8=30$$"
+    },
+    {
+      "title": "Combine the terms",
+      "content": "The original terms have the same exponential factor, $(2)^x$. Because the factors match, combine the coefficients while keeping the same base and exponent.<br/>$$22(2)^x+8(2)^x=30(2)^x$$"
+    },
+    {
+      "title": "Match the displayed coefficient",
+      "content": "The equivalent form that displays the $y$-intercept value $30$ as a coefficient is $f(x)=30(2)^x$. The answer is <strong>D</strong>."
+    }
+  ]
+}

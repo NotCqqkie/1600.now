@@ -1,0 +1,15 @@
+{
+  "questionId": "f66cab48",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the subtraction",
+      "content": "Subtracting the second parentheses changes both signs inside it. The $6c^3$ term becomes negative, and subtracting $-7$ adds $7$. After distributing the subtraction, the expression can be simplified by combining only like terms.<br/>$$(5c+8)-(6c^3-7)=5c+8-6c^3+7$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Combine the constants and write the terms in standard order.<br/>$$5c+8-6c^3+7=-6c^3+5c+15$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "8fa4f176",
+  "correctAnswer": "112",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line r",
+      "content": "Slope of line $r$:<br/>$$\\frac{15-14}{9-3}=\\frac16$$"
+    },
+    {
+      "title": "Write line s",
+      "content": "Perpendicular slope is $-6$.<br/>$$y-4=-6(x-2)$$<br/>$$6x+y=16$$"
+    },
+    {
+      "title": "Match the required form",
+      "content": "Scale to coefficient $7$.<br/>$$42x+7y=112$$The answer is <strong>112</strong>."
+    }
+  ]
+}

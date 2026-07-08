@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the given x-value",
-      "content": "The second equation is already $x=11$, so every possible solution must have $x=11$. Substitute $11$ into the other equation."
+      "title": "Use the given x value",
+      "content": "The second equation already gives $x=11$. Substitute that value into the first equation.\n$$5(11)-4y=7$$"
     },
     {
-      "title": "Solve for y",
-      "content": "$$5(11)-4y=7$$ $$55-4y=7$$ $$-4y=-48$$ $$y=12$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The ordered pair is $(11,12)$. Substituting it gives $5(11)-4(12)=55-48=7$, so it satisfies both equations. The result matches."
+      "title": "Find the y value",
+      "content": "Solve for $y$.\n$$55-4y=7$$\n$$-4y=-48$$\n$$y=12$$\nThe solution is $(11,12)$. The answer is <strong>A</strong>."
     }
   ]
 }

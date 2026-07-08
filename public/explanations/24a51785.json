@@ -1,0 +1,15 @@
+{
+  "questionId": "24a51785",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the aperture claim",
+      "content": "The astronomer says a 160 mm telescope would show most, but not all, of the stars in the table. To support that claim, the data must show exactly one star needing an aperture greater than 160 mm while the others need 160 mm or less."
+    },
+    {
+      "title": "Use only aperture data",
+      "content": "Choice A uses a 60 mm threshold, so it does not show what a 160 mm telescope can see. Choice B discusses mass, and Choice D discusses distance from Earth. Only Choice C focuses on minimum aperture and says that just HSH95-46 requires more than 160 mm, leaving most stars visible. The answer is <strong>C</strong>."
+    }
+  ]
+}

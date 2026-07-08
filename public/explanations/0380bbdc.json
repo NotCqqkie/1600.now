@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Undo the outside multiplier",
-      "content": "Start with $3\\sqrt{5x}=15$. Divide both sides by $3$:<br/>$$\\sqrt{5x}=5$$"
+      "title": "Isolate the radical",
+      "content": "Start with<br/>$$3\\sqrt{5x}=15$$<br/>Divide both sides by $3$:<br/>$$\\sqrt{5x}=5$$"
     },
     {
-      "title": "Square both sides",
-      "content": "$$(\\sqrt{5x})^2=5^2$$<br/>$$5x=25$$<br/>$$x=5$$"
-    },
-    {
-      "title": "Compute the requested value",
-      "content": "The question asks for $10x$, so use $x=5$:<br/>$$10x=10(5)=50$$"
-    },
-    {
-      "title": "Answer",
-      "content": "$50$ matches <strong>Choice B &mdash; $50$</strong>. The question asks for $10x$, not for $x$ itself, so stopping at $x=5$ would be one step short."
+      "title": "Solve for the requested value",
+      "content": "Square both sides and solve:<br/>$$5x=25$$<br/>$$x=5$$<br/>Then compute the requested expression:<br/>$$10x=10(5)=50$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

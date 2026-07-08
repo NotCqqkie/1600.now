@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the punctuation relationships needed",
-      "content": "The blank follows the word <em>music</em> and must introduce <em>the flute</em> as the specific instrument being named &mdash; an appositive relationship. Then, after <em>flute</em>, the text shifts to a new descriptive idea (&ldquo;relatively quiet instrument&rdquo;) that works best as its own sentence."
+      "title": "Identify the needed boundaries",
+      "content": "The first part announces that audio technologies allowed another instrument to join jazz and swing music. The blank must name that instrument and then start a new sentence describing it."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — music, the flute, a</strong>: Creates a comma-separated list that incorrectly lumps a predicate clause in with noun phrases, producing a run-on. &#10007;</li><li><strong>Choice B — music. The flute, a</strong>: Ends the sentence at <em>music</em>, making <em>The flute</em> the subject of the next sentence with no appositive connector, leaving the sentence structure ambiguous. &#10007;</li><li><strong>Choice C — music; the flute, a</strong>: A semicolon requires an independent clause on each side; what follows <em>the flute</em> is not an independent clause. &#10007;</li><li><strong>Choice D — music: the flute. A</strong>: The colon correctly introduces <em>the flute</em> as the named instrument; the period then starts a clean new sentence where <em>A relatively quiet instrument</em> is unambiguously the subject. &#10003;</li></ul><strong>D</strong> is correct."
+      "title": "Reject faulty punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: The comma creates a run-on between the instrument name and the next clause.</li><li><strong>Choice B</strong>: The next sentence begins awkwardly with an appositive and no clear structure.</li><li><strong>Choice C</strong>: A semicolon needs an independent clause after it, but the flute, a relatively quiet instrument is not one.</li></ul>"
+    },
+    {
+      "title": "Use colon plus sentence break",
+      "content": "A colon can introduce the named instrument, and a period then cleanly starts the sentence explaining why the flute became audible. The answer is <strong>D</strong>."
     }
   ]
 }

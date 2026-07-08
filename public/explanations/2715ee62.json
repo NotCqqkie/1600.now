@@ -1,0 +1,15 @@
+{
+  "questionId": "2715ee62",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause",
+      "content": "The passage says Crown Geyser erupts at regular intervals, 10 to 12 hours apart. That regularity is the reason its next eruption can be predicted with some accuracy."
+    },
+    {
+      "title": "Pick a result transition",
+      "content": "A signals reversal, B signals concession, and C signals addition. The sentence needs a transition that shows predictability follows from regular eruptions. The answer is <strong>D</strong>."
+    }
+  ]
+}

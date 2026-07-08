@@ -1,0 +1,19 @@
+{
+  "questionId": "7e2d870f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the time shift",
+      "content": "The first sentence explains how <em>Spacewar!</em> challenged gamers to defeat other players. The next idea begins with \"Before <em>Spacewar!</em>'s development\" and describes an earlier, more solitary gaming experience. These should be separate sentences."
+    },
+    {
+      "title": "Reject fused structures",
+      "content": "Choice A creates a comma splice between complete ideas. Choice B joins them with \"and\" but leaves the time phrase awkwardly attached. Choice D provides no punctuation between \"players\" and \"before,\" creating a run-on."
+    },
+    {
+      "title": "Use a period before before",
+      "content": "A period after \"players\" correctly ends the first sentence and starts the contrast about the earlier period. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2337366e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Ignore the interrupting clause",
+      "content": "The subject is the singular food writer J. Kenji Lopez-Alt. The clause \"who explores the science behind cooking\" interrupts the subject and verb but does not change the needed agreement."
+    },
+    {
+      "title": "Reject plural verb forms",
+      "content": "Choice B uses the plural auxiliary \"are.\" Choice C uses the plural base verb. Choice D uses the plural auxiliary \"have.\" A singular subject needs a singular present-tense verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

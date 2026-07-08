@@ -1,0 +1,19 @@
+{
+  "questionId": "32a4a75c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the cause and effect",
+      "content": "The first sentence says rising demand for cheeses claiming to be typical of specific Italian regions created a need to guarantee those claims. The second sentence describes the European Union establishing DOP status, a label certifying regional tradition."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "Choice B signals similarity, but the second sentence is not simply another similar example. Choice C signals that the second idea is true regardless of the first, which conflicts with the need-response logic. Choice D signals contrast, but the DOP label responds to the need instead of opposing it."
+    },
+    {
+      "title": "Choose the result marker",
+      "content": "The transition must show that the EU's label was a consequence of the need to verify regional cheese claims. Therefore fits because it marks the second sentence as the result of the problem described first. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "questionId": "b5e9f3c2",
-  "section": "Reading and Writing",
   "correctAnswer": "B",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Reading comprehension &mdash; logical completion of a conclusion. Key facts: Ancestral Puebloans dispersed in the late 1200s; Rio Grande Valley turkeys share genetic markers with Mesa Verde turkeys only after 1280; Mesa Verde villages had turkey farming."
+      "title": "Connect migration and genetics",
+      "content": "The text says Ancestral Puebloans dispersed in the late 1200s and that Rio Grande Valley turkeys later shared genetic markers with turkeys cultivated at Mesa Verde. The conclusion should connect those facts."
     },
     {
-      "title": "Reasoning",
-      "content": "Mesa Verde turkey genes appearing in Rio Grande turkeys right after the late-1200s dispersal best supports the inference that Mesa Verde people moved to the Rio Grande Valley, bringing their farmed turkeys (and farming practices) with them."
+      "title": "Reject unsupported conclusions",
+      "content": "Choice A invents a terrain comparison. Choice C overstates what the genetic evidence proves about pre-1280 Rio Grande practices. Choice D reverses the direction of influence suggested by Mesa Verde turkey genetics appearing in Rio Grande populations."
     },
     {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; conditions of the terrains in the Rio Grande Valley and Mesa Verde had greater similarities in the past than they do today.</strong>: passage gives no evidence about historical terrain comparison; introduces a claim the data don't support. &#10007;</li><li><strong>Choice C &mdash; Indigenous peoples living in the Rio Grande Valley primarily planted crops and did not cultivate turkeys before 1280.</strong>: shared markers appearing after 1280 doesn't prove the absence of earlier turkey cultivation there &mdash; it only shows Mesa Verde lineage arrived then. Overreach. &#10007;</li><li><strong>Choice D &mdash; the Ancestral Puebloans of Mesa Verde likely adopted the farming practices of Indigenous peoples living in other regions.</strong>: reverses the direction of influence shown by the genetic evidence (Mesa Verde turkeys ended up in the Rio Grande, not the other way around). &#10007;</li></ul>That is the correct answer."
+      "title": "Infer carried practices",
+      "content": "Choice B fits the evidence: some Ancestral Puebloans likely moved to the Rio Grande Valley in the late 1200s and brought turkey-farming practices with them. The answer is <strong>B</strong>."
     }
   ]
 }

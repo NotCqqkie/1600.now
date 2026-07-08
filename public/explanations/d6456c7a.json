@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the area scale factor rule",
-      "content": "We need to convert area from square yards to square miles. Since 1 mile = 1,760 yards, we square this scale factor for area: 1 square mile = $(1,760)^2$ = 3,097,600 square yards."
+      "title": "Convert square units",
+      "content": "Since $1$ mile equals $1{,}760$ yards, square the conversion factor for area:\n$$\n1\\text{ square mile}=1{,}760^2=3{,}097{,}600\\text{ square yards}\n$$"
     },
     {
-      "title": "Divide to convert the nature preserve's area",
-      "content": "The nature preserve's area in square miles is:<br/>$$13,226,752 \\div 3,097,600 = 4.27 \\text{ square miles}$$<br/>That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Divide by square yards",
+      "content": "Convert the area by dividing by the number of square yards in one square mile:\n$$\n\\frac{13{,}226{,}752}{3{,}097{,}600}=4.27\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

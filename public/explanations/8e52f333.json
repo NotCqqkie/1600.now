@@ -1,0 +1,15 @@
+{
+  "questionId": "8e52f333",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the worker count",
+      "content": "Use $x=46$ in the prediction equation:\n$$\ny=0.58(46)+3.4\n$$"
+    },
+    {
+      "title": "Find the closest value",
+      "content": "Evaluate the expression:\n$$\ny=26.68+3.4=30.08\n$$\nThe closest listed value is $30$. The answer is <strong>A</strong>."
+    }
+  ]
+}

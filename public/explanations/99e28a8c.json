@@ -1,0 +1,15 @@
+{
+  "questionId": "99e28a8c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a zero count",
+      "content": "The phrase \"did not observe even one\" means the graph must show zero individuals for a species at the stated time. The lined rockskipper has zero individuals in April and July 2001."
+    },
+    {
+      "title": "Reject nonzero examples",
+      "content": "Choice A is wrong because the barred flagtail appears in October. Choice B is wrong because combtooth blennies appear in January, and choice C is wrong because barred flagtails appear in January. The remaining choice names the species and months where the count is zero. The answer is <strong>D</strong>."
+    }
+  ]
+}

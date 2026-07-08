@@ -1,0 +1,15 @@
+{
+  "questionId": "af727ae1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the average comparison",
+      "content": "The meta-analysis found observable differences in every study. On average, fish studies showed larger differences than bird studies, but every animal class had individual studies with differences well above the average for fish. That means some bird studies could exceed some fish studies even if fish were higher on average."
+    },
+    {
+      "title": "Reject unsupported details",
+      "content": "A adds a claim about whether studies specified harmful effects. B contradicts the average result by saying bird effects are likely more pronounced overall. C makes an unsupported comparison involving one specific common carp study. The supported conclusion compares some individual studies across classes. The answer is <strong>D</strong>."
+    }
+  ]
+}

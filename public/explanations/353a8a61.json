@@ -1,0 +1,16 @@
+{
+  "questionId": "353a8a61",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the given slope",
+      "content": "The equation $y=8x+11$ is in slope-intercept form, so line $v$ has slope $8$."
+    },
+    {
+      "title": "Take the negative reciprocal",
+      "formula": "$$m_{\\perp} = -\\frac{1}{m}$$",
+      "content": "Perpendicular lines have slopes that are negative reciprocals. For slope $8$, the perpendicular slope is\n$$\n-\\frac{1}{8}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

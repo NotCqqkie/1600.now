@@ -1,0 +1,15 @@
+{
+  "questionId": "9f650283",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine like terms",
+      "content": "All three terms are multiples of $x^6$, so combine their coefficients:<br/>$$8x^6+6x^6-5x^6=(8+6-5)x^6$$"
+    },
+    {
+      "title": "Identify the coefficient",
+      "content": "Compute the coefficient:<br/>$$(8+6-5)x^6=9x^6$$<br/>So $b=9$. The answer is <strong>9</strong>."
+    }
+  ]
+}

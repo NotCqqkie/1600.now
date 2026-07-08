@@ -1,0 +1,19 @@
+{
+  "questionId": "5baa8dc1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the phrase",
+      "content": "The phrase \"at least\" means greater than or equal to. The phrase \"twice the value of $y$\" means $2y$. So the possible values of $x$ satisfy<br/>$$x\\ge 2y$$"
+    },
+    {
+      "title": "Substitute the value",
+      "content": "Use $y=47$:<br/>$$x\\ge 2(47)$$<br/>$$x\\ge 94$$"
+    },
+    {
+      "title": "Match the inequality",
+      "content": "The inequality that represents the possible values of $x$ is $x\\ge94$. The answer is <strong>C</strong>."
+    }
+  ]
+}

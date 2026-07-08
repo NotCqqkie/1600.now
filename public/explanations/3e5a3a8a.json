@@ -1,0 +1,15 @@
+{
+  "questionId": "3e5a3a8a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two outputs",
+      "content": "The function has the same output at $x=0$ and $x=8$:\n$$\nf(0)=6\\quad\\text{and}\\quad f(8)=6\n$$\nFor a linear function, equal outputs at two different inputs mean the slope is $0$."
+    },
+    {
+      "title": "Choose the constant function",
+      "content": "A linear function with slope $0$ is constant. Since both given outputs are $6$, the function is\n$$\nf(x)=6\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

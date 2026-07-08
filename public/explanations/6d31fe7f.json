@@ -1,0 +1,15 @@
+{
+  "questionId": "6d31fe7f",
+  "correctAnswer": "160",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the target profit",
+      "content": "The profit function is $p(x)=6x-210$. For a profit of $750$, set:\n$$\n6x-210=750\n$$"
+    },
+    {
+      "title": "Solve for stickers sold",
+      "content": "Add $210$ to both sides and divide by $6$:\n$$\n6x=960\n$$\n$$\nx=160\n$$\nThe answer is <strong>160</strong>."
+    }
+  ]
+}

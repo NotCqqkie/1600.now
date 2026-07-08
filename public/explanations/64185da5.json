@@ -1,0 +1,15 @@
+{
+  "questionId": "64185da5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match problem to response",
+      "content": "Text 1 presents the problem: countries define urban settlements differently, so researchers have trouble comparing urbanization across countries. Text 2 responds by describing a new \"degree of urbanization\" measure that uses global criteria for cities, towns, and rural areas. That measure directly addresses the inconsistency described in Text 1."
+    },
+    {
+      "title": "Rule out unrelated responses",
+      "content": "<ul><li><strong>Choice A - By suggesting that researchers focus on topics besides urbanization</strong>: Text 2 keeps the focus on urbanization and improves the way it can be studied.</li><li><strong>Choice B - By noting that a possible solution to the problem is available</strong>: the global measure supplies common criteria, which is exactly the kind of solution the comparison problem needs.</li><li><strong>Choice C - By recommending that a specific institution should further investigate the problem</strong>: Text 2 says organizations already developed a measure, not that one institution should investigate.</li><li><strong>Choice D - By supplying additional ways in which urbanization research is difficult</strong>: Text 2 reduces the difficulty rather than adding a new one.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

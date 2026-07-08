@@ -1,0 +1,15 @@
+{
+  "questionId": "a8a393c6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Coordinate two objects",
+      "content": "The researchers studied connections between two things: the physical location in which a social media post was created and the post's content. The word \"and\" joins those two objects of \"between.\""
+    },
+    {
+      "title": "Remove unnecessary commas",
+      "content": "Choice A and Choice C incorrectly put a comma before \"and\" even though only two objects are joined. Choice D adds a comma after \"content,\" separating the object from the phrase. The remaining choice coordinates the two objects cleanly. The answer is <strong>B</strong>."
+    }
+  ]
+}

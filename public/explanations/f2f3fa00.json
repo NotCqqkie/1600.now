@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Given average acceleration formula",
-      "content": "The average acceleration is given by $$ a = \\frac{v_f - 14}{8} $$ where the initial velocity is 14 m/s and the time interval is 8 s."
+      "title": "Clear the denominator",
+      "content": "Start with the given equation.<br/>$$a=\\frac{v_f-14}{8}$$<br/>Multiply both sides by $8$.<br/>$$8a=v_f-14$$"
     },
     {
-      "title": "Solve for final velocity",
-      "content": "Multiply both sides by 8: $$ 8a = v_f - 14 $$. Add 14 to both sides: $$ v_f = 8a + 14 $$. Comparing with $$ v_f = xa + y $$, we see $$ x = 8 $$. The answer is <strong>8</strong>."
+      "title": "Compare the coefficient",
+      "content": "Add $14$ to both sides.<br/>$$v_f=8a+14$$<br/>Comparing this with $v_f=xa+y$, the coefficient of $a$ is $8$. The answer is <strong>8</strong>."
     }
   ]
 }

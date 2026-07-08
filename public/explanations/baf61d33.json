@@ -1,0 +1,15 @@
+{
+  "questionId": "baf61d33",
+  "correctAnswer": "3.90",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the retail price",
+      "content": "The retail price is \\(260\\%\\) of the \\(5.00\\) wholesale price.<br/>\\[2.60(5.00)=13.00\\]"
+    },
+    {
+      "title": "Apply the discount",
+      "content": "A \\(70\\%\\) discount means the buyer pays the remaining \\(30\\%\\) of the retail price.<br/>\\[0.30(13.00)=3.90\\]<br/>The answer is <strong>3.90</strong>."
+    }
+  ]
+}

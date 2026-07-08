@@ -1,0 +1,15 @@
+{
+  "questionId": "aae372ad",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the list parallel",
+      "content": "The sentence lists examples from three fields. Each item should begin with a field marker: \"in astronomy,\" \"in chemistry,\" and \"in mathematics.\""
+    },
+    {
+      "title": "Introduce the examples",
+      "content": "B places \"in astronomy\" before the colon and breaks the pattern, C uses only a comma to introduce the examples, and D uses a semicolon incorrectly. A colon after \"abound\" lets all three field phrases begin parallel examples. The answer is <strong>A</strong>."
+    }
+  ]
+}

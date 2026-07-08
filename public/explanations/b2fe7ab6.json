@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the line from the table",
-      "content": "Since the function is linear, two table points are enough. Using $(1,54)$ and $(2,51)$, the slope is $$m=\\frac{51-54}{2-1}=-3.$$ Substitute $(1,54)$ into $g(x)=mx+b$: $$54=-3(1)+b,$$ so $b=57$."
+      "title": "Find the slope",
+      "content": "Using the table points $(1,54)$ and $(2,51)$, the slope is\n$$\nm=\\frac{51-54}{2-1}=-3\n$$"
     },
     {
-      "title": "Answer b",
-      "content": "In $g(x)=mx+b$, the value of $b$ is the $y$-intercept. Here $b=57$, which matches <strong>D</strong>."
+      "title": "Solve for the intercept",
+      "content": "Substitute $(1,54)$ into $g(x)=mx+b$:\n$$\n54=-3(1)+b\n$$\n$$\nb=57\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

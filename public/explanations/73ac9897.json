@@ -1,0 +1,19 @@
+{
+  "questionId": "73ac9897",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor from x terms",
+      "content": "Factor $5$ from the two terms involving $x$.\n$$\ny=5x^2-bx-8\n$$\n$$\ny=5(x^2-\\frac{b}{5}x)-8\n$$"
+    },
+    {
+      "title": "Complete the square",
+      "content": "Half of $\\frac{b}{5}$ is $\\frac{b}{10}$, and its square is $\\frac{b^2}{100}$.\n$$\ny=5(x^2-\\frac{b}{5}x+\\frac{b^2}{100}-\\frac{b^2}{100})-8\n$$"
+    },
+    {
+      "title": "Move the extra constant",
+      "content": "Rewrite the perfect square and distribute the subtracted term.\n$$\ny=5(x-\\frac{b}{10})^2-\\frac{5b^2}{100}-8\n$$\n$$\ny=5(x-\\frac{b}{10})^2-8-\\frac{b^2}{20}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

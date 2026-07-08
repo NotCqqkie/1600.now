@@ -1,0 +1,15 @@
+{
+  "questionId": "d56b3b16",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the singular subject",
+      "content": "The subject of the sentence is \"The allocation,\" which is singular. The verb must agree with that singular subject and fit the historical context after Ukraine's 1991 split."
+    },
+    {
+      "title": "Reject plural verbs",
+      "content": "A is plural present tense. C is plural present perfect. D is plural past tense. All three fail to agree with the singular subject \"allocation.\" A singular past-tense verb fits the subject and context. The answer is <strong>B</strong>."
+    }
+  ]
+}

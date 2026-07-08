@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use angle-angle similarity",
-      "content": "The triangles already have one matching angle pair: $\\angle L=\\angle R=58^\\circ$. To prove similarity, look for one additional angle condition that makes the angle sets match."
+      "title": "Use angle angle similarity",
+      "content": "The triangles already have one corresponding angle pair: angles $L$ and $R$ both measure $58^\\circ$. One more matching angle pair is enough to prove similarity."
     },
     {
-      "title": "Apply angle-angle similarity criterion",
-      "content": "We already have angle <em>L</em> = angle <em>R</em> = 58 degrees. For AA similarity, we need one more pair of equal angles. The side-length options alone do not establish similarity here, so focus on the additional angle information."
+      "title": "Test the angle information",
+      "content": "If angle $M$ is $72^\\circ$, then angle $N$ is<br/>$$180-58-72=50$$<br/>If angle $T$ is $50^\\circ$, then angle $S$ is<br/>$$180-58-50=72$$"
     },
     {
-      "title": "Check the candidate: angle M = 72° and angle S = 58°",
-      "content": "In triangle LMN: angle <em>L</em> = 58 degrees, angle <em>M</em> = 72 degrees, so angle <em>N</em> = 50 degrees.<br/>In triangle RST: angle <em>R</em> = 58 degrees, angle <em>S</em> = 58 degrees, so angle <em>T</em> = 64 degrees.<br/>Triangle LMN has angles {58 degrees, 72 degrees, 50 degrees}.<br/><br/>Triangle RST has angles {58 degrees, 58 degrees, 64 degrees}. The angle sets differ, so the triangles are not similar."
-    },
-    {
-      "title": "Check the candidate: angle M = 72° and angle T = 50°",
-      "content": "In triangle LMN: angle <em>L</em> = 58 degrees, angle <em>M</em> = 72 degrees, so angle <em>N</em> = 50 degrees.<br/>In triangle RST: angle <em>R</em> = 58 degrees, angle <em>T</em> = 50 degrees, so angle <em>S</em> = 72 degrees.<br/>Triangle LMN has angles 58 degrees, 72 degrees, 50 degrees at vertices <em>L</em>, <em>M</em>, <em>N</em>.<br/><br/>Triangle RST has angles 58 degrees, 72 degrees, 50 degrees at vertices <em>R</em>, <em>S</em>, <em>T</em>.<br/><br/>All angles match under the correspondence <em>L</em> ↔ <em>R</em>, <em>M</em> ↔ <em>S</em>, <em>N</em> ↔ <em>T</em>.<br/><br/>By AA similarity, the triangles are similar. That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Match all corresponding angles",
+      "content": "The angle measures match by correspondence: $L$ with $R$, $M$ with $S$, and $N$ with $T$. The triangles are similar by angle-angle similarity. The answer is <strong>D</strong>."
     }
   ]
 }

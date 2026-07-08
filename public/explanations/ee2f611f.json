@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality for when a monthly pass saves money",
-      "content": "To find the minimum number of trips where a monthly pass becomes cheaper, assume all trips cost the maximum price (3.25 dollars each). For the pass to cost less than individual tickets:<br/>$$92 \\lt n \\times 3.25$$<br/>where $n$ is the number of trips."
+      "title": "Use the highest ticket price",
+      "content": "The pass could cost less than individual tickets only as soon as the individual-ticket total can exceed $92$ dollars. To minimize the number of trips, use the highest ticket price, $3.25$ dollars per trip."
     },
     {
-      "title": "Solve for the minimum number of trips",
-      "content": "Divide both sides by $3.25$:<br/>$$n \\gt  \\frac{92}{3.25}$$<br/>Rewrite the fraction:<br/>$$n \\gt  \\frac{9200}{325} = \\frac{368}{13}$$<br/>Calculate: $368 \\div 13 = 28\\frac{4}{13} \\approx 28.31$<br/><br/>Since $n$ must be a whole number and $n \\gt  28.31$, the minimum is $n = 29$.<br/><br/>Verification: 29 trips at 3.25 dollars each cost 94.25 dollars, which exceeds the 92-dollar monthly pass. Therefore, the answer is 29."
+      "title": "Solve the inequality",
+      "content": "Let $n$ be the number of trips. The pass is cheaper when:<br/>$$3.25n>92$$<br/>$$n>\\frac{92}{3.25}$$<br/>$$n>28.31$$"
+    },
+    {
+      "title": "Round to a whole trip",
+      "content": "The smallest whole number greater than $28.31$ is $29$, and that many maximum-price trips would cost more than the pass. The answer is <strong>29</strong>."
     }
   ]
 }

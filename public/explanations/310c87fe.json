@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
-    },
-    {
-      "title": "Find the side length using the surface area formula",
-      "content": "A cube has 6 square faces, each with area $s^2$, where $s$ is the side length. Given that the surface area is 150, we solve: $$6s^2 = 150$$ Dividing both sides by 6: $$s^2 = 25$$ Taking the positive square root: $$s = 5 \\text{ meters}$$",
+      "title": "Find the side length",
+      "content": "A cube has $6$ square faces, each with area $s^2$. Use the surface area to solve for $s$:\n$$\n6s^2=150\n$$\n$$\ns^2=25\n$$\n$$\ns=5\n$$",
       "formula": "$$SA = 6s^2$$"
     },
     {
-      "title": "Calculate the volume using the side length",
-      "content": "With side length $s = 5$ meters, we calculate: $$V = 5^3 = 125 \\text{ cubic meters}$$ <strong>B</strong> is correct.",
+      "title": "Calculate the volume",
+      "content": "Use the cube volume formula with side length $5$:\n$$\nV=5^3=125\n$$\nThe answer is <strong>B</strong>.",
       "formula": "$$V = s^3$$"
     }
   ]

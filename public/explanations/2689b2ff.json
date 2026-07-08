@@ -1,0 +1,19 @@
+{
+  "questionId": "2689b2ff",
+  "correctAnswer": "22",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the requested row",
+      "content": "The question asks for a table entry. First find the row where the air temperature is $38^\\circ\\text{F}$."
+    },
+    {
+      "title": "Read the wind speed column",
+      "content": "In that row, move to the column for a wind speed of $60$ miles per hour. The table entry is $22^\\circ\\text{F}$."
+    },
+    {
+      "title": "Enter the number only",
+      "content": "The directions say to disregard the degree symbol when entering the response. The answer is <strong>22</strong>."
+    }
+  ]
+}

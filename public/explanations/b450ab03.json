@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the rates and variables",
-      "content": "Let $x$ = number of wraps and $y$ = number of bowls. Each wrap takes 1.6 minutes and each bowl takes 2.1 minutes. The employee spends a total of 50.4 minutes preparing all items."
+      "title": "Write the wrap time",
+      "content": "Each wrap takes $1.6$ minutes, and there are $x$ wraps, so the wrap time is $1.6x$ minutes."
     },
     {
-      "title": "Build the total time equation",
-      "content": "For each item type, multiply the time per item by the quantity:<ul><li>Wraps: $1.6x$ minutes</li><li>Bowls: $2.1y$ minutes</li></ul>Setting the sum of these times equal to the total:<br/>$$1.6x + 2.1y = 50.4$$<br/>That is the correct answer."
+      "title": "Write the bowl time",
+      "content": "Each bowl takes $2.1$ minutes, and there are $y$ bowls, so the bowl time is $2.1y$ minutes."
+    },
+    {
+      "title": "Set the total time",
+      "content": "The total preparation time is $50.4$ minutes:\n$$\n1.6x+2.1y=50.4\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "9c7c4c1a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the coordinates",
+      "content": "The graph uses $x$ for Player 1's points and $y$ for Player 2's points. The point $(49,0)$ means Player 1 earns $49$ points and Player 2 earns $0$ points."
+    },
+    {
+      "title": "Match the context",
+      "content": "There are $49$ questions total, so Player 1 earning $49$ points means Player 1 answered every question correctly. Player 2 earns no points in that case. The answer is <strong>B</strong>."
+    }
+  ]
+}

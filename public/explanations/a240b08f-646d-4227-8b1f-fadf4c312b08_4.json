@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the density formula",
-      "content": "$$\\text{density} = \\frac{\\text{mass}}{\\text{volume}} = \\frac{308 \\text{ g}}{28 \\text{ cm}^3}$$"
+      "content": "Density is mass divided by volume. Here the mass is $308$ grams and the volume is $28$ cubic centimeters."
     },
     {
-      "title": "Compute",
-      "content": "$\\frac{308}{28} = 11$ grams per cubic centimeter.<br/><br/>The units also check: grams divided by cubic centimeters gives grams per cubic centimeter, which is exactly the density unit requested. That confirms <strong>A</strong> is correct."
+      "title": "Divide mass by volume",
+      "content": "$$\\frac{308}{28}=11$$<br/>The unit is grams per cubic centimeter, as requested. The answer is <strong>A</strong>."
     }
   ]
 }

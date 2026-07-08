@@ -1,0 +1,23 @@
+{
+  "questionId": "932563b6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the length model",
+      "content": "The original chain is $33$ centimeters long. Each added segment has length $8-r$, and $x$ segments are added, so\n$$\nf(x)=33+x(8-r)\n$$"
+    },
+    {
+      "title": "Distribute the expression",
+      "content": "Expand the added length:\n$$\n33+x(8-r)=33+8x-rx=8x-rx+33\n$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "For example, if $r=3$, the added length is $5$ each time, giving values $33$, $38$, and $43$ for $x=0$, $1$, and $2$. This matches the distributed model. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,1,2]",
+        "y_1=[33,38,43]"
+      ]
+    }
+  ]
+}

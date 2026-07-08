@@ -1,0 +1,15 @@
+{
+  "questionId": "7547a065",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the radical",
+      "content": "A square root is the same as raising to the power $\\frac{1}{2}$.\n$$\n\\sqrt{x^{157}}=(x^{157})^{1/2}\n$$"
+    },
+    {
+      "title": "Multiply the exponents",
+      "content": "Use the power-of-a-power rule.\n$$\n(x^{157})^{1/2}=x^{157\\cdot\\frac{1}{2}}=x^{\\frac{157}{2}}\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

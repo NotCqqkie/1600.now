@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the linear equation",
-      "content": "The librarian starts with 78 books. If each of $c$ children gets 4 books and 6 books are left over, the total is accounted for as:<br/>$$78 = 4c + 6$$"
+      "title": "Set up the book total",
+      "content": "Let $c$ be the number of children. The librarian gives each child $4$ books and has $6$ books left over, for a total of $78$ books.<br/>$$4c+6=78$$"
     },
     {
-      "title": "Solve for the number of children",
-      "content": "Subtract 6 from both sides:<br/>$$78 - 6 = 4c$$<br/>$$72 = 4c$$<br/>Divide both sides by 4:<br/>$$c = 18$$<br/><strong>B</strong> is correct."
+      "title": "Solve for children",
+      "content": "Subtract $6$, then divide by $4$.<br/>$$4c=72$$<br/>$$c=18$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

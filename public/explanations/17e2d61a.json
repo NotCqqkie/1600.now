@@ -1,0 +1,15 @@
+{
+  "questionId": "17e2d61a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the equation",
+      "content": "First put the equation in standard quadratic form.\n$$x(x+8)-13=0$$\n$$x^2+8x-13=0$$\nSo $a=1$, $b=8$, and $c=-13$."
+    },
+    {
+      "title": "Use the quadratic formula",
+      "content": "The discriminant is\n$$b^2-4ac=8^2-4(1)(-13)=64+52=116$$\nThen\n$$x=\\frac{-8\\pm\\sqrt{116}}{2}$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

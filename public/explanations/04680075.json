@@ -1,0 +1,19 @@
+{
+  "questionId": "04680075",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the date limit",
+      "content": "The sentence needs examples of hoards discovered before 2000. In the table, Dunmore was discovered in 1896 and Loughrea in 1940; Carrowkeel was discovered in 2001."
+    },
+    {
+      "title": "Reject date errors",
+      "content": "Choice A incorrectly puts Loughrea in the 2000s and includes Carrowkeel after the cutoff. Choice B claims several 1800s discoveries without support. Choice C swaps the dates for Carrowkeel and Loughrea."
+    },
+    {
+      "title": "Choose pre-2000 examples",
+      "content": "Listing Dunmore in 1896 and Loughrea in 1940 accurately gives two examples discovered before 2000. The answer is <strong>D</strong>."
+    }
+  ]
+}

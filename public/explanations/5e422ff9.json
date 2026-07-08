@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute y from first equation into second equation",
-      "content": "Replace y in the second equation using the expression from the first equation: $$2(3x - 4) = 5x$$"
+      "title": "Substitute for y",
+      "content": "Use $y=3x-4$ in the second equation.<br/>$$2(3x-4)=5x$$"
     },
     {
       "title": "Solve for x",
-      "content": "Expand and simplify: $$6x - 8 = 5x$$ $$x = 8$$<br/>Now substitute $x = 8$ into the first equation."
+      "content": "Expand and isolate $x$.<br/>$$6x-8=5x$$<br/>$$x=8$$"
     },
     {
-      "title": "Find y using x = 8",
-      "content": "Calculate: $$y = 3(8) - 4 = 20$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Find y",
+      "content": "Substitute $x=8$ into the first equation.<br/>$$y=3(8)-4=20$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

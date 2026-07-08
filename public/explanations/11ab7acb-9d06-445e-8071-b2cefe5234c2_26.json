@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The goal is to <strong>compare</strong> Fodor&rsquo;s hypothesis with Carruthers&rsquo;s. The key difference from the notes: Fodor says only <em>low-level</em> systems (perception, language) are modular &mdash; high-level systems are not. Carruthers&rsquo;s MMH extends modularity to <em>all</em> cognitive systems. A correct answer must place both hypotheses side by side and highlight this difference in scope."
+      "title": "Compare the scope",
+      "content": "The student wants to compare Fodor's hypothesis with Carruthers's. The notes say Fodor treated low-level systems such as perception and language as modular, while high-level systems such as reasoning were not modular. Carruthers's massive modularity hypothesis expands the idea to all cognitive systems. The comparison must focus on that difference in scope."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; In considering some but not all cognitive systems modular, Fodorian modularity is not as expansive in its definition of modularity as MMH is.</strong>: Directly compares both hypotheses on the same dimension (which systems count as modular) and names the clear difference in scope. &#10003;</li><li><strong>Choice B &mdash; Following Fodor's 1983 hypothesis, Carruthers proposed that modularity of mind includes all cognitive systems.</strong>: Describes Carruthers sequentially after Fodor but doesn&rsquo;t frame the two as a comparison &mdash; it just narrates timeline. &#10007;</li><li><strong>Choice C &mdash; The hypotheses of Fodor and Carruthers differ in whether they consider low-level cognitive systems, such as perception and language, modular.</strong>: Factually wrong &mdash; <em>both</em> Fodor and Carruthers consider low-level systems modular. The disagreement is about high-level systems. &#10007;</li><li><strong>Choice D &mdash; In 2003, Carruthers proposed the massive modularity hypothesis, disagreeing with Fodor's earlier hypothesis that the mind is composed of innate neural structures.</strong>: Misrepresents the disagreement; both accept that modules are innate neural structures &mdash; the dispute is about which systems are modular. &#10007;</li></ul>That matches <strong>Choice A &mdash; In considering some but not all cognitive systems modular, Fodorian modularity is not as expansive in its definition of modularity as MMH is.</strong>."
+      "title": "Reject weak comparisons",
+      "content": "Choice B mainly gives chronology, saying Carruthers followed Fodor, but it does not clearly compare the two hypotheses. Choice C is factually wrong because both views include low-level systems as modular. Choice D misstates the disagreement by suggesting Fodor denied innate neural modules, when the notes define modularity itself that way."
+    },
+    {
+      "title": "Choose the direct comparison",
+      "content": "Choice A compares the hypotheses on the same dimension: Fodorian modularity includes some but not all cognitive systems, while massive modularity is more expansive. That is exactly the contrast the notes establish between the two views. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "questionId": "1846c74f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the zeros",
+      "content": "Set each factor equal to $0$.<br/>$$36-2x=0$$<br/>$$x=18$$<br/>$$10+2x=0$$<br/>$$x=-5$$",
+      "desmosExpressions": [
+        "g(x) = (36 - 2x)(10 + 2x)"
+      ]
+    },
+    {
+      "title": "Use the midpoint",
+      "content": "The maximum occurs halfway between the zeros of this downward-opening quadratic.<br/>$$x=\\frac{18+(-5)}{2}=\\frac{13}{2}=6.5$$",
+      "formula": "$$x = \\frac{x_1 + x_2}{2}$$"
+    },
+    {
+      "title": "Choose the vertex value",
+      "content": "The value of $x$ at the maximum is $6.5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

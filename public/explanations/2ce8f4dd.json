@@ -1,0 +1,23 @@
+{
+  "questionId": "2ce8f4dd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Place the added value",
+      "content": "The added weight is $68$ pounds. From the histogram, this is greater than every original salmon weight."
+    },
+    {
+      "title": "Check the median",
+      "content": "With $14$ original values, the median is the average of the $7$th and $8$th values. After adding a largest value, the new median is the $8$th value. This is not guaranteed to be greater, because the $7$th and $8$th values could be equal."
+    },
+    {
+      "title": "Check the mean",
+      "content": "Adding a value greater than every original value means adding a value greater than the original mean. That must increase the mean."
+    },
+    {
+      "title": "Select the guaranteed measure",
+      "content": "Only Statement II must be greater for the new data set. The answer is <strong>B</strong>."
+    }
+  ]
+}

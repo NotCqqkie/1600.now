@@ -1,0 +1,19 @@
+{
+  "questionId": "eb63b1a3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the steel subtypes",
+      "content": "Aerospace tubing uses 300-series austenitic stainless steel, while home water tanks use 200-series austenitic stainless steel. The passage says the 200 series has less nickel and more manganese than the 300 series, so the needed inference should compare those two austenitic subtypes rather than switching to ferritic steel or to chromium percentages."
+    },
+    {
+      "title": "Eliminate subtype errors",
+      "content": "<ul><li><strong>Choice A - aerospace tubing will have similar magnetic properties to stainless steel used to manufacture induction cookers.</strong>: This wrongly compares austenitic aerospace tubing with ferritic steel, whose higher iron concentration gives it magnetic properties.</li><li><strong>Choice B - both aerospace tubing and home water tanks will have a face-centered cubic crystalline structure, but stainless steel used to manufacture aerospace tubing will have less nickel than stainless steel used to manufacture home water tanks will</strong>: Both are austenitic, but the nickel relationship is reversed; the 200 series has less nickel than the 300 series.</li></ul>"
+    },
+    {
+      "title": "Use the manganese relation",
+      "content": "<ul><li><strong>Choice C - aerospace tubing will have a concentration of manganese greater than 10.5%, while stainless steel used to manufacture home water tanks will not.</strong>: The 10.5% figure refers to chromium, not manganese, so it cannot prove a manganese percentage for either subtype.</li></ul>The remaining inference follows the stated manganese comparison: the 300 series used for aerospace tubing has less manganese than the 200 series used for home water tanks. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "57aa1151",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate claim from example",
+      "content": "The first statement says travelers flew out of major urban airports with increasing frequency. The next statement gives Washington Dulles International Airport as a specific example, so it should begin a new sentence with For example."
+    },
+    {
+      "title": "Avoid broken example markers",
+      "content": "Choice A creates a comma splice. Choice B places a semicolon after for example, separating the marker from the example. Choice C makes For example a sentence fragment before the airport sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the data show",
-      "content": "The experiment gave sunflower sea stars a choice between a nutritionally rich urchin and a nutritionally poor urchin (the kind found in barrens). The sea stars selected the rich urchin 42.7% of the time and the poor urchin 37.5% of the time. The rates are close, meaning the sea stars did not consistently avoid the nutritionally poor urchins even when a better option was available. Any valid conclusion must be grounded in this result."
+      "title": "Use the poor-urchin selection rate",
+      "content": "The study offered sunflower sea stars a nutritionally rich urchin and a nutritionally poor urchin. The sea stars selected poor urchins in 37.5 percent of trials, close to the 42.7 percent rate for rich urchins. That means they did not consistently avoid poor urchins."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"sunflower sea stars are willing to hunt sea urchins, but if given a choice, they will prey on other more nutritious marine animals instead.\"</strong>: The study tested only sea urchins; no other marine animals were offered or measured. This choice invents information not in the text. &#10007;</li><li><strong>\"sunflower sea stars are reluctant to feed on both nutritionally poor and nutritionally rich sea urchins and are therefore unlikely to thrive in kelp forests.\"</strong>: A 37.5% selection rate for poor urchins is not reluctance &mdash; the sea stars actively ate them. This misreads the data. &#10007;</li><li><strong>\"sunflower sea stars are less likely to consume sea urchins in barrens than other species of sea stars are, putting sunflower sea stars at a high risk of extinction.\"</strong>: No other sea star species were tested; the study makes no such comparison. &#10007;</li><li><strong>\"sunflower sea stars do not always avoid foraging on nutritionally poor sea urchins, making sunflower sea star population recovery a potentially important tool for controlling urchin barrens.\"</strong>: Directly reflects the 37.5% selection rate for poor urchins and logically extends it: if sea stars eat the poor urchins found in barrens, recovering their populations could help clear those barrens. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject unsupported comparisons",
+      "content": "Choice A invents other marine prey. Choice B says the sea stars are reluctant to feed on both types, which the trial rates do not show. Choice C compares sunflower sea stars with other sea stars, but no other species were tested. The result supports their potential role in controlling barrens. The answer is <strong>D</strong>."
     }
   ]
 }

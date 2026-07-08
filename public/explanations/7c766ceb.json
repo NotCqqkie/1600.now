@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical rule",
-      "content": "The verb <em>enable</em> follows a fixed pattern in Standard English: <strong>enable + object + to + base verb</strong>. Here the object is <em>cartographers</em>, so the blank must be a <em>to</em>-infinitive. Eliminate any choice that doesn&apos;t supply <em>to</em> before the base verb."
+      "title": "Apply the enable pattern",
+      "content": "In Standard English, <em>enable</em> follows the pattern <em>enable + object + to + base verb</em>. Here, \"cartographers\" is the object, so the blank must supply a to-infinitive before \"maps.\""
     },
     {
-      "title": "Apply the rule to all four choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;create&rsquo;</strong>: &ldquo;enables cartographers create maps&rdquo; &mdash; bare infinitive after <em>enable + object</em> violates the required <em>to</em>-infinitive pattern. &#10007;</li><li><strong>Choice B &mdash; &lsquo;to create&rsquo;</strong>: &ldquo;enables cartographers to create maps&rdquo; &mdash; supplies the required <em>to + base verb</em> after the object. &#10003;</li><li><strong>Choice C &mdash; &lsquo;creating&rsquo;</strong>: &ldquo;enables cartographers creating maps&rdquo; &mdash; a gerund/present participle cannot follow <em>enable + object</em>; violates the <em>to</em>-infinitive rule. &#10007;</li><li><strong>Choice D &mdash; &lsquo;created&rsquo;</strong>: &ldquo;enables cartographers created maps&rdquo; &mdash; a past participle here produces an ungrammatical structure; violates the <em>to</em>-infinitive rule. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Check the verb form",
+      "content": "A leaves out the required \"to,\" C uses a participle, and D uses a past participle. Each produces an ungrammatical phrase after \"enables cartographers.\" The answer is <strong>B</strong>."
     }
   ]
 }

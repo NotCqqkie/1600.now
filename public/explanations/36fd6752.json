@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Put both equations in matching form",
-      "content": "Rewrite the first equation as $5r-pw=-8$. Rewrite the second as $5r-8w=13$. For the system to have no solution, the $r$- and $w$-coefficients must match proportionally, while the constants are different."
+      "title": "Put the equations in matching form",
+      "content": "Rewrite the first equation:\n$$\n8+5r=pw\n$$\n$$\n5r-pw=-8\n$$\nRewrite the second equation:\n$$\n5r-4w=4w+13\n$$\n$$\n5r-8w=13\n$$"
     },
     {
       "title": "Match the coefficients",
-      "content": "The $r$-coefficients are both $5$, so the scale factor is $1$. Therefore the $w$-coefficients must match: $-p=-8$, so $p=8$."
-    },
-    {
-      "title": "Confirm no solution",
-      "content": "With $p=8$, the equations have the same left side, $5r-8w$, but different constants, $-8$ and $13$. That creates parallel distinct lines, so the system has no solution. The answer is <strong>8</strong>."
+      "content": "For no solution, the left sides must be proportional but the constants must differ. The $r$-coefficients already match, so the $w$-coefficients must match:\n$$\n-p=-8\n$$\nThus $p=8$. The answer is <strong>8</strong>."
     }
   ]
 }

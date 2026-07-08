@@ -4,12 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative) question. The underlined claim says divided Congress is a &quot;necessary but not sufficient condition&quot; for decreasing government size (total outlays). &quot;Necessary&quot; means every reduction must occur under a divided Congress. &quot;Not sufficient&quot; means a divided Congress does not always produce a reduction. The correct data choice must demonstrate both patterns using total outlays only."
+      "title": "Use Hanke's measure",
+      "content": "Hanke interprets decreases in total federal outlays relative to GDP as decreases in government size. The underlined claim is about whether a divided Congress may be necessary but not sufficient for that decrease. So the supporting data must focus on total outlays, not only defense or nondefense outlays."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The periods of undivided Congresses were associated with increases in nondefense outlays, whereas all the periods of divided Congresses except one were associated with reductions in defense outlays.</strong>: The claim is exclusively about total outlays, not the nondefense/defense breakdown. This uses the wrong columns. &#10007;</li><li><strong>Choice B &mdash; All the periods of divided Congresses were associated with reductions in total outlays, although two periods were also associated with increases in nondefense outlays.</strong>: Says ALL divided Congresses produced reductions &mdash; that would make divided Congress sufficient, contradicting the &quot;not sufficient&quot; part of the claim. &#10007;</li><li><strong>Choice C &mdash; The periods of undivided Congresses were associated with increases in total outlays, whereas all the periods of divided Congresses were associated with reductions in either nondefense outlays or defense outlays.</strong>: Again refers to the nondefense/defense breakdown rather than total outlays, which is what Hanke's claim is about. &#10007;</li><li><strong>Choice D &mdash; All the periods of divided Congresses except one were associated with reductions in total outlays, whereas the periods of undivided Congresses were associated with increases in total outlays.</strong>: Shows necessity (all reductions happened under divided Congresses, since undivided Congresses always increased) and non-sufficiency (the one exception &mdash; a divided Congress that did not produce a reduction). Uses total outlays only. &#10003;</li></ul>That matches <strong>Choice D &mdash; All the periods of divided Congresses except one were associated with reductions in total outlays, whereas the periods of undivided Congresses were associated with increases in total outlays.</strong>."
+      "title": "Apply the condition logic",
+      "content": "\"Necessary but not sufficient\" means two things here. If divided Congress is necessary, decreases in total outlays should occur with divided Congresses rather than undivided ones. If divided Congress is not sufficient, at least one divided Congress should fail to produce a decrease in total outlays."
+    },
+    {
+      "title": "Match the table pattern",
+      "content": "The supporting pattern must therefore show that divided Congresses usually line up with reductions in total outlays, while also showing an exception. It should also show that undivided Congresses line up with increases in total outlays. That combination supports both halves of the underlined claim about divided Congress being necessary but not sufficient."
+    },
+    {
+      "title": "Reject wrong comparisons",
+      "content": "Choice A compares nondefense and defense outlays, not total outlays. Choice B says all divided Congresses reduced total outlays, which would make divided Congress sufficient. Choice C again shifts away from total outlays to either nondefense or defense outlays. The choice with all but one divided Congress reducing total outlays and undivided Congresses increasing total outlays fits the claim. The answer is <strong>D</strong>."
     }
   ]
 }

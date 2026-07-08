@@ -1,0 +1,19 @@
+{
+  "questionId": "bfc03fc7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root sum rule",
+      "content": "For a quadratic equation $ax^2+bx+c=0$, the sum of the solutions is<br/>$$-\\frac{b}{a}$$"
+    },
+    {
+      "title": "Identify the coefficients",
+      "content": "In $x^2-72x-18=0$, the coefficients are $a=1$ and $b=-72$."
+    },
+    {
+      "title": "Compute the sum",
+      "content": "Substitute those values into the root sum rule.<br/>$$-\\frac{-72}{1}=72$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

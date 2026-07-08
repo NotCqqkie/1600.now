@@ -1,0 +1,15 @@
+{
+  "questionId": "1a37f271",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the contrast",
+      "content": "The requested sentence must emphasize how the sculptures differ. The notes say one neon work spells out a phrase, while the other forms an abstract moon shape."
+    },
+    {
+      "title": "Reject weaker contrasts",
+      "content": "Choice A buries the sculpture contrast in a broader list about neon uses. Choice C compares dates, not artistic form. Choice D says the artists used neon differently, but it shifts to the material's versatility instead of making the difference central. The remaining choice keeps the shared material in the background and focuses on the phrase versus abstract-form contrast. The answer is <strong>B</strong>."
+    }
+  ]
+}

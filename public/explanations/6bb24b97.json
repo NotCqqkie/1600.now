@@ -1,0 +1,15 @@
+{
+  "questionId": "6bb24b97",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the loudness principle",
+      "content": "The passage says meaningful sounds are perceived as quieter than noise at the same actual volume. If the music was meaningful and the nature sounds were treated as noise, the equal-volume sounds would not be perceived equally."
+    },
+    {
+      "title": "Reject unrelated outcomes",
+      "content": "Choice B concerns guessing exact decibel levels, Choice C contradicts the idea that nature sounds were treated as noise, and Choice D shifts to volume adjustment rather than perception. The nature sounds would seem louder than the music. The answer is <strong>A</strong>."
+    }
+  ]
+}

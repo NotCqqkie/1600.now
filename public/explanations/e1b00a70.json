@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the logical relationship",
-      "content": "The first sentence states that more diverse behaviors correlate with a larger, more energy-demanding brain. The second sentence claims that animals performing only basic actions should allocate fewer resources to brain tissue. The blank must signal that the second claim follows as a <strong>logical consequence</strong> of the first &mdash; not a time sequence, an addition, or a contrast."
+      "title": "Find the relationship",
+      "content": "The first sentence says animals with more diverse behavior tend to have larger, more energy-demanding brains. The next claim follows from that idea: animals performing only basic actions should spend fewer resources on brain tissue."
     },
     {
-      "title": "Eliminate each choice and confirm the answer",
-      "content": "<ul><li><strong>\"Subsequently,\"</strong>: signals that the second claim occurs <em>later in time</em> than the first &mdash; but this is a consequence, not a chronological follow-up. &#10007;</li><li><strong>\"Besides,\"</strong>: signals that the second claim is a <em>separate, additional</em> point alongside the first &mdash; but it is a direct consequence, not a parallel addition. &#10007;</li><li><strong>\"Nevertheless,\"</strong>: signals <em>contrast</em>, implying the second claim is true despite the first &mdash; but the two claims align, not oppose each other. &#10007;</li><li><strong>\"Thus,\"</strong>: signals &ldquo;therefore,&rdquo; marking the second sentence as a logical consequence of the correlation stated in the first. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Choose a consequence signal",
+      "content": "A signals time sequence, B signals an additional point, and C signals contrast. The blank needs a transition meaning \"therefore\" because the second sentence is a consequence of the first. The answer is <strong>D</strong>."
     }
   ]
 }

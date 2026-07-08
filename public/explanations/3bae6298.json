@@ -1,0 +1,15 @@
+{
+  "questionId": "3bae6298",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the graph point",
+      "content": "The graph shows that the line passes through the $y$-axis at $(0,2)$."
+    },
+    {
+      "title": "Substitute into the equation",
+      "content": "Use $x=0$ and $y=2$ in the equation.\n$$6(0)+B(2)=18$$\n$$2B=18$$\n$$B=9$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

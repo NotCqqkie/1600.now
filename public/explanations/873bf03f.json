@@ -1,0 +1,15 @@
+{
+  "questionId": "873bf03f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining resistance",
+      "content": "The total resistance is $120$ ohms, and two resistors together have resistance $75$ ohms. The other three resistors together have resistance\n$$120-75=45$$"
+    },
+    {
+      "title": "Apply the positivity condition",
+      "content": "Let the three remaining resistors have resistances $x$, $r$, and $s$.\n$$x+r+s=45$$\nEach resistance is positive, so $x>0$. Also, $r+s$ must be positive, which means\n$$45-x>0$$\nThus $x<45$. The answer is <strong>B</strong>."
+    }
+  ]
+}

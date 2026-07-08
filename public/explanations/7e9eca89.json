@@ -1,0 +1,15 @@
+{
+  "questionId": "7e9eca89",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the input on the graph",
+      "content": "To find $f(5)$, look at the point on the graph where the horizontal coordinate is $5$."
+    },
+    {
+      "title": "Read the output value",
+      "content": "At $x=5$, the curve crosses the horizontal axis. Therefore, the output value is\n$$f(5)=0$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the triangle angle sum theorem",
-      "content": "The figure shows a triangle with interior angles labeled $x^{\\circ}$, $y^{\\circ}$, and $z^{\\circ}$. The sum of the interior angles of any triangle equals $180^{\\circ}$:<br/>$$x + y + z = 180$$"
+      "title": "Use corresponding angles",
+      "content": "Because lines $l$ and $m$ are parallel, the corresponding angle in the smaller triangle equals $y$. Since $y=20$, that angle is $20^\\circ$."
     },
     {
-      "title": "Substitute the given values and solve",
-      "content": "Using the given values $y = 20$ and $z = 60$:<br/>$$x + 20 + 60 = 180$$<br/>$$x = 100$$<br/>That is the correct answer."
+      "title": "Use the triangle sum",
+      "content": "The angles in the smaller triangle sum to $180^\\circ$. With $z=60$, solve for $x$. <br/>$$20+x+60=180$$<br/>$$x=100$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

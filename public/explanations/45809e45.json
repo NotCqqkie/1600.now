@@ -1,0 +1,15 @@
+{
+  "questionId": "45809e45",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stated goal",
+      "content": "The student wants to indicate the year the Schomburg Center was founded. The notes give that year directly: 1925."
+    },
+    {
+      "title": "Discard irrelevant details",
+      "content": "Choice A identifies the person the center was named for. Choice B says it is a research library. Choice D gives its location in New York City. None of those details states the founding year, so the sentence focused on 1925 fits the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

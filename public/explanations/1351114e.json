@@ -1,0 +1,15 @@
+{
+  "questionId": "1351114e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the acceleration formula",
+      "content": "Average acceleration is change in speed divided by elapsed time. Here, that means the speed change divided by the number of seconds."
+    },
+    {
+      "title": "Divide speed by time",
+      "content": "The speed changes by $57$ meters per second in $6$ seconds:<br/>$$a=\\frac{57}{6}=9.5$$The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "ceee43ba",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the total",
+      "content": "No more than $268$ total shrubs means the sum of hollies and weigelas is at most $268$:<br/>$$h+w\\le 268$$"
+    },
+    {
+      "title": "Translate the holly limit",
+      "content": "The number of hollies is at most three times the number of weigelas, so hollies cannot exceed $3w$:<br/>$$h\\le 3w$$"
+    },
+    {
+      "title": "Match both inequalities",
+      "content": "The system must include both conditions:<br/>$$h+w\\le 268$$<br/>$$h\\le 3w$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

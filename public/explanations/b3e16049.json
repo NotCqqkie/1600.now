@@ -1,0 +1,22 @@
+{
+  "questionId": "b3e16049",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Shift the input right",
+      "content": "A shift $9$ units to the right replaces $x$ with $x-9$ inside the function. This changes the denominator from $x$ to $x-9$ but does not change the numerator.\n$$f(x-9)=\\frac{a-18}{x-9}+6$$"
+    },
+    {
+      "title": "Shift the output down",
+      "content": "A shift $3$ units down subtracts $3$ from the whole output. The constant term changes from $6$ to $3$ after the vertical shift.\n$$g(x)=\\frac{a-18}{x-9}+6-3$$\n$$g(x)=\\frac{a-18}{x-9}+3$$\nThe answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=6/x+6",
+        "y=6/(x+9)+3",
+        "y=6/(x-9)+3",
+        "y=3/(x+9)+6",
+        "y=3/(x-9)+6"
+      ]
+    }
+  ]
+}

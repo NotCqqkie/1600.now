@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two points on the fit line",
-      "content": "For a line-of-best-fit slope question, use two points on the drawn line, not necessarily two data points. The line passes through approximately $(0,3.2)$ and $(2,4.4)$."
+      "title": "Choose two line points",
+      "content": "Use two points on the drawn line of best fit, not necessarily two data points. The line passes through approximately $(0,3.2)$ and $(2,4.4)$."
     },
     {
-      "title": "Calculate the slope",
-      "content": "Use the slope formula with those two points: $$m=\\frac{4.4-3.2}{2-0}=\\frac{1.2}{2}=0.6.$$"
-    },
-    {
-      "title": "Match the answer",
-      "content": "The slope of the line of best fit is closest to $0.60$. The other choices, $2.50$, $7.80$, and $8.00$, are far too steep for the drawn line. <strong>A</strong> is correct."
+      "title": "Compute the slope",
+      "content": "Use change in $y$ over change in $x$:\n$$\nm=\\frac{4.4-3.2}{2-0}=\\frac{1.2}{2}=0.60\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

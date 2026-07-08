@@ -1,0 +1,15 @@
+{
+  "questionId": "83846881",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Recognize the example",
+      "content": "The first sentence states a general principle: sleek vehicles are more aerodynamic than bulkier ones. The next sentence points to the streamlined nose of the Airbus A320 as a specific case of that principle."
+    },
+    {
+      "title": "Reject the wrong links",
+      "content": "Choice B merely adds another point instead of introducing an example. Choice C suggests simultaneous events, not an example relationship. Choice D signals contrast, but the A320 supports rather than contradicts the general statement. The answer is <strong>A</strong>."
+    }
+  ]
+}

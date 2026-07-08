@@ -1,0 +1,19 @@
+{
+  "questionId": "b55a5589",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify regrowth evidence",
+      "content": "The passage says reforms and falling meat prices triggered natural regrowth by the mid-1980s. The graph evidence must therefore show forest cover increasing after the deforestation period."
+    },
+    {
+      "title": "Reject non-growth evidence",
+      "content": "Choice B compares two classes in one year, which does not show regrowth. Choice C also compares classes in one year. Choice D shows forest cover decreasing from 1960 to 1979, which describes deforestation, not recovery."
+    },
+    {
+      "title": "Use the recovery trend",
+      "content": "The remaining choice shows forest cover increasing for all classes from 1979 to 2000, directly supporting the claim of natural regrowth. The answer is <strong>A</strong>."
+    }
+  ]
+}

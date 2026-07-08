@@ -1,0 +1,15 @@
+{
+  "questionId": "21a7f1d9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the implied weakness",
+      "content": "The finding says lobbying does little to alter whether a policy is enacted. The next sentence pushes back by saying lobbying can still shape which proposals are considered. The blank must describe lobbying as seemingly unable to produce results."
+    },
+    {
+      "title": "Reject stronger or unrelated traits",
+      "content": "A means actively harmful, but the finding shows little effect, not backfiring. B concerns distrustful motives, which are not discussed. C concerns unfair preference, but the passage is about effectiveness, not fairness. The answer is <strong>D</strong>."
+    }
+  ]
+}

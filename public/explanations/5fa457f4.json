@@ -1,0 +1,15 @@
+{
+  "questionId": "5fa457f4",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the equations",
+      "content": "Multiplying the first equation by $3$ gives the second equation.<br/>$$3(1.8x+3.4y=6)$$<br/>$$5.4x+10.2y=18$$"
+    },
+    {
+      "title": "Interpret the same line",
+      "content": "The equations represent the same line, so the system has infinitely many solutions.<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

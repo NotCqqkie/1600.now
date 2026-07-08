@@ -1,0 +1,15 @@
+{
+  "questionId": "ec9954ac",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the pronoun role",
+      "content": "The blank modifies <strong>narrative</strong>, so it needs a possessive pronoun. The antecedent is <strong>poem</strong>, a singular noun."
+    },
+    {
+      "title": "Use the possessive form",
+      "content": "Choice A is plural, so it does not agree with the singular antecedent. Choice B means <em>they are</em>, and Choice C means <em>it is</em>; neither is possessive. The singular possessive form correctly shows that the narrative belongs to the poem. The answer is <strong>D</strong>."
+    }
+  ]
+}

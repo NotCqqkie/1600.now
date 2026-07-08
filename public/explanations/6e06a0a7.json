@@ -1,16 +1,15 @@
 {
   "questionId": "6e06a0a7",
-  "qid": "6e06a0a7",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $3a^3 + 12a^2$."
+      "title": "Distribute the monomial",
+      "content": "Multiply $3a^2$ by each term in the parentheses. Distribution gives one product with $a$ and one product with $4$:$$3a^2(a+4)=3a^2\\cdot a+3a^2\\cdot 4$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Simplify both terms",
+      "content": "Use exponent rules for the variable term and multiply the coefficients for the constant term:$$3a^2\\cdot a+3a^2\\cdot 4=3a^3+12a^2$$The answer is <strong>D</strong>."
     }
-  ],
-  "section": "Math"
+  ]
 }

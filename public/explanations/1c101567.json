@@ -1,0 +1,19 @@
+{
+  "questionId": "1c101567",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the comparison parallel",
+      "content": "The sentence compares the highest count for combtooth blenny with the highest count for yellowtail sergeant. The blank must give the yellowtail sergeant's maximum count and month from the graph."
+    },
+    {
+      "title": "Reject incorrect readings",
+      "content": "<ul><li><strong>Choice A</strong> gives a count far above the yellowtail sergeant's graph values.</li><li><strong>Choice B</strong> gives the wrong count and month for the maximum.</li><li><strong>Choice C</strong> gives a January value that is too high.</li></ul>"
+    },
+    {
+      "title": "Use the peak value",
+      "content": "The graph shows the yellowtail sergeant's highest count as 3 individuals in January of 2001, preserving the contrast with 62. The answer is <strong>D</strong>."
+    }
+  ]
+}

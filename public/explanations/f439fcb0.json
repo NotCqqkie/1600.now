@@ -1,0 +1,19 @@
+{
+  "questionId": "f439fcb0",
+  "correctAnswer": "97",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the root sums",
+      "content": "By Vieta's formulas, the roots of $x^2+8x+13=0$ have sum $r+s=-8$, and the roots of $x^2+12x+24=0$ have sum $t+u=-12$. The new roots have sum $(r+u)+(s+t)=(r+s)+(t+u)=-20$, which fits the equation $x^2+20x+c=0$."
+    },
+    {
+      "title": "Find the ordered roots",
+      "content": "Use the quadratic formula to identify which roots are smaller and larger. From $x^2+8x+13=0$, the roots are $-4-\\sqrt{3}$ and $-4+\\sqrt{3}$, so $r=-4-\\sqrt{3}$ and $s=-4+\\sqrt{3}$. From $x^2+12x+24=0$, the roots are $-6-2\\sqrt{3}$ and $-6+2\\sqrt{3}$, so $t=-6-2\\sqrt{3}$ and $u=-6+2\\sqrt{3}$."
+    },
+    {
+      "title": "Multiply the new roots",
+      "content": "The new roots are $r+u=(-4-\\sqrt{3})+(-6+2\\sqrt{3})=-10+\\sqrt{3}$ and $s+t=(-4+\\sqrt{3})+(-6-2\\sqrt{3})=-10-\\sqrt{3}$. The constant term is their product: $c=(-10+\\sqrt{3})(-10-\\sqrt{3})=100-3=97$. The answer is <strong>97</strong>."
+    }
+  ]
+}

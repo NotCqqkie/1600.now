@@ -1,0 +1,19 @@
+{
+  "questionId": "4e93d906",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use indirect evidence",
+      "content": "The passage says PSP structures usually do not fossilize, so researchers must rely on fossil clues such as large foramina. The blank needs a verb for reaching a conclusion from indirect evidence."
+    },
+    {
+      "title": "Reject physical actions",
+      "content": "Choice B would mean keeping PSP intact, but the structures do not typically fossilize. Choice C means separating something out. Choice D means obtaining something, not drawing a conclusion from clues."
+    },
+    {
+      "title": "Choose the evidence verb",
+      "content": "Infer means to conclude something from evidence, which is exactly what researchers do when they use fossil indicators to determine whether PSP was present. The answer is <strong>A</strong>."
+    }
+  ]
+}

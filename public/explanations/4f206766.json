@@ -1,0 +1,19 @@
+{
+  "questionId": "4f206766",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertical shift rule",
+      "content": "Shifting the graph of a function up by $7$ units adds $7$ to every output value. That means the new function is the original function plus $7$."
+    },
+    {
+      "title": "Apply the shift to the function",
+      "content": "Since $f(x)=4x^6$, the shifted function is<br/>$$g(x)=f(x)+7=4x^6+7$$"
+    },
+    {
+      "title": "Match the shifted equation",
+      "content": "The equation with $+7$ added to the output is the upward shift by $7$ units. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "96de09e5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with the given equation and multiply both sides by $164x$.<br/>$$u=-\\frac{w}{164x}$$<br/>$$164ux=-w$$"
+    },
+    {
+      "title": "Isolate the target variable",
+      "content": "Multiply both sides by $-1$.<br/>$$w=-164ux$$The answer is <strong>A</strong>."
+    }
+  ]
+}

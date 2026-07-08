@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the cautionary framing",
-      "content": "The opening directly warns against overstating posture's cognitive effects. Then “A case in point:” introduces the Chen and Haddad study — this phrase marks the study as an example supporting that warning."
+      "title": "Use the cautionary opening",
+      "content": "The text begins by warning that posture's influence on cognition should not be overstated. The phrase a case in point introduces Chen and Haddad's study as an example, and the study's null result supports the need for caution."
     },
     {
-      "title": "Match the purpose to the choices",
-      "content": "D identifies the passage's purpose: using the study to illustrate why caution is needed about posture-cognition claims.<br/><br/>The null result (no effect of posture on risk decisions) directly supports the opening warning against overstatement.<br/><br/>The other choices either mischaracterize what the passage does (critique prior research, or show misunderstood findings) or misframe the study's role (as solving a problem rather than supporting a principle).<br/><br/>That is the correct answer."
+      "title": "Avoid unsupported purposes",
+      "content": "Choice A says the issue is misunderstanding research findings, which the text does not argue. Choice B invents a critique of previous study methods and results. Choice C says Chen and Haddad solved a problem, but the text uses their study as an illustration. The answer is <strong>D</strong>."
     }
   ]
 }

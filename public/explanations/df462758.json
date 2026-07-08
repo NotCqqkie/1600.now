@@ -1,0 +1,15 @@
+{
+  "questionId": "df462758",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a program overview",
+      "content": "The student wants an overview of the National Wildlife Refuge program, so the response should use information that applies broadly to the program. The notes give three broad features: there are more than 500 NWRs, they exist across the United States, and the listed examples show refuges protecting endangered species on both coasts."
+    },
+    {
+      "title": "Reject narrow refuge details",
+      "content": "<ul><li><strong>Choice B</strong> discusses only the Crocodile Lake NWR and the Nestucca Bay NWR, so it is narrower than a program overview.</li><li><strong>Choice C</strong> gives one detail about Oregon's Nestucca Bay NWR and the Aleutian Canada goose.</li><li><strong>Choice D</strong> centers on the Crocodile Lake NWR's acreage in Florida.</li></ul>The remaining option combines the program's size, national reach, and endangered-species purpose. The answer is <strong>A</strong>."
+    }
+  ]
+}

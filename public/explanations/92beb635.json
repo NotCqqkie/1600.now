@@ -1,0 +1,23 @@
+{
+  "questionId": "92beb635",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central claim",
+      "content": "The passage says researchers located 41 smaller settlements around Izapa and concluded that those settlements were culturally linked to Izapa. The basis for that conclusion is that the settlements were the same age and had the same layout as Izapa, with a pyramid to the north and a plaza to the south."
+    },
+    {
+      "title": "Connect structure to culture",
+      "content": "The shared structural orientation is not just a side detail. The passage uses it as evidence that residents of the smaller settlements likely performed some of the same cultural ceremonies as residents of Izapa did, so construction similarity supports the inference of cultural connection."
+    },
+    {
+      "title": "Reject unsupported extensions",
+      "content": "Choice B says Izapa's arrangement was based on nearby settlements, which the passage never claims. Choice C focuses on recent discovery rather than the main inference. Choice D invents a comparison about ceremonies being more important in Izapa than in surrounding settlements."
+    },
+    {
+      "title": "Choose the main idea",
+      "content": "The remaining choice states the main idea: researchers inferred that Izapa was related to surrounding settlements based partly on similarities in construction. That captures the discovery, the evidence, and the conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

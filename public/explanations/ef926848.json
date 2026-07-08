@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the side length of square Q",
-      "content": "Square P has side length $x$, giving it a perimeter of $4x$ inches. Square Q's perimeter is 208 inches greater: $4x + 208$. The side length of Q is this perimeter divided by 4:<br/>$$\\text{Side of Q} = \\frac{4x + 208}{4} = x + 52$$"
+      "title": "Find the new side length",
+      "content": "Square P has perimeter $4x$. Square Q has perimeter $208$ inches more, so its perimeter is $4x+208$. Divide by $4$ to get the side length of square Q:<br/>$$\\frac{4x+208}{4}=x+52$$"
     },
     {
-      "title": "Find the area function",
-      "content": "The area of a square equals the side length squared:<br/>$$f(x) = (x + 52)^2$$<br/>This matches the correct answer, so <strong>A</strong> is correct."
+      "title": "Square the side length",
+      "content": "The area of a square is its side length squared, so the function is:<br/>$$f(x)=(x+52)^2$$The answer is <strong>A</strong>."
     }
   ]
 }

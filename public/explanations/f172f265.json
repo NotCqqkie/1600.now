@@ -1,0 +1,15 @@
+{
+  "questionId": "f172f265",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the rows for sixteen or more",
+      "content": "Employees with $16$ or more complete years are in the $16$ to $18$ year row and the $19$ to $21$ year row."
+    },
+    {
+      "title": "Add the matching counts",
+      "content": "$$10+3=13$$So $13$ employees have worked at the company for $16$ or more complete years. The answer is <strong>B</strong>."
+    }
+  ]
+}

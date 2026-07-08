@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the dimensions",
-      "content": "The width is $w$ feet, and the length is $8$ feet longer, so the length is $w+8$."
+      "title": "Write the two dimensions",
+      "content": "The width is $w$ feet. The length is $8$ feet longer than the width, so the length is $w+8$."
     },
     {
       "title": "Find the perimeter",
-      "content": "A rectangle's perimeter is twice the width plus twice the length: $$2w+2(w+8)=2w+2w+16=4w+16$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Choice B (&lsquo;$4w + 16$&rsquo;) is $4w+16$, so <strong>B</strong> is correct."
+      "content": "A rectangle has two widths and two lengths:<br/>$$2w+2(w+8)=2w+2w+16=4w+16$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

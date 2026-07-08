@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what a margin of error means",
-      "content": "A margin of error of $E$ around a sample mean $\\bar{x}$ means we are confident the true population mean lies in the interval:<br/>$$[\\bar{x} - E,\\; \\bar{x} + E]$$<br/>Values outside this range are <em>not</em> plausible given the data."
+      "title": "Use the margin of error",
+      "content": "A margin of error gives a plausible interval around the estimate. Subtract and add $0.11$ to the estimated mean price $3.76$."
     },
     {
-      "title": "Compute the confidence interval",
-      "content": "$$\\bar{x}=3.76,\\quad E=0.11$$ Lower bound: $$3.76-0.11=3.65$$ Upper bound: $$3.76+0.11=3.87$$ The plausible range is &#36;3.65 to &#36;3.87."
-    },
-    {
-      "title": "Eliminate wrong choices",
-      "content": "The credited option gives exactly this interval. The other choices describe prices outside the margin-of-error interval, so <strong>A</strong> is correct."
+      "title": "Compute the plausible interval",
+      "content": "Find the lower and upper bounds:<br/>$$3.76-0.11=3.65$$<br/>$$3.76+0.11=3.87$$<br/>So the plausible mean price is between $\\$3.65$ and $\\$3.87$. The answer is <strong>A</strong>."
     }
   ]
 }

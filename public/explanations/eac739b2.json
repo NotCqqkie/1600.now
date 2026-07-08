@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the target expression",
-      "content": "The expression $24x+12$ is exactly $4$ times $6x+3$: $$4(6x+3)=24x+12.$$"
+      "title": "Scale the given expression",
+      "content": "The requested expression is $4$ times the left side of the given equation:\n$$\n4(6x+3)=24x+12\n$$"
     },
     {
-      "title": "Use the given equation directly",
-      "content": "Since $6x+3=18$, multiply both sides by $4$: $$24x+12=72.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$72$ is correct. This shortcut avoids solving for $x$ first; the requested expression comes from multiplying the whole original equation by $4$."
+      "title": "Multiply the equation by four",
+      "content": "Since $6x+3=18$, multiplying both sides by $4$ gives\n$$\n24x+12=4(18)=72\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

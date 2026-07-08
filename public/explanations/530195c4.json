@@ -1,0 +1,28 @@
+{
+  "questionId": "530195c4",
+  "correctAnswer": "12,13,14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph the weight interval",
+      "content": "The calf's weight after $n$ days is $5900+250n$. In Desmos, graph the weight line with the two cutoff weights. The integer $x$-values where the line is between the two horizontal lines are the possible day counts.",
+      "desmosExpressions": [
+        "y=5900+250x",
+        "y=8650",
+        "y=9650"
+      ]
+    },
+    {
+      "title": "Use the intersections as bounds",
+      "content": "The line reaches $8650$ pounds when $5900+250n=8650$, so $250n=2750$ and $n=11$. It reaches $9650$ pounds when $5900+250n=9650$, so $250n=3750$ and $n=15$."
+    },
+    {
+      "title": "Choose the integer days inside the interval",
+      "content": "The weight must be greater than $8650$ and less than $9650$, so $n$ must be an integer strictly between $11$ and $15$. The possible values are $12$, $13$, and $14$."
+    },
+    {
+      "title": "Check a valid entry",
+      "content": "For example, $n=12$ gives $5900+250(12)=8900$, and $8650\\lt8900\\lt9650$. Therefore any of $12$, $13$, or $14$ is a valid entry."
+    }
+  ]
+}

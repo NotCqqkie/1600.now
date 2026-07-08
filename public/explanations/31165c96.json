@@ -1,0 +1,23 @@
+{
+  "questionId": "31165c96",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the two slopes",
+      "content": "The equations are both linear:\n$$\ny=x+15\n$$\n$$\ny=5x\n$$\nTheir slopes are $1$ and $5$, so the lines are not parallel."
+    },
+    {
+      "title": "Use the intersection rule",
+      "content": "Two different nonparallel lines in the $xy$-plane intersect at exactly one point. That means the graphs have $1$ point of intersection."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations also shows exactly one shared point. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=x+15",
+        "y=5x"
+      ]
+    }
+  ]
+}

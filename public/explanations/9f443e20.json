@@ -1,0 +1,15 @@
+{
+  "questionId": "9f443e20",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given input",
+      "content": "Use $x=0$ in $h(x)=x+b$. Since the input term is $0$, the output equals the constant term:<br/>$$h(0)=0+b=b$$"
+    },
+    {
+      "title": "Use the function value",
+      "content": "The problem states that $h(0)=31$. Since $h(0)=b$, the constant must have the same value:<br/>$$b=31$$The answer is <strong>31</strong>."
+    }
+  ]
+}

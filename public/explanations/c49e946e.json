@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries question testing punctuation in a complex series. The sentence lists three of Marisa Coleman&rsquo;s responsibilities. Because the first two items each contain internal commas (making them complex), the items must be separated by semicolons &mdash; not commas &mdash; to prevent the reader from confusing item boundaries. The blank separates item 1 (&ldquo;overseeing&hellip;162 million items&rdquo;) from item 2 (&ldquo;managing&hellip;copyright law&rdquo;)."
+      "title": "Recognize the complex series",
+      "content": "The sentence lists three responsibilities: overseeing collections, managing the Copyright Office, and appointing the poet laureate. Because the list already uses a semicolon before the final item, the first and second items should also be separated with a semicolon."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; items managing</strong>: no punctuation between items 1 and 2 fuses them into one run-on phrase, making the series impossible to parse. &#10007;</li><li><strong>Choice B &mdash; items, managing</strong>: a comma here conflicts with the semicolon already used later to separate items 2 and 3 (&ldquo;managing&hellip;law; and appointing&hellip;&rdquo;). Mixing commas and semicolons as separators in the same series is not standard. &#10007;</li><li><strong>Choice C &mdash; items ; managing</strong>: a semicolon correctly separates item 1 from item 2, matching the semicolon that separates items 2 and 3 later in the sentence. This creates a consistent, readable complex series. &#10003;</li><li><strong>Choice D &mdash; items. Managing</strong>: a period ends the sentence after item 1, leaving &ldquo;Managing&hellip;copyright law; and appointing the US poet laureate&rdquo; as a grammatically unacceptable sentence fragment. &#10007;</li></ul>That is the correct answer."
+      "title": "Keep the separators consistent",
+      "content": "Choice A gives no punctuation between the first two items. Choice B uses a comma where the later list structure calls for a semicolon. Choice D uses a period and leaves a fragment beginning with <em>Managing</em>. A semicolon correctly separates the first responsibility from the second. The answer is <strong>C</strong>."
     }
   ]
 }

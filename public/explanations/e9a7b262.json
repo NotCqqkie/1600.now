@@ -1,0 +1,15 @@
+{
+  "questionId": "e9a7b262",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept value",
+      "content": "The $y$-intercept occurs when $x=0$:\n$$\ny=600(2)^{2(0)}=600(2)^0=600\n$$"
+    },
+    {
+      "title": "Interpret the starting time",
+      "content": "The variable $x$ counts six-month periods starting from the end of March $1998$. So $x=0$ means the end of March $1998$, and the $y$-intercept represents $600$ subscribers at that time. The answer is <strong>B</strong>."
+    }
+  ]
+}

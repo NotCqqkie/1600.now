@@ -1,0 +1,15 @@
+{
+  "questionId": "139098f7",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the study and limit",
+      "content": "The first part introduces Ortega and colleagues' use of historical DNA to study a pathogen. The second part explains why that approach is not widely used: historical DNA is often degraded and hard to repair with current methods."
+    },
+    {
+      "title": "Match the structure",
+      "content": "B says the text explains how to overcome the difficulty, but it does not. C says findings and replication are discussed, but they are not. D calls the method common even though the text says it is underutilized. The answer is <strong>A</strong>."
+    }
+  ]
+}

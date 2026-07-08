@@ -1,0 +1,15 @@
+{
+  "questionId": "4b80f6ed",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Add a related benefit",
+      "content": "The first sentence reports that caffeic acid helps cauliflower mushrooms combat free radicals. The next sentence extends that idea to humans, who also experience free radical damage."
+    },
+    {
+      "title": "Choose an additive transition",
+      "content": "A would introduce an example, but humans are a related extension, not an example of mushrooms. C signals opposition, and D signals replacement. The transition should mean 'in addition.' The answer is <strong>B</strong>."
+    }
+  ]
+}

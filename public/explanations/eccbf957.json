@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the probability formula",
-      "content": "For any probability question, use the basic formula: <strong>Probability = (Favorable outcomes) / (Total outcomes)</strong>. We need to find how many ways to roll a 3, and how many total possible outcomes exist.",
-      "formula": "$$P = \\frac{\\text{Favorable outcomes}}{\\text{Total outcomes}}$$"
+      "title": "Count favorable outcomes",
+      "formula": "$$P = \\frac{\\text{Favorable outcomes}}{\\text{Total outcomes}}$$",
+      "content": "Only one face of the $16$-sided die is labeled $3$, so there is $1$ favorable outcome."
     },
     {
-      "title": "Apply the formula to this die",
-      "content": "On a 16-sided fair die:<ul><li>Total possible outcomes: 16 (one for each face, labeled 1 through 16)</li><li>Favorable outcomes (rolling a 3): 1 (only one face is labeled with a 3)</li></ul>Therefore, the probability is $\\frac{1}{16}$. That matches the correct answer - <strong>A</strong> is correct."
+      "title": "Divide by total outcomes",
+      "content": "A fair $16$-sided die has $16$ equally likely outcomes, so\n$$\nP(\\text{rolling }3)=\\frac{1}{16}\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

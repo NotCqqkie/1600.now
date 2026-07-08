@@ -1,0 +1,15 @@
+{
+  "questionId": "9370a018",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify input and output",
+      "content": "In $K(v)=\\frac{1}{2}(38)(v^2)$, the input $v$ is speed in meters per second, and the output $K(v)$ is kinetic energy in joules."
+    },
+    {
+      "title": "Interpret the function value",
+      "content": "The statement $K(3)=171$ means that when the speed is $3$ meters per second, the kinetic energy is $171$ joules. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality",
-      "content": "Four consecutive odd integers from least to greatest: $x,\\ x+2,\\ x+4,\\ x+6$. Third = $x+4$; fourth = $x+6$.<br/><br/>\"$28 \\cdot$ third $\\le$ (sum of first and fourth) $- 50$\":<br/>$$28(x+4) \\le (x + (x+6)) - 50$$"
+      "title": "Name the odd integers",
+      "content": "The four consecutive odd integers are:\n$$\nx,\\ x+2,\\ x+4,\\ x+6\n$$\nThe third is $x+4$ and the fourth is $x+6$."
     },
     {
-      "title": "Solve for the greatest $x$",
-      "content": "$$28x + 112 \\le 2x + 6 - 50$$<br/>$$28x + 112 \\le 2x - 44$$<br/>$$26x \\le -156$$<br/>$$x \\le -6$$<br/>The greatest <strong>odd</strong> integer satisfying $x \\le -6$ is $x = -7$.<br/><br/>The answer is <strong>-7</strong>."
+      "title": "Set up the inequality",
+      "content": "Translate the statement:\n$$\n28(x+4)\\leq x+(x+6)-50\n$$\nSimplify:\n$$\n28x+112\\leq2x-44\n$$"
+    },
+    {
+      "title": "Choose the greatest odd value",
+      "content": "Solve the inequality:\n$$\n26x\\leq-156\n$$\n$$\nx\\leq-6\n$$\nSince $x$ must be odd, the greatest possible value is $-7$. The answer is <strong>-7</strong>."
     }
   ]
 }

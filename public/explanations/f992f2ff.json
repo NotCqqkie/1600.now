@@ -1,0 +1,23 @@
+{
+  "questionId": "f992f2ff",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertex formula",
+      "content": "The quadratic opens upward because $a=18$ is positive, so its minimum occurs at the vertex. For $f(x)=ax^2+bx+c$, the vertex x-coordinate is<br/>$$x=-\\frac{b}{2a}$$",
+      "formula": "$$x = -\\frac{b}{2a}$$"
+    },
+    {
+      "title": "Substitute the coefficients",
+      "content": "Here, $a=18$ and $b=-45$. Substitute these values into the formula.<br/>$$x=-\\frac{-45}{2(18)}=\\frac{45}{36}=\\frac{5}{4}$$"
+    },
+    {
+      "title": "Convert to decimal form",
+      "content": "Convert the fraction to match the listed choices.<br/>$$\\frac{5}{4}=1.25$$<br/>The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "f(x) = 18x^2 - 45x + 13"
+      ]
+    }
+  ]
+}

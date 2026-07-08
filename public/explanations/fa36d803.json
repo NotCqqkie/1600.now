@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank connects",
-      "content": "The blank sits between the title phrase \"little-known French portrait artist\" and the proper name \"Marie-Denise Villers.\" The name is a restrictive appositive &mdash; it uniquely identifies which artist &mdash; so no punctuation should separate it from the title. Eliminate any choice that inserts punctuation.<ul><li><strong>\"artist—\"</strong>: An em dash before the name implies a sharp break or non-essential aside. No such break is warranted here. &#10007;</li><li><strong>\"artist\"</strong>: No punctuation between the title and the name. The name flows directly as the essential identifier of the artist. &#10003;</li><li><strong>\"artist:\"</strong>: A colon introduces lists or explanations. There is no list or formal explanation following &mdash; just a proper name. &#10007;</li><li><strong>\"artist,\"</strong>: A comma before the name suggests it is non-restrictive (optional). Because the name is essential, this comma is incorrect. &#10007;</li></ul>"
+      "title": "Attach the name directly",
+      "content": "The phrase little-known French portrait artist is immediately followed by the proper name Marie-Denise Villers. Because the name identifies the artist, no punctuation should separate the title from the name."
     },
     {
-      "title": "Apply the restrictive appositive rule",
-      "content": "When a proper name uniquely identifies the preceding noun &mdash; as \"Marie-Denise Villers\" identifies \"artist\" here &mdash; no punctuation separates them in Standard English. Every other option inserts punctuation where none belongs. That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Remove unnecessary punctuation",
+      "content": "<ul><li><strong>Choice A</strong>: Adds an em dash where no break is needed.</li><li><strong>Choice B</strong>: Leaves the title and name directly connected.</li><li><strong>Choice C</strong>: Adds a colon, but the name is not an explanation or list.</li><li><strong>Choice D</strong>: Adds a comma that wrongly treats the name as optional.</li></ul>The answer is <strong>B</strong>."
     }
   ]
 }

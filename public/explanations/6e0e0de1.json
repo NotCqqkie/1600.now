@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the core problem and contrast",
-      "content": "The passage identifies why conventional aerogels fail: they are typically brittle and are &ldquo;eventually fracturing due to degradation from repeated exposure to high heat.&rdquo; Patel's new aerogel exhibits opposite qualities: it has &ldquo;uniquely flexible properties&rdquo; and &ldquo;contracts rather than expands when heated and fully recovers after compressing to just 5% of its original volume&rdquo;.<br/><br/>This direct contrast is the decisive clue."
+      "title": "Compare failure and flexibility",
+      "content": "The passage says ordinary aerogels are brittle and can fracture after heat exposure. Patel's new aerogel is flexible, contracts when heated, and recovers after major compression, so the logical inference is that it avoids the weakness that makes other aerogels break down."
     },
     {
-      "title": "Match the contrast to the correct inference",
-      "content": "Choice D (&lsquo;the aerogel will be less prone to the structural weakness that ultimately causes most other aerogels to break down with use.&rsquo;) states the aerogel will be “less prone to the structural weakness that ultimately causes most other aerogels to break down”—the brittleness and degradation the passage identifies.<br/><br/>The new material's properties—contracting when heated and recovering fully from compression—are the opposite of what causes conventional aerogels to fail, meaning it will avoid this weakness.<br/><br/>The other choices either speculate about composition not mentioned, claim reduced heat resistance that contradicts the passage's implications or introduce distinctions about heating rates not discussed in the passage.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported inferences",
+      "content": "Choice A invents a reason based on air-pocket proportion. Choice B claims lower heat resistance, which conflicts with the positive evidence. Choice C introduces gradual versus rapid temperature shifts, a distinction the passage never discusses. The answer is <strong>D</strong>."
     }
   ]
 }

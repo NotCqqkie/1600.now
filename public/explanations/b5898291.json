@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key contrast signal",
-      "content": "The text states the data &quot;were mostly inaccessible until a recent data-transfer project made them ______.&quot; The word &quot;until&quot; signals a reversal: the data went from inaccessible to their opposite state. The blank must name that opposite state."
+      "title": "Use the inaccessible contrast",
+      "content": "The data were mostly inaccessible until a data-transfer project changed that status. The next sentence says Tanaka could make use of the information, so the blank must mean accessible or ready to use."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; predictable</strong>: means able to be known in advance; a data-transfer project moves files, not forecasts their behavior, so this does not fit the inaccessible-to-usable reversal. &#10007;</li><li><strong>Choice B &mdash; complicated</strong>: means complex or difficult to understand; this contradicts the idea that the project helped a researcher actually use the data. &#10007;</li><li><strong>Choice C &mdash; representative</strong>: means standing as a typical example or symbol; the text focuses on the data becoming usable, not on whether they are typical of anything. &#10007;</li><li><strong>Choice D &mdash; available</strong>: means accessible and ready to be used; this is the direct opposite of &quot;inaccessible&quot; and explains how the researcher could make use of the information. &#10003;</li></ul>That is the correct answer."
+      "title": "Choose the usability word",
+      "content": "A means able to be forecast, B means difficult or complex, and C means typical or symbolic. None explains how Tanaka could use the data. The needed word is the opposite of inaccessible. The answer is <strong>D</strong>."
     }
   ]
 }

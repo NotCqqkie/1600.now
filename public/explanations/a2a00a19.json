@@ -1,0 +1,15 @@
+{
+  "questionId": "a2a00a19",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect preposition and object",
+      "content": "The phrase needs the preposition before the location \"Edwards Air Force Base.\" A preposition should connect directly to its object, so no punctuation should interrupt \"at\" and the place name."
+    },
+    {
+      "title": "Remove punctuation breaks",
+      "content": "<ul><li><strong>Choice A</strong>: A dash after the preposition separates it from its object.</li><li><strong>Choice B</strong>: A comma after the preposition also breaks the connection to the location.</li><li><strong>Choice C</strong>: A colon cannot follow \"landed at\" because that wording is not an independent clause.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

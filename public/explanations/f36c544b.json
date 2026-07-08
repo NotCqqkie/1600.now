@@ -1,0 +1,15 @@
+{
+  "questionId": "f36c544b",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the dot plot statistics",
+      "content": "From the dot plot for set A, the mean capacity is $8$ microfarads and the range is $12$ microfarads."
+    },
+    {
+      "title": "Shift every value upward",
+      "content": "Adding $13$ microfarads to every value in set B increases the mean by $13$ but does not change the range.<br/>$$8+13=21$$<br/>So set B has mean $21$ microfarads and range $12$ microfarads. The answer is <strong>C</strong>."
+    }
+  ]
+}

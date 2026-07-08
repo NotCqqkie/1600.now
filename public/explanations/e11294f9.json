@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve both quadratics using the quadratic formula",
-      "content": "Use the discriminant when the question is really asking how many real solutions a quadratic has. The sign of $b^2-4ac$ tells whether there are two, one, or no real solutions. For $x^2 + 8x + 13 = 0$, the discriminant is $\\Delta = 64 - 52 = 12$:<br/>$$r, s = \\frac{-8 \\pm \\sqrt{12}}{2} = \\frac{-8 \\pm 2\\sqrt{3}}{2} = -4 \\pm \\sqrt{3}$$<br/>For $x^2 + 10x + 13 = 0$, the discriminant is $\\Delta = 100 - 52 = 48$:<br/>$$t, u = \\frac{-10 \\pm \\sqrt{48}}{2} = \\frac{-10 \\pm 4\\sqrt{3}}{2} = -5 \\pm 2\\sqrt{3}$$"
+      "title": "Find both pairs of roots",
+      "content": "Use the quadratic formula on each quadratic. For $x^2+8x+13=0$:<br/>$$x=\\frac{-8\\pm\\sqrt{8^2-4(1)(13)}}{2}=-4\\pm\\sqrt{3}$$<br/>So $r=-4-\\sqrt{3}$ and $s=-4+\\sqrt{3}$. For $x^2+10x+13=0$:<br/>$$x=\\frac{-10\\pm\\sqrt{10^2-4(1)(13)}}{2}=-5\\pm2\\sqrt{3}$$<br/>So $t=-5-2\\sqrt{3}$ and $u=-5+2\\sqrt{3}$."
     },
     {
-      "title": "Form the new roots and verify their sum",
-      "content": "With $r = -4 - \\sqrt{3}$, $s = -4 + \\sqrt{3}$, $t = -5 - 2\\sqrt{3}$, $u = -5 + 2\\sqrt{3}$:<br/>$$r + t = -9 - 3\\sqrt{3}, \\quad s + u = -9 + 3\\sqrt{3}$$<br/>Their sum is $(r+t) + (s+u) = -18$, confirming the $x$ coefficient in $x^2 + 18x + c = 0$."
+      "title": "Form the new roots",
+      "content": "Add the roots in the order given:<br/>$$r+t=-9-3\\sqrt{3}$$<br/>$$s+u=-9+3\\sqrt{3}$$<br/>These are the two roots of $x^2+18x+c=0$."
     },
     {
-      "title": "Calculate c as the product of the new roots",
-      "content": "$$(r+t)(s+u) = (-9 - 3\\sqrt{3})(-9 + 3\\sqrt{3})$$<br/>This is a difference of squares $(a-b)(a+b) = a^2 - b^2$ with $a = -9$ and $b = 3\\sqrt{3}$:<br/>$$= 81 - 9 \\cdot 3 = 81 - 27 = 54$$<br/>Therefore, $c = 54$."
+      "title": "Use the product of roots",
+      "content": "For $x^2+18x+c=0$, the constant $c$ is the product of the roots:<br/>$$(r+t)(s+u)=(-9-3\\sqrt{3})(-9+3\\sqrt{3})$$<br/>$$=81-27=54$$<br/>The answer is <strong>54</strong>."
     }
   ]
 }

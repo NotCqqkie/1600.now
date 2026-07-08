@@ -1,0 +1,22 @@
+{
+  "questionId": "5d9871e2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "Multiply the equation by $-1$ to get<br/>$$3x^2+7x-1=0$$<br/>Then use $a=3$, $b=7$, and $c=-1$:<br/>$$x=\\frac{-7\\pm\\sqrt{7^2-4(3)(-1)}}{2(3)}=\\frac{-7\\pm\\sqrt{61}}{6}$$"
+    },
+    {
+      "title": "Choose the greater root",
+      "content": "The greater solution uses the plus sign:<br/>$$-\\frac{7}{6}+\\frac{\\sqrt{61}}{6}$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the equation as written and compare the larger root to the answer choices. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "-3x^{2}-7x+1=0"
+      ]
+    }
+  ]
+}

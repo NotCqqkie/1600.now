@@ -1,0 +1,15 @@
+{
+  "questionId": "19a02553",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the that clause",
+      "content": "The words that few authors would turn down form a restrictive relative clause describing award. A restrictive that clause attaches directly to the noun it modifies, so no punctuation should separate the noun from that."
+    },
+    {
+      "title": "Remove separating punctuation",
+      "content": "A uses a colon after a noun phrase that is not an independent clause. C wrongly inserts a comma between award and its restrictive modifier. D uses a semicolon before a dependent clause. The remaining choice lets the modifier attach directly: an award that few authors would turn down. The answer is <strong>B</strong>."
+    }
+  ]
+}

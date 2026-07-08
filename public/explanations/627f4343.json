@@ -1,0 +1,15 @@
+{
+  "questionId": "627f4343",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the equations",
+      "content": "Subtract the second equation from the first. The $x+k$ terms cancel, and the opposite $y+t$ terms combine.\n\n$$((x+k)+\\frac{7}{2}(y+t)+15)-((x+k)-\\frac{7}{2}(y+t)-15)=0$$\n\n$$7(y+t)+30=0$$"
+    },
+    {
+      "title": "Isolate the requested expression",
+      "content": "Solve for $y+t$, then multiply by $14$ because the question asks for $14(y+t)$.\n\n$$7(y+t)=-30$$\n\n$$y+t=-\\frac{30}{7}$$\n\n$$14(y+t)=14(-\\frac{30}{7})$$\n\n$$14(y+t)=-60$$\n\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "c330ea39",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show population and density",
+      "content": "The student wants to show that a country with a very large population can have lower population density than a country with a much smaller population. The example must compare both population and density data for two countries."
+    },
+    {
+      "title": "Pick the contrasting data",
+      "content": "A says Zambia and Benin have similar densities, so it does not show the contrast. B gives only Mali's size and population. D compares populations across years, not density. The Mali-Lesotho comparison directly pairs high population with low density and lower population with higher density. The answer is <strong>C</strong>."
+    }
+  ]
+}

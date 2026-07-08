@@ -1,28 +1,19 @@
 {
   "questionId": "974d33dc",
-  "qid": "974d33dc",
+  "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>D</strong>, $r^3 + 7r^2 + 10r + 23$."
+      "title": "Write the sum",
+      "content": "Add the two expressions exactly as given. The first expression has an $r^3$ term, an $r^2$ term, and a constant; the second has an $r^2$ term, an $r$ term, and a constant. Keep all terms visible:\n$$\n(r^3+6r^2+9)+(r^2+10r+14)\n$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Combine like terms",
+      "content": "Only terms with the same power of $r$ can be combined:\n$$\nr^3+(6r^2+r^2)+10r+(9+14)\n$$\n$$\nr^3+7r^2+10r+23\n$$"
     },
     {
-      "title": "Step 1",
-      "content": "Write the sum and align like terms: $(r^3 + 6r^2 + 0r + 9) + (0r^3 + r^2 + 10r + 14)$."
-    },
-    {
-      "title": "Step 2",
-      "content": "Combine coefficients by degree: $r^3$: $1+0=1$; $r^2$: $6+1=7$; $r$: $0+10=10$; constant: $9+14=23$. Result: $r^3 + 7r^2 + 10r + 23$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Evaluate all four choices: <ul><li>A: $r^5 + 16r^3 + 23$ - introduces $r^5$ and $r^3$ terms by incorrectly multiplying rather than adding exponents. Eliminated.</li><li>B: $2r^3 + 16r^2 + 23$ - doubles the $r^3$ coefficient and adds the $r^2$ terms incorrectly; missing the $10r$ term. Eliminated.</li><li>C: $r^3 + 6r^2 + 9r + 14$ - drops the $r^2$ from the second polynomial and does not add the constants. Eliminated.</li><li>D: $r^3 + 7r^2 + 10r + 23$ - matches every coefficient derived above. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Match the expression",
+      "content": "The simplified expression is $r^3+7r^2+10r+23$. The answer is <strong>D</strong>."
     }
-  ],
-  "correctAnswer": "D",
-  "section": "Math"
+  ]
 }

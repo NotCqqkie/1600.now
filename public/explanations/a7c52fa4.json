@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand the conclusion",
-      "content": "The researchers concluded that the effect of floral damage varied by <em>both</em> floral morph (pin vs. thrum) <em>and</em> pollinator genus. Supporting data must show different responses to damage depending on both variables at once."
+      "title": "Match both variables",
+      "content": "The conclusion says floral damage affects time spent per flower differently depending on both floral morph and pollinator genus. Supporting data must compare damaged flowers with intact flowers and show that the damage effect is not the same for pin and thrum flowers or for every pollinator genus. Any option that discusses only one morph, only one genus, or only intact flowers would be too narrow."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; For pin flowers, damage led to longer times per flower in all pollinator genera, whereas for thrum flowers, damage led to longer times per flower only in <em>Habropoda</em> and <em>Osmia</em>.</strong>: Pins showed a uniform increase across all genera, but thrums showed a genus-dependent split &mdash; exactly demonstrating both morph and genus variation. &#10003;</li><li><strong>Choice B &mdash; Compared with pollinators belonging to the genus <em>Osmia</em>, pollinators belonging to the genus <em>Xylocopa</em> spent less time on damaged pin flowers but more time on damaged thrum flowers.</strong>: Compares only two genera on damaged flowers without addressing the contrast between intact and damaged visits, so it does not support the damage-effect conclusion. &#10007;</li><li><strong>Choice C &mdash; Damage led to shorter times per thrum flower in three pollinator genera (<em>Osmia</em>, <em>Pierid</em>, and <em>Xylocopa</em>), whereas it led to longer times per thrum flower in one pollinator genus (<em>Habropoda</em>).</strong>: Misreads the table (only two genera decreased on thrum, not three) and ignores pin flowers entirely, so it cannot support a conclusion about both morphs. &#10007;</li><li><strong>Choice D &mdash; Pollinators belonging to the genus <em>Habropoda</em> spent 2.7 seconds on intact pin flowers and 4.1 seconds on intact thrum flowers.</strong>: Describes time on intact flowers for one genus only; it says nothing about the effect of damage across genera or morphs. &#10007;</li></ul>That is the correct answer."
+      "title": "Check the data pattern",
+      "content": "Choice B compares only damaged flowers for two genera, so it does not show how damage changed visiting time. Choice C discusses only thrum flowers and misstates the pattern by saying three genera decreased. Choice D gives intact-flower times for only <em>Habropoda</em>. The remaining statement shows that damaged pin flowers had longer visits across all genera, while damaged thrum flowers had longer visits only for <em>Habropoda</em> and <em>Osmia</em>. That directly supports variation by both morph and genus. The answer is <strong>A</strong>."
     }
   ]
 }

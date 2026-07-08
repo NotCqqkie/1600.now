@@ -1,0 +1,15 @@
+{
+  "questionId": "e962e717",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the warning",
+      "content": "Mercer and colleagues warn that a small sample size can increase the potential for biased analysis. The underlined sentence then explains what that biased analysis can lead to: reports of exaggerated effects."
+    },
+    {
+      "title": "Remove unsupported functions",
+      "content": "Choice A claims a shift in scientific understanding, which the sentence does not summarize. Choice C says the sentence emphasizes Figueiredo's effect itself, not the risk in reporting it. Choice D says it counters Mercer, but it extends Mercer's caution. The answer is <strong>B</strong>."
+    }
+  ]
+}

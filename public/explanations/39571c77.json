@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the cost equation",
-      "content": "Let $m$ = number of mystery snails. The total cost equals cost of mystery snails plus cost of ramshorn snails:<br/>$$9m + 7(3) = 66$$"
+      "title": "Subtract ramshorn cost",
+      "content": "The $3$ ramshorn snails cost $7$ dollars each.<br/>$$3\\cdot7=21$$So the amount spent on mystery snails is<br/>$$66-21=45$$"
     },
     {
-      "title": "Solve for m",
-      "content": "Simplify the left side:<br/>$$9m + 21 = 66$$<br/>Subtract 21:<br/>$$9m = 45$$<br/>Divide by 9:<br/>$$m = 5$$<br/><strong>A</strong> is correct."
+      "title": "Divide by mystery price",
+      "content": "Each mystery snail costs $9$ dollars, so the number bought is<br/>$$\\frac{45}{9}=5$$The answer is <strong>A</strong>."
     }
   ]
 }

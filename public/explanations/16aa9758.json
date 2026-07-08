@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Vertex shortcut: find the axis of symmetry",
-      "content": "For $f(x) = -5x^2 + 50x - 80$, use $x = -b/(2a) = -50/(2 \\cdot -5) = -50/(-10) = 5$."
+      "title": "Find the vertex input",
+      "content": "For $f(x)=-5x^2+50x-80$, the vertex input is<br/>$$x=-\\frac{b}{2a}=-\\frac{50}{2(-5)}=5$$"
     },
     {
-      "title": "Rewrite in vertex form",
-      "content": "Complete the square inside the quadratic:<br/>$$f(x)=-5(x^2-10x)-80$$<br/>$$f(x)=-5(x^2-10x+25)-80+125$$<br/>$$f(x)=-5(x-5)^2+45$$"
+      "title": "Complete the square",
+      "content": "Rewrite the function in vertex form.<br/>$$f(x)=-5(x^2-10x)-80$$<br/>$$f(x)=-5(x^2-10x+25)-80+125$$<br/>$$f(x)=-5(x-5)^2+45$$"
     },
     {
-      "title": "Read the maximum directly from vertex form",
-      "content": "Vertex form is $a(x-h)^2+k$, and the maximum value is the constant $k$ when the parabola opens downward. Here the equivalent form is $-5(x-5)^2+45$, so the maximum value is displayed as $45$. That matches <strong>Choice C &mdash; $f \\left(x\\right)=-5{ \\left(x-5\\right)}^{2}+45$</strong>, so <strong>C</strong>."
+      "title": "Read the maximum value",
+      "content": "The coefficient of the squared term is negative, so the vertex form shows the maximum value as the constant $45$. The matching equivalent form is choice C. The answer is <strong>C</strong>."
     }
   ]
 }

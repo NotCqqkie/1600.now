@@ -1,0 +1,15 @@
+{
+  "questionId": "f8c574db",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the stated fact",
+      "content": "The text directly states that the Museo de las Américas is in Denver, was founded in 1991, and has more than 4,800 objects in its collection."
+    },
+    {
+      "title": "Choose the supported claim",
+      "content": "A invents a visitor-count comparison, B contradicts the 1991 founding date, and D contradicts the Denver location. The collection-size statement restates the passage. The answer is <strong>C</strong>."
+    }
+  ]
+}

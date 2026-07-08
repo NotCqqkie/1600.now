@@ -1,0 +1,15 @@
+{
+  "questionId": "cb67cb76",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the correlation claim",
+      "content": "The researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than riprap is. A direct illustration should compare a high-bulkhead site with a high-riprap site and show the high-bulkhead site having a lower IWCI score."
+    },
+    {
+      "title": "Reject unclear comparisons",
+      "content": "A compares two sites both higher in bulkheads than riprap. B uses equal hardening at one site and different percentages at another. D compares overall hardening levels without isolating bulkheads from riprap. The answer is <strong>C</strong>."
+    }
+  ]
+}

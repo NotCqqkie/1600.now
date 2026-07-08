@@ -1,0 +1,15 @@
+{
+  "questionId": "ddd8bbb5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the starting value",
+      "content": "In an exponential model, the number multiplying the power is the value when the exponent is $0$. Here $t$ measures hours after the initial measurement, so the initial measurement happens at $t=0$."
+    },
+    {
+      "title": "Evaluate the model at the start",
+      "content": "$$f(0)=28{,}000(2)^0$$$$f(0)=28{,}000(1)=28{,}000$$So $28{,}000$ is the yeast cell count at the initial measurement, not the value after one hour or the doubling time. The answer is <strong>A</strong>."
+    }
+  ]
+}

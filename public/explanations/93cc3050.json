@@ -1,0 +1,15 @@
+{
+  "questionId": "93cc3050",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use negative effect values",
+      "content": "The passage defines negative effect values as harmful, so the answer must identify two neighboring species with negative values in the table."
+    },
+    {
+      "title": "Select the harmful pair",
+      "content": "The table shows leafy spurge and prickly pear have negative effects. A, C, and D each include Canadian wood betony or sticky catchfly, which do not supply the needed pair of negative values. The answer is <strong>B</strong>."
+    }
+  ]
+}

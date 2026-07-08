@@ -1,0 +1,15 @@
+{
+  "questionId": "d8fa62f3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The function gives an output after replacing $x$ with the requested input. Since the question asks for $f(9)$, use $9$ in place of $x$.<br/>$$f(9)=63-4(9)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Compute the multiplication first, then subtract from $63$ to get the function value.<br/>$$f(9)=63-36=27$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

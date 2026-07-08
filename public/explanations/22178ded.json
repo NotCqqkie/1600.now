@@ -1,0 +1,15 @@
+{
+  "questionId": "22178ded",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the duration and cause clues",
+      "content": "The passage says mass extinctions unfold over thousands or millions of years and that multiple factors likely drove widespread species loss. Those two details directly support a statement about both timing and cause."
+    },
+    {
+      "title": "Reject unsupported additions",
+      "content": "Choice B invents the idea that the species-loss number is underestimated. Choice C introduces fossil or geological detection, which the passage never discusses. Choice D invents recent discovery and poor understanding. The answer is <strong>A</strong>."
+    }
+  ]
+}

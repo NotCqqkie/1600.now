@@ -1,0 +1,15 @@
+{
+  "questionId": "382b15ff",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Modify the subject",
+      "content": "The main subject is \"Antiquarians,\" and the main verb is \"might procure.\" The blank must describe which antiquarians are being discussed without creating a second main verb before \"might procure.\""
+    },
+    {
+      "title": "Reject second main verbs",
+      "content": "A, B, and D are finite verb forms. They would give \"Antiquarians\" a separate main verb before \"might procure,\" creating an uncoordinated structure. A participle keeps \"hoping to read\" as a modifier of \"Antiquarians.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

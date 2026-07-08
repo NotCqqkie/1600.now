@@ -1,0 +1,15 @@
+{
+  "questionId": "522c4760",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two clauses",
+      "content": "The sentence has two independent clauses: one explains that the units measured area and length, and the other says neither unit is commonly used today. Respectively belongs with area and length, so it needs a comma before it and a stronger boundary after it."
+    },
+    {
+      "title": "Reject misplaced boundaries",
+      "content": "<ul><li>Choice A places the semicolon before respectively, separating the word from the pair it explains.</li><li>Choice B creates a fused sentence between two independent clauses.</li><li>Choice D uses only a comma between independent clauses, creating a comma splice.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

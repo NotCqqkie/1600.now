@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Scale the object count",
-      "content": "The total mass of $r$ identical objects is $t$. The new group has $138r$ objects, which is $138$ times as many objects."
+      "title": "Find the scale factor",
+      "content": "The original total mass $t$ is for $r$ identical objects. The new number of objects is $138r$, which is $138$ times as many objects."
     },
     {
-      "title": "Scale the mass the same way",
-      "content": "For identical objects, total mass is proportional to the number of objects. If the object count is multiplied by $138$, the total mass is also multiplied by $138$: $$138\\cdot t=138t$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>$138-t$ and $138+t$ subtract or add $138$, but mass must scale by multiplication.</li><li><strong>Choice C &mdash; $\\frac{t}{138}$</strong> would make the mass smaller even though there are more objects.</li><li><strong>Choice D &mdash; $138t$</strong> multiplies the original mass by $138$. Correct.</li></ul>That matches <strong>Choice D &mdash; $138t$</strong>."
+      "title": "Scale the total mass",
+      "content": "For identical objects, total mass scales by the same factor as the number of objects.<br/>$$138\\cdot t=138t$$<br/>This matches choice D. The answer is <strong>D</strong>."
     }
   ]
 }

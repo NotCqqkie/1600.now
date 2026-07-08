@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the absolute increase in the bill",
-      "content": "Subtract the original bill from the new bill to find the increase in dollars:<br/>$$86.12 - 81.25 = 4.87$$<br/>The bill increased by 4.87 dollars before converting that change to a percent."
+      "title": "Find the increase",
+      "content": "Subtract the original bill from the new bill:\n$$\n86.12-81.25=4.87\n$$"
     },
     {
-      "title": "Calculate the percent increase and round",
-      "content": "Use the original bill as the base for percent increase:<br/>$$\\frac{4.87}{81.25} \\times 100\\% \\approx 5.99\\%$$<br/>Rounding to the nearest tenth of a percent gives 6.0%. The original bill is the denominator because percent increase is measured relative to the starting value. That is Choice D."
+      "title": "Convert to a percent",
+      "content": "Divide by the original bill and multiply by $100\\%$:\n$$\n\\frac{4.87}{81.25}\\cdot 100\\%=5.9938\\%\n$$\nRounded to the nearest tenth, this is $6.0\\%$. The answer is <strong>D</strong>."
     }
   ]
 }

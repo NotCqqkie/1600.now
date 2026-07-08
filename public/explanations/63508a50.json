@@ -1,0 +1,19 @@
+{
+  "questionId": "63508a50",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the context clues",
+      "content": "The text calls the Wikipedia entries hoaxes and fictitious entries. It also says they were eventually recognized as something and deleted. The blank therefore needs a noun for made-up false information, not a neutral or positive kind of writing."
+    },
+    {
+      "title": "Eliminate wrong meanings",
+      "content": "Choice A means improvements, which conflicts with entries that were deleted as hoaxes. Choice B means examinations or interpretations, but the entries themselves were fake subjects, not analyses of real subjects. Choice D means disclosures of truth, the opposite of invented misinformation."
+    },
+    {
+      "title": "Choose the precise word",
+      "content": "Fabrications are invented falsehoods presented as real. That meaning matches fictitious Wikipedia entries for a made-up band and a made-up general that remained on the site until they were recognized and removed. The answer is <strong>C</strong>."
+    }
+  ]
+}

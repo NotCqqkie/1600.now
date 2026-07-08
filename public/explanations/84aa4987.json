@@ -1,0 +1,15 @@
+{
+  "questionId": "84aa4987",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the appositive",
+      "content": "The dash after \"radiant\" opens an appositive definition: \"the point in the sky from which the shower's meteors appear to emanate.\" That definition must close before the main clause continues with \"is 39 degrees.\""
+    },
+    {
+      "title": "Reject unmatched punctuation",
+      "content": "A closes the dash after the predicate, swallowing part of the main clause. C never closes the dash, and D tries to close it with a comma. The remaining choice closes the appositive after \"emanate\" and then continues the main clause correctly. The answer is <strong>B</strong>."
+    }
+  ]
+}

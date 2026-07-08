@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Eliminate y by substitution",
-      "content": "From the first equation $x - y = 1$, express $y = x - 1$. Substitute into $x + y = x^2 - 3$:<br/>$$x + (x - 1) = x^2 - 3$$<br/>$$2x - 1 = x^2 - 3$$<br/>$$x^2 - 2x - 2 = 0$$"
+      "title": "Substitute from the first equation",
+      "content": "From $x-y=1$, solve for $y$:\n$$\ny=x-1\n$$\nSubstitute into the second equation:\n$$\nx+(x-1)=x^2-3\n$$"
     },
     {
-      "title": "Solve the quadratic and find the complete solutions",
-      "content": "Apply the quadratic formula:<br/>$$x = \\frac{2 \\pm \\sqrt{4 + 8}}{2} = \\frac{2 \\pm 2\\sqrt{3}}{2} = 1 \\pm \\sqrt{3}$$<br/>For each x-value, use $y = x - 1$:<ul><li>When $x = 1 + \\sqrt{3}$: $y = \\sqrt{3}$, giving $(1 + \\sqrt{3}, \\sqrt{3})$</li><li>When $x = 1 - \\sqrt{3}$: $y = -\\sqrt{3}$, giving $(1 - \\sqrt{3}, -\\sqrt{3})$</li></ul>The solution $(1 + \\sqrt{3}, \\sqrt{3})$ matches the correct answer — <strong>A</strong> is correct."
+      "title": "Solve for x",
+      "content": "Simplify the quadratic:\n$$\n2x-1=x^2-3\n$$\n$$\nx^2-2x-2=0\n$$\nUsing the quadratic formula gives\n$$\nx=\\frac{2\\pm\\sqrt{4+8}}{2}=1\\pm\\sqrt{3}\n$$"
+    },
+    {
+      "title": "Find the matching point",
+      "content": "Use $y=x-1$. When $x=1+\\sqrt{3}$,\n$$\ny=(1+\\sqrt{3})-1=\\sqrt{3}\n$$\nThe ordered pair is the one with coordinates $1+\\sqrt{3}$ and $\\sqrt{3}$.\nThe answer is <strong>A</strong>."
     }
   ]
 }

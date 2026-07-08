@@ -1,0 +1,15 @@
+{
+  "questionId": "e8ae6856",
+  "correctAnswer": "6",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the bar for value two",
+      "content": "Locate data value $2$ on the horizontal axis. The bar at data value $2$ reaches a height of $6$ on the frequency scale."
+    },
+    {
+      "title": "State the frequency",
+      "content": "Frequency means the number of times a value appears, so the frequency of data value $2$ is $6$. The answer is <strong>6</strong>."
+    }
+  ]
+}

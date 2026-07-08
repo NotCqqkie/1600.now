@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Mark the angle relationships",
-      "content": "Mark the given angle relationships on the figure first: triangle sums of $180^\\circ$ and supplementary angles on straight lines."
+      "title": "Find the angle at S",
+      "content": "In triangle $QXS$, the given angles are $48^\\circ$ and $86^\\circ$. Let $q$ be the remaining angle:<br/>$$q=180^\\circ-48^\\circ-86^\\circ=46^\\circ$$"
     },
     {
-      "title": "Find the third angle in triangle QXS",
-      "content": "In triangle $QXS$, the given angles are $\\angle SQX = 48^\\circ$ and $\\angle SXQ = 86^\\circ$. Using the triangle angle sum:<br/>$$\\angle QSX = 180^\\circ - 48^\\circ - 86^\\circ = 46^\\circ$$<br/>Since $W$ lies on segment $SX$, this same angle applies to ray $SW$."
+      "title": "Find the angle at W",
+      "content": "At $W$, the given $85^\\circ$ angle and the angle inside triangle $RWS$ form a linear pair. Let $w$ be that angle:<br/>$$w=180^\\circ-85^\\circ=95^\\circ$$"
     },
     {
-      "title": "Use a linear pair at W to find ∠RWS",
-      "content": "At point $W$, lines $RU$ and $SX$ intersect. We are given $\\angle SWU = 85^\\circ$. Since rays $WR$ and $WU$ point in opposite directions on line $RU$, $\\angle RWS$ and $\\angle SWU$ form a linear pair:<br/>$$\\angle RWS + \\angle SWU = 180^\\circ$$<br/>$$\\angle RWS = 180^\\circ - 85^\\circ = 95^\\circ$$"
+      "title": "Find the angle at R",
+      "content": "Use triangle $RWS$ with angles $46^\\circ$ and $95^\\circ$. Let $r$ be the angle at $R$:<br/>$$r=180^\\circ-95^\\circ-46^\\circ=39^\\circ$$<br/>Because the same straight lines continue through $R$ and $T$, this gives the angle at $R$ in triangle $RTU$."
     },
     {
-      "title": "Find ∠TRU using triangle RWS",
-      "content": "In triangle $RWS$, we now have $\\angle RWS = 95^\\circ$ and $\\angle WSR = 46^\\circ$. Use the triangle angle sum:<br/>$$\\angle WRS = 180^\\circ - 95^\\circ - 46^\\circ = 39^\\circ$$<br/>Because $W$ lies on line $RU$ and $S$ and $T$ lie on line $PV$, this gives $\\angle TRU = 39^\\circ$."
-    },
-    {
-      "title": "Use ∠VTU to finish",
-      "content": "Since $S$, $T$, and $V$ lie on the same line, $\\angle STU$ and $\\angle VTU$ are supplementary:<br/>$$\\angle STU = 180^\\circ - 162^\\circ = 18^\\circ$$<br/>Now use triangle $RTU$:<br/>$$\\angle TUR = 180^\\circ - 39^\\circ - 18^\\circ = 123^\\circ$$<br/>The answer is <strong>123</strong>."
+      "title": "Finish triangle RTU",
+      "content": "Since the $162^\\circ$ angle and the angle at $T$ in triangle $RTU$ are supplementary, the angle at $T$ is:<br/>$$180^\\circ-162^\\circ=18^\\circ$$<br/>Then the requested angle is:<br/>$$180^\\circ-39^\\circ-18^\\circ=123^\\circ$$<br/>The answer is <strong>123</strong>."
     }
   ]
 }

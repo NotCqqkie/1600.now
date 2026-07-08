@@ -1,0 +1,26 @@
+{
+  "questionId": "2af8dc1d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the initial amount",
+      "content": "At the start of the observation, $t=0$, there are $66{,}000$ bacteria. This is the initial value."
+    },
+    {
+      "title": "Use the doubling factor",
+      "content": "The population doubles every hour, so the growth factor is $2$ for each hour $t$. The model is\n$$\ny=66{,}000(2)^t\n$$",
+      "desmosExpressions": [
+        {
+          "id": "g1",
+          "latex": "y=66000\\cdot2^{x}",
+          "color": "#2d70b3"
+        }
+      ]
+    },
+    {
+      "title": "Match the model",
+      "content": "The expression with initial value $66{,}000$ and hourly factor $2$ is $y=66{,}000(2)^t$. The answer is <strong>D</strong>."
+    }
+  ]
+}

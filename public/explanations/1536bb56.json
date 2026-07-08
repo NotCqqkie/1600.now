@@ -1,0 +1,15 @@
+{
+  "questionId": "1536bb56",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Combine the functions",
+      "content": "Add $f(x)$ and $g(x)$ to define $h(x)$:<br/>$$h(x)=\\frac{2}{5}x-8+\\frac{3}{5}x+28$$<br/>$$h(x)=x+20$$"
+    },
+    {
+      "title": "Find the horizontal intercept",
+      "content": "An $x$-intercept occurs when $y=0$, so set $h(x)=0$:<br/>$$0=x+20$$<br/>$$x=-20$$<br/>The intercept is $(-20,0)$. The answer is <strong>B</strong>."
+    }
+  ]
+}

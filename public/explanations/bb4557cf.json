@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries question testing punctuation between two main clauses. The first clause ends with the blank: &quot;cells with identical DNA develop different [blank]&quot;. The second clause (&quot;whereas the genome... will be expressed&quot;) explains why that happens. The correct punctuation must both separate the two clauses and signal that an explanation follows."
+      "title": "Identify the explanation",
+      "content": "The first clause states that identical DNA can lead to different cell functions. The following clause explains how: the genome contains the DNA sequence, while the epigenome determines which traits are expressed."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; functions</strong>: No punctuation between the two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice B &mdash; functions,</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C &mdash; functions and,</strong>: Placing the comma after &quot;and&quot; rather than before it is ungrammatical. More importantly, &quot;and&quot; signals addition, not explanation &mdash; it fails to convey that the second clause explains the first. &#10007;</li><li><strong>Choice D &mdash; functions:</strong>: A colon after a complete independent clause correctly introduces an explanation or elaboration. Here it signals that the &quot;whereas&quot; clause explains how cells with identical DNA can develop different functions. &#10003;</li></ul>That is the correct answer."
+      "title": "Use punctuation for explanation",
+      "content": "A creates a run-on sentence. B creates a comma splice. C places the comma incorrectly after \"and\" and does not clearly introduce the explanation. A colon after a complete clause correctly signals that the second clause explains the first. The answer is <strong>D</strong>."
     }
   ]
 }

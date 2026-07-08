@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the relevant mechanism in the passage",
-      "content": "The passage states that attaching glass beads lets the light &quot;focus on the beads instead of the particles,&quot; which overcomes the risk of overheating and damage to the particles. The advantage is that particles avoid direct exposure to the beam&apos;s intense heat."
+      "title": "Track the bead mechanism",
+      "content": "The passage says optical tweezers use high-powered light beams to trap and manipulate tiny particles, but prolonged exposure to that intense light can overheat and damage the particles. Researchers address that risk by attaching nano-sized glass beads."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;It decreases the time it takes for the optical tweezers to locate and capture the particles.&rsquo;</strong>: the passage says nothing about locating particles faster. No time benefit is mentioned. &#10007;</li><li><strong>Choice B &mdash; &lsquo;It facilitates the maneuvering of particles without directly heating the particles themselves.&rsquo;</strong>: the passage says the light focuses on the beads instead of the particles, preventing overheating &mdash; particles are manipulated without being heated. &#10003;</li><li><strong>Choice C &mdash; &lsquo;It allows researchers to use weaker light beams to manipulate particles.&rsquo;</strong>: the passage never says beam intensity changes when beads are used. &#10007;</li><li><strong>Choice D &mdash; &lsquo;It adds a material to which particles can transfer any heat absorbed from the optical tweezers' light beam.&rsquo;</strong>: the passage says heat focuses on the beads instead of the particles, not that particles absorb heat and then transfer it. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Focus the light away",
+      "content": "With beads attached, the light focuses on the beads instead of directly on the particles. The particles can still be maneuvered for study, but they avoid the direct heating that creates the overheating risk described in the passage."
+    },
+    {
+      "title": "Reject unsupported benefits",
+      "content": "Choice A adds faster locating, choice C adds weaker light beams, and choice D says particles transfer absorbed heat to the beads. The passage supports none of those mechanisms. The answer is <strong>B</strong>."
     }
   ]
 }

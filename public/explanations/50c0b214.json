@@ -1,0 +1,15 @@
+{
+  "questionId": "50c0b214",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the all-species claim",
+      "content": "The conclusion is that none of the three countries' timber industries grow all 23 non-native tree species. The supporting graph data must show that every country's reported count is below 23."
+    },
+    {
+      "title": "Find the upper bound",
+      "content": "Choice A discusses native species outside the 23-species set. Choice B discusses species not among the 23 being evaluated. Choice C says each country reported at least 4 species, which does not rule out all 23. The remaining choice says the highest-reporting country reported fewer than 15, so no country reached 23. The answer is <strong>D</strong>."
+    }
+  ]
+}

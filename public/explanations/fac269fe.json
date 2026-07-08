@@ -1,0 +1,15 @@
+{
+  "questionId": "fac269fe",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match song as singular past",
+      "content": "The subject is singular: \"the song.\" The time frame is also past, since the sentence describes the song's chart position as of May 15, 1976."
+    },
+    {
+      "title": "Use the agreeing verb",
+      "content": "A conflicts with the past context, C uses the plural verb \"were,\" and D uses present tense. \"Was ranked\" agrees with the singular subject and fits the past-tense chart context. The answer is <strong>B</strong>."
+    }
+  ]
+}

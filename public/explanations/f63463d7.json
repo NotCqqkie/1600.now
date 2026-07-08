@@ -1,0 +1,15 @@
+{
+  "questionId": "f63463d7",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the track gauges",
+      "content": "The Gippsland Railway used broad tracks, while the Mackay Steam Tramway used narrow gauge tracks. The blank must signal this opposition between the two examples."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice A signals a summary, Choice C signals similarity, and Choice D signals an example of the same point. The relationship here is contrast between broad and narrow gauges. The answer is <strong>B</strong>."
+    }
+  ]
+}

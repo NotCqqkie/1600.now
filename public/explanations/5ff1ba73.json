@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the decisive signal",
-      "content": "The phrase &quot;guilds were much more numerous relative to the population in some cities than in others&quot; requires an example that contrasts two cities with different guild-to-population ratios."
+      "title": "Focus on relative number",
+      "content": "The sentence claims guilds were more numerous relative to population in some cities than in others. The completion must compare guild density, not merely total guild counts or total population."
     },
     {
-      "title": "Match the data to the claim",
-      "content": "The correct response directly compares Rouen (1 guild per 661 inhabitants) to Paris (1 guild per 4,511 inhabitants), showing a roughly 7-fold difference in how densely guilds were distributed&mdash;exactly the type of variation the sentence claims to illustrate.<br/><br/>The other choices fail to support the claim:<ul><li>A falsely states that Bordeaux and Lyon had nearly equal numbers of inhabitants, which the table does not show.</li><li>B incorrectly claims Lyon had more guilds than Paris.</li><li>D provides only Paris&apos;s figures without contrasting them with another city.</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject incomplete data use",
+      "content": "Choice A relies on a misleading comparison of Bordeaux and Lyon. Choice B misstates the relationship between Lyon and Paris. Choice D gives only Paris's ratio, so it does not show variation across cities."
+    },
+    {
+      "title": "Compare two ratios",
+      "content": "Rouen's one guild per 661 inhabitants versus Paris's one guild per 4,511 inhabitants directly shows that guild density varied greatly by city. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "88d85d2d",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Move from general to specific",
+      "content": "The first sentence broadly says Maya Singh worked at JPL, a major facility for robotic space exploration. The second sentence narrows that broad statement to one particular example of her JPL work: her systems engineering role on the Mars 2020 Perseverance rover team."
+    },
+    {
+      "title": "Rule out other relationships",
+      "content": "A and D would signal contrast, but Singh's rover work is not opposed to her JPL work. C would signal the final item in a sequence, but the passage is not listing several roles. The transition should introduce a focused example of the previous general claim. The answer is <strong>B</strong>."
+    }
+  ]
+}

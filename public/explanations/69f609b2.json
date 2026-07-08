@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Simplify the equation",
-      "content": "Distribute on both sides: $$10(x-4)=-2(x+20)$$ $$10x-40=-2x-40$$ Add $2x$ and $40$ to both sides: $$12x=0$$"
+      "content": "Distribute on both sides, then combine like terms.\n$$\n10(x-4)=-2(x+20)\n$$\n$$\n10x-40=-2x-40\n$$\n$$\n12x=0\n$$"
     },
     {
       "title": "Count the solutions",
-      "content": "Since the coefficient of $x$ is not $0$, the equation has exactly one solution, $x=0$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Choice A (&lsquo;Exactly one&rsquo;) says there is exactly one solution, so <strong>A</strong> is correct."
+      "content": "The equation has a nonzero coefficient on $x$, so it has one value that works.\n$$\nx=0\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

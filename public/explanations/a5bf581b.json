@@ -1,0 +1,15 @@
+{
+  "questionId": "a5bf581b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Interpret the sediment",
+      "content": "Most of the sediment is fine-grained mudstone, which settles slowly in low-flow water and suggests a prolonged lake environment. Cracking from episodic desiccation shows that the lake sometimes dried, while coarse sandstone intervals indicate periods of flowing water."
+    },
+    {
+      "title": "Match all three clues",
+      "content": "B says the lake did not dry, contradicting the cracks. C makes streams long-lasting and the lake brief, which conflicts with mostly mudstone. D says dryness prevented a lake, contradicting the low-flow-water evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

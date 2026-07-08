@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what x and y represent",
-      "content": "From the problem, $x$ is the number of hours spent on consultations and $y$ is the number of hours drafting garden plans. The total earnings are &#36;1,472."
+      "title": "Match variables to work types",
+      "content": "The problem says $x$ is the number of consultation hours and $y$ is the number of hours spent drafting garden plans."
     },
     {
-      "title": "Interpret the coefficients by units",
-      "content": "In $72x+94y=1{,}472$, each term must have units of dollars. Since $x$ is consultation hours, the coefficient $72$ is the consultation hourly rate: &#36;72 per hour."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "The credited option says the architect earned &#36;72 per hour from consultations, which matches the coefficient of $x$. <strong>A</strong> is correct."
+      "title": "Interpret the coefficient",
+      "content": "In $72x+94y=1{,}472$, the term $72x$ represents dollars earned from $x$ consultation hours. Therefore, $72$ is the hourly rate for consultations.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

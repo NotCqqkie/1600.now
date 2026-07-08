@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks which finding would most directly support Mulder and Spellman's conclusion: that invasive species (like P. aviculare) are advantaged by delays in subfreezing temperature onset more than native species (like V. edule). A supporting finding must show a clear differential benefit to the invasive species specifically when onset is late."
+      "title": "Show the invasive advantage",
+      "content": "Mulder and Spellman's conclusion is that delays in the onset of subfreezing autumn temperatures advantage invasive species in Alaska. The strongest finding must compare a native species with an invasive species and show that the invasive species benefits more from the delayed freezing."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Although *V. edule* and *P. aviculare* both tended to produce leaves later into autumn in years with late subfreezing temperature onset, the extension was much greater for *P. aviculare* than for *V. edule*.&rsquo;</strong>: This directly shows the invasive gaining more from the delay than the native does — the exact differential advantage the conclusion claims. &#10003;</li><li><strong>Choice B &mdash; &lsquo;Although significant interannual variations in subfreezing temperature onset were observed during the study, neither *P. aviculare* nor *V. edule* showed any significant interannual variation in the cessation of leaf production.&rsquo;</strong>: If neither species responds differently to onset timing, there is no advantage for either — this undermines rather than supports the conclusion. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Although *V. edule* and *P. aviculare* tended to stop producing leaves at about the same time in years with historically typical temperature patterns, *P. aviculare* stopped producing leaves sooner than *V. edule* did in years with late subfreezing temperature onset.&rsquo;</strong>: This shows the invasive ending leaf production earlier when onset is late — a disadvantage, not an advantage. &#10007;</li><li><strong>Choice D &mdash; &lsquo;Although *V. edule* and *P. aviculare* both tended to produce more leaves overall in years with late subfreezing temperature onset than they did in years with historically typical temperature patterns, the years with late subfreezing temperature onset also had early growing season onset in spring.&rsquo;</strong>: This introduces a spring confound; both species benefit equally and the added variable obscures whether late-onset itself is the cause. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Check the comparison",
+      "content": "The relevant plants are native mooseberry, <em>V. edule</em>, and invasive common knotgrass, <em>P. aviculare</em>. Evidence that both respond to warmer autumns is not enough by itself. The finding must show a larger benefit for the invasive plant, because the conclusion is about invasives being advantaged."
+    },
+    {
+      "title": "Reject weaker findings",
+      "content": "Choice B says neither species changed leaf-production timing, so it gives no advantage. Choice C shows the invasive plant stopping leaf production sooner, which weakens the conclusion. Choice D adds a spring timing confound and does not isolate an invasive advantage. Choice A directly shows a much greater autumn leaf-production extension for the invasive species. The answer is <strong>A</strong>."
     }
   ]
 }

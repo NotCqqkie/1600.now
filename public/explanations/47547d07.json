@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the sequential structure",
-      "content": "The passage frames a sequence with explicit markers: “First, the turtle will dig her nest” (step 1) and “Finally, she will cover it all with sand” (step 3). The blank needs the transition for the middle step."
+      "title": "Track the nesting sequence",
+      "content": "The passage gives a clear order: first the turtle digs a nest, then she lays eggs, and finally she covers the nest with sand. The blank needs a transition for the middle action in that sequence."
     },
     {
-      "title": "Choose the transition that marks the next step",
-      "content": "“Next” directly signals the second step in a sequence, fitting between “First” and “Finally.” The other three all fail to show progression: “By contrast” introduces contradiction, “Similarly” suggests equivalence, and “For example” offers a specific instance rather than continuation.<br/><br/><strong>C</strong> is correct."
+      "title": "Reject contrast and examples",
+      "content": "A would make egg laying contrast with nest digging, which it does not. B would call the two actions similar rather than sequential. D would make egg laying an example of digging the nest, which is illogical. The answer is <strong>C</strong>."
     }
   ]
 }

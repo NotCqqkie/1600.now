@@ -1,0 +1,15 @@
+{
+  "questionId": "4c79c2de",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Treat the expression as one unit",
+      "content": "Let the repeated expression $4-6x$ stay grouped. Subtract $4(4-6x)$ from both sides.\n$$5(4-6x)+2=4(4-6x)+12$$\n$$(4-6x)+2=12$$"
+    },
+    {
+      "title": "Solve for the grouped value",
+      "content": "Subtract $2$ from both sides.\n$$4-6x=10$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "07899dcc",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find slope and intercept",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,-1)$ and passes through $(1,-6)$. The slope is<br/>$$m=\\frac{-6-(-1)}{1-0}=-5$$<br/>The $y$-intercept is $-1$."
+    },
+    {
+      "title": "Write the function",
+      "content": "Using slope-intercept form gives<br/>$$f(x)=-5x-1$$<br/>This matches the listed equation. The answer is <strong>B</strong>."
+    }
+  ]
+}

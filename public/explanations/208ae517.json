@@ -1,0 +1,19 @@
+{
+  "questionId": "208ae517",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "In the linear function $t(x)=-4x+68$, the coefficient of $x$ is the slope. Here, the slope is $-4$."
+    },
+    {
+      "title": "Interpret the rate of change",
+      "content": "The input $x$ is hours after $7$ p.m., and the output is temperature in degrees Fahrenheit. A slope of $-4$ means the estimated temperature changes by $-4$ degrees Fahrenheit each hour."
+    },
+    {
+      "title": "Choose the correct interpretation",
+      "content": "A change of $-4$ degrees Fahrenheit per hour means the temperature decreases by $4$ degrees Fahrenheit each hour. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the formula at the missing x-value",
-      "content": "The missing table value $a$ is the y-value when $x=3$. Evaluate the given equation $y=4(2)^x+3$ at $x=3$."
+      "title": "Use the missing input",
+      "content": "The missing value $a$ is the $y$ value when $x=3$. Substitute $x=3$ into the given equation.\n$$y=4(2)^3+3$$"
     },
     {
-      "title": "Calculate a",
-      "content": "$$a=4(2)^3+3=4(8)+3=32+3=35$$"
+      "title": "Evaluate the expression",
+      "content": "Compute the value.\n$$y=4(8)+3$$\n$$y=32+3$$\n$$y=35$$"
     },
     {
-      "title": "Desmos check",
-      "content": "A quick Desmos check is to graph $y=4(2)^x+3$ and evaluate it at $x=3$. The vertical line $x=3$ hits the graph at $y=35$, which is the missing table value. That confirms <strong>B</strong>.",
+      "title": "Calculator shortcut",
+      "content": "Graph $y=4\\cdot2^x+3$ and evaluate it at $x=3$. The point $(3,35)$ is on the graph. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y=4\\cdot2^x+3",
         "x=3",

@@ -1,0 +1,15 @@
+{
+  "questionId": "ad4d2726",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify finding and cause",
+      "content": "Chen and colleagues found that high moonlight inhibits Arizona pocket mouse activity. The proposed reason is that brighter conditions increase predation risk without giving enough foraging benefit to offset that risk. The night-monkey contrast reinforces the cost-benefit logic: those primates rely heavily on visual foraging, so bright moonlight changes their reward-risk balance differently. The completion must include both parts of the mouse explanation."
+    },
+    {
+      "title": "Check the mechanism",
+      "content": "Choice A reverses the finding. Choice B invents a predator comparison with night monkeys. Choice C includes reduced activity, easier detection, and insufficient benefit. Choice D wrongly says the monkeys' risks are greater rather than focusing on visual foraging. It also keeps the comparison focused on Arizona pocket mice rather than making unsupported claims about predators or night monkeys. The answer is <strong>C</strong>."
+    }
+  ]
+}

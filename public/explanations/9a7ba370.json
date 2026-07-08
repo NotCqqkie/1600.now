@@ -1,0 +1,15 @@
+{
+  "questionId": "9a7ba370",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the spending limit",
+      "content": "The phrase no more than $15$ dollars means the total amount must be less than or equal to $15$."
+    },
+    {
+      "title": "Use the given expression",
+      "content": "The expression for the amount is<br/>$$0.72x-3$$<br/>Combine it with the spending limit.<br/>$$0.72x-3\\leq 15$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

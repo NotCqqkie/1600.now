@@ -1,0 +1,19 @@
+{
+  "questionId": "2d5203b2",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Model the savings",
+      "content": "Harper saves $\\frac{1}{6}$ of salary $h$, and Wesley saves $\\frac{3}{8}$ of salary $w$. Their combined savings are $2{,}850$ dollars:\n$$\n\\frac{1}{6}h+\\frac{3}{8}w=2{,}850\n$$"
+    },
+    {
+      "title": "Clear the fractions",
+      "content": "The least common multiple of $6$ and $8$ is $24$. Multiply every term by $24$:\n$$\n4h+9w=68{,}400\n$$"
+    },
+    {
+      "title": "Match the equation",
+      "content": "The equation $4h+9w=68{,}400$ matches the relationship. The answer is <strong>D</strong>."
+    }
+  ]
+}

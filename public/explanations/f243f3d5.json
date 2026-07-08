@@ -1,0 +1,15 @@
+{
+  "questionId": "f243f3d5",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the title phrase",
+      "content": "The blank comes between <em>novel</em> and the title <em>Mexican Gothic</em>. The title directly identifies which novel earned a spot on the best sellers list, so no punctuation should separate the noun from the identifying title."
+    },
+    {
+      "title": "Remove faulty punctuation",
+      "content": "Choice A opens a parenthesis without closing it. Choice C adds a colon where the preceding words do not form an independent introduction. Choice D uses a comma that wrongly treats the title as extra information. The title should follow <em>novel</em> directly. The answer is <strong>B</strong>."
+    }
+  ]
+}

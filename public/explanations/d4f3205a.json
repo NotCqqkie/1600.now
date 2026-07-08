@@ -1,0 +1,15 @@
+{
+  "questionId": "d4f3205a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Generalize from two samples",
+      "content": "The notes describe two types of brown seaweed, macrokelp and ma-konbu, that participants rated as having umami intensity. A generalization should move from those specific samples to a broader but properly limited claim about brown seaweed, without claiming all seaweeds or all brown seaweeds behave the same way."
+    },
+    {
+      "title": "Reject narrow summaries",
+      "content": "A only classifies macrokelp and ma-konbu as brown seaweeds. B only describes the study procedure. C says \"various seaweeds,\" but the notes support a claim about brown seaweed specifically. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d1257725",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect body heat to water",
+      "content": "The passage says ectotherms' body temperatures decrease toward the ambient water temperature as that temperature falls. The Pacific halibut is identified as an ectothermic fish, so its body temperature is tied to the surrounding water temperature."
+    },
+    {
+      "title": "Apply the basking shark data",
+      "content": "The basking shark stays about 1.0 to 1.5 degrees Celsius warmer than the water, but its temperature still declines when ambient water temperature falls. That means its body temperature is not fixed; it is also partly shaped by the environment."
+    },
+    {
+      "title": "Remove fixed-temperature claims",
+      "content": "<ul><li>Choice A compares variability in tuna and mako sharks without evidence from the passage.</li><li>Choice C is wrong because the basking shark's temperature declines as ambient temperature falls.</li><li>Choice D also falsely treats the basking shark as fixed and adds an unsupported claim about oceanic whitetip sharks.</li></ul>The answer is <strong>B</strong>."
+    }
+  ]
+}

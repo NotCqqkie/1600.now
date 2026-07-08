@@ -1,0 +1,15 @@
+{
+  "questionId": "47f2a23f",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$."
+    },
+    {
+      "title": "Match the center coordinate",
+      "content": "The given center is $(8,5)$. In the form $(x-h)^2+(y-k)^2=b$, the value of $h$ is the $x$-coordinate of the center. The answer is <strong>8</strong>."
+    }
+  ]
+}

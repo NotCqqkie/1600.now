@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "The blank falls between two independent clauses. Before it: <em>...radiating veins that provide structural ____</em>. After it: <em>___ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy...</em>. Two independent clauses need terminal punctuation (period or semicolon) &mdash; a comma alone creates a comma splice."
+      "content": "The blank falls between two independent clauses. Before it: <em>.radiating veins that provide structural ____</em>. After it: <em>___ in thickness from the center to the edges, these veins allow the leaves to maintain their large size and buoyancy.</em>. Two independent clauses need terminal punctuation (period or semicolon) — a comma alone creates a comma splice."
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; support, decreasing</strong>: A comma alone between two independent clauses is a comma splice. &#10007;</li><li><strong>Choice B &mdash; support decreasing</strong>: No punctuation at all between two independent clauses &mdash; a fused sentence. &#10007;</li><li><strong>Choice C &mdash; support. Decreasing</strong>: A period ends the first clause cleanly. &ldquo;Decreasing in thickness from the center to the edges&rdquo; then becomes an introductory participial phrase for the new sentence &ldquo;these veins allow the leaves to maintain their large size and buoyancy.&rdquo; Grammatically correct. &#10003;</li><li><strong>Choice D &mdash; support, while decreasing</strong>: &ldquo;While&rdquo; subordinates the second clause, but it still follows a comma off the first independent clause &mdash; still a comma splice. &#10007;</li></ul>That matches <strong>Choice C &mdash; support. Decreasing</strong>."
+      "content": "<ul><li><strong>Choice A — support, decreasing</strong>: A comma alone between two independent clauses is a comma splice. ✗</li><li><strong>Choice B — support decreasing</strong>: No punctuation at all between two independent clauses — a fused sentence. ✗</li><li><strong>Choice C — support. Decreasing</strong>: A period ends the first clause cleanly. \"Decreasing in thickness from the center to the edges\" then becomes an introductory participial phrase for the new sentence \"these veins allow the leaves to maintain their large size and buoyancy.\" Grammatically correct. ✓</li><li><strong>Choice D — support, while decreasing</strong>: \"While\" subordinates the second clause, but it still follows a comma off the first independent clause — still a comma splice. ✗</li></ul>That matches <strong>Choice C — support. Decreasing</strong>."
     }
   ]
 }

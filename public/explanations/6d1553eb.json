@@ -1,0 +1,15 @@
+{
+  "questionId": "6d1553eb",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect accuracy to equipment",
+      "content": "The first sentence says Kessler's calculation was more accurate than the 1920 calculation. The next sentence explains why that is unsurprising: the earlier calculation used only cardboard and string."
+    },
+    {
+      "title": "Choose an expected-result transition",
+      "content": "A signals purpose, C signals similarity, and D signals a final outcome; none introduces an unsurprising explanation. The remaining transition means the following fact is expected given the context. The answer is <strong>B</strong>."
+    }
+  ]
+}

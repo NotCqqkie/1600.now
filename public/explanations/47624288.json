@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read Lion votes from the table",
-      "content": "From the Lion row, the Total column shows 20 students voted for Lion. There are 80 total students."
+      "title": "Identify the favorable outcomes",
+      "content": "From the Lion row, the total number of students who voted for Lion is $20$. The total number of students is $80$."
     },
     {
-      "title": "Calculate the probability",
-      "content": "$$P = \\frac{20}{80}$$ Divide numerator and denominator by 20: $$\\frac{1}{4}$$ The probability uses all 80 students as the sample space. <strong>C</strong> is correct."
+      "title": "Compute the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:\n$$\n\\frac{20}{80}=\\frac{1}{4}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

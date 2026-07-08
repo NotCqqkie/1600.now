@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the parallel-line angle fact",
+      "content": "Lines $m$ and $n$ are parallel, and line $t$ is a transversal. The marked $33^\\circ$ angle and angle $x$ are same-side exterior angles, so they are supplementary. This gives the needed angle relationship."
     },
     {
-      "title": "Identify the angle relationship",
-      "content": "At the intersection of transversal $t$ with line $m$, angle $x^{\\circ}$ is outside the region between the parallel lines. The $33^{\\circ}$ angle at line $n$ is also outside that region, and the two angles are on the same side of the transversal. They are same-side exterior angles."
+      "title": "Set up the angle sum",
+      "content": "Supplementary angles add to $180^\\circ$:<br/>$$x+33=180$$"
     },
     {
-      "title": "Apply the parallel lines property",
-      "content": "When a transversal intersects two parallel lines, same-side exterior angles are supplementary, so they sum to $180^{\\circ}$.<br/>$$x^{\\circ} + 33^{\\circ} = 180^{\\circ}$$"
-    },
-    {
-      "title": "Solve for x",
-      "content": "Subtract $33^{\\circ}$ from both sides:<br/>$$x = 180^{\\circ} - 33^{\\circ} = 147^{\\circ}$$<br/>That matches <strong>Choice D &mdash; $147$</strong>."
+      "title": "Solve for the angle",
+      "content": "Subtract $33$ from both sides:<br/>$$x=180-33=147$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

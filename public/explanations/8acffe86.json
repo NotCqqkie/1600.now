@@ -1,0 +1,15 @@
+{
+  "questionId": "8acffe86",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the boundary line",
+      "content": "The boundary line crosses the $y$-axis at $6$ and slopes downward steeply. That matches the line\n$$y=-4x+6$$"
+    },
+    {
+      "title": "Use the shading direction",
+      "content": "The shaded region is above the boundary line. A point above the line, such as $(0,8)$, satisfies\n$$8>-4(0)+6$$\nSo the inequality is\n$$y>-4x+6$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

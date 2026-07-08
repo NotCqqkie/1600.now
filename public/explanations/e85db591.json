@@ -1,0 +1,16 @@
+{
+  "questionId": "e85db591",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the height formula",
+      "content": "For an equilateral triangle with side length $s$, the height is found by splitting the triangle into two $30$-$60$-$90$ triangles. The height is the longer leg.",
+      "formula": "$$h = \\frac{s\\sqrt{3}}{2}$$"
+    },
+    {
+      "title": "Solve for the side length",
+      "content": "Substitute the given height and isolate $s$. First multiply both sides by $2$, then divide by $\\sqrt{3}$: $$42\\sqrt{3}=\\frac{s\\sqrt{3}}{2}$$ $$84\\sqrt{3}=s\\sqrt{3}$$ $$s=84$$ The answer is <strong>B</strong>."
+    }
+  ]
+}

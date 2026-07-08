@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute and simplify to a quadratic in y",
-      "content": "From the line $x + y = -2$, so $x = -y - 2$. Substitute into $y = x^2 + 4x + 4$:<br/>$y = (-y-2)^2 + 4(-y-2) + 4 = y^2 + 4y + 4 - 4y - 8 + 4 = y^2$.<br/>Rearrange: $y^2 - y = 0$."
+      "title": "Substitute from the line",
+      "content": "Use $x=-y-2$ in the quadratic."
     },
     {
-      "title": "Vieta shortcut: sum of roots = -b/a",
-      "content": "$y^2 - y = 0$ has $a = 1$, $b = -1$. Sum of $y$-values $= -\\frac{b}{a} = -\\frac{-1}{1} = 1$. That matches the correct answer - <strong>D</strong> is correct."
+      "title": "Create an equation in y",
+      "content": "Then $y=y^2$, so $y^2-y=0$."
+    },
+    {
+      "title": "Find the sum of roots",
+      "content": "The roots are $0$ and $1$, whose sum is $1$. The answer is <strong>D</strong>."
     }
   ]
 }

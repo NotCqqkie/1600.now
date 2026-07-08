@@ -1,0 +1,15 @@
+{
+  "questionId": "c746d33a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Ignore the appositive",
+      "content": "The subject is <em>The Proto-Uralic language</em>, which is singular. The descriptive phrase about being the common ancestor of many languages interrupts the sentence but does not change the subject's number."
+    },
+    {
+      "title": "Choose singular present tense",
+      "content": "A, B, and C all use plural verb forms that cannot agree with the singular subject. The sentence also describes a general fact, so the singular present-tense verb is needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

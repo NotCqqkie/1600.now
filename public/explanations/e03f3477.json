@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Understand what margin of error means",
-      "content": "A margin of error defines the interval around a sample statistic where the true population parameter is expected to fall. We construct the confidence interval by adding and subtracting the margin from the point estimate."
+      "title": "Use the margin of error",
+      "content": "The estimate is $38\\%$, and the margin of error is $2.76\\%$. The plausible interval is found by subtracting and adding the margin of error."
     },
     {
-      "title": "Calculate the confidence interval",
-      "content": "With point estimate 38% and margin of error 2.76%, the confidence interval is:<br/><br/>Lower bound: $38\\% - 2.76\\% = 35.24\\%$<br/><br/>Upper bound: $38\\% + 2.76\\% = 40.76\\%$"
+      "title": "Calculate the interval",
+      "content": "Compute the lower and upper bounds:<br/>$$38\\%-2.76\\%=35.24\\%$$<br/>$$38\\%+2.76\\%=40.76\\%$$"
     },
     {
-      "title": "Match to the correct choice",
-      "content": "<strong>More than $40.76\\%$ of all adults who own tablets use their tablets to read e-books.</strong> claims more than 40.76%, exceeding our upper bound.<br/><br/>Two other options incorrectly reject all conclusions, misunderstanding that a random sample provides valid population estimates.<br/><br/>Between $35.24\\%$ and $40.76\\%$ of all adults who own tablets use their tablets to read e-books. states the interval between 35.24% and 40.76%, which matches our confidence interval exactly.<br/><br/>That matches the correct answer - <strong>B</strong> is correct."
+      "title": "Match the conclusion",
+      "content": "The most plausible conclusion is that the true percentage is between $35.24\\%$ and $40.76\\%$. The answer is <strong>B</strong>."
     }
   ]
 }

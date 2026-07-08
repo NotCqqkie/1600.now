@@ -1,0 +1,15 @@
+{
+  "questionId": "5d4fee4d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the first book",
+      "content": "The first book costs $15$ dollars. If $x$ books are purchased total, the number of books after the first is $x-1$."
+    },
+    {
+      "title": "Build the total cost",
+      "content": "Each additional book costs $12$, so the additional-book cost is $12(x-1)$. Add the first-book cost:\n$$y=12(x-1)+15$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

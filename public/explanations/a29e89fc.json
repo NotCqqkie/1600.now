@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the total mass",
-      "content": "To find the mean mass, sum all the individual masses. Adding 4,020 + 4,020 + 3,040 + 4,060 + 3,160 step-by-step: <ul><li>4,020 + 4,020 = 8,040</li><li>8,040 + 3,040 = 11,080</li><li>11,080 + 4,060 = 15,140</li><li>15,140 + 3,160 = 18,300</li></ul> Total mass = 18,300 grams."
+      "title": "Add the masses",
+      "content": "Find the total of the five masses.<br/>$$4{,}020+4{,}020+3{,}040+4{,}060+3{,}160=18{,}300$$"
     },
     {
-      "title": "Compute the mean",
-      "content": "Divide the total mass by the number of marmots (5): $$\\text{Mean} = \\frac{18,300}{5} = 3,660$$ The answer is <strong>3660</strong>."
+      "title": "Divide by the count",
+      "content": "There are $5$ alpine marmots, so divide the total mass by $5$.<br/>$$\\frac{18{,}300}{5}=3{,}660$$<br/>The answer is <strong>3660</strong>."
     }
   ]
 }

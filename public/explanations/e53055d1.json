@@ -1,0 +1,15 @@
+{
+  "questionId": "e53055d1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the date",
+      "content": "The question asks when Nadia Singh won the A.M. Turing Award. The relevant note gives one date, 2011, and the best sentence should make that date prominent rather than focus on the award's prestige or Singh's achievement."
+    },
+    {
+      "title": "Reject missing dates",
+      "content": "A says only that Singh is a winner. C describes the award, and D emphasizes why Singh won. Those choices omit the date, while the remaining choice foregrounds 2011. The answer is <strong>B</strong>."
+    }
+  ]
+}

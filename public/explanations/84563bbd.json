@@ -1,0 +1,15 @@
+{
+  "questionId": "84563bbd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the species contrast",
+      "content": "The passage says lunar intensity is negatively associated with foraging by Iranian jerboas but positively associated with foraging by mongoose lemurs. It then says this discrepancy is explicable in terms of OFT."
+    },
+    {
+      "title": "Avoid unsupported conclusions",
+      "content": "Choice B claims OFT explains benefits better than costs, which the passage does not compare. Choice C says species variation weakens OFT, but the text says OFT explains it. Choice D wrongly implies some species do not follow cost-benefit trade-offs. The answer is <strong>A</strong>."
+    }
+  ]
+}

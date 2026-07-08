@@ -1,0 +1,15 @@
+{
+  "questionId": "df5a518d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the inner function",
+      "content": "Start by evaluating the inner function at the requested input.<br/>$$g(-9)=|12(-9)-7|$$<br/>$$g(-9)=|-108-7|=|-115|=115$$"
+    },
+    {
+      "title": "Evaluate the outer function",
+      "content": "Use $g(-9)=115$ in the formula for $f$.<br/>$$f(-9)=4(115)-3$$<br/>$$f(-9)=460-3=457$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

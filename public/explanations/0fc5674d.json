@@ -1,0 +1,15 @@
+{
+  "questionId": "0fc5674d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the exponent change",
+      "content": "When $x$ increases by $6$, the exponent $\\frac{x}{3}$ increases by<br/>$$\\frac{6}{3}=2$$"
+    },
+    {
+      "title": "Convert the growth factor",
+      "content": "The function is multiplied by the base squared.<br/>$$(1.20)^2=1.44$$<br/>A factor of $1.44$ means an increase of $44\\%$. The answer is <strong>D</strong>."
+    }
+  ]
+}

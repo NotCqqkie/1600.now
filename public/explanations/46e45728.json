@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the minimum distance traveled in each sex's column",
-      "content": "Females traveled 9.28 km/day (cold-dry), 12.64 km/day (monsoon), and 12.48 km/day (hot-dry). Males traveled 15.81 km/day (cold-dry), 18.87 km/day (hot-dry), and 18.93 km/day (monsoon)."
+      "title": "Find each minimum",
+      "content": "The table values in the original explanation show females traveled least in the cold-dry season at 9.28 km/day, and males traveled least in the cold-dry season at 15.81 km/day."
     },
     {
-      "title": "Match the lowest season for each sex to the answer choices",
-      "content": "The cold-dry season produced the minimum distance for both females and males. The other choices pair different seasons across the sexes or identify periods with higher travel. <strong>A</strong> is correct."
+      "title": "Compare the seasons",
+      "content": "Choice B gives hot-dry for males; Choice C gives hot-dry for females and monsoon for males; Choice D gives monsoon for both. Choice A identifies the cold-dry season for both females and males. The answer is <strong>A</strong>."
     }
   ]
 }

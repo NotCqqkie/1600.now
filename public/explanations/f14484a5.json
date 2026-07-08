@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Assign quantities to each pan size",
-      "content": "From the problem:<ul><li>8-inch pans: $n$ (the defined variable)</li><li>12-inch pans: $5n$ (five times the number of 8-inch pans)</li><li>6-inch pans: $13$ (given directly)</li></ul>"
+      "title": "Write each pan count",
+      "content": "The number of $8$-inch pans is $n$. The number of $12$-inch pans is $5n$, because it is $5$ times the number of $8$-inch pans. The number of $6$-inch pans is $13$."
     },
     {
-      "title": "Write the total equation",
-      "content": "All three quantities must sum to 121:<br/>$$5n + n + 13 = 121$$<br/>Combine like terms:<br/>$$6n + 13 = 121$$"
-    },
-    {
-      "title": "Evaluate all choices",
-      "content": "<ul><li><strong>A: $12\\left(5n\\right)+8n+6\\left(13\\right)=121$</strong> &mdash; This equation multiplies the pan quantities by the pan sizes (12, 8, 6 inches), which gives total inches rather than total count. The problem asks for a count equation. Eliminated.</li><li><strong>B: $12n+8n+6n=121$</strong> &mdash; This treats every pan size as $n$ pans, ignoring that 6-inch pans $= 13$ and 12-inch pans $= 5n$. Eliminated.</li><li><strong>C: $5n+13=121$</strong> &mdash; This omits the 8-inch pans ($n$). Eliminated.</li><li><strong>D: $6n+13=121$</strong> &mdash; This correctly combines $5n + n = 6n$ (12-inch plus 8-inch pans) and adds the 13 fixed 6-inch pans. That matches the correct answer &mdash; <strong>D</strong> is correct.</li></ul>"
+      "title": "Add the counts",
+      "content": "The total number of frying pans is $121$, so add the three counts:<br/>$$5n+n+13=121$$<br/>$$6n+13=121$$The answer is <strong>D</strong>."
     }
   ]
 }

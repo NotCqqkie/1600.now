@@ -1,0 +1,15 @@
+{
+  "questionId": "be2a7011",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find room C probability",
+      "content": "The visitors are only in rooms A, B, or C, so the probabilities add to $1$.<br/>$$P(C)=1-0.45-0.30=0.25$$"
+    },
+    {
+      "title": "Convert probability to visitors",
+      "content": "Multiply the probability for room C by the $400$ total visitors.<br/>$$0.25\\cdot400=100$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

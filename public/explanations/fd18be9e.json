@@ -1,0 +1,15 @@
+{
+  "questionId": "fd18be9e",
+  "correctAnswer": "-16",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the quadratic formula",
+      "content": "Rewrite the equation in standard form:\n$$\n6x^2-11x+c-4=0\n$$\nThe quadratic formula gives:\n$$\nx=\\frac{11\\pm\\sqrt{(-11)^2-4(6)(c-4)}}{12}\n$$\n$$\nx=\\frac{11\\pm\\sqrt{217-24c}}{12}\n$$"
+    },
+    {
+      "title": "Match the discriminant",
+      "content": "The given solution has $\\sqrt{601}$ in the numerator, so:\n$$\n217-24c=601\n$$\n$$\n-24c=384\n$$\n$$\nc=-16\n$$\nThe answer is <strong>-16</strong>."
+    }
+  ]
+}

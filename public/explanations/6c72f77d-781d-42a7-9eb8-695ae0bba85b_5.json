@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recall the infinite-solutions condition",
-      "content": "Two linear equations have infinitely many solutions only when they describe the <strong>same line</strong> — identical slope and identical $y$-intercept."
+      "title": "Use the identical-line condition",
+      "content": "A system of two linear equations has infinitely many solutions only when the two equations represent the same line."
     },
     {
-      "title": "Match the equations",
-      "content": "Given line: $y = \\tfrac{2}{7}x + 3$. The second line is $y = mx + b$, so we need $m = \\tfrac{2}{7}$ and $b = 3$.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Match the intercept",
+      "content": "The given line is<br/>$$y=\\frac{2}{5}x+2$$<br/>For $y=mx+b$ to be the same line, the intercept must be $b=2$. The answer is <strong>D</strong>."
     }
   ]
 }

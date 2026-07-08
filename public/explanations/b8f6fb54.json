@@ -1,0 +1,23 @@
+{
+  "questionId": "b8f6fb54",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the intersection equation",
+      "content": "The graphs intersect where $x-c=-5(x-10)^2$. Expanding and moving everything to one side gives:<br/>$$5x^2-99x+(500-c)=0$$"
+    },
+    {
+      "title": "Find the tangent boundary first",
+      "content": "Two distinct real solutions require the discriminant to be positive: $$99^2-4(5)(500-c)\\gt 0.$$ Simplify: $$9801-10000+20c\\gt 0$$ $$20c-199\\gt 0$$ $$c\\gt \\frac{199}{20}\\approx9.95.$$"
+    },
+    {
+      "title": "Pick the listed value that gives two intersections",
+      "content": "$c=\\frac{199}{20}$ gives one repeated solution, not two distinct solutions. The value must be greater than that boundary. Among the choices, only $20$ is greater, so <strong>D</strong> is correct."
+    },
+    {
+      "title": "Check the choices",
+      "content": "<ul><li><strong>'6'</strong>: $6 \\lt 199/20 \\approx 9.95$, so the discriminant is negative and there are no real solutions. ✗</li><li><strong>'9'</strong>: $9 \\lt 9.95$, so the discriminant is still negative. ✗</li><li><strong>'$\\frac{199}{20}$'</strong>: Exactly at the threshold, the discriminant is $0$, giving one repeated solution instead of two distinct solutions. ✗</li><li><strong>'20'</strong>: $20 \\gt 9.95$, so the discriminant is positive and there are two distinct real solutions. ✓</li></ul>That matches the correct answer."
+    }
+  ]
+}

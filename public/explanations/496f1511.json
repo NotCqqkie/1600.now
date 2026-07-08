@@ -1,0 +1,19 @@
+{
+  "questionId": "496f1511",
+  "correctAnswer": "471",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Relate the angle types",
+      "content": "In this parallel-line setup, each acute angle and each obtuse angle are supplementary. Their measures add to $180^\\circ$."
+    },
+    {
+      "title": "Solve for the variable",
+      "content": "Add the expressions for one acute angle and one obtuse angle.<br/>$$(4x+49)+(6x+81)=180$$<br/>$$10x+130=180$$<br/>$$10x=50$$<br/>$$x=5$$"
+    },
+    {
+      "title": "Find the requested sum",
+      "content": "The acute angle measure is $4(5)+49=69^\\circ$, and the obtuse angle measure is $6(5)+81=111^\\circ$. Then compute $2$ acute angles and $3$ obtuse angles.<br/>$$2(69)+3(111)=138+333=471$$<br/>The answer is <strong>471</strong>."
+    }
+  ]
+}

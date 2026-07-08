@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what to calculate",
-      "content": "The tip is 20% of the \\$60 bill. We need to find 20% of \\$60."
+      "title": "Convert the percent",
+      "content": "A $20\\%$ tip means $20$ out of $100$, or\n+$$20\\%=0.20$$"
     },
     {
-      "title": "Convert percentage to decimal and multiply",
-      "content": "To find a percentage of a number, convert the percentage to decimal form and multiply:<br/>$$20\\% = 0.20$$<br/>$$\\text{Tip} = 0.20 \\times 60 = 12$$<br/>The tip Mia gave is \\$12, so the answer is <strong>12</strong>."
+      "title": "Multiply by the bill",
+      "content": "Find $20\\%$ of the $60$ dollar bill:\n+$$0.20(60)=12$$\n+The answer is <strong>12</strong>."
     }
   ]
 }

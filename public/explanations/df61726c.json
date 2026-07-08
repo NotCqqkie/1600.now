@@ -1,0 +1,15 @@
+{
+  "questionId": "df61726c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast study scope",
+      "content": "BHS needs extensive funding because it is longitudinal: it collects data over long timescales and at intervals that support trend-based conclusions. A more constrained study seeking a single average is less dependent on that kind of funding if it does not need long-term trend tracking."
+    },
+    {
+      "title": "Remove funding distractions",
+      "content": "Choice B discusses whether scope can expand, not why less funding is needed. Choice C focuses on a possible participant count, not the study's time-based design. Choice D says the study may be a lower funding priority, but the sentence is about dependence on funding. The answer is <strong>A</strong>."
+    }
+  ]
+}

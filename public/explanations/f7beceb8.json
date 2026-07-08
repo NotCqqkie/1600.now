@@ -1,0 +1,19 @@
+{
+  "questionId": "f7beceb8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the original median",
+      "content": "Data set A has $21$ values, so its median is the $11$th value in order. From the frequency table, the values in positions $9$ through $13$ are all $3$, so the median of data set A is $3$."
+    },
+    {
+      "title": "Find the new median",
+      "content": "Removing the erroneous value $19$ leaves $20$ values. The median is the average of the $10$th and $11$th values, and both are still $3$.<br/>$$\\frac{3+3}{2}=3$$"
+    },
+    {
+      "title": "Compare the medians",
+      "content": "Both medians are $3$, so the median of data set B is equal to the median of data set A. The answer is <strong>B</strong>."
+    }
+  ]
+}

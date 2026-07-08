@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "State the condition for infinitely many solutions",
-      "content": "An equation in $x$ has infinitely many solutions when both sides are identical expressions for all $x$. Factor the left side: $$5x + 20 = 5(x + 4)$$ So the equation becomes: $$5(x+4) = \\frac{a(x+4)}{2}$$"
+      "title": "Match identical expressions",
+      "content": "An equation has infinitely many solutions when both sides are the same expression for every value of $x$. Factor the left side.\n$$\n5x+20=5(x+4)\n$$"
     },
     {
-      "title": "Solve for a",
-      "content": "Multiply both sides by $2$: $$10(x+4)=a(x+4)$$ For this to hold for every $x$, the coefficient of $(x+4)$ must match, so $a=10$. A direct calculation using two simple $x$-values also returns $a=10$."
+      "title": "Compare the matching factor",
+      "content": "The equation becomes\n$$\n5(x+4)=\\frac{a(x+4)}{2}\n$$\nFor the two sides to be identical, the coefficient multiplying $(x+4)$ must match."
     },
     {
-      "title": "Test all four choices",
-      "content": "<ul><li><strong>Choice A — $0$</strong>: $a=0$ gives $5x+20=0$, true only when $x=-4$ &mdash; exactly one solution, not infinitely many. &#10007;</li><li><strong>Choice B — $4$</strong>: $a=4$ gives $5x+20 = 2x + 8$. Coefficients $5 \\neq 2$, so exactly one solution. &#10007;</li><li><strong>Choice C — $10$</strong>: $a=10$ gives right side $\\frac{10(x+4)}{2} = 5(x+4) = 5x+20$. Both sides identical &mdash; infinitely many solutions. &#10003;</li><li><strong>Choice D — $20$</strong>: $a=20$ gives right side $\\frac{20(x+4)}{2} = 10x+40$. Coefficients $5 \\neq 10$, so exactly one solution. &#10007;</li></ul>This matches &#8212; <strong>C</strong> is correct."
+      "title": "Solve for the coefficient",
+      "content": "$$\n5=\\frac{a}{2}\n$$\n$$\na=10\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

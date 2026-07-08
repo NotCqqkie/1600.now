@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define variables and relationship",
-      "content": "Let $T$ be total people, $D$ donors, $V$ volunteers. The relationship is $$T = D + V$$."
+      "title": "Subtract donors from total",
+      "content": "The total is $180$, and the donor count is $142$."
     },
     {
-      "title": "Compute volunteers and select answer",
-      "content": "Substitute $T=180$ and $D=142$: $$V = 180 - 142 = 38$$.<br/>Thus 38 people volunteered.<br/>That matches <strong>Choice A &mdash; $38$</strong>."
+      "title": "Match the result",
+      "content": "Volunteers are the total minus donors.<br/>$$180-142=38$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

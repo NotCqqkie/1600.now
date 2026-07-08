@@ -1,0 +1,15 @@
+{
+  "questionId": "8d2341e1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence boundary",
+      "content": "The first clause ends after Mission STS-53. The following words introduce a new sentence with the phrase 'Lasting seven days and seven hours' before the main clause 'the mission ended.'"
+    },
+    {
+      "title": "Reject faulty joins",
+      "content": "Choice A creates a comma splice with a participial phrase attached incorrectly. Choice B joins independent clauses with only a comma. Choice C fuses the mission name and participial phrase without a clear boundary. The remaining choice uses a period, then a valid introductory phrase. The answer is <strong>D</strong>."
+    }
+  ]
+}

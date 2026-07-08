@@ -1,0 +1,23 @@
+{
+  "questionId": "f194a070",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "At a solution, both expressions for $y$ are equal.\n$$4x+12=(x+2)^2$$"
+    },
+    {
+      "title": "Solve for the requested square",
+      "content": "Expand and simplify.\n$$4x+12=x^2+4x+4$$\n$$12=x^2+4$$\n$$x^2=8$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing both equations shows the intersection $x$-values; squaring either displayed $x$-value gives $8$. The answer is <strong>8</strong>.",
+      "desmosExpressions": [
+        "y=4x+12",
+        "y=(x+2)^2"
+      ]
+    }
+  ]
+}

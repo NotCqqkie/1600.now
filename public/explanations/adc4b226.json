@@ -1,0 +1,15 @@
+{
+  "questionId": "adc4b226",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the source population",
+      "content": "A random sample can be generalized only to the population from which it was selected. Here, the $90$ students were randomly selected from one specific high school, so the random selection supports conclusions about that school population. The experiment's tasting conditions do not widen that source population."
+    },
+    {
+      "title": "Set the valid scope",
+      "content": "The sample was not randomly selected from all high schools in Michigan, and the sample itself is not the largest population. The $36$ students are only a subgroup of the sample, so that subgroup is narrower than the original sample. The largest valid population is all students from that high school. The answer is <strong>C</strong>."
+    }
+  ]
+}

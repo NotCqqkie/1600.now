@@ -1,0 +1,15 @@
+{
+  "questionId": "c31f1710",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the target minerals",
+      "content": "The goal is to compare talc and topaz. The notes say talc has a Mohs number of 1, topaz has a Mohs number of 8, and minerals with larger numbers are harder and can scratch minerals with smaller numbers."
+    },
+    {
+      "title": "Keep only the target comparison",
+      "content": "Choice A compares topaz with fluorite, Choice B only says the scale can order the minerals, and Choice C compares fluorite with talc. The relevant comparison is that topaz can scratch talc and is harder than talc. The answer is <strong>D</strong>."
+    }
+  ]
+}

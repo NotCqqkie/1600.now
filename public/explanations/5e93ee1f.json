@@ -1,0 +1,15 @@
+{
+  "questionId": "5e93ee1f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep preposition and object together",
+      "content": "The sentence needs the preposition <em>on</em> to connect directly to its object, <em>US currency</em>. Punctuation between a preposition and its object would break that connection."
+    },
+    {
+      "title": "Use no punctuation",
+      "content": "A separates the preposition from its object with a semicolon, B with a comma, and C with a colon. The sentence is grammatical only when <em>on</em> flows straight into <em>US currency</em>. The answer is <strong>D</strong>."
+    }
+  ]
+}

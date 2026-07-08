@@ -1,0 +1,15 @@
+{
+  "questionId": "bc1392b0",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the sequence",
+      "content": "The passage lists trophic levels in order: the base, the second level, the third level, and then the fourth and highest level. The transition needs to mark the endpoint of that sequence."
+    },
+    {
+      "title": "Choose the endpoint signal",
+      "content": "<ul><li><strong>Choice A</strong> emphasizes or confirms a prior point, but the sentence is advancing an ordered list.</li><li><strong>Choice B</strong> adds a side point, which does not fit the numbered progression.</li><li><strong>Choice C</strong> introduces an example, not the final level in a sequence.</li></ul>The remaining choice marks the last item in the ordered series. The answer is <strong>D</strong>."
+    }
+  ]
+}

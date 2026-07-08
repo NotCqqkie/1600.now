@@ -1,0 +1,15 @@
+{
+  "questionId": "849031c6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the requested input",
+      "content": "The horizontal axis gives the temperature $x$, and the vertical axis gives the volume $y$. The question asks for the volume when $x=200$."
+    },
+    {
+      "title": "Read the graph value",
+      "content": "At $x=200$, the graph shows $y=9$, so the estimated volume is $9$ liters. The answer is <strong>B</strong>."
+    }
+  ]
+}

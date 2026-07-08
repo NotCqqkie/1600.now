@@ -1,0 +1,15 @@
+{
+  "questionId": "ebc378f0",
+  "correctAnswer": "5.76",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the retail price",
+      "content": "The retail price is $240\\%$ of the $8.00$ wholesale price:\n$$\n2.40(8.00)=19.20\n$$"
+    },
+    {
+      "title": "Apply the discount",
+      "content": "$70\\%$ off means the discounted price is the remaining $30\\%$ of the retail price:\n$$\n0.30(19.20)=5.76\n$$\nThe answer is <strong>5.76</strong>."
+    }
+  ]
+}

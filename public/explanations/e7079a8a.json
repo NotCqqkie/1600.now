@@ -1,0 +1,15 @@
+{
+  "questionId": "e7079a8a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage structure",
+      "content": "The passage begins broadly: historical shipwrecks are common and their effects on sea life interest researchers. It then narrows to Nadia Kassem and colleagues' study of wooden shipwrecks in the Gulf of Mexico. Finally, it reports one finding: microbial diversity and richness peaked on samples about 125 meters from the wrecks."
+    },
+    {
+      "title": "Remove invented details",
+      "content": "Choice A invents a research team's reaction to someone else's study. Choice C says the passage describes the San Pedro's historical significance, but that shipwreck is only an opening example. Choice D treats pine and oak as materials used to build the famous ship, while the passage says researchers placed pine and oak samples near wrecks. Choice B matches the broad interest, specific study, and study finding. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d62fd068",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the arc to a fraction",
+      "content": "The arc is $45^\\circ$ out of the full $360^\\circ$ circle:<br/><br/>$$\\frac{45}{360}=\\frac{1}{8}$$<br/><br/>So the arc length is $\\frac{1}{8}$ of the circumference."
+    },
+    {
+      "title": "Scale up to the full circle",
+      "content": "The arc length is $5$ inches, so multiply by $8$ to get the full circumference:<br/><br/>$$5\\cdot 8=40$$<br/><br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

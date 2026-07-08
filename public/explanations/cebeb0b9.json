@@ -1,0 +1,19 @@
+{
+  "questionId": "cebeb0b9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The subject of the blank is more writers from Guinea. The phrase including Diallo is extra information, so the verb must agree with the plural noun writers."
+    },
+    {
+      "title": "Remove singular verbs",
+      "content": "<ul><li><strong>Choice A</strong> uses singular is, so it does not agree with writers.</li><li><strong>Choice B</strong> uses singular has, so it does not agree with writers.</li><li><strong>Choice D</strong> uses singular begins, so it does not agree with writers.</li></ul>"
+    },
+    {
+      "title": "Use the plural perfect verb",
+      "content": "The remaining choice uses have begun, the plural present perfect form that agrees with writers and fits the time phrase in recent years. The answer is <strong>C</strong>."
+    }
+  ]
+}

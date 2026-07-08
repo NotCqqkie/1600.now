@@ -1,0 +1,21 @@
+{
+  "questionId": "0d0fc642",
+  "correctAnswer": "1400",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear scale factor",
+      "content": "Surface areas of similar solids scale by the square of the linear scale factor:\n$$k^2=\\frac{648}{72}=9$$\n$$k=3$$",
+      "formula": "$$k^2 = \\frac{\\text{SA}_N}{\\text{SA}_M}$$"
+    },
+    {
+      "title": "Scale the volume down",
+      "content": "Volumes scale by the cube of the linear scale factor:\n$$k^3=3^3=27$$\nSince prism $N$ has volume $1{,}350$, prism $M$ has volume\n$$\\frac{1{,}350}{27}=50$$",
+      "formula": "$$\\text{Volume}_M = \\frac{\\text{Volume}_N}{k^3}$$"
+    },
+    {
+      "title": "Add the two volumes",
+      "content": "The sum of the volumes is\n$$50+1{,}350=1{,}400$$\nThe answer is <strong>1400</strong>."
+    }
+  ]
+}

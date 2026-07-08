@@ -1,0 +1,15 @@
+{
+  "questionId": "79b858d4",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the shared nutrient",
+      "content": "The student's goal is to emphasize a similarity between kale and carrots. The notes say both vegetables contain ascorbic acid, which is also known as vitamin C."
+    },
+    {
+      "title": "Reject one-sided details",
+      "content": "A discusses only carrots. B focuses on humans needing vitamin C and mentions kale but not carrots. D compares vegetables with fruits in general instead of comparing kale with carrots. The sentence naming both vegetables and vitamin C states the shared trait. The answer is <strong>C</strong>."
+    }
+  ]
+}

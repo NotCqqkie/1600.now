@@ -1,0 +1,15 @@
+{
+  "questionId": "63e1e340",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the satin cuttings",
+      "content": "The equation is $x+y=56$, where $x$ is golden pothos cuttings and $y$ is satin pothos cuttings. Substitute $y=21$.<br/>$$x+21=56$$"
+    },
+    {
+      "title": "Find the golden cuttings",
+      "content": "Subtract $21$ from both sides.<br/>$$x=56-21$$<br/>$$x=35$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

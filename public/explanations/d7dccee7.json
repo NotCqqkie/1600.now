@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the contrast the passage is making",
-      "content": "The phrase “may not be limited to ______ behaviors” signals that the passage is arguing these organisms do more than [what kind of] behavior.<br/><br/>The context is single-celled organisms with stereotypical constraints, so the blank must name the kind of simple, basic behavior we'd normally assume they're restricted to."
+      "title": "Use the complexity clue",
+      "content": "The protozoan <em>Stentor roeseli</em> not only uses escape strategies but switches strategies when one fails. The phrase \"not be limited to\" signals that this evidence goes beyond the simple behavior expected of single-celled organisms."
     },
     {
-      "title": "Name the stereotypical limitation",
-      "content": "The target meaning is “simple, elementary, or basic behaviors.” “Rudimentary” precisely expresses this—it means fundamental or basic.<br/><br/>The organism's demonstrated strategy-switching contradicts the assumption that it's limited to such simple behaviors.<br/><br/>The other three describe different behavioral aspects unrelated to complexity.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Choose simple behavior",
+      "content": "A describes hostility, C describes changing over generations, and D describes usefulness. \"Rudimentary\" means basic or elementary, which matches the contrast between simple behavior and sophisticated strategy-switching. The answer is <strong>B</strong>."
     }
   ]
 }

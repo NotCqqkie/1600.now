@@ -1,0 +1,15 @@
+{
+  "questionId": "0544364b",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "Line $k$ has slope $m$. A perpendicular line has the negative reciprocal slope, so line gamma has slope $-\\frac{1}{m}$."
+    },
+    {
+      "title": "Move one unit right",
+      "content": "Line gamma passes through $(6{,}4)$. Moving from $x=6$ to $x=7$ gives a horizontal change of $1$, so the vertical change is<br/>$$-\\frac{1}{m}(1)=-\\frac{1}{m}$$<br/>The point is $(7{,}4-\\frac{1}{m})$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "1dfadd55",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect owner to name",
+      "content": "The task asks how the <em>Jules Falk Stradivarius</em> got its name. The notes give the naming pattern: many surviving Stradivarius violins are named for previous owners, and this violin is named for Jules Falk."
+    },
+    {
+      "title": "Reject partial facts",
+      "content": "A identifies Falk but not the naming pattern. B gives production and survival counts. C describes the maker and quality. The remaining option applies the owner-naming pattern to this violin. The answer is <strong>D</strong>."
+    }
+  ]
+}

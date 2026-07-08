@@ -1,0 +1,15 @@
+{
+  "questionId": "0b4761b2",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "When a transversal crosses two lines, equal corresponding angles are sufficient to prove the two lines are parallel. The diagram shows $w$ and $y$ as corresponding angles."
+    },
+    {
+      "title": "Match the two angles",
+      "content": "Given $w=146$, the statement $y=146$ would make $w$ and $y$ equal. Equal corresponding angles prove that lines $r$ and $s$ are parallel. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "51f68c9c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for an increase",
+      "content": "The researcher needs an example of a lake whose duration of winter surface ice increased, despite the general declining trend. That requires comparing the same lake at two times and showing more ice days later than earlier."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "A and C give totals or thresholds without proving an increase from the earlier winter to the later winter. D claims an increase for two lakes, but the graph does not support that for both. The answer is <strong>B</strong>."
+    }
+  ]
+}

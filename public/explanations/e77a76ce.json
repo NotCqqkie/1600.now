@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "No solution occurs with parallel lines",
-      "content": "A system of linear equations has no solution when the two lines are parallel. In slope-intercept form, parallel lines have identical slopes but different y-intercepts—they never meet."
-    },
-    {
-      "title": "Check each choice for parallel lines",
-      "content": "<ul><li><strong>\"$y=6x+3$\n$y=6x+9$\"</strong> $y = 6x + 3$ and $y = 6x + 9$ both have slope 6, with different y-intercepts (3 and 9). Parallel—no solution.</li><li><strong>\"$y=10$\n$y=10x+10$\"</strong> $y = 10$ has slope 0; $y = 10x + 10$ has slope 10. Different slopes—they intersect.</li><li><strong>\"$y=14x+14$\n$y=10x+14$\"</strong> $y = 14x + 14$ has slope 14; $y = 10x + 14$ has slope 10. Different slopes—they intersect.</li><li><strong>\"$x=3$\n$y=10$\"</strong> $x = 3$ (vertical line) and $y = 10$ (horizontal line) intersect.</li></ul>That matches the correct answer — <strong>A</strong> is correct.",
+      "title": "Look for parallel lines",
+      "content": "A system of two linear equations has no solution when the lines have the same slope but different y-intercepts.",
       "desmosExpressions": [
         "y = 6x + 3",
         "y = 6x + 9"
       ]
+    },
+    {
+      "title": "Compare the slopes",
+      "content": "The equations<br/>$$y=6x+3$$<br/>and<br/>$$y=6x+9$$<br/>both have slope $6$, but their y-intercepts are $3$ and $9$. These lines are parallel and never intersect. The answer is <strong>A</strong>."
     }
   ]
 }

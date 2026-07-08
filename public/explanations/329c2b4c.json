@@ -1,0 +1,22 @@
+{
+  "questionId": "329c2b4c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Apply the quadratic formula",
+      "content": "For $4x^2+5x-5=0$, use $a=4$, $b=5$, and $c=-5$:\n$$\nx=\\frac{-5\\pm\\sqrt{5^2-4(4)(-5)}}{2(4)}\n$$"
+    },
+    {
+      "title": "Simplify the two roots",
+      "content": "Simplify under the radical and in the denominator:\n$$\nx=\\frac{-5\\pm\\sqrt{105}}{8}\n$$\nThe greater solution uses the plus sign."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Entering the equation in a graphing calculator also shows the greater root is the one with the plus sign in the numerator. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "4x^{2}+5x-5=0"
+      ]
+    }
+  ]
+}

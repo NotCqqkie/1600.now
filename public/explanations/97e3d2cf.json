@@ -1,0 +1,15 @@
+{
+  "questionId": "97e3d2cf",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the time",
+      "content": "The equation gives speed after $t$ seconds. For $5$ seconds, substitute $t=5$ into the equation $s=45+3t$:<br/><br/>$$s=45+3(5)$$"
+    },
+    {
+      "title": "Compute the speed",
+      "content": "Finish the calculation:<br/><br/>$$s=45+15=60$$<br/><br/>So the vehicle's speed after $5$ seconds is $60$ miles per hour. The answer is <strong>D</strong>."
+    }
+  ]
+}

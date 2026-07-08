@@ -1,0 +1,15 @@
+{
+  "questionId": "b7735f69",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the line equation",
+      "content": "A line with slope $6$ and $y$-intercept $(0,-48)$ has equation:<br/>$$y=6x-48$$"
+    },
+    {
+      "title": "Set y equal to zero",
+      "content": "At the $x$-intercept, $y=0$. Solve:<br/>$$0=6x-48$$<br/>$$6x=48$$<br/>$$x=8$$<br/>The answer is <strong>8</strong>."
+    }
+  ]
+}

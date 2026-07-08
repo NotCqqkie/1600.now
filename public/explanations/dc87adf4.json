@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Read the claim precisely",
-      "content": "Trollope's portrayal underscores Dr. Proudie's <em>exaggerated sense of his own abilities</em>. The quotation must show Proudie himself overrating his abilities, not the narrator's judgment or someone else's view."
+      "content": "The claim is about Dr. Proudie's exaggerated sense of his own abilities. The quotation must show Proudie overrating himself, not merely show the narrator criticizing him, other people noticing him, or a neutral description of his usefulness."
     },
     {
-      "title": "Scan for self-flattery",
-      "content": "Look for language showing Proudie thinking highly of himself. The phrase \"as he fondly flattered himself\" is a textbook signal of a character's inflated self-image."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>\"It must not…be taken as proved that Dr. Proudie was a man of great mental powers, or even of much capacity for business, for such qualities had not been required in him.\"</strong>: this is the narrator deflating Proudie, not Proudie overrating himself (misread of whose view is shown). &#10007;</li><li><strong>\"[Dr. Proudie] was comparatively young, and had, as he fondly flattered himself, been selected as possessing such gifts, natural and acquired, as must be sure to recommend him to a yet higher notice.\"</strong>: Proudie himself imagines he has superior gifts destined for promotion &mdash; exactly an exaggerated self-assessment. &#10003;</li><li><strong>\"[Dr. Proudie's] residence in the metropolis, rendered necessary by duties thus entrusted to him, his high connexions, and the peculiar talents and nature of the man, recommended him to persons in power.\"</strong>: the narrator lists external reasons he was noticed; nothing about Proudie's self-view (misread). &#10007;</li><li><strong>\"[Dr. Proudie] was certainly possessed of sufficient tact to answer the purpose for which he was required without making himself troublesome.\"</strong>: describes a modest, useful competence, the opposite of an inflated self-image (misread). &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Spot the self-flattery",
+      "content": "B says Proudie <em>fondly flattered himself</em> that he had gifts that would bring him higher notice, which directly shows an inflated self-image. A is the narrator's deflating judgment of his abilities. C lists outside reasons people in power noticed him. D describes limited practical tact, not Proudie's own exaggerated belief about himself. The answer is <strong>B</strong>."
     }
   ]
 }

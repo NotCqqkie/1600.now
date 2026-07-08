@@ -1,0 +1,15 @@
+{
+  "questionId": "62c02e2e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two listed events",
+      "content": "The sentence after the colon gives examples of pivotal events. The first event is the founding of the American GI Forum in 1948; the second event is the <em>Mendez v. Westminster</em> decision. The blank needs the year and a sentence boundary before the second event."
+    },
+    {
+      "title": "Reject boundary errors",
+      "content": "Choice B makes <em>For one</em> introduce the second event instead of the first. Choice C leaves the two events joined by commas, creating a run-on. Choice D omits the year 1948 entirely. The answer is <strong>A</strong>."
+    }
+  ]
+}

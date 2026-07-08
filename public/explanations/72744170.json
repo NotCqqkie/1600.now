@@ -1,0 +1,19 @@
+{
+  "questionId": "72744170",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match exposure to distinction",
+      "content": "The team's conclusion is about previous language exposure affecting how well dogs distinguish familiar languages from unfamiliar ones. Strong support must connect greater exposure with a stronger difference between the brain response to a familiar language and the brain response to an unfamiliar language."
+    },
+    {
+      "title": "Separate language from noise",
+      "content": "Choice B compares scrambled non-speech with an unfamiliar language, and Choice D compares a familiar language with scrambled non-speech. Those findings may involve speech detection, but they do not directly test the familiar-language versus unfamiliar-language distinction."
+    },
+    {
+      "title": "Reject the flat-age result",
+      "content": "Choice C says dogs of all ages showed the same kind of familiar-language advantage, so it does not show exposure level matters. Older dogs have generally had more exposure, and Choice A says their language-response gap was greatest. The answer is <strong>A</strong>."
+    }
+  ]
+}

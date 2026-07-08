@@ -1,0 +1,15 @@
+{
+  "questionId": "344ec0e8",
+  "correctAnswer": "-11",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the given input",
+      "content": "Substitute $x=5$ into the function.<br/>$$4=3(5)+b$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Isolate $b$.<br/>$$15+b=4$$<br/>$$b=-11$$<br/>The answer is <strong>-11</strong>."
+    }
+  ]
+}

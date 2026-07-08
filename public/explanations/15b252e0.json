@@ -1,0 +1,15 @@
+{
+  "questionId": "15b252e0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name an example of the genre",
+      "content": "The goal is to provide an example of an epistolary novel. A successful sentence must name a specific novel and clearly identify it as epistolary. The notes also explain why the example fits: the novel consists primarily of letters, which are one kind of fictional document used in epistolary novels."
+    },
+    {
+      "title": "Require title and category",
+      "content": "<ul><li><strong>Choice A - In 2019, American author Mina Tran published a novel of letters sent from a young man named Little Dog to his mother, Rose.</strong>: This describes a letter-based novel but never identifies it as epistolary.</li><li><strong>Choice C - It was Mina Tran who published the novel <em>On Earth We're Briefly Gorgeous</em> in 2019.</strong>: This gives publication information but says nothing about the genre or format.</li><li><strong>Choice D - An epistolary novel is a novel written primarily as a series of fictional documents, such as letters, journal entries, or newspaper clippings.</strong>: This defines the term but does not provide a specific example.</li></ul>The choice must both name the novel and label it as epistolary. The answer is <strong>B</strong>."
+    }
+  ]
+}

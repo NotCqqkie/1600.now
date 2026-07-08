@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use tangent lengths",
+      "content": "The radii to points M and N are each $144$ millimeters. Tangent segments from the same external point are equal, so let each be $t$."
     },
     {
-      "title": "Use tangent properties and perimeter to find the tangent segment length",
-      "content": "Tangent lines to a circle are perpendicular to the radius at the point of tangency, so $\\angle GMH = \\angle GNH = 90^{\\circ}$. Also, tangent segments from an external point to a circle are equal, so $HM = HN$.<br/><br/>The perimeter of quadrilateral $GMHN$ is:<br/>$$GM + MH + HN + NG = 1,568$$<br/>Since $GM = GN = 144$ (both radii) and $MH = HN = t$ (equal tangent segments), we have:<br/>$$144 + t + t + 144 = 1,568$$<br/>$$288 + 2t = 1,568$$<br/>$$2t = 1,280$$<br/>$$t = 640 \\text{ mm}$$"
+      "title": "Find the tangent length",
+      "content": "Use the perimeter of quadrilateral GMHN.<br/>$$144+t+t+144=1{,}568$$<br/>$$288+2t=1{,}568$$<br/>$$t=640$$"
     },
     {
-      "title": "Apply Pythagorean theorem to find GH",
-      "content": "In right triangle $GMH$ with the right angle at $M$, we use the Pythagorean theorem:<br/>$$GH^2 = GM^2 + MH^2$$<br/>$$GH^2 = 144^2 + 640^2$$<br/>$$GH^2 = 20,736 + 409,600$$<br/>$$GH^2 = 430,336$$<br/>$$GH = 656 \\text{ mm}$$<br/>That matches <strong>Choice D &mdash; $656$</strong>."
+      "title": "Find the distance to H",
+      "content": "A radius to a tangent point is perpendicular to the tangent, so triangle GMH is right.<br/>$$d^2=144^2+640^2$$<br/>$$d^2=430{,}336$$<br/>$$d=656$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

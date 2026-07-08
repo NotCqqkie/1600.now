@@ -1,0 +1,15 @@
+{
+  "questionId": "f1be6e2c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The notation $h(-6)$ asks for the output of the function when the input is $-6$. Replace $x$ with $-6$ in the expression.\n$$h(-6)=7|-6|$$"
+    },
+    {
+      "title": "Evaluate the absolute value",
+      "content": "The absolute value of $-6$ is $6$ because absolute value gives distance from $0$. Then multiply by $7$.\n$$7|-6|=7(6)=42$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

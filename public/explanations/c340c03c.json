@@ -1,0 +1,15 @@
+{
+  "questionId": "c340c03c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the quantities",
+      "content": "The number of $8$-inch parts is $n$. The number of $9$-inch parts is $4n$, and the number of $3$-inch parts is $15$."
+    },
+    {
+      "title": "Add the total parts",
+      "content": "The machine makes $100$ parts total, so add the three quantities.<br/>$$4n+n+15=100$$<br/>Combining like terms gives<br/>$$5n+15=100$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

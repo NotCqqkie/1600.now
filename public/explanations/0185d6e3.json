@@ -1,0 +1,15 @@
+{
+  "questionId": "0185d6e3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare inner fiber fineness",
+      "content": "Smaller fiber diameter means softer wool. The table shows the Navajo-Churro's inner fiber reaches 10 microns, while the mouflon's is 15 microns and the Merino's minimum is 17 microns. At its softest, the Navajo-Churro's inner fiber is finer than both."
+    },
+    {
+      "title": "Choose the supported claim",
+      "content": "<ul><li><strong>Choice A</strong>: Falsely calls Navajo-Churro inner fiber uniform.</li><li><strong>Choice B</strong>: Contradicts the passage's claim that Merino wool suits delicate garments.</li><li><strong>Choice C</strong>: Overstates softness across both outer and inner fiber.</li><li><strong>Choice D</strong>: States that the Navajo-Churro's softest inner fiber is softer than the mouflon's or Merino's.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

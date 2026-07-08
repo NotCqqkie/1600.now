@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the subject",
-      "content": "Look past the prepositional phrase “of each statue's ears” to find the head noun: “the shape” is singular.<br/><br/>The comma-enclosed phrase “like the shape of each person's ears” is a parenthetical comparison introduced by “like,” not a coordinating conjunction, so it doesn't add a second subject.<br/><br/>The subject is singular."
+      "title": "Find the true subject",
+      "content": "The subject of the verb is \"the shape of each statue's ears.\" The comparison \"like the shape of each person's ears\" is interrupting information and does not change the subject. Since \"shape\" is singular, the verb must be singular."
     },
     {
-      "title": "Apply the subject-verb agreement rule",
-      "content": "A singular subject requires a singular verb. “Is” is the singular form that correctly agrees with “the shape.” “Are” and “have been” are plural; “were” is plural past tense. That confirms <strong>B</strong> is correct."
+      "title": "Remove plural verbs",
+      "content": "Choice A and Choice C are plural or past-tense plural forms that do not agree with \"shape.\" Choice D is also plural and does not fit the singular subject."
+    },
+    {
+      "title": "Use singular agreement",
+      "content": "The singular present-tense verb agrees with \"shape\" and completes the sentence correctly. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the vertex x-coordinate to narrow the field",
-      "content": "All four choices are upward-opening parabolas with leading coefficient 2. The vertex $x$-coordinate is $x=-\\dfrac{b}{2a}$.<ul><li>The equations with $b=-11$ have vertex $x=\\dfrac{11}{4}=2.75$.</li><li>The equations with $b=-5$ have vertex $x=\\dfrac{5}{4}=1.25$.</li></ul>The scatterplot's minimum sits near $x\\approx 3$, much closer to 2.75 than to 1.25, so the $b=-5$ equations do not fit."
+      "title": "Use the vertex location",
+      "content": "All four models open upward and have leading coefficient $2$. The vertex has $x$-coordinate $-\\frac{b}{2a}$. Choices with $b=-11$ have<br/>$$x=\\frac{11}{4}=2.75$$<br/>Choices with $b=-5$ have<br/>$$x=\\frac{5}{4}=1.25$$<br/>The scatterplot minimum is near $x=3$, so keep the models with $b=-11$."
     },
     {
-      "title": "Test a visible scatterplot point to choose between A and B",
-      "content": "A clear point on the scatterplot is near $(5,15)$.<ul><li>A) $y=2(5)^{2}-11(5)-20=50-55-20=-25$, far below 15 &mdash; eliminate.</li><li>B) $y=2(5)^{2}-11(5)+20=50-55+20=15$, matches the point exactly.</li><li>C) Vertex at $x=1.25$ misses the plotted minimum near $x=3$ &mdash; eliminate.</li><li>D) Vertex at $x=1.25$ misses the plotted minimum near $x=3$ &mdash; eliminate.</li></ul>That confirms <strong>B</strong> is correct.",
+      "title": "Test a plotted point",
+      "content": "A visible point on the scatterplot is near $(5,15)$. Test the two remaining models.<br/>$$2(5)^2-11(5)-20=50-55-20=-25$$<br/>$$2(5)^2-11(5)+20=50-55+20=15$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The model $y=2x^2-11x+20$ has the right vertex location and matches the visible point near $(5,15)$. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y = 2x^2 - 11x + 20"
       ]

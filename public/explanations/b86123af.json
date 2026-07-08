@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define the variables",
-      "content": "Let $x$ be the price of each notebook and $y$ be the price of each folder."
+      "title": "Write Maya total",
+      "content": "If $x$ is the notebook price and $y$ is the folder price, Maya's purchase gives<br/>$$5x+3y=71$$"
     },
     {
-      "title": "Write Maya's equation",
-      "content": "Maya bought $5$ notebooks and $3$ folders for $71$, so her total is $$5x+3y=71.$$"
-    },
-    {
-      "title": "Write Omar's equation",
-      "content": "Omar bought $2$ notebooks and $6$ folders for $86$, so his total is $$2x+6y=86.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The system $5x+3y=71$ and $2x+6y=86$ matches so <strong>A</strong> is correct."
+      "title": "Write Omar total",
+      "content": "Omar's purchase gives<br/>$$2x+6y=86$$Together, the system is<br/>$$5x+3y=71\\quad \\text{and}\\quad 2x+6y=86$$The answer is <strong>A</strong>."
     }
   ]
 }

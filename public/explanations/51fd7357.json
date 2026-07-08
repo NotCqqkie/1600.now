@@ -1,0 +1,15 @@
+{
+  "questionId": "51fd7357",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Contrast success with uncertainty",
+      "content": "NASA successfully altered the orbit of a secondary object, but scientists have not yet shown that primary objects such as 2004 DC would be similarly affected. The transition must signal that contrast."
+    },
+    {
+      "title": "Reject similarity and addition cues",
+      "content": "Choice B introduces an example, Choice C signals similarity, and Choice D adds supporting information. The sentence instead contrasts a demonstrated result with an unproven one. The answer is <strong>A</strong>."
+    }
+  ]
+}

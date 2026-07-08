@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the text's structure",
-      "content": "The passage walks through a mechanism step by step: excess power pumps water up to a summit lake during low demand, and that stored water drains back down to generate electricity during peak demand. The text is a factual, sequential explanation of how one specific technology operates."
+      "title": "Follow the mechanism",
+      "content": "The text explains Cedar Mountain step by step: excess power pumps water to a summit lake during low demand, and the stored water later drains down to spin turbines and generate power during peak demand."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; To point out the differences between two methods of energy generation</strong>: The text never compares pumped-storage hydropower to any other method; nuclear plants are only mentioned as the power source for pumping. &#10007;</li><li><strong>Choice B &mdash; To explain the basics of how a specific energy technology works</strong>: This matches exactly&mdash;the passage explains, step by step, how Cedar Mountain&rsquo;s pumped-storage system works. &#10003;</li><li><strong>Choice C &mdash; To encourage regional electric utilities to build energy storage facilities</strong>: The text contains no persuasive language and makes no recommendation to build more facilities. &#10007;</li><li><strong>Choice D &mdash; To discuss the benefits of a new energy technology</strong>: Cedar Mountain was built in the 1970s, so the technology is not new, and the text does not frame itself as a discussion of benefits. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject absent purposes",
+      "content": "A claims a comparison with another energy method, C claims the text urges utilities to build facilities, and D calls the technology new and benefit-focused. Those purposes are not present. The answer is <strong>B</strong>."
     }
   ]
 }

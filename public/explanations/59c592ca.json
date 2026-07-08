@@ -1,0 +1,19 @@
+{
+  "questionId": "59c592ca",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the one-step factor",
+      "content": "When $w$ increases by $1$, the exponent $2w$ increases by $2$. So the output is multiplied by<br/>$$(0.826)^2$$"
+    },
+    {
+      "title": "Compute the retained percent",
+      "content": "Square the base.<br/>$$(0.826)^2=0.682276$$<br/>So the function keeps about $68.2\\%$ of its value after each increase of $1$ in $w$."
+    },
+    {
+      "title": "Convert to percent decrease",
+      "content": "The decrease is the part not retained.<br/>$$100\\%-68.2\\%=31.8\\%$$<br/>So $p$ is closest to $31.8$. The answer is <strong>D</strong>."
+    }
+  ]
+}

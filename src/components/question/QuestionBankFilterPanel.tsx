@@ -213,14 +213,14 @@ export function QuestionBankFilterPanel({
                       compactLabels && "w-full whitespace-nowrap px-1 tabular-nums",
                       hasScoreBandFilter && "border-primary/35 bg-primary text-primary-foreground",
                     )}>
-                      {compactLabels ? minBand : `Band ${minBand}`}
+                      {compactLabels ? minBand : `${minBand}/10`}
                     </span>
                     <span className={cn(
                       "inline-flex min-w-0 items-center justify-center rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-foreground shadow-sm transition-[background-color,border-color,color,box-shadow] duration-300 ease-out",
                       compactLabels && "w-full whitespace-nowrap px-1 tabular-nums",
                       hasScoreBandFilter && "border-primary/35 bg-primary text-primary-foreground",
                     )}>
-                      {compactLabels ? maxBand : `Band ${maxBand}`}
+                      {compactLabels ? maxBand : `${maxBand}/10`}
                     </span>
                   </div>
                   <div

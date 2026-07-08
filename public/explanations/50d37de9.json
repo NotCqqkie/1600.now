@@ -1,0 +1,15 @@
+{
+  "questionId": "50d37de9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Show different volcano types",
+      "content": "The sentence needs an example proving that Ecuador has different types of volcanoes. The correct completion must accurately pair two Ecuadorian volcanoes with two different classifications from the table."
+    },
+    {
+      "title": "Use accurate table entries",
+      "content": "A, B, and D each misidentify at least one volcano's type, so they cannot effectively use the table. The remaining choice accurately pairs Cuicocha with caldera and Cayambe with compound, giving two different volcano types. The answer is <strong>C</strong>."
+    }
+  ]
+}

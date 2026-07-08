@@ -1,0 +1,19 @@
+{
+  "questionId": "85e112f1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given ratio",
+      "content": "The problem gives $BC=EF=28$ and<br/>$$\\frac{BC}{BA}=\\frac{EF}{ED}$$<br/>Substitute the equal side lengths.<br/>$$\\frac{28}{BA}=\\frac{28}{ED}$$<br/>So $BA=ED$."
+    },
+    {
+      "title": "Apply SAS",
+      "content": "The triangles already have two pairs of equal sides, $BA=ED$ and $BC=EF$, and the included angles at $B$ and $E$ are equal because each measures $40^{\\circ}$."
+    },
+    {
+      "title": "Conclude no more is needed",
+      "content": "Those facts prove the triangles congruent by side-angle-side using only the information given in the question. The answer is <strong>D</strong>."
+    }
+  ]
+}

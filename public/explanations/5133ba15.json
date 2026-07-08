@@ -1,0 +1,15 @@
+{
+  "questionId": "5133ba15",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare expected and found scope",
+      "content": "Researchers had thought defensive ultrasound was limited to tiger moths, hawkmoths, and one geometer species. Yamamoto and colleagues found ultrasonic clicks in 52 genera, including several geometer genera."
+    },
+    {
+      "title": "Reject extra speculation",
+      "content": "Choice B introduces other defense strategies, Choice C speculates about moths without bat defenses, and Choice D assigns ultrasonic signaling other purposes. The study instead expands how common anti-bat ultrasound appears to be among large-bodied moths. The answer is <strong>A</strong>."
+    }
+  ]
+}

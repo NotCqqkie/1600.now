@@ -2872,7 +2872,7 @@ const Home = () => {
             position: "relative",
             maxWidth: 1032,
             margin: "0 auto",
-            padding: "76px 24px 0",
+            padding: "110px 24px 0",
             textAlign: "center",
           }}
         >

@@ -1,0 +1,15 @@
+{
+  "questionId": "925d7ca6",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Interpret the function value",
+      "content": "The notation $f(0)$ asks for the $y$-value on the graph when $x=0$."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "At $x=0$, the graph crosses the $y$-axis at $y=-6$. The answer is <strong>A</strong>."
+    }
+  ]
+}

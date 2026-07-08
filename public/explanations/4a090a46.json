@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the inequality",
-      "content": "Nadia needs at least 120 hours total and currently has 97 hours. If we let $x$ = additional hours needed, then her total will be $97 + x$. The requirement becomes:<br/>$$97 + x \\geq 120$$"
+      "title": "Set up remaining hours",
+      "content": "Nadia needs at least $120$ total hours and already has $97$ hours. Let $x$ be the additional hours she needs:\n$$\n97+x\\ge120\n$$"
     },
     {
-      "title": "Solve for the minimum",
-      "content": "Subtract 97 from both sides to isolate $x$:<br/>$$x \\geq 120 - 97$$<br/>$$x \\geq 23$$<br/>The minimum number of additional hours is 23. <strong>A</strong> is correct."
+      "title": "Find the minimum",
+      "content": "Subtract $97$ from both sides:\n$$\nx\\ge120-97\n$$\n$$\nx\\ge23\n$$\nThe minimum additional time is $23$ hours. The answer is <strong>A</strong>."
     }
   ]
 }

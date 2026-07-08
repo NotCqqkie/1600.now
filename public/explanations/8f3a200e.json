@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key distinction in the passage",
-      "content": "The passage says NH&#8323; on <strong>rocky planets</strong> can only reach detectable levels through biological activity, but on <strong>mini-Neptunes</strong> it forms naturally from atmospheric conditions. This planet-type distinction determines whether NH&#8323; is a reliable biosignature.<ul><li><strong>Choice A &mdash; Its presence is more likely to indicate that a planet is a mini-Neptune than that the planet is a rocky planet that could support life.</strong>: The passage is about whether NH&#8323; indicates <em>life</em>, not about what type of planet a body is. This reverses the logic. &#10007;</li><li><strong>Choice B &mdash; Its absence from a planet that's not a mini-Neptune indicates that the planet probably doesn't have life.</strong>: The passage says NH&#8323; <em>presence</em> on rocky planets signals life; it says nothing about absence implying no life. &#10007;</li><li><strong>Choice C &mdash; It should be treated as a biosignature gas if detected in the atmosphere of a rocky planet but not if detected in the atmosphere of a mini-Neptune.</strong>: This directly captures the passage&apos;s finding: NH&#8323; signals life on rocky planets (where biological activity is needed to produce detectable amounts) but not on mini-Neptunes (where it forms naturally). &#10003;</li><li><strong>Choice D &mdash; It doesn't reliably reach high enough concentrations in the atmospheres of rocky planets or mini-Neptunes to be treated as a biosignature gas.</strong>: Contradicts the passage, which says NH&#8323; <em>can</em> reach detectable levels on rocky planets through biological activity. &#10007;</li></ul>"
+      "title": "Separate the planet types",
+      "content": "On rocky planets, atmospheric NH<sub>3</sub> likely cannot reach detectable levels without biological activity. On mini-Neptunes, pressure and temperature alone can produce atmospheric NH<sub>3</sub>, so its presence there would not point specifically to life."
     },
     {
-      "title": "Apply the distinction to confirm the answer",
-      "content": "The researchers found NH&#8323; behaves differently depending on planet type: biosignature on rocky planets, not on mini-Neptunes. The correct answer captures this conditional logic without reversing or contradicting the passage. That confirms <strong>C</strong> is correct."
+      "title": "Apply the condition",
+      "content": "A turns the evidence into a claim about identifying planet type, which the text does not make. B treats absence of NH<sub>3</sub> as proof about life, which is unsupported. D says NH<sub>3</sub> is unreliable in both planet types, contradicting the rocky-planet finding. The valid statement must treat the same gas differently depending on whether biology is needed to explain it. The answer is <strong>C</strong>."
     }
   ]
 }

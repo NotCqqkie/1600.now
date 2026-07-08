@@ -1,0 +1,15 @@
+{
+  "questionId": "bb76a9f1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the sample-size warning",
+      "content": "Andrade's study used a mean sample size of only 12 fish. Bennett and colleagues warn that relatively small sample sizes can increase bias and contribute to reports of exaggerated effects."
+    },
+    {
+      "title": "Avoid overclaims",
+      "content": "Choice A is unsupported because no earlier studies are compared. Choice B adds implications for other species. Choice D goes too far by saying the conclusion has been invalidated. The direct suggestion is that Andrade's reported effect may be exaggerated. The answer is <strong>C</strong>."
+    }
+  ]
+}

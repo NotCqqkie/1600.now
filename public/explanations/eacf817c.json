@@ -1,0 +1,15 @@
+{
+  "questionId": "eacf817c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate each score type",
+      "content": "Each draw earns $1$ point, so $d$ draws contribute $d$ points. Each win earns $4$ points, so $w$ wins contribute $4w$ points."
+    },
+    {
+      "title": "Set the point total",
+      "content": "The team has earned $28$ points total, so:<br/>$$d+4w=28$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

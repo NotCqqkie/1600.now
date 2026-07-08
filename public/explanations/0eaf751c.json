@@ -1,0 +1,19 @@
+{
+  "questionId": "0eaf751c",
+  "correctAnswer": "0.25,1/4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: use the function table",
+      "content": "Enter the function in Desmos or a calculator table, then plug in the requested input. The output is 0.25,1/4, so the answer is <strong>0.25,1/4</strong>. This is just a one-row lookup, and the arithmetic below confirms the table value."
+    },
+    {
+      "title": "Substitute the value x = 7",
+      "content": "Replace $x$ with $7$ in $$f(x) = \\frac{x-4}{x^2-9x+26}.$$ This gives $$f(7) = \\frac{7-4}{(7)^2-9(7)+26}.$$"
+    },
+    {
+      "title": "Compute the result",
+      "content": "Simplify: $$f(7) = \\frac{3}{49-63+26} = \\frac{3}{12} = \\frac{1}{4}.$$ The answer is <strong>0.25,1/4</strong>.<br/><br/>The denominator is positive after substitution, so the value is exactly $\\frac{1}{4}$, which can also be entered as the decimal $0.25$."
+    }
+  ]
+}

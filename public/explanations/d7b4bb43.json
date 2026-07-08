@@ -1,0 +1,15 @@
+{
+  "questionId": "d7b4bb43",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect clarity to traceability",
+      "content": "The second research team concluded that Kline and Kimball explained their methodology better than Chevalier and Richter did. The passage defines traceability as clearer descriptions of procedures, so the most direct challenge must compare the traceability ratings, not a different category."
+    },
+    {
+      "title": "Use the relevant comparison",
+      "content": "Choice A gives Chevalier and Richter's ratings without showing how Kline and Kimball compare. Choice B concerns category consistency, which measures alignment with database categories rather than procedural clarity. Choice C gives Kline and Kimball high traceability, which would support the conclusion. Lower traceability for Kline and Kimball would directly undermine it. The answer is <strong>D</strong>."
+    }
+  ]
+}

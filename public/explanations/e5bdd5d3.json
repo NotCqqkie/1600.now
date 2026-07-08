@@ -1,0 +1,15 @@
+{
+  "questionId": "e5bdd5d3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept definition",
+      "content": "The $y$-intercept is the point where the graph crosses the $y$-axis. At that point, $x=0$."
+    },
+    {
+      "title": "Read the graph",
+      "content": "From the graph, the curve crosses the $y$-axis at the point $(0,5)$.<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

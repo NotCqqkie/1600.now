@@ -1,0 +1,15 @@
+{
+  "questionId": "1898a075",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the line in slope form",
+      "content": "Rewrite the equation for line $r$ in the form $y=mx+b$.<br/>$$7x-4y=10$$<br/>$$-4y=-7x+10$$<br/>$$y=\\frac{7}{4}x-\\frac{5}{2}$$"
+    },
+    {
+      "title": "Use the parallel slope",
+      "content": "Parallel lines have the same slope. Since line $r$ has slope $\\frac{7}{4}$, line $s$ also has slope $\\frac{7}{4}$. The answer is <strong>D</strong>."
+    }
+  ]
+}

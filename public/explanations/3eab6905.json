@@ -1,0 +1,15 @@
+{
+  "questionId": "3eab6905",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark award sequence",
+      "content": "The goal is to emphasize order. Gordon W. Hale won in 1992, and Maya Chen won in 2011, so the sentence should make the later award explicit."
+    },
+    {
+      "title": "Prefer explicit order language",
+      "content": "B mentions only Hale, C gives no years or order, and D gives both years but does not emphasize the sequence as directly. The matching choice names the earlier winner first and marks Chen's win as later. The answer is <strong>A</strong>."
+    }
+  ]
+}

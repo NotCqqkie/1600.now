@@ -1,0 +1,15 @@
+{
+  "questionId": "666a42bb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the percent declines",
+      "content": "The statement needs to compare Switzerland's decline in hours worked with the declines in Germany, Brazil, and Japan. The table shows Germany had the largest percent decrease, Switzerland was next, and Brazil and Japan had smaller decreases."
+    },
+    {
+      "title": "Check each comparison",
+      "content": "B incorrectly says Switzerland's decline was greater than Germany's. C says hours worked rose in Switzerland, though the table shows a decline. D reverses the comparisons by saying Switzerland's decrease was greater than Germany's and less than Brazil's. The remaining choice accurately places Switzerland below Germany and above Brazil and Japan. The answer is <strong>A</strong>."
+    }
+  ]
+}

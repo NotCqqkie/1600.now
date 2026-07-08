@@ -1,0 +1,15 @@
+{
+  "questionId": "75a40292",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect omission to inaccuracy",
+      "content": "Mercer argued that the USGS left out important considerations when determining Nebraska's geographic center, including Earth's curvature. The next sentence concludes that the USGS-determined center was inaccurate because of those omissions."
+    },
+    {
+      "title": "Rule out noncausal signals",
+      "content": "A marks a sequence of events, but the passage needs a logical consequence. B marks concession, and D marks contrast, both of which would weaken the connection between omitted factors and inaccuracy. The transition should show that the inaccuracy follows from Mercer's criticism. The answer is <strong>C</strong>."
+    }
+  ]
+}

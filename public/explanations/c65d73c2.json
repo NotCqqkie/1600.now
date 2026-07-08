@@ -1,0 +1,16 @@
+{
+  "questionId": "c65d73c2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the triangle equation",
+      "formula": "$$a^2 + b^2 = c^2$$",
+      "content": "Use the Pythagorean theorem. One leg is $39.6$, the hypotenuse is $180.4$, and the other leg is $b$.<br/>$$39.6^2+b^2=180.4^2$$"
+    },
+    {
+      "title": "Solve for the missing leg",
+      "content": "Square the known side lengths and subtract.<br/>$$1568.16+b^2=32544.16$$<br/>$$b^2=30976$$<br/>$$b=176$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

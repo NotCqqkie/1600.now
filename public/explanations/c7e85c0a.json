@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the logical relationship",
-      "content": "Sentence 1 says envelope-shaped paper bags were impractical for carrying goods. The sentence after the blank says these same bags dominated the market because they were the only ones that could be mass-produced. Being impractical would normally hurt sales, so dominating the market is the opposite of what we&apos;d expect."
+      "title": "Contrast impracticality with dominance",
+      "content": "The first sentence says envelope-shaped paper bags were impractical. The next sentence says they dominated the market because they were the only paper bags that could be mass-produced. The transition must signal this unexpected contrast."
     },
     {
-      "title": "Pick the transition that signals contrast",
-      "content": "The blank needs a transition that flags this unexpected, opposing outcome &mdash; a contrast word like &quot;However&quot;."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; However,</strong>: signals the contrast between impracticality and market dominance. &#10003;</li><li><strong>Choice B &mdash; For instance,</strong>: wrong relationship &mdash; the next sentence isn&apos;t an example of impracticality, it&apos;s the opposite outcome. &#10007;</li><li><strong>Choice C &mdash; Thus,</strong>: wrong relationship &mdash; being impractical wouldn&apos;t cause the bags to dominate the market, so cause-and-effect doesn&apos;t fit. &#10007;</li><li><strong>Choice D &mdash; In other words,</strong>: wrong relationship &mdash; market dominance is not a restatement of impracticality. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject example and result signals",
+      "content": "Choice B would introduce an example, but market dominance is not an example of impracticality. Choice C wrongly makes dominance the expected result of being impractical. Choice D wrongly treats dominance as a restatement. The answer is <strong>A</strong>."
     }
   ]
 }

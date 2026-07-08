@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify two points on the line",
-      "content": "From the graph:<ul><li>y-intercept: (0, −8)</li><li>x-intercept: (−8, 0)</li></ul>"
+      "title": "Read the intercepts",
+      "content": "The intercepts are $(0,-8)$ and $(-8,0)$."
     },
     {
-      "title": "Calculate slope and write the equation",
-      "content": "Slope: $$m = \\frac{0 - (-8)}{-8 - 0} = \\frac{8}{-8} = -1$$<br/>Using slope-intercept form with $m = -1$ and $b = -8$:<br/>$$y = -x - 8$$<br/>That is the correct answer."
+      "title": "Write the equation",
+      "content": "The slope is\n$$\n\\frac{0-(-8)}{-8-0}=-1\n$$\nso the line is $y=-x-8$. The answer is <strong>C</strong>."
     }
   ]
 }

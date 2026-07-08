@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the locational cue",
-      "content": "The previous sentence ends: readings &ldquo;are taken and sent to the International Bureau of Weights and Measures (BIPM) in France.&rdquo; The blank opens the next sentence, which says BIPM metrologists assemble those readings. The blank must connect the location just named (France / BIPM) to the action that follows there."
+      "title": "Point back to the location",
+      "content": "The previous sentence says the atomic-clock readings are sent to BIPM in France. The next sentence explains what BIPM metrologists do at that place, so the transition needs to point back to the location just named."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Test each option against the context:\n<ul><li><strong>Choice A — There,</strong>: a locational adverb meaning &ldquo;at that place&rdquo; &mdash; points directly back to BIPM in France, placing the next action at the same location just mentioned. &#10003;</li><li><strong>Choice B — In particular,</strong>: signals that what follows is a specific example or detail of the previous point. The sentence is not narrowing down an example; it is describing the next step at a new location. Violates the exemplification rule: &ldquo;In particular&rdquo; requires the second idea to be a subset of the first, not a sequel. &#10007;</li><li><strong>Choice C — For example,</strong>: also signals exemplification. The assembling of readings at BIPM is not an example of sending readings to France; it is what happens afterward. Same exemplification rule violated. &#10007;</li><li><strong>Choice D — Conversely,</strong>: signals contrast or opposition. There is no contradiction between sending readings to France and the metrologists assembling them there &mdash; both sentences describe the same cooperative process. Violates the contrast rule. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject example and contrast signals",
+      "content": "B and C would introduce examples, but assembling the readings is not an example of sending them to France. D would introduce an opposition that is not present. The context needs a locational signal. The answer is <strong>A</strong>."
     }
   ]
 }

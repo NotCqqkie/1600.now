@@ -1,0 +1,19 @@
+{
+  "questionId": "c1df3885",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Group the $x$ terms and complete the square. Half of $48$ is $24$, and $24^2=576$."
+    },
+    {
+      "title": "Rewrite in circle form",
+      "content": "Add $576$ to both sides.\n$$x^2+48x+y^2=0$$\n$$(x^2+48x+576)+y^2=576$$\n$$(x+24)^2+y^2=576$$"
+    },
+    {
+      "title": "Read the center",
+      "content": "Circle form is $(x-h)^2+(y-k)^2=r^2$. Since $(x+24)^2=(x-(-24))^2$, the center is $(-24,0)$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "49a0d146",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the passage order",
+      "content": "The text first mentions Clara Benton's 1867 journalism achievement. It then explains that this history is preserved by the National Association of Black Journalists, an organization founded to support Black media professionals and honor people like Benton."
+    },
+    {
+      "title": "Reject absent structures",
+      "content": "A mentions a theory and changing practice, neither of which appears. C invents recruitment. D invents a comparison between journalists. The structure is a specific achievement followed by an organization that preserves and honors that history. The answer is <strong>B</strong>."
+    }
+  ]
+}

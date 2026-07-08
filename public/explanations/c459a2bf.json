@@ -1,0 +1,15 @@
+{
+  "questionId": "c459a2bf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep parentheticals attached",
+      "content": "The sentence lists three data points: length, slip rate, and most recent deformation. Parenthetical measurements should attach directly to the nouns they explain, and commas should separate the series items."
+    },
+    {
+      "title": "Punctuate the data series",
+      "content": "A and B put unnecessary commas between each noun and its parenthetical measurement. D omits punctuation between the first two series items. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "dd6d1d97",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the increase",
+      "content": "A $624\\%$ increase means the final mass is the original mass plus $624\\%$ of the original mass.<br/>$$100\\%+624\\%=724\\%$$"
+    },
+    {
+      "title": "Apply the multiplier",
+      "content": "Convert $724\\%$ to the decimal multiplier $7.24$. If the original mass is $k$, the final mass is<br/>$$7.24k$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

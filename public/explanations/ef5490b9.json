@@ -1,0 +1,16 @@
+{
+  "questionId": "ef5490b9",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify input and output",
+      "content": "In an input-output pair, the first coordinate is the input. For $(8,5)$, the input is $8$.",
+      "formula": "$$\\text{If } (a, b) \\text{ is an input-output pair for } f, \\text{ then } f(a) = b$$"
+    },
+    {
+      "title": "Read the function value",
+      "content": "The second coordinate is the output, so $f(8)=5$. The answer is <strong>A</strong>."
+    }
+  ]
+}

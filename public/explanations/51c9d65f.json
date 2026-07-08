@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the ratio and identify the constraint",
-      "content": "The ratio of length to width is 45 to 12. Simplify by dividing both by 3:<br/>$$\\frac{45}{12} = \\frac{15}{4}$$<br/>So the length-to-width ratio is 15:4. When the width increases, to <strong>maintain this ratio</strong>, the changes in length and width must themselves be in the same 15:4 ratio."
+      "title": "Simplify the ratio",
+      "content": "The length-to-width ratio is $45$ to $12$. Divide both values by $3$:\n$$\n\\frac{45}{12}=\\frac{15}{4}\n$$\nSo the length changes $15$ units for every $4$ units of width change."
     },
     {
-      "title": "Apply the ratio to the change in width",
-      "content": "The width increases by 8 units. Call the length increase $\\Delta L$. For the ratio to remain 15:4, the changes must satisfy:<br/>$$\\frac{\\Delta L}{\\Delta W} = \\frac{15}{4}$$<br/>Substitute $\\Delta W = 8$:<br/>$$\\frac{\\Delta L}{8} = \\frac{15}{4}$$<br/>$$\\Delta L = 8 \\cdot \\frac{15}{4} = 30$$<br/>Since $\\Delta L = 30 \\gt  0$, the length must increase by 30 units. <strong>B</strong> is correct."
+      "title": "Scale the width increase",
+      "content": "The width increases by $8$ units, which is $2$ groups of $4$. The length must increase by $2$ groups of $15$:\n$$\n2\\cdot 15=30\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

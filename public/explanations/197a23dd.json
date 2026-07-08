@@ -1,0 +1,19 @@
+{
+  "questionId": "197a23dd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area formula",
+      "content": "The area of a triangle is half the product of its base and height. Here, the base is $8$ inches and the height is $11$ inches."
+    },
+    {
+      "title": "Substitute the dimensions",
+      "content": "Substitute $b=8$ and $h=11$ into the triangle area formula: $$A=\\frac{1}{2}bh=\\frac{1}{2}(8)(11)$$"
+    },
+    {
+      "title": "Evaluate the product",
+      "content": "Half of $8$ is $4$, so the area is $$A=4(11)=44$$ The triangle's area is $44$ square inches. The answer is <strong>B</strong>."
+    }
+  ]
+}

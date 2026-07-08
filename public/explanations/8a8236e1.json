@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the stated purpose",
-      "content": "The passage directly states that archaeologists hope to use scents “to better understand ancient rituals, trade, social hierarchies, and medicine.”"
+      "title": "Find archaeologists' purpose",
+      "content": "The text says scent is connected to routines, memories, and social events. Archaeologists hope to use recovered scents to understand ancient rituals, trade, social hierarchies, and medicine, so the interest is in what scents can reveal about past societies."
     },
     {
-      "title": "Match the explanation to the correct answer",
-      "content": "The correct answer says archaeologists “believe the scents could illuminate important aspects of ancient life” — “illuminate” (shed light on) is exactly what “better understand” means, and it aligns with the specific topics the passage names.<br/><br/>Those choices, and D each introduce things the passage never mentions or narrow the goal incorrectly.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Discard unsupported aims",
+      "content": "Choice A mentions a decline in smell, which the text does not discuss. Choice C focuses on present-day enjoyment, not archaeology. Choice D says archaeologists hope to develop new medicines, but medicine is listed as something to understand historically."
+    },
+    {
+      "title": "State the ancient-life insight",
+      "content": "The remaining choice says recovered scents could illuminate important aspects of ancient life. The answer is <strong>B</strong>."
     }
   ]
 }

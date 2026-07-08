@@ -1,0 +1,19 @@
+{
+  "questionId": "6536c90a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "When $x=0$, the value of $y$ is $80$. In an exponential model of the form $y=a(b)^x$, this means $a=80$."
+    },
+    {
+      "title": "Convert the percent increase",
+      "content": "Increasing by $15\\%$ means each new value is $115\\%$ of the previous value:\n$$\n1+0.15=1.15\n$$\nSo the growth factor is $1.15$."
+    },
+    {
+      "title": "Write the exponential model",
+      "content": "Using starting value $80$ and growth factor $1.15$, the model is\n$$\ny=80(1.15)^x\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

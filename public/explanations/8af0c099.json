@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the hypothesis predicts",
-      "content": "The researchers hypothesized that &quot;interactions indicating high levels of cognitive engagement with ad content would result in relatively high levels of ad recall.&quot; The passage tells us commenting/sharing = high engagement; clicking links or &quot;like&quot; = low engagement. A finding that directly supports this hypothesis must show that high-engagement users had better ad recall than low-engagement users &mdash; a direct comparison between the two levels."
+      "title": "Identify the hypothesis",
+      "content": "The researchers hypothesized that interactions showing higher cognitive engagement with ad content would lead to higher ad recall. Commenting and sharing are described as more cognitively demanding than clicking links or using a like button."
     },
     {
-      "title": "Eliminate each wrong choice",
-      "content": "<ul><li><strong>Choice A &mdash; Users who interacted with an ad were much more likely to do so by clicking on the ad's \"like\" button than they were to interact with the ad in any other way.</strong>: This describes how users chose to interact, not whether engagement level affected recall. It does not test the hypothesis. &#10007;</li><li><strong>Choice B &mdash; Users who interacted with an ad were significantly more likely to purchase the advertised product at the time they saw the ad than were users who saw the ad but did not interact with it.</strong>: Purchase behavior is unrelated to ad recall; this does not address the hypothesis. &#10007;</li><li><strong>Choice C &mdash; Compared with users who clicked on links in an ad, users who commented on that same ad were significantly more likely to remember seeing the ad when surveyed two days later.</strong>: Commenting (high engagement) vs. clicking links (low engagement) with commenters showing better recall directly confirms that higher cognitive engagement produces higher ad recall. &#10003;</li><li><strong>Choice D &mdash; Although users who shared an ad were highly likely to remember details from the ad when surveyed two days later, those same users tended to forget those details when surveyed again a week later.</strong>: Recall fading over time for high-engagement users weakens the hypothesis rather than supporting it. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject irrelevant findings",
+      "content": "Choice A only says which interaction is most common, not whether it improves recall. Choice B concerns purchases, not ad recall. Choice D shows users remembered details after sharing, but its later forgetting detail makes it less direct and does not compare high and lower engagement."
+    },
+    {
+      "title": "Use the direct comparison",
+      "content": "The remaining finding directly compares a high-engagement action with a lower-engagement action for the same ad and shows higher recall after commenting. The answer is <strong>C</strong>."
     }
   ]
 }

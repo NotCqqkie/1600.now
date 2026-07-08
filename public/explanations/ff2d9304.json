@@ -1,0 +1,19 @@
+{
+  "questionId": "ff2d9304",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radius",
+      "content": "The radius is the distance from $C(h,k)$ to $A(h+2,k+\\sqrt{237})$:\n$$\nr=\\sqrt{(h+2-h)^2+(k+\\sqrt{237}-k)^2}\n$$\n$$\nr=\\sqrt{2^2+(\\sqrt{237})^2}=\\sqrt{241}\n$$"
+    },
+    {
+      "title": "Use the right angle",
+      "content": "Both $CA$ and $CB$ are radii, so each has length $\\sqrt{241}$. Since the angle at $C$ is a right angle, triangle $ACB$ is a right triangle with legs $CA$ and $CB$:\n$$\nAB^2=(\\sqrt{241})^2+(\\sqrt{241})^2=482\n$$"
+    },
+    {
+      "title": "Find the length",
+      "content": "Take the positive square root because a length must be positive:\n$$\nAB=\\sqrt{482}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

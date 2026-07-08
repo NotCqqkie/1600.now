@@ -1,0 +1,15 @@
+{
+  "questionId": "86c33bcd",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim to evidence",
+      "content": "The previous sentence says the 1965 parade was one of many diplomacy-related ticker-tape parades. The next sentence gives a broad total: seventy-three such parades from 1886 to 2022."
+    },
+    {
+      "title": "Choose a summary transition",
+      "content": "A signals contrast, B signals restatement, and D signals a direct consequence. The sentence instead summarizes the larger pattern after a specific example. The answer is <strong>C</strong>."
+    }
+  ]
+}

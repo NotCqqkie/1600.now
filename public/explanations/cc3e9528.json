@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the translation to the equation",
-      "content": "When a graph is translated down 5 units, replace $y$ with $y + 5$ in the original equation:<br/>$$7x - 8(y + 5) = 19$$<br/>Expand and simplify:<br/>$$7x - 8y - 40 = 19$$<br/>$$7x - 8y = 59$$"
+      "title": "Translate the equation down",
+      "content": "Translating the graph down $5$ units means replace $y$ with $y+5$ in the original equation.<br/>$$7x-8(y+5)=19$$"
     },
     {
-      "title": "Find the x-intercept",
-      "content": "Set $y = 0$ in the equation $7x - 8y = 59$:<br/>$$7x = 59$$<br/>$$x = \\frac{59}{7}$$"
+      "title": "Simplify the translated line",
+      "content": "Expand and simplify.<br/>$$7x-8y-40=19$$<br/>$$7x-8y=59$$"
+    },
+    {
+      "title": "Find the horizontal intercept",
+      "content": "At the $x$-intercept, $y=0$.<br/>$$7x-8(0)=59$$<br/>$$x=\\frac{59}{7}$$<br/>The answer is <strong>59/7</strong>."
     }
   ]
 }

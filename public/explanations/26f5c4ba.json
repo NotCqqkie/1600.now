@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the paradox the answer must resolve",
-      "content": "Calculation Mode aims to minimize both financial cost and personal inconvenience. Yet participants using it chose the standard plan even when the green plan was cheaper. Since the financial cost argument doesn&apos;t explain the choice, something else must &mdash; the green plan&apos;s cap on usage (an inconvenience) must have tipped the balance."
+      "title": "Balance cost and inconvenience",
+      "content": "Calculation Mode aims to minimize financial cost and personal inconvenience. Participants using it still chose standard plans even when green plans were cheaper. Since lower price alone did not lead them to choose the green plan, the likely issue is the plan's cap on electricity usage, which would create inconvenience."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; were equally unlikely to factor the financial savings of the green plan into their decision-making as were participants using either the Affect or Role Modes.</strong>: Calculation Mode explicitly involves weighing financial costs; this contradicts how the mode is defined. &#10007;</li><li><strong>Choice B &mdash; may have been less strongly motivated to appear socially responsible with their choice of plan than they realized.</strong>: Social responsibility is a Role Mode concern, not a Calculation Mode concern. &#10007;</li><li><strong>Choice C &mdash; may have determined that the green plan imposed additional burdens on them that were not sufficiently offset by the potential financial savings.</strong>: Fits exactly &mdash; the cap on usage is an inconvenience burden that outweighed the financial savings in a two-factor calculation. &#10003;</li><li><strong>Choice D &mdash; were less likely to believe that the green plan was truly cost-effective than were participants using either the Affect or Role Modes.</strong>: The text does not say participants doubted the cost data; it says they still chose the pricier option despite knowing the green plan was cheaper. &#10007;</li></ul>That matches <strong>Choice C &mdash; may have determined that the green plan imposed additional burdens on them that were not sufficiently offset by the potential financial savings.</strong>."
+      "title": "Reject noncalculation claims",
+      "content": "Choice A contradicts Calculation Mode by saying savings were not factored in. Choice B shifts to social responsibility, a Role Mode concern rather than a cost-and-convenience concern. Choice D claims participants doubted cost-effectiveness, but the passage says the green option was cheaper. Choice C explains that the usage cap imposed burdens that outweighed the savings. The answer is <strong>C</strong>."
     }
   ]
 }

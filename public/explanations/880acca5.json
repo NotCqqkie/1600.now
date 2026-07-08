@@ -1,0 +1,19 @@
+{
+  "questionId": "880acca5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on format",
+      "content": "The student's goal is narrow: describe the format of the poem \"15 haiku (for Toni Morrison).\" Format means how the poem is structured. Details about the author, publication date, book theme, or Sanchez's reason for choosing haiku do not directly answer that goal."
+    },
+    {
+      "title": "Separate relevant details",
+      "content": "Choice A overextends the notes by claiming the poems in the whole book are each sequences of haiku. Choice B gives Sanchez's motivation for using haiku, not the poem's structure. Choice D gives publication context and a description of the book's themes, not the poem's format."
+    },
+    {
+      "title": "State the structure",
+      "content": "The relevant note says the poem is written as a sequence of fifteen haiku. The option that names the specific poem and describes that sequence directly uses the information needed for the student's goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

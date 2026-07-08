@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the lowest data point among the answer choices",
-      "content": "The answer choices are 2012, 2013, 2014, and 2015 — so compare only those four years on the line graph.<br/><br/>Among those four years, the data point at <strong>2014</strong> sits at the lowest position on the graph — it is the chart's overall minimum, visibly lower than the points for 2012, 2013, and 2015.<br/><br/>Therefore, 2014 has the smallest percent. <strong>C</strong> is correct."
+      "title": "Compare the listed years",
+      "content": "The answer choices are $2012$, $2013$, $2014$, and $2015$, so compare only those four points on the line graph."
+    },
+    {
+      "title": "Choose the lowest point",
+      "content": "Among those four years, the point for $2014$ is the lowest on the graph. That year has the smallest percent of cars for sale. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d8036fbe",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the dash pair",
+      "content": "The sentence opens a parenthetical interruption with an em dash after “that.” The interruption is “through community involvement and scientific study,” and then the main clause resumes with “aim to bring.”"
+    },
+    {
+      "title": "Close the interruption",
+      "content": "Choice A uses a comma, Choice C uses a colon, and Choice D leaves the opening dash unmatched. A second em dash is needed after “study” to close the parenthetical phrase. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Sum all the data values",
-      "content": "Add the five numbers: $4 + 11 + 18 + 25 + 37 = 95$"
+      "title": "Add the data values",
+      "content": "Add the five numbers in the data set.<br/>$$4+11+18+25+37=95$$"
     },
     {
-      "title": "Apply the mean formula",
-      "content": "The mean is the sum divided by how many values there are. With 5 data points: $$\\text{mean} = \\frac{95}{5} = 19$$ That matches <strong>Choice B &mdash; $19$</strong>.",
+      "title": "Divide by the count",
+      "content": "There are $5$ values, so divide the sum by $5$.<br/>$$\\frac{95}{5}=19$$<br/>The answer is <strong>B</strong>.",
       "formula": "$$\\text{mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$"
     }
   ]

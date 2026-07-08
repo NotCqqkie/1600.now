@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the geographic assumption reveals",
-      "content": "The fact that paleontologists assumed <strong>titanosaurs migrated south to lay eggs</strong> only makes sense if previously known sites existed in the south, not the north. The passage explicitly states there was a <strong>previous lack of known nesting sites in northern regions</strong>."
+      "title": "Use the northern-site clue",
+      "content": "The finding matters because there had been a lack of known nesting sites in northern South America. That gap led paleontologists to assume titanosaurs migrated south to lay eggs."
     },
     {
-      "title": "Connect the location to the known geography",
-      "content": "<strong>D</strong> directly applies the geographic logic: with no known sites in the north and scientists assuming southward migration, the northern site must be farther north than any other known site in South America.<br/><br/>The other three either assert temporal primacy, invent excavation complexity, or discuss organisms absent from the text.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Avoid unsupported inferences",
+      "content": "A claims it is the earliest known site, which the text does not say. B invents excavation difficulty. C adds other sauropods, but the evidence is specifically about titanosaurs. The answer is <strong>D</strong>."
     }
   ]
 }

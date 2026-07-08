@@ -1,0 +1,19 @@
+{
+  "questionId": "63619f18",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both functions",
+      "content": "First expand each function separately: $$f(x)=(3x-4)(x+7)=3x^2+21x-4x-28=3x^2+17x-28$$ $$g(x)=2(9x-8)=18x-16$$"
+    },
+    {
+      "title": "Subtract the second function",
+      "content": "Now compute $f(x)-g(x)$. The parentheses around $g(x)$ matter because subtracting $g(x)$ changes the signs of both terms in $18x-16$: $$f(x)-g(x)=(3x^2+17x-28)-(18x-16)$$ $$=3x^2+17x-28-18x+16$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Combine the $x$-terms and the constant terms: $$3x^2+17x-18x-28+16=3x^2-x-12$$ This simplified expression matches choice B. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the formula for mean of combined data",
-      "content": "The mean of data set C is:<br/>$$\\text{Mean of C} = \\frac{\\text{Sum of A + Sum of B}}{120}$$<br/>To find the sums, use Sum = Mean × Count:<ul><li>Data set A: $72 \\times 30 = 2160$ meters</li><li>Data set B: $48 \\times 70 = 3360$ meters</li><li>Total sum: $2160 + 3360 = 5520$ meters</li></ul>"
+      "title": "Find each total height",
+      "content": "Multiply each mean by the number of objects in that data set.\n$$72\\cdot30=2{,}160$$\n$$48\\cdot70=3{,}360$$"
     },
     {
-      "title": "Divide to find the mean",
-      "content": "$$\\text{Mean of C} = \\frac{5520}{120} = 46 \\text{ meters}$$"
+      "title": "Divide the combined total",
+      "content": "Add the two totals and divide by the combined number of objects.\n$$\\frac{2{,}160+3{,}360}{120}=\\frac{5{,}520}{120}=46$$\nThe answer is <strong>46</strong>."
     }
   ]
 }

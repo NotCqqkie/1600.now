@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Read the boundary line",
-      "content": "From the graph the boundary has slope $4$ and y-intercept $3$, so the line is $y=4x+3$."
+      "content": "The boundary line has y-intercept $6$ and slope $-4$, so its equation is<br/>$$y=-4x+6$$"
     },
     {
-      "title": "Determine the inequality direction",
-      "content": "The shaded region lies <em>above</em> the boundary (and the line is dashed, so the inequality is strict), giving $y\\gt 4x+3$.<br/><br/>That matches <strong>Choice A &mdash; $y\\gt 4x+3$</strong>."
+      "title": "Use the shaded side",
+      "content": "The shaded region is below the boundary line, so the inequality uses $<$. The boundary is not included, so the inequality is strict."
+    },
+    {
+      "title": "Match the inequality",
+      "content": "The inequality is $y<-4x+6$, which matches choice A. The answer is <strong>A</strong>."
     }
   ]
 }

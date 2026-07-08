@@ -1,0 +1,16 @@
+{
+  "questionId": "bbcd775d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read favorable outcomes",
+      "content": "The table shows $9$ people chose vegetarian entrees out of $50$ total people."
+    },
+    {
+      "title": "Write the probability",
+      "content": "Probability is favorable outcomes divided by total outcomes:<br/>$$P=\\frac{9}{50}$$<br/>The answer is <strong>B</strong>.",
+      "formula": "$$P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$$"
+    }
+  ]
+}

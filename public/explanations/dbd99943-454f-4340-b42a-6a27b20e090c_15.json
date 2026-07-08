@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent",
-      "content": "The blank is a possessive modifying \"compelling narrative.\" The thing that owns the narrative is <strong>The Poem of the Cid</strong> — a single poem (singular). So we need a singular possessive pronoun, not a plural one and not a contraction."
+      "title": "Identify the needed pronoun",
+      "content": "The sentence refers to the epic poem <em>The Poem of the Cid</em> and then describes the poem’s compelling narrative. The blank needs a singular possessive pronoun meaning “belonging to it.”"
     },
     {
-      "title": "Apply the rule",
-      "content": "Identify the grammar issue: pronoun-antecedent agreement. The antecedent is \"The Poem of the Cid\" — singular. Rule: a possessive pronoun must match its antecedent in number, and a possessive (not a contraction) is needed before a noun.\n<ul>\n<li><strong>\"they're\"</strong>: Contraction of \"they are\" — not a possessive and plural. Both errors. ✗</li>\n<li><strong>\"its\"</strong>: Singular possessive pronoun. Correctly matches the singular antecedent \"The Poem of the Cid.\" ✓</li>\n<li><strong>\"their\"</strong>: Plural possessive — wrong number for a single poem. ✗</li>\n<li><strong>\"it's\"</strong>: Contraction of \"it is\" — not a possessive; reads as \"it is compelling narrative,\" which is ungrammatical. ✗</li>\n</ul>\nThat matches the correct answer — <strong>B</strong> is correct."
+      "title": "Eliminate pronoun errors",
+      "content": "Choice A, “they’re,” means “they are,” not possessive. Choice C, “their,” is plural possessive and does not match the singular poem. Choice D, “it’s,” means “it is,” not possessive. The singular possessive pronoun fits. The answer is <strong>B</strong>."
     }
   ]
 }

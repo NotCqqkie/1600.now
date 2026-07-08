@@ -1,0 +1,19 @@
+{
+  "questionId": "52dca826",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the added plant",
+      "content": "Maya's $78$ plant masses are all between $3.1$ kg and $7.4$ kg. The additional plant Omar examined has mass $12.6$ kg, which is greater than every plant in Maya's set."
+    },
+    {
+      "title": "Use the mean rule",
+      "content": "Adding a value greater than the current mean increases the mean. Since $12.6$ is greater than every original value, it is also greater than Maya's mean."
+    },
+    {
+      "title": "Identify what must be true",
+      "content": "Omar's mean must be greater than Maya's mean. The answer is <strong>D</strong>."
+    }
+  ]
+}

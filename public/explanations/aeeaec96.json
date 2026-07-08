@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the unit conversion",
-      "content": "We want yards, and we know 1 yard = 36 inches. To convert inches to yards, divide by 36: $$\\frac{756}{36}$$"
+      "title": "Set up the conversion",
+      "content": "Since $1$ yard equals $36$ inches, convert inches to yards by dividing by $36$."
     },
     {
-      "title": "Perform the division",
-      "content": "$$\\frac{756}{36} = 21$$"
-    },
-    {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li>A: 0.048 &mdash; This comes from dividing 36 &div; 756, inverting the conversion. Eliminated.</li><li>B: 21 &mdash; Dividing 756 by 36 gives 21. That is the correct answer.</li><li>C: 720 &mdash; This is 756 &minus; 36, which is subtraction rather than conversion. Eliminated.</li><li>D: 27,216 &mdash; This is 756 &times; 36, multiplying instead of dividing. Eliminated.</li></ul>"
+      "title": "Divide by inches per yard",
+      "content": "For $756$ inches,<br/>$$\\frac{756}{36}=21$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

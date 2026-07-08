@@ -1,0 +1,15 @@
+{
+  "questionId": "9f67eb42",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the interrupting phrase",
+      "content": "The phrase ratified in 1804 interrupts the main sentence between the subject, the 12th amendment, and the verb, separated. The opening comma before ratified needs a matching comma after the year."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "Choice B uses an em dash to close a phrase opened by a comma. Choice C leaves the interrupting phrase unclosed. Choice D uses a colon, which introduces information rather than closing an interrupter. The comma after the year completes the punctuation pair. The answer is <strong>A</strong>."
+    }
+  ]
+}

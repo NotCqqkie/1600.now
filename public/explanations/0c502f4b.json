@@ -1,0 +1,15 @@
+{
+  "questionId": "0c502f4b",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the doubling exponent",
+      "content": "The model is<br/>$$f(t)=72{,}000(2)^{\\frac{t}{830}}$$<br/>A population doubles when the exponent of $2$ increases by $1$."
+    },
+    {
+      "title": "Find the doubling time",
+      "content": "Increasing $t$ by $830$ increases the exponent by $1$.<br/>$$\\frac{t+830}{830}=\\frac{t}{830}+1$$<br/>So the doubling time is $830$ minutes. The answer is <strong>B</strong>."
+    }
+  ]
+}

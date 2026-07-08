@@ -1,0 +1,15 @@
+{
+  "questionId": "51a04e05",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect alloy to use",
+      "content": "Ferritic stainless steel is used for cooking utensils and has the high iron concentration responsible for magnetic properties. Mining and chemical equipment use 300-series austenitic stainless steel, which is defined by its nickel-derived crystalline structure."
+    },
+    {
+      "title": "Eliminate unsupported traits",
+      "content": "Choice B makes an unsupported chromium claim about washing machines. Choice C gives cooking utensils the austenitic crystalline structure. Choice D wrongly links compensators with the ferritic structure used for cooking utensils. The remaining inference follows from the alloy descriptions. The answer is <strong>A</strong>."
+    }
+  ]
+}

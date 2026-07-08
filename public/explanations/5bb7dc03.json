@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the task requires",
-      "content": "The student wants to <strong>emphasize a difference in the origins</strong> of the two words. This means the correct choice must name both words' origins explicitly and contrast them."
+      "title": "Focus on the task",
+      "content": "The student wants to emphasize a difference in the origins of two spelling bee words. The response must name both words and make their different linguistic sources clear."
     },
     {
-      "title": "Eliminate wrong choices, confirm the right one",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;\"Guerdon,\" the final word of the 2008 Scripps National Spelling Bee, is of Anglo-French origin, while the following year's final word, \"Laodicean,\" derives from ancient Greek.&rsquo;</strong>: Names Anglo-French origin for &quot;guerdon&quot; and ancient Greek for &quot;Laodicean,&quot; using &quot;while&quot; to signal the contrast &mdash; hits both requirements. &#10003;</li><li><strong>Choice B &mdash; &lsquo;In 2008, Rohan Mehta won the Scripps National Spelling Bee by correctly spelling the word \"guerdon\"; however, the following year, Anika Raman won based on spelling the word \"Laodicean.\"&rsquo;</strong>: Compares the two winners but never mentions either word&rsquo;s linguistic origin. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Anika Raman won the 2009 Scripps National Spelling Bee by correctly spelling \"Laodicean,\" which derives from the ancient Greek word \"Laodíkeia.\"&rsquo;</strong>: Gives the origin of only one word; omits &quot;guerdon&quot; entirely, so no contrast is possible. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The Scripps National Spelling Bee uses words from diverse linguistic origins, such as \"guerdon\" and \"Laodicean.\"&rsquo;</strong>: Mentions both words but treats them as generic examples of diversity &mdash; it never specifies what each word&rsquo;s origin is. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Compare the choices",
+      "content": "Choice B compares the two winners but never mentions where either word comes from. Choice C gives only the origin of \"Laodicean,\" so it cannot contrast two origins. Choice D says the spelling bee uses words from diverse origins, but it stays general and does not identify the source of each word. Choice A names \"guerdon\" as Anglo-French and \"Laodicean\" as ancient Greek, using \"while\" to show the contrast. The answer is <strong>A</strong>."
     }
   ]
 }

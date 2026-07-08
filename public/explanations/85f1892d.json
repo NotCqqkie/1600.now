@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Label the side pair for angle Z",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Relate tangent to the missing leg",
+      "content": "Angle $Y$ is a right angle, so $XY$ and $YZ$ are the legs. Relative to angle $Z$, side $XY$ is opposite and side $YZ$ is adjacent. Since $YZ=28$, use tangent:\n$$\\tan 37^\\circ=\\frac{XY}{28}$$\n$$XY=28\\tan 37^\\circ$$"
     },
     {
-      "title": "Identify the right triangle structure and legs",
-      "content": "Triangle XYZ has a right angle at Y, so XY and YZ are the two legs. We know YZ = 28 units. The area of a right triangle is $\\frac{1}{2} \\times \\text{leg}_1 \\times \\text{leg}_2$, so we need to find XY to calculate the area."
-    },
-    {
-      "title": "Express the unknown leg using tangent at angle Z",
-      "content": "At angle Z (37°), the opposite side is XY and the adjacent side is YZ = 28. By the tangent ratio:<br/>$$\\tan(37^{\\circ}) = \\frac{XY}{28}$$<br/>Solving for XY:<br/>$$XY = 28\\tan(37^{\\circ})$$"
-    },
-    {
-      "title": "Calculate area and solve for k",
-      "content": "Now substitute both legs into the area formula:<br/>$$\\text{Area} = \\frac{1}{2} \\times YZ \\times XY = \\frac{1}{2} \\times 28 \\times 28\\tan(37^{\\circ})$$<br/>$$= \\frac{1}{2} \\times 784 \\times \\tan(37^{\\circ}) = 392\\tan(37^{\\circ})$$<br/>Comparing to the form $k\\tan(37^{\\circ})$, we have $k = 392$."
+      "title": "Write the area expression",
+      "content": "The area of a right triangle is one-half the product of its legs. Substitute $YZ=28$ and the expression for $XY$:\n$$\\frac{1}{2}(28)(28\\tan 37^\\circ)=392\\tan 37^\\circ$$\nThe coefficient of $\\tan 37^\\circ$ is the value of $k$. The answer is <strong>392</strong>."
     }
   ]
 }

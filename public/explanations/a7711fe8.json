@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f(x) = (x-2)^2 - 4$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-4$.",
+      "title": "Read the vertex form",
+      "content": "The function is written as $f(x)=(x-2)^2-4$. Since the squared term is never negative, the smallest value happens when the squared term equals $0$."
+    },
+    {
+      "title": "Find the minimum value",
+      "content": "Set the squared part to $0$.<br/>$$(x-2)^2=0$$<br/>$$f(x)=0-4=-4$$<br/>The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "f(x) = (x-2)^2 - 4"
       ]
-    },
-    {
-      "title": "Recognize vertex form",
-      "content": "The function $f(x) = (x-2)^2 - 4$ is in vertex form. Here, $a = 1 \\gt 0$ (opening upward), $h = 2$, and $k = -4$. An upward-opening parabola reaches its minimum at the vertex."
-    },
-    {
-      "title": "Extract the minimum value",
-      "content": "The vertex is at $(h, k) = (2, -4)$, so the minimum value is $-4$. That is the correct answer."
     }
   ]
 }

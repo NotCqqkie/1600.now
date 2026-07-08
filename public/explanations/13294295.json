@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read two useful points",
-      "content": "The graph shows candy bars wrapped after $x$ seconds. Use two clear points on the line: $(0,0)$ and $(2,80)$. That means the machine wraps $80$ candy bars in $2$ seconds."
+      "title": "Read two graph points",
+      "content": "Use two clear points from the line, $(0,0)$ and $(2,80)$. This means the machine wraps $80$ candy bars in $2$ seconds."
     },
     {
-      "title": "Convert to a per-second rate",
-      "content": "The rate is the slope of the line: $$\\frac{80-0}{2-0}=\\frac{80}{2}=40.$$ So the machine wraps $40$ candy bars per second."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice B &mdash; $40$</strong> is $40$, so <strong>Choice B &mdash; $40$</strong>."
+      "title": "Find the unit rate",
+      "content": "The number wrapped per second is the slope.<br/>$$\\frac{80-0}{2-0}=\\frac{80}{2}=40$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use the four triangles",
+      "content": "The diagonals divide the square into $4$ congruent right triangles. From the graph, each of those triangles has base $5$ and height $5$."
     },
     {
-      "title": "Identify the vertices and diagonal structure",
-      "content": "The figure shows a square with vertices at C(0, 5), D(5, 0), A(0, −5), and B(−5, 0).<br/><br/>Since the diagonals lie on the coordinate axes, they are perpendicular and bisect each other at the origin.<br/><br/>The diagonals divide the square into 4 congruent right triangles, each with legs extending 5 units from the center to a vertex on the nearest axis."
-    },
-    {
-      "title": "Calculate the area using triangle decomposition",
-      "content": "Each right triangle has legs of length 5 and 5, so its area is:<br/>$$\\text{Area of one triangle} = \\frac{1}{2} \\times 5 \\times 5 = 12.5 \\text{ square units}$$<br/>The total area of the square is the sum of all 4 triangles:<br/>$$\\text{Total area} = 4 \\times 12.5 = 50 \\text{ square units}$$<br/>That is the correct answer."
+      "title": "Find the square area",
+      "content": "Find the area of one triangle first, then multiply by $4$ because the four congruent triangles make the full square:\n$$\n\\frac{1}{2}(5)(5)=12.5\n$$\n$$\n4(12.5)=50\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

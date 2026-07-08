@@ -1,0 +1,19 @@
+{
+  "questionId": "ca4b19dd",
+  "correctAnswer": "114",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve for x",
+      "content": "The angles of triangle $RST$ sum to $180^\\circ$:<br/>$$42+x+(5x-6)=180$$<br/>$$6x+36=180$$<br/>$$x=24$$"
+    },
+    {
+      "title": "Find angle T",
+      "content": "Substitute $x=24$ into the expression for angle $T$:<br/>$$5(24)-6=114$$"
+    },
+    {
+      "title": "Use parallel lines",
+      "content": "Because side $LK$ is parallel to side $RT$, angle $SKL$ corresponds to angle $T$, so it has the same measure. The answer is <strong>114</strong>."
+    }
+  ]
+}

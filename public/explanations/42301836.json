@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the relationship between the two sentences",
-      "content": "Sentence one says Miyake discovered the carbon-14 spike. Sentence two says the event was named a &quot;Miyake event&quot; in honor of its discoverer. Naming a discovery after the person who found it is an appropriate, expected outcome of the first sentence."
+      "title": "Connect discovery to naming",
+      "content": "The first sentence says Fusa Miyake identified the carbon-14 spike. The second says the radiocarbon surge was named a <em>Miyake event</em> in honor of its discoverer. The naming is appropriate because it recognizes her discovery."
     },
     {
-      "title": "Pick the transition that signals 'appropriately so'",
-      "content": "A transition that marks the naming as a fitting consequence of the discovery is needed."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A — Fittingly,</strong>: marks the naming as an appropriate result of Miyake's discovery. &#10003;</li><li><strong>Choice B — Similarly,</strong>: there is no prior parallel item being compared, so nothing to be similar to. &#10007;</li><li><strong>Choice C — However,</strong>: signals contrast, but the second sentence agrees with and rewards the first. &#10007;</li><li><strong>Choice D — In other words,</strong>: signals restatement, but naming the event is new information, not a rephrasing of the discovery. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Choose the appropriate signal",
+      "content": "Choice B would compare similar things, Choice C would contrast the sentences, and Choice D would restate the first sentence. The needed transition shows that the naming was fitting or appropriate. The answer is <strong>A</strong>."
     }
   ]
 }

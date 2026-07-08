@@ -1,0 +1,19 @@
+{
+  "questionId": "f8e8609e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth multiplier",
+      "content": "Increasing $x$ by $1$ changes the function from $f(x)$ to $f(x+1)$:<br/>$$f(x+1)=18b^{x+1}=b(18b^x)=bf(x)$$"
+    },
+    {
+      "title": "Connect multiplier to percent",
+      "content": "An increase of $e\\%$ gives multiplier<br/>$$1+\\frac{e}{100}$$<br/>Since the multiplier is $b$, set<br/>$$1+\\frac{e}{100}=b$$"
+    },
+    {
+      "title": "Solve for the percent increase",
+      "content": "Subtract $1$ and multiply by $100$:<br/>$$\\frac{e}{100}=b-1$$<br/>$$e=100(b-1)$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

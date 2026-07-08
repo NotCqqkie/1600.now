@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Pin down the stated goal",
-      "content": "The student wants to emphasize how far the infantrymen traveled. The only note that quantifies distance is the 1,900-mile figure."
+      "title": "Emphasize distance traveled",
+      "content": "The student's goal is to emphasize how far the infantrymen traveled. The relevant note is the distance of the 1897 bicycle journey: they rode from Montana to Missouri, a total of 1,900 miles."
     },
     {
-      "title": "Look for the choice that foregrounds the distance",
-      "content": "The correct sentence must include that 1,900-mile detail and put it in a position of emphasis."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; The US infantrymen rode their bicycles from Montana to Missouri—traveling a total of 1,900 miles.</strong>: states the distance and highlights it after the em dash. &#10003;</li><li><strong>Choice B &mdash; The 125th anniversary of the infantrymen's journey was in 2022.</strong>: misses the goal &mdash; emphasizes timing, not distance. &#10007;</li><li><strong>Choice C &mdash; The goal of the 1897 journey was to test the idea of forming a military bicycle corps.</strong>: misses the goal &mdash; emphasizes purpose, not distance. &#10007;</li><li><strong>Choice D &mdash; Over a century later, Damon Brooks honored the infantrymen by reenacting their 1897 journey.</strong>: misses the goal &mdash; emphasizes the reenactment, not how far the infantrymen traveled. &#10007;</li></ul>That matches <strong>Choice A &mdash; The US infantrymen rode their bicycles from Montana to Missouri—traveling a total of 1,900 miles.</strong>."
+      "title": "Reject date and purpose details",
+      "content": "Choice B focuses on the journey's 125th anniversary in 2022. Choice C focuses on the military purpose of the journey. Choice D focuses on Damon Brooks's later reenactment. None of those choices foregrounds the distance traveled by the infantrymen. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the slope",
-      "content": "From the table, when $s$ increases from $3$ to $6$, $P$ increases from $8$ to $18$. The slope is $\\frac{18-8}{6-3}=\\frac{10}{3}$."
+      "title": "Find the rate of change",
+      "content": "Use two table rows. When $s$ increases from $3$ to $6$, $P$ increases from $8$ to $18$:\n$$\nm=\\frac{18-8}{6-3}=\\frac{10}{3}\n$$"
     },
     {
-      "title": "Find the intercept",
-      "content": "Use $P=\\frac{10}{3}s+b$ and the point $(3,8)$: $8=\\frac{10}{3}(3)+b=10+b$, so $b=-2$."
+      "title": "Find the constant term",
+      "content": "Use the point $(3,8)$ in $P=\\frac{10}{3}s+b$:\n$$\n8=\\frac{10}{3}(3)+b=10+b\n$$\n$$\nb=-2\n$$"
     },
     {
-      "title": "Match the equation",
-      "content": "The relationship is $P=\\frac{10}{3}s-2$, which matches the correct answer, <strong>C</strong>."
+      "title": "Match the linear model",
+      "content": "The relationship is\n$$\nP=\\frac{10}{3}s-2\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

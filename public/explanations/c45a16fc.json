@@ -1,0 +1,19 @@
+{
+  "questionId": "c45a16fc",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the dash pair",
+      "content": "The sentence opens a parenthetical with an em dash after <em>Mirounga angustirostris</em>. That interruption must close before the main clause, \"a 2021 study found,\" can continue."
+    },
+    {
+      "title": "Eliminate broken punctuation",
+      "content": "Choice A uses a comma where the closing dash is needed. Choice C turns the opening phrase into a fragment. Choice D adds another dash before the parenthetical has been closed, leaving the structure confused."
+    },
+    {
+      "title": "Close the interruption",
+      "content": "The phrase northern elephant seals, as they're more commonly known—a closes the parenthetical with a second em dash and lets the main clause resume cleanly. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "9392c07f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect visibility to predation",
+      "content": "The passage gives a cause-and-effect chain. Common ravens eat finch eggs, and the new road creates open space near some nests. Nests close to the road are easier for ravens to spot than nests deeper in the woodland, where surrounding trees provide cover. Because visibility affects predation risk, the researchers would predict a difference in egg loss based on nest location."
+    },
+    {
+      "title": "Reject unsupported predictions",
+      "content": "Choice C follows directly from the evidence: nests near the road should lose eggs to ravens at a higher rate than nests farther inside the woodland. Choice A predicts no change in the percentage of finch eggs in ravens' diets, which is not supported. Choice B claims finches will adapt by nesting near the road more often. Choice D shifts from predation to how many eggs finches lay. The answer is <strong>C</strong>."
+    }
+  ]
+}

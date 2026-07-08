@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the interior angle at the $130^{\\circ}$ vertex",
-      "content": "The angle marked $130^{\\circ}$ is an exterior angle of the triangle formed by the two transversals and the parallel lines. The interior angle at that vertex is the supplement: $$180^{\\circ} - 130^{\\circ} = 50^{\\circ}$$"
+      "title": "Find the supplement",
+      "content": "The angle marked $130^\\circ$ is exterior to the triangle formed by the two transversals and the parallel lines. The adjacent interior angle is\n$$\n180^\\circ-130^\\circ=50^\\circ\n$$"
     },
     {
-      "title": "Identify the angle between the two transversals at line m using co-interior angles",
-      "content": "When transversal j crosses parallel lines m and n, the co-interior angles sum to $180^{\\circ}$.<br/><br/>The angle at line n (interior to the triangle) is $50^{\\circ}$, so the angle j makes with line m is also $50^{\\circ}$ by alternate interior angles.<br/><br/>Similarly, transversal k makes an angle $b^{\\circ}$ with line n. Since these transversals meet at line m, the interior angle of the triangle at their intersection is the sum of both angles: $$(50^{\\circ} + b^{\\circ})$$"
+      "title": "Use the exterior angle",
+      "content": "By the parallel-line angle relationships, one remote interior angle is $50^\\circ+b^\\circ$ and the other is $b^\\circ$. The exterior angle equals the sum of those remote interior angles:\n$$\n130^\\circ=(50^\\circ+b^\\circ)+b^\\circ\n$$"
     },
     {
-      "title": "Apply the triangle angle sum to solve for b",
-      "content": "The three interior angles of the triangle must sum to $180^{\\circ}$:<br/>$$50^{\\circ} + b^{\\circ} + (50^{\\circ} + b^{\\circ}) = 180^{\\circ}$$<br/>$$100^{\\circ} + 2b^{\\circ} = 180^{\\circ}$$<br/>$$2b^{\\circ} = 80^{\\circ}$$<br/>$$b^{\\circ} = 40^{\\circ}$$<br/>We can verify this using the exterior angle theorem: the exterior angle ($130^{\\circ}$) equals the sum of the two non-adjacent interior angles: $130^{\\circ} = (50^{\\circ} + b^{\\circ}) + b^{\\circ} = 50^{\\circ} + 2(40^{\\circ}) = 130^{\\circ}$ ✓<br/><br/><strong>A</strong> is correct."
+      "title": "Solve for the angle",
+      "content": "Solve the equation:\n$$\n130^\\circ=50^\\circ+2b^\\circ\n$$\n$$\n80^\\circ=2b^\\circ\n$$\n$$\n40^\\circ=b^\\circ\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

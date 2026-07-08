@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structure",
-      "content": "The first clause has a plural subject “These minuscule animals.” The blank must serve as the subject pronoun of the second independent clause following “and.”"
+      "title": "Match pronoun to antecedent",
+      "content": "The pronoun in the second clause refers back to \"These minuscule animals,\" meaning tardigrades. Because the antecedent is plural, the blank needs a plural subject pronoun."
     },
     {
-      "title": "Apply pronoun-antecedent agreement",
-      "content": "“They” is plural and matches the plural antecedent, as required by pronoun-antecedent agreement. The other choices are singular (<em>it, he</em>) or non-standard (<em>that</em>). That confirms <strong>C</strong> is correct."
+      "title": "Reject singular pronouns",
+      "content": "A, B, and D are singular or otherwise do not agree with the plural antecedent \"animals.\" The pronoun must refer to the group of tardigrades. The answer is <strong>C</strong>."
     }
   ]
 }

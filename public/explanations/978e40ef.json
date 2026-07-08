@@ -1,0 +1,19 @@
+{
+  "questionId": "978e40ef",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the percent statement",
+      "content": "The statement says $x$ is $37\\%$ of $y$. Since $37\\%=\\frac{37}{100}$, the relationship is $$x=\\frac{37}{100}y$$"
+    },
+    {
+      "title": "Solve for the larger value",
+      "content": "The question asks for $y$ in terms of $x$, so isolate $y$. Multiply both sides by $\\frac{100}{37}$: $$\\frac{100}{37}x=y$$ Equivalently, $$y=\\frac{100}{37}x$$"
+    },
+    {
+      "title": "Select the matching expression",
+      "content": "Choice B is too small by a factor of $10$, choice C omits the factor of $100$, and choice D uses the complement $63\\%$ instead of undoing the $37\\%$ relationship. Choice A matches $y=\\frac{100}{37}x$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "8232c861",
+  "correctAnswer": "13",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the perpendicular slope",
+      "content": "Rewrite the equation of line $s$ in slope-intercept form.<br/>$$10x+2y=0$$<br/>$$2y=-10x$$<br/>$$y=-5x$$<br/>Line $s$ has slope $-5$, so line $t$ has slope $\\frac{1}{5}$."
+    },
+    {
+      "title": "Use the point on line t",
+      "content": "Line $t$ passes through $(7,0)$, so its equation is<br/>$$y=\\frac{1}{5}(x-7)$$<br/>Substitute the point $(k,\\frac{6}{5})$.<br/>$$\\frac{6}{5}=\\frac{1}{5}(k-7)$$<br/>$$6=k-7$$<br/>$$k=13$$<br/>The answer is <strong>13</strong>."
+    }
+  ]
+}

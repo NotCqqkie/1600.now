@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find what the passage argues about disco",
-      "content": "The passage says disco is &quot;far less superficial than many people believe&quot; and uses the parenthetical &quot;subjects hardly unique to disco, by the way&quot; to signal that dismissing disco for love songs is unfair &mdash; those subjects are not specific to disco. Gloria Gaynor's music also addressed community and identity, showing the genre has real substance.<br/><br/>With that in mind, ask: which choice matches the idea that disco has been wrongly dismissed based on subject matter that is not unique to disco?<ul><li><strong>Choice A &mdash; 'It has been unjustly ignored by most scholars despite the importance of the themes addressed by many of the genre's songs.'</strong>: scholars actively engaged with disco, arguing it is not superficial. &#10007;</li><li><strong>Choice B &mdash; 'It evolved over time from a superficial genre focused on romance to a genre focused on more serious concerns.'</strong>: the text says serious themes are present in the genre, not that the genre changed. &#10007;</li><li><strong>Choice C &mdash; 'It has been unfairly dismissed for the inclusion of subject matter that is also found in other musical genres.'</strong>: the parenthetical directly says love songs are &quot;hardly unique to disco&quot; &mdash; dismissing disco for them is unfair. &#10003;</li><li><strong>Choice D &mdash; 'It gave rise to a Black women's musical tradition that has endured even though the genre itself faded in the late twentieth century.'</strong>: the text says Black women singers preceded disco, not that disco launched a new tradition. &#10007;</li></ul>"
+      "title": "Identify the unfair dismissal",
+      "content": "The passage argues that disco is far less superficial than many people believe. It uses Gloria Gaynor to show that disco can include concerns about community and identity, not only love and heartbreak. It also stresses that love and heartbreak are hardly unique to disco, so ridiculing disco for that subject matter is unfair."
     },
     {
-      "title": "Confirm and close",
-      "content": "The correct answer is the only one supported by the text: disco was ridiculed for themes that are not unique to disco, making the dismissal unfair.<br/><br/>That is the correct answer."
+      "title": "Reject unsupported histories",
+      "content": "Choice A says scholars ignored disco, but the passage cites scholars defending it. Choice B invents a shift from superficial songs to serious songs over time. Choice D reverses the history by saying disco created a Black women's musical tradition. Choice C fits the claim that disco was dismissed for subject matter found in other genres too. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "cbd6cac4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the setting effect",
+      "content": "The passage says lab studies allow researchers to control variables, but white-throated sparrows' surroundings can significantly affect their hormone levels. Therefore, a predictable finding would involve a hormone difference between captive sparrows and wild sparrows."
+    },
+    {
+      "title": "Eliminate irrelevant findings",
+      "content": "Choice A compares wild male sparrows with captive male degus, but the setup concerns white-throated sparrows and how their surroundings affect hormones. Choice C describes differences between individuals within captive and wild groups, not a difference caused by captive versus wild settings."
+    },
+    {
+      "title": "Choose the setting difference",
+      "content": "Choice B says captive and wild sparrows usually have very similar hormone levels, which conflicts with the claim that surroundings significantly affect hormone levels. Choice D gives a concrete captive-versus-wild hormone difference: captive sparrows have higher baseline corticosterone than wild sparrows. The answer is <strong>D</strong>."
+    }
+  ]
+}

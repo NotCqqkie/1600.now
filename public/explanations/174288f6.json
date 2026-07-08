@@ -1,0 +1,15 @@
+{
+  "questionId": "174288f6",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject of the sentence is <em>analysis</em>, which is singular. The names James Melton and Tom Ginsburg appear in a possessive phrase modifying <em>analysis</em>, so they do not make the subject plural."
+    },
+    {
+      "title": "Match singular agreement",
+      "content": "A, C, and D all use plural verb forms that do not agree with the singular subject <em>analysis</em>. The sentence needs a singular present-tense verb. The answer is <strong>B</strong>."
+    }
+  ]
+}

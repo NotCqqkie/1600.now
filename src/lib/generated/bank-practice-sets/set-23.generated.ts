@@ -23,11 +23,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 1,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_1",
+            "stableId": "bank-past-reading-73ebe44f",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_1",
+            "sourceId": "73ebe44f",
             "questionNumber": 1,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nIn some of his sculptures, Allan Houser uses abstract geometric shapes to depict his subjects rather than portraying them in realistic detail. For instance, his 1989 work *Embrace* is highly abstract and therefore differs strikingly from some of his other pieces in which the viewer can easily ______ familiar objects.",
@@ -71,16 +71,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_1"
+          "originalSourceId": "73ebe44f"
         },
         {
           "slot": 2,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2",
+            "stableId": "bank-past-reading-c7337883",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2",
+            "sourceId": "c7337883",
             "questionNumber": 2,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nDuring film's early years, those who worked in the industry had a vested interest in convincing the public to embrace the new medium. As Sumiko Higashi argues, some filmmakers relied on film critics to influence the public's ______ the world of cinema. Critics who drew similarities between film and traditional art forms, like drama, could help legitimize film as an art form.",
@@ -124,16 +124,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_2"
+          "originalSourceId": "c7337883"
         },
         {
           "slot": 3,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3",
+            "stableId": "bank-past-reading-779e010b",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3",
+            "sourceId": "779e010b",
             "questionNumber": 3,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nThe dinosaur displays at museums such as the Field Museum of Natural History in Chicago (which has a mounted *Apatosaurus* skeleton among its holdings) are notable for the ______ of the research behind them--the museum staff consulted numerous sources to ensure the accuracy of the displays.",
@@ -177,16 +177,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_3"
+          "originalSourceId": "779e010b"
         },
         {
           "slot": 4,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_4",
+            "stableId": "bank-past-reading-f0dca8e6",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_4",
+            "sourceId": "f0dca8e6",
             "questionNumber": 4,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nThe presence of Belarus's Mir Castle Complex on the United Nations Educational, Scientific, and Cultural Organization's World Heritage List indicates that the organization has ______ the site's \"outstanding universal value,\" and that UNESCO is therefore championing its preservation and protection.",
@@ -230,16 +230,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_4"
+          "originalSourceId": "f0dca8e6"
         },
         {
           "slot": 5,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_5",
+            "stableId": "bank-past-reading-04119199",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_5",
+            "sourceId": "04119199",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nToday's theater stages are frequently filled with props and scenery to immerse the audience in a play's world. Because theatergoers have grown used to carefully designed sets, plays with few visual elements can surprise audiences. But simple, unadorned stages were likely ______ audiences in the very distant past: highly decorated and detailed sets were not common until the 1600s.",
@@ -283,16 +283,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_5"
+          "originalSourceId": "04119199"
         },
         {
           "slot": 6,
           "bankQuestion": {
-            "stableId": "bank-past-reading-110d04d6-17dd-46a6-a6d5-c895e1d91668_5",
+            "stableId": "bank-past-reading-9cf0d6a4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "110d04d6-17dd-46a6-a6d5-c895e1d91668_5",
+            "sourceId": "9cf0d6a4",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?\nThe following text is from Yung Wing's 1909 memoir *My Life in China and America*. Yung Wing was the first person from China to graduate from a US university. <u>Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.</u> This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.",
@@ -341,11 +341,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 7,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7",
+            "stableId": "bank-past-reading-3320e723",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7",
+            "sourceId": "3320e723",
             "questionNumber": 7,
             "testName": "Past SAT-based",
             "prompt": "Based on the texts, Anbar et al. (Text 1) and Slotznick et al. (Text 2) would most likely disagree about the answer to which question about the portion of the Mount McRae Shale rock-core corresponding to 2.5 Ga?\nText 1\nChemically analyzing bulk rock-core samples from Australia's Mount McRae Shale, Ariel Anbar et al. found a transient but significant increase in molybdenum (Mo) at a point corresponding to roughly 2.5 billion years ago (Ga). On Earth, Mo is released mainly through oxidative weathering of minerals; Anbar et al. therefore concluded that atmospheric oxygen briefly increased 2.5 Ga, then returned to its earlier negligible level.\nText 2\nSarah Slotznick et al. reexamined the Mount McRae Shale core. Since chemically analyzing bulk samples can occlude contextual details, Slotznick et al. also employed high-resolution microscopy, which revealed volcanic debris--a known Mo host--around 2.5 Ga and microfractures in the surrounding matrix. The researchers assert that fluid could have reached the debris through the microfractures and initiated oxidative weathering long after debris deposition.",
@@ -389,16 +389,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_7"
+          "originalSourceId": "3320e723"
         },
         {
           "slot": 8,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_8",
+            "stableId": "bank-past-reading-703e516e",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_8",
+            "sourceId": "703e516e",
             "questionNumber": 8,
             "testName": "Past SAT-based",
             "prompt": "Which choice best states the overall structure of the text?\nElio Sucena and colleagues have explored how convergent evolution--a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages--can result from a genetic mechanism shared by both lineages. Meanwhile, Patricia J. Wittkopp and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
@@ -442,16 +442,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_8"
+          "originalSourceId": "703e516e"
         },
         {
           "slot": 9,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_9",
+            "stableId": "bank-past-reading-033a8fc4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_9",
+            "sourceId": "033a8fc4",
             "questionNumber": 9,
             "testName": "Past SAT-based",
             "prompt": "Which contrast does the text draw between the Museo de las Américas and LA Plaza de Cultura y Artes?\nFounded in 1991, the Museo de las Américas showcases art from Latin America, including the art of Indigenous peoples. It is located in Denver and has more than 4,800 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It opened in 2011 and focuses on Mexican American art and culture.",
@@ -495,16 +495,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_9"
+          "originalSourceId": "033a8fc4"
         },
         {
           "slot": 10,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10",
+            "stableId": "bank-past-reading-aace5967",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10",
+            "sourceId": "aace5967",
             "questionNumber": 10,
             "testName": "Past SAT-based",
             "prompt": "Based on the text, how would an advocate of the energy ladder model most likely explain the change observed in Brazil?\nIn Brazil, use of solid fuel (e.g., coal, wood) as a share of total household fuel use fell by around 70 percent between 2000 and 2019; such shifts are typically explained by appeal to the energy ladder, a model holding that fuel choice is mediated mainly by household income (specifically, high-technology fuels displace solid fuels as incomes rise). Alemu Mekonnen and Gunnar Köhlin's study of fuel use in Ethiopia shows this model to be reductive, however: household fuel use was heterogeneous, flexible, and influenced by several factors, including households' cooking habits.",
@@ -548,16 +548,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_10"
+          "originalSourceId": "aace5967"
         },
         {
           "slot": 11,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_11",
+            "stableId": "bank-past-reading-3672ae02",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_11",
+            "sourceId": "3672ae02",
             "questionNumber": 11,
             "testName": "Past SAT-based",
             "prompt": "Which quotation from \"The Monster\" most effectively illustrates the claim?\n\"The Monster\" is an 1898 story by Stephen Crane. In the story, whenever Jimmie, a young boy, has been scolded by his father for misbehavior, he seeks comfort from Henry Johnson, the man responsible for the care of Jimmie's father's horses. However, Henry does not always provide such comfort; Crane suggests this by writing, ______",
@@ -601,16 +601,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_11"
+          "originalSourceId": "3672ae02"
         },
         {
           "slot": 12,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_12",
+            "stableId": "bank-past-reading-42e41a33",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_12",
+            "sourceId": "42e41a33",
             "questionNumber": 12,
             "testName": "Past SAT-based",
             "prompt": "Which choice most effectively uses a quotation from \"Aunt Sue's Stories\" to illustrate the claim?\n\"Aunt Sue's Stories\" is a 1926 poem by Langston Hughes. In the poem, the speaker indicates that the stories Aunt Sue tells are based on Aunt Sue's personal experiences, saying that ______",
@@ -654,16 +654,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_12"
+          "originalSourceId": "42e41a33"
         },
         {
           "slot": 13,
           "bankQuestion": {
-            "stableId": "bank-past-reading-b5bd285b-0705-476c-ac24-58aa076fb71a_12",
+            "stableId": "bank-past-reading-cab66bf3",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "b5bd285b-0705-476c-ac24-58aa076fb71a_12",
+            "sourceId": "cab66bf3",
             "questionNumber": 12,
             "testName": "Past SAT-based",
             "prompt": "Which choice most effectively uses data from the graph to complete the statement?\nResearchers investigated how enjoyment of a story is affected when it has been spoiled (when the reader has foreknowledge of an important plot development). As part of the study, participants rated their enjoyment of one story that was spoiled before they read it and one story that was unspoiled. For each story, participants who had been given a spoiler reported greater enjoyment than did those who hadn't received a spoiler. But the degree of this difference varied across the stories, as is best illustrated by the enjoyment ratings for ______",
@@ -719,11 +719,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 14,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_14",
+            "stableId": "bank-past-reading-1091c050",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_14",
+            "sourceId": "1091c050",
             "questionNumber": 14,
             "testName": "Past SAT-based",
             "prompt": "Which finding, if true, would most directly support the researchers' claim regarding the size of PCFG whales?\nAlthough Eastern North Pacific (ENP) gray whales generally migrate between their wintering waters along the coast of Mexico and their foraging waters in the Arctic, a subset of this population--known as the Pacific Coast Feeding Group (PCFG)--forages along the coastlines of Northern California (USA) and British Columbia (Canada) instead. Interestingly, individuals in this subset reach smaller maximum sizes than other ENP whales do, despite having similar pre-maximum growth rates. Researchers hypothesize that this difference may be an adaptation to distinct resource opportunities in the PCFG foraging range.",
@@ -767,16 +767,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_14"
+          "originalSourceId": "1091c050"
         },
         {
           "slot": 15,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_15",
+            "stableId": "bank-past-reading-400833fb",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_15",
+            "sourceId": "400833fb",
             "questionNumber": 15,
             "testName": "Past SAT-based",
             "prompt": "Which choice most logically completes the text?\nOcean Vuong's 2019 novel *On Earth We're Briefly Gorgeous* is regularly described as autobiographical. That characterization is apt--there are many parallels between the experiences of the novel's character of Little Dog and those of Vuong--but it should not be taken to mean that all the people and events depicted in *On Earth We're Briefly Gorgeous* are based on actual people and events. The novel is largely pure invention, and readers who neglect this fact and instead try to identify more and more real-life analogues thus risk ______",
@@ -820,16 +820,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_15"
+          "originalSourceId": "400833fb"
         },
         {
           "slot": 16,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_16",
+            "stableId": "bank-past-reading-8278edc4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_16",
+            "sourceId": "8278edc4",
             "questionNumber": 16,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe first modern public zoo opened at the height of the French Revolution in 1793. Located in downtown Paris, the zoo was called the Menagerie du Jardin des Plantes. It was filled with living animals that had been confiscated ______ the private collections of French aristocrats.",
@@ -873,16 +873,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_16"
+          "originalSourceId": "8278edc4"
         },
         {
           "slot": 17,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_17",
+            "stableId": "bank-past-reading-ad92f5d3",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_17",
+            "sourceId": "ad92f5d3",
             "questionNumber": 17,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMuseo de Recursos Históricos de Lares, a history museum in Lares, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico's museums ______ visitors about everything from the territory's history to its architecture to its coffee.",
@@ -926,16 +926,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_17"
+          "originalSourceId": "ad92f5d3"
         },
         {
           "slot": 18,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18",
+            "stableId": "bank-past-reading-dbe9a44d",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18",
+            "sourceId": "dbe9a44d",
             "questionNumber": 18,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn May of 1959, the song \"Danny Boy\" was a top-ten hit. Having climbed the charts for ten weeks, ______ ranked No. 1 on the Billboard Hot 100 list of most popular songs.",
@@ -979,16 +979,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_18"
+          "originalSourceId": "dbe9a44d"
         },
         {
           "slot": 19,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_19",
+            "stableId": "bank-past-reading-01bae3ef",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_19",
+            "sourceId": "01bae3ef",
             "questionNumber": 19,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nA worker cooperative is a business that is owned and operated by its workers. This model stands in contrast to traditional models in which a smaller group of owners controls a company. Because the profits made by a cooperative are shared by all workers--who are also owners--the workers ______ directly from its success.",
@@ -1032,16 +1032,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_19"
+          "originalSourceId": "01bae3ef"
         },
         {
           "slot": 20,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_20",
+            "stableId": "bank-past-reading-1f4c4759",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_20",
+            "sourceId": "1f4c4759",
             "questionNumber": 20,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nWith an average summer temperature of 61 degrees Fahrenheit, Moscow is one European ______ many travelers recommend, especially from June to September.",
@@ -1085,16 +1085,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_20"
+          "originalSourceId": "1f4c4759"
         },
         {
           "slot": 21,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21",
+            "stableId": "bank-past-reading-0c888951",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21",
+            "sourceId": "0c888951",
             "questionNumber": 21,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical transition?\nGenerally, sleek vehicles are more aerodynamic than bulkier ones. For example, the streamlined nose of the T-38 Talon jet helps it glide through wind with relative ease. ______ a boxy semitruck encounters more wind resistance, making it less aerodynamic.",
@@ -1138,16 +1138,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_21"
+          "originalSourceId": "0c888951"
         },
         {
           "slot": 22,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_22",
+            "stableId": "bank-past-reading-490f8dc0",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_22",
+            "sourceId": "490f8dc0",
             "questionNumber": 22,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical transition?\nContemplating the beauty of a natural landscape, the serene speaker of William Wordsworth's poem \"Lines Composed a Few Miles above Tintern Abbey\" (1798) seems wholly insulated from society. As scholars have argued, however, Wordsworth's retreat to nature was an aesthetic response to--and implicit critique of--England's rapid industrialization and urbanization at that time. ______ despite its idyllic quality, the poem bears the imprint of the dramatic changes affecting English life.",
@@ -1191,16 +1191,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_22"
+          "originalSourceId": "490f8dc0"
         },
         {
           "slot": 23,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_23",
+            "stableId": "bank-past-reading-6a2d2dc0",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_23",
+            "sourceId": "6a2d2dc0",
             "questionNumber": 23,
             "testName": "Past SAT-based",
             "prompt": "The student wants to provide an example of a country that uses the word \"dinar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The Arabic word \"dinar\" comes from the Latin word \"denarius.\"\n• Today, nearly a dozen different national currencies are referred to as \"dinars.\"\n• Bahrain's currency is known as the Bahraini dinar.",
@@ -1243,16 +1243,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_23"
+          "originalSourceId": "6a2d2dc0"
         },
         {
           "slot": 24,
           "bankQuestion": {
-            "stableId": "bank-past-reading-b5bd285b-0705-476c-ac24-58aa076fb71a_25",
+            "stableId": "bank-past-reading-967666a2",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "b5bd285b-0705-476c-ac24-58aa076fb71a_25",
+            "sourceId": "967666a2",
             "questionNumber": 25,
             "testName": "Past SAT-based",
             "prompt": "The student wants to use a quotation to refute the claim that slow TV programs are boring. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Documentary TV programs in the slow TV genre consist of uninterrupted broadcasts of ordinary events in real time.\n• *MORA: Zeichner* is a German slow TV program.\n• The 45-minute-long program documented an artist making a pencil drawing during a train journey.\n• It first aired in 2016.\n• Slow TV has been called \"the world's most boring television.\"\n• American journalist Nathan Heller praises it, writing that \"it affords a visceral kind of armchair tourism.\"",
@@ -1300,11 +1300,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 25,
           "bankQuestion": {
-            "stableId": "bank-past-reading-6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
+            "stableId": "bank-past-reading-2359b6b7",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
+            "sourceId": "2359b6b7",
             "questionNumber": 24,
             "testName": "Past SAT-based",
             "prompt": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• A supercontinent is a single landmass made up of most or all of Earth's continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur was a supercontinent that formed about 3.1 billion years ago.\n• Columbia was a supercontinent that formed about 1.8 billion years ago.",
@@ -1352,7 +1352,7 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
             "expectedDomain": "Expression of Ideas",
             "expectedType": "multiple-choice",
             "profileConfidence": 1,
-            "sourceId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
+            "sourceId": "2359b6b7",
             "sourceTestName": "Past SAT-based",
             "sourceQuestionNumber": 24,
             "origin": "borrowed",
@@ -1364,11 +1364,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 26,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_26",
+            "stableId": "bank-past-reading-5f405d49",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_26",
+            "sourceId": "5f405d49",
             "questionNumber": 26,
             "testName": "Past SAT-based",
             "prompt": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Dinosaur fossil specimens can be found at science museums all over the world.\n• Many dinosaur fossil specimens are given nicknames.\n• The Denver Museum of Nature and Science in Denver, Colorado, houses a dinosaur fossil specimen nicknamed Pops.\n• Pops lived in the Late Cretaceous period, which ended more than 65 million years ago.\n• It is a member of the genus *Triceratops*.",
@@ -1411,16 +1411,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_26"
+          "originalSourceId": "5f405d49"
         },
         {
           "slot": 27,
           "bankQuestion": {
-            "stableId": "bank-past-reading-2e82ac91-0f4b-4aee-b9af-429c0dc22e07_27",
+            "stableId": "bank-past-reading-b7da8263",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_27",
+            "sourceId": "b7da8263",
             "questionNumber": 27,
             "testName": "Past SAT-based",
             "prompt": "Which choice most effectively uses information from the given sentences to present the study's findings to an audience already familiar with the concept of seedling emergence?\nWhile researching a topic, a student has taken the following notes:\n• In a 2003 study, Alexander and Schrag tested the effect of plant litter on seedling emergence in a grassland setting.\n• The test site was a mesic grassland in a dry midlatitude climate in the United States.\n• The researchers found that in these environmental conditions the presence of plant litter had a positive effect on seedling emergence.\n• Seedling emergence is when a seedling sprouts above ground and begins photosynthesis.",
@@ -1463,7 +1463,7 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2e82ac91-0f4b-4aee-b9af-429c0dc22e07_27"
+          "originalSourceId": "b7da8263"
         }
       ],
       "replacements": [
@@ -1473,7 +1473,7 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           "expectedDomain": "Expression of Ideas",
           "expectedType": "multiple-choice",
           "profileConfidence": 1,
-          "sourceId": "6a1a15f9-d0a0-4f08-967e-0ef33ae8dacf_24",
+          "sourceId": "2359b6b7",
           "sourceTestName": "Past SAT-based",
           "sourceQuestionNumber": 24,
           "origin": "borrowed",
@@ -1501,11 +1501,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 1,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_1",
+            "stableId": "bank-past-reading-6dcbe68b",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_1",
+            "sourceId": "6dcbe68b",
             "questionNumber": 1,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nAs with other river deltas, the Shatt al-Arab River delta is ______: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Persian Gulf.",
@@ -1549,16 +1549,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_1"
+          "originalSourceId": "6dcbe68b"
         },
         {
           "slot": 2,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_2",
+            "stableId": "bank-past-reading-e4aa2421",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_2",
+            "sourceId": "e4aa2421",
             "questionNumber": 2,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nLucian of Samosata (modern-day Turkey) was a second-century satirist who mostly published critiques of philosophers of the time. His work *True History*, however, is ______: featuring tropes that are hallmarks of present-day science fiction (e.g., space travel, interplanetary conflict), it is regarded by some scholars as the earliest known work in the genre.",
@@ -1602,16 +1602,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_2"
+          "originalSourceId": "e4aa2421"
         },
         {
           "slot": 3,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_3",
+            "stableId": "bank-past-reading-5683e4a3",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_3",
+            "sourceId": "5683e4a3",
             "questionNumber": 3,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical and precise word or phrase?\nThe familial structure of the black swan (*Cygnus atratus*) shows tremendous ______: breeding pairs with demonstrated success in rearing cygnets (young swans) have been observed to foster those of less successful pairs, and while rearing by female-male pairs is most common, male-male pairs sometimes rear cygnets too, achieving a significantly higher rate of survival to adulthood than female-male pairs.",
@@ -1655,16 +1655,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_3"
+          "originalSourceId": "5683e4a3"
         },
         {
           "slot": 4,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_4",
+            "stableId": "bank-past-reading-242d3948",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_4",
+            "sourceId": "242d3948",
             "questionNumber": 4,
             "testName": "Past SAT-based",
             "prompt": "Which choice best states the main purpose of the text?\nFounded in Long Beach, California, in 1996, the Museum of Latin American Art is dedicated to modern and contemporary art by Latin American artists and Latino artists in the United States. Since its founding, it has acquired more than 1,300 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the National Hispanic Cultural Center. Located in Albuquerque, it focuses on the literature, art, and cultures of Latin America as well as of Latino communities in the United States.",
@@ -1708,16 +1708,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_4"
+          "originalSourceId": "242d3948"
         },
         {
           "slot": 5,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_5",
+            "stableId": "bank-past-reading-024e21cd",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_5",
+            "sourceId": "024e21cd",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "Which choice best describes the overall structure of the text?\nPaintings by the Florida Highwaymen--an informal collective of prolific landscape artists active in Florida during the 1950s and '60s--are recognizable by their reiteration of the same general compositional structures and subjects: breaking waves and backcountry pines, to name two. But there was room for individuation: Sam Newton's *Tangerine Sky*, for example, may resemble other Highwaymen paintings at first glance, but his works stand out for their more realistic and less impressionistic qualities.",
@@ -1761,16 +1761,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_5"
+          "originalSourceId": "024e21cd"
         },
         {
           "slot": 6,
           "bankQuestion": {
-            "stableId": "bank-past-reading-d3c0680f-0e7b-45fa-a287-0167b3b6346e_7",
+            "stableId": "bank-past-reading-8b9df42a",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "d3c0680f-0e7b-45fa-a287-0167b3b6346e_7",
+            "sourceId": "8b9df42a",
             "questionNumber": 7,
             "testName": "Past SAT-based",
             "prompt": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?\nText 1\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water--critical to supporting life--and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\nText 2\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
@@ -1819,11 +1819,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 7,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_7",
+            "stableId": "bank-past-reading-b4209364",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_7",
+            "sourceId": "b4209364",
             "questionNumber": 7,
             "testName": "Past SAT-based",
             "prompt": "Information in the text best supports which statement about the design of the house in Calle Pedro Loza?\nMexican architect Luis Barragán's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the Pizarro Suárez House, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the house in Calle Pedro Loza, which evince the aesthetics of traditional Mediterranean and Mexican styles.",
@@ -1867,16 +1867,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_7"
+          "originalSourceId": "b4209364"
         },
         {
           "slot": 8,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_8",
+            "stableId": "bank-past-reading-69cb26df",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_8",
+            "sourceId": "69cb26df",
             "questionNumber": 8,
             "testName": "Past SAT-based",
             "prompt": "Which finding, if true, would most directly illustrate the researchers' finding?\nNorfolk, Virginia, has installed engineered structures along 56% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures--riprap and bulkheads--Diann Prosser et al. surveyed waterbird communities consisting of the osprey, the common tern, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
@@ -1920,16 +1920,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_8"
+          "originalSourceId": "69cb26df"
         },
         {
           "slot": 9,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_9",
+            "stableId": "bank-past-reading-abaa5860",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_9",
+            "sourceId": "abaa5860",
             "questionNumber": 9,
             "testName": "Past SAT-based",
             "prompt": "Which statement, if true, would account for data shown in the graph and would illustrate the point made by the researchers?\nChesapeake Bay seagrass meadows constitute crucial habitats for many aquatic species. Historically, eelgrass has been predominant, but widgeon grass is proving better suited to recent increases in sea temperature, tolerating heat better and growing faster than eelgrass does. Although the increase in widgeon grass has been associated with a substantial increase in total seagrass coverage in the bay, researchers caution that the latter change does not necessarily make the seagrass ecosystem as a whole more resilient to environmental shocks.",
@@ -1980,16 +1980,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_9"
+          "originalSourceId": "abaa5860"
         },
         {
           "slot": 10,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_10",
+            "stableId": "bank-past-reading-79b961b3",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_10",
+            "sourceId": "79b961b3",
             "questionNumber": 10,
             "testName": "Past SAT-based",
             "prompt": "Which choice most effectively uses data from the table to complete the example?\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it's very likely that the distance reported for the ______",
@@ -2040,16 +2040,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_10"
+          "originalSourceId": "79b961b3"
         },
         {
           "slot": 11,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_11",
+            "stableId": "bank-past-reading-a3c1dec0",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_11",
+            "sourceId": "a3c1dec0",
             "questionNumber": 11,
             "testName": "Past SAT-based",
             "prompt": "Which finding, if true, would most directly support the text's claim about wireless communication devices?\nPiezoelectric harvesters convert kinetic energy (resonance) to electrical energy, precluding the need for external electrical sources. The vibration of a spacecraft, for example, can provide sufficient energy to power many of its sensors piezoelectrically. A newly designed piezoelectric harvester incorporating a highly conductive carbon-fiber-reinforced polymer (CFRP) electrode has been shown to provide steady energy loads during resonance, an absolute prerequisite for wireless communication devices to be powered piezoelectrically.",
@@ -2093,16 +2093,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_11"
+          "originalSourceId": "a3c1dec0"
         },
         {
           "slot": 12,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_12",
+            "stableId": "bank-past-reading-a9ee2901",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_12",
+            "sourceId": "a9ee2901",
             "questionNumber": 12,
             "testName": "Past SAT-based",
             "prompt": "Which choice most logically completes the text?\nConsumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as the increasing congestion of roadways, persist. While innovations to mitigate these challenges have been emerging--the use of aerial drones, for instance--success has been constrained due to the additional complications that arise (e.g., a lack of suitable drone landing sites in residential areas). Consequently, ______",
@@ -2146,16 +2146,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_12"
+          "originalSourceId": "a9ee2901"
         },
         {
           "slot": 13,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_13",
+            "stableId": "bank-past-reading-ac0e321f",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_13",
+            "sourceId": "ac0e321f",
             "questionNumber": 13,
             "testName": "Past SAT-based",
             "prompt": "Which choice most logically completes the text?\nScientists looking for signs of ancient life in Asia have found many examples of fossilized hominins, including in a geological formation at the Minatogawa Limestone Quarry. However, to find even older specimens like early multicellular organisms from the Ediacaran period, scientists must look elsewhere, such as in the Ediacaran geological formation at Mistaken Point in North America, because ______",
@@ -2199,16 +2199,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_13"
+          "originalSourceId": "ac0e321f"
         },
         {
           "slot": 14,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_14",
+            "stableId": "bank-past-reading-69e19919",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_14",
+            "sourceId": "69e19919",
             "questionNumber": 14,
             "testName": "Past SAT-based",
             "prompt": "Which choice most logically completes the text?\nMicrobial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm²). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm². Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that ______",
@@ -2252,16 +2252,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_14"
+          "originalSourceId": "69e19919"
         },
         {
           "slot": 15,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_15",
+            "stableId": "bank-past-reading-b4abbe5a",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_15",
+            "sourceId": "b4abbe5a",
             "questionNumber": 15,
             "testName": "Past SAT-based",
             "prompt": "Which choice most logically completes the text?\nThe ratio of methane to other atmospheric constituents--represented by a measure called the methane mole fraction--influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn's largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model's developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______",
@@ -2305,16 +2305,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_15"
+          "originalSourceId": "b4abbe5a"
         },
         {
           "slot": 16,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_16",
+            "stableId": "bank-past-reading-3333d62b",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_16",
+            "sourceId": "3333d62b",
             "questionNumber": 16,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nEpic poetry is a literary genre characterized by lengthy narratives that emphasize the heroic or divine. *The Argonautica*, an epic poem of Greek origin, dates back to the ______ the poem's heroic narrative still captivates modern readers.",
@@ -2358,16 +2358,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_16"
+          "originalSourceId": "3333d62b"
         },
         {
           "slot": 17,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_17",
+            "stableId": "bank-past-reading-8c1a70c1",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_17",
+            "sourceId": "8c1a70c1",
             "questionNumber": 17,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nKizomba, a genre of dance that originated in Angola, has become an international ______ 2022, the Indian dance duo known as Elvis and Namrata defeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever Asian winners.",
@@ -2411,16 +2411,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_17"
+          "originalSourceId": "8c1a70c1"
         },
         {
           "slot": 18,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_18",
+            "stableId": "bank-past-reading-66581d34",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_18",
+            "sourceId": "66581d34",
             "questionNumber": 18,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe Austronesian language family comprises some 1,200 languages--including the ______ Tetum and Fijian, which are spoken by 800,000 and 640,000 speakers, respectively--and accounts for one-fifth of the world's languages, making it of keen interest to linguists like Diane Massam.",
@@ -2464,16 +2464,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_18"
+          "originalSourceId": "66581d34"
         },
         {
           "slot": 19,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_19",
+            "stableId": "bank-past-reading-382a60db",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_19",
+            "sourceId": "382a60db",
             "questionNumber": 19,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn addition to being a celebrated writer, musician, and educator, Zitkála-Šá (Yankton Dakota) was the cofounder of the National Council of American ______ advocated for Native American civil rights throughout the 1920s and 1930s.",
@@ -2517,16 +2517,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_19"
+          "originalSourceId": "382a60db"
         },
         {
           "slot": 20,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_20",
+            "stableId": "bank-past-reading-89072d95",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_20",
+            "sourceId": "89072d95",
             "questionNumber": 20,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nMitochondrial genomes reproduce asexually, which should over time result in an accumulation of harmful mutations and a decline in mitochondrial functionality. However, nuclear genes are hypothesized to coevolve with the rate of mitochondrial decline, eliminating mutational erosion. Such a compensatory measure ______ the organelle's decline, unlike enzyme-stabilizing accessory proteins, offers an evolutionary explanation of mitochondrial reproduction.",
@@ -2570,16 +2570,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_20"
+          "originalSourceId": "89072d95"
         },
         {
           "slot": 21,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_21",
+            "stableId": "bank-past-reading-1bb9b6f4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_21",
+            "sourceId": "1bb9b6f4",
             "questionNumber": 21,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?\nIn a US national election, one might expect major-party campaigns to focus on the most populous states. However, if polls and past voting data suggest that the outcome in a given state is a foregone conclusion, a campaign will not invest its resources there. Ultimately, a state's voting record and polling data, not its population size, ______ its importance to campaigns.",
@@ -2623,16 +2623,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_21"
+          "originalSourceId": "1bb9b6f4"
         },
         {
           "slot": 22,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_22",
+            "stableId": "bank-past-reading-17f23d23",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_22",
+            "sourceId": "17f23d23",
             "questionNumber": 22,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical transition?\nIn an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting *Water Lilies*; Sasha Pimentel's 2017 poem \"The Kiss,\" ______ takes a painting as its subject: Gustav Klimt's 1908 work *The Kiss*.",
@@ -2676,16 +2676,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_22"
+          "originalSourceId": "17f23d23"
         },
         {
           "slot": 23,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_23",
+            "stableId": "bank-past-reading-9c84c20d",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_23",
+            "sourceId": "9c84c20d",
             "questionNumber": 23,
             "testName": "Past SAT-based",
             "prompt": "Which choice completes the text with the most logical transition?\nSoil polluted with iron (a heavy metal) is harmful to many plants and animals, but the plant species *Limnocharis flava*, or yellow velvetleaf, not only thrives in such conditions but also helps remediate them. As a metal hyperaccumulator, *Limnocharis flava* absorbs a large amount of iron and stores it safely in its roots and shoots; ______ iron concentrations in the soil decrease.",
@@ -2729,16 +2729,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_23"
+          "originalSourceId": "9c84c20d"
         },
         {
           "slot": 24,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_24",
+            "stableId": "bank-past-reading-bb307f18",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_24",
+            "sourceId": "bb307f18",
             "questionNumber": 24,
             "testName": "Past SAT-based",
             "prompt": "The student wants to provide an example of a country that uses the word \"dollar\" in the name of its currency. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• The English word \"dollar\" comes from the German word \"thaler.\"\n• Today, more than twenty different national currencies are referred to as \"dollars.\"\n• Kiribati's currency is known as the Kiribati dollar.",
@@ -2781,16 +2781,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_24"
+          "originalSourceId": "bb307f18"
         },
         {
           "slot": 25,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_25",
+            "stableId": "bank-past-reading-6ac79701",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_25",
+            "sourceId": "6ac79701",
             "questionNumber": 25,
             "testName": "Past SAT-based",
             "prompt": "The student wants to present historical analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Stylistic analysis and historical analysis are two approaches to art criticism.\n• Stylistic analysis examines how an artwork's visual features contribute to its overall style.\n• Such an analysis of Claude Monet's *Water Lilies* might consider how the painting's loose brushwork represents an impressionist style.\n• Historical analysis considers the historical context in which a work was created.\n• Such an analysis of Diego Velázquez's *Las Meninas* might consider how the painting's depiction of the artist with King Philip IV symbolizes art's historical ties to power.",
@@ -2833,16 +2833,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_25"
+          "originalSourceId": "6ac79701"
         },
         {
           "slot": 26,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_26",
+            "stableId": "bank-past-reading-073a6629",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_26",
+            "sourceId": "073a6629",
             "questionNumber": 26,
             "testName": "Past SAT-based",
             "prompt": "The student wants to emphasize a difference between carbon nanotubes and graphite. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• Carbon can exist in several distinct structural forms called allotropes.\n• Graphite is a carbon allotrope.\n• Graphite is composed of stacked graphene sheets.\n• Each graphene sheet is composed of carbon atoms arranged in a flat honeycomb pattern.\n• Carbon nanotubes are carbon allotropes.\n• They are composed of one or more graphene sheets wrapped into a cylindrical shape.",
@@ -2885,16 +2885,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_26"
+          "originalSourceId": "073a6629"
         },
         {
           "slot": 27,
           "bankQuestion": {
-            "stableId": "bank-past-reading-e580c519-9667-4b3b-8a1e-a7bec6eba694_27",
+            "stableId": "bank-past-reading-f2b9caf5",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "reading",
-            "sourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_27",
+            "sourceId": "f2b9caf5",
             "questionNumber": 27,
             "testName": "Past SAT-based",
             "prompt": "The student wants to describe the study's research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?\nWhile researching a topic, a student has taken the following notes:\n• In a 2004 study, researchers Jorge E. López and C. Vaughan wanted to explore the effects of ingestion by bats on the germination of *Piper sancti-felicis* seeds in Costa Rica.\n• The team of researchers tested 125 *Piper sancti-felicis* seeds that had been ingested by chestnut short-tailed bats.\n• Of these, 82 seeds (66%) germinated.\n• As a control, J.E. López and C. Vaughan tested 125 *Piper sancti-felicis* seeds that had not been ingested by chestnut short-tailed bats.\n• Of these, 88 seeds (70%) germinated.",
@@ -2937,7 +2937,7 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "e580c519-9667-4b3b-8a1e-a7bec6eba694_27"
+          "originalSourceId": "f2b9caf5"
         }
       ],
       "replacements": [],
@@ -2962,11 +2962,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 1,
           "bankQuestion": {
-            "stableId": "bank-past-math-5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5",
+            "stableId": "bank-past-math-ffaff774",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "5b32d0cb-ec32-42cb-86cc-c5cebdd60d9f_5",
+            "sourceId": "ffaff774",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "$y=0$\n$y=8(x^2 - 36)$\nWhich ordered pair $(x,y)$ is a solution to the given system of equations?",
@@ -3014,11 +3014,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 2,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_2",
+            "stableId": "bank-past-math-bbbafdd4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_2",
+            "sourceId": "bbbafdd4",
             "questionNumber": 2,
             "testName": "Past SAT-based",
             "prompt": "The function $ h $ is defined by $ h(x) = 5x - 9 $. What is the value of $ h(-3) $?",
@@ -3061,16 +3061,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_2"
+          "originalSourceId": "bbbafdd4"
         },
         {
           "slot": 3,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_3",
+            "stableId": "bank-past-math-2993c967",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_3",
+            "sourceId": "2993c967",
             "questionNumber": 3,
             "testName": "Past SAT-based",
             "prompt": "If $8x + 7 = 79$, what is the value of $80x + 70$?",
@@ -3113,16 +3113,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_3"
+          "originalSourceId": "2993c967"
         },
         {
           "slot": 4,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_4",
+            "stableId": "bank-past-math-1db23022",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_4",
+            "sourceId": "1db23022",
             "questionNumber": 4,
             "testName": "Past SAT-based",
             "prompt": "$h$ horses and $g$ goats. Each horse requires 2 acres of land, and each goat requires 1 acre of land. The $h$ horses and $g$ goats require a total of 21 acres of land. Which equation represents this situation?",
@@ -3165,16 +3165,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_4"
+          "originalSourceId": "1db23022"
         },
         {
           "slot": 5,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_5",
+            "stableId": "bank-past-math-4b605f81",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_5",
+            "sourceId": "4b605f81",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "The function $f(x) = \\frac{1}{9}(x - 6)^2 + 3$ gives a toy car's height above the ground $f(x)$, in inches, $x$ seconds after it started moving on an elevated track, where $0 \\leq x \\leq 10$. Which of the following is the best interpretation of the vertex of the graph of $y = f(x)$ in the $xy$-plane?",
@@ -3217,16 +3217,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_5"
+          "originalSourceId": "4b605f81"
         },
         {
           "slot": 6,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_6",
+            "stableId": "bank-past-math-54a59347",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_6",
+            "sourceId": "54a59347",
             "questionNumber": 6,
             "testName": "Past SAT-based",
             "prompt": "Which expression is equivalent to $(w + 7)(3w - 10)$?",
@@ -3269,16 +3269,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_6"
+          "originalSourceId": "54a59347"
         },
         {
           "slot": 7,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_7",
+            "stableId": "bank-past-math-951d11b9",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_7",
+            "sourceId": "951d11b9",
             "questionNumber": 7,
             "testName": "Past SAT-based",
             "prompt": "Two numbers have a product $y$, such that one number is $x$ and the other number is 99 less than $x$. Which of the following equations represents the relationship between $y$ and $x$?",
@@ -3321,16 +3321,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_7"
+          "originalSourceId": "951d11b9"
         },
         {
           "slot": 8,
           "bankQuestion": {
-            "stableId": "bank-past-math-305aaf32-2803-4909-83d0-d08ba71a35a7_8",
+            "stableId": "bank-past-math-703b98fc",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "305aaf32-2803-4909-83d0-d08ba71a35a7_8",
+            "sourceId": "703b98fc",
             "questionNumber": 8,
             "testName": "Past SAT-based",
             "prompt": "A bank account was opened with an initial deposit. Over the next several months, regular deposits were made into this account, and there were no withdrawals made during this time. The graph of the function $f$ shown, where $y = f(x)$, estimates the account balance, in dollars, in this bank account $x$ months since the initial deposit. To the nearest whole dollar, what is the amount of the initial deposit estimated by the graph?",
@@ -3367,11 +3367,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 9,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_9",
+            "stableId": "bank-past-math-955d0e55",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_9",
+            "sourceId": "955d0e55",
             "questionNumber": 9,
             "testName": "Past SAT-based",
             "prompt": "The function $F(m) = 7m$ models the force, in newtons, acting on each object in a certain field as a function of the object's mass $m$, in kilograms. Which statement is the best interpretation of $F(4) = 28$ in this context?",
@@ -3414,16 +3414,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_9"
+          "originalSourceId": "955d0e55"
         },
         {
           "slot": 10,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_10",
+            "stableId": "bank-past-math-2934ff30",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10",
+            "sourceId": "2934ff30",
             "questionNumber": 10,
             "testName": "Past SAT-based",
             "prompt": "If $x$ and $y$ are supplementary angles, which of the following must be true?",
@@ -3473,16 +3473,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_10"
+          "originalSourceId": "2934ff30"
         },
         {
           "slot": 11,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+            "stableId": "bank-past-math-20b0c6ce",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11",
+            "sourceId": "20b0c6ce",
             "questionNumber": 11,
             "testName": "Past SAT-based",
             "prompt": "The graph of a polynomial function $ y = f(x) $ in the $ xy $-plane passes through the point $ (5, 7) $. What is the value of $ f(5) $?",
@@ -3525,16 +3525,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_11"
+          "originalSourceId": "20b0c6ce"
         },
         {
           "slot": 12,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_12",
+            "stableId": "bank-past-math-1ca392f4",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_12",
+            "sourceId": "1ca392f4",
             "questionNumber": 12,
             "testName": "Past SAT-based",
             "prompt": "$y=-\\frac{1}{7}x$\n$y=\\frac{1}{5}x$\nThe solution to the given system of equations is (x, y). What is the value of $x$?",
@@ -3577,16 +3577,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_12"
+          "originalSourceId": "1ca392f4"
         },
         {
           "slot": 13,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_13",
+            "stableId": "bank-past-math-fcbe8510",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_13",
+            "sourceId": "fcbe8510",
             "questionNumber": 13,
             "testName": "Past SAT-based",
             "prompt": "If $5(3x+6)=3(3x+6)+78$, what is the value of $3x+6$?",
@@ -3629,16 +3629,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_13"
+          "originalSourceId": "fcbe8510"
         },
         {
           "slot": 14,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_14",
+            "stableId": "bank-past-math-ad24a420",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_14",
+            "sourceId": "ad24a420",
             "questionNumber": 14,
             "testName": "Past SAT-based",
             "prompt": "The functions $g$ and $h$ are defined by the given equations.\n$g(x)=\\sqrt{(x-11)^{2}+45}$\n$h(x)=4+\\frac{x^{2}}{2}$\nIf $g(8) = t$, where $t$ is a constant, what is the value of $h(t)$?",
@@ -3681,16 +3681,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_14"
+          "originalSourceId": "ad24a420"
         },
         {
           "slot": 15,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_15",
+            "stableId": "bank-past-math-2b1e6809",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_15",
+            "sourceId": "2b1e6809",
             "questionNumber": 15,
             "testName": "Past SAT-based",
             "prompt": "If $\\left(\\frac{1}{2}x - \\frac{33}{2}\\right)^2 - 64 = 0$, what is the value of $(x - 33)^2$?",
@@ -3733,16 +3733,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_15"
+          "originalSourceId": "2b1e6809"
         },
         {
           "slot": 16,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_16",
+            "stableId": "bank-past-math-867e5e0e",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_16",
+            "sourceId": "867e5e0e",
             "questionNumber": 16,
             "testName": "Past SAT-based",
             "prompt": "A circle has center O, and points A and B lie on the circle. The measure of arc AB is 20°, and the length of this arc is 4 inches. What is the circumference, in inches, of the circle?",
@@ -3785,16 +3785,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_16"
+          "originalSourceId": "867e5e0e"
         },
         {
           "slot": 17,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
+            "stableId": "bank-past-math-c7777271",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17",
+            "sourceId": "c7777271",
             "questionNumber": 17,
             "testName": "Past SAT-based",
             "prompt": "For $x \\gt 0$, the function $f$ is defined as follows:\n$f(x)=111\\%$ of $x$\nWhich of the following could describe this function?",
@@ -3837,16 +3837,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_17"
+          "originalSourceId": "c7777271"
         },
         {
           "slot": 18,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_18",
+            "stableId": "bank-past-math-0fcc7ff3",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_18",
+            "sourceId": "0fcc7ff3",
             "questionNumber": 18,
             "testName": "Past SAT-based",
             "prompt": "$x + 33y - 200 = -359$\n$2wx + 11y = -53$\nIn the given system of equations, $w$ is a constant. The system has infinitely many solutions. What is the value of $w$?",
@@ -3871,16 +3871,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_18"
+          "originalSourceId": "0fcc7ff3"
         },
         {
           "slot": 19,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_19",
+            "stableId": "bank-past-math-1536bb56",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_19",
+            "sourceId": "1536bb56",
             "questionNumber": 19,
             "testName": "Past SAT-based",
             "prompt": "The functions $f$ and $g$ are defined as $f(x) = \\frac{1}{5}x - 9$ and $g(x) = \\frac{4}{5}x + 27$. If the function $h$ is defined as $h(x) = f(x) + g(x)$, what is the $x$-intercept of the graph of $y = h(x)$ in the $xy$-plane?",
@@ -3923,16 +3923,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_19"
+          "originalSourceId": "1536bb56"
         },
         {
           "slot": 20,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_20",
+            "stableId": "bank-past-math-36b0f6aa",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_20",
+            "sourceId": "36b0f6aa",
             "questionNumber": 20,
             "testName": "Past SAT-based",
             "prompt": "A beaker containing a liquid is placed on a table. The function $g(t) = 294 + (363 - 294)(2.72)^{-0.103t}$ gives the approximate temperature, in kelvins, of the liquid $t$ minutes after the beaker was placed on the table. According to this function, what was the approximate temperature, in kelvins, of the liquid when the beaker was placed on the table?",
@@ -3957,16 +3957,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_20"
+          "originalSourceId": "36b0f6aa"
         },
         {
           "slot": 21,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_21",
+            "stableId": "bank-past-math-9da72468",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_21",
+            "sourceId": "9da72468",
             "questionNumber": 21,
             "testName": "Past SAT-based",
             "prompt": "A researcher surveyed undergraduate students, graduate students, and postdoctoral students. The number of undergraduate students surveyed was $7450\\%$ of the number of postdoctoral students surveyed, and the number of graduate students surveyed was $24\\%$ of the number of undergraduate students surveyed. If there were $3{,}576$ graduate students surveyed, what was the sum of the number of undergraduate students and postdoctoral students surveyed?",
@@ -3991,16 +3991,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_21"
+          "originalSourceId": "9da72468"
         },
         {
           "slot": 22,
           "bankQuestion": {
-            "stableId": "bank-past-math-816fedc1-1434-4eb8-aa3b-6715a1e738ae_22",
+            "stableId": "bank-past-math-ce05a9a1",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_22",
+            "sourceId": "ce05a9a1",
             "questionNumber": 22,
             "testName": "Past SAT-based",
             "prompt": "$f(x) = (2x - 20)(2x + 8)$\nWhat is the minimum value of the given function?",
@@ -4025,7 +4025,7 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "816fedc1-1434-4eb8-aa3b-6715a1e738ae_22"
+          "originalSourceId": "ce05a9a1"
         }
       ],
       "replacements": [],
@@ -4050,11 +4050,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 1,
           "bankQuestion": {
-            "stableId": "bank-past-math-9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5",
+            "stableId": "bank-past-math-6023eed6",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "9f2c24ef-ab22-44de-8b7d-44f8525fb9b3_5",
+            "sourceId": "6023eed6",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "The shaded region shown in the graph represents all the solutions to which inequality?",
@@ -4109,11 +4109,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 2,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_2",
+            "stableId": "bank-past-math-74560169",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2",
+            "sourceId": "74560169",
             "questionNumber": 2,
             "testName": "Past SAT-based",
             "prompt": "$3.5c+7d=266$\nThe given equation describes the relationship between the number of cats, $c$, and the number of dogs, $d$, that can be cared for at a pet care business during a week. If the business cares for 38 dogs during a week, how many cats can it care for during this week?",
@@ -4156,16 +4156,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_2"
+          "originalSourceId": "74560169"
         },
         {
           "slot": 3,
           "bankQuestion": {
-            "stableId": "bank-past-math-2f91d920-5520-4266-8a2d-a29c925c95c0_3",
+            "stableId": "bank-past-math-22c24efa",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3",
+            "sourceId": "22c24efa",
             "questionNumber": 3,
             "testName": "Past SAT-based",
             "prompt": "The table shows the exponential relationship between the number of years, $x$, since Hana started training in pole vault, and the estimated height $h(x)$, in meters, of her best pole vault for that year. Which of the following functions best represents this relationship, where $x \\leq 4$?",
@@ -4215,16 +4215,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "2f91d920-5520-4266-8a2d-a29c925c95c0_3"
+          "originalSourceId": "22c24efa"
         },
         {
           "slot": 4,
           "bankQuestion": {
-            "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+            "stableId": "bank-past-math-8cedbf51",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_4",
+            "sourceId": "8cedbf51",
             "questionNumber": 4,
             "testName": "Past SAT-based",
             "prompt": "For a survey, a sample of 1,018 people was selected at random from all registered voters in a county. Based on the survey, it is estimated that 66% of all registered voters in the county are in favor of a new law, with an associated margin of error of 2.91%. Which of the following best describes the plausible values for the percent of all registered voters in the county who are in favor of the new law?",
@@ -4272,11 +4272,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 5,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_5",
+            "stableId": "bank-past-math-6f87dd10",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_5",
+            "sourceId": "6f87dd10",
             "questionNumber": 5,
             "testName": "Past SAT-based",
             "prompt": "The gas mileage of a certain car is 35 miles per gallon when driven on the highway. If the car begins with 10 gallons of gas in the tank, which function predicts the amount of gas remaining in the tank, $f(d)$, after the car is driven $d$ miles on the highway?",
@@ -4319,16 +4319,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_5"
+          "originalSourceId": "6f87dd10"
         },
         {
           "slot": 6,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_6",
+            "stableId": "bank-past-math-7508d8fb",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_6",
+            "sourceId": "7508d8fb",
             "questionNumber": 6,
             "testName": "Past SAT-based",
             "prompt": "The function $f$ is defined by $f(x)=50x$. For what value of x is $f(x)=150$?",
@@ -4353,16 +4353,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_6"
+          "originalSourceId": "7508d8fb"
         },
         {
           "slot": 7,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
+            "stableId": "bank-past-math-d6a8b282",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7",
+            "sourceId": "d6a8b282",
             "questionNumber": 7,
             "testName": "Past SAT-based",
             "prompt": "The graph of the linear equation $10x+By=50$ is shown, where $B$ is a constant. What is the value of $B$?",
@@ -4412,16 +4412,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_7"
+          "originalSourceId": "d6a8b282"
         },
         {
           "slot": 8,
           "bankQuestion": {
-            "stableId": "bank-past-math-10c690aa-0aad-48ab-952b-855b2555b311_4",
+            "stableId": "bank-past-math-c395b986",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "10c690aa-0aad-48ab-952b-855b2555b311_4",
+            "sourceId": "c395b986",
             "questionNumber": 4,
             "testName": "Past SAT-based",
             "prompt": "The scatterplot shows the relationship between two variables, $x$ and $y$.\nWhich of the following equations is the most appropriate linear model for the data shown?",
@@ -4476,11 +4476,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 9,
           "bankQuestion": {
-            "stableId": "bank-past-math-0c54aae7-15f2-4e7b-a138-cae820ff684e_11",
+            "stableId": "bank-past-math-fe1b01d7",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "0c54aae7-15f2-4e7b-a138-cae820ff684e_11",
+            "sourceId": "fe1b01d7",
             "questionNumber": 11,
             "testName": "Past SAT-based",
             "prompt": "$3x^2 - 5x - 5 = 0$\nWhat is the greatest solution to the given equation?",
@@ -4528,11 +4528,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 10,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_10",
+            "stableId": "bank-past-math-a92829ce",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_10",
+            "sourceId": "a92829ce",
             "questionNumber": 10,
             "testName": "Past SAT-based",
             "prompt": "$y \\leq x + 15$\n$y \\geq -4x - 15$\nWhich point $(x, y)$ is a solution to the given system of inequalities in the $xy$-plane?",
@@ -4575,16 +4575,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_10"
+          "originalSourceId": "a92829ce"
         },
         {
           "slot": 11,
           "bankQuestion": {
-            "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+            "stableId": "bank-past-math-9b1e596e",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_11",
+            "sourceId": "9b1e596e",
             "questionNumber": 11,
             "testName": "Past SAT-based",
             "prompt": "A researcher created a data set by recording the daily low temperature, to the nearest integer, for each of the 31 days in December 2022 in a town in Illinois. The frequency table summarizes this data set.\nBased on the frequency table, what could be the median of the recorded daily low temperatures, in degrees Fahrenheit?",
@@ -4621,11 +4621,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 12,
           "bankQuestion": {
-            "stableId": "bank-past-math-39729166-8e92-42cc-8ed6-76acdb673a3c_14",
+            "stableId": "bank-past-math-e945e77c",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "39729166-8e92-42cc-8ed6-76acdb673a3c_14",
+            "sourceId": "e945e77c",
             "questionNumber": 14,
             "testName": "Past SAT-based",
             "prompt": "An equilateral triangle has a height of $49\\sqrt{3}$ units. What is the length, in units, of one side of this triangle?",
@@ -4673,11 +4673,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 13,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
+            "stableId": "bank-past-math-8232c861",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13",
+            "sourceId": "8232c861",
             "questionNumber": 13,
             "testName": "Past SAT-based",
             "prompt": "Line $s$ in the $xy$-plane is defined by $8x+2y=0$. Line $t$ is perpendicular to line $s$ and passes through the points $(6, 0)$ and $(k,\\frac{5}{4})$. What is the value of $k$?",
@@ -4702,16 +4702,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_13"
+          "originalSourceId": "8232c861"
         },
         {
           "slot": 14,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_14",
+            "stableId": "bank-past-math-b53bcd51",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14",
+            "sourceId": "b53bcd51",
             "questionNumber": 14,
             "testName": "Past SAT-based",
             "prompt": "$\\frac{3x^{17}y^{5}}{5x^{2}\\sqrt{y^{8}}}$\n\nFor all positive values of $x$ and $y$, the given expression is equivalent to which of the following?\n\nI. $\\frac{(x^{\\frac{14}{3}})(y^{\\frac{5}{3}})}{3}$\nII. $\\frac{3x^{11}y^{2}}{5}$",
@@ -4754,16 +4754,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_14"
+          "originalSourceId": "b53bcd51"
         },
         {
           "slot": 15,
           "bankQuestion": {
-            "stableId": "bank-past-math-08df3b47-9273-4ad6-9301-332804bc6404_22",
+            "stableId": "bank-past-math-7b235a20",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "08df3b47-9273-4ad6-9301-332804bc6404_22",
+            "sourceId": "7b235a20",
             "questionNumber": 22,
             "testName": "Past SAT-based",
             "prompt": "$f(x) = 7,000(1.005)^{2x}$\nThe given function $f$ models the balance of a bank account, in dollars, $x$ years after it is opened. Which statement is the best interpretation of $(1.005)^{2x}$?",
@@ -4811,11 +4811,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 16,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
+            "stableId": "bank-past-math-0b48e029",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16",
+            "sourceId": "0b48e029",
             "questionNumber": 16,
             "testName": "Past SAT-based",
             "prompt": "The length of each edge of a box is 48 centimeters. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square meters, of this box without a lid? (1 meter = 100 centimeters)",
@@ -4840,16 +4840,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_16"
+          "originalSourceId": "0b48e029"
         },
         {
           "slot": 17,
           "bankQuestion": {
-            "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+            "stableId": "bank-past-math-1c0c4687",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_17",
+            "sourceId": "1c0c4687",
             "questionNumber": 17,
             "testName": "Past SAT-based",
             "prompt": "A square map has a side length of 55 inches, and 1 inch on the map represents an actual distance of 13 miles. A larger version of the same map is printed as a square with the side length 90% longer than the side length of the previous map. On the larger map, which of the following is closest to the actual distance, in miles, represented by 1 inch?",
@@ -4897,11 +4897,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 18,
           "bankQuestion": {
-            "stableId": "bank-past-math-b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+            "stableId": "bank-past-math-8212cdb9",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "b5883220-eb88-4f6b-8d82-979efee65d2d_18",
+            "sourceId": "8212cdb9",
             "questionNumber": 18,
             "testName": "Past SAT-based",
             "prompt": "$\\frac{4}{9}(4x+9)\\sqrt{4k+9}\\sqrt{4k+9}=0$\nIn the given equation, $k$ is a positive constant. The product of the solutions to the equation is 81. What is the value of $k$?",
@@ -4931,11 +4931,11 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
         {
           "slot": 19,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_19",
+            "stableId": "bank-past-math-b3be118e",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_19",
+            "sourceId": "b3be118e",
             "questionNumber": 19,
             "testName": "Past SAT-based",
             "prompt": "Which expression is equivalent to $10\\left(x+3\\right)$?",
@@ -4978,16 +4978,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_19"
+          "originalSourceId": "b3be118e"
         },
         {
           "slot": 20,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
+            "stableId": "bank-past-math-95f634f2",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20",
+            "sourceId": "95f634f2",
             "questionNumber": 20,
             "testName": "Past SAT-based",
             "prompt": "In isosceles triangle $ABC$, sides $AB$ and $AC$ are congruent. Point $D$ divides side $BC$ such that the length of $\\overline{BD}$ is $\\frac{4}{7}$ of the length of $\\overline{BC}$. Point $E$ lies on side $AB$ and point $F$ lies on side $AC$ such that when segments $DE$ and $DF$ are drawn, $\\angle BED$ is congruent to $\\angle CFD$. If the length of $\\overline{BE}$ is 8, what is the length of $\\overline{CF}$?",
@@ -5012,16 +5012,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_20"
+          "originalSourceId": "95f634f2"
         },
         {
           "slot": 21,
           "bankQuestion": {
-            "stableId": "bank-past-math-fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
+            "stableId": "bank-past-math-4b767b42",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21",
+            "sourceId": "4b767b42",
             "questionNumber": 21,
             "testName": "Past SAT-based",
             "prompt": "The area of a rectangular region is increasing at a rate of $270$ square feet per hour. Which of the following is closest to this rate in square meters per minute? (Use $1$ meter = $3.28$ feet.)",
@@ -5064,16 +5064,16 @@ export const GENERATED_PRACTICE_SET: GeneratedPracticeSet = {
           },
           "isReplacement": false,
           "mappingMethod": "direct-source-id",
-          "originalSourceId": "fb11da56-a8c4-4733-a720-f2cea7a98a1a_21"
+          "originalSourceId": "4b767b42"
         },
         {
           "slot": 22,
           "bankQuestion": {
-            "stableId": "bank-past-math-05468350-9fef-44ab-b9cb-893b50a7cadd_22",
+            "stableId": "bank-past-math-31fe22e2",
             "bankType": "past",
             "bankLabel": "Past SAT-based",
             "subject": "math",
-            "sourceId": "05468350-9fef-44ab-b9cb-893b50a7cadd_22",
+            "sourceId": "31fe22e2",
             "questionNumber": 22,
             "testName": "Past SAT-based",
             "prompt": "$nx^2 - 16x = 26x^2 - 8$\nIn the given equation, $n$ is an integer constant. If the equation has two distinct real solutions, what is the greatest possible value of $n$?",

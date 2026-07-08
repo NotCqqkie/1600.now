@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal in the text",
-      "content": "The researchers want to know whether biological traits are associated with \"considerable variations in venom potency.\" The phrase \"considerable variations\" signals the scale of effect being measured &mdash; something large and meaningful, not trivial or unnoticeable."
+      "title": "Use the definition after the dash",
+      "content": "The sentence explains the blank immediately after the dash: the researchers want to see whether differences in age and sex are associated with considerable variations in venom potency. The blank must therefore mean large or meaningful."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul>\n<li><strong>\"a disconcerting\"</strong>: Means unsettling or disturbing &mdash; an emotional quality. The text is about measuring magnitude of variation, not how the researchers feel about the effect. &#10007;</li>\n<li><strong>\"an acceptable\"</strong>: Means satisfactory or adequate. The text never asks whether the effect is good enough; it asks whether it is large. &#10007;</li>\n<li><strong>\"an imperceptible\"</strong>: Means unnoticeable or too small to detect, which contradicts the goal of finding \"considerable variations.\" &#10007;</li>\n<li><strong>\"a substantial\"</strong>: Means sizable and significant, directly matching \"considerable variations in venom potency.\" &#10003;</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate wrong meanings",
+      "content": "Choice A, “a disconcerting,” means troubling, not necessarily large. Choice B, “an acceptable,” does not match considerable variation. Choice C, “an imperceptible,” means too slight to notice, the opposite of considerable. The word meaning large or important fits. The answer is <strong>D</strong>."
     }
   ]
 }

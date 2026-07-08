@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify why tangent applies",
-      "content": "The question asks for $\\tan x^\\circ$ in a right triangle. Tangent compares the side opposite the angle to the side adjacent to the angle:<br/>$$\\tan(\\theta)=\\dfrac{\\text{opposite}}{\\text{adjacent}}.$$"
+      "title": "Use the tangent ratio",
+      "content": "In a right triangle, tangent compares the side opposite the angle to the side adjacent to the angle.\n$$\n\\tan x^\\circ=\\frac{\\text{opposite}}{\\text{adjacent}}\n$$"
     },
     {
-      "title": "Identify the two relevant sides",
-      "content": "From the figure, the side opposite $x^\\circ$ is $26$, and the side adjacent to $x^\\circ$ is $7$. Therefore, $$\\tan(x^\\circ)=\\dfrac{26}{7}.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The value $\\frac{26}{7}$ matches <strong>C</strong>. The fractions $\\frac{1}{26}$ and $\\frac{19}{26}$ use the wrong side relationship, and $\\frac{33}{7}$ adds side lengths instead of using opposite over adjacent."
+      "title": "Substitute the side lengths",
+      "content": "From the figure, the side opposite $x^\\circ$ is $26$, and the adjacent side is $7$.\n$$\n\\tan x^\\circ=\\frac{26}{7}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

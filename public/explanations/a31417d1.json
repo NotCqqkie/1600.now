@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the exponential decay model",
-      "content": "When a quantity declines by a constant percentage each year, it follows exponential decay of the form $C = C_0(b)^t$. Here, $C_0 = 450$ million is the initial value in 2010, and $b$ is the yearly multiplier (what we multiply by each year)."
+      "title": "Find the decay multiplier",
+      "content": "A $12\\%$ yearly decline means $88\\%$ of the previous year's amount remains each year.<br/>$$100\\%-12\\%=88\\%=0.88$$"
     },
     {
-      "title": "Convert the decline rate to a multiplier",
-      "content": "Declined by 12% each year means the amount left is $100\\%-12\\%=88\\%$ of the previous year's amount, so the yearly multiplier is $0.88$. The model is $$C=450(0.88)^t.$$ That confirms <strong>B</strong> is correct."
+      "title": "Build the model",
+      "content": "The initial amount is $450$ million, and the multiplier is applied once per year after 2010.<br/>$$C=450(0.88)^t$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

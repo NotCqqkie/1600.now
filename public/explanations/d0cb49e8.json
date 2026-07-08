@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the graph at 600 kelvins",
-      "content": "The horizontal axis is temperature $x$, and the vertical axis is pressure $y$. Locate $x=600$ kelvins on the graph, then read the $y$-value where the line passes through that vertical position."
+      "title": "Locate the temperature",
+      "content": "The horizontal axis shows temperature $x$, and the vertical axis shows pressure $y$. Find $x=600$ on the horizontal axis."
     },
     {
-      "title": "Confirm the answer",
-      "content": "At $x=600$, the graph shows $y=12$. The estimated pressure is $12$ psi; that is the correct answer."
+      "title": "Read the pressure",
+      "content": "At $x=600$, the graph shows $y=12$, so the estimated pressure is $12$ psi. The answer is <strong>B</strong>."
     }
   ]
 }

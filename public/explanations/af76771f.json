@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal",
-      "content": "The student wants to <strong>emphasize a similarity</strong> between Sue and Big Mike. From the notes, the one fact both share is genus membership: both are members of the genus <em>Tyrannosaurus</em>. The correct choice must state that shared fact for both specimens."
+      "title": "Find the shared trait",
+      "content": "The student wants a similarity between Sue and Big Mike. The notes give several separate facts, but the shared fact is that both specimens belong to the genus <em>Tyrannosaurus</em>."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A &mdash; The Field Museum of Natural History, where Sue is housed, is located in Chicago, Illinois.</strong>: mentions only Sue and only her location; says nothing about Big Mike or any similarity. &#10007;</li><li><strong>Choice B &mdash; Big Mike is the nickname of a <em>Tyrannosaurus</em> fossil specimen housed at the Museum of the Rockies in Bozeman, Montana.</strong>: mentions only Big Mike; does not compare him to Sue. &#10007;</li><li><strong>Choice C &mdash; The dinosaur fossil specimens Sue and Big Mike are both members of the genus <em>Tyrannosaurus.</em></strong>: names both specimens and uses &ldquo;both&rdquo; to state their shared genus directly, accomplishing the goal. &#10003;</li><li><strong>Choice D &mdash; While Sue is housed at the Field Museum of Natural History, Big Mike is housed at the Museum of the Rockies.</strong>: contrasts their locations with &ldquo;While,&rdquo; emphasizing a difference rather than a similarity. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject one-sided details",
+      "content": "A discusses only Sue's museum location. B discusses only Big Mike. D compares different museums, which emphasizes a difference rather than a similarity. The effective choice names both specimens and states their shared genus. The answer is <strong>C</strong>."
     }
   ]
 }

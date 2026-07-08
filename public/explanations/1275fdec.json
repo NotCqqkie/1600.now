@@ -1,0 +1,15 @@
+{
+  "questionId": "1275fdec",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the accuracy gap",
+      "content": "The text says Alvarez's 2015 calculation was more accurate than the 1920 US Geological Survey calculation. The next sentence explains why that older calculation was less precise: it used only cardboard and string."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A signals similarity, B signals pursuit of a goal, and D signals a final outcome. The equipment detail is instead an unsurprising explanation for why the earlier calculation was less accurate. The answer is <strong>C</strong>."
+    }
+  ]
+}

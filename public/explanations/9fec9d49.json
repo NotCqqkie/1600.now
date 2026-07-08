@@ -4,17 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the area scale factor",
-      "content": "The model's side lengths are scaled by $\\frac{1}{10}$. Areas scale by the square of the side-length scale factor."
-    },
-    {
-      "title": "Identify the linear scale factor",
-      "content": "The model's sides are $\\frac{1}{10}$ times the actual sides. Therefore, the linear scale factor is $k = \\frac{1}{10}$."
-    },
-    {
-      "title": "Apply the area scaling rule for similar figures",
-      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. <br/><br/>Area scale factor: $\\left(\\frac{1}{10}\\right)^2 = \\frac{1}{100}$<br/><br/>Model area: $900 \\cdot \\frac{1}{100} = 9$ square meters.<br/><br/>That confirms <strong>A</strong> is correct.",
+      "title": "Square the scale factor",
+      "content": "Area changes by the square of the side-length scale factor. The model's side lengths are $\\frac{1}{10}$ of the actual side lengths.",
       "formula": "$$\\text{Area scale factor} = k^2$$"
+    },
+    {
+      "title": "Find the model area",
+      "content": "The area scale factor is<br/><br/>$$(\\frac{1}{10})^2=\\frac{1}{100}$$<br/><br/>Apply it to the actual area:<br/><br/>$$900\\cdot\\frac{1}{100}=9$$<br/><br/>The answer is <strong>A</strong>."
     }
   ]
 }

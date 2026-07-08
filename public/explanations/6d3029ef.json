@@ -1,0 +1,15 @@
+{
+  "questionId": "6d3029ef",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the process result",
+      "content": "The first sentence describes collecting sediment samples and analyzing them with OSL dating to determine the approximate age of wooden tools. The next sentence gives what that process indicated."
+    },
+    {
+      "title": "Reject comparison signals",
+      "content": "A and D would introduce a similarity or comparison, and C would simply add another point. The sentence needs a transition showing the final result of the dating process. The answer is <strong>B</strong>."
+    }
+  ]
+}

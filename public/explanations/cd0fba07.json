@@ -1,0 +1,15 @@
+{
+  "questionId": "cd0fba07",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use within-country variation",
+      "content": "The older explanation for why oil shocks are hard to generalize focuses on country-specific traits, especially oil import-export ratios. Adebayo's finding changes the explanation: estimates vary widely even within the same country and time frame, where those country-specific traits would not vary enough to explain the disagreement."
+    },
+    {
+      "title": "Infer a study-level cause",
+      "content": "Choice A focuses on controlling import-export ratios, Choice B claims ordinary measures are not sensitive enough, and Choice D returns to cross-country import-export differences. The within-country disagreement points instead to differences in how economists conduct oil-shock studies as a cause of inconsistent estimates. The answer is <strong>C</strong>."
+    }
+  ]
+}

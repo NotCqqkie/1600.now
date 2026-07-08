@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the claim",
-      "content": "The underlined claim states that male and female <em>A. fasciatus</em> share the same sponge microhabitat. To support this, the data must show both males and females present together in the same sponge &mdash; across multiple sponges, not just one.<ul><li><strong>Choice A &mdash; &lsquo;Each of the three sponges was inhabited by at least one male <em>A. fasciatus</em> and at least one undetermined <em>A. fasciatus</em>.&rsquo;</strong>: This mentions males and undetermined sharks, but says nothing about females. It cannot support a male-female cohabitation claim. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Sponge 1 was inhabited by 17 male <em>A. fasciatus</em>.&rsquo;</strong>: This gives only a male count from one sponge, with no information about females at all. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Each of the three sponges was inhabited by at least one male <em>A. fasciatus</em> and at least one female <em>A. fasciatus</em>.&rsquo;</strong>: This directly shows males and females sharing the same sponge across all three microhabitats studied, which is exactly what the claim requires. &#10003;</li><li><strong>Choice D &mdash; &lsquo;Sponge 1 was inhabited by 13 female <em>A. fasciatus</em>.&rsquo;</strong>: This gives only a female count from one sponge, with no information about males. &#10007;</li></ul>"
+      "title": "Support shared microhabitats",
+      "content": "The underlined claim says male and female <em>A. fasciatus</em> share the same sponge. The graph must therefore show both sexes present in the same sponge microhabitat, not just one sex or sharks whose sex is unknown."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only the credited statement, &lsquo;Each of the three sponges was inhabited by at least one male <em>A. fasciatus</em> and at least one female <em>A. fasciatus</em>,&rsquo; shows both sexes present in the same microhabitat across all three sponges, directly proving the cohabitation pattern described in the passage. That confirms <strong>C</strong> is correct."
+      "title": "Reject one-sex data",
+      "content": "Choice A includes males and undetermined sharks, not females. Choice B gives only male sharks in Sponge 1. Choice D gives only female sharks in Sponge 1. The remaining choice shows that each of the three sponges contained at least one male and at least one female, which directly supports the claim that males and females share sponge microhabitats. The answer is <strong>C</strong>."
     }
   ]
 }

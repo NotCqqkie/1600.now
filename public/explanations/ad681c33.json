@@ -1,0 +1,25 @@
+{
+  "questionId": "ad681c33",
+  "correctAnswer": "2520",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the surface area ratio",
+      "content": "For similar prisms, surface areas scale by the square of the linear scale factor:\n$$\n\\frac{1{,}550}{62}=25\n$$",
+      "formula": "$$\\text{Surface area scales by } k^2$$"
+    },
+    {
+      "title": "Convert to volume ratio",
+      "content": "Since the surface area ratio is $25$, the linear scale factor from prism $X$ to prism $Y$ is $5$. Volumes scale by the cube of that factor:\n$$\n5^3=125\n$$",
+      "formula": "$$\\text{Volume scales by } k^3$$"
+    },
+    {
+      "title": "Find the smaller volume",
+      "content": "Prism $Y$ has volume $2{,}500$, so prism $X$ has volume\n$$\n\\frac{2{,}500}{125}=20\n$$"
+    },
+    {
+      "title": "Add the volumes",
+      "content": "The requested sum is\n$$\n20+2{,}500=2{,}520\n$$\nThe answer is <strong>2520</strong>."
+    }
+  ]
+}

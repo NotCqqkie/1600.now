@@ -1,0 +1,15 @@
+{
+  "questionId": "3312e9ee",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the antecedent",
+      "content": "The blank is the subject of <em>finally made a decision</em>. The sentence later identifies the decision-makers as the judges for the 1947 Nobel Prize in Literature, so the pronoun must refer to a plural group."
+    },
+    {
+      "title": "Reject singular or vague pronouns",
+      "content": "Choice A is indefinite and singular. Choice B addresses the reader rather than the judges. Choice D is singular and cannot refer to the plural judges. The answer is <strong>C</strong>."
+    }
+  ]
+}

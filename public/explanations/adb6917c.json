@@ -1,0 +1,15 @@
+{
+  "questionId": "adb6917c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject of the sentence is the singular noun phrase <em>Food writer J. Kenji López-Alt</em>. The descriptive clause about exploring cooking science does not change the number of that subject, so the blank needs a singular present-tense verb."
+    },
+    {
+      "title": "Reject nonmatching verbs",
+      "content": "Choice A is plural present tense. Choice C is plural present perfect. Choice D is plural progressive. Each fails to agree with the singular subject. The answer is <strong>B</strong>."
+    }
+  ]
+}

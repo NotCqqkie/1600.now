@@ -1,0 +1,19 @@
+{
+  "questionId": "eafe1562",
+  "correctAnswer": "268",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use years after the start",
+      "content": "Let $t$ be the number of years after $1998$. Then the known points are $(0{,}47)$ and $(20{,}231)$, and $2022$ corresponds to $t=24$."
+    },
+    {
+      "title": "Find the linear model",
+      "content": "Find the slope from the known points:\n$$\nm=\\frac{231-47}{20-0}=\\frac{184}{20}=9.2\n$$\nSince the value at $t=0$ is $47$, the model is $y=9.2t+47$."
+    },
+    {
+      "title": "Predict the later value",
+      "content": "Substitute $t=24$:\n$$\ny=9.2(24)+47=267.8\n$$\nRounded to the nearest whole number, this is $268$. The answer is <strong>268</strong>."
+    }
+  ]
+}

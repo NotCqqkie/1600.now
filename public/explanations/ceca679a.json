@@ -1,0 +1,19 @@
+{
+  "questionId": "ceca679a",
+  "correctAnswer": "320",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the small height",
+      "content": "In right triangle $ABC$, $AB=\\sqrt{89}$ and $AC=8$. Use the Pythagorean theorem to find $BC$:<br/>$$BC^2+8^2=(\\sqrt{89})^2$$<br/>$$BC^2+64=89$$<br/>$$BC=5$$"
+    },
+    {
+      "title": "Scale to the larger triangle",
+      "content": "The full base is $AE=AC+CE=8+24=32$. Since the triangles share the same slanted line, the height-to-base ratio is:<br/>$$\\frac{BC}{AC}=\\frac{5}{8}$$<br/>So the larger height is:<br/>$$DE=\\frac{5}{8}\\cdot 32=20$$"
+    },
+    {
+      "title": "Compute the triangle area",
+      "content": "Use the area formula for triangle $ADE$:<br/>$$\\frac{1}{2}(32)(20)=320$$<br/>The answer is <strong>320</strong>."
+    }
+  ]
+}

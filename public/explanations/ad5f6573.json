@@ -1,0 +1,19 @@
+{
+  "questionId": "ad5f6573",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on similarity",
+      "content": "The student wants to emphasize a similarity between the two TV programs, so the answer must include both programs and identify something they share. Details that describe only one program, or details that contrast the two programs, do not meet that goal."
+    },
+    {
+      "title": "Find the shared category",
+      "content": "The notes say that slow TV documentary programs consist of uninterrupted broadcasts of ordinary events in real time. They also identify <em>All Aboard! The Sleigh Ride</em> as a British slow TV program and <em>Monsen: Minutt for Minutt</em> as a Norwegian slow TV program. That shared genre and real-time format are the relevant overlap."
+    },
+    {
+      "title": "Reject contrasts and singles",
+      "content": "Choice A discusses only <em>All Aboard! The Sleigh Ride</em>. Choice B names both programs but contrasts a sleigh ride with a hike. Choice C contrasts the running times, saying one program is shorter than the other. The choice that says both are slow TV documentaries documenting ordinary events in real time emphasizes a similarity. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "cd2a9271",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared claim",
+      "content": "The question asks what both authors would most likely agree with. Text 1 is confident that UNESCO's City of Gastronomy designation brought awareness to Rasht's food culture and boosted tourism. Text 2 is more cautious, saying cities still need effective marketing to benefit fully from the designation."
+    },
+    {
+      "title": "Balance confidence and caution",
+      "content": "Both texts can support a moderate claim that the designation can benefit a city's food scene. Text 1 says that benefit happened in Rasht, while Text 2 says the benefit is possible but may require intentional promotion to reach visitors."
+    },
+    {
+      "title": "Avoid one-sided claims",
+      "content": "<ul><li>Choice A goes beyond both texts by claiming benefits well beyond increased tourism.</li><li>Choice B fits Text 2's caution better than Text 1's confident statement about Rasht.</li><li>Choice D conflicts with Text 1, which says the honor is well known among tourists who visit.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "bf9bd3c9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Restate the time change",
+      "content": "The prior sentence says the probe shortened Dimorphos's orbital period by 32 minutes. The next sentence gives the before-and-after times: 11 hours 55 minutes and 11 hours 23 minutes, which restate that same 32-minute shortening."
+    },
+    {
+      "title": "Reject additive or example signals",
+      "content": "Choice B would add a separate point. Choice C would signal a simultaneous event. Choice D would introduce an example of a broader pattern, but the following numbers restate the specific change already mentioned. The needed transition means in other words. The answer is <strong>A</strong>."
+    }
+  ]
+}

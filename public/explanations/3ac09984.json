@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert pesos to US dollars using the exchange rate",
-      "content": "Multiply 8,000 pesos by the conversion factor of 0.065 USD per peso:<br/>$$8,000 \\times 0.065 = 520.00 \\text{ USD}$$"
+      "title": "Convert pesos to dollars",
+      "content": "Multiply the number of pesos by the dollar value of each peso.\n$$\n8{,}000(0.065)=520.00\n$$\nBefore the fee, the converted amount is $520.00$ US dollars."
     },
     {
-      "title": "Apply the 3% fee to the converted amount",
-      "content": "Lina loses 3% to the exchange service, so she receives 97% of the converted dollars:<br/>$$520.00 \\times 0.97 = 504.40 \\text{ USD}$$<br/><strong>A</strong> is correct."
+      "title": "Apply the service fee",
+      "content": "A $3\\%$ fee means Lina receives $97\\%$ of the converted dollar amount.\n$$\n520.00(0.97)=504.40\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

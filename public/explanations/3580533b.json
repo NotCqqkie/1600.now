@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the tense anchor",
-      "content": "The previous sentence uses the simple present tense: &quot;Economists in India, for example, use an Ease of Living Index.&quot; The blank describes what that tool does &mdash; a general, ongoing fact. General facts about a currently-used tool require simple present tense to match the established time frame.<ul><li><strong>Choice A — measures</strong>: Simple present tense. Matches &quot;use&quot; and correctly describes an ongoing property of the tool. &#10003;</li><li><strong>Choice B — had measured</strong>: Past perfect &mdash; implies the measuring is finished and prior to another past event. The tool is still in use, so past tense is wrong. &#10007;</li><li><strong>Choice C — would have measured</strong>: Future perfect conditional &mdash; expresses a hypothetical or unrealized future action. The tool currently exists and is used, not hypothetical. &#10007;</li><li><strong>Choice D — will have been measuring</strong>: Future perfect continuous &mdash; describes an action that will be ongoing up to a future point. This shifts to the future with no justification in the passage. &#10007;</li></ul>"
+      "title": "Use the tense anchor",
+      "content": "The previous sentence says economists in India <em>use</em> an Ease of Living Index. That simple present verb sets up the blank as a description of what the tool generally does now. The sentence is not describing an action completed before a past event, an unreal condition, or something continuing up to a future point."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only simple present &quot;measures&quot; matches the tense established by &quot;use&quot; and correctly describes a current, ongoing fact about the tool. <strong>A</strong> is correct."
+      "title": "Choose the matching tense",
+      "content": "Choice A - measures. This is simple present tense, so it fits the current, general function of the tool. Choice B - had measured. This is past perfect and would imply the measuring happened before some later past event. Choice C - would have measured. This creates a hypothetical conditional meaning not supported by the sentence. Choice D - will have been measuring. This shifts the statement into future perfect continuous tense without any future time marker. The answer is <strong>A</strong>."
     }
   ]
 }

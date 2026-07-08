@@ -1,0 +1,15 @@
+{
+  "questionId": "b6070c44",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the expected change",
+      "content": "The first sentence explains that ticker-tape originally came from telegraph tickers. By the 2008 Giants parade, those machines had long since been retired, so the sentence needs a transition that presents this as expected background."
+    },
+    {
+      "title": "Reject example and result links",
+      "content": "A would make the 2008 sentence an example of ticker use, but it says tickers were gone. B merely adds information without signaling expectation. D wrongly makes retirement a result of earlier parade practices. The transition should mean \"naturally\" or \"unsurprisingly.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

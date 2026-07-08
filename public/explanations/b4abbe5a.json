@@ -1,0 +1,15 @@
+{
+  "questionId": "b4abbe5a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect methane to weather",
+      "content": "Methane mole fraction affects precipitation and humidity, but Titan's observations are too sparse and inconsistent to fully constrain that fraction. The model responds by using one uniform value for the lowest atmosphere."
+    },
+    {
+      "title": "Expect model-reality gaps",
+      "content": "A reverses the issue by treating one value as the goal of better data, C discusses inconsistencies within the model rather than between model and reality, and D guesses an unsupported direction for the real value. The uniform assumption makes some weather mismatches expected. The answer is <strong>B</strong>."
+    }
+  ]
+}

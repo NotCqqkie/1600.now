@@ -1,0 +1,15 @@
+{
+  "questionId": "6205e685",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stated conclusion",
+      "content": "La Paz respondents reported higher park use even though fewer of them lived within a 10-minute walk of a park. The text explicitly concludes that proximity alone cannot explain the difference."
+    },
+    {
+      "title": "Choose the nonproximity cause",
+      "content": "The matching option restates that something other than proximity must be causing the difference in park use. Choice A mentions expectations, Choice B mentions older sources, and Choice C mentions inaccurate survey results, but none of those ideas appears in the text. The answer is <strong>D</strong>."
+    }
+  ]
+}

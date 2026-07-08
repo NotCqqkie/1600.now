@@ -1,0 +1,19 @@
+{
+  "questionId": "11c7e235",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the right angle",
+      "content": "Angles $A$ and $B$ are acute, so the right angle is at $C$. That makes $AC$ and $BC$ the legs of the right triangle."
+    },
+    {
+      "title": "Set up tangent",
+      "content": "For angle $B$, side $AC$ is opposite and side $BC$ is adjacent.\n$$\\tan B=\\frac{AC}{BC}$$\n$$\\frac{1}{8}=\\frac{31.4}{BC}$$"
+    },
+    {
+      "title": "Solve for the side",
+      "content": "Cross-multiply to isolate $BC$.\n$$BC=31.4\\cdot8=251.2$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "8e2fce39",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the length conversion",
+      "content": "Because this is an area rate, square the length conversion first.<br/>$$(3.28)^2=10.7584$$<br/>So $1$ square meter equals $10.7584$ square feet."
+    },
+    {
+      "title": "Convert the hourly area rate",
+      "content": "Change square feet to square meters by dividing by $10.7584$.<br/>$$\\frac{360}{10.7584}=33.46$$<br/>The quotient is $33.46$ when rounded, so the rate is about $33.46$ square meters per hour."
+    },
+    {
+      "title": "Convert hours to minutes",
+      "content": "Divide the hourly rate by $60$ to get the rate per minute.<br/>$$\\frac{33.46}{60}=0.558$$<br/>The closest listed value is $0.56$. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Boundaries question testing punctuation within a sentence. The sentence contains an opening em-dash after &quot;that&mdash;&quot; which introduces the parenthetical element &quot;assuming solar panel installers' cooperation.&quot; The blank must close that parenthetical so that &quot;this practice has the potential to increase...&quot; continues as the main clause. The rule: paired dashes set off a supplementary element &mdash; the closing punctuation must match the opening dash."
+      "title": "Close the dash phrase",
+      "content": "The dash after \"that\" opens the supplementary phrase \"assuming solar panel installers' cooperation.\" The blank must close that phrase before the main clause resumes with \"this practice has the potential to increase.\" A matching dash is needed."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; cooperation, this</strong>: A comma cannot be paired with a dash to close a parenthetical. A dash opens; a comma closes &mdash; that is a mismatch. &#10007;</li><li><strong>Choice B &mdash; cooperation — this</strong>: A second dash correctly closes the parenthetical element opened by the first dash after &quot;that.&quot; The supplementary phrase &quot;assuming solar panel installers' cooperation&quot; is properly bracketed, and &quot;this practice...&quot; resumes the main clause. &#10003;</li><li><strong>Choice C &mdash; cooperation : this</strong>: A colon cannot be paired with a dash to close a parenthetical, and a colon here would incorrectly signal an elaboration or list following. &#10007;</li><li><strong>Choice D &mdash; cooperation this</strong>: No punctuation leaves the parenthetical element unclosed, so the sentence structure is broken and the supplementary phrase runs into the main clause without separation. &#10007;</li></ul>That matches <strong>Choice B &mdash; cooperation — this</strong>."
+      "title": "Rule out mismatched punctuation",
+      "content": "Choice A closes the phrase with a comma, and Choice C closes it with a colon; neither can pair with the opening dash. Choice D leaves the supplementary phrase unclosed. The sentence needs a second dash before \"this.\" The answer is <strong>B</strong>."
     }
   ]
 }

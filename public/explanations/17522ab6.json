@@ -1,0 +1,15 @@
+{
+  "questionId": "17522ab6",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject head",
+      "content": "The subject is <em>its similarity to each of the 32 soil reference groups</em>. The head noun is <em>similarity</em>, which is singular. The phrase <em>to each of the 32 soil reference groups</em> does not make the subject plural."
+    },
+    {
+      "title": "Match agreement and tense",
+      "content": "Choice A and choice B use plural verb forms that do not agree with <em>similarity</em>. Choice D is singular but past tense, clashing with the present-tense context of <em>is classified</em> and <em>is found</em>. The singular present form fits the passive verb phrase. The answer is <strong>C</strong>."
+    }
+  ]
+}

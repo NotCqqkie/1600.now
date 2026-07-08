@@ -1,0 +1,23 @@
+{
+  "questionId": "4d803696",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the equations",
+      "content": "The second equation has one extra $y$ compared with the first equation:<br/>$$x+y=105$$<br/>$$x+y+y=115$$"
+    },
+    {
+      "title": "Find the extra amount",
+      "content": "Subtract the first equation from the second:<br/>$$(x+y+y)-(x+y)=115-105$$<br/>$$y=10$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection's $y$-coordinate. The answer is <strong>10</strong>.",
+      "desmosExpressions": [
+        "x + y = 105",
+        "x + y + y = 115"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "31c1c398",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate two complete clauses",
+      "content": "The first clause says Gujarati grammar includes noun cases common to Indo-Aryan languages. The second clause explains the locative case. Since both parts can stand as complete sentences, the boundary needs strong punctuation."
+    },
+    {
+      "title": "Use the semicolon boundary",
+      "content": "A and B use only a comma, creating a comma splice. D adds 'such as' before a complete clause, which does not fit the sentence structure. A semicolon correctly joins the two independent clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

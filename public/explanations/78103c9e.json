@@ -1,0 +1,19 @@
+{
+  "questionId": "78103c9e",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Start with the per-acre range",
+      "content": "The estimate is at least $40$ and no more than $55$ spruce trees per acre. That gives the per-acre inequality:<br/>$$40\\leq \\text{trees per acre}\\leq 55$$"
+    },
+    {
+      "title": "Scale to four acres",
+      "content": "The question asks about a $4$-acre section, so multiply both bounds by $4$:<br/>$$40(4)\\leq x\\leq 55(4)$$<br/>$$160\\leq x\\leq 220$$"
+    },
+    {
+      "title": "Compare the bounds",
+      "content": "Choice A leaves the estimate per acre. Choice C scales only the upper bound. Choice D has the lower bound greater than the upper bound. The interval $160\\leq x\\leq 220$ represents the $4$-acre estimate. The answer is <strong>B</strong>."
+    }
+  ]
+}

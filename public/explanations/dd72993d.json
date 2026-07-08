@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Establish the key data relationship",
-      "content": "The passage states: segments flowing into lakes carry more sediment than segments flowing out, and sediment-rich water produces dominant wavelengths above 560 nm (yellow). The correct answer must directly compare inflow and outflow wavelengths to support this conclusion.\n<ul>\n<li><strong>\"The segments of the Missouri River that had higher levels of chlorophyll-a, which contributes to the green color of photosynthetic organisms, have dominant wavelengths of light between 490 and 560 nm.\"</strong>: Discusses chlorophyll-a — an unrelated factor; says nothing about inflow vs. outflow sediment. &#10007;</li>\n<li><strong>\"In lakes through which segments of the Missouri River pass, the dominant wavelength of light tended to be above 560 nm near the lakes' shores and below 560 nm in the lakes' centers.\"</strong>: Describes variation within lakes, not a comparison of river inflow vs. outflow segments. &#10007;</li>\n<li><strong>\"The majority of the segments of the Missouri River were found to have dominant wavelengths of light significantly higher than 560 nm.\"</strong>: Makes a general claim about river segments overall — does not compare inflow segments to outflow segments. &#10007;</li>\n<li><strong>\"Segments of the Missouri River flowing into lakes typically had dominant wavelengths of light above 560 nm, while segments flowing out of lakes typically had dominant wavelengths below 560 nm.\"</strong>: Directly compares inflow (above 560 nm = sediment-rich) to outflow (below 560 nm = less sediment), matching the defined sediment-wavelength relationship. &#10003;</li>\n</ul>"
+      "title": "Connect color to sediment",
+      "content": "The conclusion compares Missouri River segments flowing into lakes with segments flowing out of lakes. The passage says sediment-rich rivers appear yellow, and the researchers classify wavelengths of 560 nm or above as yellow. So supporting data should show inflow segments at or above that threshold and outflow segments below it."
     },
     {
-      "title": "Confirm the answer",
-      "content": "Only one choice pairs the inflow/outflow comparison with the wavelength threshold for sediment. That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Compare inflow and outflow",
+      "content": "D gives exactly that comparison: inflow segments usually have wavelengths above 560 nm, while outflow segments usually have wavelengths below 560 nm. A concerns chlorophyll instead of sediment and does not compare inflow with outflow. B describes lake shores and centers. C says most segments are above 560 nm but gives no inflow-outflow contrast. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "c9babc51",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Define the counterexample",
+      "content": "The proposal says fracture toughness increases with the proportion of cobalt in a high-entropy alloy. To show this is not the case, the example should undermine a simple cobalt-to-toughness relationship. The clearest way is to compare alloys with the same cobalt proportion but different fracture toughness values."
+    },
+    {
+      "title": "Compare same-cobalt alloys",
+      "content": "HEA 7 and HEA 95 have the same proportion of cobalt, yet the table reports different fracture toughness values for them. If cobalt proportion alone determined increasing fracture toughness, equal cobalt proportions would not produce that kind of difference. Choices B, C, and D only say that cobalt proportions differ across alloys, which could still fit the proposed relationship rather than refute it. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "95a94670",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the three parts",
+      "content": "The passage identifies community science as a research approach, lists benefits of that approach, and then mentions Bennett's butterfly study as a case in which the approach was used."
+    },
+    {
+      "title": "Reject mismatched sequences",
+      "content": "Choice A wrongly makes study results central. Choice B invents public opinion about the approach. Choice C invents a history of development and future collaborative projects."
+    },
+    {
+      "title": "Choose the research sequence",
+      "content": "The remaining choice matches the passage's movement from defining an approach, to naming its benefits, to giving a study that used it. The answer is <strong>D</strong>."
+    }
+  ]
+}

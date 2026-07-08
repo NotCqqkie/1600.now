@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Read the zeros of g",
-      "content": "The graph of $y=g(x)$ intersects or touches the $x$-axis at $x=-2$, $x=1$, and $x=3$. So $$g(-2)=0,\\quad g(1)=0,\\quad g(3)=0.$$"
+      "content": "From the graph of $y=g(x)$, the zeros are the $x$-values where the graph meets the $x$-axis:\n$$x=-2,\\quad x=1,\\quad x=3$$"
     },
     {
-      "title": "Translate the zeros through x plus 28",
-      "content": "The equation is $$g(x+28)=\\frac{1}{10}(x-a)^2(x-b)^2(x-c).$$ A zero on the right happens when $x+28$ equals a zero of $g$. So the possible zeros of $g(x+28)$ are $$-2-28=-30,$$ $$1-28=-27,$$ and $$3-28=-25.$$"
+      "title": "Shift the zero inputs",
+      "content": "For $g(x+28)$ to equal $0$, the input $x+28$ must be one of the zeros of $g$.\n$$x+28=-2,\\quad x+28=1,\\quad x+28=3$$\n$$x=-30,\\quad x=-27,\\quad x=-25$$"
     },
     {
-      "title": "Match the possible value of b",
-      "content": "The factored form has zeros at $x=a$, $x=b$, and $x=c$, with $a$ and $b$ repeated because they are squared. The question only asks which listed value could be $b$. The possible shifted zero values are $-30$, $-27$, and $-25$; of the answer choices, only $-25$ appears."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Choice A, $31$, would correspond to a zero of $g$ at $31+28=59$. Choice B, $3$, would correspond to $31$. Choice C, $-2$, would correspond to $26$. None of those are visible zeros of $g$. <strong>D</strong>, $-25$, corresponds to the visible zero $3$ because $-25+28=3$."
+      "title": "Match the possible factor",
+      "content": "In the factored form, $b$ is one of the zeros of $g(x+28)$ because the factor $(x-b)^2$ becomes $0$ when $x=b$. The only listed value among the possible zeros is $-25$.\nThe answer is <strong>D</strong>."
     }
   ]
 }

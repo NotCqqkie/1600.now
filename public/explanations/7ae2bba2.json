@@ -1,0 +1,19 @@
+{
+  "questionId": "7ae2bba2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify the missing years",
+      "content": "The first sentence says rocks from widely separated periods may directly touch, with millions of years of material missing. The next sentence explains that time still passed and sediment was removed by erosion and weathering."
+    },
+    {
+      "title": "Reject wrong relationships",
+      "content": "Choice A signals contradiction, but the second sentence explains the first. Choice C reverses cause and effect. Choice D signals a specific example, not a natural clarification."
+    },
+    {
+      "title": "Choose expected clarification",
+      "content": "Of course signals the obvious clarification that time did not literally stop; the record lost material through geological processes. The answer is <strong>B</strong>."
+    }
+  ]
+}

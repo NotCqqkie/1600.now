@@ -1,0 +1,19 @@
+{
+  "questionId": "bebce2c5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Spot the map contrast",
+      "content": "Topographic maps show elevation above sea level, while bathymetric maps show elevation below the sea. The second sentence therefore needs a transition that marks direct contrast between two related map types."
+    },
+    {
+      "title": "Rule out mismatched transitions",
+      "content": "Choice A signals a later event, but no time sequence is described. Choice B signals a conclusion, but the passage is not wrapping up an argument. Choice C introduces an example, but bathymetric maps are not an example of topographic maps."
+    },
+    {
+      "title": "Choose the contrast marker",
+      "content": "The remaining transition signals opposition between the two map types on the same dimension: above sea level versus below the sea. The answer is <strong>D</strong>."
+    }
+  ]
+}

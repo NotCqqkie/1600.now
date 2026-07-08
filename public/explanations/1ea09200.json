@@ -1,20 +1,19 @@
 {
   "questionId": "1ea09200",
-  "qid": "1ea09200",
+  "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "The 45 students were randomly selected from fifth-graders at one specific school."
+      "title": "Identify the sampled group",
+      "content": "The sample was selected at random from fifth-grade students at one school. That means the survey can represent the population from which the sample was drawn."
     },
     {
-      "title": "Step 2",
-      "content": "Random samples only generalize to the population from which they were drawn."
+      "title": "Limit the conclusion",
+      "content": "The survey did not sample other grade levels or fifth-grade students at other schools. It also should not be limited only to the $45$ surveyed students, because the sample was random."
     },
     {
-      "title": "Step 3",
-      "content": "Since the sample came from fifth-graders at that school, results apply to all fifth-graders at that school &mdash; not to other grade levels or other schools."
+      "title": "Choose the largest valid population",
+      "content": "The largest population supported by the sampling method is all fifth-grade students at that school. The answer is <strong>B</strong>."
     }
-  ],
-  "eliminationHtml": "<ul><li><strong>Choice A &mdash; The 45 students who were surveyed</strong>: This is just the sample itself, not a broader population. &#10007;</li><li><strong>Choice B &mdash; All fifth-grade students at the school</strong>: This is exactly the population the random sample was drawn from. &#10003;</li><li><strong>Choice C &mdash; All students at the school</strong>: Includes grade levels not represented in the sample, so results cannot be extended there. &#10007;</li><li><strong>Choice D &mdash; All fifth-grade students in the county in which the school is located</strong>: Students from other schools were never sampled, so the results cannot generalize to them. &#10007;</li></ul>That matches <strong>Choice B &mdash; All fifth-grade students at the school</strong>.",
-  "correctAnswer": "B"
+  ]
 }

@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Connect one solution to the discriminant",
+      "title": "Use the discriminant condition",
       "content": "A quadratic has exactly one real solution when its discriminant is $0$. For $-3x^2+24x+c=0$, use $a=-3$ and $b=24$."
     },
     {
-      "title": "Solve for c",
-      "content": "Set $b^2-4ac=0$: $$24^2-4(-3)c=0$$ $$576+12c=0$$ $$c=-48$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "<strong>B</strong> is $-48$, so <strong>B</strong> is correct."
-    },
-    {
-      "title": "Check the one-solution condition",
-      "content": "A zero discriminant means the parabola touches the $x$-axis once instead of crossing twice or missing it. With $c=-48$, the discriminant is $576+12(-48)=0$."
+      "title": "Solve for the constant",
+      "content": "Set the discriminant equal to $0$:\n$$24^2-4(-3)c=0$$\n$$576+12c=0$$\n$$c=-48$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

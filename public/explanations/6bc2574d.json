@@ -1,0 +1,15 @@
+{
+  "questionId": "6bc2574d",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the ratio",
+      "content": "The ratio of base to height is $1$ to $7$, so the height is $7$ times the base."
+    },
+    {
+      "title": "Scale the base",
+      "content": "With a base of $112$ centimeters,\n$$\n\\text{height}=7(112)=784\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

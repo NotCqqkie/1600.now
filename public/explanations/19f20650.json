@@ -1,0 +1,19 @@
+{
+  "questionId": "19f20650",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the phrase's role",
+      "content": "The underlined phrase comes right after the statement that advertisers hesitated to enter television. The word \"particularly\" signals that the phrase gives a more specific circumstance explaining that hesitation: television-set manufacturing had stalled during World War II."
+    },
+    {
+      "title": "Reject unrelated functions",
+      "content": "Choice A is about why a type of television programming was popular, but the phrase is about manufacturing delays and advertiser hesitation. Choice B is about comparing radio and television beginnings, but the underlined phrase makes no such comparison. Choice C is about how broadcasters persuaded advertisers, which appears later rather than in the phrase."
+    },
+    {
+      "title": "Name the specific reason",
+      "content": "Choice D fits because the phrase identifies a concrete reason some advertisers hesitated to support television: with new television sets not being manufactured, the size of the audience was uncertain. The answer is <strong>D</strong>."
+    }
+  ]
+}

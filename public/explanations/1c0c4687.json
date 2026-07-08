@@ -1,0 +1,19 @@
+{
+  "questionId": "1c0c4687",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the larger side length",
+      "content": "The larger map side length is $80\\%$ longer than $60$ inches, so it is $180\\%$ of the original side length: $$60(1+0.80)=108$$ The same actual distance is now spread across $108$ inches instead of $60$ inches."
+    },
+    {
+      "title": "Keep the actual length fixed",
+      "content": "The original $60$-inch side represented the actual distance found by multiplying inches by miles per inch: $$60\\cdot 12=720$$ On the larger map, $108$ inches represents the same $720$ miles."
+    },
+    {
+      "title": "Divide by larger inches",
+      "content": "The actual distance represented by $1$ inch on the larger map is about $$720\\div 108=6.666$$ This is closest to $6.67$. The answer is <strong>B</strong>."
+    }
+  ]
+}

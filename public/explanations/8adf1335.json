@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the budget into an equation",
-      "content": "The total budget is made of two parts: departmental expenses plus all other expenses. That means $x=y+201$, where $201$ is the amount not in departmental expenses."
+      "title": "Translate the total budget",
+      "content": "The total budget equals departmental expenses plus all other expenses. In millions of dollars, that relationship is:<br/>$$x=y+201$$"
     },
     {
-      "title": "Rearrange to isolate the constant",
-      "content": "Subtract $y$ from both sides:<br/>$$x - y = 201$$"
+      "title": "Rearrange the equation",
+      "content": "Subtract $y$ from both sides:<br/>$$x-y=201$$"
     },
     {
-      "title": "Check the relationship in Desmos",
-      "content": "A quick choice check is to pick an easy departmental budget, such as $y=500$. Then the total must be $x=701$. Plot the point $(701,500)$ and graph the choices. Only $x-y=201$ passes through that context-valid point.",
+      "title": "Calculator shortcut",
+      "content": "Pick a context-valid point, such as departmental expenses of $500$ million and total expenses of $701$ million, then graph the choices. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "(701,500)",
         "x+y=201",
@@ -21,10 +21,6 @@
         "2x-y=201",
         "y-x=201"
       ]
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Choice B, $x-y=201$, means total minus departmental expenses equals all other expenses. That matches the wording, so <strong>B</strong> is correct."
     }
   ]
 }

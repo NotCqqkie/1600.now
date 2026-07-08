@@ -1,0 +1,19 @@
+{
+  "questionId": "256af964",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Complete the square",
+      "content": "Rewrite the circle equation in center-radius form.<br/>$$x^2-6x+y^2-12y-36=0$$<br/>$$x^2-6x+y^2-12y=36$$<br/>$$(x-3)^2+(y-6)^2=81$$"
+    },
+    {
+      "title": "Use the circle radius",
+      "content": "The radius is $9$, so the diameter is $18$. For a circle inscribed in a square, the square's side length equals the circle's diameter."
+    },
+    {
+      "title": "Find the perimeter",
+      "content": "The square has side length $18$, so its perimeter is $4$ times the side length.<br/>$$4\\cdot18=72$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

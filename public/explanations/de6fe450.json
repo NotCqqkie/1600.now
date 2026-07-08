@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Make a two-point table",
-      "content": "The starting wage is 10.40 dollars at $x=0$. After 5 yearly increases of 0.60 dollars, the wage is $10.40+5(0.60)=13.40$ dollars at $x=5$. These points confirm a slope of $0.60$ and an intercept of $10.40$."
+      "title": "Identify the initial value",
+      "content": "On January 1, 2018, the wage was $10.40$. That is the value when $x=0$, so it is the constant term."
     },
     {
-      "title": "Use the slope and intercept",
-      "content": "The model starts at $10.40$ and adds $0.60$ for each year after January 1, 2018. Therefore $$f(x)=10.40+0.60x.$$"
+      "title": "Identify the yearly change",
+      "content": "The wage increases by $0.60$ each year, so the linear model adds $0.60x$ after $x$ years."
     },
     {
-      "title": "Eliminate the traps",
-      "content": "<strong>$f(x) = 10.40 - 0.60x$</strong> has the right starting value but a negative slope, so it models a wage decrease. Two other options make $10.40$ the yearly increase instead of the starting wage. $f(x) = 10.40 + 0.60x$ is the only model with intercept $10.40$ and slope $0.60$, so <strong>C</strong> is correct."
+      "title": "Write the function",
+      "content": "The model is<br/>$$f(x)=10.40+0.60x$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

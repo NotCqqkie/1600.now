@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative or Textual) question asking which finding would most strongly support the researchers&rsquo; prediction. The prediction is that positive early effects of the language nest model &mdash; fluency and cultural pride &mdash; will cause former students to transmit the language to younger generations as adults. To support this, we need evidence that those effects actually persist into adulthood, since transmission happens then."
+      "title": "Support adult transmission",
+      "content": "The researchers predict that language-nest students will later transmit the Anishinaabe language. Since transmission happens in adulthood, the strongest support would show that the students keep the fluency and cultural pride gained at school. Evidence about later schooling matters because it connects childhood fluency to adult community teaching over time."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Anishinaabe adults who didn't attend the school feel roughly the same degree of cultural pride as the former students of the school feel.\"</strong>: This identifies a similarity between groups, not a reason why former students would be more likely to transmit the language. It does nothing to support the prediction. &#10007;</li><li><strong>\"After transferring to the school, new students experience an increase in both fluency and academic performance overall.\"</strong>: This only shows benefits while attending school. It says nothing about whether those benefits persist into adulthood when transmission would occur. &#10007;</li><li><strong>\"As adults, former students of the school are just as likely to continue living in their community as individuals who didn't attend the school.\"</strong>: Staying in the community is a prerequisite for transmission, but this finding says both groups are equally likely to stay &mdash; it doesn&rsquo;t give former students any additional reason to transmit the language. &#10007;</li><li><strong>\"As they complete secondary and higher education, former students of the school experience no loss of fluency or cultural pride.\"</strong>: This directly confirms that the fluency and cultural pride gained early do not fade during subsequent schooling. If these effects are still present in adulthood, the researchers&rsquo; prediction that former students will transmit the language is strongly supported. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Look for lasting effects",
+      "content": "A compares cultural pride but not language transmission. B shows benefits after transfer, not whether they last. C shows former students stay in the community at the same rate as others, without addressing fluency or pride. Persistence through later education directly supports the prediction. The answer is <strong>D</strong>."
     }
   ]
 }

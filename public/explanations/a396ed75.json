@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the rate into table rows",
-      "content": "Mina runs at $6.4$ minutes per mile. That means $0$ miles takes $0$ minutes, $1$ mile takes $6.4$ minutes, and $2$ miles takes $12.8$ minutes."
+      "title": "Use the unit rate",
+      "content": "Mina's rate is $6.4$ minutes per mile. For $x$ miles, multiply the rate by the number of miles."
     },
     {
-      "title": "Find the line from the data",
-      "content": "The relationship is proportional because time equals rate times distance: $$\\text{time}=6.4\\cdot \\text{distance}.$$ So the function is $$m(x)=6.4x.$$ The coefficient $6.4$ is the number of minutes per mile."
-    },
-    {
-      "title": "Choose the matching function",
-      "content": "Choice D, $m \\left(x\\right)=6.4x$, matches the rate and the units: minutes per mile times miles equals minutes. The other choices use division, addition, or subtraction instead of multiplying by the rate. <strong>D</strong> is correct."
+      "title": "Write the model",
+      "content": "$$m(x)=6.4x$$<br/>This gives minutes because minutes per mile times miles equals minutes. The answer is <strong>D</strong>."
     }
   ]
 }

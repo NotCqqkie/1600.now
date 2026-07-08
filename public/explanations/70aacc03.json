@@ -4,16 +4,20 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Track the passage&apos;s logic",
-      "content": "Mensah finds a negative correlation: as natural-resource extraction grows as a share of a developing country&apos;s economy, foreign investment falls. The passage calls this &quot;counterintuitive&quot; (since extraction needs large initial investment) and then explains the cause&mdash;boom-bust cycles, currency instability, and vulnerability to shocks create uncertainty that investors avoid."
+      "title": "Track the expectation reversal",
+      "content": "Mensah finds that as natural-resource extraction becomes a larger share of developing countries' economies, foreign investment falls. This seems surprising because extraction often requires large initial investments."
     },
     {
-      "title": "Define what the main idea must contain",
-      "content": "The right answer must include (1) the surprise/expectation reversal and (2) the actual cause&mdash;instability/uncertainty driving investors away. Anything that misnames the cause or reverses the direction fails."
+      "title": "Identify the actual cause",
+      "content": "The passage explains the decline through boom-bust cycles, currency instability, vulnerability to external shocks, and uncertainty that foreign investors tend to avoid."
     },
     {
-      "title": "Eliminate by misread/overreach",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;Although it may seem surprising that foreign investment declines in developing countries as natural-resource extraction makes up a larger share of those countries' economies, that decline happens because resource extraction requires initial investments too large for foreign investors to supply.&rsquo;</strong>: misnames the cause&mdash;the passage says scale is exactly what multinationals CAN meet; the actual cause is instability, not investor inability. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Although developing countries tend to become less dependent on foreign investment as natural-resource industries make up a larger share of their economies, this change may not occur if the boom-bust cycle of those industries destabilizes local currencies or increases countries' vulnerability to external shocks.&rsquo;</strong>: misframes the finding as countries choosing independence; the passage describes investors choosing to withdraw due to risk. &#10007;</li><li><strong>Choice C &mdash; &lsquo;Although one might expect that foreign investment would increase as natural-resource extraction makes up a larger share of developing countries' economies, the opposite happens because heavy reliance on natural resources can lead to unattractive conditions for investors.&rsquo;</strong>: captures both the expectation reversal and the correct cause (unattractive/unstable conditions). &#10003;</li><li><strong>Choice D &mdash; &lsquo;Although foreign investors tend to avoid initial investments in natural-resource industries in developing countries, foreign investment may increase significantly as those industries stabilize and the risks associated with them decline.&rsquo;</strong>: reverses the direction&mdash;the passage explains why investment falls, not how it might rise. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Reject distorted summaries",
+      "content": "Choice A says foreign investors cannot supply the investments, but the passage says multinationals can. Choice B reframes the issue as reduced dependence. Choice D reverses the direction by predicting investment increases."
+    },
+    {
+      "title": "State the main idea",
+      "content": "The remaining choice captures both parts: investment might be expected to increase, but it instead decreases because resource reliance can create unattractive conditions for investors. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "a59adc83",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Put the equation in standard form",
+      "content": "Move all terms to one side:\n$$kx^2-18x=20x^2-9$$\n$$(k-20)x^2-18x+9=0$$"
+    },
+    {
+      "title": "Apply the discriminant condition",
+      "content": "For two distinct real solutions, the discriminant must be positive:\n$$b^2-4ac>0$$\nHere $a=k-20$, $b=-18$, and $c=9$, so\n$$(-18)^2-4(k-20)(9)>0$$"
+    },
+    {
+      "title": "Find the greatest integer",
+      "content": "Solve the inequality:\n$$324-36(k-20)>0$$\n$$1{,}044-36k>0$$\n$$k<29$$\nThe greatest integer less than $29$ is $28$. The answer is <strong>28</strong>."
+    }
+  ]
+}

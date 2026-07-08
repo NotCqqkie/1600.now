@@ -1,0 +1,15 @@
+{
+  "questionId": "2911c8d3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the contrast in the notes",
+      "content": "The student wants to contrast first-class and second-class levers. The relevant difference is placement: in first-class levers, the fulcrum is between effort and load; in second-class levers, the load is between effort and fulcrum."
+    },
+    {
+      "title": "Reject non-contrasts",
+      "content": "Choice A contrasts effort and load, not the two lever types. Choice B says only that locations differ, without specifying how. Choice C states a similarity and uses an illogical contrast. The needed sentence states the precise placement difference. The answer is <strong>D</strong>."
+    }
+  ]
+}

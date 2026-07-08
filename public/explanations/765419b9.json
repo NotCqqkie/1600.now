@@ -1,0 +1,19 @@
+{
+  "questionId": "765419b9",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the y-coordinate",
+      "content": "The intersection point is $(q,17)$, so $y=17$ in both equations.<br/>$$-x-17w=-249$$<br/>$$2x-17w=39$$"
+    },
+    {
+      "title": "Eliminate w first",
+      "content": "Subtract the first equation from the second equation.<br/>$$(2x-17w)-(-x-17w)=39-(-249)$$<br/>$$3x=288$$<br/>$$x=96$$"
+    },
+    {
+      "title": "Solve for w",
+      "content": "Substitute $x=96$ into one equation.<br/>$$-96-17w=-249$$<br/>$$-17w=-153$$<br/>The answer is <strong>9</strong>."
+    }
+  ]
+}

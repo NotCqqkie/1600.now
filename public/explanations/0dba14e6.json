@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify where costs decreased most",
-      "content": "The passage states that decreased costs were “most significant in the manufacturing and distribution process,” which happens after authoring, editing, and design. This distinction directly signals that the earlier stages experienced less significant cost reductions."
+      "title": "Compare cost reductions",
+      "content": "The text says digital technologies lowered book-production costs, but the largest decreases were in manufacturing and distribution, which happen after writing, editing, and design."
     },
     {
-      "title": "Find what logically follows",
-      "content": "<strong>Choice D &mdash; the costs of writing, editing, and designing a book were less affected by the technologies used than were the costs of manufacturing and distributing a book.</strong> directly follows from the comparison: if manufacturing and distribution experienced the most significant cost reductions, then the earlier stages must have been less affected.<br/><br/>The alternatives introduce topics the passage never addresses.<br/><br/>That matches <strong>Choice D &mdash; the costs of writing, editing, and designing a book were less affected by the technologies used than were the costs of manufacturing and distributing a book.</strong>."
+      "title": "Draw the cost inference",
+      "content": "A discusses writing long books, B discusses customers, and C discusses publishers' title variety; none follows from the cost comparison. If later stages had the biggest reductions, earlier stages were less affected. The answer is <strong>D</strong>."
     }
   ]
 }

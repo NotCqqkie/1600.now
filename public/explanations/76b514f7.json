@@ -1,0 +1,15 @@
+{
+  "questionId": "76b514f7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the passage structure",
+      "content": "The passage opens by asking why rusty-spotted cats purr but jaguars roar. It then presents a hypothesis involving differences in the hyoid bone and related anatomy."
+    },
+    {
+      "title": "Reject inaccurate structures",
+      "content": "A mentions habitats, which the passage does not discuss. B says the text presents facts that weaken a theory, but the facts support the hypothesis. D says the two species share a behavior, while the passage contrasts their behaviors. The structure is a question followed by a possible answer. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Understand what Barrett and Rayfield&apos;s suggestion requires",
-      "content": "Barrett and Rayfield suggest that bite force estimates are significantly influenced by the methodology used. For data to support this, the table needs to show that different methods produce substantially different estimates &mdash; and ideally that the same method produces similar estimates. Both parts of the pattern together make the case that methodology is the driving variable."
+      "title": "Connect method to estimates",
+      "content": "Barrett and Rayfield's suggestion is that bite-force estimates depend heavily on methodology. The strongest table evidence should show two things together: studies using the same method give similar estimates, while studies using different methods give much different estimates. That pattern points to methodology as the variable affecting the results."
     },
     {
-      "title": "Test each choice against that pattern",
-      "content": "<ul><li><strong>Choice A &mdash; The study by Meers used body-mass scaling and produced the lowest estimated maximum bite force, while the study by Cost et al. used muscular and skeletal modeling and produced the highest estimated maximum.</strong>: Inaccurate: Meers produced the highest maximum (235,000 N), not the lowest. &#10007;</li><li><strong>Choice B &mdash; In their study, Gignac and Erickson used tooth-bone interaction analysis to produce an estimated bite force range with a minimum of 8,000 newtons and a maximum of 34,000 newtons.</strong>: Accurately reports one study&apos;s numbers but a single study using one method cannot demonstrate that different methodologies produce different results. &#10007;</li><li><strong>Choice C &mdash; The bite force estimates produced by Bates and Falkingham and by Cost et al. were similar to each other, while the estimates produced by Meers and by Gignac and Erickson each differed substantially from any other estimate.</strong>: Bates &amp; Falkingham and Cost et al. both used muscular and skeletal modeling and produced similar ranges (~35,000&ndash;57,000 and ~35,000&ndash;63,000 N); Meers (body-mass scaling: 183,000&ndash;235,000 N) and Gignac &amp; Erickson (tooth-bone analysis: 8,000&ndash;34,000 N) each diverged sharply &mdash; directly showing that method determines outcome. &#10003;</li><li><strong>Choice D &mdash; The estimated maximum bite force produced by Cost et al. exceeded the estimated maximum produced by Bates and Falkingham, even though both groups of researchers used the same method to generate their estimates.</strong>: This shows the same method yielding different results, which would actually undermine the claim that methodology is the key variable. &#10007;</li></ul>That is the correct answer."
+      "title": "Check the table pattern",
+      "content": "Choice A misstates Meers as the lowest maximum when it is the highest. Choice B reports only one study, so it cannot show a method effect. Choice D focuses on same-method differences, which is not the strongest support. Choice C compares the similar muscular-and-skeletal-modeling estimates with the outlying body-mass-scaling and tooth-bone-analysis estimates. The answer is <strong>C</strong>."
     }
   ]
 }

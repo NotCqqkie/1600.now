@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Compare the side lengths",
+      "content": "In triangle $PQR$, the vertical side from $P$ to $Q$ has length $3$, and the horizontal side from $P$ to $R$ has length $3$. In triangle $LMN$, the matching vertical and horizontal side lengths are both $3+k$."
     },
     {
-      "title": "Identify both triangles as right isosceles triangles",
-      "content": "In triangle PQR with P(2,3), Q(2,6), R(5,3):<br/>Q is directly above P (x = 2) and R is directly right of P (y = 3), so sides PQ and PR are perpendicular. Thus angle P = 90 degrees.<br/><br/>The distances are |PQ| = 3 and |PR| = 3, so PQ = PR, making PQR an isosceles right triangle.<br/><br/>Similarly, in triangle LMN with L(2,3), M(2,6+k), N(5+k,3):<br/>M is directly above L and N is directly right of L, so angle L = 90 degrees.<br/><br/>The distances are |LM| = 3+k and |LN| = 3+k, so LM = LN, making LMN an isosceles right triangle."
+      "title": "Identify matching shapes",
+      "content": "Both triangles are right isosceles triangles. That means each has one right angle, and its two acute angles are equal."
     },
     {
-      "title": "Apply the 45-45-90 triangle property",
-      "content": "In an isosceles right triangle, the right angle is 90 degrees and both other angles must be 45 degrees (since they are equal and sum to 90 degrees).<br/><br/>Therefore:<ul><li>In triangle PQR: angle Q = 45 degrees, so <em>t</em> = 45 degrees</li><li>In triangle LMN: angle N = 45 degrees</li></ul>"
-    },
-    {
-      "title": "Express angle N in terms of t",
-      "content": "Since angle N = 45 degrees and <em>t</em> = 45 degrees, we have:<br/>$$\\angle N = 45^{\\circ} = 90^{\\circ} - 45^{\\circ} = 90^{\\circ} - t^{\\circ}$$<br/>That matches <strong>Choice C &mdash; $\\left(90-t\\right)^\\circ$</strong>."
+      "title": "Relate the acute angles",
+      "content": "In a right triangle, the two acute angles sum to $90^\\circ$. Since the measure of angle $Q$ is $t^\\circ$, the other acute angle has measure<br/>$$(90-t)^\\circ$$<br/>The corresponding angle in the larger triangle has the same measure. The answer is <strong>C</strong>."
     }
   ]
 }

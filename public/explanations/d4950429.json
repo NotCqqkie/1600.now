@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the area equation",
-      "content": "The area of a rectangle is length times width: $$x(x-12)=85$$."
+      "title": "Write the area equation",
+      "content": "Area is length times width, so<br/>$$x(x-12)=85$$"
     },
     {
-      "title": "Backsolving by testing the candidate",
-      "content": "Backsolving by testing the candidate (17): compute 17 * (17-12) = 17 * 5 = 85, which equals the given area. That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Factor the quadratic",
+      "content": "Move all terms to one side and factor:<br/>$$x^2-12x-85=0$$<br/>$$(x-17)(x+5)=0$$"
+    },
+    {
+      "title": "Choose the positive length",
+      "content": "The possible values are $x=17$ and $x=-5$. A rectangle length must be positive, so $x=17$. The answer is <strong>B</strong>."
     }
   ]
 }

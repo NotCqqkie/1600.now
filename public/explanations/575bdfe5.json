@@ -1,0 +1,15 @@
+{
+  "questionId": "575bdfe5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the nickname goal",
+      "content": "The student wants an example of a fossil specimen's nickname. The notes provide one specific nickname: Scotty."
+    },
+    {
+      "title": "Require the nickname itself",
+      "content": "A omits the nickname, B refers vaguely to a nicknamed specimen without giving the nickname, and D only discusses dinosaur fossils generally. The matching choice names Scotty and identifies the specimen. The answer is <strong>C</strong>."
+    }
+  ]
+}

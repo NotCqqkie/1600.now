@@ -1,0 +1,19 @@
+{
+  "questionId": "57f0d243",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the middle positions",
+      "content": "The frequency table has a total of\n$$\n2+3+4+2+1=12\n$$\ndata values. Since there is an even number of values, the median is the average of the values in positions $6$ and $7$."
+    },
+    {
+      "title": "Use cumulative frequency",
+      "content": "The first $2$ values are $11$, the next $3$ values are $12$, and the next $4$ values are $13$. So positions $6$ and $7$ are both $13$."
+    },
+    {
+      "title": "Compute the median",
+      "content": "Average the two middle values:\n$$\n\\frac{13+13}{2}=13\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

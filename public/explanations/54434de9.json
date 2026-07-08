@@ -1,0 +1,15 @@
+{
+  "questionId": "54434de9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the temperatures",
+      "content": "The butterfly must reach at least $58.0$ degrees Fahrenheit, and its current body temperature is $46.4^\\circ\\text{F}$. The minimum increase is the difference between these two temperatures."
+    },
+    {
+      "title": "Subtract current from needed",
+      "content": "Compute the required increase.<br/>$$58.0-46.4=11.6$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

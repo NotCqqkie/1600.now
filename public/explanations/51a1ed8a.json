@@ -1,0 +1,15 @@
+{
+  "questionId": "51a1ed8a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the discriminant to zero",
+      "content": "A quadratic has exactly one real solution when its discriminant is $0$. For $-3x^2+24x+c=0$, use $a=-3$ and $b=24$:<br/>$$b^2-4ac=0$$"
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute the values and solve:<br/>$$24^2-4(-3)c=0$$<br/>$$576+12c=0$$<br/>$$12c=-576$$<br/>$$c=-48$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

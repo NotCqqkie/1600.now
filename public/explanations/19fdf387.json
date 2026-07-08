@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set the equations equal at their intersection",
-      "content": "At the point where the two graphs intersect, both expressions equal $y$. Set them equal to each other:<br/>$$x + 4 = 2x - 5$$"
+      "title": "Set the equations equal",
+      "content": "At the intersection, both equations have the same $y$-value. Set the two expressions equal:<br/>$$x+4=2x-5$$"
     },
     {
-      "title": "Solve for x to find a",
-      "content": "Subtract $x$ from both sides:<br/>$$4 = x - 5$$<br/>Add 5 to both sides:<br/>$$9 = x$$<br/>Since the intersection point is $(a, b)$ and $x = a$, we have $a = 9$. That matches <strong>Choice C &mdash; 9</strong>."
+      "title": "Solve for the coordinate",
+      "content": "Solve for $x$:<br/>$$4=x-5$$<br/>$$9=x$$<br/>The intersection point is $(a,b)$, so $a=9$. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "e3b307a2",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the new quantity",
+      "content": "The price increases from $12$ dollars to $15$ dollars, an increase of $3$ dollars. Each $1$ dollar increase reduces sales by $8$ bottles, so sales decrease by<br/>$$3(8)=24$$The estimated number sold is<br/>$$96-24=72$$"
+    },
+    {
+      "title": "Compute the revenue",
+      "content": "Revenue equals price times number sold:<br/>$$15(72)=1{,}080$$The answer is <strong>C</strong>."
+    }
+  ]
+}

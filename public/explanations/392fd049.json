@@ -1,0 +1,15 @@
+{
+  "questionId": "392fd049",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use area scale factor",
+      "content": "Surface area is two-dimensional, so it scales by the square of the edge-length scale factor. The edge-length scale factor from cube X to cube Y is $$\\frac{5}{84}$$"
+    },
+    {
+      "title": "Square the edge factor",
+      "content": "Square the linear scale factor to get $n$: $$n=(\\frac{5}{84})^2=\\frac{25}{7{,}056}$$ The answer is <strong>A</strong>."
+    }
+  ]
+}

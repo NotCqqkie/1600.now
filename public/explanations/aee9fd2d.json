@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the identical numerator",
-      "content": "The equation $\\frac{x+8}{4}=\\frac{x+8}{15}$ has the same numerator with different denominators. For $\\frac{A}{4}=\\frac{A}{15}$ to hold true, the numerator must be zero: $x+8 = 0$."
+      "title": "Use the matching numerator",
+      "content": "The equation has the same numerator over two different denominators:<br/>$$\\frac{x+8}{4}=\\frac{x+8}{15}$$<br/>This can be true only if the shared numerator is $0$."
     },
     {
-      "title": "Identify the range containing 0",
-      "content": "We need to determine which pair contains 0. The value 0 is between $-3$ and $3$, which matches <strong>Choice B</strong>."
+      "title": "Find the interval",
+      "content": "So $x+8=0$. The value $0$ is between $-3$ and $3$. The answer is <strong>B</strong>."
     }
   ]
 }

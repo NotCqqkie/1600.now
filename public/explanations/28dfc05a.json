@@ -1,19 +1,15 @@
 {
   "questionId": "28dfc05a",
-  "section": "Reading and Writing",
   "correctAnswer": "D",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Track the logic",
-      "content": "The text sets up a tempting question (how would a handwritten novel differ if typed?) and then blocks it: &quot;each novel is a unique entity resulting from a specific set of circumstances.&quot; If each work is one-of-a-kind, there is no counterfactual version to compare it against."
+      "title": "Use the counterfactual limit",
+      "content": "The passage says it may be tempting to ask how a handwritten novel would differ if it had been typed instead, but each novel results from a unique set of circumstances. That uniqueness prevents a reasonable comparison with an alternate version that never existed."
     },
     {
-      "title": "Predict the completion",
-      "content": "&quot;Therefore&quot; demands a conclusion that follows from uniqueness: you cannot meaningfully judge how the novel would have turned out by other means."
-    },
-    {
-      "title": "Eliminate the others",
-      "content": "<ul><li><strong>Choice A &mdash; in order to increase their efficiency, authors who currently write their novels largely by hand should instead work only on a computer.</strong>: prescribes a behavior change the passage never argues for; overreach. &#10007;</li><li><strong>Choice B &mdash; authors who do most of their drafting and revising by hand likely have more success than those who work entirely on a computer.</strong>: claims handwriting yields better novels, which the passage never supports; overreach. &#10007;</li><li><strong>Choice C &mdash; novels written by hand take less time to produce, on average, than novels written on a computer do.</strong>: introduces a speed comparison absent from the passage; misread. &#10007;</li><li><strong>Choice D &mdash; there is no way to reasonably evaluate how a work would be different if it had been written by other means.</strong>: follows directly from each novel being a unique product of its circumstances. &#10003;</li></ul>That matches <strong>Choice D &mdash; there is no way to reasonably evaluate how a work would be different if it had been written by other means.</strong>."
+      "title": "Reject unsupported conclusions",
+      "content": "Choice A recommends changing authors' methods. Choice B claims handwriting leads to more success. Choice C makes an unsupported claim about production time. None follows from the point about each novel's unique circumstances. The answer is <strong>D</strong>."
     }
   ]
 }

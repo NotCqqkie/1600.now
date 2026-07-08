@@ -1,0 +1,15 @@
+{
+  "questionId": "a5bde73d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect action to result",
+      "content": "The sentence says Thomas Lee served in the 18th New York Cavalry and then earned a place in US history. The blank should show that the historical recognition resulted from that service."
+    },
+    {
+      "title": "Reject wrong transition types",
+      "content": "A signals frequency, B signals an example, and C signals a shift or dismissal. The sentence needs a transition meaning that by serving, Lee achieved the result described next. The answer is <strong>D</strong>."
+    }
+  ]
+}

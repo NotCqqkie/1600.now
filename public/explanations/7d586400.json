@@ -1,0 +1,15 @@
+{
+  "questionId": "7d586400",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations directly so the $x$-terms cancel.<br/>$$y+y=(\\frac{x}{4}+5)+(-\\frac{x}{4}+37)$$"
+    },
+    {
+      "title": "Simplify the sum",
+      "content": "Combine like terms on the right side.<br/>$$2y=\\frac{x}{4}-\\frac{x}{4}+5+37$$<br/>$$2y=42$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

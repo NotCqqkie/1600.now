@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Replace the repeated ratio",
-      "content": "The second equation contains $\\frac{x}{y}$. Rewrite it as $$\\frac{30x}{ny}=\\frac{30}{n}\\cdot\\frac{x}{y}=5$$"
+      "title": "Factor out the known ratio",
+      "content": "Rewrite the second ratio so it contains $\\frac{x}{y}$.\n$$\n\\frac{30x}{ny}=\\frac{30}{n}\\cdot\\frac{x}{y}\n$$"
     },
     {
-      "title": "Substitute the known value",
-      "content": "Since $\\frac{x}{y}=5$, substitute $5$: $$\\frac{30}{n}\\cdot 5=5$$ Divide both sides by $5$ to get $$\\frac{30}{n}=1$$"
-    },
-    {
-      "title": "Solve for n",
-      "content": "$\\frac{30}{n}=1$ means the numerator and denominator must be equal, so $n=30$. This also makes the original second expression $\\frac{30x}{30y}=\\frac{x}{y}=5$, which checks. Enter <strong>30</strong>."
+      "title": "Substitute and solve",
+      "content": "Since $\\frac{x}{y}=5$, substitute into the second equation.\n$$\n\\frac{30}{n}\\cdot5=5\n$$\n$$\n\\frac{30}{n}=1\n$$\n$$\nn=30\n$$\nThe answer is <strong>30</strong>."
     }
   ]
 }

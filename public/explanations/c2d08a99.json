@@ -1,0 +1,15 @@
+{
+  "questionId": "c2d08a99",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the role",
+      "content": "The question asks what color consultants do at Fashion Week. The relevant note says they create trend reports on the popular colors at a given Fashion Week."
+    },
+    {
+      "title": "Reject isolated examples",
+      "content": "Choice A gives one purple shade from one report. Choice B gives one red shade from one report. Choice C mentions colors favored by designers but leaves out consultants. The sentence that explains consultants compile reports on popular shades gives their role. The answer is <strong>D</strong>."
+    }
+  ]
+}

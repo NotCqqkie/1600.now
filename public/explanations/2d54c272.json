@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the relationship between point values",
-      "content": "From the equation <em>6G + 42R = 336</em>, we can determine the point value of each token color from the coefficient attached to that color.<br/><br/>The term <em>6G</em> represents 6 points for each green token, and <em>42R</em> represents 42 points for each red token."
+      "title": "Read the token values",
+      "content": "In the equation $6G+42R=336$, the coefficient of $G$ is the point value of one green token, and the coefficient of $R$ is the point value of one red token."
     },
     {
-      "title": "Simplify the equation to understand point differences",
-      "content": "<br/>The total of 336 points is not needed to find the difference between the two point values. The coefficients show the per-token values directly: a green token is worth 6 points, and a red token is worth 42 points."
+      "title": "Subtract the values",
+      "content": "A red token is worth $42$ points, and a green token is worth $6$ points. The difference is\n$$\n42-6=36\n$$"
     },
     {
-      "title": "Determine the difference in point values",
-      "content": "<ul><li>To find how many more points a red token is worth compared to a green one, subtract the green-token value from the red-token value.</li><br/>\n<li>This gives $$42-6=36.$$</li><br/>\n<li>The difference in actual points is calculated directly from the coefficients of the two token variables.</li></ul>\nThe answer is <strong>36</strong>."
+      "title": "Give the point difference",
+      "content": "The answer is <strong>36</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "f1fc4e12",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the missing support",
+      "content": "Clarke argues that three pieces in Reeve's fifteenth-century manuscript likely came from a minstrel working near Reeve's home. Her existing evidence shows live performance features: audience address, simple rhyming, and requests for tips. But those details alone do not prove the minstrel was local. The strongest support must connect the pieces to Reeve's geographic area."
+    },
+    {
+      "title": "Eliminate weak support",
+      "content": "Choice B says simple rhyming also appears in texts not known to have been performed, which weakens Clarke's performance evidence. Choice C says the pieces later appeared in other collections, which points to circulation rather than local origin. Choice D discusses elite audiences and Reeve's interest in popular works, but it does not connect the pieces to the area around Reeve's home."
+    },
+    {
+      "title": "Use the local clue",
+      "content": "Choice A says the pieces refer to Eastbrook and other small villages near where Reeve lived. Those references would make sense if the pieces were meant for an audience familiar with that region, so they directly support Clarke's claim that the pieces came from a local minstrel's repertoire. The answer is <strong>A</strong>."
+    }
+  ]
+}

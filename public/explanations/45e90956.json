@@ -1,0 +1,19 @@
+{
+  "questionId": "45e90956",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the text's purpose",
+      "content": "The passage begins with the problem of getting rid of weeds, then proposes a surprising solution: eating edible plants that are usually considered weeds."
+    },
+    {
+      "title": "Reject narrower readings",
+      "content": "Choice B is too broad because the text does not explain gardening methods. Choice C treats flavor as the main point even though it is only supporting detail. Choice D invents a cooking trend."
+    },
+    {
+      "title": "Name the solution structure",
+      "content": "Choice A captures the passage's actual purpose: it suggests an unexpected solution to the weed problem by pointing out that some weeds are edible and flavorful. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9194c5f9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared pattern",
+      "content": "The student wants to emphasize a similarity between Bangkok and Chiang Mai celebrations of Songkran. The notes give a clear shared pattern: in both cities, thousands of people gather for major community water fights during the festival. Details about the exact locations matter less than the shared activity and crowd size."
+    },
+    {
+      "title": "Eliminate differences",
+      "content": "<ul><li><strong>Choice A</strong> gives general background about Songkran in Thailand, not the similarity between the two cities.</li><li><strong>Choice B</strong> emphasizes a difference between a city street and a historical monument.</li><li><strong>Choice D</strong> says the celebrations are not exactly the same, which works against the goal.</li></ul>"
+    },
+    {
+      "title": "Highlight both cities",
+      "content": "<strong>Choice C</strong> names Bangkok and Chiang Mai together and says that thousands gather in both places to celebrate Songkran with water fights. That directly emphasizes the similarity requested by the student. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The blank connects two sentences. Sentence 1: above the K&aacute;rm&aacute;n line, lift no longer keeps an aircraft aloft. Sentence 2: the aircraft sustains flight by <em>velocity</em> instead. The second sentence introduces a <strong>replacement mechanism</strong> for the one that failed &mdash; not an example, not a concession, not something that happens regardless."
+      "title": "Track the flight mechanism",
+      "content": "The previous sentence says that above the Karman line, an aircraft no longer remains aloft using lift. The next sentence explains the replacement mechanism: the aircraft sustains flight primarily by velocity."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Regardless,</strong>: Signals that the outcome is the same despite some obstacle. Here the outcome (sustaining flight) uses a completely different mechanism, so the relationship is replacement, not indifference. &#10007;</li><li><strong>Choice B &mdash; For instance,</strong>: Introduces an example of something already stated. The second sentence is not an example of lift failing &mdash; it describes what happens instead. &#10007;</li><li><strong>Choice C &mdash; Granted,</strong>: Concedes a point to strengthen a counterargument. No counterargument is being built here. &#10007;</li><li><strong>Choice D &mdash; Instead,</strong>: Signals direct replacement: lift is gone, so velocity takes over. This matches the structure of the passage precisely. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Signal replacement",
+      "content": "Choice A signals that something happens despite other conditions, not that one mechanism replaces another. Choice B introduces an example. Choice C introduces a concession. The sentence needs a transition showing that velocity takes the place of lift as the basis for flight. The answer is <strong>D</strong>."
     }
   ]
 }

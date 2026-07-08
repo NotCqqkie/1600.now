@@ -1,0 +1,19 @@
+{
+  "questionId": "c4b66ecd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the cause",
+      "content": "The first clause says most light from distant galaxies is infrared. The second clause says the JWST, an infrared telescope, can provide much more information about those galaxies. The transition must show result."
+    },
+    {
+      "title": "Reject other relationships",
+      "content": "Choice A signals an alternative, not a result. Choice B signals contrast, but the two clauses support each other. Choice C signals an example, but the second clause is a consequence of the first."
+    },
+    {
+      "title": "Choose the result transition",
+      "content": "Hence means therefore, so it correctly shows that the JWST can provide more information because distant-galaxy light is mostly infrared. The answer is <strong>D</strong>."
+    }
+  ]
+}

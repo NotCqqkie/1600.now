@@ -1,0 +1,19 @@
+{
+  "questionId": "664e5f45",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Notice the contrast",
+      "content": "The passage first gives a sleek, streamlined airplane as an example of aerodynamic design. It then turns to a boxy semitruck that encounters more wind resistance, so the blank must mark contrast."
+    },
+    {
+      "title": "Reject noncontrast links",
+      "content": "Choice A signals a more specific detail, not an opposite example. Choice C signals causation. Choice D signals a conclusion. None fits the shift from a streamlined jet to a boxy truck."
+    },
+    {
+      "title": "Choose the opposing side",
+      "content": "Choice B introduces the other side of the comparison: the semitruck is bulkier and less aerodynamic than the streamlined airplane. The answer is <strong>B</strong>."
+    }
+  ]
+}

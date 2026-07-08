@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+      "title": "Use subtraction for removal",
+      "content": "When a region is removed from a figure, subtract the removed area from the original area that remains."
     },
     {
-      "title": "Recognize the operation",
-      "content": "When area is removed from a rectangle, subtract the removed area from the original area to find what remains."
-    },
-    {
-      "title": "Calculate the remaining area",
-      "content": "Area of rectangle P minus area of removed rectangle:<br/>$$72 - 20 = 52$$<br/>The resulting figure has area $52$ square inches. That confirms <strong>D</strong> is correct."
+      "title": "Find the remaining area",
+      "content": "$$72-20=52$$<br/>The resulting figure has area $52$ square inches. The answer is <strong>D</strong>."
     }
   ]
 }

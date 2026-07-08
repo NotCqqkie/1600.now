@@ -10,7 +10,7 @@
     },
     {
       "title": "Use the cost-to-sale relationship and solve for cost",
-      "content": "We're told the sale price is 40% greater than the store's cost. This means:<br/>$$\\text{Sale price} = \\text{Cost} \\times 1.40$$<br/>Substituting the sale price we found:<br/>$$5.46 = \\text{Cost} \\times 1.40$$<br/>Dividing both sides by 1.40:<br/>$$\\text{Cost} = \\frac{5.46}{1.40} = 3.90$$<br/>The store's cost for the backpack is &#36;3.90, so the answer is <strong>3.9</strong>."
+      "content": "We're told the sale price is 40% greater than the store's cost. This means:<br/>$$\\text{Sale price} = \\text{Cost} \\times 1.40$$<br/>Substituting the sale price we found:<br/>$$5.46 = \\text{Cost} \\times 1.40$$<br/>Dividing both sides by 1.40:<br/>$$\\text{Cost} = \\frac{5.46}{1.40} = 3.90$$<br/>The store's cost for the backpack is $3.90, so the answer is <strong>3.9</strong>."
     }
   ]
 }

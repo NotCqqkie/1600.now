@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the boundary",
-      "content": "The shaded region is bounded by a horizontal line at $y = 29$. A horizontal boundary in the $xy$-plane corresponds to an inequality involving only $y$, not $x$."
+      "title": "Read the boundary line",
+      "content": "The choices show the boundary value is $33$. Since the boundary is horizontal, the inequality must involve $y$, not $x$."
     },
     {
-      "title": "Determine the direction",
-      "content": "The shading lies <em>above</em> the line $y = 29$ (and the boundary line itself appears solid, so it's included). That's the inequality $y \\geq 29$.<br/><br/>That is the correct answer."
+      "title": "Use the shaded direction",
+      "content": "The shaded region is above the horizontal boundary, and the solid boundary is included. That corresponds to\n$$\ny\\ge 33\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

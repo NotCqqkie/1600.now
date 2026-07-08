@@ -1,0 +1,15 @@
+{
+  "questionId": "0f7d2b39",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the volume pattern",
+      "content": "The study found that people play preferred recordings louder than less-liked recordings and that musicians tend to listen at higher volumes than nonmusicians. If both participants favor the same song and the musician plays it at 85.5 dB, the nonmusician would likely use a lower volume."
+    },
+    {
+      "title": "Reject unsupported predictions",
+      "content": "Choice A assumes the same volume for other Metallica songs. Choice B claims the musician would never play heavy metal below 85.5 dB. Choice C reverses the musician-nonmusician pattern by predicting a greater volume. The answer is <strong>D</strong>."
+    }
+  ]
+}

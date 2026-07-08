@@ -4,23 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$f \\left(x\\right)={ \\left(x+7\\right)}^{2}+4$$Graph it and use the visible intercept, root, or vertex the question asks for. The requested value is $-7$.",
+      "title": "Use vertex form",
+      "content": "The function is written as a squared expression plus a constant:<br/>$$f(x)=(x+7)^2+4$$<br/>A squared term is smallest when the expression inside the parentheses equals $0$."
+    },
+    {
+      "title": "Find where the square is smallest",
+      "content": "Set the inside of the square equal to $0$:<br/>$$x+7=0$$<br/>At that input, the function reaches its minimum."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph<br/>$$f(x)=(x+7)^{2}+4$$<br/>and read the $x$-coordinate of the vertex. The answer is <strong>-7</strong>.",
       "desmosExpressions": [
         "f \\left(x\\right)={ \\left(x+7\\right)}^{2}+4"
       ]
-    },
-    {
-      "title": "Recognize vertex form",
-      "content": "$f(x) = (x+7)^2 + 4$ is in vertex form $a(x-h)^2 + k$ with $a = 1$, $h = -7$, $k = 4$."
-    },
-    {
-      "title": "Determine where the minimum occurs",
-      "content": "Since $a \\gt  0$, the parabola opens upward and has its minimum at the vertex $x = h$."
-    },
-    {
-      "title": "Compute the answer",
-      "content": "The minimum occurs at $x = -7$. The answer is <strong>-7</strong>."
     }
   ]
 }

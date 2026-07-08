@@ -1,0 +1,15 @@
+{
+  "questionId": "0fb246b6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Require a direct comparison",
+      "content": "The hypothesis says intermediate-headed fish will be more likely than narrow-headed fish to detect obstructions that create large vortices in low visibility. Support should directly compare those two head shapes under those conditions."
+    },
+    {
+      "title": "Reject one-sided findings",
+      "content": "Choice B gives only narrow-headed sturgeon results. Choice C compares members of the same intermediate-headed species to one another. Choice D gives only intermediate-headed smooth-hound results. The answer is <strong>A</strong>."
+    }
+  ]
+}

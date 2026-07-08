@@ -1,0 +1,19 @@
+{
+  "questionId": "6e47758a",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope",
+      "content": "The equation $g(x+1)-g(x)=3$ means the output increases by $3$ whenever the input increases by $1$. Since $g$ is linear, its slope is $3$."
+    },
+    {
+      "title": "Find the constant term",
+      "content": "Write the function as $g(x)=3x+b$. Use $g(8)=13$ to solve for $b$.<br/>$$13=3(8)+b$$<br/>$$13=24+b$$<br/>$$b=-11$$"
+    },
+    {
+      "title": "Write the function",
+      "content": "Substitute the constant term back into the linear equation.<br/>$$g(x)=3x-11$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

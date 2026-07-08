@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate calcium from ice cream",
-      "content": "There are 3 cups of ice cream, each containing 242 mg of calcium. Total calcium from ice cream:<br/>$$3 \\times 242 = 726 \\text{ mg}$$"
+      "title": "Find the ice cream calcium",
+      "content": "The batch uses $3$ cups of ice cream, with $242\\,\\text{mg}$ of calcium per cup:<br/>$$3(242)=726$$<br/>So the ice cream contributes $726\\,\\text{mg}$ of calcium."
     },
     {
-      "title": "Find calcium per banana",
-      "content": "The batch contains 738 mg total. Calcium from the 2 bananas is:<br/>$$738 - 726 = 12 \\text{ mg}$$<br/>Calcium in 1 banana:<br/>$$\\frac{12}{2} = 6 \\text{ mg}$$<br/>That matches <strong>Choice A &mdash; $6$</strong>."
+      "title": "Subtract to isolate bananas",
+      "content": "The whole batch has $738\\,\\text{mg}$, so the $2$ bananas contribute:<br/>$$738-726=12$$"
+    },
+    {
+      "title": "Divide by two bananas",
+      "content": "Each banana has half of that calcium:<br/>$$\\frac{12}{2}=6$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

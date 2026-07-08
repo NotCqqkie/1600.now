@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The previous sentence describes tropical forests as humid with closely spaced trees. The blank introduces a sentence describing savannas as drier with trees spaced further apart. The transition must signal a direct comparison between two different environments."
+      "title": "Compare the environments",
+      "content": "The sentence before the blank describes tropical forests as humid with closely spaced trees. The next sentence describes savannas as drier with trees farther apart."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;For instance,&rsquo;</strong>: signals that what follows is an example of the preceding idea. Savannas are not an example of tropical forests; they are being contrasted with them. &#10007;</li><li><strong>Choice B &mdash; &lsquo;In comparison,&rsquo;</strong>: directly signals that the description of savannas is being measured against the description of tropical forests in the previous sentence, which is exactly the relationship between the two clauses. &#10003;</li><li><strong>Choice C &mdash; &lsquo;Firstly,&rsquo;</strong>: signals the first item in a numbered series. The passage is not listing a sequence of points; it is contrasting two environments. &#10007;</li><li><strong>Choice D &mdash; &lsquo;In conclusion,&rsquo;</strong>: signals a closing summary. No conclusion is being drawn; the sentence introduces new descriptive information about savannas. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Pick the comparison signal",
+      "content": "Choice A would introduce an example, but savannas are not an example of tropical forests. Choice C signals the first item in a sequence, and Choice D signals a conclusion. The relationship is a side-by-side comparison of two environments. The answer is <strong>B</strong>."
     }
   ]
 }

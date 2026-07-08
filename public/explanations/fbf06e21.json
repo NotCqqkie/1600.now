@@ -1,0 +1,19 @@
+{
+  "questionId": "fbf06e21",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion factor",
+      "content": "To convert radians to degrees, multiply by:<br/>$$\\frac{180^\\circ}{\\pi}$$"
+    },
+    {
+      "title": "Convert the given expression",
+      "content": "Multiply the radian measure by the conversion factor:<br/>$$-\\frac{7}{12}\\pi\\cdot\\frac{180^\\circ}{\\pi}$$<br/>This expression keeps the sign and cancels radians."
+    },
+    {
+      "title": "Match the expression",
+      "content": "The converted expression is the one shown in choice C. The answer is <strong>C</strong>."
+    }
+  ]
+}

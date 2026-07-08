@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the point (0, 18) to relate a and b",
-      "content": "Substitute $x=0$ and $y=18$ into $g(x)$:<br/>$$g(0) = \\frac{0^2 - 0 - a}{0^3 - 0 - b} = \\frac{-a}{-b} = \\frac{a}{b} = 18$$<br/>Therefore, $a = 18b$."
+      "title": "Use the point on the graph",
+      "content": "Since the graph passes through $(0,18)$, $g(0)=18$. Substitute $x=0$:\n$$\ng(0)=\\frac{0^2-0-a}{0^3-0-b}=\\frac{-a}{-b}=\\frac{a}{b}=18\n$$\nSo $a=18b$."
     },
     {
-      "title": "Use the zero condition g(-18) = 0",
-      "content": "When a rational function equals zero, its numerator must be zero (with denominator non-zero). Substitute $x = -18$ into the numerator:<br/>$$(-18)^2 - (-18) - a = 0$$<br/>$$324 + 18 - a = 0$$<br/>$$a = 342$$"
+      "title": "Use the zero of the function",
+      "content": "Since $g(-18)=0$, the numerator must equal $0$:\n$$\n(-18)^2-(-18)-a=0\n$$\n$$\n324+18-a=0\n$$\n$$\na=342\n$$"
     },
     {
-      "title": "Solve for b",
-      "content": "From Step 1: $a = 18b$<br/>From Step 2: $a = 342$<br/>Combine these equations:<br/>$$18b = 342$$<br/>$$b = \\frac{342}{18} = 19$$<br/>That matches <strong>Choice A</strong>."
+      "title": "Solve for the constant",
+      "content": "Use $a=18b$:\n$$\n18b=342\n$$\n$$\nb=19\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

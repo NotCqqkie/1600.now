@@ -1,0 +1,19 @@
+{
+  "questionId": "ad2a735e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Graph both equations",
+      "content": "Type the equations into Desmos exactly as they appear:<br/>$$y=-15x+21$$<br/>$$y=-21x+27$$<br/>The solution is the point where the two lines intersect.",
+      "desmosExpressions": [
+        "y=-15x+21",
+        "y=-21x+27"
+      ]
+    },
+    {
+      "title": "Read the intersection point",
+      "content": "The intersection point is $(1,6)$. This is the only point that satisfies both equations. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e95d4d13",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the percent comparison",
+      "content": "To find what percent $0.23x$ is of $x$, compare $0.23x$ to $x$ and multiply by $100\\%$.<br/>$$\\frac{0.23x}{x}\\cdot 100\\%$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Since $x$ is positive, cancel $x$.<br/>$$0.23\\cdot 100\\%=23\\%$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

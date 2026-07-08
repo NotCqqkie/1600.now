@@ -1,0 +1,15 @@
+{
+  "questionId": "c1bd2521",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary acute angles",
+      "content": "In a right triangle, the two acute angles add to $90^\\circ$. Since angles $X$ and $Y$ are the acute angles, they are complementary."
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "For complementary angles, the sine of one acute angle equals the cosine of the other.$$\\sin X=\\cos Y$$The answer is <strong>A</strong>."
+    }
+  ]
+}

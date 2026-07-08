@@ -1,0 +1,19 @@
+{
+  "questionId": "c34348cf",
+  "correctAnswer": "3.698",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the exposed faces",
+      "content": "The box has square sides and no lid, so its exterior surface area includes $5$ square faces."
+    },
+    {
+      "title": "Find square centimeters",
+      "content": "Each face has side length $86$ centimeters, so the total exposed area is\n$$\n5(86^2)=5(7{,}396)=36{,}980\\ \\text{cm}^2\n$$"
+    },
+    {
+      "title": "Convert to square meters",
+      "content": "Since $1\\ \\text{m}^2=10{,}000\\ \\text{cm}^2$, divide by $10{,}000$:\n$$\n\\frac{36{,}980}{10{,}000}=3.698\n$$\nThe answer is <strong>3.698</strong>."
+    }
+  ]
+}

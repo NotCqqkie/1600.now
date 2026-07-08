@@ -4,19 +4,19 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$8x-7x+130=260$$Graph or solve it directly and read the x-value that works. The requested value is $130$.",
+      "title": "Combine like terms",
+      "content": "The terms $8x$ and $-7x$ combine to $x$.<br/>$$8x-7x+130=260$$<br/>$$x+130=260$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Subtract $130$ from both sides.<br/>$$x=130$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Entering the equation in a graphing calculator or Desmos also gives the solution for $x$. The answer is <strong>130</strong>.",
       "desmosExpressions": [
         "8x-7x+130=260"
       ]
-    },
-    {
-      "title": "Combine like terms",
-      "content": "$8x-7x=x$, so the equation becomes $$x+130=260.$$"
-    },
-    {
-      "title": "Solve for $x$",
-      "content": "Subtract $130$ from both sides: $$x=130.$$"
     }
   ]
 }

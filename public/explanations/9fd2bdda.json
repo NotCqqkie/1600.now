@@ -1,0 +1,19 @@
+{
+  "questionId": "9fd2bdda",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the input",
+      "content": "In $P(x)=547(1.010)^x$, the input $x$ is the number of years after $1952$. So $x=6$ corresponds to<br/>$$1952+6=1958$$"
+    },
+    {
+      "title": "Translate the output",
+      "content": "The output $P(x)$ is the modeled population. Therefore $P(6)$ being approximately $581$ means the modeled population in $1958$ is approximately $581$."
+    },
+    {
+      "title": "Match the interpretation",
+      "content": "The statement that says the town's population is estimated to be approximately $581$ in $1958$ matches this interpretation. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "efc01e8c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track purpose and method",
+      "content": "The text first states the study's conclusion: people were more civil after thinking about values. It then explains how the researchers reached that conclusion by comparing an experimental group with a control group."
+    },
+    {
+      "title": "Reject purposes not in the text",
+      "content": "Choice A says the text suggests design improvements, but it only describes the design. Choice C adds researcher surprise, and choice D adds a widely held belief; neither appears in the passage. The remaining choice matches the conclusion-plus-method structure. The answer is <strong>B</strong>."
+    }
+  ]
+}

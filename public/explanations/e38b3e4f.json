@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a subject-verb agreement question (Standard English Conventions). The sentence structure is &ldquo;The radiation that [blank] during the decay of radioactive atomic nuclei is known as gamma radiation.&rdquo; The blank fills the verb in the relative clause &ldquo;that [blank].&rdquo; The subject of that clause is &ldquo;radiation,&rdquo; which is singular."
+      "title": "Find the clause subject",
+      "content": "The blank is the verb in the relative clause <strong>that ___ during the decay of radioactive atomic nuclei</strong>. The subject of that clause is <strong>radiation</strong>, which is singular."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"occurs\"</strong>: Singular present-tense verb; agrees with the singular subject &ldquo;radiation.&rdquo; &#10003;</li><li><strong>\"have occurred\"</strong>: Plural verb (&ldquo;have&rdquo; requires a plural subject); violates subject-verb agreement with the singular &ldquo;radiation.&rdquo; &#10007;</li><li><strong>\"occur\"</strong>: Plural base form; used with plural subjects or with &ldquo;I&rdquo;, not with singular third-person &ldquo;radiation.&rdquo; Violates subject-verb agreement. &#10007;</li><li><strong>\"are occurring\"</strong>: Plural progressive form (&ldquo;are&rdquo; requires a plural subject); violates subject-verb agreement with the singular &ldquo;radiation.&rdquo; &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Use singular agreement",
+      "content": "B, C, and D are plural verb forms, so they do not agree with the singular subject. The sentence needs a singular present-tense verb. The answer is <strong>A</strong>."
     }
   ]
 }

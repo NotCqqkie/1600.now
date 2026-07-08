@@ -1,0 +1,19 @@
+{
+  "questionId": "f42e1f61",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make the description subordinate",
+      "content": "The main sentence needs to say that the documentary was directed by Neta Rhyne. The detail about what it is about should be placed in a nonrestrictive which-clause."
+    },
+    {
+      "title": "Reject broken clauses",
+      "content": "Choice A leaves is about and was directed competing awkwardly in one clause. Choice B lacks the comma needed for a nonrestrictive clause. Choice C capitalizes documentary mid-sentence and fails to supply which."
+    },
+    {
+      "title": "Choose the which-clause",
+      "content": "Documentary, which creates a properly set-off nonrestrictive clause before the main verb was directed. The answer is <strong>D</strong>."
+    }
+  ]
+}

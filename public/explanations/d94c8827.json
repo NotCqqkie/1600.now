@@ -1,0 +1,15 @@
+{
+  "questionId": "d94c8827",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the requested fact",
+      "content": "The student wants to specify when Ur formed. The relevant note gives the needed timing directly: Ur formed about 3.1 billion years ago."
+    },
+    {
+      "title": "Exclude non-timing details",
+      "content": "Choice A defines Ur as a supercontinent but gives no date. Choice C says only “long ago.” Choice D describes the general supercontinent cycle rather than Ur's formation time. The sentence with the precise age fulfills the goal. The answer is <strong>B</strong>."
+    }
+  ]
+}

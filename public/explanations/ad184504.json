@@ -1,0 +1,19 @@
+{
+  "questionId": "ad184504",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zero from the point",
+      "content": "The point $(-4,0)$ means $h(-4)=0$. In<br/>$$h(x)=(x+p)(x-3)(2x-14)$$<br/>the zeros are $-p$, $3$, and $7$."
+    },
+    {
+      "title": "Find the constant",
+      "content": "Since $-4$ is not $3$ or $7$, it must come from $x+p=0$:<br/>$$-4+p=0$$<br/>$$p=4$$"
+    },
+    {
+      "title": "Evaluate at zero",
+      "content": "Now substitute $x=0$:<br/>$$h(0)=(4)(-3)(-14)=168$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

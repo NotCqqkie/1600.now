@@ -1,0 +1,19 @@
+{
+  "questionId": "c1f18608",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect exposure and age",
+      "content": "The team's conclusion is about whether previous language exposure affects a dog's ability to distinguish a familiar language from an unfamiliar one. Since the dogs were raised in similar settings, age can stand in for cumulative exposure: older dogs would generally have spent more time hearing their familiar language than younger dogs."
+    },
+    {
+      "title": "Require the right comparison",
+      "content": "A compares familiar language with scrambled sounds, but the conclusion is not about speech versus scrambled fragments. B says dogs of all ages respond more to the familiar language, yet it does not show that greater exposure changes the size of the familiar-unfamiliar difference. C compares unfamiliar language with scrambled sounds and could even point away from stronger language discrimination."
+    },
+    {
+      "title": "Use the age pattern",
+      "content": "The needed finding must compare familiar and unfamiliar language directly and show that the difference is greatest among older dogs. That pattern would connect more prior exposure with a stronger ability to distinguish the two languages. The answer is <strong>D</strong>."
+    }
+  ]
+}

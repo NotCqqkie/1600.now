@@ -1,0 +1,15 @@
+{
+  "questionId": "c22335ba",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each distance",
+      "content": "Walking gives $3w$ miles. Running gives $5r$ miles."
+    },
+    {
+      "title": "Set the total distance",
+      "content": "The total is $12$ miles:<br/>$$3w+5r=12$$The answer is <strong>A</strong>."
+    }
+  ]
+}

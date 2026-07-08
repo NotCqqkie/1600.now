@@ -1,0 +1,15 @@
+{
+  "questionId": "ef4a0641",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand the equivalent form",
+      "content": "Distribute $ry^4$ across both terms in the parentheses:\n$$\nry^4(9y-6)=9ry^5-6ry^4\n$$"
+    },
+    {
+      "title": "Match the coefficients",
+      "content": "Since the expressions are equivalent, the coefficient of $y^5$ must match the coefficient in $63y^5-42y^4$:\n$$\n9r=63\n$$\n$$\nr=7\n$$\nThe answer is <strong>7</strong>."
+    }
+  ]
+}

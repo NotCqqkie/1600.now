@@ -1,0 +1,15 @@
+{
+  "questionId": "23ea24f2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the 2013 date",
+      "content": "On August 15, 2013 is a specific past date. The sentence therefore needs a past-tense verb for the completed publication of the profile."
+    },
+    {
+      "title": "Reject nonpast tenses",
+      "content": "Choice A is future tense, which does not match a past date. Choice C is present tense, and Choice D is present progressive; both treat the event as current rather than completed. The simple past form matches the date. The answer is <strong>B</strong>."
+    }
+  ]
+}

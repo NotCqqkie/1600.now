@@ -1,0 +1,15 @@
+{
+  "questionId": "ad390e1a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the accuracy gap",
+      "content": "The passage says Chen's 2015 calculation was more accurate than the 1920 calculation. The next sentence explains why that difference is unsurprising: the older calculation used only cardboard and string."
+    },
+    {
+      "title": "Reject transition mismatches",
+      "content": "A signals a final outcome, C signals similarity, and D signals purpose. The needed transition marks an expected explanation. The answer is <strong>B</strong>."
+    }
+  ]
+}

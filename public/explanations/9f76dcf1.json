@@ -1,0 +1,15 @@
+{
+  "questionId": "9f76dcf1",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use slope and intercept",
+      "content": "The line has slope $5$ and passes through $(0{,}18)$. The point $(0{,}18)$ gives the $y$-intercept."
+    },
+    {
+      "title": "Write the function",
+      "content": "Using $f(x)=mx+b$, substitute $m=5$ and $b=18$:\n$$\nf(x)=5x+18\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

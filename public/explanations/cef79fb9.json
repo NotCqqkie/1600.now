@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the underlined sentence's role",
-      "content": "The sentence before the underlined one argues that the workers &quot;developed and refined their joining process over the course of production.&quot; The underlined sentence opens with &quot;For example&quot; and then contrasts the first join (clear misalignment) with later joins (virtually invisible) &mdash; this is concrete evidence for that argument about the workers."
+      "title": "Use the example signal",
+      "content": "The previous sentence says some researchers think the workers refined their joining process during production. The underlined sentence begins For example and compares an early misaligned join with later nearly invisible joins."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul><li><strong>Choice A &mdash; It identifies the people and events depicted in the Bayeux Tapestry.</strong>: The sentence is about how panels were joined, not about people or events shown in the tapestry's imagery. &#10007;</li><li><strong>Choice B &mdash; It supports an argument about the workers who produced the Bayeux Tapestry.</strong>: The sentence provides the &quot;For example&quot; evidence that workers improved their technique over time &mdash; directly supporting the preceding argument about the workers. &#10003;</li><li><strong>Choice C &mdash; It compares the Bayeux Tapestry with other tapestries from eleventh-century France.</strong>: The comparison is between early and late joins within the same tapestry, not between tapestries. &#10007;</li><li><strong>Choice D &mdash; It describes how researchers determined where the Bayeux Tapestry was produced.</strong>: The sentence says nothing about establishing the tapestry's place of origin. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject unrelated functions",
+      "content": "<ul><li><strong>Choice A</strong> concerns the tapestry's depicted people and events, not its joins.</li><li><strong>Choice C</strong> compares different tapestries, but the sentence compares joins in one tapestry.</li><li><strong>Choice D</strong> discusses place of production, which the sentence does not address.</li></ul>"
+    },
+    {
+      "title": "Identify the support role",
+      "content": "The underlined sentence provides evidence that the workers improved their joining technique, supporting the argument about how they produced the tapestry. The answer is <strong>B</strong>."
     }
   ]
 }

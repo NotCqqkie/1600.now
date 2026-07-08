@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read what the blank is doing",
-      "content": "The em dash before the blank sets off a phrase that explains the technical term &quot;cognate replacement&quot; just mentioned: &quot;the rate at which a word will be replaced over time with a noncognate form.&quot; That's a definition/restatement of the term, not a new example or added fact."
+      "title": "Recognize the definition",
+      "content": "The phrase after the blank explains the technical term \"cognate replacement\" by defining it as the rate at which a word is replaced over time with a noncognate form. The transition must signal restatement or clarification."
     },
     {
-      "title": "Pick the restatement transition",
-      "content": "&quot;That is&quot; is the standard transition for restatement or definition &mdash; it tells the reader the following phrase clarifies what the previous term means."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;for example,&rsquo;</strong>: would introduce an instance of cognate replacement, but what follows defines the term rather than illustrating it. &#10007;</li><li><strong>Choice B &mdash; &lsquo;likewise,&rsquo;</strong>: signals a parallel point, but no second comparable case is being added. &#10007;</li><li><strong>Choice C &mdash; &lsquo;in addition,&rsquo;</strong>: signals an extra, separate point, but the phrase that follows is the same idea restated, not a new one. &#10007;</li><li><strong>Choice D &mdash; &lsquo;that is,&rsquo;</strong>: signals restatement/definition, matching the explanatory phrase that follows. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Choose a clarifying transition",
+      "content": "A would introduce an example, B would signal a parallel point, and C would add a separate point. The sentence instead needs a transition that marks the following phrase as a definition. The answer is <strong>D</strong>."
     }
   ]
 }

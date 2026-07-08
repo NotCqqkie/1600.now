@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's two-part structure",
-      "content": "The passage describes a map collection and then explains how it was made&mdash;consulting existing maps and interviewing travelers."
+      "title": "Summarize the whole passage",
+      "content": "The passage introduces al-Idrisi's medieval map collection, explains its title, and describes how he created it by consulting maps and interviewing travelers. The main purpose must cover both the collection and its creation."
     },
     {
-      "title": "Match the purpose and eliminate the distractors",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;To discuss the benefits of studying mapmaking&rsquo;</strong>: the passage never discusses benefits of studying mapmaking. &#10007;</li><li><strong>Choice B &mdash; &lsquo;To explain how travelers created maps&rsquo;</strong>: al-Idrisi created the maps; travelers only supplied stories he consulted. &#10007;</li><li><strong>Choice C &mdash; &lsquo;To describe a collection of medieval maps and how it was created&rsquo;</strong>: captures both the description of <em>The Book of Roger</em> and the account of al-Idrisi's process. &#10003;</li><li><strong>Choice D &mdash; &lsquo;To compare medieval Arabic and Greek mapmaking techniques&rsquo;</strong>: the passage mentions Arabic and Greek maps as sources but never compares techniques. &#10007;</li></ul>"
+      "title": "Avoid narrower purposes",
+      "content": "A focuses on benefits of studying mapmaking, B wrongly says travelers created the maps, and D claims the passage compares Arabic and Greek mapmaking techniques. Each misses the passage's full purpose. The answer is <strong>C</strong>."
     }
   ]
 }

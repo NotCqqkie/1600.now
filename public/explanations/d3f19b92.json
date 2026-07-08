@@ -1,0 +1,19 @@
+{
+  "questionId": "d3f19b92",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "The current value is $186{,}000$, so that is the initial value when $x=0$."
+    },
+    {
+      "title": "Find the growth multiplier",
+      "content": "An increase of $3.5\\%$ means each year the value is multiplied by $1+0.035=1.035$."
+    },
+    {
+      "title": "Build the function",
+      "content": "The exponential model is\n$$f(x)=186{,}000(1.035)^x$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

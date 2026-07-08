@@ -1,0 +1,15 @@
+{
+  "questionId": "f8fc7fc2",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find a decline in ice days",
+      "content": "The researcher's claim is about a decline in lake ice duration from the early 1980s to the mid-2000s. The supporting data must compare the same lake across both winters and show fewer ice days in 2005-06 than in 1980-81."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "A shows Spirit Lake increasing from about 100 to 125 days. C gives only the highest 2005-06 value, so it does not show change over time. D is not supported by Spirit Lake's increase. Lake Kallavesi drops from about 175 to 145 days. The answer is <strong>B</strong>."
+    }
+  ]
+}

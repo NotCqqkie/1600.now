@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the substitution test",
-      "content": "A point is a solution to $y \\lt -3x + 5$ if substituting its coordinates makes the inequality true. We'll test each answer choice."
+      "title": "Test a point",
+      "content": "A point is a solution if substituting its $x$- and $y$-coordinates makes $y<-3x+5$ true. The point's $y$-value must be less than the right side."
     },
     {
-      "title": "Backsolving",
-      "content": "Backsolving - testing choice B $(0, 6)$: Is $6 \\lt -3(0) + 5 = 5$? No, $6 \\gt 5$ fails.<br/><br/>Testing choice A $(-3, 0)$: Is $0 \\lt -3(-3) + 5 = 9 + 5 = 14$? Yes, $0 \\lt 14$ works. That is the correct answer."
+      "title": "Check the working point",
+      "content": "For $(-3,0)$, substitute $x=-3$ and $y=0$:\n$$\n0<-3(-3)+5\n$$\n$$\n0<14\n$$\nThis is true, so the point is a solution."
     },
     {
-      "title": "Check the other choices",
-      "content": "The other points fail the inequality: $(0,6)$ gives $6$ not less than $5$, $(3,1)$ gives $1$ not less than $-4$, and $(3,-1)$ gives $-1$ not less than $-4$. Only $(-3,0)$ satisfies $y \\lt -3x+5$, so <strong>A</strong> is correct."
+      "title": "Eliminate the others",
+      "content": "The other choices fail because their $y$-values are not less than the matching right-side values. Only $(-3,0)$ satisfies the inequality. The answer is <strong>A</strong>."
     }
   ]
 }

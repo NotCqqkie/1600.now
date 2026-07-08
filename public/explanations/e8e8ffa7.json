@@ -1,0 +1,15 @@
+{
+  "questionId": "e8e8ffa7",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the global pattern",
+      "content": "Many North American studies found a positive association between dissolved organic carbon and mercury. Although one Finnish study did not, several studies outside North America, including one in China, found results similar to the North American pattern, and few matched the Finnish exception."
+    },
+    {
+      "title": "Reject exception-based claims",
+      "content": "A invents a claim about levels being higher in Finland. B is contradicted by studies outside North America showing the same association. D invents measurement problems in Luo and colleagues' study. The broad pattern supports a typical positive relationship in fresh water. The answer is <strong>C</strong>."
+    }
+  ]
+}

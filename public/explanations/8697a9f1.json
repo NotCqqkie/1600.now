@@ -1,0 +1,19 @@
+{
+  "questionId": "8697a9f1",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find where height rises",
+      "content": "The graph shows a projectile path. Its height increases until the vertex, then decreases after the vertex."
+    },
+    {
+      "title": "Use the vertex",
+      "content": "From the graph, the vertex occurs at $x=2$. The height is increasing from $x=0$ up to $x=2$ and is not increasing for intervals that continue past $x=2$."
+    },
+    {
+      "title": "Select the full increasing interval",
+      "content": "The only listed interval entirely on the rising part of the graph is from $x=0$ to $x=2$. The answer is <strong>A</strong>."
+    }
+  ]
+}

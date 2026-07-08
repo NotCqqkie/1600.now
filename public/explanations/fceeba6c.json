@@ -1,0 +1,15 @@
+{
+  "questionId": "fceeba6c",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the plural subject",
+      "content": "The subject of the blank is \"many of whom,\" referring to multiple biomedical scientists. The phrase naming Elba Serrano is only an inserted example and does not change the plural subject."
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "Choice B uses singular <em>has studied</em>. Choice C uses singular <em>studies</em>. Choice D uses singular <em>is studying</em>. The verb must agree with the plural subject. The answer is <strong>A</strong>."
+    }
+  ]
+}

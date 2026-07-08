@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the left side",
-      "content": "$\\frac{18x}{9y} = \\frac{2x}{y}$, so the equation becomes:$$\\frac{2x}{y} = 2\\sqrt{w+17}$$Divide both sides by 2:$$\\frac{x}{y} = \\sqrt{w+17}$$"
+      "title": "Simplify and divide",
+      "content": "Simplify the left side, then divide both sides by $2$.<br/>$$\\frac{18x}{9y}=\\frac{2x}{y}$$<br/>$$\\frac{2x}{y}=2\\sqrt{w+17}$$<br/>$$\\frac{x}{y}=\\sqrt{w+17}$$"
     },
     {
-      "title": "Eliminate the square root by squaring both sides",
-      "content": "$$\\left(\\frac{x}{y}\\right)^2 = w + 17$$"
+      "title": "Undo the radical",
+      "content": "Square both sides.<br/>$$(\\frac{x}{y})^2=w+17$$"
     },
     {
       "title": "Isolate w",
-      "content": "$$w = \\left(\\frac{x}{y}\\right)^2 - 17$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $w = \\sqrt{\\frac{x}{y}} - 17$: takes the square root instead of squaring &mdash; reverses the operation. Incorrect.</li><li>B) $w = \\sqrt{\\frac{36x}{18y}} - 17$: fails to simplify $\\frac{18x}{9y}$ correctly and takes a square root instead of squaring. Incorrect.</li><li>C) $w = \\left(\\frac{x}{y}\\right)^2 - 17$: matches the derived result exactly. That matches <strong>Choice C &mdash; $w={ \\left(\\frac{x}{y}\\right)}^{2}-17$</strong>.</li><li>D) $w = \\left(\\frac{36x}{18y}\\right)^2 - 17$: simplifies $\\frac{36x}{18y} = \\frac{2x}{y}$, but forgets to divide by 2 before squaring, so $\\left(\\frac{2x}{y}\\right)^2 = \\frac{4x^2}{y^2} \\neq \\left(\\frac{x}{y}\\right)^2$. Incorrect.</li></ul>"
+      "content": "Subtract $17$ from both sides.<br/>$$w=(\\frac{x}{y})^2-17$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

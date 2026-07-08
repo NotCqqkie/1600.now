@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the 4",
-      "content": "Start with $$4(x+6)-7$$ Distribute $4$ to both terms inside the parentheses: $$4x+24-7$$"
+      "title": "Distribute the four",
+      "content": "Multiply $4$ by both terms inside the parentheses.<br/>$$4(x+6)-7=4x+24-7$$"
     },
     {
       "title": "Combine constants",
-      "content": "The constant terms are $24$ and $-7$: $$24-7=17$$ So the expression simplifies to $$4x+17$$"
-    },
-    {
-      "title": "Avoid the common distribution error",
-      "content": "The $4$ multiplies both $x$ and $6$, giving $4x+24$ before subtracting $7$. Do not combine the $6$ and $-7$ before distributing."
-    },
-    {
-      "title": "Match the choice",
-      "content": "$4x+17$ matches <strong>Choice C &mdash; $4x + 17$</strong>."
+      "content": "Now combine the constant terms.<br/>$$24-7=17$$<br/>So the equivalent expression is<br/>$$4x+17$$<br/>This matches choice C. The answer is <strong>C</strong>."
     }
   ]
 }

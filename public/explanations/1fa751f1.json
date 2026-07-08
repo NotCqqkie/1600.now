@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the observable quality contrast",
-      "content": "The passage opens by noting handedness is “easy to observe in humans,” then states the trait is present but “less ______” in other animals, prompting researchers to use special tasks. The blank must name the reduced version of that same observable quality."
+      "title": "Use the observation clue",
+      "content": "The first sentence says handedness is easy to observe in humans. The next sentence says the trait is present but less blank in many animals, so researchers use special tasks to reveal it. The blank must mean less apparent or identifiable."
     },
     {
-      "title": "Select the word that echoes observability",
-      "content": "“Recognizable” directly mirrors the “easy to observe” quality from the opening—handedness is recognizable in humans but less recognizable in animals, explaining why special detection tasks are necessary.<br/><br/>The other choices address unrelated properties: interest level, importance, and functionality.<br/><br/>That matches <strong>Choice A &mdash; recognizable</strong>."
+      "title": "Reject unrelated meanings",
+      "content": "B concerns how fascinating the trait is, C concerns how important it is, and D concerns usefulness. None explains why researchers need special tasks to detect handedness in animals. The word that means apparent or identifiable fits. The answer is <strong>A</strong>."
     }
   ]
 }

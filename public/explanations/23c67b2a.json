@@ -1,0 +1,15 @@
+{
+  "questionId": "23c67b2a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map regions to neighborhoods",
+      "content": "Mandarin is widely spoken in north China and is dominant in Flushing, Queens. Cantonese and Fuzhounese are widely spoken in south China and are dominant in Chinatown, Manhattan."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "A adds a claim about immigration timing and multilingual ability. C adds unsupported population totals. D adds unsupported claims about moving between boroughs. The regional language pattern supports the inference that immigrants from north and south China tend to settle in different boroughs. The answer is <strong>B</strong>."
+    }
+  ]
+}

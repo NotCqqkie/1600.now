@@ -1,0 +1,15 @@
+{
+  "questionId": "ddf7de97",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the zeros",
+      "content": "The graph passes through $(-2,0)$, $(3,0)$, and $(5,0)$, so the zeros of $f$ include $-2$, $3$, and $5$."
+    },
+    {
+      "title": "Convert zeros to factors",
+      "content": "If $a$ is a zero, then $x-a$ is a factor. The zero $3$ gives the factor $x-3$. The answer is <strong>C</strong>."
+    }
+  ]
+}

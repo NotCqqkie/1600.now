@@ -1,0 +1,16 @@
+{
+  "questionId": "2b4cea4a",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the percent",
+      "content": "Convert $85\\%$ to a decimal.",
+      "formula": "$$p\\% = \\frac{p}{100}$$"
+    },
+    {
+      "title": "Multiply by the starting volume",
+      "content": "Since the starting volume is $v$, $85\\%$ of that volume is<br/>$$\\frac{85}{100}v=0.85v$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

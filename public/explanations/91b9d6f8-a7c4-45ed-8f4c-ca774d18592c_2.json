@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the y-intercept",
-      "content": "The y-intercept is the point where the graph crosses the y-axis ($x=0$). The graph crosses the y-axis at $y=9$, giving $(0,9)$."
+      "title": "Use the y-axis crossing",
+      "content": "The y-intercept is the point where a graph crosses the y-axis. Any y-intercept has $x=0$."
     },
     {
-      "title": "Confirm the form",
-      "content": "A y-intercept must have $x=0$, which rules out $(-9,0)$ and $(-6,0)$. Of the points on the y-axis, only $(0,9)$ matches the crossing.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Choose the graphed point",
+      "content": "From the graph, the crossing on the y-axis is $(0,5)$. The answer is <strong>D</strong>."
     }
   ]
 }

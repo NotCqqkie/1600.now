@@ -1,0 +1,15 @@
+{
+  "questionId": "b8d21ad7",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the pronoun antecedent",
+      "content": "The pronoun in the blank refers to Marcel Duchamp's abstract cubist aesthetic. The antecedent \"aesthetic\" is singular and third person, so the pronoun must also be singular and third person."
+    },
+    {
+      "title": "Reject plural and speaker pronouns",
+      "content": "A is plural and does not agree with \"aesthetic.\" B is also plural. C introduces a first-person speaker not present in the sentence. A singular third-person pronoun correctly fits \"represented a radical departure.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

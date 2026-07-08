@@ -1,0 +1,15 @@
+{
+  "questionId": "7ca3202e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the fixed values",
+      "content": "The function values $f(0)=4$, $f(8)=0$, and $f(20)=0$ are given as facts. A statement cannot be true if it directly contradicts one of them."
+    },
+    {
+      "title": "Find the contradiction",
+      "content": "The statement $f(20)<0$ contradicts the given value $f(20)=0$, because $0$ is not less than $0$. The answer is <strong>A</strong>."
+    }
+  ]
+}

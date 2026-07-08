@@ -1,0 +1,15 @@
+{
+  "questionId": "175f77d1",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the three moves",
+      "content": "The text first introduces a team's model for predicting neighborhood business mixes. It then explains part of the method, a clustering algorithm for identifying neighborhoods, and ends by suggesting a possible use for the model."
+    },
+    {
+      "title": "Match the structure",
+      "content": "Choice A wrongly focuses on predicting business success and other fields. Choice B invents urban planners' motivations and a key finding. Choice C describes trends and a problem the text does not develop. The remaining choice matches the study, methodology, and application sequence. The answer is <strong>D</strong>."
+    }
+  ]
+}

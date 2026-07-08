@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply both sides by r to clear the denominator",
-      "content": "Starting with the given formula:<br/>$$s^2 = \\frac{HN}{r}$$<br/>Multiply both sides by $r$ to eliminate the denominator:<br/>$$r s^2 = HN$$"
+      "title": "Clear the denominator",
+      "content": "Start with the given formula:\n$$\ns^2=\\frac{HN}{r}\n$$\nMultiply both sides by $r$ to clear the denominator:\n$$\nrs^2=HN\n$$"
     },
     {
-      "title": "Divide both sides by H to isolate N",
-      "content": "Divide both sides of $r s^2 = HN$ by $H$:<br/>$$N = \\frac{r s^2}{H}$$<br/><strong>A</strong> is correct."
+      "title": "Isolate the tension",
+      "content": "Divide both sides by $H$:\n$$\n\\frac{rs^2}{H}=N\n$$\nSo $N=\\frac{rs^2}{H}$. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the rectangle diagonal",
-      "content": "A rectangle's diagonal forms a right triangle with the rectangle's two side lengths as the legs. Use the Pythagorean theorem with hypotenuse $4\\sqrt{17}$ and one leg $4$."
+      "title": "Use the diagonal triangle",
+      "content": "A rectangle's diagonal and side lengths form a right triangle. Let $b$ be the longer side, with hypotenuse $4\\sqrt{17}$ and shorter leg $4$."
     },
     {
-      "title": "Apply the Pythagorean theorem to the rectangle",
-      "content": "In a rectangle, the diagonal and two sides form a right triangle. Let $b$ be the longer side:<br/>$$4^2 + b^2 = (4\\sqrt{17})^2$$"
+      "title": "Apply the theorem",
+      "content": "Use the Pythagorean theorem.\n$$4^2+b^2=(4\\sqrt{17})^2$$"
     },
     {
-      "title": "Solve for the longer side",
-      "content": "Square the right side:<br/>$$(4\\sqrt{17})^2 = 16 \\cdot 17 = 272$$<br/>$$16 + b^2 = 272$$<br/>$$b^2 = 256$$<br/>$$b = 16$$<br/>The longer side is <strong>16</strong>."
+      "title": "Solve for the side",
+      "content": "Square and subtract.\n$$16+b^2=16\\cdot17$$\n$$16+b^2=272$$\n$$b^2=256$$\n$$b=16$$\nThe answer is <strong>16</strong>."
     }
   ]
 }

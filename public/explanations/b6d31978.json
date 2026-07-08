@@ -1,0 +1,19 @@
+{
+  "questionId": "b6d31978",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read circle P",
+      "content": "A circle in standard form $(x-h)^2+(y-k)^2=r^2$ has center $(h,k)$ and radius $r$. For $(x+4)^2+(y-6)^2=16$, the center is $(-4,6)$ and the radius is $4$."
+    },
+    {
+      "title": "Transform the circle",
+      "content": "Circle $Q$ is $2$ units right and $3$ units down from $(-4,6)$, so its center is $(-2,3)$. Its diameter is doubled, so its radius is doubled from $4$ to $8$."
+    },
+    {
+      "title": "Write circle Q",
+      "content": "Use center $(-2,3)$ and radius $8$, so $r^2=64$.\n$$(x+2)^2+(y-3)^2=64$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4c3fb307",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the shared trait",
+      "content": "The goal is to emphasize a similarity between Mara and Elias. The notes say both specimens are members of the genus <em>Tyrannosaurus</em>, so the best sentence must directly compare the two specimens and name what they share."
+    },
+    {
+      "title": "Check the focus of each choice",
+      "content": "<ul><li><strong>Choice A</strong>: States that both specimens belong to the same genus.</li><li><strong>Choice B</strong>: Contrasts the museums where the specimens are housed.</li><li><strong>Choice C</strong>: Describes only Mara's museum and location.</li><li><strong>Choice D</strong>: Describes only Elias and gives no comparison with Mara.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

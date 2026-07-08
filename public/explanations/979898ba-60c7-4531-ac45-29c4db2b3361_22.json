@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the discriminant condition",
-      "content": "For the equation $-x^2 + bx - 49 = 0$ to have <strong>no real solutions</strong>, the discriminant must be negative:<br/>$$b^2 - 4(-1)(-49) \\lt 0$$<br/>$$b^2 - 196 \\lt 0$$"
+      "title": "Use the discriminant",
+      "content": "A quadratic has no real solutions when its discriminant is negative. For\n$$-x^2+bx-49=0$$\nthe coefficients are $A=-1$, $B=b$, and $C=-49$."
     },
     {
-      "title": "Solve for $b$",
-      "content": "$b^2 \\lt 196$ means $-14 \\lt b \\lt 14$.<br/><br/>The least integer in that range is $b = -13$ (since $b = -14$ gives $b^2 = 196$, not strictly less).<br/><br/>The answer is <strong>-13</strong>."
+      "title": "Find the allowed range",
+      "content": "Apply the condition $B^2-4AC\\lt0$.\n$$b^2-4(-1)(-49)\\lt0$$\n$$b^2-196\\lt0$$\n$$b^2\\lt196$$\n$$-14\\lt b\\lt14$$"
+    },
+    {
+      "title": "Choose the least integer",
+      "content": "The least integer strictly greater than $-14$ is $-13$. The answer is <strong>-13</strong>."
     }
   ]
 }

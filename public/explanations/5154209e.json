@@ -1,0 +1,15 @@
+{
+  "questionId": "5154209e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sine period",
+      "content": "The sine function repeats every $2\\pi$. Since\n$$14\\pi=7(2\\pi)$$\nthis angle lands at the same sine value as $0$."
+    },
+    {
+      "title": "Evaluate the sine value",
+      "content": "$$\\sin(14\\pi)=\\sin(0)=0$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

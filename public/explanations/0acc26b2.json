@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the two-part task",
-      "content": "The student must both state a general principle about comet orbits and provide specific evidence that proves it—not merely pair two unrelated facts."
+      "title": "Pair claim with example",
+      "content": "The student needs both a generalization about comet orbits and support for it. The notes support the claim that comet orbits may change over time, using 81P/Wild as the example."
     },
     {
-      "title": "Locate the generalization and its supporting example",
-      "content": "D opens with a generalization (“A comet's orbit around the Sun may change over time”) and immediately backs it with 81P/Wild as evidence—its orbit shifted from between Uranus and Jupiter to between Jupiter and Mars, proving the claim.<ul><li>A provides a generalization without a specific example</li><li>C presents an example without stating the generalization</li><li>B misrepresents the planetary data</li></ul><br/><br/>That matches <strong>Choice D &mdash; A comet's orbit around the Sun may change over time: the orbit of comet 81P/Wild once lay between the orbits of Uranus and Jupiter but is now positioned between those of Jupiter and Mars.</strong>."
+      "title": "Reject incomplete answers",
+      "content": "A states the generalization without the specific 81P/Wild evidence, B misuses the planet information, and C gives the example without making a generalization. The best sentence states the rule and then supports it with 81P/Wild's changed orbit. The answer is <strong>D</strong>."
     }
   ]
 }

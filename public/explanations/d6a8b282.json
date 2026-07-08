@@ -1,0 +1,15 @@
+{
+  "questionId": "d6a8b282",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y intercept",
+      "content": "From the graph, the line crosses the $y$-axis at $(0,2)$. This point must satisfy the equation $10x+By=50$."
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "Substitute $x=0$ and $y=2$.<br/>$$10(0)+B(2)=50$$<br/>$$2B=50$$<br/>$$B=25$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

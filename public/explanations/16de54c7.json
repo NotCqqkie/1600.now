@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the constant term property",
-      "content": "When multiplying $(2x - 5)$ and $(x + k)$, the constant term of the product equals the product of their constant terms. Since $2x^2 + x - 15$ has constant term $-15$: $$(-5) \\cdot k = -15$$"
+      "title": "Use the constant term",
+      "content": "In $(2x-5)(x+k)$, the constant term is the product of $-5$ and $k$. The original expression has constant term $-15$.<br/>$$-5k=-15$$"
     },
     {
-      "title": "Solve for k and verify",
-      "content": "Dividing both sides by $-5$: $$k = \\frac{-15}{-5} = 3$$ <br/> Verify by expanding $(2x - 5)(x + 3)$: $$2x^2 + 6x - 5x - 15 = 2x^2 + x - 15$$"
+      "title": "Solve for the constant",
+      "content": "Divide both sides by $-5$.<br/>$$k=3$$<br/>Expanding checks the middle term:<br/>$$(2x-5)(x+3)=2x^2+6x-5x-15=2x^2+x-15$$<br/>The answer is <strong>3</strong>."
     }
   ]
 }

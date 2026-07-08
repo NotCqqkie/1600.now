@@ -1,0 +1,15 @@
+{
+  "questionId": "7c0326e1",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the y-intercept input",
+      "content": "A $y$-intercept happens where the graph crosses the $y$-axis, so set $x=0$ in the equation.<br/>$$y=9^0$$"
+    },
+    {
+      "title": "Evaluate the power",
+      "content": "Any nonzero base raised to the $0$ power equals $1$. Therefore, the intercept point is $(0,1)$. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "daad24a4",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a sample difference",
+      "content": "The student wants to contrast the two samples. The notes give a clear difference: the natural rubber fiber sample was 2.2 millimeters thick, while the NiTi wire sample was 0.7 millimeters thick."
+    },
+    {
+      "title": "Reject similarities and context",
+      "content": "Choice B gives general study context, Choice C emphasizes that both samples warmed, and Choice D gives a general definition. The remaining choice directly contrasts the samples' thicknesses. The answer is <strong>A</strong>."
+    }
+  ]
+}

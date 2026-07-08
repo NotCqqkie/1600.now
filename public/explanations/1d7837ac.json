@@ -1,0 +1,15 @@
+{
+  "questionId": "1d7837ac",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare Rosen with Lowell",
+      "content": "The task asks for a comparison between Rosen's theory and Lowell's. Lowell's auteur theory makes the director the primary author of a film, while Rosen's schreiber theory makes the screenwriter the primary author. The answer must use those two theories, not Hart's rebuttal. That contrast is the required comparison."
+    },
+    {
+      "title": "Reject the wrong comparisons",
+      "content": "Choice B incorrectly says Lowell and Rosen support shared authorship. Choice C compares Lowell with Hart and misstates Hart's view. Choice D compares Rosen with Hart instead of comparing Rosen with Lowell. The answer is <strong>A</strong>."
+    }
+  ]
+}

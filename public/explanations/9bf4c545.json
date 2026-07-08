@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the target population vs. the sample",
-      "content": "The council wanted to assess opinions of <strong>all town residents</strong>, but only surveyed residents who <strong>own skateboards</strong>. These are not the same group. All residents who do not own skateboards were excluded from the sample."
+      "title": "Identify the population",
+      "content": "The town council wanted to assess the opinions of all town residents. The sample included only residents who own skateboards, so it left out every resident who does not own a skateboard."
     },
     {
-      "title": "Identify why this creates bias",
-      "content": "Skateboard owners have a direct personal interest in a skate park. Their preferences systematically differ from those of residents who do not own skateboards. A sample drawn entirely from one interested subgroup cannot represent the full population."
+      "title": "Identify the sampling bias",
+      "content": "Skateboard owners are likely to have different opinions about a skate park than the full group of town residents. A sample made entirely from that subgroup is not representative of the whole town."
     },
     {
-      "title": "Evaluate all choices",
-      "content": "<ul><li><strong>A:</strong> We cannot conclude the <em>majority</em> of all residents favor the skate park based on a biased sample. The sample does not represent all residents. Eliminated.</li><li><strong>B:</strong> More skateboard owners would not fix the bias &mdash; it would make it worse by further over-representing one group. Eliminated.</li><li><strong>C:</strong> Surveying only residents who do not own skateboards would create the opposite bias. The goal is a representative sample, not one skewed the other way. Eliminated.</li><li><strong>D:</strong> The sample is biased because it draws exclusively from skateboard owners, who are not representative of all town residents. That confirms <strong>D</strong> is correct.</li></ul>"
+      "title": "Choose the true statement",
+      "content": "The survey cannot prove that most town residents favor the skate park, and adding more skateboard owners would not fix the bias. The sample is biased because it is not representative of all town residents. The answer is <strong>D</strong>."
     }
   ]
 }

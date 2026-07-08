@@ -1,0 +1,15 @@
+{
+  "questionId": "b16eb935",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Start by subtracting $28$ from both sides so the square root term is alone. This keeps the equation balanced while preparing to undo the square root.\n$$\\sqrt{w}+28=34$$\n$$\\sqrt{w}=6$$"
+    },
+    {
+      "title": "Square both sides",
+      "content": "Square both sides to solve for $w$.\n$$(\\sqrt{w})^2=6^2$$\n$$w=36$$\nSubstituting $36$ back into the original equation gives $6+28=34$, so it works. The answer is <strong>D</strong>."
+    }
+  ]
+}

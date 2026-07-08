@@ -1,0 +1,15 @@
+{
+  "questionId": "abcd089c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Bracket the intervening phrase",
+      "content": "The relative clause begins with \"that\" and has the verb \"aim.\" The phrase \"through community involvement and scientific study\" interrupts that clause before the verb and is closed by a comma before \"aim.\""
+    },
+    {
+      "title": "Open with a matching comma",
+      "content": "A opens the interruption with a dash but closes it with a comma, creating mismatched punctuation. B uses a semicolon after a relative pronoun, and C uses a colon after it; neither is grammatical. A comma after \"that\" correctly opens the interruption. The answer is <strong>D</strong>."
+    }
+  ]
+}

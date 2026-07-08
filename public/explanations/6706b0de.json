@@ -1,0 +1,23 @@
+{
+  "questionId": "6706b0de",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the equations equal",
+      "content": "Both equations are equal to $y$, so set their right sides equal.\n$$-10x+13=-12x+15$$\n$$2x=2$$"
+    },
+    {
+      "title": "Find the ordered pair",
+      "content": "Solve for $x$, then substitute into either equation.\n$$x=1$$\n$$y=-10(1)+13=3$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the two equations gives the same intersection point, $(1,3)$. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=-10x+13",
+        "y=-12x+15"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal and the key note",
-      "content": "The student wants to explain the origin of the Perseid meteor shower&apos;s name. The decisive note is: &quot;Like many meteor showers, it is named for the location of its radiant&quot; and &quot;Its radiant is located within the constellation Perseus.&quot; Any correct answer must connect the name Perseid to Perseus via the radiant location."
+      "title": "Find the naming link",
+      "content": "The notes say the Perseid meteor shower is named for the location of its radiant, and that its radiant is within the constellation Perseus. The sentence must connect Perseid's name to Perseus through the radiant."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "<ul><li><strong>Choice A — The Perseid meteor shower is named for the constellation Perseus, the location of the meteor shower's radiant.</strong>: Directly links the name to Perseus and the radiant location &mdash; exactly what the goal requires. &#10003;</li><li><strong>Choice B — A meteor shower's name may be linked to a single spot in the sky.</strong>: Speaks about meteor showers in general; never mentions Perseid or Perseus specifically. &#10007;</li><li><strong>Choice C — The Perseid meteor shower, which has a radiant, is visible in the northern hemisphere in July and August.</strong>: Gives visibility details, not the naming origin. &#10007;</li><li><strong>Choice D — From Earth, all the meteors in a meteor shower appear to originate from a radiant, such as the one within Perseus.</strong>: Defines radiant in general terms and mentions Perseus only as an aside; does not explain why Perseid is named as it is. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Exclude unrelated details",
+      "content": "Choice B is too general and does not name Perseid or Perseus. Choice C gives visibility information. Choice D explains what a radiant is but does not state the origin of Perseid's name. The remaining sentence gives the naming origin directly. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what each term represents",
-      "content": "Since Naomi uses 4 yards per costume and made $x$ costumes, the expression $4x$ is the total fabric used. The variable $y$ is the total fabric purchased."
+      "title": "Identify the used fabric",
+      "content": "Naomi uses $4$ yards for each costume, so if she makes $x$ costumes, the fabric used for costumes is $4x$ yards. The variable $y$ is the total fabric purchased."
     },
     {
-      "title": "Interpret the constant 7",
-      "content": "Given equation:<br/>$$y - 4x = 7$$<br/>This can be rewritten as:<br/>$$y = 4x + 7$$<br/>The equation shows that total purchased equals total used plus 7 yards. Therefore, 7 represents the excess fabric purchased beyond what was used for making the costumes. That matches the correct answer - <strong>D</strong> is correct."
+      "title": "Interpret the difference",
+      "content": "The equation is<br/>$$y-4x=7$$<br/>This says the purchased fabric minus the used fabric is $7$ yards. So Naomi purchased $7$ yards more fabric than she used to make the costumes. The answer is <strong>D</strong>."
     }
   ]
 }

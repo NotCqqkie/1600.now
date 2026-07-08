@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract original data from the dot plot",
-      "content": "From the dot plot: 4 dots at 1, 5 dots at 2, 2 dots at 3, 1 dot at 4, 1 dot at 5.<br/>Original data (13 eruptions, ordered): 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 5"
+      "title": "Read the original data",
+      "content": "From the dot plot, the ordered data set is $1$, $1$, $1$, $1$, $2$, $2$, $2$, $2$, $2$, $3$, $3$, $4$, $5$. There are $13$ values."
     },
     {
-      "title": "Calculate the original median",
-      "content": "With 13 values, the median is the 7th value (position $\\frac{13+1}{2} = 7$).<br/>Counting from left: 1, 1, 1, 1, 2, 2, <strong>2</strong> (this is the 7th value).<br/>Original median = 2"
+      "title": "Compare the medians",
+      "content": "With $13$ values, the original median is the $7$th value, which is $2$. After adding $11$, there are $14$ values, so the median is the average of the $7$th and $8$th values:<br/>$$\\frac{2+2}{2}=2$$<br/>The median does not increase."
     },
     {
-      "title": "Determine the median when 11 is added",
-      "content": "New data set has 14 eruptions: 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 4, 5, 11.<br/>With 14 values, the median is the average of the 7th and 8th values: $\\frac{2 + 2}{2} = 2$.<br/>New median = 2 (no change from the original median of 2). Statement I is <strong>false</strong>."
-    },
-    {
-      "title": "Determine the mean and how adding 11 affects it",
-      "content": "Original mean: $\\frac{4(1)+5(2)+2(3)+1(4)+1(5)}{13}=\\frac{29}{13}\\approx2.23$. New mean: $\\frac{29+11}{14}=\\frac{40}{14}\\approx2.86$. Since the mean increases while the median stays $2$, only Statement II is true. That matches the computed answer, so <strong>C</strong> is correct."
+      "title": "Compare the means",
+      "content": "The original sum is<br/>$$4(1)+5(2)+2(3)+4+5=29$$<br/>The original mean is $\\frac{29}{13}$, and the new mean is<br/>$$\\frac{29+11}{14}=\\frac{40}{14}$$<br/>Since $11$ is greater than the original mean, adding it increases the mean. The answer is <strong>C</strong>."
     }
   ]
 }

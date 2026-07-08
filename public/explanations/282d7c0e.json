@@ -1,0 +1,15 @@
+{
+  "questionId": "282d7c0e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the contrast clue",
+      "content": "The basking shark had been classified as a full ectotherm, but its body temperature remains above the surrounding water. Since full ectotherms match ambient temperature, the finding conflicts with that classification."
+    },
+    {
+      "title": "Reject hierarchy and support meanings",
+      "content": "Choice B suggests a rank relationship, not a conflict. Choice C suggests the finding is advantageous for the classification. Choice D would mean the elevated temperature points to the full-ectotherm classification, but it points away from it. The phrase meaning incompatible with fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

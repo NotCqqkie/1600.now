@@ -1,0 +1,15 @@
+{
+  "questionId": "361b41be",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the matching table row",
+      "content": "The question asks for the release year of <em>Zelda II: The Adventure of Link</em>, developed by Nintendo EAD. The needed information is the year in that specific table row."
+    },
+    {
+      "title": "Reject other listed years",
+      "content": "Choice A, Choice C, and Choice D give years listed for other games, not the Nintendo EAD game named in the question. The matching row gives 1987. The answer is <strong>B</strong>."
+    }
+  ]
+}

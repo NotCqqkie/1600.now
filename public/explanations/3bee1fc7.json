@@ -1,0 +1,15 @@
+{
+  "questionId": "3bee1fc7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the two equations",
+      "content": "The two string lengths add to $108$, so\n$$x+y=108$$\nThe value of $x$ is $8$ more than $4$ times $y$, so\n$$x=4y+8$$"
+    },
+    {
+      "title": "Solve for the pieces",
+      "content": "Substitute $4y+8$ for $x$.\n$$(4y+8)+y=108$$\n$$5y+8=108$$\n$$5y=100$$\n$$y=20$$\nThen\n$$x=4(20)+8=88$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

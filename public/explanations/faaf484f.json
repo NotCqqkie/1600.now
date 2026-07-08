@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the target percentage",
-      "content": "The question specifies that 88 percent of residents want more bike paths. This is the exact figure we must locate in the table."
+      "title": "Find the target percentage",
+      "content": "The sentence asks for the city area with the highest demand, identified as 88 percent of residents interested in more bike paths."
     },
     {
-      "title": "Find the area with 88 percent support",
-      "content": "South West area shows exactly 88 percent in the table. The other four areas show percentages below 88 percent. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Match the table value",
+      "content": "The table shows 88 percent for the South West area. The other listed areas have lower percentages, so they do not complete the statement about the highest level of demand. The answer is <strong>A</strong>."
     }
   ]
 }

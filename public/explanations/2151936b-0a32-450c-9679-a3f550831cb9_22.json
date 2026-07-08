@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Identify what the question needs",
-      "content": "Sentence 1: Greenidge-Sabral wanted to avoid harsh synthetic dyes. Sentence 2: She experimented with natural dye methods. The second sentence describes the action she took in response to the goal stated in sentence 1 &mdash; a motivation-to-action relationship. The transition must signal &apos;acting on the prior idea.&apos;"
+      "content": "Sentence 1: Greenidge-Sabral wanted to avoid harsh synthetic dyes. Sentence 2: She experimented with natural dye methods. The second sentence describes the action she took in response to the goal stated in sentence 1 — a motivation-to-action relationship. The transition must signal 'acting on the prior idea.'"
     },
     {
       "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; With this in mind,</strong>: Signals &apos;motivated by what was just stated&apos; &mdash; exactly the cause-to-action link needed here. &#10003;</li><li><strong>Choice B &mdash; To sum up,</strong>: Introduces a conclusion or summary of multiple preceding points. There is only one prior sentence, and the second is not a summary. &#10007;</li><li><strong>Choice C &mdash; Nevertheless,</strong>: Signals contrast or concession. The second sentence reinforces the first rather than contrasting it. &#10007;</li><li><strong>Choice D &mdash; In actuality,</strong>: Signals a correction of a misconception. No misconception has been stated. &#10007;</li></ul>That matches <strong>Choice A &mdash; With this in mind,</strong>."
+      "content": "<ul><li><strong>Choice A — With this in mind,</strong>: Signals 'motivated by what was just stated' — exactly the cause-to-action link needed here. ✓</li><li><strong>Choice B — To sum up,</strong>: Introduces a conclusion or summary of multiple preceding points. There is only one prior sentence, and the second is not a summary. ✗</li><li><strong>Choice C — Nevertheless,</strong>: Signals contrast or concession. The second sentence reinforces the first rather than contrasting it. ✗</li><li><strong>Choice D — In actuality,</strong>: Signals a correction of a misconception. No misconception has been stated. ✗</li></ul>That matches <strong>Choice A — With this in mind,</strong>."
     }
   ]
 }

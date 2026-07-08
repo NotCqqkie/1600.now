@@ -1,0 +1,15 @@
+{
+  "questionId": "2e550d64",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the central focus",
+      "content": "The passage opens by saying women like Marjorie T. Stern made important early contributions to US cryptology. It then uses Stern's work and Kathleen Nowak's later role to show women's contributions across time."
+    },
+    {
+      "title": "Reject narrow or invented claims",
+      "content": "A only defines cryptology, C falsely says Stern and Nowak worked together, and D proposes teaching cryptology in schools, which the passage does not discuss. The main idea is that women such as Stern and Nowak have contributed to cryptology. The answer is <strong>B</strong>."
+    }
+  ]
+}

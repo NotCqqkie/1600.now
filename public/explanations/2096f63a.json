@@ -1,0 +1,15 @@
+{
+  "questionId": "2096f63a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "At birth, $x=0$ days and the calf weighs $188$ pounds. This is the constant term in the model."
+    },
+    {
+      "title": "Use the daily gain",
+      "content": "The calf gains $4$ pounds each day, so after $x$ days the gain is $4x$ pounds. The model is\n$$\ny=188+4x\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

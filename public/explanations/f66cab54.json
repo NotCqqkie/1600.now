@@ -1,0 +1,19 @@
+{
+  "questionId": "f66cab54",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on audience size",
+      "content": "The student's claim is about whether putting a work online increases the number of people who experience it. The strongest support must show that the online image reaches people beyond the in-person museum audience."
+    },
+    {
+      "title": "Reject irrelevant facts",
+      "content": "B discusses praise from critics, not access. C discusses the museum's reputation among travelers. D describes the museum's collection. None of these shows that online availability increases the audience for a work."
+    },
+    {
+      "title": "Use the access comparison",
+      "content": "If more people access the online image of <em>Self-Portrait</em> than visit the museum in person, digitization expands who experiences the work. The answer is <strong>A</strong>."
+    }
+  ]
+}

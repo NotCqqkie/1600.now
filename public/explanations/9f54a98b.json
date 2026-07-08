@@ -1,0 +1,19 @@
+{
+  "questionId": "9f54a98b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the needed evidence",
+      "content": "The researchers conclude that Earth shifted from a stagnant lid regime to a tectonic plate regime 3.2 billion years ago. The important difference is that plate tectonics allows lithospheric material and mantle material to mix, while the stagnant lid regime involved no interaction between the lithosphere and mantle."
+    },
+    {
+      "title": "Look for new mixing",
+      "content": "Strong support would show a chemical sign of mixing appearing after, but not before, the proposed transition date. If younger mantle-derived rocks contain material associated with lithospheric rocks, and older mantle-derived rocks do not, that pattern would point to mixing beginning around 3.2 billion years ago."
+    },
+    {
+      "title": "Reject weaker findings",
+      "content": "Choice A only compares diversity before the transition. Choice B gives a correlation but not material exchange. Choice D counts how many rocks are mantle derived or lithospheric rather than showing chemical mixing. The answer is <strong>C</strong>."
+    }
+  ]
+}

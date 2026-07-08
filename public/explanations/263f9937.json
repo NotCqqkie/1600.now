@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Scale the table to smaller numbers",
-      "content": "The bacteria counts are large, so measure $y$ in hundred-thousands of bacteria. The table becomes $(1,2.5)$, $(2,5)$, and $(3,10)$."
+      "title": "Identify the growth factor",
+      "content": "The number of bacteria doubles each day:\n$$\n2.5\\cdot10^5,\\ 5.0\\cdot10^5,\\ 1.0\\cdot10^6\n$$\nAt the end of day $3$, the count is $1.0\\cdot10^6$."
     },
     {
-      "title": "Fit the exponential pattern",
-      "content": "The scaled counts double each day because $5\\div2.5=2$ and $10\\div5=2$. Working one day backward from $(1,2.5)$ gives the starting factor $2.5\\div2=1.25$, so the scaled model is $$y=1.25\\cdot2^x$$"
+      "title": "Count the needed doublings",
+      "content": "Rewrite the target using the day $3$ value:\n$$\n5.12\\cdot10^8=512\\cdot10^6\n$$\nSince $512=2^9$, the culture needs $9$ more doublings after day $3$."
     },
     {
-      "title": "Solve for the target day",
-      "content": "$5.12\\times10^8$ bacteria equals $5120$ hundred-thousands, so solve $1.25\\cdot2^d=5120$. Dividing by $1.25$ gives $2^d=4096=2^{12}$, so $d=12$."
-    },
-    {
-      "title": "Check the choices",
-      "content": "The count reaches the target on day $12$, which matches <strong>Choice D &mdash; Day 12</strong>."
+      "title": "Find the day",
+      "content": "Nine days after day $3$ is\n$$\n3+9=12\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

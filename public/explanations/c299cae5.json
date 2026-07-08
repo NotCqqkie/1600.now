@@ -1,0 +1,15 @@
+{
+  "questionId": "c299cae5",
+  "correctAnswer": "7020",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the side count",
+      "content": "A polygon with $41$ sides has $x=41$. Substitute into $f(x)=180(x-2)$.\n$$f(41)=180(41-2)$$"
+    },
+    {
+      "title": "Calculate the sum",
+      "content": "Evaluate the expression.\n$$180(41-2)=180(39)=7{,}020$$\nThe answer is <strong>7020</strong>."
+    }
+  ]
+}

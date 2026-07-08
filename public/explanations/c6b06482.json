@@ -1,0 +1,15 @@
+{
+  "questionId": "c6b06482",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the radical",
+      "content": "Start with\n$$\np=\\sqrt{10c}-16\n$$\nAdd $16$ to both sides:\n$$\np+16=\\sqrt{10c}\n$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Square both sides, then divide by $10$ to isolate $c$ completely:\n$$\n(p+16)^2=10c\n$$\n$$\nc=\\frac{(p+16)^2}{10}\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation",
-      "content": "Since $f(a) = 9$ and $f(x) = \\frac{x+18}{6}$, substitute $a$ into the function definition:<br/>$$\\frac{a+18}{6} = 9$$"
+      "title": "Substitute the given output",
+      "content": "Since $f(a)=9$, replace $x$ with $a$ and set the function equal to $9$:<br/>$$\\frac{a+18}{6}=9$$"
     },
     {
-      "title": "Solve for a",
-      "content": "Multiply both sides by 6 to eliminate the fraction:<br/>$$a + 18 = 54$$<br/>Subtract 18 from both sides:<br/>$$a = 36$$<br/>That matches <strong>Choice C &mdash; $36$</strong>."
+      "title": "Solve for the input",
+      "content": "Multiply by $6$, then subtract $18$:<br/>$$a+18=54$$<br/>$$a=36$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

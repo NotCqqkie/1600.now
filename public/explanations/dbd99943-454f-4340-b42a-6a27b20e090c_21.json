@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence already has a main verb: <em>ensured</em> (subject: <em>lens</em>). The blank must be a participial modifier describing the lens, not another finite verb."
+      "title": "Identify the modifier role",
+      "content": "The sentence’s main subject is “A plano-convex lens,” and its main verb is “ensured.” The words in the blank describe what the lens did to the laser: it focused the laser on the center of the crystal. That descriptive phrase needs a participle, not a second main verb."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"focued\"</strong>: Finite verb &mdash; creates two main verbs in one clause. Ungrammatical. &#10007;</li><li><strong>\"focuses\"</strong>: Finite verb &mdash; same problem as A. &#10007;</li><li><strong>\"focusing\"</strong>: Present participle &mdash; correctly modifies <em>lens</em> without competing with <em>ensured</em>. &#10003;</li><li><strong>\"focus\"</strong>: Misspelling of <em>focused</em>; grammatically wrong in this position. &#10007;</li></ul>That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Eliminate verb-form errors",
+      "content": "Choice A, “focused,” and Choice B, “focuses,” would create competing main verbs before “ensured.” Choice D, “focus,” does not agree or fit the modifier structure. The participle smoothly modifies “lens” before the main verb “ensured.” The answer is <strong>C</strong>."
     }
   ]
 }

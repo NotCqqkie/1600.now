@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the claim",
-      "content": "The text says spoiler-readers reported greater enjoyment than non-spoiler-readers, <strong>but the size of the difference varied</strong> across stories. The blank should name the two stories that best illustrate <em>varying</em> spoiler effects (one with a large gap, one with a small gap)."
+      "title": "Compare the spoiler gaps",
+      "content": "The statement says spoilers increased enjoyment for every story, but the size of the increase varied. The needed pair should show noticeably different gaps between spoiled and unspoiled ratings."
     },
     {
-      "title": "Match the data",
-      "content": "From the graph, \"Owl Creek Bridge\" and \"A Chess Problem\" show notably different spoiler-vs-unspoiled gaps — illustrating how the degree of difference varies.<br/><br/>That matches <strong>Choice A &mdash; \"Owl Creek Bridge\" and \"A Chess Problem.\"</strong>."
+      "title": "Choose the clearest contrast",
+      "content": "Choice B, Choice C, and Choice D do not illustrate the variation in spoiler effect as directly. The graph's clearest contrast in the size of the spoiled-versus-unspoiled gap is between <em>Blitzed</em> and <em>Plumbing</em>. The answer is <strong>A</strong>."
     }
   ]
 }

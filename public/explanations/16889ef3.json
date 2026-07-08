@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Turn the data into points",
-      "content": "The input $t$ is years after 2000. The two points are $(0,5)$ and $(15,2.7)$, where the output is in millions of barrels."
+      "content": "The input $t$ is years after $2000$. The production is $5$ million barrels when $t=0$ and $2.7$ million barrels when $t=15$, so the points are $(0,5)$ and $(15,2.7)$."
     },
     {
-      "title": "Find the rate of change",
-      "content": "The slope is $$m=\\frac{2.7-5}{15-0}=\\frac{-2.3}{15}=-\\frac{23}{150}$$ The initial value is $5$, so $$f(t)=-\\frac{23}{150}t+5$$"
+      "title": "Find the slope",
+      "content": "Use the slope formula.<br/>$$m=\\frac{2.7-5}{15-0}=\\frac{-2.3}{15}=-\\frac{23}{150}$$<br/>The initial value is $5$, so the model is<br/>$$f(t)=-\\frac{23}{150}t+5$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "<strong>Choice C &mdash; $f(t) = -\\frac{23}{150}t + 5$</strong> has this negative rate and initial value, so <strong>C</strong> is correct."
+      "title": "Match the model",
+      "content": "The equation with negative slope $-\\frac{23}{150}$ and initial value $5$ is choice C. The answer is <strong>C</strong>."
     }
   ]
 }

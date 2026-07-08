@@ -1,0 +1,15 @@
+{
+  "questionId": "115c7bd9",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the policy trade-off",
+      "content": "Rate stability regulations protect existing policyholders from premium volatility. But because insurers use dynamic pricing to manage risk, the regulations may make insurers sell fewer new policies, reducing competition and raising prices for people seeking coverage."
+    },
+    {
+      "title": "Match the trade-off",
+      "content": "<ul><li><strong>Choice A</strong>: Captures the split between current policyholders benefiting and prospective policyholders being hurt.</li><li><strong>Choice B</strong>: Says risks increase for policyholders, which the passage does not claim.</li><li><strong>Choice C</strong>: Reverses the predicted price pressure for new policies.</li><li><strong>Choice D</strong>: Says insurers benefit most, but the passage describes insurers scaling back.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

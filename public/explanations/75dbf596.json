@@ -1,0 +1,15 @@
+{
+  "questionId": "75dbf596",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the perimeter expression",
+      "content": "A rectangle's perimeter is twice the length plus twice the width. With length $48$ and width $x$:<br/>$$P=2(48)+2x=96+2x$$"
+    },
+    {
+      "title": "Use at most",
+      "content": "At most $140$ means less than or equal to $140$. Therefore:<br/>$$2x+96\\le140$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

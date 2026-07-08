@@ -1,0 +1,23 @@
+{
+  "questionId": "0bc469ec",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect the setup to the claim",
+      "content": "The underlined statement says that individual elephants and Arctic herbivores such as caribou tend to stay within fixed geographic ranges. The next part of the sentence explains why that matters: this pattern led some researchers to speculate that Arctic woolly mammoths might have behaved in the same fixed-range way."
+    },
+    {
+      "title": "Use the later evidence",
+      "content": "The tusk evidence later in the passage does not support that speculation. The strontium layers show that one mammoth's range expanded when it reached sexual maturity and then contracted near the end of its life, so the animal did not simply keep one fixed lifetime range."
+    },
+    {
+      "title": "Eliminate mismatches",
+      "content": "Choice B adds a theory about exceptions to a pattern, but the passage applies a known pattern to mammoths. Choice C says the method failed to reveal whether mammoths shared the behavior, but the method did reveal range changes. Choice D shifts to the origin of the trait, which the text never discusses."
+    },
+    {
+      "title": "Choose the matching function",
+      "content": "The remaining choice describes the underlined statement as a characteristic shared by certain animals that explains why researchers raised a possibility later unsupported by data. That is exactly how the sentence functions in the passage. The answer is <strong>A</strong>."
+    }
+  ]
+}

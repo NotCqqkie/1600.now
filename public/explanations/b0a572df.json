@@ -1,0 +1,15 @@
+{
+  "questionId": "b0a572df",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the dash definition",
+      "content": "The phrase after the dash defines the missing word as \"variations in size, shape, and material.\" The blank must therefore mean differences or lack of uniformity among microplastic particles."
+    },
+    {
+      "title": "Reject wrong types of difference",
+      "content": "A means inability to coexist, not variation in properties. B means restrictions. C means interruptions or disturbances, not differences in size, shape, and material. The answer is <strong>D</strong>."
+    }
+  ]
+}

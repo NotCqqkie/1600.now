@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Words in context. The passage describes a painter who is passive and na&iuml;ve and increasingly compromises his art at the urging of exhibitors, praisers, and purchasers. These outside parties now &quot;determine&quot; his work &mdash; meaning they take control of what it becomes."
+      "title": "Read the control signal",
+      "content": "The painter repeatedly compromises his art because he is passive and finds it difficult to say no. When exhibitors, praisers, and buyers begin to determine the work, the word points to outside pressure shaping what the art becomes."
     },
     {
-      "title": "Reasoning",
-      "content": "The escalation from demanding proliferation to determining the work points to imposed control, not judgment or choice. The word that means &quot;to control or impose authoritatively&quot; is &quot;dictate.&quot;"
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; Conclude</strong>: means to bring to an end or infer; it does not capture the idea of outsiders controlling the content of the art. &#10007;</li><li><strong>Choice B &mdash; Dictate</strong>: means to control or prescribe authoritatively, matching how exhibitors and buyers now shape his work. &#10003;</li><li><strong>Choice C &mdash; Evaluate</strong>: means to assess or judge, which is what critics do; the passage describes control, not judgment. &#10007;</li><li><strong>Choice D &mdash; Select</strong>: means to pick from options; the buyers do not merely choose among finished works, they shape what the work becomes. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject weaker meanings",
+      "content": "A means ending or inferring, C means judging, and D means selecting from options; none captures imposed control. The remaining meaning is to prescribe or control the direction of the work. The answer is <strong>B</strong>."
     }
   ]
 }

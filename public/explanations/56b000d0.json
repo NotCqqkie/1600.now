@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The notes describe a research study on lizard clutch size. The student wants a sentence that emphasizes the <em>aim</em> of the research &mdash; what the researchers set out to investigate &mdash; not their methods or results."
+      "title": "Emphasize the research aim",
+      "content": "The task asks for the aim of the study, meaning what the researchers wanted to investigate. The notes say Ben-Ami's team investigated which factors influence lizard clutch size, a topic studied in birds but not lizards."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards.</strong>: Directly states the research aim (what they wanted to know) and the motivating reason (well studied in birds, not lizards). &#10003;</li><li><strong>Choice B — After they obtained data for over 3,900 lizard species, researchers determined that larger clutch size was associated with environments in higher latitudes that have more seasonal change.</strong>: Emphasizes a finding at the end of the study, not the aim before it began. &#10007;</li><li><strong>Choice C — We now know that lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.</strong>: Emphasizes a conclusion or interpretation, not the research aim. &#10007;</li><li><strong>Choice D — Researchers obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models.</strong>: Emphasizes the methodology of the study, not its aim. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Separate aim from method",
+      "content": "Choice B presents a finding. Choice C presents an interpretation of that finding. Choice D presents the data and modeling method. The remaining choice states the research goal and why that goal mattered. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "87a08800",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two effects",
+      "content": "The researchers predicted two effects from positive feedback in the virtual cycling task. One effect was psychological: participants would have a better experience of the activity. The other was physical: participants would show better endurance, measured by how long they sustained the target pedaling and heart rates."
+    },
+    {
+      "title": "Reject the wrong comparisons",
+      "content": "Choice B focuses on negative feedback, so it does not show what positive feedback did on both measures. Choice C says participants who received positive feedback maintained their rates for longer than the neutral group, which would support a physical endurance effect. Choice D compares neutral feedback with positive feedback for enjoyment but compares neutral feedback with negative feedback for duration, so it does not isolate the needed result."
+    },
+    {
+      "title": "Choose enjoyment without endurance",
+      "content": "The needed finding must show positive feedback helping psychological experience but not improving physical endurance. A result where the positive-feedback group reports greater enjoyment shows the psychological effect. A result where that same group maintains heart and pedaling rates for approximately similar durations as the other groups shows no physical endurance advantage. The answer is <strong>A</strong>."
+    }
+  ]
+}

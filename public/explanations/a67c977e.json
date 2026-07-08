@@ -1,0 +1,15 @@
+{
+  "questionId": "a67c977e",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Keep the predicate together",
+      "content": "The phrase <em>is called the chromophore</em> is one complete predicate. Punctuation after <em>called</em> would interrupt the verb phrase before its complement."
+    },
+    {
+      "title": "Avoid sentence breaks",
+      "content": "Choice A inserts a dash, Choice B a semicolon, and Choice C a period, all separating <em>called</em> from <em>the chromophore</em> or making a fragment. No punctuation belongs there. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "17c358e6",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the last nonempty bin",
+      "content": "The histogram bins have width $50$. The rightmost nonempty bin covers lengths at least $200$ feet but less than $250$ feet."
+    },
+    {
+      "title": "Choose a possible maximum",
+      "content": "A maximum value must come from the rightmost nonempty bin. Among the choices, only $218$ is in the interval:<br/>$$200\\le h<250$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

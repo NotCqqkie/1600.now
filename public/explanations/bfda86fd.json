@@ -1,0 +1,15 @@
+{
+  "questionId": "bfda86fd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the equation parts",
+      "content": "In $0.4t+2=6$, $t$ is the number of months. The $2$ is the starting height, and the $6$ is the target height."
+    },
+    {
+      "title": "Interpret the coefficient",
+      "content": "The term $0.4t$ represents growth over $t$ months. Because $0.4$ is multiplied by the number of months, it is the monthly growth rate: the number of inches the plant grows each month. The answer is <strong>B</strong>."
+    }
+  ]
+}

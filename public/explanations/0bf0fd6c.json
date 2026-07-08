@@ -1,0 +1,15 @@
+{
+  "questionId": "0bf0fd6c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the verb series",
+      "content": "The sentence lists what the temperature does across three months: it is 62.6 degrees in June, then increases in July, and then dips in August. The blank must be a finite simple-present verb that is parallel with \"is\" and \"dips.\""
+    },
+    {
+      "title": "Remove tense and form errors",
+      "content": "A uses the present perfect, which breaks the simple-present pattern. C is a participle, so it cannot serve as the main verb in the series. D shifts to the past tense even though the surrounding verbs are present. The answer is <strong>B</strong>."
+    }
+  ]
+}

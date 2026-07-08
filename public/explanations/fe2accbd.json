@@ -1,0 +1,15 @@
+{
+  "questionId": "fe2accbd",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the additional people",
+      "content": "The first person costs $11$ dollars. In a group of $n$ people, the number of additional people is $n-1$, each costing $7$ dollars."
+    },
+    {
+      "title": "Write and simplify the total",
+      "content": "The total charge is\n$$\ng(n)=11+7(n-1)\n$$\n$$\ng(n)=11+7n-7=7n+4\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

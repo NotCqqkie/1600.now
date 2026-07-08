@@ -1,0 +1,27 @@
+{
+  "questionId": "e8edf854",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate the variable",
+      "content": "From the second equation, solve for $y$ in terms of $x$:<br/><br/>$$-x+y=1$$<br/>$$y=x+1$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Substitute $y=x+1$ into the first equation:<br/><br/>$$x^2+(x+1)=21$$<br/>$$x^2+x-20=0$$<br/>$$(x+5)(x-4)=0$$<br/><br/>So the possible $x$-values are $x=-5$ and $x=4$."
+    },
+    {
+      "title": "Compare with the choices",
+      "content": "Only one of those possible values appears in the answer choices."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the $x$-coordinate of either intersection that appears in the choices. The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x^{2}+y=21",
+        "-x+y=1"
+      ]
+    }
+  ]
+}

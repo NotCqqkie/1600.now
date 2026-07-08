@@ -1,0 +1,15 @@
+{
+  "questionId": "f82b6892",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the outcomes",
+      "content": "Deep Impact succeeded after careful planning. CONTOUR seemed similarly well planned, but engineers lost communication with it before it could complete its mission. The contrast is between planning and actual mission success."
+    },
+    {
+      "title": "Draw the limited conclusion",
+      "content": "A and C speculate about factors the passage does not discuss, and B contradicts the failed CONTOUR mission. The evidence shows only that careful planning by itself does not ensure a successful probe mission. The answer is <strong>D</strong>."
+    }
+  ]
+}

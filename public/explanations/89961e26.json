@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Locate the relevant sentence",
-      "content": "The passage states: &quot;In 2017, Salazar created an impressive life-size pi&ntilde;ata-like sculpture of the Gypsy Rose lowrider car, which was displayed at the Petersen Automotive Museum in Los Angeles, California.&quot; The displayed work is a sculpture of a lowrider car."
+      "title": "Locate the displayed artwork",
+      "content": "The passage says that in 2017 Salazar created a life-size pinata-like sculpture of the Gypsy Rose lowrider car, and that this work was displayed at the Petersen Automotive Museum."
     },
     {
-      "title": "Match the description to a choice",
-      "content": "The text specifies (a) a sculpture, not a painting, and (b) of the Gypsy Rose lowrider car, not of a person or a city. Only the sculpture-of-Gypsy-Rose description fits both constraints."
-    },
-    {
-      "title": "Eliminate the other choices",
-      "content": "<ul><li><strong>Choice A &mdash; A painting of Los Angeles</strong>: wrong medium (painting) and wrong subject &mdash; not supported by the text. &#10007;</li><li><strong>Choice B &mdash; A sculpture of a lowrider car</strong>: matches the passage exactly. &#10003;</li><li><strong>Choice C &mdash; A painting of a piñata</strong>: wrong medium &mdash; Salazar&apos;s work is a sculpture, not a painting. &#10007;</li><li><strong>Choice D &mdash; A sculpture of Jesse Valadez</strong>: overreads &mdash; Valadez drove the Gypsy Rose, but the sculpture depicts the car, not him. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject wrong subjects",
+      "content": "A and C are paintings, but the text describes a sculpture. D names Jesse Valadez, who drove the car, but the artwork depicted the car itself. The displayed work was a sculpture of a lowrider car. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "04a99c5b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Make collection control agreement",
+      "content": "In the relative clause, the subject is the singular noun \"collection.\" The long phrase about artworks and artists only modifies that subject and does not make it plural."
+    },
+    {
+      "title": "Reject plural verbs",
+      "content": "Choices A, C, and D all use plural verb forms, so they incorrectly agree with nearby plural nouns instead of the singular subject \"collection.\" The remaining verb is singular and fits the subject-verb agreement requirement. The answer is <strong>B</strong>."
+    }
+  ]
+}

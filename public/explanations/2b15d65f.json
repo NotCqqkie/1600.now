@@ -4,21 +4,21 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Turn the facts into points",
-      "content": "Use selling price as $x$ and demand as $y$. The two given points are $(40,20000)$ and $(60,15000)$."
+      "title": "Find the demand slope",
+      "content": "Use the two given price-demand points, $(40,20{,}000)$ and $(60,15{,}000)$:\n$$\n\\frac{15{,}000-20{,}000}{60-40}=-250\n$$\nDemand decreases by $250$ units for each dollar increase in price."
     },
     {
-      "title": "Find the line from the data",
-      "content": "Use the table points directly. From $(40,20000)$ to $(60,15000)$, the slope is $m=\\frac{15000-20000}{60-40}=-250.$ Substituting a point into $y=mx+b$ gives $b=30000$.",
+      "title": "Move from the known price",
+      "content": "A price of $55$ dollars is $15$ dollars above $40$ dollars, so the demand decreases by\n$$\n250(15)=3{,}750\n$$"
+    },
+    {
+      "title": "Subtract the decrease",
+      "content": "Subtract that decrease from the demand at $40$ dollars:\n$$\n20{,}000-3{,}750=16{,}250\n$$\nThe answer is <strong>A</strong>.",
       "desmosExpressions": [
         "x_1=[40,60]",
         "y_1=[20000,15000]",
         "y=-250x+30000"
       ]
-    },
-    {
-      "title": "Evaluate the target price",
-      "content": "At a selling price of $55$ dollars, $$y=-250(55)+30000=16250.$$ The predicted demand is $16,250$ units, which matches <strong>Choice A &mdash; 16,250</strong>."
     }
   ]
 }

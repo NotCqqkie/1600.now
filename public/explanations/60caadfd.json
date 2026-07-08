@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up",
-      "content": "Probability of an event = (favorable outcomes) / (total outcomes). The table shows 10 igneous rocks out of 70 total."
+      "title": "Use the total collection",
+      "content": "The probability of selecting an igneous rock is the number of igneous rocks divided by the total number of rocks in the collection. The table shows $10$ igneous rocks, and the question says there are $70$ rocks total."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;$\\frac{10}{27}$&rsquo;</strong>: This divides by the number of sedimentary rocks (27), not the total. &#10007;</li><li><strong>Choice B &mdash; &lsquo;$\\frac{10}{33}$&rsquo;</strong>: This divides by the number of metamorphic rocks (33), not the total. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$\\frac{10}{60}$&rsquo;</strong>: This divides by the number of non-igneous rocks (33 + 27 = 60), not the total. &#10007;</li><li><strong>Choice D &mdash; &lsquo;$\\frac{10}{70}$&rsquo;</strong>: 10 igneous rocks divided by 70 total rocks &mdash; correct probability formula. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Write the probability",
+      "content": "Use the total collection in the denominator, not just another rock type or the non-igneous rocks. That gives:\n$$P(\\text{igneous})=\\frac{10}{70}$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

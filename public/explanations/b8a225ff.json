@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Read circle A radius",
+      "content": "A circle equation has the form<br/>$$(x-h)^2+(y-k)^2=r^2$$For circle A, the right side is $4$, so<br/>$$r_A^2=4$$and $r_A=2$."
     },
     {
-      "title": "Extract Circle A's radius from its equation",
-      "content": "The equation $(x+5)^2 + (y-5)^2 = 4$ is in standard form $(x-h)^2 + (y-k)^2 = r^2$. Reading directly from the right side: $r_A^2 = 4$, so $r_A = 2$."
-    },
-    {
-      "title": "Find Circle B's radius and the value of k",
-      "content": "Circle B has the same center but its radius is twice Circle A's: $r_B = 2 \\times 2 = 4$. <br/>Since $k$ in the equation $(x+5)^2 + (y-5)^2 = k$ represents the square of the radius, $k = r_B^2 = 4^2 = 16$.",
+      "title": "Square the doubled radius",
+      "content": "Circle B has radius twice as large:<br/>$$r_B=2\\cdot 2=4$$In the equation for circle B, $k$ is the square of the radius:<br/>$$k=4^2=16$$The answer is <strong>16</strong>.",
       "desmosExpressions": [
         "(x+5)^2 + (y-5)^2 = 4",
         "(x+5)^2 + (y-5)^2 = 16"

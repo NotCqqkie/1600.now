@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the inequality",
-      "content": "A point is a solution to $y \\lt -4x + 4$ if its $y$-coordinate is less than $-4x+4$ for that point's $x$-coordinate."
+      "title": "Test each point",
+      "content": "A point is a solution when its coordinates make $y\\le 5x-21$ true. Substitute each listed point into the inequality."
     },
     {
-      "title": "Test the choices",
-      "content": "<strong>Choice A &mdash; $(0,19)$</strong> gives $19 \\lt -4(0)+4$, or $19\\lt 4$, which is false. <strong>Choice B &mdash; $(-1,22)$</strong> gives $22 \\lt -4(-1)+4$, or $22\\lt 8$, which is false. <strong>Choice C &mdash; $(-3,0)$</strong> gives $0 \\lt -4(-3)+4$, or $0\\lt 16$, which is true. <strong>Choice D &mdash; $(7,-1)$</strong> gives $-1 \\lt -4(7)+4$, or $-1\\lt -24$, which is false. Therefore, only $(-3,0)$ is a solution, so <strong>C</strong>."
+      "title": "Find the true inequality",
+      "content": "For the point $(5,-21)$, the substitution gives<br/>$$-21\\le 5(5)-21$$<br/>$$-21\\le 4$$<br/>This is true. The other listed points give false inequalities."
+    },
+    {
+      "title": "Choose the solution point",
+      "content": "Only the point $(5,-21)$ satisfies the inequality. The answer is <strong>C</strong>."
     }
   ]
 }

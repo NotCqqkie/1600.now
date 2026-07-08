@@ -1,0 +1,19 @@
+{
+  "questionId": "8c588309",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both relationships",
+      "content": "Translate each percentage statement into an equation.<br/>$$a=2.75b$$<br/>$$a=0.80c$$"
+    },
+    {
+      "title": "Solve for c in terms of b",
+      "content": "Both expressions equal $a$, so set them equal and isolate $c$.<br/>$$2.75b=0.80c$$<br/>$$c=\\frac{2.75}{0.80}b$$<br/>$$c=3.4375b$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "If $c=3.4375b$, then $c$ is $343.75\\%$ of $b$. The closest listed value of $p$ is $344$. The answer is <strong>D</strong>."
+    }
+  ]
+}

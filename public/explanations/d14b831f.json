@@ -1,0 +1,19 @@
+{
+  "questionId": "d14b831f",
+  "correctAnswer": "8",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor out the common term",
+      "content": "Each term has a common factor of $2x$:\n$$\n2x^3+46x^2+240x=2x(x^2+23x+120)\n$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Find two numbers that multiply to $120$ and add to $23$. Those numbers are $8$ and $15$, so\n$$\nx^2+23x+120=(x+8)(x+15)\n$$"
+    },
+    {
+      "title": "Choose the smallest factor value",
+      "content": "The factors of the form $x+b$ are $x+8$ and $x+15$. The smallest possible positive value of $b$ is $8$. The answer is <strong>8</strong>."
+    }
+  ]
+}

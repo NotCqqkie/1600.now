@@ -1,0 +1,15 @@
+{
+  "questionId": "cf8af96f",
+  "correctAnswer": "64/67,0.955,.9552",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the restricted population",
+      "content": "The condition <em>given that it is not classified as a motor neuron</em> restricts our sample to only Sensory and Interneurons. From the table:<br/><br/>Sensory neurons: $13 + 7 + 3 = 23$<br/>Interneurons: $10 + 34 + 0 = 44$<br/><br/>Total non-motor neurons: $23 + 44 = 67$"
+    },
+    {
+      "title": "Count favorable outcomes in the restricted population",
+      "content": "Among these 67 non-motor neurons, we count those with diameter $\\leq 30$ micrometers (the <em>Less than 20</em> and <em>20 to 30</em> columns):<br/><br/>Sensory with diameter $\\leq 30$: $13 + 7 = 20$<br/>Interneurons with diameter $\\leq 30$: $10 + 34 = 44$<br/><br/>Total with diameter $\\leq 30$: $20 + 44 = 64$<br/><br/>Therefore, the conditional probability is $\\frac{64}{67} \\approx 0.9552$. The answer is <strong>64/67</strong>."
+    }
+  ]
+}

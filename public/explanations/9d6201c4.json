@@ -1,0 +1,23 @@
+{
+  "questionId": "9d6201c4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Look for a number that divides both terms in $12x^2+144$. The coefficient $12$ and the constant $144$ are both divisible by $12$, so $12$ is the common factor to pull out."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "When $12$ is factored out, divide each original term by $12$:<br/>$$12x^2\\div 12=x^2$$<br/>$$144\\div 12=12$$<br/>So<br/>$$12x^2+144=12(x^2+12)$$"
+    },
+    {
+      "title": "Check by distributing",
+      "content": "Distribute $12$ back into the parentheses to confirm the expression is unchanged:<br/>$$12(x^2+12)=12x^2+144$$"
+    },
+    {
+      "title": "Select the equivalent form",
+      "content": "The equivalent factored expression is $12(x^2+12)$, which appears in the choices. The answer is <strong>B</strong>."
+    }
+  ]
+}

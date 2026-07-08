@@ -1,0 +1,19 @@
+{
+  "questionId": "7fb72817",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the captive-wild gap",
+      "content": "The blank must explain why captive primate studies tend to show more right-handedness than wild primate studies. The needed completion should address that broad captive-versus-wild pattern, not just one study's sample size."
+    },
+    {
+      "title": "Reject narrow explanations",
+      "content": "Choice A questions only the wild chimpanzee sample. Choice B questions only the captive gorilla sample. Choice D compares methods in two named studies. These do not explain the broader pattern across captive and wild primate studies."
+    },
+    {
+      "title": "Use human exposure",
+      "content": "Choice C gives a causal mechanism: captive gorillas have more exposure to right-handed humans, which could lead them to acquire more right-handed behaviors. That explains why captive groups might show higher right-handedness. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "81b1cafc",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the practical alternative",
+      "content": "The first sentence says Kepler-1552b may be habitable but is too far away for humanity to use anytime soon. The next sentence shifts to a practical alternative: improving habitability within the solar system instead of relying on that distant planet."
+    },
+    {
+      "title": "Reject example and sequence links",
+      "content": "Choice A would introduce an example, but the second sentence is not an example of Kepler-1552b. Choice B signals similarity, and Choice D signals sequence. The relationship is replacement: because the distant planet is impractical, humanity must focus on nearer planets. The answer is <strong>C</strong>."
+    }
+  ]
+}

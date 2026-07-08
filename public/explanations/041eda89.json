@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Rewrite to match the given root form",
-      "content": "Start with $$x^2+9x+11=0.$$ Multiply by 4 so the square will have integer coefficients: $$4x^2+36x+44=0.$$"
+      "title": "Apply the quadratic formula",
+      "content": "For<br/>$$x^2+9x+11=0$$<br/>the coefficients are $a=1$, $b=9$, and $c=11$. The quadratic formula gives<br/>$$x=\\frac{-9\\pm\\sqrt{9^2-4(1)(11)}}{2(1)}$$"
     },
     {
-      "title": "Complete the square",
-      "content": "Move the constant and complete the square: $$4x^2+36x=-44$$ $$(2x+9)^2=37.$$ Therefore $$2x+9=\\pm\\sqrt{37},$$ so $$x=\\frac{-9\\pm\\sqrt{37}}{2}.$$ In the given form, $k=37$.<br/><br/>The expression under the radical is the requested $k$, so once the completed-square form has $\\sqrt{37}$, the value of $k$ is fixed."
+      "title": "Simplify the radical",
+      "content": "Simplify the expression under the square root:<br/>$$9^2-4(1)(11)=81-44=37$$<br/>So one solution is<br/>$$x=\\frac{-9+\\sqrt{37}}{2}$$<br/>The answer is <strong>37</strong>."
     }
   ]
 }

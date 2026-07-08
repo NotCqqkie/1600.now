@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the conditional test",
-      "content": "The strongest clue is that many narwhals lack a tusk. Tremblay sets up a logical test: if the tusk truly serves an important purpose, then what should we expect about how common it would be in the population?"
+      "title": "Apply Tremblay's test",
+      "content": "Tremblay questions the idea that the tusk has an important purpose because many narwhals do not have one. If the tusk were important for avoiding dangerous freezing water, it would be expected to appear more widely in the population."
     },
     {
-      "title": "Match the logical conclusion",
-      "content": "An important survival trait would be favored by natural selection, so if the tusk truly serves this purpose, more narwhals would have one. The other choices describe unrelated consequences or concern different species. That is the correct answer."
+      "title": "Remove unrelated outcomes",
+      "content": "A shifts to habitat, which the text never predicts. B discusses other marine animals, not narwhals. D brings in shyness, which is unrelated to the tusk's proposed function. The answer is <strong>C</strong>."
     }
   ]
 }

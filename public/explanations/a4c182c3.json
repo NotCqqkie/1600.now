@@ -1,0 +1,15 @@
+{
+  "questionId": "a4c182c3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the steel hypothesis",
+      "content": "The hypothesis is that steel is more suitable than concrete for the lower floors of a tall building. Supporting evidence should show the steel-lower-floor building resisting wind or gravity better than the concrete-lower-floor building."
+    },
+    {
+      "title": "Reject weaker findings",
+      "content": "A says the steel building bent more in wind, which is a disadvantage. C says vibrations lasted longer in the steel building, another disadvantage. D describes the steel base changing size, which suggests deformation rather than suitability. A concrete building ending shorter than the steel building would show more compression in concrete, so the steel structure better resisted the upper floors' weight over the century. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count total vertices and favorable outcomes",
-      "content": "A 13-sided polygon has 13 vertices, each labeled with a different letter from A through M. When we select one vertex at random, there are 13 equally likely outcomes. Exactly one of these vertices is labeled with the letter H."
+      "title": "Count the possible vertices",
+      "content": "A polygon with $13$ sides has $13$ vertices. Because the letters $A$ through $M$ are all used once, exactly one vertex is labeled $H$."
     },
     {
       "title": "Apply the probability formula",
-      "content": "The number of favorable outcomes is 1 (the vertex labeled H). The total number of equally likely outcomes is 13 (all the vertices).<br/>$$P = \\frac{1}{13}$$",
+      "content": "The probability is the number of favorable outcomes divided by the number of equally likely outcomes.<br/>$$P=\\frac{1}{13}$$<br/>The answer is <strong>1/13</strong>.",
       "formula": "$$P(\\text{event}) = \\frac{\\text{favorable outcomes}}{\\text{total equally likely outcomes}}$$"
     }
   ]

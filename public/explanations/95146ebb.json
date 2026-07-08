@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key cause-effect structure",
-      "content": "The passage contains two key cause-effect claims: <strong>“The ice melted on a Norwegian mountain during a particularly warm summer in 2019, revealing a 1,700-year-old sandal to a mountaineer looking for artifacts.”</strong><br/><br/>It also says, <strong>“The sandal would normally have degraded quickly, but it was instead well preserved for centuries by the surrounding ice.”</strong> This directly links temperature to both preservation (ice keeping it intact) and revelation (melting exposing it now)."
+      "title": "Track ice in both events",
+      "content": "The text says the sandal was preserved for centuries by surrounding ice. It also says a particularly warm summer melted the ice and revealed the sandal to a mountaineer."
     },
     {
-      "title": "Match the dual role of temperature in the text",
-      "content": "The correct answer directly addresses how temperature-related ice contributed to both protecting (preventing degradation) and revealing (melting) the sandal.<br/><br/>The other three choices either misinterpret the Roman comparison, ignore the public's role in discovery, or reverse cause and effect.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Avoid unsupported claims",
+      "content": "B overstates the Roman comparison as evidence of imperial influence. C is unsupported because a mountaineer found the sandal. D reverses the preservation logic; ice protected the sandal rather than threatening it. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "dfcf32ce",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare moon distance",
+      "content": "Text 1 imagines the moon as a child's balloon tangled in a mast, making something that seemed far away appear close. Text 2 repeatedly emphasizes distance with up so high and the request for the moon to come down."
+    },
+    {
+      "title": "Reject misread contrasts",
+      "content": "Choice A wrongly treats both moons as entrapped. Choice B says only Text 1 addresses beauty, which is not its focus. Choice C misreads Text 2's affectionate address as serious study. The answer is <strong>D</strong>."
+    }
+  ]
+}

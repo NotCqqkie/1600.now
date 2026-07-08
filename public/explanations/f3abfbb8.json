@@ -1,0 +1,15 @@
+{
+  "questionId": "f3abfbb8",
+  "correctAnswer": "104",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use corresponding angles",
+      "content": "Because triangle $DEF$ is similar to triangle $PQR$, corresponding angles are equal. The correspondence gives angle $F$ equal to angle $R$."
+    },
+    {
+      "title": "Find the remaining angle",
+      "content": "The angles in triangle $DEF$ sum to $180^\\circ$.<br/>$$47^\\circ+29^\\circ+F=180^\\circ$$<br/>$$F=180^\\circ-76^\\circ=104^\\circ$$<br/>Thus angle $R$ has the same measure. The answer is <strong>104</strong>."
+    }
+  ]
+}

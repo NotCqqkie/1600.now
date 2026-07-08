@@ -1,0 +1,22 @@
+{
+  "questionId": "47e71151",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Cross multiply safely",
+      "content": "The equation is undefined at $x=0$, $x=1$, and $x=-1$, so those values cannot be solutions. Cross multiply the original equation:\n$$\n\\frac{x}{(x-1)(x+1)}=\\frac{81}{56x}\n$$\n$$\n56x^2=81(x-1)(x+1)\n$$"
+    },
+    {
+      "title": "Solve the equation",
+      "content": "Use the difference of squares:\n$$\n56x^2=81(x^2-1)\n$$\n$$\n56x^2=81x^2-81\n$$\n$$\n25x^2=81\n$$\n$$\nx=\\pm\\frac{9}{5}\n$$\nAmong the choices, only the positive value appears."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing or solving the original equation directly gives the same positive choice.\nThe answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "\\frac{x}{(x-1)(x+1)}=\\frac{81}{56x}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "5049c614",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare possible intake",
+      "content": "The passage says baleen whales can eat up to 30 percent of their total mass each day. A sei whale can reach 25,000 kg, so that rate would be about 7,500 kg per day."
+    },
+    {
+      "title": "Use the larger whale data",
+      "content": "The northern right whale is much larger, up to 80,000 kg, and the passage states that it can consume as much as 24,000 kg of krill per day. That amount is greater than the sei whale's maximum."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "<ul><li>A: follows from comparing about 7,500 kg with 24,000 kg.</li><li>B: wrongly applies the 24,000 kg figure to both species.</li><li>C: invents food scarcity for sei whales.</li><li>D: says sei whales are less likely to eat krill, but the passage says all baleen whales feed on krill.</li></ul>The answer is <strong>A</strong>."
+    }
+  ]
+}

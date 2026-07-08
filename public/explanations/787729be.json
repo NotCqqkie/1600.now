@@ -1,19 +1,15 @@
 {
   "questionId": "787729be",
-  "section": "Reading and Writing",
   "correctAnswer": "D",
+  "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Question type",
-      "content": "Reading comprehension &mdash; logical completion of a hypothesis. Key facts: N. pudica's pitchers are underground (unique among carnivorous plants); it grows on dry ridges where few other plants and animals live on the surface."
+      "title": "Explain the underground traps",
+      "content": "<em>N. pudica</em> has prey-catching pitchers underground, unlike other carnivorous plants. The researchers found it on dry ridges whose surfaces host few plants and animals, so the unusual trap location points to an adaptive advantage below the surface."
     },
     {
-      "title": "Reasoning",
-      "content": "If surface life is sparse but prey may exist underground, an underground trap would capture more prey than a surface trap could in that habitat &mdash; an adaptive advantage explanation."
-    },
-    {
-      "title": "Per-choice elimination",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;represents one of many undiscovered carnivorous plant species in the region.&rsquo;</strong>: the passage gives no basis to predict additional undiscovered species; doesn't follow from the surface-vs-underground observation. &#10007;</li><li><strong>Choice B &mdash; &lsquo;formed pitchers early in development to absorb more moisture.&rsquo;</strong>: pitchers are described as prey traps, not moisture absorbers; nothing about developmental timing is given. &#10007;</li><li><strong>Choice C &mdash; &lsquo;is buried by nearby animals as they forage along the ridges for food.&rsquo;</strong>: the researchers &quot;unearthed&quot; the plants and note few animals on the surface; suggests the plants grow underground, not that animals bury them. Contradicts the text. &#10007;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Reject unsupported hypotheses",
+      "content": "Choice A predicts other undiscovered species. Choice B treats pitchers as moisture absorbers rather than prey traps. Choice C says animals bury the plant, which the text does not suggest. The answer is <strong>D</strong>."
     }
   ]
 }

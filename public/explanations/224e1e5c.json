@@ -1,0 +1,15 @@
+{
+  "questionId": "224e1e5c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the general claim",
+      "content": "The goal is to make a generalization about circumnavigations. The notes provide both a broad pattern, that most include stops on land, and two examples showing nonstop circumnavigations can occur."
+    },
+    {
+      "title": "Reject specific details",
+      "content": "A names the sailors and boats without generalizing. B only defines circumnavigation. C mentions two individual journeys, but it does not state a broader pattern about circumnavigations as a category. The answer is <strong>D</strong>."
+    }
+  ]
+}

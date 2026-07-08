@@ -1,0 +1,15 @@
+{
+  "questionId": "d3f3f429",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match corresponding angles",
+      "content": "The similarity statement says triangle $CAE$ is similar to triangle $CBD$. The vertex order gives the correspondence $C$ to $C$, $A$ to $B$, and $E$ to $D$. So angle $CAE$ corresponds to angle $CBD$."
+    },
+    {
+      "title": "Use similarity",
+      "content": "Corresponding angles in similar triangles are congruent. The side relationship $AE=24(BD)$ affects lengths, not angle measures, so the measure of angle $CAE$ is $56^\\circ$. The answer is <strong>B</strong>."
+    }
+  ]
+}

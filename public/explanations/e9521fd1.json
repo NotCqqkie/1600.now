@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the vocabulary timeline mismatch",
-      "content": "The branches share vocabulary for botanical terms inherited from their common ancestor, but lack shared vocabulary for maize—despite both cultivating it universally. This selective sharing of older vocabulary but not newer terminology suggests the crop's arrival postdates the language split."
+      "title": "Use shared and unshared vocabulary",
+      "content": "Shared botanical vocabulary points to descent from a common older language. But maize vocabulary is not shared across the northern and southern branches, even though maize was eventually cultivated by both."
     },
     {
-      "title": "Apply the timing constraint",
-      "content": "If the split between northern and southern branches preceded maize's arrival, each branch would independently acquire maize vocabulary from its regional sources (the south from Mexico, the north from neighboring peoples).<br/><br/>The alternatives either invoke transfer mechanisms that would contradict the vocabulary evidence, misattribute the mismatch to cultivation methods rather than acquisition timing, or assume simultaneous adoption contradicting the archaeological record of gradual diffusion.<br/><br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Infer the timing of maize adoption",
+      "content": "If maize had been acquired before the branch split, inherited maize terms would likely be shared. A predicts direct transfer that would make shared vocabulary more likely. B shifts to cultivation methods, and C conflicts with the northward diffusion timeline. The answer is <strong>D</strong>."
     }
   ]
 }

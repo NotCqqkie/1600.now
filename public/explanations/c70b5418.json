@@ -1,0 +1,15 @@
+{
+  "questionId": "c70b5418",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count x-intercepts",
+      "content": "Solutions to $f(x)=0$ are the $x$-values where the graph touches or crosses the $x$-axis. The word distinct means a tangent point counts once."
+    },
+    {
+      "title": "Use the graph",
+      "content": "The graph touches the $x$-axis at one point and crosses it at one other point. That gives $2$ distinct values of $x$ where $f(x)=0$. The answer is <strong>B</strong>."
+    }
+  ]
+}

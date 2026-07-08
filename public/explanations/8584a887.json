@@ -1,0 +1,15 @@
+{
+  "questionId": "8584a887",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the main point",
+      "content": "The passage defines horizontal gene transfer, notes that it can increase antibiotic resistance, and ends by saying that understanding how to prevent it might help mitigate dangerous pathogens. That final sentence gives the passage its practical purpose."
+    },
+    {
+      "title": "Match the practical benefit",
+      "content": "A claims a misconception is corrected, B claims new research casts doubt on earlier findings, and D claims frequency was underestimated; none appears in the text. The practical application is the main idea. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "1fc08dd4",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set y equal to zero",
+      "content": "An $x$-intercept occurs where $y=0$. Set the equation equal to $0$ and isolate the exponential expression.<br/>$$0=8(\\frac{a}{5})^{x+c}-b$$<br/>$$8(\\frac{a}{5})^{x+c}=b$$"
+    },
+    {
+      "title": "Use exponential behavior",
+      "content": "Because $a>5$, the base $\\frac{a}{5}$ is greater than $1$. The expression $8(\\frac{a}{5})^{x+c}$ is continuous, always positive, and strictly increasing as $x$ increases."
+    },
+    {
+      "title": "Count the intersection",
+      "content": "The constant $b$ is positive, so a strictly increasing positive exponential expression can equal $b$ at exactly one value of $x$. The answer is <strong>B</strong>."
+    }
+  ]
+}

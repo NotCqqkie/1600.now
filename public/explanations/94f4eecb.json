@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The skill is Rhetorical Synthesis. The student wants to emphasize the role a misconception played in the naming of a place. The correct choice must show (1) what the misconception was and (2) that it directly caused the naming."
+      "title": "Connect error to naming",
+      "content": "The student's goal is to emphasize the role a misconception played in the naming of a place. The relevant notes contain two necessary pieces: Spanish explorers thought the land off Mexico's west coast was an island, and they named it California after the fictional island in <em>Las sergas de Esplandián</em>. A successful choice must make the error clear, identify the place as the peninsula now known as Baja California, and connect that mistaken belief to the resulting name."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; The novel <em>Las sergas de Esplandián</em> featured a fictional island known as California.</strong>: This describes the source of the name but does not mention any misconception held by the explorers. It does not explain the naming of the real place at all. &#10007;</li><li><strong>Choice B &mdash; To the south of the US state of California lies Baja California (\"Lower California\"), originally called California after a fictional place.</strong>: This notes that Baja California was named after a fictional place, but it omits the specific misconception &mdash; that explorers believed the peninsula was an island &mdash; which is the causal role the question asks about. &#10007;</li><li><strong>Choice C &mdash; In the sixteenth century, Spanish explorers learned of a peninsula off the west coast of Mexico and called it California.</strong>: This states that explorers named the peninsula California but gives no reason why; the misconception that drove the name is absent. &#10007;</li><li><strong>Choice D &mdash; Thinking it was an island, Spanish explorers called a peninsula California after an island in a popular novel.</strong>: The participial phrase &ldquo;Thinking it was an island&rdquo; names the misconception, and the rest of the sentence shows it directly caused the naming of the peninsula. Both required elements are present. &#10003;</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Require cause and result",
+      "content": "Choice A mentions only the fictional island in the novel, so it does not explain the naming of a real place. Choice B says Baja California was originally named after a fictional place, but it leaves out the mistaken belief that the peninsula was an island. Choice C says explorers named a peninsula California, but it gives no reason why that name followed from an error. Choice D states that explorers were thinking it was an island when they named a peninsula after an island from a popular novel, so both the misconception and the naming are present. The answer is <strong>D</strong>."
     }
   ]
 }

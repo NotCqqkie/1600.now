@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the square area scale factor",
-      "content": "The side length of square M is $5$ times the side length of square N. Since area scales by the square of the side-length scale factor, square M's area is $5^2=25$ times square N's area."
+      "title": "Convert side scale to area scale",
+      "content": "Square M has side length $5$ times the side length of square N. Areas scale by the square of the side-length factor:<br/>$$5^2=25$$"
     },
     {
-      "title": "Find the side length of square N",
-      "content": "The area of square N is 64 square feet. Since area equals side squared, the side of N is $$\\sqrt{64} = 8$$ feet."
-    },
-    {
-      "title": "Apply the area scale factor rule",
-      "content": "When linear dimensions scale by factor $k$, area scales by $k^2$. Since the side of M is 5 times the side of N, the area of M is $5^2 = 25$ times the area of N. Therefore, area of M = $$25 \\times 64 = 1,600$$ square feet. That is choice A, the correct answer."
+      "title": "Scale the given area",
+      "content": "Square N has area $64$ square feet, so square M has area<br/>$$25(64)=1{,}600$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

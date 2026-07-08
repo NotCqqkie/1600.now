@@ -4,16 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "See the complex list",
-      "content": "The sentence lists three material categories, each followed by a &quot;such as&quot; example: (1) natural debris, such as dried leaves; (2) man-made trash, such as plastic bags; (3) more traditional art supplies, such as tree glue. Because each item already contains an internal comma, the items themselves must be separated by semicolons."
+      "title": "Identify the complex list",
+      "content": "The sentence lists three material categories: natural debris, man-made trash, and traditional art supplies. Each category has a <em>such as</em> example, so the boundaries between the main list items need semicolons rather than only commas."
     },
     {
-      "title": "Apply the rule and check what comes after the blank",
-      "content": "After the blank, the sentence reads &quot;such as plastic bags; and more traditional art supplies&quot; &mdash; that semicolon already separates item 2 from item 3, confirming the list uses semicolons. So the first separator (after &quot;leaves&quot;) must also be a semicolon, and the comma after &quot;trash&quot; must precede its &quot;such as&quot; example."
-    },
-    {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; leaves, man-made trash:</strong>: uses a comma where a semicolon is needed between list items, and a colon improperly introduces &quot;such as plastic bags.&quot; Violates the complex-list rule. &#10007;</li><li><strong>Choice B &mdash; leaves; man-made trash,</strong>: semicolon correctly separates the first two items; comma correctly attaches &quot;such as plastic bags&quot; to &quot;man-made trash.&quot; &#10003;</li><li><strong>Choice C &mdash; leaves, man-made trash,</strong>: comma between &quot;leaves&quot; and &quot;man-made trash&quot; blurs the boundary between list items in a complex list. &#10007;</li><li><strong>Choice D &mdash; leaves; man-made trash;</strong>: the second semicolon wrongly separates &quot;man-made trash&quot; from its own &quot;such as&quot; example; that connection needs a comma. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Keep examples attached",
+      "content": "A uses a comma between list items and a colon before an example. C also uses only a comma between complex items. D wrongly separates <em>man-made trash</em> from its own example with a semicolon. The correct punctuation separates items while keeping each example attached. The answer is <strong>B</strong>."
     }
   ]
 }

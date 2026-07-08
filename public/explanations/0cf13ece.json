@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "Look for the row in the table where the dolphin ID is \"FB43.\" This is the only clue needed to identify the correct year."
+      "title": "Use the dolphin ID",
+      "content": "The question asks for the recording year tied to dolphin ID FB43. In the table, the ID is the lookup key; the row for FB43 provides the year."
     },
     {
-      "title": "Match the meaning",
-      "content": "The table lists FB43 and her associated year directly in the same row. The other choices refer to different dolphin IDs or years from unrelated entries. That matches <strong>Choice D &mdash; 1992</strong>."
+      "title": "Check the years",
+      "content": "A and C name years not tied to FB43. B belongs to a different dolphin ID, FB07. The row for FB43 lists 1992. The answer is <strong>D</strong>."
     }
   ]
 }

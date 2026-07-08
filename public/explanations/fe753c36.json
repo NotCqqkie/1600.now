@@ -1,0 +1,23 @@
+{
+  "questionId": "fe753c36",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations to eliminate $y$.\n$$x+5y=5$$\n$$x-5y=7$$\n$$2x=12$$"
+    },
+    {
+      "title": "Find the coordinate",
+      "content": "Divide both sides by $2$.\n$$x=6$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations in Desmos and read the $x$-coordinate of their intersection. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x+5y=5",
+        "x-5y=7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4244138c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "Both terms in $8x^6-40x^2$ share a numerical factor of $8$ and at least two factors of $x$. That makes $8x^2$ the greatest common factor."
+    },
+    {
+      "title": "Factor each term",
+      "content": "Pull out $8x^2$ from each term. The first term leaves $x^4$, and the second term leaves $5$, so the remaining factor is the difference $x^4-5$:\n$$\n8x^6-40x^2=8x^2(x^4)-8x^2(5)\n$$\n$$\n=8x^2(x^4-5)\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

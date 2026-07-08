@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Treat x minus 6 as a block",
-      "content": "Both terms contain the same block, $x-6$: $$4(x-6)+2(x-6)=18$$ Combine them: $$6(x-6)=18$$"
+      "title": "Combine the matching parts",
+      "content": "Both terms contain the same expression, $x-6$.<br/>$$4(x-6)+2(x-6)=6(x-6)$$"
     },
     {
-      "title": "Solve for the requested value",
-      "content": "The question asks for $x-6$, not $x$. Divide by $6$: $$x-6=3$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$3$ is correct, so the answer is <strong>Choice A</strong>. $9$ would be the value of $x$, but the question asks for $x-6$."
+      "title": "Find the requested value",
+      "content": "Use the equation to solve directly for $x-6$.<br/>$$6(x-6)=18$$<br/>$$x-6=3$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the equation from the problem constraints",
-      "content": "The three parts sum to 128 cm. One part is 52 cm, and the other two parts are equal, so call each of them $x$ cm.<br/>$$52 + x + x = 128$$<br/>$$52 + 2x = 128$$"
+      "title": "Represent the equal parts",
+      "content": "Let each of the two equal parts have length $x$ centimeters. The three parts add to $128$ centimeters.\n$$52+x+x=128$$"
     },
     {
-      "title": "Solve for the unknown part length",
-      "content": "Subtract 52 from both sides:<br/>$$2x = 128 - 52$$<br/>$$2x = 76$$<br/>Divide both sides by 2:<br/>$$x = 38$$<br/>One of the two equal parts has length 38 cm."
+      "title": "Solve for one part",
+      "content": "Combine the equal parts and solve.\n$$52+2x=128$$\n$$2x=76$$\n$$x=38$$\nThe answer is <strong>38</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "95c2b15b",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the contrast placement",
+      "content": "The sentence contrasts the bright supernova dimming after a few weeks with the fact that supernovas, despite being powerful, are short-lived. The word \"however\" belongs with the first clause as a parenthetical contrast marker."
+    },
+    {
+      "title": "Join the clauses cleanly",
+      "content": "Choice A and choice C place \"however\" before an \"although\" clause, creating a clumsy double contrast. Choice D uses only commas between independent clauses. The remaining choice sets off \"however\" after \"weeks\" and uses a semicolon before the next independent clause. The answer is <strong>B</strong>."
+    }
+  ]
+}

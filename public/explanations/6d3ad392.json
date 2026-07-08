@@ -1,0 +1,15 @@
+{
+  "questionId": "6d3ad392",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Close the dash pair",
+      "content": "The sentence opens an em-dash interruption after \"Interpol\" to define the organization. That interruption must be closed before \"in 1971\" returns to the main sentence."
+    },
+    {
+      "title": "Reject mismatched punctuation",
+      "content": "A uses a comma, C uses no closing punctuation, and D uses a colon; none matches the opening dash. The closing punctuation must be another em dash. The answer is <strong>B</strong>."
+    }
+  ]
+}

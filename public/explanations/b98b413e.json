@@ -1,0 +1,15 @@
+{
+  "questionId": "b98b413e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Support bird advantage",
+      "content": "The text says the hypothesis was validated and that birds had a competitive advantage. A supporting finding should therefore show both competition for the boxes and a pattern in which birds, not wasps, tend to prevail when the species interact."
+    },
+    {
+      "title": "Pick direct evidence",
+      "content": "Choice A discusses vacant boxes, Choice B shows wasps using manipulated boxes less than expected, and Choice D only says wasps were often present first. A finding that wasps used bird-excluded boxes more often and abandoned shared boxes while birds stayed would directly show bird advantage. The answer is <strong>C</strong>."
+    }
+  ]
+}

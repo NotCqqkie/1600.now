@@ -1,0 +1,15 @@
+{
+  "questionId": "9aab1ba4",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central contrast",
+      "content": "The passage says historical DNA can reveal insights about the biological past, but it remains underutilized. The stated reason is that hDNA is often degraded and difficult to improve with current extraction and analysis methods."
+    },
+    {
+      "title": "Reject wrong causes",
+      "content": "A blames a shortage of specimens, not degradation. C introduces a debate about reliability that the passage does not describe. D shifts to future use of other genomic sources, which is not the main idea. The remaining choice captures both potential and present technical limits. The answer is <strong>B</strong>."
+    }
+  ]
+}

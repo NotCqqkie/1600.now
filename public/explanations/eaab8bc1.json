@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert the percentage to a decimal",
-      "content": "To find what percentage of a quantity equals, convert the percentage to decimal form. We have 60%:"
+      "title": "Convert the percent",
+      "content": "$60\\%$ means $60$ out of $100$, so use decimal form $0.60$."
     },
     {
-      "title": "Multiply by the total to find the answer",
-      "content": "Multiply the decimal by the total number of bulbs: $$0.6 \\times 250 = 150$$. Therefore, <strong>150</strong> bulbs sprouted."
+      "title": "Multiply by the total",
+      "content": "Multiply the decimal by the total number of planted bulbs:<br/>$$0.60(250)=150$$<br/>The answer is <strong>150</strong>."
     }
   ]
 }

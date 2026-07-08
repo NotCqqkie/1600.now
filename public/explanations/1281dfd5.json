@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The phrase “even in escape contexts” signals that evidence must show escape—the highest-stakes scenario—as the case where animals avoid maximal speed. This proves energy costs are powerful enough to override survival pressure."
+      "title": "Focus on escape speed",
+      "content": "The claim says the energy cost of full speed can disfavor maximal speed \"even in escape contexts.\" The supporting graph evidence must therefore show lizards escaping predators at less than their maximum speed."
     },
     {
-      "title": "Match the signal to the choices",
-      "content": "<strong>Choice B &mdash; multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.</strong> directly demonstrates this: <strong>multiple lizard species move at less than 90% of maximal speed while escaping</strong>, showing that energy constraints are severe enough to restrict even life-or-death flight far below maximum.<br/><br/>The other choices conflate escape and pursuit, show animals using near-maximal speeds, or address the wrong context.<br/><br/>That matches <strong>Choice B &mdash; multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.</strong>."
+      "title": "Keep the evidence on target",
+      "content": "Choice A compares escape with pursuit rather than proving reduced escape speed. Choice C emphasizes near-maximal escape speed, and Choice D is about pursuing prey instead of escaping predators. Data showing multiple species escape at under 90% of maximal speed directly supports the claim. The answer is <strong>B</strong>."
     }
   ]
 }

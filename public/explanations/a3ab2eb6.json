@@ -1,0 +1,19 @@
+{
+  "questionId": "a3ab2eb6",
+  "correctAnswer": "680",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute Fahrenheit",
+      "content": "Use $h=764.33$ in the conversion formula:\n$$\n764.33=\\frac{9(u-273.15)}{5}+32\n$$"
+    },
+    {
+      "title": "Isolate the kelvin term",
+      "content": "Subtract $32$, then multiply by $\\frac{5}{9}$:\n$$\n732.33=\\frac{9(u-273.15)}{5}\n$$\n$$\n\\frac{5(732.33)}{9}=u-273.15=406.85\n$$"
+    },
+    {
+      "title": "Add the offset",
+      "content": "The expression on the right now equals $u-273.15$, so add the kelvin offset $273.15$ to both sides:\n$$\nu=406.85+273.15=680\n$$\nThe answer is <strong>680</strong>."
+    }
+  ]
+}

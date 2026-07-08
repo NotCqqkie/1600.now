@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Simplify the model first",
-      "content": "Every tile contributes $7$ square inches, so divide the whole equation by $7$: $$7g+7b=840 \\quad \\Rightarrow \\quad g+b=120.$$ The project uses $120$ total tiles."
+      "title": "Find the total tile count",
+      "content": "Each tile represents $7$ square inches, so divide the equation by $7$.<br/>$$7g+7b=840$$<br/>$$g+b=120$$"
     },
     {
-      "title": "Substitute the blue tiles",
-      "content": "The artist needs $71$ blue tiles, so set $b=71$: $$g+71=120.$$ Subtract $71$ from both sides to get $$g=49.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "A quick check is $49$ green tiles plus $71$ blue tiles equals $120$ total tiles, and $120\\cdot 7=840$ square inches. The answer is <strong>49</strong>.",
+      "title": "Subtract the blue tiles",
+      "content": "The artist needs $71$ blue tiles, so substitute $b=71$.<br/>$$g+71=120$$<br/>$$g=120-71$$<br/>The answer is <strong>49</strong>.",
       "desmosExpressions": [
         "7x+7y=840",
         "y=71"

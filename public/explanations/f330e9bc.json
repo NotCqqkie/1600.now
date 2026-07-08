@@ -1,0 +1,15 @@
+{
+  "questionId": "f330e9bc",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Check India's row",
+      "content": "The question asks when India began allowing foreign investors to purchase shares of domestic companies. The answer must match the year listed for India in the table."
+    },
+    {
+      "title": "Reject other years",
+      "content": "Choice A and Choice C do not match India's row. Choice B is Morocco's year, not India's. The remaining year is the one the table gives for India. The answer is <strong>D</strong>."
+    }
+  ]
+}

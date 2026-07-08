@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the estimate being compared",
-      "content": "The passage sets up a comparison: the site's age differs from the ______ estimate, and it is older than scholars estimated when they first encountered Machu Picchu in 1911. The blank needs a word describing that original estimate."
+      "title": "Tie estimate to first encounter",
+      "content": "The sentence says radiocarbon dating shows Machu Picchu is about 20 years older than scholars thought when first encountering the site in 1911. The blank must describe that first estimate."
     },
     {
-      "title": "Match the word to the timing",
-      "content": "'Original' means the estimate from the initial encounter in 1911. The others don't fit: 'genuine' emphasizes authenticity, 'intentional' emphasizes deliberateness, and 'independent' emphasizes autonomy. <strong>D</strong> is correct."
+      "title": "Reject irrelevant meanings",
+      "content": "Choice A means authentic, Choice B means deliberate, and Choice C means separate or self-directed. None refers to the estimate made at the beginning of scholarly knowledge about the site. The needed word means initial or first. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "28db45ac",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the PSP finding",
+      "content": "The text first presents the earlier hypothesis: PSP in pterosaurs and two other Cretaceous clades may have been homologous, meaning it came from a shared ancestor. Vieira and colleagues then examined common-ancestor fossils and found bone openings that could have suggested PSP, but the openings were not the right sizes. Along with other findings, this led the team away from the shared-ancestor explanation and toward independent evolution in each clade."
+    },
+    {
+      "title": "Avoid overclaiming the evidence",
+      "content": "Choice A focuses on the bone openings but leaves out the larger conclusion that PSP likely evolved independently. Choice B invents a claim about earlier researchers lacking technology, which the text never says. Choice C contradicts the text by saying PSP evolved in pterosaurs and was then inherited by the other clades; the passage says each clade likely evolved PSP independently. The remaining choice captures both parts of the main idea: the clades likely lacked a common ancestor with PSP, so Vieira's team proposed a different evolutionary origin from the one in earlier studies. The answer is <strong>D</strong>."
+    }
+  ]
+}

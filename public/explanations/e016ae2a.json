@@ -1,0 +1,19 @@
+{
+  "questionId": "e016ae2a",
+  "correctAnswer": "20",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the quadratic formula",
+      "content": "For $3w^2+13w-c=0$, the quadratic formula gives\n$$w=\\frac{-13\\pm\\sqrt{13^2-4(3)(-c)}}{2(3)}$$\n$$w=\\frac{-13\\pm\\sqrt{169+12c}}{6}$$"
+    },
+    {
+      "title": "Set the radicands equal",
+      "content": "The given solution has the same denominator and leading term, so match the expression under the square root:\n$$169+12c=409$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Subtract $169$, then divide by $12$:\n$$12c=240$$\n$$c=20$$\nThe answer is <strong>20</strong>."
+    }
+  ]
+}

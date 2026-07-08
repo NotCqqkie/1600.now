@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast structure",
-      "content": "The sentence reads: \"its role isn't ______; rather, the accessory spleen may actively support diving mechanisms.\" The word \"rather\" signals a direct contrast. The blank must be the opposite of \"actively supporting\" a function &mdash; something meaning dormant, hidden, or without active role."
+      "title": "Use the contrast",
+      "content": "The sentence describes the accessory spleen as \"seemingly functionless,\" then says researchers think its role is not blank; rather, it may actively support diving mechanisms. The blank must mean inactive or hidden, contrasting with \"actively support.\""
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>\"replicable\"</strong>: means capable of being reproduced. The text addresses whether the organ has a function, not whether that function can be replicated. Irrelevant meaning rule violated. &#10007;</li><li><strong>\"predetermined\"</strong>: means decided in advance. The text focuses on whether the organ is active or dormant, not on whether its role was determined beforehand. Irrelevant meaning rule violated. &#10007;</li><li><strong>\"operative\"</strong>: means functional or active. Saying the role \"isn't operative\" would mean it isn't functional &mdash; but \"rather, it actively supports diving\" also says it is functional, creating a contradiction rather than a contrast. Logical contradiction rule violated. &#10007;</li><li><strong>\"latent\"</strong>: means dormant or hidden, not actively expressed. Saying the role \"isn't latent\" contrasts cleanly with \"actively supports diving mechanisms.\" &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate wrong meanings",
+      "content": "Choice A, \"replicable,\" means able to be repeated. Choice B, \"predetermined,\" means decided in advance. Choice C, \"operative,\" means functioning, which conflicts with the contrast between an apparently inactive role and one that may actively support diving. The word meaning inactive or dormant fits the context. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what varied between the groups",
-      "content": "The study shows that participants were divided into two groups: some saw a less detailed initial ad, others a more detailed one.<br/><br/>This difference in detail level directly correlates with their subsequent ratings—those who saw less detail gave higher opinions of the second ad, while those who saw more detail gave lower opinions."
+      "title": "Track the tested variable",
+      "content": "The first ad varied by detail level: some participants saw a less detailed ad, while others saw a more detailed ad. Their reactions to the same second ad differed afterward."
     },
     {
-      "title": "Apply the variable to the choices",
-      "content": "The answer must identify what characteristic of the first ad determined how people rated the second.<br/><br/>The correct response names the key variable that differed between groups: the amount of detail in previous ads.<br/><br/>The other three reference variables never present in the study: viewer count, viewing duration, and time of day.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Name the affecting factor",
+      "content": "Choice A mentions viewer count, which was not tested. Choice B mentions viewing time, which was not varied. Choice D mentions time of day, which is absent from the study. The conclusion should identify the amount of detail in previous ads. The answer is <strong>C</strong>."
     }
   ]
 }

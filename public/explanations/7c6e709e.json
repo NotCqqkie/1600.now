@@ -1,0 +1,19 @@
+{
+  "questionId": "7c6e709e",
+  "correctAnswer": "1920",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write obtuse in terms of acute",
+      "content": "A transversal across parallel lines creates four equal acute angles and four equal obtuse angles. Each obtuse angle is supplementary to an acute angle:\n$$\\text{obtuse}=180^{\\circ}-\\text{acute}$$"
+    },
+    {
+      "title": "Build the requested sum",
+      "content": "The sum of one acute angle and three obtuse angles is\n$$\\text{acute}+3(180^{\\circ}-\\text{acute})$$\n$$=540^{\\circ}-2\\text{acute}$$\nSubstitute the acute angle measure $(8x-690)^{\\circ}$:\n$$540-2(8x-690)=540-16x+1{,}380$$\n$$=-16x+1{,}920$$"
+    },
+    {
+      "title": "Match the constant term",
+      "content": "The problem gives the same sum in the form $(-16x+w)^{\\circ}$. Therefore the constant term is $w$:\n$$w=1920$$\nThe answer is <strong>1920</strong>."
+    }
+  ]
+}

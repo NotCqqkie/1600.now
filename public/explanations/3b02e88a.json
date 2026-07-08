@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a notes-based writing question. The task is to make a <strong>generalization about the materials used in dhow replicas</strong>. The decisive clues in the notes are: contemporary builders &ldquo;use a mix of modern and traditional materials&rdquo; and &ldquo;most of the materials used are traditional.&rdquo; The response must capture that broad balance &mdash; not a single example, not facts about ancient dhows, not just who builds replicas."
+      "title": "Focus on replica materials",
+      "content": "The student's goal is a generalization about materials used in dhow replicas. The relevant notes say builders use a mix of modern and traditional materials, with most materials traditional."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A — A traditional material that was used to stitch together the hulls of ancient dhows, coconut palm fiber rope is still used by shipbuilders.</strong>: highlights one specific traditional material (coconut palm fiber rope) rather than making a general statement about the overall material composition of replicas. &#10007;</li><li><strong>Choice B — The ancient Arab dhow was a sailing vessel used primarily for trade and distinguishable by its triangular sails.</strong>: describes the ancient vessel&rsquo;s features; says nothing about materials used in modern replicas. &#10007;</li><li><strong>Choice C — Although most materials used in dhow replicas are traditional, some modern materials are used.</strong>: directly generalizes the material composition &mdash; most are traditional, some are modern &mdash; matching the notes exactly. &#10003;</li><li><strong>Choice D — Contemporary shipbuilders in Bahrain build replicas of the dhow, which was an ancient sailing vessel with a stitched hull construction.</strong>: introduces who builds replicas and what a dhow is, but makes no generalization about the materials used. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject narrow or off-topic facts",
+      "content": "<ul><li><strong>Choice A</strong>: It focuses on one material rather than the general mix.</li><li><strong>Choice B</strong>: It describes ancient dhows, not replica materials.</li><li><strong>Choice D</strong>: It introduces builders and hull construction but not the materials overall.</li></ul>"
+    },
+    {
+      "title": "Use the broad material pattern",
+      "content": "The best generalization states both sides of the pattern: replica builders mostly use traditional materials but also use some modern ones. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "questionId": "1819bdf4",
+  "correctAnswer": "238.228206528",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Fastest path: mark the figure first",
+      "content": "Count the relevant faces, dimensions, or scale factor before setting up equations. Lengths scale by $k$, areas by $k^2$, and volumes by $k^3$; for boxes and prisms, write the needed face or volume formula directly."
+    },
+    {
+      "title": "Recognize that volume scales by the cube of the linear scale factor",
+      "content": "When converting units for volume, the conversion factor must be cubed. Since 1 yard = 0.914 meters, we convert cubic yards to cubic meters using $(0.914)^3$ as our conversion factor.",
+      "formula": "$$V_{\\text{new}} = V_{\\text{old}} \\times k^3$$"
+    },
+    {
+      "title": "Calculate the cubic conversion factor",
+      "content": "$$0.914^2 = 0.835396$$ <br/> $$0.914^3 = 0.914 \\times 0.835396 = 0.763551944$$"
+    },
+    {
+      "title": "Convert the volume to cubic meters",
+      "content": "Multiply the volume in cubic yards by the cubic conversion factor: <br/> $$312.00 \\times 0.763551944 = 238.228206528 \\text{ cubic meters}$$"
+    }
+  ]
+}

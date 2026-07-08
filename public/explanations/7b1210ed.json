@@ -1,0 +1,23 @@
+{
+  "questionId": "7b1210ed",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Add the two equations to eliminate $y$.<br/>$$(19)+(x-y)=(x+y)+9$$<br/>A cleaner way is to rewrite the first equation as $x+y=19$, then add.<br/>$$(x+y)+(x-y)=19+9$$"
+    },
+    {
+      "title": "Solve for x",
+      "content": "$$2x=28$$<br/>$$x=14$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the $x$-coordinate of the intersection. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "19=x+y",
+        "x-y=9"
+      ]
+    }
+  ]
+}

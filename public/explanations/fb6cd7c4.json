@@ -1,0 +1,15 @@
+{
+  "questionId": "fb6cd7c4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the tissue threshold",
+      "content": "The passage says regional endotherms have more than 30% compact myocardial tissue, unlike ectotherms. Voss and colleagues found that basking shark hearts are 47% compact myocardial tissue even though basking sharks had been classified as full ectotherms."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "A says the evidence is insufficient, which conflicts with the passage's statement that it undermines the old classification. B and C compare the basking shark with species whose exact percentages are not given. The percentage by itself invalidates the prior categorization. The answer is <strong>D</strong>."
+    }
+  ]
+}

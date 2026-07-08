@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The student wants to emphasize the <strong>significance</strong> of a similarity between two kits. The notes show Pbact alone achieved both targets: high yield and purity close to the ideal of 1.8. CTAB 2X and Pplant both fell short of Pbact &mdash; that shared shortfall is the meaningful similarity to highlight."
+      "title": "Focus on significance",
+      "content": "The student wants the significance of a similarity between two kits, not just any shared data point. The notes say Pbact was most effective because it alone combined sufficient yield with purity near the ideal, making the meaningful similarity that the other two kits fell short."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; CTAB 2X and Pplant both had a DNA yield above 10 and a purity ratio above 1.4.</strong>: describes a trivial overlap, not what makes the similarity significant; also may not accurately reflect the data. &#10007;</li><li><strong>Choice B &mdash; Due to their insufficient yield or purity, CTAB 2X and Pplant were deemed by the researchers to be less effective than Pbact.</strong>: captures the meaningful shared status &mdash; both kits failed to match Pbact on at least one key metric. &#10003;</li><li><strong>Choice C &mdash; With the ideal purity ratio being 1.8, CTAB 2X and Pbact were equal in purity, according to the researchers.</strong>: misstates the data (CTAB 2X purity was 2.2, Pbact purity was 1.6 &mdash; not equal). &#10007;</li><li><strong>Choice D &mdash; Compared to CTAB 2X, which had a DNA yield of 2,134 ng/μL, both Pbact and Pplant had insufficient yields; Pplant, in particular, was ineffective due to its low yield.</strong>: highlights only CTAB 2X&apos;s yield advantage (2,134 vs. lower figures), not a shared trait between two kits. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Avoid trivial similarities",
+      "content": "Choice A states a true but weak overlap that does not explain effectiveness. Choice C falsely says CTAB 2X and Pbact were equal in purity. Choice D wrongly says Pbact had insufficient yield and does not focus on CTAB 2X and Pplant. The choice about CTAB 2X and Pplant being less effective captures the significant shared status. The answer is <strong>B</strong>."
     }
   ]
 }

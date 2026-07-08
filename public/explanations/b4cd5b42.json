@@ -1,0 +1,19 @@
+{
+  "questionId": "b4cd5b42",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the product",
+      "content": "The number that is $6$ less than $x$ is $x-6$, so the condition is\n$$\nx(x-6)=16\n$$"
+    },
+    {
+      "title": "Factor the equation",
+      "content": "Move all terms to one side and factor:\n$$\nx^2-6x-16=0\n$$\n$$\n(x-8)(x+2)=0\n$$"
+    },
+    {
+      "title": "Use the positive value",
+      "content": "The two possible values are $8$ and $-2$, but the question says $x$ is positive. The answer is <strong>B</strong>."
+    }
+  ]
+}

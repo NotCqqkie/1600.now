@@ -1,0 +1,15 @@
+{
+  "questionId": "fcaf082c",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match both parts of the claim",
+      "content": "The student's claim has two parts: smaller areas were less congested than a very large city, and congestion in those smaller areas still worsened over time. The data description must show both."
+    },
+    {
+      "title": "Reject incomplete data claims",
+      "content": "Choice A gives a low-delay point but not worsening over time. Choice C contradicts the claim by making Albuquerque greater than New York City. Choice D gives one New York City value only. The answer is <strong>B</strong>."
+    }
+  ]
+}

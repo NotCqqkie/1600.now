@@ -1,0 +1,15 @@
+{
+  "questionId": "acbaea18",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify both benefits",
+      "content": "The passage defines community science and presents two main benefits: it can promote community engagement through conservation efforts, and it can greatly increase the amount of data available to researchers."
+    },
+    {
+      "title": "Reject one-sided summaries",
+      "content": "Choice A focuses on one study and invents surprise. Choice B contradicts the passage by saying community science is less likely to help researchers obtain accurate data. Choice D contradicts the passage by denying much effect on conservation efforts. The answer is <strong>C</strong>."
+    }
+  ]
+}

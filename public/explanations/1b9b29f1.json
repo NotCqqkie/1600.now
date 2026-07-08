@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the causal factor",
-      "content": "Replacing ELF3 eliminated flowering acceleration at 27°C but left basic flowering at 22°C unchanged. This directly implicates ELF3 as the enabling agent."
+      "title": "Track the changed protein",
+      "content": "The researchers replaced <em>A. thaliana</em>'s ELF3 with a similar protein from stiff brome. At 22 degrees Celsius, flowering did not differ, but at 27 degrees Celsius, unmodified plants accelerated flowering while altered plants did not. The changed protein is therefore tied to the temperature response."
     },
     {
-      "title": "Connect ELF3 to the response",
-      "content": "<strong>Choice C &mdash; ELF3 enables <em>A. thaliana</em> to respond to increased temperatures.</strong> states that ELF3 enables <em>A. thaliana</em> to respond to increased temperatures.<br/><br/>When ELF3 is swapped for a stiff brome version, the acceleration disappears—confirming ELF3's causal role.<br/><br/>The other three either overstate uniqueness, speculate about untested production mechanisms, or misread what the temperatures reveal.<br/><br/>That matches <strong>Choice C &mdash; ELF3 enables <em>A. thaliana</em> to respond to increased temperatures.</strong>."
+      "title": "Reject overclaims",
+      "content": "A overstates the result by saying temperature-sensitive flowering is unique to <em>A. thaliana</em>. B invents increased ELF3 production, which was not measured. D misreads the 22-degree result; both altered and unmodified plants flowered there. The answer is <strong>C</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d2322c05",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square feet",
+      "content": "Because area is two-dimensional, square the linear conversion. Since $1$ meter equals $3.28$ feet, one square meter equals this many square feet: $$1\\text{ m}^2=(3.28)^2\\text{ ft}^2=10.7584\\text{ ft}^2$$"
+    },
+    {
+      "title": "Convert the time rate",
+      "content": "Convert square feet to square meters and hours to minutes. Dividing by $10.7584$ changes the area units, and dividing by $60$ changes hours to minutes: $$330\\cdot \\frac{1}{10.7584}\\cdot \\frac{1}{60}=0.5112$$ This is closest to $0.51$ square meters per minute. The answer is <strong>A</strong>."
+    }
+  ]
+}

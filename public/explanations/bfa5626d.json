@@ -1,0 +1,15 @@
+{
+  "questionId": "bfa5626d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the changed role",
+      "content": "The passage says Don Lorenzo \"ceased to write plays\" and instead became a patron to authors, artists, and ruined managers. The change that coincided with his patronage is therefore a change away from writing plays."
+    },
+    {
+      "title": "Reject unsupported changes",
+      "content": "A invents public recognition for a short story, B invents a job as an actor, and C invents a move away from Madrid. The passage's stated change is that Don Lorenzo stopped writing plays. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,21 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $6x \\left(x-12{y}^{2}\\right)$."
+      "title": "Find the common factor",
+      "content": "Both terms in $6x^2-72xy^2$ share a greatest common factor of $6x$. Factoring out that common part leaves the expression inside the parentheses and keeps the product equivalent to the original expression."
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Factor the expression",
-      "content": "The GCF of $6x^2$ and $72xy^2$ is $6x$. Factor it out:$$6x^2-72xy^2=6x(x-12y^2)$$"
-    },
-    {
-      "title": "Match to the answer choices",
-      "content": "The factored form is $6x(x-12y^2)$. <strong>A</strong> is correct. Distributing $6x$ back through the parentheses checks both original terms: $6x^2$ and $-72xy^2$."
+      "title": "Divide each term",
+      "content": "Divide each original term by $6x$ to find the remaining terms:\n$$\n\\frac{6x^2}{6x}=x\n$$\n$$\n\\frac{-72xy^2}{6x}=-12y^2\n$$\nSo the factored form is\n$$\n6x^2-72xy^2=6x(x-12y^2)\n$$\nThe answer is <strong>A</strong>."
     }
-  ],
-  "choiceAnalysis": "<ul><li><strong>Choice A &mdash; $6x \\left(x-12{y}^{2}\\right)$</strong>: Distributing gives $6x \\cdot x - 6x \\cdot 12y^2 = 6x^2 - 72xy^2$, which matches exactly. &#10003;</li><li><strong>Choice B &mdash; $6x \\left(x-72{y}^{2}\\right)$</strong>: Distributing gives $6x^2 - 432xy^2$, not $6x^2 - 72xy^2$. &#10007;</li><li><strong>Choice C &mdash; $6{x}^{2} \\left(12x{y}^{2}\\right)$</strong>: This is a product, not a difference; it equals $72x^3y^2$, not the original expression. &#10007;</li><li><strong>Choice D &mdash; $6{x}^{2} \\left(72x{y}^{2}\\right)$</strong>: This equals $432x^3y^2$, not the original expression. &#10007;</li></ul><strong>A</strong> is correct."
+  ]
 }

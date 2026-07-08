@@ -1,0 +1,19 @@
+{
+  "questionId": "48811881",
+  "correctAnswer": "0.066",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate the first year",
+      "content": "Substitute $x=1993$ into the model for the first year.<br/>$$f(1993)=-0.0038500(1993)^2+15.284(1993)-15{,}159$$<br/>$$f(1993)=9.62335$$"
+    },
+    {
+      "title": "Evaluate the second year",
+      "content": "Substitute $x=1994$ into the same model for the next year.<br/>$$f(1994)=-0.0038500(1994)^2+15.284(1994)-15{,}159$$<br/>$$f(1994)=9.5574$$"
+    },
+    {
+      "title": "Find the positive difference",
+      "content": "Subtract and use the positive value, then round to the nearest thousandth.<br/>$$9.62335-9.5574=0.06595$$<br/>The rounded value is $0.066$. The answer is <strong>0.066</strong>."
+    }
+  ]
+}

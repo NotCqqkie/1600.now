@@ -1,0 +1,15 @@
+{
+  "questionId": "c133584d",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sine ratio",
+      "content": "In a right triangle, sine compares the side opposite the angle to the hypotenuse. If $o$ is the opposite side and $h$ is the hypotenuse, then<br/>$$\\sin y^{\\circ}=\\frac{o}{h}$$"
+    },
+    {
+      "title": "Substitute the side lengths",
+      "content": "For angle $y^{\\circ}$, the opposite side is $5$ and the hypotenuse is $26$:<br/>$$\\sin(y^{\\circ})=\\frac{5}{26}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

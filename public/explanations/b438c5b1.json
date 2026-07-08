@@ -1,0 +1,15 @@
+{
+  "questionId": "b438c5b1",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare model and participant ratings",
+      "content": "The setup says participants rated paintings on a scale and the model predicted how much each person would enjoy the art. The graph reports correlations between predicted ratings and reported ratings. The question adds an assumption: participants P1 and P2 gave equal ratings to the impressionist paintings."
+    },
+    {
+      "title": "Infer different predictions",
+      "content": "If the participant ratings are equal but the graph shows different relationships between the model's predictions and the participants' reported ratings, then the model did not predict equal impressionist ratings for P1 and P2. Choice A repeats the assumed equality of the participants' own ratings. Choice C and Choice D switch to an unsupported comparison between impressionist and cubist paintings for P1. The answer is <strong>B</strong>."
+    }
+  ]
+}

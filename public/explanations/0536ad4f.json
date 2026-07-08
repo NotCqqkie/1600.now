@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $15w$."
+      "title": "Combine inside the parentheses",
+      "content": "First combine the like terms inside the parentheses:<br/>$$5w+4w=9w$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Subtract like terms",
+      "content": "Now simplify the whole expression:<br/>$$24w-(5w+4w)=24w-9w=15w$$"
     },
     {
-      "title": "Simplify inside the parentheses",
-      "content": "Combine the like terms inside the parentheses first:$$5w+4w=9w$$So the expression becomes $24w-9w$."
+      "title": "Check the expression form",
+      "content": "The expression subtracts all of $5w+4w$, so the amount subtracted is $9w$. That leaves $15w$, not $12w$, $23w$, or $25w$ as the result."
     },
     {
-      "title": "Subtract the like terms",
-      "content": "Subtract:$$24w-9w=15w$$"
-    },
-    {
-      "title": "Compare with each choice",
-      "content": "<ul><li><strong>A) $12w$:</strong> would require $24w-12w$, but we have $24w-9w$. Eliminated.</li><li><strong>B) $15w$:</strong> equals $24w-9w$. Matches.</li><li><strong>C) $23w$:</strong> would require subtracting only $w$, not $9w$. Eliminated.</li><li><strong>D) $25w$:</strong> would require adding $w$ to $24w$, but the expression subtracts $9w$. Eliminated.</li></ul>That matches <strong>Choice B &mdash; $15w$</strong>."
+      "title": "Select the matching choice",
+      "content": "The equivalent expression is $15w$. The answer is <strong>B</strong>."
     }
   ]
 }

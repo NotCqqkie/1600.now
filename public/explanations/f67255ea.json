@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the relationships first",
-      "content": "Mark the given angle relationships first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
-    },
-    {
       "title": "Write the obtuse angle",
-      "content": "An acute angle and an adjacent obtuse angle formed by a transversal are supplementary. If the acute angle is $(9x-620)^\\circ$, then each obtuse angle is $$180-(9x-620)=800-9x.$$"
+      "content": "The acute and obtuse angles formed by a transversal across parallel lines are supplementary. If one acute angle measures $(9x-620)^\\circ$, then each obtuse angle measures<br/>$$180-(9x-620)=800-9x$$"
     },
     {
-      "title": "Add one acute and three obtuse angles",
-      "content": "$$(9x-620)+3(800-9x)=9x-620+2400-27x=-18x+1780.$$"
+      "title": "Add the requested angles",
+      "content": "Add one acute angle and three obtuse angles.<br/>$$(9x-620)+3(800-9x)$$<br/>$$=9x-620+2400-27x$$<br/>$$=-18x+1780$$"
     },
     {
-      "title": "Match the given form",
-      "content": "The sum is given as $(-18x+w)^\\circ$, so $w=1780$. The answer is <strong>1780</strong>."
+      "title": "Match the given expression",
+      "content": "The sum is given as $(-18x+w)^\\circ$, so compare constants in the expression.<br/>$$-18x+w=-18x+1780$$<br/>The answer is <strong>1780</strong>."
     }
   ]
 }

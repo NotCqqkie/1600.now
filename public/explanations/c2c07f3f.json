@@ -1,0 +1,19 @@
+{
+  "questionId": "c2c07f3f",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the needed example",
+      "content": "The student wants to provide an example of a sky island. The notes define sky islands and quote the NPS, but the goal is narrower: the answer must name a specific mountain range identified as one of the sky islands."
+    },
+    {
+      "title": "Reject general information",
+      "content": "<ul><li><strong>Choice A - 'Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the NPS puts it, \"the mountains are 'islands' surrounded by deserts that are 'seas.'\"'</strong>: defines and describes sky islands, but names no specific example.</li><li><strong>Choice B - 'The NPS considers each of the sky islands, whose environments differ drastically from that of the surrounding lowlands, to be a \"unique ecosystem.\"'</strong>: reports a general NPS statement about sky islands, not an example.</li><li><strong>Choice D - 'In the southwestern US and northwestern Mexico, there are dozens of sky islands: isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands.'</strong>: gives the region and definition, but still does not name one sky island.</li></ul>"
+    },
+    {
+      "title": "Use the named place",
+      "content": "<strong>Choice C - 'There are dozens of sky islands in the southwestern US and northwestern Mexico, such as the El Pinito Mountains.'</strong>: uses the phrase 'such as' to present the El Pinito Mountains as a concrete example of a sky island, which directly matches the student's goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

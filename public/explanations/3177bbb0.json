@@ -1,0 +1,15 @@
+{
+  "questionId": "3177bbb0",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the per-person column",
+      "content": "The question asks for the average amount contributed by each individual employed in wholesale trade. That means the relevant table entry is the per-employed-person value, not a total contribution or employee count."
+    },
+    {
+      "title": "Read the wholesale trade row",
+      "content": "In the table, wholesale trade has 183,790 dollars in the average contribution per employed person column. Choice A is a different industry's average, while Choices C and D do not give the wholesale-trade per-person amount. The answer is <strong>B</strong>."
+    }
+  ]
+}

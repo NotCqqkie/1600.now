@@ -1,0 +1,15 @@
+{
+  "questionId": "35879da5",
+  "correctAnswer": "47000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the conversion rate",
+      "content": "The problem gives $1$ kilogram as $1{,}000$ grams, so multiply the number of kilograms by $1{,}000$."
+    },
+    {
+      "title": "Convert the mass",
+      "content": "$$47(1{,}000)=47{,}000$$\nThe answer is <strong>47000</strong>."
+    }
+  ]
+}

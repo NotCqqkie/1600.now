@@ -1,0 +1,15 @@
+{
+  "questionId": "c03d1b66",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the consequence",
+      "content": "Italian was the default language for opera scores for centuries. Because of that history, singers today encounter many Italian terms when following eighteenth-century opera scores."
+    },
+    {
+      "title": "Choose the result signal",
+      "content": "Choice A signals contrast, but the second sentence follows from the first. Choice C suggests a final item in a list that does not exist. Choice D signals concession, which the sentence does not need. A consequence transition fits. The answer is <strong>B</strong>."
+    }
+  ]
+}

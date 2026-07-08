@@ -1,0 +1,15 @@
+{
+  "questionId": "30372fd3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find room C probability",
+      "content": "All attendees are in room A, B, or C, so the probabilities add to $1$:\n$$\nP(C)=1-0.60-0.35=0.05\n$$"
+    },
+    {
+      "title": "Convert probability to count",
+      "content": "Multiply by the $400$ total attendees:\n$$\n0.05\\cdot 400=20\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

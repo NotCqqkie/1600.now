@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: try the choices",
-      "content": "Because the choices give possible solutions, plug them into the equation instead of solving from scratch. The only choice that satisfies the equation is <strong>B</strong>, $450$."
-    },
-    {
       "title": "Undo the addition",
-      "content": "The equation is $k+15=465$. Subtract $15$ from both sides: $$k=465-15.$$"
+      "content": "The equation adds $15$ to $k$. Use the inverse operation by subtracting $15$ from both sides.\n$$k+15-15=465-15$$"
     },
     {
-      "title": "Compute the solution",
-      "content": "$$k=450.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "The value $450$ is correct because $465-15=450$. Adding $15$ instead of subtracting, multiplying by $15$, or dividing by $15$ uses the wrong inverse operation. <strong>B</strong> is correct."
+      "title": "Compute the value",
+      "content": "Now simplify the right side.\n$$k=450$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

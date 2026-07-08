@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use two line-of-best-fit points",
-      "content": "The drawn line of best fit passes approximately through $(1,3.3)$ and $(7,14.5)$. Use those points rather than estimating from the axes."
+      "title": "Choose two points on the line",
+      "content": "The line of best fit passes approximately through $(1,3.3)$ and $(7,14.5)$. Use the slope formula with these two points."
     },
     {
-      "title": "Calculate the slope",
-      "content": "$$m=\\frac{14.5-3.3}{7-1}=\\frac{11.2}{6}\\approx 1.87$$"
-    },
-    {
-      "title": "Pick the closest choice",
-      "content": "Among $0$, $\\frac{1}{2}$, $1$, and $2$, the closest value to $1.87$ is $2$. That confirms <strong>D</strong>."
+      "title": "Estimate the slope",
+      "content": "Calculate rise over run:\n$$m=\\frac{14.5-3.3}{7-1}=\\frac{11.2}{6}$$\nThis is about $1.87$. The closest listed value is $2$. The answer is <strong>D</strong>."
     }
   ]
 }

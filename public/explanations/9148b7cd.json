@@ -1,0 +1,15 @@
+{
+  "questionId": "9148b7cd",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the requested table cell",
+      "content": "The question asks for Girl Scouts ages 11 to 14 in 1995. That means using the Cadettes row and the 1995 column, not another age group or another year."
+    },
+    {
+      "title": "Reject wrong table cells",
+      "content": "Choice B uses the Cadettes value from 1994, so the year is wrong. Choice C does not match the requested row and year. Choice D uses the Adults value from 1995, so the age group is wrong. The answer is <strong>A</strong>."
+    }
+  ]
+}

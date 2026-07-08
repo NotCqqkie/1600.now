@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent and what form is needed",
-      "content": "The blank fills in &quot;nurses ______ young with milk.&quot; The antecedent is &quot;the animal&quot; (singular, non-human), so the pronoun must be singular and possessive &mdash; not a contraction, not plural. The rule: a possessive pronoun must agree in number with its antecedent and must be a true possessive, not a contraction."
+      "title": "Find the pronoun's antecedent",
+      "content": "The blank appears before young, so it must be possessive. Its antecedent is the animal, a singular nonhuman noun."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A — they're</strong>: Pronoun-antecedent agreement error &mdash; &quot;they&apos;re&quot; is plural (&quot;they are&quot;), but &quot;the animal&quot; is singular; also a contraction, not a possessive. &#10007;</li><li><strong>Choice B — their</strong>: Pronoun-antecedent agreement error &mdash; &quot;their&quot; is plural, but &quot;the animal&quot; is singular. &#10007;</li><li><strong>Choice C — its</strong>: Singular possessive pronoun matching the singular antecedent &quot;the animal.&quot; &#10003;</li><li><strong>Choice D — it's</strong>: Contraction error &mdash; &quot;it&apos;s&quot; means &quot;it is,&quot; which is not a possessive and creates an ungrammatical double-verb clause (&quot;nurses it is young&quot;). &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Reject plural and contraction forms",
+      "content": "<ul><li><strong>Choice A</strong>: They're means they are, so it is plural and not possessive.</li><li><strong>Choice B</strong>: Their is possessive but plural, so it does not agree with the animal.</li><li><strong>Choice D</strong>: It's means it is and is not possessive.</li></ul>"
+    },
+    {
+      "title": "Use the singular possessive",
+      "content": "The sentence needs a singular possessive pronoun to show that the young belong to the animal. The answer is <strong>C</strong>."
     }
   ]
 }

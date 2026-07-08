@@ -1,0 +1,15 @@
+{
+  "questionId": "14a01a79",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow finding to future use",
+      "content": "The passage first reports research findings: Matabele ants identify infected wounds, treat them with antimicrobial secretions, and reduce mortality. It then notes hope that the finding may help develop new antibiotics. That final human-antibiotic note is prospective, not a method."
+    },
+    {
+      "title": "Rule out unused structures",
+      "content": "A frames the issue as a proposed solution, C adds evolution, and D claims methods are explained. The text reports findings and then points to a future research application; no procedure details are supplied in the passage. The answer is <strong>B</strong>."
+    }
+  ]
+}

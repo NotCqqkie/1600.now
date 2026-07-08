@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the triangle angle sum",
-      "content": "The angles in a triangle sum to $180^{\\circ}$. Add the two given angles, then subtract their sum from $180^{\\circ}$ to find angle $A$."
+      "title": "Add the known angles",
+      "content": "The two given angles in the triangle measure $55^{\\circ}$ and $18^{\\circ}$:<br/>$$55^{\\circ}+18^{\\circ}=73^{\\circ}$$"
     },
     {
-      "title": "Apply the triangle angle sum property",
-      "content": "The sum of all angles in any triangle equals $180^{\\circ}$. Set up the equation:<br/>$$A + B + C = 180^{\\circ}$$<br/>Substitute the given values $B = 55^{\\circ}$ and $C = 18^{\\circ}$:<br/>$$A + 55^{\\circ} + 18^{\\circ} = 180^{\\circ}$$"
-    },
-    {
-      "title": "Solve for angle A",
-      "content": "Combine the known angles on the left side:<br/>$$A + 73^{\\circ} = 180^{\\circ}$$<br/>Subtract $73^{\\circ}$ from both sides:<br/>$$A = 180^{\\circ} - 73^{\\circ} = 107^{\\circ}$$<br/>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Subtract from the triangle total",
+      "content": "Angles in a triangle sum to $180^{\\circ}$, so subtract the known total from $180^{\\circ}$:<br/>$$180^{\\circ}-73^{\\circ}=107^{\\circ}$$The answer is <strong>D</strong>."
     }
   ]
 }

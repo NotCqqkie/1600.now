@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Rhetorical Synthesis question. The student&apos;s goal is to introduce the scientist and her field of study to a new audience. A correct answer must: (1) name the scientist, (2) identify her profession or specialty, and (3) convey her field of study."
+      "title": "Introduce both scientist and field",
+      "content": "The goal is to introduce Nadia Isabel Cruz and her field of study to a new audience. The sentence should name Cruz, identify her as a marine biologist, and explain coral reefs as the field she studies."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Located in Brazil, the Amazon Reef is one of the largest known coral reefs in the world.</strong>: Does not mention Nadia Isabel Cruz at all. Fails to introduce the scientist. &#10007;</li><li><strong>Choice B &mdash; Marine biologist Nadia Isabel Cruz studies coral reefs, vital underwater ecosystems that provide homes to 25% of all marine species.</strong>: Names the scientist, identifies her as a marine biologist, and describes her field of study (coral reefs). Meets all three criteria. &#10003;</li><li><strong>Choice C &mdash; Providing homes to 25% of all marine species, including up to 8,000 species of fish, coral reefs are vital underwater ecosystems and thus of great interest to marine biologists.</strong>: Describes coral reefs and the field but does not name or introduce Nadia Isabel Cruz. &#10007;</li><li><strong>Choice D &mdash; As Nadia Isabel Cruz knows well, coral reefs are vital underwater ecosystems, providing homes to thousands of species of fish.</strong>: Names the scientist but does not identify her as a marine biologist or describe her field of study specifically &mdash; it merely implies familiarity with coral reefs. &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Reject incomplete introductions",
+      "content": "<ul><li><strong>Choice A</strong> introduces the Amazon Reef but not Cruz.</li><li><strong>Choice C</strong> explains coral reefs but does not name the scientist.</li><li><strong>Choice D</strong> names Cruz but does not identify her as a marine biologist or clearly state her field of study.</li></ul>The remaining choice introduces Cruz and coral reefs together. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "d9b3ba22",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the toxicity cause",
+      "content": "The student wants to explain why brine pools are toxic to most sea life. The notes provide the cause: the water is three to eight times saltier than the surrounding ocean, and that extreme saltiness makes it toxic."
+    },
+    {
+      "title": "Reject details without cause",
+      "content": "B mentions toxicity and the 2022 discovery but not the reason for toxicity. C focuses on bacteria that can survive there. D defines brine pools as salty underwater lakes but does not connect the saltiness to toxicity. The answer is <strong>A</strong>."
+    }
+  ]
+}

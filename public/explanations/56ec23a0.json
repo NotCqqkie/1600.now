@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Trace the passage's two-part structure",
-      "content": "The passage opens with &ldquo;Kenji Morita is known worldwide&rdquo; &mdash; naming a specific artist &mdash; then spends the rest explaining what makes his waterfall paintings distinctive: their large scale, his choice to show only part of the waterfall, and his use of traditional Japanese techniques and materials. That is two clear moves: introduce the artist, then describe characteristics of his paintings."
+      "title": "Trace the artist description",
+      "content": "The text first introduces Kenji Morita as an artist known for waterfall paintings. It then describes recurring traits of those paintings: large size, cropped views of waterfalls, and recognizable Japanese techniques and materials."
     },
     {
-      "title": "Eliminate wrong choices, confirm the match",
-      "content": "<ul><li><strong>Choice A — It introduces an artist and then explains some common characteristics of well-known paintings by that artist.</strong>: Matches the two-part structure exactly &mdash; artist introduction followed by details about his paintings. &#10003;</li><li><strong>Choice B — It explains a specific painting technique and then provides examples of artists who use the technique.</strong>: The order is reversed &mdash; the passage names Morita first, not a technique, and discusses only one artist. &#10007;</li><li><strong>Choice C — It describes a famous painting and then compares it to a lesser-known painting from the same time period.</strong>: No comparison between two paintings appears; the passage discusses Morita&rsquo;s style generally. &#10007;</li><li><strong>Choice D — It gives an opinion on an artist and then suggests multiple reasons why the artist's work has been largely overlooked.</strong>: The passage explicitly says Morita is &ldquo;known worldwide&rdquo; &mdash; the opposite of overlooked. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject absent comparisons",
+      "content": "Choice B discusses a technique and multiple artists, which the text does not do. Choice C invents a comparison between paintings. Choice D says Morita is overlooked, contradicting known worldwide. The remaining choice matches the passage's structure. The answer is <strong>A</strong>."
     }
   ]
 }

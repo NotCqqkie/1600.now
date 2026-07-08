@@ -1,0 +1,15 @@
+{
+  "questionId": "f1f2d5f3",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared trail type",
+      "content": "The student wants to emphasize a similarity between the Columbia Trail and the Flint Hills Trail. The notes state that the Columbia Trail is a rail trail and that the Flint Hills Trail is also a rail trail. That shared category, not their different states, is the relevant common feature."
+    },
+    {
+      "title": "Reject non-similarities",
+      "content": "<ul><li><strong>Choice A - The Columbia Trail is in New Jersey, whereas the Flint Hills Trail is in Kansas.</strong>: This highlights a difference in location, not a similarity.</li><li><strong>Choice B - A former railroad corridor, the Columbia Trail is located in New Jersey.</strong>: This describes only the Columbia Trail, so it cannot establish what both trails share.</li><li><strong>Choice D - A public path created from a former railroad corridor can be found in Kansas.</strong>: This indirectly describes a rail trail in Kansas but does not name both trails or compare them.</li></ul>The sentence that names both trails and states their shared type best accomplishes the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

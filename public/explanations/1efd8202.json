@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Evaluate the equation at each x-value",
-      "content": "All choices use $x=0$, $2$, and $4$. Substitute each value into $y=60x+10$:<br/>$$60(0)+10=10$$<br/>$$60(2)+10=130$$<br/>$$60(4)+10=250$$"
+      "title": "Evaluate the first input",
+      "content": "Substitute $x=0$ into the equation.\n$$y=60(0)+10=10$$"
     },
     {
-      "title": "Match the output list",
-      "content": "The matching y-values are $10$, $130$, and $250$. The correct table is the only table with those outputs for $x=0$, $2$, and $4$."
+      "title": "Evaluate the other inputs",
+      "content": "Substitute $x=2$ and $x=4$.\n$$y=60(2)+10=130$$\n$$y=60(4)+10=250$$"
     },
     {
-      "title": "Confirm the answer",
-      "content": "Because the table with outputs $10$, $130$, and $250$ matches the whole output list, choice <strong>A</strong> is correct."
+      "title": "Match the output values",
+      "content": "The table must pair $x=0$, $x=2$, and $x=4$ with $y=10$, $y=130$, and $y=250$. The answer is <strong>A</strong>."
     }
   ]
 }

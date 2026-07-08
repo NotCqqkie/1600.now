@@ -1,0 +1,15 @@
+{
+  "questionId": "7b161f15",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the temperate-bird tension",
+      "content": "Text 1 says ornithologists long assumed a singing Cassin's finch, a temperate North American species, was male. Text 2 says female Cassin's finches can sing and that female birdsong is more common among temperate species than currently assumed."
+    },
+    {
+      "title": "Separate tropical claims",
+      "content": "Choice A invents Text 2's view about tropical species. Choice C misplaces the disagreement in the tropics. Choice D says Text 2 rejects Text 1's tropical claim, which Text 2 does not discuss. The remaining choice identifies the temperate-species assumption. The answer is <strong>B</strong>."
+    }
+  ]
+}

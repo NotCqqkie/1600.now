@@ -1,0 +1,15 @@
+{
+  "questionId": "48ae4dc8",
+  "correctAnswer": "9",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the y-coordinate",
+      "content": "The intersection point has $y=17$, so substitute $17$ for $y$ in both equations.<br/>$-x-17w=-255$<br/>$2x-17w=51$"
+    },
+    {
+      "title": "Eliminate the x-term",
+      "content": "Double the first equation and add it to the second equation.<br/>$-2x-34w=-510$<br/>$2x-17w=51$<br/>$-51w=-459$<br/>$w=9$<br/>The answer is <strong>9</strong>."
+    }
+  ]
+}

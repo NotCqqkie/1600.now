@@ -1,0 +1,15 @@
+{
+  "questionId": "576d2484",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the author's qualification",
+      "content": "The author says other cities cannot copy Tokyo's walkability by replicating one feature, such as high population density. Moreno's point reinforces that many factors influence walking decisions and no single factor fully explains pedestrian habits. Density is treated as relevant but incomplete."
+    },
+    {
+      "title": "Reject unsupported comparisons",
+      "content": "Choice A invents the idea that density reduces walkability in other cities. Choice C ranks density below personal preference and safety, but the text gives no ranking. Choice D reverses the relationship by making density an effect of pedestrian traffic. The answer is <strong>B</strong>."
+    }
+  ]
+}

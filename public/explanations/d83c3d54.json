@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The conclusion is that the dam <strong>benefited grass plants but didn’t benefit trees</strong>.<br/><br/>The key clue in the passage is the word “<strong>whereas</strong>” — it signals a contrast between two trends.<br/><br/>The correct answer must show one group (grass) increasing over time and the other (forest) decreasing."
+      "title": "Support grass-not-trees claim",
+      "content": "Martinez and colleagues concluded that the dam's changed flow benefited grasses but did not benefit trees. The graph evidence should therefore show grass cover increasing while forest cover fails to increase."
     },
     {
-      "title": "Match the meaning",
-      "content": "<strong>Grass cover increased from 1987 to 1993 and from 1993 to 2006, whereas forest cover decreased in those periods.</strong> directly shows the vegetation pattern that supports the claim."
+      "title": "Pick the contrasting trend",
+      "content": "A gives isolated extremes, B compares grass with forest in each year, and C compares each cover type with bare soil. The data that best support the conclusion show grass cover rising from 1987 to 1993 to 2006 while forest cover falls. The answer is <strong>D</strong>."
     }
   ]
 }

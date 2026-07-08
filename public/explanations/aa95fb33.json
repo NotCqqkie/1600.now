@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize the vertical shift transformation",
-      "content": "The equation $y = f(x) + 5$ represents a vertical translation of the original function. Adding 5 to $f(x)$ shifts every point on the graph upward by exactly 5 units. If a point $(x, y)$ lies on the original graph, then $(x, y+5)$ lies on the transformed graph."
+      "title": "Use the vertical shift",
+      "content": "The graph of $y=f(x)+5$ is the graph of $y=f(x)$ shifted up $5$ units. Every point keeps the same $x$-coordinate, and its $y$-coordinate increases by $5$. The shape and domain stay the same."
     },
     {
-      "title": "Identify the horizontal asymptote transformation",
-      "content": "From the given graph, the original function $f(x)$ approaches $y = 0$ as $x$ increases (the horizontal asymptote is at $y = 0$). When we add 5 to the function, this asymptote shifts upward by 5 units. The new horizontal asymptote is therefore $y = 0 + 5 = 5$."
+      "title": "Check the asymptote",
+      "content": "The original graph approaches $y=0$. After shifting up $5$ units, the transformed graph approaches<br/>$$y=0+5=5$$<br/>So the matching graph must have horizontal asymptote $y=5$."
     },
     {
-      "title": "Eliminate choices and verify",
-      "content": "<strong>Check asymptote location:</strong><ul><li><strong>Choice A &mdash; • Moving from left to right:\n• The curve passes from quadrant 1 to quadrant 4.\n• The curve trends down sharply to $x = 3$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = -5$.\n• The curve passes through the following points:\n• $(2, -0.5)$\n• $(3, -2)$\n• $(6, -3.5)$</strong>: asymptote at $y = -5$ ✗</li><li><strong>Choice B &mdash; • Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 1$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 0$.\n• The curve passes through the following points:\n• $(2, 0.9)$\n• $(3, 0.6)$\n• $(6, 0.3)$</strong>: asymptote at $y = 0$ ✗</li><li><strong>Choice C &mdash; • Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 2$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 0$.\n• The curve passes through the following points:\n• $(2, 7)$\n• $\\left(3, \\frac{14}{3}\\right)$\n• $\\left(6, \\frac{7}{3}\\right)$</strong>: asymptote at $y = 0$ ✗</li><li><strong>Choice D &mdash; • Moving from left to right:\n• The curve is shown in quadrant 1.\n• The curve trends down sharply to $x = 3$.\n• The curve then trends down gradually.\n• As x increases, the curve approaches the line $y = 5$.\n• The curve passes through the following points:\n• $\\left(2, \\frac{19}{2}\\right)$\n• $(3, 8)$\n• $\\left(6, \\frac{13}{2}\\right)$</strong>: asymptote at $y = 5$ ✓</li></ul><strong>Verify with a point:</strong> At $x = 3$, the original graph shows $f(3) \\approx 3$. After the transformation, $(3, 3+5) = (3, 8)$. Choice D lists the point $(3, 8)$, confirming our answer. That is the correct answer.",
+      "title": "Verify a listed point",
+      "content": "The original graph includes the point $(3,3)$. After shifting up $5$ units, that point becomes<br/>$$(3,3+5)=(3,8)$$<br/>Choices with asymptote $y=0$ or $y=-5$ cannot match this vertical shift of the whole graph. This listed point and the horizontal asymptote match the same graph. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "y=5"
       ]

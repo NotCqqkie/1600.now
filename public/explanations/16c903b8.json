@@ -1,0 +1,15 @@
+{
+  "questionId": "16c903b8",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the common factor",
+      "content": "A factor of the whole expression must divide every term. The coefficients $4$, $52$, and $28$ are all divisible by $4$."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "Factor $4$ out of each term:<br/>$$4x^2+52x+28=4(x^2+13x+7)$$<br/>So $4$ is a factor. The answer is <strong>C</strong>."
+    }
+  ]
+}

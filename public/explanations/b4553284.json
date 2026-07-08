@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve for $x$",
-      "content": "From $3x=18$, divide both sides by $3$: $$x=6.$$"
+      "title": "Solve for x",
+      "content": "Divide both sides of $3x=18$ by $3$ first:\n$$\nx=6\n$$"
     },
     {
-      "title": "Evaluate $8x$",
-      "content": "Now multiply by $8$: $$8x=8(6)=48.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The requested value is <strong>48</strong>. The question asks for $8x$, so stopping at $x=6$ would answer only an intermediate step. Always finish with the expression named in the question."
+      "title": "Evaluate the expression",
+      "content": "Now multiply by $8$:\n$$\n8x=8(6)=48\n$$\nThe answer is <strong>48</strong>."
     }
   ]
 }

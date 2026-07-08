@@ -1,0 +1,19 @@
+{
+  "questionId": "a92829ce",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the listed point",
+      "content": "Substitute $(7,0)$ into both inequalities. For the first inequality,<br/>$$0\\le 7+15$$<br/>$$0\\le 22$$<br/>This is true."
+    },
+    {
+      "title": "Check the second inequality",
+      "content": "For the second inequality, use the same point.<br/>$$0\\ge -4(7)-15$$<br/>$$0\\ge -43$$<br/>This is also true, so the point satisfies the system. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y = x + 15",
+        "y = -4x - 15"
+      ]
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Undo division by 42",
-      "content": "The equation is $$\\frac{r}{42}=s+t$$ To isolate $r$, multiply both sides by $42$."
+      "title": "Undo the division",
+      "content": "The variable $r$ is divided by $42$, so multiply both sides by $42$.<br/>$$\\frac{r}{42}=s+t$$<br/>$$r=42(s+t)$$"
     },
     {
-      "title": "Solve for r",
-      "content": "$$r=42(s+t)$$ Keep $s+t$ in parentheses because the $42$ multiplies the entire right side."
-    },
-    {
-      "title": "Check the choices",
-      "content": "Choice C (&lsquo;$r=42 \\left(s+t\\right)$&rsquo;) is $r=42(s+t)$, so it is correct. The other choices add or subtract $42$, and an incorrect response divides by $42$ again instead of undoing the division."
+      "title": "Keep the sum grouped",
+      "content": "The entire quantity $s+t$ is multiplied by $42$, so the expression must keep that sum in parentheses.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

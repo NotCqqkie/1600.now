@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Define May sales",
+      "title": "Define the May sales",
       "content": "Let $S$ be the number of sales in May. April sales were $12$ more than $3$ times May sales, so April sales were $3S+12$."
     },
     {
-      "title": "Use the total",
-      "content": "Together, April and May had $356$ sales: $S+(3S+12)=356$."
+      "title": "Use the total sales",
+      "content": "April and May together had $356$ sales.\n$$S+(3S+12)=356$$"
     },
     {
-      "title": "Solve",
-      "content": "$4S+12=356$, so $4S=344$ and $S=86$. The dealer completed <strong>86</strong> sales in May."
+      "title": "Find May sales",
+      "content": "Solve the equation.\n$$4S+12=356$$\n$$4S=344$$\n$$S=86$$\nThe answer is <strong>86</strong>."
     }
   ]
 }

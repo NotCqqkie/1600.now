@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage states that for TRAPPIST planets, the orbital period must equal the rotational period of each planet. The example must demonstrate this principle for TRAPPIST-1e using the table data."
+      "title": "Match equal periods",
+      "content": "The text says each TRAPPIST-1 planet has an orbital period equal to its rotational period. The example must use table data for TRAPPIST-1e that show this equality."
     },
     {
-      "title": "Apply the signal to the table data",
-      "content": "The matching choice demonstrates the principle: it states TRAPPIST-1e's orbital period as 6.1 days (from the table) and confirms the rotational period is also 6.1 days.<br/><br/>A and C reference different planets' orbital periods (TRAPPIST-1b's 1.51 days and TRAPPIST-1f's 9.21 days), while D gets the orbital period right but contradicts the principle by giving a different rotational period (0.92 days).<br/><br/><strong>B</strong> is correct."
+      "title": "Reject mismatched examples",
+      "content": "Choice A uses 1.51 days and a shortest-period claim. Choice C uses 9.21 days and refers to TRAPPIST-1f. Choice D gives unequal periods by pairing 6.1 days with 0.92 days. The matching data give equal 6.1-day periods. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "75f1abfa",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Solve the first equation",
+      "content": "Start with the linear equation.<br/>$$x+3=12$$<br/>$$x=9$$"
+    },
+    {
+      "title": "Find y from x",
+      "content": "Substitute $x=9$ into the second equation to find the matching $y$-coordinate.<br/>$$(x+3)^2=y$$<br/>$$(9+3)^2=y$$<br/>$$144=y$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

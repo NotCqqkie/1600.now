@@ -1,0 +1,25 @@
+{
+  "questionId": "8f36afbb",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the discriminant test",
+      "content": "A quadratic equation has no real solutions when its discriminant is negative. For $ax^2+bx+c=0$, the discriminant is<br/>$$b^2-4ac$$"
+    },
+    {
+      "title": "Check the only negative case",
+      "content": "For the equation $-2x^2+2x-2=0$, use $a=-2$, $b=2$, and $c=-2$.<br/>$$b^2-4ac=2^2-4(-2)(-2)=4-16=-12$$<br/>Since $-12\\lt 0$, this equation has no real solutions."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graphing the left side of each choice shows only one parabola with no $x$-intercepts. That matches the negative discriminant calculation above. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=-2x^2",
+        "y=-2x^2+2",
+        "y=-2x^2+2x",
+        "y=-2x^2+2x-2"
+      ]
+    }
+  ]
+}

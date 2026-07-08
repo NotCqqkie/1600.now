@@ -1,0 +1,15 @@
+{
+  "questionId": "ece98697",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the coefficient",
+      "content": "The equation is in slope-intercept form, $y=mx+b$. The slope is the coefficient of $x$."
+    },
+    {
+      "title": "Identify the slope",
+      "content": "In $y=\\frac{8}{15}x$, the coefficient of $x$ is $\\frac{8}{15}$. The answer is <strong>C</strong>."
+    }
+  ]
+}

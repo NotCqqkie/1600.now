@@ -1,0 +1,15 @@
+{
+  "questionId": "01cabcd3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate a complex list",
+      "content": "The sentence lists three deserts, and each list item includes an internal comma before its ranking. When list items already contain commas, semicolons are used to separate the major items clearly."
+    },
+    {
+      "title": "Reject broken list punctuation",
+      "content": "Choice A runs the first two items together. Choice C wrongly separates a desert from its ranking. Choice D mixes the semicolon and comma in a way that breaks the series. The remaining choice uses semicolons between the desert-and-ranking items. The answer is <strong>B</strong>."
+    }
+  ]
+}

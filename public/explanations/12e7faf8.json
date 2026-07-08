@@ -5,11 +5,15 @@
   "steps": [
     {
       "title": "Factor the numerator",
-      "content": "To simplify the fraction, factor $x^2 + 6x - 16$. We need two numbers that multiply to $-16$ and add to $6$. Those numbers are $8$ and $-2$, giving us: $$x^2 + 6x - 16 = (x + 8)(x - 2)$$"
+      "content": "Find two numbers that multiply to $-16$ and add to $6$. Those numbers are $8$ and $-2$.<br/>$$x^2+6x-16=(x+8)(x-2)$$"
     },
     {
-      "title": "Cancel the common factor and identify coefficients",
-      "content": "Substitute the factored form into the original expression: $$\\frac{(x + 8)(x - 2)}{x + 8} = x - 2$$ for all $x \\neq -8$. Comparing to the form $ax + d$, we identify $a = 1$ and $d = -2$. Therefore, $a + d = 1 + (-2) = -1$. That matches <strong>Choice C &mdash; $-1$</strong>."
+      "title": "Cancel the common factor",
+      "content": "For $x\\ne -8$, the common factor $x+8$ can be canceled.<br/>$$\\frac{x^2+6x-16}{x+8}=\\frac{(x+8)(x-2)}{x+8}=x-2$$"
+    },
+    {
+      "title": "Find the coefficient sum",
+      "content": "Compare $x-2$ with $ax+d$.<br/>$$a=1$$<br/>$$d=-2$$<br/>$$a+d=1+(-2)=-1$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

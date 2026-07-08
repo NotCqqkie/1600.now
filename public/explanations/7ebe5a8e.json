@@ -1,0 +1,15 @@
+{
+  "questionId": "7ebe5a8e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the goal",
+      "content": "The student wants an example of a vegetable that contains vitamin C. The notes say asparagus is a vegetable, contains ascorbic acid, and ascorbic acid is vitamin C."
+    },
+    {
+      "title": "Name the example",
+      "content": "A and D discuss how humans get vitamin C but name no specific vegetable. B focuses on animals and human bodies. The choice that names asparagus and identifies vitamin C meets the goal. The answer is <strong>C</strong>."
+    }
+  ]
+}

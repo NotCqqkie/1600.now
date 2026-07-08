@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use corresponding angles",
-      "content": "When two triangles are similar, corresponding angles are equal. The problem states that $\\angle A$ corresponds to $\\angle D$, so $\\angle A = \\angle D$."
+      "content": "Similar triangles have equal corresponding angles. The problem states that angle $A$ corresponds to angle $D$, so those two angles have the same measure."
     },
     {
-      "title": "Apply the sine equality",
-      "content": "Equal angles have equal sine values, so:<br/>$$\\sin(A)=\\sin(D)$$<br/>Since $\\sin(A)=\\frac{252}{277}$, it follows that $\\sin(D)=\\frac{252}{277}$. That confirms <strong>B</strong> is correct."
+      "title": "Match the sine values",
+      "content": "Equal angles have equal sine values.<br/>$$\\sin(D)=\\sin(A)=\\frac{252}{277}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

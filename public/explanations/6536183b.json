@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the hypothesis claims",
-      "content": "The researchers hypothesize that the plants <em>depend</em> on acid-dissolving rock for two reasons: (1) it creates growth channels and (2) it releases phosphates for nutrition. To support this, a finding must show that the plants actively dissolve rock even when there is an easier alternative &mdash; proving the behavior is purposeful, not just opportunistic. Eliminate choices that are irrelevant to the mechanism or that contradict the hypothesis.<ul><li><strong>Choice A &mdash; &lsquo;Other species in the Velloziaceae family are found in terrains with more soil but have root structures similar to those of <em>B. tomentosa</em> and <em>B. macrantha</em>.&rsquo;</strong>: Relates to other species&apos; anatomy in different terrain. Does not show whether the two studied plants dissolve rock on purpose. &#10007;</li><li><strong>Choice B &mdash; &lsquo;Though <em>B. tomentosa</em> and <em>B. macrantha</em> both secrete citric and malic acids, each species produces the acids in different proportions.&rsquo;</strong>: Notes a difference between the two species&apos; acid ratios. Does not address whether dissolving rock is necessary or advantageous for either. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The roots of <em>B. tomentosa</em> and <em>B. macrantha</em> carve new entry points into rocks even when cracks in the surface are readily available.&rsquo;</strong>: Shows the plants bypass the easy path and dissolve rock anyway &mdash; directly implying they gain something (e.g., phosphates) that makes the effort worthwhile. This supports the hypothesis. &#10003;</li><li><strong>Choice D &mdash; &lsquo;<em>B. tomentosa</em> and <em>B. macrantha</em> thrive even when transferred to the surfaces of rocks that do not contain phosphates.&rsquo;</strong>: Contradicts the hypothesis: if the plants thrive without phosphates, releasing phosphates through acid-dissolving may not be the critical benefit. &#10007;</li></ul>"
+      "title": "Test the rock-dissolving claim",
+      "content": "The hypothesis says the plants depend on acids to dissolve rock, both to make growth channels and to release phosphates. Strong support would show the roots actively carving into rock even when an easier physical path already exists. That would suggest the behavior is beneficial rather than merely a response to blocked surfaces."
     },
     {
-      "title": "Match the finding to the hypothesis",
-      "content": "The only finding that shows the plants <em>choose</em> to dissolve rock over a simpler alternative is C. That choice directly supports the hypothesis that acid-dissolving is purposeful and necessary. That confirms <strong>C</strong> is correct."
+      "title": "Reject weak support",
+      "content": "A discusses other species in different terrain. B compares acid proportions without showing why dissolving rock matters. D says the plants thrive on rocks without phosphates, which undercuts the nutrition part of the hypothesis. The remaining finding shows the roots make new openings even when cracks are available, supporting purposeful rock dissolution. The answer is <strong>C</strong>."
     }
   ]
 }

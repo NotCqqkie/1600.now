@@ -1,0 +1,19 @@
+{
+  "questionId": "31247051",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Summarize the full structure",
+      "content": "The passage introduces the silversword alliance as a Hawaiian plant family and gives an example species, <em>Argyroxiphium sandwicense</em>. It then describes the alliance's unusual variety, including vines, shrubs, and trees. Finally, it explains that all members descended from one ancestral tarweed and diversified while adapting to different island habitats."
+    },
+    {
+      "title": "Reject too broad or narrow choices",
+      "content": "<ul><li><strong>Choice A - To advance the claim that all plants on the Hawaiian Islands are part of the silversword alliance and list possible ancestors of the plants that make up the alliance</strong>: the text says the alliance grows only in Hawaii, not that all Hawaiian plants belong to it.</li><li><strong>Choice B - To indicate the specific tarweed ancestor of all plants that grow on the Hawaiian Islands and explain why the plants have such varied physical characteristics</strong>: the ancestor is for the alliance only, and no specific tarweed species is named.</li></ul>"
+    },
+    {
+      "title": "Choose the full purpose",
+      "content": "<ul><li><strong>Choice C - To describe the silversword alliance and explain how the plant family became so varied</strong>: this matches both the description and the diversification explanation.</li><li><strong>Choice D - To describe the specific habitat where <em>Argyroxiphium sandwicense</em> are found and identify other plants that share a common ancestor with them</strong>: no specific habitat is described.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

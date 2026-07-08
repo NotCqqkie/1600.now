@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$\\frac{1}{2}y = 4$$<br/>$$x - \\frac{1}{2}y = 2$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Add the equations",
+      "content": "Add the two equations so the $y$-terms cancel.<br/>$$\\frac{1}{2}y+x-\\frac{1}{2}y=4+2$$"
+    },
+    {
+      "title": "Read the remaining variable",
+      "content": "After cancellation, the equation is<br/>$$x=6$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the intersection's $x$-coordinate. The answer is <strong>D</strong>.",
       "desmosExpressions": [
         "\\frac{1}{2}y = 4",
         "x - \\frac{1}{2}y = 2"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>D</strong>, $6$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

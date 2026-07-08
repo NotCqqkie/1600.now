@@ -1,0 +1,15 @@
+{
+  "questionId": "42da5f88",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the target expression",
+      "content": "The target expression contains the same quantity as the given equation.<br/>$$-27-3x=-3(9+x)$$"
+    },
+    {
+      "title": "Use the given value",
+      "content": "Since $9+x=6$, substitute $6$ into the factored expression.<br/>$$-3(9+x)=-3(6)$$<br/>$$-3(6)=-18$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

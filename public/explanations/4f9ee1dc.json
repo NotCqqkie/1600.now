@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the shared location",
-      "content": "The notes identify both the Kemp's ridley and olive ridley as sea turtles found in the Atlantic Ocean. This geographic similarity is the key fact to emphasize."
+      "title": "Use the shared Atlantic fact",
+      "content": "The student wants to emphasize a similarity between the Kemp's ridley and olive ridley sea turtles. The notes state that both are among the sea turtle species found in the Atlantic Ocean."
     },
     {
-      "title": "Match similarity to the answer choices",
-      "content": "The correct answer opens with “Both” and states these two species share the Atlantic Ocean.<br/><br/>The other three fail to emphasize similarity: <ul><li>A focuses on only one species</li><li>B uses “while” to contrast their scientific names</li><li>D explicitly calls them “different species</li></ul>.” <strong>C</strong> is correct."
+      "title": "Reject nonshared details",
+      "content": "Choice A discusses only the olive ridley. Choice B contrasts scientific names rather than emphasizing a similarity. Choice D explicitly says the turtles are different species. The sentence that uses both and names the shared Atlantic location best meets the goal. The answer is <strong>C</strong>."
     }
   ]
 }

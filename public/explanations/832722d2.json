@@ -1,0 +1,16 @@
+{
+  "questionId": "832722d2",
+  "correctAnswer": "64",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the cube volume formula",
+      "content": "For a cube, the length, width, and height are all equal. If the edge length is $s$, the volume is the product of the three equal edge lengths.",
+      "formula": "$$V = s^3$$"
+    },
+    {
+      "title": "Substitute the edge length",
+      "content": "With edge length $s=4$ inches, cube the edge length to find the volume in cubic inches.<br/>$$V=4^3=4\\cdot4\\cdot4=64$$<br/>The answer is <strong>64</strong>."
+    }
+  ]
+}

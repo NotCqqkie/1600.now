@@ -1,0 +1,15 @@
+{
+  "questionId": "e5790446",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the common factor",
+      "content": "The terms $35x$ and $42$ share a greatest common factor of $7$. Factor $7$ out of both terms."
+    },
+    {
+      "title": "Factor the expression",
+      "content": "Divide each term by $7$ inside the parentheses:\n$$\n35x+42=7(5x+6)\n$$\nThis expression is equivalent to the original. The answer is <strong>D</strong>."
+    }
+  ]
+}

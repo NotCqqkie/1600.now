@@ -1,0 +1,19 @@
+{
+  "questionId": "fdb98a3f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Locate the matching angle",
+      "content": "Triangle $RST$ is similar to triangle $UVW$, and $T$ corresponds to $W$. Therefore $\\tan W=\\tan T$."
+    },
+    {
+      "title": "Identify the legs",
+      "content": "Since $480^2+140^2=500^2$, side $TR$ is the hypotenuse and the right angle is at $S$. For angle $T$, the opposite leg is $RS=480$ and the adjacent leg is $ST=140$."
+    },
+    {
+      "title": "Compute the tangent",
+      "content": "Use opposite over adjacent.<br/>$$\\tan W=\\tan T=\\frac{480}{140}=\\frac{24}{7}$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

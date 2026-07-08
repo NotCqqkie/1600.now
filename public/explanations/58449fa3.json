@@ -1,0 +1,15 @@
+{
+  "questionId": "58449fa3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare the three measures",
+      "content": "The student wants to compare tribal economic activity with other industries in 2017. The table includes total contribution, employment, and average economic contribution per employee, so the supported claim must match those data."
+    },
+    {
+      "title": "Check the supported metric",
+      "content": "A is too broad because tribal activity is not highest in every measure. B is false because construction employed more people. C is false because construction had a lower total contribution. Tribal activity has the highest average contribution per employee. The answer is <strong>D</strong>."
+    }
+  ]
+}

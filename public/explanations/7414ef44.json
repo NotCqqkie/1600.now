@@ -1,0 +1,15 @@
+{
+  "questionId": "7414ef44",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the two methods",
+      "content": "Seismic monitoring narrows down roughly where an impact happened, then orbital imaging examines that limited area to locate the crater precisely. Each method does a different part of the work."
+    },
+    {
+      "title": "Name the relationship",
+      "content": "A would mean the methods duplicate each other. B would mean they cover everything. D would mean either method could replace the other. The relationship is that they work together. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the conclusion assumes",
-      "content": "The conclusion claims the venom evolved because it “mitigates risk during feeding.” For this to be true, E. coli must be an actual threat during feeding."
+      "title": "Identify what support requires",
+      "content": "Ortega and colleagues conclude the venom mitigates risk during feeding. Supporting evidence must show that <em>E. coli</em> can be a real feeding risk for <em>C. granosus</em>."
     },
     {
-      "title": "Match the threat to the choices",
-      "content": "B establishes that E. coli is a genuine threat: it's frequently found in the prey and can survive the scorpion's digestive system, making it a real feeding risk.<br/><br/>A denies E. coli is harmful, C suggests the scorpion avoids infected prey rather than relying on venom protection, and D addresses unrelated bacteria.<br/><br/><strong>B</strong> is correct."
+      "title": "Compare the findings",
+      "content": "Choice A weakens the risk; Choice C says the scorpion tends to avoid infected prey; Choice D concerns nonpathogenic bacteria. Choice B shows <em>E. coli</em> occurs in prey and can survive digestion. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "0dfbfd74",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Clarify the missing time",
+      "content": "The first sentence describes a gap in the rock record. The next sentence clarifies that time still passed and that sediment was likely removed by erosion and weathering."
+    },
+    {
+      "title": "Use an obvious clarification",
+      "content": "\"Of course\" fits because the second sentence states an obvious clarification about the gap. A introduces a specific example, B signals contradiction, and D signals result, none of which matches the relationship. The answer is <strong>C</strong>."
+    }
+  ]
+}

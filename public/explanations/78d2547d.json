@@ -1,0 +1,15 @@
+{
+  "questionId": "78d2547d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept point",
+      "content": "The point $(0,-6)$ is on the line, so it must satisfy $Ax+By=11$. Substituting this point removes the $A$ term.\n\n$$A(0)+B(-6)=11$$"
+    },
+    {
+      "title": "Solve for the coefficient",
+      "content": "Now isolate $B$.\n\n$$-6B=11$$\n\n$$B=-\\frac{11}{6}$$\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

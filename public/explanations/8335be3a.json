@@ -1,0 +1,19 @@
+{
+  "questionId": "8335be3a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect meat to behavior",
+      "content": "The student wants evidence that cultured meat production may help respond to an expected widespread change in public behavior. Since cultured meat is intended to reduce reliance on livestock harvested for food, the strongest support should identify a broad change in people's meat consumption that would increase demand."
+    },
+    {
+      "title": "Reject unrelated support",
+      "content": "Choice A concerns consumer beliefs about packaging, which is environmental but not a change in eating behavior. Choice B describes why meat flavor differs across animals and conditions, not why demand may rise. Choice D discusses a possible environmental advantage of lab-grown meat, but it does not identify the expected public behavior shift."
+    },
+    {
+      "title": "Use the demand shift",
+      "content": "Choice C states that a growing population is increasingly consuming more meat and will contribute to increasing demand for meat products. That directly supplies the expected widespread behavioral change: people eating more meat. Cultured meat could be useful because it offers another way to meet that rising demand without relying entirely on livestock. The answer is <strong>C</strong>."
+    }
+  ]
+}

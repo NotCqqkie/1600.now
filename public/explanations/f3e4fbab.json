@@ -1,0 +1,16 @@
+{
+  "questionId": "f3e4fbab",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the given slope",
+      "content": "Line $p$ is written as $y=5x+\\frac{1}{8}$, so its slope is $5$."
+    },
+    {
+      "title": "Use the negative reciprocal",
+      "content": "Perpendicular lines have slopes that are negative reciprocals. The negative reciprocal of $5$ is\n$$\n-\\frac{1}{5}\n$$\nThe answer is <strong>B</strong>.",
+      "formula": "$$m_{\\text{perp}} = -\\frac{1}{m}$$"
+    }
+  ]
+}

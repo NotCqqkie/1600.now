@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two independent clauses",
-      "content": "The sentence has two independent clauses joined at the blank: <em>It is generally true that technological change is a linear process, in which once-useful technologies are replaced by new and better ones</em> and <em>the reawakening of interest in the steam engine (from advocates of carbon-neutral rail travel) reminds us that ostensibly obsolete technologies may be brought back into service to address society&rsquo;s changing needs</em>. The transition word &ldquo;even so&rdquo; must link them with the right punctuation."
+      "title": "Separate the clauses",
+      "content": "The sentence joins two independent clauses: one says technological change is generally linear, and the next says renewed interest in steam engines shows obsolete technologies can return."
     },
     {
-      "title": "Test each choice for correct semicolon placement",
-      "content": "A semicolon must come before a conjunctive adverb (like &ldquo;even so&rdquo;), and a comma follows it &mdash; that is the only standard pattern.<ul><li><strong>Choice A — ones, even so;</strong>: places the semicolon after &ldquo;even so,&rdquo; which attaches it to the wrong clause and produces an illogical sentence. &#10007;</li><li><strong>Choice B — ones even so,</strong>: omits the semicolon entirely, creating a run-on sentence. &#10007;</li><li><strong>Choice C — ones; even so,</strong>: correctly places the semicolon after &ldquo;ones&rdquo; and a comma after &ldquo;even so,&rdquo; joining the two independent clauses in standard fashion. &#10003;</li><li><strong>Choice D — ones, even so,</strong>: uses only commas, creating a comma splice without a coordinating conjunction. &#10007;</li></ul><strong>C</strong> is correct."
+      "title": "Punctuate even so",
+      "content": "Choice A puts the semicolon after the transition. Choice B omits the needed semicolon. Choice D uses only commas, creating a comma splice. A conjunctive adverb between independent clauses needs a semicolon before it and a comma after it. The answer is <strong>C</strong>."
     }
   ]
 }

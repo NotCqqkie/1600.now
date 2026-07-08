@@ -1,0 +1,15 @@
+{
+  "questionId": "40b8ff0d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write each round total",
+      "content": "Each first-round correct response is worth $3$ points, so $f$ of them are worth $3f$ points. Each second-round correct response is worth $7$ points, so $s$ of them are worth $7s$ points."
+    },
+    {
+      "title": "Use at least points",
+      "content": "The contestant needs at least $120$ points, so the total must be greater than or equal to $120$.\n$$3f+7s\\ge120$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

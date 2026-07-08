@@ -1,0 +1,22 @@
+{
+  "questionId": "b91a7c4f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the given line",
+      "content": "A system has no solution when the two lines are parallel and distinct. Rewrite the given equation:\n$$3x=45y-27$$\n$$45y=3x+27$$\n$$y=\\frac{x}{15}+\\frac{3}{5}$$\nSo the second line needs slope $\\frac{1}{15}$ and a different intercept.",
+      "desmosExpressions": [
+        "y=\\frac{x}{15}+\\frac{3}{5}"
+      ]
+    },
+    {
+      "title": "Find the parallel choice",
+      "content": "Rewrite the matching second equation:\n$$\\frac{1}{3}x=5y$$\n$$y=\\frac{x}{15}$$\nThis has the same slope and a different $y$-intercept, so the system has no solution. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "y=\\frac{x}{15}",
+        "y=\\frac{x}{15}+\\frac{3}{5}"
+      ]
+    }
+  ]
+}

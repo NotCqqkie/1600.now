@@ -1,0 +1,19 @@
+{
+  "questionId": "390a14cc",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the slope and intercept",
+      "content": "A linear function can be written in slope-intercept form, where $m$ is the slope and $b$ is the value when $x=0$."
+    },
+    {
+      "title": "Write the function rule",
+      "content": "The slope is $74$, so $m=74$. Also, $f(0)=5$, so the vertical intercept is $b=5$. Therefore,<br/>$$f(x)=74x+5$$"
+    },
+    {
+      "title": "Choose the matching equation",
+      "content": "The only equation with slope $74$ and intercept $5$ is the matching choice. The answer is <strong>D</strong>."
+    }
+  ]
+}

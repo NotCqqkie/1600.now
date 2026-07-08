@@ -1,0 +1,15 @@
+{
+  "questionId": "be47a094",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable",
+      "content": "The equation is $k+21=63$. To get $k$ by itself, undo the added $21$ by subtracting $21$ from both sides."
+    },
+    {
+      "title": "Compute the value",
+      "content": "After subtracting, the equation becomes $$k=63-21=42$$ The solution is $42$, which satisfies the original equation because $42+21=63$. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "9be6299b",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input value",
+      "content": "To find $f(3)$, replace $x$ with $3$ in the function:<br/>$$f(3)=5(3-3)+7$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Evaluate inside the parentheses first, then multiply:<br/>$$5(3-3)+7=5(0)+7=0+7$$"
+    },
+    {
+      "title": "State the function value",
+      "content": "The value of the expression is $7$. The answer is <strong>7</strong>."
+    }
+  ]
+}

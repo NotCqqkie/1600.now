@@ -1,0 +1,15 @@
+{
+  "questionId": "b3e1a0fd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the repeated expression",
+      "content": "The expression $2x+11$ appears twice. Subtract $4(2x+11)$ from both sides to leave only one copy of that repeated expression:<br/>$$6(2x+11)-4(2x+11)=86$$<br/>$$2(2x+11)=86$$"
+    },
+    {
+      "title": "Compute the requested value",
+      "content": "Divide both sides by $2$:<br/>$$2x+11=43$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

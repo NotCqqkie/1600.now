@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the product",
-      "content": "The function gives the product of $x$ and a number that is $84$ more than $x$. The second number is $(x+84)$, so we write: $$f(x) = x(x+84)$$"
+      "title": "Write the product",
+      "content": "The other number is $84$ more than $x$, so it is $x+84$. The function gives the product of the two numbers.<br/>$$f(x)=x(x+84)$$"
     },
     {
-      "title": "Expand using the distributive property",
-      "content": "$$f(x) = x(x+84) = x \\cdot x + x \\cdot 84 = x^2 + 84x$$ That confirms <strong>C</strong> is correct."
+      "title": "Expand the product",
+      "content": "Distribute $x$ to both terms inside the parentheses.<br/>$$x(x+84)=x^2+84x$$<br/>So $f(x)=x^2+84x$. The answer is <strong>C</strong>."
     }
   ]
 }

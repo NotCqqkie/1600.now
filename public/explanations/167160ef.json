@@ -1,0 +1,15 @@
+{
+  "questionId": "167160ef",
+  "correctAnswer": "552",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find weekly savings",
+      "content": "Maya saves $\\frac{4}{5}$ of $230$ dollars each week.<br/>$$\\frac{4}{5}\\cdot230=184$$"
+    },
+    {
+      "title": "Multiply by three weeks",
+      "content": "Multiply the weekly savings by $3$.<br/>$$184\\cdot3=552$$<br/>The answer is <strong>552</strong>."
+    }
+  ]
+}

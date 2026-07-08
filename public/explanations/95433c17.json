@@ -1,0 +1,15 @@
+{
+  "questionId": "95433c17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the coordinate meanings",
+      "content": "The problem defines $x$ as length and $y$ as width. A point $(x,y)$ on the graph gives one possible length-width pair."
+    },
+    {
+      "title": "Interpret the point",
+      "content": "For $(4,9)$, the $x$-coordinate is $4$ and the $y$-coordinate is $9$. So the length is $4$ meters and the width is $9$ meters. The answer is <strong>C</strong>."
+    }
+  ]
+}

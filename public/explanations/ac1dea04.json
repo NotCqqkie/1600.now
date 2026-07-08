@@ -1,0 +1,15 @@
+{
+  "questionId": "ac1dea04",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Isolate the variable",
+      "content": "Subtract $42$ from both sides of the equation."
+    },
+    {
+      "title": "Find the matching equation",
+      "content": "$$x+42=150$$$$x=108$$The equation with the same solution is $x=108$. The answer is <strong>C</strong>."
+    }
+  ]
+}

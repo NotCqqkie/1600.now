@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Eliminate wrong choices",
-      "content": "<ul><li><strong>Choice A — synchronized offbeats tend to give a song swing regardless of whether downbeats are delayed.</strong>: The researchers changed both downbeats and offbeats together, so there is no basis for crediting offbeat synchronization alone. &#10007;</li><li><strong>Choice B — the acoustic properties that give a song swing are not easy for jazz musicians to manipulate.</strong>: The passage doesn't mention whether jazz musicians can easily manipulate the acoustic properties that produce swing, so there is no basis for this inference. &#10007;</li><li><strong>Choice C — jazz songs that feature the piano are more likely to have swing than are jazz songs that do not feature the piano.</strong>: The study tested only piano solos and never compared them to non-piano songs. &#10007;</li><li><strong>Choice D — the timing of downbeats and offbeats may play a crucial role in giving a song swing.</strong>: Modifying exactly that timing produced a more-than-sevenfold increase in swing perception, which is strong evidence that timing is a key factor. &#10003;</li></ul>"
+      "title": "Link timing change to swing",
+      "content": "The researchers changed timing by delaying downbeats and synchronizing offbeats. Jazz musicians were then much more likely to judge the modified versions as having swing."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The experiment manipulated downbeat and offbeat timing and found a dramatic increase in perceived swing, so timing is the logical causal candidate. <strong>D</strong> is correct."
+      "title": "Reject unsupported inferences",
+      "content": "Choice A credits offbeats alone even though both timing features changed. Choice B discusses whether musicians can manipulate properties, which is not tested. Choice C adds an unsupported comparison between piano and non-piano music. The result points to beat timing as crucial. The answer is <strong>D</strong>."
     }
   ]
 }

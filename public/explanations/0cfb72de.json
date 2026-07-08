@@ -1,0 +1,15 @@
+{
+  "questionId": "0cfb72de",
+  "correctAnswer": "15",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the given quantity",
+      "content": "The question asks for $3(x+2)$, and the given equation says $x+2=5$."
+    },
+    {
+      "title": "Multiply by three",
+      "content": "Substitute $5$ for $x+2$.\n$$3(x+2)=3(5)=15$$\nThe answer is <strong>15</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the core claim about quantities",
-      "content": "The astronomers specifically state that planets contain “equal or smaller quantities” of the materials found in their host stars."
+      "title": "Target the quantity claim",
+      "content": "The astronomers claim that planets are made of the same materials as their host stars in equal or smaller quantities."
     },
     {
-      "title": "Find evidence that directly contradicts this relationship",
-      "content": "<strong>Choice C &mdash; Evidence emerges that the amount of iron in some rocky planets is considerably higher than the amount in their host star.</strong> directly contradicts the claim by showing a rocky planet contains considerably more iron than its host star.<br/><br/>The other choices either reinforce the shared-materials foundation or question methodology for non-rocky planets, neither addressing the core quantity relationship.<br/><br/>That matches <strong>Choice C &mdash; Evidence emerges that the amount of iron in some rocky planets is considerably higher than the amount in their host star.</strong>."
+      "title": "Find the direct contradiction",
+      "content": "A and B discuss stars without showing a planet-star quantity conflict; D questions a method but not the claim. Planets with considerably more iron than their host stars would directly break the \"equal or smaller\" relationship. The answer is <strong>C</strong>."
     }
   ]
 }

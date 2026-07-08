@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the scope signal",
-      "content": "The sentence says Moreno's contributions &quot;are ______&quot; and then lists four distinct accomplishments: linguistics professor, bilingual poet, author of the first Tohono O'odham grammar book, and co-founder of the American Indian Language Development Institute. Four varied roles across academic, literary, scholarly, and institutional domains signal that the blank should describe breadth and scale."
+      "title": "Use the list of accomplishments",
+      "content": "The colon introduces evidence for the description of Moreno's contributions. The list includes professorship, poetry, a grammar book, and co-founding an institute, showing breadth across several areas of linguistics and language work."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; pragmatic</strong>: means concerned with practical matters rather than intellectual or artistic ones; the list includes poetry and co-founding an institute, which are not purely practical, so this does not fit. &#10007;</li><li><strong>Choice B &mdash; controversial</strong>: means causing dispute; nothing in the passage suggests Moreno's accomplishments are disputed or divisive. &#10007;</li><li><strong>Choice C &mdash; extensive</strong>: means having wide or considerable scope; four accomplishments across four distinct domains directly support this claim. &#10003;</li><li><strong>Choice D &mdash; universal</strong>: means covering everything in a category; a grammar book for one specific language and work at a single institute do not constitute coverage of all of linguistics. &#10007;</li></ul>That matches <strong>Choice C &mdash; extensive</strong>."
+      "title": "Reject mismatched descriptors",
+      "content": "<ul><li>Choice A means practical, but the sentence emphasizes scope, not practicality.</li><li>Choice B means disputed, and nothing suggests controversy.</li><li>Choice D means applying everywhere, which is too broad for accomplishments tied to specific roles and institutions.</li></ul>The answer is <strong>C</strong>."
     }
   ]
 }

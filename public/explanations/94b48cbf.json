@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the x-intercept and y-intercept",
-      "content": "To find the x-intercept (where $y=0$), substitute $y=0$ into $9x+4y=-37$:<br/>$$9x + 4(0) = -37$$<br/>$$9x = -37$$<br/>$$x = -\\frac{37}{9}$$<br/>So $a = -\\frac{37}{9}$.<br/><br/>To find the y-intercept (where $x=0$), substitute $x=0$:<br/>$$9(0) + 4y = -37$$<br/>$$4y = -37$$<br/>$$y = -\\frac{37}{4}$$<br/>So $b = -\\frac{37}{4}$."
+      "title": "Find both intercepts",
+      "content": "Set $y=0$ to find $a$, and set $x=0$ to find $b$.<br/>$$9a+4(0)=-37$$<br/>$$a=-\\frac{37}{9}$$<br/>$$9(0)+4b=-37$$<br/>$$b=-\\frac{37}{4}$$"
     },
     {
-      "title": "Compute the ratio b/a",
-      "content": "Now calculate $\\frac{b}{a}$:<br/>$$\\frac{b}{a} = \\frac{-37/4}{-37/9}$$<br/>Multiply by the reciprocal:<br/>$$= \\frac{-37}{4} \\cdot \\frac{9}{-37}$$<br/>Cancel the common factor $-37$:<br/>$$= \\frac{9}{4}$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Divide the intercepts",
+      "content": "$$\\frac{b}{a}=\\frac{-\\frac{37}{4}}{-\\frac{37}{9}}$$<br/>$$\\frac{b}{a}=-\\frac{37}{4}\\cdot -\\frac{9}{37}=\\frac{9}{4}$$<br/>The ratio matches the required value. The answer is <strong>D</strong>."
     }
   ]
 }

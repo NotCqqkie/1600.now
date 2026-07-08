@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the temporal clause structure",
-      "content": "The blank appears in a dependent clause introduced by “By the time,” and the main clause uses past perfect tense (“had drastically increased”), showing the increase was already complete at that point."
+      "title": "Use the time marker",
+      "content": "The sentence begins with \"By the time,\" so the blank must fit a past point by which another past action had already happened. The phrase \"had drastically increased\" shows that the cattle population had already increased at that point."
     },
     {
-      "title": "Apply the sequence of tenses",
-      "content": "The sequence of tenses rule requires simple past when the main clause is in past perfect, which is what <strong>“ascended”</strong> provides.<br/><br/>The other three options use future, present, and present progressive tenses respectively, each violating tense consistency.<br/><br/>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Eliminate tense errors",
+      "content": "Choice B, \"will ascend,\" uses future tense, but the sentence describes past events. Choice C, \"ascends,\" uses present tense, and Choice D, \"is ascending,\" uses present progressive tense; neither fits the past-tense context. Choice A, \"ascended,\" uses simple past tense, which correctly identifies the past point when the cattle population had already increased. The answer is <strong>A</strong>."
     }
   ]
 }

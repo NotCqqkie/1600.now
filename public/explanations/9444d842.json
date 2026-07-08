@@ -1,0 +1,15 @@
+{
+  "questionId": "9444d842",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate a complex list",
+      "content": "After <em>These included</em>, the sentence lists Celtic art elements: intricate patterns that often held symbolic significance, depictions of animals, and inlaid enamel accents. Because the list contains internal commas, stronger separators keep the items clear."
+    },
+    {
+      "title": "Keep the list connected",
+      "content": "Choice A wrongly ends the sentence mid-list. Choice B uses a colon where the list is already underway. Choice D uses only a comma, making the complex series harder to parse. The remaining choice uses a semicolon between list elements. The answer is <strong>C</strong>."
+    }
+  ]
+}

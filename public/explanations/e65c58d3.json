@@ -1,0 +1,19 @@
+{
+  "questionId": "e65c58d3",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the initial count",
+      "content": "At $t=0$, the bacteria count is $15{,}000$. Substitute this into $P=C(2)^{rt}$.<br/>$$15{,}000=C(2)^{r(0)}$$<br/>$$15{,}000=C$$"
+    },
+    {
+      "title": "Use the doubled count",
+      "content": "After $6$ hours, the count is $30{,}000$. Substitute $C=15{,}000$.<br/>$$30{,}000=15{,}000(2)^{6r}$$<br/>$$2=2^{6r}$$"
+    },
+    {
+      "title": "Match the exponents",
+      "content": "Since $2=2^1$, the exponents must match.<br/>$$1=6r$$<br/>$$r=\\frac{1}{6}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

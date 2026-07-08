@@ -1,0 +1,15 @@
+{
+  "questionId": "94aa3f0b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the clauses",
+      "content": "The first clause says that the sand at Balos Beach is a more unusual shade. The next clause explains the cause: deposits of crushed coral and other organic matter lend the sand a pink hue. The word \"though\" works as a transition after the first clause, so the punctuation must separate the two independent clauses."
+    },
+    {
+      "title": "Eliminate the choices",
+      "content": "<ul><li><strong>Choice A - shade, though</strong>: This makes \"though deposits of crushed coral and other organic matter lend the sand a unique pink hue\" a dependent clause, but the sentence needs a separate independent clause that explains the unusual shade.</li><li><strong>Choice B - shade: though</strong>: A colon does not correctly introduce the transition \"though\" before the next clause.</li><li><strong>Choice C - shade, though,</strong>: The comma after \"though\" leaves only a comma between the two independent clauses.</li><li><strong>Choice D - shade, though;</strong>: The comma places \"though\" after the first independent clause, and the semicolon separates that clause from the next independent clause.</li></ul>The answer is <strong>D</strong>."
+    }
+  ]
+}

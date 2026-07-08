@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find slope and $y$-intercept signs",
-      "content": "The points trend downward — slope is negative. So we want a model of the form $y = b - 0.1x$ or $y = b - x$, with $b$ being the $y$-intercept."
+      "title": "Use the trend direction",
+      "content": "The scatterplot trends downward from left to right, so the linear model should have a negative slope. This eliminates the choices with positive slope."
     },
     {
-      "title": "Read the intercept from the graph",
-      "content": "At $x = 0$, $y$ is around $90$, not $80$ — that rules out A and B. The slope is gentle ($-0.1$), not $-1$ — A would drop too fast.<br/><br/>$y = 90 - 0.1x$ matches the trend. That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Match the intercept",
+      "content": "The data are centered around a negative $y$-intercept near $-14.7$, and the slope is about $-10$. The matching model is<br/>$$y=-14.7-10x$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

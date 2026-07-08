@@ -1,0 +1,15 @@
+{
+  "questionId": "54ffd93e",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the refuting result",
+      "content": "The assumption was that both formation and collapse temperatures vary with molecular properties. The 2023 study confirmed variation for formation temperature, but found collapse temperature was nearly independent of material and fluid properties."
+    },
+    {
+      "title": "Use the contradictory finding",
+      "content": "Choice A treats a confirmed finding as a contradiction. Choice B says collapse temperature varies, opposite of the notes. Choice D mentions consistency but frames the old hypothesis as only about formation temperature, so it misses the refutation. The choice stating that collapse temperature does not vary with material and fluid properties directly counters the old view. The answer is <strong>C</strong>."
+    }
+  ]
+}

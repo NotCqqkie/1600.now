@@ -1,0 +1,19 @@
+{
+  "questionId": "cab66bf3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for different gap sizes",
+      "content": "The statement says spoilers increased enjoyment for every story, but the size of that increase varied. The best pair must show noticeably different spoiled-versus-unspoiled gaps, not merely two stories with similar effects."
+    },
+    {
+      "title": "Reject similar comparisons",
+      "content": "Choice A and Choice D pair stories that do not best show a strong contrast in gap size. Choice C pairs stories that do not illustrate the clearest variation because their spoiler-effect gaps are not the most contrasting pair."
+    },
+    {
+      "title": "Choose the clearest contrast",
+      "content": "Choice B pairs <em>Owl Creek Bridge</em> and <em>A Chess Problem</em>, which show contrasting gap sizes between spoiled and unspoiled enjoyment ratings. That best illustrates how the degree of the spoiler effect varied. The answer is <strong>B</strong>."
+    }
+  ]
+}

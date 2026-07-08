@@ -1,0 +1,15 @@
+{
+  "questionId": "ce15eb0b",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb slot",
+      "content": "Taken by P.H. Polk is an introductory modifier, and the photo is the subject of the main clause. The blank must supply a finite verb for that subject."
+    },
+    {
+      "title": "Reject nonfinite forms",
+      "content": "A, B, and D are nonfinite verb forms, so they cannot serve as the main verb of the clause. The finite verb shows agrees with the singular subject photo and completes the sentence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the retail price from the wholesale price",
-      "content": "The retail price is 285% of the wholesale price of \\$8.00.<br/>$$\\text{Retail price} = 285\\% \\times 8 = 2.85 \\times 8 = 22.8 \\text{ dollars}$$"
+      "title": "Find the retail price",
+      "content": "The retail price is $285\\%$ of 8 dollars.\n$$\n8(285/100)=114/5\n$$"
     },
     {
-      "title": "Apply the 80% discount to find the discounted price",
-      "content": "A discount of 80% off means the customer pays only 20% of the retail price (since $100\\% - 80\\% = 20\\%$).<br/>$$\\text{Discounted price} = 20\\% \\times 22.8 = 0.2 \\times 22.8 = 4.56 \\text{ dollars}$$<br/>The discounted price of each keychain is <strong>\\$4.56</strong>, which is equivalent to the fraction <strong>114/25</strong>. Either form (4.56 or 114/25) may be entered as the student-produced response."
+      "title": "Apply the discount",
+      "content": "An $80\\%$ discount means the remaining price is $20\\%$ of the retail price.\n$$\n(20/100)(114/5)=114/25\n$$\nThe answer is <strong>114/25</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "5d59f623",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the consequence",
+      "content": "The first sentence identifies a limitation of the Curiosity rover: it could not preserve samples for later analysis. The second sentence says the Perseverance team tried to build a mechanism that could preserve samples, so the transition should mark a result."
+    },
+    {
+      "title": "Reject time and similarity cues",
+      "content": "Choice A wrongly places the action earlier. Choice B would introduce a specific detail of the same idea, but the second sentence gives a response to the limitation. Choice C suggests similarity, though Perseverance was designed to do what Curiosity could not. The answer is <strong>D</strong>."
+    }
+  ]
+}

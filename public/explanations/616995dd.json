@@ -1,0 +1,20 @@
+{
+  "questionId": "616995dd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use isosceles geometry to set up a right triangle",
+      "content": "Triangle JKL is isosceles with JK = KL and base JL = 60. When we drop a perpendicular from apex K to the base JL, it bisects the base at point M. Therefore, JM = 30."
+    },
+    {
+      "title": "Apply the tangent ratio to find the height",
+      "content": "In right triangle JKM, the angle at J has a tangent ratio of opposite over adjacent:<br/>$$\\tan J = \\frac{KM}{JM}$$<br/>Substituting $\\tan J = \\frac{3}{10}$ and $JM = 30$:<br/>$$\\frac{KM}{30} = \\frac{3}{10}$$<br/>Therefore, KM = 9 units.",
+      "formula": "$$\\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$"
+    },
+    {
+      "title": "Calculate the area using base and height",
+      "content": "The area of the triangle is:<br/>$$\\text{Area} = \\frac{1}{2} \\times 60 \\times 9 = 270$$<br/><strong>B</strong> is correct."
+    }
+  ]
+}

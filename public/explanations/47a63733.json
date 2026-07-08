@@ -1,0 +1,15 @@
+{
+  "questionId": "47a63733",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map definition, benefits, example",
+      "content": "The passage identifies community science as collaboration between professional scientists and amateur enthusiasts. It then lists benefits of that approach and finishes by mentioning a butterfly study that depended on it."
+    },
+    {
+      "title": "Reject missing passage moves",
+      "content": "Choice A mentions public opinion, which the passage does not discuss. Choice B makes the butterfly study the main topic. Choice C invents development history and future projects. The definition, benefits, and study example sequence fits. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the fitted line",
-      "content": "The question asks for the value predicted by the line of best fit, not the value of a nearby dot. At $x=25.5$, read vertically up to the fitted line."
+      "title": "Use the fitted line",
+      "content": "The question asks for the value predicted by the line of best fit, so read the line rather than a nearby data point."
     },
     {
-      "title": "Choose the closest value",
-      "content": "The fitted line is a little above $8$ and below $8.5$ at $x=25.5$. The closest answer choice is $8.2$, so <strong>C</strong> is correct."
+      "title": "Read the predicted value",
+      "content": "At $x=25.5$, the fitted line is a little above $8$ and below $8.5$. The closest listed value is $8.2$. The answer is <strong>C</strong>."
     }
   ]
 }

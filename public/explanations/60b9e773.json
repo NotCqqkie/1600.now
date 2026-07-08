@@ -1,0 +1,19 @@
+{
+  "questionId": "60b9e773",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Keep the parallel slope",
+      "content": "Line $k$ has equation\n$$y=4x-5$$\nso its slope is $4$. A line parallel to it must also have slope $4$."
+    },
+    {
+      "title": "Use the given point",
+      "content": "Line $j$ has the form $y=4x+b$ and passes through $(0,2)$.\n$$2=4(0)+b$$\n$$b=2$$"
+    },
+    {
+      "title": "Write the line equation",
+      "content": "The equation for line $j$ is\n$$y=4x+2$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

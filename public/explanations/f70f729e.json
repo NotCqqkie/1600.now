@@ -1,0 +1,23 @@
+{
+  "questionId": "f70f729e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the system",
+      "content": "Distribute the constants in each equation:<br/>$$5(4x)+3(6y)=18$$<br/>$$20x+18y=18$$<br/>$$-5(4x)+3(6y)=18$$<br/>$$-20x+18y=18$$"
+    },
+    {
+      "title": "Add to find y",
+      "content": "Add the equations to eliminate $x$:<br/>$$(20x+18y)+(-20x+18y)=18+18$$<br/>$$36y=36$$<br/>$$y=1$$"
+    },
+    {
+      "title": "Subtract to find x",
+      "content": "Subtract the second equation from the first:<br/>$$(20x+18y)-(-20x+18y)=18-18$$<br/>$$40x=0$$<br/>$$x=0$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Now substitute $x=0$ and $y=1$:<br/>$$4x+6y=4(0)+6(1)=6$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

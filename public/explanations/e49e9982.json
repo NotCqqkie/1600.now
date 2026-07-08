@@ -1,0 +1,15 @@
+{
+  "questionId": "e49e9982",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the optional action",
+      "content": "The passage says discoverers may name minor planets, but they are not required to do so. The blank therefore needs a word meaning allowed but optional."
+    },
+    {
+      "title": "Reject opposite meanings",
+      "content": "Choice B means not feasible, but the example shows naming can happen. Choice C means selective, which does not express permission. Choice D means required, directly contradicting the passage. The remaining word means permitted. The answer is <strong>A</strong>."
+    }
+  ]
+}

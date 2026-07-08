@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Recognize when linear equations have infinitely many solutions",
-      "content": "For a linear equation to have infinitely many solutions, both sides must be identical. This means the coefficients of $x$ must be equal <strong>and</strong> the constant terms must be equal."
+      "title": "Use identical sides",
+      "content": "A linear equation has infinitely many solutions when the two sides are identical for every value of $x$."
     },
     {
-      "title": "Match constant terms on both sides",
-      "content": "In the equation $4x + 28 = 4x + k$, the $x$ coefficients are already equal (both are $4$). For the two sides to be identical, the constants must also be equal:<br/>$$28 = k$$<br/>Therefore, $k = 28$."
+      "title": "Match the constants",
+      "content": "The $4x$ terms already match, so the constants must also match.<br/>$$4x+28=4x+k$$<br/>Thus $k$ must equal $28$. The answer is <strong>28</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "cfc2b7cf",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Treat the gerund as singular",
+      "content": "The subject is the gerund phrase \"Having proportionally large populations.\" A gerund phrase functions as a singular noun, even though it contains the plural word \"populations.\""
+    },
+    {
+      "title": "Reject plural verbs",
+      "content": "Choice B is plural and past tense. Choice C is plural present tense. Choice D is plural present perfect. The sentence needs a singular present-tense verb after the gerund subject. The answer is <strong>A</strong>."
+    }
+  ]
+}

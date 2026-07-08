@@ -1,0 +1,15 @@
+{
+  "questionId": "857fea97",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the vertical shift rule",
+      "content": "Shifting a graph up by $8$ units adds $8$ to every output value."
+    },
+    {
+      "title": "Apply the shift",
+      "content": "Since $f(x)=4x^2$, the shifted function is<br/>$$g(x)=f(x)+8=4x^2+8$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

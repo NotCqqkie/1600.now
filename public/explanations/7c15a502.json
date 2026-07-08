@@ -1,0 +1,15 @@
+{
+  "questionId": "7c15a502",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use a comma after the opener",
+      "content": "The opening clause begins with \"Though,\" so it is dependent and cannot stand alone. It introduces the independent clause \"the mission was actually the ninety-fourth flight.\" When a dependent clause comes before an independent clause, a comma separates them."
+    },
+    {
+      "title": "Reject faulty boundaries",
+      "content": "<ul><li><strong>Choice A</strong> adds \"and,\" incorrectly joining a dependent clause as if it were independent.</li><li><strong>Choice B</strong> puts a period after a dependent clause, creating a fragment.</li><li><strong>Choice C</strong> gives no punctuation between the dependent and independent clauses.</li></ul>The remaining choice supplies the needed comma before \"the mission.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

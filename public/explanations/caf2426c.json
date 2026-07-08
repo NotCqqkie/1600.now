@@ -1,0 +1,15 @@
+{
+  "questionId": "caf2426c",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match input to output",
+      "content": "For an ordered pair that satisfies $y=f(x)$, the first coordinate is the input and the second coordinate is the output."
+    },
+    {
+      "title": "Read the function value",
+      "content": "The pair $(6,4)$ means that when the input is $6$, the output is $4$. Therefore, $f(6)=4$. The answer is <strong>A</strong>."
+    }
+  ]
+}

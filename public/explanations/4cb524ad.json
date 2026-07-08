@@ -1,0 +1,15 @@
+{
+  "questionId": "4cb524ad",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the logical link",
+      "content": "The first part of the sentence says the Conservatory pairs underwater audio with data tracking rising carbon levels in seagrass. As carbon levels increase, the audio is distorted in corresponding ways. The second part says listeners can hear the changes in carbon levels. That second idea is a result of the audio distortion, not a comparison, example, or additional unrelated point."
+    },
+    {
+      "title": "Test the transitions",
+      "content": "Choice A, by comparison, would signal that the sentence is contrasting or comparing two things, but the second clause follows from the first. Choice C, for instance, would introduce an example, though the clause is not giving a sample of a larger category. Choice D, furthermore, would merely add another point. The needed transition signals consequence: because the audio changes with the carbon data, listeners can hear those changes. The answer is <strong>B</strong>."
+    }
+  ]
+}

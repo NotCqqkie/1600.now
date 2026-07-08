@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the passage's problem-solution structure",
-      "content": "The passage presents a problem: the soil's tough crust prevents seeds from germinating. It then introduces birds as potentially helpful. The underlined portion immediately follows this setup—positioned to answer the implicit question: <em>how do these birds actually help?</em>"
+      "title": "Connect birds to seedlings",
+      "content": "The text first says Atacama Desert soil has a tough crust that makes germination hard. It then says local birds help by churning soil and exposing buried seeds to moisture and nutrients. The underlined portion explains the mechanism behind that help."
     },
     {
-      "title": "Determine what the underlined portion explains",
-      "content": "The underlined portion states that birds “churn the soil, exposing buried seeds to moisture and nutrients”—this directly explains the mechanism by which their digging promotes germination.<br/><br/>The other choices focus on different aspects: <ul><li>A on the crust problem</li><li>B on seed deposition</li><li>C on bird motivation</li></ul>.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Reject other functions",
+      "content": "Choice A focuses only on the crust, not the birds' helpful action. Choice B says the underlined portion explains seed deposition, but it describes exposing buried seeds. Choice C asks why birds dig nests, which the underlined portion does not address."
+    },
+    {
+      "title": "State the bird mechanism",
+      "content": "The remaining choice correctly says the underlined portion explains how certain birds promote seed germination in the desert soil. The answer is <strong>D</strong>."
     }
   ]
 }

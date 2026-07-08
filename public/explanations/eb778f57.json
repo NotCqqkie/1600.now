@@ -1,0 +1,15 @@
+{
+  "questionId": "eb778f57",
+  "correctAnswer": "46",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Plug $x=3$ into $f(x)=x^3+19$. This is the requested input, so the function value will be $f(3)$.\n$f(3)=3^3+19$"
+    },
+    {
+      "title": "Compute the function value",
+      "content": "Evaluate the power first, then add.\n$f(3)=27+19=46$\nThe output is $46$. The answer is <strong>46</strong>."
+    }
+  ]
+}

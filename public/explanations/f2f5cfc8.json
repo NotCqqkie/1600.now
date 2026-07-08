@@ -1,0 +1,23 @@
+{
+  "questionId": "f2f5cfc8",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the two points",
+      "content": "The two function values give the points $(0,0)$ and $(11,5)$. Since the function is linear, these two points determine the equation."
+    },
+    {
+      "title": "Find the slope",
+      "content": "Compute the slope between the two points.<br/>$$m=\\frac{5-0}{11-0}=\\frac{5}{11}$$<br/>Because the line passes through $(0,0)$, the intercept is $0$, so<br/>$$h(x)=\\frac{5}{11}x$$"
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The plotted points lie on the line with slope $\\frac{5}{11}$ and intercept $0$. A direct check gives<br/>$$h(11)=\\frac{5}{11}(11)=5$$<br/>The answer is <strong>A</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,11]",
+        "y_1=[0,5]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "033a8fc4",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare dates",
+      "content": "The passage says the Centro de Arte de las Americas was founded in 1991, while Plaza de Cultura y Artes del Suroeste opened in 2011. That gives a clear date-based contrast between the two institutions."
+    },
+    {
+      "title": "Avoid missing details",
+      "content": "A mentions visitor numbers, B mentions collection size, and C mentions building size, but the passage does not compare the institutions on any of those points. The only stated contrast is that the Phoenix institution opened later. The answer is <strong>D</strong>."
+    }
+  ]
+}

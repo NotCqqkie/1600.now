@@ -1,0 +1,19 @@
+{
+  "questionId": "846c4e20",
+  "correctAnswer": "34500",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Define the groups",
+      "content": "Let $U$, $G$, and $P$ be the three groups. The relationships are $U=0.725P$, $G=0.44U$, and $G=6{,}380$."
+    },
+    {
+      "title": "Find each count",
+      "content": "First find $U$: $U=\\frac{6{,}380}{0.44}=14{,}500$. Then find $P$: $P=\\frac{14{,}500}{0.725}=20{,}000$."
+    },
+    {
+      "title": "Add the counts",
+      "content": "The requested sum is $14{,}500+20{,}000=34{,}500$. The answer is <strong>34500</strong>."
+    }
+  ]
+}

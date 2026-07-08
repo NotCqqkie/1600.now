@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sampling method and its significance",
-      "content": "The organizer selected 55 teams <strong>at random</strong> from all trivia teams in the tournament. Random selection from a population is the key principle that determines generalizability: a random sample is representative of the population it was drawn from."
+      "title": "Find the sampled population",
+      "content": "The organizer selected $55$ teams at random from all trivia teams in the tournament. A random sample can be generalized back to the population it was selected from, not just to the teams shown in a later table."
     },
     {
-      "title": "Recognize what the table represents",
-      "content": "The table displays results for only 40 of the 55 teams—specifically those that practiced at least 3 hours per week. This is a subset of the original random sample, but it remains part of that random sample."
+      "title": "Separate sample from table",
+      "content": "The table shows information for only $40$ teams in the sample that practiced at least $3$ hours per week. That table restriction does not change the population from which the original random sample was selected."
     },
     {
-      "title": "Apply the generalization principle",
-      "content": "Because the original 55 teams were randomly selected from the tournament, results based on any subset of those 55 teams can be generalized to the tournament population.<br/><br/>The random selection ensures the sample (and its subsets) are representative of the tournament, regardless of the restriction shown in the table."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<div class=\"callout\"><strong>Choice A &mdash; &lsquo;All trivia teams in the tournament that scored $14$ or more points in the round&rsquo;</strong>: Restricts to teams scoring 14+ points — the study's sampling method (random selection) wasn't designed to target only high-scoring teams.<br/><br/><strong>Choice B &mdash; &lsquo;The $55$ trivia teams in the sample&rsquo;</strong>: Only includes the 55 teams, not the tournament — the sample of 55 came FROM the tournament, not the other way around.<br/><br/><strong>Choice C &mdash; &lsquo;The $40$ trivia teams in the sample that practiced for at least $3$ hours per week&rsquo;</strong>: Only the 40 teams in the table — this is too narrow; the table is a filtered view of the larger random sample.<br/><br/><strong>Choice D &mdash; &lsquo;All trivia teams in the tournament&rsquo;</strong>: All tournament teams — the original random selection of 55 teams from the tournament ensures results can be generalized to the entire tournament population. That confirms <strong>D</strong> is correct.</div>"
+      "title": "Use the largest valid group",
+      "content": "Choice B and Choice C are samples or subsets of the sample, so they are too narrow. Choice A restricts the population by score, but the random selection was not from only teams with that score. The largest population supported by the random selection is all trivia teams in the tournament. The answer is <strong>D</strong>."
     }
   ]
 }

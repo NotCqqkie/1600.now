@@ -1,23 +1,19 @@
 {
-  "qid": "2c88af4d",
   "questionId": "2c88af4d",
   "correctAnswer": "D",
+  "section": "Math",
   "steps": [
     {
-      "title": "Subtract exponents for x (quotient rule)",
-      "content": "$$\\frac{x^{-3}}{x^{1/4}} = x^{-3 - 1/4} = x^{-12/4 - 1/4} = x^{-13/4}$$"
+      "title": "Combine the exponents",
+      "content": "Use the quotient rule on each variable:\n$$\n\\frac{x^{-3}}{x^{1/4}}=x^{-3-1/4}=x^{-13/4}\n$$\n$$\n\\frac{y^{1/2}}{y^{-1}}=y^{1/2-(-1)}=y^{3/2}\n$$"
     },
     {
-      "title": "Subtract exponents for y (quotient rule)",
-      "content": "$$\\frac{y^{1/2}}{y^{-1}} = y^{1/2 - (-1)} = y^{1/2 + 1} = y^{3/2}$$<br/>Combined: $\\dfrac{y^{3/2}}{x^{13/4}}$"
+      "title": "Rewrite with positive powers",
+      "content": "The expression becomes\n$$\n\\frac{y^{3/2}}{x^{13/4}}\n$$\nConvert the exponents to radicals:\n$$\ny^{3/2}=y\\sqrt{y}\n$$\n$$\nx^{13/4}=x^3\\sqrt[4]{x}\n$$"
     },
     {
-      "title": "Convert fractional exponents to radical notation",
-      "content": "Numerator: $y^{3/2} = y^{1+1/2} = y \\cdot \\sqrt{y}$<br/>Denominator: $x^{13/4} = x^{3+1/4} = x^3 \\cdot \\sqrt[4]{x}$<br/>Result: $\\dfrac{y\\sqrt{y}}{x^3 \\sqrt[4]{x}}$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>$\\frac{\\sqrt{y}}{\\sqrt[4]{x^3}}$. This gives $y^{1/2} / x^{3/4}$, but we need $y^{3/2} / x^{13/4}$. Eliminated.</li><li>$\\frac{y\\sqrt{y}}{\\sqrt[4]{x^3}}$. The numerator is correct, but the denominator is $x^{3/4}$, not $x^{13/4}$. Eliminated.</li><li>$\\frac{y\\sqrt{y}}{x^2\\sqrt{x}}$. The denominator is $x^{5/2}$, but we need $x^{13/4}$. Eliminated.</li><li>The matching choice: $\\frac{y\\sqrt{y}}{x^3 \\sqrt[4]{x}}$. The denominator is $x^3 \\cdot x^{1/4} = x^{13/4}$, which matches exactly. <strong>D</strong> is correct.</li></ul>"
+      "title": "Match the radical form",
+      "content": "The equivalent expression is\n$$\n\\frac{y\\sqrt{y}}{x^3\\sqrt[4]{x}}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

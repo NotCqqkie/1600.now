@@ -1,0 +1,19 @@
+{
+  "questionId": "7f621499",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the caution",
+      "content": "The researchers found that zoo chimpanzees in mid-latitude countries had lower vitamin D levels in winter than in summer. They also observed no clear effect from vitamin D supplements, but the supplement records were rare, highly varied, and poorly tracked. Therefore, their caution concerns what cannot be concluded from weak supplement data."
+    },
+    {
+      "title": "Reject unrelated conclusions",
+      "content": "Choice A compares seasonal patterns in zoo and wild chimpanzees, not whether supplements work. Choice B says the lack of an observed supplement effect may reflect data shortcomings; that is the researchers' caution itself, not the conclusion they warn against. Choice D follows from the UVB and seasonal vitamin D finding, not from the flawed supplement records."
+    },
+    {
+      "title": "Avoid overreading supplements",
+      "content": "The unsupported leap is to say supplementation has no promise as a strategy for offsetting winter reductions in vitamin D levels. Since the supplementation data were too inconsistent to support that broad negative conclusion, the researchers would caution against it. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b8bef939",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Join explanation to delay",
+      "content": "The first clause says the vessel took six days to dislodge. The next clause, 'it's as heavy as two thousand blue whales when fully loaded,' explains why its size contributed to the delay. A colon can introduce that explanatory independent clause."
+    },
+    {
+      "title": "Avoid comma splices",
+      "content": "Choice A and Choice C use only a comma before the second independent clause, creating a comma splice. Choice D leaves no proper boundary before 'it's.' The sentence needs commas around the parenthetical size phrase and a colon before the explanation. The answer is <strong>B</strong>."
+    }
+  ]
+}

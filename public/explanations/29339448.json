@@ -1,0 +1,15 @@
+{
+  "questionId": "29339448",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the curing process",
+      "content": "The student wants to describe how DLS cures 3D objects. The notes give a sequence: UV light images shape layers in liquid resin, more layers are partially cured as the object rises, and the completed object is baked."
+    },
+    {
+      "title": "Reject distorted sequences",
+      "content": "Choice A wrongly makes DLS itself pass through the dead zone. Choice B says the resin passes through the dead zone and that curing is completed there. Choice D makes the dead zone the place where UV light solidifies before baking. The remaining choice gives the clearest sequence. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key paradox",
-      "content": "The passage reveals a paradox at the heart of the study: users experienced disappointment but then employed cognitive mechanisms to reverse those feelings, showing that negative disconfirmation can actually lead to positive outcomes."
+      "title": "Capture the study's finding",
+      "content": "The study asks whether negative disconfirmation can lead to positive outcomes. Its finding is that many smart-home users used cognitive mechanisms to reduce dissonance and reverse their initial disappointment."
     },
     {
-      "title": "Match to the main idea",
-      "content": "C correctly identifies the finding: users with high expectations can feel content despite negative disconfirmation. The other three either contradict this, introduce irrelevant points, or misrepresent the research. That is the correct answer."
+      "title": "Reject mismatched summaries",
+      "content": "A contradicts the reversal of disappointment. B focuses on poorly understood expectations, which is not the finding. D says little is known about mechanisms, but the study describes mechanisms shaping reactions. The answer is <strong>C</strong>."
     }
   ]
 }

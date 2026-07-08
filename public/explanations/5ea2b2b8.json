@@ -1,0 +1,15 @@
+{
+  "questionId": "5ea2b2b8",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compare the volumes",
+      "content": "For cubes, volume scales by the cube of the linear scale factor. Since cube A has edge length $k$ times cube B's edge length, the volume ratio is\n\n$$\\frac{V_A}{V_B}=k^3$$"
+    },
+    {
+      "title": "Solve for the scale factor",
+      "content": "Use the two given volumes.\n\n$$\\frac{13{,}824}{216}=k^3$$\n\n$$64=k^3$$\n\n$$4=k$$\n\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

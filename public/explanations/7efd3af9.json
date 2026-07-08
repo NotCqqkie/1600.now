@@ -1,0 +1,15 @@
+{
+  "questionId": "7efd3af9",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the angle pair",
+      "content": "In the figure, $w$ and $z$ are opposite angles formed by the same two intersecting lines. Opposite angles like these are vertical angles."
+    },
+    {
+      "title": "Use vertical angles",
+      "content": "Vertical angles are equal, so $z$ has the same value as $w$. Since $w=128$, $z=128$. The answer is <strong>D</strong>."
+    }
+  ]
+}

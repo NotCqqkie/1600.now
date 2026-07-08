@@ -1,0 +1,19 @@
+{
+  "questionId": "e106eb76",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Move the nonmatching term",
+      "content": "Start with the given equation and move the term without $s$ to the other side:<br/>$$21qrt-3qrs+12rst=0$$<br/>$$-3qrs+12rst=-21qrt$$"
+    },
+    {
+      "title": "Factor out the target variable",
+      "content": "Both terms on the left contain $s$, so factor it out:<br/>$$s(-3qr+12rt)=-21qrt$$<br/>Then divide by the remaining factor:<br/>$$s=\\frac{-21qrt}{-3qr+12rt}$$"
+    },
+    {
+      "title": "Simplify the denominator",
+      "content": "Factor the denominator and cancel the common factors:<br/>$$s=\\frac{-21qrt}{-3r(q-4t)}=\\frac{7qt}{q-4t}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

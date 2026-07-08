@@ -1,0 +1,19 @@
+{
+  "questionId": "098ac1f7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope from the graph",
+      "content": "From the graph, line $k$ passes through $(0,2)$ and $(4,-3)$. Its slope is<br/>$$m_k=\\frac{-3-2}{4-0}=-\\frac{5}{4}$$"
+    },
+    {
+      "title": "Use the perpendicular slope",
+      "content": "A perpendicular line has the negative reciprocal slope, so line $j$ has slope $\\frac{4}{5}$."
+    },
+    {
+      "title": "Solve for the intercept",
+      "content": "Line $j$ passes through $(19,23)$. Substitute into $y=mx+b$.<br/>$$23=\\frac{4}{5}(19)+b$$<br/>$$b=23-\\frac{76}{5}=\\frac{39}{5}$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

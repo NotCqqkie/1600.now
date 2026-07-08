@@ -1,0 +1,15 @@
+{
+  "questionId": "0454fb7a",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared trait",
+      "content": "The question asks what <em>Ambopteryx</em> and <em>Yutyrannus</em> had in common. The text describes <em>Ambopteryx</em> as a winged dinosaur with feathers and says research indicates that the wingless, large <em>Yutyrannus</em> likely had feathers too."
+    },
+    {
+      "title": "Eliminate unsupported traits",
+      "content": "Choice A mentions a shared predator, which the text never discusses. Choice B is wrong because <em>Ambopteryx</em> is described as winged. Choice C is wrong because the text does not say both could fly. The shared trait named in the text is feathers. The answer is <strong>D</strong>."
+    }
+  ]
+}

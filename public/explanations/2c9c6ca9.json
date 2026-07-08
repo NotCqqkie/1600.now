@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the two clauses",
-      "content": "Clause 1: <em>&quot;In many languages, including English, these consonants are [blank]&quot;</em> — a complete independent clause once the blank is filled. Clause 2: <em>&quot;in some dialects of Mandarin, however, four such consonants are relatively common&quot;</em> — also a complete independent clause. Two independent clauses in one sentence need a semicolon (or comma + coordinating conjunction) between them.<ul><li><strong>Choice A — rare and</strong>: The conjunction &quot;and&quot; conflicts with &quot;however&quot; later in the sentence, creating an illogical double connective. &#10007;</li><li><strong>Choice B — rare,</strong>: A comma alone joining two independent clauses is a comma splice. &#10007;</li><li><strong>Choice C — rare</strong>: No punctuation between two independent clauses creates a run-on sentence. &#10007;</li><li><strong>Choice D — rare ;</strong>: A semicolon correctly separates the two independent clauses without conflicting with &quot;however.&quot; &#10003;</li></ul>"
+      "title": "Locate the clause break",
+      "content": "The sentence contrasts two independent clauses. The first says retroflex consonants are rare in many languages, including English. The second says they are relatively common in some dialects of Mandarin."
     },
     {
-      "title": "Confirm the semicolon rule",
-      "content": "A semicolon joins two closely related independent clauses — exactly what is needed here. <strong>D</strong> is correct."
+      "title": "Choose the contrast boundary",
+      "content": "Choice A joins the clauses with and, weakening the contrast and creating an awkward structure before however. Choice B gives only a comma between independent clauses. Choice C gives no punctuation before however. The answer is <strong>D</strong>."
     }
   ]
 }

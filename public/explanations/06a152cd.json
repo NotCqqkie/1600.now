@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate total ounces of blueberries needed",
-      "content": "Each scone requires 3.5 ounces, and we're making 40 scones.<br/>$$3.5 \\text{ ounces/scone} \\times 40 \\text{ scones} = 140 \\text{ ounces}$$"
+      "title": "Find total ounces",
+      "content": "Each scone needs $3.5$ ounces of blueberries, and the baker makes $40$ scones.\n\n$$3.5(40)=140$$\n\nSo the baker needs $140$ ounces."
     },
     {
-      "title": "Convert ounces to pounds",
-      "content": "The problem asks for the answer in pounds. Use the given conversion: 1 pound = 16 ounces.<br/>$$\\frac{140 \\text{ ounces}}{16 \\text{ ounces/pound}} = 8.75 \\text{ pounds}$$<br/>That matches <strong>Choice A &mdash; 8.75</strong>."
+      "title": "Convert to pounds",
+      "content": "There are $16$ ounces in $1$ pound, so divide by $16$.\n\n$$\\frac{140}{16}=8.75$$\n\nThe answer is <strong>A</strong>."
     }
   ]
 }

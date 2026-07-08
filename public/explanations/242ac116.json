@@ -1,0 +1,15 @@
+{
+  "questionId": "242ac116",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the pivot",
+      "content": "The text first gives an overview of the exhibition: its museum, its thirty North Carolina artists, and the range of artistic disciplines represented. The final sentence pivots to what makes the exhibition atypical for the Nasher Museum."
+    },
+    {
+      "title": "Reject invented purposes",
+      "content": "Choice A says the text analyzes the significance of the difference, which it does not. Choice B invents goals and an evaluation of success. Choice D says the text explains why disciplines were included, but it only lists their range. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate 6% growth into a multiplier",
-      "content": "Growth by 6% means multiplying by (100% + 6%) = 106% = 1.06 each month. Do not use 0.06 (which represents keeping only 6%, not adding 6%) or 1.6 (which represents 60% growth)."
+      "title": "Turn percent growth into a multiplier",
+      "content": "A $6\\%$ increase means each month keeps $100\\%$ of the previous total and adds $6\\%$ more:<br/>$$100\\%+6\\%=106\\%=1.06$$"
     },
     {
-      "title": "Write the exponential equation",
-      "content": "Exponential growth repeats the same multiplier each period. After $m$ months of applying the multiplier 1.06:<br/>$$c = 1,500 \\times (1.06)^m$$<br/>That matches <strong>Choice B &mdash; $c=1,500{ \\left(1.06\\right)}^{m}$</strong>.",
+      "title": "Build the exponential model",
+      "content": "The starting value is $1{,}500$, and the multiplier $1.06$ is applied once for each month $m$:<br/>$$c=1{,}500(1.06)^m$$<br/>The answer is <strong>B</strong>.",
       "formula": "$$c = c_0(1+r)^m$$"
     }
   ]

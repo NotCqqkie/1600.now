@@ -1,0 +1,15 @@
+{
+  "questionId": "602739b6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sample-size threshold",
+      "content": "The meta-analysis says researchers need at least 176 individuals to be confident that a finding of population-level handedness is not statistical noise. The 1993 gorilla study included only 2 individuals, far below that benchmark. A two-individual sample can show what those gorillas did, but not a reliable population pattern overall with confidence."
+    },
+    {
+      "title": "Reject other explanations",
+      "content": "Choice B invents different handedness standards. Choice C discusses the 1963 chimpanzee study rather than the 1993 gorilla claim. Choice D claims right-handedness is rare among gorillas, which the passage never states. The answer is <strong>A</strong>."
+    }
+  ]
+}

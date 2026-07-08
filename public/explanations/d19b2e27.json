@@ -1,0 +1,15 @@
+{
+  "questionId": "d19b2e27",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the main verb",
+      "content": "The subject is plural: <em>emulsifiers such as stearyl alcohol</em>. The blank must provide a finite verb that agrees with that subject and fits the passive meaning: emulsifiers are used to blend oil and water."
+    },
+    {
+      "title": "Reject fragments",
+      "content": "Choice A is only a past participle. Choice B is a participial phrase. Choice D creates a relative-clause construction and does not supply the needed main predicate. The answer is <strong>C</strong>."
+    }
+  ]
+}

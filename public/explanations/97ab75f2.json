@@ -1,0 +1,15 @@
+{
+  "questionId": "97ab75f2",
+  "correctAnswer": "18",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use circumference with diameter",
+      "content": "The circumference formula using diameter is:<br/>$$C=\\pi d$$<br/>The given circumference is $18\\pi$, so:<br/>$$18\\pi=\\pi d$$"
+    },
+    {
+      "title": "Find the diameter",
+      "content": "Divide both sides by $\\pi$ to isolate the diameter. The answer is <strong>18</strong>."
+    }
+  ]
+}

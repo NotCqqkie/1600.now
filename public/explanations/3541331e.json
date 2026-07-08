@@ -1,0 +1,20 @@
+{
+  "questionId": "3541331e",
+  "correctAnswer": "7056",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the faces",
+      "content": "A triangular pyramid has $4$ triangular faces. Since all $6$ edges are $84$ centimeters long, each face is an equilateral triangle with side length $84$."
+    },
+    {
+      "title": "Find the surface area",
+      "formula": "$$A_{\\text{equilateral}} = \\frac{s^2\\sqrt{3}}{4}$$",
+      "content": "The area of one face is\n$$\n\\frac{84^2\\sqrt{3}}{4}\n$$\nWith $4$ congruent faces, the total surface area is\n$$\n4\\bigl(\\frac{84^2\\sqrt{3}}{4}\\bigr)=84^2\\sqrt{3}\n$$"
+    },
+    {
+      "title": "Read the coefficient",
+      "content": "Compute the coefficient of $\\sqrt{3}$.\n$$\n84^2=7{,}056\n$$\nSo the surface area is $7{,}056\\sqrt{3}$, which means $k=7{,}056$. The answer is <strong>7056</strong>."
+    }
+  ]
+}

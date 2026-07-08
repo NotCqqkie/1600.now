@@ -1,0 +1,15 @@
+{
+  "questionId": "f26b7d70",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set the output to zero",
+      "content": "An $x$-intercept occurs when $y=0$.<br/>$0=7(\\frac{a}{4})^{x+c}-b$"
+    },
+    {
+      "title": "Analyze the exponential equation",
+      "content": "Rearrange to isolate the exponential expression.<br/>$(\\frac{a}{4})^{x+c}=\\frac{b}{7}$<br/>Because $a\\gt4$, the base is greater than $1$. A positive-base exponential function takes each positive value exactly once. Since $b$ is positive, $\\frac{b}{7}$ is positive, so there is one intersection. The answer is <strong>B</strong>."
+    }
+  ]
+}

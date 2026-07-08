@@ -1,0 +1,15 @@
+{
+  "questionId": "70da034c",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Place the parenthetical phrase",
+      "content": "The phrase \"for instance\" introduces an example inside the sentence. It should be set off with commas while keeping the opening phrase \"In a JSON file storing data about fire belly newts\" attached to the rest of the sentence."
+    },
+    {
+      "title": "Reject broken punctuation",
+      "content": "A uses a colon where no list or explanation follows. B creates a fragment before the period. C uses a semicolon after a phrase that is not an independent clause. A comma correctly introduces the parenthetical transition. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b0ffc6b7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the lower bound",
+      "content": "At least $30$ miles per hour means the speed can be $30$ or greater.\n$$x\\ge 30$$"
+    },
+    {
+      "title": "Translate the upper bound",
+      "content": "At most $70$ miles per hour means the speed can be $70$ or less.\n$$x\\le 70$$\nTogether, the bounds are\n$$30\\le x\\le 70$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

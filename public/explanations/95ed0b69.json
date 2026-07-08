@@ -1,23 +1,15 @@
 {
   "questionId": "95ed0b69",
-  "qid": "95ed0b69",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Step 1",
-      "content": "Start with the given equation: $p = \\frac{k}{5j+8}$. The goal is to isolate $5j+8$ on one side."
+      "title": "Clear the denominator",
+      "content": "Start with the given equation, then multiply both sides by $5j+8$. This moves the whole denominator out of the fraction without changing either side.<br/>$$p=\\frac{k}{5j+8}$$<br/>$$p(5j+8)=k$$"
     },
     {
-      "title": "Step 2",
-      "content": "Multiply both sides by $(5j+8)$ to remove it from the denominator: $p(5j+8) = k$."
-    },
-    {
-      "title": "Step 3",
-      "content": "Divide both sides by $p$ to isolate $5j+8$: $5j+8 = \\frac{k}{p}$."
-    },
-    {
-      "title": "Step 4",
-      "content": "Evaluate each answer choice:<ul><li><strong>Choice A &mdash; $5j+8=\\frac{k}{p}$</strong>: matches the derived result exactly. That confirms <strong>A</strong> is correct.</li><li><strong>Choice B &mdash; $5j+8=kp$</strong>: this would mean multiplying both sides by $p$ without dividing, giving $p^2(5j+8) = kp$, which is wrong. Eliminated.</li><li><strong>Choice C &mdash; $5j+8=k-p$</strong>: subtraction never appears in the algebraic manipulation. Eliminated.</li><li><strong>Choice D &mdash; $5j+8=\\frac{p}{k}$</strong>: inverts the fraction incorrectly; numerator and denominator are swapped. Eliminated.</li></ul>"
+      "title": "Isolate the expression",
+      "content": "Divide both sides by $p$.<br/>$$5j+8=\\frac{k}{p}$$<br/>The answer is <strong>A</strong>."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

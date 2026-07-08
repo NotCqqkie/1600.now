@@ -10,7 +10,6 @@ import { EmailVerificationGuard } from "@/components/auth/EmailVerificationGuard
 import { AnalyticsPageTracker } from "@/components/AnalyticsPageTracker";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LegalDisclaimer } from "@/components/brand/LegalDisclaimer";
-import { SiteFooter } from "@/components/SiteFooter";
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
@@ -847,7 +846,7 @@ const AccurateHomeSkeleton = () => (
     </header>
     <section className="relative overflow-hidden pb-[clamp(72px,7vw,108px)]">
       <HomeAmbientSkeleton />
-      <div className="relative mx-auto max-w-[860px] px-6 pt-[76px] text-center">
+      <div className="relative mx-auto max-w-[860px] px-6 pt-[46px] text-center md:pt-[110px]">
         <h1
           style={{
             fontFamily: "'Geist', system-ui, sans-serif",
@@ -2043,6 +2042,11 @@ const shouldShowRouteSkeleton = (pathname: string) => {
   );
 };
 
+const shouldHoldPreviousRouteForPreload = (pathname: string) => {
+  const parts = pathname.split("/").filter(Boolean);
+  return parts[0] === "bank" && parts.length === 3 && parts[2] !== "browse";
+};
+
 const SLOW_ROUTE_SKELETON_DELAY_MS = 500;
 
 const QuietLoading = () => (
@@ -2397,6 +2401,20 @@ const StableRoutes = () => {
     }
 
     if (!shouldShowRouteSkeleton(actualLocation.pathname)) {
+      if (shouldHoldPreviousRouteForPreload(actualLocation.pathname)) {
+        setPendingLocation(null);
+        setShowPendingSkeleton(false);
+        preloadRouteForLocation(actualLocation)
+          .catch(() => undefined)
+          .then(() => {
+            if (transitionIdRef.current !== transitionId) return;
+            setPendingLocation(null);
+            setShowPendingSkeleton(false);
+            setDisplayLocation(actualLocation);
+          });
+        return;
+      }
+
       setPendingLocation(null);
       setShowPendingSkeleton(false);
       setDisplayLocation(actualLocation);
@@ -2443,7 +2461,6 @@ const StableRoutes = () => {
       <AnalyticsPageTracker />
       <DeferredOnboardingTour />
       {renderedRoutes}
-      <SiteFooter />
       <LegalDisclaimer />
       <DeferredRootEffects />
     </>

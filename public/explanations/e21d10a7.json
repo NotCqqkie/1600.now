@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the difference and factor",
-      "content": "The time difference is $31 \\times 269 - 31 \\times 236$. Factor out 31:\n$$31(269 - 236)$$\nCalculate the difference in orbital periods:\n$$269 - 236 = 33$$"
+      "title": "Find the per-orbit difference",
+      "content": "The second moon takes $269$ days per orbit, and the first moon takes $236$ days per orbit:<br/>$$269-236=33$$"
     },
     {
-      "title": "Multiply by the number of orbits",
-      "content": "Compute the total difference:\n$$31 \\times 33 = 1023$$\nThe second moon takes 1023 more days to orbit the planet 31 times."
+      "title": "Multiply by the orbit count",
+      "content": "For $31$ orbits, multiply the per-orbit difference by $31$:<br/>$$31\\cdot33=1023$$<br/>The answer is <strong>1023</strong>."
     }
   ]
 }

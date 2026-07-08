@@ -1,0 +1,15 @@
+{
+  "questionId": "74db7099",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare ecosystems",
+      "content": "Text 1 reports non-boreal research suggesting warming benefits invasive species more than native species. Text 2 studies an Alaskan boreal site and finds no year-to-year growth response for either the native or invasive plant."
+    },
+    {
+      "title": "Limit the challenge",
+      "content": "Choice A invents a methodological problem. Choice B says Text 2 offers an alternative explanation, but it reports a null result. Choice C says Text 1's findings are invalid. Text 2 instead questions whether non-boreal findings generalize to boreal Alaska. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "d29014a5",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Shift to another moon",
+      "content": "The first two sentences describe Himalia, a Jovian moon with a prograde orbit. The next sentence moves to Carme, another Jovian moon, and describes a retrograde orbit. The transition must signal movement to a different place."
+    },
+    {
+      "title": "Reject same-point signals",
+      "content": "A would introduce an example of the previous point, but Carme has the opposite orbit type. B would narrow the prior point, not shift subjects. C would restate the prior point, but the sentence introduces different information. The answer is <strong>D</strong>."
+    }
+  ]
+}

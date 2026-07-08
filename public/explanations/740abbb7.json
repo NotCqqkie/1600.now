@@ -1,0 +1,23 @@
+{
+  "questionId": "740abbb7",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the radii",
+      "content": "The outside diameter is $60$, so the outside radius is $30$. Subtract the wall thickness to get the inside radius.\n$$\nr=30-\\frac{5}{8}=\\frac{235}{8}\n$$"
+    },
+    {
+      "title": "Set up wall volume",
+      "content": "The wall volume is the outside cylinder volume minus the inside cylinder volume.\n$$\nV=\\pi h(R^2-r^2)\n$$\n$$\nV=132\\pi(30^2-(\\frac{235}{8})^2)\n$$"
+    },
+    {
+      "title": "Compute the difference",
+      "content": "Use difference of squares for the radius part.\n$$\n30^2-(\\frac{235}{8})^2=(30-\\frac{235}{8})(30+\\frac{235}{8})\n$$\n$$\n=\\frac{5}{8}\\cdot\\frac{475}{8}=\\frac{2{,}375}{64}\n$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "Now multiply by the height and by $\\pi$.\n$$\nV=132\\pi(\\frac{2{,}375}{64})\n$$\nThis is about $15{,}391$, so the closest listed value is $15{,}389$. The answer is <strong>D</strong>."
+    }
+  ]
+}

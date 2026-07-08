@@ -1,0 +1,15 @@
+{
+  "questionId": "4d9e36e6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Stay inside the graph",
+      "content": "The graph covers organizations filing Form 990-PF and shows percentages of total penalties by violation type and year. The correct statement must be a direct comparison supported by those bar heights."
+    },
+    {
+      "title": "Reject unsupported claims",
+      "content": "A brings in Form 990 filers outside the graph. B asks about average penalties, not shown percentages. C says self-dealing penalties increased every year, but the bars do not support that trend. The supported comparison is the larger minimum-distribution penalty share in 2003 than in 2005. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "2109099a",
+  "correctAnswer": "18000",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the doubling periods",
+      "content": "From $1653$ to $1953$ is<br/>$$1953-1653=300\\text{ years}$$<br/>Since the population doubled every $75$ years, the number of doubling periods is<br/>$$\\frac{300}{75}=4$$"
+    },
+    {
+      "title": "Work backward from the final population",
+      "content": "Going backward $4$ doubling periods means dividing by $2^4$:<br/>$$\\frac{288{,}000}{2^4}=\\frac{288{,}000}{16}=18{,}000$$<br/>The answer is <strong>18000</strong>."
+    }
+  ]
+}

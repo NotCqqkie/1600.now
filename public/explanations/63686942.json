@@ -1,0 +1,15 @@
+{
+  "questionId": "63686942",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the requested location",
+      "content": "The student's goal is to specify where Caspian terns stop during migration. The relevant notes identify the Great Salt Lake and locate it in northern Utah."
+    },
+    {
+      "title": "Reject missing locations",
+      "content": "A and B describe migration or feeding without naming a place. C mentions salty waters but not the specific location where the terns stop. The answer is <strong>D</strong>."
+    }
+  ]
+}

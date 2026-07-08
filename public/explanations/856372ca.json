@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "For coordinate-circle questions, read the center and radius from the equation or graph the circle as a check. For diagram facts, mark equal radii, diameters, tangents, and arcs before doing algebra."
+      "title": "Use circle standard form",
+      "content": "A circle with center $(h,k)$ and radius $r$ has equation<br/>$$(x-h)^2+(y-k)^2=r^2$$<br/>Here the center is $(-4,9)$ and the radius is $7$. This is a direct substitution."
     },
     {
-      "title": "Use the standard circle equation",
-      "content": "A circle with center $(h,k)$ and radius $r$ has equation$$(x-h)^{2}+(y-k)^{2}=r^{2}.$$Here $(h,k)=(-4,9)$ and $r=7$, so $r^{2}=49$."
-    },
-    {
-      "title": "Substitute and simplify",
-      "content": "$$\\big(x-(-4)\\big)^{2}+(y-9)^{2}=49\\;\\Rightarrow\\;(x+4)^{2}+(y-9)^{2}=49.$$"
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li>A) $(x-4)^{2}+(y+9)^{2}=49$: center $(4,-9)$, radius 7 &mdash; wrong center.</li><li>B) $(x+4)^{2}+(y-9)^{2}=49$: center $(-4,9)$, radius 7 &mdash; matches.</li><li>C) $(x-4)^{2}+(y+9)^{2}=7$: wrong center and radius $\\sqrt{7}$.</li><li>D) $(x+4)^{2}+(y-9)^{2}=7$: correct center but radius $\\sqrt{7}$, not 7.</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Substitute center and radius",
+      "content": "Substitute $h=-4$, $k=9$, and $r^2=49$.<br/>$$(x-(-4))^2+(y-9)^2=49$$<br/>$$(x+4)^2+(y-9)^2=49$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

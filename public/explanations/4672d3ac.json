@@ -1,0 +1,19 @@
+{
+  "questionId": "4672d3ac",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use perpendicular slopes",
+      "content": "A tangent line is perpendicular to the radius at the point of tangency. Since the tangent slope is $\\frac{7}{4}$, the radius slope is\n$$\n-\\frac{4}{7}\n$$"
+    },
+    {
+      "title": "Write the radius slope",
+      "content": "The radius goes from the center $(3,10)$ to the tangency point $(a,-5)$, so its slope is\n$$\n\\frac{-5-10}{a-3}=\\frac{-15}{a-3}\n$$"
+    },
+    {
+      "title": "Solve for a",
+      "content": "Set the radius slope equal to $-\\frac{4}{7}$:\n$$\n\\frac{-15}{a-3}=-\\frac{4}{7}\n$$\n$$\n-105=-4(a-3)\n$$\n$$\na=\\frac{117}{4}\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

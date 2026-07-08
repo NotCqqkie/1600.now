@@ -1,0 +1,15 @@
+{
+  "questionId": "a9ee2901",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the layered obstacles",
+      "content": "The passage says long-distance transport has improved, but last-mile logistics remain a bottleneck. Consumer time pressure, roadway congestion, and complications from proposed innovations all continue to constrain delivery."
+    },
+    {
+      "title": "Infer the near-term result",
+      "content": "B shifts to raising expectations, C recommends an investment strategy not discussed, and D overstates drones as currently able to meet expectations. The persistent obstacles support the conclusion that companies are unlikely to overcome last-mile impediments soon. The answer is <strong>A</strong>."
+    }
+  ]
+}

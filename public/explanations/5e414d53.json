@@ -1,0 +1,15 @@
+{
+  "questionId": "5e414d53",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the examples",
+      "content": "The main clause is \"Exemplars of Stigler's law abound.\" What follows is a list of examples from philosophy, mathematics, and fluid mechanics, so the punctuation must introduce that list while keeping the fields parallel."
+    },
+    {
+      "title": "Preserve the parallel list",
+      "content": "Choice A strands \"in philosophy\" before a semicolon. Choice C treats \"in philosophy\" like a parenthetical aside instead of the first list item. Choice D puts the colon after only the philosophy field, separating it from the parallel series. The colon after the complete main clause correctly introduces the examples. The answer is <strong>B</strong>."
+    }
+  ]
+}

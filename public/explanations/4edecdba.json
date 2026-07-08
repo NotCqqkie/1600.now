@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute y = 4 into the equation",
-      "content": "We're told there are 4 select grade Buffalo Nickels in the collection, so $y = 4$. Substitute this value into the equation:<br/>$$9x + 12(4) = 174$$"
+      "title": "Substitute the nickel count",
+      "content": "The number of $1998$ select grade Buffalo Nickels is $4$, so use $y=4$ in the equation.\n$$9x+12(4)=174$$"
     },
     {
-      "title": "Solve for x by isolating it",
-      "content": "Simplify the left side:<br/>$$9x + 48 = 174$$<br/>Subtract 48 from both sides:<br/>$$9x = 126$$<br/>Divide both sides by 9:<br/>$$x = 14$$<br/>There are <strong>14</strong> premium grade Liberty Nickels in the collection."
+      "title": "Find the Liberty Nickels",
+      "content": "Solve for $x$.\n$$9x+48=174$$\n$$9x=126$$\n$$x=14$$\nThe answer is <strong>14</strong>."
     }
   ]
 }

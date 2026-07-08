@@ -1,0 +1,15 @@
+{
+  "questionId": "feca0a75",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the sequence of events",
+      "content": "Moreno first noticed that mushrooms in thermal images appeared colder than their surroundings. That observation raised questions about thermoregulation in fungi, and the later study investigated surface temperatures in several fungal species. The blank should express that the observation motivated the study."
+    },
+    {
+      "title": "Choose the causal phrase",
+      "content": "Choice A says the study was excluded by the observation, Choice B says it was acknowledged in the observation, and Choice C says it was released in the observation. The context needs a phrase meaning caused or motivated by the observation. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Count tall birch and maple trees",
-      "content": "Birch: $$4 \\times 9 = 36$$ tall birch trees.<br/>Maple: $$7 \\times 6 = 42$$ tall maple trees."
+      "title": "Count tall trees",
+      "content": "Count trees that are $20$ feet or taller. Birch: $4\\cdot 9=36$. Maple: $7\\cdot 6=42$."
     },
     {
-      "title": "Compute conditional probability",
-      "content": "Total tall trees: $$36 + 42 = 78$$.<br/>Probability maple given tall: $$\\frac{42}{78} = \\frac{7}{13}$$ after dividing numerator and denominator by $6$.<br/>That matches the correct answer - <strong>C</strong> is correct."
+      "title": "Form the probability",
+      "content": "Given the tree is at least $20$ feet tall, the total is $36+42=78$. The maple probability is $\\frac{42}{78}=\\frac{7}{13}$. The answer is <strong>C</strong>."
     }
   ]
 }

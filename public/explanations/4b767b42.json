@@ -1,0 +1,15 @@
+{
+  "questionId": "4b767b42",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square feet",
+      "content": "Square the length conversion.<br/>$$(3.28)^2=10.7584$$"
+    },
+    {
+      "title": "Convert the rate",
+      "content": "Apply both unit conversions.<br/>$$330\\cdot\\frac{1}{10.7584}\\cdot\\frac{1}{60}=0.5112$$<br/>Rounds to $0.51$. The answer is <strong>A</strong>."
+    }
+  ]
+}

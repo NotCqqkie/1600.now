@@ -1,0 +1,23 @@
+{
+  "questionId": "c792a912",
+  "correctAnswer": "450",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the total time",
+      "content": "$16$ hours is $960$ minutes."
+    },
+    {
+      "title": "Set up the system",
+      "content": "Let $f$ be minutes with a fence and $n$ be minutes without a fence:<br/>$$f+n=960$$<br/>$$1.08f+0.62n=802.20$$"
+    },
+    {
+      "title": "Substitute and solve",
+      "content": "Use $n=960-f$ in the charge equation:<br/>$$1.08f+0.62(960-f)=802.20$$<br/>$$0.46f=207$$<br/>$$f=450$$"
+    },
+    {
+      "title": "State the fenced time",
+      "content": "Mateo spends $450$ minutes mowing lawns with a fence. The answer is <strong>450</strong>."
+    }
+  ]
+}

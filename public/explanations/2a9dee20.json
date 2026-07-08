@@ -1,0 +1,15 @@
+{
+  "questionId": "2a9dee20",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "The requested input is $-4$, so replace $x$ with $-4$ in the rule for $h$. This gives an expression for the output value.<br/>$$h(-4)=5(-4)-9$$"
+    },
+    {
+      "title": "Compute the output",
+      "content": "Evaluate the multiplication first, then subtract $9$.<br/>$$h(-4)=-20-9$$<br/>$$h(-4)=-29$$<br/>The output is the value of the function at $x=-4$. The answer is <strong>D</strong>."
+    }
+  ]
+}

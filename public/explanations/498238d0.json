@@ -1,0 +1,19 @@
+{
+  "questionId": "498238d0",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the fraction",
+      "content": "Start with the given equation.<br/>$$f=\\frac{(12x)^2}{5g}$$<br/>Multiply both sides by $5g$.<br/>$$5fg=(12x)^2$$"
+    },
+    {
+      "title": "Isolate the variable term",
+      "content": "Square the factor inside the parentheses.<br/>$$(12x)^2=144x^2$$<br/>So the equation becomes<br/>$$5fg=144x^2$$<br/>Divide by $144$.<br/>$$x^2=\\frac{5fg}{144}$$"
+    },
+    {
+      "title": "Take the positive root",
+      "content": "The question says the numbers are positive, so use the positive square root.<br/>$$x=\\sqrt{\\frac{5fg}{144}}=\\frac{\\sqrt{5fg}}{12}$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

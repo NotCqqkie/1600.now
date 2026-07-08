@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Read the table values",
-      "content": "The table gives $365$ employees for warehouse stores and $130$ employees for supermarkets."
+      "content": "The table shows $365$ employees for warehouse stores and $130$ employees for supermarkets."
     },
     {
-      "title": "Find how much greater",
-      "content": "Because the question asks how much greater, subtract: $$365-130=235.$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Warehouse stores averaged $235$ more employees than supermarkets. This matches the correct answer, <strong>C</strong>."
+      "title": "Subtract the averages",
+      "content": "The question asks how much greater the warehouse-store average was, so subtract:<br/>$$365-130=235$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

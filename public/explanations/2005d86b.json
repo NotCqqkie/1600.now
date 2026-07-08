@@ -1,0 +1,15 @@
+{
+  "questionId": "2005d86b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine finding and model",
+      "content": "The text first presents Alvarez et al.'s finding: advergames can interest players but may not help them later recall product and brand information. It then explains that result with Cheng's limited capacity model, which says cognitive capacity is finite. In this case, players use their resources on the mechanics of the game, so little capacity remains for encoding and storing the advertiser's intended information."
+    },
+    {
+      "title": "Filter unsupported claims",
+      "content": "Choice A includes both necessary parts of the main idea: the Alvarez finding about weak brand and product recall and Cheng's model as the explanation for that finding. Choice B adds purchase persuasion and a direct link between engagement and buying, neither of which appears in the text. Choice C reverses the relationship by making Alvarez et al. corroborate Cheng's conclusion. Choice D invents a success strategy and wrongly says Cheng's model suggests otherwise. The answer is <strong>A</strong>."
+    }
+  ]
+}

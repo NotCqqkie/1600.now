@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use the triangle angle sum",
+      "content": "The interior angles shown are $31^\\circ$, $2b^\\circ$, and $a^\\circ$. Since $a=45$, the angle sum gives\n$$\n31+2b+45=180\n$$"
     },
     {
-      "title": "Identify the three interior angles",
-      "content": "The triangle has three interior angles: one measuring $31^{\\circ}$, one measuring $2b^{\\circ}$, and one measuring $a^{\\circ}$. We're given that $a = 45$, so the third angle is $45^{\\circ}$."
+      "title": "Isolate the unknown angle",
+      "content": "Combine constants, then isolate $b$ by subtracting $76$ and dividing by $2$.\n$$\n76+2b=180\n$$\n$$\n2b=104\n$$\n$$\nb=52\n$$"
     },
     {
-      "title": "Apply the angle sum property and solve for b",
-      "content": "The sum of all interior angles in any triangle is $180^{\\circ}$. Setting up the equation:<br/>$$31 + 2b + 45 = 180$$<br/>Combine the constants:<br/>$$76 + 2b = 180$$<br/>Subtract 76 from both sides:<br/>$$2b = 104$$<br/>Divide by 2:<br/>$$b = 52$$<br/><strong>A</strong> is correct."
+      "title": "Use the requested value",
+      "content": "The requested value is $b$, not $2b$, here. The answer is <strong>A</strong>."
     }
   ]
 }

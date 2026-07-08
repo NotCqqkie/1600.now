@@ -1,0 +1,19 @@
+{
+  "questionId": "1b95c0cf",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the paired verb",
+      "content": "The sentence pairs two examples: \"lasso\" comes from <em>lazo</em>, and \"stockade\" ______ from <em>estacada</em>. The second verb should match the simple-present form used in the first example."
+    },
+    {
+      "title": "Reject tense shifts",
+      "content": "A and B shift to future tense without reason. D uses past perfect, which implies completion before another past event and does not match the parallel structure."
+    },
+    {
+      "title": "Preserve the parallel fact",
+      "content": "Comes keeps both examples in simple present, stating a general fact about word origins. The answer is <strong>C</strong>."
+    }
+  ]
+}

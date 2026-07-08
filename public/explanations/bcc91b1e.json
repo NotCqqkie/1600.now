@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the defining action in the sentence",
-      "content": "The sentence says OSIRIS-REx &quot;successfully ______ a sample of the surface, gathering pieces of it to bring back to Earth.&quot; The phrase &quot;gathering pieces of it to bring back&quot; is a participial modifier that describes what the spacecraft did to the sample. The blank must be a verb that means acquiring or taking material from the surface.<ul><li><strong>Choice A &mdash; attached</strong>: Means fastened or joined — the spacecraft was not fastening itself to a sample. &#10007;</li><li><strong>Choice B &mdash; collected</strong>: Means gathered or acquired — directly matches &quot;gathering pieces of it to bring back to Earth.&quot; &#10003;</li><li><strong>Choice C &mdash; followed</strong>: Means went after — unrelated to sampling. &#10007;</li><li><strong>Choice D &mdash; replaced</strong>: Means substituted — implies removing and putting something else in its place, not gathering a sample. &#10007;</li></ul>"
+      "title": "Use the defining phrase",
+      "content": "The sentence explains the blank with \"gathering pieces of it to bring back to Earth.\" The needed verb must mean taking or gathering a sample from Bennu's surface."
     },
     {
-      "title": "Confirm the best fit",
-      "content": "The participial phrase immediately after the blank (&quot;gathering pieces of it to bring back to Earth&quot;) is the key: it restates the blank's meaning in plain language. Only &quot;collected&quot; aligns with gathering material for return transport. That is the correct answer."
+      "title": "Choose the gathering verb",
+      "content": "Choice A means fastened, not gathered. Choice C means went after or tracked. Choice D means substituted something for something else. The remaining choice matches the idea of gathering surface material for return to Earth. The answer is <strong>B</strong>."
     }
   ]
 }

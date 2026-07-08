@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence &mdash; Quantitative question. The researchers claim that juvenile plants gain an advantage by growing near other plants (in patches). The key baseline is that random distribution would put only ~15% of plants in patches; so supporting the claim requires data showing each species has a substantially higher percentage of juveniles in patches than that 15% baseline."
+      "title": "Compare with random distribution",
+      "content": "The researchers' claim depends on juvenile plants benefiting from growing near other plants. The baseline is that random distribution would place only about 15% of plants in vegetation patches, so supportive data should exceed that baseline. If juveniles appear in patches far more often than chance predicts, nearby plants likely improve early survival or establishment."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"For all five species, less than 75% of juvenile plants were growing in patches of vegetation.\"</strong>: Saying fewer than 75% were in patches is uninformative without comparing to the 15% baseline &mdash; it could be consistent with the claim or could actually contradict it. It does not constitute support for an advantage. &#10007;</li><li><strong>&lsquo;The species with the greatest number of juvenile plants growing in patches of vegetation was <em>H. stoechas</em>.&rsquo;</strong>: Focuses on only one species and compares species to each other rather than to the 15% expected under random distribution. Even if true, it does not show all five species benefit from patches. &#10007;</li><li><strong>&lsquo;For <em>T. libanitis</em> and <em>T. moroderi</em>, the percentage of juvenile plants growing in patches of vegetation was less than what would be expected if plants were randomly distributed.&rsquo;</strong>: Claims these species had fewer juveniles in patches than the 15% random baseline &mdash; which would actively contradict the advantage claim, not support it. &#10007;</li><li><strong>\"For each species, the percentage of juvenile plants growing in patches of vegetation was substantially higher than what would be expected if plants were randomly distributed.\"</strong>: Directly compares all five species to the 15% random baseline and shows all exceed it, demonstrating a consistent advantage for juveniles growing in patches across every species studied. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use all species",
+      "content": "A gives an upper limit without comparing to 15%. B focuses on one species and raw number rather than the pattern. C says two species were below the random expectation, which would weaken the claim. A higher-than-random percentage for every species supports it. The answer is <strong>D</strong>."
     }
   ]
 }

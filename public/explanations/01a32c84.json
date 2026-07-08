@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the sentence boundary",
-      "content": "The text contains two independent clauses at the point of the blank: one clause ends with <em>“dependent on these adjustments,”</em> and another begins with <em>“Prior to VisiCalc's release, changing a paper spreadsheet often required redoing the entire sheet by hand.”</em>"
+      "title": "Find the sentence break",
+      "content": "One independent clause ends after \"adjustments,\" and another begins with \"Prior to VisiCalc's release.\" The blank must mark that sentence boundary."
     },
     {
-      "title": "Apply the punctuation rule",
-      "content": "A period provides the required punctuation. The other choices fail: <ul><li>A creates a fused sentence with no separation</li><li>B uses only a comma (not sufficient here)</li><li>D uses the ungrammatical phrase “and prior”</li></ul>That matches <strong>Choice C &mdash; adjustments. Prior</strong>."
+      "title": "Punctuate the two clauses",
+      "content": "A fuses the sentences, B makes a comma splice, and D creates the awkward construction \"and prior.\" A period cleanly separates the complete sentences. The answer is <strong>C</strong>."
     }
   ]
 }

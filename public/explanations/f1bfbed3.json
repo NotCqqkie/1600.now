@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The question asks for the most logical completion of the text. The key facts: the two censuses reported similar counts of vertebrates, plants, and algae, so the large difference in total species must come from microorganisms. The text explains that researchers make \"consequential\" decisions about classifying microorganisms because their morphological variability is poorly understood. The blank must name the specific classification decision that drove the discrepancy."
+      "title": "Locate the source of the gap",
+      "content": "The two censuses have similar counts for vertebrates, plants, and algae, while the overall totals differ sharply. If those categories are similar across both studies, they cannot explain a near doubling in total species, so the passage points to microorganism classification as the likely source. The issue is how borderline differences are counted."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"Marín and colleagues reported a much higher number of species than Romano and Moretti did largely due to the inclusion of invertebrate species that had not been described at the time of Romano and Moretti's census.\"</strong>: Contradicts the text, which states that new invertebrate species explain only \"part\" of the difference, not the bulk of it. &#10007;</li><li><strong>\"some differences observed in microorganisms may have been treated as variations within species by Romano and Moretti but treated as indicative of distinct species by Marín and colleagues.\"</strong>: Directly names the classification decision the passage is building toward &mdash; the same organisms were split differently by each team, explaining the gap without invoking new species. &#10003;</li><li><strong>\"Romano and Moretti may have been less sensitive to the degree of morphological variation displayed within a typical species of microorganism than Marín and colleagues were.\"</strong>: Reverses the direction: lower sensitivity to within-species variation would lead to reporting more species, not fewer. Romano and Moretti reported the lower count, so they must have been more sensitive (lumping more together), not less. &#10007;</li><li><strong>\"the absence of clarity regarding how to differentiate among species of microorganisms may have resulted in Marín and colleagues underestimating the number of microorganism species.\"</strong>: Marín and colleagues reported nearly double the species, so they overestimated relative to Romano and Moretti, not underestimated. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject reversed or contradicted claims",
+      "content": "A overstates new invertebrates, C reverses the sensitivity issue, and D says Marín's team underestimated despite reporting nearly double. The gap is best explained by treating microorganism differences as species in one census but variation in another, preserving the passage's focus on researcher decisions rather than new discoveries alone. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "f8910c26",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the clause boundary",
+      "content": "The sentence joins two complete, parallel descriptions of Sokol's prints: sweatpants become a camel, and pliers become flip-flops. The blank must separate those two independent clauses correctly."
+    },
+    {
+      "title": "Reject weak separators",
+      "content": "Choice A creates a comma splice between independent clauses. Choice C suggests an interruption or aside rather than a standard clause join. Choice D uses a colon even though the second clause is a parallel example, not an introduced list."
+    },
+    {
+      "title": "Use the semicolon",
+      "content": "Choice B supplies a semicolon after <em>clothesline</em>, correctly linking the two closely related independent clauses about Sokol's surreal household images. The answer is <strong>B</strong>."
+    }
+  ]
+}

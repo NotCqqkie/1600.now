@@ -1,0 +1,19 @@
+{
+  "questionId": "ded36d3e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the percent equations",
+      "content": "Convert the given percents to decimals:\n$$\na=20.88(b+c)\n$$\n$$\nb=0.87c\n$$"
+    },
+    {
+      "title": "Rewrite in one variable",
+      "content": "Substitute $b=0.87c$ into the expression for $a$:\n$$\na=20.88(0.87c+c)\n$$\n$$\na=20.88(1.87c)\n$$\n$$\na=39.0456c\n$$"
+    },
+    {
+      "title": "Convert the ratio to a percent",
+      "content": "Find $a$ as a percent of $b$:\n$$\n\\frac{a}{b}=\\frac{39.0456c}{0.87c}=44.88\n$$\nAs a percent, this is $4{,}488\\%$. The answer is <strong>A</strong>."
+    }
+  ]
+}

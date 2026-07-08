@@ -1,0 +1,19 @@
+{
+  "questionId": "fd06f9f6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the shared debate",
+      "content": "Text 1 criticizes the word \"curry\" as colonial and inaccurate. Text 2 describes a chef who acknowledges that history but still uses the term for some dishes. Both texts focus on whether and how the term should be used."
+    },
+    {
+      "title": "Reject narrower topics",
+      "content": "A appears only as an opening example in Text 1. B is not discussed in either text. C is broad background, not the point of view shared by both texts."
+    },
+    {
+      "title": "Name the common topic",
+      "content": "Both texts present points of view about the use of the term \"curry.\" The answer is <strong>D</strong>."
+    }
+  ]
+}

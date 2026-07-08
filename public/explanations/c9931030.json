@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Label the side pair for the named angle first: opposite, adjacent, and hypotenuse. Then pick the matching shortcut, such as SOH/CAH/TOA, complementary trig values, or a special right-triangle ratio."
+      "title": "Match corresponding angles",
+      "content": "Since triangle $RST$ is similar to triangle $UVW$, angle $T$ corresponds to angle $W$. Therefore, $\\tan W=\\tan T$."
     },
     {
-      "title": "Locate the right angle and the angle equal to $W$",
-      "content": "Check the Pythagorean theorem: $32^2+60^2=4624=68^2$, so the right angle is at $S$ and $TR$ is the hypotenuse. Since $T$ corresponds to $W$, $\\tan W=\\tan T$."
-    },
-    {
-      "title": "Compute the tangent ratio",
-      "content": "For angle $T$, the opposite leg is $RS=32$ and the adjacent leg is $ST=60$. $$\\tan W=\\tan T=\\frac{32}{60}=\\frac{8}{15}.$$ That is the correct answer."
+      "title": "Find the tangent ratio",
+      "content": "The side lengths are $32$, $60$, and $68$. Since $68$ is the hypotenuse, relative to angle $T$, the opposite leg is $32$ and the adjacent leg is $60$.\n$$\\tan T=\\frac{32}{60}=\\frac{8}{15}$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the sentence boundary problem",
-      "content": "The sentence shows “she ______ the 1960 Summer Olympics in Rome, she won both the 100- and 200-meter dashes…” Two independent clauses are separated by a comma: what she accomplished during the Olympics, and what medals she won."
+      "title": "Separate independent clauses",
+      "content": "The sentence contains two independent ideas: Rudolph did not just walk, she ran fast; and during the 1960 Summer Olympics, she won multiple races. A comma alone cannot properly join those clauses."
     },
     {
-      "title": "Apply the sentence boundary rule",
-      "content": "Two independent clauses cannot be separated by a comma alone—use a period instead.<br/><br/><strong>Choice D &mdash; ran—fast. During</strong> places a period after “fast,” and capitalizes “During” to begin a new sentence: “During the 1960 Summer Olympics in Rome, she won both the 100- and 200-meter dashes…” This properly separates the two ideas.<br/><br/>Options A, B, and C maintain the comma between the two clauses, creating a comma splice.<br/><br/>That matches <strong>Choice D &mdash; ran—fast. During</strong>."
+      "title": "Use a clear sentence break",
+      "content": "Choice A uses confusing dash punctuation and still leaves a comma before the next independent clause. Choice B fuses the clauses with only a comma after the introductory phrase. Choice C creates a comma splice. The period cleanly ends the first sentence before the Olympics detail begins. The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the boundary problem",
-      "content": "The sentence reads: &quot;...Ray released his first movie, <em>Pather</em> ______ quiet black-and-white drama about a family in rural India, Ray&apos;s film was quite different...&quot; After the film title comes a descriptive phrase (&quot;a quiet black-and-white drama...&quot;), then a new independent clause (&quot;Ray&apos;s film was quite different&quot;). These need a proper sentence boundary, not a comma.<ul><li><strong>Choice A &mdash; <em>Panchali</em> a</strong>: No punctuation between the title and the next sentence &mdash; this fuses two sentences into a run-on. &#10007;</li><li><strong>Choice B &mdash; <em>Panchali</em>, which was a</strong>: Adding &quot;which was&quot; turns the phrase into a relative clause but still creates a comma splice between &quot;India&quot; and &quot;Ray&apos;s film was quite different.&quot; &#10007;</li><li><strong>Choice C &mdash; <em>Panchali</em>, a</strong>: A comma alone cannot separate two independent clauses; this is a comma splice. &#10007;</li><li><strong>Choice D &mdash; <em>Panchali</em>. A</strong>: A period correctly closes the first sentence at the title. The descriptive phrase &quot;A quiet black-and-white drama...&quot; then opens a new sentence modifying &quot;Ray&apos;s film.&quot; &#10003;</li></ul>"
+      "title": "End the first sentence",
+      "content": "The sentence first states that Ray released his first movie, <em>Pather Panchali</em>. The next idea starts with a descriptive phrase, 'A quiet black-and-white drama,' before the main clause says Ray's film was different."
     },
     {
-      "title": "Confirm the match",
-      "content": "Only a period creates a clean boundary between the two sentences without producing a comma splice or run-on. That matches <strong>Choice D &mdash; <em>Panchali</em>. A</strong>."
+      "title": "Avoid a comma splice",
+      "content": "Choice A runs the title directly into the description. Choice B creates a relative clause that leaves the later main clause awkwardly attached. Choice C uses commas but still leaves the release clause and the 'Ray's film was' clause joined incorrectly. The answer is <strong>D</strong>."
     }
   ]
 }

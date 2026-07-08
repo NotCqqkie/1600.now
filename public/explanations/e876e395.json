@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the shared trait the question asks about",
-      "content": "The task is to emphasize a <em>similarity</em> between glaciers and icebergs in Greenland. The notes show both melt into surrounding water and both contribute to rising sea levels &mdash; that shared outcome is the similarity to highlight."
+      "title": "Look for the shared outcome",
+      "content": "The student wants a similarity between Greenland's glaciers and icebergs. The notes show that both melt and both contribute to rising sea levels, even though their melting rates depend on different temperature factors."
     },
     {
-      "title": "Eliminate choices that miss the similarity and confirm the answer",
-      "content": "<ul><li><strong>\"Because icebergs break off Greenland's glaciers into the water, their melting rate depends on water temperature.\"</strong>: This focuses only on icebergs and their melting rate; it does not show what glaciers and icebergs share. &#10007;</li><li><strong>\"Greenland's glaciers and icebergs both melt during the year, contributing to rising sea levels.\"</strong>: Names both glaciers and icebergs and states their shared effect &mdash; both melt and both contribute to rising sea levels. &#10003;</li><li><strong>\"Geoscientist Maya Chen found that the melting rate of Greenland's icebergs, unlike that of glaciers, does not depend on air temperature.\"</strong>: Explicitly contrasts glaciers and icebergs (&ldquo;unlike&rdquo;), highlighting a difference rather than a similarity. &#10007;</li><li><strong>\"Glaciers on the coast of Greenland melt during the warm summer months into the surrounding water, the temperature of which remains consistent throughout the year.\"</strong>: Describes only glaciers and their seasonal melting; icebergs are not mentioned, so no similarity is drawn. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject one-sided or contrastive options",
+      "content": "Choice A focuses only on icebergs. Choice C uses unlike and highlights a difference in what controls melting rate. Choice D discusses only glaciers and water temperature. The sentence that names both glaciers and icebergs and gives their shared effect fits the goal. The answer is <strong>B</strong>."
     }
   ]
 }

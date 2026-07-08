@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the survey proportion",
-      "content": "The sample estimate is $25\\%$, or $0.25$, of the French club students."
+      "title": "Convert the survey percent",
+      "content": "The survey estimate is $25\\%$, which is $0.25$ of the French club students."
     },
     {
-      "title": "Apply it to all 60 students",
-      "content": "Estimate the total number by multiplying: $$0.25\\cdot60=15$$"
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The correct answer is $15$, so <strong>A</strong> is correct."
-    },
-    {
-      "title": "Check the estimate size",
-      "content": "Since $25%$ is one-fourth, the estimate should be one-fourth of $60$. One-fourth of $60$ is $15$, so the total should be much less than $60$ but greater than $0$."
+      "title": "Apply the percent to all students",
+      "content": "There are $60$ students in the club:<br/>$$0.25\\cdot60=15$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

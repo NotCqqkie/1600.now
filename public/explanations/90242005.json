@@ -1,0 +1,15 @@
+{
+  "questionId": "90242005",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain full liquidity",
+      "content": "The notes define liquid atoms as disordered and able to move three-dimensionally. In chain melt, potassium's guest atoms show liquid-like disorder, but the solid host lattice confines them to one-dimensional movement."
+    },
+    {
+      "title": "Reject incomplete explanations",
+      "content": "A describes the dual structure without explaining why it is not fully liquid. C contradicts the note that chain melt is stable and distinct. D treats disorder as the problem, even though disorder is liquid-like. The confinement by a solid lattice explains the missing three-dimensional movement. The answer is <strong>B</strong>."
+    }
+  ]
+}

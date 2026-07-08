@@ -1,0 +1,15 @@
+{
+  "questionId": "3760f7fe",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the numeral explanation",
+      "content": "The passage explains that Jupiter's Roman numerals show designation sequence, not proximity. The final sentence draws a conclusion from that explanation: the numeral does not prove Eirene's physical order from Jupiter."
+    },
+    {
+      "title": "Reject non-inference signals",
+      "content": "Choice A adds another point, Choice B marks the end of a sequence, and Choice C signals contrast. The remaining transition shows that the final statement follows logically from the previous sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

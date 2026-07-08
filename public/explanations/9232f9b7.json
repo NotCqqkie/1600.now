@@ -1,0 +1,19 @@
+{
+  "questionId": "9232f9b7",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read circle A",
+      "content": "From $(x+7)^2+(y-7)^2=49$, circle A has center $(-7,7)$ and radius $7$."
+    },
+    {
+      "title": "Find the intercept",
+      "content": "The center is $7$ units above the $x$-axis, and the radius is also $7$. Therefore, circle A touches the $x$-axis directly below its center at $(-7,0)$, so $(r,s)=(-7,0)$."
+    },
+    {
+      "title": "Write circle B",
+      "content": "Circle B uses the center $(-7,0)$ and the same radius length as circle A. Its equation is<br/>$$(x+7)^2+y^2=49$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

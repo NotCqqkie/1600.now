@@ -1,0 +1,15 @@
+{
+  "questionId": "a2bb3813",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "At birth, $x=0$ and the seal pup's length was $122$ centimeters. That means the constant term is $122$."
+    },
+    {
+      "title": "Use the monthly growth",
+      "content": "The length increased by $3.8$ centimeters per month, so the coefficient of $x$ is $3.8$. The model is<br/>$$y=3.8x+122$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

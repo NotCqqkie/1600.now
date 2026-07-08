@@ -1,0 +1,15 @@
+{
+  "questionId": "d9950a48",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the volume comparison",
+      "content": "For a shared favorite recording, musicians tended to prefer a higher optimal volume than nonmusicians. If the musician's optimal volume for \"Sad but True\" is 85.5 decibels, the nonmusician's optimal volume would be expected to be lower."
+    },
+    {
+      "title": "Remove unsupported claims",
+      "content": "Choice A compares music with nature sounds, but the finding compares listeners' optimal volumes for the same recording. Choice B invents a preference for other music. Choice C overstates the finding by saying 85.5 decibels would be too low for any recording. The remaining choice says 85.5 decibels would be less enjoyable than a lower volume for this song. The answer is <strong>D</strong>."
+    }
+  ]
+}

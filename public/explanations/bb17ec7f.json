@@ -1,0 +1,19 @@
+{
+  "questionId": "bb17ec7f",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Eliminate one variable",
+      "content": "Set the two expressions for $y$ equal to each other.<br/>$$-12x+16=-20x+24$$<br/>$$8x=8$$<br/>$$x=1$$",
+      "desmosExpressions": [
+        "y=-12x+16",
+        "y=-20x+24"
+      ]
+    },
+    {
+      "title": "Find the ordered pair",
+      "content": "Substitute the value of $x$ into either equation.<br/>$$y=-12(1)+16=4$$<br/>The solution is $(1,4)$, which matches the listed ordered pair. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the model at 32 degrees",
-      "content": "The question asks for the prediction from the line of best fit at $x=32^\\circ\\text{C}$. The graph shows that point on the line at about $480$ visitors."
+      "title": "Read the model value",
+      "content": "The line of best fit gives the predicted number of visitors for a given temperature. At $32^\\circ\\text{C}$, the line is at about $480$ visitors."
     },
     {
-      "title": "Use table calculation as a check",
-      "content": "Two points on the line are approximately $(28,240)$ and $(32,480)$. Using those points gives the same prediction at $x=32$.",
+      "title": "Check with two line points",
+      "content": "The displayed line is consistent with points near $(28, 240)$ and $(32, 480)$, so the prediction at $x=32$ is already on the line.",
       "desmosExpressions": [
         "x_1=[28,32]",
         "y_1=[240,480]"
       ]
     },
     {
-      "title": "Round as requested",
-      "content": "$480$ is already rounded to the nearest $10$, so the answer is $480$."
+      "title": "Round to the requested place",
+      "content": "The prediction is already rounded to the nearest $10$. The answer is <strong>480</strong>."
     }
   ]
 }

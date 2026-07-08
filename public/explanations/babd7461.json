@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the scale factor from corresponding sides",
-      "content": "Since $J$ corresponds to $R$ and $K$ corresponds to $S$, the sides $\\overline{JK}$ and $\\overline{RS}$ are corresponding sides. The scale factor is:<br/>$$k = \\frac{RS}{JK} = \\frac{135}{15} = 9$$"
+      "title": "Find the scale factor",
+      "content": "Because $J$ corresponds to $R$ and $K$ corresponds to $S$, side $\\text{JK}$ corresponds to side $\\text{RS}$.<br/>$$\\frac{\\text{RS}}{\\text{JK}}=\\frac{135}{15}=9$$"
     },
     {
-      "title": "Apply the scale factor to the perimeter",
-      "content": "When two figures are similar, all linear dimensions scale by the same factor, including perimeter. Therefore:<br/>$$\\text{Perimeter of } \\triangle RST = \\text{Perimeter of } \\triangle JKL \\times k = 36 \\times 9 = 324$$<br/>That is the correct answer."
+      "title": "Scale the perimeter",
+      "content": "Similar figures have perimeters in the same ratio as corresponding side lengths. Multiply the smaller perimeter by $9$.<br/>$$36\\cdot9=324$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

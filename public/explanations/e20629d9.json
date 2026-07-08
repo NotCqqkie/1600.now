@@ -1,0 +1,15 @@
+{
+  "questionId": "e20629d9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the two sentences",
+      "content": "The first sentence can end after 'tenets.' The next sentence begins with the modifier 'Developed by Japanese violinist Shinichi Suzuki,' which describes 'the method' before the main clause says what the method emphasizes."
+    },
+    {
+      "title": "Avoid the comma splice",
+      "content": "Choice A leaves 'the method emphasizes' joined to the first clause with only a comma. Choice B has the same comma-splice problem after a parenthetical modifier. Choice D creates an ungrammatical relative clause with 'that, developed.' A period supplies the needed boundary. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b2829cba",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the Round Table timeline",
+      "content": "The passage says no source before 1155 includes references to the Round Table. <em>Preiddeu Annwfn</em> was composed around 900, so it could not contain Round Table information. Malory's later work may include the Round Table, but that specific detail cannot come from a pre-1155 source."
+    },
+    {
+      "title": "Reject unsupported inferences",
+      "content": "Choice A makes an accuracy claim and relies on the timing of the <em>Mabinogion</em>, not the Round Table evidence. Choice C says Round Table sources were available to Geoffrey, contrary to the timeline. Choice D compares overall content similarity, which the passage never addresses. The answer is <strong>B</strong>."
+    }
+  ]
+}

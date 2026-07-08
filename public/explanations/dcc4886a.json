@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Condition for infinitely many solutions",
-      "content": "A system of two linear equations has infinitely many solutions when the equations are <strong>identical</strong> &mdash; same slope and same y-intercept.<br/>Given: $y = \\dfrac{3}{8}x + 4$. The second equation $y = mx + b$ must satisfy $m = \\dfrac{3}{8}$ and $b = 4$."
+      "title": "Use identical equations",
+      "content": "A system has infinitely many solutions when both equations represent the same line. Therefore, the second equation must have the same slope and the same $y$-intercept."
     },
     {
-      "title": "Test all four choices for b",
-      "content": "<ul><li><strong>\"$-4$\"</strong>: $b = -4$ gives $y = \\frac{3}{8}x - 4$. Different y-intercept from the first equation ($4 \\ne -4$) &mdash; parallel lines, no solutions. &#10007;</li><li><strong>\"$-\\frac{1}{4}$\"</strong>: $b = -\\frac{1}{4}$ gives $y = \\frac{3}{8}x - \\frac{1}{4}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$\\frac{1}{4}$\"</strong>: $b = \\frac{1}{4}$ gives $y = \\frac{3}{8}x + \\frac{1}{4}$. Different y-intercept &mdash; parallel, no solutions. &#10007;</li><li><strong>\"$4$\"</strong>: $b = 4$ gives $y = \\frac{3}{8}x + 4$, identical to the first equation. Every point on the line is a solution &mdash; infinitely many solutions. &#10003;</li></ul>That matches the correct answer &mdash; <strong>D</strong> is correct."
+      "title": "Identify the intercept",
+      "content": "The given equation is<br/>$$y=\\frac{3}{8}x+4$$<br/>For $y=mx+b$ to be identical, $b$ must equal the same intercept. The answer is <strong>D</strong>."
     }
   ]
 }

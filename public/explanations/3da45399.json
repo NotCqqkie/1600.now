@@ -1,0 +1,15 @@
+{
+  "questionId": "3da45399",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert changes to multipliers",
+      "content": "An increase of $165\\%$ means multiply by $2.65$. A decrease of $18\\%$ means multiply by $0.82$."
+    },
+    {
+      "title": "Compute the net increase",
+      "content": "Apply the multipliers in sequence:<br/>$$2.65(0.82)=2.173$$<br/>This is an increase of:<br/>$$(2.173-1)(100\\%)=117.30\\%$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compare spread around the mean",
-      "content": "Standard deviation measures how clustered the values are around the mean. The list with values <strong>most tightly packed</strong> around its center has the smallest SD.<br/><br/>A: 32, 33, 35, 37, 38 — spread $\\pm 3$.<br/>B: 33, 33, 35, 37, 37 — spread $\\pm 2$.<br/>C: 33, 34, 35, 36, 37 — spread $\\pm 2$ (every step of 1).<br/>D: 34, 35, 35, 35, 36 — spread $\\pm 1$, with three values at the mean."
+      "title": "Look for tight clustering",
+      "content": "The smallest standard deviation comes from the data set whose values are closest to their mean. The values $46,47,47,47,48$ have three values at the center and the others only $1$ away."
     },
     {
-      "title": "Pick the tightest set",
-      "content": "Set D has range only 2 and three of the five values exactly equal to the mean (35), giving the smallest deviations. Its standard deviation is clearly less than the others.<br/><br/><strong>D</strong> is correct."
+      "title": "Compare the spreads",
+      "content": "The ranges are $6$, $4$, $4$, and $2$ for choices A through D. The smallest range and tightest clustering are in choice D. The answer is <strong>D</strong>."
     }
   ]
 }

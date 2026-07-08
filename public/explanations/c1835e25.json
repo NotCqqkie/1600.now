@@ -1,0 +1,19 @@
+{
+  "questionId": "c1835e25",
+  "correctAnswer": "31",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match both sides",
+      "content": "For the equation to have infinitely many solutions, the two sides must be identical for every value of $x$. That means the $x$-coefficients must match and the constant terms must match."
+    },
+    {
+      "title": "Solve the coefficient condition",
+      "content": "Match the coefficients of $x$:<br/>$$2k+5=k+36$$<br/>$$k=31$$"
+    },
+    {
+      "title": "Check the constant condition",
+      "content": "The constants give the same value:<br/>$$3k-16=k+46$$<br/>$$2k=62$$<br/>The answer is <strong>31</strong>."
+    }
+  ]
+}

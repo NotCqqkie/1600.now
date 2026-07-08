@@ -1,0 +1,15 @@
+{
+  "questionId": "cd27228c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the plural subject",
+      "content": "The subject is \"Coaches in the IWBF.\" The prepositional phrase \"in the IWBF\" does not change the subject; \"Coaches\" is plural. The sentence describes an ongoing practice, so it needs a plural present-tense verb."
+    },
+    {
+      "title": "Reject singular verbs",
+      "content": "Choice A uses singular \"is.\" Choice B uses singular \"has.\" Choice D uses singular \"uses.\" None agrees with the plural subject \"Coaches.\" The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Undo the subtraction",
-      "content": "The equation is $q-34r=s$, and the goal is to isolate $q$. Since $34r$ is being subtracted from $q$, add $34r$ to both sides."
+      "content": "The equation is $q-34r=s$. To isolate $q$, add $34r$ to both sides.<br/>$$q-34r+34r=s+34r$$"
     },
     {
-      "title": "Match the isolated form",
-      "content": "$$q-34r+34r=s+34r$$ $$q=s+34r$$ This matches <strong>B</strong>. An incorrect response keeps the subtraction instead of undoing it, and the other choices change the equation's structure."
+      "title": "Isolate q",
+      "content": "The terms $-34r$ and $+34r$ cancel on the left.<br/>$$q=s+34r$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

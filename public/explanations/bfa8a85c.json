@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Find the original median",
-      "content": "The original set 7, 7, 9, 9, 9, 12, 23 has 7 values. The median is the 4th value: <strong>9</strong>."
+      "content": "The original data set has $7$ values, so the median is the $4$th value. In $7,7,9,9,9,12,23$, that value is $9$."
     },
     {
-      "title": "Find which choice has median 9",
-      "content": "Each choice has 6 values; its median = average of 3rd and 4th values."
-    },
-    {
-      "title": "Evaluate all choices",
-      "content": "<ul><li><strong>$5$, $7$, $7$, $7$, $9$, $9$</strong> $5$, $7$, $7$, $7$, $9$, $9$ - median = (7+7)/2 = 7. Eliminated.</li><li><strong>$7$, $7$, $9$, $9$, $12$, $12$</strong> $7$, $7$, $9$, $9$, $12$, $12$ - median = (9+9)/2 = 9. That confirms choice B is correct.</li><li><strong>$7$, $9$, $12$, $12$, $12$, $14$</strong> $7$, $9$, $12$, $12$, $12$, $14$ - median = (12+12)/2 = 12. Eliminated.</li><li><strong>$9$, $9$, $12$, $12$, $23$, $23$</strong> $9$, $9$, $12$, $12$, $23$, $23$ - median = (12+12)/2 = 12. Eliminated.</li></ul>"
+      "title": "Check the even list",
+      "content": "Each choice has $6$ values, so use the average of the $3$rd and $4$th values. The list $7,7,9,9,12,12$ has median $9$. The answer is <strong>B</strong>."
     }
   ]
 }

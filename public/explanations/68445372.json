@@ -1,0 +1,15 @@
+{
+  "questionId": "68445372",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the graphed intersection",
+      "content": "The two equations already shown on the graph intersect at $(0,-6)$. For the three-equation system to have a solution, the added line must pass through that same point."
+    },
+    {
+      "title": "Test the added line",
+      "content": "Substitute $(0,-6)$ into $x-6y=-36$.\n$$0-6(-6)=36$$\nSince $36\\ne -36$, the added line does not pass through the existing intersection. The three equations have zero common solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

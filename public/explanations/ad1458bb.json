@@ -1,0 +1,15 @@
+{
+  "questionId": "ad1458bb",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the painting cleanly",
+      "content": "The blank needs to identify the oil painting as <em>Uprising</em> and then lead into the nonrestrictive \"which\" clause. A nonrestrictive \"which\" clause needs a comma immediately before it."
+    },
+    {
+      "title": "Place the comma before which",
+      "content": "B omits the comma before \"which.\" C puts a comma between \"painting\" and the title, breaking the noun phrase while still missing the needed comma before \"which.\" D creates a fragment because \"which\" cannot start an independent sentence here. The answer is <strong>A</strong>."
+    }
+  ]
+}

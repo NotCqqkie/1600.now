@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Interpret the function form",
-      "content": "The model $f(x) = 42 - 0.25x$ is linear in $x$, the number of days after the start. The constant term $42$ is the $y$-intercept, the value when $x = 0$."
+      "title": "Identify the starting value",
+      "content": "The function $f(x)=42-0.25x$ gives the estimated height $x$ days after the start of the project. The constant term is the value when $x=0$."
     },
     {
-      "title": "Evaluate at the start of the project",
-      "content": "At $x = 0$ days: $f(0) = 42 - 0.25(0) = 42$ cm.<br/><br/>So $42$ is the estimated height of the liquid at the start of the project. The other constant, $-0.25$, is the per-day rate of change (a separate quantity)."
-    },
-    {
-      "title": "Check each choice",
-      "content": "<ul><li>A. Height at the start: matches $f(0) = 42$.</li><li>B. Height at the end: the problem gives no end date, and the height changes over time, so $42$ doesn't represent an ending height.</li><li>C. Daily change in height: that's $-0.25$ cm/day, not $42$.</li><li>D. Days for the liquid to fully evaporate: solving $42 - 0.25x = 0$ gives $x = 168$ days, not $42$.</li></ul>That matches <strong>Choice A &mdash; The estimated height, in cm, of the liquid at the start of the project</strong>."
+      "title": "Interpret the constant",
+      "content": "Evaluate the model at the start:\n$$\nf(0)=42-0.25(0)=42\n$$\nSo $42$ is the estimated height at the start of the project. The answer is <strong>A</strong>."
     }
   ]
 }

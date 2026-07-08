@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Spot the key numbers",
-      "content": "Polynesian varieties diverged from South American ones over 100,000 years ago. Polynesia was peopled only 3,000 years ago. Humans arrived tens of thousands of years after the genetic split already occurred &mdash; so no human could have carried the plant from South America to Polynesia.<ul><li><strong>Choice A &mdash; the cultivation of the sweet potato in Polynesia likely predates its cultivation in South America.</strong>: the text says the plant originated in South America, not Polynesia &#10007;</li><li><strong>Choice B &mdash; Polynesian peoples likely acquired the sweet potato from South American peoples only within the last three thousand years.</strong>: contradicts the DNA evidence showing divergence over 100,000 years ago &#10007;</li><li><strong>Choice C &mdash; human activity likely played no role in the introduction of the sweet potato in Polynesia.</strong>: humans weren&apos;t present in Polynesia when the genetic split happened, so they couldn&apos;t have introduced the plant &#10003;</li><li><strong>Choice D &mdash; Polynesian sweet potato varieties likely descend from a single South American variety that was domesticated, not wild.</strong>: contradicts the passage, which says the domestic sweet potato descends from a wild South American plant &#10007;</li></ul>"
+      "title": "Compare the timelines",
+      "content": "Alvarez's team found that Polynesian sweet potato varieties diverged from South American ones over 100,000 years ago. But Polynesia was peopled only in the last three thousand years. The plant split from South American varieties long before humans were there."
     },
     {
-      "title": "Confirm the logic",
-      "content": "The team&apos;s conclusion follows directly: if the genetic divergence predates human settlement by about 97,000 years, humans could not have transported the sweet potato to Polynesia.<br/><br/>That is the correct answer."
+      "title": "Eliminate human-transfer claims",
+      "content": "Choice A is unsupported because the text does not date South American cultivation. Choice B contradicts the 100,000-year divergence. Choice D contradicts the wild South American origin and adds a domesticated single variety. The timeline rules out human introduction. The answer is <strong>C</strong>."
     }
   ]
 }

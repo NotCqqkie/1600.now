@@ -1,0 +1,19 @@
+{
+  "questionId": "0cad51aa",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the intercept form",
+      "content": "For a graph of $y=f(x)$ or $y=g(x)$, the $y$-intercept occurs when $x=0$."
+    },
+    {
+      "title": "Evaluate the displayed functions",
+      "content": "For each displayed equation,\n$$\na(2.3)^0+b=a+b\n$$\nSo the $y$-coordinate of the $y$-intercept is $a+b$. This expression depends on both constants together."
+    },
+    {
+      "title": "Check what is shown directly",
+      "content": "The value $a+b$ is a sum, not a single constant or coefficient shown directly in either equation. Seeing $a$ and $b$ separately is not the same as seeing their sum. The answer is <strong>D</strong>."
+    }
+  ]
+}

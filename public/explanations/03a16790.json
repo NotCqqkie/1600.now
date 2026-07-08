@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use source points on the fit line",
+      "title": "Choose two points on the line",
       "content": "The line of best fit decreases as $x$ increases, so the slope is negative. Two approximate points on the line are $(1,12)$ and $(11,4)$."
     },
     {
       "title": "Calculate the slope",
-      "content": "$$m=\\frac{4-12}{11-1}=\\frac{-8}{10}=-0.8$$"
-    },
-    {
-      "title": "Match the answer",
-      "content": "The closest slope is $-0.8$, which matches <strong>Choice B &mdash; $-0.8$</strong>."
+      "content": "Use change in $y$ divided by change in $x$:<br/>$$m=\\frac{4-12}{11-1}=\\frac{-8}{10}=-0.8$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

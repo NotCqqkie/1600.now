@@ -1,0 +1,15 @@
+{
+  "questionId": "5d4b47dd",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Emphasize the year",
+      "content": "The goal is to emphasize when Rina Goldstein won the A.M. Turing Award. The notes give one timing detail: she won in 2012. The strongest sentence should put that year in the focus position instead of emphasizing the award's purpose or Goldstein's work."
+    },
+    {
+      "title": "Reject non-timing focus",
+      "content": "A emphasizes the reason for the award, C only identifies Goldstein as a winner, and D describes the award generally. The choice that says <em>It was in 2012 that</em> puts the year at the front and makes the timing the main point of the sentence. The answer is <strong>B</strong>."
+    }
+  ]
+}

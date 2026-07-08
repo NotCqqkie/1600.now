@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The question asks for data describing a <strong>similar pattern in sunshine hours from April to September</strong> for Anchorage and Fairbanks.<br/><br/>The decisive clue is the phrase '<strong>similar pattern</strong>', which suggests we need a choice showing <em>identical directional trends</em> (increase/decrease) over time in both cities within the specified timeframe."
+      "title": "Look for the shared trend",
+      "content": "The conclusion is that Anchorage and Fairbanks show a similar pattern in monthly hours of sunshine from April to September. The supporting choice should describe how both cities change over that whole period, not just whether they pass a specific cutoff."
     },
     {
-      "title": "Match the meaning",
-      "content": "The correct answer captures the shared trend, showing <strong>increases from April to June</strong> followed by <strong>declines from June to September</strong> in both cities.<br/><br/>The other three choices either describe numerical thresholds unrelated to the pattern (C/D) or misalign with the timeframe or directional flow (A).<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject inaccurate patterns",
+      "content": "Choice A says sunshine holds steady in June and July, which does not capture the full April-to-September trend. Choice C gives a cutoff that is false for some months. Choice D gives cutoffs that do not match the graph's monthly values."
+    },
+    {
+      "title": "Name the shared pattern",
+      "content": "The remaining choice says both cities increase from April to June and then decrease from June to September, which supports the student's conclusion. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "914b9e47",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Collect the x-terms",
+      "content": "Start with\n$$\nx(r-8)+5=20x+29\n$$\nSubtract $20x$ and $5$ from both sides:\n$$\nx(r-8)-20x=24\n$$\n$$\nx(r-28)=24\n$$"
+    },
+    {
+      "title": "Find the impossible value",
+      "content": "There is exactly one solution only if the coefficient of $x$ is not $0$:\n$$\nr-28\\ne 0\n$$\nSo the value that cannot work is $28$. The answer is <strong>D</strong>."
+    }
+  ]
+}

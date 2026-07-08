@@ -1,0 +1,19 @@
+{
+  "questionId": "0dba35da",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write both relationships",
+      "content": "Translate each percentage statement into an equation.<br/>$$a=2.60b$$<br/>$$a=0.75c$$"
+    },
+    {
+      "title": "Solve for c in terms of b",
+      "content": "Both expressions equal $a$, so set them equal and isolate $c$.<br/>$$2.60b=0.75c$$<br/>$$c=\\frac{2.60}{0.75}b$$<br/>$$c=\\frac{52}{15}b$$"
+    },
+    {
+      "title": "Convert to a percent",
+      "content": "The coefficient tells what percent of $b$ equals $c$. Multiply by $100\\%$.<br/>$$\\frac{52}{15}\\cdot 100\\%=346.667\\%$$<br/>The closest listed value of $p$ is $347$. The answer is <strong>D</strong>."
+    }
+  ]
+}

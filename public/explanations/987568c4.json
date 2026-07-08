@@ -1,0 +1,15 @@
+{
+  "questionId": "987568c4",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate each function",
+      "content": "Substitute $5$ into both functions.<br/>$$f(5)=5+6=11$$<br/>$$g(5)=4(5)=20$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "$$6f(5)-g(5)=6(11)-20=66-20=46$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

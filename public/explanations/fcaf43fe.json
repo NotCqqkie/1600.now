@@ -1,0 +1,19 @@
+{
+  "questionId": "fcaf43fe",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the quadratic formula",
+      "content": "For $x^2-24x+137=0$, substitute into the quadratic formula:\n$$\nx=\\frac{24\\pm\\sqrt{(-24)^2-4(1)(137)}}{2}\n$$\nThe discriminant is\n$$\n576-548=28\n$$"
+    },
+    {
+      "title": "Match the given form",
+      "content": "So the solutions are\n$$\nx=\\frac{24\\pm\\sqrt{28}}{2}=12\\pm\\frac{1}{2}\\sqrt{28}\n$$\nComparing $12-\\frac{1}{2}\\sqrt{28}$ with $h-\\frac{1}{2}\\sqrt{k}$ gives $h=12$ and $k=28$."
+    },
+    {
+      "title": "Add the constants",
+      "content": "Now compute\n$$\nh+k=12+28=40\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

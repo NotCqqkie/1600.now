@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is an Inferences question. The passage presents a logical argument: (1) Scottish English strongly emphasizes the “r” sound, (2) Upland South dialects show the same emphasis, (3) the Upland South was colonized largely by Scottish-descended people. The word “Thus” signals that the blank must state the conclusion that logically follows from these three facts."
+      "title": "Follow the direction of influence",
+      "content": "The passage says Scottish dialects emphasize the “r” sound, Upland South dialects do the same, and the Upland South was colonized largely by people with Scottish ancestry. “Thus” asks for the conclusion drawn from those facts, not coincidence."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"the English dialects spoken in the Upland South acquired their emphasis on the \"r\" sound from dialects spoken in Scotland.\"</strong>: This is the conclusion that follows directly from the evidence. The colonizers came from Scotland and brought their dialect features; those features are now present in the Upland South. Direction of influence: Scotland → Upland South. &#10003;</li><li><strong>\"emphasis on the \"r\" sound will eventually spread from English dialects spoken in the Upland South to dialects spoken elsewhere.\"</strong>: Nothing in the passage suggests future spread to other regions. This goes beyond what the evidence supports. &#10007;</li><li><strong>\"the English dialects spoken in Scotland were influenced by dialects spoken in the Upland South.\"</strong>: This reverses the direction of influence. The Upland South was colonized by Scottish-descended people, not the other way around. Scotland cannot have been influenced by a region that didn't exist until after Scotland was settled. &#10007;</li><li><strong>\"people from Scotland abandoned their emphasis on the \"r\" sound after relocating to the Upland South.\"</strong>: This contradicts the evidence. The Upland South dialects still show strong “r” emphasis, meaning the feature was preserved, not abandoned. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Infer the source",
+      "content": "Choice B predicts future spread, which is unsupported. Choice C reverses the direction of influence. Choice D says Scottish settlers abandoned the “r” emphasis, but the Upland South still has it. The logical conclusion is that Upland South dialects acquired the feature from Scottish dialects. The answer is <strong>A</strong>."
     }
   ]
 }

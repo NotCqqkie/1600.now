@@ -1,0 +1,15 @@
+{
+  "questionId": "2328500b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the method contrast",
+      "content": "The passage contrasts two ways of identifying species: molecular analysis, which uses DNA, and morphological analysis, which depends on physical form. The final sentence says molecular analysis does not require distinguishing subtle physiological differences. Therefore, the logical completion should say molecular analysis is especially useful when distinct species look physically similar and morphology alone may be difficult."
+    },
+    {
+      "title": "Test each completion",
+      "content": "Choice A - more likely to properly distinguish between morphologically similar but distinct invertebrate species than is the method used to identify Prionospio branchilucida matches the stated advantage of molecular analysis over morphology alone. Choice B - more frequently used for identifying species with physiological characteristics like those of Ledella knudseni than morphological analysis is makes an unsupported frequency claim. Choice C - better suited to distinguishing Prionospio branchilucida from morphologically similar species than to distinguishing Ledella knudseni from morphologically similar species conflicts with the fact that molecular sampling was impracticable for Prionospio branchilucida. Choice D - capable of providing greater physiological detail about a species than is the method used for Prionospio branchilucida misreads the premise, which says molecular analysis avoids relying on subtle physiology. The answer is <strong>A</strong>."
+    }
+  ]
+}

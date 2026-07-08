@@ -1,0 +1,15 @@
+{
+  "questionId": "a2c383e5",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the list",
+      "content": "The sentence has a complete clause before the blank: the poem contains three signature elements of Brooks's poetic style. What follows is the list of those three elements."
+    },
+    {
+      "title": "Choose list punctuation",
+      "content": "A creates a fragment after the period, B uses a semicolon before a noun phrase instead of an independent clause, and D uses only a comma to introduce the list. A colon after the complete clause correctly introduces the three elements. The answer is <strong>C</strong>."
+    }
+  ]
+}

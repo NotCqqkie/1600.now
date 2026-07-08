@@ -1,0 +1,15 @@
+{
+  "questionId": "1855bb3f",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Include both collection dates",
+      "content": "The goal is to emphasize when Martinez collected both samples. The relevant notes give one date for <em>Trixis antimenorrhoea</em> and one date for <em>Stephanomeria thurberi</em>, so both specimens and both dates are needed."
+    },
+    {
+      "title": "Reject incomplete timing",
+      "content": "Choice A discusses where samples can now be viewed. Choice B emphasizes family and geography, not dates. Choice C gives only the date for <em>Trixis antimenorrhoea</em> and omits the other specimen's timing. The answer is <strong>D</strong>."
+    }
+  ]
+}

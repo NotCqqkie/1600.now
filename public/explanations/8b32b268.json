@@ -1,0 +1,15 @@
+{
+  "questionId": "8b32b268",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Scale the maximum",
+      "content": "The recommendation allows at most $124$ trees per acre. For $2$ acres, multiply the per-acre limit by the number of acres."
+    },
+    {
+      "title": "Compute the tree count",
+      "content": "The product gives the maximum number of trees for the whole area.<br/>$$124(2)=248$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

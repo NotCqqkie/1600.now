@@ -1,0 +1,15 @@
+{
+  "questionId": "a711eec8",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the age-pattern claim",
+      "content": "The claim says participation peaked in a certain age range from 1992 to 1995 and then declined among older participants. Supporting data should compare a younger group with an older group across those years, showing that the older group had fewer participants after the peak-age group."
+    },
+    {
+      "title": "Reject non-age comparisons",
+      "content": "A misstates the adult-to-Brownie comparison. B tracks Brownies over time but does not compare younger and older participants. C makes a Daisies-to-Adults comparison the table does not support across the period. The answer is <strong>D</strong>."
+    }
+  ]
+}

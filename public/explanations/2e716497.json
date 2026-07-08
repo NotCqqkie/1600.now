@@ -1,0 +1,15 @@
+{
+  "questionId": "2e716497",
+  "correctAnswer": "37",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate both percents",
+      "content": "Since $a$ is $4{,}200\\%$ of $c$, $a=42c$. Since $c$ is $20\\%$ of $b$, $c=0.20b$, so $b=5c$."
+    },
+    {
+      "title": "Substitute into the difference",
+      "content": "Use $a=42c$ and $b=5c$ in $a-b=wc$: $42c-5c=wc$, so $37c=wc$. Because $c$ is positive, $w=37$. The answer is <strong>37</strong>."
+    }
+  ]
+}

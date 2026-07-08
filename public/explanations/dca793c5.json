@@ -1,0 +1,15 @@
+{
+  "questionId": "dca793c5",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "To multiply $9$ by the entire expression in parentheses, multiply $9$ by each term inside. This gives $$9(x+4)=9\\cdot x+9\\cdot 4$$"
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "The first product is $9x$, and the second product is $36$, so the equivalent expression is $$9x+36$$ Choice A leaves $4$ unchanged, choice B adds instead of distributing, and choice C uses the wrong constant. The answer is <strong>D</strong>."
+    }
+  ]
+}

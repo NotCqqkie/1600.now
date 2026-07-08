@@ -4,20 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$y=4x$$<br/>$$y={x}^{2}-12$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Set the equations equal",
+      "content": "Both equations equal $y$, so set their right sides equal.<br/>$$4x=x^2-12$$"
+    },
+    {
+      "title": "Solve the quadratic",
+      "content": "Move all terms to one side and factor.<br/>$$x^2-4x-12=0$$<br/>$$(x-6)(x+2)=0$$<br/>The positive solution is $x=6$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Graph the two equations and read the positive intersection's $x$-coordinate.<br/>The answer is <strong>6</strong>.",
       "desmosExpressions": [
         "y=4x",
         "y={x}^{2}-12"
       ]
-    },
-    {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>$6$</strong>."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
     }
   ]
 }

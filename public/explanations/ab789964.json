@@ -1,0 +1,23 @@
+{
+  "questionId": "ab789964",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Check the ratios",
+      "content": "The table values have a constant multiplicative pattern.\n$$1\\div\\frac{1}{69}=69$$\n$$69\\div1=69$$\n$$4{,}761\\div69=69$$"
+    },
+    {
+      "title": "Classify the pattern",
+      "content": "A constant ratio means the function is exponential, not linear. Since the ratio is $69$, which is greater than $1$, the function is increasing."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The table matches the exponential model $y=69^x$, showing an increasing exponential function. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "x_1=[-1,0,1,2]",
+        "y_1=[1/69,1,69,4761]"
+      ]
+    }
+  ]
+}

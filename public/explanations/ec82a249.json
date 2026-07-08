@@ -1,0 +1,15 @@
+{
+  "questionId": "ec82a249",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Separate the clauses",
+      "content": "The text has two independent clauses: one identifies the Romanian artists as part of a Balchik-based group, and the next says this group is called the Balchik School. \"Fittingly\" is a transitional adverb, not a conjunction that can join clauses by itself."
+    },
+    {
+      "title": "Avoid the comma splice",
+      "content": "Choice A fuses the clauses without punctuation. Choice B uses only commas around the transition, creating a comma splice. Choice D leaves \"fittingly\" awkwardly attached to the first sentence. The remaining choice ends the first clause with a period and starts the next sentence with the transition. The answer is <strong>C</strong>."
+    }
+  ]
+}

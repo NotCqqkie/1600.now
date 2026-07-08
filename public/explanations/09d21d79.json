@@ -4,17 +4,17 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find b using the axis of symmetry",
-      "content": "From the graph, the vertex is at $x = -1$. Apply the axis of symmetry formula with $a = 2$: $$-\\frac{b}{4} = -1$$ $$b = 4$$",
+      "title": "Find the linear coefficient",
+      "content": "From the graph, the vertex has $x$-coordinate $-1$. For $y=2x^2+bx+c$, the axis of symmetry is<br/>$$x=-\\frac{b}{2(2)}=-\\frac{b}{4}$$<br/>Set this equal to $-1$:<br/>$$-\\frac{b}{4}=-1$$<br/>$$b=4$$",
       "formula": "$$x = -\\frac{b}{2a}$$"
     },
     {
-      "title": "Find c using the y-intercept",
-      "content": "At $x = 0$, the equation becomes $y = c$. The graph shows the parabola crossing the y-axis at $y = -6$, so $c = -6$."
+      "title": "Find the constant term",
+      "content": "At the $y$-intercept, $x=0$, so the equation gives $y=c$. The graph shows a $y$-intercept of $-6$, so $c=-6$."
     },
     {
-      "title": "Calculate bc",
-      "content": "$$bc = 4 \\times (-6) = -24$$"
+      "title": "Multiply the constants",
+      "content": "Use $b=4$ and $c=-6$:<br/>$$bc=4(-6)=-24$$<br/>The answer is <strong>-24</strong>."
     }
   ]
 }

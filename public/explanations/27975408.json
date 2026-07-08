@@ -1,0 +1,15 @@
+{
+  "questionId": "27975408",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the outlier claim",
+      "content": "Hensley and colleagues concluded that complementary products seemed to benefit extended brands more than substitutable products did, but that this overall pattern might be caused by a single outlier in the complementary-product data."
+    },
+    {
+      "title": "Look for the gap disappearing",
+      "content": "Choice B removes a substitutable pair, not a complementary outlier. Choice C says removing tortilla chips and salsa increases complementary purchasing. Choice D has substitutable brands outperforming complementary ones, reversing the study's pattern. Evidence that the complementary advantage drops to zero when tortilla chips and salsa are removed supports the conclusion. The answer is <strong>A</strong>."
+    }
+  ]
+}

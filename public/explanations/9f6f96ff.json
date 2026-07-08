@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the system of equations from the problem",
-      "content": "The rope is cut into two parts totaling 123 inches:<br/>$$x + y = 123$$<br/>The problem states x is 3 more than 5 times y:<br/>$$x = 5y + 3$$"
+      "title": "Write the two equations",
+      "content": "The two rope pieces total $123$ inches:<br/><br/>$$x+y=123$$<br/><br/>The value of $x$ is $3$ more than $5$ times $y$:<br/><br/>$$x=5y+3$$"
     },
     {
-      "title": "Substitute and solve for y",
-      "content": "Substitute the second equation into the first:<br/>$$(5y + 3) + y = 123$$<br/>$$6y + 3 = 123$$<br/>$$6y = 120$$<br/>$$y = 20$$"
+      "title": "Solve for the other piece",
+      "content": "Substitute $x=5y+3$ into the total:<br/><br/>$$(5y+3)+y=123$$<br/>$$6y+3=123$$<br/>$$6y=120$$<br/>$$y=20$$"
     },
     {
-      "title": "Calculate x and identify the choice",
-      "content": "Substitute $y = 20$ into $x = 5y + 3$:<br/>$$x = 5(20) + 3$$<br/>$$x = 100 + 3$$<br/>$$x = 103$$<br/>That confirms <strong>D</strong> is correct."
+      "title": "Find the requested length",
+      "content": "Use $x=5y+3$:<br/><br/>$$x=5(20)+3=103$$<br/><br/>The answer is <strong>D</strong>."
     }
   ]
 }

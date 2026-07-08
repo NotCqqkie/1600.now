@@ -4,24 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>C</strong>, $\\frac{x{y}^{2}+11xy-7y}{{x}^{2}y-7xy}$."
+      "title": "Factor the denominator",
+      "content": "Factor the second denominator so both fractions can use the same denominator.<br/>$$x^2y-7xy=xy(x-7)$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Factor the second denominator",
-      "content": "Start with $$\\frac{y+10}{x-7}+\\frac{y(x-7)}{x^2y-7xy}$$ The second denominator factors as $$x^2y-7xy=xy(x-7)$$ so the first fraction needs to be multiplied by $\\frac{xy}{xy}$ to get the same denominator."
+      "title": "Use a common denominator",
+      "content": "Multiply the first fraction by $\\frac{xy}{xy}$, which equals $1$.<br/>$$\\frac{y+10}{x-7}=\\frac{xy(y+10)}{xy(x-7)}$$"
     },
     {
       "title": "Combine the numerators",
-      "content": "With the common denominator, the expression becomes $$\\frac{xy(y+10)}{xy(x-7)}+\\frac{y(x-7)}{xy(x-7)}$$ Combine the numerators: $$\\frac{xy(y+10)+y(x-7)}{xy(x-7)}$$ Distribute in the numerator: $$xy^2+10xy+xy-7y=xy^2+11xy-7y$$"
+      "content": "Now add the numerators over the common denominator.<br/>$$\\frac{xy(y+10)+y(x-7)}{xy(x-7)}$$<br/>$$xy(y+10)+y(x-7)=xy^2+10xy+xy-7y$$<br/>$$xy^2+10xy+xy-7y=xy^2+11xy-7y$$"
     },
     {
       "title": "Match the final form",
-      "content": "The denominator $xy(x-7)$ is the same as $x^2y-7xy$, so the simplified expression is $$\\frac{xy^2+11xy-7y}{x^2y-7xy}$$ That matches <strong>Choice C &mdash; $\\frac{x{y}^{2}+11xy-7y}{{x}^{2}y-7xy}$</strong>."
+      "content": "The denominator $xy(x-7)$ is the same as $x^2y-7xy$.<br/>$$\\frac{xy^2+11xy-7y}{x^2y-7xy}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

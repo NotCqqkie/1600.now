@@ -1,0 +1,15 @@
+{
+  "questionId": "a67ae021",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the graph equation",
+      "content": "From the graph, the line passes through $(-2,-3)$ and $(0,9)$. The slope is $$\\frac{9-(-3)}{0-(-2)}=\\frac{12}{2}=6$$ so the line is $$y=6x+9$$"
+    },
+    {
+      "title": "Match the answer form",
+      "content": "Rewrite the equation to make the constant $18$: $$2y=12x+18$$ $$-12x+2y=18$$ This matches $-12x+Ry=18$ with positive constant $R=2$. The answer is <strong>D</strong>."
+    }
+  ]
+}

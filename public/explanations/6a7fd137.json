@@ -1,0 +1,15 @@
+{
+  "questionId": "6a7fd137",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Open the appositive",
+      "content": "The blank comes after <em>was a</em> and must introduce the noun <em>supernova</em> plus punctuation before the phrase that defines it: <em>the explosion of a massive star</em>. That defining phrase is an appositive because it renames and explains <em>supernova</em>. Since the sentence already has a dash after the definition, before the clause about American astronomer Josef Johnson, the blank needs punctuation that opens the same dash pair."
+    },
+    {
+      "title": "Match the dash pair",
+      "content": "Choice A uses a comma before the definition, but the sentence later closes the definition with a dash, creating mismatched punctuation. Choice B uses a period, which splits off the defining phrase and leaves the following material as a fragment. Choice D uses a colon, but the later dash makes that an awkward mixed frame for a mid-sentence appositive. The remaining choice opens the defining phrase with a dash, matching the later dash and correctly setting off the appositive. The answer is <strong>C</strong>."
+    }
+  ]
+}

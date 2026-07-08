@@ -1,0 +1,19 @@
+{
+  "questionId": "672ca79b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the mixed effects",
+      "content": "The text says recommender systems affected consumer behavior and increased sales. It also says the effects differed by product type: utilitarian products saw stronger effects on item views, while hedonic products saw stronger effects on likelihood of purchase."
+    },
+    {
+      "title": "Reject overreach",
+      "content": "Choice B adds an unsupported claim about limiting variety. Choice C says recommender systems boost utilitarian visibility because those items are otherwise overlooked, which the text does not say. Choice D overstates the purchase effect as likely limited to hedonic items."
+    },
+    {
+      "title": "Choose the supported statement",
+      "content": "The remaining statement captures both points: recommender systems can affect behavior, but the nature and strength of those effects vary across product categories. The answer is <strong>A</strong>."
+    }
+  ]
+}

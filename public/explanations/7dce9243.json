@@ -1,0 +1,15 @@
+{
+  "questionId": "7dce9243",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the sentence boundary",
+      "content": "The text contains two complete thoughts: thousands of women joined the war effort as nurses, and Ann Bradford Stokes was among them. Two independent clauses need a proper boundary between them."
+    },
+    {
+      "title": "Separate the two clauses",
+      "content": "A creates a comma splice, B creates a run-on, and D uses awkward punctuation around \"and\" that does not cleanly connect the clauses. The answer is <strong>C</strong>."
+    }
+  ]
+}

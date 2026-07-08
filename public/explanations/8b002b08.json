@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize two independent clauses joined by 'but'",
-      "content": "“This bat-and-ball game was derived from cricket” ends one complete thought. “Kilikiti differs from cricket in a few key ways” starts another. The word “but” between them signals a contrast."
+      "title": "Join two complete clauses",
+      "content": "The sentence has two complete clauses: the game was derived from cricket, and kilikiti differs from cricket in several ways. A comma plus the coordinating conjunction \"but\" correctly joins those contrasting clauses."
     },
     {
-      "title": "Apply the comma-before-conjunction rule",
-      "content": "A comma before a coordinating conjunction joins two independent clauses.<br/><br/>Here, that's “cricket, but kilikiti differs...” The other options either position the comma after “but” (wrong position) or use a colon (incorrect for coordinating conjunctions).<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Reject faulty punctuation",
+      "content": "Choice A places a colon after \"but,\" which cannot introduce the second clause. Choice B uses a comma after \"but\" incorrectly. Choice D adds an unnecessary comma after \"but,\" interrupting the subject and verb."
+    },
+    {
+      "title": "Use comma plus but",
+      "content": "A comma before \"but\" correctly links the two independent clauses. The answer is <strong>C</strong>."
     }
   ]
 }

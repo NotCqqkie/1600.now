@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find b from &quot;280% greater than 150&quot;",
-      "content": "&quot;280% greater than 150&quot; means take 150 and add 280% of 150 to it: $b = 150 + 2.8 \\times 150 = 150(1 + 2.8) = 150 \\times 3.8$. Computing, $150 \\times 3.8 = 450 + 120 = 570$, so $b = 570$."
+      "title": "Find the value of b",
+      "content": "The number $b$ is $280\\%$ greater than $150$, so it is $150$ plus $2.8$ times $150$:<br/>$$b=150(1+2.8)=150(3.8)=570$$"
     },
     {
-      "title": "Find a from &quot;35% less than b&quot;",
-      "content": "&quot;35% less than $b$&quot; means subtract 35% of $b$ from $b$: $a = b - 0.35b = 0.65b = 0.65 \\times 570$. Computing, $0.65 \\times 570 = 370.5 = \\dfrac{741}{2}$. Grid in <strong>741/2</strong> (or 370.5)."
+      "title": "Decrease by thirty-five percent",
+      "content": "The number $a$ is $35\\%$ less than $b$, so $a$ is $65\\%$ of $b$:<br/>$$a=0.65(570)=370.5=\\frac{741}{2}$$<br/>The answer is <strong>741/2</strong>."
     }
   ]
 }

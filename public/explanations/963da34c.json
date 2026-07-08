@@ -1,19 +1,23 @@
 {
   "questionId": "963da34c",
-  "qid": "963da34c",
+  "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "explanation": "Express the perimeter of the base. Width = x, length = 2.5x. Perimeter of a rectangle = 2(length + width) = 2(2.5x + x) = 2(3.5x) = 7x inches."
+      "title": "Write the base perimeter",
+      "content": "The width is $x$, and the length is $2.5x$. The base is a rectangle, so its perimeter is\n$$\n2(x+2.5x)=2(3.5x)=7x\n$$"
     },
     {
-      "explanation": "Apply the restriction: perimeter + height &le; 130. With height = 60: 7x + 60 &le; 130."
+      "title": "Apply the shipping limit",
+      "content": "The perimeter plus height cannot exceed $130$ inches. With height $60$:\n$$\n7x+60\\leq 130\n$$"
     },
     {
-      "explanation": "Solve for x: subtract 60 from both sides to get 7x &le; 70, then divide by 7 to get x &le; 10. Since width must be positive, the complete inequality is 0 &lt; x &le; 10."
+      "title": "Solve the inequality",
+      "content": "Subtract $60$, then divide by $7$:\n$$\n7x\\leq 70\n$$\n$$\nx\\leq 10\n$$\nSince width must be positive, $0<x\\leq 10$."
     },
     {
-      "explanation": "Evaluate all choices:<ul><li>A: 0 &lt; x &le; 10. This matches the derived inequality exactly. That confirms <strong>A</strong> is correct.</li><li>B: 0 &lt; x &le; 11&#8532;. This would follow from 6x + 60 &le; 130, which uses the wrong perimeter formula. Eliminated.</li><li>C: 0 &lt; x &le; 17.5. This would follow from 3.5x + 60 &le; 130, omitting the factor of 2 in the perimeter. Eliminated.</li><li>D: 0 &lt; x &le; 20. This would follow from 2x + 60 &le; 130, using only width instead of the full perimeter. Eliminated.</li></ul>"
+      "title": "Match the allowable widths",
+      "content": "The allowable width is described by $0<x\\leq 10$. The answer is <strong>A</strong>."
     }
-  ],
-  "correctAnswer": "A"
+  ]
 }

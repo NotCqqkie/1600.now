@@ -1,0 +1,15 @@
+{
+  "questionId": "8f948b06",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the vertex form",
+      "content": "The equation is in vertex form.\n$$y=-16(x-7.2)^2+829$$\nSo the vertex has $x$-coordinate $7.2$ and $y$-coordinate $829$."
+    },
+    {
+      "title": "Interpret the maximum",
+      "content": "Because the coefficient of the squared term is negative, the parabola opens downward. The vertex gives the maximum height: $829$ feet at $7.2$ seconds after launch. The answer is <strong>C</strong>."
+    }
+  ]
+}

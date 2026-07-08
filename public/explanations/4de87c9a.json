@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the phrase into an expression",
-      "content": "&quot;7 times a number x&quot; is $7x$. &quot;5 more than&quot; means add 5, giving $7x + 5$."
+      "title": "Translate the expression",
+      "content": "$7$ times a number $x$ is $7x$. The phrase $5$ more than means add $5$, giving $7x+5$."
     },
     {
-      "title": "Set equal to 75",
-      "content": "The full statement &quot;is equal to 75&quot; gives: $$7x + 5 = 75$$"
-    },
-    {
-      "title": "Eliminate wrong choices and confirm",
-      "content": "<ul><li>A: $(5)(7)x = 75$ simplifies to $35x = 75$ - this is 35 times x, not 5 more than 7 times x. Eliminate A.</li><li>B: $7x = 75 + 5$ puts the 5 on the wrong side, giving $7x = 80$. Eliminate B.</li><li>C: $5x + 7 = 75$ swaps the roles of 5 and 7 - this is &quot;7 more than 5 times x.&quot; Eliminate C.</li><li>D: $7x + 5 = 75$ is exactly &quot;5 more than 7 times x equals 75.&quot; <strong>D</strong> is correct.</li></ul>"
+      "title": "Set it equal",
+      "content": "The phrase is equal to $75$, so the equation is\n$$7x+5=75$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

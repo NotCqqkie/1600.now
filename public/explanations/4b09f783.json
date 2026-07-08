@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Calculate the mean",
-      "content": "Add the ten values, then divide by the number of values. The values sum to $110$, and there are $10$ values, so the mean is $$\\frac{110}{10}=11.$$"
+      "title": "Add the values",
+      "content": "The mean is the sum of the data values divided by the number of values. Add the $10$ listed values first."
     },
     {
-      "title": "Confirm the answer",
-      "content": "The mean of the list is $11$, so the answer is <strong>11</strong>."
+      "title": "Divide by the count",
+      "content": "$$\\frac{7+9+18+5+19+28+9+5+5+5}{10}=\\frac{110}{10}=11$$\nThe answer is <strong>11</strong>."
     }
   ]
 }

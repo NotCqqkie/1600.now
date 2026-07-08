@@ -1,0 +1,15 @@
+{
+  "questionId": "38a7f11a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Build the linear model",
+      "content": "The first $4$ hours cost $250$, and each additional hour adds $55$. For $x>4$, the total cost is the flat amount plus $55$ times the number of additional hours beyond $4$.<br/>$$y=250+55(x-4)$$"
+    },
+    {
+      "title": "Simplify the equation",
+      "content": "Distribute and combine constants to put the model in slope-intercept form.<br/>$$y=250+55x-220$$<br/>$$y=55x+30$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

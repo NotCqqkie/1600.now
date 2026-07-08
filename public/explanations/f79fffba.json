@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute $x=-3$",
-      "content": "The function is $h(x)=4x-9$. Substitute $-3$: $$h(-3)=4(-3)-9.$$"
+      "title": "Substitute the input",
+      "content": "To find $h(-3)$, substitute $-3$ for $x$ in the function.<br/>$$h(-3)=4(-3)-9$$"
     },
     {
-      "title": "Compute the value",
-      "content": "$$h(-3)=-12-9=-21.$$"
-    },
-    {
-      "title": "Check the choices",
-      "content": "$-21$ is correct. $-17$ would come from using $x=-2$, and the positive values $17$ and $21$ have the wrong sign. The negative input makes $4x$ negative before subtracting another $9$."
+      "title": "Evaluate the expression",
+      "content": "Complete the arithmetic.<br/>$$h(-3)=-12-9=-21$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

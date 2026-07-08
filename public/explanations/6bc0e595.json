@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the experiment proves",
-      "content": "The passage describes an experiment: participants who touched a mug and a scarf were willing to pay <em>much more</em> for the items than those who were not allowed to touch them. The blank asks what this finding suggests &mdash; look for a conclusion that follows directly from that result, without going beyond it."
+      "title": "Use the experiment result",
+      "content": "The experiment compares two groups: one group touched a mug and a scarf, and the other group was not allowed to touch the items. The people who touched the products were willing to pay much more for them. The conclusion must connect physical touch with higher perceived value."
     },
     {
-      "title": "Eliminate wrong choices and confirm the match",
-      "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;people who mainly shop online probably spend more money every month than people who mainly shop in person do.&rsquo;</strong>: The passage never discusses total monthly spending or compares overall budgets. In fact, the experiment suggests the opposite &mdash; touching raises willingness to pay, so online shoppers (who can't touch) would likely pay <em>less</em>. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;in-person shopping may make products seem more valuable than they seem if only viewed online.&rsquo;</strong>: The experiment directly shows that physically touching a product increases perceived value. In-person shopping enables touch; online shopping does not. This conclusion follows logically from the evidence. &#10003;</li>\n<li><strong>Choice C &mdash; &lsquo;retailers with in-person and online stores should charge the same price for a given product in both places.&rsquo;</strong>: The passage makes no claim about what retailers &quot;should&quot; do. The experiment actually implies in-person stores <em>could</em> charge more, not that pricing must be equal. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;online retailers may be able to raise the prices they charge for products that are only available online.&rsquo;</strong>: Products available only online still can't be touched, so the experiment gives no reason their prices could rise. This goes beyond and contradicts the evidence. &#10007;</li>\n</ul>\nThat confirms <strong>B</strong> is correct."
+      "title": "Avoid unsupported leaps",
+      "content": "Choice A makes a broad claim about monthly spending, but the experiment never measures how much online or in-person shoppers spend each month. Choice C shifts to what retailers should charge, which is also outside the evidence. Choice D concerns online-only products, but the result favors touch, not increased pricing power for items customers cannot touch."
+    },
+    {
+      "title": "Choose the direct inference",
+      "content": "Choice B stays within the evidence. In-person shopping gives customers the chance to touch products, while online shopping cannot replicate that experience. Since touch made participants willing to pay more, in-person shopping may make products seem more valuable than they seem online. The answer is <strong>B</strong>."
     }
   ]
 }

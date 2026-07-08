@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence (Quantitative) question. The passage claims that \"most tribal nations in California are less than 50 square miles in total area\" and uses the Los Coyotes Band as a supporting example. The blank must be filled with the actual area of the Los Coyotes Band from the table &mdash; a value under 50 that directly supports the claim."
+      "title": "Use named tribe data",
+      "content": "The sentence needs the Los Coyotes Band's total area, because it is the example meant to support the claim that most California tribal nations are under 50 square miles."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"13.50 square miles.\"</strong>: 13.50 is the area of the La Jolla Band, not the Los Coyotes Band. This is the wrong tribe's data. &#10007;</li><li><strong>\"53.68 square miles.\"</strong>: 53.68 belongs to the Agua Caliente Band and is also above 50 square miles, which would contradict the passage's claim rather than support it. &#10007;</li><li><strong>\"9.36 square miles.\"</strong>: 9.36 is the area of the Pauma Band &mdash; again, the wrong tribe. &#10007;</li><li><strong>\"39.21 square miles.\"</strong>: The table shows the Los Coyotes Band of Cahuilla and Cupe&ntilde;o Indians at 39.21 square miles. This is under 50, correctly attributed to the named tribe, and directly supports the passage's claim. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Reject wrong table entries",
+      "content": "A gives La Jolla's area, B belongs to Agua Caliente and is above 50, and C gives Pauma's area. The Los Coyotes Band is listed at 39.21 square miles, under the threshold. The answer is <strong>D</strong>."
     }
   ]
 }

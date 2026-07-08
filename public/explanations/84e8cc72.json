@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use vertex-form calculation",
-      "content": "The maximum is the vertex $(8,1038)$, so the model has the form $$h=a(t-8)^2+1038$$ Use the other known point $(0,14)$ to solve for $a$."
+      "title": "Use vertex form",
+      "content": "The maximum height is $1{,}038$ feet at $8$ seconds, so the vertex is $(8,1{,}038)$. Write the model as<br/>$$h(t)=a(t-8)^2+1038$$"
     },
     {
-      "title": "Find the height at t = 10 seconds",
-      "content": "Substitute $(0,14)$: $$14=a(0-8)^2+1038$$ $$14=64a+1038$$ $$a=-16$$ So $h(t)=-16(t-8)^2+1038$. Evaluate at $t=10$: $$h(10)=-16(2)^2+1038=-64+1038=974$$ That confirms <strong>C</strong>."
+      "title": "Find the quadratic coefficient",
+      "content": "The initial height is $14$, so the graph includes $(0,14)$.<br/>$$14=a(0-8)^2+1038$$<br/>$$14=64a+1038$$<br/>$$a=-16$$"
+    },
+    {
+      "title": "Evaluate the height",
+      "content": "Substitute $t=10$ into the model.<br/>$$h(10)=-16(10-8)^2+1038$$<br/>$$h(10)=-16(4)+1038=974$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

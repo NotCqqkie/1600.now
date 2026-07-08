@@ -1,0 +1,15 @@
+{
+  "questionId": "e556c5e6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the true subject",
+      "content": "The subject of the sentence is \"text,\" a singular noun. The phrase \"culled from a series of in-depth interviews\" only describes that text."
+    },
+    {
+      "title": "Match the singular verb",
+      "content": "The verb must agree with singular \"text.\" A is only a participle, B is plural and passive, and C is plural. \"Punctuates\" is the singular verb that fits the sentence. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "4504e1c1",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the target count",
+      "content": "The pair must total $\\frac{2}{5}$ of the $700$ flowers:\n$$\n\\frac{2}{5}\\cdot700=280\n$$"
+    },
+    {
+      "title": "Compare the graph values",
+      "content": "From the graph, orchid has $100$ flowers and lily has $180$ flowers. Their total is\n$$\n100+180=280\n$$\nThat equals the target count.\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

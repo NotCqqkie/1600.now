@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the logical puzzle",
-      "content": "The passage sets up an apparent paradox: thirteenth-century artifacts are found at a settlement founded in the fourteenth century. If both facts are true, what must logically also be true to make them compatible?"
+      "title": "Resolve the timeline problem",
+      "content": "The artifacts may date from the thirteenth century, but the settlement may have been founded in the fourteenth century. If both claims are true, the artifacts must be older than the settlement itself."
     },
     {
-      "title": "Determine the logical requirement",
-      "content": "For thirteenth-century artifacts to exist at a fourteenth-century-founded settlement, those artifacts cannot have originated at the site—they must have arrived after its founding through trade, migration, or similar means.<br/><br/>This is exactly what the correct answer states. The other options don't resolve the core incompatibility: <ul><li>A discusses how common artifacts from different periods are</li><li>C speculates about where the founders came from without addressing the artifact timeline</li><li>D mentions excavation damage to unrelated materials</li></ul>.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Explain how older items arrived",
+      "content": "Choice A compares artifact frequency, Choice C speculates about the founders' region, and Choice D discusses excavation damage; none resolves the timing conflict. Older artifacts at a later-founded site would need to have come from elsewhere. The answer is <strong>B</strong>."
     }
   ]
 }

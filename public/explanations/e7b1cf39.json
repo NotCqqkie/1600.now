@@ -1,0 +1,15 @@
+{
+  "questionId": "e7b1cf39",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Map the study structure",
+      "content": "The text first introduces a study in which residents of Panama City and Caracas were surveyed about parks. It then gives the park-use results: a higher percentage of Panama City respondents reported using city parks than Caracas respondents did. The final sentence considers one possible explanation, access to desired nonpark amenities near parks, and rejects that explanation because Panama City respondents reported much lower access to those amenities."
+    },
+    {
+      "title": "Reject unsupported descriptions",
+      "content": "<ul><li><strong>Choice A</strong> says the finding is attributed to the survey method, but the text does not blame or credit the method.</li><li><strong>Choice B</strong> invents an unresolved question about park planning, while the passage focuses on a study's results.</li><li><strong>Choice D</strong> describes two separate studies, but the passage presents one study involving two cities.</li></ul>The remaining option matches the introduction of the survey study followed by a rejected explanation. The answer is <strong>C</strong>."
+    }
+  ]
+}

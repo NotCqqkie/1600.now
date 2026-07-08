@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Chaining the multipliers",
-      "content": "Percentage increases are chained by multiplication. The 2012-2013 increase of 12% means multiplying by $1.12$. The 2013-2014 increase of 5% means multiplying by $1.05$. Therefore, the ratio of 2014 earnings to 2012 earnings is: $$y = 1.12 \\times 1.05$$"
+      "title": "Convert increases to multipliers",
+      "content": "A $12\\%$ increase means multiplying by $1.12$. A $5\\%$ increase means multiplying by $1.05$. To compare $2014$ earnings to $2012$ earnings, multiply the two factors."
     },
     {
-      "title": "Calculate the product",
-      "content": "Expand $(1 + 0.12)(1 + 0.05)$: $$1.12 \\times 1.05 = 1 + 0.12 + 0.05 + (0.12)(0.05) = 1 + 0.17 + 0.0060 = 1.1760$$ That matches the correct answer, so <strong>D</strong> is correct."
+      "title": "Find the total multiplier",
+      "content": "Compute the product:<br/>$$1.12(1.05)=1.1760$$<br/>So Maya earned $1.1760$ times as much in $2014$ as in $2012$. The answer is <strong>D</strong>."
     }
   ]
 }

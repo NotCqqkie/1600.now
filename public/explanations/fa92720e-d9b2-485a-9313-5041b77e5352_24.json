@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Map the logical relationship",
-      "content": "Sentence 1 sets the scene at the Marie Hitchcock Puppet Theater. The blank introduces \"they will experience puppetry in its highest form\" — describing what audiences experience <strong>at that location</strong>."
+      "title": "Track the location",
+      "content": "The first sentence places audiences at the Marie Hitchcock Puppet Theater. The next sentence describes what audiences experience at that same place, so the transition must point back to the theater."
     },
     {
-      "title": "Pick the matching transition",
-      "content": "The logical relationship between the two sentences is location-continuation. Sentence 1 places audiences at the theater; Sentence 2 describes what happens at that same place. The blank needs a transition that points back to the location just named.\n<ul>\n<li><strong>\"To that end,\"</strong>: signals that Sentence 2 is a purposeful action taken to achieve the goal in Sentence 1 — but Sentence 2 is not a purposeful step; it simply describes the experience at the same location. ✗</li>\n<li><strong>\"However,\"</strong>: signals contrast — Sentence 2 is not contrary to Sentence 1; watching a puppet show and experiencing puppetry's highest form are consistent. ✗</li>\n<li><strong>\"Conversely,\"</strong>: signals an opposite relationship — Sentence 2 continues and extends Sentence 1, not reverses it. ✗</li>\n<li><strong>\"There,\"</strong>: signals location reference, pointing back to the theater just named — exactly what connects sitting down to enjoy a show with experiencing its highest form. ✓</li>\n</ul>\nThat matches the correct answer — <strong>D</strong> is correct."
+      "title": "Use a place transition",
+      "content": "Choice A suggests a goal-directed action, but the sentence describes an experience. Choice B and Choice C signal contrast, which the text does not need. “There” refers back to the theater and connects the two sentences by location. The answer is <strong>D</strong>."
     }
   ]
 }

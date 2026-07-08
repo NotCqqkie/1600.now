@@ -1,0 +1,19 @@
+{
+  "questionId": "65fe061f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Match the known angles",
+      "content": "The given angles line up by name: angle $J$ corresponds to angle $X$, and angle $K$ corresponds to angle $Y$. The problem gives two equal pairs:<br/><br/>$$J=X=51^\\circ$$<br/>$$K=Y=89^\\circ$$"
+    },
+    {
+      "title": "Use two-angle similarity",
+      "content": "Two triangles are similar if two pairs of corresponding angles are congruent. Since those two angle pairs are already known, the third angles must also match because each triangle's angles sum to $180^\\circ$."
+    },
+    {
+      "title": "Choose the needed information",
+      "content": "The measures of angle $L$ and angle $Z$ would be extra information, not necessary information. The answer is <strong>D</strong>."
+    }
+  ]
+}

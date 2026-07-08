@@ -5,19 +5,15 @@
   "steps": [
     {
       "title": "Expand the expression",
-      "content": "$$4(2x^2+px+7)-15x(p+5)$$<br/>$$=8x^2+4px+28-15px-75x$$"
+      "content": "Distribute first:<br/>$$4(2x^2+px+7)-15x(p+5)$$<br/>$$=8x^2+4px+28-15px-75x$$"
     },
     {
-      "title": "Combine the $x$ terms",
-      "content": "The $x$-coefficient is $4p-15p-75$, so the expression becomes:<br/>$$8x^2+(-11p-75)x+28$$"
+      "title": "Combine the x terms",
+      "content": "The coefficient of $x$ is<br/>$$4p-15p-75=-11p-75$$<br/>So the expression is<br/>$$8x^2+(-11p-75)x+28$$"
     },
     {
-      "title": "Match the target coefficient",
-      "content": "The equivalent expression is $8x^2-152x+28$, so the $x$-coefficients must be equal:<br/>$$-11p-75=-152$$<br/>$$-11p=-77$$<br/>$$p=7$$"
-    },
-    {
-      "title": "Choose the answer",
-      "content": "$p=7$ matches <strong>B</strong>. A quick coefficient check gives $-11(7)-75=-152$, exactly the target $x$-coefficient."
+      "title": "Match the coefficient",
+      "content": "Match the $x$-coefficient to $-152$:<br/>$$-11p-75=-152$$<br/>$$-11p=-77$$<br/>$$p=7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

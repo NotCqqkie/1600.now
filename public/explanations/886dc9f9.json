@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the grammatical structures on each side of the blank",
-      "content": "Before the blank: independent clause (“entered San Francisco”). <br/> After the blank: participial phrase (“having left...”) followed by an independent clause (“the celebrated ship set a record...”)."
+      "title": "Separate the sentence",
+      "content": "The first part says the <em>Flying Cloud</em> entered San Francisco Bay; that is a complete clause. The next sentence begins with a participial phrase about having left New York Harbor and then gives the main clause about setting a record."
     },
     {
-      "title": "Apply the comma-splice rule",
-      "content": "Two independent clauses cannot be connected by just a comma.<br/><br/>The correct answer uses a period to separate them and structures the second sentence as a participial phrase (<em>Having left...</em>) followed by a comma and the main clause—the standard punctuation for a participial phrase at sentence start.<br/><br/>The remaining choices either create comma splices or ungrammatical constructions.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject comma-splice options",
+      "content": "Choice A joins sentence parts with <em>and having</em> in an unbalanced structure. Choice C creates a comma splice before the participial phrase. Choice D gives no punctuation after <em>Bay</em>, leaving the sentence fused. The answer is <strong>B</strong>."
     }
   ]
 }

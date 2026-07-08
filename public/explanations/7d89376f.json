@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write the ticket-count equation",
-      "content": "$x$ is the number of 80-dollar tickets and $y$ is the number of 240-dollar tickets. Together they total 130 tickets: $$x + y = 130.$$"
+      "title": "Write the ticket equation",
+      "content": "$x$ is the number of $80$-dollar tickets and $y$ is the number of $240$-dollar tickets. The airline sold $130$ tickets total, so:<br/>$$x+y=130$$"
     },
     {
       "title": "Write the revenue equation",
-      "content": "The 80-dollar tickets bring in $80x$ dollars and the 240-dollar tickets bring in $240y$ dollars, for a total of 28,800 dollars: $$80x + 240y = 28,800.$$"
-    },
-    {
-      "title": "Eliminate the answer choices",
-      "content": "<ul><li><strong>A</strong> pairs $x + y = 130$ with $80x + 240y = 28,800$ &mdash; matches our system.</li><li><strong>B</strong> uses $130 \\times 28,800$ on the right, inflating the revenue total by a factor of 130.</li><li><strong>C</strong> sets $x + y = 28,800$, which would mean 28,800 tickets sold, not 28,800 dollars.</li><li><strong>D</strong> sets $80x = 240y$ (equal revenues) and $130x + 130y = 28,800$, neither of which captures 130 tickets sold for 28,800 dollars total.</li></ul>That confirms <strong>A</strong> is correct."
+      "content": "The revenue from the two ticket prices is:<br/>$$80x+240y=28{,}800$$<br/>Together with $x+y=130$, this is the system shown in the matching choice. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "questionId": "3171f1c3",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert square units",
+      "content": "Since $1$ centimeter equals $10$ millimeters, square the conversion for area:\n$$\n1\\text{ cm}^2=100\\text{ mm}^2\n$$"
+    },
+    {
+      "title": "Divide by the area factor",
+      "content": "The density $0.734$ grams per square centimeter is the same as $0.734$ grams per $100$ square millimeters:\n$$\n\\frac{0.734}{100}=0.00734\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

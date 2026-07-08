@@ -1,0 +1,15 @@
+{
+  "questionId": "d5049d40",
+  "correctAnswer": "5",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the intercept",
+      "content": "The $y$-intercept is where the graph crosses the $y$-axis. At that point, $x=0$."
+    },
+    {
+      "title": "Read the coordinate",
+      "content": "The graph crosses the $y$-axis at $(0,5)$. In the point $(0,y)$, the second coordinate is the requested value. The answer is <strong>5</strong>."
+    }
+  ]
+}

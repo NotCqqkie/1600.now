@@ -1,0 +1,15 @@
+{
+  "questionId": "fe38ee6e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Compare disturbance types",
+      "content": "Many studies found a positive association between dissolved organic carbon and mercury in undisturbed fresh water. Fournier and Rousseau did not find that correlation in waters affected by wastewater, which led some scientists to think the association might be limited to undisturbed waters. Lindgren's urban-development study then found results similar to the undisturbed-water studies."
+    },
+    {
+      "title": "Limit the inference",
+      "content": "Choice B invents a measurement-method difference. Choice C compares how many bodies of water each disturbance affects, which the text never gives. Choice D compares absolute substance levels rather than whether the correlation exists. Choice A fits because wastewater disturbance cannot stand in for every type of human disturbance. The answer is <strong>A</strong>."
+    }
+  ]
+}

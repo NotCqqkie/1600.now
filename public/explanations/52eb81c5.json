@@ -1,0 +1,19 @@
+{
+  "questionId": "52eb81c5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Test the mean statement",
+      "content": "The removed value, $76.2^{\\circ}\\text{F}$, is above the rest of the data shown in the histogram. Removing a value above the original mean lowers the mean, so statement I must be true."
+    },
+    {
+      "title": "Test the median statement",
+      "content": "With $11$ values, the median is the $6$th ordered value. After removing the high value, the new median is the average of the $5$th and $6$th ordered values, which does not have to be less than the original median."
+    },
+    {
+      "title": "Choose the true statements",
+      "content": "Only statement I must be true. The answer is <strong>A</strong>."
+    }
+  ]
+}

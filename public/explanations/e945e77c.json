@@ -1,0 +1,15 @@
+{
+  "questionId": "e945e77c",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the height formula",
+      "content": "For an equilateral triangle with side length $s$, the height is<br/>$$h=\\frac{s\\sqrt3}{2}$$Substitute the given height into this relationship."
+    },
+    {
+      "title": "Isolate the side length",
+      "content": "Solve for $s$ by multiplying by $2$ and then dividing by $\\sqrt3$.<br/>$$52\\sqrt3=\\frac{s\\sqrt3}{2}$$<br/>$$104\\sqrt3=s\\sqrt3$$<br/>$$104=s$$The answer is <strong>B</strong>."
+    }
+  ]
+}

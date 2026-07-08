@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Write out the addition",
-      "content": "The sum is $(4x^4 + 3x^3) + (5x^4 + 6x^3)$. Group terms by their exponent."
+      "title": "Group the like terms",
+      "content": "Write the sum and group terms with the same power of $x$:<br/>$$(4x^4+3x^3)+(5x^4+6x^3)$$<br/>$$(4x^4+5x^4)+(3x^3+6x^3)$$"
     },
     {
-      "title": "Add the $x^4$ terms",
-      "content": "$4x^4 + 5x^4 = (4 + 5)x^4 = 9x^4$."
-    },
-    {
-      "title": "Add the $x^3$ terms",
-      "content": "$3x^3 + 6x^3 = (3 + 6)x^3 = 9x^3$. The full sum is $9x^4 + 9x^3$."
-    },
-    {
-      "title": "Evaluate all choices",
-      "content": "<ul><li>A: $x^{14}$ &mdash; Exponents are added as if multiplying, not adding polynomials. Eliminated.</li><li>B: $x^8 + 9x^6$ &mdash; Exponents are doubled, not like terms combined. Eliminated.</li><li>C: $x^4 + 18x^3$ &mdash; The $x^3$ coefficient 18 comes from $3\\cdot6$ rather than $3+6$. Eliminated.</li><li>D: $9x^4 + 9x^3$ &mdash; The coefficients are correct ($4+5=9$ and $3+6=9$). That is the correct answer.</li></ul>"
+      "title": "Add the coefficients",
+      "content": "Only the coefficients of like terms are added:<br/>$$(4+5)x^4+(3+6)x^3$$<br/>$$9x^4+9x^3$$<br/>The answer is <strong>D</strong>."
     }
   ]
 }

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply function composition",
-      "content": "Since $h(x) = f(x-4)$, substitute $(x-4)$ for $x$ in the definition of $f(x) = 304 \\cdot 2^x$:<br/>$$h(x) = f(x-4) = 304 \\cdot 2^{x-4}$$"
+      "title": "Substitute into the function",
+      "content": "Since $h(x)=f(x-4)$, replace the input of $f$ with $x-4$:<br/>$$h(x)=304(2)^{x-4}$$"
     },
     {
-      "title": "Use exponent rules to separate the terms",
-      "content": "Rewrite $2^{x-4}$ using the rule $a^{m-n} = a^m \\cdot a^{-n}$:<br/>$$2^{x-4} = 2^x \\cdot 2^{-4} = 2^x \\cdot \\frac{1}{16}$$<br/>Substitute back into the expression for $h(x)$:<br/>$$h(x) = 304 \\cdot 2^x \\cdot \\frac{1}{16} = \\frac{304}{16} \\cdot 2^x$$"
+      "title": "Separate the exponent",
+      "content": "Rewrite the power using exponent rules:<br/>$$304(2)^{x-4}=304(2^x)(2^{-4})$$<br/>$$304(2^x)(\\frac{1}{16})=\\frac{304}{16}(2^x)$$"
     },
     {
-      "title": "Evaluate the coefficient",
-      "content": "Divide to find the constant factor:<br/>$$\\frac{304}{16} = 19$$<br/>Therefore $h(x) = 19 \\cdot 2^x$. That matches the correct answer &mdash; <strong>A</strong> is correct."
+      "title": "Simplify the coefficient",
+      "content": "Evaluate the coefficient:<br/>$$\\frac{304}{16}=19$$<br/>So the equation is<br/>$$h(x)=19(2)^x$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Express the weight as a function of volume",
-      "content": "The total weight $x$ equals the weight per cubic foot times the volume. Since the weight per cubic foot is 160 pounds and the volume is $V$ cubic feet: $$x = 160V$$ The volume constraint given is: $$10.4 \\lt V \\lt 13.4$$"
+      "title": "Start with the volume range",
+      "content": "Let $V$ be the volume. The estimate says the volume is greater than $10.4$ cubic feet and less than $13.4$ cubic feet:<br/>$$10.4<V<13.4$$"
     },
     {
-      "title": "Transform the volume inequality to a weight inequality",
-      "content": "Multiply all parts of the volume inequality by 160 to get the weight inequality: $$160(10.4) \\lt 160V \\lt 160(13.4)$$ Substituting $x = 160V$: $$160(10.4) \\lt x \\lt 160(13.4)$$ That matches the correct answer — <strong>C</strong> is correct."
+      "title": "Convert volume to weight",
+      "content": "The block weighs $160$ pounds per cubic foot, so multiply every part of the volume inequality by $160$:<br/>$$160(10.4)<160V<160(13.4)$$Since $x=160V$, the weight inequality is:<br/>$$160(10.4)<x<160(13.4)$$The answer is <strong>C</strong>."
     }
   ]
 }

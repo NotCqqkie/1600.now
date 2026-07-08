@@ -1,0 +1,15 @@
+{
+  "questionId": "f4fec01f",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a decline",
+      "content": "The researcher's claim is about some lakes having fewer days of ice between the early 1980s and the mid-2000s. Supporting data must compare the same lake across those two winters."
+    },
+    {
+      "title": "Compare one lake over time",
+      "content": "Choice B and Choice C compare different lakes rather than showing a decline over time. Choice D shows Lake Neusiedl gaining ice days, not losing them. Kalmarinjarvi has fewer ice days in 2005-06 than in 1980-81, which supports the claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

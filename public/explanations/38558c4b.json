@@ -1,0 +1,15 @@
+{
+  "questionId": "38558c4b",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the introductory modifier",
+      "content": "The phrase \"First assigned to Britain in the 1960s <em>Red Book</em>\" describes the international dialing prefix. Therefore, the subject immediately after the comma should be that prefix."
+    },
+    {
+      "title": "Match modifier to subject",
+      "content": "A and B make international direct dialing the subject, and C makes switchboard operators the subject. Only a clause whose subject is the prefix avoids a dangling modifier. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "74560169",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the dog count",
+      "content": "The service cares for $32$ dogs, so substitute $d=32$ into the equation.<br/>$$4.5c+9(32)=288$$"
+    },
+    {
+      "title": "Solve for cats",
+      "content": "Simplify the equation. The dog term alone uses all $288$ units of weekly care capacity, so no capacity remains for cats.<br/>$$4.5c+288=288$$<br/>$$4.5c=0$$<br/>$$c=0$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Parallel lines share the same slope",
-      "content": "Parallel shortcut: equal slopes. The given line $y = 8x + 2$ has slope $8$, so our line also has slope $8$."
+      "title": "Use the parallel slope",
+      "content": "The line $y=8x+2$ has slope $8$. A parallel line has the same slope, so the new line also has slope $8$."
     },
     {
-      "title": "Use the given point",
-      "content": "The line passes through $(0,6)$, so its $y$-intercept is $6$."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "Slope $8$ and $y$-intercept $6$ give $y=8x+6$. That matches <strong>Choice B &mdash; $y=8x+6$</strong>."
+      "title": "Use the given intercept",
+      "content": "The line passes through $(0,6)$, so its $y$-intercept is $6$. Therefore, its equation is<br/>$$y=8x+6$$The answer is <strong>B</strong>."
     }
   ]
 }

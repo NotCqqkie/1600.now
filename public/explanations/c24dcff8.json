@@ -1,0 +1,15 @@
+{
+  "questionId": "c24dcff8",
+  "correctAnswer": "7",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Read the given slope",
+      "content": "Line $r$ is written as $y=7x-5$, so its slope is $7$."
+    },
+    {
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $t$ is parallel to line $r$, the slope of line $t$ is also $7$. The answer is <strong>7</strong>."
+    }
+  ]
+}

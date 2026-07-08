@@ -1,0 +1,23 @@
+{
+  "questionId": "33d8a0e9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Attach the opening description",
+      "content": "The sentence begins with the modifier Defined by a disorganized molecular structure. The noun immediately after that modifier must be the thing being defined by a disorganized molecular structure."
+    },
+    {
+      "title": "Reject the wrong subjects",
+      "content": "Choice A and Choice B put ice Ih after the modifier, but the passage says ice Ih has a crystalline hexagonal structure. Choice C puts the lack of thermal energy after the modifier, but a lack of energy is not the ice type with the disorganized molecular structure."
+    },
+    {
+      "title": "Use the passage contrast",
+      "content": "The contrast in the passage is between crystalline ice Ih and amorphous ice. Since amorphous ice is defined by disorder, the completion has to keep that description attached to amorphous ice rather than shifting it to the crystalline form."
+    },
+    {
+      "title": "Place amorphous ice first",
+      "content": "The sentence needs to begin the main clause with amorphous ice because amorphous ice is the type defined by a disorganized molecular structure. It also logically explains that amorphous ice lacks the thermal energy to form the crystals found in ice Ih. The answer is <strong>D</strong>."
+    }
+  ]
+}

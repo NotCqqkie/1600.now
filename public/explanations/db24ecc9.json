@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Recognize the series with internal punctuation",
-      "content": "The sentence names three parallel purposes (all gerund phrases): growing diverse plant species, fostering scientific research, and educating the public.<br/><br/>The phrase <em>“both native and nonnative”</em> is a clarification that must be set off by commas around <em>“species”</em>—creating a comma within the first item."
+      "title": "Identify the series",
+      "content": "The sentence lists three things botanical gardens are dedicated to: growing diverse plant species, fostering scientific research, and educating the public. The phrase “both native and nonnative” simply describes the plant species, so commas should set it off inside the first list item."
     },
     {
-      "title": "Apply the semicolon rule for complex series",
-      "content": "When items in a series contain internal commas, semicolons (not commas) separate the items to prevent confusion between internal punctuation and item separators.<br/><br/>Since the first gerund now reads <em>“growing diverse plant species, both native and nonnative”</em> (with an internal comma), the separator between items must be a semicolon.<br/><br/>The structure is: [gerund 1, with internal comma]; [gerund 2]; and [gerund 3].<br/><br/>Two other options use comma separation despite the internal punctuation; the misplaced-semicolon alternative misplaces the semicolon before rather than after the clarifying phrase.<br/><br/>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Match the semicolon pattern",
+      "content": "The sentence already uses a semicolon before the third list item, “and educating the public.” To keep the list parallel, the first item should also end with a semicolon after “nonnative.” Choice A uses only commas, Choice C puts the semicolon before the descriptive phrase, and Choice D fails to set off the descriptor. The answer is <strong>B</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "89bf28c1",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Complete the sentence directly",
+      "content": "The sentence is saying what the average summer temperature in Tallinn is: \"the average summer temperature ______ just 66.7 degrees Fahrenheit.\" The subject is \"the average summer temperature,\" and \"just 66.7 degrees Fahrenheit\" is the complement that completes the idea."
+    },
+    {
+      "title": "Avoid interrupting the verb",
+      "content": "A linking verb should connect the subject directly to its complement. No punctuation is needed between the verb and the number because the words after the blank are not a separate sentence or an explanation introduced by punctuation."
+    },
+    {
+      "title": "Eliminate punctuation choices",
+      "content": "Choice B, \"is;\", uses a semicolon before words that cannot stand as an independent clause. Choice C, \"is:\", uses a colon after an incomplete thought. Choice D, \"is,\" places a comma between the linking verb and its complement. The plain verb completes the sentence correctly. The answer is <strong>A</strong>."
+    }
+  ]
+}

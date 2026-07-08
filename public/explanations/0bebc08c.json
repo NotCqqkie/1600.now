@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute x = 4 into the equation for y",
-      "content": "We're given $x = 4$ and $y = (16 - x)^2$. Substitute $x = 4$ into the second equation:<br/>$$y = (16 - 4)^2 = 12^2 = 144$$"
+      "title": "Find the y-value",
+      "content": "The system gives $x=4$. Substitute that into $y=(16-x)^2$.<br/>$$y=(16-4)^2=12^2=144$$"
     },
     {
-      "title": "Calculate xy",
-      "content": "Now multiply $x$ and $y$:<br/>$$xy = 4 \\cdot 144 = 576$$<br/>That matches <strong>Choice A &mdash; $576$</strong>."
+      "title": "Multiply the coordinates",
+      "content": "Now multiply the values of $x$ and $y$.<br/>$$xy=4\\cdot 144=576$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

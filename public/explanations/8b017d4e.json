@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the opening phrase logically needs",
-      "content": "The phrase “Supported by biochemical analyses...” describes something being supported by scientific evidence. This opening must logically connect to a subject. What does evidence logically “support” — the physical items being studied, or the conclusions drawn about them?"
+      "title": "Attach the opening modifier",
+      "content": "The opening phrase \"Supported by biochemical analyses of over 2,000 skeletons\" must logically describe the thing that is supported by those analyses. It should modify findings from a study, not vegetables, grains, or diets themselves."
     },
     {
-      "title": "Find the subject that evidence logically supports",
-      "content": "The correct answer uses “findings from a 2022 study” as the subject — findings are what biochemical evidence logically “supports” or validates.<br/><br/>Answers that make vegetables, diets, or components the subject are illogical because evidence analyzes those things; evidence does not “support” the items themselves. That confirms <strong>D</strong> is correct."
+      "title": "Reject dangling modifiers",
+      "content": "Choice A makes vegetables and grains seem supported by the analyses. Choice B makes the diets themselves seem supported by analyses. Choice C also places the diet components where the modifier cannot logically attach."
+    },
+    {
+      "title": "Name the supported findings",
+      "content": "The remaining choice makes findings from a 2022 study the noun supported by biochemical analyses. The answer is <strong>D</strong>."
     }
   ]
 }

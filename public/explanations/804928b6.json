@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the goal and what the audience already knows",
-      "content": "The student wants to describe <em>where Zhang is positioned</em> in the photograph. The audience is already familiar with both Park and Zhang, so biographical details about either artist (who they are, where Park is based) are irrelevant. The answer must focus on Zhang&apos;s location in the frame."
+      "title": "Focus on Zhang position",
+      "content": "The student wants to describe <em>where Zhang is positioned</em> in the photograph. The audience is already familiar with both Park and Zhang, so biographical details about either artist (who they are, where Park is based) are irrelevant. The answer must focus on Zhang's location in the frame."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul>\n<li><strong>Choice A &mdash; &lsquo;Camille Zhang is in a photograph by Nina Park, a portrait photographer based in New York City and Austin, Texas.&rsquo;</strong>: States that Zhang appears in the photo but says nothing about where Zhang is positioned; wastes words on Park&apos;s biography the audience already knows. &#10007;</li>\n<li><strong>Choice B &mdash; &lsquo;Nina Park is a photographer based in both New York City and Austin, Texas.&rsquo;</strong>: Describes Park, not Zhang&apos;s location in the photograph at all. &#10007;</li>\n<li><strong>Choice C &mdash; &lsquo;Five paintings by artist Camille Zhang can be seen in the background of Nina Park's photograph.&rsquo;</strong>: Focuses on the paintings in the background rather than on where Zhang herself is positioned. &#10007;</li>\n<li><strong>Choice D &mdash; &lsquo;In Park's portrait of her, Zhang is seated on the floor, with five of her paintings resting against the wall behind her.&rsquo;</strong>: Directly describes Zhang&apos;s position (seated on the floor) without any unnecessary biographical information. &#10003;</li>\n</ul>\nThat confirms <strong>D</strong> is correct."
+      "title": "Rule out off-target choices",
+      "content": "<ul><li><strong>Choice A — 'Camille Zhang is in a photograph by Nina Park, a portrait photographer based in New York City and Austin, Texas.'</strong>: States that Zhang appears in the photo but says nothing about where Zhang is positioned; wastes words on Park's biography the audience already knows.</li><li><strong>Choice B — 'Nina Park is a photographer based in both New York City and Austin, Texas.'</strong>: Describes Park, not Zhang's location in the photograph at all.</li><li><strong>Choice C — 'Five paintings by artist Camille Zhang can be seen in the background of Nina Park's photograph.'</strong>: Focuses on the paintings in the background rather than on where Zhang herself is positioned.</li></ul>"
+    },
+    {
+      "title": "Choose the position description",
+      "content": "<ul><li><strong>Choice D — 'In Park's portrait of her, Zhang is seated on the floor, with five of her paintings resting against the wall behind her.'</strong>: Directly describes Zhang's position (seated on the floor) without any unnecessary biographical information.</li></ul>The answer is <strong>D</strong>."
     }
   ]
 }

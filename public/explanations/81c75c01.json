@@ -1,0 +1,15 @@
+{
+  "questionId": "81c75c01",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the demographic test",
+      "content": "The archaeologists' assumption gives a test for a major demographic shift: if expertise transmission is interrupted, the archaeological record should show simultaneous reductions in multiple specialized crafting traditions. Around 1500 BCE, the inventories show a steep drop in gold filigree, but advanced copper-alloy metallurgy and most other specialized crafts continued to flourish."
+    },
+    {
+      "title": "Infer continuity from the pattern",
+      "content": "Since only gold filigree shows the steep decline, the expected broad collapse across multiple crafts is missing. That pattern suggests the filigree disruption likely happened without a major demographic break. Choice B rejects the stated assumption rather than applying it. Choice C incorrectly says goldsmithing continued, despite the drop in gold filigree objects. Choice D invents cross-cultural transmission and an expansion of copper-alloy metallurgy. The answer is <strong>A</strong>."
+    }
+  ]
+}

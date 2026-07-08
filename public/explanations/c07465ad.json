@@ -1,0 +1,15 @@
+{
+  "questionId": "c07465ad",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Explain the resistance",
+      "content": "The sentence says no amount of justification for a higher toll will persuade some drivers. That reaction makes sense if they already believe the current toll is unreasonably high."
+    },
+    {
+      "title": "Reject weaker attitudes",
+      "content": "Choice A means justified, the opposite of the drivers' objection. Choice C means ambiguous, but the drivers' view is firm. Choice D means disputed, which is too vague to explain resistance to a higher toll. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "b8f53724",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the central hypothesis",
+      "content": "The passage asks why black-footed cats purr while leopards roar. It explains that differences in the hyoid bone and related structures may allow roaring and may prevent purring."
+    },
+    {
+      "title": "Reject narrow summaries",
+      "content": "Choice A lists one structural difference. Choice B focuses only on why leopards roar. Choice C says researchers are uncertain, but the passage presents a specific hypothesis. The main idea must connect hyoid differences to the purr-roar contrast. The answer is <strong>D</strong>."
+    }
+  ]
+}

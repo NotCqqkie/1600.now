@@ -1,0 +1,15 @@
+{
+  "questionId": "5ce77c63",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Identify the uncertainty",
+      "content": "The passage says Bellamy was long thought to be the original author of the pledge. A newly discovered article from before August 1892 describes students reciting the same pledge, so Bellamy may not have created it after all."
+    },
+    {
+      "title": "Rule out unrelated facts",
+      "content": "Choice A concerns later changes to the pledge. Choice B concerns students' preferences. Choice C concerns the name of a newspaper. The evidence instead makes the original authorship uncertain. The answer is <strong>D</strong>."
+    }
+  ]
+}

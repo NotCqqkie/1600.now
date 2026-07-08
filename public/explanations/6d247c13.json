@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the phrase structure needed",
-      "content": "The blank appears at the start of an introductory phrase: “[BLANK] by businessman William A.G. Brown, the saloon was known...” This position requires a participle form—a non-finite verb that modifies the subject of the main clause."
+      "title": "Complete the opening modifier",
+      "content": "The blank starts an introductory phrase ending with by businessman William A.G. Brown. That phrase modifies the saloon, so it needs a past participle that can work with by to show who made it."
     },
     {
-      "title": "Match the participle to the tense",
-      "content": "Since the sentence is entirely in past tense, an introductory participial phrase must use a past participle. “Created” correctly conveys a completed past action.<br/><br/>Creates and Create are finite verbs that cannot function as modifiers, and “Creating” is a present participle that contradicts the past-tense context.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject forms that break the phrase",
+      "content": "Choices B and D are finite verb forms, so they cannot introduce the modifier before the main clause. Choice C is an active participle and does not fit with by in this passive structure. The answer is <strong>A</strong>."
     }
   ]
 }

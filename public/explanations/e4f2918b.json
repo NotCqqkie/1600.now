@@ -1,0 +1,15 @@
+{
+  "questionId": "e4f2918b",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the subject",
+      "content": "The subject of the main clause is \"an artificial intelligence,\" which is singular. The descriptive phrase about absorbing and redistributing energies does not change the subject's number."
+    },
+    {
+      "title": "Match singular agreement",
+      "content": "B and D use plural auxiliary verbs, and C uses a plural/base verb form. Each disagrees with the singular subject. The sentence needs a third-person singular present-tense verb. The answer is <strong>A</strong>."
+    }
+  ]
+}

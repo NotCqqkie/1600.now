@@ -1,0 +1,15 @@
+{
+  "questionId": "1d493cc6",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Clear the denominator",
+      "content": "Start with the given equation and multiply both sides by $x$.<br/>$$\\frac{y-28}{x}=p$$<br/>$$y-28=px$$"
+    },
+    {
+      "title": "Isolate the variable",
+      "content": "Add $28$ to both sides to express $y$ in terms of $p$ and $x$.<br/>$$y=px+28$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

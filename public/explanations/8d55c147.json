@@ -1,0 +1,15 @@
+{
+  "questionId": "8d55c147",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Test the all-volcano claim",
+      "content": "The student's claim is that all volcanoes in Ecuador are shield volcanoes. To weaken that claim, the table must show that at least one Ecuadoran volcano listed is not a shield volcano."
+    },
+    {
+      "title": "Use the counterexample",
+      "content": "A is factually wrong because Chacana and Chimborazo are not both shield volcanoes. B discusses eruption dates, not the type claim. D is factually wrong because Fernandina is a shield volcano. The answer is <strong>C</strong>."
+    }
+  ]
+}

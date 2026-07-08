@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Command of Evidence question. Caldwell argues that translating &quot;mimesis&quot; as &quot;imitation&quot; is overly reductive because it implies art merely copies reality, obscuring the multifaceted ways ancient Greeks understood the art-reality relationship. The correct answer must directly support that claim."
+      "title": "Match Caldwell's claim",
+      "content": "Caldwell says translating \"mimesis\" as \"imitation\" is too narrow because it suggests art merely copies existing reality. Support must show ancient Greek thinkers understood art's relation to reality in more varied ways, including possibilities beyond simple copying."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; One of the earliest appearances of mimesis's root word, <em>mimos</em>, can be found in an ancient Greek tragedy in reference to dramatic impersonation, and the <em>mim-</em> root came to be generally associated with the musical and poetic arts by the fifth century BCE.</strong>: This is about etymology and the word&apos;s early usage history, not about what &quot;mimesis&quot; meant philosophically. It says nothing about whether the art-reality relationship was understood in varied ways. &#10007;</li><li><strong>Choice B &mdash; Both Plato's and Aristotle's theorizations of mimesis examine the psychological effects that works of art induce in the viewer or listener.</strong>: This points to one similarity between the two philosophers, not to varied understandings of art&apos;s relationship to reality. The issue of psychological effects is separate from whether art merely copies or creates something new. &#10007;</li><li><strong>Choice C &mdash; Although several of Plato's earliest philosophical works discuss aesthetic ideas, the term \"mimesis\" doesn't appear in Plato's discussions of art until <em>Cratylus</em>, a relatively late work.</strong>: This is a chronological note about when Plato adopted the term, not about what the term means or how ancient Greeks understood art and reality. &#10007;</li><li><strong>Choice D &mdash; Although Plato's writings typically characterize representational art as an inferior reflection of the physical world, Aristotle suggests that mimesis can refer to art's capacity to envision hypothetical conditions that could, but don't yet, exist.</strong>: This directly shows (1) that mimesis means more than simple copying &mdash; Aristotle extends it to hypothetical creation &mdash; and (2) that ancient Greek philosophers held varied views of the art-reality relationship. Both points support Caldwell&apos;s claim. &#10003;</li></ul>That matches <strong>Choice D &mdash; Although Plato's writings typically characterize representational art as an inferior reflection of the physical world, Aristotle suggests that mimesis can refer to art's capacity to envision hypothetical conditions that could, but don't yet, exist.</strong>."
+      "title": "Look for varied Greek views",
+      "content": "The supporting statement should contrast a copy-based view with a broader view. Evidence that Aristotle treated mimesis as art's ability to imagine possible conditions would directly challenge the idea that the term only means imitation and would show the multifaceted understanding Caldwell describes in ancient views."
+    },
+    {
+      "title": "Reject weaker evidence",
+      "content": "A discusses the word's early usage, not the philosophical art-reality relationship. B names a shared concern with psychological effects, not a richer meaning of mimesis. C only gives chronology for Plato's use of the term. The answer is <strong>D</strong>."
     }
   ]
 }

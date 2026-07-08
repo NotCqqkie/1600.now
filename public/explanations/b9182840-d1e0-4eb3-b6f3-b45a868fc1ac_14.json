@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Apply the cofunction identity",
-      "content": "Since $R + S = 90^{\\circ}$, angles $R$ and $S$ are complementary. For complementary angles:<br/>$$\\cos(S) = \\sin(90^{\\circ} - S) = \\sin(R)$$"
+      "title": "Use complementary angles",
+      "content": "Since $R+S=90^{\\circ}$, $\\cos(S)=\\sin(R)$."
     },
     {
-      "title": "Substitute",
-      "content": "$\\cos(S) = \\sin(R) = \\dfrac{2\\sqrt{10}}{7}$.<br/><br/>That is the correct answer."
+      "title": "Substitute the given value",
+      "content": "$$\\cos(S)=\\sin(R)=\\frac{2\\sqrt{10}}{7}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

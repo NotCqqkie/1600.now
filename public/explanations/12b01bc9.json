@@ -1,0 +1,15 @@
+{
+  "questionId": "12b01bc9",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the practical use",
+      "content": "The passage says Mars simulants help scientists evaluate how well their devices will handle the surface when operated on Mars. Their value is in testing equipment under Mars-like surface conditions."
+    },
+    {
+      "title": "Use the equipment test",
+      "content": "The matching choice says simulants let scientists test whether equipment can withstand mission conditions. Choice A invents tracking chemical changes over time, Choice B invents a planet-to-planet comparison, and Choice C shifts the use to extreme terrains on Earth. The answer is <strong>D</strong>."
+    }
+  ]
+}

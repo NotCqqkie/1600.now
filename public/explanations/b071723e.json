@@ -1,0 +1,15 @@
+{
+  "questionId": "b071723e",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use equal side lengths",
+      "content": "An equilateral triangle has all three side lengths equal. The question already gives $PQ=3{,}860$ millimeters and $QR=3{,}860$ millimeters."
+    },
+    {
+      "title": "Match the third side",
+      "content": "To prove triangle $PQR$ is equilateral, the remaining side must have that same length, so $PR$ must be $3{,}860$ millimeters. The answer is <strong>D</strong>."
+    }
+  ]
+}

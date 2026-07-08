@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Distribute the constant",
-      "content": "Start with the given equation:<br/>$$ y = \\frac{1}{3}(26x+11) + 4x $$<br/>Distribute the $\\frac{1}{3}$ across the parentheses:<br/>$$ y = \\frac{26}{3}x + \\frac{11}{3} + 4x $$"
+      "title": "Distribute the fraction",
+      "content": "Start with the equation and distribute $\\frac{1}{3}$:<br/>$$y=\\frac{1}{3}(26x+11)+4x$$<br/>$$y=\\frac{26}{3}x+\\frac{11}{3}+4x$$"
     },
     {
-      "title": "Combine like terms to find the slope",
-      "content": "Combine the x-terms:<br/>$$ \\frac{26}{3}x + 4x = \\left(\\frac{26}{3} + \\frac{12}{3}\\right)x = \\frac{38}{3}x $$<br/>Thus the equation is $$ y = \\frac{38}{3}x + \\frac{11}{3} $$, so the slope is the coefficient of x: $$ \\frac{38}{3} \\approx 12.66 $$.<br/>The answer is <strong>38/3</strong>."
+      "title": "Combine the x-terms",
+      "content": "Rewrite $4x$ with denominator $3$ and combine like terms:<br/>$$\\frac{26}{3}x+4x=\\frac{26}{3}x+\\frac{12}{3}x=\\frac{38}{3}x$$"
+    },
+    {
+      "title": "Identify the slope",
+      "content": "The equation can be written as:<br/>$$y=\\frac{38}{3}x+\\frac{11}{3}$$<br/>The slope is the coefficient of $x$. The answer is <strong>38/3</strong>."
     }
   ]
 }

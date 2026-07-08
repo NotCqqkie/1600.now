@@ -4,24 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>A</strong>, $\\frac{{h}^{12}}{{q}^{16}}$."
+      "title": "Subtract matching-base exponents",
+      "content": "When powers with the same base are divided, subtract the exponents. Apply that rule separately to $h$ and $q$.<br/>$$\\frac{h^{16}q^8}{h^4q^{24}}=h^{16-4}q^{8-24}$$<br/>$$=h^{12}q^{-16}$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
+      "title": "Move the negative exponent",
+      "content": "A negative exponent means the factor belongs in the denominator.<br/>$$q^{-16}=\\frac{1}{q^{16}}$$<br/>So the expression becomes<br/>$$\\frac{h^{12}}{q^{16}}$$"
     },
     {
-      "title": "Apply the quotient rule for exponents",
-      "content": "When dividing powers with the same base, subtract the exponents. Apply this separately to $h$ and $q$:<br/>$$\\frac{h^{16}}{h^4} = h^{16-4} = h^{12}$$<br/>$$\\frac{q^{8}}{q^{24}} = q^{8-24} = q^{-16}$$"
-    },
-    {
-      "title": "Rewrite with positive exponents",
-      "content": "A negative exponent moves the factor to the denominator:<br/>$$q^{-16} = \\frac{1}{q^{16}}$$<br/>So the expression simplifies to $\\dfrac{h^{12}}{q^{16}}$."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; $\\frac{{h}^{12}}{{q}^{16}}$</strong>: $h^{16-4} = h^{12}$ in the numerator; $q^{8-24} = q^{-16} = \\frac{1}{q^{16}}$ in the denominator. Correct. &#10003;</li><li><strong>Choice B &mdash; $\\frac{{h}^{4}}{{q}^{3}}$</strong>: $h^{16} / h^4 = h^{12}$, not $h^4$; and $q^8 / q^{24} = q^{-16}$, not $q^{-3}$. Both exponents are wrong. &#10007;</li><li><strong>Choice C &mdash; ${h}^{12}{q}^{16}$</strong>: Gets the $h$ exponent right but misplaces $q$ in the numerator instead of the denominator. &#10007;</li><li><strong>Choice D &mdash; ${h}^{4}{q}^{3}$</strong>: Both exponents are wrong and $q$ is in the wrong position. &#10007;</li></ul>That matches <strong>Choice A &mdash; $\\frac{{h}^{12}}{{q}^{16}}$</strong>."
+      "title": "Match the expression",
+      "content": "Choice C leaves $q^{16}$ in the numerator, and choices B and D use the wrong exponents. The simplified expression matches choice A. The answer is <strong>A</strong>."
     }
   ]
 }

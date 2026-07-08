@@ -1,0 +1,15 @@
+{
+  "questionId": "ae53d55a",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the Oscar pattern",
+      "content": "The example needs to show an Oscar-recognized film with a modest opening weekend but stronger lifetime earnings than a comparable film without that recognition."
+    },
+    {
+      "title": "Reject incomplete comparisons",
+      "content": "Choice A gives only opening-weekend figures. Choice C compares two Oscar-recognized films, so it cannot show the effect of recognition against nonrecognition. Choice D points to a nonrecognized film earning more, weakening the journalist's claim. The remaining choice contrasts <em>Amélie</em>'s weaker opening with its stronger lifetime earnings. The answer is <strong>B</strong>."
+    }
+  ]
+}

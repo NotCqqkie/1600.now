@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the corresponding angles",
-      "content": "The triangles are congruent, so corresponding angles are congruent. Since $A$ corresponds to $D$ and $B$ and $E$ are both right angles, the remaining angles $C$ and $F$ must correspond."
+      "title": "Use corresponding angles",
+      "content": "The triangles are congruent. Since $A$ corresponds to $D$ and both $B$ and $E$ are right angles, the remaining angles $C$ and $F$ correspond."
     },
     {
-      "title": "Use angle sum to find angle C",
-      "content": "In any triangle, the sum of angles is $180^{\\circ}$. In triangle $ABC$:<br/>$$27^{\\circ} + 90^{\\circ} + \\text{angle } C = 180^{\\circ}$$<br/>$$\\text{angle } C = 63^{\\circ}$$"
+      "title": "Find the remaining angle",
+      "content": "In triangle $ABC$, the angles sum to $180^\\circ$.<br/>$$27+90+C=180$$<br/>$$C=63$$"
     },
     {
-      "title": "Find angle F using congruence",
-      "content": "Since the triangles are congruent with A corresponding to D and B corresponding to E, the remaining vertices must correspond: C and F. Congruent triangles have equal corresponding angles, so angle F = angle C = $63^{\\circ}$. That matches <strong>Choice B &mdash; $63^\\circ$</strong>."
+      "title": "Transfer the measure",
+      "content": "Corresponding angles in congruent triangles have equal measures, so angle $F$ has the same measure as angle $C$. The answer is <strong>B</strong>."
     }
   ]
 }

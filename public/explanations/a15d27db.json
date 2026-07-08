@@ -1,0 +1,19 @@
+{
+  "questionId": "a15d27db",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the contrast with NEPS",
+      "content": "NEPS needs extensive funding because it tracks educational trends over long timescales and at repeated intervals. The transportation example is more constrained: it seeks only an average number of daily public-transportation users."
+    },
+    {
+      "title": "Reject funding distractions",
+      "content": "B discusses priority for funding rather than dependence on funding. C focuses on participant count without connecting it to the study's goal. D speculates about expanding the study's scope, which the passage does not require."
+    },
+    {
+      "title": "Explain the lower dependence",
+      "content": "A study seeking a daily average is less funding dependent because it is not trying to identify trends over time. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: mark the figure first",
-      "content": "Mark the given angle relationships on the figure first: equal angles, vertical angles, supplementary angles, parallel-line angles, and triangle sums of $180^\\circ$. Most of these questions become a short angle chase once the givens are marked."
+      "title": "Use corresponding angles",
+      "content": "The triangles are similar in the order triangle CAE to triangle CBD. That means the corresponding vertices are C to C, A to B, and E to D."
     },
     {
-      "title": "Apply similarity to identify equal angles",
-      "content": "Triangle $CAE \\sim$ triangle $CBD$, with the vertex correspondence $C\\leftrightarrow C$, $A\\leftrightarrow B$, $E\\leftrightarrow D$. Corresponding angles in similar triangles are congruent, so angle $CAE$ = angle $CBD$. The side scale factor ($AE = 26 \\cdot BD$) does not affect angle measures."
+      "title": "Match the angle measures",
+      "content": "Corresponding angles in similar triangles are congruent, so angle CAE equals angle CBD. The side scale factor $AE=26(BD)$ does not change angle measures."
     },
     {
-      "title": "Find the requested value",
-      "content": "Since angle $CBD = 57^{\\circ}$:<br/>$$\\angle CAE = \\angle CBD = 57^{\\circ}$$<br/><strong>C</strong> is correct."
+      "title": "Use the given angle",
+      "content": "Since angle CBD is $57^{\\circ}$, angle CAE is also $57^{\\circ}$. The answer is <strong>C</strong>."
     }
   ]
 }

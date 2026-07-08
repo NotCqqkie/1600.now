@@ -1,0 +1,19 @@
+{
+  "questionId": "2ab0c096",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Price the promotion",
+      "content": "The first class costs $0$ dollars. The second class costs half of $28.80$, which is $14.40$ dollars."
+    },
+    {
+      "title": "Count full-price classes",
+      "content": "For $x>2$, the remaining number of classes is $x-2$, and each costs $28.80$ dollars."
+    },
+    {
+      "title": "Write the function",
+      "content": "Add the half-price class to the full-price classes:\n$$\nf(x)=28.80(x-2)+14.40\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

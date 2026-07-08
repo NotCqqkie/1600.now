@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the series structure",
-      "content": "The passage lists three parallel items introduced by “established”: <strong>the sanctity of animal [life]</strong>, <strong>the just treatment of the elderly</strong>, and <strong>the abolition of the slave trade</strong>. These form a series that requires proper punctuation boundaries."
+      "title": "Separate the series items",
+      "content": "The Law of Piety established three things: the sanctity of animal life, the just treatment of the elderly, and the abolition of the slave trade. The blank falls after the first item in that series."
     },
     {
-      "title": "Apply the series rule",
-      "content": "D) uses a comma to mark the boundary between items in a series, which is the correct punctuation. A), B), and C) violate the series rule by omitting punctuation, misusing a semicolon, or misusing a colon. That confirms <strong>D</strong> is correct."
+      "title": "Reject wrong list marks",
+      "content": "A omits the punctuation needed between list items. B uses a semicolon even though the rest of the series uses commas. C uses a colon, which introduces material instead of separating list items. A comma correctly separates the first item. The answer is <strong>D</strong>."
     }
   ]
 }

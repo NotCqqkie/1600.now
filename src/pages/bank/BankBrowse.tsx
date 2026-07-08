@@ -1,9 +1,6 @@
 import { useEffect, useMemo } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import {
-  loadBankPool,
-  loadQuestionsByDomain,
-  loadQuestionsBySkill,
   mathDomainSkills,
   englishDomainSkills,
   allMathDomains,
@@ -11,14 +8,19 @@ import {
   normalizeBankSource,
   BANK_SOURCE_LABELS,
   type BankSubject,
-  type BankQuestion,
   type BankSourceFilter,
   type MathDomain,
   type EnglishDomain,
   type MathSkill,
   type EnglishSkill,
 } from "@/data/questionBank";
-import { getDefaultQuestionCountTree } from "@/data/bankQuestionMetadata";
+import { getDefaultQuestionCountTree, getEmptyProgress } from "@/data/bankQuestionMetadata";
+import {
+  bankPracticeDupFingerprint,
+  loadFilteredBankPracticeRefs,
+  type BankPracticeQuestionRef,
+} from "@/lib/practice/bankPracticeRefs";
+import { createDefaultQuestionBankFilters } from "@/lib/questionBankFilters";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -38,7 +40,7 @@ import {
   Shuffle,
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
-import { spaceOutNearDuplicates, questionFingerprint } from "@/lib/text/nearDuplicateSpacing";
+import { spaceOutNearDuplicates } from "@/lib/text/nearDuplicateSpacing";
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
 import {
   buildPracticeRunId,
@@ -109,10 +111,10 @@ const BankBrowse = () => {
     setSearchParams(nextParams);
   };
 
-  const startPracticeSession = (questions: BankQuestion[]): void => {
+  const startPracticeSession = (questions: BankPracticeQuestionRef[]): void => {
     if (questions.length === 0) return;
 
-    const spacedQuestions = spaceOutNearDuplicates<BankQuestion>(questions, questionFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates(questions, bankPracticeDupFingerprint);
 
     const practiceSet: BankBrowsePracticeSetItem[] = spacedQuestions.map((q, index) => ({
       subject: q.subject,
@@ -135,29 +137,38 @@ const BankBrowse = () => {
     }));
   };
 
-  const shuffleArray = (arr: BankQuestion[]): BankQuestion[] => {
+  const shuffleArray = (arr: BankPracticeQuestionRef[]): BankPracticeQuestionRef[] => {
     const shuffled = [...arr];
     for (let currentIndex = shuffled.length - 1; currentIndex > 0; currentIndex--) {
       const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
       [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
     }
-    return spaceOutNearDuplicates<BankQuestion>(shuffled, questionFingerprint);
+    return spaceOutNearDuplicates(shuffled, bankPracticeDupFingerprint);
   };
 
-  const startShuffledPracticeSession = (questions: BankQuestion[]): void => {
+  const startShuffledPracticeSession = (questions: BankPracticeQuestionRef[]): void => {
     startPracticeSession(shuffleArray(questions));
   };
 
+  const loadPracticeRefs = (options: { domain?: string; skill?: string } = {}) =>
+    loadFilteredBankPracticeRefs(
+      validSubject,
+      bankSource,
+      createDefaultQuestionBankFilters(),
+      getEmptyProgress,
+      options,
+    );
+
   const handleShuffleDomain = async (domain: BankBrowseDomain): Promise<void> => {
-    startShuffledPracticeSession(await loadQuestionsByDomain(validSubject, domain, bankSource));
+    startShuffledPracticeSession(await loadPracticeRefs({ domain }));
   };
 
   const handleShuffleSkill = async (skill: BankBrowseSkill): Promise<void> => {
-    startShuffledPracticeSession(await loadQuestionsBySkill(validSubject, skill, bankSource));
+    startShuffledPracticeSession(await loadPracticeRefs({ skill }));
   };
 
   const handleShuffleAll = async (): Promise<void> => {
-    startShuffledPracticeSession(await loadBankPool(validSubject, bankSource));
+    startShuffledPracticeSession(await loadPracticeRefs());
   };
 
   const handleSkillClick = (skill: BankBrowseSkill): void => {

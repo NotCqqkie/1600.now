@@ -1,0 +1,15 @@
+{
+  "questionId": "6e37e300",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the similarity order",
+      "content": "In the similarity statement, the corresponding vertices are listed in order. For triangle $CAE$ similar to triangle $CBD$, vertex $A$ corresponds to vertex $B$."
+    },
+    {
+      "title": "Match corresponding angles",
+      "content": "Corresponding angles in similar triangles are equal, so angle $CAE$ has the same measure as angle $CBD$. Since angle $CBD$ measures $56^\\circ$, angle $CAE$ also measures $56^\\circ$.<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

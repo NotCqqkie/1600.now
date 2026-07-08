@@ -1,0 +1,15 @@
+{
+  "questionId": "c43e1bb3",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Mark the contrast",
+      "content": "The sentence contrasts two siblings from the same parents: one might inherit brown eyes, while the other might inherit green eyes. The phrase the other sibling signals opposition between the two examples."
+    },
+    {
+      "title": "Choose the relation",
+      "content": "A introduces an example, B introduces a response or consequence, and C marks a final item in a sequence. None expresses the opposition between one sibling's trait and the other's trait. A contrast transition is needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "e6a5192c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use indirect-question order",
+      "content": "After \"why,\" the blank completes an embedded question inside a declarative sentence. That structure needs normal subject-verb order and a period, because the sentence states what scientists have figured out rather than asking a direct question."
+    },
+    {
+      "title": "Reject direct-question forms",
+      "content": "Choices A and D use inverted order, which fits a direct question but not an embedded one. Choice B has the right word order, but its question mark wrongly turns the whole sentence into a question. The remaining choice uses normal word order and a period. The answer is <strong>C</strong>."
+    }
+  ]
+}

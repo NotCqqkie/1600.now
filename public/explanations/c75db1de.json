@@ -1,0 +1,19 @@
+{
+  "questionId": "c75db1de",
+  "correctAnswer": "14",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the area equation",
+      "content": "Area equals width times length. The width is $n$, the length is $n+6$, and the area is $280$.\n$$n(n+6)=280$$"
+    },
+    {
+      "title": "Factor the quadratic",
+      "content": "Move all terms to one side and factor.\n$$n^2+6n-280=0$$\n$$(n+20)(n-14)=0$$"
+    },
+    {
+      "title": "Choose the positive width",
+      "content": "The solutions are $n=-20$ and $n=14$. A width cannot be negative, so use the positive solution.\nThe answer is <strong>14</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "7f054a11",
+  "correctAnswer": "10",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting time",
+      "content": "The initial deposit is the balance when the account was opened. Since $x$ is the number of months since the initial deposit, the starting time is $x=0$."
+    },
+    {
+      "title": "Read the intercept",
+      "content": "At $x=0$, the graph shows the account balance at the start. The $y$-intercept is $10$, so the estimated initial deposit was $10$ dollars. The answer is <strong>10</strong>."
+    }
+  ]
+}

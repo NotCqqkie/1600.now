@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Find the middle position",
-      "content": "The data are already in increasing order and there are $9$ values. With an odd number of values, the median is the middle value, at position $$\\frac{9+1}{2}=5.$$"
+      "content": "The data are already in increasing order, and there are $9$ values. With an odd number of values, the median is in the middle position:\n$$\n\\frac{9+1}{2}=5\n$$"
     },
     {
-      "title": "Read the fifth value",
-      "content": "Counting through the sorted list, the fifth value is $70$: $$62,64,65,67,\\mathbf{70},72,76,78,83.$$"
-    },
-    {
-      "title": "Confirm the answer",
-      "content": "The median is <strong>70</strong>."
+      "title": "Read the middle value",
+      "content": "Counting through the list, the fifth value is $70$. The answer is <strong>70</strong>."
     }
   ]
 }

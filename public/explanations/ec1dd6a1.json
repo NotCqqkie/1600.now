@@ -1,0 +1,15 @@
+{
+  "questionId": "ec1dd6a1",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the claim",
+      "content": "The student claims scat-detecting dogs produce the most precise results. In this context, precision means the smallest difference between minimum and maximum population densities. To weaken that claim, the data must show that a scat-dog study has a larger density range than at least one study using another method."
+    },
+    {
+      "title": "Rule out irrelevant comparisons",
+      "content": "A gives one other-method range without comparing it to the Davidson scat-dog range. B compares two non-Davidson studies, so it does not test the scat-dog claim. D mentions only a maximum density, not the full minimum-to-maximum range. The relevant weakening comparison is Davidson's larger range. The answer is <strong>C</strong>."
+    }
+  ]
+}

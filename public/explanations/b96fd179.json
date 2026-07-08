@@ -1,0 +1,15 @@
+{
+  "questionId": "b96fd179",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the success clues",
+      "content": "The program identified sidewalks in the vast majority of cases, recognized sidewalk materials, and was described as already performing strongly. The blank needs a word for dependable success."
+    },
+    {
+      "title": "Choose a reliability word",
+      "content": "B contradicts the strong performance, C contradicts the phrase vast majority, and D shifts to speed even though the sentence is about accuracy and consistency. The answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify where the y-intercept occurs",
-      "content": "The y-intercept is the point where the line crosses the y-axis. This always occurs when $x = 0$."
+      "title": "Use the intercept input",
+      "content": "The $y$-intercept occurs where $x=0$. Substitute $0$ into the equation:<br/>$$y=-4(0)-27$$"
     },
     {
-      "title": "Substitute x = 0 into the equation",
-      "content": "Substitute $x = 0$ into $y = -4x - 27$:<br/>$$y = -4(0) - 27 = -27$$<br/>Therefore, $y = -27$."
+      "title": "Evaluate the intercept",
+      "content": "The term with $x$ becomes $0$, so the $y$-value is the constant term. The answer is <strong>-27</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "42712d0e",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find each slant height",
+      "content": "Each square base has area $64$, so each side length is $8$. The slant height uses half the base side, $4$, and the pyramid height.<br/>$$\\ell_1=\\sqrt{12^2+4^2}=\\sqrt{160}$$<br/>$$\\ell_2=\\sqrt{24^2+4^2}=\\sqrt{592}$$"
+    },
+    {
+      "title": "Subtract lateral areas",
+      "content": "The bases have equal area, so they cancel in the surface-area difference. For each pyramid, the lateral area is four triangular faces.<br/>$$4(\\frac12\\cdot8\\cdot\\ell)=16\\ell$$<br/>Using decimal approximations,<br/>$$16(24.33-12.65)=16(11.68)$$<br/>$$16(11.68)=186.88$$"
+    },
+    {
+      "title": "Choose the closest value",
+      "content": "The closest listed value to $186.9$ is $187$. The answer is <strong>A</strong>."
+    }
+  ]
+}

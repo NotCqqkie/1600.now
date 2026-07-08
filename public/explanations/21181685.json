@@ -1,0 +1,15 @@
+{
+  "questionId": "21181685",
+  "correctAnswer": "75",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Separate the two tasks",
+      "content": "In $W(x)=6x+75$, the term $6x$ changes with the number of plants, so it represents the watering time."
+    },
+    {
+      "title": "Use the fixed time",
+      "content": "The constant term does not depend on $x$, so it represents the time to trim the hedges. The answer is <strong>75</strong>."
+    }
+  ]
+}

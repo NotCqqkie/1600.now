@@ -1,0 +1,15 @@
+{
+  "questionId": "2aa88058",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stress metric",
+      "content": "The study measures stress as percent change from baseline to peak heart rate. A higher percent change means higher stress, so social buffering would be supported if snakes with companions showed a smaller percent change. The rope condition matters because it distinguishes a real companion from merely having something nearby."
+    },
+    {
+      "title": "Reject the wrong measurements",
+      "content": "A and B rely on absolute heart-rate values rather than the percent-change metric. D says solitary snakes had the smaller percent change, the opposite of buffering. The finding must compare percent change across all treatments and show the companion condition produces the lowest stress response. The answer is <strong>C</strong>."
+    }
+  ]
+}

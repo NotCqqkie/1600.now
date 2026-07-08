@@ -1,0 +1,15 @@
+{
+  "questionId": "0b3a7198",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "Use $x=8$ in the function.<br/>$$h(8)=3(7(8)-8)$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Simplify inside the parentheses first.<br/>$$h(8)=3(56-8)=3(48)=144$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

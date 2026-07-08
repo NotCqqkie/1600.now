@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Translate the problem to equations",
-      "content": "Let $p$ = pounds of peaches and $c$ = pounds of cucumbers.<br/><br/>From the problem statement:<ul><li>Cucumber quantity: $c = 2p$ (twice as many pounds as peaches)</li><li>Total cost equation: $0.75p + 1.10c = 8.85$</li></ul>"
+      "title": "Define the pound amounts",
+      "content": "Let $p$ be pounds of peaches and $c$ be pounds of cucumbers. Lina bought twice as many pounds of cucumbers as pounds of peaches, so\n$$\nc=2p\n$$"
     },
     {
-      "title": "Substitute and solve for pounds of peaches",
-      "content": "Substitute $c = 2p$ into the cost equation:<br/>$$0.75p + 1.10(2p) = 8.85$$<br/>Combine the $p$ terms:<br/>$$0.75p + 2.20p = 8.85$$<br/>$$2.95p = 8.85$$<br/>Divide both sides by 2.95:<br/>$$p = \\frac{8.85}{2.95} = 3$$"
+      "title": "Write the cost equation",
+      "content": "Use the cost per pound for each food and the total cost.\n$$\n0.75p+1.10c=8.85\n$$\nSubstitute $c=2p$.\n$$\n0.75p+1.10(2p)=8.85\n$$"
     },
     {
-      "title": "Calculate the pounds of cucumbers",
-      "content": "Using the relationship $c = 2p$ with $p = 3$:<br/>$$c = 2(3) = 6 \\text{ pounds}$$<br/>Verification: $0.75(3) + 1.10(6) = 2.25 + 6.60 = 8.85$, so the solution checks.<br/><br/><strong>D</strong> is correct."
+      "title": "Find the cucumber amount",
+      "content": "Solve for $p$, then use the relationship between the two amounts.\n$$\n0.75p+2.20p=8.85\n$$\n$$\n2.95p=8.85\n$$\n$$\np=3\n$$\n$$\nc=2(3)=6\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

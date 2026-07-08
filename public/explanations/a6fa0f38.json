@@ -1,0 +1,15 @@
+{
+  "questionId": "a6fa0f38",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the requested focus",
+      "content": "The goal is to emphasize the combined deadweight tonnage of Malta's merchant ships in 2021. The response therefore needs to make the aggregate DWT figure, 74.3 million tons, the main point rather than focusing on ship counts or definitions."
+    },
+    {
+      "title": "Separate count from tonnage",
+      "content": "A only defines deadweight tonnage. B and D emphasize the number of merchant ships, not their combined carrying capacity. The remaining choice directly states the combined DWT figure for Malta's merchant ships in 2021. The answer is <strong>C</strong>."
+    }
+  ]
+}

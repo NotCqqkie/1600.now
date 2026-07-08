@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Extract the low temperatures from the table",
-      "content": "The Low temperature row shows five values across the five days: Monday 49 degreesF, Tuesday 37 degreesF, Wednesday 41 degreesF, Thursday 54 degreesF, Friday 63 degreesF."
+      "title": "Use the low temperatures",
+      "content": "The low temperatures for the five days are $49$, $37$, $41$, $54$, and $63$ degrees Fahrenheit."
     },
     {
-      "title": "Calculate the mean",
-      "content": "Sum all five low temperatures: $49 + 37 + 41 + 54 + 63 = 244$. Divide by 5 (the number of days): $$\\frac{244}{5} = 48.8$$. That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Average the five values",
+      "content": "Add the five low temperatures, then divide by $5$.<br/>$$49+37+41+54+63=244$$<br/>$$\\frac{244}{5}=48.8$$<br/>The answer is <strong>A</strong>."
     }
   ]
 }

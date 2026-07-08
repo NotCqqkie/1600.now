@@ -1,0 +1,15 @@
+{
+  "questionId": "165291dc",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert to degrees",
+      "content": "Multiply the radian measure by $\\frac{180}{\\pi}$.<br/>$$\\frac{\\pi}{12}\\cdot\\frac{180}{\\pi}=15$$<br/>So angle $H$ measures $15^\\circ$."
+    },
+    {
+      "title": "Solve for the constant",
+      "content": "The angle measure is also $5n$ degrees, so solve the equation below.<br/>$$5n=15$$<br/>$$n=3$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

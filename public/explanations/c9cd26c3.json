@@ -1,0 +1,15 @@
+{
+  "questionId": "c9cd26c3",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the visibility clue",
+      "content": "The sentence says Spanish influence is seen throughout California and that tourists can easily recognize it in Los Angeles Union Station. The blank needs a word meaning that the influence is plainly noticeable."
+    },
+    {
+      "title": "Reject weaker meanings",
+      "content": "B means subtle, which conflicts with easy recognition. C means contested, but no dispute is mentioned. D means supported by evidence, which does not describe an architectural influence being visible throughout the state. The answer is <strong>A</strong>."
+    }
+  ]
+}

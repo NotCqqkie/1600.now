@@ -1,0 +1,15 @@
+{
+  "questionId": "e66a6529",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the linear coefficient",
+      "content": "A line written as $y=mx+b$ has slope $m$. Here:\n$$y=f(x)=\\frac{5}{13}x$$"
+    },
+    {
+      "title": "Read the slope",
+      "content": "The coefficient of $x$ is $\\frac{5}{13}$, so the slope of the graph is $\\frac{5}{13}$. The answer is <strong>B</strong>."
+    }
+  ]
+}

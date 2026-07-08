@@ -1,0 +1,15 @@
+{
+  "questionId": "4f9633a0",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Evaluate both functions",
+      "content": "Substitute $x=5$ into each function before using the outside coefficient in the expression.\n$$\nf(5)=5+5=10\n$$\n$$\ng(5)=4(5)=20\n$$"
+    },
+    {
+      "title": "Use the full expression",
+      "content": "Now substitute those values into $7f(5)-g(5)$.\n$$\n7f(5)-g(5)=7(10)-20=70-20=50\n$$\nThe answer is <strong>D</strong>."
+    }
+  ]
+}

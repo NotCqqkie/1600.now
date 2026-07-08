@@ -1,0 +1,15 @@
+{
+  "questionId": "e0abf409",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Add the equations",
+      "content": "Adding the equations eliminates $y$.\n$$(4x+y)+(8x-y)=22+2$$\n$$12x=24$$"
+    },
+    {
+      "title": "Find the number of intersections",
+      "content": "The equation gives one value of $x$.\n$$x=2$$\nA system with one intersection has exactly one solution. The answer is <strong>D</strong>."
+    }
+  ]
+}

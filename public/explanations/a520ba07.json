@@ -1,28 +1,15 @@
 {
   "questionId": "a520ba07",
-  "qid": "a520ba07",
   "correctAnswer": "B",
+  "section": "Math",
   "steps": [
     {
-      "title": "Fastest check: compare a table or graph",
-      "content": "For an equivalent-expression question, enter the original expression and the answer choices in a calculator table or graph. The correct choice must match for several inputs, not just one. The matching choice is <strong>B</strong>, $x^2 \\times y$."
+      "title": "Split the cube root",
+      "content": "Use the product property of cube roots so each factor can be simplified separately.<br/>$$\\sqrt[3]{x^6\\cdot y^3}=\\sqrt[3]{x^6}\\cdot\\sqrt[3]{y^3}$$"
     },
     {
-      "title": "Algebra check",
-      "content": "Use the work below to confirm the identity for every allowed input. This matters because one random matching input is only a quick screen, not a proof that two expressions are always equivalent."
-    },
-    {
-      "title": "Apply the product property of cube roots",
-      "content": "$$\\sqrt[3]{x^6 \\cdot y^3} = \\sqrt[3]{x^6} \\cdot \\sqrt[3]{y^3}$$"
-    },
-    {
-      "title": "Simplify each factor",
-      "content": "$\\sqrt[3]{x^6} = x^2$ because $(x^2)^3 = x^6$.<br/>$\\sqrt[3]{y^3} = y$ because $(y)^3 = y^3$."
-    },
-    {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>$x^2$</strong> $x^2$. This omits the $y$ factor entirely. Eliminated.</li><li><strong>$x^2 \\times y$</strong> $x^2 \\times y$. Multiplying the two simplified factors gives $x^2 \\cdot y$. That is the correct answer.</li><li><strong>$x^3$</strong> $x^3$. $\\sqrt[3]{x^6} = x^2$, not $x^3$, and the $y$ is missing. Eliminated.</li><li><strong>$x^3 \\times y$</strong> $x^3 \\times y$. The exponent on $x$ is $\\frac{6}{3} = 2$, not 3. Eliminated.</li></ul>"
+      "title": "Simplify the powers",
+      "content": "A cube root divides each exponent by $3$, so the powers reduce cleanly.<br/>$$\\sqrt[3]{x^6}=x^2$$<br/>$$\\sqrt[3]{y^3}=y$$<br/>Multiplying the simplified factors gives $x^2y$, the same product shown in the choice. The answer is <strong>B</strong>."
     }
-  ],
-  "section": "Math"
+  ]
 }

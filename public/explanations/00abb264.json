@@ -1,0 +1,15 @@
+{
+  "questionId": "00abb264",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the theory conflict",
+      "content": "The passage says about 200 quasars formed within the first billion years of the universe, even though conditions then are believed to have been poorly suited to quasar formation. That conflict suggests a gap in current scientific understanding."
+    },
+    {
+      "title": "Reject unsupported specifics",
+      "content": "A makes an unsupported claim about when CTA 102 formed. C invents a mass comparison, and D invents a luminosity comparison. The remaining choice draws the broad inference that the theory of quasar formation or the early universe may be incomplete. The answer is <strong>B</strong>."
+    }
+  ]
+}

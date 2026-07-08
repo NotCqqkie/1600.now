@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Read the passage for the contrasting examples",
-      "content": "The passage gives two musicians using the same &ldquo;pay as you wish&rdquo; model with opposite results: Bright Harbor earned below expectations (only ~1% of listeners paid), while Nora Whitfield earned significantly because many listeners paid <em>more</em> than the suggested price. Any valid completion of the sentence must account for both outcomes."
+      "title": "Track the contrast",
+      "content": "The text gives two outcomes for the pay-as-you-wish model: Bright Harbor earned below expectations, while Nora Whitfield earned significantly from listeners paying more than suggested."
     },
     {
-      "title": "Eliminate each wrong choice, then confirm the match",
-      "content": "<ul><li><strong>Choice A — prove financially successful for some musicians but disappointing for others.</strong>: Directly captures the two contrasting examples &mdash; Whitfield&rsquo;s success and Bright Harbor&rsquo;s disappointment. &#10003;</li><li><strong>Choice B — hold greater financial appeal for bands than for individual musicians.</strong>: Contradicts the examples; Bright Harbor (a band) underperformed while Whitfield (an individual) succeeded. &#10007;</li><li><strong>Choice C — cause most musicians who use the model to lower the suggested prices of their songs and albums over time.</strong>: The passage never mentions musicians changing their prices. &#10007;</li><li><strong>Choice D — more strongly reflect differences in certain musicians' popularity than traditional pricing models do.</strong>: The text never compares &ldquo;pay as you wish&rdquo; to traditional pricing or discusses popularity. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Compare the choices",
+      "content": "Choice B contradicts the band-versus-individual examples; Choice C invents later price changes; Choice D invents a comparison with traditional pricing. Choice A captures success for some musicians and disappointment for others. The answer is <strong>A</strong>."
     }
   ]
 }

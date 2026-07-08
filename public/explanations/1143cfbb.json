@@ -1,0 +1,15 @@
+{
+  "questionId": "1143cfbb",
+  "correctAnswer": "4",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Write the condition with c",
+      "content": "Since $f(x)=c^x$, the equation $f(8)=16\\cdot f(6)$ becomes<br/>$$c^8=16c^6$$"
+    },
+    {
+      "title": "Solve for c",
+      "content": "Divide by $c^6$, which is positive because $c\\gt1$.<br/>$$c^2=16$$Since $c\\gt1$, use the positive value.<br/>$$c=4$$The answer is <strong>4</strong>."
+    }
+  ]
+}

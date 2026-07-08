@@ -1,15 +1,15 @@
 {
   "questionId": "d76ab4f5",
-  "section": "Math",
   "correctAnswer": "A",
+  "section": "Math",
   "steps": [
     {
-      "title": "Isolate the variable term",
-      "content": "Start with 6x + 5 = 47. Subtract 5 from both sides to get 6x = 42. This equation has the same solution set as the original since we performed a reversible operation."
+      "title": "Subtract the constant",
+      "content": "Start with the given equation and subtract $5$ from both sides:<br/>$$6x+5=47$$<br/>$$6x=42$$"
     },
     {
-      "title": "Match against the choices",
-      "content": "<ul><li><strong>\"$6x=42$\"</strong>: 6x = 42. This is exactly what we derived. Works.</li><li><strong>\"$6x=11$\"</strong>: 6x = 11 gives x = 11/6, while the original gives x = 7. Eliminated.</li><li><strong>\"$6x=5$\"</strong>: 6x = 5 gives x = 5/6, not 7. Eliminated.</li><li><strong>\"$6x=-42$\"</strong>: 6x = -42 gives x = -7, not 7. Eliminated.</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Match the equivalent equation",
+      "content": "Subtracting the same value from both sides keeps the solution unchanged, so the equivalent equation is $6x=42$. The answer is <strong>A</strong>."
     }
   ]
 }

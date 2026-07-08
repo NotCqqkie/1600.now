@@ -1,0 +1,15 @@
+{
+  "questionId": "881219d6",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use both locations",
+      "content": "The goal is to contrast where two specimens are located. A successful sentence must name Horridus and Dio, connect each one to its museum, and make the difference between Australia and Canada clear."
+    },
+    {
+      "title": "Reject missing contrasts",
+      "content": "Choice A compares the specimens by period, not location. Choice B gives only Dio's museum, so there is no contrast. Choice C says Horridus is not the only museum specimen but gives no specific locations. The sentence with both specimens, both museums, and a contrast marker satisfies the goal. The answer is <strong>D</strong>."
+    }
+  ]
+}

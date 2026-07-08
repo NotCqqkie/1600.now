@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage's key signal is <strong>Ortega’s hypothesis</strong> that using <em>more heliostats</em> can <strong>reduce roasting time</strong> for solar-roasted chiles. The experiment used 38–42 heliostats with a 6-minute result, while propane took 4 minutes."
+      "title": "Test the heliostat prediction",
+      "content": "Ortega's team used 38 to 42 heliostats, and the fastest solar roasting took six minutes. The hypothesis predicts that using more heliostats will reduce that roasting time."
     },
     {
-      "title": "Match the meaning",
-      "content": "The correct answer shows a direct test of the hypothesis: using <strong>50 heliostats</strong> achieves a <em>shorter time</em> (<strong>fewer than six minutes</strong>), which confirms that increasing heliostats reduces time.<br/><br/>The other three either shift focus to unrelated factors, irrelevant preferences, or unintended side effects.<br/><br/>That confirms <strong>B</strong> is correct."
+      "title": "Reject irrelevant support",
+      "content": "<ul><li><strong>Choice A</strong> concerns temperature distribution, not whether more heliostats reduce time.</li><li><strong>Choice C</strong> concerns flavor preference, not roasting speed.</li><li><strong>Choice D</strong> concerns peeling, not time required to roast.</li></ul>The remaining choice shows that 50 heliostats produce results in fewer than six minutes. The answer is <strong>B</strong>."
     }
   ]
 }

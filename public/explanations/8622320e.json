@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the linguistic signal",
-      "content": "The first sentence uses the phrase <strong>“broadly speaking”</strong> to introduce a general claim about auroras and the Sun. This signals that specific details or mechanisms will follow immediately."
+      "title": "Narrow the general claim",
+      "content": "The first sentence says, broadly, that auroras result from the Sun's activity. The next sentence explains the exact mechanism: charged particles from the Sun are captured by Earth's magnetic field and channeled toward the poles."
     },
     {
-      "title": "Match the transition to the signal",
-      "content": "<strong>“Specifically”</strong> directly continues the <strong>“broadly speaking”</strong> language by introducing the precise mechanism of how the Sun causes auroras.<br/><br/>The other three introduce wrong relationships: <strong>“Similarly”</strong> suggests parallel information, <strong>“Nevertheless”</strong> signals contradiction, and <strong>“Hence”</strong> suggests a conclusion rather than explanation.<br/><br/>That confirms <strong>A</strong> is correct."
+      "title": "Reject wrong signals",
+      "content": "<ul><li><strong>Choice B</strong> signals similarity, but the second sentence gives a more precise explanation.</li><li><strong>Choice C</strong> signals contrast, but no contradiction is being introduced.</li><li><strong>Choice D</strong> signals a conclusion, but the sentence explains a cause.</li></ul>The remaining choice introduces the specific mechanism. The answer is <strong>A</strong>."
     }
   ]
 }

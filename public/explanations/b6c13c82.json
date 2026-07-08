@@ -1,0 +1,15 @@
+{
+  "questionId": "b6c13c82",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target the climate",
+      "content": "The question asks for the test site's climate, not the study's purpose, location alone, or finding. The relevant note says the site was in a subtropical climate with winter rain."
+    },
+    {
+      "title": "Exclude non-climate details",
+      "content": "A is vague about a given climate, B gives the location and materials studied, and D reports the study result. Only the sentence naming a subtropical climate with winter rain specifies the climate. The answer is <strong>C</strong>."
+    }
+  ]
+}

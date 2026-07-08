@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Factor the left side",
-      "content": "Notice that $$4x-32=4(x-8)$$ So the equation becomes $$4(x-8)=28$$"
+      "content": "The expression on the left has a common factor of $4$:<br/>$$4x-32=4(x-8)$$"
     },
     {
-      "title": "Solve only for the requested expression",
-      "content": "Divide by $4$: $$x-8=7$$ The question asks for $x-8$, so you can stop here."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<strong>Choice B &mdash; $7$</strong> is correct. $28$ is the value of $4x-32$, not the value of $x-8$."
+      "title": "Isolate the requested expression",
+      "content": "Use the given equation:<br/>$$4(x-8)=28$$<br/>$$x-8=7$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

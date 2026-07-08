@@ -1,0 +1,15 @@
+{
+  "questionId": "ab10a89f",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the new angle",
+      "content": "Point $A$ starts at the top of the unit circle, which is angle $\\frac{\\pi}{2}$. Rotate counterclockwise by $\\frac{2\\pi}{3}$.\n$$\\frac{\\pi}{2}+\\frac{2\\pi}{3}=\\frac{3\\pi}{6}+\\frac{4\\pi}{6}=\\frac{7\\pi}{6}$$"
+    },
+    {
+      "title": "Use unit circle coordinates",
+      "content": "At angle $\\frac{7\\pi}{6}$, the point is in quadrant III, where both coordinates are negative.\n$$\\cos(\\frac{7\\pi}{6})=-\\frac{\\sqrt{3}}{2}$$\n$$\\sin(\\frac{7\\pi}{6})=-\\frac{1}{2}$$\nSo $P=(-\\frac{\\sqrt{3}}{2},-\\frac{1}{2})$. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "b67e919a",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute the multiplier",
+      "content": "First distribute $6$ through the second parentheses. This changes the added expression into two terms:\n$$\n6(x^2+9)=6x^2+54\n$$"
+    },
+    {
+      "title": "Rewrite the full expression",
+      "content": "Now substitute the distributed terms back into the original sum:\n$$\n(x^3+8x^2-7x)+6x^2+54\n$$"
+    },
+    {
+      "title": "Combine like terms",
+      "content": "Only the $x^2$ terms combine. The $x^3$ term, the $x$ term, and the constant term stay in the expression:\n$$\nx^3+8x^2-7x+6x^2+54\n$$\n$$\nx^3+14x^2-7x+54\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "064c44e6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Combine law and example",
+      "content": "The student wants both an explanation and an example of Kepler's first law. The relevant notes say the law describes elliptical orbits, that it applies to moons as well as planets, and that Umbriel is a moon of Uranus with an elliptical orbit."
+    },
+    {
+      "title": "Reject incomplete examples",
+      "content": "Choice B gives only a general example of satellites and does not use Umbriel. Choice C mentions part of the law but gives no concrete example. Choice D uses Umbriel's orbital period, which does not demonstrate elliptical shape. The needed sentence links the law to Umbriel's orbit. The answer is <strong>A</strong>."
+    }
+  ]
+}

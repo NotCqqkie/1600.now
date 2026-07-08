@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The passage claims the CFRP harvester&apos;s ability to deliver &lsquo;steady energy loads&rsquo; is an &lsquo;absolute prerequisite&rsquo; for powering wireless communication devices piezoelectrically. A supporting finding must explain why steady output specifically is necessary for wireless devices."
+      "title": "Focus on wireless power",
+      "content": "The passage claims that wireless communication devices can be powered piezoelectrically when resonance supplies steady energy. A supporting finding should show that near-constant kinetic vibration can power such devices without an outside electrical source."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Intermittent or unpredictable electrical supply undermines the efficacy of wireless communication devices.</strong>: directly explains why steady loads are a prerequisite &mdash; without them, wireless devices fail. &#10003;</li><li><strong>Choice B &mdash; The near-constant kinetic vibration of a spacecraft makes it possible to power its wireless communication devices using only non-CFRP piezoelectric harvesters.</strong>: suggests the CFRP design is not uniquely necessary, weakening rather than supporting the claim. &#10007;</li><li><strong>Choice C &mdash; The CFRP electrode is incompatible with most wireless communication devices.</strong>: contradicts the passage&apos;s claim that the harvester can power such devices. &#10007;</li><li><strong>Choice D &mdash; The high conductivity of the CFRP is what makes the energy output from a piezoelectric harvester sufficient for wireless communication devices.</strong>: shifts focus to conductivity, not the steady-load property the claim is built on. &#10007;</li></ul>That matches <strong>Choice A &mdash; Intermittent or unpredictable electrical supply undermines the efficacy of wireless communication devices.</strong>."
+      "title": "Set aside weaker support",
+      "content": "Choice B explains why intermittent supply is bad, but it does not show piezoelectric powering works for wireless devices. Choice C contradicts compatibility. Choice D shifts to CFRP conductivity rather than the device claim. The remaining choice directly supports piezoelectric wireless-device power. The answer is <strong>A</strong>."
     }
   ]
 }

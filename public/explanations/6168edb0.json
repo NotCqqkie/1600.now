@@ -1,0 +1,19 @@
+{
+  "questionId": "6168edb0",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the known angle pair",
+      "content": "The triangles already have one matching angle pair because angle A and angle P both measure $48^\\circ$. To prove similarity by AA, one additional matching angle pair is enough. The side lengths in the choices would need to create a proportional side relationship, but the more direct route is to look for angle information that forces the remaining angles to match."
+    },
+    {
+      "title": "Test the angle information",
+      "content": "If angle B measures $37^\\circ$ and angle R measures $95^\\circ$, the third angle in triangle ABC is:\n$$\n180^\\circ-48^\\circ-37^\\circ=95^\\circ\n$$\nThe third angle in triangle PQR is:\n$$\n180^\\circ-48^\\circ-95^\\circ=37^\\circ\n$$\nSo angle B matches angle Q, and angle C matches angle R."
+    },
+    {
+      "title": "Match the triangles",
+      "content": "The triangles now have matching angle measures: one pair is the given $48^\\circ$ angles, one pair is the $37^\\circ$ angles, and one pair is the $95^\\circ$ angles. That proves the triangles are similar by AA similarity. The answer is <strong>C</strong>."
+    }
+  ]
+}

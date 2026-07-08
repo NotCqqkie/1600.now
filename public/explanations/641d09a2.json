@@ -1,0 +1,15 @@
+{
+  "questionId": "641d09a2",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Match the obsolete-data problem",
+      "content": "The Apollo data are stored on obsolete technologies, so the project is trying to make valuable information available again. The needed word should mean recover or rescue, not improve the quality of the data."
+    },
+    {
+      "title": "Reject the revision verbs",
+      "content": "Choice A suggests making the data better. Choice B suggests making it simpler. Choice C suggests correcting or revising it. The remaining choice describes recovering valuable data from a format that might otherwise make it unusable. The answer is <strong>D</strong>."
+    }
+  ]
+}

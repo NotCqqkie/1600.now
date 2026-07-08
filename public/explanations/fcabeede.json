@@ -1,0 +1,15 @@
+{
+  "questionId": "fcabeede",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the language feature",
+      "content": "The student wants to explain why Cree is classified as synthetic. The relevant notes define synthetic languages by extensive case systems, where nouns take different forms depending on their function. A strong answer must connect Cree to that feature."
+    },
+    {
+      "title": "Reject incomplete explanations",
+      "content": "Choice A mostly describes analytic languages. Choice B says synthetic languages indicate noun function but leaves out the case-system mechanism. Choice D says nouns fulfill functions but does not explain that they change form. The sentence that links Cree's case system to noun forms gives the needed explanation. The answer is <strong>C</strong>."
+    }
+  ]
+}

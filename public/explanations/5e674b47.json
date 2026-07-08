@@ -1,0 +1,15 @@
+{
+  "questionId": "5e674b47",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope of line r",
+      "content": "Rewrite the equation in slope-intercept form.\n$$\n7x-4y=8\n$$\n$$\n-4y=-7x+8\n$$\n$$\ny=\\frac{7}{4}x-2\n$$"
+    },
+    {
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $r$ has slope\n$$\n\\frac{7}{4}\n$$\nline $s$ has the same slope. The answer is <strong>D</strong>."
+    }
+  ]
+}

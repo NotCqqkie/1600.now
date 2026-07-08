@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the student's claim",
-      "content": "The student asserts that the <em>diverse creations by others</em> (music, comics, architecture, furniture) are <strong>reflective of Braschi's own approach</strong> to literature. The correct quotation must directly connect her cross-genre method to the inspiration it gives others."
+      "title": "Identify the claim to support",
+      "content": "The student claims that the many responses to Braschi's work, including music, comics, architecture, and furniture design, reflect Braschi's own way of making literature. The supporting quotation therefore needs to connect her cross-genre literary method with responses from other art forms."
     },
     {
-      "title": "Eliminate and match",
-      "content": "<ul><li><strong>\"Braschi is the focus of a 2020 collection of essays in which fifteen scholars from seven different countries delved into the linguistic and structural patterns of her writings.\"</strong>: Describes scholarly analysis of her writing patterns. Does not show how her approach inspires others' diverse creative work. &#10007;</li><li><strong>\"Braschi's eagerness to push boundaries and blend genres within literature invites us to consider how other art forms might also engage with literature.\"</strong>: Directly links her boundary-pushing, genre-blending approach to inspiring engagement from other art forms &mdash; exactly the claim. &#10003;</li><li><strong>\"Before settling in New York City, where she would go on to become a college professor, Braschi studied both literature and philosophy in several cities around the world.\"</strong>: Covers her educational background. Completely irrelevant to the claim about her approach inspiring others. &#10007;</li><li><strong>\"In addition to her creative literary works, Braschi has produced academic pieces analyzing writings by Miguel de Cervantes, Federico García Lorca, and other authors.\"</strong>: Describes her academic criticism work. Has no bearing on how her creative cross-genre approach inspires diverse responses. &#10007;</li></ul>That matches the correct answer — <strong>B</strong> is correct."
+      "title": "Reject irrelevant evidence",
+      "content": "Choice A says scholars studied linguistic and structural patterns in Braschi's work, but it does not connect her method to diverse creations by others. Choice C gives background about where she studied. Choice D describes her academic writing about other authors rather than responses inspired by her creative work."
+    },
+    {
+      "title": "Choose the direct support",
+      "content": "The remaining quotation says Braschi pushes boundaries and blends genres within literature, inviting consideration of how other art forms might engage with literature. That directly supports the student's claim that the diverse creations reflect her own boundary-crossing approach. The answer is <strong>B</strong>."
     }
   ]
 }

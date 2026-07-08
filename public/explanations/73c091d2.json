@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the barrier to the ring-counting method",
-      "content": "The researcher claims the ring-counting method “often can't be used” for olive trees. The passage describes how the method works: look at a tree stump and count the dark rings. For the method to fail, something must prevent you from seeing and counting the rings."
+      "title": "Find what would block counting",
+      "content": "The researcher claims the ring-counting method often cannot identify the age of olive trees. Since the method requires looking at a stump and counting dark rings, support must show why those rings cannot be counted reliably."
     },
     {
-      "title": "Match the barrier to the choices",
-      "content": "The correct response directly explains why the method can't be used: if the growth rings are difficult to see, you can't count them accurately, so the method becomes unusable.<br/><br/>The other choices discuss tree longevity, the meaning of narrow rings, or climate conditions—none of which explain why the ring-counting method itself fails.<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Exclude irrelevant facts",
+      "content": "Choice A concerns the possible age of one tree, not whether rings can be counted. Choice B explains what narrow rings can indicate, not whether they are visible. Choice D gives climate conditions where olive trees thrive. The answer is <strong>C</strong>."
     }
   ]
 }

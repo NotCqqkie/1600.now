@@ -1,0 +1,15 @@
+{
+  "questionId": "0fd58648",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use complementary angles",
+      "content": "In a right triangle, the two acute angles are complementary. Since angles $M$ and $N$ add to $90^\\circ$, the sine of one equals the cosine of the other."
+    },
+    {
+      "title": "Apply the cofunction identity",
+      "content": "For complementary angles,<br/>$$\\sin(M)=\\cos(N)$$<br/>The problem gives<br/>$$\\sin(M)=\\frac{\\sqrt{5}}{3}$$<br/>so<br/>$$\\cos(N)=\\frac{\\sqrt{5}}{3}$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

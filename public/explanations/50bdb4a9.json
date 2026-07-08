@@ -1,0 +1,15 @@
+{
+  "questionId": "50bdb4a9",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Connect claim to evidence",
+      "content": "The passage first says that some of the 206 ticker-tape parades honored aviation achievements. The next sentence gives a specific confirming detail: Bennett's parade was one of sixteen parades honoring pilots."
+    },
+    {
+      "title": "Rule out wrong relationships",
+      "content": "A would merely add a separate point, but Bennett's parade is evidence for the previous claim. B would show a result or conclusion, though the count does not follow from the prior sentence. D would contrast with the previous sentence. The transition should reinforce the aviation-parade claim. The answer is <strong>C</strong>."
+    }
+  ]
+}

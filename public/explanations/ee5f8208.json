@@ -1,0 +1,15 @@
+{
+  "questionId": "ee5f8208",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on study type",
+      "content": "The task asks for a generalization about the kind of study Chen, Rivera, and Shah conducted. The sentence should broadly characterize their analysis rather than report their specific finding about delays and low populations."
+    },
+    {
+      "title": "Separate context from findings",
+      "content": "Choice B states a specific ESA pattern. Choice C gives delisting context. Choice D reports Chen, Rivera, and Shah's particular conclusion rather than generalizing the study type. The remaining choice broadly describes population-trend analysis used to study conservation protections. The answer is <strong>A</strong>."
+    }
+  ]
+}

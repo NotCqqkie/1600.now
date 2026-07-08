@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the intersection from the graph",
-      "content": "The solution to a linear-nonlinear system is the point where the two graphs <strong>intersect</strong>. Locate the intersection on the graph."
+      "title": "Find the intersection",
+      "content": "The solution to a system shown on a graph is the point where the two graphs intersect."
     },
     {
-      "title": "Match the coordinates",
-      "content": "The two curves meet at $(5, 4)$.<br/><br/>That matches <strong>Choice B &mdash; (5, 4)</strong>."
+      "title": "Read the coordinates",
+      "content": "From the answer choices and the graph, the intersection is $(0,3)$. The answer is <strong>B</strong>."
     }
   ]
 }

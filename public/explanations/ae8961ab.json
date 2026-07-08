@@ -1,0 +1,15 @@
+{
+  "questionId": "ae8961ab",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Isolate the needed support",
+      "content": "Morita and colleagues infer depth from oxygen-18 concentration in nautilid shell segments: F04 matches water around 90 meters deep, while M17 matches water around 385 meters deep. A supporting finding should make that oxygen-18 difference a reliable depth signal."
+    },
+    {
+      "title": "Rule out sex as a factor",
+      "content": "Choice A shifts attention to sex and growth rate, not the depth inference. Choice B would make sex a possible alternative explanation for the oxygen-18 difference. Choice C says nautilids usually live deep but does not explain the two samples' different oxygen-18 levels. The remaining finding rules out sex as a confounding factor. The answer is <strong>D</strong>."
+    }
+  ]
+}

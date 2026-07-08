@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key demand",
-      "content": "The prompt asks the student to “describe how the bicycles in <em>Double Phantom/EntroP.R.</em> are fused together.” The word “how” signals that the correct answer must provide specific details about the fusion mechanism, not just background information or a statement that fusion occurred."
+      "title": "Look for fusion details",
+      "content": "The task asks how the bicycles are fused together, so the answer must mention the shared rear wheel and the opposite-facing arrangement."
     },
     {
-      "title": "Match the mechanism to the choices",
-      "content": "<strong>Choice C &mdash; The two red bicycles in <em>Double Phantom/EntroP.R.</em> are fused together so that they share the same rear wheel while facing opposite directions.</strong> directly explains the fusion mechanism by specifying how the bicycles are connected: they share the same rear wheel while facing opposite directions.<br/><br/>The other choices fail to describe this actual mechanism—<ul><li>A describes the artist and action but lacks specific details</li><li>B merely lists what's in the sculpture</li><li>D only provides background about the artist</li></ul><br/><br/>That matches <strong>Choice C &mdash; The two red bicycles in <em>Double Phantom/EntroP.R.</em> are fused together so that they share the same rear wheel while facing opposite directions.</strong>."
+      "title": "Exclude background-only choices",
+      "content": "A says the bicycles are fused but not how; B only counts the bicycles; D identifies the artist and medium. The statement about sharing the same rear wheel while facing opposite directions directly addresses the task. The answer is <strong>C</strong>."
     }
   ]
 }

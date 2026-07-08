@@ -1,0 +1,15 @@
+{
+  "questionId": "26eb1827",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Center the location",
+      "content": "The student wants to emphasize the location of Hornsdale Wind Farm, so the response should focus on where the wind farm is rather than on how wind farms work or how much electricity one can produce. The relevant note states that Hornsdale Wind Farm is located in Hornsdale, Australia."
+    },
+    {
+      "title": "Reject nonlocation facts",
+      "content": "<ul><li><strong>Choice A</strong> gives the farm's nameplate capacity of 316 megawatts, which is a power-output detail.</li><li><strong>Choice B</strong> defines nameplate capacity instead of identifying the farm's location.</li><li><strong>Choice D</strong> explains that turbines can generate electricity from wind, which is general background information.</li></ul>The remaining option directly states where Hornsdale Wind Farm is located. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f7e86e31",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Trace the food-chain effect",
+      "content": "The text says baleen whales cycle iron, which supports phytoplankton, and phytoplankton sustain krill. If whale populations declined, that would likely reduce iron cycling, then phytoplankton, and finally krill."
+    },
+    {
+      "title": "Stay within the chain",
+      "content": "A discusses whale body size, which the text does not say changed. B says krill needs per whale increased, but the text gives no such trend. C concerns the iron richness of krill, not the phytoplankton support chain. The remaining choice follows the causal chain described in the text. The answer is <strong>D</strong>."
+    }
+  ]
+}

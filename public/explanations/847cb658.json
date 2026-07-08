@@ -1,0 +1,15 @@
+{
+  "questionId": "847cb658",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the ratio as support",
+      "content": "The passage states that the Comac ARJ21 is far more aerodynamic than the Wright Flyer. The lift-to-drag ratio then gives a specific data point that strengthens that claim."
+    },
+    {
+      "title": "Introduce confirming evidence",
+      "content": "Choice B and Choice C signal contrast, but the ratio supports rather than challenges the prior claim. Choice D signals a conclusion to a broader discussion, which does not fit here. The sentence needs an emphasis transition that introduces evidence. The answer is <strong>A</strong>."
+    }
+  ]
+}

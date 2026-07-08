@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph the equations as written",
-      "content": "Type the equations into Desmos exactly as they appear, one per row:<br/>$$8x+y=-11$$<br/>$$2{x}^{2}=y+341$$<br/>You do not need to solve or rearrange them first.",
+      "title": "Graph the two equations",
+      "content": "Type both equations into Desmos exactly as written:<br/>$$8x+y=-11$$<br/>$$2x^2=y+341$$<br/>The requested value is the $x$-coordinate of an intersection.",
       "desmosExpressions": [
         "8x+y=-11",
         "2{x}^{2}=y+341"
       ]
     },
     {
-      "title": "Read the x-coordinate",
-      "content": "Click the intersection point and read the x-coordinate. It matches <strong>A</strong>, $-15$."
-    },
-    {
-      "title": "Why this works",
-      "content": "A solution to a system is exactly a point that lies on every graph in the system. Desmos is showing the same shared point that substitution or elimination would find."
+      "title": "Read a possible value",
+      "content": "One intersection has $x=-15$. The question asks for a possible value of $x$, so this matches the choices. The answer is <strong>A</strong>."
     }
   ]
 }

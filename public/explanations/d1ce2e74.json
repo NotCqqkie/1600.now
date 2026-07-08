@@ -1,0 +1,19 @@
+{
+  "questionId": "d1ce2e74",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Count the extra days",
+      "content": "The first day costs $104$ dollars. If the rental lasts $d$ days, then the number of additional days is $d-1$, and each additional day costs $52$ dollars."
+    },
+    {
+      "title": "Write the cost function",
+      "content": "Add the first-day cost and the additional-day cost:\n$$\nC(d)=104+52(d-1)\n$$\n$$\nC(d)=104+52d-52=52d+52\n$$"
+    },
+    {
+      "title": "Match the function",
+      "content": "The function is $C(d)=52d+52$. The answer is <strong>A</strong>."
+    }
+  ]
+}

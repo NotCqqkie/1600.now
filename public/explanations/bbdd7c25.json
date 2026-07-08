@@ -1,0 +1,15 @@
+{
+  "questionId": "bbdd7c25",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Target a counterexample",
+      "content": "The students claimed broken-wing display is exclusive to shorebirds. Evidence weakens that claim only if it shows birds outside the shorebird order also performing broken-wing display."
+    },
+    {
+      "title": "Test the data statements",
+      "content": "A stays within Charadriiformes, so it does not challenge exclusivity. B says two birds do not perform the display. C supports the pattern by pairing a shorebird that performs it with a non-shorebird that does not. Non-shorebirds performing it weaken the claim. The answer is <strong>D</strong>."
+    }
+  ]
+}

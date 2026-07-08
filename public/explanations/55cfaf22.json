@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Compute the mean of data set X",
-      "content": "Data set X is $7,11,11,15$. Its sum is $44$, so its mean is $$\\frac{44}{4}=11$$"
+      "title": "Compute the first mean",
+      "content": "Data set X has sum $7+11+11+15=44$, so its mean is\n$$\n\\frac{44}{4}=11\n$$"
     },
     {
-      "title": "Compute the mean of data set Y",
-      "content": "Data set Y has the same four values plus $31$, so its sum is $44+31=75$. Its mean is $$\\frac{75}{5}=15$$"
+      "title": "Compute the second mean",
+      "content": "Data set Y adds $31$ to the same four values. Its sum is $44+31=75$, so its mean is\n$$\n\\frac{75}{5}=15\n$$"
     },
     {
-      "title": "Confirm the choice",
-      "content": "Since $11\\lt 15$, the mean of data set X is less than the mean of data set Y. This matches Choice B."
+      "title": "Compare the means",
+      "content": "Since $11<15$, the mean of data set X is less than the mean of data set Y. The answer is <strong>B</strong>."
     }
   ]
 }

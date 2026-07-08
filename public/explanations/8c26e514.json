@@ -1,0 +1,19 @@
+{
+  "questionId": "8c26e514",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the contrast",
+      "content": "The question asks for a difference between the two flags. The notes say Eritrea's flag includes an olive branch, which is a plant, while Croatia's flag includes leopards, which are animals. The best choice must directly contrast those symbols."
+    },
+    {
+      "title": "Reject general statements",
+      "content": "Choice A discusses flag symbols and vexillology generally. Choice B says both countries use symbols, emphasizing similarity instead of difference. Choice C only says vexillologists study the flags, without naming any contrast."
+    },
+    {
+      "title": "Name the flag difference",
+      "content": "The remaining choice directly contrasts Eritrea's plant symbol with Croatia's animal symbol. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "a25bc1f6",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use sinuosity to compare",
+      "content": "Sinuosity measures curviness as the ratio of stream length to valley length. The notes say the Muskwa River has high sinuosity and the Cheyyar River has low sinuosity."
+    },
+    {
+      "title": "Choose the direct comparison",
+      "content": "B explains how to calculate curviness without comparing the rivers. C states a shared definition, not a difference. D reverses the notes by calling Cheyyar high-sinuosity and Muskwa low-sinuosity. The comparison that gives Muskwa the greater ratio fits. The answer is <strong>A</strong>."
+    }
+  ]
+}

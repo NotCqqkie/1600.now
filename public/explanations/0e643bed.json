@@ -1,0 +1,19 @@
+{
+  "questionId": "0e643bed",
+  "correctAnswer": "94",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the total boiling point",
+      "content": "The total boiling point for all $180$ compounds is<br/>$$180\\cdot164=29{,}520$$<br/>The total for the $60$ semivolatile compounds is<br/>$$60\\cdot304=18{,}240$$"
+    },
+    {
+      "title": "Subtract the known group",
+      "content": "The total for the volatile compounds is<br/>$$29{,}520-18{,}240=11{,}280$$"
+    },
+    {
+      "title": "Divide by the count",
+      "content": "There are $120$ volatile compounds, so their mean is<br/>$$\\frac{11{,}280}{120}$$<br/>The answer is <strong>94</strong>."
+    }
+  ]
+}

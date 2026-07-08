@@ -1,0 +1,15 @@
+{
+  "questionId": "6a97d33d",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Answer Text 1 with Text 2",
+      "content": "Text 1 presents a problem: countries define urban settlements differently, making comparisons difficult. Text 2 describes a new global measure that establishes shared criteria for cities, towns, and rural areas."
+    },
+    {
+      "title": "Reject off-target responses",
+      "content": "Choice A says Text 2 recommends more investigation, but it describes an already developed measure. Choice B says researchers should switch topics, and Choice D adds more difficulties; neither matches Text 2's role. The remaining response identifies the new measure as a possible solution. The answer is <strong>C</strong>."
+    }
+  ]
+}

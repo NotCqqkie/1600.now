@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage lists two separate actions showing Rivera fighting injustice: (1) voicing support for the Mexican revolt as a reporter, and (2) founding the League of Mexican Women. The blank connects them &mdash; the second action must be presented as an <em>addition</em> to the first, not a conclusion, example, or contrast."
+      "title": "Track the added action",
+      "content": "The passage presents two separate actions that show Rivera fighting injustice: supporting the revolt as a reporter and founding the League of Mexican Women."
     },
     {
-      "title": "Test each choice",
-      "content": "<ul><li><strong>Choice A — Additionally,</strong>: signals that founding the League is another separate act of fighting injustice &mdash; exactly the additive relationship the passage establishes. &#10003;</li><li><strong>Choice B — In conclusion,</strong>: signals a summary or wrap-up &mdash; founding the League is a new action, not a conclusion of the reporting work. &#10007;</li><li><strong>Choice C — For example,</strong>: signals that founding the League illustrates the previous point about voicing support for the revolt &mdash; but these are two distinct acts, not one exemplifying the other. &#10007;</li><li><strong>Choice D — Rather,</strong>: signals contrast or correction &mdash; nothing in the passage contradicts what came before; both actions reinforce the same theme. &#10007;</li></ul><strong>A</strong> is correct."
+      "title": "Reject the wrong links",
+      "content": "Choice B signals a summary, but the sentence adds a new action. Choice C makes the founding an example of the reporting work, which it is not. Choice D signals contrast, but both actions support the same idea."
+    },
+    {
+      "title": "Choose addition",
+      "content": "Additionally shows that founding the League was another historic action Rivera took against injustice. The answer is <strong>A</strong>."
     }
   ]
 }

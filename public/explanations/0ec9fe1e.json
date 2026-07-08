@@ -1,0 +1,15 @@
+{
+  "questionId": "0ec9fe1e",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Apply the volume pattern",
+      "content": "The study found that when a musician and a nonmusician chose the same favorite recording, the musician's optimal listening volume tended to be higher. If the musician's preferred volume for the shared favorite is 84.8 decibels, the nonmusician's optimal volume would be expected to be lower than that."
+    },
+    {
+      "title": "Keep the comparison fixed",
+      "content": "Choice B compares the song with other music, which the study does not support. Choice C shifts from music to nature sounds, and Choice D says 84.8 decibels would be too low, reversing the finding. The supported expectation is that the nonmusician would enjoy the shared favorite more at a lower volume. The answer is <strong>A</strong>."
+    }
+  ]
+}

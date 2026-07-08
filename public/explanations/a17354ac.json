@@ -1,0 +1,15 @@
+{
+  "questionId": "a17354ac",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the target expression",
+      "content": "The expression to evaluate can be factored using the given condition:\n$$\n-24-3x=-3(8+x)\n$$"
+    },
+    {
+      "title": "Substitute the known value",
+      "content": "Since $8+x=5$, substitute directly:\n$$\n-3(8+x)=-3(5)=-15\n$$\nThe answer is <strong>A</strong>."
+    }
+  ]
+}

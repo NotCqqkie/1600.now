@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the antecedent and its number",
-      "content": "The previous sentence names <strong>two</strong> woodcuts: <em>Evening at Carl Inn</em> and <em>Lake Basin in the High Sierra</em>. The blank in &quot;In 2019, ______ exhibited alongside 150 of Obata&apos;s other works&quot; must refer to those two woodcuts, so the pronoun must be <strong>plural</strong> and clearly identify them."
+      "title": "Find the antecedent",
+      "content": "The previous sentence names two woodcuts: <em>Evening at Carl Inn</em> and <em>Lake Basin in the High Sierra</em>. The blank refers back to both works, so it needs a plural pronoun with a verb that fits the 2019 exhibition context."
     },
     {
-      "title": "Eliminate wrong choices and confirm the answer",
-      "content": "Evaluate all four choices:<ul><li><strong>Choice A — it was</strong>: singular pronoun &mdash; does not agree in number with the plural antecedent &quot;woodcuts.&quot; &#10007;</li><li><strong>Choice B — they were</strong>: plural pronoun that agrees with &quot;woodcuts&quot; and clearly identifies the two named works as what was exhibited. &#10003;</li><li><strong>Choice C — this was</strong>: singular pronoun &mdash; does not agree in number with the plural antecedent &quot;woodcuts.&quot; &#10007;</li><li><strong>Choice D — some were</strong>: plural in form but illogical &mdash; &quot;some&quot; of only two woodcuts is vague and does not clearly identify the specific works named. &#10007;</li></ul><strong>B</strong> is correct."
+      "title": "Check agreement",
+      "content": "A and C use singular pronouns, so they do not agree with the two woodcuts. D is plural, but some is vague because the sentence is pointing to the two named works specifically. The remaining choice clearly refers to both woodcuts. The answer is <strong>B</strong>."
     }
   ]
 }

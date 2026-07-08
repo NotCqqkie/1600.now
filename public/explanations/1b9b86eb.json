@@ -1,0 +1,31 @@
+{
+  "questionId": "1b9b86eb",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the median position",
+      "content": "Each data set has $11$ values. The median is the middle value, which is the $6$th value.\n$$\\frac{11+1}{2}=6$$"
+    },
+    {
+      "title": "Compare the middle values",
+      "content": "Data set A has $8$ as its $6$th value. Data set B also has $8$ as its $6$th value. Therefore both medians are $8$."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "The calculator median check gives the same value for data set A.",
+      "desmosExpressions": [
+        "a_1=[2,2,2,5,5,8,11,11,14,14,14]",
+        "\\operatorname{median}\\left(a_1\\right)"
+      ]
+    },
+    {
+      "title": "Second calculator check",
+      "content": "The second list confirms the median of data set B is also $8$, so the medians are equal. The answer is <strong>C</strong>.",
+      "desmosExpressions": [
+        "b_1=[2,5,5,8,8,8,8,8,11,11,14]",
+        "\\operatorname{median}\\left(b_1\\right)"
+      ]
+    }
+  ]
+}

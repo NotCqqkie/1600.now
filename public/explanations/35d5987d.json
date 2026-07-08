@@ -1,0 +1,15 @@
+{
+  "questionId": "35d5987d",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Follow the process order",
+      "content": "The first sentence describes the first stage of Australia's Senate proportional representation process: citizens cast votes for political parties rather than individual candidates. The next sentence describes what happens after votes are counted: parties receive seats in proportion to their votes."
+    },
+    {
+      "title": "Choose a sequence transition",
+      "content": "Choice A and Choice C signal contrast, but the sentences describe stages of the same process. Choice B signals restatement, though the second sentence adds the next step. A temporal transition showing what happens after voting and counting is needed. The answer is <strong>D</strong>."
+    }
+  ]
+}

@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Restate the hypothesis",
-      "content": "Voss and colleagues claim the sail improved success in &quot;underwater pursuits of prey species capable of making quick, evasive movements.&quot; Catching evasive prey underwater depends on maneuverability &mdash; the ability to change direction quickly."
+      "title": "Connect the sail to pursuit",
+      "content": "The hypothesis is that the sail helped <em>Spinosaurus</em> succeed in underwater pursuits of prey capable of quick evasive movements. The strongest support would show that the sail improved a skill needed to follow or catch prey that turns suddenly."
     },
     {
-      "title": "Predict the supporting result",
-      "content": "A finding that the sail model maneuvers better underwater than the no-sail model &mdash; for example, completing sharp turns faster &mdash; would directly back the hypothesis."
+      "title": "Look for maneuverability",
+      "content": "A model with a sail completing sharp submerged turns in less time would connect the sail directly to underwater maneuverability. Faster turning is relevant because evasive prey would be harder to catch if the predator could not quickly change direction."
     },
     {
-      "title": "Eliminate per choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;The model with a sail took significantly less time to complete a sharp turn while submerged than the model without a sail did.&rsquo;</strong>: faster sharp turns is exactly the maneuverability advantage the hypothesis predicts. &#10003;</li><li><strong>Choice B &mdash; &lsquo;The model with a sail displaced significantly more water while submerged than the model without a sail did.&rsquo;</strong>: about volume, not pursuit ability &mdash; irrelevant to chasing evasive prey. &#10007;</li><li><strong>Choice C &mdash; &lsquo;The model with a sail had significantly less battery power remaining after completing the tests than the model without a sail did.&rsquo;</strong>: shows the sail costs more energy, which weakens rather than supports the hypothesis. &#10007;</li><li><strong>Choice D &mdash; &lsquo;The model with a sail took significantly longer to travel a specified distance while submerged than the model without a sail did.&rsquo;</strong>: slower travel would undercut, not support, success in pursuits. &#10007;</li></ul>That confirms <strong>A</strong> is correct."
+      "title": "Reject irrelevant test results",
+      "content": "Choice B concerns water displacement, Choice C suggests greater energy use, and Choice D shows slower travel; none supports better pursuit of evasive prey. The remaining result shows faster sharp turns while submerged, exactly the predicted advantage. The answer is <strong>A</strong>."
     }
   ]
 }

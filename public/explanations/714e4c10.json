@@ -4,12 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Find the key signal",
-      "content": "The passage starts by noting that Ruth Asawa \"was dedicated to more than the creation of art,\" immediately establishing her <strong>commitment to art education</strong> as the core focus. The following sentences describe her founding two San Francisco-specific programs to bring art to children."
+      "title": "Find the passage focus",
+      "content": "The text says Ruth Asawa was dedicated to more than creating art: she wanted to bring art to children in San Francisco. The examples that follow are arts education programs she helped create."
     },
     {
-      "title": "Match the meaning",
-      "content": "The correct response directly captures this focus by highlighting her art education <strong>initiatives in San Francisco</strong>.<br/><br/>The other three choices either misrepresent her actions (A: she didn’t inspire others, she led them; B: no comparison to nationwide audiences; D: she didn’t abandon sculpting entirely).<br/><br/>That confirms <strong>C</strong> is correct."
+      "title": "Rule out unsupported summaries",
+      "content": "Choice A says she inspired other artists, which is not the main claim. Choice B invents a local-versus-national comparison. Choice D says she left sculpting to teach, which the passage does not state."
+    },
+    {
+      "title": "Summarize the central idea",
+      "content": "The remaining choice correctly states that Asawa's interest in art education led her to create programs for San Francisco students. The answer is <strong>C</strong>."
     }
   ]
 }

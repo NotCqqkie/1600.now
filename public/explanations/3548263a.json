@@ -1,0 +1,15 @@
+{
+  "questionId": "3548263a",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use half of the seats",
+      "content": "$50\\%$ is one-half, so the occupied seats are half of $420$."
+    },
+    {
+      "title": "Divide by two",
+      "content": "Find half of the total seats:<br/>$$\\frac{420}{2}=210$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

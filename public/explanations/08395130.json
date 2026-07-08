@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the key facts",
-      "content": "The passage states that only about 6% of bodies imaged by HST are within the solar system &mdash; meaning most of the bodies it has imaged are outside the solar system. Kim and colleagues recommend a new telescope &quot;dedicated exclusively to solar-system observations.&quot;"
+      "title": "Use the telescope facts",
+      "content": "The passage says HST has already produced important visible and ultraviolet images of solar-system bodies, but only about 6% of the bodies it has imaged are inside the solar system. Kim and colleagues recommend a new telescope dedicated exclusively to solar-system observations, which means they want a different instrument to take on that specialized work."
     },
     {
-      "title": "Derive the implication",
-      "content": "If a brand-new instrument is needed specifically for solar-system work, the implication is that HST is not and will not be doing that work as its main focus. Its primary use will remain what it already is: observing extrasolar objects."
+      "title": "Reject unsupported claims",
+      "content": "Choice B overstates the result by saying HST will no longer observe solar-system objects. Choice C invents a modification to HST, which the passage never mentions. Choice D claims HST lacks needed sensors, but the passage says HST already works in visible and UV wavelengths."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>: matches the fact that only about 6% of the bodies imaged by HST are in the solar system and the need for a separate dedicated telescope. &#10003;</li><li><strong>Choice B &mdash; will no longer be used to observe solar system objects if the telescope recommended by Kim and colleagues is deployed.</strong>: overreach &mdash; the recommendation is to add a new telescope, not to bar HST from any solar-system observation. &#10007;</li><li><strong>Choice C &mdash; can be modified to observe the features of solar system objects that are of interest to Kim and colleagues.</strong>: overreach &mdash; the passage never mentions modifying HST; the researchers want a new, separate instrument. &#10007;</li><li><strong>Choice D &mdash; lacks the sensors to observe the wavelengths of light needed to discern how solar system bodies change over time.</strong>: contradicts the passage, which says HST has revolutionized visible and UV imaging. &#10007;</li></ul>That matches <strong>Choice A &mdash; will likely continue to be used primarily to observe objects outside the solar system.</strong>."
+      "title": "Choose the implied role",
+      "content": "Since the new telescope would specialize in solar-system surveys and long-term UV observations, HST would likely continue in its current broader role, primarily observing objects outside the solar system. The answer is <strong>A</strong>."
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "questionId": "6c66ec91",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "State the two findings",
+      "content": "The passage gives a contrast: a greater share of Quito respondents reported using parks, 82.9%, than Lima respondents, 72.7%. But Quito respondents also reported much lower access to desired amenities near parks than Lima respondents did."
+    },
+    {
+      "title": "Use the author's conclusion",
+      "content": "Because Quito has higher park use despite lower reported access to nearby desired amenities, the park-use difference cannot be explained by Quito residents having more access to those amenities. The main idea must keep that causal claim narrow."
+    },
+    {
+      "title": "Avoid invented causes",
+      "content": "Choice A invents a claim about overall amenities in Quito and Lima. Choice B predicts what would increase park use, which the passage does not test. Choice C invents a claim about Quito having more parks. Choice D restates the passage's conclusion: higher park use in Quito is not due to greater access to amenities near parks. The answer is <strong>D</strong>."
+    }
+  ]
+}

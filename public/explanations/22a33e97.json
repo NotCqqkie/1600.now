@@ -1,0 +1,15 @@
+{
+  "questionId": "22a33e97",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the stated goal",
+      "content": "The student wants an example of a particle physicist whose research focuses on neutrinos. A good sentence must name an individual physicist and connect that person to neutrino research."
+    },
+    {
+      "title": "Require a named physicist",
+      "content": "Choice A discusses neutrino research generally. Choice B describes what particle physicists can study as a group. Choice D defines neutrinos without naming any physicist. The remaining choice names Victor Halvorsen and links him to high-energy astrophysical neutrinos. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "728c2c43",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Subtract the same term",
+      "content": "Start with the equation:<br/>$$7x+4=7x$$<br/>Subtract $7x$ from both sides:<br/>$$4=0$$"
+    },
+    {
+      "title": "Identify the contradiction",
+      "content": "The statement $4=0$ is false for every value of $x$, so the equation has no solutions. The answer is <strong>A</strong>."
+    }
+  ]
+}

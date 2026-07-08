@@ -1,0 +1,19 @@
+{
+  "questionId": "1c08b4cd",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Expand both sides",
+      "content": "For infinitely many solutions, both sides must simplify to the same expression.<br/>$$18(x+6)=18x+108$$<br/>$$2(x+c)+16x=18x+2c$$"
+    },
+    {
+      "title": "Match the constants",
+      "content": "The $x$ terms already match, so set the constants equal.<br/>$$108=2c$$<br/>$$c=54$$"
+    },
+    {
+      "title": "Match the value",
+      "content": "The value $54$ makes both sides equal to $18x+108$, which matches choice B. The answer is <strong>B</strong>."
+    }
+  ]
+}

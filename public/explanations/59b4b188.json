@@ -1,0 +1,16 @@
+{
+  "questionId": "59b4b188",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the sample-size rule",
+      "content": "With the same survey method, the margin of error is inversely related to the square root of the sample size. Increasing the sample size makes the margin of error smaller.",
+      "formula": "$$ME = z^* \\sqrt{\\frac{p(1-p)}{n}}$$"
+    },
+    {
+      "title": "Compare the two samples",
+      "content": "The sample size doubles from $156$ to $312$, so the margin of error is multiplied by\n$$\n\\frac{1}{\\sqrt{2}}\n$$\nThis factor is less than $1$, so the margin of error will be lower. The answer is <strong>A</strong>."
+    }
+  ]
+}

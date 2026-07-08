@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use intersections",
-      "content": "Solutions to a graphed system are the points where the graphs intersect."
+      "title": "Count intersections",
+      "content": "Each solution to a graphed system is one point where the graphs intersect."
     },
     {
-      "title": "Count the points",
-      "content": "The line intersects the parabola at exactly two distinct points in the graph."
-    },
-    {
-      "title": "Match the choice",
-      "content": "Therefore the system has $2$ solutions, which matches <strong>C</strong>."
+      "title": "Match the count",
+      "content": "The line and parabola intersect at $2$ distinct points, so the system has $2$ solutions. The answer is <strong>C</strong>."
     }
   ]
 }

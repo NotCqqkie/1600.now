@@ -1,0 +1,19 @@
+{
+  "questionId": "00b15e6a",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Restate the scale rule",
+      "content": "The sentence before the blank says visual magnitude is reverse logarithmic. The clause after the blank explains that rule in plainer terms: brighter objects have lower magnitude numbers."
+    },
+    {
+      "title": "Reject wrong transitions",
+      "content": "A signals a similar but separate idea. B signals contrast, though the second clause explains the first. D signals an example, but the clause gives a general definition of the scale."
+    },
+    {
+      "title": "Use a clarifying transition",
+      "content": "In other words introduces a restatement of \"reverse logarithmic\" in plain language. The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "f9b8986c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Focus on the requested location",
+      "content": "The student wants to specify where <em>Hadramphus tuberculatus</em> was identified. The notes give that location as New Zealand, so the answer must name that place for that species."
+    },
+    {
+      "title": "Reject wrong or incomplete details",
+      "content": "<ul><li>Choice A names Argentina but describes <em>Catagonus wagneri</em>, the wrong species.</li><li>Choice B names the correct species and year but leaves out the location.</li><li>Choice D explains Lazarus species generally without saying where <em>Hadramphus tuberculatus</em> was identified.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

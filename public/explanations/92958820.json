@@ -1,0 +1,15 @@
+{
+  "questionId": "92958820",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite in slope form",
+      "content": "Solve the equation for $y$:\n$$\n5x-2y=10\n$$\n$$\n-2y=-5x+10\n$$\n$$\ny=\\frac{5}{2}x-5\n$$"
+    },
+    {
+      "title": "Use parallel slopes",
+      "content": "Parallel lines have the same slope. Since line $r$ has slope $\\frac{5}{2}$, line $s$ also has slope $\\frac{5}{2}$. The answer is <strong>D</strong>."
+    }
+  ]
+}

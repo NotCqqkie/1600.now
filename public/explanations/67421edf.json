@@ -1,0 +1,15 @@
+{
+  "questionId": "67421edf",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Locate the sentence's new role",
+      "content": "Before the underlined sentence, the passage explains that trademarks can be owned and gives \"Kleenex\" as an example of a specific product name. The underlined sentence begins with \"However\" and introduces a new point: a trademark can be taken away if it stops being specific. The cellophane example then develops that point."
+    },
+    {
+      "title": "Match the discussion shift",
+      "content": "<ul><li><strong>Choice A - It concludes the text's argument about how the Trademark Act of 1946 can be improved.</strong>: The text explains the Act but does not argue for improving it.</li><li><strong>Choice B - It completes the text's comparison of trademark laws in the US to laws in other countries.</strong>: No laws from other countries appear in the passage.</li><li><strong>Choice C - It adds to the text's description of products made by Kimberly-Clark.</strong>: Kimberly-Clark is part of the earlier Kleenex example, but the underlined sentence shifts away from that example.</li></ul>The sentence starts the discussion of trademarks being taken away. The answer is <strong>D</strong>."
+    }
+  ]
+}

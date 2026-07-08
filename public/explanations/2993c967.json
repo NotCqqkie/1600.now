@@ -1,0 +1,15 @@
+{
+  "questionId": "2993c967",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Recognize the scaled expression",
+      "content": "The target expression is $10$ times the given expression:<br/>$$60x+50=10(6x+5)$$"
+    },
+    {
+      "title": "Use the given value",
+      "content": "Since $6x+5=59$, substitute into the scaled expression:<br/>$$60x+50=10(59)=590$$<br/>The answer is <strong>A</strong>."
+    }
+  ]
+}

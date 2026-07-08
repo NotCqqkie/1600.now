@@ -1,0 +1,15 @@
+{
+  "questionId": "4be1271e",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the parallel slope",
+      "content": "Line $k$ is $y=6x+4$, so its slope is $6$. A line parallel to it must also have slope $6$."
+    },
+    {
+      "title": "Use the given point",
+      "content": "Line $j$ passes through $(0,13)$, so its $y$-intercept is $13$. Therefore,\n$$\ny=6x+13\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

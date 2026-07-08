@@ -1,0 +1,19 @@
+{
+  "questionId": "13f9193d",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Reduce to one equation",
+      "content": "The second equation is $5$ times the first.<br/>$$5(6x+5y)=5(4)$$<br/>$$30x+25y=20$$<br/>So both equations represent the same line."
+    },
+    {
+      "title": "Use r as the y-value",
+      "content": "Let $y=r$ in $6x+5y=4$, then solve for $x$.<br/>$$6x+5r=4$$<br/>$$6x=4-5r$$<br/>$$x=-\\frac{5r}{6}+\\frac{2}{3}$$"
+    },
+    {
+      "title": "Write the ordered pair",
+      "content": "The point is<br/>$$(-\\frac{5r}{6}+\\frac{2}{3},r)$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

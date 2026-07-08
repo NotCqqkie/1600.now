@@ -1,0 +1,15 @@
+{
+  "questionId": "86c80971",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Find the concession",
+      "content": "The first sentence describes harsh outdoor conditions that could damage a sculpture. The second sentence says the sculpture remains in good condition because its steel resists corrosion. The transition must concede the expected problem and then pivot to the surprising durability."
+    },
+    {
+      "title": "Reject mismatched transitions",
+      "content": "Choice B merely adds information, but the second sentence contrasts with the expected damage. Choice C would deny the exposure to harsh weather, which the passage states. Choice D makes the good condition result from the weather itself. The needed transition signals a concession before the durability claim. The answer is <strong>A</strong>."
+    }
+  ]
+}

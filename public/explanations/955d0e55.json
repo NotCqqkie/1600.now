@@ -1,0 +1,15 @@
+{
+  "questionId": "955d0e55",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify input and output",
+      "content": "In $F(m)=6m$, the input $m$ is mass in kilograms, and the output $F(m)$ is force in newtons."
+    },
+    {
+      "title": "Interpret the function value",
+      "content": "The statement $F(5)=30$ means that an object with mass $5$ kilograms has estimated force $30$ newtons. The answer is <strong>A</strong>."
+    }
+  ]
+}

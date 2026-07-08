@@ -1,0 +1,15 @@
+{
+  "questionId": "577122ea",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Use the one-half power",
+      "content": "An exponent of $\\frac{1}{2}$ means square root. The exponent applies to the entire base $63y$.\n$$\n(63y)^{\\frac{1}{2}}=\\sqrt{63y}\n$$"
+    },
+    {
+      "title": "Match the equivalent form",
+      "content": "The whole product stays under the radical because the whole product is raised to the $\\frac{1}{2}$ power. The matching expression is\n$$\n\\sqrt{63y}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

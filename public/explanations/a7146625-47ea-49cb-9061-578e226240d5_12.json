@@ -9,7 +9,7 @@
     },
     {
       "title": "Solve for $x$",
-      "content": "$u = 0 \\Rightarrow x + 33 = 0 \\Rightarrow x = -33$.<br/>$u = 1 \\Rightarrow x + 33 = 1 \\Rightarrow x = -32$.<br/><br/>$x = -32$ is offered. (Note: $x = -33$ is not among choices; $-32$ is the listed solution.)<br/><br/>That is the correct answer."
+      "content": "$u = 0 \\Rightarrow x + 33 = 0 \\Rightarrow x = -33$.<br/>$u = 1 \\Rightarrow x + 33 = 1 \\Rightarrow x = -32$.<br/><br/>$x = -32$ is offered. (Note: $x = -33$ is not among choices; $-32$ is the listed solution.)"
     }
   ]
 }

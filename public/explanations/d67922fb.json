@@ -1,0 +1,15 @@
+{
+  "questionId": "d67922fb",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the false entries",
+      "content": "The passage calls the Wikipedia entries hoaxes and fictitious. Since they were invented entries that remained online until discovered and deleted, the blank needs a noun meaning made-up falsehoods."
+    },
+    {
+      "title": "Reject nonfalse meanings",
+      "content": "Choice A means careful studies, not false entries. Choice B means surprising disclosures, usually truths, not hoaxes. Choice D means improvements, but the entries deceived readers rather than improving the site. The answer is <strong>C</strong>."
+    }
+  ]
+}

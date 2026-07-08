@@ -1,0 +1,19 @@
+{
+  "questionId": "176201f4",
+  "correctAnswer": "115",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Square the equation",
+      "content": "Any solution must satisfy $29-x\\ge0$. Squaring the equation gives<br/>$$k-x=(29-x)^2$$"
+    },
+    {
+      "title": "Create one solution",
+      "content": "Expand and move everything to one side.<br/>$$0=x^2-57x+841-k$$<br/>For exactly one real solution, the discriminant must be $0$.<br/>$$57^2-4(1)(841-k)=0$$"
+    },
+    {
+      "title": "Solve for the minimum",
+      "content": "Simplify the discriminant equation.<br/>$$3{,}249-3{,}364+4k=0$$<br/>$$4k=115$$<br/>The repeated root satisfies $x\\le29$, so it is valid. The answer is <strong>115</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "885623a3",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the colon as a clue",
+      "content": "The mongoose example comes before a colon, and the underlined phrase comes after it. That structure signals that the phrase names the broader idea illustrated by the example: same-species contact with perceived outsiders. The rest of the passage then discusses whether that kind of interaction contributes to higher cognition in animals."
+    },
+    {
+      "title": "Eliminate misread functions",
+      "content": "Choice A treats the phrase as an example of nuanced analysis, but the later examples, such as evaluating physical status, are the analysis. Choice C says the text narrows to only a subset of species, while the passage says the dimension extends across animal species. Choice D calls the phrase a definition, but the passage introduces the idea rather than defining a scientific term."
+    },
+    {
+      "title": "Name the passage focus",
+      "content": "The underlined phrase identifies the kind of social interaction that the whole passage examines. The author contrasts established-group behaviors with interactions involving same-species outsiders and argues that those outsider interactions may also favor sophisticated cognition. The answer is <strong>B</strong>."
+    }
+  ]
+}

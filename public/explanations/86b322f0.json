@@ -1,0 +1,15 @@
+{
+  "questionId": "86b322f0",
+  "correctAnswer": "62",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Substitute the input",
+      "content": "To find $f(2)$, replace $x$ with $2$ in the function:<br/>$$f(2)=7(2)^3+6$$"
+    },
+    {
+      "title": "Evaluate the expression",
+      "content": "Cube first, then multiply and add:<br/>$$7(2)^3+6=7(8)+6=56+6=62$$<br/>The answer is <strong>62</strong>."
+    }
+  ]
+}

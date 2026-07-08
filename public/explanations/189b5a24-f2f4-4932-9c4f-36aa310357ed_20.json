@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the modifier",
-      "content": "The sentence opens with <em>Recordings of electrical activity in the brain,</em> — an appositive that must rename the noun that immediately follows. The subject after the comma must be a thing that <strong>is</strong> recordings of brain activity."
+      "title": "Rename the opening noun",
+      "content": "The sentence begins with an appositive phrase: recordings of electrical activity in the brain. The noun immediately after the comma must be something that can be renamed by that phrase. Electrograms are such recordings, so they belong directly after the opening phrase."
     },
     {
-      "title": "Apply the rule",
-      "content": "<strong>Electrograms</strong> are recordings of electrical activity in the brain — so <em>electrograms</em> must be the subject right after the comma. <strong>Choice A &mdash; electrograms show that while responding to hypothetical match scenarios, the most highly skilled soccer players have</strong> places <strong>electrograms</strong> there and produces a grammatical sentence: <em>...electrograms show that...the most highly skilled soccer players have increased activity...</em><br/><br/>B, C, and D place a different noun after the appositive, creating a misplaced modifier.<br/><br/>That matches <strong>Choice A &mdash; electrograms show that while responding to hypothetical match scenarios, the most highly skilled soccer players have</strong>."
+      "title": "Avoid misplaced modifiers",
+      "content": "Choice B makes hypothetical match scenario responses the thing being renamed, while Choice C makes the soccer players that thing. Choice D similarly makes responses the noun after the appositive. Those choices misplace the modifier. The subject after the comma must be electrograms. The answer is <strong>A</strong>."
     }
   ]
 }

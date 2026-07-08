@@ -4,20 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the data directly",
-      "content": "Use the two table points directly. From $(0,2)$ to $(8,34)$, the slope is $m=\\frac{34-2}{8-0}=4.$ Substituting a point into $y=mx+b$ gives $b=2$.",
+      "title": "Find the slope",
+      "content": "Use the two given points, $(0,2)$ and $(8,34)$.<br/>$$m=\\frac{34-2}{8-0}=\\frac{32}{8}=4$$",
       "desmosExpressions": [
         "x_1=[0,8]",
         "y_1=[2,34]"
       ]
     },
     {
-      "title": "Check the same result by hand",
-      "content": "The slope is $\\frac{34-2}{8-0}=\\frac{32}{8}=4$. Since the point $(0,2)$ is on the graph, the y-intercept is $2$. That confirms the function is $f(x)=4x+2$."
-    },
-    {
-      "title": "Eliminate each choice",
-      "content": "<ul><li>A) $f(x)=2x+42$: gives $f(0)=42\\neq 2$. Eliminate.</li><li>B) $f(x)=32x+36$: gives $f(0)=36\\neq 2$. Eliminate.</li><li>C) $f(x)=4x+2$: gives $f(0)=2$ and $f(8)=34$. Keep.</li><li>D) $f(x)=8x+2$: gives $f(8)=66\\neq 34$. Eliminate.</li></ul>That is the correct answer."
+      "title": "Use the intercept",
+      "content": "The point $(0,2)$ shows the $y$-intercept is $2$, so the function has slope $4$ and intercept $2$.<br/>$$f(x)=4x+2$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }

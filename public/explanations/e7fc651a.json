@@ -1,0 +1,19 @@
+{
+  "questionId": "e7fc651a",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Name the size difference",
+      "content": "The passage says both species were ammonites, but <em>P. seppenradensis</em> was much larger than <em>P. leptophylla</em>. The blank refers back to that difference in size."
+    },
+    {
+      "title": "Reject unrelated meanings",
+      "content": "Choice B means hostility, Choice C means an unexpected irregularity, and Choice D means uncertainty. These do not precisely name a difference between two sizes."
+    },
+    {
+      "title": "Choose difference",
+      "content": "Disparity means a noticeable difference, which precisely describes the size gap between the two ammonite species. The answer is <strong>A</strong>."
+    }
+  ]
+}

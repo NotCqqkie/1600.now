@@ -1,0 +1,15 @@
+{
+  "questionId": "40005411",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the slope",
+      "content": "Use the table points $(-3,0)$ and $(0,-15)$:\n$$\nm=\\frac{-15-0}{0-(-3)}=-5\n$$\nThe point $(0,-15)$ gives the $y$-intercept."
+    },
+    {
+      "title": "Write the function",
+      "content": "With slope $-5$ and $y$-intercept $-15$, the function is\n$$\nf(x)=-5x-15\n$$\nFactor out $-5$:\n$$\nf(x)=-5(x+3)\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

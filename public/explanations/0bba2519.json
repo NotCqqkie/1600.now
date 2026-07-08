@@ -1,0 +1,15 @@
+{
+  "questionId": "0bba2519",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Group the repeated expression",
+      "content": "Let $u=x+5$. Then the equation becomes<br/>$$6u=5u+42$$"
+    },
+    {
+      "title": "Solve for the group",
+      "content": "Subtract $5u$ from both sides.<br/>$$u=42$$<br/>Since $u=x+5$, the requested value is $42$. The answer is <strong>C</strong>."
+    }
+  ]
+}

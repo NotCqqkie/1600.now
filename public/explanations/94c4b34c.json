@@ -1,0 +1,15 @@
+{
+  "questionId": "94c4b34c",
+  "correctAnswer": "C",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the example relationship",
+      "content": "The first sentence gives the broad classification system: Shakespeare's plays are grouped as comedies, histories, or tragedies. The next sentence names specific plays and their genres, so the transition should show that these plays illustrate the system."
+    },
+    {
+      "title": "Reject nonexample transitions",
+      "content": "Choice A signals an added separate point, but the sentence gives an illustration. Choice B signals similarity, though no comparison is being made. Choice D signals contrast, but the examples support the classification system. The answer is <strong>C</strong>."
+    }
+  ]
+}

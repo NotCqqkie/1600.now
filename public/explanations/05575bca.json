@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the context clue for &ldquo;soft&rdquo;",
-      "content": "Alice immediately follows &ldquo;soft&rdquo; with a comparison: the snow sounds <em>&ldquo;just as if someone was kissing the window all over outside.&rdquo;</em> A kiss on a window is a quiet, tender, delicate action. The word &ldquo;soft&rdquo; in this context describes that gentle, light quality of sound&mdash;not texture, brightness, or interest."
+      "title": "Use Alice's comparison",
+      "content": "Alice says the snow sounds \"nice and soft\" and compares it to someone kissing the window. The context describes a quiet, light, pleasant sound."
     },
     {
-      "title": "Match each answer choice to the context clue",
-      "content": "<ul>\n<li><strong>Choice A &mdash; Gentle</strong>: Directly captures the quiet, tender quality evoked by the kissing comparison and the word &ldquo;nice.&rdquo; &#10003;</li>\n<li><strong>Choice B &mdash; Sensitive</strong>: &ldquo;Sensitive&rdquo; describes a capacity to feel or react; it does not describe how a sound quality compares to a gentle kiss. &#10007;</li>\n<li><strong>Choice C &mdash; Shapeless</strong>: Refers to lacking a definite form. Alice is describing how the snow <em>sounds</em>, not how it looks or what shape it has. &#10007;</li>\n<li><strong>Choice D &mdash; Bland</strong>: Means dull or uninteresting. Alice calls the sound &ldquo;nice,&rdquo; showing she finds it pleasant&mdash;the opposite of bland. &#10007;</li>\n</ul>\nThat matches <strong>Choice A &mdash; Gentle</strong>."
+      "title": "Reject unrelated meanings",
+      "content": "B describes a capacity to feel or react, not a sound. C describes shape, though Alice is talking about hearing. D means dull or uninteresting, which conflicts with \"nice\" and the kissing comparison. The answer is <strong>A</strong>."
     }
   ]
 }

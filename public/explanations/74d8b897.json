@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert radians to degrees",
-      "content": "To convert a radian measure to degrees, multiply by $\\frac{180^{\\circ}}{\\pi}$. The $\\pi$ terms will cancel, leaving a degree measure."
-    },
-    {
-      "title": "Apply the radians-to-degrees conversion formula",
-      "content": "To convert from radians to degrees, multiply by $$\\frac{180^{\\circ}}{\\pi}$$. Set up the calculation with the given angle of $\\frac{7\\pi}{20}$ radians:<br/>$$\\frac{7\\pi}{20} \\times \\frac{180^{\\circ}}{\\pi}$$"
+      "title": "Use the conversion factor",
+      "content": "To convert radians to degrees, multiply by $\\frac{180^\\circ}{\\pi}$."
     },
     {
       "title": "Cancel pi and simplify",
-      "content": "The $\\pi$ terms cancel in the numerator and denominator:<br/>$$\\frac{7 \\times 180^{\\circ}}{20}$$<br/>Compute the numerator and divide:<br/>$$\\frac{1260^{\\circ}}{20} = 63^{\\circ}$$<br/>The angle measures <strong>63 degrees</strong>."
+      "content": "Apply the conversion to the given angle.\n$$\n\\frac{7\\pi}{20}\\cdot\\frac{180^\\circ}{\\pi}=\\frac{7\\cdot180^\\circ}{20}\n$$\n$$\n\\frac{1{,}260^\\circ}{20}=63^\\circ\n$$\nThe answer is <strong>63</strong>."
     }
   ]
 }

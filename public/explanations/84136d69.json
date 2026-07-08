@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the contrast pattern",
-      "content": "The passage states that curtailments are named more often than efficiencies. The example given—19.6% of respondents saying “turn off the lights”—is a curtailment."
+      "title": "Match the contrast",
+      "content": "The passage says respondents named curtailments more often than efficiencies. Turning off lights is a curtailment, so the completion should contrast that 19.6% response with a lower-percentage efficiency action from the data."
     },
     {
-      "title": "Find an efficiency action at a lower percentage",
-      "content": "The correct answer provides efficient light bulbs at 3.6%, an efficiency action that creates the downward contrast needed after the 19.6% curtailment example.<br/><br/>Those choices incorrectly pair actions with percentages from the table, and C presents another curtailment instead of an efficiency.<br/><br/>That confirms <strong>D</strong> is correct."
+      "title": "Use the paired efficiency",
+      "content": "<ul><li><strong>Choice A</strong> shifts to efficient cars or hybrids rather than the light-related efficiency.</li><li><strong>Choice B</strong> gives a thermostat action, which is not the efficiency counterpart to turning off lights.</li><li><strong>Choice C</strong> gives a transportation action, not the needed light-related efficiency.</li></ul>The remaining choice supplies efficient light bulbs at 3.6%, making the intended contrast. The answer is <strong>D</strong>."
     }
   ]
 }

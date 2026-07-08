@@ -1,0 +1,19 @@
+{
+  "questionId": "ec2d5a17",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Simplify the second fraction",
+      "content": "Factor the denominator of the second fraction:\n$$\nx^2y-12xy=xy(x-12)\n$$\nThen cancel the common factor, using the restrictions from the original denominators:\n$$\n\\frac{y(x-12)}{xy(x-12)}=\\frac{1}{x}\n$$"
+    },
+    {
+      "title": "Combine the fractions",
+      "content": "The expression becomes:\n$$\n\\frac{y+17}{x-12}+\\frac{1}{x}\n$$\nUse the common denominator $x(x-12)$ and combine the numerators:\n$$\n\\frac{x(y+17)}{x(x-12)}+\\frac{x-12}{x(x-12)}=\\frac{xy+18x-12}{x(x-12)}\n$$"
+    },
+    {
+      "title": "Match the choice format",
+      "content": "The choices use a denominator with the factor $y$ included, so multiply numerator and denominator by $y$:\n$$\n\\frac{y(xy+18x-12)}{xy(x-12)}=\\frac{xy^2+18xy-12y}{x^2y-12xy}\n$$\nThe answer is <strong>C</strong>."
+    }
+  ]
+}

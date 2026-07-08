@@ -1,0 +1,19 @@
+{
+  "questionId": "268598cf",
+  "correctAnswer": "1480",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Express the obtuse angle",
+      "content": "An acute angle and an adjacent obtuse angle are supplementary. If the acute angle is $(10x-470)^{\\circ}$, then an obtuse angle is\n$$\n180-(10x-470)=650-10x\n$$"
+    },
+    {
+      "title": "Add the requested angles",
+      "content": "The sum of one acute angle and three obtuse angles is\n$$\n(10x-470)+3(650-10x)\n$$\n$$\n=10x-470+1{,}950-30x\n$$\n$$\n=-20x+1{,}480\n$$"
+    },
+    {
+      "title": "Match the constant term",
+      "content": "The problem gives the sum as $(-20x+w)^{\\circ}$, so compare constants.\n$$\nw=1{,}480\n$$\nThe answer is <strong>1480</strong>."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "4563a0af",
+  "correctAnswer": "19.2",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Split the parcel into two parts",
+      "content": "Farmland is $56.0\\%$ of the parcel, so pasture is the remaining percentage.\n$$100.0\\%-56.0\\%=44.0\\%$$"
+    },
+    {
+      "title": "Find each building portion",
+      "content": "Buildings cover $22.5\\%$ of the farmland and $15.0\\%$ of the pasture. As portions of the whole parcel, these are\n$$0.225(0.560)=0.126$$\nand\n$$0.150(0.440)=0.066$$"
+    },
+    {
+      "title": "Combine the portions",
+      "content": "Add the two parcel portions with buildings.\n$$0.126+0.066=0.192$$\nAs a percent, this is $19.2\\%$. The answer is <strong>19.2</strong>."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "The sentence reads: \"There, wildlife ______ is on the front lines of conservation efforts.\" The blank fills in \"biologist\" plus a name. The name <em>Dr. Purnima Devi Barman</em> is an <strong>essential appositive</strong> &mdash; it identifies <em>which</em> wildlife biologist, since there are many. Essential appositives take <strong>no commas</strong>."
+      "title": "Use the essential name",
+      "content": "The sentence introduces the specific wildlife biologist who is on the front lines of conservation efforts. “Dr. Purnima Devi Barman” is essential because it identifies which wildlife biologist the sentence means, so no punctuation should separate the title and name from “biologist.”"
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>\"biologist, Dr. Purnima Devi Barman,\"</strong>: Two commas set the name off as nonessential &mdash; as if any wildlife biologist would do. But the name is identifying, so this punctuation is wrong. &#10007;</li><li><strong>\"biologist, Dr. Purnima Devi Barman\"</strong>: One comma before the name opens a nonessential phrase but never closes it, creating a comma splice error. &#10007;</li><li><strong>\"biologist: Dr. Purnima Devi Barman\"</strong>: A colon requires an independent clause before it. \"There, wildlife biologist\" is not an independent clause, so the colon is ungrammatical here. &#10007;</li><li><strong>\"biologist Dr. Purnima Devi Barman\"</strong>: No punctuation between \"biologist\" and the name &mdash; correct for an essential appositive. The sentence reads naturally and grammatically. &#10003;</li></ul>That matches the correct answer — <strong>D</strong> is correct."
+      "title": "Eliminate unnecessary punctuation",
+      "content": "Choice A sets the name off with commas, incorrectly treating it as nonessential. Choice B leaves an opening comma before the name without a closing comma and still separates essential information. Choice C uses a colon where direct identification is needed. The unpunctuated phrase correctly identifies the biologist. The answer is <strong>D</strong>."
     }
   ]
 }

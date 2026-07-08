@@ -1,0 +1,24 @@
+{
+  "questionId": "71e35f9f",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the linear equation",
+      "content": "From the table, two points are $(0,46)$ and $(3,34)$. Their slope is $$\\frac{34-46}{3-0}=-4$$So the line is $y=-4x+46$."
+    },
+    {
+      "title": "Rewrite in answer-choice form",
+      "content": "$$y=-4x+46$$$$4x+y=46$$$$24x+6y=276$$This matches the answer-choice form."
+    },
+    {
+      "title": "Calculator shortcut",
+      "content": "Enter the table points and the line $y=-4x+46$. The equivalent standard-form equation is $24x+6y=276$. The answer is <strong>B</strong>.",
+      "desmosExpressions": [
+        "x_1=[0,3,6]",
+        "y_1=[46,34,22]",
+        "y=-4x+46"
+      ]
+    }
+  ]
+}

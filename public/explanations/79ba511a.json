@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=x^3+14$. To find $f(3)$, replace every $x$ with $3$: $$f(3)=3^3+14.$$"
+      "content": "To find $f(3)$, replace $x$ with $3$ in the function.\n$$f(3)=3^3+14$$"
     },
     {
-      "title": "Apply the exponent first",
-      "content": "$3^3=27$, so $$f(3)=27+14=41.$$ Do not read $x^3$ as $3x$; that mistake would give $23$ instead."
-    },
-    {
-      "title": "Confirm the choice",
-      "content": "The computed value is $41$, which matches <strong>C</strong>. The nearby answers are traps from arithmetic or exponent mistakes, not alternate valid function values."
+      "title": "Apply the exponent",
+      "content": "Evaluate the exponent before adding.\n$$3^3+14=27+14=41$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

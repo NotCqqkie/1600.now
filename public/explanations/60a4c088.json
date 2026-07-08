@@ -4,16 +4,16 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what each noun is doing",
-      "content": "&quot;Hands&quot; is the object of &quot;place&quot; and &quot;antennas&quot; is the object of the preposition &quot;between.&quot; Neither noun owns anything, so neither needs an apostrophe; both should be simple plurals."
+      "title": "Identify plural nouns",
+      "content": "The sentence refers to placing both hands between two antennas. Hands and antennas are simple plural nouns here; neither noun owns anything, so neither should have an apostrophe."
     },
     {
-      "title": "Apply the plural-vs-possessive rule",
-      "content": "Plural nouns that show no ownership take just an -s ending, with no apostrophe. The only option that writes both nouns as plain plurals is &quot;hands... antennas.&quot;"
+      "title": "Reject false possessives",
+      "content": "Choice A incorrectly uses possessive forms for hand and antenna. Choice C makes both plural nouns possessive. Choice D still makes hands possessive even though hands is just the object of place."
     },
     {
-      "title": "Eliminate each choice",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;hand's between the two antenna's,&rsquo;</strong>: uses singular possessive &quot;hand&rsquo;s&quot; (you place both hands, not one) and incorrectly puts an apostrophe on the plural &quot;antennas.&quot; &#10007;</li><li><strong>Choice B &mdash; &lsquo;hands between the two antennas,&rsquo;</strong>: correct plural form for both nouns, no false possessives. &#10003;</li><li><strong>Choice C &mdash; &lsquo;hands' between the two antennas',&rsquo;</strong>: adds possessive apostrophes to both plural nouns, but nothing is being owned. &#10007;</li><li><strong>Choice D &mdash; &lsquo;hands' between the two antennas,&rsquo;</strong>: still treats &quot;hands&rsquo;&quot; as possessive when it is just the object of &quot;place.&quot; &#10007;</li></ul>That confirms <strong>B</strong> is correct."
+      "title": "Use plain plural forms",
+      "content": "Hands between the two antennas uses ordinary plurals with no apostrophes, which matches the grammar and meaning of the sentence. The answer is <strong>B</strong>."
     }
   ]
 }

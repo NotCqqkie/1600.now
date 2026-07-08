@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the blank must mean",
-      "content": "The sentence says the exhibition ______ five generations, listing works from Herrera&apos;s great-grandfather, grandmother, mother, niece, and Herrera herself. The blank must mean &quot;extends across&quot; that range of generations."
+      "title": "Use the generation list",
+      "content": "The exhibition features works by Herrera and relatives from several generations: great-grandfather, grandmother, mother, niece, and Herrera herself. The blank must mean that the exhibition extends across that family range."
     },
     {
-      "title": "Eliminate each wrong choice and confirm the answer",
-      "content": "Test all four choices against the meaning &quot;extends across&quot;:<ul><li><strong>Choice A &mdash; borrows</strong>: means to take something from another source &mdash; the exhibition does not take from five generations; it features their work. &#10007;</li><li><strong>Choice B &mdash; spans</strong>: means to extend across a range &mdash; directly expresses that the exhibition covers five generations. &#10003;</li><li><strong>Choice C &mdash; judges</strong>: means to evaluate or assess &mdash; the passage describes what is featured, not a judgment of the works. &#10007;</li><li><strong>Choice D &mdash; neglects</strong>: means to fail to give attention to &mdash; contradicts the passage, which says those generations are clearly featured. &#10007;</li></ul>That is the correct answer."
+      "title": "Reject illogical verbs",
+      "content": "A would mean the exhibition takes five generations from elsewhere. C would mean it evaluates those generations. D would mean it fails to attend to them, contradicting the list of featured artists. The needed verb means covers or extends across. The answer is <strong>B</strong>."
     }
   ]
 }

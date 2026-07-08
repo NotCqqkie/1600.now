@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the sampling population",
-      "content": "The 180 people were selected at random from people who indicated they liked the novel.<br/><br/>A valid statistical inference can only be generalized to the population from which the random sample was drawn.<br/><br/>Sampling population: people who like the novel. Result: 92% disliked the show."
+      "title": "Identify the sampled group",
+      "content": "The $180$ people were randomly selected from people who said they liked the novel. A survey result can be generalized only to the population sampled."
     },
     {
-      "title": "Apply the sampling principle to each choice",
-      "content": "<ul><li><strong>A:</strong> Generalizes to <em>all people who watch television shows</em> &mdash; this population was not sampled, so no valid inference can be made about them</li><li><strong>B:</strong> Generalizes to <em>all people who read novels</em> &mdash; we only sampled those who like THIS particular novel, not all readers</li><li><strong>C:</strong> Makes a claim about people who <em>dislike</em> the novel &mdash; we sampled zero people from this group, so we have no data on them</li><li><strong>D:</strong> Makes a claim about people who <em>like</em> the novel &mdash; this is exactly our sampling population, and 92% (which is &quot;most&quot;) disliked the show</li></ul>That confirms <strong>D</strong> is correct."
+      "title": "Apply the survey result",
+      "content": "Of the people sampled, $92\\%$ disliked the television show. Since the sampled population was people who liked the novel, the appropriate inference is about people who like that novel, not all television viewers or all novel readers. The answer is <strong>D</strong>."
     }
   ]
 }

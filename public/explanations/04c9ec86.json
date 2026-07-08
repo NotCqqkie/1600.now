@@ -1,0 +1,15 @@
+{
+  "questionId": "04c9ec86",
+  "correctAnswer": "28",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Factor the expression",
+      "content": "The target expression has a common factor of $7$:<br/>$$42+7x=7(6+x)$$"
+    },
+    {
+      "title": "Use the given value",
+      "content": "The question gives $6+x=4$, so substitute that into the factored expression:<br/>$$7(6+x)=7(4)=28$$<br/>The answer is <strong>28</strong>."
+    }
+  ]
+}

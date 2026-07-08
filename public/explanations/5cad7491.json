@@ -1,0 +1,15 @@
+{
+  "questionId": "5cad7491",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Compute regular pay",
+      "content": "First $40$ hours pay $40(28)=1{,}120$ dollars."
+    },
+    {
+      "title": "Find overtime hours",
+      "content": "Still need $390$. At $42$ per hour, that takes $10$ overtime hours, for $50$ total. The answer is <strong>A</strong>."
+    }
+  ]
+}

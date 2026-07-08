@@ -1,0 +1,19 @@
+{
+  "questionId": "61177d5d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Translate the product",
+      "content": "The phrase means multiply $x$ by the number that is $84$ more than $x$. That second factor is $x+84$, so<br/>$$f(x)=x(x+84)$$"
+    },
+    {
+      "title": "Expand the expression",
+      "content": "Distribute $x$ across both terms:<br/>$$x(x+84)=x^2+84x$$"
+    },
+    {
+      "title": "Check each choice",
+      "content": "<ul><li><strong>A.</strong> $f(x)=x^2+x+84$ has an extra constant and uses $x$, not $84x$.</li><li><strong>B.</strong> $f(x)=x^2+84$ is missing the $84x$ term.</li><li><strong>C.</strong> $f(x)=x^2+84x$ matches the expanded product.</li><li><strong>D.</strong> $f(x)=x^2+84x+84$ has an extra constant.</li></ul>The answer is <strong>C</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "3fcb9a62",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Introduce the explanation",
+      "content": "The clause \"it was not universally embraced\" is followed by an explanation: some people flocked to balloon launches, while others dismissed the balloon. The punctuation must introduce that explanatory contrast."
+    },
+    {
+      "title": "Reject faulty connections",
+      "content": "B leaves the clauses running together, C does not clearly introduce the explanatory contrast, and D produces the ungrammatical phrase \"and whereas.\" A colon after \"embraced\" correctly introduces the explanation that follows. The answer is <strong>A</strong>."
+    }
+  ]
+}

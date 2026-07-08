@@ -1,0 +1,19 @@
+{
+  "questionId": "26d84a19",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Convert the time",
+      "content": "The population increases by $p\\%$ every $240$ seconds. Since $240$ seconds is $4$ minutes, compare $N(m+4)$ with $N(m)$."
+    },
+    {
+      "title": "Find the growth factor",
+      "content": "Use the ratio of the two population values.<br/>$$\\frac{N(m+4)}{N(m)}=\\frac{72Q^{(m+4)/8}}{72Q^{m/8}}=Q^{(m+4)/8-m/8}=Q^{1/2}$$"
+    },
+    {
+      "title": "Convert to percent increase",
+      "content": "A $p\\%$ increase has growth factor $1+\\frac{p}{100}$.<br/>$$1+\\frac{p}{100}=Q^{1/2}$$<br/>$$p=100(Q^{1/2}-1)$$<br/>The answer is <strong>C</strong>."
+    }
+  ]
+}

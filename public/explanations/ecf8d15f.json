@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use favorable over total",
-      "content": "The favorable outcome is choosing a child who picked a vegetarian sandwich. The table shows $9$ vegetarian choices out of $50$ children total."
+      "title": "Identify favorable cases",
+      "content": "The favorable outcomes are the children who chose vegetarian sandwiches. The table gives that count as $9$ children."
     },
     {
-      "title": "Write the probability",
-      "content": "$$P(\\text{vegetarian})=\\frac{9}{50}$$ No percent conversion is needed because the choices are fractions."
-    },
-    {
-      "title": "Check the choices",
-      "content": "<ul><li>$\\frac{9}{100}$, uses the wrong total.</li><li>$\\frac{9}{50}$, uses $9$ vegetarian choices out of $50$ children. Correct.</li><li>$\\frac{1}{4}$, treats the four sandwich types as equally chosen, which the table does not show.</li><li>$\\frac{9}{10}$, is far too large for $9$ out of $50$.</li></ul>That matches the correct answer, <strong>B</strong>."
+      "title": "Use the total number",
+      "content": "The random selection is from all $50$ children at camp, so put the favorable count over the total:\n$$\n\\frac{9}{50}\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

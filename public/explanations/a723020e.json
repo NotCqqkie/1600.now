@@ -1,0 +1,19 @@
+{
+  "questionId": "a723020e",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Read the underlined comment",
+      "content": "The underlined portion says Duarte and colleagues were capitalizing on the research potential of historical DNA from a vast but underused source. That language evaluates the importance of their approach."
+    },
+    {
+      "title": "Reject function mismatches",
+      "content": "Choice A says the portion lists applications, but no applications are specified. Choice C shifts to the importance of findings, though the passage discusses method. Choice D says it explains why the method is underused, but no cause is given."
+    },
+    {
+      "title": "Name the evaluative role",
+      "content": "The remaining choice correctly describes the underlined portion as commentary on why Duarte and colleagues' approach is significant. The answer is <strong>B</strong>."
+    }
+  ]
+}

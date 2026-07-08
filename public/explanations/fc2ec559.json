@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the linear equation for x",
-      "content": "Solve the first equation for $x$:<br/>$$x + 6 = 17$$$$x = 11$$"
+      "title": "Solve for x first",
+      "content": "Use the linear equation to get the $x$-coordinate of the intersection: $$x+6=17$$ $$x=11$$"
     },
     {
-      "title": "Substitute into the parabola equation to find y",
-      "content": "Substitute $x = 11$ into $y = 3x^2 + 5$:<br/>$$y = 3(11)^2 + 5$$$$y = 3(121) + 5$$$$y = 363 + 5$$$$y = 368$$<br/>The intersection point is $(11, 368)$. That matches the correct answer &mdash; <strong>B</strong> is correct."
+      "title": "Find the y-coordinate",
+      "content": "Substitute $x=11$: $$y=3(11)^2+5$$ $$y=368$$ The point is $(11, 368)$. The answer is <strong>B</strong>."
     }
   ]
 }

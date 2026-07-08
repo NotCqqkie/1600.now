@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Solve the system by setting equations equal",
-      "content": "At intersection points, both equations are satisfied simultaneously. Set $x^2 - 2 = 7$: $$x^2 - 2 = 7$$ $$x^2 = 9$$ $$x = \\pm 3$$"
+      "title": "Set the y-values equal",
+      "content": "At an intersection, both equations have the same $y$-value. Since one equation is $y=7$, substitute $7$ into $y=x^2-2$:\n$$\n7=x^2-2\n$$"
     },
     {
-      "title": "Write the intersection points",
-      "content": "Both intersection points lie on the line $y = 7$. With $x = 3$ and $x = -3$, the coordinates are $(3, 7)$ and $(-3, 7)$. <strong>A</strong> is correct."
+      "title": "Solve for x",
+      "content": "Add $2$ and take square roots:\n$$\nx^2=9\n$$\n$$\nx=\\pm 3\n$$"
+    },
+    {
+      "title": "Write the coordinates",
+      "content": "Both points have $y=7$, so the intersections are $(3,7)$ and $(-3,7)$. The answer is <strong>A</strong>."
     }
   ]
 }

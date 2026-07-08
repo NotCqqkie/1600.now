@@ -1,0 +1,15 @@
+{
+  "questionId": "598f4074",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Set up the profit equation",
+      "content": "Let $n$ be the number of tables. Revenue is $18n$, expenses are $144$, and profit is $504$:<br/>$$504=18n-144$$"
+    },
+    {
+      "title": "Solve for the table count",
+      "content": "Add $144$ to both sides and divide by $18$:<br/>$$648=18n$$<br/>$$n=36$$<br/>The answer is <strong>D</strong>."
+    }
+  ]
+}

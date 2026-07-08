@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the expression",
-      "content": "There are 7 stations total. If $x$ stations use Experiment A (9 tsp each), then $7 - x$ stations use Experiment B (5 tsp each)."
+      "title": "Count each station type",
+      "content": "There are $7$ stations total. If $x$ stations are set up for Experiment A, then the remaining stations are set up for Experiment B. The number of Experiment B stations is therefore $7-x$."
     },
     {
-      "title": "Simplify the total",
-      "content": "Total salt $= 9x + 5(7 - x)$. Expanding: $9x + 35 - 5x = 4x + 35$."
+      "title": "Write the total salt",
+      "content": "Experiment A uses $9$ teaspoons of salt at each of the $x$ stations, so that part requires $9x$ teaspoons. Experiment B uses $5$ teaspoons at each of the $7-x$ stations, so the total expression is:\n$$9x+5(7-x)$$"
     },
     {
-      "title": "Eliminate wrong choices and confirm C",
-      "content": "<ul><li><strong>Choice A &mdash; &lsquo;7x&rsquo;</strong>: Treats $x$ as the total salt per station regardless of experiment, ignoring that Experiment A and Experiment B have different teaspoon amounts and that the $7 - x$ Experiment B stations each contribute 5 tsp. &#10007;</li><li><strong>Choice B &mdash; &lsquo;14x&rsquo;</strong>: Adds $9 + 5 = 14$ and multiplies by $x$, incorrectly applying both per-station rates to the same $x$ stations and omitting the $5(7 - x)$ contribution from the Experiment B stations entirely. &#10007;</li><li><strong>Choice C &mdash; &lsquo;$4x + 35$&rsquo;</strong>: Matches the simplified expression exactly. &#10003;</li><li><strong>Choice D &mdash; &lsquo;$14x + 35$&rsquo;</strong>: Adds $9 + 5 = 14$ and multiplies by $x$, then also adds the 35 tsp from 7 Experiment B stations, so it double-counts instead of using $9x + 5(7 - x)$. &#10007;</li></ul>That confirms <strong>C</strong> is correct."
+      "title": "Simplify the expression",
+      "content": "Distribute the $5$ across $(7-x)$, then combine the $x$-terms. This writes the total number of teaspoons in simplified form:\n$$9x+5(7-x)=9x+35-5x=4x+35$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

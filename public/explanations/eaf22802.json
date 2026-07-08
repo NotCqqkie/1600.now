@@ -4,12 +4,24 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify the question type",
-      "content": "Support-the-claim question. The student's claim has two parts: (1) obedience to law in a healthy state must be as close to absolute as possible, and (2) even minor infractions should not be ignored. The correct quotation must address minor or unnoticed violations accumulating to harm the state."
+      "title": "Match the needed support",
+      "content": "The student claims Aristotle says obedience to law should be nearly absolute and that even minor infractions should not be ignored. The best quotation must connect small violations of law to serious damage to the state."
     },
     {
-      "title": "Evaluate each choice",
-      "content": "<ul><li><strong>\"When constructing his argument regarding the characteristics of a well-functioning government, Aristotle asserts that 'Transgression creeps in unperceived and at last ruins the state,' illustrating this idea with a comparison to frequent small expenditures slowly and almost imperceptibly chipping away at a fortune until it is ultimately depleted.\"</strong>: directly supports both parts &mdash; small/unnoticed infractions, if tolerated, accumulate until they ruin the state, so they cannot be ignored. &#10003;</li><li><strong>\"When Aristotle writes on the necessity of avoiding corruption in government, he proposes that 'every state should be so administered and so regulated by law that its magistrates cannot possibly make money.' In particular, he thinks oligarchies are particularly susceptible to corruption through bribery.\"</strong>: about preventing financial corruption of officials, not about strict enforcement against minor citizen infractions. &#10007;</li><li><strong>\"When Aristotle considers the health of constitutions, he states that 'Constitutions are preserved when their destroyers are at a distance, and sometimes also because they are near, for the fear of them makes the government keep in hand the constitution.' He holds that rulers who wish to see constitutions preserved must continually remind the populace of the dangers that would result from a constitutional collapse.\"</strong>: about external threats motivating vigilance, not about treating every minor infraction as significant. &#10007;</li><li><strong>\"When contrasting different forms of government, Aristotle holds that 'oligarchies may last, not from any inherent stability in such forms of government, but because the rulers are on good terms both with the unenfranchised and with the governing classes.' That is, oligarchic leaders who wish to hold on to power will introduce members of disenfranchised classes into government in a participatory role.\"</strong>: about power-sharing in oligarchies to maintain stability, unrelated to absolute obedience or minor infractions. &#10007;</li></ul>That matches the correct answer — <strong>A</strong> is correct."
+      "title": "Reject different political issues",
+      "content": "Choice B concerns preventing magistrates from making money and focuses on corruption, especially bribery in oligarchies. Choice C concerns preserving constitutions by keeping their destroyers near or far enough to create caution. Choice D concerns why oligarchies may last because rulers maintain good terms with different groups."
+    },
+    {
+      "title": "Focus on small violations",
+      "content": "The relevant quotation says transgression creeps in unnoticed and eventually ruins the state. Its comparison to small expenditures slowly depleting a fortune supports the idea that minor infractions should not be dismissed. A quotation about corruption, external threats, or relations among classes might concern political stability, but it would not show why small violations of law should be treated seriously."
+    },
+    {
+      "title": "Keep the support precise",
+      "content": "The quotation about transgression is also broad enough to support the claim about a healthy state generally. It is not limited to one form of government or one temporary political situation, so it fits the student’s general claim about preserving order through strict obedience to law."
+    },
+    {
+      "title": "Connect quote to claim",
+      "content": "That evidence directly supports the student’s claim about strict obedience to law because it shows Aristotle warning that even seemingly small violations can accumulate into major political instability. The answer is <strong>A</strong>."
     }
   ]
 }

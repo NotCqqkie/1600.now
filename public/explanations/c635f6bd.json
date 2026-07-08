@@ -1,0 +1,19 @@
+{
+  "questionId": "c635f6bd",
+  "correctAnswer": "D",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Use the final result",
+      "content": "The question asks for the main idea. The passage explains that researchers tested whether cuttlefish lack 3D vision, then reports that cuttlefish changed their striking position to match 3D shrimp images. That result suggests their vision resembles that of falcons and horses."
+    },
+    {
+      "title": "Reject details and distortions",
+      "content": "Choice A claims cuttlefish eyes are more complex than falcon or horse eyes, but the passage never compares eye anatomy. Choice B focuses on 3D glasses, which are only part of the study method. Choice C reverses the setup by saying the team thought cuttlefish had 3D vision while horses may not."
+    },
+    {
+      "title": "State the main idea",
+      "content": "The passage's overall point is not the glasses, the image of shrimp, or eye complexity. Those details support the broader finding that cuttlefish may have 3D vision, like falcons and horses, despite earlier assumptions that they lacked it. The answer is <strong>D</strong>."
+    }
+  ]
+}

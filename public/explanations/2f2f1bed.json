@@ -1,0 +1,19 @@
+{
+  "questionId": "2f2f1bed",
+  "correctAnswer": "B",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Look for a general rule",
+      "content": "The student wants to make a generalization about minerals. The notes explain the Mohs scale as a ten-point scale that orders minerals by hardness. Minerals with larger numbers are harder and can leave visible scratches on minerals with smaller numbers; minerals with smaller numbers cannot scratch minerals with larger numbers."
+    },
+    {
+      "title": "Reject specific statements",
+      "content": "Choice A only ranks quartz, apatite, and calcite by their Mohs numbers, so it gives a specific ordering rather than a generalization. Choice C reverses the logic by implying that quartz has a higher number because it can scratch calcite. Choice D describes the scale's use, but it does not state the broader scratching rule."
+    },
+    {
+      "title": "Prefer the broad claim",
+      "content": "The best answer uses the word \"any\" to state a rule about minerals with different Mohs numbers, then illustrates that rule with quartz and apatite. It generalizes from the notes: a mineral numbered 7 can scratch one numbered 5 because the larger number means greater hardness. The answer is <strong>B</strong>."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "questionId": "0564837d",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Rewrite the exponent",
+      "content": "A power of $\\frac{1}{2}$ means the principal square root. Since $35z$ is positive when $z>1$, the expression can be rewritten directly as a square root.<br/>$$(35z)^{\\frac{1}{2}}=\\sqrt{35z}$$"
+    },
+    {
+      "title": "Compare the choices",
+      "content": "Choice A multiplies by $35$ outside the square root, which would be much larger. Choice B puts only $35$ under the square root and leaves $z$ outside. Choice D squares the original quantity before taking the square root. The expression from step 1 matches choice C. The answer is <strong>C</strong>."
+    }
+  ]
+}

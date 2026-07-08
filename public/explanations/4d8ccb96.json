@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Salt from each mixture",
-      "content": "Low-salt mixture: 3% of x kg &rarr; $$0.03x$$ kg salt.<br/>High-salt mixture: 92% of y kg &rarr; $$0.92y$$ kg salt."
+      "title": "Write salt amounts",
+      "content": "The low-salt mixture contributes $0.03x$ kilograms of salt. The high-salt mixture contributes $0.92y$ kilograms of salt."
     },
     {
-      "title": "Total salt required",
-      "content": "Desired mixture: 30 kg at 5% salt &rarr; total salt needed = $$0.05\\times30$$ kg.<br/>Set sum of contributions equal to required salt: $$0.03x+0.92y = 0.05\\times30$$.<br/><strong>B</strong> is correct."
+      "title": "Set total salt equal",
+      "content": "The final mixture has $30$ kilograms at $5\\%$ salt, so the total salt is $(0.05)(30)$. Therefore,\n$$0.03x+0.92y=(0.05)(30)$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

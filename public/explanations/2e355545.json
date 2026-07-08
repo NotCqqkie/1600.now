@@ -1,0 +1,15 @@
+{
+  "questionId": "2e355545",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the remaining probability",
+      "content": "Each attendee is in exactly one room, so the probabilities add to $1$:\n$$\nP(C)=1-0.64-0.28=0.08\n$$"
+    },
+    {
+      "title": "Convert probability to count",
+      "content": "Multiply the total number of attendees by the probability for room C:\n$$\n625(0.08)=50\n$$\nThe answer is <strong>B</strong>."
+    }
+  ]
+}

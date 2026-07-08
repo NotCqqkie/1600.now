@@ -1,0 +1,27 @@
+{
+  "questionId": "22c24efa",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the initial value",
+      "content": "Use exponential form $h(x)=a\\cdot b^x$. The table shows $h(0)=1.25$, so the initial value is $a=1.25$.",
+      "desmosExpressions": [
+        "x_1=[0,2]",
+        "y_1=[1.25,1.80]",
+        "y=1.25(1.20)^x\\{x\\le4\\}"
+      ]
+    },
+    {
+      "title": "Find the growth factor",
+      "content": "The table also shows $h(2)=1.80$. Substitute that value.<br/>$$1.25b^2=1.80$$<br/>$$b^2=1.44$$<br/>$$b=1.20$$"
+    },
+    {
+      "title": "Match the exponential model",
+      "content": "The model is<br/>$$h(x)=1.25(1.20)^x$$<br/>It has the correct initial value and gives $h(2)=1.80$. The answer is <strong>D</strong>.",
+      "desmosExpressions": [
+        "y=1.25(1.20)^x\\{x\\le4\\}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "questionId": "d4869588",
+  "correctAnswer": "C",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Find the growth factor",
+      "content": "A mass that is $125\\%$ greater than the previous mass is $100\\%+125\\%=225\\%$, or $2.25$, times the previous mass. Since this happens every $5$ hours, the exponent counts $5$-hour periods."
+    },
+    {
+      "title": "Work backward from hour fifteen",
+      "content": "After $15$ hours, there have been $15/5=3$ growth periods. If $a$ is the starting mass, then\n$$a(2.25)^3=637.88$$\n$$a=\\frac{637.88}{(2.25)^3}=56.00$$"
+    },
+    {
+      "title": "Write the model",
+      "content": "Use the starting mass and growth factor with the exponent $x/5$:\n$$A=56.00(2.25)^{\\frac{x}{5}}$$\nThis matches the equation with initial value $56.00$ and growth factor $2.25$. The answer is <strong>C</strong>."
+    }
+  ]
+}

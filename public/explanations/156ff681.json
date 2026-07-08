@@ -4,12 +4,12 @@
   "section": "Reading and Writing",
   "steps": [
     {
-      "title": "Identify what the question needs",
-      "content": "This is a Weaken the Explanation question. The proposed explanation is that people mentally treat electronic money differently from physical money, causing different food consumption. To weaken it, we need evidence showing that the two groups actually handled their money the same way &mdash; eliminating any psychological difference between electronic and physical funds."
+      "title": "Target the explanation",
+      "content": "The proposed explanation is that people mentally handle electronic funds differently from physical money, which could lead them to buy a different array of foods. To weaken it, the evidence should show electronic-transfer recipients quickly ended up using physical money too."
     },
     {
-      "title": "Eliminate the choices",
-      "content": "<ul><li><strong>Choice A &mdash; Recipients of electronic transfers typically spent their funds at a slower rate than recipients of physical transfers did.</strong>: This actually supports the explanation by confirming behavioral differences between electronic and physical recipients. &#10007;</li><li><strong>Choice B &mdash; Nearly every recipient of an electronic transfer withdrew the entire amount in physical money shortly after receiving the transfer.</strong>: If electronic recipients immediately converted their funds to cash, both groups ended up spending physical money &mdash; so the psychological distinction between &ldquo;electronic&rdquo; and &ldquo;physical&rdquo; funds never applied. The explanation cannot account for a difference that exists even when both groups use physical money. &#10003;</li><li><strong>Choice C &mdash; Recipients of physical transfers tended to purchase food about as frequently as recipients of electronic transfers did.</strong>: Purchase frequency is unrelated to how people conceive of electronic versus physical funds; this leaves the explanation intact. &#10007;</li><li><strong>Choice D &mdash; Some recipients of physical transfers received small amounts of money relatively frequently, while others received large amounts relatively infrequently.</strong>: Variation within the physical-transfer group says nothing about differences between the electronic and physical groups, so it has no impact on the explanation. &#10007;</li></ul>That matches <strong>Choice B &mdash; Nearly every recipient of an electronic transfer withdrew the entire amount in physical money shortly after receiving the transfer.</strong>."
+      "title": "Remove the money-form difference",
+      "content": "A supports a behavioral difference. C concerns purchase frequency, not how the funds were conceived or allocated. D only varies payment schedules within the physical-transfer group. If electronic recipients withdrew the whole transfer as cash, both groups spent physical money, so the proposed money-form difference cannot explain the food difference. The answer is <strong>B</strong>."
     }
   ]
 }

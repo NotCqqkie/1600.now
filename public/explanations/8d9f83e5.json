@@ -1,0 +1,19 @@
+{
+  "questionId": "8d9f83e5",
+  "correctAnswer": "A",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the input",
+      "content": "In the function $B(t)=70(2)^t$, the variable $t$ represents the time, in days, since the number of yeast cells was first recorded."
+    },
+    {
+      "title": "Identify the output",
+      "content": "The value $B(t)$ represents the predicted number of yeast cells in the culture at that time. Therefore, $B(5)$ is the prediction at $5$ days after the first recording."
+    },
+    {
+      "title": "Interpret the statement",
+      "content": "The statement $B(5)=2{,}240$ means that when $t=5$, the predicted number of yeast cells is $2{,}240$. In context, this says the predicted number after $5$ days was $2{,}240$. The answer is <strong>A</strong>."
+    }
+  ]
+}

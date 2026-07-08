@@ -1,0 +1,19 @@
+{
+  "questionId": "47744b0c",
+  "correctAnswer": "D",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Distribute to both terms",
+      "content": "Multiply $8$ by each term inside the parentheses. The variable term becomes $8x^2$, and the constant term becomes $8(7)$."
+    },
+    {
+      "title": "Simplify the expression",
+      "content": "Compute the constant term, then combine it with the variable term:<br/>$$8(7)=56$$<br/>$$8(x^2+7)=8x^2+56$$"
+    },
+    {
+      "title": "Check the choices",
+      "content": "Choice A has the wrong constant, $1$. Choice B leaves $7$ undistributed. Choice C uses $15$, not the product $8(7)$. Choice D matches $8x^2+56$. The answer is <strong>D</strong>."
+    }
+  ]
+}

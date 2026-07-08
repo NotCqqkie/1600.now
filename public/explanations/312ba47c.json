@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Set up the proportion using the given ratio",
-      "content": "The ratio of blue to green markers is <strong>7: 1</strong>. Since there are 42 blue markers, we can set up the proportion:<br/>$$\\frac{\\text{blue}}{\\text{green}} = \\frac{7}{1} = \\frac{42}{x}$$<br/>where $x$ is the number of green markers we need to find."
+      "title": "Use the ratio",
+      "content": "The ratio of blue markers to green markers is $7$ to $1$. So each group of $7$ blue markers corresponds to $1$ green marker."
     },
     {
-      "title": "Cross multiply and solve",
-      "content": "Cross multiplying:<br/>$$7x = 42$$<br/>Divide both sides by 7:<br/>$$x = 6$$<br/><strong>A</strong> is correct."
+      "title": "Scale the ratio",
+      "content": "There are $42$ blue markers.<br/>$$42\\div 7=6$$<br/>So the ratio is scaled by $6$, giving $6$ green markers.<br/>The answer is <strong>A</strong>."
     }
   ]
 }

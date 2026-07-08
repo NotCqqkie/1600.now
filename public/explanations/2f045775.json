@@ -1,0 +1,15 @@
+{
+  "questionId": "2f045775",
+  "correctAnswer": "A",
+  "section": "Reading and Writing",
+  "steps": [
+    {
+      "title": "Track the missing role",
+      "content": "The passage says vulnerable native plants rely on fruit-eating birds for seed dispersal. Since native fruit-eating birds on Oahu are extinct, the introduced birds now spreading those seeds are filling the same ecological role."
+    },
+    {
+      "title": "Remove unsupported predictions",
+      "content": "B speculates about risks to non-native birds, and C predicts population growth; neither follows from the passage. D makes an unsupported quantity comparison with extinct native birds. The only supported conclusion is that introduced birds perform a role once filled by native birds. The answer is <strong>A</strong>."
+    }
+  ]
+}

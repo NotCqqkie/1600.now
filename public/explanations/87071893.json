@@ -4,19 +4,15 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$x+40=95$$Graph or solve it directly and read the x-value that works. The requested value is $55$.",
+      "title": "Undo the addition",
+      "content": "The equation is $x+40=95$. To isolate $x$, use the inverse operation: subtract $40$ from both sides. This gives $x=95-40$.",
       "desmosExpressions": [
         "x+40=95"
       ]
     },
     {
-      "title": "Undo the addition",
-      "content": "The equation is $x+40=95$. To isolate $x$, subtract $40$ from both sides: $$x=95-40.$$"
-    },
-    {
       "title": "Compute and check",
-      "content": "$95-40=55$, so $x=55$. Check: $55+40=95$, which matches the original equation. The subtraction undoes the added $40$, so no other operation is needed. The answer is <strong>55</strong>."
+      "content": "Finish the subtraction: $95-40=55$, so $x=55$. Checking in the original equation gives $55+40=95$, which satisfies the equation. The answer is <strong>55</strong>."
     }
   ]
 }

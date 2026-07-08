@@ -4,8 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Read the median from the box plot",
-      "content": "In a box plot, the vertical line segment inside the box represents the median. Looking at the horizontal axis scale and where this line is positioned, it aligns with $5$. This matches - <strong>C</strong> is correct."
+      "title": "Locate the median line",
+      "content": "In a box plot, the vertical line inside the box marks the median of the data set."
+    },
+    {
+      "title": "Read the axis value",
+      "content": "The median line aligns with $5$ on the horizontal axis.<br/>The answer is <strong>C</strong>."
     }
   ]
 }

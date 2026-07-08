@@ -1,0 +1,15 @@
+{
+  "questionId": "a70585f5",
+  "correctAnswer": "B",
+  "section": "Math",
+  "steps": [
+    {
+      "title": "Identify the starting value",
+      "content": "At $m=0$, the rewards program has $600$ customers. That means the model must start with $600$."
+    },
+    {
+      "title": "Use the growth factor",
+      "content": "A $6\\%$ increase means each month multiplies the previous total by $1+0.06=1.06$. After $m$ months, the model is<br/>$$c=600(1.06)^m$$<br/>The answer is <strong>B</strong>."
+    }
+  ]
+}

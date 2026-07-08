@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the vertical angle first",
-      "content": "The angle vertical to the given $58^\\circ$ angle also measures $58^\\circ$, because vertical angles are congruent."
+      "title": "Use the angle relationship",
+      "content": "The angle vertical to the given $58^\\circ$ angle also measures $58^\\circ$. With parallel lines, that angle and the angle measuring $y^\\circ$ are same-side interior angles, so they are supplementary."
     },
     {
-      "title": "Use same-side interior angles",
-      "content": "That $58^\\circ$ angle and the angle measuring $y^\\circ$ are same-side interior angles between parallel lines $q$ and $r$, so they are supplementary:<br/>$$58+y=180$$<br/>$$y=122$$"
+      "title": "Find y",
+      "content": "$$58+y=180$$<br/>$$y=122$$"
     },
     {
       "title": "Solve for x",
-      "content": "Substitute $y=122$ into $y=2x+8$:<br/>$$122=2x+8$$<br/>$$114=2x$$<br/>$$x=57$$"
+      "content": "Substitute $y=122$ into $y=2x+8$.<br/>$$122=2x+8$$<br/>$$114=2x$$<br/>$$x=57$$<br/>The answer is <strong>57</strong>."
     }
   ]
 }
