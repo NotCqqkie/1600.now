@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the first slope",
-      "content": "Rewrite the equation for line $s$ in slope-intercept form: $$6x+2y=0$$ $$2y=-6x$$ $$y=-3x$$ Line $s$ has slope $-3$."
+      "title": "Find the slope of s",
+      "content": "Rewrite line $s$ in slope-intercept form:\n$$\n6x+2y=0\n$$\n$$\n2y=-6x\n$$\n$$\ny=-3x\n$$\nSo line $s$ has slope $-3$."
     },
     {
-      "title": "Use the perpendicular slope",
-      "content": "A line perpendicular to a line with slope $-3$ has slope $\\frac{1}{3}$. Since line $t$ passes through $(5,0)$, its equation is $$y=\\frac{1}{3}(x-5)$$"
+      "title": "Use perpendicular slope",
+      "content": "A perpendicular line has slope equal to the negative reciprocal. The negative reciprocal of $-3$ is $\\frac{1}{3}$, so line $t$ has slope $\\frac{1}{3}$."
     },
     {
-      "title": "Substitute the second point",
-      "content": "The point $(k,\\frac{4}{3})$ lies on line $t$, so substitute $y=\\frac{4}{3}$: $$\\frac{4}{3}=\\frac{1}{3}(k-5)$$ $$4=k-5$$ $$k=9$$ The answer is <strong>9</strong>."
+      "title": "Use the two points",
+      "content": "The slope between $(5,0)$ and $(k,\\frac{4}{3})$ is $\\frac{1}{3}$:\n$$\n\\frac{\\frac{4}{3}-0}{k-5}=\\frac{1}{3}\n$$\n$$\n4=k-5\n$$\n$$\nk=9\n$$\nThe answer is <strong>9</strong>."
     }
   ]
 }

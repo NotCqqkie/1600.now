@@ -4,13 +4,13 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify the needed sides",
-      "content": "Relative to angle B, the opposite side is AC, with length $24$. The hypotenuse is AB, with length $40$. The sine ratio compares the opposite side to the hypotenuse.",
+      "title": "Identify the sides",
+      "content": "Relative to angle $B$, the opposite side is $AC$ with length $24$, and the hypotenuse is $AB$ with length $40$.",
       "formula": "$$\\sin(\\text{angle}) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$"
     },
     {
       "title": "Apply the sine ratio",
-      "content": "Substitute those side lengths into the sine ratio, then simplify by dividing numerator and denominator by $8$.<br/>$\\sin B=\\frac{24}{40}=\\frac{3}{5}$<br/>The answer is <strong>A</strong>."
+      "content": "Substitute the side lengths and simplify:\n$$\n\\sin B=\\frac{24}{40}=\\frac{3}{5}\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

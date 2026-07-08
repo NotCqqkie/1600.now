@@ -5,15 +5,11 @@
   "steps": [
     {
       "title": "Use the exponent rule",
-      "content": "A power of $\\frac{1}{2}$ means a square root. In general,<br/>$$u^{1/2}=\\sqrt{u}$$"
+      "content": "A power of $\\frac{1}{2}$ means a square root:\n$$\nu^{1/2}=\\sqrt{u}\n$$"
     },
     {
-      "title": "Apply the rule",
-      "content": "Here the full base is $147y$, not just one factor. Apply the rule to the entire product:<br/>$$(147y)^{1/2}=\\sqrt{147y}$$"
-    },
-    {
-      "title": "Compare the choices",
-      "content": "Choice A keeps $147$ outside the root. Choice B puts only $147$ inside the root. Choice D squares the expression before taking the root. Choice C matches the square root of the full product. The answer is <strong>C</strong>."
+      "title": "Apply it to the product",
+      "content": "Here the entire product $147y$ is the base, so the square root covers the full product:\n$$\n(147y)^{1/2}=\\sqrt{147y}\n$$\nThe answer is <strong>C</strong>."
     }
   ]
 }

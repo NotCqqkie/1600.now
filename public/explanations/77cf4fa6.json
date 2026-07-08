@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "$10\\%$ is the same as $\\frac{1}{10}$. So the green blocks are one tenth of all $190$ blocks."
+      "content": "$10\\%$ is the same as $\\frac{1}{10}$, so the green blocks are one tenth of all $190$ blocks."
     },
     {
       "title": "Find one tenth",
-      "content": "Divide the total number of blocks by $10$.<br/>$$\\frac{190}{10}=19$$<br/>The answer is <strong>19</strong>."
+      "content": "Divide the total number of blocks by $10$:\n$$\n\\frac{190}{10}=19\n$$\nThe answer is <strong>19</strong>."
     }
   ]
 }

@@ -4,16 +4,20 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Graph the two equations",
-      "content": "Type both equations into Desmos exactly as written:<br/>$$8x+y=-11$$<br/>$$2x^2=y+341$$<br/>The requested value is the $x$-coordinate of an intersection.",
+      "title": "Write both as y",
+      "content": "Solve each equation for $y$:\n$$\n8x+y=-11\n$$\n$$\ny=-8x-11\n$$\nand\n$$\n2x^2=y+341\n$$\n$$\ny=2x^2-341\n$$"
+    },
+    {
+      "title": "Set the equations equal",
+      "content": "At an intersection, the two $y$-values are equal:\n$$\n2x^2-341=-8x-11\n$$\n$$\n2x^2+8x-330=0\n$$\n$$\nx^2+4x-165=0\n$$"
+    },
+    {
+      "title": "Find a listed solution",
+      "content": "Factor the quadratic:\n$$\nx^2+4x-165=(x+15)(x-11)\n$$\nSo the possible $x$-values are $-15$ and $11$. The listed possible value is $-15$. The answer is <strong>A</strong>.",
       "desmosExpressions": [
         "8x+y=-11",
         "2{x}^{2}=y+341"
       ]
-    },
-    {
-      "title": "Read a possible value",
-      "content": "One intersection has $x=-15$. The question asks for a possible value of $x$, so this matches the choices. The answer is <strong>A</strong>."
     }
   ]
 }

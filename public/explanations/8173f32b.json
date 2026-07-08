@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Use the margin of error",
-      "content": "A margin of error gives a plausible interval around the estimate. Subtract and add $0.11$ to the estimated mean price $3.76$."
+      "content": "A margin of error gives a plausible interval around the estimate. Subtract and add $0.11$ to the estimated mean price of $3.76$."
     },
     {
-      "title": "Compute the plausible interval",
-      "content": "Find the lower and upper bounds:<br/>$$3.76-0.11=3.65$$<br/>$$3.76+0.11=3.87$$<br/>So the plausible mean price is between $\\$3.65$ and $\\$3.87$. The answer is <strong>A</strong>."
+      "title": "Find the interval",
+      "content": "Compute the lower and upper bounds:\n$$\n3.76-0.11=3.65\n$$\n$$\n3.76+0.11=3.87\n$$\nSo the plausible mean price is between 3.65 dollars and 3.87 dollars. The answer is <strong>A</strong>."
     }
   ]
 }

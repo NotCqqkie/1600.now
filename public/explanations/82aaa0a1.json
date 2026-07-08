@@ -4,16 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the vertex location",
-      "content": "All four models open upward and have leading coefficient $2$. The vertex has $x$-coordinate $-\\frac{b}{2a}$. Choices with $b=-11$ have<br/>$$x=\\frac{11}{4}=2.75$$<br/>Choices with $b=-5$ have<br/>$$x=\\frac{5}{4}=1.25$$<br/>The scatterplot minimum is near $x=3$, so keep the models with $b=-11$."
+      "title": "Check the vertex location",
+      "content": "Each choice opens upward. For $y=ax^2+bx+c$, the vertex has $x$-coordinate $-\\frac{b}{2a}$. With $b=-11$,\n$$\n-\\frac{-11}{2(2)}=\\frac{11}{4}=2.75\n$$\nThis is near the scatterplot's minimum, so keep the choices with $-11x$."
     },
     {
-      "title": "Test a plotted point",
-      "content": "A visible point on the scatterplot is near $(5,15)$. Test the two remaining models.<br/>$$2(5)^2-11(5)-20=50-55-20=-25$$<br/>$$2(5)^2-11(5)+20=50-55+20=15$$"
+      "title": "Use the y intercept",
+      "content": "The scatterplot crosses the $y$-axis near $20$. Of the remaining choices, only\n$$\ny=2x^2-11x+20\n$$\nhas $y$-intercept $20$."
     },
     {
       "title": "Calculator shortcut",
-      "content": "The model $y=2x^2-11x+20$ has the right vertex location and matches the visible point near $(5,15)$. The answer is <strong>B</strong>.",
+      "content": "Graph the model and compare it with the scatterplot. It has the right intercept and vertex location for the data. The answer is <strong>B</strong>.",
       "desmosExpressions": [
         "y = 2x^2 - 11x + 20"
       ]

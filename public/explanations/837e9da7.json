@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Substitute the input",
-      "content": "The function is $f(x)=\\frac{1}{8x}$. Substitute $x=4$ into the denominator.<br/>$$f(4)=\\frac{1}{8(4)}$$"
+      "content": "The function is $f(x)=\\frac{1}{8x}$. Substitute $x=4$:\n$$\nf(4)=\\frac{1}{8(4)}\n$$"
     },
     {
       "title": "Simplify the denominator",
-      "content": "Multiply $8$ by $4$, not add them.<br/>$$f(4)=\\frac{1}{32}$$<br/>The answer is <strong>D</strong>."
+      "content": "Multiply $8$ by $4$:\n$$\nf(4)=\\frac{1}{32}\n$$\nThe answer is <strong>D</strong>."
     }
   ]
 }

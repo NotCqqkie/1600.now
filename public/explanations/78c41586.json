@@ -4,20 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Multiply the angle measure",
-      "content": "Angle $K$ is $4$ times angle $J$, so its radian measure is<br/>$$4\\cdot \\frac{7\\pi}{11}=\\frac{28\\pi}{11}$$"
+      "title": "Multiply angle J",
+      "content": "Angle $K$ is $4$ times angle $J$, so its radian measure is\n$$\n4\\cdot \\frac{7\\pi}{11}\n$$"
     },
     {
-      "title": "Convert radians to degrees",
-      "content": "To convert radians to degrees, multiply by $\\frac{180}{\\pi}$:<br/>$$\\frac{28\\pi}{11}\\cdot \\frac{180}{\\pi}=\\frac{28\\cdot 180}{11}$$"
-    },
-    {
-      "title": "Rewrite in choice form",
-      "content": "Since $28=7\\cdot 4$, the expression becomes<br/>$$\\frac{7}{11}(180)(4)$$"
-    },
-    {
-      "title": "Select the matching expression",
-      "content": "The expression that represents the measure of angle $K$ in degrees is $\\frac{7}{11}(180)(4)$. The answer is <strong>B</strong>."
+      "title": "Convert to degrees",
+      "content": "To convert radians to degrees, multiply by $\\frac{180}{\\pi}$:\n$$\n4\\cdot \\frac{7\\pi}{11}\\cdot \\frac{180}{\\pi}\n$$\nThe factors of $\\pi$ cancel, leaving\n$$\n\\frac{7}{11}(180)(4)\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the needed expression",
-      "content": "The question asks for $2n-1$, so first find $2n$ directly. Multiply both sides of $\\frac{2n}{7}=8$ by $7$.\n$$2n=56$$"
+      "title": "Find two n directly",
+      "content": "The question asks for $2n-1$, so find $2n$ without solving for $n$. Multiply both sides by $7$:\n$$\n\\frac{2n}{7}=8\n$$\n$$\n2n=56\n$$"
     },
     {
       "title": "Subtract one",
-      "content": "Use $2n=56$ in the target expression.\n$$2n-1=56-1=55$$\nThe answer is <strong>B</strong>."
+      "content": "Use $2n=56$ in the target expression:\n$$\n2n-1=56-1=55\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

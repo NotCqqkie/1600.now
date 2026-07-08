@@ -4,12 +4,16 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the constant",
-      "content": "Use the cord with circumference $0.75$ inches and strength $697.5$ pounds:\n$$\n697.5=800a(0.75)^2\n$$\nSince $(0.75)^2=0.5625$, this becomes\n$$\n697.5=450a\n$$\nso $a=1.55$."
+      "title": "Use the scale factor",
+      "content": "The model is proportional to $x^2$. The new circumference is $6$ times the old circumference:\n$$\n\\frac{4.50}{0.75}=6\n$$"
     },
     {
-      "title": "Use the new circumference",
-      "content": "For a circumference of $4.50$ inches, substitute into the model: $y=800(1.55)(4.50)^2=1{,}240(20.25)=25{,}110$. The answer is <strong>25110</strong>."
+      "title": "Square the factor",
+      "content": "Since circumference is multiplied by $6$, strength is multiplied by $6^2$:\n$$\n6^2=36\n$$"
+    },
+    {
+      "title": "Find the new strength",
+      "content": "Multiply the given breaking strength by $36$:\n$$\n697.5(36)=25{,}110\n$$\nThe answer is <strong>25110</strong>."
     }
   ]
 }

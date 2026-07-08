@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the fraction",
-      "content": "Replace $x$ with $\\frac{4}{13}$ in the function.\n$$f(\\frac{4}{13})=\\frac{4}{13}+\\frac{9}{13}$$"
+      "title": "Substitute the input",
+      "content": "Replace $x$ with $\\frac{4}{13}$ in the function:\n$$\nf(\\frac{4}{13})=\\frac{4}{13}+\\frac{9}{13}\n$$"
     },
     {
-      "title": "Add like denominators",
-      "content": "The fractions have the same denominator, so add the numerators.\n$$\\frac{4}{13}+\\frac{9}{13}=\\frac{13}{13}=1$$\nThe answer is <strong>1</strong>."
+      "title": "Add the fractions",
+      "content": "The denominators are the same, so add the numerators:\n$$\n\\frac{4}{13}+\\frac{9}{13}=\\frac{13}{13}=1\n$$\nThe answer is <strong>1</strong>."
     }
   ]
 }

@@ -5,15 +5,15 @@
   "steps": [
     {
       "title": "Complete both squares",
-      "content": "Group the $x$ terms and $y$ terms, then complete the square for each pair.<br/>$$x^2+x=(x+\\frac{1}{2})^2-\\frac{1}{4}$$<br/>$$y^2+y=(y+\\frac{1}{2})^2-\\frac{1}{4}$$"
+      "content": "Group the $x$ terms and $y$ terms, then complete the square for each group:\n$$\nx^2+x=(x+\\frac{1}{2})^2-\\frac{1}{4}\n$$\n$$\ny^2+y=(y+\\frac{1}{2})^2-\\frac{1}{4}\n$$"
     },
     {
-      "title": "Write standard circle form",
-      "content": "Substitute those forms into the equation and move the constants to the other side.<br/>$$(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2-\\frac{1}{2}=\\frac{241}{2}$$<br/>$$(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2=121$$"
+      "title": "Write circle form",
+      "content": "Substitute those forms into the equation:\n$$\n(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2-\\frac{1}{2}=\\frac{241}{2}\n$$\nMove the constant to the other side:\n$$\n(x+\\frac{1}{2})^2+(y+\\frac{1}{2})^2=121\n$$"
     },
     {
       "title": "Read the radius",
-      "content": "Standard circle form has $r^2$ on the right side. Here $r^2=121$, so $r=\\sqrt{121}$.<br/>The answer is <strong>11</strong>."
+      "content": "In standard circle form, the right side is $r^2$:\n$$\nr^2=121\n$$\n$$\nr=11\n$$\nThe answer is <strong>11</strong>."
     }
   ]
 }

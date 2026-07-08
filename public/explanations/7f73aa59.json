@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Clear the denominator",
-      "content": "Start with $b-18=\\frac{x}{y}$. Since $x$ is divided by $y$, multiply both sides by $y$.\n$$y(b-18)=x$$"
+      "content": "Start with\n$$\nb-18=\\frac{x}{y}\n$$\nMultiply both sides by $y$:\n$$\ny(b-18)=x\n$$"
     },
     {
-      "title": "Distribute the factor",
-      "content": "Distribute $y$ across the parentheses.\n$$x=by-18y$$\nThe answer is <strong>B</strong>."
+      "title": "Distribute y",
+      "content": "Distribute $y$ across the parentheses:\n$$\nx=by-18y\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

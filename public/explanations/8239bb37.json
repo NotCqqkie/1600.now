@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Convert g values to f values",
-      "content": "Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$ to get $f(x)$.<br/>$$f(-21)=2(-21+3)=-36$$<br/>$$f(-9)=0(-9+3)=0$$<br/>$$f(15)=4(15+3)=72$$"
+      "title": "Convert g to f",
+      "content": "Since $g(x)=\\frac{f(x)}{x+3}$, multiply each $g(x)$ value by $x+3$:\n$$\nf(-21)=2(-21+3)=-36\n$$\n$$\nf(-9)=0(-9+3)=0\n$$\n$$\nf(15)=4(15+3)=72\n$$"
     },
     {
-      "title": "Find the linear function",
-      "content": "Using points $(-9,0)$ and $(15,72)$, the slope is<br/>$$m=\\frac{72-0}{15-(-9)}=\\frac{72}{24}=3$$<br/>Use $f(x)=3x+b$ and $f(-9)=0$.<br/>$$0=3(-9)+b$$<br/>$$b=27$$"
+      "title": "Find the line",
+      "content": "Use points $(-9,0)$ and $(15,72)$ to find the slope:\n$$\nm=\\frac{72-0}{15-(-9)}=\\frac{72}{24}=3\n$$\nUse $f(x)=3x+b$ and $f(-9)=0$:\n$$\n0=3(-9)+b\n$$\n$$\nb=27\n$$"
     },
     {
       "title": "Identify the intercept",

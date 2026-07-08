@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "Find $10\\%$ of $280$ seeds."
+      "content": "$10\\%$ is the same as $\\frac{1}{10}$, so Maya saved one tenth of $280$ seeds."
     },
     {
       "title": "Take one tenth",
-      "content": "Since $10\\%=\\frac{1}{10}$, divide by $10$ to get the saved seeds.<br/>$$280\\div 10=28$$ The answer is <strong>B</strong>."
+      "content": "Divide by $10$:\n$$\n280\\div 10=28\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Identify what the variable represents",
-      "content": "The variable $y$ represents the total amount of shellfish, in pounds, that the sea otter ate during the entire $6$-day period. It does not represent the number of days or the average amount eaten per day."
+      "title": "Identify what y means",
+      "content": "The variable $y$ represents the total amount of shellfish, in pounds, eaten during the full $6$ days. It is not the number of days or the amount per day."
     },
     {
       "title": "Use the stated total",
-      "content": "The problem states that in $6$ days, the sea otter ate $27.0$ pounds of shellfish. Since $y$ is the total amount eaten during those $6$ days, the equation should use that total directly:\n$$\ny=27\n$$"
-    },
-    {
-      "title": "Check the answer choices",
-      "content": "<ul><li><strong>Choice A</strong>: $y=27+6$ adds the number of days to the number of pounds, but the total amount is already given as $27.0$ pounds.</li><li><strong>Choice B</strong>: $y=27$ matches the total amount of shellfish eaten in the full $6$-day period.</li><li><strong>Choice C</strong>: $y=\\frac{27}{6}$ gives the average number of pounds per day, not the total amount eaten.</li><li><strong>Choice D</strong>: $y=6$ uses the number of days, not the amount of shellfish eaten.</li></ul>The answer is <strong>B</strong>."
+      "content": "The problem states that the sea otter ate $27.0$ pounds of shellfish in those $6$ days, so\n$$\ny=27\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

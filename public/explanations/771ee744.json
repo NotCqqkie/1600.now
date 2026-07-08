@@ -5,11 +5,11 @@
   "steps": [
     {
       "title": "Convert the percent",
-      "content": "$20\\%$ is the same as $\\frac{1}{5}$. So finding $20\\%$ of the beads means finding one fifth of $450$."
+      "content": "Since $20\\%$ is the same as $\\frac{20}{100}$, finding the blue beads means taking $20\\%$ of $450$."
     },
     {
-      "title": "Find one fifth",
-      "content": "Divide the total number of beads by $5$.<br/>$$\\frac{450}{5}=90$$<br/>The answer is <strong>A</strong>."
+      "title": "Find the blue beads",
+      "content": "Compute the percent of the total:\n$$\n450(\\frac{20}{100})=90\n$$\nThe answer is <strong>A</strong>."
     }
   ]
 }

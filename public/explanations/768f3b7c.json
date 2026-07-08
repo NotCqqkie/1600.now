@@ -5,7 +5,7 @@
   "steps": [
     {
       "title": "Use a simple scale",
-      "content": "Because all the listed $x$-values contain the same constant $s$, set $s=1$ to see the linear pattern with representative points $(-2,24)$, $(-1,21)$, and $(1,15)$.",
+      "content": "Because every listed $x$-value contains the same constant $s$, set $s=1$ to see the pattern with representative points $(-2,24)$, $(-1,21)$, and $(1,15)$.",
       "desmosExpressions": [
         "x_1=[-2,-1,1]",
         "y_1=[24,21,15]"
@@ -13,11 +13,11 @@
     },
     {
       "title": "Find the representative line",
-      "content": "The slope from $(-2,24)$ to $(-1,21)$ is:<br/>$$\\frac{21-24}{-1-(-2)}=-3$$<br/>Using $(-1,21)$ in $y=-3x+b$ gives $b=18$, so the representative line is $y=-3x+18$."
+      "content": "Use two points to find the slope:\n$$\n\\frac{21-24}{-1-(-2)}=-3\n$$\nWith point $(-1,21)$ in $y=-3x+b$,\n$$\n21=3+b\n$$\n$$\nb=18\n$$\nSo the representative line is $y=-3x+18$."
     },
     {
       "title": "Restore the scale",
-      "content": "Restoring the $s$ scale gives slope $-\\frac{3}{s}$.<br/>$$y=-\\frac{3}{s}x+18$$<br/>$$sy=-3x+18s$$<br/>$$3x+sy=18s$$<br/>The answer is <strong>B</strong>."
+      "content": "Undoing the temporary choice $s=1$ makes the slope $-\\frac{3}{s}$ while the intercept stays $18$:\n$$\ny=-\\frac{3}{s}x+18\n$$\n$$\nsy=-3x+18s\n$$\n$$\n3x+sy=18s\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }

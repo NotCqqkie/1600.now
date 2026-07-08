@@ -4,12 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the lower bound for input",
-      "content": "Use the second inequality to identify the allowed values of $x$.<br/>$$3x\\gt 13$$<br/>$$x\\gt \\frac{13}{3}$$"
+      "title": "Use the second inequality",
+      "content": "The second inequality gives a lower bound for $3x$:\n$$\n3x>13\n$$\nSubtract $2$ from both sides:\n$$\n3x-2>11\n$$"
     },
     {
-      "title": "Convert it to a lower bound",
-      "content": "The expression $3x-2$ is smallest at the boundary $x=\\frac{13}{3}$.<br/>$$3(\\frac{13}{3})-2=13-2=11$$<br/>Since $x$ must be greater than that boundary, $3x-2$ must be greater than $11$. Thus $y\\gt 11$. The answer is <strong>B</strong>."
+      "title": "Compare with y",
+      "content": "The first inequality says\n$$\ny>3x-2\n$$\nSince $3x-2>11$, any possible $y$-coordinate must satisfy\n$$\ny>11\n$$\nThe answer is <strong>B</strong>."
     }
   ]
 }
