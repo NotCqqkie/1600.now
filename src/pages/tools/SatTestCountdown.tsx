@@ -1,6 +1,11 @@
 import { useMemo, useState } from "react";
 
 import { satToolBySlug } from "@/lib/seo-data/satTools";
+import {
+  COLLEGE_BOARD_SAT_DATES_URL,
+  OFFICIAL_SAT_DATES,
+  SAT_FACTS_VERIFIED_ON,
+} from "@/lib/seo-data/satOfficialData";
 
 import {
   SatToolPageScaffold,
@@ -8,18 +13,6 @@ import {
   TOOL_INPUT_CLASS,
   TOOL_SECTION_HEADING_CLASS,
 } from "./SatToolPageScaffold";
-const TEST_DATES: { date: string; label: string }[] = [
-  { date: "2026-05-02", label: "May 2, 2026" },
-  { date: "2026-06-06", label: "June 6, 2026" },
-  { date: "2026-08-22", label: "August 22, 2026" },
-  { date: "2026-10-03", label: "October 3, 2026" },
-  { date: "2026-11-07", label: "November 7, 2026" },
-  { date: "2026-12-05", label: "December 5, 2026" },
-  { date: "2027-03-13", label: "March 13, 2027" },
-  { date: "2027-05-01", label: "May 1, 2027" },
-  { date: "2027-06-05", label: "June 5, 2027" },
-];
-
 const daysBetween = (from: Date, to: Date): number => {
   const ms = to.getTime() - from.getTime();
   return Math.ceil(ms / (1000 * 60 * 60 * 24));
@@ -35,14 +28,14 @@ const SatTestCountdown = () => {
 
   const upcoming = useMemo(
     () =>
-      TEST_DATES.filter(
+      OFFICIAL_SAT_DATES.filter(
         (t) => new Date(`${t.date}T00:00:00`).getTime() >= today.getTime(),
       ),
     [today],
   );
 
-  const [selected, setSelected] = useState(
-    upcoming[0]?.date ?? TEST_DATES[0].date,
+  const [selected, setSelected] = useState<string>(
+    upcoming[0]?.date ?? OFFICIAL_SAT_DATES[0].date,
   );
 
   const selectedDate = new Date(`${selected}T00:00:00`);
@@ -66,7 +59,7 @@ const SatTestCountdown = () => {
     {
       question: "Is the SAT offered every month?",
       answer:
-        "No. College Board offers the Digital SAT roughly 7 times per year in the US: August, October, November, December, March, May, and June. International test dates are aligned with US dates for the Digital SAT.",
+        "No. The current August 2026–June 2027 College Board schedule has eight weekend dates: August, September, October, November, December, March, May, and June. The listed dates apply to US and international students.",
     },
     {
       question: "What if my target date passes?",
@@ -107,11 +100,11 @@ const SatTestCountdown = () => {
 
       <section className="mt-10">
         <h2 className={TOOL_SECTION_HEADING_CLASS}>
-          Full 2026–2027 Digital SAT test dates
+          Official August 2026–June 2027 SAT dates and deadlines
         </h2>
         <ul className="mt-4 space-y-2 text-muted-foreground">
-          {TEST_DATES.map((testDate) => {
-            const daysUntilTest = daysBetween(today, new Date(testDate.date));
+          {OFFICIAL_SAT_DATES.map((testDate) => {
+            const daysUntilTest = daysBetween(today, new Date(`${testDate.date}T00:00:00`));
             const passed = daysUntilTest < 0;
             return (
               <li
@@ -119,18 +112,24 @@ const SatTestCountdown = () => {
                 className="flex items-center justify-between border-b border-border/40 py-2"
               >
                 <span className={passed ? "line-through" : ""}>{testDate.label}</span>
-                <span className="text-sm">
-                  {passed ? "Past" : `${daysUntilTest} day${daysUntilTest === 1 ? "" : "s"}`}
+                <span className="text-right text-sm">
+                  <span className="block">
+                    {passed ? "Past" : `${daysUntilTest} day${daysUntilTest === 1 ? "" : "s"}`}
+                  </span>
+                  <span className="block text-xs text-muted-foreground">
+                    Register by {testDate.registrationDeadline}
+                  </span>
                 </span>
               </li>
             );
           })}
         </ul>
         <p className="mt-3 text-xs text-muted-foreground">
-          Schedule reflects dates announced by College Board. Check{" "}
+          Verified {SAT_FACTS_VERIFIED_ON}. Deadlines expire at 11:59 p.m. ET.
+          Check{" "}
           <a
             className="underline"
-            href="https://satsuite.collegeboard.org/sat/dates-deadlines"
+            href={COLLEGE_BOARD_SAT_DATES_URL}
             rel="noopener noreferrer"
             target="_blank"
           >

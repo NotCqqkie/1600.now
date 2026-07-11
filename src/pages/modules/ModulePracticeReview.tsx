@@ -1,6 +1,6 @@
-import { useEffect, useMemo } from "react";
-import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { Bookmark } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { ArrowLeft, Bookmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   AlertDialog,
@@ -14,12 +14,16 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import {
+  advanceModulePracticeSessionTimer,
   buildModulePracticeResult,
   clearModulePracticeSession,
   getModulePracticeQuestionState,
   getModulePracticeSession,
+  resumeModulePracticeSession,
+  saveModulePracticeSession,
   saveModulePracticeResult,
 } from "@/lib/practice/modulePracticeSession";
+import { formatPracticeClock } from "@/lib/practice/practiceTime";
 import { getPracticeModule, loadPracticeModule } from "@/data/modulePracticeBank";
 import { buildModulePracticeQuestionRoute } from "@/lib/practice/practiceBankRoutes";
 import {
@@ -28,6 +32,12 @@ import {
 } from "@/lib/practice/practiceRunStorage";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/contexts/AuthContext";
+import {
+  completeStudyPlanModuleAssignment,
+  getMatchingStudyPlanAssignmentSession,
+  pauseStudyPlanAssignment,
+  resumeStudyPlanAssignment,
+} from "@/lib/studyPlan/assignmentContext";
 
 const NOT_FOUND_SHELL_CLASS = "mx-auto flex min-h-screen w-full max-w-3xl flex-col gap-6 bg-background px-4 py-12 text-foreground sm:px-6";
 const NOT_FOUND_CARD_CLASS = "rounded-[28px] border border-border bg-card p-10 text-center";
@@ -37,7 +47,7 @@ const REVIEW_CARD_CLASS = "rounded-[28px] border border-border bg-card p-5 shado
 const LEGEND_ITEM_CLASS = "flex items-center gap-1.5";
 const UNANSWERED_SWATCH_CLASS = "h-4 w-4 rounded-md border-2 border-dashed border-border bg-background/40";
 const ANSWERED_SWATCH_CLASS = "h-4 w-4 rounded-md border border-border bg-muted shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]";
-const QUESTION_TILE_BASE_CLASS = "relative flex h-10 items-center justify-center rounded-lg text-base font-semibold transition-colors sm:h-11 sm:text-lg";
+const QUESTION_TILE_BASE_CLASS = "relative flex h-11 min-w-11 items-center justify-center rounded-lg text-base font-semibold transition-colors sm:text-lg";
 const QUESTION_TILE_ANSWERED_CLASS = "border border-border bg-muted text-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.08)] hover:bg-muted/85";
 const QUESTION_TILE_UNANSWERED_CLASS = "border-2 border-dashed border-border bg-background/50 text-muted-foreground hover:bg-muted/25";
 const MARKED_ICON_CLASS = "absolute right-1 top-1 h-3 w-3 bookmark-flag";
@@ -62,22 +72,108 @@ const ModulePracticeReview = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { user } = useAuth();
+  const ownerUid = user?.uid ?? null;
   const module = useMemo(
     () => (moduleId ? getPracticeModule(moduleId) : null),
     [moduleId],
   );
   const sessionId = searchParams.get("session");
-  const session = module ? getModulePracticeSession(module.slug) : null;
+  const [session, setSession] = useState(() =>
+    module ? getModulePracticeSession(module.slug, ownerUid) : null,
+  );
+  const sessionRef = useRef(session);
+  const timerLastSyncedAtRef = useRef(Date.now());
+  const [isSubmitDialogOpen, setIsSubmitDialogOpen] = useState(false);
+  const studyPlanAssignment = getMatchingStudyPlanAssignmentSession({
+    ownerUid,
+    moduleSlug: module?.slug ?? moduleId,
+    moduleSessionId: session?.sessionId ?? sessionId,
+  });
+  const isStudyPlanTimedModule = Boolean(
+    studyPlanAssignment?.context.source.kind === "module" &&
+      session?.settings.timed &&
+      session.settings.timeLimitSeconds,
+  );
+  const isStudyPlanTimerExpired = Boolean(
+    isStudyPlanTimedModule && session?.remainingSeconds === 0,
+  );
+  const isStudyPlanModulePaused = Boolean(
+    studyPlanAssignment && session?.status === "paused",
+  );
+
+  const syncReviewTimer = useCallback((now = Date.now()) => {
+    const current = sessionRef.current;
+    const elapsedMs = Math.max(0, now - (current?.timerUpdatedAt ?? timerLastSyncedAtRef.current));
+    timerLastSyncedAtRef.current = now;
+    if (!isStudyPlanTimedModule || !current || current.status !== "active" || !elapsedMs) {
+      return current;
+    }
+    const next = advanceModulePracticeSessionTimer(current, elapsedMs, now);
+    if (next === current) return current;
+    sessionRef.current = next;
+    setSession(next);
+    saveModulePracticeSession(next);
+    return next;
+  }, [isStudyPlanTimedModule]);
 
   useEffect(() => {
     if (module) void loadPracticeModule(module.slug);
   }, [module]);
+
+  useEffect(() => {
+    const next = module ? getModulePracticeSession(module.slug, ownerUid) : null;
+    sessionRef.current = next;
+    timerLastSyncedAtRef.current = Date.now();
+    setSession(next);
+    setIsSubmitDialogOpen(false);
+  }, [module, ownerUid, sessionId]);
+
+  useEffect(() => {
+    if (!isStudyPlanModulePaused) return;
+    const currentSession = sessionRef.current;
+    if (!currentSession || currentSession.status !== "paused") return;
+
+    const resumedAt = Date.now();
+    const resumedSession = resumeModulePracticeSession(currentSession, resumedAt);
+    sessionRef.current = resumedSession;
+    timerLastSyncedAtRef.current = resumedAt;
+    setSession(resumedSession);
+    saveModulePracticeSession(resumedSession);
+    resumeStudyPlanAssignment(ownerUid);
+  }, [isStudyPlanModulePaused, ownerUid, session?.sessionId]);
+
+  useEffect(() => {
+    if (!isStudyPlanTimedModule || !sessionRef.current) return;
+    timerLastSyncedAtRef.current = Date.now();
+    const timerId = window.setInterval(() => syncReviewTimer(), 250);
+    return () => {
+      syncReviewTimer();
+      window.clearInterval(timerId);
+    };
+  }, [isStudyPlanTimedModule, session?.sessionId, syncReviewTimer]);
+
+  useEffect(() => {
+    if (isStudyPlanTimerExpired) setIsSubmitDialogOpen(true);
+  }, [isStudyPlanTimerExpired]);
+
+  if (isStudyPlanModulePaused) {
+    return (
+      <div className={NOT_FOUND_SHELL_CLASS} role="status" aria-live="polite">
+        <div className={NOT_FOUND_CARD_CLASS}>Resuming assignment…</div>
+      </div>
+    );
+  }
 
   if (!module || !session || !sessionId || session.sessionId !== sessionId) {
     return (
       <div className={NOT_FOUND_SHELL_CLASS}>
         <div className={NOT_FOUND_CARD_CLASS}>
           <h1 className="text-2xl font-semibold">Review session not found</h1>
+          {studyPlanAssignment ? (
+            <Button className="mt-6" onClick={() => navigate(studyPlanAssignment.context.returnPath)}>
+              Return to study plan
+            </Button>
+          ) : null}
         </div>
       </div>
     );
@@ -111,32 +207,69 @@ const ModulePracticeReview = () => {
   const backQuestion = module.questions[backQuestionIndex]?.bankQuestion;
 
   const handleSubmit = async () => {
-    const loadedModule = await loadPracticeModule(module.slug);
-    if (!loadedModule) return;
+    const currentSession = syncReviewTimer() ?? sessionRef.current ?? session;
+    if (!currentSession) return;
     const submittedSession = {
-      ...session,
+      ...currentSession,
       status: "submitted" as const,
     };
+    if (isStudyPlanTimedModule) {
+      sessionRef.current = submittedSession;
+      setSession(submittedSession);
+      saveModulePracticeSession(submittedSession);
+    }
+    const loadedModule = await loadPracticeModule(module.slug);
+    if (!loadedModule) return;
     const result = buildModulePracticeResult(loadedModule, submittedSession);
     saveModulePracticeResult(result, user?.id ?? null);
-    clearModulePracticeSession(module.slug);
+    completeStudyPlanModuleAssignment(result, ownerUid);
+    clearModulePracticeSession(module.slug, ownerUid);
     clearModuleReviewSessionStorage();
     navigate(`/modules/${module.slug}/results?session=${result.sessionId}`);
+  };
+
+  const handleReturnToStudyPlan = () => {
+    if (!studyPlanAssignment) return;
+    const currentSession = syncReviewTimer() ?? sessionRef.current ?? session;
+    if (!currentSession) return;
+    const pausedSession = { ...currentSession, status: "paused" as const };
+    sessionRef.current = pausedSession;
+    saveModulePracticeSession(pausedSession);
+    pauseStudyPlanAssignment(ownerUid);
+    navigate(studyPlanAssignment.context.returnPath);
   };
 
   return (
     <div className={PAGE_SHELL_CLASS}>
       <div className={PAGE_CONTENT_CLASS}>
+        {studyPlanAssignment ? (
+          <Button variant="ghost" className="w-fit gap-2 px-0" onClick={handleReturnToStudyPlan}>
+            <ArrowLeft className="h-4 w-4" />
+            Return to study plan
+          </Button>
+        ) : null}
+
         <div className="space-y-3 text-center">
           <h1 style={REVIEW_HEADING_STYLE}>
             Review Questions
           </h1>
           <div className="space-y-1.5 text-base text-muted-foreground">
-            <p>On test day, you would stay in the module until time runs out.</p>
-            <p>
-              For this practice module, you can move on when you feel ready and submit
-              once you have checked your work.
-            </p>
+            {isStudyPlanTimedModule ? (
+              <>
+                <p>Your assignment timer continues while you review.</p>
+                <p className="font-semibold tabular-nums text-foreground" role="timer" aria-live="polite">
+                  {formatPracticeClock(session.remainingSeconds ?? 0)} remaining
+                </p>
+              </>
+            ) : (
+              <>
+                <p>On test day, you would stay in the module until time runs out.</p>
+                <p>
+                  For this practice module, you can move on when you feel ready and submit
+                  once you have checked your work.
+                </p>
+              </>
+            )}
           </div>
         </div>
 
@@ -162,10 +295,11 @@ const ModulePracticeReview = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(42px,1fr))] gap-2.5">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(44px,1fr))] gap-2.5">
             {questions.map((question) => (
               <button
                 key={question.stableId}
+                disabled={isStudyPlanTimerExpired}
                 onClick={() =>
                   navigate(
                     getQuestionPath(question.sourceId, question.bankType, question.number),
@@ -174,6 +308,7 @@ const ModulePracticeReview = () => {
                 className={cn(
                   QUESTION_TILE_BASE_CLASS,
                   question.answered ? QUESTION_TILE_ANSWERED_CLASS : QUESTION_TILE_UNANSWERED_CLASS,
+                  isStudyPlanTimerExpired && "cursor-not-allowed opacity-60",
                 )}
               >
                 {question.marked ? (
@@ -189,14 +324,23 @@ const ModulePracticeReview = () => {
           <Button
             variant="outline"
             className="bg-transparent"
-            asChild
+            disabled={isStudyPlanTimerExpired || !backQuestion}
+            onClick={() => {
+              if (!isStudyPlanTimerExpired && backQuestion) {
+                navigate(getQuestionPath(backQuestion.sourceId, backQuestion.bankType, session.currentIndex + 1));
+              }
+            }}
           >
-            <Link to={backQuestion ? getQuestionPath(backQuestion.sourceId, backQuestion.bankType, session.currentIndex + 1) : "/modules"}>
-              Back
-            </Link>
+            Back
           </Button>
 
-          <AlertDialog>
+          <AlertDialog
+            open={isSubmitDialogOpen}
+            onOpenChange={(open) => {
+              if (!open && isStudyPlanTimerExpired) return;
+              setIsSubmitDialogOpen(open);
+            }}
+          >
             <AlertDialogTrigger asChild>
               <Button className="min-w-[140px]">Submit</Button>
             </AlertDialogTrigger>
@@ -204,11 +348,13 @@ const ModulePracticeReview = () => {
               <AlertDialogHeader>
                 <AlertDialogTitle>Submit this module?</AlertDialogTitle>
                 <AlertDialogDescription>
-                  Once you submit, this session will end and you will move to the review page.
+                  {isStudyPlanTimerExpired
+                    ? "Time has expired. Submit now to finish this study-plan assignment."
+                    : "Once you submit, this session will end and you will move to the review page."}
                 </AlertDialogDescription>
               </AlertDialogHeader>
               <AlertDialogFooter>
-                <AlertDialogCancel>Keep reviewing</AlertDialogCancel>
+                {!isStudyPlanTimerExpired ? <AlertDialogCancel>Keep reviewing</AlertDialogCancel> : null}
                 <AlertDialogAction onClick={handleSubmit}>Submit module</AlertDialogAction>
               </AlertDialogFooter>
             </AlertDialogContent>

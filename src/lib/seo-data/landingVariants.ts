@@ -29,7 +29,7 @@ const SHARED_FEATURES: LandingVariant["features"] = [
   },
   {
     title: "Vocabulary and skill guides",
-    body: "Work through 260+ high-frequency SAT words and targeted guides for every tested math and reading skill.",
+    body: "Work through a broad academic vocabulary library and targeted guides for every tested math and reading skill.",
     href: "/vocab",
   },
 ];
@@ -68,7 +68,7 @@ const landingVariants: LandingVariant[] = [
     metaDescription:
       "Free SAT prep with a full question bank, practice modules, vocabulary hub, and a 1600-scale score calculator. Everything is free forever.",
     intro: [
-      "Free SAT prep that actually covers everything you need: a thousand-plus question bank, adaptive-style modules, 260+ vocabulary words, and tools that convert practice scores to the real 1600 scale.",
+      "Free SAT prep with a thousand-plus question bank, adaptive-style modules, a broad academic vocabulary library, and tools that convert practice scores to the 1600 scale.",
       "No subscriptions, no trial paywall — every tool on the site stays free as you scale up your prep.",
     ],
     faqs: [
@@ -243,7 +243,7 @@ const landingVariants: LandingVariant[] = [
     faqs: [
       { q: "How do I practice SAT Reading and Writing?", a: "Group questions by skill. Drill one skill per day, review every miss, and run timed modules weekly to convert skill wins into section score." },
       { q: "What's the hardest SAT Reading and Writing skill?", a: "For most students, Rhetorical Synthesis and Transitions are the hardest. Both are testable with focused practice." },
-      { q: "Does SAT Reading practice here include vocabulary?", a: "Yes. The vocabulary hub covers 260+ high-frequency Digital SAT words with definitions and example sentences." },
+      { q: "Does SAT Reading practice here include vocabulary?", a: "Yes. The vocabulary hub includes a broad academic-word library with definitions and example sentences. College Board does not publish a fixed SAT vocabulary list." },
     ],
   }),
   makeVariant({

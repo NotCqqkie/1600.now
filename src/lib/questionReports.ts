@@ -17,6 +17,7 @@ import {
 } from "firebase/firestore";
 
 import { db } from "@/lib/firebase/firebaseDb";
+import { initializeFirebaseAppCheck } from "@/lib/firebase/firebaseApp";
 
 export const REPORT_REASONS = [
   { key: "incorrectAnswer", label: "Incorrect answer" },
@@ -160,6 +161,7 @@ export const submitQuestionReport = async (args: {
   userId?: string;
 }): Promise<void> => {
   if (!db) throw new Error("Reporting is unavailable right now.");
+  initializeFirebaseAppCheck();
   const { questionId, reasons, otherText, userId } = args;
   if (!isValidQuestionReportId(questionId)) throw new Error("This question cannot be reported.");
   if (!userId) throw new Error("Sign in to report a question.");
@@ -215,6 +217,7 @@ export const getQuestionReport = async (
   questionId: string,
 ): Promise<QuestionReport | null> => {
   if (!db) return null;
+  initializeFirebaseAppCheck();
   try {
     const snap = await getDoc(doc(db, COLLECTION, questionId));
     if (!snap.exists()) return null;
@@ -230,6 +233,7 @@ export const listQuestionReportsPage = async (
   pageSize = QUESTION_REPORT_PAGE_SIZE,
 ): Promise<QuestionReportPage> => {
   if (!db) return { reports: [], cursor: null, hasMore: false };
+  initializeFirebaseAppCheck();
   const boundedPageSize = Number.isFinite(pageSize)
     ? Math.min(100, Math.max(1, Math.floor(pageSize)))
     : QUESTION_REPORT_PAGE_SIZE;

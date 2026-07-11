@@ -123,7 +123,7 @@ const Modules = () => {
     void progressRefreshKey;
     const moduleEntries: ResumeEntry[] = practiceSets
       .flatMap((practiceSet) => practiceSet.modules)
-      .map((module) => ({ module, session: getModulePracticeSession(module.slug) }))
+      .map((module) => ({ module, session: getModulePracticeSession(module.slug, uid) }))
       .filter(
         (entry): entry is { module: PracticeModule; session: NonNullable<ReturnType<typeof getModulePracticeSession>> } =>
           Boolean(entry.session) && entry.session.status !== "submitted",
@@ -149,7 +149,7 @@ const Modules = () => {
       }));
 
     return [...moduleEntries, ...testEntries].sort((leftEntry, rightEntry) => rightEntry.startedAt - leftEntry.startedAt)[0] ?? null;
-  }, [progressRefreshKey]);
+  }, [progressRefreshKey, uid]);
 
   const filteredPracticeSets = useMemo(() => {
     return practiceSets
@@ -178,6 +178,7 @@ const Modules = () => {
       launchModulePractice({
         module: mostRecentSession.module,
         navigate,
+        ownerUid: uid,
         resumeExisting: true,
         savedSession: mostRecentSession.session,
       });
@@ -194,7 +195,7 @@ const Modules = () => {
   const discardMostRecentSession = (): void => {
     if (!mostRecentSession) return;
     if (mostRecentSession.kind === "module") {
-      clearModulePracticeSession(mostRecentSession.module.slug);
+      clearModulePracticeSession(mostRecentSession.module.slug, uid);
     } else {
       clearPracticeTestSession(mostRecentSession.practiceSet.id);
     }

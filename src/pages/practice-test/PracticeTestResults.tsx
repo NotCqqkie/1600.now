@@ -52,6 +52,11 @@ import {
   getReviewQuestionImageClassName,
 } from "@/lib/questionImageDisplay";
 import { useAuth } from "@/contexts/AuthContext";
+import {
+  toAnalyticsAccuracyBand,
+  toAnalyticsDurationBand,
+  trackPracticeComplete,
+} from "@/lib/analytics";
 import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 
 const SHARE_URL = "https://1600.now";
@@ -230,6 +235,17 @@ const PracticeTestResults = () => {
     }
     return getLatestPracticeTestResult(practiceSet.id, uid);
   }, [practiceSet, sessionId, uid]);
+  useEffect(() => {
+    if (!result) return;
+    trackPracticeComplete({
+      practiceType: "practice_test",
+      subject: "mixed",
+      status: "completed",
+      accuracyBand: toAnalyticsAccuracyBand(result.accuracy),
+      durationBand: toAnalyticsDurationBand(result.elapsedSeconds),
+      completionId: result.sessionId,
+    });
+  }, [result]);
   const sourceQuestionMap = useMemo(() => {
     if (!loadedPracticeSet) return new Map();
     return new Map(

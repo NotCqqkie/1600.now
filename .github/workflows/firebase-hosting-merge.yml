@@ -23,6 +23,7 @@ jobs:
         env:
           WORKLOAD_IDENTITY_PROVIDER: ${{ vars.FIREBASE_WORKLOAD_IDENTITY_PROVIDER }}
           DEPLOY_SERVICE_ACCOUNT: ${{ vars.FIREBASE_DEPLOY_SERVICE_ACCOUNT }}
+          FIREBASE_MEASUREMENT_ID: ${{ vars.VITE_FIREBASE_MEASUREMENT_ID }}
         run: |
           if [ -z "$WORKLOAD_IDENTITY_PROVIDER" ]; then
             echo "::error::FIREBASE_WORKLOAD_IDENTITY_PROVIDER is not configured"
@@ -30,6 +31,10 @@ jobs:
           fi
           if [ -z "$DEPLOY_SERVICE_ACCOUNT" ]; then
             echo "::error::FIREBASE_DEPLOY_SERVICE_ACCOUNT is not configured"
+            exit 1
+          fi
+          if [ "$FIREBASE_MEASUREMENT_ID" != "G-B5Q82GMJ2L" ]; then
+            echo "::error::VITE_FIREBASE_MEASUREMENT_ID must be G-B5Q82GMJ2L"
             exit 1
           fi
 

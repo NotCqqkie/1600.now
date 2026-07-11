@@ -8,7 +8,9 @@ import {
 } from "@/components/seo/PageSeo";
 import {
   colleges,
+  COLLEGE_SCORECARD_PROVENANCE,
   formatPct,
+  normalizeSatScore,
   sitemapEligibleColleges,
   type College,
 } from "@/lib/seo-data/collegesData";
@@ -25,7 +27,7 @@ const COLLEGE_FAQS = [
   {
     question: "Where does the admissions data come from?",
     answer:
-      "All figures come from the US Department of Education College Scorecard, which aggregates data reported annually by each institution. We refresh our snapshot on each site build.",
+      `Figures come from the US Department of Education College Scorecard. The repository snapshot was imported ${COLLEGE_SCORECARD_PROVENANCE.snapshotImportedOn}; fields can represent different reporting years and are not refreshed on every site build.`,
   },
   {
     question: "Is this list exhaustive?",
@@ -117,7 +119,7 @@ const COLLEGE_STATE_GROUPS = (() => {
 
 const matchesCollegeSearch = (college: College, normalizedQuery: string) =>
   college.name.toLowerCase().includes(normalizedQuery) ||
-  (college.alias?.toLowerCase().includes(normalizedQuery) ?? false) ||
+  college.aliases.some((alias) => alias.toLowerCase().includes(normalizedQuery)) ||
   college.state?.toLowerCase() === normalizedQuery ||
   (college.city?.toLowerCase().includes(normalizedQuery) ?? false);
 
@@ -180,7 +182,7 @@ const CollegeIndex = () => {
             </Link>
             <div className="mt-1 text-sm text-muted-foreground">
               {college.city && college.state ? `${college.city}, ${college.state}` : college.state}
-              {college.sat25 && college.sat75 && ` · SAT ${college.sat25}–${college.sat75}`}
+              {college.sat25 && college.sat75 && ` · SAT ${normalizeSatScore(college.sat25)}–${normalizeSatScore(college.sat75)}`}
               {college.acceptanceRate != null &&
                 ` · ${formatPct(college.acceptanceRate)} acceptance`}
             </div>
@@ -194,6 +196,21 @@ const CollegeIndex = () => {
           broader name.
         </p>
       )}
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">Source and methodology</h2>
+        <p className="mt-3 text-sm text-muted-foreground">
+          {COLLEGE_SCORECARD_PROVENANCE.sourceName}; documentation version{" "}
+          {COLLEGE_SCORECARD_PROVENANCE.documentationVersion}. Snapshot imported{" "}
+          {COLLEGE_SCORECARD_PROVENANCE.snapshotImportedOn}. Individual fields can
+          come from different reporting years, so verify current admissions and
+          testing policies with each institution.{" "}
+          <a className="underline" href={COLLEGE_SCORECARD_PROVENANCE.documentationUrl} rel="noopener noreferrer" target="_blank">
+            College Scorecard methodology
+          </a>
+          .
+        </p>
+      </section>
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">

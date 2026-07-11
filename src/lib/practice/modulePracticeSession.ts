@@ -18,6 +18,7 @@ export interface ModulePracticeSettings {
 
 export interface ModulePracticeSessionMeta {
   version: 1;
+  ownerUid: string | null;
   sessionId: string;
   moduleSlug: string;
   moduleTitle: string;
@@ -31,6 +32,7 @@ export interface ModulePracticeSessionMeta {
   elapsedSeconds: number;
   remainingSeconds: number | null;
   timerRemainderMs?: number;
+  timerUpdatedAt?: number;
 }
 
 export interface ModulePracticeQuestionState {
@@ -97,7 +99,8 @@ export interface ModulePracticeResult {
   shortestQuestion: ModulePracticeQuestionResult | null;
 }
 
-const ACTIVE_SESSION_PREFIX = "module-practice:session:";
+const LEGACY_ACTIVE_SESSION_PREFIX = "module-practice:session:";
+const SCOPED_ACTIVE_SESSION_PREFIX = "module-practice:session:v1:";
 const SESSION_STATE_PREFIX = "module-practice:state:";
 const SESSION_NOTE_PREFIX = "module-practice:note:";
 const SESSION_ANNOTATION_PREFIX = "module-practice:annotation:";
@@ -107,7 +110,18 @@ const SCOPED_RESULT_PREFIX = "module-practice:result:v1:";
 const SCOPED_LATEST_RESULT_PREFIX = "module-practice:latest-result:v1:";
 const ANON_SUFFIX = "anon";
 
-const readJson = <T>(storage: Storage, key: string): T | null => {
+export interface ModulePracticeSessionStorageLike {
+  readonly length: number;
+  getItem(key: string): string | null;
+  setItem(key: string, value: string): void;
+  removeItem(key: string): void;
+  key(index: number): string | null;
+}
+
+const defaultSessionStorage = (): ModulePracticeSessionStorageLike | null =>
+  typeof window === "undefined" ? null : window.sessionStorage;
+
+const readJson = <T>(storage: Pick<Storage, "getItem">, key: string): T | null => {
   try {
     const raw = storage.getItem(key);
     if (!raw) return null;
@@ -117,12 +131,14 @@ const readJson = <T>(storage: Storage, key: string): T | null => {
   }
 };
 
-const writeJson = (storage: Storage, key: string, value: unknown) => {
+const writeJson = (storage: Pick<Storage, "setItem">, key: string, value: unknown) => {
   storage.setItem(key, JSON.stringify(value));
 };
 
-const getSessionKey = (moduleSlug: string) => `${ACTIVE_SESSION_PREFIX}${moduleSlug}`;
 const getResultScope = (uid?: string | null) => uid ?? ANON_SUFFIX;
+const legacySessionKey = (moduleSlug: string) => `${LEGACY_ACTIVE_SESSION_PREFIX}${moduleSlug}`;
+const scopedSessionKey = (moduleSlug: string, ownerUid: string | null) =>
+  `${SCOPED_ACTIVE_SESSION_PREFIX}${getResultScope(ownerUid)}:${moduleSlug}`;
 const scopedResultKey = (sessionId: string, uid?: string | null) =>
   `${SCOPED_RESULT_PREFIX}${getResultScope(uid)}:${sessionId}`;
 const scopedLatestResultKey = (moduleSlug: string, uid?: string | null) =>
@@ -151,12 +167,73 @@ export const getModulePracticeMaximumTimeMinutes = (subject: "math" | "reading")
 const buildSessionId = (moduleSlug: string) =>
   `${moduleSlug}-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 
+const isValidOwnerUid = (value: unknown): value is string | null =>
+  value === null || (typeof value === "string" && value.length > 0 && value.length <= 128 && !value.includes("/"));
+
+const normalizeModulePracticeSession = (
+  value: unknown,
+  moduleSlug: string,
+  ownerUid: string | null,
+  allowMissingAnonymousOwner = false,
+): ModulePracticeSessionMeta | null => {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const candidate = value as Partial<ModulePracticeSessionMeta>;
+  const hasOwner = Object.prototype.hasOwnProperty.call(candidate, "ownerUid");
+  const storedOwner = hasOwner ? candidate.ownerUid : allowMissingAnonymousOwner ? null : undefined;
+  if (!isValidOwnerUid(storedOwner) || storedOwner !== ownerUid) return null;
+  if (candidate.version !== 1
+      || typeof candidate.sessionId !== "string"
+      || candidate.sessionId.length === 0
+      || candidate.sessionId.length > 300
+      || candidate.moduleSlug !== moduleSlug
+      || typeof candidate.moduleTitle !== "string"
+      || typeof candidate.moduleSubtitle !== "string"
+      || (candidate.subject !== "math" && candidate.subject !== "reading")
+      || !Number.isInteger(candidate.questionCount)
+      || Number(candidate.questionCount) <= 0
+      || !Number.isInteger(candidate.currentIndex)
+      || Number(candidate.currentIndex) < 0
+      || Number(candidate.currentIndex) >= Number(candidate.questionCount)
+      || typeof candidate.startedAt !== "number"
+      || !Number.isFinite(candidate.startedAt)
+      || (candidate.status !== "active" && candidate.status !== "paused" && candidate.status !== "submitted")
+      || !candidate.settings
+      || typeof candidate.settings.timed !== "boolean"
+      || typeof candidate.settings.allowCheckingAnswers !== "boolean"
+      || (candidate.settings.timeLimitSeconds !== null
+        && (typeof candidate.settings.timeLimitSeconds !== "number"
+          || !Number.isFinite(candidate.settings.timeLimitSeconds)
+          || candidate.settings.timeLimitSeconds <= 0))
+      || typeof candidate.elapsedSeconds !== "number"
+      || !Number.isFinite(candidate.elapsedSeconds)
+      || candidate.elapsedSeconds < 0
+      || (candidate.remainingSeconds !== null
+        && (typeof candidate.remainingSeconds !== "number"
+          || !Number.isFinite(candidate.remainingSeconds)
+          || candidate.remainingSeconds < 0))
+      || (candidate.timerRemainderMs !== undefined
+        && (typeof candidate.timerRemainderMs !== "number"
+          || !Number.isFinite(candidate.timerRemainderMs)
+          || candidate.timerRemainderMs < 0))
+      || (candidate.timerUpdatedAt !== undefined
+        && (typeof candidate.timerUpdatedAt !== "number"
+          || !Number.isFinite(candidate.timerUpdatedAt)
+          || candidate.timerUpdatedAt < 0))) return null;
+
+  return { ...candidate, ownerUid: storedOwner } as ModulePracticeSessionMeta;
+};
+
 export const createModulePracticeSession = (
   module: PracticeModule,
   settings: ModulePracticeSettings,
+  ownerUid: string | null = null,
+  storage: ModulePracticeSessionStorageLike | null = defaultSessionStorage(),
 ): ModulePracticeSessionMeta => {
+  if (!isValidOwnerUid(ownerUid)) throw new Error("Invalid module practice owner.");
+  const startedAt = Date.now();
   const session: ModulePracticeSessionMeta = {
     version: 1,
+    ownerUid,
     sessionId: buildSessionId(module.slug),
     moduleSlug: module.slug,
     moduleTitle: module.publicTitle,
@@ -164,29 +241,70 @@ export const createModulePracticeSession = (
     subject: module.subject,
     questionCount: module.questionCount,
     currentIndex: 0,
-    startedAt: Date.now(),
+    startedAt,
     status: "active",
     settings,
     elapsedSeconds: 0,
     remainingSeconds: settings.timed ? settings.timeLimitSeconds : null,
     timerRemainderMs: 0,
+    timerUpdatedAt: startedAt,
   };
 
-  writeJson(sessionStorage, getSessionKey(module.slug), session);
+  if (storage) writeJson(storage, scopedSessionKey(module.slug, ownerUid), session);
   return session;
 };
 
 export const getModulePracticeSession = (
   moduleSlug: string,
-): ModulePracticeSessionMeta | null => readJson<ModulePracticeSessionMeta>(sessionStorage, getSessionKey(moduleSlug));
+  ownerUid: string | null = null,
+  storage: ModulePracticeSessionStorageLike | null = defaultSessionStorage(),
+): ModulePracticeSessionMeta | null => {
+  if (!storage) return null;
+  if (!isValidOwnerUid(ownerUid)) return null;
+  const scoped = normalizeModulePracticeSession(
+    readJson<unknown>(storage, scopedSessionKey(moduleSlug, ownerUid)),
+    moduleSlug,
+    ownerUid,
+  );
+  if (scoped || ownerUid !== null) return scoped;
 
-export const saveModulePracticeSession = (session: ModulePracticeSessionMeta) => {
-  writeJson(sessionStorage, getSessionKey(session.moduleSlug), session);
+  const legacyKey = legacySessionKey(moduleSlug);
+  const legacy = normalizeModulePracticeSession(
+    readJson<unknown>(storage, legacyKey),
+    moduleSlug,
+    null,
+    true,
+  );
+  if (!legacy) return null;
+  try {
+    writeJson(storage, scopedSessionKey(moduleSlug, null), legacy);
+    storage.removeItem(legacyKey);
+  } catch {
+    return legacy;
+  }
+  return legacy;
 };
+
+export const saveModulePracticeSession = (
+  session: ModulePracticeSessionMeta,
+  storage: ModulePracticeSessionStorageLike | null = defaultSessionStorage(),
+) => {
+  if (!storage) return;
+  if (!isValidOwnerUid(session.ownerUid)) throw new Error("Invalid module practice owner.");
+  writeJson(storage, scopedSessionKey(session.moduleSlug, session.ownerUid), session);
+};
+
+export const resumeModulePracticeSession = (
+  session: ModulePracticeSessionMeta,
+  resumedAt = Date.now(),
+): ModulePracticeSessionMeta => session.status === "paused"
+  ? { ...session, status: "active", timerUpdatedAt: resumedAt }
+  : session;
 
 export const advanceModulePracticeSessionTimer = (
   session: ModulePracticeSessionMeta,
   elapsedMs: number,
+  advancedAt = Date.now(),
 ): ModulePracticeSessionMeta => {
   const safeElapsedMs = Math.max(0, Math.floor(elapsedMs));
   if (!safeElapsedMs) return session;
@@ -199,7 +317,7 @@ export const advanceModulePracticeSessionTimer = (
   const timerRemainderMs = totalMs % 1000;
 
   if (!elapsedWholeSeconds) {
-    return { ...session, timerRemainderMs };
+    return { ...session, timerRemainderMs, timerUpdatedAt: advancedAt };
   }
 
   const hasCountdown = session.settings.timed && session.remainingSeconds !== null;
@@ -215,10 +333,14 @@ export const advanceModulePracticeSessionTimer = (
     elapsedSeconds: session.elapsedSeconds + elapsedSeconds,
     remainingSeconds,
     timerRemainderMs: remainingSeconds === 0 ? 0 : timerRemainderMs,
+    timerUpdatedAt: advancedAt,
   };
 };
 
-const clearModulePracticeSessionArtifacts = (sessionId: string) => {
+const clearModulePracticeSessionArtifacts = (
+  sessionId: string,
+  storage: ModulePracticeSessionStorageLike,
+) => {
   const keysToRemove: string[] = [];
   const desmosPrefix = getDesmosStoragePrefix(`module-practice:${sessionId}`);
   const artifactPrefixes = [
@@ -228,23 +350,30 @@ const clearModulePracticeSessionArtifacts = (sessionId: string) => {
     desmosPrefix,
   ];
 
-  for (let index = 0; index < sessionStorage.length; index += 1) {
-    const key = sessionStorage.key(index);
+  for (let index = 0; index < storage.length; index += 1) {
+    const key = storage.key(index);
     if (!key) continue;
     if (artifactPrefixes.some((prefix) => key.startsWith(prefix))) {
       keysToRemove.push(key);
     }
   }
 
-  keysToRemove.forEach((key) => sessionStorage.removeItem(key));
+  keysToRemove.forEach((key) => storage.removeItem(key));
 };
 
-export const clearModulePracticeSession = (moduleSlug: string) => {
-  const existing = getModulePracticeSession(moduleSlug);
+export const clearModulePracticeSession = (
+  moduleSlug: string,
+  ownerUid: string | null = null,
+  storage: ModulePracticeSessionStorageLike | null = defaultSessionStorage(),
+) => {
+  if (!storage) return;
+  if (!isValidOwnerUid(ownerUid)) return;
+  const existing = getModulePracticeSession(moduleSlug, ownerUid, storage);
   if (existing) {
-    clearModulePracticeSessionArtifacts(existing.sessionId);
+    clearModulePracticeSessionArtifacts(existing.sessionId, storage);
   }
-  sessionStorage.removeItem(getSessionKey(moduleSlug));
+  storage.removeItem(scopedSessionKey(moduleSlug, ownerUid));
+  if (ownerUid === null) storage.removeItem(legacySessionKey(moduleSlug));
 };
 
 export const getModulePracticeQuestionState = (

@@ -244,6 +244,103 @@ service cloud.firestore {
              || (k in prev && k in next && next[k] == prev[k]);
     }
 
+    function studyPlanIntensityValueValid(value) {
+      return value == 'light' || value == 'normal' || value == 'heavy';
+    }
+
+    function studyPlanIntensityValid(intensity) {
+      return intensity.keys().hasOnly([
+               'Information and Ideas', 'Craft and Structure',
+               'Expression of Ideas', 'Standard English Conventions',
+               'Algebra', 'Advanced Math',
+               'Problem-Solving and Data Analysis',
+               'Geometry and Trigonometry', 'Pacing'
+             ])
+             && intensity.keys().hasAll([
+               'Information and Ideas', 'Craft and Structure',
+               'Expression of Ideas', 'Standard English Conventions',
+               'Algebra', 'Advanced Math',
+               'Problem-Solving and Data Analysis',
+               'Geometry and Trigonometry', 'Pacing'
+             ])
+             && studyPlanIntensityValueValid(intensity['Information and Ideas'])
+             && studyPlanIntensityValueValid(intensity['Craft and Structure'])
+             && studyPlanIntensityValueValid(intensity['Expression of Ideas'])
+             && studyPlanIntensityValueValid(intensity['Standard English Conventions'])
+             && studyPlanIntensityValueValid(intensity['Algebra'])
+             && studyPlanIntensityValueValid(intensity['Advanced Math'])
+             && studyPlanIntensityValueValid(intensity['Problem-Solving and Data Analysis'])
+             && studyPlanIntensityValueValid(intensity['Geometry and Trigonometry'])
+             && studyPlanIntensityValueValid(intensity['Pacing']);
+    }
+
+    function studyPlanSettingsValid(settings) {
+      return settings.keys().hasOnly([
+               'setupComplete', 'startDate', 'satDate', 'targetScore',
+               'currentMath', 'currentReadingWriting', 'minutesPerDay',
+               'pacingMode', 'freeWeekdays', 'focus', 'intensity',
+               'blackoutDates'
+             ])
+             && settings.setupComplete is bool
+             && settings.startDate is string
+             && settings.satDate is string
+             && settings.targetScore is int
+             && settings.currentMath is int
+             && settings.currentReadingWriting is int
+             && settings.minutesPerDay is int
+             && settings.pacingMode is string
+             && settings.freeWeekdays is list
+             && settings.focus is list
+             && settings.intensity is map
+             && studyPlanIntensityValid(settings.intensity)
+             && settings.blackoutDates is list;
+    }
+
+    function studyPlanDomainValid(domain) {
+      return domain is map
+             && domain.keys().hasOnly([
+               'id', 'section', 'proficiency', 'performanceRange',
+               'performanceMidpoint', 'percent', 'questionRange'
+             ])
+             && domain.id is string
+             && domain.section is string
+             && (!('proficiency' in domain) || domain.proficiency is int)
+             && (!('performanceRange' in domain) || domain.performanceRange is string)
+             && (!('performanceMidpoint' in domain) || domain.performanceMidpoint is number)
+             && (!('percent' in domain) || domain.percent is number)
+             && (!('questionRange' in domain) || domain.questionRange is string);
+    }
+
+    function studyPlanDomainAtValid(domains, index) {
+      return domains.size() <= index || studyPlanDomainValid(domains[index]);
+    }
+
+    function studyPlanScoreSummaryValid(summary) {
+      return summary.keys().hasOnly([
+               'source', 'importedAt', 'totalScore', 'readingWritingScore',
+               'mathScore', 'domains', 'recommendedFocus', 'warnings'
+             ])
+             && summary.source is string
+             && summary.importedAt is int
+             && (!('totalScore' in summary) || summary.totalScore is int)
+             && (!('readingWritingScore' in summary) || summary.readingWritingScore is int)
+             && (!('mathScore' in summary) || summary.mathScore is int)
+             && summary.domains is list
+             && summary.domains.size() <= 8
+             && studyPlanDomainAtValid(summary.domains, 0)
+             && studyPlanDomainAtValid(summary.domains, 1)
+             && studyPlanDomainAtValid(summary.domains, 2)
+             && studyPlanDomainAtValid(summary.domains, 3)
+             && studyPlanDomainAtValid(summary.domains, 4)
+             && studyPlanDomainAtValid(summary.domains, 5)
+             && studyPlanDomainAtValid(summary.domains, 6)
+             && studyPlanDomainAtValid(summary.domains, 7)
+             && summary.recommendedFocus is list
+             && summary.recommendedFocus.size() <= 8
+             && summary.warnings is list
+             && summary.warnings.size() <= 30;
+    }
+
     // Per-user progress, vocab, and personalization. Only the owning user
     // (with a verified email) may read or write their own doc, and the
     // document's user_id field must match the auth uid.
@@ -270,6 +367,39 @@ service cloud.firestore {
                                 || request.resource.data.customPracticeSets is list);
 
       allow delete: if false;
+    }
+
+    // Versioned SAT study plans. Raw score-report files, filenames, extracted
+    // text, and OCR context never belong in this document; the client writes
+    // only the derived V2 settings, task list, progress, and optional summary.
+    match /study_plans/{uid} {
+      allow get: if request.auth != null
+                 && request.auth.uid == uid
+                 && request.auth.token.email_verified == true;
+      allow list: if false;
+
+      allow create, update: if request.auth != null
+                            && request.auth.uid == uid
+                            && request.auth.token.email_verified == true
+                            && request.resource.data.keys().hasOnly([
+                              'user_id', 'schemaVersion', 'settings',
+                              'scoreSummary', 'tasks', 'progress', 'updatedAt'
+                            ])
+                            && request.resource.data.user_id == uid
+                            && request.resource.data.schemaVersion == 2
+                            && request.resource.data.settings is map
+                            && studyPlanSettingsValid(request.resource.data.settings)
+                            && (!('scoreSummary' in request.resource.data)
+                                || (request.resource.data.scoreSummary is map
+                                    && studyPlanScoreSummaryValid(request.resource.data.scoreSummary)))
+                            && request.resource.data.tasks is list
+                            && request.resource.data.tasks.size() <= 1000
+                            && request.resource.data.progress is map
+                            && request.resource.data.updatedAt is int;
+
+      allow delete: if request.auth != null
+                    && request.auth.uid == uid
+                    && request.auth.token.email_verified == true;
     }
 
     match /question_report_quotas/{uid} {

@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
 import { getPracticeSet, type PracticeSet } from "@/data/modulePracticeBank";
+import { trackPracticeStart } from "@/lib/analytics";
 import {
   buildPracticeTestDefaultTiming,
   clearPracticeTestSession,
@@ -154,6 +155,13 @@ const PracticeTestStart = () => {
       savedSession,
       settings,
     });
+    if (!resumeExisting) {
+      trackPracticeStart({
+        practiceType: "practice_test",
+        subject: "mixed",
+        entryPoint: "modules",
+      });
+    }
   };
 
   const activeModule = savedSession

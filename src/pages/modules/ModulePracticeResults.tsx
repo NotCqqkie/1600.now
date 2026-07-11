@@ -50,6 +50,12 @@ import {
   getReviewQuestionImageClassName,
 } from "@/lib/questionImageDisplay";
 import { useAuth } from "@/contexts/AuthContext";
+import {
+  toAnalyticsAccuracyBand,
+  toAnalyticsDurationBand,
+  trackPracticeComplete,
+} from "@/lib/analytics";
+import { getStudyPlanAssignmentResult } from "@/lib/studyPlan/assignmentContext";
 import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 
 const MODULES_PATH = "/modules";
@@ -151,6 +157,25 @@ const ModulePracticeResults = () => {
     }
     return getLatestModulePracticeResult(module.slug, uid);
   }, [module, sessionId, uid]);
+  const studyPlanResult = useMemo(() => {
+    const assignmentResult = getStudyPlanAssignmentResult();
+    return assignmentResult
+      && assignmentResult.ownerUid === uid
+      && assignmentResult.sourceSessionId === (result?.sessionId ?? sessionId)
+      ? assignmentResult
+      : null;
+  }, [result, sessionId, uid]);
+  useEffect(() => {
+    if (!result) return;
+    trackPracticeComplete({
+      practiceType: "module",
+      subject: result.subject === "math" ? "math" : "reading_writing",
+      status: "completed",
+      accuracyBand: toAnalyticsAccuracyBand(result.accuracy),
+      durationBand: toAnalyticsDurationBand(result.elapsedSeconds),
+      completionId: result.sessionId,
+    });
+  }, [result]);
   const orderedQuestions = useMemo(() => {
     if (!result) return [];
     const directionMultiplier = questionSortDirection === "asc" ? 1 : -1;
@@ -190,9 +215,9 @@ const ModulePracticeResults = () => {
     return (
       <div className={NOT_FOUND_SHELL_CLASS}>
         <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
-          <Link to={MODULES_PATH}>
+          <Link to={studyPlanResult?.returnPath ?? MODULES_PATH}>
             <ArrowLeft className="h-4 w-4" />
-            Back to modules
+            {studyPlanResult ? "Return to study plan" : "Back to modules"}
           </Link>
         </Button>
         <Card className="border-dashed border-border/70">
@@ -300,9 +325,9 @@ const ModulePracticeResults = () => {
       }
     >
       <Button variant="ghost" asChild className={BACK_BUTTON_CLASS}>
-        <Link to={MODULES_PATH}>
+        <Link to={studyPlanResult?.returnPath ?? MODULES_PATH}>
           <ArrowLeft className="h-4 w-4" />
-          Back to modules
+          {studyPlanResult ? "Return to study plan" : "Back to modules"}
         </Link>
       </Button>
 
@@ -744,12 +769,20 @@ const ModulePracticeResults = () => {
       </Card>
 
       <div className={FOOTER_ACTIONS_CLASS}>
-        <Button asChild>
+        <Button variant={studyPlanResult ? "outline" : "default"} asChild>
           <Link to={MODULES_PATH}>
             More practice
             <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>
+        {studyPlanResult ? (
+          <Button asChild>
+            <Link to={studyPlanResult.returnPath}>
+              Return to study plan
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        ) : null}
       </div>
 
       {activeExplanationQuestion && hasActiveExplanationSource && (

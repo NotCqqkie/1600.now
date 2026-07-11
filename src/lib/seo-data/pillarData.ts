@@ -1,3 +1,9 @@
+import {
+  COLLEGE_BOARD_INTERNATIONAL_FEES_URL,
+  INTERNATIONAL_SAT_FEES,
+  SAT_FACTS_VERIFIED_ON,
+} from "@/lib/seo-data/satOfficialData";
+
 interface PillarSection {
   heading: string;
   body: string[];
@@ -771,14 +777,15 @@ const pillarPages: PillarPageData[] = [
       {
         heading: "International test dates",
         body: [
-          "International administrations usually run the same weekends as US administrations — August, October, November, December, March, May, and June.",
+          "The confirmed August 2026–June 2027 weekend schedule applies to US and international students: August, September, October, November, December, March, May, and June.",
           "Some specific countries have restrictions. Check the College Board international center list for your country well before you plan to register.",
         ],
       },
       {
         heading: "Registration and fees",
         body: [
-          "International SAT registration costs more than US registration. As of 2026, the international fee is around $117. Fee waivers are available for US citizens testing abroad but not for non-US citizens.",
+          `International registration currently totals US $${INTERNATIONAL_SAT_FEES.total}: a $${INTERNATIONAL_SAT_FEES.registration} registration fee plus a $${INTERNATIONAL_SAT_FEES.international} international fee, before optional services or location-specific test-center charges. Verified ${SAT_FACTS_VERIFIED_ON} at ${COLLEGE_BOARD_INTERNATIONAL_FEES_URL}.`,
+          "College Board eligibility rules determine whether a student can use a fee waiver while testing internationally; check the official fee-waiver page rather than assuming eligibility from citizenship alone.",
           "You need a photo ID that matches your registered name exactly — typically a passport. Double-check the name on your College Board account against your passport before registering.",
         ],
       },
@@ -813,7 +820,7 @@ const pillarPages: PillarPageData[] = [
       {
         question: "How much does the SAT cost internationally?",
         answer:
-          "Around $117 in 2026, which includes a non-US regional fee on top of the base test fee. Check College Board for your specific country's fee.",
+          `US $${INTERNATIONAL_SAT_FEES.total} before optional services or any location-specific test-center charge: $${INTERNATIONAL_SAT_FEES.registration} registration plus the $${INTERNATIONAL_SAT_FEES.international} international fee.`,
       },
       {
         question: "Do US colleges weigh international SAT scores differently?",

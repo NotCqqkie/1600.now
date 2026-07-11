@@ -1,6 +1,12 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
-import { initializeAppCheck, ReCaptchaV3Provider } from "firebase/app-check";
+import {
+  initializeAppCheck,
+  ReCaptchaV3Provider,
+  type AppCheck,
+} from "firebase/app-check";
 import { isLocalHost } from "@/lib/firebase/firebaseHosts";
+
+export const FIREBASE_ANALYTICS_MEASUREMENT_ID = "G-B5Q82GMJ2L";
 
 const requiredEnvKeys = [
   "VITE_FIREBASE_API_KEY",
@@ -18,6 +24,17 @@ const missingConfigMessage =
 
 if (!hasFirebaseConfig) {
   console.error(`${missingConfigMessage} Authentication and cloud sync are disabled.`);
+}
+
+const configuredMeasurementId = import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "";
+export const firebaseAnalyticsConfigError = !configuredMeasurementId
+  ? "Missing Firebase Analytics measurement ID."
+  : configuredMeasurementId !== FIREBASE_ANALYTICS_MEASUREMENT_ID
+    ? `Unexpected Firebase Analytics measurement ID: ${configuredMeasurementId}.`
+    : null;
+
+if (import.meta.env.PROD && firebaseAnalyticsConfigError) {
+  console.error(`${firebaseAnalyticsConfigError} Analytics is disabled.`);
 }
 
 const prodAuthDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "";
@@ -42,7 +59,7 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "",
   messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "",
   appId: import.meta.env.VITE_FIREBASE_APP_ID || "",
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || undefined,
+  measurementId: configuredMeasurementId || undefined,
 };
 
 export const app = hasFirebaseConfig
@@ -50,22 +67,26 @@ export const app = hasFirebaseConfig
   : null;
 
 const appCheckSiteKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
-export const appCheck = (() => {
+export let appCheck: AppCheck | null = null;
+
+export const initializeFirebaseAppCheck = (): AppCheck | null => {
   if (
-    !app
+    appCheck
+    || !app
     || !appCheckSiteKey
     || typeof window === "undefined"
     || typeof document === "undefined"
-  ) return null;
+  ) return appCheck;
   try {
-    return initializeAppCheck(app, {
+    appCheck = initializeAppCheck(app, {
       provider: new ReCaptchaV3Provider(appCheckSiteKey),
       isTokenAutoRefreshEnabled: true,
     });
+    return appCheck;
   } catch (error) {
     console.error("Failed to initialize Firebase App Check:", error);
     return null;
   }
-})();
+};
 
 export const firebaseConfigError = hasFirebaseConfig ? null : missingConfigMessage;

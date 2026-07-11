@@ -1,3 +1,9 @@
+import {
+  COLLEGE_BOARD_SAT_DATES_URL,
+  OFFICIAL_SAT_DATES,
+  SAT_FACTS_VERIFIED_ON,
+} from "@/lib/seo-data/satOfficialData";
+
 interface SatFaqPage {
   slug: string;
   question: string;
@@ -282,16 +288,19 @@ export const satFaqPages: SatFaqPage[] = [
     slug: "when-are-the-sat-test-dates-2026",
     question: "When are the SAT test dates in 2026?",
     shortAnswer:
-      "The SAT is offered on seven Saturdays per year: August, October, November, December, March, May, and June. Check College Board for specific 2026 dates and registration deadlines.",
-    metaTitle: "SAT Test Dates 2026 | Full Calendar and Deadlines",
+      "The remaining 2026 weekend SAT dates are August 22, September 12, October 3, November 7, and December 5. College Board has also confirmed March 6, May 1, and June 5 for spring 2027.",
+    metaTitle: "SAT Test Dates 2026–2027: Official Dates & Deadlines",
     metaDescription:
-      "The SAT is offered seven times a year — August, October, November, December, March, May, and June. See the full 2026 test date guide.",
+      "Confirmed SAT dates and registration deadlines from August 2026 through June 2027, including the September 12 SAT administration.",
     sections: [
       {
-        heading: "The seven annual test dates",
+        heading: "Confirmed dates and registration deadlines",
         body: [
-          "SAT test dates fall on Saturdays in seven months per year: August, October, November, December, March, May, and June. Each has a corresponding registration deadline about one month earlier.",
+          `College Board's schedule applies to US and international weekend test takers. It was verified on ${SAT_FACTS_VERIFIED_ON} at ${COLLEGE_BOARD_SAT_DATES_URL}.`,
         ],
+        list: OFFICIAL_SAT_DATES.map(
+          (testDate) => `${testDate.label} — register by ${testDate.registrationDeadline}; late changes and registration close ${testDate.lateDeadline}`,
+        ),
       },
       {
         heading: "Choosing a date",
@@ -403,7 +412,7 @@ export const satFaqPages: SatFaqPage[] = [
     question: "Can you use scratch paper on the Digital SAT?",
     shortAnswer:
       "Yes. Test centers provide scratch paper for the Digital SAT. You cannot bring your own, but you can request additional sheets if you run out.",
-    metaTitle: "Can You Use Scratch Paper on the Digital SAT? Yes, Here's How",
+    metaTitle: "Can You Use Scratch Paper on the Digital SAT? Official Rule",
     metaDescription:
       "The Digital SAT allows scratch paper provided by the test center. You can't bring your own, but test-center staff will provide extra sheets on request.",
     sections: [
@@ -417,6 +426,17 @@ export const satFaqPages: SatFaqPage[] = [
         heading: "What you can't do",
         body: [
           "You cannot bring your own scratch paper. All scratch paper is collected at the end of the test and destroyed.",
+        ],
+      },
+      {
+        heading: "How to use the provided paper efficiently",
+        body: [
+          "Write the module and question number beside each calculation so you can return to flagged work quickly. For Math, reserve one area for equations and another for Desmos checks; for Reading and Writing, use brief elimination notes rather than copying passage text.",
+        ],
+        list: [
+          "Ask the proctor for more paper before you run out.",
+          "Keep question numbers visible beside every calculation.",
+          "Do not spend time making scratch work neat after you have the answer.",
         ],
       },
     ],

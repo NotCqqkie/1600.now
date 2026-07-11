@@ -2,16 +2,11 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createServer } from "node:http";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import path from "node:path";
 import { extname } from "node:path";
 import { readFile } from "node:fs/promises";
 import puppeteer from "puppeteer";
-import {
-  assertNoLoopbackUrls,
-  normalizeLoopbackAttributeUrls,
-  pruneLoopbackModulePreloads,
-} from "./prerender-url-safety.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -23,6 +18,10 @@ const PRERENDER_ATTEMPTS = Number(process.env.PRERENDER_ATTEMPTS ?? 3);
 const PRERENDER_BROWSER_ROUTE_LIMIT = Number(process.env.PRERENDER_BROWSER_ROUTE_LIMIT ?? 25);
 const PRERENDER_NAVIGATION_TIMEOUT_MS = Number(process.env.PRERENDER_NAVIGATION_TIMEOUT_MS ?? 60000);
 const PRERENDER_READY_TIMEOUT_MS = Number(process.env.PRERENDER_READY_TIMEOUT_MS ?? 60000);
+const PRERENDER_ROUTES = process.env.PRERENDER_ROUTES
+  ?.split(",")
+  .map((route) => route.trim())
+  .filter(Boolean);
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -61,7 +60,9 @@ function serveStaticSpa() {
           return;
         }
       }
-      const fallback = await readFile(path.join(dist, "index.html"));
+      const fallback = await readFile(
+        path.join(dist, existsSync(path.join(dist, "spa-shell.html")) ? "spa-shell.html" : "index.html"),
+      );
       res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
       res.end(fallback);
     } catch (err) {
@@ -104,7 +105,7 @@ async function listenServer() {
   throw lastError;
 }
 
-function urlsFromSitemap() {
+export function urlsFromSitemap() {
   const indexXml = readFileSync(path.join(root, "public/sitemap.xml"), "utf8");
   const childUrls = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   const pageUrls = [];
@@ -116,45 +117,198 @@ function urlsFromSitemap() {
   return pageUrls.map((u) => new URL(u).pathname);
 }
 
-function outputPathFor(route) {
+export function outputPathFor(route) {
   if (route === "/") return path.join(dist, "index.html");
   return path.join(dist, `${route.replace(/^\/|\/$/g, "")}.html`);
 }
 
-// page.content() captures the modulepreload links Vite injects at runtime for
-// dynamically imported chunks, which bakes lazy-loaded chunks into the HTML as
-// eager preloads. Strip preloads for heavy chunks that load on demand anyway
-// (practice-set data, the practice index, and the Firebase SDK chunks
-// everywhere; the bank question graph outside /bank; the home page's
-// below-the-fold demo graph) so they stop competing with the critical path.
-// Stylesheet links are kept — the captured body needs them to paint correctly
-// before hydration.
-const HEAVY_LAZY_CHUNK_PATTERN =
-  /\/assets\/(?:bank-practice-set-|bank-practice-index-|bank-data-past-|bank-data-unofficial-|pastQuestionDifficultyMap|index\.esm-)/;
-const HOME_DEMO_CHUNK_PATTERN =
-  /\/assets\/(?:Question-|questionBank-|mathRendering-|bank-data-images|bank-data-hidden|bank-categories)/;
-const BANK_QUESTION_GRAPH_PATTERN =
-  /\/assets\/(?:questionBank-|bank-data-images-)/;
+const CORE_MODULE_PRELOAD_PATTERN =
+  /\/assets\/(?:rolldown-runtime-|jsx-runtime-|react-dom-)[^/]*\.js(?:\?|$)/;
+const PRACTICE_INDEX_PRELOAD_PATTERN =
+  /\/assets\/bank-practice-index-[^/]*\.js(?:\?|$)/;
 
-function pruneHeavyPreloads(html, route) {
-  const underBank = route === "/bank" || route.startsWith("/bank/");
-  const withoutLoopbackPreloads = pruneLoopbackModulePreloads(html);
-  const pruned = withoutLoopbackPreloads.replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, (linkTag) => {
-    const href = linkTag.match(/href="([^"]*)"/)?.[1] ?? "";
-    if (HEAVY_LAZY_CHUNK_PATTERN.test(href)) return "";
-    if (route === "/" && HOME_DEMO_CHUNK_PATTERN.test(href)) return "";
-    if (!underBank && BANK_QUESTION_GRAPH_PATTERN.test(href)) return "";
-    return linkTag;
+const routeChunkRules = [
+  { matches: (route) => route === "/", chunks: ["Home"] },
+  { matches: (route) => route === "/modules", chunks: ["Modules"] },
+  { matches: (route) => route === "/score-calculator", chunks: ["ScoreCalculator"] },
+  { matches: (route) => route === "/bank", chunks: ["BankIndex"] },
+  { matches: (route) => route === "/vocab", chunks: ["Vocab"] },
+  { matches: (route) => route === "/hard", chunks: ["HardQuestionsIntro"] },
+  { matches: (route) => route === "/sat-vocabulary", chunks: ["SatVocabularyIndex"] },
+  { matches: (route) => route === "/sat-score", chunks: ["SatScoreIndex"] },
+  { matches: (route) => route.startsWith("/sat-score/"), chunks: ["SatScoreDetail"] },
+  { matches: (route) => route === "/sat-skill", chunks: ["SatSkillIndex"] },
+  { matches: (route) => route.startsWith("/sat-skill/"), chunks: ["SatSkillDetail"] },
+  { matches: (route) => route === "/blog", chunks: ["BlogIndex"] },
+  { matches: (route) => route.startsWith("/blog/"), chunks: ["BlogPost"] },
+  { matches: (route) => route === "/sat-faq", chunks: ["SatFaqIndex"] },
+  { matches: (route) => route.startsWith("/sat-faq/"), chunks: ["SatFaqPage"] },
+  {
+    matches: (route) => /^\/is-a-\d+-a-good-sat-score$/.test(route),
+    chunks: ["IsScoreGood"],
+  },
+  { matches: (route) => route === "/privacy", chunks: ["PrivacyPolicy"] },
+  { matches: (route) => route === "/terms", chunks: ["TermsOfService"] },
+  { matches: (route) => route === "/about", chunks: ["AboutPage"] },
+  { matches: (route) => route === "/sat-to-act-converter", chunks: ["SatToActConverter"] },
+  {
+    matches: (route) => route === "/sat-percentile-calculator",
+    chunks: ["SatPercentileCalculator"],
+  },
+  { matches: (route) => route === "/psat-to-sat-predictor", chunks: ["PsatToSatPredictor"] },
+  {
+    matches: (route) => route === "/sat-study-plan-generator",
+    chunks: ["SatStudyPlanGenerator"],
+  },
+  {
+    matches: (route) => route === "/what-sat-score-do-i-need",
+    chunks: ["WhatSatScoreDoINeed"],
+  },
+  { matches: (route) => route === "/sat-test-countdown", chunks: ["SatTestCountdown"] },
+  { matches: (route) => route === "/in" || route === "/ae", chunks: ["CountryHubPage"] },
+  {
+    matches: (route) => route.startsWith("/in/") || route.startsWith("/ae/"),
+    chunks: ["CountryTopicPage"],
+  },
+  { matches: (route) => route === "/college", chunks: ["CollegeIndex"] },
+  { matches: (route) => route.startsWith("/college/"), chunks: ["CollegePage"] },
+];
+
+function getTagAttribute(tag, attribute) {
+  return tag.match(new RegExp(`\\b${attribute}\\s*=\\s*(["'])(.*?)\\1`, "i"))?.[2] ?? "";
+}
+
+function setTagAttribute(tag, attribute, value) {
+  return tag.replace(
+    new RegExp(`(\\b${attribute}\\s*=\\s*)(["'])(.*?)\\2`, "i"),
+    (_, prefix, quote) => `${prefix}${quote}${value}${quote}`,
+  );
+}
+
+function normalizeLocalAssetHref(href) {
+  try {
+    const url = new URL(href);
+    if (url.hostname === "127.0.0.1" || url.hostname === "localhost") {
+      return `${url.pathname}${url.search}${url.hash}`;
+    }
+  } catch {}
+  return href;
+}
+
+export function collectModulePreloadHrefs(html) {
+  return new Set(
+    [...html.matchAll(/<link\b[^>]*\brel=(["'])modulepreload\1[^>]*>/gi)].map((match) =>
+      normalizeLocalAssetHref(getTagAttribute(match[0], "href")),
+    ),
+  );
+}
+
+function routeChunkNames(route) {
+  const matched = routeChunkRules.find((rule) => rule.matches(route));
+  if (matched) return matched.chunks;
+  return route.split("/").filter(Boolean).length === 1 ? ["TopLevelSeoPage"] : [];
+}
+
+function isAllowedModulePreload(href, route, shellPreloads) {
+  if (shellPreloads?.has(href) && !PRACTICE_INDEX_PRELOAD_PATTERN.test(href)) return true;
+  if (CORE_MODULE_PRELOAD_PATTERN.test(href)) return true;
+  if (route === "/modules" && PRACTICE_INDEX_PRELOAD_PATTERN.test(href)) return true;
+
+  const filename = href.split("/").pop() ?? "";
+  return routeChunkNames(route).some((chunk) => filename.startsWith(`${chunk}-`));
+}
+
+export function pruneRoutePreloads(html, route, metrics = null, shellPreloads = null) {
+  let kept = 0;
+  let removed = 0;
+  const pruned = html.replace(/<link\b[^>]*\brel=(["'])modulepreload\1[^>]*>/gi, (linkTag) => {
+    const href = normalizeLocalAssetHref(getTagAttribute(linkTag, "href"));
+    if (isAllowedModulePreload(href, route, shellPreloads)) {
+      kept++;
+      return setTagAttribute(linkTag, "href", href);
+    }
+    removed++;
+    return "";
   });
 
-  // The home snapshot contains no KaTeX markup (the demo's math renders after
-  // the lazy mathRendering module resolves), so its runtime-captured KaTeX
-  // stylesheet link would only block first paint. The chunk re-injects the
-  // stylesheet when it loads.
+  if (metrics) {
+    metrics.kept += kept;
+    metrics.removed += removed;
+  }
+
   if (route !== "/") return pruned;
-  return pruned.replace(/<link\b[^>]*rel="stylesheet"[^>]*>/g, (linkTag) =>
-    /\/assets\/mathRendering-[^"]*\.css/.test(linkTag) ? "" : linkTag,
+  return pruned.replace(/<link\b[^>]*\brel=(["'])stylesheet\1[^>]*>/gi, (linkTag) =>
+    /\/assets\/mathRendering-[^"']*\.css/.test(linkTag) ? "" : linkTag,
   );
+}
+
+export function normalizeLocalAssetUrls(html) {
+  return html.replace(
+    /(\b(?:href|src)\s*=\s*["'])https?:\/\/(?:127\.0\.0\.1|localhost)(?::\d+)?(\/[^"']*)/gi,
+    "$1$2",
+  );
+}
+
+function replaceTitle(html, title) {
+  return html.replace(/<title>[\s\S]*?<\/title>/i, `<title>${title}</title>`);
+}
+
+function stripPageSeo(html) {
+  return html
+    .replace(/<link\b[^>]*\brel=(["'])canonical\1[^>]*>\s*/gi, "")
+    .replace(/<meta\b[^>]*>/gi, (tag) => {
+      const name = getTagAttribute(tag, "name").toLowerCase();
+      const property = getTagAttribute(tag, "property").toLowerCase();
+      if (["description", "keywords", "robots", "googlebot"].includes(name)) return "";
+      if (name.startsWith("twitter:") || property.startsWith("og:")) return "";
+      return tag;
+    })
+    .replace(/<script\b[^>]*\btype=(["'])application\/ld\+json\1[^>]*>[\s\S]*?<\/script>\s*/gi, "");
+}
+
+export function createSpaShellHtml(shellHtml) {
+  if (!/<div\s+id=(["'])root\1\s*>\s*<\/div>/i.test(shellHtml)) {
+    throw new Error("dist/index.html is already rendered; run Vite build before prerendering again");
+  }
+  return replaceTitle(stripPageSeo(shellHtml), "1600.now");
+}
+
+export function create404Html(shellHtml) {
+  const static404 = `<div id="root"><main style="min-height:100vh;display:grid;place-items:center;padding:2rem;background:#f8fafc;color:#172033;font-family:Inter,system-ui,sans-serif"><div style="max-width:28rem;text-align:center"><p style="margin:0;color:#2957a4;font-size:6rem;font-weight:800;line-height:1">404</p><h1 style="margin:1rem 0 .5rem;font-size:1.5rem">Page not found</h1><p style="margin:0 0 1.5rem;line-height:1.6;color:#526079">This page doesn't exist or may have moved.</p><a href="/" style="color:#2957a4;font-weight:700">Back to home</a></div></main></div>`;
+  return replaceTitle(createSpaShellHtml(shellHtml), "Page Not Found | 1600.now")
+    .replace(
+      "</head>",
+      '    <meta name="robots" content="noindex, follow" />\n    <meta name="googlebot" content="noindex, follow" />\n  </head>',
+    )
+    .replace(/<div\s+id=(["'])root\1\s*>\s*<\/div>/i, static404);
+}
+
+export function createDeploymentShells(shellHtml) {
+  const shellPreloads = collectModulePreloadHrefs(shellHtml);
+  return {
+    spaShell: pruneRoutePreloads(
+      createSpaShellHtml(shellHtml),
+      "/__spa-shell__",
+      null,
+      shellPreloads,
+    ),
+    notFound: pruneRoutePreloads(
+      create404Html(shellHtml),
+      "/__404__",
+      null,
+      shellPreloads,
+    ),
+  };
+}
+
+export function selectPrerenderRoutes(allRoutes, requestedRoutes = PRERENDER_ROUTES) {
+  if (!requestedRoutes?.length) return allRoutes;
+  const selected = [...new Set(requestedRoutes.map((route) => route === "" ? "/" : route))];
+  const unknown = selected.filter((route) => !allRoutes.includes(route));
+  if (unknown.length > 0) {
+    throw new Error(`PRERENDER_ROUTES contains routes absent from the sitemap: ${unknown.join(", ")}`);
+  }
+  return selected;
 }
 
 async function main() {
@@ -163,22 +317,19 @@ async function main() {
     process.exit(1);
   }
 
-  // firebase.json's catch-all rewrite serves spa-shell.html for URLs without a
-  // static snapshot. Emit it from the raw Vite shell before the "/" snapshot
-  // overwrites dist/index.html, minus the homepage canonical/robots tags so
-  // unknown URLs don't claim to canonicalize to the homepage — the client-side
-  // Seo component sets the correct meta per route.
-  const shellHtml = readFileSync(path.join(dist, "index.html"), "utf8");
-  const spaShellHtml = normalizeLoopbackAttributeUrls(shellHtml
-    .replace(/[ \t]*<link\b[^>]*rel="canonical"[^>]*>\r?\n?/g, "")
-    .replace(/[ \t]*<meta\b[^>]*name="robots"[^>]*>\r?\n?/g, "")
-    .replace(/[ \t]*<meta\b[^>]*name="googlebot"[^>]*>\r?\n?/g, ""));
-  assertNoLoopbackUrls(spaShellHtml, "spa-shell.html");
-  writeFileSync(path.join(dist, "spa-shell.html"), spaShellHtml);
+  const indexHtml = readFileSync(path.join(dist, "index.html"), "utf8");
+  const shellHtml = /<div\s+id=(["'])root\1\s*>\s*<\/div>/i.test(indexHtml)
+    ? indexHtml
+    : readFileSync(path.join(dist, "spa-shell.html"), "utf8");
+  const shellPreloads = collectModulePreloadHrefs(shellHtml);
+  const deploymentShells = createDeploymentShells(shellHtml);
+  writeFileSync(path.join(dist, "spa-shell.html"), deploymentShells.spaShell);
+  writeFileSync(path.join(dist, "404.html"), deploymentShells.notFound);
 
   const allRoutes = urlsFromSitemap();
-  const routes = allRoutes;
+  const routes = selectPrerenderRoutes(allRoutes);
   console.log(`Prerendering ${routes.length} routes...`);
+  const preloadMetrics = { kept: 0, removed: 0 };
 
   const { server, port } = await listenServer();
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
@@ -245,12 +396,10 @@ async function main() {
       route,
     );
     await page.evaluate(() => document.documentElement.scrollHeight);
-    const html = await page.content();
+    const html = normalizeLocalAssetUrls(await page.content());
     const out = outputPathFor(route);
-    const serializedHtml = normalizeLoopbackAttributeUrls(pruneHeavyPreloads(html, route));
-    assertNoLoopbackUrls(serializedHtml, route);
     mkdirSync(path.dirname(out), { recursive: true });
-    writeFileSync(out, serializedHtml);
+    writeFileSync(out, pruneRoutePreloads(html, route, preloadMetrics, shellPreloads));
   }
 
   async function runBatch(batchRoutes, concurrency, attempt) {
@@ -320,6 +469,9 @@ async function main() {
   await new Promise((r) => server.close(r));
 
   console.log(`Prerendered ${done} routes (${failures.length} failed).`);
+  console.log(
+    `Modulepreloads kept: ${preloadMetrics.kept}; removed: ${preloadMetrics.removed}.`,
+  );
 
   if (failures.length > 0) {
     console.error(
@@ -329,7 +481,9 @@ async function main() {
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

@@ -40,6 +40,8 @@ rescraped_images_*/
 .playwright/
 /.firebase/hosting.*.cache
 /tmp/
+/output/
+/outputs/
 category_audit_findings.md
 scripts/images/unreferenced_images.txt
 scripts/extract/_runs/

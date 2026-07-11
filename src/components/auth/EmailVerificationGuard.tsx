@@ -5,6 +5,7 @@ const ALLOWED_UNVERIFIED_PATHS = new Set<string>([
   "/verify-email",
   "/login",
   "/signup",
+  "/profile",
   "/privacy",
   "/terms",
 ]);

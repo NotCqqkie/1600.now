@@ -91,6 +91,9 @@ const SatFaqPage = () => {
 
   const url = `${SAT_FAQ_URL}/${page.slug}`;
   const actionPlan = faqActionPlanFor(page.slug);
+  const relatedPages = (page.relatedSlugs ?? [])
+    .map((relatedSlug) => satFaqPageBySlug.get(relatedSlug))
+    .filter((relatedPage): relatedPage is NonNullable<typeof relatedPage> => Boolean(relatedPage));
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-12">
@@ -177,6 +180,30 @@ const SatFaqPage = () => {
           ))}
         </div>
       </section>
+
+      {relatedPages.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold">Related SAT answers</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {relatedPages.map((relatedPage) => (
+              <li key={relatedPage.slug}>
+                <Link
+                  to={`/sat-faq/${relatedPage.slug}`}
+                  className="block rounded-lg border border-border p-4 hover:bg-muted"
+                >
+                  <div className="font-semibold">{relatedPage.question}</div>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {relatedPage.shortAnswer}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link className="mt-4 inline-block text-sm underline" to="/sat-resources">
+            Browse all SAT resources →
+          </Link>
+        </section>
+      )}
 
       <section className="mt-12 rounded-2xl border border-border bg-card/60 p-6">
         <h2 className="text-lg font-semibold">Ready to practice?</h2>

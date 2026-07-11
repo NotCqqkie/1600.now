@@ -4,7 +4,7 @@ interface BlogSection {
   list?: string[];
 }
 
-interface BlogPost {
+export interface BlogPost {
   slug: string;
   title: string;
   description: string;
@@ -14,6 +14,24 @@ interface BlogPost {
   sections: BlogSection[];
   relatedSlugs?: string[];
 }
+
+export const BLOG_EDITORIAL_AUTHOR = "1600.now SAT Content Team";
+export const BLOG_LAST_REVIEWED = "2026-07-10";
+export const BLOG_PRIMARY_SOURCE_URL = "https://satsuite.collegeboard.org/sat";
+
+export const getBlogReadingMinutes = (post: BlogPost): number => {
+  const text = [
+    post.title,
+    post.description,
+    ...post.sections.flatMap((section) => [
+      section.heading,
+      ...section.body,
+      ...(section.list ?? []),
+    ]),
+  ].join(" ");
+  const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(wordCount / 220));
+};
 
 export const blogPosts: BlogPost[] = [
   {

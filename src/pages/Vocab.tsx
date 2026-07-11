@@ -5,6 +5,7 @@ import { useThemeMode } from "@/lib/theme";
 import { useAuth } from "@/contexts/AuthContext";
 import { vocabStorageKey } from "@/hooks/useUserProgress";
 import { db } from "@/lib/firebase/firebaseDb";
+import { initializeFirebaseAppCheck } from "@/lib/firebase/firebaseApp";
 import { doc, setDoc } from "firebase/firestore";
 
 type Pos = VocabPos;
@@ -2942,6 +2943,7 @@ const Vocab = () => {
     }
 
     if (user && db) {
+      initializeFirebaseAppCheck();
       const ref = doc(db, "user_progress", user.id);
       setDoc(ref, { user_id: user.id, vocab: progress }, { merge: true }).catch(
         (err) => console.error("Failed to sync vocab to Firestore:", err),

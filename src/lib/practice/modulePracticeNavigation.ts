@@ -3,6 +3,7 @@ import type { PracticeModule } from "@/data/modulePracticeBank";
 import {
   clearModulePracticeSession,
   createModulePracticeSession,
+  resumeModulePracticeSession,
   saveModulePracticeSession,
   type ModulePracticeSessionMeta,
   type ModulePracticeSettings,
@@ -23,6 +24,7 @@ const buildModulePracticeSetFromModule = (module: PracticeModule) =>
 type LaunchModulePracticeArgs = Readonly<{
   module: PracticeModule;
   navigate: NavigateFunction;
+  ownerUid: string | null;
 }> & (
   Readonly<{
     resumeExisting: true;
@@ -32,28 +34,35 @@ type LaunchModulePracticeArgs = Readonly<{
     resumeExisting: false;
     savedSession: ModulePracticeSessionMeta | null;
     settings: ModulePracticeSettings;
+    restartConfirmed?: boolean;
   }>
 );
 
 export const launchModulePractice = ({
   module,
   navigate,
+  ownerUid,
   resumeExisting,
   savedSession,
   settings,
-}: LaunchModulePracticeArgs): void => {
+  ...launchOptions
+}: LaunchModulePracticeArgs): boolean => {
   const practiceSet = buildModulePracticeSetFromModule(module);
-  if (!practiceSet.length) return;
+  if (!practiceSet.length) return false;
 
   const shouldResume = resumeExisting && savedSession !== null;
+  if (shouldResume && savedSession.ownerUid !== ownerUid) return false;
 
   if (!shouldResume && savedSession) {
-    clearModulePracticeSession(module.slug);
+    if (!("restartConfirmed" in launchOptions) || !launchOptions.restartConfirmed) {
+      return false;
+    }
+    clearModulePracticeSession(module.slug, ownerUid);
   }
 
   const session = shouldResume
-    ? { ...savedSession, status: "active" as const }
-    : createModulePracticeSession(module, settings);
+    ? resumeModulePracticeSession(savedSession)
+    : createModulePracticeSession(module, settings, ownerUid);
 
   if (shouldResume) {
     saveModulePracticeSession(session);
@@ -63,7 +72,7 @@ export const launchModulePractice = ({
 
   const targetIndex = shouldResume ? session.currentIndex : 0;
   const targetQuestion = practiceSet[targetIndex];
-  if (!targetQuestion) return;
+  if (!targetQuestion) return false;
 
   navigate(buildModulePracticeQuestionRoute({
     subject: targetQuestion.subject,
@@ -73,4 +82,5 @@ export const launchModulePractice = ({
     moduleSlug: module.slug,
     moduleSessionId: session.sessionId,
   }));
+  return true;
 };

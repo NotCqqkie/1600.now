@@ -15,7 +15,7 @@ const NotFound = () => {
       robots.setAttribute("name", "robots");
       document.head.appendChild(robots);
     }
-    robots.setAttribute("content", "noindex");
+    robots.setAttribute("content", "noindex, follow");
 
     document.head.querySelector('link[rel="canonical"]')?.remove();
   }, []);

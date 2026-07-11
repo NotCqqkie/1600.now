@@ -68,7 +68,9 @@ const REQUIRED_FIREBASE_ENV_KEYS = [
   "VITE_FIREBASE_AUTH_DOMAIN",
   "VITE_FIREBASE_PROJECT_ID",
   "VITE_FIREBASE_APP_ID",
+  "VITE_FIREBASE_MEASUREMENT_ID",
 ];
+const FIREBASE_ANALYTICS_MEASUREMENT_ID = "G-B5Q82GMJ2L";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
@@ -81,6 +83,11 @@ export default defineConfig(({ command, mode }) => {
       throw new Error(
         `Missing required Firebase env vars for production build: ${missing.join(", ")}. ` +
           "Set VITE_FIREBASE_* in the build environment.",
+      );
+    }
+    if (env.VITE_FIREBASE_MEASUREMENT_ID !== FIREBASE_ANALYTICS_MEASUREMENT_ID) {
+      throw new Error(
+        `VITE_FIREBASE_MEASUREMENT_ID must be ${FIREBASE_ANALYTICS_MEASUREMENT_ID}.`,
       );
     }
   }

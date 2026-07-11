@@ -5,6 +5,7 @@ export interface College {
   slug: string;
   name: string;
   alias: string | null;
+  aliases: string[];
   city: string | null;
   state: string | null;
   zip: string | null;
@@ -26,7 +27,35 @@ export interface College {
   completionRate: number | null;
 }
 
-export const colleges: College[] = rawColleges as College[];
+type RawCollege = Omit<College, "aliases">;
+
+const collegeAliases = (alias: string | null): string[] =>
+  alias
+    ? [...new Set(alias.split(/[|;]/).map((item) => item.trim()).filter(Boolean))]
+    : [];
+
+export const colleges: College[] = (rawColleges as RawCollege[]).map((college) => {
+  const aliases = collegeAliases(college.alias);
+  return {
+    ...college,
+    alias: aliases[0] ?? null,
+    aliases,
+  };
+});
+
+export const COLLEGE_SCORECARD_PROVENANCE = {
+  sourceName: "US Department of Education College Scorecard",
+  documentationVersion: "September 2025",
+  snapshotImportedOn: "April 25, 2026",
+  documentationUrl: "https://collegescorecard.ed.gov/files/InstitutionDataDocumentation.pdf",
+  directoryUrl: "https://collegescorecard.ed.gov/",
+} as const;
+
+export const normalizeSatScore = (score: number): number =>
+  Math.min(1600, Math.max(400, Math.round(score / 10) * 10));
+
+export const getRecommendedSatScore = (college: College): number | null =>
+  college.sat75 == null ? null : Math.min(1600, normalizeSatScore(college.sat75) + 40);
 
 export const collegeBySlug = new Map(colleges.map((college) => [college.slug, college]));
 

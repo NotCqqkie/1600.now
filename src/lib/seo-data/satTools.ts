@@ -40,9 +40,9 @@ export const satTools: SatToolMeta[] = [
     name: "SAT Study Plan Generator",
     metaTitle: "Free SAT Study Plan Generator (2026 Personalized)",
     metaDescription:
-      "Generate a personalized week-by-week SAT study plan based on your baseline score, target score, and test date.",
+      "Upload an SAT score report or enter your scores to generate a personalized daily study schedule with timed assignments.",
     intro:
-      "Tell us your current score, target score, and test date. We produce a week-by-week Digital SAT study plan — balancing diagnostic, skill drills, timed modules, and full-length practice — that matches the time you actually have.",
+      "Upload a score report or enter your scores, choose your SAT date and available time, and get a daily Digital SAT schedule with assignments you can launch.",
   },
   {
     slug: "what-sat-score-do-i-need",
@@ -55,12 +55,12 @@ export const satTools: SatToolMeta[] = [
   },
   {
     slug: "sat-test-countdown",
-    name: "SAT Test Countdown",
-    metaTitle: "SAT Test Countdown: Days Until Your Next SAT Test Date",
+    name: "Next SAT Date Countdown",
+    metaTitle: "Next SAT Date: Live Countdown & 2026–2027 Deadlines",
     metaDescription:
-      "Count the days until the next Digital SAT test date, plus a full list of upcoming 2026 SAT dates.",
+      "The next SAT is August 22, 2026. See the live countdown, September 12 date, registration deadlines, and every confirmed date through June 2027.",
     intro:
-      "Count down to the next Digital SAT administration. Pick your target test date and see the days remaining, with the full 2026–2027 test schedule below.",
+      "The next weekend SAT is August 22, 2026. Pick any confirmed administration to see the days remaining, then check its registration and late-registration deadlines below.",
   },
 ];
 

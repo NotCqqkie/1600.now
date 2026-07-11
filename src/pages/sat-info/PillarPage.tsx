@@ -54,6 +54,9 @@ const PillarPage = () => {
   const relatedSkills = (pillar.relatedSkillSlugs ?? [])
     .map((relatedSlug) => satSkillBySlug.get(relatedSlug))
     .filter((relatedSkill): relatedSkill is NonNullable<typeof relatedSkill> => Boolean(relatedSkill));
+  const relatedPillars = (pillar.relatedPillarSlugs ?? [])
+    .map((relatedSlug) => pillarBySlug.get(relatedSlug))
+    .filter((relatedPillar): relatedPillar is NonNullable<typeof relatedPillar> => Boolean(relatedPillar));
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
@@ -172,6 +175,28 @@ const PillarPage = () => {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {relatedPillars.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Related SAT guides
+          </h2>
+          <ul className="mt-4 grid gap-3 md:grid-cols-2">
+            {relatedPillars.map((relatedPillar) => (
+              <li key={relatedPillar.slug}>
+                <PracticeCardLink
+                  to={`/${relatedPillar.slug}`}
+                  title={relatedPillar.title}
+                  description={relatedPillar.metaDescription}
+                />
+              </li>
+            ))}
+          </ul>
+          <Link className="mt-4 inline-block text-sm underline" to="/sat-resources">
+            Browse the SAT resource library →
+          </Link>
         </section>
       )}
 

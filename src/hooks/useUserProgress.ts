@@ -32,6 +32,7 @@ const importFirestoreDependencies = async () => {
     import('@/lib/firebase/firebaseDb'),
     import('firebase/firestore'),
   ]);
+  firebaseDb.initializeFirebaseAppCheck();
   return {
     db: firebaseDb.db,
     doc: firestore.doc,

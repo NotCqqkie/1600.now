@@ -7,21 +7,26 @@ import {
 } from "@/components/seo/PageSeo";
 import {
   collegeBySlug,
+  COLLEGE_SCORECARD_PROVENANCE,
   formatPct,
   formatUsd,
+  getRecommendedSatScore,
   isSitemapEligible,
+  normalizeSatScore,
   sitemapEligibleColleges,
   type College,
 } from "@/lib/seo-data/collegesData";
 
 const chanceLabel = (sat: number, college: College): string => {
   if (!college.sat25 || !college.sat75) return "Check the admissions page for current ranges.";
-  if (sat >= college.sat75 + 20) return "Strong — above the 75th percentile of admitted students.";
-  if (sat >= college.sat75) return "Competitive — at or above the 75th percentile.";
-  const mid = Math.round((college.sat25 + college.sat75) / 2);
-  if (sat >= mid) return "In range — near the median of admitted students.";
-  if (sat >= college.sat25) return "Low end — within the 25th–50th percentile band.";
-  return "Below range — this score would be a significant drag on the application.";
+  const sat25 = normalizeSatScore(college.sat25);
+  const sat75 = normalizeSatScore(college.sat75);
+  if (sat > sat75) return "Above the reported middle-50% range.";
+  if (sat === sat75) return "At the upper end of the reported middle-50% range.";
+  const mid = normalizeSatScore((sat25 + sat75) / 2);
+  if (sat >= mid) return "Within the upper half of the reported range.";
+  if (sat >= sat25) return "Within the lower half of the reported range.";
+  return "Below the reported middle-50% range.";
 };
 
 const carnegieLabel = (code: number | null): string => {
@@ -35,7 +40,7 @@ const carnegieLabel = (code: number | null): string => {
 };
 
 const collegeSatMid = (college: College): number =>
-  college.satMid ?? Math.round(((college.sat25 ?? 0) + (college.sat75 ?? 0)) / 2);
+  normalizeSatScore(college.satMid ?? ((college.sat25 ?? 0) + (college.sat75 ?? 0)) / 2);
 
 const collegeNameCounts = new Map<string, number>();
 for (const c of sitemapEligibleColleges) {
@@ -69,8 +74,11 @@ const CollegePage = () => {
   const locationLabel =
     college.city && college.state ? `${college.city}, ${college.state}` : college.state ?? "United States";
 
-  const satRange = college.sat25 && college.sat75 ? `${college.sat25}–${college.sat75}` : null;
-  const satMid = satRange ? Math.round((college.sat25! + college.sat75!) / 2) : null;
+  const sat25 = college.sat25 ? normalizeSatScore(college.sat25) : null;
+  const sat75 = college.sat75 ? normalizeSatScore(college.sat75) : null;
+  const satRange = sat25 && sat75 ? `${sat25}–${sat75}` : null;
+  const satMid = satRange ? normalizeSatScore((sat25! + sat75!) / 2) : null;
+  const recommendedScore = getRecommendedSatScore(college);
 
   const titleName =
     duplicateCollegeNames.has(college.name) && college.state
@@ -92,7 +100,7 @@ const CollegePage = () => {
     {
       question: `What SAT score do I need for ${shortName}?`,
       answer: satRange
-        ? `${displayName}'s admitted students have a middle-50% SAT range of ${satRange}, with a median around ${satMid}. To be competitive, aim for ${college.sat75}+ — this puts you at or above the 75th percentile of admitted students.`
+        ? `${displayName}'s Scorecard snapshot shows a middle-50% SAT range of ${satRange}, rounded to valid 10-point totals. ${recommendedScore ? `${recommendedScore} is a planning target above the reported range, not an admission cutoff.` : "Check the institution for current figures."}`
         : `${displayName} does not publish a full SAT middle-50% range. Check its admissions page for current expectations.`,
     },
     {
@@ -112,7 +120,7 @@ const CollegePage = () => {
             : `${displayName} does not publish a standard tuition figure in the most recent Scorecard data.`,
     },
     {
-      question: `Is ${shortName} test-optional in 2026?`,
+      question: `Is ${shortName} test-optional?`,
       answer:
         `Many US universities adjusted test policies after 2020. Check ${displayName}'s admissions page for current test-optional, test-required, or test-flexible policy.`,
     },
@@ -122,11 +130,11 @@ const CollegePage = () => {
     <div className="mx-auto max-w-3xl px-6 py-10">
       <PageSeo
         id={`college-${college.slug}`}
-        title={`${titleName}: SAT Scores & Admissions (2026)`}
+        title={`${titleName}: SAT Scores & Admissions Data`}
         description={
           satRange
             ? `${displayName} admits students with an SAT middle-50% of ${satRange} and an acceptance rate of ${formatPct(college.acceptanceRate)}. Full admissions profile, tuition, and score targets.`
-            : `${displayName} admissions profile: acceptance rate, SAT/ACT ranges, tuition, location, and score targets for 2026 applicants.`
+            : `${displayName} admissions data: acceptance rate, SAT/ACT ranges, tuition, location, and source methodology.`
         }
         canonical={url}
         robots={isSitemapEligible(college) ? undefined : "noindex, nofollow"}
@@ -222,8 +230,16 @@ const CollegePage = () => {
           />
         </div>
         <p className="mt-3 text-xs text-muted-foreground">
-          Source: US Department of Education College Scorecard, most recent
-          available year. Tuition excludes room, board, fees, and books.
+          Source: {COLLEGE_SCORECARD_PROVENANCE.sourceName}. Documentation version{" "}
+          {COLLEGE_SCORECARD_PROVENANCE.documentationVersion}; repository snapshot imported{" "}
+          {COLLEGE_SCORECARD_PROVENANCE.snapshotImportedOn}. Scorecard fields can come from
+          different reporting years, and this snapshot does not encode one universal data year.
+          SAT totals are rounded to the nearest valid 10 points. Tuition excludes room,
+          board, fees, and books.{" "}
+          <a className="underline" href={COLLEGE_SCORECARD_PROVENANCE.documentationUrl} rel="noopener noreferrer" target="_blank">
+            Read the methodology
+          </a>
+          .
         </p>
       </section>
 
@@ -233,26 +249,25 @@ const CollegePage = () => {
             How your SAT score lines up
           </h2>
           <p className="mt-3 text-muted-foreground">
-            At {displayName}, 25% of admitted students score below{" "}
-            <strong>{college.sat25}</strong> and 25% score above{" "}
-            <strong>{college.sat75}</strong>. Scoring at the 75th percentile or
-            higher makes the SAT a positive factor in your application.
+            The Scorecard snapshot places the middle 50% of reported scores
+            between <strong>{sat25}</strong> and <strong>{sat75}</strong>. This is
+            descriptive data, not an admission threshold or probability estimate.
           </p>
           <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
             <li>
-              <strong>{college.sat75! + 40}+ SAT:</strong>{" "}
-              {chanceLabel(college.sat75! + 40, college)}
+              <strong>{recommendedScore} SAT planning target:</strong>{" "}
+              {chanceLabel(recommendedScore!, college)}
             </li>
             <li>
-              <strong>{college.sat75} SAT (75th percentile):</strong>{" "}
-              {chanceLabel(college.sat75!, college)}
+              <strong>{sat75} SAT (reported 75th percentile):</strong>{" "}
+              {chanceLabel(sat75!, college)}
             </li>
             <li>
               <strong>{satMid} SAT (median):</strong> {chanceLabel(satMid!, college)}
             </li>
             <li>
-              <strong>{college.sat25} SAT (25th percentile):</strong>{" "}
-              {chanceLabel(college.sat25!, college)}
+              <strong>{sat25} SAT (reported 25th percentile):</strong>{" "}
+              {chanceLabel(sat25!, college)}
             </li>
           </ul>
           <Link
@@ -275,7 +290,7 @@ const CollegePage = () => {
                 <Link className="hover:underline" to={`/college/${c.slug}`}>
                   {c.name}
                 </Link>
-                {c.sat25 && c.sat75 && ` · SAT ${c.sat25}–${c.sat75}`}
+                {c.sat25 && c.sat75 && ` · SAT ${normalizeSatScore(c.sat25)}–${normalizeSatScore(c.sat75)}`}
               </li>
             ))}
           </ul>

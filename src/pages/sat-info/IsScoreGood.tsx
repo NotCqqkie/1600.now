@@ -1,6 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
 import { PageSeo, buildFaqJsonLd, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
-import { getScoreProfile } from "@/lib/seo-data/satScoreData";
+import {
+  COLLEGE_BOARD_SAT_PERCENTILES_URL,
+  getScoreProfile,
+} from "@/lib/seo-data/satScoreData";
 import NotFound from "@/pages/NotFound";
 
 const MIN_VALID_SCORE = 400;
@@ -30,14 +33,13 @@ const COLLEGE_SLUG_BY_EXAMPLE: Record<string, string> = {
   "University of Kentucky": "university-of-kentucky",
 };
 
-const verdictFor = (score: number, percentile: number) => {
-  if (score >= 1500) return `Yes — a ${score} is an exceptional SAT score. At the ${percentile}th percentile, it places you in the top 2% of all SAT test takers and makes you a strong candidate at every university in the country.`;
-  if (score >= 1400) return `Yes — a ${score} is a very good SAT score. At the ${percentile}th percentile, it puts you above the 75th percentile at most selective universities.`;
-  if (score >= 1300) return `Yes — a ${score} is a good SAT score. At the ${percentile}th percentile, it is competitive at a wide range of four-year universities.`;
-  if (score >= 1200) return `A ${score} is an above-average SAT score (${percentile}th percentile) and is competitive at most four-year universities, especially state schools.`;
-  if (score >= 1100) return `A ${score} is slightly above the national average SAT score (${percentile}th percentile). It is competitive at many regional universities but below the median at highly selective schools.`;
-  if (score >= 1000) return `A ${score} is near the national average SAT score (${percentile}th percentile). It opens doors at many four-year colleges, but you may want to retake if aiming at selective schools.`;
-  return `A ${score} is below the national SAT average (${percentile}th percentile). With focused prep and a retake, most students can raise this score by 100+ points.`;
+const verdictFor = (score: number, percentileLabel: string) => {
+  if (score >= 1500) return `Yes — a ${score} is an exceptional national SAT result in the ${percentileLabel} percentile among recent SAT users. It can fall within the range at highly selective colleges, but it never guarantees admission.`;
+  if (score >= 1400) return `Yes — a ${score} is a very strong SAT result in the ${percentileLabel} percentile among recent SAT users. Compare it with each college's current range before deciding whether to submit or retake.`;
+  if (score >= 1300) return `Yes — a ${score} is a strong SAT result in the ${percentileLabel} percentile among recent SAT users. Its admissions value depends on the schools on your list.`;
+  if (score >= 1200) return `A ${score} is an above-median SAT-user result in the ${percentileLabel} percentile. Check current college ranges rather than treating one national label as universal.`;
+  if (score >= 1000) return `A ${score} is near the middle of the SAT-user distribution at the ${percentileLabel} percentile. Whether to retake depends on your target colleges and section-level opportunities.`;
+  return `A ${score} is in the ${percentileLabel} percentile among recent SAT users. Use the section report to choose a focused improvement plan and compare the result with current college ranges.`;
 };
 
 const IsScoreGood = () => {
@@ -48,14 +50,14 @@ const IsScoreGood = () => {
   if (!VALID_SCORES.includes(score)) return <NotFound />;
 
   const profile = getScoreProfile(score);
-  const verdict = verdictFor(score, profile.percentile);
+  const verdict = verdictFor(score, profile.percentileLabel);
   const url = `https://1600.now/is-a-${score}-a-good-sat-score`;
   const collegeExamplesText = profile.collegeExamples.slice(0, 4).join(", ");
   const hasLowerScore = VALID_SCORES.includes(score - SCORE_INCREMENT);
   const hasHigherScore = VALID_SCORES.includes(score + SCORE_INCREMENT);
   const stats = [
     { label: "Score", value: score, valueClassName: STAT_VALUE_CLASS },
-    { label: "Percentile", value: profile.percentile, valueClassName: STAT_VALUE_CLASS },
+    { label: "SAT-user percentile", value: profile.percentileLabel, valueClassName: STAT_VALUE_CLASS },
     { label: "Tier", value: profile.tier, valueClassName: TIER_VALUE_CLASS },
   ] as const;
 
@@ -69,11 +71,11 @@ const IsScoreGood = () => {
     },
     {
       q: `What percentile is a ${score} SAT score?`,
-      a: `A ${score} SAT score is roughly the ${profile.percentile}th percentile, meaning you scored higher than about ${profile.percentile}% of other test takers.`,
+      a: `College Board's current SAT-user table places a ${score} in the ${profile.percentileLabel} percentile. This comparison group is based on recent SAT takers, not all high school students.`,
     },
     {
       q: `What colleges can I get into with a ${score} SAT score?`,
-      a: `A ${score} makes you competitive at schools such as ${collegeExamplesText}. Always check each school's published middle-50% SAT range.`,
+      a: `Use schools such as ${collegeExamplesText} as starting points for checking current middle-50% SAT ranges. A ${score} alone cannot predict admission.`,
     },
     {
       q: `Should I retake the SAT if I scored ${score}?`,
@@ -81,7 +83,7 @@ const IsScoreGood = () => {
         ? `Probably not. A ${score} is already elite. Retake only if you specifically need a superscore bump in one section.`
         : score >= 1400
           ? `Only retake if your target schools have a 75th-percentile SAT above ${score}, or if you have clear untapped gains on practice tests.`
-          : `A retake is often worth it at this level. With 30–60 days of focused prep, most students raise their score by 50–100 points.`,
+          : `A retake may be worthwhile if practice scores show repeatable gains or the score is below your target colleges' current ranges.`,
     },
     {
       q: `How can I improve from a ${score} SAT score?`,
@@ -115,6 +117,18 @@ const IsScoreGood = () => {
         Is a {score} a Good SAT Score?
       </h1>
       <p className="mt-4 text-lg text-foreground/90">{verdict}</p>
+      <p className="mt-2 text-xs text-muted-foreground">
+        Source:{" "}
+        <a
+          className="underline"
+          href={COLLEGE_BOARD_SAT_PERCENTILES_URL}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          College Board SAT-user percentiles
+        </a>
+        .
+      </p>
       <p className="mt-3 text-sm">
         <Link to={`/sat-score/${score}`} className="text-foreground/80 hover:underline">
           See the full {score} SAT score breakdown →

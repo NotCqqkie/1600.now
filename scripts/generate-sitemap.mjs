@@ -55,7 +55,6 @@ const MTIME_ANALYSIS = gitLastmod("src/pages/Analysis.tsx");
 const MTIME_HARD = gitLastmod("src/pages/bank/HardQuestionsIntro.tsx");
 const MTIME_PRIVACY = gitLastmod("src/pages/legal/PrivacyPolicy.tsx");
 const MTIME_TERMS = gitLastmod("src/pages/legal/TermsOfService.tsx");
-const MTIME_BROWSE = gitLastmod("src/pages/Index.tsx");
 const MTIME_ABOUT = gitLastmod("src/pages/AboutPage.tsx");
 
 
@@ -131,15 +130,10 @@ const countryPageSlugs = [...countrySrc.matchAll(/slug:\s*"((?:in|ae)\/[^"]+)"/g
 const scores = [];
 for (let s = 400; s <= 1600; s += 10) scores.push(s);
 
-const isGoodScores = [];
-for (let s = 400; s <= 1600; s += 10) isGoodScores.push(s);
-
-
 const pagesBucket = [
   { url: "/", lastmod: MTIME_HOME },
   { url: "/modules", lastmod: MTIME_MODULES },
   { url: "/score-calculator", lastmod: MTIME_SCORE_CALC },
-  { url: "/browse", lastmod: MTIME_BROWSE },
   { url: "/bank", lastmod: MTIME_BANK },
   { url: "/vocab", lastmod: MTIME_VOCAB },
   { url: "/hard", lastmod: MTIME_HARD },
@@ -203,13 +197,10 @@ const collegesBucket = [
   ...collegeSlugs.map((s) => ({ url: `/college/${s}`, lastmod: MTIME_COLLEGES })),
 ];
 
-const scoresBucket = [
-  ...scores.map((n) => ({ url: `/sat-score/${n}`, lastmod: MTIME_SCORES })),
-  ...isGoodScores.map((n) => ({
-    url: `/is-a-${n}-a-good-sat-score`,
-    lastmod: MTIME_SCORES,
-  })),
-];
+const scoresBucket = scores.map((n) => ({
+  url: `/sat-score/${n}`,
+  lastmod: MTIME_SCORES,
+}));
 
 
 const priorityFor = (u) => {

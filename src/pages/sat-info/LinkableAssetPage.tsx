@@ -52,6 +52,75 @@ type ProductLink = {
   href: string;
 };
 
+type ResourceDownload = {
+  href: string;
+  label: string;
+  fileType: string;
+};
+
+const downloadsBySlug: Record<string, ResourceDownload[]> = {
+  "sat-desmos-reference-sheet": [
+    {
+      href: "/downloads/sat-desmos-reference-sheet.pdf",
+      label: "Download the SAT Desmos reference sheet",
+      fileType: "PDF",
+    },
+  ],
+  "sat-math-formula-chart": [
+    {
+      href: "/downloads/sat-math-formula-chart.pdf",
+      label: "Download the SAT Math formula chart",
+      fileType: "PDF",
+    },
+  ],
+  "sat-test-day-checklist-printable": [
+    {
+      href: "/downloads/sat-test-day-checklist.pdf",
+      label: "Download the SAT test-day checklist",
+      fileType: "PDF",
+    },
+  ],
+  "sat-practice-test-score-sheet": [
+    {
+      href: "/downloads/sat-practice-test-score-tracker.xlsx",
+      label: "Download the SAT practice-test score tracker",
+      fileType: "Excel workbook",
+    },
+  ],
+  "sat-study-schedule-template": [
+    {
+      href: "/downloads/sat-study-schedule-template.xlsx",
+      label: "Download the editable SAT study schedule",
+      fileType: "Excel workbook",
+    },
+    {
+      href: "/downloads/sat-study-schedule-template.csv",
+      label: "Download the SAT study schedule data",
+      fileType: "CSV",
+    },
+    {
+      href: "/downloads/sat-study-schedule-template.ics",
+      label: "Add the SAT study schedule to a calendar",
+      fileType: "Calendar file",
+    },
+  ],
+};
+
+const SAT_RESOURCE_DESTINATIONS = [
+  { to: "/sat-practice-tests", title: "SAT practice tests", description: "Take timed modules and review results." },
+  { to: "/sat-question-bank-free", title: "Free SAT question bank", description: "Drill by section, domain, skill, and difficulty." },
+  { to: "/sat-study-plan-generator", title: "SAT study-plan generator", description: "Turn a score report and test date into assignments." },
+  { to: "/desmos-sat-guide", title: "Desmos SAT guide", description: "Learn calculator workflows for Digital SAT Math." },
+  { to: "/sat-vocabulary", title: "SAT vocabulary library", description: "Study academic words and then practice Words in Context." },
+  { to: "/blog", title: "Digital SAT guides", description: "Read strategy, scoring, and format explainers." },
+  { to: "/sat-faq", title: "SAT FAQ", description: "Get direct answers about rules, dates, and scoring." },
+  { to: "/sat-skill", title: "SAT skills", description: "Open a guide and targeted practice for each tested skill." },
+  { to: "/sat-score", title: "SAT score breakdowns", description: "Compare official percentile context and valid section splits." },
+  { to: "/college", title: "College score directory", description: "Compare reported SAT ranges and admissions data." },
+  { to: "/in", title: "SAT guide for India", description: "Review India-specific dates, fees, and admissions paths." },
+  { to: "/ae", title: "SAT guide for the UAE", description: "Review UAE-specific testing and planning guidance." },
+] as const;
+
 type PracticeTarget = {
   label: string;
   title: string;
@@ -872,6 +941,30 @@ const LinkableAssetPage = () => {
           </section>
         )}
 
+        {hub.slug === "sat-resources" && (
+          <section className="mb-10">
+            <h2 className={SECTION_HEADING_CLASS}>Start with a complete tool or guide</h2>
+            <p className="mt-2 text-sm text-muted-foreground">
+              These destinations connect the downloadable library to practice, planning, scoring, and current SAT guidance.
+            </p>
+            <ul className="mt-4 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+              {SAT_RESOURCE_DESTINATIONS.map((destination) => (
+                <li key={destination.to}>
+                  <Link
+                    to={destination.to}
+                    className="block h-full rounded-lg border border-border p-4 transition hover:bg-muted"
+                  >
+                    <div className="text-sm font-semibold">{destination.title}</div>
+                    <p className="mt-2 text-sm text-muted-foreground">
+                      {destination.description}
+                    </p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <div className="grid gap-8">
           {Array.from(grouped.entries()).map(([category, items]) => (
             <section key={category}>
@@ -905,6 +998,21 @@ const LinkableAssetPage = () => {
   const productLinks = getProductLinks(page);
   const applicationSection = getApplicationSection(page);
   const generatedDetailSections = detailSectionsForCategory(page);
+  const downloads = downloadsBySlug[page.slug] ?? [];
+  const relatedResources = (page.relatedSlugs ?? [])
+    .filter((relatedSlug) => relatedSlug !== page.slug)
+    .map((relatedSlug) => {
+      const relatedAsset = linkableAssetBySlug.get(relatedSlug);
+      const relatedHub = linkableHubBySlug.get(relatedSlug);
+      return {
+        slug: relatedSlug,
+        title: relatedAsset?.title ?? relatedHub?.title ?? relatedSlug
+          .split("-")
+          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" "),
+        description: relatedAsset?.metaDescription ?? relatedHub?.metaDescription ?? "Open this related SAT resource.",
+      };
+    });
 
   return (
     <article className="mx-auto max-w-4xl px-6 py-10">
@@ -949,6 +1057,26 @@ const LinkableAssetPage = () => {
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">{page.intro}</p>
       </header>
+
+      {downloads.length > 0 && (
+        <section className="mb-10 rounded-xl border border-primary/30 bg-primary/5 p-5">
+          <h2 className="text-xl font-semibold tracking-tight">Download this resource</h2>
+          <ul className="mt-4 flex flex-wrap gap-3">
+            {downloads.map((downloadItem) => (
+              <li key={downloadItem.href}>
+                <a
+                  className="inline-flex rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-cobalt hover:text-white"
+                  download
+                  href={downloadItem.href}
+                  aria-label={`${downloadItem.label} (${downloadItem.fileType})`}
+                >
+                  {downloadItem.label} ({downloadItem.fileType})
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div className="space-y-10">
         {page.sections.map((section) => (
@@ -1070,6 +1198,30 @@ const LinkableAssetPage = () => {
           ))}
         </div>
       </section>
+
+      {relatedResources.length > 0 && (
+        <section className="mt-12">
+          <h2 className={SECTION_HEADING_CLASS}>Related SAT resources</h2>
+          <ul className="mt-4 grid gap-3 md:grid-cols-2">
+            {relatedResources.map((relatedResource) => (
+              <li key={relatedResource.slug}>
+                <Link
+                  to={`/${relatedResource.slug}`}
+                  className="block h-full rounded-lg border border-border p-4 transition hover:bg-muted"
+                >
+                  <div className="font-semibold">{relatedResource.title}</div>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {relatedResource.description}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link className="mt-4 inline-block text-sm underline" to="/sat-resources">
+            Browse the complete SAT resource library →
+          </Link>
+        </section>
+      )}
     </article>
   );
 };

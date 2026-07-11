@@ -27,12 +27,12 @@ const IdleTimerDemo = () => {
     const firstQuestion = practiceSet?.[0];
     if (!practiceSet || !firstQuestion) return;
 
-    clearModulePracticeSession(module.slug);
+    clearModulePracticeSession(module.slug, null);
     const session = createModulePracticeSession(module, {
       timed: false,
       timeLimitSeconds: null,
       allowCheckingAnswers: true,
-    });
+    }, null);
     writePracticeLaunchStorage(practiceSet, "/dev/idle-timer-demo");
 
     navigate(

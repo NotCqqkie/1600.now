@@ -31,6 +31,7 @@ interface SatToolPageScaffoldProps {
   meta: SatToolMeta;
   faqs: FaqItem[];
   children: ReactNode;
+  wide?: boolean;
 }
 
 const FaqSection = ({ faqs }: { faqs: FaqItem[] }) => (
@@ -51,11 +52,12 @@ export const SatToolPageScaffold = ({
   meta,
   faqs,
   children,
+  wide = false,
 }: SatToolPageScaffoldProps) => {
   const url = `https://1600.now/${meta.slug}`;
 
   return (
-    <div className={TOOL_PAGE_CLASS}>
+    <div className={wide ? "mx-auto max-w-[90rem] px-4 py-8 sm:px-6 lg:px-8" : TOOL_PAGE_CLASS}>
       <PageSeo
         id={`tool-${meta.slug}`}
         title={meta.metaTitle}
@@ -74,20 +76,24 @@ export const SatToolPageScaffold = ({
         ]}
       />
 
-      <nav className="mb-6 text-sm text-muted-foreground">
+      <nav className={`mb-6 text-sm text-muted-foreground ${wide ? "mx-auto max-w-3xl" : ""}`}>
         <Link className="hover:underline" to="/">
           Home
         </Link>{" "}
         › <span className="text-foreground">{meta.name}</span>
       </nav>
 
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
-        {meta.name}
-      </h1>
-      <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
+      <header className={wide ? "mx-auto max-w-3xl" : ""} data-print-hidden={wide ? true : undefined}>
+        <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">
+          {meta.name}
+        </h1>
+        <p className="mt-4 text-lg text-muted-foreground">{meta.intro}</p>
+      </header>
 
       {children}
-      <FaqSection faqs={faqs} />
+      <div className={wide ? "mx-auto max-w-3xl" : ""} data-print-hidden={wide ? true : undefined}>
+        <FaqSection faqs={faqs} />
+      </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, matchPath, useLocation, type Location } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, matchPath, useLocation, type Location } from "react-router-dom";
 import { Suspense, createElement, useEffect, useRef, useState, type ComponentProps, type ComponentType, type CSSProperties, type ReactNode } from "react";
 import { AuthProvider, useAuth } from "@/contexts/AuthContext";
 import { AuthReturnTracker } from "@/components/auth/AuthReturnTracker";
@@ -106,7 +106,6 @@ const SatToActConverter = preloadableLazy(() => import("./pages/tools/SatToActCo
 const SatPercentileCalculator = preloadableLazy(() => import("./pages/tools/SatPercentileCalculator"));
 const PsatToSatPredictor = preloadableLazy(() => import("./pages/tools/PsatToSatPredictor"));
 const SatStudyPlanGenerator = preloadableLazy(() => import("./pages/tools/SatStudyPlanGenerator"));
-const StudyPlanLab = preloadableLazy(() => import("./pages/tools/StudyPlanLab"));
 const WhatSatScoreDoINeed = preloadableLazy(() => import("./pages/tools/WhatSatScoreDoINeed"));
 const SatTestCountdown = preloadableLazy(() => import("./pages/tools/SatTestCountdown"));
 const CountryHubPage = preloadableLazy(() => import("./pages/country/CountryHubPage"));
@@ -2118,7 +2117,6 @@ const routePreloaders: RoutePreloader[] = [
   { match: exactRoute("/sat-percentile-calculator"), preload: shellPreload(SatPercentileCalculator) },
   { match: exactRoute("/psat-to-sat-predictor"), preload: shellPreload(PsatToSatPredictor) },
   { match: exactRoute("/sat-study-plan-generator"), preload: shellPreload(SatStudyPlanGenerator) },
-  { match: exactRoute("/study-plan-lab"), preload: StudyPlanLab.preload },
   { match: exactRoute("/what-sat-score-do-i-need"), preload: shellPreload(WhatSatScoreDoINeed) },
   { match: exactRoute("/sat-test-countdown"), preload: shellPreload(SatTestCountdown) },
   { match: exactRoute("/in"), preload: shellPreload(CountryHubPage) },
@@ -2267,26 +2265,14 @@ const DeferredOnboardingTour = () => {
 
   useEffect(() => {
     const enable = () => setEnabled(true);
-    let timeoutId: ReturnType<typeof setTimeout> | undefined;
-    let idleId: number | undefined;
     window.addEventListener("onboarding:replay", enable);
     window.addEventListener("onboarding:practice-set-help", enable);
     if (hasPendingTourRequest()) {
       enable();
-    } else if ("requestIdleCallback" in window) {
-      idleId = window.requestIdleCallback(enable, { timeout: 2500 });
-    } else {
-      timeoutId = setTimeout(enable, 1200);
     }
     return () => {
       window.removeEventListener("onboarding:replay", enable);
       window.removeEventListener("onboarding:practice-set-help", enable);
-      if (idleId !== undefined && "cancelIdleCallback" in window) {
-        window.cancelIdleCallback(idleId);
-      }
-      if (timeoutId !== undefined) {
-        clearTimeout(timeoutId);
-      }
     };
   }, []);
 
@@ -2360,7 +2346,7 @@ const AppRoutes = ({ location }: { location: Location }) => (
     <Route path="/sat-percentile-calculator" element={withShellSuspense(<SatPercentileCalculator />)} />
     <Route path="/psat-to-sat-predictor" element={withShellSuspense(<PsatToSatPredictor />)} />
     <Route path="/sat-study-plan-generator" element={withShellSuspense(<SatStudyPlanGenerator />)} />
-    <Route path="/study-plan-lab" element={withSuspense(<StudyPlanLab />)} />
+    <Route path="/study-plan-lab" element={<Navigate to="/sat-study-plan-generator" replace />} />
     <Route path="/what-sat-score-do-i-need" element={withShellSuspense(<WhatSatScoreDoINeed />)} />
     <Route path="/sat-test-countdown" element={withShellSuspense(<SatTestCountdown />)} />
     <Route path="/in" element={withShellSuspense(<CountryHubPage />)} />
@@ -2465,9 +2451,9 @@ const StableRoutes = () => {
       <ScrollToTop pathname={displayLocation.pathname} />
       <AuthReturnTracker />
       <EmailVerificationGuard />
-      <AnalyticsPageTracker />
       <DeferredOnboardingTour />
       {renderedRoutes}
+      <AnalyticsPageTracker pathname={displayLocation.pathname} search={displayLocation.search} />
       <LegalDisclaimer />
       <DeferredRootEffects />
     </>

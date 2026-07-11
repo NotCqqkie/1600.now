@@ -263,7 +263,7 @@ const routeMetadata: RouteMetadata[] = [
     pattern: "/sat-study-plan-generator",
     title: "SAT Study Plan Generator",
     description:
-      "Generate a week-by-week SAT study plan from your current score, target score, and test date.",
+      "Upload an SAT score report or enter your scores to generate a personalized daily study schedule with timed assignments.",
   },
   {
     pattern: "/study-plan-lab",

@@ -1,3 +1,11 @@
+import {
+  COLLEGE_BOARD_INTERNATIONAL_FEES_URL,
+  COLLEGE_BOARD_SAT_DATES_URL,
+  INTERNATIONAL_SAT_FEES,
+  OFFICIAL_SAT_DATES,
+  SAT_FACTS_VERIFIED_ON,
+} from "@/lib/seo-data/satOfficialData";
+
 interface CountrySection {
   heading: string;
   paragraphs: string[];
@@ -57,14 +65,14 @@ const countryHubs: CountryHubConfig[] = [
         heading: "Digital SAT test centers in India",
         paragraphs: [
           "Digital SAT test centers operate in every major Indian metro and most tier-2 cities. High-volume centers are in Mumbai, Delhi NCR (Gurugram, Noida), Bengaluru, Hyderabad, Chennai, Kolkata, Pune, and Ahmedabad. Smaller centers run in Chandigarh, Indore, Nagpur, Kochi, Coimbatore, Jaipur, Lucknow, and Bhubaneswar.",
-          "College Board offers the Digital SAT roughly 7 times per year in India, matching the US schedule: August, October, November, December, March, May, and June. Register at least 4–5 weeks in advance — popular centers in Delhi and Mumbai fill first.",
+          "The confirmed August 2026–June 2027 College Board schedule has eight weekend dates in India: August, September, October, November, December, March, May, and June. Register early because popular centers in Delhi and Mumbai fill first.",
         ],
       },
       {
         heading: "SAT fee in India (2026)",
         paragraphs: [
-          "The Digital SAT registration fee is approximately US $117 (~₹9,700–₹10,000) including the international fee for non-US test centers. College Board accepts credit/debit cards and net banking through the official registration portal.",
-          "There is no separate fee for choosing a test center in India. Late registration and test center change fees range $25–$35.",
+          `The current Digital SAT registration total outside the US is US $${INTERNATIONAL_SAT_FEES.total}: a $${INTERNATIONAL_SAT_FEES.registration} registration fee plus a $${INTERNATIONAL_SAT_FEES.international} international fee. Your card issuer converts the charge to rupees.`,
+          `Optional service fees and a location-specific test-center fee may apply. Verify the total at ${COLLEGE_BOARD_INTERNATIONAL_FEES_URL}; this page was checked ${SAT_FACTS_VERIFIED_ON}.`,
         ],
       },
     ],
@@ -125,8 +133,8 @@ const countryHubs: CountryHubConfig[] = [
       {
         heading: "SAT fee in the UAE (2026)",
         paragraphs: [
-          "The Digital SAT registration fee in the UAE is approximately US $117 (~AED 430) including the international fee. All major UAE-issued credit cards are accepted on the College Board portal.",
-          "Fees for test center change or late registration range US $25–$35.",
+          `The current Digital SAT registration total outside the US is US $${INTERNATIONAL_SAT_FEES.total}: $${INTERNATIONAL_SAT_FEES.registration} registration plus the $${INTERNATIONAL_SAT_FEES.international} international fee. Your card issuer converts the charge to AED.`,
+          `Optional service fees and a location-specific test-center fee may apply. Verify the total at ${COLLEGE_BOARD_INTERNATIONAL_FEES_URL}; this page was checked ${SAT_FACTS_VERIFIED_ON}.`,
         ],
       },
     ],
@@ -477,7 +485,7 @@ export const countryPages: CountryPage[] = [
       {
         question: "How much does the SAT cost in the UAE?",
         answer:
-          "The Digital SAT registration fee in the UAE is approximately US $117, which is about AED 430. All major UAE credit cards are accepted on the College Board portal.",
+          `The required College Board total is US $${INTERNATIONAL_SAT_FEES.total}: $${INTERNATIONAL_SAT_FEES.registration} registration plus the $${INTERNATIONAL_SAT_FEES.international} international fee. Your card issuer converts the charge to AED; optional or test-center fees may apply.`,
       },
       {
         question: "Are there SAT centers outside Dubai and Abu Dhabi?",
@@ -635,7 +643,7 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT exam pattern (Digital, 2026)",
         paragraphs: [
-          "Section 1 — Reading & Writing: 2 modules × 32 minutes × 27 questions = 98 questions total, 64 minutes.",
+          "Section 1 — Reading & Writing: 2 modules × 27 questions = 54 questions total, 64 minutes.",
           "Section 2 — Math: 2 modules × 35 minutes × 22 questions = 44 questions total, 70 minutes.",
           "Total: 98 questions, 2 hours 14 minutes. The test is section-adaptive — your Module 2 difficulty adjusts based on Module 1 performance.",
         ],
@@ -643,8 +651,8 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT fee for Indian students",
         paragraphs: [
-          "Registration: US $117 (~₹9,700–₹10,000) including the non-US regional fee.",
-          "Late registration: additional US $25. Test center change: additional US $25. Score report to a 4th+ university: US $14 per report (first four reports are free when sent before the test).",
+          `Registration: US $${INTERNATIONAL_SAT_FEES.total}, made up of the $${INTERNATIONAL_SAT_FEES.registration} registration fee and $${INTERNATIONAL_SAT_FEES.international} international fee. Your card issuer converts the charge to rupees.`,
+          "Current optional fees include $38 for late registration, $34 to change a test center, and $15 for each additional score report. Check College Board before paying because fees can change.",
         ],
       },
     ],
@@ -675,37 +683,21 @@ export const countryPages: CountryPage[] = [
     slug: "in/sat-dates-india-2026",
     country: "in",
     language: "en-IN",
-    metaTitle: "SAT Test Dates 2026 in India (Registration Deadlines)",
+    metaTitle: "SAT Dates in India 2026–2027: Official Deadlines",
     metaDescription:
       "All Digital SAT test dates in India for 2026 and 2027, with registration deadlines, late fees, and score release dates for Indian students.",
     headline: "SAT Test Dates in India (2026–2027)",
     intro:
-      "The Digital SAT is offered seven times per year in India on the same dates as the US administration. This page lists every upcoming test date, registration deadline, and score release window.",
+      "The current College Board cycle has eight confirmed weekend SAT dates for US and international students. This page lists every date and registration deadline from August 2026 through June 2027.",
     sections: [
       {
-        heading: "2026 SAT test dates",
+        heading: "Confirmed August 2026–June 2027 SAT dates",
         paragraphs: [
-          "India SAT test dates follow the global College Board schedule. Registration closes approximately 3 weeks before each test date.",
+          `India follows the global College Board weekend schedule. These dates were verified ${SAT_FACTS_VERIFIED_ON} at ${COLLEGE_BOARD_SAT_DATES_URL}.`,
         ],
-        bullets: [
-          "May 2, 2026 — Registration deadline ~April 11, 2026",
-          "June 6, 2026 — Registration deadline ~May 16, 2026",
-          "August 22, 2026 — Registration deadline ~August 1, 2026",
-          "October 3, 2026 — Registration deadline ~September 12, 2026",
-          "November 7, 2026 — Registration deadline ~October 17, 2026",
-          "December 5, 2026 — Registration deadline ~November 14, 2026",
-        ],
-      },
-      {
-        heading: "2027 SAT test dates (tentative)",
-        bullets: [
-          "March 13, 2027",
-          "May 1, 2027",
-          "June 5, 2027",
-        ],
-        paragraphs: [
-          "2027 dates are provisional and confirmed by College Board ~6 months in advance.",
-        ],
+        bullets: OFFICIAL_SAT_DATES.map(
+          (testDate) => `${testDate.label} — register by ${testDate.registrationDeadline}; late deadline ${testDate.lateDeadline}`,
+        ),
       },
       {
         heading: "Score release window",
@@ -726,12 +718,12 @@ export const countryPages: CountryPage[] = [
       {
         question: "When is the next SAT in India?",
         answer:
-          "The next Digital SAT in India is on May 2, 2026, with registration closing approximately April 11, 2026. Check your College Board account for exact deadlines.",
+          "The next confirmed weekend SAT is August 22, 2026. Registration closes August 7, and late registration closes August 11 at 11:59 p.m. ET.",
       },
       {
         question: "How many SAT test dates are there per year in India?",
         answer:
-          "Seven: March, May, June, August, October, November, and December. Registration is online through satsuite.collegeboard.org.",
+          "The current August 2026–June 2027 cycle has eight dates: August, September, October, November, December, March, May, and June.",
       },
       {
         question: "Can I change my SAT test date after registration?",
@@ -754,29 +746,29 @@ export const countryPages: CountryPage[] = [
       "Complete SAT fee breakdown in rupees for Indian students. Registration, late fees, score reports, rescoring, and coaching cost comparison.",
     headline: "SAT Fee in India (2026)",
     intro:
-      "The total cost of taking the Digital SAT in India, including all fees, is approximately ₹10,000–₹12,000 per sitting. This page breaks down every College Board fee and compares typical coaching costs.",
+      `The current required College Board charge for taking the Digital SAT in India is US $${INTERNATIONAL_SAT_FEES.total}, converted to rupees by your card issuer. Optional services or location-specific test-center fees can raise the total.`,
     sections: [
       {
         heading: "Core SAT registration fee",
         paragraphs: [
-          "The Digital SAT registration fee in India is US $117 (approximately ₹9,700–₹10,000 at prevailing exchange rates). This includes the $68 base fee plus the $49 non-US regional fee that applies to all test centers outside the United States.",
-          "The fee covers the test itself, scoring, and up to 4 free score reports sent to universities (if submitted before your test day).",
+          `The required total is US $${INTERNATIONAL_SAT_FEES.total}: the $${INTERNATIONAL_SAT_FEES.registration} SAT registration fee plus the $${INTERNATIONAL_SAT_FEES.international} international fee. Your bank sets the INR conversion and may add a foreign-transaction charge.`,
+          `Verified ${SAT_FACTS_VERIFIED_ON} against ${COLLEGE_BOARD_INTERNATIONAL_FEES_URL}. A listed test center may also charge a separate location-specific fee.`,
         ],
       },
       {
         heading: "Additional fees",
         paragraphs: [
-          "Late registration: $25 (~₹2,100). Late registration typically closes ~9 days before the test date.",
-          "Test center change: $25 (~₹2,100). Allowed up to the registration deadline.",
-          "Test date change: $25 (~₹2,100). Allowed up to the registration deadline.",
-          "Additional score report (beyond the first 4 free): $14 per report (~₹1,200).",
-          "Score verification / rescoring: $55 per section (~₹4,600).",
+          "Late registration: $38 through the published late deadline.",
+          "Change test center: $34. Changing the test date requires cancellation and a new registration.",
+          "Cancellation: $34 by the change deadline; late cancellation: $44.",
+          "Additional score report: $15 per report. The first four are free if ordered within College Board's stated post-test window.",
+          "Score verification: $55.",
         ],
       },
       {
         heading: "SAT fee vs coaching cost in India",
         paragraphs: [
-          "SAT fee alone: ~₹10,000 per attempt. Most students take the SAT 1–2 times, total spend ~₹10,000–₹25,000.",
+          `SAT fee alone: US $${INTERNATIONAL_SAT_FEES.total} per attempt before optional or test-center fees; INR cost depends on the card issuer's exchange rate.`,
           "Quality SAT coaching in India: ₹40,000–₹1,50,000 for a structured 3–6 month program at Jamboree, Manya, or similar centers.",
           "Free prep (Khan Academy + Bluebook + online question banks) works well for self-motivated students. Most students who score 1500+ use a mix of free resources with optional targeted coaching for weak sections.",
         ],
@@ -793,7 +785,7 @@ export const countryPages: CountryPage[] = [
       {
         question: "How much does the SAT cost in India?",
         answer:
-          "The Digital SAT registration fee in India is US $117, approximately ₹9,700–₹10,000 at prevailing exchange rates. This includes the non-US regional fee.",
+          `US $${INTERNATIONAL_SAT_FEES.total}: $${INTERNATIONAL_SAT_FEES.registration} registration plus the $${INTERNATIONAL_SAT_FEES.international} international fee, before optional or test-center charges.`,
       },
       {
         question: "Can I pay the SAT fee in Indian rupees?",
@@ -816,17 +808,29 @@ export const countryPages: CountryPage[] = [
     slug: "in/sat-vs-cuet",
     country: "in",
     language: "en-IN",
-    metaTitle: "SAT vs CUET: Which Exam for Indian Undergrad Admissions? (2026)",
+    metaTitle: "SAT vs CUET 2026: Differences, Cost & Which to Take",
     metaDescription:
-      "Full comparison of the Digital SAT vs CUET for Indian undergraduate admissions. Syllabus, difficulty, university acceptance, and which to take.",
+      "SAT vs CUET for 2026: compare destinations, format, subject choice, current fee structure, preparation, and when an Indian student should take one or both.",
     headline: "SAT vs CUET: Which Exam Should You Take?",
     intro:
-      "CUET (Common University Entrance Test) is India's standardized entrance exam for most central and many state universities. The SAT is the international equivalent. The right choice depends on where you want to study: CUET for most Indian central universities, SAT for US universities and Indian private liberal-arts universities.",
+      "Choose by destination, not by which exam sounds easier. CUET is the route for participating Indian university programs; the SAT is used for US admissions and by some institutions elsewhere. Take both only when your college list genuinely spans both systems.",
     sections: [
+      {
+        heading: "SAT vs CUET: the quick decision",
+        paragraphs: [
+          "Start with the exact undergraduate programs you plan to apply to, then check each program's current exam and subject requirements. Neither test substitutes for the other across every institution.",
+        ],
+        bullets: [
+          "Choose CUET when your target program appears in NTA's current participating-university and subject-requirement lists.",
+          "Choose the SAT when your target US or international colleges require it or when submitting it would add useful academic evidence.",
+          "Take both when your final list includes programs in both admissions systems and the preparation schedule is realistic.",
+          "Use JEE or another required entrance exam when your target engineering program does not admit through CUET or SAT.",
+        ],
+      },
       {
         heading: "What each test covers",
         paragraphs: [
-          "CUET (UG): three sections — Language (13 language options), Domain Subjects (up to 6 subjects aligned to 12th-standard syllabus), and General Test. Questions are CBSE-syllabus-aligned. 2–3 hour exam depending on section selection.",
+          "CUET (UG) uses language, domain-subject, and general-aptitude tests. The combination you should take depends on the target university and program, so use the 2026 NTA Information Bulletin and each university's eligibility page rather than a generic subject count.",
           "Digital SAT: two sections — Reading & Writing and Math. Tests reasoning and problem-solving rather than curriculum recall. 2 hours 14 minutes total. Score out of 1600.",
           "CUET is curriculum-aligned; SAT is skills-based.",
         ],
@@ -834,25 +838,25 @@ export const countryPages: CountryPage[] = [
       {
         heading: "University acceptance",
         paragraphs: [
-          "CUET is accepted by: all 45+ central universities (DU, JNU, BHU, Jamia, Hyderabad Central University, etc.), ~40 state universities, and a growing list of deemed and private universities.",
-          "SAT is accepted by: all US universities, all Canadian universities, NUS and NTU in Singapore, several UK programs, and 15+ Indian private universities (Ashoka, Plaksha, Krea, OP Jindal, Shiv Nadar, Manipal, Flame, Azim Premji, etc.).",
-          "CUET does NOT unlock US admissions. SAT does NOT unlock DU, JNU, or most central universities.",
+          "NTA publishes the current CUET participating-university list and program requirements at cuet.nta.nic.in. Participation and required subject combinations can change by admission cycle.",
+          "US institutions set their own SAT policies, and Indian private universities that accept SAT scores can change their rules. Verify every target institution directly before registering.",
+          "CUET is not a US admissions test, and the SAT does not replace CUET for programs that explicitly require CUET scores.",
         ],
       },
       {
         heading: "Difficulty and prep time",
         paragraphs: [
-          "CUET: requires 3–6 months of curriculum-aligned prep. If you're already preparing for boards, CUET prep is a manageable add-on. Difficulty is similar to boards.",
-          "SAT: requires 3–6 months of targeted prep. The math ceiling is lower than board math, but the Reading & Writing section requires specific skills (rhetorical synthesis, transitions, grammar conventions) not taught in Indian boards.",
+          "CUET prep depends on the language, domain, and general-aptitude papers your programs require. Board preparation may overlap with domain subjects, but the exact overlap varies.",
+          "SAT prep focuses on Reading and Writing plus Math. Diagnostic results, not a generic month estimate, should determine how much preparation you need.",
           "Taking both: doable if planned. Most dual-track students take SAT in May/June of Class 11 and CUET in May of Class 12, 3–4 weeks after boards.",
         ],
       },
       {
         heading: "Cost comparison",
         paragraphs: [
-          "CUET: ₹800–₹1,000 registration fee (general category), ₹400 (SC/ST/OBC-NCL).",
-          "SAT: ~₹10,000 per attempt.",
-          "CUET is roughly 1/10th the cost of the SAT. For students targeting only Indian universities, CUET is the obvious choice.",
+          "CUET fees depend on category and the number of subjects selected. Use the 2026 NTA Information Bulletin at cuet.nta.nic.in for the amount that applies to your application.",
+          `SAT: US $${INTERNATIONAL_SAT_FEES.total} before optional services, location-specific test-center charges, or card conversion fees.`,
+          "For a fair comparison, calculate the exact CUET subject bundle and your bank's INR conversion for the SAT rather than relying on an old rupee estimate.",
         ],
       },
       {
@@ -869,7 +873,7 @@ export const countryPages: CountryPage[] = [
       {
         question: "Is the SAT harder than CUET?",
         answer:
-          "The SAT and CUET test different things. CUET math is harder than SAT math (it's aligned to Class 12 boards). CUET language is similar difficulty to SAT Reading & Writing but tests different skills — CUET focuses on comprehension and grammar, SAT tests rhetorical analysis and evidence-based reasoning.",
+          "There is no universal answer because CUET difficulty depends on the subject papers your program requires. Compare the 2026 CUET syllabus for those papers with a full official SAT practice test, then use your diagnostic results.",
       },
       {
         question: "Can I use my SAT score for Delhi University admission?",
@@ -1066,15 +1070,15 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT in Dubai — dates and registration",
         paragraphs: [
-          "Dubai follows the global Digital SAT schedule: seven test dates per year (March, May, June, August, October, November, December).",
+          "Dubai follows the current global weekend schedule, which has eight dates from August 2026 through June 2027: August, September, October, November, December, March, May, and June.",
           "Register at satsuite.collegeboard.org at least 5 weeks in advance. October and March dates fill fastest.",
         ],
       },
       {
         heading: "SAT fee in Dubai",
         paragraphs: [
-          "Digital SAT registration: US $117 (approximately AED 430). Payment is via credit or debit card on the College Board portal.",
-          "Late registration: additional US $25 (~AED 90). Test center/date change: US $25.",
+          `Digital SAT registration: US $${INTERNATIONAL_SAT_FEES.total} before optional or test-center fees. Your card issuer converts the charge to AED.`,
+          "Current optional fees include $38 for late registration and $34 to change a test center. Changing dates requires cancellation and a new registration.",
         ],
       },
       {
@@ -1095,7 +1099,7 @@ export const countryPages: CountryPage[] = [
       {
         question: "How much does the SAT cost in Dubai?",
         answer:
-          "The Digital SAT registration fee in Dubai is US $117, approximately AED 430 including the non-US regional fee.",
+          `US $${INTERNATIONAL_SAT_FEES.total} before optional or location-specific test-center fees. Your card issuer determines the AED conversion.`,
       },
       {
         question: "What SAT score do Dubai students need for Ivy League?",
@@ -1137,7 +1141,7 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT dates in Abu Dhabi",
         paragraphs: [
-          "Abu Dhabi follows the global Digital SAT schedule: seven test dates per year (March, May, June, August, October, November, December). Registration deadlines are ~3 weeks before each test.",
+          "Abu Dhabi follows the current global weekend schedule: August, September, October, November, December, March, May, and June. Use College Board's published deadline for each date.",
         ],
       },
       {
@@ -1190,7 +1194,7 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT fee in Saudi Arabia",
         paragraphs: [
-          "Digital SAT registration: US $117 (approximately SAR 440). Payment via credit/debit card.",
+          `Digital SAT registration: US $${INTERNATIONAL_SAT_FEES.total} before optional or location-specific test-center fees. Your card issuer determines the SAR conversion.`,
           "Saudi-issued Visa and Mastercard credit cards are accepted. Local bank cards may need international transactions enabled.",
         ],
       },
@@ -1247,7 +1251,7 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT fee in Qatar",
         paragraphs: [
-          "Digital SAT registration: US $117 (approximately QAR 425). Payment via credit/debit card on the College Board portal.",
+          `Digital SAT registration: US $${INTERNATIONAL_SAT_FEES.total} before optional or location-specific test-center fees. Your card issuer determines the QAR conversion.`,
         ],
       },
       {
@@ -1309,7 +1313,7 @@ export const countryPages: CountryPage[] = [
       {
         heading: "SAT fee in Kuwait",
         paragraphs: [
-          "Digital SAT registration: US $117 (approximately KWD 36). Payment via credit/debit card on the College Board portal.",
+          `Digital SAT registration: US $${INTERNATIONAL_SAT_FEES.total} before optional or location-specific test-center fees. Your card issuer determines the KWD conversion.`,
         ],
       },
       {

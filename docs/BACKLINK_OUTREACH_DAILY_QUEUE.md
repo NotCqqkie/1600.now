@@ -107,8 +107,9 @@ Source draft file: `docs/BACKLINK_OUTREACH_SEND_DRAFTS.md`
 15. South Lake High School - `dominic.reid@solake.org`
     - Draft: `### South Lake High School`
     - Note: do not CC `christine.kingsley@solake.org` on first send.
-    - Status: bounce/undeliverable 2026-07-08
+    - Status: bounce/undeliverable 2026-07-09
     - Bounce: `dominic.reid@solake.org` rejected with 550 5.4.1 "Recipient address rejected: Access denied" from `solake-org.mail.protection.outlook.com`.
+    - Alternate attempt: `christine.kingsley@solake.org` sent after the primary bounce and rejected 2026-07-09 with 550 5.4.1 "Recipient address rejected: Access denied" from Outlook protection.
 
 16. Stoney Creek High School - `nallen@rochester.k12.mi.us`
     - Draft: `### Stoney Creek High School`
@@ -123,34 +124,36 @@ Source draft file: `docs/BACKLINK_OUTREACH_SEND_DRAFTS.md`
 18. North Allegheny Senior High School - `jtreser@northallegheny.org`
     - Draft: `### North Allegheny Senior High School`
     - Status: sent 2026-07-08
+    - Reply: automatic summer-break reply received 2026-07-08; no action needed.
 
 19. Hopa Mountain - `info@hopamountain.org`
     - Draft: `### Hopa Mountain`
-    - Status: pending
+    - Status: sent 2026-07-09
 
 20. EnACT Your Future - `info@enactyourfuture.com`
     - Draft: `### EnACT Your Future`
-    - Status: pending
+    - Status: sent 2026-07-09
 
 ## Day 3: remaining direct emails, then forms/listings
 
 21. HSLDA Online Academy - `academy@hslda.org`
     - Draft: `### HSLDA Online Academy`
-    - Status: pending
+    - Status: sent 2026-07-09
 
 22. AMIDEAST - `dsaleh@amideast.org`
     - Draft: `### AMIDEAST`
     - Note: do not CC `inquiries@amideast.org` or `beirut@educationusa.org` on first send.
-    - Status: pending
+    - Status: bounce/undeliverable 2026-07-09
+    - Bounce: `dsaleh@amideast.org` rejected with 550 5.4.1 "Recipient address rejected: Access denied" from `amideast-org.mail.protection.outlook.com`.
 
 23. ISTE EdTech Index - `ltd-info@iste.org`
     - Draft: `### ISTE EdTech Index`
     - Note: only send if the product listing flow needs a support/request email.
-    - Status: pending
+    - Status: pending listing flow; not eligible for direct-email send until listing/form outreach is approved or blocked.
 
 24. EdTech Impact - `hello@edtechimpact.com`
     - Draft: `### EdTech Impact`
     - Note: prefer self-service onboarding first; email only if blocked.
-    - Status: pending
+    - Status: pending listing flow; not eligible for direct-email send until listing/form outreach is approved or blocked.
 
 After these, move to contact forms and self-serve submissions from `docs/BACKLINK_OUTREACH_SEND_DRAFTS.md`, starting with TeachersFirst, Freedom Homeschooling, How To Homeschool For FREE, MERLOT, OER Commons, ISTE, EdTech Impact, Curlie, Product Hunt, and AlternativeTo.

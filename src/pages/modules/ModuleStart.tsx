@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
 import { Switch } from "@/components/ui/switch";
+import { useAuth } from "@/contexts/AuthContext";
 import { getPracticeModule } from "@/data/modulePracticeBank";
+import { trackPracticeStart } from "@/lib/analytics";
 import {
   clearModulePracticeSession,
   getModulePracticeDefaultTimeMinutes,
@@ -50,12 +52,14 @@ const buildModulePracticeSettings = (
 const ModuleStart = () => {
   const { moduleId } = useParams<{ moduleId: string }>();
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const ownerUid = user?.uid ?? null;
   const module = useMemo(
     () => (moduleId ? getPracticeModule(moduleId) : null),
     [moduleId],
   );
   const [, setSessionRefreshKey] = useState(0);
-  const savedSession = module ? getModulePracticeSession(module.slug) : null;
+  const savedSession = module ? getModulePracticeSession(module.slug, ownerUid) : null;
   const defaultMinutes = module
     ? getModulePracticeDefaultTimeMinutes(module.subject)
     : FALLBACK_DEFAULT_MINUTES;
@@ -101,13 +105,22 @@ const ModuleStart = () => {
     ) {
       return;
     }
-    launchModulePractice({
+    const launched = launchModulePractice({
       module,
       navigate,
+      ownerUid,
       resumeExisting,
       savedSession,
       settings,
+      ...(!resumeExisting && hasActiveSavedSession ? { restartConfirmed: true } : {}),
     });
+    if (launched && !resumeExisting) {
+      trackPracticeStart({
+        practiceType: "module",
+        subject: module.subject === "math" ? "math" : "reading_writing",
+        entryPoint: "modules",
+      });
+    }
   };
 
   return (
@@ -161,7 +174,8 @@ const ModuleStart = () => {
               <Button
                 variant="ghost"
                 onClick={() => {
-                  clearModulePracticeSession(module.slug);
+                  if (!window.confirm(START_FRESH_CONFIRM_MESSAGE)) return;
+                  clearModulePracticeSession(module.slug, ownerUid);
                   setSessionRefreshKey((key) => key + 1);
                 }}
               >
@@ -183,7 +197,7 @@ const ModuleStart = () => {
               <div>
                 <div className="text-base font-semibold">Timed module</div>
               </div>
-              <Switch checked={timed} onCheckedChange={setTimed} />
+              <Switch aria-label="Timed module" checked={timed} onCheckedChange={setTimed} />
             </div>
 
             {timed && (
@@ -198,6 +212,7 @@ const ModuleStart = () => {
                   </div>
                 </div>
                 <Slider
+                  aria-label="Module time limit in minutes"
                   min={MIN_TIME_MINUTES}
                   max={maxMinutes}
                   step={1}
@@ -222,6 +237,7 @@ const ModuleStart = () => {
                 </p>
               </div>
               <Switch
+                aria-label="Enable checking answers"
                 checked={allowCheckingAnswers}
                 onCheckedChange={setAllowCheckingAnswers}
               />

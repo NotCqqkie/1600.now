@@ -14,9 +14,17 @@ const scoreGoalPages: ScoreGoalPage[] = [
     slug: `how-to-get-${targetScore}-sat`,
     target: targetScore,
     metaTitle: `How to Get a ${targetScore} on the SAT (2026 Guide)`,
-    metaDescription: `A ${targetScore} Digital SAT score is realistic with a focused plan. Section split, percentile, question-miss budget, and the study plan that gets you there.`,
+    metaDescription: targetScore === 1350
+      ? "How to reach a 1350 SAT with a valid 670/680 section target, a medium-question accuracy plan, timed modules, and focused review."
+      : targetScore === 1550
+        ? "How to reach a 1550 SAT with a valid 770/780 section target, hard-module practice, error analysis, and a near-ceiling retake plan."
+        : `Plan for a ${targetScore} Digital SAT score with valid section targets, official percentile context, timed modules, and a focused study plan.`,
     headline: `How to Get a ${targetScore} on the SAT`,
-    intro: `A ${targetScore} is a specific, reachable target on the Digital SAT — but only if your prep matches the score. This guide breaks down the exact section split, the number of questions you can afford to miss, and the week-by-week plan that reliably produces a ${targetScore}.`,
+    intro: targetScore === 1350
+      ? "A 1350 target is mainly an accuracy problem: protect easy and medium questions, reach the harder second module consistently, and use your section split to decide where the next 20–40 points should come from."
+      : targetScore === 1550
+        ? "A 1550 target is a near-ceiling consistency problem. The plan is to preserve every routine point, diagnose the few hard-question misses that remain, and make your timed results repeatable across full tests."
+        : `A ${targetScore} is a specific Digital SAT target. This guide uses valid 10-point section splits, official percentile context, and a week-by-week practice plan without pretending there is one fixed missed-question allowance.`,
   })),
   {
     slug: "perfect-sat-score-1600",
@@ -41,12 +49,12 @@ const scoreGoalPages: ScoreGoalPage[] = [
   {
     slug: "average-sat-score",
     target: "average",
-    metaTitle: "What Is the Average SAT Score? (2026)",
+    metaTitle: "Average SAT Score: 1029 for the Class of 2025",
     metaDescription:
-      "The current average Digital SAT score, section breakdown, and how to use the average to set a realistic target for college admissions.",
+      "College Board reports a 1029 mean SAT score for the class of 2025: 521 Reading and Writing and 508 Math. See how to use that benchmark.",
     headline: "What Is the Average SAT Score?",
     intro:
-      "The current national average Digital SAT score is approximately 1050, split roughly evenly between the Reading and Writing and Math sections. The average is useful as a benchmark, but most competitive schools expect scores well above it.",
+      "College Board reports a mean SAT score of 1029 for the class of 2025, split into 521 Reading and Writing and 508 Math. Use that dated national benchmark for context, then use each college's current range for admissions planning.",
   },
 ];
 

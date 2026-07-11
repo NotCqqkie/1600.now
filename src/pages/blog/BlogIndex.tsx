@@ -5,7 +5,7 @@ import {
   buildBreadcrumbJsonLd,
   buildItemListJsonLd,
 } from "@/components/seo/PageSeo";
-import { blogPosts } from "@/lib/seo-data/blogData";
+import { blogPosts, getBlogReadingMinutes } from "@/lib/seo-data/blogData";
 
 const title = "1600.now Blog: Digital SAT Prep Guides & Strategy";
 const description =
@@ -54,6 +54,11 @@ const BlogIndex = () => {
           Practical guides on the Digital SAT — how it's scored, how adaptive
           modules work, what formulas to memorize, and how to reach a 1600.
         </p>
+        <p className="mt-3 text-sm">
+          <Link className="underline" to="/sat-resources">
+            Browse worksheets, score guides, and study plans →
+          </Link>
+        </p>
       </header>
 
       <ul className="space-y-6">
@@ -64,7 +69,7 @@ const BlogIndex = () => {
               className={BLOG_LIST_CARD_CLASS}
             >
               <div className="text-xs uppercase tracking-wider text-muted-foreground">
-                {post.tag} · {post.readingMinutes} min read
+                {post.tag} · {getBlogReadingMinutes(post)} min read
               </div>
               <h2 className="mt-1 text-xl font-semibold">{post.title}</h2>
               <p className="mt-2 text-sm text-muted-foreground">

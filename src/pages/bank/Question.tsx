@@ -64,7 +64,13 @@ import {
 } from "@/data/questionBank";
 import { resolvePastCanonicalSourceId } from "@/data/pastIdAliases";
 import type { LoadedPracticeModule, LoadedPracticeSet } from "@/data/modulePracticeBank";
-import { PRACTICE_RUN_STORAGE_KEY } from "@/lib/practice/practiceRunStorage";
+import { trackAnswerSubmit } from "@/lib/analytics";
+import {
+  PRACTICE_EXIT_TO_STORAGE_KEY,
+  PRACTICE_RUN_STORAGE_KEY,
+  PRACTICE_SET_STORAGE_KEY,
+  PRACTICE_SET_TOTAL_STORAGE_KEY,
+} from "@/lib/practice/practiceRunStorage";
 import { formatPracticeClock, formatPracticeClockPlaceholder } from "@/lib/practice/practiceTime";
 import {
   getStoredQuestionViewMode,
@@ -91,6 +97,7 @@ import {
   getModulePracticeNoteStorageKey,
   getModulePracticeQuestionState,
   getModulePracticeSession,
+  resumeModulePracticeSession,
   saveModulePracticeQuestionState,
   saveModulePracticeResult,
   saveModulePracticeSession,
@@ -121,6 +128,16 @@ import {
   getQuestionUiStates,
   saveQuestionUiState,
 } from "@/lib/practice/questionUiState";
+import {
+  advanceStudyPlanAssignmentTimer,
+  completeStudyPlanModuleAssignment,
+  completeStudyPlanPracticeSetAssignment,
+  getMatchingStudyPlanAssignmentSession,
+  pauseStudyPlanAssignment,
+  recordStudyPlanAssignmentQuestionResult,
+  resumeStudyPlanAssignment,
+  type StudyPlanAssignmentSession,
+} from "@/lib/studyPlan/assignmentContext";
 import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 import {
   canScrollElementInDirection,
@@ -600,6 +617,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     routerNavigate(to, options);
   }, [previewEmbed, routerNavigate]);
   const location = useLocation();
+  const { user } = useAuth();
+  const uid = user?.id ?? null;
   const [searchParams] = useSearchParams();
   const isNativeEmbed = Boolean(previewEmbed);
   const [questionRootElement, setQuestionRootElement] = useState<HTMLDivElement | null>(null);
@@ -785,11 +804,40 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     [modulePracticeBank, practiceTestSetId],
   );
   const [modulePracticeSessionMeta, setModulePracticeSessionMeta] = useState<ModulePracticeSessionMeta | null>(() =>
-    modulePracticeSlug ? getModulePracticeSession(modulePracticeSlug) : null,
+    modulePracticeSlug ? getModulePracticeSession(modulePracticeSlug, uid) : null,
   );
   const [practiceTestSessionMeta, setPracticeTestSessionMeta] = useState<PracticeTestSessionMeta | null>(() =>
     practiceTestSetId ? getPracticeTestSession(practiceTestSetId) : null,
   );
+  const [studyPlanAssignmentSession, setStudyPlanAssignmentSession] = useState<StudyPlanAssignmentSession | null>(() =>
+    getMatchingStudyPlanAssignmentSession({
+      ownerUid: uid,
+      practiceRunId,
+      moduleSlug: modulePracticeSlug,
+      moduleSessionId: modulePracticeSessionId,
+      practiceSetId: practiceTestSetId,
+      practiceTestSessionId,
+    }),
+  );
+
+  useEffect(() => {
+    setStudyPlanAssignmentSession(getMatchingStudyPlanAssignmentSession({
+      ownerUid: uid,
+      practiceRunId,
+      moduleSlug: modulePracticeSlug,
+      moduleSessionId: modulePracticeSessionId,
+      practiceSetId: practiceTestSetId,
+      practiceTestSessionId,
+    }));
+  }, [
+    location.key,
+    modulePracticeSessionId,
+    modulePracticeSlug,
+    practiceRunId,
+    practiceTestSessionId,
+    practiceTestSetId,
+    uid,
+  ]);
 
   const idParam = previewEmbed?.id ?? (id || "1");
   const hasNumericIdParam = /^\d+$/.test(idParam);
@@ -1189,6 +1237,15 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     subject,
   ]);
   const effectivePracticeMode = !is100Hard && isPracticeMode && practiceSet.length > 0 && currentPracticeIndex >= 0;
+  const isStudyPlanPracticeSet = Boolean(
+    effectivePracticeMode &&
+      studyPlanAssignmentSession?.context.source.kind === "practice-set" &&
+      studyPlanAssignmentSession.context.source.practiceRunId === practiceRunId,
+  );
+  const isStudyPlanCountdown = Boolean(
+    isStudyPlanPracticeSet &&
+      studyPlanAssignmentSession?.context.timingMode.kind === "countdown",
+  );
   const activeModulePracticeSessionId = modulePracticeSessionMeta?.sessionId ?? null;
   const modulePracticeSessionMatchesRoute =
     !modulePracticeSessionId || modulePracticeSessionId === activeModulePracticeSessionId;
@@ -1212,6 +1269,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       practiceTestStateSessionId,
   );
   const isAssessmentMode = isModulePracticeMode || isPracticeTestMode;
+  const isStudyPlanModuleAssignment = Boolean(
+    isModulePracticeMode &&
+      studyPlanAssignmentSession?.context.source.kind === "module" &&
+      studyPlanAssignmentSession.context.source.moduleSlug === modulePracticeSlug &&
+      studyPlanAssignmentSession.context.source.sessionId === modulePracticeStateSessionId,
+  );
+  const isStudyPlanTimedModule = Boolean(
+    isStudyPlanModuleAssignment && modulePracticeSessionMeta?.settings.timed,
+  );
+  const isStudyPlanModuleExpired = Boolean(
+    isStudyPlanTimedModule && modulePracticeSessionMeta?.remainingSeconds === 0,
+  );
+  const isStudyPlanModulePaused = Boolean(
+    isStudyPlanModuleAssignment && modulePracticeSessionMeta?.status === "paused",
+  );
   useEffect(() => {
     if (
       !canonicalBankQuestionPath ||
@@ -1326,8 +1398,6 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? currentPracticeIndex - practiceTestActiveModule.startIndex + 1
       : 0;
 
-  const { user } = useAuth();
-  const uid = user?.id ?? null;
   const { progress, addAttempt, toggleReview } = useUserProgress();
 
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
@@ -1415,10 +1485,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const isTimerPausedRef = useRef(false);
   const modulePracticeSessionMetaRef = useRef<ModulePracticeSessionMeta | null>(modulePracticeSessionMeta);
   const practiceTestSessionMetaRef = useRef<PracticeTestSessionMeta | null>(practiceTestSessionMeta);
+  const practiceTestActiveModuleRef = useRef(practiceTestActiveModule);
+  const studyPlanAssignmentSessionRef = useRef<StudyPlanAssignmentSession | null>(studyPlanAssignmentSession);
   const hasTimerExpiredRef = useRef(false);
   const usesCountdownTimer = Boolean(
     (isPracticeTestMode && practiceTestIsTimed) ||
-      (isModulePracticeMode && modulePracticeSessionMeta?.settings.timed),
+      (isModulePracticeMode && modulePracticeSessionMeta?.settings.timed) ||
+      isStudyPlanCountdown,
   );
   const idleTimerMsParam = searchParams.get("idleTimerMs");
   const idleTimerDemoParam = searchParams.get("idleTimerDemo");
@@ -1444,8 +1517,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   }, [modulePracticeSessionMeta]);
 
   useEffect(() => {
+    practiceTestActiveModuleRef.current = practiceTestActiveModule;
+  }, [practiceTestActiveModule]);
+
+  useEffect(() => {
     practiceTestSessionMetaRef.current = practiceTestSessionMeta;
   }, [practiceTestSessionMeta]);
+
+  useEffect(() => {
+    studyPlanAssignmentSessionRef.current = studyPlanAssignmentSession;
+  }, [studyPlanAssignmentSession]);
 
   useEffect(() => {
     isIdleTimerPausedRef.current = isIdleTimerPaused;
@@ -1460,8 +1541,32 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       setModulePracticeSessionMeta(null);
       return;
     }
-    setModulePracticeSessionMeta(getModulePracticeSession(modulePracticeSlug));
-  }, [location.key, modulePracticeSlug]);
+    setModulePracticeSessionMeta(getModulePracticeSession(modulePracticeSlug, uid));
+  }, [location.key, modulePracticeSlug, uid]);
+
+  useEffect(() => {
+    if (!isStudyPlanModulePaused) return;
+    const currentSession = modulePracticeSessionMetaRef.current;
+    if (!currentSession || currentSession.status !== "paused") return;
+
+    const resumedAt = Date.now();
+    const resumedSession = resumeModulePracticeSession(currentSession, resumedAt);
+    modulePracticeSessionMetaRef.current = resumedSession;
+    timerLastSyncedAtRef.current = resumedAt;
+    setModulePracticeSessionMeta(resumedSession);
+    saveModulePracticeSession(resumedSession);
+
+    const resumedAssignment = resumeStudyPlanAssignment(uid);
+    if (resumedAssignment?.context.assignmentId === studyPlanAssignmentSession?.context.assignmentId) {
+      studyPlanAssignmentSessionRef.current = resumedAssignment;
+      setStudyPlanAssignmentSession(resumedAssignment);
+    }
+  }, [
+    isStudyPlanModulePaused,
+    modulePracticeSessionMeta?.sessionId,
+    studyPlanAssignmentSession?.context.assignmentId,
+    uid,
+  ]);
 
   useEffect(() => {
     if (!practiceTestSetId) {
@@ -1529,8 +1634,33 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       return next;
     }
 
+    if (isStudyPlanPracticeSet) {
+      const previous = studyPlanAssignmentSessionRef.current;
+      if (!previous || previous.status !== "active") return previous;
+      if (previous.remainingSeconds === 0) {
+        if (updateState && !hasTimerExpiredRef.current) {
+          hasTimerExpiredRef.current = true;
+          setIsTimerExpiredOpen(true);
+        }
+        return previous;
+      }
+
+      const next = advanceStudyPlanAssignmentTimer(elapsedMs, uid);
+      if (!next || next.context.assignmentId !== previous.context.assignmentId) return previous;
+      studyPlanAssignmentSessionRef.current = next;
+      if (updateState) {
+        setStudyPlanAssignmentSession(next);
+        setElapsedSeconds(next.elapsedSeconds);
+      }
+      if (updateState && next.remainingSeconds === 0 && previous.remainingSeconds !== 0 && !hasTimerExpiredRef.current) {
+        hasTimerExpiredRef.current = true;
+        setIsTimerExpiredOpen(true);
+      }
+      return next;
+    }
+
     return null;
-  }, [isModulePracticeMode, isPracticeTestMode]);
+  }, [isModulePracticeMode, isPracticeTestMode, isStudyPlanPracticeSet, uid]);
 
   const currentProgress = currentQuestionId ? (progress[currentQuestionId] || { isMarkedForReview: false, attempts: [] }) : { isMarkedForReview: false, attempts: [] };
   const localStateKey = currentQuestion
@@ -1775,14 +1905,32 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setIsIdleTimerPromptOpen(false);
     setIsTimerExpiredOpen(false);
 
-    if (isPracticeTestMode && practiceTestActiveModule) {
-      setElapsedSeconds(practiceTestActiveModule.elapsedSeconds);
+    const currentPracticeTestActiveModule = practiceTestActiveModuleRef.current;
+    if (isPracticeTestMode && currentPracticeTestActiveModule) {
+      setElapsedSeconds(currentPracticeTestActiveModule.elapsedSeconds);
       setIsTimerPaused(false);
       return;
     }
 
-    if (isModulePracticeMode && modulePracticeSessionMeta) {
-      setElapsedSeconds(modulePracticeSessionMeta.elapsedSeconds);
+    const currentModulePracticeSession = modulePracticeSessionMetaRef.current;
+    if (isModulePracticeMode && currentModulePracticeSession) {
+      if (isStudyPlanTimedModule && currentModulePracticeSession.remainingSeconds === 0) {
+        hasTimerExpiredRef.current = true;
+        setIsTimerExpiredOpen(true);
+      }
+      setElapsedSeconds(currentModulePracticeSession.elapsedSeconds);
+      setIsTimerPaused(false);
+      return;
+    }
+
+    const currentStudyPlanAssignment = studyPlanAssignmentSessionRef.current;
+    if (isStudyPlanPracticeSet && currentStudyPlanAssignment) {
+      const resumedAssignment = resumeStudyPlanAssignment(uid);
+      if (resumedAssignment?.context.assignmentId === currentStudyPlanAssignment.context.assignmentId) {
+        studyPlanAssignmentSessionRef.current = resumedAssignment;
+        setStudyPlanAssignmentSession(resumedAssignment);
+        setElapsedSeconds(resumedAssignment.elapsedSeconds);
+      }
       setIsTimerPaused(false);
       return;
     }
@@ -1794,9 +1942,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     currentQuestionId,
     isModulePracticeMode,
     isPracticeTestMode,
+    isStudyPlanTimedModule,
+    isStudyPlanPracticeSet,
     modulePracticeSessionMeta?.sessionId,
     practiceTestActiveModule?.moduleSlug,
     practiceTestSessionMeta?.sessionId,
+    studyPlanAssignmentSession?.context.assignmentId,
+    uid,
   ]);
 
   useEffect(() => {
@@ -1833,6 +1985,19 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       };
     }
 
+    if (isStudyPlanPracticeSet && studyPlanAssignmentSessionRef.current) {
+      timerLastSyncedAtRef.current = Date.now();
+      const timerId = window.setInterval(() => {
+        if (idleHiddenAtRef.current !== null) return;
+        syncAssessmentTimer();
+      }, 1000);
+
+      return () => {
+        syncAssessmentTimer(Date.now(), false);
+        window.clearInterval(timerId);
+      };
+    }
+
     const timerId = window.setInterval(() => {
       setElapsedSeconds(Math.max(0, Math.round((Date.now() - startTimeRef.current) / 1000)));
     }, 1000);
@@ -1843,10 +2008,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     isTimerPaused,
     isModulePracticeMode,
     isPracticeTestMode,
+    isStudyPlanPracticeSet,
     modulePracticeSessionMeta,
     practiceTestActiveModule,
     practiceTestSessionMeta,
     modulePracticeSessionMeta?.sessionId,
+    studyPlanAssignmentSession?.context.assignmentId,
     syncAssessmentTimer,
   ]);
 
@@ -2574,6 +2741,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     : effectivePracticeMode
       ? currentPracticeIndex < totalQuestions - 1
       : currentOrderedQuestionIndex >= 0 && currentOrderedQuestionIndex < totalQuestions - 1;
+  const canFinishStudyPlanAssignment = isStudyPlanPracticeSet && !canGoNext;
   const isAtPreviewQuestionLimit = Boolean(
     previewQuestionLimit !== null &&
       currentOrderedQuestionIndex >= previewQuestionLimit - 1,
@@ -2793,6 +2961,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const navigateToPracticeIndex = useCallback((idx: number) => {
     if (!effectivePracticeMode || idx < 0 || idx >= practiceSet.length) return;
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     flushModulePracticeQuestionTime();
     const target = practiceSet[idx];
     const base = '/bank';
@@ -2841,6 +3013,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     flushModulePracticeQuestionTime,
     idleTimerDemoParam,
     idleTimerMsParam,
+    isStudyPlanModuleExpired,
     modulePracticeSlug,
     modulePracticeStateSessionId,
     navigate,
@@ -3021,22 +3194,42 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const handleModulePracticeReview = () => {
     if (!isModulePracticeMode || !modulePracticeSessionMeta || !modulePracticeModule) return;
     flushModulePracticeQuestionTime();
+    const currentSession = modulePracticeSessionMetaRef.current ?? modulePracticeSessionMeta;
     if (modulePracticeAllowsChecking) {
       const result = buildModulePracticeResult(modulePracticeModule, {
-        ...modulePracticeSessionMeta,
+        ...currentSession,
         status: "submitted",
       });
       clearCurrentDesmosUiState();
       saveModulePracticeResult(result, uid);
+      completeStudyPlanModuleAssignment(result, uid);
       sessionStorage.removeItem("practiceSet");
       sessionStorage.removeItem("practiceExitTo");
-      clearModulePracticeSession(modulePracticeModule.slug);
+      clearModulePracticeSession(modulePracticeModule.slug, uid);
       navigate(`/modules/${modulePracticeModule.slug}/results?session=${result.sessionId}`);
       return;
     }
 
-    navigate(`/modules/${modulePracticeModule.slug}/review?session=${modulePracticeSessionMeta.sessionId}`);
+    navigate(`/modules/${modulePracticeModule.slug}/review?session=${currentSession.sessionId}`);
   };
+
+  const handleFinishStudyPlanAssignment = useCallback(() => {
+    if (!isStudyPlanPracticeSet || !practiceRunId) return;
+    syncAssessmentTimer(Date.now(), false);
+    const result = completeStudyPlanPracticeSetAssignment(practiceRunId, uid, {
+      questionCount: practiceSet.length,
+    });
+    if (!result) {
+      toast.error("Couldn't finish this assignment");
+      return;
+    }
+    clearCurrentDesmosUiState();
+    sessionStorage.removeItem(PRACTICE_SET_STORAGE_KEY);
+    sessionStorage.removeItem(PRACTICE_SET_TOTAL_STORAGE_KEY);
+    sessionStorage.removeItem(PRACTICE_EXIT_TO_STORAGE_KEY);
+    sessionStorage.removeItem(PRACTICE_RUN_STORAGE_KEY);
+    navigate(result.returnPath);
+  }, [clearCurrentDesmosUiState, isStudyPlanPracticeSet, navigate, practiceRunId, practiceSet.length, syncAssessmentTimer, uid]);
 
   const handleGroupAnswered = () => {
     if (effectivePracticeMode || orderedNavigationItems.length === 0) return;
@@ -3073,6 +3266,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const handleToggleReview = () => {
     if (!currentQuestion) return;
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     if (isAssessmentMode) {
       const nextMarkedState = !modulePracticeMarkedForReview;
       setModulePracticeMarkedForReview(nextMarkedState);
@@ -3089,6 +3286,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   const handleCheck = useCallback((overrideAnswer?: string) => {
     if (!currentQuestion) return;
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     if (isAssessmentMode && !assessmentAllowsChecking) return;
     if (isIdleTimerPausedRef.current) {
       resumeIdleTimer();
@@ -3132,6 +3333,37 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     setCheckedAnswers(newCheckedAnswers);
     const newAttemptCount = attemptCount + 1;
     setAttemptCount(newAttemptCount);
+    if (!isEmbed) {
+      trackAnswerSubmit({
+        practiceType: isPracticeTestMode
+          ? "practice_test"
+          : isModulePracticeMode
+            ? "module"
+            : effectivePracticeMode
+              ? "practice_set"
+              : "question_bank",
+        subject: subject === "math" ? "math" : "reading_writing",
+        isCorrect,
+        attempt: newAttemptCount === 1 ? "first" : "retry",
+      });
+    }
+
+    if (isStudyPlanPracticeSet && isBankQuestionWithUuid(currentQuestion)) {
+      const nextAssignmentSession = recordStudyPlanAssignmentQuestionResult({
+        storageId: currentQuestion.stableId,
+        sourceId: currentQuestion.sourceId,
+        subject: currentQuestion.subject,
+        bankType: currentQuestion.bankType,
+        domain: currentQuestion.category.domain,
+        skill: currentQuestion.category.skill,
+        isCorrect,
+        timeSpentSeconds: Math.round((Date.now() - questionVisitStartedAtRef.current) / 1000),
+      }, uid);
+      if (nextAssignmentSession) {
+        studyPlanAssignmentSessionRef.current = nextAssignmentSession;
+        setStudyPlanAssignmentSession(nextAssignmentSession);
+      }
+    }
 
     if (isCorrect) {
       const status = alreadyCorrectStatus ?? (newAttemptCount === 1 ? 'correct-first' : 'correct-later');
@@ -3204,9 +3436,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     checkButtonState,
     checkedAnswers,
     currentQuestion,
+    effectivePracticeMode,
     freeResponseAnswer,
     isAssessmentMode,
     isEmbed,
+    isModulePracticeMode,
+    isPracticeTestMode,
+    isStudyPlanModuleExpired,
+    isStudyPlanPracticeSet,
     localStateKey,
     persistModulePracticeQuestionState,
     resumeIdleTimer,
@@ -3217,12 +3454,19 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      const target = e.target as HTMLElement;
       if (shouldIgnoreQuestionShortcut(e)) return;
+      const target = e.target as HTMLElement;
+      if (target.tagName === 'TEXTAREA' || target.isContentEditable || target.closest('[contenteditable="true"]')) {
+        return;
+      }
+
       if (target.closest('button, a[href], select, [role="button"], [role="link"], [role="checkbox"], [role="radio"], [role="slider"], [role="tab"], [role="menuitem"], [role="option"]')) {
         return;
       }
-      if (target.tagName === 'TEXTAREA' || target.isContentEditable || target.closest('[contenteditable="true"]')) {
+
+      if (isStudyPlanModuleExpired) {
+        e.preventDefault();
+        setIsTimerExpiredOpen(true);
         return;
       }
 
@@ -3244,6 +3488,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             handleEmbedAwareNext();
           } else if (canGoNext) {
             handleNext();
+          } else if (canFinishStudyPlanAssignment) {
+            handleFinishStudyPlanAssignment();
           }
           break;
         case 'Enter':
@@ -3323,10 +3569,13 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     selectedAnswer,
     questionNumber,
     canGoNext,
+    canFinishStudyPlanAssignment,
+    handleFinishStudyPlanAssignment,
     isAtPreviewQuestionLimit,
     isEmbed,
     isPracticeTestMode,
     isModulePracticeMode,
+    isStudyPlanModuleExpired,
     isAssessmentMode,
     assessmentAllowsChecking,
     localStateKey,
@@ -3585,7 +3834,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   };
 
   const backDestination = practiceExitTo || (is100Hard ? "/hard" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+
   const handlePracticeExit = () => {
+    if (studyPlanAssignmentSession) {
+      syncAssessmentTimer(Date.now(), false);
+      const pausedAssignment = pauseStudyPlanAssignment(uid);
+      if (pausedAssignment?.context.assignmentId === studyPlanAssignmentSession.context.assignmentId) {
+        studyPlanAssignmentSessionRef.current = pausedAssignment;
+        setStudyPlanAssignmentSession(pausedAssignment);
+      }
+    }
     clearQuestionBankViewerNotes();
     clearCurrentDesmosUiState();
     navigate(backDestination);
@@ -3636,12 +3894,20 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     );
   }
 
+  if (isStudyPlanModulePaused) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background px-4 text-foreground" role="status" aria-live="polite">
+        Resuming assignment…
+      </div>
+    );
+  }
+
   if (!currentQuestion) {
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
         <Button onClick={handlePracticeExit}>
-          Go Home
+          {studyPlanAssignmentSession ? "Return to study plan" : "Go Home"}
         </Button>
       </div>
     </div>;
@@ -3701,6 +3967,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     navigate("/my-practice-sets");
   };
   const handleSaveAndExit = () => {
+    const assignmentReturnPath = studyPlanAssignmentSession?.context.returnPath;
     if (isPracticeTestMode && practiceTestSessionMeta && practiceTestSet) {
       flushModulePracticeQuestionTime();
       clearCurrentDesmosUiState();
@@ -3711,7 +3978,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       };
       setPracticeTestSessionMeta(pausedSession);
       savePracticeTestSession(pausedSession);
-      navigate("/modules");
+      if (assignmentReturnPath) pauseStudyPlanAssignment(uid);
+      navigate(assignmentReturnPath ?? "/modules");
       return;
     }
 
@@ -3724,17 +3992,23 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
 
     flushModulePracticeQuestionTime();
     clearCurrentDesmosUiState();
+    const currentSession = modulePracticeSessionMetaRef.current ?? modulePracticeSessionMeta;
     const pausedSession = {
-      ...modulePracticeSessionMeta,
+      ...currentSession,
       status: "paused" as const,
       currentIndex: currentPracticeIndex >= 0 ? currentPracticeIndex : 0,
     };
-    setModulePracticeSessionMeta(pausedSession);
+    modulePracticeSessionMetaRef.current = pausedSession;
     saveModulePracticeSession(pausedSession);
-    navigate("/modules");
+    if (assignmentReturnPath) pauseStudyPlanAssignment(uid);
+    navigate(assignmentReturnPath ?? "/modules");
   };
   const handleTimerExpiredSubmit = () => {
     setIsTimerExpiredOpen(false);
+    if (isStudyPlanPracticeSet) {
+      handleFinishStudyPlanAssignment();
+      return;
+    }
     handleModulePracticeReview();
   };
   const displayedTimerSeconds =
@@ -3744,6 +4018,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         : practiceTestActiveModule?.elapsedSeconds ?? elapsedSeconds
       : isModulePracticeMode && modulePracticeSessionMeta?.settings.timed
       ? modulePracticeSessionMeta.remainingSeconds ?? 0
+      : isStudyPlanCountdown
+      ? studyPlanAssignmentSession?.remainingSeconds ?? 0
+      : isStudyPlanPracticeSet
+      ? studyPlanAssignmentSession?.elapsedSeconds ?? elapsedSeconds
       : elapsedSeconds;
   const isTimerControlPaused = isIdleTimerPaused || isTimerPaused;
   const shouldShowTimerPauseControl = !usesCountdownTimer;
@@ -3832,28 +4110,47 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     </Dialog>
   ) : null;
   const timerExpiredDialog = (
-    <AlertDialog open={isTimerExpiredOpen} onOpenChange={setIsTimerExpiredOpen}>
+    <AlertDialog
+      open={isTimerExpiredOpen}
+      onOpenChange={(open) => {
+        if (!open && (
+          (isStudyPlanPracticeSet && studyPlanAssignmentSession?.remainingSeconds === 0) ||
+          isStudyPlanModuleExpired
+        )) return;
+        setIsTimerExpiredOpen(open);
+      }}
+    >
       <AlertDialogContent container={windowPortalContainer} overlayClassName="z-[210]" className="z-[220]">
         <AlertDialogHeader>
           <AlertDialogTitle>Time has expired</AlertDialogTitle>
           <AlertDialogDescription>
-            {isPracticeTestMode
+            {isStudyPlanPracticeSet
+              ? "Your timed assignment is complete. Finish it to save the result and return to your study plan."
+              : isStudyPlanModuleAssignment
+              ? "Your assigned module time has expired. Review the navigator, then submit the module to save its result."
+              : isPracticeTestMode
               ? "On the real SAT, this module would end when time runs out. You can move to the next phase now or continue working."
               : "On the real SAT, this module would auto-submit when time runs out. You can submit now or continue working."}
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogCancel onClick={() => setIsTimerExpiredOpen(false)}>
-            Continue working
-          </AlertDialogCancel>
+          {!isStudyPlanPracticeSet && !isStudyPlanModuleAssignment ? (
+            <AlertDialogCancel onClick={() => setIsTimerExpiredOpen(false)}>
+              Continue working
+            </AlertDialogCancel>
+          ) : null}
           <AlertDialogAction onClick={handleTimerExpiredSubmit}>
-            Submit module
+            {isStudyPlanPracticeSet ? "Finish assignment" : isStudyPlanModuleAssignment ? "Review and submit" : "Submit module"}
           </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
   );
   const handleAnswerSelectionChange = (answer: string) => {
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     setSelectedAnswer(answer);
     if (isAssessmentMode) {
       persistModulePracticeQuestionState((previous) => ({
@@ -3887,6 +4184,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     );
   };
   const handleFreeResponseChange = (answer: string) => {
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     const hasAnswer = answer.trim().length > 0;
     setFreeResponseAnswer(answer);
     if (isAssessmentMode) {
@@ -3921,6 +4222,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     }
   };
   const handleStrikeoutChange = (choiceIds: string[]) => {
+    if (isStudyPlanModuleExpired) {
+      setIsTimerExpiredOpen(true);
+      return;
+    }
     setStruckOutChoiceIds(choiceIds);
     persistModulePracticeQuestionState((previous) => ({
       ...previous,
@@ -3995,12 +4300,16 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
           : "Review"
       : isModulePracticeMode && !canGoNext
         ? "Review"
+        : canFinishStudyPlanAssignment
+          ? "Finish"
         : "Next";
   const handlePrimaryAdvance =
     isPracticeTestMode && !canGoNext
       ? handlePracticeTestPhaseAdvance
       : isModulePracticeMode && !canGoNext
         ? handleModulePracticeReview
+        : canFinishStudyPlanAssignment
+          ? handleFinishStudyPlanAssignment
         : handleNext;
   const openRealBankFromEmbed = () => {
     if (previewEmbed) {
@@ -4058,7 +4367,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         />
       ) : null}
       {questionInfoDialog}
-      {isModulePracticeMode && modulePracticeSessionMeta?.settings.timed ? timerExpiredDialog : null}
+      {(isModulePracticeMode && modulePracticeSessionMeta?.settings.timed) || isStudyPlanCountdown ? timerExpiredDialog : null}
       {isIdleTimerPromptOpen && createPortal(
         <div
           className={cn(isNativeEmbed ? "absolute" : "fixed", "pointer-events-auto inset-y-0 left-0 z-[300] flex items-center justify-center bg-background/45 p-3 backdrop-blur-[2px] sm:p-6")}
@@ -4140,17 +4449,21 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <Button
                       variant="ghost"
                       size="sm"
-                      aria-label={effectiveTopShouldCompress ? "Save and exit" : undefined}
+                      aria-label={effectiveTopShouldCompress ? (studyPlanAssignmentSession ? "Return to study plan" : "Save and exit") : undefined}
                       className={effectiveTopShouldCompress ? "h-11 w-11 px-0" : undefined}
                     >
                       <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                      {!effectiveTopShouldCompress && "Save & Exit"}
+                      {!effectiveTopShouldCompress && (studyPlanAssignmentSession ? "Return to study plan" : "Save & Exit")}
                     </Button>
                   </AlertDialogTrigger>
                   <AlertDialogContent container={windowPortalContainer} overlayClassName="z-[210]" className="z-[220]">
                     <AlertDialogHeader>
                       <AlertDialogTitle>
-                        {isPracticeTestMode ? "Save and exit this practice test?" : "Save and exit this module?"}
+                        {studyPlanAssignmentSession
+                          ? "Return to your study plan?"
+                          : isPracticeTestMode
+                            ? "Save and exit this practice test?"
+                            : "Save and exit this module?"}
                       </AlertDialogTitle>
                       <AlertDialogDescription>
                         Your selected answers, notes, highlights, and marked questions will stay saved.
@@ -4161,7 +4474,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     </AlertDialogHeader>
                     <AlertDialogFooter>
                       <AlertDialogCancel>Keep working</AlertDialogCancel>
-                      <AlertDialogAction onClick={handleSaveAndExit}>Save and exit</AlertDialogAction>
+                      <AlertDialogAction onClick={handleSaveAndExit}>
+                        {studyPlanAssignmentSession ? "Return to study plan" : "Save and exit"}
+                      </AlertDialogAction>
                     </AlertDialogFooter>
                   </AlertDialogContent>
                 </AlertDialog>
@@ -4169,12 +4484,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <Button
                   variant="ghost"
                   size="sm"
-                  aria-label={effectiveTopShouldCompress ? "Back" : undefined}
+                  aria-label={effectiveTopShouldCompress ? (studyPlanAssignmentSession ? "Return to study plan" : "Back") : undefined}
                   className={effectiveTopShouldCompress ? "h-11 w-11 px-0" : undefined}
                   onClick={handlePracticeExit}
                 >
                   <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
-                  {!effectiveTopShouldCompress && "Home"}
+                  {!effectiveTopShouldCompress && (studyPlanAssignmentSession ? "Return to study plan" : "Home")}
                 </Button>
               )}
             </div>
@@ -4724,7 +5039,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               )}
               <Button
                 onClick={handleEmbedAwareAdvance}
-                disabled={isAssessmentMode ? false : !canGoNext && !isAtPreviewQuestionLimit}
+                disabled={isAssessmentMode ? false : !canGoNext && !isAtPreviewQuestionLimit && !canFinishStudyPlanAssignment}
                 variant="outline"
                 aria-label={shouldCompress ? practiceTestAdvanceLabel : undefined}
                 className={cn("h-11 transition-colors duration-200 ease-out", shouldCompress && "w-11 px-0")}

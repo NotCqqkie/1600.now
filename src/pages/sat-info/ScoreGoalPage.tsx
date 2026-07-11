@@ -8,7 +8,11 @@ import {
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
 import { scoreGoalBySlug } from "@/lib/seo-data/scoreGoalData";
-import { getScoreProfile } from "@/lib/seo-data/satScoreData";
+import {
+  COLLEGE_BOARD_SAT_PERCENTILES_URL,
+  getBalancedSectionSplit,
+  getScoreProfile,
+} from "@/lib/seo-data/satScoreData";
 
 const SCORE_GOAL_PUBLISHED = "2026-04-01";
 const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
@@ -39,23 +43,20 @@ const WEEKLY_PLAN_ROWS = [
 
 interface NumericGoalContent {
   sectionSplit: { rw: number; math: number };
-  percentile: number;
+  percentileLabel: string;
   tier: string;
   tierDescription: string;
-  missBudget: number;
   collegeExamples: string[];
   studyFocus: string;
 }
 
 const numericContent = (score: number): NumericGoalContent => {
   const profile = getScoreProfile(score);
-  const rw = Math.round(score / 2);
   return {
-    sectionSplit: { rw, math: score - rw },
-    percentile: profile.percentile,
+    sectionSplit: getBalancedSectionSplit(score),
+    percentileLabel: profile.percentileLabel,
     tier: profile.tier,
     tierDescription: profile.tierDescription,
-    missBudget: Math.round((1600 - score) / 15),
     collegeExamples: profile.collegeExamples,
     studyFocus: profile.studyFocus,
   };
@@ -63,6 +64,32 @@ const numericContent = (score: number): NumericGoalContent => {
 
 type Faq = { question: string; answer: string };
 type CtaLinkItem = { to: string; label: string };
+
+const scoreSpecificPlan = (score: number) => {
+  if (score === 1350) {
+    return {
+      heading: "The 1350 plan: make medium questions automatic",
+      intro: "A 1350 usually comes from consistency before it comes from solving every hardest question. Use a 670 Reading and Writing / 680 Math split as one valid baseline, then move the target toward your stronger section.",
+      steps: [
+        "Protect Module 1 by fixing repeat misses in algebra, boundaries, transitions, and evidence questions.",
+        "Require at least two stable timed-module results before raising the target or changing strategy.",
+        "Spend more review time explaining medium misses than attempting rare ceiling questions.",
+      ],
+    };
+  }
+  if (score === 1550) {
+    return {
+      heading: "The 1550 plan: reduce variance near the ceiling",
+      intro: "A 1550 target is not a broad content-review problem. One valid balanced target is 770 Reading and Writing / 780 Math; the remaining work is making hard-module accuracy repeatable.",
+      steps: [
+        "Separate every miss into content, interpretation, pacing, or careless execution so the fix matches the cause.",
+        "Use hard-only drills selectively, but keep full timed modules to test whether accuracy survives normal question order.",
+        "Retake only when multiple official practice results show a stable opportunity, especially in one section for superscoring.",
+      ],
+    };
+  }
+  return null;
+};
 
 const CtaLinkList = ({ links }: { links: readonly CtaLinkItem[] }) => (
   <ul className={CTA_LIST_CLASS}>
@@ -91,14 +118,15 @@ const ScoreGoalPage = () => {
   if (typeof page.target === "number") {
     const content = numericContent(page.target);
     const score = page.target;
+    const specificPlan = scoreSpecificPlan(score);
     faqs = [
       {
         question: `Is a ${score} SAT achievable?`,
-        answer: `Yes. A ${score} places you in the ${content.percentile}th percentile — reachable with 8–16 weeks of focused prep for most students who start within 150 points of the target.`,
+        answer: `A ${score} is in the ${content.percentileLabel} percentile among recent SAT users. Whether it is achievable on your timeline depends on your current section scores, skill gaps, and timed-practice results.`,
       },
       {
         question: `How many questions can I miss and still get a ${score}?`,
-        answer: `You can miss roughly ${content.missBudget} questions across the whole Digital SAT and still land at a ${score}, though exact counts vary because of the adaptive Module 2.`,
+        answer: `There is no fixed miss count for a ${score}. Question difficulty, adaptive routing, and equating all affect the scaled score, so use an official Bluebook score report to measure progress.`,
       },
       {
         question: `What is the section split for a ${score}?`,
@@ -106,7 +134,7 @@ const ScoreGoalPage = () => {
       },
       {
         question: `What colleges accept a ${score} SAT?`,
-        answer: `A ${score} is competitive at ${content.collegeExamples.slice(0, 3).join(", ")} and dozens of other schools with similar admissions profiles.`,
+        answer: `Use ${content.collegeExamples.slice(0, 3).join(", ")} as starting points for comparing current middle-50% ranges. A score alone never establishes admission odds.`,
       },
     ];
 
@@ -118,8 +146,8 @@ const ScoreGoalPage = () => {
           </h2>
           <p className="mt-3 text-muted-foreground">
             A {score} on the Digital SAT is a {content.tier.toLowerCase()} score —{" "}
-            {content.tierDescription} At the {content.percentile}th percentile, you are
-            scoring higher than about {content.percentile}% of all SAT test takers.
+            {content.tierDescription} College Board's current SAT-user table places
+            this total in the {content.percentileLabel} percentile.
           </p>
         </section>
 
@@ -128,24 +156,23 @@ const ScoreGoalPage = () => {
             Section split for a {score}
           </h2>
           <p className="mt-3 text-muted-foreground">
-            A balanced {score} typically comes from about {content.sectionSplit.rw}{" "}
-            in Reading & Writing and {content.sectionSplit.math} in Math. The Digital
-            SAT weighs both sections equally, so a lopsided split (for example{" "}
-            {content.sectionSplit.rw + 30} RW and {content.sectionSplit.math - 30} Math) is
-            completely fine — aim for whichever section feels stronger.
+            A balanced {score} planning target is {content.sectionSplit.rw}{" "}
+            in Reading & Writing and {content.sectionSplit.math} in Math. Both are
+            valid 10-point section scores and add exactly to {score}. Uneven splits
+            are also valid as long as each section stays between 200 and 800.
           </p>
         </section>
 
         <section className="mt-10">
           <h2 className={SECTION_HEADING_CLASS}>
-            How many questions you can afford to miss
+            Why there is no fixed missed-question budget
           </h2>
           <p className="mt-3 text-muted-foreground">
-            To land at {score}, you need to miss no more than roughly{" "}
-            {content.missBudget} questions across the entire test. Keep in mind the
-            test is adaptive: missing early questions in Module 1 can route you
-            to the easier Module 2, which caps your ceiling well below 800 for
-            that section.
+            The Digital SAT does not publish one raw-score conversion for a {score}.
+            Two students can miss the same number of questions and receive different
+            scaled scores because question difficulty, Module 2 routing, and equating
+            matter. Track the skills and difficulty of your misses instead of using
+            an invented whole-test allowance.
           </p>
         </section>
 
@@ -155,6 +182,18 @@ const ScoreGoalPage = () => {
           </h2>
           <p className="mt-3 text-muted-foreground">{content.studyFocus}</p>
         </section>
+
+        {specificPlan && (
+          <section className="mt-10 rounded-xl border border-border p-5">
+            <h2 className={SECTION_HEADING_CLASS}>{specificPlan.heading}</h2>
+            <p className="mt-3 text-muted-foreground">{specificPlan.intro}</p>
+            <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+              {specificPlan.steps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="mt-10">
           <h2 className={SECTION_HEADING_CLASS}>
@@ -220,12 +259,12 @@ const ScoreGoalPage = () => {
       {
         question: "How rare is a 1600 SAT score?",
         answer:
-          "Fewer than 1 in 500 Digital SAT test takers score a 1600, placing it at the 99th+ percentile. In absolute terms, a few thousand students per year hit a perfect score.",
+          "College Board's current SAT-user percentile table places 1600 in the 99th+ percentile. The table does not publish an exact annual count of perfect scores.",
       },
       {
         question: "Can you get a 1600 while missing questions?",
         answer:
-          "No. A 1600 requires scoring 800 in both sections, which typically means missing zero questions in the hard Module 2. The Digital SAT's adaptive scoring does not allow any miss in the hardest path.",
+          "College Board does not publish a universal raw-miss rule for a 1600. A 1600 requires two 800 section scores, but question difficulty, adaptive routing, and equating mean you cannot infer the exact miss count from the total alone.",
       },
       {
         question: "How long does it take to prep for a 1600?",
@@ -252,9 +291,9 @@ const ScoreGoalPage = () => {
             near-perfect accuracy across both modules.
           </p>
           <p className="mt-3 text-muted-foreground">
-            In practice, 1600 scorers typically miss zero questions on Module 1
-            and at most one on Module 2 in each section, though forgiving test
-            forms occasionally allow one miss per module.
+            College Board does not publish a fixed number of questions a student
+            may miss and still earn 800 in a section. Use official Bluebook score
+            reports rather than a generic raw-score rule.
           </p>
         </section>
 
@@ -263,9 +302,9 @@ const ScoreGoalPage = () => {
             How rare is a 1600?
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Fewer than 1 in 500 Digital SAT takers score a 1600. Out of roughly
-            2 million annual SAT takers, only a few thousand achieve the
-            perfect score each year.
+            College Board's current SAT-user table reports 1600 in the 99th+
+            percentile. That establishes the score's position without claiming
+            an unsupported annual count of perfect scores.
           </p>
         </section>
 
@@ -322,17 +361,17 @@ const ScoreGoalPage = () => {
       {
         question: "Is 1200 a good SAT score?",
         answer:
-          "1200 places you around the 74th percentile and is above average. It is competitive at many mid-tier state universities and regional private schools.",
+          "College Board's current SAT-user table places 1200 in the 76th percentile. Whether it is useful for admission depends on each college's current range and testing policy.",
       },
       {
         question: "Is 1400 a good SAT score?",
         answer:
-          "Yes. 1400 is the 94th percentile and is competitive at a wide range of selective universities, including UT Austin, UNC, NYU, and many top liberal arts colleges.",
+          "College Board's current SAT-user table places 1400 in the 93rd percentile. Compare that score with the current range and policy at every target college.",
       },
       {
         question: "Is 1500 a good SAT score?",
         answer:
-          "Very good. 1500 places you at the 98th percentile and is competitive at nearly every US university short of the Ivy League and its peers, where it sits around the 25th–50th percentile of admitted students.",
+          "College Board's current SAT-user table places 1500 in the 98th percentile. It is a strong national result, but selective-college ranges and admission decisions vary.",
       },
     ];
 
@@ -408,7 +447,7 @@ const ScoreGoalPage = () => {
       {
         question: "What is the current average SAT score?",
         answer:
-          "The current national average Digital SAT score is approximately 1050, split roughly 530 in Reading & Writing and 520 in Math.",
+          "For the class of 2025, College Board reported a mean SAT total of 1029: 521 in Reading and Writing and 508 in Math.",
       },
       {
         question: "Is the average SAT score good enough for college?",
@@ -418,12 +457,12 @@ const ScoreGoalPage = () => {
       {
         question: "Does the average SAT score change year to year?",
         answer:
-          "It fluctuates within a narrow range. The Digital SAT average has hovered around 1050 since the transition from the paper test.",
+          "Yes. The mean changes with each graduating class and testing population, so always attach a data year to the number.",
       },
       {
         question: "How much above average do I need to be competitive?",
         answer:
-          "For top-50 schools, aim 200+ points above the national average (1250+). For top-20, aim 400+ points above (1450+).",
+          "Do not derive a college target from the national mean. Compare your score with each college's current middle-50% range and testing policy.",
       },
     ];
 
@@ -434,10 +473,9 @@ const ScoreGoalPage = () => {
             The current average
           </h2>
           <p className="mt-3 text-muted-foreground">
-            The national average Digital SAT score is approximately 1050. This
-            breaks down to roughly 530 in Reading & Writing and 520 in Math,
-            though recent administrations have shown Math averaging slightly
-            higher than RW.
+            College Board's class of 2025 report gives a mean total of 1029,
+            with a mean of 521 in Reading and Writing and 508 in Math. Those
+            figures describe that graduating class, not a required college score.
           </p>
         </section>
 
@@ -515,6 +553,20 @@ const ScoreGoalPage = () => {
           {page.headline}
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">{page.intro}</p>
+        {typeof page.target === "number" && (
+          <p className="mt-3 text-xs text-muted-foreground">
+            Percentile source:{" "}
+            <a
+              className={INLINE_LINK_CLASS}
+              href={COLLEGE_BOARD_SAT_PERCENTILES_URL}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              College Board SAT-user percentiles
+            </a>
+            .
+          </p>
+        )}
       </header>
 
       {body}

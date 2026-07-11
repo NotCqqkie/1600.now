@@ -30,6 +30,10 @@ const Slider = React.forwardRef<
       {Array.from({ length: thumbCount }).map((_, index) => (
         <SliderPrimitive.Thumb
           key={index}
+          aria-label={typeof props["aria-label"] === "string"
+            ? `${props["aria-label"]}${thumbCount > 1 ? ` ${index + 1}` : ""}`
+            : undefined}
+          aria-labelledby={props["aria-labelledby"]}
           className="block h-9 w-9 rounded-full border-[3px] border-primary bg-background shadow-[0_10px_24px_rgba(15,23,42,0.18)] ring-offset-background transition-all duration-150 ease-out hover:scale-110 hover:shadow-[0_14px_28px_rgba(15,23,42,0.22)] hover:border-primary/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:scale-95 disabled:pointer-events-none disabled:opacity-50 sm:h-6 sm:w-6"
         />
       ))}

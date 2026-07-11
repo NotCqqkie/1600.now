@@ -6,7 +6,12 @@ import {
   buildBreadcrumbJsonLd,
   buildFaqJsonLd,
 } from "@/components/seo/PageSeo";
-import { allSatScores, getScoreProfile } from "@/lib/seo-data/satScoreData";
+import {
+  allSatScores,
+  COLLEGE_BOARD_SAT_PERCENTILES_URL,
+  getBalancedSectionSplit,
+  getScoreProfile,
+} from "@/lib/seo-data/satScoreData";
 import NotFound from "@/pages/NotFound";
 
 const SCORE_PAGE_PUBLISHED = "2026-04-01";
@@ -124,33 +129,35 @@ const SatScoreDetail = () => {
   }
 
   const profile = getScoreProfile(score);
-  const title = `${score} SAT Score — Percentile, Section Breakdown & Colleges`;
-  const description = `A ${score} Digital SAT score breakdown: ${profile.percentile}th percentile, typical Math/Reading section split, target colleges, and a study plan to raise it.`;
+  const title = score === 1530
+    ? "1530 SAT Score: Is It Good? Official Percentile & Section Splits"
+    : `${score} SAT Score: Percentile, Valid Section Splits & Next Steps`;
+  const description = score === 1530
+    ? "A 1530 SAT is the 99th percentile among recent SAT users. See valid 760/770 section splits, how to compare college ranges, and whether to retake."
+    : `A ${score} Digital SAT score is in the ${profile.percentileLabel} percentile among recent SAT users. See valid section splits, college-range context, and next steps.`;
   const url = `https://1600.now/sat-score/${score}`;
 
-  const rwTarget = Math.round(score / 2);
-  const mathTarget = score - rwTarget;
+  const { rw: rwTarget, math: mathTarget } = getBalancedSectionSplit(score);
   const actionPlan = scoreActionPlan(score);
   const targetColleges = profile.collegeExamples.slice(0, 3).join(", ");
-  const missedQuestionEstimate = Math.round((1600 - score) / 15);
   const scoreStats = [
     { label: "Score", value: score, className: "font-mono text-3xl" },
-    { label: "Percentile", value: profile.percentile, className: "font-mono text-3xl" },
+    { label: "SAT-user percentile", value: profile.percentileLabel, className: "font-mono text-3xl" },
     { label: "Tier", value: profile.tier, className: "text-lg font-semibold" },
   ] as const;
 
   const faqs = [
     {
       question: `What is the typical section split for a ${score}?`,
-      answer: `A balanced ${score} usually comes from roughly ${rwTarget} in Reading & Writing and ${mathTarget} in Math, but you can lean 20–40 points either direction and still land at ${score}.`,
+      answer: `One valid balanced ${score} split is ${rwTarget} in Reading & Writing and ${mathTarget} in Math. Other combinations work if each section is a 10-point score between 200 and 800 and the two sections add to ${score}.`,
     },
     {
       question: `What percentile is a ${score} SAT score?`,
-      answer: `A ${score} on the Digital SAT is roughly the ${profile.percentile}th percentile nationally, meaning you scored higher than about ${profile.percentile}% of test takers.`,
+      answer: `College Board's current SAT-user table places a ${score} in the ${profile.percentileLabel} percentile. SAT-user percentiles compare you with students who took the SAT in the most recent three graduating classes.`,
     },
     {
       question: `What colleges can I get into with a ${score} SAT?`,
-      answer: `A ${score} is competitive at schools such as ${targetColleges}. Many more schools are reachable depending on your GPA and application.`,
+      answer: `Use schools such as ${targetColleges} as starting points for checking current middle-50% score ranges. A ${score} alone cannot predict admission.`,
     },
     {
       question: `How do I raise a ${score} SAT score?`,
@@ -158,7 +165,7 @@ const SatScoreDetail = () => {
     },
     {
       question: `How many questions did I miss to get a ${score}?`,
-      answer: `A ${score} typically corresponds to roughly ${missedQuestionEstimate} missed questions across the Digital SAT, but the adaptive module routing means exact counts vary.`,
+      answer: `A ${score} does not map to one fixed missed-question count. Digital SAT scoring depends on question difficulty, adaptive routing, and equating, so use the detailed score report for the actual test instead of estimating misses from the total.`,
     },
   ];
 
@@ -200,8 +207,8 @@ const SatScoreDetail = () => {
           {score} SAT Score
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
-          A {score} on the Digital SAT is in approximately the{" "}
-          <strong>{profile.percentile}th percentile</strong> — a{" "}
+          A {score} on the Digital SAT is in the{" "}
+          <strong>{profile.percentileLabel} percentile among recent SAT users</strong> — a{" "}
           <strong>{profile.tier.toLowerCase()}</strong> SAT score.{" "}
           {profile.tierDescription}
         </p>
@@ -210,13 +217,17 @@ const SatScoreDetail = () => {
             Compare this score with college target ranges →
           </Link>
         </p>
-        <p className="mt-2 text-sm">
-          <Link
-            to={`/is-a-${score}-a-good-sat-score`}
+        <p className="mt-2 text-xs text-muted-foreground">
+          Percentile source:{" "}
+          <a
             className={INLINE_LINK_CLASS}
+            href={COLLEGE_BOARD_SAT_PERCENTILES_URL}
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            Is a {score} a good SAT score? →
-          </Link>
+            College Board SAT-user percentiles
+          </a>
+          .
         </p>
       </header>
 
@@ -236,8 +247,8 @@ const SatScoreDetail = () => {
           Section Breakdown for a {score}
         </h2>
         <p className="mt-3 text-muted-foreground">
-          Most students who score a {score} are relatively balanced between
-          the two Digital SAT sections. A typical split looks like this:
+          Section scores are reported in 10-point increments. One valid,
+          balanced planning split for a {score} is:
         </p>
         <ul className="mt-4 list-disc space-y-1 pl-6 text-muted-foreground">
           <li>
@@ -261,7 +272,7 @@ const SatScoreDetail = () => {
           Colleges Where a {score} Is Competitive
         </h2>
         <p className="mt-3 text-muted-foreground">
-          A {score} SAT score is in range at schools including:
+          Start by comparing a {score} with the current published ranges for:
         </p>
         <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
           {profile.collegeExamples.map((college) => {
@@ -283,9 +294,9 @@ const SatScoreDetail = () => {
           })}
         </ul>
         <p className="mt-3 text-sm text-muted-foreground">
-          Note: College admissions consider GPA, essays, extracurriculars,
-          and course rigor in addition to your SAT score. A {score} is one
-          data point in a holistic file.
+          These are comparison starting points, not admission predictions.
+          Testing policies and score ranges change, and colleges also consider
+          grades, course rigor, essays, activities, and institutional priorities.
         </p>
       </section>
 

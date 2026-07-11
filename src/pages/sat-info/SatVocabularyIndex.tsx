@@ -12,7 +12,7 @@ const PAGE_ID = "sat-vocabulary-index";
 const SAT_VOCABULARY_URL = "https://1600.now/sat-vocabulary";
 const PAGE_TITLE = `SAT Vocabulary List: ${seoVocabEntries.length}+ Digital SAT Words in Context`;
 const PAGE_DESCRIPTION =
-  "Complete Digital SAT vocabulary list with definitions. Study every high-frequency SAT Words-in-Context word, grouped by difficulty, with examples for each word.";
+  `${seoVocabEntries.length} academic words with definitions for SAT Words-in-Context practice. College Board does not publish a fixed official vocabulary list.`;
 const CTA_LINK_CLASS = "rounded-full border px-4 py-1 hover:bg-muted";
 const SECTION_HEADING_CLASS = "text-2xl font-semibold tracking-tight";
 const TABLE_HEAD_CELL_CLASS = "px-4 py-3 font-semibold";
@@ -23,7 +23,7 @@ const FAQS: FaqItem[] = [
   {
     question: "How many vocabulary words are on the Digital SAT?",
     answer:
-      "The Digital SAT does not publish a set vocabulary list, but Words-in-Context questions consistently test a core group of around 200–300 academic words. This list covers those high-frequency SAT vocabulary words.",
+      `College Board does not publish a fixed vocabulary list or word count. This ${seoVocabEntries.length}-word library is a broad study collection, not a claim that every word will appear on the SAT.`,
   },
   {
     question: "What is the best way to study SAT vocabulary?",
@@ -58,9 +58,9 @@ const STUDY_STEPS = [
 const DIFFICULTIES = ["Easy", "Medium", "Hard"] as const;
 
 const DIFFICULTY_DESCRIPTIONS = {
-  Easy: "Words that appear in the easier half of Digital SAT Words-in-Context questions.",
-  Medium: "Mid-difficulty SAT vocabulary that separates a 1300 from a 1450.",
-  Hard: "The toughest SAT Words-in-Context vocabulary — these are the score-ceiling words.",
+  Easy: "More familiar academic words for building fast contextual recognition.",
+  Medium: "Less familiar academic words that require stronger context clues.",
+  Hard: "Rare or nuanced academic words for advanced contextual practice.",
 } as const;
 
 const VOCAB_BY_DIFFICULTY = {
@@ -99,9 +99,10 @@ const SatVocabularyIndex = () => {
           The Complete Digital SAT Vocabulary List
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
-          Every high-frequency word tested on the Digital SAT Words-in-Context
-          question type, organized by difficulty. Tap any word to see its
-          definition, example usage, and how it shows up on the SAT.
+          A broad library of {seoVocabEntries.length} academic words for Digital
+          SAT Words-in-Context practice, organized by difficulty. College Board
+          does not publish a fixed official word list, so use this for contextual
+          practice rather than trying to memorize every entry.
         </p>
         <div className="mt-4 flex gap-2 text-sm">
           <Link className={CTA_LINK_CLASS} to="/vocab">

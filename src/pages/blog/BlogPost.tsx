@@ -5,7 +5,14 @@ import {
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
 } from "@/components/seo/PageSeo";
-import { blogPostBySlug, blogPosts } from "@/lib/seo-data/blogData";
+import {
+  BLOG_EDITORIAL_AUTHOR,
+  BLOG_LAST_REVIEWED,
+  BLOG_PRIMARY_SOURCE_URL,
+  blogPostBySlug,
+  blogPosts,
+  getBlogReadingMinutes,
+} from "@/lib/seo-data/blogData";
 import NotFound from "@/pages/NotFound";
 
 const BLOG_URL = "https://1600.now/blog";
@@ -87,6 +94,10 @@ const BlogPost = () => {
 
   const url = `${BLOG_URL}/${post.slug}`;
   const actionPlan = blogActionPlanFor(post.tag);
+  const relatedPosts = (post.relatedSlugs ?? [])
+    .map((relatedSlug) => blogPostBySlug.get(relatedSlug))
+    .filter((relatedPost): relatedPost is NonNullable<typeof relatedPost> => Boolean(relatedPost));
+  const readingMinutes = getBlogReadingMinutes(post);
   const postIndex =
     blogPosts.findIndex((candidate) => candidate.slug === post.slug) + 1;
 
@@ -108,6 +119,8 @@ const BlogPost = () => {
             description: post.description,
             url,
             datePublished: post.datePublished,
+            dateModified: BLOG_LAST_REVIEWED,
+            author: BLOG_EDITORIAL_AUTHOR,
           }),
         ]}
       />
@@ -125,7 +138,7 @@ const BlogPost = () => {
 
       <header className="mb-8">
         <div className="text-xs uppercase tracking-wider text-muted-foreground">
-          {post.tag} · {post.readingMinutes} min read · Published{" "}
+          {post.tag} · {readingMinutes} min read · Published{" "}
           {new Date(post.datePublished).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
@@ -138,6 +151,21 @@ const BlogPost = () => {
         <p className="mt-3 text-lg text-muted-foreground">
           {post.description}
         </p>
+        <div className="mt-4 rounded-lg border border-border p-3 text-sm text-muted-foreground">
+          <div>By {BLOG_EDITORIAL_AUTHOR} · Reviewed {BLOG_LAST_REVIEWED}</div>
+          <div className="mt-1">
+            Primary standards source:{" "}
+            <a
+              className="underline"
+              href={BLOG_PRIMARY_SOURCE_URL}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              College Board SAT Suite
+            </a>
+            . College policies and deadlines should also be verified with the institution.
+          </div>
+        </div>
       </header>
 
       {post.sections.map((section) => (
@@ -170,6 +198,29 @@ const BlogPost = () => {
           ))}
         </ol>
       </section>
+
+      {relatedPosts.length > 0 && (
+        <section className="mt-12">
+          <h2 className={SECTION_HEADING_CLASS}>Related SAT guides</h2>
+          <ul className="mt-4 grid gap-3 md:grid-cols-2">
+            {relatedPosts.map((relatedPost) => (
+              <li key={relatedPost.slug}>
+                <Link to={`/blog/${relatedPost.slug}`} className={PRACTICE_CARD_CLASS}>
+                  <div className={PRACTICE_CARD_TITLE_CLASS}>{relatedPost.title}</div>
+                  <p className={PRACTICE_CARD_DESCRIPTION_CLASS}>
+                    {relatedPost.description}
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-sm">
+            <Link className="underline" to="/sat-resources">
+              Browse all SAT resources →
+            </Link>
+          </p>
+        </section>
+      )}
 
       <section className="mt-10">
         <h2 className={SECTION_HEADING_CLASS}>

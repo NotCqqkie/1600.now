@@ -379,10 +379,10 @@ const HeroQuestionPreview = memo(({
     if (nearViewport) return;
     const node = rootRef.current;
     if (!node) return;
-    const margin = 180;
+    const preloadInset = 320;
     const checkNearViewport = () => {
       const rect = node.getBoundingClientRect();
-      if (rect.bottom < -margin || rect.top > window.innerHeight + margin) return false;
+      if (rect.bottom < 0 || rect.top > window.innerHeight - preloadInset) return false;
       setNearViewport(true);
       return true;
     };
@@ -398,7 +398,7 @@ const HeroQuestionPreview = memo(({
         setNearViewport(true);
         observer.disconnect();
       },
-      { rootMargin: "180px 0px" },
+      { rootMargin: "0px 0px -320px 0px" },
     );
     observer.observe(node);
     window.addEventListener("scroll", checkNearViewport, { passive: true });
@@ -2665,40 +2665,6 @@ const Home = () => {
   useEffect(() => {
     const id = window.setTimeout(() => setHeroPreviewTimerReady(true), HERO_PREVIEW_FORCE_READY_MS);
     return () => window.clearTimeout(id);
-  }, []);
-
-  // Warm the hero demo's lazy chunks (Question + its static deps: questionBank,
-  // mathRendering) and prime its data caches during idle time after first paint,
-  // so the embed renders from cache within the ready-gate window and reveals
-  // instantly. questionBank is imported dynamically (never statically) to keep
-  // its multi-MB chunk out of the Home chunk's critical path.
-  useEffect(() => {
-    let cancelled = false;
-    const warm = () => {
-      if (cancelled) return;
-      void loadEmbeddedQuestionPreview().catch(() => {});
-      void import("@/data/questionBank")
-        .then((mod) => {
-          if (!cancelled) mod.prefetchHeroPreviewQuestion();
-        })
-        .catch(() => {});
-    };
-    const win = window as typeof window & {
-      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
-      cancelIdleCallback?: (handle: number) => void;
-    };
-    let idleId: number | null = null;
-    let timeoutId: number | null = null;
-    if (typeof win.requestIdleCallback === "function") {
-      idleId = win.requestIdleCallback(warm, { timeout: 800 });
-    } else {
-      timeoutId = window.setTimeout(warm, 300);
-    }
-    return () => {
-      cancelled = true;
-      if (idleId !== null && typeof win.cancelIdleCallback === "function") win.cancelIdleCallback(idleId);
-      if (timeoutId !== null) window.clearTimeout(timeoutId);
-    };
   }, []);
 
   const demoTitleRef = useRef<HTMLDivElement>(null);

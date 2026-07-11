@@ -2,6 +2,8 @@ import { getFirestore, connectFirestoreEmulator } from "firebase/firestore";
 import { app } from "@/lib/firebase/firebaseApp";
 import { isLocalHost } from "@/lib/firebase/firebaseHosts";
 
+export { initializeFirebaseAppCheck } from "@/lib/firebase/firebaseApp";
+
 export const db = app ? getFirestore(app) : null;
 
 if (
