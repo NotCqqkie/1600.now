@@ -7,6 +7,7 @@ import { StepByStepExplanation } from "@/components/question/StepByStepExplanati
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { normalizeExplanationData } from "@/lib/explanationApi";
+import { createAbortableRequestGuard } from "@/lib/abortableRequestGuard";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -57,8 +58,10 @@ export const ExplanationWindow = ({
   sidebarExitMainMaxWidth,
 }: ExplanationWindowProps) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [hasStructuredExplanation, setHasStructuredExplanation] = useState(false);
-  const [explanationChecked, setExplanationChecked] = useState(false);
+  const [explanationAvailability, setExplanationAvailability] = useState<{
+    requestKey: string;
+    hasStructuredExplanation: boolean;
+  } | null>(null);
   const [searchParams] = useSearchParams();
   const autoExplain = searchParams.get("autoExplain") === "1";
   const autoOpenedRef = useRef(false);
@@ -67,6 +70,10 @@ export const ExplanationWindow = ({
   const rawQuestionId = typeof questionId === "string" || typeof questionId === "number"
     ? getExplanationLookupId(String(questionId))
     : "";
+  const explanationRequestKey = `${String(questionId ?? "")}:${rawQuestionId}`;
+  const explanationChecked = explanationAvailability?.requestKey === explanationRequestKey;
+  const hasStructuredExplanation = explanationChecked
+    && explanationAvailability.hasStructuredExplanation;
   const correctAnswerText = typeof correctAnswer === "string" ? correctAnswer.trim() : "";
   const renderCorrectAnswerBadge = () =>
     correctAnswerText ? (
@@ -93,30 +100,40 @@ export const ExplanationWindow = ({
 
   useEffect(() => {
     if (!questionId) {
-      setHasStructuredExplanation(false);
-      setExplanationChecked(true);
+      setExplanationAvailability({
+        requestKey: explanationRequestKey,
+        hasStructuredExplanation: false,
+      });
       return;
     }
-    const fullId = String(questionId);
-    setExplanationChecked(false);
-    setHasStructuredExplanation(false);
-    fetch(`/explanations/${rawQuestionId}.json`)
+    const requestGuard = createAbortableRequestGuard();
+    setExplanationAvailability(null);
+    fetch(`/explanations/${rawQuestionId}.json`, { signal: requestGuard.signal })
       .then(response => response.ok ? response.text() : null)
       .then(text => {
-        if (fullId !== String(questionId)) return;
+        if (!requestGuard.canCommit()) return;
+        let hasStructuredExplanation = false;
         if (text && text.trimStart().startsWith("{")) {
           try {
             const json = JSON.parse(text);
             const normalized = normalizeExplanationData(json);
-            if (normalized) setHasStructuredExplanation(true);
+            hasStructuredExplanation = Boolean(normalized);
           } catch {
-            setHasStructuredExplanation(false);
+            hasStructuredExplanation = false;
           }
         }
-        setExplanationChecked(true);
+        setExplanationAvailability({ requestKey: explanationRequestKey, hasStructuredExplanation });
       })
-      .catch(() => { if (fullId === String(questionId)) setExplanationChecked(true); });
-  }, [questionId, rawQuestionId]);
+      .catch(() => {
+        if (requestGuard.canCommit()) {
+          setExplanationAvailability({
+            requestKey: explanationRequestKey,
+            hasStructuredExplanation: false,
+          });
+        }
+      });
+    return requestGuard.abort;
+  }, [explanationRequestKey, questionId, rawQuestionId]);
 
   const handleToggle = () => {
     if (!isOpen) {
@@ -142,7 +159,13 @@ export const ExplanationWindow = ({
 
   return (
     <>
-      <Button variant="outline" size="sm" onClick={handleToggle} className={compressed ? "h-10 w-10 px-0" : "h-10"}>
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={handleToggle}
+        aria-label={compressed ? "Explanation" : undefined}
+        className={compressed ? "h-11 w-11 px-0" : "h-11"}
+      >
         <Lightbulb className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
         {!compressed && "Explanation"}
       </Button>

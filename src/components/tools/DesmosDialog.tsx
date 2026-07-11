@@ -33,6 +33,8 @@ interface DesmosDialogProps {
   sidebarExitMainMaxWidth?: number;
 }
 
+type DesmosLoadStatus = "idle" | "loading" | "ready" | "error";
+
 export const DesmosDialog = ({
   onSplitScreenChange,
   onSplitPositionChange,
@@ -58,6 +60,8 @@ export const DesmosDialog = ({
   const [isOpen, setIsOpen] = useState(false);
   const [hasEverOpened, setHasEverOpened] = useState(false);
   const [calculatorResetKey, setCalculatorResetKey] = useState(0);
+  const [loadAttempt, setLoadAttempt] = useState(0);
+  const [loadStatus, setLoadStatus] = useState<DesmosLoadStatus>("idle");
   const containerRef = useRef<HTMLDivElement>(null);
   const calcRef = useRef<DesmosCalculator | null>(null);
   const blankCalculatorStateRef = useRef<unknown | null>(null);
@@ -134,6 +138,11 @@ export const DesmosDialog = ({
     onSplitScreenChange?.(true, "desmos");
   }, [layoutStateKey, onRestoreSidebarPosition, onSidebarToggle, onSplitScreenChange, storageArea]);
 
+  const retryDesmosLoad = useCallback(() => {
+    setLoadStatus("loading");
+    setLoadAttempt((attempt) => attempt + 1);
+  }, []);
+
   const handleToggle = () => {
     if (isOpen) {
       flushCalculatorState();
@@ -143,6 +152,7 @@ export const DesmosDialog = ({
     }
 
     if (onFocus) onFocus();
+    if (loadStatus === "error") retryDesmosLoad();
 
     openInSidebar();
 
@@ -170,12 +180,20 @@ export const DesmosDialog = ({
   );
   useEffect(() => {
     if (!hasEverOpened) return;
-    if (calcRef.current) return;
+    if (calcRef.current) {
+      setLoadStatus("ready");
+      return;
+    }
 
     let cancelled = false;
+    setLoadStatus("loading");
     loadDesmos()
       .then(() => {
-        if (cancelled || !containerRef.current || !window.Desmos) return;
+        if (cancelled) return;
+        if (!containerRef.current || !window.Desmos) {
+          setLoadStatus("error");
+          return;
+        }
         const calc = window.Desmos.GraphingCalculator(containerRef.current, {
           expressions: true,
           expressionsTopbar: true,
@@ -211,14 +229,21 @@ export const DesmosDialog = ({
         };
         calc.observeEvent?.("change", handleCalculatorChange);
         removeChangeObserverRef.current = () => calc.unobserveEvent?.("change", handleCalculatorChange);
+        setLoadStatus("ready");
       })
       .catch(() => {
+        if (cancelled) return;
+        removeChangeObserverRef.current?.();
+        removeChangeObserverRef.current = null;
+        calcRef.current?.destroy();
+        calcRef.current = null;
+        setLoadStatus("error");
       });
 
     return () => {
       cancelled = true;
     };
-  }, [calculatorResetKey, flushCalculatorState, hasEverOpened, readCalculatorState]);
+  }, [calculatorResetKey, flushCalculatorState, hasEverOpened, loadAttempt, readCalculatorState]);
 
   useEffect(() => {
     if (!openStateKey || !storageArea) return;
@@ -292,6 +317,7 @@ export const DesmosDialog = ({
         size="sm"
         onClick={handleToggle}
         data-tour="desmos-button"
+        aria-label={compressed ? "Desmos calculator" : undefined}
         className={compressed ? "w-9 px-0" : undefined}
       >
         <Calculator className={compressed ? "h-4 w-4" : "mr-2 h-4 w-4"} />
@@ -323,7 +349,26 @@ export const DesmosDialog = ({
         contentSplitExitPosition={contentSplitExitPosition}
         sidebarExitMainMaxWidth={sidebarExitMainMaxWidth}
       >
-        <div ref={containerRef} className="h-full w-full bg-white" />
+        {loadStatus === "error" ? (
+          <div className="flex h-full w-full items-center justify-center bg-background p-6 text-center" role="alert">
+            <div className="max-w-sm">
+              <p className="font-semibold text-foreground">Desmos could not load</p>
+              <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                Check your connection, then try loading the calculator again.
+              </p>
+              <Button className="mt-4" onClick={retryDesmosLoad}>Try again</Button>
+            </div>
+          </div>
+        ) : (
+          <div className="relative h-full w-full bg-white" aria-busy={loadStatus !== "ready"}>
+            <div ref={containerRef} className="h-full w-full" />
+            {loadStatus !== "ready" ? (
+              <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white text-sm text-slate-600" role="status">
+                Loading Desmos…
+              </div>
+            ) : null}
+          </div>
+        )}
       </DraggableWindow>
     </>
   );

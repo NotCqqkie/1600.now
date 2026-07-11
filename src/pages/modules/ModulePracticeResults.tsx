@@ -19,6 +19,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { DraggableWindow } from "@/components/DraggableWindow";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { usePracticeResultSplitCssVariable } from "@/hooks/usePracticeResultSplitCssVariable";
 import { getLoadedPracticeModule, getPracticeModule, loadPracticeModule } from "@/data/modulePracticeBank";
 import {
@@ -49,6 +50,7 @@ import {
   getReviewQuestionImageClassName,
 } from "@/lib/questionImageDisplay";
 import { useAuth } from "@/contexts/AuthContext";
+import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 
 const MODULES_PATH = "/modules";
 const RESULTS_ROOT_CLASS = "mx-auto flex min-h-screen w-full flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8";
@@ -110,6 +112,7 @@ const addStringSetValue = (previous: Set<string>, value: string): Set<string> =>
 };
 
 const ModulePracticeResults = () => {
+  const isMobile = useIsMobile();
   const { moduleId } = useParams<{ moduleId: string }>();
   const [searchParams] = useSearchParams();
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
@@ -176,7 +179,10 @@ const ModulePracticeResults = () => {
         )
       : false;
   const isExplanationOpen = activeExplanationQuestion !== null;
-  const useSidebarLayout = isExplanationOpen && isExplanationSidebarred;
+  const useSidebarLayout = shouldUseSidebarLayout(
+    isExplanationOpen && isExplanationSidebarred,
+    isMobile,
+  );
 
   usePracticeResultSplitCssVariable(useSidebarLayout, explanationSplitPosition);
 

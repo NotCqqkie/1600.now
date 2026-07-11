@@ -299,31 +299,34 @@ const BankBrowse = () => {
                         return (
                           <Card
                             key={skill}
-                            className="flex min-w-0 cursor-pointer items-center justify-between gap-3 p-3 transition-colors hover:bg-muted/50"
-                            onClick={() => handleSkillClick(skill)}
+                            className="flex min-w-0 items-center gap-2 p-3 transition-colors hover:bg-muted/50 focus-within:bg-muted/50"
                           >
-                            <div className="flex min-w-0 items-center gap-2">
-                              <Target className="h-4 w-4 shrink-0 text-muted-foreground" />
-                              <span className="min-w-0 break-words text-sm">{skill}</span>
-                            </div>
-                            <div className="flex shrink-0 items-center gap-2">
-                              <Button
-                                variant="ghost"
-                                size="icon"
-                                className="h-9 w-9 sm:h-7 sm:w-7"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  handleShuffleSkill(skill);
-                                }}
-                                title="Shuffle Skill"
-                              >
-                                <Shuffle className="h-3.5 w-3.5" />
-                              </Button>
-                              <Badge variant="outline" className="text-xs">
-                                {count}
-                              </Badge>
-                              <ChevronRight className="h-4 w-4 text-muted-foreground" />
-                            </div>
+                            <button
+                              type="button"
+                              className="flex min-w-0 flex-1 items-center justify-between gap-3 rounded-md p-1 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                              onClick={() => handleSkillClick(skill)}
+                            >
+                              <span className="flex min-w-0 items-center gap-2">
+                                <Target className="h-4 w-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+                                <span className="min-w-0 break-words text-sm">{skill}</span>
+                              </span>
+                              <span className="flex shrink-0 items-center gap-2">
+                                <span className="inline-flex items-center rounded-full border px-[9px] py-[3px] text-xs font-semibold text-ink-mid">
+                                  {count}
+                                </span>
+                                <ChevronRight className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
+                              </span>
+                            </button>
+                            <Button
+                              variant="ghost"
+                              size="icon"
+                              className="h-9 w-9 shrink-0 sm:h-7 sm:w-7"
+                              onClick={() => handleShuffleSkill(skill)}
+                              title="Shuffle Skill"
+                              aria-label={`Shuffle ${skill}`}
+                            >
+                              <Shuffle className="h-3.5 w-3.5" />
+                            </Button>
                           </Card>
                         );
                       })}

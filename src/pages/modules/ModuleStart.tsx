@@ -230,7 +230,7 @@ const ModuleStart = () => {
 
           <div className="flex flex-wrap justify-end gap-3">
             <Button variant="outline" asChild>
-              <Link to={`/modules/${module.slug}`}>Cancel</Link>
+              <Link to="/modules">Cancel</Link>
             </Button>
             <Button onClick={() => launchSession(false)}>
               Start module

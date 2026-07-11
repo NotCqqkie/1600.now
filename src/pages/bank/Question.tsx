@@ -121,6 +121,13 @@ import {
   getQuestionUiStates,
   saveQuestionUiState,
 } from "@/lib/practice/questionUiState";
+import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
+import {
+  canScrollElementInDirection,
+  getTouchScrollDelta,
+} from "@/lib/questionPageScrollLock";
+import { createRetryableLazyLoader } from "@/lib/retryableLazyLoader";
+import { shouldIgnoreQuestionShortcut } from "@/lib/questionKeyboardShortcuts";
 
 const HIDDEN_MEASUREMENT_STYLE = { visibility: 'hidden', pointerEvents: 'none' } as const;
 const COUNT_UP_IDLE_PAUSE_MS = 15 * 60 * 1000;
@@ -145,12 +152,7 @@ const canScrollLockedPageTarget = (target: EventTarget | null, deltaY: number) =
     if (element instanceof HTMLElement) {
       const { overflowY } = window.getComputedStyle(element);
       const scrollable = overflowY === "auto" || overflowY === "scroll" || overflowY === "overlay";
-      const maxScrollTop = element.scrollHeight - element.clientHeight;
-
-      if (scrollable && maxScrollTop > 1) {
-        if (deltaY > 0 && element.scrollTop < maxScrollTop - 1) return true;
-        if (deltaY < 0 && element.scrollTop > 1) return true;
-      }
+      if (scrollable && canScrollElementInDirection(element, deltaY)) return true;
     }
     element = element.parentElement;
   }
@@ -165,15 +167,17 @@ const hardQuestions = originalQuestions.map(originalQuestion => ({
 
 type ModulePracticeBankApi = typeof import("@/data/modulePracticeBank");
 let loadedModulePracticeBank: ModulePracticeBankApi | null = null;
-let modulePracticeBankPromise: Promise<ModulePracticeBankApi> | null = null;
+const importModulePracticeBank = createRetryableLazyLoader(() =>
+  import("@/data/modulePracticeBank").then((mod) => {
+    loadedModulePracticeBank = mod;
+    return mod;
+  }),
+);
 
 const loadModulePracticeBank = (practiceDataTarget: string) => {
   const apiPromise = loadedModulePracticeBank
     ? Promise.resolve(loadedModulePracticeBank)
-    : (modulePracticeBankPromise ??= import("@/data/modulePracticeBank").then((mod) => {
-        loadedModulePracticeBank = mod;
-        return mod;
-      }));
+    : importModulePracticeBank();
   return apiPromise.then((mod) =>
     mod.ensurePracticeDataLoaded(practiceDataTarget).then(() => mod),
   );
@@ -741,24 +745,37 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       ? loadedModulePracticeBank
       : null,
   );
+  const [modulePracticeBankRetryVersion, setModulePracticeBankRetryVersion] = useState(0);
+  const [modulePracticeBankErrorTarget, setModulePracticeBankErrorTarget] = useState<string | null>(null);
   useEffect(() => {
     let cancelled = false;
     if (!modulePracticeBankTarget) {
       setModulePracticeBank(null);
+      setModulePracticeBankErrorTarget(null);
       return;
     }
     if (loadedModulePracticeBank?.isPracticeDataLoaded(modulePracticeBankTarget)) {
       setModulePracticeBank(loadedModulePracticeBank);
+      setModulePracticeBankErrorTarget(null);
       return;
     }
     setModulePracticeBank(null);
-    loadModulePracticeBank(modulePracticeBankTarget).then((mod) => {
-      if (!cancelled) setModulePracticeBank(mod);
-    });
+    setModulePracticeBankErrorTarget(null);
+    void loadModulePracticeBank(modulePracticeBankTarget)
+      .then((mod) => {
+        if (cancelled) return;
+        setModulePracticeBank(mod);
+        setModulePracticeBankErrorTarget(null);
+      })
+      .catch(() => {
+        if (!cancelled) setModulePracticeBankErrorTarget(modulePracticeBankTarget);
+      });
     return () => {
       cancelled = true;
     };
-  }, [modulePracticeBankTarget]);
+  }, [modulePracticeBankRetryVersion, modulePracticeBankTarget]);
+  const modulePracticeBankLoadFailed =
+    Boolean(modulePracticeBankTarget) && modulePracticeBankErrorTarget === modulePracticeBankTarget;
   const modulePracticeModule = useMemo<LoadedPracticeModule | null>(
     () => (modulePracticeSlug && modulePracticeBank ? modulePracticeBank.getLoadedPracticeModule(modulePracticeSlug) : null),
     [modulePracticeBank, modulePracticeSlug],
@@ -1833,7 +1850,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     syncAssessmentTimer,
   ]);
 
-  const isSplitScreenActive = splitScreenWindows.size > 0;
+  const isSplitScreenActive = shouldUseSidebarLayout(splitScreenWindows.size > 0, isMobile);
 
   useLayoutEffect(() => {
     if (!isBank || isEmbed) return;
@@ -1843,6 +1860,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     let frameId: number | null = null;
     let scrollResetFrameId: number | null = null;
     let isScrollLocked = false;
+    let lastTouchY: number | null = null;
 
     const resetScrollPosition = () => {
       if (scrollResetFrameId !== null) return;
@@ -1863,12 +1881,40 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       }
     };
 
-    const preventLockedScroll = (event: WheelEvent | TouchEvent) => {
+    const preventLockedWheelScroll = (event: WheelEvent) => {
       if (!isScrollLocked) return;
-      if ("touches" in event && event.touches.length >= 2) return;
-      if ("deltaY" in event && canScrollLockedPageTarget(event.target, event.deltaY)) return;
+      if (canScrollLockedPageTarget(event.target, event.deltaY)) return;
       event.preventDefault();
       resetScrollPosition();
+    };
+
+    const handleLockedTouchStart = (event: TouchEvent) => {
+      if (!isScrollLocked || event.touches.length !== 1) {
+        lastTouchY = null;
+        return;
+      }
+      lastTouchY = event.touches[0].clientY;
+    };
+
+    const preventLockedTouchScroll = (event: TouchEvent) => {
+      if (!isScrollLocked) return;
+      if (event.touches.length !== 1) {
+        lastTouchY = null;
+        return;
+      }
+      const currentTouchY = event.touches[0].clientY;
+      const previousTouchY = lastTouchY;
+      lastTouchY = currentTouchY;
+      if (
+        previousTouchY !== null &&
+        canScrollLockedPageTarget(event.target, getTouchScrollDelta(previousTouchY, currentTouchY))
+      ) return;
+      event.preventDefault();
+      resetScrollPosition();
+    };
+
+    const resetLockedTouch = () => {
+      lastTouchY = null;
     };
 
     const preventLockedKeyScroll = (event: KeyboardEvent) => {
@@ -1914,8 +1960,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     if (bottomNavRef.current) resizeObserver.observe(bottomNavRef.current);
     window.addEventListener("resize", scheduleScrollLockUpdate);
     window.visualViewport?.addEventListener("resize", scheduleScrollLockUpdate);
-    window.addEventListener("wheel", preventLockedScroll, { capture: true, passive: false });
-    window.addEventListener("touchmove", preventLockedScroll, { capture: true, passive: false });
+    window.addEventListener("wheel", preventLockedWheelScroll, { capture: true, passive: false });
+    window.addEventListener("touchstart", handleLockedTouchStart, { capture: true, passive: true });
+    window.addEventListener("touchmove", preventLockedTouchScroll, { capture: true, passive: false });
+    window.addEventListener("touchend", resetLockedTouch, { capture: true });
+    window.addEventListener("touchcancel", resetLockedTouch, { capture: true });
     window.addEventListener("keydown", preventLockedKeyScroll, { capture: true });
     window.addEventListener("scroll", handleLockedScroll, { passive: true });
     scheduleScrollLockUpdate();
@@ -1928,8 +1977,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       resizeObserver.disconnect();
       window.removeEventListener("resize", scheduleScrollLockUpdate);
       window.visualViewport?.removeEventListener("resize", scheduleScrollLockUpdate);
-      window.removeEventListener("wheel", preventLockedScroll, { capture: true });
-      window.removeEventListener("touchmove", preventLockedScroll, { capture: true });
+      window.removeEventListener("wheel", preventLockedWheelScroll, { capture: true });
+      window.removeEventListener("touchstart", handleLockedTouchStart, { capture: true });
+      window.removeEventListener("touchmove", preventLockedTouchScroll, { capture: true });
+      window.removeEventListener("touchend", resetLockedTouch, { capture: true });
+      window.removeEventListener("touchcancel", resetLockedTouch, { capture: true });
       window.removeEventListener("keydown", preventLockedKeyScroll, { capture: true });
       window.removeEventListener("scroll", handleLockedScroll);
       setScrollLocked(false);
@@ -3166,6 +3218,10 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
+      if (shouldIgnoreQuestionShortcut(e)) return;
+      if (target.closest('button, a[href], select, [role="button"], [role="link"], [role="checkbox"], [role="radio"], [role="slider"], [role="tab"], [role="menuitem"], [role="option"]')) {
+        return;
+      }
       if (target.tagName === 'TEXTAREA' || target.isContentEditable || target.closest('[contenteditable="true"]')) {
         return;
       }
@@ -3479,7 +3535,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   const isReadingPassageAnnotatable = subject === "reading" && Boolean(readingPassageContent);
   const shouldReduceQuestionImageSize = isBank;
   const isQuestionDataLoading =
-    (needsModulePracticeBank && !modulePracticeBank) ||
+    (needsModulePracticeBank && !modulePracticeBank && !modulePracticeBankLoadFailed) ||
     (canUseRouteIndexedBankQuestion
       ? isRouteIndexedQuestionLoading || (routeIndexedQuestionMissed && isBankQuestionPoolLoading)
       : isBankQuestionPoolLoading);
@@ -3529,6 +3585,11 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
   };
 
   const backDestination = practiceExitTo || (is100Hard ? "/hard" : isBank ? `/bank?bankType=${bankSource}` : "/bank");
+  const handlePracticeExit = () => {
+    clearQuestionBankViewerNotes();
+    clearCurrentDesmosUiState();
+    navigate(backDestination);
+  };
 
   useEffect(() => {
     setIsNoteWindowOpen(noteStorageArea.getItem(noteWindowOpenKey) === "true");
@@ -3551,18 +3612,35 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
     return <div className="min-h-screen bg-background" />;
   }
 
+  if (!currentQuestion && modulePracticeBankLoadFailed) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background px-4">
+        <div className="w-full max-w-md rounded-xl border border-border bg-card p-6 text-center shadow-sm" role="alert">
+          <h1 className="text-xl font-semibold text-foreground">Practice questions could not load</h1>
+          <p className="mt-2 text-sm leading-6 text-muted-foreground">
+            Check your connection, then try loading this question again.
+          </p>
+          <div className="mt-5 flex flex-col-reverse gap-2 sm:flex-row sm:justify-center">
+            <Button variant="outline" onClick={handlePracticeExit}>Exit practice</Button>
+            <Button
+              onClick={() => {
+                setModulePracticeBankErrorTarget(null);
+                setModulePracticeBankRetryVersion((version) => version + 1);
+              }}
+            >
+              Try again
+            </Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (!currentQuestion) {
-    const fallbackDestination = practiceExitTo || (isBank ? `/bank?bankType=${bankSource}` : "/bank");
     return <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Question not found</h1>
-        <Button
-          onClick={() => {
-            clearQuestionBankViewerNotes();
-            clearCurrentDesmosUiState();
-            navigate(fallbackDestination);
-          }}
-        >
+        <Button onClick={handlePracticeExit}>
           Go Home
         </Button>
       </div>
@@ -3674,8 +3752,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
       <Button
         variant="ghost"
         size="icon"
-        className="h-9 w-9"
+        className="h-11 w-11"
         onClick={() => setIsTimerVisible((prev) => !prev)}
+        aria-label={isTimerVisible ? "Hide timer" : "Show timer"}
         title={isTimerVisible ? "Hide timer" : "Show timer"}
       >
         {isTimerVisible ? (
@@ -3694,7 +3773,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
         <Button
           variant="ghost"
           size="icon"
-          className="h-9 w-9"
+          className="h-11 w-11"
           onClick={() => {
             if (isIdleTimerPaused) {
               resumeIdleTimer();
@@ -3707,6 +3786,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
             pauseCountUpTimer();
           }}
           title={isTimerControlPaused ? "Resume timer" : "Pause timer"}
+          aria-label={isTimerControlPaused ? "Resume timer" : "Pause timer"}
         >
           {isTimerControlPaused ? (
             <Play className="h-5 w-5" />
@@ -4057,7 +4137,12 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
               {isEmbed ? null : isAssessmentMode ? (
                 <AlertDialog>
                   <AlertDialogTrigger asChild>
-                    <Button variant="ghost" size="sm" className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      aria-label={effectiveTopShouldCompress ? "Save and exit" : undefined}
+                      className={effectiveTopShouldCompress ? "h-11 w-11 px-0" : undefined}
+                    >
                       <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                       {!effectiveTopShouldCompress && "Save & Exit"}
                     </Button>
@@ -4084,12 +4169,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}
-                  onClick={() => {
-                    clearQuestionBankViewerNotes();
-                    clearCurrentDesmosUiState();
-                    navigate(backDestination);
-                  }}
+                  aria-label={effectiveTopShouldCompress ? "Back" : undefined}
+                  className={effectiveTopShouldCompress ? "h-11 w-11 px-0" : undefined}
+                  onClick={handlePracticeExit}
                 >
                   <ChevronLeft className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!effectiveTopShouldCompress && "Home"}
@@ -4143,13 +4225,14 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     variant="outline"
                     size="sm"
                     className={cn(
-                      effectiveTopShouldCompress ? "w-9 px-0" : "min-w-[112px]",
+                      effectiveTopShouldCompress ? "h-11 w-11 px-0" : "min-h-11 min-w-[112px]",
                       isAnnotationModeEnabled
                         ? "border-primary bg-primary text-primary-foreground shadow-sm hover:!border-cobalt hover:!bg-cobalt hover:!text-white dark:border-primary dark:bg-primary dark:text-primary-foreground dark:hover:!border-cobalt dark:hover:!bg-cobalt dark:hover:!text-white"
                         : "bg-background text-foreground dark:border-white/20",
                     )}
                     onClick={() => setIsAnnotationModeEnabled((prev) => !prev)}
                     title={isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on"}
+                    aria-label={effectiveTopShouldCompress ? (isAnnotationModeEnabled ? "Turn annotation mode off" : "Turn annotation mode on") : undefined}
                     aria-pressed={isAnnotationModeEnabled}
                   >
                     <Highlighter className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
@@ -4165,8 +4248,9 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                       variant="outline"
                       size="sm"
                       title="More"
+                      aria-label={effectiveTopShouldCompress ? "More" : undefined}
                       data-tour="question-more-menu"
-                      className={effectiveTopShouldCompress ? "w-9 px-0" : undefined}
+                      className={effectiveTopShouldCompress ? "h-11 w-11 px-0" : "min-h-11"}
                     >
                       <MoreHorizontal className={effectiveTopShouldCompress ? "h-4 w-4" : "mr-2 h-4 w-4"} />
                       {!effectiveTopShouldCompress && "More"}
@@ -4356,7 +4440,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
-                      className="h-7 rounded px-3 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-white/10"
+                      className="h-7 rounded px-3 gap-2 font-normal text-foreground hover:bg-white/50 dark:hover:bg-white/10"
                     >
                       <Bookmark className={cn("h-3.5 w-3.5", markedForReview && "bookmark-flag")} />
                       <span className="text-xs font-medium">Mark for Review</span>
@@ -4419,7 +4503,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                     <Button
                       variant="ghost"
                       onClick={handleToggleReview}
-                      className="h-9 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-white/10"
+                      className="h-11 rounded px-4 gap-2 font-normal text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-white/10"
                     >
                       <Bookmark className={cn("h-4 w-4", markedForReview && "bookmark-flag")} />
                       <span className="text-sm font-medium">Mark for Review</span>
@@ -4433,7 +4517,7 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                         size="icon"
                         onClick={handleStrikeoutModeToggle}
                         className={cn(
-                          "h-9 w-9 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
+                          "h-11 w-11 rounded text-muted-foreground hover:bg-white/50 hover:text-foreground dark:hover:bg-white/10",
                           strikeoutMode && "bg-primary text-primary-foreground shadow-sm ring-1 ring-primary/40 hover:!bg-cobalt hover:!text-white hover:ring-cobalt/45 dark:bg-primary dark:text-primary-foreground dark:hover:!bg-cobalt dark:hover:!text-white",
                         )}
                         title={strikeoutMode ? "Turn strikethrough mode off" : "Turn strikethrough mode on"}
@@ -4512,7 +4596,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 variant="outline"
                 onClick={handlePrevious}
                 disabled={!canGoPrevious}
-                className={cn("h-10", shouldCompress && "w-10 px-0")}
+                aria-label={shouldCompress ? "Previous question" : undefined}
+                className={cn("h-11", shouldCompress && "w-11 px-0")}
               >
                 <ChevronLeft className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                 {!shouldCompress && <span>Previous</span>}
@@ -4630,7 +4715,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                   onClick={() => handleCheck()}
                   disabled={isCheckDisabled}
                   variant="outline"
-                  className={cn("h-10 border-2 transition-colors duration-150 ease-out", shouldCompress && "w-10 px-0", getCheckButtonClasses())}
+                  aria-label={shouldCompress ? "Check answer" : undefined}
+                  className={cn("h-11 border-2 transition-colors duration-150 ease-out", shouldCompress && "w-11 px-0", getCheckButtonClasses())}
                 >
                   <Check className={shouldCompress ? "h-4 w-4" : "mr-1 h-4 w-4"} />
                   {!shouldCompress && <span>Check</span>}
@@ -4640,7 +4726,8 @@ export function Question({ previewEmbed }: QuestionProps = {}) {
                 onClick={handleEmbedAwareAdvance}
                 disabled={isAssessmentMode ? false : !canGoNext && !isAtPreviewQuestionLimit}
                 variant="outline"
-                className={cn("h-10 transition-colors duration-200 ease-out", shouldCompress && "w-10 px-0")}
+                aria-label={shouldCompress ? practiceTestAdvanceLabel : undefined}
+                className={cn("h-11 transition-colors duration-200 ease-out", shouldCompress && "w-11 px-0")}
               >
                 {!shouldCompress && (
                   <span>

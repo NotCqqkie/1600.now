@@ -5,7 +5,9 @@ export const MOBILE_MEDIA_QUERY = `(max-width: ${MOBILE_BREAKPOINT - 1}px)`;
 const getIsMobile = (): boolean => window.innerWidth < MOBILE_BREAKPOINT;
 
 export function useIsMobile(): boolean {
-  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined);
+  const [isMobile, setIsMobile] = React.useState<boolean>(() =>
+    typeof window !== "undefined" ? getIsMobile() : false,
+  );
 
   React.useEffect(() => {
     const mql = window.matchMedia(MOBILE_MEDIA_QUERY);
@@ -17,5 +19,5 @@ export function useIsMobile(): boolean {
     return () => mql.removeEventListener("change", onChange);
   }, []);
 
-  return !!isMobile;
+  return isMobile;
 }

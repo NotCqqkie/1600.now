@@ -118,6 +118,7 @@ export function PreviousAttemptsDialog({ attempts }: PreviousAttemptsDialogProps
           size="icon"
           className="h-8 w-8 rounded-lg hover:bg-muted"
           onClick={(e) => e.stopPropagation()}
+          aria-label="View previous attempts"
         >
           <RotateCcw className="h-4 w-4" />
         </Button>

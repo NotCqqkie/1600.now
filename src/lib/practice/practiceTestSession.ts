@@ -147,6 +147,84 @@ const getTimerRemainderMs = (value: number | undefined) =>
     ? Math.max(0, Math.min(999, Math.floor(value)))
     : 0;
 
+const isFiniteNonNegative = (value: unknown): value is number =>
+  typeof value === "number" && Number.isFinite(value) && value >= 0;
+
+const isValidPracticeTestModule = (value: unknown): value is PracticeTestModuleSession => {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  const module = value as Partial<PracticeTestModuleSession>;
+  return typeof module.moduleSlug === "string"
+    && module.moduleSlug.length > 0
+    && module.moduleSlug.length <= 200
+    && typeof module.moduleTitle === "string"
+    && module.moduleTitle.length <= 300
+    && (module.subject === "reading" || module.subject === "math")
+    && (module.moduleNumber === 1 || module.moduleNumber === 2)
+    && Number.isInteger(module.questionCount)
+    && Number(module.questionCount) > 0
+    && Number.isInteger(module.startIndex)
+    && Number(module.startIndex) >= 0
+    && Number.isInteger(module.endIndex)
+    && Number(module.endIndex) >= Number(module.startIndex)
+    && Number(module.endIndex) - Number(module.startIndex) + 1 === Number(module.questionCount)
+    && (module.timeLimitSeconds === null
+      || (typeof module.timeLimitSeconds === "number"
+        && Number.isFinite(module.timeLimitSeconds)
+        && module.timeLimitSeconds > 0))
+    && isFiniteNonNegative(module.elapsedSeconds)
+    && (module.remainingSeconds === null || isFiniteNonNegative(module.remainingSeconds))
+    && (module.timerRemainderMs === undefined
+      || (isFiniteNonNegative(module.timerRemainderMs) && module.timerRemainderMs <= 999))
+    && (module.status === "pending" || module.status === "active" || module.status === "completed");
+};
+
+export const normalizePracticeTestSession = (
+  value: unknown,
+  practiceSetId: string,
+): PracticeTestSessionMeta | null => {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+  const session = value as Partial<PracticeTestSessionMeta>;
+  if (session.version !== 1
+      || typeof session.sessionId !== "string"
+      || session.sessionId.length === 0
+      || session.sessionId.length > 300
+      || session.practiceSetId !== practiceSetId
+      || !Number.isInteger(session.practiceSetNumber)
+      || Number(session.practiceSetNumber) <= 0
+      || !Number.isInteger(session.currentIndex)
+      || Number(session.currentIndex) < 0
+      || !Number.isInteger(session.activeModuleIndex)
+      || typeof session.startedAt !== "number"
+      || !Number.isFinite(session.startedAt)
+      || (session.status !== "active" && session.status !== "paused" && session.status !== "submitted")
+      || (session.phase !== "module" && session.phase !== "review")
+      || !session.settings
+      || typeof session.settings !== "object"
+      || typeof session.settings.timed !== "boolean"
+      || typeof session.settings.allowCheckingAnswers !== "boolean"
+      || !session.settings.moduleTimeLimitSeconds
+      || typeof session.settings.moduleTimeLimitSeconds !== "object"
+      || Array.isArray(session.settings.moduleTimeLimitSeconds)
+      || !Array.isArray(session.modules)
+      || session.modules.length === 0
+      || session.modules.length > 8
+      || !session.modules.every(isValidPracticeTestModule)
+      || Number(session.activeModuleIndex) < 0
+      || Number(session.activeModuleIndex) >= session.modules.length
+      || Number(session.currentIndex) > Math.max(...session.modules.map((module) => module.endIndex))
+      || (session.breakStatus !== "pending"
+        && session.breakStatus !== "active"
+        && session.breakStatus !== "completed"
+        && session.breakStatus !== "skipped")
+      || !isFiniteNonNegative(session.breakElapsedSeconds)
+      || !isFiniteNonNegative(session.breakRemainingSeconds)) return null;
+
+  const timingValues = Object.values(session.settings.moduleTimeLimitSeconds);
+  if (timingValues.some((value) => value !== null
+      && (typeof value !== "number" || !Number.isFinite(value) || value <= 0))) return null;
+  return session as PracticeTestSessionMeta;
+};
+
 const getQuestionPrompt = (question: {
   questionText?: string | null;
   prompt?: string | null;
@@ -232,7 +310,10 @@ export const createPracticeTestSession = (
 
 export const getPracticeTestSession = (
   practiceSetId: string,
-): PracticeTestSessionMeta | null => readJson<PracticeTestSessionMeta>(sessionStorage, getSessionKey(practiceSetId));
+): PracticeTestSessionMeta | null => normalizePracticeTestSession(
+  readJson<unknown>(sessionStorage, getSessionKey(practiceSetId)),
+  practiceSetId,
+);
 
 export const savePracticeTestSession = (session: PracticeTestSessionMeta) => {
   writeJson(sessionStorage, getSessionKey(session.practiceSetId), session);

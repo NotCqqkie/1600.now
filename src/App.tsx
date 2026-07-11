@@ -14,6 +14,7 @@ import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Seo } from "@/components/seo/Seo";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { registerRoutePreloader } from "@/lib/routePreload";
+import { registerRouteLoadErrorReset } from "@/lib/routeLoadRecovery";
 import "@/lib/personalization";
 
 type LoadableModule<T extends ComponentType<unknown>> = { default: T };
@@ -29,6 +30,12 @@ const preloadableLazy = <T extends ComponentType<unknown>>(
   let loadPromise: Promise<LoadableModule<T>> | null = null;
   let loadError: unknown = null;
 
+  registerRouteLoadErrorReset(() => {
+    if (!loadError) return;
+    loadError = null;
+    loadPromise = null;
+  });
+
   const preload = () => {
     if (loadedModule) return Promise.resolve(loadedModule);
     if (loadError) return Promise.reject(loadError);
@@ -38,6 +45,7 @@ const preloadableLazy = <T extends ComponentType<unknown>>(
         return module;
       },
       (error: unknown) => {
+        loadPromise = null;
         loadError = error;
         throw error;
       },
@@ -2472,7 +2480,7 @@ const App = () => (
       <AuthProvider>
         <Toaster />
         <Sonner position="top-center" duration={2000} />
-        <BrowserRouter future={{ v7_startTransition: true }}>
+        <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <StableRoutes />
         </BrowserRouter>
       </AuthProvider>

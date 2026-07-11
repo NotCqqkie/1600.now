@@ -15,7 +15,6 @@ import {
 } from "@/data/questionBank";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
@@ -246,38 +245,44 @@ const BankFiltered = () => {
                     const answered = isAnsweredQuestionState(state);
                     const flagged = state?.flagged === true;
                     return (
-                      <div
+                      <button
+                        type="button"
                         key={question.id}
-                        className="bank-result-row group flex cursor-pointer items-center gap-4 border-l-2 border-l-transparent p-4 hover:border-l-ds-accent-deep hover:bg-muted/45"
+                        className="bank-result-row group flex w-full cursor-pointer items-center gap-4 border-l-2 border-l-transparent p-4 text-left hover:border-l-ds-accent-deep hover:bg-muted/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring"
                         onClick={() => handleQuestionClick(question)}
                       >
-                        <div className="flex items-center gap-2">
+                        <span className="sr-only">{answered ? "Answered" : "Unanswered"} question</span>
+                        <span className="flex items-center gap-2">
                           {answered ? (
-                            <CheckCircle2 className="h-5 w-5 text-green-500" />
+                            <CheckCircle2 className="h-5 w-5 text-green-500" aria-hidden="true" />
                           ) : (
-                            <div className="h-5 w-5 rounded-full border-2 border-muted-foreground/30" />
+                            <span className="h-5 w-5 rounded-full border-2 border-muted-foreground/30" aria-hidden="true" />
                           )}
                           <span className="font-mono text-muted-foreground w-8">
                             #{question.id}
                           </span>
-                        </div>
+                        </span>
 
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 mb-1">
+                        <span className="min-w-0 flex-1">
+                          <span className="mb-1 flex items-center gap-2">
                             <span className="text-xs font-medium text-muted-foreground line-clamp-1">
                               {question.category.skill}
                             </span>
-                            {flagged && <Flag className="h-3 w-3 text-red-500 fill-red-500" />}
-                          </div>
-                          <p className="line-clamp-2 text-sm">
+                            {flagged ? (
+                              <>
+                                <Flag className="h-3 w-3 fill-red-500 text-red-500" aria-hidden="true" />
+                                <span className="sr-only">Marked for review</span>
+                              </>
+                            ) : null}
+                          </span>
+                          <span className="line-clamp-2 text-sm">
                             {question.prompt}
-                          </p>
-                        </div>
+                          </span>
+                        </span>
 
-                        <div className="flex items-center gap-2">
-                          <Badge
-                            variant="outline"
-                            className={`text-xs ${
+                        <span className="flex items-center gap-2">
+                          <span
+                            className={`inline-flex items-center rounded-full border px-[9px] py-[3px] text-xs font-semibold ${
                               question.category.confidence === "high"
                                 ? "border-green-500/50"
                                 : question.category.confidence === "medium"
@@ -286,10 +291,10 @@ const BankFiltered = () => {
                             }`}
                           >
                             {question.category.confidence}
-                          </Badge>
-                          <ChevronRight className="bank-result-arrow h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100" />
-                        </div>
-                      </div>
+                          </span>
+                          <ChevronRight className="bank-result-arrow h-5 w-5 text-muted-foreground opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100" aria-hidden="true" />
+                        </span>
+                      </button>
                     );
                   })}
                 </div>

@@ -445,6 +445,7 @@ export const TransparentAwareImage = ({
   const renderedWidth = width ?? effectiveIntrinsicSize?.width;
   const renderedHeight = height ?? effectiveIntrinsicSize?.height;
   const accessibleLabel = alt.trim();
+  const fetchPriorityProps = fetchPriority ? { fetchpriority: fetchPriority } : {};
 
   return (
     <span
@@ -468,7 +469,7 @@ export const TransparentAwareImage = ({
         className={cn(imageClassName, shouldReserveWhiteBackground && !shouldUseQuestionImageFrame && "rounded-lg")}
         loading={loading}
         decoding="async"
-        fetchPriority={fetchPriority}
+        {...fetchPriorityProps}
         srcSet={srcSet}
         sizes={sizes}
         width={renderedWidth}

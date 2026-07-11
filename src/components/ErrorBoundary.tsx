@@ -5,6 +5,7 @@ import {
   recoverFromChunkLoadError,
 } from "@/lib/chunkLoadRecovery";
 import { reportError } from "@/lib/reportError";
+import { resetRouteLoadErrors } from "@/lib/routeLoadRecovery";
 
 interface Props {
   children: ReactNode;
@@ -37,6 +38,7 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   private handleRetry = () => {
+    resetRouteLoadErrors();
     this.setState({ hasError: false, error: null });
   };
 

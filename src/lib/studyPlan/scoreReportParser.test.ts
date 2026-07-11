@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
 
-import { parseScoreReportText } from "@/lib/studyPlan/scoreReportParser";
+import {
+  parseScoreReportFile,
+  parseScoreReportText,
+  readScoreReportImageDimensions,
+  validateScoreReportImageDimensions,
+} from "@/lib/studyPlan/scoreReportParser";
 
 const cleanReport = [
   "SAT Score Report",
@@ -93,5 +98,38 @@ describe("parseScoreReportText", () => {
     expect(report.mathScore).toBe(640);
     // "Problem Solving" (no hyphen) still matches via its alias.
     expect(domainById(report, "Problem-Solving and Data Analysis").proficiency).toBe(2);
+  });
+});
+
+describe("score report image validation", () => {
+  it("reads and rejects oversized PNG dimensions before image decoding", async () => {
+    const bytes = new Uint8Array(24);
+    bytes.set([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a], 0);
+    bytes.set([0x49, 0x48, 0x44, 0x52], 12);
+    const view = new DataView(bytes.buffer);
+    view.setUint32(16, 5001);
+    view.setUint32(20, 4000);
+
+    const file = new File([bytes], "report.png", { type: "image/png" });
+    const dimensions = await readScoreReportImageDimensions(file);
+
+    expect(dimensions).toEqual({ width: 5001, height: 4000 });
+    expect(() => validateScoreReportImageDimensions(dimensions.width, dimensions.height))
+      .toThrow("Score report images must be 20 megapixels or smaller.");
+    await expect(parseScoreReportFile(file))
+      .rejects.toThrow("Score report images must be 20 megapixels or smaller.");
+  });
+
+  it("reads JPEG dimensions before image decoding", async () => {
+    const bytes = new Uint8Array([
+      0xff, 0xd8,
+      0xff, 0xe0, 0x00, 0x04, 0x00, 0x00,
+      0xff, 0xc0, 0x00, 0x0b, 0x08, 0x0f, 0xa0, 0x13, 0x88, 0x01, 0x01, 0x11, 0x00,
+      0xff, 0xd9,
+    ]);
+
+    await expect(readScoreReportImageDimensions(
+      new File([bytes], "report.jpg", { type: "image/jpeg" }),
+    )).resolves.toEqual({ width: 5000, height: 4000 });
   });
 });

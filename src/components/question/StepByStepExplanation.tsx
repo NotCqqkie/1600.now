@@ -6,6 +6,7 @@ import { ChevronUp, ChevronDown } from "lucide-react";
 import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeExplanationData } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
+import { createAbortableRequestGuard } from "@/lib/abortableRequestGuard";
 type ExplanationData = NonNullable<ReturnType<typeof normalizeExplanationData>>;
 type ExplanationStep = ExplanationData["steps"][number];
 
@@ -20,24 +21,28 @@ export function StepByStepExplanation({ questionId, correctAnswer }: StepByStepE
   const [currentStep, setCurrentStep] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [animKey, setAnimKey] = useState(0);
+  const userTookOverRef = useRef(false);
 
   useEffect(() => {
+    const requestGuard = createAbortableRequestGuard();
     setData(null);
     setRevealedUpTo(0);
     setCurrentStep(0);
-    fetch(`/explanations/${questionId}.json`)
+    userTookOverRef.current = false;
+    fetch(`/explanations/${questionId}.json`, { signal: requestGuard.signal })
       .then(response => response.ok ? response.json() : null)
       .then(payload => {
+        if (!requestGuard.canCommit()) return;
         const normalized = normalizeExplanationData(payload);
         if (normalized) setData(normalized);
       })
       .catch(() => {
-        setData(null);
+        if (requestGuard.canCommit()) setData(null);
       });
+    return requestGuard.abort;
   }, [questionId]);
   const [searchParams] = useSearchParams();
   const autoStep = searchParams.get("autoStep") === "1";
-  const userTookOverRef = useRef(false);
 
   const goToStep = useCallback((target: number, dir: 1 | -1) => {
     setDirection(dir);
@@ -94,8 +99,12 @@ export function StepByStepExplanation({ questionId, correctAnswer }: StepByStepE
         <div className="flex gap-1.5">
           {data.steps.map((_, stepIndex) => (
             <button
+              type="button"
               key={stepIndex}
               onClick={() => { if (stepIndex <= revealedUpTo) goToStep(stepIndex, stepIndex > currentStep ? 1 : -1); }}
+              disabled={stepIndex > revealedUpTo}
+              aria-label={`Go to explanation step ${stepIndex + 1}`}
+              aria-current={stepIndex === currentStep ? "step" : undefined}
               className={`rounded-full transition-all duration-300 ${
                 stepIndex === currentStep
                   ? "w-3 h-1.5 bg-primary"

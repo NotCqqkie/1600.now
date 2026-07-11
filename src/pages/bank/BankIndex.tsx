@@ -245,14 +245,19 @@ const getTopicSkills = (subject: "math" | "reading", domain: string): string[] =
     ? mathDomainSkills[domain as keyof typeof mathDomainSkills]
     : englishDomainSkills[domain as keyof typeof englishDomainSkills];
 
+const getDomainPanelId = (subject: "math" | "reading", domain: string) =>
+  `bank-${subject}-domain-${domain.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`;
+
 const TopicCheckboxSlot = ({
   visible,
   checked,
   onCheckedChange,
+  ariaLabel,
 }: {
   visible: boolean;
   checked: boolean;
   onCheckedChange: (checked: boolean) => void;
+  ariaLabel: string;
 }) => (
   <div className="relative h-9 w-9 shrink-0 sm:h-5 sm:w-5">
     {visible && (
@@ -260,6 +265,7 @@ const TopicCheckboxSlot = ({
         checked={checked}
         onCheckedChange={(next) => onCheckedChange(!!next)}
         onClick={(e) => e.stopPropagation()}
+        aria-label={ariaLabel}
         className={topicCheckboxClass}
       />
     )}
@@ -1206,6 +1212,7 @@ export const BankIndex = ({
               visible={isMultiSelect}
               checked={topicSelection.math.selected}
               onCheckedChange={(checked) => toggleSubject("math", checked)}
+              ariaLabel="Select Math questions"
             />
             <div className={isHomeFilterDemo ? "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-ds-accent/30" : "p-2 rounded-lg bg-ds-accent/30"}>
               <Calculator className={isHomeFilterDemo ? "h-3.5 w-3.5 text-ink" : "h-6 w-6 text-ink"} />
@@ -1247,6 +1254,7 @@ export const BankIndex = ({
         <div className={isHomeFilterDemo ? "space-y-1.5" : "space-y-3"} data-home-demo-topic-list={isHomeFilterDemo ? "true" : undefined}>
           {mathDomainsForDisplay.map((domain) => {
             const domainLabel = getTopicDisplayLabel("math", domain);
+            const domainPanelId = getDomainPanelId("math", domain);
             return (
               <div key={domain} className={isHomeFilterDemo ? "px-0 py-0" : "px-1 py-1"}>
                 <div className={isHomeFilterDemo ? "group/domain-row flex items-center gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
@@ -1254,10 +1262,16 @@ export const BankIndex = ({
                     visible={isMultiSelect}
                     checked={topicSelection.math.domains[domain]?.selected || false}
                     onCheckedChange={(checked) => toggleDomain("math", domain, checked)}
+                    ariaLabel={`Select ${domainLabel}`}
                   />
                   <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-center justify-between gap-1" : "flex items-center justify-between flex-1"}>
-                    <span
-                      className={isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"}
+                    <button
+                      type="button"
+                      tabIndex={isHomeFilterDemo ? -1 : undefined}
+                      className={cn(
+                        isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "flex-1 cursor-pointer py-1 text-left font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink",
+                        "rounded-sm text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+                      )}
                       title={domainLabel === domain ? undefined : domain}
                       onClick={() => {
                         if (isMultiSelect) {
@@ -1268,23 +1282,28 @@ export const BankIndex = ({
                       }}
                     >
                       {domainLabel}
-                    </span>
+                    </button>
                     <Button
                       variant="ghost"
                       size="icon"
-                      className={isHomeFilterDemo ? "hidden" : "h-6 w-6 mr-1 opacity-0 group-hover/domain-row:opacity-100 transition-opacity"}
+                      className={isHomeFilterDemo ? "hidden" : "mr-1 h-6 w-6 opacity-0 transition-opacity group-hover/domain-row:opacity-100 group-focus-within/domain-row:opacity-100 focus-visible:opacity-100"}
                       onClick={(e) => {
                         e.stopPropagation();
                         handleQuickStart("math", domain, undefined, true);
                       }}
                       title="Shuffle Domain"
+                      aria-label={`Shuffle ${domainLabel}`}
                     >
                       <Shuffle className="h-3 w-3" />
                     </Button>
-                    <div
-                      className={isHomeFilterDemo ? "flex shrink-0 cursor-pointer items-center gap-1 rounded px-0.5 py-1" : "flex items-center gap-2 cursor-pointer p-1 rounded"}
-                      onClick={(e) => {
-                        e.stopPropagation();
+                    <button
+                      type="button"
+                      tabIndex={isHomeFilterDemo ? -1 : undefined}
+                      aria-expanded={Boolean(expandedDomains[domain])}
+                      aria-controls={domainPanelId}
+                      aria-label={`${expandedDomains[domain] ? "Collapse" : "Expand"} ${domainLabel} skills`}
+                      className={isHomeFilterDemo ? "flex shrink-0 cursor-pointer items-center gap-1 rounded px-0.5 py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" : "flex cursor-pointer items-center gap-2 rounded p-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"}
+                      onClick={() => {
                         setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
                       }}
                     >
@@ -1294,10 +1313,11 @@ export const BankIndex = ({
                         <AnimatedCount value={questionCounts.math.domains[domain]?.total || 0} className="font-medium text-ink-muted" />
                       </span>
                       <ChevronRight className={`bank-accordion-chevron h-[11px] w-[11px] text-ink-muted ${expandedDomains[domain] ? "bank-accordion-chevron-open" : ""}`} />
-                    </div>
+                    </button>
                   </div>
                 </div>
                 <div
+                  id={domainPanelId}
                   aria-hidden={!expandedDomains[domain]}
                   className={`${isHomeFilterDemo ? "bank-accordion-panel ml-4" : "bank-accordion-panel ml-6"} ${expandedDomains[domain] ? "bank-accordion-panel-open" : ""}`}
                 >
@@ -1307,35 +1327,42 @@ export const BankIndex = ({
                       return (
                         <div
                           key={skill}
-                          className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
-                          onClick={() => {
-                            if (isMultiSelect) {
-                              toggleSkill("math", domain, skill, !topicSelection.math.domains[domain]?.skills[skill]);
-                            } else {
-                              handleQuickStart("math", domain, skill);
-                            }
-                          }}
+                          className={isHomeFilterDemo ? "group/skill flex min-h-[24px] items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted focus-within:bg-muted" : "group/skill flex items-center gap-2 rounded px-2 py-1.5 text-sm hover:bg-muted focus-within:bg-muted"}
                         >
                           <TopicCheckboxSlot
-                            visible={isMultiSelect}
+                            visible={isMultiSelect && expandedDomains[domain]}
                             checked={topicSelection.math.domains[domain]?.skills[skill] || false}
                             onCheckedChange={(checked) => toggleSkill("math", domain, skill, checked)}
+                            ariaLabel={`Select ${skillLabel}`}
                           />
-                          <span
-                            className={isHomeFilterDemo ? "home-demo-skill-name min-w-0 flex-1 break-words pr-1 font-sans text-[11.25px] font-normal leading-[1.2] text-ink-mid" : "font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid truncate flex-1 mr-2"}
+                          <button
+                            type="button"
+                            tabIndex={isHomeFilterDemo || !expandedDomains[domain] ? -1 : undefined}
+                            className="min-w-0 flex-1 rounded-sm text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                            onClick={() => {
+                              if (isMultiSelect) {
+                                toggleSkill("math", domain, skill, !topicSelection.math.domains[domain]?.skills[skill]);
+                              } else {
+                                handleQuickStart("math", domain, skill);
+                              }
+                            }}
                             title={skillLabel === skill ? undefined : skill}
                           >
-                            {skillLabel}
-                          </span>
+                            <span className={isHomeFilterDemo ? "home-demo-skill-name block min-w-0 break-words pr-1 font-sans text-[11.25px] font-normal leading-[1.2] text-ink-mid" : "mr-2 block min-w-0 truncate font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid"}>
+                              {skillLabel}
+                            </span>
+                          </button>
                           <Button
                             variant="ghost"
                             size="icon"
-                            className={isHomeFilterDemo ? "hidden" : "h-6 w-6 shrink-0 opacity-0 group-hover/skill:opacity-100 transition-opacity"}
+                            tabIndex={!expandedDomains[domain] ? -1 : undefined}
+                            className={isHomeFilterDemo ? "hidden" : "h-6 w-6 shrink-0 opacity-0 transition-opacity group-hover/skill:opacity-100 group-focus-within/skill:opacity-100 focus-visible:opacity-100"}
                             onClick={(e) => {
                               e.stopPropagation();
                               handleQuickStart("math", domain, skill, true);
                             }}
                             title="Shuffle Skill"
+                            aria-label={`Shuffle ${skillLabel}`}
                           >
                             <Shuffle className="h-3 w-3" />
                           </Button>
@@ -1369,6 +1396,7 @@ export const BankIndex = ({
               visible={isMultiSelect}
               checked={topicSelection.reading.selected}
               onCheckedChange={(checked) => toggleSubject("reading", checked)}
+              ariaLabel="Select Reading and Writing questions"
             />
             <div className={isHomeFilterDemo ? "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-ds-accent/30" : "p-2 rounded-lg bg-ds-accent/30"}>
               <FileText className={isHomeFilterDemo ? "h-3.5 w-3.5 text-ink" : "h-6 w-6 text-ink"} />
@@ -1408,103 +1436,127 @@ export const BankIndex = ({
         </div>
 
         <div className={isHomeFilterDemo ? "space-y-1.5" : "space-y-3"} data-home-demo-topic-list={isHomeFilterDemo ? "true" : undefined}>
-          {readingDomainsForDisplay.map((domain) => (
-            <div key={domain} className={isHomeFilterDemo ? "px-0 py-0" : "px-1 py-1"}>
-              <div className={isHomeFilterDemo ? "group/domain-row flex items-center gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
-                <TopicCheckboxSlot
-                  visible={isMultiSelect}
-                  checked={topicSelection.reading.domains[domain]?.selected || false}
-                  onCheckedChange={(checked) => toggleDomain("reading", domain, checked)}
-                />
-                <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-center justify-between gap-1" : "flex items-center justify-between flex-1"}>
-                  <span
-                    className={isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink flex-1 py-1 cursor-pointer"}
-                    onClick={() => {
-                      if (isMultiSelect) {
-                        toggleDomain("reading", domain, !topicSelection.reading.domains[domain]?.selected);
-                      } else {
-                        handleQuickStart("reading", domain);
-                      }
-                    }}
-                  >
-                    {domain}
-                  </span>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className={isHomeFilterDemo ? "hidden" : "h-6 w-6 mr-1 opacity-0 group-hover/domain-row:opacity-100 transition-opacity"}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleQuickStart("reading", domain, undefined, true);
-                    }}
-                    title="Shuffle Domain"
-                  >
-                    <Shuffle className="h-3 w-3" />
-                  </Button>
-                  <div
-                    className={isHomeFilterDemo ? "flex shrink-0 cursor-pointer items-center gap-1 rounded px-0.5 py-1" : "flex items-center gap-2 cursor-pointer p-1 rounded"}
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
-                    }}
-                  >
-                    <span className={isHomeFilterDemo ? "inline-block w-[9.5ch] shrink-0 whitespace-nowrap text-right font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
-                      <AnimatedCount value={questionCounts.reading.domains[domain]?.correct || 0} className="font-semibold text-good" />
-                      <span className="font-medium text-ink-muted">/</span>
-                      <AnimatedCount value={questionCounts.reading.domains[domain]?.total || 0} className="font-medium text-ink-muted" />
-                    </span>
-                    <ChevronRight className={`bank-accordion-chevron h-[11px] w-[11px] text-ink-muted ${expandedDomains[domain] ? "bank-accordion-chevron-open" : ""}`} />
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={!expandedDomains[domain]}
-                className={`${isHomeFilterDemo ? "bank-accordion-panel ml-4" : "bank-accordion-panel ml-6"} ${expandedDomains[domain] ? "bank-accordion-panel-open" : ""}`}
-              >
-                <div className={isHomeFilterDemo ? "bank-accordion-panel-inner space-y-1.5 pt-1.5" : "bank-accordion-panel-inner space-y-1 pt-2"}>
-                  {getSkillsForDisplay("reading", domain).map((skill) => (
-                    <div
-                      key={skill}
-                      className={isHomeFilterDemo ? "group/skill flex min-h-[24px] cursor-pointer items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted" : "flex items-center gap-2 py-1.5 px-2 text-sm hover:bg-muted rounded group/skill cursor-pointer"}
+          {readingDomainsForDisplay.map((domain) => {
+            const domainPanelId = getDomainPanelId("reading", domain);
+            return (
+              <div key={domain} className={isHomeFilterDemo ? "px-0 py-0" : "px-1 py-1"}>
+                <div className={isHomeFilterDemo ? "group/domain-row flex items-center gap-1.5 rounded px-1.5 py-1.5 transition-colors hover:bg-muted" : "flex items-center gap-2 group/domain-row px-2 py-1.5 -mx-2 rounded hover:bg-muted transition-colors"} data-home-demo-domain-row={isHomeFilterDemo ? "true" : undefined}>
+                  <TopicCheckboxSlot
+                    visible={isMultiSelect}
+                    checked={topicSelection.reading.domains[domain]?.selected || false}
+                    onCheckedChange={(checked) => toggleDomain("reading", domain, checked)}
+                    ariaLabel={`Select ${domain}`}
+                  />
+                  <div className={isHomeFilterDemo ? "flex min-w-0 flex-1 items-center justify-between gap-1" : "flex items-center justify-between flex-1"}>
+                    <button
+                      type="button"
+                      tabIndex={isHomeFilterDemo ? -1 : undefined}
+                      className={cn(
+                        isHomeFilterDemo ? "min-w-0 flex-1 cursor-pointer break-words py-1 font-display text-[12px] font-semibold leading-[1.18] text-ink" : "flex-1 cursor-pointer py-1 text-left font-display text-[17px] font-semibold leading-[1.3] tracking-[-0.01em] text-ink",
+                        "rounded-sm text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
+                      )}
                       onClick={() => {
                         if (isMultiSelect) {
-                          toggleSkill("reading", domain, skill, !topicSelection.reading.domains[domain]?.skills[skill]);
+                          toggleDomain("reading", domain, !topicSelection.reading.domains[domain]?.selected);
                         } else {
-                          handleQuickStart("reading", domain, skill);
+                          handleQuickStart("reading", domain);
                         }
                       }}
                     >
-                      <TopicCheckboxSlot
-                        visible={isMultiSelect}
-                        checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
-                        onCheckedChange={(checked) => toggleSkill("reading", domain, skill, checked)}
-                      />
-                      <span className={isHomeFilterDemo ? "home-demo-skill-name min-w-0 flex-1 break-words pr-1 font-sans text-[11.25px] font-normal leading-[1.2] text-ink-mid" : "font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid truncate flex-1 mr-2"}>
-                        {skill}
-                      </span>
-                      <Button
-                        variant="ghost"
-                        size="icon"
-                        className={isHomeFilterDemo ? "hidden" : "h-6 w-6 shrink-0 opacity-0 group-hover/skill:opacity-100 transition-opacity"}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleQuickStart("reading", domain, skill, true);
-                        }}
-                        title="Shuffle Skill"
-                      >
-                       <Shuffle className="h-3 w-3" />
-                      </Button>
-                      <span className={isHomeFilterDemo ? "inline-block w-[8.5ch] shrink-0 whitespace-nowrap text-right font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
-                        <AnimatedCount value={questionCounts.reading.skills[skill]?.correct || 0} className="font-semibold text-good" />
+                      {domain}
+                    </button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className={isHomeFilterDemo ? "hidden" : "mr-1 h-6 w-6 opacity-0 transition-opacity group-hover/domain-row:opacity-100 group-focus-within/domain-row:opacity-100 focus-visible:opacity-100"}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleQuickStart("reading", domain, undefined, true);
+                      }}
+                      title="Shuffle Domain"
+                      aria-label={`Shuffle ${domain}`}
+                    >
+                      <Shuffle className="h-3 w-3" />
+                    </Button>
+                    <button
+                      type="button"
+                      tabIndex={isHomeFilterDemo ? -1 : undefined}
+                      aria-expanded={Boolean(expandedDomains[domain])}
+                      aria-controls={domainPanelId}
+                      aria-label={`${expandedDomains[domain] ? "Collapse" : "Expand"} ${domain} skills`}
+                      className={isHomeFilterDemo ? "flex shrink-0 cursor-pointer items-center gap-1 rounded px-0.5 py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" : "flex cursor-pointer items-center gap-2 rounded p-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"}
+                      onClick={() => {
+                        setExpandedDomains(prev => ({ ...prev, [domain]: !prev[domain] }));
+                      }}
+                    >
+                      <span className={isHomeFilterDemo ? "inline-block w-[9.5ch] shrink-0 whitespace-nowrap text-right font-display text-[11px] tabular-nums" : "font-display text-[14px] tabular-nums"}>
+                        <AnimatedCount value={questionCounts.reading.domains[domain]?.correct || 0} className="font-semibold text-good" />
                         <span className="font-medium text-ink-muted">/</span>
-                        <AnimatedCount value={questionCounts.reading.skills[skill]?.total || 0} className="font-medium text-ink-muted" />
+                        <AnimatedCount value={questionCounts.reading.domains[domain]?.total || 0} className="font-medium text-ink-muted" />
                       </span>
-                    </div>
-                  ))}
+                      <ChevronRight className={`bank-accordion-chevron h-[11px] w-[11px] text-ink-muted ${expandedDomains[domain] ? "bank-accordion-chevron-open" : ""}`} />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  id={domainPanelId}
+                  aria-hidden={!expandedDomains[domain]}
+                  className={`${isHomeFilterDemo ? "bank-accordion-panel ml-4" : "bank-accordion-panel ml-6"} ${expandedDomains[domain] ? "bank-accordion-panel-open" : ""}`}
+                >
+                  <div className={isHomeFilterDemo ? "bank-accordion-panel-inner space-y-1.5 pt-1.5" : "bank-accordion-panel-inner space-y-1 pt-2"}>
+                    {getSkillsForDisplay("reading", domain).map((skill) => (
+                      <div
+                        key={skill}
+                        className={isHomeFilterDemo ? "group/skill flex min-h-[24px] items-center gap-2 rounded px-1.5 py-[3px] hover:bg-muted focus-within:bg-muted" : "group/skill flex items-center gap-2 rounded px-2 py-1.5 text-sm hover:bg-muted focus-within:bg-muted"}
+                      >
+                        <TopicCheckboxSlot
+                          visible={isMultiSelect && expandedDomains[domain]}
+                          checked={topicSelection.reading.domains[domain]?.skills[skill] || false}
+                          onCheckedChange={(checked) => toggleSkill("reading", domain, skill, checked)}
+                          ariaLabel={`Select ${skill}`}
+                        />
+                        <button
+                          type="button"
+                          tabIndex={isHomeFilterDemo || !expandedDomains[domain] ? -1 : undefined}
+                          className="min-w-0 flex-1 rounded-sm text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                          onClick={() => {
+                            if (isMultiSelect) {
+                              toggleSkill("reading", domain, skill, !topicSelection.reading.domains[domain]?.skills[skill]);
+                            } else {
+                              handleQuickStart("reading", domain, skill);
+                            }
+                          }}
+                        >
+                          <span className={isHomeFilterDemo ? "home-demo-skill-name block min-w-0 break-words pr-1 font-sans text-[11.25px] font-normal leading-[1.2] text-ink-mid" : "mr-2 block min-w-0 truncate font-sans text-[13px] font-normal leading-[1.4] tracking-[-0.005em] text-ink-mid"}>
+                            {skill}
+                          </span>
+                        </button>
+                        <Button
+                          variant="ghost"
+                          size="icon"
+                          tabIndex={!expandedDomains[domain] ? -1 : undefined}
+                          className={isHomeFilterDemo ? "hidden" : "h-6 w-6 shrink-0 opacity-0 transition-opacity group-hover/skill:opacity-100 group-focus-within/skill:opacity-100 focus-visible:opacity-100"}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleQuickStart("reading", domain, skill, true);
+                          }}
+                          title="Shuffle Skill"
+                          aria-label={`Shuffle ${skill}`}
+                        >
+                          <Shuffle className="h-3 w-3" />
+                        </Button>
+                        <span className={isHomeFilterDemo ? "inline-block w-[8.5ch] shrink-0 whitespace-nowrap text-right font-display text-[10px] tabular-nums" : "font-display text-[13px] tabular-nums"}>
+                          <AnimatedCount value={questionCounts.reading.skills[skill]?.correct || 0} className="font-semibold text-good" />
+                          <span className="font-medium text-ink-muted">/</span>
+                          <AnimatedCount value={questionCounts.reading.skills[skill]?.total || 0} className="font-medium text-ink-muted" />
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

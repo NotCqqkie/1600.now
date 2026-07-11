@@ -35,9 +35,10 @@ export function describeAuthError(error: unknown, mode: AuthErrorMode): Friendly
     case "auth/invalid-credential":
     case "auth/invalid-login-credentials":
       return mode === "signin" ? genericSignIn : genericSignUp;
-    case "auth/client-rate-limited":
+    case "auth/client-cooldown":
+      return { title: "Please wait", description: fallbackMsg };
     case "auth/too-many-requests":
-      return { title: "Too many attempts", description: "We've temporarily paused sign-in attempts on this account. Try again in a few minutes or reset your password." };
+      return { title: "Too many requests", description: "Authentication is temporarily unavailable after too many requests. Try again later." };
     case "auth/network-request-failed":
       return { title: "Network error", description: "Check your internet connection and try again." };
     case "auth/user-disabled":

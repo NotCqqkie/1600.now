@@ -958,14 +958,20 @@ function Flashcards({
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      const targetTag = (event.target as HTMLElement)?.tagName;
-      if (targetTag === "INPUT" || targetTag === "TEXTAREA") return;
+      if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey) return;
+      const target = event.target instanceof Element ? event.target : null;
+      if (target?.closest('input, textarea, select, button, a[href], [contenteditable="true"], [role="button"], [role="link"], [role="checkbox"], [role="radio"], [role="slider"], [role="tab"], [role="menuitem"], [role="option"]')) return;
       if (!card) return;
       if (event.key === " ") {
         event.preventDefault();
         setFlipped(currentFlipped => !currentFlipped);
-      } else if (event.key === "ArrowRight") skipNext();
-      else if (event.key === "ArrowLeft") skipPrev();
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        skipNext();
+      } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        skipPrev();
+      }
       else if (event.key === "1") markStudyAgain();
       else if (event.key === "2") markGotIt();
     };

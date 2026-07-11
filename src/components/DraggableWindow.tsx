@@ -2,6 +2,8 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { X, Columns2, Minus, Maximize2, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
+import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 import { cn } from "@/lib/utils";
 
 interface DraggableWindowProps {
@@ -98,6 +100,8 @@ export const DraggableWindow = ({
   contentSplitExitPosition,
   sidebarExitMainMaxWidth,
 }: DraggableWindowProps) => {
+  const isMobile = useIsMobile();
+  const effectiveIsSidebarred = shouldUseSidebarLayout(isSidebarred, isMobile);
   const [position, setPosition] = useState({ x: 100, y: 100 });
   const [size, setSize] = useState({ width: defaultWidth, height: defaultHeight });
   const [isDragging, setIsDragging] = useState(false);
@@ -110,7 +114,7 @@ export const DraggableWindow = ({
   const [isSidebarDocking, setIsSidebarDocking] = useState(false);
   const [sidebarDockAnimation, setSidebarDockAnimation] = useState<SidebarDockAnimation | null>(null);
   const prevIsOpenRef = useRef(false);
-  const wasSidebarredRef = useRef(isSidebarred);
+  const wasSidebarredRef = useRef(effectiveIsSidebarred);
   const openedAsSidebarRef = useRef(false);
   const previousWindowStateRef = useRef<{
     position: { x: number; y: number };
@@ -213,7 +217,7 @@ export const DraggableWindow = ({
   useEffect(() => { isMinimizedRef.current = isMinimized; }, [isMinimized]);
   useEffect(() => { isDraggingRef.current = isDragging; }, [isDragging]);
   useEffect(() => { isResizingRef.current = isResizing; }, [isResizing]);
-  const renderAsSidebar = isSidebarred || isSidebarExiting;
+  const renderAsSidebar = shouldUseSidebarLayout(effectiveIsSidebarred || isSidebarExiting, isMobile);
   const clearSidebarDockTimer = useCallback(() => {
     if (sidebarDockTimerRef.current !== null) {
       window.clearTimeout(sidebarDockTimerRef.current);
@@ -399,7 +403,7 @@ export const DraggableWindow = ({
       isClosingFromSidebarRef.current = false;
       setIsSidebarExiting(false);
       setSidebarExitSplitPosition(null);
-      if (isSidebarred) {
+      if (effectiveIsSidebarred) {
         const persistedState = readPersistedState();
         previousWindowStateRef.current = persistedState
           ? {
@@ -460,7 +464,7 @@ export const DraggableWindow = ({
     }
     if (!isOpen && prevIsOpenRef.current) {
       const wasClosingFromSidebar = isClosingFromSidebarRef.current;
-      if (!isSidebarred && !wasClosingFromSidebar) {
+      if (!effectiveIsSidebarred && !wasClosingFromSidebar) {
         persistCurrentFloatingState();
       }
       setIsReady(false);
@@ -479,13 +483,13 @@ export const DraggableWindow = ({
     }
 
     prevIsOpenRef.current = isOpen;
-  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState, getFloatingArea, clampFloatingRect, persistCurrentFloatingState]);
+  }, [isOpen, defaultWidth, defaultHeight, windowId, constrainToLeft, effectiveIsSidebarred, isSidebarred, onSplitScreenChange, onSidebarToggle, readPersistedState, getFloatingArea, clampFloatingRect, persistCurrentFloatingState]);
   useEffect(() => {
     if (!isOpen) return;
 
     const wasSidebarred = wasSidebarredRef.current;
 
-    if (!wasSidebarred && isSidebarred) {
+    if (!wasSidebarred && effectiveIsSidebarred) {
       if (!openedAsSidebarRef.current) {
         previousWindowStateRef.current = {
           position: positionRef.current,
@@ -500,7 +504,7 @@ export const DraggableWindow = ({
       }
     }
 
-    if (isSidebarred) {
+    if (effectiveIsSidebarred) {
       const updateSidebarPosition = () => {
         const bounds = getBounds();
         const splitPixels = (bounds.width * splitPosition) / 100;
@@ -550,7 +554,7 @@ export const DraggableWindow = ({
       wasSidebarredRef.current = false;
       openedAsSidebarRef.current = false;
     }
-  }, [splitPosition, isSidebarred, isOpen, isSidebarExiting, getBounds, getFloatingArea, clampFloatingRect, persistCurrentFloatingState, centerOnExitSidebar, defaultWidth, defaultHeight]);
+  }, [splitPosition, effectiveIsSidebarred, isOpen, isSidebarExiting, getBounds, getFloatingArea, clampFloatingRect, persistCurrentFloatingState, centerOnExitSidebar, defaultWidth, defaultHeight]);
   useEffect(() => {
     if (!isMinimized && isOpen && !renderAsSidebar && isReady) {
       const correctedRect = clampFloatingRect({
@@ -581,7 +585,7 @@ export const DraggableWindow = ({
     return () => window.clearTimeout(timeoutId);
   }, [isOpen, isReady, renderAsSidebar, position, size, isMinimized, writePersistedState]);
   useEffect(() => {
-    if (!isSidebarred || !isResizingSplit) return;
+    if (!effectiveIsSidebarred || !isResizingSplit) return;
 
     document.body.classList.add("noselect", "col-resize-active", "col-resize-cursor-active");
     let latestCommitPosition: number | null = null;
@@ -692,7 +696,7 @@ export const DraggableWindow = ({
       document.body.classList.remove("noselect", "col-resize-active");
       if (!keepCursorUntilRelease) document.body.classList.remove("col-resize-cursor-active");
     };
-  }, [isResizingSplit, isSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, setSplitCssPosition, splitPosition, startSidebarExit]);
+  }, [isResizingSplit, effectiveIsSidebarred, onSplitPositionChange, getBounds, getBoundsPoint, setSplitCssPosition, splitPosition, startSidebarExit]);
 
   const beginDragFrom = (clientX: number, clientY: number, target: HTMLElement) => {
     const isHeader = Boolean(target.closest(".window-header"));
@@ -700,7 +704,7 @@ export const DraggableWindow = ({
       target.closest("button, [role='button'], input, textarea, select, a")
     );
 
-    if (!isSidebarred && !isSidebarExiting && isHeader && !isInteractiveTarget) {
+    if (!effectiveIsSidebarred && !isSidebarExiting && isHeader && !isInteractiveTarget) {
       setIsDragging(true);
       const point = getBoundsPoint(clientX, clientY);
       const newDragOffset = {
@@ -729,7 +733,7 @@ export const DraggableWindow = ({
   };
 
   const handleResizeStart = (e: React.MouseEvent, edge: string) => {
-    if (isSidebarred || isSidebarExiting) return;
+    if (effectiveIsSidebarred || isSidebarExiting) return;
     e.preventDefault();
     e.stopPropagation();
     setIsResizing(edge);
@@ -746,7 +750,7 @@ export const DraggableWindow = ({
   };
 
   const handleResizeTouchStart = (e: React.TouchEvent, edge: string) => {
-    if (isSidebarred || isSidebarExiting) return;
+    if (effectiveIsSidebarred || isSidebarExiting) return;
     if (e.touches.length === 0) return;
     e.preventDefault();
     e.stopPropagation();
@@ -910,7 +914,7 @@ export const DraggableWindow = ({
   }, [isDragging, isResizing, lockAspectRatio, diagonalResizeOnly, getBoundsPoint, getFloatingArea, clampFloatingRect]);
 
   const toggleSidebar = () => {
-    const newSidebarState = !isSidebarred;
+    const newSidebarState = !effectiveIsSidebarred;
     isClosingFromSidebarRef.current = false;
     if (!newSidebarState && renderAsSidebar) {
       setIsMinimized(false);
@@ -958,7 +962,7 @@ export const DraggableWindow = ({
         `border-radius ${SIDEBAR_DOCK_MS}ms ${SIDEBAR_DOCK_EASING}`,
       ].join(", ")
     : undefined;
-  const windowStyle: React.CSSProperties = sidebarDockAnimation
+  const windowStyle: React.CSSProperties = sidebarDockAnimation && !isMobile
     ? {
         left: sidebarDockAnimation.rect.left,
         top: sidebarDockAnimation.rect.top,
@@ -1029,7 +1033,7 @@ export const DraggableWindow = ({
 
   return createPortal(
     <>
-      {isSidebarred && isOpen && !isSidebarExiting && !isSidebarDocking && (
+      {effectiveIsSidebarred && isOpen && !isSidebarExiting && !isSidebarDocking && (
         <div
           className={cn(
             "fixed bottom-0 top-0 w-4 cursor-col-resize flex items-center justify-center group touch-none",
@@ -1124,7 +1128,7 @@ export const DraggableWindow = ({
           renderAsSidebar ? "cursor-default" : "cursor-grab active:cursor-grabbing"
         )}>
           <div className="flex min-w-0 items-center gap-2">
-            {enableSplitScreen && (
+            {enableSplitScreen && !isMobile && (
               <Button
                 variant="ghost"
                 size="icon"
@@ -1163,6 +1167,7 @@ export const DraggableWindow = ({
               size="icon"
               className="h-8 w-8"
               onClick={handleClose}
+              aria-label={`Close ${title}`}
             >
               <X className="h-4 w-4" />
             </Button>

@@ -20,6 +20,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { TransparentAwareImage } from "@/components/TransparentAwareImage";
 import { StepByStepExplanation } from "@/components/question/StepByStepExplanation";
 import { DraggableWindow } from "@/components/DraggableWindow";
+import { useIsMobile } from "@/hooks/use-mobile";
 import { usePracticeResultSplitCssVariable } from "@/hooks/usePracticeResultSplitCssVariable";
 import {
   getLatestPracticeTestResult,
@@ -51,6 +52,7 @@ import {
   getReviewQuestionImageClassName,
 } from "@/lib/questionImageDisplay";
 import { useAuth } from "@/contexts/AuthContext";
+import { shouldUseSidebarLayout } from "@/lib/responsiveWindowLayout";
 
 const SHARE_URL = "https://1600.now";
 const MODULES_PATH = "/modules";
@@ -190,6 +192,7 @@ const buildShareImageFile = async (result: PracticeTestResult) => {
 };
 
 const PracticeTestResults = () => {
+  const isMobile = useIsMobile();
   const { setId } = useParams<{ setId: string }>();
   const [searchParams] = useSearchParams();
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(() => new Set());
@@ -265,7 +268,10 @@ const PracticeTestResults = () => {
     ? sourceQuestionMap.has(activeExplanationQuestion.storageId)
     : false;
   const isExplanationOpen = activeExplanationQuestion !== null;
-  const useSidebarLayout = isExplanationOpen && isExplanationSidebarred;
+  const useSidebarLayout = shouldUseSidebarLayout(
+    isExplanationOpen && isExplanationSidebarred,
+    isMobile,
+  );
 
   usePracticeResultSplitCssVariable(useSidebarLayout, explanationSplitPosition);
 
