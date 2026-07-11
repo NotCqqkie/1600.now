@@ -7,6 +7,11 @@ import path from "node:path";
 import { extname } from "node:path";
 import { readFile } from "node:fs/promises";
 import puppeteer from "puppeteer";
+import {
+  assertNoLoopbackUrls,
+  normalizeLoopbackAttributeUrls,
+  pruneLoopbackModulePreloads,
+} from "./prerender-url-safety.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -133,7 +138,8 @@ const BANK_QUESTION_GRAPH_PATTERN =
 
 function pruneHeavyPreloads(html, route) {
   const underBank = route === "/bank" || route.startsWith("/bank/");
-  const pruned = html.replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, (linkTag) => {
+  const withoutLoopbackPreloads = pruneLoopbackModulePreloads(html);
+  const pruned = withoutLoopbackPreloads.replace(/<link\b[^>]*rel="modulepreload"[^>]*>/g, (linkTag) => {
     const href = linkTag.match(/href="([^"]*)"/)?.[1] ?? "";
     if (HEAVY_LAZY_CHUNK_PATTERN.test(href)) return "";
     if (route === "/" && HOME_DEMO_CHUNK_PATTERN.test(href)) return "";
@@ -163,10 +169,11 @@ async function main() {
   // unknown URLs don't claim to canonicalize to the homepage — the client-side
   // Seo component sets the correct meta per route.
   const shellHtml = readFileSync(path.join(dist, "index.html"), "utf8");
-  const spaShellHtml = shellHtml
+  const spaShellHtml = normalizeLoopbackAttributeUrls(shellHtml
     .replace(/[ \t]*<link\b[^>]*rel="canonical"[^>]*>\r?\n?/g, "")
     .replace(/[ \t]*<meta\b[^>]*name="robots"[^>]*>\r?\n?/g, "")
-    .replace(/[ \t]*<meta\b[^>]*name="googlebot"[^>]*>\r?\n?/g, "");
+    .replace(/[ \t]*<meta\b[^>]*name="googlebot"[^>]*>\r?\n?/g, ""));
+  assertNoLoopbackUrls(spaShellHtml, "spa-shell.html");
   writeFileSync(path.join(dist, "spa-shell.html"), spaShellHtml);
 
   const allRoutes = urlsFromSitemap();
@@ -240,8 +247,10 @@ async function main() {
     await page.evaluate(() => document.documentElement.scrollHeight);
     const html = await page.content();
     const out = outputPathFor(route);
+    const serializedHtml = normalizeLoopbackAttributeUrls(pruneHeavyPreloads(html, route));
+    assertNoLoopbackUrls(serializedHtml, route);
     mkdirSync(path.dirname(out), { recursive: true });
-    writeFileSync(out, pruneHeavyPreloads(html, route));
+    writeFileSync(out, serializedHtml);
   }
 
   async function runBatch(batchRoutes, concurrency, attempt) {
