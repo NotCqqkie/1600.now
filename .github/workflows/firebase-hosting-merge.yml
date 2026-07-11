@@ -82,6 +82,7 @@ jobs:
       - name: Build production site
         run: npm run build
         env:
+          PRERENDER_NO_SANDBOX: "1"
           VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
           VITE_GOOGLE_CLIENT_ID: ${{ vars.VITE_GOOGLE_CLIENT_ID }}
           VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
