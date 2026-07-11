@@ -114,7 +114,7 @@ const BankBrowse = () => {
   const startPracticeSession = (questions: BankPracticeQuestionRef[]): void => {
     if (questions.length === 0) return;
 
-    const spacedQuestions = spaceOutNearDuplicates(questions, bankPracticeDupFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates<BankPracticeQuestionRef>(questions, bankPracticeDupFingerprint);
 
     const practiceSet: BankBrowsePracticeSetItem[] = spacedQuestions.map((q, index) => ({
       subject: q.subject,
@@ -143,7 +143,7 @@ const BankBrowse = () => {
       const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
       [shuffled[currentIndex], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[currentIndex]];
     }
-    return spaceOutNearDuplicates(shuffled, bankPracticeDupFingerprint);
+    return spaceOutNearDuplicates<BankPracticeQuestionRef>(shuffled, bankPracticeDupFingerprint);
   };
 
   const startShuffledPracticeSession = (questions: BankPracticeQuestionRef[]): void => {

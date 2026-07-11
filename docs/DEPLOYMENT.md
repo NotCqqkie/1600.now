@@ -11,11 +11,32 @@ If you prefer to run the server yourself (e.g., on a VPS like DigitalOcean, AWS,
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Quick Start
-Run the following in your terminal:
+Copy the public Vite build configuration and fill in the required Firebase and
+App Check values before building:
+
 ```bash
-docker-compose up -d --build
+cp .env.example .env
+docker compose up -d --build
 ```
-Your app will be available at http://localhost:8080 (or your server's IP).
+
+The app is available at `http://127.0.0.1:8080`. Set `APP_PORT` in `.env` to
+change the host port. Docker Compose intentionally binds only to loopback.
+
+### Public TLS Reverse Proxy
+
+Public deployments must terminate TLS in a reverse proxy and forward requests
+to `127.0.0.1:8080`. Do not expose the container's HTTP port directly. The
+proxy must redirect HTTP to HTTPS and preserve the original `Host` and
+`X-Forwarded-Proto` headers. For example, a Caddy site block can be:
+
+```caddyfile
+1600.example.com {
+    reverse_proxy 127.0.0.1:8080
+}
+```
+
+Add the public HTTPS domain to Firebase Authentication's authorized domains and
+set `VITE_FIREBASE_AUTH_DOMAIN` to that domain before building.
 
 ## Configuration Files Included
 - `nginx.conf`: Nginx configuration for Docker/Self-hosting.

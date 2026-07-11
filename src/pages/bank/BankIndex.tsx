@@ -877,7 +877,7 @@ export const BankIndex = ({
   const startBankPracticeSession = useCallback((questions: BankPracticeQuestionRef[], exitTo = `/bank?bankType=${bankSource}`) => {
     if (isHomeFilterDemo || questions.length === 0) return;
 
-    const spacedQuestions = spaceOutNearDuplicates(questions, bankPracticeDupFingerprint);
+    const spacedQuestions = spaceOutNearDuplicates<BankPracticeQuestionRef>(questions, bankPracticeDupFingerprint);
 
     const practiceSet = createBankPracticeSessionFromQuestions({
       questions: spacedQuestions,

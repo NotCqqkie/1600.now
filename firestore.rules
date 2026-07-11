@@ -6,16 +6,15 @@ rules_version = '2';
 //   - Each user owns exactly one doc at /user_progress/{uid}. Writes are
 //     validated with lightweight per-field type checks (defense-in-depth);
 //     the field set is permissive because clients send partial merges.
-//   - /question_reports/{questionId} is a community-aggregate record. Any
-//     signed-in user may file a report (uses FieldValue.increment) but ONLY
-//     the admin may read individual docs, list the collection, or delete.
-//   - Report invariants enforced by rules: totalReports increments by exactly
-//     1 per write; each per-reason counts.* is int, non-negative, and grows by
-//     AT MOST 1 per write (== 1 on create); reason keys are whitelisted to the
-//     known set plus 'other'; otherComments is non-shrinking and capped in
-//     size. Per-comment text length (500 chars) is enforced client-side only —
-//     Firestore rules cannot cheaply iterate arrays; a subcollection would be
-//     required for full server-side enforcement.
+//   - /question_reports/{questionId} is a community-aggregate record. Each
+//     verified user may file at most one report per question, and ONLY the
+//     admin may read individual docs, list the collection, or delete.
+//   - /question_report_quotas/{uid} advances atomically with each report and
+//     caps each verified account at 200 lifetime report writes.
+//   - Report invariants enforced by rules: document IDs and fields are closed
+//     to known values; totalReports increments by exactly 1; each per-reason
+//     count is monotonic and grows by at most 1 per write; comments are
+//     append-only, type-checked, and length-limited.
 service cloud.firestore {
   match /databases/{database}/documents {
 
@@ -32,13 +31,32 @@ service cloud.firestore {
               'corrupted', 'typo', 'wrongExplanation', 'other'];
     }
 
+    function legacyReportCountKeys() {
+      return ['counts.incorrectAnswer', 'counts.incorrectQuestion',
+              'counts.missingImage', 'counts.corrupted', 'counts.typo',
+              'counts.wrongExplanation', 'counts.other'];
+    }
+
+    function reportFieldKeys() {
+      return ['questionId', 'counts', 'otherComments', 'totalReports',
+              'lastReportedAt', 'reporterIds'].concat(legacyReportCountKeys());
+    }
+
+    function validQuestionId(questionId) {
+      return questionId is string
+             && (questionId.matches('^hard-([1-9]|[1-9][0-9]|100)$')
+                 || questionId.matches('^bank-(past|unofficial)-(math|reading)-[0-9a-f]{8}$'));
+    }
+
     // On create every present counts.* must be an int == 1.
     function countCreateValid(k, counts) {
       return (!(k in counts) || (counts[k] is int && counts[k] == 1));
     }
 
     function countsValidOnCreate(counts) {
-      return counts.keys().hasOnly(reportCountKeys())
+      return counts is map
+             && counts.size() > 0
+             && counts.keys().hasOnly(reportCountKeys())
              && countCreateValid('incorrectAnswer', counts)
              && countCreateValid('incorrectQuestion', counts)
              && countCreateValid('missingImage', counts)
@@ -48,17 +66,24 @@ service cloud.firestore {
              && countCreateValid('other', counts);
     }
 
-    // On update each present counts.* must be an int >= 0 that grows by at
-    // most 1 versus the prior value (0 if the key was absent).
+    function countValue(k, counts) {
+      return k in counts ? counts[k] : 0;
+    }
+
+    // Every existing count remains present and may grow by zero or one.
     function countStepValid(k, next, prev) {
-      return (!(k in next)
-              || (next[k] is int
-                  && next[k] >= 0
-                  && next[k] <= (k in prev ? prev[k] : 0) + 1));
+      return (!(k in next) && !(k in prev))
+             || (k in next
+                 && next[k] is int
+                 && next[k] >= countValue(k, prev)
+                 && next[k] <= countValue(k, prev) + 1);
     }
 
     function countsValidOnUpdate(next, prev) {
-      return next.keys().hasOnly(reportCountKeys())
+      return next is map
+             && prev is map
+             && next.keys().hasOnly(reportCountKeys())
+             && next.keys().hasAll(prev.keys())
              && countStepValid('incorrectAnswer', next, prev)
              && countStepValid('incorrectQuestion', next, prev)
              && countStepValid('missingImage', next, prev)
@@ -66,6 +91,157 @@ service cloud.firestore {
              && countStepValid('typo', next, prev)
              && countStepValid('wrongExplanation', next, prev)
              && countStepValid('other', next, prev);
+    }
+
+    function countDelta(next, prev) {
+      return countValue('incorrectAnswer', next) - countValue('incorrectAnswer', prev)
+             + countValue('incorrectQuestion', next) - countValue('incorrectQuestion', prev)
+             + countValue('missingImage', next) - countValue('missingImage', prev)
+             + countValue('corrupted', next) - countValue('corrupted', prev)
+             + countValue('typo', next) - countValue('typo', prev)
+             + countValue('wrongExplanation', next) - countValue('wrongExplanation', prev)
+             + countValue('other', next) - countValue('other', prev);
+    }
+
+    function reportCommentValid(comment) {
+      return comment is map
+             && comment.keys().hasAll(['text', 'timestamp'])
+             && comment.keys().hasOnly(['text', 'timestamp', 'userId'])
+             && comment.text is string
+             && comment.text.size() > 0
+             && comment.text.size() <= 500
+             && comment.timestamp is int
+             && comment.timestamp > 0
+             && (!('userId' in comment)
+                 || (comment.userId is string
+                     && comment.userId == request.auth.uid));
+    }
+
+    function commentsValidOnCreate(data) {
+      return !('otherComments' in data)
+             || (data.otherComments is list
+                 && data.otherComments.size() == 1
+                 && reportCommentValid(data.otherComments[0]));
+    }
+
+    function commentsValidOnUpdate(next, prev) {
+      return (!('otherComments' in prev)
+              && (!('otherComments' in next)
+                  || (next.otherComments is list
+                      && next.otherComments.size() == 1
+                      && reportCommentValid(next.otherComments[0]))))
+             || ('otherComments' in prev
+                 && 'otherComments' in next
+                 && (!(prev.otherComments is list)
+                     ? next.otherComments == prev.otherComments
+                     : (next.otherComments is list
+                        && (next.otherComments == prev.otherComments
+                            || (prev.otherComments.size() < 100
+                                && next.otherComments.size() == prev.otherComments.size() + 1
+                                && next.otherComments == prev.otherComments.concat([
+                                  next.otherComments[prev.otherComments.size()]
+                                ])
+                                && reportCommentValid(
+                                  next.otherComments[prev.otherComments.size()]
+                                ))))));
+    }
+
+    function commentDelta(next, prev) {
+      return !('otherComments' in next) || !(next.otherComments is list)
+        ? 0
+        : (!('otherComments' in prev) || !(prev.otherComments is list)
+          ? next.otherComments.size()
+          : next.otherComments.size() - prev.otherComments.size());
+    }
+
+    function reporterIdsValidOnCreate(data) {
+      return data.reporterIds is list
+             && data.reporterIds.size() == 1
+             && data.reporterIds[0] == request.auth.uid;
+    }
+
+    function reporterIdsValidOnUpdate(next, prev) {
+      return next.reporterIds is list
+             && next.reporterIds.size() <= 500
+             && ((!('reporterIds' in prev)
+                  && next.reporterIds == [request.auth.uid])
+                 || ('reporterIds' in prev
+                     && prev.reporterIds is list
+                     && prev.reporterIds.size() < 500
+                     && !prev.reporterIds.hasAny([request.auth.uid])
+                     && next.reporterIds == prev.reporterIds.concat([
+                       request.auth.uid
+                     ])));
+    }
+
+    function reportQuotaPath(uid) {
+      return /databases/$(database)/documents/question_report_quotas/$(uid);
+    }
+
+    function questionReportPath(questionId) {
+      return /databases/$(database)/documents/question_reports/$(questionId);
+    }
+
+    function reportQuotaSchemaValid(data, uid) {
+      return data.keys().hasAll([
+               'userId', 'totalReports', 'lastQuestionId', 'lastReportedAt'
+             ])
+             && data.keys().hasOnly([
+               'userId', 'totalReports', 'lastQuestionId', 'lastReportedAt'
+             ])
+             && data.userId == uid
+             && data.totalReports is int
+             && data.totalReports >= 1
+             && data.totalReports <= 200
+             && validQuestionId(data.lastQuestionId)
+             && data.lastReportedAt == request.time;
+    }
+
+    function reportQuotaAdvances(questionId) {
+      let path = reportQuotaPath(request.auth.uid);
+      let after = getAfter(path).data;
+      return existsAfter(path)
+             && reportQuotaSchemaValid(after, request.auth.uid)
+             && after.lastQuestionId == questionId
+             && ((!exists(path) && after.totalReports == 1)
+                 || (exists(path)
+                     && get(path).data.totalReports is int
+                     && after.totalReports == get(path).data.totalReports + 1));
+    }
+
+    function reportAdvancesForQuota(questionId, uid) {
+      let path = questionReportPath(questionId);
+      let after = getAfter(path).data;
+      return existsAfter(path)
+             && after.questionId == questionId
+             && after.lastReportedAt == request.time
+             && after.reporterIds is list
+             && after.reporterIds.hasAny([uid])
+             && after.totalReports is int
+             && ((!exists(path)
+                  && after.totalReports == 1
+                  && after.reporterIds == [uid])
+                 || (exists(path)
+                     && get(path).data.totalReports is int
+                     && after.totalReports == get(path).data.totalReports + 1
+                     && (!('reporterIds' in get(path).data)
+                         || !(get(path).data.reporterIds is list)
+                         || !get(path).data.reporterIds.hasAny([uid]))));
+    }
+
+    function legacyReportFieldsPreserved(next, prev) {
+      return legacyReportFieldPreserved('counts.incorrectAnswer', next, prev)
+             && legacyReportFieldPreserved('counts.incorrectQuestion', next, prev)
+             && legacyReportFieldPreserved('counts.missingImage', next, prev)
+             && legacyReportFieldPreserved('counts.corrupted', next, prev)
+             && legacyReportFieldPreserved('counts.typo', next, prev)
+             && legacyReportFieldPreserved('counts.wrongExplanation', next, prev)
+             && legacyReportFieldPreserved('counts.other', next, prev);
+    }
+
+    function legacyReportFieldPreserved(k, next, prev) {
+      return (!(k in prev) && !(k in next))
+             || (k in prev && k in next && next[k] == prev[k]);
     }
 
     // Per-user progress, vocab, and personalization. Only the owning user
@@ -96,43 +272,83 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    match /question_report_quotas/{uid} {
+      allow get, list: if isAdmin();
+      allow delete: if false;
+
+      allow create: if request.auth != null
+                    && request.auth.uid == uid
+                    && request.auth.token.email_verified == true
+                    && reportQuotaSchemaValid(request.resource.data, uid)
+                    && request.resource.data.totalReports == 1
+                    && reportAdvancesForQuota(
+                      request.resource.data.lastQuestionId,
+                      uid
+                    );
+
+      allow update: if request.auth != null
+                    && request.auth.uid == uid
+                    && request.auth.token.email_verified == true
+                    && reportQuotaSchemaValid(request.resource.data, uid)
+                    && resource.data.userId == uid
+                    && resource.data.totalReports is int
+                    && request.resource.data.totalReports == resource.data.totalReports + 1
+                    && reportAdvancesForQuota(
+                      request.resource.data.lastQuestionId,
+                      uid
+                    );
+    }
+
     // Aggregate question reports. Any email-verified signed-in user may
-    // submit one report at a time; only the admin may read/list/delete. Each write
-    // must increment totalReports by exactly 1, which prevents a single
-    // request from forging arbitrary aggregate counts.
+    // submit one report per question; only the admin may read/list/delete.
     match /question_reports/{questionId} {
       allow get, list: if isAdmin();
       allow delete: if isAdmin();
 
       allow create: if request.auth != null
                     && request.auth.token.email_verified == true
+                    && validQuestionId(questionId)
+                    && request.resource.data.keys().hasAll([
+                      'questionId', 'counts', 'totalReports', 'lastReportedAt',
+                      'reporterIds'
+                    ])
+                    && request.resource.data.keys().hasOnly(reportFieldKeys())
+                    && !request.resource.data.keys().hasAny(legacyReportCountKeys())
                     && request.resource.data.questionId == questionId
                     && request.resource.data.totalReports == 1
-                    && (!('counts' in request.resource.data)
-                        || countsValidOnCreate(request.resource.data.counts))
-                    && (!('otherComments' in request.resource.data)
-                        || request.resource.data.otherComments.size() <= 1);
+                    && request.resource.data.lastReportedAt == request.time
+                    && countsValidOnCreate(request.resource.data.counts)
+                    && commentsValidOnCreate(request.resource.data)
+                    && reporterIdsValidOnCreate(request.resource.data)
+                    && reportQuotaAdvances(questionId);
 
       allow update: if request.auth != null
                     && request.auth.token.email_verified == true
+                    && validQuestionId(questionId)
+                    && request.resource.data.keys().hasAll([
+                      'questionId', 'counts', 'totalReports', 'lastReportedAt',
+                      'reporterIds'
+                    ])
+                    && request.resource.data.keys().hasOnly(reportFieldKeys())
                     && request.resource.data.questionId == questionId
                     && request.resource.data.totalReports == resource.data.totalReports + 1
-                    && (!('counts' in request.resource.data)
-                        || countsValidOnUpdate(request.resource.data.counts,
-                                               ('counts' in resource.data ? resource.data.counts : {})))
-                    // Existing comments can't be dropped: if the doc already had
-                    // otherComments, the write must still include it (blocks an
-                    // erase via FieldValue.delete() that omits the field).
-                    && (!('otherComments' in resource.data)
-                        || 'otherComments' in request.resource.data)
-                    && (!('otherComments' in request.resource.data)
-                        || !('otherComments' in resource.data)
-                        || (request.resource.data.otherComments.size() >= resource.data.otherComments.size()
-                            && request.resource.data.otherComments.size() <= resource.data.otherComments.size() + 1))
-                    // Per-comment text length (500 chars) is enforced client-side;
-                    // rules only bound the array size.
-                    && (!('otherComments' in request.resource.data)
-                        || request.resource.data.otherComments.size() <= 500);
+                    && request.resource.data.lastReportedAt == request.time
+                    && countsValidOnUpdate(
+                      request.resource.data.counts,
+                      ('counts' in resource.data && resource.data.counts is map
+                        ? resource.data.counts
+                        : {})
+                    )
+                    && commentsValidOnUpdate(request.resource.data, resource.data)
+                    && reporterIdsValidOnUpdate(request.resource.data, resource.data)
+                    && legacyReportFieldsPreserved(request.resource.data, resource.data)
+                    && (countDelta(
+                          request.resource.data.counts,
+                          ('counts' in resource.data && resource.data.counts is map
+                            ? resource.data.counts
+                            : {})
+                        ) + commentDelta(request.resource.data, resource.data) > 0)
+                    && reportQuotaAdvances(questionId);
     }
 
     // Default deny.

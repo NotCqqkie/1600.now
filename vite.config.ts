@@ -97,82 +97,95 @@ export default defineConfig(({ command, mode }) => {
     reportCompressedSize: false,
     chunkSizeWarningLimit: 1500,
     modulePreload: { polyfill: false },
-    rollupOptions: {
+    rolldownOptions: {
       output: {
-        // Manual chunks are restricted to pure data files (no React imports).
-        // Splitting node_modules into named vendor chunks caused a cross-chunk
-        // init order race where chunks imported React.forwardRef /
-        // React.createContext before the React chunk had executed. Letting
-        // Rollup auto-chunk node_modules avoids the race.
-        manualChunks(id) {
-          if (id.includes("/src/lib/generated/bankMetadata.generated.ts")) {
-            return "bank-data-metadata";
-          }
+        comments: { legal: false },
+        ...(mode === "production"
+          ? {
+              minify: {
+                compress: {
+                  dropConsole: true,
+                  dropDebugger: true,
+                },
+              },
+            }
+          : {}),
+        codeSplitting: {
+          groups: [
+            {
+              // Named chunks are restricted to pure data files (no React imports).
+              // Splitting node_modules into named vendor chunks caused a cross-chunk
+              // init order race where chunks imported React.forwardRef /
+              // React.createContext before the React chunk had executed. Letting
+              // Rolldown auto-chunk node_modules avoids the race.
+              name(id) {
+                if (id.includes("/src/lib/generated/bankMetadata.generated.ts")) {
+                  return "bank-data-metadata";
+                }
 
-          if (id.includes("/src/lib/generated/bankCountIndex.generated.ts")) {
-            return "bank-data-count-index";
-          }
+                if (id.includes("/src/lib/generated/bankCountIndex.generated.ts")) {
+                  return "bank-data-count-index";
+                }
 
-          if (id.includes("/src/lib/generated/bankTotals.generated.ts")) {
-            return "bank-data-totals";
-          }
+                if (id.includes("/src/lib/generated/bankTotals.generated.ts")) {
+                  return "bank-data-totals";
+                }
 
-          if (id.includes("/src/lib/generated/questionSimilarity.generated.ts")) {
-            return "bank-data-similarity";
-          }
+                if (id.includes("/src/lib/generated/questionSimilarity.generated.ts")) {
+                  return "bank-data-similarity";
+                }
 
-          if (id.includes("/src/lib/generated/hiddenBankQuestions.generated.ts")) {
-            return "bank-data-hidden";
-          }
+                if (id.includes("/src/lib/generated/hiddenBankQuestions.generated.ts")) {
+                  return "bank-data-hidden";
+                }
 
-          if (id.includes("/src/lib/generated/bankPracticeIndex.generated.ts")) {
-            return "bank-practice-index";
-          }
+                if (id.includes("/src/lib/generated/bankPracticeIndex.generated.ts")) {
+                  return "bank-practice-index";
+                }
 
-          if (id.includes("/src/lib/generated/bank-practice-sets/")) {
-            const setNumber = path.basename(id).replace("set-", "").replace(/\.generated\.ts.*$/, "");
-            return `bank-practice-set-${setNumber}`;
-          }
+                if (id.includes("/src/lib/generated/bank-practice-sets/")) {
+                  const setNumber = path.basename(id).replace("set-", "").replace(/\.generated\.ts.*$/, "");
+                  return `bank-practice-set-${setNumber}`;
+                }
 
-          if (id.includes("/src/data/pastQuestionDifficulty.ts")) {
-            return "bank-data-past-difficulty";
-          }
+                if (id.includes("/src/data/pastQuestionDifficulty.ts")) {
+                  return "bank-data-past-difficulty";
+                }
 
-          if (id.includes("/src/data/unofficialQuestions.ts")) {
-            return "bank-data-unofficial";
-          }
+                if (id.includes("/src/data/unofficialQuestions.ts")) {
+                  return "bank-data-unofficial";
+                }
 
-          if (id.includes("/src/data/questionCategories.ts")) {
-            return "bank-categories";
-          }
+                if (id.includes("/src/data/questionCategories.ts")) {
+                  return "bank-categories";
+                }
 
-          if (id.includes("/src/data/modules/")) {
-            const moduleFile = path.basename(id);
-            const subject = moduleFile.includes("-math-") ? "math" : "reading";
-            const moduleNumber = moduleFile.includes("-m2") ? "m2" : "m1";
-            return `module-data-${subject}-${moduleNumber}`;
-          }
+                if (id.includes("/src/data/modules/")) {
+                  const moduleFile = path.basename(id);
+                  const subject = moduleFile.includes("-math-") ? "math" : "reading";
+                  const moduleNumber = moduleFile.includes("-m2") ? "m2" : "m1";
+                  return `module-data-${subject}-${moduleNumber}`;
+                }
 
-          if (
-            id.includes("/src/data/unofficialQuestionImageMap.ts") ||
-            id.includes("/src/data/questionImageMap.ts") ||
-            id.includes("/src/data/satImageManifest.ts")
-          ) {
-            return "bank-data-images";
-          }
+                if (
+                  id.includes("/src/data/unofficialQuestionImageMap.ts") ||
+                  id.includes("/src/data/questionImageMap.ts") ||
+                  id.includes("/src/data/satImageManifest.ts")
+                ) {
+                  return "bank-data-images";
+                }
 
-          if (id.includes("/src/data/vocabulary.ts")) {
-            return "vocab-data";
-          }
+                if (id.includes("/src/data/vocabulary.ts")) {
+                  return "vocab-data";
+                }
+
+                return null;
+              },
+            },
+          ],
         },
       },
     },
-  },
-  esbuild: {
-    legalComments: "none",
-    // Strip console/debugger statements from production builds. Dev builds
-    // keep them so console.log during local development still works.
-    ...(mode === "production" ? { drop: ["console", "debugger"] as const } : {}),
   },
   plugins: [satImageAliasPlugin(), react()],
   resolve: {

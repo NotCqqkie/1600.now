@@ -4,6 +4,7 @@ import { getAnalyticsConsent } from "@/lib/analytics";
 type AnalyticsBundle = {
   analytics: import("firebase/analytics").Analytics;
   logEvent: typeof import("firebase/analytics").logEvent;
+  setAnalyticsCollectionEnabled: typeof import("firebase/analytics").setAnalyticsCollectionEnabled;
   setUserId: typeof import("firebase/analytics").setUserId;
 };
 
@@ -18,15 +19,34 @@ export function getAnalyticsPromise(): Promise<AnalyticsBundle | null> {
     if (!import.meta.env.VITE_FIREBASE_MEASUREMENT_ID) return null;
     try {
       const mod = await import("firebase/analytics");
+      if (getAnalyticsConsent() !== "granted") return null;
       if (!(await mod.isSupported())) return null;
+      if (getAnalyticsConsent() !== "granted") return null;
+      const analytics = mod.getAnalytics(app);
+      mod.setAnalyticsCollectionEnabled(analytics, true);
       return {
-        analytics: mod.getAnalytics(app),
+        analytics,
         logEvent: mod.logEvent,
+        setAnalyticsCollectionEnabled: mod.setAnalyticsCollectionEnabled,
         setUserId: mod.setUserId,
       };
     } catch {
       return null;
     }
   })();
-  return analyticsPromise;
+  const pending = analyticsPromise;
+  return pending.then((bundle) => {
+    if (!bundle && analyticsPromise === pending) analyticsPromise = null;
+    if (bundle && getAnalyticsConsent() === "granted") {
+      bundle.setAnalyticsCollectionEnabled(bundle.analytics, true);
+    }
+    return bundle;
+  });
+}
+
+export function disableAnalyticsCollectionIfInitialized(): void {
+  if (!analyticsPromise) return;
+  void analyticsPromise.then((bundle) => {
+    if (bundle) bundle.setAnalyticsCollectionEnabled(bundle.analytics, false);
+  });
 }

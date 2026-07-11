@@ -1,9 +1,11 @@
 export type AnalyticsConsent = "granted" | "denied" | "unset";
 
 const CONSENT_STORAGE_KEY = "analytics-consent";
+let sessionConsent: AnalyticsConsent | null = null;
 
 export function getAnalyticsConsent(): AnalyticsConsent {
   if (typeof window === "undefined") return "unset";
+  if (sessionConsent) return sessionConsent;
   try {
     const stored = window.localStorage.getItem(CONSENT_STORAGE_KEY);
     if (stored === "granted" || stored === "denied") return stored;
@@ -15,12 +17,19 @@ export function getAnalyticsConsent(): AnalyticsConsent {
 
 export function setAnalyticsConsent(consent: Exclude<AnalyticsConsent, "unset">): void {
   if (typeof window === "undefined") return;
+  sessionConsent = consent;
   try {
     window.localStorage.setItem(CONSENT_STORAGE_KEY, consent);
   } catch {
     // ignore persistence failures
   }
-  if (consent === "granted") void initAnalytics();
+  if (consent === "granted") {
+    void initAnalytics();
+  } else {
+    void import("./firebase/firebaseAnalytics").then((module) => {
+      module.disableAnalyticsCollectionIfInitialized();
+    });
+  }
 }
 
 const loadAnalyticsBundle = async () => {
@@ -38,13 +47,13 @@ async function trackEvent(
   params?: Record<string, unknown>,
 ): Promise<void> {
   const bundle = await loadAnalyticsBundle();
-  if (!bundle) return;
+  if (!bundle || getAnalyticsConsent() !== "granted") return;
   bundle.logEvent(bundle.analytics, name, params);
 }
 
 export async function identifyUser(userId: string | null): Promise<void> {
   const bundle = await loadAnalyticsBundle();
-  if (!bundle) return;
+  if (!bundle || getAnalyticsConsent() !== "granted") return;
   bundle.setUserId(bundle.analytics, userId);
 }
 

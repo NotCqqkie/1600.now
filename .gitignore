@@ -25,6 +25,7 @@ dist-ssr
 *.sw?
 
 .env
+gha-creds-*.json
 .wakatime-project
 __pycache__/
 *.pyc

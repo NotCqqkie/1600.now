@@ -15,7 +15,6 @@
     <!-- Fonts: Inter (body), Inter Tight (display+numbers), Instrument Serif Italic (hero accent), JetBrains Mono (metadata), Source Serif 4 (question content) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://www.desmos.com">
     <link rel="dns-prefetch" href="https://firestore.googleapis.com">
     <link rel="dns-prefetch" href="https://identitytoolkit.googleapis.com">
@@ -32,8 +31,6 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-      media="print"
-      onload="this.media='all'; this.onload=null;"
     >
     <noscript>
       <link
@@ -136,23 +133,8 @@
       html { background-color: hsl(210 40% 98%); color-scheme: light; }
       html.dark { background-color: hsl(220 28% 22%); color-scheme: dark; }
     </style>
-    <script>
-      (() => {
-        const savedTheme = localStorage.getItem("theme");
-        document.documentElement.classList.toggle("dark", savedTheme === "dark");
-      })();
-    </script>
+    <script src="/theme-bootstrap.js"></script>
 
-    <!-- Google tag (gtag.js) — placed after critical meta + preloads so the
-         parser-blocking inline gtag init doesn't delay the browser from
-         discovering preloads, preconnects, and the theme bootstrap above. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5Q82GMJ2L"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-B5Q82GMJ2L');
-    </script>
   </head>
 
   <body>

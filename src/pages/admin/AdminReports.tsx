@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
 import { isAdminUser } from "@/lib/admin";
 import {
+  QUESTION_REPORT_PAGE_SIZE,
   REPORT_REASONS,
-  listQuestionReports,
+  listQuestionReportsPage,
   type QuestionReport,
+  type QuestionReportCursor,
   type ReportReasonKey,
 } from "@/lib/questionReports";
 import { loadBankQuestionBySourceId, type BankSubject } from "@/data/questionBank";
@@ -32,7 +34,7 @@ const REASON_LABEL_BY_KEY = Object.fromEntries(
 const parseStableId = (
   id: string,
 ): ParsedStableId | null => {
-  const match = id.match(/^bank-(?:past|unofficial)-(math|reading)-(.+)$/);
+  const match = id.match(/^bank-(?:past|unofficial)-(math|reading)-([0-9a-f]{8})$/);
   if (!match) return null;
   return { subject: match[1] as BankSubject, sourceId: match[2] };
 };
@@ -46,6 +48,17 @@ const enrich = async (report: QuestionReport): Promise<AdminReportRow> => {
   return { ...report, preview };
 };
 
+const enrichPage = (reports: QuestionReport[]): Promise<AdminReportRow[]> =>
+  Promise.all(
+    reports.map(async (report) => {
+      try {
+        return await enrich(report);
+      } catch {
+        return report;
+      }
+    }),
+  );
+
 const formatTimestamp = (ts: number | { seconds: number } | undefined): string => {
   if (!ts) return "—";
   const ms = typeof ts === "number" ? ts : ts.seconds * 1000;
@@ -58,6 +71,9 @@ const AdminReports = () => {
   const [reports, setReports] = useState<AdminReportRow[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
+  const [cursor, setCursor] = useState<QuestionReportCursor | null>(null);
+  const [hasMore, setHasMore] = useState(false);
+  const [loadingMore, setLoadingMore] = useState(false);
 
   const allowed = isAdminUser(user);
 
@@ -66,11 +82,16 @@ const AdminReports = () => {
     let cancelled = false;
     setReports(null);
     setError(null);
-    listQuestionReports()
-      .then((rows) => Promise.all(rows.map(enrich)))
-      .then((rows) => {
+    setCursor(null);
+    setHasMore(false);
+    setLoadingMore(false);
+    listQuestionReportsPage(null, QUESTION_REPORT_PAGE_SIZE)
+      .then(async (page) => ({ page, rows: await enrichPage(page.reports) }))
+      .then(({ page, rows }) => {
         if (cancelled) return;
         setReports(rows);
+        setCursor(page.cursor);
+        setHasMore(page.hasMore);
       })
       .catch((err: unknown) => {
         if (cancelled) return;
@@ -83,13 +104,39 @@ const AdminReports = () => {
     };
   }, [allowed, refreshKey]);
 
+  const handleLoadMore = async () => {
+    if (!cursor || loadingMore) return;
+    setLoadingMore(true);
+    setError(null);
+    try {
+      const page = await listQuestionReportsPage(cursor, QUESTION_REPORT_PAGE_SIZE);
+      const rows = await enrichPage(page.reports);
+      setReports((current) => {
+        const next = current ? [...current] : [];
+        const seen = new Set(next.map((report) => report.questionId));
+        for (const row of rows) {
+          if (!seen.has(row.questionId)) next.push(row);
+        }
+        return next;
+      });
+      setCursor(page.cursor);
+      setHasMore(page.hasMore);
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Failed to load more reports.";
+      setError(message);
+      toast.error(message);
+    } finally {
+      setLoadingMore(false);
+    }
+  };
+
   const totals = useMemo(() => {
     if (!reports) return { docs: 0, reports: 0, comments: 0 };
     let totalReports = 0;
     let totalComments = 0;
     for (const r of reports) {
-      totalReports += r.totalReports ?? 0;
-      totalComments += r.otherComments?.length ?? 0;
+      totalReports += Number.isFinite(r.totalReports) ? r.totalReports : 0;
+      totalComments += Array.isArray(r.otherComments) ? r.otherComments.length : 0;
     }
     return { docs: reports.length, reports: totalReports, comments: totalComments };
   }, [reports]);
@@ -112,12 +159,23 @@ const AdminReports = () => {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Question reports</h1>
           <p className="text-sm text-muted-foreground">
-            {totals.docs} questions reported · {totals.reports} total flags · {totals.comments} comments
+            {totals.docs} loaded questions · {totals.reports} total flags · {totals.comments} comments
           </p>
         </div>
-        <Button variant="outline" onClick={() => setRefreshKey((k) => k + 1)}>
-          Refresh
-        </Button>
+        <div className="flex gap-2">
+          {hasMore && (
+            <Button variant="outline" onClick={handleLoadMore} disabled={loadingMore}>
+              {loadingMore ? "Loading…" : "Load more"}
+            </Button>
+          )}
+          <Button
+            variant="outline"
+            onClick={() => setRefreshKey((k) => k + 1)}
+            disabled={reports === null}
+          >
+            Refresh
+          </Button>
+        </div>
       </div>
 
       {error && (

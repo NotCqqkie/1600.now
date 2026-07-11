@@ -41,7 +41,12 @@ function serveStaticSpa() {
   return createServer(async (req, res) => {
     try {
       const urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
-      let filePath = path.join(dist, urlPath);
+      const filePath = path.resolve(dist, urlPath.replace(/^\/+/, ""));
+      if (filePath !== dist && !filePath.startsWith(`${dist}${path.sep}`)) {
+        res.writeHead(404);
+        res.end("Not found");
+        return;
+      }
       if (existsSync(filePath) && !filePath.endsWith("/")) {
         const stat = await import("node:fs").then((m) => m.statSync(filePath));
         if (stat.isFile()) {
@@ -170,7 +175,7 @@ async function main() {
 
   const { server, port } = await listenServer();
   const launchArgs = process.env.PRERENDER_NO_SANDBOX === "1"
-    ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage", "--single-process"]
+    ? ["--no-sandbox", "--disable-setuid-sandbox", "--disable-gpu", "--disable-dev-shm-usage"]
     : [];
   const launchBrowser = () =>
     puppeteer.launch({
