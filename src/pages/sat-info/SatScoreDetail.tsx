@@ -12,6 +12,10 @@ import {
   getBalancedSectionSplit,
   getScoreProfile,
 } from "@/lib/seo-data/satScoreData";
+import {
+  getSatScoreControlTitle,
+  getSatScoreDocumentTitle,
+} from "@/lib/seo/ctrTitleExperiment";
 import NotFound from "@/pages/NotFound";
 
 const SCORE_PAGE_PUBLISHED = "2026-04-01";
@@ -129,9 +133,8 @@ const SatScoreDetail = () => {
   }
 
   const profile = getScoreProfile(score);
-  const title = score === 1530
-    ? "1530 SAT Score: Is It Good? Official Percentile & Section Splits"
-    : `${score} SAT Score: Percentile, Valid Section Splits & Next Steps`;
+  const title = getSatScoreDocumentTitle(score);
+  const articleTitle = getSatScoreControlTitle(score);
   const description = score === 1530
     ? "A 1530 SAT is the 99th percentile among recent SAT users. See valid 760/770 section splits, how to compare college ranges, and whether to retake."
     : `A ${score} Digital SAT score is in the ${profile.percentileLabel} percentile among recent SAT users. See valid section splits, college-range context, and next steps.`;
@@ -183,7 +186,7 @@ const SatScoreDetail = () => {
           ]),
           buildFaqJsonLd(faqs),
           buildArticleJsonLd({
-            title,
+            title: articleTitle,
             description,
             url,
             datePublished: SCORE_PAGE_PUBLISHED,
