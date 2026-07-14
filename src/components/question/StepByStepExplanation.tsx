@@ -7,6 +7,7 @@ import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeExplanationData } from "@/lib/explanationApi";
 import { InlineDesmos } from "@/components/tools/InlineDesmos";
 import { createAbortableRequestGuard } from "@/lib/abortableRequestGuard";
+import { formatAcceptedAnswers } from "@/lib/text/answerEquivalence";
 type ExplanationData = NonNullable<ReturnType<typeof normalizeExplanationData>>;
 type ExplanationStep = ExplanationData["steps"][number];
 
@@ -86,7 +87,7 @@ export function StepByStepExplanation({ questionId, correctAnswer }: StepByStepE
   const isAllRevealed = revealedUpTo >= totalSteps - 1;
   const isOnLastRevealed = currentStep === revealedUpTo;
   const step = data.steps[Math.min(currentStep, totalSteps - 1)];
-  const displayedCorrectAnswer = correctAnswer || data.correctAnswer;
+  const displayedCorrectAnswer = formatAcceptedAnswers(correctAnswer || data.correctAnswer);
 
   return (
     <div className="flex flex-col h-full">
@@ -122,6 +123,7 @@ export function StepByStepExplanation({ questionId, correctAnswer }: StepByStepE
       >
         <div
           key={animKey}
+          data-explanation-scroll-region="true"
           className="absolute inset-0 overflow-y-auto px-3 py-4 step-animate"
           style={{ "--step-dir": direction } as React.CSSProperties}
         >
@@ -199,9 +201,18 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
 
-      {step.desmosExpressions && step.desmosExpressions.length > 0 && (
+      {((step.desmosExpressions && step.desmosExpressions.length > 0) ||
+        (step.desmosTables && step.desmosTables.length > 0)) && (
         <div className="ml-9 mt-2">
-          <InlineDesmos expressions={step.desmosExpressions} />
+          <InlineDesmos
+            expressions={step.desmosExpressions ?? []}
+            tables={step.desmosTables}
+            bounds={step.desmosBounds}
+            degreeMode={step.desmosDegreeMode}
+            defaultLogModeRegressions={step.desmosDefaultLogModeRegressions}
+            preserveSquareUnits={step.desmosPreserveSquareUnits}
+            showGraphpaper={step.desmosShowGraphpaper}
+          />
         </div>
       )}
 
@@ -213,7 +224,17 @@ function StepContent({ step, stepIndex, totalSteps }: { step: ExplanationStep; s
                 <span className="generated-graph-badge">Generated graph</span>
                 {graph.label && <span className="generated-graph-title">{graph.label}</span>}
               </figcaption>
-              <InlineDesmos expressions={graph.expressions} height={380} className="generated-graph-canvas" />
+              <InlineDesmos
+                expressions={graph.expressions}
+                tables={graph.tables}
+                bounds={graph.bounds}
+                degreeMode={graph.degreeMode}
+                defaultLogModeRegressions={graph.defaultLogModeRegressions}
+                preserveSquareUnits={graph.preserveSquareUnits}
+                showGraphpaper={graph.showGraphpaper}
+                height={380}
+                className="generated-graph-canvas"
+              />
             </figure>
           ))}
         </div>

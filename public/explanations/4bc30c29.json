@@ -9,14 +9,7 @@
     },
     {
       "title": "Use the valid branch",
-      "content": "For a nonnegative solution less than $7$, use this branch.<br/>$$|x-7|=7-x$$<br/>$$7-x=4x$$<br/>$$7=5x$$<br/>$$x=\\frac{7}{5}$$"
-    },
-    {
-      "title": "Calculator shortcut",
-      "content": "Graph the equation and read the single intersection's $x$-value.<br/>The answer is <strong>B</strong>.",
-      "desmosExpressions": [
-        "-2|x - 7| = -8x"
-      ]
+      "content": "A valid solution must have $x\\ge 0$. If $x\\ge 7$, then $|x-7|=x-7$, which gives $x=-\\frac{7}{3}$ and contradicts $x\\ge 7$. Thus use $|x-7|=7-x$.<br/>$$7-x=4x\\Rightarrow 7=5x\\Rightarrow x=\\frac{7}{5}$$<br/>The answer is <strong>B</strong>."
     }
   ]
 }

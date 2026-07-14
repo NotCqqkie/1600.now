@@ -1,6 +1,6 @@
 # Backlink outreach send drafts
 
-Status: draft only. Do not submit, email, or publish anything until Luke approves.
+Status: active source for the approved daily direct-email automation. Forms, listings, posts, and account actions remain unapproved.
 
 Sender: Luke Finigan <luke@1600.now>
 
@@ -72,13 +72,808 @@ Use these destinations when sending or submitting the drafts below. Anything log
 | Hopa Mountain - ACT/SAT Test Prep Resources (nonprofit) | info@hopamountain.org | https://www.hopamountain.org/isp/hs/actsattestprepresources |
 | EnACT Your Future - '10 Free SAT Prep Resources' page | info@enactyourfuture.com | https://www.enactyourfuture.com/free-sat-resources.html |
 | Get Schooled (national nonprofit) - "Where to Find Free SAT Study Help" | hello@getschooled.com | https://getschooled.com/article/5444-how-to-study-for-the-sat-test/ |
-| Freedom and Citizenship at Columbia University - "Free SAT Prep Resources" | Use the program's published general contact via https://freedomandcitizenship.columbia.edu/people (do NOT use a scraped personal address) | https://freedomandcitizenship.columbia.edu/satprep-25-resources |
+| Freedom and Citizenship at Columbia University - "Free SAT Prep Resources" | fandc@columbia.edu (official program inbox; do not use the old third-party personal address) | https://freedomandcitizenship.columbia.edu/satprep-25-resources |
+| Lake Michigan College Upward Bound | jsall@lakemichigancollege.edu (Jacob Sall, Director) | https://www.lakemichigancollege.edu/community/upward-bound |
+| Whatcom Community College TRIO Upward Bound | aroth@whatcom.edu (Athena Roth, Director) | https://www.whatcom.edu/current-students/funding-support-programs/upward-bound/resources |
+| Parkway Central High School | NPrange@parkwayschools.net (Nana Prange, counseling program leader) | https://centralhigh.parkwayschools.net/student-support/counseling/testing |
+| State College Area High School | jls68@scasd.org (Jennifer Scudder, SAT Coordinator) | https://hs.scasd.org/our-school/counseling/college-admissions-testing |
+| Washington State GEAR UP | bethk@wsac.wa.gov (Beth Kelly, website resources and publications) | https://gearup.wa.gov/grant-managers/free-test-preparation-tools-and-fee-waiver-info |
+| Crestview Local School District | asmith@crestviewlocal.k12.oh.us (Alannah Smith, grades 9-12 counselor) | https://www.crestviewlocal.k12.oh.us/parent1/chs-counselor/college-and-fafsa-resourses/free-sat-prep |
+| John R. Lewis High School Library | mbmarquet@fcps.edu (Muriel "Mimi" Marquet, Head Librarian) | https://lewishs-fcps.libguides.com/library/Testprep |
+| Edmonds College Library | haley.benjamins@edmonds.edu (Haley Benjamins, subject-guide owner) | https://edcc.libguides.com/testprep/sat |
+| Binghamton University TRIO Upward Bound | isebuhar@binghamton.edu (Richie Sebuharara, Director) | https://www.binghamton.edu/trio/upward-bound/families/studentresources.html |
+| NCSSM Morganton Library | jay.singley@ncssm.edu (Jay Singley, Textbook Manager/Librarian and guide owner) | https://ncssm-morganton.libguides.com/test-preparation/sat |
+| Skyline High School PTSA College Readiness | collegereadiness@skylineptsa.org (Iris Gupta and Keerat Verma, College Readiness Chairs) | https://skylineptsa.org/Page/Programs/Mock_Test_Summer |
+| University of North Georgia Upward Bound | upwardbound@ung.edu (official page-designated program inbox) | https://ung.edu/upward-bound/resources.php |
+| Del Norte High School | Joselyn.Glicco@aps.edu (Joselyn Glicco, College/Career Readiness Counselor) | https://delnorte.aps.edu/our-school/college-career-readiness/act-and-sat-testing |
+| The Webb School Library and Archives | hlittle@webbschool.com (Hannah Byrd Little, Director of Library and Archives and guide owner) | https://thewebbschool.libguides.com/testprep |
+| Christopher Columbus Educational Campus Library | tchrismore@schools.nyc.gov (Tina Chrismore, Librarian) | https://sites.google.com/schools.nyc.gov/ccec-library-website/test-prep |
+| Oregon State University TRIO Upward Bound | Virginia.Antunez@oregonstate.edu (Vicky Antunez, Associate Director) | https://trio.oregonstate.edu/upward-bound/links-and-resources |
+| Howard County Public School System | Kami_Wagner@hcpss.org (Kami Wagner, Coordinator of School Counseling and Student Records) | https://www.hcpss.org/college-career-readiness/resources/ |
+| West Park High School | GLuna@rjuhsd.us (Grace Luna, College & Career Center) | https://westpark.rjuhsd.us/services/college-career-center/testing-information |
+| University of Memphis Upward Bound | ospayne@memphis.edu (Ophrah Payne, TRIO Upward Bound Coordinator) | https://www.memphis.edu/upwardbound/studentresource/ |
 | HSLDA Online Academy - "4 Free Resources for SAT Prep" | academy@hslda.org | https://academy.hslda.org/4-free-resources-for-sat-prep/ |
 | Colleges of Distinction - "FREE College Readiness SAT/ACT Test Prep Resources" | https://collegesofdistinction.com/contact-us/ | https://collegesofdistinction.com/advice/free-college-readiness-sat-act-test-prep-resources/ |
 | CollegiateParent - "Apps to Make College Prep Easier" | https://collegiateparent.com/contact-us/ | https://collegiateparent.com/high-school/apps-to-make-college-prep-easier/ |
 | AMIDEAST (EducationUSA network operator for MENA) | dsaleh@amideast.org (advising page contact; general: inquiries@amideast.org; center adviser: beirut@educationusa.org) | https://www.amideast.org/our-work/study-in-the-usa/education-advising/educational-advising |
 | EducationUSA at U.S. Embassy Tashkent (Uzbekistan) | https://educationusa.state.gov/email/node/427/field_center_email_forwarder | https://educationusa.state.gov/centers/educationusa-us-embassy-tashkent |
 | InternationalStudent.com (Envisage International) | https://www.internationalstudent.com/contact/ | https://www.internationalstudent.com/test-prep/sat/ |
+
+## 2026-07-12 verified direct-email batch
+
+### Lake Michigan College Upward Bound
+
+Target: jsall@lakemichigancollege.edu
+
+Research note: SAT preparation is part of monthly Saturday College Prep, and the program's Useful Links already includes Khan Academy SAT Prep.
+
+Subject:
+
+A free Digital SAT resource for Lake Michigan Upward Bound
+
+Message:
+
+Hi Mr. Sall,
+
+I noticed SAT prep is part of Lake Michigan's monthly Saturday College Prep, and the Upward Bound page also points students to Khan Academy. I built another free option that students could use between sessions.
+
+1600.now has more than 8,300 Digital SAT questions organized by skill, with a written explanation after each one. It has no ads, and the question bank works without an account.
+
+Would it make sense to add it to the Useful Links section?
+https://1600.now/bank
+
+Thanks for taking a look,
+Luke Finigan
+https://1600.now
+
+### Whatcom Community College TRIO Upward Bound
+
+Target: aroth@whatcom.edu
+
+Research note: The exact page has a dedicated SAT and ACT section with registration, score, and practice links, and it publishes Athena Roth as director.
+
+Subject:
+
+Digital SAT practice for Whatcom Upward Bound students
+
+Message:
+
+Hi Ms. Roth,
+
+The SAT and ACT section on Whatcom's Upward Bound resources page is unusually practical. It brings registration, score information, and several study options into one place. I thought 1600.now might be useful alongside the SAT practice links already there.
+
+I made the site as a high school senior. It is free and has no ads, with over 8,300 Digital SAT questions that students can sort by skill. Each answer includes a written explanation.
+
+If it fits, would you consider adding it to that section?
+https://1600.now/bank
+
+Thank you,
+Luke Finigan
+https://1600.now
+
+### Parkway Central High School
+
+Target: NPrange@parkwayschools.net
+
+Research note: The current testing page maintains a FREE test-prep list with College Board, UMSL Bridge, LearningExpress, and Khan Academy.
+
+Subject:
+
+Free Digital SAT practice for Parkway Central students
+
+Message:
+
+Hi Ms. Prange,
+
+Your testing page gives students several genuinely free prep choices, including UMSL Bridge, LearningExpress, College Board, and Khan Academy. I wanted to send one more option built for the current Digital SAT.
+
+I'm a high school senior and built 1600.now. The site is free and has no ads. Its bank has more than 8,300 questions by skill, each with an explanation, and students can start without setting up an account.
+
+Could it be added to the FREE test prep list?
+https://1600.now/bank
+
+Thanks,
+Luke Finigan
+https://1600.now
+
+### State College Area High School
+
+Target: jls68@scasd.org
+
+Research note: The exact page lists current test dates, free College Board and Khan Academy practice, Schoolhouse bootcamps, and Jennifer Scudder as SAT Coordinator.
+
+Subject:
+
+Another free SAT practice option for State High
+
+Message:
+
+Hi Ms. Scudder,
+
+I saw that State High students can choose among official College Board practice, Khan Academy, and live Schoolhouse bootcamps. 1600.now could be a self-paced option for anyone who wants more questions between those resources.
+
+I built it as a high school senior. The question bank has over 8,300 Digital SAT questions with written explanations, and students can open it without an account. The whole site is free and has no ads.
+
+Would you consider including it under Free Test Prep Resources?
+https://1600.now/bank
+
+Best,
+Luke Finigan
+https://1600.now
+
+### Washington State GEAR UP
+
+Target: bethk@wsac.wa.gov
+
+Research note: The dedicated free-test-prep page says practice can ease exam anxiety, and Beth Kelly's official role includes GEAR UP Communications, Website Resources & Publications.
+
+Subject:
+
+Digital SAT practice for Washington GEAR UP's resource page
+
+Message:
+
+Hi Ms. Kelly,
+
+Your test-prep page makes a point that stuck with me: practice can ease anxiety by helping students know what to expect. That is the same reason I started building 1600.now.
+
+It is a free, ad-free Digital SAT question bank with more than 8,300 questions and a written explanation for every answer. Students can start practicing without creating an account.
+
+Could it be a fit for the SAT resources on the page?
+https://1600.now/bank
+
+Thanks for considering it,
+Luke Finigan
+https://1600.now
+
+### Crestview Local School District
+
+Target: asmith@crestviewlocal.k12.oh.us
+
+Research note: The FREE SAT PREP page discusses the 2016 redesign and the SAT Reasoning Test, while the current counseling area has 2026-27 materials and names Alannah Smith as the sole grades 9-12 counselor.
+
+Subject:
+
+A current Digital SAT option for Crestview's free prep page
+
+Message:
+
+Hi Mrs. Smith,
+
+I found Crestview's FREE SAT PREP page and noticed it still walks students through the 2016 SAT redesign and the old SAT Reasoning Test. A current Digital SAT resource could make that page more useful without changing its focus on free practice.
+
+I built 1600.now as a high school senior. It has over 8,300 Digital SAT questions sorted by skill, and every answer has a written explanation. The site is free, has no ads, and does not require an account to start.
+
+Would you consider adding it when the page is next updated?
+https://1600.now/bank
+
+Thanks for your time,
+Luke Finigan
+https://1600.now
+
+### John R. Lewis High School Library
+
+Target: mbmarquet@fcps.edu
+
+Research note: The guide was updated on 2026-06-16 and offers Kaplan, FCPL, LearningExpress, Varsity Tutors, and a Khan section that still describes linking College Board and Khan accounts.
+
+Subject:
+
+A current Digital SAT link for the Lewis library guide
+
+Message:
+
+Hi Ms. Marquet,
+
+The Lewis library guide brings together several kinds of test-prep help, from Kaplan access and FCPL resources to Khan Academy. I noticed the Khan section still describes linking College Board and Khan accounts, so I wanted to share a practice option built for the current Digital SAT.
+
+1600.now is free and has no ads. Its bank has more than 8,300 questions organized by skill, with an explanation after each one, and it opens without an account.
+
+Would you consider adding it to the test-prep page?
+https://1600.now/bank
+
+All the best,
+Luke Finigan
+https://1600.now
+
+### Edmonds College Library
+
+Target: haley.benjamins@edmonds.edu
+
+Research note: The SAT page combines online practice links with current Digital SAT books; the guide was updated on 2026-05-08 and names Haley Benjamins as its owner.
+
+Subject:
+
+A Digital SAT resource for the Edmonds test-prep guide
+
+Message:
+
+Hi Ms. Benjamins,
+
+I came across the SAT page in Edmonds College's test-prep guide. It combines a current Digital SAT study book with online practice links, which made it seem like a good place for a free browser-based question bank.
+
+I am a high school senior and made 1600.now. Students can work through over 8,300 Digital SAT questions by skill, with a written explanation for each. It is free, has no ads, and the bank opens without an account.
+
+Would you consider adding it under Online Resources?
+https://1600.now/bank
+
+Thanks for looking,
+Luke Finigan
+https://1600.now
+
+### Binghamton University TRIO Upward Bound
+
+Target: isebuhar@binghamton.edu
+
+Research note: The student-resources page says Upward Bound tutors help with SAT preparation, then gives students one external free SAT-practice link.
+
+Subject:
+
+More free SAT practice for Binghamton Upward Bound
+
+Message:
+
+Hi Mr. Sebuharara,
+
+Binghamton's student-resources page says Upward Bound tutors help students prepare for the SAT, then gives them one free practice link for work on their own. I built a larger free bank that might be useful alongside it.
+
+1600.now has more than 8,300 Digital SAT questions, all with written explanations. There are no ads or charges, and no account is needed to open the bank.
+
+Would you consider adding it to the SAT Prep section?
+https://1600.now/bank
+
+Thank you for considering it,
+Luke Finigan
+https://1600.now
+
+### Freedom and Citizenship at Columbia University
+
+Target: fandc@columbia.edu
+
+Research note: The live page gives every free SAT resource a specific "what," "why," and "how." The official program inbox is the verified contact; do not use the previously recorded third-party personal address.
+
+Subject:
+
+One more free option for the SAT resources page
+
+Message:
+
+Hi Freedom and Citizenship team,
+
+Your SAT resources page does something I have not seen on most lists: every link gets a clear "what," "why," and "how." I think 1600.now could fit as an extra practice option after students work through the Bluebook tests.
+
+I'm a high school senior, and I built it to make a large practice bank available without a subscription. There are over 8,300 Digital SAT questions by skill, each with a written explanation. The site is free, has no ads, and the bank works without an account.
+
+Would you consider adding it to Online Resources?
+https://1600.now/bank
+
+Thanks for taking a look,
+Luke Finigan
+https://1600.now
+
+## 2026-07-12 verified direct-email continuation
+
+### NCSSM Morganton Library
+
+Target: jay.singley@ncssm.edu
+
+Research note: The SAT guide combines current Digital SAT books, LearningExpress practice tests, and Khan Academy. It was updated on 2026-03-24 and names Jay Singley as its owner.
+
+Subject:
+
+A browser-based Digital SAT resource for the Morganton guide
+
+Message:
+
+Hi Mr. Singley,
+
+The Morganton SAT guide brings together current Digital SAT books, LearningExpress practice tests, and Khan Academy. I made a free question bank that could give students another way to practice between those resources.
+
+I'm a high school senior, and 1600.now is the site I built. It has more than 8,300 Digital SAT questions organized by skill, with a written explanation after every answer. There are no ads, and students can open the bank without making an account.
+
+Would you be open to adding it to the SAT Prep page?
+https://1600.now/bank
+
+Thanks for taking a look,
+Luke Finigan
+https://1600.now
+
+### Skyline High School PTSA College Readiness
+
+Target: collegereadiness@skylineptsa.org
+
+Research note: The current page pairs PTSA mock exams with a neutral Other Test Prep Resources list and names Iris Gupta and Keerat Verma as the College Readiness Chairs.
+
+Subject:
+
+Free Digital SAT practice for Skyline students
+
+Message:
+
+Hi Iris and Keerat,
+
+I liked that the College Readiness page does not push one prep company. It offers the PTSA mock exams, then gives families several outside options to compare. A free, self-paced bank might be useful on that list.
+
+I am a high school senior and built 1600.now. Students can choose a Digital SAT skill, work through practice questions, and see a written explanation after each answer. The site is free, has no ads, and works without an account.
+
+Could it go under Other Test Prep Resources?
+https://1600.now/bank
+
+Thank you,
+Luke Finigan
+https://1600.now
+
+### University of North Georgia Upward Bound
+
+Target: upwardbound@ung.edu
+
+Research note: The exact page directs questions to this program inbox and groups College Board, ACT, and an outside SAT prep guide under Additional Resources.
+
+Subject:
+
+An addition for UNG Upward Bound's resources
+
+Message:
+
+Hi UNG Upward Bound team,
+
+The Forms & Resources page lists College Board and ACT, plus a separate SAT prep guide. 1600.now seemed like it belonged in that group.
+
+It is free, with no ads or sign-up step. The question bank is organized by Digital SAT skill and includes a written explanation for every answer.
+
+Would you be open to adding it under Additional Resources?
+https://1600.now/bank
+
+Thanks for considering it,
+Luke Finigan
+https://1600.now
+
+### Del Norte High School
+
+Target: Joselyn.Glicco@aps.edu
+
+Research note: The page already separates free and inexpensive test-prep resources, while parts still reference SAT Subject Tests and older testing dates. Joselyn Glicco is the current College/Career Readiness Counselor.
+
+Subject:
+
+A current Digital SAT option for Del Norte
+
+Message:
+
+Hi Ms. Glicco,
+
+The Del Norte testing page already has a long list of free and inexpensive prep links. A few sections still mention SAT Subject Tests and older test dates, so I wanted to send a current Digital SAT option.
+
+I built 1600.now as a high school senior. The bank has more than 8,300 questions by skill and an explanation for every answer. It is free, has no ads, and does not ask students to make an account before practicing.
+
+If you update that list, could 1600.now be included?
+https://1600.now/bank
+
+Best,
+Luke Finigan
+https://1600.now
+
+### The Webb School Library and Archives
+
+Target: hlittle@webbschool.com
+
+Research note: The guide has an Other Free Prep area beside Khan Academy and Tennessee Electronic Library resources. Hannah Byrd Little owns the guide and directs the library.
+
+Subject:
+
+One more free SAT practice link for the Webb guide
+
+Message:
+
+Hi Ms. Little,
+
+I found the Other Free Prep section in the Webb guide alongside Khan Academy and Tennessee Electronic Library resources. I made a Digital SAT question bank that seems like a good fit there.
+
+I'm a high school senior. 1600.now is free, has no ads, and lets students practice by skill without signing in. Each answer comes with a written explanation.
+
+Would you consider adding it to the guide?
+https://1600.now/bank
+
+Thanks for your time,
+Luke Finigan
+https://1600.now
+
+### Christopher Columbus Educational Campus Library
+
+Target: tchrismore@schools.nyc.gov
+
+Research note: The library's broad Test Prep page curates Regents, SAT, ACT, and AP help, including NYPL LearningExpress and library study-guide ebooks. Tina Chrismore is the published librarian contact.
+
+Subject:
+
+Digital SAT practice for the CCEC library list
+
+Message:
+
+Hi Ms. Chrismore,
+
+Your Test Prep page pulls Regents, SAT, ACT, and AP help into one place. I especially noticed the NYPL LearningExpress link and the library's own study-guide ebooks. I wanted to send a current Digital SAT option that students can use without a library login.
+
+1600.now is free and has no ads. The bank has more than 8,300 questions sorted by skill, with an explanation for every answer. It opens without an account.
+
+Could it be added with the SAT resources?
+https://1600.now/bank
+
+All the best,
+Luke Finigan
+https://1600.now
+
+### Oregon State University TRIO Upward Bound
+
+Target: Virginia.Antunez@oregonstate.edu
+
+Research note: The current links page pairs Khan Academy test prep with BigFuture and Oregon GEAR UP. Vicky Antunez is the published associate director and exact-page contact.
+
+Subject:
+
+Digital SAT practice for Oregon State Upward Bound
+
+Message:
+
+Hi Ms. Antunez,
+
+I found Oregon State's links page while looking at the Khan Academy and Oregon GEAR UP resources you share. It seemed like a good place for another free option made for the current Digital SAT.
+
+I built 1600.now as a high school senior. It has more than 8,300 questions by skill with a written explanation after each one. The site has no ads, costs nothing, and works without an account.
+
+Would you consider it for Test Prep Resources?
+https://1600.now/bank
+
+Thank you for considering it,
+Luke Finigan
+https://1600.now
+
+### Howard County Public School System
+
+Target: Kami_Wagner@hcpss.org
+
+Research note: HCPSS says the College Admission Testing links were reviewed and recommended by its counselors. Kami Wagner currently coordinates School Counseling and Student Records.
+
+Subject:
+
+Free Digital SAT practice for HCPSS students
+
+Message:
+
+Hi Ms. Wagner,
+
+I noticed the College Admission Testing links are reviewed by HCPSS counselors. The list includes Khan Academy plus several paid providers, so I wanted to share a free option built for the current test.
+
+1600.now is free and does not show ads. Students can choose a Digital SAT skill, practice without logging in, and see an explanation after each answer.
+
+If it fits HCPSS's criteria, could it be added to that section?
+https://1600.now/bank
+
+Thanks,
+Luke Finigan
+https://1600.now
+
+### West Park High School
+
+Target: GLuna@rjuhsd.us
+
+Research note: The SAT section currently offers official full-length tests and a local workshop provider. Grace Luna is the published College & Career Center contact for testing questions.
+
+Subject:
+
+A no-cost Digital SAT bank for West Park students
+
+Message:
+
+Hi Ms. Luna,
+
+West Park's testing page gives students official full-length SAT tests and a local workshop option. I built a question bank they could use for shorter practice between full tests, especially when they want to focus on one skill.
+
+1600.now has more than 8,300 Digital SAT questions with written explanations. I keep it free and ad-free, and students can begin without an account.
+
+Would it make sense to include it in the SAT section?
+https://1600.now/bank
+
+Thanks for looking,
+Luke Finigan
+https://1600.now
+
+### University of Memphis Upward Bound
+
+Target: ospayne@memphis.edu
+
+Research note: The Student Resources page has a dedicated SAT Prep section with a rapid-review video and a 14-day study plan. Ophrah Payne is the current program coordinator.
+
+Subject:
+
+Practice questions for Memphis Upward Bound's SAT section
+
+Message:
+
+Hi Ms. Payne,
+
+The SAT Prep section on Memphis Upward Bound's Student Resources page has a rapid-review video and a 14-day study plan. I built a question bank that could give students somewhere to practice what they just reviewed.
+
+1600.now is free, and I don't run ads on it. Students can pick a Digital SAT skill, answer questions at their own pace, and read an explanation after each one. The bank opens without an account.
+
+Would you consider putting it in the SAT Prep section?
+https://1600.now/bank
+
+Thanks for considering it,
+Luke Finigan
+https://1600.now
+
+## 2026-07-13 verified direct-email batch
+
+### Guyer High School
+
+Target: mwells@dentonisd.org
+
+Target page: https://guyerhs.dentonisd.org/academics/testing
+
+Research note: Guyer's current testing page has a substantial FREE RESOURCES list that includes Khan Academy, PrepFactory, March2Success, Test Geek, and other outside tools. Mikayla Wells is the testing coordinator published on that page.
+
+Subject:
+
+A current free resource for Guyer's SAT list
+
+Message:
+
+Hi Ms. Wells,
+
+Guyer's testing page stood out because it gives students a real mix of free options, from Khan Academy and March2Success to Test Geek. I'm a high school senior, and I built another one that may fit that section: https://1600.now/bank
+
+The site is completely free and has no ads. It is built for the current Digital SAT, and students can practice by skill or difficulty and see an explanation after each question. An account is optional.
+
+Would you consider adding it under Free Resources when you next update the page?
+
+Thanks for taking a look,
+
+Luke Finigan
+https://1600.now
+
+### Montclair State University Upward Bound
+
+Target: gonzalezlia@montclair.edu
+
+Target page: https://www.montclair.edu/upward-bound/resources/
+
+Research note: The current Upward Bound page gives Test Prep its own section and already links Khan Academy within a broader curated college-access resource collection. Liandy Gonzalez is the current project director.
+
+Subject:
+
+One more option for Upward Bound's Test Prep section
+
+Message:
+
+Hi Ms. Gonzalez,
+
+I noticed the Upward Bound resources page gives Test Prep its own section and currently points students to Khan Academy. Since the rest of the page is built around practical college-access tools, I thought this might be useful there too.
+
+I'm a high school senior and built 1600.now, including a Digital SAT question bank at https://1600.now/bank. There is no charge or advertising, and every question has a written explanation.
+
+Would you be open to adding it as another practice option for your students?
+
+Thank you for considering it,
+
+Luke Finigan
+https://1600.now
+
+### DCPS Goes to College
+
+Target: courtney.haddaway@k12.dc.gov
+
+Target page: https://dcpsgoestocollege.org/college-exploration/psat-sat/
+
+Research note: The current DCPS page brings School Day testing, Bluebook guidance, and free preparation tools together. Courtney Haddaway Delph's official role covers SAT/PSAT testing and SAT test prep.
+
+Subject:
+
+A free practice option for DCPS SAT students
+
+Message:
+
+Hi Ms. Haddaway Delph,
+
+The DCPS PSAT/SAT page is unusually practical. It explains School Day testing, Bluebook, and free preparation in one place. Since your role covers SAT and PSAT testing and prep, I wanted to send you a resource I built for students.
+
+The question bank is at https://1600.now/bank. It costs nothing to use, shows no ads, and gives students focused Digital SAT practice with an explanation for every answer.
+
+Would it make sense to add it alongside the current Bluebook and Khan Academy resources?
+
+I appreciate your time,
+
+Luke Finigan
+https://1600.now
+
+### Snohomish High School College & Career Center
+
+Target: kelsey.chaplin@sno.wednet.edu
+
+Target page: https://shs.sno.wednet.edu/student-life/college-career-center
+
+Research note: The current Free test preparation tools list goes beyond official sites to include outside options such as TestGeek. Kelsey Chaplin is the College & Career Center Specialist named on the exact page.
+
+Subject:
+
+A no-ad addition to Snohomish's free test-prep list
+
+Message:
+
+Hi Ms. Chaplin,
+
+I was looking through Snohomish's College & Career Center page and saw that the free test-prep list goes beyond official sites to options such as TestGeek. That made me think a project I built could be a reasonable fit.
+
+I'm a high school senior, and 1600.now has a browser-based Digital SAT bank here: https://1600.now/bank. Everything is free, there are no ads, and an account is optional. Students can narrow practice to a specific skill and read an explanation after each question.
+
+Would you be open to adding it to the free tools list?
+
+Thanks,
+
+Luke Finigan
+https://1600.now
+
+### Dakota High School Media Center
+
+Target: kgroppuso@cvs.k12.mi.us
+
+Target page: https://www.chippewavalleyschools.org/schools/high-schools/dhs/media-center/sat-practice-/
+
+Research note: Dakota's SAT PREP page includes Khan Academy, College Board, LearningExpress, and several SAT smartphone apps. Kirsten Groppuso is the current campus librarian published on the Media Center page.
+
+Subject:
+
+A current Digital SAT link for Dakota's Media Center
+
+Message:
+
+Hi Ms. Groppuso,
+
+Dakota's SAT PREP page still has a useful student-resource section, and I noticed it includes the College Board Question of the Day and SAT UP smartphone apps. Since the test is digital now, I wanted to share a current browser-based option for the next time you refresh the list.
+
+I'm a high school senior and built https://1600.now/bank. It is free, ad-free, and organized around the current Digital SAT, with an explanation after every question.
+
+Would you consider linking it from the Media Center page?
+
+Thank you,
+
+Luke Finigan
+https://1600.now
+
+### Belleville East High School
+
+Target: abarriger@bths201.org
+
+Target page: https://bths201.org/belleville-east-home/be-counseling/college-career-readiness/
+
+Research note: Belleville East's College & Career Readiness page maintains a focused Free SAT prep resources list with College Board and Khan Academy. Andrea Barriger is the current Counseling Department Director.
+
+Subject:
+
+A newer option for Belleville East's free SAT resources
+
+Message:
+
+Hi Mrs. Barriger,
+
+Your College & Career Readiness page gives students a short, focused list of free SAT resources, including College Board practice and Khan Academy. I built a browser-based option for the current Digital SAT that could complement those links: https://1600.now/bank
+
+Students can use it for free without ads, and signing in is optional. The bank can be filtered by content area and includes a written explanation for every question.
+
+Could it be considered for the free resources section?
+
+Best,
+
+Luke Finigan
+https://1600.now
+
+### California State University Monterey Bay GEAR UP
+
+Target: dlozano@csumb.edu
+
+Target page: https://csumb.edu/studentlife/support/pre-college-programs/student-resources/
+
+Research note: The current junior-year resources move from college exploration into Test Preparation and Planning, where SAT, ACT, and Khan Academy links are grouped together. Deserie Lozano is the current GEAR UP Associate Director.
+
+Subject:
+
+A free Digital SAT tool for CSUMB GEAR UP students
+
+Message:
+
+Hi Ms. Lozano,
+
+The junior-year resources on your site move neatly from college exploration into test preparation and put the SAT, ACT, and Khan Academy together. I thought a hands-on question bank might be useful in that same group.
+
+I'm a high school senior and built https://1600.now/bank for the current Digital SAT. It is free and ad-free, and students get a clear explanation after each question.
+
+Would it be worth adding under Test Preparation and Planning?
+
+Thanks for considering it,
+
+Luke Finigan
+https://1600.now
+
+### Doss High School Library
+
+Target: ashley.freeman@jefferson.kyschools.us
+
+Target page: https://jcpsky.libguides.com/c.php?g=302959&p=7858210
+
+Research note: The official Doss LibGuide was updated May 12, 2026 and offers several ways to practice through College Board, March2Success, Magoosh, and other external resources. Ashley Freeman is the current school librarian.
+
+Subject:
+
+A Digital SAT addition for the Doss library guide
+
+Message:
+
+Hi Ms. Freeman,
+
+The Doss guide gives students several different ways to practice, including College Board, March2Success, and Magoosh. I built a question bank that could sit alongside those resources: https://1600.now/bank
+
+There is no paywall or advertising. The questions are organized for the current Digital SAT by skill and difficulty, and each one includes a written explanation.
+
+Would you consider adding it to the AP/ACT/PSAT/SAT Prep guide?
+
+Thank you for reading,
+
+Luke Finigan
+https://1600.now
+
+### Central Piedmont Early College
+
+Target: kellym.deantonio@cms.k12.nc.us
+
+Target page: https://sites.google.com/cms.k12.nc.us/cpec-school-counseling/act-sat
+
+Research note: The current counseling page groups Khan Academy, Schoolhouse, March2Success, and Tutor.com under other free test prep resources. Kelly DeAntonio is the Senior High Counselor and the page directs fee-waiver questions to her.
+
+Subject:
+
+Another free SAT option for CPEC students
+
+Message:
+
+Hi Ms. DeAntonio,
+
+I saw that your ACT/SAT page groups Khan Academy, Schoolhouse, March2Success, and Tutor.com under other free resources. Since students have several ways to practice, this might give them another option that opens directly in the browser.
+
+I'm a high school senior and built https://1600.now/bank. It is free, has no ads, and opens without a required login. Students can work on a specific Digital SAT skill and check the explanation after each question.
+
+If it passes your review, would you consider adding it to that section?
+
+Appreciate it,
+
+Luke Finigan
+https://1600.now
+
+### La Salle Academy Library
+
+Target: ahajian@lasalle-academy.org
+
+Target page: https://lasalle-academy.libguides.com/home/homeworkhelp
+
+Research note: The official library guide was updated June 22, 2026. Its AP, SAT & ACT Test Prep section pairs LearningExpress practice exams with College Board and Khan Academy. Andrea Hajian is the current librarian and guide owner.
+
+Subject:
+
+An open Digital SAT resource for the LSA library guide
+
+Message:
+
+Hi Mrs. Hajian,
+
+Your AP, SAT & ACT section pairs LearningExpress practice exams with the College Board and Khan Academy setup. I wanted to share a browser-based option students can use without a library login: https://1600.now/bank
+
+I built it as a high school senior. Students can use it free of charge, with no ads and no required account, and every Digital SAT question has a written explanation.
+
+Would you consider adding it to the test-prep section?
+
+Thanks for your consideration,
+
+Luke Finigan
+https://1600.now
 
 ## Self-serve launches, directories, and submission forms
 
@@ -1108,29 +1903,6 @@ Would you consider adding it to the article?
 https://getschooled.com/article/5444-how-to-study-for-the-sat-test/
 
 Either way, thanks for putting that piece together, it's a genuinely useful list.
-
-Luke Finigan
-https://1600.now
-
-### Freedom and Citizenship at Columbia University
-
-Target: Use the program's published general contact via https://freedomandcitizenship.columbia.edu/people
-
-Research note: Freedom and Citizenship publishes a student-built free SAT prep resources page.
-
-Subject:
-
-A free Digital SAT resource for your free SAT prep page
-
-Message:
-
-Hi,
-
-I'm a high school senior, and I built a free SAT prep site called 1600.now. I came across your free SAT prep resources page, and since it already highlights student-friendly free materials, I thought this might fit right in.
-
-It's free, no ads, and no account is needed. Around 8,000 questions for the digital SAT, each with a real explanation, plus timed practice modules, a score calculator, and vocab. I built it to make solid SAT practice easier to get to without paying, and something students could just open and use.
-
-Would you consider adding it to https://freedomandcitizenship.columbia.edu/satprep-25-resources? Either way, I really like what your program does, thanks for reading.
 
 Luke Finigan
 https://1600.now

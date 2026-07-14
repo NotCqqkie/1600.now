@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { answersEquivalent } from "@/lib/text/answerEquivalence";
+import { answersEquivalent, formatAcceptedAnswers } from "@/lib/text/answerEquivalence";
 
 describe("answersEquivalent", () => {
   it("accepts an exact match", () => {
@@ -73,5 +73,23 @@ describe("answersEquivalent", () => {
     it("does not match a user-entered thousands separator", () => {
       expect(answersEquivalent("3,540", "3540")).toBe(false);
     });
+  });
+});
+
+describe("formatAcceptedAnswers", () => {
+  it("keeps a single accepted answer unchanged", () => {
+    expect(formatAcceptedAnswers("D")).toBe("D");
+  });
+
+  it("formats accepted aliases for display", () => {
+    expect(formatAcceptedAnswers("4.333,13/3")).toBe("13/3");
+  });
+
+  it("preserves thousands separators", () => {
+    expect(formatAcceptedAnswers("1,680")).toBe("1,680");
+  });
+
+  it("keeps distinct accepted answers visible", () => {
+    expect(formatAcceptedAnswers("2,7,10")).toBe("2, 7, or 10");
   });
 });

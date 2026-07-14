@@ -4,19 +4,32 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Find the vertex input",
-      "content": "The quadratic opens upward, so its vertex gives the minimum value. For $f(x)=x^2-48x+2{,}304$, the vertex input is\n$$\nx=-\\frac{b}{2a}=-\\frac{-48}{2(1)}=24\n$$"
-    },
-    {
-      "title": "Evaluate the function",
-      "content": "Substitute $x=24$:\n$$\nf(24)=24^2-48(24)+2{,}304=576-1{,}152+2{,}304=1{,}728\n$$"
-    },
-    {
-      "title": "Calculator shortcut",
-      "content": "Graphing the function shows the same minimum at the vertex. The answer is <strong>1728</strong>.",
+      "title": "Graph the quadratic",
+      "content": "Enter $f(x)=x^2-48x+2304$ in Desmos. The lowest point is the vertex $(24,1728)$, so the minimum value is its $y$-coordinate, $1728$.",
       "desmosExpressions": [
-        "f \\left(x\\right)={x}^{2}-48x+2,304"
-      ]
+        "f(x)=x^2-48x+2304",
+        {
+          "id": "minimum",
+          "latex": "(24,1728)",
+          "color": "#c74440",
+          "label": "minimum: (24, 1728)",
+          "showLabel": true
+        }
+      ],
+      "desmosBounds": {
+        "left": 8,
+        "right": 40,
+        "bottom": 1650,
+        "top": 2050
+      },
+      "desmosDegreeMode": false,
+      "desmosDefaultLogModeRegressions": true,
+      "desmosPreserveSquareUnits": false,
+      "desmosShowGraphpaper": true
+    },
+    {
+      "title": "Read the requested value",
+      "content": "The question asks for the minimum output, not the $x$-coordinate where it occurs.<br/>The answer is <strong>1728</strong>."
     }
   ]
 }

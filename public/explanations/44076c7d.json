@@ -4,16 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Use the middle table row",
-      "content": "Write the quadratic as $f(x)=ax^2+bx+c$. Since $f(0)=16$, the constant term is $c=16$."
+      "title": "Test the most useful input",
+      "content": "Every choice gives $f(0)=16$, so that row cannot distinguish them. Use $x=-1$, where the table says $f(-1)=10$."
     },
     {
-      "title": "Use the other two rows",
-      "content": "Substitute the rows for $x=1$ and $x=-1$.<br/>$$a+b+16=24$$<br/>$$a-b+16=10$$<br/>So<br/>$$a+b=8$$<br/>$$a-b=-6$$<br/>Solving gives $a=1$ and $b=7$."
-    },
-    {
-      "title": "Write the function",
-      "content": "The quadratic is<br/>$$f(x)=x^2+7x+16$$<br/>The answer is <strong>D</strong>."
+      "title": "Eliminate the choices",
+      "content": "Substituting $x=-1$ gives $14$, $18$, $24$, and $10$ for choices A, B, C, and D, respectively. Only choice D matches the table.<br/>The answer is <strong>D</strong>."
     }
   ]
 }

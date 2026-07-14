@@ -5,14 +5,11 @@
   "steps": [
     {
       "title": "Isolate the function",
-      "content": "Subtract $57$ from both sides of the equation so the expression for $p(x)$ is alone.<br/>$$p(x)=x^2-57$$",
-      "desmosExpressions": [
-        "p \\left(x\\right)+57={x}^{2}"
-      ]
+      "content": "Subtract $57$ from both sides so the function is alone.<br/>$$p(x)=x^2-57$$"
     },
     {
       "title": "Read the vertex value",
-      "content": "The expression $x^2$ has minimum value $0$, so the least output of $x^2-57$ occurs when $x=0$.<br/>$$0-57=-57$$The answer is <strong>B</strong>."
+      "content": "Since $x^2\\ge 0$, its smallest possible value is $0$. Therefore, $p(x)=x^2-57$ has minimum value $0-57=-57$.<br/>The answer is <strong>B</strong>."
     }
   ]
 }

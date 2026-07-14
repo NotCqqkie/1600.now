@@ -4,8 +4,20 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const explanationDir = path.join(root, "public/explanations");
-const minExplanationWords = Number.parseInt(process.env.MIN_EXPLANATION_WORDS ?? "35", 10);
-const reportLimit = Number.parseInt(process.env.AUDIT_LIMIT ?? "30", 10);
+const cliArgs = process.argv.slice(2);
+if (cliArgs.some((arg) => arg !== "--include-orphans")) {
+  throw new Error(`Unknown option: ${cliArgs.find((arg) => arg !== "--include-orphans")}`);
+}
+const includeOrphans = cliArgs.includes("--include-orphans");
+const readPositiveEnvironmentInteger = (name, fallback) => {
+  const raw = process.env[name] ?? String(fallback);
+  if (!/^\d+$/.test(raw) || Number(raw) <= 0 || !Number.isSafeInteger(Number(raw))) {
+    throw new Error(`${name} must be a positive integer: ${raw}`);
+  }
+  return Number(raw);
+};
+const minExplanationWords = readPositiveEnvironmentInteger("MIN_EXPLANATION_WORDS", 35);
+const reportLimit = readPositiveEnvironmentInteger("AUDIT_LIMIT", 30);
 
 const failures = {
   parse: [],
@@ -17,13 +29,12 @@ const failures = {
   shortExplanations: [],
   correctAnswerMismatches: [],
   strongClaimedAnswerMismatches: [],
+  invalidDesmosConfig: [],
 };
 
 const addFailure = (type, id, message, file = "") => {
   failures[type].push({ id, file, message });
 };
-
-const readText = (relativePath) => readFileSync(path.join(root, relativePath), "utf8");
 
 const readJson = (relativePath) => {
   const file = path.join(root, relativePath);
@@ -32,34 +43,6 @@ const readJson = (relativePath) => {
   } catch (error) {
     addFailure("parse", relativePath, error.message, relativePath);
     return null;
-  }
-};
-
-const extractUnofficialQuestions = () => {
-  const relativePath = "src/data/unofficialQuestions.ts";
-  let text;
-  try {
-    text = readText(relativePath);
-  } catch (error) {
-    addFailure("parse", relativePath, error.message, relativePath);
-    return [];
-  }
-
-  const marker = "export const questions";
-  const markerIndex = text.indexOf(marker);
-  const equalsIndex = text.indexOf("=", markerIndex);
-  const start = text.indexOf("[", equalsIndex);
-  const end = text.lastIndexOf("]");
-  if (markerIndex === -1 || equalsIndex === -1 || start === -1 || end === -1 || end <= start) {
-    addFailure("parse", relativePath, "Could not locate exported questions array", relativePath);
-    return [];
-  }
-
-  try {
-    return JSON.parse(text.slice(start, end + 1));
-  } catch (error) {
-    addFailure("parse", relativePath, error.message, relativePath);
-    return [];
   }
 };
 
@@ -137,8 +120,11 @@ const buildSourceIndex = () => {
     for (const question of mathPast) addSourceQuestion(sourceIndex, question, "src/data/questions/math_past.json");
   }
 
-  for (const question of extractUnofficialQuestions()) {
-    addSourceQuestion(sourceIndex, question, "src/data/unofficialQuestions.ts");
+  const unofficialMath = readJson("src/data/questions/unofficial_math.json");
+  if (Array.isArray(unofficialMath)) {
+    for (const question of unofficialMath) {
+      addSourceQuestion(sourceIndex, question, "src/data/questions/unofficial_math.json");
+    }
   }
 
   const moduleDir = path.join(root, "src/data/modules");
@@ -178,6 +164,187 @@ const asStringArray = (value) =>
         .filter(Boolean)
     : [];
 
+const asBoolean = (value) => typeof value === "boolean" ? value : undefined;
+const asFiniteNumber = (value) => typeof value === "number" && Number.isFinite(value) ? value : undefined;
+const parseExactRational = (value) => {
+  const stripBalancedOuter = (raw) => {
+    let result = raw;
+    while ((result[0] === "(" && result.at(-1) === ")")
+      || (result[0] === "{" && result.at(-1) === "}")) {
+      const opener = result[0];
+      const closer = opener === "(" ? ")" : "}";
+      let depth = 0;
+      let enclosesAll = true;
+      for (let index = 0; index < result.length; index += 1) {
+        if (result[index] === opener) depth += 1;
+        if (result[index] === closer) depth -= 1;
+        if (depth === 0 && index < result.length - 1) {
+          enclosesAll = false;
+          break;
+        }
+        if (depth < 0) return result;
+      }
+      if (!enclosesAll || depth !== 0) break;
+      result = result.slice(1, -1);
+    }
+    return result;
+  };
+  const parseDecimal = (raw) => {
+    const match = String(raw).match(/^([+-]?)(\d+)(?:\.(\d+))?$/);
+    if (!match) return null;
+    const scale = 10n ** BigInt(match[3]?.length ?? 0);
+    const digits = BigInt(`${match[2]}${match[3] ?? ""}`);
+    return { numerator: match[1] === "-" ? -digits : digits, denominator: scale };
+  };
+  let normalized = String(value ?? "")
+    .replace(/[−–—]/g, "-")
+    .replace(/\\(?:left|right)/g, "")
+    .replace(/\s+/g, "");
+  normalized = stripBalancedOuter(normalized);
+  const latexFraction = normalized.match(/^\\frac\{([+-]?\d+(?:\.\d+)?)\}\{([+-]?\d+(?:\.\d+)?)\}$/);
+  if (latexFraction) normalized = `${latexFraction[1]}/${latexFraction[2]}`;
+  const parts = normalized.split("/");
+  if (parts.length > 2) return null;
+  const numerator = parseDecimal(parts[0]);
+  const denominator = parts.length === 2 ? parseDecimal(parts[1]) : { numerator: 1n, denominator: 1n };
+  if (!numerator || !denominator || denominator.numerator === 0n) return null;
+  const sign = denominator.numerator < 0n ? -1n : 1n;
+  return {
+    numerator: numerator.numerator * denominator.denominator * sign,
+    denominator: numerator.denominator * denominator.numerator * sign,
+  };
+};
+const compareExactRationals = (left, right) =>
+  left.numerator * right.denominator < right.numerator * left.denominator
+    ? -1
+    : left.numerator * right.denominator > right.numerator * left.denominator
+      ? 1
+      : 0;
+
+const expressionMetadataErrors = (value, location) => {
+  if (value === undefined) return [];
+  if (!Array.isArray(value)) return [`${location} expressions must be an array`];
+  return value.flatMap((item, expressionIndex) => {
+    const prefix = `${location} expression ${expressionIndex + 1}`;
+    if (typeof item === "string") return item.trim() ? [] : [`${prefix} must not be empty`];
+    const record = asRecord(item);
+    if (!record) return [`${prefix} must be a string or expression object`];
+    const errors = [];
+    const latex = asString(record.latex) ?? asString(record.expression);
+    if (!latex?.trim()) errors.push(`${prefix} needs a nonempty latex/expression string`);
+    for (const key of ["id", "color", "label"]) {
+      if (record[key] !== undefined && typeof record[key] !== "string") errors.push(`${prefix} ${key} must be a string`);
+    }
+    for (const key of ["showLabel", "hidden"]) {
+      if (record[key] !== undefined && typeof record[key] !== "boolean") errors.push(`${prefix} ${key} must be a boolean`);
+    }
+    if (record.playing !== undefined && typeof record.playing !== "boolean") {
+      errors.push(`${prefix} playing must be a boolean`);
+    }
+    if (record.playing === true) errors.push(`${prefix} slider auto-play is not allowed`);
+    if (record.sliderBounds !== undefined) {
+      if (record.playing !== false) errors.push(`${prefix} sliderBounds require explicit playing false`);
+      const sliderBounds = asRecord(record.sliderBounds);
+      if (!sliderBounds || Object.keys(sliderBounds).sort().join(",") !== "max,min,step" ||
+          !["min", "max", "step"].every((key) => typeof sliderBounds[key] === "string" && sliderBounds[key].trim())) {
+        errors.push(`${prefix} sliderBounds must contain nonempty min, max, and step strings`);
+      } else {
+        const parsed = Object.fromEntries(
+          ["min", "max", "step"].map((key) => [key, parseExactRational(sliderBounds[key])]),
+        );
+        if (!parsed.min || !parsed.max || !parsed.step) {
+          errors.push(`${prefix} sliderBounds must be exact numeric values`);
+        } else if (compareExactRationals(parsed.min, parsed.max) >= 0 || compareExactRationals(parsed.step, parseExactRational("0")) <= 0) {
+          errors.push(`${prefix} sliderBounds require min < max and a positive step`);
+        }
+      }
+    }
+    if (record.playing !== undefined && record.sliderBounds === undefined) {
+      errors.push(`${prefix} playing requires explicit sliderBounds`);
+    }
+    const sliderAssignment = latex?.match(/^\s*([A-Za-z](?:_\{[^}]+\}|_[A-Za-z0-9])?)\s*=\s*.+$/);
+    if (record.sliderBounds !== undefined && (!sliderAssignment || ["x", "y"].includes(sliderAssignment[1].replace(/[{}\s]/g, "").toLowerCase()))) {
+      errors.push(`${prefix} sliderBounds require a single parameter assignment`);
+    }
+    if (typeof record.id === "string" && !record.id.trim()) errors.push(`${prefix} id must not be empty`);
+    if (typeof record.color === "string" && !record.color.trim()) errors.push(`${prefix} color must not be empty`);
+    if (typeof record.label === "string" && record.label.trim().toLowerCase() === "undefined") {
+      errors.push(`${prefix} label must not be the literal string "undefined"`);
+    }
+    return errors;
+  });
+};
+
+const explanationExpressionMetadataErrors = (raw) => {
+  const data = asRecord(raw);
+  if (!data) return [];
+  const errors = expressionMetadataErrors(data.desmosExpressions, "top-level Desmos config");
+  if (!Array.isArray(data.steps)) return errors;
+  data.steps.forEach((rawStep, stepIndex) => {
+    const step = asRecord(rawStep);
+    if (!step) return;
+    errors.push(...expressionMetadataErrors(step.desmosExpressions, `step ${stepIndex + 1} inline Desmos config`));
+    if (!Array.isArray(step.desmosGraphs)) return;
+    step.desmosGraphs.forEach((rawGraph, graphIndex) => {
+      const graph = asRecord(rawGraph);
+      if (!graph) return;
+      errors.push(...expressionMetadataErrors(graph.expressions, `step ${stepIndex + 1} Desmos graph ${graphIndex + 1}`));
+    });
+  });
+  return errors;
+};
+
+const normalizeDesmosBounds = (value) => {
+  const bounds = asRecord(value);
+  if (!bounds) return undefined;
+  const left = asFiniteNumber(bounds.left);
+  const right = asFiniteNumber(bounds.right);
+  const bottom = asFiniteNumber(bounds.bottom);
+  const top = asFiniteNumber(bounds.top);
+  if (left === undefined || right === undefined || bottom === undefined || top === undefined) return undefined;
+  if (left >= right || bottom >= top) return undefined;
+  return { left, right, bottom, top };
+};
+
+const normalizeDesmosTables = (value) => {
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((rawTable) => {
+      const table = asRecord(rawTable);
+      if (!table || !Array.isArray(table.columns)) return null;
+      const columns = table.columns
+        .map((rawColumn) => {
+          const column = asRecord(rawColumn);
+          const latex = column ? asString(column.latex) : undefined;
+          if (!latex || !Array.isArray(column.values)) return null;
+          const values = column.values
+            .map((item) => typeof item === "string" || typeof item === "number" ? String(item) : "");
+          return values.some((item) => item.trim().length > 0) ? { latex, values } : null;
+        })
+        .filter(Boolean);
+      return columns.length >= 2 ? { columns } : null;
+    })
+    .filter(Boolean);
+};
+
+const normalizeDesmosGraph = (value) => {
+  const graph = asRecord(value);
+  if (!graph) return null;
+  const expressions = asStringArray(graph.expressions);
+  const tables = normalizeDesmosTables(graph.tables);
+  if (!expressions.length && !tables.length) return null;
+  return {
+    label: asString(graph.label),
+    expressions,
+    tables,
+    bounds: normalizeDesmosBounds(graph.bounds),
+    degreeMode: asBoolean(graph.degreeMode),
+    defaultLogModeRegressions: asBoolean(graph.defaultLogModeRegressions),
+    preserveSquareUnits: asBoolean(graph.preserveSquareUnits),
+    showGraphpaper: asBoolean(graph.showGraphpaper),
+  };
+};
+
 const normalizeStep = (rawStep, index) => {
   if (typeof rawStep === "string") return { title: `Step ${index + 1}`, content: rawStep };
   const step = asRecord(rawStep);
@@ -197,7 +364,15 @@ const normalizeStep = (rawStep, index) => {
     content,
     formula: asString(step.formula),
     desmosExpressions: asStringArray(step.desmosExpressions),
-    desmosGraphs: Array.isArray(step.desmosGraphs) ? step.desmosGraphs : [],
+    desmosTables: normalizeDesmosTables(step.desmosTables),
+    desmosBounds: normalizeDesmosBounds(step.desmosBounds),
+    desmosDegreeMode: asBoolean(step.desmosDegreeMode),
+    desmosDefaultLogModeRegressions: asBoolean(step.desmosDefaultLogModeRegressions),
+    desmosPreserveSquareUnits: asBoolean(step.desmosPreserveSquareUnits),
+    desmosShowGraphpaper: asBoolean(step.desmosShowGraphpaper),
+    desmosGraphs: Array.isArray(step.desmosGraphs)
+      ? step.desmosGraphs.map(normalizeDesmosGraph).filter(Boolean)
+      : [],
   };
 };
 
@@ -209,13 +384,27 @@ const normalizeExplanation = (raw) => {
     ? data.steps.map(normalizeStep).filter(Boolean)
     : [];
 
-  const explanationHtml = asString(data.explanationHtml);
+  const legacyExplanation = asString(data.explanation);
+  const explanationHtml = asString(data.explanationHtml) ?? legacyExplanation;
   if (!steps.length && explanationHtml) steps.push({ title: "Explanation", content: explanationHtml });
 
   const choiceElimination =
     asString(data.choiceElimination) ??
+    asString(data.choiceEliminations) ??
     asString(data.choiceAnalysis) ??
-    asString(data.eliminationHtml);
+    asString(data.eliminationHtml) ??
+    (steps.length ? legacyExplanation : undefined);
+  const rootDesmosExpressions = asStringArray(data.desmosExpressions);
+  const rootDesmosTables = normalizeDesmosTables(data.desmosTables);
+  const rootDesmosConfig = {
+    desmosExpressions: rootDesmosExpressions,
+    desmosTables: rootDesmosTables,
+    desmosBounds: normalizeDesmosBounds(data.desmosBounds),
+    desmosDegreeMode: asBoolean(data.desmosDegreeMode),
+    desmosDefaultLogModeRegressions: asBoolean(data.desmosDefaultLogModeRegressions),
+    desmosPreserveSquareUnits: asBoolean(data.desmosPreserveSquareUnits),
+    desmosShowGraphpaper: asBoolean(data.desmosShowGraphpaper),
+  };
   let appendedChoiceElimination = false;
   if (choiceElimination) {
     const existingText = stripHtml(steps.map((step) => step.content).join(" ")).toLowerCase();
@@ -224,7 +413,7 @@ const normalizeExplanation = (raw) => {
       steps.push({
         title: "Check the choices",
         content: choiceElimination,
-        desmosExpressions: asStringArray(data.desmosExpressions),
+        ...rootDesmosConfig,
         desmosGraphs: [],
       });
       appendedChoiceElimination = true;
@@ -232,11 +421,10 @@ const normalizeExplanation = (raw) => {
   }
 
   if (!appendedChoiceElimination && steps.length) {
-    const desmosExpressions = asStringArray(data.desmosExpressions);
-    if (desmosExpressions.length) {
+    if (rootDesmosExpressions.length || rootDesmosTables.length) {
       steps[steps.length - 1] = {
         ...steps[steps.length - 1],
-        desmosExpressions,
+        ...rootDesmosConfig,
       };
     }
   }
@@ -251,11 +439,14 @@ const normalizeExplanation = (raw) => {
   };
 };
 
-const parseExplanationFiles = () => {
+const parseExplanationFiles = (canonicalIds) => {
   const parsed = new Map();
   let files = [];
   try {
-    files = readdirSync(explanationDir).filter((file) => file.endsWith(".json")).sort();
+    files = readdirSync(explanationDir)
+      .filter((file) => file.endsWith(".json"))
+      .filter((file) => includeOrphans || canonicalIds.has(file.replace(/\.json$/i, "")))
+      .sort();
   } catch (error) {
     addFailure("parse", "public/explanations", error.message, "public/explanations");
     return parsed;
@@ -294,12 +485,14 @@ const stepTexts = (explanation) => {
   for (const step of explanation.steps) {
     values.push(step.title, step.content, step.formula);
     for (const expression of step.desmosExpressions ?? []) values.push(expression);
+    for (const table of step.desmosTables ?? []) {
+      for (const column of table.columns ?? []) values.push(column.latex, ...(column.values ?? []));
+    }
     for (const graph of step.desmosGraphs ?? []) {
-      const record = asRecord(graph);
-      if (!record) continue;
-      values.push(record.label);
-      if (Array.isArray(record.expressions)) {
-        for (const expression of asStringArray(record.expressions)) values.push(expression);
+      values.push(graph.label);
+      for (const expression of graph.expressions ?? []) values.push(expression);
+      for (const table of graph.tables ?? []) {
+        for (const column of table.columns ?? []) values.push(column.latex, ...(column.values ?? []));
       }
     }
   }
@@ -400,6 +593,10 @@ const auditExplanation = (id, source, raw) => {
     return;
   }
 
+  for (const message of explanationExpressionMetadataErrors(raw)) {
+    addFailure("invalidDesmosConfig", id, message, relativePath);
+  }
+
   if (!source.answers.some((answer) => answersMatch(answer, explanation.correctAnswer))) {
     addFailure(
       "correctAnswerMismatches",
@@ -452,7 +649,7 @@ const auditExplanation = (id, source, raw) => {
 };
 
 const sourceIndex = buildSourceIndex();
-const explanations = parseExplanationFiles();
+const explanations = parseExplanationFiles(new Set(sourceIndex.keys()));
 
 for (const [id, source] of sourceIndex) {
   if (!existsSync(path.join(explanationDir, `${id}.json`))) {
@@ -468,6 +665,7 @@ const totalFailures = Object.values(failures).reduce((sum, entries) => sum + ent
 console.log("Math explanation audit");
 console.log(`Expected math questions: ${sourceIndex.size}`);
 console.log(`Explanation files parsed: ${explanations.size}`);
+console.log(`Include orphan explanations: ${includeOrphans}`);
 console.log(`Minimum explanation length: ${minExplanationWords} words`);
 console.log(`Failures: ${totalFailures}`);
 

@@ -4,23 +4,12 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Fastest path: graph or solve the equation",
-      "content": "Type the equation into Desmos as written:<br/>$$|x+4| + 4 = |2x-17| + 4$$Graph or solve it directly and read the x-value that works. The requested value is 4.333,13/3.",
-      "desmosExpressions": [
-        "|x+4| + 4 = |2x-17| + 4"
-      ]
+      "title": "Cancel and split the absolute values",
+      "content": "Subtract $4$ from both sides. If $|A|=|B|$, then $A=B$ or $A=-B$, so<br/>$$x+4=2x-17\\quad\\text{or}\\quad x+4=-(2x-17)$$"
     },
     {
-      "title": "Simplify and split into cases",
-      "content": "Subtracting 4 from both sides reduces the equation to $|x+4| = |2x-17|$. Since $|A| = |B|$ implies $A = B$ or $A = -B$, this absolute-value equation splits into two linear cases."
-    },
-    {
-      "title": "Solve both cases",
-      "content": "<strong>Case 1:</strong> $x + 4 = 2x - 17 \\Rightarrow x = 21$.<br/><strong>Case 2:</strong> $x + 4 = -(2x - 17) \\Rightarrow x + 4 = -2x + 17 \\Rightarrow 3x = 13 \\Rightarrow x = \\dfrac{13}{3}$."
-    },
-    {
-      "title": "Verify both candidates in the original equation",
-      "content": "For absolute-value equations every candidate must be checked.<br/>At $x = 21$: $|21+4| = 25$ and $|2(21)-17| = |25| = 25$. Valid.<br/>At $x = \\tfrac{13}{3}$: $\\left|\\tfrac{13}{3}+4\\right| = \\tfrac{25}{3}$ and $\\left|2\\cdot\\tfrac{13}{3}-17\\right| = \\left|-\\tfrac{25}{3}\\right| = \\tfrac{25}{3}$. Valid."
+      "title": "Solve both linear equations",
+      "content": "The first equation gives $x=21$. The second gives<br/>$$x+4=-2x+17\\Rightarrow 3x=13\\Rightarrow x=\\frac{13}{3}$$<br/>Since $\\frac{13}{3}<21$, the smallest solution is <strong>$\\frac{13}{3}$</strong>."
     }
   ]
 }

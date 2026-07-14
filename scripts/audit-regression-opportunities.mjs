@@ -12,7 +12,16 @@ const args = new Map(
   }),
 );
 
-const reportLimit = args.has("limit") ? Number.parseInt(args.get("limit"), 10) : 40;
+const readPositiveInteger = (key, fallback) => {
+  const raw = args.get(key);
+  if (raw === undefined) return fallback;
+  if (!/^\d+$/.test(raw) || Number(raw) <= 0 || !Number.isSafeInteger(Number(raw))) {
+    throw new Error(`--${key} must be a positive integer: ${raw}`);
+  }
+  return Number(raw);
+};
+
+const reportLimit = readPositiveInteger("limit", 40);
 const jsonOutput = args.get("format") === "json";
 const includeCovered = args.has("include-covered");
 
@@ -31,19 +40,6 @@ const stripHtml = (value) =>
     .replace(/\s+/g, " ")
     .trim();
 
-const extractUnofficialQuestions = () => {
-  const text = readText("src/data/unofficialQuestions.ts");
-  const marker = "export const questions";
-  const markerIndex = text.indexOf(marker);
-  const equalsIndex = text.indexOf("=", markerIndex);
-  const start = text.indexOf("[", equalsIndex);
-  const end = text.lastIndexOf("]");
-  if (markerIndex === -1 || equalsIndex === -1 || start === -1 || end === -1 || end <= start) {
-    throw new Error("Could not locate unofficial questions array");
-  }
-  return JSON.parse(text.slice(start, end + 1));
-};
-
 const isMathQuestion = (question) => {
   if (question?.section) return question.section === "Math";
   const subject = question?.category?.subject;
@@ -56,7 +52,7 @@ const sourceQuestions = () => {
   for (const question of readJson("src/data/questions/math_past.json")) {
     questions.push({ bank: "past", question });
   }
-  for (const question of extractUnofficialQuestions()) {
+  for (const question of readJson("src/data/questions/unofficial_math.json")) {
     if (isMathQuestion(question)) questions.push({ bank: "unofficial", question });
   }
   return questions;
@@ -76,10 +72,73 @@ const asStringArray = (value) =>
         .filter(Boolean)
     : [];
 
+const asBoolean = (value) => typeof value === "boolean" ? value : undefined;
+const asFiniteNumber = (value) => typeof value === "number" && Number.isFinite(value) ? value : undefined;
+
+const normalizeDesmosBounds = (value) => {
+  const bounds = asRecord(value);
+  if (!bounds) return undefined;
+  const left = asFiniteNumber(bounds.left);
+  const right = asFiniteNumber(bounds.right);
+  const bottom = asFiniteNumber(bounds.bottom);
+  const top = asFiniteNumber(bounds.top);
+  if (left === undefined || right === undefined || bottom === undefined || top === undefined) return undefined;
+  if (left >= right || bottom >= top) return undefined;
+  return { left, right, bottom, top };
+};
+
+const normalizeDesmosTables = (value) => {
+  if (!Array.isArray(value)) return [];
+  return value
+    .map((rawTable) => {
+      const table = asRecord(rawTable);
+      if (!table || !Array.isArray(table.columns)) return null;
+      const columns = table.columns
+        .map((rawColumn) => {
+          const column = asRecord(rawColumn);
+          const latex = column ? asString(column.latex) : "";
+          if (!latex || !Array.isArray(column.values)) return null;
+          const values = column.values
+            .map((item) => typeof item === "string" || typeof item === "number" ? String(item) : "");
+          return values.some((item) => item.trim().length > 0) ? { latex, values } : null;
+        })
+        .filter(Boolean);
+      return columns.length >= 2 ? { columns } : null;
+    })
+    .filter(Boolean);
+};
+
+const normalizeDesmosConfig = ({ expressions, tables, bounds, degreeMode, defaultLogModeRegressions, preserveSquareUnits, showGraphpaper }) => ({
+  expressions: asStringArray(expressions),
+  tables: normalizeDesmosTables(tables),
+  bounds: normalizeDesmosBounds(bounds),
+  degreeMode: asBoolean(degreeMode),
+  defaultLogModeRegressions: asBoolean(defaultLogModeRegressions),
+  preserveSquareUnits: asBoolean(preserveSquareUnits),
+  showGraphpaper: asBoolean(showGraphpaper),
+});
+
 const normalizeStep = (step) => {
-  if (typeof step === "string") return { title: "", content: step, desmosExpressions: [] };
+  if (typeof step === "string") return { title: "", content: step, desmosExpressions: [], desmosTables: [] };
   const record = asRecord(step);
-  if (!record) return { title: "", content: "", desmosExpressions: [] };
+  if (!record) return { title: "", content: "", desmosExpressions: [], desmosTables: [] };
+  const configs = [
+    normalizeDesmosConfig({
+      expressions: record.desmosExpressions,
+      tables: record.desmosTables,
+      bounds: record.desmosBounds,
+      degreeMode: record.desmosDegreeMode,
+      defaultLogModeRegressions: record.desmosDefaultLogModeRegressions,
+      preserveSquareUnits: record.desmosPreserveSquareUnits,
+      showGraphpaper: record.desmosShowGraphpaper,
+    }),
+    ...(Array.isArray(record.desmosGraphs)
+      ? record.desmosGraphs
+          .map(asRecord)
+          .filter(Boolean)
+          .map((graph) => normalizeDesmosConfig(graph))
+      : []),
+  ];
   return {
     title: asString(record.title) || asString(record.heading) || asString(record.label),
     content:
@@ -88,42 +147,53 @@ const normalizeStep = (step) => {
       asString(record.step) ||
       asString(record.explanation) ||
       asString(record.explanationHtml),
-    desmosExpressions: [
-      ...asStringArray(record.desmosExpressions),
-      ...(Array.isArray(record.desmosGraphs)
-        ? record.desmosGraphs.flatMap((graph) => asStringArray(asRecord(graph)?.expressions))
-        : []),
-    ],
+    desmosExpressions: configs.flatMap((config) => config.expressions),
+    desmosTables: configs.flatMap((config) => config.tables),
+    desmosConfigs: configs,
   };
 };
+
+const desmosTableText = (tables) =>
+  tables.flatMap((table) => table.columns.flatMap((column) => [column.latex, ...column.values]));
 
 const readExplanation = (id) => {
   const filePath = path.join(explanationDir, `${id}.json`);
   if (!existsSync(filePath)) return null;
   const raw = JSON.parse(readFileSync(filePath, "utf8"));
   const steps = Array.isArray(raw.steps) ? raw.steps.map(normalizeStep) : [];
-  const topLevel = asStringArray(raw.desmosExpressions);
+  const topLevelConfig = normalizeDesmosConfig({
+    expressions: raw.desmosExpressions,
+    tables: raw.desmosTables,
+    bounds: raw.desmosBounds,
+    degreeMode: raw.desmosDegreeMode,
+    defaultLogModeRegressions: raw.desmosDefaultLogModeRegressions,
+    preserveSquareUnits: raw.desmosPreserveSquareUnits,
+    showGraphpaper: raw.desmosShowGraphpaper,
+  });
   const text = [
     raw.correctAnswer,
+    raw.explanation,
     raw.explanationHtml,
+    raw.choiceElimination,
+    raw.choiceEliminations,
     raw.choiceAnalysis,
     raw.eliminationHtml,
-    ...steps.flatMap((step) => [step.title, step.content, ...step.desmosExpressions]),
-    ...topLevel,
+    ...steps.flatMap((step) => [step.title, step.content, ...step.desmosExpressions, ...desmosTableText(step.desmosTables)]),
+    ...topLevelConfig.expressions,
+    ...desmosTableText(topLevelConfig.tables),
   ]
     .filter(Boolean)
     .join(" ");
   return {
     steps,
     text,
-    desmosExpressions: [...steps.flatMap((step) => step.desmosExpressions), ...topLevel],
+    desmosExpressions: [...steps.flatMap((step) => step.desmosExpressions), ...topLevelConfig.expressions],
+    desmosTables: [...steps.flatMap((step) => step.desmosTables), ...topLevelConfig.tables],
   };
 };
 
 const choiceText = (question) => (question.choices ?? []).map((choice) => choice.text ?? "").join(" ");
 const combinedQuestionText = (question) => `${question.text ?? ""} ${choiceText(question)} ${question.rationale ?? ""}`;
-
-const hasAny = (text, patterns) => patterns.some((pattern) => pattern.test(text));
 
 const scoreQuestion = ({ bank, question }) => {
   const id = String(question.id ?? "").trim();
@@ -134,6 +204,7 @@ const scoreQuestion = ({ bank, question }) => {
   const explanation = readExplanation(id);
   const explanationText = stripHtml(explanation?.text ?? "").toLowerCase();
   const expressions = explanation?.desmosExpressions ?? [];
+  const tables = explanation?.desmosTables ?? [];
   const expressionText = expressions.join(" ");
 
   const signals = [];
@@ -169,9 +240,9 @@ const scoreQuestion = ({ bank, question }) => {
   }
 
   const hasRegressionMethod = /\b(?:regression|custom regression|fit|fits|table|l_?1|l_?2|x_?1|y_?1)\b/i.test(explanationText) ||
-    /~|L_\{?[12]\}?|x_\{?1\}?|y_\{?1\}?/i.test(expressionText);
-  const hasDesmos = /\bdesmos\b/i.test(explanationText) || expressions.length > 0;
-  const hasTableMethod = /\b(?:enter|put|type|create)\b.{0,60}\b(?:table|points?|values?)\b/i.test(explanationText);
+    /(?:\\sim|~)|L_\{?[12]\}?|x_\{?1\}?|y_\{?1\}?/i.test(expressionText);
+  const hasDesmos = /\bdesmos\b/i.test(explanationText) || expressions.length > 0 || tables.length > 0;
+  const hasTableMethod = tables.length > 0 || /\b(?:enter|put|type|create)\b.{0,60}\b(?:table|points?|values?)\b/i.test(explanationText);
 
   if (!explanation) {
     signals.push("missing explanation file");
@@ -201,6 +272,7 @@ const scoreQuestion = ({ bank, question }) => {
     answer: question.correctAnswer ?? "",
     hasExplanation: Boolean(explanation),
     desmosExpressionCount: expressions.length,
+    desmosTableCount: tables.length,
     signals,
     prompt: cleanQuestionText.slice(0, 300),
   };
@@ -233,6 +305,7 @@ if (jsonOutput) {
     console.log(`  Skill: ${candidate.skill || "(unknown)"}`);
     console.log(`  Answer: ${candidate.answer || "(missing)"}`);
     console.log(`  Desmos expressions: ${candidate.desmosExpressionCount}`);
+    console.log(`  Desmos tables: ${candidate.desmosTableCount}`);
     console.log(`  Signals: ${candidate.signals.join("; ")}`);
     console.log(`  Prompt: ${candidate.prompt}`);
   }

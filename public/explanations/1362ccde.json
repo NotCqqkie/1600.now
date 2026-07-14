@@ -4,20 +4,33 @@
   "section": "Math",
   "steps": [
     {
-      "title": "Substitute the expression",
-      "content": "Use $y=4x+1$ in the second equation.<br/>$$4y=15x-8$$<br/>$$4(4x+1)=15x-8$$"
-    },
-    {
-      "title": "Solve the system",
-      "content": "Expand and isolate $x$.<br/>$$16x+4=15x-8$$<br/>$$x=-12$$<br/>Then find $y$.<br/>$$y=4(-12)+1=-47$$"
-    },
-    {
-      "title": "Calculator shortcut",
-      "content": "Graph the two equations, read the intersection $(-12,-47)$, and subtract.<br/>$$x-y=-12-(-47)=35$$<br/>The answer is <strong>35</strong>.",
+      "title": "Graph the system",
+      "content": "Enter both equations in Desmos exactly as written. The graphs intersect at $(-12,-47)$, so $x=-12$ and $y=-47$.",
       "desmosExpressions": [
         "y=4x+1",
-        "4y=15x-8"
-      ]
+        "4y=15x-8",
+        {
+          "id": "solution",
+          "latex": "(-12,-47)",
+          "color": "#c74440",
+          "label": "(-12, -47)",
+          "showLabel": true
+        }
+      ],
+      "desmosBounds": {
+        "left": -16,
+        "right": -8,
+        "bottom": -60,
+        "top": -34
+      },
+      "desmosDegreeMode": false,
+      "desmosDefaultLogModeRegressions": true,
+      "desmosPreserveSquareUnits": false,
+      "desmosShowGraphpaper": true
+    },
+    {
+      "title": "Subtract the coordinates",
+      "content": "The question asks for $x-y$, not either coordinate alone.<br/>$$x-y=-12-(-47)=35$$<br/>The answer is <strong>35</strong>."
     }
   ]
 }

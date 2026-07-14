@@ -8,6 +8,7 @@ import { renderMixedContent } from "@/lib/text/mathRendering";
 import { normalizeReadingDisplayText } from "@/lib/text/readingTextNormalization";
 import { normalizeExplanationData } from "@/lib/explanationApi";
 import { createAbortableRequestGuard } from "@/lib/abortableRequestGuard";
+import { formatAcceptedAnswers } from "@/lib/text/answerEquivalence";
 
 interface ExplanationWindowProps {
   onSplitScreenChange?: (isSplit: boolean, windowId: string) => void;
@@ -78,7 +79,7 @@ export const ExplanationWindow = ({
   const renderCorrectAnswerBadge = () =>
     correctAnswerText ? (
       <div className="mb-3 inline-flex rounded-md border border-border bg-muted/30 px-2 py-1 text-xs font-medium text-muted-foreground">
-        Correct answer: {correctAnswerText}
+        Correct answer: {formatAcceptedAnswers(correctAnswerText)}
       </div>
     ) : null;
 

@@ -82,3 +82,22 @@ export const answersEquivalent = (
 
   return acceptedForms.some((form) => matchesSingleAccepted(user, form));
 };
+
+export const formatAcceptedAnswers = (value: string | null | undefined): string => {
+  const rawValue = (value ?? "").toString().trim();
+  if (/^-?\d{1,3}(?:,\d{3})+(?:\.\d+)?$/.test(rawValue)) return rawValue;
+  const forms = [...new Set(rawValue
+    .toString()
+    .split(",")
+    .map((part) => part.trim())
+    .filter(Boolean))];
+  if (forms.length < 2) return forms[0] ?? "";
+  const first = forms[0];
+  const equivalentAliases = forms.every((form) =>
+    answersEquivalent(form, first) || answersEquivalent(first, form));
+  if (equivalentAliases) {
+    return forms.find((form) => /^-?\d+\s*\/\s*-?\d+$/.test(form)) ?? first;
+  }
+  if (forms.length === 2) return `${forms[0]} or ${forms[1]}`;
+  return `${forms.slice(0, -1).join(", ")}, or ${forms[forms.length - 1]}`;
+};

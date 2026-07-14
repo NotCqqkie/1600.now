@@ -6,11 +6,39 @@ const DESMOS_LOAD_ERROR = "Desmos failed to load";
 export interface DesmosCalculator {
   destroy: () => void;
   resize: () => void;
-  setExpression: (expr: { id: string; latex?: string; color?: string }) => void;
+  setExpression: (expr: DesmosExpressionState | DesmosTableState) => void;
+  setMathBounds?: (bounds: { left: number; right: number; bottom: number; top: number }) => void;
   getState?: () => unknown;
+  getExpressions?: () => Array<DesmosExpressionState | DesmosTableState>;
   setState?: (state: unknown, options?: { allowUndo?: boolean }) => void;
   observeEvent?: (eventName: string, callback: () => void) => void;
   unobserveEvent?: (eventName: string, callback: () => void) => void;
+}
+
+export interface DesmosExpressionState {
+  id: string;
+  type?: "expression";
+  latex?: string;
+  color?: string;
+  label?: string;
+  showLabel?: boolean;
+  hidden?: boolean;
+  sliderBounds?: {
+    min: string;
+    max: string;
+    step: string;
+  };
+  playing?: boolean;
+}
+
+export interface DesmosTableState {
+  id: string;
+  type: "table";
+  columns: Array<{
+    latex: string;
+    values: string[];
+    color?: string;
+  }>;
 }
 
 export interface DesmosApi {

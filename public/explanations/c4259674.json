@@ -9,11 +9,7 @@
     },
     {
       "title": "Evaluate the function",
-      "content": "Substitute $21$ for $x$:<br/>$$f(21)=\\frac{4}{21}$$<br/>This does not make the whole product $(4x)^{-1}$, reverse the fraction, or make the function negative.<br/>The answer is <strong>C</strong>.",
-      "desmosExpressions": [
-        "f(x)=4x^(-1)",
-        "x=21"
-      ]
+      "content": "Substitute $21$ for $x$:<br/>$$f(21)=4(21)^{-1}=4\\left(\\frac{1}{21}\\right)=\\frac{4}{21}$$<br/>The answer is <strong>C</strong>."
     }
   ]
 }
