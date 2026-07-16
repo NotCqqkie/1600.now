@@ -148,10 +148,13 @@ const LandingVariant = () => {
             <Link to="/vocab" className="hover:underline">SAT Vocabulary Practice</Link>
           </li>
           <li>
-            <Link to="/bank/math/browse" className="hover:underline">SAT Math Practice</Link>
+            <Link to="/free-sat-prep" className="hover:underline">Free SAT Prep</Link>
           </li>
           <li>
-            <Link to="/bank/reading/browse" className="hover:underline">Reading and Writing Practice</Link>
+            <Link to="/sat-math-practice" className="hover:underline">SAT Math Practice</Link>
+          </li>
+          <li>
+            <Link to="/sat-reading-practice" className="hover:underline">Reading and Writing Practice</Link>
           </li>
           <li>
             <Link to="/hard" className="hover:underline">100 Hard Math Questions</Link>

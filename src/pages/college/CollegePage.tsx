@@ -42,6 +42,16 @@ const carnegieLabel = (code: number | null): string => {
 const collegeSatMid = (college: College): number =>
   normalizeSatScore(college.satMid ?? ((college.sat25 ?? 0) + (college.sat75 ?? 0)) / 2);
 
+const normalizeSatSectionScore = (score: number): number =>
+  Math.min(800, Math.max(200, Math.round(score / 10) * 10));
+
+const SCORE_GOAL_TARGETS = [1000, 1100, 1200, 1250, 1300, 1350, 1400, 1450, 1500, 1550, 1600] as const;
+
+const nearestScoreGoal = (score: number): number =>
+  SCORE_GOAL_TARGETS.reduce((nearest, candidate) =>
+    Math.abs(candidate - score) < Math.abs(nearest - score) ? candidate : nearest,
+  );
+
 const collegeNameCounts = new Map<string, number>();
 for (const c of sitemapEligibleColleges) {
   collegeNameCounts.set(c.name, (collegeNameCounts.get(c.name) ?? 0) + 1);
@@ -79,6 +89,12 @@ const CollegePage = () => {
   const satRange = sat25 && sat75 ? `${sat25}–${sat75}` : null;
   const satMid = satRange ? normalizeSatScore((sat25! + sat75!) / 2) : null;
   const recommendedScore = getRecommendedSatScore(college);
+  const scoreGoal = recommendedScore ? nearestScoreGoal(recommendedScore) : null;
+  const officialUrl = college.url
+    ? college.url.startsWith("http")
+      ? college.url
+      : `https://${college.url}`
+    : null;
 
   const titleName =
     duplicateCollegeNames.has(college.name) && college.state
@@ -215,6 +231,70 @@ const CollegePage = () => {
 
       <section className="mt-10">
         <h2 className="text-2xl font-semibold tracking-tight">
+          What the numbers say about {shortName}
+        </h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-muted-foreground">
+          {sat25 && sat75 && (
+            <li>
+              The reported middle 50% spans {sat75 - sat25} points, from {sat25} to {sat75}. A
+              planning score near or above {recommendedScore} gives you a target above that
+              historical range, not an admission guarantee.
+            </li>
+          )}
+          {college.satRwMid && college.satMathMid && (
+            <li>
+              The reported section midpoints are {normalizeSatSectionScore(college.satRwMid)} Reading
+              and Writing and {normalizeSatSectionScore(college.satMathMid)} Math. Use the lower section
+              as the first place to look for recoverable points in your own score split.
+            </li>
+          )}
+          {college.acceptanceRate != null && (
+            <li>
+              The Scorecard snapshot reports a {formatPct(college.acceptanceRate)} acceptance
+              rate. That rate describes a past applicant pool and should not be read as your
+              personal admission probability.
+            </li>
+          )}
+          {(college.completionRate != null || college.earnings10yr != null) && (
+            <li>
+              Reported outcomes include a {formatPct(college.completionRate)} completion rate
+              and {formatUsd(college.earnings10yr)} in median earnings 10 years after entry.
+              Compare those figures with cost and program fit, not in isolation.
+            </li>
+          )}
+        </ul>
+        <div className="mt-4 flex flex-wrap gap-2">
+          {satMid && (
+            <Link
+              to={`/sat-score/${satMid}`}
+              className="rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+            >
+              Understand a {satMid} SAT score
+            </Link>
+          )}
+          {scoreGoal && (
+            <Link
+              to={`/how-to-get-${scoreGoal}-sat`}
+              className="rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+            >
+              Plan for a {scoreGoal}
+            </Link>
+          )}
+          {officialUrl && (
+            <a
+              href={officialUrl}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-muted"
+            >
+              Verify current admissions policy
+            </a>
+          )}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="text-2xl font-semibold tracking-tight">
           Tuition and outcomes
         </h2>
         <div className="mt-4 grid gap-3 md:grid-cols-2">
@@ -284,16 +364,44 @@ const CollegePage = () => {
           <h2 className="text-2xl font-semibold tracking-tight">
             Colleges with similar SAT scores
           </h2>
-          <ul className="mt-3 list-disc space-y-1 pl-6 text-muted-foreground">
-            {similarColleges.map((c) => (
-              <li key={c.slug}>
-                <Link className="hover:underline" to={`/college/${c.slug}`}>
-                  {c.name}
-                </Link>
-                {c.sat25 && c.sat75 && ` · SAT ${normalizeSatScore(c.sat25)}–${normalizeSatScore(c.sat75)}`}
-              </li>
-            ))}
-          </ul>
+          <p className="mt-3 text-sm text-muted-foreground">
+            Ranked by proximity to {shortName}&apos;s reported SAT midpoint. Similar scores do
+            not imply similar programs, cost, or admission odds.
+          </p>
+          <div className="mt-4 overflow-x-auto rounded-lg border border-border">
+            <table className="w-full min-w-[620px] text-left text-sm">
+              <thead className="bg-muted/70">
+                <tr>
+                  <th className="px-4 py-3 font-semibold">College</th>
+                  <th className="px-4 py-3 font-semibold">Location</th>
+                  <th className="px-4 py-3 font-semibold">SAT middle 50%</th>
+                  <th className="px-4 py-3 font-semibold">Acceptance rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                {similarColleges.map((c) => (
+                  <tr key={c.slug} className="border-t border-border">
+                    <td className="px-4 py-3 font-medium">
+                      <Link className="hover:underline" to={`/college/${c.slug}`}>
+                        {c.name}
+                      </Link>
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {[c.city, c.state].filter(Boolean).join(", ") || "—"}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {c.sat25 && c.sat75
+                        ? `${normalizeSatScore(c.sat25)}–${normalizeSatScore(c.sat75)}`
+                        : "—"}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {formatPct(c.acceptanceRate)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </section>
       )}
 
@@ -309,16 +417,16 @@ const CollegePage = () => {
         </div>
       </section>
 
-      {college.url && (
+      {officialUrl && (
         <section className="mt-10 text-sm text-muted-foreground">
           Official site:{" "}
           <a
             className="underline"
-            href={college.url.startsWith("http") ? college.url : `https://${college.url}`}
+            href={officialUrl}
             rel="noopener noreferrer"
             target="_blank"
           >
-            {college.url.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+            {officialUrl.replace(/^https?:\/\//, "").replace(/\/$/, "")}
           </a>
         </section>
       )}

@@ -10,6 +10,51 @@
     ],
     "redirects": [
       {
+        "source": "/free-sat-practice",
+        "destination": "/free-sat-prep",
+        "type": 301
+      },
+      {
+        "source": "/digital-sat-prep",
+        "destination": "/free-sat-prep",
+        "type": 301
+      },
+      {
+        "source": "/online-sat-prep",
+        "destination": "/free-sat-prep",
+        "type": 301
+      },
+      {
+        "source": "/best-sat-prep",
+        "destination": "/free-sat-prep",
+        "type": 301
+      },
+      {
+        "source": "/sat-study-guide",
+        "destination": "/free-sat-prep",
+        "type": 301
+      },
+      {
+        "source": "/sat-practice-test",
+        "destination": "/modules",
+        "type": 301
+      },
+      {
+        "source": "/sat-practice-questions",
+        "destination": "/bank",
+        "type": 301
+      },
+      {
+        "source": "/sat-question-bank-free",
+        "destination": "/bank",
+        "type": 301
+      },
+      {
+        "source": "/sat-writing-practice",
+        "destination": "/sat-reading-practice",
+        "type": 301
+      },
+      {
         "source": "/browse",
         "destination": "/bank",
         "type": 301

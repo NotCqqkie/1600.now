@@ -1,4 +1,4 @@
-import { useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { useDeferredValue, useState, useMemo, useEffect } from "react";
 import {
   loadQuestionsByDomain,
@@ -25,6 +25,7 @@ import {
   Search,
   Flag,
   CheckCircle2,
+  BookOpen,
 } from "lucide-react";
 import { BankSourceToggle } from "@/components/question/BankSourceToggle";
 import { useAuth } from "@/contexts/AuthContext";
@@ -35,6 +36,7 @@ import {
   type QuestionUiStateMap,
 } from "@/lib/practice/questionUiState";
 import { clearBankQuestionViewModeStorage } from "@/lib/questionViewModeStorage";
+import { getSatSkillGuide } from "@/lib/seo-data/satSkillsData";
 
 const isAnsweredQuestionState = (state: QuestionUiState | undefined) =>
   Boolean(state?.answer) ||
@@ -68,6 +70,7 @@ const BankFiltered = () => {
   const isMath = validSubject === "math";
   const decodedFilter = filterValue || "";
   const bankSource = normalizeBankSource(searchParams.get("bankType"));
+  const skillGuide = filterType === "skill" ? getSatSkillGuide(decodedFilter) : undefined;
   const basePath = "/bank";
   const bankQuerySuffix = `?bankType=${bankSource}`;
 
@@ -184,6 +187,24 @@ const BankFiltered = () => {
           </div>
 
           <BankSourceToggle value={bankSource} onChange={handleBankSourceChange} />
+
+          {skillGuide && (
+            <Card className="flex items-start gap-3 p-4">
+              <BookOpen className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+              <div>
+                <p className="font-semibold">Review the {skillGuide.name} guide</p>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Read the core rules and shortcuts, then return here for targeted practice.
+                </p>
+                <Link
+                  to={`/sat-skill/${skillGuide.slug}`}
+                  className="mt-2 inline-block text-sm font-semibold underline"
+                >
+                  Learn {skillGuide.name}
+                </Link>
+              </div>
+            </Card>
+          )}
 
           <Card className="p-4 flex items-center gap-6">
             <div className="flex items-center gap-2">

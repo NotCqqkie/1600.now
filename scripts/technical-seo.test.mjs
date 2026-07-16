@@ -105,6 +105,25 @@ test("Firebase Hosting uses narrow SPA rewrites and permanent legacy redirects",
   const { redirects, rewrites, headers } = config.hosting;
 
   assert.ok(redirects.some((rule) => rule.source === "/browse" && rule.destination === "/bank" && rule.type === 301));
+  const consolidatedLandingRedirects = new Map([
+    ["/free-sat-practice", "/free-sat-prep"],
+    ["/digital-sat-prep", "/free-sat-prep"],
+    ["/online-sat-prep", "/free-sat-prep"],
+    ["/best-sat-prep", "/free-sat-prep"],
+    ["/sat-study-guide", "/free-sat-prep"],
+    ["/sat-practice-test", "/modules"],
+    ["/sat-practice-questions", "/bank"],
+    ["/sat-question-bank-free", "/bank"],
+    ["/sat-writing-practice", "/sat-reading-practice"],
+  ]);
+  for (const [source, destination] of consolidatedLandingRedirects) {
+    assert.ok(
+      redirects.some(
+        (rule) => rule.source === source && rule.destination === destination && rule.type === 301,
+      ),
+      `${source} should permanently redirect to ${destination}`,
+    );
+  }
   assert.ok(
     redirects.some(
       (rule) =>

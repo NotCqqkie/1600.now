@@ -1,6 +1,6 @@
 import type { MathSkill, EnglishSkill } from "@/data/questionCategories";
 
-interface SatSkill {
+export interface SatSkill {
   slug: string;
   name: string;
   section: "Math" | "Reading & Writing";
@@ -482,3 +482,10 @@ export const satSkills: SatSkill[] = [
 ];
 
 export const satSkillBySlug = new Map(satSkills.map((skill) => [skill.slug, skill]));
+
+const satSkillByOfficialSkill = new Map(
+  satSkills.map((skill) => [skill.officialSkill.trim().toLowerCase(), skill]),
+);
+
+export const getSatSkillGuide = (officialSkill: string): SatSkill | undefined =>
+  satSkillByOfficialSkill.get(officialSkill.trim().toLowerCase());

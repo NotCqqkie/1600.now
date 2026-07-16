@@ -396,6 +396,10 @@ async function main() {
       route,
     );
     await page.evaluate(() => document.documentElement.scrollHeight);
+    await page.evaluate(() => {
+      const deferredFonts = document.querySelector("link[data-deferred-fonts]");
+      if (deferredFonts) deferredFonts.rel = "preload";
+    });
     const html = normalizeLocalAssetUrls(await page.content());
     const out = outputPathFor(route);
     mkdirSync(path.dirname(out), { recursive: true });

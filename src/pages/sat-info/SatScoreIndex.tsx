@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import { PageSeo, buildBreadcrumbJsonLd } from "@/components/seo/PageSeo";
+import { howToGetTargets } from "@/lib/seo-data/scoreGoalData";
 import { allSatScores } from "@/lib/seo-data/satScoreData";
 
 const TITLE = "SAT Score Breakdowns: Every 400–1600 SAT Score Explained";
@@ -79,6 +80,36 @@ const SatScoreIndex = () => {
           first, then drill the section that is holding the total down.
         </p>
       </header>
+
+      <section className="mb-10 rounded-xl border border-border p-5">
+        <h2 className="text-2xl font-semibold tracking-tight">
+          SAT score improvement guides
+        </h2>
+        <p className="mt-3 text-muted-foreground">
+          Pick a target score for a section split, practice priorities, and a
+          week-by-week plan. These are planning guides, not fixed guarantees.
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-2">
+          {howToGetTargets.map((score) => (
+            <li key={score}>
+              <Link
+                to={`/how-to-get-${score}-sat`}
+                className="inline-flex rounded-md border border-border px-3 py-1.5 text-sm hover:bg-muted"
+              >
+                How to get a {score}
+              </Link>
+            </li>
+          ))}
+          <li>
+            <Link
+              to="/perfect-sat-score-1600"
+              className="inline-flex rounded-md border border-border px-3 py-1.5 text-sm hover:bg-muted"
+            >
+              Perfect 1600 guide
+            </Link>
+          </li>
+        </ul>
+      </section>
 
       <div className="grid gap-3">
         {SCORE_BANDS.map(([range, tier, nextStep]) => (

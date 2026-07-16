@@ -79,6 +79,24 @@ const SatSkillIndex = () => {
         </ol>
       </section>
 
+      <section className="mb-10">
+        <h2 className={SECTION_HEADING_CLASS}>Choose a practice path</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <Link to="/free-sat-prep" className="rounded-xl border border-border p-4 transition hover:bg-muted">
+            <div className="font-semibold">Free SAT prep plan</div>
+            <p className="mt-1 text-sm text-muted-foreground">Build a complete diagnostic, drill, and timed-module routine.</p>
+          </Link>
+          <Link to="/sat-math-practice" className="rounded-xl border border-border p-4 transition hover:bg-muted">
+            <div className="font-semibold">SAT Math practice</div>
+            <p className="mt-1 text-sm text-muted-foreground">Target all four Math domains by official skill.</p>
+          </Link>
+          <Link to="/sat-reading-practice" className="rounded-xl border border-border p-4 transition hover:bg-muted">
+            <div className="font-semibold">Reading and Writing practice</div>
+            <p className="mt-1 text-sm text-muted-foreground">Drill evidence, vocabulary, rhetoric, and grammar.</p>
+          </Link>
+        </div>
+      </section>
+
       {SKILL_GROUPS.map((group) => (
         <section key={group.heading} className="mb-10">
           <h2 className={SECTION_HEADING_CLASS}>
