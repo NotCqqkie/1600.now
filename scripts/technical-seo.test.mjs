@@ -29,6 +29,23 @@ test("SPA shell does not leak homepage search metadata", () => {
   assert.match(output, /src="\/assets\/index-test\.js"/);
 });
 
+test("homepage description stays snippet-ready and consistent", () => {
+  const homepageDescription =
+    "Free Digital SAT prep on 1600.now: 8,500+ questions from past tests, timed modules, detailed explanations, and a score calculator. No signup required.";
+  const indexHtml = readFileSync(new URL("../index.html", import.meta.url), "utf8");
+  const seoSource = readFileSync(
+    new URL("../src/components/seo/Seo.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.ok(homepageDescription.length >= 120 && homepageDescription.length <= 160);
+  assert.match(
+    indexHtml,
+    new RegExp(`name="description"\\s+content="${homepageDescription.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`),
+  );
+  assert.ok(seoSource.includes(homepageDescription));
+});
+
 test("custom 404 is crawl-safe and useful without JavaScript", () => {
   const output = create404Html(shell);
   assert.match(output, /<title>Page Not Found \| 1600\.now<\/title>/);

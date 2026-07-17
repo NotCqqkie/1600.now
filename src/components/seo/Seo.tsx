@@ -24,7 +24,7 @@ const routeMetadata: RouteMetadata[] = [
     pattern: "/",
     title: "Free Digital SAT Practice & Question Bank | 1600.now",
     description:
-      "Free Digital SAT prep. Every practice question is instantly filterable by domain, skill, and difficulty — plus full adaptive modules, a score calculator, and detailed explanations.",
+      "Free Digital SAT prep on 1600.now: 8,500+ questions from past tests, timed modules, detailed explanations, and a score calculator. No signup required.",
   },
   {
     pattern: "/modules",
