@@ -48,7 +48,7 @@ afterEach(() => {
 });
 
 describe("analytics consent", () => {
-  it("uses cookieless measurement by default and honors explicit revocation", async () => {
+  it("measures by default and honors explicit revocation", async () => {
     createBrowserGlobals();
     const {
       getAnalyticsConsent,
@@ -58,7 +58,7 @@ describe("analytics consent", () => {
 
     expect(getAnalyticsConsent()).toBe("unset");
     await initAnalytics();
-    expect(firebaseAnalyticsMocks.getAnalyticsPromise).toHaveBeenCalledWith("denied");
+    expect(firebaseAnalyticsMocks.getAnalyticsPromise).toHaveBeenCalledWith("granted");
     expect(firebaseAnalyticsMocks.bundle.setUserId).toHaveBeenCalledWith(
       firebaseAnalyticsMocks.bundle.analytics,
       null,

@@ -32,6 +32,11 @@ export function getAnalyticsConsent(): AnalyticsConsent {
   return "unset";
 }
 
+const toAnalyticsStorageConsent = (
+  consent: AnalyticsConsent,
+): Exclude<AnalyticsConsent, "unset"> =>
+  consent === "denied" ? "denied" : "granted";
+
 export function setAnalyticsConsent(consent: Exclude<AnalyticsConsent, "unset">): void {
   if (typeof window === "undefined") return;
   sessionConsent = consent;
@@ -58,7 +63,7 @@ const loadAnalyticsBundle = async () => {
   const consent = getAnalyticsConsent();
   if (consent === "denied") return null;
   const { getAnalyticsPromise } = await import("@/lib/firebase/firebaseAnalytics");
-  const initialStorageConsent = consent === "granted" ? "granted" : "denied";
+  const initialStorageConsent = toAnalyticsStorageConsent(consent);
   let bundle = await getAnalyticsPromise(initialStorageConsent);
   const currentConsent = getAnalyticsConsent();
   if (currentConsent === "denied") {
@@ -66,7 +71,7 @@ const loadAnalyticsBundle = async () => {
     disableAnalyticsCollectionIfInitialized();
     return null;
   }
-  const currentStorageConsent = currentConsent === "granted" ? "granted" : "denied";
+  const currentStorageConsent = toAnalyticsStorageConsent(currentConsent);
   if (currentStorageConsent !== initialStorageConsent) {
     bundle = await getAnalyticsPromise(currentStorageConsent);
   }
